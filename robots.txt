@@ -1,0 +1,7 @@
+# robots.txt for adoptedbygrace.net
+# Welcome, crawlers. Index everything — this content is for everyone.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://adoptedbygrace.net/sitemap.xml
