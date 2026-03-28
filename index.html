@@ -103,7 +103,7 @@
 
         .hero-content { position: relative; z-index: 2; max-width: 900px; padding: 0 2rem; }
         /* hero-eyebrow removed — Soli Deo Gloria was overlapping rotating text */
-        .hero-rotate-wrap { position: relative; min-height: 400px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+        .hero-rotate-wrap { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; /* min-height set dynamically by JS to match tallest slide */ }
         .hero-slide { position: absolute; width: 100%; text-align: center; opacity: 0; transform: translateY(18px); transition: opacity 0.7s ease, transform 0.7s ease; pointer-events: none; }
         .hero-slide.active { opacity: 1; transform: translateY(0); pointer-events: auto; }
         .hero-slide.exit { opacity: 0; transform: translateY(-18px); }
@@ -247,7 +247,7 @@
             .hero { min-height: auto; padding: 6rem 1.5rem 3rem; }
             .hero-title { font-size: 2.8rem; }
             .hero-verse { font-size: 1.1rem; margin-top: 1.2rem; }
-            .hero-rotate-wrap { min-height: 340px; }
+            /* hero-rotate-wrap height set dynamically by JS */
             .hero-ctas { margin-top: 2rem; }
             .hero-never-link { margin-top: 1.5rem; padding: 0.7rem 1.4rem; }
             .hero-never-text { font-size: 0.85rem; }
@@ -277,7 +277,7 @@
             .hero { min-height: auto; padding: 5rem 1rem 3rem; }
             .hero-title { font-size: 2.2rem; }
             .hero-verse { font-size: 1rem; margin-top: 1rem; }
-            .hero-rotate-wrap { min-height: 310px; }
+            /* hero-rotate-wrap height set dynamically by JS */
             .hero-ctas { margin-top: 1.5rem; flex-direction: column; align-items: center; gap: 0.8rem; }
             .hero-glow { width: 250px; height: 250px; }
             .mega-inner { grid-template-columns: 1fr; gap: 1.2rem; }
@@ -729,6 +729,7 @@ body {
                 <ul>
                     <li><a href="/about">About</a></li>
                     <li><a href="/connect">Contact</a></li>
+                    <li><a href="mailto:foreknownone@adoptedbygrace.net">Email Us</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>
@@ -1068,6 +1069,28 @@ body {
 
         let current = 0;
         const slides = wrap.querySelectorAll('.hero-slide');
+
+        // Dynamically size container to tallest slide — prevents ALL overlap at every screen size
+        function sizeWrap() {
+            let maxH = 0;
+            slides.forEach(s => {
+                // Temporarily make visible and flow-positioned to measure natural height
+                const prevPos = s.style.position;
+                const prevOp = s.style.opacity;
+                const prevVis = s.style.visibility;
+                s.style.position = 'relative';
+                s.style.opacity = '0';
+                s.style.visibility = 'hidden';
+                const h = s.offsetHeight;
+                s.style.position = prevPos;
+                s.style.opacity = prevOp;
+                s.style.visibility = prevVis;
+                if (h > maxH) maxH = h;
+            });
+            wrap.style.minHeight = (maxH + 20) + 'px'; // 20px breathing room
+        }
+        sizeWrap();
+        window.addEventListener('resize', sizeWrap);
 
         // Set CSS variable for progress bar timing
         document.documentElement.style.setProperty('--hero-interval', INTERVAL + 'ms');
