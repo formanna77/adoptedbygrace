@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A meditative reflection on Irresistible Grace and the sovereign work of God in salvation. Discover how grace comes not as an invitation, but as a divine rescue.">
+    <meta name="theme-color" content="#0d0b08">
+    <meta property="og:title" content="Rescued Without a Say – Devotional">
+    <meta property="og:description" content="A meditative reflection on Irresistible Grace and the sovereign work of God in salvation.">
+    <meta property="og:url" content="https://adoptedbygrace.net/devotional-rescued-without-a-say.html">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rescued Without a Say – Devotional">
+    <meta name="twitter:description" content="A meditative reflection on Irresistible Grace and the sovereign work of God in salvation.">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.jpg">
+    <link rel="canonical" href="https://adoptedbygrace.net/devotional-rescued-without-a-say.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <title>Rescued Without a Say – Devotional | Adopted by Grace</title>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Rescued Without a Say: A Meditation on Irresistible Grace",
+        "description": "A meditative reflection on the sovereign, monergistic work of God in salvation.",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "datePublished": "2026-03-27",
+        "dateModified": "2026-03-27",
+        "image": "https://adoptedbygrace.net/og-image.jpg",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://adoptedbygrace.net/favicon.svg"
+            }
+        }
+    }
+    </script>
+    <style>
+        :root {
+            --bg-deep: #0d0b08;
+            --bg-card: #14120e;
+            --bg-card-hover: #1c1914;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        *:focus-visible {
+            outline: 2px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 100;
+            font-weight: 600;
+            border-radius: 0 0 8px 0;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        /* Reading Progress Bar */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: linear-gradient(to right, var(--accent-gold), var(--accent-violet));
+            width: 0%;
+            z-index: 50;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border-subtle);
+            position: sticky;
+            top: 0;
+            z-index: 40;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.1em;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 6px;
+            padding: 0;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--accent-gold);
+            transition: all 0.3s ease;
+            border-radius: 2px;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(10px, 10px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+
+        /* Main content */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .breadcrumb a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent-ember);
+        }
+
+        .article-header {
+            margin-bottom: 3rem;
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 2rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .article-meta {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .article-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin: 2.5rem 0 1.5rem 0;
+            color: var(--text-primary);
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 1.8rem 0 1rem 0;
+            color: var(--accent-gold);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .verse-block {
+            background: var(--bg-card);
+            border-left: 3px solid var(--accent-gold);
+            padding: 1.5rem 2rem;
+            margin: 2rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .verse-block p {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--text-primary);
+            text-align: left;
+        }
+
+        .verse-block cite {
+            display: block;
+            margin-top: 0.75rem;
+            font-style: normal;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.05em;
+        }
+
+        .devotional-opening {
+            font-size: 1.1rem;
+            line-height: 1.9;
+            color: var(--text-secondary);
+            margin: 2rem 0;
+            padding-left: 1.5rem;
+            border-left: 2px solid var(--accent-violet);
+        }
+
+        .reflection-box {
+            background: rgba(139, 92, 246, 0.08);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            padding: 1.5rem 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .reflection-box h4 {
+            color: var(--accent-violet);
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .reflection-box p {
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+
+        .quote-attribution {
+            text-align: right;
+            font-style: italic;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+        }
+
+        em {
+            color: var(--accent-ember);
+            font-style: italic;
+        }
+
+        strong {
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        /* Share buttons */
+        .share-buttons {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 3rem 0;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border-subtle);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .share-label {
+            font-weight: 600;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--accent-gold);
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .share-btn:hover {
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border-color: var(--accent-gold);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            margin-top: 4rem;
+            padding: 3rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section p {
+            text-align: left;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section ul li a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .footer-section ul li a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-subtle);
+            padding-top: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 30;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-ember);
+            transform: translateY(-5px);
+        }
+
+        .back-to-top.show {
+            display: flex;
+        }
+
+        /* Related links */
+        .related-links {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 3rem 0;
+        }
+
+        .related-links h4 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent-gold);
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .related-links ul {
+            list-style: none;
+        }
+
+        .related-links ul li {
+            margin-bottom: 0.75rem;
+        }
+
+        .related-links a {
+            color: var(--accent-violet);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .related-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background-color: var(--bg-card);
+                border-bottom: 1px solid var(--border-subtle);
+                gap: 0;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+            }
+
+            .nav-links.open {
+                max-height: 500px;
+                padding: 1rem 2rem;
+            }
+
+            .nav-links li {
+                padding: 0.5rem 0;
+                border-bottom: 1px solid var(--border-subtle);
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            main {
+                padding: 2rem 1.5rem;
+            }
+
+            .back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+                font-size: 1.2rem;
+            }
+
+            .share-buttons {
+                flex-wrap: wrap;
+            }
+
+            p {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="this.classList.toggle('active');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('active'))">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="start-here.html">Start Here</a></li>
+                <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
+                <li><a href="demolition-hub.html">Demolition</a></li>
+                <li><a href="theologians.html">Theologians</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <div class="breadcrumb">
+            <span>←</span>
+            <a href="devotionals.html">Back to Devotionals</a>
+        </div>
+
+        <article>
+            <header class="article-header">
+                <h1>Rescued Without a Say</h1>
+                <div class="article-meta">
+                    <span>📖 Devotional</span>
+                    <span>⏱ 8 min read</span>
+                    <span>✝️ Reformed Theology</span>
+                </div>
+            </header>
+
+            <div class="devotional-opening">
+                <p>There is a scene in every rescue movie where the hero bursts through a door and carries someone out of a burning building. The rescued person did not file a request. They did not fill out a form. They were unconscious on the floor, lungs full of smoke, seconds from death. And someone came. They were lifted—whether they wanted to be or not—away from the flames and into the open air.</p>
+                <p>The gospel of Jesus Christ is written in that scene.</p>
+            </div>
+
+            <h2>The Silence of the Dead</h2>
+
+            <p>We do not like to think of ourselves as unconscious. We prefer the language of choice, autonomy, agency. We are the architects of our own destiny, the captains of our own souls. The modern world has built entire monuments to the sovereignty of human will. And yet, when the Scripture speaks of our condition apart from God, it uses a vocabulary that should unsettle us.</p>
+
+            <p>Dead. We are dead in our trespasses and sins. Not <em>sick</em>—dead. Not <em>weakened</em>—dead. The Scripture is unsparing: "And you were dead in the trespasses and sins in which you once walked" (Ephesians 2:1-2). A dead man does not choose resurrection. A dead man does not file papers or submit applications. A dead man simply lies still.</p>
+
+            <p>And the gospel does not ask the dead what they think about being resurrected.</p>
+
+            <p>John's Gospel, in its opening chapter, cuts to the theological heart of this truth with devastating clarity. Listen to these words:</p>
+
+            <div class="verse-block">
+                <p>"But to all who did receive him, who believed in his name, he gave the right to become children of God, who were born, not of blood nor of the will of the flesh nor of the will of man, but of God."</p>
+                <cite>John 1:12-13 (ESV)</cite>
+            </div>
+
+            <p>Read that verse carefully. Marinate in its construction. This is not poetry for decoration. This is systematic theology wrapped in the most economical language John could find. He is building a logical wall, brick by brick, eliminating every possible source of our salvation except one.</p>
+
+            <h3>Three Negations, One Affirmation</h3>
+
+            <p><strong>Not of blood.</strong> Your lineage does not save you. The accident of your birth—whether you were born to Christian parents, a pastor's family, a dynasty of theologians—this confers nothing upon you. Heredity is no substitute for the new birth. All the spiritual genealogy in the world cannot beget you into the kingdom of God. The Jews were trusting in this very thing. They were the children of Abraham. Surely this meant something? John says: no. Not of blood.</p>
+
+            <p><strong>Nor of the will of the flesh.</strong> Your desires cannot save you. This is where the modern evangelical church often stumbles. We have created an entire sub-religion built on the assumption that you must first want to be saved, must first choose Jesus, must first feel a stirring in your heart. And then—if you are sufficiently motivated, sufficiently convicted, sufficiently desirous of salvation—then perhaps God will cooperate with your will. This is not the gospel. This is humanism with a cross pin.</p>
+
+            <p>The flesh—unredeemed human nature—is enmity against God. It cannot want what is good. "The natural person does not accept the things of the Spirit of God," Paul tells us, "for they are folly to him, and he is not able to understand them because they are spiritually discerned" (1 Corinthians 2:14). The flesh does not hunger for righteousness until the Spirit makes it hunger. The natural will is not free; it is enslaved to sin. And as Martin Luther would later write with crushing honesty: <em>"Man's will is like a beast standing between two riders. If God rides it, it wills and goes where God wills: as the Psalmist saith, 'I am formed in thy hands.' If Satan rides it, it wills and goes where Satan wills."</em></p>
+
+            <p>We do not begin the Christian life by choosing it. We begin by being chosen. And being chosen precedes all willing.</p>
+
+            <p><strong>Nor of the will of man.</strong> Here is the third negation, and perhaps the most violently opposed in our age. Your decision does not save you. Your commitment does not save you. Your prayer—sincerely felt though it may be—does not save you. There is something in the human soul that recoils from this. We want salvation to be a transaction in which we have negotiating power. We want to sign the contract. We want our name on the dotted line. We want to be the ones who said yes.</p>
+
+            <p>But the gospel says: You did not say yes. You were saying no—violently, continuously, in every fiber of your being. And while you were still hostile, still dead, still running the opposite direction, God said yes. God said yes to you when every human court would have convicted you. God said yes to you when every honest reckoning of justice would have condemned you. God said yes—not because you agreed to it, but despite your disagreement. Not because you chose it, but because He chose you.</p>
+
+            <div class="verse-block">
+                <p>"Jesus said to them, 'You did not choose me, but I chose you and appointed you that you should go and bear fruit and that your fruit should abide.'"</p>
+                <cite>John 15:16a (ESV)</cite>
+            </div>
+
+            <h3>The Scandal of Monergism</h3>
+
+            <p>The theology class name for this doctrine is "monergism"—the idea that God acts alone in salvation. <em>Mono</em> (one) + <em>ergon</em> (work). One work. One worker. Not a partnership. Not a collaboration. Not even a dance. God works, and the dead are made alive. The blind are given sight. The enslaved are set free.</p>
+
+            <p>And we find this doctrine not in the dusty corner of some scholastic textbook, but in the immediate narrative of Scripture itself. Consider the prophet Jonah. Here is a man who, having been assigned by God to preach to Nineveh, does the precise opposite. He flees. He takes a ship going the wrong direction. He descends into the hold. And when the storm comes and the sailors are about to kill him, he asks them to throw him into the sea.</p>
+
+            <p>He did not want to be rescued.</p>
+
+            <p>But God had other plans. A great fish swallowed him. For three days and three nights, Jonah lived in the belly of that fish—at the bottom of the ocean, surrounded by darkness, convinced he was dead. This was not a gentle invitation. This was not a soft call to reconsider. This was divine intervention. This was rescue that came whether Jonah willed it or not.</p>
+
+            <p>And what did Jonah say when he finally understood what was happening? He spoke from the depths of the sea, from inside that fish, the words that every soul eventually speaks when it realizes it has been grasped by grace:</p>
+
+            <div class="verse-block">
+                <p>"But I with a voice of thanksgiving will sacrifice to you; what I have vowed I will pay. Salvation belongs to the LORD!"</p>
+                <cite>Jonah 2:9 (ESV)</cite>
+            </div>
+
+            <p><em>Salvation belongs to the LORD.</em> Not to Jonah's decision. Not to Jonah's effort. Not to Jonah's willingness. To the <em>Lord</em>. The man who ran from God, now drowning in the sea, finally understood: his rescue was God's prerogative alone.</p>
+
+            <h3>The Conversion of the Persecutor</h3>
+
+            <p>Perhaps the most striking conversion in all of Scripture is that of Saul of Tarsus, who would become Paul the Apostle. And it is striking precisely because it was <em>not</em> a conversion in the way we typically think of conversion. It was not a gradual awakening. It was not a growing sense of conviction. It was not a man who finally said yes after long wrestling.</p>
+
+            <p>Saul was not seeking Jesus. He was hunting Christians. Acts 9 tells us: "Saul, still breathing threats and murder against the disciples of the Lord, went to the high priest and asked him for letters to the synagogues at Damascus, so that if he found any belonging to the Way, both men and women, he might bring them bound to Jerusalem."</p>
+
+            <p>This was not a seeker. This was a persecutor.</p>
+
+            <p>And then: "Now as he went on his way, he approached Damascus, and suddenly a light from heaven flashed around him. And falling to the ground he heard a voice saying to him, 'Saul, Saul, why are you persecuting me?' And he said, 'Who are you, Lord?' And he said, 'I am Jesus, whom you are persecuting.'"</p>
+
+            <p>Jesus did not send Saul a pamphlet. He did not leave Saul a message. He knocked him off his horse. He blinded him. He put him in the dust. This is not an invitation. This is an intervention. This is irresistible grace—grace that overrides every plan, every intention, every direction the human will has chosen to go.</p>
+
+            <p>And Saul—now Paul—became the greatest missionary the world has ever known. The man who was persecuting the church became the man who proclaimed the gospel to the Gentiles. Not because he changed his mind on his own. But because the risen Christ changed him.</p>
+
+            <div class="reflection-box">
+                <h4>The Pride We Must Surrender</h4>
+                <p>There is something in us that hates this doctrine. It is not primarily an intellectual objection. It is an existential one. We want to be the hero of our own salvation story. We want to be the one who had the courage to step forward. We want our faith to be a credit to us, a mark of our wisdom, our sensitivity, our spiritual maturity. To be told that we did not choose, but were chosen—that we did not will, but were willed into the kingdom—this strikes at the heart of our autonomy. It wounds our pride.</p>
+                <p>But perhaps this wounding is necessary. Perhaps our pride has been the very thing keeping us from God. We want to approach the throne of grace on our own terms, having earned our place, having done our part. But grace is not earned. It is not negotiated. It comes to us as the unconscious person is carried from the burning building—not as a result of our effort, but as an act of pure love.</p>
+            </div>
+
+            <h2>The Joy of the Rescued</h2>
+
+            <p>And yet—here is the paradox that makes the gospel so radical—those who have been rescued without a say, who have been chosen without their voice in the matter, who have been seized by a love they did not first seek—these become the most grateful people on earth.</p>
+
+            <p>Why? Because they understand something that the "I chose Jesus" narrative can never capture: <em>that they have been loved not because they are lovely, but because they are loved.</em> They have experienced grace not as a reward for their choosing, but as pure, undeserved favor. They have tasted what it means to be wholly dependent, wholly passive, wholly in the hands of another—and to find in that dependence the deepest security, the deepest peace, the deepest joy.</p>
+
+            <p>The man pulled from the burning building does not thank himself for his rescue. He does not tell the story of how he made the right decision to get saved. He falls on his face before the one who carried him out. He weeps. He worships. He spends his life telling others: "There is a man who saved me. I was unconscious. I was dying. And He came."</p>
+
+            <p>This is the testimony of the ransomed—not "I chose to be ransomed," but "I was ransomed." Not "I decided to follow Jesus," but "Jesus decided to follow me, even when I was running the other way. Even when I was dead. Even when I could not say yes. He said yes. And He carried me home."</p>
+
+            <p>The scandal of grace is that it comes uninvited. But once we have been grasped by it, we discover that no invitation could be more welcome. No rescue could be more necessary. No love could be more perfect than the love of the One who saved us when we could not save ourselves—who chose us when we could not choose Him—who loved us when we were yet sinners, still enemies, still blind, still dead in our sin.</p>
+
+            <p>You were rescued without a say. And now, in Christ, you finally have something to say: <em>"Salvation belongs to the Lord!"</em></p>
+
+            <div class="share-buttons" role="group" aria-label="Share this article">
+                <span class="share-label">Share</span>
+                <a class="share-btn" href="" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" aria-label="Share on X (Twitter)" title="Share on X">𝕏</a>
+                <a class="share-btn" href="" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','width=550,height=420');return false" aria-label="Share on Facebook" title="Share on Facebook">f</a>
+                <button class="share-btn" onclick="navigator.clipboard.writeText(location.href).then(function(){var btn=event.target;btn.innerHTML='✓';setTimeout(function(){btn.innerHTML='🔗'},2000)}.bind(this))" aria-label="Copy link" title="Copy link">🔗</button>
+            </div>
+
+            <div class="related-links">
+                <h4>Related Passages & Guides</h4>
+                <ul>
+                    <li><a href="question-irresistible.html">The Question of Irresistible Grace</a></li>
+                    <li><a href="question-freewill.html">Free Will & Divine Sovereignty</a></li>
+                    <li><a href="question-john6.html">Monergism in John 6: "No one can come to me..."</a></li>
+                    <li><a href="devotionals.html">← Return to All Devotionals</a></li>
+                </ul>
+            </div>
+        </article>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section"><h4>ADOPTED BY GRACE</h4><p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p></div>
+            <div class="footer-section"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="questions.html">The Evidence</a></li><li><a href="systematic-theology.html">Systematic</a></li><li><a href="demolition-hub.html">Demolition</a></li><li><a href="theologians.html">Theologians</a></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li></ul></div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script>
+        // Reading progress bar
+        window.addEventListener('scroll', function() {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            document.getElementById('readingProgress').style.width = scrollPercent + '%';
+        });
+
+        // Back to top button
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

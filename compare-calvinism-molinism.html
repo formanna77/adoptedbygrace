@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calvinism vs Molinism compared: middle knowledge, counterfactuals, and God's sovereignty. Does God use middle knowledge to sovereignly select a world, or does He decree all things directly?">
+    <meta property="og:title" content="Calvinism vs Molinism: Middle Knowledge and Sovereignty | Adopted by Grace">
+    <meta property="og:description" content="A biblical and philosophical comparison of Calvinism and Molinism on divine sovereignty, middle knowledge, and human freedom.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/compare-calvinism-molinism.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/compare-calvinism-molinism.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Calvinism vs Molinism: Middle Knowledge and Sovereignty">
+    <meta name="keywords" content="Calvinism vs Molinism, middle knowledge, Molina, counterfactuals of freedom, scientia media, divine sovereignty, Reformed theology, libertarian free will, compatibilism, Luis de Molina, William Lane Craig">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Calvinism vs Molinism: Middle Knowledge and Sovereignty | Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Calvinism vs Molinism: Middle Knowledge and Sovereignty",
+        "description": "A biblical and philosophical comparison of Calvinism and Molinism on divine sovereignty, middle knowledge, and human freedom.",
+        "url": "https://adoptedbygrace.net/compare-calvinism-molinism.html",
+        "datePublished": "2026-03-27",
+        "dateModified": "2026-03-27",
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-deep: #0a0a0f; --bg-card: #12121a; --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254; --accent-ember: #e8642c; --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4; --text-secondary: #9a958c; --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+            --reformed-bg: rgba(212, 162, 84, 0.06); --reformed-border: rgba(212, 162, 84, 0.25);
+            --opposing-bg: rgba(154, 149, 140, 0.04); --opposing-border: rgba(154, 149, 140, 0.15);
+        }
+        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.7; overflow-x: hidden; }
+
+        nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 15, 0.85); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0.1em; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { text-decoration: none; color: var(--text-secondary); font-size: 0.95rem; transition: color 0.3s ease; font-weight: 500; }
+        .nav-links a:hover, .nav-links a.active { color: var(--accent-gold); }
+
+        .section-nav { position: static; background: var(--bg-card); border-bottom: 1px solid var(--border-subtle); padding: 0.75rem 2rem; }
+        .section-nav-inner { max-width: 1200px; margin: 0 auto; display: flex; gap: 1.5rem; overflow-x: auto; }
+        .section-nav a { text-decoration: none; color: var(--text-muted); font-size: 0.82rem; font-family: 'JetBrains Mono', monospace; text-transform: uppercase; letter-spacing: 0.1em; white-space: nowrap; transition: color 0.3s; padding: 0.3rem 0; }
+        .section-nav a:hover { color: var(--accent-gold); }
+
+        .hero { max-width: 900px; margin: 0 auto; padding: 4rem 2rem 2rem; text-align: center; }
+        .hero-label { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+        .hero-label::before, .hero-label::after { content: ''; display: inline-block; width: 30px; height: 2px; background: var(--accent-ember); }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 800; margin-bottom: 1.5rem; line-height: 1.15; }
+        .hero h1 .gold { color: var(--accent-gold); }
+        .hero h1 .muted { color: var(--text-secondary); }
+        .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto; line-height: 1.8; }
+
+        .content { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+
+        .section-block { margin: 4rem 0; }
+        .section-block h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--text-primary); margin-bottom: 0.75rem; }
+        .section-block .subtitle { color: var(--text-secondary); font-size: 1rem; margin-bottom: 2rem; }
+        .section-block p { font-size: 0.95rem; line-height: 1.85; color: var(--text-secondary); margin-bottom: 1.25rem; }
+        .section-block strong { color: var(--text-primary); }
+
+        /* COMPARE GRID */
+        .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2.5rem 0; }
+        .compare-card { padding: 2rem; border-radius: 8px; border: 1px solid var(--border-subtle); }
+        .compare-card.reformed { background: var(--reformed-bg); border-left: 4px solid var(--accent-gold); }
+        .compare-card.molinist { background: var(--opposing-bg); border-left: 4px solid var(--text-muted); }
+        .compare-card-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.75rem; }
+        .compare-card.reformed .compare-card-label { color: var(--accent-gold); }
+        .compare-card.molinist .compare-card-label { color: var(--text-muted); }
+        .compare-card h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 1rem; }
+        .compare-card.reformed h3 { color: var(--accent-gold); }
+        .compare-card.molinist h3 { color: var(--text-secondary); }
+        .compare-card p { font-size: 0.92rem; line-height: 1.75; }
+        .compare-card.reformed p { color: var(--text-primary); }
+        .compare-card.molinist p { color: var(--text-secondary); }
+
+        /* KNOWLEDGE DIAGRAM */
+        .knowledge-diagram { margin: 3rem 0; padding: 2.5rem; background: var(--bg-card); border-radius: 8px; border: 1px solid var(--border-subtle); }
+        .knowledge-diagram h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--accent-gold); text-align: center; margin-bottom: 2rem; }
+        .k-row { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 1.5rem; padding: 1.25rem; border-bottom: 1px solid var(--border-subtle); }
+        .k-row:last-child { border-bottom: none; }
+        .k-order { font-family: 'JetBrains Mono', monospace; font-size: 1.5rem; font-weight: 700; width: 40px; text-align: center; }
+        .k-order.natural { color: var(--accent-gold); }
+        .k-order.middle { color: var(--accent-violet); }
+        .k-order.free { color: var(--accent-ember); }
+        .k-info h4 { font-size: 1rem; font-weight: 600; margin-bottom: 0.3rem; }
+        .k-info p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; }
+        .k-tag { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.3rem 0.8rem; border-radius: 3px; white-space: nowrap; }
+        .k-tag.agreed { background: rgba(212, 162, 84, 0.1); color: var(--accent-gold); border: 1px solid rgba(212, 162, 84, 0.2); }
+        .k-tag.disputed { background: rgba(139, 92, 246, 0.1); color: var(--accent-violet); border: 1px solid rgba(139, 92, 246, 0.2); }
+
+        /* CRITIQUE CARDS */
+        .critique-stack { display: grid; gap: 1.5rem; margin: 2rem 0; }
+        .critique-card { background: var(--bg-card); border-radius: 8px; padding: 2rem; border: 1px solid var(--border-subtle); border-left: 4px solid var(--accent-ember); }
+        .critique-num { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.5rem; }
+        .critique-card h4 { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--text-primary); margin-bottom: 1rem; }
+        .critique-card p { font-size: 0.92rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 0.75rem; }
+
+        .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2.5rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
+        .scripture-ref { display: block; margin-top: 0.75rem; font-style: normal; color: var(--text-muted); font-size: 0.85rem; font-family: 'JetBrains Mono', monospace; }
+
+        .verdict { background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(232, 100, 44, 0.05)); border: 1px solid var(--reformed-border); border-radius: 8px; padding: 2rem; margin: 2rem 0; }
+        .verdict-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--accent-gold); margin-bottom: 0.75rem; }
+        .verdict p { font-size: 0.95rem; line-height: 1.8; color: var(--text-primary); margin-bottom: 0.75rem; }
+
+        .cross-links { margin: 4rem 0 2rem; padding: 2rem; background: var(--bg-card); border-radius: 8px; border: 1px solid var(--border-subtle); }
+        .cross-links h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 1.5rem; text-align: center; }
+        .cross-link-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+        .cross-link { display: block; padding: 1rem; background: var(--bg-deep); border: 1px solid var(--border-subtle); border-radius: 6px; text-decoration: none; transition: all 0.3s; }
+        .cross-link:hover { border-color: var(--accent-gold); transform: translateY(-2px); }
+        .cross-link-label { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent-ember); margin-bottom: 0.3rem; }
+        .cross-link-title { font-size: 0.92rem; color: var(--text-primary); font-weight: 600; }
+        .cross-link-desc { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.3rem; }
+
+        footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 6rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center; }
+        .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
+        .footer-section ul { list-style: none; }
+        .footer-section li { margin-bottom: 0.5rem; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
+        .footer-section a:hover { color: var(--accent-gold); }
+        .footer-bottom { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.8rem; }
+
+        @media (max-width: 768px) {
+            .section-nav { display: none !important; }
+            .hero h1 { font-size: 2rem; }
+            .compare-grid { grid-template-columns: 1fr; }
+            .k-row { grid-template-columns: auto 1fr; }
+            .k-tag { display: none; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-container">
+        <a href="/" class="logo">ADOPTED BY GRACE</a>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/start-here">Start Here</a></li>
+            <li><a href="/evidence">The Evidence</a></li>
+            <li><a href="/systematic-theology-hub">Systematic</a></li>
+            <li><a href="/demolition-hub">Demolition</a></li>
+            <li><a href="/theologians">Theologians</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="section-nav">
+    <div class="section-nav-inner">
+        <a href="#what-is-molinism">What Is Molinism?</a>
+        <a href="#middle-knowledge">Middle Knowledge</a>
+        <a href="#key-differences">Key Differences</a>
+        <a href="#critique">Reformed Critique</a>
+        <a href="#scripture">Scripture Speaks</a>
+        <a href="#verdict">Verdict</a>
+    </div>
+</div>
+
+<section class="hero">
+    <div class="hero-label">Comparative Theology</div>
+    <h1><span class="gold">Calvinism</span> vs <span class="muted">Molinism</span></h1>
+    <p class="hero-subtitle">
+        Molinism claims to reconcile divine sovereignty with libertarian free will through "middle knowledge."
+        It is the most philosophically sophisticated alternative to Reformed soteriology. But does it hold up
+        under biblical scrutiny?
+    </p>
+</section>
+
+<div class="content">
+
+<!-- WHAT IS MOLINISM -->
+<section class="section-block" id="what-is-molinism">
+    <h2>What Is Molinism?</h2>
+    <p class="subtitle">A 16th-century Jesuit attempt to split the difference between Calvinism and Arminianism.</p>
+
+    <p>
+        Molinism was developed by the Spanish Jesuit theologian <strong>Luis de Molina</strong> (1535–1600) in his
+        work <em>Concordia</em> (1588). Today it is championed by philosophers like <strong>William Lane Craig</strong>
+        and <strong>Alvin Plantinga</strong>. Molinism proposes that God possesses a special type of knowledge —
+        <em>middle knowledge</em> (scientia media) — through which He knows what every possible free creature would
+        do in every possible set of circumstances. Using this knowledge, God selected the actual world that achieves
+        His purposes while preserving libertarian free will.
+    </p>
+    <p>
+        The appeal of Molinism is obvious: it appears to affirm that God is fully sovereign (He chose this world)
+        while also affirming that humans are genuinely free in the libertarian sense (their choices are not determined
+        by God's decree). But as we will see, this apparent synthesis comes at a steep theological and philosophical price.
+    </p>
+</section>
+
+<!-- MIDDLE KNOWLEDGE EXPLAINED -->
+<section class="section-block" id="middle-knowledge">
+    <h2>The Three Moments of Divine Knowledge</h2>
+    <p class="subtitle">Both Calvinists and Molinists agree on moments 1 and 3. The dispute is over moment 2.</p>
+
+    <div class="knowledge-diagram">
+        <h3>God's Knowledge in Molinism</h3>
+        <div class="k-row">
+            <div class="k-order natural">1</div>
+            <div class="k-info">
+                <h4>Natural Knowledge (Scientia Naturalis)</h4>
+                <p>God knows all necessary truths, all possibilities, all that <em>could</em> be. This knowledge is pre-volitional — it does not depend on God's will. Both Calvinists and Molinists affirm this.</p>
+            </div>
+            <div class="k-tag agreed">Agreed</div>
+        </div>
+        <div class="k-row">
+            <div class="k-order middle">2</div>
+            <div class="k-info">
+                <h4>Middle Knowledge (Scientia Media)</h4>
+                <p>God knows all <em>counterfactuals of creaturely freedom</em> — what every possible person <em>would</em> freely do in every possible circumstance. This knowledge is also pre-volitional: it is given to God, not determined by Him. <strong>This is the distinctive Molinist claim, and the point of contention.</strong></p>
+            </div>
+            <div class="k-tag disputed">Disputed</div>
+        </div>
+        <div class="k-row">
+            <div class="k-order free">3</div>
+            <div class="k-info">
+                <h4>Free Knowledge (Scientia Libera)</h4>
+                <p>God knows everything that <em>will</em> actually happen — the actual world He chose to create. This knowledge is post-volitional: it follows from God's creative decree. Both Calvinists and Molinists affirm this.</p>
+            </div>
+            <div class="k-tag agreed">Agreed</div>
+        </div>
+    </div>
+</section>
+
+<!-- KEY DIFFERENCES -->
+<section class="section-block" id="key-differences">
+    <h2>Key Differences</h2>
+
+    <div class="compare-grid">
+        <div class="compare-card reformed">
+            <div class="compare-card-label">Reformed / Calvinist</div>
+            <h3>God Decrees, Then Knows</h3>
+            <p>
+                God's knowledge of what <em>will</em> happen is based on His sovereign decree. He did not look at
+                pre-existing counterfactuals and pick the best world — He <em>ordained</em> the world according to
+                the counsel of His will. Human choices are certain because God has decreed them. Humans are free in
+                a compatibilist sense: they do what they desire, but their desires are ultimately governed by God's
+                providence. God's sovereignty is <em>causal</em>, not merely selective.
+            </p>
+        </div>
+        <div class="compare-card molinist">
+            <div class="compare-card-label">Molinist</div>
+            <h3>God Knows, Then Selects</h3>
+            <p>
+                Before any decree, God already knew what every possible creature would freely do in every possible
+                world. Using this middle knowledge, He selected the actual world — the combination of circumstances
+                that achieves His goals while respecting libertarian freedom. God's sovereignty is expressed through
+                <em>world-selection</em>, not through causal determination of human choices. Human choices are the
+                ultimate source of their own determination.
+            </p>
+        </div>
+    </div>
+
+    <div class="compare-grid">
+        <div class="compare-card reformed">
+            <div class="compare-card-label">On Free Will</div>
+            <h3>Compatibilism</h3>
+            <p>
+                Freedom is the ability to act according to one's desires without external coercion. A person is
+                free even if their desires are ultimately determined by God's providential ordering. This is the
+                freedom affirmed in Scripture: Joseph's brothers acted freely in selling him, yet God sent him
+                (Gen 50:20). The crucifiers acted freely, yet it was God's "definite plan" (Acts 2:23).
+            </p>
+        </div>
+        <div class="compare-card molinist">
+            <div class="compare-card-label">On Free Will</div>
+            <h3>Libertarianism</h3>
+            <p>
+                Freedom requires the ability to do otherwise in identical circumstances. An action is free only
+                if the agent could have chosen differently with all prior conditions being exactly the same.
+                God cannot determine human choices — He can only arrange circumstances, knowing how agents
+                would freely respond. This is the "power of contrary choice."
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- REFORMED CRITIQUE -->
+<section class="section-block" id="critique">
+    <h2>The Reformed Critique of Molinism</h2>
+    <p class="subtitle">Four fundamental problems with middle knowledge.</p>
+
+    <div class="critique-stack">
+        <div class="critique-card">
+            <div class="critique-num">Problem 1</div>
+            <h4>The Grounding Objection: What Makes Counterfactuals True?</h4>
+            <p>
+                This is the most devastating philosophical critique. Middle knowledge requires that counterfactuals
+                of creaturely freedom ("If Peter were in situation S, he would freely do X") are <em>true</em>
+                prior to God's decree. But what makes them true? Not God — because they are pre-volitional and
+                independent of His will. Not the creature — because the creature doesn't exist yet (we're still
+                in the "pre-creation" logical moment). Not the circumstances — because libertarian freedom means
+                the agent could have done otherwise in those exact circumstances.
+            </p>
+            <p>
+                There is nothing that <em>grounds</em> or explains why these counterfactuals are true rather
+                than false. They are "brute facts" about non-existent agents making undetermined choices in
+                hypothetical situations. This is, as Reformed philosopher <strong>Paul Helm</strong> argues,
+                metaphysically incoherent. Truths require truthmakers — and middle knowledge has none.
+            </p>
+        </div>
+
+        <div class="critique-card">
+            <div class="critique-num">Problem 2</div>
+            <h4>God Becomes Dependent on Creatures</h4>
+            <p>
+                In Molinism, the content of God's middle knowledge is <em>given to Him</em> — not determined
+                by Him. God is passive with respect to what creatures would freely do. This means God's plan
+                for the world is constrained by the "raw material" of counterfactuals that He did not choose.
+                He must work with whatever set of truths about free creatures happen to be true, selecting
+                the best available world rather than decreeing the world He wants.
+            </p>
+            <p>
+                This compromises divine aseity — the doctrine that God is self-sufficient and depends on
+                nothing outside Himself. If the content of God's knowledge (even in part) is determined by
+                something external to His will, then God is not fully self-determining. As <strong>Isaiah 40:13–14</strong>
+                declares: "Who has directed the Spirit of the LORD, or as his counselor has instructed him?
+                Whom did he consult?"
+            </p>
+        </div>
+
+        <div class="critique-card">
+            <div class="critique-num">Problem 3</div>
+            <h4>Scripture Presents God as the Cause, Not Merely the Selector</h4>
+            <p>
+                The Bible does not present God as one who merely arranges circumstances and watches agents
+                respond. It presents Him as the one who actively determines outcomes — including the free
+                choices of creatures. Consider:
+            </p>
+            <p>
+                <strong>Proverbs 21:1</strong> — "The king's heart is a stream of water in the hand of the LORD;
+                he turns it wherever he will." God does not merely know which way the king's heart would turn —
+                He <em>turns</em> it. <strong>Proverbs 16:33</strong> — "The lot is cast into the lap, but its
+                every decision is from the LORD." Even apparently random events are determined by God.
+                <strong>Philippians 2:13</strong> — "God… works in you, both to will and to work for his good
+                pleasure." God works the <em>willing itself</em> — not just the circumstances around the willing.
+            </p>
+        </div>
+
+        <div class="critique-card">
+            <div class="critique-num">Problem 4</div>
+            <h4>It Does Not Actually Solve the Problem It Claims to Solve</h4>
+            <p>
+                Molinism is designed to reconcile sovereignty with libertarian freedom. But it fails on both counts.
+                On sovereignty: if God's choice of worlds is constrained by brute-fact counterfactuals, His
+                sovereignty is reduced to "doing the best He can with the options available." It is possible
+                that no feasible world exists in which all God's purposes are accomplished — making God's plans
+                contingent on creaturely cooperation.
+            </p>
+            <p>
+                On freedom: if God creates a person knowing with certainty what they will do in every
+                circumstance, and places them in circumstances designed to produce specific outcomes — in
+                what meaningful sense is the creature "free"? The creature cannot do otherwise than what
+                God foreknew and arranged. Molinism collapses into either soft determinism (which is
+                compatibilism by another name) or genuine randomness (which is not freedom either).
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- SCRIPTURE -->
+<section class="section-block" id="scripture">
+    <h2>What Does Scripture Actually Teach?</h2>
+
+    <div class="scripture-block">
+        "Our God is in the heavens; he does all that he pleases."
+        <span class="scripture-ref">— Psalm 115:3 (ESV)</span>
+    </div>
+
+    <p>
+        Scripture does not present God as selecting among available options constrained by creaturely freedom.
+        It presents a God who <strong>"works all things according to the counsel of his will"</strong> (Eph 1:11) —
+        not according to the counsel of counterfactuals He did not author.
+    </p>
+
+    <div class="scripture-block">
+        "I am God, and there is no other; I am God, and there is none like me, declaring the end from the
+        beginning and from ancient times things not yet done, saying, 'My counsel shall stand, and I will
+        accomplish all my purpose.'"
+        <span class="scripture-ref">— Isaiah 46:9–10 (ESV)</span>
+    </div>
+
+    <p>
+        God does not merely <em>foresee</em> the end from the beginning — He <em>declares</em> it. His counsel
+        <em>shall stand</em>. He <em>will accomplish</em> all His purpose. This is the language of causal
+        sovereignty, not world-selection from a menu of possibilities.
+    </p>
+
+    <p>
+        The key text that Molinists appeal to is <strong>1 Samuel 23:10–13</strong>, where David asks God what
+        Saul would do if David stayed in Keilah, and God tells him. Molinists argue this demonstrates counterfactual
+        knowledge of free choices. But the Reformed response is straightforward: God knows counterfactuals because
+        He knows His own decree — He knows what He <em>would have decreed</em> in those circumstances. This does
+        not require a "middle" moment of knowledge independent of God's will.
+    </p>
+</section>
+
+<!-- VERDICT -->
+<section class="section-block" id="verdict">
+    <div class="verdict">
+        <div class="verdict-label">Biblical Verdict</div>
+        <p>
+            Molinism is an ingenious philosophical construction, but it is a solution to a problem that Scripture
+            does not recognize. The Bible does not struggle to reconcile sovereignty with libertarian freedom —
+            because it never affirms libertarian freedom. Scripture affirms that God determines all things
+            (Eph 1:11; Isa 46:10; Prov 16:33) and that humans make real, meaningful choices for which they are
+            responsible (Gen 50:20; Acts 2:23; 4:27–28). This is compatibilism, and it requires no "middle knowledge"
+            to make it work.
+        </p>
+        <p>
+            The heart of the issue is this: Molinism wants a God who is sovereign <em>without</em> being the ultimate
+            cause. But Scripture presents a God who is sovereign precisely <em>because</em> He is the ultimate cause.
+            "From him and through him and to him are all things" (Rom 11:36). Not some things. Not the circumstances
+            around things. <em>All things.</em>
+        </p>
+        <p>
+            The Reformed position does not diminish human responsibility — it grounds it in divine sovereignty.
+            And it preserves what Molinism cannot: a God who is truly self-sufficient, truly omnipotent, and
+            truly the author and finisher of our salvation from first to last.
+        </p>
+    </div>
+
+    <div class="cross-links">
+        <h3>Continue Your Study</h3>
+        <div class="cross-link-grid">
+            <a href="/compare-calvinism-arminianism.html" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Calvinism vs. Arminianism</div>
+                <div class="cross-link-desc">All five points of TULIP compared and examined</div>
+            </a>
+            <a href="/compare-monergism-synergism.html" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Monergism vs. Synergism</div>
+                <div class="cross-link-desc">The core divide beneath every soteriological debate</div>
+            </a>
+            <a href="/systematic-compatibilism.html" class="cross-link">
+                <div class="cross-link-label">Systematic</div>
+                <div class="cross-link-title">Compatibilism</div>
+                <div class="cross-link-desc">How divine sovereignty and human responsibility coexist</div>
+            </a>
+            <a href="/systematic-divine-decrees.html" class="cross-link">
+                <div class="cross-link-label">Systematic</div>
+                <div class="cross-link-title">The Divine Decrees</div>
+                <div class="cross-link-desc">God's eternal plan and its outworking in history</div>
+            </a>
+            <a href="/question-foreknowledge.html" class="cross-link">
+                <div class="cross-link-label">Deep Dive</div>
+                <div class="cross-link-title">Foreknowledge Explained</div>
+                <div class="cross-link-desc">Does foreknowledge mean foreseen faith?</div>
+            </a>
+            <a href="/systematic-theology-proper.html" class="cross-link">
+                <div class="cross-link-label">Systematic</div>
+                <div class="cross-link-title">Theology Proper</div>
+                <div class="cross-link-desc">The attributes and nature of God</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Study</h4>
+            <ul>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+                <li><a href="/questions">Scripture Evidence</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Engage</h4>
+            <ul>
+                <li><a href="/demolition-hub">Verse Demolition</a></li>
+                <li><a href="/theologians">Great Theologians</a></li>
+                <li><a href="/resources">Resources</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>About</h4>
+            <ul>
+                <li><a href="/about">Our Mission</a></li>
+                <li><a href="/community">Community</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        Soli Deo Gloria — To God alone be the glory<br>
+        <span style="color: var(--text-muted);">Adopted by Grace &copy; 2026</span>
+    </div>
+</footer>
+
+</body>
+</html>

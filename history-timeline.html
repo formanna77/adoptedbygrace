@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church History Timeline — The Golden Thread | Adopted by Grace</title>
+    <meta name="description" content="Interactive timeline showing how God preserved the doctrines of grace through 2000 years of church history—from the apostles to today.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        html, body {
+            background: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* NAV */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.85);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--accent-gold);
+        }
+
+        /* MAIN CONTENT */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 4rem 0 3rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+
+        .hero p.subtitle {
+            font-size: 1.35rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 500;
+        }
+
+        .hero-quote {
+            background: rgba(212, 162, 84, 0.06);
+            border-left: 3px solid var(--accent-gold);
+            padding: 1.5rem 2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            font-style: italic;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .hero-quote span {
+            display: block;
+            margin-top: 0.75rem;
+            font-style: normal;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        /* TIMELINE SECTION */
+        .timeline-section {
+            padding: 4rem 0;
+        }
+
+        .timeline-container {
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        /* Timeline vertical line with glow */
+        .timeline-line {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg,
+                rgba(212, 162, 84, 0.8) 0%,
+                rgba(212, 162, 84, 0.4) 50%,
+                rgba(212, 162, 84, 0.8) 100%);
+            box-shadow: 0 0 20px rgba(212, 162, 84, 0.5),
+                        0 0 40px rgba(212, 162, 84, 0.3),
+                        0 0 60px rgba(212, 162, 84, 0.2);
+            transform: translateX(-50%);
+        }
+
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        .timeline-item {
+            margin-bottom: 3rem;
+            opacity: 0;
+            animation: fadeInUp 0.8s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Stagger animation for each timeline item */
+        .timeline-item:nth-child(1) { animation-delay: 0.1s; }
+        .timeline-item:nth-child(2) { animation-delay: 0.2s; }
+        .timeline-item:nth-child(3) { animation-delay: 0.3s; }
+        .timeline-item:nth-child(4) { animation-delay: 0.4s; }
+        .timeline-item:nth-child(5) { animation-delay: 0.5s; }
+        .timeline-item:nth-child(6) { animation-delay: 0.6s; }
+        .timeline-item:nth-child(7) { animation-delay: 0.7s; }
+        .timeline-item:nth-child(8) { animation-delay: 0.8s; }
+        .timeline-item:nth-child(9) { animation-delay: 0.9s; }
+        .timeline-item:nth-child(10) { animation-delay: 1s; }
+        .timeline-item:nth-child(11) { animation-delay: 1.1s; }
+
+        /* Alternating left/right */
+        .timeline-item:nth-child(odd) {
+            margin-left: 0;
+            margin-right: auto;
+            width: 45%;
+            text-align: right;
+            padding-right: 3rem;
+        }
+
+        .timeline-item:nth-child(even) {
+            margin-left: auto;
+            margin-right: 0;
+            width: 45%;
+            text-align: left;
+            padding-left: 3rem;
+        }
+
+        /* Timeline dot */
+        .timeline-dot {
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            background: var(--accent-gold);
+            border: 3px solid var(--bg-deep);
+            border-radius: 50%;
+            top: 1.5rem;
+            right: -36px;
+            box-shadow: 0 0 15px rgba(212, 162, 84, 0.8),
+                        0 0 30px rgba(212, 162, 84, 0.5);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .timeline-item:nth-child(even) .timeline-dot {
+            right: auto;
+            left: -36px;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 0 15px rgba(212, 162, 84, 0.8),
+                            0 0 30px rgba(212, 162, 84, 0.5);
+                transform: scale(1);
+            }
+            50% {
+                box-shadow: 0 0 25px rgba(212, 162, 84, 1),
+                            0 0 50px rgba(212, 162, 84, 0.7);
+                transform: scale(1.1);
+            }
+        }
+
+        /* Timeline card */
+        .timeline-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .timeline-card:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(212, 162, 84, 0.15);
+        }
+
+        .timeline-era-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .timeline-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+            line-height: 1.3;
+        }
+
+        .timeline-card p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .timeline-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-link:hover {
+            gap: 0.75rem;
+            color: var(--accent-ember);
+        }
+
+        .timeline-link::after {
+            content: "→";
+            transition: transform 0.3s ease;
+        }
+
+        .timeline-link:hover::after {
+            transform: translateX(4px);
+        }
+
+        /* THREAD SECTION */
+        .thread-section {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg,
+                rgba(212, 162, 84, 0.06) 0%,
+                rgba(139, 92, 246, 0.04) 100%);
+            border-radius: 12px;
+            border: 1px solid var(--border-subtle);
+            margin: 4rem 0;
+        }
+
+        .thread-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-violet));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .thread-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .thread-content p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        .thread-content p:first-letter {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+        /* RELATED AREAS */
+        .related-section {
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .related-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: var(--text-primary);
+        }
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .related-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .related-card:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-6px);
+            box-shadow: 0 15px 30px rgba(212, 162, 84, 0.1);
+        }
+
+        .related-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--accent-gold);
+        }
+
+        .related-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .related-card-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent-gold);
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .related-card:hover .related-card-link {
+            gap: 0.75rem;
+            color: var(--accent-ember);
+        }
+
+        .related-card-link::after {
+            content: "→";
+            transition: transform 0.3s ease;
+        }
+
+        .related-card:hover .related-card-link::after {
+            transform: translateX(4px);
+        }
+
+        /* FOOTER */
+        footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            padding: 3rem 2rem;
+            margin-top: 5rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            /* Nav responsive */
+            .nav-links {
+                gap: 1rem;
+                flex-wrap: wrap;
+                font-size: 0.85rem;
+            }
+
+            .logo {
+                font-size: 1rem;
+            }
+
+            /* Hero responsive */
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero p.subtitle {
+                font-size: 1.1rem;
+            }
+
+            /* Timeline responsive - all cards on left */
+            .timeline-line {
+                left: 8px;
+            }
+
+            .timeline-item {
+                width: 100% !important;
+                text-align: left !important;
+                padding-left: 60px !important;
+                padding-right: 0 !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+            }
+
+            .timeline-dot {
+                left: -28px !important;
+                right: auto !important;
+            }
+
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .thread-section h2 {
+                font-size: 1.8rem;
+            }
+
+            .related-section h2 {
+                font-size: 1.6rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            main {
+                padding: 0 1rem;
+            }
+
+            .hero {
+                padding: 2rem 0 1.5rem;
+            }
+
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero p.subtitle {
+                font-size: 1rem;
+            }
+
+            .hero-quote {
+                padding: 1.25rem 1rem;
+                font-size: 0.95rem;
+            }
+
+            .timeline-item {
+                padding-left: 50px !important;
+            }
+
+            .timeline-dot {
+                left: -21px !important;
+                width: 12px;
+                height: 12px;
+            }
+
+            .timeline-card h3 {
+                font-size: 1.2rem;
+            }
+
+            .timeline-card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="logo">ADOPTED BY GRACE</a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/evidence">The Evidence</a></li>
+                <li><a href="/systematic-theology-hub">Systematic</a></li>
+                <li><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <h1>The Golden Thread</h1>
+            <p class="subtitle">How God Preserved the Doctrines of Grace Through 2000 Years of Church History</p>
+            <div class="hero-quote">
+                "Contend for the faith that was once for all delivered to the saints."
+                <span>— Jude 1:3 (ESV)</span>
+            </div>
+        </section>
+
+        <!-- TIMELINE -->
+        <section class="timeline-section">
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                <div class="timeline">
+                    <!-- Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">AD 33–100</div>
+                            <h3>The Apostolic Foundation</h3>
+                            <p>Paul planted the seeds of sovereign grace in every epistle, establishing the eternal basis for redemption. The foundational truths of election, predestination, and free grace were woven into the very fabric of New Testament theology.</p>
+                            <a href="history-apostolic.html" class="timeline-link">Explore Era</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">AD 354–430</div>
+                            <h3>Augustine vs. Pelagius</h3>
+                            <p>The first great battle for grace alone. Augustine's defense of predestination and the bondage of the will against Pelagian humanism became the watershed moment that preserved grace theology when the church was tempted to trust human capacity.</p>
+                            <a href="history-augustine-pelagius.html" class="timeline-link">Explore Era</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">AD 800–1400</div>
+                            <h3>Medieval Preservation</h3>
+                            <p>Gottschalk, Bradwardine, Wycliffe—the embers that never died. Even in the darkness of medieval scholasticism, God raised up voices to contend for predestination and the supremacy of grace, keeping the thread alive through centuries of eclipse.</p>
+                            <a href="history-medieval.html" class="timeline-link">Explore Era</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1517</div>
+                            <h3>Luther's Breakthrough</h3>
+                            <p>The rediscovery of justification by faith alone shattered the chains of works-righteousness. Luther's recovery of Augustinian grace theology became the spark that ignited the entire Reformation and reminded a lost church of its sovereign God.</p>
+                            <a href="history-luther.html" class="timeline-link">Explore Era</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1536–1564</div>
+                            <h3>Calvin and Geneva</h3>
+                            <p>The systematic articulation of sovereign grace. Calvin's <em>Institutes</em> became the theological backbone of Reformed Christianity, presenting predestination not as a dark mystery but as the profound comfort of God's omniscient, benevolent rule.</p>
+                            <a href="history-calvin-geneva.html" class="timeline-link">Explore Era</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 6 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1618–1619</div>
+                            <h3>The Synod of Dort</h3>
+                            <p>TULIP forged in the fires of controversy. When Arminianism threatened to undermine grace, the Synod of Dort crystallized the five points of Calvinism, permanently anchoring Reformed theology in Scripture and defending God's absolute sovereignty in salvation.</p>
+                            <a href="history-dort.html" class="timeline-link">Explore Era</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 7 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1600–1700</div>
+                            <h3>The Puritans</h3>
+                            <p>Owen, Bunyan, Goodwin—the golden age of Reformed devotion. The Puritans transformed grace theology into passionate, practical piety, proving that doctrinal precision and deep spirituality are inseparable fruits of the Spirit's work.</p>
+                            <a href="history-puritans.html" class="timeline-link">Explore Era</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 8 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1730–1770</div>
+                            <h3>The Great Awakening</h3>
+                            <p>Edwards, Whitefield—sovereign grace in revival fire. The Great Awakening demonstrated that God's absolute sovereignty and human revival are not contradictory but complementary, as the Spirit broke in with power to transform willing hearts across the colonies.</p>
+                            <a href="history-great-awakening.html" class="timeline-link">Explore Era</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 9 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1834–1892</div>
+                            <h3>Spurgeon & the Downgrade</h3>
+                            <p>Standing for Calvinism when the church drifted. Charles Spurgeon's unflinching defense of predestination, free grace, and biblical authority in the face of theological liberalism proved that conviction and compassion need never be enemies.</p>
+                            <a href="history-spurgeon-downgrade.html" class="timeline-link">Explore Era</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 10 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1939–2000</div>
+                            <h3>The 20th Century Recovery</h3>
+                            <p>Lloyd-Jones, Sproul—the Reformed resurgence. After decades of theological erosion, God raised up prophetic voices to recover and teach the doctrines of grace with scholarly precision and evangelical passion, planting seeds that would bear fruit for generations.</p>
+                            <a href="history-20th-century.html" class="timeline-link">Explore Era</a>
+                        </div>
+                    </div>
+
+                    <!-- Item 11 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">2000–Present</div>
+                            <h3>Today</h3>
+                            <p>The resurgence of Reformed theology in the internet age. From podcasts to social media, a new generation of believers is discovering the joy of sovereign grace. The golden thread continues to shine brighter than ever, reaching the elect across digital highways.</p>
+                            <a href="history-today.html" class="timeline-link">Explore Era</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- THREAD NARRATIVE -->
+        <section class="thread-section">
+            <h2>The Thread That Never Breaks</h2>
+            <div class="thread-content">
+                <p>From the apostle Paul's pen in the first century to the preacher's pulpit today, God has never left Himself without a faithful witness to the truths of sovereign grace. Even when ecclesiastical establishments turned cold, when scholasticism clouded the gospel, when the human will was celebrated above divine omniscience, God sovereignly preserved a remnant who contended for the faith once delivered. The darkness was never absolute because God's Word cannot be extinguished. Augustine's thunder against Pelagianism, Wycliffe's lonely voice in medieval fog, Gottschalk's courage, Bradwardine's scholarship—these were not accidents. They were the gracious hand of a sovereign God, ensuring that the thread would never break.</p>
+
+                <p>When Luther nailed his theses, Calvin fled to Geneva, and the Synod of Dort convened to answer Arminius, they were not originating something new—they were recovering and articulating what had always been there, hidden in the marrow of Scripture and the bloodstream of the faithful. The Puritans did not invent their devotion; they merely gave voice to the grace that had been sustaining the saints all along. Edwards' revival fires, Spurgeon's thundering defenses, Lloyd-Jones' relentless expository brilliance—all links in an unbroken chain that stretches from Jerusalem to your generation, from Pentecost to this very moment.</p>
+
+                <p>This timeline is not merely history; it is a testimony to the indestructibility of truth. The doctrines of grace cannot be killed because they are rooted not in human arguments but in the character of God Himself. God's sovereignty, man's depravity, Christ's sufficiency, predestination's comfort, the perseverance of the saints—these are not inventions to be discarded when culture shifts. They are eternal realities that have survived empires, scholasticism, enlightenment skepticism, and modernist assault. They survive today. And they will prevail unto the end, because God Himself has ordained that His elect shall know His name and rejoice in His absolute grace. The thread is golden because it is woven by the fingers of God Himself.</p>
+            </div>
+        </section>
+
+        <!-- RELATED AREAS -->
+        <section class="related-section">
+            <h2>Continue Your Journey</h2>
+            <div class="related-grid">
+                <a href="/theologians" class="related-card">
+                    <h3>Theologians Hub</h3>
+                    <p>Meet the great minds who articulated and defended the doctrines of grace. From Augustine to Piper, discover the teachers who shaped Reformed theology.</p>
+                    <span class="related-card-link">Explore</span>
+                </a>
+                <a href="/systematic-theology-hub" class="related-card">
+                    <h3>Systematic Theology</h3>
+                    <p>Go deeper into the architecture of grace. Learn how predestination, justification, sanctification, and perseverance fit together into a coherent whole.</p>
+                    <span class="related-card-link">Explore</span>
+                </a>
+                <a href="/evidence" class="related-card">
+                    <h3>The Evidence</h3>
+                    <p>Discover the biblical foundation for every era of this timeline. Every truth preserved through history finds its root in Scripture alone.</p>
+                    <span class="related-card-link">Explore</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>ADOPTED BY GRACE</h4>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/evidence">The Evidence</a></li>
+                    <li><a href="/systematic-theology-hub">Systematic</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
+    </footer>
+</body>
+</html>

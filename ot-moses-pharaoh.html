@@ -442,6 +442,13 @@ a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
 .skip-link:focus { outline: 2px solid var(--accent-gold); }
 
+
+/* ========== SOCIAL SHARING ========== */
+.share-buttons { display: flex; gap: 0.75rem; align-items: center; margin: 2rem 0; padding: 1.5rem; background: var(--bg-card, #12121a); border: 1px solid rgba(212, 162, 84, 0.12); border-radius: 8px; }
+.share-buttons .share-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: #9a958c; margin-right: 0.5rem; }
+.share-btn { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(212, 162, 84, 0.2); background: transparent; color: #d4a254; text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease; cursor: pointer; }
+.share-btn:hover { background: rgba(212, 162, 84, 0.12); border-color: #d4a254; transform: translateY(-2px); }
+.share-btn svg { width: 18px; height: 18px; fill: currentColor; }
 </style>
 </head>
 <body>
@@ -775,7 +782,14 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             </section>
         </article>
 
-        <div class="continue-exploring">
+        
+<div class="share-buttons" role="group" aria-label="Share this article">
+    <span class="share-label">Share</span>
+    <a class="share-btn" href="" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" aria-label="Share on X (Twitter)" title="Share on X">𝕏</a>
+    <a class="share-btn" href="" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','width=550,height=420');return false" aria-label="Share on Facebook" title="Share on Facebook">f</a>
+    <button class="share-btn" onclick="navigator.clipboard.writeText(location.href).then(function(){this.innerHTML='✓';setTimeout(function(){document.querySelector('.share-btn[aria-label=&quot;Copy link&quot;]').innerHTML='🔗'},2000)}.bind(this))" aria-label="Copy link" title="Copy link">🔗</button>
+</div>
+<div class="continue-exploring">
             <h3>Continue Exploring Election</h3>
             <div class="explore-grid">
                 <a href="ot-election.html" class="explore-card">
