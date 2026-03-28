@@ -26,14 +26,14 @@
         "description": "Demolition series: Every verse cited against biblical theology examined and shown to support the doctrines of grace through Greek analysis.",
         "url": "https://adoptedbygrace.net/demolition-hub.html",
         "datePublished": "2026-03-27",
-        "dateModified": "2026-03-27",
+        "dateModified": "2026-03-28",
         "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
     }
     </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         :root { --bg-deep: #0a0a0f; --bg-card: #12121a; --bg-card-hover: #1a1a2e; --accent-gold: #d4a254; --accent-ember: #e8642c; --accent-violet: #8b5cf6; --text-primary: #f0ece4; --text-secondary: #9a958c; --text-muted: #5a5650; --border-subtle: rgba(212, 162, 84, 0.12); }
-        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.7; overflow-x: hidden; }
+        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.8; overflow-x: hidden; }
         nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 15, 0.85); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; }
         .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
         .logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; }
@@ -74,16 +74,52 @@
         .status-coming { background: rgba(154, 149, 140, 0.08); color: var(--text-muted); border: 1px solid var(--border-subtle); }
         .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 3rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; text-align: center; }
         .scripture-ref { display: block; margin-top: 1rem; font-style: normal; color: var(--text-muted); font-size: 0.9rem; }
-        footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 6rem; }
-        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center; }
+        footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; text-align: center; }
         .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
         .footer-section ul { list-style: none; }
         .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
         .footer-section a:hover { color: var(--accent-gold); }
         .footer-copyright { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
-        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } .hero-stat-row { gap: 1.5rem; } .hero-stat-number { font-size: 1.5rem; } nav { padding: 0.8rem 1rem; } .nav-container { flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center; gap: 0.6rem; } .logo { font-size: 1rem; } .nav-links { gap: 0.6rem; flex-wrap: wrap; justify-content: center; } .nav-links a { font-size: 0.8rem; } .verse-card { grid-template-columns: auto 1fr; gap: 1rem; padding: 1rem; } .verse-status { grid-column: 1 / -1; justify-self: start; } .tier-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; } .tier-title { font-size: 1.3rem; } footer { padding: 2rem 1rem; } }
+        @media (max-width: 768px) {
+            .hero { padding: 1.5rem 1.2rem; margin: 1rem auto; }
+            .hero h1 { font-size: 1.6rem; margin-bottom: 1rem; }
+            .hero-stat-row { gap: 1.2rem; margin-top: 2rem; }
+            .hero-stat-number { font-size: 1.3rem; }
+            nav { padding: 0.8rem 1rem; }
+            .nav-container { flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 0.6rem; }
+            .logo { font-size: 1rem; }
+            .nav-links { gap: 0.6rem; flex-wrap: wrap; justify-content: center; }
+            .nav-links a { font-size: 0.8rem; }
+            .content { padding: 0 1.2rem; }
+            .verse-card { grid-template-columns: auto 1fr; gap: 1rem; padding: 1rem; }
+            .verse-status { grid-column: 1 / -1; justify-self: start; }
+            .tier-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+            .tier-title { font-size: 1.2rem; margin-bottom: 0.8rem; }
+            .tier-section { margin-top: 2.5rem; padding-top: 2rem; }
+            footer { padding: 1.5rem 1rem; margin-top: 5rem; }
+        }
+
+        @media (max-width: 480px) {
+            .hero { padding: 1rem; margin: 0.5rem auto; }
+            .hero h1 { font-size: 1.3rem; margin-bottom: 0.8rem; }
+            .hero-subtitle { font-size: 0.85rem; }
+            .hero-stat-row { gap: 1rem; margin-top: 1.2rem; flex-wrap: wrap; }
+            .hero-stat { flex-basis: 100%; }
+            .hero-stat-number { font-size: 1.1rem; }
+            .hero-stat-label { font-size: 0.7rem; }
+            nav { padding: 0.6rem 0.8rem; }
+            .nav-container { gap: 0.4rem; }
+            .logo { font-size: 0.9rem; }
+            .content { padding: 0 0.8rem; }
+            .verse-card { gap: 0.8rem; padding: 0.8rem; margin-bottom: 1rem; }
+            .tier-header { gap: 0.3rem; }
+            .tier-title { font-size: 1rem; }
+            .verse-title { font-size: 0.95rem; }
+            .verse-count { font-size: 0.75rem; }
+            .tier-section { margin-top: 3rem; padding-top: 1.5rem; }
+            footer { padding: 1.2rem 0.8rem; margin-top: 2rem; }
+        }
         .skip-link { position: absolute; top: -100%; left: 50%; transform: translateX(-50%); background: var(--accent-gold); color: var(--bg-deep); padding: 0.75rem 1.5rem; border-radius: 0 0 8px 8px; font-weight: 600; font-size: 0.9rem; z-index: 10000; text-decoration: none; transition: top 0.3s ease; }
         .skip-link:focus { top: 0; }
         a:focus-visible, button:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 3px; border-radius: 2px; }
@@ -160,7 +196,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -176,9 +212,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -200,7 +236,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <h1>Every Verse They Throw at You &mdash; Answered</h1>
         <p class="hero-subtitle">Arminians have a handful of go-to verses they cite against the doctrines of grace. Here, we take <em>every single one</em> and demonstrate &mdash; exegetically, contextually, grammatically &mdash; that these verses <strong>actually support</strong> Reformed soteriology when properly understood.</p>
         <div class="hero-stat-row">
-            <div class="hero-stat"><div class="hero-stat-number">6</div><div class="hero-stat-label">Demolished</div></div>
+            <div class="hero-stat"><div class="hero-stat-number">9</div><div class="hero-stat-label">Demolished</div></div>
             <div class="hero-stat"><div class="hero-stat-number">30+</div><div class="hero-stat-label">Planned</div></div>
             <div class="hero-stat"><div class="hero-stat-number">3</div><div class="hero-stat-label">Tiers</div></div>
         </div>
@@ -215,9 +251,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <a href="demolition-john3-16.html" class="verse-card live"><span class="verse-number">01</span><div class="verse-info"><div class="verse-reference">John 3:16 &mdash; "For God so loved the WORLD"</div><div class="verse-claim">"World" (kosmos) doesn't mean every individual without exception</div></div><span class="verse-status status-demolished">Demolished</span></a>
                 <a href="demolition-1tim2-4.html" class="verse-card live"><span class="verse-number">02</span><div class="verse-info"><div class="verse-reference">1 Timothy 2:4 &mdash; "God desires ALL to be saved"</div><div class="verse-claim">Decretive vs. prescriptive will; "all kinds of people"</div></div><span class="verse-status status-demolished">Demolished</span></a>
                 <a href="demolition-2peter3-9.html" class="verse-card live"><span class="verse-number">03</span><div class="verse-info"><div class="verse-reference">2 Peter 3:9 &mdash; "Not willing that ANY should perish"</div><div class="verse-claim">The "you" is the elect; God is patient with His people</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <div class="verse-card"><span class="verse-number">04</span><div class="verse-info"><div class="verse-reference">Matthew 23:37 &mdash; "How often I would have gathered you"</div><div class="verse-claim">Jerusalem's leaders vs. their children &mdash; two different groups</div></div><span class="verse-status status-coming">Coming</span></div>
-                <div class="verse-card"><span class="verse-number">05</span><div class="verse-info"><div class="verse-reference">Revelation 3:20 &mdash; "Behold, I stand at the door and knock"</div><div class="verse-claim">Written to a CHURCH, not unbelievers</div></div><span class="verse-status status-coming">Coming</span></div>
-                <div class="verse-card"><span class="verse-number">06</span><div class="verse-info"><div class="verse-reference">Acts 7:51 &mdash; "You always resist the Holy Spirit"</div><div class="verse-claim">External call vs. internal/effectual call</div></div><span class="verse-status status-coming">Coming</span></div>
+                <a href="demolition-matt23-37.html" class="verse-card live"><span class="verse-number">04</span><div class="verse-info"><div class="verse-reference">Matthew 23:37 &mdash; "How often I would have gathered you"</div><div class="verse-claim">Jerusalem's leaders vs. their children &mdash; two different groups</div></div><span class="verse-status status-demolished">Demolished</span></a>
+                <a href="demolition-rev3-20.html" class="verse-card live"><span class="verse-number">05</span><div class="verse-info"><div class="verse-reference">Revelation 3:20 &mdash; "Behold, I stand at the door and knock"</div><div class="verse-claim">Written to a CHURCH, not unbelievers</div></div><span class="verse-status status-demolished">Demolished</span></a>
+                <a href="demolition-acts7-51.html" class="verse-card live"><span class="verse-number">06</span><div class="verse-info"><div class="verse-reference">Acts 7:51 &mdash; "You always resist the Holy Spirit"</div><div class="verse-claim">External call vs. internal/effectual call</div></div><span class="verse-status status-demolished">Demolished</span></a>
                 <a href="demolition-1john2-2.html" class="verse-card live"><span class="verse-number">07</span><div class="verse-info"><div class="verse-reference">1 John 2:2 &mdash; "Propitiation for the whole world"</div><div class="verse-claim">World vs. Jews only; same author wrote John 10</div></div><span class="verse-status status-demolished">Demolished</span></a>
                 <div class="verse-card"><span class="verse-number">08</span><div class="verse-info"><div class="verse-reference">Ezekiel 18:23 &mdash; "Do I take pleasure in the death of the wicked?"</div><div class="verse-claim">God's revealed will vs. His decretive will</div></div><span class="verse-status status-coming">Coming</span></div>
                 <div class="verse-card"><span class="verse-number">09</span><div class="verse-info"><div class="verse-reference">John 12:32 &mdash; "I will draw ALL people to myself"</div><div class="verse-claim">"All" means all kinds; same draw-word as John 6:44</div></div><span class="verse-status status-coming">Coming</span></div>
@@ -299,7 +335,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>
