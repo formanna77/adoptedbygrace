@@ -349,15 +349,14 @@
             <div class="newsletter-float-icon">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg>
             </div>
-            <p class="newsletter-float-text">Stay rooted in sovereign grace.</p>
-            <form class="newsletter-float-form" action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="8a4690f5-2152-4e7c-a63f-6e49cde17604">
-                <input type="hidden" name="subject" value="Newsletter Signup (floating CTA)">
-                <input type="checkbox" name="botcheck" style="display: none;">
+            <p class="newsletter-float-text">Daily devotionals in sovereign grace.</p>
+            <form class="newsletter-float-form" method="POST" data-netlify="true" name="newsletter">
+                <input type="hidden" name="form-name" value="newsletter">
+                <input type="hidden" name="bot-field" style="display:none;">
                 <input type="email" name="email" required placeholder="your@email.com" aria-label="Email for newsletter" class="newsletter-float-input">
                 <button type="submit" class="newsletter-float-btn">Subscribe</button>
             </form>
-            <p class="newsletter-float-fine">Free devotionals & new content. No spam. Unsubscribe anytime.</p>
+            <p class="newsletter-float-fine">Free daily devotionals & new content. No spam. Unsubscribe anytime.</p>
         `;
 
         document.body.appendChild(cta);
@@ -374,7 +373,7 @@
             setTimeout(() => cta.remove(), 400);
         });
 
-        // Form submission
+        // Form submission via Netlify Forms
         cta.querySelector('.newsletter-float-form').addEventListener('submit', async (e) => {
             e.preventDefault();
             const form = e.target;
@@ -382,17 +381,17 @@
             btn.textContent = 'Sending...';
             btn.disabled = true;
             try {
-                const resp = await fetch('https://api.web3forms.com/submit', {
+                const resp = await fetch('/', {
                     method: 'POST',
-                    body: new FormData(form)
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: new URLSearchParams(new FormData(form)).toString()
                 });
-                const data = await resp.json();
-                if (data.success) {
+                if (resp.ok) {
                     cta.querySelector('.newsletter-float-text').textContent = 'You are subscribed!';
-                    form.innerHTML = '<p style="color:#4ade80;font-size:0.85rem;margin:0;">Grace upon grace. Check your inbox.</p>';
+                    form.innerHTML = '<p style="color:#4ade80;font-size:0.85rem;margin:0;">Grace upon grace. Your daily devotionals are on the way.</p>';
                     sessionStorage.setItem('abg-newsletter-dismissed', '1');
-                    setTimeout(() => { cta.classList.remove('visible'); setTimeout(() => cta.remove(), 400); }, 4000);
-                } else { throw new Error('Failed'); }
+                    setTimeout(() => { cta.classList.remove('visible'); setTimeout(() => cta.remove(), 400); }, 5000);
+                } else { throw new Error('Submission failed'); }
             } catch {
                 btn.textContent = 'Try Again';
                 btn.disabled = false;

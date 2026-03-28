@@ -96,10 +96,21 @@
 
         .hero-content { position: relative; z-index: 2; max-width: 900px; padding: 0 2rem; }
         .hero-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.4em; color: var(--accent-gold); opacity: 0; animation: fadeUp 1s ease 0.3s forwards; margin-bottom: 1.5rem; }
-        .hero-title { font-family: 'Playfair Display', serif; font-size: 5rem; font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; opacity: 0; animation: fadeUp 1.2s ease 0.6s forwards; }
+        .hero-rotate-wrap { position: relative; min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+        .hero-slide { position: absolute; width: 100%; text-align: center; opacity: 0; transform: translateY(18px); transition: opacity 0.7s ease, transform 0.7s ease; pointer-events: none; }
+        .hero-slide.active { opacity: 1; transform: translateY(0); pointer-events: auto; }
+        .hero-slide.exit { opacity: 0; transform: translateY(-18px); }
+        .hero-title { font-family: 'Playfair Display', serif; font-size: 5rem; font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
         .hero-title .gold { background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .hero-verse { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.3rem; color: var(--text-secondary); max-width: 600px; margin: 2rem auto 0.5rem; opacity: 0; animation: fadeUp 1s ease 1s forwards; line-height: 1.8; }
-        .hero-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text-muted); letter-spacing: 0.15em; opacity: 0; animation: fadeUp 1s ease 1.2s forwards; }
+        .hero-verse { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.3rem; color: var(--text-secondary); max-width: 650px; margin: 2rem auto 0.5rem; line-height: 1.8; }
+        .hero-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text-muted); letter-spacing: 0.15em; }
+        /* Progress bar under hero rotation */
+        .hero-progress { position: relative; width: 120px; height: 2px; background: rgba(212, 162, 84, 0.15); border-radius: 2px; margin: 1.5rem auto 0; overflow: hidden; opacity: 0; animation: fadeUp 1s ease 1.2s forwards; }
+        .hero-progress-bar { position: absolute; left: 0; top: 0; height: 100%; width: 0; background: var(--accent-gold); border-radius: 2px; }
+        .hero-progress-bar.running { animation: heroProgress var(--hero-interval, 4s) linear forwards; }
+        @keyframes heroProgress { from { width: 0; } to { width: 100%; } }
+        /* Initial entrance animation */
+        .hero-rotate-wrap { opacity: 0; animation: fadeUp 1.2s ease 0.6s forwards; }
         .hero-ctas { display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap; margin-top: 3rem; opacity: 0; animation: fadeUp 1s ease 1.5s forwards; }
         .btn-primary { display: inline-block; padding: 1rem 2.5rem; background: linear-gradient(135deg, var(--accent-gold), #b8860b); color: #0a0a0f; font-weight: 700; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; letter-spacing: 0.03em; position: relative; overflow: hidden; }
         .btn-primary::after { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s ease; }
@@ -210,6 +221,7 @@
             .hero { min-height: auto; padding: 6rem 1.5rem 3rem; }
             .hero-title { font-size: 2.8rem; }
             .hero-verse { font-size: 1.1rem; margin-top: 1.2rem; }
+            .hero-rotate-wrap { min-height: 220px; }
             .hero-ctas { margin-top: 2rem; }
             .hero-never-link { margin-top: 1.5rem; padding: 0.7rem 1.4rem; }
             .hero-never-text { font-size: 0.85rem; }
@@ -238,6 +250,7 @@
             .hero { min-height: auto; padding: 5rem 1rem 3rem; }
             .hero-title { font-size: 2.2rem; }
             .hero-verse { font-size: 1rem; margin-top: 1rem; }
+            .hero-rotate-wrap { min-height: 200px; }
             .hero-ctas { margin-top: 1.5rem; }
             .hero-glow { width: 250px; height: 250px; }
             .mega-inner { grid-template-columns: 1fr; gap: 1.2rem; }
@@ -355,10 +368,14 @@ body {
         <div class="hero-glow"></div>
         <div class="hero-content">
             <div class="hero-eyebrow">Soli Deo Gloria</div>
-            <h1 class="hero-title">Before the world began,<br><span class="gold">He chose you.</span></h1>
-            <p class="hero-verse">&ldquo;He chose us in Him before the foundation of the world, that we should be holy and blameless before Him.&rdquo;</p>
-            <p class="hero-ref">— Ephesians 1:4</p>
-            <div class="hero-ctas">
+
+            <div class="hero-rotate-wrap" aria-live="polite">
+                <!-- Slides are generated by JS from the heroSlides array -->
+            </div>
+
+            <div class="hero-progress"><div class="hero-progress-bar"></div></div>
+
+            <div class="hero-ctas" style="opacity:0; animation: fadeUp 1s ease 1.5s forwards;">
                 <a href="/start-here" class="btn-primary">Begin the Journey</a>
                 <a href="/questions" class="btn-secondary">See the Evidence</a>
             </div>
@@ -790,7 +807,135 @@ body {
     </script>
 
     <script>
-    
+    // ===== ROTATING HERO SLIDES =====
+    (function() {
+        const INTERVAL = 4200; // ms per slide
+        const heroSlides = [
+            {
+                title: 'Before the world began,<br><span class="gold">He chose you.</span>',
+                verse: 'He chose us in Him before the foundation of the world, that we should be holy and blameless before Him.',
+                ref: 'Ephesians 1:4'
+            },
+            {
+                title: 'You did not choose Him.<br><span class="gold">He chose you.</span>',
+                verse: 'You did not choose me, but I chose you and appointed you that you should go and bear fruit.',
+                ref: 'John 15:16'
+            },
+            {
+                title: 'Dead in sin.<br><span class="gold">Made alive by God.</span>',
+                verse: 'And you were dead in the trespasses and sins... But God, being rich in mercy, made us alive together with Christ.',
+                ref: 'Ephesians 2:1,4\u20135'
+            },
+            {
+                title: 'No one can come to the Father<br><span class="gold">unless He draws them.</span>',
+                verse: 'No one can come to me unless the Father who sent me draws him. And I will raise him up on the last day.',
+                ref: 'John 6:44'
+            },
+            {
+                title: 'Salvation belongs<br><span class="gold">to the Lord.</span>',
+                verse: 'Salvation belongs to the LORD! Your blessing be on your people!',
+                ref: 'Psalm 3:8'
+            },
+            {
+                title: 'He who began a good work<br><span class="gold">will finish it.</span>',
+                verse: 'He who began a good work in you will bring it to completion at the day of Jesus Christ.',
+                ref: 'Philippians 1:6'
+            },
+            {
+                title: 'Not by works,<br><span class="gold">but by grace.</span>',
+                verse: 'He saved us, not because of works done by us in righteousness, but according to his own mercy.',
+                ref: 'Titus 3:5'
+            },
+            {
+                title: 'My sheep hear my voice.<br><span class="gold">No one can snatch them.</span>',
+                verse: 'I give them eternal life, and they will never perish, and no one will snatch them out of my hand.',
+                ref: 'John 10:28'
+            },
+            {
+                title: 'All that the Father gives me<br><span class="gold">will come to me.</span>',
+                verse: 'All that the Father gives me will come to me, and whoever comes to me I will never cast out.',
+                ref: 'John 6:37'
+            },
+            {
+                title: 'From Him, through Him,<br><span class="gold">to Him are all things.</span>',
+                verse: 'For from him and through him and to him are all things. To him be glory forever. Amen.',
+                ref: 'Romans 11:36'
+            },
+            {
+                title: 'Known before you were formed.<br><span class="gold">Called before you were born.</span>',
+                verse: 'Before I formed you in the womb I knew you, and before you were born I consecrated you.',
+                ref: 'Jeremiah 1:5'
+            },
+            {
+                title: 'It does not depend<br><span class="gold">on human will or effort.</span>',
+                verse: 'So then it depends not on human will or exertion, but on God, who has mercy.',
+                ref: 'Romans 9:16'
+            },
+            {
+                title: 'He removes the heart of stone.<br><span class="gold">He gives a heart of flesh.</span>',
+                verse: 'I will give you a new heart, and a new spirit I will put within you. I will remove the heart of stone and give you a heart of flesh.',
+                ref: 'Ezekiel 36:26'
+            },
+            {
+                title: 'Those He foreknew,<br><span class="gold">He also predestined.</span>',
+                verse: 'For those whom he foreknew he also predestined to be conformed to the image of his Son.',
+                ref: 'Romans 8:29'
+            },
+            {
+                title: 'The golden chain<br><span class="gold">cannot be broken.</span>',
+                verse: 'And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified.',
+                ref: 'Romans 8:30'
+            }
+        ];
+
+        const wrap = document.querySelector('.hero-rotate-wrap');
+        const progressBar = document.querySelector('.hero-progress-bar');
+        if (!wrap) return;
+
+        // Build all slide elements
+        heroSlides.forEach((s, i) => {
+            const div = document.createElement('div');
+            div.className = 'hero-slide' + (i === 0 ? ' active' : '');
+            div.innerHTML = `
+                <h1 class="hero-title">${s.title}</h1>
+                <p class="hero-verse">\u201c${s.verse}\u201d</p>
+                <p class="hero-ref">\u2014 ${s.ref}</p>
+            `;
+            wrap.appendChild(div);
+        });
+
+        let current = 0;
+        const slides = wrap.querySelectorAll('.hero-slide');
+
+        // Set CSS variable for progress bar timing
+        document.documentElement.style.setProperty('--hero-interval', INTERVAL + 'ms');
+
+        function startProgress() {
+            if (!progressBar) return;
+            progressBar.classList.remove('running');
+            void progressBar.offsetWidth; // reflow
+            progressBar.classList.add('running');
+        }
+
+        function nextSlide() {
+            const prev = current;
+            current = (current + 1) % slides.length;
+            slides[prev].classList.remove('active');
+            slides[prev].classList.add('exit');
+            slides[current].classList.add('active');
+            // Clean up exit class after transition
+            setTimeout(() => slides[prev].classList.remove('exit'), 700);
+            startProgress();
+        }
+
+        // Start
+        startProgress();
+        setInterval(nextSlide, INTERVAL);
+    })();
+    </script>
+
+    <script>
+
 // Scroll-reveal animation
 (function() {
     const observer = new IntersectionObserver((entries) => {
@@ -806,5 +951,34 @@ body {
 })();
 
     </script>
+
+    <!-- Hidden Netlify form declarations (required for JS-generated forms to work with Netlify Forms) -->
+    <form name="newsletter" netlify netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="newsletter" />
+        <input name="bot-field" />
+        <input type="email" name="email" />
+    </form>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="contact" />
+        <input name="bot-field" />
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+    </form>
+    <form name="prayer-request" netlify netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="prayer-request" />
+        <input name="bot-field" />
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+    </form>
+    <form name="testimony" netlify netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="testimony" />
+        <input name="bot-field" />
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+    </form>
+
     </body>
 </html>

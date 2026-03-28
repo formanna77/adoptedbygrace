@@ -285,7 +285,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/stories">Analogies</a>
+                        <a href="/analogies-illustrations">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
                         <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
@@ -529,9 +529,11 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     <!-- Email Signup CTA -->
     <div class="email-signup">
         <h3>You've Completed the Journey — But Grace Never Ends</h3>
-        <p>Keep growing in your understanding of sovereign grace. Subscribe for weekly devotionals, Scripture studies, and encouragement for the elect of God.</p>
-        <form class="email-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
-            <input type="email" placeholder="your@email.com" required>
+        <p>Keep growing in your understanding of sovereign grace. Subscribe for daily devotionals, Scripture studies, and encouragement for the elect of God.</p>
+        <form class="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="newsletter">
+            <input type="hidden" name="bot-field" style="display:none;">
+            <input type="email" name="email" placeholder="your@email.com" required>
             <button type="submit">SUBSCRIBE</button>
         </form>
         <p class="signup-note">We respect your privacy. Unsubscribe at any time.</p>
@@ -658,6 +660,33 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 }
             });
         });
+    </script>
+    <script>
+    document.querySelector('.email-signup form').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const form = e.target;
+        const btn = form.querySelector('button');
+        const origText = btn.textContent;
+        btn.textContent = 'Sending...';
+        btn.disabled = true;
+        try {
+            const resp = await fetch('/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(new FormData(form)).toString()
+            });
+            if (resp.ok) {
+                btn.textContent = 'Subscribed!';
+                btn.style.background = '#4ade80';
+                form.querySelector('input[type="email"]').value = '';
+                setTimeout(() => { btn.textContent = origText; btn.style.background = ''; btn.disabled = false; }, 4000);
+            } else { throw new Error('Failed'); }
+        } catch {
+            btn.textContent = 'Try Again';
+            btn.disabled = false;
+            setTimeout(() => { btn.textContent = origText; }, 3000);
+        }
+    });
     </script>
     <script src="/global.js" defer></script>
 </body>

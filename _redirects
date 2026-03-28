@@ -21,5 +21,13 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /analogy-light-switch          /analogy-light-switch.html          200
 /analogy-adoption              /analogy-adoption.html              200
 
+# Pastoral Applications
+/pastoral-suffering    /pastoral-suffering.html    200
+/pastoral-prayer       /pastoral-prayer.html       200
+/pastoral-assurance    /pastoral-assurance.html    200
+
+# Counter-Apologetics
+/counter-cs-lewis-free-will  /counter-cs-lewis-free-will.html  200
+
 # Custom 404
 /*  /404.html  404
