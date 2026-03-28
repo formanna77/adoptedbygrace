@@ -370,6 +370,39 @@
 
 ## Session Log
 
+### 2026-03-28 — Growth Deployment Session 2: Full Site Audit & Production Deploy
+- **SCOPE:** Comprehensive site health check, SEO audit, broken link analysis, responsive design verification, and production deployment
+- **DEPLOYMENT:** Successfully deployed to Netlify production (deploy ID: `69c7fb04c5238f50db3bf2ed`) — site live at https://adoptedbygrace.net
+- **PAGE COUNT: 142 HTML files** (up from 140 at last deploy) — growth on track
+- **BROKEN LINK AUDIT:**
+  - 6,595 internal links checked across all 142 pages
+  - 0 broken links using Netlify pretty-URL resolution (absolute paths like `/start-here` resolve correctly)
+  - **13 truly broken targets found** (pages referenced but not yet built):
+    - `/analogies-illustrations`, `/contact`, `/creeds-confessions`, `/secular-evidence`, `/subscribe` — referenced from question-1peter1, question-revelation13
+    - `/systematic-faith`, `/systematic-glorification`, `/systematic-justification`, `/systematic-perseverance`, `/systematic-sanctification` — referenced from systematic-salvation.html
+    - `/systematic-theology-hub` — referenced from 7 pages (demolition-arianism, devotional-cold-church, psalms-election, question-1peter1, question-revelation13, scripture-tsunami, story-the-dead-city, theologian-arminius)
+    - `story-surgeon-stone-heart` and `story-the-dead-city` — relative links missing `.html` extension
+  - **Template variables leaking:** `${p.url}` and `${window.location.hash}` found as href values (JS template literals not rendering)
+- **SEO AUDIT:**
+  - All 142 pages have `<title>` tags — PASS
+  - 141/142 pages have meta descriptions (missing: history-spurgeon-downgrade.html)
+  - 126/142 pages have OG tags — 16 pages missing og:title (demolition-arianism, devotional-cold-church, explore-map, 7 history pages, psalms-election, 3 systematic pages, theologian-arminius)
+  - 142/142 pages have JSON-LD structured data — PASS
+  - Sitemap: 141 URLs (covers all pages except index-old/index-new) — PASS
+  - robots.txt: correctly configured, sitemap referenced — PASS
+  - **2 duplicate meta description groups:** 5 pages share "God..." and 3 index variants share the same description
+- **RESPONSIVE DESIGN:**
+  - All 142 pages have viewport meta tag — PASS
+  - 136/142 pages have @media responsive queries — 6 pages missing (demolition-arianism, devotional-cold-church, history-confessions-story, history-golden-thread, psalms-election, theologian-arminius)
+- **IMAGES/ASSETS:** 0 missing image references, 29 image files, 7 SVGs in assets/
+- **ACTION ITEMS FOR NEXT SESSIONS:**
+  1. **Architect:** Add OG tags to 16 pages missing them; add meta description to history-spurgeon-downgrade; fix 2 duplicate description groups
+  2. **Architect:** Add @media responsive queries to 6 pages missing them
+  3. **Builder:** Build missing link targets: `/contact`, `/subscribe` pages (or remove dead links)
+  4. **Builder:** Fix systematic-salvation.html links to use correct existing page names
+  5. **Refiner:** Fix story-surgeon-stone-heart and story-the-dead-city relative link references (need .html extension or leading `/`)
+  6. **Refiner:** Fix template variable leaks (`${p.url}`, `${window.location.hash}`)
+
 ### 2026-03-28 — Content Builder: Two New Core Doctrine Pages + Cross-References
 - **SCOPE:** Built two Priority 1 doctrine pages from the backlog — the last two remaining in that tier
 - **PAGES BUILT:**

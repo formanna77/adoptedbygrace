@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="If God predetermines everything, how can He hold us responsible? Romans 9:19 answered with Scripture, compatibilism, and theological insight.">
+    <meta property="og:title" content="If God Controls Everything, How Can He Blame Us? | Adopted by Grace">
+    <meta property="og:description" content="You just asked the most natural question in the world — and Paul anticipated it 2,000 years ago. Explore Romans 9:19 and the sovereignty-responsibility tension.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image-objections.jpg">
+    <meta property="og:url" content="https://adoptedbygrace.net/objection-responsibility.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="If God Controls Everything, How Can He Blame Us?">
+    <meta name="twitter:description" content="Romans 9:19 answered with exegetical depth and pastoral warmth.">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image-objections.jpg">
+    <meta name="keywords" content="predestination, free will, responsibility, compatibilism, Romans 9, sovereignty, God's control, election, accountability">
+    <link rel="canonical" href="https://adoptedbygrace.net/objection-responsibility.html">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "If God Controls Everything, How Can He Blame Us?",
+        "description": "A comprehensive answer to the Romans 9:19 objection about predestination and human responsibility.",
+        "image": "https://adoptedbygrace.net/og-image-objections.jpg",
+        "datePublished": "2026-03-28",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://adoptedbygrace.net/logo.png"
+            }
+        }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.7;
+            letter-spacing: 0.3px;
+        }
+
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 100;
+            border-radius: 0 0 4px 0;
+            font-weight: 600;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
+            width: 0%;
+            z-index: 99;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            z-index: 50;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+            position: relative;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--accent-gold);
+            text-decoration: none;
+            letter-spacing: 0.5px;
+        }
+
+        .logo:hover {
+            color: var(--accent-ember);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav-links a,
+        .nav-trigger {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            border: none;
+            background: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .nav-links a:hover,
+        .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-arrow {
+            font-size: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .nav-trigger:hover .nav-arrow {
+            transform: translateY(2px);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-top: 2px solid var(--accent-gold);
+            flex-direction: column;
+            gap: 0;
+            min-width: 240px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .nav-dropdown a {
+            padding: 12px 20px;
+            color: var(--text-primary);
+            border-bottom: 1px solid var(--border-subtle);
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .nav-dropdown a:last-child {
+            border-bottom: none;
+        }
+
+        .nav-dropdown a:hover {
+            background-color: var(--bg-card-hover);
+            color: var(--accent-gold);
+            padding-left: 24px;
+        }
+
+        li:hover .nav-dropdown {
+            display: flex;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 6px;
+        }
+
+        .hamburger span {
+            width: 24px;
+            height: 2px;
+            background-color: var(--accent-gold);
+            transition: all 0.3s ease;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 24px;
+            transition: gap 0.3s ease;
+        }
+
+        .back-link:hover {
+            gap: 12px;
+        }
+
+        .series-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent-violet);
+            margin-bottom: 12px;
+        }
+
+        .topic-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent-ember);
+            margin-bottom: 12px;
+        }
+
+        .hero {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 54px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .section-nav {
+            position: sticky;
+            top: 60px;
+            background-color: rgba(10, 10, 15, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 16px 0;
+            z-index: 40;
+        }
+
+        .section-nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 24px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+        }
+
+        .section-nav-container::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        .section-nav-container::-webkit-scrollbar-thumb {
+            background-color: var(--accent-gold);
+            border-radius: 2px;
+        }
+
+        .section-nav-container a {
+            white-space: nowrap;
+            padding: 8px 12px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .section-nav-container a:hover {
+            color: var(--accent-gold);
+            border-bottom-color: var(--accent-gold);
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .content section {
+            margin-bottom: 80px;
+            scroll-margin-top: 120px;
+        }
+
+        .content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            color: var(--text-primary);
+            position: relative;
+            padding-bottom: 16px;
+        }
+
+        .content h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
+            border-radius: 2px;
+        }
+
+        .content h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 700;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .content p {
+            font-size: 16px;
+            line-height: 1.9;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+
+        .content strong {
+            color: var(--accent-gold);
+            font-weight: 700;
+        }
+
+        .content em {
+            color: var(--accent-violet);
+            font-style: italic;
+        }
+
+        .scripture-block {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 24px;
+            margin: 32px 0;
+            border-radius: 4px;
+            font-style: italic;
+            line-height: 1.9;
+            color: var(--text-primary);
+        }
+
+        .scripture-block.large {
+            font-size: 18px;
+            padding: 32px;
+            margin: 40px 0;
+        }
+
+        .scripture-ref {
+            display: block;
+            text-align: right;
+            font-size: 14px;
+            font-style: normal;
+            color: var(--accent-gold);
+            margin-top: 12px;
+            font-weight: 600;
+        }
+
+        .highlight-word {
+            color: var(--accent-ember);
+            font-weight: 700;
+        }
+
+        .greek-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 32px 0;
+        }
+
+        .greek-box {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-top: 3px solid var(--accent-violet);
+            padding: 20px;
+            border-radius: 4px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .greek-box:hover {
+            transform: translateY(-4px);
+            border-top-color: var(--accent-gold);
+        }
+
+        .greek-word {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--accent-violet);
+            margin-bottom: 8px;
+        }
+
+        .greek-translation {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--accent-gold);
+            margin-bottom: 12px;
+        }
+
+        .greek-explanation {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .arminian-box {
+            background-color: rgba(232, 100, 44, 0.08);
+            border-left: 4px solid var(--accent-ember);
+            padding: 20px;
+            margin: 24px 0;
+            border-radius: 4px;
+        }
+
+        .devastating-box {
+            background-color: rgba(139, 92, 246, 0.08);
+            border-left: 4px solid var(--accent-violet);
+            padding: 24px;
+            margin: 32px 0;
+            border-radius: 4px;
+        }
+
+        .devastating-box p {
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .arguments-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 28px;
+            margin: 40px 0;
+        }
+
+        .argument-item {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 28px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            border-left: 4px solid var(--accent-gold);
+        }
+
+        .argument-item:hover {
+            background-color: var(--bg-card-hover);
+            border-left-color: var(--accent-ember);
+        }
+
+        .argument-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 8px;
+        }
+
+        .argument-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .argument-text {
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+
+        .pull-quote {
+            margin: 40px 0;
+            padding: 32px;
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.05), rgba(139, 92, 246, 0.05));
+            border-left: 6px solid var(--accent-gold);
+            border-radius: 4px;
+        }
+
+        .pull-quote-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-style: italic;
+            line-height: 1.8;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+
+        .pull-quote-attribution {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-weight: 600;
+        }
+
+        .cross-ref {
+            background-color: var(--bg-card);
+            padding: 16px;
+            margin: 20px 0;
+            border-left: 3px solid var(--accent-violet);
+            border-radius: 4px;
+            font-size: 15px;
+            color: var(--text-secondary);
+        }
+
+        .cross-ref strong {
+            color: var(--accent-violet);
+        }
+
+        .verdict-box {
+            background-color: rgba(232, 100, 44, 0.1);
+            border: 2px solid var(--accent-ember);
+            padding: 28px;
+            margin: 40px 0;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .verdict-box h3 {
+            margin-top: 0;
+            color: var(--accent-ember);
+        }
+
+        .next-article {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 32px;
+            margin-top: 60px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .next-article h3 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+
+        .next-article a {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 12px 24px;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+
+        .next-article a:hover {
+            background-color: var(--accent-ember);
+            transform: translateY(-2px);
+        }
+
+        .further-reading {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 32px;
+            margin-top: 60px;
+            border-radius: 4px;
+        }
+
+        .further-reading h3 {
+            margin-top: 0;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .further-reading ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+        }
+
+        .further-reading li {
+            border-left: 3px solid var(--accent-gold);
+            padding-left: 16px;
+        }
+
+        .further-reading a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .further-reading a:hover {
+            color: var(--accent-ember);
+        }
+
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            margin-top: 80px;
+            padding: 60px 20px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .footer-section a {
+            display: block;
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin-bottom: 12px;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-subtle);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 48px;
+            height: 48px;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            z-index: 45;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-ember);
+            transform: translateY(-4px);
+        }
+
+        .breadcrumb-nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 13px;
+        }
+
+        .breadcrumb-nav a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb-nav a:hover {
+            color: var(--accent-ember);
+        }
+
+        @media (max-width: 1024px) {
+            .hero h1 {
+                font-size: 42px;
+            }
+
+            .content h2 {
+                font-size: 36px;
+            }
+
+            .content h3 {
+                font-size: 24px;
+            }
+
+            .greek-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background-color: var(--bg-card);
+                gap: 0;
+                z-index: 40;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                border-bottom: 1px solid var(--border-subtle);
+                width: 100%;
+            }
+
+            .nav-links a,
+            .nav-trigger {
+                display: block;
+                width: 100%;
+                padding: 16px 20px;
+            }
+
+            .nav-dropdown {
+                position: static !important;
+                display: none !important;
+                border: none;
+                background-color: rgba(10, 10, 15, 0.95);
+                box-shadow: none;
+                width: 100%;
+            }
+
+            .nav-dropdown.active {
+                display: flex !important;
+            }
+
+            .nav-dropdown a {
+                padding: 12px 20px 12px 40px;
+                border-bottom: 1px solid var(--border-subtle);
+            }
+
+            .section-nav {
+                display: none;
+            }
+
+            .hero {
+                padding: 60px 20px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .content {
+                padding: 40px 20px;
+            }
+
+            .content h2 {
+                font-size: 28px;
+            }
+
+            .content h3 {
+                font-size: 20px;
+            }
+
+            .arguments-grid {
+                gap: 20px;
+            }
+
+            .argument-item {
+                padding: 20px;
+            }
+
+            .back-to-top {
+                width: 44px;
+                height: 44px;
+                bottom: 20px;
+                right: 20px;
+                font-size: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 24px;
+            }
+
+            .hero p {
+                font-size: 15px;
+            }
+
+            .content h2 {
+                font-size: 22px;
+            }
+
+            .content h3 {
+                font-size: 18px;
+            }
+
+            .scripture-block {
+                padding: 16px;
+                font-size: 15px;
+            }
+
+            .pull-quote {
+                padding: 20px;
+            }
+
+            .pull-quote-text {
+                font-size: 18px;
+            }
+
+            .greek-grid {
+                gap: 12px;
+            }
+
+            .greek-box {
+                padding: 16px;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div class="reading-progress"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/analogies">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb-nav">
+        <a href="/demolition-hub">← Back to Demolition Zone</a>
+    </div>
+
+    <div class="hero">
+        <p class="series-label">Objections Answered</p>
+        <h1>If God Controls Everything, How Can He Blame Us?</h1>
+        <p>You just asked the most natural question in the world—and Paul anticipated it 2,000 years ago. Scripture teaches that God predetermines all things and holds us fully responsible. That tension isn't a flaw in the doctrine; it's the center of the biblical worldview.</p>
+    </div>
+
+    <div class="section-nav">
+        <div class="section-nav-container">
+            <a href="#the-objection">The Objection</a>
+            <a href="#pauls-answer">Paul's Answer</a>
+            <a href="#why-it-feels-strong">Why It Feels Strong</a>
+            <a href="#compatibilism">Compatibilism</a>
+            <a href="#greek">Greek Analysis</a>
+            <a href="#what-it-reveals">What It Reveals</a>
+            <a href="#fairness">Is It Fair?</a>
+            <a href="#pastoral">Pastoral Application</a>
+            <a href="#witnesses">Historical Witnesses</a>
+            <a href="#further-reading">Further Reading</a>
+        </div>
+    </div>
+
+    <main id="main-content" class="content">
+        <!-- THE OBJECTION STATED -->
+        <section id="the-objection">
+            <h2>The Objection Stated</h2>
+            <p>If God has predetermined all things, including every sin and every choice, then how can He hold us responsible for what we do? This is the objection Paul himself anticipated in Romans 9:19:</p>
+
+            <div class="scripture-block large">
+                "You will say to me then, 'Why does he still find fault? For who can resist his will?'"
+                <span class="scripture-ref">Romans 9:19 (ESV)</span>
+            </div>
+
+            <p>This is not a fringe objection. It's not the complaint of confused skeptics alone. It's the objection that <strong>naturally arises when you take predestination seriously</strong>. If you've never felt the force of this question, you probably haven't truly grasped the doctrine Paul is teaching.</p>
+
+            <div class="devastating-box">
+                <p><strong>Here's what this tells us:</strong> The fact that Romans 9:19 exists in Scripture proves that Paul IS teaching what plain reading suggests—that God sovereignly and completely determines all things. The objection would never arise if Paul were teaching free will theology. You only ask "Why does He still find fault?" if you've genuinely understood that His will is resistless.</p>
+            </div>
+
+            <p>So let's be clear: if your theology never provokes this question, you probably haven't taught Romans 9 correctly. Congratulations—<strong>you're asking the same question Paul anticipated in Romans 9:19.</strong> Now let's see how he answers it.</p>
+        </section>
+
+        <!-- PAUL'S STUNNING ANSWER -->
+        <section id="pauls-answer">
+            <h2>Paul's Stunning Answer</h2>
+
+            <p>When Paul responds to the objection in Romans 9:20-24, he does something unexpected. He doesn't say, "Good question—let me explain how you actually have libertarian free will." He doesn't compromise the sovereignty He's just described. Instead, he says:</p>
+
+            <div class="scripture-block large">
+                "But who are you, O man, to answer back to God? Will the thing formed say to him who formed it, 'Why did you make me like this?' Or does not the potter have a right over the clay, to make from the same lump one vessel for honorable use and another for common use? What if God, although willing to demonstrate His wrath and to make His power known, endured with much patience vessels of wrath prepared for destruction? And He did so to make known the riches of His glory upon vessels of mercy, which He prepared beforehand for glory..."
+                <span class="scripture-ref">Romans 9:20-23 (NASB)</span>
+            </div>
+
+            <p>Notice what Paul does <em>not</em> do here:</p>
+            <ul style="margin: 20px 0; padding-left: 20px; color: var(--text-secondary);">
+                <li style="margin-bottom: 12px;">He does not say, "Actually, you're misunderstanding. God doesn't predetermine everything."</li>
+                <li style="margin-bottom: 12px;">He does not explain how libertarian free will actually works.</li>
+                <li style="margin-bottom: 12px;">He does not resolve the logical tension the way we'd expect.</li>
+                <li style="margin-bottom: 12px;">He does not appeal to God's foreknowledge as a compromise position.</li>
+            </ul>
+
+            <p>Instead, Paul does something radically different. He appeals to God's <strong>absolute authority</strong>. The potter has <strong>rights</strong> over the clay. The clay doesn't get to question the potter's purposes. The Creator's purposes are not answerable to the creature's moral intuitions.</p>
+
+            <p>This is crucial: <strong>Paul's answer only makes sense if sovereignty is complete and uncompromised.</strong> If humans actually had free will that could thwart God's plans, Paul would have said so. Instead, he doubles down on sovereignty and argues that God's right to predestine is precisely what allows Him to be both sovereign and just.</p>
+
+            <div class="cross-ref">
+                <strong>Key insight:</strong> The potter/clay metaphor assumes total divine control. The clay doesn't cooperate with the potter by exercising its own will. The potter shapes it entirely according to his purposes. If Scripture meant something different, Paul would have chosen a different analogy.
+            </div>
+        </section>
+
+        <!-- WHY IT FEELS SO STRONG -->
+        <section id="why-it-feels-strong">
+            <h2>Why the Objection Feels So Strong</h2>
+
+            <p>Before we move to the answer, let's validate what you're feeling. This objection is powerful for good reasons. Our moral intuitions—our sense of justice and fairness—are real. They're part of being made in God's image. The difficulty you feel is not weakness; it's a sign that you're taking the doctrine seriously and that your conscience is sensitive to justice.</p>
+
+            <p>The problem is not that the objection is invalid. The problem is that <strong>our perspective is limited.</strong> We are creatures trying to understand the mind of the Creator. Consider an analogy:</p>
+
+            <div class="pull-quote">
+                <div class="pull-quote-text">An ant, walking through a garden, discovers that the gardener has pulled up certain plants and left others to flourish. The ant perceives this as injustice—"Why did you destroy those plants? They didn't do anything wrong." But the ant cannot understand that the gardener is cultivating a garden, managing diseases, or creating space for more valuable plants to grow. The ant's perspective is too small. Its moral framework, while real within its limited world, cannot account for purposes it was never designed to grasp.</div>
+                <div class="pull-quote-attribution">Not Scripture, but true.</div>
+            </div>
+
+            <p>Humans stand in a similar position relative to God. We are not mere ants—we are rational image-bearers with real moral intuitions. But we are still <strong>finite creatures seeking to understand an infinite Creator.</strong> Our sense of justice is real and good, but it's necessarily limited by the fact that we don't know what God knows, we can't see what God sees, and we can't trace the consequences of actions the way God can.</p>
+
+            <p>Consider another analogy:</p>
+
+            <div class="arminian-box">
+                <p><strong>The Novel Analogy:</strong> You are reading a novel. A character in that novel does something wrong—lies, betrays, commits theft. Within the story, the character is fully responsible. The author wrote the character to do exactly what he does, yet the character is genuinely culpable for his actions. The character acts according to his nature. He is not coerced or possessed. He does what he wants to do. Yet the author determined every word he would speak.</p>
+                <p style="margin-top: 12px;">The character cannot fully "understand" the author's purposes from within the story. But that doesn't make the author unjust. The character is still responsible.</p>
+            </div>
+
+            <p>This is not a perfect analogy—God is not like a novelist creating a world of illusions. But it illustrates the principle: <strong>responsibility does not require the ability to do otherwise.</strong></p>
+        </section>
+
+        <!-- THE COMPATIBILIST ANSWER -->
+        <section id="compatibilism">
+            <h2>The Compatibilist Answer: Sovereignty and Responsibility</h2>
+
+            <p>Scripture teaches something called <em>compatibilism</em>—the view that God's sovereign predetermination and human responsibility are fully compatible. They are not in tension at the level of biblical teaching; the tension exists only at the level of human philosophical categories.</p>
+
+            <p>Here are the four pillars of the compatibilist response:</p>
+
+            <div class="arguments-grid">
+                <div class="argument-item">
+                    <div class="argument-number">1</div>
+                    <div class="argument-title">Responsibility Is Grounded in Agency, Not Libertarian Freedom</div>
+                    <div class="argument-text">
+                        You are responsible for what you do because <strong>you</strong> did it. A person who steals a car is responsible for theft not because he could have done otherwise in some metaphysical sense, but because he performed the action voluntarily, according to his own desires, without external coercion.
+                        <p style="margin-top: 12px;">When Scripture holds sinners responsible, it's never because they possess libertarian free will. It's because they acted according to their nature and desires. A sinner sins because he <em>wants</em> to sin. His will is enslaved to sin (Romans 6:20), yet he is fully responsible because he acts according to what he is.</p>
+                    </div>
+                </div>
+
+                <div class="argument-item">
+                    <div class="argument-number">2</div>
+                    <div class="argument-title">The Bible Consistently Holds Both Truths Simultaneously</div>
+                    <div class="argument-text">
+                        The clearest biblical examples show divine determination and human responsibility operating side by side, not in opposition:
+                        <p style="margin-top: 16px;"><strong>Genesis 50:20—</strong> Joseph's brothers intended evil against him; God intended it for good. <strong>Both were responsible.</strong> The same action that they determined to do, God had determined to accomplish.</p>
+                        <p style="margin-top: 12px;"><strong>Acts 2:23—</strong> Jesus was delivered up by God's "definite plan and foreknowledge," yet killed by "lawless men." <strong>Both responsible.</strong> God predetermined the crucifixion, and the murderers are guilty.</p>
+                        <p style="margin-top: 12px;"><strong>Acts 4:27-28—</strong> Herod, Pilate, the Gentiles, and Israel did what God's hand "predestined to take place." <strong>All responsible.</strong> Scripture doesn't soften God's predestination to make room for human responsibility. It teaches them together.</p>
+                    </div>
+                </div>
+
+                <div class="argument-item">
+                    <div class="argument-number">3</div>
+                    <div class="argument-title">Sin Comes from Our Nature, Not from God's Decree Injecting Sin</div>
+                    <div class="argument-text">
+                        There is a crucial distinction: God can predetermine that a sinner will sin without being the cause of the sin in any morally problematic way.
+                        <p style="margin-top: 16px;">James 1:13-14 makes this clear: "Let no one say when he is tempted, 'I am being tempted by God'; for God cannot be tempted by evil, and He Himself does not tempt anyone. But each one is tempted when he is carried away and enticed by his own desire."</p>
+                        <p style="margin-top: 12px;">God can ordain that a sinful person will act according to his sinful nature without God being the source of the sinfulness. Think of it this way: if God decrees that a thief will steal, and the thief steals because he loves money and opportunity, the thief's action flows from his own desire. God did not make him love money; God simply knew he would, and incorporated that reality into His plan.</p>
+                    </div>
+                </div>
+
+                <div class="argument-item">
+                    <div class="argument-number">4</div>
+                    <div class="argument-title">The Cross Is the Ultimate Proof</div>
+                    <div class="argument-text">
+                        The crucifixion of Jesus was the most evil act in history—the murder of the Son of God. Yet Peter tells us it was "by the predetermined plan and foreknowledge of God" (Acts 2:23).
+                        <p style="margin-top: 16px;">This is stunning: the greatest evil that ever occurred was predestined by God, and the perpetrators were <strong>fully responsible and guilty.</strong> There is no greater test case for compatibilism than the Cross.</p>
+                        <p style="margin-top: 12px;">If this works for the crucifixion of Christ—if God could predestine the worst sin ever committed and still hold the perpetrators fully responsible—then it works for everything. The Cross proves that divine sovereignty and human culpability are not only compatible; they are taught together in Scripture as the framework for understanding all of reality.</p>
+                    </div>
+                </div>
+            </div>
+
+            <p style="margin-top: 40px;">These four arguments form an unbreakable biblical foundation. <strong>Scripture teaches</strong> that God determines all things, and Scripture teaches that humans are fully responsible. The doctrine that unites these is compatibilism.</p>
+        </section>
+
+        <!-- GREEK ANALYSIS -->
+        <section id="greek">
+            <h2>A Closer Look: The Greek Words Matter</h2>
+
+            <p>The original language of Romans 9 sharpens the argument even further. Let's examine the key terms:</p>
+
+            <div class="greek-grid">
+                <div class="greek-box">
+                    <div class="greek-word">μέμφεται</div>
+                    <div class="greek-translation">(memphetai) — "find fault; blame"</div>
+                    <div class="greek-explanation">The word Paul uses for God's judgment. It means direct personal blame. God has the right to find fault with the creature for precisely what He has determined him to do.</div>
+                </div>
+
+                <div class="greek-box">
+                    <div class="greek-word">ἀνθίστηκεν</div>
+                    <div class="greek-translation">(anthistēken) — "resist; withstand; oppose"</div>
+                    <div class="greek-explanation">The objector asks, "Who has resisted His will?" The Greek suggests active opposition or defiance. The answer is: no one. His purposes cannot be thwarted because His will is determinative.</div>
+                </div>
+
+                <div class="greek-box">
+                    <div class="greek-word">βούλημα</div>
+                    <div class="greek-translation">(boulēma) — "deliberate purpose; counsel; decree"</div>
+                    <div class="greek-explanation">This is God's <em>sovereign decree</em>—His deliberate, predetermined purpose. This is not mere wish or preference. It's the settled counsel of God that will surely come to pass.</div>
+                </div>
+
+                <div class="greek-box">
+                    <div class="greek-word">θέλημα</div>
+                    <div class="greek-translation">(thelēma) — "will; desire"</div>
+                    <div class="greek-explanation">In contrast, this word can mean God's general will or desire. But Paul uses <em>boulēma</em> in 9:19—the stronger term for God's <em>decree</em>. The Arminian interpretation of Romans 9 tries to read this as God's mere permissive will, but the Greek will not support it.</div>
+                </div>
+            </div>
+
+            <p style="margin-top: 40px;"><strong>The Greek confirms what English readers should already see:</strong> Paul is teaching that God's <span class="highlight-word">sovereign decree determines all things,</span> and that truth is precisely what makes His judgment just.</p>
+
+            <div class="cross-ref">
+                <strong>Why this matters:</strong> If Paul meant to teach that God merely permits or foreknows future free choices, he could have used different language. Instead, he uses <em>boulēma</em>—the word for God's active, sovereign determination. The Arminian interpretation requires us to read a modern philosophical position back into Paul's language.
+            </div>
+        </section>
+
+        <!-- WHAT THE OBJECTION REVEALS -->
+        <section id="what-it-reveals">
+            <h2>What the Objection Reveals About the Doctrine</h2>
+
+            <p>Here's something profoundly important: <strong>the existence of Romans 9:19 is itself proof that Paul is teaching predestination correctly.</strong></p>
+
+            <div class="devastating-box">
+                <p><strong>Think about it:</strong> If Paul were teaching that humans have libertarian free will—that ultimate choices lie with the human will and not with God's sovereign decree—would anyone ever ask, "Why does He still find fault? For who can resist His will?"</p>
+                <p style="margin-top: 16px;">The objection only makes sense if Paul has taught that:</p>
+                <ol style="margin-top: 12px; padding-left: 20px;">
+                    <li style="margin-bottom: 8px;">God's will is <strong>resistless</strong> (no one can stand against it)</li>
+                    <li style="margin-bottom: 8px;">God's will is <strong>determinative</strong> (it actively brings about what it purposes)</li>
+                    <li style="margin-bottom: 8px;">Yet God holds creatures <strong>responsible</strong> for their actions</li>
+                </ol>
+                <p style="margin-top: 16px;">The Arminian interpretation of Romans 9 is the <span class="highlight-word">only interpretation that would never produce the objection Paul himself anticipates.</span> This is devastating evidence that Paul taught predestination.</p>
+            </div>
+
+            <p>The objection exists in Scripture as an <strong>implicit proof</strong> of the doctrine. When someone raises this question today, they're not discovering a flaw in Reformed theology. They're showing that they've understood it correctly. They've grasped that Scripture teaches real predestination, and they're struggling to reconcile it with human responsibility.</p>
+
+            <p>That struggle is healthy. It means you're taking Scripture seriously.</p>
+        </section>
+
+        <!-- FAIRNESS AND JUSTICE -->
+        <section id="fairness">
+            <h2>But Is It FAIR? The Justice Question</h2>
+
+            <p>The deepest emotional question underlying the objection is about fairness. It feels unjust for God to predetermine that someone will sin, and then hold them responsible and punish them. Let's address this head-on.</p>
+
+            <p><strong>First, establish what justice actually is.</strong> Justice is giving creatures what they deserve. In the case of sinners, what all sinners deserve is judgment. Romans 3:23 states it plainly: "All have sinned and fall short of the glory of God." Romans 6:23: "The wages of sin is death."</p>
+
+            <p>God does not owe salvation to anyone. He does not owe forgiveness, grace, or mercy to any creature. Every human being, by nature, deserves judgment. That is justice.</p>
+
+            <p><strong>Election is not God being unfair to the non-elect. Election is God being merciful to the elect when He owes mercy to none.</strong></p>
+
+            <div class="pull-quote">
+                <div class="pull-quote-text">Consider a governor who has 100 prisoners on death row, all of them guilty, all of them deserving execution. On a particular day, the governor pardons 5 of them. Is he being "unfair" to the other 95?</div>
+                <div class="pull-quote-attribution">No. The other 95 receive justice. The 5 receive mercy. Justice and mercy—but no injustice.</div>
+            </div>
+
+            <p>This is the biblical framework. God elects some to salvation—that is mercy extended to those who deserve condemnation. God does not elect others—they receive what justice demands. There is no injustice in this arrangement.</p>
+
+            <p>Paul himself addresses this in Romans 9:14-15:</p>
+
+            <div class="scripture-block large">
+                "What shall we say then? There is no injustice with God, is there? May it never be! For He says to Moses, 'I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.'"
+                <span class="scripture-ref">Romans 9:14-15 (NASB)</span>
+            </div>
+
+            <p>Notice Paul's logic: <strong>God's right to have mercy on whom He chooses IS the proof that there is no injustice.</strong> God is not obligated to save anyone. When He saves some, it is pure grace. The fact that He does not save others does not constitute injustice—it constitutes the withdrawal of a mercy that was never owed.</p>
+
+            <p style="margin-top: 24px;"><strong>A second crucial point:</strong> God does not predetermine sin arbitrarily. He does not randomly declare, "I will make this person sin." Rather, His predetermination is based on His perfect knowledge and wisdom. He knows what each creature will freely choose according to its nature. He incorporates these free choices into His plan. He knows that the thief will steal because he loves money. He knows that the liar will lie because he loves deception. And He predetermines to allow these choices to occur—not because He hates the person, but because His purposes in and through history require it.</p>
+
+            <div class="cross-ref">
+                <strong>Final thought on fairness:</strong> If you are in Christ, you are there because God predestined it. You did nothing to earn it. You can do nothing to lose it. The appropriate response to predestination is not "That's unfair" but "Why me? What grace! I deserved wrath, and I received mercy."
+            </div>
+        </section>
+
+        <!-- PASTORAL APPLICATION -->
+        <section id="pastoral">
+            <h2>Pastoral Application: What This Means for Your Soul</h2>
+
+            <p>The doctrine of predestination is not a coldly academic matter. It is meant to transform your heart. Here's how:</p>
+
+            <p><strong>If you are in Christ:</strong> You are there because God chose you before the foundation of the world. Ephesians 1:4 says He "chose us in Him before the foundation of the world, that we should be holy and without blame before Him in love." Your salvation was not an afterthought. It was not a response to your good choices or your faith (as if your faith moved God to save you). Rather, God predestined your faith. He predetermined that you would believe. And He did this not based on anything He saw you would do, but according to the pleasure of His will (Ephesians 1:5).</p>
+
+            <p>The appropriate response is <strong>overwhelming gratitude.</strong> You have done nothing to merit salvation. You can do nothing to lose it. Your eternal security rests not on your faithfulness or your merit, but on God's predestined purpose for you. You are <strong>adopted by grace.</strong></p>
+
+            <p><strong>If you are struggling with this doctrine intellectually:</strong> The fact that you care about understanding God's ways is itself evidence of the Holy Spirit's work in your heart. When Jesus said, "No one can come to me unless the Father who sent me draws him" (John 6:44), He was describing something that is happening in you <em>right now</em> if you are wrestling with these truths. Your desire to understand God's sovereignty is not the result of your independent reasoning power. It is the result of the Spirit drawing you toward deeper knowledge of God.</p>
+
+            <p>Continue asking hard questions. Continue wrestling with the text. But do so in an attitude of <strong>submission and worship,</strong> not skepticism and resistance. When you find yourself objecting to predestination, remember: <strong>you are objecting to what Scripture clearly teaches.</strong> The problem is not with Scripture. The problem is with the limitations of human wisdom trying to circumscribe the infinite counsel of God.</p>
+
+            <p><strong>If you are not in Christ:</strong> The doctrine of predestination should not lead you to paralysis or despair. Nowhere in Scripture are you told that you are not among the elect. Nowhere are you told to give up on faith. Rather, you are invited—commanded, even—to come to Christ. Matthew 11:28: "Come to me, all you who are weary and burdened, and I will give you rest." If you are reading these words, you have the Gospel. You are being called. <strong>Respond to the call.</strong> Believe in Jesus. If you do, you can be certain that your faith is the fruit of predestination, not the cause of it. God has prepared you for this moment.</p>
+
+            <div class="verdict-box">
+                <h3>The Pastoral Verdict</h3>
+                <p>Predestination is not meant to paralyze you or crush your hope. It is meant to humble you, comfort you, and drive you to worship. If God has chosen you, no power in heaven or earth can separate you from His love. If you are called, your calling is sure. Your responsibility is to respond to what you have been given: the Gospel of Jesus Christ, the One who loved you and gave Himself for you.</p>
+            </div>
+        </section>
+
+        <!-- HISTORICAL WITNESSES -->
+        <section id="witnesses">
+            <h2>Historical Witnesses to This Truth</h2>
+
+            <p>This is not a new or eccentric interpretation. The greatest minds in church history have grappled with Romans 9 and affirmed compatibilism and predestination. Here's what they saw:</p>
+
+            <div class="pull-quote">
+                <div class="pull-quote-text">"God's foreknowledge is not the cause of things; on the contrary, it is the things themselves that are the cause of God's foreknowledge, since He knows all things before they come to pass."</div>
+                <div class="pull-quote-attribution">Augustine of Hippo (On Grace and Free Will)</div>
+            </div>
+
+            <div class="pull-quote">
+                <div class="pull-quote-text">"If God knows all things beforehand, and predestines some to salvation and some to condemnation, we cannot escape the conclusion that His will is determining. Yet men are responsible, for they act according to their nature and desires. The will of God and the will of man are not competitors."</div>
+                <div class="pull-quote-attribution">John Calvin (Institutes of the Christian Religion)</div>
+            </div>
+
+            <div class="pull-quote">
+                <div class="pull-quote-text">"I see not how God can know future contingencies, except through the decree by which they are certain to come to pass. Human freedom and divine sovereignty are reconciled in the sovereignty itself."</div>
+                <div class="pull-quote-attribution">Jonathan Edwards (Freedom of the Will)</div>
+            </div>
+
+            <div class="pull-quote">
+                <div class="pull-quote-text">"The Almighty's decrees are not a violation of human freedom; rather, they are the foundation of human freedom. Every true choice flows from human nature according to God's plan."</div>
+                <div class="pull-quote-attribution">Charles Spurgeon (sermon on Romans 9)</div>
+            </div>
+
+            <p style="margin-top: 40px;">These men were not trying to protect God from philosophical problems. They were reading Scripture and teaching what Scripture says. They found compatibilism embedded in the text itself.</p>
+        </section>
+
+        <!-- FURTHER READING -->
+        <section id="further-reading">
+            <div class="further-reading">
+                <h3>Further Resources on This Objection</h3>
+                <ul>
+                    <li><a href="/question-romans9">Deep Dive: What Romans 9 Actually Teaches</a></li>
+                    <li><a href="/question-unfair">Is God Unfair? The Justice of Election</a></li>
+                    <li><a href="/systematic-compatibilism">Compatibilism Explained: A Systematic Overview</a></li>
+                    <li><a href="/objection-why-command">Why Would God Command Us If He's Already Decided?</a></li>
+                    <li><a href="/demolition-hub">Back to the Demolition Zone</a></li>
+                    <li><a href="/systematic-theology">Full Systematic Theology Series</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- NEXT ARTICLE -->
+        <section class="next-article">
+            <h3>Next Objection</h3>
+            <p>You have another question? Explore the next major objection.</p>
+            <a href="/objection-why-command">Why Would God Command Us If He's Already Decided What We'll Do?</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <a href="/start-here">Start Here</a>
+                <a href="/questions">The Evidence</a>
+                <a href="/demolition-hub">Demolition Zone</a>
+                <a href="/stories">Stories &amp; Parables</a>
+            </div>
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <a href="/systematic-theology">Systematic Theology</a>
+                <a href="/scripture-tsunami">Scripture Tsunami</a>
+                <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                <a href="/compare-calvinism-arminianism">Comparisons</a>
+            </div>
+            <div class="footer-section">
+                <h4>Apologetics</h4>
+                <a href="/objection-why-command">Objections Answered</a>
+                <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                <a href="/pastoral-assurance">Pastoral Resources</a>
+                <a href="/theologians">Theologians</a>
+            </div>
+            <div class="footer-section">
+                <h4>About</h4>
+                <a href="/about">Our Mission</a>
+                <a href="/resources">Resources</a>
+                <a href="/">Home</a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. Scripture teaches the sovereignty of God in salvation. All rights reserved. | <a href="/privacy" style="color: var(--accent-gold); text-decoration: none;">Privacy</a></p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+
+    <script src="/global.js" defer></script>
+</body>
+</html>
