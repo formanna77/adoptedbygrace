@@ -50,7 +50,7 @@
             --border-subtle: rgba(212, 162, 84, 0.12);
         }
         body { background-color: #0a0a0f; background-color: var(--bg-deep); color: #f0ece4; color: var(--text-primary); -webkit-text-size-adjust: 100%; font-family: 'Inter', sans-serif; line-height: 1.7; overflow-x: hidden; }
-        nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 15, 0.85); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; }
+        nav { position: static; top: 0; z-index: 1000; background: rgba(10, 10, 15, 0.85); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; }
         .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
         .logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0.1em; }
         .nav-links { display: flex; gap: 2rem; list-style: none; }
@@ -62,7 +62,7 @@
         .topic-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; }
         .hero h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
         .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 2rem; }
-        .section-nav { position: sticky; top: 80px; z-index: 900; background: var(--bg-deep); border-bottom: 1px solid var(--border-subtle); padding: 1rem 0; margin-bottom: 3rem; overflow-x: auto; }
+        .section-nav { position: static; top: 80px; z-index: 900; background: var(--bg-deep); border-bottom: 1px solid var(--border-subtle); padding: 1rem 0; margin-bottom: 3rem; overflow-x: auto; }
         .section-nav-container { max-width: 900px; margin: 0 auto; padding: 0 2rem; display: flex; gap: 1.5rem; }
         .section-nav a { color: var(--text-secondary); text-decoration: none; font-size: 0.95rem; font-weight: 500; padding: 0.5rem 1rem; border-bottom: 2px solid transparent; transition: all 0.3s ease; white-space: nowrap; }
         .section-nav a:hover, .section-nav a.active { color: var(--accent-gold); border-bottom-color: var(--accent-gold); }
