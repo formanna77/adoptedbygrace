@@ -215,7 +215,7 @@
 
         /* Breadcrumb */
         .breadcrumb-nav {
-            max-width: 1200px;
+            max-max-width: 1200px; width: 100%;
             margin: 24px auto 0;
             padding: 0 24px;
         }
@@ -236,7 +236,7 @@
 
         /* Hero Section */
         .hero {
-            max-width: 1200px;
+            max-max-width: 1200px; width: 100%;
             margin: 0 auto 48px;
             padding: 48px 24px;
             text-align: center;
@@ -507,7 +507,7 @@
             left: -8px;
             top: -12px;
             font-family: 'Playfair Display', serif;
-            font-size: 72px;
+            font-size: clamp(2rem, 5vw, 72px);
             color: var(--accent-gold);
             opacity: 0.3;
         }
@@ -604,7 +604,7 @@
         }
 
         .footer-container {
-            max-width: 1200px;
+            max-max-width: 1200px; width: 100%;
             margin: 0 auto;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -634,7 +634,7 @@
         }
 
         .footer-copyright {
-            max-width: 1200px;
+            max-max-width: 1200px; width: 100%;
             margin: 0 auto;
             padding-top: 24px;
             border-top: 1px solid var(--border-subtle);

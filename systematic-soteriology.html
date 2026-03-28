@@ -72,7 +72,7 @@
         }
 
         .nav-container {
-            max-width: 1200px;
+            max-max-width: 1200px; width: 100%;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -337,7 +337,7 @@
         }
 
         .footer-container {
-            max-width: 1200px;
+            max-max-width: 1200px; width: 100%;
             margin: 0 auto;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -421,6 +421,7 @@
         }
 
         @media (max-width: 968px) {
+            .footer-container { grid-template-columns: 1fr; text-align: center; }
             .nav-links {
                 gap: 1.5rem;
             }
