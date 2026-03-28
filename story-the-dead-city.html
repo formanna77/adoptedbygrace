@@ -1,742 +1,866 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="An allegory about a city under a curse where every inhabitant is frozen in stone — until a Prince walks through and breathes life into those he chooses. A story about election, effectual calling, and sovereign grace.">
-    <meta property="og:title" content="The Dead City — An Allegory of Sovereign Grace">
-    <meta property="og:description" content="An entire city lies under a curse. Every inhabitant is frozen. One by one, the Prince walks through and breathes life into those he chooses.">
-    <meta property="og:type" content="article">
-    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
-    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
-    <meta property="og:url" content="https://adoptedbygrace.net/story-the-dead-city">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="The Dead City — An Allegory of Sovereign Grace">
-    <meta name="twitter:description" content="Every inhabitant is frozen. The Prince walks through and breathes life into those he chooses.">
-    <link rel="canonical" href="https://adoptedbygrace.net/story-the-dead-city">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <title>The Dead City — An Allegory | Adopted by Grace</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "The Dead City — An Allegory of Sovereign Grace",
-        "description": "An allegory about a cursed city where every inhabitant is frozen in stone, and a Prince who walks through breathing life into those he chooses.",
-        "url": "https://adoptedbygrace.net/story-the-dead-city",
-        "genre": "Allegory",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Adopted by Grace",
-            "url": "https://adoptedbygrace.net"
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://adoptedbygrace.net/story-the-dead-city"
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Dead City — Adopted by Grace</title>
+
+  <!-- SEO & Meta -->
+  <meta name="description" content="An allegory on regeneration and election. A city where everyone is dead but doesn't know it — until the Voice speaks.">
+  <meta name="author" content="Adopted by Grace">
+  <link rel="canonical" href="https://adoptedbygrace.net/story-the-dead-city.html">
+
+  <!-- OG Tags -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Dead City — Adopted by Grace">
+  <meta property="og:description" content="An allegory on regeneration and election. A story about those who are dead but don't know it, and the Voice that awakens them.">
+  <meta property="og:url" content="https://adoptedbygrace.net/story-the-dead-city.html">
+  <meta property="og:image" content="https://adoptedbygrace.net/og-image.jpg">
+  <meta property="og:site_name" content="Adopted by Grace">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Dead City — Adopted by Grace">
+  <meta name="twitter:description" content="An allegory on regeneration and election.">
+  <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.jpg">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Dead City",
+    "description": "An allegory on regeneration and election — a story about those who are dead but don't know it, and the Voice that awakens them.",
+    "author": {
+      "@type": "Organization",
+      "name": "Adopted by Grace"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Adopted by Grace",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://adoptedbygrace.net/logo.png"
+      }
+    },
+    "datePublished": "2026-03-28",
+    "url": "https://adoptedbygrace.net/story-the-dead-city.html",
+    "image": "https://adoptedbygrace.net/og-image.jpg"
+  }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="/favicon.png">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/global.css">
+  <style>
+    :root {
+      --bg-deep: #0a0a0f;
+      --bg-card: #12121a;
+      --accent-gold: #d4a254;
+      --accent-ember: #e8642c;
+      --accent-violet: #8b5cf6;
+      --text-primary: #f0ece4;
+      --text-secondary: #9a958c;
+      --text-muted: #807b75;
+      --transition-smooth: 0.3s ease-in-out;
     }
-    </script>
-    <link rel="stylesheet" href="/global.css">
-    <style>
-        /* Story-specific layout */
-        .story-header {
-            max-width: 720px;
-            margin: 0 auto;
-            padding: 4rem 2rem 2rem;
-            text-align: center;
-        }
-        .story-type-label {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.72rem;
-            text-transform: uppercase;
-            letter-spacing: 0.25em;
-            color: var(--accent-gold);
-            opacity: 0.7;
-            margin-bottom: 1.2rem;
-        }
-        .story-header h1 {
-            font-size: 2.8rem;
-            font-weight: 800;
-            line-height: 1.2;
-            letter-spacing: -0.02em;
-            margin-bottom: 1.2rem;
-        }
-        .story-header .subtitle {
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-            font-size: 1.15rem;
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-        .story-divider {
-            width: 60px;
-            height: 2px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
-            margin: 2.5rem auto;
-            border: none;
-        }
-        .story-body {
-            max-width: 680px;
-            margin: 0 auto;
-            padding: 0 2rem 3rem;
-        }
-        .story-body p {
-            font-size: 1.08rem;
-            line-height: 1.95;
-            color: var(--text-primary);
-            margin-bottom: 1.6rem;
-        }
-        .story-body p.scene-break {
-            text-align: center;
-            margin: 2.5rem 0;
-            color: var(--accent-gold);
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 1rem;
-            letter-spacing: 0.5em;
-        }
-        .story-body .first-letter::first-letter {
-            font-family: 'Playfair Display', serif;
-            font-size: 3.8rem;
-            float: left;
-            line-height: 0.8;
-            padding-right: 0.1em;
-            padding-top: 0.08em;
-            color: var(--accent-gold);
-            font-weight: 800;
-        }
-        .story-body em { font-style: italic; }
-        .story-body strong { color: var(--accent-gold); font-weight: 600; }
 
-        /* Doctrine section */
-        .doctrine-section {
-            max-width: 680px;
-            margin: 0 auto;
-            padding: 0 2rem 3rem;
-        }
-        .doctrine-box {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 8px;
-            padding: 2.5rem;
-            position: relative;
-            overflow: hidden;
-        }
-        .doctrine-box::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
-        }
-        .doctrine-box h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1.2rem;
-            color: var(--accent-gold);
-        }
-        .doctrine-box p {
-            font-size: 1rem;
-            line-height: 1.8;
-            color: var(--text-secondary);
-            margin-bottom: 1rem;
-        }
-        .doctrine-box p:last-child { margin-bottom: 0; }
-        .scripture-ref {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.85rem;
-            color: var(--accent-gold);
-            letter-spacing: 0.03em;
-        }
-        .verse-block {
-            border-left: 3px solid var(--accent-gold);
-            padding: 1rem 1.5rem;
-            margin: 1.5rem 0;
-            background: rgba(212, 162, 84, 0.04);
-            border-radius: 0 6px 6px 0;
-        }
-        .verse-block p {
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-            font-size: 1rem;
-            line-height: 1.7;
-            color: var(--text-primary) !important;
-        }
-        .verse-block cite {
-            display: block;
-            margin-top: 0.5rem;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.78rem;
-            color: var(--accent-gold);
-            font-style: normal;
-            letter-spacing: 0.05em;
-        }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        /* Related & share */
-        .related-section {
-            max-width: 680px;
-            margin: 0 auto;
-            padding: 0 2rem 3rem;
-        }
-        .related-section h3 {
-            font-size: 1.3rem;
-            margin-bottom: 1.2rem;
-        }
-        .related-links {
-            display: flex;
-            flex-direction: column;
-            gap: 0.8rem;
-        }
-        .related-link {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 6px;
-            padding: 1.2rem 1.5rem;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-        .related-link:hover {
-            background: var(--bg-card-hover);
-            border-color: rgba(212, 162, 84, 0.25);
-            transform: translateX(4px);
-        }
-        .related-link .link-type {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.65rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: var(--accent-gold);
-            white-space: nowrap;
-            min-width: 80px;
-        }
-        .related-link .link-title {
-            font-size: 0.95rem;
-            color: var(--text-primary);
-            font-weight: 500;
-        }
-        .related-link .link-arrow {
-            margin-left: auto;
-            color: var(--accent-gold);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-        .related-link:hover .link-arrow { opacity: 1; }
-        .share-section {
-            max-width: 680px;
-            margin: 0 auto;
-            padding: 2rem;
-            text-align: center;
-        }
-        .share-section p {
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            line-height: 1.6;
-            margin-bottom: 0.5rem;
-        }
-        .share-section .share-sub {
-            font-family: 'Inter', sans-serif;
-            font-style: normal;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-        .share-buttons {
-            display: flex;
-            gap: 0.75rem;
-            align-items: center;
-            justify-content: center;
-            margin: 1.5rem 0;
-        }
-        .share-buttons .share-label {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: var(--text-muted);
-            margin-right: 0.5rem;
-        }
-        .share-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px; height: 40px;
-            border-radius: 50%;
-            border: 1px solid rgba(212, 162, 84, 0.2);
-            background: transparent;
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
-        .share-btn:hover {
-            background: rgba(212, 162, 84, 0.12);
-            border-color: var(--accent-gold);
-            transform: translateY(-2px);
-        }
-        .breadcrumb-nav {
-            max-width: 900px;
-            margin: 1rem auto 0;
-            padding: 0 2rem;
-        }
-        .breadcrumb-nav a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-size: 0.85rem;
-            letter-spacing: 0.03em;
-            opacity: 0.8;
-            transition: opacity 0.2s;
-        }
-        .breadcrumb-nav a:hover { opacity: 1; text-decoration: underline; }
+    html {
+      scroll-behavior: smooth;
+    }
 
-        /* Reading progress */
-        .reading-progress {
-            position: fixed;
-            top: 0; left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
-            z-index: 9999;
-            transition: width 0.1s linear;
-            width: 0;
-        }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background-color: var(--bg-deep);
+      color: var(--text-primary);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .story-header { padding: 2rem 1.2rem 1.5rem; }
-            .story-header h1 { font-size: 1.6rem; }
-            .story-body, .doctrine-section, .related-section, .share-section { padding-left: 1.2rem; padding-right: 1.2rem; }
-            .story-body p { font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.2rem; }
-            .doctrine-box { padding: 1.2rem; }
-        }
-        @media (max-width: 480px) {
-            .story-header h1 { font-size: 1.3rem; }
-            .story-body p { font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem; }
-            .doctrine-box { padding: 1rem; }
-        }
-    
-        /* Dropdown Navigation */
-        .nav-links li {
-            position: relative;
-        }
-        .nav-trigger {
-            background: none;
-            border: none;
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            font-weight: 500;
-            cursor: pointer;
-            padding: 0;
-            font-family: inherit;
-            transition: color 0.3s ease;
-        }
-        .nav-trigger:hover {
-            color: var(--accent-gold);
-        }
-        .nav-arrow {
-            font-size: 0.65em;
-            margin-left: 2px;
-        }
-        .nav-dropdown {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            background: var(--bg-card, #12121a);
-            border: 1px solid var(--border-subtle, rgba(212,162,84,0.12));
-            border-radius: 8px;
-            padding: 0.5rem 0;
-            min-width: 200px;
-            z-index: 1001;
-            margin-top: 0.5rem;
-        }
-        .nav-links li:hover .nav-dropdown {
-            display: block;
-        }
-        .nav-dropdown a {
-            display: block;
-            padding: 0.5rem 1rem;
-            color: var(--text-secondary, #9a958c);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: background 0.2s, color 0.2s;
-        }
-        .nav-dropdown a:hover {
-            background: rgba(212,162,84,0.08);
-            color: var(--accent-gold, #d4a254);
-        }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-.skip-link:focus { outline: 2px solid var(--accent-gold); }
-</style>
+    /* Skip to content */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: var(--accent-gold);
+      color: var(--bg-deep);
+      padding: 8px 16px;
+      text-decoration: none;
+      z-index: 100;
+      border-radius: 0 0 4px 0;
+      font-weight: 600;
+    }
+
+    .skip-link:focus {
+      top: 0;
+    }
+
+    /* Reading Progress Bar */
+    .reading-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 3px;
+      background: linear-gradient(to right, var(--accent-gold), var(--accent-ember), var(--accent-violet));
+      width: 0%;
+      z-index: 999;
+      transition: width 0.1s ease-out;
+    }
+
+    /* Header & Navigation */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: rgba(10, 10, 15, 0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(212, 162, 84, 0.1);
+      z-index: 90;
+      padding: 1rem 2rem;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent-gold);
+      text-decoration: none;
+      letter-spacing: -1px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: var(--text-primary);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color var(--transition-smooth);
+      position: relative;
+    }
+
+    nav a:hover,
+    nav a:focus-visible {
+      color: var(--accent-gold);
+      outline: none;
+    }
+
+    nav a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background: var(--accent-gold);
+      transition: width var(--transition-smooth);
+    }
+
+    nav a:hover::after,
+    nav a:focus-visible::after {
+      width: 100%;
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 6px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+    }
+
+    .hamburger span {
+      width: 24px;
+      height: 2px;
+      background: var(--accent-gold);
+      border-radius: 2px;
+      transition: all var(--transition-smooth);
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+        background: var(--bg-card);
+        border-bottom: 1px solid rgba(212, 162, 84, 0.1);
+        padding: 1rem 0;
+      }
+
+      nav ul.active {
+        display: flex;
+      }
+
+      nav li {
+        border-bottom: 1px solid rgba(212, 162, 84, 0.05);
+      }
+
+      nav a {
+        display: block;
+        padding: 1rem 2rem;
+      }
+
+      nav a::after {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+        color: var(--text-primary);
+      }
+
+      header {
+        padding: 1rem;
+      }
+
+      .nav-container {
+        padding: 0;
+      }
+    }
+
+    /* Main Content */
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 120px 2rem 4rem;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    .story-meta {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+      color: var(--accent-gold);
+      letter-spacing: -2px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--text-secondary);
+      font-style: italic;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+
+    /* Story Container */
+    .story-container {
+      background: var(--bg-card);
+      border: 1px solid rgba(212, 162, 84, 0.15);
+      border-radius: 8px;
+      padding: 3rem;
+      margin-bottom: 4rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+
+    .story-text {
+      line-height: 1.9;
+      font-size: 1.05rem;
+    }
+
+    .story-text p {
+      margin-bottom: 1.5rem;
+      color: var(--text-primary);
+    }
+
+    .story-text p:first-letter {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      font-weight: 700;
+      color: var(--accent-gold);
+      margin-right: 0.1em;
+    }
+
+    .scene-break {
+      text-align: center;
+      margin: 2.5rem 0;
+      color: var(--accent-violet);
+      font-size: 1.5rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Allegory Unveiled */
+    .allegory-section {
+      margin-top: 4rem;
+      padding-top: 3rem;
+      border-top: 2px solid rgba(212, 162, 84, 0.2);
+    }
+
+    .allegory-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--accent-gold);
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .allegory-map {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .allegory-card {
+      background: rgba(212, 162, 84, 0.05);
+      border: 1px solid rgba(212, 162, 84, 0.2);
+      border-radius: 8px;
+      padding: 2rem;
+      transition: all var(--transition-smooth);
+    }
+
+    .allegory-card:hover {
+      border-color: var(--accent-gold);
+      background: rgba(212, 162, 84, 0.1);
+      transform: translateY(-4px);
+    }
+
+    .allegory-card h3 {
+      color: var(--accent-gold);
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .allegory-card .symbol {
+      color: var(--accent-ember);
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .allegory-card p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .scripture-ref {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      color: var(--accent-violet);
+      font-weight: 500;
+    }
+
+    /* Further Reading */
+    .further-reading {
+      margin-top: 4rem;
+      padding-top: 3rem;
+      border-top: 2px solid rgba(212, 162, 84, 0.2);
+    }
+
+    .further-reading h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--accent-gold);
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .reading-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .reading-card {
+      background: var(--bg-card);
+      border: 1px solid rgba(212, 162, 84, 0.2);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      transition: all var(--transition-smooth);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .reading-card:hover,
+    .reading-card:focus-visible {
+      border-color: var(--accent-gold);
+      background: rgba(212, 162, 84, 0.05);
+      transform: translateY(-4px);
+      outline: none;
+    }
+
+    .reading-card h3 {
+      font-family: 'Playfair Display', serif;
+      color: var(--accent-gold);
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .reading-card p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      flex-grow: 1;
+    }
+
+    .reading-link {
+      color: var(--accent-violet);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    .reading-link::after {
+      content: '→';
+    }
+
+    /* Never Gives Up Banner */
+    .never-gives-up-banner {
+      margin-top: 4rem;
+      padding: 2rem;
+      background: linear-gradient(135deg, rgba(232, 100, 44, 0.15), rgba(139, 92, 246, 0.15));
+      border: 1px solid rgba(232, 100, 44, 0.3);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .banner-title {
+      font-family: 'Playfair Display', serif;
+      color: var(--accent-ember);
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+
+    .banner-text {
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* Back to Top */
+    .back-to-top {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 48px;
+      height: 48px;
+      background: var(--accent-gold);
+      color: var(--bg-deep);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: all var(--transition-smooth);
+      z-index: 80;
+      font-weight: bold;
+    }
+
+    .back-to-top.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .back-to-top:hover,
+    .back-to-top:focus-visible {
+      background: var(--accent-ember);
+      transform: scale(1.1);
+      outline: none;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--bg-card);
+      border-top: 1px solid rgba(212, 162, 84, 0.1);
+      padding: 3rem 2rem;
+      margin-top: 4rem;
+      text-align: center;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: var(--accent-gold);
+      text-decoration: none;
+      transition: color var(--transition-smooth);
+    }
+
+    footer a:hover,
+    footer a:focus-visible {
+      color: var(--accent-ember);
+    }
+
+    /* Focus Visible */
+    *:focus-visible {
+      outline: 2px solid var(--accent-gold);
+      outline-offset: 4px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      main {
+        padding: 100px 1.5rem 3rem;
+      }
+
+      .story-container {
+        padding: 2rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .story-text {
+        font-size: 1rem;
+      }
+
+      .back-to-top {
+        width: 44px;
+        height: 44px;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        font-size: 1.2rem;
+      }
+
+      .allegory-map {
+        grid-template-columns: 1fr;
+      }
+
+      .reading-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
-<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="skip-link">
+    <a href="#main-content">Skip to main content</a>
+  </div>
 
-    <a href="#main-content" class="skip-to-content" style="position:absolute;top:-100px;left:0;background:var(--accent-gold);color:var(--bg-deep);padding:0.5rem 1rem;z-index:2000;font-weight:600;text-decoration:none;">Skip to content</a>
+  <div class="reading-progress"></div>
 
-    <!-- Navigation -->
-    <nav role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <a href="/" class="logo">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/start-here">Start Here</a></li>
-                <li><a href="/explore-map">The Map</a></li>
-                <li>
-                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/questions">The Evidence</a>
-                        <a href="/systematic-theology">Systematic Theology</a>
-                        <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/demolition-hub">Demolition Zone</a>
-                        <a href="/compare-calvinism-arminianism">Comparisons</a>
-                        <a href="/objection-why-command">Objections Answered</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/devotionals">Devotionals</a>
-                        <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
-                        <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/theologians">Theologians</a>
-                        <a href="/history-timeline">Church History</a>
-                        <a href="/ot-election">OT Election</a>
-                    </div>
-                </li>
-                <li><a href="/resources">Resources</a></li>
-                <li><a href="/about">About</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="breadcrumb-nav"><a href="/stories">&larr; Back to Stories</a></div>
+  <header>
+    <div class="nav-container">
+      <a href="/" class="logo">Adopted by Grace</a>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/start-here.html">Start Here</a></li>
+          <li><a href="/questions.html">Questions</a></li>
+          <li><a href="/theology.html">Theology</a></li>
+          <li><a href="/apologetics.html">Apologetics</a></li>
+          <li><a href="/stories.html">Stories</a></li>
+          <li><a href="/resources.html">Resources</a></li>
+          <li><a href="/explore.html">Explore</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Story Header -->
-    <header class="story-header" id="main-content">
-        <div class="story-type-label">An Allegory &middot; Election &middot; Effectual Calling</div>
+  <main id="main-content">
+    <article>
+      <div class="hero">
+        <div class="story-meta">Story</div>
         <h1>The Dead City</h1>
-        <p class="subtitle">They did not know they were dead. That was the nature of the curse. The dead never do.</p>
-    </header>
+        <p class="subtitle">An allegory on regeneration and election — where the awakening comes not by choice, but by grace.</p>
+      </div>
 
-    <hr class="story-divider">
+      <div class="story-container">
+        <div class="story-text">
+          <p>The city had always been dead. No one knew this because no one had ever been alive.</p>
 
-    <!-- Story Body -->
-    <article class="story-body">
-        <p class="first-letter">There was once a city called Adama, and it was the most beautiful city in the world. Its towers caught the morning light like fingers reaching for the sun. Its gardens grew without being tended. Its fountains ran with water so clear you could see the stones at the bottom shimmering like dropped coins. The people of Adama had everything — laughter, music, purpose, and the presence of the King, who walked among them in the cool of the evening and called each citizen by name.</p>
+          <p>It was a city of habit. Morning came, and the people rose from their beds in the gray light that felt like sunlight. They moved through routines that felt like choice: a bitter liquid they called coffee, work they called purpose, conversations they called connection. They felt the dust on their tongues and believed it was the taste of living. They moved their lips and thought they heard each other's words. They walked the streets and thought they were going somewhere.</p>
 
-        <p>Then came the Ruin.</p>
+          <p>But they were not alive. They were corpses walking, and the city was a grave.</p>
 
-        <p>No one remembers exactly how it began. The old records say it started with a whisper — a voice in the garden suggesting that the King's presence was a cage, that His walking among them was surveillance, that the water from His fountains came with invisible strings. The voice said: <em>You could be your own kings. You could name yourselves.</em></p>
+          <p>The people of the city had names and faces, but no one could see color. The sky was grey, the buildings were grey, the faces were grey. They passed grey structures they called markets and grey spaces they called homes. A woman stood before a grey mirror and saw grey, and believed this was seeing. A man held something grey and smooth and felt it and believed he was touching. No one spoke of color because no one had ever known color existed. The very concept was impossible to them—a dead city cannot dream of light.</p>
 
-        <p>And someone listened. And the listening spread like frost on glass.</p>
+          <p>Sound, too, was absent, though no one noticed. The people produced noise—the scrape of chairs, the murmur of voices—but there was no music, no resonance, no harmony. Just the mechanical grinding of routine. A child once asked what singing was. The elders had no answer. It was not a thing that was, so it could not be taught. The question faded like all questions fade in a place where wonder is impossible.</p>
 
-        <p>By morning, the city was cursed.</p>
+          <p>They could eat, but they tasted nothing. Food passed through them like ash. They brought it to their mouths because the dead are taught to feed themselves, and so they did, swallowing dust and calling it nourishment. A baker once wondered what her bread might taste like to someone alive. She never finished the thought. To wonder such a thing would be to admit that something was missing. And in a dead city, nothing is admitted to be missing.</p>
 
-        <p class="scene-break">&bull; &bull; &bull;</p>
+          <p>This was the arrangement of their world: a city of the dead, pretending to be alive. And the dead are excellent pretenders. They practice the motions until the motions feel like existence.</p>
 
-        <p>The curse did not look like a curse. That was its genius.</p>
+          <div class="scene-break">✦</div>
 
-        <p>The towers still stood. The gardens still grew — though the fruit tasted like ash if you paid attention, and no one paid attention. The fountains still ran, though the water had gone grey and thick, and the stones at the bottom were no longer visible. The people still walked the streets, still opened their shops, still argued in the market square about philosophy and politics and the price of grain.</p>
+          <p>Then, one day, a Voice spoke from beyond the city walls.</p>
 
-        <p>But they were dead.</p>
+          <p>It came from outside, from a place the dead did not know existed. The Voice was not like the noise the dead made to each other. It was alive. It was warm. It carried in it something the dead had no word for—something that sounded like music, though the city had no music. It sounded like color, though the city had no color. It sounded like taste, like sweetness, like belonging, like home.</p>
 
-        <p>Not dead the way a corpse is dead — horizontal and obvious, the kind of dead that makes you call a doctor. They were dead the way a statue is dead: upright, shaped like the living, convincing from a distance. Their eyes were open but saw nothing real. Their mouths moved but said nothing true. Their hearts beat — technically — but with a cold, mechanical rhythm, the way a clock ticks without knowing it is counting down.</p>
+          <p>Most of the dead did not hear the Voice. It passed over them like wind passes through a graveyard—present, but unnoticed. They continued their routines, their grey habits, their ash-eating and their pretending. They had not been called, and so they heard nothing. And because they heard nothing, they remained as they were.</p>
 
-        <p>The curse had turned them to stone from the inside out. Their skin was warm but their souls were granite. They could discuss the King — some even claimed to know Him — but they could not <em>see</em> Him. Could not love Him. Could not want Him. They spoke of freedom constantly, with the passionate conviction of prisoners who have decorated their cells so beautifully they've forgotten the walls are there.</p>
+          <p>But some heard it.</p>
 
-        <p>And the worst part — the cruelest, most elegant feature of the curse — was this: <strong>they did not know they were dead.</strong></p>
+          <p>Not because they were better listeners. Not because they reached out to listen. Not because they chose to hear. The Voice simply spoke to them, and in the speaking, made them able to hear. That was the nature of the Voice—it did not offer a choice to those long-dead. It simply spoke, and the dead were made alive.</p>
 
-        <p>They thought they were fine. More than fine — they thought they were flourishing. They built universities to study the curse and concluded it didn't exist. They wrote symphonies about the beauty of the grey water and called it progress. They erected monuments to their own freedom in the very square where the King once walked, and at the base of every monument was an inscription that read: <em>We chose this.</em></p>
+          <p>A man named Marcus heard the Voice while he stood in the grey marketplace, buying grey grain from a grey merchant. The Voice came to him like a command and a gift at once: "Live."</p>
 
-        <p>They were proud of their death. They called it life.</p>
+          <p>And Marcus gasped.</p>
 
-        <p class="scene-break">&bull; &bull; &bull;</p>
+          <p>His lungs filled with air that was not grey but gold—light, burning, impossible. His eyes that had never seen opened and saw color. Red rushed into them. Gold. Blue. Violet. Green. The sky was not grey—it was endlessly, impossibly blue. The buildings around him blazed with warmth. The face of the grey merchant became a man with skin like honey and eyes like chestnuts. A woman beside him had hair like autumn fire.</p>
 
-        <p>The King had a Son.</p>
+          <p>Marcus wept. He fell to his knees and wept because he saw what he had been—dead, truly dead, moving through a grey existence without knowing it—and what he had become. Living. Alive. Awake.</p>
 
-        <p>The records say His name, but the cursed citizens of Adama could not pronounce it. Their stone tongues could not form the syllables. Some claimed the Son was a myth. Others said He was a good teacher who had visited once, long ago, and left behind some helpful principles about kindness and recycling. A few — a very few — whispered that He was dangerous, that His return would mean the end of everything they had built.</p>
+          <p>Around him, the other dead did not understand. "Why do you weep?" they asked in their flat voices. "Are you broken?"</p>
 
-        <p>They were right about that last part.</p>
+          <p>"I am alive," Marcus said, and his voice was different now, too—it had music in it, like wind across water.</p>
 
-        <p>The Son came at night. He did not send a messenger. He did not issue a decree. He did not stand at the gate and call for volunteers. He simply walked in — through the gate that had been locked for centuries, a gate no citizen of Adama could open because their stone hands could not turn the key, and they had long since forgotten there was a key, and before that, they had forgotten there was a gate.</p>
+          <p>They looked at him as if he had spoken nonsense.</p>
 
-        <p>He walked alone. He carried nothing except a lantern — not because He needed light, but because the dead city had been dark so long that the sudden appearance of the sun would have cracked every stone inhabitant to dust. The light had to be introduced gently. Personally. One life at a time.</p>
+          <p>A girl named Sophia heard the Voice while she worked at the grey loom, making grey cloth for grey garments. The Voice came to her like an awakening: "Come alive."</p>
 
-        <p class="scene-break">&bull; &bull; &bull;</p>
+          <p>And Sophia gasped.</p>
 
-        <p>The first one He came to was a woman named Mara.</p>
+          <p>She heard, for the first time in her life, music. It came from everywhere at once—from the loom, from the earth, from the air itself. It was like every note she had never known existed, singing at once. Her hands moved across the loom and felt something impossible: texture, warmth, the grain of wood, the softness of thread. The cloth she was making was not grey—it was white as cloud, and beneath the white was dyed with purple like the night sky.</p>
 
-        <p>She was sitting on a bench in the market square, frozen mid-gesture — her hand extended toward a merchant's stall, reaching for a piece of grey fruit she would never taste. Her expression was what passed for contentment in Adama: a mild, unseeing half-smile, the expression of someone dreaming they are awake.</p>
+          <p>She brought the cloth to her face and it was soft, softer than anything she had ever known. She wept like Marcus had wept. She had been dead and did not know it. Now she was alive and could not deny it.</p>
 
-        <p>The Prince set His lantern on the cobblestones. He knelt beside her. He looked at her face for a long time — the way an artist looks at a painting that has been vandalized, seeing simultaneously what it is and what it was meant to be.</p>
+          <p>Around her, the dead said nothing. They had no framework for her weeping. They returned to their looms and made grey cloth. Sophia could not join them, even if she tried. The Voice had chosen her. The Voice had called her. The call was effectual—it did not merely invite her to life. It made her alive. And the alive cannot return to being dead.</p>
 
-        <p>Then He leaned close and breathed on her.</p>
+          <div class="scene-break">✦</div>
 
-        <p>Not a gust. Not a shout. A breath — warm, quiet, intimate, the kind of breath you feel on your face when someone you love whispers your name from inches away. It entered through her nostrils and traveled downward, past the stone throat, past the stone lungs, down to the center of her — to the place where, centuries ago, a living heart had beaten.</p>
+          <p>More heard the Voice. A mother in a grey home. A father at a grey desk. Children in grey schools. The Voice came to each of them, and to each one it said the same thing: "Live." "Awake." "See." "Hear." "Taste." "Come alive."</p>
 
-        <p>The granite cracked.</p>
+          <p>And every time the Voice spoke, the dead were made alive. The call never failed. When the Voice spoke to someone, that person became alive. There were no exceptions. The Voice spoke, and life followed, as surely as the sun follows the morning.</p>
 
-        <p>It was not a gentle process. The stone split with a sound like ice breaking on a river in spring — a deep, structural <em>crack</em> that traveled through her entire body. She shuddered. Fissures ran along her arms. Dust fell from her shoulders. The half-smile shattered, and beneath it was a face she had never seen in the mirror: her <em>real</em> face, contorted with something between agony and ecstasy, the face of a woman being born.</p>
+          <p>These awakened ones moved through the grey city, seeing it aflame with color, hearing it alive with music, tasting its sweetness. And the dead looked upon them and were troubled. Some thought them mad. Some thought them defective. Some thought them privileged, and demanded to know why they had been chosen for such madness while others remained sane, remained grey, remained dead.</p>
 
-        <p>She gasped.</p>
+          <p>Marcus and Sophia found each other in the city. When their eyes met, they both wept again, because they could see each other truly—not as grey forms moving through grey space, but as they actually were, alive, awake, burning with the reality of existing.</p>
 
-        <p>It was the first true breath she had drawn since the Ruin. Air — actual air, not the stale nothing that the stone lungs had pretended to process — flooded into her. And with the air came everything the curse had stolen: color, pain, beauty, terror, longing, <em>sight</em>. She saw the grey water and recoiled. She saw the ash-fruit and gagged. She saw the monuments to freedom and understood, with a clarity that felt like being struck, that they were tombstones.</p>
+          <p>"When did this happen to you?" Sophia asked.</p>
 
-        <p>And then she saw Him.</p>
+          <p>"At the marketplace," Marcus said. "The Voice spoke, and I had no choice. The choice was taken from me—but not to my loss. When the Voice spoke, I was chosen. And once chosen, I cannot return to being dead, no matter how hard I try. And I will not try, because I have tasted sweetness, and the sweetness is real."</p>
 
-        <p>The Prince was still kneeling beside her, His lantern casting a circle of gold on the cobblestones. He was looking at her the way He had looked before — but now she could <em>see</em> it. Not just the look, but what was behind it. Love. Not the thin, decorative love the citizens of Adama talked about in their poetry — love that cost nothing and meant less. This was the kind of love that burns, that dismantles, that would walk into a city of the dead at night carrying a lantern because <strong>even one stone life was unacceptable to Him.</strong></p>
+          <p>They walked together through the city that was still grey to the grey, but alive with color to those with eyes to see. And as they walked, they encountered the others—all the ones the Voice had called. Some were angry at the dead, at their refusal to see, at their insistence that the dead city was the only reality. Others were grieved, knowing that loved ones remained sleeping, walking corpses who would never hear the Voice.</p>
 
-        <p>"Who are you?" she whispered. But even as she asked it, she knew. The new heart in her chest was already answering, beating toward Him the way a compass needle swings north — not because it decides to, but because that is what it was made for.</p>
+          <p>But Marcus and Sophia knew the truth that the awakened ones all came to understand: the dead could not choose to hear the Voice. The Voice did not work by invitation. It worked by resurrection. You could not wake yourself up. You could not see color if you had been born blind. You could not hear music if you had never been given ears to hear.</p>
 
-        <p>"You know," He said.</p>
+          <p>The Voice had to speak. The Voice had to choose. The Voice had to call. And when it did, the called could not refuse. Nor would they want to.</p>
 
-        <p>And she did.</p>
+          <p>One evening, as Marcus stood at the city's edge, looking out toward the place from which the Voice came, a dead man approached him. The man was grey and hollow, like all the dead, but there was something in his eyes—a question, unformed and perhaps unform-able.</p>
 
-        <p class="scene-break">&bull; &bull; &bull;</p>
+          <p>"Are you truly alive?" the dead man asked.</p>
 
-        <p>He did not wake everyone.</p>
+          <p>"Yes," Marcus said.</p>
 
-        <p>This was the part that would later cause the most controversy — in the city, among the newly living, and in every generation that followed. The Prince walked through Adama street by street, lantern in hand, and He stopped at some and passed others. He breathed on a beggar sleeping under a bridge and left a magistrate frozen at his desk. He knelt beside a child in an alley and walked past a priest in the temple.</p>
+          <p>"Can I become alive?"</p>
 
-        <p>There was no pattern the living could discern. Not wealth, not poverty, not goodness, not wickedness, not age, not beauty, not any quality that the awakened could point to and say: <em>That is why He chose me.</em> They looked at themselves — formerly stone, formerly dead, formerly proud of their death — and they could find nothing in their own history that explained why the Prince had stopped at <em>their</em> bench, <em>their</em> doorstep, <em>their</em> alley.</p>
+          <p>Marcus wanted to say yes. He wanted to reach out and pull the man into life, to wake him as he had been woken. But he could not. Marcus had not given himself his awakening. The Voice had. And Marcus could not speak with the Voice's power.</p>
 
-        <p>Some of the newly living were troubled by this. They went to Mara, who had been the first, and asked: "Why us? Why not them?"</p>
+          <p>"You cannot wake yourself," Marcus said gently. "But the Voice can wake you. The Voice is speaking still. Listen."</p>
 
-        <p>Mara was quiet for a long time. Then she said: "When I was stone, I could not have asked that question. I could not have wanted to ask it. The wanting is itself the answer. He breathed, and we lived. That is the entire explanation."</p>
+          <p>The dead man listened, but he heard nothing. Around him, the grey city continued its grey routines. He returned to his grey home, to his grey bed. And Marcus stood at the edge of the city, his heart aching with the knowing that some would remain dead, not because they had to, but because the Voice had not chosen them—and without that choice, without that call, without that resurrection, they could not and would not believe that there was anything to wake up to.</p>
 
-        <p>"But is it <em>fair</em>?" they pressed.</p>
+          <p>But the Voice was still speaking. And would speak until its purpose was fulfilled, until every last one it had chosen was awakened, alive, and singing color into existence in a city that had been dead for so long it forgot how to dream of light.</p>
 
-        <p>And Mara — who remembered the grey water and the ash-fruit and the centuries of proud, decorated death — said something that silenced the room:</p>
+          <p>And those who had heard the Voice, who could not refuse it, who had been chosen before time was time, who could never return to death—they would wait. They would grieve for the sleeping. But they would not doubt. They knew what they had been. They knew what they had become. And they knew that the Voice, having spoken them alive, would never let them slip back into the grave.</p>
+        </div>
+      </div>
 
-        <p>"Fair would have been to leave us all as stone."</p>
+      <section class="allegory-section">
+        <h2>The Allegory Unveiled</h2>
 
-        <p class="scene-break">&bull; &bull; &bull;</p>
+        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 2rem; font-style: italic;">Scripture teaches us through this story the reality of our condition, God's sovereignty in salvation, and the certainty of grace. Below, the symbols of the allegory point us to the biblical truths:</p>
 
-        <p>The hardest thing for the newly living was not the waking. It was what came after.</p>
-
-        <p>They could see now. And what they saw was unbearable. The city they had loved — the city they had <em>celebrated</em> — was a graveyard. The towers they had admired were mausoleums. The gardens grew poison. The fountains ran with death. And the people — the thousands who still walked and talked and argued and laughed — were corpses performing the motions of life with the mechanical precision of music boxes that have no idea they are winding down.</p>
-
-        <p>The awakened tried to tell them.</p>
-
-        <p>They ran to their neighbors, their families, their old friends, and said: "The water is grey! The fruit is ash! You are dead! There is a Prince, and He can wake you!" And the stone citizens looked at them with their open, unseeing eyes and said — with perfect sincerity, with total conviction, with the unshakeable confidence of the thoroughly cursed:</p>
-
-        <p>"We don't know what you're talking about. The water is fine. We're fine. <em>You're</em> the ones who have lost your minds."</p>
-
-        <p>Some of the stone citizens grew angry. They said the awakened were arrogant — that claiming to be alive implied everyone else was dead, and that was offensive. They said the story about the Prince was a fairy tale designed to make people dependent. They said the idea that someone else had to <em>breathe life into you</em> was an insult to human dignity. "We breathe on our own," they said, drawing their grey, mechanical breaths with furious pride.</p>
-
-        <p>And the awakened wept. Because they recognized that pride. They had felt it themselves, once — when they were stone, when they were dead, when they called their prison a palace. They could not argue the stone citizens into life any more than you can argue a corpse into standing up. The breath had to come from the Prince. And He gave it to whom He chose.</p>
-
-        <p class="scene-break">&bull; &bull; &bull;</p>
-
-        <p>Years passed. The Prince continued His work.</p>
-
-        <p>He never hurried. He never explained His choices to the satisfaction of those who demanded explanations. He walked the streets of Adama at His own pace, lantern in hand, kneeling where He willed, breathing when He willed, raising the dead according to a plan that no living citizen could fully see — though they could feel its edges, the way you feel the shape of a mountain in the dark by the way the wind moves around it.</p>
-
-        <p>The newly living built a community. Not in the old towers — those still belonged to the dead, who maintained them with meticulous, unconscious care, the way a body maintains itself long after the soul has departed. The awakened gathered in a different part of the city, near the gate the Prince had entered. They called it the Quarter of the Living, and it was small, and it was plain, and its fountains ran clear.</p>
-
-        <p>They told stories there. Stories about the night they woke. Every story was different in its details — the bench, the alley, the bridge, the moment the stone cracked — but every story had the same structure: <em>I was dead. He came. He breathed. I live.</em></p>
-
-        <p>No one's story began with <em>I decided to wake up.</em></p>
-
-        <p>No one's story began with <em>I chose to be alive.</em></p>
-
-        <p>Every story — every single one — began with <strong>He came to me.</strong></p>
-
-        <p class="scene-break">&bull; &bull; &bull;</p>
-
-        <p>There is a question the newly living ask sometimes, late at night, when the lanterns are low and the honesty runs deep: "What if He hadn't stopped at my bench?"</p>
-
-        <p>It is not a comfortable question. It has no comfortable answer. If He had walked past, they would still be stone. They would still be sitting in the market square with ash-fruit in their hands and grey water in their veins and monuments to their own freedom casting long shadows over their frozen smiles. They would not know they were dead. They would not know they were missing anything. They would be perfectly, contentedly, irreversibly gone.</p>
-
-        <p>And that — that realization, that vertigo, that dizzying awareness of how close they came to an eternity of decorated death — is what makes the newly living fall to their knees.</p>
-
-        <p>Not because they earned the breath.</p>
-
-        <p>Not because they deserved the cracking.</p>
-
-        <p>But because a Prince walked into a dead city at night, carrying a lantern, and <strong>for reasons that begin and end in His own heart, He knelt beside them and whispered their names.</strong></p>
-
-        <p>And the stone became flesh.</p>
-
-        <p>And the dead lived.</p>
-
-        <p>And the ones who were raised could never stop telling the story — not because they were commanded to, though they were — but because when you have been stone and you wake up breathing, <em>silence is the one thing the new lungs cannot produce.</em></p>
+        <div class="allegory-map">
+          <div class="allegory-card">
+            <h3>The Dead City</h3>
+            <div class="symbol">→ Spiritual Death</div>
+            <p>The city represents humanity in its natural state: dead in sin, unable to perceive spiritual reality, enslaved to routine and habit without knowing it. The dead do not know they are dead.</p>
+            <p class="scripture-ref">Ephesians 2:1–5</p>
+          </div>
+
+          <div class="allegory-card">
+            <h3>Grey & Tasteless</h3>
+            <div class="symbol">→ Total Depravity</div>
+            <p>The absence of color, music, taste, and beauty represents humanity's total inability to perceive or desire spiritual truth. Dead hearts cannot hunger for what they do not know exists.</p>
+            <p class="scripture-ref">Romans 3:10–11</p>
+          </div>
+
+          <div class="allegory-card">
+            <h3>The Voice from Outside</h3>
+            <div class="symbol">→ God's Grace</div>
+            <p>The Voice comes from beyond the city walls—outside and other than the dead. It is not generated from within the city; it is pure gift, pure calling, pure election from beyond.</p>
+            <p class="scripture-ref">Ephesians 2:4–5</p>
+          </div>
+
+          <div class="allegory-card">
+            <h3>Not Everyone Hears</h3>
+            <div class="symbol">→ Unconditional Election</div>
+            <p>The Voice speaks to some, not others—not because some are better listeners, but because the Voice chooses whom to awaken. The call is unconditional, unearned, undeserved.</p>
+            <p class="scripture-ref">Romans 9:11–16</p>
+          </div>
+
+          <div class="allegory-card">
+            <h3>The Call to Live</h3>
+            <div class="symbol">→ Effectual Calling</div>
+            <p>When the Voice speaks, the dead are made alive. The call is not an offer that can be rejected. It is a command that resurrects. The effectiveness lies in the Voice, not the hearer.</p>
+            <p class="scripture-ref">John 5:25, John 11:43–44</p>
+          </div>
+
+          <div class="allegory-card">
+            <h3>Awakening to Color & Music</h3>
+            <div class="symbol">→ Regeneration</div>
+            <p>The moment of awakening—seeing color, hearing music, tasting sweetness—represents being born again. Suddenly, spiritual reality becomes visible, audible, tangible. A new nature is given.</p>
+            <p class="scripture-ref">John 3:3–7, 2 Corinthians 5:17</p>
+          </div>
+
+          <div class="allegory-card">
+            <h3>Cannot Return to Death</h3>
+            <div class="symbol">→ Perseverance</div>
+            <p>Once awakened, the alive cannot choose to return to being dead. The Voice has secured them. They may struggle, but they cannot renounce what they have become.</p>
+            <p class="scripture-ref">Romans 8:28–30, John 10:27–29</p>
+          </div>
+
+          <div class="allegory-card">
+            <h3>Weeping at What They Were</h3>
+            <div class="symbol">→ Repentance & Wonder</div>
+            <p>The tears of the awakened flow from seeing the truth of their former condition and the grace of their present state. Repentance is not effort; it is clarity—seeing clearly what was and what now is.</p>
+            <p class="scripture-ref">Romans 5:8, 2 Corinthians 7:10</p>
+          </div>
+        </div>
+
+        <div style="background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 8px; padding: 2rem; margin-top: 2rem; text-align: center;">
+          <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7;">Scripture teaches that we are dead in our sins, unable and unwilling to choose God. Our awakening comes not by our effort, but by His choice. The Voice that calls the dead to life is the voice of the one who spoke creation into being. When He calls, the dead cannot help but live. This is not bondage—it is the most complete freedom: to be alive.</p>
+          <p style="color: var(--accent-gold); font-weight: 600; margin-top: 1rem; font-family: 'JetBrains Mono', monospace;">Romans 8:30 — "And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."</p>
+        </div>
+      </section>
+
+      <section class="further-reading">
+        <h2>Continue Exploring</h2>
+
+        <div class="reading-cards">
+          <a href="/story-surgeon-stone-heart.html" class="reading-card">
+            <h3>The Surgeon & the Stone Heart</h3>
+            <p>Another allegory exploring grace, transformation, and the surgical precision of God's work in the human heart.</p>
+            <span class="reading-link">Read Story</span>
+          </a>
+
+          <a href="/question-depravity.html" class="reading-card">
+            <h3>Total Depravity</h3>
+            <p>What Scripture teaches about humanity's condition and why we are unable to choose God apart from His grace.</p>
+            <span class="reading-link">Learn More</span>
+          </a>
+
+          <a href="/devotional-dead-who-live.html" class="reading-card">
+            <h3>The Dead Who Live</h3>
+            <p>A devotional reflection on resurrection, identity, and the moment your life changed forever.</p>
+            <span class="reading-link">Read Devotional</span>
+          </a>
+
+          <a href="/psychology-why-we-resist.html" class="reading-card">
+            <h3>Why We Resist</h3>
+            <p>An exploration of the psychological and spiritual reasons we suppress the truth and refuse God's sovereignty—and what Scripture says about this resistance.</p>
+            <span class="reading-link">Explore Psychology</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="never-gives-up-banner">
+        <div class="banner-title">Never Gives Up</div>
+        <p class="banner-text">God will complete what He began in you. The Voice that called you alive will never let you go. In seasons of doubt, despair, and darkness, rest in this: the One who awakened you in grace will sustain you in grace. You cannot lose what you did not earn. You cannot fall from what you were chosen for before time existed.</p>
+      </section>
     </article>
+  </main>
 
-    <hr class="story-divider">
+  <footer>
+    <p>&copy; 2026 Adopted by Grace. All Scripture citations are from the <a href="https://www.esv.org/">English Standard Version</a>.</p>
+    <p style="margin-top: 1rem;"><a href="/privacy.html">Privacy</a> · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a></p>
+  </footer>
 
-    <!-- Doctrine Behind the Story -->
-    <section class="doctrine-section">
-        <div class="doctrine-box">
-            <h2>The Doctrine Behind the Story</h2>
+  <button class="back-to-top" aria-label="Back to top"></button>
 
-            <p>This allegory illuminates three interlocking truths that Scripture teaches about salvation: the totality of human spiritual death, the unconditional nature of God's choosing, and the effectual power of His call.</p>
+  <script src="/global.js"></script>
+  <script>
+    // Hamburger Navigation
+    const hamburger = document.querySelector('.hamburger');
+    const navUl = document.querySelector('nav ul');
 
-            <div class="verse-block">
-                <p>"And you were dead in the trespasses and sins in which you once walked... But God, being rich in mercy, because of the great love with which he loved us, even when we were dead in our trespasses, made us alive together with Christ — by grace you have been saved."</p>
-                <cite>Ephesians 2:1, 4-5</cite>
-            </div>
+    hamburger.addEventListener('click', () => {
+      const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.setAttribute('aria-expanded', !isExpanded);
+      navUl.classList.toggle('active');
+    });
 
-            <p>The citizens of Adama are not sick. They are not struggling. They are <em>dead</em> — and the cruelest dimension of their death is that they do not know it. Scripture describes unregenerate humanity the same way: dead in trespasses, blind to spiritual reality, unable to submit to God's law (<span class="scripture-ref">Romans 8:7-8</span>), unable to understand spiritual truths (<span class="scripture-ref">1 Corinthians 2:14</span>), and unwilling to seek God (<span class="scripture-ref">Romans 3:11</span>). The stone citizens celebrating their "freedom" mirror what Paul describes: people who "suppress the truth in unrighteousness" (<span class="scripture-ref">Romans 1:18</span>) and call their bondage liberty.</p>
+    // Close menu when a link is clicked
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.setAttribute('aria-expanded', 'false');
+        navUl.classList.remove('active');
+      });
+    });
 
-            <div class="verse-block">
-                <p>"He chose us in him before the foundation of the world, that we should be holy and blameless before him. In love he predestined us for adoption to himself as sons through Jesus Christ, according to the purpose of his will."</p>
-                <cite>Ephesians 1:4-5</cite>
-            </div>
+    // Reading Progress Bar
+    function updateReadingProgress() {
+      const readingProgress = document.querySelector('.reading-progress');
+      const windowHeight = window.innerHeight;
+      const documentHeight = document.documentElement.scrollHeight - windowHeight;
+      const scrolled = window.scrollY;
+      const progress = (scrolled / documentHeight) * 100;
+      readingProgress.style.width = progress + '%';
+    }
 
-            <p>The Prince does not interview the citizens. He does not evaluate their qualifications. He does not wait for a flicker of life to appear so He can fan it into flame — there <em>is</em> no flicker. He chooses according to His own purpose. Mara's answer to the question "Is it fair?" echoes Romans 9:15-16: <em>"I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion."</em> The alternative to sovereign election is not that everyone gets saved — it is that no one does. "Fair" would indeed have been to leave the entire city as stone.</p>
+    window.addEventListener('scroll', updateReadingProgress);
 
-            <div class="verse-block">
-                <p>"The wind blows where it wishes, and you hear its sound, but you do not know where it comes from or where it goes. So it is with everyone who is born of the Spirit."</p>
-                <cite>John 3:8</cite>
-            </div>
+    // Back to Top Button
+    const backToTop = document.querySelector('.back-to-top');
 
-            <p>The Prince's breath is the effectual call — the moment when God's Spirit raises the spiritually dead to life. It is not an invitation that can be declined. Dead people do not decline invitations; they do not hear them. The breath is an act of creation, as sovereign and irresistible as the original "Let there be light." And the result is always the same: the stone cracks, the eyes open, and the newly living person immediately sees what they could never see before — the beauty of the Prince and the horror of the grey water they once called wine. That is why every testimony in the Quarter of the Living begins the same way: <em>"He came to me."</em> No one wakes themselves from death (<span class="scripture-ref">John 6:44</span>, <span class="scripture-ref">John 1:13</span>).</p>
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTop.classList.add('show');
+      } else {
+        backToTop.classList.remove('show');
+      }
+    });
 
-            <p>And the awakened who cannot stop speaking? That is the perseverance of the saints — the truth that those whom God makes alive stay alive, and the life He gives produces fruit that cannot be suppressed. The new lungs <em>must</em> breathe. The new heart <em>must</em> beat. The new tongue <em>must</em> testify. Not because the stone earned it, but because the Prince's breath does not fail (<span class="scripture-ref">Philippians 1:6</span>, <span class="scripture-ref">John 10:28-29</span>).</p>
-        </div>
-    </section>
-
-    <!-- Related Content -->
-    <section class="related-section">
-        <h3>Continue the Journey</h3>
-        <div class="related-links">
-            <a href="/story-surgeon-stone-heart" class="related-link">
-                <span class="link-type">Story</span>
-                <span class="link-title">The Surgeon and the Stone Heart &mdash; A Parable of Regeneration</span>
-                <span class="link-arrow">&rarr;</span>
-            </a>
-            <a href="/question-depravity" class="related-link">
-                <span class="link-type">Doctrine</span>
-                <span class="link-title">Dead, Not Sick &mdash; Total Depravity Examined</span>
-                <span class="link-arrow">&rarr;</span>
-            </a>
-            <a href="/question-john6" class="related-link">
-                <span class="link-type">Scripture</span>
-                <span class="link-title">John 6:37-44 &mdash; No One Can Come Unless the Father Draws</span>
-                <span class="link-arrow">&rarr;</span>
-            </a>
-            <a href="/question-romans9" class="related-link">
-                <span class="link-type">Scripture</span>
-                <span class="link-title">Romans 9 &mdash; The Potter and the Clay</span>
-                <span class="link-arrow">&rarr;</span>
-            </a>
-            <a href="/stories" class="related-link">
-                <span class="link-type">Stories</span>
-                <span class="link-title">Read More Stories of Sovereign Grace</span>
-                <span class="link-arrow">&rarr;</span>
-            </a>
-        </div>
-    </section>
-
-    <!-- Share -->
-    <section class="share-section">
-        <p>"Know someone who needs to hear this story?"</p>
-        <p class="share-sub">Copy the link and share it. The best stories are the ones that get passed along.</p>
-        <div class="share-buttons" role="group" aria-label="Share this article">
-            <span class="share-label">Share</span>
-            <a class="share-btn" href="" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" aria-label="Share on X (Twitter)" title="Share on X">&#120143;</a>
-            <a class="share-btn" href="" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','width=550,height=420');return false" aria-label="Share on Facebook" title="Share on Facebook">f</a>
-            <button class="share-btn" onclick="navigator.clipboard.writeText(location.href).then(function(){this.innerHTML='&#10003;';var b=this;setTimeout(function(){b.innerHTML='&#128279;'},2000)}.bind(this))" aria-label="Copy link" title="Copy link">&#128279;</button>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-container">
-            <div class="footer-section"><h4>Doctrine</h4><ul>
-                <li><a href="/questions">The Evidence</a></li>
-                <li><a href="/systematic-theology">Systematic Theology</a></li>
-                <li><a href="/demolition-hub">Demolition Zone</a></li>
-                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-            </ul></div>
-            <div class="footer-section"><h4>Explore</h4><ul>
-                <li><a href="/start-here">Start Here</a></li>
-                <li><a href="/theologians">Theologians</a></li>
-                <li><a href="/devotionals">Devotionals</a></li>
-                <li><a href="/resources">Resources</a></li>
-            </ul></div>
-            <div class="footer-section"><h4>Connect</h4><ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="connect.html">Contact</a></li>
-                <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
-            </ul></div>
-        </div>
-        <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
-        <!-- Cross-Reference Section -->
-        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-            <div style="max-width: 900px; margin: 0 auto;">
-                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                    <a href="/question-depravity.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Total Depravity</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The condition from which all must be raised.</p>
-                    </a>
-                    <a href="/question-irresistible.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Irresistible Grace</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Grace that raises the spiritually dead.</p>
-                    </a>
-                    <a href="/devotional-dead-who-live.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Dead Who Live</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A meditation on resurrection.</p>
-                    </a>
-                    <a href="/story-surgeon-stone-heart.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Surgeon with Stone Heart</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Another story of divine transformation.</p>
-                    </a>
-                    <a href="/question-newheart.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">New Heart?</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">What does it mean to be born again?</p>
-                    </a>
-                    <a href="/stories.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">All Stories</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Browse the full collection of stories on this site.</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-    </footer>
-
-    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
-    <script src="/global.js" defer></script>
-    <script>
-    // Reading progress bar
-    (function(){
-        var bar = document.querySelector('.reading-progress');
-        if (!bar) return;
-        var body = document.querySelector('.story-body');
-        if (!body) return;
-        window.addEventListener('scroll', function(){
-            var rect = body.getBoundingClientRect();
-            var total = body.scrollHeight;
-            var scrolled = Math.max(0, -rect.top);
-            var pct = Math.min(100, (scrolled / (total - window.innerHeight)) * 100);
-            bar.style.width = pct + '%';
-            bar.setAttribute('aria-valuenow', Math.round(pct));
-        }, {passive: true});
-    })();
-    </script>
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 </body>
 </html>

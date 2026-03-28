@@ -1,5 +1,31 @@
 # Overseer Log — adoptedbygrace.net
 
+## 2026-03-28 — Run 2 (Scheduled)
+
+### Issues Found & Fixed
+1. **ROADMAP.md eschatology references** — Removed 3 stale references to deleted `systematic-eschatology.html` (lines 55, 102, 180). Line 180 converted to strikethrough note: "REMOVED per site policy." This was flagged in Run 1 and is now resolved.
+2. **Sitemap gaps** — Added `psychology-hub.html` and `psychology-why-we-resist.html` to sitemap.xml (were the only 2 real pages missing; `index-new.html` and `index-old.html` are deprecated and intentionally excluded).
+3. **No new broken links** — QA enforcer cleared all 53 issues last session. No regressions detected.
+4. **No eschatology content** in any HTML file (only historical references in log files, which is appropriate).
+
+### Content Built
+- **`apologetic-definite-atonement.html`** — NEW: "Did Jesus Die for Everyone?" — Comprehensive apologetic for definite/particular atonement. Features Owen's Trilemma, exegesis of 9 key passages (John 10:11,15; John 17:9; Eph 5:25; Matt 1:21; Isa 53:11-12; Heb 9:28; Acts 20:28; 1 John 2:2; John 3:16), the surgeon analogy, the bridegroom metaphor, "Never Gives Up" banner, and related resource cards. ~816 lines, ~2,100 words of content. Scripture-first terminology throughout. Added to sitemap and ROADMAP.
+
+### Current Page Count
+- **192 HTML pages** (191 existing + 1 new)
+- **Sitemap entries: ~192** (synced)
+
+### Agent Assessment
+- **Wordsmith** has polished 10 pages (index, start-here series, devotionals). ~180 pages remain untouched — this is the biggest quality gap.
+- **Story Engine** still at 3 of 12 stories. Needs acceleration.
+- **Psychology series** has hub + 1 page. 8 more planned pages not started.
+- **Hub link gaps** persist (flagged by fleet-ops): questions.html missing 4 pages, analogies hub linking 0 analogy pages, systematic-theology hub missing 8 pages. These need dedicated attention.
+
+### Top 3 Priorities for Next Run
+1. **Fix hub link gaps** — Especially analogies-illustrations.html (links ZERO analogy pages despite 5 existing) and systematic-theology.html (missing 8 pages). These are navigation dead-ends.
+2. **Build next apologetics page** — "Can You Lose Your Salvation?" (perseverance case) or "What About the Person Who Never Heard?" (Romans 1)
+3. **Story Engine backlog** — "The Adoption Papers" or "The Voice in the Valley" — stories reach hearts that arguments miss
+
 ## 2026-03-28 — Inaugural Audit (Live Session with Aaron)
 
 ### State of the Operation
