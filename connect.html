@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Connect with Adopted by Grace. Share prayer requests, testimonies, theological questions, and join our growing community of Reformed believers.">
+    <meta property="og:title" content="Connect With Us – Adopted by Grace">
+    <meta property="og:description" content="Share prayer requests, testimonies, questions, and newsletter signup for adoptedbygrace.net">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/connect.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/connect.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Connect With Us – Adopted by Grace">
+    <meta name="twitter:description" content="Share prayer requests, testimonies, questions, and newsletter signup for adoptedbygrace.net">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Connect With Us – Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Connect With Us – Adopted by Grace",
+        "description": "Connect with the Adopted by Grace community through prayer requests, testimonies, and theological discussion",
+        "url": "https://adoptedbygrace.net/connect.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            -webkit-text-size-adjust: 100%;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* ===== NAVIGATION ===== */
+        nav {
+            position: static;
+            top: 0;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.85);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+        }
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--accent-gold);
+        }
+
+        /* ===== NAV DROPDOWNS ===== */
+        .nav-trigger {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0;
+        }
+        .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-top: none;
+            min-width: 200px;
+            flex-direction: column;
+            z-index: 1001;
+        }
+        .nav-dropdown a {
+            padding: 0.8rem 1.5rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border-subtle);
+            transition: all 0.2s ease;
+        }
+        .nav-dropdown a:last-child {
+            border-bottom: none;
+        }
+        .nav-dropdown a:hover {
+            background: var(--bg-card-hover);
+            color: var(--accent-gold);
+        }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .verse-anchor {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.08), rgba(232, 100, 44, 0.05));
+            border-left: 4px solid var(--accent-gold);
+            border-radius: 4px;
+            font-style: italic;
+            color: var(--text-primary);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .verse-citation {
+            color: var(--accent-gold);
+            font-size: 0.95rem;
+            margin-top: 1rem;
+        }
+
+        /* ===== TAB NAVIGATION ===== */
+        .tabs-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        .tab-buttons {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--border-subtle);
+            overflow-x: auto;
+            padding-bottom: 1rem;
+        }
+        .tab-btn {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            padding: 0.8rem 1.5rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        .tab-btn:hover {
+            color: var(--accent-gold);
+        }
+        .tab-btn.active {
+            color: var(--accent-gold);
+            border-bottom-color: var(--accent-gold);
+        }
+
+        /* ===== TAB PANELS ===== */
+        .tab-panel {
+            display: none;
+            animation: fadeIn 0.4s ease-in-out;
+        }
+        .tab-panel.active {
+            display: block;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ===== FORMS ===== */
+        .form-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        .form-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+        .form-description {
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        .form-group label {
+            display: block;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            background: var(--bg-deep);
+            color: var(--text-primary);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 0 3px rgba(212, 162, 84, 0.1);
+        }
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: var(--text-muted);
+        }
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        /* ===== CHECKBOX STYLING ===== */
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin: 1.5rem 0;
+        }
+        .checkbox-group input[type="checkbox"] {
+            width: auto;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: var(--accent-gold);
+        }
+        .checkbox-group label {
+            margin-bottom: 0;
+            cursor: pointer;
+            color: var(--text-secondary);
+        }
+
+        /* ===== BUTTONS ===== */
+        .submit-btn {
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            color: var(--bg-deep);
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Inter', sans-serif;
+        }
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(212, 162, 84, 0.3);
+        }
+        .submit-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        /* ===== MESSAGES ===== */
+        .form-message {
+            padding: 1.2rem;
+            border-radius: 4px;
+            margin-bottom: 1.5rem;
+            animation: slideIn 0.3s ease-out;
+        }
+        .form-message.success {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.15), rgba(139, 92, 246, 0.1));
+            border: 1px solid rgba(212, 162, 84, 0.3);
+            color: var(--accent-gold);
+        }
+        .form-message.error {
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.15), rgba(212, 162, 84, 0.05));
+            border: 1px solid rgba(232, 100, 44, 0.3);
+            color: var(--accent-ember);
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ===== NEWSLETTER CARD ===== */
+        .newsletter-card {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.08));
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 2.5rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+        .newsletter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+        .newsletter-description {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+        .newsletter-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .newsletter-form input {
+            padding: 0.8rem 1rem;
+            background: var(--bg-deep);
+            color: var(--text-primary);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            font-family: 'Inter', sans-serif;
+            transition: all 0.3s ease;
+        }
+        .newsletter-form input:focus {
+            outline: none;
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 0 3px rgba(212, 162, 84, 0.1);
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            padding: 3rem 2rem;
+            margin-top: 6rem;
+        }
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+        .footer-section h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
+        }
+        .footer-section ul {
+            list-style: none;
+        }
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+        .footer-copyright {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* ===== ACCESSIBILITY & RESPONSIVE ===== */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            z-index: 10000;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: top 0.2s;
+        }
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        *:focus-visible {
+            outline: 2px solid var(--accent-gold);
+            outline-offset: 2px;
+            border-radius: 2px;
+        }
+        a:focus-visible {
+            outline-offset: 3px;
+        }
+        button:focus-visible {
+            outline-offset: 2px;
+        }
+
+        /* ===== BACK TO TOP ===== */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgba(18, 18, 26, 0.9);
+            border: 1px solid var(--border-subtle);
+            color: var(--accent-gold);
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 999;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        .back-to-top:hover {
+            background: rgba(212, 162, 84, 0.15);
+            border-color: var(--accent-gold);
+            transform: translateY(-2px);
+        }
+
+        /* ===== READING PROGRESS ===== */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
+            z-index: 9999;
+            transition: width 0.1s linear;
+            width: 0;
+        }
+
+        /* ===== HAMBURGER MENU ===== */
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+            z-index: 1001;
+        }
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--accent-gold);
+            margin: 5px 0;
+            transition: all 0.3s ease;
+            border-radius: 2px;
+        }
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* ===== MEDIA QUERIES ===== */
+        @media (max-width: 1024px) {
+            nav {
+                padding: 0.8rem 1rem;
+            }
+            .nav-container {
+                flex-direction: column;
+                gap: 0.6rem;
+            }
+            .logo {
+                font-size: 1rem;
+            }
+            .nav-links {
+                gap: 0.6rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .nav-links a {
+                font-size: 0.8rem;
+            }
+            .hero {
+                padding: 2rem 1.2rem;
+                margin: 2rem auto;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .form-card {
+                padding: 1.5rem;
+            }
+            footer {
+                padding: 2rem 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+            }
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(10, 10, 15, 0.98);
+                flex-direction: column;
+                padding: 1rem 2rem 2rem;
+                gap: 0;
+                border-bottom: 1px solid var(--border-subtle);
+                z-index: 999;
+            }
+            .nav-links.open {
+                display: flex;
+            }
+            .nav-links li {
+                padding: 0.7rem 0;
+                border-bottom: 1px solid rgba(212, 162, 84, 0.08);
+            }
+            .nav-links li:last-child {
+                border-bottom: none;
+            }
+            .nav-links a {
+                font-size: 1.1rem;
+                display: block;
+            }
+            .logo {
+                font-size: 1rem;
+            }
+            .hero {
+                padding: 1.5rem 1rem;
+                margin: 1.5rem auto;
+            }
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+            .hero-subtitle {
+                font-size: 0.95rem;
+            }
+            .tab-buttons {
+                gap: 0.3rem;
+                padding: 0.5rem;
+            }
+            .tab-btn {
+                padding: 0.6rem 1rem;
+                font-size: 0.85rem;
+            }
+            .tabs-container {
+                padding: 0 1rem;
+            }
+            .form-card {
+                padding: 1.5rem 1rem;
+                border-radius: 6px;
+            }
+            .form-group input,
+            .form-group textarea,
+            .form-group select {
+                padding: 0.7rem 0.8rem;
+                font-size: 16px;
+            }
+            .newsletter-card {
+                padding: 1.5rem 1rem;
+            }
+            .submit-btn {
+                padding: 0.8rem 1.5rem;
+                width: 100%;
+            }
+            .back-to-top {
+                width: 40px;
+                height: 40px;
+                bottom: 1.5rem;
+                right: 1.5rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+<a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+<nav role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+        <a href="/" class="logo">Adopted by Grace</a>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/start-here">Start Here</a></li>
+            <li>
+                <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                <div class="nav-dropdown">
+                    <a href="/questions">The Evidence</a>
+                    <a href="/systematic-theology">Systematic Theology</a>
+                    <a href="/scripture-tsunami">Scripture Tsunami</a>
+                    <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                </div>
+            </li>
+            <li>
+                <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                <div class="nav-dropdown">
+                    <a href="/demolition-hub">Demolition Zone</a>
+                    <a href="/compare-calvinism-arminianism">Comparisons</a>
+                    <a href="/objection-why-command">Objections Answered</a>
+                </div>
+            </li>
+            <li>
+                <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                <div class="nav-dropdown">
+                    <a href="/devotionals">Devotionals</a>
+                    <a href="/stories">Stories &amp; Parables</a>
+                    <a href="/analogies-illustrations">Analogies</a>
+                    <a href="/pastoral-assurance">Pastoral</a>
+                    <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/explore-map">The Living Map</a>
+                </div>
+            </li>
+            <li>
+                <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                <div class="nav-dropdown">
+                    <a href="/theologians">Theologians</a>
+                    <a href="/history-timeline">Church History</a>
+                    <a href="/ot-election">OT Election</a>
+                </div>
+            </li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section id="main-content" class="hero">
+    <h1>Connect With Us</h1>
+    <p class="hero-subtitle">We are grateful for the communion of saints. Whether you have questions about Scripture, wish to share a prayer request, contribute your testimony, or simply want to stay connected with our community—we are here to listen, to pray, and to serve.</p>
+    <div class="verse-anchor">
+        "Bear one another's burdens, and so fulfill the law of Christ."
+        <div class="verse-citation">— Galatians 6:2 (ESV)</div>
+    </div>
+</section>
+
+<div class="tabs-container">
+    <div class="tab-buttons" role="tablist">
+        <button class="tab-btn active" data-tab="contact" role="tab" aria-selected="true" aria-controls="contact-panel">
+            Contact Form
+        </button>
+        <button class="tab-btn" data-tab="prayer" role="tab" aria-selected="false" aria-controls="prayer-panel">
+            Prayer Requests
+        </button>
+        <button class="tab-btn" data-tab="testimony" role="tab" aria-selected="false" aria-controls="testimony-panel">
+            Share Your Story
+        </button>
+        <button class="tab-btn" data-tab="newsletter" role="tab" aria-selected="false" aria-controls="newsletter-panel">
+            Newsletter
+        </button>
+    </div>
+
+    <!-- CONTACT FORM TAB -->
+    <div id="contact-panel" class="tab-panel active" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="form-card">
+            <h2 class="form-title">Contact Us</h2>
+            <p class="form-description">Have a question about our ministry or content? We'd love to hear from you. (Your name was known before the foundation of the world, but we'd like to know it too.)</p>
+
+            <div id="contact-message" class="form-message" style="display: none;"></div>
+
+            <form id="contact-form" class="form">
+                <input type="hidden" name="access_key" value="8a4690f5-2152-4e7c-a63f-6e49cde17604">
+                <input type="hidden" name="subject" value="Contact Form from adoptedbygrace.net">
+                <input type="checkbox" name="botcheck" style="display: none;">
+
+                <div class="form-group">
+                    <label for="contact-name">Name</label>
+                    <input type="text" id="contact-name" name="name" required placeholder="Your name (God already knows it, but we'd like to as well)">
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" name="email" required placeholder="your@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-subject-select">Subject</label>
+                    <select id="contact-subject-select" name="subject-type" required>
+                        <option value="">Select a topic...</option>
+                        <option value="General Question">General Question</option>
+                        <option value="Theological Discussion">Theological Discussion</option>
+                        <option value="Partnership/Collaboration">Partnership / Collaboration</option>
+                        <option value="Website Feedback">Website Feedback</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-message-text">Message</label>
+                    <textarea id="contact-message-text" name="message" required placeholder="Share your thoughts, questions, or ideas..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- PRAYER REQUESTS TAB -->
+    <div id="prayer-panel" class="tab-panel" role="tabpanel" aria-labelledby="prayer-tab">
+        <div class="form-card">
+            <h2 class="form-title">Prayer Requests</h2>
+            <p class="form-description">Lift up your burdens to the throne of grace. Your prayer request will be held by our community with confidence and care. (This form has been predestined to reach our inbox.)</p>
+
+            <div id="prayer-message" class="form-message" style="display: none;"></div>
+
+            <form id="prayer-form" class="form">
+                <input type="hidden" name="access_key" value="8a4690f5-2152-4e7c-a63f-6e49cde17604">
+                <input type="hidden" name="subject" value="Prayer Request from adoptedbygrace.net">
+                <input type="checkbox" name="botcheck" style="display: none;">
+
+                <div class="form-group">
+                    <label for="prayer-name">Name <span style="color: var(--text-muted);">(optional)</span></label>
+                    <input type="text" id="prayer-name" name="name" placeholder="Your name (optional)">
+                </div>
+
+                <div class="form-group">
+                    <label for="prayer-email">Email <span style="color: var(--text-muted);">(optional)</span></label>
+                    <input type="email" id="prayer-email" name="email" placeholder="your@email.com (optional)">
+                </div>
+
+                <div class="form-group">
+                    <label for="prayer-request">Prayer Request</label>
+                    <textarea id="prayer-request" name="message" required placeholder="Share your prayer request. Your prayer request is already heard by the One who ordained it."></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="prayer-confidential" name="confidential">
+                    <label for="prayer-confidential">Keep this request confidential</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Prayer Request</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- TESTIMONY TAB -->
+    <div id="testimony-panel" class="tab-panel" role="tabpanel" aria-labelledby="testimony-tab">
+        <div class="form-card">
+            <h2 class="form-title">Share Your Testimony</h2>
+            <p class="form-description">Has God's grace transformed your life? We would be honored to hear your story of how the doctrine of election has deepened your faith and love for Christ.</p>
+
+            <div id="testimony-message" class="form-message" style="display: none;"></div>
+
+            <form id="testimony-form" class="form">
+                <input type="hidden" name="access_key" value="8a4690f5-2152-4e7c-a63f-6e49cde17604">
+                <input type="hidden" name="subject" value="Testimony Submission from adoptedbygrace.net">
+                <input type="checkbox" name="botcheck" style="display: none;">
+
+                <div class="form-group">
+                    <label for="testimony-name">Name</label>
+                    <input type="text" id="testimony-name" name="name" required placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="testimony-email">Email</label>
+                    <input type="email" id="testimony-email" name="email" required placeholder="your@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="testimony-title">Story Title</label>
+                    <input type="text" id="testimony-title" name="story-title" required placeholder="A compelling title for your story">
+                </div>
+
+                <div class="form-group">
+                    <label for="testimony-text">Your Story</label>
+                    <textarea id="testimony-text" name="story" required placeholder="Share how God has revealed His sovereignty and grace in your life. How has the knowledge of election affected your faith?"></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="testimony-consent" name="consent" required>
+                    <label for="testimony-consent">I consent to my story being shared on the site</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Testimony</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- NEWSLETTER TAB -->
+    <div id="newsletter-panel" class="tab-panel" role="tabpanel" aria-labelledby="newsletter-tab">
+        <div class="newsletter-card">
+            <h2 class="newsletter-title">Join Our Newsletter</h2>
+            <p class="newsletter-description">Receive devotionals, theological reflections, and new content delivered to your inbox. We respect your privacy and will never share your email.</p>
+
+            <div id="newsletter-message" class="form-message" style="display: none;"></div>
+
+            <form id="newsletter-form" class="newsletter-form">
+                <input type="hidden" name="access_key" value="8a4690f5-2152-4e7c-a63f-6e49cde17604">
+                <input type="hidden" name="subject" value="Newsletter Signup">
+                <input type="checkbox" name="botcheck" style="display: none;">
+
+                <input type="text" name="name" required placeholder="Your name" aria-label="Name">
+                <input type="email" name="email" required placeholder="your@email.com" aria-label="Email address">
+
+                <button type="submit" class="submit-btn">Subscribe to Newsletter</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Doctrine</h4>
+            <ul>
+                <li><a href="/questions">The Evidence</a></li>
+                <li><a href="/systematic-theology">Systematic Theology</a></li>
+                <li><a href="/demolition-hub">Demolition Zone</a></li>
+                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Explore</h4>
+            <ul>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li><a href="/devotionals">Devotionals</a></li>
+                <li><a href="/resources">Resources</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Connect</h4>
+            <ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/connect">Contact</a></li>
+                <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+    </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+
+<script>
+// ===== TAB SWITCHING =====
+document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const tabName = btn.getAttribute('data-tab');
+
+        // Remove active from all buttons and panels
+        document.querySelectorAll('.tab-btn').forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+        });
+        document.querySelectorAll('.tab-panel').forEach(p => {
+            p.classList.remove('active');
+        });
+
+        // Add active to clicked button and corresponding panel
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        document.getElementById(tabName + '-panel').classList.add('active');
+    });
+});
+
+// ===== WEB3FORMS SUBMISSION =====
+async function handleFormSubmit(e) {
+    e.preventDefault();
+    const form = e.target;
+    const messageDiv = form.parentElement.querySelector('.form-message');
+    const submitBtn = form.querySelector('.submit-btn');
+
+    // Disable button during submission
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+
+    try {
+        const formData = new FormData(form);
+        const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            // Show success message
+            messageDiv.className = 'form-message success';
+            messageDiv.textContent = 'Message sent! Though God ordains the ends AND the means — your email was one of them. ✓';
+            messageDiv.style.display = 'block';
+
+            // Reset form
+            form.reset();
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Message Sent!';
+
+            // Revert button text after delay
+            setTimeout(() => {
+                submitBtn.textContent = form.id === 'prayer-form' ? 'Submit Prayer Request' :
+                                       form.id === 'testimony-form' ? 'Submit Testimony' :
+                                       form.id === 'newsletter-form' ? 'Subscribe to Newsletter' :
+                                       'Send Message';
+            }, 4000);
+        } else {
+            throw new Error(data.message || 'Form submission failed');
+        }
+    } catch (error) {
+        messageDiv.className = 'form-message error';
+        messageDiv.textContent = 'Something went wrong. Please try again. Error: ' + error.message;
+        messageDiv.style.display = 'block';
+        submitBtn.disabled = false;
+        submitBtn.textContent = form.id === 'prayer-form' ? 'Submit Prayer Request' :
+                               form.id === 'testimony-form' ? 'Submit Testimony' :
+                               form.id === 'newsletter-form' ? 'Subscribe to Newsletter' :
+                               'Send Message';
+    }
+}
+
+// Attach submit handlers to all forms
+document.getElementById('contact-form').addEventListener('submit', handleFormSubmit);
+document.getElementById('prayer-form').addEventListener('submit', handleFormSubmit);
+document.getElementById('testimony-form').addEventListener('submit', handleFormSubmit);
+document.getElementById('newsletter-form').addEventListener('submit', handleFormSubmit);
+
+// ===== READING PROGRESS BAR =====
+window.addEventListener('scroll', () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+    document.querySelector('.reading-progress').style.width = scrolled + '%';
+    document.querySelector('.reading-progress').setAttribute('aria-valuenow', Math.round(scrolled));
+});
+
+// ===== BACK TO TOP =====
+const backToTopBtn = document.querySelector('.back-to-top');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 600) {
+        backToTopBtn.classList.add('visible');
+    } else {
+        backToTopBtn.classList.remove('visible');
+    }
+});
+backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// ===== HAMBURGER MENU =====
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+if (hamburger && navLinks) {
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navLinks.classList.toggle('open');
+        hamburger.setAttribute('aria-expanded', hamburger.classList.contains('active'));
+    });
+
+    // Close menu when a link is clicked
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('open');
+            hamburger.setAttribute('aria-expanded', 'false');
+        });
+    });
+}
+
+// ===== NAV DROPDOWN HOVER (DESKTOP) =====
+document.querySelectorAll('.nav-trigger').forEach(trigger => {
+    const li = trigger.parentElement;
+    const dropdown = li.querySelector('.nav-dropdown');
+
+    // Desktop hover behavior
+    if (window.innerWidth > 900) {
+        li.addEventListener('mouseenter', () => {
+            dropdown.style.display = 'flex';
+        });
+        li.addEventListener('mouseleave', () => {
+            dropdown.style.display = 'none';
+        });
+    }
+});
+</script>
+
+<script src="/global.js" defer></script>
+</body>
+</html>
