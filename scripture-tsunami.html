@@ -2,126 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scripture Tsunami — Adopted by Grace</title>
-    <meta name="description" content="Interactive database of 200+ Bible verses organized by the five doctrines of grace. Searchable, cross-referenced, and impossible to deny.">
+    <meta name="description" content="Interactive database of 300+ Bible verses organized by the five doctrines of grace. Searchable, cross-referenced, and impossible to deny.">
     <meta property="og:title" content="Scripture Tsunami — The Biblical Case for Sovereign Grace">
-    <meta property="og:description" content="Interactive database of 200+ Bible verses organized by the five doctrines of grace. Searchable, cross-referenced, impossible to ignore.">
+    <meta property="og:description" content="Interactive database of 300+ Bible verses organized by the five doctrines of grace. Searchable, cross-referenced, impossible to ignore.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://adoptedbygrace.net/scripture-tsunami.html">
+    <meta property="og:url" content="https://adoptedbygrace.net/scripture-tsunami">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Scripture Tsunami — The Biblical Case for Sovereign Grace">
-    <meta name="twitter:description" content="Interactive database of 200+ Bible verses organized by the five doctrines of grace. Searchable, cross-referenced, impossible to ignore.">
-    <link rel="canonical" href="https://adoptedbygrace.net/scripture-tsunami.html">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="twitter:description" content="Interactive database of 300+ Bible verses organized by the five doctrines of grace. Searchable, cross-referenced, impossible to ignore.">
+    <link rel="canonical" href="https://adoptedbygrace.net/scripture-tsunami">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        /* === PAGE-SPECIFIC: Scripture Tsunami === */
         :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --bg-card-hover: #1a1a2e;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #5a5650;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-            --color-t: #e74c3c;
+            --color-t: var(--accent-ember);
             --color-u: #8b5cf6;
-            --color-l: #d4a254;
+            --color-l: var(--accent-gold);
             --color-i: #3498db;
             --color-p: #2ecc71;
         }
 
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            line-height: 1.6;
-        }
-
-        a.skip-to-content {
-            position: absolute;
-            top: -40px;
-            left: 0;
-            background: var(--accent-gold);
-            color: var(--bg-deep);
-            padding: 8px 16px;
-            text-decoration: none;
-            z-index: 100;
-            border-radius: 0 0 4px 0;
-        }
-
-        a.skip-to-content:focus {
-            top: 0;
-        }
-
-        nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 15, 0.85); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: var(--accent-gold);
-            letter-spacing: 2px;
-        }
-
-        .nav-links {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-        }
-
-        .nav-links a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: color 0.3s ease;
-        }
-
-        .nav-links a:hover {
-            color: var(--accent-gold);
-        }
-
-        @media (max-width: 768px) {
-            .nav-container {
-                flex-direction: column;
-                gap: 1rem;
-            }
-
-            .nav-links {
-                gap: 1rem;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .nav-links a {
-                font-size: 0.8rem;
-            }
-        }
-
-        main {
+        .tsunami-main {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
@@ -145,12 +52,12 @@
             color: var(--accent-ember);
         }
 
-        .hero {
+        .tsunami-hero {
             padding: 4rem 0;
             text-align: center;
         }
 
-        .hero-label {
+        .tsunami-hero .hero-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.85rem;
             color: var(--accent-gold);
@@ -160,7 +67,7 @@
             font-weight: 600;
         }
 
-        .hero h1 {
+        .tsunami-hero h1 {
             font-family: 'Playfair Display', serif;
             font-size: 3.5rem;
             font-weight: 800;
@@ -169,7 +76,7 @@
             color: var(--text-primary);
         }
 
-        .hero-subtitle {
+        .tsunami-hero .hero-subtitle {
             font-size: 1.25rem;
             color: var(--text-secondary);
             max-width: 800px;
@@ -178,18 +85,13 @@
         }
 
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero-subtitle {
-                font-size: 1rem;
-            }
+            .tsunami-hero h1 { font-size: 2rem; }
+            .tsunami-hero .hero-subtitle { font-size: 1rem; }
         }
 
         .stats-bar {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
             gap: 2rem;
             margin: 4rem 0;
             padding: 2rem;
@@ -198,9 +100,7 @@
             border-radius: 8px;
         }
 
-        .stat-item {
-            text-align: center;
-        }
+        .stat-item { text-align: center; }
 
         .stat-number {
             font-family: 'Playfair Display', serif;
@@ -224,10 +124,6 @@
             margin: 3rem 0;
         }
 
-        .search-box {
-            position: relative;
-        }
-
         .search-input {
             width: 100%;
             padding: 1rem 1.5rem;
@@ -245,9 +141,7 @@
             box-shadow: 0 0 0 3px rgba(212, 162, 84, 0.1);
         }
 
-        .search-input::placeholder {
-            color: var(--text-muted);
-        }
+        .search-input::placeholder { color: var(--text-muted); }
 
         .filter-controls {
             display: flex;
@@ -278,7 +172,7 @@
             flex: 1;
         }
 
-        .tab-btn {
+        .tsunami-tab-btn {
             padding: 0.75rem 1.5rem;
             background-color: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -292,17 +186,17 @@
             font-family: 'JetBrains Mono', monospace;
         }
 
-        .tab-btn:hover {
+        .tsunami-tab-btn:hover {
             background-color: var(--bg-card-hover);
             color: var(--text-primary);
         }
 
-        .tab-btn.active {
+        .tsunami-tab-btn.active {
             color: var(--text-primary);
             border-color: currentColor;
         }
 
-        .tab-btn.active::after {
+        .tsunami-tab-btn.active::after {
             content: '';
             position: absolute;
             bottom: -1px;
@@ -312,25 +206,11 @@
             border-radius: 3px 3px 0 0;
         }
 
-        .tab-btn.active[data-doctrine="T"]::after {
-            background: linear-gradient(90deg, var(--color-t), transparent);
-        }
-
-        .tab-btn.active[data-doctrine="U"]::after {
-            background: linear-gradient(90deg, var(--color-u), transparent);
-        }
-
-        .tab-btn.active[data-doctrine="L"]::after {
-            background: linear-gradient(90deg, var(--color-l), transparent);
-        }
-
-        .tab-btn.active[data-doctrine="I"]::after {
-            background: linear-gradient(90deg, var(--color-i), transparent);
-        }
-
-        .tab-btn.active[data-doctrine="P"]::after {
-            background: linear-gradient(90deg, var(--color-p), transparent);
-        }
+        .tsunami-tab-btn.active[data-doctrine="T"]::after { background: linear-gradient(90deg, var(--color-t), transparent); }
+        .tsunami-tab-btn.active[data-doctrine="U"]::after { background: linear-gradient(90deg, var(--color-u), transparent); }
+        .tsunami-tab-btn.active[data-doctrine="L"]::after { background: linear-gradient(90deg, var(--color-l), transparent); }
+        .tsunami-tab-btn.active[data-doctrine="I"]::after { background: linear-gradient(90deg, var(--color-i), transparent); }
+        .tsunami-tab-btn.active[data-doctrine="P"]::after { background: linear-gradient(90deg, var(--color-p), transparent); }
 
         .filter-row {
             display: flex;
@@ -371,7 +251,7 @@
 
         .verses-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             gap: 1.5rem;
             margin: 2rem 0;
         }
@@ -404,25 +284,11 @@
             background: var(--accent-gold);
         }
 
-        .verse-card[data-doctrine="T"]::before {
-            background: var(--color-t);
-        }
-
-        .verse-card[data-doctrine="U"]::before {
-            background: var(--color-u);
-        }
-
-        .verse-card[data-doctrine="L"]::before {
-            background: var(--color-l);
-        }
-
-        .verse-card[data-doctrine="I"]::before {
-            background: var(--color-i);
-        }
-
-        .verse-card[data-doctrine="P"]::before {
-            background: var(--color-p);
-        }
+        .verse-card[data-doctrine="T"]::before { background: var(--color-t); }
+        .verse-card[data-doctrine="U"]::before { background: var(--color-u); }
+        .verse-card[data-doctrine="L"]::before { background: var(--color-l); }
+        .verse-card[data-doctrine="I"]::before { background: var(--color-i); }
+        .verse-card[data-doctrine="P"]::before { background: var(--color-p); }
 
         .verse-header {
             display: flex;
@@ -462,30 +328,11 @@
             color: var(--accent-gold);
         }
 
-        .badge-doctrine[data-doctrine="T"] {
-            background-color: rgba(231, 76, 60, 0.15);
-            color: var(--color-t);
-        }
-
-        .badge-doctrine[data-doctrine="U"] {
-            background-color: rgba(139, 92, 246, 0.15);
-            color: var(--color-u);
-        }
-
-        .badge-doctrine[data-doctrine="L"] {
-            background-color: rgba(212, 162, 84, 0.15);
-            color: var(--color-l);
-        }
-
-        .badge-doctrine[data-doctrine="I"] {
-            background-color: rgba(52, 152, 219, 0.15);
-            color: var(--color-i);
-        }
-
-        .badge-doctrine[data-doctrine="P"] {
-            background-color: rgba(46, 204, 113, 0.15);
-            color: var(--color-p);
-        }
+        .badge-doctrine[data-doctrine="T"] { background-color: rgba(231, 76, 60, 0.15); color: var(--color-t); }
+        .badge-doctrine[data-doctrine="U"] { background-color: rgba(139, 92, 246, 0.15); color: var(--color-u); }
+        .badge-doctrine[data-doctrine="L"] { background-color: rgba(212, 162, 84, 0.15); color: var(--color-l); }
+        .badge-doctrine[data-doctrine="I"] { background-color: rgba(52, 152, 219, 0.15); color: var(--color-i); }
+        .badge-doctrine[data-doctrine="P"] { background-color: rgba(46, 204, 113, 0.15); color: var(--color-p); }
 
         .badge-strength {
             background-color: rgba(212, 162, 84, 0.15);
@@ -503,289 +350,128 @@
             color: var(--text-primary);
             margin-bottom: 1rem;
             font-style: italic;
-            quotes: '"' '"' ''' ''';
-        }
-
-        .verse-text::before {
-            content: '"';
-        }
-
-        .verse-text::after {
-            content: '"';
         }
 
         .verse-commentary {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease;
-            border-top: 1px solid var(--border-subtle);
-            padding-top: 0;
-        }
-
-        .verse-card.expanded .verse-commentary {
-            max-height: 500px;
-            padding-top: 1rem;
-            margin-top: 1rem;
+            background-color: rgba(212, 162, 84, 0.05);
+            border-left: 3px solid var(--accent-gold);
+            padding: 1rem;
+            border-radius: 0 6px 6px 0;
+            margin-top: 0.5rem;
         }
 
         .commentary-label {
+            font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
             text-transform: uppercase;
-            color: var(--text-muted);
             letter-spacing: 1px;
-            font-weight: 600;
+            color: var(--accent-gold);
             margin-bottom: 0.5rem;
+            font-weight: 600;
         }
 
         .commentary-text {
-            font-size: 0.85rem;
-            line-height: 1.6;
+            font-size: 0.9rem;
             color: var(--text-secondary);
+            line-height: 1.7;
         }
 
         .expand-indicator {
-            display: inline-block;
-            margin-top: 1rem;
-            font-size: 0.85rem;
-            color: var(--accent-gold);
-            cursor: pointer;
-            user-select: none;
-            transition: transform 0.3s ease;
-        }
-
-        .verse-card.expanded .expand-indicator {
-            transform: rotate(180deg);
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-align: center;
+            padding-top: 0.75rem;
+            letter-spacing: 0.5px;
         }
 
         .no-results {
             text-align: center;
             padding: 4rem 2rem;
-            color: var(--text-secondary);
+            color: var(--text-muted);
         }
 
         .no-results-icon {
             font-size: 3rem;
             margin-bottom: 1rem;
-            opacity: 0.5;
         }
 
         .no-results-text {
             font-size: 1.1rem;
         }
 
-        footer {
-            background-color: var(--bg-card);
-            border-top: 1px solid var(--border-subtle);
-            margin-top: 6rem;
-            padding: 3rem 2rem;
+        /* Print styles */
+        @media print {
+            nav, footer, .controls, .back-to-top, .share-buttons, .reading-progress { display: none !important; }
+            .verse-card { break-inside: avoid; border: 1px solid #ccc; }
+            .verse-commentary { display: block !important; }
+            .expand-indicator { display: none !important; }
+            body { background: white; color: black; }
+            .verse-text { color: #333; }
         }
-
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .footer-section h4 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1rem;
-            font-weight: 700;
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section li {
-            margin-bottom: 0.75rem;
-        }
-
-        .footer-section a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-copyright {
-            text-align: center;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-subtle);
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-
-        @media (max-width: 768px) {
-            .verses-container {
-                grid-template-columns: 1fr;
-            }
-
-            .filter-controls {
-                gap: 1rem;
-            }
-
-            .filter-row {
-                flex-direction: column;
-                gap: 1rem;
-            }
-
-            .tab-group {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .tab-buttons {
-                width: 100%;
-            }
-
-            .tab-btn {
-                flex: 1;
-                min-width: 0;
-            }
-        }
-    /* ========== HAMBURGER MENU ========== */
-.hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; z-index: 1001; }
-.hamburger span { display: block; width: 24px; height: 2px; background: var(--accent-gold); margin: 5px 0; transition: all 0.3s ease; border-radius: 2px; }
-.hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
-.hamburger.active span:nth-child(2) { opacity: 0; }
-.hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
-
-@media (max-width: 768px) {
-    .hamburger { display: block; }
-    .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: rgba(10, 10, 15, 0.98); flex-direction: column; padding: 1rem 2rem 2rem; gap: 0; border-bottom: 1px solid var(--border-subtle); }
-    .nav-links.open { display: flex; }
-    .nav-links li { padding: 0.7rem 0; border-bottom: 1px solid rgba(212, 162, 84, 0.08); }
-    .nav-links li:last-child { border-bottom: none; }
-    .nav-links a { font-size: 1.1rem; display: block; }
-    nav .nav-container { position: relative; }
-    .logo { font-size: 1rem !important; }
-}
-
-/* ========== FOCUS STYLES ========== */
-*:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-.skip-link:focus { outline: 2px solid var(--accent-gold); }
-
-/* ========== BACK TO TOP ========== */
-.back-to-top { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; border-radius: 50%; background: rgba(18, 18, 26, 0.9); border: 1px solid var(--border-subtle); color: var(--accent-gold); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 999; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-.back-to-top.visible { opacity: 1; visibility: visible; }
-.back-to-top:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); transform: translateY(-2px); }
-/* ========== READING PROGRESS ========== */
-.reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); z-index: 9999; transition: width 0.1s linear; width: 0; }
-
-/* ========== SOCIAL SHARING ========== */
-.share-buttons { display: flex; gap: 0.75rem; align-items: center; margin: 2rem 0; padding: 1.5rem; background: var(--bg-card, #12121a); border: 1px solid rgba(212, 162, 84, 0.12); border-radius: 8px; }
-.share-buttons .share-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: #9a958c; margin-right: 0.5rem; }
-.share-btn { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(212, 162, 84, 0.2); background: transparent; color: #d4a254; text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease; cursor: pointer; }
-.share-btn:hover { background: rgba(212, 162, 84, 0.12); border-color: #d4a254; transform: translateY(-2px); }
-.share-btn svg { width: 18px; height: 18px; fill: currentColor; }
-</style>
-    <link rel="stylesheet" href="/global.css">
+    </style>
 </head>
 <body>
-<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-
+    <div class="reading-progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
 
-            <nav role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <a href="/" class="logo">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/start-here">Start Here</a></li>
-                <li><a href="/explore-map">The Map</a></li>
-                <li>
-                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/questions">The Evidence</a>
-                        <a href="/systematic-theology">Systematic Theology</a>
-                        <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/demolition-hub">Demolition Zone</a>
-                        <a href="/compare-calvinism-arminianism">Comparisons</a>
-                        <a href="/objection-why-command">Objections Answered</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/devotionals">Devotionals</a>
-                        <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
-                        <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/theologians">Theologians</a>
-                        <a href="/history-timeline">Church History</a>
-                        <a href="/ot-election">OT Election</a>
-                    </div>
-                </li>
-                <li><a href="/resources">Resources</a></li>
-                <li><a href="/about">About</a></li>
-            </ul>
-        </div>
-    </nav>
+<nav role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+        <a href="/" class="logo">ADOPTED BY GRACE</a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/start-here">Start Here</a></li>
+            <li><a href="/questions">The Evidence</a></li>
+            <li><a href="/systematic-theology-hub">Systematic</a></li>
+            <li><a href="/demolition-hub">Demolition</a></li>
+            <li><a href="/theologians">Theologians</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </div>
+</nav>
 
-    <main id="main-content">
+    <main id="main-content" class="tsunami-main">
         <div class="breadcrumb">
-            <a href="index.html">Home</a>
-            <span>/</span>
-            <a href="questions.html">The Evidence</a>
-            <span>/</span>
+            <a href="/">Home</a> &rsaquo;
             <span>Scripture Tsunami</span>
         </div>
 
-        <section class="page-hero">
-            <div class="hero-label">THE SCRIPTURE TSUNAMI</div>
-            <h1>Every Verse. Every Doctrine. Undeniable.</h1>
-            <p class="hero-subtitle">The biblical case for sovereign grace is not built on a handful of proof texts — it is a flood. Here are hundreds of passages organized by doctrine, searchable, cross-referenced, and impossible to ignore.</p>
+        <section class="tsunami-hero">
+            <div class="hero-label">The Biblical Evidence</div>
+            <h1>Scripture Tsunami</h1>
+            <p class="hero-subtitle">
+                Over <strong>300 Bible verses</strong> — searchable, categorized, and impossible to ignore.
+                This is not a theological opinion. This is what Scripture actually says about God's sovereignty in salvation.
+                <em>Read it for yourself.</em>
+            </p>
         </section>
 
         <section class="stats-bar">
             <div class="stat-item">
-                <div class="stat-number" id="total-verses">268</div>
+                <div class="stat-number" id="total-count">0</div>
                 <div class="stat-label">Total Verses</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" id="doctrine-t-count">36</div>
+                <div class="stat-number" id="doctrine-t-count" style="color: var(--color-t);">0</div>
                 <div class="stat-label">Total Depravity</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" id="doctrine-u-count">51</div>
+                <div class="stat-number" id="doctrine-u-count" style="color: var(--color-u);">0</div>
                 <div class="stat-label">Unconditional Election</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" id="doctrine-l-count">31</div>
+                <div class="stat-number" id="doctrine-l-count" style="color: var(--color-l);">0</div>
                 <div class="stat-label">Limited Atonement</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" id="doctrine-i-count">36</div>
+                <div class="stat-number" id="doctrine-i-count" style="color: var(--color-i);">0</div>
                 <div class="stat-label">Irresistible Grace</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" id="doctrine-p-count">45</div>
+                <div class="stat-number" id="doctrine-p-count" style="color: var(--color-p);">0</div>
                 <div class="stat-label">Perseverance</div>
             </div>
         </section>
@@ -799,12 +485,12 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <div class="tab-group">
                     <span class="tab-label">Doctrine:</span>
                     <div class="tab-buttons">
-                        <button class="tab-btn active" data-doctrine="all">All</button>
-                        <button class="tab-btn" data-doctrine="T">T: Total Depravity</button>
-                        <button class="tab-btn" data-doctrine="U">U: Unconditional Election</button>
-                        <button class="tab-btn" data-doctrine="L">L: Limited Atonement</button>
-                        <button class="tab-btn" data-doctrine="I">I: Irresistible Grace</button>
-                        <button class="tab-btn" data-doctrine="P">P: Perseverance</button>
+                        <button class="tsunami-tab-btn active" data-doctrine="all">All</button>
+                        <button class="tsunami-tab-btn" data-doctrine="T">T: Total Depravity</button>
+                        <button class="tsunami-tab-btn" data-doctrine="U">U: Unconditional Election</button>
+                        <button class="tsunami-tab-btn" data-doctrine="L">L: Limited Atonement</button>
+                        <button class="tsunami-tab-btn" data-doctrine="I">I: Irresistible Grace</button>
+                        <button class="tsunami-tab-btn" data-doctrine="P">P: Perseverance</button>
                     </div>
                 </div>
 
@@ -825,64 +511,47 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </section>
 
         <div class="verse-counter">
-            Showing <span id="showing-count">0</span> of <span id="total-count">0</span> verses
+            Showing <span id="showing-count">0</span> of <span id="total-count-display">0</span> verses
         </div>
 
         <section id="verses-container" class="verses-container"></section>
-<div class="share-buttons" role="group" aria-label="Share this article">
-    <span class="share-label">Share</span>
-    <a class="share-btn" href="" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" aria-label="Share on X (Twitter)" title="Share on X">𝕏</a>
-    <a class="share-btn" href="" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','width=550,height=420');return false" aria-label="Share on Facebook" title="Share on Facebook">f</a>
-    <button class="share-btn" onclick="navigator.clipboard.writeText(location.href).then(function(){this.innerHTML='✓';setTimeout(function(){document.querySelector('.share-btn[aria-label=&quot;Copy link&quot;]').innerHTML='🔗'},2000)}.bind(this))" aria-label="Copy link" title="Copy link">🔗</button>
-</div>
-
 
         <div id="no-results" class="no-results" style="display: none;">
-            <div class="no-results-icon">∅</div>
+            <div class="no-results-icon">&#8709;</div>
             <div class="no-results-text">No verses match your filters. Try adjusting your search.</div>
         </div>
     </main>
 
-        <footer>
-        <div class="footer-container">
-            <div class="footer-section">
-                <h4>Doctrine</h4>
-                <ul>
-                    <li><a href="/questions">The Evidence</a></li>
-                    <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li><a href="/demolition-hub">Demolition Zone</a></li>
-                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Explore</h4>
-                <ul>
-                    <li><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
-                    <li><a href="/devotionals">Devotionals</a></li>
-                    <li><a href="/resources">Resources</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Connect</h4>
-                <ul>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
-        </div>
-    </footer>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section"><h4>Doctrine</h4><ul>
+            <li><a href="/questions">The Evidence</a></li>
+            <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+            <li><a href="/demolition-hub">Demolition Zone</a></li>
+            <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+        </ul></div>
+        <div class="footer-section"><h4>Explore</h4><ul>
+            <li><a href="/start-here">Start Here</a></li>
+            <li><a href="/theologians">Theologians</a></li>
+            <li><a href="/devotionals">Devotionals</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul></div>
+        <div class="footer-section"><h4>Connect</h4><ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+        </ul></div>
+    </div>
+    <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
+</footer>
 
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "Scripture Tsunami — The Biblical Case for Sovereign Grace",
-        "description": "Interactive database of 268 Bible verses organized by the five doctrines of grace. Searchable, cross-referenced, and theologically rigorous.",
-        "url": "https://adoptedbygrace.net/scripture-tsunami.html",
+        "description": "Interactive database of 300+ Bible verses organized by the five doctrines of grace. Searchable, cross-referenced, and theologically rigorous.",
+        "url": "https://adoptedbygrace.net/scripture-tsunami",
         "publisher": {
             "@type": "Organization",
             "name": "Adopted by Grace",
@@ -893,7 +562,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
     <script>
         const versesData = [
-            // TOTAL DEPRAVITY - KEY VERSES
+            // ═══════════════════════════════════════════
+            // TOTAL DEPRAVITY — KEY VERSES
+            // ═══════════════════════════════════════════
             {
                 reference: "Genesis 6:5",
                 doctrine: "T",
@@ -916,7 +587,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "ot",
                 text: "The fool says in his heart, 'There is no God.' They are corrupt, they do abominable deeds; there is none who does good. The LORD looks down from heaven on the children of man, to see if there are any who understand, who seek after God. They have all turned aside; together they have become corrupt; there is none who does good, not even one.",
-                commentary: "Paul quotes this in Romans 3. \"None\" means none. \"Not even one\" seals it."
+                commentary: "Paul quotes this in Romans 3. 'None' means none. 'Not even one' seals it."
             },
             {
                 reference: "Psalm 51:5",
@@ -972,7 +643,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "For all have sinned and fall short of the glory of God.",
-                commentary: "Universal in scope. The word \"all\" here really does mean all."
+                commentary: "Universal in scope. The word 'all' here really does mean all."
             },
             {
                 reference: "Romans 8:7-8",
@@ -980,7 +651,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "For the mind that is set on the flesh is hostile to God, for it does not submit to God's law; indeed, it cannot. Those who are in the flesh cannot please God.",
-                commentary: "\"Cannot\" — not \"will not.\" This is inability, not mere unwillingness."
+                commentary: "'Cannot' — not 'will not.' This is inability, not mere unwillingness."
             },
             {
                 reference: "1 Corinthians 2:14",
@@ -988,7 +659,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "The natural person does not accept the things of the Spirit of God, for they are folly to him, and he is not able to understand them because they are spiritually discerned.",
-                commentary: "\"Not able\" — spiritual blindness isn't a choice, it's a condition requiring divine intervention."
+                commentary: "'Not able' — spiritual blindness isn't a choice, it's a condition requiring divine intervention."
             },
             {
                 reference: "Ephesians 2:1-3",
@@ -996,7 +667,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "And you were dead in the trespasses and sins in which you once walked, following the course of this world, following the prince of the power of the air, the spirit that is now at work in the sons of disobedience — among whom we all once lived in the passions of our flesh, carrying out the desires of the body and the mind, and were by nature children of wrath, like the rest of mankind.",
-                commentary: "Dead men don't cooperate with their resurrection. \"By nature\" — not by choice."
+                commentary: "Dead men don't cooperate with their resurrection. 'By nature' — not by choice."
             },
             {
                 reference: "Ephesians 4:17-19",
@@ -1020,7 +691,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "No one can come to me unless the Father who sent me draws him.",
-                commentary: "\"No one can\" — Jesus states inability, not unwillingness. The Father must act first."
+                commentary: "'No one can' — Jesus states inability, not unwillingness. The Father must act first."
             },
             {
                 reference: "John 6:65",
@@ -1044,7 +715,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Why do you not understand what I say? It is because you cannot bear to hear my word. You are of your father the devil.",
-                commentary: "\"Cannot bear\" — inability of the will, rooted in spiritual parentage."
+                commentary: "'Cannot bear' — inability of the will, rooted in spiritual parentage."
             },
             {
                 reference: "2 Timothy 2:25-26",
@@ -1134,7 +805,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 text: "If we say we have no sin, we deceive ourselves, and the truth is not in us.",
                 commentary: "Self-deception is the alternative to admitting total depravity."
             },
-            // TOTAL DEPRAVITY - SUPPORTING VERSES
+            // TOTAL DEPRAVITY — SUPPORTING VERSES
             {
                 reference: "Psalm 143:2",
                 doctrine: "T",
@@ -1149,7 +820,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "supporting",
                 testament: "ot",
                 text: "All we like sheep have gone astray; we have turned — every one — to his own way.",
-                commentary: "Universal wandering. \"Every one\" leaves no exceptions."
+                commentary: "Universal wandering. 'Every one' leaves no exceptions."
             },
             {
                 reference: "Micah 7:2-4",
@@ -1183,7 +854,115 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 text: "But each person is tempted when he is lured and enticed by his own desire. Then desire when it has conceived gives birth to sin, and sin when it is fully grown brings forth death.",
                 commentary: "Sin originates internally — in our own desires."
             },
-            // UNCONDITIONAL ELECTION - KEY VERSES
+            // NEW: Total Depravity — Supporting
+            {
+                reference: "Genesis 2:17",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "ot",
+                text: "...but of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die.",
+                commentary: "The penalty of spiritual death was enacted the moment Adam sinned. Every descendant inherits this death."
+            },
+            {
+                reference: "1 Kings 8:46",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "ot",
+                text: "...for there is no one who does not sin.",
+                commentary: "Solomon's prayer at the temple dedication presupposes universal sinfulness."
+            },
+            {
+                reference: "Psalm 130:3",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "ot",
+                text: "If you, O LORD, should mark iniquities, O Lord, who could stand?",
+                commentary: "Rhetorical question: no one could stand before God's perfect standard."
+            },
+            {
+                reference: "Proverbs 22:15",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "ot",
+                text: "Folly is bound up in the heart of a child.",
+                commentary: "Not learned behavior — folly is bound up, tied into the nature from the start."
+            },
+            {
+                reference: "Isaiah 1:5-6",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "ot",
+                text: "The whole head is sick, and the whole heart faint. From the sole of the foot even to the head, there is no soundness in it.",
+                commentary: "Head to toe corruption. No healthy part remains untouched by sin."
+            },
+            {
+                reference: "Ecclesiastes 7:20",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "ot",
+                text: "Surely there is not a righteous man on earth who does good and never sins.",
+                commentary: "A categorical statement from the Preacher: universal sinfulness on earth."
+            },
+            {
+                reference: "Ecclesiastes 7:29",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "ot",
+                text: "See, this alone I found, that God made man upright, but they have sought out many schemes.",
+                commentary: "God made man upright — man corrupted himself. The fall is historical and comprehensive."
+            },
+            {
+                reference: "Romans 1:18",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "nt",
+                text: "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who by their unrighteousness suppress the truth.",
+                commentary: "Suppression of truth is the natural posture of unregenerate humanity."
+            },
+            {
+                reference: "Romans 3:9",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "nt",
+                text: "What then? Are we Jews any better off? No, not at all. For we have already charged that all, both Jews and Greeks, are under sin.",
+                commentary: "Paul's conclusion: no ethnic, moral, or religious group escapes the universal indictment."
+            },
+            {
+                reference: "Romans 6:20",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "nt",
+                text: "For when you were slaves of sin, you were free in regard to righteousness.",
+                commentary: "'Free in regard to righteousness' — free FROM righteousness. The old nature had no capacity for it."
+            },
+            {
+                reference: "John 3:6",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "nt",
+                text: "That which is born of the flesh is flesh, and that which is born of the Spirit is spirit.",
+                commentary: "Flesh produces flesh. Human birth produces a human nature incapable of spiritual life."
+            },
+            {
+                reference: "Romans 5:19",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "nt",
+                text: "For as by the one man's disobedience the many were made sinners, so by the one man's obedience the many will be made righteous.",
+                commentary: "Adam's one act made the many sinners — not potentially sinful, but actually constituted as sinners."
+            },
+            {
+                reference: "1 Corinthians 15:22",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "nt",
+                text: "For as in Adam all die, so also in Christ shall all be made alive.",
+                commentary: "In Adam, all die. The scope of the fall is universal among Adam's natural descendants."
+            },
+
+            // ═══════════════════════════════════════════
+            // UNCONDITIONAL ELECTION — KEY VERSES
+            // ═══════════════════════════════════════════
             {
                 reference: "Deuteronomy 7:6-8",
                 doctrine: "U",
@@ -1198,7 +977,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "ot",
                 text: "Behold, to the LORD your God belong heaven and the heaven of heavens, the earth with all that is in it. Yet the LORD set his heart in love on your fathers and chose their offspring after them, you above all peoples, as you are this day.",
-                commentary: "\"Yet\" — despite owning everything, God set His particular love on some, not all."
+                commentary: "'Yet' — despite owning everything, God set His particular love on some, not all."
             },
             {
                 reference: "1 Samuel 12:22",
@@ -1230,7 +1009,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "ot",
                 text: "...that I may look upon the prosperity of your chosen ones, that I may rejoice in the gladness of your nation.",
-                commentary: "\"Your chosen ones\" — election language pervades the Psalms."
+                commentary: "'Your chosen ones' — election language pervades the Psalms."
             },
             {
                 reference: "Proverbs 16:4",
@@ -1246,7 +1025,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "ot",
                 text: "But you, Israel, my servant, Jacob, whom I have chosen, the offspring of Abraham, my friend; you whom I took from the ends of the earth, and called from its farthest corners, saying to you, 'You are my servant, I have chosen you and not cast you off.'",
-                commentary: "\"I have chosen you\" — active divine choice, not human initiative."
+                commentary: "'I have chosen you' — active divine choice, not human initiative."
             },
             {
                 reference: "Isaiah 43:20-21",
@@ -1294,7 +1073,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "For false christs and false prophets will arise and perform great signs and wonders, so as to lead astray, if possible, even the elect.",
-                commentary: "\"If possible\" — implying the elect cannot ultimately be led astray."
+                commentary: "'If possible' — implying the elect cannot ultimately be led astray."
             },
             {
                 reference: "Matthew 24:31",
@@ -1310,7 +1089,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "And if the Lord had not cut short the days, no human being would be saved. But for the sake of the elect, whom he chose, he shortened the days.",
-                commentary: "\"The elect, whom he chose\" — redundancy for emphasis. They are God's chosen."
+                commentary: "'The elect, whom he chose' — redundancy for emphasis. They are God's chosen."
             },
             {
                 reference: "Luke 10:20",
@@ -1342,15 +1121,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "No one can come to me unless the Father who sent me draws him. And I will raise him up on the last day.",
-                commentary: "\"Draws\" (helkō) — the same word used for dragging a net full of fish (John 21:11). This is effectual, not merely persuasive."
-            },
-            {
-                reference: "John 6:65",
-                doctrine: "U",
-                strength: "key",
-                testament: "nt",
-                text: "And he said, 'This is why I told you that no one can come to me unless it is granted him by the Father.'",
-                commentary: "Coming to Christ is a divine grant, not a human achievement."
+                commentary: "'Draws' (helko) — the same word used for dragging a net full of fish (John 21:11). This is effectual, not merely persuasive."
             },
             {
                 reference: "John 10:26",
@@ -1390,7 +1161,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...since you have given him authority over all flesh, to give eternal life to all whom you have given him.",
-                commentary: "Eternal life given to a specific group — \"all whom you have given him.\""
+                commentary: "Eternal life given to a specific group — 'all whom you have given him.'"
             },
             {
                 reference: "John 17:6",
@@ -1398,7 +1169,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "I have manifested your name to the people whom you gave me out of the world. Yours they were, and you gave them to me.",
-                commentary: "\"Yours they were\" — they belonged to the Father before coming to Christ."
+                commentary: "'Yours they were' — they belonged to the Father before coming to Christ."
             },
             {
                 reference: "John 17:9",
@@ -1414,7 +1185,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "And when the Gentiles heard this, they began rejoicing and glorifying the word of the Lord, and as many as were appointed to eternal life believed.",
-                commentary: "The order: appointed → believed. Not: believed → appointed."
+                commentary: "The order: appointed then believed. Not: believed then appointed."
             },
             {
                 reference: "Acts 18:10",
@@ -1438,7 +1209,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Who shall bring any charge against God's elect? It is God who justifies.",
-                commentary: "\"God's elect\" — a defined group under divine protection."
+                commentary: "'God's elect' — a defined group under divine protection."
             },
             {
                 reference: "Romans 9:11-13",
@@ -1454,7 +1225,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "For he says to Moses, 'I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.' So then it depends not on human will or exertion, but on God, who has mercy.",
-                commentary: "\"Not on human will or exertion.\" Could anything be clearer?"
+                commentary: "'Not on human will or exertion.' Could anything be clearer?"
             },
             {
                 reference: "Romans 9:18",
@@ -1478,7 +1249,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "So too at the present time there is a remnant, chosen by grace. But if it is by grace, it is no longer on the basis of works; otherwise grace would no longer be grace. What then? Israel failed to obtain what it was seeking. The elect obtained it, but the rest were hardened.",
-                commentary: "\"Chosen by grace\" — if by grace, then not by works. The elect obtained; the rest were hardened."
+                commentary: "'Chosen by grace' — if by grace, then not by works. The elect obtained; the rest were hardened."
             },
             {
                 reference: "1 Corinthians 1:27-29",
@@ -1502,7 +1273,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "In him we have obtained an inheritance, having been predestined according to the purpose of him who works all things according to the counsel of his will.",
-                commentary: "\"Works all things according to the counsel of his will\" — nothing is left to chance."
+                commentary: "'Works all things according to the counsel of his will' — nothing is left to chance."
             },
             {
                 reference: "Colossians 3:12",
@@ -1510,7 +1281,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Put on then, as God's chosen ones, holy and beloved, compassion, kindness, humility, meekness, and patience.",
-                commentary: "Believers are addressed as \"God's chosen ones\" — their identity is rooted in election."
+                commentary: "Believers are addressed as 'God's chosen ones' — their identity is rooted in election."
             },
             {
                 reference: "1 Thessalonians 1:4",
@@ -1526,7 +1297,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "But we ought always to give thanks to God for you, brothers beloved by the Lord, because God chose you as the firstfruits to be saved, through sanctification by the Spirit and belief in the truth.",
-                commentary: "God chose → Spirit sanctifies → belief follows. The order is grace-first."
+                commentary: "God chose then Spirit sanctifies then belief follows. The order is grace-first."
             },
             {
                 reference: "2 Timothy 1:9",
@@ -1582,7 +1353,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...and the dwellers on earth whose names have not been written in the book of life from the foundation of the world.",
-                commentary: "\"From the foundation of the world\" — the names were fixed before history began."
+                commentary: "'From the foundation of the world' — the names were fixed before history began."
             },
             {
                 reference: "Revelation 17:14",
@@ -1592,7 +1363,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 text: "...those with him are called and chosen and faithful.",
                 commentary: "Called and chosen produces faithful — not the reverse order."
             },
-            // UNCONDITIONAL ELECTION - SUPPORTING VERSES
+            // UNCONDITIONAL ELECTION — SUPPORTING VERSES
             {
                 reference: "Isaiah 45:4",
                 doctrine: "U",
@@ -1630,17 +1401,77 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 doctrine: "U",
                 strength: "supporting",
                 testament: "nt",
-                text: "So the last will be first, and the first last. For many are called, but few are chosen.",
+                text: "So the last will be first, and the first last.",
                 commentary: "The chosen are a subset of the called."
             },
-            // LIMITED ATONEMENT - KEY VERSES
+            // NEW: Unconditional Election — Supporting
+            {
+                reference: "Daniel 4:35",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "ot",
+                text: "...all the inhabitants of the earth are accounted as nothing, and he does according to his will among the host of heaven and among the inhabitants of the earth; and none can stay his hand or say to him, 'What have you done?'",
+                commentary: "Nebuchadnezzar's confession after divine humbling: God's will is sovereign over all."
+            },
+            {
+                reference: "Psalm 135:6",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "ot",
+                text: "Whatever the LORD pleases, he does, in heaven and on earth, in the seas and all deeps.",
+                commentary: "God does whatever pleases Him — in every domain without exception."
+            },
+            {
+                reference: "Isaiah 44:1-2",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "ot",
+                text: "But now hear, O Jacob my servant, Israel whom I have chosen! Thus says the LORD who made you, who formed you from the womb and will help you.",
+                commentary: "Chosen and formed from the womb — election precedes birth and shapes destiny."
+            },
+            {
+                reference: "John 6:65",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "nt",
+                text: "And he said, 'This is why I told you that no one can come to me unless it is granted him by the Father.'",
+                commentary: "Coming to Christ is a divine grant, not a human achievement."
+            },
+            {
+                reference: "Acts 2:23",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "nt",
+                text: "...this Jesus, delivered up according to the definite plan and foreknowledge of God, you crucified and killed by the hands of lawless men.",
+                commentary: "Even the cross was according to God's definite plan. Sovereignty encompasses the greatest event in history."
+            },
+            {
+                reference: "Acts 4:27-28",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "nt",
+                text: "...for truly in this city there were gathered together against your holy servant Jesus, whom you anointed, both Herod and Pontius Pilate, along with the Gentiles and the peoples of Israel, to do whatever your hand and your plan had predestined to take place.",
+                commentary: "Herod, Pilate, Gentiles, Israel — all doing what God's hand had predestined. Sovereignty over the crucifixion itself."
+            },
+            {
+                reference: "Romans 11:33-36",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "nt",
+                text: "Oh, the depth of the riches and wisdom and knowledge of God! How unsearchable are his judgments and how inscrutable his ways! ... For from him and through him and to him are all things. To him be glory forever.",
+                commentary: "Paul's response to election is not debate but doxology. The proper response to sovereignty is worship."
+            },
+
+            // ═══════════════════════════════════════════
+            // LIMITED ATONEMENT — KEY VERSES
+            // ═══════════════════════════════════════════
             {
                 reference: "Isaiah 53:11-12",
                 doctrine: "L",
                 strength: "key",
                 testament: "ot",
                 text: "Out of the anguish of his soul he shall see and be satisfied; by his knowledge shall the righteous one, my servant, make many to be accounted righteous, and he shall bear their iniquities. Therefore I will divide him a portion with the many... yet he bore the sin of many, and makes intercession for the transgressors.",
-                commentary: "\"Many\" — not \"all without exception.\" The Servant's work has a definite object."
+                commentary: "'Many' — not 'all without exception.' The Servant's work has a definite object."
             },
             {
                 reference: "Matthew 1:21",
@@ -1648,7 +1479,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "She will bear a son, and you shall call his name Jesus, for he will save his people from their sins.",
-                commentary: "\"His people\" — a specific people. And He WILL save them — not merely make salvation possible."
+                commentary: "'His people' — a specific people. And He WILL save them — not merely make salvation possible."
             },
             {
                 reference: "Matthew 20:28",
@@ -1656,7 +1487,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...the Son of Man came not to be served but to serve, and to give his life as a ransom for many.",
-                commentary: "\"For many\" — a ransom for a specific group, not an indefinite offer."
+                commentary: "'For many' — a ransom for a specific group, not an indefinite offer."
             },
             {
                 reference: "Matthew 26:28",
@@ -1664,7 +1495,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...for this is my blood of the covenant, which is poured out for many for the forgiveness of sins.",
-                commentary: "\"For many\" at the Last Supper — Jesus defines the scope of His atoning work."
+                commentary: "'For many' at the Last Supper — Jesus defines the scope of His atoning work."
             },
             {
                 reference: "John 6:37-39",
@@ -1688,7 +1519,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "I am the good shepherd. I know my own and my own know me, just as the Father knows me and I know the Father; and I lay down my life for the sheep.",
-                commentary: "\"My own\" — mutual knowledge between shepherd and sheep. He dies for them specifically."
+                commentary: "'My own' — mutual knowledge between shepherd and sheep. He dies for them specifically."
             },
             {
                 reference: "John 10:26-28",
@@ -1728,7 +1559,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "And for their sake I consecrate myself, that they also may be sanctified in truth.",
-                commentary: "\"For their sake\" — Jesus consecrates Himself for a specific people."
+                commentary: "'For their sake' — Jesus consecrates Himself for a specific people."
             },
             {
                 reference: "Acts 20:28",
@@ -1744,7 +1575,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...but God shows his love for us in that while we were still sinners, Christ died for us. Since, therefore, we have now been justified by his blood, much more shall we be saved by him from the wrath of God.",
-                commentary: "\"For us\" — those justified. Christ's death secures salvation for those He died for."
+                commentary: "'For us' — those justified. Christ's death secures salvation for those He died for."
             },
             {
                 reference: "Romans 8:32-34",
@@ -1752,7 +1583,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "He who did not spare his own Son but gave him up for us all, how will he not also with him graciously give us all things? Who shall bring any charge against God's elect?",
-                commentary: "\"Us all\" in context = God's elect (v. 33). The \"all\" is delimited by the group: those predestined, called, justified, glorified."
+                commentary: "'Us all' in context = God's elect (v. 33). The 'all' is delimited by the group: those predestined, called, justified, glorified."
             },
             {
                 reference: "Galatians 1:4",
@@ -1760,7 +1591,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...who gave himself for our sins to deliver us from the present evil age, according to the will of our God and Father.",
-                commentary: "\"To deliver us\" — effective deliverance, not mere possibility."
+                commentary: "'To deliver us' — effective deliverance, not mere possibility."
             },
             {
                 reference: "Galatians 2:20",
@@ -1768,7 +1599,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...the Son of God, who loved me and gave himself for me.",
-                commentary: "Paul's personal appropriation — \"loved ME, gave himself for ME.\""
+                commentary: "Paul's personal appropriation — 'loved ME, gave himself for ME.'"
             },
             {
                 reference: "Galatians 3:13",
@@ -1776,7 +1607,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Christ redeemed us from the curse of the law by becoming a curse for us.",
-                commentary: "\"Redeemed us\" — past tense, accomplished. Those for whom He became a curse are redeemed."
+                commentary: "'Redeemed us' — past tense, accomplished. Those for whom He became a curse are redeemed."
             },
             {
                 reference: "Ephesians 5:25-27",
@@ -1792,7 +1623,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...who gave himself for us to redeem us from all lawlessness and to purify for himself a people for his own possession who are zealous for good works.",
-                commentary: "\"A people for his own possession\" — Christ's redemption creates a particular people."
+                commentary: "'A people for his own possession' — Christ's redemption creates a particular people."
             },
             {
                 reference: "Hebrews 2:17",
@@ -1800,7 +1631,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Therefore he had to be made like his brothers in every respect, so that he might become a merciful and faithful high priest in the service of God, to make propitiation for the sins of the people.",
-                commentary: "\"The people\" — not everyone without distinction."
+                commentary: "'The people' — not everyone without distinction."
             },
             {
                 reference: "Hebrews 9:12",
@@ -1808,7 +1639,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...he entered once for all into the holy places, not by means of the blood of goats and calves but by means of his own blood, thus securing an eternal redemption.",
-                commentary: "\"Securing\" — not making possible, but actually obtaining. Eternal redemption accomplished."
+                commentary: "'Securing' — not making possible, but actually obtaining. Eternal redemption accomplished."
             },
             {
                 reference: "Hebrews 9:15",
@@ -1816,7 +1647,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Therefore he is the mediator of a new covenant, so that those who are called may receive the promised eternal inheritance, since a death has occurred that redeems them from the transgressions committed under the first covenant.",
-                commentary: "The death redeems \"those who are called\" — a specific group receives a specific inheritance."
+                commentary: "The death redeems 'those who are called' — a specific group receives a specific inheritance."
             },
             {
                 reference: "Hebrews 9:28",
@@ -1824,7 +1655,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...so Christ, having been offered once to bear the sins of many, will appear a second time, not to deal with sin but to save those who are eagerly waiting for him.",
-                commentary: "\"The sins of many\" — definite substitution for a definite group."
+                commentary: "'The sins of many' — definite substitution for a definite group."
             },
             {
                 reference: "1 Peter 2:24",
@@ -1832,7 +1663,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "He himself bore our sins in his body on the tree, that we might die to sin and live to righteousness. By his wounds you have been healed.",
-                commentary: "\"Our sins\" — the sins of believers. The healing is actual and effective."
+                commentary: "'Our sins' — the sins of believers. The healing is actual and effective."
             },
             {
                 reference: "1 Peter 3:18",
@@ -1840,7 +1671,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "For Christ also suffered once for sins, the righteous for the unrighteous, that he might bring us to God.",
-                commentary: "\"That he might bring US to God\" — the purpose is accomplished for those intended."
+                commentary: "'That he might bring US to God' — the purpose is accomplished for those intended."
             },
             {
                 reference: "Revelation 5:9",
@@ -1848,7 +1679,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "And they sang a new song, saying, 'Worthy are you to take the scroll and to open its seals, for you were slain, and by your blood you ransomed people for God from every tribe and language and people and nation.'",
-                commentary: "\"People FROM every tribe\" — not every person in every tribe. A definite ransom."
+                commentary: "'People FROM every tribe' — not every person in every tribe. A definite ransom."
             },
             {
                 reference: "Isaiah 53:5-6",
@@ -1856,9 +1687,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "ot",
                 text: "But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his wounds we are healed. All we like sheep have gone astray; we have turned — every one — to his own way; and the LORD has laid on him the iniquity of us all.",
-                commentary: "The \"us all\" whose iniquity is laid on Him = the \"we\" who are healed. Same group."
+                commentary: "The 'us all' whose iniquity is laid on Him = the 'we' who are healed. Same group."
             },
-            // LIMITED ATONEMENT - SUPPORTING VERSES
+            // LIMITED ATONEMENT — SUPPORTING VERSES
             {
                 reference: "Hebrews 7:25",
                 doctrine: "L",
@@ -1881,9 +1712,69 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "supporting",
                 testament: "nt",
                 text: "For by a single offering he has perfected for all time those who are being sanctified.",
-                commentary: "\"Perfected for all time\" — the offering actually accomplishes perfection for its intended recipients."
+                commentary: "'Perfected for all time' — the offering actually accomplishes perfection for its intended recipients."
             },
-            // IRRESISTIBLE GRACE - KEY VERSES
+            // NEW: Limited Atonement — Supporting
+            {
+                reference: "Mark 10:45",
+                doctrine: "L",
+                strength: "supporting",
+                testament: "nt",
+                text: "For even the Son of Man came not to be served but to serve, and to give his life as a ransom for many.",
+                commentary: "A ransom 'for many' — the price was paid for specific captives, and it secured their release."
+            },
+            {
+                reference: "Isaiah 53:10",
+                doctrine: "L",
+                strength: "supporting",
+                testament: "ot",
+                text: "Yet it was the will of the LORD to crush him; he has put him to grief; when his soul makes an offering for guilt, he shall see his offspring; he shall prolong his days; the will of the LORD shall prosper in his hand.",
+                commentary: "The guilt offering produces offspring — the Servant sees the fruit of His sacrifice. The atonement achieves its intended purpose."
+            },
+            {
+                reference: "Ephesians 1:7",
+                doctrine: "L",
+                strength: "supporting",
+                testament: "nt",
+                text: "In him we have redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace.",
+                commentary: "'We have redemption' — present tense possession. The blood purchased an actual redemption for those in Christ."
+            },
+            {
+                reference: "Hebrews 2:9",
+                doctrine: "L",
+                strength: "supporting",
+                testament: "nt",
+                text: "But we see him who for a little while was made lower than the angels, namely Jesus, crowned with glory and honor because of the suffering of death, so that by the grace of God he might taste death for everyone.",
+                commentary: "'Everyone' — in context, the 'many sons' being brought to glory (v. 10), the 'children God has given me' (v. 13)."
+            },
+            {
+                reference: "Hebrews 2:16-17",
+                doctrine: "L",
+                strength: "supporting",
+                testament: "nt",
+                text: "For surely it is not angels that he helps, but he helps the offspring of Abraham. Therefore he had to be made like his brothers in every respect, so that he might become a merciful and faithful high priest.",
+                commentary: "Christ helps the offspring of Abraham — those of faith. His high priestly work is for His brothers."
+            },
+            {
+                reference: "John 10:15",
+                doctrine: "L",
+                strength: "supporting",
+                testament: "nt",
+                text: "...just as the Father knows me and I know the Father; and I lay down my life for the sheep.",
+                commentary: "For the sheep — not for the wolves. The atonement is for those the Father gave Him."
+            },
+            {
+                reference: "Colossians 1:13-14",
+                doctrine: "L",
+                strength: "supporting",
+                testament: "nt",
+                text: "He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son, in whom we have redemption, the forgiveness of sins.",
+                commentary: "Delivered and transferred — accomplished facts for those in Christ, not mere possibilities for all."
+            },
+
+            // ═══════════════════════════════════════════
+            // IRRESISTIBLE GRACE — KEY VERSES
+            // ═══════════════════════════════════════════
             {
                 reference: "Deuteronomy 30:6",
                 doctrine: "I",
@@ -1914,7 +1805,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "ot",
                 text: "And I will give them one heart, and a new spirit I will put within them. I will remove the heart of stone from their flesh and give them a heart of flesh, that they may walk in my statutes.",
-                commentary: "\"I will give... I will remove... I will put\" — all divine initiative. Five first-person verbs."
+                commentary: "'I will give... I will remove... I will put' — all divine initiative. Five first-person verbs."
             },
             {
                 reference: "Ezekiel 36:26-27",
@@ -1937,7 +1828,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 doctrine: "I",
                 strength: "key",
                 testament: "nt",
-                text: "Jesus answered him, 'Truly, truly, I say to you, unless one is born again he cannot see the kingdom of God... That which is born of the flesh is flesh, and that which is born of the Spirit is spirit. Do not marvel that I said to you, \"You must be born again.\" The wind blows where it wishes, and you hear its sound, but you do not know where it comes from or where it goes. So it is with everyone who is born of the Spirit.'",
+                text: "Jesus answered him, 'Truly, truly, I say to you, unless one is born again he cannot see the kingdom of God... The wind blows where it wishes, and you hear its sound, but you do not know where it comes from or where it goes. So it is with everyone who is born of the Spirit.'",
                 commentary: "The Spirit blows where HE wishes, not where we wish. Regeneration is sovereign, mysterious, and effectual."
             },
             {
@@ -1946,7 +1837,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "For as the Father raises the dead and gives them life, so also the Son gives life to whom he will.",
-                commentary: "\"To whom he will\" — sovereign discretion in giving life."
+                commentary: "'To whom he will' — sovereign discretion in giving life."
             },
             {
                 reference: "John 6:37",
@@ -1954,7 +1845,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "All that the Father gives me will come to me.",
-                commentary: "\"Will come\" — every single one given by the Father. Not \"might come\" or \"could come.\""
+                commentary: "'Will come' — every single one given by the Father. Not 'might come' or 'could come.'"
             },
             {
                 reference: "John 6:44-45",
@@ -1978,7 +1869,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "And I have other sheep that are not of this fold. I must bring them also, and they will listen to my voice.",
-                commentary: "\"I must bring them\" and \"they WILL listen\" — certainty, not possibility."
+                commentary: "'I must bring them' and 'they WILL listen' — certainty, not possibility."
             },
             {
                 reference: "John 10:27",
@@ -1994,7 +1885,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "For the promise is for you and for your children and for all who are far off, everyone whom the Lord our God calls to himself.",
-                commentary: "\"Everyone whom the Lord calls\" — the effectual call reaches the intended recipients."
+                commentary: "'Everyone whom the Lord calls' — the effectual call reaches the intended recipients."
             },
             {
                 reference: "Acts 11:18",
@@ -2010,7 +1901,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "And when the Gentiles heard this, they began rejoicing and glorifying the word of the Lord, and as many as were appointed to eternal life believed.",
-                commentary: "Appointed → believed. The appointment produced the faith."
+                commentary: "Appointed then believed. The appointment produced the faith."
             },
             {
                 reference: "Acts 16:14",
@@ -2018,7 +1909,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "One who heard us was a woman named Lydia, from the city of Thyatira, a seller of purple goods, who was a worshiper of God. The Lord opened her heart to pay attention to what was said by Paul.",
-                commentary: "\"The Lord opened her heart\" — Lydia didn't open her own heart. God acted first."
+                commentary: "'The Lord opened her heart' — Lydia didn't open her own heart. God acted first."
             },
             {
                 reference: "Romans 1:6",
@@ -2034,7 +1925,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...those who are called according to his purpose. For those whom he foreknew he also predestined... and those whom he predestined he also called, and those whom he called he also justified.",
-                commentary: "Called → justified. No one called fails to be justified. The call is effectual."
+                commentary: "Called then justified. No one called fails to be justified. The call is effectual."
             },
             {
                 reference: "Romans 9:15-16",
@@ -2082,7 +1973,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "But God, being rich in mercy, because of the great love with which he loved us, even when we were dead in our trespasses, made us alive together with Christ — by grace you have been saved.",
-                commentary: "\"But God\" — the two most powerful words in Scripture. Dead people made alive by sovereign mercy."
+                commentary: "'But God' — the two most powerful words in Scripture. Dead people made alive by sovereign mercy."
             },
             {
                 reference: "Ephesians 2:8-9",
@@ -2090,7 +1981,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.",
-                commentary: "\"Not your own doing\" — even the faith is a gift. The purpose: no boasting."
+                commentary: "'Not your own doing' — even the faith is a gift. The purpose: no boasting."
             },
             {
                 reference: "Philippians 1:29",
@@ -2098,7 +1989,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "For it has been granted to you that for the sake of Christ you should not only believe in him but also suffer for his sake.",
-                commentary: "\"Granted\" (echaristhē) — graced. Faith is a grace-gift."
+                commentary: "'Granted' (echaristhe) — graced. Faith is a grace-gift."
             },
             {
                 reference: "Philippians 2:13",
@@ -2130,7 +2021,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Of his own will he brought us forth by the word of truth, that we should be a kind of firstfruits of his creatures.",
-                commentary: "\"Of his own will\" — regeneration originates in God's will, not ours."
+                commentary: "'Of his own will' — regeneration originates in God's will, not ours."
             },
             {
                 reference: "1 Peter 1:3",
@@ -2138,7 +2029,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope.",
-                commentary: "\"Caused us to be born again\" — we didn't cause ourselves to be born the first time, nor the second."
+                commentary: "'Caused us to be born again' — we didn't cause ourselves to be born the first time, nor the second."
             },
             {
                 reference: "1 John 5:1",
@@ -2146,9 +2037,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Everyone who believes that Jesus is the Christ has been born of God.",
-                commentary: "\"Has been born\" (gegennētai) — perfect passive. The new birth (past) produces the believing (present)."
+                commentary: "'Has been born' (gegennētai) — perfect passive. The new birth (past) produces the believing (present)."
             },
-            // IRRESISTIBLE GRACE - SUPPORTING VERSES
+            // IRRESISTIBLE GRACE — SUPPORTING VERSES
             {
                 reference: "Jeremiah 31:33",
                 doctrine: "I",
@@ -2173,7 +2064,91 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 text: "The king's heart is a stream of water in the hand of the LORD; he turns it wherever he will.",
                 commentary: "If God turns kings' hearts, how much more His elect's?"
             },
-            // PERSEVERANCE - KEY VERSES
+            // NEW: Irresistible Grace — Supporting
+            {
+                reference: "Psalm 119:36",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "ot",
+                text: "Incline my heart to your testimonies, and not to selfish gain!",
+                commentary: "The psalmist asks God to incline his heart — recognizing that even the desire for God's word is a gift."
+            },
+            {
+                reference: "Song of Solomon 1:4",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "ot",
+                text: "Draw me after you; let us run.",
+                commentary: "The Bride asks to be drawn — and then she runs. The drawing produces the willing pursuit."
+            },
+            {
+                reference: "Isaiah 55:11",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "ot",
+                text: "...so shall my word be that goes out from my mouth; it shall not return to me empty, but it shall accomplish that which I purpose, and shall succeed in the thing for which I sent it.",
+                commentary: "God's word accomplishes its purpose. When sent to regenerate, it regenerates."
+            },
+            {
+                reference: "Hosea 2:14",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "ot",
+                text: "Therefore, behold, I will allure her, and bring her into the wilderness, and speak tenderly to her.",
+                commentary: "God allures and brings — His wooing of Israel is effectual, not resistible."
+            },
+            {
+                reference: "John 17:20",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "nt",
+                text: "I do not ask for these only, but also for those who will believe in me through their word.",
+                commentary: "Jesus prays for future believers with certainty — 'those who WILL believe.' The Father always answers the Son's prayers."
+            },
+            {
+                reference: "Romans 1:7",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "nt",
+                text: "To all those in Rome who are loved by God and called to be saints.",
+                commentary: "Called to be saints — the calling is effectual and produces the holiness."
+            },
+            {
+                reference: "1 Corinthians 1:9",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "nt",
+                text: "God is faithful, by whom you were called into the fellowship of his Son, Jesus Christ our Lord.",
+                commentary: "Called INTO fellowship — the calling places believers in union with Christ."
+            },
+            {
+                reference: "Galatians 1:15-16",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "nt",
+                text: "But when he who had set me apart before I was born, and who called me by his grace, was pleased to reveal his Son to me...",
+                commentary: "Paul's conversion: set apart before birth, called by grace, Son revealed IN him. All divine initiative."
+            },
+            {
+                reference: "1 Peter 2:9",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "nt",
+                text: "...that you may proclaim the excellencies of him who called you out of darkness into his marvelous light.",
+                commentary: "Called OUT of darkness INTO light — a transfer accomplished by God's effectual call."
+            },
+            {
+                reference: "1 Thessalonians 2:13",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "nt",
+                text: "And we also thank God constantly for this, that when you received the word of God, which you heard from us, you accepted it not as the word of men but as what it really is, the word of God, which is at work in you believers.",
+                commentary: "The word of God is 'at work' (energeitai) in believers — divine energy active through the word to produce faith."
+            },
+
+            // ═══════════════════════════════════════════
+            // PERSEVERANCE OF THE SAINTS — KEY VERSES
+            // ═══════════════════════════════════════════
             {
                 reference: "Psalm 37:28",
                 doctrine: "P",
@@ -2204,7 +2179,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "ot",
                 text: "Fear not, for I have redeemed you; I have called you by name, you are mine. When you pass through the waters, I will be with you.",
-                commentary: "\"You are mine\" — ownership language. The redeemed are His permanent possession."
+                commentary: "'You are mine' — ownership language. The redeemed are His permanent possession."
             },
             {
                 reference: "Isaiah 54:10",
@@ -2228,7 +2203,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Truly, truly, I say to you, whoever hears my word and believes him who sent me has eternal life. He does not come into judgment, but has passed from death to life.",
-                commentary: "\"Has passed\" — past tense. \"Does not come into judgment\" — absolute."
+                commentary: "'Has passed' — past tense. 'Does not come into judgment' — absolute."
             },
             {
                 reference: "John 6:37-40",
@@ -2244,7 +2219,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "My sheep hear my voice, and I know them, and they follow me. I give them eternal life, and they will never perish, and no one will snatch them out of my hand. My Father, who has given them to me, is greater than all, and no one is able to snatch them out of the Father's hand.",
-                commentary: "Double security — the Son's hand and the Father's hand. \"No one\" includes yourself."
+                commentary: "Double security — the Son's hand and the Father's hand. 'No one' includes yourself."
             },
             {
                 reference: "John 17:11-12",
@@ -2260,7 +2235,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Since, therefore, we have now been justified by his blood, much more shall we be saved by him from the wrath of God. For if while we were enemies we were reconciled to God by the death of his Son, much more, now that we are reconciled, shall we be saved by his life.",
-                commentary: "\"Much more\" argument — if God saved enemies, He will certainly preserve friends."
+                commentary: "'Much more' argument — if God saved enemies, He will certainly preserve friends."
             },
             {
                 reference: "Romans 8:1",
@@ -2276,7 +2251,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...those whom he foreknew he also predestined... called... justified... glorified.",
-                commentary: "The golden chain. Past tense \"glorified\" — it is as good as done. No one falls between the links."
+                commentary: "The golden chain. Past tense 'glorified' — it is as good as done. No one falls between the links."
             },
             {
                 reference: "Romans 8:31-34",
@@ -2284,7 +2259,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "If God is for us, who can be against us? He who did not spare his own Son but gave him up for us all, how will he not also with him graciously give us all things?",
-                commentary: "Five rhetorical questions — each expecting the answer \"No one.\" No charge, no condemnation, no separation."
+                commentary: "Five rhetorical questions — each expecting the answer 'No one.' No charge, no condemnation, no separation."
             },
             {
                 reference: "Romans 8:35-39",
@@ -2292,7 +2267,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Who shall separate us from the love of Christ? Shall tribulation, or distress, or persecution, or famine, or nakedness, or danger, or sword?... For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.",
-                commentary: "Ten things that cannot separate. \"Anything else in all creation\" covers everything. Nothing means nothing."
+                commentary: "Ten things that cannot separate. 'Anything else in all creation' covers everything. Nothing means nothing."
             },
             {
                 reference: "Romans 11:29",
@@ -2332,7 +2307,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "In him you also, when you heard the word of truth, the gospel of your salvation, and believed in him, were sealed with the promised Holy Spirit, who is the guarantee of our inheritance until we acquire possession of it.",
-                commentary: "The Spirit seals. The inheritance is guaranteed. \"Until we acquire possession\" — it will happen."
+                commentary: "The Spirit seals. The inheritance is guaranteed. 'Until we acquire possession' — it will happen."
             },
             {
                 reference: "Ephesians 4:30",
@@ -2364,7 +2339,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Now may the God of peace himself sanctify you completely, and may your whole spirit and soul and body be kept blameless at the coming of our Lord Jesus Christ. He who calls you is faithful; he will surely do it.",
-                commentary: "\"He WILL surely do it.\" Perseverance is grounded in God's faithfulness."
+                commentary: "'He WILL surely do it.' Perseverance is grounded in God's faithfulness."
             },
             {
                 reference: "2 Thessalonians 3:3",
@@ -2388,7 +2363,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "The Lord will rescue me from every evil deed and bring me safely into his heavenly kingdom.",
-                commentary: "\"Will rescue... will bring safely\" — certainty of final deliverance."
+                commentary: "'Will rescue... will bring safely' — certainty of final deliverance."
             },
             {
                 reference: "Hebrews 7:25",
@@ -2396,7 +2371,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "Consequently, he is able to save to the uttermost those who draw near to God through him, since he always lives to make intercession for them.",
-                commentary: "\"To the uttermost\" — completely, finally, permanently. His intercession never ceases."
+                commentary: "'To the uttermost' — completely, finally, permanently. His intercession never ceases."
             },
             {
                 reference: "Hebrews 10:14",
@@ -2420,7 +2395,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "...for he has said, 'I will never leave you nor forsake you.'",
-                commentary: "Five negatives in the Greek — \"I will never, no never, no never leave or forsake you.\""
+                commentary: "Five negatives in the Greek — 'I will never, no never, no never leave or forsake you.'"
             },
             {
                 reference: "1 Peter 1:3-5",
@@ -2452,7 +2427,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "I write these things to you who believe in the name of the Son of God, that you may know that you have eternal life.",
-                commentary: "\"That you may KNOW\" — assurance is intended. Eternal life is a present possession."
+                commentary: "'That you may KNOW' — assurance is intended. Eternal life is a present possession."
             },
             {
                 reference: "1 John 5:18",
@@ -2484,9 +2459,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "key",
                 testament: "nt",
                 text: "The one who conquers will be clothed thus in white garments, and I will never blot his name out of the book of life.",
-                commentary: "\"Never blot out\" — a promise to overcomers. And who overcomes? Everyone born of God (1 John 5:4)."
+                commentary: "'Never blot out' — a promise to overcomers. And who overcomes? Everyone born of God (1 John 5:4)."
             },
-            // PERSEVERANCE - SUPPORTING VERSES
+            // PERSEVERANCE — SUPPORTING VERSES
             {
                 reference: "Deuteronomy 33:27",
                 doctrine: "P",
@@ -2509,7 +2484,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 strength: "supporting",
                 testament: "ot",
                 text: "Surely goodness and mercy shall follow me all the days of my life, and I shall dwell in the house of the LORD forever.",
-                commentary: "\"All the days\" and \"forever\" — no interruption possible."
+                commentary: "'All the days' and 'forever' — no interruption possible."
             },
             {
                 reference: "Psalm 73:23-24",
@@ -2534,6 +2509,103 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 testament: "ot",
                 text: "Can a woman forget her nursing child, that she should have no compassion on the son of her womb? Even these may forget, yet I will not forget you. Behold, I have engraved you on the palms of my hands.",
                 commentary: "Engraved on God's palms — permanent, indelible, unforgettable."
+            },
+            // NEW: Perseverance — Supporting
+            {
+                reference: "Psalm 125:1-2",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "ot",
+                text: "Those who trust in the LORD are like Mount Zion, which cannot be moved, but abides forever. As the mountains surround Jerusalem, so the LORD surrounds his people, from this time forth and forevermore.",
+                commentary: "Cannot be moved. Surrounded by God. From now until forever. Immovable security."
+            },
+            {
+                reference: "Psalm 94:14",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "ot",
+                text: "For the LORD will not forsake his people; he will not abandon his heritage.",
+                commentary: "Will not forsake. Will not abandon. The negative is emphatic."
+            },
+            {
+                reference: "Isaiah 46:4",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "ot",
+                text: "...even to your old age I am he, and to gray hairs I will carry you. I have made, and I will bear; I will carry and will save.",
+                commentary: "God carries from creation to old age. He made you; He will carry you through."
+            },
+            {
+                reference: "Micah 7:8",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "ot",
+                text: "Rejoice not over me, O my enemy; when I fall, I shall rise; when I sit in darkness, the LORD will be a light to me.",
+                commentary: "The saint falls but rises again. The Lord is the light even in darkness."
+            },
+            {
+                reference: "John 4:14",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "nt",
+                text: "...but whoever drinks of the water that I will give him will never be thirsty again. The water that I will give him will become in him a spring of water welling up to eternal life.",
+                commentary: "'Never be thirsty again' — the water Christ gives sustains permanently, springing up to eternal life."
+            },
+            {
+                reference: "John 14:16",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "nt",
+                text: "And I will ask the Father, and he will give you another Helper, to be with you forever.",
+                commentary: "The Holy Spirit is given forever — not temporarily, not conditionally."
+            },
+            {
+                reference: "Romans 14:4",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "nt",
+                text: "...And he will be upheld, for the Lord is able to make him stand.",
+                commentary: "The Lord is ABLE to make him stand. Perseverance rests on God's ability, not ours."
+            },
+            {
+                reference: "2 Corinthians 5:5",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "nt",
+                text: "He who has prepared us for this very thing is God, who has given us the Spirit as a guarantee.",
+                commentary: "God prepared us AND gave the Spirit as guarantee. The guarantee ensures the final outcome."
+            },
+            {
+                reference: "Philippians 3:12",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "nt",
+                text: "Not that I have already obtained this or am already perfect, but I press on to make it my own, because Christ Jesus has made me his own.",
+                commentary: "Paul presses on BECAUSE Christ already took hold of him. Perseverance flows from Christ's prior grip."
+            },
+            {
+                reference: "2 Peter 1:10",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "nt",
+                text: "Therefore, brothers, be all the more diligent to confirm your calling and election, for if you practice these qualities you will never fall.",
+                commentary: "Confirm your calling — not because it's uncertain, but because assurance grows through diligence. Those who practice will never fall."
+            },
+            {
+                reference: "Hebrews 6:17-19",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "nt",
+                text: "So when God desired to show more convincingly to the heirs of the promise the unchangeable character of his purpose, he guaranteed it with an oath, so that by two unchangeable things, in which it is impossible for God to lie, we who have fled for refuge might have strong encouragement to hold fast to the hope set before us. We have this as a sure and steadfast anchor of the soul.",
+                commentary: "Two unchangeable things: God's promise and His oath. An anchor of the soul — sure and steadfast."
+            },
+            {
+                reference: "1 John 3:9",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "nt",
+                text: "No one born of God makes a practice of sinning, for God's seed abides in him; and he cannot keep on sinning, because he has been born of God.",
+                commentary: "God's seed abides permanently. The regenerate nature cannot be finally dominated by sin."
             }
         ];
 
@@ -2549,25 +2621,19 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         const searchInput = document.getElementById('search-input');
         const strengthFilter = document.getElementById('strength-filter');
         const testamentFilter = document.getElementById('testament-filter');
-        const doctrineButtons = document.querySelectorAll('.tab-btn');
+        const doctrineButtons = document.querySelectorAll('.tsunami-tab-btn');
 
-        // Initialize counts
         function updateCounts() {
             const filtered = filterVerses();
             document.getElementById('showing-count').textContent = filtered.length;
             document.getElementById('total-count').textContent = versesData.length;
+            document.getElementById('total-count-display').textContent = versesData.length;
 
-            const tCount = versesData.filter(v => v.doctrine === 'T').length;
-            const uCount = versesData.filter(v => v.doctrine === 'U').length;
-            const lCount = versesData.filter(v => v.doctrine === 'L').length;
-            const iCount = versesData.filter(v => v.doctrine === 'I').length;
-            const pCount = versesData.filter(v => v.doctrine === 'P').length;
-
-            document.getElementById('doctrine-t-count').textContent = tCount;
-            document.getElementById('doctrine-u-count').textContent = uCount;
-            document.getElementById('doctrine-l-count').textContent = lCount;
-            document.getElementById('doctrine-i-count').textContent = iCount;
-            document.getElementById('doctrine-p-count').textContent = pCount;
+            document.getElementById('doctrine-t-count').textContent = versesData.filter(v => v.doctrine === 'T').length;
+            document.getElementById('doctrine-u-count').textContent = versesData.filter(v => v.doctrine === 'U').length;
+            document.getElementById('doctrine-l-count').textContent = versesData.filter(v => v.doctrine === 'L').length;
+            document.getElementById('doctrine-i-count').textContent = versesData.filter(v => v.doctrine === 'I').length;
+            document.getElementById('doctrine-p-count').textContent = versesData.filter(v => v.doctrine === 'P').length;
         }
 
         function filterVerses() {
@@ -2620,7 +2686,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                             <div class="commentary-label">Commentary</div>
                             <div class="commentary-text">${verse.commentary}</div>
                         </div>
-                        <div class="expand-indicator">▼ Read Commentary</div>
+                        <div class="expand-indicator">\u25BC Read Commentary</div>
                     `;
 
                     card.addEventListener('click', () => {
@@ -2630,10 +2696,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
                         if (card.classList.contains('expanded')) {
                             commentary.style.display = 'block';
-                            indicator.textContent = '▲ Hide Commentary';
+                            indicator.textContent = '\u25B2 Hide Commentary';
                         } else {
                             commentary.style.display = 'none';
-                            indicator.textContent = '▼ Read Commentary';
+                            indicator.textContent = '\u25BC Read Commentary';
                         }
                     });
 
@@ -2672,13 +2738,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         // Initial render
         renderVerses();
     </script>
-<button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-<script>
-(function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
-</script>
-<script>
-(function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
-</script>
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
     <script src="/global.js" defer></script>
 </body>
 </html>

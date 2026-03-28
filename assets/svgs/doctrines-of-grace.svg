@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" fill="none">
+  <defs>
+    <linearGradient id="dgGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4a254"/>
+      <stop offset="100%" stop-color="#e8642c"/>
+    </linearGradient>
+    <linearGradient id="dgViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" rx="12" fill="#0a0a0f"/>
+  <text x="400" y="35" text-anchor="middle" fill="#d4a254" font-family="serif" font-size="15" font-weight="800" letter-spacing="3">THE DOCTRINES OF GRACE</text>
+  <text x="400" y="52" text-anchor="middle" fill="#5a5650" font-family="monospace" font-size="9" letter-spacing="2">WHAT SCRIPTURE TEACHES ABOUT SALVATION</text>
+
+  <!-- T -->
+  <rect x="25" y="75" width="140" height="320" rx="8" fill="#12121a" stroke="#d4a254" stroke-opacity="0.2" stroke-width="1"/>
+  <circle cx="95" cy="105" r="20" fill="none" stroke="url(#dgGold)" stroke-width="2"/>
+  <text x="95" y="111" text-anchor="middle" fill="#d4a254" font-family="serif" font-size="18" font-weight="900">T</text>
+  <text x="95" y="145" text-anchor="middle" fill="#f0ece4" font-family="serif" font-size="11" font-weight="700">Total</text>
+  <text x="95" y="160" text-anchor="middle" fill="#f0ece4" font-family="serif" font-size="11" font-weight="700">Inability</text>
+  <line x1="55" y1="175" x2="135" y2="175" stroke="#d4a254" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="95" y="198" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9" font-weight="400">Apart from God,</text>
+  <text x="95" y="212" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">we cannot choose</text>
+  <text x="95" y="226" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">Him. Dead in sin.</text>
+  <text x="95" y="260" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">Rom 3:10-11</text>
+  <text x="95" y="274" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">Eph 2:1-3</text>
+  <text x="95" y="288" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">John 6:44</text>
+  <text x="95" y="302" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">1 Cor 2:14</text>
+
+  <!-- U -->
+  <rect x="180" y="75" width="140" height="320" rx="8" fill="#12121a" stroke="#d4a254" stroke-opacity="0.2" stroke-width="1"/>
+  <circle cx="250" cy="105" r="20" fill="none" stroke="url(#dgGold)" stroke-width="2"/>
+  <text x="250" y="111" text-anchor="middle" fill="#d4a254" font-family="serif" font-size="18" font-weight="900">U</text>
+  <text x="250" y="145" text-anchor="middle" fill="#f0ece4" font-family="serif" font-size="11" font-weight="700">Unconditional</text>
+  <text x="250" y="160" text-anchor="middle" fill="#f0ece4" font-family="serif" font-size="11" font-weight="700">Election</text>
+  <line x1="210" y1="175" x2="290" y2="175" stroke="#d4a254" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="250" y="198" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">God chose us not</text>
+  <text x="250" y="212" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">based on anything</text>
+  <text x="250" y="226" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">in us, but by grace.</text>
+  <text x="250" y="260" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">Eph 1:4-5</text>
+  <text x="250" y="274" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">Rom 9:11-16</text>
+  <text x="250" y="288" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">2 Tim 1:9</text>
+  <text x="250" y="302" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">John 15:16</text>
+
+  <!-- L -->
+  <rect x="335" y="75" width="140" height="320" rx="8" fill="#12121a" stroke="#d4a254" stroke-opacity="0.2" stroke-width="1"/>
+  <circle cx="405" cy="105" r="20" fill="none" stroke="url(#dgGold)" stroke-width="2"/>
+  <text x="405" y="111" text-anchor="middle" fill="#d4a254" font-family="serif" font-size="18" font-weight="900">L</text>
+  <text x="405" y="145" text-anchor="middle" fill="#f0ece4" font-family="serif" font-size="11" font-weight="700">Particular</text>
+  <text x="405" y="160" text-anchor="middle" fill="#f0ece4" font-family="serif" font-size="11" font-weight="700">Redemption</text>
+  <line x1="365" y1="175" x2="445" y2="175" stroke="#d4a254" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="405" y="198" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">Christ died to</text>
+  <text x="405" y="212" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">actually save His</text>
+  <text x="405" y="226" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">people, not merely</text>
+  <text x="405" y="240" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">make salvation</text>
+  <text x="405" y="254" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">possible.</text>
+  <text x="405" y="280" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">John 10:11,15</text>
+  <text x="405" y="294" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">Eph 5:25</text>
+  <text x="405" y="308" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">Isa 53:10-11</text>
+
+  <!-- I -->
+  <rect x="490" y="75" width="140" height="320" rx="8" fill="#12121a" stroke="#d4a254" stroke-opacity="0.2" stroke-width="1"/>
+  <circle cx="560" cy="105" r="20" fill="none" stroke="url(#dgViolet)" stroke-width="2"/>
+  <text x="560" y="111" text-anchor="middle" fill="#8b5cf6" font-family="serif" font-size="18" font-weight="900">I</text>
+  <text x="560" y="145" text-anchor="middle" fill="#f0ece4" font-family="serif" font-size="11" font-weight="700">Effectual</text>
+  <text x="560" y="160" text-anchor="middle" fill="#f0ece4" font-family="serif" font-size="11" font-weight="700">Grace</text>
+  <line x1="520" y1="175" x2="600" y2="175" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="560" y="198" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">God's grace is</text>
+  <text x="560" y="212" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">effectual — it</text>
+  <text x="560" y="226" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">accomplishes what</text>
+  <text x="560" y="240" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">God intends.</text>
+  <text x="560" y="274" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">John 6:37</text>
+  <text x="560" y="288" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">Rom 8:30</text>
+  <text x="560" y="302" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">Ezek 36:26-27</text>
+
+  <!-- P -->
+  <rect x="645" y="75" width="140" height="320" rx="8" fill="#12121a" stroke="#d4a254" stroke-opacity="0.2" stroke-width="1"/>
+  <circle cx="715" cy="105" r="20" fill="none" stroke="url(#dgViolet)" stroke-width="2"/>
+  <text x="715" y="111" text-anchor="middle" fill="#8b5cf6" font-family="serif" font-size="18" font-weight="900">P</text>
+  <text x="715" y="145" text-anchor="middle" fill="#f0ece4" font-family="serif" font-size="11" font-weight="700">Preservation</text>
+  <text x="715" y="160" text-anchor="middle" fill="#f0ece4" font-family="serif" font-size="11" font-weight="700">of the Saints</text>
+  <line x1="675" y1="175" x2="755" y2="175" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="715" y="198" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">Those God saves,</text>
+  <text x="715" y="212" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">He keeps. None</text>
+  <text x="715" y="226" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">whom Christ died</text>
+  <text x="715" y="240" text-anchor="middle" fill="#9a958c" font-family="sans-serif" font-size="9">for will be lost.</text>
+  <text x="715" y="274" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">John 10:28-29</text>
+  <text x="715" y="288" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">Phil 1:6</text>
+  <text x="715" y="302" text-anchor="middle" fill="#8b5cf6" font-family="monospace" font-size="8">Rom 8:38-39</text>
+
+  <!-- Footer -->
+  <text x="400" y="410" text-anchor="middle" fill="#5a5650" font-family="monospace" font-size="9" letter-spacing="2">ADOPTEDBYGRACE.NET — SCRIPTURE TEACHES</text>
+</svg>

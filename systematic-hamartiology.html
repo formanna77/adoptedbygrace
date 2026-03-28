@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Systematic Theology: Hamartiology — The doctrine of sin. Understanding the nature, origin, and consequences of sin, and why we need a Savior.">
     <meta name="keywords" content="hamartiology, sin, systematic theology, original sin, total depravity, biblical theology, Adam, Christ">
@@ -44,8 +45,7 @@
             font-family: 'Inter', sans-serif;
             background-color: #0a0a0f;
             color: #e0e0e0;
-            line-height: 1.7;
-            min-height: 100vh;
+            line-height: 1.8;
             display: flex;
             flex-direction: column;
         }
@@ -154,8 +154,8 @@
         .hero {
             background-color: #12121a;
             border-bottom: 1px solid #1a1a2e;
-            padding: 4rem 2rem;
-            margin-bottom: 3rem;
+            padding: 3rem 2rem;
+            margin-bottom: 2rem;
         }
 
         .hero-content {
@@ -366,7 +366,7 @@
         /* Connection cards */
         .connections {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin: 2rem 0;
         }
@@ -415,8 +415,8 @@
             background-color: #12121a;
             border: 1px solid #1a1a2e;
             border-radius: 8px;
-            padding: 3rem;
-            margin: 4rem 0;
+            padding: 2.5rem;
+            margin: 3rem 0;
             text-align: center;
         }
 
@@ -468,8 +468,8 @@
         footer {
             background-color: #12121a;
             border-top: 1px solid #1a1a2e;
-            padding: 3rem 2rem;
-            margin-top: 4rem;
+            padding: 2.5rem 2rem;
+            margin-top: 5rem;
         }
 
         .footer-content {
@@ -479,7 +479,7 @@
 
         .footer-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin-bottom: 2rem;
         }
@@ -521,6 +521,11 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            .hero {
+                padding: 2rem 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+
             .hero h1 {
                 font-size: 2.5rem;
             }
@@ -537,12 +542,67 @@
                 padding: 0 1rem;
             }
 
+            .section {
+                margin-bottom: 2.5rem;
+            }
+
             .section h2 {
                 font-size: 1.8rem;
             }
 
             .section h3 {
                 font-size: 1.2rem;
+            }
+
+            .continue-exploring {
+                padding: 1.5rem;
+                margin: 2rem 0;
+            }
+
+            footer {
+                padding: 1.5rem;
+                margin-top: 5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 1.5rem 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .main-wrapper {
+                padding: 0 0.75rem;
+            }
+
+            .section {
+                margin-bottom: 2rem;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+
+            .continue-exploring {
+                padding: 1.25rem;
+                margin: 1.5rem 0;
+            }
+
+            .continue-exploring h3 {
+                font-size: 1.4rem;
+            }
+
+            footer {
+                padding: 1.25rem 0.75rem;
+                margin-top: 5rem;
             }
         }
     /* ========== STANDARD NAV ========== */
@@ -615,7 +675,7 @@ a:focus-visible { outline-offset: 3px; }
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -631,9 +691,9 @@ a:focus-visible { outline-offset: 3px; }
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -1403,7 +1463,7 @@ a:focus-visible { outline-offset: 3px; }
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

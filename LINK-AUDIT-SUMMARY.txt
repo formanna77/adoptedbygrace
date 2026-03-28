@@ -1,0 +1,153 @@
+LINK AUDIT SUMMARY - adoptedbygracewebsite
+=====================================================
+Report Generated: 2026-03-28
+Research Only - No Files Modified
+
+OVERVIEW
+--------
+Total HTML files analyzed: 110
+Total links found: 5803
+
+CRITICAL FINDINGS
+-----------------
+1. BROKEN INTERNAL LINKS: 81 total
+   - These are relative or absolute paths to .html files that don't exist
+   - Problem pages (most broken links):
+     * question-titus3.html: 12 broken links
+     * question-2tim1-9.html: 12 broken links
+     * systematic-theology-proper.html: 9 broken links
+     * systematic-christology.html: 7 broken links
+     * history-timeline.html: 7 broken links
+
+2. EMPTY/MALFORMED HREF ATTRIBUTES: 121 total
+   - <a href=""></a> or malformed attributes that don't point anywhere
+   - Affects many content pages (devotionals, connections, etc.)
+
+3. OTHER LINK ISSUES: 86 malformed/other links
+   - Mostly favicon.svg references and anchor links
+   - Some may be CSS/image references in link tags
+
+EXTERNAL LINKS SUMMARY
+----------------------
+24 external domains referenced:
+- fonts.googleapis.com (211 links) - CSS font imports
+- fonts.gstatic.com (108 links) - Font assets
+- paypal.me (108 links) - Donation links (https://paypal.me/formanna77)
+- adoptedbygrace.net (104 links) - Self-referential links
+- www.desiringgod.org (6 links)
+- www.gty.org (7 links)
+- www.ligonier.org (11 links)
+- www.crcna.org (3 links) - Confessions resources
+- founders.org (2 links) - Church search
+- evangelicalarminians.org (1 link)
+- twitter.com (4 links) - Share buttons
+- www.facebook.com (4 links) - Share buttons
+- www.linkedin.com (1 link) - Share button
+- Plus 11 more specialized theological/church sites
+
+MAILTO LINKS
+------------
+1 mailto link found (appears to be empty/malformed in output)
+
+ANCHOR-ONLY LINKS
+-----------------
+532 anchor-only links (#something)
+- These are internal page fragments and are valid
+
+JAVASCRIPT LINKS
+-----------------
+0 JavaScript links found (good - no onclick handlers)
+
+LINK ANALYSIS BY CATEGORY
+--------------------------
+- Internal links: ~400+
+- External links: ~700+
+- Anchor-only: 532
+- Empty/malformed: 121-207 (combined)
+
+PAGES WITH MOST LINKS
+----------------------
+1. question-irresistible.html: 80 links
+2. systematic-hamartiology.html: 59+ links (varies)
+3. ot-jacob-esau.html: 62 links
+4. question-perseverance.html: 72 links
+
+PAGES WITH BROKEN LINKS (DETAILED)
+-----------------------------------
+1. question-titus3.html - 12 broken:
+   - /question-2tim1-9.html (appears multiple times)
+   - /question-boasting.html (appears multiple times)
+   - /question-chosen.html
+   - /question-depravity.html (appears multiple times)
+   - /systematic-ordo-salutis.html (appears multiple times)
+
+2. question-2tim1-9.html - 12 broken:
+   - /question-boasting.html (appears 3x)
+   - /question-chosen.html (appears 4x)
+   - /question-goldchain.html (appears 3x)
+   - /question-romans9.html
+   - /systematic-ordo-salutis.html
+
+3. systematic-theology-proper.html - 9 broken:
+   - /systematic-compatibilism.html (appears 2x)
+   - /systematic-divine-decrees.html (appears 2x)
+   - /systematic-covenant-theology.html (appears 2x)
+   - /systematic-ordo-salutis.html
+   - /systematic-theology.html
+   - /theologians.html
+
+4. systematic-christology.html - 7 broken:
+   - systematic.html (appears 2x)
+   - systematic-trinity.html
+   - systematic-election.html
+   - systematic-salvation.html
+   - systematic-resurrection.html
+   - demolition-arianism.html
+
+5. history-timeline.html - 7 broken:
+   - history-apostolic.html
+   - history-medieval.html
+   - history-luther.html
+   - history-calvin-geneva.html
+   - history-puritans.html
+   - history-20th-century.html
+   - history-today.html
+
+ANALYSIS NOTES
+--------------
+- Broken links appear to fall into categories:
+  1. Absolute paths starting with "/" that point to non-existent files
+  2. Relative paths to missing history pages (medieval, puritans, etc.)
+  3. Missing systematic theology subpages (trinity, salvation, etc.)
+  4. Missing pages that were referenced but never created
+
+- Empty hrefs (121 total) might be placeholders in:
+  - connections.html
+  - devotional pages
+  - Some content hubs
+
+- The script treats leading "/" paths as absolute, which is causing
+  many false positives. In actual site operation, these may work
+  differently (they may be treated as relative or server-configured).
+  However, they still indicate files that don't exist in the repo.
+
+FILES ANALYZED
+--------------
+Script: /sessions/affectionate-practical-volta/mnt/adoptedbygracewebsite/link_analyzer.py
+Output: (this summary)
+
+Full detailed report available in previous execution output.
+
+RECOMMENDATIONS
+---------------
+1. Fix the 81 broken internal links by either:
+   - Creating the missing files, OR
+   - Updating links to point to existing pages
+
+2. Review and fix the 121 empty href attributes
+
+3. Consider normalizing link format (relative vs absolute)
+
+4. Test external links to ensure they're all still active
+
+5. Consider implementing automated link checking in CI/CD

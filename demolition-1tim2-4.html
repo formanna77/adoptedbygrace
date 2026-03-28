@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Demolition #2: Does God Desire the Salvation of Every Individual? A Reformed analysis of 1 Timothy 2:4 that dismantles Arminian proof texts through careful exegesis and context.">
     <meta name="keywords" content="1 Timothy 2:4, Arminianism, biblical theology, election, atonement, exegesis, Greek analysis">
@@ -46,7 +47,7 @@
             font-family: 'Inter', sans-serif;
             background-color: var(--bg-deep);
             color: var(--text-primary);
-            line-height: 1.7;
+            line-height: 1.8;
         }
 
         a {
@@ -469,14 +470,14 @@
             background-color: rgba(10, 10, 15, 0.95);
             border-top: 1px solid var(--border-subtle);
             padding: 3rem 2rem;
-            margin-top: 5rem;
+            margin-top: 2rem;
         }
 
         .footer-container {
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin-bottom: 2rem;
         }
@@ -558,6 +559,133 @@
                 right: 1.5rem;
             }
         }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+                margin-top: 1rem;
+                margin-bottom: 0.6rem;
+            }
+
+            .argument-card {
+                padding: 1.2rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .share-buttons {
+                gap: 0.6rem;
+                margin-top: 2rem;
+            }
+
+            footer {
+                padding: 1.5rem 1rem;
+                margin-top: 5rem;
+            }
+
+            .back-to-top {
+                width: 40px;
+                height: 40px;
+                bottom: 1rem;
+                right: 1rem;
+                font-size: 1.2rem;
+            }
+
+            .related-explore {
+                margin: 2rem auto;
+                padding: 1.2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.3rem;
+                margin-bottom: 0.8rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+                margin-top: 1.2rem;
+                margin-bottom: 0.8rem;
+            }
+
+            h3 {
+                font-size: 0.95rem;
+                margin-top: 0.8rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .argument-card {
+                padding: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .share-buttons {
+                gap: 0.5rem;
+                margin-top: 1rem;
+            }
+
+            .share-btn {
+                width: 32px;
+                height: 32px;
+                font-size: 0.8rem;
+            }
+
+            footer {
+                padding: 1.2rem 0.8rem;
+                margin-top: 5rem;
+            }
+
+            .footer-section h4 {
+                font-size: 1rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .footer-copyright {
+                font-size: 0.75rem;
+            }
+
+            .back-to-top {
+                width: 36px;
+                height: 36px;
+                bottom: 0.8rem;
+                right: 0.8rem;
+                font-size: 1rem;
+            }
+
+            .related-explore {
+                margin: 1.5rem auto;
+                padding: 1rem;
+            }
+
+            .related-explore h3 {
+                font-size: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .related-explore-grid {
+                grid-template-columns: 1fr;
+                gap: 0.6rem;
+            }
+        }
     
         .breadcrumb-nav { max-width: 900px; margin: 1rem auto 0; padding: 0 2rem; }
         .breadcrumb-nav a { color: var(--accent-gold, #d4a853); text-decoration: none; font-size: 0.85rem; font-family: 'Inter', sans-serif; letter-spacing: 0.03em; opacity: 0.8; transition: opacity 0.2s; }
@@ -565,7 +693,7 @@
     
         .related-explore { max-width: 900px; margin: 3rem auto; padding: 2rem; border-top: 2px solid rgba(212, 168, 83, 0.2); }
         .related-explore h3 { font-family: 'Playfair Display', serif; color: var(--accent-gold, #d4a853); font-size: 1.3rem; margin-bottom: 1.2rem; }
-        .related-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.8rem; }
+        .related-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 0.8rem; }
         .related-explore-grid a { display: block; padding: 0.8rem 1rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 168, 83, 0.15); border-radius: 8px; color: var(--text-primary, #e8e6e3); text-decoration: none; font-size: 0.9rem; font-family: 'Inter', sans-serif; transition: all 0.2s; }
         .related-explore-grid a:hover { border-color: var(--accent-gold, #d4a853); background: rgba(212, 168, 83, 0.08); transform: translateY(-1px); }
     @media (max-width: 768px) { .section-nav { display: none !important; } }
@@ -616,7 +744,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -632,9 +760,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -975,7 +1103,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

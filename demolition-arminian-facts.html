@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FACTS Check: Dismantling the Arminian Framework Point by Point</title>
     <meta name="description" content="Seminary-level exegetical analysis dismantling the Society of Evangelical Arminians' FACTS framework. Demonstrates how prevenient grace, universal atonement, conditional election, and other Arminian doctrines collapse under biblical scrutiny.">
@@ -42,7 +43,7 @@
             background-color: var(--bg-deep);
             color: var(--text-primary);
             font-family: 'Inter', sans-serif;
-            line-height: 1.7;
+            line-height: 1.8;
             overflow-x: hidden;
         }
 
@@ -447,7 +448,7 @@
 
         .cross-links-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 1rem;
         }
 
@@ -497,7 +498,7 @@
             background: var(--bg-card);
             border-top: 1px solid var(--border-subtle);
             padding: 3rem 2rem;
-            margin-top: 4rem;
+            margin-top: 2rem;
         }
 
         .footer-content {
@@ -507,7 +508,7 @@
 
         .footer-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin-bottom: 2rem;
         }
@@ -574,20 +575,169 @@
         }
 
         @media (max-width: 768px) {
+            .nav-container {
+                padding: 0.8rem 1rem;
+            }
+
+            .breadcrumb {
+                padding: 1rem 1.5rem;
+                font-size: 0.8rem;
+            }
+
+            .hero {
+                padding: 2rem 1.2rem;
+                margin: 1rem auto;
+            }
+
             .hero h1 {
-                font-size: 2rem;
+                font-size: 1.6rem;
+                margin-bottom: 1rem;
+            }
+
+            .hero-subtitle {
+                font-size: 0.95rem;
+            }
+
+            .section {
+                padding: 0 1.2rem;
+                margin-bottom: 2.5rem;
             }
 
             .section h2 {
-                font-size: 1.5rem;
+                font-size: 1.3rem;
+                margin-bottom: 1rem;
+                margin-top: 2rem;
+            }
+
+            .section h3 {
+                font-size: 1rem;
+            }
+
+            .fact-card {
+                padding: 1.2rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .response-box {
+                padding: 1.2rem;
+                margin: 1.5rem 0;
             }
 
             .response-box ol {
                 margin-left: 1.5rem;
             }
 
+            .verse-sidebar {
+                padding: 1.2rem;
+                margin: 1.5rem 0;
+            }
+
+            footer {
+                padding: 1.5rem 1rem;
+                margin-top: 5rem;
+            }
+
             .footer-grid {
                 grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-container {
+                padding: 0.6rem 0.8rem;
+            }
+
+            .logo {
+                font-size: 1rem;
+            }
+
+            .breadcrumb {
+                padding: 0.8rem 1rem;
+                font-size: 0.75rem;
+            }
+
+            .hero {
+                padding: 1.5rem 1rem;
+                margin: 0.5rem auto;
+            }
+
+            .hero h1 {
+                font-size: 1.3rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .hero-subtitle {
+                font-size: 0.85rem;
+                margin-bottom: 1rem;
+            }
+
+            .source-link {
+                font-size: 0.75rem;
+                padding: 0.3rem 0.8rem;
+            }
+
+            .section {
+                padding: 0 0.8rem;
+                margin-bottom: 2rem;
+            }
+
+            .section h2 {
+                font-size: 1.1rem;
+                margin-top: 1.2rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .section h3 {
+                font-size: 0.95rem;
+                margin-top: 0.8rem;
+            }
+
+            .fact-card {
+                padding: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .fact-number {
+                font-size: 0.85rem;
+            }
+
+            .fact-title {
+                font-size: 1rem;
+            }
+
+            .response-box {
+                padding: 1rem;
+                margin: 1rem 0;
+            }
+
+            .response-box ol {
+                margin-left: 1.2rem;
+                font-size: 0.9rem;
+            }
+
+            .verse-sidebar {
+                padding: 1rem;
+                margin: 1rem 0;
+            }
+
+            .verse-list {
+                font-size: 0.9rem;
+            }
+
+            footer {
+                padding: 1.2rem 0.8rem;
+                margin-top: 5rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .footer-section h4 {
+                font-size: 0.95rem;
+                margin-bottom: 0.6rem;
             }
         }
     </style>
@@ -612,7 +762,7 @@
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -628,9 +778,9 @@
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -893,7 +1043,7 @@
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

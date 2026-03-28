@@ -14,9 +14,9 @@ Use ALL available compute this session. Do not stop early. Create new content, t
 2. **Study the existing design.** Read one existing question page (e.g., `question-chosen.html` or `question-romans9.html`) to match the exact HTML structure, CSS variables, design patterns, navigation, and formatting. Your new page MUST match the existing design system exactly:
    - Dark aesthetic: `--bg-deep: #0a0a0f`, `--accent-gold: #d4a254`, `--accent-ember: #e8642c`, `--accent-violet: #8b5cf6`
    - Fonts: Playfair Display (headings), Inter (body), JetBrains Mono (labels)
-   - Sticky nav with links to: index.html, questions.html, essays.html, about.html
+   - **MEGA-MENU NAVIGATION (REQUIRED).** Every new page MUST use the mega-menu navigation with dropdowns for Doctrine, Apologetics, Explore, and History. The logo text must be `Adopted by Grace` (title case). Copy the nav HTML, CSS, and JS from `index.html` — do NOT use the old flat 4-link nav. The mega-menu includes: Home, Start Here, Doctrine (dropdown: The Evidence, Systematic Theology, Scripture Tsunami, Creeds & Confessions), Apologetics (dropdown: Demolition Zone, Comparisons, Objections Answered), Explore (dropdown: Devotionals, Stories & Parables, Analogies, Pastoral, Secular Evidence), History (dropdown: Theologians, Church History, OT Election), Resources, About.
    - Scroll-spy navigation for long pages
-   - Responsive design with mobile breakpoint at 768px
+   - Responsive design with mobile breakpoint at 768px/900px
    - All CSS inline (self-contained HTML files)
 
 3. **Build the page to maximum depth.** Create a complete, production-ready HTML file with:

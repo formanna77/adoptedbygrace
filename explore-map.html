@@ -48,7 +48,7 @@
         .category-count { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--text-muted); letter-spacing: 0.1em; text-transform: uppercase; }
 
         /* Node grid */
-        .node-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.8rem; }
+        .node-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 0.8rem; }
         .map-node {
             display: block; text-decoration: none; color: inherit; padding: 1.2rem 1.4rem;
             background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px;
@@ -72,22 +72,22 @@
         [data-cat="evidence"] { --node-color: #d4a254; --node-glow: rgba(212,162,84,0.08); }
         [data-cat="apologetics"] { --node-color: #e8642c; --node-glow: rgba(232,100,44,0.08); }
         [data-cat="systematic"] { --node-color: #8b5cf6; --node-glow: rgba(139,92,246,0.08); }
-        [data-cat="devotional"] { --node-color: #ec4899; --node-glow: rgba(236,72,153,0.08); }
-        [data-cat="stories"] { --node-color: #f59e0b; --node-glow: rgba(245,158,11,0.08); }
-        [data-cat="history"] { --node-color: #06b6d4; --node-glow: rgba(6,182,212,0.08); }
-        [data-cat="ot"] { --node-color: #10b981; --node-glow: rgba(16,185,129,0.08); }
-        [data-cat="journey"] { --node-color: #f472b6; --node-glow: rgba(244,114,182,0.08); }
+        [data-cat="devotional"] { --node-color: var(--accent-ember); --node-glow: rgba(236,72,153,0.08); }
+        [data-cat="stories"] { --node-color: var(--accent-gold); --node-glow: rgba(245,158,11,0.08); }
+        [data-cat="history"] { --node-color: var(--accent-violet); --node-glow: rgba(6,182,212,0.08); }
+        [data-cat="ot"] { --node-color: var(--accent-gold); --node-glow: rgba(16,185,129,0.08); }
+        [data-cat="journey"] { --node-color: var(--accent-ember); --node-glow: rgba(244,114,182,0.08); }
         [data-cat="resources"] { --node-color: #a78bfa; --node-glow: rgba(167,139,250,0.08); }
         [data-cat="secular"] { --node-color: #38bdf8; --node-glow: rgba(56,189,248,0.08); }
 
         .cat-evidence { background: #d4a254; }
         .cat-apologetics { background: #e8642c; }
         .cat-systematic { background: #8b5cf6; }
-        .cat-devotional { background: #ec4899; }
-        .cat-stories { background: #f59e0b; }
-        .cat-history { background: #06b6d4; }
-        .cat-ot { background: #10b981; }
-        .cat-journey { background: #f472b6; }
+        .cat-devotional { background: var(--accent-ember); }
+        .cat-stories { background: var(--accent-gold); }
+        .cat-history { background: var(--accent-violet); }
+        .cat-ot { background: var(--accent-gold); }
+        .cat-journey { background: var(--accent-ember); }
         .cat-resources { background: #a78bfa; }
         .cat-secular { background: #38bdf8; }
 
@@ -104,8 +104,19 @@
         @media (max-width: 768px) {
             .node-grid { grid-template-columns: 1fr; }
             .map-hero h1 { font-size: 2rem; }
+            .map-hero { padding: 5rem 1.5rem 1.5rem; }
             .map-filters { gap: 0.4rem; }
             .filter-btn { font-size: 0.6rem; padding: 0.4rem 0.8rem; }
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .map-hero { padding: 4.5rem 1rem 1rem; }
+            .page-hero::before { width: 250px; height: 250px; }
+            .content-section { padding: 1.5rem 1rem; }
+            footer { margin-top: 2rem; padding: 1.5rem 1rem; }
+            .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
+            .card { padding: 1.5rem; }
+            blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
         }
     </style>
 </head>
@@ -126,7 +137,7 @@
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -142,9 +153,9 @@
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>

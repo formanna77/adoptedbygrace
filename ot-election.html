@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore the doctrine of election throughout the Old Testament. From Abraham to David, discover how God's sovereign choice shaped history and proves the gospel.">
     <meta name="keywords" content="Old Testament, election, predestination, God's sovereignty, biblical theology, Abraham, Jacob, Esau, Moses, David">
@@ -84,7 +85,7 @@
             font-family: 'Inter', sans-serif;
             background-color: var(--bg-deep);
             color: var(--text-primary);
-            line-height: 1.6;
+            line-height: 1.8;
             overflow-x: hidden;
         }
 
@@ -202,7 +203,7 @@
         .hero {
             background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.05));
             border-bottom: 1px solid var(--border-subtle);
-            padding: 5rem 2rem;
+            padding: 3.5rem 2rem;
             text-align: center;
             position: relative;
             overflow: hidden;
@@ -316,7 +317,7 @@
 
         .pattern-points {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 1.5rem;
             margin-top: 2rem;
         }
@@ -492,7 +493,7 @@
 
         .coming-soon-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 1.5rem;
         }
 
@@ -542,7 +543,7 @@
 
         .texts-list {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 1rem;
         }
 
@@ -561,14 +562,14 @@
             background-color: var(--bg-card);
             border-top: 1px solid var(--border-subtle);
             padding: 3rem 2rem;
-            margin-top: 4rem;
+            margin-top: 5rem;
         }
 
         .footer-container {
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin-bottom: 2rem;
         }
@@ -646,12 +647,24 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            .hero {
+                padding: 2.5rem 1.5rem;
+            }
+
             .hero h1 {
                 font-size: 2.5rem;
             }
 
             .hero-subtitle {
                 font-size: 1.05rem;
+            }
+
+            .pattern-section {
+                padding: 2.5rem 1.5rem;
+            }
+
+            .cards-section {
+                padding: 2.5rem 1.5rem;
             }
 
             .section-title {
@@ -670,6 +683,10 @@
                 grid-template-columns: 1fr;
             }
 
+            .coming-soon-section {
+                padding: 2.5rem 1.5rem;
+            }
+
             .back-to-top {
                 width: 42px;
                 height: 42px;
@@ -685,7 +702,7 @@
 
         @media (max-width: 480px) {
             .hero {
-                padding: 3rem 1rem;
+                padding: 2rem 1rem;
             }
 
             .hero h1 {
@@ -696,8 +713,24 @@
                 font-size: 0.95rem;
             }
 
+            .pattern-section {
+                padding: 1.75rem 1rem;
+            }
+
+            .cards-section {
+                padding: 1.75rem 1rem;
+            }
+
+            .coming-soon-section {
+                padding: 1.75rem 1rem;
+            }
+
             .section-title {
                 font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 0 1rem;
             }
 
             .nav-links {
@@ -713,7 +746,7 @@
             }
 
             .verse-block {
-                padding: 1rem;
+                padding: 0.85rem;
                 font-size: 0.95rem;
             }
         }
@@ -768,7 +801,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -784,9 +817,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -991,7 +1024,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

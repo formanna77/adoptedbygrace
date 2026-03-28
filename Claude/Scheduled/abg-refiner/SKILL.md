@@ -55,6 +55,9 @@ Use ALL available compute this session. Do not stop early. Refine existing pages
 
 8. **Update the roadmap LAST.** Check off refinement items in ROADMAP.md. Add a Session Log entry with today's date, which pages you refined, and specifically what you improved on each. Note any issues you found but didn't have time to fix.
 
+## Navigation Check (REQUIRED)
+Before refining content, verify the page uses the MEGA-MENU navigation (dropdowns for Doctrine, Apologetics, Explore, History). If the page has the old flat 4-link nav (Home | Evidence | Essays | About), update it to the mega-menu. Copy the nav HTML, CSS, and JS from `index.html`. The logo must say `Adopted by Grace` (title case, NOT all-caps). This is a mandatory prerequisite before any content refinement.
+
 ## Refinement Principles
 - Precision over volume. One devastating argument from Scripture is worth ten mediocre ones.
 - Cross-reference aggressively. Every page should point readers deeper into the site.
@@ -62,6 +65,7 @@ Use ALL available compute this session. Do not stop early. Refine existing pages
 - The tone should be warm, reverent, and confident — not defensive or combative.
 - Always let Scripture have the final word.
 - Check Greek claims carefully. Bad Greek analysis destroys credibility.
+- Lead with "Scripture teaches," not "Calvinism says." Avoid Reformed/Calvinist labels that trigger resistance. Let the truth stand on its own.
 
 ## IMPORTANT: Do not stop early. Use every bit of available compute. If you finish refining one page, start refining another. If you finish two pages, do the cross-reference audit. Keep working until you cannot work any more.
 
