@@ -8,5 +8,18 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /support    /donate.html     301
 /contact    /connect.html    301
 
+# Creeds & Confessions — deep-dive pages
+/creed-canons-dort           /creed-canons-dort.html           200
+/creed-heidelberg-catechism  /creed-heidelberg-catechism.html  200
+
+# Analogies & Illustrations
+/analogies-illustrations       /analogies-illustrations.html       200
+/analogies                     /analogies-illustrations.html       301
+/analogy-doctor-corpse         /analogy-doctor-corpse.html         200
+/analogy-lazarus-grave         /analogy-lazarus-grave.html         200
+/analogy-chess-grandmaster     /analogy-chess-grandmaster.html     200
+/analogy-light-switch          /analogy-light-switch.html          200
+/analogy-adoption              /analogy-adoption.html              200
+
 # Custom 404
 /*  /404.html  404

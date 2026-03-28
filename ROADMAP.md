@@ -10,12 +10,15 @@
 
 ### Pages Live
 - `index.html` — Homepage with hero, featured questions, key verses
-- `start-here.html` — **NEW** Start Here landing page with 5-phase journey overview
-- `start-here-phase1.html` — **NEW** Phase 1: What Is Reformed Theology?
-- `start-here-phase2.html` — **NEW** Phase 2: The Five Points of Grace (TULIP)
-- `start-here-phase3.html` — **NEW** Phase 3: What Does the Bible Actually Teach?
-- `start-here-phase4.html` — **NEW** Phase 4: Objections Answered
-- `start-here-phase5.html` — **NEW** Phase 5: Living as an Elect Child of God
+- `start-here.html` — Start Here landing page with 5-phase journey overview, self-assessment quiz link, study-together CTA
+- `start-here-phase1.html` — Phase 1: What Is Reformed Theology? (+ knowledge check quiz + email signup)
+- `start-here-phase2.html` — Phase 2: The Five Points of Grace (TULIP) (+ knowledge check quiz + email signup)
+- `start-here-phase3.html` — Phase 3: What Does the Bible Actually Teach? (+ knowledge check quiz + email signup)
+- `start-here-phase4.html` — Phase 4: Objections Answered (+ knowledge check quiz + email signup)
+- `start-here-phase5.html` — Phase 5: Living as an Elect Child of God (+ knowledge check quiz + email signup)
+- `start-here-assessment.html` — **NEW** Interactive self-assessment quiz — "Find Your Starting Point" (7 questions, personalized phase recommendation)
+- `start-here-groups.html` — **NEW** 5-week small group discussion guide with icebreakers, Scripture, 8-10 questions per week, leader tips
+- `start-here-resources.html` — **NEW** Journey resources hub — recommended books, sermons, on-site links for each phase + 5-week reading plan
 - `questions.html` — Hub listing 16 question deep-dives in 4 categories
 - `question-chosen.html` — Ephesians 1:3-11 (election in Christ)
 - `question-john6.html` — John 6:37-44,65 (the Father's drawing)
@@ -129,7 +132,7 @@
 - ~~No sitemap.xml or robots.txt~~ — **Fixed 2026-03-26**
 - ~~No structured data (JSON-LD) for SEO~~ — **Fixed 2026-03-27**
 - No analytics integration
-- ~~No "Start Here" guided reading path for newcomers~~ — **Built 2026-03-27** (6 pages)
+- ~~No "Start Here" guided reading path for newcomers~~ — **Built 2026-03-27** (6 pages), **Enhanced 2026-03-28** (3 new pages + quizzes + email CTAs)
 
 ---
 
@@ -374,6 +377,30 @@
 ---
 
 ## Session Log
+
+### 2026-03-28 16:44 UTC — Fleet Operations Check #2
+- **Status:** Clean — no merge conflicts, no truncated files, no agent collisions detected
+- **Site growth:** 177 HTML files (up from 137 last check — 40 new pages in ~8 hours!)
+- **Hub gaps found:** analogies-illustrations.html has zero links (5 pages orphaned), systematic-theology.html missing 8 pages, questions.html missing 4, devotionals.html missing 2, demolition-hub.html missing 1, theologians.html missing 1
+- **Sitemap behind:** 29 pages not in sitemap.xml — architect-seo needs to update
+- **Nav drift:** 43 of 177 pages have non-majority nav — harmonizer sweep needed
+- **Schedule risk:** Hour 16 has 8 agents — watching for collisions. No changes made yet (jitter providing enough spacing)
+- **21 agents ran in a 63-minute window** with zero damage — fleet is healthy
+
+### 2026-03-28 — Start Here Journey Enhancement: 3 New Pages + Interactive Features Across All 5 Phases
+- **SCOPE:** Major enhancement of the Start Here guided journey — adding interactive engagement elements, community resources, and self-assessment tools
+- **NEW PAGES BUILT (3):**
+  - `start-here-assessment.html` — Interactive self-assessment quiz: 7 thoughtful multiple-choice questions that map visitors to their ideal starting phase. Features: one-question-at-a-time flow with smooth transitions, progress bar, phase scoring algorithm, personalized results with descriptions and phase links, confetti animation on completion, "Retake Quiz" option. Reformed humor: "This quiz was predestined for you."
+  - `start-here-groups.html` — 5-week small group discussion guide: each week covers one journey phase with opening prayer focus, creative icebreaker, 8-10 Scripture-driven discussion questions, closing reflection, and homework. Includes leader resources section (handling disagreements, family adaptation, one-on-one discipleship). Accordion interface with Week 1 open by default.
+  - `start-here-resources.html` — Journey resources hub: recommended books, sermons, and on-site links organized by each of the 5 phases. Includes complete 5-week reading plan, phase navigation tabs with smooth scroll, and "Study With Others" section linking to groups guide. Features book recommendation cards with author and editorial descriptions.
+- **EXISTING PAGES ENHANCED (6):**
+  - `start-here.html` — Added self-assessment quiz link ("Take the Quiz (2 min)") as primary CTA in quick-start section. Added "Study This Journey Together" section with violet accent linking to small group guide.
+  - `start-here-phase1.html` through `start-here-phase5.html` — ALL 5 phase pages now include:
+    - **Knowledge Check Quiz**: 4 interactive multiple-choice questions testing comprehension of that phase's content. Click-to-answer with instant green/red visual feedback, shows correct answer on miss, auto-scores with personalized messages.
+    - **Email Signup CTA**: Phase-specific headline and description with email input form and subscribe button (styled, ready for backend). "Soli Deo Gloria" tagline.
+- **SITEMAP UPDATED:** Added 3 new URLs (start-here-assessment, start-here-groups, start-here-resources)
+- **DESIGN:** All new pages and features match dark dramatic aesthetic with gold/ember/violet accents, responsive at 768px and 480px breakpoints, hamburger menu, back-to-top, skip-to-content, JSON-LD schema
+- **ENGAGEMENT FEATURES:** The Start Here journey now includes: self-assessment quiz entry point, progress indicators, interactive TULIP accordion, knowledge check quizzes (20 questions total across 5 phases), email signup CTAs, small group discussion guide (40+ questions), resource recommendations, 5-week reading plan
 
 ### 2026-03-28 — Resources & Community Session: 5 New Resource Pages
 - **SCOPE:** Build comprehensive resource infrastructure — commentaries, reading plans, podcasts, prayer guides, catechisms

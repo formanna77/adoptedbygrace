@@ -18,8 +18,8 @@
     <title>Dead, Not Sick — The Bible's Diagnosis of the Human Condition</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-        <script type="application/ld+json">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -38,711 +38,128 @@
     }
     </script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --bg-card-hover: #1a1a2e;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-        }
-
-        body {
-            background-color: #0a0a0f;
-            background-color: var(--bg-deep);
-            color: #f0ece4;
-            color: var(--text-primary);
-            -webkit-text-size-adjust: 100%;
-            font-family: 'Inter', sans-serif;
-            line-height: 1.8;
-            overflow-x: hidden;
-        }
-
-        /* Navigation */
-        nav {
-            position: static;
-            top: 0;
-            z-index: 1000;
-            background: rgba(10, 10, 15, 0.85);
-            -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
-            border-bottom: 1px solid var(--border-subtle);
-            padding: 1rem 2rem;
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.5rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: 0.1em;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            transition: color 0.3s ease;
-            font-weight: 500;
-        }
-
-        .nav-links a:hover,
-        .nav-links a.active {
-            color: var(--accent-gold);
-        }
-
-        /* Hero */
-        .hero {
-            max-width: 900px;
-            margin: 3rem auto;
-            padding: 3rem 2rem;
-        }
-
-        .back-link {
-            display: inline-block;
-            margin-bottom: 1.5rem;
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: opacity 0.3s ease;
-        }
-
-        .back-link:hover {
-            opacity: 0.7;
-        }
-
-        .topic-label {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            color: var(--accent-gold);
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 1rem;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.8rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-
-        .hero-subtitle {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            margin-bottom: 2rem;
-        }
-
-        /* Section Navigation */
-        .section-nav {
-            position: static;
-            top: 80px;
-            z-index: 900;
-            background: var(--bg-deep);
-            border-bottom: 1px solid var(--border-subtle);
-            padding: 1rem 0;
-            margin-bottom: 3rem;
-            overflow-x: auto;
-        }
-
-        .section-nav-container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 2rem;
-            display: flex;
-            gap: 1.5rem;
-        }
-
-        .section-nav a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.95rem;
-            font-weight: 500;
-            padding: 0.5rem 1rem;
-            border-bottom: 2px solid transparent;
-            transition: all 0.3s ease;
-            white-space: nowrap;
-        }
-
-        .section-nav a:hover,
-        .section-nav a.active {
-            color: var(--accent-gold);
-            border-bottom-color: var(--accent-gold);
-        }
-
-        /* Main Content */
-        .content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        .section {
-            margin-bottom: 5rem;
-            scroll-margin-top: 200px;
-        }
-
-        .section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-            color: var(--accent-gold);
-        }
-
-        .section h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            margin-bottom: 1rem;
-            margin-top: 2.5rem;
-            color: var(--text-primary);
-        }
-
-        .section p {
-            margin-bottom: 1.5rem;
-            color: var(--text-secondary);
-            line-height: 1.8;
-        }
-
-        /* Scripture Block */
-        .scripture-block {
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05));
-            border-left: 4px solid var(--accent-gold);
-            border-radius: 4px;
-            padding: 2rem;
-            margin: 2rem 0;
-            font-size: 1rem;
-            line-height: 1.9;
-            color: var(--text-primary);
-            font-style: italic;
-        }
-
-        .scripture-ref {
-            display: block;
-            margin-top: 1rem;
-            font-style: normal;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
-
-        /* Greek Analysis */
-        .greek-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        .greek-box {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-left: 4px solid var(--accent-gold);
-            border-radius: 4px;
-            padding: 1.5rem;
-        }
-
-        .greek-word {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 1.1rem;
-            color: var(--accent-gold);
-            margin-bottom: 0.5rem;
-        }
-
-        .greek-translation {
-            font-size: 0.95rem;
-            color: var(--accent-ember);
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-
-        .greek-explanation {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        /* Arguments Grid */
-        .arguments-grid {
-            display: grid;
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        .argument-item {
-            background: linear-gradient(135deg, rgba(212, 162, 84, 0.05), rgba(139, 92, 246, 0.05));
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            padding: 2rem;
-        }
-
-        .argument-number {
-            font-family: 'JetBrains Mono', monospace;
-            color: var(--accent-gold);
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 0.5rem;
-        }
-
-        .argument-title {
-            font-size: 1.2rem;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-            font-weight: 600;
-        }
-
-        .argument-text {
-            color: var(--text-secondary);
-            line-height: 1.7;
-        }
-
-        /* Objection/Answer */
-        .objection-container {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            margin: 2rem 0;
-            overflow: hidden;
-        }
-
-        .objection-header {
-            background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(139, 92, 246, 0.05));
-            border-bottom: 1px solid var(--border-subtle);
-            padding: 1.5rem;
-            font-weight: 600;
-            color: var(--accent-ember);
-        }
-
-        .objection-header::before {
-            content: '⚔ OBJECTION: ';
-            margin-right: 0.5rem;
-        }
-
-        .answer-header {
-            background: linear-gradient(135deg, rgba(212, 162, 84, 0.1), rgba(139, 92, 246, 0.05));
-            border-top: 1px solid var(--border-subtle);
-            padding: 1.5rem;
-            font-weight: 600;
-            color: var(--accent-gold);
-        }
-
-        .answer-header::before {
-            content: '✓ ANSWER: ';
-            margin-right: 0.5rem;
-        }
-
-        .objection-body,
-        .answer-body {
-            padding: 1.5rem;
-            color: var(--text-secondary);
-            line-height: 1.8;
-        }
-
-        /* Evidence Box */
-        .evidence-box {
-            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.08));
-            border: 2px solid var(--accent-gold);
-            border-radius: 4px;
-            padding: 2rem;
-            margin: 2rem 0;
-        }
-
-        .evidence-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.2rem;
-            color: var(--accent-gold);
-            margin-bottom: 1.5rem;
-        }
-
-        .evidence-list {
-            list-style: none;
-        }
-
-        .evidence-list li {
-            padding: 0.8rem 0;
-            padding-left: 1.5rem;
-            position: relative;
-            color: var(--text-secondary);
-        }
-
-        .evidence-list li::before {
-            content: '▸';
-            position: absolute;
-            left: 0;
-            color: var(--accent-gold);
-        }
-
-        /* Verdict Section */
-        .verdict-box {
-            background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(212, 162, 84, 0.1));
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            padding: 2rem;
-            margin: 2rem 0;
-        }
-
-        .verdict-quote {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            line-height: 1.7;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-        }
-
-        .verdict-attribution {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            font-style: italic;
-        }
-
-        /* Cross-reference links */
-        .cross-ref {
-            color: var(--accent-gold);
-            text-decoration: none;
-            border-bottom: 1px dotted var(--accent-gold);
-            transition: color 0.3s ease, border-color 0.3s ease;
-        }
-
-        .cross-ref:hover {
-            color: var(--accent-ember);
-            border-bottom-color: var(--accent-ember);
-        }
-
-        /* Next Article Link */
-        .next-article {
-            max-width: 900px;
-            margin: 4rem auto;
-            padding: 2rem;
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            text-align: center;
-        }
-
-        .next-article a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-weight: 600;
-            transition: color 0.3s ease;
-        }
-
-        .next-article a:hover {
-            color: var(--accent-ember);
-        }
-
-        /* Footer */
-        footer {
-            background: var(--bg-card);
-            border-top: 1px solid var(--border-subtle);
-            padding: 3rem 2rem;
-            margin-top: 5rem;
-        }
-
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-            text-align: center;
-        }
-
-        .footer-section h4 {
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-            font-family: 'Playfair Display', serif;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-copyright {
-            text-align: center;
-            margin-top: 2rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-subtle);
-            color: var(--text-muted);
-            font-size: 0.85rem;
-        }
-
-        /* Responsive */
-        @media (max-width: 1024px) {
-            .hero h1 {
-                font-size: 1.8rem;
-            }
-
-            .section h2 {
-                font-size: 1.5rem;
-            }
-
-            .section h3 {
-                font-size: 1.2rem;
-            }
-
-            .scripture-block {
-                padding: 1.5rem;
-                font-size: 0.95rem;
-            }
-
-            .greek-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .section-nav-container {
-                gap: 1rem;
-            }
-
-            nav {
-                padding: 0.8rem 1rem;
-            }
-
-            .nav-container {
-                flex-direction: column;
-                gap: 0.6rem;
-            }
-
-            .logo {
-                font-size: 1rem;
-            }
-
-            .nav-links {
-                gap: 0.6rem;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .nav-links a {
-                font-size: 0.8rem;
-            }
-
-            .hero {
-                padding: 2rem 1.2rem;
-                margin: 1.5rem auto;
-            }
-
-            .content {
-                padding: 0 1.2rem;
-            }
-
-            .scripture-block {
-                padding: 1.2rem;
-                font-size: 0.9rem;
-            }
-
-            .argument-item {
-                padding: 1.2rem;
-            }
-
-            .objection-header, .answer-header {
-                padding: 1rem;
-                font-size: 0.9rem;
-            }
-
-            .objection-body, .answer-body {
-                padding: 1rem;
-                font-size: 0.9rem;
-            }
-
-            .next-article {
-                margin: 2rem auto;
-                padding: 1.2rem;
-            }
-
-            footer {
-                padding: 2rem 1rem;
-            }
-
-            .section-nav a {
-                font-size: 0.85rem;
-                padding: 0.4rem 0.8rem;
-            }
-        }
-    
-        /* Skip to content - accessibility */
-        .skip-to-content {
-            position: absolute;
-            top: -40px;
-            left: 0;
-            background: var(--accent-gold);
-            color: var(--bg-deep);
-            padding: 8px 16px;
-            z-index: 10000;
-            font-family: 'Inter', sans-serif;
-            font-weight: 600;
-            font-size: 0.9rem;
-            text-decoration: none;
-            transition: top 0.2s;
-        }
-        .skip-to-content:focus {
-            top: 0;
-        }
-    
+        .hero { max-width: 900px; margin: 3rem auto; padding: 3rem 2rem; }
+        .topic-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
+        .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 2rem; }
+        .back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; transition: opacity 0.3s ease; }
+        .back-link:hover { opacity: 0.7; }
+        .section-nav { position: static; top: 80px; z-index: 900; background: var(--bg-deep); border-bottom: 1px solid var(--border-subtle); padding: 1rem 0; margin-bottom: 3rem; overflow-x: auto; }
+        .section-nav-container { max-width: 900px; margin: 0 auto; padding: 0 2rem; display: flex; gap: 1.5rem; }
+        .section-nav a { color: var(--text-secondary); text-decoration: none; font-size: 0.95rem; font-weight: 500; padding: 0.5rem 1rem; border-bottom: 2px solid transparent; transition: all 0.3s ease; white-space: nowrap; }
+        .section-nav a:hover, .section-nav a.active { color: var(--accent-gold); border-bottom-color: var(--accent-gold); }
+        .content { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+        .section { margin-bottom: 5rem; scroll-margin-top: 200px; }
+        .section h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 1.5rem; color: var(--accent-gold); }
+        .section h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 1rem; margin-top: 2.5rem; color: var(--text-primary); }
+        .section p { margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 1.8; }
+        blockquote { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
+        .scripture-ref { display: block; margin-top: 1rem; font-style: normal; color: var(--text-muted); font-size: 0.9rem; }
+        .greek-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin: 2rem 0; }
+        .greek-box { background: var(--bg-card); border: 1px solid var(--border-subtle); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 1.5rem; }
+        .greek-word { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.5rem; }
+        .greek-translation { font-size: 0.95rem; color: var(--accent-ember); font-weight: 600; margin-bottom: 1rem; }
+        .greek-explanation { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; }
+        .arguments-grid { display: grid; gap: 2rem; margin: 2rem 0; }
+        .argument-item { background: linear-gradient(135deg, rgba(212, 162, 84, 0.05), rgba(139, 92, 246, 0.05)); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2rem; }
+        .argument-number { font-family: 'JetBrains Mono', monospace; color: var(--accent-gold); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; }
+        .argument-title { font-size: 1.2rem; color: var(--text-primary); margin-bottom: 1rem; font-weight: 600; }
+        .argument-text { color: var(--text-secondary); line-height: 1.7; }
+        .objection-container { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; margin: 2rem 0; overflow: hidden; }
+        .objection-header { background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(139, 92, 246, 0.05)); border-bottom: 1px solid var(--border-subtle); padding: 1.5rem; font-weight: 600; color: var(--accent-ember); }
+        .objection-header::before { content: '⚔ OBJECTION: '; margin-right: 0.5rem; }
+        .answer-header { background: linear-gradient(135deg, rgba(212, 162, 84, 0.1), rgba(139, 92, 246, 0.05)); border-top: 1px solid var(--border-subtle); padding: 1.5rem; font-weight: 600; color: var(--accent-gold); }
+        .answer-header::before { content: '✓ ANSWER: '; margin-right: 0.5rem; }
+        .objection-body, .answer-body { padding: 1.5rem; color: var(--text-secondary); line-height: 1.8; }
+        .evidence-box { background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.08)); border: 2px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2rem 0; }
+        .evidence-title { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--accent-gold); margin-bottom: 1.5rem; }
+        .evidence-list { list-style: none; }
+        .evidence-list li { padding: 0.8rem 0; padding-left: 1.5rem; position: relative; color: var(--text-secondary); }
+        .evidence-list li::before { content: '▸'; position: absolute; left: 0; color: var(--accent-gold); }
+        .verdict-box { background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(212, 162, 84, 0.1)); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2rem; margin: 2rem 0; }
+        .verdict-quote { font-family: 'Playfair Display', serif; font-size: 1.3rem; line-height: 1.7; color: var(--text-primary); margin-bottom: 1rem; }
+        .verdict-attribution { color: var(--text-secondary); font-size: 0.95rem; font-style: italic; }
+        .cross-ref { color: var(--accent-gold); text-decoration: none; border-bottom: 1px dotted var(--accent-gold); transition: color 0.3s ease, border-color 0.3s ease; }
+        .cross-ref:hover { color: var(--accent-ember); border-bottom-color: var(--accent-ember); }
+        .next-article { max-width: 900px; margin: 4rem auto; padding: 2rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; text-align: center; }
+        .next-article a { color: var(--accent-gold); text-decoration: none; font-weight: 600; transition: color 0.3s ease; }
+        .next-article a:hover { color: var(--accent-ember); }
         .breadcrumb-nav { max-width: 900px; margin: 1rem auto 0; padding: 0 2rem; }
-        .breadcrumb-nav a { color: var(--accent-gold, #d4a853); text-decoration: none; font-size: 0.85rem; font-family: 'Inter', sans-serif; letter-spacing: 0.03em; opacity: 0.8; transition: opacity 0.2s; }
+        .breadcrumb-nav a { color: var(--accent-gold); text-decoration: none; font-size: 0.85rem; font-family: 'Inter', sans-serif; letter-spacing: 0.03em; opacity: 0.8; transition: opacity 0.2s; }
         .breadcrumb-nav a:hover { opacity: 1; text-decoration: underline; }
-    
+        .share-buttons { display: flex; gap: 0.75rem; align-items: center; margin: 2rem 0; padding: 1.5rem; background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.12); border-radius: 8px; }
+        .share-buttons .share-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--text-secondary); margin-right: 0.5rem; }
+        .share-btn { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(212, 162, 84, 0.2); background: transparent; color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease; cursor: pointer; }
+        .share-btn:hover { background: rgba(212, 162, 84, 0.12); border-color: var(--accent-gold); transform: translateY(-2px); }
+        .share-btn svg { width: 18px; height: 18px; fill: currentColor; }
         .related-explore { max-width: 900px; margin: 3rem auto; padding: 2rem; border-top: 2px solid rgba(212, 168, 83, 0.2); }
-        .related-explore h3 { font-family: 'Playfair Display', serif; color: var(--accent-gold, #d4a853); font-size: 1.3rem; margin-bottom: 1.2rem; }
-        .related-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 0.8rem; }
-        .related-explore-grid a { display: block; padding: 0.8rem 1rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 168, 83, 0.15); border-radius: 8px; color: var(--text-primary, #e8e6e3); text-decoration: none; font-size: 0.9rem; font-family: 'Inter', sans-serif; transition: all 0.2s; }
-        .related-explore-grid a:hover { border-color: var(--accent-gold, #d4a853); background: rgba(212, 168, 83, 0.08); transform: translateY(-1px); }
-    @media (max-width: 768px) { .section-nav { display: none !important; } }
-/* ========== HAMBURGER MENU ========== */
-.hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; z-index: 1001; }
-.hamburger span { display: block; width: 24px; height: 2px; background: var(--accent-gold); margin: 5px 0; transition: all 0.3s ease; border-radius: 2px; }
-.hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
-.hamburger.active span:nth-child(2) { opacity: 0; }
-.hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
-
-@media (max-width: 768px) {
-    .hamburger { display: block; }
-    .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: rgba(10, 10, 15, 0.98); flex-direction: column; padding: 1rem 2rem 2rem; gap: 0; border-bottom: 1px solid var(--border-subtle); }
-    .nav-links.open { display: flex; }
-    .nav-links li { padding: 0.7rem 0; border-bottom: 1px solid rgba(212, 162, 84, 0.08); }
-    .nav-links li:last-child { border-bottom: none; }
-    .nav-links a { font-size: 1.1rem; display: block; }
-    nav .nav-container { position: relative; }
-    .logo { font-size: 1rem !important; }
-}
+        .related-explore h3 { font-family: 'Playfair Display', serif; color: var(--accent-gold); font-size: 1.3rem; margin-bottom: 1.2rem; }
+        .related-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; }
+        .related-explore-grid a { display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 168, 83, 0.15); border-radius: 12px; color: var(--text-primary); text-decoration: none; font-size: 0.9rem; font-family: 'Inter', sans-serif; transition: all 0.3s; }
+        .related-explore-grid a:hover { border-color: var(--accent-gold); background: rgba(212, 168, 83, 0.08); transform: translateY(-1px); }
+        .related-explore-grid a h4 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.4rem; }
+        .related-explore-grid a p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.4; }
+        @media (max-width: 1024px) {
+            .hero h1 { font-size: 1.8rem; }
+            .section h2 { font-size: 1.5rem; }
+            .section h3 { font-size: 1.2rem; }
+            blockquote { padding: 1.5rem; font-size: 0.95rem; }
+            .greek-grid { grid-template-columns: 1fr; }
+            .section-nav-container { gap: 1rem; }
+            .hero { padding: 2rem 1.2rem; margin: 1.5rem auto; }
+            .content { padding: 0 1.2rem; }
+            .argument-item { padding: 1.2rem; }
+            .objection-header, .answer-header { padding: 1rem; font-size: 0.9rem; }
+            .objection-body, .answer-body { padding: 1rem; font-size: 0.9rem; }
+            .next-article { margin: 2rem auto; padding: 1.2rem; }
+            .section-nav a { font-size: 0.85rem; padding: 0.4rem 0.8rem; }
+        }
         @media (max-width: 768px) {
+            .section-nav { display: none !important; }
             .section { margin-bottom: 3rem !important; }
             .next-article { margin: 2.5rem auto !important; }
-            footer { margin-top: 5rem; }
             .hero { padding: 2rem 1.5rem !important; }
             .content { padding: 0 1.5rem !important; }
             .hero h1 { font-size: 1.8rem !important; }
             .section h2 { font-size: 1.5rem !important; }
         }
-
         @media (max-width: 480px) {
             .section { margin-bottom: 2rem !important; }
             .next-article { margin: 2rem auto !important; padding: 1.5rem !important; }
-            footer { margin-top: 5rem !important; padding: 2rem 1rem !important; }
             .hero { padding: 1.5rem 1rem !important; margin: 1rem auto !important; }
             .content { padding: 0 1rem !important; }
             .hero h1 { font-size: 1.5rem !important; }
             .section h2 { font-size: 1.2rem !important; }
-            .section-nav { margin-bottom: 2rem !important; }
         }
-
-/* ========== FOCUS STYLES ========== */
-*:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-.skip-link:focus { outline: 2px solid var(--accent-gold); }
-
-/* ========== BACK TO TOP ========== */
-.back-to-top { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; border-radius: 50%; background: rgba(18, 18, 26, 0.9); border: 1px solid var(--border-subtle); color: var(--accent-gold); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 999; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-.back-to-top.visible { opacity: 1; visibility: visible; }
-.back-to-top:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); transform: translateY(-2px); }
-/* ========== READING PROGRESS ========== */
-.reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); z-index: 9999; transition: width 0.1s linear; width: 0; }
-
-/* ========== SOCIAL SHARING ========== */
-.share-buttons { display: flex; gap: 0.75rem; align-items: center; margin: 2rem 0; padding: 1.5rem; background: var(--bg-card, #12121a); border: 1px solid rgba(212, 162, 84, 0.12); border-radius: 8px; }
-.share-buttons .share-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--text-secondary); margin-right: 0.5rem; }
-.share-btn { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(212, 162, 84, 0.2); background: transparent; color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease; cursor: pointer; }
-.share-btn:hover { background: rgba(212, 162, 84, 0.12); border-color: var(--accent-gold); transform: translateY(-2px); }
-.share-btn svg { width: 18px; height: 18px; fill: currentColor; }
-</style>
+    </style>
     <link rel="stylesheet" href="/global.css">
 </head>
 <body>
 <div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 
     <a href="#main-content" class="skip-to-content">Skip to content</a>
-    <!-- Navigation -->
-            <nav role="navigation" aria-label="Main navigation">
+
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
-            <a href="/" class="logo">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <a href="/" class="logo">ADOPTED BY GRACE</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/start-here">Start Here</a></li>
-                <li><a href="/explore-map">The Map</a></li>
-                <li>
-                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/questions">The Evidence</a>
-                        <a href="/systematic-theology">Systematic Theology</a>
-                        <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/demolition-hub">Demolition Zone</a>
-                        <a href="/compare-calvinism-arminianism">Comparisons</a>
-                        <a href="/objection-why-command">Objections Answered</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/devotionals">Devotionals</a>
-                        <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/stories">Analogies</a>
-                        <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/theologians">Theologians</a>
-                        <a href="/history-timeline">Church History</a>
-                        <a href="/ot-election">OT Election</a>
-                    </div>
-                </li>
+                <li><a href="/questions">The Evidence</a></li>
+                <li><a href="/systematic-theology-hub">Systematic</a></li>
+                <li><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/theologians">Theologians</a></li>
                 <li><a href="/resources">Resources</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
         </div>
     </nav>
+
     <div class="breadcrumb-nav"><a href="questions.html">&larr; Back to The Evidence</a></div>
 
-    <!-- Hero -->
     <section id="main-content" class="hero">
         <a href="questions.html" class="back-link">&larr; Back to The Evidence</a>
         <div class="topic-label">Total Depravity &middot; Romans 3:10-18 &middot; Ephesians 2:1-3 &middot; Genesis 6:5</div>
@@ -750,7 +167,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <p class="hero-subtitle">Scripture does not describe humanity as morally injured, spiritually weak, or slightly off course. It describes us as dead. And dead men do not cooperate with their own resurrection.</p>
     </section>
 
-    <!-- Section Navigation -->
     <div class="section-nav">
         <div class="section-nav-container">
             <a href="#the-text" class="section-link active">The Texts</a>
@@ -762,10 +178,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </div>
 
-    <!-- Content -->
     <div class="content">
-        <!-- Section 1: The Texts -->
-        <section id="the-text" class="section">
+        <section id="the-text" class="section content-section reveal">
             <h2>The Texts</h2>
             <p>
                 The doctrine of total depravity is the foundation on which every other doctrine of grace rests. If human beings are merely sick, they need medicine. If they are merely lost, they need a map. But if they are dead—spiritually dead, morally incapable, willfully hostile to God—then they need something no human effort can supply. They need resurrection. And resurrection is something only God can do.
@@ -779,7 +193,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 In the climax of his argument that all people—Jew and Gentile alike—stand guilty before God, Paul compiles a chain of Old Testament quotations into a single devastating indictment. This is not Paul's opinion. It is God's courtroom verdict, delivered through the prophets and assembled by the apostle into a comprehensive diagnosis:
             </p>
 
-            <div class="scripture-block">
+            <blockquote>
                 "None is righteous, no, not one;<br>
                 no one understands;<br>
                 no one seeks for God.<br>
@@ -795,7 +209,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 and the way of peace they have not known."<br>
                 "There is no fear of God before their eyes."
                 <span class="scripture-ref">— Romans 3:10-18 (ESV)</span>
-            </div>
+            </blockquote>
 
             <p>
                 Notice the comprehensiveness. Paul does not say "most people" or "many people." He says <em>none</em>. Not one. The language is absolute and admits no exceptions among natural, unregenerate humanity. No one is righteous. No one understands spiritual things. No one seeks God. All have turned aside. All have become worthless. No one does good—not even one.
@@ -806,10 +220,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
             <h3>Ephesians 2:1-3 — Dead in Trespasses and Sins</h3>
 
-            <div class="scripture-block">
+            <blockquote>
                 And you were dead in the trespasses and sins in which you once walked, following the course of this world, following the prince of the power of the air, the spirit that is now at work in the sons of disobedience—among whom we all once lived in the passions of our flesh, carrying out the desires of the body and the mind, and were by nature children of wrath, like the rest of mankind.
                 <span class="scripture-ref">— Ephesians 2:1-3 (ESV)</span>
-            </div>
+            </blockquote>
 
             <p>
                 Paul's language here is not metaphorical decoration. He chooses the most extreme word available: <em>dead</em>. Not wounded. Not weakened. Not sick. Dead. A dead person does not cooperate with the doctor. A dead person does not reach out for help. A dead person does not make a decision. A dead person is acted upon or remains dead. There is no third option.
@@ -823,10 +237,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
             <h3>Genesis 6:5 — Every Intention, Only Evil, Continually</h3>
 
-            <div class="scripture-block">
+            <blockquote>
                 The LORD saw that the wickedness of man was great in the earth, and that every intention of the thoughts of his heart was only evil continually.
                 <span class="scripture-ref">— Genesis 6:5 (ESV)</span>
-            </div>
+            </blockquote>
 
             <p>
                 This verse is often passed over quickly in the flood narrative. It should not be. It is one of the most precise anthropological statements in all of Scripture. Notice the three qualifiers that make retreat impossible: <em>every</em> intention, <em>only</em> evil, <em>continually</em>. Not some intentions. Not mostly evil. Not frequently. Every. Only. Continually. God looks at the human heart and finds no island of goodness, no untouched faculty that might reach toward Him. The corruption is total.
@@ -836,8 +250,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             </p>
         </section>
 
-        <!-- Section 2: Greek & Hebrew Deep Dive -->
-        <section id="greek-dive" class="section">
+        <section id="greek-dive" class="section content-section reveal">
             <h2>Greek &amp; Hebrew Deep Dive</h2>
             <p>
                 The original languages confirm what the English translations already make clear—and in several cases, they sharpen the point further.
@@ -865,11 +278,11 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <div class="greek-box">
                     <div class="greek-word">יֵצֶר (yetser)</div>
                     <div class="greek-translation">"Inclination, imagination, formed purpose"</div>
-                    <div class="greek-explanation">Genesis 6:5 — "every intention (yetser) of the thoughts of his heart." Yetser comes from the root yatsar, meaning "to form" or "to fashion"—the same word used for God forming man from the dust. It refers to the deep, formative impulses of the heart—the place where desires are shaped before they become thoughts, and thoughts before they become actions. The corruption begins at the deepest level of human interiority.</div>
+                    <div class="greek-explanation">Genesis 6:5 — "every intention (yetser) of the thoughts of his heart." Yetser comes from the root yatsar, meaning "to form" or "to fashion"—the same word used for God forming man from the dust. It refers to the deep, formative impulses of the heart—the place where desires are shaped before they become thoughts, and thoughts before they become actions. The corruption begins at the deepest level of human interiority. Every impulse is only evil—not "mostly" but exclusively.</div>
                 </div>
 
                 <div class="greek-box">
-                    <div class="greek-word">סוּנίημι (syniēmi)</div>
+                    <div class="greek-word">συνίημι (syniēmi)</div>
                     <div class="greek-translation">"To understand, to comprehend, to perceive"</div>
                     <div class="greek-explanation">Romans 3:11 — "no one understands (syniōn)." This is intellectual and spiritual comprehension. The natural person does not merely lack information about God—they lack the capacity to process it rightly. As Paul says in 1 Corinthians 2:14: "The natural person does not accept the things of the Spirit of God, for they are folly to him, and he is not able to understand them." The problem is not ignorance. It is inability.</div>
                 </div>
@@ -886,8 +299,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             </p>
         </section>
 
-        <!-- Section 3: The Arguments -->
-        <section id="arguments" class="section">
+        <section id="arguments" class="section content-section reveal">
             <h2>The Arguments</h2>
             <p>
                 Total depravity is not a peripheral doctrine. It is the logical prerequisite for every other doctrine of grace. If it falls, election becomes unnecessary, effectual calling becomes redundant, and the cross becomes merely an offer rather than an accomplishment. Here are the converging lines of evidence.
@@ -950,8 +362,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             </div>
         </section>
 
-        <!-- Section 4: Objections Answered -->
-        <section id="objections" class="section">
+        <section id="objections" class="section content-section reveal">
             <h2>Objections Answered</h2>
 
             <div class="objection-container">
@@ -1010,8 +421,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             </div>
         </section>
 
-        <!-- Section 5: Connections -->
-        <section id="connections" class="section">
+        <section id="connections" class="section content-section reveal">
             <h2>Why This Matters for Every Other Doctrine</h2>
             <p>
                 Total depravity is not a standalone doctrine. It is the first domino. Once you see what the Bible teaches about the human condition, every other doctrine of grace becomes not just logical but <em>necessary</em>.
@@ -1024,8 +434,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             </p>
         </section>
 
-        <!-- Section 6: The Verdict -->
-        <section id="verdict" class="section">
+        <section id="verdict" class="section content-section reveal">
             <h2>The Verdict</h2>
 
             <div class="verdict-box">
@@ -1054,96 +463,75 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <div class="verdict-attribution">Ephesians 2:4-5 (ESV)</div>
             </div>
         </section>
-<div class="share-buttons" role="group" aria-label="Share this article">
-    <span class="share-label">Share</span>
-    <a class="share-btn" href="" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" aria-label="Share on X (Twitter)" title="Share on X">𝕏</a>
-    <a class="share-btn" href="" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','width=550,height=420');return false" aria-label="Share on Facebook" title="Share on Facebook">f</a>
-    <button class="share-btn" onclick="navigator.clipboard.writeText(location.href).then(function(){this.innerHTML='✓';setTimeout(function(){document.querySelector('.share-btn[aria-label=&quot;Copy link&quot;]').innerHTML='🔗'},2000)}.bind(this))" aria-label="Copy link" title="Copy link">🔗</button>
-</div>
 
+        <div class="share-buttons" role="group" aria-label="Share this article">
+            <span class="share-label">Share</span>
+            <a class="share-btn" href="" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" aria-label="Share on X (Twitter)" title="Share on X">𝕏</a>
+            <a class="share-btn" href="" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','width=550,height=420');return false" aria-label="Share on Facebook" title="Share on Facebook">f</a>
+            <button class="share-btn" onclick="navigator.clipboard.writeText(location.href).then(function(){this.innerHTML='✓';setTimeout(function(){document.querySelector('.share-btn[aria-label=&quot;Copy link&quot;]').innerHTML='🔗'},2000)}.bind(this))" aria-label="Copy link" title="Copy link">🔗</button>
+        </div>
     </div>
 
-    <!-- Next Article -->
     <div class="next-article">
         <p>Next: <a href="question-john6.html">No One Can Come to Me Unless the Father Draws Him — John 6:37-44</a></p>
     </div>
 
-    <!-- Footer -->
-    <div class="related-explore">
-        <h3>Continue Exploring</h3>
-        <div class="related-explore-grid">
-                <a href="question-newheart.html">Ezekiel 36:26 — A New Heart</a>
-                <a href="question-irresistible.html">Irresistible Grace</a>
-                <a href="question-freewill.html">What About Free Will?</a>
-                <a href="systematic-compatibilism.html">Compatibilism</a>
-        </div>
-    </div>
-
-        <!-- Cross-Reference Section -->
-        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-            <div style="max-width: 900px; margin: 0 auto;">
-                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                    <a href="/question-newheart.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">A New Heart</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Regeneration and God's transforming power</p>
-                    </a>
-                    <a href="/question-irresistible.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Irresistible Grace</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">When God draws us, nothing can resist</p>
-                    </a>
-                    <a href="/systematic-hamartiology.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Doctrine of Sin</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Understanding humanity's fallen condition</p>
-                    </a>
-                    <a href="/question-freewill.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">What About Free Will?</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Freedom, choice, and God's sovereignty</p>
-                    </a>
-                    <a href="/devotional-dead-who-live.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Dead Who Live</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Devotional: The power of spiritual resurrection</p>
-                    </a>
-                    <a href="/question-john6.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">John 6: The Bread of Life</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Drawn by God, sustained by grace</p>
-                    </a>
-                </div>
+    <section class="content-section reveal">
+        <div class="related-explore">
+            <h3>Continue Exploring</h3>
+            <div class="related-explore-grid">
+                <a href="/question-newheart.html">
+                    <h4>A New Heart</h4>
+                    <p>Regeneration and God's transforming power</p>
+                </a>
+                <a href="/question-irresistible.html">
+                    <h4>Irresistible Grace</h4>
+                    <p>When God draws us, nothing can resist</p>
+                </a>
+                <a href="/systematic-hamartiology.html">
+                    <h4>The Doctrine of Sin</h4>
+                    <p>Understanding humanity's fallen condition</p>
+                </a>
+                <a href="/question-freewill.html">
+                    <h4>What About Free Will?</h4>
+                    <p>Freedom, choice, and God's sovereignty</p>
+                </a>
+                <a href="/devotional-dead-who-live.html">
+                    <h4>Dead Who Live</h4>
+                    <p>Devotional: The power of spiritual resurrection</p>
+                </a>
+                <a href="/question-john6.html">
+                    <h4>John 6: The Bread of Life</h4>
+                    <p>Drawn by God, sustained by grace</p>
+                </a>
             </div>
-        </section>
+        </div>
+    </section>
 
-            <footer>
+    <footer>
         <div class="footer-container">
-            <div class="footer-section">
-                <h4>Doctrine</h4>
-                <ul>
-                    <li><a href="/questions">The Evidence</a></li>
-                    <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li><a href="/demolition-hub">Demolition Zone</a></li>
-                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Explore</h4>
-                <ul>
-                    <li><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
-                    <li><a href="/devotionals">Devotionals</a></li>
-                    <li><a href="/resources">Resources</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Connect</h4>
-                <ul>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/connect">Contact</a></li>
-                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
-                </ul>
-            </div>
+            <div class="footer-section"><h4>Doctrine</h4><ul>
+                <li><a href="/questions">The Evidence</a></li>
+                <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+                <li><a href="/demolition-hub">Demolition Zone</a></li>
+                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Explore</h4><ul>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li><a href="/devotionals">Devotionals</a></li>
+                <li><a href="/resources">Resources</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Connect</h4><ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+            </ul></div>
         </div>
-        <div class="footer-copyright">
-            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
-        </div>
+        <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
     </footer>
+
+    <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
     <script>
         // Set active nav link
@@ -1179,13 +567,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
         sections.forEach(section => observer.observe(section));
     </script>
-<button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-<script>
-(function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
-</script>
-<script>
-(function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
-</script>
+
     <script src="/global.js" defer></script>
 </body>
 </html>

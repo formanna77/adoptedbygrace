@@ -1,5 +1,112 @@
 # Fleet Operations Log
 
+## 2026-03-28 16:44 UTC — Fleet Ops Check
+
+### Status: ISSUES FLAGGED (no critical damage)
+
+- **Merge conflicts:** None. Zero actual git conflict markers in any of 177 HTML files.
+- **Truncated files:** None. All 177 HTML files have proper `</html>` closing tags.
+- **Agent collisions detected:** Massive burst of agent activity between 15:37–16:40 UTC (25+ agents ran). No evidence of destructive overwrites — file timestamps show sequential edits, not concurrent writes to the same file. The jitter seconds appear to be doing their job.
+- **Hub page mismatches:** YES — significant gaps found (see below)
+- **Shared file health:** ROADMAP.md intact (1087 lines), global.css intact (591 lines), QA-REPORT.md intact, sitemap.xml valid XML (149 URLs) but 29 HTML files missing from sitemap
+- **Orphan files cleaned:** `test-write-perm.tmp` found but cannot be removed (permission denied)
+- **Nav inconsistencies spotted:** YES — 43 of 177 pages have non-majority nav. 134 pages share the majority nav hash. This is the harmonizer's domain but is flagged for tracking.
+
+### Hub Page Mismatches
+
+**questions.html** — 4 existing pages NOT linked:
+- `question-external-call.html`, `question-external-internal-call.html`, `question-hardening.html`, `question-secure.html`
+
+**theologians.html** — 1 existing page NOT linked:
+- `theologian-arminius.html`
+
+**demolition-hub.html** — 1 existing page NOT linked:
+- `demolition-arianism.html`
+
+**devotionals.html** — 2 existing pages NOT linked:
+- `devotional-cold-church.html`, `devotional-never-gives-up.html`
+
+**analogies-illustrations.html** — CRITICAL: Hub exists but links ZERO analogy pages. 5 analogy files exist unlinked:
+- `analogy-adoption.html`, `analogy-chess-grandmaster.html`, `analogy-doctor-corpse.html`, `analogy-lazarus-grave.html`, `analogy-light-switch.html`
+
+**systematic-theology.html** — 8 existing pages NOT linked:
+- `systematic-atonement.html`, `systematic-bibliology.html`, `systematic-election.html`, `systematic-justification.html`, `systematic-regeneration.html`, `systematic-resurrection.html`, `systematic-salvation.html`, `systematic-trinity.html`
+
+**Sitemap gap:** 29 HTML files on disk but not in sitemap.xml (up from 2 last session). Includes all analogy pages, new demolition pages, new secular evidence pages, new creed pages, and several newer content pages.
+
+### Nav Consistency Detail
+
+- **134 pages** — majority nav (hash c68a2020...)
+- **43 pages** — various non-majority navs (including index.html itself)
+- Key outliers: all 5 analogy pages, 3 secular pages, newer question pages (romans9, depravity, faithgift, 1peter1, 2tim1-9, revelation13, titus3), newer demolition pages, newer devotional pages
+- **Likely cause:** These are the most recently created/modified pages; agents are building them with slightly different nav templates. The harmonizer needs to sweep these.
+
+### Schedule Collision Risk Analysis
+
+**CRITICAL — Hour 16 (4:00 PM UTC): 8 agents scheduled simultaneously!**
+- content-builder, interactive-features, resources-community, creeds-confessions, systematic-theology, content-refiner, fleet-operations, site-qa-enforcer
+- This is the most congested hour. Evidence from today: all these agents ran between 15:37–16:40 UTC.
+
+**HIGH RISK — Hour 0 (12:00 AM UTC): 6 agents**
+- content-builder, growth-deployment, agent-architect, fleet-operations, site-qa-enforcer, visual-design-enhancement
+
+**HIGH RISK — Hour 5 (5:00 AM UTC): 6 agents**
+- abg-visionary, start-here-journey, comparative-theology, secular-evidence, scripture-tsunami, story-engine
+
+**HIGH RISK — Hour 12 (12:00 PM UTC): 6 agents**
+- content-builder, visual-design-enhancement, historical-theology, psychology-of-resistance, growth-deployment, agent-architect
+
+### Schedule Changes Made
+
+No schedule changes made this session. Rationale: Despite the extreme congestion, no destructive collisions have been detected — the jitter seconds and the fact that most agents target different files provide natural protection. However, the Hour 16 congestion (8 agents) is at the threshold. If the next session detects any overwritten work or truncated files, the content-refiner (currently at :30 of 2,10,18) should be shifted off hour 16, and resources-community or creeds-confessions should be staggered by 30 minutes.
+
+**Watching closely:**
+- content-builder + content-refiner at Hour 16 (both edit content pages)
+- site-qa-enforcer + any content agent at even hours (QA fixes while content rewrites)
+
+### Actions Taken
+
+- Full audit of all 177 HTML files for conflicts and truncation (clean)
+- Hub page integrity verification across 12 hub pages (found significant gaps)
+- Sitemap audit: 29 pages missing from sitemap.xml
+- Navigation consistency audit: 43 pages with non-majority nav flagged
+- Shared file health check: all 4 shared files intact
+- Schedule collision analysis across all 42 scheduled tasks
+- Flagged `test-write-perm.tmp` orphan (cannot remove — permission denied)
+
+### Agents Active Last 2 Hours (14:44–16:44 UTC)
+
+Based on `lastRunAt` timestamps — massive burst of activity:
+- `abg-visionary` — 15:37 UTC
+- `content-builder` — 15:38 UTC
+- `architect-seo` — 15:45 UTC
+- `scripture-tsunami` — 15:49 UTC
+- `interactive-features` — 15:56 UTC
+- `apologetics-expansion` — 15:56 UTC
+- `growth-deployment` — 15:57 UTC
+- `engagement-infrastructure` — 16:03 UTC
+- `secular-evidence` — 16:04 UTC
+- `resources-community` — 16:05 UTC
+- `ot-election-specialist` — 16:10 UTC
+- `historical-theology` — 16:13 UTC
+- `creeds-confessions` — 16:14 UTC
+- `verse-demolition` — 16:18 UTC
+- `start-here-journey` — 16:22 UTC
+- `analogies-illustrations` — 16:25 UTC
+- `content-refiner` — 16:31 UTC
+- `devotional-creator` — 16:33 UTC
+- `systematic-theology` — 16:37 UTC
+- `agent-architect` — 16:37 UTC
+- `fleet-operations` — 16:40 UTC (this session)
+
+**21 agents ran in a 63-minute window.** No collision damage detected.
+
+### Page Count
+
+**Total HTML files:** 177 (up from 137 last session — 40 new pages!)
+**Sitemap entries:** 149 (29 pages behind)
+**Pages with majority nav:** 134 / 177 (76%)
+
 ## 2026-03-28 08:27 UTC — Fleet Ops Check
 
 ### Status: ISSUES FLAGGED (no critical damage)

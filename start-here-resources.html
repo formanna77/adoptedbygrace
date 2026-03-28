@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources for Your Journey | Adopted by Grace</title>
+    <meta name="description" content="Complete resource hub for the 5-phase Start Here journey into sovereign grace. Books, sermons, articles, and deeper content organized by phase.">
+    <meta name="keywords" content="reformed theology, calvinist resources, election, grace, TULIP, start here">
+
+    <!-- OG Meta Tags -->
+    <meta property="og:title" content="Resources for Your Journey | Adopted by Grace">
+    <meta property="og:description" content="Books, sermons, articles, and deeper studies organized by each phase of your journey into sovereign grace.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/start-here-resources">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://adoptedbygrace.net/start-here-resources">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        /* Skip to Content Link */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 100;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border-subtle);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 4px;
+        }
+
+        .hamburger span {
+            width: 24px;
+            height: 2px;
+            background: var(--text-primary);
+            border-radius: 2px;
+            transition: var(--transition);
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(8px, 8px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(8px, -8px);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a, .nav-trigger {
+            color: var(--text-primary);
+            text-decoration: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: var(--transition);
+            font-family: inherit;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-links a:hover, .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-trigger {
+            position: relative;
+        }
+
+        .nav-arrow {
+            display: inline-block;
+            font-size: 0.7rem;
+            transition: var(--transition);
+        }
+
+        .nav-trigger:hover .nav-arrow {
+            transform: translateY(2px);
+        }
+
+        .nav-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--bg-deep);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 0.5rem 0;
+            min-width: 200px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: var(--transition);
+            margin-top: 0.5rem;
+        }
+
+        .nav-trigger:hover + .nav-dropdown,
+        .nav-dropdown:hover {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .nav-dropdown a {
+            display: block;
+            padding: 0.75rem 1.5rem;
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .nav-dropdown a:hover {
+            background: var(--bg-card);
+            color: var(--accent-gold);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 4rem 0;
+            text-align: center;
+            border-bottom: 1px solid var(--border-subtle);
+            margin-bottom: 3rem;
+        }
+
+        .hero-eyebrow {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            letter-spacing: -1px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 1.5rem;
+            line-height: 1.7;
+        }
+
+        .hero-scripture {
+            background: var(--bg-card);
+            border-left: 3px solid var(--accent-gold);
+            padding: 1.5rem;
+            border-radius: 4px;
+            max-width: 700px;
+            margin: 0 auto;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .scripture-attribution {
+            margin-top: 0.75rem;
+            font-style: normal;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .breadcrumb a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent-ember);
+        }
+
+        /* Phase Navigation Tabs */
+        .phase-nav {
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            padding: 1.5rem 0;
+            margin-bottom: 3rem;
+            border-bottom: 1px solid var(--border-subtle);
+            scroll-behavior: smooth;
+        }
+
+        .phase-nav::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        .phase-nav::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .phase-nav::-webkit-scrollbar-thumb {
+            background: var(--accent-gold);
+            border-radius: 2px;
+        }
+
+        .phase-tab {
+            padding: 0.75rem 1.5rem;
+            background: transparent;
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            white-space: nowrap;
+            transition: var(--transition);
+            font-family: inherit;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        .phase-tab:hover {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+        }
+
+        .phase-tab.active {
+            background: var(--accent-gold);
+            border-color: var(--accent-gold);
+            color: var(--bg-deep);
+        }
+
+        /* Phase Sections */
+        .phase-section {
+            margin-bottom: 4rem;
+            scroll-margin-top: 100px;
+        }
+
+        .phase-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .phase-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+        }
+
+        .phase-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .phase-subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Subsections */
+        .resource-subsection {
+            margin-bottom: 2.5rem;
+        }
+
+        .subsection-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        /* Book Cards */
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .book-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .book-card:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-4px);
+        }
+
+        .book-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .book-author {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .book-description {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+
+        /* Sermon/Article List */
+        .sermon-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .sermon-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            padding: 1rem;
+            transition: var(--transition);
+        }
+
+        .sermon-item:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+        }
+
+        .sermon-title {
+            color: var(--text-primary);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .sermon-source {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            font-style: italic;
+        }
+
+        /* On-Site Links */
+        .on-site-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 1rem;
+        }
+
+        .on-site-link {
+            background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-hover) 100%);
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            padding: 1rem;
+            text-decoration: none;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .on-site-link:hover {
+            border-color: var(--accent-violet);
+            transform: translateX(4px);
+        }
+
+        .on-site-link-title {
+            color: var(--accent-violet);
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .on-site-link-desc {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        /* Reading Plan */
+        .reading-plan {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 3rem 0;
+        }
+
+        .reading-plan h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .plan-week {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .plan-week:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .plan-week-header {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-gold);
+            font-weight: 600;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .plan-week-content {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        .plan-week-content strong {
+            color: var(--text-primary);
+        }
+
+        /* Study With Others */
+        .study-section {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(232, 100, 44, 0.1) 100%);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .study-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+
+        .study-section p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+
+        .study-cta {
+            display: inline-block;
+            background: var(--accent-violet);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: var(--transition);
+            font-weight: 600;
+        }
+
+        .study-cta:hover {
+            background: var(--accent-ember);
+            transform: translateY(-2px);
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 48px;
+            height: 48px;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            transition: var(--transition);
+            z-index: 40;
+        }
+
+        .back-to-top:hover {
+            background: var(--accent-ember);
+            transform: translateY(-4px);
+        }
+
+        .back-to-top.show {
+            display: flex;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            padding: 3rem 2rem 1rem;
+            margin-top: 4rem;
+        }
+
+        .footer-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            transition: var(--transition);
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-container {
+                padding: 1rem;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                gap: 0;
+                background: var(--bg-card);
+                padding: 1rem 0;
+                border-bottom: 1px solid var(--border-subtle);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                width: 100%;
+            }
+
+            .nav-links a, .nav-trigger {
+                padding: 0.75rem 1rem;
+            }
+
+            .nav-dropdown {
+                position: static;
+                opacity: 0;
+                visibility: hidden;
+                transform: none;
+                background: var(--bg-deep);
+                margin-top: 0;
+            }
+
+            .nav-trigger.expanded + .nav-dropdown {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            main {
+                padding: 0 1rem;
+            }
+
+            .hero {
+                padding: 2rem 0;
+            }
+
+            .hero h1 {
+                font-size: 1.75rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .books-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .on-site-links {
+                grid-template-columns: 1fr;
+            }
+
+            .phase-nav {
+                gap: 0.5rem;
+            }
+
+            .phase-tab {
+                padding: 0.5rem 1rem;
+                font-size: 0.85rem;
+            }
+
+            .back-to-top {
+                bottom: 1rem;
+                right: 1rem;
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            main {
+                padding: 0 1rem;
+            }
+
+            .hero {
+                padding: 1.5rem 0;
+                margin-bottom: 2rem;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-scripture {
+                padding: 1rem;
+            }
+
+            .phase-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+
+            .phase-number {
+                font-size: 1.5rem;
+            }
+
+            .phase-title {
+                font-size: 1.25rem;
+            }
+
+            .subsection-title {
+                font-size: 1.1rem;
+            }
+
+            .reading-plan {
+                padding: 1.5rem;
+            }
+
+            .study-section {
+                padding: 1.5rem;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            .nav-container, .back-to-top, footer {
+                display: none;
+            }
+
+            .hero {
+                padding: 2rem 0;
+            }
+
+            .book-card, .sermon-item {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <div class="main-content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-eyebrow">JOURNEY RESOURCES</div>
+                <h1>Everything You Need for the Journey</h1>
+                <p>Books, sermons, articles, and deeper studies organized by each phase of your journey into sovereign grace.</p>
+                <div class="hero-scripture">
+                    <p>"Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth."</p>
+                    <p class="scripture-attribution">— 2 Timothy 2:15 (KJV)</p>
+                </div>
+            </section>
+
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="/start-here">← Back to Start Here</a>
+            </div>
+
+            <!-- Quick Navigation Tabs -->
+            <nav class="phase-nav">
+                <button class="phase-tab active" data-phase="phase1">Phase 1: Curiosity</button>
+                <button class="phase-tab" data-phase="phase2">Phase 2: Foundation</button>
+                <button class="phase-tab" data-phase="phase3">Phase 3: Scripture</button>
+                <button class="phase-tab" data-phase="phase4">Phase 4: Objections</button>
+                <button class="phase-tab" data-phase="phase5">Phase 5: Conviction</button>
+            </nav>
+
+            <!-- Phase 1: Curiosity -->
+            <section class="phase-section" id="phase1">
+                <div class="phase-header">
+                    <div class="phase-number">01</div>
+                    <div>
+                        <div class="phase-title">Curiosity</div>
+                        <div class="phase-subtitle">What Is Reformed Theology?</div>
+                    </div>
+                </div>
+
+                <!-- Recommended Reading -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">Recommended Reading</h3>
+                    <div class="books-grid">
+                        <div class="book-card">
+                            <div class="book-title">What Is Reformed Theology?</div>
+                            <div class="book-author">R.C. Sproul</div>
+                            <div class="book-description">The gentlest, most accessible introduction. Start here if you've never read Reformed theology. Sproul's gift is making complex ideas feel approachable.</div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-title">The Five Points of Calvinism</div>
+                            <div class="book-author">Steele, Thomas, Quinn</div>
+                            <div class="book-description">A concise, fair, well-organized presentation with extensive Scripture references. Perfect for someone who wants clarity without overwhelming detail.</div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-title">Chosen by God</div>
+                            <div class="book-author">R.C. Sproul</div>
+                            <div class="book-description">Makes the case for election in a way your grandmother could follow. Personal, warm, and theologically sound.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recommended Sermons -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">Recommended Sermons & Lectures</h3>
+                    <div class="sermon-list">
+                        <div class="sermon-item">
+                            <div class="sermon-title">What Is Reformed Theology?</div>
+                            <div class="sermon-source">R.C. Sproul (Ligonier Ministries)</div>
+                        </div>
+                        <div class="sermon-item">
+                            <div class="sermon-title">Why I Am a Calvinist</div>
+                            <div class="sermon-source">John Piper (Desiring God)</div>
+                        </div>
+                        <div class="sermon-item">
+                            <div class="sermon-title">Why I Choose to Believe the Bible</div>
+                            <div class="sermon-source">Voddie Baucham (YouTube)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- On This Site -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">On This Site</h3>
+                    <div class="on-site-links">
+                        <a href="/start-here-phase1" class="on-site-link">
+                            <div class="on-site-link-title">Phase 1: What Is Reformed Theology?</div>
+                            <div class="on-site-link-desc">Your starting point into this ancient theological tradition</div>
+                        </a>
+                        <a href="/compare-calvinism-arminianism" class="on-site-link">
+                            <div class="on-site-link-title">Calvinism vs. Arminianism</div>
+                            <div class="on-site-link-desc">Side-by-side analysis of the core disagreements</div>
+                        </a>
+                        <a href="/questions" class="on-site-link">
+                            <div class="on-site-link-title">The Evidence Hub</div>
+                            <div class="on-site-link-desc">20+ question deep-dives organized by topic</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Phase 2: Foundation -->
+            <section class="phase-section" id="phase2">
+                <div class="phase-header">
+                    <div class="phase-number">02</div>
+                    <div>
+                        <div class="phase-title">Foundation</div>
+                        <div class="phase-subtitle">The Five Points of Grace</div>
+                    </div>
+                </div>
+
+                <!-- Recommended Reading -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">Recommended Reading</h3>
+                    <div class="books-grid">
+                        <div class="book-card">
+                            <div class="book-title">The Five Points of Calvinism</div>
+                            <div class="book-author">Steele, Thomas, Quinn</div>
+                            <div class="book-description">The standard reference. Clear explanations of Total Depravity, Unconditional Election, Limited Atonement, Irresistible Grace, and Perseverance of the Saints.</div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-title">TULIP: The Five Points of Calvinism in the Light of Scripture</div>
+                            <div class="book-author">Duane Edward Spencer</div>
+                            <div class="book-description">Scripture-saturated exploration of each point. Every assertion backed by biblical text. For those who want doctrinal foundations grounded in God's Word.</div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-title">The Doctrines of Grace</div>
+                            <div class="book-author">Boice & Ryken</div>
+                            <div class="book-description">Explores the pastorally rich implications of grace doctrine. How God's sovereignty reshapes your Christian life and worship.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recommended Sermons -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">Recommended Sermons & Teaching Series</h3>
+                    <div class="sermon-list">
+                        <div class="sermon-item">
+                            <div class="sermon-title">Doctrine of Election Series</div>
+                            <div class="sermon-source">John MacArthur (Grace to You)</div>
+                        </div>
+                        <div class="sermon-item">
+                            <div class="sermon-title">TULIP and Reformed Theology Teaching Series</div>
+                            <div class="sermon-source">Ligonier Ministries</div>
+                        </div>
+                        <div class="sermon-item">
+                            <div class="sermon-title">The Sovereignty of God in Salvation</div>
+                            <div class="sermon-source">Paul Washer (HeartCry)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- On This Site -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">On This Site</h3>
+                    <div class="on-site-links">
+                        <a href="/start-here-phase2" class="on-site-link">
+                            <div class="on-site-link-title">Phase 2: The Five Points of Grace</div>
+                            <div class="on-site-link-desc">Interactive TULIP explorer with deep definitions</div>
+                        </a>
+                        <a href="/question-depravity" class="on-site-link">
+                            <div class="on-site-link-title">Total Depravity: Dead, Not Sick</div>
+                            <div class="on-site-link-desc">Why humanity needs God's power, not just God's help</div>
+                        </a>
+                        <a href="/question-chosen" class="on-site-link">
+                            <div class="on-site-link-title">Chosen Before the Foundation of the World</div>
+                            <div class="on-site-link-desc">Deep dive into Ephesians 1 and eternal election</div>
+                        </a>
+                        <a href="/scripture-tsunami" class="on-site-link">
+                            <div class="on-site-link-title">Scripture Tsunami</div>
+                            <div class="on-site-link-desc">200+ verses organized by doctrine</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Phase 3: Scripture -->
+            <section class="phase-section" id="phase3">
+                <div class="phase-header">
+                    <div class="phase-number">03</div>
+                    <div>
+                        <div class="phase-title">Scripture</div>
+                        <div class="phase-subtitle">What Does the Bible Actually Teach?</div>
+                    </div>
+                </div>
+
+                <!-- Recommended Reading -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">Recommended Reading</h3>
+                    <div class="books-grid">
+                        <div class="book-card">
+                            <div class="book-title">Still Sovereign</div>
+                            <div class="book-author">Edited by Schreiner & Ware</div>
+                            <div class="book-description">Contemporary scholars defend each doctrine from Scripture. Essays that show how the Bible's own authors built their theology around sovereignty.</div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-title">The Potter's Freedom</div>
+                            <div class="book-author">James White</div>
+                            <div class="book-description">The definitive response to Norman Geisler's attack on Reformed soteriology. Exegetically rigorous and biblically grounded throughout.</div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-title">Romans</div>
+                            <div class="book-author">Thomas Schreiner (Baker Exegetical Commentary)</div>
+                            <div class="book-description">Verse-by-verse exposition of Paul's masterpiece. Schreiner shows how Romans 9 is not an exception but the heartbeat of Paul's theology.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recommended Sermons -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">Recommended Sermons & Lectures</h3>
+                    <div class="sermon-list">
+                        <div class="sermon-item">
+                            <div class="sermon-title">Exegesis of Romans 9</div>
+                            <div class="sermon-source">James White (Alpha and Omega Ministries)</div>
+                        </div>
+                        <div class="sermon-item">
+                            <div class="sermon-title">The Absolute Sovereignty of God</div>
+                            <div class="sermon-source">John Piper (Romans 9 sermon series)</div>
+                        </div>
+                        <div class="sermon-item">
+                            <div class="sermon-title">The Doctrines of Grace in John</div>
+                            <div class="sermon-source">Steven Lawson (Ligonier)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- On This Site -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">On This Site</h3>
+                    <div class="on-site-links">
+                        <a href="/start-here-phase3" class="on-site-link">
+                            <div class="on-site-link-title">Phase 3: What Does the Bible Actually Teach?</div>
+                            <div class="on-site-link-desc">Six foundational passages that establish divine sovereignty</div>
+                        </a>
+                        <a href="/question-romans9" class="on-site-link">
+                            <div class="on-site-link-title">Romans 9: The Potter and the Clay</div>
+                            <div class="on-site-link-desc">Paul's definitive case for God's sovereign election</div>
+                        </a>
+                        <a href="/question-john6" class="on-site-link">
+                            <div class="on-site-link-title">John 6: The Father's Drawing</div>
+                            <div class="on-site-link-desc">Why you cannot come to Jesus unless the Father draws you</div>
+                        </a>
+                        <a href="/question-goldchain" class="on-site-link">
+                            <div class="on-site-link-title">The Golden Chain of Redemption</div>
+                            <div class="on-site-link-desc">Romans 8:29-30 and God's plan from eternity to glory</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Phase 4: Objections -->
+            <section class="phase-section" id="phase4">
+                <div class="phase-header">
+                    <div class="phase-number">04</div>
+                    <div>
+                        <div class="phase-title">Objections</div>
+                        <div class="phase-subtitle">What About Free Will and Fairness?</div>
+                    </div>
+                </div>
+
+                <!-- Recommended Reading -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">Recommended Reading</h3>
+                    <div class="books-grid">
+                        <div class="book-card">
+                            <div class="book-title">Freedom of the Will</div>
+                            <div class="book-author">Jonathan Edwards</div>
+                            <div class="book-description">The greatest philosophical treatise on the will ever written. Challenging but devastating. Edwards systematically shows that "libertarian free will" is incoherent.</div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-title">The Bondage of the Will</div>
+                            <div class="book-author">Martin Luther</div>
+                            <div class="book-description">Luther's response to Erasmus — the book Luther himself considered his most important work. Passionate, biblical, and prophetic.</div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-title">Willing to Believe</div>
+                            <div class="book-author">R.C. Sproul</div>
+                            <div class="book-description">A history of the free will debate from Augustine to modern Arminianism. Gives you context for why this matters and where objections come from.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recommended Sermons -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">Recommended Sermons & Lectures</h3>
+                    <div class="sermon-list">
+                        <div class="sermon-item">
+                            <div class="sermon-title">Free Will</div>
+                            <div class="sermon-source">R.C. Sproul (Classic Ligonier lecture)</div>
+                        </div>
+                        <div class="sermon-item">
+                            <div class="sermon-title">The Problem of Evil and the Sovereignty of God</div>
+                            <div class="sermon-source">James White</div>
+                        </div>
+                        <div class="sermon-item">
+                            <div class="sermon-title">Predestination</div>
+                            <div class="sermon-source">Voddie Baucham (sermon at GCBC)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- On This Site -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">On This Site</h3>
+                    <div class="on-site-links">
+                        <a href="/start-here-phase4" class="on-site-link">
+                            <div class="on-site-link-title">Phase 4: Objections Answered</div>
+                            <div class="on-site-link-desc">Five major objections addressed with biblical precision</div>
+                        </a>
+                        <a href="/question-freewill" class="on-site-link">
+                            <div class="on-site-link-title">Free Will and Sovereign Grace</div>
+                            <div class="on-site-link-desc">How true freedom and God's sovereignty coexist</div>
+                        </a>
+                        <a href="/question-unfair" class="on-site-link">
+                            <div class="on-site-link-title">Is God Unfair?</div>
+                            <div class="on-site-link-desc">Exploring divine justice in a sovereign universe</div>
+                        </a>
+                        <a href="/demolition-hub" class="on-site-link">
+                            <div class="on-site-link-title">Demolition Zone</div>
+                            <div class="on-site-link-desc">Systematic demolition of anti-Reformed arguments</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Phase 5: Conviction -->
+            <section class="phase-section" id="phase5">
+                <div class="phase-header">
+                    <div class="phase-number">05</div>
+                    <div>
+                        <div class="phase-title">Conviction</div>
+                        <div class="phase-subtitle">Living as an Elect Child of God</div>
+                    </div>
+                </div>
+
+                <!-- Recommended Reading -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">Recommended Reading</h3>
+                    <div class="books-grid">
+                        <div class="book-card">
+                            <div class="book-title">The Holiness of God</div>
+                            <div class="book-author">R.C. Sproul</div>
+                            <div class="book-description">Once you understand sovereignty, this book will set your worship on fire. Sproul unpacks God's character in ways that transform devotion.</div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-title">Desiring God</div>
+                            <div class="book-author">John Piper</div>
+                            <div class="book-description">How sovereign grace fuels Christian Hedonism — pursuing joy in God above all things. The philosophical and spiritual foundation for grace-filled living.</div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-title">All of Grace</div>
+                            <div class="book-author">Charles Spurgeon</div>
+                            <div class="book-description">A short, passionate, deeply pastoral call to rest in grace. Read it in one sitting. Spurgeon's warmth makes you feel God's tenderness toward you.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recommended Sermons -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">Recommended Sermons & Lectures</h3>
+                    <div class="sermon-list">
+                        <div class="sermon-item">
+                            <div class="sermon-title">A Defense of Calvinism</div>
+                            <div class="sermon-source">Charles Spurgeon (classic essay, available online)</div>
+                        </div>
+                        <div class="sermon-item">
+                            <div class="sermon-title">Don't Waste Your Life</div>
+                            <div class="sermon-source">John Piper (Desiring God)</div>
+                        </div>
+                        <div class="sermon-item">
+                            <div class="sermon-title">Assurance of Salvation</div>
+                            <div class="sermon-source">Paul Washer (HeartCry)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- On This Site -->
+                <div class="resource-subsection">
+                    <h3 class="subsection-title">On This Site</h3>
+                    <div class="on-site-links">
+                        <a href="/start-here-phase5" class="on-site-link">
+                            <div class="on-site-link-title">Phase 5: Living as an Elect Child of God</div>
+                            <div class="on-site-link-desc">Five life implications of sovereign grace</div>
+                        </a>
+                        <a href="/pastoral-assurance" class="on-site-link">
+                            <div class="on-site-link-title">Pastoral Assurance</div>
+                            <div class="on-site-link-desc">For those who struggle with doubt in grace</div>
+                        </a>
+                        <a href="/devotionals" class="on-site-link">
+                            <div class="on-site-link-title">Devotionals</div>
+                            <div class="on-site-link-desc">Heart-level engagement with sovereign grace</div>
+                        </a>
+                        <a href="/devotional-never-gives-up" class="on-site-link">
+                            <div class="on-site-link-title">He Never Gives Up</div>
+                            <div class="on-site-link-desc">The most soul-quenching devotional on the site</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Complete Reading Plan -->
+            <section class="reading-plan">
+                <h3>Complete 5-Week Reading Plan</h3>
+
+                <div class="plan-week">
+                    <div class="plan-week-header">Week 1 — Curiosity</div>
+                    <div class="plan-week-content">
+                        <strong>Read:</strong> <em>What Is Reformed Theology?</em> (Sproul)<br>
+                        <strong>Study:</strong> Phase 1 on the site<br>
+                        <strong>Listen:</strong> R.C. Sproul's "What Is Reformed Theology?" lecture
+                    </div>
+                </div>
+
+                <div class="plan-week">
+                    <div class="plan-week-header">Week 2 — Foundation</div>
+                    <div class="plan-week-content">
+                        <strong>Read:</strong> <em>The Five Points of Calvinism</em> (Steele, Thomas, Quinn)<br>
+                        <strong>Study:</strong> Phase 2 on the site<br>
+                        <strong>Listen:</strong> Ligonier Ministries "TULIP and Reformed Theology" teaching series
+                    </div>
+                </div>
+
+                <div class="plan-week">
+                    <div class="plan-week-header">Week 3 — Scripture</div>
+                    <div class="plan-week-content">
+                        <strong>Read:</strong> Romans 8-9 and Ephesians 1-2 in full (your Bible)<br>
+                        <strong>Study:</strong> Phase 3 on the site<br>
+                        <strong>Listen:</strong> John Piper's "The Absolute Sovereignty of God" (Romans 9 series)
+                    </div>
+                </div>
+
+                <div class="plan-week">
+                    <div class="plan-week-header">Week 4 — Objections</div>
+                    <div class="plan-week-content">
+                        <strong>Read:</strong> <em>Willing to Believe</em> (Sproul) — chapters on free will<br>
+                        <strong>Study:</strong> Phase 4 on the site<br>
+                        <strong>Listen:</strong> R.C. Sproul's "Free Will" lecture
+                    </div>
+                </div>
+
+                <div class="plan-week">
+                    <div class="plan-week-header">Week 5 — Conviction</div>
+                    <div class="plan-week-content">
+                        <strong>Read:</strong> <em>All of Grace</em> (Spurgeon)<br>
+                        <strong>Study:</strong> Phase 5 on the site<br>
+                        <strong>Listen:</strong> Charles Spurgeon's "A Defense of Calvinism" essay
+                    </div>
+                </div>
+
+                <div class="plan-week">
+                    <div class="plan-week-header">Ongoing — Deepen Your Love</div>
+                    <div class="plan-week-content">
+                        <strong>Read:</strong> <em>Desiring God</em> (Piper) — for joy-driven living<br>
+                        <strong>Daily:</strong> Devotionals on the site, especially <em>He Never Gives Up</em><br>
+                        <strong>Explore:</strong> <em>The Evidence Hub</em> and <em>Scripture Tsunami</em> for deeper questions
+                    </div>
+                </div>
+            </section>
+
+            <!-- Study With Others -->
+            <section class="study-section">
+                <h3>Study With Others</h3>
+                <p>This journey is transformative when shared. Form a small group, gather with friends, or lead a Bible study using the resources on this site.</p>
+                <p>We've created a <strong>5-week Small Group Discussion Guide</strong> organized around these phases. Each session includes:</p>
+                <ul style="margin: 1rem 0 1rem 1.5rem; color: var(--text-secondary); line-height: 1.8;">
+                    <li>Icebreaker questions to establish trust</li>
+                    <li>Key passages to read and discuss together</li>
+                    <li>Objections to address as a group</li>
+                    <li>Prayer prompts for transformation</li>
+                </ul>
+                <a href="/start-here-groups" class="study-cta">Get the Small Group Guide</a>
+            </section>
+        </div>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/stories">Stories &amp; Parables</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="/start-here">Start Here</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 Adopted by Grace — Soli Deo Gloria</div>
+    </footer>
+
+    <link rel="stylesheet" href="/global.css">
+
+    <script>
+        // Mobile Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger?.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when link is clicked
+        navLinks?.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Dropdown toggle for mobile
+        const navTriggers = document.querySelectorAll('.nav-trigger');
+        navTriggers.forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                if (window.innerWidth < 768) {
+                    e.preventDefault();
+                    trigger.classList.toggle('expanded');
+                }
+            });
+        });
+
+        // Phase Navigation Tabs
+        const phaseTabs = document.querySelectorAll('.phase-tab');
+        const phaseSections = document.querySelectorAll('.phase-section');
+
+        phaseTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const phaseId = tab.getAttribute('data-phase');
+
+                // Remove active class from all tabs
+                phaseTabs.forEach(t => t.classList.remove('active'));
+
+                // Add active class to clicked tab
+                tab.classList.add('active');
+
+                // Scroll to phase section
+                const section = document.getElementById(phaseId);
+                if (section) {
+                    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Update active tab on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+
+            phaseSections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+
+                if (window.pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            phaseTabs.forEach(tab => {
+                tab.classList.remove('active');
+                if (tab.getAttribute('data-phase') === current) {
+                    tab.classList.add('active');
+                }
+            });
+        });
+
+        // Back to Top Button
+        const backToTopBtn = document.querySelector('.back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn?.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Keyboard Navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && navLinks.classList.contains('active')) {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
