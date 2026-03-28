@@ -258,6 +258,35 @@ a:focus-visible { outline-offset: 3px; }
     .tooltip::after { max-width: 220px; }
 }
 
+/* ===== MOBILE SAFETY NET ===== */
+/* Prevent ANY element from causing horizontal overflow on mobile */
+img, video, iframe, embed, object, canvas, svg { max-width: 100%; height: auto; }
+pre, code { overflow-x: auto; max-width: 100%; }
+table { max-width: 100%; overflow-x: auto; display: block; }
+.footer-container { max-width: 100%; }
+
+@media (max-width: 968px) {
+    /* Force all common containers to respect viewport */
+    .content-wrapper, .article-content, .main-content,
+    .page-content, .container, .wrapper, .inner {
+        max-width: 100%; padding-left: 1.5rem; padding-right: 1.5rem; box-sizing: border-box;
+    }
+    /* Footer grid collapse */
+    .footer-container { grid-template-columns: 1fr !important; text-align: center; }
+    .footer-section { margin-bottom: 1.5rem; }
+    /* Ensure body doesn't scroll horizontally */
+    body { overflow-x: hidden; }
+}
+@media (max-width: 480px) {
+    .content-wrapper, .article-content, .main-content,
+    .page-content, .container, .wrapper, .inner {
+        padding-left: 1rem; padding-right: 1rem;
+    }
+    /* Scale down any remaining large text */
+    h1 { font-size: clamp(1.5rem, 5vw, 2.5rem) !important; }
+    h2 { font-size: clamp(1.3rem, 4vw, 2rem) !important; }
+}
+
 /* ===== ADVANCED TYPOGRAPHY ===== */
 .text-gradient { background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
 .text-gradient-violet { background: linear-gradient(135deg, var(--accent-violet), #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
