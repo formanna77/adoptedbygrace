@@ -317,9 +317,15 @@
 
         @media (max-width: 1024px) {
             .section-nav {
-                position: relative;
-                top: auto;
+                position: static !important;
+                top: auto !important;
                 margin-bottom: 2rem;
+                max-height: none;
+            }
+        }
+        @media (max-width: 768px) {
+            .section-nav {
+                display: none !important;
             }
         }
 

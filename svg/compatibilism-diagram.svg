@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Compatibilism: God's Sovereignty and Human Responsibility — two rails of one track, not competing forces">
+  <defs>
+    <linearGradient id="cm-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#10101a"/>
+    </linearGradient>
+    <radialGradient id="cm-center" cx="0.5" cy="0.45" r="0.45">
+      <stop offset="0%" stop-color="#d4a254" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#d4a254" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono:wght@600&amp;display=swap');
+
+      .cm-title { font-family: 'Playfair Display', serif; font-weight: 800; fill: #f0ece4; }
+      .cm-label { font-family: 'Playfair Display', serif; font-weight: 700; }
+      .cm-body { font-family: 'Inter', sans-serif; font-weight: 400; fill: #9a958c; }
+      .cm-verse { font-family: 'JetBrains Mono', monospace; font-weight: 600; }
+      .cm-mono { font-family: 'JetBrains Mono', monospace; }
+
+      @keyframes rail-flow {
+        from { stroke-dashoffset: 20; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes convergence-pulse {
+        0%, 100% { opacity: 0.15; r: 60; }
+        50% { opacity: 0.3; r: 70; }
+      }
+
+      .rail-anim { stroke-dasharray: 10 10; animation: rail-flow 2s linear infinite; }
+      .converge-glow { animation: convergence-pulse 4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#cm-bg)"/>
+  <rect width="800" height="450" fill="url(#cm-center)"/>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="cm-mono" font-size="9" fill="#d4a254" opacity="0.5" letter-spacing="0.2em">SYSTEMATIC THEOLOGY</text>
+  <text x="400" y="62" text-anchor="middle" class="cm-title" font-size="24">Compatibilism</text>
+  <text x="400" y="82" text-anchor="middle" class="cm-body" font-size="11">God's absolute sovereignty and genuine human responsibility — not competing, but complementary</text>
+
+  <!-- ===== TWO RAILS CONVERGING ===== -->
+
+  <!-- RAIL 1: God's Sovereignty (top rail, gold) -->
+  <path d="M80 150 C200 150 300 190 400 210 C500 230 600 210 720 200" fill="none" stroke="#d4a254" stroke-width="2.5" class="rail-anim"/>
+  <!-- Label for top rail -->
+  <rect x="30" y="128" width="160" height="42" rx="4" fill="#12121a" stroke="rgba(212,162,84,0.25)" stroke-width="1"/>
+  <text x="110" y="147" text-anchor="middle" class="cm-label" font-size="13" fill="#d4a254">God's Sovereignty</text>
+  <text x="110" y="163" text-anchor="middle" class="cm-body" font-size="9">He ordains all things</text>
+
+  <!-- RAIL 2: Human Responsibility (bottom rail, violet) -->
+  <path d="M80 280 C200 280 300 240 400 220 C500 200 600 220 720 230" fill="none" stroke="#8b5cf6" stroke-width="2.5" class="rail-anim"/>
+  <!-- Label for bottom rail -->
+  <rect x="20" y="258" width="180" height="42" rx="4" fill="#12121a" stroke="rgba(139,92,246,0.25)" stroke-width="1"/>
+  <text x="110" y="277" text-anchor="middle" class="cm-label" font-size="13" fill="#8b5cf6">Human Responsibility</text>
+  <text x="110" y="293" text-anchor="middle" class="cm-body" font-size="9">We act according to our desires</text>
+
+  <!-- Convergence point glow -->
+  <circle cx="400" cy="215" r="60" fill="none" stroke="#d4a254" stroke-width="0.5" class="converge-glow" opacity="0.15"/>
+
+  <!-- Convergence label -->
+  <rect x="340" y="188" width="120" height="55" rx="6" fill="#12121a" stroke="rgba(212,162,84,0.3)" stroke-width="1"/>
+  <text x="400" y="210" text-anchor="middle" class="cm-label" font-size="11" fill="#f0ece4">Not contradiction</text>
+  <text x="400" y="228" text-anchor="middle" class="cm-label" font-size="11" fill="#d4a254">but mystery</text>
+
+  <!-- Continuing as one track to the right -->
+  <rect x="620" y="190" width="160" height="50" rx="4" fill="#12121a" stroke="rgba(212,162,84,0.2)" stroke-width="1"/>
+  <text x="700" y="212" text-anchor="middle" class="cm-label" font-size="12" fill="#f0ece4">One Purpose</text>
+  <text x="700" y="228" text-anchor="middle" class="cm-body" font-size="9">God's glory through</text>
+  <text x="700" y="240" text-anchor="middle" class="cm-body" font-size="9">willing agents</text>
+
+  <!-- ===== BIBLICAL EXAMPLES ===== -->
+  <text x="400" y="290" text-anchor="middle" class="cm-mono" font-size="8" fill="#d4a254" opacity="0.4" letter-spacing="0.15em">BIBLICAL EXAMPLES</text>
+
+  <!-- Joseph -->
+  <rect x="60" y="305" width="155" height="70" rx="5" fill="#12121a" stroke="rgba(212,162,84,0.15)" stroke-width="1"/>
+  <text x="137" y="325" text-anchor="middle" class="cm-label" font-size="11" fill="#d4a254">Joseph</text>
+  <text x="137" y="340" text-anchor="middle" class="cm-body" font-size="9">"You meant it for evil,</text>
+  <text x="137" y="352" text-anchor="middle" class="cm-body" font-size="9">God meant it for good"</text>
+  <text x="137" y="368" text-anchor="middle" class="cm-verse" font-size="8" fill="#d4a254" opacity="0.5">GEN 50:20</text>
+
+  <!-- The Cross -->
+  <rect x="235" y="305" width="155" height="70" rx="5" fill="#12121a" stroke="rgba(212,162,84,0.15)" stroke-width="1"/>
+  <text x="312" y="325" text-anchor="middle" class="cm-label" font-size="11" fill="#d4a254">The Cross</text>
+  <text x="312" y="340" text-anchor="middle" class="cm-body" font-size="9">Predestined by God,</text>
+  <text x="312" y="352" text-anchor="middle" class="cm-body" font-size="9">executed by wicked men</text>
+  <text x="312" y="368" text-anchor="middle" class="cm-verse" font-size="8" fill="#d4a254" opacity="0.5">ACTS 4:27-28</text>
+
+  <!-- Pharaoh -->
+  <rect x="410" y="305" width="155" height="70" rx="5" fill="#12121a" stroke="rgba(212,162,84,0.15)" stroke-width="1"/>
+  <text x="487" y="325" text-anchor="middle" class="cm-label" font-size="11" fill="#d4a254">Pharaoh</text>
+  <text x="487" y="340" text-anchor="middle" class="cm-body" font-size="9">God hardened his heart;</text>
+  <text x="487" y="352" text-anchor="middle" class="cm-body" font-size="9">he hardened his own heart</text>
+  <text x="487" y="368" text-anchor="middle" class="cm-verse" font-size="8" fill="#d4a254" opacity="0.5">EX 9:12 / 8:15</text>
+
+  <!-- Assyria -->
+  <rect x="585" y="305" width="155" height="70" rx="5" fill="#12121a" stroke="rgba(212,162,84,0.15)" stroke-width="1"/>
+  <text x="662" y="325" text-anchor="middle" class="cm-label" font-size="11" fill="#d4a254">Assyria</text>
+  <text x="662" y="340" text-anchor="middle" class="cm-body" font-size="9">God's instrument of wrath;</text>
+  <text x="662" y="352" text-anchor="middle" class="cm-body" font-size="9">punished for its arrogance</text>
+  <text x="662" y="368" text-anchor="middle" class="cm-verse" font-size="8" fill="#d4a254" opacity="0.5">ISA 10:5-12</text>
+
+  <!-- Bottom quote -->
+  <text x="400" y="410" text-anchor="middle" font-family="'Playfair Display', serif" font-size="13" fill="#f0ece4" font-style="italic">"The heart of man plans his way, but the LORD establishes his steps."</text>
+  <text x="400" y="434" text-anchor="middle" class="cm-verse" font-size="10" fill="#d4a254" opacity="0.6" letter-spacing="0.1em">PROVERBS 16:9</text>
+</svg>

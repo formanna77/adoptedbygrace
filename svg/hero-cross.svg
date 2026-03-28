@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" role="img" aria-label="Cross of Christ — the heart of sovereign grace">
+  <defs>
+    <linearGradient id="hc-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a254" stop-opacity="0.08"/>
+      <stop offset="40%" stop-color="#d4a254" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#d4a254" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="hc-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6"/>
+    </filter>
+    <style>
+      @keyframes cross-pulse {
+        0%, 100% { opacity: 0.06; }
+        50% { opacity: 0.12; }
+      }
+      .cross-glow { animation: cross-pulse 6s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background glow -->
+  <circle cx="100" cy="120" r="80" fill="#d4a254" filter="url(#hc-glow)" class="cross-glow" opacity="0.06"/>
+
+  <!-- Cross - thin, elegant -->
+  <line x1="100" y1="20" x2="100" y2="260" stroke="#d4a254" stroke-width="2" opacity="0.12"/>
+  <line x1="50" y1="80" x2="150" y2="80" stroke="#d4a254" stroke-width="2" opacity="0.12"/>
+
+  <!-- Light rays radiating from intersection -->
+  <line x1="100" y1="80" x2="60" y2="40" stroke="#d4a254" stroke-width="0.5" opacity="0.06"/>
+  <line x1="100" y1="80" x2="140" y2="40" stroke="#d4a254" stroke-width="0.5" opacity="0.06"/>
+  <line x1="100" y1="80" x2="40" y2="80" stroke="#d4a254" stroke-width="0.5" opacity="0.06"/>
+  <line x1="100" y1="80" x2="160" y2="80" stroke="#d4a254" stroke-width="0.5" opacity="0.06"/>
+  <line x1="100" y1="80" x2="60" y2="120" stroke="#d4a254" stroke-width="0.5" opacity="0.06"/>
+  <line x1="100" y1="80" x2="140" y2="120" stroke="#d4a254" stroke-width="0.5" opacity="0.06"/>
+
+  <!-- Crown of thorns circle -->
+  <circle cx="100" cy="80" r="20" fill="none" stroke="#d4a254" stroke-width="0.5" opacity="0.08" stroke-dasharray="3 5"/>
+</svg>
