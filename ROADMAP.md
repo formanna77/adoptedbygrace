@@ -53,6 +53,11 @@
 - `resources-study-guides.html` — **NEW** 5-week TULIP study series + Scripture studies + reading group plans
 - `resources-confessions.html` — **NEW** Canons of Dort, Westminster, 1689, Belgic, Heidelberg with excerpts
 - `community.html` — **NEW** Prayer guides, testimony prompts, church finder, group startup guide
+- `demolition-1tim2-4.html` — **NEW** Demolition: 1 Timothy 2:4 — "God desires all people to be saved" = all kinds of people
+- `demolition-2peter3-9.html` — **NEW** Demolition: 2 Peter 3:9 — "Not willing that any should perish" — the pronoun "you" settles it
+- `demolition-1john2-2.html` — **NEW** Demolition: 1 John 2:2 — Owen's trilemma and the Jewish-Gentile distinction
+- `objection-author-of-sin.html` — **NEW** Objection Answered: Does predestination make God the author of sin?
+- `objection-why-command.html` — **NEW** Objection Answered: If God predestined everything, why command anything?
 - `theologians.html` — **NEW** Historical Theology hub — the cloud of witnesses across 6 eras
 - `theologian-augustine.html` — **NEW** Augustine of Hippo — the Doctor of Grace (354–430)
 - `theologian-luther.html` — **NEW** Martin Luther — the Hammer of Rome (1483–1546)
@@ -60,6 +65,8 @@
 - `theologian-owen.html` — **NEW** John Owen — the Theologian's Theologian (1616–1683)
 - `theologian-edwards.html` — **NEW** Jonathan Edwards — America's Greatest Theologian (1703–1758)
 - `theologian-spurgeon.html` — **NEW** Charles Spurgeon — the Prince of Preachers (1834–1892)
+- `stories.html` — **NEW** Stories hub page — parables, allegories, fables of sovereign grace
+- `story-surgeon-stone-heart.html` — **NEW** "The Surgeon and the Stone Heart" — modern parable on regeneration (Ezekiel 36:26)
 
 ### Design System
 - Dark dramatic aesthetic (#0a0a0f bg, gold/ember/violet accents)
@@ -69,9 +76,9 @@
 
 ### Known Issues
 - 🔴 **CRITICAL: `.git/index.lock` blocking all git operations** — Aaron must manually delete: `cd /Users/aaronforman/Documents/adoptedbygracewebsite && rm .git/index.lock .git/HEAD.lock.old .git/index.lock.old .git/index.lock.old2 .git/index.lock.stale` — then commit orphaned work: `git add -A && git commit -m "Commit orphaned agent work" && git push origin main`
-- 🟡 **6 hub pages not in index.html navigation** — start-here, resources, systematic-theology, theologians, demolition-hub, community
+- ~~6 hub pages not in index.html navigation~~ — **Fixed 2026-03-27** (UX Architect: standardized 8-item nav across all 61 pages)
 - ~~OG URLs still reference `re-formed.netlify.app`~~ — **Fixed 2026-03-26**
-- No shared CSS — every style change must be replicated across 54+ files
+- No shared CSS — every style change must be replicated across 61+ files
 - ~~No sitemap.xml or robots.txt~~ — **Fixed 2026-03-26**
 - ~~No structured data (JSON-LD) for SEO~~ — **Fixed 2026-03-27**
 - No analytics integration
@@ -123,11 +130,30 @@
 - [x] **Resources Hub** — Curated resource library with books, sermons, study guides, glossary, confessions, community → `resources.html` + 6 sub-pages ✅ (2026-03-27 Resources Session)
 
 ### Priority 5 — Apologetic / Objection Pages
+- [x] **1 Timothy 2:4 Demolition** — "God desires all people to be saved" = all kinds of people → `demolition-1tim2-4.html` ✅ (2026-03-27 Apologetics Session)
+- [x] **2 Peter 3:9 Demolition** — "Not willing that any should perish" — the pronoun "you" settles it → `demolition-2peter3-9.html` ✅ (2026-03-27 Apologetics Session)
+- [x] **1 John 2:2 Demolition** — "Propitiation for the whole world" — Owen's trilemma → `demolition-1john2-2.html` ✅ (2026-03-27 Apologetics Session)
+- [x] **"Does predestination make God the author of sin?"** — Primary/secondary causation, WCF 3.1, Joseph, the Cross → `objection-author-of-sin.html` ✅ (2026-03-27 Apologetics Session)
+- [x] **"If God predestined everything, why command anything?"** — Decree of ends AND means, Acts 27, election as engine of evangelism → `objection-why-command.html` ✅ (2026-03-27 Apologetics Session)
 - [ ] **"What about the person who never heard?"** — Romans 1, general vs. special revelation
 - [ ] **"Did Jesus die for everyone?"** — Definite atonement / limited atonement
 - [ ] **"Can you lose your salvation?"** — Comprehensive perseverance case
 - [ ] **"Doesn't election make evangelism pointless?"** — Election as the engine of evangelism
 - [ ] **"What about babies/children?"** — Grace, covenant, and those who die young
+
+### Priority 6 — Stories (Story Engine)
+- [x] **Stories Hub** — `stories.html` — Hub page organizing all stories by type, doctrine, and length ✅ (2026-03-27 Story Engine)
+- [x] **"The Surgeon and the Stone Heart"** — Modern parable on regeneration (Ezekiel 36:26) → `story-surgeon-stone-heart.html` ✅ (2026-03-27 Story Engine)
+- [ ] **"The Adoption Papers"** — Modern parable on election (Ephesians 1:5)
+- [ ] **"The Voice in the Valley"** — Modern parable on effectual calling (John 10:27)
+- [ ] **"The Unbreakable Thread"** — Modern parable on perseverance (Romans 8:38-39)
+- [ ] **"The King's Banquet"** — Modern parable on irresistible grace (Luke 14:23)
+- [ ] **"The Fish Who Chose the Ocean"** — Fable on sovereignty
+- [ ] **"The Dead City"** — Allegory on regeneration and election
+- [ ] **"The Trial"** — Allegory on justification and substitutionary atonement
+- [ ] **"The Potter's House"** — Allegory on Romans 9:21
+- [ ] **"The Night Augustine Wept"** — Historical fiction on Augustine's conversion
+- [ ] **"The Chosen" (Serialized Epic)** — Multi-part allegory following the ordo salutis
 
 ---
 
@@ -188,12 +214,18 @@
 ### Design & UX
 - [ ] Add a "Back to Top" button on long pages
 - [ ] Add reading progress indicator on question pages
-- [ ] Improve mobile navigation (hamburger menu)
+- [ ] Improve mobile navigation (hamburger menu) — PRIORITY: 8 nav items need responsive menu
 - [ ] Add page transition animations
 - [ ] Add a search feature (client-side, no server needed)
 - [ ] Create a 404 page with helpful navigation
-- [ ] Add breadcrumb navigation on deep pages
+- [x] Add breadcrumb navigation on deep pages ✅ (2026-03-27 UX Architect) — 50 child pages now have "← Back to [Hub]" breadcrumbs
 - [ ] Add social sharing buttons (Twitter/X, Facebook) on content pages
+- [x] Standardize navigation across all pages ✅ (2026-03-27 UX Architect) — unified 8-item nav on all 61 pages (Home, Start Here, The Evidence, Systematic, Demolition, Theologians, Resources, About)
+- [x] Standardize footer across all pages ✅ (2026-03-27 UX Architect) — consistent footer with branding + 8 nav links + copyright on all 61 pages
+- [x] Add "Continue Exploring" cross-links ✅ (2026-03-27 UX Architect) — 35 content pages now have 4 curated related-content links each
+- [x] Fix orphaned pages ✅ (2026-03-27 UX Architect) — objection pages linked from demolition-hub, stories linked from start-here/community
+- [x] Add "Start Here" hero CTA to homepage ✅ (2026-03-27 UX Architect) — dual CTAs: "Start Here" (primary) + "See the Evidence" (secondary)
+- [x] Update sitemap.xml with missing pages ✅ (2026-03-27 UX Architect) — added 3 missing pages
 
 ### Infrastructure
 - [ ] Set up Netlify deploy configuration properly
@@ -203,6 +235,56 @@
 ---
 
 ## Session Log
+
+### 2026-03-27 — Site Architecture & UX Agent: Major Navigation Overhaul
+- **Standardized global navigation on all 61 pages** — unified 8-item nav: Home, Start Here, The Evidence, Systematic, Demolition, Theologians, Resources, About. Previously inconsistent (4 different nav templates, 6 hub pages missing from older pages' nav).
+- **Standardized footer navigation on all 61 pages** — consistent footer with branding, 8 nav links, and copyright. Replaced 4 different footer templates including minimal single-line theologian footers.
+- **Added breadcrumb navigation to 50 child pages** — "← Back to [Hub]" links below nav, with inline CSS. Previously only 16 pages (19%) had breadcrumbs.
+- **Added "Continue Exploring" cross-links to 35 content pages** — 4 curated related-content links per page before footer. Covers all question pages, systematic theology, demolitions, objections, and theologian profiles.
+- **Fixed orphaned pages** — objection-author-of-sin.html and objection-why-command.html were unreachable; added "Objections Answered" section to demolition-hub.html. stories.html was orphaned; linked from start-here.html and community.html.
+- **Added dual hero CTAs to homepage** — "Start Here" (primary gold) + "See the Evidence" (secondary outline) for clear newcomer onboarding.
+- **Updated sitemap.xml** — added 3 missing pages (demolition-orthodox-predestination, stories, story-surgeon-stone-heart).
+- **Full UX audit report** — see `UX-AUDIT-2026-03-27.md` for complete findings, user journey analysis, and remaining recommendations.
+- **Current page count:** 61 HTML files across 8 major sections
+- **Next priorities:** Mobile hamburger menu (8 nav items need responsive treatment), client-side search, shared CSS extraction, 404 page
+
+### 2026-03-27 — Apologetics Agent: 5 New Pages
+- **New pages launched:** 3 Verse Demolitions + 2 Objection Answered pages
+- **Built `demolition-1tim2-4.html`** — 1 Timothy 2:4 Demolition
+  - "God desires all people to be saved" — context of 1 Tim 2:1-2 (pray for all KINDS of people, including kings)
+  - Greek analysis: θέλει (decretive vs. preceptive will), πάντας ἀνθρώπους (all kinds, not every individual), σωθῆναι (passive — salvation done TO people), ἀντίλυτρον (ransom that secures, not merely makes possible)
+  - 5 arguments: contextual "all kinds," Titus 2:11 parallel, God's will cannot be frustrated, ransom argument, 1 Tim 4:10 confirmation
+  - Witnesses: Calvin, Augustine, Gill, Aquinas
+- **Built `demolition-2peter3-9.html`** — 2 Peter 3:9 Demolition
+  - "Not willing that any should perish" — the pronoun εἰς ὑμᾶς ("toward YOU") delimits the "any" and "all"
+  - Greek analysis: βουλόμενος (purposing will that always comes to pass), μακροθυμεῖ (patience toward believers), εἰς ὑμᾶς, τινας, πάντας
+  - 5 arguments: pronoun settles it, reason for the delay, boulomenos demands effectual purpose, 2 Pet 3:15 parallel, entire letter confirms election
+  - Witnesses: Calvin, Owen, Schreiner, Spurgeon
+- **Built `demolition-1john2-2.html`** — 1 John 2:2 Demolition
+  - "Propitiation for the whole world" — Jewish-Gentile distinction + Owen's trilemma
+  - Greek analysis: ἱλασμός (actual propitiation, not potential), κόσμος (7 uses in John), ὅλου (whole scope)
+  - Owen's trilemma: if propitiation is actual and universal, then universalism; the Arminian must weaken propitiation or qualify "world"
+  - 5 arguments: Jewish-Gentile distinction, same author wrote John 10, John 11:51-52 interpretive key, propitiation demands particular redemption, 1 John 4:14 confirms
+  - Witnesses: Owen, Calvin, Augustine, Spurgeon, Warfield
+- **Built `objection-author-of-sin.html`** — "Does predestination make God the author of sin?"
+  - Scripture anticipates the objection (Romans 9:19-21)
+  - Primary vs. secondary causation (WCF 3.1)
+  - 5 biblical examples: Joseph (Gen 50:20), the Cross (Acts 2:23, 4:27-28), Pharaoh, Assyria (Isa 10), Satan and Job
+  - Compatibilism framework, the Arminian's own problem (foreknowledge + creation = same issue)
+  - Pastoral comfort: Romans 8:28, the cross as worst evil → greatest good
+  - Witnesses: Calvin, Augustine, Edwards, WCF, Sproul
+- **Built `objection-why-command.html`** — "If God predestined everything, why command anything?"
+  - The hidden assumption: decree of ends without means — but God ordains BOTH
+  - 6 biblical examples: Paul's shipwreck (Acts 27), Corinth (Acts 18:9-10), Romans 10:14-17, 2 Tim 2:10, Phil 2:12-13, Ezekiel 37
+  - 7 reasons God commands what He decrees: means of decree, reveal moral will, expose inability, occasion for grace, structure life, establish accountability, prayer as ordained means
+  - Election as engine of evangelism — Carey, Judson, Brainerd, Taylor, Paton
+  - Witnesses: Spurgeon, Packer, Calvin, Edwards
+- **Updated `demolition-hub.html`** — 3 more entries marked "Demolished" (1 Tim 2:4, 2 Pet 3:9, 1 John 2:2); counter updated from 2 to 5
+- **Updated `sitemap.xml`** — 5 new pages added
+- **All 5 pages include:** JSON-LD Article structured data, full meta tags, canonical URLs, reading progress bar, back-to-top button, section navigation, responsive design, skip-to-content accessibility
+- **Current demolition count:** 5 demolished (John 3:16, 1 Tim 2:4, 2 Pet 3:9, 1 John 2:2, Orthodox Predestination article)
+- **Current page count:** 60+ HTML files
+- **Next priorities:** Matthew 23:37, Revelation 3:20, Acts 7:51, Ezekiel 18:23, John 12:32 demolitions; "Did Jesus die for everyone?" and "Doesn't election make evangelism pointless?" objection pages
 
 ### 2026-03-27 — Resources & Community Agent: 7 New Pages
 - **New section launched:** Resources & Community — the resource infrastructure for going deeper

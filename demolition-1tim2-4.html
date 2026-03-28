@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demolition #2: Does God Desire the Salvation of Every Individual? A Reformed analysis of 1 Timothy 2:4 that dismantles Arminian proof texts through careful exegesis and context.">
+    <meta name="keywords" content="1 Timothy 2:4, Arminianism, Reformed theology, election, atonement, exegesis, Greek analysis">
+    <meta name="author" content="Adopted by Grace">
+    <meta property="og:title" content="1 Timothy 2:4 — Does God Desire the Salvation of Every Individual?">
+    <meta property="og:description" content="Demolition #2: A comprehensive Reformed response to an Arminian proof text about God's desire for salvation.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/demolition-1tim2-4.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="1 Timothy 2:4 Demolished">
+    <meta name="twitter:description" content="Does God desire all to be saved? A verse-by-verse analysis that shows why context matters.">
+    <link rel="canonical" href="https://adoptedbygrace.net/demolition-1tim2-4.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <title>1 Timothy 2:4 — Verse Demolition #2 | Adopted by Grace</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--accent-ember);
+        }
+
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 100;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Reading Progress Bar */
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
+            z-index: 1000;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.1s ease;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background-color: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .logo a {
+            color: var(--accent-gold);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1rem;
+                font-size: 0.85rem;
+            }
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .back-link:hover {
+            color: var(--accent-gold);
+        }
+
+        /* Series Labels */
+        .series-label {
+            display: inline-block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: var(--accent-violet);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .tier-badge {
+            display: inline-block;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+        }
+
+        .topic-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            line-height: 1.6;
+        }
+
+        /* Section Navigation (Sticky) */
+        .section-nav {
+            position: sticky;
+            top: 70px;
+            z-index: 40;
+            background-color: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-subtle);
+            border-top: 1px solid var(--border-subtle);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+            margin-bottom: 3rem;
+            overflow-x: auto;
+        }
+
+        .section-nav-list {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            white-space: nowrap;
+        }
+
+        .section-nav-list a {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            transition: color 0.3s ease;
+        }
+
+        .section-nav-list a:hover,
+        .section-nav-list a.active {
+            color: var(--accent-gold);
+        }
+
+        @media (max-width: 768px) {
+            .section-nav {
+                padding: 0.75rem 1rem;
+            }
+
+            .section-nav-list {
+                gap: 1rem;
+                padding: 0;
+                font-size: 0.8rem;
+            }
+        }
+
+        /* Content Sections */
+        section {
+            margin-bottom: 4rem;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.5rem, 4vw, 2.25rem);
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-gold);
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            color: var(--text-primary);
+        }
+
+        .scripture-block {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-style: italic;
+            line-height: 1.8;
+            color: var(--text-primary);
+        }
+
+        .scripture-ref {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.75rem;
+            font-style: normal;
+        }
+
+        .greek-box {
+            background-color: rgba(139, 92, 246, 0.08);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .greek-term {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-violet);
+            font-weight: 600;
+        }
+
+        .argument-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .argument-card:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+        }
+
+        .argument-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 0.75rem;
+        }
+
+        .argument-card p {
+            color: var(--text-primary);
+        }
+
+        .witness-quote {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-ember);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+            font-style: italic;
+        }
+
+        .witness-attribution {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+            font-style: normal;
+        }
+
+        .further-reading {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 2rem;
+            border-radius: 4px;
+            margin: 2rem 0;
+        }
+
+        .further-reading h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .further-reading ul {
+            list-style: none;
+        }
+
+        .further-reading li {
+            margin-bottom: 0.75rem;
+            padding-left: 1rem;
+            position: relative;
+        }
+
+        .further-reading li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent-gold);
+        }
+
+        .further-reading a {
+            color: var(--accent-gold);
+        }
+
+        /* Next Article Teaser */
+        .next-article {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 2rem;
+            border-radius: 4px;
+            margin: 3rem 0;
+            text-align: center;
+        }
+
+        .next-article h4 {
+            color: var(--accent-violet);
+            margin-bottom: 1rem;
+        }
+
+        .next-article p {
+            margin-bottom: 1.5rem;
+        }
+
+        .next-button {
+            display: inline-block;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 0.75rem 2rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .next-button:hover {
+            background-color: var(--accent-ember);
+        }
+
+        /* Share Buttons */
+        .share-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .share-btn:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+        }
+
+        /* Footer */
+        footer {
+            background-color: rgba(10, 10, 15, 0.95);
+            border-top: 1px solid var(--border-subtle);
+            padding: 3rem 2rem;
+            margin-top: 5rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-subtle);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            z-index: 999;
+            transition: all 0.3s ease;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-ember);
+            transform: translateY(-4px);
+        }
+
+        .back-to-top.show {
+            display: flex;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 2rem 1.5rem;
+            }
+
+            .argument-card {
+                padding: 1.5rem;
+            }
+
+            .back-to-top {
+                width: 45px;
+                height: 45px;
+                bottom: 1.5rem;
+                right: 1.5rem;
+            }
+        }
+    
+        .breadcrumb-nav { max-width: 900px; margin: 1rem auto 0; padding: 0 2rem; }
+        .breadcrumb-nav a { color: var(--accent-gold, #d4a853); text-decoration: none; font-size: 0.85rem; font-family: 'Inter', sans-serif; letter-spacing: 0.03em; opacity: 0.8; transition: opacity 0.2s; }
+        .breadcrumb-nav a:hover { opacity: 1; text-decoration: underline; }
+    
+        .related-explore { max-width: 900px; margin: 3rem auto; padding: 2rem; border-top: 2px solid rgba(212, 168, 83, 0.2); }
+        .related-explore h3 { font-family: 'Playfair Display', serif; color: var(--accent-gold, #d4a853); font-size: 1.3rem; margin-bottom: 1.2rem; }
+        .related-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.8rem; }
+        .related-explore-grid a { display: block; padding: 0.8rem 1rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 168, 83, 0.15); border-radius: 8px; color: var(--text-primary, #e8e6e3); text-decoration: none; font-size: 0.9rem; font-family: 'Inter', sans-serif; transition: all 0.2s; }
+        .related-explore-grid a:hover { border-color: var(--accent-gold, #d4a853); background: rgba(212, 168, 83, 0.08); transform: translateY(-1px); }
+    </style>
+</head>
+<body>
+    <div class="progress-bar"></div>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="start-here.html">Start Here</a></li>
+                <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
+                <li><a href="demolition-hub.html" class="active">Demolition</a></li>
+                <li><a href="theologians.html">Theologians</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="breadcrumb-nav"><a href="demolition-hub.html">&larr; Back to Demolition</a></div>
+
+    <div class="section-nav">
+        <ul class="section-nav-list">
+            <li><a href="#the-verse">The Verse</a></li>
+            <li><a href="#arminian-reading">Arminian Reading</a></li>
+            <li><a href="#context">Context</a></li>
+            <li><a href="#greek">Greek Analysis</a></li>
+            <li><a href="#devastating">The Problem</a></li>
+            <li><a href="#actually-teaches">What It Teaches</a></li>
+            <li><a href="#witnesses">Witnesses</a></li>
+            <li><a href="#further-reading">Further Reading</a></li>
+        </ul>
+    </div>
+
+    <main id="main-content" class="container">
+        <a href="demolition-hub.html" class="back-link">← Back to Demolition Hub</a>
+
+        <div class="series-label">Verse-by-Verse Demolition Series</div>
+        <div class="tier-badge">Tier 1 — The Big Guns</div>
+        <div class="topic-label">Demolition #2 · The Will of God and 'All People'</div>
+
+        <h1>1 Timothy 2:4 — Does God Desire the Salvation of Every Individual?</h1>
+        <p class="subtitle">Paul's letter to Timothy about prayer for kings and authorities — not a treatise on universal atonement. When you read the context, this verse destroys the Arminian position.</p>
+
+        <!-- The Verse -->
+        <section id="the-verse">
+            <h2>The Verse in Full</h2>
+            <p>The Arminian proof text is 1 Timothy 2:4 in isolation. But Paul didn't write in isolation. Look at what he actually wrote, verse by verse:</p>
+
+            <div class="scripture-block">
+                <strong>1 Timothy 2:1–2 (ESV):</strong><br>
+                "I urge that supplications, prayers, intercessions, and thanksgivings be made for all people, for kings and all who are in high positions..."
+                <div class="scripture-ref">ESV</div>
+            </div>
+
+            <div class="scripture-block">
+                <strong>1 Timothy 2:3–6 (ESV):</strong><br>
+                "This is good, and it is pleasing in the sight of God our Savior, who desires all people to be saved and to come to the knowledge of the truth. For there is one God, and there is one mediator between God and men, the man Christ Jesus, who gave himself as a ransom for all, which is the testimony given at the proper time."
+                <div class="scripture-ref">ESV</div>
+            </div>
+
+            <div class="scripture-block">
+                <strong>1 Timothy 2:4 (KJV):</strong><br>
+                "Who will have all men to be saved, and to come unto the knowledge of the truth."
+                <div class="scripture-ref">KJV</div>
+            </div>
+
+            <div class="scripture-block">
+                <strong>1 Timothy 2:4 (NASB):</strong><br>
+                "He desires all men to be saved and to come to the knowledge of the truth."
+                <div class="scripture-ref">NASB</div>
+            </div>
+        </section>
+
+        <!-- Arminian Reading -->
+        <section id="arminian-reading">
+            <h2>The Arminian Interpretation</h2>
+            <p>Here's how Arminians read this passage:</p>
+
+            <div class="scripture-block">
+                <strong>"God desires ALL people to be saved"</strong> is as clear as it gets. God wants every single individual human being to be saved. This completely disproves unconditional election and limited atonement. If God desired only the elect to be saved, Paul would have written "God desires His elect to be saved." But he didn't. He said "all people." The Arminian case rests on this verse with seeming simplicity: God's desire is universal, His atonement is universal, and human free will determines who accepts it.
+                <div class="scripture-ref">Arminian Logic</div>
+            </div>
+
+            <p>It's a strong rhetorical play. The word "all" is right there. What more do you need? Except—context. And when you examine the context, this verse does not save the Arminian position. It destroys it.</p>
+        </section>
+
+        <!-- Context -->
+        <section id="context">
+            <h2>The Context That Changes Everything</h2>
+
+            <p>Paul begins this section with a command about <em>prayer</em>:</p>
+
+            <div class="scripture-block">
+                <strong>1 Timothy 2:1–2:</strong><br>
+                "I urge that supplications, prayers, intercessions, and thanksgivings be made for ALL PEOPLE, for kings and all who are in high positions."
+                <div class="scripture-ref">ESV</div>
+            </div>
+
+            <p>The early church faced a real problem: they believed—or at least, some believed—that salvation was for the Jewish people, or for common folk, or for the poor. <em>Certainly not for pagan kings and Roman authorities.</em></p>
+
+            <p>Paul corrects this. He says: <strong>Pray for all kinds of people</strong>—including rulers. And <em>why</em> should you pray for all kinds of people?</p>
+
+            <div class="scripture-block">
+                <strong>Because God desires all people to be saved.</strong>
+                <div class="scripture-ref">1 Timothy 2:4</div>
+            </div>
+
+            <p>In this context, "all people" (πάντας ἀνθρώπους / <em>pantas anthrōpous</em>) means <strong>all classes, ranks, and types of people</strong>—not literally every individual human being without exception.</p>
+
+            <p><strong>The evidence:</strong> Paul is not commanding the Ephesian church to "pray for every individual human being." That's physically impossible, logically incoherent, and not what he means. He's saying: <strong>pray for all categories of people</strong>—kings, authorities, rich, poor, Jews, Gentiles, slaves, free. God saves from every nation, tribe, tongue, and rank. The gospel has no ethnic, social, or political boundaries.</p>
+
+            <p>This reading is confirmed by verse 1–2 itself: "pray for all people" is explained immediately as "kings and those in high positions." The specificity shows what "all people" means in context: <em>diverse kinds of people, not a universal headcount.</em></p>
+        </section>
+
+        <!-- Greek Analysis -->
+        <section id="greek">
+            <h2>The Greek Text Tells the Story</h2>
+
+            <h3>Four Critical Terms</h3>
+
+            <div class="greek-box">
+                <p><span class="greek-term">θέλει (thelei)</span> — "desires" or "wills"</p>
+                <p>This is the crucial word. In Greek, "to will" or "to desire" can express:</p>
+                <ul style="margin-left: 1.5rem; margin-top: 0.75rem;">
+                    <li><strong>God's decretive will</strong> (what He ordains, what must come to pass) — Psalm 115:3, Daniel 4:35, Ephesians 1:11</li>
+                    <li><strong>God's preceptive will</strong> (what He commands, what He reveals as delightful) — Matthew 12:50, 1 Thessalonians 4:3</li>
+                </ul>
+                <p style="margin-top: 0.75rem;"><strong>The problem for Arminianism:</strong> If <em>thelei</em> here means God's sovereign, decretive will, then all people <em>will be saved</em>. That's universalism—and Arminians don't believe that. So they must interpret it as God's preceptive or revealed will. But then it's compatible with election: God delights in and commands the salvation of all kinds of people, and saves the elect from every class. The term doesn't settle the question in Arminianism's favor.</p>
+            </div>
+
+            <div class="greek-box">
+                <p><span class="greek-term">πάντας ἀνθρώπους (pantas anthrōpous)</span> — "all people" or "all men"</p>
+                <p>Critical insight: In Greek, <em>pas</em> (all) does <strong>not</strong> always mean "every individual without exception." It often means "all kinds" or "all without distinction."</p>
+                <p><strong>Examples:</strong></p>
+                <ul style="margin-left: 1.5rem; margin-top: 0.75rem;">
+                    <li>Matthew 4:23 — Jesus healed "all diseases" (πάσας νόσους). He didn't heal every disease case in the world; He healed <em>all kinds of diseases.</em></li>
+                    <li>Acts 10:12 — Peter saw "all kinds of animals" (πάντα τὰ τετράποδα). Not every individual animal in existence.</li>
+                    <li>1 Timothy 6:10 — "Love of money is the root of all evils." Not literally <em>every</em> evil in the universe flows from money; all <em>kinds</em> of evil do.</li>
+                </ul>
+                <p style="margin-top: 0.75rem;"><strong>In 1 Timothy 2:</strong> Given the context (verses 1–2 specify kings and authorities), "all people" clearly means "all kinds of people," not every individual.</p>
+            </div>
+
+            <div class="greek-box">
+                <p><span class="greek-term">σωθῆναι (sōthēnai)</span> — "to be saved"</p>
+                <p>Aorist passive infinitive. This is grammatically significant. Salvation is presented as something <em>done to people</em>, not something they do for themselves. The passive voice points to an external, divine action—not human decision or cooperation. Even the grammar leans toward monergism (God acting unilaterally), not synergism (God and humans cooperating).</p>
+            </div>
+
+            <div class="greek-box">
+                <p><span class="greek-term">ἀντίλυτρον (antilutron)</span> — "ransom" or "substitute payment"</p>
+                <p>A ransom is a price paid to secure release or redemption. Verse 6: "He gave himself as a <em>ransom for all</em>—ἀντίλυτρον ὑπὲρ πάντων."</p>
+                <p><strong>The logical problem:</strong> If Christ's ransom is paid for "all" in the sense of every individual, then every individual is ransomed. A ransom—by definition—secures. It doesn't merely make redemption <em>possible</em>; it accomplishes redemption. If paid for all without exception, all without exception are redeemed. But manifestly, not all are saved. Therefore, "all" in verse 6 must be qualified, which means "all" in verse 4 is also qualified. Both refer to "all kinds of people," not every individual.</p>
+            </div>
+        </section>
+
+        <!-- The Devastating Problem -->
+        <section id="devastating">
+            <h2>The Devastating Problem for Arminianism</h2>
+
+            <p>Here's where Arminianism hits a wall:</p>
+
+            <p><strong>If "God desires all people to be saved" means every individual human being, then God desires something He fails to achieve.</strong></p>
+
+            <p>This makes God either:</p>
+            <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+                <li><strong>Impotent</strong> — He wishes all to be saved but cannot make it happen</li>
+                <li><strong>Passive</strong> — He wishes all to be saved but will not act decisively to bring it about</li>
+            </ul>
+
+            <p>Both options flatly contradict the biblical portrait of God's sovereignty. Consider what Scripture actually says about God's will and power:</p>
+
+            <div class="scripture-block">
+                <strong>Psalm 115:3:</strong><br>
+                "Our God is in the heavens; he does all that he pleases."
+                <div class="scripture-ref">ESV</div>
+            </div>
+
+            <div class="scripture-block">
+                <strong>Psalm 135:6:</strong><br>
+                "Whatever the LORD pleases, he does, in heaven and on earth, in the seas and all deeps."
+                <div class="scripture-ref">ESV</div>
+            </div>
+
+            <div class="scripture-block">
+                <strong>Isaiah 46:10:</strong><br>
+                "My counsel shall stand, and I will accomplish all my purpose."
+                <div class="scripture-ref">ESV</div>
+            </div>
+
+            <div class="scripture-block">
+                <strong>Daniel 4:35:</strong><br>
+                "All the inhabitants of the earth are accounted as nothing, and he does according to his will among the host of heaven and among the inhabitants of the earth; and none can stay his hand or say to him, 'What have you done?'"
+                <div class="scripture-ref">ESV</div>
+            </div>
+
+            <p><strong>The Arminian dilemma:</strong> Either God's desire is frustrated (denying His sovereignty), or "all" doesn't mean every individual (confirming the Reformed reading). There is no third option. Arminianism cannot have it both ways.</p>
+        </section>
+
+        <!-- What It Actually Teaches -->
+        <section id="actually-teaches">
+            <h2>What 1 Timothy 2:4 Actually Teaches</h2>
+
+            <div class="argument-card">
+                <h4>1. "All Kinds of People" — The Context Demands It</h4>
+                <p>Verses 1–2 establish the meaning of "all people." Paul urges prayers "for all people, for kings and all who are in high positions." This is <em>descriptive</em>: "all people" includes diverse ranks and classes. The verse is not commanding prayer for every individual on earth; it's commanding prayer for all categories, including those least likely to receive prayer in the early church—pagan rulers.</p>
+                <p>Why does this matter? Because it shows us what Paul means by "all people" and "all mankind." It means <em>all without distinction of rank or class</em>. God saves from every nation, tribe, tongue, rank, and station. The gospel has no boundaries of ethnicity, wealth, or power.</p>
+            </div>
+
+            <div class="argument-card">
+                <h4>2. The Parallel in Titus 2:11</h4>
+                <p>Paul uses identical language elsewhere:</p>
+                <div class="scripture-block" style="margin: 1rem 0;">
+                    <strong>Titus 2:11:</strong><br>
+                    "For the grace of God has appeared, bringing salvation for all people."
+                    <div class="scripture-ref">ESV</div>
+                </div>
+                <p>Notice: grace has <em>appeared</em> to all people. Has grace saved all people? No. Has grace been made <em>available</em> to all people? Yes—it has appeared universally. Consider also Titus 2:14: "He gave himself for us to redeem us from all lawlessness." The subject is <em>us</em>—His people. He redeems <em>us</em>, not everyone, from all lawlessness.</p>
+                <p>The same logic applies to 1 Timothy 2:4. God's desire for salvation is universal in scope (for all kinds of people), but its accomplishment is particular in effect (for the elect).</p>
+            </div>
+
+            <div class="argument-card">
+                <h4>3. God's Will Cannot Be Frustrated</h4>
+                <p>If θέλει (God desires) refers to God's sovereign will—what He decrees—then whatever He desires <em>happens</em>. This is the consistent teaching of Scripture (Psalm 115:3, Isaiah 46:10, Ephesians 1:11).</p>
+                <p>If God's sovereign will is that all individuals be saved, then all individuals <em>will be</em> saved. Since all individuals are <em>not</em> saved, either:</p>
+                <ul style="margin-left: 1.5rem;">
+                    <li>God's decree has failed (impossible, contradicts Scripture)</li>
+                    <li>"All" is qualified (the Reformed reading)</li>
+                </ul>
+                <p>The Arminian cannot escape this dilemma without either denying God's omnipotence or admitting that "all" doesn't mean every individual.</p>
+            </div>
+
+            <div class="argument-card">
+                <h4>4. The Ransom Argument (Verse 6)</h4>
+                <p>Verse 6 reads: "He gave himself as a ransom for all—ἀντίλυτρον ὑπὲρ πάντων."</p>
+                <p>A ransom is not a mere offer or possibility; it is a price paid that <em>accomplishes</em> what it purchases. If Christ is the ransom for all without exception, then all without exception are ransomed. But ransoming means liberation, securing, redeeming. Not all humans are redeemed. Therefore, "all" in verse 6 (and consequently in verse 4) refers to <em>all kinds, all classes, all categories</em>—and specifically, the elect from all kinds.</p>
+                <p>This is the beauty of the text: Christ is the ransom sufficient for all kinds of people (no ethnic, social, or political boundary) and efficient for the elect (those whom God has chosen and redeemed).</p>
+            </div>
+
+            <div class="argument-card">
+                <h4>5. 1 Timothy 4:10 Confirms the Distinction</h4>
+                <p>Paul himself clarifies this exact distinction later in the same letter:</p>
+                <div class="scripture-block" style="margin: 1rem 0;">
+                    <strong>1 Timothy 4:10:</strong><br>
+                    "For to this end we toil and strive, because we have our hope set on the living God, who is the Savior of all people, especially of those who believe."
+                    <div class="scripture-ref">ESV</div>
+                </div>
+                <p>Observe the structure: God is Savior "of all people" (general sense) and "especially of those who believe" (particular sense). The word "especially" (μάλιστα / <em>malista</em>) indicates two <em>different senses</em> of "Savior."</p>
+                <p>In one sense, God preserves and sustains all people (the reprobate included). In another sense, God is Savior to believers—He actually saves them. This distinction runs through the letter and vindicates the Reformed reading of 2:4: God's revealed will is for all kinds of people to be saved; His decretive will accomplishes salvation for the elect.</p>
+            </div>
+        </section>
+
+        <!-- The Cloud of Witnesses -->
+        <section id="witnesses">
+            <h2>The Cloud of Witnesses</h2>
+
+            <p>This reading is not novel or obscure. The greatest Reformed and even pre-Reformation theologians read 1 Timothy 2:4 this way:</p>
+
+            <div class="witness-quote">
+                "By this he assuredly means nothing more than that the way of salvation was not shut against any order of men; that, on the contrary, he had manifested his mercy in such a way that he would have none debarred from it."
+                <div class="witness-attribution">— John Calvin, Commentary on 1 Timothy 2:4</div>
+            </div>
+
+            <div class="witness-quote">
+                "God wishes all men to be saved—meaning all the predestined, because God wills that all kinds of men should be saved, not that the way of salvation is limited to any particular class."
+                <div class="witness-attribution">— Augustine (summarized)</div>
+            </div>
+
+            <div class="witness-quote">
+                "The 'all' here refers to all sorts and kinds of men, all nations and ranks, not to every individual; for it is clear from the whole of Scripture that not all are saved, yet God's design is that none should be debarred on account of rank, nation, or condition."
+                <div class="witness-attribution">— John Gill, Exposition of 1 Timothy 2:4</div>
+            </div>
+
+            <p>Even Thomas Aquinas, writing in the medieval period, recognized this: "All" means all kinds of people, all conditions, all nations—the universal applicability of the gospel, not the universal accomplishment of salvation for every individual.</p>
+
+            <p><strong>The wisdom of the church, across centuries, is clear:</strong> 1 Timothy 2:4 teaches that God desires the salvation of all kinds of people, and that the gospel excludes no one on the basis of ethnicity, rank, or social status. But it does not teach that God desires or accomplishes the salvation of every individual human being without exception.</p>
+        </section>
+
+        <!-- Further Reading -->
+        <section id="further-reading">
+            <div class="further-reading">
+                <h4>Further Reading on This Topic</h4>
+                <ul>
+                    <li><a href="question-godwants.html">Doesn't God want all to be saved?</a> — A broader treatment of God's revealed vs. decretive will</li>
+                    <li><a href="demolition-john3-16.html">John 3:16 — "For God So Loved the World"</a> — Another Arminian favorite, similarly demolished</li>
+                    <li><a href="question-whosoever.html">What about "whosoever"?</a> — The meaning of "whosoever" in Scripture</li>
+                    <li><a href="systematic-divine-decrees.html">The Divine Decrees</a> — God's eternal counsel and will</li>
+                    <li><a href="question-romans9.html">Romans 9: Election and Hardening</a> — The most direct biblical teaching on election</li>
+                    <li><a href="demolition-hub.html">Back to Demolition Hub</a> — See all verse-by-verse refutations</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Next Article Teaser -->
+        <div class="next-article">
+            <h4>Next in the Series</h4>
+            <p><strong>Demolition #3: Matthew 23:37 — "How often would I have gathered your children together..."</strong></p>
+            <p>Did Jesus's desire to gather Jerusalem fail? Or is this another case where "desire" and "will" don't mean what Arminians think?</p>
+            <a href="demolition-matt23-37.html" class="next-button">Read Next →</a>
+        </div>
+
+        <!-- Share -->
+        <div style="text-align: center; margin: 3rem 0;">
+            <p style="color: var(--text-secondary); margin-bottom: 1rem;">Found this helpful? Share it.</p>
+            <div class="share-buttons">
+                <a href="https://twitter.com/intent/tweet?text=1%20Timothy%202%3A4%20%E2%80%94%20A%20Reformed%20response%20to%20Arminian%20proof%20texts&url=https://adoptedbygrace.net/demolition-1tim2-4.html" class="share-btn" target="_blank" rel="noopener noreferrer">Twitter</a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://adoptedbygrace.net/demolition-1tim2-4.html" class="share-btn" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="mailto:?subject=1%20Timothy%202:4%20%E2%80%94%20Verse%20Demolition&body=Check%20this%20out:%20https://adoptedbygrace.net/demolition-1tim2-4.html" class="share-btn">Email</a>
+            </div>
+        </div>
+    </main>
+    <div class="related-explore">
+        <h3>Continue Exploring</h3>
+        <div class="related-explore-grid">
+                <a href="demolition-2peter3-9.html">Demolition: 2 Peter 3:9</a>
+                <a href="demolition-1john2-2.html">Demolition: 1 John 2:2</a>
+                <a href="question-godwants.html">God Wants All to Be Saved?</a>
+                <a href="systematic-divine-decrees.html">The Divine Decrees</a>
+        </div>
+    </div>
+
+
+        <footer role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section"><h4>ADOPTED BY GRACE</h4><p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p></div>
+            <div class="footer-section"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="questions.html">The Evidence</a></li><li><a href="systematic-theology.html">Systematic</a></li><li><a href="demolition-hub.html">Demolition</a></li><li><a href="theologians.html">Theologians</a></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li></ul></div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "1 Timothy 2:4 — Does God Desire the Salvation of Every Individual?",
+        "description": "A comprehensive Reformed response to the Arminian interpretation of 1 Timothy 2:4, demonstrating why context and Greek analysis prove this verse actually supports election.",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        },
+        "datePublished": "2026-03-27",
+        "dateModified": "2026-03-27",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "url": "https://adoptedbygrace.net/demolition-1tim2-4.html",
+        "articleSection": "Verse-by-Verse Demolition",
+        "keywords": "1 Timothy 2:4, Arminianism, Reformed theology, election, unconditional election, limited atonement, predestination, God's will, Greek exegesis"
+    }
+    </script>
+
+    <script>
+        // Reading Progress Bar
+        function updateProgressBar() {
+            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolled = window.scrollY;
+            const progress = scrollHeight > 0 ? (scrolled / scrollHeight) : 0;
+            document.querySelector('.progress-bar').style.transform = `scaleX(${progress})`;
+        }
+
+        // Section Navigation Active Link
+        function updateSectionNav() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.section-nav-list a');
+
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (window.scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Back to Top Button
+        const backToTopBtn = document.querySelector('.back-to-top');
+
+        function toggleBackToTop() {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        }
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Event Listeners
+        window.addEventListener('scroll', () => {
+            updateProgressBar();
+            updateSectionNav();
+            toggleBackToTop();
+        });
+
+        // Initial calls
+        updateProgressBar();
+        updateSectionNav();
+        toggleBackToTop();
+
+        // Smooth scroll for section nav links
+        document.querySelectorAll('.section-nav-list a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const target = document.querySelector(link.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

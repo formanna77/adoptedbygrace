@@ -162,23 +162,30 @@
         .skip-to-content:focus {
             top: 0;
         }
+    
+        .breadcrumb-nav { max-width: 900px; margin: 1rem auto 0; padding: 0 2rem; }
+        .breadcrumb-nav a { color: var(--accent-gold, #d4a853); text-decoration: none; font-size: 0.85rem; font-family: 'Inter', sans-serif; letter-spacing: 0.03em; opacity: 0.8; transition: opacity 0.2s; }
+        .breadcrumb-nav a:hover { opacity: 1; text-decoration: underline; }
     </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
     <nav>
         <div class="nav-container">
-            <a href="index.html" class="logo">ADOPTED BY GRACE</a>
+            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="start-here.html" class="active">Start Here</a></li>
                 <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
                 <li><a href="demolition-hub.html">Demolition</a></li>
-                <li><a href="essays.html">Essays</a></li>
+                <li><a href="theologians.html">Theologians</a></li>
+                <li><a href="resources.html">Resources</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </div>
     </nav>
+    <div class="breadcrumb-nav"><a href="start-here.html">&larr; Back to Start Here</a></div>
 
     <div class="progress-bar">
         <div class="progress-track">
@@ -398,28 +405,12 @@
         </a>
     </div>
 
-    <footer>
+        <footer role="contentinfo">
         <div class="footer-container">
-            <div class="footer-section">
-                <h4>ADOPTED BY GRACE</h4>
-                <p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p>
-            </div>
-            <div class="footer-section">
-                <h4>Navigate</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="start-here.html">Start Here</a></li>
-                    <li><a href="questions.html">The Evidence</a></li>
-                    <li><a href="demolition-hub.html">Demolition</a></li>
-                <li><a href="essays.html">Essays</a></li>
-                    <li><a href="connections.html">Connections</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </div>
+            <div class="footer-section"><h4>ADOPTED BY GRACE</h4><p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p></div>
+            <div class="footer-section"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="questions.html">The Evidence</a></li><li><a href="systematic-theology.html">Systematic</a></li><li><a href="demolition-hub.html">Demolition</a></li><li><a href="theologians.html">Theologians</a></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li></ul></div>
         </div>
-        <div class="footer-copyright">
-            &copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.
-        </div>
+        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
     </footer>
 
     <script>
