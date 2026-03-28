@@ -67,6 +67,9 @@
 - `theologian-spurgeon.html` — **NEW** Charles Spurgeon — the Prince of Preachers (1834–1892)
 - `stories.html` — **NEW** Stories hub page — parables, allegories, fables of sovereign grace
 - `story-surgeon-stone-heart.html` — **NEW** "The Surgeon and the Stone Heart" — modern parable on regeneration (Ezekiel 36:26)
+- `scripture-tsunami.html` — **NEW** Scripture Tsunami: 200+ verse interactive database organized by TULIP doctrine
+- `quiz.html` — **NEW** Reformed Theology Quiz — 30 interactive TULIP questions with instant Scripture-backed feedback, 3 difficulty modes, TULIP category scoring, study recommendations
+- `search.html` — **NEW** Client-side full-text search across 60+ pages with category filters, keyword highlighting, popular search tags, URL param support
 
 ### Design System
 - Dark dramatic aesthetic (#0a0a0f bg, gold/ember/violet accents)
@@ -119,6 +122,12 @@
 - [ ] **Ecclesiology** — The church, marks, means of grace, mission
 - [ ] **Eschatology** — Death, return of Christ, resurrection, judgment, new creation
 - [ ] **Anthropology** — Image of God, human nature, fall, restoration in Christ
+
+### Priority 3.5 — Scripture Tsunami (Interactive Verse Database)
+- [x] **Scripture Tsunami v1** — 200+ verse interactive database organized by TULIP, searchable, filterable → `scripture-tsunami.html` ✅ (2026-03-27 Scripture Tsunami Agent)
+- [ ] **Scripture Tsunami v2** — Add cross-reference links between verses and existing question pages
+- [ ] **Scripture Tsunami v3** — Add theologian quotations per verse, Greek word studies, and "share verse" feature
+- [ ] **Scripture Tsunami v4** — Add verse-of-the-day random feature, reading plans, and bookmarking
 
 ### Priority 4 — Thematic Pages
 - [x] **"Start Here" guided reading path** — 5-phase journey from curiosity to conviction → `start-here.html` + 5 phase pages ✅ (2026-03-27 Start Here Session)
@@ -216,7 +225,7 @@
 - [ ] Add reading progress indicator on question pages
 - [ ] Improve mobile navigation (hamburger menu) — PRIORITY: 8 nav items need responsive menu
 - [ ] Add page transition animations
-- [ ] Add a search feature (client-side, no server needed)
+- [x] Add a search feature (client-side, no server needed) ✅ (2026-03-27 Interactive Features) — `search.html` with full-text search across 60+ pages, category filters, popular search tags, URL param support
 - [ ] Create a 404 page with helpful navigation
 - [x] Add breadcrumb navigation on deep pages ✅ (2026-03-27 UX Architect) — 50 child pages now have "← Back to [Hub]" breadcrumbs
 - [ ] Add social sharing buttons (Twitter/X, Facebook) on content pages
@@ -235,6 +244,51 @@
 ---
 
 ## Session Log
+
+### 2026-03-27 — Interactive Features Agent: Quiz + Search
+- **Built `quiz.html`** — Reformed Theology Quiz: comprehensive interactive assessment of TULIP knowledge
+  - **30 questions** covering all five points of Calvinism (6 per point), each with 4 multiple-choice options
+  - **3 quiz modes:** Full TULIP (30 questions), Quick Test (10 questions), Theologian Mode (15 hard questions)
+  - **Instant feedback** on every answer with theological explanation, bolded key concepts, and Greek term references
+  - **Scripture verse + reference** accompanies every feedback (ESV), with links to relevant site pages for deeper study
+  - **TULIP category scoring** with live progress pills tracking score per doctrine
+  - **Results screen** with percentage, title (4 tiers from beginner to expert), Scripture verse, and TULIP breakdown with animated progress bars
+  - **Personalized study recommendations** based on weakest areas — links to specific site pages for improvement
+  - **Retake functionality** with reshuffled questions
+  - **Accessible:** keyboard navigation, ARIA labels, skip-to-content, focus styles
+  - **Mobile-responsive** with touch-friendly buttons and compact layouts
+- **Built `search.html`** — Client-side full-text search across the entire site
+  - **60+ pages indexed** with title, description, tags, and category metadata
+  - **Real-time search** with debounced input (150ms) and instant results
+  - **Keyword highlighting** in search results (title and description)
+  - **Category filters:** All, Evidence, Systematic, Demolition, Theologians, Resources, Start Here
+  - **Relevance scoring** algorithm: exact phrase match (highest), title match, tag match, partial match, prefix boost
+  - **15 popular search tags** for quick access (Election, Romans 9, John 6, Total Depravity, etc.)
+  - **URL parameter support** (`?q=election`) for linkable searches
+  - **Empty state** with encouraging message
+  - **Accessible:** autofocus, keyboard clear (Escape), skip-to-content
+- **Integrated into site:**
+  - Added "Interactive Tools" section to homepage (`index.html`) with quiz + search cards before footer
+  - Added quiz + search resource cards to `resources.html` (Theology Quiz + Search the Site)
+  - Updated `sitemap.xml` with both new pages
+- **Current page count:** 63+ HTML files
+- **Next interactive feature priorities:** Doctrine Explorer (visual relationship map), Verse Lookup Tool, Reading Progress Indicator
+
+### 2026-03-27 — Scripture Tsunami Agent: Interactive Verse Database
+- **Built `scripture-tsunami.html`** — The Scripture Tsunami: comprehensive, searchable, interactive database of 200+ Bible verses organized by the five points of Calvinism (TULIP)
+  - **Total Depravity:** 36 verses (30 key + 6 supporting) — Genesis 6:5, Psalm 14, Jeremiah 17:9, Romans 3:10-12, Ephesians 2:1-3, 1 Corinthians 2:14, John 6:44, and more
+  - **Unconditional Election:** 56 verses (51 key + 5 supporting) — Romans 9, Ephesians 1:3-14, John 6:37-65, John 15:16, Acts 13:48, Revelation 13:8, and more
+  - **Limited Atonement:** 31 verses (28 key + 3 supporting) — Isaiah 53, John 10:11-28, John 17, Matthew 26:28, Ephesians 5:25, Hebrews 9:12-28, and more
+  - **Irresistible Grace:** 36 verses (33 key + 3 supporting) — Ezekiel 36:26-27, John 1:12-13, John 3:3-8, John 6:44, Acts 16:14, Ephesians 2:4-9, Philippians 1:29, and more
+  - **Perseverance of the Saints:** 45 verses (39 key + 6 supporting) — John 10:27-29, Romans 8:28-39, Philippians 1:6, 1 Peter 1:3-5, Jude 24, and more
+- **Interactive features:** TULIP tab navigation with color-coded doctrine badges, full-text search, filter by evidence strength (Key/Supporting), filter by testament (OT/NT), expandable verse cards with theological commentary, live verse counter
+- **Every verse includes:** full ESV text, theological commentary explaining doctrinal significance, evidence strength classification, testament classification, doctrine categorization
+- **Design:** Matches site design system (dark dramatic aesthetic, gold/ember/violet accents, Playfair Display/Inter/JetBrains Mono)
+- **SEO:** JSON-LD CollectionPage structured data, meta descriptions, canonical URL, OG/Twitter tags
+- **Integration:** Added Scripture Tsunami CTA banner to homepage (index.html) and questions.html; added to sitemap.xml with priority 0.95
+- **Page size:** 2,600 lines — the largest single page on the site
+- **Current page count:** 62+ HTML files
+- **Next priorities:** Continue expanding verse database (add more supporting verses per doctrine); add cross-reference links to existing question pages
 
 ### 2026-03-27 — Site Architecture & UX Agent: Major Navigation Overhaul
 - **Standardized global navigation on all 61 pages** — unified 8-item nav: Home, Start Here, The Evidence, Systematic, Demolition, Theologians, Resources, About. Previously inconsistent (4 different nav templates, 6 hub pages missing from older pages' nav).

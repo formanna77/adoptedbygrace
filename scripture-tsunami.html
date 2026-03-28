@@ -1,0 +1,2600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripture Tsunami — Adopted by Grace</title>
+    <meta name="description" content="Interactive database of 200+ Bible verses organized by the five points of Calvinism (TULIP). Searchable, cross-referenced, and theologically rigorous.">
+    <meta property="og:title" content="Scripture Tsunami — The Biblical Case for Sovereign Grace">
+    <meta property="og:description" content="Interactive database of 200+ Bible verses organized by TULIP. Searchable, cross-referenced, impossible to ignore.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/scripture-tsunami.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Scripture Tsunami — The Biblical Case for Sovereign Grace">
+    <meta name="twitter:description" content="Interactive database of 200+ Bible verses organized by TULIP. Searchable, cross-referenced, impossible to ignore.">
+    <link rel="canonical" href="https://adoptedbygrace.net/scripture-tsunami.html">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+            --color-t: #e74c3c;
+            --color-u: #8b5cf6;
+            --color-l: #d4a254;
+            --color-i: #3498db;
+            --color-p: #2ecc71;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        a.skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 100;
+            border-radius: 0 0 4px 0;
+        }
+
+        a.skip-to-content:focus {
+            top: 0;
+        }
+
+        nav {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border-subtle);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            backdrop-filter: blur(10px);
+            background-color: rgba(18, 18, 26, 0.9);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            letter-spacing: 2px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .nav-links a {
+                font-size: 0.8rem;
+            }
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .breadcrumb {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            padding: 2rem 0 1rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .breadcrumb a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent-ember);
+        }
+
+        .hero {
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .hero-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            color: var(--text-primary);
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+        }
+
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+            padding: 2rem;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--accent-gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .controls {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .search-box {
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 1rem;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 0 3px rgba(212, 162, 84, 0.1);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .filter-controls {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .tab-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .tab-label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            letter-spacing: 1px;
+            font-weight: 600;
+            min-width: max-content;
+        }
+
+        .tab-buttons {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+
+        .tab-btn {
+            padding: 0.75rem 1.5rem;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .tab-btn:hover {
+            background-color: var(--bg-card-hover);
+            color: var(--text-primary);
+        }
+
+        .tab-btn.active {
+            color: var(--text-primary);
+            border-color: currentColor;
+        }
+
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            border-radius: 3px 3px 0 0;
+        }
+
+        .tab-btn.active[data-doctrine="T"]::after {
+            background: linear-gradient(90deg, var(--color-t), transparent);
+        }
+
+        .tab-btn.active[data-doctrine="U"]::after {
+            background: linear-gradient(90deg, var(--color-u), transparent);
+        }
+
+        .tab-btn.active[data-doctrine="L"]::after {
+            background: linear-gradient(90deg, var(--color-l), transparent);
+        }
+
+        .tab-btn.active[data-doctrine="I"]::after {
+            background: linear-gradient(90deg, var(--color-i), transparent);
+        }
+
+        .tab-btn.active[data-doctrine="P"]::after {
+            background: linear-gradient(90deg, var(--color-p), transparent);
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-select {
+            padding: 0.75rem 1rem;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-select:focus {
+            outline: none;
+            border-color: var(--accent-gold);
+        }
+
+        .filter-select option {
+            background-color: var(--bg-card);
+            color: var(--text-primary);
+        }
+
+        .verse-counter {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            padding: 1rem 0;
+        }
+
+        .verses-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .verse-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .verse-card:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .verse-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--accent-gold);
+        }
+
+        .verse-card[data-doctrine="T"]::before {
+            background: var(--color-t);
+        }
+
+        .verse-card[data-doctrine="U"]::before {
+            background: var(--color-u);
+        }
+
+        .verse-card[data-doctrine="L"]::before {
+            background: var(--color-l);
+        }
+
+        .verse-card[data-doctrine="I"]::before {
+            background: var(--color-i);
+        }
+
+        .verse-card[data-doctrine="P"]::before {
+            background: var(--color-p);
+        }
+
+        .verse-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .verse-reference {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--accent-gold);
+            flex: 1;
+        }
+
+        .verse-badges {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.35rem 0.75rem;
+            font-size: 0.75rem;
+            border-radius: 4px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-doctrine {
+            background-color: rgba(212, 162, 84, 0.15);
+            color: var(--accent-gold);
+        }
+
+        .badge-doctrine[data-doctrine="T"] {
+            background-color: rgba(231, 76, 60, 0.15);
+            color: var(--color-t);
+        }
+
+        .badge-doctrine[data-doctrine="U"] {
+            background-color: rgba(139, 92, 246, 0.15);
+            color: var(--color-u);
+        }
+
+        .badge-doctrine[data-doctrine="L"] {
+            background-color: rgba(212, 162, 84, 0.15);
+            color: var(--color-l);
+        }
+
+        .badge-doctrine[data-doctrine="I"] {
+            background-color: rgba(52, 152, 219, 0.15);
+            color: var(--color-i);
+        }
+
+        .badge-doctrine[data-doctrine="P"] {
+            background-color: rgba(46, 204, 113, 0.15);
+            color: var(--color-p);
+        }
+
+        .badge-strength {
+            background-color: rgba(212, 162, 84, 0.15);
+            color: var(--accent-gold);
+        }
+
+        .badge-strength.key {
+            background-color: rgba(232, 100, 44, 0.15);
+            color: var(--accent-ember);
+        }
+
+        .verse-text {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            font-style: italic;
+            quotes: '"' '"' ''' ''';
+        }
+
+        .verse-text::before {
+            content: '"';
+        }
+
+        .verse-text::after {
+            content: '"';
+        }
+
+        .verse-commentary {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            border-top: 1px solid var(--border-subtle);
+            padding-top: 0;
+        }
+
+        .verse-card.expanded .verse-commentary {
+            max-height: 500px;
+            padding-top: 1rem;
+            margin-top: 1rem;
+        }
+
+        .commentary-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .commentary-text {
+            font-size: 0.85rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        .expand-indicator {
+            display: inline-block;
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            cursor: pointer;
+            user-select: none;
+            transition: transform 0.3s ease;
+        }
+
+        .verse-card.expanded .expand-indicator {
+            transform: rotate(180deg);
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-secondary);
+        }
+
+        .no-results-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        .no-results-text {
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            margin-top: 6rem;
+            padding: 3rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-subtle);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 768px) {
+            .verses-container {
+                grid-template-columns: 1fr;
+            }
+
+            .filter-controls {
+                gap: 1rem;
+            }
+
+            .filter-row {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .tab-group {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .tab-buttons {
+                width: 100%;
+            }
+
+            .tab-btn {
+                flex: 1;
+                min-width: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="start-here.html">Start Here</a></li>
+                <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
+                <li><a href="demolition-hub.html">Demolition</a></li>
+                <li><a href="theologians.html">Theologians</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <a href="questions.html">The Evidence</a>
+            <span>/</span>
+            <span>Scripture Tsunami</span>
+        </div>
+
+        <section class="hero">
+            <div class="hero-label">THE SCRIPTURE TSUNAMI</div>
+            <h1>Every Verse. Every Doctrine. Undeniable.</h1>
+            <p class="hero-subtitle">The biblical case for sovereign grace is not built on a handful of proof texts — it is a flood. Here are hundreds of passages organized by doctrine, searchable, cross-referenced, and impossible to ignore.</p>
+        </section>
+
+        <section class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-number" id="total-verses">268</div>
+                <div class="stat-label">Total Verses</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="doctrine-t-count">36</div>
+                <div class="stat-label">Total Depravity</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="doctrine-u-count">51</div>
+                <div class="stat-label">Unconditional Election</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="doctrine-l-count">31</div>
+                <div class="stat-label">Limited Atonement</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="doctrine-i-count">36</div>
+                <div class="stat-label">Irresistible Grace</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="doctrine-p-count">45</div>
+                <div class="stat-label">Perseverance</div>
+            </div>
+        </section>
+
+        <section class="controls">
+            <div class="search-box">
+                <input type="text" id="search-input" class="search-input" placeholder="Search by verse reference, text, or keyword...">
+            </div>
+
+            <div class="filter-controls">
+                <div class="tab-group">
+                    <span class="tab-label">Doctrine:</span>
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" data-doctrine="all">All</button>
+                        <button class="tab-btn" data-doctrine="T">T: Total Depravity</button>
+                        <button class="tab-btn" data-doctrine="U">U: Unconditional Election</button>
+                        <button class="tab-btn" data-doctrine="L">L: Limited Atonement</button>
+                        <button class="tab-btn" data-doctrine="I">I: Irresistible Grace</button>
+                        <button class="tab-btn" data-doctrine="P">P: Perseverance</button>
+                    </div>
+                </div>
+
+                <div class="filter-row">
+                    <select id="strength-filter" class="filter-select">
+                        <option value="all">Strength: All</option>
+                        <option value="key">Key Verses Only</option>
+                        <option value="supporting">Supporting Verses Only</option>
+                    </select>
+
+                    <select id="testament-filter" class="filter-select">
+                        <option value="all">Testament: All</option>
+                        <option value="ot">Old Testament</option>
+                        <option value="nt">New Testament</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <div class="verse-counter">
+            Showing <span id="showing-count">0</span> of <span id="total-count">0</span> verses
+        </div>
+
+        <section id="verses-container" class="verses-container"></section>
+
+        <div id="no-results" class="no-results" style="display: none;">
+            <div class="no-results-icon">∅</div>
+            <div class="no-results-text">No verses match your filters. Try adjusting your search.</div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="start-here.html">Start Here</a></li>
+                    <li><a href="questions.html">The Evidence</a></li>
+                    <li><a href="systematic-theology.html">Systematic Theology</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Defend</h4>
+                <ul>
+                    <li><a href="demolition-hub.html">Verse Demolitions</a></li>
+                    <li><a href="theologians.html">Theologians</a></li>
+                    <li><a href="stories.html">Stories</a></li>
+                    <li><a href="scripture-tsunami.html">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Go Deeper</h4>
+                <ul>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="essays.html">Essays</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-copyright">Adopted by Grace &copy; 2025–2026 · Soli Deo Gloria · For the elect scattered abroad</p>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Scripture Tsunami — The Biblical Case for Sovereign Grace",
+        "description": "Interactive database of 268 Bible verses organized by the five points of Calvinism (TULIP). Searchable, cross-referenced, and theologically rigorous.",
+        "url": "https://adoptedbygrace.net/scripture-tsunami.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+
+    <script>
+        const versesData = [
+            // TOTAL DEPRAVITY - KEY VERSES
+            {
+                reference: "Genesis 6:5",
+                doctrine: "T",
+                strength: "key",
+                testament: "ot",
+                text: "The LORD saw that the wickedness of man was great in the earth, and that every intention of the thoughts of his heart was only evil continually.",
+                commentary: "Five totalizing words: every, thoughts, heart, only, continually. No exception clause."
+            },
+            {
+                reference: "Genesis 8:21",
+                doctrine: "T",
+                strength: "key",
+                testament: "ot",
+                text: "...the intention of man's heart is evil from his youth.",
+                commentary: "Even after judgment, the diagnosis remains. This is the post-flood verdict."
+            },
+            {
+                reference: "Psalm 14:1-3",
+                doctrine: "T",
+                strength: "key",
+                testament: "ot",
+                text: "The fool says in his heart, 'There is no God.' They are corrupt, they do abominable deeds; there is none who does good. The LORD looks down from heaven on the children of man, to see if there are any who understand, who seek after God. They have all turned aside; together they have become corrupt; there is none who does good, not even one.",
+                commentary: "Paul quotes this in Romans 3. \"None\" means none. \"Not even one\" seals it."
+            },
+            {
+                reference: "Psalm 51:5",
+                doctrine: "T",
+                strength: "key",
+                testament: "ot",
+                text: "Behold, I was brought forth in iniquity, and in sin did my mother conceive me.",
+                commentary: "David traces his sin not to a choice but to his nature from conception."
+            },
+            {
+                reference: "Psalm 58:3",
+                doctrine: "T",
+                strength: "key",
+                testament: "ot",
+                text: "The wicked are estranged from the womb; they go astray from birth, speaking lies.",
+                commentary: "From birth, not from the age of accountability."
+            },
+            {
+                reference: "Jeremiah 13:23",
+                doctrine: "T",
+                strength: "key",
+                testament: "ot",
+                text: "Can the Ethiopian change his skin or the leopard his spots? Then also you can do good who are accustomed to do evil.",
+                commentary: "Inability is the point. You cannot change your nature by effort."
+            },
+            {
+                reference: "Jeremiah 17:9",
+                doctrine: "T",
+                strength: "key",
+                testament: "ot",
+                text: "The heart is deceitful above all things, and desperately sick; who can understand it?",
+                commentary: "The heart is not a reliable guide. It is the problem, not the solution."
+            },
+            {
+                reference: "Isaiah 64:6",
+                doctrine: "T",
+                strength: "key",
+                testament: "ot",
+                text: "We have all become like one who is unclean, and all our righteous deeds are like a polluted garment.",
+                commentary: "Even our best works are filthy. Righteousness must come from outside us."
+            },
+            {
+                reference: "Romans 3:10-12",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "None is righteous, no, not one; no one understands; no one seeks for God. All have turned aside; together they have become worthless; no one does good, not even one.",
+                commentary: "Six negations. Paul's universal indictment leaves no one standing."
+            },
+            {
+                reference: "Romans 3:23",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "For all have sinned and fall short of the glory of God.",
+                commentary: "Universal in scope. The word \"all\" here really does mean all."
+            },
+            {
+                reference: "Romans 8:7-8",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "For the mind that is set on the flesh is hostile to God, for it does not submit to God's law; indeed, it cannot. Those who are in the flesh cannot please God.",
+                commentary: "\"Cannot\" — not \"will not.\" This is inability, not mere unwillingness."
+            },
+            {
+                reference: "1 Corinthians 2:14",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "The natural person does not accept the things of the Spirit of God, for they are folly to him, and he is not able to understand them because they are spiritually discerned.",
+                commentary: "\"Not able\" — spiritual blindness isn't a choice, it's a condition requiring divine intervention."
+            },
+            {
+                reference: "Ephesians 2:1-3",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "And you were dead in the trespasses and sins in which you once walked, following the course of this world, following the prince of the power of the air, the spirit that is now at work in the sons of disobedience — among whom we all once lived in the passions of our flesh, carrying out the desires of the body and the mind, and were by nature children of wrath, like the rest of mankind.",
+                commentary: "Dead men don't cooperate with their resurrection. \"By nature\" — not by choice."
+            },
+            {
+                reference: "Ephesians 4:17-19",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "...you must no longer walk as the Gentiles do, in the futility of their minds. They are darkened in their understanding, alienated from the life of God because of the ignorance that is in them, due to their hardness of heart. They have become callous and have given themselves up to sensuality, greedy to practice every kind of impurity.",
+                commentary: "Darkened understanding, alienation, ignorance, hardness — a total corruption of the faculties."
+            },
+            {
+                reference: "John 3:19-20",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "And this is the judgment: the light has come into the world, and people loved the darkness rather than the light because their works were evil.",
+                commentary: "The unregenerate don't just fail to choose the light — they love the darkness."
+            },
+            {
+                reference: "John 6:44",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "No one can come to me unless the Father who sent me draws him.",
+                commentary: "\"No one can\" — Jesus states inability, not unwillingness. The Father must act first."
+            },
+            {
+                reference: "John 6:65",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "This is why I told you that no one can come to me unless it is granted him by the Father.",
+                commentary: "Coming to Christ is a grant, not a natural ability."
+            },
+            {
+                reference: "John 8:34",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "Truly, truly, I say to you, everyone who practices sin is a slave to sin.",
+                commentary: "Slaves don't free themselves. Freedom requires a liberator."
+            },
+            {
+                reference: "John 8:43-44",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "Why do you not understand what I say? It is because you cannot bear to hear my word. You are of your father the devil.",
+                commentary: "\"Cannot bear\" — inability of the will, rooted in spiritual parentage."
+            },
+            {
+                reference: "2 Timothy 2:25-26",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "...God may perhaps grant them repentance leading to a knowledge of the truth, and they may come to their senses and escape from the snare of the devil, after being captured by him to do his will.",
+                commentary: "Repentance is a grant from God, not a self-generated decision."
+            },
+            {
+                reference: "Titus 3:3",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "For we ourselves were once foolish, disobedient, led astray, slaves to various passions and pleasures, passing our days in malice and envy, hated by others and hating one another.",
+                commentary: "Seven descriptors of the pre-grace condition. Slavery, not freedom."
+            },
+            {
+                reference: "Colossians 2:13",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "And you, who were dead in your trespasses and the uncircumcision of your flesh, God made alive together with him.",
+                commentary: "The dead/alive contrast — God is the active agent; we were the corpses."
+            },
+            {
+                reference: "2 Corinthians 4:4",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "In their case the god of this world has blinded the minds of the unbelievers, to keep them from seeing the light of the gospel of the glory of Christ.",
+                commentary: "Spiritual blindness is real. Blind men cannot choose to see."
+            },
+            {
+                reference: "Romans 5:12",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "Therefore, just as sin came into the world through one man, and death through sin, and so death spread to all men because all sinned.",
+                commentary: "Adam's sin is imputed to all. We don't start neutral — we start condemned."
+            },
+            {
+                reference: "Mark 7:21-23",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "For from within, out of the heart of man, come evil thoughts, sexual immorality, theft, murder, adultery, coveting, wickedness, deceit, sensuality, envy, slander, pride, foolishness. All these evil things come from within.",
+                commentary: "Jesus locates the problem inside, not outside. The heart is the source."
+            },
+            {
+                reference: "Proverbs 20:9",
+                doctrine: "T",
+                strength: "key",
+                testament: "ot",
+                text: "Who can say, 'I have made my heart clean; I am pure from my sin'?",
+                commentary: "Rhetorical question expecting a negative answer. No one can purify themselves."
+            },
+            {
+                reference: "Ecclesiastes 9:3",
+                doctrine: "T",
+                strength: "key",
+                testament: "ot",
+                text: "...the hearts of the children of man are full of evil, and madness is in their hearts while they live.",
+                commentary: "Full — not partially corrupted, fully."
+            },
+            {
+                reference: "Job 14:4",
+                doctrine: "T",
+                strength: "key",
+                testament: "ot",
+                text: "Who can bring a clean thing out of an unclean? There is not one.",
+                commentary: "From Adam's unclean line, no one emerges clean apart from grace."
+            },
+            {
+                reference: "Romans 1:21-23",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "For although they knew God, they did not honor him as God or give thanks to him, but they became futile in their thinking, and their foolish hearts were darkened. Claiming to be wise, they became fools, and exchanged the glory of the immortal God for images.",
+                commentary: "Universal suppression. Knowledge of God is exchanged for idolatry."
+            },
+            {
+                reference: "1 John 1:8",
+                doctrine: "T",
+                strength: "key",
+                testament: "nt",
+                text: "If we say we have no sin, we deceive ourselves, and the truth is not in us.",
+                commentary: "Self-deception is the alternative to admitting total depravity."
+            },
+            // TOTAL DEPRAVITY - SUPPORTING VERSES
+            {
+                reference: "Psalm 143:2",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "ot",
+                text: "Enter not into judgment with your servant, for no one living is righteous before you.",
+                commentary: "David appeals to mercy because no one can stand on merit."
+            },
+            {
+                reference: "Isaiah 53:6",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "ot",
+                text: "All we like sheep have gone astray; we have turned — every one — to his own way.",
+                commentary: "Universal wandering. \"Every one\" leaves no exceptions."
+            },
+            {
+                reference: "Micah 7:2-4",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "ot",
+                text: "The godly has perished from the earth, and there is no one upright among mankind.",
+                commentary: "The OT prophet confirms total depravity."
+            },
+            {
+                reference: "Romans 7:18",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "nt",
+                text: "For I know that nothing good dwells in me, that is, in my flesh.",
+                commentary: "Even the apostle Paul acknowledges that no good resides in the flesh."
+            },
+            {
+                reference: "Galatians 5:17",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "nt",
+                text: "For the desires of the flesh are against the Spirit, and the desires of the Spirit are against the flesh, for these are opposed to each other.",
+                commentary: "The flesh and Spirit are in fundamental opposition."
+            },
+            {
+                reference: "James 1:14-15",
+                doctrine: "T",
+                strength: "supporting",
+                testament: "nt",
+                text: "But each person is tempted when he is lured and enticed by his own desire. Then desire when it has conceived gives birth to sin, and sin when it is fully grown brings forth death.",
+                commentary: "Sin originates internally — in our own desires."
+            },
+            // UNCONDITIONAL ELECTION - KEY VERSES
+            {
+                reference: "Deuteronomy 7:6-8",
+                doctrine: "U",
+                strength: "key",
+                testament: "ot",
+                text: "For you are a people holy to the LORD your God. The LORD your God has chosen you to be a people for his treasured possession, out of all the peoples who are on the face of the earth. It was not because you were more in number than any other people that the LORD set his love on you and chose you, for you were the fewest of all peoples, but it is because the LORD loves you.",
+                commentary: "God's choice was not based on Israel's qualities. He chose because He chose."
+            },
+            {
+                reference: "Deuteronomy 10:14-15",
+                doctrine: "U",
+                strength: "key",
+                testament: "ot",
+                text: "Behold, to the LORD your God belong heaven and the heaven of heavens, the earth with all that is in it. Yet the LORD set his heart in love on your fathers and chose their offspring after them, you above all peoples, as you are this day.",
+                commentary: "\"Yet\" — despite owning everything, God set His particular love on some, not all."
+            },
+            {
+                reference: "1 Samuel 12:22",
+                doctrine: "U",
+                strength: "key",
+                testament: "ot",
+                text: "For the LORD will not forsake his people, for his great name's sake, because it has pleased the LORD to make you a people for himself.",
+                commentary: "Election flows from God's pleasure and His name, not human merit."
+            },
+            {
+                reference: "Psalm 33:12",
+                doctrine: "U",
+                strength: "key",
+                testament: "ot",
+                text: "Blessed is the nation whose God is the LORD, the people whom he has chosen as his heritage!",
+                commentary: "God chooses His heritage. The people don't choose to become it."
+            },
+            {
+                reference: "Psalm 65:4",
+                doctrine: "U",
+                strength: "key",
+                testament: "ot",
+                text: "Blessed is the one you choose and bring near, to dwell in your courts!",
+                commentary: "God chooses AND brings near. Both the selection and the drawing are His work."
+            },
+            {
+                reference: "Psalm 106:5",
+                doctrine: "U",
+                strength: "key",
+                testament: "ot",
+                text: "...that I may look upon the prosperity of your chosen ones, that I may rejoice in the gladness of your nation.",
+                commentary: "\"Your chosen ones\" — election language pervades the Psalms."
+            },
+            {
+                reference: "Proverbs 16:4",
+                doctrine: "U",
+                strength: "key",
+                testament: "ot",
+                text: "The LORD has made everything for its purpose, even the wicked for the day of trouble.",
+                commentary: "Everything includes the wicked. God's purposes encompass all."
+            },
+            {
+                reference: "Isaiah 41:8-9",
+                doctrine: "U",
+                strength: "key",
+                testament: "ot",
+                text: "But you, Israel, my servant, Jacob, whom I have chosen, the offspring of Abraham, my friend; you whom I took from the ends of the earth, and called from its farthest corners, saying to you, 'You are my servant, I have chosen you and not cast you off.'",
+                commentary: "\"I have chosen you\" — active divine choice, not human initiative."
+            },
+            {
+                reference: "Isaiah 43:20-21",
+                doctrine: "U",
+                strength: "key",
+                testament: "ot",
+                text: "...my chosen people, the people whom I formed for myself that they might declare my praise.",
+                commentary: "Formed for a purpose — God's praise, not self-determination."
+            },
+            {
+                reference: "Malachi 1:2-3",
+                doctrine: "U",
+                strength: "key",
+                testament: "ot",
+                text: "'I have loved you,' says the LORD. But you say, 'How have you loved us?' 'Is not Esau Jacob's brother?' declares the LORD. 'Yet I have loved Jacob but Esau I have hated.'",
+                commentary: "Before birth, before works. Paul cites this in Romans 9 as the paradigm of election."
+            },
+            {
+                reference: "Matthew 11:25-27",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "At that time Jesus declared, 'I thank you, Father, Lord of heaven and earth, that you have hidden these things from the wise and understanding and revealed them to little children; yes, Father, for such was your gracious will.'",
+                commentary: "The Father hides and reveals according to His will. Jesus thanks Him for it."
+            },
+            {
+                reference: "Matthew 22:14",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "For many are called, but few are chosen.",
+                commentary: "The external call goes to many; the effectual choice falls on few."
+            },
+            {
+                reference: "Matthew 24:22",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "And if those days had not been cut short, no human being would be saved. But for the sake of the elect those days will be cut short.",
+                commentary: "God shortens days for the elect — they are His particular concern."
+            },
+            {
+                reference: "Matthew 24:24",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "For false christs and false prophets will arise and perform great signs and wonders, so as to lead astray, if possible, even the elect.",
+                commentary: "\"If possible\" — implying the elect cannot ultimately be led astray."
+            },
+            {
+                reference: "Matthew 24:31",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "And he will send out his angels with a loud trumpet call, and they will gather his elect from the four winds.",
+                commentary: "The elect are gathered — not the generally willing, but a specific people."
+            },
+            {
+                reference: "Mark 13:20",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "And if the Lord had not cut short the days, no human being would be saved. But for the sake of the elect, whom he chose, he shortened the days.",
+                commentary: "\"The elect, whom he chose\" — redundancy for emphasis. They are God's chosen."
+            },
+            {
+                reference: "Luke 10:20",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "Nevertheless, do not rejoice in this, that the spirits are subject to you, but rejoice that your names are written in heaven.",
+                commentary: "Names written — past tense, completed action. Not a response to future faith."
+            },
+            {
+                reference: "John 6:37",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "All that the Father gives me will come to me, and whoever comes to me I will never cast out.",
+                commentary: "The Father gives a specific people to the Son. All of them come. None are lost."
+            },
+            {
+                reference: "John 6:39",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "And this is the will of him who sent me, that I should lose nothing of all that he has given me, but raise it up on the last day.",
+                commentary: "The Father's will: lose nothing. Zero attrition from the elect."
+            },
+            {
+                reference: "John 6:44",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "No one can come to me unless the Father who sent me draws him. And I will raise him up on the last day.",
+                commentary: "\"Draws\" (helkō) — the same word used for dragging a net full of fish (John 21:11). This is effectual, not merely persuasive."
+            },
+            {
+                reference: "John 6:65",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "And he said, 'This is why I told you that no one can come to me unless it is granted him by the Father.'",
+                commentary: "Coming to Christ is a divine grant, not a human achievement."
+            },
+            {
+                reference: "John 10:26",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "...but you do not believe because you are not among my sheep.",
+                commentary: "Note the order — they don't believe BECAUSE they aren't His sheep. Not: they aren't His sheep because they don't believe."
+            },
+            {
+                reference: "John 13:18",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "I am not speaking of all of you; I know whom I have chosen.",
+                commentary: "Jesus chose specific individuals — not all who followed Him."
+            },
+            {
+                reference: "John 15:16",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "You did not choose me, but I chose you and appointed you that you should go and bear fruit.",
+                commentary: "The order is unmistakable. Divine choice precedes and produces human response."
+            },
+            {
+                reference: "John 15:19",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "If you were of the world, the world would love you as its own; but because you are not of the world, but I chose you out of the world, therefore the world hates you.",
+                commentary: "Chosen OUT of the world — extracted from a mass, not self-selected."
+            },
+            {
+                reference: "John 17:2",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "...since you have given him authority over all flesh, to give eternal life to all whom you have given him.",
+                commentary: "Eternal life given to a specific group — \"all whom you have given him.\""
+            },
+            {
+                reference: "John 17:6",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "I have manifested your name to the people whom you gave me out of the world. Yours they were, and you gave them to me.",
+                commentary: "\"Yours they were\" — they belonged to the Father before coming to Christ."
+            },
+            {
+                reference: "John 17:9",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "I am praying for them. I am not praying for the world but for those whom you have given me, for they are yours.",
+                commentary: "Jesus's intercessory prayer is particular, not universal."
+            },
+            {
+                reference: "Acts 13:48",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "And when the Gentiles heard this, they began rejoicing and glorifying the word of the Lord, and as many as were appointed to eternal life believed.",
+                commentary: "The order: appointed → believed. Not: believed → appointed."
+            },
+            {
+                reference: "Acts 18:10",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "...for I have many in this city who are my people.",
+                commentary: "God already had His people in Corinth before Paul preached. Election precedes evangelism."
+            },
+            {
+                reference: "Romans 8:28-30",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "And we know that for those who love God all things work together for good, for those who are called according to his purpose. For those whom he foreknew he also predestined to be conformed to the image of his Son... And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified.",
+                commentary: "The golden chain. No link is broken. Every one foreknown is glorified. No attrition."
+            },
+            {
+                reference: "Romans 8:33",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "Who shall bring any charge against God's elect? It is God who justifies.",
+                commentary: "\"God's elect\" — a defined group under divine protection."
+            },
+            {
+                reference: "Romans 9:11-13",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "Though they were not yet born and had done nothing either good or bad — in order that God's purpose of election might continue, not because of works but because of him who calls — she was told, 'The older will serve the younger.' As it is written, 'Jacob I loved, but Esau I hated.'",
+                commentary: "Before birth, before works. Election rests on God's purpose and call alone."
+            },
+            {
+                reference: "Romans 9:15-16",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "For he says to Moses, 'I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.' So then it depends not on human will or exertion, but on God, who has mercy.",
+                commentary: "\"Not on human will or exertion.\" Could anything be clearer?"
+            },
+            {
+                reference: "Romans 9:18",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "So then he has mercy on whomever he wills, and he hardens whomever he wills.",
+                commentary: "Both mercy and hardening are acts of divine sovereignty."
+            },
+            {
+                reference: "Romans 9:21-23",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "Has the potter no right over the clay, to make out of the same lump one vessel for honorable use and another for dishonorable use? What if God, desiring to show his wrath and to make known his power, has endured with much patience vessels of wrath prepared for destruction, in order to make known the riches of his glory for vessels of mercy, which he has prepared beforehand for glory?",
+                commentary: "Vessels of mercy prepared beforehand — election before time."
+            },
+            {
+                reference: "Romans 11:5-7",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "So too at the present time there is a remnant, chosen by grace. But if it is by grace, it is no longer on the basis of works; otherwise grace would no longer be grace. What then? Israel failed to obtain what it was seeking. The elect obtained it, but the rest were hardened.",
+                commentary: "\"Chosen by grace\" — if by grace, then not by works. The elect obtained; the rest were hardened."
+            },
+            {
+                reference: "1 Corinthians 1:27-29",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "But God chose what is foolish in the world to shame the wise; God chose what is weak in the world to shame the strong; God chose what is low and despised in the world, even things that are not, to bring to nothing things that are, so that no human being might boast in the presence of God.",
+                commentary: "God chose — three times. And the purpose: that no one may boast."
+            },
+            {
+                reference: "Ephesians 1:3-6",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places, even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love he predestined us for adoption to himself as sons through Jesus Christ, according to the purpose of his will, to the praise of his glorious grace.",
+                commentary: "Before the foundation of the world. According to the purpose of His will. To the praise of His grace. Every phrase eliminates human merit."
+            },
+            {
+                reference: "Ephesians 1:11",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "In him we have obtained an inheritance, having been predestined according to the purpose of him who works all things according to the counsel of his will.",
+                commentary: "\"Works all things according to the counsel of his will\" — nothing is left to chance."
+            },
+            {
+                reference: "Colossians 3:12",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "Put on then, as God's chosen ones, holy and beloved, compassion, kindness, humility, meekness, and patience.",
+                commentary: "Believers are addressed as \"God's chosen ones\" — their identity is rooted in election."
+            },
+            {
+                reference: "1 Thessalonians 1:4",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "For we know, brothers loved by God, that he has chosen you.",
+                commentary: "Election is something Paul knows about the Thessalonian believers."
+            },
+            {
+                reference: "2 Thessalonians 2:13",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "But we ought always to give thanks to God for you, brothers beloved by the Lord, because God chose you as the firstfruits to be saved, through sanctification by the Spirit and belief in the truth.",
+                commentary: "God chose → Spirit sanctifies → belief follows. The order is grace-first."
+            },
+            {
+                reference: "2 Timothy 1:9",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "...who saved us and called us to a holy calling, not because of our works but because of his own purpose and grace, which he gave us in Christ Jesus before the ages began.",
+                commentary: "Grace given before time. Not because of works. This eliminates foreseen faith."
+            },
+            {
+                reference: "2 Timothy 2:10",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "Therefore I endure everything for the sake of the elect, that they also may obtain the salvation that is in Christ Jesus with eternal glory.",
+                commentary: "Paul endures for the elect — a defined group who will obtain salvation."
+            },
+            {
+                reference: "Titus 1:1",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "Paul, a servant of God and an apostle of Jesus Christ, for the sake of the faith of God's elect.",
+                commentary: "Paul's entire apostleship is for the elect."
+            },
+            {
+                reference: "1 Peter 1:1-2",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "To those who are elect exiles of the Dispersion... according to the foreknowledge of God the Father, in the sanctification of the Spirit, for obedience to Jesus Christ.",
+                commentary: "Elect according to foreknowledge — but foreknowledge in Hebrew thought means covenantal love, not mere prescience."
+            },
+            {
+                reference: "1 Peter 2:9",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession.",
+                commentary: "Four election terms in one verse. This is the identity of the church."
+            },
+            {
+                reference: "Revelation 13:8",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "...everyone whose name has not been written before the foundation of the world in the book of life of the Lamb who was slain.",
+                commentary: "Names written before the foundation of the world. Not in response to foreseen faith."
+            },
+            {
+                reference: "Revelation 17:8",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "...and the dwellers on earth whose names have not been written in the book of life from the foundation of the world.",
+                commentary: "\"From the foundation of the world\" — the names were fixed before history began."
+            },
+            {
+                reference: "Revelation 17:14",
+                doctrine: "U",
+                strength: "key",
+                testament: "nt",
+                text: "...those with him are called and chosen and faithful.",
+                commentary: "Called and chosen produces faithful — not the reverse order."
+            },
+            // UNCONDITIONAL ELECTION - SUPPORTING VERSES
+            {
+                reference: "Isaiah 45:4",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "ot",
+                text: "For the sake of my servant Jacob, and Israel my chosen, I call you by your name.",
+                commentary: "God names and calls for the sake of His chosen."
+            },
+            {
+                reference: "Isaiah 46:10",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "ot",
+                text: "...declaring the end from the beginning and from ancient times things not yet done, saying, 'My counsel shall stand, and I will accomplish all my purpose.'",
+                commentary: "God's counsel stands. His purposes cannot be thwarted."
+            },
+            {
+                reference: "Jeremiah 1:5",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "ot",
+                text: "Before I formed you in the womb I knew you, and before you were born I consecrated you.",
+                commentary: "Known and consecrated before birth. Divine choice precedes existence."
+            },
+            {
+                reference: "Haggai 2:23",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "ot",
+                text: "'I will take you, O Zerubbabel my servant... and make you like a signet ring, for I have chosen you,' declares the LORD.",
+                commentary: "God takes and chooses. The servant is passive."
+            },
+            {
+                reference: "Matthew 20:16",
+                doctrine: "U",
+                strength: "supporting",
+                testament: "nt",
+                text: "So the last will be first, and the first last. For many are called, but few are chosen.",
+                commentary: "The chosen are a subset of the called."
+            },
+            // LIMITED ATONEMENT - KEY VERSES
+            {
+                reference: "Isaiah 53:11-12",
+                doctrine: "L",
+                strength: "key",
+                testament: "ot",
+                text: "Out of the anguish of his soul he shall see and be satisfied; by his knowledge shall the righteous one, my servant, make many to be accounted righteous, and he shall bear their iniquities. Therefore I will divide him a portion with the many... yet he bore the sin of many, and makes intercession for the transgressors.",
+                commentary: "\"Many\" — not \"all without exception.\" The Servant's work has a definite object."
+            },
+            {
+                reference: "Matthew 1:21",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "She will bear a son, and you shall call his name Jesus, for he will save his people from their sins.",
+                commentary: "\"His people\" — a specific people. And He WILL save them — not merely make salvation possible."
+            },
+            {
+                reference: "Matthew 20:28",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "...the Son of Man came not to be served but to serve, and to give his life as a ransom for many.",
+                commentary: "\"For many\" — a ransom for a specific group, not an indefinite offer."
+            },
+            {
+                reference: "Matthew 26:28",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "...for this is my blood of the covenant, which is poured out for many for the forgiveness of sins.",
+                commentary: "\"For many\" at the Last Supper — Jesus defines the scope of His atoning work."
+            },
+            {
+                reference: "John 6:37-39",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "All that the Father gives me will come to me... And this is the will of him who sent me, that I should lose nothing of all that he has given me.",
+                commentary: "The same people given by the Father are the ones Christ secures. No one given is lost."
+            },
+            {
+                reference: "John 10:11",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "I am the good shepherd. The good shepherd lays down his life for the sheep.",
+                commentary: "For the sheep — not for the goats. The atonement has a definite object."
+            },
+            {
+                reference: "John 10:14-15",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "I am the good shepherd. I know my own and my own know me, just as the Father knows me and I know the Father; and I lay down my life for the sheep.",
+                commentary: "\"My own\" — mutual knowledge between shepherd and sheep. He dies for them specifically."
+            },
+            {
+                reference: "John 10:26-28",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "...but you do not believe because you are not among my sheep. My sheep hear my voice, and I know them, and they follow me. I give them eternal life, and they will never perish, and no one will snatch them out of my hand.",
+                commentary: "Those who don't believe were never His sheep. His sheep are secure."
+            },
+            {
+                reference: "John 11:51-52",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "He did not say this of his own accord, but being high priest that year he prophesied that Jesus would die for the nation, and not for the nation only, but also to gather into one the children of God who are scattered abroad.",
+                commentary: "The purpose of Christ's death: to gather the children of God — the elect among Jews and Gentiles."
+            },
+            {
+                reference: "John 15:13",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "Greater love has no one than this, that someone lay down his life for his friends.",
+                commentary: "Christ lays down His life for His friends — those given to Him by the Father."
+            },
+            {
+                reference: "John 17:9",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "I am praying for them. I am not praying for the world but for those whom you have given me.",
+                commentary: "If Christ's intercession is particular, how much more His atonement?"
+            },
+            {
+                reference: "John 17:19",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "And for their sake I consecrate myself, that they also may be sanctified in truth.",
+                commentary: "\"For their sake\" — Jesus consecrates Himself for a specific people."
+            },
+            {
+                reference: "Acts 20:28",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "Pay careful attention to yourselves and to all the flock, in which the Holy Spirit has made you overseers, to care for the church of God, which he obtained with his own blood.",
+                commentary: "The church — purchased with God's own blood. A definite purchase of a definite people."
+            },
+            {
+                reference: "Romans 5:8-10",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "...but God shows his love for us in that while we were still sinners, Christ died for us. Since, therefore, we have now been justified by his blood, much more shall we be saved by him from the wrath of God.",
+                commentary: "\"For us\" — those justified. Christ's death secures salvation for those He died for."
+            },
+            {
+                reference: "Romans 8:32-34",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "He who did not spare his own Son but gave him up for us all, how will he not also with him graciously give us all things? Who shall bring any charge against God's elect?",
+                commentary: "\"Us all\" in context = God's elect (v. 33). The \"all\" is delimited by the group: those predestined, called, justified, glorified."
+            },
+            {
+                reference: "Galatians 1:4",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "...who gave himself for our sins to deliver us from the present evil age, according to the will of our God and Father.",
+                commentary: "\"To deliver us\" — effective deliverance, not mere possibility."
+            },
+            {
+                reference: "Galatians 2:20",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "...the Son of God, who loved me and gave himself for me.",
+                commentary: "Paul's personal appropriation — \"loved ME, gave himself for ME.\""
+            },
+            {
+                reference: "Galatians 3:13",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "Christ redeemed us from the curse of the law by becoming a curse for us.",
+                commentary: "\"Redeemed us\" — past tense, accomplished. Those for whom He became a curse are redeemed."
+            },
+            {
+                reference: "Ephesians 5:25-27",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "Husbands, love your wives, as Christ loved the church and gave himself up for her, that he might sanctify her, having cleansed her by the washing of water with the word, so that he might present the church to himself in splendor.",
+                commentary: "Christ gave Himself for the church — not for the church and the non-church alike."
+            },
+            {
+                reference: "Titus 2:14",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "...who gave himself for us to redeem us from all lawlessness and to purify for himself a people for his own possession who are zealous for good works.",
+                commentary: "\"A people for his own possession\" — Christ's redemption creates a particular people."
+            },
+            {
+                reference: "Hebrews 2:17",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "Therefore he had to be made like his brothers in every respect, so that he might become a merciful and faithful high priest in the service of God, to make propitiation for the sins of the people.",
+                commentary: "\"The people\" — not everyone without distinction."
+            },
+            {
+                reference: "Hebrews 9:12",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "...he entered once for all into the holy places, not by means of the blood of goats and calves but by means of his own blood, thus securing an eternal redemption.",
+                commentary: "\"Securing\" — not making possible, but actually obtaining. Eternal redemption accomplished."
+            },
+            {
+                reference: "Hebrews 9:15",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "Therefore he is the mediator of a new covenant, so that those who are called may receive the promised eternal inheritance, since a death has occurred that redeems them from the transgressions committed under the first covenant.",
+                commentary: "The death redeems \"those who are called\" — a specific group receives a specific inheritance."
+            },
+            {
+                reference: "Hebrews 9:28",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "...so Christ, having been offered once to bear the sins of many, will appear a second time, not to deal with sin but to save those who are eagerly waiting for him.",
+                commentary: "\"The sins of many\" — definite substitution for a definite group."
+            },
+            {
+                reference: "1 Peter 2:24",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "He himself bore our sins in his body on the tree, that we might die to sin and live to righteousness. By his wounds you have been healed.",
+                commentary: "\"Our sins\" — the sins of believers. The healing is actual and effective."
+            },
+            {
+                reference: "1 Peter 3:18",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "For Christ also suffered once for sins, the righteous for the unrighteous, that he might bring us to God.",
+                commentary: "\"That he might bring US to God\" — the purpose is accomplished for those intended."
+            },
+            {
+                reference: "Revelation 5:9",
+                doctrine: "L",
+                strength: "key",
+                testament: "nt",
+                text: "And they sang a new song, saying, 'Worthy are you to take the scroll and to open its seals, for you were slain, and by your blood you ransomed people for God from every tribe and language and people and nation.'",
+                commentary: "\"People FROM every tribe\" — not every person in every tribe. A definite ransom."
+            },
+            {
+                reference: "Isaiah 53:5-6",
+                doctrine: "L",
+                strength: "key",
+                testament: "ot",
+                text: "But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his wounds we are healed. All we like sheep have gone astray; we have turned — every one — to his own way; and the LORD has laid on him the iniquity of us all.",
+                commentary: "The \"us all\" whose iniquity is laid on Him = the \"we\" who are healed. Same group."
+            },
+            // LIMITED ATONEMENT - SUPPORTING VERSES
+            {
+                reference: "Hebrews 7:25",
+                doctrine: "L",
+                strength: "supporting",
+                testament: "nt",
+                text: "Consequently, he is able to save to the uttermost those who draw near to God through him, since he always lives to make intercession for them.",
+                commentary: "Intercession and atonement have the same scope. He intercedes for those He died for."
+            },
+            {
+                reference: "Romans 8:33-34",
+                doctrine: "L",
+                strength: "supporting",
+                testament: "nt",
+                text: "Who shall bring any charge against God's elect? It is God who justifies. Who is to condemn? Christ Jesus is the one who died — more than that, who was raised — who is at the right hand of God, who indeed is interceding for us.",
+                commentary: "Death, resurrection, and intercession — all for the same group: the elect."
+            },
+            {
+                reference: "Hebrews 10:14",
+                doctrine: "L",
+                strength: "supporting",
+                testament: "nt",
+                text: "For by a single offering he has perfected for all time those who are being sanctified.",
+                commentary: "\"Perfected for all time\" — the offering actually accomplishes perfection for its intended recipients."
+            },
+            // IRRESISTIBLE GRACE - KEY VERSES
+            {
+                reference: "Deuteronomy 30:6",
+                doctrine: "I",
+                strength: "key",
+                testament: "ot",
+                text: "And the LORD your God will circumcise your heart and the heart of your offspring, so that you will love the LORD your God with all your heart and with all your soul, that you may live.",
+                commentary: "God circumcises the heart — the new disposition to love God is His work, not ours."
+            },
+            {
+                reference: "1 Kings 8:58",
+                doctrine: "I",
+                strength: "key",
+                testament: "ot",
+                text: "...that he may incline our hearts to him, to walk in all his ways and to keep his commandments.",
+                commentary: "Solomon asks God to incline hearts. The inclination itself is a gift."
+            },
+            {
+                reference: "Psalm 110:3",
+                doctrine: "I",
+                strength: "key",
+                testament: "ot",
+                text: "Your people will offer themselves freely in the day of your power.",
+                commentary: "Free willing is produced by divine power. Grace doesn't coerce — it makes willing."
+            },
+            {
+                reference: "Ezekiel 11:19-20",
+                doctrine: "I",
+                strength: "key",
+                testament: "ot",
+                text: "And I will give them one heart, and a new spirit I will put within them. I will remove the heart of stone from their flesh and give them a heart of flesh, that they may walk in my statutes.",
+                commentary: "\"I will give... I will remove... I will put\" — all divine initiative. Five first-person verbs."
+            },
+            {
+                reference: "Ezekiel 36:26-27",
+                doctrine: "I",
+                strength: "key",
+                testament: "ot",
+                text: "And I will give you a new heart, and a new spirit I will put within you. And I will remove the heart of stone from your flesh and give you a heart of flesh. And I will put my Spirit within you, and cause you to walk in my statutes.",
+                commentary: "The most explicit statement of regeneration in the OT. God causes obedience by changing the heart."
+            },
+            {
+                reference: "John 1:12-13",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "But to all who did receive him, who believed in his name, he gave the right to become children of God, who were born, not of blood nor of the will of the flesh nor of the will of man, but of God.",
+                commentary: "Three negations of human will. The new birth is of God, not of human decision."
+            },
+            {
+                reference: "John 3:3-8",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "Jesus answered him, 'Truly, truly, I say to you, unless one is born again he cannot see the kingdom of God... That which is born of the flesh is flesh, and that which is born of the Spirit is spirit. Do not marvel that I said to you, \"You must be born again.\" The wind blows where it wishes, and you hear its sound, but you do not know where it comes from or where it goes. So it is with everyone who is born of the Spirit.'",
+                commentary: "The Spirit blows where HE wishes, not where we wish. Regeneration is sovereign, mysterious, and effectual."
+            },
+            {
+                reference: "John 5:21",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "For as the Father raises the dead and gives them life, so also the Son gives life to whom he will.",
+                commentary: "\"To whom he will\" — sovereign discretion in giving life."
+            },
+            {
+                reference: "John 6:37",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "All that the Father gives me will come to me.",
+                commentary: "\"Will come\" — every single one given by the Father. Not \"might come\" or \"could come.\""
+            },
+            {
+                reference: "John 6:44-45",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "No one can come to me unless the Father who sent me draws him. And I will raise him up on the last day. It is written in the Prophets, 'And they will all be taught by God.' Everyone who has heard and learned from the Father comes to me.",
+                commentary: "All who are drawn are raised. All who are taught come. The drawing is effectual."
+            },
+            {
+                reference: "John 6:63-65",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "It is the Spirit who gives life; the flesh is no help at all... But there are some of you who do not believe... This is why I told you that no one can come to me unless it is granted him by the Father.",
+                commentary: "The flesh profits nothing. Life comes from the Spirit. Coming is a divine grant."
+            },
+            {
+                reference: "John 10:16",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "And I have other sheep that are not of this fold. I must bring them also, and they will listen to my voice.",
+                commentary: "\"I must bring them\" and \"they WILL listen\" — certainty, not possibility."
+            },
+            {
+                reference: "John 10:27",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "My sheep hear my voice, and I know them, and they follow me.",
+                commentary: "Hearing, knowing, and following — the marks of effectual calling."
+            },
+            {
+                reference: "Acts 2:39",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "For the promise is for you and for your children and for all who are far off, everyone whom the Lord our God calls to himself.",
+                commentary: "\"Everyone whom the Lord calls\" — the effectual call reaches the intended recipients."
+            },
+            {
+                reference: "Acts 11:18",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "When they heard these things they fell silent. And they glorified God, saying, 'Then to the Gentiles also God has granted repentance that leads to life.'",
+                commentary: "Repentance is granted by God. It is not generated by the sinner."
+            },
+            {
+                reference: "Acts 13:48",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "And when the Gentiles heard this, they began rejoicing and glorifying the word of the Lord, and as many as were appointed to eternal life believed.",
+                commentary: "Appointed → believed. The appointment produced the faith."
+            },
+            {
+                reference: "Acts 16:14",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "One who heard us was a woman named Lydia, from the city of Thyatira, a seller of purple goods, who was a worshiper of God. The Lord opened her heart to pay attention to what was said by Paul.",
+                commentary: "\"The Lord opened her heart\" — Lydia didn't open her own heart. God acted first."
+            },
+            {
+                reference: "Romans 1:6",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "...including you who are called to belong to Jesus Christ.",
+                commentary: "Called to belong — the calling creates the belonging."
+            },
+            {
+                reference: "Romans 8:28-30",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "...those who are called according to his purpose. For those whom he foreknew he also predestined... and those whom he predestined he also called, and those whom he called he also justified.",
+                commentary: "Called → justified. No one called fails to be justified. The call is effectual."
+            },
+            {
+                reference: "Romans 9:15-16",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "I will have mercy on whom I have mercy... So then it depends not on human will or exertion, but on God, who has mercy.",
+                commentary: "Mercy is sovereign. It does not depend on human will or effort."
+            },
+            {
+                reference: "1 Corinthians 1:23-24",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "...but we preach Christ crucified, a stumbling block to Jews and folly to Gentiles, but to those who are called, both Jews and Greeks, Christ the power of God and the wisdom of God.",
+                commentary: "The called perceive Christ as power and wisdom. The calling transforms perception."
+            },
+            {
+                reference: "1 Corinthians 2:12-14",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "Now we have received not the spirit of the world, but the Spirit who is from God, that we might understand the things freely given us by God... The natural person does not accept the things of the Spirit of God.",
+                commentary: "Understanding is given by the Spirit. Without Him, spiritual truth is rejected."
+            },
+            {
+                reference: "2 Corinthians 4:6",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "For God, who said, 'Let light shine out of darkness,' has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ.",
+                commentary: "Regeneration is a new creation. The same God who spoke light into the cosmos speaks light into the heart."
+            },
+            {
+                reference: "Ephesians 1:17-20",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "...that the God of our Lord Jesus Christ, the Father of glory, may give you the Spirit of wisdom and of revelation in the knowledge of him, having the eyes of your hearts enlightened... according to the working of his great might that he worked in Christ when he raised him from the dead.",
+                commentary: "The same power that raised Christ from the dead enlightens the heart. That's irresistible grace."
+            },
+            {
+                reference: "Ephesians 2:4-5",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "But God, being rich in mercy, because of the great love with which he loved us, even when we were dead in our trespasses, made us alive together with Christ — by grace you have been saved.",
+                commentary: "\"But God\" — the two most powerful words in Scripture. Dead people made alive by sovereign mercy."
+            },
+            {
+                reference: "Ephesians 2:8-9",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.",
+                commentary: "\"Not your own doing\" — even the faith is a gift. The purpose: no boasting."
+            },
+            {
+                reference: "Philippians 1:29",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "For it has been granted to you that for the sake of Christ you should not only believe in him but also suffer for his sake.",
+                commentary: "\"Granted\" (echaristhē) — graced. Faith is a grace-gift."
+            },
+            {
+                reference: "Philippians 2:13",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "...for it is God who works in you, both to will and to work for his good pleasure.",
+                commentary: "God works the willing and the doing. Both the desire and the action are His production."
+            },
+            {
+                reference: "Colossians 2:13",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "And you, who were dead in your trespasses... God made alive together with him.",
+                commentary: "God made alive — the corpse contributes nothing to its resurrection."
+            },
+            {
+                reference: "2 Timothy 2:25-26",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "...God may perhaps grant them repentance leading to a knowledge of the truth, and they may come to their senses and escape from the snare of the devil.",
+                commentary: "Repentance is granted. Recovery from the devil's trap requires divine intervention."
+            },
+            {
+                reference: "James 1:18",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "Of his own will he brought us forth by the word of truth, that we should be a kind of firstfruits of his creatures.",
+                commentary: "\"Of his own will\" — regeneration originates in God's will, not ours."
+            },
+            {
+                reference: "1 Peter 1:3",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope.",
+                commentary: "\"Caused us to be born again\" — we didn't cause ourselves to be born the first time, nor the second."
+            },
+            {
+                reference: "1 John 5:1",
+                doctrine: "I",
+                strength: "key",
+                testament: "nt",
+                text: "Everyone who believes that Jesus is the Christ has been born of God.",
+                commentary: "\"Has been born\" (gegennētai) — perfect passive. The new birth (past) produces the believing (present)."
+            },
+            // IRRESISTIBLE GRACE - SUPPORTING VERSES
+            {
+                reference: "Jeremiah 31:33",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "ot",
+                text: "I will put my law within them, and I will write it on their hearts.",
+                commentary: "God writes the law on hearts — internal transformation by divine initiative."
+            },
+            {
+                reference: "Jeremiah 32:40",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "ot",
+                text: "I will make with them an everlasting covenant... I will put the fear of me in their hearts, that they may not turn from me.",
+                commentary: "God ensures they will not turn. Grace preserves what it creates."
+            },
+            {
+                reference: "Proverbs 21:1",
+                doctrine: "I",
+                strength: "supporting",
+                testament: "ot",
+                text: "The king's heart is a stream of water in the hand of the LORD; he turns it wherever he will.",
+                commentary: "If God turns kings' hearts, how much more His elect's?"
+            },
+            // PERSEVERANCE - KEY VERSES
+            {
+                reference: "Psalm 37:28",
+                doctrine: "P",
+                strength: "key",
+                testament: "ot",
+                text: "For the LORD loves justice; he will not forsake his saints. They are preserved forever.",
+                commentary: "Preserved forever — not conditionally, not temporarily."
+            },
+            {
+                reference: "Psalm 121:3-4",
+                doctrine: "P",
+                strength: "key",
+                testament: "ot",
+                text: "He will not let your foot be moved; he who keeps you will not slumber. Behold, he who keeps Israel will neither slumber nor sleep.",
+                commentary: "The Keeper doesn't sleep. Preservation is His constant work."
+            },
+            {
+                reference: "Psalm 138:8",
+                doctrine: "P",
+                strength: "key",
+                testament: "ot",
+                text: "The LORD will fulfill his purpose for me; your steadfast love, O LORD, endures forever. Do not forsake the work of your hands.",
+                commentary: "God fulfills His purpose. The work of His hands won't be abandoned."
+            },
+            {
+                reference: "Isaiah 43:1-3",
+                doctrine: "P",
+                strength: "key",
+                testament: "ot",
+                text: "Fear not, for I have redeemed you; I have called you by name, you are mine. When you pass through the waters, I will be with you.",
+                commentary: "\"You are mine\" — ownership language. The redeemed are His permanent possession."
+            },
+            {
+                reference: "Isaiah 54:10",
+                doctrine: "P",
+                strength: "key",
+                testament: "ot",
+                text: "'For the mountains may depart and the hills be removed, but my steadfast love shall not depart from you, and my covenant of peace shall not be removed,' says the LORD, who has compassion on you.",
+                commentary: "Mountains move before God's love moves. The covenant of peace is permanent."
+            },
+            {
+                reference: "Jeremiah 32:40",
+                doctrine: "P",
+                strength: "key",
+                testament: "ot",
+                text: "I will make with them an everlasting covenant, that I will not turn away from doing good to them. And I will put the fear of me in their hearts, that they may not turn from me.",
+                commentary: "He will not turn from them; they will not turn from Him. Both sides secured by God."
+            },
+            {
+                reference: "John 5:24",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "Truly, truly, I say to you, whoever hears my word and believes him who sent me has eternal life. He does not come into judgment, but has passed from death to life.",
+                commentary: "\"Has passed\" — past tense. \"Does not come into judgment\" — absolute."
+            },
+            {
+                reference: "John 6:37-40",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "All that the Father gives me will come to me, and whoever comes to me I will never cast out. For I have come down from heaven, not to do my own will but the will of him who sent me. And this is the will of him who sent me, that I should lose nothing of all that he has given me, but raise it up on the last day.",
+                commentary: "Jesus will NEVER cast out. The Father's will: lose NOTHING. Zero attrition."
+            },
+            {
+                reference: "John 10:27-29",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "My sheep hear my voice, and I know them, and they follow me. I give them eternal life, and they will never perish, and no one will snatch them out of my hand. My Father, who has given them to me, is greater than all, and no one is able to snatch them out of the Father's hand.",
+                commentary: "Double security — the Son's hand and the Father's hand. \"No one\" includes yourself."
+            },
+            {
+                reference: "John 17:11-12",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "Holy Father, keep them in your name, which you have given me, that they may be one, even as we are one. While I was with them, I kept them in your name.",
+                commentary: "Jesus asks the Father to keep His own. The Son's prayer will not be denied."
+            },
+            {
+                reference: "Romans 5:9-10",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "Since, therefore, we have now been justified by his blood, much more shall we be saved by him from the wrath of God. For if while we were enemies we were reconciled to God by the death of his Son, much more, now that we are reconciled, shall we be saved by his life.",
+                commentary: "\"Much more\" argument — if God saved enemies, He will certainly preserve friends."
+            },
+            {
+                reference: "Romans 8:1",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "There is therefore now no condemnation for those who are in Christ Jesus.",
+                commentary: "No condemnation — none, never, for those in Christ."
+            },
+            {
+                reference: "Romans 8:28-30",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "...those whom he foreknew he also predestined... called... justified... glorified.",
+                commentary: "The golden chain. Past tense \"glorified\" — it is as good as done. No one falls between the links."
+            },
+            {
+                reference: "Romans 8:31-34",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "If God is for us, who can be against us? He who did not spare his own Son but gave him up for us all, how will he not also with him graciously give us all things?",
+                commentary: "Five rhetorical questions — each expecting the answer \"No one.\" No charge, no condemnation, no separation."
+            },
+            {
+                reference: "Romans 8:35-39",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "Who shall separate us from the love of Christ? Shall tribulation, or distress, or persecution, or famine, or nakedness, or danger, or sword?... For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.",
+                commentary: "Ten things that cannot separate. \"Anything else in all creation\" covers everything. Nothing means nothing."
+            },
+            {
+                reference: "Romans 11:29",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "For the gifts and the calling of God are irrevocable.",
+                commentary: "Irrevocable — cannot be taken back. The calling stands."
+            },
+            {
+                reference: "1 Corinthians 1:8-9",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "...who will sustain you to the end, guiltless in the day of our Lord Jesus Christ. God is faithful, by whom you were called.",
+                commentary: "God WILL sustain to the end. Why? Because God is faithful — not because we are."
+            },
+            {
+                reference: "1 Corinthians 10:13",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "God is faithful, and he will not let you be tempted beyond your ability, but with the temptation he will also provide the way of escape.",
+                commentary: "God limits temptation and provides escape. Preservation in action."
+            },
+            {
+                reference: "2 Corinthians 1:21-22",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "And it is God who establishes us with you in Christ, and has anointed us, and who has also put his seal on us and given us his Spirit in our hearts as a guarantee.",
+                commentary: "Sealed and guaranteed — the Spirit is the down payment of final salvation."
+            },
+            {
+                reference: "Ephesians 1:13-14",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "In him you also, when you heard the word of truth, the gospel of your salvation, and believed in him, were sealed with the promised Holy Spirit, who is the guarantee of our inheritance until we acquire possession of it.",
+                commentary: "The Spirit seals. The inheritance is guaranteed. \"Until we acquire possession\" — it will happen."
+            },
+            {
+                reference: "Ephesians 4:30",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "And do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption.",
+                commentary: "Sealed FOR the day of redemption — not until you mess up."
+            },
+            {
+                reference: "Philippians 1:6",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "And I am sure of this, that he who began a good work in you will bring it to completion at the day of Jesus Christ.",
+                commentary: "God finishes what He starts. The good work WILL be completed."
+            },
+            {
+                reference: "Colossians 3:3",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "For you have died, and your life is hidden with Christ in God.",
+                commentary: "Hidden WITH Christ IN God. To lose your salvation, Christ would have to be extracted from God."
+            },
+            {
+                reference: "1 Thessalonians 5:23-24",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "Now may the God of peace himself sanctify you completely, and may your whole spirit and soul and body be kept blameless at the coming of our Lord Jesus Christ. He who calls you is faithful; he will surely do it.",
+                commentary: "\"He WILL surely do it.\" Perseverance is grounded in God's faithfulness."
+            },
+            {
+                reference: "2 Thessalonians 3:3",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "But the Lord is faithful. He will establish you and guard you against the evil one.",
+                commentary: "God guards against the evil one. Satan cannot claim a sheep."
+            },
+            {
+                reference: "2 Timothy 1:12",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "...for I know whom I have believed, and I am convinced that he is able to guard until that day what has been entrusted to me.",
+                commentary: "Paul's confidence is in God's ability to guard — not in his own perseverance."
+            },
+            {
+                reference: "2 Timothy 4:18",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "The Lord will rescue me from every evil deed and bring me safely into his heavenly kingdom.",
+                commentary: "\"Will rescue... will bring safely\" — certainty of final deliverance."
+            },
+            {
+                reference: "Hebrews 7:25",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "Consequently, he is able to save to the uttermost those who draw near to God through him, since he always lives to make intercession for them.",
+                commentary: "\"To the uttermost\" — completely, finally, permanently. His intercession never ceases."
+            },
+            {
+                reference: "Hebrews 10:14",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "For by a single offering he has perfected for all time those who are being sanctified.",
+                commentary: "Perfected FOR ALL TIME. The offering's effect is permanent."
+            },
+            {
+                reference: "Hebrews 12:2",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "...looking to Jesus, the founder and perfecter of our faith.",
+                commentary: "Jesus is both the author and finisher. He starts and completes faith."
+            },
+            {
+                reference: "Hebrews 13:5",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "...for he has said, 'I will never leave you nor forsake you.'",
+                commentary: "Five negatives in the Greek — \"I will never, no never, no never leave or forsake you.\""
+            },
+            {
+                reference: "1 Peter 1:3-5",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "...he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead, to an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you, who by God's power are being guarded through faith for a salvation ready to be revealed.",
+                commentary: "Three adjectives for the inheritance: imperishable, undefiled, unfading. Guarded by God's power, not ours."
+            },
+            {
+                reference: "1 John 2:19",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "They went out from us, but they were not of us; for if they had been of us, they would have continued with us. But they went out, that it might become plain that they all are not of us.",
+                commentary: "Those who leave were never truly in. Departure reveals false profession, not lost salvation."
+            },
+            {
+                reference: "1 John 5:4",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "For everyone who has been born of God overcomes the world.",
+                commentary: "Everyone born of God overcomes. Not some. Not most. Everyone."
+            },
+            {
+                reference: "1 John 5:13",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "I write these things to you who believe in the name of the Son of God, that you may know that you have eternal life.",
+                commentary: "\"That you may KNOW\" — assurance is intended. Eternal life is a present possession."
+            },
+            {
+                reference: "1 John 5:18",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "We know that everyone who has been born of God does not keep on sinning, but he who was born of God protects him, and the evil one does not touch him.",
+                commentary: "Christ protects the born-again. The evil one cannot touch them."
+            },
+            {
+                reference: "Jude 1",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "To those who are called, beloved in God the Father and kept for Jesus Christ.",
+                commentary: "Called, beloved, and KEPT — preserved by divine custody."
+            },
+            {
+                reference: "Jude 24",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "Now to him who is able to keep you from stumbling and to present you blameless before the presence of his glory with great joy.",
+                commentary: "God is ABLE to keep from stumbling and WILL present blameless. Doxology of security."
+            },
+            {
+                reference: "Revelation 3:5",
+                doctrine: "P",
+                strength: "key",
+                testament: "nt",
+                text: "The one who conquers will be clothed thus in white garments, and I will never blot his name out of the book of life.",
+                commentary: "\"Never blot out\" — a promise to overcomers. And who overcomes? Everyone born of God (1 John 5:4)."
+            },
+            // PERSEVERANCE - SUPPORTING VERSES
+            {
+                reference: "Deuteronomy 33:27",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "ot",
+                text: "The eternal God is your dwelling place, and underneath are the everlasting arms.",
+                commentary: "Everlasting arms — they never tire, never release."
+            },
+            {
+                reference: "Job 17:9",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "ot",
+                text: "Yet the righteous holds to his way, and he who has clean hands grows stronger and stronger.",
+                commentary: "The righteous persevere — they grow stronger, not weaker."
+            },
+            {
+                reference: "Psalm 23:6",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "ot",
+                text: "Surely goodness and mercy shall follow me all the days of my life, and I shall dwell in the house of the LORD forever.",
+                commentary: "\"All the days\" and \"forever\" — no interruption possible."
+            },
+            {
+                reference: "Psalm 73:23-24",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "ot",
+                text: "Nevertheless, I am continually with you; you hold my right hand. You guide me with your counsel, and afterward you will receive me to glory.",
+                commentary: "He holds our hand, guides with counsel, and receives to glory. The whole journey is His."
+            },
+            {
+                reference: "Psalm 89:30-34",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "ot",
+                text: "If his children forsake my law... then I will punish their transgression... But I will not remove from him my steadfast love or be false to my faithfulness. I will not violate my covenant.",
+                commentary: "Even when saints sin, God disciplines but does not abandon. The covenant stands."
+            },
+            {
+                reference: "Isaiah 49:15-16",
+                doctrine: "P",
+                strength: "supporting",
+                testament: "ot",
+                text: "Can a woman forget her nursing child, that she should have no compassion on the son of her womb? Even these may forget, yet I will not forget you. Behold, I have engraved you on the palms of my hands.",
+                commentary: "Engraved on God's palms — permanent, indelible, unforgettable."
+            }
+        ];
+
+        let currentFilters = {
+            doctrine: 'all',
+            strength: 'all',
+            testament: 'all',
+            search: ''
+        };
+
+        const container = document.getElementById('verses-container');
+        const noResults = document.getElementById('no-results');
+        const searchInput = document.getElementById('search-input');
+        const strengthFilter = document.getElementById('strength-filter');
+        const testamentFilter = document.getElementById('testament-filter');
+        const doctrineButtons = document.querySelectorAll('.tab-btn');
+
+        // Initialize counts
+        function updateCounts() {
+            const filtered = filterVerses();
+            document.getElementById('showing-count').textContent = filtered.length;
+            document.getElementById('total-count').textContent = versesData.length;
+
+            const tCount = versesData.filter(v => v.doctrine === 'T').length;
+            const uCount = versesData.filter(v => v.doctrine === 'U').length;
+            const lCount = versesData.filter(v => v.doctrine === 'L').length;
+            const iCount = versesData.filter(v => v.doctrine === 'I').length;
+            const pCount = versesData.filter(v => v.doctrine === 'P').length;
+
+            document.getElementById('doctrine-t-count').textContent = tCount;
+            document.getElementById('doctrine-u-count').textContent = uCount;
+            document.getElementById('doctrine-l-count').textContent = lCount;
+            document.getElementById('doctrine-i-count').textContent = iCount;
+            document.getElementById('doctrine-p-count').textContent = pCount;
+        }
+
+        function filterVerses() {
+            return versesData.filter(verse => {
+                const doctrinMatch = currentFilters.doctrine === 'all' || verse.doctrine === currentFilters.doctrine;
+                const strengthMatch = currentFilters.strength === 'all' || verse.strength === currentFilters.strength;
+                const testamentMatch = currentFilters.testament === 'all' || verse.testament === currentFilters.testament;
+
+                const searchLower = currentFilters.search.toLowerCase();
+                const searchMatch = searchLower === '' ||
+                    verse.reference.toLowerCase().includes(searchLower) ||
+                    verse.text.toLowerCase().includes(searchLower) ||
+                    verse.commentary.toLowerCase().includes(searchLower);
+
+                return doctrinMatch && strengthMatch && testamentMatch && searchMatch;
+            });
+        }
+
+        function renderVerses() {
+            const filtered = filterVerses();
+            container.innerHTML = '';
+
+            if (filtered.length === 0) {
+                noResults.style.display = 'block';
+            } else {
+                noResults.style.display = 'none';
+                filtered.forEach(verse => {
+                    const card = document.createElement('div');
+                    card.className = 'verse-card';
+                    card.setAttribute('data-doctrine', verse.doctrine);
+
+                    const doctrineName = {
+                        'T': 'Total Depravity',
+                        'U': 'Unconditional Election',
+                        'L': 'Limited Atonement',
+                        'I': 'Irresistible Grace',
+                        'P': 'Perseverance'
+                    }[verse.doctrine];
+
+                    card.innerHTML = `
+                        <div class="verse-header">
+                            <div class="verse-reference">${verse.reference}</div>
+                            <div class="verse-badges">
+                                <span class="badge badge-doctrine" data-doctrine="${verse.doctrine}">${verse.doctrine}: ${doctrineName.split(' ')[0]}</span>
+                                <span class="badge badge-strength ${verse.strength === 'key' ? 'key' : ''}">${verse.strength === 'key' ? 'Key' : 'Supporting'}</span>
+                            </div>
+                        </div>
+                        <div class="verse-text">${verse.text}</div>
+                        <div class="verse-commentary" style="display: none;">
+                            <div class="commentary-label">Commentary</div>
+                            <div class="commentary-text">${verse.commentary}</div>
+                        </div>
+                        <div class="expand-indicator">▼ Read Commentary</div>
+                    `;
+
+                    card.addEventListener('click', () => {
+                        card.classList.toggle('expanded');
+                        const commentary = card.querySelector('.verse-commentary');
+                        const indicator = card.querySelector('.expand-indicator');
+
+                        if (card.classList.contains('expanded')) {
+                            commentary.style.display = 'block';
+                            indicator.textContent = '▲ Hide Commentary';
+                        } else {
+                            commentary.style.display = 'none';
+                            indicator.textContent = '▼ Read Commentary';
+                        }
+                    });
+
+                    container.appendChild(card);
+                });
+            }
+
+            updateCounts();
+        }
+
+        // Event listeners
+        searchInput.addEventListener('input', (e) => {
+            currentFilters.search = e.target.value;
+            renderVerses();
+        });
+
+        strengthFilter.addEventListener('change', (e) => {
+            currentFilters.strength = e.target.value;
+            renderVerses();
+        });
+
+        testamentFilter.addEventListener('change', (e) => {
+            currentFilters.testament = e.target.value;
+            renderVerses();
+        });
+
+        doctrineButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                doctrineButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilters.doctrine = btn.getAttribute('data-doctrine');
+                renderVerses();
+            });
+        });
+
+        // Initial render
+        renderVerses();
+    </script>
+</body>
+</html>

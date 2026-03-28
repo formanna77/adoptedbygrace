@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test your understanding of Reformed theology with this interactive TULIP quiz. 30 questions on the doctrines of grace with instant Scripture-backed feedback.">
+    <meta property="og:title" content="Reformed Theology Quiz — Test Your Knowledge of the Doctrines of Grace">
+    <meta property="og:description" content="30 questions on TULIP, election, sovereignty, and the doctrines of grace. Instant feedback with Scripture references.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/quiz.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/quiz.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Reformed Theology Quiz — Test Your Knowledge of the Doctrines of Grace">
+    <meta name="twitter:description" content="30 questions on TULIP, election, sovereignty, and the doctrines of grace. Instant feedback with Scripture references.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Reformed Theology Quiz — Test Your Knowledge | Adopted By Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Quiz",
+        "name": "Reformed Theology Quiz — Test Your Knowledge of the Doctrines of Grace",
+        "description": "30 questions on TULIP, election, sovereignty, and the doctrines of grace with instant Scripture-backed feedback.",
+        "url": "https://adoptedbygrace.net/quiz.html",
+        "educationalLevel": "Beginner to Advanced",
+        "about": { "@type": "Thing", "name": "Reformed Theology" },
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --accent-green: #34d399;
+            --accent-red: #ef4444;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.7; overflow-x: hidden; -webkit-text-size-adjust: 100%; }
+
+        /* Skip to content */
+        .skip-link { position: absolute; top: -40px; left: 0; background: var(--accent-gold); color: var(--bg-deep); padding: 8px 16px; z-index: 10000; font-weight: 600; transition: top 0.3s ease; }
+        .skip-link:focus { top: 0; }
+
+        /* Navigation */
+        nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 15, 0.85); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0.1em; text-decoration: none; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { text-decoration: none; color: var(--text-secondary); font-size: 0.95rem; transition: color 0.3s ease; font-weight: 500; }
+        .nav-links a:hover, .nav-links a.active { color: var(--accent-gold); }
+
+        /* Breadcrumb */
+        .breadcrumb { max-width: 900px; margin: 0 auto; padding: 0.8rem 2rem 0; }
+        .breadcrumb a { color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; }
+        .breadcrumb a:hover { opacity: 0.7; }
+
+        /* Hero */
+        .hero { max-width: 800px; margin: 0 auto; padding: 3rem 2rem 2rem; text-align: center; }
+        .hero-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.3em; color: var(--accent-gold); opacity: 0.7; margin-bottom: 1.5rem; }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 800; line-height: 1.2; margin-bottom: 1.5rem; letter-spacing: -0.02em; }
+        .hero h1 span { background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero-subtitle { color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8; max-width: 600px; margin: 0 auto; }
+
+        /* Quiz Mode Selector */
+        .mode-selector { max-width: 800px; margin: 2rem auto 3rem; padding: 0 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+        .mode-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 1.8rem; text-align: center; cursor: pointer; transition: all 0.3s ease; position: relative; overflow: hidden; }
+        .mode-card::before { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); opacity: 0; transition: opacity 0.3s ease; }
+        .mode-card:hover { background: var(--bg-card-hover); border-color: rgba(212, 162, 84, 0.3); transform: translateY(-2px); }
+        .mode-card:hover::before { opacity: 1; }
+        .mode-card.selected { border-color: var(--accent-gold); background: rgba(212, 162, 84, 0.06); }
+        .mode-card.selected::before { opacity: 1; }
+        .mode-icon { font-size: 2rem; margin-bottom: 0.8rem; }
+        .mode-title { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--text-primary); margin-bottom: 0.5rem; }
+        .mode-desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; }
+        .mode-count { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent-gold); letter-spacing: 0.1em; margin-top: 0.6rem; text-transform: uppercase; }
+
+        /* Start Button */
+        .start-area { text-align: center; margin-bottom: 3rem; }
+        .start-btn { display: inline-block; padding: 1rem 3rem; border: 2px solid var(--accent-gold); border-radius: 6px; color: var(--accent-gold); background: transparent; font-family: 'Inter', sans-serif; font-size: 1.05rem; font-weight: 600; letter-spacing: 0.05em; cursor: pointer; transition: all 0.3s ease; }
+        .start-btn:hover { background: rgba(212, 162, 84, 0.12); color: var(--text-primary); }
+        .start-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+        /* Progress Bar */
+        .progress-section { max-width: 800px; margin: 0 auto 2rem; padding: 0 2rem; display: none; }
+        .progress-section.visible { display: block; }
+        .progress-info { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+        .progress-text { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-secondary); letter-spacing: 0.08em; text-transform: uppercase; }
+        .progress-category { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.2rem 0.6rem; border-radius: 3px; }
+        .progress-bar-track { width: 100%; height: 4px; background: var(--bg-card); border-radius: 2px; overflow: hidden; }
+        .progress-bar-fill { height: 100%; border-radius: 2px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); transition: width 0.5s ease; }
+
+        /* Question Card */
+        .question-area { max-width: 800px; margin: 0 auto; padding: 0 2rem 3rem; display: none; }
+        .question-area.visible { display: block; }
+        .question-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 2.5rem; animation: fadeSlideIn 0.5s ease; }
+        @keyframes fadeSlideIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+        .question-number { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1rem; }
+        .question-text { font-family: 'Playfair Display', serif; font-size: 1.4rem; line-height: 1.5; margin-bottom: 2rem; color: var(--text-primary); }
+
+        /* Answer Options */
+        .options { display: flex; flex-direction: column; gap: 0.8rem; }
+        .option { background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.1rem 1.3rem; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: flex-start; gap: 1rem; }
+        .option:hover:not(.disabled) { border-color: rgba(212, 162, 84, 0.4); background: rgba(212, 162, 84, 0.04); }
+        .option.disabled { cursor: default; }
+        .option-letter { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; font-weight: 700; color: var(--accent-gold); flex-shrink: 0; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-subtle); border-radius: 50%; transition: all 0.3s ease; }
+        .option-text { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; transition: color 0.3s ease; }
+        .option.correct { border-color: var(--accent-green); background: rgba(52, 211, 153, 0.06); }
+        .option.correct .option-letter { border-color: var(--accent-green); color: var(--accent-green); background: rgba(52, 211, 153, 0.12); }
+        .option.correct .option-text { color: var(--accent-green); }
+        .option.wrong { border-color: var(--accent-red); background: rgba(239, 68, 68, 0.06); }
+        .option.wrong .option-letter { border-color: var(--accent-red); color: var(--accent-red); background: rgba(239, 68, 68, 0.12); }
+        .option.wrong .option-text { color: var(--accent-red); }
+        .option.selected-not-correct { border-color: var(--accent-red); background: rgba(239, 68, 68, 0.04); }
+
+        /* Feedback */
+        .feedback { margin-top: 1.5rem; padding: 1.5rem; border-radius: 8px; display: none; animation: fadeSlideIn 0.4s ease; }
+        .feedback.visible { display: block; }
+        .feedback.correct-feedback { background: linear-gradient(135deg, rgba(52, 211, 153, 0.06), rgba(52, 211, 153, 0.02)); border-left: 4px solid var(--accent-green); }
+        .feedback.wrong-feedback { background: linear-gradient(135deg, rgba(239, 68, 68, 0.06), rgba(239, 68, 68, 0.02)); border-left: 4px solid var(--accent-red); }
+        .feedback-header { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.6rem; font-weight: 700; }
+        .feedback.correct-feedback .feedback-header { color: var(--accent-green); }
+        .feedback.wrong-feedback .feedback-header { color: var(--accent-red); }
+        .feedback-text { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8; }
+        .feedback-text strong { color: var(--text-primary); font-weight: 600; }
+        .feedback-verse { font-style: italic; color: var(--text-secondary); margin-top: 0.8rem; padding-top: 0.8rem; border-top: 1px solid var(--border-subtle); line-height: 1.8; }
+        .feedback-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent-gold); letter-spacing: 0.1em; display: block; margin-top: 0.4rem; font-style: normal; }
+        .feedback-link { display: inline-block; margin-top: 0.8rem; color: var(--accent-gold); text-decoration: none; font-size: 0.85rem; font-weight: 500; }
+        .feedback-link:hover { opacity: 0.7; }
+
+        /* Next Button */
+        .next-btn { display: none; margin-top: 1.5rem; padding: 0.8rem 2rem; background: transparent; border: 1px solid var(--accent-gold); border-radius: 6px; color: var(--accent-gold); font-family: 'Inter', sans-serif; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; }
+        .next-btn.visible { display: inline-block; }
+        .next-btn:hover { background: rgba(212, 162, 84, 0.1); }
+
+        /* TULIP Category Pills */
+        .tulip-score-bar { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem; }
+        .tulip-pill { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.08em; padding: 0.3rem 0.8rem; border-radius: 20px; border: 1px solid var(--border-subtle); color: var(--text-muted); transition: all 0.3s ease; }
+        .tulip-pill.active { border-color: var(--accent-gold); color: var(--accent-gold); background: rgba(212, 162, 84, 0.08); }
+        .tulip-pill[data-cat="T"] { --pill-color: #ef4444; }
+        .tulip-pill[data-cat="U"] { --pill-color: #f59e0b; }
+        .tulip-pill[data-cat="L"] { --pill-color: #8b5cf6; }
+        .tulip-pill[data-cat="I"] { --pill-color: #3b82f6; }
+        .tulip-pill[data-cat="P"] { --pill-color: #34d399; }
+        .tulip-pill.active[data-cat="T"] { border-color: #ef4444; color: #ef4444; background: rgba(239, 68, 68, 0.08); }
+        .tulip-pill.active[data-cat="U"] { border-color: #f59e0b; color: #f59e0b; background: rgba(245, 158, 11, 0.08); }
+        .tulip-pill.active[data-cat="L"] { border-color: #8b5cf6; color: #8b5cf6; background: rgba(139, 92, 246, 0.08); }
+        .tulip-pill.active[data-cat="I"] { border-color: #3b82f6; color: #3b82f6; background: rgba(59, 130, 246, 0.08); }
+        .tulip-pill.active[data-cat="P"] { border-color: #34d399; color: #34d399; background: rgba(52, 211, 153, 0.08); }
+
+        /* Results Screen */
+        .results-area { max-width: 800px; margin: 0 auto; padding: 0 2rem 3rem; display: none; }
+        .results-area.visible { display: block; animation: fadeSlideIn 0.6s ease; }
+        .results-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 16px; padding: 3rem; text-align: center; }
+        .results-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--accent-gold); margin-bottom: 1.5rem; }
+        .results-score { font-family: 'Playfair Display', serif; font-size: 4rem; font-weight: 800; margin-bottom: 0.5rem; }
+        .results-score .score-num { background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .results-score .score-total { color: var(--text-muted); font-size: 2rem; }
+        .results-percent { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; color: var(--accent-gold); letter-spacing: 0.05em; margin-bottom: 1.5rem; }
+        .results-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; margin-bottom: 1rem; color: var(--text-primary); }
+        .results-description { color: var(--text-secondary); font-size: 1rem; line-height: 1.8; max-width: 550px; margin: 0 auto 2rem; }
+        .results-verse { font-style: italic; color: var(--text-secondary); font-size: 1rem; line-height: 1.8; max-width: 550px; margin: 0 auto 0.5rem; }
+        .results-verse-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.1em; }
+
+        /* TULIP Breakdown */
+        .tulip-breakdown { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.8rem; margin: 2.5rem 0; }
+        .tulip-item { background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.2rem 0.8rem; text-align: center; }
+        .tulip-letter { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 800; margin-bottom: 0.3rem; }
+        .tulip-name { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; line-height: 1.3; }
+        .tulip-score-num { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 700; }
+        .tulip-item[data-cat="T"] .tulip-letter { color: #ef4444; }
+        .tulip-item[data-cat="U"] .tulip-letter { color: #f59e0b; }
+        .tulip-item[data-cat="L"] .tulip-letter { color: #8b5cf6; }
+        .tulip-item[data-cat="I"] .tulip-letter { color: #3b82f6; }
+        .tulip-item[data-cat="P"] .tulip-letter { color: #34d399; }
+        .tulip-bar { width: 100%; height: 4px; background: rgba(255,255,255,0.05); border-radius: 2px; margin-top: 0.5rem; overflow: hidden; }
+        .tulip-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+        .tulip-item[data-cat="T"] .tulip-bar-fill { background: #ef4444; }
+        .tulip-item[data-cat="U"] .tulip-bar-fill { background: #f59e0b; }
+        .tulip-item[data-cat="L"] .tulip-bar-fill { background: #8b5cf6; }
+        .tulip-item[data-cat="I"] .tulip-bar-fill { background: #3b82f6; }
+        .tulip-item[data-cat="P"] .tulip-bar-fill { background: #34d399; }
+
+        /* Action buttons */
+        .results-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
+        .results-actions a, .results-actions button { padding: 0.8rem 2rem; border-radius: 6px; font-family: 'Inter', sans-serif; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; text-decoration: none; }
+        .btn-primary { background: transparent; border: 2px solid var(--accent-gold); color: var(--accent-gold); }
+        .btn-primary:hover { background: rgba(212, 162, 84, 0.12); }
+        .btn-secondary { background: transparent; border: 1px solid var(--border-subtle); color: var(--text-secondary); }
+        .btn-secondary:hover { border-color: var(--accent-gold); color: var(--accent-gold); }
+
+        /* Study Recommendations */
+        .study-recs { max-width: 800px; margin: 2rem auto 3rem; padding: 0 2rem; display: none; }
+        .study-recs.visible { display: block; animation: fadeSlideIn 0.5s ease 0.3s both; }
+        .study-recs-title { font-family: 'Playfair Display', serif; font-size: 1.5rem; text-align: center; margin-bottom: 1.5rem; }
+        .study-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+        .study-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.5rem; text-decoration: none; transition: all 0.3s ease; display: block; }
+        .study-card:hover { background: var(--bg-card-hover); border-color: rgba(212, 162, 84, 0.3); transform: translateY(-2px); }
+        .study-card-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent-ember); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.4rem; }
+        .study-card-title { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.4rem; }
+        .study-card-desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; }
+
+        /* Footer */
+        footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center; }
+        .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
+        .footer-section ul { list-style: none; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--accent-gold); }
+        .footer-copyright { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav { padding: 0.8rem 1rem; }
+            .nav-container { flex-direction: column; gap: 0.6rem; }
+            .logo { font-size: 1rem; }
+            .nav-links { gap: 0.6rem; flex-wrap: wrap; justify-content: center; }
+            .nav-links a { font-size: 0.8rem; }
+            .hero { padding: 2rem 1.2rem 1.5rem; }
+            .hero h1 { font-size: 2rem; }
+            .hero-subtitle { font-size: 1rem; }
+            .mode-selector { grid-template-columns: 1fr; padding: 0 1.2rem; }
+            .question-card { padding: 1.5rem; }
+            .question-text { font-size: 1.15rem; }
+            .option { padding: 0.9rem 1rem; }
+            .tulip-breakdown { grid-template-columns: repeat(5, 1fr); gap: 0.4rem; }
+            .tulip-item { padding: 0.8rem 0.3rem; }
+            .tulip-letter { font-size: 1.3rem; }
+            .tulip-name { font-size: 0.55rem; }
+            .results-score { font-size: 3rem; }
+            .results-card { padding: 2rem 1.2rem; }
+        }
+
+        @media (max-width: 480px) {
+            .tulip-breakdown { grid-template-columns: repeat(5, 1fr); gap: 0.3rem; }
+            .tulip-item { padding: 0.6rem 0.2rem; }
+            .tulip-name { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="start-here.html">Start Here</a></li>
+                <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
+                <li><a href="demolition-hub.html">Demolition</a></li>
+                <li><a href="theologians.html">Theologians</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb">
+        <a href="resources.html">&larr; Back to Resources</a>
+    </div>
+
+    <main id="main-content">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-label">Interactive &middot; 30 Questions</div>
+            <h1>How Well Do You Know the <span>Doctrines of Grace</span>?</h1>
+            <p class="hero-subtitle">Test your understanding of TULIP, election, sovereignty, and the biblical case for Reformed soteriology. Every answer comes with Scripture.</p>
+        </section>
+
+        <!-- Mode Selection -->
+        <div id="modeSelector" class="mode-selector">
+            <div class="mode-card selected" data-mode="full" onclick="selectMode('full')">
+                <div class="mode-icon">&#9775;</div>
+                <div class="mode-title">Full TULIP</div>
+                <div class="mode-desc">All five points of Calvinism — a comprehensive test of your Reformed theology knowledge.</div>
+                <div class="mode-count">30 Questions</div>
+            </div>
+            <div class="mode-card" data-mode="quick" onclick="selectMode('quick')">
+                <div class="mode-icon">&#9889;</div>
+                <div class="mode-title">Quick Test</div>
+                <div class="mode-desc">One question from each point — a fast pulse check on the essentials.</div>
+                <div class="mode-count">10 Questions</div>
+            </div>
+            <div class="mode-card" data-mode="hard" onclick="selectMode('hard')">
+                <div class="mode-icon">&#128293;</div>
+                <div class="mode-title">Theologian Mode</div>
+                <div class="mode-desc">Advanced questions on Greek terms, confessions, historical theology, and fine distinctions.</div>
+                <div class="mode-count">15 Questions</div>
+            </div>
+        </div>
+
+        <div class="start-area" id="startArea">
+            <button class="start-btn" id="startBtn" onclick="startQuiz()">Begin the Quiz</button>
+        </div>
+
+        <!-- Progress -->
+        <div class="progress-section" id="progressSection">
+            <div class="progress-info">
+                <span class="progress-text" id="progressText">Question 1 of 30</span>
+                <span class="progress-category" id="progressCategory" style="background: rgba(239,68,68,0.1); color: #ef4444;">T — Total Depravity</span>
+            </div>
+            <div class="progress-bar-track">
+                <div class="progress-bar-fill" id="progressBar" style="width: 0%"></div>
+            </div>
+            <div class="tulip-score-bar" id="tulipScoreBar">
+                <span class="tulip-pill active" data-cat="T">T: 0/6</span>
+                <span class="tulip-pill" data-cat="U">U: 0/6</span>
+                <span class="tulip-pill" data-cat="L">L: 0/6</span>
+                <span class="tulip-pill" data-cat="I">I: 0/6</span>
+                <span class="tulip-pill" data-cat="P">P: 0/6</span>
+            </div>
+        </div>
+
+        <!-- Question Area -->
+        <div class="question-area" id="questionArea">
+            <div class="question-card" id="questionCard">
+                <div class="question-number" id="questionNumber">Question 1</div>
+                <div class="question-text" id="questionText"></div>
+                <div class="options" id="optionsContainer"></div>
+                <div class="feedback" id="feedback">
+                    <div class="feedback-header" id="feedbackHeader"></div>
+                    <div class="feedback-text" id="feedbackText"></div>
+                    <div class="feedback-verse" id="feedbackVerse"></div>
+                    <span class="feedback-ref" id="feedbackRef"></span>
+                    <a class="feedback-link" id="feedbackLink" href="#" style="display:none;">Read more on this topic &rarr;</a>
+                </div>
+                <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Next Question &rarr;</button>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div class="results-area" id="resultsArea">
+            <div class="results-card">
+                <div class="results-label">Your Results</div>
+                <div class="results-score">
+                    <span class="score-num" id="scoreNum">0</span><span class="score-total" id="scoreTotal"> / 30</span>
+                </div>
+                <div class="results-percent" id="resultsPercent">0%</div>
+                <div class="results-title" id="resultsTitle"></div>
+                <div class="results-description" id="resultsDesc"></div>
+                <div class="results-verse" id="resultsVerse"></div>
+                <div class="results-verse-ref" id="resultsVerseRef"></div>
+
+                <div class="tulip-breakdown" id="tulipBreakdown">
+                    <div class="tulip-item" data-cat="T">
+                        <div class="tulip-letter">T</div>
+                        <div class="tulip-name">Total Depravity</div>
+                        <div class="tulip-score-num" id="scoreT">0/6</div>
+                        <div class="tulip-bar"><div class="tulip-bar-fill" id="barT" style="width:0%"></div></div>
+                    </div>
+                    <div class="tulip-item" data-cat="U">
+                        <div class="tulip-letter">U</div>
+                        <div class="tulip-name">Unconditional Election</div>
+                        <div class="tulip-score-num" id="scoreU">0/6</div>
+                        <div class="tulip-bar"><div class="tulip-bar-fill" id="barU" style="width:0%"></div></div>
+                    </div>
+                    <div class="tulip-item" data-cat="L">
+                        <div class="tulip-letter">L</div>
+                        <div class="tulip-name">Limited Atonement</div>
+                        <div class="tulip-score-num" id="scoreL">0/6</div>
+                        <div class="tulip-bar"><div class="tulip-bar-fill" id="barL" style="width:0%"></div></div>
+                    </div>
+                    <div class="tulip-item" data-cat="I">
+                        <div class="tulip-letter">I</div>
+                        <div class="tulip-name">Irresistible Grace</div>
+                        <div class="tulip-score-num" id="scoreI">0/6</div>
+                        <div class="tulip-bar"><div class="tulip-bar-fill" id="barI" style="width:0%"></div></div>
+                    </div>
+                    <div class="tulip-item" data-cat="P">
+                        <div class="tulip-letter">P</div>
+                        <div class="tulip-name">Perseverance of the Saints</div>
+                        <div class="tulip-score-num" id="scoreP">0/6</div>
+                        <div class="tulip-bar"><div class="tulip-bar-fill" id="barP" style="width:0%"></div></div>
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <button class="btn-primary" onclick="retakeQuiz()">Retake Quiz</button>
+                    <a href="start-here.html" class="btn-secondary">Start Here Journey</a>
+                    <a href="questions.html" class="btn-secondary">See the Evidence</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Study Recommendations -->
+        <div class="study-recs" id="studyRecs">
+            <h2 class="study-recs-title">Recommended Study</h2>
+            <div class="study-grid" id="studyGrid"></div>
+        </div>
+
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section"><h4>ADOPTED BY GRACE</h4><p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p></div>
+            <div class="footer-section"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="questions.html">The Evidence</a></li><li><a href="systematic-theology.html">Systematic</a></li><li><a href="demolition-hub.html">Demolition</a></li><li><a href="theologians.html">Theologians</a></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li></ul></div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
+    </footer>
+
+    <script>
+    // ============================================================
+    // REFORMED THEOLOGY QUIZ — 30 QUESTIONS ON TULIP
+    // ============================================================
+
+    const allQuestions = [
+        // ===================== T — TOTAL DEPRAVITY (6) =====================
+        {
+            category: "T",
+            categoryName: "Total Depravity",
+            difficulty: "standard",
+            question: "According to Reformed theology, what does 'Total Depravity' mean?",
+            options: [
+                "Every person is as evil as they could possibly be",
+                "Sin affects every part of human nature, making people unable to choose God on their own",
+                "People are born morally neutral and become sinful through their choices",
+                "Only certain people are born with a sinful nature"
+            ],
+            correct: 1,
+            explanation: "Total Depravity does not mean people are as bad as they possibly could be, but that <strong>sin has corrupted every faculty</strong> of human nature — mind, will, affections, and body — so that no one can, by their own natural ability, turn to God or even desire to.",
+            verse: "The LORD saw that the wickedness of man was great in the earth, and that every intention of the thoughts of his heart was only evil continually.",
+            ref: "Genesis 6:5 (ESV)",
+            link: "question-depravity.html"
+        },
+        {
+            category: "T",
+            categoryName: "Total Depravity",
+            difficulty: "standard",
+            question: "In Ephesians 2:1, Paul describes unbelievers as being:",
+            options: [
+                "Sick in their trespasses and sins",
+                "Weakened by their trespasses and sins",
+                "Dead in their trespasses and sins",
+                "Struggling against their trespasses and sins"
+            ],
+            correct: 2,
+            explanation: "Paul's word is <strong>dead</strong> (Greek: <em>nekrous</em>), not sick or weakened. A dead person cannot contribute to their own resurrection. This is the biblical basis for the Reformed doctrine that regeneration must <strong>precede</strong> faith — God must make the dead alive before they can believe.",
+            verse: "And you were dead in the trespasses and sins in which you once walked.",
+            ref: "Ephesians 2:1–2 (ESV)",
+            link: "question-depravity.html"
+        },
+        {
+            category: "T",
+            categoryName: "Total Depravity",
+            difficulty: "standard",
+            question: "Romans 3:10–11 teaches that in their natural state, how many people seek after God?",
+            options: [
+                "A few righteous seekers",
+                "Those with a good conscience",
+                "No one — 'none who seeks for God'",
+                "Everyone who has a religious inclination"
+            ],
+            correct: 2,
+            explanation: "Paul quotes Psalm 14 and Psalm 53 to make an airtight case: <strong>'None is righteous, no, not one; no one understands; no one seeks for God.'</strong> Every apparent 'seeking' of God by the unregenerate is actually flight from the true God — unless God first opens the heart.",
+            verse: "None is righteous, no, not one; no one understands; no one seeks for God.",
+            ref: "Romans 3:10–11 (ESV)",
+            link: "question-depravity.html"
+        },
+        {
+            category: "T",
+            categoryName: "Total Depravity",
+            difficulty: "hard",
+            question: "What is the Reformed term for the idea that regeneration (new birth) must come before faith?",
+            options: [
+                "Prevenient grace",
+                "Monergistic regeneration",
+                "Synergistic conversion",
+                "Cooperative grace"
+            ],
+            correct: 1,
+            explanation: "<strong>Monergistic regeneration</strong> means God alone (mono = one, ergon = work) accomplishes the new birth. The dead sinner contributes nothing. This stands against synergism (two working together), which teaches that human will cooperates with grace. Because the natural person <em>cannot</em> submit to God (Rom 8:7), God must act first and alone.",
+            verse: "The natural person does not accept the things of the Spirit of God, for they are folly to him, and he is not able to understand them because they are spiritually discerned.",
+            ref: "1 Corinthians 2:14 (ESV)",
+            link: "systematic-ordo-salutis.html"
+        },
+        {
+            category: "T",
+            categoryName: "Total Depravity",
+            difficulty: "standard",
+            question: "According to John 6:44, what must happen before a person can come to Jesus?",
+            options: [
+                "They must first exercise their free will",
+                "The Father must draw them",
+                "They must hear the gospel preached",
+                "They must repent of their sins"
+            ],
+            correct: 1,
+            explanation: "Jesus says, <strong>'No one can come to me unless the Father who sent me draws him.'</strong> The Greek word for 'draw' (<em>helkō</em>) means to drag or compel — the same word used for dragging a net of fish (John 21:6) or Paul being dragged (Acts 16:19). This is not a gentle wooing that can be resisted.",
+            verse: "No one can come to me unless the Father who sent me draws him. And I will raise him up on the last day.",
+            ref: "John 6:44 (ESV)",
+            link: "question-john6.html"
+        },
+        {
+            category: "T",
+            categoryName: "Total Depravity",
+            difficulty: "hard",
+            question: "In Romans 8:7–8, Paul says the 'mind that is set on the flesh' does what?",
+            options: [
+                "Struggles to obey God but sometimes succeeds",
+                "Is hostile to God and cannot submit to God's law",
+                "Can choose to turn to God if properly motivated",
+                "Is neutral toward God until confronted with the gospel"
+            ],
+            correct: 1,
+            explanation: "Paul's language is absolute: the fleshly mind <strong>is hostile to God</strong>, it <strong>does not submit</strong> to God's law, and indeed <strong>it cannot</strong> (Greek: <em>ou dunatai</em> — it is not able). This is inability, not mere unwillingness. Those in the flesh <em>cannot please God.</em>",
+            verse: "For the mind that is set on the flesh is hostile to God, for it does not submit to God's law; indeed, it cannot. Those who are in the flesh cannot please God.",
+            ref: "Romans 8:7–8 (ESV)",
+            link: "question-depravity.html"
+        },
+
+        // ===================== U — UNCONDITIONAL ELECTION (6) =====================
+        {
+            category: "U",
+            categoryName: "Unconditional Election",
+            difficulty: "standard",
+            question: "What does 'Unconditional Election' mean in Reformed theology?",
+            options: [
+                "God chose people who He foresaw would choose Him",
+                "God chose certain individuals for salvation based on nothing in them — purely by grace",
+                "Everyone is elected but some reject their election",
+                "Election is based on God's foreknowledge of good works"
+            ],
+            correct: 1,
+            explanation: "Unconditional Election means God's choice of individuals for salvation is <strong>not based on any foreseen faith, merit, or goodness in them</strong>. It is entirely an act of sovereign grace. If election were based on foreseen faith, it would be <em>conditional</em> — and grace would no longer be grace.",
+            verse: "He chose us in him before the foundation of the world, that we should be holy and blameless before him. In love he predestined us for adoption to himself as sons.",
+            ref: "Ephesians 1:4–5 (ESV)",
+            link: "question-chosen.html"
+        },
+        {
+            category: "U",
+            categoryName: "Unconditional Election",
+            difficulty: "standard",
+            question: "In Romans 9:11–13, God chose Jacob over Esau on what basis?",
+            options: [
+                "Jacob's superior faith",
+                "Jacob's future good works",
+                "Neither had done anything good or bad — it was God's purpose in election",
+                "Jacob's willingness to follow God"
+            ],
+            correct: 2,
+            explanation: "Paul is emphatic: <strong>'though they were not yet born and had done nothing either good or bad — in order that God's purpose of election might continue, not because of works but because of him who calls.'</strong> Election rests on God's sovereign purpose, not human merit.",
+            verse: "Though they were not yet born and had done nothing either good or bad — in order that God's purpose of election might continue, not because of works but because of him who calls.",
+            ref: "Romans 9:11 (ESV)",
+            link: "question-romans9.html"
+        },
+        {
+            category: "U",
+            categoryName: "Unconditional Election",
+            difficulty: "standard",
+            question: "According to Acts 13:48, who believed the gospel?",
+            options: [
+                "Everyone who heard the message",
+                "Those who had prepared their hearts beforehand",
+                "As many as were appointed to eternal life",
+                "Those who exercised their free will"
+            ],
+            correct: 2,
+            explanation: "Luke records: <strong>'And as many as were appointed to eternal life believed.'</strong> The order is crucial — appointment comes first, belief follows. The Greek <em>tetagmenoi</em> (appointed/ordained) is a passive participle: these people were appointed <em>by God</em>, and the result was that they believed.",
+            verse: "And when the Gentiles heard this, they began rejoicing and glorifying the word of the Lord, and as many as were appointed to eternal life believed.",
+            ref: "Acts 13:48 (ESV)",
+            link: "question-acts.html"
+        },
+        {
+            category: "U",
+            categoryName: "Unconditional Election",
+            difficulty: "hard",
+            question: "What does the Reformed understanding of 'foreknowledge' (prognosis) in Romans 8:29 mean?",
+            options: [
+                "God simply knew in advance who would choose Him",
+                "God foreknew facts about people's future decisions",
+                "God fore-loved or set His affection on specific people beforehand",
+                "God predicted future events based on probability"
+            ],
+            correct: 2,
+            explanation: "In biblical usage, 'to know' (<em>ginōskō</em> / <em>yada</em>) often means <strong>intimate, covenantal love</strong> — not mere intellectual awareness. 'Those whom he foreknew' means <strong>'those whom he fore-loved.'</strong> God doesn't merely foresee faith; He causes it. Compare Genesis 18:19, Amos 3:2, Matthew 7:23.",
+            verse: "For those whom he foreknew he also predestined to be conformed to the image of his Son.",
+            ref: "Romans 8:29 (ESV)",
+            link: "question-foreknowledge.html"
+        },
+        {
+            category: "U",
+            categoryName: "Unconditional Election",
+            difficulty: "standard",
+            question: "In John 15:16, Jesus tells His disciples:",
+            options: [
+                "'You chose me, and I confirmed your choice'",
+                "'You did not choose me, but I chose you'",
+                "'We chose each other in mutual love'",
+                "'You chose wisely by following me'"
+            ],
+            correct: 1,
+            explanation: "Jesus is unambiguous: <strong>'You did not choose me, but I chose you and appointed you.'</strong> The initiative in salvation is entirely God's. Disciples imagine they found Christ, but the reality is that Christ found them — before the foundation of the world.",
+            verse: "You did not choose me, but I chose you and appointed you that you should go and bear fruit and that your fruit should abide.",
+            ref: "John 15:16 (ESV)",
+            link: "question-john15.html"
+        },
+        {
+            category: "U",
+            categoryName: "Unconditional Election",
+            difficulty: "hard",
+            question: "2 Timothy 1:9 says God saved us and called us 'not because of our works but because of':",
+            options: [
+                "Our faith which He foresaw",
+                "His own purpose and grace, given before the ages began",
+                "Our potential for holiness",
+                "Our response to the gospel"
+            ],
+            correct: 1,
+            explanation: "Paul writes that God <strong>'saved us and called us to a holy calling, not because of our works but because of his own purpose and grace, which he gave us in Christ Jesus before the ages began.'</strong> Grace was given to specific people <em>before time</em> — before anyone existed to have faith or do works.",
+            verse: "...who saved us and called us to a holy calling, not because of our works but because of his own purpose and grace, which he gave us in Christ Jesus before the ages began.",
+            ref: "2 Timothy 1:9 (ESV)",
+            link: "question-chosen.html"
+        },
+
+        // ===================== L — LIMITED ATONEMENT (6) =====================
+        {
+            category: "L",
+            categoryName: "Limited Atonement",
+            difficulty: "standard",
+            question: "What does 'Limited Atonement' (or Definite Atonement / Particular Redemption) teach?",
+            options: [
+                "Christ's death was limited in its power and value",
+                "Christ died to make salvation merely possible for all people",
+                "Christ died to actually secure salvation for the elect — His sheep",
+                "Christ's atonement only applies to those who lived after the cross"
+            ],
+            correct: 2,
+            explanation: "Definite Atonement teaches that Christ's death was <strong>infinite in value but specific in intention</strong>. He didn't die to make salvation merely possible — He died to <strong>actually save</strong> His people. The atonement accomplished what it was designed to accomplish: the certain redemption of the elect.",
+            verse: "I am the good shepherd. The good shepherd lays down his life for the sheep.",
+            ref: "John 10:11 (ESV)",
+            link: "question-john10.html"
+        },
+        {
+            category: "L",
+            categoryName: "Limited Atonement",
+            difficulty: "standard",
+            question: "In John 10:14–15, Jesus says He lays down His life for whom?",
+            options: [
+                "Every single person who ever lived",
+                "Those who will eventually accept Him",
+                "His sheep — those given to Him by the Father",
+                "The entire world without distinction"
+            ],
+            correct: 2,
+            explanation: "Jesus says, <strong>'I know my own and my own know me... and I lay down my life for the sheep.'</strong> He distinguishes His sheep from those who are <em>not</em> His sheep (v.26). The atonement is for a <strong>particular people</strong> — those the Father gave Him.",
+            verse: "I am the good shepherd. I know my own and my own know me, just as the Father knows me and I know the Father; and I lay down my life for the sheep.",
+            ref: "John 10:14–15 (ESV)",
+            link: "question-john10.html"
+        },
+        {
+            category: "L",
+            categoryName: "Limited Atonement",
+            difficulty: "hard",
+            question: "John Owen's famous 'trilemma' argument states that Christ died for:",
+            options: [
+                "All the sins of all people (universalism), some sins of all people, or all the sins of some people",
+                "Everyone equally with the same intent and effect",
+                "Only those who would eventually believe of their own free will",
+                "The entire world in a general sense but the elect in a particular sense"
+            ],
+            correct: 0,
+            explanation: "Owen's trilemma: Christ bore either (1) all sins of all people — then all are saved (universalism); (2) some sins of all people — then no one is saved (everyone still has unforgiven sins); or (3) <strong>all the sins of some people</strong> — then those people are certainly saved. Only option 3 is consistent with Scripture and avoids universalism.",
+            verse: "He is the propitiation for our sins, and not for ours only but also for the sins of the whole world.",
+            ref: "1 John 2:2 (ESV) — see the full demolition of this Arminian proof-text",
+            link: "demolition-1john2-2.html"
+        },
+        {
+            category: "L",
+            categoryName: "Limited Atonement",
+            difficulty: "standard",
+            question: "In Ephesians 5:25, Paul compares Christ's love for the church to a husband's love, saying Christ:",
+            options: [
+                "Offered Himself to everyone equally",
+                "Gave Himself up for the church specifically",
+                "Made salvation available to anyone who wants it",
+                "Died as a moral example for all"
+            ],
+            correct: 1,
+            explanation: "Paul writes: <strong>'Christ loved the church and gave himself up for her.'</strong> The atonement has a specific bride in view. Christ didn't die for an abstract, undefined group — He died for <em>His church</em>, His chosen bride, to 'sanctify her' and 'present her in splendor.'",
+            verse: "Husbands, love your wives, as Christ loved the church and gave himself up for her.",
+            ref: "Ephesians 5:25 (ESV)",
+            link: "question-john10.html"
+        },
+        {
+            category: "L",
+            categoryName: "Limited Atonement",
+            difficulty: "hard",
+            question: "The Greek word 'hilasmos' (propitiation) in 1 John 2:2 means Christ's death:",
+            options: [
+                "Made God merely willing to forgive if we choose Him",
+                "Actually turned away God's wrath — accomplishing real reconciliation",
+                "Was a symbolic gesture of love toward humanity",
+                "Removed the possibility of hell for everyone"
+            ],
+            correct: 1,
+            explanation: "<strong>Propitiation</strong> (<em>hilasmos</em>) means the <strong>actual satisfaction of God's wrath</strong>. It is not a potential or hypothetical accomplishment — it is real, definite, accomplished. If Christ's propitiation is actual and universal, then universalism follows. Since universalism is false, the propitiation must be particular — for the elect.",
+            verse: "In this is love, not that we have loved God but that he loved us and sent his Son to be the propitiation for our sins.",
+            ref: "1 John 4:10 (ESV)",
+            link: "demolition-1john2-2.html"
+        },
+        {
+            category: "L",
+            categoryName: "Limited Atonement",
+            difficulty: "standard",
+            question: "Matthew 1:21 says Jesus will save His people from their sins. What does 'will save' indicate?",
+            options: [
+                "A mere possibility that depends on human response",
+                "A guaranteed promise — He WILL accomplish it",
+                "A general hope for humanity",
+                "A conditional offer pending human acceptance"
+            ],
+            correct: 1,
+            explanation: "The angel declares: <strong>'He will save his people from their sins.'</strong> Not 'He will <em>try</em> to save,' not 'He will <em>make salvation possible</em>.' The atonement is a certain accomplishment, and it has a definite target: <em>His people</em>. The intent and the effect are identical.",
+            verse: "She will bear a son, and you shall call his name Jesus, for he will save his people from their sins.",
+            ref: "Matthew 1:21 (ESV)",
+            link: "question-john10.html"
+        },
+
+        // ===================== I — IRRESISTIBLE GRACE (6) =====================
+        {
+            category: "I",
+            categoryName: "Irresistible Grace",
+            difficulty: "standard",
+            question: "What does 'Irresistible Grace' (or Effectual Calling) mean?",
+            options: [
+                "God forces people to believe against their will",
+                "When God effectually calls someone, He changes their heart so they willingly and joyfully come to Christ",
+                "Grace is given to all people equally but some resist it",
+                "God overwhelms human reason with miraculous signs"
+            ],
+            correct: 1,
+            explanation: "Irresistible Grace does <strong>not</strong> mean God drags people kicking and screaming. It means God <strong>changes the heart</strong> so that the previously unwilling sinner becomes willing. The effectual call makes us <em>want</em> to come. It is not coercion — it is liberation. The dead are made alive, and the alive believe.",
+            verse: "I will give you a new heart, and a new spirit I will put within you. And I will remove the heart of stone from your flesh and give you a heart of flesh.",
+            ref: "Ezekiel 36:26 (ESV)",
+            link: "question-irresistible.html"
+        },
+        {
+            category: "I",
+            categoryName: "Irresistible Grace",
+            difficulty: "standard",
+            question: "In Acts 16:14, how did Lydia come to believe?",
+            options: [
+                "She decided on her own after hearing Paul's logic",
+                "The Lord opened her heart to pay attention to what was said by Paul",
+                "She was persuaded by miraculous signs and wonders",
+                "She had always been seeking God and finally found the truth"
+            ],
+            correct: 1,
+            explanation: "Luke records: <strong>'The Lord opened her heart to pay attention to what was said by Paul.'</strong> Notice the order — God opened her heart <em>first</em>, and <em>then</em> she paid attention. The effectual call precedes faith. God doesn't wait for us to open our hearts — He opens them.",
+            verse: "The Lord opened her heart to pay attention to what was said by Paul.",
+            ref: "Acts 16:14 (ESV)",
+            link: "question-irresistible.html"
+        },
+        {
+            category: "I",
+            categoryName: "Irresistible Grace",
+            difficulty: "standard",
+            question: "According to John 6:37, what happens to everyone the Father gives to Jesus?",
+            options: [
+                "They are given the opportunity to come but may refuse",
+                "They will come to Jesus — and He will never cast them out",
+                "They might come if they choose to cooperate with grace",
+                "They receive common grace but must activate saving grace"
+            ],
+            correct: 1,
+            explanation: "Jesus says: <strong>'All that the Father gives me will come to me, and whoever comes to me I will never cast out.'</strong> Two promises in one verse: (1) every person the Father gives to the Son <em>will</em> come — the drawing is effectual; (2) none who come will ever be rejected. Grace is both irresistible and preserving.",
+            verse: "All that the Father gives me will come to me, and whoever comes to me I will never cast out.",
+            ref: "John 6:37 (ESV)",
+            link: "question-john6.html"
+        },
+        {
+            category: "I",
+            categoryName: "Irresistible Grace",
+            difficulty: "hard",
+            question: "Philippians 1:29 says faith is:",
+            options: [
+                "The natural response of a good heart",
+                "Something we generate through our own will",
+                "Granted (given) by God — 'it has been granted to you to believe'",
+                "The result of sufficient evidence and human reasoning"
+            ],
+            correct: 2,
+            explanation: "Paul writes: <strong>'For it has been granted to you that for the sake of Christ you should not only believe in him but also suffer for his sake.'</strong> The Greek <em>echaristhē</em> (from <em>charis</em>, grace) means 'it has been graciously given.' Faith itself is a <strong>gift of God</strong>, not a human contribution to salvation.",
+            verse: "For it has been granted to you that for the sake of Christ you should not only believe in him but also suffer for his sake.",
+            ref: "Philippians 1:29 (ESV)",
+            link: "question-faithgift.html"
+        },
+        {
+            category: "I",
+            categoryName: "Irresistible Grace",
+            difficulty: "hard",
+            question: "What is the difference between the 'external call' and the 'effectual (internal) call' in Reformed theology?",
+            options: [
+                "There is no difference — all who hear are called equally",
+                "The external call is the gospel proclaimed to all; the effectual call is the Holy Spirit's work that regenerates and draws the elect",
+                "The external call is for the elect; the internal call is for everyone",
+                "The external call comes through Scripture; the internal call comes through nature"
+            ],
+            correct: 1,
+            explanation: "The <strong>external call</strong> is the gospel proclaimed to all hearers — many are called in this sense (Matt 22:14). The <strong>effectual call</strong> is the inward work of the Holy Spirit that <em>actually regenerates</em> the heart, making the sinner willing and able to believe. All who are effectually called <strong>will</strong> come to faith.",
+            verse: "For many are called, but few are chosen.",
+            ref: "Matthew 22:14 (ESV)",
+            link: "question-irresistible.html"
+        },
+        {
+            category: "I",
+            categoryName: "Irresistible Grace",
+            difficulty: "standard",
+            question: "In John 3:3–8, Jesus tells Nicodemus that seeing the kingdom of God requires:",
+            options: [
+                "Making a personal decision for Christ",
+                "Being born again — and the Spirit blows where He wills",
+                "Performing righteous works to earn entrance",
+                "Following Jewish law more carefully"
+            ],
+            correct: 1,
+            explanation: "Jesus says: <strong>'Unless one is born again he cannot see the kingdom of God.'</strong> And He compares the Spirit's work to wind: <strong>'The wind blows where it wishes... So it is with everyone who is born of the Spirit.'</strong> Regeneration is sovereign — God decides when and where the Spirit gives new life. We don't choose to be born.",
+            verse: "The wind blows where it wishes, and you hear its sound, but you do not know where it comes from or where it goes. So it is with everyone who is born of the Spirit.",
+            ref: "John 3:8 (ESV)",
+            link: "question-newheart.html"
+        },
+
+        // ===================== P — PERSEVERANCE OF THE SAINTS (6) =====================
+        {
+            category: "P",
+            categoryName: "Perseverance of the Saints",
+            difficulty: "standard",
+            question: "What does 'Perseverance of the Saints' teach?",
+            options: [
+                "Christians must earn their salvation by persevering in good works",
+                "Those truly saved by God will persevere in faith to the end — God preserves them",
+                "Once saved, a person can live however they want without consequences",
+                "Salvation depends on maintaining sinless perfection"
+            ],
+            correct: 1,
+            explanation: "Perseverance of the Saints means that <strong>those whom God has truly regenerated will persevere in faith to the end</strong> — not by their own strength, but because <strong>God preserves them</strong>. It is better called 'the Preservation of the Saints.' They persevere <em>because</em> God perseveres with them.",
+            verse: "And I am sure of this, that he who began a good work in you will bring it to completion at the day of Jesus Christ.",
+            ref: "Philippians 1:6 (ESV)",
+            link: "question-perseverance.html"
+        },
+        {
+            category: "P",
+            categoryName: "Perseverance of the Saints",
+            difficulty: "standard",
+            question: "In John 10:28–29, Jesus says about His sheep:",
+            options: [
+                "'They may fall away if they stop believing'",
+                "'I give them eternal life, and they will never perish, and no one will snatch them out of my hand'",
+                "'They must hold on tightly or they will be lost'",
+                "'Their salvation depends on their continued obedience'"
+            ],
+            correct: 1,
+            explanation: "Jesus declares: <strong>'I give them eternal life, and they will never perish, and no one will snatch them out of my hand. My Father, who has given them to me, is greater than all, and no one is able to snatch them out of the Father's hand.'</strong> Double security — held by both the Son and the Father. <em>No one</em> includes the believer themselves.",
+            verse: "I give them eternal life, and they will never perish, and no one will snatch them out of my hand.",
+            ref: "John 10:28 (ESV)",
+            link: "question-john10.html"
+        },
+        {
+            category: "P",
+            categoryName: "Perseverance of the Saints",
+            difficulty: "standard",
+            question: "Romans 8:29–30 describes what Reformed theologians call 'the golden chain.' What is significant about it?",
+            options: [
+                "It shows salvation is a cooperative effort between God and man",
+                "Every link — foreknown, predestined, called, justified, glorified — is completed by God with no one lost between steps",
+                "It's a list of things believers must accomplish",
+                "It describes the general path of religious development"
+            ],
+            correct: 1,
+            explanation: "The 'golden chain' is unbreakable: <strong>'Those whom he foreknew he also predestined... called... justified... glorified.'</strong> Notice: everyone foreknown is glorified. No one drops out between links. The same group passes through every stage — not one is lost. God finishes what He starts.",
+            verse: "For those whom he foreknew he also predestined to be conformed to the image of his Son... And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified.",
+            ref: "Romans 8:29–30 (ESV)",
+            link: "question-goldchain.html"
+        },
+        {
+            category: "P",
+            categoryName: "Perseverance of the Saints",
+            difficulty: "hard",
+            question: "Ephesians 1:13–14 describes believers as being 'sealed with the Holy Spirit.' What does this sealing guarantee?",
+            options: [
+                "Temporary protection that can be lost through serious sin",
+                "A conditional promise based on continued faithfulness",
+                "The guaranteed inheritance — the Spirit is the 'down payment' of our redemption",
+                "Protection only from physical harm"
+            ],
+            correct: 2,
+            explanation: "Paul writes that believers are <strong>sealed</strong> with the Holy Spirit, who is the <strong>guarantee</strong> (Greek: <em>arrabōn</em> — down payment, earnest money) of our inheritance. A seal in the ancient world marked <em>ownership and security</em>. God has put His seal on His people — the deal is done.",
+            verse: "In him you also, when you heard the word of truth, the gospel of your salvation, and believed in him, were sealed with the promised Holy Spirit, who is the guarantee of our inheritance.",
+            ref: "Ephesians 1:13–14 (ESV)",
+            link: "question-sealed.html"
+        },
+        {
+            category: "P",
+            categoryName: "Perseverance of the Saints",
+            difficulty: "standard",
+            question: "Romans 8:38–39 says that nothing can separate us from the love of God. Paul lists:",
+            options: [
+                "Only a few dangers — but leaves room for exceptions",
+                "Death, life, angels, rulers, things present, things to come, powers, height, depth, nor anything else in all creation",
+                "External threats only — internal sin can still separate us",
+                "Spiritual enemies only — physical circumstances can separate us"
+            ],
+            correct: 1,
+            explanation: "Paul's list is <strong>exhaustive and comprehensive</strong>: <em>death, life, angels, rulers, things present, things to come, powers, height, depth, nor anything else in all creation.</em> The phrase 'anything else in all creation' is the catch-all — <strong>nothing</strong> in the created order (which includes us) can sever us from God's love in Christ.",
+            verse: "For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.",
+            ref: "Romans 8:38–39 (ESV)",
+            link: "question-perseverance.html"
+        },
+        {
+            category: "P",
+            categoryName: "Perseverance of the Saints",
+            difficulty: "hard",
+            question: "Jude 24 describes God as 'him who is able to keep you from stumbling.' The Greek word for 'keep' (phulaxai) means:",
+            options: [
+                "To offer guidance that can be ignored",
+                "To guard, protect, and preserve — as a sentinel guards a treasure",
+                "To give occasional assistance when asked",
+                "To set general boundaries but allow wandering"
+            ],
+            correct: 1,
+            explanation: "<strong><em>Phulaxai</em></strong> means to guard, watch over, keep safe — like a soldier standing sentinel. God is not merely offering help — He is <strong>actively preserving</strong> His people. And He will 'present you blameless before the presence of his glory with great joy.' Our final presentation before God is <em>His</em> accomplishment, not ours.",
+            verse: "Now to him who is able to keep you from stumbling and to present you blameless before the presence of his glory with great joy.",
+            ref: "Jude 24 (ESV)",
+            link: "question-perseverance.html"
+        }
+    ];
+
+    // ============================================================
+    // QUIZ ENGINE
+    // ============================================================
+
+    let currentMode = 'full';
+    let activeQuestions = [];
+    let currentIndex = 0;
+    let score = 0;
+    let categoryScores = { T: 0, U: 0, L: 0, I: 0, P: 0 };
+    let categoryTotals = { T: 0, U: 0, L: 0, I: 0, P: 0 };
+    let answered = false;
+
+    const categoryColors = {
+        T: { bg: 'rgba(239,68,68,0.1)', color: '#ef4444', name: 'Total Depravity' },
+        U: { bg: 'rgba(245,158,11,0.1)', color: '#f59e0b', name: 'Unconditional Election' },
+        L: { bg: 'rgba(139,92,246,0.1)', color: '#8b5cf6', name: 'Limited Atonement' },
+        I: { bg: 'rgba(59,130,246,0.1)', color: '#3b82f6', name: 'Irresistible Grace' },
+        P: { bg: 'rgba(52,211,153,0.1)', color: '#34d399', name: 'Perseverance of the Saints' }
+    };
+
+    function selectMode(mode) {
+        currentMode = mode;
+        document.querySelectorAll('.mode-card').forEach(c => c.classList.remove('selected'));
+        document.querySelector('[data-mode="' + mode + '"]').classList.add('selected');
+    }
+
+    function shuffleArray(arr) {
+        const a = [...arr];
+        for (let i = a.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+    }
+
+    function startQuiz() {
+        // Select questions based on mode
+        if (currentMode === 'full') {
+            activeQuestions = shuffleArray(allQuestions);
+        } else if (currentMode === 'quick') {
+            // 2 from each category
+            activeQuestions = [];
+            ['T','U','L','I','P'].forEach(cat => {
+                const catQs = shuffleArray(allQuestions.filter(q => q.category === cat && q.difficulty === 'standard'));
+                activeQuestions.push(...catQs.slice(0, 2));
+            });
+            activeQuestions = shuffleArray(activeQuestions);
+        } else if (currentMode === 'hard') {
+            // All hard questions + 1 standard from each category
+            const hardQs = allQuestions.filter(q => q.difficulty === 'hard');
+            const standardExtras = [];
+            ['T','U','L','I','P'].forEach(cat => {
+                const catStd = shuffleArray(allQuestions.filter(q => q.category === cat && q.difficulty === 'standard'));
+                standardExtras.push(catStd[0]);
+            });
+            activeQuestions = shuffleArray([...hardQs, ...standardExtras]);
+        }
+
+        // Reset scores
+        score = 0;
+        currentIndex = 0;
+        categoryScores = { T: 0, U: 0, L: 0, I: 0, P: 0 };
+        categoryTotals = { T: 0, U: 0, L: 0, I: 0, P: 0 };
+        activeQuestions.forEach(q => categoryTotals[q.category]++);
+
+        // Update UI
+        document.getElementById('modeSelector').style.display = 'none';
+        document.getElementById('startArea').style.display = 'none';
+        document.getElementById('progressSection').classList.add('visible');
+        document.getElementById('questionArea').classList.add('visible');
+        document.getElementById('resultsArea').classList.remove('visible');
+        document.getElementById('studyRecs').classList.remove('visible');
+
+        updateTulipPills();
+        showQuestion();
+    }
+
+    function showQuestion() {
+        const q = activeQuestions[currentIndex];
+        answered = false;
+
+        // Update progress
+        document.getElementById('progressText').textContent = 'Question ' + (currentIndex + 1) + ' of ' + activeQuestions.length;
+        document.getElementById('progressBar').style.width = ((currentIndex / activeQuestions.length) * 100) + '%';
+
+        const catInfo = categoryColors[q.category];
+        const catEl = document.getElementById('progressCategory');
+        catEl.textContent = q.category + ' — ' + catInfo.name;
+        catEl.style.background = catInfo.bg;
+        catEl.style.color = catInfo.color;
+
+        // Highlight active TULIP pill
+        document.querySelectorAll('.tulip-pill').forEach(p => p.classList.remove('active'));
+        document.querySelector('.tulip-pill[data-cat="' + q.category + '"]').classList.add('active');
+
+        // Render question
+        document.getElementById('questionNumber').textContent = 'Question ' + (currentIndex + 1);
+        document.getElementById('questionText').textContent = q.question;
+
+        // Animate card
+        const card = document.getElementById('questionCard');
+        card.style.animation = 'none';
+        card.offsetHeight; // trigger reflow
+        card.style.animation = 'fadeSlideIn 0.5s ease';
+
+        // Render options
+        const container = document.getElementById('optionsContainer');
+        container.innerHTML = '';
+        const letters = ['A', 'B', 'C', 'D'];
+        q.options.forEach((opt, i) => {
+            const div = document.createElement('div');
+            div.className = 'option';
+            div.setAttribute('role', 'button');
+            div.setAttribute('tabindex', '0');
+            div.setAttribute('aria-label', letters[i] + ': ' + opt);
+            div.innerHTML = '<span class="option-letter">' + letters[i] + '</span><span class="option-text">' + opt + '</span>';
+            div.onclick = () => selectAnswer(i);
+            div.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); selectAnswer(i); } };
+            container.appendChild(div);
+        });
+
+        // Hide feedback and next
+        document.getElementById('feedback').classList.remove('visible', 'correct-feedback', 'wrong-feedback');
+        document.getElementById('nextBtn').classList.remove('visible');
+    }
+
+    function selectAnswer(index) {
+        if (answered) return;
+        answered = true;
+
+        const q = activeQuestions[currentIndex];
+        const options = document.querySelectorAll('.option');
+
+        // Disable all options
+        options.forEach(o => o.classList.add('disabled'));
+
+        // Mark correct and selected
+        options[q.correct].classList.add('correct');
+        if (index !== q.correct) {
+            options[index].classList.add('wrong');
+        }
+
+        // Update score
+        const isCorrect = index === q.correct;
+        if (isCorrect) {
+            score++;
+            categoryScores[q.category]++;
+        }
+
+        // Update TULIP pills
+        updateTulipPills();
+
+        // Show feedback
+        const fb = document.getElementById('feedback');
+        fb.classList.remove('correct-feedback', 'wrong-feedback');
+        fb.classList.add('visible', isCorrect ? 'correct-feedback' : 'wrong-feedback');
+        document.getElementById('feedbackHeader').textContent = isCorrect ? 'Correct!' : 'Not quite — here is the truth:';
+        document.getElementById('feedbackText').innerHTML = q.explanation;
+        document.getElementById('feedbackVerse').textContent = '"' + q.verse + '"';
+        document.getElementById('feedbackRef').textContent = '— ' + q.ref;
+
+        const link = document.getElementById('feedbackLink');
+        if (q.link) {
+            link.href = q.link;
+            link.style.display = 'inline-block';
+        } else {
+            link.style.display = 'none';
+        }
+
+        // Show next button
+        document.getElementById('nextBtn').classList.add('visible');
+        document.getElementById('nextBtn').textContent = currentIndex < activeQuestions.length - 1 ? 'Next Question \u2192' : 'See Your Results \u2192';
+    }
+
+    function nextQuestion() {
+        currentIndex++;
+        if (currentIndex < activeQuestions.length) {
+            showQuestion();
+            // Scroll to top of question
+            document.getElementById('progressSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else {
+            showResults();
+        }
+    }
+
+    function updateTulipPills() {
+        ['T','U','L','I','P'].forEach(cat => {
+            const pill = document.querySelector('.tulip-pill[data-cat="' + cat + '"]');
+            pill.textContent = cat + ': ' + categoryScores[cat] + '/' + categoryTotals[cat];
+        });
+    }
+
+    function showResults() {
+        document.getElementById('progressSection').classList.remove('visible');
+        document.getElementById('questionArea').classList.remove('visible');
+        document.getElementById('resultsArea').classList.add('visible');
+
+        const total = activeQuestions.length;
+        const pct = Math.round((score / total) * 100);
+
+        document.getElementById('scoreNum').textContent = score;
+        document.getElementById('scoreTotal').textContent = ' / ' + total;
+        document.getElementById('resultsPercent').textContent = pct + '%';
+
+        // Title and description based on score
+        let title, desc, verse, ref;
+        if (pct >= 90) {
+            title = "A Faithful Student of the Word";
+            desc = "You demonstrate a deep understanding of Reformed soteriology. The doctrines of grace are not merely academic to you — they are the foundation of your worship. Continue to grow in the knowledge and grace of our Lord.";
+            verse = '"But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be the glory both now and to the day of eternity."';
+            ref = "2 Peter 3:18 (ESV)";
+        } else if (pct >= 70) {
+            title = "Growing in Grace and Knowledge";
+            desc = "You have a solid foundation in the doctrines of grace. There are areas where deeper study will strengthen your understanding. Let Scripture be your guide as you continue exploring the riches of God's sovereign grace.";
+            verse = '"For the LORD gives wisdom; from his mouth come knowledge and understanding."';
+            ref = "Proverbs 2:6 (ESV)";
+        } else if (pct >= 50) {
+            title = "A Seeker of Truth";
+            desc = "You're on the right path. The doctrines of grace can feel overwhelming at first, but Scripture is clear. We encourage you to explore the evidence pages and let the Word speak for itself. God is faithful to illumine His truth.";
+            verse = '"Open my eyes, that I may behold wondrous things out of your law."';
+            ref = "Psalm 119:18 (ESV)";
+        } else {
+            title = "The Journey Begins Here";
+            desc = "Whether you're new to Reformed theology or coming from a different tradition, there is beauty and comfort in these truths. God's sovereignty in salvation is the greatest news in the universe. Start with the evidence — let Scripture convince you.";
+            verse = '"Come now, let us reason together, says the LORD."';
+            ref = "Isaiah 1:18 (ESV)";
+        }
+
+        document.getElementById('resultsTitle').textContent = title;
+        document.getElementById('resultsDesc').textContent = desc;
+        document.getElementById('resultsVerse').textContent = verse;
+        document.getElementById('resultsVerseRef').textContent = ref;
+
+        // TULIP breakdown
+        ['T','U','L','I','P'].forEach(cat => {
+            const catTotal = categoryTotals[cat];
+            const catScore = categoryScores[cat];
+            const catPct = catTotal > 0 ? Math.round((catScore / catTotal) * 100) : 0;
+            document.getElementById('score' + cat).textContent = catScore + '/' + catTotal;
+            setTimeout(() => {
+                document.getElementById('bar' + cat).style.width = catPct + '%';
+            }, 300);
+        });
+
+        // Study recommendations based on weakest areas
+        generateStudyRecs();
+
+        // Scroll to results
+        document.getElementById('resultsArea').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function generateStudyRecs() {
+        const recs = [];
+        const weaknesses = [];
+
+        ['T','U','L','I','P'].forEach(cat => {
+            const total = categoryTotals[cat];
+            if (total === 0) return;
+            const pct = (categoryScores[cat] / total) * 100;
+            if (pct < 80) weaknesses.push(cat);
+        });
+
+        const recMap = {
+            T: [
+                { label: 'Deep Dive', title: 'Total Depravity — Man\'s Complete Inability', desc: 'Romans 3, Ephesians 2, Genesis 6 — the biblical case for total depravity.', href: 'question-depravity.html' },
+                { label: 'Systematic', title: 'The Ordo Salutis', desc: 'Understand the order of salvation and why regeneration precedes faith.', href: 'systematic-ordo-salutis.html' }
+            ],
+            U: [
+                { label: 'Deep Dive', title: 'Chosen Before the Foundation', desc: 'Ephesians 1:3-11 — the biblical case for unconditional election.', href: 'question-chosen.html' },
+                { label: 'Deep Dive', title: 'Romans 9 — Vessels of Mercy', desc: 'The definitive passage on God\'s sovereign choice.', href: 'question-romans9.html' }
+            ],
+            L: [
+                { label: 'Deep Dive', title: 'John 10 — My Sheep Hear My Voice', desc: 'Christ lays down His life for His sheep — definite atonement.', href: 'question-john10.html' },
+                { label: 'Demolition', title: '1 John 2:2 — Owen\'s Trilemma', desc: 'The most misused proof-text against particular redemption, demolished.', href: 'demolition-1john2-2.html' }
+            ],
+            I: [
+                { label: 'Deep Dive', title: 'Irresistible Grace / Effectual Calling', desc: 'John 6:37, Philippians 1:29, Acts 16:14 — when God calls, the dead live.', href: 'question-irresistible.html' },
+                { label: 'Deep Dive', title: 'Is Faith a Gift?', desc: 'Ephesians 2:8-9 — the biblical case that faith itself is God\'s gift.', href: 'question-faithgift.html' }
+            ],
+            P: [
+                { label: 'Deep Dive', title: 'Perseverance of the Saints', desc: 'John 10:28-29, Romans 8:35-39, Philippians 1:6 — eternal security.', href: 'question-perseverance.html' },
+                { label: 'Deep Dive', title: 'The Golden Chain — Romans 8:29-30', desc: 'An unbreakable chain from foreknowledge to glorification.', href: 'question-goldchain.html' }
+            ]
+        };
+
+        if (weaknesses.length === 0) {
+            // Perfect or near-perfect — recommend advanced study
+            recs.push({ label: 'Advanced', title: 'Systematic Theology Series', desc: 'Go deeper into covenant theology, divine decrees, compatibilism, and the ordo salutis.', href: 'systematic-theology.html' });
+            recs.push({ label: 'Historical', title: 'The Cloud of Witnesses', desc: 'Explore the great Reformed theologians from Augustine to Spurgeon.', href: 'theologians.html' });
+            recs.push({ label: 'Apologetics', title: 'Demolition Zone', desc: 'See the most misused anti-Calvinism proof-texts demolished.', href: 'demolition-hub.html' });
+        } else {
+            weaknesses.forEach(cat => {
+                recs.push(...recMap[cat]);
+            });
+        }
+
+        const grid = document.getElementById('studyGrid');
+        grid.innerHTML = '';
+        recs.slice(0, 6).forEach(rec => {
+            const a = document.createElement('a');
+            a.className = 'study-card';
+            a.href = rec.href;
+            a.innerHTML = '<div class="study-card-label">' + rec.label + '</div><div class="study-card-title">' + rec.title + '</div><div class="study-card-desc">' + rec.desc + '</div>';
+            grid.appendChild(a);
+        });
+
+        document.getElementById('studyRecs').classList.add('visible');
+    }
+
+    function retakeQuiz() {
+        document.getElementById('resultsArea').classList.remove('visible');
+        document.getElementById('studyRecs').classList.remove('visible');
+        document.getElementById('modeSelector').style.display = '';
+        document.getElementById('startArea').style.display = '';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    </script>
+</body>
+</html>
