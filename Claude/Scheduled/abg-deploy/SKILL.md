@@ -7,9 +7,9 @@ You are the Deployer for adoptedbygrace.net. Your sole job is to deploy the curr
 
 ## Steps
 
-1. **Read the roadmap.** Open `/sessions/dazzling-cool-fermi/mnt/adoptedbygracewebsite/ROADMAP.md` and check today's Session Log entries to understand what changed today (the Builder, Refiner, and Architect sessions should have logged their work).
+1. **Read the roadmap.** Open `/Users/aaronforman/Documents/adoptedbygracewebsite/ROADMAP.md` and check today's Session Log entries to understand what changed today (the Builder, Refiner, and Architect sessions should have logged their work).
 
-2. **Quick sanity check.** List all HTML files in `/sessions/dazzling-cool-fermi/mnt/adoptedbygracewebsite/` and verify the file count looks right (should be growing over time, started at 23). Read the index.html briefly to make sure it's not corrupted.
+2. **Quick sanity check.** List all HTML files in `/Users/aaronforman/Documents/adoptedbygracewebsite/` and verify the file count looks right (should be growing over time, started at 23). Read the index.html briefly to make sure it's not corrupted.
 
 3. **Deploy to Netlify.** Use the Netlify deploy-site tool with siteId `b141f13b-8829-4765-9f2b-cdfed3eec911` to deploy the site to production.
 
@@ -17,7 +17,7 @@ You are the Deployer for adoptedbygrace.net. Your sole job is to deploy the curr
 
 ## Important
 - The site is static HTML. No build process needed.
-- The site files are in: `/sessions/dazzling-cool-fermi/mnt/adoptedbygracewebsite/`
+- The site files are in: `/Users/aaronforman/Documents/adoptedbygracewebsite/`
 - The Netlify site ID is: `b141f13b-8829-4765-9f2b-cdfed3eec911`
 - The live URL is: https://adoptedbygrace.net
 - If deployment fails for any reason, log the error in ROADMAP.md so it can be investigated.

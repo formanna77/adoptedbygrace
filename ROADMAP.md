@@ -159,6 +159,20 @@
 
 ## Session Log
 
+### 2026-03-27 — Verse Demolition Agent: John 3:16 + Hub
+- **New series launched:** Verse-by-Verse Demolition Series
+- **Built `demolition-hub.html`** — Hub page with 23 Arminian proof texts across 3 tiers
+- **Built `demolition-john3-16.html`** — Demolition #1: John 3:16
+  - Context demolition (John 3:3-8, 3:19-20, 3:27, 3:36)
+  - 5 Greek analyses (οὕτως, κόσμος, πᾶς ὁ πιστεύων, μονογενῆ, ἀπόληται)
+  - κόσμος usage table with 10 John references
+  - 7 devastating problems with the Arminian reading
+  - 4 Reformed truths the verse actually teaches
+  - 6 theologian witnesses (Chrysostom, Calvin, Hodge, Spurgeon, Pink, Murray)
+  - 10 cross-references to existing pages
+- **Sitemap updated** with both new pages
+- **Next:** 1 Timothy 2:4, 2 Peter 3:9, Matthew 23:37
+
 ### 2026-03-26 — Refiner Session: question-faithgift.html
 - **Page refined:** `question-faithgift.html` (Faith: Gift or Achievement?)
 - **Critical Greek error fixed:** Replaced incorrect "ἐκ περισσοῦ (ek perisou)" with correct "οὐκ ἐξ ὑμῶν (ouk ex hymōn)"
