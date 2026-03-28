@@ -592,16 +592,20 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <!-- NAVIGATION -->
-    <nav>
+        <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="logo">ADOPTED BY GRACE</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/start-here">Start Here</a></li>
-                <li><a href="/evidence">The Evidence</a></li>
+                <li><a href="/questions">The Evidence</a></li>
                 <li><a href="/systematic-theology-hub">Systematic</a></li>
                 <li><a href="/demolition-hub">Demolition</a></li>
                 <li><a href="/theologians">Theologians</a></li>
@@ -614,7 +618,7 @@
     <!-- MAIN CONTENT -->
     <main>
         <!-- HERO -->
-        <section class="hero">
+        <section class="page-hero">
             <h1>TULIP Forged in Fire</h1>
             <p class="subtitle">The Synod of Dort (1618–1619): When the Church Declared God's Absolute Sovereignty</p>
             <div class="hero-quote">
@@ -985,27 +989,40 @@
     </main>
 
     <!-- FOOTER -->
-    <footer role="contentinfo">
+        <footer>
         <div class="footer-container">
             <div class="footer-section">
-                <h4>ADOPTED BY GRACE</h4>
-                <p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p>
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
             </div>
             <div class="footer-section">
-                <h4>Navigate</h4>
+                <h4>Explore</h4>
                 <ul>
-                    <li><a href="/">Home</a></li>
                     <li><a href="/start-here">Start Here</a></li>
-                    <li><a href="/evidence">The Evidence</a></li>
-                    <li><a href="/systematic-theology-hub">Systematic</a></li>
-                    <li><a href="/demolition-hub">Demolition</a></li>
                     <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
                     <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
                     <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>
         </div>
-        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
     </footer>
+    <script src="/global.js" defer></script>
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
 </body>
 </html>

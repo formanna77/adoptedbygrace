@@ -591,25 +591,26 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <div class="progress-bar"></div>
 
-    <nav role="navigation" aria-label="Main navigation">
+        <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
-            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
-            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="this.classList.toggle('active');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('active'))">
+            <a href="/" class="logo">ADOPTED BY GRACE</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="start-here.html">Start Here</a></li>
-                <li><a href="questions.html">The Evidence</a></li>
-                <li><a href="systematic-theology.html">Systematic</a></li>
-                <li><a href="demolition-hub.html" class="active">Demolition</a></li>
-                <li><a href="theologians.html">Theologians</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/questions">The Evidence</a></li>
+                <li><a href="/systematic-theology-hub">Systematic</a></li>
+                <li><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
             </ul>
         </div>
     </nav>
@@ -618,7 +619,7 @@
         <a href="index.html">Home</a> / <a href="demolition-hub.html">Demolition</a> / FACTS Check
     </div>
 
-    <section class="hero">
+    <section class="page-hero">
         <div class="hero-series-label">Article Demolition Series</div>
         <h1>FACTS Check: Dismantling the Arminian Framework</h1>
         <p class="hero-subtitle">The Society of Evangelical Arminians claims their FACTS acronym presents a biblical alternative to TULIP. This analysis demonstrates how each point collapses under exegetical scrutiny.</p>
@@ -837,40 +838,37 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-grid">
-                <div class="footer-section">
-                    <h4>Navigation</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="start-here.html">Start Here</a></li>
-                        <li><a href="questions.html">The Evidence</a></li>
-                        <li><a href="systematic-theology.html">Systematic</a></li>
-                        <li><a href="demolition-hub.html">Demolition</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="theologians.html">Theologians</a></li>
-                        <li><a href="resources.html">Resources</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>About This Site</h4>
-                    <ul>
-                        <li><a href="methodology.html">Methodology</a></li>
-                        <li><a href="translations.html">Bible Translations</a></li>
-                        <li><a href="privacy.html">Privacy</a></li>
-                    </ul>
-                </div>
+        <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Adopted By Grace. All rights reserved. | <a href="index.html" style="color: var(--accent-gold);">adoptedbygrace.net</a></p>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
             </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
         </div>
     </footer>
 
@@ -937,5 +935,6 @@
         }
     }
     </script>
+    <script src="/global.js" defer></script>
 </body>
 </html>
