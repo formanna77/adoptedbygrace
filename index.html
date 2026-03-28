@@ -63,7 +63,7 @@
         .nav-links > li:hover > .nav-dropdown { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
         .nav-dropdown a { display: flex; align-items: center; gap: 0.7rem; padding: 0.6rem 1.3rem; color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: all 0.2s ease; border-left: 2px solid transparent; height: auto; text-transform: none; letter-spacing: normal; }
         .nav-dropdown a:hover { color: var(--accent-gold); background: rgba(212, 162, 84, 0.05); border-left-color: var(--accent-gold); padding-left: 1.5rem; }
-        /* Nav right section */
+        /* Nav right section — desktop only */
         .nav-right { display: flex; align-items: center; gap: 0.5rem; }
         .nav-top-link { text-decoration: none; color: var(--text-secondary); font-size: 0.82rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.9rem; height: 56px; display: flex; align-items: center; transition: color 0.25s ease; }
         .nav-top-link:hover { color: var(--accent-gold); }
@@ -72,6 +72,13 @@
         .mega-toggle.active { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); }
         .mega-arrow { font-size: 0.55rem; transition: transform 0.3s ease; }
         .mega-toggle.active .mega-arrow { transform: rotate(180deg); }
+
+        /* DESKTOP MODE: hide compact nav-links, show nav-right + mega-toggle */
+        @media (min-width: 969px) {
+            .nav-links { display: none !important; }
+            .nav-right { display: flex; }
+            .hamburger { display: none !important; }
+        }
 
         /* Mega panel */
         .mega-panel { position: fixed; top: 56px; left: 0; right: 0; background: rgba(10, 10, 15, 0.98); border-bottom: 1px solid var(--border-subtle); box-shadow: 0 30px 80px rgba(0,0,0,0.6); backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); padding: 2rem 0 2.5rem; opacity: 0; pointer-events: none; transform: translateY(-10px); transition: opacity 0.3s ease, transform 0.3s ease; z-index: 999; display: none; }
@@ -212,13 +219,16 @@
 
         /* ===== RESPONSIVE ===== */
         @media (max-width: 968px) {
-            .hamburger { display: block; }
+            /* MOBILE MODE: show hamburger + compact nav, hide mega system */
+            .hamburger { display: block !important; }
+            .nav-right { display: none !important; }
+            .mega-panel { display: none !important; }
             .nav-links {
                 display: none; position: absolute; top: 100%; left: 0; right: 0; height: auto;
                 background: rgba(10, 10, 15, 0.98); flex-direction: column; padding: 0.5rem 0 1rem;
                 border-bottom: 1px solid var(--border-subtle); overflow-y: auto; max-height: 85vh;
             }
-            .nav-links.open { display: flex; }
+            .nav-links.open { display: flex !important; }
             .nav-links > li { height: auto; flex-direction: column; align-items: stretch; }
             .nav-links > li > a,
             .nav-links > li > .nav-trigger {
@@ -233,10 +243,6 @@
             .nav-links > li:hover > .nav-dropdown { position: static; transform: none; opacity: 1; visibility: visible; }
             .nav-dropdown a { padding: 0.6rem 2rem 0.6rem 3rem; font-size: 0.85rem; border-left: none; }
             .nav-dropdown a:hover { padding-left: 3.2rem; }
-            .nav-right { display: none; }
-            .mega-panel { top: 56px; }
-            .mega-panel.open { max-height: 80vh; overflow-y: auto; }
-            .mega-inner { grid-template-columns: 1fr 1fr; gap: 1.5rem; padding: 0 1.5rem; }
             nav .nav-container { position: relative; }
             .hero { min-height: auto; padding: 6rem 1.5rem 3rem; }
             .hero-title { font-size: 2.8rem; }
@@ -341,9 +347,13 @@ body {
     <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="logo">Adopted by Grace</a>
+
+            <!-- HAMBURGER: mobile only -->
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
+
+            <!-- COMPACT NAV: desktop top-links + mobile dropdown sub-menus -->
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/start-here">Start Here</a></li>
@@ -386,8 +396,103 @@ body {
                 <li><a href="/resources">Resources</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
+
+            <!-- DESKTOP: nav-right with key links + mega-toggle -->
+            <div class="nav-right">
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/resources" class="nav-top-link">Resources</a>
+                <button class="mega-toggle" aria-label="Explore all content" aria-expanded="false">
+                    Explore All <span class="mega-arrow">&#9660;</span>
+                </button>
+            </div>
         </div>
     </nav>
+
+    <!-- ===== MEGA PANEL: desktop only ===== -->
+    <div class="mega-panel" id="megaPanel" role="region" aria-label="Full site navigation">
+        <div class="mega-inner">
+            <!-- Column 1: Doctrine -->
+            <div class="mega-col">
+                <div class="mega-heading">Doctrine</div>
+                <a href="/questions">The Evidence — 31 Questions</a>
+                <a href="/systematic-theology">Systematic Theology</a>
+                <a href="/systematic-soteriology">Soteriology</a>
+                <a href="/systematic-election">Divine Election</a>
+                <a href="/question-depravity">Our Condition (Dead, Not Sick)</a>
+                <a href="/question-chosen">God's Unconditional Choice</a>
+                <a href="/question-irresistible">Irresistible Grace</a>
+                <a href="/question-perseverance">Perseverance of the Saints</a>
+                <a href="/apologetic-definite-atonement">Definite Atonement</a>
+                <a href="/question-goldchain">The Golden Chain — Romans 8</a>
+                <a href="/scripture-tsunami">Scripture Tsunami</a>
+                <a href="/connections">The Unbreakable Thread</a>
+            </div>
+            <!-- Column 2: Apologetics -->
+            <div class="mega-col">
+                <div class="mega-heading">Apologetics</div>
+                <a href="/demolition-hub">Verse-by-Verse Demolition</a>
+                <a href="/compare-calvinism-arminianism">Calvinism vs Arminianism</a>
+                <a href="/compare-monergism-synergism">Monergism vs Synergism</a>
+                <a href="/compare-calvinism-molinism">Calvinism vs Molinism</a>
+                <a href="/compare-calvinism-open-theism">Calvinism vs Open Theism</a>
+                <a href="/objection-author-of-sin">God the Author of Sin?</a>
+                <a href="/objection-responsibility">Human Responsibility</a>
+                <a href="/question-unfair">Is God Unfair?</a>
+                <a href="/question-whosoever">What About "Whosoever"?</a>
+                <a href="/question-foreknowledge">Foreknowledge ≠ Foresight</a>
+                <a href="/counter-cs-lewis-free-will">Did Lewis Refute Calvinism?</a>
+                <a href="/demolition-arminian-facts">FACTS Framework Dismantled</a>
+            </div>
+            <!-- Column 3: Explore -->
+            <div class="mega-col">
+                <div class="mega-heading">Explore</div>
+                <a href="/devotionals">Devotionals</a>
+                <a href="/stories">Stories &amp; Parables</a>
+                <a href="/analogies-illustrations">Analogies &amp; Illustrations</a>
+                <a href="/essays">Essays</a>
+                <a href="/secular-evidence">Secular Evidence</a>
+                <a href="/psychology-hub">Psychology of Resistance</a>
+                <a href="/belief-assessment">Belief Self-Assessment</a>
+                <a href="/quiz">Reformed Theology Quiz</a>
+                <a href="/verse-explorer">Scripture Verse Explorer</a>
+                <a href="/explore-map">The Living Map</a>
+                <a href="/freedom">The Truth Will Set You Free</a>
+                <a href="/devotional-never-gives-up">He Will Never Give Up</a>
+            </div>
+            <!-- Column 4: History -->
+            <div class="mega-col">
+                <div class="mega-heading">History &amp; Scripture</div>
+                <a href="/history-timeline">Church History Timeline</a>
+                <a href="/history-golden-thread">2,000 Years of Grace</a>
+                <a href="/theologians">Cloud of Witnesses</a>
+                <a href="/ot-election">OT Election</a>
+                <a href="/psalms-election">Election in the Psalms</a>
+                <a href="/history-augustine-pelagius">Augustine vs Pelagius</a>
+                <a href="/history-dort">Synod of Dort</a>
+                <a href="/history-great-awakening">The Great Awakening</a>
+                <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                <a href="/pastoral-assurance">Election &amp; Assurance</a>
+                <a href="/pastoral-evangelism">Evangelism &amp; Sovereignty</a>
+                <a href="/pastoral-suffering">Suffering &amp; Sovereignty</a>
+            </div>
+            <!-- Column 5: Resources & Community -->
+            <div class="mega-col">
+                <div class="mega-heading">Resources</div>
+                <a href="/resources">Resource Hub</a>
+                <a href="/resources-books">Recommended Books</a>
+                <a href="/resources-commentaries">Bible Commentaries</a>
+                <a href="/resources-sermons">Sermon Library</a>
+                <a href="/resources-podcasts">Podcasts &amp; Media</a>
+                <a href="/resources-study-guides">Study Guides</a>
+                <a href="/resources-glossary">Theological Glossary</a>
+                <a href="/start-here">Start Here — Your Journey</a>
+                <a href="/community">Community</a>
+                <a href="/connect">Connect With Us</a>
+                <a href="/about">About the Mission</a>
+                <a href="/search">Search the Site</a>
+            </div>
+        </div>
+    </div>
 
     <!-- ===== HERO ===== -->
     <section class="hero">
@@ -774,28 +879,32 @@ body {
         });
     })();
 
-    // ===== MOBILE NAV TOGGLE =====
+    // ===== HYBRID NAV: MEGA-PANEL (DESKTOP) + COMPACT (MOBILE) =====
     (function() {
         const hamburger = document.querySelector('.hamburger');
         const navLinks = document.querySelector('.nav-links');
+        const megaToggle = document.querySelector('.mega-toggle');
+        const megaPanel = document.getElementById('megaPanel');
 
-        // Hamburger toggles nav-links on mobile
+        // === MOBILE: Hamburger toggles compact nav-links ===
         if (hamburger && navLinks) {
             hamburger.addEventListener('click', () => {
                 const isOpen = navLinks.classList.contains('open');
                 navLinks.classList.toggle('open');
                 hamburger.classList.toggle('active');
                 hamburger.setAttribute('aria-expanded', !isOpen);
+                // Close mega-panel if somehow open
+                if (megaPanel) { megaPanel.classList.remove('open'); }
+                if (megaToggle) { megaToggle.classList.remove('active'); megaToggle.setAttribute('aria-expanded', 'false'); }
             });
         }
 
-        // Mobile dropdown toggles (tap to open sub-menus)
+        // Mobile dropdown toggles (tap to expand sub-menus)
         if (navLinks) {
             navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
                 trigger.addEventListener('click', (e) => {
                     e.preventDefault();
                     const li = trigger.closest('li');
-                    // Close other open dropdowns
                     navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
                         if (openLi !== li) openLi.classList.remove('dropdown-open');
                     });
@@ -803,7 +912,7 @@ body {
                 });
             });
 
-            // Close nav when clicking a link
+            // Close compact nav when clicking a link
             navLinks.querySelectorAll('a').forEach(a => {
                 a.addEventListener('click', () => {
                     navLinks.classList.remove('open');
@@ -812,11 +921,50 @@ body {
             });
         }
 
-        // Close on Escape key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && navLinks && navLinks.classList.contains('open')) {
-                navLinks.classList.remove('open');
+        // === DESKTOP: Mega-toggle opens mega-panel ===
+        if (megaToggle && megaPanel) {
+            megaToggle.addEventListener('click', () => {
+                const isOpen = megaPanel.classList.contains('open');
+                megaPanel.classList.toggle('open');
+                megaToggle.classList.toggle('active');
+                megaToggle.setAttribute('aria-expanded', !isOpen);
+                // Close compact nav if somehow open
+                if (navLinks) { navLinks.classList.remove('open'); }
                 if (hamburger) { hamburger.classList.remove('active'); hamburger.setAttribute('aria-expanded', 'false'); }
+            });
+
+            // Close mega-panel when clicking a link inside it
+            megaPanel.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    megaPanel.classList.remove('open');
+                    megaToggle.classList.remove('active');
+                    megaToggle.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
+        // === SHARED: Close everything on Escape ===
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                if (navLinks && navLinks.classList.contains('open')) {
+                    navLinks.classList.remove('open');
+                    if (hamburger) { hamburger.classList.remove('active'); hamburger.setAttribute('aria-expanded', 'false'); }
+                }
+                if (megaPanel && megaPanel.classList.contains('open')) {
+                    megaPanel.classList.remove('open');
+                    if (megaToggle) { megaToggle.classList.remove('active'); megaToggle.setAttribute('aria-expanded', 'false'); }
+                }
+            }
+        });
+
+        // === SHARED: Close mega-panel when clicking outside ===
+        document.addEventListener('click', (e) => {
+            if (megaPanel && megaPanel.classList.contains('open')) {
+                if (!megaPanel.contains(e.target) && !megaToggle.contains(e.target)) {
+                    megaPanel.classList.remove('open');
+                    megaToggle.classList.remove('active');
+                    megaToggle.setAttribute('aria-expanded', 'false');
+                }
             }
         });
     })();
