@@ -1,6 +1,6 @@
 /* ============================================================
-   ADOPTED BY GRACE — Global Interactions
-   Scroll reveals, nav effects, starfield, back-to-top
+   ADOPTED BY GRACE — Global Interactions v2
+   Mega-menu dropdowns, scroll reveals, starfield, nav effects
    ============================================================ */
 
 // ===== NAV SCROLL EFFECT =====
@@ -22,12 +22,35 @@
         links.classList.toggle('open');
         btn.setAttribute('aria-expanded', btn.classList.contains('active'));
     });
-    // Close on link click (mobile)
-    links.querySelectorAll('a').forEach(a => {
+})();
+
+// ===== MOBILE DROPDOWN TOGGLES =====
+(function() {
+    const triggers = document.querySelectorAll('.nav-trigger');
+    triggers.forEach(trigger => {
+        trigger.addEventListener('click', (e) => {
+            const li = trigger.parentElement;
+            // On mobile, toggle dropdown open/closed
+            if (window.innerWidth <= 900) {
+                e.preventDefault();
+                li.classList.toggle('dropdown-open');
+                // Close other dropdowns
+                document.querySelectorAll('.nav-links > li.dropdown-open').forEach(item => {
+                    if (item !== li) item.classList.remove('dropdown-open');
+                });
+            }
+        });
+    });
+    // Close mobile menu on link click
+    document.querySelectorAll('.nav-dropdown a').forEach(a => {
         a.addEventListener('click', () => {
-            btn.classList.remove('active');
-            links.classList.remove('open');
-            btn.setAttribute('aria-expanded', 'false');
+            const btn = document.querySelector('.hamburger');
+            const links = document.querySelector('.nav-links');
+            if (btn && links && window.innerWidth <= 900) {
+                btn.classList.remove('active');
+                links.classList.remove('open');
+                btn.setAttribute('aria-expanded', 'false');
+            }
         });
     });
 })();
@@ -38,9 +61,7 @@
     if (!reveals.length) return;
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-            }
+            if (entry.isIntersecting) entry.target.classList.add('visible');
         });
     }, { threshold: 0.12 });
     reveals.forEach(r => observer.observe(r));
@@ -58,8 +79,7 @@
     });
 })();
 
-// ===== MINI STARFIELD (for sub-pages) =====
-// Lighter version than homepage — subtle animated dots in page-hero
+// ===== MINI STARFIELD (sub-pages) =====
 (function() {
     const hero = document.querySelector('.page-hero');
     if (!hero) return;
@@ -69,40 +89,24 @@
     const ctx = canvas.getContext('2d');
     let stars = [];
     const COUNT = 80;
-
-    function resize() {
-        canvas.width = hero.offsetWidth;
-        canvas.height = hero.offsetHeight;
-    }
+    function resize() { canvas.width = hero.offsetWidth; canvas.height = hero.offsetHeight; }
     resize();
     window.addEventListener('resize', resize);
-
     for (let i = 0; i < COUNT; i++) {
         stars.push({
-            x: Math.random() * canvas.width,
-            y: Math.random() * canvas.height,
-            r: Math.random() * 1.2 + 0.3,
-            vx: (Math.random() - 0.5) * 0.15,
-            vy: (Math.random() - 0.5) * 0.15,
-            o: Math.random() * 0.4 + 0.15,
-            pulse: Math.random() * Math.PI * 2
+            x: Math.random() * canvas.width, y: Math.random() * canvas.height,
+            r: Math.random() * 1.2 + 0.3, vx: (Math.random()-0.5)*0.15, vy: (Math.random()-0.5)*0.15,
+            o: Math.random() * 0.4 + 0.15, pulse: Math.random() * Math.PI * 2
         });
     }
-
     function draw() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         for (let s of stars) {
-            s.x += s.vx;
-            s.y += s.vy;
-            s.pulse += 0.015;
-            if (s.x < 0) s.x = canvas.width;
-            if (s.x > canvas.width) s.x = 0;
-            if (s.y < 0) s.y = canvas.height;
-            if (s.y > canvas.height) s.y = 0;
-            let flicker = s.o + Math.sin(s.pulse) * 0.1;
-            ctx.beginPath();
-            ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-            ctx.fillStyle = `rgba(212, 162, 84, ${flicker})`;
+            s.x += s.vx; s.y += s.vy; s.pulse += 0.015;
+            if (s.x < 0) s.x = canvas.width; if (s.x > canvas.width) s.x = 0;
+            if (s.y < 0) s.y = canvas.height; if (s.y > canvas.height) s.y = 0;
+            ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(212,162,84,${s.o + Math.sin(s.pulse)*0.1})`;
             ctx.fill();
         }
         requestAnimationFrame(draw);
@@ -110,20 +114,13 @@
     draw();
 })();
 
-// ===== AUTO-REVEAL content sections for pages without .reveal classes =====
+// ===== AUTO-REVEAL =====
 (function() {
     const sections = document.querySelectorAll('.content-section, .card-grid');
     if (!sections.length) return;
-    sections.forEach(s => {
-        if (!s.classList.contains('reveal')) {
-            s.classList.add('reveal');
-        }
-    });
-    // Re-observe after adding classes
+    sections.forEach(s => { if (!s.classList.contains('reveal')) s.classList.add('reveal'); });
     const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) entry.target.classList.add('visible');
-        });
+        entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
     }, { threshold: 0.1 });
     sections.forEach(s => observer.observe(s));
 })();
