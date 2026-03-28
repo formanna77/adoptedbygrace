@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demolition Zone: Arianism and the Deity of Christ — Adopted by Grace</title>
+    <meta name="description" content="Arius and his teaching. Council of Nicaea. Athanasius contra mundum. Why Christ's full deity is essential for salvation. Modern echoes of Arianism.">
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        nav {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 6px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--accent-gold);
+            transition: 0.3s;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a, .nav-trigger {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.3s;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .nav-links a:hover, .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            background-color: var(--bg-card);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            flex-direction: column;
+            min-width: 200px;
+            padding: 1rem 0;
+            margin-top: 0.5rem;
+            border-radius: 4px;
+        }
+
+        .nav-dropdown a {
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: background-color 0.3s;
+        }
+
+        .nav-dropdown a:hover {
+            background-color: rgba(212, 162, 84, 0.1);
+            color: var(--accent-gold);
+        }
+
+        li:has(> .nav-trigger) {
+            position: relative;
+        }
+
+        li:has(> .nav-trigger):hover .nav-dropdown {
+            display: flex;
+        }
+
+        .nav-arrow {
+            font-size: 0.75rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-ember);
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .passage-ref {
+            font-style: italic;
+            color: var(--accent-violet);
+            font-size: 0.95rem;
+        }
+
+        .scripture-block {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            font-style: normal;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+        }
+
+        .section {
+            margin: 2rem 0;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(232, 100, 44, 0.3);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            color: var(--accent-violet);
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        strong {
+            color: var(--accent-gold);
+        }
+
+        em {
+            color: var(--accent-violet);
+        }
+
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .callout {
+            background-color: rgba(232, 100, 44, 0.1);
+            border-left: 4px solid var(--accent-ember);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .breadcrumb {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        .breadcrumb a {
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .reflection-box {
+            background-color: var(--bg-card);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .reflection-box h4 {
+            color: var(--accent-violet);
+            margin-bottom: 0.75rem;
+            font-size: 1.1rem;
+        }
+
+        .heresy-box {
+            background-color: rgba(232, 100, 44, 0.05);
+            border: 2px solid var(--accent-ember);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .heresy-box h4 {
+            color: var(--accent-ember);
+            margin-bottom: 0.75rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            margin-top: 4rem;
+            padding: 3rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            margin: 0;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding: 2rem 0 0;
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            max-width: 1200px;
+            margin: 2rem auto 0;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 999;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-ember);
+        }
+
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background-color: var(--accent-ember);
+            z-index: 1001;
+            width: 0%;
+        }
+
+        @media (max-width: 968px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: var(--bg-card);
+                flex-direction: column;
+                gap: 0;
+                padding: 1rem 0;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links a {
+                padding: 0.75rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            main {
+                margin: 2rem 1rem;
+            }
+
+            .scripture-block {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.3rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
+
+            main {
+                margin: 1.5rem 1rem;
+                padding: 0;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+            }
+
+            .back-to-top {
+                width: 45px;
+                height: 45px;
+                font-size: 1.25rem;
+                right: 1rem;
+                bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reading-progress" aria-label="Reading progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="breadcrumb">
+            <a href="/demolition-hub">Demolition Zone</a> / Arianism
+        </div>
+
+        <article>
+            <div class="hero">
+                <h1>Demolition Zone: Arianism</h1>
+                <p class="tagline">Why Christ's Deity is Not Negotiable</p>
+                <p class="passage-ref">Council of Nicaea (325 AD) | Athanasius Contra Mundum</p>
+            </div>
+
+            <section class="section">
+                <h2>The Crisis That Shook the Church</h2>
+                <p>Picture Constantinople in the 4th century. The Roman Empire has just made peace with Christianity after three centuries of persecution. Believers are emerging from the catacombs, building churches, gathering for worship. This should be a time of celebration. Instead, the church faces its greatest internal threat yet.</p>
+
+                <p>An elderly priest named Arius, respected and persuasive, is teaching something that sounds reasonable, almost elegant in its logic. And it is tearing the church apart. His teaching would come to define the heresy known as <strong>Arianism</strong>—and understanding it reveals why Christ's full deity is not a theological luxury, but an absolute necessity for salvation itself.</p>
+
+                <p>The Nicene Creed was not written out of thin air. It was written to demolish a specific error, to protect a specific truth: Jesus Christ is fully God, not a created being.</p>
+            </section>
+
+            <section class="section">
+                <h2>Arius and His Logic</h2>
+
+                <p>Arius was not a fool. He was a learned man, a skilled debater, and a pastor. He studied the Scriptures carefully. But he approached them with a philosophical assumption that would prove fatal: <em>God cannot be divided; there cannot be two eternals; the Son must be subordinate to the Father</em>.</p>
+
+                <p>From this starting point, Arius reasoned:</p>
+
+                <ul>
+                    <li>The Father alone is eternal and infinite</li>
+                    <li>The Son has a beginning; He was "begotten" (created) by the Father</li>
+                    <li>Therefore, the Son is not truly God; He is the highest created being, but a created being nonetheless</li>
+                    <li>The Son is subordinate to the Father in being, not merely in function</li>
+                </ul>
+
+                <p>Arius had a famous saying: "There was when the Son was not." This was his entire theology in one sentence. Christ did not exist eternally. There was a moment when He came into being.</p>
+
+                <p>This sounds like a subtle distinction, but it is a demolition of Christianity itself. Scripture teaches that we are saved by the one who is our Creator, our Redeemer, and our Judge. But can a creature—no matter how exalted—accomplish any of these things?</p>
+            </section>
+
+            <section class="section">
+                <h2>Why Christ's Deity Is Everything</h2>
+
+                <div class="heresy-box">
+                    <h4>The Arianism Error</h4>
+                    <p>"The Son was created, not eternally begotten. Christ is the highest creature, but a creature nonetheless. He is not truly God."</p>
+                </div>
+
+                <p>The church's response to Arianism was not merely academic defense of doctrine. It was the recognition of something absolutely central to the Gospel: <strong>Only God can save us.</strong></p>
+
+                <p>Consider what Scripture teaches about salvation:</p>
+
+                <ul>
+                    <li>Only God can forgive sins. Yet Jesus claimed this authority and exercised it. If Christ is not God, He is a blasphemer.</li>
+                    <li>Only God can demand ultimate allegiance and worship. Yet Christ accepts worship throughout the Gospels. If Christ is not God, this is idolatry.</li>
+                    <li>Only God's sacrifice can satisfy God's justice. Yet Christ's death is presented as the sacrifice for the sins of the world. If Christ is not God, His death is merely the death of a creature, not an infinite atonement.</li>
+                    <li>Only God can promise eternal life. Yet Christ says, "I am the resurrection and the life." If Christ is not God, this promise is empty.</li>
+                </ul>
+
+                <p>Scripture teaches that Christ is the <em>eternal Word</em> through whom all things were created (John 1:3). He is the <em>radiance of God's glory</em> and the <em>exact representation of His being</em> (Hebrews 1:3). He is to be <em>worshipped</em> alongside the Father (Revelation 1:6, Philippians 2:9-11).</p>
+
+                <div class="reflection-box">
+                    <h4>The Soteriological Argument</h4>
+                    <p>Salvation requires a Savior who is fully God. A divine Savior can bridge the infinite gap between sinful humanity and a holy God. A creature-savior, no matter how exalted, cannot. This is not a minor theological point—it is the beating heart of the Gospel.</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>Athanasius Contra Mundum</h2>
+
+                <p>When Arius's teaching spread, the church was thrown into chaos. Many bishops were confused or sympathetic to Arianism. Councils were called; positions shifted. The pressure to compromise with Arianism grew intense.</p>
+
+                <p>But one man stood firm: <strong>Athanasius, bishop of Alexandria</strong>. While emperors and bishops wavered, while political pressure mounted, while exile and suffering came his way, Athanasius refused to cave. His famous rallying cry became: <em>Athanasius contra mundum</em>—"Athanasius against the world."</p>
+
+                <p>Not because he was stubborn, but because he understood what was at stake. If Christ is not fully God, then Christianity is false. There is no salvation. The Gospel is a lie.</p>
+
+                <div class="scripture-block">
+                    "In the beginning was the Word, and the Word was with God, and the Word was God. He was with God in the beginning. Through him all things were made; without him nothing has been made that has been made."
+                    <div class="scripture-ref">John 1:1-3</div>
+                </div>
+
+                <p>Athanasius fought for the deity of Christ not because he loved theological controversy, but because he loved the Gospel. And he understood that you cannot have the Gospel without a fully divine Savior.</p>
+            </section>
+
+            <section class="section">
+                <h2>The Council of Nicaea (325 AD)</h2>
+
+                <p>The Roman Emperor Constantine, concerned that theological dispute was dividing his newly Christian empire, convened the Council of Nicaea. Bishops from across the church gathered to settle the question: Is Christ truly God or a creature?</p>
+
+                <p>The council's response was the Nicene Creed, which affirmed that Christ is:</p>
+
+                <ul>
+                    <li>"Of one substance with the Father" (homoousios)</li>
+                    <li>Eternally begotten, not created</li>
+                    <li>Fully God and fully human</li>
+                    <li>The one through whom salvation comes</li>
+                </ul>
+
+                <p>The Nicene Creed was not the invention of the council. It was the clarification of what Scripture itself teaches. Scripture teaches that Christ is fully divine. The Nicene Creed simply stated this truth clearly and defended it against a specific error.</p>
+
+                <p>Scripture teaches that Christ is "the Lord of lords and King of kings" (Revelation 19:16), "the Alpha and the Omega" (Revelation 1:8), "the same yesterday and today and forever" (Hebrews 13:8). These titles belong to God alone. Scripture assigns them to Christ without hesitation.</p>
+            </section>
+
+            <section class="section">
+                <h2>Modern Echoes: Is Arianism Dead?</h2>
+
+                <p>You might think Arianism died at Nicaea in 325 AD. But error has a way of returning with new names and new packaging. While few modern groups call themselves "Arians," many modern heresies echo Arius's fundamental denial: <strong>Christ is not fully God</strong>.</p>
+
+                <p>Consider some modern examples (discussed briefly, for awareness rather than detailed engagement):</p>
+
+                <ul>
+                    <li><strong>Jehovah's Witnesses</strong> teach that Jesus is Michael the Archangel, the first created being, not God Himself. This is Arianism in modern dress.</li>
+                    <li><strong>Mormonism</strong> teaches that Jesus and God are separate beings, each with a physical body. This denies Christ's full deity and eternality.</li>
+                    <li><strong>Some versions of Unitarianism</strong> reduce Christ to a human prophet or teacher, denying His full divinity.</li>
+                </ul>
+
+                <p>These groups often sound reasonable. They appeal to texts that speak of the Son's obedience to the Father, or the Father as "greater" than the Son. But Scripture holds both truths: Christ is fully God <em>and</em> voluntarily submitted to the Father. The Son is fully divine <em>and</em> became human to accomplish redemption.</p>
+
+                <p>To accept one pole of this biblical paradox and reject the other is to fall into heresy—to lose the Gospel itself.</p>
+            </section>
+
+            <section class="section">
+                <h2>The Practical Impact: Why This Matters to You</h2>
+
+                <div class="callout">
+                    <p>If Christ is not fully God, then He cannot save you. It is that simple.</p>
+                </div>
+
+                <p>Your confidence in Christ rests on His deity. When you come to Christ in faith, you are coming to <em>God in the flesh</em>, to the one who can say, "I am the way and the truth and the life" (John 14:6), not merely as a creature's opinion, but as divine authority.</p>
+
+                <p>When you struggle with guilt, you need a Savior who is God—because only God can truly forgive, and only God's sacrifice can satisfy divine justice. When you face death, you need a Savior who is God—because only God can overcome death and promise resurrection. When you need assurance of salvation, you need a Savior who is God—because only God's promises are unbreakable.</p>
+
+                <p>Arianism is not a minor deviation. It strikes at the heart of what makes Christianity true and transformative. Which is precisely why the church, under the guidance of the Holy Spirit, responded with such clarity and firmness.</p>
+            </section>
+
+            <section class="section">
+                <h2>Scripture's Clear Teaching</h2>
+
+                <div class="scripture-block">
+                    "The Son is the image of the invisible God, the firstborn over all creation. For in him all things were created: things in heaven and on earth, visible and invisible, whether thrones or powers or rulers or authorities; all things have been created through him and for him. He is before all things, and in him all things hold together."
+                    <div class="scripture-ref">Colossians 1:15-17</div>
+                </div>
+
+                <p>This is not the description of a creature. This is the description of God. The Son is not merely exalted; He is divine. He is not merely the first creature; He is the Creator. He is not subordinate in being; He is eternally with the Father as the image of the Father.</p>
+
+                <p>Scripture also teaches the full humanity of Christ—His genuine struggle, His real suffering, His true growth in wisdom. But this humanity does not diminish His deity. It expresses it. God became human to accomplish what no creature could: to bridge the infinite gap between sinful humanity and a holy God.</p>
+            </section>
+
+            <section class="section">
+                <h2>The Invitation to Truth</h2>
+
+                <p>If you have been taught that Christ is merely a created being, or merely a human prophet, or something less than fully God, Scripture calls you to repent of this error and embrace the truth: <strong>Jesus Christ is fully God, eternally divine, the Lord of all.</strong></p>
+
+                <p>This is not a claim that diminishes His humanity. It is the claim that makes His humanity salvific. God, in infinite love, entered human history in the person of Jesus Christ, lived a perfect life, died for the sins of His people, and rose from the dead, demonstrating His power over death itself.</p>
+
+                <p>To deny Christ's full deity is to make Him less than He is. But to embrace His full deity is to find in Him a Savior who is sufficient, a Lord who is absolute, a God who is worthy of all worship and devotion.</p>
+
+                <div class="reflection-box">
+                    <h4>For the Seeker</h4>
+                    <p>If you are exploring Christianity for the first time, know this: You are being invited to trust your life, your eternity, to the one who is God in the flesh. Not a creature, however exalted. Not a human prophet, however wise. But God Himself, who took on human flesh and died to save you. This is both the claim of Scripture and the foundation of our hope.</p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        // Set active nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === 'demolition-arianism.html') {
+                link.classList.add('active');
+            }
+        });
+
+        // Scroll-spy for section navigation
+        const sectionLinks = document.querySelectorAll('.section-link');
+        const sections = document.querySelectorAll('.section');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '-30% 0px -70% 0px',
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    sectionLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => observer.observe(section));
+    </script>
+    <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+    <script>
+    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
+    </script>
+    <script>
+    (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
+    </script>
+    <script src="/global.js" defer></script>
+</body>
+</html>

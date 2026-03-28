@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="John Calvin and Geneva: The Institutes of the Christian Religion, Geneva as a city on a hill, TULIP crystallized, and Calvin's pastoral heart beneath the theology.">
+    <meta property="og:title" content="John Calvin and Geneva — Adopted by Grace">
+    <meta property="og:description" content="Calvin's comprehensive theology of God's sovereignty, his vision for a reformed church, and his defense of grace against caricature.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/history-calvin-geneva.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/history-calvin-geneva.html">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>John Calvin and Geneva — Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "John Calvin and Geneva",
+        "description": "Calvin's comprehensive theology and vision for a reformed church.",
+        "url": "https://adoptedbygrace.net/history-calvin-geneva.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        }
+    }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        nav {
+            position: static;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.85);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.1em;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-trigger {
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 0.75rem;
+            margin-top: 0.5rem;
+        }
+
+        li:has(.nav-trigger):hover .nav-dropdown {
+            display: flex;
+        }
+
+        .nav-dropdown a {
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        .nav-dropdown a:hover {
+            background: var(--bg-card-hover);
+            color: var(--accent-gold);
+        }
+
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .breadcrumb-nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            font-size: 0.95rem;
+        }
+
+        .breadcrumb-nav a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .breadcrumb-nav a:hover {
+            color: var(--accent-ember);
+        }
+
+        .hero {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            text-align: left;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .topic-label {
+            color: var(--accent-gold);
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 90%;
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent-gold);
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 0.75rem;
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-violet);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .scripture-block {
+            background: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            display: block;
+            margin-top: 0.75rem;
+            font-style: normal;
+            color: var(--accent-gold);
+            font-size: 0.95rem;
+        }
+
+        ul, ol {
+            margin: 1.5rem 0 1.5rem 2rem;
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            margin: 0;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        footer {
+            background: var(--bg-card);
+            margin-top: 3rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 100;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+        }
+
+        @media (max-width: 968px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.75rem;
+            }
+
+            main {
+                padding: 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .hero {
+                padding: 2rem 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.25rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                font-size: 1.2rem;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
+            h2 {
+                font-size: 1.25rem;
+            }
+
+            main {
+                padding: 1rem;
+            }
+
+            .scripture-block {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="breadcrumb-nav"><a href="/history-timeline.html">&larr; Back to Church History Timeline</a></div>
+
+    <section id="main-content" class="hero">
+        <div class="topic-label">Church History &middot; Reformation &middot; Systematic Theology</div>
+        <h1>John Calvin and Geneva</h1>
+        <p class="hero-subtitle">A French lawyer became the architect of Reformed theology. In Geneva, he built a city on a hill—a church faithful to Scripture, devoted to God's glory, and unshakeable in its conviction that God alone is sovereign in salvation.</p>
+    </section>
+
+    <main>
+        <section class="section">
+            <h2>The Man Behind the System</h2>
+            <p>
+                John Calvin (1509-1564) was born in Picardy, France, into a merchant family. He was educated for the law, which trained his brilliant mind for logical precision. But in his early twenties, he experienced what he called a "sudden conversion"—a turning toward the faith. He did not abandon his legal training; rather, he applied it to theology. The result was the <em>Institutes of the Christian Religion</em>, perhaps the most systematic theological work ever written.
+            </p>
+            <p>
+                Unlike Luther, who was passionate and combative, Calvin was methodical and relentless. He did not write to convince through emotion but through argument. Where Luther thundered, Calvin explained. Where Luther was the hammer, Calvin was the architect. Yet beneath Calvin's cool exterior lay a burning conviction: the glory of God and the truth of Scripture must be recovered and defended.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>The Institutes of the Christian Religion</h2>
+            <p>
+                Calvin first published the <em>Institutes</em> in 1536 when he was just 27 years old. It was a slim volume—an elegant summary of Christian doctrine. But he would spend the rest of his life expanding and refining it. By the time of his final edition in 1559, it had grown into a massive, comprehensive system of theology.
+            </p>
+            <p>
+                The <em>Institutes</em> is organized with crystalline clarity. It moves from knowledge of God to knowledge of self, then through the work of Christ, the work of the Holy Spirit, the life of faith, and the organization of the church. Every page is saturated with Scripture. Every argument is buttressed by biblical reference. Calvin was not a speculative theologian; he was a biblical theologian.
+            </p>
+            <p>
+                What emerges from the <em>Institutes</em> is a comprehensive vision of God's sovereignty and grace. Scripture teaches that God is absolutely free, absolutely wise, absolutely just. God's will is not responsive to creation; creation is responsive to God's will. God is God, and we are not. This is not a doctrine to be debated but a truth to be bowed before.
+            </p>
+            <div class="scripture-block">
+                "All things come from you, and we have given you only what comes from your hand."
+                <span class="scripture-ref">— 1 Chronicles 29:14 (NIV)</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Calvin Flees France and Finds His City</h2>
+            <p>
+                Life in Catholic France became dangerous for Calvin. As a Protestant, he faced persecution. In 1535, he fled France and found refuge in Geneva, a city-state on the border of France and the Swiss cantons, recently reformed but desperately in need of ecclesiastical order and doctrine.
+            </p>
+            <p>
+                Calvin initially intended to pass through Geneva, but the reformer Guillaume Farel seized him, literally begging him to stay and help establish a reformed church. "God will curse your repose and your studies," Farel warned, if Calvin refused. Calvin, terrified by such language, agreed.
+            </p>
+            <p>
+                That was 1536. Calvin worked in Geneva, was exiled for a time (the city leaders found his demands too stringent), and returned in 1541. From 1541 until his death in 1564, he was the central figure in Geneva's ecclesiastical life. He did not hold political office, but his influence was profound. He reformed the church, established schools, enforced discipline, and transformed Geneva into a model of reformed Christianity.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Geneva: A City on a Hill</h2>
+            <p>
+                Under Calvin's leadership, Geneva became something unprecedented: a city governed according to the principles of Scripture. The church was independent from secular authority yet worked in concert with it. Education was available to common people, not just the elite. Church discipline was exercised not to crush but to restore. Refugee communities fleeing persecution found safe harbor.
+            </p>
+            <p>
+                Calvin established the Academy of Geneva, which educated ministers and leaders throughout Europe. Reformed churches in Scotland, France, the Netherlands, and England looked to Geneva as their model. Young men came from across Europe to study under Calvin and returned to their homelands to plant reformed churches.
+            </p>
+            <p>
+                Geneva was not perfect—Calvin's city was marked by both grace and severity. But it was earnestly devoted to Scripture and to God's glory. It was a beacon of the Reformation, showing what a reformed church could look like.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>TULIP Crystallized: The Five Points of Calvinism</h2>
+            <p>
+                Calvin did not create the acronym TULIP (Total Depravity, Unconditional Election, Limited Atonement, Irresistible Grace, Perseverance of the Saints). This was developed later, at the Synod of Dort (1618-1619), in response to Arminian objections. But every point flows from Calvin's theology.
+            </p>
+            <h3>Total Depravity</h3>
+            <p>
+                Calvin taught that sin has corrupted human nature completely. Not that humans are as sinful as they could be, but that sin affects every part of human nature. The will is enslaved. The mind is darkened. The heart is hardened. Without grace, humans cannot and will not come to God.
+            </p>
+            <h3>Unconditional Election</h3>
+            <p>
+                God has chosen His people, not on the basis of foreseen faith, but out of His own sovereign pleasure. Election is not response to human choice but the ground of human faith. This is not meant to crush believers but to comfort them: their salvation rests on God's eternal purpose, not on the shakiness of their own resolve.
+            </p>
+            <h3>Limited Atonement</h3>
+            <p>
+                The atonement of Christ, while sufficient for all, is intended for the elect. Christ died to save His people from their sins. This doctrine flows from the biblical teaching that Christ's work actually accomplishes salvation for those for whom He died.
+            </p>
+            <h3>Irresistible Grace</h3>
+            <p>
+                When God calls His elect to faith, He calls effectively. The Spirit works in the heart of the believer, regenerating him, opening his eyes, freeing his will. This grace cannot be resisted by those to whom it is given.
+            </p>
+            <h3>Perseverance of the Saints</h3>
+            <p>
+                Those whom God has chosen and regenerated, He preserves to the end. Believers may stumble, but they cannot finally fall away. God guards His own.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Calvin's Pastoral Heart: Beyond Caricature</h2>
+            <p>
+                Calvin is often caricatured as cold, rigid, and austere. This is a grave misunderstanding. Read Calvin's letters, his sermons, his pastoral counsel, and you discover a man of genuine compassion and deep pastoral concern. He was stern, yes. He had high expectations of doctrine and living. But he was stern because he believed that truth matters, that obedience matters, that the glory of God matters.
+            </p>
+            <p>
+                When believers struggled with assurance, Calvin did not say, "Well, if you're truly elect, you'll know." Rather, he urged them to look to Christ, to rest on His promises, to find assurance in the gospel itself. When people were suffering, Calvin did not coldly invoke God's sovereignty to shut down compassion. Rather, he wept with those who wept, while teaching them that their suffering was held in God's hands and would work for their good.
+            </p>
+            <p>
+                The doctrine of predestination, in Calvin's hands, was meant to free believers from anxiety and to ground their faith in the bedrock of God's eternal purpose. Modern critics sometimes make predestination sound like fatalism—a cold doctrine that drains life of meaning. But for Calvin, predestination was pastoral comfort: nothing can snatch you from God's hand. Your salvation was His idea before the world was made.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Scripture Teaches: Not Calvinism Says</h2>
+            <p>
+                It is crucial to note: Calvin insisted that he was not creating a new doctrine but recovering apostolic truth. He wrote not to establish "Calvinism" but to expound Scripture. The label "Calvinist" came later and would have made him uncomfortable. He wanted to be called a Christian—one who believed and taught what Scripture teaches.
+            </p>
+            <p>
+                This is vital for our context. When we say that Scripture teaches God's sovereignty, that Scripture teaches election, that Scripture teaches that salvation is by grace—we are not saying "Calvinism says." We are saying what Scripture plainly teaches. Calvin systematized and defended these doctrines, but he did not invent them. They are apostolic. They are biblical.
+            </p>
+            <div class="scripture-block">
+                "Praise be to the God and Father of our Lord Jesus Christ, who has blessed us in the heavenly realms with every spiritual blessing in Christ. For he chose us in him before the foundation of the world to be holy and blameless in his sight."
+                <span class="scripture-ref">— Ephesians 1:3-4 (NIV)</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>The Legacy of Calvin and Geneva</h2>
+            <p>
+                Calvin died on May 27, 1564, at the age of 54. His body was laid to rest in an unmarked grave—befitting his conviction that human honor meant nothing, only God's honor. But his influence did not die with him. It exploded across Europe.
+            </p>
+            <p>
+                Reformed churches in Scotland, France, the Netherlands, and beyond carried Calvin's theology. When the English Reformation was refined, it bore Calvin's influence. The Presbyterian Church, the Dutch Reformed Church, the Swiss Reformed Church, the Reformed Church in France—all traced their DNA to Calvin and Geneva.
+            </p>
+            <p>
+                More importantly, Calvin recovered and systematized biblical truths that have echoed through the centuries. The supremacy of Scripture. The sovereignty of God. The sufficiency of Christ. The centrality of grace. These are not Calvinist distinctives; they are Christian essentials, recovered in the Reformation and defended afresh in every generation by those willing to hear Scripture's voice.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Calvin's Vision for God's Glory</h2>
+            <p>
+                If you want to understand Calvin's deepest motivation, look at his motto: "Soli Deo Gloria"—to God alone be the glory. Everything Calvin wrote, everything he did, everything he built in Geneva was directed toward this one end: the glory of God and the supremacy of Christ.
+            </p>
+            <p>
+                This is the north star of Reformed theology. Not human achievement. Not ecclesiastical power. Not personal comfort or spiritual experience (though these matter). The glory of God. The exaltation of Christ. The humbling of human pride before the majesty of the Almighty. The triumph of grace. The certainty of salvation resting on God's eternal purpose.
+            </p>
+            <p>
+                This is what Calvin taught. This is what Scripture teaches. And this is what the church needs to recover in every generation: the God-centered, Christ-exalting, Scripture-saturated vision of the universe and salvation that made Geneva a light to the world and gave Calvin's theology its enduring power.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === '/history-calvin-geneva.html') {
+                link.classList.add('active');
+            }
+        });
+    </script>
+    <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+    <script>
+    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
+    </script>
+    <script src="/global.js" defer></script>
+</body>
+</html>

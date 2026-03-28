@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Puritans and Reformed Orthodoxy | Adopted by Grace</title>
+    <meta name="description" content="Explore the golden age of Reformed theology. The Puritans' devotional depth, John Owen, Jonathan Edwards, Richard Baxter. How Puritan theology shaped nations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        html, body {
+            background: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        /* NAV */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.85);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--accent-gold);
+        }
+
+        .nav-trigger {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            font-weight: 500;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 1rem;
+            top: 100%;
+            left: 0;
+            min-width: 200px;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .nav-trigger:hover ~ .nav-dropdown,
+        .nav-dropdown:hover {
+            display: flex;
+        }
+
+        .nav-dropdown a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-dropdown a:hover {
+            color: var(--accent-gold);
+        }
+
+        /* MAIN CONTENT */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* HERO SECTION */
+        .page-hero {
+            text-align: center;
+            padding: 4rem 0 3rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .page-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+
+        .page-hero p.subtitle {
+            font-size: 1.35rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 500;
+        }
+
+        .hero-quote {
+            background: rgba(212, 162, 84, 0.06);
+            border-left: 3px solid var(--accent-gold);
+            padding: 1.5rem 2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            font-style: italic;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .hero-quote span {
+            display: block;
+            margin-top: 0.75rem;
+            font-style: normal;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        /* SECTION NAV */
+        .section-nav {
+            position: static;
+            display: flex;
+            gap: 1rem;
+            margin: 3rem 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .section-nav a {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .section-nav a:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+        }
+
+        /* NARRATIVE SECTIONS */
+        .narrative-section {
+            padding: 3rem 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .narrative-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+            color: var(--accent-gold);
+        }
+
+        .narrative-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .narrative-section p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .scripture {
+            background: rgba(139, 92, 246, 0.06);
+            border-left: 4px solid var(--accent-violet);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+        }
+
+        .scripture strong {
+            color: var(--accent-violet);
+            font-style: normal;
+        }
+
+        /* TIMELINE NAVIGATION */
+        .timeline-nav {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+            margin: 3rem 0;
+            flex-wrap: wrap;
+        }
+
+        .timeline-nav-item {
+            flex: 1;
+            min-width: 200px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .timeline-nav-item:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(212, 162, 84, 0.15);
+        }
+
+        .timeline-nav-item .label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .timeline-nav-item h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        /* CROSS-LINKS */
+        .cross-links {
+            margin: 2.5rem 0;
+            padding: 2rem;
+            background: rgba(139, 92, 246, 0.06);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+        }
+
+        .cross-links h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .cross-links ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1rem;
+        }
+
+        .cross-links li a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .cross-links li a:hover {
+            color: var(--accent-ember);
+            gap: 0.75rem;
+        }
+
+        .cross-links li a::before {
+            content: "→";
+            transition: transform 0.3s ease;
+        }
+
+        /* FOOTER */
+        footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            padding: 3rem 2rem;
+            margin-top: 5rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            html, body {
+                min-height: auto;
+            }
+
+            .nav-links {
+                gap: 1rem;
+                flex-wrap: wrap;
+                font-size: 0.85rem;
+            }
+
+            .logo {
+                font-size: 1rem;
+            }
+
+            .page-hero {
+                min-height: auto;
+                padding: 2.5rem 0 1.5rem;
+            }
+
+            .page-hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .page-hero p.subtitle {
+                font-size: 1.1rem;
+            }
+
+            .narrative-section {
+                padding: 2rem 0;
+            }
+
+            .narrative-section h2 {
+                font-size: 1.8rem;
+            }
+
+            .section-nav {
+                display: none !important;
+            }
+
+            .timeline-nav {
+                flex-direction: column;
+            }
+
+            footer {
+                margin-top: 5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            main {
+                padding: 0 1rem;
+            }
+
+            .page-hero {
+                padding: 1.5rem 0 1rem;
+            }
+
+            .page-hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .page-hero p.subtitle {
+                font-size: 1rem;
+            }
+
+            .hero-quote {
+                padding: 1rem 0.8rem;
+                font-size: 0.95rem;
+            }
+
+            .narrative-section {
+                padding: 1.5rem 0;
+            }
+
+            .narrative-section h2 {
+                font-size: 1.5rem;
+            }
+
+            .narrative-section h3 {
+                font-size: 1.2rem;
+            }
+
+            footer {
+                padding: 2rem 1rem;
+                margin-top: 5rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO -->
+        <section class="page-hero">
+            <h1>The Puritans and Reformed Orthodoxy</h1>
+            <p class="subtitle">The Golden Age of Reformed Theology: When Scripture-Centered Preaching Shaped Nations</p>
+            <div class="hero-quote">
+                "And ye shall know the truth, and the truth shall make you free."
+                <span>— John 8:32 (KJV)</span>
+            </div>
+        </section>
+
+        <!-- SECTION NAV -->
+        <nav class="section-nav">
+            <a href="#what-were-puritans">Who Were the Puritans?</a>
+            <a href="#reformation-heritage">Reformation Heritage</a>
+            <a href="#great-minds">Great Minds</a>
+            <a href="#devotional-depth">Devotional Depth</a>
+            <a href="#great-awakening">The Great Awakening</a>
+            <a href="#legacy">Their Legacy</a>
+        </nav>
+
+        <!-- SECTION 1: WHO WERE THE PURITANS? -->
+        <section class="narrative-section" id="what-were-puritans">
+            <h2>Who Were the Puritans? Scripture-Centered Reformers</h2>
+
+            <p>The Puritans were not a sect. They were not a denomination. They were a movement of faithful believers within the Reformed churches of England and America who held a conviction that burned in their souls: <strong>Scripture alone, and Scripture fully, must reshape both church and soul.</strong> The term "Puritan" was actually a term of mockery—used by their enemies to deride them as perfectionist busybodies. But the Puritans embraced it. They wanted to purify the church from the remnants of ceremonialism, from empty formalism, from anything that Scripture did not explicitly command. Not from arrogance, but from love. They loved God's Word and trusted that God's Word, applied faithfully, would transform everything it touched.</p>
+
+            <p>Scripture teaches that the human heart is incurable by human remedy. Only God's sovereign grace can transform us. The Puritans lived this truth. They were convinced that God had unconditionally chosen His people before the foundation of the world, that Christ had died specifically for the elect, that God's grace irresistibly awakens faith in dead hearts, that believers are kept by God's power. These were not abstract doctrines to be debated in academic halls. They were the burning convictions that drove Puritan preaching, Puritan prayer, Puritan devotion, and Puritan ethics.</p>
+
+            <p>The Puritan movement spanned nearly 150 years—from the 1550s through the early 1700s—and it changed the spiritual landscape of the English-speaking world. In England, under kings and queens who often opposed them, the Puritans preached with courage and died with joy. In America, they built colonies that would become bastions of Reformed Christianity. And through their writings—their commentaries, their doctrinal works, their pastoral treatises—they left a legacy that has never been surpassed. To read a Puritan is to feel the power of Scripture applied with depth, precision, and spiritual vitality.</p>
+
+            <p>But here is something the Puritans knew that we often forget: theology divorced from devotion is dead. A true understanding of God's sovereignty must issue in reverence, worship, and transformed living. The Puritans were not mere theologians; they were saints. They were men and women who knew their God with an intimacy that modern believers often lack. And that knowledge transformed everything.</p>
+        </section>
+
+        <!-- SECTION 2: REFORMATION HERITAGE -->
+        <section class="narrative-section" id="reformation-heritage">
+            <h2>The Reformation Heritage: Standing on Giants' Shoulders</h2>
+
+            <p>The Puritans did not arise in a vacuum. They stood in the inheritance of the Protestant Reformation. John Calvin's systematic theology provided the intellectual architecture. Martin Luther's courage to challenge Rome provided the precedent. And the biblical scholars of the Reformation—men like Theodore Beza, William Perkins, and others—had already recovered what Scripture teaches about predestination, election, and irresistible grace. The Puritans did not invent the doctrines of grace; they inherited them. But what they did was something equally important: they lived them. They applied them. They deepened them. They expressed them not merely in systematic works but in sermons that moved whole congregations to tears and repentance.</p>
+
+            <p>The Westminster Confession of Faith (1647) stands as perhaps the greatest theological achievement of the Puritan era. This confession was not drafted in isolation. It was the collaborative work of dozens of the finest Puritan minds—men commissioned by Parliament to settle the doctrine of the Church of England. What they produced was not a tentative statement. It was a crystalline articulation of what Scripture teaches about God's sovereignty in salvation. The Westminster standards—the Confession, the Shorter Catechism, and the Larger Catechism—remain to this day the clearest, most comprehensive statement of Reformed Christianity ever produced. When you read the Westminster Confession, you are reading the distilled wisdom of men who knew Scripture deeply, had thought through the great questions of theology with rigor, and could explain complex truths in language that ordinary believers could understand.</p>
+
+            <p>Scripture teaches that God decrees all things that come to pass. The Westminster Confession captures this: "God from all eternity did by the most wise and holy counsel of his own will, freely and unchangeably ordain whatsoever comes to pass." This is not cold determinism. It is the foundation of assurance. If God ordains all things, then nothing can thwart His purposes. The believer's salvation is not left to chance or to human caprice. It rests on the eternal, immutable decree of God.</p>
+
+            <p>The Puritans understood that conviction about God's sovereignty must transform how we live. If God has chosen us, if His grace is irresistible, if He will preserve us unto the end, then we should live with gratitude, not guilt. With joy, not despair. With confidence, not uncertainty. The Puritan ethical vision flowed from this theological foundation. They pursued holiness not to earn God's favor—that would be legalism—but because they had already received God's favor in Christ and desired to honor the God who had saved them.</p>
+        </section>
+
+        <!-- SECTION 3: GREAT MINDS -->
+        <section class="narrative-section" id="great-minds">
+            <h2>Giants of the Faith: Puritan Theologians Who Changed History</h2>
+
+            <p>To speak of Puritan theology is to speak of men who towered intellectually and spiritually. These were not mere systematizers. They were prophets, pastors, scholars, and saints who understood that every doctrine of Scripture must flow from the conviction that <strong>God alone is supreme in salvation.</strong></p>
+
+            <h3>John Owen (1616–1683): The Prince of Puritan Theologians</h3>
+
+            <p>If any figure embodies the genius of Puritan theology, it is John Owen. A towering intellect fluent in Hebrew, Greek, Latin, and numerous modern languages, Owen produced some of the greatest theological works ever written. His commentary on Hebrews remains unmatched. His works on sin, on mortification (the warfare against the flesh), on the Holy Spirit, on God's covenant purposes—all stand as monuments to biblical scholarship and spiritual insight combined.</p>
+
+            <p>Owen understood something crucial: <strong>Scripture teaches that mortification—the killing of sin—is not something we do in our own strength, but something the Spirit does in us.</strong> The old self must die. But only the Spirit can accomplish this death. Owen's writings on sanctification have never been equaled. He showed that the pursuit of holiness is not a burdensome duty but a joyful response to God's gracious work in our hearts. When Owen wrote about battling sin, he was not giving rules. He was opening windows into the souls of men and women who had met God and been changed by that meeting.</p>
+
+            <h3>Jonathan Edwards (1703–1758): The American Theologian</h3>
+
+            <p>Jonathan Edwards was born into the Puritan tradition, but he renewed it for his generation. A preacher of extraordinary power, Edwards could describe the sovereignty of God with philosophical precision and pastoral warmth simultaneously. His sermon "Sinners in the Hands of an Angry God" is famous—sometimes caricatured as mere hellfire preaching. But those who read it carefully see something different: a description of God's justice that is meant to drive sinners to Christ as their only refuge.</p>
+
+            <p>Edwards understood that <strong>Scripture teaches that the human heart is governed by affections—by what we love.</strong> The problem with humanity is not merely intellectual error, but spiritual disorder. We love ourselves, our sin, our independence from God. Only a radical reordering of the heart—what Edwards called "religious affections"—can save us. And this reordering is the work of God. It comes through the Holy Spirit's power, not through human effort or persuasion. Edwards's theology issues in a vision of conversion as genuine transformation, not mere intellectual assent.</p>
+
+            <h3>Richard Baxter (1615–1691): The Faithful Pastor</h3>
+
+            <p>While Owen was the prince of theologians, Baxter was the exemplar of pastoral faithfulness. A minister in Kidderminster, Baxter spent decades faithfully preaching and pastoring his flock. His "Reformed Pastor" remains the greatest work on pastoral ministry ever written. Baxter showed that a pastor must know his people intimately, visit them in their homes, understand their struggles, and address them with the particular application of Scripture their souls need.</p>
+
+            <p>But Baxter was also a theologian of considerable depth. His understanding of Christ's mediatorial work, his exposition of the covenant of grace, his defense of the unity of redemptive history—all show a mind steeped in Scripture and theological reflection. Baxter proved that a pastor need not abandon theological rigor to be practically useful, and a theologian need not abandon pastoral concern to be intellectually rigorous.</p>
+
+            <h3>William Perkins (1558–1602): The Architect of Reformed Pastoral Ministry</h3>
+
+            <p>William Perkins stands as the father of the Puritan movement, the theological architect who showed how Reformed doctrine could be embodied in pastoral practice. His "Golden Chain" remains a masterpiece of biblical theology, tracing the golden thread of redemption from creation through the work of Christ to the consummation of all things. Perkins understood that <strong>Scripture teaches a unified history of redemption</strong>—that all of Scripture points to Christ, and understanding that golden thread transforms how we read every passage.</p>
+
+            <p>Perkins was also the pioneer of what came to be called "practical divinity"—the application of doctrine to the Christian life. He showed that theology is not meant to live in books. It must be incarnate in believers who live it out in obedience and faith. This vision shaped the Puritan movement for generations.</p>
+        </section>
+
+        <!-- SECTION 4: DEVOTIONAL DEPTH -->
+        <section class="narrative-section" id="devotional-depth">
+            <h2>The Puritan Devotional Vision: Knowing God Intimately</h2>
+
+            <p>One of the great tragedies of modern Christianity is the separation of doctrine from devotion. We have grown accustomed to thinking that theology belongs in seminaries and doctrine belongs in books, while "real" Christianity happens in our hearts. But the Puritans knew something we have forgotten: <strong>you cannot truly know God without understanding who He is. Doctrine is devotion.</strong> When you understand that God has chosen you before the foundation of the world, when you grasp that Christ died specifically for you, when you realize that the Spirit irresistibly converted your dead heart to faith—all of this knowledge should transform you into a worshiper.</p>
+
+            <p>The Puritans poured their theological convictions into their prayers. They wrote prayers that are among the most beautiful ever penned. In their private prayers, in their family devotions, in their corporate worship, the Puritans expressed what they believed about God's sovereignty. The prayer books of the Puritan era—like the works of Samuel Rutherford, with his famous letters of spiritual direction—show believers grappling with the deepest questions of faith: How can I know God loves me? How can I be sure of my election? How can I persevere when my faith wavers?</p>
+
+            <p>The Puritan answer was always the same: <strong>Look to Christ. Rest in His finished work. Trust in the God who has promised never to let you go.</strong> The doctrine of perseverance was not meant to be an abstract proposition. It was meant to be a pillow upon which the weary believer could rest their head. If your salvation rests on God's faithfulness rather than your own, then you can sleep in peace.</p>
+
+            <div class="scripture">
+                <strong>"For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord."</strong> — Romans 8:38-39 (KJV)
+            </div>
+
+            <p>Paul's promise is not contingent on our worthiness. It rests entirely on God's love in Christ. The Puritans seized upon this promise. They knew that their emotions fluctuated, that their faith sometimes wavered, that their obedience was imperfect. But they also knew something immovable: God's covenant love in Christ. That knowledge sustained them through persecution, poverty, sickness, and death.</p>
+        </section>
+
+        <!-- SECTION 5: THE GREAT AWAKENING -->
+        <section class="narrative-section" id="great-awakening">
+            <h2>The Great Awakening: Puritan Vision Ignited</h2>
+
+            <p>By the early eighteenth century, the Puritan era was officially over. The great Puritan preachers had died. The Puritan commonwealth in England had given way to the Restoration monarchy. But the seed they had planted had not died. In the 1730s and 1740s, a movement began to sweep both sides of the Atlantic that was, in many ways, a Puritan awakening. The Great Awakening saw Jonathan Edwards preach with power, George Whitefield proclaim the gospel to thousands, and entire congregations come under deep conviction of sin and conviction of grace.</p>
+
+            <p>Scripture teaches that revival is God's work, not man's. The Puritan theologians of the Great Awakening understood this. They did not try to manufacture awakening. They preached Christ with fidelity, trusted the Spirit's power, and were amazed at what God did. Entire communities were transformed. People who had been cold in their faith suddenly burned with passion for Christ. Believers who had intellectual assent to doctrine suddenly experienced the reality of what they believed.</p>
+
+            <p>The Great Awakening proved that the Puritan vision was not antiquated, not a relic of a bygone era. When God's Word is preached faithfully, when the sovereignty of God in salvation is proclaimed boldly, when Christ is lifted up as the only Savior—lives are transformed. The Awakening showed that the doctrines of grace were not dry academic propositions. They were living truth with power to change souls.</p>
+        </section>
+
+        <!-- SECTION 6: LEGACY AND LASTING IMPACT -->
+        <section class="narrative-section" id="legacy">
+            <h2>The Puritan Legacy: Why They Still Matter</h2>
+
+            <p>What is the legacy of the Puritans? Why should we care about men who lived centuries ago in a different cultural context? The answer is simple: <strong>because they recovered biblical truth about God's sovereignty and lived it with such depth and power that their witness remains transformative.</strong></p>
+
+            <p>First, the Puritans showed us that systematic theology matters. They did not apologize for thinking deeply about Scripture. They did not treat doctrine as divisive or unnecessary. They understood that the mind, properly engaged with Scripture, can grasp the infinite richness of God's truth. The Westminster Confession stands as their monument—a testimony that faithful, careful theological work produces results that benefit the church for centuries.</p>
+
+            <p>Second, the Puritans showed us that doctrine must be lived. They were not merely theologians; they were saints. Their writings are filled not with abstract speculation but with the lived reality of faith. When John Owen wrote about mortification, he wrote as a man battling sin. When Richard Baxter wrote about pastoral ministry, he wrote as a man who had spent decades in the trenches, knowing his people. When Jonathan Edwards described conversion, he described it as something he had witnessed in his own congregation. Theology was real to them because it had to be real. Their souls depended on it.</p>
+
+            <p>Third, the Puritans showed us that the doctrines of grace produce a particular kind of Christian. They are marked by humility—because they know they owe everything to God's grace. They are marked by gratitude—because they know they deserve nothing but judgment, yet have been chosen and redeemed. They are marked by confidence—because their security does not rest on their performance but on God's faithfulness. They are marked by holiness—not as burden but as joyful response to God's love. The Puritan saints show us what Christianity looks like when it is deeply rooted in the conviction that God alone is supreme in salvation.</p>
+
+            <p>Finally, the Puritans showed us that the gospel spreads most powerfully when God's sovereign grace is proclaimed. The Great Awakening did not come through better marketing or more appealing messages. It came through faithful preaching of the sovereignty of God, the power of sin, the sufficiency of Christ, and the irresistible grace of the Spirit. When these truths are proclaimed, God honors His Word and transforms hearts. This is the Puritan legacy: that when we trust Scripture, when we proclaim God's sovereignty without apology, when we live out what we believe—God moves.</p>
+
+            <div class="scripture">
+                <strong>"Now unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us, unto him be glory in the church by Christ Jesus throughout all ages, world without end. Amen."</strong> — Ephesians 3:20-21 (KJV)
+            </div>
+
+            <p>This is the Puritan vision: not our power, but God's power working in us. Not our achievement, but God's glory in the church. This vision sustained the Puritans through centuries of struggle. It should sustain us today.</p>
+        </section>
+
+        <!-- CROSS-LINKS -->
+        <section class="cross-links">
+            <h4>Deepen Your Understanding</h4>
+            <ul>
+                <li><a href="/history-dort">The Synod of Dort — The foundation of Reformed doctrine that shaped Puritan theology</a></li>
+                <li><a href="/theologians">Puritan Theologians — Explore Owen, Edwards, Baxter, Perkins in depth</a></li>
+                <li><a href="/systematic-theology">Systematic Theology Hub — Master the doctrines the Puritans lived</a></li>
+                <li><a href="/resources-confessions">Westminster Confession — The Puritan masterpiece of biblical doctrine</a></li>
+                <li><a href="/history-timeline">The Golden Thread — See how the Puritans fit into church history</a></li>
+            </ul>
+        </section>
+
+        <!-- TIMELINE NAVIGATION -->
+        <section class="timeline-nav">
+            <a href="/history-dort" class="timeline-nav-item">
+                <span class="label">Previous Era</span>
+                <h4>Synod of Dort</h4>
+            </a>
+            <a href="/history-timeline" class="timeline-nav-item">
+                <span class="label">Full Timeline</span>
+                <h4>The Golden Thread</h4>
+            </a>
+            <a href="/history-20th-century" class="timeline-nav-item">
+                <span class="label">Next Era</span>
+                <h4>20th Century Reformed</h4>
+            </a>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+    <script src="/global.js" defer></script>
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+</body>
+</html>
