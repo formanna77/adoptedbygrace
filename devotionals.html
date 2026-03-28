@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meditations on sovereign grace — devotionals exploring election, regeneration, and the transformative power of God's choosing love.">
+    <meta name="keywords" content="devotionals, Reformed theology, grace, election, regeneration, spiritual meditation">
+    <meta name="author" content="Adopted by Grace">
+    <meta name="canonical" href="https://adoptedbygrace.net/devotionals.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Devotionals — Adopted by Grace">
+    <meta property="og:description" content="Meditations on sovereign grace — for the heart that longs to worship">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/devotionals.html">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:site_name" content="Adopted by Grace">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Devotionals — Adopted by Grace">
+    <meta name="twitter:description" content="Meditations on sovereign grace — for the heart that longs to worship">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+
+    <title>Devotionals — Adopted by Grace</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Google Fonts with preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* Design Tokens */
+        :root {
+            --bg-deep: #0d0b08;
+            --bg-card: #14120e;
+            --bg-card-hover: #1c1914;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+            --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Skip to Content */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 100;
+            font-weight: 600;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: rgba(13, 11, 8, 0.95);
+            border-bottom: 1px solid var(--border-subtle);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.25rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 900;
+            letter-spacing: 0.15em;
+            color: var(--accent-gold);
+            transition: color var(--transition-smooth);
+        }
+
+        .logo:hover {
+            color: var(--accent-ember);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color var(--transition-smooth);
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-gold);
+            transition: width var(--transition-smooth);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hamburger Menu */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 6px;
+            padding: 8px;
+        }
+
+        .hamburger span {
+            width: 24px;
+            height: 2px;
+            background: var(--accent-gold);
+            border-radius: 1px;
+            transition: all var(--transition-smooth);
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(8px, 8px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(8px, -8px);
+        }
+
+        /* Reading Progress Bar */
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet), var(--accent-ember));
+            width: 0%;
+            z-index: 200;
+            transition: width 0.1s linear;
+        }
+
+        /* Hero Section */
+        .hero {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 5rem 1.5rem 3rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -20%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 900;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 3rem;
+            font-weight: 300;
+            letter-spacing: 0.02em;
+        }
+
+        /* Intro Paragraph */
+        .intro-section {
+            max-width: 800px;
+            margin: 0 auto 4rem;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(20, 18, 14, 0.5) 0%, rgba(28, 25, 20, 0.3) 100%);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .intro-section::before {
+            content: '"';
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 4rem;
+            color: var(--accent-gold);
+            opacity: 0.3;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .intro-section p {
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .intro-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .intro-section em {
+            color: var(--accent-gold);
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        /* Devotionals Grid */
+        .devotionals-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem 4rem;
+        }
+
+        .devotionals-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        /* Devotional Card */
+        .devotional-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 2rem;
+            transition: all var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .devotional-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
+            opacity: 0;
+            transition: opacity var(--transition-smooth);
+        }
+
+        .devotional-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at top right, rgba(212, 162, 84, 0.05), transparent);
+            opacity: 0;
+            transition: opacity var(--transition-smooth);
+        }
+
+        .devotional-card:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(212, 162, 84, 0.3);
+            transform: translateY(-4px);
+        }
+
+        .devotional-card:hover::before {
+            opacity: 1;
+        }
+
+        .devotional-card:hover::after {
+            opacity: 1;
+        }
+
+        .card-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            opacity: 0.4;
+            margin-bottom: 0.5rem;
+            line-height: 1;
+        }
+
+        .card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            line-height: 1.3;
+            color: var(--text-primary);
+        }
+
+        .card-description {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            flex-grow: 1;
+            line-height: 1.6;
+        }
+
+        .card-scripture {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent-violet);
+            margin-bottom: 1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .card-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(212, 162, 84, 0.1);
+        }
+
+        .card-read {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent-gold);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all var(--transition-smooth);
+        }
+
+        .card-read svg {
+            width: 16px;
+            height: 16px;
+            stroke-width: 2;
+            transition: transform var(--transition-smooth);
+        }
+
+        .devotional-card:hover .card-read {
+            gap: 0.75rem;
+            color: var(--accent-ember);
+        }
+
+        .devotional-card:hover .card-read svg {
+            transform: translateX(3px);
+        }
+
+        /* Spurgeon Quote Block */
+        .quote-block {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 3rem;
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(232, 100, 44, 0.05) 100%);
+            border-left: 4px solid var(--accent-gold);
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .quote-block::before {
+            content: '"';
+            position: absolute;
+            top: 10px;
+            left: 30px;
+            font-size: 5rem;
+            color: var(--accent-gold);
+            opacity: 0.2;
+            font-family: 'Playfair Display', serif;
+            line-height: 1;
+        }
+
+        .quote-text {
+            font-size: 1.3rem;
+            color: var(--text-primary);
+            font-style: italic;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+
+        .quote-author {
+            color: var(--accent-gold);
+            font-size: 0.95rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-align: right;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 48px;
+            height: 48px;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: all var(--transition-smooth);
+            z-index: 40;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        .back-to-top.show {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .back-to-top:hover {
+            background: var(--accent-ember);
+            transform: scale(1.1);
+        }
+
+        .back-to-top:focus-visible {
+            outline: 2px solid var(--accent-violet);
+            outline-offset: 2px;
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(180deg, rgba(20, 18, 14, 0.8) 0%, var(--bg-deep) 100%);
+            border-top: 1px solid var(--border-subtle);
+            margin-top: 4rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.05em;
+        }
+
+        .footer-section p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color var(--transition-smooth);
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            max-width: 1200px;
+            margin: 2rem auto 0;
+            padding: 2rem 1.5rem 0;
+            border-top: 1px solid var(--border-subtle);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* Focus Visible Styles */
+        a:focus-visible,
+        button:focus-visible {
+            outline: 2px solid var(--accent-violet);
+            outline-offset: 2px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background: rgba(13, 11, 8, 0.98);
+                border-bottom: 1px solid var(--border-subtle);
+                gap: 0;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height var(--transition-smooth);
+            }
+
+            .nav-links.open {
+                max-height: 500px;
+                padding: 1rem 0;
+            }
+
+            .nav-links li {
+                width: 100%;
+            }
+
+            .nav-links a {
+                display: block;
+                padding: 0.75rem 1.5rem;
+            }
+
+            .hero {
+                padding: 3rem 1.5rem 2rem;
+            }
+
+            .hero::before {
+                width: 200px;
+                height: 200px;
+                right: -10%;
+            }
+
+            .intro-section {
+                padding: 2rem;
+            }
+
+            .intro-section::before {
+                font-size: 2rem;
+                left: 10px;
+            }
+
+            .devotionals-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .back-to-top {
+                width: 44px;
+                height: 44px;
+                bottom: 1.5rem;
+                right: 1.5rem;
+            }
+
+            .quote-block {
+                padding: 2rem;
+            }
+
+            .quote-text {
+                font-size: 1.15rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .devotional-card {
+                padding: 1.5rem;
+            }
+
+            .card-number {
+                font-size: 2rem;
+            }
+
+            .card-title {
+                font-size: 1.25rem;
+            }
+
+            .footer-container {
+                gap: 2rem;
+            }
+        }
+
+        /* Reduced motion */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <div class="progress-bar"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="this.classList.toggle('active');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('active'))">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="start-here.html">Start Here</a></li>
+                <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
+                <li><a href="demolition-hub.html">Demolition</a></li>
+                <li><a href="theologians.html">Theologians</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Devotionals</h1>
+            <p>Meditations on sovereign grace — for the heart that longs to worship</p>
+        </section>
+
+        <!-- Intro Section -->
+        <section class="intro-section">
+            <p>The mind can grasp election as doctrine. The heart must taste it as <em>grace</em>. These devotionals are written not for the theologian's desk but for the soul's transformation — to move you from intellectual assent to doxological joy. Each meditation invites you deeper into the truth that you are <em>loved with an everlasting love, chosen before the foundations of the world, rescued not because you deserved it but because He delighted to make you His own</em>.</p>
+            <p>As you read, ask the Spirit to align your affections with truth. This is the work of devotion: that Christ becomes not just your doctrine but your delight.</p>
+        </section>
+
+        <!-- Devotionals Grid -->
+        <section class="devotionals-container">
+            <div class="devotionals-grid">
+                <!-- Card 1 -->
+                <a href="devotional-glory-of-divine-choice.html" class="devotional-card">
+                    <div class="card-number">01</div>
+                    <h2 class="card-title">The Glory of Divine Choice</h2>
+                    <p class="card-description">Election is not arbitrary cruelty but the apex of divine wisdom and goodness. Discover why your salvation reveals God's glory more brilliantly than any alternative.</p>
+                    <div class="card-scripture">Ephesians 1:3–6</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a href="devotional-dead-who-live.html" class="devotional-card">
+                    <div class="card-number">02</div>
+                    <h2 class="card-title">The Dead Who Live</h2>
+                    <p class="card-description">Regeneration is not self-improvement but resurrection. Only a dead man raised can understand what grace has made you—alive in Christ.</p>
+                    <div class="card-scripture">Ephesians 2:1–5</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a href="devotional-love-before-the-world.html" class="devotional-card">
+                    <div class="card-number">03</div>
+                    <h2 class="card-title">Love Before the World Was Made</h2>
+                    <p class="card-description">Your election was not an afterthought when God saw your faith. He loved you in His Son before time itself began—a love older than creation.</p>
+                    <div class="card-scripture">Ephesians 1:4</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a href="devotional-my-chains-fell-away.html" class="devotional-card">
+                    <div class="card-number">04</div>
+                    <h2 class="card-title">My Chains Fell Away</h2>
+                    <p class="card-description">Freedom in Christ is not permission to sin but the liberation to obey. Grace breaks our chains and sets us running toward holiness.</p>
+                    <div class="card-scripture">Galatians 5:1</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 5 -->
+                <a href="devotional-forever-loved.html" class="devotional-card">
+                    <div class="card-number">05</div>
+                    <h2 class="card-title">Forever Loved</h2>
+                    <p class="card-description">Nothing can separate you from the love of Christ—not death, not demons, not your own desperate fears. You are held in an unbreakable grip.</p>
+                    <div class="card-scripture">Romans 8:38–39</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 6 -->
+                <a href="devotional-adoption-papers.html" class="devotional-card">
+                    <div class="card-number">06</div>
+                    <h2 class="card-title">Adoption Papers</h2>
+                    <p class="card-description">Before you drew breath, God wrote your name in the register of His household. You are not a servant but a beloved child, chosen and sealed forever.</p>
+                    <div class="card-scripture">Ephesians 1:5</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 7 -->
+                <a href="devotional-rescued-without-a-say.html" class="devotional-card">
+                    <div class="card-number">07</div>
+                    <h2 class="card-title">Rescued Without a Say</h2>
+                    <p class="card-description">You did not choose Him; He chose you. This overthrows human pride and anchors salvation in the sovereign mercy of God alone.</p>
+                    <div class="card-scripture">John 1:13</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 8 -->
+                <a href="devotional-not-my-will-but-joy.html" class="devotional-card">
+                    <div class="card-number">08</div>
+                    <h2 class="card-title">Not My Will, But Joy</h2>
+                    <p class="card-description">God's will may not be yours, but when you surrender to it, you find not resignation but rejoicing—the deepest satisfaction a soul can know.</p>
+                    <div class="card-scripture">Psalm 115:3</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 9 -->
+                <a href="devotional-good-i-cannot-do.html" class="devotional-card">
+                    <div class="card-number">09</div>
+                    <h2 class="card-title">The Good That I Cannot Do</h2>
+                    <p class="card-description">Your weakness is not your shame—it is the stage where God's strength becomes visible. Dependence is not defeat; it is your truest victory.</p>
+                    <div class="card-scripture">Romans 7:18</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 10 -->
+                <a href="devotional-weakness-of-gods-strength.html" class="devotional-card">
+                    <div class="card-number">10</div>
+                    <h2 class="card-title">The Weakness of God's Strength</h2>
+                    <p class="card-description">Suffering may look like abandonment, but it is the furnace where Christ becomes your all-sufficiency. Grace is most grace when all else is stripped away.</p>
+                    <div class="card-scripture">2 Corinthians 12:9</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Spurgeon Quote -->
+        <section class="quote-block">
+            <p class="quote-text">A devout life is not a life of rigid restraint, but of warm affection toward God. The grace of God should kindle within us such a love for Him that our entire being overflows with gratitude and worship.</p>
+            <div class="quote-author">— CHARLES HADDON SPURGEON</div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section"><h4>ADOPTED BY GRACE</h4><p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p></div>
+            <div class="footer-section"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="questions.html">The Evidence</a></li><li><a href="systematic-theology.html">Systematic</a></li><li><a href="demolition-hub.html">Demolition</a></li><li><a href="theologians.html">Theologians</a></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li></ul></div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+
+    <script>
+        // Reading Progress Bar
+        window.addEventListener('scroll', () => {
+            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolled = (window.scrollY / scrollHeight) * 100;
+            document.querySelector('.progress-bar').style.width = scrolled + '%';
+        });
+
+        // Back to Top Button
+        const backToTopBtn = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        // Close mobile menu when link clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.hamburger').classList.remove('active');
+                document.querySelector('.nav-links').classList.remove('open');
+                document.querySelector('.hamburger').setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Devotionals — Adopted by Grace",
+        "description": "Meditations on sovereign grace — for the heart that longs to worship",
+        "url": "https://adoptedbygrace.net/devotionals.html",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntity": {
+            "@type": "Collection",
+            "name": "Reformed Theology Devotionals",
+            "description": "10 devotionals exploring election, regeneration, grace, and the sovereignty of God"
+        },
+        "image": "https://adoptedbygrace.net/og-image.png"
+    }
+    </script>
+</body>
+</html>

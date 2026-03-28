@@ -37,11 +37,19 @@
 - `question-depravity.html` — Total Depravity (Romans 3, Eph 2, Gen 6 — man's complete inability)
 - `about.html` — Mission and audience
 - `essays.html` — 6 downloadable PDF essays
-- `systematic-theology.html` — Hub page for Systematic Theology series (4 live topics, 9 planned)
+- `systematic-theology.html` — Hub page for Systematic Theology series (12 live topics, all complete)
 - `systematic-ordo-salutis.html` — The Ordo Salutis: election→glorification, golden chain, Greek analysis
 - `systematic-covenant-theology.html` — Covenant Theology: pactum salutis, covenant of works/grace, Christ as mediator
 - `systematic-divine-decrees.html` — Divine Decrees: attributes, predestination, providence, supra/infra
 - `systematic-compatibilism.html` — Compatibilism: sovereignty & responsibility, Joseph, cross, Pharaoh, philosophical framework
+- `systematic-theology-proper.html` — **NEW** Theology Proper: God's aseity, simplicity, immutability, sovereignty, attributes, Trinity
+- `systematic-prolegomena.html` — **NEW** Prolegomena: Scripture, revelation, inspiration, authority, sufficiency, perspicuity
+- `systematic-christology.html` — **NEW** Christology: Person and work of Christ, two natures, three offices, definite atonement
+- `systematic-pneumatology.html` — **NEW** Pneumatology: Holy Spirit, regeneration, illumination, indwelling, sealing, sanctification
+- `systematic-hamartiology.html` — **NEW** Hamartiology: Original sin, total depravity, the fall, federal headship, imputation
+- `systematic-anthropology.html` — **NEW** Anthropology: Image of God, human nature, the fall, restoration in Christ
+- `systematic-ecclesiology.html` — **NEW** Ecclesiology: The church, marks, means of grace, government, mission
+- `systematic-eschatology.html` — **NEW** Eschatology: Death, intermediate state, return of Christ, resurrection, judgment, new creation
 - `question-irresistible.html` — Irresistible Grace / Effectual Calling (John 6:37, Phil 1:29, Acts 16:14)
 - `question-perseverance.html` — Perseverance of the Saints (John 10:28-29, Rom 8:35-39, Phil 1:6)
 - `freedom.html` — Why sovereign grace is the end of fear
@@ -77,6 +85,26 @@
 - `ot-david.html` — **NEW** David — Election and kingship (1 Samuel 16, Psalm 65:4, 2 Samuel 7)
 - `ot-joseph.html` — **NEW** Joseph — Sovereignty in suffering (Genesis 37-50, Genesis 50:20)
 - `ot-israel-chosen.html` — **NEW** Israel: A Chosen Nation (Deuteronomy 7:6-8, 9:4-6, Isaiah 46:9-10)
+- `systematic-theology-proper.html` — **NEW** Theology Proper: God's nature, attributes, sovereignty
+- `systematic-christology.html` — **NEW** Christology: Person and work of Christ
+- `systematic-hamartiology.html` — **NEW** Hamartiology: Sin, the fall, total depravity
+- `systematic-pneumatology.html` — **NEW** Pneumatology: The Holy Spirit's work
+- `systematic-anthropology.html` — **NEW** Anthropology: Image of God, human nature
+- `systematic-ecclesiology.html` — **NEW** Ecclesiology: The church, marks, mission
+- `systematic-eschatology.html` — **NEW** Eschatology: Death, return of Christ, new creation
+- `systematic-prolegomena.html` — **NEW** Prolegomena: Scripture, revelation, authority
+- `404.html` — **NEW** Custom 404 error page: "This Page Has Not Been Predestined"
+- `devotionals.html` — **NEW** Devotionals hub — 10 meditative reflections on sovereign grace
+- `devotional-glory-of-divine-choice.html` — **NEW** "The Glory of Divine Choice" — Election as worship (Eph 1:3-6)
+- `devotional-dead-who-live.html` — **NEW** "The Dead Who Live" — Regeneration as resurrection (Eph 2:1-5)
+- `devotional-love-before-the-world.html` — **NEW** "Love Before the World Was Made" — Electing love (Eph 1:4)
+- `devotional-my-chains-fell-away.html` — **NEW** "My Chains Fell Away" — Freedom in grace (Gal 5:1)
+- `devotional-forever-loved.html` — **NEW** "Forever Loved" — Perseverance and assurance (Rom 8:38-39)
+- `devotional-adoption-papers.html` — **NEW** "Adoption Papers" — Chosen before we existed (Eph 1:5)
+- `devotional-rescued-without-a-say.html` — **NEW** "Rescued Without a Say" — Grace overriding will (John 1:13)
+- `devotional-not-my-will-but-joy.html` — **NEW** "Not My Will, But Joy" — Surrendering to God's will (Ps 115:3)
+- `devotional-good-i-cannot-do.html` — **NEW** "The Good That I Cannot Do" — Inability and dependence (Rom 7:18)
+- `devotional-weakness-of-gods-strength.html` — **NEW** "The Weakness of God's Strength" — Sovereignty in suffering (2 Cor 12:9)
 
 ### Design System
 - Dark dramatic aesthetic (#0a0a0f bg, gold/ember/violet accents)
@@ -129,14 +157,14 @@
 - [x] **Covenant Theology** — `systematic-covenant-theology.html` — Pactum salutis, covenant of works, covenant of grace (6 sub-covenants), Christ as mediator
 - [x] **Divine Decrees** — `systematic-divine-decrees.html` — 7 attributes, predestination, reprobation, supra/infra, providence, 5 arguments
 - [x] **Compatibilism** — `systematic-compatibilism.html` — 7 biblical patterns, philosophical framework, Edwards' distinction, 5 arguments
-- [ ] **Christology** — Person and work of Christ, two natures, three offices, definite atonement
-- [ ] **Pneumatology** — The Holy Spirit: regeneration, illumination, indwelling, sealing
-- [ ] **Hamartiology** — Original sin, total depravity, the fall, imputation
-- [ ] **Theology Proper** — God's aseity, simplicity, immutability, sovereignty, attributes
-- [ ] **Prolegomena** — Scripture, revelation, authority, sufficiency, perspicuity
-- [ ] **Ecclesiology** — The church, marks, means of grace, mission
-- [ ] **Eschatology** — Death, return of Christ, resurrection, judgment, new creation
-- [ ] **Anthropology** — Image of God, human nature, fall, restoration in Christ
+- [x] **Christology** — `systematic-christology.html` — Person and work of Christ, two natures, three offices, definite atonement, Owen's trilemma ✅ (2026-03-27 Systematic Theology Session)
+- [x] **Pneumatology** — `systematic-pneumatology.html` — The Holy Spirit: regeneration, illumination, indwelling, sealing, sanctification ✅ (2026-03-27 Systematic Theology Session)
+- [x] **Hamartiology** — `systematic-hamartiology.html` — Original sin, total depravity, the fall, federal headship, imputation ✅ (2026-03-27 Systematic Theology Session)
+- [x] **Theology Proper** — `systematic-theology-proper.html` — God's aseity, simplicity, immutability, sovereignty, attributes, Trinity ✅ (2026-03-27 Systematic Theology Session)
+- [x] **Prolegomena** — `systematic-prolegomena.html` — Scripture, revelation, inspiration, authority, sufficiency, perspicuity ✅ (2026-03-27 Systematic Theology Session)
+- [x] **Ecclesiology** — `systematic-ecclesiology.html` — The church, marks, means of grace, government, mission ✅ (2026-03-27 Systematic Theology Session)
+- [x] **Eschatology** — `systematic-eschatology.html` — Death, intermediate state, return of Christ, resurrection, judgment, new creation ✅ (2026-03-27 Systematic Theology Session)
+- [x] **Anthropology** — `systematic-anthropology.html` — Image of God, human nature, the fall, restoration in Christ ✅ (2026-03-27 Systematic Theology Session)
 
 ### Priority 3.5 — Scripture Tsunami (Interactive Verse Database)
 - [x] **Scripture Tsunami v1** — 200+ verse interactive database organized by TULIP, searchable, filterable → `scripture-tsunami.html` ✅ (2026-03-27 Scripture Tsunami Agent)
@@ -178,6 +206,23 @@
 - [ ] **"The Potter's House"** — Allegory on Romans 9:21
 - [ ] **"The Night Augustine Wept"** — Historical fiction on Augustine's conversion
 - [ ] **"The Chosen" (Serialized Epic)** — Multi-part allegory following the ordo salutis
+
+### Priority 7 — Devotionals
+- [x] **Devotionals Hub** — `devotionals.html` — Hub page linking all devotional meditations on sovereign grace ✅ (2026-03-27 Devotional Creator)
+- [x] **"The Glory of Divine Choice"** — `devotional-glory-of-divine-choice.html` — Election as cause for worship (Ephesians 1:3-6) ✅ (2026-03-27 Devotional Creator)
+- [x] **"The Dead Who Live"** — `devotional-dead-who-live.html` — Regeneration as resurrection (Ephesians 2:1-5) ✅ (2026-03-27 Devotional Creator)
+- [x] **"Love Before the World Was Made"** — `devotional-love-before-the-world.html` — God's electing love (Ephesians 1:4, Jeremiah 31:3) ✅ (2026-03-27 Devotional Creator)
+- [x] **"My Chains Fell Away"** — `devotional-my-chains-fell-away.html` — Freedom in grace (Galatians 5:1, John 8:36) ✅ (2026-03-27 Devotional Creator)
+- [x] **"Forever Loved"** — `devotional-forever-loved.html` — Perseverance and assurance (Romans 8:38-39) ✅ (2026-03-27 Devotional Creator)
+- [x] **"Adoption Papers"** — `devotional-adoption-papers.html` — God chose us before we existed (Ephesians 1:5, Romans 8:15-17) ✅ (2026-03-27 Devotional Creator)
+- [x] **"Rescued Without a Say"** — `devotional-rescued-without-a-say.html` — Grace that overrides human will (John 1:13) ✅ (2026-03-27 Devotional Creator)
+- [x] **"Not My Will, But Joy"** — `devotional-not-my-will-but-joy.html` — Surrendering to God's will (Psalm 115:3) ✅ (2026-03-27 Devotional Creator)
+- [x] **"The Good That I Cannot Do"** — `devotional-good-i-cannot-do.html` — Inability and dependence (Romans 7:18) ✅ (2026-03-27 Devotional Creator)
+- [x] **"The Weakness of God's Strength"** — `devotional-weakness-of-gods-strength.html` — Sovereignty in suffering (2 Corinthians 12:9) ✅ (2026-03-27 Devotional Creator)
+- [ ] **"When God Says No"** — Unanswered prayer and trust in sovereignty
+- [ ] **"The Valley of the Shadow"** — Psalm 23 meditation on divine guidance
+- [ ] **"Morning Mercies"** — Lamentations 3:22-23 devotional on daily grace
+- [ ] **"The Narrow Door"** — Matthew 7:13-14 meditation on election and the few
 
 ---
 
@@ -224,26 +269,26 @@
 ### Performance
 - [ ] Extract shared CSS into a single `styles.css` file (reduces total site size dramatically)
 - [ ] Minify HTML/CSS for production
-- [x] Add preconnect hints for Google Fonts ✅ (2026-03-27 Architect) — added to 35 pages
+- [x] Add preconnect hints for Google Fonts ✅ (2026-03-27 Architect) — now on all 80 pages
 - [x] Optimize font loading with `font-display: swap` ✅ (verified 2026-03-27 — all 39 pages already had display=swap)
 - [ ] Add lazy loading for any below-fold content
 
 ### Accessibility
-- [x] Add skip-to-content links on every page ✅ (2026-03-27 Architect) — all 39 pages, with CSS focus styles and main-content anchors
-- [ ] Ensure all interactive elements have focus styles
+- [x] Add skip-to-content links on every page ✅ (2026-03-27 Architect) — all 80 pages now have skip-link + main-content anchors
+- [x] Ensure all interactive elements have focus styles ✅ (2026-03-27 Architect Session 2) — `*:focus-visible` with gold outline on all 80 pages
 - [ ] Verify color contrast meets WCAG AA standards
-- [ ] Add ARIA labels where appropriate
+- [x] Add ARIA labels where appropriate ✅ (2026-03-27 Architect Session 2) — `role="navigation"` + `aria-label` on all nav, hamburger, back-to-top, reading progress, share buttons
 - [ ] Test keyboard navigation on all pages
 
 ### Design & UX
-- [ ] Add a "Back to Top" button on long pages
-- [ ] Add reading progress indicator on question pages
-- [ ] Improve mobile navigation (hamburger menu) — PRIORITY: 8 nav items need responsive menu
+- [x] Add a "Back to Top" button on long pages ✅ (2026-03-27 Architect Session 2) — all 80 pages, fixed-position with scroll visibility toggle
+- [x] Add reading progress indicator on question pages ✅ (2026-03-27 Architect Session 2) — 50+ content pages with gradient gold-to-ember progress bar
+- [x] Improve mobile navigation (hamburger menu) ✅ (2026-03-27 Architect Session 2) — responsive hamburger on all 80 pages, animated toggle, 768px breakpoint
 - [ ] Add page transition animations
 - [x] Add a search feature (client-side, no server needed) ✅ (2026-03-27 Interactive Features) — `search.html` with full-text search across 60+ pages, category filters, popular search tags, URL param support
-- [ ] Create a 404 page with helpful navigation
+- [x] Create a 404 page with helpful navigation ✅ (2026-03-27 Architect Session 2) — "This Page Has Not Been Predestined" with 4 help cards, Jeremiah 29:11
 - [x] Add breadcrumb navigation on deep pages ✅ (2026-03-27 UX Architect) — 50 child pages now have "← Back to [Hub]" breadcrumbs
-- [ ] Add social sharing buttons (Twitter/X, Facebook) on content pages
+- [x] Add social sharing buttons (Twitter/X, Facebook) on content pages ✅ (2026-03-27 Architect Session 2) — X, Facebook, copy-link on 50+ content pages
 - [x] Standardize navigation across all pages ✅ (2026-03-27 UX Architect) — unified 8-item nav on all 61 pages (Home, Start Here, The Evidence, Systematic, Demolition, Theologians, Resources, About)
 - [x] Standardize footer across all pages ✅ (2026-03-27 UX Architect) — consistent footer with branding + 8 nav links + copyright on all 61 pages
 - [x] Add "Continue Exploring" cross-links ✅ (2026-03-27 UX Architect) — 35 content pages now have 4 curated related-content links each
@@ -284,6 +329,22 @@
 ---
 
 ## Session Log
+
+### 2026-03-27 — Architect Session 2: Mobile Menu, Accessibility, UX, & Quality Sweep (80 pages)
+- **Responsive Hamburger Menu** — Added to all 80 pages: 3-bar animated toggle button, slide-down nav at 768px breakpoint, ARIA `aria-expanded` state management, click-to-toggle JS
+- **Focus Styles (WCAG)** — Added `*:focus-visible` CSS with gold outline to all 80 pages for keyboard navigation accessibility
+- **ARIA Labels** — Added `role="navigation" aria-label="Main navigation"` to all 80 nav elements; ARIA labels on hamburger, back-to-top, reading progress, and share buttons
+- **Back-to-Top Button** — Added to all 80 pages: fixed-position button with scroll-triggered visibility (400px threshold), smooth scroll behavior
+- **Reading Progress Bar** — Added to 50+ content pages: fixed 3px gradient bar (gold→ember) tracking scroll position
+- **Social Sharing Buttons** — Added to 50+ content pages: Share to X (Twitter), Facebook, and copy-link-to-clipboard
+- **Skip-to-Content Links** — Verified on all 80 pages with CSS focus-show behavior
+- **404 Error Page** — Created `404.html`: "This Page Has Not Been Predestined" with 4 help cards (Start Here, Evidence, Scripture Tsunami, Search), Jeremiah 29:11, full design system compliance
+- **SEO Bug Fix** — Fixed og:url typo on `index.html` (`adoptedbgrace.net` → `adoptedbygrace.net`)
+- **New Page Integration** — Brought 8 new systematic theology pages (theology-proper, christology, hamartiology, pneumatology, anthropology, ecclesiology, eschatology, prolegomena) up to full technical standard: standardized nav, hamburger, ARIA, canonical URLs, preconnect, JSON-LD, focus styles, back-to-top, reading progress, social sharing
+- **Sitemap Expansion** — Updated `sitemap.xml` from 69 to 82 entries (added all new systematic pages + 404)
+- **Canonical URL Fixes** — Added missing canonicals to 4 pages (demolition-1john2-2, christology, hamartiology, pneumatology)
+- **Preconnect Fixes** — Added missing `preconnect` hints to 10+ pages
+- **Current page count:** 80 HTML files, all technically standardized
 
 ### 2026-03-27 — Visual Design Agent: 9 SVG Illustrations + 6 Page Integrations
 - **Created 9 SVG visual assets** in `/svg/` directory — all responsive, animated, accessible, matching site design system (dark dramatic, gold/ember/violet)

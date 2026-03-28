@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A meditative devotion on election and divine choice—the glory of being chosen before the foundation of the world.">
+    <meta name="author" content="Adopted by Grace">
+    <meta property="og:title" content="The Glory of Divine Choice | Adopted by Grace">
+    <meta property="og:description" content="A worshipful reflection on unconditional election and why the doctrine of divine choice is the warmest truth in the universe.">
+    <meta property="og:url" content="https://adoptedbygrace.net/devotional-glory-of-divine-choice.html">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Glory of Divine Choice | Adopted by Grace">
+    <meta name="twitter:description" content="A worshipful reflection on unconditional election and why the doctrine of divine choice is the warmest truth in the universe.">
+    <link rel="canonical" href="https://adoptedbygrace.net/devotional-glory-of-divine-choice.html">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <title>The Glory of Divine Choice | Adopted by Grace</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        *:focus-visible {
+            outline: 2px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        :root {
+            --bg-deep: #0d0b08;
+            --bg-card: #14120e;
+            --bg-card-hover: #1c1914;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.8;
+            letter-spacing: 0.3px;
+        }
+
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            text-decoration: none;
+            font-weight: 600;
+            z-index: 100;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
+            z-index: 999;
+            width: 0%;
+        }
+
+        nav {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border-subtle);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+
+        nav .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        nav .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            letter-spacing: 2px;
+        }
+
+        nav .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        nav .nav-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        nav .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 6px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--accent-gold);
+            transition: all 0.3s ease;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(8px, 8px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(8px, -8px);
+        }
+
+        @media (max-width: 768px) {
+            nav .nav-links {
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background-color: var(--bg-card);
+                padding: 1rem;
+                gap: 0;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+                border-bottom: 1px solid var(--border-subtle);
+            }
+
+            nav .nav-links.open {
+                max-height: 500px;
+            }
+
+            nav .nav-links li {
+                padding: 0.5rem 0;
+                border-bottom: 1px solid var(--border-subtle);
+            }
+
+            nav .nav-links li:last-child {
+                border-bottom: none;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .breadcrumb {
+            margin-bottom: 40px;
+        }
+
+        .breadcrumb a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent-ember);
+        }
+
+        .article-meta {
+            margin-bottom: 50px;
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+            line-height: 1.2;
+        }
+
+        .article-meta p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-top: 10px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-top: 50px;
+            margin-bottom: 25px;
+            color: var(--accent-gold);
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-top: 35px;
+            margin-bottom: 18px;
+            color: var(--text-primary);
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .verse-block {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 30px;
+            margin: 40px 0;
+            font-style: italic;
+            text-align: center;
+            color: var(--text-primary);
+            line-height: 1.9;
+        }
+
+        .verse-block cite {
+            display: block;
+            margin-top: 15px;
+            font-style: normal;
+            font-size: 0.9rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.5px;
+        }
+
+        blockquote {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-violet);
+            padding: 20px 25px;
+            margin: 30px 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        blockquote cite {
+            display: block;
+            margin-top: 10px;
+            font-style: normal;
+            color: var(--accent-violet);
+            font-size: 0.9rem;
+        }
+
+        .related-links {
+            background-color: var(--bg-card);
+            padding: 30px;
+            margin: 50px 0;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .related-links h3 {
+            margin-top: 0;
+            color: var(--accent-gold);
+        }
+
+        .related-links ul {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .related-links li {
+            margin-bottom: 12px;
+        }
+
+        .related-links a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .related-links a:hover {
+            color: var(--accent-ember);
+        }
+
+        .closing-prayer {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 35px;
+            margin: 50px 0;
+            font-style: italic;
+            text-align: center;
+            line-height: 2;
+        }
+
+        .share-buttons {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 50px 0;
+            padding-top: 30px;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .share-label {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--accent-gold);
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .share-btn:hover {
+            background-color: var(--bg-card-hover);
+            color: var(--accent-ember);
+            border-color: var(--accent-gold);
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+            z-index: 40;
+        }
+
+        .back-to-top.show {
+            display: flex;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-ember);
+            transform: translateY(-3px);
+        }
+
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            margin-top: 80px;
+            padding: 60px 20px 30px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            main {
+                padding: 40px 20px;
+            }
+
+            .verse-block {
+                padding: 20px;
+            }
+
+            .back-to-top {
+                width: 45px;
+                height: 45px;
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+    <div class="progress-bar"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="this.classList.toggle('active');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('active'))">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="start-here.html">Start Here</a></li>
+                <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
+                <li><a href="demolition-hub.html">Demolition</a></li>
+                <li><a href="theologians.html">Theologians</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <div class="breadcrumb">
+            <a href="devotionals.html">← Back to Devotionals</a>
+        </div>
+
+        <article>
+            <header class="article-meta">
+                <h1>The Glory of Divine Choice</h1>
+                <p>A meditation on election: why being chosen before the foundation of the world is the warmest truth in the universe.</p>
+                <p style="margin-top: 5px; font-size: 0.85rem; color: var(--text-muted);">Reading time: ~12 minutes</p>
+            </header>
+
+            <section>
+                <h2>The Light That Chose to Shine on You</h2>
+
+                <p>Imagine standing outside a cathedral at night. The structure looms dark and ancient against the starless sky. You are nothing—a small figure, insignificant against the weight of stone and centuries. The building is indifferent to your presence. The stones have stood for generations before you arrived; they will stand for generations after you are gone.</p>
+
+                <p>But then the light comes. Great shafts of it pour through the stained glass windows, flooding the courtyard where you stand. Suddenly the darkness breaks. The light finds you. It illuminates the very ground beneath your feet, transforms your shadow, makes you visible in a way you were not before.</p>
+
+                <p>Here is the truth that should move your heart to trembling: <em>You did not create that light. You did not decide it would shine. The light chose to shine on you.</em></p>
+
+                <p>This is election. This is the glory of divine choice.</p>
+
+                <p>In a world that teaches us that everything depends on our choices, that we are the architects of our own destinies, that success or failure rests squarely on our shoulders, the doctrine of election enters like a whisper: <em>Before you were born, before the world was made, before time itself began its first tick, God chose you.</em> Not because of anything He saw in you. Not because you were going to be good enough, smart enough, faithful enough. He chose you because He chose you. Because it pleased Him. Because His grace is not earned—it is given.</p>
+
+                <p>This is not a cold, distant theological abstraction. This is the warmest truth in the universe.</p>
+            </section>
+
+            <section>
+                <h2>The Word That Speaks All Things into Being</h2>
+
+                <p>Listen to the Apostle Paul, writing to the church at Ephesus with a heart overflowing with wonder at the riches of God's grace:</p>
+
+                <div class="verse-block">
+                    Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places, even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love he predestined us for adoption as sons through Jesus Christ, according to the purpose of his will, to the praise of his glorious grace, which he freely bestowed on us in the Beloved.
+                    <cite>Ephesians 1:3–6 (ESV)</cite>
+                </div>
+
+                <p>Notice the verbs. Every single one of them belongs to God.</p>
+
+                <p><em>Blessed us.</em> Not—we blessed ourselves. Not—we worked hard to become blessed. He blessed us. His action. His initiative. His generosity.</p>
+
+                <p><em>He chose us.</em> The choosing is divine. You did not choose Him first; He chose you. This is not a responsive choice, made after you proved yourself worthy. This is an original choice, made before anything existed to prove or disprove.</p>
+
+                <p><em>He predestined us for adoption.</em> The word "predestined" carries the weight of the eternal. Before the foundation of the world—that recurring phrase in Scripture that should make your knees weak—He already had you in mind. He already knew the contours of your life, the trials you would face, the grace you would need, the family you would be born into in Christ.</p>
+
+                <p><em>He freely bestowed on us.</em> Freely. Without cost to you, though it cost Him everything. The grace is not earned. It is not the result of a transaction. It is bestowed. Given. Poured out.</p>
+
+                <p>Do you see what Paul is saying? Every element of your salvation, from beginning to end, is God's work. Your choosing is His choice. Your adoption is His predestination. Your blessing is His gift. You are the beloved, not because you demanded love, but because you are in the Beloved—in Christ—and Christ is eternally beloved of the Father.</p>
+            </section>
+
+            <section>
+                <h2>Before Creation Began Its Song</h2>
+
+                <p>Try to grasp this: "Before the foundation of the world." This phrase appears multiple times in Scripture, each time pointing to the same astonishing reality. God's thoughts about you predate everything. They predate the Milky Way and the Andromeda Galaxy. They predate the mountains and the oceans. They predate the first sunrise that ever broke across a primordial sky.</p>
+
+                <p>In the beginning, there was nothing but God. And in the divine mind, in the counsel of the Trinity, you were already there. Already chosen. Already loved. Already destined for adoption into the family of the Father.</p>
+
+                <p>This is not a statistical truth—"God chose some people, and you happen to be one of them, statistically speaking." This is an intimate truth. The God who created billions upon billions of stars knows you by name. The God who flung galaxies into space set His love upon you before there were any galaxies to fling. The eternal, omniscient, all-wise God—He did not choose you reluctantly or tentatively. He chose you with full knowledge of who you would become, what sins you would commit, what struggles you would face, what joys you would taste. And He chose you anyway. More than that: He chose you <em>so that</em> He could extend mercy in all these moments, so that His grace would abound in your weakness, so that His power would be made perfect in your insufficiency.</p>
+
+                <blockquote>
+                    Whom he did predestinate, them he also called: and whom he called, them he also justified: and whom he justified, them he also glorified.
+                    <cite>Romans 8:30 (KJV)</cite>
+                </blockquote>
+
+                <p>The chain is unbroken. Predestination leads to calling, which leads to justification, which leads to glorification. If God chose you in the beginning, He will not abandon you in the middle. Your present struggles do not surprise Him—He saw them coming before the stars were made. Your future joys are not accidents—He ordained them before the foundation of the world.</p>
+            </section>
+
+            <section>
+                <h2>The Striving Stops; The Singing Begins</h2>
+
+                <p>Here is what most people do not understand about election: it does not paralyze us with fatalism. It liberates us to worship.</p>
+
+                <p>When your salvation depends on your choices, your performance, your goodness, your consistency—you are forever striving. Forever trying to earn favor that is categorical and unbreakable, but that you fear you might lose. You pray harder, trying to impress God. You work harder, trying to prove yourself. You scrutinize your own heart, looking for flaws, for signs that maybe you are not as chosen as you thought.</p>
+
+                <p>This is the exhaustion of the kingdom of human effort.</p>
+
+                <p>But when you understand that your election is not contingent on any of these things—when you understand that you were chosen <em>before</em> you could do anything, that the choice was made in a council of peace in the mind of the Trinity, that nothing you can do will undo it and nothing you can fail at will destroy it—then something breaks open in your heart. The striving ceases. The performance anxiety dissolves. And in its place comes a song.</p>
+
+                <p>Charles Spurgeon, that great preacher of divine grace, once said: "There is no doctrine in the whole Word of God more full of consolation than that of the election of grace. It is the anchor of the soul, the confidence of the timid, and the joy of the believing." Think about that. Election—the doctrine that is most often misunderstood, most often feared, most often attacked—Spurgeon calls it the most consoling truth in all of Scripture. Why? Because it means your hope does not rest on you. It rests on God. And God does not fail.</p>
+
+                <blockquote>
+                    Election is the mother of holiness, not the killer of it. Because those who know they are chosen of God will seek to live lives worthy of their calling, not because they are trying to earn anything, but because they are overcome with gratitude.
+                    <cite>Jonathan Edwards</cite>
+                </blockquote>
+
+                <p>Edwards understood the paradox. The doctrine of election is not a permission to sin. It is the greatest incentive to holiness. When you understand that the all-wise God chose you, that He paid an infinite price to redeem you, that He set His love upon you before time began—how can you not respond with a life of gratitude? How can you not seek to live in a way that honors the One who has honored you?</p>
+
+                <p>But here is the crucial difference: you are not trying to become worthy of your election. You are responding in gratitude <em>because</em> you are already chosen. You are not climbing toward grace. You are resting in grace and allowing that rest to produce a righteousness that flows from love, not from fear.</p>
+            </section>
+
+            <section>
+                <h2>The Warmth of Being Known</h2>
+
+                <p>Stand again in front of that cathedral. The light pours through the stained glass, and in that moment, you are not just illuminated—you are known. Every detail of your form is visible. Your flaws are exposed, but they do not matter, because the light itself is beautiful. The light is not judging you. The light is revealing you. The light is saying: <em>I see you. You are not lost. You are not forgotten. You belong here.</em></p>
+
+                <p>This is what election means in the deepest places of your heart. It means that long before you knew God, God knew you. Not theoretically. Not as one data point among billions. He knew the specific contours of your life—your joys and your sorrows, your strengths and your weaknesses, your capacity for faith and your tendency toward doubt. And knowing all of it, He chose you.</p>
+
+                <p>You are not a surprise to God. You are not a cosmic accident that He is trying to make the best of. You are exactly who He meant to choose. In all of history, in all the infinite expanse of time and space, in all the possible lives that could have been lived, He chose this one—your life, your story, your unfolding journey of faith—as the arena in which He would display His grace.</p>
+
+                <p>This is not flattery. It is not delusion. It is sober truth. God, in His omniscience, knowing the full measure of who you are and who you will become, chose to love you and to bind you to Himself forever through the redemption that is in Christ Jesus.</p>
+
+                <p>And that choice is final. That choice is secure. That choice cannot be undone.</p>
+            </section>
+
+            <section>
+                <h2>From Doctrine to Doxology</h2>
+
+                <p>The Apostle Paul does not leave us in abstract theology. He brings us back to the practical reality: this doctrine of election is meant to lead us to worship. Notice how he began: "Blessed be the God and Father of our Lord Jesus Christ." Before he even explains the doctrine, he is blessing God. Praising Him. Worshipping Him.</p>
+
+                <p>This is the trajectory of true theology: it moves from doctrine to doxology. It moves from understanding to adoration. When you have truly grasped the reality of your election—when you have felt, in the depths of your being, the weight and the warmth of being chosen before the foundation of the world—you cannot help but break into song.</p>
+
+                <p>The doctrine of election is not meant to make you proud. It is meant to humble you into wonder. It is not meant to separate you from the lost world. It is meant to make you grateful beyond measure, so grateful that you cannot help but overflow with compassion for those who have not yet heard the gospel, who do not yet understand that God has chosen them too.</p>
+
+                <p>It is meant to make you a living testimony to the goodness of God, to the faithfulness of God, to the glory of a grace that sought you out before you could seek it, that found you when you were lost, that claimed you when you were nobody, and that will never, ever let you go.</p>
+            </section>
+
+            <section class="related-links">
+                <h3>Explore Related Passages</h3>
+                <ul>
+                    <li><a href="question-chosen.html">Why Does God Choose Some and Not Others?</a></li>
+                    <li><a href="systematic-divine-decrees.html">The Divine Decrees: God's Eternal Plan</a></li>
+                    <li><a href="question-goldchain.html">The Golden Chain of Salvation</a></li>
+                    <li><a href="devotionals.html">More Devotionals</a></li>
+                </ul>
+            </section>
+
+            <section class="closing-prayer">
+                <p>Father, we come before You in awe and gratitude. We confess that we do not fully understand the mystery of election, but we believe it. We rest in it. We are overwhelmed by the reality that before the foundation of the world, before we were born, before we could do anything to earn or deserve it, You looked at us and chose us. You set Your love upon us. You predestined us for adoption through Christ.</p>
+
+                <p>Forgive us for the times we have striven and struggled, trying to be good enough, trying to earn what was already given. Forgive us for the times we have doubted whether we were truly chosen, whether Your grace was really secure. Help us to rest in this truth, to be transformed by this truth, to let this truth reshape how we live and love and serve.</p>
+
+                <p>Make us so overwhelmed by Your choosing that we cannot help but respond with lives of gratitude and worship. Let the doctrine of election not be a cold abstraction but a living warmth in our hearts—the knowledge that we are loved, we are known, we are chosen, and we are safe in Your hands forever.</p>
+
+                <p>In the name of Christ, our Beloved, in whom we were chosen and through whom we are redeemed. Amen.</p>
+            </section>
+
+            <div class="share-buttons" role="group" aria-label="Share this article">
+                <span class="share-label">Share</span>
+                <a class="share-btn" href="" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" aria-label="Share on X (Twitter)" title="Share on X">𝕏</a>
+                <a class="share-btn" href="" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','width=550,height=420');return false" aria-label="Share on Facebook" title="Share on Facebook">f</a>
+                <button class="share-btn" onclick="navigator.clipboard.writeText(location.href).then(function(){this.innerHTML='✓';setTimeout(function(){document.querySelector('.share-buttons .share-btn:nth-child(4)').innerHTML='🔗'},2000)}.bind(this))" aria-label="Copy link" title="Copy link">🔗</button>
+            </div>
+        </article>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section"><h4>ADOPTED BY GRACE</h4><p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p></div>
+            <div class="footer-section"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="questions.html">The Evidence</a></li><li><a href="systematic-theology.html">Systematic</a></li><li><a href="demolition-hub.html">Demolition</a></li><li><a href="theologians.html">Theologians</a></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li></ul></div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+    <script>
+        // Scroll progress bar
+        window.addEventListener('scroll', function() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+            document.querySelector('.progress-bar').style.width = scrolled + '%';
+
+            // Back to top button
+            const backToTop = document.querySelector('.back-to-top');
+            if (winScroll > 300) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+        });
+
+        // Back to top button click
+        document.querySelector('.back-to-top').addEventListener('click', function() {
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+        });
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Glory of Divine Choice",
+        "description": "A meditative devotion on election and divine choice—the glory of being chosen before the foundation of the world.",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://adoptedbygrace.net/logo.png"
+            }
+        },
+        "datePublished": "2026-03-27",
+        "dateModified": "2026-03-27",
+        "articleBody": "A worshipful meditation on the doctrine of unconditional election, exploring how God chose us in Christ before the foundation of the world and why this truth is the source of both profound humility and unshakeable joy."
+    }
+    </script>
+</body>
+</html>
