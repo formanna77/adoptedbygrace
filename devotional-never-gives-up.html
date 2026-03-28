@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="He Will Never Give Up On You: A devotional about God's relentless, persevering love that never abandons the redeemed. Scripture teaches the supremacy of God's grace.">
-    <meta name="keywords" content="God's love, perseverance, grace, eternal security, redemption, devotional, biblical theology">
+    <meta name="description" content="He Will Never Give Up On You — the truth every broken heart needs most: God's love for you was decided before you existed, purchased at Calvary, and sealed forever.">
+    <meta name="keywords" content="God's love, assurance, eternal security, unconditional love, grace, perseverance of the saints, devotional">
     <meta property="og:title" content="He Will Never Give Up On You | Adopted by Grace">
-    <meta property="og:description" content="Experience the soul-quenching truth that God's love perseveres through every failure, every doubt, every fall.">
+    <meta property="og:description" content="The one truth your soul needs most: you have been claimed by a love that cannot fail.">
     <meta property="og:type" content="article">
     <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
     <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
     <meta property="og:url" content="https://adoptedbygrace.net/devotional-never-gives-up.html">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="He Will Never Give Up On You | Adopted by Grace">
-    <meta name="twitter:description" content="The most soul-quenching truth for weary hearts: God will never give up on you.">
+    <meta name="twitter:description" content="The one truth your soul needs most: you have been claimed by a love that cannot fail.">
     <link rel="canonical" href="https://adoptedbygrace.net/devotional-never-gives-up.html">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,20 +34,9 @@
             --border-subtle: rgba(212, 162, 84, 0.12);
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        *:focus-visible {
-            outline: 2px solid var(--accent-gold);
-            outline-offset: 2px;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; }
+        html { scroll-behavior: smooth; }
 
         body {
             font-family: 'Inter', sans-serif;
@@ -57,608 +46,90 @@
             letter-spacing: 0.3px;
         }
 
-        .skip-link {
-            position: absolute;
-            top: -40px;
-            left: 0;
-            background: var(--accent-gold);
-            color: var(--bg-deep);
-            padding: 8px 16px;
-            text-decoration: none;
-            z-index: 100;
-        }
+        .skip-link { position: absolute; top: -40px; left: 0; background: var(--accent-gold); color: var(--bg-deep); padding: 8px 16px; text-decoration: none; z-index: 100; }
+        .skip-link:focus { top: 0; }
 
-        .skip-link:focus {
-            top: 0;
-        }
+        .reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(to right, var(--accent-gold), var(--accent-ember), var(--accent-violet)); z-index: 99; width: 0%; }
 
-        .reading-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(to right, var(--accent-gold), var(--accent-ember), var(--accent-violet));
-            z-index: 99;
-            width: 0%;
-        }
+        nav[role="navigation"] { background: var(--bg-card); border-bottom: 1px solid var(--border-subtle); position: sticky; top: 0; z-index: 90; }
+        .nav-container { max-width: 1200px; margin: 0 auto; padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center; }
 
-        nav[role="navigation"] {
-            background: var(--bg-card);
-            border-bottom: 1px solid var(--border-subtle);
-            position: sticky;
-            top: 0;
-            z-index: 90;
-        }
+        main { max-width: 780px; margin: 0 auto; padding: 3rem 2rem; }
 
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1.5rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+        .breadcrumb { max-width: 780px; margin: 0 auto; padding: 1rem 2rem 0; }
+        .breadcrumb a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
+        .breadcrumb a:hover { color: var(--accent-gold); }
 
-        .logo {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
-            font-weight: 700;
-            letter-spacing: 0.1em;
-            color: var(--accent-gold);
-        }
+        .article-header { margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-subtle); }
+        .article-header h1 { font-family: 'Playfair Display', serif; font-size: 2.4rem; line-height: 1.2; margin-bottom: 0.75rem; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .article-subtitle { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--text-secondary); font-style: italic; margin-bottom: 0.5rem; }
+        .article-meta { font-size: 0.85rem; color: var(--text-muted); letter-spacing: 0.05em; }
 
-        .nav-links {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-        }
+        .article-content { font-size: 1.1rem; }
+        .article-content p { margin-bottom: 1.5rem; }
+        .article-content h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 600; margin: 2.5rem 0 1.2rem 0; color: var(--text-primary); }
 
-        .nav-links > li {
-            position: relative;
-        }
+        .verse-block { background: var(--bg-card); border-left: 3px solid var(--accent-gold); padding: 1.5rem 2rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+        .verse-block p { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.15rem; line-height: 1.8; color: var(--text-primary); }
+        .verse-block cite { display: block; margin-top: 0.75rem; font-style: normal; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--accent-gold); letter-spacing: 0.05em; }
 
-        .nav-trigger {
-            background: none;
-            border: none;
-            color: var(--text-primary);
-            text-decoration: none;
-            font-size: 0.95rem;
-            cursor: pointer;
-            transition: color 0.3s ease;
-            font-family: inherit;
-            padding: 0;
-        }
+        .reflection-box { background: rgba(139, 92, 246, 0.08); border: 1px solid rgba(139, 92, 246, 0.2); padding: 1.5rem; margin: 2rem 0; border-radius: 8px; }
+        .reflection-box p { color: var(--text-primary); margin-bottom: 0; }
 
-        .nav-trigger:hover {
-            color: var(--accent-gold);
-        }
+        .related-links { background: var(--bg-card); padding: 2rem; border-radius: 8px; margin: 3rem 0 2rem 0; }
+        .related-links h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--accent-gold); margin-bottom: 1.5rem; margin-top: 0; }
+        .related-links ul { list-style: none; }
+        .related-links li { margin-bottom: 0.75rem; }
+        .related-links a { color: var(--text-primary); text-decoration: none; transition: color 0.3s ease; }
+        .related-links a:hover { color: var(--accent-gold); }
 
-        .nav-arrow {
-            display: inline-block;
-            margin-left: 0.3rem;
-            font-size: 0.7rem;
-            transition: transform 0.3s ease;
-        }
+        .share-buttons { display: flex; align-items: center; gap: 1rem; margin: 3rem 0; padding: 2rem 0; border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); }
+        .share-label { color: var(--text-secondary); font-size: 0.95rem; font-weight: 500; letter-spacing: 0.05em; }
+        .share-btn { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: var(--bg-card); color: var(--accent-gold); text-decoration: none; font-weight: 600; font-size: 1rem; transition: all 0.3s ease; border: none; cursor: pointer; }
+        .share-btn:hover { background: var(--bg-card-hover); color: var(--accent-ember); transform: scale(1.1); }
 
-        .nav-trigger:hover .nav-arrow {
-            transform: translateY(2px);
-        }
+        .cross-ref-section { padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1); }
+        .cross-ref-inner { max-width: 900px; margin: 0 auto; }
+        .cross-ref-inner h3 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center; }
+        .cross-ref-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; }
+        .cross-ref-card { display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease; }
+        .cross-ref-card:hover { background: rgba(255,255,255,0.06); border-color: rgba(218,165,32,0.3); }
+        .cross-ref-card h4 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem; }
+        .cross-ref-card p { font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4; }
 
-        .nav-dropdown {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background: var(--bg-card-hover);
-            border: 1px solid var(--border-subtle);
-            border-top: none;
-            border-radius: 0 0 8px 8px;
-            min-width: 200px;
-            opacity: 0;
-            visibility: hidden;
-            transform: translateY(-10px);
-            transition: all 0.3s ease;
-            pointer-events: none;
-        }
+        footer[role="contentinfo"] { background: var(--bg-card); border-top: 1px solid var(--border-subtle); margin-top: 0; padding: 3rem 2rem 1rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+        .footer-section h4 { font-family: 'Playfair Display', serif; font-size: 1rem; letter-spacing: 0.1em; color: var(--accent-gold); margin-bottom: 1rem; }
+        .footer-section ul { list-style: none; }
+        .footer-section li { margin-bottom: 0.75rem; }
+        .footer-section a { color: var(--text-primary); text-decoration: none; transition: color 0.3s ease; font-size: 0.95rem; }
+        .footer-section a:hover { color: var(--accent-gold); }
+        .footer-copyright { text-align: center; color: var(--text-muted); font-size: 0.85rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); max-width: 1200px; margin: 0 auto; }
 
-        .nav-links > li:hover > .nav-dropdown {
-            opacity: 1;
-            visibility: visible;
-            transform: translateY(0);
-            pointer-events: all;
-        }
-
-        .nav-dropdown a {
-            display: block;
-            padding: 0.75rem 1.5rem;
-            color: var(--text-primary);
-            text-decoration: none;
-            transition: color 0.3s ease;
-            font-size: 0.9rem;
-        }
-
-        .nav-dropdown a:hover {
-            color: var(--accent-gold);
-            background: rgba(212, 162, 84, 0.05);
-        }
-
-        .nav-links a {
-            color: var(--text-primary);
-            text-decoration: none;
-            font-size: 0.95rem;
-            transition: color 0.3s ease;
-        }
-
-        .nav-links a:hover {
-            color: var(--accent-gold);
-        }
-
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 0;
-        }
-
-        .hamburger span {
-            width: 24px;
-            height: 2px;
-            background: var(--accent-gold);
-            transition: all 0.3s ease;
-        }
-
-        .hamburger.active span:nth-child(1) {
-            transform: rotate(45deg) translate(8px, 8px);
-        }
-
-        .hamburger.active span:nth-child(2) {
-            opacity: 0;
-        }
-
-        .hamburger.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(8px, -8px);
-        }
+        .back-to-top { position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px; background: var(--accent-gold); color: var(--bg-deep); border: none; border-radius: 50%; font-size: 1.5rem; cursor: pointer; opacity: 0; visibility: hidden; transform: translateY(20px); transition: all 0.3s ease; z-index: 88; }
+        .back-to-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+        .back-to-top:hover { background: var(--accent-ember); }
 
         @media (max-width: 968px) {
-            .nav-links {
-                gap: 1.5rem;
-            }
+            .article-header h1 { font-size: 1.8rem; }
+            .article-content { font-size: 1rem; }
+            main { padding: 1.5rem; }
         }
-
-        @media (max-width: 968px) {
-            .hamburger {
-                display: flex;
-            }
-
-            .nav-links {
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: var(--bg-card);
-                flex-direction: column;
-                gap: 0;
-                padding: 1rem 0;
-                transform: translateY(-100%);
-                opacity: 0;
-                pointer-events: none;
-                transition: all 0.3s ease;
-            }
-
-            .nav-links.open {
-                transform: translateY(0);
-                opacity: 1;
-                pointer-events: all;
-            }
-
-            .nav-links li {
-                border-bottom: 1px solid var(--border-subtle);
-            }
-
-            .nav-links a,
-            .nav-trigger {
-                display: block;
-                padding: 1rem 2rem;
-            }
-
-            .nav-dropdown {
-                position: static;
-                background: rgba(212, 162, 84, 0.05);
-                border: none;
-                border-radius: 0;
-                min-width: 100%;
-                opacity: 0;
-                visibility: hidden;
-                transform: scaleY(0);
-                transform-origin: top;
-                transition: all 0.3s ease;
-                pointer-events: none;
-                max-height: 0;
-            }
-
-            .nav-links > li:hover > .nav-dropdown,
-            .nav-links > li.dropdown-open > .nav-dropdown {
-                position: static;
-                transform: none;
-                opacity: 1;
-                visibility: visible;
-                left: 0;
-                width: 100%;
-                min-width: 100%;
-                max-height: 1000px;
-                pointer-events: all;
-            }
-
-            .nav-dropdown a {
-                padding: 0.75rem 2rem 0.75rem 3rem;
-            }
-        }
-
         @media (max-width: 480px) {
-            .nav-container {
-                padding: 1rem 1.5rem;
-            }
-
-            .logo {
-                font-size: 0.95rem;
-            }
-
-            .nav-links a,
-            .nav-trigger {
-                padding: 0.85rem 1.5rem;
-                font-size: 0.9rem;
-            }
-
-            .nav-dropdown a {
-                padding: 0.65rem 1.5rem 0.65rem 2.5rem;
-            }
-        }
-
-        .breadcrumb {
-            max-width: 900px;
-            margin: 2rem auto 0;
-            padding: 0 2rem;
-        }
-
-        .breadcrumb a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-size: 0.95rem;
-            transition: color 0.3s ease;
-        }
-
-        .breadcrumb a:hover {
-            color: var(--accent-ember);
-        }
-
-        main {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        .article-header {
-            text-align: center;
-            margin-bottom: 3rem;
-            border-bottom: 1px solid var(--border-subtle);
-            padding-bottom: 2rem;
-        }
-
-        .article-header h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            letter-spacing: -0.5px;
-        }
-
-        .article-subtitle {
-            font-size: 1.15rem;
-            color: var(--accent-gold);
-            font-style: italic;
-            margin-bottom: 0.5rem;
-        }
-
-        .article-meta {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            letter-spacing: 0.05em;
-        }
-
-        .article-content {
-            color: var(--text-primary);
-            line-height: 1.9;
-            font-size: 1.05rem;
-        }
-
-        .article-content p {
-            margin-bottom: 1.5rem;
-        }
-
-        .article-content p:first-letter {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.2em;
-            font-weight: 700;
-            float: left;
-            margin-right: 0.1em;
-            line-height: 1;
-            color: var(--accent-gold);
-        }
-
-        .article-content h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            font-weight: 600;
-            margin: 2.5rem 0 1.5rem 0;
-            color: var(--accent-gold);
-        }
-
-        .article-content h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            font-weight: 600;
-            margin: 2rem 0 1rem 0;
-            color: var(--text-primary);
-        }
-
-        .verse-block {
-            background: var(--bg-card);
-            border-left: 3px solid var(--accent-gold);
-            padding: 1.5rem 2rem;
-            margin: 2rem 0;
-            border-radius: 0 8px 8px 0;
-        }
-
-        .verse-block p {
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-            font-size: 1.15rem;
-            line-height: 1.8;
-            color: var(--text-primary);
-        }
-
-        .verse-block cite {
-            display: block;
-            margin-top: 0.75rem;
-            font-style: normal;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.8rem;
-            color: var(--accent-gold);
-            letter-spacing: 0.05em;
-        }
-
-        .reflection-box {
-            background: rgba(139, 92, 246, 0.08);
-            border: 1px solid rgba(139, 92, 246, 0.2);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 8px;
-        }
-
-        .reflection-box p {
-            color: var(--text-primary);
-            margin-bottom: 0;
-        }
-
-        .related-links {
-            background: var(--bg-card);
-            padding: 2rem;
-            border-radius: 8px;
-            margin: 3rem 0 2rem 0;
-        }
-
-        .related-links h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.2rem;
-            color: var(--accent-gold);
-            margin-bottom: 1.5rem;
-            margin-top: 0;
-        }
-
-        .related-links ul {
-            list-style: none;
-        }
-
-        .related-links li {
-            margin-bottom: 0.75rem;
-        }
-
-        .related-links a {
-            color: var(--text-primary);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .related-links a:hover {
-            color: var(--accent-gold);
-        }
-
-        .share-buttons {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin: 3rem 0;
-            padding: 2rem 0;
-            border-top: 1px solid var(--border-subtle);
-            border-bottom: 1px solid var(--border-subtle);
-        }
-
-        .share-label {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            font-weight: 500;
-            letter-spacing: 0.05em;
-        }
-
-        .share-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: var(--bg-card);
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
-        }
-
-        .share-btn:hover {
-            background: var(--bg-card-hover);
-            color: var(--accent-ember);
-            transform: scale(1.1);
-        }
-
-        footer[role="contentinfo"] {
-            background: var(--bg-card);
-            border-top: 1px solid var(--border-subtle);
-            margin-top: 4rem;
-            padding: 3rem 2rem 1rem;
-        }
-
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .footer-section h4 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1rem;
-            letter-spacing: 0.1em;
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section li {
-            margin-bottom: 0.75rem;
-        }
-
-        .footer-section a {
-            color: var(--text-primary);
-            text-decoration: none;
-            transition: color 0.3s ease;
-            font-size: 0.95rem;
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-copyright {
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 0.85rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-subtle);
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            background: var(--accent-gold);
-            color: var(--bg-deep);
-            border: none;
-            border-radius: 50%;
-            font-size: 1.5rem;
-            cursor: pointer;
-            opacity: 0;
-            visibility: hidden;
-            transform: translateY(20px);
-            transition: all 0.3s ease;
-            z-index: 88;
-        }
-
-        .back-to-top.visible {
-            opacity: 1;
-            visibility: visible;
-            transform: translateY(0);
-        }
-
-        .back-to-top:hover {
-            background: var(--accent-ember);
-        }
-
-        @media (max-width: 968px) {
-            .article-header h1 {
-                font-size: 1.8rem;
-            }
-
-            .article-content {
-                font-size: 1rem;
-            }
-
-            main {
-                padding: 1.5rem;
-            }
-
-            .back-to-top {
-                width: 45px;
-                height: 45px;
-                bottom: 20px;
-                right: 20px;
-                font-size: 1.2rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            main {
-                padding: 1rem;
-            }
-
-            .article-header {
-                margin-bottom: 2rem;
-                padding-bottom: 1.5rem;
-            }
-
-            .article-header h1 {
-                font-size: 1.5rem;
-                margin-bottom: 0.75rem;
-            }
-
-            .article-subtitle {
-                font-size: 1rem;
-            }
-
-            .article-content h2 {
-                font-size: 1.4rem;
-                margin: 2rem 0 1rem 0;
-            }
-
-            .verse-block {
-                padding: 1.25rem 1.5rem;
-                margin: 1.5rem 0;
-            }
-
-            .verse-block p {
-                font-size: 1rem;
-            }
+            main { padding: 1rem; }
+            .article-header { margin-bottom: 2rem; padding-bottom: 1.5rem; }
+            .article-header h1 { font-size: 1.5rem; }
+            .article-subtitle { font-size: 1rem; }
+            .verse-block { padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+            .verse-block p { font-size: 1rem; }
         }
     </style>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "He Will Never Give Up On You | Adopted by Grace",
-        "description": "He Will Never Give Up On You: A devotional about God's relentless, persevering love that never abandons the redeemed.",
+        "headline": "He Will Never Give Up On You",
+        "description": "The one truth every broken heart needs most: God's love for you was decided before you existed, purchased at Calvary, and sealed forever.",
         "url": "https://adoptedbygrace.net/devotional-never-gives-up.html",
         "publisher": {
             "@type": "Organization",
@@ -728,213 +199,91 @@
     </nav>
 
     <div class="breadcrumb">
-        <a href="devotionals.html">← Back to Devotionals</a>
+        <a href="devotionals.html">&larr; Back to Devotionals</a>
     </div>
 
     <main id="main-content">
         <article>
             <header class="article-header">
                 <h1>He Will Never Give Up On You</h1>
-                <div class="article-subtitle">The Most Soul-Quenching Truth for Weary Hearts</div>
-                <div class="article-meta">A meditation on the persevering love of God for the redeemed</div>
+                <div class="article-subtitle">You have been claimed. You can rest.</div>
+                <div class="article-meta">5-minute read</div>
             </header>
 
             <section class="article-content">
-                <h2>The Exhaustion of Earning</h2>
 
-                <p>You know this feeling the way you know your own pulse. You have failed again. Perhaps it was the sin you swore off a hundred times — the one you buried with tears last Tuesday and unearthed with trembling hands by Friday. Perhaps it was something darker, something you cannot even name aloud. You lie awake at 2 a.m. with the ceiling pressing down like a verdict, and somewhere in the marrow of your soul a voice hisses the thing you have always feared: <em>This is it. This is the one that finally breaks it. God has reached the end of His patience with you.</em></p>
+                <p>There is one thing every human being wants more than anything else on earth, and most of us are terrified to admit it: to be loved by someone who will not leave.</p>
 
-                <p>For years the world dressed up slavery and called it religion. Oh, it was never stated so baldly — heresy rarely announces itself at the front door. It crept in through a thousand Sunday smiles and well-meaning sermons: <em>Try harder. Pray more. Read your Bible more. Do more. Be more.</em> The unspoken calculus was always the same — your acceptance by the Almighty is a wage you must earn, a tightrope you must walk, a flame you must keep burning by the fuel of your own faithfulness. One stumble, and the whole arrangement collapses.</p>
+                <p>Not the kind of love that stays as long as you are useful. Not the kind that fades when you stop performing. Not the love that checks in on you when things are good and goes quiet when things get ugly. You want — somewhere beneath every defense you have ever built — to be known completely, at your absolute worst, and chosen anyway. You want a love with no exit clause.</p>
 
-                <p>So you ran. God help you, how you ran. You white-knuckled your devotions and agonized over every misstep, and every time you stumbled — and you stumbled often, because you are dust, and dust is what dust does — that old panic surged back like a tide: <em>Have I lost it? Have I finally gone too far?</em></p>
+                <p>You have never found it. Every human love you have ever tasted has had conditions, even the good ones. And so you have learned to perform. To earn. To manage the gap between who you are and who you need to be for someone to stay. That survival instinct followed you straight into your relationship with God — and it has been poisoning it ever since.</p>
 
-                <p>The exhaustion of trying to earn the love of an infinite God is perhaps the cruelest form of spiritual bondage ever devised, because it wears the mask of piety. It turns grace into a salary. It turns your Father into your employer. It turns the cross into a down payment instead of a finished purchase. And it leaves you exactly where every system of human merit eventually leaves its prisoners: depleted, joyless, and terrified that tomorrow's failure will be the one God refuses to forgive.</p>
+                <p>Because somewhere along the way, you absorbed a lie so common it feels like oxygen: <em>God's love for you depends on you.</em> On your faithfulness. Your obedience. Your spiritual performance on any given Tuesday. And so you white-knuckle your way through the Christian life, haunted by a question you are afraid to ask out loud: <em>What if I finally go too far?</em></p>
 
-                <p>If this is your story, I need you to hear something, and I need you to hear it before you read another word: that exhaustion is real. That fear is understandable. And that gnawing sense that you cannot possibly be good enough? Scripture does not argue with it. Scripture agrees. You cannot be good enough. Not because you have not tried hard enough — you have tried until your knuckles bled. But because the standard is not "pretty good." The standard is the flawless holiness of God Himself. And you are not capable of it. You never were. You never will be.</p>
+                <p>Scripture answers that question. And the answer will either offend you or set you free.</p>
 
-                <p>But here is where everything turns. The lie you were told is not that the standard is impossibly high. The lie is that your legs were ever meant to carry you there.</p>
-
-                <h2>The God Who Will Not Quit</h2>
-
-                <p>Scripture teaches something so violently opposed to human religion that it sounds, at first hearing, like madness. It teaches a God whose love is not a reward for the deserving but a rescue of the undeserving. It teaches a God whose grip on His people does not loosen when they thrash against it. It teaches a God who stares into the wreckage of your worst day — the day you would hide from every friend, every pastor, every human eye — and says, with the calm certainty of One who has already seen the end from the beginning: <em>I am not giving up on you. I never was.</em></p>
+                <h2>Claimed Before You Existed</h2>
 
                 <div class="verse-block">
-                    <p>For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.</p>
-                    <cite>Ephesians 2:8-9 (ESV)</cite>
+                    <p>He chose us in him before the foundation of the world, that we should be holy and blameless before him. In love he predestined us for adoption as sons through Jesus Christ, according to the purpose of his will.</p>
+                    <cite>Ephesians 1:4&ndash;5</cite>
                 </div>
 
-                <p>Let those words land. Feel their weight. <em>Not your own doing.</em> Not your white-knuckled grip on righteousness. Not the fruit of your best spiritual performance on your best spiritual day. <em>The gift of God.</em> A gift is something placed in the hands of someone who did nothing to earn it. And this gift was given while your hands were still clenched around your sin — while you were still a rebel, still a fugitive, still running hard in the wrong direction. God did not wait for you to clean up. He came after you in the filth.</p>
+                <p>Before you were born. Before you sinned. Before you believed. Before the planet you live on was a thought in the mind of anyone but God — He chose you. Not because He looked down the corridor of time and saw that you would be impressive. You would not be. He chose you because He is the kind of God whose love does not need a reason outside itself. His love for you is not a reaction to anything you have done. It is an act of His own sovereign will, rooted in nothing but His own delight.</p>
 
-                <p>And then Scripture twists the knife deeper into every system of self-salvation:</p>
+                <p>Do you understand what that means? It means the love of God for you has no cause that you can destroy. You did not start it. You cannot stop it. It was never a response to your goodness, which means your badness cannot undo it. It was decided in eternity — before you had hands to reach for it or a heart to break it.</p>
 
-                <div class="verse-block">
-                    <p>For it is God who works in you, both to will and to work for his good pleasure.</p>
-                    <cite>Philippians 2:13 (ESV)</cite>
-                </div>
-
-                <p>Read that again slowly. Even the wanting — even that faint flicker of desire to please God that you sometimes feel guttering in the wind — that is not something you manufactured. God lit it. God tends it. God fans it back to flame when you are certain it has gone out. You do not generate your own faithfulness any more than a mirror generates its own light. He is the author of the story. He is the keeper of the flame. He is the one who will not let you fall completely into the dark, even when you have stumbled so far that you can no longer see the path.</p>
-
-                <p>This is so foreign to the way we think about love that it sounds, frankly, too good to be true. But "too good to be true" is the native language of grace. And here is why it matters more than anything else you will ever hear: if your salvation depends on your performance, then your salvation is exactly as secure as your worst day. Think about that. Your worst day. The one you cannot speak of. If your standing before God rises and falls with your faithfulness, then you are standing on a floor that is always giving way. But if your salvation rests on what God has done — and is doing — and will do — then nothing in the universe can touch it. Not your failures. Not your doubts. Not the sin that made you afraid to open this page.</p>
-
-                <h2>The Promise in Your Darkest Moment</h2>
-
-                <p>Now imagine the worst. Not a hypothetical worst — your actual worst. The valley you are sitting in right now, or the one you carry in your memory like a stone. Maybe you shattered a marriage. Maybe you looked at something that makes you sick to remember. Maybe you betrayed someone who trusted you. Maybe you walked away from God with both eyes open, and the distance between you and holiness feels less like a gap and more like an ocean. Maybe you have done the unthinkable — and done it again — and done it knowing full well what you were doing.</p>
-
-                <p>Scripture does not flinch from this moment. It walks straight into it:</p>
+                <h2>Held By Someone Stronger Than You</h2>
 
                 <div class="verse-block">
                     <p>My sheep hear my voice, and I know them, and they follow me. I give them eternal life, and they will never perish, and no one will snatch them out of my hand. My Father, who has given them to me, is greater than all, and no one is able to snatch them out of the Father's hand.</p>
-                    <cite>John 10:27-29 (ESV)</cite>
+                    <cite>John 10:27&ndash;29</cite>
                 </div>
 
-                <p>That is Jesus speaking. Not a theologian. Not a pastor trying to make you feel better. The Son of God Himself, looking across two thousand years directly into the whites of your terrified eyes, and making a promise that would be reckless if it came from anyone else: <em>You will never perish.</em> Not "you will never perish unless you mess up badly enough." Not "you will be kept safe as long as you maintain adequate spiritual performance." Never. Full stop. The period at the end of that sentence is the most immovable object in the universe. Your sins cannot erase it. Your doubts cannot smudge it. Your darkest night cannot extinguish a single letter.</p>
+                <p>Two hands. The Son's hand. The Father's hand. You are inside both of them simultaneously, like a seal within a seal. And Jesus does not say "you will probably not perish" or "you will not perish as long as you maintain adequate spiritual performance." He says <em>never.</em> That word is doing all the work in the universe. Your sins cannot overrule it. Your doubts cannot erode it. The worst thing you have ever done — the thing that still wakes you up at night — crashed against that word and did not leave a scratch.</p>
 
-                <p>And then notice the architecture of the promise — because Jesus is not merely making a statement; He is building a fortress. You are held in the Son's hand. And the Son's hand is held in the Father's hand. Two divine hands clasped around you like a seal within a seal. If by some cosmic impossibility you could pry yourself free from one — and you cannot — you would still be caught by the other. You are held at every level of reality simultaneously, by every Person of the Trinity, with a grip that has never once in all of history slipped.</p>
+                <p>And here is where it gets almost reckless: the security of this promise does not depend on the strength of your grip. It depends on the strength of His. A child in a father's arms may squirm and thrash and try to wriggle free. The child's effort is irrelevant. The father is stronger. And your Father is omnipotent.</p>
 
-                <p>And Scripture is not finished. It is relentless — gloriously, ruthlessly relentless — in pressing this point home:</p>
+                <h2>The Love That Swallows Every Fear</h2>
 
                 <div class="verse-block">
                     <p>For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.</p>
-                    <cite>Romans 8:38-39 (ESV)</cite>
+                    <cite>Romans 8:38&ndash;39</cite>
                 </div>
 
-                <p>Do you see what Paul is doing here? He is ransacking the cosmos. He is ripping open every drawer in the universe, searching — <em>desperately</em> searching — for something, anything, that could sever the bond between you and the love of God. Death? No. Life? No. Angels? Demons? The powers that govern galaxies? No, no, no. Your past — the thing you did that still makes your stomach lurch? It cannot separate you. Your present — the failure you committed this morning? It cannot separate you. Your future — the sin you have not yet committed but fear you will? Even that cannot separate you. Paul overturns every stone in creation and comes up empty-handed, panting, almost laughing: <em>There is nothing. Nothing in all creation.</em></p>
-
-                <p>This is not poetry. This is a legal brief filed before the court of heaven. Paul is not decorating a greeting card. He is systematically eliminating every conceivable threat to your security in Christ — and finding that the list of things capable of separating you from God's love is, and always has been, and always will be: empty.</p>
-
-                <h2>The Grip That Cannot Slip</h2>
-
-                <p>But here is where the trembling heart whispers its deepest terror: <em>What about me? What if I am the weak link? What if my faith gives out?</em></p>
-
-                <p>Scripture knows this question is coming. It has been waiting for you to ask:</p>
+                <p>Paul is doing something extraordinary here. He is not making a poetic statement. He is conducting a search. He is tearing through every category of reality — time, space, power, the spiritual realm, the material world, the past, the future — hunting for something, <em>anything</em>, that could sever the bond between you and the love of God. And he comes up empty. The list of things capable of separating you from God's love is, and always has been, and always will be: nothing. Nothing in all creation. Which includes you. You are part of creation. And you cannot separate yourself from a love that God Himself has fastened to you.</p>
 
                 <div class="verse-block">
-                    <p>If we are faithless, he remains faithful— for he cannot deny himself.</p>
-                    <cite>2 Timothy 2:13 (ESV)</cite>
+                    <p>If we are faithless, he remains faithful — for he cannot deny himself.</p>
+                    <cite>2 Timothy 2:13</cite>
                 </div>
 
-                <p>Stop. Read those nine words again. <em>If we are faithless, He remains faithful.</em> Let them detonate inside the fortress of your fear. Your faith wavers — His does not. Your grip loosens — His tightens. Your heart grows cold — His burns with the same white-hot commitment He had when He chose you before the stars were kindled. God's faithfulness is not a response to yours; it is rooted in His own immutable character. He <em>cannot</em> deny Himself. It is metaphysically, ontologically, eternally impossible for the God of the universe to become someone who abandons His children. He would have to stop being God first. And He will not stop being God.</p>
+                <p>Nine words that should end every 2 a.m. panic attack you have ever had. Your faith wavers. His does not. Your heart grows cold. His burns with the same intensity it had when He chose you before the stars existed. God's faithfulness is not a mirror of yours — it is rooted in His own nature. He <em>cannot</em> deny Himself. He would have to stop being God to stop loving you. And He will not stop being God.</p>
 
-                <p>And then, as if to drive the nail through every last plank of doubt:</p>
+                <h2>What This Changes</h2>
 
-                <div class="verse-block">
-                    <p>And I am sure of this, that he who began a good work in you will bring it to completion at the day of Jesus Christ.</p>
-                    <cite>Philippians 1:6 (ESV)</cite>
-                </div>
+                <p>This is not a license to sin. It is the death of the thing that was driving you to sin in the first place: <em>fear.</em> Fear that you are not enough. Fear that God's patience has a limit and you are approaching it. Fear that love is something you earn and therefore something you can lose. That fear has been the engine of your spiritual exhaustion, and the gospel takes a sledgehammer to it.</p>
 
-                <p>God began a work in you. He began it. Not you. And the God who begins does not abandon. He does not start sculptures and leave them half-carved. He does not write symphonies and stop at the second movement. The work He started in you — that mysterious, agonizing, glorious process of making you holy — will be brought to completion. Not because you will finally reach some threshold of spiritual maturity. Not because you will grit your teeth hard enough to cross the finish line. But because the Artist does not put down His chisel. The Composer does not lose interest in His music. The Father does not grow weary of His child.</p>
+                <p>A slave obeys because he must. A hired worker obeys because he is paid. But a child who has been pulled out of an orphanage and adopted by a father who will never send him back — that child obeys because something has changed inside. Not fear. Not obligation. <em>Love.</em> The most powerful force in the universe is not the threat of punishment. It is the staggering realization that you are loved beyond all reason by Someone who will never stop.</p>
 
-                <p>And then Peter adds a word so tender it could make a stone weep:</p>
+                <p>So rest. Not the lazy rest of someone who does not care. The deep, shaking, tearful rest of someone who has been running for years and has finally been told: <em>you can stop now. You were never going to get there on your own. That was never the plan. The plan was that I would carry you.</em></p>
 
-                <div class="verse-block">
-                    <p>Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead, to an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you, who by God's power are being guarded through faith for a salvation ready to be revealed in the last time.</p>
-                    <cite>1 Peter 1:3-5 (ESV)</cite>
-                </div>
-
-                <p>You are being <em>guarded.</em> The word Peter uses is a military term — it is the image of an armed garrison stationed around a city. Right now, at this very moment, while you read these words through tears or doubt or numb exhaustion, the same omnipotent power that called the universe into being and raised Jesus Christ from a sealed tomb is deployed — actively, presently, relentlessly — around the walls of your soul. Not your vigilance. Not your willpower. Not your devotional streak. <em>God's power.</em> Standing sentry over you while you sleep, while you fail, while you forget He is there.</p>
-
-                <h2>The Lie Exposed</h2>
-
-                <p>So let us name the lie for what it is, drag it into the light, and watch it shrivel. The lie is that you must earn your seat at the table. The lie is that love is a wage. The lie is that grace has fine print. The lie is that the ice beneath your feet is always cracking, and one more pound of failure will send you through. The lie is that God's patience has a limit, and you are approaching it. The lie has kept millions in chains, and it is time — past time — for the chains to break.</p>
-
-                <p>Because Scripture teaches something so staggeringly different that it overturns every instinct of the human heart. It teaches that before the cosmos drew its first breath — before light existed to cast a shadow — God chose a people for Himself. Not because they were impressive. Not because He foresaw their faith. But because He is God, and His love does not need a reason outside itself.</p>
-
-                <div class="verse-block">
-                    <p>Just as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love he predestined us for adoption as sons through Jesus Christ, according to the purpose of his will, to the praise of his glorious grace, with which he has blessed us in the Beloved.</p>
-                    <cite>Ephesians 1:4-5 (ESV)</cite>
-                </div>
-
-                <p>This is not a love that developed when you finally shaped up. This is a love that existed before you were conceived — before the planet you were born on existed — before the word "before" had any meaning. A choice made in the white-hot furnace of eternity, sealed in the blood of Calvary, and guaranteed by the resurrection of a Son who cannot die again. You cannot earn this love, because it was yours before you had hands to reach for it. You cannot lose it, because God's commitment to you is not indexed to your performance. It is indexed to His own glory. And His glory does not fluctuate.</p>
-
-                <p>And then — because God apparently believes in overkill when it comes to reassuring His trembling children — Scripture adds this:</p>
-
-                <div class="verse-block">
-                    <p>In him you also, when you heard the word of truth, the gospel of your salvation, and believed in him, were sealed with the promised Holy Spirit, who is the guarantee of our inheritance until we acquire possession of it, to the praise of his glory.</p>
-                    <cite>Ephesians 1:13-14 (ESV)</cite>
-                </div>
-
-                <p>You are <em>sealed.</em> Not with wax that melts. Not with a signature that can be forged. Not with a contract that has an exit clause buried on page forty-seven. You are sealed with the Holy Spirit Himself — the third Person of the eternal Trinity takes up residence inside your soul as God's personal guarantee that the transaction is final. The Spirit is not a receipt you might lose. He is the living, breathing, indwelling down payment of an inheritance that is already yours, held in a vault that rust cannot reach and thieves cannot breach and your failures cannot touch. God has staked His own reputation on finishing what He started in you. (And His track record, in case you were wondering, is flawless.)</p>
-
-                <h2>When You Fall — Not If, But When</h2>
-
-                <p>Let us be painfully honest, because the gospel is honest before it is comforting. You will fail again. You will sin. You will disappoint yourself so thoroughly that you will want to quit everything. You will fall — face-first, spectacularly, in ways that make you wonder if you were ever truly changed at all. Scripture never insults you with the fantasy that you will not. But it makes a different kind of promise — a wilder, more dangerous, more beautiful promise:</p>
-
-                <div class="verse-block">
-                    <p>Now to him who is able to keep you from stumbling and to present you blameless before the presence of his glory with great joy, to the only God, our Savior, through Jesus Christ our Lord, be glory, majesty, dominion, and authority, before all time and now and forever. Amen.</p>
-                    <cite>Jude 24-25 (ESV)</cite>
-                </div>
-
-                <p>God is <em>able</em> to keep you from stumbling. Not theoretically capable. Not able in the way a lifeguard is able to swim but might be on break. Able and active. Able and exercising that ability right now, at this moment, over you. The God who flung a hundred billion galaxies into the void without breaking a sweat is exerting that same unfathomable power to keep one trembling, failing, doubting soul — yours — from falling beyond the reach of His mercy. Which is to say: you cannot fall beyond the reach of His mercy. There is no such place.</p>
-
-                <p>And here is the promise that should undo you completely: when you finally stand before God — when the curtain falls and eternity opens and you see Him face to face — you will not be presented as you are. You will be presented <em>blameless.</em> Blameless. You, who know the full horror of your own heart. You will stand before infinite holiness, and there will be no charge against you. Not because you finally got your act together. Not because the good outweighed the bad. But because the perfect obedience of Jesus Christ will be credited to your account as though you had lived it yourself. His righteousness, draped over your shoulders like a robe. His record, substituted for yours. And when the Father looks at you, He will see His Son. And He will smile.</p>
-
-                <h2>The Difference Between Cheap Comfort and True Freedom</h2>
-
-                <p>Now someone — perhaps the voice in your own head — objects: <em>This sounds like a license to sin. If God will never give up on me regardless, why bother trying to be holy?</em></p>
-
-                <p>It is a fair question. Paul anticipated it two thousand years ago and answered it with one of the strongest words in Greek: <em>May it never be!</em> And the reason it is wrong is not that the promise has fine print after all. The reason is that it profoundly misunderstands what grace does to a human heart.</p>
-
-                <p>A slave obeys because he must. A hireling obeys because he is paid. But a child — a child who has been scooped out of an orphanage and adopted by a father whose love is inexhaustible — that child obeys because something has <em>changed inside.</em> Not fear. Not calculation. Love. The most powerful motivating force in the universe is not the threat of punishment; it is the staggering realization that you are loved beyond all reason by Someone who will never stop. That realization does not produce license. It produces gratitude so fierce it rearranges your desires from the inside out.</p>
-
-                <p>And this is exactly what happens in a heart that truly believes it is held by unbreakable grace. It does not run toward sin. It runs toward the One who held it when it was sinning. It obeys — not perfectly, not yet — but freely, joyfully, from the bottomless relief of knowing that the performance review is over, the verdict is in, and the judge has declared you righteous in His Son. You are not trying to earn a love you already possess. You are living inside it.</p>
-
-                <div class="reflection-box">
-                    <p><strong>Pause here.</strong> Close your eyes for ten seconds and ask yourself this: What would change — in your prayers, your sleep, your daily breathing — if you believed, all the way down to the bedrock of your soul, that the God of the universe will never give up on you? That there is no distance too far, no fall too deep, no night too dark for His reach? That His love for you was never based on your performance and therefore cannot be lost by your failure? How would you live if the fear of abandonment — that cold companion you have carried since childhood — simply... vanished?</p>
-                </div>
-
-                <h2>The Perseverance That Matters</h2>
-
-                <p>You may have heard the phrase "the perseverance of the saints." It is a glorious doctrine. It is also catastrophically misunderstood. Most people hear it and think: <em>The saints must persevere.</em> They must hold on. They must maintain their faith by sheer spiritual grit. They must white-knuckle their way to heaven like a climber clinging to a rock face in a storm.</p>
-
-                <p>But that is not what the doctrine teaches. Not even close. The perseverance of the saints means: <em>the saints will persevere, because God will persevere with them.</em> The emphasis is not on the first word — it is on the One behind it. It is not primarily about your grip on God. It is about His grip on you. And those are two devastatingly different things. Your grip is the grip of a child's fingers around a father's hand. His grip is the grip of omnipotence. Guess which one is doing the actual holding.</p>
-
-                <p>Scripture removes all ambiguity:</p>
-
-                <div class="verse-block">
-                    <p>For by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast. For we are God's handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do.</p>
-                    <cite>Ephesians 2:8-10 (NIV)</cite>
-                </div>
-
-                <p>Even your perseverance is a gift. Even your endurance is His handiwork. Even the good works that sometimes surprise you — the moments when you chose obedience and wondered where the strength came from — those were works that God prepared in advance and empowered you to walk into. You are not the engine; you are the vessel. You are not the source of the river; you are the riverbed through which His power flows. And rivers do not run dry when God is the spring.</p>
-
-                <h2>What This Means For You Right Now</h2>
-
-                <p>If you are reading this in the deepest valley of your life — if the screen is blurry because you are crying, or if you feel so numb that crying would be a relief — then hear this, spoken not by a website but by the accumulated weight of every Scripture passage above, by the blood-bought promise of the eternal Son, by the sealed guarantee of the Holy Spirit: <em>God has not given up on you.</em> Not because you deserve His persistence. You do not. But because He is who He is. And who He is does not change when you do.</p>
-
-                <p>If you committed a sin today that you were certain would finally be the one — the tipping point, the last straw, the failure that exhausts even infinite patience — you are still loved. Still held. Still kept by a power that does not flinch at what you have done.</p>
-
-                <p>If you have doubted so deeply that faith feels like a word in a language you used to speak, your doubt has not altered a single syllable of God's commitment to you. He remains faithful when you are faithless. He cannot deny Himself. He cannot become less devoted to you than He was the moment He chose you in eternity past. That is not how God works. That is not how love works — not this love, not the love that hung on a cross and refused to come down.</p>
-
-                <p>And if you have spent your whole life believing that God's love is conditional — that one more failure might finally snap the thread — then I am telling you now, with the full authority of Scripture behind every word: <em>that is a lie.</em> It is a lie that has imprisoned you. It is a lie that has poisoned your prayers and stolen your sleep and turned your Father into a foreman. And Christ did not bleed and die and rise again so that you could spend your life terrified of the God who adores you.</p>
-
-                <p>The truth — the blazing, uncontainable, world-upending truth — is this: You are loved with an everlasting love. A love decided before time drew its first breath. A love purchased at a cost so staggering that all the wealth of all the worlds could not have paid it. A love guaranteed by the indwelling Spirit of the living God. A love that has been tested by every sin you have committed and every sin you will commit, and has not weakened by a single degree. A love that will not give up on you. Not today. Not tomorrow. Not on your worst day. Not ever.</p>
-
-                <h2>Freedom At Last</h2>
-
-                <p>This is what freedom actually looks like. Not the freedom to choose God — as though your choosing is the hinge on which eternity swings. But something far greater: freedom from the tyranny of earning. Freedom from the hamster wheel of spiritual performance. Freedom from the 2 a.m. terror that you have finally exhausted the patience of the Almighty. Freedom from a religion that is all law and no gospel, all demand and no gift, all verdict and no acquittal.</p>
-
-                <p>True freedom is this: You are chosen. You are loved. You are kept. Not because of what you have done — your hands are empty. But because of what Christ has done — His hands were nailed open. Not because of who you are — you are dust and rebellion and fractured glory. But because of who He is — He is mercy and faithfulness and a love that makes the ocean look shallow.</p>
-
-                <p>And that gift cannot be taken away.</p>
-
-                <p>That grip cannot loosen.</p>
-
-                <p>That love cannot fail.</p>
-
-                <p>So rest. For the love of God — and I mean that literally, for the sake of the love that God has for you — <em>rest.</em> Stop trying to earn what was given to you before you were born. Stop performing for a love that was already yours before you drew your first breath. Stop white-knuckling a salvation that is held by hands far stronger than yours. You are safe. You will never perish. Not because you are strong enough to hold on. But because the God who holds you is strong enough to never let go. And His strength does not tire. His faithfulness does not waver. His commitment to you will outlast the stars.</p>
+                <p>You are chosen. You are held. You are sealed by the Holy Spirit as God's personal guarantee that the transaction is final. You are loved with a love that was ancient before the world was young. And that love will not let you go. Not today. Not on your worst day. Not ever.</p>
 
                 <p>He will never give up on you.</p>
 
-                <p><em>He will never give up on you.</em></p>
+                <div class="reflection-box">
+                    <p><strong>Close your eyes for ten seconds.</strong> Ask yourself: what would change — in your prayers, your sleep, your daily breathing — if you believed, all the way to the bedrock of your soul, that the God of the universe has <em>claimed</em> you, and nothing you do can make Him unclaim you? How would you live if the fear of abandonment simply vanished? That is what the gospel offers. Not a probationary love. Not a love that checks your performance reviews. A love that was yours before you were born and will be yours after the stars go dark.</p>
+                </div>
 
                 <div class="related-links">
-                    <h3>Continue Your Journey</h3>
+                    <h3>Go Deeper</h3>
                     <ul>
-                        <li><a href="question-secure.html">The Question: Are We Really Secure?</a></li>
-                        <li><a href="question-perseverance.html">The Question: Does God Guarantee Perseverance?</a></li>
-                        <li><a href="question-john10.html">John 10: No One Can Snatch from His Hand</a></li>
-                        <li><a href="devotional-forever-loved.html">Forever Loved: A Meditation on Perseverance</a></li>
+                        <li><a href="question-john10.html">John 10 &mdash; No One Can Snatch Them from His Hand</a></li>
+                        <li><a href="question-perseverance.html">Does God Guarantee Perseverance?</a></li>
                         <li><a href="question-sealed.html">Sealed with the Holy Spirit</a></li>
+                        <li><a href="question-secure.html">Are We Really Secure?</a></li>
+                        <li><a href="devotional-forever-loved.html">Forever Loved &mdash; A Meditation on Perseverance</a></li>
                         <li><a href="devotionals.html">All Devotionals</a></li>
                     </ul>
                 </div>
@@ -942,39 +291,30 @@
 
             <div class="share-buttons" role="group" aria-label="Share this article">
                 <span class="share-label">Share</span>
-                <a class="share-btn" href="" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" aria-label="Share on X (Twitter)" title="Share on X">𝕏</a>
+                <a class="share-btn" href="" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" aria-label="Share on X (Twitter)" title="Share on X">&#120143;</a>
                 <a class="share-btn" href="" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','width=550,height=420');return false" aria-label="Share on Facebook" title="Share on Facebook">f</a>
-                <button class="share-btn" onclick="navigator.clipboard.writeText(location.href).then(function(){this.innerHTML='✓';setTimeout(function(){document.querySelector('.share-btn[onclick*=&quot;clipboard&quot;]').innerHTML='🔗'},2000)}.bind(this))" aria-label="Copy link" title="Copy link">🔗</button>
+                <button class="share-btn" onclick="navigator.clipboard.writeText(location.href).then(function(){this.innerHTML='&#10003;';setTimeout(function(){document.querySelector('.share-btn[onclick*=&quot;clipboard&quot;]').innerHTML='&#128279;'},2000)}.bind(this))" aria-label="Copy link" title="Copy link">&#128279;</button>
             </div>
 
-            <!-- Cross-Reference Section -->
-            <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-                <div style="max-width: 900px; margin: 0 auto;">
-                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Deepen Your Understanding</h3>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                        <a href="question-john10.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">No One Can Snatch</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The Shepherd's unbreakable grip on His flock.</p>
+            <section class="cross-ref-section">
+                <div class="cross-ref-inner">
+                    <h3>Deepen Your Understanding</h3>
+                    <div class="cross-ref-grid">
+                        <a href="question-john10.html" class="cross-ref-card">
+                            <h4>No One Can Snatch</h4>
+                            <p>The Shepherd's unbreakable grip on His flock.</p>
                         </a>
-                        <a href="question-secure.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Are We Really Secure?</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The biblical case for eternal security in Christ.</p>
+                        <a href="question-secure.html" class="cross-ref-card">
+                            <h4>Are We Really Secure?</h4>
+                            <p>The biblical case for eternal security in Christ.</p>
                         </a>
-                        <a href="question-perseverance.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">God's Perseverance</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">God's faithfulness completes what He has begun.</p>
+                        <a href="question-perseverance.html" class="cross-ref-card">
+                            <h4>God's Perseverance</h4>
+                            <p>God's faithfulness completes what He has begun.</p>
                         </a>
-                        <a href="question-sealed.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Sealed Forever</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The Holy Spirit's guarantee of redemption.</p>
-                        </a>
-                        <a href="devotional-forever-loved.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Forever Loved</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">God's perseverance and the eternal security of the saints.</p>
-                        </a>
-                        <a href="devotionals.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">All Devotionals</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Browse our complete collection of devotional meditations.</p>
+                        <a href="question-sealed.html" class="cross-ref-card">
+                            <h4>Sealed Forever</h4>
+                            <p>The Holy Spirit's guarantee of redemption.</p>
                         </a>
                     </div>
                 </div>
@@ -1016,44 +356,27 @@
         </div>
     </footer>
 
-    <button class="back-to-top" aria-label="Back to top" onclick="window.scrollTo(0,0)">↑</button>
+    <button class="back-to-top" aria-label="Back to top" onclick="window.scrollTo(0,0)">&uarr;</button>
 
     <script>
-        // Reading progress bar
         window.addEventListener('scroll', function() {
             const height = document.documentElement.scrollHeight - window.innerHeight;
             const scrolled = (window.scrollY / height) * 100;
             document.querySelector('.reading-progress').style.width = scrolled + '%';
-
-            // Back to top button
             const button = document.querySelector('.back-to-top');
-            if (window.scrollY > 300) {
-                button.classList.add('visible');
-            } else {
-                button.classList.remove('visible');
-            }
+            if (window.scrollY > 300) { button.classList.add('visible'); } else { button.classList.remove('visible'); }
         });
-
-        // Mobile menu toggle
         document.querySelector('.hamburger').addEventListener('click', function() {
             const navLinks = document.querySelector('.nav-links');
             this.classList.toggle('active');
             navLinks.classList.toggle('open');
             this.setAttribute('aria-expanded', this.classList.contains('active'));
         });
-
-        // Mobile nav dropdown handling
         document.querySelectorAll('.nav-trigger').forEach(trigger => {
             trigger.addEventListener('click', function(e) {
-                if (window.innerWidth <= 768) {
-                    e.preventDefault();
-                    const parent = this.parentElement;
-                    parent.classList.toggle('dropdown-open');
-                }
+                if (window.innerWidth <= 768) { e.preventDefault(); this.parentElement.classList.toggle('dropdown-open'); }
             });
         });
-
-        // Mobile menu close on link click
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', function() {
                 const hamburger = document.querySelector('.hamburger');
@@ -1065,24 +388,6 @@
         });
     </script>
     <link rel="stylesheet" href="/global.css">
-
-    <script>
-    
-// Scroll-reveal animation
-(function() {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('revealed');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-
-    document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
-})();
-
-    </script>
     <script src="/global.js" defer></script>
 </body>
 </html>
