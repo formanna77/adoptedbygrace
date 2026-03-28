@@ -1,5 +1,35 @@
 # Overseer Log — adoptedbygrace.net
 
+## 2026-03-28 — Run 3 (Scheduled)
+
+### Issues Found & Fixed
+1. **33 broken internal links across 8 pages** — Fixed all. Pages with bad nav/footer templates (question-cannot, question-ezekiel37, question-john17, devotional-when-god-says-no, story-the-dead-city, story-the-kings-banquet) had links to non-existent `theology.html`, `apologetics.html`, `explore.html`, `contact.html`, `privacy.html`, `terms.html`. Remapped to correct equivalents (`/systematic-theology`, `/demolition-hub`, `/explore-map`, `/about`).
+2. **3 broken links in demolition pages** — `demolition-hebrews6-4-6.html` linked to non-existent `question-apostasy.html`, `1corinthians10-analysis.html`, `question-security.html` → remapped to `question-perseverance.html`. `demolition-1tim4-10.html` linked to non-existent `theology-common-grace.html` → remapped to `/systematic-theology`.
+3. **1 broken link in devotional** — `devotional-when-god-says-no.html` linked to non-existent `devotional-never-gives-up-hero.html` → fixed to `/devotional-never-gives-up`.
+4. **Sitemap gap** — Added `search.html` to sitemap (was the only real page missing; 404, index-new, index-old intentionally excluded).
+5. **No eschatology references** found in any HTML file. Clean.
+6. **global.css/global.js** — Only missing from 3 index variants (known, acceptable).
+7. **Hub link gaps from fleet-ops (Run 2 flagged)** — ALL RESOLVED. questions.html now links all 4 missing pages, systematic-theology.html links all 8, analogies-illustrations.html links all 5 analogy pages. These were fixed by other agents since last Overseer run.
+
+### Content Built
+- **`apologetic-perseverance.html`** — NEW: "Can You Lose Your Salvation?" — Comprehensive biblical case for the perseverance of the saints. Features exegesis of 7 key passages (John 10:27-29, Romans 8:28-39, Philippians 1:6, John 6:37-40, 1 Peter 1:3-5, Ephesians 1:13-14, Jude 1:24), the golden chain logic, 3 objections addressed (Hebrews 6, 2 Peter 2, 1 John 2:19), pastoral close with "Never Gives Up" banner. ~878 lines, ~2,400 words of content. Scripture-first terminology throughout. Added to sitemap.
+
+### Current Page Count
+- **202 HTML pages** (201 existing + 1 new)
+- **Sitemap entries: ~199** (synced minus intentional exclusions)
+
+### Agent Assessment
+- **Wordsmith** has polished 12 pages. ~190 pages remain untouched — still the biggest quality gap.
+- **Story Engine** at 4 stories (surgeon, dead city, fish, king's banquet). 8 more planned.
+- **Psychology series** still at hub + 1 page. 8 more planned but not started.
+- **Fleet-ops** reports 158 uncommitted files as of last check — auto-push may be blocked by SSH issues.
+- **Git health concern**: Fleet-ops logged SSH host key verification failure and stale gc.pid blocking git gc. Aaron may need to run `ssh-keyscan github.com >> ~/.ssh/known_hosts` on his machine.
+
+### Top 3 Priorities for Next Run
+1. **Build "What About the Person Who Never Heard?" apologetics page** — Romans 1-2 case, general revelation, a compassionate but unflinching answer
+2. **Story Engine: "The Adoption Papers"** — Stories reach hearts that arguments miss; this one directly serves the site's core adoption metaphor
+3. **Fix the 6 pages with non-majority nav** — The 6 pages fixed today still have the old simplified nav structure; they should get the full majority nav with dropdown menus
+
 ## 2026-03-28 — Run 2 (Scheduled)
 
 ### Issues Found & Fixed
