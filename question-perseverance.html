@@ -61,7 +61,7 @@
         }
 
         nav {
-            position: sticky; top: 0; z-index: 1000;
+            position: static; top: 0; z-index: 1000;
             background: rgba(10, 10, 15, 0.85);
             -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
             border-bottom: 1px solid var(--border-subtle);
@@ -80,7 +80,7 @@
         .hero h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
         .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 2rem; }
 
-        .section-nav { position: sticky; top: 80px; z-index: 900; background: var(--bg-deep); border-bottom: 1px solid var(--border-subtle); padding: 1rem 0; margin-bottom: 3rem; overflow-x: auto; }
+        .section-nav { position: static; top: 80px; z-index: 900; background: var(--bg-deep); border-bottom: 1px solid var(--border-subtle); padding: 1rem 0; margin-bottom: 3rem; overflow-x: auto; }
         .section-nav-container { max-width: 900px; margin: 0 auto; padding: 0 2rem; display: flex; gap: 1.5rem; }
         .section-nav a { color: var(--text-secondary); text-decoration: none; font-size: 0.95rem; font-weight: 500; padding: 0.5rem 1rem; border-bottom: 2px solid transparent; transition: all 0.3s ease; white-space: nowrap; }
         .section-nav a:hover, .section-nav a.active { color: var(--accent-gold); border-bottom-color: var(--accent-gold); }
