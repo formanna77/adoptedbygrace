@@ -101,6 +101,8 @@
 - `systematic-ecclesiology.html` — **NEW** Ecclesiology: The church, marks, mission
 - `systematic-eschatology.html` — **NEW** Eschatology: Death, return of Christ, new creation
 - `systematic-prolegomena.html` — **NEW** Prolegomena: Scripture, revelation, authority
+- `psychology-hub.html` — **NEW** Psychology of Resistance hub — gateway to 10 psychology/theology pages
+- `psychology-why-we-resist.html` — **NEW** "Why We Resist: The Psychology of Rejecting God's Sovereignty" — flagship overview: 6 psychological phenomena mapped to 6 Scripture passages
 - `404.html` — **NEW** Custom 404 error page: "This Page Has Not Been Predestined"
 - `devotionals.html` — **NEW** Devotionals hub — 10 meditative reflections on sovereign grace
 - `devotional-glory-of-divine-choice.html` — **NEW** "The Glory of Divine Choice" — Election as worship (Eph 1:3-6)
@@ -235,6 +237,19 @@
 - [ ] **"The Valley of the Shadow"** — Psalm 23 meditation on divine guidance
 - [ ] **"Morning Mercies"** — Lamentations 3:22-23 devotional on daily grace
 - [ ] **"The Narrow Door"** — Matthew 7:13-14 meditation on election and the few
+
+### Priority 7.5 — Psychology of Resistance Series
+- [x] **Psychology Hub** — `psychology-hub.html` — Gateway page with cards for all 10 psychology pages ✅ (2026-03-28 Psychologist Agent)
+- [x] **"Why We Resist"** — `psychology-why-we-resist.html` — Flagship overview: motivated reasoning, reactance, autonomy bias, terror management, system justification, cognitive dissonance — each mapped to Scripture (Romans 1:18, 9:19-20, Jer 17:9, John 3:19-20, 1 Cor 2:14, 2 Tim 4:3-4) ✅ (2026-03-28 Psychologist Agent)
+- [ ] **"The Autonomy Illusion"** — `psychology-autonomy-illusion.html` — Neuroscience of Libet experiments, compatibilism, Jeremiah 17:9
+- [ ] **"Cognitive Biases and the Blindness of Sin"** — `psychology-cognitive-biases.html` — Map cognitive biases to noetic effects of sin
+- [ ] **"The Offense of Grace"** — `psychology-offense-of-grace.html` — Moral foundations theory (Haidt) + Romans 9:19-21
+- [ ] **"Suppressing the Truth"** — `psychology-suppressing-truth.html` — Romans 1:18 and motivated reasoning deep-dive
+- [ ] **"The Dead Cannot Choose"** — `psychology-dead-cannot-choose.html` — Anosognosia meets Ezekiel 37
+- [ ] **"Terror Management Theory and the Cross"** — `psychology-terror-management.html` — Becker's Denial of Death
+- [ ] **"The Idol Factory"** — `psychology-idol-factory.html` — Calvin meets modern psychology of religion
+- [ ] **"Why Good People Think They Don't Need Grace"** — `psychology-moral-self-image.html` — Above-average effect, illusory superiority
+- [ ] **"Theological Tribalism"** — `psychology-theological-tribalism.html` — Social identity theory and theological debates
 
 ### Priority 8 — Visionary Session Ideas (2026-03-28)
 
