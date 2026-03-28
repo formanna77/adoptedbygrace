@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Synod of Dort (1618-1619) — TULIP Forged in Fire | Adopted by Grace</title>
     <meta name="description" content="Discover how the Synod of Dort crystallized the Five Points of Calvinism in response to Arminianism. The moment when the church formally declared God's absolute sovereignty in salvation.">
@@ -32,7 +33,7 @@
             background: var(--bg-deep);
             color: var(--text-primary);
             font-family: 'Inter', sans-serif;
-            line-height: 1.6;
+            line-height: 1.8;
             min-height: 100vh;
         }
 
@@ -212,7 +213,7 @@
         /* CARDS GRID */
         .cards-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin: 2.5rem 0;
         }
@@ -432,7 +433,7 @@
         .cross-links ul {
             list-style: none;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 1rem;
         }
 
@@ -468,7 +469,7 @@
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             text-align: center;
         }
@@ -510,6 +511,10 @@
 
         /* RESPONSIVE */
         @media (max-width: 768px) {
+            html, body {
+                min-height: auto;
+            }
+
             .nav-links {
                 gap: 1rem;
                 flex-wrap: wrap;
@@ -520,12 +525,21 @@
                 font-size: 1rem;
             }
 
+            .hero {
+                min-height: auto;
+                padding: 2.5rem 0 1.5rem;
+            }
+
             .hero h1 {
                 font-size: 2.2rem;
             }
 
             .hero p.subtitle {
                 font-size: 1.1rem;
+            }
+
+            .narrative-section {
+                padding: 2rem 0;
             }
 
             .narrative-section h2 {
@@ -548,6 +562,10 @@
                 font-size: 0.9rem;
             }
 
+            footer {
+                margin-top: 5rem;
+            }
+
             th, td {
                 padding: 0.75rem;
             }
@@ -559,7 +577,7 @@
             }
 
             .hero {
-                padding: 2rem 0 1.5rem;
+                padding: 1.5rem 0 1rem;
             }
 
             .hero h1 {
@@ -571,8 +589,12 @@
             }
 
             .hero-quote {
-                padding: 1.25rem 1rem;
+                padding: 1rem 0.8rem;
                 font-size: 0.95rem;
+            }
+
+            .narrative-section {
+                padding: 1.5rem 0;
             }
 
             .narrative-section h2 {
@@ -584,11 +606,16 @@
             }
 
             .doctrine-card {
-                padding: 1.5rem;
+                padding: 1.25rem;
             }
 
             .doctrine-card h4 {
                 font-size: 1.2rem;
+            }
+
+            footer {
+                padding: 2rem 1rem;
+                margin-top: 5rem;
             }
         }
     </style>
@@ -612,7 +639,7 @@
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -628,9 +655,9 @@
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -999,7 +1026,7 @@
                 <li><a href="/demolition-hub">Demolition Hub — See how Arminian arguments against TULIP collapse under biblical scrutiny</a></li>
                 <li><a href="/theologian-calvin">John Calvin — Recover the Reformation's systematic articulation of grace</a></li>
                 <li><a href="/theologian-arminius">Jacobus Arminius — Understand the man whose theology sparked Dort</a></li>
-                <li><a href="/evidence">The Evidence — Find the biblical foundation for every doctrine</a></li>
+                <li><a href="/secular-philosophy-free-will">The Evidence — Find the biblical foundation for every doctrine</a></li>
             </ul>
         </section>
 
@@ -1044,7 +1071,7 @@
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

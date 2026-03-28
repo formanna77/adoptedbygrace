@@ -75,7 +75,7 @@
         .tip-box p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; }
 
         footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
-        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; text-align: center; }
         .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
         .footer-section ul { list-style: none; }
         .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; }
@@ -124,6 +124,16 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 .back-to-top { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; border-radius: 50%; background: rgba(18, 18, 26, 0.9); border: 1px solid var(--border-subtle); color: var(--accent-gold); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 999; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
 .back-to-top.visible { opacity: 1; visibility: visible; }
 .back-to-top:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); transform: translateY(-2px); }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .page-hero { padding: 4.5rem 1rem 1.5rem; }
+            .page-hero::before { width: 250px; height: 250px; }
+            .content-section { padding: 1.5rem 1rem; }
+            footer { margin-top: 2rem; padding: 1.5rem 1rem; }
+            .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
+            .card { padding: 1.5rem; }
+            blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
+        }
 </style>
     <link rel="stylesheet" href="/global.css">
 </head>
@@ -145,7 +155,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -161,9 +171,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -406,7 +416,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

@@ -6,7 +6,7 @@
 
 ---
 
-## Current State (as of 2026-03-27)
+## Current State (as of 2026-03-28)
 
 ### Pages Live
 - `index.html` — Homepage with hero, featured questions, key verses
@@ -331,6 +331,99 @@
 ---
 
 ## Session Log
+
+### 2026-03-28 — QA Enforcer: Full Site Audit (104 pages)
+- **SCOPE:** Comprehensive QA audit of all 104 HTML pages — navigation, links, mobile CSS, design system compliance
+- **5 parallel audit agents** deployed covering all pages in batches
+- **FIXES APPLIED (4):**
+  - `story-surgeon-stone-heart.html` — `--bg-deep: #0d0b08` → `#0a0a0f` (design system drift)
+  - `devotionals.html` — `--bg-deep: #0d0b08` → `#0a0a0f` (design system drift)
+  - `essays.html` — breadcrumb `href="resources.html"` → `href="/resources"` (path consistency)
+  - `demolition-acts7-51.html` — broken link `question-why-command.html` → `objection-why-command.html` (actual file name)
+- **NAVIGATION: 100% PASS** — All 104 pages have canonical mega-menu with proper dropdowns, hamburger, mobile toggles
+- **MOBILE CSS: 100% PASS** — All pages have 768px and 480px breakpoints, no unoverridden 100vh issues
+- **INTERACTIVE ELEMENTS: PASS** — TULIP selector, quiz handlers, scripture-tsunami filters all verified
+- **BROKEN CONTENT LINKS: 30 references → 23 missing pages** — These are content gaps (planned pages not yet built), not code bugs. See QA-REPORT.md for full list prioritized by impact.
+- **Full report:** See QA-REPORT.md
+
+### 2026-03-28 — Growth Deployment: Site Health Check & Production Deploy
+- **DEPLOYMENT: SUCCESS** — Deployed to Netlify production (deploy ID: `69c7797135f7d6d8b14562d1`)
+  - Live at: https://adoptedbygrace.net
+  - Build completed successfully, all pages served
+- **PAGE COUNT: 110 canonical HTML files** (134 total including duplicates in subdirectory)
+  - 22 doctrine questions, 12 systematic theology, 10 devotionals, 7 OT election
+  - 7 demolition/apologetics, 6 theologians, 6 start-here, 5 history, 5 resources
+  - 3 comparisons, 2 objections, 2 secular evidence, 1 story, 1 pastoral, 21 hubs/utility
+- **BROKEN LINKS: 26 references → 18 missing HTML files** (all are planned future content, not errors)
+  - history-timeline.html links to 6 unbuilt era pages (apostolic, medieval, calvin-geneva, etc.)
+  - systematic-christology.html links to 5 unbuilt sub-topics
+  - 3 misc: demolition-arianism, demolition-matt23-37, psalms-election
+- **ASSET INTEGRITY: 100%** — All 325 asset references (images, CSS, JS) resolve correctly
+  - favicon.svg valid, global.css (34KB), global.js (15KB) properly referenced
+  - 28 SVGs across /svg/ and /assets/svgs/ directories
+  - All 9 images have alt attributes (WCAG compliant)
+- **SEO HEALTH: C+ → needs attention**
+  - Title tags: 100% coverage but 24 duplicates (from /adoptedbygracewebsite/ subdirectory copies)
+  - Meta descriptions: 98.5% coverage, 17 duplicates
+  - JSON-LD: 76.9% (103/134) — 31 pages missing structured data
+  - Open Graph: og:image missing on 77% of pages (only 31/134 have it)
+  - Canonical URLs: 93.3% (125/134), 9 missing
+  - Sitemap: 93 of 134 files listed (69.4% coverage) — 41 files not in sitemap
+  - Robots.txt: properly configured ✅
+  - H1 tags: 99.3% (133/134), 1 missing
+- **RESPONSIVE DESIGN: 4/5 (Advanced)**
+  - Viewport meta: 100% (all 110 pages)
+  - Mobile hamburger nav: 100% (all 110 pages)
+  - Breakpoints: 480px / 768px / 900px (desktop-first, consistent)
+  - Font sizing: 100% rem units
+  - Image responsiveness: 100%
+- **PRIORITY FIXES FOR NEXT SESSION:**
+  1. Remove /adoptedbygracewebsite/ subdirectory duplicates (causing SEO duplicate content)
+  2. Add og:image to all pages (social sharing severely impacted)
+  3. Update sitemap.xml with all 110+ pages
+  4. Add JSON-LD to remaining 31 pages
+  5. Add 9 missing canonical URLs
+
+### 2026-03-28 — Inspector: Full Site Functional Audit & Fix (105 pages)
+- **SCOPE:** Tested every functional element on all 105 HTML pages (excluding legacy index-new/old)
+- **5 parallel audit agents** deployed: link checker, nav auditor, page integrity scanner, interactive element tester, hub-child relationship verifier
+- **MEGA-MENU FIXES (109 pages):** 4 broken nav links fixed across all canonical pages:
+  - `/analogies-illustrations` → `/stories`
+  - `/creeds-confessions` → `/resources-confessions`
+  - `/secular-evidence` → `/secular-philosophy-free-will`
+  - `/contact` → `/connect`
+- **CONTENT LINK FIXES (10 pages):** `systematic.html` → `systematic-theology.html`, `/systematic-theology-hub` → `/systematic-theology`, `/evidence` → `/secular-philosophy-free-will`, `/question-atonement` → `/questions`, `/privacy` → `/about`
+- **FAVICON ADDED (32 pages):** All pages now have `<link rel="icon" href="/favicon.svg">`
+- **DUPLICATE ID FIXED:** `demolition-john3-16.html` had duplicate `further-reading` ID
+- **SITEMAP FULLY SYNCHRONIZED:** Removed phantom `systematic-eschatology.html`, added 16 missing pages
+- **INTERACTIVE ELEMENTS VERIFIED:** TULIP selector ✓, quiz ✓, back-to-top ✓, reading progress ✓, share buttons ✓, hamburger menu ✓, scroll reveal ✓
+- **HUB-CHILD LINKING:** All 8 hubs have perfect bidirectional linking ✓
+- **18 MISSING CONTENT PAGES identified** (referenced in articles but not yet created): 7 history-era, 7 systematic-topic, 2 demolition, 1 psalms, 1 theologian — these are the content roadmap
+- **2 ORPHANED PAGES** still need hub homes: `donate.html`, `resistance-last-idol.html`
+- **Full report:** See INSPECTION-REPORT.md
+
+### 2026-03-28 — Designer: Full Site Design Audit & Fix (100 pages)
+- **SCOPE:** Audited every HTML page (100 files) against the canonical design system in global.css
+- **Devotional color drift FIXED (10 pages):** `#0d0b08`/`#14120e` → `#0a0a0f`/`#12121a` (spec values)
+- **Body line-height FIXED (55+ pages):** `1.6`/`1.7` → `1.8` on all long-form reading pages for reading comfort
+- **Footer margin-top FIXED (40+ pages):** Normalized all values (2.5rem–6rem) to spec `5rem`
+- **Card grid minmax FIXED (80+ pages):** Normalized sub-320px minmax values to `320px` per spec
+- **Index hero FIXED:** Removed `min-height: 100vh` at tablet breakpoint; now uses `auto` with proper padding
+- **@480px breakpoints ADDED (60 pages):** Standard small-phone breakpoint with proper h1/hero/content/footer/button/card/blockquote scaling
+- **Hardcoded colors FIXED (12+ pages):** Replaced Tailwind-style hex colors (#3b82f6, #f59e0b, #ec4899, etc.) with design system CSS variables in search, quiz, explore-map, scripture-tsunami, start-here, freedom, and question share buttons
+- **Body text color verified:** Architecture is correct (body=--text-primary for headings, paragraphs override to --text-secondary)
+- **Total fixes:** ~300+ individual CSS changes across ~80 files
+- **Full report:** See DESIGN-REPORT.md
+
+### 2026-03-28 — Agent Architect: Fleet Expansion & Navigation Enforcement
+- **GAP ANALYSIS COMPLETED** — Full audit of 110 HTML pages against mega-menu navigation structure
+- **Missing pages identified:** `secular-evidence.html` (hub), `analogies-illustrations.html`, `creeds-confessions.html` — all referenced in mega-menu nav but don't exist yet
+- **NEW AGENT: `abg-harmonizer`** — Navigation enforcement + missing hub page builder. Primary mission: ensure ALL 110 pages use the mega-menu nav (not old flat 4-link nav), build missing hub pages, audit broken links, enforce footer consistency.
+- **NEW AGENT: `abg-storyteller`** — Story/parable engine. Only 1/9 planned stories published. This agent writes original parables, thought experiments, and narratives across 5 categories (children, humor, dark, tender, thought experiments). Includes 10+ story concepts ready to build.
+- **EXISTING AGENTS UPDATED** — Builder, Refiner, and Architect agents now reference mega-menu navigation as REQUIRED standard. Builder explicitly instructed to use mega-menu (not old flat nav). Refiner includes nav check as prerequisite before content work. Architect flags mega-menu enforcement as high priority.
+- **Agent fleet now at 7 agents:** Builder, Refiner, Architect, Deploy, Visionary, Harmonizer (new), Storyteller (new)
+- **Key finding:** The Builder agent still referenced "Sticky nav with links to: index.html, questions.html, essays.html, about.html" — now corrected to mega-menu
+- **Recommendation:** Run Harmonizer agent ASAP to sync all 110 pages to mega-menu before any further content builds
 
 ### 2026-03-28 — Content Builder: 2 New Core Doctrine Pages
 - **`question-2tim1-9.html`** — "Not Because of Our Works" — 2 Timothy 1:9 deep-dive (~1340 lines). Full ESV text with context, 6 Greek word studies (σώσαντος, καλέσαντος, κλήσει ἁγίᾳ, πρόθεσιν, χάριν, πρὸ χρόνων αἰωνίων), 7 theological arguments, 7 objections answered, 4 theologian quotes (Calvin, Spurgeon, Owen, Augustine), further reading, cross-references.

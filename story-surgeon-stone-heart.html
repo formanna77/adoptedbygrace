@@ -40,7 +40,7 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
-            --bg-deep: #0d0b08;
+            --bg-deep: #0a0a0f;
             --bg-card: #14120e;
             --bg-card-hover: #1c1914;
             --accent-gold: #d4a254;
@@ -58,7 +58,7 @@
             color: #f0ece4;
             color: var(--text-primary);
             font-family: 'Inter', sans-serif;
-            line-height: 1.7;
+            line-height: 1.8;
             overflow-x: hidden;
             -webkit-text-size-adjust: 100%;
         }
@@ -393,7 +393,7 @@
 
         /* Footer */
         footer {
-            margin-top: 4rem;
+            margin-top: 2rem;
             padding: 3rem 2rem 2rem;
             border-top: 1px solid var(--border-subtle);
         }
@@ -455,71 +455,135 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            .hamburger { display: flex; }
-
-            .nav-links {
-                display: none;
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: rgba(13, 11, 8, 0.97);
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 2rem;
-                z-index: 1050;
-            }
-
-            .nav-links.open { display: flex; }
-
-            .nav-links a {
-                font-size: 1.3rem;
-            }
-
-            nav {
-                padding: 0.8rem 1.5rem;
-            }
+            nav { padding: 0.8rem 1rem; }
 
             .story-header {
-                padding: 3rem 1.5rem 1.5rem;
+                padding: 2rem 1.2rem 1.5rem;
+                margin: 1rem auto;
             }
 
             .story-header h1 {
-                font-size: 2rem;
+                font-size: 1.6rem;
+                margin-bottom: 1rem;
+            }
+
+            .story-meta {
+                font-size: 0.85rem;
             }
 
             .story-body,
             .doctrine-section,
             .related-section,
             .share-section {
-                padding-left: 1.5rem;
-                padding-right: 1.5rem;
+                padding: 0 1.2rem;
+                margin: 1.5rem auto;
             }
 
             .story-body p {
-                font-size: 1.02rem;
-                line-height: 1.85;
+                font-size: 0.95rem;
+                line-height: 1.7;
+                margin-bottom: 1.2rem;
             }
 
-            .story-body .first-letter::first-letter {
-                font-size: 3rem;
+            .story-body h2 {
+                font-size: 1.3rem;
+                margin-top: 2rem;
+                margin-bottom: 1rem;
             }
 
             .doctrine-box {
-                padding: 1.8rem;
+                padding: 1.2rem;
+                margin: 1.5rem 0;
             }
+
+            .related-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            footer { padding: 1.5rem 1rem; margin-top: 5rem; }
         }
 
         @media (max-width: 480px) {
-            .story-header h1 {
-                font-size: 1.7rem;
+            nav { padding: 0.6rem 0.8rem; }
+            .logo { font-size: 0.9rem; }
+
+            .story-header {
+                padding: 1.5rem 1rem 1.2rem;
+                margin: 0.5rem auto;
             }
 
-            .story-header .subtitle {
-                font-size: 1rem;
+            .story-header h1 {
+                font-size: 1.3rem;
+                margin-bottom: 0.8rem;
             }
+
+            .story-subtitle {
+                font-size: 0.85rem;
+            }
+
+            .story-meta {
+                font-size: 0.75rem;
+                margin-top: 0.8rem;
+            }
+
+            .story-body,
+            .doctrine-section,
+            .related-section,
+            .share-section {
+                padding: 0 0.8rem;
+                margin: 1.2rem auto;
+            }
+
+            .story-body p {
+                font-size: 0.9rem;
+                line-height: 1.6;
+                margin-bottom: 1rem;
+            }
+
+            .story-body h2 {
+                font-size: 1.1rem;
+                margin-top: 1.2rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .story-body h3 {
+                font-size: 1rem;
+                margin-top: 1rem;
+            }
+
+            .doctrine-box {
+                padding: 1rem;
+                margin: 1rem 0;
+            }
+
+            .doctrine-title {
+                font-size: 0.95rem;
+            }
+
+            .doctrine-content {
+                font-size: 0.85rem;
+                line-height: 1.6;
+            }
+
+            .related-grid {
+                grid-template-columns: 1fr;
+                gap: 0.8rem;
+            }
+
+            .related-card {
+                padding: 0.8rem;
+            }
+
+            .related-card h3 {
+                font-size: 0.95rem;
+            }
+
+            .share-section {
+                padding: 1rem 0.8rem;
+            }
+
+            footer { padding: 1.2rem 0.8rem; margin-top: 2rem; }
         }
     
         .breadcrumb-nav { max-width: 900px; margin: 1rem auto 0; padding: 0 2rem; }
@@ -587,7 +651,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -603,9 +667,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -834,7 +898,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

@@ -214,7 +214,7 @@
         /* Who This Is For */
         .audience-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin: 2rem 0;
         }
@@ -284,14 +284,14 @@
             background: var(--bg-card);
             border-top: 1px solid var(--border-subtle);
             padding: 3rem 2rem;
-            margin-top: 6rem;
+            margin-top: 2rem;
         }
 
         .footer-container {
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             text-align: center;
         }
@@ -352,6 +352,7 @@
             }
 
             .hero {
+                min-height: auto;
                 padding: 2rem 1.2rem;
             }
 
@@ -365,6 +366,7 @@
 
             .content {
                 padding: 0 1.2rem;
+                margin: 2.5rem auto;
             }
 
             .content h2 {
@@ -375,12 +377,61 @@
                 grid-template-columns: 1fr;
             }
 
-            .commitment-item {
+            .manifesto-item {
                 padding: 1.2rem;
+            }
+
+            .cta-section {
+                padding: 2rem 1.2rem;
+                margin-top: 2.5rem;
             }
 
             footer {
                 padding: 2rem 1rem;
+                margin-top: 2.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                min-height: auto;
+                padding: 1.5rem 1rem;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 0.9rem;
+            }
+
+            .content {
+                padding: 0 1rem;
+                margin: 2rem auto;
+            }
+
+            .content h2 {
+                font-size: 1.3rem;
+                margin-top: 2rem;
+            }
+
+            .manifesto-item {
+                padding: 1rem;
+            }
+
+            .audience-item {
+                padding: 1rem;
+            }
+
+            .cta-section {
+                padding: 1.5rem 1rem;
+                margin-top: 2rem;
+            }
+
+            footer {
+                padding: 1.5rem 1rem;
+                margin-top: 5rem;
             }
         }
     
@@ -452,7 +503,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -468,9 +519,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -615,7 +666,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

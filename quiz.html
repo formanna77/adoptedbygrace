@@ -38,8 +38,8 @@
             --accent-gold: #d4a254;
             --accent-ember: #e8642c;
             --accent-violet: #8b5cf6;
-            --accent-green: #34d399;
-            --accent-red: #ef4444;
+            --accent-green: var(--accent-gold);
+            --accent-red: var(--accent-ember);
             --text-primary: #f0ece4;
             --text-secondary: #9a958c;
             --text-muted: #5a5650;
@@ -72,7 +72,7 @@
         .hero-subtitle { color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8; max-width: 600px; margin: 0 auto; }
 
         /* Quiz Mode Selector */
-        .mode-selector { max-width: 800px; margin: 2rem auto 3rem; padding: 0 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+        .mode-selector { max-width: 800px; margin: 2rem auto 3rem; padding: 0 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; }
         .mode-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 1.8rem; text-align: center; cursor: pointer; transition: all 0.3s ease; position: relative; overflow: hidden; }
         .mode-card::before { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); opacity: 0; transition: opacity 0.3s ease; }
         .mode-card:hover { background: var(--bg-card-hover); border-color: rgba(212, 162, 84, 0.3); transform: translateY(-2px); }
@@ -146,16 +146,16 @@
         .tulip-score-bar { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem; }
         .tulip-pill { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.08em; padding: 0.3rem 0.8rem; border-radius: 20px; border: 1px solid var(--border-subtle); color: var(--text-muted); transition: all 0.3s ease; }
         .tulip-pill.active { border-color: var(--accent-gold); color: var(--accent-gold); background: rgba(212, 162, 84, 0.08); }
-        .tulip-pill[data-cat="T"] { --pill-color: #ef4444; }
-        .tulip-pill[data-cat="U"] { --pill-color: #f59e0b; }
+        .tulip-pill[data-cat="T"] { --pill-color: var(--accent-ember); }
+        .tulip-pill[data-cat="U"] { --pill-color: var(--accent-gold); }
         .tulip-pill[data-cat="L"] { --pill-color: #8b5cf6; }
-        .tulip-pill[data-cat="I"] { --pill-color: #3b82f6; }
-        .tulip-pill[data-cat="P"] { --pill-color: #34d399; }
-        .tulip-pill.active[data-cat="T"] { border-color: #ef4444; color: #ef4444; background: rgba(239, 68, 68, 0.08); }
-        .tulip-pill.active[data-cat="U"] { border-color: #f59e0b; color: #f59e0b; background: rgba(245, 158, 11, 0.08); }
+        .tulip-pill[data-cat="I"] { --pill-color: var(--accent-violet); }
+        .tulip-pill[data-cat="P"] { --pill-color: var(--accent-gold); }
+        .tulip-pill.active[data-cat="T"] { border-color: var(--accent-ember); color: var(--accent-ember); background: rgba(239, 68, 68, 0.08); }
+        .tulip-pill.active[data-cat="U"] { border-color: var(--accent-gold); color: var(--accent-gold); background: rgba(245, 158, 11, 0.08); }
         .tulip-pill.active[data-cat="L"] { border-color: #8b5cf6; color: #8b5cf6; background: rgba(139, 92, 246, 0.08); }
-        .tulip-pill.active[data-cat="I"] { border-color: #3b82f6; color: #3b82f6; background: rgba(59, 130, 246, 0.08); }
-        .tulip-pill.active[data-cat="P"] { border-color: #34d399; color: #34d399; background: rgba(52, 211, 153, 0.08); }
+        .tulip-pill.active[data-cat="I"] { border-color: var(--accent-violet); color: var(--accent-violet); background: rgba(59, 130, 246, 0.08); }
+        .tulip-pill.active[data-cat="P"] { border-color: var(--accent-gold); color: var(--accent-gold); background: rgba(52, 211, 153, 0.08); }
 
         /* Results Screen */
         .results-area { max-width: 800px; margin: 0 auto; padding: 0 2rem 3rem; display: none; }
@@ -177,18 +177,18 @@
         .tulip-letter { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 800; margin-bottom: 0.3rem; }
         .tulip-name { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; line-height: 1.3; }
         .tulip-score-num { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 700; }
-        .tulip-item[data-cat="T"] .tulip-letter { color: #ef4444; }
-        .tulip-item[data-cat="U"] .tulip-letter { color: #f59e0b; }
+        .tulip-item[data-cat="T"] .tulip-letter { color: var(--accent-ember); }
+        .tulip-item[data-cat="U"] .tulip-letter { color: var(--accent-gold); }
         .tulip-item[data-cat="L"] .tulip-letter { color: #8b5cf6; }
-        .tulip-item[data-cat="I"] .tulip-letter { color: #3b82f6; }
-        .tulip-item[data-cat="P"] .tulip-letter { color: #34d399; }
+        .tulip-item[data-cat="I"] .tulip-letter { color: var(--accent-violet); }
+        .tulip-item[data-cat="P"] .tulip-letter { color: var(--accent-gold); }
         .tulip-bar { width: 100%; height: 4px; background: rgba(255,255,255,0.05); border-radius: 2px; margin-top: 0.5rem; overflow: hidden; }
         .tulip-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
-        .tulip-item[data-cat="T"] .tulip-bar-fill { background: #ef4444; }
-        .tulip-item[data-cat="U"] .tulip-bar-fill { background: #f59e0b; }
+        .tulip-item[data-cat="T"] .tulip-bar-fill { background: var(--accent-ember); }
+        .tulip-item[data-cat="U"] .tulip-bar-fill { background: var(--accent-gold); }
         .tulip-item[data-cat="L"] .tulip-bar-fill { background: #8b5cf6; }
-        .tulip-item[data-cat="I"] .tulip-bar-fill { background: #3b82f6; }
-        .tulip-item[data-cat="P"] .tulip-bar-fill { background: #34d399; }
+        .tulip-item[data-cat="I"] .tulip-bar-fill { background: var(--accent-violet); }
+        .tulip-item[data-cat="P"] .tulip-bar-fill { background: var(--accent-gold); }
 
         /* Action buttons */
         .results-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
@@ -202,7 +202,7 @@
         .study-recs { max-width: 800px; margin: 2rem auto 3rem; padding: 0 2rem; display: none; }
         .study-recs.visible { display: block; animation: fadeSlideIn 0.5s ease 0.3s both; }
         .study-recs-title { font-family: 'Playfair Display', serif; font-size: 1.5rem; text-align: center; margin-bottom: 1.5rem; }
-        .study-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+        .study-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; }
         .study-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.5rem; text-decoration: none; transition: all 0.3s ease; display: block; }
         .study-card:hover { background: var(--bg-card-hover); border-color: rgba(212, 162, 84, 0.3); transform: translateY(-2px); }
         .study-card-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent-ember); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.4rem; }
@@ -211,7 +211,7 @@
 
         /* Footer */
         footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
-        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; text-align: center; }
         .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
         .footer-section ul { list-style: none; }
         .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
@@ -295,7 +295,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -311,9 +311,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -373,7 +373,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="progress-section" id="progressSection">
             <div class="progress-info">
                 <span class="progress-text" id="progressText">Question 1 of 30</span>
-                <span class="progress-category" id="progressCategory" style="background: rgba(239,68,68,0.1); color: #ef4444;">T — Total Depravity</span>
+                <span class="progress-category" id="progressCategory" style="background: rgba(239,68,68,0.1); color: var(--accent-ember);">T — Total Depravity</span>
             </div>
             <div class="progress-bar-track">
                 <div class="progress-bar-fill" id="progressBar" style="width: 0%"></div>
@@ -489,7 +489,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>
@@ -1039,11 +1039,11 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     let answered = false;
 
     const categoryColors = {
-        T: { bg: 'rgba(239,68,68,0.1)', color: '#ef4444', name: 'Total Depravity' },
-        U: { bg: 'rgba(245,158,11,0.1)', color: '#f59e0b', name: 'Unconditional Election' },
+        T: { bg: 'rgba(239,68,68,0.1)', color: 'var(--accent-ember)', name: 'Total Depravity' },
+        U: { bg: 'rgba(245,158,11,0.1)', color: 'var(--accent-gold)', name: 'Unconditional Election' },
         L: { bg: 'rgba(139,92,246,0.1)', color: '#8b5cf6', name: 'Limited Atonement' },
-        I: { bg: 'rgba(59,130,246,0.1)', color: '#3b82f6', name: 'Irresistible Grace' },
-        P: { bg: 'rgba(52,211,153,0.1)', color: '#34d399', name: 'Perseverance of the Saints' }
+        I: { bg: 'rgba(59,130,246,0.1)', color: 'var(--accent-violet)', name: 'Irresistible Grace' },
+        P: { bg: 'rgba(52,211,153,0.1)', color: 'var(--accent-gold)', name: 'Perseverance of the Saints' }
     };
 
     function selectMode(mode) {

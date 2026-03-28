@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Augustine vs Pelagius: The First Great Battle for Grace | Adopted by Grace</title>
     <meta name="description" content="The theological clash that shaped Christianity: Augustine's vision of grace against Pelagius's vision of human moral capacity. How Augustine won, and what it means.">
@@ -32,7 +33,7 @@
             background: var(--bg-deep);
             color: var(--text-primary);
             font-family: 'Inter', sans-serif;
-            line-height: 1.7;
+            line-height: 1.8;
         }
 
         nav {
@@ -310,7 +311,7 @@
         .cross-links ul {
             list-style: none;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 1rem;
         }
 
@@ -334,7 +335,7 @@
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             text-align: center;
         }
@@ -383,6 +384,16 @@
                 grid-template-columns: 1fr;
             }
         }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .page-hero { padding: 4.5rem 1rem 1.5rem; }
+            .page-hero::before { width: 250px; height: 250px; }
+            .content-section { padding: 1.5rem 1rem; }
+            footer { margin-top: 2rem; padding: 1.5rem 1rem; }
+            .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
+            .card { padding: 1.5rem; }
+            blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
+        }
     </style>
     <link rel="stylesheet" href="/global.css">
 </head>
@@ -403,7 +414,7 @@
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -419,9 +430,9 @@
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -661,7 +672,7 @@
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

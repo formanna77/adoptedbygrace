@@ -135,7 +135,7 @@
 
         /* ===== FOOTER ===== */
         footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; }
-        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; text-align: center; }
         .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
         .footer-section ul { list-style: none; }
         .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
@@ -162,12 +162,16 @@
             nav .nav-container { position: relative; }
             .hero-title { font-size: 2.8rem; }
             .hero-verse { font-size: 1.1rem; }
-            .tulip-section { padding: 5rem 1.5rem; }
+            .tulip-section { padding: 3rem 1.5rem; }
+            .explore-section { padding: 3rem 1.5rem; }
+            .cta-section { padding: 3rem 1.5rem; }
             .section-title { font-size: 2rem; }
             .tulip-letters { gap: 0.8rem; }
             .tulip-letter { width: 56px; height: 56px; font-size: 1.8rem; }
-            .tulip-card { padding: 1.5rem; position: relative; }
-            .tulip-reveal { min-height: 350px; }
+            .tulip-card { padding: 1.5rem; }
+            .tulip-card:not(.active) { display: none; }
+            .tulip-card.active { position: relative; inset: auto; }
+            .tulip-reveal { min-height: auto; }
             .explore-grid { grid-template-columns: 1fr; }
             .explore-card.featured { grid-column: span 1; }
             .cta-quote { font-size: 1.6rem; }
@@ -176,7 +180,10 @@
         @media (max-width: 480px) {
             .hero-title { font-size: 2.2rem; }
             .tulip-letter { width: 48px; height: 48px; font-size: 1.5rem; }
-            .tulip-reveal { min-height: 420px; }
+            .tulip-reveal { min-height: auto; }
+            .tulip-section { padding: 2rem 1rem; }
+            .explore-section { padding: 2rem 1rem; }
+            .cta-section { padding: 2rem 1rem; }
         }
 
         /* Focus styles */
@@ -269,7 +276,7 @@
                     <p>&ldquo;I lay down my life for the sheep&hellip; You do not believe because you are not among my sheep.&rdquo;</p>
                     <cite>John 10:15, 26</cite>
                 </div>
-                <a href="/question-atonement" class="tulip-card-link">Explore the evidence &rarr;</a>
+                <a href="/questions" class="tulip-card-link">Explore the evidence &rarr;</a>
             </div>
             <div class="tulip-card" data-index="3">
                 <div class="tulip-card-title">Irresistible Grace</div>
@@ -378,7 +385,7 @@
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

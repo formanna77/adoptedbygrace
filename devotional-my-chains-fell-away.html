@@ -20,9 +20,9 @@
     <title>My Chains Fell Away | Adopted by Grace</title>
     <style>
         :root {
-            --bg-deep: #0d0b08;
-            --bg-card: #14120e;
-            --bg-card-hover: #1c1914;
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
             --accent-gold: #d4a254;
             --accent-ember: #e8642c;
             --accent-violet: #8b5cf6;
@@ -51,7 +51,7 @@
             font-family: 'Inter', sans-serif;
             background: var(--bg-deep);
             color: var(--text-primary);
-            line-height: 1.6;
+            line-height: 1.8;
             letter-spacing: 0.3px;
         }
 
@@ -390,7 +390,7 @@
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin-bottom: 2rem;
         }
@@ -479,6 +479,16 @@
                 font-size: 1rem;
             }
         }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .page-hero { padding: 4.5rem 1rem 1.5rem; }
+            .page-hero::before { width: 250px; height: 250px; }
+            .content-section { padding: 1.5rem 1rem; }
+            footer { margin-top: 2rem; padding: 1.5rem 1rem; }
+            .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
+            .card { padding: 1.5rem; }
+            blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
+        }
     </style>
     <script type="application/ld+json">
     {
@@ -531,7 +541,7 @@
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -547,9 +557,9 @@
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -720,7 +730,7 @@
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

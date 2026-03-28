@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Systematic Theology: Prolegomena — The authority, inspiration, and sufficiency of Scripture as the foundation of all Christian doctrine.">
     <meta name="keywords" content="prolegomena, Scripture, sola Scriptura, inspiration, authority, biblical theology, biblical theology">
@@ -59,7 +60,7 @@
             background-color: var(--dark-bg);
             color: var(--text-primary);
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            line-height: 1.6;
+            line-height: 1.8;
             scroll-behavior: smooth;
         }
 
@@ -316,7 +317,7 @@
         /* Connection Links */
         .connection-links {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 1.5rem;
             margin-top: 1.5rem;
         }
@@ -349,7 +350,7 @@
         /* Revelation subsection */
         .revelation-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 1.5rem;
             margin: 1.5rem 0;
         }
@@ -433,7 +434,7 @@
             text-align: center;
             color: var(--text-secondary);
             font-size: 0.9rem;
-            margin-top: 3rem;
+            margin-top: 5rem;
         }
 
         footer a {
@@ -502,6 +503,16 @@ a:focus-visible { outline-offset: 3px; }
 .share-btn { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(212, 162, 84, 0.2); background: transparent; color: #d4a254; text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease; cursor: pointer; }
 .share-btn:hover { background: rgba(212, 162, 84, 0.12); border-color: #d4a254; transform: translateY(-2px); }
 
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .page-hero { padding: 4.5rem 1rem 1.5rem; }
+            .page-hero::before { width: 250px; height: 250px; }
+            .content-section { padding: 1.5rem 1rem; }
+            footer { margin-top: 2rem; padding: 1.5rem 1rem; }
+            .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
+            .card { padding: 1.5rem; }
+            blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
+        }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -527,7 +538,7 @@ a:focus-visible { outline-offset: 3px; }
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -543,9 +554,9 @@ a:focus-visible { outline-offset: 3px; }
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -1038,7 +1049,7 @@ a:focus-visible { outline-offset: 3px; }
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

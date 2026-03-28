@@ -306,7 +306,7 @@
 
         .coming-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 1rem;
         }
 
@@ -361,7 +361,7 @@
 
         /* Footer */
         footer {
-            margin-top: 4rem;
+            margin-top: 5rem;
             padding: 3rem 2rem 2rem;
             border-top: 1px solid var(--border-subtle);
         }
@@ -422,37 +422,51 @@
         }
 
         @media (max-width: 768px) {
-            .hamburger { display: flex; }
+            nav { padding: 0.8rem 1rem; }
 
-            .nav-links {
-                display: none;
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: rgba(10, 10, 15, 0.97);
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 2rem;
-                z-index: 1050;
-            }
-
-            .nav-links.open { display: flex; }
-
-            .nav-links a { font-size: 1.3rem; }
-
-            nav { padding: 0.8rem 1.5rem; }
-
-            .hero { padding: 3rem 1.5rem 2rem; }
-            .hero h1 { font-size: 2.2rem; }
+            .hero { padding: 2rem 1.2rem; margin: 1rem auto; }
+            .hero h1 { font-size: 1.6rem; margin-bottom: 0.8rem; }
+            .hero-subtitle { font-size: 0.95rem; }
 
             .featured-section,
-            .coming-section { padding: 0 1.5rem; }
+            .coming-section { padding: 0 1.2rem; margin: 2rem auto; }
 
-            .featured-card { padding: 1.8rem; }
-            .featured-card h2 { font-size: 1.4rem; }
+            .featured-card { padding: 1.2rem; margin-bottom: 1.5rem; }
+            .featured-card h2 { font-size: 1.2rem; margin-bottom: 0.8rem; }
+            .featured-desc { font-size: 0.9rem; margin-bottom: 1rem; }
+
+            .story-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+            .story-card { padding: 1rem; }
+            .story-card h3 { font-size: 1rem; }
+            .story-meta { font-size: 0.8rem; }
+
+            footer { padding: 1.5rem 1rem; margin-top: 5rem; }
+        }
+
+        @media (max-width: 480px) {
+            nav { padding: 0.6rem 0.8rem; }
+            .logo { font-size: 0.9rem; }
+
+            .hero { padding: 1.5rem 1rem; margin: 0.5rem auto; }
+            .hero h1 { font-size: 1.3rem; margin-bottom: 0.6rem; }
+            .hero-subtitle { font-size: 0.85rem; }
+
+            .featured-section,
+            .coming-section { padding: 0 0.8rem; margin: 1.5rem auto; }
+
+            .featured-card { padding: 1rem; margin-bottom: 1rem; }
+            .featured-card h2 { font-size: 1.1rem; margin-bottom: 0.6rem; }
+            .featured-desc { font-size: 0.85rem; margin-bottom: 0.8rem; }
+
+            .featured-card p { font-size: 0.85rem; line-height: 1.6; }
+
+            .story-grid { grid-template-columns: 1fr; gap: 1rem; }
+            .story-card { padding: 0.8rem; }
+            .story-card h3 { font-size: 0.95rem; margin-bottom: 0.5rem; }
+            .story-meta { font-size: 0.75rem; }
+            .story-excerpt { font-size: 0.85rem; }
+
+            footer { padding: 1.2rem 0.8rem; margin-top: 2rem; }
         }
     /* ========== HAMBURGER MENU ========== */
 .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; z-index: 1001; }
@@ -505,7 +519,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -521,9 +535,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <div class="nav-dropdown">
                         <a href="/devotionals">Devotionals</a>
                         <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/stories">Analogies</a>
                         <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-evidence">Secular Evidence</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
@@ -554,7 +568,24 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     <!-- Featured Story -->
     <section class="featured-section">
         <div class="section-label">Story of the Week</div>
-        <a href="story-surgeon-stone-heart.html" class="featured-card">
+        <a href="story-the-dead-city" class="featured-card">
+            <div class="card-type">An Allegory</div>
+            <h2>The Dead City</h2>
+            <p class="card-excerpt">An entire city lies under a curse. Every inhabitant is frozen — upright, functioning, convinced they are free. Then a Prince walks through at night, carrying a lantern, and breathes life into those He chooses. They did not know they were dead. That was the nature of the curse.</p>
+            <div class="card-meta">
+                <span class="card-tag">Election</span>
+                <span class="card-tag">Effectual Calling</span>
+                <span class="card-tag">Ephesians 2:1-5</span>
+                <span class="card-read-time">12 min read</span>
+                <span class="card-arrow">&rarr;</span>
+            </div>
+        </a>
+    </section>
+
+    <!-- Published Stories -->
+    <section class="featured-section">
+        <div class="section-label">Published Stories</div>
+        <a href="story-surgeon-stone-heart" class="featured-card">
             <div class="card-type">A Modern Parable</div>
             <h2>The Surgeon and the Stone Heart</h2>
             <p class="card-excerpt">A heart surgeon operates on a patient who never asked for the surgery, couldn't consent to it, and will only discover what happened when she wakes up with a new heart. She didn't choose a new heart. A new heart chose her.</p>
@@ -597,12 +628,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <span class="coming-badge">Coming Soon</span>
             </div>
             <div class="coming-card">
-                <div class="card-type">Allegory</div>
-                <h3>The Dead City</h3>
-                <p>An entire city lies under a curse. Every inhabitant is frozen. One by one, the Prince walks through and breathes life into those he chooses.</p>
-                <span class="coming-badge">Coming Soon</span>
-            </div>
-            <div class="coming-card">
                 <div class="card-type">Modern Parable</div>
                 <h3>The King's Banquet</h3>
                 <p>A king sends servants into the streets — not to invite, but to compel. They carry the blind and lame to the table. None chose to come. All eat.</p>
@@ -635,7 +660,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>
