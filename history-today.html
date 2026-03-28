@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Doctrines of Grace Today | Adopted by Grace</title>
+    <meta name="description" content="Where sovereign grace stands now. Global spread of Reformed theology. Africa, Asia, Latin America. The digital reformation. A call to carry the torch.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        html, body {
+            background: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        /* NAV */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.85);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--accent-gold);
+        }
+
+        .nav-trigger {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            font-weight: 500;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 1rem;
+            top: 100%;
+            left: 0;
+            min-width: 200px;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .nav-trigger:hover ~ .nav-dropdown,
+        .nav-dropdown:hover {
+            display: flex;
+        }
+
+        .nav-dropdown a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-dropdown a:hover {
+            color: var(--accent-gold);
+        }
+
+        /* MAIN CONTENT */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* HERO SECTION */
+        .page-hero {
+            text-align: center;
+            padding: 4rem 0 3rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .page-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+
+        .page-hero p.subtitle {
+            font-size: 1.35rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 500;
+        }
+
+        .hero-quote {
+            background: rgba(212, 162, 84, 0.06);
+            border-left: 3px solid var(--accent-gold);
+            padding: 1.5rem 2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            font-style: italic;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .hero-quote span {
+            display: block;
+            margin-top: 0.75rem;
+            font-style: normal;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        /* SECTION NAV */
+        .section-nav {
+            position: static;
+            display: flex;
+            gap: 1rem;
+            margin: 3rem 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .section-nav a {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .section-nav a:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+        }
+
+        /* NARRATIVE SECTIONS */
+        .narrative-section {
+            padding: 3rem 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .narrative-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+            color: var(--accent-gold);
+        }
+
+        .narrative-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .narrative-section p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .scripture {
+            background: rgba(139, 92, 246, 0.06);
+            border-left: 4px solid var(--accent-violet);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+        }
+
+        .scripture strong {
+            color: var(--accent-violet);
+            font-style: normal;
+        }
+
+        /* TIMELINE NAVIGATION */
+        .timeline-nav {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+            margin: 3rem 0;
+            flex-wrap: wrap;
+        }
+
+        .timeline-nav-item {
+            flex: 1;
+            min-width: 200px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .timeline-nav-item:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(212, 162, 84, 0.15);
+        }
+
+        .timeline-nav-item .label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .timeline-nav-item h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        /* CROSS-LINKS */
+        .cross-links {
+            margin: 2.5rem 0;
+            padding: 2rem;
+            background: rgba(139, 92, 246, 0.06);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+        }
+
+        .cross-links h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .cross-links ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1rem;
+        }
+
+        .cross-links li a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .cross-links li a:hover {
+            color: var(--accent-ember);
+            gap: 0.75rem;
+        }
+
+        .cross-links li a::before {
+            content: "→";
+            transition: transform 0.3s ease;
+        }
+
+        /* FOOTER */
+        footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            padding: 3rem 2rem;
+            margin-top: 5rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            html, body {
+                min-height: auto;
+            }
+
+            .nav-links {
+                gap: 1rem;
+                flex-wrap: wrap;
+                font-size: 0.85rem;
+            }
+
+            .logo {
+                font-size: 1rem;
+            }
+
+            .page-hero {
+                min-height: auto;
+                padding: 2.5rem 0 1.5rem;
+            }
+
+            .page-hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .page-hero p.subtitle {
+                font-size: 1.1rem;
+            }
+
+            .narrative-section {
+                padding: 2rem 0;
+            }
+
+            .narrative-section h2 {
+                font-size: 1.8rem;
+            }
+
+            .section-nav {
+                display: none !important;
+            }
+
+            .timeline-nav {
+                flex-direction: column;
+            }
+
+            footer {
+                margin-top: 5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            main {
+                padding: 0 1rem;
+            }
+
+            .page-hero {
+                padding: 1.5rem 0 1rem;
+            }
+
+            .page-hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .page-hero p.subtitle {
+                font-size: 1rem;
+            }
+
+            .hero-quote {
+                padding: 1rem 0.8rem;
+                font-size: 0.95rem;
+            }
+
+            .narrative-section {
+                padding: 1.5rem 0;
+            }
+
+            .narrative-section h2 {
+                font-size: 1.5rem;
+            }
+
+            .narrative-section h3 {
+                font-size: 1.2rem;
+            }
+
+            footer {
+                padding: 2rem 1rem;
+                margin-top: 5rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO -->
+        <section class="page-hero">
+            <h1>The Doctrines of Grace Today</h1>
+            <p class="subtitle">Where Sovereign Grace Stands Now: A Global Movement, A Digital Reformation, A Call to Carry the Torch</p>
+            <div class="hero-quote">
+                "For this cause I also suffer these things: nevertheless I am not ashamed: for I know whom I have believed, and am persuaded that he is able to keep that which I have committed unto him against that day."
+                <span>— 2 Timothy 1:12 (KJV)</span>
+            </div>
+        </section>
+
+        <!-- SECTION NAV -->
+        <nav class="section-nav">
+            <a href="#global-spread">Global Spread</a>
+            <a href="#digital-reformation">Digital Reformation</a>
+            <a href="#why-now">Why Now?</a>
+            <a href="#challenges">Challenges Ahead</a>
+            <a href="#call-to-action">The Call</a>
+        </nav>
+
+        <!-- SECTION 1: GLOBAL SPREAD -->
+        <section class="narrative-section" id="global-spread">
+            <h2>The Global Spread: Reformed Theology Around the World</h2>
+
+            <p>Something remarkable is happening in the contemporary church. In Africa, Reformed theology is spreading at an extraordinary rate. Young pastors in Kenya, Nigeria, Uganda, and South Africa are discovering the doctrines of grace. They are establishing churches rooted in the conviction that <strong>Scripture teaches God's absolute sovereignty in salvation.</strong> They are reading the Puritans, studying the Westminster Confession, learning from contemporary Reformed teachers. Africa, once a mission field receiving Western Christianity, is now rediscovering its own Reformed heritage and becoming a center of Reformed theological renewal.</p>
+
+            <p>In Asia, the same phenomenon is occurring. Reformed churches in Singapore, the Philippines, Malaysia, and across the region are growing. Theological seminaries are training pastors in Reformed doctrine. Young believers are embracing the sovereignty of God with enthusiasm that should humble Western Christians. The same is true in Latin America, where Reformed Christianity is experiencing significant growth. In Brazil, Argentina, and across the continent, believers are discovering that the doctrines of grace are not Western imports but biblical truths that transcend culture and geography.</p>
+
+            <p>What does this mean? It means that the doctrines of grace are not the possession of any single nation or culture. They are not uniquely Western or European. They are biblical truths that belong to the whole church in every time and place. When these truths are preached faithfully, believers respond. When believers understand that God has chosen them, that Christ died for them, that the Spirit has regenerated them, that God will keep them—the result is the same everywhere: humility, gratitude, holiness, and boldness in evangelism.</p>
+
+            <p>The global reach of Reformed theology is one of the most significant developments in contemporary Christianity. It demonstrates that the Reformation was not merely a sixteenth-century event. It is an ongoing movement of recovery and renewal. Wherever Scripture is read faithfully, wherever God's sovereignty is proclaimed boldly, wherever believers are taught to trust entirely in God's grace—the Reformation continues.</p>
+        </section>
+
+        <!-- SECTION 2: THE DIGITAL REFORMATION -->
+        <section class="narrative-section" id="digital-reformation">
+            <h2>The Digital Reformation: Technology Spreading the Gospel</h2>
+
+            <p>If the printing press enabled the first Reformation, the internet is enabling a second one. Never before in human history has biblical truth been so accessible. A teenager in rural India can listen to John MacArthur's sermons. A pastor in Nigeria can study R.C. Sproul's teaching on the doctrines of grace. A young believer in China can access Reformed theology through websites and podcasts. The barriers that once limited the spread of biblical truth—distance, cost, censorship—are being overcome by technology.</p>
+
+            <p>Scripture teaches that the gospel will be preached to all nations before the end comes. In our age, this is becoming possible in ways the apostles could never have imagined. Thousands of websites are dedicated to teaching Scripture and the doctrines of grace. Countless podcasts are making Reformed theology accessible to ordinary believers. Videos explain predestination, election, and substitutionary atonement with clarity and power. Bible studies, commentaries, and theological resources are available instantly and often freely.</p>
+
+            <p>This digital accessibility has had a remarkable effect: it has democratized theology. You no longer need to attend seminary to learn systematic theology. You no longer need to live near a faithful church to hear biblical preaching. You can access the greatest teachers and preachers of our time from your phone. This has empowered believers, educated pastors, and challenged false doctrine at a scale never before possible.</p>
+
+            <p>The digital reformation is not without dangers. False teaching spreads as easily as true teaching. Heresy can reach millions instantly. Entertainment can masquerade as education. But on balance, the digital age has been extraordinarily beneficial for the cause of biblical truth. More people know more about the doctrines of grace than at any point in modern history. The truth is no longer the possession of the educated elite but is available to anyone with a sincere desire to know God's Word.</p>
+        </section>
+
+        <!-- SECTION 3: WHY NOW? -->
+        <section class="narrative-section" id="why-now">
+            <h2>Why Are the Doctrines of Grace Growing Now?</h2>
+
+            <p>Why has there been such a resurgence of interest in the doctrines of grace in the twenty-first century? Several factors are at work. First, the failure of pragmatism. For decades, American evangelicalism pursued a pragmatic approach to the gospel: if it works, it's right. This led to seeker-sensitive churches designed around what unbelievers find palatable, entertainment-focused worship services, and a gospel message emptied of its hard edges. But pragmatism produces superficial faith. People who join churches for the entertainment leave when the entertainment diminishes. People who are attracted by a watered-down gospel have no anchor when trials come.</p>
+
+            <p>By contrast, the doctrines of grace produce deep faith. When believers understand that God has chosen them unconditionally, that He died specifically for them, that He will never let them go—this foundation holds them through persecution, poverty, sickness, and loss. In a world increasingly hostile to Christianity, believers need a faith that is more substantial than therapeutic moralism. They need to know that their God is sovereign, that He ordains all things, that He works all things together for good. This is what the doctrines of grace provide.</p>
+
+            <p>Second, the hunger for authenticity. Contemporary believers are increasingly suspicious of shallow spirituality. They want truth, not comfort. They want to know God as He actually is, not as they wish He were. They want a church that takes Scripture seriously, that does not apologize for its theological convictions, that calls believers to radical commitment. The doctrines of grace, grounded in Scripture and articulated with intellectual rigor, meet this hunger for authentic faith.</p>
+
+            <p>Third, the intellectual defense of biblical truth. Many contemporary teachers—Piper, Keller, Sproul, MacArthur, and many others—have shown that Reformed theology is intellectually robust. It is not anti-intellectual. It is not a retreat from reason but an embrace of reason properly ordered under Scripture. The doctrines of grace can be explained to philosophers and to children, to scholars and to ordinary believers. This intellectual credibility has attracted a generation of thoughtful believers who want their faith to be intellectually respectable.</p>
+
+            <p>Finally, the triumph of the gospel despite cultural opposition. In a post-Christian West, when Christianity no longer enjoys cultural privilege, when believers face increasing marginalization and opposition—in such a context, the doctrines of grace have proved their worth. A faith resting on human achievement cannot survive cultural hostility. But a faith resting entirely on God's sovereignty can. Believers who know that God is on His throne, that His purposes cannot be thwarted, that His kingdom will ultimately triumph—such believers can face opposition with courage and confidence. The doctrines of grace are proving invaluable in a hostile age.</p>
+
+            <div class="scripture">
+                <strong>"Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live: and whosoever liveth and believeth in me shall never die."</strong> — John 11:25-26 (KJV)
+            </div>
+        </section>
+
+        <!-- SECTION 4: CHALLENGES AHEAD -->
+        <section class="narrative-section" id="challenges">
+            <h2>Challenges: The Doctrines of Grace Under Pressure</h2>
+
+            <p>Despite the resurgence of Reformed theology, significant challenges remain. First, the cultural pressure toward religious relativism. Our age denies absolute truth. It insists that all religions are paths to God, that exclusivism is arrogance, that claiming biblical authority is oppressive. The doctrines of grace, grounded in Scripture's exclusive claims about salvation, stand in direct opposition to this relativism. To proclaim the doctrines of grace is to claim that <strong>Scripture teaches the way, the truth, and the life, and that Jesus is that way.</strong> This will always be offensive to those who reject biblical authority.</p>
+
+            <p>Second, the pressure toward moralistic altruism. Our age measures morality by how much good you do, how much you contribute to social progress, how much you help the disadvantaged. There is nothing wrong with mercy and justice—Scripture demands them. But when they become the measure of faith, the doctrines of grace are eclipsed. People begin to think that salvation is about becoming a good person, not about being chosen by God and justified through Christ's work alone. The grace-based gospel gives way to a works-based gospel.</p>
+
+            <p>Third, the pressure toward autonomy and self-actualization. Our culture worships the autonomous self. It celebrates human potential, human achievement, human will. The doctrines of grace declare that the human will is enslaved to sin, that human achievement counts as filthy rags, that true freedom is found in surrender to God. This message will always be unpopular in a culture that deifies the self.</p>
+
+            <p>Fourth, the internal challenge of complacency. When believers grasp the doctrines of grace, there is a temptation to spiritual passivity: "If God ordains all things and keeps me to the end, why should I labor in prayer, in witness, in holiness?" This is a fundamental misunderstanding of the doctrines of grace, but it is a real danger. The truths of Scripture must be held in tension: God ordains the end, and He ordains the means. If God has chosen people to be saved, we must preach the gospel to bring them to faith. If God keeps us to the end, we must mortify sin and pursue holiness. The doctrines of grace produce not passivity but obedience, not indolence but diligence.</p>
+
+            <p>Despite these challenges, the doctrines of grace will endure. They are grounded in Scripture, articulated with clarity, and proved by centuries of fruitful ministry. They will survive in a post-Christian world because they do not depend on cultural support. They rest on the eternal Word of God.</p>
+        </section>
+
+        <!-- SECTION 5: THE CALL -->
+        <section class="narrative-section" id="call-to-action">
+            <h2>The Call: Carrying the Torch Forward</h2>
+
+            <p>We stand at a remarkable moment in church history. The doctrines of grace are spreading globally, being taught digitally, attracting young believers with unprecedented enthusiasm. Yet we also stand in an age increasingly hostile to biblical truth. The old Christendom is dead. The cultural props that once supported Christianity are crumbling. The church faces unprecedented opposition and marginalization.</p>
+
+            <p>In this moment, what is the calling of those who understand and believe the doctrines of grace? It is clear: <strong>we must carry the torch forward.</strong> We must ensure that the gospel of sovereign grace is proclaimed faithfully to the next generation and to every nation. We must live out what we believe, demonstrating through our lives the humility, gratitude, and holiness that flow from understanding God's grace. We must teach our children, disciple our churches, equip our pastors, and send out missionaries who proclaim the doctrines of grace without apology.</p>
+
+            <p>We must be willing to stand alone if necessary, as Machen did. When the culture demands compromise, when churches accommodate false doctrine, when pressure mounts to soften the message—we must hold firm. We must contend earnestly for the faith once delivered to the saints. Not with arrogance or combativeness, but with the conviction that truth matters and that God's glory demands that we proclaim His Word faithfully.</p>
+
+            <p>We must also recognize that <strong>the victory is already won.</strong> God's purposes will not be thwarted. His Word will not return to Him empty. His kingdom will triumph. The elect will be saved. The doctrines of grace will endure. Our labor is not in vain. We are not fighting to save Christianity; we are not battling to preserve God's kingdom. God's kingdom is secure. Our calling is simply to be faithful, to declare the truth, to live it out, and to trust God with the results.</p>
+
+            <p>To those who have recently discovered the doctrines of grace: Do not treat this as one opinion among many. Do not compartmentalize it as abstract theology. Let it transform your entire worldview. Let the understanding that God chose you unconditionally become the foundation of your assurance. Let the knowledge that Christ died specifically for you become the basis of your peace. Let the conviction that the Spirit has regenerated your dead heart become the motivation for your obedience. Let the promise that God will keep you to the end become your anchor in the storm.</p>
+
+            <p>To the churches and pastors who preach the doctrines of grace: Be bold. Do not apologize for biblical truth. Do not accommodate to cultural pressure. Preach the sovereignty of God, the depravity of man, the sufficiency of Christ, the irresistible grace of the Spirit, the perseverance of the saints. Preach it from the pulpit and in the classroom. Teach it to your children and to your congregation. Let the doctrines of grace shape how you counsel the afflicted, comfort the grieving, challenge the complacent, and encourage the faithful.</p>
+
+            <p>To the theologians and teachers: Your responsibility is immense. You are trustees of truth that has been entrusted to you across the ages. Apollyon, Augustine, Calvin, the Puritans, Edwards, Machen, Lloyd-Jones, Sproul, MacArthur—a great cloud of witnesses has passed the torch to your generation. Handle it carefully. Study deeply. Think rigorously. Teach faithfully. Do not reduce the doctrines of grace to slogans or caricatures. Articulate them with the precision and depth they deserve. In your writing and teaching, help the next generation understand not merely what the doctrines of grace are but why they matter for faith and life.</p>
+
+            <div class="scripture">
+                <strong>"Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory with exceeding joy, to the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever. Amen."</strong> — Jude 24-25 (KJV)
+            </div>
+
+            <p>This is our God. This is our gospel. This is the faith that has been entrusted to us. Let us carry it forward with faithfulness, boldness, and joy—confident that the God of all grace will be glorified through the proclamation of His sovereign, irresistible, persevering grace.</p>
+        </section>
+
+        <!-- CROSS-LINKS -->
+        <section class="cross-links">
+            <h4>Deepen Your Understanding</h4>
+            <ul>
+                <li><a href="/history-timeline">The Golden Thread — See the complete arc of grace through history</a></li>
+                <li><a href="/history-puritans">The Puritans — Recover the devotional depth of Reformed faith</a></li>
+                <li><a href="/history-20th-century">20th Century Reformers — Learn from defenders like Machen and Lloyd-Jones</a></li>
+                <li><a href="/systematic-theology">Systematic Theology — Master the doctrines of grace in depth</a></li>
+                <li><a href="/questions">The Evidence — Explore Scripture's testimony to God's sovereignty</a></li>
+            </ul>
+        </section>
+
+        <!-- TIMELINE NAVIGATION -->
+        <section class="timeline-nav">
+            <a href="/history-20th-century" class="timeline-nav-item">
+                <span class="label">Previous Era</span>
+                <h4>20th Century</h4>
+            </a>
+            <a href="/history-timeline" class="timeline-nav-item">
+                <span class="label">Full Timeline</span>
+                <h4>The Golden Thread</h4>
+            </a>
+            <a href="/start-here" class="timeline-nav-item">
+                <span class="label">Begin Here</span>
+                <h4>Your Journey Awaits</h4>
+            </a>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+    <script src="/global.js" defer></script>
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+</body>
+</html>

@@ -1,4 +1,30 @@
-# QA Enforcer Report — 2026-03-28
+# QA Enforcer Report — 2026-03-28 (Updated with Live Visual Audit)
+
+## CRITICAL FIXES DEPLOYED (Live Audit — 2026-03-28)
+
+### 1. TULIP Card Stacking Bug — FIXED
+- **Files:** index.html, index-new.html
+- **Impact:** `.tulip-reveal` was 2,461px tall on mobile (5 invisible cards stacking)
+- **Fix:** `display: none` on inactive cards, `min-height: auto` on reveal container
+- **Result:** 2,461px → 527px — no more black void on mobile
+
+### 2. Nav Overflow at ~960px — FIXED
+- **Files:** global.css, index.html
+- **Impact:** "RESOURCES" nav item truncated on desktop
+- **Fix:** Hamburger breakpoint bumped from 900px/768px to 968px
+
+### 3. Section Padding Excessive — FIXED
+- **Files:** 60+ pages including index.html, global.css
+- **Impact:** 128px (8rem) padding on every section = black scrolling wastelands
+- **Fix:** 6rem desktop, 3rem tablet, 2rem mobile
+
+### 4. Additional Page-Specific Fixes
+- history-dort.html, history-timeline.html: `body { min-height: auto }` on mobile
+- pastoral-assurance.html, explore-map.html: hero padding mobile overrides
+
+---
+
+# QA Enforcer Report — 2026-03-28 (Original)
 
 ## Session Progress
 - Pages audited this session: 104 / 104 (ALL pages)

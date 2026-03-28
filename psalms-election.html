@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election in the Psalms — Adopted by Grace</title>
+    <meta name="description" content="How David understood himself as chosen by grace, not merit. Election themes throughout the Psalms—Psalm 65:4, 33:12, 135:4, and more.">
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        nav {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 6px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--accent-gold);
+            transition: 0.3s;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a, .nav-trigger {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.3s;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .nav-links a:hover, .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            background-color: var(--bg-card);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            flex-direction: column;
+            min-width: 200px;
+            padding: 1rem 0;
+            margin-top: 0.5rem;
+            border-radius: 4px;
+        }
+
+        .nav-dropdown a {
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: background-color 0.3s;
+        }
+
+        .nav-dropdown a:hover {
+            background-color: rgba(212, 162, 84, 0.1);
+            color: var(--accent-gold);
+        }
+
+        li:has(> .nav-trigger) {
+            position: relative;
+        }
+
+        li:has(> .nav-trigger):hover .nav-dropdown {
+            display: flex;
+        }
+
+        .nav-arrow {
+            font-size: 0.75rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-gold);
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .passage-ref {
+            font-style: italic;
+            color: var(--accent-violet);
+            font-size: 0.95rem;
+        }
+
+        .scripture-block {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            font-style: normal;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+        }
+
+        .section {
+            margin: 2rem 0;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.3);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            color: var(--accent-violet);
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        strong {
+            color: var(--accent-gold);
+        }
+
+        em {
+            color: var(--accent-violet);
+        }
+
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .callout {
+            background-color: rgba(232, 100, 44, 0.1);
+            border-left: 4px solid var(--accent-ember);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .breadcrumb {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        .breadcrumb a {
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .reflection-box {
+            background-color: var(--bg-card);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .reflection-box h4 {
+            color: var(--accent-violet);
+            margin-bottom: 0.75rem;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            margin-top: 4rem;
+            padding: 3rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            margin: 0;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding: 2rem 0 0;
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            max-width: 1200px;
+            margin: 2rem auto 0;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 999;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-ember);
+        }
+
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background-color: var(--accent-gold);
+            z-index: 1001;
+            width: 0%;
+        }
+
+        .psalm-card {
+            background-color: var(--bg-card);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .psalm-number {
+            color: var(--accent-violet);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 968px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: var(--bg-card);
+                flex-direction: column;
+                gap: 0;
+                padding: 1rem 0;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links a {
+                padding: 0.75rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            main {
+                margin: 2rem 1rem;
+            }
+
+            .scripture-block {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.3rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
+
+            main {
+                margin: 1.5rem 1rem;
+                padding: 0;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+            }
+
+            .back-to-top {
+                width: 45px;
+                height: 45px;
+                font-size: 1.25rem;
+                right: 1rem;
+                bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reading-progress" aria-label="Reading progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="breadcrumb">
+            <a href="/ot-david">OT: David</a> / Election in the Psalms
+        </div>
+
+        <article>
+            <div class="hero">
+                <h1>Election in the Psalms</h1>
+                <p class="tagline">David's Song of Being Chosen by Grace</p>
+                <p class="passage-ref">Psalm 65:4, 33:12, 135:4, 105:6</p>
+            </div>
+
+            <section class="section">
+                <h2>The Psalmist's Joy in Being Chosen</h2>
+                <p>The Psalms are David's emotional and spiritual response to God. They are raw, honest, and deeply personal. Yet woven throughout his prayers and praises runs a consistent theme that often surprises modern readers: David understood himself as <strong>chosen by God, not on account of his merit, but by grace</strong>. This is the foundation of his confidence, his hope, and his joy.</p>
+
+                <p>Scripture teaches that God's election is not a cold, distant doctrine reserved for theologians in ivory towers. It is the beating heart of worship, the reason the psalmist sings, the ground of the believer's assurance. David knew this deeply. His songs of election are not abstractions—they are the cries of a man who had been chosen, pursued, and loved by a sovereign God.</p>
+
+                <p>This page explores how David understood election throughout the Psalms, and what his songs teach us about being chosen by grace alone.</p>
+            </section>
+
+            <section class="section">
+                <h2>Psalm 65:4 — The Blessed Choose</h2>
+
+                <div class="scripture-block">
+                    "Blessed is the one you choose and bring near to dwell in your courts! We are filled with the good things of your house, of your holy temple."
+                    <div class="scripture-ref">Psalm 65:4</div>
+                </div>
+
+                <div class="psalm-card">
+                    <p><span class="psalm-number">What David Teaches:</span> Being chosen by God is not a passive thing—it is an active, personal invitation. God does not merely predestine; He <em>chooses and brings near</em>. The Hebrew word for "choose" (bachar) means to select deliberately, to call out from among all others. And the promise of being "brought near" suggests an intimacy that transcends distant knowledge—it is the fellowship of the temple, the presence of God Himself.</p>
+
+                    <p>David celebrates what we all long for: <strong>to be known, chosen, and brought into the presence of the One who matters most</strong>. This is not a merit-based selection. There is no hint that David has earned this nearness through good behavior or spiritual achievement. He is chosen, and that choice alone fills him with blessing.</p>
+                </div>
+
+                <p>Notice the emotional response: <em>We are filled with the good things of your house</em>. The one chosen by God does not merely receive information about His goodness—he or she is <em>filled</em> with it. The consciousness of being elected produces overflowing abundance and joy in the soul.</p>
+
+                <p>In our own spiritual experience, how many of our doubts stem from the haunting question: "Does God really love me? Am I truly chosen?" David answers: Yes. Your being chosen is not a question mark. It is a reality that transforms everything—your past, your present, your eternal future.</p>
+            </section>
+
+            <section class="section">
+                <h2>Psalm 33:12 — The Blessed Nation</h2>
+
+                <div class="scripture-block">
+                    "Blessed is the nation whose God is the Lord, the people he chose as his inheritance."
+                    <div class="scripture-ref">Psalm 33:12</div>
+                </div>
+
+                <div class="psalm-card">
+                    <p><span class="psalm-number">What David Teaches:</span> Here David widens the lens from personal election to corporate election. Israel as a nation is chosen. They did not choose God; He chose them. This is the logic of grace at the national level. A whole people—with all their flaws, failures, and rebellions—are the <em>inheritance</em> of God.</p>
+
+                    <p>The word "inheritance" (nachalah) refers to something that is claimed, possessed, cherished. Israel is not God's slave purchase or His accidental property. Israel is His <em>chosen inheritance</em>—people He deliberately claims and loves as His own.</p>
+
+                    <p>Scripture teaches that God's sovereign choice operates at every level—personal, familial, national, and cosmic. He is not constrained by human categories or our sense of what is "fair." He chooses whom He will, and that choice is not arbitrary or unjust, but perfectly aligned with His holy purposes.</p>
+                </div>
+
+                <p>This has profound implications for how we understand our own place in God's purposes. If God sovereignly chose a nation for Himself, then the question of whether He has chosen you is not left to chance or human effort. It is settled in the counsel of God.</p>
+            </section>
+
+            <section class="section">
+                <h2>Psalm 135:4 — The Treasure of God's Heart</h2>
+
+                <div class="scripture-block">
+                    "For the Lord has chosen Jacob for himself, Israel as his treasured possession."
+                    <div class="scripture-ref">Psalm 135:4</div>
+                </div>
+
+                <div class="psalm-card">
+                    <p><span class="psalm-number">What David Teaches:</span> Here is the deepest affirmation of what election means: Jacob—a man who struggled with God, who deceived his brother, who was far from perfect—is not merely chosen, but <em>treasured</em>. The Hebrew word is "segullah," which means something precious, unique, specially valued.</p>
+
+                    <p>God does not choose people reluctantly or with reservation. He chooses them <em>as treasure</em>. This is the emotional, affective reality of election. God takes delight in His chosen ones. He delights in you, not because you deserve it, but because you are His.</p>
+
+                    <p>This runs counter to everything the world teaches us. The world says: You are only valuable if you earn it. You are only loved if you perform. You are only treasured if you achieve. But Scripture teaches that God's election is a prior claim of love and value. You are His treasured possession before you do anything, achieve anything, or prove anything.</p>
+                </div>
+
+                <p>If you are struggling with a sense of worthlessness, if you feel like you have no inherent value, David's psalm confronts that lie with the truth: <strong>You are treasured by God</strong>. That is your identity. That is your worth. That is a truth that cannot be taken from you.</p>
+            </section>
+
+            <section class="section">
+                <h2>Psalm 105:6 — The Offspring of Abraham</h2>
+
+                <div class="scripture-block">
+                    "O offspring of Abraham, his servant, children of Jacob, his chosen ones..."
+                    <div class="scripture-ref">Psalm 105:6</div>
+                </div>
+
+                <div class="psalm-card">
+                    <p><span class="psalm-number">What David Teaches:</span> David addresses the people of Israel by their familial and spiritual lineage. They are the "offspring of Abraham," and more importantly, the "chosen ones." The Greek Septuagint uses the word "eklektoi" (chosen, elect), the same root from which we get "ecclesiology" (the study of the church).</p>
+
+                    <p>To be chosen is to be related to Abraham, to inherit the covenant promises, to be part of God's plan of redemption that spans centuries. The individual believers singing this psalm understood themselves not as isolated units of faith, but as part of a great cloud of witnesses—all of them chosen, all of them part of God's unfolding purpose.</p>
+
+                    <p>Scripture teaches that our election connects us to something greater than ourselves. We are not chosen in a vacuum. We are chosen to be part of a people, to inherit promises, to participate in God's redemptive work in history.</p>
+                </div>
+
+                <p>This gives profound meaning to our lives. We are not accidents of history. We are chosen members of a covenant people, heirs of promises, and participants in God's eternal plan.</p>
+            </section>
+
+            <section class="section">
+                <h2>David's Understanding: Grace, Not Merit</h2>
+
+                <p>What is striking about David's treatment of election in the Psalms is what is <em>absent</em>: any claim that Israel or David himself had earned this favor through moral superiority or spiritual achievement.</p>
+
+                <p>David knew his own heart. He knew he was a sinner. He knew he had failed, lied, murdered, and broken God's law. Yet he sang of being chosen. Why? Because he understood something crucial: <strong>election has nothing to do with desert and everything to do with grace</strong>.</p>
+
+                <p>When David confesses his sin in Psalm 51, he does not say, "I am no longer chosen because I have sinned." He says, "Do not cast me from your presence, and do not take your Holy Spirit from me" (Psalm 51:11). His election is not conditional on his perfection. It is grounded in God's unchanging covenant.</p>
+
+                <p>This is the radical nature of election: it is not based on foreseen faith, future righteousness, or present worthiness. It is based on God's sovereign choice, made in eternity, executed in time, and never revoked.</p>
+
+                <div class="reflection-box">
+                    <h4>A Thought to Sit With</h4>
+                    <p>If David—a sinner who committed adultery and murder—could sing confidently of being chosen by God, what does that mean for you? Does your sense of being chosen depend on how well you performed yesterday? Or does it rest on a foundation that cannot be shaken by your failures?</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>Election and Assurance</h2>
+
+                <p>One of the great gifts of understanding election through the Psalms is the assurance it brings. When David sings, "Blessed is the one you choose and bring near," he is not whistling in the dark or expressing a vague hope. He is celebrating a reality that has transformed his life.</p>
+
+                <p>Scripture teaches that the knowledge of our election—that God has chosen us in Christ before the foundation of the world—is meant to produce confidence, joy, and peaceful trust. Not arrogance or complacency, but a humble assurance that we belong to God, that we are secure in His hands, and that our eternal destiny is settled.</p>
+
+                <p>The world tells you to build your identity on achievement, appearance, or approval. David tells you to build your identity on election. You are chosen. You are loved. You are treasured. These are not contingent on your performance. They are grounded in the eternal counsel of God.</p>
+
+                <div class="callout">
+                    <p><strong>For the one struggling with assurance:</strong> Your worth is not determined by how much you accomplish, how well you pray, or how consistently you perform. Your worth is determined by the fact that God has chosen you. That truth stands whether you feel it or not, whether you believe it or not. The invitation is to align your feelings and beliefs with the reality that God has already settled: you are chosen, and you are loved.</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>From David's Song to Our Own</h2>
+
+                <p>These psalms are not museum pieces to be studied from a distance. They are invitations to sing David's song in our own hearts. They call us to understand ourselves as David understood himself: as people chosen by grace, brought near to God, treasured as His inheritance, and part of His eternal people.</p>
+
+                <p>When you feel forgotten, unworthy, or overlooked by the world, open the Psalms. Hear David singing to you: "You have been chosen. You have been brought near. You are filled with the good things of God's house. You are treasured."</p>
+
+                <p>This is not false comfort. This is truth that stands when every other support system collapses. This is the foundation on which David built his life, the reality that sustained him through betrayal, exile, and war. And it is available to you, not because you earned it, but because Christ—the true David, the King of kings—achieved it for all who trust in Him.</p>
+
+                <p><em>O offspring of Abraham, O chosen ones: you are beloved. You are blessed. You are His.</em></p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        // Set active nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === 'psalms-election.html') {
+                link.classList.add('active');
+            }
+        });
+
+        // Scroll-spy for section navigation
+        const sectionLinks = document.querySelectorAll('.section-link');
+        const sections = document.querySelectorAll('.section');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '-30% 0px -70% 0px',
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    sectionLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => observer.observe(section));
+    </script>
+    <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+    <script>
+    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
+    </script>
+    <script>
+    (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
+    </script>
+    <script src="/global.js" defer></script>
+</body>
+</html>

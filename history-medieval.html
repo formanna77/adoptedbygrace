@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Medieval theology: Augustine vs Pelagius, Semi-Pelagianism's rise, Thomas Aquinas, and how the gospel of sovereign grace was nearly buried before the Reformation.">
+    <meta property="og:title" content="Medieval Theology and the Seeds of Reform — Adopted by Grace">
+    <meta property="og:description" content="From Augustine's defense of grace through the medieval drift: the slow corruption and recovery of sovereign grace doctrine.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/history-medieval.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/history-medieval.html">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Medieval Theology and the Seeds of Reform (300-1400 AD) — Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Medieval Theology and the Seeds of Reform (300-1400 AD)",
+        "description": "The rise and fall of grace doctrine in the medieval church.",
+        "url": "https://adoptedbygrace.net/history-medieval.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        }
+    }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        nav {
+            position: static;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.85);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.1em;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-trigger {
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 0.75rem;
+            margin-top: 0.5rem;
+        }
+
+        li:has(.nav-trigger):hover .nav-dropdown {
+            display: flex;
+        }
+
+        .nav-dropdown a {
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        .nav-dropdown a:hover {
+            background: var(--bg-card-hover);
+            color: var(--accent-gold);
+        }
+
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .breadcrumb-nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            font-size: 0.95rem;
+        }
+
+        .breadcrumb-nav a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .breadcrumb-nav a:hover {
+            color: var(--accent-ember);
+        }
+
+        .hero {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            text-align: left;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .topic-label {
+            color: var(--accent-gold);
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 90%;
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent-gold);
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 0.75rem;
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-violet);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .scripture-block {
+            background: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            display: block;
+            margin-top: 0.75rem;
+            font-style: normal;
+            color: var(--accent-gold);
+            font-size: 0.95rem;
+        }
+
+        ul, ol {
+            margin: 1.5rem 0 1.5rem 2rem;
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            margin: 0;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        footer {
+            background: var(--bg-card);
+            margin-top: 3rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 100;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+        }
+
+        @media (max-width: 968px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.75rem;
+            }
+
+            main {
+                padding: 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .hero {
+                padding: 2rem 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.25rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                font-size: 1.2rem;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
+            h2 {
+                font-size: 1.25rem;
+            }
+
+            main {
+                padding: 1rem;
+            }
+
+            .scripture-block {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="breadcrumb-nav"><a href="/history-timeline.html">&larr; Back to Church History Timeline</a></div>
+
+    <section id="main-content" class="hero">
+        <div class="topic-label">Church History &middot; 300-1400 AD &middot; Medieval Era</div>
+        <h1>Medieval Theology and the Seeds of Reform</h1>
+        <p class="hero-subtitle">From Augustine's brilliant defense of grace through the slow drift of Semi-Pelagianism: how the gospel of sovereign grace was nearly lost—and how faithful voices preserved the seeds of reformation.</p>
+    </section>
+
+    <main>
+        <section class="section">
+            <h2>Augustine and the Defense of Grace</h2>
+            <p>
+                Augustine of Hippo (354-430) stands as one of the most towering figures in Christian history. His conversion from Manichaeism and his subsequent embrace of Scripture led him to a profound understanding of human sinfulness and divine grace. When Pelagius and his followers began teaching that humans possessed the natural ability to choose God without special divine assistance, Augustine rose to defend the apostolic doctrine of grace.
+            </p>
+            <p>
+                Scripture teaches that we are "by nature children of wrath" (Ephesians 2:3). We are "dead in our transgressions" (Ephesians 2:5). We cannot, in our unregenerate state, come to God. Augustine saw clearly that if humans could naturally choose God, then grace would not be grace. Salvation would be a human achievement, God merely responding to human initiative.
+            </p>
+            <div class="scripture-block">
+                "For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them. Therefore, if anyone is in Christ, he is a new creation; old things have passed away; behold, all things have become new."
+                <span class="scripture-ref">— 2 Corinthians 5:17 (NKJV)</span>
+            </div>
+            <p>
+                Augustine taught that God's grace is sovereign, unearned, and irresistible. It is not earned by foreseen faith; rather, faith itself is the result of God's grace. He insisted that God's predestination does not destroy human responsibility; rather, it secures it. God ordains both the end (salvation) and the means (faith, repentance, obedience).
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>The Rise of Semi-Pelagianism: The Subtle Corruption</h2>
+            <p>
+                After Augustine's death, a middle position emerged: Semi-Pelagianism. It seemed a compromise. It affirmed that grace was necessary, but held that humans possessed the initial ability to respond to God's grace. In other words, the first step was human; God's grace came in response.
+            </p>
+            <p>
+                This may sound like a subtle distinction, but it is not. Scripture is clear: "No one can come to me unless the Father who sent me draws him" (John 6:44). It is not that God helps those who help themselves. It is that God acts first, and in His sovereign action, He secures the will of His people.
+            </p>
+            <p>
+                Semi-Pelagianism gradually infected medieval theology. Councils condemned it (the Council of Orange in 529), yet it persisted in practice. Monks practiced extreme asceticism, hoping through discipline to perfect themselves. The sacramental system expanded, suggesting that God's grace could be channeled through the church's rituals. The notion crept in that humans could do their part, and God would do His. This is the opposite of Augustine—and the opposite of Scripture.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Thomas Aquinas and the Systematization of Error</h2>
+            <p>
+                Thomas Aquinas (1225-1274) was a brilliant mind, perhaps the greatest medieval theologian. His <em>Summa Theologiae</em> is a monument of systematic thinking. Yet on the question of grace and free will, Aquinas synthesized Scripture with Aristotelian philosophy in a way that compromised the doctrine of sovereign grace.
+            </p>
+            <p>
+                Aquinas taught that grace perfects nature but does not abolish it. He held that humans possess a "natural" ability to incline toward God, which grace then enhances. This sounded reasonable, even biblical. But it subtly shifted the locus of initial decision from God to man. It suggested that the will, though wounded by sin, retains a native ability to respond to God.
+            </p>
+            <p>
+                Scripture teaches something very different. It teaches that sin has not merely wounded the will; it has enslaved it. Our hearts are "deceitful above all things" (Jeremiah 17:9). We are "slaves to sin" (John 8:34) until Christ sets us free. The will is not free to choose God; it is bound until God breaks those chains through regeneration.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>The Church's Slow Drift: Sacramentalism and Works</h2>
+            <p>
+                As Semi-Pelagianism infected medieval theology, the practical result was the rise of the sacramental system and an emphasis on human works. If grace responded to human effort, then the church could facilitate grace through sacraments. If humans could perfect themselves through discipline, then monasticism became the highest calling.
+            </p>
+            <p>
+                The sale of indulgences—perhaps the most notorious corruption of the medieval church—was the logical outcome. If the church could channel grace, then it could also channel forgiveness. If grace responded to human effort, then humans could purchase spiritual benefits.
+            </p>
+            <p>
+                What had been lost was the radical simplicity of the gospel: by grace you have been saved, through faith, and that not of yourselves; it is the gift of God (Ephesians 2:8-9). Not of works, lest anyone boast.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Pre-Reformation Voices: The Seeds Are Sown</h2>
+            <p>
+                But even in the darkness of the medieval era, there were faithful voices calling the church back to Scripture. These men did not have the full Reformation theology, but they planted seeds that would flower in Luther and Calvin.
+            </p>
+            <h3>John Wycliffe (1330-1384)</h3>
+            <p>
+                Wycliffe, an English theologian and reformer, challenged the authority of the Pope and the extravagance of the church. He insisted on the supremacy of Scripture and translated the Bible into English so that common people could read God's Word. He taught that God's sovereignty extended over all things, and that the church's claim to mediate grace was unbiblical.
+            </p>
+            <h3>Jan Hus (1369-1415)</h3>
+            <p>
+                Hus, a Bohemian reformer influenced by Wycliffe, preached the radical doctrine that Christ alone is the head of the church, not the Pope. He affirmed salvation by grace and the authority of Scripture. Though he was burned at the stake for his faith, his influence persisted and prepared the way for the Reformation.
+            </p>
+            <p>
+                These pre-Reformation voices understood something that medieval Catholicism had lost: that God is sovereign, that Christ is the sole mediator, that salvation is by grace alone, and that Scripture, not the church, is the ultimate authority.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>How the Gospel Was Nearly Buried</h2>
+            <p>
+                By the close of the medieval period, the doctrine of God's sovereignty in salvation had been buried under layers of sacramentalism, works-righteousness, and ecclesiastical authority. Scripture taught one thing; the church practiced another.
+            </p>
+            <ul>
+                <li><strong>Grace had become a substance</strong> that could be channeled through the church's rituals.</li>
+                <li><strong>Salvation had become a process</strong> of human effort assisted by grace, rather than a gift of God's unmerited favor.</li>
+                <li><strong>Christ's sufficiency had been obscured</strong> by the mediation of saints and the church.</li>
+                <li><strong>Scripture had been locked away</strong> in Latin, inaccessible to common believers.</li>
+                <li><strong>The doctrine of election had been forgotten</strong>, replaced by a notion of grace freely offered to all, waiting for human response.</li>
+            </ul>
+            <p>
+                Yet the seeds of recovery were being sown. Wycliffe, Hus, and others were calling the church back to Scripture. They were not yet speaking in the full language of the Reformation, but they were recovering biblical truths that would soon shake Christendom.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>The Continuity of Truth</h2>
+            <p>
+                When Luther nailed his 95 Theses to the church door, he was not inventing something new. He was recovering something very old—the apostolic faith, defended by Augustine, preserved by faithful voices throughout the ages, now to be recovered and proclaimed afresh.
+            </p>
+            <p>
+                Scripture teaches that salvation is of the Lord. This truth echoes through the Apostolic Fathers, resounds through Augustine's defense against Pelagius, is preserved in the pre-Reformation voices of Wycliffe and Hus, and bursts forth in the Reformation itself. The gospel of grace is not a medieval innovation or a Reformation invention. It is the apostolic faith, recovered again and again by those willing to hear Scripture's voice.
+            </p>
+            <div class="scripture-block">
+                "It is God who works in you to will and to act in order to fulfill his good purpose."
+                <span class="scripture-ref">— Philippians 2:13 (NIV)</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === '/history-medieval.html') {
+                link.classList.add('active');
+            }
+        });
+    </script>
+    <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+    <script>
+    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
+    </script>
+    <script src="/global.js" defer></script>
+</body>
+</html>

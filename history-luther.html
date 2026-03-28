@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Martin Luther and the Reformation: the 95 Theses, The Bondage of the Will, Sola Fide, Sola Gratia, and the rediscovery of sovereign grace.">
+    <meta property="og:title" content="Martin Luther and the Reformation — Adopted by Grace">
+    <meta property="og:description" content="How Luther rediscovered the doctrine of justification by faith alone and renewed the church's understanding of God's sovereignty in salvation.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/history-luther.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/history-luther.html">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Martin Luther and the Reformation (1517+) — Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Martin Luther and the Reformation (1517+)",
+        "description": "Luther's rediscovery of sovereign grace and justification by faith alone.",
+        "url": "https://adoptedbygrace.net/history-luther.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        }
+    }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        nav {
+            position: static;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.85);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.1em;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-trigger {
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 0.75rem;
+            margin-top: 0.5rem;
+        }
+
+        li:has(.nav-trigger):hover .nav-dropdown {
+            display: flex;
+        }
+
+        .nav-dropdown a {
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        .nav-dropdown a:hover {
+            background: var(--bg-card-hover);
+            color: var(--accent-gold);
+        }
+
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .breadcrumb-nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            font-size: 0.95rem;
+        }
+
+        .breadcrumb-nav a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .breadcrumb-nav a:hover {
+            color: var(--accent-ember);
+        }
+
+        .hero {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            text-align: left;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .topic-label {
+            color: var(--accent-gold);
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 90%;
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent-gold);
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 0.75rem;
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-violet);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .scripture-block {
+            background: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            display: block;
+            margin-top: 0.75rem;
+            font-style: normal;
+            color: var(--accent-gold);
+            font-size: 0.95rem;
+        }
+
+        ul, ol {
+            margin: 1.5rem 0 1.5rem 2rem;
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            margin: 0;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        footer {
+            background: var(--bg-card);
+            margin-top: 3rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 100;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+        }
+
+        @media (max-width: 968px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.75rem;
+            }
+
+            main {
+                padding: 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .hero {
+                padding: 2rem 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.25rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                font-size: 1.2rem;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
+            h2 {
+                font-size: 1.25rem;
+            }
+
+            main {
+                padding: 1rem;
+            }
+
+            .scripture-block {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="breadcrumb-nav"><a href="/history-timeline.html">&larr; Back to Church History Timeline</a></div>
+
+    <section id="main-content" class="hero">
+        <div class="topic-label">Church History &middot; 1517+ &middot; Reformation</div>
+        <h1>Martin Luther and the Reformation</h1>
+        <p class="hero-subtitle">A German monk's battle cry against indulgences became a continental earthquake. Luther did not set out to start a reformation. He set out to recover a gospel. He found that they were the same thing.</p>
+    </section>
+
+    <main>
+        <section class="section">
+            <h2>A Monk's Torment and a Scripture's Freedom</h2>
+            <p>
+                Martin Luther (1483-1546) was born into a world of medieval piety. His father, a mining entrepreneur, sent him to university with high hopes. But Luther had other plans. In 1505, caught in a thunderstorm, terrified by lightning, he cried out to Saint Anne and made a vow: if he survived, he would become a monk.
+            </p>
+            <p>
+                Luther survived. He entered the monastery of the Augustinian Eremites. There, in the quiet of the cloister, he threw himself into the spiritual disciplines of the medieval church. He went to confession repeatedly, seeking to attain the righteousness that medieval theology said he must achieve. But the more he tried, the more empty and tormented he felt. His conscience would not be quieted. His works seemed worthless.
+            </p>
+            <p>
+                Then, while lecturing on Romans in the tower room of the Black Cloister, Luther stumbled upon a truth that had been buried beneath centuries of ecclesiastical corruption. In Romans 1:17, Paul writes: "The righteous shall live by faith." Luther had been reading the fathers—Augustine, especially—and he suddenly grasped what Paul meant. The righteousness that saves is not our own; it is the righteousness of Christ, received through faith. God credits it to us. We do not achieve it; we receive it.
+            </p>
+            <div class="scripture-block">
+                "For in the gospel a righteousness from God is revealed, a righteousness that is by faith from first to last, just as it is written: 'The righteous will live by faith.'"
+                <span class="scripture-ref">— Romans 1:17 (NIV)</span>
+            </div>
+            <p>
+                This was Luther's breakthrough. It was not a new doctrine; it was an apostolic truth recovered. And it would shatter the medieval church.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>The 95 Theses: A Spark in the Darkness</h2>
+            <p>
+                In 1517, the Dominican friar Johann Tetzel came near Luther's city of Wittenberg, selling indulgences to finance the building of St. Peter's Basilica in Rome. Tetzel's promises were outrageous: he would forgive sins—past, present, even future—for a price. The church had devolved into a transaction: money for forgiveness.
+            </p>
+            <p>
+                This was the spark that ignited Luther. On October 31, 1517, he drafted 95 theses (arguments) against indulgences and nailed them to the church door in Wittenberg. He did not intend revolution. He intended scholarly debate. But what he got was an explosion.
+            </p>
+            <p>
+                The 95 Theses were printed, translated, distributed, and debated across Europe within weeks. They struck a nerve. Thousands who felt the hollow corruption of the medieval church recognized in Luther's words a voice of truth. Princes who chafed under papal authority saw in Luther a weapon. And Scripture teachers everywhere found in him a champion of apostolic faith.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>The Bondage of the Will: The Core Issue</h2>
+            <p>
+                As the Reformation progressed, Luther's opponent was not primarily the Pope, but the Dutch humanist Desiderius Erasmus. Erasmus, though a reformer in his own way, believed in the natural ability of the human will. He argued for a middle way: free will cooperating with grace.
+            </p>
+            <p>
+                This forced Luther to articulate the most radical claim of the Reformation: the utter bondage of the will. Scripture teaches, Luther argued, that the human will is enslaved to sin. It is not merely weakened; it is in chains. Only God's grace can break those chains. Only the sovereign action of God can regenerate the dead heart.
+            </p>
+            <p>
+                In his brilliant tract <em>The Bondage of the Will</em> (1525), Luther insisted that human free will is a fiction—or worse, a heresy. It flatters human pride and denies God's sovereignty. The will is free only after it is liberated by grace. And that liberation is God's work, not ours.
+            </p>
+            <div class="scripture-block">
+                "For it is God who works in you to will and to act in order to fulfill his good purpose."
+                <span class="scripture-ref">— Philippians 2:13 (NIV)</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Sola Fide, Sola Gratia, Sola Scriptura</h2>
+            <p>
+                The Reformation rallied around certain great truths, articulated as the "Five Solas." Luther did not formulate all of them explicitly, but he recovered all of them:
+            </p>
+            <h3>Sola Fide: Faith Alone</h3>
+            <p>
+                Salvation is not by faith plus works, not by faith plus the sacraments, not by faith plus the church's mediation. It is by faith alone. We are justified by faith in Christ alone. This faith is not a work we perform; it is a gift of God, the fruit of regeneration.
+            </p>
+            <h3>Sola Gratia: Grace Alone</h3>
+            <p>
+                Our salvation is entirely of grace. God, in His free and sovereign grace, chose us, redeemed us, and regenerates us. We contribute nothing but our sin. Grace is not a substance dispensed by the church; it is God's favor, His unmerited, unearned, irresistible goodness toward sinners.
+            </p>
+            <h3>Sola Scriptura: Scripture Alone</h3>
+            <p>
+                The authority for doctrine is not the church, not the Pope, not tradition, but Scripture alone. The Bible is sufficient. It is clear. And it teaches that God is sovereign, that Christ is sufficient, and that salvation is by grace through faith.
+            </p>
+            <p>
+                These three solas reinforce one another. Scripture teaches grace. Grace works through faith. And Scripture alone is the measure of truth.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>"Here I Stand": The Cost of Conviction</h2>
+            <p>
+                As the Reformation spread, Rome demanded that Luther recant. He was summoned to the Diet of Worms in 1521 to answer for his writings. The Holy Roman Emperor, the Pope's representatives, the assembled princes of Germany—all waited for Luther to submit.
+            </p>
+            <p>
+                According to tradition, Luther declared: "Here I stand. I can do no other. God help me. Amen." Whether these were his exact words or not, they capture the spirit of his defiance. He would not recant. He could not. To do so would be to deny Scripture, to deny grace, to deny Christ.
+            </p>
+            <p>
+                Luther was excommunicated. He was declared a heretic. Yet he stood firm. And as he stood, others took courage. Reformers across Europe began to articulate the recovered truths of the gospel. Scotland, Switzerland, France, England—everywhere, faithful men were calling the church back to Scripture and grace.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>How Luther Rediscovered Sovereign Grace</h2>
+            <p>
+                Luther did not invent the doctrine of God's sovereignty in salvation. He recovered it from Scripture and from the fathers. But he recovered it with force and clarity. He saw that if grace is truly grace, then it must be God's gift, not earned by human effort. If faith saves, then faith itself must be given by God. If God is sovereign, then His election is certain and His purpose is sure.
+            </p>
+            <p>
+                This was radical and revolutionary. It meant that the church's sacramental system, the Pope's authority, the monks' asceticism, the indulgences' promises—all of it was built on sand. The true foundation was Christ alone, grace alone, faith alone, Scripture alone. These recoveries did not merely reform the church; they recreated it.
+            </p>
+            <ul>
+                <li><strong>Luther recovered the centrality of Christ:</strong> Not the church, not the Pope, not saints, but Christ alone is the mediator between God and man.</li>
+                <li><strong>Luther recovered the sufficiency of Scripture:</strong> Not church tradition, not papal pronouncements, but Scripture is the authoritative word of God.</li>
+                <li><strong>Luther recovered the doctrine of justification:</strong> Not by works or sacraments, but by faith in Christ, whose righteousness is credited to us.</li>
+                <li><strong>Luther recovered the sovereignty of grace:</strong> God acts. God chooses. God regenerates. We respond in faith, but the initiative is always God's.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>The Continuing Reformation</h2>
+            <p>
+                Luther died in 1546, but the Reformation did not die with him. Others took up the work. In Geneva, John Calvin would develop Luther's insights into a comprehensive system of theology. In Scotland, John Knox would plant the Reformed faith. In England, faithful believers would push for further reformation. The work was not finished in Luther's lifetime; it continues to this day.
+            </p>
+            <p>
+                But Luther had done the foundational work. He had recovered from Scripture the great truth that salvation is of the Lord. He had articulated the solas with force and clarity. He had demonstrated that the church must be reformed according to Scripture. And he had shown that a single faithful man, standing on God's Word, could shake the world.
+            </p>
+            <div class="scripture-block">
+                "Therefore, as God's chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness and patience... And let the peace of Christ rule in your hearts, since as members of one body you were called to peace. And be thankful."
+                <span class="scripture-ref">— Colossians 3:12-15 (NIV)</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === '/history-luther.html') {
+                link.classList.add('active');
+            }
+        });
+    </script>
+    <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+    <script>
+    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
+    </script>
+    <script src="/global.js" defer></script>
+</body>
+</html>

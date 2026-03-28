@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacobus Arminius: The Man Behind the Movement — Adopted by Grace</title>
+    <meta name="description" content="A respectful but honest treatment of Jacobus Arminius. His background, training under Beza, the five Remonstrant articles, and how his views differ from what Scripture teaches about sovereign grace.">
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        nav {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 6px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--accent-gold);
+            transition: 0.3s;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a, .nav-trigger {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.3s;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .nav-links a:hover, .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            background-color: var(--bg-card);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            flex-direction: column;
+            min-width: 200px;
+            padding: 1rem 0;
+            margin-top: 0.5rem;
+            border-radius: 4px;
+        }
+
+        .nav-dropdown a {
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: background-color 0.3s;
+        }
+
+        .nav-dropdown a:hover {
+            background-color: rgba(212, 162, 84, 0.1);
+            color: var(--accent-gold);
+        }
+
+        li:has(> .nav-trigger) {
+            position: relative;
+        }
+
+        li:has(> .nav-trigger):hover .nav-dropdown {
+            display: flex;
+        }
+
+        .nav-arrow {
+            font-size: 0.75rem;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-gold);
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .passage-ref {
+            font-style: italic;
+            color: var(--accent-violet);
+            font-size: 0.95rem;
+        }
+
+        .scripture-block {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            font-style: normal;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+        }
+
+        .section {
+            margin: 2rem 0;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.3);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            color: var(--accent-violet);
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        strong {
+            color: var(--accent-gold);
+        }
+
+        em {
+            color: var(--accent-violet);
+        }
+
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .callout {
+            background-color: rgba(232, 100, 44, 0.1);
+            border-left: 4px solid var(--accent-ember);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .breadcrumb {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        .breadcrumb a {
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .reflection-box {
+            background-color: var(--bg-card);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .reflection-box h4 {
+            color: var(--accent-violet);
+            margin-bottom: 0.75rem;
+            font-size: 1.1rem;
+        }
+
+        .article-card {
+            background-color: var(--bg-card);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .article-title {
+            color: var(--accent-gold);
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            margin-top: 4rem;
+            padding: 3rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            margin: 0;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding: 2rem 0 0;
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            max-width: 1200px;
+            margin: 2rem auto 0;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 999;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-ember);
+        }
+
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background-color: var(--accent-gold);
+            z-index: 1001;
+            width: 0%;
+        }
+
+        @media (max-width: 968px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: var(--bg-card);
+                flex-direction: column;
+                gap: 0;
+                padding: 1rem 0;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links a {
+                padding: 0.75rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            main {
+                margin: 2rem 1rem;
+            }
+
+            .scripture-block {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.3rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
+
+            main {
+                margin: 1.5rem 1rem;
+                padding: 0;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+            }
+
+            .back-to-top {
+                width: 45px;
+                height: 45px;
+                font-size: 1.25rem;
+                right: 1rem;
+                bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reading-progress" aria-label="Reading progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="breadcrumb">
+            <a href="/theologians">Theologians</a> / Jacobus Arminius
+        </div>
+
+        <article>
+            <div class="hero">
+                <h1>Jacobus Arminius</h1>
+                <p class="tagline">The Man Behind the Movement</p>
+                <p class="passage-ref">1559-1609 | Dutch Theologian</p>
+            </div>
+
+            <section class="section">
+                <h2>A Life of Faithful Questioning</h2>
+                <p>Jacobus Arminius (1559-1609) was not a rebel priest seeking to tear down the church. He was a learned theologian, a pastor of the Gospel, and a man genuinely concerned with understanding Scripture faithfully. That his conclusions diverged from what Scripture teaches about sovereign grace does not diminish his sincerity or his intellectual rigor. Understanding Arminius—his background, his training, his genuine concerns—helps us appreciate why his questions arose and why the church's response was so important.</p>
+
+                <p>This is not a hatchet job. It is a respectful examination of a man and a movement, with one goal: to help you see why understanding what Scripture teaches about God's sovereignty in salvation matters deeply.</p>
+            </section>
+
+            <section class="section">
+                <h2>The Making of a Theologian</h2>
+
+                <p>Jacobus Arminius was born in Oudewater, a small town in the southern Netherlands. After studying at various universities, he was sent to Geneva to study under <strong>Theodore Beza</strong>, Calvin's hand-picked successor. Beza was one of the most brilliant theologians of the Reformation, and his lectures on predestination were rigorous, precise, and thoroughly biblical.</p>
+
+                <p>Yet Arminius found himself troubled. After returning to the Netherlands and assuming his position as a pastor and later as a professor at the University of Leiden, he began to wrestle with what Scripture teaches about God's relationship to human will, human freedom, and divine election.</p>
+
+                <p>His concerns were not trivial. They touched on real tensions that appear in Scripture:</p>
+
+                <ul>
+                    <li>If God has predetermined all things, how can human choices be truly free?</li>
+                    <li>If election is unconditional, how can God's commands to repent and believe be sincere?</li>
+                    <li>If God predestines some to damnation, how is God just?</li>
+                </ul>
+
+                <p>These are serious theological questions. The fact that Arminius raised them does not make him a heretic. The fact that his answers diverged from Scripture's own teaching is the crucial point.</p>
+            </section>
+
+            <section class="section">
+                <h2>The Five Remonstrant Articles</h2>
+
+                <p>After Arminius's death in 1609, his followers—called the Remonstrants—published their theological position in five articles. These became the defining statement of what would later be called "Arminianism." Understanding these five points is crucial to understanding where Arminius and his followers departed from what Scripture teaches:</p>
+
+                <div class="article-card">
+                    <div class="article-title">Article 1: Conditional Election</div>
+                    <p>God's election of individuals to salvation is conditioned on His foreknowledge of their faith. In other words, God looks down the corridor of time, sees who will believe, and elects them on the basis of that foreseen faith.</p>
+                    <p><strong>The Scripture Teaching:</strong> Scripture tells us that our election is <em>not</em> based on foreseen faith, but is entirely a matter of God's sovereign choice made before the foundation of the world. Ephesians 1:4-5 states that God chose us "before the foundation of the world... in love, predestining us for adoption."</p>
+                </div>
+
+                <div class="article-card">
+                    <div class="article-title">Article 2: Universal Atonement</div>
+                    <p>Christ's death was made for all people without exception, though it only becomes effective for those who believe. God's intention was that Christ die for everyone, even those whom He knew would reject Him.</p>
+                    <p><strong>The Scripture Teaching:</strong> Christ's atonement is infinitely valuable, but Scripture teaches that Christ died for His people specifically. He is "the Lamb of God who takes away the sin of the world," yet also the One who "gave himself as a ransom for many." The intended efficacy of His death is for the elect, those given to Him by the Father.</p>
+                </div>
+
+                <div class="article-card">
+                    <div class="article-title">Article 3: Resistible Grace</div>
+                    <p>The Holy Spirit's grace can be resisted and rejected. While the Spirit works to draw sinners to Christ, humans have the power to resist this drawing and ultimately choose to remain in sin.</p>
+                    <p><strong>The Scripture Teaching:</strong> Scripture teaches that when the Spirit calls the elect, they do respond. Not because they have the power to resist or accept, but because the Spirit's effectual call cannot be resisted by those whom He calls. Jesus said, "All that the Father gives me will come to me" (John 6:37).</p>
+                </div>
+
+                <div class="article-card">
+                    <div class="article-title">Article 4: Partial Depravity</div>
+                    <p>While sin has corrupted human nature, humans still retain the natural ability to respond to the Gospel. They do not need God's special grace to have faith—their corrupted nature has not entirely destroyed their capacity to choose God.</p>
+                    <p><strong>The Scripture Teaching:</strong> Scripture teaches that without Christ, we are "dead in our transgressions and sins" (Ephesians 2:1). We cannot choose God because our nature is hostile to God. We need not just the opportunity to believe, but the transforming power of the Spirit to make us alive to God.</p>
+                </div>
+
+                <div class="article-card">
+                    <div class="article-title">Article 5: Conditional Perseverance</div>
+                    <p>Believers can fall away from salvation. The Holy Spirit sustains believers in faith only insofar as they continue to cooperate with grace. It is possible to be converted and then lose salvation through rejecting grace.</p>
+                    <p><strong>The Scripture Teaching:</strong> Scripture assures us that those whom God has chosen, redeemed, and called cannot ultimately fall away. Jesus promised that no one can snatch His sheep out of His hand (John 10:28). The one who began a good work in you will carry it on to completion (Philippians 1:6).</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>Why Arminius Mattered: The Synod of Dort (1618-1619)</h2>
+
+                <p>Arminius's death in 1609 did not settle the matter. His followers became increasingly vocal, and the Dutch churches found themselves at an impasse. The theological questions at stake were not peripheral—they touched the very heart of the Gospel: What saves us? Is salvation ultimately God's work or ours? Is our assurance founded on God's sovereignty or on our own faithfulness?</p>
+
+                <p>The Synod of Dort (1618-1619) was convened to address this crisis. Theologians from across Europe gathered to examine the Remonstrant articles and respond to them with what Scripture teaches. The result was the Canons of Dort, which affirmed what the apostles had taught:</p>
+
+                <div class="reflection-box">
+                    <h4>The Heart of Dort's Response</h4>
+                    <p>God's election is sovereign and particular. His grace is irresistible—when the Spirit calls, the elect respond. Christ's death was intended to save His people. And those whom God has chosen cannot ultimately fall away. These truths are not the invention of Calvin or Dort—they are the teaching of Scripture itself.</p>
+                </div>
+
+                <p>Dort did not reject Arminius as a man, nor did they dismiss his concerns as illegitimate. But they did affirm that Scripture teaches God's sovereignty in salvation, and that theology must be conformed to Scripture, not the other way around.</p>
+            </section>
+
+            <section class="section">
+                <h2>A Fair Assessment</h2>
+
+                <p>So what do we make of Jacobus Arminius? Several things deserve to be said:</p>
+
+                <ol>
+                    <li><strong>He was not malicious.</strong> Arminius was not trying to destroy Christian faith. He was a scholar and pastor genuinely concerned with understanding Scripture.</li>
+
+                    <li><strong>His questions were real.</strong> The tensions he identified between divine sovereignty and human freedom, between election and moral responsibility, are genuine tensions that appear in Scripture. They are not imaginary problems invented by Calvinists.</li>
+
+                    <li><strong>His answers diverged from Scripture.</strong> Despite his sincere intentions and brilliant mind, Arminius proposed solutions that Scripture itself does not support. He attempted to resolve the tensions by limiting God's sovereignty, but Scripture refuses to limit it.</li>
+
+                    <li><strong>Understanding him illuminates Scripture.</strong> By wrestling with Arminius's concerns and the church's response, we come to appreciate more deeply what Scripture teaches about the mystery of divine sovereignty and human responsibility.</li>
+                </ol>
+
+                <p>Scripture teaches a paradox that human reason struggles with: God is absolutely sovereign, and yet human beings are genuinely responsible. We are not called to resolve this paradox by retreating from either pole. We are called to embrace both truths as Scripture presents them.</p>
+            </section>
+
+            <section class="section">
+                <h2>From History to Your Heart</h2>
+
+                <p>Why should you care about a 16th-century Dutch theologian? Because the questions Arminius raised are questions you may have asked yourself:</p>
+
+                <div class="callout">
+                    <p>If God has already chosen who will be saved, does my choice to believe matter? If my salvation depends entirely on God's sovereign grace, why am I responsible to repent and believe?</p>
+                </div>
+
+                <p>Scripture's answer is not to dissolve the paradox, but to hold both truths together: You are responsible to repent and believe. And God is sovereign in making that repentance and faith a reality in your heart. The first truth calls you to obedience. The second grounds your confidence that your salvation does not depend on the fragility of your own will.</p>
+
+                <p>This is the supremacy of God in Christ—not a cold, distant doctrine, but a truth that transforms how you live, how you pray, and how you entrust your soul to Him.</p>
+            </section>
+
+            <section class="section">
+                <h2>The Invitation</h2>
+
+                <p>Scripture teaches that God, in His sovereignty, has chosen you in Christ before the foundation of the world. This truth is meant to fill your heart with assurance, not paralyze it with questions. Yes, the relationship between God's sovereignty and human freedom remains mysterious. But that mystery is not a weakness in the Gospel—it is the depth of God's wisdom.</p>
+
+                <p>Arminius asked good questions. But Scripture provides better answers. And those answers—that you are chosen, redeemed, called, and kept by the sovereign grace of God—are the foundation on which a transformed life is built.</p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        // Set active nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === 'theologian-arminius.html') {
+                link.classList.add('active');
+            }
+        });
+
+        // Scroll-spy for section navigation
+        const sectionLinks = document.querySelectorAll('.section-link');
+        const sections = document.querySelectorAll('.section');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '-30% 0px -70% 0px',
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    sectionLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => observer.observe(section));
+    </script>
+    <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+    <script>
+    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
+    </script>
+    <script>
+    (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
+    </script>
+    <script src="/global.js" defer></script>
+</body>
+</html>
