@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stories of sovereign grace — modern parables, allegories, and fables that bring the doctrines of election, regeneration, and perseverance to life.">
+    <meta property="og:title" content="Stories of Sovereign Grace — Adopted by Grace">
+    <meta property="og:description" content="Parables, allegories, and fables that make the doctrines of grace unforgettable. Jesus taught in stories. So do we.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/stories.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Stories of Sovereign Grace — Adopted by Grace">
+    <meta name="twitter:description" content="Parables, allegories, and fables that make the doctrines of grace unforgettable.">
+    <link rel="canonical" href="https://adoptedbygrace.net/stories.html">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Stories of Sovereign Grace — Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Stories of Sovereign Grace",
+        "description": "Modern parables, allegories, and fables that bring the doctrines of grace to life.",
+        "url": "https://adoptedbygrace.net/stories.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            overflow-x: hidden;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(10, 10, 15, 0.85);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.1em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--accent-gold);
+        }
+
+        .skip-to-content {
+            position: absolute;
+            top: -100px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 0.5rem 1rem;
+            z-index: 2000;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .skip-to-content:focus { top: 0; }
+
+        /* Hero */
+        .hero {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 5rem 2rem 3rem;
+            text-align: center;
+        }
+
+        .hero-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.3em;
+            color: var(--accent-gold);
+            opacity: 0.6;
+            margin-bottom: 1.2rem;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        .hero .epigraph {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            margin-top: 2.5rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-subtle);
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero .epigraph cite {
+            display: block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            font-style: normal;
+            color: var(--accent-gold);
+            margin-top: 0.5rem;
+            letter-spacing: 0.05em;
+        }
+
+        /* Featured Story */
+        .featured-section {
+            max-width: 900px;
+            margin: 0 auto 3rem;
+            padding: 0 2rem;
+        }
+
+        .section-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: var(--accent-gold);
+            margin-bottom: 1.2rem;
+        }
+
+        .featured-card {
+            display: block;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 2.5rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .featured-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
+            opacity: 0.6;
+        }
+
+        .featured-card:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(212, 162, 84, 0.3);
+            transform: translateY(-3px);
+        }
+
+        .featured-card:hover::before {
+            opacity: 1;
+        }
+
+        .featured-card .card-type {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--accent-ember);
+            margin-bottom: 0.8rem;
+        }
+
+        .featured-card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.8rem;
+            line-height: 1.3;
+        }
+
+        .featured-card .card-excerpt {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            max-width: 600px;
+        }
+
+        .featured-card .card-meta {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .card-tag {
+            font-size: 0.75rem;
+            background: rgba(212, 162, 84, 0.1);
+            color: var(--accent-gold);
+            padding: 0.3rem 0.7rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .card-read-time {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .card-arrow {
+            margin-left: auto;
+            color: var(--accent-gold);
+            font-size: 1.2rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .featured-card:hover .card-arrow {
+            opacity: 1;
+        }
+
+        /* Coming Soon Section */
+        .coming-section {
+            max-width: 900px;
+            margin: 0 auto 4rem;
+            padding: 0 2rem;
+        }
+
+        .coming-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .coming-section .coming-sub {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+
+        .coming-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+
+        .coming-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 1.5rem;
+            opacity: 0.6;
+            transition: opacity 0.3s ease;
+        }
+
+        .coming-card:hover {
+            opacity: 0.85;
+        }
+
+        .coming-card .card-type {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--accent-gold);
+            margin-bottom: 0.6rem;
+        }
+
+        .coming-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+
+        .coming-card p {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .coming-badge {
+            display: inline-block;
+            margin-top: 0.8rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--text-muted);
+            background: rgba(212, 162, 84, 0.06);
+            padding: 0.2rem 0.6rem;
+            border-radius: 3px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 4rem;
+            padding: 3rem 2rem 2rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            color: var(--accent-gold);
+            margin-bottom: 0.8rem;
+        }
+
+        .footer-section ul { list-style: none; }
+
+        .footer-section a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover { color: var(--accent-gold); }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        /* Hamburger Menu */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            z-index: 1100;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+
+        .hamburger span {
+            width: 24px;
+            height: 2px;
+            background: var(--text-secondary);
+            transition: all 0.3s ease;
+        }
+
+        @media (max-width: 768px) {
+            .hamburger { display: flex; }
+
+            .nav-links {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(10, 10, 15, 0.97);
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                z-index: 1050;
+            }
+
+            .nav-links.open { display: flex; }
+
+            .nav-links a { font-size: 1.3rem; }
+
+            nav { padding: 0.8rem 1.5rem; }
+
+            .hero { padding: 3rem 1.5rem 2rem; }
+            .hero h1 { font-size: 2.2rem; }
+
+            .featured-section,
+            .coming-section { padding: 0 1.5rem; }
+
+            .featured-card { padding: 1.8rem; }
+            .featured-card h2 { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="start-here.html" class="active">Start Here</a></li>
+                <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
+                <li><a href="demolition-hub.html">Demolition</a></li>
+                <li><a href="theologians.html">Theologians</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="main-content">
+        <div class="hero-label">Stories of Sovereign Grace</div>
+        <h1>He Spoke in Parables</h1>
+        <p>Jesus wrapped infinite truths in finite stories that fishermen could understand and theologians are still unpacking. These stories carry the doctrines of grace in the form He chose: narrative.</p>
+        <div class="epigraph">
+            "Without a parable He did not speak to them."
+            <cite>Matthew 13:34</cite>
+        </div>
+    </section>
+
+    <!-- Featured Story -->
+    <section class="featured-section">
+        <div class="section-label">Story of the Week</div>
+        <a href="story-surgeon-stone-heart.html" class="featured-card">
+            <div class="card-type">A Modern Parable</div>
+            <h2>The Surgeon and the Stone Heart</h2>
+            <p class="card-excerpt">A heart surgeon operates on a patient who never asked for the surgery, couldn't consent to it, and will only discover what happened when she wakes up with a new heart. She didn't choose a new heart. A new heart chose her.</p>
+            <div class="card-meta">
+                <span class="card-tag">Regeneration</span>
+                <span class="card-tag">Ezekiel 36:26</span>
+                <span class="card-read-time">8 min read</span>
+                <span class="card-arrow">&rarr;</span>
+            </div>
+        </a>
+    </section>
+
+    <!-- Coming Soon -->
+    <section class="coming-section">
+        <h2>More Stories Coming</h2>
+        <p class="coming-sub">New parables, allegories, and fables are being written. Each one carries a doctrine you'll never forget.</p>
+        <div class="coming-grid">
+            <div class="coming-card">
+                <div class="card-type">Modern Parable</div>
+                <h3>The Adoption Papers</h3>
+                <p>A couple walks through an orphanage. They don't interview the children. They look at a file and say: "That one is ours."</p>
+                <span class="coming-badge">Coming Soon</span>
+            </div>
+            <div class="coming-card">
+                <div class="card-type">Modern Parable</div>
+                <h3>The Voice in the Valley</h3>
+                <p>A man wanders lost in a vast, dark valley. Then a voice calls his name — not an invitation, but a command that gives him ears to hear.</p>
+                <span class="coming-badge">Coming Soon</span>
+            </div>
+            <div class="coming-card">
+                <div class="card-type">Fable</div>
+                <h3>The Fish Who Chose the Ocean</h3>
+                <p>A fish claims it chose to live in the ocean. The other fish laugh. "You were born in the ocean. The ocean chose you."</p>
+                <span class="coming-badge">Coming Soon</span>
+            </div>
+            <div class="coming-card">
+                <div class="card-type">Modern Parable</div>
+                <h3>The Unbreakable Thread</h3>
+                <p>A climber falls from a cliff. A single thread — thin as spider silk — catches him. It was forged before the mountain existed.</p>
+                <span class="coming-badge">Coming Soon</span>
+            </div>
+            <div class="coming-card">
+                <div class="card-type">Allegory</div>
+                <h3>The Dead City</h3>
+                <p>An entire city lies under a curse. Every inhabitant is frozen. One by one, the Prince walks through and breathes life into those he chooses.</p>
+                <span class="coming-badge">Coming Soon</span>
+            </div>
+            <div class="coming-card">
+                <div class="card-type">Modern Parable</div>
+                <h3>The King's Banquet</h3>
+                <p>A king sends servants into the streets — not to invite, but to compel. They carry the blind and lame to the table. None chose to come. All eat.</p>
+                <span class="coming-badge">Coming Soon</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+        <footer role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section"><h4>ADOPTED BY GRACE</h4><p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p></div>
+            <div class="footer-section"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="questions.html">The Evidence</a></li><li><a href="systematic-theology.html">Systematic</a></li><li><a href="demolition-hub.html">Demolition</a></li><li><a href="theologians.html">Theologians</a></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li></ul></div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
+    </footer>
+</body>
+</html>
