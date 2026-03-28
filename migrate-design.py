@@ -30,7 +30,7 @@ STANDARD_NAV = '''    <nav role="navigation" aria-label="Main navigation">
                 <li><a href="/">Home</a></li>
                 <li><a href="/start-here">Start Here</a></li>
                 <li><a href="/questions">The Evidence</a></li>
-                <li><a href="/systematic-theology-hub">Systematic</a></li>
+                <li><a href="/systematic-theology">Systematic</a></li>
                 <li><a href="/demolition-hub">Demolition</a></li>
                 <li><a href="/theologians">Theologians</a></li>
                 <li><a href="/resources">Resources</a></li>
@@ -47,7 +47,7 @@ STANDARD_FOOTER = '''    <footer>
                 <h4>Doctrine</h4>
                 <ul>
                     <li><a href="/questions">The Evidence</a></li>
-                    <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
                     <li><a href="/demolition-hub">Demolition Zone</a></li>
                     <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
                 </ul>

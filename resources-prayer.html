@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Guides | Adopted by Grace</title>
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0a0a0f;
+            color: #f0ece4;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #12121a;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.12);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: #d4a254;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: #d4a254;
+            transition: 0.3s;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(8px, 8px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a,
+        .nav-trigger {
+            color: #f0ece4;
+            text-decoration: none;
+            background: none;
+            border: none;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: color 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-links a:hover,
+        .nav-trigger:hover {
+            color: #d4a254;
+        }
+
+        .nav-links a.active {
+            color: #d4a254;
+            border-bottom: 2px solid #d4a254;
+            padding-bottom: 0.25rem;
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            background-color: #1a1a2e;
+            border: 1px solid rgba(212, 162, 84, 0.12);
+            border-radius: 8px;
+            padding: 0.75rem;
+            min-width: 200px;
+            top: 100%;
+            left: 0;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .nav-dropdown a {
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-dropdown a:hover {
+            background-color: rgba(212, 162, 84, 0.1);
+            color: #d4a254;
+        }
+
+        .nav-trigger.active ~ .nav-dropdown {
+            display: flex;
+        }
+
+        .nav-arrow {
+            font-size: 0.7rem;
+            transition: transform 0.3s;
+        }
+
+        .nav-trigger.active .nav-arrow {
+            transform: rotate(180deg);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(232, 100, 44, 0.05) 100%);
+            border-bottom: 1px solid rgba(212, 162, 84, 0.12);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            letter-spacing: 2px;
+            color: #d4a254;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 5vw, 4rem);
+            color: #f0ece4;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #9a958c;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Hero Scripture */
+        .scripture-block {
+            background-color: #12121a;
+            border-left: 3px solid #d4a254;
+            padding: 2rem;
+            margin: 3rem auto;
+            max-width: 700px;
+            border-radius: 4px;
+        }
+
+        .scripture-block p {
+            font-style: italic;
+            color: #f0ece4;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            color: #d4a254;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        /* Section Styles */
+        section {
+            margin-bottom: 4rem;
+        }
+
+        section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            color: #f0ece4;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
+            padding-bottom: 1rem;
+        }
+
+        section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: #d4a254;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        section p {
+            color: #9a958c;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .brilliant-connection {
+            background-color: rgba(139, 92, 246, 0.08);
+            border-left: 3px solid #8b5cf6;
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin: 2rem 0;
+            color: #f0ece4;
+        }
+
+        /* Prayer Days Grid */
+        .prayer-days {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .prayer-card {
+            background-color: #12121a;
+            border: 1px solid rgba(212, 162, 84, 0.12);
+            border-radius: 8px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .prayer-card:hover {
+            background-color: #1a1a2e;
+            border-color: rgba(212, 162, 84, 0.3);
+            box-shadow: 0 8px 24px rgba(212, 162, 84, 0.1);
+        }
+
+        .prayer-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            color: #d4a254;
+            margin-bottom: 0.75rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .prayer-card .toggle-icon {
+            font-size: 1rem;
+            transition: transform 0.3s;
+        }
+
+        .prayer-card.expanded .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+        .prayer-card-content {
+            display: none;
+            color: #9a958c;
+            margin-top: 1.5rem;
+        }
+
+        .prayer-card.expanded .prayer-card-content {
+            display: block;
+        }
+
+        .prayer-card-content p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .prayer-text {
+            background-color: rgba(212, 162, 84, 0.08);
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+            font-style: italic;
+            color: #f0ece4;
+            border-left: 2px solid #e8642c;
+        }
+
+        .reflection-q {
+            background-color: rgba(139, 92, 246, 0.08);
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            border-left: 2px solid #8b5cf6;
+            font-size: 0.95rem;
+        }
+
+        /* Scripture Prayers Section */
+        .scripture-prayer {
+            background-color: #12121a;
+            border: 1px solid rgba(212, 162, 84, 0.12);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .scripture-prayer h4 {
+            font-family: 'Playfair Display', serif;
+            color: #d4a254;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .scripture-prayer-text {
+            color: #9a958c;
+            font-style: italic;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .scripture-cite {
+            color: #807b75;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+        }
+
+        /* Prompts Grid */
+        .prayer-prompts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .prompt-card {
+            background-color: #12121a;
+            border: 1px solid rgba(212, 162, 84, 0.12);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .prompt-card:hover {
+            background-color: #1a1a2e;
+            border-color: rgba(212, 162, 84, 0.3);
+        }
+
+        .prompt-card h5 {
+            font-family: 'Playfair Display', serif;
+            color: #d4a254;
+            margin-bottom: 0.75rem;
+            font-size: 1rem;
+        }
+
+        .prompt-card p {
+            font-size: 0.95rem;
+            color: #9a958c;
+        }
+
+        /* Historic Prayers */
+        .historic-prayer {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08) 0%, rgba(139, 92, 246, 0.08) 100%);
+            border: 1px solid rgba(212, 162, 84, 0.12);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .historic-prayer h5 {
+            font-family: 'Playfair Display', serif;
+            color: #d4a254;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .historic-prayer p {
+            color: #9a958c;
+            line-height: 1.8;
+            margin-bottom: 0.75rem;
+        }
+
+        /* Continue Journey */
+        .continue-journey {
+            background-color: #12121a;
+            border: 1px solid rgba(212, 162, 84, 0.12);
+            border-radius: 8px;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .journey-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .journey-link {
+            background-color: #1a1a2e;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid rgba(212, 162, 84, 0.12);
+            text-decoration: none;
+            color: #d4a254;
+            transition: all 0.3s ease;
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+        }
+
+        .journey-link:hover {
+            background-color: rgba(212, 162, 84, 0.1);
+            border-color: rgba(212, 162, 84, 0.3);
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #12121a;
+            border-top: 1px solid rgba(212, 162, 84, 0.12);
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+            color: #807b75;
+            font-size: 0.95rem;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: #d4a254;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #e8642c;
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: #d4a254;
+            color: #0a0a0f;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            font-weight: 700;
+            z-index: 99;
+        }
+
+        .back-to-top:hover {
+            background-color: #e8642c;
+            transform: translateY(-3px);
+        }
+
+        .back-to-top.show {
+            display: flex;
+        }
+
+        /* Focus Styles */
+        a:focus-visible,
+        button:focus-visible {
+            outline: 2px solid #d4a254;
+            outline-offset: 2px;
+            border-radius: 4px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: #12121a;
+                flex-direction: column;
+                gap: 0;
+                padding: 1rem 0;
+                border-top: 1px solid rgba(212, 162, 84, 0.12);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                width: 100%;
+                padding: 0.75rem 2rem;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .prayer-days {
+                grid-template-columns: 1fr;
+            }
+
+            .journey-links {
+                grid-template-columns: 1fr;
+            }
+
+            .back-to-top {
+                width: 45px;
+                height: 45px;
+                font-size: 0.9rem;
+                bottom: 1.5rem;
+                right: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources" class="active">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <!-- Hero Section -->
+    <header id="main-content" class="hero">
+        <div class="hero-label">RESOURCES · PRAYER</div>
+        <h1>Prayer Shaped by Sovereignty</h1>
+        <p>Understanding God's absolute sovereignty doesn't diminish prayer—it transforms it. From anxious petitioning to joyful communion with your Father who chose you before time began.</p>
+    </header>
+
+    <!-- Scripture Block -->
+    <div class="scripture-block">
+        <p>"In the same way the Spirit also helps our weakness; for we do not know how to pray as we should, but the Spirit Himself intercedes for us with groanings too deep for words."</p>
+        <div class="scripture-ref">Romans 8:26 (ESV)</div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Section 1: Why Sovereignty Makes Us Pray MORE -->
+        <section>
+            <h2>Why Sovereignty Makes Us Pray More, Not Less</h2>
+
+            <p>Here's the paradox every thinking Christian faces: If God is sovereign—if He has already ordained all things—why pray? Why petition a God who has already decided everything before the foundation of the world?</p>
+
+            <p>The answer is breathtaking: <strong>God ordained not just the end, but the means.</strong> Prayer is not Plan B when God loses control. Prayer is the very mechanism by which the sovereign God accomplishes His sovereign will through His people. When you pray, you're not trying to change God's mind. You're becoming an instrument through which His unchanging purpose flows into history.</p>
+
+            <p>Watch what the early church did in Acts 4:24-31. After hearing the threats of the Sanhedrin, they didn't wring their hands about whether God really had power. They gathered together and prayed TO a sovereign God, reminding Him of His absolute authority over all things. And God moved. The place was shaken. They were filled with the Holy Spirit. Prayer moved the hand of the sovereign God because He had ordained that their prayers would move His hand.</p>
+
+            <p>Think about it another way: If salvation ultimately depends on human free will—if your will is truly autonomous and God cannot override it—then prayer is almost pointless. You can't change someone's "free" will by talking to God about it. But if God is sovereign over all hearts, if He can soften hard hearts and harden resistant hearts, then prayer becomes the most powerful force in the universe. You're asking the One who actually CAN change hearts. You're partnering with the God who moves mountains.</p>
+
+            <div class="brilliant-connection">
+                <strong>The Brilliant Truth:</strong> Prayer doesn't change God's mind—it changes us into instruments of His unchanging purpose. When you pray for the lost, the suffering, the doubting, you're not hoping God will reconsider. You're aligning yourself with what He has already determined to accomplish. You become the answer to your own prayer.
+            </div>
+
+            <p>Jesus in Gethsemane is the model. "Father, if it is possible, let this cup pass from me; nevertheless, not as I will, but as you will" (Matt 26:39). Was Jesus uncertain about God's plan? No. He was surrendering His will to His Father's sovereign purpose. And that surrender—that prayer—was the exact mechanism through which redemption was accomplished. His prayer didn't change God's will. His prayer WAS God's will being expressed through His incarnate Son.</p>
+
+            <p><em>That</em> is sovereignty-shaped prayer.</p>
+        </section>
+
+        <!-- Section 2: 7-Day Prayer Guide -->
+        <section>
+            <h2>7-Day Prayer Guide: Praying the Doctrines of Grace</h2>
+            <p>Use this guide to pray through the great truths of Scripture over seven days. Each day unpacks one doctrine and provides a Scripture passage, meditation, written prayer, and reflection question.</p>
+
+            <div class="prayer-days">
+                <!-- Day 1 -->
+                <div class="prayer-card">
+                    <h4>Day 1: Praying Total Depravity <span class="toggle-icon">▼</span></h4>
+                    <div class="prayer-card-content">
+                        <p><strong>Key Scripture:</strong> Ephesians 2:1-5</p>
+                        <p><strong>Meditation:</strong> You were dead. Not sick, not sleeping, not distant—dead in your sins and trespasses. Yet God, in His mercy, made you alive. This is the foundation of gratitude. When you understand how dead you were, how utterly unable to move toward God, you marvel that He moved toward you. Total Depravity isn't depressing; it's liberating. It means your salvation isn't your achievement. It's His gift.</p>
+                        <div class="prayer-text">
+                            Father, thank You that I was once dead in my sins, unable to choose You, unable to save myself. Thank You for not leaving me there. Thank You that Your mercy isn't conditional on my worthiness—it's based on Your inexplicable love. As I face my continued weakness today, help me rest in the fact that You don't love me for what I can do, but for who I am in Christ. Amen.
+                        </div>
+                        <div class="reflection-q"><strong>Reflection:</strong> In what area of your life do you most feel your inability to change? How does knowing God chose you despite your weakness comfort you?</div>
+                    </div>
+                </div>
+
+                <!-- Day 2 -->
+                <div class="prayer-card">
+                    <h4>Day 2: Praying Unconditional Election <span class="toggle-icon">▼</span></h4>
+                    <div class="prayer-card-content">
+                        <p><strong>Key Scripture:</strong> Ephesians 1:4</p>
+                        <p><strong>Meditation:</strong> "He chose us in Him before the foundation of the world." Before you were born, before you knew Him, before you could do anything to earn it, God chose you. This isn't arbitrary. It's an expression of His wisdom and His love. You are chosen. Not randomly selected, but chosen by the God who knows everything about you and loves you anyway.</p>
+                        <div class="prayer-text">
+                            Lord Jesus, I worship You for this staggering truth: I was chosen before I existed. Before I knew You, rejected You, doubted You, or hurt others—I was chosen. Help me live today as the chosen one. Free me from the need to prove myself. Free me from the anxiety of wondering if You might change Your mind. You won't. I am chosen. I am safe in Your sovereign love. Amen.
+                        </div>
+                        <div class="reflection-q"><strong>Reflection:</strong> How would your day change if you truly believed you were chosen by God before the foundation of the world?</div>
+                    </div>
+                </div>
+
+                <!-- Day 3 -->
+                <div class="prayer-card">
+                    <h4>Day 3: Praying Particular Redemption <span class="toggle-icon">▼</span></h4>
+                    <div class="prayer-card-content">
+                        <p><strong>Key Scripture:</strong> John 10:14-15</p>
+                        <p><strong>Meditation:</strong> "I am the good shepherd. I know my own and my own know me, just as the Father knows me and I know the Father; and I lay down my life for the sheep." Jesus didn't die in vague hope that maybe, possibly, someone might believe. He died for His sheep—with definite, particular, effective purpose. His blood was shed for you by name.</p>
+                        <div class="prayer-text">
+                            Jesus, thank You for knowing me by name. Thank You for a redemption that wasn't generic or hopeful, but definite and powerful. Your blood was shed not for hypothetical believers, but for me—purchased, redeemed, made Yours. Help me never take lightly the particularity of Your love. You didn't just make salvation possible; You made it actual. For me. Amen.
+                        </div>
+                        <div class="reflection-q"><strong>Reflection:</strong> What does it mean to you that Christ died not just to make salvation possible, but to actually accomplish it?</div>
+                    </div>
+                </div>
+
+                <!-- Day 4 -->
+                <div class="prayer-card">
+                    <h4>Day 4: Praying Irresistible Grace <span class="toggle-icon">▼</span></h4>
+                    <div class="prayer-card-content">
+                        <p><strong>Key Scripture:</strong> John 6:37</p>
+                        <p><strong>Meditation:</strong> "All that the Father gives me will come to me, and whoever comes to me I will never cast out." His call cannot fail. His grace cannot be resisted by those He calls. This isn't coercive—it's transformative. When God calls you to Himself, He gives you a new heart that wants to come.</p>
+                        <div class="prayer-text">
+                            Father, I praise You that Your grace is irresistible because it works by transformation, not force. You don't drag unwilling hearts to You. You remake our hearts so that we want You. Thank You that when You called me, I came. Help me trust that this same grace will see me through to the end. Amen.
+                        </div>
+                        <div class="reflection-q"><strong>Reflection:</strong> When did you first realize that your desire for God was itself a gift from Him?</div>
+                    </div>
+                </div>
+
+                <!-- Day 5 -->
+                <div class="prayer-card">
+                    <h4>Day 5: Praying Perseverance <span class="toggle-icon">▼</span></h4>
+                    <div class="prayer-card-content">
+                        <p><strong>Key Scripture:</strong> John 10:28-29</p>
+                        <p><strong>Meditation:</strong> "I give them eternal life, and they shall never perish; no one will snatch them out of my hand. My Father, who has given them to me, is greater than all; no one is able to snatch them out of my Father's hand." You cannot be lost. Not because of your grip on God, but because of His grip on you.</p>
+                        <div class="prayer-text">
+                            Lord Jesus, I rest today in Your grip. Not in my faithfulness, but in Yours. I cannot hold on to You through my strength, my righteousness, or my constancy. But You hold me in the palm of Your hand, and no power in heaven or earth can pry me loose. When I fall, You don't let me go. When I doubt, You don't release me. Thank You for faithfulness I can depend on. Amen.
+                        </div>
+                        <div class="reflection-q"><strong>Reflection:</strong> What fears about your faith would disappear if you truly believed you cannot be snatched from God's hand?</div>
+                    </div>
+                </div>
+
+                <!-- Day 6 -->
+                <div class="prayer-card">
+                    <h4>Day 6: Praying for the Lost <span class="toggle-icon">▼</span></h4>
+                    <div class="prayer-card-content">
+                        <p><strong>Key Scripture:</strong> John 6:44</p>
+                        <p><strong>Meditation:</strong> "No one can come to me unless the Father who sent me draws them." Prayer for the lost isn't wishful thinking—it's asking God to draw His elect to Himself. Your prayers are part of how He accomplishes their salvation.</p>
+                        <div class="prayer-text">
+                            Father, I bring before You [name/person] who does not yet know You. I ask that You would draw them to Yourself. Open their eyes to see their need. Soften their resistant hearts. Send Your Spirit to convict them of sin, righteousness, and judgment. Give me boldness to share Your gospel and wisdom to speak Your truth in love. Draw them. Call them. Make them Yours. Amen.
+                        </div>
+                        <div class="reflection-q"><strong>Reflection:</strong> Who in your life is God calling you to pray for? How does knowing God draws His elect change how you intercede?</div>
+                    </div>
+                </div>
+
+                <!-- Day 7 -->
+                <div class="prayer-card">
+                    <h4>Day 7: Praying the Doxology <span class="toggle-icon">▼</span></h4>
+                    <div class="prayer-card-content">
+                        <p><strong>Key Scripture:</strong> Romans 11:33-36</p>
+                        <p><strong>Meditation:</strong> "Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out! Who has known the mind of the Lord? Or who has been his counselor? Who has ever given to God, that God should repay them? For from him and through him and to him are all things. To him be the glory forever! Amen." End the week where all prayer must end: in worship of the God whose ways are incomprehensibly wise.</p>
+                        <div class="prayer-text">
+                            Oh God, how small my mind is beside Your wisdom! How shallow my understanding compared to the depths of Your knowledge! I cannot comprehend Your purposes, yet I trust them. I cannot trace Your paths, yet I follow You. All things exist because of You, through You, and for You. To You be glory forever. I am Yours, and You are worthy of all praise. Amen.
+                        </div>
+                        <div class="reflection-q"><strong>Reflection:</strong> After seven days of praying through the doctrines of grace, how has your understanding of prayer changed?</div>
+                    </div>
+                </section>
+
+        <!-- Section 3: Scripture Prayers -->
+        <section>
+            <h2>Scripture Prayers: Praying God's Own Words</h2>
+            <p>Sometimes the most powerful prayers are not our own, but Scripture itself. Use these passages as prayers, letting God's Word shape your intercession.</p>
+
+            <div class="scripture-prayer">
+                <h4>Paul's Prayer for the Ephesians (Ephesians 1:15-23, 3:14-21)</h4>
+                <div class="scripture-prayer-text">
+                    Father, I ask that the eyes of [person's name]'s heart may be enlightened in order that they may know the hope to which You have called them, the riches of Your glorious inheritance in Your holy people, and Your incomparably great power for those who believe. Help them grasp how wide and long and high and deep is the love of Christ, and to know this love that surpasses knowledge—that they may be filled to the measure of all the fullness of God. Amen.
+                </div>
+                <div class="scripture-cite">Ephesians 1:18-19; 3:17-19</div>
+            </div>
+
+            <div class="scripture-prayer">
+                <h4>The Lord's Prayer Unpacked (Matthew 6:9-13)</h4>
+                <div class="scripture-prayer-text">
+                    Father in heaven, hallowed be Your name—may You be honored, worshipped, and revered above all else. Your kingdom come—may Your sovereign rule be established in my heart, in my family, in my church, in this world. Your will be done on earth as it is in heaven—may I surrender my plans to Your purposes. Give me this day my daily bread—provide for my needs and teach me to trust You. Forgive me my debts as I forgive my debtors—heal me of pride and make me merciful. Lead me not into temptation—strengthen me against sin. Deliver me from evil—guard me and make me safe in You. For Yours is the kingdom and the power and the glory forever. Amen.
+                </div>
+                <div class="scripture-cite">Matthew 6:9-13</div>
+            </div>
+
+            <div class="scripture-prayer">
+                <h4>David's Prayer of Praise (1 Chronicles 29:10-13)</h4>
+                <div class="scripture-prayer-text">
+                    Praise be to You, God of our father Israel, from everlasting to everlasting. Yours, Lord, is the greatness and the power and the glory and the majesty and the splendor, for everything in heaven and earth is Yours. Yours, Lord, is the kingdom; You are exalted as head over all. Wealth and honor come from You; You are the ruler of all things. In Your hands are strength and power to exalt and give strength to all. Now, our God, we give You thanks, and praise Your glorious name. Amen.
+                </div>
+                <div class="scripture-cite">1 Chronicles 29:10-13</div>
+            </div>
+
+            <div class="scripture-prayer">
+                <h4>Solomon's Prayer (2 Chronicles 6:14-42)</h4>
+                <div class="scripture-prayer-text">
+                    Lord, the God of Israel, there is no God like You in heaven or on earth. You keep Your covenant of love with Your servants who continue wholeheartedly in Your way. Now, Lord God of Israel, keep for Your servant David my father the promises You made to him. But will God really dwell on earth with humans? The heavens, even the highest heavens, cannot contain You. How much less this temple I have built! Yet give attention to Your servant's prayer and his plea for mercy, Lord my God. Amen.
+                </div>
+                <div class="scripture-cite">2 Chronicles 6:14-40 (excerpt)</div>
+            </div>
+
+            <div class="scripture-prayer">
+                <h4>Daniel's Prayer of Confession (Daniel 9:4-19)</h4>
+                <div class="scripture-prayer-text">
+                    I prayed to the Lord my God and confessed: "O Lord, the great and dreadful God, who keeps His covenant of love with those who love Him and obey His commands, we have sinned and done wrong. We have been wicked and have rebelled; we have turned away from Your commands and laws. We have not listened to Your servants the prophets. But the Lord our God is merciful and forgiving, even though we have rebelled against Him. Hear my prayer; give attention to my plea. For Your sake, my God, do not delay, because Your city and Your people bear Your Name." Amen.
+                </div>
+                <div class="scripture-cite">Daniel 9:4-19 (excerpt)</div>
+            </div>
+
+            <div class="scripture-prayer">
+                <h4>Jesus' High Priestly Prayer (John 17—excerpt)</h4>
+                <div class="scripture-prayer-text">
+                    Father, I pray for those You have given me—those You chose before the foundation of the world. I have revealed You to those whom You gave me out of the world. They were Yours; You gave them to me and they have obeyed Your word. Sanctify them by the truth; Your word is truth. My prayer is not for them alone. I pray also for those who will believe in me through their message, that all of them may be one, Father, just as You are in me and I am in You. May they also be in us so that the world may believe that You have sent me. Amen.
+                </div>
+                <div class="scripture-cite">John 17:6-21 (excerpt)</div>
+            </div>
+        </section>
+
+        <!-- Section 4: Prayer Prompts -->
+        <section>
+            <h2>Prayer Prompts for Specific Situations</h2>
+            <p>Use these prompts to guide your intercession when you face specific challenges or opportunities to pray.</p>
+
+            <div class="prayer-prompts">
+                <div class="prompt-card">
+                    <h5>For an Unbelieving Spouse or Family Member</h5>
+                    <p>Ask God to open their eyes to their need for Him. Pray for opportunities to share your faith. Ask God to work in their heart with irresistible grace. Pray for your own patience, gentleness, and faithful witness. Remember: their salvation depends on God's power, not your persuasion.</p>
+                </div>
+
+                <div class="prompt-card">
+                    <h5>Through Doubt and Spiritual Dryness</h5>
+                    <p>Confess your doubts honestly to God. Ask Him to remind you of His faithfulness in the past. Pray for renewed hunger for His Word. Ask for the Holy Spirit's comfort and assurance. Trust that your emotions don't determine your salvation—God's sovereign choice does.</p>
+                </div>
+
+                <div class="prompt-card">
+                    <h5>Through Suffering (with Romans 8:28)</h5>
+                    <p>Cry out to God about your pain—don't pretend it doesn't hurt. Ask Him to show you His purpose in your suffering. Pray that through this trial you would grow in faith, compassion, and usefulness to His kingdom. Thank Him that even this pain is woven into His sovereign plan for your good.</p>
+                </div>
+
+                <div class="prompt-card">
+                    <h5>For Your Church and Pastor</h5>
+                    <p>Pray for your pastor's spiritual health, wisdom, and protection. Pray for your church to grow in knowledge of God's Word. Pray for unity. Pray that your church would be a light in your community. Pray for evangelism and missions. Pray for those who are suffering or struggling within your congregation.</p>
+                </div>
+
+                <div class="prompt-card">
+                    <h5>For Missionaries and the Unreached</h5>
+                    <p>Name specific missionaries and pray for their protection, health, and fruitfulness. Pray for unreached people groups to hear the gospel. Ask God to send laborers into His harvest. Pray that God would draw His elect from every tribe, tongue, and nation. Pray for open doors and receptive hearts.</p>
+                </div>
+
+                <div class="prompt-card">
+                    <h5>For Fellow Believers to Understand God's Sovereignty</h5>
+                    <p>Pray that your Christian friends and family would have eyes opened to see God's sovereignty in Scripture. Ask God to free them from fear and anxiety about the future. Pray that they would rest in God's power rather than their own performance. Pray that understanding sovereignty would deepen their joy in Christ.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Historic Prayers -->
+        <section>
+            <h2>Historic Prayers from Reformed Saints</h2>
+            <p>The saints who have gone before us left us a treasury of prayers. Learn from their hearts and let their words shape your own intercession.</p>
+
+            <div class="historic-prayer">
+                <h5>Augustine's Prayer from Confessions</h5>
+                <p>"Give me the grace to do as you command, and command me to do what you will. You have bound us with the command of continence; and truly, although I knew that no one could be continent unless God gave it, this too was a part of wisdom, to know to whom to go to pray for it."</p>
+                <p><em>Meditation:</em> Augustine recognized that even our obedience is a gift from God. When you struggle to obey, pray for the grace to obey. The command itself drives you to prayer.</p>
+            </div>
+
+            <div class="historic-prayer">
+                <h5>John Calvin's Prayer for Illumination Before Bible Reading</h5>
+                <p>"O Lord, open for me the treasures of Your grace, that I may understand Your will and gain spiritual insight. Grant me the mind of Christ, the Holy Spirit's illumination, and a humble heart to receive what You reveal through Your Word."</p>
+                <p><em>Meditation:</em> Before reading Scripture, ask God to open your mind and heart. The Word is alive and powerful, but we need God's Spirit to truly see what it says and what it means.</p>
+            </div>
+
+            <div class="historic-prayer">
+                <h5>Charles Spurgeon's Prayer on Election</h5>
+                <p>"Thank God for the doctrine of election. It has been the comfort of my soul in times of deepest darkness. When I have been cast down, the thought that God chose me before the foundation of the world has lifted me up and given me unspeakable peace."</p>
+                <p><em>Meditation:</em> Election is not cold doctrine—it is deepest comfort. In your darkest moments, let the truth that you are chosen sustain you.</p>
+            </div>
+
+            <div class="historic-prayer">
+                <h5>Jonathan Edwards' Resolutions as Prayer</h5>
+                <p>"Resolved, to aim at an exact compliance with all that can be known to be the mind and will of God. Resolved, to endeavor to obtain for myself as much holiness as possible. Resolved, that I will live so as I shall wish I had done when I come to die."</p>
+                <p><em>Meditation:</em> Edwards turned his resolutions into prayers. Turn your spiritual goals into petitions to God. Ask Him to work in you what you long to accomplish.</p>
+            </div>
+
+            <div class="historic-prayer">
+                <h5>The Valley of Vision (Puritan Prayers &amp; Devotions)</h5>
+                <p><strong>Recommendation:</strong> This collection of Puritan prayers is one of the most moving devotional resources in the English language. The Puritans understood the depth of God's sovereignty and expressed it with both intellectual rigor and tender emotion. Prayers like "The Bruised Reed," "Holy Longings," and "Renewal" will shape your prayer life. If you want to pray like those who have gone before, study the Valley of Vision.</p>
+            </div>
+        </section>
+
+        <!-- Humor Line -->
+        <div class="brilliant-connection" style="margin: 3rem 0;">
+            <strong>A Final Thought:</strong> If you're not sure what to pray, remember: the Spirit is already interceding for you (Rom 8:26). You literally can't get this wrong. Your stammering, inarticulate, half-formed prayers are heard, understood, and brought before the Father by the Holy Spirit Himself. So stop waiting for perfect words and start talking to your Father.
+        </div>
+
+        <!-- Section 6: Continue Your Journey -->
+        <section>
+            <div class="continue-journey">
+                <h2>Continue Your Journey</h2>
+                <p>Prayer shaped by sovereignty isn't an end in itself—it's a doorway into deeper communion with God and understanding of His Word. Explore these related resources to deepen your faith.</p>
+                <div class="journey-links">
+                    <a href="/systematic-theology" class="journey-link">Systematic Theology</a>
+                    <a href="/devotionals" class="journey-link">Devotionals</a>
+                    <a href="/scripture-tsunami" class="journey-link">Scripture Tsunami</a>
+                    <a href="/pastoral-assurance" class="journey-link">Pastoral Assurance</a>
+                    <a href="/stories" class="journey-link">Stories & Parables</a>
+                    <a href="/resources" class="journey-link">All Resources</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+                <a href="/privacy">Privacy</a>
+                <a href="/resources">Resources</a>
+            </div>
+            <p>&copy; 2026 Adopted by Grace. All rights reserved. A resource for understanding God's sovereignty in salvation.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <!-- Scripts -->
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        const navTriggers = document.querySelectorAll('.nav-trigger');
+
+        if (hamburger) {
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navLinks.classList.toggle('active');
+                hamburger.setAttribute('aria-expanded', hamburger.classList.contains('active'));
+            });
+        }
+
+        // Dropdown Menu Toggle
+        navTriggers.forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                e.preventDefault();
+                trigger.classList.toggle('active');
+            });
+        });
+
+        // Prayer Card Expansion
+        const prayerCards = document.querySelectorAll('.prayer-card');
+        prayerCards.forEach(card => {
+            card.addEventListener('click', () => {
+                card.classList.toggle('expanded');
+            });
+        });
+
+        // Back to Top Button
+        const backToTopBtn = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Close dropdowns when clicking elsewhere
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('nav')) {
+                navTriggers.forEach(trigger => trigger.classList.remove('active'));
+            }
+        });
+    </script>
+</body>
+</html>

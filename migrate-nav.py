@@ -18,7 +18,7 @@ NEW_NAV = '''    <nav role="navigation" aria-label="Main navigation">
                     <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
                     <div class="nav-dropdown">
                         <a href="/questions"><span class="dropdown-icon">&#9876;</span> The Evidence</a>
-                        <a href="/systematic-theology-hub"><span class="dropdown-icon">&#128220;</span> Systematic Theology</a>
+                        <a href="/systematic-theology"><span class="dropdown-icon">&#128220;</span> Systematic Theology</a>
                         <a href="/scripture-tsunami"><span class="dropdown-icon">&#127�;</span> Scripture Tsunami</a>
                         <a href="/creeds-confessions"><span class="dropdown-icon">&#128�;</span> Creeds &amp; Confessions</a>
                     </div>

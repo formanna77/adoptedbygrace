@@ -1,0 +1,1714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Structured reading plans through Scripture exploring God's sovereignty in salvation. 7-day, 14-day, 4-week, and Romans deep-dive plans with study guides.">
+    <meta name="keywords" content="reading plans, scripture study, sovereignty, election, grace, Reformed theology">
+    <meta property="og:title" content="Reading Plans - Adopted by Grace">
+    <meta property="og:description" content="Structured reading plans through Scripture exploring God's sovereignty in salvation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/resources-reading-plans.html">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <link rel="canonical" href="https://adoptedbygrace.net/resources-reading-plans.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <title>Reading Plans - Adopted by Grace</title>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Reading Plans - Adopted by Grace",
+        "description": "Structured reading plans through Scripture exploring God's sovereignty in salvation",
+        "url": "https://adoptedbygrace.net/resources-reading-plans.html",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --color-bg-dark: #0a0a0f;
+            --color-card: #12121a;
+            --color-hover: #1a1a2e;
+            --color-gold: #d4a254;
+            --color-ember: #e8642c;
+            --color-violet: #8b5cf6;
+            --color-text-primary: #f0ece4;
+            --color-text-secondary: #9a958c;
+            --color-text-muted: #807b75;
+            --color-border-subtle: rgba(212, 162, 84, 0.12);
+            --font-heading: 'Playfair Display', serif;
+            --font-body: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--color-bg-dark);
+            color: var(--color-text-primary);
+            font-family: var(--font-body);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a {
+            color: var(--color-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--color-ember);
+        }
+
+        button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+            color: inherit;
+        }
+
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background-color: var(--color-gold);
+            color: var(--color-bg-dark);
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 100;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: var(--color-card);
+            border-bottom: 1px solid var(--color-border-subtle);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            padding: 1rem 0;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--color-gold);
+            white-space: nowrap;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 0.35rem;
+            width: 30px;
+            height: 24px;
+        }
+
+        .hamburger span {
+            width: 100%;
+            height: 2px;
+            background-color: var(--color-text-primary);
+            transition: all 0.3s ease;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(10px, 10px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links li {
+            position: relative;
+        }
+
+        .nav-links a,
+        .nav-trigger {
+            color: var(--color-text-primary);
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            padding: 0.5rem 0;
+        }
+
+        .nav-links a:hover,
+        .nav-trigger:hover {
+            color: var(--color-gold);
+        }
+
+        .nav-links a.active {
+            color: var(--color-gold);
+            border-bottom: 2px solid var(--color-gold);
+        }
+
+        .nav-trigger {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-arrow {
+            font-size: 0.7rem;
+            transition: transform 0.3s ease;
+        }
+
+        .nav-trigger.active .nav-arrow {
+            transform: rotate(180deg);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: -1rem;
+            background-color: var(--color-hover);
+            border: 1px solid var(--color-border-subtle);
+            border-radius: 8px;
+            padding: 1rem;
+            min-width: 220px;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-top: 0.5rem;
+        }
+
+        .nav-dropdown.active {
+            display: flex;
+        }
+
+        .nav-dropdown a {
+            padding: 0.5rem;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-dropdown a:hover {
+            background-color: rgba(212, 162, 84, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background-color: var(--color-card);
+                flex-direction: column;
+                gap: 0.5rem;
+                padding: 1rem;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+                border-bottom: 1px solid var(--color-border-subtle);
+            }
+
+            .nav-links.active {
+                max-height: 600px;
+            }
+
+            .nav-dropdown {
+                position: static;
+                background-color: var(--color-card);
+                border: none;
+                padding: 0.5rem 0 0.5rem 1rem;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+            }
+
+            .nav-dropdown.active {
+                max-height: 300px;
+            }
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: var(--color-card);
+            border-bottom: 1px solid var(--color-border-subtle);
+            padding: 3rem 1.5rem;
+        }
+
+        .hero-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--color-gold);
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: var(--color-ember);
+        }
+
+        .hero-label {
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--color-text-muted);
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-family: var(--font-heading);
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--color-text-secondary);
+            max-width: 600px;
+        }
+
+        /* Scripture Block */
+        .scripture-block {
+            background-color: var(--color-card);
+            border: 1px solid var(--color-border-subtle);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 3rem 1.5rem;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            position: relative;
+        }
+
+        .scripture-block::before {
+            content: '"';
+            font-size: 4rem;
+            font-family: var(--font-heading);
+            color: var(--color-gold);
+            opacity: 0.3;
+            position: absolute;
+            top: -20px;
+            left: 20px;
+        }
+
+        .scripture-text {
+            font-size: 1.3rem;
+            font-style: italic;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--color-gold);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        /* Plan Sections */
+        .plan-section {
+            margin-bottom: 4rem;
+        }
+
+        .plan-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--color-border-subtle);
+        }
+
+        .plan-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .plan-7day .plan-icon {
+            background-color: rgba(232, 100, 44, 0.15);
+            color: var(--color-ember);
+        }
+
+        .plan-14day .plan-icon {
+            background-color: rgba(139, 92, 246, 0.15);
+            color: var(--color-violet);
+        }
+
+        .plan-4week .plan-icon {
+            background-color: rgba(212, 162, 84, 0.15);
+            color: var(--color-gold);
+        }
+
+        .plan-romans .plan-icon {
+            background-color: rgba(232, 100, 44, 0.15);
+            color: var(--color-ember);
+        }
+
+        .plan-title {
+            flex: 1;
+        }
+
+        .plan-title h2 {
+            font-family: var(--font-heading);
+            font-size: 1.8rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .plan-subtitle {
+            color: var(--color-text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .plan-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+        }
+
+        /* Day Cards */
+        .day-grid {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .day-card {
+            background-color: var(--color-card);
+            border: 1px solid var(--color-border-subtle);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .day-card:hover {
+            border-color: var(--color-gold);
+            background-color: var(--color-hover);
+        }
+
+        .day-header {
+            padding: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            justify-content: space-between;
+            user-select: none;
+        }
+
+        .day-number {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--color-text-muted);
+            min-width: 60px;
+        }
+
+        .day-info {
+            flex: 1;
+        }
+
+        .day-theme {
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .day-passage {
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: var(--color-gold);
+        }
+
+        .expand-toggle {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            background-color: rgba(212, 162, 84, 0.1);
+            color: var(--color-gold);
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .day-card:hover .expand-toggle {
+            background-color: rgba(212, 162, 84, 0.2);
+        }
+
+        .expand-toggle.expanded {
+            transform: rotate(180deg);
+        }
+
+        .day-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            border-top: 1px solid var(--color-border-subtle);
+        }
+
+        .day-content.expanded {
+            max-height: 500px;
+        }
+
+        .day-body {
+            padding: 1.25rem;
+        }
+
+        .day-focus {
+            color: var(--color-text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+
+        .day-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            padding: 0.75rem 1rem;
+            background-color: rgba(212, 162, 84, 0.1);
+            border-radius: 6px;
+            color: var(--color-gold);
+            transition: all 0.3s ease;
+        }
+
+        .day-link:hover {
+            background-color: rgba(212, 162, 84, 0.2);
+            color: var(--color-ember);
+        }
+
+        /* Humor/Easter Eggs */
+        .humor-note {
+            background-color: rgba(139, 92, 246, 0.08);
+            border-left: 3px solid var(--color-violet);
+            padding: 1rem;
+            margin-top: 1rem;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-style: italic;
+            color: var(--color-text-secondary);
+        }
+
+        /* How to Use Section */
+        .how-to-section {
+            background-color: var(--color-card);
+            border: 1px solid var(--color-border-subtle);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 3rem 0;
+        }
+
+        .how-to-section h3 {
+            font-family: var(--font-heading);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--color-gold);
+        }
+
+        .how-to-section p {
+            color: var(--color-text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .how-to-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .how-to-list li {
+            padding-left: 1.5rem;
+            margin-bottom: 0.75rem;
+            position: relative;
+        }
+
+        .how-to-list li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--color-gold);
+            font-weight: bold;
+        }
+
+        /* Continue Journey */
+        .continue-journey {
+            margin: 4rem 0;
+        }
+
+        .continue-journey h3 {
+            font-family: var(--font-heading);
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .cross-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .cross-link {
+            background-color: var(--color-card);
+            border: 1px solid var(--color-border-subtle);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cross-link:hover {
+            border-color: var(--color-gold);
+            background-color: var(--color-hover);
+            transform: translateY(-4px);
+        }
+
+        .cross-link-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .cross-link h4 {
+            font-family: var(--font-heading);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .cross-link p {
+            color: var(--color-text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            flex: 1;
+        }
+
+        .cross-link a {
+            color: var(--color-gold);
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--color-card);
+            border-top: 1px solid var(--color-border-subtle);
+            padding: 3rem 1.5rem;
+            margin-top: 4rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: var(--color-gold);
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--color-text-secondary);
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--color-gold);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--color-border-subtle);
+            padding-top: 2rem;
+            text-align: center;
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--color-gold);
+            color: var(--color-bg-dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 40;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--color-ember);
+            transform: translateY(-4px);
+        }
+
+        /* Focus Visible */
+        *:focus-visible {
+            outline: 2px solid var(--color-gold);
+            outline-offset: 2px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .scripture-block {
+                padding: 1.5rem;
+                margin: 2rem 1rem;
+            }
+
+            main {
+                padding: 2rem 1rem;
+            }
+
+            .plan-header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .plan-meta {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .day-header {
+                flex-direction: column;
+                text-align: left;
+            }
+
+            .back-to-top {
+                width: 45px;
+                height: 45px;
+                font-size: 1.2rem;
+                bottom: 1.5rem;
+                right: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources" class="active">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <a href="/resources" class="back-link">← Back to Resources</a>
+            <div class="hero-label">RESOURCES · READING PLANS</div>
+            <h1>Reading Plans</h1>
+            <p>Structured paths through Scripture exploring God's sovereignty in salvation. Choose your pace—from a quick week to a comprehensive month-long journey.</p>
+        </div>
+    </section>
+
+    <!-- Scripture Block -->
+    <section class="scripture-block">
+        <p class="scripture-text">Your word is a lamp to my feet and a light to my path.</p>
+        <p class="scripture-ref">Psalm 119:105</p>
+    </section>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- 7-Day Plan -->
+        <section class="plan-section plan-7day">
+            <div class="plan-header">
+                <div class="plan-icon">⚡</div>
+                <div class="plan-title">
+                    <h2>Sovereignty in a Week</h2>
+                    <p class="plan-subtitle">Quick introduction to God's sovereignty in salvation</p>
+                </div>
+                <div class="plan-meta">
+                    <span>7 Days</span>
+                    <span>Beginner</span>
+                </div>
+            </div>
+
+            <p style="color: var(--color-text-secondary); margin-bottom: 2rem;">You didn't choose this reading plan—it chose you. Spend just seven days encountering the truth that God's sovereign hand guides all things, including your salvation.</p>
+
+            <div class="day-grid">
+                <!-- Day 1 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 1 of 7</div>
+                        <div class="day-info">
+                            <div class="day-theme">The God Who Chooses</div>
+                            <div class="day-passage">Ephesians 1:3-14</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Scripture teaches that before the foundation of the world, God chose us in Christ. Notice the repetition of "in Christ" and the emphasis on God's will and pleasure. This is the beginning of understanding: you are not an accident, and your salvation is not a surprise to God.</p>
+                            <a href="/question-chosen" class="day-link">Explore The Doctrine of Election →</a>
+                            <div class="humor-note">Fun fact: Saying "I got saved" and "God chose me" together confuses exactly no one who understands Scripture.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 2 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 2 of 7</div>
+                        <div class="day-info">
+                            <div class="day-theme">Dead in Sin, Alive in Christ</div>
+                            <div class="day-passage">Ephesians 2:1-10</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Before Christ, we were spiritually dead—not sick, not struggling, but dead. Only God can make the dead alive. As you read, meditate on what it means that God "made us alive" and "raised us up." This isn't cooperation; it's resurrection.</p>
+                            <a href="/question-depravity" class="day-link">Understanding Total Depravity →</a>
+                            <div class="humor-note">Dead people don't negotiate their own revival. That's the whole point.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 3 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 3 of 7</div>
+                        <div class="day-info">
+                            <div class="day-theme">The Father's Drawing</div>
+                            <div class="day-passage">John 6:35-65</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Jesus says, "No one can come to me unless the Father draws him." What does "draw" mean to you? Study the context of who comes and why. This passage is challenging; sit with the difficulty. The disciples themselves struggle with these words.</p>
+                            <a href="/question-john6" class="day-link">John 6 Deep Dive →</a>
+                            <div class="humor-note">If we could resist the Father's draw, wouldn't we? We resist everything else.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 4 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 4 of 7</div>
+                        <div class="day-info">
+                            <div class="day-theme">Vessels of Mercy</div>
+                            <div class="day-passage">Romans 9:1-29</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Paul addresses the hard question directly: If God is sovereign, where's the justice? Read carefully how he defends God's righteousness. Notice the potter and clay metaphor. What does it teach about God's rights and our place? This chapter has transformed countless lives.</p>
+                            <a href="/question-romans9" class="day-link">Romans 9 Explained →</a>
+                            <div class="humor-note">The potter analogy stops bothering us when we realize: we're glad the Potter didn't make us as something else.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 5 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 5 of 7</div>
+                        <div class="day-info">
+                            <div class="day-theme">The Golden Chain</div>
+                            <div class="day-passage">Romans 8:28-39</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Here's one of Scripture's most comforting passages. God's sovereignty isn't distant or cold—it's the guarantee of your safety. Trace the chain: foreknew, predestined, called, justified, glorified. Nothing can break it. Nothing can shake it. You belong to Him.</p>
+                            <a href="/question-goldchain" class="day-link">The Golden Chain of Salvation →</a>
+                            <div class="humor-note">Romans 8:28 works backwards too: if all things work together, all things must have been in His plan. That's not a bug; it's Scripture.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 6 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 6 of 7</div>
+                        <div class="day-info">
+                            <div class="day-theme">My Sheep Hear My Voice</div>
+                            <div class="day-passage">John 10:22-30</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Jesus describes His sheep hearing His voice and following Him. They cannot be snatched from His hand. Note: being a sheep is not about being weak or stupid—it's about belonging to the Shepherd. What does it mean to hear His voice? When have you heard it?</p>
+                            <a href="/question-john10" class="day-link">John 10 & Sheep of Christ →</a>
+                            <div class="humor-note">Sheep in John 10 actually have more security than free agents ever will.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 7 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 7 of 7</div>
+                        <div class="day-info">
+                            <div class="day-theme">Sealed by the Spirit</div>
+                            <div class="day-passage">Ephesians 1:13-14, 4:30</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">You are sealed by the Holy Spirit. This is not a seal that can be broken; it's a guarantee of redemption. As you finish this week, rest in the truth: God has saved you, holds you, and will present you without blemish. This is the promise that sustains all Christian living.</p>
+                            <a href="/question-sealed" class="day-link">Perseverance & The Seal →</a>
+                            <div class="humor-note">A seal can be cracked. God's seal cannot. Small but crucial difference.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 14-Day Plan -->
+        <section class="plan-section plan-14day">
+            <div class="plan-header">
+                <div class="plan-icon">📖</div>
+                <div class="plan-title">
+                    <h2>The Doctrines of Grace</h2>
+                    <p class="plan-subtitle">Two weeks exploring the full scope of redemptive truth</p>
+                </div>
+                <div class="plan-meta">
+                    <span>14 Days</span>
+                    <span>Intermediate</span>
+                </div>
+            </div>
+
+            <p style="color: var(--color-text-secondary); margin-bottom: 2rem;">Dive deeper into each doctrine of grace with concentrated study. This plan moves you from understanding sovereignty to experiencing its pastoral beauty in your own life.</p>
+
+            <div class="day-grid">
+                <!-- Week 1 Overview -->
+                <div style="grid-column: 1 / -1; background-color: var(--color-card); border: 1px solid var(--color-border-subtle); border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem;">
+                    <h3 style="font-family: var(--font-heading); font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--color-violet);">Week 1: The Doctrines in Scripture</h3>
+                    <p style="color: var(--color-text-secondary);">Days 1-5 trace each doctrine through the Bible, building a comprehensive foundation in God's Word.</p>
+                </div>
+
+                <!-- Day 1 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 1 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Total Depravity: The Human Condition</div>
+                            <div class="day-passage">Romans 3:9-26, Psalm 51:1-17</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Before grace, we are thoroughly sinful—our minds, wills, affections, all corrupted. This isn't about degree; it's about nature. Study how Paul shows that none seek God, none understand, none do good. Then see how David, broken by his own sin, cries out for God's mercy.</p>
+                            <a href="/question-depravity" class="day-link">Full Teaching on Total Depravity →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 2 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 2 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Unconditional Election: God's Choice</div>
+                            <div class="day-passage">Ephesians 1:3-14, 2 Timothy 1:9-10</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">God chose us in Christ before the foundation of the world. His election is not based on foreseen faith; it is sovereign and free. Trace the emphasis on "according to his purpose" and "his good pleasure." Wrestle with what this means for human responsibility.</p>
+                            <a href="/question-chosen" class="day-link">Election: Chosen Before Time →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 3 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 3 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Limited Atonement: The Purpose of Christ</div>
+                            <div class="day-passage">John 10:11-18, Hebrews 2:17-18, Romans 5:15-21</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Jesus is the Good Shepherd who lays down His life for His sheep. His death is effective and purposeful—not a mere offer extended to all but never accepted. Notice how Scripture speaks of His death accomplishing redemption, not merely making it possible.</p>
+                            <a href="/question-atonement" class="day-link">Christ's Atoning Work →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 4 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 4 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Irresistible Grace: God's Power to Save</div>
+                            <div class="day-passage">John 6:37-45, Titus 3:4-7</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">When God calls, His people come. They come not by force but by grace that changes the heart—making the sinner willing to come. The Father draws; the sheep hear and follow. Grace doesn't violate freedom; it restores it.</p>
+                            <a href="/question-irresistible-grace" class="day-link">Understanding Irresistible Grace →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 5 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 5 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Perseverance: God Keeps His Own</div>
+                            <div class="day-passage">Philippians 1:6, Jude 24-25, 1 Peter 1:3-5</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">God is faithful to complete the work He begins. Your salvation is not maintained by your effort but by His power. Study how these passages move from human frailty to divine protection. What does it mean to be "kept by the power of God"?</p>
+                            <a href="/question-perseverance" class="day-link">Perseverance of the Saints →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Week 2 Overview -->
+                <div style="grid-column: 1 / -1; background-color: var(--color-card); border: 1px solid var(--color-border-subtle); border-radius: 8px; padding: 1.5rem; margin: 1rem 0;">
+                    <h3 style="font-family: var(--font-heading); font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--color-violet);">Week 2: Foundation, Defense, Application</h3>
+                    <p style="color: var(--color-text-secondary);">Days 6-14 ground these doctrines in the Old Testament, answer key objections, learn from Church history, and apply them to daily life.</p>
+                </div>
+
+                <!-- Day 6 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 6 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">OT Election: Seeds of Sovereignty</div>
+                            <div class="day-passage">1 Samuel 16:1-13, Jeremiah 1:4-10, Psalm 139:13-18</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">God chose David as a boy. He called Jeremiah before he was born. The doctrine of election isn't new in the New Testament—it runs through the Old. See how God's purposes unfold across generations, from Abraham to David to the prophets.</p>
+                            <a href="/ot-election" class="day-link">Old Testament Election →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 7 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 7 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Objection: "What about free will?"</div>
+                            <div class="day-passage">Proverbs 16:1-9, 2 Thessalonians 2:13-14</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">One of the most pressing questions believers ask. God's sovereignty and human responsibility are not contradictory; they're complementary. Study these passages carefully. How do they show both God's purpose and our willing response?</p>
+                            <a href="/objection-why-command" class="day-link">Objections Answered →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 8 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 8 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Objection: "Doesn't this reduce personal responsibility?"</div>
+                            <div class="day-passage">Philippians 2:12-13, Proverbs 22:6, 2 Peter 1:3-11</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Paradoxically, God's sovereignty *increases* our responsibility, not diminishes it. These verses show: we work as if everything depends on us while trusting that everything depends on Him. This is not contradiction but balance.</p>
+                            <a href="/objection-why-command" class="day-link">More Objections Answered →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 9 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 9 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Historical Witnesses: Augustine to Calvin</div>
+                            <div class="day-passage">Reflections on Church history and theology</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">You're not alone in this understanding. Augustine battled Pelagianism and recovered biblical election. Martin Luther and John Calvin deepened these truths. Even before the Reformation, faithful believers held to God's sovereignty. Walk through Church history and see these convictions held by giants of faith.</p>
+                            <a href="/theologians" class="day-link">Theologians Through History →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 10 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 10 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Sovereignty in My Prayer Life</div>
+                            <div class="day-passage">Matthew 6:10, Luke 22:42, 1 John 5:14-15</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Does God's sovereignty make prayer pointless? No—it frees us to pray boldly. We pray, "Your will be done," knowing our will aligns with His. Study how prayer works in a sovereign God's world. How should this change the way you pray?</p>
+                            <a href="/devotionals" class="day-link">Devotionals on Prayer →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 11 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 11 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Sovereignty in My Suffering</div>
+                            <div class="day-passage">Romans 8:28-29, Job 42:1-6, 2 Corinthians 1:3-7</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">When life breaks, does God still reign? Yes. And this truth becomes our greatest comfort. God doesn't cause suffering (we live in a fallen world), but He ordains its purposes and promises to work all things together for good. How does election comfort Job?</p>
+                            <a href="/pastoral-assurance" class="day-link">Pastoral Comfort in Difficulty →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 12 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 12 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Sovereignty & Evangelism: Why Tell Anyone?</div>
+                            <div class="day-passage">Matthew 28:19-20, Romans 10:14-17, 2 Timothy 4:1-5</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">If God has chosen His elect, why evangelize? Because the elect come through the gospel. God doesn't ordain ends without ordaining means. Your witness, your boldness, your words are part of God's plan. Study how the Great Commission flows from God's sovereignty, not against it.</p>
+                            <a href="/demolition-hub" class="day-link">Evangelism Explained →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 13 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 13 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Sovereignty in the Lives of Others</div>
+                            <div class="day-passage">1 Peter 1:20-21, Acts 4:27-28, Isaiah 46:9-11</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Your spouse, your children, your coworkers—God's sovereignty extends over all. How does this change how you relate to them? Study how the early church saw God's hand even in Pilate's role at the cross. Rest in His purposes for those you love.</p>
+                            <a href="/stories" class="day-link">Stories of God's Purpose →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 14 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 14 of 14</div>
+                        <div class="day-info">
+                            <div class="day-theme">Living Grace: Doxology</div>
+                            <div class="day-passage">Romans 11:33-36, Revelation 4:8-11</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">After fourteen days of doctrine, we arrive at worship. To Him be glory forever. These truths don't lead to pride or complacency but to awe and adoration. You are loved by God before time. You are held by God through time. You will be with God forever. How will you respond?</p>
+                            <a href="/systematic-theology" class="day-link">Systematic Theology Overview →</a>
+                            <div class="humor-note">The end of theology is always doxology—praise to God. If your study doesn't lead you to worship, you've missed the point.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4-Week Plan -->
+        <section class="plan-section plan-4week">
+            <div class="plan-header">
+                <div class="plan-icon">📚</div>
+                <div class="plan-title">
+                    <h2>From Election to Glory</h2>
+                    <p class="plan-subtitle">Comprehensive month-long study of God's redemptive purposes</p>
+                </div>
+                <div class="plan-meta">
+                    <span>28 Days</span>
+                    <span>Advanced</span>
+                </div>
+            </div>
+
+            <p style="color: var(--color-text-secondary); margin-bottom: 2rem;">Trace the ordo salutis—the order of salvation—from eternity past to eternity future. This month-long journey follows God's redemptive plan through every stage, from His eternal decree to your final glorification.</p>
+
+            <div class="day-grid">
+                <!-- Week 1 -->
+                <div style="grid-column: 1 / -1; background-color: var(--color-card); border: 1px solid var(--color-border-subtle); border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem;">
+                    <h3 style="font-family: var(--font-heading); font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--color-gold);">Week 1: God's Eternal Purpose</h3>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem;">Election, Predestination, Divine Decrees | Passages: Ephesians 1, Romans 8-9, Isaiah 46 | Key question: When did God choose you?</p>
+                </div>
+
+                <!-- Week 2 -->
+                <div style="grid-column: 1 / -1; background-color: var(--color-card); border: 1px solid var(--color-border-subtle); border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem;">
+                    <h3 style="font-family: var(--font-heading); font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--color-ember);">Week 2: The Work of Christ</h3>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem;">Atonement, Covenant, Redemption | Passages: Hebrews 8-10, Romans 3, John 10 | Key question: What did Christ accomplish?</p>
+                </div>
+
+                <!-- Week 3 -->
+                <div style="grid-column: 1 / -1; background-color: var(--color-card); border: 1px solid var(--color-border-subtle); border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem;">
+                    <h3 style="font-family: var(--font-heading); font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--color-violet);">Week 3: The Spirit's Application</h3>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem;">Regeneration, Faith, Justification, Adoption | Passages: John 3, Romans 4-6, Titus 3 | Key question: How do I experience salvation?</p>
+                </div>
+
+                <!-- Week 4 -->
+                <div style="grid-column: 1 / -1; background-color: var(--color-card); border: 1px solid var(--color-border-subtle); border-radius: 8px; padding: 1.5rem;">
+                    <h3 style="font-family: var(--font-heading); font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--color-gold);">Week 4: The Persevering Life</h3>
+                    <p style="color: var(--color-text-secondary); font-size: 0.95rem;">Sanctification, Perseverance, Glorification, Worship | Passages: 2 Peter 1, Philippians 3, 1 John 3 | Key question: Where is this all going?</p>
+                </div>
+            </div>
+
+            <p style="color: var(--color-text-secondary); margin-top: 2rem; text-align: center; font-style: italic;">This 4-week plan provides structure and passages for each day. For detailed day-by-day content, combine this plan with the 14-day plan above and extend each topic across multiple days.</p>
+        </section>
+
+        <!-- Romans Deep Dive -->
+        <section class="plan-section plan-romans">
+            <div class="plan-header">
+                <div class="plan-icon">⚔️</div>
+                <div class="plan-title">
+                    <h2>The Romans Road to Sovereignty</h2>
+                    <p class="plan-subtitle">10-day deep dive through the epistle of God's sovereignty</p>
+                </div>
+                <div class="plan-meta">
+                    <span>10 Days</span>
+                    <span>Advanced</span>
+                </div>
+            </div>
+
+            <p style="color: var(--color-text-secondary); margin-bottom: 2rem;">Romans is Paul's masterpiece on God's sovereignty and human salvation. Walk through this epistle with focus on how sovereignty, sin, and grace interweave. By day 10, you'll see the entire arc of Scripture reflected in one letter.</p>
+
+            <div class="day-grid">
+                <!-- Day 1 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 1 of 10</div>
+                        <div class="day-info">
+                            <div class="day-theme">Gospel Foundation</div>
+                            <div class="day-passage">Romans 1:1-17</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Paul announces his theme: the gospel of Christ, promised beforehand. Notice "the gospel" is about Christ, not your choice. From the opening, sovereignty reigns. What does "grace and apostleship" mean? How does this set up everything that follows?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 2 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 2 of 10</div>
+                        <div class="day-info">
+                            <div class="day-theme">The Condemned World</div>
+                            <div class="day-passage">Romans 3:9-26</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Paul proves all are under sin. None righteous, none seek God. Then he introduces Christ's redemption—a gift, a ransom, a propitiation. Meditate on how helpless we are and how complete Christ's work is. What does "freely justified by his grace" mean?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 3 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 3 of 10</div>
+                        <div class="day-info">
+                            <div class="day-theme">The Power of Sin & Death</div>
+                            <div class="day-passage">Romans 5:12-21</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Adam's sin brought death to all. Christ's obedience brings life to all who believe. Compare and contrast the two Adams. Why does Paul emphasize "grace abounded"? How does this foundation shape what comes next?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 4 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 4 of 10</div>
+                        <div class="day-info">
+                            <div class="day-theme">Freedom from Sin's Dominion</div>
+                            <div class="day-passage">Romans 6:1-14</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Baptized into Christ means you're united to His death and resurrection. Sin no longer reigns because Christ reigns. Paul answers the objection: if grace abounds, should we sin? Never. Sanctification flows from justification. Why?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 5 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 5 of 10</div>
+                        <div class="day-info">
+                            <div class="day-theme">The Inner Struggle</div>
+                            <div class="day-passage">Romans 7:14-25</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">Paul describes the Christian's constant tension: willing to do good but unable. Wretched man! Yet this is not despair—it's the honest struggle of a Spirit-indwelt person. Why does Paul include this raw honesty? What does it teach about the Christian life?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 6 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 6 of 10</div>
+                        <div class="day-info">
+                            <div class="day-theme">The Spirit's Victory</div>
+                            <div class="day-passage">Romans 8:1-17</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">But Romans 8 arrives—no condemnation, the Spirit gives life, you are God's child. The tension of chapter 7 is resolved: Christ has already won. Now the Spirit applies that victory to you. How does this transition shape your understanding?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 7 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 7 of 10</div>
+                        <div class="day-info">
+                            <div class="day-theme">The Guarantee</div>
+                            <div class="day-passage">Romans 8:28-39</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">The climax of assurance: all things work together for good; you were foreknown, predestined, called, justified. Nothing can separate you from His love. This is where theology becomes comfort. Why does Paul move from doctrine to devotion here?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 8 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 8 of 10</div>
+                        <div class="day-info">
+                            <div class="day-theme">The Hard Question: Israel & Sovereignty</div>
+                            <div class="day-passage">Romans 9:1-29</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">If God is sovereign, why didn't all Israel believe? Paul addresses this head-on. God's word hasn't failed; His purposes stand. Trace the potter and clay metaphor, the hardening of Pharaoh, the choosing of Jacob over Esau. How does Paul defend God's justice?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 9 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 9 of 10</div>
+                        <div class="day-info">
+                            <div class="day-theme">God's Purposes Revealed</div>
+                            <div class="day-passage">Romans 11:1-36</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">God hasn't rejected His people. There's a remnant according to grace. Paul shows how God weaves both Jews and Gentiles into His plan—an "olive tree" of salvation. The hardening is temporary; the purposes of God endure. Wonder at the depths of His counsel.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 10 -->
+                <div class="day-card">
+                    <div class="day-header">
+                        <div class="day-number">Day 10 of 10</div>
+                        <div class="day-info">
+                            <div class="day-theme">Living the Sovereignty</div>
+                            <div class="day-passage">Romans 12:1-2</div>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand day content"></button>
+                    </div>
+                    <div class="day-content">
+                        <div class="day-body">
+                            <p class="day-focus">After eleven chapters of doctrine, Paul returns to the fundamental call: present yourself as a living sacrifice. Doctrine demands doxology and dedication. How will these ten days of Romans change the way you live? What's your "living sacrifice"?</p>
+                            <div class="humor-note">Romans is so complete, you could build your entire theology on this one book. Luther knew it. Calvin studied it. You're in good company.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to Use Section -->
+        <section class="how-to-section">
+            <h3>How to Use These Reading Plans</h3>
+            <p>These plans are designed with flexibility in mind. Here are some suggestions:</p>
+            <ul class="how-to-list">
+                <li><strong>Choose Your Pace:</strong> Start with the 7-day plan if you're new to these doctrines. Pick the 14-day or 4-week plans for deeper study. The Romans Road works best as a capstone after other plans.</li>
+                <li><strong>Journaling:</strong> After each day, write down one truth you're learning and one question you want to explore further. Journaling transforms reading into reflection.</li>
+                <li><strong>Prayer & Meditation:</strong> Before reading, ask God to open your heart. After reading, pray through what you've learned. Let Scripture reshape your prayers.</li>
+                <li><strong>Study Guides:</strong> Use our <a href="/resources-study-guides">study guides page</a> for group discussion. These plans work brilliantly in small groups or Bible studies.</li>
+                <li><strong>Cross-References:</strong> Click the links at the end of each day to dive deeper into related topics on the site. Theology is interconnected.</li>
+                <li><strong>Pace Yourself:</strong> Don't rush. If a day's passage grabs you, sit with it longer. If a question haunts you, explore it. These plans are outlines, not scripts.</li>
+                <li><strong>Combine Plans:</strong> You might read the 7-day plan, then dive into Romans. Or start with Romans, then move to the 14-day. There's no wrong order—follow the Spirit's leading.</li>
+            </ul>
+        </section>
+
+        <!-- Continue Your Journey -->
+        <section class="continue-journey">
+            <h3>Continue Your Journey</h3>
+            <div class="cross-links">
+                <div class="cross-link">
+                    <div class="cross-link-icon">🔬</div>
+                    <h4>Study Guides</h4>
+                    <p>Discussion-based guides for small groups and Bible studies. Dive deeper with friends and wrestle together with these truths.</p>
+                    <a href="/resources-study-guides">Explore Study Guides →</a>
+                </div>
+                <div class="cross-link">
+                    <div class="cross-link-icon">📖</div>
+                    <h4>Creeds & Confessions</h4>
+                    <p>Historical statements of faith. See how the Church through the ages has articulated these doctrines. Stand on the shoulders of giants.</p>
+                    <a href="/resources-confessions">Browse Confessions →</a>
+                </div>
+                <div class="cross-link">
+                    <div class="cross-link-icon">🎓</div>
+                    <h4>Systematic Theology</h4>
+                    <p>Comprehensive doctrinal teaching organized by topic. Move from Scripture to systematic understanding.</p>
+                    <a href="/systematic-theology">View Systematic Theology →</a>
+                </div>
+                <div class="cross-link">
+                    <div class="cross-link-icon">❓</div>
+                    <h4>Questions Answered</h4>
+                    <p>Common questions about God's sovereignty, election, and grace. Find clear, biblical answers to your toughest objections.</p>
+                    <a href="/questions">See All Questions →</a>
+                </div>
+                <div class="cross-link">
+                    <div class="cross-link-icon">🕯️</div>
+                    <h4>Devotionals</h4>
+                    <p>Daily reflections on God's sovereignty and grace. Let these truths transform your prayer and worship.</p>
+                    <a href="/devotionals">Read Devotionals →</a>
+                </div>
+                <div class="cross-link">
+                    <div class="cross-link-icon">📜</div>
+                    <h4>All Resources</h4>
+                    <p>Return to the main resources page to explore every tool available for understanding God's sovereignty.</p>
+                    <a href="/resources">Back to Resources →</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                    <li><a href="/resources-confessions">Creeds & Confessions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/stories">Stories & Parables</a></li>
+                    <li><a href="/pastoral-assurance">Pastoral</a></li>
+                    <li><a href="/secular-philosophy-free-will">Secular Evidence</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About Adopted by Grace</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://substack.com/@formanna77">Substack</a></li>
+                    <li><a href="/">Home</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Adopted by Grace. All Scripture quotes are ESV unless otherwise noted. | <a href="/privacy">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top" title="Back to top"></button>
+
+    <!-- Scripts -->
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        if (hamburger) {
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navLinks.classList.toggle('active');
+            });
+        }
+
+        // Nav Dropdown Toggle
+        const navTriggers = document.querySelectorAll('.nav-trigger');
+        navTriggers.forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                e.preventDefault();
+                const dropdown = trigger.nextElementSibling;
+                trigger.classList.toggle('active');
+                dropdown.classList.toggle('active');
+
+                // Close other dropdowns
+                navTriggers.forEach(otherTrigger => {
+                    if (otherTrigger !== trigger) {
+                        otherTrigger.classList.remove('active');
+                        otherTrigger.nextElementSibling.classList.remove('active');
+                    }
+                });
+            });
+        });
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-links')) {
+                navTriggers.forEach(trigger => {
+                    trigger.classList.remove('active');
+                    trigger.nextElementSibling.classList.remove('active');
+                });
+            }
+        });
+
+        // Day Card Expand/Collapse
+        const dayCards = document.querySelectorAll('.day-card');
+        dayCards.forEach(card => {
+            const header = card.querySelector('.day-header');
+            const content = card.querySelector('.day-content');
+            const toggle = card.querySelector('.expand-toggle');
+
+            if (header && content && toggle) {
+                header.addEventListener('click', () => {
+                    content.classList.toggle('expanded');
+                    toggle.classList.toggle('expanded');
+                });
+            }
+        });
+
+        // Back to Top Button
+        const backToTopBtn = document.querySelector('.back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Global nav active state
+        const currentPath = window.location.pathname;
+        const navAnchors = document.querySelectorAll('.nav-links a');
+        navAnchors.forEach(anchor => {
+            if (anchor.getAttribute('href') === currentPath) {
+                anchor.classList.add('active');
+            } else {
+                anchor.classList.remove('active');
+            }
+        });
+    </script>
+
+    <!-- Link to global CSS if it exists -->
+    <link rel="stylesheet" href="/global.css" onerror="this.style.display='none';">
+</body>
+</html>

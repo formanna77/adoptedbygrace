@@ -54,13 +54,18 @@
 - `question-perseverance.html` — Perseverance of the Saints (John 10:28-29, Rom 8:35-39, Phil 1:6)
 - `freedom.html` — Why sovereign grace is the end of fear
 - `connections.html` — The Unbreakable Thread (comprehensive proof)
-- `resources.html` — **NEW** Resources hub with 6 category cards and external links
-- `resources-books.html` — **NEW** 70+ curated Reformed theology books by topic and difficulty
-- `resources-sermons.html` — **NEW** Sermon library: Sproul, Piper, MacArthur, Lawson, Baucham + series
-- `resources-glossary.html` — **NEW** Theological glossary with 35+ terms, search, Greek/Latin roots
-- `resources-study-guides.html` — **NEW** 5-week TULIP study series + Scripture studies + reading group plans
-- `resources-confessions.html` — **NEW** Canons of Dort, Westminster, 1689, Belgic, Heidelberg with excerpts
-- `community.html` — **NEW** Prayer guides, testimony prompts, church finder, group startup guide
+- `resources.html` — **UPDATED** Resources hub with 13 category cards (added 5 new resource pages) and external links
+- `resources-books.html` — 70+ curated Reformed theology books by topic and difficulty
+- `resources-sermons.html` — Sermon library: Sproul, Piper, MacArthur, Lawson, Baucham + series
+- `resources-glossary.html` — Theological glossary with 80+ terms, search, Greek/Latin roots
+- `resources-study-guides.html` — 5-week TULIP study series + Scripture studies + reading group plans
+- `resources-confessions.html` — Canons of Dort, Westminster, 1689, Belgic, Heidelberg with excerpts
+- `community.html` — Prayer guides, testimony prompts, church finder, group startup guide
+- `resources-commentaries.html` — **NEW** Bible commentary recommendations: whole-Bible sets, OT/NT, sovereignty-focused, how-to guide
+- `resources-reading-plans.html` — **NEW** 4 structured reading plans: 7-day, 14-day, 4-week, and Romans deep-dive with expandable daily cards
+- `resources-podcasts.html` — **NEW** Podcasts & media directory: 15+ podcasts, YouTube channels, online courses with filter system
+- `resources-prayer.html` — **NEW** Sovereignty-shaped prayer guides: 7-day doctrines of grace prayer plan, Scripture prayers, historic prayers, situation prompts
+- `resources-catechisms.html` — **NEW** Catechism study hub: Westminster, Heidelberg, Baptist, New City catechisms with sovereignty Q&As highlighted
 - `demolition-1tim2-4.html` — **NEW** Demolition: 1 Timothy 2:4 — "God desires all people to be saved" = all kinds of people
 - `demolition-2peter3-9.html` — **NEW** Demolition: 2 Peter 3:9 — "Not willing that any should perish" — the pronoun "you" settles it
 - `demolition-1john2-2.html` — **NEW** Demolition: 1 John 2:2 — Owen's trilemma and the Jewish-Gentile distinction
@@ -183,7 +188,7 @@
 - [x] **Glossary of Terms** — Election, predestination, effectual calling, regeneration, justification, sanctification, glorification, monergism, synergism, etc. → `resources-glossary.html` ✅ (2026-03-27 Resources Session)
 - [x] **Historical Theology page** — Augustine, Luther, Calvin, Owen, Edwards, Spurgeon — the cloud of witnesses → `theologians.html` + 6 individual pages ✅ (2026-03-27 Historical Theology Session)
 - [x] **Creeds & Confessions page** — Canons of Dort, Westminster Standards, 1689 Baptist Confession — with explanation → `resources-confessions.html` ✅ (2026-03-27 Resources Session)
-- [x] **Resources Hub** — Curated resource library with books, sermons, study guides, glossary, confessions, community → `resources.html` + 6 sub-pages ✅ (2026-03-27 Resources Session)
+- [x] **Resources Hub** — Curated resource library with books, sermons, study guides, glossary, confessions, community, commentaries, reading plans, podcasts, prayer, catechisms → `resources.html` + 11 sub-pages ✅ (2026-03-27 Resources Session, expanded 2026-03-28 Resources & Community Session)
 
 ### Priority 5 — Apologetic / Objection Pages
 - [x] **1 Timothy 2:4 Demolition** — "God desires all people to be saved" = all kinds of people → `demolition-1tim2-4.html` ✅ (2026-03-27 Apologetics Session)
@@ -255,7 +260,7 @@
 #### Interactive & Experience Pages (from Vision)
 - [ ] **"The Courtroom" — Put Election on Trial** — Multi-page interactive: reader is jury, prosecution presents objections, defense presents Scripture, reader votes after each witness. → `courtroom.html`
 - [ ] **Audience Landing Pages** — `/for-skeptics`, `/for-pastors`, `/for-parents`, `/for-new-believers`, `/for-students`
-- [ ] **Personal Reading Plans** — 7-day, 14-day, 4-week options for different audiences and levels
+- [x] **Personal Reading Plans** — 7-day, 14-day, 4-week options + Romans 10-day deep-dive → `resources-reading-plans.html` ✅ (2026-03-28 Resources & Community Session)
 - [ ] **Testimony Wall** — Moderated testimonies of how understanding sovereign grace changed lives
 - [ ] **Visual Theology Gallery** — Showcase all SVG diagrams plus new infographics
 
@@ -369,6 +374,19 @@
 ---
 
 ## Session Log
+
+### 2026-03-28 — Resources & Community Session: 5 New Resource Pages
+- **SCOPE:** Build comprehensive resource infrastructure — commentaries, reading plans, podcasts, prayer guides, catechisms
+- **PAGES BUILT (5 new):**
+  - `resources-commentaries.html` — Bible commentary recommendations: whole-Bible sets (Matthew Henry, Calvin, NICOT/NICNT, Baker), OT/NT-specific, sovereignty-focused commentaries, "How to Read a Commentary" guide
+  - `resources-reading-plans.html` — 4 structured plans: "Sovereignty in a Week" (7-day), "Doctrines of Grace" (14-day), "From Election to Glory" (4-week), "Romans Road to Sovereignty" (10-day). Interactive expandable day cards with Scripture passages and site links
+  - `resources-podcasts.html` — Podcasts & media directory: 15+ podcasts (Renewing Your Mind, Ask Pastor John, Grace to You, The Dividing Line, etc.), YouTube channels, online courses. Filter buttons (All/Podcasts/YouTube/Courses). "Start Here" curated episodes section
+  - `resources-prayer.html` — Sovereignty-shaped prayer: essay on "Why Sovereignty Makes Us Pray MORE", 7-day prayer guide through doctrines of grace, 6 Scripture prayers, situation-specific prompts, historic prayers from Augustine/Calvin/Spurgeon/Edwards
+  - `resources-catechisms.html` — Catechism study hub: Westminster Shorter/Larger, Heidelberg, Baptist (Keach's), New City, First Catechism for children. 12+ curated Q&As on election/sovereignty. Family catechism guide
+- **HUB UPDATED:** `resources.html` — added 5 new resource cards (now 13 total: books, sermons, glossary, study guides, confessions, community, commentaries, reading plans, podcasts, prayer, catechisms, quiz, search)
+- **SITEMAP UPDATED:** Added 5 new URLs to sitemap.xml
+- **DESIGN:** All pages match dark dramatic aesthetic, responsive, mega-menu nav, focus-visible, skip links, back-to-top
+- **VOICE:** Scripture-first approach, theology humor woven throughout, brilliant connections between human experience and biblical truth
 
 ### 2026-03-28 — Growth Deployment Session 2: Full Site Audit & Production Deploy
 - **SCOPE:** Comprehensive site health check, SEO audit, broken link analysis, responsive design verification, and production deployment
