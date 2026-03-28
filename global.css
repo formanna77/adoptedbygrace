@@ -160,7 +160,7 @@ footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle);
 .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; font-size: 1rem; }
 .footer-section ul { list-style: none; }
 .footer-section li { margin-bottom: 0.5rem; }
-.footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
+.footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; display: inline-block; padding: 0.4rem 0; min-height: 44px; line-height: 1.8; }
 .footer-section a:hover { color: var(--accent-gold); }
 .footer-copyright { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
 
@@ -440,7 +440,7 @@ a:focus-visible { outline-offset: 3px; }
 }
 .share-btn {
     display: flex; align-items: center; justify-content: center;
-    width: 38px; height: 38px; border-radius: 50%;
+    width: 44px; height: 44px; border-radius: 50%;
     background: rgba(212, 162, 84, 0.06); border: 1px solid rgba(212, 162, 84, 0.12);
     color: var(--text-secondary); text-decoration: none; cursor: pointer;
     transition: all 0.3s ease; font-size: 0;
@@ -456,5 +456,5 @@ a:focus-visible { outline-offset: 3px; }
 @media (max-width: 480px) {
     .share-bar { gap: 0.5rem; padding: 0.6rem 1rem; }
     .share-label { display: none; }
-    .share-btn { width: 34px; height: 34px; }
+    .share-btn { width: 44px; height: 44px; }
 }
