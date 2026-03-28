@@ -5,156 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demolition Zone: Arianism and the Deity of Christ — Adopted by Grace</title>
     <meta name="description" content="Arius and his teaching. Council of Nicaea. Athanasius contra mundum. Why Christ's full deity is essential for salvation. Modern echoes of Arianism.">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
     <style>
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            line-height: 1.7;
-        }
-
-        nav {
-            background-color: var(--bg-card);
-            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--accent-gold);
-            text-decoration: none;
-        }
-
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            background: none;
-            border: none;
-            cursor: pointer;
-            gap: 6px;
-        }
-
-        .hamburger span {
-            width: 25px;
-            height: 3px;
-            background-color: var(--accent-gold);
-            transition: 0.3s;
-        }
-
-        .nav-links {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-        }
-
-        .nav-links a, .nav-trigger {
-            color: var(--text-primary);
-            text-decoration: none;
-            transition: color 0.3s;
-            background: none;
-            border: none;
-            cursor: pointer;
-            font-size: 1rem;
-        }
-
-        .nav-links a:hover, .nav-trigger:hover {
-            color: var(--accent-gold);
-        }
-
-        .nav-dropdown {
-            display: none;
-            position: absolute;
-            background-color: var(--bg-card);
-            border: 1px solid rgba(212, 162, 84, 0.2);
-            flex-direction: column;
-            min-width: 200px;
-            padding: 1rem 0;
-            margin-top: 0.5rem;
-            border-radius: 4px;
-        }
-
-        .nav-dropdown a {
-            padding: 0.75rem 1.5rem;
-            text-decoration: none;
-            color: var(--text-primary);
-            transition: background-color 0.3s;
-        }
-
-        .nav-dropdown a:hover {
-            background-color: rgba(212, 162, 84, 0.1);
-            color: var(--accent-gold);
-        }
-
-        li:has(> .nav-trigger) {
-            position: relative;
-        }
-
-        li:has(> .nav-trigger):hover .nav-dropdown {
-            display: flex;
-        }
-
-        .nav-arrow {
-            font-size: 0.75rem;
-        }
-
-        main {
-            max-width: 900px;
-            margin: 3rem auto;
-            padding: 0 2rem;
-        }
-
-        .hero {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: var(--accent-ember);
-        }
-
-        .tagline {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            margin-bottom: 0.5rem;
-        }
-
-        .passage-ref {
-            font-style: italic;
-            color: var(--accent-violet);
-            font-size: 0.95rem;
-        }
-
-        .scripture-block {
+        /* Page-specific styles only */
+        blockquote {
             background-color: var(--bg-card);
             border-left: 4px solid var(--accent-gold);
             padding: 1.5rem;
@@ -164,90 +23,12 @@
             line-height: 1.8;
         }
 
-        .scripture-ref {
+        blockquote cite {
             font-style: normal;
             font-size: 0.9rem;
             color: var(--text-secondary);
+            display: block;
             margin-top: 1rem;
-        }
-
-        .section {
-            margin: 2rem 0;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            color: var(--accent-gold);
-            margin-top: 2.5rem;
-            margin-bottom: 1rem;
-            border-bottom: 1px solid rgba(232, 100, 44, 0.3);
-            padding-bottom: 0.5rem;
-        }
-
-        h3 {
-            font-size: 1.3rem;
-            color: var(--accent-violet);
-            margin-top: 1.5rem;
-            margin-bottom: 0.75rem;
-        }
-
-        p {
-            margin-bottom: 1rem;
-            line-height: 1.8;
-        }
-
-        strong {
-            color: var(--accent-gold);
-        }
-
-        em {
-            color: var(--accent-violet);
-        }
-
-        ul, ol {
-            margin-left: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        li {
-            margin-bottom: 0.5rem;
-        }
-
-        .callout {
-            background-color: rgba(232, 100, 44, 0.1);
-            border-left: 4px solid var(--accent-ember);
-            padding: 1rem;
-            margin: 1.5rem 0;
-            border-radius: 4px;
-        }
-
-        .breadcrumb {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            margin-bottom: 2rem;
-        }
-
-        .breadcrumb a {
-            color: var(--accent-gold);
-            text-decoration: none;
-        }
-
-        .breadcrumb a:hover {
-            text-decoration: underline;
-        }
-
-        .reflection-box {
-            background-color: var(--bg-card);
-            border: 1px solid rgba(139, 92, 246, 0.3);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 4px;
-        }
-
-        .reflection-box h4 {
-            color: var(--accent-violet);
-            margin-bottom: 0.75rem;
-            font-size: 1.1rem;
         }
 
         .heresy-box {
@@ -265,174 +46,46 @@
             font-weight: bold;
         }
 
-        footer {
+        .reflection-box {
             background-color: var(--bg-card);
-            border-top: 1px solid rgba(212, 162, 84, 0.2);
-            margin-top: 4rem;
-            padding: 3rem 2rem;
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
         }
 
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-
-        .footer-section h4 {
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-        }
-
-        .footer-section ul {
-            list-style: none;
-            margin: 0;
-        }
-
-        .footer-section li {
+        .reflection-box h4 {
+            color: var(--accent-violet);
             margin-bottom: 0.75rem;
+            font-size: 1.1rem;
         }
 
-        .footer-section a {
-            color: var(--text-primary);
-            text-decoration: none;
-            transition: color 0.3s;
+        .callout {
+            background-color: rgba(232, 100, 44, 0.1);
+            border-left: 4px solid var(--accent-ember);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
         }
 
-        .footer-section a:hover {
+        .content-section h2 {
+            border-bottom: 1px solid rgba(232, 100, 44, 0.3);
+            padding-bottom: 0.5rem;
+        }
+
+        .continue-journey-section {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, rgba(218, 165, 32, 0.05), rgba(139, 92, 246, 0.05));
+            border-top: 1px solid rgba(218, 165, 32, 0.1);
+            margin-top: 4rem;
+        }
+
+        .continue-journey-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
             color: var(--accent-gold);
-        }
-
-        .footer-copyright {
+            margin-bottom: 1.5rem;
             text-align: center;
-            padding: 2rem 0 0;
-            border-top: 1px solid rgba(212, 162, 84, 0.2);
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            max-width: 1200px;
-            margin: 2rem auto 0;
-        }
-
-        .back-to-top {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 50px;
-            height: 50px;
-            background-color: var(--accent-gold);
-            color: var(--bg-deep);
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 1.5rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.3s;
-            z-index: 999;
-        }
-
-        .back-to-top.visible {
-            opacity: 1;
-        }
-
-        .back-to-top:hover {
-            background-color: var(--accent-ember);
-        }
-
-        .reading-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background-color: var(--accent-ember);
-            z-index: 1001;
-            width: 0%;
-        }
-
-        @media (max-width: 968px) {
-            h1 {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            .nav-links {
-                gap: 1rem;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .hamburger {
-                display: flex;
-            }
-
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background-color: var(--bg-card);
-                flex-direction: column;
-                gap: 0;
-                padding: 1rem 0;
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .nav-links a {
-                padding: 0.75rem 1.5rem;
-            }
-
-            h1 {
-                font-size: 1.5rem;
-            }
-
-            h2 {
-                font-size: 1.2rem;
-            }
-
-            main {
-                margin: 2rem 1rem;
-            }
-
-            .scripture-block {
-                font-size: 1rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 1.3rem;
-            }
-
-            h2 {
-                font-size: 1.1rem;
-            }
-
-            main {
-                margin: 1.5rem 1rem;
-                padding: 0;
-            }
-
-            .footer-container {
-                grid-template-columns: 1fr;
-            }
-
-            .back-to-top {
-                width: 45px;
-                height: 45px;
-                font-size: 1.25rem;
-                right: 1rem;
-                bottom: 1rem;
-            }
         }
     </style>
 </head>
@@ -441,49 +94,17 @@
 
     <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
-            <a href="/" class="logo">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <a href="/" class="logo">ADOPTED BY GRACE</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/start-here">Start Here</a></li>
-                <li><a href="/explore-map">The Map</a></li>
-                <li>
-                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/questions">The Evidence</a>
-                        <a href="/systematic-theology">Systematic Theology</a>
-                        <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/demolition-hub">Demolition Zone</a>
-                        <a href="/compare-calvinism-arminianism">Comparisons</a>
-                        <a href="/objection-why-command">Objections Answered</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/devotionals">Devotionals</a>
-                        <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/stories">Analogies</a>
-                        <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/theologians">Theologians</a>
-                        <a href="/history-timeline">Church History</a>
-                        <a href="/ot-election">OT Election</a>
-                    </div>
-                </li>
+                <li><a href="/questions">The Evidence</a></li>
+                <li><a href="/systematic-theology-hub">Systematic</a></li>
+                <li><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/theologians">Theologians</a></li>
                 <li><a href="/resources">Resources</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
@@ -496,13 +117,13 @@
         </div>
 
         <article>
-            <div class="hero">
+            <div class="page-hero">
                 <h1>Demolition Zone: Arianism</h1>
                 <p class="tagline">Why Christ's Deity is Not Negotiable</p>
                 <p class="passage-ref">Council of Nicaea (325 AD) | Athanasius Contra Mundum</p>
             </div>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>The Crisis That Shook the Church</h2>
                 <p>Picture Constantinople in the 4th century. The Roman Empire has just made peace with Christianity after three centuries of persecution. Believers are emerging from the catacombs, building churches, gathering for worship. This should be a time of celebration. Instead, the church faces its greatest internal threat yet.</p>
 
@@ -511,7 +132,7 @@
                 <p>The Nicene Creed was not written out of thin air. It was written to demolish a specific error, to protect a specific truth: Jesus Christ is fully God, not a created being.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>Arius and His Logic</h2>
 
                 <p>Arius was not a fool. He was a learned man, a skilled debater, and a pastor. He studied the Scriptures carefully. But he approached them with a philosophical assumption that would prove fatal: <em>God cannot be divided; there cannot be two eternals; the Son must be subordinate to the Father</em>.</p>
@@ -530,7 +151,7 @@
                 <p>This sounds like a subtle distinction, but it is a demolition of Christianity itself. Scripture teaches that we are saved by the one who is our Creator, our Redeemer, and our Judge. But can a creature—no matter how exalted—accomplish any of these things?</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>Why Christ's Deity Is Everything</h2>
 
                 <div class="heresy-box">
@@ -557,7 +178,7 @@
                 </div>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>Athanasius Contra Mundum</h2>
 
                 <p>When Arius's teaching spread, the church was thrown into chaos. Many bishops were confused or sympathetic to Arianism. Councils were called; positions shifted. The pressure to compromise with Arianism grew intense.</p>
@@ -566,15 +187,15 @@
 
                 <p>Not because he was stubborn, but because he understood what was at stake. If Christ is not fully God, then Christianity is false. There is no salvation. The Gospel is a lie.</p>
 
-                <div class="scripture-block">
+                <blockquote>
                     "In the beginning was the Word, and the Word was with God, and the Word was God. He was with God in the beginning. Through him all things were made; without him nothing has been made that has been made."
-                    <div class="scripture-ref">John 1:1-3</div>
-                </div>
+                    <cite>John 1:1-3</cite>
+                </blockquote>
 
                 <p>Athanasius fought for the deity of Christ not because he loved theological controversy, but because he loved the Gospel. And he understood that you cannot have the Gospel without a fully divine Savior.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>The Council of Nicaea (325 AD)</h2>
 
                 <p>The Roman Emperor Constantine, concerned that theological dispute was dividing his newly Christian empire, convened the Council of Nicaea. Bishops from across the church gathered to settle the question: Is Christ truly God or a creature?</p>
@@ -593,7 +214,7 @@
                 <p>Scripture teaches that Christ is "the Lord of lords and King of kings" (Revelation 19:16), "the Alpha and the Omega" (Revelation 1:8), "the same yesterday and today and forever" (Hebrews 13:8). These titles belong to God alone. Scripture assigns them to Christ without hesitation.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>Modern Echoes: Is Arianism Dead?</h2>
 
                 <p>You might think Arianism died at Nicaea in 325 AD. But error has a way of returning with new names and new packaging. While few modern groups call themselves "Arians," many modern heresies echo Arius's fundamental denial: <strong>Christ is not fully God</strong>.</p>
@@ -611,7 +232,7 @@
                 <p>To accept one pole of this biblical paradox and reject the other is to fall into heresy—to lose the Gospel itself.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>The Practical Impact: Why This Matters to You</h2>
 
                 <div class="callout">
@@ -625,20 +246,20 @@
                 <p>Arianism is not a minor deviation. It strikes at the heart of what makes Christianity true and transformative. Which is precisely why the church, under the guidance of the Holy Spirit, responded with such clarity and firmness.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>Scripture's Clear Teaching</h2>
 
-                <div class="scripture-block">
+                <blockquote>
                     "The Son is the image of the invisible God, the firstborn over all creation. For in him all things were created: things in heaven and on earth, visible and invisible, whether thrones or powers or rulers or authorities; all things have been created through him and for him. He is before all things, and in him all things hold together."
-                    <div class="scripture-ref">Colossians 1:15-17</div>
-                </div>
+                    <cite>Colossians 1:15-17</cite>
+                </blockquote>
 
                 <p>This is not the description of a creature. This is the description of God. The Son is not merely exalted; He is divine. He is not merely the first creature; He is the Creator. He is not subordinate in being; He is eternally with the Father as the image of the Father.</p>
 
                 <p>Scripture also teaches the full humanity of Christ—His genuine struggle, His real suffering, His true growth in wisdom. But this humanity does not diminish His deity. It expresses it. God became human to accomplish what no creature could: to bridge the infinite gap between sinful humanity and a holy God.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>The Invitation to Truth</h2>
 
                 <p>If you have been taught that Christ is merely a created being, or merely a human prophet, or something less than fully God, Scripture calls you to repent of this error and embrace the truth: <strong>Jesus Christ is fully God, eternally divine, the Lord of all.</strong></p>
@@ -653,6 +274,38 @@
                 </div>
             </section>
         </article>
+
+        <section class="continue-journey-section">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3>Continue Your Journey</h3>
+                <div class="card-grid">
+                    <a href="/systematic-christology.html" class="card">
+                        <h4>Christology Systematic</h4>
+                        <p>The doctrine of Christ's person and work grounded in Scripture.</p>
+                    </a>
+                    <a href="/systematic-trinity.html" class="card">
+                        <h4>The Trinity</h4>
+                        <p>One God eternally existing in three persons, coequal and coeternal.</p>
+                    </a>
+                    <a href="/theologian-augustine.html" class="card">
+                        <h4>Augustine</h4>
+                        <p>Church father who shaped centuries of theological thought on God's grace.</p>
+                    </a>
+                    <a href="/resources-confessions.html" class="card">
+                        <h4>Creeds & Confessions</h4>
+                        <p>Historic summaries of Christian doctrine—tested truths across centuries.</p>
+                    </a>
+                    <a href="/systematic-theology-proper.html" class="card">
+                        <h4>Theology Proper</h4>
+                        <p>The doctrine of God—who He is, His attributes, His sovereignty.</p>
+                    </a>
+                    <a href="/demolition-hub.html" class="card">
+                        <h4>Demolition Hub</h4>
+                        <p>All objections examined and answered by Scripture.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -661,7 +314,7 @@
                 <h4>Doctrine</h4>
                 <ul>
                     <li><a href="/questions">The Evidence</a></li>
-                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
                     <li><a href="/demolition-hub">Demolition Zone</a></li>
                     <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
                 </ul>
@@ -669,7 +322,8 @@
             <div class="footer-section">
                 <h4>Explore</h4>
                 <ul>
-                    <li><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
                     <li><a href="/devotionals">Devotionals</a></li>
                     <li><a href="/resources">Resources</a></li>
                 </ul>
@@ -678,7 +332,7 @@
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>
@@ -686,81 +340,9 @@
         <div class="footer-copyright">
             &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
         </div>
-        <!-- Cross-Reference Section -->
-        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-            <div style="max-width: 900px; margin: 0 auto;">
-                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                    <a href="/systematic-christology.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Christology Systematic</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The doctrine of Christ's person and work grounded in Scripture.</p>
-                    </a>
-                    <a href="/systematic-trinity.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Trinity</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">One God eternally existing in three persons, coequal and coeternal.</p>
-                    </a>
-                    <a href="/theologian-augustine.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Augustine</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Church father who shaped centuries of theological thought on God's grace.</p>
-                    </a>
-                    <a href="/resources-confessions.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Creeds & Confessions</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Historic summaries of Christian doctrine—tested truths across centuries.</p>
-                    </a>
-                    <a href="/systematic-theology-proper.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Theology Proper</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The doctrine of God—who He is, His attributes, His sovereignty.</p>
-                    </a>
-                    <a href="/demolition-hub.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Demolition Hub</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">All objections examined and answered by Scripture.</p>
-                    </a>
-                </div>
-            </div>
-        </section>
     </footer>
 
-    <script>
-        // Set active nav link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            if (link.getAttribute('href') === 'demolition-arianism.html') {
-                link.classList.add('active');
-            }
-        });
-
-        // Scroll-spy for section navigation
-        const sectionLinks = document.querySelectorAll('.section-link');
-        const sections = document.querySelectorAll('.section');
-
-        const observerOptions = {
-            root: null,
-            rootMargin: '-30% 0px -70% 0px',
-            threshold: 0
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const id = entry.target.getAttribute('id');
-                    sectionLinks.forEach(link => {
-                        link.classList.remove('active');
-                        if (link.getAttribute('href') === '#' + id) {
-                            link.classList.add('active');
-                        }
-                    });
-                }
-            });
-        }, observerOptions);
-
-        sections.forEach(section => observer.observe(section));
-    </script>
-    <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-    <script>
-    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
-    </script>
-    <script>
-    (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
-    </script>
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
     <script src="/global.js" defer></script>
 </body>
 </html>
