@@ -68,10 +68,12 @@
 - All CSS inline per page (no shared stylesheet yet)
 
 ### Known Issues
+- 🔴 **CRITICAL: `.git/index.lock` blocking all git operations** — Aaron must manually delete: `cd /Users/aaronforman/Documents/adoptedbygracewebsite && rm .git/index.lock .git/HEAD.lock.old .git/index.lock.old .git/index.lock.old2 .git/index.lock.stale` — then commit orphaned work: `git add -A && git commit -m "Commit orphaned agent work" && git push origin main`
+- 🟡 **6 hub pages not in index.html navigation** — start-here, resources, systematic-theology, theologians, demolition-hub, community
 - ~~OG URLs still reference `re-formed.netlify.app`~~ — **Fixed 2026-03-26**
-- No shared CSS — every style change must be replicated across 23 files
+- No shared CSS — every style change must be replicated across 54+ files
 - ~~No sitemap.xml or robots.txt~~ — **Fixed 2026-03-26**
-- No structured data (JSON-LD) for SEO
+- ~~No structured data (JSON-LD) for SEO~~ — **Fixed 2026-03-27**
 - No analytics integration
 - ~~No "Start Here" guided reading path for newcomers~~ — **Built 2026-03-27** (6 pages)
 
@@ -380,7 +382,22 @@
 - **Current page count:** 31 HTML files
 - **Next priorities:** Christology, Pneumatology, Hamartiology systematic pages
 
-### 2026-03-27 — Fleet Operations Run (automated)
+### 2026-03-27 (Run 2) — Fleet Operations Run (automated)
+- **Total HTML pages:** 54
+- **Git health:** 🔴 CRITICAL — `index.lock` file present in `.git/`, blocking ALL git write operations (add, commit, push). Cannot remove from sandbox (permission denied on mounted filesystem). **Aaron must manually run:** `cd /Users/aaronforman/Documents/adoptedbygracewebsite && rm .git/index.lock .git/HEAD.lock.old .git/index.lock.old .git/index.lock.old2 .git/index.lock.stale`
+- **Orphaned work:** 28 modified files + 30 untracked files sitting uncommitted. An agent crashed mid-operation leaving the lock. Once lock is cleared, run: `git add -A && git commit -m "Commit orphaned agent work" && git push origin main`
+- **Placeholder text:** ✅ Only legitimate "Coming Soon" badges on systematic-theology.html and theologians.html
+- **Navigation audit:**
+  - ⚠️ **MAJOR GAP:** 6 hub pages NOT linked from `index.html` at all: `start-here.html`, `resources.html`, `systematic-theology.html`, `theologians.html`, `demolition-hub.html`, `community.html` — site-architecture-ux agent must fix
+  - `community.html` only linked from `resources.html` (1 page) — should be in main nav
+  - All links from index.html resolve to existing files ✅
+- **Design spot-check:** community.html, systematic-ordo-salutis.html, theologian-spurgeon.html — all use correct bg (#0a0a0f), gold (#d4a254), Playfair Display, Inter ✅
+- **Agent fleet:** 28 enabled / 5 disabled (legacy). All 28 enabled agents have recent lastRunAt ✅
+  - Disabled (legacy): abg-builder, abg-refiner, abg-architect, abg-deploy, dissemination-multiformat, social-viral-content
+- **ROADMAP.md:** 467 lines — over 300 threshold, needs archiving next run
+- **Fleet status:** 🔴 RED — git is locked, no agent can commit or push until lock is cleared
+
+### 2026-03-27 (Run 1) — Fleet Operations Run (automated)
 - **Total HTML pages:** 26 (root)
 - **Git health:** ✅ CLEAN — branch main, working tree clean, pull succeeded, already up to date
 - **Push test:** ⚠️ Cannot verify from sandbox (no GitHub credentials in sandbox environment — expected; agents on Aaron's Mac have credentials)
