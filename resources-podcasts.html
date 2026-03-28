@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curated podcasts, video channels, and media on Reformed theology and biblical sovereignty — featuring R.C. Sproul, John Piper, James White, John MacArthur, and more — organized by topic and format.">
+    <meta property="og:title" content="Podcasts & Media — Audio & Video Resources on Biblical Theology">
+    <meta property="og:description" content="30+ curated podcasts, YouTube channels, and course series on Reformed theology and the doctrines of grace — learn biblical theology on the go.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/resources-podcasts.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/resources-podcasts.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Podcasts & Media — Audio & Video Resources on Biblical Theology">
+    <meta name="twitter:description" content="30+ curated podcasts, YouTube channels, and online courses on Reformed theology.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Podcasts & Media — Reformed Theology Audio & Video | Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "headline": "Podcasts & Media — Audio & Video Resources on Biblical Theology",
+        "description": "30+ curated podcasts, YouTube channels, and course series on Reformed theology and the doctrines of grace.",
+        "url": "https://adoptedbygrace.net/resources-podcasts.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.7; overflow-x: hidden; -webkit-text-size-adjust: 100%; }
+
+        nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 15, 0.85); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0.1em; text-decoration: none; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { text-decoration: none; color: var(--text-secondary); font-size: 0.95rem; transition: color 0.3s ease; font-weight: 500; }
+        .nav-links a:hover, .nav-links a.active { color: var(--accent-gold); }
+
+        .nav-trigger { background: none; border: none; color: var(--text-secondary); font-size: 0.95rem; cursor: pointer; transition: color 0.3s ease; font-weight: 500; font-family: 'Inter', sans-serif; }
+        .nav-trigger:hover { color: var(--accent-gold); }
+        .nav-arrow { font-size: 0.7rem; margin-left: 0.3rem; }
+        .nav-dropdown { display: none; position: absolute; top: 100%; left: 0; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; min-width: 200px; padding: 0.8rem 0; margin-top: 0.5rem; }
+        .nav-trigger:hover + .nav-dropdown, .nav-dropdown:hover { display: block; }
+        .nav-dropdown a { display: block; padding: 0.6rem 1.2rem; color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
+        .nav-dropdown a:hover { color: var(--accent-gold); background: rgba(212, 162, 84, 0.05); }
+
+        .hero { max-width: 900px; margin: 3rem auto; padding: 3rem 2rem; text-align: center; }
+        .back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; transition: opacity 0.3s ease; }
+        .back-link:hover { opacity: 0.7; }
+        .topic-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 1rem; }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 800; margin-bottom: 1.5rem; line-height: 1.2; }
+        .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto; line-height: 1.8; }
+
+        .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 1.5rem; margin: 0 auto 3rem; max-width: 800px; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
+        .scripture-ref { display: block; margin-top: 0.8rem; font-style: normal; color: var(--text-muted); font-size: 0.85rem; }
+
+        /* Filter Tabs */
+        .filter-section { max-width: 1000px; margin: 0 auto 2rem; padding: 0 2rem; text-align: center; }
+        .filter-bar { display: flex; justify-content: center; gap: 0.5rem; flex-wrap: wrap; }
+        .filter-btn { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 0.6rem 1.2rem; font-family: 'Inter', sans-serif; font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); cursor: pointer; transition: all 0.3s ease; }
+        .filter-btn:hover { border-color: var(--accent-gold); color: var(--text-primary); }
+        .filter-btn.active { background: rgba(212, 162, 84, 0.1); border-color: var(--accent-gold); color: var(--accent-gold); }
+
+        /* Content */
+        .content { max-width: 1000px; margin: 0 auto; padding: 0 2rem 4rem; }
+
+        /* Start Here Section */
+        .start-here-section { margin-bottom: 4rem; }
+        .start-here-section h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); margin-bottom: 0.8rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--border-subtle); }
+        .start-here-intro { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.8; }
+
+        .start-here-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 1.2rem; margin-bottom: 2rem; }
+        .start-here-item { background: var(--bg-card); border: 2px solid var(--accent-gold); border-radius: 8px; padding: 1.5rem; transition: all 0.3s ease; }
+        .start-here-item:hover { background: var(--bg-card-hover); transform: translateY(-2px); box-shadow: 0 8px 16px rgba(212, 162, 84, 0.1); }
+        .start-here-item-title { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.3rem; }
+        .start-here-item-meta { display: flex; gap: 1rem; margin-bottom: 0.6rem; flex-wrap: wrap; }
+        .start-here-meta-tag { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent-gold); text-transform: uppercase; }
+        .start-here-desc { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 0.8rem; }
+        .start-here-why { color: var(--text-muted); font-size: 0.85rem; font-style: italic; }
+
+        /* Category Sections */
+        .resource-category { margin-bottom: 3.5rem; }
+        .resource-category h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); margin-bottom: 0.6rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--border-subtle); }
+        .category-desc { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem; }
+
+        /* Podcast & Media Cards */
+        .media-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 1.2rem; margin-bottom: 2rem; }
+        .media-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.5rem; transition: all 0.3s ease; display: flex; flex-direction: column; }
+        .media-card:hover { background: var(--bg-card-hover); border-color: rgba(212, 162, 84, 0.2); }
+
+        .media-title { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--text-primary); margin-bottom: 0.3rem; }
+        .media-host { font-size: 0.9rem; color: var(--accent-gold); margin-bottom: 0.5rem; font-weight: 600; }
+        .media-desc { color: var(--text-secondary); font-size: 0.88rem; line-height: 1.6; margin-bottom: 0.8rem; flex-grow: 1; }
+
+        .media-tags { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 1rem; }
+        .media-tag { font-size: 0.7rem; font-family: 'JetBrains Mono', monospace; padding: 0.25rem 0.6rem; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; }
+        .tag-accessible { background: rgba(76, 175, 80, 0.1); color: #66bb6a; }
+        .tag-intermediate { background: rgba(212, 162, 84, 0.1); color: var(--accent-gold); }
+        .tag-advanced { background: rgba(139, 92, 246, 0.1); color: var(--accent-violet); }
+        .tag-daily { background: rgba(232, 100, 44, 0.1); color: var(--accent-ember); }
+        .tag-weekly { background: rgba(212, 162, 84, 0.1); color: var(--accent-gold); }
+        .tag-series { background: rgba(139, 92, 246, 0.1); color: var(--accent-violet); }
+
+        .media-link { display: inline-block; color: var(--accent-gold); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: opacity 0.3s ease; margin-top: auto; }
+        .media-link:hover { opacity: 0.7; text-decoration: underline; }
+
+        /* YouTube Section */
+        .youtube-section h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--text-primary); margin-bottom: 1rem; margin-top: 1.5rem; }
+        .youtube-list { list-style: none; }
+        .youtube-list li { padding: 0.8rem 0; border-bottom: 1px solid var(--border-subtle); }
+        .youtube-list li:last-child { border-bottom: none; }
+        .youtube-list a { color: var(--accent-gold); text-decoration: none; font-weight: 500; transition: opacity 0.3s ease; }
+        .youtube-list a:hover { opacity: 0.7; text-decoration: underline; }
+        .youtube-desc { color: var(--text-secondary); font-size: 0.85rem; margin-top: 0.3rem; }
+
+        /* Continue Your Journey */
+        .continue-section { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-violet); border-radius: 4px; padding: 2rem; margin: 3rem 0; text-align: center; }
+        .continue-section h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--text-primary); margin-bottom: 1rem; }
+        .continue-section p { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.8; }
+        .continue-links { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+        .continue-link { display: inline-block; background: rgba(212, 162, 84, 0.1); border: 1px solid var(--accent-gold); color: var(--accent-gold); padding: 0.7rem 1.4rem; border-radius: 4px; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: all 0.3s ease; }
+        .continue-link:hover { background: rgba(212, 162, 84, 0.2); }
+
+        footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; text-align: center; }
+        .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
+        .footer-section ul { list-style: none; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--accent-gold); }
+        .footer-copyright { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
+
+        .skip-to-content { position: absolute; top: -40px; left: 0; background: var(--accent-gold); color: var(--bg-deep); padding: 8px 16px; z-index: 10000; font-size: 0.9rem; transition: top 0.3s ease; }
+        .skip-to-content:focus { top: 0; }
+
+        .breadcrumb-nav { max-width: 900px; margin: 1rem auto 0; padding: 0 2rem; }
+        .breadcrumb-nav a { color: var(--accent-gold, #d4a853); text-decoration: none; font-size: 0.85rem; font-family: 'Inter', sans-serif; letter-spacing: 0.03em; opacity: 0.8; transition: opacity 0.2s; }
+        .breadcrumb-nav a:hover { opacity: 1; text-decoration: underline; }
+
+        /* ========== HAMBURGER MENU ========== */
+        .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; z-index: 1001; }
+        .hamburger span { display: block; width: 24px; height: 2px; background: var(--accent-gold); margin: 5px 0; transition: all 0.3s ease; border-radius: 2px; }
+        .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+        .hamburger.active span:nth-child(2) { opacity: 0; }
+        .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+        @media (max-width: 768px) {
+            .hamburger { display: block; }
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: rgba(10, 10, 15, 0.98); flex-direction: column; padding: 1rem 2rem 2rem; gap: 0; border-bottom: 1px solid var(--border-subtle); }
+            .nav-links.open { display: flex; }
+            .nav-links li { padding: 0.7rem 0; border-bottom: 1px solid rgba(212, 162, 84, 0.08); }
+            .nav-links li:last-child { border-bottom: none; }
+            .nav-links a { font-size: 1.1rem; display: block; }
+            nav .nav-container { position: relative; }
+            .logo { font-size: 1rem !important; }
+            .nav-dropdown { position: static; display: none; background: rgba(18, 18, 26, 0.5); border: none; min-width: auto; padding: 0.5rem 0 0.5rem 1rem; margin-top: 0; }
+            .nav-trigger:hover + .nav-dropdown { display: block; }
+            .start-here-grid { grid-template-columns: 1fr; }
+            .media-grid { grid-template-columns: 1fr; }
+        }
+
+        /* ========== FOCUS STYLES ========== */
+        *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+        a:focus-visible { outline-offset: 3px; }
+        button:focus-visible, .filter-btn:focus-visible { outline-offset: 2px; }
+
+        /* ========== BACK TO TOP ========== */
+        .back-to-top { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; border-radius: 50%; background: rgba(18, 18, 26, 0.9); border: 1px solid var(--border-subtle); color: var(--accent-gold); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 999; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+        .back-to-top.visible { opacity: 1; visibility: visible; }
+        .back-to-top:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); transform: translateY(-2px); }
+
+        @media (max-width: 480px) {
+            nav { padding: 0.8rem 1rem; }
+            .nav-container { flex-direction: column; gap: 0.6rem; }
+            .nav-links { gap: 0.6rem; flex-wrap: wrap; justify-content: center; }
+            .nav-links a { font-size: 0.8rem; }
+            .hero h1 { font-size: 2.2rem; }
+            .hero { padding: 2rem 1rem; margin: 1.5rem auto; }
+            .media-grid { grid-template-columns: 1fr; }
+            .filter-bar { gap: 0.3rem; }
+            .filter-btn { padding: 0.5rem 0.8rem; font-size: 0.78rem; }
+            .start-here-grid { grid-template-columns: 1fr; }
+            .continue-links { flex-direction: column; }
+            .continue-link { width: 100%; }
+            footer { padding: 2rem 1rem; }
+            .content { padding: 0 1rem 2rem; }
+        }
+    </style>
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources" class="active">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb-nav"><a href="resources.html">&larr; Back to Resources</a></div>
+
+    <section id="main-content" class="hero">
+        <a href="resources.html" class="back-link">← Back to Resources</a>
+        <div class="topic-label">Podcasts & Media · 30+ Resources</div>
+        <h1>Podcasts & Media</h1>
+        <p class="hero-subtitle">Trusted audio and video resources for learning biblical theology on the go — podcasts, YouTube channels, and online courses from the finest Reformed teachers and theologians.</p>
+    </section>
+
+    <div class="scripture-block">
+        "Faith comes from hearing, and hearing through the word of Christ."
+        <span class="scripture-ref">— Romans 10:17 (ESV)</span>
+    </div>
+
+    <!-- Filter -->
+    <div class="filter-section">
+        <div class="filter-bar">
+            <button class="filter-btn active" onclick="filterMedia('all')">All Resources</button>
+            <button class="filter-btn" onclick="filterMedia('podcasts')">Podcasts</button>
+            <button class="filter-btn" onclick="filterMedia('youtube')">YouTube</button>
+            <button class="filter-btn" onclick="filterMedia('courses')">Courses</button>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <!-- START HERE -->
+        <div class="start-here-section">
+            <h2>Start Here</h2>
+            <p class="start-here-intro">New to audio Reformed theology? These 5 episodes are the perfect entry point. They introduce the big ideas clearly, warmly, and compellingly — what you need to understand biblical sovereignty and how it changes everything.</p>
+
+            <div class="start-here-grid">
+                <div class="start-here-item">
+                    <div class="start-here-item-title">Chosen by God (Opening Lectures)</div>
+                    <div class="start-here-item-meta">
+                        <span class="start-here-meta-tag">Ligonier Ministries</span>
+                        <span class="start-here-meta-tag">R.C. Sproul</span>
+                    </div>
+                    <div class="start-here-desc">Sproul's landmark series opening — the clearest explanation of unconditional election you'll hear. Shows why this doctrine is not only biblical but pastoral and beautiful.</div>
+                    <div class="start-here-why">Why start here: If you watch nothing else, watch this first. It answers every major objection in under 30 minutes.</div>
+                </div>
+
+                <div class="start-here-item">
+                    <div class="start-here-item-title">Does God Choose Who Believes?</div>
+                    <div class="start-here-item-meta">
+                        <span class="start-here-meta-tag">Ask Pastor John</span>
+                        <span class="start-here-meta-tag">John Piper</span>
+                    </div>
+                    <div class="start-here-desc">Piper's direct, pastoral answer to the question that stops most people: If God chooses, why do we choose? He shows how both are true in ways that will blow your mind.</div>
+                    <div class="start-here-why">Why start here: Gets straight to the biggest objection and resolves it with warmth and Scripture.</div>
+                </div>
+
+                <div class="start-here-item">
+                    <div class="start-here-item-title">God's Sovereignty & Prayer</div>
+                    <div class="start-here-item-meta">
+                        <span class="start-here-meta-tag">Renewing Your Mind</span>
+                        <span class="start-here-meta-tag">R.C. Sproul</span>
+                    </div>
+                    <div class="start-here-desc">The answer to the pastoral objection: If God is sovereign, why pray? Sproul shows why election makes prayer not less important but more — this is the episode that changes how people pray.</div>
+                    <div class="start-here-why">Why start here: Bridges doctrine to life. Shows that sovereignty doesn't drain meaning from your choices or prayers.</div>
+                </div>
+
+                <div class="start-here-item">
+                    <div class="start-here-item-title">The Five Points of Calvinism Explained Simply</div>
+                    <div class="start-here-item-meta">
+                        <span class="start-here-meta-tag">Truth for Life</span>
+                        <span class="start-here-meta-tag">Alistair Begg</span>
+                    </div>
+                    <div class="start-here-desc">Begg walks through TULIP with warmth and accessibility — no intimidating jargon. For those who hear "TULIP" and panic, this episode makes it all make sense.</div>
+                    <div class="start-here-why">Why start here: Accessible and warm. Perfect if Reformed terminology feels foreign to you.</div>
+                </div>
+
+                <div class="start-here-item">
+                    <div class="start-here-item-title">Divine Predestination in Scripture</div>
+                    <div class="start-here-item-meta">
+                        <span class="start-here-meta-tag">The Dividing Line</span>
+                        <span class="start-here-meta-tag">James White</span>
+                    </div>
+                    <div class="start-here-desc">White goes deep into Scripture — Romans 9, Ephesians 1, Acts 4:28 — showing the biblical case for predestination. Rigorous but clear. For those who want the Scripture foundation.</div>
+                    <div class="start-here-why">Why start here: Want the biblical proof? This is it. Scholarly but not dense.</div>
+                </div>
+
+                <div class="start-here-item">
+                    <div class="start-here-item-title">Why Would God Predestine Anyone?</div>
+                    <div class="start-here-item-meta">
+                        <span class="start-here-meta-tag">Mortification of Spin</span>
+                        <span class="start-here-meta-tag">Alliance of Confessing Evangelicals</span>
+                    </div>
+                    <div class="start-here-desc">A witty, thoughtful Reformed discussion on the "why" behind predestination. Shows that election is not arbitrary but rooted in God's character and glory. Clever theology that's actually fun.</div>
+                    <div class="start-here-why">Why start here: Combines intelligence, humor, and heart. Theology doesn't have to be dry — this proves it.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- THEOLOGY & DOCTRINE -->
+        <div class="resource-category" data-category="podcasts">
+            <h2>Theology & Doctrine Podcasts</h2>
+            <p class="category-desc">Daily and weekly teaching on Reformed theology, systematic doctrine, and the doctrines of grace. These are for getting deep into the theological framework.</p>
+
+            <div class="media-grid">
+                <div class="media-card">
+                    <div class="media-title">Renewing Your Mind</div>
+                    <div class="media-host">R.C. Sproul / Ligonier Ministries</div>
+                    <div class="media-desc">The gold standard of Reformed teaching. 15-minute daily episodes on every major doctrine, biblical theology, and Christian living. Sproul's ability to make complex theology accessible is unmatched.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-accessible">Accessible</span>
+                        <span class="media-tag tag-daily">Daily</span>
+                    </div>
+                    <a href="https://www.ligonier.org/podcasts/renewing-your-mind" target="_blank" rel="noopener" class="media-link">Listen at Ligonier →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">Ask Pastor John</div>
+                    <div class="media-host">John Piper / Desiring God</div>
+                    <div class="media-desc">Q&A format where Piper answers listener questions on theology, sovereignty, prayer, and Christian life. Sovereignty questions appear frequently. Warm, biblical, deeply pastoral.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-accessible">Accessible</span>
+                        <span class="media-tag tag-daily">Daily</span>
+                    </div>
+                    <a href="https://www.desiringgod.org/ask-pastor-john" target="_blank" rel="noopener" class="media-link">Listen at Desiring God →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">Theology in the Raw</div>
+                    <div class="media-host">Preston Sprinkle</div>
+                    <div class="media-desc">Tackles tough theological questions with scholarly guests. Sovereignty, free will, predestination, and evangelical objections are regular topics. Honest, informed, and thought-provoking.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-intermediate">Intermediate</span>
+                        <span class="media-tag tag-weekly">Weekly</span>
+                    </div>
+                    <a href="https://www.theologyintheraw.com" target="_blank" rel="noopener" class="media-link">Visit Theology in the Raw →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">Mortification of Spin</div>
+                    <div class="media-host">Alliance of Confessing Evangelicals</div>
+                    <div class="media-desc">Witty, smart Reformed discussion on theology, apologetics, and church culture. The hosts bring humor and brilliance together — you'll laugh and learn simultaneously.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-intermediate">Intermediate</span>
+                        <span class="media-tag tag-weekly">Weekly</span>
+                    </div>
+                    <a href="https://www.mortificationofspin.com" target="_blank" rel="noopener" class="media-link">Visit Mortification of Spin →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">The Dividing Line</div>
+                    <div class="media-host">James White / Alpha & Omega Ministries</div>
+                    <div class="media-desc">Reformed apologetics, debates on Calvinism vs. Arminianism, textual criticism, and Islam. James White is relentless in defending Reformed theology with Scripture and logic.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-advanced">Advanced</span>
+                        <span class="media-tag tag-daily">Daily</span>
+                    </div>
+                    <a href="https://www.aomin.org/podcasts" target="_blank" rel="noopener" class="media-link">Listen at AOMIN →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">Founders Podcast</div>
+                    <div class="media-host">Tom Ascol / Founders Ministries</div>
+                    <div class="media-desc">Southern Baptist Reformed heritage — interviews with pastors and theologians exploring the historical roots and present application of Reformed theology in Baptist churches.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-accessible">Accessible</span>
+                        <span class="media-tag tag-weekly">Weekly</span>
+                    </div>
+                    <a href="https://www.founders.org/podcast" target="_blank" rel="noopener" class="media-link">Listen to Founders →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- BIBLE EXPOSITION -->
+        <div class="resource-category" data-category="podcasts">
+            <h2>Bible Exposition Podcasts</h2>
+            <p class="category-desc">Verse-by-verse, passage-by-passage teaching that grounds theology in Scripture. Perfect for serious Bible study.</p>
+
+            <div class="media-grid">
+                <div class="media-card">
+                    <div class="media-title">Grace to You</div>
+                    <div class="media-host">John MacArthur</div>
+                    <div class="media-desc">Comprehensive verse-by-verse exposition from one of the finest biblical teachers alive. MacArthur's commitment to the text is absolute. The complete sermon library is also available online.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-intermediate">Intermediate</span>
+                        <span class="media-tag tag-daily">Daily</span>
+                    </div>
+                    <a href="https://www.gty.org" target="_blank" rel="noopener" class="media-link">Listen at GTY →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">Truth for Life</div>
+                    <div class="media-host">Alistair Begg</div>
+                    <div class="media-desc">Verse-by-verse exposition with warmth and accessibility. Begg brings Scottish wisdom and pastoral care to every text. Reformed-leaning but speaks to all evangelical backgrounds.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-accessible">Accessible</span>
+                        <span class="media-tag tag-daily">Daily</span>
+                    </div>
+                    <a href="https://www.truthforlife.org" target="_blank" rel="noopener" class="media-link">Listen at Truth for Life →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">Expositor Podcast</div>
+                    <div class="media-host">Steven Lawson / OnePassion Ministries</div>
+                    <div class="media-desc">Focused expository preaching from a master of Reformed homiletics. Lawson shows how to preach the doctrines of grace from Scripture itself — perfect model for serious pastors and teachers.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-advanced">Advanced</span>
+                        <span class="media-tag tag-weekly">Weekly</span>
+                    </div>
+                    <a href="https://www.onepassionministries.org" target="_blank" rel="noopener" class="media-link">Visit OnePassion →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- HISTORY & CULTURE -->
+        <div class="resource-category" data-category="podcasts">
+            <h2>History & Culture Podcasts</h2>
+            <p class="category-desc">Understanding Reformed theology through church history and cultural context.</p>
+
+            <div class="media-grid">
+                <div class="media-card">
+                    <div class="media-title">Church History</div>
+                    <div class="media-host">Carl Trueman</div>
+                    <div class="media-desc">The best church history podcast available. Trueman walks through the development of Reformed theology from the Reformation onward, showing how doctrines were forged in real historical struggles.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-intermediate">Intermediate</span>
+                        <span class="media-tag tag-series">Series</span>
+                    </div>
+                    <a href="https://www.ligonier.org/learn/series/church-history" target="_blank" rel="noopener" class="media-link">Listen at Ligonier →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">Theology Simply Profound</div>
+                    <div class="media-host">Credo Magazine</div>
+                    <div class="media-desc">Theology made accessible through interviews and discussion. Covers the history of Reformed ideas and their contemporary application. Clear without being simplistic.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-accessible">Accessible</span>
+                        <span class="media-tag tag-weekly">Weekly</span>
+                    </div>
+                    <a href="https://www.credomag.com" target="_blank" rel="noopener" class="media-link">Visit Credo Magazine →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">Reformed Forum</div>
+                    <div class="media-host">Various Reformed Scholars</div>
+                    <div class="media-desc">Academic Reformed theology in discussion format. The hosts dig into confessional documents, historical theology, and contemporary issues with scholarly rigor and accessibility.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-advanced">Advanced</span>
+                        <span class="media-tag tag-weekly">Weekly</span>
+                    </div>
+                    <a href="https://www.reformedforum.org" target="_blank" rel="noopener" class="media-link">Visit Reformed Forum →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- DEBATE & APOLOGETICS -->
+        <div class="resource-category" data-category="podcasts">
+            <h2>Debate & Apologetics Podcasts</h2>
+            <p class="category-desc">For those who want to see the biblical case for Reformed theology defended in dialogue and debate.</p>
+
+            <div class="media-grid">
+                <div class="media-card">
+                    <div class="media-title">Unbelievable?</div>
+                    <div class="media-host">Justin Brierley</div>
+                    <div class="media-desc">High-quality debates featuring Calvinist and Arminian thinkers discussing free will, election, and predestination. Fair-minded host. See the strongest versions of both positions.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-intermediate">Intermediate</span>
+                        <span class="media-tag tag-weekly">Weekly</span>
+                    </div>
+                    <a href="https://www.unbelievable.show" target="_blank" rel="noopener" class="media-link">Listen at Unbelievable →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- YOUTUBE CHANNELS -->
+        <div class="resource-category" data-category="youtube">
+            <h2>YouTube Channels</h2>
+            <p class="category-desc">Video teaching from the best Reformed teachers. Many of these include full sermon series and lecture courses.</p>
+
+            <div class="youtube-section">
+                <h3>Teaching Channels</h3>
+                <ul class="youtube-list">
+                    <li>
+                        <a href="https://www.youtube.com/c/LigorierMinistries" target="_blank" rel="noopener">Ligonier Ministries</a>
+                        <div class="youtube-desc">R.C. Sproul's complete teaching archive, plus new content from Reformed teachers. Hundreds of hours of theological instruction.</div>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/desiringGod" target="_blank" rel="noopener">Desiring God</a>
+                        <div class="youtube-desc">John Piper's sermons, lectures, and Ask Pastor John episodes. Full access to Piper's life work in video.</div>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/gtyorg" target="_blank" rel="noopener">Grace to You</a>
+                        <div class="youtube-desc">John MacArthur's complete sermon library — thousands of hours of expository preaching organized by book of the Bible.</div>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/VoddieBaucham" target="_blank" rel="noopener">Voddie Baucham</a>
+                        <div class="youtube-desc">Powerful Reformed preaching on God's sovereignty, biblical manhood/womanhood, and apologetics. Clear, convicting, Christ-centered.</div>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/ApologiaStudios" target="_blank" rel="noopener">Apologia Studios</a>
+                        <div class="youtube-desc">Jeff Durbin's presuppositional apologetics ministry. Debates, lectures, and discussions on Reformed epistemology and biblical truth claims.</div>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/rcsprouljr" target="_blank" rel="noopener">R.C. Sproul Jr.</a>
+                        <div class="youtube-desc">Teaching archives and new content from Sproul Jr. on Reformation theology, Christian life, and biblical interpretation.</div>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/OnePassionMinistries" target="_blank" rel="noopener">OnePassion Ministries</a>
+                        <div class="youtube-desc">Steven Lawson's expository preaching and Reformed theology teaching. Master class in how to preach the doctrines of grace.</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ONLINE COURSES & LECTURE SERIES -->
+        <div class="resource-category" data-category="courses">
+            <h2>Online Courses & Lecture Series</h2>
+            <p class="category-desc">Structured theological education — from introductory overviews to advanced systematic theology courses.</p>
+
+            <div class="media-grid">
+                <div class="media-card">
+                    <div class="media-title">Ligonier Connect</div>
+                    <div class="media-host">Ligonier Ministries</div>
+                    <div class="media-desc">Full theological courses from Reformed Theological Seminary professors. Topics include systematic theology, biblical theology, church history, and apologetics. Comprehensive and deeply Reformed.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-intermediate">Intermediate</span>
+                        <span class="media-tag tag-series">Course Series</span>
+                    </div>
+                    <a href="https://www.ligonier.org/connect" target="_blank" rel="noopener" class="media-link">Explore Ligonier Connect →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">The Master's Seminary Lectures</div>
+                    <div class="media-host">John MacArthur / The Master's University</div>
+                    <div class="media-desc">Free video lectures on biblical theology, New Testament, Old Testament, and systematic doctrine. High-quality seminary-level instruction available to everyone.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-intermediate">Intermediate</span>
+                        <span class="media-tag tag-series">Lecture Series</span>
+                    </div>
+                    <a href="https://www.youtube.com/c/mastersseminary" target="_blank" rel="noopener" class="media-link">Watch on YouTube →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">PRTS Lectures</div>
+                    <div class="media-host">Puritan Reformed Theological Seminary</div>
+                    <div class="media-desc">Free lectures from PRTS faculty on Puritan theology, systematic theology, and biblical studies. Excellent introduction to the Puritan theological tradition.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-advanced">Advanced</span>
+                        <span class="media-tag tag-series">Lecture Series</span>
+                    </div>
+                    <a href="https://www.prts.edu" target="_blank" rel="noopener" class="media-link">Visit PRTS →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">Covenant Theological Seminary Free Courses</div>
+                    <div class="media-host">Covenant Seminary</div>
+                    <div class="media-desc">Free online courses from one of the finest Reformed seminaries. Systematic theology, biblical languages, church history, and more at the graduate level.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-advanced">Advanced</span>
+                        <span class="media-tag tag-series">Course Series</span>
+                    </div>
+                    <a href="https://www.covenantseminary.edu" target="_blank" rel="noopener" class="media-link">Explore Covenant Seminary →</a>
+                </div>
+
+                <div class="media-card">
+                    <div class="media-title">Genevan Institute Online</div>
+                    <div class="media-host">Reformed Theological Seminary</div>
+                    <div class="media-desc">RTS courses available online, including Calvin's theology, confessional Reformed theology, and biblical interpretation. Seminary-level education in your home.</div>
+                    <div class="media-tags">
+                        <span class="media-tag tag-advanced">Advanced</span>
+                        <span class="media-tag tag-series">Course Series</span>
+                    </div>
+                    <a href="https://www.rts.edu" target="_blank" rel="noopener" class="media-link">Visit RTS →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- HUMOR NOTE -->
+        <div style="text-align: center; color: var(--text-muted); font-size: 0.95rem; margin: 3rem 0; font-style: italic;">
+            <p>Podcasts: because even your commute should be theologically productive. These are the resources that will turn your drive time, gym time, and dishwashing time into spiritual formation time.</p>
+        </div>
+
+        <!-- CONTINUE YOUR JOURNEY -->
+        <div class="continue-section">
+            <h2>Continue Your Journey</h2>
+            <p>Explored podcasts? These other resources will deepen your understanding of biblical sovereignty and the Reformed faith.</p>
+            <div class="continue-links">
+                <a href="/resources-books.html" class="continue-link">Recommended Books</a>
+                <a href="/resources-sermons.html" class="continue-link">Sermon Library</a>
+                <a href="/resources-confessions.html" class="continue-link">Creeds & Confessions</a>
+                <a href="/resources-study-guides.html" class="continue-link">Study Guides</a>
+                <a href="/resources-glossary.html" class="continue-link">Theology Glossary</a>
+                <a href="/systematic-theology.html" class="continue-link">Systematic Theology</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Core Doctrine</h4>
+                <ul>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                    <li><a href="/pastoral-assurance">Pastoral Assurance</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/stories">Stories & Parables</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/history-timeline">Church History</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="/resources-books.html">Books</a></li>
+                    <li><a href="/resources-sermons.html">Sermons</a></li>
+                    <li><a href="/resources-podcasts.html">Podcasts & Media</a></li>
+                    <li><a href="/resources-confessions.html">Confessions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2024–2026 Adopted by Grace. All content reflects the supremacy of God in Christ and the sufficiency of Scripture. | <a href="/about" style="color: var(--text-muted); text-decoration: none;">About</a>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"></button>
+
+    <script>
+        // Hamburger Menu
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('open');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.hamburger').classList.remove('active');
+                document.querySelector('.nav-links').classList.remove('open');
+            });
+        });
+
+        // Filter Media
+        function filterMedia(category) {
+            // Update active button
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Filter cards
+            if (category === 'all') {
+                document.querySelectorAll('[data-category]').forEach(el => el.style.display = 'block');
+            } else {
+                document.querySelectorAll('[data-category]').forEach(el => {
+                    if (el.getAttribute('data-category') === category) {
+                        el.style.display = 'block';
+                    } else {
+                        el.style.display = 'none';
+                    }
+                });
+            }
+        }
+
+        // Back to Top
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Active link in nav
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.href === window.location.href || link.href === window.location.pathname) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curated Bible commentary recommendations from a Reformed perspective. Explore whole-Bible sets, OT and NT commentaries, and resources specially focused on election and God's sovereignty.">
+    <meta name="theme-color" content="#0a0a0f">
+    <meta property="og:title" content="Bible Commentaries - Adopted by Grace">
+    <meta property="og:description" content="Faithful, theologically-sound Bible commentaries for deeper Scripture study and understanding God's sovereignty.">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/resources-commentaries.html">
+    <meta property="og:type" content="article">
+    <link rel="canonical" href="https://adoptedbygrace.net/resources-commentaries.html">
+    <title>Bible Commentaries - Adopted by Grace</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/global.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Bible Commentaries",
+        "description": "Curated Bible commentary recommendations for understanding Scripture and God's sovereignty",
+        "image": "https://adoptedbygrace.net/og-image.png",
+        "datePublished": "2026-03-28",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0f;
+            color: #f0ece4;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        a {
+            color: #d4a254;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #e8642c;
+        }
+
+        a:focus-visible {
+            outline: 2px solid #d4a254;
+            outline-offset: 2px;
+            border-radius: 2px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #12121a;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.12);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: #d4a254;
+        }
+
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background-color: #f0ece4;
+            margin: 6px 0;
+            transition: 0.3s;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(8px, 8px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(8px, -8px);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav-links li {
+            position: relative;
+        }
+
+        .nav-links a, .nav-trigger {
+            color: #f0ece4;
+            font-size: 14px;
+            transition: color 0.3s ease;
+            border: none;
+            background: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .nav-links a:hover, .nav-trigger:hover {
+            color: #d4a254;
+        }
+
+        .nav-links a.active {
+            color: #d4a254;
+            border-bottom: 2px solid #d4a254;
+            padding-bottom: 2px;
+        }
+
+        .nav-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #1a1a2e;
+            border: 1px solid rgba(212, 162, 84, 0.12);
+            border-radius: 4px;
+            min-width: 200px;
+            padding: 12px 0;
+            display: none;
+            flex-direction: column;
+            margin-top: 8px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-dropdown.active {
+            display: flex;
+        }
+
+        .nav-dropdown a {
+            padding: 10px 20px;
+            color: #f0ece4;
+            font-size: 14px;
+        }
+
+        .nav-dropdown a:hover {
+            background-color: rgba(212, 162, 84, 0.1);
+            color: #d4a254;
+        }
+
+        /* Skip to content */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #d4a254;
+            color: #0a0a0f;
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 101;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        /* Main content */
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin: 40px 0 20px 0;
+            font-size: 14px;
+            color: #9a958c;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #d4a254;
+        }
+
+        .topic-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 1px;
+            color: #8b5cf6;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #f0ece4;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #9a958c;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        /* Scripture block */
+        .scripture-block {
+            background-color: #12121a;
+            border-left: 4px solid #d4a254;
+            padding: 24px;
+            margin: 40px 0;
+            border-radius: 2px;
+        }
+
+        .scripture-block p {
+            font-style: italic;
+            color: #f0ece4;
+            margin-bottom: 12px;
+        }
+
+        .scripture-ref {
+            color: #9a958c;
+            font-size: 14px;
+        }
+
+        /* Section heading */
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 700;
+            margin: 48px 0 24px 0;
+            color: #f0ece4;
+        }
+
+        /* Commentary cards */
+        .commentaries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+
+        .commentary-card {
+            background-color: #12121a;
+            border: 1px solid rgba(212, 162, 84, 0.12);
+            border-radius: 4px;
+            padding: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .commentary-card:hover {
+            background-color: #1a1a2e;
+            border-color: rgba(212, 162, 84, 0.3);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .commentary-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: #d4a254;
+            margin-bottom: 8px;
+        }
+
+        .commentary-author {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            color: #8b5cf6;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .commentary-description {
+            color: #9a958c;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .commentary-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: rgba(212, 162, 84, 0.1);
+            color: #d4a254;
+            padding: 4px 10px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border: 1px solid rgba(212, 162, 84, 0.2);
+        }
+
+        .tag.difficulty {
+            background-color: rgba(139, 92, 246, 0.1);
+            color: #8b5cf6;
+            border-color: rgba(139, 92, 246, 0.2);
+        }
+
+        .tag.category {
+            background-color: rgba(232, 100, 44, 0.1);
+            color: #e8642c;
+            border-color: rgba(232, 100, 44, 0.2);
+        }
+
+        /* How to read guide */
+        .guide-section {
+            background-color: #12121a;
+            border: 1px solid rgba(212, 162, 84, 0.12);
+            padding: 32px;
+            border-radius: 4px;
+            margin: 48px 0;
+        }
+
+        .guide-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #d4a254;
+            margin-bottom: 20px;
+        }
+
+        .guide-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .guide-section li {
+            margin-bottom: 16px;
+            padding-left: 24px;
+            position: relative;
+            color: #9a958c;
+        }
+
+        .guide-section li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #d4a254;
+        }
+
+        /* Continue your journey */
+        .journey-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 48px 0;
+        }
+
+        .journey-card {
+            background-color: #12121a;
+            border: 1px solid rgba(212, 162, 84, 0.12);
+            padding: 24px;
+            border-radius: 4px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .journey-card:hover {
+            background-color: #1a1a2e;
+            border-color: rgba(212, 162, 84, 0.3);
+        }
+
+        .journey-card a {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: #d4a254;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .journey-card p {
+            font-size: 14px;
+            color: #9a958c;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #12121a;
+            border-top: 1px solid rgba(212, 162, 84, 0.12);
+            margin-top: 60px;
+            padding: 40px 20px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: #d4a254;
+            margin-bottom: 16px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            display: block;
+            color: #9a958c;
+            font-size: 14px;
+            margin-bottom: 12px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: #d4a254;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(212, 162, 84, 0.12);
+            padding-top: 20px;
+            text-align: center;
+            color: #807b75;
+            font-size: 14px;
+        }
+
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #d4a254;
+            color: #0a0a0f;
+            width: 48px;
+            height: 48px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 20px;
+            transition: all 0.3s ease;
+            z-index: 99;
+        }
+
+        .back-to-top:hover {
+            background-color: #e8642c;
+            transform: translateY(-3px);
+        }
+
+        .back-to-top.show {
+            display: flex;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                gap: 0;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+                background-color: #12121a;
+                border-bottom: 1px solid rgba(212, 162, 84, 0.12);
+            }
+
+            .nav-links.active {
+                max-height: 600px;
+            }
+
+            .nav-links li {
+                width: 100%;
+            }
+
+            .nav-links a, .nav-trigger {
+                width: 100%;
+                padding: 15px 20px;
+                justify-content: flex-start;
+            }
+
+            .nav-dropdown {
+                position: static;
+                display: none;
+                box-shadow: none;
+                border: none;
+                background-color: #0a0a0f;
+                margin-top: 0;
+            }
+
+            .nav-dropdown.active {
+                display: flex;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            .commentaries-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .guide-section {
+                padding: 20px;
+            }
+
+            .back-to-top {
+                width: 44px;
+                height: 44px;
+                bottom: 20px;
+                right: 20px;
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            .nav-container {
+                padding: 0 15px;
+                height: 50px;
+            }
+
+            .logo {
+                font-size: 16px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .scripture-block {
+                padding: 16px;
+            }
+
+            .commentary-card {
+                padding: 16px;
+            }
+
+            .guide-section {
+                padding: 16px;
+            }
+
+            .footer-content {
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources" class="active">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <a href="/resources" class="back-link">← Back to Resources</a>
+
+        <div class="topic-label">Resources · Commentaries</div>
+        <h1>Bible Commentaries</h1>
+        <p class="subtitle">Faithful, theologically-rich commentaries to deepen your understanding of Scripture and grasp the beautiful reality of God's sovereign grace in salvation. Scripture teaches through every verse that the God who predestined the foundation of the world orchestrates all things toward His redemptive purpose.</p>
+
+        <div class="scripture-block">
+            <p>"All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work."</p>
+            <p class="scripture-ref">— 2 Timothy 3:16-17</p>
+        </div>
+
+        <h2>Whole-Bible Commentary Sets</h2>
+        <p style="color: #9a958c; margin-bottom: 24px;">Some commentaries were predestined to collect dust—these are not. Comprehensive resources that span Scripture's fullness.</p>
+
+        <div class="commentaries-grid">
+            <div class="commentary-card">
+                <h3>Matthew Henry's Complete Commentary</h3>
+                <div class="commentary-author">Matthew Henry</div>
+                <p class="commentary-description">Six volumes of devotional and practical exposition. Henry's warm, pastoral voice connects Scripture to the soul. A Reformed classic that shows how doctrine lives in daily obedience.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Accessible</span>
+                    <span class="tag category">Whole Bible</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>Calvin's Commentaries</h3>
+                <div class="commentary-author">John Calvin</div>
+                <p class="commentary-description">Twenty-two volumes of exegetical precision from the Reformer himself. Calvin's Christ-centered approach and grammatical rigor model biblical exposition. Essential for understanding election and God's sovereign will.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">Whole Bible</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>The Reformation Commentary on Scripture (IVP)</h3>
+                <div class="commentary-author">Editorial Series</div>
+                <p class="commentary-description">Primary-source expositions from Reformation theologians. See how the reformers understood grace, predestination, and biblical authority. Each volume illuminates Scripture through the eyes of those who recovered it.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">Whole Bible</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>New International Commentary on OT/NT</h3>
+                <div class="commentary-author">Various Scholars</div>
+                <p class="commentary-description">Scholarly yet accessible series by Reformed commentators. Deep linguistic analysis paired with theological insight. NICOT and NICNT maintain rigorous exegesis while honoring Scripture's authority and God's sovereignty.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">Whole Bible</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>Baker Exegetical Commentary on the NT</h3>
+                <div class="commentary-author">Various Scholars</div>
+                <p class="commentary-description">Technical yet readable New Testament exposition. Strong on original language while remaining pastoral. Helps readers see how Greek and context unlock biblical meaning about God's grace.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">New Testament</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>Crossway Classic Commentaries</h3>
+                <div class="commentary-author">Puritan/Reformation Writers</div>
+                <p class="commentary-description">Abridged editions of beloved Puritan and Reformation expositions. These concise volumes capture the theological depth and spiritual warmth of Bunyan, Owen, and contemporaries without the length.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Accessible</span>
+                    <span class="tag category">Whole Bible</span>
+                </div>
+            </div>
+        </div>
+
+        <h2>Old Testament Commentaries</h2>
+        <p style="color: #9a958c; margin-bottom: 24px;">The Old Testament reveals God's sovereign hand from creation through covenant. These commentaries help you see election woven through Israel's story.</p>
+
+        <div class="commentaries-grid">
+            <div class="commentary-card">
+                <h3>Genesis</h3>
+                <div class="commentary-author">Victor Hamilton (NICOT) or Bruce Waltke</div>
+                <p class="commentary-description">Hamilton's NICOT volume combines linguistic precision with theological sensitivity. Waltke's two-volume work is more expansive. Both help readers grasp how God's covenant program begins with chosen individuals through whom all nations are blessed.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">Old Testament</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>Psalms</h3>
+                <div class="commentary-author">James Hamilton or Derek Kidner</div>
+                <p class="commentary-description">Hamilton brings biblical theology to the Psalms, showing their Christological arc. Kidner's Tyndale commentary is warmly practical. Both reveal the psalmists wrestling with God's faithfulness and sovereignty in real circumstances.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Accessible</span>
+                    <span class="tag category">Old Testament</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>Isaiah</h3>
+                <div class="commentary-author">J. Alec Motyer or Edward Young</div>
+                <p class="commentary-description">Motyer's NICOT is the gold standard for contemporary study. Young's three volumes are exhaustive and theologically rich. Isaiah's vision of God's sovereign purposes and the Servant's redemptive work shine through both.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">Old Testament</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>Jeremiah</h3>
+                <div class="commentary-author">Charles L. Spurgeon (Exposition) or Peter Craigie</div>
+                <p class="commentary-description">Spurgeon's spiritual warmth captures Jeremiah's pastoral heart. Craigie's scholarly approach unveils Jeremiah's theology of judgment and restoration—showing how God's sovereignty includes His disciplining grace toward His chosen people.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">Old Testament</span>
+                </div>
+            </div>
+        </div>
+
+        <h2>New Testament Commentaries</h2>
+        <p style="color: #9a958c; margin-bottom: 24px;">The New Testament reveals the fullness of God's redemptive sovereignty in Christ. These commentaries illuminate how the gospel fulfills all Scripture.</p>
+
+        <div class="commentaries-grid">
+            <div class="commentary-card">
+                <h3>Romans</h3>
+                <div class="commentary-author">Douglas Moo (NICNT), Thomas Schreiner, or Martyn Lloyd-Jones</div>
+                <p class="commentary-description">Moo's NICNT combines scholarly rigor with pastoral concern. Schreiner's work excels at biblical theology. Lloyd-Jones' expository series is spiritually transformative. All three navigate Romans 9 with theological sensitivity and exegetical care.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">New Testament</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>John</h3>
+                <div class="commentary-author">D.A. Carson or Leon Morris</div>
+                <p class="commentary-description">Carson's volume is the most theologically rich, showing John's Christology and sovereignty themes. Morris brings warmth and clarity. Both reveal how John presents Jesus as the sovereign Lord who brings life through chosen disciples.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">New Testament</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>Ephesians</h3>
+                <div class="commentary-author">Peter O'Brien, Harold Hoehner, or Martyn Lloyd-Jones</div>
+                <p class="commentary-description">O'Brien's NICNT is theologically masterful on election and God's purpose. Hoehner's verse-by-verse work is exhaustive. Lloyd-Jones brings Ephesians alive spiritually. All illuminate God's predetermined plan and our adoption in Christ.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">New Testament</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>Hebrews</h3>
+                <div class="commentary-author">John Owen or Philip Hughes</div>
+                <p class="commentary-description">Owen's exposition is the Mt. Everest of Puritan theology—dense but incomparable on Christ's priesthood and God's covenant. Hughes brings clarity and spiritual insight. Both show how Hebrews demonstrates Christ as the fulfillment of all Scripture.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Scholarly</span>
+                    <span class="tag category">New Testament</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>1 John</h3>
+                <div class="commentary-author">Robert Yarbrough (NICNT) or John Stott</div>
+                <p class="commentary-description">Yarbrough provides fresh exegetical insight with pastoral warmth. Stott's beloved volume connects doctrine to daily discipleship. Both help readers see how John assures believers of their election and God's love in the midst of a hostile world.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Accessible</span>
+                    <span class="tag category">New Testament</span>
+                </div>
+            </div>
+        </div>
+
+        <h2>Commentaries on Election &amp; God's Sovereignty</h2>
+        <p style="color: #9a958c; margin-bottom: 24px;">These works dive deep into the biblical logic of God's sovereign choice. They help readers see the harmony between God's predetermination and human responsibility.</p>
+
+        <div class="commentaries-grid">
+            <div class="commentary-card">
+                <h3>The Justification of God</h3>
+                <div class="commentary-author">John Piper</div>
+                <p class="commentary-description">Piper's exposition of Romans 9 is brilliant and thorough. He shows how Scripture teaches that God's sovereignty over salvation is not arbitrary but rooted in His justice and grace. A tour de force of biblical theology and pastoral wisdom.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">Election</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>Still Sovereign</h3>
+                <div class="commentary-author">Thomas Schreiner</div>
+                <p class="commentary-description">A biblical theology of God's sovereign grace. Schreiner synthesizes Scripture's witness to predestination across Old and New Testaments. Rigorous, pastoral, and deeply encouraging for those grappling with God's electing love.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">Election</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>Chosen for Life</h3>
+                <div class="commentary-author">Sam Storms</div>
+                <p class="commentary-description">A warm, biblical case for God's sovereign election. Storms navigates the tension between God's choice and human response with clarity and compassion. Designed for both new readers and those deepening their understanding of biblical predestination.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Accessible</span>
+                    <span class="tag category">Election</span>
+                </div>
+            </div>
+
+            <div class="commentary-card">
+                <h3>The Potter's Freedom</h3>
+                <div class="commentary-author">James White</div>
+                <p class="commentary-description">A comprehensive biblical and theological defense of God's sovereignty in election. White examines the key texts, refutes objections, and shows how predestination glorifies God and assures believers. Thorough and intellectually robust.</p>
+                <div class="commentary-tags">
+                    <span class="tag difficulty">Intermediate</span>
+                    <span class="tag category">Election</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="guide-section">
+            <h3>How to Read a Commentary</h3>
+            <ul>
+                <li><strong>Understand its purpose:</strong> Some commentaries are devotional (Henry, Lloyd-Jones) and warm the heart. Others are technical (NICNT, BECNT) and train the mind in exegesis. Scholarly works (Owen, Young) go deep. Choose the right tool for your need.</li>
+                <li><strong>Read the Bible first:</strong> Always read the Scripture passage before consulting the commentary. Let the text speak, then let the commentator illuminate.</li>
+                <li><strong>Cross-reference multiple views:</strong> No single commentator sees everything. Comparing 2-3 commentaries on a passage prevents blind spots and deepens understanding.</li>
+                <li><strong>Pay attention to the original languages:</strong> Commentaries that note Hebrew and Greek help you see nuances your English Bible may mask. This is where exegesis becomes treasure-hunting.</li>
+                <li><strong>Connect to theology:</strong> Watch for how commentators show how a passage connects to the whole Bible's message about God's sovereignty, redemption, and Christ. This transforms study into worship.</li>
+                <li><strong>Apply to discipleship:</strong> The best commentary helps you see not just what the text means, but how it shapes your love for Christ and obedience to Him.</li>
+            </ul>
+        </div>
+
+        <h2>Continue Your Journey</h2>
+        <p style="color: #9a958c; margin-bottom: 24px;">Explore these related resources to deepen your understanding of Scripture, church history, and God's redemptive plan.</p>
+
+        <div class="journey-grid">
+            <div class="journey-card">
+                <a href="/resources-books">Bible Study Books</a>
+                <p>Systematic theologies, biblical histories, and works that synthesize Scripture's teaching on God's sovereignty.</p>
+            </div>
+            <div class="journey-card">
+                <a href="/resources-sermons">Sermon Series</a>
+                <p>Expository preaching that brings commentaries alive. Hear God's Word proclaimed with theological depth and spiritual passion.</p>
+            </div>
+            <div class="journey-card">
+                <a href="/resources-glossary">Theological Glossary</a>
+                <p>Define terms like election, predestination, foreknowledge, and covenant. Build vocabulary for deeper theological understanding.</p>
+            </div>
+            <div class="journey-card">
+                <a href="/resources-study-guides">Study Guides</a>
+                <p>Interactive workbooks and questions to help you dig into Scripture alongside your commentary. Study that transforms.</p>
+            </div>
+            <div class="journey-card">
+                <a href="/theologians">Theologians & Church Fathers</a>
+                <p>Meet the giants—Augustine, Calvin, Edwards, and others. See how the church's greatest minds grasped God's sovereignty across centuries.</p>
+            </div>
+            <div class="journey-card">
+                <a href="/systematic-theology">Systematic Theology</a>
+                <p>Scripture's teaching organized by doctrine. See how predestination, grace, and Christ's work connect to form the unified message of the gospel.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                    <li><a href="/resources-confessions">Creeds &amp; Confessions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/stories">Stories &amp; Parables</a></li>
+                    <li><a href="/pastoral-assurance">Pastoral</a></li>
+                    <li><a href="/secular-philosophy-free-will">Secular Evidence</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/">Home</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 Adopted by Grace — Soli Deo Gloria
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script>
+        // Navigation hamburger toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        if (hamburger) {
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navLinks.classList.toggle('active');
+                hamburger.setAttribute('aria-expanded', hamburger.classList.contains('active'));
+            });
+
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.classList.remove('active');
+                    navLinks.classList.remove('active');
+                    hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
+        // Navigation dropdown toggle
+        const navTriggers = document.querySelectorAll('.nav-trigger');
+        navTriggers.forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                e.preventDefault();
+                const dropdown = trigger.nextElementSibling;
+                const isActive = dropdown.classList.contains('active');
+
+                document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('active'));
+
+                if (!isActive) {
+                    dropdown.classList.add('active');
+                }
+            });
+        });
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-links li')) {
+                document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('active'));
+            }
+        });
+
+        // Back to top button
+        const backToTopButton = document.querySelector('.back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
