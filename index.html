@@ -91,7 +91,7 @@
         @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
 
         /* ===== TULIP SECTION ===== */
-        .tulip-section { padding: 8rem 2rem; position: relative; overflow: hidden; }
+        .tulip-section { padding: 6rem 2rem; position: relative; overflow: hidden; }
         .tulip-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.3; }
         .section-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4em; color: var(--accent-ember); text-align: center; margin-bottom: 1rem; }
         .section-title { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 800; text-align: center; margin-bottom: 1rem; }
@@ -118,7 +118,7 @@
         .tulip-card-link:hover { color: var(--accent-ember); transform: translateX(4px); }
 
         /* ===== EXPLORE HUB ===== */
-        .explore-section { padding: 8rem 2rem; position: relative; }
+        .explore-section { padding: 6rem 2rem; position: relative; }
         .explore-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-violet), transparent); opacity: 0.3; }
         .explore-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
         .explore-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 2rem 1.8rem; text-decoration: none; color: inherit; position: relative; overflow: hidden; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; }
@@ -134,7 +134,7 @@
         .explore-card.featured { grid-column: span 2; background: linear-gradient(135deg, rgba(18, 18, 26, 0.9), rgba(212, 162, 84, 0.04)); border-color: rgba(212, 162, 84, 0.2); }
 
         /* ===== CTA SECTION ===== */
-        .cta-section { padding: 8rem 2rem; text-align: center; position: relative; overflow: hidden; }
+        .cta-section { padding: 6rem 2rem; text-align: center; position: relative; overflow: hidden; }
         .cta-section::before { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 600px; height: 600px; background: radial-gradient(circle, rgba(139, 92, 246, 0.06) 0%, transparent 70%); border-radius: 50%; pointer-events: none; }
         .cta-quote { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700; font-style: italic; max-width: 700px; margin: 0 auto 0.8rem; line-height: 1.5; position: relative; z-index: 1; }
         .cta-attribution { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.15em; margin-bottom: 3rem; position: relative; z-index: 1; }
@@ -169,10 +169,17 @@
             .nav-links > li.dropdown-open > .nav-dropdown { display: block; }
             .nav-dropdown a { padding: 0.6rem 2rem 0.6rem 3rem; font-size: 0.85rem; border-left: none; }
             nav .nav-container { position: relative; }
+            .hero { min-height: 70vh; }
             .hero-title { font-size: 2.8rem; }
-            .hero-verse { font-size: 1.1rem; }
-            .tulip-section { padding: 5rem 1.5rem; }
+            .hero-verse { font-size: 1.1rem; margin-top: 1.2rem; }
+            .hero-ctas { margin-top: 2rem; }
+            .hero-glow { width: 400px; height: 400px; }
+            .tulip-section { padding: 3rem 1.5rem; }
+            .explore-section { padding: 3rem 1.5rem; }
+            .cta-section { padding: 3rem 1.5rem; }
+            .cta-section::before { width: 300px; height: 300px; }
             .section-title { font-size: 2rem; }
+            .section-subtitle { margin-bottom: 2.5rem; }
             .tulip-letters { gap: 0.8rem; }
             .tulip-letter { width: 56px; height: 56px; font-size: 1.8rem; }
             .tulip-card { padding: 1.5rem; position: relative; }
@@ -180,12 +187,21 @@
             .explore-grid { grid-template-columns: 1fr; }
             .explore-card.featured { grid-column: span 1; }
             .cta-quote { font-size: 1.6rem; }
-            .hero-glow { width: 400px; height: 400px; }
         }
         @media (max-width: 480px) {
+            .hero { min-height: auto; padding: 5rem 1rem 3rem; }
             .hero-title { font-size: 2.2rem; }
+            .hero-verse { font-size: 1rem; margin-top: 1rem; }
+            .hero-ctas { margin-top: 1.5rem; }
+            .hero-glow { width: 250px; height: 250px; }
+            .tulip-section { padding: 2rem 1rem; }
+            .explore-section { padding: 2rem 1rem; }
+            .cta-section { padding: 2rem 1rem; }
+            .section-subtitle { margin-bottom: 2rem; }
             .tulip-letter { width: 48px; height: 48px; font-size: 1.5rem; }
             .tulip-reveal { min-height: 420px; }
+            .cta-quote { font-size: 1.3rem; }
+            .cta-attribution { margin-bottom: 1.5rem; }
         }
 
         /* Focus styles */
