@@ -62,6 +62,25 @@
         .nav-links > li:hover > .nav-dropdown { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
         .nav-dropdown a { display: flex; align-items: center; gap: 0.7rem; padding: 0.6rem 1.3rem; color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: all 0.2s ease; border-left: 2px solid transparent; height: auto; text-transform: none; letter-spacing: normal; }
         .nav-dropdown a:hover { color: var(--accent-gold); background: rgba(212, 162, 84, 0.05); border-left-color: var(--accent-gold); padding-left: 1.5rem; }
+        /* Nav right section */
+        .nav-right { display: flex; align-items: center; gap: 0.5rem; }
+        .nav-top-link { text-decoration: none; color: var(--text-secondary); font-size: 0.82rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.9rem; height: 56px; display: flex; align-items: center; transition: color 0.25s ease; }
+        .nav-top-link:hover { color: var(--accent-gold); }
+        .mega-toggle { background: none; border: 1px solid rgba(212, 162, 84, 0.3); border-radius: 6px; cursor: pointer; padding: 0.5rem 1rem; color: var(--accent-gold); font-family: 'Inter', sans-serif; font-size: 0.82rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; display: flex; align-items: center; gap: 0.4rem; transition: all 0.3s ease; }
+        .mega-toggle:hover { background: rgba(212, 162, 84, 0.1); border-color: var(--accent-gold); }
+        .mega-toggle.active { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); }
+        .mega-arrow { font-size: 0.55rem; transition: transform 0.3s ease; }
+        .mega-toggle.active .mega-arrow { transform: rotate(180deg); }
+
+        /* Mega panel */
+        .mega-panel { position: absolute; top: 100%; left: 0; right: 0; background: rgba(10, 10, 15, 0.98); border-bottom: 1px solid var(--border-subtle); box-shadow: 0 30px 80px rgba(0,0,0,0.6); backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); padding: 0; max-height: 0; overflow: hidden; opacity: 0; transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.4s ease; z-index: 999; }
+        .mega-panel.open { max-height: 500px; opacity: 1; padding: 2rem 0 2.5rem; }
+        .mega-inner { max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: grid; grid-template-columns: repeat(5, 1fr); gap: 2rem; }
+        .mega-col { display: flex; flex-direction: column; gap: 0.3rem; }
+        .mega-heading { font-family: 'Playfair Display', serif; font-size: 0.85rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.6rem; padding-bottom: 0.5rem; border-bottom: 1px solid rgba(212, 162, 84, 0.15); }
+        .mega-col a { text-decoration: none; color: var(--text-secondary); font-size: 0.88rem; font-weight: 500; padding: 0.35rem 0; transition: color 0.2s ease, padding-left 0.2s ease; border-left: 2px solid transparent; padding-left: 0; }
+        .mega-col a:hover { color: var(--accent-gold); border-left-color: var(--accent-gold); padding-left: 0.6rem; }
+
         .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; z-index: 1001; }
         .hamburger span { display: block; width: 24px; height: 2px; background: var(--accent-gold); margin: 5px 0; transition: all 0.3s ease; border-radius: 2px; }
         .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
@@ -182,15 +201,9 @@
         /* ===== RESPONSIVE ===== */
         @media (max-width: 968px) {
             .hamburger { display: block; }
-            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; height: auto; background: rgba(10, 10, 15, 0.98); flex-direction: column; padding: 0.5rem 0 1rem; border-bottom: 1px solid var(--border-subtle); overflow-y: auto; max-height: 85vh; }
-            .nav-links.open { display: flex; }
-            .nav-links > li { height: auto; flex-direction: column; align-items: stretch; }
-            .nav-links > li > a, .nav-links > li > .nav-trigger { height: auto; padding: 0.8rem 2rem; justify-content: space-between; font-size: 0.9rem; }
-            .nav-dropdown { position: static; transform: none; opacity: 1; visibility: visible; min-width: 100%; border: none; border-radius: 0; box-shadow: none; background: rgba(18, 18, 26, 0.5); padding: 0; display: none; }
-            .nav-links > li.dropdown-open > .nav-dropdown { display: block; }
-            .nav-links > li:hover > .nav-dropdown,
-            .nav-links > li.dropdown-open > .nav-dropdown { position: static; transform: none; opacity: 1; visibility: visible; left: 0; width: 100%; min-width: 100%; }
-            .nav-dropdown a { padding: 0.6rem 2rem 0.6rem 3rem; font-size: 0.85rem; border-left: none; }
+            .nav-right { display: none; }
+            .mega-panel.open { max-height: 80vh; overflow-y: auto; }
+            .mega-inner { grid-template-columns: 1fr 1fr; gap: 1.5rem; padding: 0 1.5rem; }
             nav .nav-container { position: relative; }
             .hero { min-height: auto; padding: 6rem 1.5rem 3rem; }
             .hero-title { font-size: 2.8rem; }
@@ -225,6 +238,9 @@
             .hero-verse { font-size: 1rem; margin-top: 1rem; }
             .hero-ctas { margin-top: 1.5rem; }
             .hero-glow { width: 250px; height: 250px; }
+            .mega-inner { grid-template-columns: 1fr; gap: 1.2rem; }
+            .mega-col { border-bottom: 1px solid rgba(212, 162, 84, 0.08); padding-bottom: 0.8rem; }
+            .mega-col:last-child { border-bottom: none; }
             .tulip-section { padding: 2rem 1rem; }
             .explore-section { padding: 2rem 1rem; }
             .never-section { padding: 2rem 1rem; }
@@ -267,54 +283,67 @@ body {
 </head>
 <body>
     <!-- NAV -->
-        <nav role="navigation" aria-label="Main navigation">
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="logo">Adopted by Grace</a>
+            <div class="nav-right">
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-toggle" aria-label="Open site menu" aria-expanded="false">
+                    Explore All <span class="mega-arrow">&#9660;</span>
+                </button>
+            </div>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
-            <ul class="nav-links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/start-here">Start Here</a></li>
-                <li><a href="/explore-map">The Map</a></li>
-                <li>
-                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/questions">The Evidence</a>
-                        <a href="/systematic-theology">Systematic Theology</a>
-                        <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/demolition-hub">Demolition Zone</a>
-                        <a href="/compare-calvinism-arminianism">Comparisons</a>
-                        <a href="/objection-why-command">Objections Answered</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/devotionals">Devotionals</a>
-                        <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/stories">Analogies</a>
-                        <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/theologians">Theologians</a>
-                        <a href="/history-timeline">Church History</a>
-                        <a href="/ot-election">OT Election</a>
-                    </div>
-                </li>
-                <li><a href="/resources">Resources</a></li>
-                <li><a href="/about">About</a></li>
-            </ul>
+        </div>
+        <!-- MEGA MENU PANEL -->
+        <div class="mega-panel" aria-hidden="true">
+            <div class="mega-inner">
+                <div class="mega-col">
+                    <h3 class="mega-heading">Doctrine</h3>
+                    <a href="/questions">The Evidence</a>
+                    <a href="/systematic-theology">Systematic Theology</a>
+                    <a href="/scripture-tsunami">Scripture Tsunami</a>
+                    <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    <a href="/quiz">Belief Assessment</a>
+                </div>
+                <div class="mega-col">
+                    <h3 class="mega-heading">Apologetics</h3>
+                    <a href="/demolition-hub">Demolition Zone</a>
+                    <a href="/compare-calvinism-arminianism">Calvinism vs Arminianism</a>
+                    <a href="/compare-calvinism-molinism">Calvinism vs Molinism</a>
+                    <a href="/compare-monergism-synergism">Monergism vs Synergism</a>
+                    <a href="/objection-author-of-sin">Objections Answered</a>
+                    <a href="/resistance-last-idol">The Last Idol</a>
+                </div>
+                <div class="mega-col">
+                    <h3 class="mega-heading">Explore</h3>
+                    <a href="/devotionals">Devotionals</a>
+                    <a href="/stories">Stories &amp; Parables</a>
+                    <a href="/pastoral-assurance">Pastoral Care</a>
+                    <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    <a href="/explore-map">The Map</a>
+                    <a href="/verse-explorer">Verse Explorer</a>
+                </div>
+                <div class="mega-col">
+                    <h3 class="mega-heading">History</h3>
+                    <a href="/theologians">Theologians</a>
+                    <a href="/history-timeline">Church History Timeline</a>
+                    <a href="/ot-election">OT Election</a>
+                    <a href="/psalms-election">Psalms &amp; Election</a>
+                    <a href="/history-golden-thread">The Golden Thread</a>
+                </div>
+                <div class="mega-col">
+                    <h3 class="mega-heading">Resources</h3>
+                    <a href="/resources">Resource Hub</a>
+                    <a href="/resources-books">Books</a>
+                    <a href="/resources-sermons">Sermons</a>
+                    <a href="/resources-study-guides">Study Guides</a>
+                    <a href="/resources-glossary">Glossary</a>
+                    <a href="/community">Community</a>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -706,42 +735,54 @@ body {
         });
     })();
 
-    // ===== HAMBURGER =====
+    // ===== MEGA MENU TOGGLE =====
     (function() {
-        const btn = document.querySelector('.hamburger');
-        const links = document.querySelector('.nav-links');
-        btn.addEventListener('click', () => {
-            btn.classList.toggle('active');
-            links.classList.toggle('open');
-            btn.setAttribute('aria-expanded', btn.classList.contains('active'));
-        });
-    })();
+        const megaToggle = document.querySelector('.mega-toggle');
+        const megaPanel = document.querySelector('.mega-panel');
+        const hamburger = document.querySelector('.hamburger');
 
-    // ===== MOBILE DROPDOWN TOGGLES =====
-    (function() {
-        const triggers = document.querySelectorAll('.nav-trigger');
-        triggers.forEach(trigger => {
-            trigger.addEventListener('click', (e) => {
-                const li = trigger.parentElement;
-                if (window.innerWidth <= 768) {
-                    e.preventDefault();
-                    li.classList.toggle('dropdown-open');
-                    document.querySelectorAll('.nav-links > li.dropdown-open').forEach(item => {
-                        if (item !== li) item.classList.remove('dropdown-open');
-                    });
-                }
+        // Desktop "Explore All" button
+        if (megaToggle && megaPanel) {
+            megaToggle.addEventListener('click', () => {
+                const isOpen = megaPanel.classList.contains('open');
+                megaPanel.classList.toggle('open');
+                megaToggle.classList.toggle('active');
+                megaToggle.setAttribute('aria-expanded', !isOpen);
+                megaPanel.setAttribute('aria-hidden', isOpen);
             });
-        });
-        document.querySelectorAll('.nav-dropdown a').forEach(a => {
-            a.addEventListener('click', () => {
-                const btn = document.querySelector('.hamburger');
-                const links = document.querySelector('.nav-links');
-                if (btn && links && window.innerWidth <= 768) {
-                    btn.classList.remove('active');
-                    links.classList.remove('open');
-                    btn.setAttribute('aria-expanded', 'false');
-                }
+        }
+
+        // Mobile hamburger opens the same mega-panel
+        if (hamburger && megaPanel) {
+            hamburger.addEventListener('click', () => {
+                const isOpen = megaPanel.classList.contains('open');
+                megaPanel.classList.toggle('open');
+                hamburger.classList.toggle('active');
+                hamburger.setAttribute('aria-expanded', !isOpen);
+                megaPanel.setAttribute('aria-hidden', isOpen);
             });
+        }
+
+        // Close mega panel when clicking a link inside it
+        if (megaPanel) {
+            megaPanel.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    megaPanel.classList.remove('open');
+                    if (megaToggle) { megaToggle.classList.remove('active'); megaToggle.setAttribute('aria-expanded', 'false'); }
+                    if (hamburger) { hamburger.classList.remove('active'); hamburger.setAttribute('aria-expanded', 'false'); }
+                    megaPanel.setAttribute('aria-hidden', 'true');
+                });
+            });
+        }
+
+        // Close on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && megaPanel && megaPanel.classList.contains('open')) {
+                megaPanel.classList.remove('open');
+                if (megaToggle) { megaToggle.classList.remove('active'); megaToggle.setAttribute('aria-expanded', 'false'); }
+                if (hamburger) { hamburger.classList.remove('active'); hamburger.setAttribute('aria-expanded', 'false'); }
+                megaPanel.setAttribute('aria-hidden', 'true');
+            }
         });
     })();
     </script>

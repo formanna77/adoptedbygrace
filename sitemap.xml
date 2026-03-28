@@ -576,6 +576,21 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://adoptedbygrace.net/start-here-assessment.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/start-here-groups.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/start-here-resources.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://adoptedbygrace.net/stories.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

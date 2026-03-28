@@ -202,6 +202,40 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             .card { padding: 1.5rem; }
             blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
         }
+
+        /* Knowledge Check Quiz */
+        .knowledge-check { margin: 3rem 0; padding: 2.5rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 12px; }
+        .knowledge-check h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--accent-gold); margin-bottom: 0.5rem; }
+        .knowledge-check .quiz-subtitle { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--text-muted); margin-bottom: 2rem; }
+        .quiz-question { margin-bottom: 2rem; }
+        .quiz-question:last-of-type { margin-bottom: 1rem; }
+        .quiz-q-text { color: var(--text-primary); font-size: 1rem; font-weight: 600; margin-bottom: 1rem; line-height: 1.6; }
+        .quiz-q-num { font-family: 'JetBrains Mono', monospace; color: var(--accent-gold); font-size: 0.8rem; margin-right: 0.5rem; }
+        .quiz-options { display: flex; flex-direction: column; gap: 0.5rem; }
+        .quiz-option { padding: 0.8rem 1.2rem; background: rgba(255,255,255,0.02); border: 1px solid var(--border-subtle); border-radius: 8px; color: var(--text-secondary); font-size: 0.9rem; cursor: pointer; transition: all 0.3s ease; line-height: 1.5; }
+        .quiz-option:hover:not(.selected) { border-color: rgba(212, 162, 84, 0.3); background: rgba(212, 162, 84, 0.04); color: var(--text-primary); }
+        .quiz-option.correct { border-color: rgba(76, 175, 80, 0.5); background: rgba(76, 175, 80, 0.08); color: #81c784; }
+        .quiz-option.incorrect { border-color: rgba(239, 83, 80, 0.4); background: rgba(239, 83, 80, 0.06); color: #e57373; }
+        .quiz-option.show-correct { border-color: rgba(76, 175, 80, 0.3); background: rgba(76, 175, 80, 0.05); color: #81c784; }
+        .quiz-option.selected { pointer-events: none; }
+        .quiz-result { margin-top: 1.5rem; padding: 1.5rem; background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.06)); border: 1px solid rgba(212, 162, 84, 0.15); border-radius: 8px; text-align: center; display: none; }
+        .quiz-result .score { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); margin-bottom: 0.5rem; }
+        .quiz-result .score-msg { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; }
+
+        /* Email Signup */
+        .email-signup { margin: 3rem 0; padding: 2.5rem; background: linear-gradient(135deg, rgba(212, 162, 84, 0.04), rgba(139, 92, 246, 0.04)); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 12px; text-align: center; }
+        .email-signup h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--text-primary); margin-bottom: 0.8rem; }
+        .email-signup p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; max-width: 500px; margin: 0 auto 1.5rem; }
+        .email-form { display: flex; gap: 0.8rem; max-width: 450px; margin: 0 auto 0.8rem; }
+        .email-form input { flex: 1; padding: 0.8rem 1.2rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 6px; color: var(--text-primary); font-size: 0.9rem; font-family: 'Inter', sans-serif; }
+        .email-form input::placeholder { color: var(--text-muted); }
+        .email-form button { padding: 0.8rem 1.5rem; background: var(--accent-gold); border: none; border-radius: 6px; color: var(--bg-deep); font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em; cursor: pointer; transition: all 0.3s ease; white-space: nowrap; }
+        .email-form button:hover { background: var(--accent-ember); }
+        .email-signup .signup-note { font-size: 0.75rem; color: var(--text-muted); font-style: italic; }
+        @media (max-width: 480px) {
+            .email-form { flex-direction: column; }
+            .knowledge-check { padding: 1.5rem; }
+        }
 </style>
     <link rel="stylesheet" href="/global.css">
 </head>
@@ -453,6 +487,68 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </div>
 
+    <!-- Knowledge Check Quiz -->
+    <div class="knowledge-check">
+        <h3>Check Your Understanding</h3>
+        <div class="quiz-subtitle">4 questions to test what you've learned</div>
+
+        <div class="quiz-question" data-correct="1">
+            <div class="quiz-q-text"><span class="quiz-q-num">Q1.</span> In John 6:44, what does Jesus say about coming to Him?</div>
+            <div class="quiz-options">
+                <div class="quiz-option">Anyone can come whenever they choose</div>
+                <div class="quiz-option">No one CAN come unless the Father draws him</div>
+                <div class="quiz-option">Only certain nations are invited</div>
+                <div class="quiz-option">Coming to Christ requires good works</div>
+            </div>
+        </div>
+
+        <div class="quiz-question" data-correct="2">
+            <div class="quiz-q-text"><span class="quiz-q-num">Q2.</span> In Romans 8:29-30 (the Golden Chain), what verb tense does Paul use for 'glorified'?</div>
+            <div class="quiz-options">
+                <div class="quiz-option">Future tense — it will happen someday</div>
+                <div class="quiz-option">Present tense — it's happening now</div>
+                <div class="quiz-option">Past tense — God considers it already done</div>
+                <div class="quiz-option">Conditional tense — it depends on perseverance</div>
+            </div>
+        </div>
+
+        <div class="quiz-question" data-correct="1">
+            <div class="quiz-q-text"><span class="quiz-q-num">Q3.</span> Acts 13:48 says 'as many as were appointed to eternal life believed.' What came first?</div>
+            <div class="quiz-options">
+                <div class="quiz-option">Their belief caused their appointment</div>
+                <div class="quiz-option">Their appointment led to their belief</div>
+                <div class="quiz-option">Both happened simultaneously by chance</div>
+                <div class="quiz-option">Luke doesn't specify an order</div>
+            </div>
+        </div>
+
+        <div class="quiz-question" data-correct="2">
+            <div class="quiz-q-text"><span class="quiz-q-num">Q4.</span> In Ezekiel 36:26, what does God promise to do?</div>
+            <div class="quiz-options">
+                <div class="quiz-option">Help people change their own hearts</div>
+                <div class="quiz-option">Reward those who seek Him first</div>
+                <div class="quiz-option">Remove the heart of stone and give a heart of flesh</div>
+                <div class="quiz-option">Give people a second chance after death</div>
+            </div>
+        </div>
+
+        <div class="quiz-result">
+            <div class="score">0 / 4</div>
+            <div class="score-msg"></div>
+        </div>
+    </div>
+
+    <!-- Email Signup CTA -->
+    <div class="email-signup">
+        <h3>Let the Word Keep Speaking</h3>
+        <p>You've seen what six passages teach. There are hundreds more. Get weekly Scripture studies on sovereign grace delivered straight to your inbox.</p>
+        <div class="email-form">
+            <input type="email" placeholder="Your email address">
+            <button>SUBSCRIBE</button>
+        </div>
+        <div class="signup-note">We'll never spam you. Soli Deo Gloria.</div>
+    </div>
+
     <div class="phase-nav">
         <a href="start-here-phase2.html" class="phase-nav-box prev">
             <div class="phase-nav-label">&larr; Previous: Phase 2</div>
@@ -532,6 +628,52 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 <script>
 (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
+
+// Knowledge Check Quiz
+document.querySelectorAll('.quiz-option').forEach(option => {
+    option.addEventListener('click', function() {
+        const question = this.closest('.quiz-question');
+        if (question.classList.contains('answered')) return;
+        question.classList.add('answered');
+
+        const options = question.querySelectorAll('.quiz-option');
+        const correctIndex = parseInt(question.dataset.correct);
+
+        options.forEach((opt, i) => {
+            opt.classList.add('selected');
+            if (i === correctIndex) {
+                opt.classList.add('correct');
+            } else if (opt === this && i !== correctIndex) {
+                opt.classList.add('incorrect');
+                options[correctIndex].classList.add('show-correct');
+            }
+        });
+
+        // Check if all questions answered
+        const allQuestions = document.querySelectorAll('.quiz-question');
+        const answeredQuestions = document.querySelectorAll('.quiz-question.answered');
+        if (allQuestions.length === answeredQuestions.length) {
+            let score = 0;
+            answeredQuestions.forEach(q => {
+                const correctIdx = parseInt(q.dataset.correct);
+                const clicked = q.querySelector('.quiz-option.correct, .quiz-option.incorrect');
+                const clickedIdx = Array.from(q.querySelectorAll('.quiz-option')).indexOf(clicked);
+                if (clickedIdx === correctIdx) score++;
+            });
+            const result = document.querySelector('.quiz-result');
+            result.style.display = 'block';
+            result.querySelector('.score').textContent = score + ' / ' + allQuestions.length;
+            const msgs = [
+                "Keep studying — the truth is worth pursuing!",
+                "Good start! Review the sections you missed and try again.",
+                "Well done! You're grasping the core truths.",
+                "Strong understanding! You're building on solid ground.",
+                "Outstanding! You've truly absorbed this material."
+            ];
+            result.querySelector('.score-msg').textContent = msgs[score];
+        }
+    });
+});
 </script>
     <script src="/global.js" defer></script>
 </body>

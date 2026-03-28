@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Analogies and illustrations that illuminate the doctrines of grace. From doctors and corpses to chess grandmasters — see what Scripture teaches through vivid metaphor.">
+    <meta property="og:title" content="Analogies &amp; Illustrations — Adopted by Grace">
+    <meta property="og:description" content="Scripture's deepest truths illuminated through vivid analogies. Total depravity, effectual calling, election, and irresistible grace — made unforgettable.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/analogies-illustrations.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Analogies &amp; Illustrations — Adopted by Grace">
+    <meta name="twitter:description" content="Scripture's deepest truths illuminated through vivid analogies.">
+    <link rel="canonical" href="https://adoptedbygrace.net/analogies-illustrations.html">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Analogies &amp; Illustrations — Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Analogies & Illustrations",
+        "description": "Vivid analogies and illustrations that illuminate the doctrines of grace — total depravity, effectual calling, election, and irresistible grace.",
+        "url": "https://adoptedbygrace.net/analogies-illustrations.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        /* Page-specific hero */
+        .page-hero {
+            position: relative;
+            padding: 10rem 2rem 5rem;
+            text-align: center;
+            overflow: hidden;
+        }
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 50% 30%, rgba(212, 162, 84, 0.08) 0%, transparent 60%),
+                        radial-gradient(ellipse at 80% 70%, rgba(139, 92, 246, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        .hero-eyebrow {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.4em;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+        }
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 900;
+            line-height: 1.15;
+            margin-bottom: 1.5rem;
+        }
+        .hero-title .gold {
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero-subtitle {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Analogy cards */
+        .analogies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        .analogy-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 2.5rem 2rem;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .analogy-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
+        .analogy-card:hover::before { transform: scaleX(1); }
+        .analogy-card:hover {
+            background: var(--bg-card-hover);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border-color: rgba(212, 162, 84, 0.25);
+        }
+        .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        .card-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--accent-gold);
+            margin-bottom: 0.75rem;
+            display: inline-block;
+        }
+        .card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            line-height: 1.3;
+        }
+        .card-desc {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 1.2rem;
+        }
+        .card-doctrine {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        .card-arrow {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            color: var(--accent-gold);
+            font-size: 1.2rem;
+            opacity: 0;
+            transform: translateX(-8px);
+            transition: all 0.3s ease;
+        }
+        .analogy-card:hover .card-arrow {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* Section intro */
+        .section-intro {
+            max-width: 800px;
+            margin: 0 auto 4rem;
+            padding: 0 2rem;
+            text-align: center;
+        }
+        .section-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+        .section-intro p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        /* Theology humor footer bar */
+        .humor-bar {
+            text-align: center;
+            padding: 3rem 2rem;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+        .humor-bar em {
+            color: var(--accent-gold);
+            font-style: normal;
+        }
+
+        /* Coming soon cards */
+        .analogy-card.coming-soon {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+        .analogy-card.coming-soon .card-label {
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 768px) {
+            .page-hero { padding: 8rem 1.5rem 3rem; }
+            .analogies-grid { grid-template-columns: 1fr; padding: 0 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/analogies-illustrations" class="active">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="page-hero">
+            <div class="hero-eyebrow">Seeing Truth Through Metaphor</div>
+            <h1 class="hero-title">Analogies &amp; <span class="gold">Illustrations</span></h1>
+            <p class="hero-subtitle">Jesus taught in parables. Paul used metaphors. The deepest truths are often grasped not through argument alone, but through a picture that lodges in your mind and refuses to leave.</p>
+        </section>
+
+        <section class="content-section reveal" style="padding: 0 0 4rem;">
+            <div class="section-intro">
+                <h2>Why Analogies Matter</h2>
+                <p>Every analogy breaks down somewhere &mdash; that&rsquo;s how you know it&rsquo;s an analogy and not the thing itself. But the best ones carry a freight of truth that no syllogism can match. They bypass the fortress walls of intellectual resistance and land directly in the courtyard of understanding. These illustrations don&rsquo;t replace Scripture &mdash; they <em>illuminate</em> it.</p>
+            </div>
+        </section>
+
+        <section class="content-section reveal" style="padding-bottom: 5rem;">
+            <div class="analogies-grid">
+
+                <a href="/analogy-doctor-corpse" class="analogy-card">
+                    <span class="card-icon">🩺</span>
+                    <span class="card-label">Total Depravity &amp; Regeneration</span>
+                    <h3 class="card-title">The Doctor and the Corpse</h3>
+                    <p class="card-desc">A doctor walks into a morgue and offers the corpse a cure. The corpse doesn&rsquo;t refuse &mdash; it <em>can&rsquo;t respond at all</em>. This is the human condition before God acts.</p>
+                    <span class="card-doctrine">Ephesians 2:1&ndash;5 &bull; John 5:21</span>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+                <a href="/analogy-lazarus-grave" class="analogy-card">
+                    <span class="card-icon">🪦</span>
+                    <span class="card-label">Effectual Calling</span>
+                    <h3 class="card-title">Lazarus and the Grave</h3>
+                    <p class="card-desc">Jesus didn&rsquo;t ask permission. He didn&rsquo;t wait for faith. He spoke, and a dead man walked. The voice that creates is the voice that resurrects.</p>
+                    <span class="card-doctrine">John 11:43 &bull; John 10:27&ndash;28</span>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+                <a href="/analogy-chess-grandmaster" class="analogy-card">
+                    <span class="card-icon">♟️</span>
+                    <span class="card-label">Sovereignty &amp; Responsibility</span>
+                    <h3 class="card-title">The Chess Grandmaster</h3>
+                    <p class="card-desc">Every piece moves freely on the board. But the Grandmaster saw checkmate before the first pawn advanced. Freedom and sovereignty are not enemies.</p>
+                    <span class="card-doctrine">Genesis 50:20 &bull; Acts 2:23</span>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+                <a href="/analogy-light-switch" class="analogy-card">
+                    <span class="card-icon">💡</span>
+                    <span class="card-label">Conditions vs. Causes</span>
+                    <h3 class="card-title">The Light Switch</h3>
+                    <p class="card-desc">Flipping the switch is the <em>condition</em> for light, but electricity is the <em>cause</em>. Faith is the condition for salvation, but God&rsquo;s grace is the cause. The question is: who flips the switch?</p>
+                    <span class="card-doctrine">Ephesians 2:8&ndash;9 &bull; Philippians 1:29</span>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+                <a href="/analogy-adoption" class="analogy-card">
+                    <span class="card-icon">📜</span>
+                    <span class="card-label">Election &amp; Irresistible Grace</span>
+                    <h3 class="card-title">The Adoption</h3>
+                    <p class="card-desc">An orphan doesn&rsquo;t choose to be adopted &mdash; the parent chooses the child. And when the papers are signed, no court in the universe can reverse it.</p>
+                    <span class="card-doctrine">Ephesians 1:4&ndash;5 &bull; Romans 8:15</span>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+                <div class="analogy-card coming-soon">
+                    <span class="card-icon">🏺</span>
+                    <span class="card-label">Coming Soon</span>
+                    <h3 class="card-title">The Potter and the Clay</h3>
+                    <p class="card-desc">The clay doesn&rsquo;t interview the potter. It doesn&rsquo;t submit a r&eacute;sum&eacute;. It doesn&rsquo;t negotiate its shape. And it certainly doesn&rsquo;t complain about the design.</p>
+                    <span class="card-doctrine">Romans 9:20&ndash;21 &bull; Isaiah 64:8</span>
+                </div>
+
+                <div class="analogy-card coming-soon">
+                    <span class="card-icon">💍</span>
+                    <span class="card-label">Coming Soon</span>
+                    <h3 class="card-title">The Marriage</h3>
+                    <p class="card-desc">A bride in a coma is awakened by her bridegroom. She didn&rsquo;t propose. She didn&rsquo;t say yes first. He chose her, revived her, and <em>then</em> she loved Him.</p>
+                    <span class="card-doctrine">Ephesians 5:25&ndash;27 &bull; Hosea 2:19&ndash;20</span>
+                </div>
+
+                <div class="analogy-card coming-soon">
+                    <span class="card-icon">⚖️</span>
+                    <span class="card-label">Coming Soon</span>
+                    <h3 class="card-title">The Master and the Servant</h3>
+                    <p class="card-desc">Two masters claim to set you free. One hands you the key and walks away. The other breaks down the door, carries you out, and never lets go.</p>
+                    <span class="card-doctrine">John 8:36 &bull; Romans 6:17&ndash;18</span>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="humor-bar">
+            <p>These analogies have been <em>irresistibly</em> selected for your reading. &mdash; You&rsquo;re welcome. Or rather, <em>He&rsquo;s</em> welcome.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="/global.js" defer></script>
+</body>
+</html>
