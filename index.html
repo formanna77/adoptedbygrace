@@ -46,13 +46,20 @@
         body { background: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.6; overflow-x: hidden; }
 
         /* ===== NAV ===== */
-        nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(10, 10, 15, 0.6); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(212, 162, 84, 0.08); padding: 1rem 2rem; transition: background 0.4s ease, padding 0.4s ease; }
-        nav.scrolled { background: rgba(10, 10, 15, 0.92); padding: 0.7rem 2rem; }
-        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0.1em; text-decoration: none; }
-        .nav-links { display: flex; gap: 2rem; list-style: none; }
-        .nav-links a { text-decoration: none; color: var(--text-secondary); font-size: 0.95rem; transition: color 0.3s ease; font-weight: 500; }
-        .nav-links a:hover, .nav-links a.active { color: var(--accent-gold); }
+        nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(10, 10, 15, 0.6); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(212, 162, 84, 0.08); transition: background 0.4s ease; }
+        nav.scrolled { background: rgba(10, 10, 15, 0.92); }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 2rem; height: 56px; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 0.85rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0.15em; text-decoration: none; text-transform: uppercase; white-space: nowrap; }
+        .nav-links { display: flex; gap: 0; list-style: none; height: 56px; align-items: stretch; }
+        .nav-links > li { position: relative; display: flex; align-items: center; }
+        .nav-links a, .nav-links .nav-trigger { text-decoration: none; color: var(--text-secondary); font-size: 0.82rem; transition: color 0.25s ease; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.9rem; height: 56px; display: flex; align-items: center; gap: 0.3rem; cursor: pointer; background: none; border: none; font-family: inherit; }
+        .nav-links a:hover, .nav-links a.active, .nav-links li:hover > .nav-trigger { color: var(--accent-gold); }
+        .nav-arrow { font-size: 0.55rem; transition: transform 0.3s ease; opacity: 0.5; }
+        .nav-links li:hover .nav-arrow { transform: rotate(180deg); opacity: 1; }
+        .nav-dropdown { position: absolute; top: 100%; left: 50%; transform: translateX(-50%) translateY(8px); min-width: 220px; background: rgba(14, 14, 22, 0.97); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 0.6rem 0; opacity: 0; visibility: hidden; transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease; box-shadow: 0 20px 60px rgba(0,0,0,0.5); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); z-index: 100; }
+        .nav-links > li:hover > .nav-dropdown { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+        .nav-dropdown a { display: flex; align-items: center; gap: 0.7rem; padding: 0.6rem 1.3rem; color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: all 0.2s ease; border-left: 2px solid transparent; height: auto; text-transform: none; letter-spacing: normal; }
+        .nav-dropdown a:hover { color: var(--accent-gold); background: rgba(212, 162, 84, 0.05); border-left-color: var(--accent-gold); padding-left: 1.5rem; }
         .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; z-index: 1001; }
         .hamburger span { display: block; width: 24px; height: 2px; background: var(--accent-gold); margin: 5px 0; transition: all 0.3s ease; border-radius: 2px; }
         .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
@@ -154,11 +161,13 @@
         /* ===== RESPONSIVE ===== */
         @media (max-width: 768px) {
             .hamburger { display: block; }
-            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: rgba(10, 10, 15, 0.98); flex-direction: column; padding: 1rem 2rem 2rem; gap: 0; border-bottom: 1px solid var(--border-subtle); }
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; height: auto; background: rgba(10, 10, 15, 0.98); flex-direction: column; padding: 0.5rem 0 1rem; border-bottom: 1px solid var(--border-subtle); overflow-y: auto; max-height: 85vh; }
             .nav-links.open { display: flex; }
-            .nav-links li { padding: 0.7rem 0; border-bottom: 1px solid rgba(212, 162, 84, 0.08); }
-            .nav-links li:last-child { border-bottom: none; }
-            .nav-links a { font-size: 1.1rem; display: block; }
+            .nav-links > li { height: auto; flex-direction: column; align-items: stretch; }
+            .nav-links > li > a, .nav-links > li > .nav-trigger { height: auto; padding: 0.8rem 2rem; justify-content: space-between; font-size: 0.9rem; }
+            .nav-dropdown { position: static; transform: none; opacity: 1; visibility: visible; min-width: 100%; border: none; border-radius: 0; box-shadow: none; background: rgba(18, 18, 26, 0.5); padding: 0; display: none; }
+            .nav-links > li.dropdown-open > .nav-dropdown { display: block; }
+            .nav-dropdown a { padding: 0.6rem 2rem 0.6rem 3rem; font-size: 0.85rem; border-left: none; }
             nav .nav-container { position: relative; }
             .hero-title { font-size: 2.8rem; }
             .hero-verse { font-size: 1.1rem; }
@@ -197,36 +206,36 @@
                 <li>
                     <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
                     <div class="nav-dropdown">
-                        <a href="/questions"><span class="dropdown-icon">&#9876;</span> The Evidence</a>
-                        <a href="/systematic-theology-hub"><span class="dropdown-icon">&#128220;</span> Systematic Theology</a>
-                        <a href="/scripture-tsunami"><span class="dropdown-icon">&#127754;</span> Scripture Tsunami</a>
-                        <a href="/creeds-confessions"><span class="dropdown-icon">&#128216;</span> Creeds &amp; Confessions</a>
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology-hub">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
                     <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
                     <div class="nav-dropdown">
-                        <a href="/demolition-hub"><span class="dropdown-icon">&#128293;</span> Demolition Zone</a>
-                        <a href="/compare-calvinism-arminianism"><span class="dropdown-icon">&#9878;</span> Comparisons</a>
-                        <a href="/objection-why-command"><span class="dropdown-icon">&#128172;</span> Objections Answered</a>
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
                     </div>
                 </li>
                 <li>
                     <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
                     <div class="nav-dropdown">
-                        <a href="/devotionals"><span class="dropdown-icon">&#128156;</span> Devotionals</a>
-                        <a href="/stories"><span class="dropdown-icon">&#128214;</span> Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations"><span class="dropdown-icon">&#128161;</span> Analogies</a>
-                        <a href="/pastoral-assurance"><span class="dropdown-icon">&#128588;</span> Pastoral</a>
-                        <a href="/secular-evidence"><span class="dropdown-icon">&#128300;</span> Secular Evidence</a>
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-evidence">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
                     <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
                     <div class="nav-dropdown">
-                        <a href="/theologians"><span class="dropdown-icon">&#9733;</span> Theologians</a>
-                        <a href="/history-timeline"><span class="dropdown-icon">&#128197;</span> Church History</a>
-                        <a href="/ot-election"><span class="dropdown-icon">&#128220;</span> OT Election</a>
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
                     </div>
                 </li>
                 <li><a href="/resources">Resources</a></li>
@@ -334,37 +343,31 @@
 
         <div class="explore-grid">
             <a href="/questions" class="explore-card featured reveal reveal-delay-1">
-                <span class="explore-card-icon">&#9876;</span>
                 <div class="explore-card-title">The Evidence</div>
                 <div class="explore-card-desc">The irrefutable biblical case for sovereign grace — verse by verse, question by question. Every objection answered. Every text examined.</div>
                 <div class="explore-card-count">40+ PAGES OF EVIDENCE</div>
             </a>
             <a href="/demolition-hub" class="explore-card reveal reveal-delay-2">
-                <span class="explore-card-icon">&#128293;</span>
                 <div class="explore-card-title">Demolition Zone</div>
                 <div class="explore-card-desc">Point-by-point dismantling of anti-Reformed articles, Arminian proof texts, and theological errors.</div>
                 <div class="explore-card-count">VERSE-BY-VERSE DEMOLITIONS</div>
             </a>
             <a href="/systematic-theology-hub" class="explore-card reveal reveal-delay-2">
-                <span class="explore-card-icon">&#128220;</span>
                 <div class="explore-card-title">Systematic Theology</div>
                 <div class="explore-card-desc">The full theological framework — from the divine decrees to the ordo salutis to eschatology.</div>
                 <div class="explore-card-count">DEEP DOCTRINE</div>
             </a>
             <a href="/theologians" class="explore-card reveal reveal-delay-3">
-                <span class="explore-card-icon">&#9733;</span>
                 <div class="explore-card-title">The Theologians</div>
                 <div class="explore-card-desc">Augustine, Calvin, Edwards, Spurgeon, Owen — the giants who championed sovereign grace.</div>
                 <div class="explore-card-count">CHURCH HISTORY</div>
             </a>
             <a href="/devotionals" class="explore-card reveal reveal-delay-3">
-                <span class="explore-card-icon">&#128156;</span>
                 <div class="explore-card-title">Devotionals</div>
                 <div class="explore-card-desc">Short, meditative reflections that move the heart — where doctrine becomes worship.</div>
                 <div class="explore-card-count">HEART & SOUL</div>
             </a>
             <a href="/start-here" class="explore-card reveal reveal-delay-4">
-                <span class="explore-card-icon">&#10140;</span>
                 <div class="explore-card-title">Start Here</div>
                 <div class="explore-card-desc">New to Reformed theology? Start with a guided journey from curiosity to conviction.</div>
                 <div class="explore-card-count">YOUR JOURNEY BEGINS</div>
@@ -573,6 +576,34 @@
             btn.classList.toggle('active');
             links.classList.toggle('open');
             btn.setAttribute('aria-expanded', btn.classList.contains('active'));
+        });
+    })();
+
+    // ===== MOBILE DROPDOWN TOGGLES =====
+    (function() {
+        const triggers = document.querySelectorAll('.nav-trigger');
+        triggers.forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                const li = trigger.parentElement;
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    li.classList.toggle('dropdown-open');
+                    document.querySelectorAll('.nav-links > li.dropdown-open').forEach(item => {
+                        if (item !== li) item.classList.remove('dropdown-open');
+                    });
+                }
+            });
+        });
+        document.querySelectorAll('.nav-dropdown a').forEach(a => {
+            a.addEventListener('click', () => {
+                const btn = document.querySelector('.hamburger');
+                const links = document.querySelector('.nav-links');
+                if (btn && links && window.innerWidth <= 768) {
+                    btn.classList.remove('active');
+                    links.classList.remove('open');
+                    btn.setAttribute('aria-expanded', 'false');
+                }
+            });
         });
     })();
     </script>
