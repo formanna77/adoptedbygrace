@@ -105,6 +105,8 @@
 - `devotional-not-my-will-but-joy.html` — **NEW** "Not My Will, But Joy" — Surrendering to God's will (Ps 115:3)
 - `devotional-good-i-cannot-do.html` — **NEW** "The Good That I Cannot Do" — Inability and dependence (Rom 7:18)
 - `devotional-weakness-of-gods-strength.html` — **NEW** "The Weakness of God's Strength" — Sovereignty in suffering (2 Cor 12:9)
+- `question-2tim1-9.html` — **NEW** 2 Timothy 1:9 deep-dive: "Not Because of Our Works" — grace given before the ages began
+- `question-titus3.html` — **NEW** Titus 3:3-7 deep-dive: "Not Because of Works Done by Us" — the gospel in miniature
 
 ### Design System
 - Dark dramatic aesthetic (#0a0a0f bg, gold/ember/violet accents)
@@ -130,8 +132,8 @@
 - [x] **Total Depravity deep-dive** — Romans 3:10-18, Eph 2:1-3, Gen 6:5. Man's complete inability. → `question-depravity.html`
 - [x] **Irresistible Grace deep-dive** — John 6:37, Phil 1:29, Acts 16:14. Effectual calling. → `question-irresistible.html`
 - [x] **Perseverance of the Saints** — John 10:28-29, Rom 8:35-39, Phil 1:6. Eternal security grounded in God's character. → `question-perseverance.html`
-- [ ] **2 Timothy 1:9 page** — "saved us...not because of our works but because of his own purpose and grace"
-- [ ] **Titus 3:3-7 page** — "not because of works done by us in righteousness"
+- [x] **2 Timothy 1:9 page** — "saved us...not because of our works but because of his own purpose and grace" → `question-2tim1-9.html` ✅ (2026-03-28 Content Builder)
+- [x] **Titus 3:3-7 page** — "not because of works done by us in righteousness" → `question-titus3.html` ✅ (2026-03-28 Content Builder)
 - [ ] **1 Peter 1:1-2 page** — "elect exiles...according to the foreknowledge of God"
 - [ ] **Revelation 13:8 / 17:8 page** — "names written before the foundation of the world"
 
@@ -329,6 +331,13 @@
 ---
 
 ## Session Log
+
+### 2026-03-28 — Content Builder: 2 New Core Doctrine Pages
+- **`question-2tim1-9.html`** — "Not Because of Our Works" — 2 Timothy 1:9 deep-dive (~1340 lines). Full ESV text with context, 6 Greek word studies (σώσαντος, καλέσαντος, κλήσει ἁγίᾳ, πρόθεσιν, χάριν, πρὸ χρόνων αἰωνίων), 7 theological arguments, 7 objections answered, 4 theologian quotes (Calvin, Spurgeon, Owen, Augustine), further reading, cross-references.
+- **`question-titus3.html`** — "Not Because of Works Done by Us" — Titus 3:3-7 deep-dive (~1340 lines). Full ESV text, 6 Greek word studies (ἀνόητοι, ἔσωσεν, οὐκ ἐξ ἔργων, ἔλεος, παλιγγενεσίας, ἀνακαινώσεως), 7 arguments, 7 objections answered, 4 theologian quotes (Calvin, Luther, Spurgeon, Owen).
+- **questions.html updated** — Added cards #21 (2 Tim 1:9) and #22 (Titus 3:3-7) to the Evidence hub
+- **Cross-references added** — Added "Continue Exploring" links to question-2tim1-9.html on 5 related pages: question-chosen, question-goldchain, question-boasting, question-romans9, systematic-ordo-salutis
+- **Current page count:** 82+ HTML files
 
 ### 2026-03-27 — Architect Session 2: Mobile Menu, Accessibility, UX, & Quality Sweep (80 pages)
 - **Responsive Hamburger Menu** — Added to all 80 pages: 3-bar animated toggle button, slide-down nav at 768px breakpoint, ARIA `aria-expanded` state management, click-to-toggle JS
