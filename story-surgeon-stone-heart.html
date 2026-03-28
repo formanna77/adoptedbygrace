@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern parable about a heart surgeon who operates on a patient who never asked for a new heart — and wakes up alive for the first time. A story about regeneration and sovereign grace.">
+    <meta property="og:title" content="The Surgeon and the Stone Heart — A Modern Parable">
+    <meta property="og:description" content="A heart surgeon operates on a patient who never asked, never consented, and couldn't. When she wakes, everything has changed. A story about the new birth.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/story-surgeon-stone-heart.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The Surgeon and the Stone Heart — A Modern Parable">
+    <meta name="twitter:description" content="A heart surgeon operates on a patient who never asked, never consented, and couldn't. When she wakes, everything has changed.">
+    <link rel="canonical" href="https://adoptedbygrace.net/story-surgeon-stone-heart.html">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>The Surgeon and the Stone Heart — A Modern Parable | Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Surgeon and the Stone Heart — A Modern Parable",
+        "description": "A modern parable about regeneration and sovereign grace. A heart surgeon operates on a patient who never asked for a new heart — and she wakes up alive for the first time.",
+        "url": "https://adoptedbygrace.net/story-surgeon-stone-heart.html",
+        "genre": "Parable",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://adoptedbygrace.net/story-surgeon-stone-heart.html"
+        }
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg-deep: #0d0b08;
+            --bg-card: #14120e;
+            --bg-card-hover: #1c1914;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        body {
+            background-color: #0d0b08;
+            background-color: var(--bg-deep);
+            color: #f0ece4;
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            overflow-x: hidden;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(13, 11, 8, 0.88);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.1em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--accent-gold);
+        }
+
+        /* Skip Link */
+        .skip-to-content {
+            position: absolute;
+            top: -100px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 0.5rem 1rem;
+            z-index: 2000;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .skip-to-content:focus { top: 0; }
+
+        /* Story Header */
+        .story-header {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 4rem 2rem 2rem;
+            text-align: center;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: opacity 0.3s ease;
+        }
+        .back-link:hover { opacity: 0.7; }
+
+        .story-type-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            color: var(--accent-gold);
+            opacity: 0.7;
+            margin-bottom: 1.2rem;
+        }
+
+        .story-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 800;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.2rem;
+        }
+
+        .story-header .subtitle {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .story-divider {
+            width: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
+            margin: 2.5rem auto;
+            border: none;
+        }
+
+        /* Story Body */
+        .story-body {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 2rem 3rem;
+        }
+
+        .story-body p {
+            font-size: 1.08rem;
+            line-height: 1.95;
+            color: var(--text-primary);
+            margin-bottom: 1.6rem;
+            text-indent: 0;
+        }
+
+        .story-body p.scene-break {
+            text-align: center;
+            margin: 2.5rem 0;
+            color: var(--accent-gold);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1rem;
+            letter-spacing: 0.5em;
+            text-indent: 0;
+        }
+
+        .story-body .first-letter::first-letter {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.8rem;
+            float: left;
+            line-height: 0.8;
+            padding-right: 0.1em;
+            padding-top: 0.08em;
+            color: var(--accent-gold);
+            font-weight: 800;
+        }
+
+        .story-body em {
+            font-style: italic;
+            color: var(--text-primary);
+        }
+
+        .story-body strong {
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        /* Doctrine Section */
+        .doctrine-section {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 2rem 3rem;
+        }
+
+        .doctrine-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 2.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .doctrine-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
+        }
+
+        .doctrine-box h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 1.2rem;
+            color: var(--accent-gold);
+        }
+
+        .doctrine-box p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .doctrine-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .scripture-ref {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.03em;
+        }
+
+        .verse-block {
+            border-left: 3px solid var(--accent-gold);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            background: rgba(212, 162, 84, 0.04);
+            border-radius: 0 6px 6px 0;
+        }
+
+        .verse-block p {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--text-primary);
+        }
+
+        .verse-block cite {
+            display: block;
+            margin-top: 0.5rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.78rem;
+            color: var(--accent-gold);
+            font-style: normal;
+            letter-spacing: 0.05em;
+        }
+
+        /* Related Section */
+        .related-section {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 2rem 3rem;
+        }
+
+        .related-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            margin-bottom: 1.2rem;
+            color: var(--text-primary);
+        }
+
+        .related-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .related-link {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            padding: 1.2rem 1.5rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .related-link:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(212, 162, 84, 0.25);
+            transform: translateX(4px);
+        }
+
+        .related-link .link-type {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--accent-gold);
+            white-space: nowrap;
+            min-width: 80px;
+        }
+
+        .related-link .link-title {
+            font-size: 0.95rem;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .related-link .link-arrow {
+            margin-left: auto;
+            color: var(--accent-gold);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .related-link:hover .link-arrow {
+            opacity: 1;
+        }
+
+        /* Share Section */
+        .share-section {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .share-section p {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 0.5rem;
+        }
+
+        .share-section .share-sub {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 4rem;
+            padding: 3rem 2rem 2rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            color: var(--accent-gold);
+            margin-bottom: 0.8rem;
+        }
+
+        .footer-section ul { list-style: none; }
+
+        .footer-section a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover { color: var(--accent-gold); }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        /* Hamburger Menu */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            z-index: 1100;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+
+        .hamburger span {
+            width: 24px;
+            height: 2px;
+            background: var(--text-secondary);
+            transition: all 0.3s ease;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hamburger { display: flex; }
+
+            .nav-links {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(13, 11, 8, 0.97);
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                z-index: 1050;
+            }
+
+            .nav-links.open { display: flex; }
+
+            .nav-links a {
+                font-size: 1.3rem;
+            }
+
+            nav {
+                padding: 0.8rem 1.5rem;
+            }
+
+            .story-header {
+                padding: 3rem 1.5rem 1.5rem;
+            }
+
+            .story-header h1 {
+                font-size: 2rem;
+            }
+
+            .story-body,
+            .doctrine-section,
+            .related-section,
+            .share-section {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+            }
+
+            .story-body p {
+                font-size: 1.02rem;
+                line-height: 1.85;
+            }
+
+            .story-body .first-letter::first-letter {
+                font-size: 3rem;
+            }
+
+            .doctrine-box {
+                padding: 1.8rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .story-header h1 {
+                font-size: 1.7rem;
+            }
+
+            .story-header .subtitle {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="start-here.html" class="active">Start Here</a></li>
+                <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
+                <li><a href="demolition-hub.html">Demolition</a></li>
+                <li><a href="theologians.html">Theologians</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Story Header -->
+    <header class="story-header" id="main-content">
+        <a href="stories.html" class="back-link">&larr; Back to Stories</a>
+        <div class="story-type-label">A Modern Parable &middot; Regeneration</div>
+        <h1>The Surgeon and the Stone Heart</h1>
+        <p class="subtitle">She never asked for a new heart. She couldn't. Dead patients don't fill out consent forms.</p>
+    </header>
+
+    <hr class="story-divider">
+
+    <!-- Story Body -->
+    <article class="story-body">
+        <p class="first-letter">The file said her name was Miriam Cole. Thirty-one years old. Brown hair, brown eyes, five foot six. The numbers in the file were unremarkable — blood pressure, height, weight — everything within normal range. But Dr. Elias Hartmann did not look at numbers. He looked at hearts. And Miriam Cole's heart was made of stone.</p>
+
+        <p>Not metaphorically. Not in the way a poet means when he says a cruel woman has a heart of stone. Miriam's heart was literally calcified — a condition so rare it had no name, only a number in the International Classification of Diseases. The muscle tissue had been replaced, cell by cell, with calcium deposits so dense they appeared white on the scan, like a fist of marble sitting in her chest. And yet — this was the part that baffled every cardiologist who reviewed the case — she was alive.</p>
+
+        <p>Technically alive.</p>
+
+        <p>Her blood still moved. Her lungs still drew air. She could walk to the mailbox, buy groceries, hold a conversation about the weather. She could laugh, though those who knew her said it always sounded thin, like a wind chime in a room with no windows. She could cry, though she hadn't in years. She had forgotten why people did that.</p>
+
+        <p>She did not know she was dying. That was the cruelest part. The calcification was gradual — so slow that she had adjusted to each tiny loss without noticing it. The way you don't notice a room getting darker when the sun sets, because your eyes adjust. The way you don't notice the cold when it comes in degrees.</p>
+
+        <p>She thought this was what living felt like.</p>
+
+        <p class="scene-break">&bull; &bull; &bull;</p>
+
+        <p>Dr. Hartmann had performed seven hundred and twelve heart transplants. He had hands that could suture a vessel thinner than a human hair. He had eyes that could read a cardiac rhythm the way a conductor reads a score — every flutter, every pause, every silence that should have been a beat. He was, by every measure available to modern medicine, the finest heart surgeon in the world.</p>
+
+        <p>But he was not famous for his skill.</p>
+
+        <p>He was famous for his choosing.</p>
+
+        <p>Dr. Hartmann did not accept referrals. He did not take appointments. He did not advertise, did not publish in journals, did not attend conferences where desperate families could corner him with scans and pleas. He simply appeared. He would walk into a hospital — sometimes in Boston, sometimes in Bangalore, sometimes in a village clinic with no running water — and he would ask to see the files. Not all the files. Specific files. Files of patients who had never heard his name.</p>
+
+        <p>He chose them.</p>
+
+        <p>This infuriated people. Colleagues called it arrogance. Ethicists called it injustice. The families of patients he passed over called it cruelty. <em>Why her and not my daughter? Why him and not my father? What did they do to deserve it?</em></p>
+
+        <p>And Dr. Hartmann, when he answered at all, said the same thing every time: "They didn't."</p>
+
+        <p class="scene-break">&bull; &bull; &bull;</p>
+
+        <p>Miriam Cole did not know that Dr. Hartmann had chosen her. She did not know her name was in his file. She did not know that for reasons she would never fully understand, he had looked at her chart — at the stone heart sitting in her chest like a dead star — and said to his team, in a voice so quiet it was almost a prayer: "This one."</p>
+
+        <p>She did not know because she was unconscious when they brought her in. The calcification had finally reached a tipping point — a Thursday afternoon in October, standing in line at the post office, holding a package she'd meant to mail to her sister. One moment she was reading the label. The next she was on the floor, and the package was five feet away, and the woman behind her was screaming.</p>
+
+        <p>Stone hearts, it turns out, do eventually stop.</p>
+
+        <p>By the time the ambulance arrived, she had been clinically dead for four minutes. By the time she reached the hospital, seven. Dr. Hartmann was already there. He was already scrubbed. The operating room was already prepared — had been prepared, the nurses later whispered, since early that morning. Hours before Miriam collapsed.</p>
+
+        <p>No one could explain that.</p>
+
+        <p class="scene-break">&bull; &bull; &bull;</p>
+
+        <p>The surgery took eleven hours.</p>
+
+        <p>Dr. Hartmann did not simply remove the stone heart. He couldn't — it had fused to the surrounding tissue, threaded itself into the architecture of her chest like roots through rock. Removing it meant dismantling everything it had touched. It meant taking apart the machinery of her life, piece by piece, and rebuilding it around a new center.</p>
+
+        <p>He had brought the new heart himself. It was not from a donor bank. It was not matched by computer. It was, as far as anyone could tell, a perfect heart — so healthy, so vigorously alive, that it seemed to pulse in the surgeon's hands before it was even connected. The surgical team would talk about it for years: the way the heart seemed to <em>want</em> to beat, as if it had been made for this chest, this body, this woman who had never asked for it.</p>
+
+        <p>When it was over, Dr. Hartmann closed the incision, removed his gloves, and sat in the hallway outside the operating room for a long time. He said nothing. A nurse brought him coffee. He didn't touch it. He just sat there, looking at the wall, as if he had given away something that cost him more than anyone watching could know.</p>
+
+        <p class="scene-break">&bull; &bull; &bull;</p>
+
+        <p>Miriam woke up on a Tuesday.</p>
+
+        <p>The first thing she noticed was the sound. A rhythm in her chest — steady, warm, <em>alive</em> — so different from what she had known before that she did not recognize it. She lay there for a long time listening to it, the way you might listen to music in a language you don't speak but somehow understand.</p>
+
+        <p>The second thing she noticed was the light. The hospital room was ordinary — beige walls, fluorescent ceiling panels, a window with venetian blinds — but it looked, to Miriam, like a cathedral. The light coming through the blinds was golden. She stared at it, and something in her chest — in the <em>new</em> thing in her chest — responded to it. Swelled. Ached. Not with pain, but with something she had no word for, something she had never felt, something the stone heart could never have produced.</p>
+
+        <p>She was crying before she knew she was crying.</p>
+
+        <p>A nurse came in and found her weeping — not the thin, dry weeping of a woman who has trained herself to hold it together, but the kind of crying that comes from the floor of the ocean, the kind that shakes the bed and doesn't care who hears. The nurse reached for the call button, thinking something was wrong.</p>
+
+        <p>"No," Miriam said. "No. Something is — I don't know what's happening. I can <em>feel</em>."</p>
+
+        <p>The nurse sat down beside her and held her hand. She had seen this before, in Dr. Hartmann's patients. The ones who woke up with new hearts always said the same thing, in a hundred different ways. <em>I didn't know. I didn't know I was dead. I didn't know what I was missing. I didn't know a heart could feel like this.</em></p>
+
+        <p class="scene-break">&bull; &bull; &bull;</p>
+
+        <p>In the weeks that followed, Miriam Cole became a different person.</p>
+
+        <p>Not gradually. Not the way people change when they read a self-help book or start a new diet or decide to be more grateful on Mondays. She changed the way a corpse changes when it is no longer a corpse. She changed completely, immediately, and from the inside out.</p>
+
+        <p>Colors she had looked at her whole life suddenly had <em>depth</em>. Music she had heard a thousand times suddenly made her chest ache with a sweetness that was almost unbearable. She found herself stopping in the middle of the street to watch a stranger help an old man cross. She found herself calling her sister — the one she hadn't spoken to in three years — and saying "I love you" and meaning it for the first time.</p>
+
+        <p>She wanted things she had never wanted before. Kindness. Connection. Mercy. Truth. It wasn't effort. It wasn't discipline. It was appetite. The new heart was <em>hungry</em> — hungry for everything the stone heart had been dead to.</p>
+
+        <p>And she wanted to find Dr. Hartmann.</p>
+
+        <p>Not to thank him. Thanking felt too small, too transactional, like paying a bill. She wanted to find him because the new heart in her chest <em>recognized</em> him somehow. It beat faster when she thought about him. It ached toward him. It was as if the heart he had given her remembered the hands that had carried it, and wanted to be near them again.</p>
+
+        <p>She searched for him. She called the hospital. She wrote letters. She asked every nurse, every doctor, every clerk who would listen. But Dr. Hartmann had already gone. He always did. He operated, and then he left, and the patient woke up new.</p>
+
+        <p class="scene-break">&bull; &bull; &bull;</p>
+
+        <p>Months later, at a grocery store — an ordinary Tuesday, the kind of day where nothing is supposed to happen — she saw him.</p>
+
+        <p>He was standing in the produce section, holding an apple, looking at it the way a man looks at something he made. She knew his face from the one photo the hospital had on file. But she would have known him without the photo. The heart knew. It surged in her chest like a wave finding shore.</p>
+
+        <p>She walked toward him. She opened her mouth to say something — <em>thank you, who are you, why me, how did you know</em> — but what came out was not a question.</p>
+
+        <p>"You gave me this heart," she said.</p>
+
+        <p>He looked at her. And he smiled — a slow, quiet smile, the kind that starts in the eyes — and said:</p>
+
+        <p>"I know. I chose it for you before you were born."</p>
+
+        <p>Miriam stood there. The grocery store hummed around her — carts rattling, a child laughing in aisle three, someone's phone ringing — and none of it mattered. She understood, in that moment, something she would spend the rest of her life learning the shape of:</p>
+
+        <p><strong>She had not chosen a new heart. A new heart had chosen her.</strong></p>
+
+        <p>And it was beating — beautifully, relentlessly, unstoppably beating — with a life that was not her own.</p>
+    </article>
+
+    <hr class="story-divider">
+
+    <!-- Doctrine Behind the Story -->
+    <section class="doctrine-section">
+        <div class="doctrine-box">
+            <h2>The Doctrine Behind the Story</h2>
+
+            <p>This is a parable about <strong>regeneration</strong> — the biblical doctrine that God gives spiritually dead sinners a new heart before they can believe, repent, or respond to the gospel. It is God's sovereign act, not man's cooperative effort. The patient never requested the surgery. She <em>couldn't</em>. She didn't know she was dying. And the surgeon chose her — not because of anything in her file that commended her, but because of his own purpose and will.</p>
+
+            <div class="verse-block">
+                <p>"And I will give you a new heart, and a new spirit I will put within you. And I will remove the heart of stone from your flesh and give you a heart of flesh."</p>
+                <cite>Ezekiel 36:26</cite>
+            </div>
+
+            <p>The Bible's language is surgical: God <em>removes</em> the heart of stone and <em>gives</em> a heart of flesh. The verbs are all God's. The patient is passive. This is not an invitation waiting for a response — it is an operation performed on someone who cannot consent because they are dead in their trespasses and sins (<span class="scripture-ref">Ephesians 2:1-5</span>).</p>
+
+            <div class="verse-block">
+                <p>"Everyone who believes that Jesus is the Christ has been born of God."</p>
+                <cite>1 John 5:1</cite>
+            </div>
+
+            <p>Notice the tenses: "believes" is present tense, "has been born" is perfect tense — a completed action in the past with ongoing results. The new birth <em>precedes</em> faith. Just as Miriam woke up with a new heart and then felt things she had never felt, the regenerate person is born again and then believes. Faith is the <em>evidence</em> of the new heart, not the cause of it. Miriam's desire to find the surgeon — her heart aching toward the one who gave it to her — is a picture of what happens when God gives a sinner a new heart: they seek the One who saved them, not because they decided to, but because the new nature <em>hungers</em> for its Creator (<span class="scripture-ref">John 6:44</span>, <span class="scripture-ref">Philippians 2:13</span>).</p>
+
+            <p>And the surgeon's words at the end — <em>"I chose it for you before you were born"</em> — echo the eternal nature of God's electing love: <em>"He chose us in him before the foundation of the world"</em> (<span class="scripture-ref">Ephesians 1:4</span>). The new heart was not a reaction to Miriam's collapse. It was the plan all along.</p>
+        </div>
+    </section>
+
+    <!-- Related Content -->
+    <section class="related-section">
+        <h3>Continue the Journey</h3>
+        <div class="related-links">
+            <a href="question-newheart.html" class="related-link">
+                <span class="link-type">Doctrine</span>
+                <span class="link-title">Ezekiel 36:26 &mdash; The Promise of a New Heart</span>
+                <span class="link-arrow">&rarr;</span>
+            </a>
+            <a href="question-depravity.html" class="related-link">
+                <span class="link-type">Doctrine</span>
+                <span class="link-title">Dead, Not Sick &mdash; Total Depravity Examined</span>
+                <span class="link-arrow">&rarr;</span>
+            </a>
+            <a href="question-john6.html" class="related-link">
+                <span class="link-type">Scripture</span>
+                <span class="link-title">John 6:37-44 &mdash; No One Can Come Unless the Father Draws</span>
+                <span class="link-arrow">&rarr;</span>
+            </a>
+            <a href="question-irresistible.html" class="related-link">
+                <span class="link-type">Doctrine</span>
+                <span class="link-title">Irresistible Grace &mdash; The Effectual Call</span>
+                <span class="link-arrow">&rarr;</span>
+            </a>
+            <a href="stories.html" class="related-link">
+                <span class="link-type">Stories</span>
+                <span class="link-title">Read More Stories of Sovereign Grace</span>
+                <span class="link-arrow">&rarr;</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Share -->
+    <section class="share-section">
+        <p>"Know someone who needs to hear this story?"</p>
+        <p class="share-sub">Copy the link and share it. The best stories are the ones that get passed along.</p>
+    </section>
+
+    <!-- Footer -->
+        <footer role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section"><h4>ADOPTED BY GRACE</h4><p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p></div>
+            <div class="footer-section"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="questions.html">The Evidence</a></li><li><a href="systematic-theology.html">Systematic</a></li><li><a href="demolition-hub.html">Demolition</a></li><li><a href="theologians.html">Theologians</a></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li></ul></div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
+    </footer>
+</body>
+</html>
