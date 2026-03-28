@@ -129,32 +129,32 @@
         @keyframes bounceArrow { 0%, 100% { transform: rotate(45deg) translateY(0); } 50% { transform: rotate(45deg) translateY(8px); } }
         @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
 
-        /* ===== TULIP SECTION ===== */
-        .tulip-section { padding: 6rem 2rem; position: relative; overflow: hidden; }
-        .tulip-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.3; }
+        /* ===== FIVE TRUTHS SECTION ===== */
+        .five-truths { padding: 6rem 2rem; position: relative; overflow: hidden; }
+        .five-truths::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.3; }
         .section-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4em; color: var(--accent-ember); text-align: center; margin-bottom: 1rem; }
         .section-title { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 800; text-align: center; margin-bottom: 1rem; }
         .section-subtitle { text-align: center; color: var(--text-secondary); font-size: 1.05rem; max-width: 600px; margin: 0 auto 4rem; }
 
-        .tulip-letters { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 3rem; flex-wrap: wrap; }
-        .tulip-letter { width: 80px; height: 80px; border: 2px solid rgba(212, 162, 84, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 900; color: var(--text-muted); cursor: pointer; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; user-select: none; }
-        .tulip-letter::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at center, rgba(212, 162, 84, 0.15), transparent 70%); opacity: 0; transition: opacity 0.4s ease; }
-        .tulip-letter:hover { border-color: var(--accent-gold); color: var(--accent-gold); transform: translateY(-4px); box-shadow: 0 8px 30px rgba(212, 162, 84, 0.15); }
-        .tulip-letter:hover::before { opacity: 1; }
-        .tulip-letter.active { border-color: var(--accent-gold); color: var(--accent-gold); background: rgba(212, 162, 84, 0.08); transform: translateY(-4px) scale(1.05); box-shadow: 0 0 40px rgba(212, 162, 84, 0.2), 0 0 80px rgba(212, 162, 84, 0.05); }
-        .tulip-letter.active::before { opacity: 1; }
+        .truth-tabs { display: flex; justify-content: center; gap: 0.5rem; margin-bottom: 3rem; flex-wrap: wrap; }
+        .truth-tab { padding: 0.6rem 1.2rem; border: 1px solid rgba(212, 162, 84, 0.15); border-radius: 50px; display: flex; align-items: center; gap: 0.5rem; font-family: 'Inter', sans-serif; font-size: 0.82rem; font-weight: 500; color: var(--text-muted); cursor: pointer; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; user-select: none; background: transparent; white-space: nowrap; }
+        .truth-tab-num { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; font-weight: 700; color: var(--accent-ember); opacity: 0.6; transition: opacity 0.3s ease; }
+        .truth-tab:hover { border-color: rgba(212, 162, 84, 0.4); color: var(--accent-gold); transform: translateY(-2px); box-shadow: 0 4px 20px rgba(212, 162, 84, 0.1); }
+        .truth-tab:hover .truth-tab-num { opacity: 1; }
+        .truth-tab.active { border-color: var(--accent-gold); color: var(--accent-gold); background: rgba(212, 162, 84, 0.08); box-shadow: 0 0 30px rgba(212, 162, 84, 0.12); }
+        .truth-tab.active .truth-tab-num { opacity: 1; color: var(--accent-gold); }
 
-        .tulip-reveal { max-width: 750px; margin: 0 auto; min-height: 280px; position: relative; }
-        .tulip-card { position: absolute; inset: 0; opacity: 0; transform: translateY(20px); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); pointer-events: none; background: linear-gradient(135deg, rgba(18, 18, 26, 0.8), rgba(18, 18, 26, 0.6)); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 2.5rem; backdrop-filter: blur(10px); }
-        .tulip-card.active { opacity: 1; transform: translateY(0); pointer-events: auto; }
-        .tulip-card-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700; margin-bottom: 0.5rem; }
-        .tulip-card-latin { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-ember); letter-spacing: 0.1em; margin-bottom: 1.2rem; }
-        .tulip-card-text { color: var(--text-secondary); font-size: 1rem; line-height: 1.9; margin-bottom: 1.2rem; }
-        .tulip-card-verse { border-left: 3px solid var(--accent-gold); padding-left: 1.2rem; margin-top: 1.2rem; }
-        .tulip-card-verse p { font-style: italic; color: var(--text-primary); line-height: 1.8; font-size: 1rem; }
-        .tulip-card-verse cite { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.1em; font-style: normal; display: block; margin-top: 0.5rem; }
-        .tulip-card-link { display: inline-block; margin-top: 1rem; color: var(--accent-gold); text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: all 0.3s ease; }
-        .tulip-card-link:hover { color: var(--accent-ember); transform: translateX(4px); }
+        .truth-reveal { max-width: 750px; margin: 0 auto; min-height: 280px; position: relative; }
+        .truth-card { position: absolute; inset: 0; opacity: 0; transform: translateY(20px); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); pointer-events: none; background: linear-gradient(135deg, rgba(18, 18, 26, 0.8), rgba(18, 18, 26, 0.6)); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 2.5rem; backdrop-filter: blur(10px); }
+        .truth-card.active { opacity: 1; transform: translateY(0); pointer-events: auto; }
+        .truth-card-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700; margin-bottom: 0.3rem; }
+        .truth-card-scripture-label { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; color: var(--accent-ember); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1.2rem; }
+        .truth-card-text { color: var(--text-secondary); font-size: 1rem; line-height: 1.9; margin-bottom: 1.2rem; }
+        .truth-card-verse { border-left: 3px solid var(--accent-gold); padding-left: 1.2rem; margin-top: 1.2rem; }
+        .truth-card-verse p { font-style: italic; color: var(--text-primary); line-height: 1.8; font-size: 1rem; }
+        .truth-card-verse cite { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.1em; font-style: normal; display: block; margin-top: 0.5rem; }
+        .truth-card-link { display: inline-block; margin-top: 1rem; color: var(--accent-gold); text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: all 0.3s ease; }
+        .truth-card-link:hover { color: var(--accent-ember); transform: translateX(4px); }
 
         /* ===== EXPLORE HUB ===== */
         .explore-section { padding: 6rem 2rem; position: relative; }
@@ -226,7 +226,7 @@
             .hero-never-link { margin-top: 1.5rem; padding: 0.7rem 1.4rem; }
             .hero-never-text { font-size: 0.85rem; }
             .hero-glow { width: 400px; height: 400px; }
-            .tulip-section { padding: 3rem 1.5rem; }
+            .five-truths { padding: 3rem 1.5rem; }
             .explore-section { padding: 3rem 1.5rem; }
             .never-section { padding: 3rem 1.5rem; }
             .never-headline { font-size: 2.2rem; }
@@ -236,12 +236,12 @@
             .cta-section::before { width: 300px; height: 300px; }
             .section-title { font-size: 2rem; }
             .section-subtitle { margin-bottom: 2.5rem; }
-            .tulip-letters { gap: 0.8rem; }
-            .tulip-letter { width: 56px; height: 56px; font-size: 1.8rem; }
-            .tulip-card { padding: 1.5rem; }
-            .tulip-card:not(.active) { display: none; }
-            .tulip-card.active { position: relative; inset: auto; }
-            .tulip-reveal { min-height: auto; }
+            .truth-tabs { gap: 0.4rem; }
+            .truth-tab { padding: 0.5rem 0.8rem; font-size: 0.75rem; }
+            .truth-card { padding: 1.5rem; }
+            .truth-card:not(.active) { display: none; }
+            .truth-card.active { position: relative; inset: auto; }
+            .truth-reveal { min-height: auto; }
             .explore-grid { grid-template-columns: 1fr; }
             .explore-card.featured { grid-column: span 1; }
             .cta-quote { font-size: 1.6rem; }
@@ -256,15 +256,17 @@
             .mega-inner { grid-template-columns: 1fr; gap: 1.2rem; }
             .mega-col { border-bottom: 1px solid rgba(212, 162, 84, 0.08); padding-bottom: 0.8rem; }
             .mega-col:last-child { border-bottom: none; }
-            .tulip-section { padding: 2rem 1rem; }
+            .five-truths { padding: 2rem 1rem; }
             .explore-section { padding: 2rem 1rem; }
             .never-section { padding: 2rem 1rem; }
             .never-headline { font-size: 1.8rem; }
             .never-verse { font-size: 1rem; padding: 1rem 1.2rem; }
             .cta-section { padding: 2rem 1rem; }
             .section-subtitle { margin-bottom: 2rem; }
-            .tulip-letter { width: 48px; height: 48px; font-size: 1.5rem; }
-            .tulip-reveal { min-height: auto; }
+            .truth-tabs { gap: 0.3rem; }
+            .truth-tab { padding: 0.4rem 0.7rem; font-size: 0.7rem; }
+            .truth-tab-num { display: none; }
+            .truth-reveal { min-height: auto; }
             .cta-quote { font-size: 1.3rem; }
             .cta-attribution { margin-bottom: 1.5rem; }
         }
@@ -294,71 +296,75 @@ body {
     transform: translateY(0);
 }
 
-    </style>
+            .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            z-index: 10000;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 0 0 4px 0;
+            transition: top 0.2s;
+        }
+        .skip-to-content:focus {
+            top: 0;
+        }
+</style>
 </head>
 <body>
     <!-- NAV -->
+            <a href="#main-content" class="skip-to-content">Skip to content</a>
     <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="logo">Adopted by Grace</a>
-            <div class="nav-right">
-                <a href="/start-here" class="nav-top-link">Start Here</a>
-                <a href="/about" class="nav-top-link">About</a>
-                <button class="mega-toggle" aria-label="Open site menu" aria-expanded="false">
-                    Explore All <span class="mega-arrow">&#9660;</span>
-                </button>
-            </div>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
-        </div>
-        <!-- MEGA MENU PANEL -->
-        <div class="mega-panel" aria-hidden="true">
-            <div class="mega-inner">
-                <div class="mega-col">
-                    <h3 class="mega-heading">Doctrine</h3>
-                    <a href="/questions">The Evidence</a>
-                    <a href="/systematic-theology">Systematic Theology</a>
-                    <a href="/scripture-tsunami">Scripture Tsunami</a>
-                    <a href="/resources-confessions">Creeds &amp; Confessions</a>
-                    <a href="/quiz">Belief Assessment</a>
-                </div>
-                <div class="mega-col">
-                    <h3 class="mega-heading">Apologetics</h3>
-                    <a href="/demolition-hub">Demolition Zone</a>
-                    <a href="/compare-calvinism-arminianism">Calvinism vs Arminianism</a>
-                    <a href="/compare-calvinism-molinism">Calvinism vs Molinism</a>
-                    <a href="/compare-monergism-synergism">Monergism vs Synergism</a>
-                    <a href="/objection-author-of-sin">Objections Answered</a>
-                    <a href="/resistance-last-idol">The Last Idol</a>
-                </div>
-                <div class="mega-col">
-                    <h3 class="mega-heading">Explore</h3>
-                    <a href="/devotionals">Devotionals</a>
-                    <a href="/stories">Stories &amp; Parables</a>
-                    <a href="/pastoral-assurance">Pastoral Care</a>
-                    <a href="/secular-philosophy-free-will">Secular Evidence</a>
-                    <a href="/explore-map">The Map</a>
-                    <a href="/verse-explorer">Verse Explorer</a>
-                </div>
-                <div class="mega-col">
-                    <h3 class="mega-heading">History</h3>
-                    <a href="/theologians">Theologians</a>
-                    <a href="/history-timeline">Church History Timeline</a>
-                    <a href="/ot-election">OT Election</a>
-                    <a href="/psalms-election">Psalms &amp; Election</a>
-                    <a href="/history-golden-thread">The Golden Thread</a>
-                </div>
-                <div class="mega-col">
-                    <h3 class="mega-heading">Resources</h3>
-                    <a href="/resources">Resource Hub</a>
-                    <a href="/resources-books">Books</a>
-                    <a href="/resources-sermons">Sermons</a>
-                    <a href="/resources-study-guides">Study Guides</a>
-                    <a href="/resources-glossary">Glossary</a>
-                    <a href="/community">Community</a>
-                </div>
-            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -389,72 +395,72 @@ body {
         </div>
     </section>
 
-    <!-- ===== TULIP EXPLORER ===== -->
-    <section class="tulip-section">
+    <!-- ===== FIVE TRUTHS OF SCRIPTURE ===== -->
+    <section class="five-truths">
         <div class="reveal">
-            <div class="section-eyebrow">The Doctrines of Grace</div>
-            <h2 class="section-title">The Biblical Case for Grace</h2>
-            <p class="section-subtitle">Five points. Five truths. One sovereign God who saves completely. Click each letter.</p>
+            <div class="section-eyebrow">Five Truths That Changed the World</div>
+            <h2 class="section-title">What Scripture Actually Teaches About Salvation</h2>
+            <p class="section-subtitle">These aren't anyone's theological system. They are what the Bible says — and they have shattered human pride and set captive souls free for two thousand years.</p>
         </div>
 
-        <div class="tulip-letters reveal reveal-delay-1">
-            <div class="tulip-letter active" data-index="0" tabindex="0" role="button" aria-pressed="true">T</div>
-            <div class="tulip-letter" data-index="1" tabindex="0" role="button" aria-pressed="false">U</div>
-            <div class="tulip-letter" data-index="2" tabindex="0" role="button" aria-pressed="false">L</div>
-            <div class="tulip-letter" data-index="3" tabindex="0" role="button" aria-pressed="false">I</div>
-            <div class="tulip-letter" data-index="4" tabindex="0" role="button" aria-pressed="false">P</div>
+        <div class="truth-tabs reveal reveal-delay-1" role="tablist" aria-label="Five truths of Scripture">
+            <button class="truth-tab active" data-index="0" role="tab" aria-selected="true" aria-controls="truth-0"><span class="truth-tab-num">01</span> Our Condition</button>
+            <button class="truth-tab" data-index="1" role="tab" aria-selected="false" aria-controls="truth-1"><span class="truth-tab-num">02</span> God's Choice</button>
+            <button class="truth-tab" data-index="2" role="tab" aria-selected="false" aria-controls="truth-2"><span class="truth-tab-num">03</span> Christ's Mission</button>
+            <button class="truth-tab" data-index="3" role="tab" aria-selected="false" aria-controls="truth-3"><span class="truth-tab-num">04</span> God's Call</button>
+            <button class="truth-tab" data-index="4" role="tab" aria-selected="false" aria-controls="truth-4"><span class="truth-tab-num">05</span> God's Promise</button>
         </div>
 
-        <div class="tulip-reveal reveal reveal-delay-2">
-            <div class="tulip-card active" data-index="0">
-                <div class="tulip-card-title">Total Depravity</div>
-                <div class="tulip-card-latin">DEPRAVITAS TOTALIS</div>
-                <div class="tulip-card-text">Sin hasn't merely wounded humanity — it has killed us. Every faculty of the soul is corrupted. The mind is darkened, the will is enslaved, the heart is stone. No one seeks God. No one can. Apart from sovereign intervention, every human being is a spiritual corpse.</div>
-                <div class="tulip-card-verse">
+        <div class="truth-reveal reveal reveal-delay-2">
+            <div class="truth-card active" id="truth-0" data-index="0" role="tabpanel">
+                <div class="truth-card-title">We Were Dead, Not Sick</div>
+                <div class="truth-card-scripture-label">Scripture teaches: humanity is spiritually dead</div>
+                <div class="truth-card-text">You were not sick. You were dead. Scripture doesn't describe humanity as bruised travelers limping toward God — it describes corpses in a graveyard, blind eyes staring at nothing, stone hearts incapable of a single pulse of spiritual life. Every faculty of the soul — mind, will, affections — lies shackled in darkness. No one seeks God. No one <em>can</em>. Apart from sovereign resurrection, every human being remains exactly what Adam made them: a beautiful ruin, utterly unable to save themselves.</div>
+                <div class="truth-card-verse">
                     <p>&ldquo;The natural person does not accept the things of the Spirit of God, for they are folly to him, and he is not able to understand them.&rdquo;</p>
                     <cite>1 Corinthians 2:14</cite>
                 </div>
-                <a href="/question-depravity" class="tulip-card-link">Explore the evidence &rarr;</a>
+                <a href="/question-depravity" class="truth-card-link">Explore the evidence &rarr;</a>
             </div>
-            <div class="tulip-card" data-index="1">
-                <div class="tulip-card-title">Unconditional Election</div>
-                <div class="tulip-card-latin">ELECTIO GRATUITA</div>
-                <div class="tulip-card-text">God does not choose based on foreseen faith, merit, or good works. Before the foundation of the world, He set His love on specific individuals — not because they would choose Him, but because He chose them. Election is the Father's free, sovereign, undeserved love.</div>
-                <div class="tulip-card-verse">
+            <div class="truth-card" id="truth-1" data-index="1" role="tabpanel">
+                <div class="truth-card-title">God Chose Before You Could</div>
+                <div class="truth-card-scripture-label">Scripture teaches: God initiates salvation</div>
+                <div class="truth-card-text">Here is the truth that levels every throne of human pride: God did not look down the corridor of time, see who would choose Him, and rubber-stamp their decision. He <em>initiated</em>. Before a single star burned, before time drew its first breath, the Father fixed His love on particular people — not because of anything in them, but because of everything in Him. Election is not God reacting to your faith. It is God <em>creating</em> it.</div>
+                <div class="truth-card-verse">
                     <p>&ldquo;He chose us in Him before the foundation of the world, that we should be holy and blameless before Him. In love He predestined us for adoption.&rdquo;</p>
                     <cite>Ephesians 1:4-5</cite>
                 </div>
-                <a href="/question-chosen" class="tulip-card-link">Explore the evidence &rarr;</a>
+                <a href="/question-chosen" class="truth-card-link">Explore the evidence &rarr;</a>
             </div>
-            <div class="tulip-card" data-index="2">
-                <div class="tulip-card-title">Limited Atonement</div>
-                <div class="tulip-card-latin">REDEMPTIO PARTICULARIS</div>
-                <div class="tulip-card-text">Christ did not die to make salvation possible — He died to make it certain. The cross actually accomplished redemption for God's elect. Jesus didn't just open a door; He carried His sheep through it. Every person for whom Christ died will be saved.</div>
-                <div class="tulip-card-verse">
+            <div class="truth-card" id="truth-2" data-index="2" role="tabpanel">
+                <div class="truth-card-title">The Cross Was Not a Gamble</div>
+                <div class="truth-card-scripture-label">Scripture teaches: Christ's death accomplished redemption</div>
+                <div class="truth-card-text">The cross was not a gamble. Christ did not bleed and die merely to make salvation <em>possible</em> — He bled and died to make it <em>certain</em>. When Jesus said "It is finished," He meant it. The debt was paid, the ransom was completed, every last sin of every last sheep was absorbed into His body on that tree. He did not merely unlock a door and hope someone would walk through. He called His own by name and carried them home.</div>
+                <div class="truth-card-verse">
                     <p>&ldquo;I lay down my life for the sheep&hellip; You do not believe because you are not among my sheep.&rdquo;</p>
                     <cite>John 10:15, 26</cite>
                 </div>
-                <a href="/questions" class="tulip-card-link">Explore the evidence &rarr;</a>
+                <a href="/questions" class="truth-card-link">Explore the evidence &rarr;</a>
             </div>
-            <div class="tulip-card" data-index="3">
-                <div class="tulip-card-title">Irresistible Grace</div>
-                <div class="tulip-card-latin">GRATIA EFFICAX</div>
-                <div class="tulip-card-text">When God calls His elect, He doesn't merely invite — He resurrects. The same power that called Lazarus from the tomb calls sinners from spiritual death. God's grace doesn't just make salvation available; it makes the unwilling willing. It transforms the heart.</div>
-                <div class="tulip-card-verse">
+            <div class="truth-card" id="truth-3" data-index="3" role="tabpanel">
+                <div class="truth-card-title">When God Calls, the Dead Rise</div>
+                <div class="truth-card-scripture-label">Scripture teaches: God's grace transforms the heart</div>
+                <div class="truth-card-text">When God calls His own, He does not whisper an invitation across a chasm and hope they are strong enough to leap. He <em>crosses</em> the chasm. The same voice that thundered "Lazarus, come forth!" and ripped a four-day-dead man from the grip of the grave — that is the voice that calls sinners from spiritual death into dazzling, irrevocable life. This grace does not merely assist the willing. It makes the unwilling <em>willing</em>. It turns enemies into sons.</div>
+                <div class="truth-card-verse">
                     <p>&ldquo;All that the Father gives me will come to me, and whoever comes to me I will never cast out.&rdquo;</p>
                     <cite>John 6:37</cite>
                 </div>
-                <a href="/question-faithgift" class="tulip-card-link">Explore the evidence &rarr;</a>
+                <a href="/question-faithgift" class="truth-card-link">Explore the evidence &rarr;</a>
             </div>
-            <div class="tulip-card" data-index="4">
-                <div class="tulip-card-title">Perseverance of the Saints</div>
-                <div class="tulip-card-latin">PERSEVERANTIA SANCTORUM</div>
-                <div class="tulip-card-text">Those whom God has chosen, redeemed, and called He will keep. Not one will be lost. Salvation is not a tightrope walk where the believer might fall — it is an unbreakable chain forged in eternity. He who began a good work in you will bring it to completion.</div>
-                <div class="tulip-card-verse">
+            <div class="truth-card" id="truth-4" data-index="4" role="tabpanel">
+                <div class="truth-card-title">What God Begins, God Finishes</div>
+                <div class="truth-card-scripture-label">Scripture teaches: the saved are eternally secure</div>
+                <div class="truth-card-text">What God begins, God finishes. Not one soul purchased by the blood of Christ will slip through His fingers. Not one. Salvation is not a tightrope over an abyss where one misstep sends you plummeting — it is an unbreakable golden chain forged before the foundation of the world, each link welded in the furnace of divine love: foreknown, predestined, called, justified, <em>glorified</em>. Past tense. Already done in the mind of God. He who began this good work in you will carry it — and you — all the way home.</div>
+                <div class="truth-card-verse">
                     <p>&ldquo;I give them eternal life, and they will never perish, and no one will snatch them out of my hand.&rdquo;</p>
                     <cite>John 10:28</cite>
                 </div>
-                <a href="/question-sealed" class="tulip-card-link">Explore the evidence &rarr;</a>
+                <a href="/question-sealed" class="truth-card-link">Explore the evidence &rarr;</a>
             </div>
         </div>
     </section>
@@ -463,39 +469,39 @@ body {
     <section class="explore-section">
         <div class="reveal">
             <div class="section-eyebrow">Go Deeper</div>
-            <h2 class="section-title">Explore the Site</h2>
-            <p class="section-subtitle">Every corner of this site exists to glorify the God who saves. Where will you go?</p>
+            <h2 class="section-title">Follow the Evidence Wherever It Leads</h2>
+            <p class="section-subtitle">Every page on this site exists for one purpose: to let Scripture speak — and to let the God of Scripture take your breath away.</p>
         </div>
 
         <div class="explore-grid">
             <a href="/questions" class="explore-card featured reveal reveal-delay-1">
                 <div class="explore-card-title">The Evidence</div>
-                <div class="explore-card-desc">The irrefutable biblical case for sovereign grace — verse by verse, question by question. Every objection answered. Every text examined.</div>
+                <div class="explore-card-desc">Walk through the Bible's own case for sovereign grace — verse by verse, question by question. Not our opinion. Not a theological system imposed on the text. Just Scripture, examined honestly, leading where it leads.</div>
                 <div class="explore-card-count">40+ PAGES OF EVIDENCE</div>
             </a>
             <a href="/demolition-hub" class="explore-card reveal reveal-delay-2">
                 <div class="explore-card-title">Demolition Zone</div>
-                <div class="explore-card-desc">Point-by-point dismantling of anti-Reformed articles, Arminian proof texts, and theological errors.</div>
+                <div class="explore-card-desc">The verses people use to argue against God's sovereignty in salvation — examined in their full context. What do they actually say? You might be surprised.</div>
                 <div class="explore-card-count">VERSE-BY-VERSE DEMOLITIONS</div>
             </a>
             <a href="/systematic-theology" class="explore-card reveal reveal-delay-2">
                 <div class="explore-card-title">Systematic Theology</div>
-                <div class="explore-card-desc">The full theological framework — from the divine decrees to the ordo salutis to eschatology.</div>
+                <div class="explore-card-desc">The full biblical framework — from God's eternal decrees to the golden chain of salvation. See how every doctrine connects into one breathtaking whole.</div>
                 <div class="explore-card-count">DEEP DOCTRINE</div>
             </a>
             <a href="/theologians" class="explore-card reveal reveal-delay-3">
                 <div class="explore-card-title">The Theologians</div>
-                <div class="explore-card-desc">Augustine, Calvin, Edwards, Spurgeon, Owen — the giants who championed sovereign grace.</div>
+                <div class="explore-card-desc">Augustine, Calvin, Edwards, Spurgeon, Owen — the men who shook the world by taking God at His word. Their stories will set fire to your faith.</div>
                 <div class="explore-card-count">CHURCH HISTORY</div>
             </a>
             <a href="/devotionals" class="explore-card reveal reveal-delay-3">
                 <div class="explore-card-title">Devotionals</div>
-                <div class="explore-card-desc">Short, meditative reflections that move the heart — where doctrine becomes worship.</div>
+                <div class="explore-card-desc">Where theology catches fire and doctrine becomes doxology. Short, soul-piercing meditations designed to move you from understanding to worship.</div>
                 <div class="explore-card-count">HEART & SOUL</div>
             </a>
             <a href="/start-here" class="explore-card reveal reveal-delay-4">
                 <div class="explore-card-title">Start Here</div>
-                <div class="explore-card-desc">New to Reformed theology? Start with a guided journey from curiosity to conviction.</div>
+                <div class="explore-card-desc">Never explored these truths before? Start here. A guided journey from honest questions to life-altering answers — at your own pace, with Scripture as your only guide.</div>
                 <div class="explore-card-count">YOUR JOURNEY BEGINS</div>
             </a>
         </div>
@@ -507,23 +513,23 @@ body {
             <div class="section-eyebrow" style="margin-bottom: 1.5rem;">T H E &nbsp; H E A R T &nbsp; O F &nbsp; G R A C E</div>
             <h2 class="never-headline">No matter how far you fall,<br><em>He will never give up on you.</em></h2>
             <p class="never-body">
-                You have been told your whole life that God's love depends on <strong>you</strong> — your performance, your faithfulness, your ability to hold on tight enough. That if you stumble too far, wander too long, or fall too hard, God will finally wash His hands of you.
+                Someone taught you — maybe a preacher, maybe a parent, maybe the quiet voice of your own guilt — that God's love for you hangs by the thread of <strong>your</strong> performance. That if you stumble too far, wander too long, or fall too hard, He will finally wash His hands of you. That His patience has a limit. That His grace has an expiration date.
             </p>
             <p class="never-body" style="margin-top: 1.2rem;">
-                <strong>That is a lie.</strong>
+                <strong>That is a lie from the pit of hell.</strong>
             </p>
             <p class="never-body" style="margin-top: 1.2rem;">
-                Scripture teaches that the God who chose you before the foundation of the world does not abandon what He began. He does not start a work of salvation and then leave it half-finished, dependent on a sinner's ability to complete it. The same power that raised Christ from the dead is the power that <strong>holds you</strong> — not because of anything in you, but because of everything in <strong>Him</strong>.
+                Scripture teaches something so much better it will wreck you with joy: the God who set His love on you before He spoke the stars into existence does not abandon what He began. He does not rescue you from drowning only to let you drift back out to sea. The same omnipotent hand that formed galaxies is the hand that <strong>holds you</strong> — and nothing in all creation, nothing in your past, nothing you will ever do, can pry open those fingers.
             </p>
             <p class="never-body" style="margin-top: 1.2rem;">
-                If you are weary from trying to earn what was always free — if your soul is parched from a lifetime of merit-based religion — this is the water you've been dying for. <strong>God's love for His people is not fragile. It is ferocious, unshakable, and eternal.</strong>
+                If you are exhausted from trying to earn what was always free — if your soul is cracked and parched from a lifetime of striving under merit-based religion — come. <strong>God's love for His people is not fragile. It is ferocious, unshakable, and older than time itself.</strong>
             </p>
             <div class="never-verse">
                 &ldquo;My sheep hear my voice, and I know them, and they follow me. I give them eternal life, and they will never perish, and no one will snatch them out of my hand. My Father, who has given them to me, is greater than all, and no one is able to snatch them out of the Father's hand.&rdquo;
             </div>
             <p class="never-ref">— J O H N &nbsp; 1 0 : 2 7 – 2 9</p>
             <p class="never-body" style="margin-top: 1.5rem;">
-                <strong>That's freedom.</strong> Not the counterfeit freedom of "you can choose God" — but the real, soul-quenching freedom of knowing <em>God chose you, and He will never let go.</em>
+                <strong>That is freedom.</strong> Not the counterfeit freedom of a God who waits to see what you'll do — but the thundering, soul-quenching freedom of a God who <em>already acted, already chose, already finished the work</em> — and will never, ever let go.
             </p>
             <a href="devotional-never-gives-up.html" class="never-cta">Read the Full Devotional →</a>
         </div>
@@ -548,27 +554,27 @@ body {
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
                 <a href="/start-here" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                     <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Start Here</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A guided path to understanding God's sovereignty in salvation.</p>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A guided path from honest questions to life-changing answers about who God really is.</p>
                 </a>
                 <a href="/questions" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                     <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Evidence</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Explore biblical answers to your deepest questions about God's will.</p>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The Bible's own answers to the hardest questions about salvation, free will, and divine sovereignty.</p>
                 </a>
                 <a href="/scripture-tsunami" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                     <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Scripture Tsunami</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Be overwhelmed by the weight of biblical testimony to God's sovereignty.</p>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Hundreds of verses — an avalanche of biblical testimony that leaves no room for doubt about who holds salvation in His hands.</p>
                 </a>
                 <a href="/systematic-theology" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                     <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Systematic Theology</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Understand God's sovereignty through systematic biblical teaching.</p>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The full theological framework — every doctrine interlocking like a cathedral built to display one magnificent God.</p>
                 </a>
                 <a href="/devotionals" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                     <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Devotionals</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Connect these truths to your heart and worship throughout the day.</p>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Where doctrine catches fire and truth becomes worship. Two-minute reads that will echo in your soul for days.</p>
                 </a>
                 <a href="/stories" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                     <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Stories & Parables</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">See how divine sovereignty works in human hearts and lives.</p>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Original parables and narratives that illuminate sovereign grace through the lens of human experience.</p>
                 </a>
             </div>
         </div>
@@ -695,26 +701,24 @@ body {
         draw();
     })();
 
-    // ===== TULIP INTERACTION =====
+    // ===== FIVE TRUTHS INTERACTION =====
     (function() {
-        const letters = document.querySelectorAll('.tulip-letter');
-        const cards = document.querySelectorAll('.tulip-card');
+        const tabs = document.querySelectorAll('.truth-tab');
+        const cards = document.querySelectorAll('.truth-card');
 
         function activate(index) {
-            letters.forEach(l => { l.classList.remove('active'); l.setAttribute('aria-pressed', 'false'); });
+            tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
             cards.forEach(c => c.classList.remove('active'));
-            letters[index].classList.add('active');
-            letters[index].setAttribute('aria-pressed', 'true');
+            tabs[index].classList.add('active');
+            tabs[index].setAttribute('aria-selected', 'true');
             cards[index].classList.add('active');
         }
 
-        letters.forEach(l => {
-            l.addEventListener('click', () => activate(parseInt(l.dataset.index)));
-            l.addEventListener('keydown', (e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    activate(parseInt(l.dataset.index));
-                }
+        tabs.forEach(t => {
+            t.addEventListener('click', () => {
+                cycling = false;
+                clearInterval(cycleTimer);
+                activate(parseInt(t.dataset.index));
             });
         });
 
@@ -726,11 +730,6 @@ body {
             cycleIndex = (cycleIndex + 1) % 5;
             activate(cycleIndex);
         }, 4000);
-
-        document.querySelector('.tulip-section').addEventListener('click', () => {
-            cycling = false;
-            clearInterval(cycleTimer);
-        });
     })();
 
     // ===== SCROLL REVEAL =====
@@ -979,6 +978,12 @@ body {
         <input type="email" name="email" />
         <textarea name="message"></textarea>
     </form>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8593;</button>
+    <script>
+    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.style.display=window.scrollY>400?'block':'none'});}})();
+    </script>
 
     </body>
 </html>

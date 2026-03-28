@@ -159,7 +159,11 @@
             background: rgba(212,162,84,0.08);
             color: var(--accent-gold, #d4a254);
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -397,7 +401,7 @@
         <section class="content-section reveal">
             <h2>The Prophetic Convergence: <span class="text-gradient">Five Truths They All Share</span></h2>
 
-            <table class="compare-table">
+            <div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="compare-table">
                 <thead>
                     <tr>
                         <th>Truth</th>
@@ -426,7 +430,7 @@
                         <td>Malachi 1:2–3 — "Jacob I loved." Hosea 2:19 — "I will betroth you to me forever." Deuteronomy 7:7–8 — "Not because you were more… but because the LORD loves you." God's love is the <em>cause</em> of election, not a <em>response</em> to human faith.</td>
                     </tr>
                 </tbody>
-            </table>
+            </table></div>
 
             <div class="convergence-box">
                 <h3>From the Prophets to Paul</h3>
@@ -507,7 +511,7 @@
             </ul></div>
             <div class="footer-section"><h4>Connect</h4><ul>
                 <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/connect">Contact</a></li>
                 <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
             </ul></div>
         </div>

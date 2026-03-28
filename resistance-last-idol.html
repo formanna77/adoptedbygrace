@@ -228,7 +228,11 @@
             .card { padding: 1.5rem; }
             blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>

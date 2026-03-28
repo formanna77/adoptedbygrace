@@ -23,6 +23,8 @@
     <link rel="canonical" href="https://adoptedbygrace.net/question-revelation13.html">
 
     <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- JSON-LD Article Schema -->
@@ -1018,14 +1020,19 @@
                 padding: 2rem 1rem 1rem;
             }
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to main content</a>
     <div class="reading-progress"></div>
 
     <!-- Navigation -->
-    <nav role="navigation" aria-label="Main navigation">
+        <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="logo">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -1034,39 +1041,40 @@
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
                 <li>
                     <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
                     <div class="nav-dropdown">
-                        <a href="/questions"><span class="dropdown-icon">&#9876;</span> The Evidence</a>
-                        <a href="/systematic-theology"><span class="dropdown-icon">&#128220;</span> Systematic Theology</a>
-                        <a href="/scripture-tsunami"><span class="dropdown-icon">&#127754;</span> Scripture Tsunami</a>
-                        <a href="/creeds-confessions"><span class="dropdown-icon">&#128216;</span> Creeds &amp; Confessions</a>
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
                     <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
                     <div class="nav-dropdown">
-                        <a href="/demolition-hub"><span class="dropdown-icon">&#128293;</span> Demolition Zone</a>
-                        <a href="/compare-calvinism-arminianism"><span class="dropdown-icon">&#9878;</span> Comparisons</a>
-                        <a href="/objection-why-command"><span class="dropdown-icon">&#128172;</span> Objections Answered</a>
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
                     </div>
                 </li>
                 <li>
                     <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
                     <div class="nav-dropdown">
-                        <a href="/devotionals"><span class="dropdown-icon">&#128156;</span> Devotionals</a>
-                        <a href="/stories"><span class="dropdown-icon">&#128214;</span> Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations"><span class="dropdown-icon">&#128161;</span> Analogies</a>
-                        <a href="/pastoral-assurance"><span class="dropdown-icon">&#128588;</span> Pastoral</a>
-                        <a href="/secular-evidence"><span class="dropdown-icon">&#128300;</span> Secular Evidence</a>
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
                     </div>
                 </li>
                 <li>
                     <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
                     <div class="nav-dropdown">
-                        <a href="/theologians"><span class="dropdown-icon">&#9733;</span> Theologians</a>
-                        <a href="/history-timeline"><span class="dropdown-icon">&#128197;</span> Church History</a>
-                        <a href="/ot-election"><span class="dropdown-icon">&#128220;</span> OT Election</a>
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
                     </div>
                 </li>
                 <li><a href="/resources">Resources</a></li>
@@ -1372,7 +1380,7 @@
                     <li><a href="/questions">The Evidence</a></li>
                     <li><a href="/systematic-theology">Systematic Theology</a></li>
                     <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                    <li><a href="/creeds-confessions">Creeds & Confessions</a></li>
+                    <li><a href="/resources-confessions">Creeds & Confessions</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -1382,7 +1390,7 @@
                     <li><a href="/stories">Stories & Parables</a></li>
                     <li><a href="/analogies-illustrations">Analogies</a></li>
                     <li><a href="/pastoral-assurance">Pastoral</a></li>
-                    <li><a href="/secular-evidence">Secular Evidence</a></li>
+                    <li><a href="/secular-philosophy-free-will">Secular Evidence</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -1391,7 +1399,7 @@
                     <li><a href="/about">About</a></li>
                     <li><a href="/resources">Resources</a></li>
                     <li><a href="https://substack.com/@formanna77">Substack</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/connect">Contact</a></li>
                 </ul>
             </div>
         </div>

@@ -462,7 +462,11 @@
             background: rgba(212,162,84,0.08);
             color: var(--accent-gold, #d4a254);
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
 </head>
 <body>
     <div class="reading-progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>

@@ -11,7 +11,10 @@
     <meta property="og:description" content="A 5-week discussion guide for small groups, Bible studies, and families exploring the Start Here journey.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://adoptedbygrace.net/start-here-groups">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
     <meta property="og:site_name" content="Adopted by Grace">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://adoptedbygrace.net/start-here-groups">
@@ -814,7 +817,14 @@
                 margin: 3rem 0;
             }
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
     <!-- Skip to Content Link -->
@@ -1403,5 +1413,6 @@
     </script>
 
     <link rel="stylesheet" href="/global.css">
+<script src="/global.js" defer></script>
 </body>
 </html>

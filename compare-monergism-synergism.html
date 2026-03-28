@@ -158,7 +158,11 @@
             .card { padding: 1.5rem; }
             blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
     <link rel="stylesheet" href="/global.css">
 </head>
 <body>
@@ -459,6 +463,16 @@
                 <div class="cross-link-label">Comparison</div>
                 <div class="cross-link-title">Calvinism vs. Molinism</div>
                 <div class="cross-link-desc">Middle knowledge and the counterfactual challenge</div>
+            </a>
+            <a href="/compare-calvinism-open-theism" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Classical Theism vs. Open Theism</div>
+                <div class="cross-link-desc">Does God know the future exhaustively?</div>
+            </a>
+            <a href="/compare-calvinism-catholic-soteriology" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Reformed vs. Catholic Soteriology</div>
+                <div class="cross-link-desc">Justification, grace, merit, and assurance compared</div>
             </a>
             <a href="/question-depravity.html" class="cross-link">
                 <div class="cross-link-label">Deep Dive</div>
