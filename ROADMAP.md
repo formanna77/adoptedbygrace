@@ -52,7 +52,6 @@
 - `systematic-hamartiology.html` — **NEW** Hamartiology: Original sin, total depravity, the fall, federal headship, imputation
 - `systematic-anthropology.html` — **NEW** Anthropology: Image of God, human nature, the fall, restoration in Christ
 - `systematic-ecclesiology.html` — **NEW** Ecclesiology: The church, marks, means of grace, government, mission
-- `systematic-eschatology.html` — **NEW** Eschatology: Death, intermediate state, return of Christ, resurrection, judgment, new creation
 - `question-irresistible.html` — Irresistible Grace / Effectual Calling (John 6:37, Phil 1:29, Acts 16:14)
 - `question-perseverance.html` — Perseverance of the Saints (John 10:28-29, Rom 8:35-39, Phil 1:6)
 - `freedom.html` — Why sovereign grace is the end of fear
@@ -99,7 +98,6 @@
 - `systematic-pneumatology.html` — **NEW** Pneumatology: The Holy Spirit's work
 - `systematic-anthropology.html` — **NEW** Anthropology: Image of God, human nature
 - `systematic-ecclesiology.html` — **NEW** Ecclesiology: The church, marks, mission
-- `systematic-eschatology.html` — **NEW** Eschatology: Death, return of Christ, new creation
 - `systematic-prolegomena.html` — **NEW** Prolegomena: Scripture, revelation, authority
 - `psychology-hub.html` — **NEW** Psychology of Resistance hub — gateway to 10 psychology/theology pages
 - `psychology-why-we-resist.html` — **NEW** "Why We Resist: The Psychology of Rejecting God's Sovereignty" — flagship overview: 6 psychological phenomena mapped to 6 Scripture passages
@@ -119,6 +117,7 @@
 - `question-titus3.html` — **NEW** Titus 3:3-7 deep-dive: "Not Because of Works Done by Us" — the gospel in miniature
 - `question-1peter1.html` — **NEW** 1 Peter 1:1-2 deep-dive: "Elect Exiles According to the Foreknowledge of God" — Trinitarian election, foreknowledge as fore-love
 - `question-revelation13.html` — **NEW** Revelation 13:8 & 17:8 deep-dive: "Names Written Before the Foundation of the World" — Book of Life and eternal decree
+- `secular-algorithm-sovereignty.html` — **NEW** "The Algorithm Knows You Better Than You Know Yourself" — Secular evidence page: predictive algorithms (Netflix, Spotify, Amazon, Target, Facebook studies) confirm divine sovereignty & foreknowledge. ~2,500 words. ✅ (2026-03-28 Visionary)
 
 ### Design System
 - Dark dramatic aesthetic (#0a0a0f bg, gold/ember/violet accents)
@@ -177,7 +176,7 @@
 - [x] **Theology Proper** — `systematic-theology-proper.html` — God's aseity, simplicity, immutability, sovereignty, attributes, Trinity ✅ (2026-03-27 Systematic Theology Session)
 - [x] **Prolegomena** — `systematic-prolegomena.html` — Scripture, revelation, inspiration, authority, sufficiency, perspicuity ✅ (2026-03-27 Systematic Theology Session)
 - [x] **Ecclesiology** — `systematic-ecclesiology.html` — The church, marks, means of grace, government, mission ✅ (2026-03-27 Systematic Theology Session)
-- [x] **Eschatology** — `systematic-eschatology.html` — Death, intermediate state, return of Christ, resurrection, judgment, new creation ✅ (2026-03-27 Systematic Theology Session)
+- ~~**Eschatology**~~ — REMOVED per site policy: no eschatology content. Page deleted.
 - [x] **Anthropology** — `systematic-anthropology.html` — Image of God, human nature, the fall, restoration in Christ ✅ (2026-03-27 Systematic Theology Session)
 
 ### Priority 3.5 — Scripture Tsunami (Interactive Verse Database)
@@ -202,7 +201,7 @@
 - [x] **"Does predestination make God the author of sin?"** — Primary/secondary causation, WCF 3.1, Joseph, the Cross → `objection-author-of-sin.html` ✅ (2026-03-27 Apologetics Session)
 - [x] **"If God predestined everything, why command anything?"** — Decree of ends AND means, Acts 27, election as engine of evangelism → `objection-why-command.html` ✅ (2026-03-27 Apologetics Session)
 - [ ] **"What about the person who never heard?"** — Romans 1, general vs. special revelation
-- [ ] **"Did Jesus die for everyone?"** — Definite atonement / limited atonement
+- [x] **"Did Jesus die for everyone?"** — Definite atonement / limited atonement → `apologetic-definite-atonement.html` ✅ (2026-03-28 Overseer)
 - [ ] **"Can you lose your salvation?"** — Comprehensive perseverance case
 - [ ] **"Doesn't election make evangelism pointless?"** — Election as the engine of evangelism
 - [ ] **"What about babies/children?"** — Grace, covenant, and those who die young
@@ -213,9 +212,9 @@
 - [ ] **"The Adoption Papers"** — Modern parable on election (Ephesians 1:5)
 - [ ] **"The Voice in the Valley"** — Modern parable on effectual calling (John 10:27)
 - [ ] **"The Unbreakable Thread"** — Modern parable on perseverance (Romans 8:38-39)
-- [ ] **"The King's Banquet"** — Modern parable on irresistible grace (Luke 14:23)
+- [x] **"The King's Banquet"** — Modern parable on irresistible grace (Luke 14:23) → `story-the-kings-banquet.html` ✅ (2026-03-28 Live Session)
 - [ ] **"The Fish Who Chose the Ocean"** — Fable on sovereignty
-- [ ] **"The Dead City"** — Allegory on regeneration and election
+- [x] **"The Dead City"** — Allegory on regeneration and election → `story-the-dead-city.html` ✅ (2026-03-28 Live Session)
 - [ ] **"The Trial"** — Allegory on justification and substitutionary atonement
 - [ ] **"The Potter's House"** — Allegory on Romans 9:21
 - [ ] **"The Night Augustine Wept"** — Historical fiction on Augustine's conversion
@@ -233,7 +232,7 @@
 - [x] **"Not My Will, But Joy"** — `devotional-not-my-will-but-joy.html` — Surrendering to God's will (Psalm 115:3) ✅ (2026-03-27 Devotional Creator)
 - [x] **"The Good That I Cannot Do"** — `devotional-good-i-cannot-do.html` — Inability and dependence (Romans 7:18) ✅ (2026-03-27 Devotional Creator)
 - [x] **"The Weakness of God's Strength"** — `devotional-weakness-of-gods-strength.html` — Sovereignty in suffering (2 Corinthians 12:9) ✅ (2026-03-27 Devotional Creator)
-- [ ] **"When God Says No"** — Unanswered prayer and trust in sovereignty
+- [x] **"When God Says No"** — Unanswered prayer and trust in sovereignty → `devotional-when-god-says-no.html` ✅ (2026-03-28 Live Session)
 - [ ] **"The Valley of the Shadow"** — Psalm 23 meditation on divine guidance
 - [ ] **"Morning Mercies"** — Lamentations 3:22-23 devotional on daily grace
 - [ ] **"The Narrow Door"** — Matthew 7:13-14 meditation on election and the few
@@ -254,9 +253,9 @@
 ### Priority 8 — Visionary Session Ideas (2026-03-28)
 
 #### 🔥 TOP 5 — Build Next
-- [ ] **"What the Bible Says You Cannot Do" (The CANNOT Page)** — Every verse where Scripture says humans CANNOT do something spiritual: cannot come (John 6:44), cannot see (John 3:3), cannot understand (1 Cor 2:14), cannot submit (Rom 8:7), cannot please God (Rom 8:8), cannot bear fruit (John 15:4-5), cannot say "Jesus is Lord" (1 Cor 12:3). The Bible's own testimony on human inability, devastating and unique. → `question-cannot.html`
-- [ ] **John 17 — "The Prayer That Proves Election"** — The High Priestly Prayer: Jesus prays for those the Father GAVE Him (17:2, 6, 9, 24). He says "I am NOT praying for the world" (17:9). The most intimate window into Trinitarian election. Emotionally powerful + exegetically devastating. → `question-john17.html`
-- [ ] **Ezekiel 37 — "Dead Bones Don't Volunteer"** — Valley of Dry Bones: the most vivid picture of regeneration in all of Scripture. Bones don't choose to live. God commands the Spirit and the dead live. Pair with new SVG illustration. → `question-ezekiel37.html`
+- [x] **"What the Bible Says You Cannot Do" (The CANNOT Page)** — Every verse where Scripture says humans CANNOT do something spiritual: cannot come (John 6:44), cannot see (John 3:3), cannot understand (1 Cor 2:14), cannot submit (Rom 8:7), cannot please God (Rom 8:8), cannot bear fruit (John 15:4-5), cannot say "Jesus is Lord" (1 Cor 12:3). The Bible's own testimony on human inability, devastating and unique. → `question-cannot.html` ✅ (2026-03-28 Live Session)
+- [x] **John 17 — "The Prayer That Proves Election"** — The High Priestly Prayer: Jesus prays for those the Father GAVE Him (17:2, 6, 9, 24). He says "I am NOT praying for the world" (17:9). The most intimate window into Trinitarian election. Emotionally powerful + exegetically devastating. → `question-john17.html` ✅ (2026-03-28 Live Session)
+- [x] **Ezekiel 37 — "Dead Bones Don't Volunteer"** — Valley of Dry Bones: the most vivid picture of regeneration in all of Scripture. Bones don't choose to live. God commands the Spirit and the dead live. → `question-ezekiel37.html` ✅ (2026-03-28 Live Session)
 - [ ] **Hymn Analysis: "Sovereign Grace in Song"** — Starting with "Amazing Grace" showing it's Reformed confession from start to finish. Then "A Mighty Fortress," "And Can It Be" (even Wesley!), "Come Thou Fount." Viral content — people share music analysis. Reaches people who'd never read theology. → `hymns.html` + individual hymn pages
 - [ ] **"Choose Your Objection" Interactive Experience** — Branching guided path: "What's your biggest concern about God's sovereignty?" → personalized journey through Scripture. Nothing like it exists on any Reformed website. → `choose-your-objection.html`
 
@@ -285,6 +284,13 @@
 #### Theological Deep Cuts (from Vision)
 - [ ] **The Pactum Salutis (Covenant of Redemption)** — The eternal intra-Trinitarian agreement to save the elect. The deepest, most neglected doctrine. → `systematic-pactum-salutis.html`
 - [ ] **Isaiah 6:9-10 — The Commissioning of Concealment** — God sends Isaiah to make hearts dull. Jesus quotes it in Matt 13. God actively conceals truth. → integrate into parables page or standalone
+
+#### Visionary Session #2 Ideas (2026-03-28)
+- [x] **"The Algorithm Knows You Better Than You Know Yourself"** — Secular evidence: predictive algorithms confirm sovereignty. → `secular-algorithm-sovereignty.html` ✅ (2026-03-28 Visionary)
+- [ ] **"Letters from the Adopted"** — Fictional first-person letters from biblical figures after understanding their election. Paul on Damascus, Lazarus on being raised, the thief on the cross. Bypasses intellectual defenses, lands in the heart. → `story-letters-from-the-adopted.html` (series)
+- [ ] **"The Parenting Proof"** — Universal parenting experience (grabbing toddler's hand in parking lot) maps to irresistible grace. Child screams "I want to do it myself!" — parent overrides suicidal autonomy out of love. → devotional or analogy page
+- [ ] **"The Addiction Testimony"** — Every person who tried to quit a habit and failed knows the bondage of the will. AA's Step 1 is the most Reformed sentence in secular culture. Romans 7 in everyday life. → connects to psychology series
+- [ ] **"The 404 Page That Preaches"** — Redesign 404 into mini-evangelistic moment: "You're lost. So were we all. (Ephesians 2:1-5)." Links to Start Here and Never Gives Up devotional. Quick win, shareable. → update `404.html`
 
 ---
 

@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Did Jesus die for everyone? Scripture teaches that Christ's death was particular and effective—he died for his sheep, his church, his people. Explore the biblical case for definite atonement.">
+    <meta name="keywords" content="atonement, particular atonement, definite atonement, limited atonement, John Owen, John 10, Christ's death, sovereignty, grace">
+    <meta name="author" content="Adopted by Grace">
+    <meta property="og:title" content="Did Jesus Die for Everyone? | Scripture on Definite Atonement">
+    <meta property="og:description" content="Explore what Scripture really teaches about Christ's death: particular, effective, and the foundation of our assurance.">
+    <meta property="og:url" content="https://adoptedbygrace.net/apologetic-definite-atonement">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.jpg">
+    <meta property="og:type" content="article">
+    <link rel="canonical" href="https://adoptedbygrace.net/apologetic-definite-atonement">
+    <title>Did Jesus Die for Everyone? Scripture on Definite Atonement | Adopted by Grace</title>
+    <link rel="stylesheet" href="global.css">
+
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #e8e8f0;
+            --text-secondary: #a8a8b8;
+            --border-color: #2a2a3e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+
+        /* Reading Progress Bar */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
+            width: 0%;
+            z-index: 1000;
+        }
+
+        /* Skip to Content */
+        .skip-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            text-decoration: none;
+            font-weight: 600;
+            z-index: 999;
+        }
+
+        .skip-content:focus {
+            top: 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #0d0d12 100%);
+            padding: 120px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 24px;
+            line-height: 1.2;
+        }
+
+        .hero .subtitle {
+            font-size: clamp(1.1rem, 3vw, 1.4rem);
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 40px;
+            font-style: italic;
+        }
+
+        .hero .emphasis {
+            color: var(--accent-ember);
+            font-weight: 600;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 20px;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--accent-gold);
+            border-radius: 2px;
+            transition: 0.3s;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(10px, 10px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(8px, -8px);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .nav-links a, .nav-trigger {
+            color: var(--text-primary);
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: all 0.3s;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+        .nav-links a:hover, .nav-trigger:hover {
+            color: var(--accent-gold);
+            background-color: var(--bg-card-hover);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            min-width: 200px;
+            top: 100%;
+            flex-direction: column;
+            z-index: 200;
+        }
+
+        .nav-dropdown a {
+            padding: 12px 16px;
+            color: var(--text-secondary);
+            display: block;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .nav-dropdown a:last-child {
+            border-bottom: none;
+        }
+
+        .nav-dropdown a:hover {
+            color: var(--accent-gold);
+            background-color: var(--bg-card-hover);
+        }
+
+        .nav-trigger {
+            position: relative;
+        }
+
+        .nav-trigger:hover + .nav-dropdown,
+        .nav-dropdown:hover {
+            display: flex;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .section {
+            margin-bottom: 80px;
+        }
+
+        .section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.8rem, 5vw, 2.8rem);
+            color: var(--accent-gold);
+            margin-bottom: 24px;
+            line-height: 1.3;
+        }
+
+        .section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--accent-violet);
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+
+        .section p {
+            margin-bottom: 18px;
+            color: var(--text-primary);
+            font-size: 1.05rem;
+        }
+
+        .scripture-quote {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 24px;
+            margin: 32px 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.9;
+        }
+
+        .verse-ref {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--accent-violet);
+            display: block;
+            margin-top: 12px;
+            font-style: normal;
+        }
+
+        .verse-ref a {
+            color: var(--accent-violet);
+            text-decoration: none;
+        }
+
+        .verse-ref a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            color: var(--accent-ember);
+            font-weight: 600;
+        }
+
+        .analogy-box {
+            background-color: rgba(139, 92, 246, 0.1);
+            border: 1px solid var(--accent-violet);
+            padding: 24px;
+            border-radius: 4px;
+            margin: 32px 0;
+        }
+
+        .analogy-label {
+            font-weight: 600;
+            color: var(--accent-violet);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .banner-section {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(232, 100, 44, 0.1));
+            border: 1px solid var(--accent-violet);
+            padding: 48px 32px;
+            border-radius: 8px;
+            margin: 60px 0;
+            text-align: center;
+        }
+
+        .banner-section h3 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
+
+        .banner-section p {
+            font-size: 1.1rem;
+            margin-bottom: 24px;
+        }
+
+        .banner-section a {
+            display: inline-block;
+            background-color: var(--accent-violet);
+            color: var(--bg-deep);
+            padding: 12px 28px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .banner-section a:hover {
+            background-color: var(--accent-gold);
+        }
+
+        .related-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .link-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            padding: 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .link-card:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-4px);
+        }
+
+        .link-card h4 {
+            color: var(--accent-gold);
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .link-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border-color);
+            padding: 60px 20px 20px;
+            margin-top: 80px;
+        }
+
+        .footer-container {
+            max-width: 1000px;
+            margin: 0 auto 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            margin-bottom: 16px;
+            font-size: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 12px;
+            transition: all 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+            padding-left: 8px;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            color: var(--text-secondary);
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-weight: 700;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s;
+            z-index: 999;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-violet);
+            transform: translateY(-4px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: var(--bg-card);
+                flex-direction: column;
+                gap: 0;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s;
+                border-bottom: 1px solid var(--border-color);
+            }
+
+            .nav-links.active {
+                max-height: 500px;
+            }
+
+            .nav-links li {
+                width: 100%;
+                border-bottom: 1px solid var(--border-color);
+            }
+
+            .nav-links a {
+                padding: 12px 20px;
+            }
+
+            .hero {
+                padding: 80px 20px;
+            }
+
+            main {
+                padding: 40px 20px;
+            }
+
+            .banner-section {
+                padding: 32px 20px;
+            }
+
+            .back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reading-progress" id="readingProgress"></div>
+    <a href="#main-content" class="skip-content">Skip to main content</a>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Did Jesus Die for Everyone?</h1>
+        <p class="subtitle">What Scripture reveals about Christ's <span class="emphasis">particular, effective, and unstoppable</span> atonement.</p>
+    </div>
+
+    <main id="main-content">
+        <section class="section">
+            <h2>The Question That Shakes Everything</h2>
+            <p>You've been told all your life that Jesus died for everyone. It feels compassionate. It feels true. Then you read John 10:15—"I lay down my life for the sheep"—and something cracks open. Not the sheep? What about the goats? What about the people who reject him? Did he die for them too?</p>
+            <p>This question arrives like an earthquake in the comfort zone of casual Christianity. And that discomfort is exactly where the truth lives.</p>
+            <p>Here's the thing: if you're shaken by this, you're not lost. You're <span class="highlight">awake</span>. You're beginning to see what Scripture has been saying all along—that Christ's death was not a vague gesture of goodwill toward an abstract humanity, but a concrete, particular, <span class="highlight">effective accomplishment</span> of redemption.</p>
+        </section>
+
+        <section class="section">
+            <h2>The Surgeon and the Crowd</h2>
+            <p>Imagine two surgeons. The first enters an operating room for a critical surgery. She studies the patient's X-rays, maps the precise location of the tumor, sterilizes the instruments, and performs an exquisitely careful operation designed to save <span class="highlight">this specific person</span>. Hours of concentration. Every cut matters. Every stitch matters. The surgery succeeds. The patient lives.</p>
+            <p>The second surgeon stands in a stadium full of thousands—some healthy, some sick, some with tumors they don't even know about. He waves a scalpel vaguely through the air. "I'm operating on everyone!" he announces. By the time he finishes, the sick remain sick. The healthy remain healthy. Everyone feels the gesture was made, but nothing is actually healed.</p>
+            <p>One surgeon operates with <span class="highlight">intention and effect</span>. The other with mere <span class="highlight">appearance</span>. Which surgeon actually saved anyone?</p>
+            <div class="analogy-box">
+                <div class="analogy-label">The Analogy</div>
+                <p>Scripture teaches that Christ was the first surgeon. His death was not a transaction made to all humanity in some abstract sense, suspended in cosmic unreality. It was a <span class="highlight">specific, accomplished work</span>—the purchase of a people, the payment of a ransom, the propitiation made for his church. It actually did something. It actually saved someone.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Owen's Trilemma: The Logic That Cuts</h2>
+            <p>The 17th-century English Puritan John Owen presented an argument so logically devastating that it still cuts to the bone today. Let's follow it slowly, because this is where vague sentiment meets hard reality.</p>
+            <p>The death of Christ must fall into one of three categories:</p>
+            <p><strong>(a) Christ died for all sins of all people.</strong> If this were true, then all people would be saved. Every person who has ever lived would have had their sins paid for in full. But we know they aren't. Hell is real. Damnation is real. So this option is impossible unless you deny both Scripture and reason.</p>
+            <p><strong>(b) Christ died for some sins of all people.</strong> If this were true, then no person would ever be fully saved. Everyone would still have some unpaid sins remaining—the sins Christ didn't die for. Everyone would have to pay their own debt. But then what's the point of the cross? And we know from Scripture that believers are not condemned. Their sins are fully paid. So this option is also impossible.</p>
+            <p><strong>(c) Christ died for all sins of some people.</strong> This is the only remaining option. Christ's death was completely effective for the sins of those he died for. Their debt is paid in full. Their sins are covered. They stand justified. And for those not included in his death? Their sins remain—which is why they face judgment.</p>
+            <div class="scripture-quote">
+                This is not cruelty. This is <span class="highlight">honesty about how sacrifice works</span>. A ransom is paid for particular captives, not for an abstract "everyone." Blood is shed for a specific people, not sprinkled into the void.
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>What Scripture Actually Says</h2>
+            <p>Listen to the actual language of Scripture. Not how you wish it sounded. Not how it's been softened by well-meaning pastors. What it <span class="highlight">actually says</span>.</p>
+
+            <h3>The Shepherd and His Sheep</h3>
+            <div class="scripture-quote">
+                "I am the good shepherd. The good shepherd lays down his life for the sheep... I lay down my life for the sheep."
+                <span class="verse-ref"><a href="#">John 10:11, 15</a></span>
+            </div>
+            <p>Not for everyone. For the sheep. This is not sloppy language. John has already established who the sheep are—those given to Jesus by the Father (10:29). Those who hear his voice and follow him (10:27). The goats are not included. The hiring hand workers are not included. The thieves and robbers are not included. Christ died for his <span class="highlight">specific flock</span>.</p>
+
+            <h3>The Prayer for His Own</h3>
+            <div class="scripture-quote">
+                "I am not praying for the world, but for those whom you have given me, for they are yours."
+                <span class="verse-ref"><a href="#">John 17:9</a></span>
+            </div>
+            <p>Jesus could not have been clearer. If his death were for everyone without exception, why would his prayer of intercession exclude the world? Because his death and his intercession were never intended to save "the world" in an undifferentiated sense. They were intended to save his people—those the Father gave him before the foundation of the world.</p>
+
+            <h3>The Bridegroom and His Bride</h3>
+            <div class="scripture-quote">
+                "Christ loved the church and gave himself up for her, that he might sanctify her, having cleansed her by the washing of water with the word."
+                <span class="verse-ref"><a href="#">Ephesians 5:25–26</a></span>
+            </div>
+            <p>Notice the specificity: "the church." Not humanity. Not the world. The church—the body of Christ, the bride he purchased with his own blood. This is <span class="highlight">intimate, covenantal language</span>. A bridegroom does not die for every woman on earth. He dies for his bride. And Christ is the bridegroom of his church.</p>
+
+            <h3>He Saves His People</h3>
+            <div class="scripture-quote">
+                "She will bear a son, and you shall call his name Jesus, for he will save his people from their sins."
+                <span class="verse-ref"><a href="#">Matthew 1:21</a></span>
+            </div>
+            <p>Not "he will make it possible for his people to save themselves." Not "he will give his people the opportunity to be saved." He <span class="highlight">will save his people</span>. The death of Christ is not merely an offer. It is the accomplishment of salvation for a definite group—"his people."</p>
+
+            <h3>He Bears the Sin of Many</h3>
+            <div class="scripture-quote">
+                "He shall see the anguish of his soul and be satisfied; by his knowledge shall the righteous one, my servant, make many to be accounted righteous, and he shall bear their iniquities... he poured out his soul to death and was numbered with the transgressors; yet he bore the sin of many."
+                <span class="verse-ref"><a href="#">Isaiah 53:11–12</a></span>
+            </div>
+            <p>Not all. Many. And these "many" are effectually made righteous. Their iniquities are actually borne. This is not a theoretical possibility—it is an accomplished fact in the purpose and work of Christ.</p>
+
+            <h3>One Offering, Complete</h3>
+            <div class="scripture-quote">
+                "Christ was offered once to bear the sins of many."
+                <span class="verse-ref"><a href="#">Hebrews 9:28</a></span>
+            </div>
+            <p>The cross happened once. Finished. Complete. Not repeated. Not incomplete. Not waiting for individual acceptance to "activate" it. Christ bore the sins of many—and that work stands eternally accomplished.</p>
+
+            <h3>Purchased With His Own Blood</h3>
+            <div class="scripture-quote">
+                "Pay careful attention to yourselves and to all the flock, in which the Holy Spirit has made you overseers, to care for the church of God, which he obtained with his own blood."
+                <span class="verse-ref"><a href="#">Acts 20:28</a></span>
+            </div>
+            <p>The church was not merely offered the possibility of being purchased. It was <span class="highlight">obtained</span> with Christ's blood. Purchased. Bought. Owned. This is the language of accomplished transaction, not suspended possibility.</p>
+        </section>
+
+        <section class="section">
+            <h2>But What About John 3:16 and "The World"?</h2>
+            <p>You know the objection is coming. "For God so loved the world..." Doesn't this prove that Jesus died for everyone?</p>
+            <p>Not if you read John carefully.</p>
+            <p>In John's writings, "the world" (kosmos) is a complex concept. It can mean the physical earth. It can mean all kinds of people—Jews and Gentiles, rich and poor, educated and simple. But it <span class="highlight">does not mean every individual without exception</span>. John himself clarifies this in his first epistle:</p>
+            <div class="scripture-quote">
+                "And he is the propitiation for our sins, and not for ours only but also for the sins of the whole world."
+                <span class="verse-ref"><a href="#">1 John 2:2</a></span>
+            </div>
+            <p>Now here's what most people miss: <span class="highlight">Jesus is not the propitiation for the sins of everyone individually. He is the propitiation available to people from every nation, every ethnicity, every social class</span>. The "whole world" means all kinds of people—not all individual people. John is saying that Christ's atonement is not limited to Jews only; it extends to Gentiles as well. It's an argument against ethnic exclusivism, not for universal salvation.</p>
+            <p>When John 3:16 says God "loved the world," it uses the same word—kosmos. God loves all kinds of people. God offers Christ to all kinds of people. But Scripture is equally clear that not all people believe. Not all people repent. Not all people are saved. So the love expressed in 3:16 must be understood in light of 3:36: "Whoever believes in the Son has eternal life; whoever does not obey the Son shall not see life, but the wrath of God remains on him."</p>
+            <p>God's love and God's offering are universal in scope (for all kinds of people). God's accomplishment of salvation is particular in effect (for those who believe—whom the Father gave to the Son).</p>
+        </section>
+
+        <section class="section">
+            <h2>The Intention Question: Does the Cross Save or Merely Offer?</h2>
+            <p>Here's where things get personal, and uncomfortable.</p>
+            <p>If Christ's death did not actually accomplish salvation for anyone, but merely <span class="highlight">made salvation possible</span>, then what actually saves you? What transforms you from death to life? What regenerates your heart and causes you to believe?</p>
+            <p>Your decision does. Your choice. Your will.</p>
+            <p>In this framework, you become your own savior. The cross is a down payment. The work you do by choosing Christ is the actual redemption. And if you are the one who ultimately saves yourself by your choice, then your salvation ultimately depends on you—not on Christ.</p>
+            <p>Scripture teaches something radically different. <span class="highlight">The cross actually saves</span>. It doesn't merely create the possibility of salvation and then hand the work over to you. Christ's death is the complete accomplishment of redemption for those it was intended for. It actually cleanses sin. It actually propels sanctification. It actually causes spiritual resurrection.</p>
+            <p>This is why Paul can say with such devastating confidence: "I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord" (Romans 8:38-39). Not because you hold on to Christ through sheer willpower, but because <span class="highlight">Christ holds you, and his grip is unbreakable</span>.</p>
+            <p>If the cross only offered possibility, this promise would be a lie. If the cross accomplishes actual salvation, it is the most precious assurance in all of Scripture.</p>
+        </section>
+
+        <section class="section">
+            <h2>A Love That Chooses</h2>
+            <p>You might think particular atonement sounds cold. Exclusive. Unloving. As if Christ's death were rationed, measured, stingy.</p>
+            <p>Consider what love actually is.</p>
+            <p>A husband who loves his wife does not love her "in general" or "in theory." He loves her in particular. He wakes beside her. He knows her. He has chosen her. If he said to his wife, "I love you, but I also love every other woman equally," she would not feel loved. She would feel replaced.</p>
+            <p>The love of Christ for his church is the love of a bridegroom. <span class="highlight">Particular. Covenantal. Irrevocable</span>. He did not die for an abstract "everyone." He died for his bride—those he had loved before the foundation of the world, those he knew by name, those he was coming to claim as his own.</p>
+            <p>To say Christ's love is particular is not to say it is less. It is to say it is more. It is real. It is actual. It is the kind of love that <span class="highlight">looks you in the eye and says: "I died for you. Not as a generic gesture. For you specifically. For your sins specifically. For your redemption specifically. I will not fail you."</span></p>
+            <p>This is the love that breaks the power of sin. Not a statistical love. A personal love. A love that has your name written in the Lamb's book of life.</p>
+        </section>
+
+        <div class="banner-section">
+            <h3>He Will Never Give Up On You</h3>
+            <p>The same Christ who died for you died with intention. He did not complete his work tentatively, hoping you would cooperate. He paid for you. He claimed you. He will perfect you.</p>
+            <a href="/devotional-never-gives-up">Explore the Full Devotional</a>
+        </div>
+
+        <section class="section">
+            <h2>The Practical Consequence: Assurance</h2>
+            <p>If you believe the gospel, if the Spirit has caused you to see Christ and trust him, then this is the truth you need to hold: <span class="highlight">Christ died to save you. Completely. Your debt is paid. Your sins are covered. Your judgment is finished</span>. Not because you are good enough. Not because you hold on hard enough. Because the death of Christ was effective for you.</p>
+            <p>This is the ground of assurance. Not your own strength. Not your consistency in faith. But the <span class="highlight">finished work of Christ</span>—a work so particular, so intentional, so effective that it accomplishes everything salvation requires.</p>
+            <p>If you are still in unbelief, still outside the flock, still separated from the Shepherd, then you face a critical choice. But it is not a choice between two possible truths. It is a choice between truth and falsehood, between the Light and darkness. The gospel is true. Christ died. He rose. He will judge. And he stands ready to receive anyone who comes to him in faith.</p>
+            <p>Do not put off your awakening.</p>
+        </section>
+
+        <section class="section">
+            <h2>Continue Your Journey</h2>
+            <p>This is just the beginning of understanding Christ's redemptive work. Explore these related topics to deepen your grasp of the atonement and its implications:</p>
+            <div class="related-links">
+                <a href="/demolition-1john2-2" class="link-card">
+                    <h4>The "Propitiation" Question</h4>
+                    <p>Unpack what 1 John 2:2 actually means and why "whole world" doesn't mean what you thought.</p>
+                </a>
+                <a href="/demolition-john3-16" class="link-card">
+                    <h4>John 3:16 Explained</h4>
+                    <p>The most famous verse in Scripture—and how it actually supports particular atonement when read carefully.</p>
+                </a>
+                <a href="/systematic-atonement" class="link-card">
+                    <h4>The Atonement Systematically</h4>
+                    <p>A comprehensive theological framework for understanding Christ's death from Scripture.</p>
+                </a>
+                <a href="/question-chosen" class="link-card">
+                    <h4>Why Did God Choose Anyone?</h4>
+                    <p>If God predestined some for salvation, what about free will and justice?</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                    <li><a href="/resources-confessions">Creeds &amp; Confessions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/stories">Stories &amp; Parables</a></li>
+                    <li><a href="/analogies-illustrations">Analogies</a></li>
+                    <li><a href="/pastoral-assurance">Pastoral</a></li>
+                    <li><a href="/secular-philosophy-free-will">Secular Evidence</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/connect">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace — Soli Deo Gloria</p>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top" id="backToTop">↑</a>
+
+    <script src="/global.js"></script>
+    <script>
+        // Reading Progress Bar
+        const readingProgress = document.getElementById('readingProgress');
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            readingProgress.style.width = scrollPercent + '%';
+        });
+
+        // Back to Top Button
+        const backToTop = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        backToTop.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Mobile Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Dropdown menu interactions
+        document.querySelectorAll('.nav-trigger').forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                e.preventDefault();
+            });
+        });
+    </script>
+</body>
+</html>
