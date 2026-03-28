@@ -74,7 +74,6 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
     transition: all 0.2s ease; border-left: 2px solid transparent;
 }
 .nav-dropdown a:hover { color: var(--accent-gold); background: rgba(212, 162, 84, 0.05); border-left-color: var(--accent-gold); padding-left: 1.5rem; }
-.nav-dropdown .dropdown-icon { font-size: 0.95rem; width: 1.2rem; text-align: center; flex-shrink: 0; }
 .nav-dropdown .dropdown-label { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; color: var(--text-muted); 
     text-transform: uppercase; letter-spacing: 0.15em; padding: 0.8rem 1.3rem 0.3rem; display: block; }
 .nav-dropdown .dropdown-divider { height: 1px; background: var(--border-subtle); margin: 0.4rem 1rem; }
