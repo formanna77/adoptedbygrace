@@ -133,6 +133,19 @@
         .explore-card-count { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent-gold); letter-spacing: 0.1em; margin-top: 1rem; opacity: 0.7; position: relative; z-index: 1; }
         .explore-card.featured { grid-column: span 2; background: linear-gradient(135deg, rgba(18, 18, 26, 0.9), rgba(212, 162, 84, 0.04)); border-color: rgba(212, 162, 84, 0.2); }
 
+        /* ===== NEVER GIVES UP SECTION ===== */
+        .never-section { padding: 6rem 2rem; position: relative; overflow: hidden; text-align: center; }
+        .never-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(ellipse at center, rgba(212, 162, 84, 0.08) 0%, transparent 70%); pointer-events: none; }
+        .never-section::after { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.3; }
+        .never-headline { font-family: 'Playfair Display', serif; font-size: 3.2rem; font-weight: 900; line-height: 1.2; max-width: 800px; margin: 0 auto 1.5rem; position: relative; z-index: 1; }
+        .never-headline em { font-style: italic; color: var(--accent-gold); }
+        .never-body { font-size: 1.15rem; line-height: 1.9; color: var(--text-secondary); max-width: 680px; margin: 0 auto; position: relative; z-index: 1; }
+        .never-body strong { color: var(--text-primary); font-weight: 600; }
+        .never-verse { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.3rem; color: var(--text-primary); max-width: 640px; margin: 2.5rem auto 0.5rem; line-height: 1.6; position: relative; z-index: 1; padding: 1.5rem 2rem; border-left: 3px solid var(--accent-gold); text-align: left; background: rgba(212, 162, 84, 0.03); border-radius: 0 8px 8px 0; }
+        .never-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.15em; margin-bottom: 2rem; position: relative; z-index: 1; }
+        .never-cta { display: inline-block; padding: 1rem 2.5rem; background: transparent; border: 1px solid var(--accent-gold); color: var(--accent-gold); font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; letter-spacing: 0.1em; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; position: relative; z-index: 1; margin-top: 1rem; }
+        .never-cta:hover { background: var(--accent-gold); color: var(--bg-deep); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(212, 162, 84, 0.25); }
+
         /* ===== CTA SECTION ===== */
         .cta-section { padding: 6rem 2rem; text-align: center; position: relative; overflow: hidden; }
         .cta-section::before { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 600px; height: 600px; background: radial-gradient(circle, rgba(139, 92, 246, 0.06) 0%, transparent 70%); border-radius: 50%; pointer-events: none; }
@@ -178,6 +191,10 @@
             .hero-glow { width: 400px; height: 400px; }
             .tulip-section { padding: 3rem 1.5rem; }
             .explore-section { padding: 3rem 1.5rem; }
+            .never-section { padding: 3rem 1.5rem; }
+            .never-headline { font-size: 2.2rem; }
+            .never-body { font-size: 1.05rem; }
+            .never-verse { font-size: 1.1rem; padding: 1.2rem 1.5rem; }
             .cta-section { padding: 3rem 1.5rem; }
             .cta-section::before { width: 300px; height: 300px; }
             .section-title { font-size: 2rem; }
@@ -200,6 +217,9 @@
             .hero-glow { width: 250px; height: 250px; }
             .tulip-section { padding: 2rem 1rem; }
             .explore-section { padding: 2rem 1rem; }
+            .never-section { padding: 2rem 1rem; }
+            .never-headline { font-size: 1.8rem; }
+            .never-verse { font-size: 1rem; padding: 1rem 1.2rem; }
             .cta-section { padding: 2rem 1rem; }
             .section-subtitle { margin-bottom: 2rem; }
             .tulip-letter { width: 48px; height: 48px; font-size: 1.5rem; }
@@ -393,6 +413,34 @@
                 <div class="explore-card-desc">New to Reformed theology? Start with a guided journey from curiosity to conviction.</div>
                 <div class="explore-card-count">YOUR JOURNEY BEGINS</div>
             </a>
+        </div>
+    </section>
+
+    <!-- ===== HE WILL NEVER GIVE UP ON YOU ===== -->
+    <section class="never-section">
+        <div class="reveal">
+            <div class="section-eyebrow" style="margin-bottom: 1.5rem;">T H E &nbsp; H E A R T &nbsp; O F &nbsp; G R A C E</div>
+            <h2 class="never-headline">No matter how far you fall,<br><em>He will never give up on you.</em></h2>
+            <p class="never-body">
+                You have been told your whole life that God's love depends on <strong>you</strong> — your performance, your faithfulness, your ability to hold on tight enough. That if you stumble too far, wander too long, or fall too hard, God will finally wash His hands of you.
+            </p>
+            <p class="never-body" style="margin-top: 1.2rem;">
+                <strong>That is a lie.</strong>
+            </p>
+            <p class="never-body" style="margin-top: 1.2rem;">
+                Scripture teaches that the God who chose you before the foundation of the world does not abandon what He began. He does not start a work of salvation and then leave it half-finished, dependent on a sinner's ability to complete it. The same power that raised Christ from the dead is the power that <strong>holds you</strong> — not because of anything in you, but because of everything in <strong>Him</strong>.
+            </p>
+            <p class="never-body" style="margin-top: 1.2rem;">
+                If you are weary from trying to earn what was always free — if your soul is parched from a lifetime of merit-based religion — this is the water you've been dying for. <strong>God's love for His people is not fragile. It is ferocious, unshakable, and eternal.</strong>
+            </p>
+            <div class="never-verse">
+                &ldquo;My sheep hear my voice, and I know them, and they follow me. I give them eternal life, and they will never perish, and no one will snatch them out of my hand. My Father, who has given them to me, is greater than all, and no one is able to snatch them out of the Father's hand.&rdquo;
+            </div>
+            <p class="never-ref">— J O H N &nbsp; 1 0 : 2 7 – 2 9</p>
+            <p class="never-body" style="margin-top: 1.5rem;">
+                <strong>That's freedom.</strong> Not the counterfeit freedom of "you can choose God" — but the real, soul-quenching freedom of knowing <em>God chose you, and He will never let go.</em>
+            </p>
+            <a href="devotional-never-gives-up.html" class="never-cta">Read the Full Devotional →</a>
         </div>
     </section>
 
