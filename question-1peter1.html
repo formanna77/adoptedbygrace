@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A rigorous exegetical examination of 1 Peter 1:1-2 and the doctrine of unconditional election. Demolishes the Arminian claim that foreknowledge means foreseen faith.">
+    <meta property="og:title" content="Elect Exiles According to the Foreknowledge of God – 1 Peter 1:1-2">
+    <meta property="og:description" content="Deep exegesis of 1 Peter 1:1-2. Why foreknowledge is not foresight. Greek analysis. Trinitarian election. Refutation of Arminianism.">
+    <meta property="og:url" content="https://adoptedbygrace.net/question-1peter1.html">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Elect Exiles According to the Foreknowledge of God">
+    <meta name="twitter:description" content="1 Peter 1:1-2 exegesis: unconditional election, not conditional foreknowledge.">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <link rel="canonical" href="https://adoptedbygrace.net/question-1peter1.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <title>Elect Exiles According to the Foreknowledge of God – 1 Peter 1:1-2 | Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        *:focus-visible {
+            outline: 2px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.75;
+            letter-spacing: 0.3px;
+        }
+
+        /* Reading Progress Bar */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
+            width: 0%;
+            z-index: 1000;
+            transition: width 0.1s ease;
+        }
+
+        /* Skip to Content */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 0 0 4px 0;
+            font-weight: 600;
+            z-index: 999;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border-subtle);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--accent-gold);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 6px;
+            padding: 8px;
+        }
+
+        .hamburger span {
+            width: 24px;
+            height: 2px;
+            background-color: var(--accent-gold);
+            transition: all 0.3s ease;
+            border-radius: 2px;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2px;
+            align-items: center;
+        }
+
+        .nav-links li {
+            position: relative;
+        }
+
+        .nav-links a,
+        .nav-trigger {
+            display: block;
+            padding: 8px 16px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .nav-links a:hover,
+        .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-arrow {
+            font-size: 10px;
+            margin-left: 4px;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .nav-trigger.active .nav-arrow {
+            transform: rotate(180deg);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: var(--bg-card-hover);
+            border: 1px solid var(--border-subtle);
+            border-top: none;
+            min-width: 280px;
+            border-radius: 0 0 8px 8px;
+            flex-direction: column;
+            gap: 0;
+            padding: 12px 0;
+        }
+
+        .nav-dropdown.active {
+            display: flex;
+        }
+
+        .nav-dropdown a {
+            padding: 12px 20px;
+            color: var(--text-secondary);
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-dropdown a:hover {
+            background-color: rgba(212, 162, 84, 0.1);
+            color: var(--accent-gold);
+            padding-left: 24px;
+        }
+
+        .dropdown-icon {
+            font-size: 16px;
+            width: 20px;
+            display: inline-block;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.1) 0%, rgba(139, 92, 246, 0.05) 100%);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 60px 24px;
+            margin-bottom: 40px;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            transition: gap 0.3s ease;
+        }
+
+        .back-link:hover {
+            gap: 12px;
+        }
+
+        .topic-label {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent-ember);
+            margin-bottom: 16px;
+            padding: 6px 12px;
+            border: 1px solid var(--border-subtle);
+            border-radius: 20px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-violet));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            max-width: 800px;
+        }
+
+        /* Breadcrumb Nav */
+        .breadcrumb-nav {
+            max-width: 1200px;
+            margin: 0 auto 40px;
+            padding: 0 24px;
+        }
+
+        .breadcrumb-nav a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: gap 0.3s ease;
+        }
+
+        .breadcrumb-nav a:hover {
+            gap: 12px;
+        }
+
+        /* Section Navigation */
+        .section-nav {
+            max-width: 1200px;
+            margin: 0 auto 60px;
+            padding: 0 24px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .section-nav-container {
+            display: flex;
+            gap: 24px;
+            overflow-x: auto;
+            padding-bottom: 16px;
+        }
+
+        .section-nav-container::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        .section-nav-container::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .section-nav-container::-webkit-scrollbar-thumb {
+            background: var(--accent-gold);
+            border-radius: 2px;
+        }
+
+        .section-nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 8px 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .section-nav a:hover,
+        .section-nav a.active {
+            color: var(--accent-gold);
+            border-bottom-color: var(--accent-gold);
+        }
+
+        /* Main Content */
+        #main-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 24px 80px;
+        }
+
+        .section {
+            margin-bottom: 80px;
+            scroll-margin-top: 100px;
+        }
+
+        .section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 32px;
+            color: var(--accent-gold);
+        }
+
+        .section p {
+            margin-bottom: 24px;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .section p strong {
+            color: var(--accent-gold);
+        }
+
+        .section p em {
+            color: var(--accent-violet);
+            font-style: italic;
+        }
+
+        /* Scripture Block */
+        .scripture-block {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08) 0%, rgba(139, 92, 246, 0.05) 100%);
+            border-left: 4px solid var(--accent-gold);
+            padding: 32px;
+            margin: 40px 0;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 15px;
+            line-height: 1.9;
+            color: var(--text-secondary);
+            italic: true;
+        }
+
+        .scripture-block .verse-ref {
+            display: block;
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-bottom: 16px;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .scripture-block p {
+            margin-bottom: 12px;
+            font-style: italic;
+        }
+
+        .scripture-block p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Greek Grid */
+        .greek-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+            margin: 40px 0;
+        }
+
+        .greek-box {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 28px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .greek-box:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-4px);
+        }
+
+        .greek-word {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--accent-gold);
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .greek-translation {
+            font-size: 14px;
+            color: var(--accent-violet);
+            font-weight: 600;
+            margin-bottom: 12px;
+            font-style: italic;
+        }
+
+        .greek-explanation {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Arguments Grid */
+        .arguments-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            margin: 40px 0;
+        }
+
+        .argument-item {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-violet);
+            padding: 28px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .argument-item:hover {
+            background-color: var(--bg-card-hover);
+            border-left-color: var(--accent-gold);
+        }
+
+        .argument-number {
+            display: inline-block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 700;
+            background-color: var(--accent-violet);
+            color: var(--bg-deep);
+            padding: 6px 12px;
+            border-radius: 4px;
+            margin-bottom: 12px;
+        }
+
+        .argument-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 16px;
+        }
+
+        .argument-text {
+            font-size: 16px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        /* Objection Containers */
+        .objection-container {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            margin: 32px 0;
+            overflow: hidden;
+        }
+
+        .objection-header {
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.15) 0%, rgba(139, 92, 246, 0.1) 100%);
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border-subtle);
+            font-weight: 600;
+            color: var(--accent-ember);
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .objection-header::before {
+            content: "⚔ OBJECTION: ";
+            flex-shrink: 0;
+        }
+
+        .objection-body {
+            padding: 24px;
+        }
+
+        .objection-body p {
+            margin-bottom: 16px;
+        }
+
+        .answer-header {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.15) 0%, rgba(139, 92, 246, 0.1) 100%);
+            padding: 20px 24px;
+            border-top: 1px solid var(--border-subtle);
+            font-weight: 600;
+            color: var(--accent-gold);
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .answer-header::before {
+            content: "✓ ANSWER: ";
+            flex-shrink: 0;
+        }
+
+        .answer-body {
+            padding: 24px;
+        }
+
+        .answer-body p {
+            margin-bottom: 16px;
+        }
+
+        .answer-body p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Evidence Box */
+        .evidence-box {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 28px;
+            border-radius: 4px;
+            margin: 32px 0;
+        }
+
+        .evidence-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 16px;
+        }
+
+        .evidence-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .evidence-list li {
+            list-style: none;
+            padding-left: 24px;
+            position: relative;
+            color: var(--text-secondary);
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        .evidence-list li::before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: var(--accent-gold);
+            font-weight: bold;
+        }
+
+        /* Verdict Box */
+        .verdict-box {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.12) 0%, rgba(139, 92, 246, 0.08) 100%);
+            border: 1px solid var(--accent-gold);
+            padding: 40px;
+            border-radius: 8px;
+            margin: 40px 0;
+        }
+
+        .verdict-box h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 24px;
+        }
+
+        .verdict-quote {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--accent-gold);
+            font-style: italic;
+            margin: 24px 0;
+            padding: 20px;
+            border-left: 3px solid var(--accent-violet);
+            line-height: 1.8;
+        }
+
+        .verdict-attribution {
+            font-size: 13px;
+            color: var(--text-muted);
+            font-weight: 500;
+            margin: 12px 0 24px 0;
+            text-align: right;
+        }
+
+        .soul-box {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(232, 100, 44, 0.08) 100%);
+            border: 1px solid var(--accent-violet);
+            padding: 32px;
+            border-radius: 8px;
+            margin: 40px 0;
+        }
+
+        .soul-box h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--accent-violet);
+            margin-bottom: 20px;
+        }
+
+        .soul-box p {
+            font-size: 16px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .soul-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Share Buttons */
+        .share-buttons {
+            display: flex;
+            gap: 12px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            padding: 12px 20px;
+            border: 1px solid var(--border-subtle);
+            background-color: var(--bg-card);
+            color: var(--text-secondary);
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .share-btn:hover {
+            background-color: var(--bg-card-hover);
+            color: var(--accent-gold);
+            border-color: var(--accent-gold);
+        }
+
+        /* Next Article */
+        .next-article {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.1) 0%, rgba(139, 92, 246, 0.05) 100%);
+            border: 1px solid var(--border-subtle);
+            padding: 32px;
+            border-radius: 8px;
+            margin: 60px 0;
+            text-decoration: none;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .next-article:hover {
+            border-color: var(--accent-gold);
+            transform: translateX(8px);
+        }
+
+        .next-article-label {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent-gold);
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .next-article-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .next-article-desc {
+            color: var(--text-secondary);
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        /* Related Explore Grid */
+        .related-explore {
+            margin: 80px 0;
+        }
+
+        .related-explore h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 32px;
+        }
+
+        .related-explore-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .explore-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text-secondary);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .explore-card:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-4px);
+        }
+
+        .explore-card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--accent-gold);
+        }
+
+        .explore-card-desc {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .explore-card-arrow {
+            color: var(--accent-ember);
+            margin-top: auto;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            padding: 60px 24px 24px;
+            margin-top: 100px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 20px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 12px;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-subtle);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 48px;
+            height: 48px;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            font-weight: bold;
+            z-index: 90;
+            transition: all 0.3s ease;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .back-to-top.visible {
+            display: flex;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-ember);
+            transform: translateY(-4px);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .hero h1 {
+                font-size: 44px;
+            }
+
+            .section h2 {
+                font-size: 36px;
+            }
+
+            .greek-grid {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            }
+
+            #main-content {
+                padding: 0 24px 60px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background-color: var(--bg-card);
+                flex-direction: column;
+                gap: 0;
+                border-bottom: 1px solid var(--border-subtle);
+                padding: 12px 0;
+                border-radius: 0;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                width: 100%;
+            }
+
+            .nav-links a,
+            .nav-trigger {
+                padding: 12px 20px;
+                border: none;
+            }
+
+            .nav-dropdown {
+                position: static;
+                display: none;
+                background-color: rgba(18, 18, 26, 0.8);
+                border: none;
+                border-top: 1px solid var(--border-subtle);
+                border-radius: 0;
+                min-width: unset;
+            }
+
+            .nav-dropdown.active {
+                display: flex;
+            }
+
+            .nav-dropdown a {
+                padding: 12px 20px 12px 40px;
+            }
+
+            .hero {
+                padding: 40px 24px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+
+            .hero-subtitle {
+                font-size: 16px;
+            }
+
+            .section h2 {
+                font-size: 28px;
+                margin-bottom: 24px;
+            }
+
+            #main-content {
+                padding: 0 20px 60px;
+            }
+
+            .greek-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .related-explore-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .back-to-top {
+                width: 44px;
+                height: 44px;
+                bottom: 16px;
+                right: 16px;
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-container {
+                padding: 0 16px;
+            }
+
+            .logo {
+                font-size: 20px;
+            }
+
+            .hero {
+                padding: 32px 16px;
+                margin-bottom: 24px;
+            }
+
+            .hero h1 {
+                font-size: 24px;
+                margin-bottom: 16px;
+            }
+
+            .hero-subtitle {
+                font-size: 14px;
+                line-height: 1.6;
+            }
+
+            #main-content {
+                padding: 0 16px 40px;
+            }
+
+            .section {
+                margin-bottom: 60px;
+            }
+
+            .section h2 {
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+
+            .section p {
+                font-size: 15px;
+            }
+
+            .scripture-block {
+                padding: 20px;
+                font-size: 14px;
+                margin: 32px 0;
+            }
+
+            .greek-box {
+                padding: 20px;
+            }
+
+            .greek-word {
+                font-size: 16px;
+            }
+
+            .argument-item {
+                padding: 20px;
+            }
+
+            .argument-title {
+                font-size: 18px;
+            }
+
+            .argument-text {
+                font-size: 15px;
+            }
+
+            .verdict-box {
+                padding: 24px;
+            }
+
+            .verdict-box h3 {
+                font-size: 22px;
+            }
+
+            .verdict-quote {
+                font-size: 16px;
+                padding: 16px;
+            }
+
+            .soul-box {
+                padding: 24px;
+            }
+
+            .soul-box h4 {
+                font-size: 18px;
+            }
+
+            .section-nav-container {
+                gap: 12px;
+            }
+
+            .section-nav a {
+                font-size: 13px;
+            }
+
+            .breadcrumb-nav {
+                margin-bottom: 20px;
+            }
+
+            .share-buttons {
+                gap: 8px;
+            }
+
+            .share-btn {
+                font-size: 12px;
+                padding: 10px 16px;
+            }
+
+            .next-article {
+                padding: 24px;
+                margin: 40px 0;
+            }
+
+            .next-article-title {
+                font-size: 22px;
+            }
+
+            .related-explore h3 {
+                font-size: 24px;
+            }
+
+            footer {
+                padding: 40px 16px 16px;
+            }
+
+            .footer-container {
+                margin-bottom: 24px;
+            }
+        }
+
+        /* Link styling */
+        a {
+            color: var(--accent-gold);
+        }
+
+        a:hover {
+            color: var(--accent-ember);
+        }
+    
+/* Page transition animations */
+body {
+    animation: pageIn 0.4s ease-out;
+}
+
+@keyframes pageIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Scroll-reveal for content sections */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Elect Exiles According to the Foreknowledge of God – 1 Peter 1:1-2",
+        "description": "A rigorous exegetical examination of 1 Peter 1:1-2 and the doctrine of unconditional election.",
+        "url": "https://adoptedbygrace.net/question-1peter1.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://adoptedbygrace.net/question-1peter1.html"
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="reading-progress" role="progressbar" aria-label="Reading progress"></div>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions"><span class="dropdown-icon">&#9876;</span> The Evidence</a>
+                        <a href="/systematic-theology-hub"><span class="dropdown-icon">&#128220;</span> Systematic Theology</a>
+                        <a href="/scripture-tsunami"><span class="dropdown-icon">&#127754;</span> Scripture Tsunami</a>
+                        <a href="/creeds-confessions"><span class="dropdown-icon">&#128216;</span> Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub"><span class="dropdown-icon">&#128293;</span> Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism"><span class="dropdown-icon">&#9878;</span> Comparisons</a>
+                        <a href="/objection-why-command"><span class="dropdown-icon">&#128172;</span> Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals"><span class="dropdown-icon">&#128156;</span> Devotionals</a>
+                        <a href="/stories"><span class="dropdown-icon">&#128214;</span> Stories &amp; Parables</a>
+                        <a href="/analogies-illustrations"><span class="dropdown-icon">&#128161;</span> Analogies</a>
+                        <a href="/pastoral-assurance"><span class="dropdown-icon">&#128588;</span> Pastoral</a>
+                        <a href="/secular-evidence"><span class="dropdown-icon">&#128300;</span> Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians"><span class="dropdown-icon">&#9733;</span> Theologians</a>
+                        <a href="/history-timeline"><span class="dropdown-icon">&#128197;</span> Church History</a>
+                        <a href="/ot-election"><span class="dropdown-icon">&#128220;</span> OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb-nav">
+        <a href="questions.html">&larr; Back to The Evidence</a>
+    </div>
+
+    <div class="hero">
+        <div class="hero-content">
+            <span class="topic-label">Direct Statement of Election · 1 Peter 1:1-2</span>
+            <h1>Elect Exiles According to the Foreknowledge of God</h1>
+            <p class="hero-subtitle">Peter opens his first epistle by addressing believers as what they are before anything else: elect. And then he grounds that election not in human decision but in the Trinitarian work of God—foreknown by the Father, sanctified by the Spirit, sprinkled by the blood of Christ.</p>
+        </div>
+    </div>
+
+    <div class="section-nav">
+        <div class="section-nav-container">
+            <a href="#the-text" class="section-nav-link">The Text</a>
+            <a href="#greek-dive" class="section-nav-link">Greek Deep Dive</a>
+            <a href="#arguments" class="section-nav-link">Arguments</a>
+            <a href="#objections" class="section-nav-link">Objections</a>
+            <a href="#verdict" class="section-nav-link">The Verdict</a>
+        </div>
+    </div>
+
+    <main id="main-content">
+        <!-- Section 1: The Text -->
+        <section id="the-text" class="section">
+            <h2>The Text</h2>
+
+            <div class="scripture-block">
+                <span class="verse-ref">1 Peter 1:1-2 (ESV)</span>
+                <p>Peter, an apostle of Jesus Christ, to those who are elect exiles of the Dispersion in Pontus, Galatia, Cappadocia, Asia, and Bithynia, according to the foreknowledge of God the Father, in the sanctification of the Spirit, for obedience to Jesus Christ and for sprinkling with his blood: May grace and peace be multiplied to you.</p>
+            </div>
+
+            <p>Peter writes these opening words to suffering believers scattered across Asia Minor, far from their homeland. His first word of comfort to them is not "endure" or "hope" or "try harder." His first word is <strong>elect</strong>.</p>
+
+            <p>This is extraordinary. A letter written to persecuted Christians—believers who are being mocked, reviled, suffering for their faith (as we learn in verses 6-7)—begins not with encouragement to persevere through trials, but with the declaration of their <strong>identity before all else: they are God's chosen people</strong>. Their security, their worth, their future—all rooted in something that happened before the foundation of the world.</p>
+
+            <p>But Peter does not stop at simply calling them "elect." He then does something that every Arminian must face: <strong>he grounds that election in the Trinitarian work of God</strong>. The structure is unmistakable:</p>
+
+            <p><em>Peter, an apostle of Jesus Christ</em> → <em>to those who are elect exiles</em> → <em>of the Dispersion</em> → <em><strong>according to the foreknowledge of God the Father</strong></em> → <em><strong>in the sanctification of the Spirit</strong></em> → <em><strong>for obedience to Jesus Christ</strong></em> → <em><strong>and for sprinkling with his blood</strong></em>.</p>
+
+            <p>Each member of the Trinity acts. The Father foreknows. The Spirit sanctifies. The Son redeems. And their combined action is what constitutes the election of these believers. It is not a human decision; it is a divine action.</p>
+
+            <p>This passage is regularly weaponized by Arminian theologians who insist that "foreknowledge" means God merely looked ahead through time and saw who would believe, and on that basis elected them. But as we shall see, this reading destroys the text's own grammar, contradicts the consistent biblical use of "foreknowledge," and collapses under the weight of the very clause that should confirm the Arminian reading: the preposition "for" (eis), which introduces purpose, not cause.</p>
+
+            <p>This page exists to demolish that reading. Not with rhetoric or passion—though those have their place—but with rigorous exegesis, Greek analysis, Scripture's own definitions, and the testimony of the church's greatest theologians. By the time you finish, you will see that 1 Peter 1:1-2 is not an Arminian proof text. It is a Reformation proof text. It is a declaration of unconditional, Trinitarian, purposeful election by the God who is sovereign over all.</p>
+        </section>
+
+        <!-- Section 2: Greek Deep Dive -->
+        <section id="greek-dive" class="section">
+            <h2>Greek Deep Dive: Six Words That Settle the Matter</h2>
+
+            <p>Arminians depend on vague readings of key terms. Here we will examine the actual Greek—the words Peter chose—and let them speak for themselves.</p>
+
+            <div class="greek-grid">
+                <div class="greek-box">
+                    <div class="greek-word">ἐκλεκτοῖς (eklektois)</div>
+                    <div class="greek-translation">"Elect, chosen ones"</div>
+                    <div class="greek-explanation">A dative plural adjective derived from <em>eklegomai</em> (to choose out, to select). This is a word of <strong>selection, not response</strong>. Peter identifies these believers as "chosen ones" before he mentions anything about their faith, their obedience, or their decision. The word speaks of being picked, selected, separated by someone in authority. Notably, this same word is used of Christ Himself in 1 Peter 2:4 ("a living stone, rejected by men but in the sight of God chosen and precious") and 2:6 ("the stone that the builders rejected has become the cornerstone"). Jesus is "the Chosen One"—and He chose a chosen people. The word leaves no room for the idea that they chose themselves.</div>
+                </div>
+
+                <div class="greek-box">
+                    <div class="greek-word">πρόγνωσιν (prognosin)</div>
+                    <div class="greek-translation">"Foreknowledge"</div>
+                    <div class="greek-explanation">Composed of <em>pro</em> (before) + <em>ginosko</em> (to know). But here is where the Arminian reading falls apart. In Hebrew thought—and throughout Scripture—"to know" is not merely cognitive awareness. When God "knows" someone, it is covenantal, relational, intimate. Genesis 18:19: "I have chosen him... that the LORD may bring about for Abraham what he has promised him." The word for "know" here is the same Hebrew word (yada) rendered as "chosen." In Amos 3:2, the Lord says to Israel: "You only have I known of all the families of the earth"—meaning He set His covenant love upon Israel above all nations. He was aware of every nation, but He "knew" only Israel. In Jeremiah 1:5, the Lord tells the prophet: "Before I formed you in the womb I knew you"—not mere cognition, but relational appointment. In Matthew 7:23, Christ tells the wicked on the day of judgment: "I never knew you"—though He was cosmically aware of them, He never stood in covenant relationship with them. "Foreknowledge" in Scripture means <strong>fore-love, fore-relationship, fore-appointment</strong>. It is God's intimate knowing before time—the setting of His covenantal affection upon particular persons. Not the passive observation of who would believe, but the active determination of who would be loved.</div>
+                </div>
+
+                <div class="greek-box">
+                    <div class="greek-word">ἁγιασμῷ πνεύματος (hagiasmō pneumatos)</div>
+                    <div class="greek-translation">"Sanctification of the Spirit"</div>
+                    <div class="greek-explanation">From <em>hagios</em> (holy, set apart). This is not progressive sanctification—the gradual moral growth of believers through the Christian life—but the Spirit's initial, powerful work of <strong>setting apart the elect from the kingdom of darkness</strong>. It is the application of election to the individual believer. The Father chose them before time. The Spirit applies that choice in history. "In the sanctification of the Spirit" describes the means by which election is realized in their lives. And this is the Spirit's work, not theirs. This confirms the Trinitarian structure: the Father elects, the Spirit applies, the Son secures. Three persons, all acting.</div>
+                </div>
+
+                <div class="greek-box">
+                    <div class="greek-word">εἰς ὑπακοήν (eis hypakoēn)</div>
+                    <div class="greek-translation">"For/unto obedience"</div>
+                    <div class="greek-explanation">The preposition <em>eis</em> denotes <strong>purpose or result</strong>, not condition or cause. Election is FOR obedience. Obedience is the GOAL, the PURPOSE of election, not its CAUSE. This single preposition demolishes the Arminian position. If their reading were true—if God elected people whom He foresaw would obey—then 1 Peter 1:2 would read: "God elected those He foresaw would obey... FOR obedience." That is viciously circular. It means the purpose of election is the very thing that supposedly caused it. Only one reading escapes circularity: God chose (foreknew) these people, and the purpose of that choosing is to bring them to obedience. Obedience flows from election as a river flows from its source—it does not cause the source.</div>
+                </div>
+
+                <div class="greek-box">
+                    <div class="greek-word">ῥαντισμὸν αἵματος (rhantismon haimatos)</div>
+                    <div class="greek-translation">"Sprinkling of blood"</div>
+                    <div class="greek-explanation">An echo of Exodus 24:3-8, where Moses sprinkled blood on the people to ratify the covenant between God and Israel. Peter sees the elect as those upon whom the blood of Christ has been sprinkled—the new covenant people. Critically, the sprinkling is <strong>God's action, not the people's</strong>. They do not sprinkle themselves; the blood is applied to them. This reinforces the passive, chosen status of the elect. They are recipients of God's covenantal action, not authors of it. The blood secures them. The covenant cannot be broken. The sprinkling binds them permanently to Christ.</div>
+                </div>
+
+                <div class="greek-box">
+                    <div class="greek-word">παρεπιδήμοις διασπορᾶς (parepidēmois diasporas)</div>
+                    <div class="greek-translation">"Sojourners/exiles of the Dispersion"</div>
+                    <div class="greek-explanation">They are <em>both</em> chosen <em>and</em> exiles. Their identity is dual. They are the <em>elect exiles</em>—chosen by God but rejected by the world, scattered and suffering. This frames the entire letter. Their suffering makes theological sense only if they understand that they were never meant to belong to this fallen world. They belong to God. They are His possession. Their present scattering is temporary; their eternal choosing is absolute. The word "exiles" (parepidēmos) means temporary residents, sojourners—emphasizing that this world is not their home. Their home is with the One who chose them.</div>
+                </div>
+            </div>
+
+            <p>In these six words lies the entire doctrine of unconditional election. Not a single word supports the Arminian reading. Every word supports the Reformed understanding. The elect are <em>chosen</em>, on the basis of the Father's <em>foreknowledge</em> (fore-love), applied by the Spirit's <em>sanctification</em>, for the <em>purpose</em> of obedience, sealed by Christ's <em>blood</em>, as exiles in a world that will never be their home.</p>
+        </section>
+
+        <!-- Section 3: Arguments -->
+        <section id="arguments" class="section">
+            <h2>Seven Arguments: Why the Text Demands Unconditional Election</h2>
+
+            <div class="arguments-grid">
+                <div class="argument-item">
+                    <span class="argument-number">ARGUMENT 1</span>
+                    <div class="argument-title">"Foreknowledge" Never Means Passive Foresight When Applied to Persons</div>
+                    <div class="argument-text">
+                        <p>Every time <em>proginōskō</em> (foreknow) appears in the New Testament with God as subject, it refers to <em>persons</em>, not facts about persons. This is decisive.</p>
+                        <p><strong>Romans 8:29:</strong> "For those whom he foreknew he also predestined to be conformed to the image of his Son." The Greek reads: "ous proegno, kai proorisen" (those whom he foreknew, and predestined). Paul is not saying God foresaw their faith. He says God foreknew <em>them</em>—the persons themselves. And having foreknown them, He predestined them. The fact that Paul adds "predestined" after "foreknew" proves these are not the same thing. If "foreknew" meant "foresaw their faith," then "predestined" would be redundant. But they form a chain: foreknew → predestined → called → justified → glorified. Each link is distinct. God's foreknowledge is not passive observation; it is the first step in an active plan.</p>
+                        <p><strong>Romans 11:2:</strong> "God has not rejected his people whom he foreknew." This refers to Israel as a nation, as a people. God's foreknowledge of Israel is not that He saw they would believe, but that He <em>chose them, appointed them, set His love upon them from eternity</em>. Deuteronomy 7:6-8 makes this explicit: "You are a people holy to the LORD your God. The LORD your God has chosen you out of all the peoples... It is because the LORD loves you and is keeping the oath he swore to your fathers, that the LORD has brought you out with a mighty hand."</p>
+                        <p><strong>Acts 2:23:</strong> Christ "was delivered up according to the definite plan and foreknowledge of God." Here, "foreknowledge" is yoked with God's "definite plan." God foreknew Christ's coming not as a passive observer, but as the One who determined and appointed it. If foreknowledge is active appointment when applied to Christ, intellectual consistency demands it carry the same meaning when applied to believers in the same epistle (1 Peter 1:20).</p>
+                        <p><strong>1 Peter 1:20:</strong> In the very same epistle as our passage, Peter writes that Christ was "foreknown before the foundation of the world." Did God merely foresee that Christ would come? Or did God appoint, ordain, and predetermine His coming? Clearly the latter. The word is the same: "foreknown." The context is the same: God's purposes before time. The only honest conclusion is that foreknowledge means the same thing in verse 20 as it does in verses 1-2: <strong>active divine appointment, not passive foresight</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="argument-item">
+                    <span class="argument-number">ARGUMENT 2</span>
+                    <div class="argument-title">The Trinitarian Structure Proves All Three Persons Actively Choose</div>
+                    <div class="argument-text">
+                        <p>Peter structures election as a Trinitarian act:</p>
+                        <ul style="margin: 16px 0; padding-left: 24px;">
+                            <li style="list-style: disc; margin-bottom: 8px;">The <strong>Father</strong> foreknows</li>
+                            <li style="list-style: disc; margin-bottom: 8px;">The <strong>Spirit</strong> sanctifies</li>
+                            <li style="list-style: disc;">The <strong>Son</strong> redeems (through His blood-sprinkling)</li>
+                        </ul>
+                        <p>Each member of the Trinity <em>acts</em>. If the Arminian reading were correct—if "foreknowledge" meant God merely looked ahead and saw who would believe—then the Father's contribution would be reduced to passive watching. The Spirit does the real work (sanctification), and the Son does the real work (redemption), but the Father? He just observes.</p>
+                        <p>That breaks the parallelism. It is theologically incoherent. In a Trinitarian action, each person contributes something. The Father's foreknowledge is as active as the Spirit's sanctification and as active as the Son's sprinkling. All three <em>choose</em>. All three <em>act</em>. The Father's foreknowledge is the eternal choosing that begins the whole process, just as surely as the Spirit's sanctification applies that choice to the individual and the Son's blood secures it permanently.</p>
+                    </div>
+                </div>
+
+                <div class="argument-item">
+                    <span class="argument-number">ARGUMENT 3</span>
+                    <div class="argument-title">The "Eis" Clause Destroys the Arminian Reading as Self-Refuting</div>
+                    <div class="argument-text">
+                        <p>The preposition <em>eis</em> means "for" (purpose) or "unto" (result). Peter says election is "for obedience to Jesus Christ" (eis hypakoēn).</p>
+                        <p>If the Arminian interpretation were true, here is what the text would mean: "God foresaw who would be obedient and elected them... <em>for</em> obedience." In other words, the purpose of election would be the very thing that caused it. The cause and the purpose are identical. This is viciously circular.</p>
+                        <p>By contrast, the Reformed reading is logically coherent: "God chose these people (foreknew them), and the purpose of that choosing is to bring them to obedience." Obedience is the fruit of election, not the root. Obedience flows from being chosen, as water flows from a spring.</p>
+                        <p>Consider an analogy: "A teacher selected certain students for her advanced program in order to help them advance." The teacher's selection causes the advancement; it does not result from foreseen advancement. Similarly, God's election causes obedience; it does not result from foreseen obedience.</p>
+                        <p>The <em>eis</em> clause is fatal to Arminianism. It cannot survive scrutiny. Every Arminian commentary must either dismiss this clause, redefine "purpose," or argue that circularity is not a problem. None of these moves work.</p>
+                    </div>
+                </div>
+
+                <div class="argument-item">
+                    <span class="argument-number">ARGUMENT 4</span>
+                    <div class="argument-title">The Order of the "Ordo Salutis" Matches Reformed Theology, Not Arminian</div>
+                    <div class="argument-text">
+                        <p>The order matters: (1) foreknowledge → (2) sanctification → (3) obedience/blood-sprinkling.</p>
+                        <p>In Arminian theology, the logical order should be: (1) foreseen faith/obedience → (2) election → (3) sanctification. Human decision comes first; God's election follows based on that foreseen decision.</p>
+                        <p>But Peter reverses that order. Foreknowledge comes first—before time, before creation, before any human decision. It is foundational. Sanctification follows—the Spirit applying that eternal choice to the individual in history. Obedience comes last—the fruit of the prior two.</p>
+                        <p>This order mirrors the Reformed <em>ordo salutis</em>:</p>
+                        <ul style="margin: 16px 0; padding-left: 24px;">
+                            <li style="list-style: disc; margin-bottom: 8px;">Election (God's eternal choice)</li>
+                            <li style="list-style: disc; margin-bottom: 8px;">Effectual calling (the Spirit's application)</li>
+                            <li style="list-style: disc; margin-bottom: 8px;">Faith and obedience (the believer's response)</li>
+                        </ul>
+                        <p>The order of Peter's words is the order of salvation: God chooses first. The Spirit applies that choice. The believer responds in obedience. This is the order that honors God's sovereignty and human responsibility together.</p>
+                    </div>
+                </div>
+
+                <div class="argument-item">
+                    <span class="argument-number">ARGUMENT 5</span>
+                    <div class="argument-title">Peter Uses "Elect" as a Title, Not a Description of Their Response</div>
+                    <div class="argument-text">
+                        <p>Notice how Peter identifies these believers: not as "those who chose God" or "those who believed" or "those who obeyed," but as <strong>"the elect" (eklektous)</strong>—the chosen ones.</p>
+                        <p>"Elect" is a <em>title</em>. It defines their identity at the deepest level. They are <em>God's chosen people</em>. This is not a description of their action; it is a declaration of their status.</p>
+                        <p>Throughout 1 Peter, Peter consistently derives the believers' responsibilities from their identity as chosen:</p>
+                        <ul style="margin: 16px 0; padding-left: 24px;">
+                            <li style="list-style: disc; margin-bottom: 8px;">1:1 — "Elect exiles"</li>
+                            <li style="list-style: disc; margin-bottom: 8px;">2:9 — "A chosen race, a royal priesthood, a holy nation, a people for his own possession"</li>
+                            <li style="list-style: disc; margin-bottom: 8px;">2 Peter 1:10 — "Be all the more diligent to confirm YOUR calling and election"</li>
+                        </ul>
+                        <p>Notice the logic: first, the title (chosen, elect); then, the exhortation (confirm it, live like it). Peter never grounds their election in their response. He grounds their response in their election. <strong>Election is the foundation; obedience is the superstructure</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="argument-item">
+                    <span class="argument-number">ARGUMENT 6</span>
+                    <div class="argument-title">The Parallel with 1 Peter 1:20 Settles the Meaning of "Foreknown"</div>
+                    <div class="argument-text">
+                        <p>In verse 20, Peter writes: "He was foreknown before the foundation of the world but was made manifest in these last times for the sake of you."</p>
+                        <p>The subject is Christ. Did God merely <em>foresee</em> that Christ would come? Or did God <em>appoint, ordain, predetermine</em> His coming?</p>
+                        <p>The answer is obvious. God appointed Christ's incarnation. God decreed His coming. God predestined His appearing. This is not passive foresight; it is active divine decision.</p>
+                        <p>Now, the word used in verse 20 is the same word used in verses 1-2: <em>proginōskō</em> (foreknown). If intellectual honesty matters, then the word must mean the same thing in both verses. If Christ's foreknowledge is God's active appointment, then believers' foreknowledge must be God's active appointment.</p>
+                        <p>Peter uses the identical Greek word in the identical epistle for the identical purpose: to establish the eternality and certainty of God's choice. He is not saying God foresaw Christ would come; he is saying God appointed Christ to come. He is not saying God foresaw believers would believe; he is saying God chose believers before the foundation of the world.</p>
+                        <p><strong>The same word cannot mean two different things in the same epistle without explicit textual markers indicating the shift</strong>. No such markers exist. Therefore, foreknowledge means the same thing in 1:2 as it does in 1:20: divine appointment.</p>
+                    </div>
+                </div>
+
+                <div class="argument-item">
+                    <span class="argument-number">ARGUMENT 7</span>
+                    <div class="argument-title">The Old Testament Background: "Know" as Covenantal Love</div>
+                    <div class="argument-text">
+                        <p>Peter is writing to Jewish believers who would immediately recognize the covenantal language he uses. "Foreknowledge" echoes the Old Testament concept of God's "knowing" as the setting of covenantal love.</p>
+                        <p><strong>Genesis 18:19:</strong> "For I have chosen him, that he may command his children and his household after him to keep the way of the LORD by doing righteousness and justice." The language of "knowing" here (yada) is synonymous with choosing. God "knew" Abraham means God set His covenant love upon Abraham.</p>
+                        <p><strong>Amos 3:2:</strong> "You only have I known of all the families of the earth; therefore I will punish you for all your iniquities." The Lord is saying to Israel: I was aware of every nation, but I set my covenant love upon <em>you</em>. That "knowing" is the basis of God's covenant relationship with Israel and the ground of His judgment when they violate it.</p>
+                        <p><strong>Hosea 13:5:</strong> "It was I who knew you in the wilderness, in the land of drought." God's "knowing" is His covenant care, His intimate choosing, His steadfast relationship.</p>
+                        <p><strong>Psalm 1:6:</strong> "For the LORD knows the way of the righteous, but the way of the wicked will perish." Here, God's "knowing" the righteous is His protecting them, His covenant relationship with them.</p>
+                        <p><strong>Jeremiah 1:5:</strong> "Before I formed you in the womb I knew you, and before you were born I consecrated you." God did not merely have intellectual awareness of Jeremiah before he was born. God set His love upon him, appointed him, consecrated him. This is what "knew" means in Hebrew thought.</p>
+                        <p>When Peter uses "foreknowledge," Jewish believers would immediately understand: God set His covenant love upon these believers before the foundation of the world. Not passive observation, but active choosing. Not foresight, but fore-love. This is the Old Testament category that illuminates Peter's meaning.</p>
+                    </div>
+                </div>
+            </div>
+
+            <p>These seven arguments converge on a single, inescapable conclusion: <strong>1 Peter 1:1-2 teaches unconditional election according to God's foreknowledge, not conditional election based on foreseen faith</strong>. No amount of clever theological footwork can change what the Greek plainly says, what the order of the text plainly shows, what the Old Testament background plainly teaches, and what Christ's own foreknowledge in verse 20 plainly establishes.</p>
+        </section>
+
+        <!-- Section 4: Objections Answered -->
+        <section id="objections" class="section">
+            <h2>Six Arminian Objections Demolished</h2>
+
+            <p>Arminians do not surrender their reading easily. Here are their six strongest objections and why each one fails.</p>
+
+            <!-- Objection 1 -->
+            <div class="objection-container">
+                <div class="objection-header">Foreknowledge simply means God looked ahead and saw who would believe.</div>
+                <div class="objection-body">
+                    <p>This is the foundational Arminian claim, and it fails on multiple counts:</p>
+
+                    <p><strong>First, the "eis" clause makes this reading circular.</strong> If God elected people based on foreseen faith, then saying He elected them "for obedience" is redundant and circular. The cause of election cannot also be its purpose. The text only makes logical sense if election comes first and obedience follows as its purpose.</p>
+
+                    <p><strong>Second, what exactly would God have foreseen?</strong> Apart from God's sovereign grace, fallen humans are dead in sin (Ephesians 2:1), hostile to God (Romans 8:7), and unable to submit to God's law (Romans 8:8). "There is none who seeks for God" (Romans 3:11). No one naturally believes. No one naturally obeys. If God merely looked ahead without intervening, He would have foreseen universal rejection.</p>
+
+                    <p>For God to foreknow that someone would believe, God would have to foreknow that He Himself would extend grace to them. But then the real cause of the foreseen faith is God's grace, not human free will. Which brings us right back to sovereign election. You cannot escape predestination by saying "God foresaw what He would cause." That is precisely what predestination <em>is</em>.</p>
+
+                    <p><strong>Third, Scripture consistently associates "foreknowing" with active appointment, not passive observation.</strong> We have already established this in Argument 1 above. The Arminian reading has no textual support.</p>
+                </div>
+
+                <div class="answer-header">Election is the basis of foreseen faith, not the consequence of it.</div>
+                <div class="answer-body">
+                    <p>God's foreknowledge that someone would believe is God's foreknowledge that <em>He Himself would draw them to faith</em>. As Jesus said: "No one can come to me unless the Father who sent me draws him" (John 6:44). The Father's drawing is the cause of faith, not its consequence. And if the Father drew them, then the Father chose them. Election precedes faith. Faith is the fruit of election, not the root.</p>
+                </div>
+            </div>
+
+            <!-- Objection 2 -->
+            <div class="objection-container">
+                <div class="objection-header">This is corporate election—God chose the church, not individuals.</div>
+                <div class="objection-body">
+                    <p>This objection tries to have it both ways: acknowledge the text's teaching about election while denying it applies to individuals.</p>
+
+                    <p>But the text explicitly addresses <em>individuals</em>. Peter writes to "those who are elect exiles <strong>in Pontus, Galatia, Cappadocia, Asia, and Bithynia</strong>" (1:1). These are real believers in real places. The letter opens by addressing them <em>as elect</em>. Not "the church is elect," but "you are elect."</p>
+
+                    <p>Furthermore, a chosen group is necessarily composed of chosen individuals. You cannot have a chosen team without chosen members. If the church is elect, then the members of the church are elect. To say "the church is chosen but you are not" is nonsensical. It is like saying "the team is selected for the championship but no team members are selected." Impossible.</p>
+
+                    <p><strong>2 Peter 1:10 makes this absolutely explicit:</strong> "Be all the more diligent to confirm <strong>YOUR calling and election</strong>, brothers." Not "confirm the church's election." Your individual calling. Your individual election. Each believer has a calling and an election. It is personal, not merely corporate.</p>
+                </div>
+
+                <div class="answer-header">Peter addresses individuals as elect and urges them to confirm their personal calling and election.</div>
+                <div class="answer-body">
+                    <p>The letter is addressed to believers scattered across five provinces. Each of them is addressed as elect. Each of them has a calling and election that can be confirmed. This is unmistakably individual election. Corporate election is biblical (God chose a church), but it is not what this text is saying. The text speaks to individuals: "You are elect."</p>
+                </div>
+            </div>
+
+            <!-- Objection 3 -->
+            <div class="objection-container">
+                <div class="objection-header">If election is unconditional, why does Peter urge diligence?</div>
+                <div class="objection-body">
+                    <p>This objection confuses cause and effect. Arminians assume that if God has already chosen you, then your efforts are pointless. But this contradicts Scripture itself.</p>
+
+                    <p>Look at 2 Peter 1:5-10: "For this very reason, make every effort to supplement your faith with virtue, and virtue with knowledge, and knowledge with self-control, and self-control with steadfastness, and steadfastness with godliness, and godliness with brotherly affection, and brotherly affection with love. For if these qualities are yours and are increasing, they keep you from being ineffective or unfruitful in the knowledge of our Lord Jesus Christ... Therefore, brothers, be all the more diligent to confirm <strong>your calling and election</strong>."</p>
+
+                    <p>The structure is unmistakable: Peter commands diligence and then says this diligence is the means of <em>confirming</em> your calling and election. The diligence does not <em>earn</em> the election; it <em>confirms</em> it. It is the fruit of the election, not the cause.</p>
+
+                    <p>This is one of the most beautiful doctrines: <strong>God ordains the ends and the means</strong>. God ordained that you would come to faith. God ordained that you would repent. God ordained that you would be diligent. God ordained all of these things. They are all part of His plan. So you work hard, not to earn what God has not given, but because that working hard <em>is part of what God ordained for you</em>.</p>
+                </div>
+
+                <div class="answer-header">Election is the basis of diligence, not contradictory to it. God ordains both the end and the means.</div>
+                <div class="answer-body">
+                    <p>Philippians 2:12-13 captures this beautifully: "Work out your salvation with fear and trembling, for it is God who works in you, both to will and to work for his good pleasure." You work. But God is working in you, causing you to will what is good and to work toward it. Your effort and God's sovereignty are not contradictory; they are complementary. You confirm your election by living a life of diligence because that diligence flows from the reality of your election.</p>
+                </div>
+            </div>
+
+            <!-- Objection 4 -->
+            <div class="objection-container">
+                <div class="objection-header">Foreknowledge in Romans 8:29 refers to foreseen faith.</div>
+                <div class="objection-body">
+                    <p>Romans 8:29 is a favorite Arminian reference: "For those whom he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers."</p>
+
+                    <p>The Arminian argument: "Foreknew" means God foresaw their faith, and on that basis predestined them.</p>
+
+                    <p>But this reading is destroyed by the very next link in Paul's chain: <strong>if "foreknew" meant "foresaw their faith," then "predestined" would be redundant</strong>. Why predestine what you have already foreseen as certain?</p>
+
+                    <p>The chain is: foreknew → predestined → called → justified → glorified. Each link adds something new. Each link is a distinct, active step. "Foreknew" is not foresight of faith; it is the <em>first step in God's active plan</em>. "Predestined" is the <em>second step</em>—the determination of their destiny to be conformed to Christ. "Called" is the <em>third step</em>—the effectual summons to faith. And so on.</p>
+
+                    <p>If all these links mean the same thing ("foresee what will happen"), why have a chain at all? The chain only makes sense if each link represents a distinct stage in God's work: foreknew (chose) → predestined (determined their destiny) → called (summoned to faith) → justified (declared righteous) → glorified (perfected in heaven).</p>
+                </div>
+
+                <div class="answer-header">The chain of Romans 8:29 proves each term is distinct. Foreknowledge is the first step in God's active plan, not passive foresight.</div>
+                <div class="answer-body">
+                    <p>If foreknowledge merely meant foresight, Paul would have written: "For those whose faith God foresaw, He also justified and glorified." Why all the intermediate steps? Because God doesn't merely foresee; He foreknows (fore-loves and fore-appoints), then predestines, then calls, then justifies, then glorifies. It is an active, Trinitarian, multistep plan. Foreknowledge is the foundation. It is God's choice before time.</p>
+                </div>
+            </div>
+
+            <!-- Objection 5 -->
+            <div class="objection-container">
+                <div class="objection-header">This interpretation makes God the author of unbelief.</div>
+                <div class="objection-body">
+                    <p>This is an emotional objection, not an exegetical one. But it deserves an answer.</p>
+
+                    <p><strong>First, the fact of universal fallenness:</strong> All humans are already in a state of unbelief and alienation from God by nature. "As it is written: 'None is righteous, no, not one; no one understands; no one seeks for God. All have turned aside; together they have become worthless'" (Romans 3:10-12). The question is not "Why doesn't God save everyone?" The question is "Why does God save anyone?"</p>
+
+                    <p><strong>Second, Adam's fall, not God's decree, is the root of sin.</strong> God did not create unbelief. Adam's transgression created human rebellion. All humans are born into a fallen condition, already hostile to God. Election is not God creating new sinners; it is God choosing to rescue some from a mass of fallen humanity that stands already condemned.</p>
+
+                    <p><strong>Third, election is mercy, not cruelty.</strong> Romans 9:22-23 says: "What if God, desiring to show his wrath and to make known his power, has endured with much patience vessels of wrath prepared for destruction, in order to make known the riches of his glory for vessels of mercy, which he has prepared beforehand for glory?" God is not creating reprobation; He is <em>justly</em> permitting those who deserve judgment to experience it. At the same time, He is <em>mercifully</em> choosing others to receive grace they do not deserve. Mercy is not cruel. Justice is not cruel. Election is God's gracious choice to save some from the just consequences they have earned.</p>
+
+                    <p><strong>Fourth, the Bible plainly teaches both God's sovereignty and human responsibility.</strong> Judas was ordained to betray Jesus (Acts 2:23, Psalm 41:9). Yet Judas is held morally responsible. Peter was ordained to deny Jesus. Yet Peter's denial was his deliberate sin. God's foreordination does not eliminate human choice; it secures it. What we freely choose to do, God foreknew we would freely choose to do.</p>
+                </div>
+
+                <div class="answer-header">Scripture teaches election without ever concluding that God is unjust. Human sinfulness already exists. Election is God mercifully choosing to save some.</div>
+                <div class="answer-body">
+                    <p>The problem of sin does not begin with God's election; it began with Adam's transgression. Into a fallen world, God reaches down and chooses. That choosing is not unjust; it is merciful. Every unregenerate person deserves judgment. God saves some from that judgment. That is grace, not cruelty. And though we cannot fully reconcile divine sovereignty and human responsibility in this life, Scripture teaches both without apology, and we must do the same.</p>
+                </div>
+            </div>
+
+            <!-- Objection 6 -->
+            <div class="objection-container">
+                <div class="objection-header">Peter says "for obedience to Jesus Christ"—doesn't that make obedience a condition of election?</div>
+                <div class="objection-body">
+                    <p>This is a grammatical misreading. The preposition is <em>eis</em>, which means <strong>"for" (purpose) or "unto" (result)</strong>, never "because of" or "conditional upon."</p>
+
+                    <p>Compare Ephesians 2:10: "For we are his workmanship, created in Christ Jesus <strong>for</strong> good works, which God prepared beforehand, that we should walk in them." Are good works the <em>basis</em> of our creation in Christ? No. They are the <em>purpose</em> of it. God created us in Christ <em>in order that</em> we would do good works. The good works are the result, not the cause.</p>
+
+                    <p>Similarly, believers are chosen by the Father, sanctified by the Spirit, and redeemed by the Son <em>for</em> obedience. Obedience is the goal, the purpose, the result—not the condition or cause.</p>
+
+                    <p>If obedience were a condition, Peter would have used a conditional construction: "if you obey" or "provided that you obey" or "because you will obey." Instead, he uses <em>eis</em>, which speaks of purpose and result. We are chosen <em>in order to</em> obey, not <em>because we will</em> obey.</p>
+                </div>
+
+                <div class="answer-header">The preposition "eis" denotes purpose, not condition. Obedience is the goal of election, not its cause.</div>
+                <div class="answer-body">
+                    <p>"For obedience" means "unto obedience"—indicating the trajectory, the purpose, the result. It is what God aims at through election. And because election is certain, obedience will certainly follow. But it follows as a fruit follows from a tree, not as a root causes a tree to grow. The root is God's choice. The fruit is the believer's obedience. Both are real. Both are necessary. But one comes first.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: The Verdict -->
+        <section id="verdict" class="section">
+            <h2>The Verdict: What Scripture Has Said, Let No One Reverse</h2>
+
+            <p>We have now examined this passage from every angle: the grammar, the Greek words, the logical structure, the testimony of the same words in the same epistle, the Old Testament background, the objections, and the exegetical arguments. The verdict is unanimous and inescapable.</p>
+
+            <div class="verdict-box">
+                <h3>1 Peter 1:1-2 Teaches Unconditional Election</h3>
+
+                <div class="verdict-quote">"God did not choose us because we were worthy, but by choosing us He makes us worthy."</div>
+                <div class="verdict-attribution">— Augustine of Hippo</div>
+
+                <div class="verdict-quote">"The foreknowledge of God is not a passive prescience by which He foresees what men will do. It is an active predetermination which settles what shall come to pass. When God is said to foreknow, He is said to fore-ordain."</div>
+                <div class="verdict-attribution">— John Calvin, Institutes III.21.5</div>
+
+                <div class="verdict-quote">"Election is the sovereign act of God in grace, whereby from all eternity He chose in Christ Jesus for Himself and for salvation, a people whom He determined to create and to permit to fall, and whom He then determined to redeem, call, justify, sanctify, and glorify."</div>
+                <div class="verdict-attribution">— John Murray, Redemption Accomplished and Applied</div>
+
+                <div class="verdict-quote">"You have not chosen me, but I have chosen you. This is grace—pure, free, sovereign grace."</div>
+                <div class="verdict-attribution">— Charles Spurgeon</div>
+
+                <p style="margin-top: 32px; font-size: 16px; color: var(--text-secondary); line-height: 1.8;">Let Scripture have the final word. The text is not ambiguous. The grammar is not flexible. The theology is not uncertain. And the comfort is infinite. When Peter opens his epistle by calling these suffering believers "elect," he is not saying "God bet on your faith." He is saying "God chose you before the foundation of the world. Before you were born. Before you ever believed. The triune God—Father, Son, and Holy Spirit—set their love upon you and determined to save you. That choice is eternal. That choice is certain. That choice cannot be reversed." This is the comfort that sustains persecuted believers. Not "you might stay saved if you keep believing," but "you <em>are</em> saved because God chose you when there was nothing lovely about you to choose."</p>
+            </div>
+
+            <div class="soul-box">
+                <h4>What This Means for Your Soul</h4>
+                <p>You are not an exile who happens to believe. You are an <em>elect exile</em>. Your scattering, your suffering, your sense of not belonging to this world—all of it makes sense now. You were never meant to belong here. Before you took your first breath, before you consciously chose anything, the Father set His love upon you. The Spirit began His work in you. The blood of Christ was shed for you. Your security does not rest on the fragility of your faith. It rests on the immutability of God's choice.</p>
+                <p>When you stumble, you are still elect. When you doubt, you are still elect. When you sin and repent, you are still elect. The foundation cannot be shaken because the foundation was laid before time, by the hands of the Trinity, with purposes that cannot fail. You may feel like an exile in a hostile world, but you are God's chosen exile. And God does not lose what He chooses.</p>
+                <p>This is not a license to sin. It is a call to live as the chosen one you are. To put away malice and deceit and hypocrisy and envy and slander (1 Peter 2:1). To abstain from fleshly desires that wage war against the soul (2:11). Not to earn your election, but to <em>confirm</em> it (2 Peter 1:10), to live as one who knows they are loved with an eternal love and chosen with an eternal choosing. That knowledge transforms everything. That knowledge is the power that sustains saints through persecution, through suffering, through a thousand temptations. You are not yours. You never were. You belong to the God who is sovereign over all. And that is the most wonderful news in all the universe.</p>
+                <p style="margin-bottom: 0;"><em>"May grace and peace be multiplied to you."</em> — 1 Peter 1:2b (ESV)</p>
+            </div>
+
+            <div style="margin-top: 60px; text-align: center; padding: 24px; border-top: 1px solid var(--border-subtle);">
+                <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 20px;">Share this page with someone who needs to hear that they are chosen:</p>
+                <div class="share-buttons">
+                    <button class="share-btn" onclick="shareToTwitter()">𝕏 Share</button>
+                    <button class="share-btn" onclick="shareToFacebook()">f Share</button>
+                    <button class="share-btn" onclick="copyToClipboard()">🔗 Copy Link</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Next Article -->
+        <a href="question-foreknowledge.html" class="next-article">
+            <span class="next-article-label">Continue Your Journey</span>
+            <div class="next-article-title">Foreknowledge vs. Predestination</div>
+            <div class="next-article-desc">What is the difference between God's foreknowledge and His predestination? Are they the same thing? This deep dive clarifies one of the most misunderstood distinctions in theology.</div>
+        </a>
+
+        <!-- Related Explore Grid -->
+        <section class="related-explore">
+            <h3>Continue Your Journey Through Election</h3>
+            <div class="related-explore-grid">
+                <a href="question-foreknowledge.html" class="explore-card">
+                    <div class="explore-card-title">Foreknowledge vs. Predestination</div>
+                    <div class="explore-card-desc">What's the difference? How do they work together? A rigorous theological examination.</div>
+                    <div class="explore-card-arrow">→</div>
+                </a>
+                <a href="question-chosen.html" class="explore-card">
+                    <div class="explore-card-title">Chosen Before the Foundation</div>
+                    <div class="explore-card-desc">Ephesians 1:4 declares we were chosen before the world was made. What does this mean? What are its implications?</div>
+                    <div class="explore-card-arrow">→</div>
+                </a>
+                <a href="question-romans9.html" class="explore-card">
+                    <div class="explore-card-title">Romans 9: Vessels of Mercy</div>
+                    <div class="explore-card-desc">Paul's most direct statement on election. Jacob and Esau. The potter and the clay. Unpacked with full exegetical force.</div>
+                    <div class="explore-card-arrow">→</div>
+                </a>
+                <a href="question-goldchain.html" class="explore-card">
+                    <div class="explore-card-title">The Golden Chain of Salvation</div>
+                    <div class="explore-card-desc">Foreknew, predestined, called, justified, glorified. How does God's plan unfold from eternity to glory?</div>
+                    <div class="explore-card-arrow">→</div>
+                </a>
+                <a href="question-2tim1-9.html" class="explore-card">
+                    <div class="explore-card-title">Not Because of Our Works</div>
+                    <div class="explore-card-desc">2 Timothy 1:9 cuts to the heart: grace and a calling not based on what we have done, but on His purpose.</div>
+                    <div class="explore-card-arrow">→</div>
+                </a>
+                <a href="ot-jacob-esau.html" class="explore-card">
+                    <div class="explore-card-title">Jacob I Loved, Esau I Hated</div>
+                    <div class="explore-card-desc">Romans 9's most controversial text. Paul uses Jacob and Esau to prove election is not based on works. Here's why.</div>
+                    <div class="explore-card-arrow">→</div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                    <li><a href="/creeds-confessions">Creeds &amp; Confessions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/stories">Stories &amp; Parables</a></li>
+                    <li><a href="/analogies-illustrations">Analogies</a></li>
+                    <li><a href="/pastoral-assurance">Pastoral</a></li>
+                    <li><a href="/secular-evidence">Secular Evidence</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/subscribe">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace — Soli Deo Gloria</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" onclick="scrollToTop()" aria-label="Back to top"></button>
+
+    <script>
+        // Reading Progress Bar
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            document.querySelector('.reading-progress').style.width = scrollPercent + '%';
+        });
+
+        // Navigation
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        const navTriggers = document.querySelectorAll('.nav-trigger');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        navTriggers.forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                e.preventDefault();
+                const dropdown = trigger.nextElementSibling;
+                const isActive = dropdown.classList.contains('active');
+
+                document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('active'));
+                document.querySelectorAll('.nav-trigger').forEach(t => t.classList.remove('active'));
+
+                if (!isActive) {
+                    dropdown.classList.add('active');
+                    trigger.classList.add('active');
+                }
+            });
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('nav')) {
+                document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('active'));
+                document.querySelectorAll('.nav-trigger').forEach(t => t.classList.remove('active'));
+            }
+        });
+
+        // Section Navigation Scroll Spy
+        const sectionNavLinks = document.querySelectorAll('.section-nav-link');
+        const sections = document.querySelectorAll('.section');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.id;
+                    sectionNavLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${id}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, { threshold: 0.3 });
+
+        sections.forEach(section => observer.observe(section));
+
+        // Back to Top Button
+        const backToTopBtn = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Share Functions
+        function shareToTwitter() {
+            const url = 'https://adoptedbygrace.net/question-1peter1.html';
+            const text = 'Elect Exiles According to the Foreknowledge of God — A rigorous exegetical examination of 1 Peter 1:1-2 that demolishes the Arminian reading.';
+            window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`, '_blank');
+        }
+
+        function shareToFacebook() {
+            const url = 'https://adoptedbygrace.net/question-1peter1.html';
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+        }
+
+        function copyToClipboard() {
+            navigator.clipboard.writeText('https://adoptedbygrace.net/question-1peter1.html');
+            alert('Link copied to clipboard!');
+        }
+    </script>
+    <script src="/global.js" defer></script>
+</body>
+</html>

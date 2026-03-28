@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Scripture organized by the five doctrines of grace. Discover what the Bible teaches about God's sovereignty in salvation through interactive verse exploration.">
+    <meta name="keywords" content="Scripture, Bible, doctrines of grace, sovereignty, God, salvation, TULIP, election, theology">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Scripture Verse Explorer | Adopted by Grace">
+    <meta property="og:description" content="Explore Scripture organized by the five doctrines of grace — what the Bible teaches about God's sovereignty in salvation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/verse-explorer">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://adoptedbygrace.net/verse-explorer">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Scripture Verse Explorer",
+        "description": "Explore Scripture organized by the five doctrines of grace and God's sovereignty in salvation",
+        "url": "https://adoptedbygrace.net/verse-explorer",
+        "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+                {"@type": "Thing", "name": "Total Inability"},
+                {"@type": "Thing", "name": "Unconditional Election"},
+                {"@type": "Thing", "name": "Particular Redemption"},
+                {"@type": "Thing", "name": "Effectual Calling"},
+                {"@type": "Thing", "name": "Preservation of the Saints"}
+            ]
+        }
+    }
+    </script>
+
+    <title>Scripture Verse Explorer | Adopted by Grace</title>
+    <link rel="stylesheet" href="/global.css">
+
+    <style>
+        /* Page-Specific Styles for Verse Explorer */
+
+        .verse-explorer-hero {
+            text-align: center;
+            padding: 4rem 1rem;
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.05) 0%, rgba(232, 100, 44, 0.05) 100%);
+            border-bottom: 1px solid var(--border-subtle);
+            margin-bottom: 2rem;
+        }
+
+        .verse-explorer-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .verse-explorer-hero p {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .verse-explorer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Category Tabs */
+        .verse-tabs {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .verse-tab {
+            padding: 0.75rem 1.5rem;
+            border: 2px solid var(--border-subtle);
+            background: var(--bg-card);
+            color: var(--text-primary);
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border-radius: 6px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .verse-tab:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-2px);
+        }
+
+        .verse-tab.active {
+            border-color: currentColor;
+            color: var(--text-primary);
+            font-weight: 700;
+        }
+
+        .verse-tab[data-category="total-inability"].active {
+            border-color: var(--accent-gold);
+            background: rgba(212, 162, 84, 0.1);
+            box-shadow: 0 0 12px rgba(212, 162, 84, 0.2);
+        }
+
+        .verse-tab[data-category="unconditional-election"].active {
+            border-color: var(--accent-ember);
+            background: rgba(232, 100, 44, 0.1);
+            box-shadow: 0 0 12px rgba(232, 100, 44, 0.2);
+        }
+
+        .verse-tab[data-category="particular-redemption"].active {
+            border-color: var(--accent-violet);
+            background: rgba(139, 92, 246, 0.1);
+            box-shadow: 0 0 12px rgba(139, 92, 246, 0.2);
+        }
+
+        .verse-tab[data-category="effectual-calling"].active {
+            border-color: #10b981;
+            background: rgba(16, 185, 129, 0.1);
+            box-shadow: 0 0 12px rgba(16, 185, 129, 0.2);
+        }
+
+        .verse-tab[data-category="preservation"].active {
+            border-color: #06b6d4;
+            background: rgba(6, 182, 212, 0.1);
+            box-shadow: 0 0 12px rgba(6, 182, 212, 0.2);
+        }
+
+        /* Controls Section */
+        .verse-controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .verse-search {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .verse-search input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            border-radius: 6px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .verse-search input:focus {
+            outline: none;
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 8px rgba(212, 162, 84, 0.3);
+        }
+
+        .verse-search input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .button-group {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        .btn-random, .btn-reset {
+            padding: 0.75rem 1.25rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .btn-random:hover, .btn-reset:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-2px);
+        }
+
+        /* Verse Counter */
+        .verse-counter {
+            color: var(--text-secondary);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+            background: var(--bg-card);
+            border-radius: 6px;
+            border: 1px solid var(--border-subtle);
+        }
+
+        /* Verse Grid */
+        .verse-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+            animation: fadeIn 0.4s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .verse-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .verse-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--accent-gold);
+            transition: all 0.3s ease;
+        }
+
+        .verse-card[data-category="unconditional-election"]::before {
+            background: var(--accent-ember);
+        }
+
+        .verse-card[data-category="particular-redemption"]::before {
+            background: var(--accent-violet);
+        }
+
+        .verse-card[data-category="effectual-calling"]::before {
+            background: #10b981;
+        }
+
+        .verse-card[data-category="preservation"]::before {
+            background: #06b6d4;
+        }
+
+        .verse-card:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(212, 162, 84, 0.15);
+        }
+
+        .verse-card.expanded {
+            grid-column: span 1;
+        }
+
+        .verse-reference {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-gold);
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.75rem;
+        }
+
+        .verse-text {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-primary);
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .verse-text .key-phrase {
+            background: rgba(212, 162, 84, 0.2);
+            padding: 0 0.25rem;
+            border-radius: 3px;
+            font-weight: 600;
+            color: var(--accent-gold);
+        }
+
+        .verse-explanation {
+            display: none;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-subtle);
+            margin-top: 1rem;
+        }
+
+        .verse-card.expanded .verse-explanation {
+            display: block;
+            animation: slideDown 0.3s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                max-height: 0;
+            }
+            to {
+                opacity: 1;
+                max-height: 500px;
+            }
+        }
+
+        .verse-explanation-text {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .verse-expand-indicator {
+            display: inline-block;
+            margin-left: 0.5rem;
+            transition: transform 0.3s ease;
+            color: var(--accent-gold);
+        }
+
+        .verse-card.expanded .verse-expand-indicator {
+            transform: rotate(180deg);
+        }
+
+        /* Empty State */
+        .verse-empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--text-secondary);
+        }
+
+        .verse-empty-state p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Random Verse Animation */
+        @keyframes verseSpinIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.95) rotateZ(-5deg);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) rotateZ(0deg);
+            }
+        }
+
+        .verse-card.random-highlight {
+            animation: verseSpinIn 0.5s ease;
+        }
+
+        /* Continue Journey Section */
+        .continue-journey {
+            margin-top: 4rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.05) 0%, rgba(232, 100, 44, 0.05) 100%);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .continue-journey h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .continue-journey p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+        }
+
+        .journey-links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .journey-link {
+            padding: 0.75rem 1.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .journey-link:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-2px);
+        }
+
+        /* Humor Element */
+        .humor-note {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 1.5rem;
+            background: rgba(212, 162, 84, 0.08);
+            border-radius: 6px;
+            border: 1px dashed var(--border-subtle);
+        }
+
+        .humor-note p {
+            color: var(--text-secondary);
+            font-style: italic;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .verse-explorer-hero h1 {
+                font-size: 1.75rem;
+            }
+
+            .verse-tabs {
+                justify-content: flex-start;
+                overflow-x: auto;
+                padding-bottom: 0.5rem;
+            }
+
+            .verse-controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .verse-search {
+                min-width: auto;
+            }
+
+            .button-group {
+                width: 100%;
+            }
+
+            .btn-random, .btn-reset {
+                flex: 1;
+            }
+
+            .verse-counter {
+                width: 100%;
+                text-align: center;
+            }
+
+            .verse-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .journey-links {
+                flex-direction: column;
+            }
+
+            .journey-link {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="verse-explorer-hero">
+        <h1>Scripture Verse Explorer</h1>
+        <p>Scripture teaches that God's sovereignty extends to all things, including salvation. Explore what the Bible reveals about His election, grace, and preservation of His people.</p>
+    </section>
+
+    <!-- Main Content -->
+    <main class="verse-explorer-container">
+        <!-- Category Tabs -->
+        <div class="verse-tabs" role="tablist">
+            <button class="verse-tab active" data-category="total-inability" role="tab" aria-selected="true">
+                Total Inability
+            </button>
+            <button class="verse-tab" data-category="unconditional-election" role="tab" aria-selected="false">
+                Unconditional Election
+            </button>
+            <button class="verse-tab" data-category="particular-redemption" role="tab" aria-selected="false">
+                Particular Redemption
+            </button>
+            <button class="verse-tab" data-category="effectual-calling" role="tab" aria-selected="false">
+                Effectual Calling
+            </button>
+            <button class="verse-tab" data-category="preservation" role="tab" aria-selected="false">
+                Preservation of the Saints
+            </button>
+        </div>
+
+        <!-- Controls -->
+        <div class="verse-controls">
+            <div class="verse-search">
+                <input type="text" id="verse-search" placeholder="Search verses by reference or content..." aria-label="Search verses">
+            </div>
+            <div class="button-group">
+                <button class="btn-random" id="btn-random">🎲 Random Verse</button>
+                <button class="btn-reset" id="btn-reset">Reset</button>
+            </div>
+            <div class="verse-counter">
+                <span id="verse-count">0</span> verse<span id="verse-plural">s</span>
+            </div>
+        </div>
+
+        <!-- Verse Grid -->
+        <div class="verse-grid" id="verse-grid" role="main">
+            <!-- Verses populated by JavaScript -->
+        </div>
+
+        <!-- Continue Your Journey -->
+        <section class="continue-journey">
+            <h2>Continue Your Journey</h2>
+            <p>Deepen your understanding of God's sovereignty through these additional resources:</p>
+            <div class="journey-links">
+                <a href="/scripture-tsunami" class="journey-link">Scripture Tsunami</a>
+                <a href="/questions" class="journey-link">The Evidence</a>
+                <a href="/quiz" class="journey-link">Take the Quiz</a>
+                <a href="/start-here" class="journey-link">Start Here</a>
+            </div>
+        </section>
+
+        <!-- Humor Note -->
+        <div class="humor-note">
+            <p>💭 <strong>Fun fact:</strong> These 60 verses were predestined from the foundation of the website to appear on this page. (See what we did there?)</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section"><h4>Doctrine</h4><ul>
+                <li><a href="/questions">The Evidence</a></li>
+                <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+                <li><a href="/demolition-hub">Demolition Zone</a></li>
+                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Explore</h4><ul>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li><a href="/devotionals">Devotionals</a></li>
+                <li><a href="/resources">Resources</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Connect</h4><ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+            </ul></div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+
+    <!-- Verse Data & Interactive Script -->
+    <script>
+        // Verse Explorer Data
+        const verseData = {
+            'total-inability': [
+                {
+                    reference: 'Romans 3:10-12',
+                    text: '"As it is written: "There is no one righteous, not even one; there is no one who understands, no one who seeks God. All have turned away, they have together become worthless; there is no one who does good, not even one."',
+                    keyPhrase: 'no one who seeks God',
+                    explanation: 'Scripture teaches that fallen humanity has a fundamental inability to seek God. This natural condition shows why salvation must come through God\'s sovereign action, not human decision.'
+                },
+                {
+                    reference: 'John 6:44',
+                    text: '"No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day."',
+                    keyPhrase: 'No one can come to me unless the Father draws them',
+                    explanation: 'Jesus explicitly states that coming to Him is impossible without the Father\'s prior work. This demonstrates total inability without divine enablement.'
+                },
+                {
+                    reference: 'Ephesians 2:1-5',
+                    text: '"As for you, you were dead in your transgressions and sins, in which you used to live when you followed the ways of this world and of the ruler of the kingdom of the air, the spirit who is now at work in those who are disobedient. All of us also lived among them at one time, gratifying the cravings of our flesh and following its desires and thoughts. Like the rest, we were by nature deserving of wrath. But because of his great love for us, God, who is rich in mercy, made us alive with Christ even when we were dead in our transgressions."',
+                    keyPhrase: 'dead in your transgressions',
+                    explanation: 'Spiritual death means utter helplessness to respond to God. The passage emphasizes our inability before grace makes us alive.'
+                },
+                {
+                    reference: '1 Corinthians 2:14',
+                    text: '"The person without the Spirit does not accept the things that come from the Spirit of God but considers them foolishness, and cannot understand them because they are discerned only through the Spirit."',
+                    keyPhrase: 'cannot understand them because they are discerned only through the Spirit',
+                    explanation: 'Natural humans lack the ability to comprehend spiritual truth. This cognitive inability shows why the Spirit\'s work is essential for understanding and believing.'
+                },
+                {
+                    reference: 'Romans 8:7-8',
+                    text: '"The mind governed by the flesh is hostile to God; it does not submit to God\'s law, nor can it do so. Those controlled by the flesh cannot please God."',
+                    keyPhrase: 'cannot submit to God\'s law',
+                    explanation: 'The unregenerate mind is fundamentally opposed to God and incapable of submitting to Him. This shows the depth of human inability apart from regeneration.'
+                },
+                {
+                    reference: 'John 3:3-7',
+                    text: '"Jesus replied, "Very truly I tell you, no one can see the kingdom of God unless they are born again." "How can someone be born when they are old?" Nicodemus asked. "Surely they cannot enter a second time into their mother\'s womb to be born!" Jesus answered, "Very truly I tell you, no one can enter the kingdom of God unless they are born of water and the Spirit. Flesh gives birth to flesh, but the Spirit gives birth to spirit."',
+                    keyPhrase: 'born again',
+                    explanation: 'Being "born again" is not something we do; it\'s something done to us. Scripture teaches this as a sovereign act of the Spirit, revealing our inability to save ourselves.'
+                },
+                {
+                    reference: 'Titus 3:5',
+                    text: '"He saved us, not on the basis of deeds which we have done in righteousness, but according to His mercy, by the washing of rebirth and renewal by the Holy Spirit."',
+                    keyPhrase: 'not on the basis of deeds which we have done',
+                    explanation: 'Salvation explicitly excludes our deeds because we are unable to contribute anything acceptable to God. He must do the saving work entirely.'
+                },
+                {
+                    reference: 'Romans 9:16',
+                    text: '"It does not, therefore, depend on human desire or effort, but on God\'s mercy."',
+                    keyPhrase: 'does not depend on human desire or effort',
+                    explanation: 'Salvation\'s ultimate cause is God\'s mercy, not human will or effort. This reveals the inadequacy and inability of human striving.'
+                },
+                {
+                    reference: 'Psalm 51:5',
+                    text: '"Surely I was sinful at birth, sinful from the time my mother conceived me."',
+                    keyPhrase: 'sinful from the time my mother conceived me',
+                    explanation: 'Total depravity includes our very nature from birth. We begin life enslaved to sin with no capacity to escape on our own.'
+                },
+                {
+                    reference: 'Jeremiah 13:23',
+                    text: '"Can the Ethiopian change the color of his skin? Can a leopard remove its spots? Neither can you do good who are accustomed to doing evil."',
+                    keyPhrase: 'neither can you do good',
+                    explanation: 'This imagery powerfully illustrates total inability: just as these physical realities are immutable, so is the sinner\'s inability to change their nature.'
+                }
+            ],
+            'unconditional-election': [
+                {
+                    reference: 'Ephesians 1:4-5',
+                    text: '"For he chose us in him before the foundation of the world to be holy and blameless in his sight. In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will."',
+                    keyPhrase: 'chose us... before the foundation of the world',
+                    explanation: 'Scripture teaches that God\'s election of His people occurred before time itself, not based on foreseen faith or works, but solely according to His pleasure.'
+                },
+                {
+                    reference: 'Romans 9:11-13',
+                    text: '"Yet, before the twins were born or had done anything good or bad—in order that God\'s purpose in election might stand: not by works but by him who calls—she was told, "The older will serve the younger." Just as it is written: "Jacob I loved, but Esau I hated."',
+                    keyPhrase: 'before the twins were born or had done anything good or bad',
+                    explanation: 'God\'s election of Jacob over Esau was made before either had done anything, demonstrating that election is unconditional, resting on God\'s sovereign choice.'
+                },
+                {
+                    reference: '2 Thessalonians 2:13',
+                    text: '"But we ought always to thank God for you, brothers and sisters loved by the Lord, because God chose you as firstfruits to be saved through the sanctifying work of the Spirit and through belief in the truth."',
+                    keyPhrase: 'God chose you',
+                    explanation: 'Believers are described as "chosen" by God for salvation. This emphasizes God\'s prior selection rather than human choice preceding it.'
+                },
+                {
+                    reference: 'John 15:16',
+                    text: '"You did not choose me, but I chose you and appointed you so that you might go and bear fruit—fruit that will last. Then the Father will give you whatever you ask in my name."',
+                    keyPhrase: 'You did not choose me, but I chose you',
+                    explanation: 'Jesus explicitly denies that His disciples chose Him first. He claims the initiative entirely, choosing them for Himself.'
+                },
+                {
+                    reference: '1 Peter 1:1-2',
+                    text: '"Peter, an apostle of Jesus Christ, to God\'s elect, scattered throughout the provinces of Pontus, Galatia, Bithynia, Cappadocia and Asia, who have been chosen according to the foreknowledge of God the Father, through the sanctifying work of the Spirit, for obedience to Jesus Christ and sprinkling by his blood: Grace and peace be yours in abundance."',
+                    keyPhrase: 'chosen according to the foreknowledge of God',
+                    explanation: 'Believers are described as "elect" who have been chosen according to God\'s foreknowledge, establishing the reality and foundation of unconditional election.'
+                },
+                {
+                    reference: 'Romans 8:29-30',
+                    text: '"For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."',
+                    keyPhrase: 'predestined to be conformed',
+                    explanation: 'Scripture teaches an unbreakable chain from God\'s foreknowledge through predestination, calling, justification, to final glorification—all secured by God\'s sovereign plan.'
+                },
+                {
+                    reference: 'Acts 13:48',
+                    text: '"When the Gentiles heard this, they were glad and honored the word of the Lord; and all who were appointed for eternal life believed."',
+                    keyPhrase: 'all who were appointed for eternal life believed',
+                    explanation: 'Faith is described as the result of being "appointed" for eternal life, showing that election precedes and produces faith rather than following it.'
+                },
+                {
+                    reference: 'Matthew 20:16',
+                    text: '"So the last will be first, and the first will be last. For many are invited, but few are chosen."',
+                    keyPhrase: 'many are invited, but few are chosen',
+                    explanation: 'This distinction between being called and being chosen illustrates that God\'s election is selective, not universal.'
+                },
+                {
+                    reference: 'Colossians 3:12',
+                    text: '"Therefore, as God\'s chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness and patience."',
+                    keyPhrase: 'God\'s chosen people',
+                    explanation: 'Believers are identified as God\'s "chosen people." This identity is given to us, describing what God has made us through election.'
+                },
+                {
+                    reference: 'Romans 11:5-7',
+                    text: '"So too, at the present time there is a remnant chosen by grace. And if by grace, then it cannot be based on works; if it were, grace would no longer be grace. What then? What the elect sought so earnestly they did not obtain. The others were hardened."',
+                    keyPhrase: 'remnant chosen by grace',
+                    explanation: 'Election is explicitly described as "by grace," which explicitly excludes it being based on works, establishing its unconditional nature.'
+                }
+            ],
+            'particular-redemption': [
+                {
+                    reference: 'Matthew 26:28',
+                    text: '"This is my blood of the covenant, which is poured out for many for the forgiveness of sins."',
+                    keyPhrase: 'poured out for many',
+                    explanation: 'Christ\'s blood is poured out for a specific people—"many" not all. Scripture teaches that His redemptive work accomplishes salvation for His elect.'
+                },
+                {
+                    reference: 'John 10:11, 14-15',
+                    text: '"I am the good shepherd. The good shepherd lays down his life for the sheep... I am the good shepherd; I know my sheep and my sheep know me—just as the Father knows me, and I know the Father—and I lay down my life for the sheep."',
+                    keyPhrase: 'lays down his life for the sheep',
+                    explanation: 'Jesus identifies His redemptive work specifically for the sheep (His people). The image shows a definite, particular atonement for a defined group.'
+                },
+                {
+                    reference: 'John 17:9-10',
+                    text: '"I pray for them. I am not praying for the world, but for those you have given me, for they are yours. All I have is yours, and all you have is mine. And glory has come to me through them."',
+                    keyPhrase: 'I am not praying for the world, but for those you have given me',
+                    explanation: 'In His intercessory prayer, Christ explicitly states He is not praying for the world, but only for those the Father has given Him. This shows the particular scope of His redemptive work.'
+                },
+                {
+                    reference: 'Isaiah 53:8',
+                    text: '"For the transgression of my people he was led to the slaughter."',
+                    keyPhrase: 'for the transgression of my people',
+                    explanation: 'The Messiah bears the transgressions of a specific people—His people. This particular, not universal, substitution is what Scripture emphasizes.'
+                },
+                {
+                    reference: 'Hebrews 9:28',
+                    text: '"So Christ was sacrificed once to take away the sins of many people; and he will appear a second time, not to bear sin, but to bring salvation to those who are waiting for him."',
+                    keyPhrase: 'to take away the sins of many people',
+                    explanation: 'Christ\'s sacrifice takes away sins of "many"—a specific, limited group—not all people. The gospel\'s efficacy is particular to His redeemed.'
+                },
+                {
+                    reference: 'Romans 5:15',
+                    text: '"But the gift is not like the trespass. For if the many died by the trespass of the one man, how much more did God\'s grace and the gift that came by the grace of the one man, Jesus Christ, overflow to the many!"',
+                    keyPhrase: 'the gift... overflow to the many',
+                    explanation: 'Grace overflows to "the many," a specific though large group, mirroring the particular scope of Christ\'s atonement for His elect.'
+                },
+                {
+                    reference: 'Titus 2:13-14',
+                    text: '"while we wait for the blessed hope—the appearing of the glory of our great God and Savior, Jesus Christ, who gave himself for us to redeem us from all wickedness and to purify for himself a people that are his very own, eager to do what is good."',
+                    keyPhrase: 'gave himself for us to... purify for himself a people',
+                    explanation: 'Christ gave Himself to redeem a specific people—those who become "his very own." This shows redemption as particular, effectual, and accomplishing salvation.'
+                },
+                {
+                    reference: 'John 6:37-40',
+                    text: '"All that the Father gives me will come to me, and whoever comes to me I will never drive away. For I have come down from heaven not to do my will but to do the will of him who sent me. And this is the will of him who sent me, that I shall lose none of all those he has given me, but raise them up at the last day."',
+                    keyPhrase: 'I shall lose none of all those he has given me',
+                    explanation: 'Christ\'s work of redemption is particular: the Father gives Him a specific people, and Christ guarantees He will lose none of them.'
+                },
+                {
+                    reference: 'Ephesians 5:25-27',
+                    text: '"Husbands, love your wives, just as Christ loved the church and gave himself up for her to make her holy, cleansing her by the washing with water through the word, and to present her to himself as a radiant church, without stain or wrinkle or any other blemish, but holy and blameless."',
+                    keyPhrase: 'gave himself up for her',
+                    explanation: 'Christ\'s sacrifice is for the church specifically. He gave Himself to make her holy, showing that atonement is particular to and effectual for the bride of Christ.'
+                },
+                {
+                    reference: '1 John 2:1-2',
+                    text: '"My dear children, I write this to you so that you will not sin. But if anybody does sin, we have an advocate with the Father—Jesus Christ, the Righteous One. He is the atoning sacrifice for our sins, and not only for ours but also for the sins of the whole world."',
+                    keyPhrase: 'atoning sacrifice for our sins',
+                    explanation: 'While Christ\'s atonement has value for all, Scripture distinguishes between its particular efficacy (for the elect) and its sufficiency (for the sins of the whole world).'
+                }
+            ],
+            'effectual-calling': [
+                {
+                    reference: 'Romans 8:30',
+                    text: '"And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."',
+                    keyPhrase: 'he also called... he also justified',
+                    explanation: 'Scripture teaches that God\'s call is effectual—those whom God calls are certainly justified. The call accomplishes what it purposes.'
+                },
+                {
+                    reference: '1 Corinthians 1:23-24',
+                    text: '"But we preach Christ crucified: a stumbling block to Jews and foolishness to Gentiles, but to those whom God has called, both Jews and Greeks, Christ the power of God and the wisdom of God."',
+                    keyPhrase: 'to those whom God has called',
+                    explanation: 'The gospel appears foolish to the world, but to those God has effectually called, it is power and wisdom. The call transforms perception and response.'
+                },
+                {
+                    reference: '2 Timothy 1:9',
+                    text: '"He has saved us and called us to a holy life—not because of anything we have done but because of his own purpose and grace. This grace was given us in Christ Jesus before the beginning of time."',
+                    keyPhrase: 'saved us and called us',
+                    explanation: 'Salvation and calling are presented as accomplished facts. God\'s call is powerful enough to save and sanctify those who receive it.'
+                },
+                {
+                    reference: 'John 6:63-65',
+                    text: '"The Spirit gives life; the flesh counts for nothing. The words I have spoken to you—they are full of the Spirit and full of life. Yet there are some of you who do not believe." For Jesus had known from the beginning which of them did not believe and who would betray him. He went on to say, "This is why I told you that no one can come to me unless the Father has enabled them."',
+                    keyPhrase: 'no one can come to me unless the Father has enabled them',
+                    explanation: 'Coming to Christ requires the Father\'s enabling work. This shows that grace is not just offered but effectually applied to give the ability to respond.'
+                },
+                {
+                    reference: '1 Peter 2:9',
+                    text: '"But you are a chosen people, a royal priesthood, a holy nation, God\'s special possession, that you may declare the praises of him who called you out of darkness into his wonderful light."',
+                    keyPhrase: 'called you out of darkness into his wonderful light',
+                    explanation: 'The call is pictured as a powerful summons that transfers believers from darkness into light. This is not a mere invitation but an effective summoning.'
+                },
+                {
+                    reference: 'Philippians 1:6',
+                    text: '"Being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."',
+                    keyPhrase: 'he who began a good work',
+                    explanation: 'God\'s work of calling is effectual; what He begins, He completes. This assures believers of the power and reliability of God\'s calling grace.'
+                },
+                {
+                    reference: 'Colossians 1:13-14',
+                    text: '"For he has rescued us from the dominion of darkness and brought us into the kingdom of the Son he loves, in whom we have redemption, the forgiveness of sins."',
+                    keyPhrase: 'brought us into the kingdom',
+                    explanation: 'The call accomplishes a real transference—not merely inviting us to consider the kingdom, but actually bringing us into it. Grace is performative.'
+                },
+                {
+                    reference: '2 Corinthians 5:17',
+                    text: '"Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!"',
+                    keyPhrase: 'the new creation has come',
+                    explanation: 'Being called into Christ results in genuine transformation. The call effects a new creation, not merely a superficial change.'
+                },
+                {
+                    reference: 'Romans 10:8-13',
+                    text: '"But what does it say? "The word is near you; it is in your mouth and in your heart," that is, the message concerning faith that we proclaim... for, "Everyone who calls on the name of the Lord will be saved."',
+                    keyPhrase: 'Everyone who calls on the name of the Lord will be saved',
+                    explanation: 'Those who call upon the Lord are saved. Scripture teaches that the call to Christ, when genuinely made, is answered with effective salvation.'
+                },
+                {
+                    reference: 'Acts 16:14',
+                    text: '"One of those listening was a woman from the city of Thyatira named Lydia, a dealer in purple cloth. She was a worshiper of God. The Lord opened her heart to respond to Paul\'s message."',
+                    keyPhrase: 'The Lord opened her heart',
+                    explanation: 'Lydia\'s conversion occurred when the Lord opened her heart. This shows that saving response requires the Lord\'s direct, gracious work.'
+                }
+            ],
+            'preservation': [
+                {
+                    reference: 'John 10:27-30',
+                    text: '"My sheep listen to my voice; I know them, and they follow me. I give them eternal life, and they shall never perish; no one will snatch them out of my hand. My Father, who has given them to me, is greater than all; no one can snatch them out of my Father\'s hand. I and the Father are one."',
+                    keyPhrase: 'they shall never perish',
+                    explanation: 'Christ guarantees the eternal security of His sheep. They are kept in both His hand and the Father\'s hand—a double assurance of preservation.'
+                },
+                {
+                    reference: 'Philippians 1:6',
+                    text: '"Being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."',
+                    keyPhrase: 'carry it on to completion',
+                    explanation: 'God\'s work of salvation is guaranteed to reach its completion. What God begins in salvation, He will perfect and preserve to the end.'
+                },
+                {
+                    reference: '1 Peter 1:3-5',
+                    text: '"Praise be to the God and Father of our Lord Jesus Christ! In his great mercy he has given us new birth into a living hope through the resurrection of Jesus Christ from the dead, and into an inheritance that can never perish, spoil or fade—kept in heaven for you, who through faith are shielded by God\'s power until the coming of the salvation that is ready to be revealed in the last time."',
+                    keyPhrase: 'shielded by God\'s power',
+                    explanation: 'Believers are actively shielded by God\'s power. This emphasizes God\'s continuous protection of His people throughout their earthly pilgrimage.'
+                },
+                {
+                    reference: 'Romans 8:35-39',
+                    text: '"Who shall separate us from the love of Christ? Shall trouble or hardship or persecution or famine or nakedness or danger or sword? As it is written: "For your sake we face death all day long; we are considered as sheep to be slaughtered." No, in all these things we are more than conquerors through him who loved us. For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord."',
+                    keyPhrase: 'nothing will be able to separate us',
+                    explanation: 'Scripture assures believers that nothing in all creation can separate them from God\'s love in Christ. This absolute guarantee is the foundation of preservation.'
+                },
+                {
+                    reference: 'Jude 24-25',
+                    text: '"To him who is able to keep you from stumbling and to present you before his glorious presence without fault and with great joy—to the only God our Savior be glory, majesty, power and authority, through Jesus Christ our Lord, before all ages, now and forevermore! Amen."',
+                    keyPhrase: 'able to keep you from stumbling',
+                    explanation: 'God is able to keep believers from stumbling and present them faultless before His presence. This shows preservation is both God\'s work and His responsibility.'
+                },
+                {
+                    reference: '1 John 5:18',
+                    text: '"We know that anyone born of God does not continue to sin; the One who was born of God keeps them safe, and the evil one cannot harm them."',
+                    keyPhrase: 'the One who was born of God keeps them safe',
+                    explanation: 'Believers are kept safe by the One born of God—Jesus Christ. The evil one cannot overcome or destroy those whom God preserves.'
+                },
+                {
+                    reference: '2 Timothy 1:12',
+                    text: '"That is why I am suffering as I am. Yet I am not ashamed, because I know whom I have believed, and am convinced that he is able to guard what I have entrusted to him until that day."',
+                    keyPhrase: 'he is able to guard what I have entrusted to him',
+                    explanation: 'Paul expresses confidence that Christ is able to guard what Paul has entrusted to Him. This speaks to Christ\'s power and commitment to preserve His people.'
+                },
+                {
+                    reference: 'Hebrews 7:24-25',
+                    text: '"But because Jesus lives forever, he has a permanent priesthood. Therefore he is able to save completely those who come to God through him, because he always lives to intercede for them."',
+                    keyPhrase: 'he always lives to intercede for them',
+                    explanation: 'Christ\'s eternal priesthood and perpetual intercession guarantee complete salvation. His ongoing work ensures the final preservation of believers.'
+                },
+                {
+                    reference: 'Romans 11:29',
+                    text: '"For God\'s gifts and his call are irrevocable."',
+                    keyPhrase: 'irrevocable',
+                    explanation: 'God\'s calling and gifts cannot be taken back or revoked. Once God has called someone into salvation, that call stands eternally.'
+                },
+                {
+                    reference: '1 Thessalonians 5:23-24',
+                    text: '"May God himself, the God of peace, sanctify you through and through. May your whole spirit, soul and body be kept blameless at the coming of our Lord Jesus Christ. The one who calls you is faithful, and he will do this."',
+                    keyPhrase: 'he will do this',
+                    explanation: 'God\'s faithfulness guarantees the completion of sanctification and preservation. What He calls us to, He faithfully accomplishes in us.'
+                }
+            ]
+        };
+
+        // Initialize the verse explorer
+        class VerseExplorer {
+            constructor() {
+                this.allVerses = this.flattenVerseData();
+                this.currentCategory = 'total-inability';
+                this.filteredVerses = this.allVerses;
+                this.init();
+            }
+
+            flattenVerseData() {
+                const flat = [];
+                for (const category in verseData) {
+                    verseData[category].forEach(verse => {
+                        flat.push({ ...verse, category });
+                    });
+                }
+                return flat;
+            }
+
+            init() {
+                this.setupEventListeners();
+                this.renderVerses();
+            }
+
+            setupEventListeners() {
+                // Tab switching
+                document.querySelectorAll('.verse-tab').forEach(tab => {
+                    tab.addEventListener('click', (e) => {
+                        this.switchCategory(e.target.closest('.verse-tab').dataset.category);
+                    });
+                });
+
+                // Search
+                const searchInput = document.getElementById('verse-search');
+                searchInput.addEventListener('input', (e) => {
+                    this.filterVerses(e.target.value);
+                });
+
+                // Random button
+                document.getElementById('btn-random').addEventListener('click', () => {
+                    this.showRandomVerse();
+                });
+
+                // Reset button
+                document.getElementById('btn-reset').addEventListener('click', () => {
+                    this.resetExplorer();
+                });
+
+                // Verse card expansion
+                document.addEventListener('click', (e) => {
+                    const card = e.target.closest('.verse-card');
+                    if (card) {
+                        card.classList.toggle('expanded');
+                    }
+                });
+            }
+
+            switchCategory(category) {
+                this.currentCategory = category;
+                document.querySelectorAll('.verse-tab').forEach(tab => {
+                    tab.classList.remove('active');
+                    tab.setAttribute('aria-selected', 'false');
+                });
+                document.querySelector(`[data-category="${category}"]`).classList.add('active');
+                document.querySelector(`[data-category="${category}"]`).setAttribute('aria-selected', 'true');
+
+                this.filteredVerses = verseData[category] || [];
+                document.getElementById('verse-search').value = '';
+                this.renderVerses();
+            }
+
+            filterVerses(query) {
+                const lowerQuery = query.toLowerCase();
+                const categoryVerses = this.currentCategory === 'all'
+                    ? this.allVerses
+                    : verseData[this.currentCategory] || [];
+
+                this.filteredVerses = categoryVerses.filter(verse =>
+                    verse.reference.toLowerCase().includes(lowerQuery) ||
+                    verse.text.toLowerCase().includes(lowerQuery)
+                );
+                this.renderVerses();
+            }
+
+            showRandomVerse() {
+                const verses = this.currentCategory === 'all'
+                    ? this.allVerses
+                    : verseData[this.currentCategory] || [];
+
+                if (verses.length === 0) return;
+
+                const randomIndex = Math.floor(Math.random() * verses.length);
+                const randomVerse = verses[randomIndex];
+
+                // Scroll and highlight
+                const grid = document.getElementById('verse-grid');
+                grid.innerHTML = '';
+                const card = this.createVerseCard(randomVerse);
+                card.classList.add('random-highlight', 'expanded');
+                grid.appendChild(card);
+
+                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+
+            resetExplorer() {
+                document.getElementById('verse-search').value = '';
+                this.switchCategory('total-inability');
+            }
+
+            createVerseCard(verse) {
+                const card = document.createElement('div');
+                card.className = 'verse-card';
+                card.setAttribute('data-category', verse.category);
+
+                const reference = document.createElement('div');
+                reference.className = 'verse-reference';
+                reference.textContent = verse.reference;
+
+                const text = document.createElement('div');
+                text.className = 'verse-text';
+                // Replace the key phrase with highlighted version
+                const highlightedText = verse.text.replace(
+                    verse.keyPhrase,
+                    `<span class="key-phrase">${verse.keyPhrase}</span>`
+                );
+                text.innerHTML = highlightedText;
+
+                const explanation = document.createElement('div');
+                explanation.className = 'verse-explanation';
+                const explanationText = document.createElement('div');
+                explanationText.className = 'verse-explanation-text';
+                explanationText.textContent = verse.explanation;
+                explanation.appendChild(explanationText);
+
+                card.appendChild(reference);
+                card.appendChild(text);
+                card.appendChild(explanation);
+
+                return card;
+            }
+
+            renderVerses() {
+                const grid = document.getElementById('verse-grid');
+                grid.innerHTML = '';
+
+                if (this.filteredVerses.length === 0) {
+                    grid.innerHTML = '<div class="verse-empty-state"><p>No verses found. Try adjusting your search or selecting a different category.</p></div>';
+                    this.updateCounter(0);
+                    return;
+                }
+
+                this.filteredVerses.forEach(verse => {
+                    grid.appendChild(this.createVerseCard(verse));
+                });
+
+                this.updateCounter(this.filteredVerses.length);
+            }
+
+            updateCounter(count) {
+                document.getElementById('verse-count').textContent = count;
+                document.getElementById('verse-plural').textContent = count === 1 ? '' : 's';
+            }
+        }
+
+        // Initialize when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            new VerseExplorer();
+        });
+    </script>
+
+    <script src="/global.js" defer></script>
+</body>
+</html>

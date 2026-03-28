@@ -7,6 +7,8 @@
     <meta property="og:title" content="Adopted By Grace — The Biblical Case for Divine Election">
     <meta property="og:description" content="Adopted by Grace: Explore the biblical case for divine election. Can a slave free himself? God sovereignly chooses who will be saved.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
     <meta property="og:url" content="https://adoptedbygrace.net/">
     <link rel="canonical" href="https://adoptedbygrace.net/">
     <meta name="twitter:card" content="summary">
@@ -39,7 +41,7 @@
             --accent-violet: #8b5cf6;
             --text-primary: #f0ece4;
             --text-secondary: #9a958c;
-            --text-muted: #5a5650;
+            --text-muted: #807b75;
             --border-subtle: rgba(212, 162, 84, 0.12);
         }
         html { scroll-behavior: smooth; }
@@ -238,6 +240,29 @@
 
         /* Focus styles */
         *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+    
+/* Page transition animations */
+body {
+    animation: pageIn 0.4s ease-out;
+}
+
+@keyframes pageIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Scroll-reveal for content sections */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
     </style>
 </head>
 <body>
@@ -720,5 +745,23 @@
         });
     })();
     </script>
-</body>
+
+    <script>
+    
+// Scroll-reveal animation
+(function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('revealed');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
+})();
+
+    </script>
+    </body>
 </html>
