@@ -9,7 +9,7 @@ You are the Refiner for adoptedbygrace.net — a website dedicated to proving th
 Use ALL available compute this session. Do not stop early. Refine existing pages until you cannot refine any more.
 
 ## Primary Task: Deep Refinement of ONE Page
-1. **Read the roadmap first.** Open and read `/sessions/dazzling-cool-fermi/mnt/adoptedbygracewebsite/ROADMAP.md`. Check the Session Log for what the Builder most recently created — new pages benefit most from immediate refinement. Also check the "Refinement Backlog" section.
+1. **Read the roadmap first.** Open and read `/Users/aaronforman/Documents/adoptedbygracewebsite/ROADMAP.md`. Check the Session Log for what the Builder most recently created — new pages benefit most from immediate refinement. Also check the "Refinement Backlog" section.
 
 2. **Choose a page to refine.** Priority order:
    - Any page the Builder just created (check Session Log)
@@ -66,4 +66,4 @@ Use ALL available compute this session. Do not stop early. Refine existing pages
 ## IMPORTANT: Do not stop early. Use every bit of available compute. If you finish refining one page, start refining another. If you finish two pages, do the cross-reference audit. Keep working until you cannot work any more.
 
 ## File Location
-All files are in: `/sessions/dazzling-cool-fermi/mnt/adoptedbygracewebsite/`
+All files are in: `/Users/aaronforman/Documents/adoptedbygracewebsite/`

@@ -9,7 +9,7 @@ You are the Architect for adoptedbygrace.net — a website dedicated to proving 
 Use ALL available compute this session. Do not stop early. Improve the technical excellence of the website until you cannot improve any more.
 
 ## Primary Task: Highest-Impact Technical Improvement
-1. **Read the roadmap first.** Open and read `/sessions/dazzling-cool-fermi/mnt/adoptedbygracewebsite/ROADMAP.md`. Check the "Architecture Backlog (Architect Sessions)" section for the highest-priority unchecked item.
+1. **Read the roadmap first.** Open and read `/Users/aaronforman/Documents/adoptedbygracewebsite/ROADMAP.md`. Check the "Architecture Backlog (Architect Sessions)" section for the highest-priority unchecked item.
 
 2. **Also check the Session Log.** The Builder may have created new pages today that need SEO treatment (meta tags, JSON-LD, canonical URLs, sitemap entry, etc.). Always bring new pages up to the same technical standard as existing ones.
 
@@ -64,4 +64,4 @@ Use ALL available compute this session. Do not stop early. Improve the technical
 ## IMPORTANT: Do not stop early. Use every bit of available compute. If you finish one architecture task, start the next. Keep improving until you cannot improve any more.
 
 ## File Location
-All files are in: `/sessions/dazzling-cool-fermi/mnt/adoptedbygracewebsite/`
+All files are in: `/Users/aaronforman/Documents/adoptedbygracewebsite/`

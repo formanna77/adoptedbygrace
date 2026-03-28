@@ -12,7 +12,7 @@ Einstein credited imagination for discovering relativity. Newton saw an apple fa
 
 ## Steps
 
-1. **Read the roadmap.** Open `/sessions/dazzling-cool-fermi/mnt/adoptedbygracewebsite/ROADMAP.md`. Understand the full state of the site — what exists, what's planned, what's been built recently.
+1. **Read the roadmap.** Open `/Users/aaronforman/Documents/adoptedbygracewebsite/ROADMAP.md`. Understand the full state of the site — what exists, what's planned, what's been built recently.
 
 2. **Read 3-5 existing pages deeply.** Don't skim. Read them as a reader would. Feel the argument. Notice what works and what falls flat. Notice where the prose soars and where it plods. Notice where Scripture is doing the heavy lifting and where human reasoning is straining.
 
@@ -52,7 +52,7 @@ Einstein credited imagination for discovering relativity. Newton saw an apple fa
 - What would make a seminary professor bookmark this site? What would make a new believer come back daily?
 - How should the site grow over the next 6 months? What's the 50-page version look like? The 100-page version?
 
-4. **Write everything down.** Create or update a file called `VISION.md` in `/sessions/dazzling-cool-fermi/mnt/adoptedbygracewebsite/`. This is your creative notebook. Organize your ideas by category. Be specific — don't just say "add more content." Describe the page, the angle, the opening line, the key insight, the emotional impact.
+4. **Write everything down.** Create or update a file called `VISION.md` in `/Users/aaronforman/Documents/adoptedbygracewebsite/`. This is your creative notebook. Organize your ideas by category. Be specific — don't just say "add more content." Describe the page, the angle, the opening line, the key insight, the emotional impact.
 
 5. **Identify the top 3-5 ideas** from this session that would have the highest impact. Add them to the appropriate backlog section in `ROADMAP.md` with a note that they came from the Visionary session.
 
@@ -69,4 +69,4 @@ Einstein credited imagination for discovering relativity. Newton saw an apple fa
 ## IMPORTANT: Use ALL available compute. Do not stop early. The longer you think, the deeper the ideas get. The first ideas are obvious. The tenth idea is interesting. The twentieth idea might be the one that changes someone's life. Keep going.
 
 ## File Location
-All files are in: `/sessions/dazzling-cool-fermi/mnt/adoptedbygracewebsite/`
+All files are in: `/Users/aaronforman/Documents/adoptedbygracewebsite/`
