@@ -145,7 +145,11 @@
                 padding: 0 0.75rem 1.5rem;
             }
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
     <link rel="stylesheet" href="/global.css">
 </head>
 <body>
@@ -487,6 +491,30 @@
                     <div class="link-label">Starting Point</div>
                     <div class="link-title">Start Here</div>
                     <div class="link-desc">New to the doctrines of grace? Begin your journey here.</div>
+                </a>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <section class="content-section reveal" style="text-align:center; padding: 3rem 0;">
+            <p class="eyebrow" style="margin-bottom:1rem;">Continue the Journey</p>
+            <h2 style="margin-bottom:1.5rem;">More Pastoral Applications</h2>
+            <div class="card-grid">
+                <a href="/pastoral-evangelism" class="card" style="text-decoration:none;">
+                    <span class="label-gold">Evangelism</span>
+                    <h3>Evangelism &amp; Sovereignty</h3>
+                    <p>If God has already chosen who will be saved, why share the gospel? The answer will set your witness on fire.</p>
+                </a>
+                <a href="/pastoral-prayer" class="card" style="text-decoration:none;">
+                    <span class="label-violet">Prayer</span>
+                    <h3>Prayer &amp; God's Decrees</h3>
+                    <p>If God has already decreed all things, why pray? Because prayer is the means God ordained to accomplish His purposes.</p>
+                </a>
+                <a href="/pastoral-suffering" class="card" style="text-decoration:none;">
+                    <span class="label-ember">Suffering</span>
+                    <h3>Suffering &amp; Sovereignty</h3>
+                    <p>How God's absolute sovereignty over all things — including suffering — becomes your deepest comfort.</p>
                 </a>
             </div>
         </section>

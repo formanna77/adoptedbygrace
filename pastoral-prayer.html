@@ -132,24 +132,60 @@
             margin-top: 1rem;
             padding-left: 1rem;
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
 
-    <nav role="navigation" aria-label="Main navigation">
+        <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
-            <a href="/" class="logo">ADOPTED BY GRACE</a>
-            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/start-here">Start Here</a></li>
-                <li><a href="/questions">The Evidence</a></li>
-                <li><a href="/systematic-theology-hub">Systematic</a></li>
-                <li><a href="/demolition-hub">Demolition</a></li>
-                <li><a href="/theologians">Theologians</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
                 <li><a href="/resources">Resources</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
@@ -368,6 +404,11 @@
                     <h3>Election &amp; Assurance</h3>
                     <p>How the doctrine of election gives unshakeable certainty when anxiety attacks your faith.</p>
                 </a>
+                <a href="/pastoral-evangelism" class="card" style="text-decoration:none;">
+                    <span class="label-violet">Evangelism</span>
+                    <h3>Evangelism &amp; Sovereignty</h3>
+                    <p>If God has already chosen who will be saved, why share the gospel? The answer will set your witness on fire.</p>
+                </a>
             </div>
         </section>
 
@@ -377,7 +418,7 @@
         <div class="footer-container">
             <div class="footer-section"><h4>Doctrine</h4><ul>
                 <li><a href="/questions">The Evidence</a></li>
-                <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+                <li><a href="/systematic-theology">Systematic Theology</a></li>
                 <li><a href="/demolition-hub">Demolition Zone</a></li>
                 <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
             </ul></div>
@@ -389,7 +430,7 @@
             </ul></div>
             <div class="footer-section"><h4>Connect</h4><ul>
                 <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/connect">Contact</a></li>
                 <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
             </ul></div>
         </div>

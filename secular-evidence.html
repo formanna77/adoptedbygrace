@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Even secular disciplines — neuroscience, psychology, philosophy, economics, and history — point to the truths Scripture has proclaimed for millennia. The evidence is everywhere.">
+    <meta property="og:title" content="Secular Evidence for Biblical Truth — Adopted by Grace">
+    <meta property="og:description" content="Even secular disciplines — neuroscience, psychology, philosophy, economics, and history — point to the truths Scripture has proclaimed for millennia. The evidence is everywhere.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/secular-evidence.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Secular Evidence for Biblical Truth — Adopted by Grace">
+    <meta name="twitter:description" content="Neuroscience, psychology, philosophy, economics, and history confirm Scripture's ancient proclamations.">
+    <link rel="canonical" href="https://adoptedbygrace.net/secular-evidence.html">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Secular Evidence for Biblical Truth — Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Secular Evidence for Biblical Truth",
+        "description": "Secular disciplines — neuroscience, psychology, philosophy, economics, and history — confirm the truths Scripture has proclaimed for millennia.",
+        "url": "https://adoptedbygrace.net/secular-evidence.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        /* Page-specific hero */
+        .page-hero {
+            position: relative;
+            padding: 10rem 2rem 5rem;
+            text-align: center;
+            overflow: hidden;
+        }
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 50% 30%, rgba(212, 162, 84, 0.08) 0%, transparent 60%),
+                        radial-gradient(ellipse at 80% 70%, rgba(139, 92, 246, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        .hero-eyebrow {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.4em;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+        }
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 900;
+            line-height: 1.15;
+            margin-bottom: 1.5rem;
+        }
+        .hero-title .gold {
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero-subtitle {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            max-width: 750px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Evidence cards */
+        .evidence-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        .evidence-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 2.5rem 2rem;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .evidence-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
+        .evidence-card:hover::before { transform: scaleX(1); }
+        .evidence-card:hover {
+            background: var(--bg-card-hover);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border-color: rgba(212, 162, 84, 0.25);
+        }
+        .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        .card-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--accent-gold);
+            margin-bottom: 0.75rem;
+            display: inline-block;
+        }
+        .card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            line-height: 1.3;
+        }
+        .card-desc {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 1.2rem;
+        }
+        .card-arrow {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            color: var(--accent-gold);
+            font-size: 1.2rem;
+            opacity: 0;
+            transform: translateX(-8px);
+            transition: all 0.3s ease;
+        }
+        .evidence-card:hover .card-arrow {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* Section intro */
+        .section-intro {
+            max-width: 850px;
+            margin: 0 auto 4rem;
+            padding: 0 2rem;
+            text-align: center;
+        }
+        .section-intro h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+        .section-intro p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        .scripture-refs {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            letter-spacing: 0.05em;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        /* Theology humor footer bar */
+        .humor-bar {
+            text-align: center;
+            padding: 3rem 2rem;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+        .humor-bar em {
+            color: var(--accent-gold);
+            font-style: normal;
+        }
+
+        @media (max-width: 768px) {
+
+            .page-hero { padding: 5rem 1.5rem 2rem; }
+            .evidence-grid { grid-template-columns: 1fr; padding: 0 1.5rem; }
+        }
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="page-hero">
+            <div class="hero-eyebrow">General Revelation Confirms Special Revelation</div>
+            <h1 class="hero-title">Secular <span class="gold">Evidence</span> for Biblical Truth</h1>
+            <p class="hero-subtitle">God has written His law not only on ancient pages, but in the human brain, in the machinery of the soul, in the patterns of history itself. Even those who refuse to read Scripture are discovering what Scripture always knew.</p>
+        </section>
+
+        <section class="content-section reveal" style="padding: 0 0 4rem;">
+            <div class="section-intro">
+                <h2>The Evidence Surrounds Us</h2>
+                <p>Scripture teaches that God's invisible attributes are "clearly visible" in His creation and in human consciousness (Romans 1:19-20). The deepest truths of theology — about human nature, free will, moral law, and divine sovereignty — are not abstract propositions locked away in dusty theology books. They are embedded in reality itself.</p>
+                <p>When neuroscientists map how desire is determined in the brain, when psychologists discover the bondage of the human will, when economists build models assuming human self-interest, when philosophers increasingly reject libertarian free will, when historians trace the rise and fall of empires — they are all, often unknowingly, confirming what God proclaimed through His prophets and apostles.</p>
+                <p><em>This is not to say that unbelieving disciplines hold the same authority as Scripture.</em> But it is to say that truth is truth, wherever it appears. When the secular world discovers biblical realities, the believer stands on firmer ground than ever.</p>
+                <div class="scripture-refs">
+                    Romans 1:19–20 • Acts 17:28 • Psalm 19:1–4
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section reveal" style="padding-bottom: 5rem;">
+            <div class="evidence-grid">
+
+                <a href="/secular-neuroscience-human-inability" class="evidence-card">
+                    <span class="card-icon">🧠</span>
+                    <span class="card-label">The Science of Choice</span>
+                    <h3 class="card-title">Neuroscience &amp; Human Inability</h3>
+                    <p class="card-desc">Brain science is discovering what Reformed theology proclaimed: our deepest desires are determined before we ever "choose." The illusion of libertarian freedom is collapsing.</p>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+                <a href="/secular-psychology-bondage-of-will" class="evidence-card">
+                    <span class="card-icon">⚗️</span>
+                    <span class="card-label">The Will's Captivity</span>
+                    <h3 class="card-title">Psychology &amp; the Bondage of the Will</h3>
+                    <p class="card-desc">Modern psychology rediscovers Luther's insight: the will is bound. Addiction, compulsion, and determinism are not theological novelties — they're documented clinical realities.</p>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+                <a href="/secular-philosophy-free-will" class="evidence-card">
+                    <span class="card-icon">📚</span>
+                    <span class="card-label">The Philosophical Crisis</span>
+                    <h3 class="card-title">Philosophy &amp; Free Will</h3>
+                    <p class="card-desc">Secular philosophers are increasingly concluding what Scripture always taught: libertarian free will is an illusion. Compatibilism — the view that freedom and determinism coexist — is gaining ground.</p>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+                <a href="/secular-economics-depravity" class="evidence-card">
+                    <span class="card-icon">💰</span>
+                    <span class="card-label">Human Nature Exposed</span>
+                    <h3 class="card-title">Economics &amp; Total Depravity</h3>
+                    <p class="card-desc">Every economic model built in the past 200 years assumes humans are fundamentally self-interested. Economists don't call it depravity — but they describe the same reality Scripture proclaimed.</p>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+                <a href="/secular-history-sovereignty" class="evidence-card">
+                    <span class="card-icon">👑</span>
+                    <span class="card-label">Empires Fall, God Stands</span>
+                    <h3 class="card-title">History &amp; Divine Sovereignty</h3>
+                    <p class="card-desc">The rise and fall of empires, the patterns of historical causation, the collapse of the mightiest human schemes — all point to a God who rules over the nations and accomplishes His purposes.</p>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+                <a href="/secular-sociology-human-inability" class="evidence-card">
+                    <span class="card-icon">🔬</span>
+                    <span class="card-label">Every Experiment Confirms It</span>
+                    <h3 class="card-title">Sociology &amp; Human Inability</h3>
+                    <p class="card-desc">Milgram, Stanford Prison, the bystander effect, Asch conformity — sociology's most famous experiments all confirm what Scripture teaches about total depravity and the bondage of the will.</p>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+                <a href="/secular-art-literature-reformed-truth" class="evidence-card">
+                    <span class="card-icon">🎭</span>
+                    <span class="card-label">The Greatest Writers Knew</span>
+                    <h3 class="card-title">Art &amp; Literature</h3>
+                    <p class="card-desc">Shakespeare, Dostoevsky, O'Connor, McCarthy, Melville — the greatest literary minds kept discovering the same truths about human nature that Scripture proclaimed millennia ago.</p>
+                    <span class="card-arrow">&rarr;</span>
+                </a>
+
+            </div>
+        </section>
+
+        <div class="humor-bar">
+            <p>These secular disciplines have been <em>divinely ordained</em> to affirm what Scripture proclaimed millennia ago. &mdash; God's truth needs no permission to be discovered.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Doctrine</h4>
+                <ul>
+                    <li><a href="/questions">The Evidence</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition Zone</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="/global.js" defer></script>
+</body>
+</html>

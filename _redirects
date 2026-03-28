@@ -25,9 +25,56 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /pastoral-suffering    /pastoral-suffering.html    200
 /pastoral-prayer       /pastoral-prayer.html       200
 /pastoral-assurance    /pastoral-assurance.html    200
+/pastoral-evangelism   /pastoral-evangelism.html   200
 
 # Counter-Apologetics
 /counter-cs-lewis-free-will  /counter-cs-lewis-free-will.html  200
+
+# Comparative Theology
+/compare-calvinism-open-theism           /compare-calvinism-open-theism.html           200
+/compare-predestination-foreknowledge    /compare-predestination-foreknowledge.html    200
+/compare-calvinism-catholic-soteriology  /compare-calvinism-catholic-soteriology.html  200
+
+# Theologian name fixes
+/theologian-john-owen          /theologian-owen.html          301
+/theologian-jonathan-edwards   /theologian-edwards.html       301
+
+# Demolition name fix
+/demolition-1timothy2-4        /demolition-1tim2-4.html       301
+
+# Systematic theology redirects to existing pages
+/systematic-theology-hub       /systematic-theology.html      301
+/systematic-depravity          /systematic-hamartiology.html   301
+/systematic-perseverance       /question-perseverance.html     301
+/systematic-faith              /question-faithgift.html        301
+
+# Generic topic redirects to best-fit pages
+/apologetics                   /demolition-hub.html           301
+/doctrine                      /systematic-theology.html      301
+/doctrine-election             /systematic-election.html      301
+/election                      /systematic-election.html      301
+/sovereignty                   /questions.html                301
+/predestination                /questions.html                301
+/grace                         /start-here.html               301
+/objections                    /demolition-hub.html           301
+/comparisons                   /compare-calvinism-arminianism.html  301
+/theology-total-depravity      /systematic-hamartiology.html  301
+/theology-gods-two-wills       /demolition-ezekiel18-23.html  301
+/subscribe                     /connect.html                  301
+/privacy                       /about.html                    301
+/terms                         /about.html                    301
+
+# Devotional redirects (pages not yet created — send to hub)
+/devotional-assurance          /devotionals.html              301
+/devotional-ezekiel36-37      /devotionals.html              301
+
+# Question redirects (pages not yet created — send to hub)
+/question-atonement            /systematic-atonement.html     301
+/question-irresistible-grace   /questions.html                301
+
+# Systematic sub-topics (pages not yet created — send to hub)
+/systematic-glorification      /systematic-ordo-salutis.html  301
+/systematic-sanctification     /systematic-ordo-salutis.html  301
 
 # Custom 404
 /*  /404.html  404

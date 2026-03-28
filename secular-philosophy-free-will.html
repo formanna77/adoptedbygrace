@@ -249,7 +249,11 @@
             background: rgba(212,162,84,0.08);
             color: var(--accent-gold, #d4a254);
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -596,7 +600,7 @@
                 <p>From Aristotle's proto-compatibilism through the Stoics, Hobbes, Hume, and Edwards, to Frankfurt Cases, the Consequence Argument, and the PhilPapers survey — the arc of Western philosophy bends toward compatibilism. <strong>The libertarian free will that Arminian soteriology requires is a minority position in its own discipline.</strong></p>
             </div>
 
-            <table class="compare-table" style="margin: 3rem 0;">
+            <div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="compare-table" style="margin: 3rem 0;">
                 <thead>
                     <tr>
                         <th>Philosophical Development</th>
@@ -633,7 +637,7 @@
                         <td class="reformed">God determined allotted periods and boundaries (Acts 17:26)</td>
                     </tr>
                 </tbody>
-            </table>
+            </table></div>
 
             <p>The Reformed tradition didn't borrow from secular philosophy — it arrived at the same conclusions independently, through careful exegesis of Scripture. But the convergence is striking. When the greatest minds in the history of philosophy — many of them hostile to Christianity — work through the logic of free will with full rigor, they arrive at the position the Reformers have held for five centuries.</p>
 

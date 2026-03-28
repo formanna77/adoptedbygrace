@@ -198,7 +198,11 @@
             background: rgba(212,162,84,0.08);
             color: var(--accent-gold, #d4a254);
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
 </head>
 <body>
 
@@ -375,7 +379,7 @@
 
     <p>Classical economics assumed that humans are rational &mdash; that they accurately process information, weigh costs and benefits, and make optimal choices. Behavioral economics, pioneered by Daniel Kahneman and Amos Tversky, demolished this assumption with decades of experimental evidence.</p>
 
-    <table class="vs-table">
+    <div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="vs-table">
         <thead>
             <tr>
                 <th>Cognitive Bias</th>
@@ -415,7 +419,7 @@
                 <td>&ldquo;The natural person does not accept the things of the Spirit of God&rdquo; (1 Corinthians 2:14)</td>
             </tr>
         </tbody>
-    </table>
+    </table></div>
 
     <p>Kahneman won the Nobel Prize in Economics for demonstrating what Scripture has always taught: human reasoning is systematically distorted by forces operating below conscious awareness. We do not think clearly. We do not choose wisely. We do not even <em>want</em> correctly. Our desires, perceptions, and judgments are warped by a nature that is &mdash; in the precise theological term &mdash; <em>totally</em> affected by the fall.</p>
 
@@ -512,7 +516,7 @@
         </ul></div>
         <div class="footer-section"><h4>Connect</h4><ul>
             <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/connect">Contact</a></li>
             <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
         </ul></div>
     </div>

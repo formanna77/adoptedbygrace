@@ -810,7 +810,27 @@
                 page-break-inside: avoid;
             }
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "headline": "Resources for Your Journey | Adopted by Grace",
+      "description": "Complete resource hub for the 5-phase Start Here journey into sovereign grace. Books, sermons, articles, and deeper content organized by phase.",
+      "url": "https://adoptedbygrace.net/start-here-resources.html",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Adopted by Grace",
+        "url": "https://adoptedbygrace.net"
+      },
+      "mainEntityOfPage": "https://adoptedbygrace.net/start-here-resources.html"
+    }
+    </script>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to main content</a>
@@ -1470,5 +1490,6 @@
             }
         });
     </script>
+<script src="/global.js" defer></script>
 </body>
 </html>

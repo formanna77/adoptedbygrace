@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Starting Point | Adopted by Grace</title>
     <meta name="description" content="Discover your starting point on the 5-phase journey to understanding God's sovereignty and grace. Our interactive quiz helps you find the perfect place to begin.">
     <meta name="theme-color" content="#0a0a0f">
 
@@ -39,6 +40,8 @@
     </script>
 
     <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- Stylesheets -->
@@ -794,7 +797,12 @@
                 height: 45px;
             }
         }
-    </style>
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+</style>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
     <!-- Skip to content link -->
@@ -1253,5 +1261,6 @@
         // Initialize on load
         init();
     </script>
+<script src="/global.js" defer></script>
 </body>
 </html>
