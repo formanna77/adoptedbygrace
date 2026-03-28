@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Whitefield | Theologian | Adopted by Grace</title>
+    <meta name="description" content="George Whitefield: the greatest evangelist of the Great Awakening, a thoroughgoing Calvinist who proved that election fuels rather than hinders evangelism. Voice that reached 30,000, heart burning with sovereign grace.">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="George Whitefield | Adopted by Grace">
+    <meta property="og:description" content="The Grand Itinerant: how a sovereign God ordained the voice of an age">
+    <meta property="og:image" content="/images/theologians/whitefield-og.jpg">
+    <meta property="og:url" content="https://adoptedbygrace.net/theologian-whitefield">
+
+    <!-- Structured Data (Article Schema) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "George Whitefield: The Grand Itinerant",
+        "description": "The life, theology, and legacy of George Whitefield, the greatest evangelist of the Great Awakening",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        },
+        "datePublished": "2026-03-28",
+        "image": "/images/theologians/whitefield-og.jpg"
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border-subtle);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .logo:hover {
+            color: var(--accent-ember);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--accent-gold);
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a, .nav-trigger {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .nav-links a:hover, .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-trigger {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-arrow {
+            font-size: 0.7rem;
+            transition: transform 0.3s ease;
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: var(--bg-card-hover);
+            border: 1px solid var(--border-subtle);
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            min-width: 200px;
+            flex-direction: column;
+            gap: 0.25rem;
+            z-index: 200;
+        }
+
+        .nav-trigger.active ~ .nav-dropdown {
+            display: flex;
+        }
+
+        .nav-dropdown a {
+            padding: 0.75rem 1rem;
+            border-radius: 0.25rem;
+            font-size: 0.9rem;
+            transition: background-color 0.2s ease;
+        }
+
+        .nav-dropdown a:hover {
+            background-color: var(--bg-card);
+            color: var(--accent-gold);
+        }
+
+        /* Responsive Nav */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .nav-links.active {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                background-color: var(--bg-card-hover);
+                gap: 0;
+                border-top: 1px solid var(--border-subtle);
+            }
+
+            .nav-links.active li {
+                width: 100%;
+                border-bottom: 1px solid var(--border-subtle);
+            }
+
+            .nav-links.active a, .nav-links.active .nav-trigger {
+                display: block;
+                padding: 1rem;
+                width: 100%;
+                text-align: left;
+            }
+        }
+
+        /* Main Container */
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            margin-bottom: 4rem;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+            transition: gap 0.3s ease;
+        }
+
+        .back-link:hover {
+            gap: 1rem;
+        }
+
+        .label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent-ember);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            line-height: 1.1;
+        }
+
+        .dates {
+            font-size: 1.3rem;
+            color: var(--accent-gold);
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+
+        .intro-text {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 800px;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        /* Section Navigation */
+        .section-nav {
+            display: flex;
+            gap: 2rem;
+            margin: 3rem 0;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border-subtle);
+            border-bottom: 1px solid var(--border-subtle);
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+        }
+
+        .section-nav a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .section-nav a:hover {
+            color: var(--accent-ember);
+        }
+
+        /* Section Headers */
+        section {
+            margin-bottom: 4rem;
+        }
+
+        section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-subtle);
+        }
+
+        /* Biography Timeline */
+        .bio-timeline {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .timeline-item {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 0.75rem;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            border-left: 4px solid var(--accent-gold);
+        }
+
+        .timeline-item:hover {
+            background-color: var(--bg-card-hover);
+            border-left-color: var(--accent-ember);
+            transform: translateY(-4px);
+        }
+
+        .timeline-year {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-text {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Content Grid */
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .content-item {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 0.75rem;
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .content-item:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+        }
+
+        .content-item h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+
+        .content-item p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Theology Grid */
+        .theology-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .theology-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 0.75rem;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            border-top: 3px solid var(--accent-violet);
+        }
+
+        .theology-card:hover {
+            background-color: var(--bg-card-hover);
+            border-top-color: var(--accent-ember);
+            transform: translateY(-6px);
+        }
+
+        .theology-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+
+        .theology-card p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Quote Cards */
+        .quote-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .quote-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-left: 4px solid var(--accent-violet);
+            border-radius: 0.75rem;
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .quote-card:hover {
+            background-color: var(--bg-card-hover);
+            border-left-color: var(--accent-gold);
+        }
+
+        .quote-text {
+            font-style: italic;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .quote-source {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+        }
+
+        /* Works List */
+        .works-list {
+            display: grid;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .work-item {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .work-item:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            padding-left: 2rem;
+        }
+
+        .work-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent-gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .work-year {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .work-desc {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* Scripture Block */
+        .scripture-block {
+            background-color: var(--bg-card-hover);
+            border-left: 4px solid var(--accent-gold);
+            border-radius: 0.5rem;
+            padding: 2rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            display: block;
+            margin-top: 1rem;
+            font-size: 0.95rem;
+            color: var(--accent-gold);
+            font-style: normal;
+            font-weight: 500;
+        }
+
+        /* Cross References */
+        .cross-ref {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .cross-ref h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        .cross-ref-links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .cross-ref-links a {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: var(--bg-card-hover);
+            color: var(--accent-gold);
+            text-decoration: none;
+            border-radius: 0.5rem;
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .cross-ref-links a:hover {
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            padding: 3rem 2rem;
+            text-align: center;
+            margin-top: 5rem;
+        }
+
+        footer p {
+            color: var(--text-secondary);
+            margin: 0.5rem 0;
+        }
+
+        footer a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: var(--accent-ember);
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 99;
+            font-weight: bold;
+        }
+
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-ember);
+            transform: translateY(-4px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            main {
+                padding: 2rem 1.5rem;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            section h2 {
+                font-size: 1.8rem;
+            }
+
+            .section-nav {
+                gap: 1rem;
+            }
+
+            .back-to-top {
+                width: 45px;
+                height: 45px;
+                font-size: 1.2rem;
+                bottom: 1.5rem;
+                right: 1.5rem;
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <a href="/theologians" class="back-link">← All Theologians</a>
+            <span class="label">THE GRAND ITINERANT</span>
+            <h1>George Whitefield</h1>
+            <p class="dates">1714–1770</p>
+            <p class="intro-text">
+                A voice that shook continents. A heart ablaze with divine sovereignty. George Whitefield was the catalyst of the Great Awakening—a man whose thundering proclamation of God's election reached more human ears before the age of amplification than perhaps any soul in history. In a world confused about whether predestination kills evangelism, Whitefield lived the answer: election is the engine of evangelism. He proved it with every crossed ocean, every gathering in the open fields, and every plea for sinners to be born again by a power wholly outside themselves.
+            </p>
+        </section>
+
+        <!-- Section Navigation -->
+        <nav class="section-nav">
+            <a href="#biography">Biography</a>
+            <a href="#theology">Theology</a>
+            <a href="#key-quotes">Key Quotes</a>
+            <a href="#major-works">Major Works</a>
+            <a href="#legacy">Legacy</a>
+            <a href="#today">Why His Work Matters Today</a>
+        </nav>
+
+        <!-- Biography Section -->
+        <section id="biography">
+            <h2>Biography</h2>
+
+            <div class="bio-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">1714</div>
+                    <div class="timeline-text">
+                        Born in Gloucester, England, in the Bell Inn—his father's property. Growing up an innkeeper's son shaped his instinct for connecting with common people. His father died when George was young, a loss that deepened his introspection and longing for meaning.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1732–1735</div>
+                    <div class="timeline-text">
+                        At Oxford University, joined the Holy Club with John and Charles Wesley. Began a rigorous spiritual discipline that led to his dramatic conversion experience. Whitefield threw himself into ascetic practices with such fervor that he damaged his health—but encountered the living God in a way that could never be reversed.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1736–1738</div>
+                    <div class="timeline-text">
+                        Ordained in the Church of England at age 23 and immediately became an electrifying preacher. Parishes couldn't contain the crowds. His eloquence, passion, and spiritual magnetism drew thousands. When churches closed their doors to him, the thought never crossed his mind to stop—it simply redirected his genius toward the fields and the open air.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1738–1770</div>
+                    <div class="timeline-text">
+                        Made thirteen—thirteen!—transatlantic crossings. Preached in every American colony. Established the Bethesda Orphanage in Georgia. Crisscrossed England, Scotland, and Wales. His voice was said to carry across a field to 30,000 listeners. No technology. No amplification. Just the raw power of a sovereignty-convinced man whose God had prepared him for such a time.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1741</div>
+                    <div class="timeline-text">
+                        The doctrinal split with John Wesley. Wesley published <em>Free Grace</em> against predestination; Whitefield responded with theological clarity but also with a grace that startled observers. He would later say that if Wesley insisted on preaching at his funeral, he would rise up and stop him—not out of anger, but because Wesley would certainly try to claim him for Arminianism! (Even in humor, Whitefield never compromised truth.)
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1770</div>
+                    <div class="timeline-text">
+                        Died in Newburyport, Massachusetts, at age 55, exhausted from decades of relentless preaching. His legacy? A gospel of sovereign grace proclaimed to more people than any man of his era. The Great Awakening would not have existed without him. Neither would the American conscience about spiritual liberty.
+                    </div>
+                </div>
+            </div>
+
+            <p style="margin-top: 2rem; color: var(--text-secondary); line-height: 1.8;">
+                Whitefield's life embodies a stunning theological truth: the doctrine of election didn't make him sit at home in contemplation—it made him travel. It didn't paralyze him—it propelled him. Why? Because he understood something the Scriptures teach with absolute clarity: that God's sovereignty and human responsibility are not competitors; they are dance partners. God had chosen him before the foundation of the world to be a voice in his generation. And knowing that, Whitefield preached with the urgency of a man who understood that human souls hang in the balance and that only God's sovereign grace could pierce the darkness.
+            </p>
+        </section>
+
+        <!-- Theology Section -->
+        <section id="theology">
+            <h2>Theology</h2>
+
+            <p style="color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.8;">
+                George Whitefield was a radical Calvinist—but not in the way his critics imagined. He didn't believe election made evangelism optional; he believed it made evangelism essential. Scripture teaches that God has chosen His people before the foundation of the world (Ephesians 1:4-5). But it also teaches that believers must preach the gospel to every creature. Whitefield fused these truths with a theological brilliance that still startles us centuries later.
+            </p>
+
+            <div class="theology-grid">
+                <div class="theology-card">
+                    <h3>Election as the Engine of Evangelism</h3>
+                    <p>
+                        Whitefield grasped what many evangelicals still miss: predestination is not the enemy of evangelism—it is the foundation. If God has elected a people, then the preacher's task is to proclaim Christ to all, knowing that the Spirit will call the elect to faith. This doesn't remove urgency; it anchors it. "I embrace the Calvinistic scheme," Whitefield said, "not because Calvin taught it, but because Jesus Christ has taught it to me." He preached with the fervor of a man convinced that God's sovereignty guarantees results.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <h3>The New Birth as Absolute Necessity</h3>
+                    <p>
+                        Long before the revivalists of the 19th century, Whitefield placed the new birth at the center of his message. "You must be born again" (John 3:3-7) was not gentle advice; it was the thundering demand of Christ. Whitefield preached with such intensity about spiritual rebirth that listeners wept under his words—not from emotional manipulation, but from the weight of eternity pressing upon their consciences. The new birth is not human achievement; it is God's sovereign work in the heart of the elect.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <h3>Passionate Calvinistic Preaching</h3>
+                    <p>
+                        The stereotype of Calvinist preaching is cold intellectualism. Whitefield shattered that stereotype with a heat that singed the ears of thousands. His theology was buttoned-down, but his delivery was on fire. He wept from the pulpit. He gestured with force. He made listeners feel the weight of judgment and the sweetness of grace. He proved that Reformed theology and passionate proclamation are not at odds—they are meant to dance together.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <h3>The Free Offer and Divine Sovereignty</h3>
+                    <p>
+                        Scripture teaches that the gospel must be offered freely to all (John 6:37 — "All that the Father gives to me will come to me," yet the gospel is still proclaimed universally). Whitefield lived this tension without trying to flatten it into false simplicity. He preached Christ to everyone, knowing that God had already determined who would hear and believe. The gospel is offered freely; its efficacy is God's sovereign gift. Both truths. Always both truths.
+                    </p>
+                </div>
+            </div>
+
+            <div class="scripture-block">
+                "All that the Father gives to me will come to me, and whoever comes to me I will never cast out."<span class="scripture-ref">John 6:37 (ESV)</span>
+            </div>
+
+            <p style="color: var(--text-secondary); margin: 2rem 0; line-height: 1.8;">
+                For Whitefield, these doctrines were not abstractions to debate in study halls. They were the heartbeat of his ministry. God's eternal choice of His people meant that the gospel was not a gamble but a promise. The new birth was not a human decision but a divine act. This conviction gave him the boldness to proclaim Christ in fields and marketplaces when the establishment tried to silence him. He knew that God had ordained both the message and the messengers, both the preaching and the hearing.
+            </p>
+
+            <div class="scripture-block">
+                "Therefore, as God's chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness and patience."<span class="scripture-ref">Colossians 3:12 (NIV)</span>
+            </div>
+        </section>
+
+        <!-- Key Quotes Section -->
+        <section id="key-quotes">
+            <h2>Key Quotes</h2>
+
+            <div class="quote-grid">
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "I embrace the Calvinistic scheme not because Calvin taught it, but because Jesus Christ has taught it to me."
+                    </p>
+                    <div class="quote-source">— George Whitefield</div>
+                </div>
+
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "Men may oppose this doctrine, I cannot. For the doctrine is scripture, and scripture is the word of God."
+                    </p>
+                    <div class="quote-source">— George Whitefield</div>
+                </div>
+
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "I am a poor creature; but Jesus Christ is an almighty Saviour. I go to him just as I am, and believe him to be able and willing to save me."
+                    </p>
+                    <div class="quote-source">— George Whitefield</div>
+                </div>
+
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "Though we may differ from the Reverend Mr. Wesley in some points of doctrine, yet why should we bite and devour one another?"
+                    </p>
+                    <div class="quote-source">— George Whitefield (on his friendship with John Wesley despite doctrinal disagreement)</div>
+                </div>
+
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "God has been pleased to instruct me by this experience, and now I know experimentally, that God is a faithful God."
+                    </p>
+                    <div class="quote-source">— George Whitefield</div>
+                </div>
+
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "I would think myself happy to preach the gospel of Christ to these 30,000 people, to be instrumental in their conversion."
+                    </p>
+                    <div class="quote-source">— George Whitefield (on his open-air preaching)</div>
+                </div>
+            </div>
+
+            <div class="cross-ref" style="margin-top: 2rem;">
+                <h4>The Wesley Friendship & Theological Grace</h4>
+                <p style="color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.8;">
+                    One of history's great theological friendships was George Whitefield and John Wesley. They disagreed profoundly on predestination. Wesley published <em>Free Grace</em> directly against the doctrine that Whitefield held dear. Yet Whitefield's response was not venom but clarity. When Whitefield was near death, he famously said he didn't want Wesley to preach at his funeral—because if Wesley did, "he will endeavor to prove that I was a good Arminian."<br/><br/>Even in humor, Whitefield's point was serious: truth matters. But so does love. The friendship endured because both men loved Christ more than they loved being right. That is the spirit of gospel humility—not compromising doctrine, but refusing to weaponize disagreement.
+                </p>
+            </div>
+        </section>
+
+        <!-- Major Works Section -->
+        <section id="major-works">
+            <h2>Major Works</h2>
+
+            <div class="works-list">
+                <div class="work-item">
+                    <div class="work-title">The Nature and Necessity of the New Birth</div>
+                    <div class="work-year">1747</div>
+                    <div class="work-desc">
+                        A foundational sermon on the absolute necessity of spiritual rebirth. Whitefield hammers home that being born into a Christian family or society is not the same as being born again by the Holy Spirit. This was radical in an era of nominal Christendom, and it remains crucial in ours.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">Predestination and Election Defended</div>
+                    <div class="work-year">1741</div>
+                    <div class="work-desc">
+                        Whitefield's direct response to Wesley's <em>Free Grace</em>. Here he carefully defends the doctrine of election not as Calvin's invention but as the teaching of Scripture. The tone is respectful but unwavering. This is high-stakes theology defended with both scholarly rigor and pastoral urgency.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">Sermons on Various Occasions</div>
+                    <div class="work-year">1747–1755</div>
+                    <div class="work-desc">
+                        A collection of Whitefield's most powerful sermons, covering topics from the new birth to God's sovereignty to the free offer of the gospel. These are not theoretical exercises; they pulse with the passion of a man who has stood in fields and watched thousands respond to the call of Christ.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">The Eternity of Hell Torments</div>
+                    <div class="work-year">1747</div>
+                    <div class="work-desc">
+                        In an age when hell has been politicized out of nearly every pulpit, Whitefield's unflinching sermon on judgment stands as a reminder that the doctrine of divine justice is not optional. He believed that the gospel's beauty is sharpened by the reality of wrath.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">Journals and Diaries</div>
+                    <div class="work-year">1738–1770</div>
+                    <div class="work-desc">
+                        Whitefield's personal records offer an intimate glimpse into a man consumed by Christ. His accounts of preaching expeditions, his spiritual struggles, his intercessory prayers, and his relationships reveal a theologian who lived what he taught. These are not dry records but a window into a burning heart.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Legacy Section -->
+        <section id="legacy">
+            <h2>Legacy</h2>
+
+            <div class="content-grid">
+                <div class="content-item">
+                    <h3>The Great Awakening</h3>
+                    <p>
+                        Without George Whitefield, there would have been no Great Awakening. He was the catalyst who united the American colonies through a shared spiritual experience. Whitefield preached the gospel so compellingly, and with such an insistence on the necessity of the new birth, that entire communities were awakened to the reality of God. Benjamin Franklin—a skeptic!—attended Whitefield's Philadelphia sermon and testified to the power of his oratory. Even rationalists couldn't deny that something transcendent was happening when Whitefield preached.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>Reformed Evangelicalism Forged</h3>
+                    <p>
+                        Whitefield proved that Reformed theology and aggressive evangelism could not only coexist but thrive together. He demolished the false dichotomy that says election makes you passive and Arminianism makes you earnest. His passion and his predestinarianism were inseparable. He created a template—Reformed evangelicalism—that would shape Protestant spirituality for centuries to come and still shapes it today.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>Open-Air Preaching Unleashed</h3>
+                    <p>
+                        When institutional religion tried to silence Whitefield, he simply moved to the fields. This act was revolutionary. It said: the gospel belongs in the marketplace, not locked behind church doors. It said: if the institution will not speak truth, the preacher must find another platform. Whitefield's open-air ministry became a model that would echo through centuries of grass-roots religious revival.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>Bethesda Orphanage and Social Conscience</h3>
+                    <p>
+                        Whitefield's establishment of Bethesda Orphanage in Georgia was not an afterthought to his ministry. It flowed from his conviction that the sovereignty of God encompasses care for the vulnerable. He preached election to crowds of thousands while also personally investing in the lives of orphaned children. Theology and compassion were not separate lanes in his life; they were the same river.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>The Most-Preached-To Man in History</h3>
+                    <p>
+                        Whitefield addressed more human beings in his lifetime than perhaps anyone before the age of electronic amplification. No microphone. No broadcast. Just a voice trained and sanctified by decades of prayer and proclamation. Millions heard the gospel from his lips across four continents. That is a legacy that numbers cannot capture but history cannot forget.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>A Friendship That Transcends Doctrine</h3>
+                    <p>
+                        Whitefield's enduring friendship with John Wesley despite their profound theological disagreement set a standard for Christian relationships. They didn't pretend the disagreement didn't exist. They didn't smooth it over with false unity. But they refused to let doctrine become a weapon against a fellow believer. This model of how to hold truth firmly while holding brothers gently is desperately needed in our time.
+                    </p>
+                </div>
+            </div>
+
+            <div class="scripture-block">
+                "By this everyone will know that you are my disciples, if you love one another."<span class="scripture-ref">John 13:35 (NIV)</span>
+            </div>
+        </section>
+
+        <!-- Why His Work Matters Today Section -->
+        <section id="today">
+            <h2>Why His Work Matters Today</h2>
+
+            <p style="color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.8;">
+                We live in an era that has fractured into extremes. Either you believe in God's sovereignty and therefore become passive about evangelism, or you believe in human responsibility and therefore jettison the doctrine of election. Either you preach the gospel with intellectual precision but no passion, or you preach with passion but theological sloppiness. George Whitefield lived in the integration of these truths and shows us that such integration is not only possible but essential.
+            </p>
+
+            <div class="content-grid">
+                <div class="content-item">
+                    <h3>In an Age of Shallow Spirituality</h3>
+                    <p>
+                        Whitefield's insistence on the new birth—the radical, transformative work of the Spirit in the human soul—confronts our casual Christianity. He would not permit nominal faith. Neither should we. True conversion is not joining a club; it is being born again into a new reality by the power of God.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>In an Age of Institutional Skepticism</h3>
+                    <p>
+                        When established religion failed to speak truth, Whitefield went to the fields. Today, as institutional Christianity loses cultural authority, we need his example of improvisation and boldness. The gospel does not belong in buildings—it belongs in the marketplace, in the streets, wherever human beings gather. Whitefield shows us how to think outside institutional constraints without thinking outside biblical fidelity.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>In an Age of Theological Timidity</h3>
+                    <p>
+                        Whitefield spoke clearly about predestination, election, and sovereign grace in an era when these doctrines were unpopular. He did not soften them. He did not apologize for them. He articulated them as Scriptural. We live in an era when many Christians are ashamed of the doctrines of grace. Whitefield's unashamed proclamation is a rebuke and a call to courage.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>In an Age of Fragmentation</h3>
+                    <p>
+                        The Whitefield-Wesley friendship demonstrates that believers can disagree on significant doctrine while maintaining genuine love and mutual respect. In an era when disagreement so quickly becomes demonization, this is a vital witness. You can believe Whitefield was right on predestination and Wesley wrong, or vice versa—but you cannot watch their friendship without being convicted to higher standards of Christian charity.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>In an Age of False Dichotomies</h3>
+                    <p>
+                        Whitefield's life dissolves the false choice between theology and evangelism, head and heart, doctrine and passion, sovereignty and responsibility. He was all of these things at once. He shows us that maturity in Christ is not choosing one and abandoning the other; it is integrating them into a unified whole. He was a theologian who wept. A Calvinist who evangelized. A scholar who preached to fields. A sophist who loved the simple gospel.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>In an Age of Forgotten Convictions</h3>
+                    <p>
+                        Finally, Whitefield reminds us that conviction is not arrogance. Clarity is not unkindness. You can believe you are right and still treat those who disagree with grace. You can hold to election and still preach the gospel urgently. You can have a burning heart and a clear mind. Whitefield was all of these—a man who knew God's truth and spent himself so that others might know it too.
+                    </p>
+                </div>
+            </div>
+
+            <div class="scripture-block">
+                "For now we see only a reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known."<span class="scripture-ref">1 Corinthians 13:12 (NIV)</span>
+            </div>
+
+            <p style="color: var(--text-secondary); margin-top: 2rem; margin-bottom: 2rem; line-height: 1.8;">
+                George Whitefield did not live in the question of whether predestination is true—Scripture teaches it, and that settled the matter for him. He lived in the question of how a man surrendered to this truth proclaims it with tenderness and urgency. His life is an answer written across two continents and thirteen ocean crossings and tens of thousands of souls awakened to the reality of God. His answer is ours to learn.
+            </p>
+        </section>
+
+        <!-- Cross References -->
+        <div class="cross-ref">
+            <h4>Related Theologians &amp; Topics</h4>
+            <div class="cross-ref-links">
+                <a href="/theologians">All Theologians</a>
+                <a href="/theologian-spurgeon">Charles Spurgeon</a>
+                <a href="/theologian-jonathan-edwards">Jonathan Edwards</a>
+                <a href="/theologian-john-owen">John Owen</a>
+                <a href="/systematic-theology">Systematic Theology</a>
+                <a href="/scripture-tsunami">Scripture Tsunami</a>
+                <a href="/devotionals">Devotionals</a>
+            </div>
+        </div>
+
+        <div class="scripture-block">
+            "And as it is appointed unto men once to die, but after this the judgment: So Christ was once offered to bear the sins of many; and unto them that look for him shall he appear the second time without sin unto salvation."<span class="scripture-ref">Hebrews 9:27-28 (KJV)</span>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 <a href="/">Adopted by Grace</a> &mdash; Soli Deo Gloria</p>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">
+                <a href="/theologians">All Theologians</a> &middot;
+                <a href="/resources">Resources</a> &middot;
+                <a href="/about">About</a>
+            </p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="/global.js" defer></script>
+
+    <script>
+        // Mobile hamburger menu
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        const navTriggers = document.querySelectorAll('.nav-trigger');
+
+        if (hamburger) {
+            hamburger.addEventListener('click', () => {
+                const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+                hamburger.setAttribute('aria-expanded', !isExpanded);
+                navLinks.classList.toggle('active');
+            });
+        }
+
+        // Nav dropdown functionality
+        navTriggers.forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                e.preventDefault();
+                trigger.classList.toggle('active');
+            });
+        });
+
+        // Close mobile menu when a link is clicked
+        const allNavLinks = document.querySelectorAll('.nav-links a');
+        allNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        // Back to top button
+        const backToTopBtn = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
