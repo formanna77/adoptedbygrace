@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neuroscience reveals that conscious 'decisions' arrive after the brain has already committed. Libet experiments, default mode networks, and neural determinism confirm what Scripture teaches: apart from God, the will is not free.">
+    <meta property="og:title" content="The Neuroscience of Inability — Your Brain Decided Before 'You' Did">
+    <meta property="og:description" content="From Libet's experiments to fMRI prediction studies, neuroscience confirms human inability and the illusion of autonomous free will — exactly what Scripture has always taught.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/secular-neuroscience-human-inability">
+    <link rel="canonical" href="https://adoptedbygrace.net/secular-neuroscience-human-inability">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The Neuroscience of Inability — Your Brain Decided Before 'You' Did">
+    <meta name="twitter:description" content="Neuroscience confirms what Scripture teaches about human inability and the bondage of the will.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>The Neuroscience of Inability — Your Brain Decided Before You Did | Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Neuroscience of Inability — Your Brain Decided Before You Did",
+        "description": "Neuroscience reveals that conscious decisions arrive after the brain has already committed. Libet experiments, fMRI prediction, and neural determinism confirm what Scripture teaches about human inability.",
+        "url": "https://adoptedbygrace.net/secular-neuroscience-human-inability",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://adoptedbygrace.net/secular-neuroscience-human-inability"
+        }
+    }
+    </script>
+    <style>
+        .brain-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .brain-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-violet), var(--accent-ember));
+        }
+        .brain-card .neuro-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.68rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: var(--accent-violet);
+            margin-bottom: 0.5rem;
+        }
+        .brain-card h4 {
+            color: var(--text-primary);
+            margin-bottom: 0.8rem;
+            font-size: 1.15rem;
+        }
+        .brain-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.8;
+            margin-bottom: 0;
+        }
+        .brain-card .scripture-echo {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-subtle);
+            font-style: italic;
+            color: var(--accent-gold);
+            font-size: 0.9rem;
+        }
+        .timeline-ms {
+            display: flex;
+            align-items: stretch;
+            gap: 0;
+            margin: 2.5rem 0;
+            position: relative;
+        }
+        .timeline-ms::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-violet), var(--accent-ember), var(--accent-gold));
+            z-index: 0;
+        }
+        .ms-step {
+            flex: 1;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            padding: 0 0.5rem;
+        }
+        .ms-step .ms-dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: var(--accent-violet);
+            margin: 0 auto 0.8rem;
+            border: 3px solid var(--bg-deep);
+            box-shadow: 0 0 12px rgba(139, 92, 246, 0.4);
+        }
+        .ms-step:nth-child(2) .ms-dot { background: var(--accent-ember); box-shadow: 0 0 12px rgba(232, 100, 44, 0.4); }
+        .ms-step:nth-child(3) .ms-dot { background: var(--accent-gold); box-shadow: 0 0 12px rgba(212, 162, 84, 0.4); }
+        .ms-step .ms-time {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            display: block;
+        }
+        .ms-step .ms-desc {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.3rem;
+            line-height: 1.5;
+        }
+        .stat-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .stat-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        .stat-box .stat-num {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .stat-box .stat-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.3rem;
+        }
+        .humor-aside {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            text-align: center;
+            margin: 1.5rem 0;
+            letter-spacing: 0.02em;
+        }
+        @media (max-width: 600px) {
+            .timeline-ms { flex-direction: column; gap: 1.5rem; }
+            .timeline-ms::after { display: none; }
+            .stat-row { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="progress-bar"></div>
+
+<nav role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+        <a href="/" class="logo">ADOPTED BY GRACE</a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/start-here">Start Here</a></li>
+            <li><a href="/questions">The Evidence</a></li>
+            <li><a href="/systematic-theology-hub">Systematic</a></li>
+            <li><a href="/demolition-hub">Demolition</a></li>
+            <li><a href="/theologians">Theologians</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+<article>
+
+<div class="page-hero">
+    <span class="label-violet">Secular Evidence &mdash; Neuroscience</span>
+    <h1>Your Brain Decided<br><span class="text-gradient-violet">Before &ldquo;You&rdquo; Did</span></h1>
+    <p class="subtitle">How neuroscience dismantled the myth of autonomous free will &mdash; and accidentally confirmed what Scripture always taught about human inability</p>
+</div>
+
+<section class="content-section reveal">
+    <p class="drop-cap">In 1983, a neurophysiologist named Benjamin Libet ran an experiment that should have ended every theological debate about libertarian free will. He didn't intend to confirm Scripture. He was simply measuring electrical activity in the brain. What he found shook the foundations of secular philosophy &mdash; and handed Reformed theology one of its most powerful pieces of external confirmation.</p>
+
+    <p>Here is the uncomfortable finding that secular neuroscience has been wrestling with for four decades: <strong>your brain commits to a &ldquo;decision&rdquo; before your conscious mind is aware of making one.</strong> The feeling of choosing? It arrives after the fact. The conscious experience of willing something into existence? A narrative your brain constructs to make sense of what it already did.</p>
+
+    <p>For the person who insists that humans possess an autonomous, self-originating will &mdash; one capable of independently choosing or rejecting God &mdash; modern neuroscience is not a friend. It is an avalanche.</p>
+
+    <p class="humor-aside">[ Spoiler: The readiness potential doesn't care about your theology. ]</p>
+</section>
+
+<section class="content-section reveal">
+    <h2>The Libet Experiment: 550 Milliseconds That Changed Everything</h2>
+
+    <p>Libet asked subjects to perform a simple task: flick their wrist whenever they felt like it, and note the exact moment they became conscious of the urge to move. Meanwhile, EEG electrodes tracked their brain activity.</p>
+
+    <p>The results were staggering.</p>
+
+    <div class="timeline-ms">
+        <div class="ms-step">
+            <div class="ms-dot"></div>
+            <span class="ms-time">&minus;550ms</span>
+            <span class="ms-desc">Brain begins &ldquo;readiness potential&rdquo; &mdash; neural commitment to action</span>
+        </div>
+        <div class="ms-step">
+            <div class="ms-dot"></div>
+            <span class="ms-time">&minus;200ms</span>
+            <span class="ms-desc">Subject becomes <em>conscious</em> of the &ldquo;decision&rdquo; to move</span>
+        </div>
+        <div class="ms-step">
+            <div class="ms-dot"></div>
+            <span class="ms-time">0ms</span>
+            <span class="ms-desc">Wrist actually moves</span>
+        </div>
+    </div>
+
+    <p>The brain had been preparing the action for over <strong>half a second</strong> before the subject was aware of &ldquo;deciding&rdquo; anything. The conscious sense of willing the action was not the cause &mdash; it was the afterglow.</p>
+
+    <div class="callout callout-gold">
+        <strong>Let this sink in:</strong> The part of you that says &ldquo;I chose that&rdquo; doesn't arrive until the machinery has already been set in motion. Consciousness doesn't initiate action &mdash; it <em>narrates</em> it.
+    </div>
+
+    <p>Libet himself was troubled by his own data. He spent the rest of his career trying to rescue free will by proposing a &ldquo;veto power&rdquo; &mdash; the idea that even though you don't start the process, you can stop it. But subsequent research has undermined even this escape hatch.</p>
+
+    <blockquote>
+        &ldquo;The heart is deceitful above all things, and desperately sick; who can understand it?&rdquo;<br>
+        <span class="sc">&mdash; Jeremiah 17:9</span>
+    </blockquote>
+
+    <p>Scripture never told us the problem was a <em>lack of information</em>. It told us the problem was the <em>nature of the heart itself</em>. Neuroscience simply visualized what the prophet saw: a decision-making apparatus that operates beneath and before conscious awareness, driven by forces the conscious mind neither initiates nor fully comprehends.</p>
+</section>
+
+<section class="content-section reveal">
+    <h2>The fMRI Prediction Studies: Up to 10 Seconds in Advance</h2>
+
+    <p>If Libet's half-second gap was unsettling, what came next was devastating.</p>
+
+    <p>In 2008, researchers at the Max Planck Institute (Soon, Brass, Heinze &amp; Haynes) used fMRI imaging to decode brain activity patterns. They found that a subject's &ldquo;free&rdquo; choice between pressing a left or right button could be predicted from brain activity <strong>up to 10 seconds before the subject was conscious of having decided.</strong></p>
+
+    <div class="stat-row">
+        <div class="stat-box">
+            <div class="stat-num">10s</div>
+            <div class="stat-label">Brain activity predicts choice before conscious awareness</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-num">60%</div>
+            <div class="stat-label">Prediction accuracy (vs. 50% chance) &mdash; and improving with better tools</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-num">0ms</div>
+            <div class="stat-label">The moment you think you &ldquo;decided&rdquo; &mdash; the last to know</div>
+        </div>
+    </div>
+
+    <p>Ten seconds. In brain time, that is an eternity. The neural patterns that will produce your &ldquo;choice&rdquo; are building, cascading, resolving &mdash; all while you sit there believing nothing has happened yet. Then the conscious experience of deciding arrives, and you congratulate yourself on your autonomy.</p>
+
+    <div class="brain-card">
+        <div class="neuro-label">What the Data Shows</div>
+        <h4>The Conscious Self Is a Reporter, Not a Commander</h4>
+        <p>Across hundreds of studies and multiple imaging techniques (EEG, fMRI, single-neuron recording), the pattern is consistent: neural activity preceding a &ldquo;voluntary&rdquo; decision begins before conscious awareness of that decision. The conscious self does not stand outside the causal chain and intervene &mdash; it is part of the chain, and not at the front of it.</p>
+        <div class="scripture-echo">Scripture teaches: &ldquo;It is God who works in you, both to will and to work for his good pleasure.&rdquo; &mdash; Philippians 2:13</div>
+    </div>
+
+    <p class="humor-aside">[ Your brain: &ldquo;Already handled it.&rdquo; Your conscious mind: &ldquo;I have decided!&rdquo; Your brain: &ldquo;...Sure you did.&rdquo; ]</p>
+</section>
+
+<section class="content-section reveal">
+    <h2>The Default Mode Network: Who&rsquo;s Running the Show?</h2>
+
+    <p>Neuroscience has identified a network of brain regions &mdash; the Default Mode Network (DMN) &mdash; that is active when you are not consciously focused on any task. Far from being idle, the DMN is performing critical operations: consolidating memories, running social simulations, constructing your sense of self, and &mdash; critically &mdash; preparing future actions.</p>
+
+    <p>The DMN is where your desires form before you are aware of desiring. It is the neural substrate of what theologians have always called the <em>inclinations of the heart</em>.</p>
+
+    <div class="brain-card">
+        <div class="neuro-label">Default Mode Network</div>
+        <h4>The Heart Beneath the Heart</h4>
+        <p>The DMN generates spontaneous thought, mind-wandering, and self-referential processing. Your desires, preferences, and inclinations are being shaped and reinforced in neural circuits that operate without conscious oversight. By the time a desire surfaces into awareness, it has already been processed, weighted, and prioritized by systems you did not consciously control.</p>
+        <div class="scripture-echo">&ldquo;For out of the heart come evil thoughts, murder, adultery, sexual immorality, theft, false witness, slander.&rdquo; &mdash; Matthew 15:19</div>
+    </div>
+
+    <p>Jesus did not say &ldquo;out of the <em>conscious deliberation</em> come evil thoughts.&rdquo; He said out of the <em>heart</em>. The heart &mdash; the deep wellspring of desire, inclination, and nature &mdash; is precisely what neuroscience has now mapped as the subconscious and default-mode processing systems. They run beneath conscious control. They shape what we want before we know we want it.</p>
+
+    <blockquote>
+        &ldquo;Can the Ethiopian change his skin or the leopard its spots? Neither can you do good who are accustomed to doing evil.&rdquo;<br>
+        <span class="sc">&mdash; Jeremiah 13:23</span>
+    </blockquote>
+
+    <p>The prophet's question is rhetorical because the answer is neurologically obvious: you cannot override your own nature by an act of will. The will <em>is</em> the nature. It doesn't stand above the nature and evaluate it from some neutral perch. Modern neuroscience confirms this with embarrassing precision.</p>
+</section>
+
+<section class="content-section reveal">
+    <h2>Addiction Neuroscience: The Will in Chains</h2>
+
+    <p>If you want to see human inability in high definition, study addiction. Decades of neuroscience have shown that addiction fundamentally rewires the brain's reward circuitry. The prefrontal cortex &mdash; the region responsible for &ldquo;rational&rdquo; decision-making and impulse control &mdash; is physically diminished in addicts. The dopaminergic system hijacks wanting, making the drug feel like a survival need.</p>
+
+    <div class="stat-row">
+        <div class="stat-box">
+            <div class="stat-num">40&ndash;60%</div>
+            <div class="stat-label">Relapse rate for substance addiction &mdash; comparable to diabetes and hypertension relapse</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-num">~50%</div>
+            <div class="stat-label">Heritability of addiction vulnerability &mdash; you didn't choose your neurochemistry</div>
+        </div>
+    </div>
+
+    <p>The addict who says &ldquo;I want to stop but I can't&rdquo; is not making excuses. They are describing a neurological reality. The will is not an uncaused cause floating above the brain. It <em>is</em> the brain. And when the brain is enslaved, the will is enslaved.</p>
+
+    <div class="callout callout-violet">
+        <strong>The theological parallel is exact.</strong> Paul writes: &ldquo;I do not do the good I want to do, but the evil I do not want to do &mdash; this I keep on doing&rdquo; (Romans 7:19). Addiction research has confirmed this pattern as a universal feature of the human condition, not merely a spiritual metaphor. The will, apart from an outside intervention, cannot free itself. It needs to be <em>liberated</em> &mdash; by something outside its own power.
+    </div>
+
+    <p>Every addiction treatment program that works acknowledges a version of this. The Twelve Steps begin with &ldquo;We admitted we were powerless.&rdquo; Secular neuroscience arrived at Step One. Scripture starts there too.</p>
+
+    <blockquote>
+        &ldquo;Jesus answered them, &lsquo;Truly, truly, I say to you, everyone who practices sin is a slave to sin. The slave does not remain in the house forever; the son remains forever. So if the Son sets you free, you will be free indeed.&rsquo;&rdquo;<br>
+        <span class="sc">&mdash; John 8:34&ndash;36</span>
+    </blockquote>
+</section>
+
+<section class="content-section reveal">
+    <h2>Consciousness Itself: The Hard Problem</h2>
+
+    <p>Secular neuroscience faces what philosopher David Chalmers calls &ldquo;the hard problem of consciousness&rdquo; &mdash; the question of why and how subjective experience arises from physical processes. After decades of research, no one can explain <em>why</em> neural activity produces the feeling of being someone.</p>
+
+    <p>This is theologically significant for a reason that most neuroscientists don't recognize: if consciousness cannot be explained by the physical system alone, then the materialist account of human autonomy collapses at its foundation. You cannot have an autonomous will arising from a system whose most basic feature &mdash; awareness itself &mdash; remains unexplained by that system.</p>
+
+    <div class="brain-card">
+        <div class="neuro-label">The Hard Problem</div>
+        <h4>Consciousness Points Beyond Itself</h4>
+        <p>The fact that consciousness exists at all &mdash; that there is &ldquo;something it is like&rdquo; to be you &mdash; is a feature that physical descriptions of neural activity cannot account for. Neuroscience can map every synapse, trace every circuit, predict every behavior &mdash; and still not explain why any of it feels like anything. The self that claims autonomy cannot even account for its own existence.</p>
+        <div class="scripture-echo">&ldquo;In him we live and move and have our being.&rdquo; &mdash; Acts 17:28</div>
+    </div>
+
+    <p>Paul, quoting a pagan poet to a secular audience in Athens, identified the truth that neuroscience keeps bumping into: we do not exist independently. Our very being &mdash; our consciousness, our capacity for thought, our sense of self &mdash; is sustained by something outside us. The apostle said it was God. Neuroscience has not offered a competing explanation. It has only confirmed that the materialist one doesn't work.</p>
+</section>
+
+<section class="content-section reveal">
+    <h2>What Neuroscience Cannot Do &mdash; And What Only Grace Can</h2>
+
+    <p>Let us be clear about what neuroscience has demonstrated:</p>
+
+    <div class="brain-card">
+        <div class="neuro-label">The Neural Evidence</div>
+        <h4>Five Findings That Confirm Human Inability</h4>
+        <p><strong>1. Decisions begin unconsciously.</strong> The readiness potential precedes conscious awareness by hundreds of milliseconds to seconds. You do not originate your choices from a neutral, uncaused vantage point.</p>
+        <p style="margin-top: 1rem;"><strong>2. Brain states predict &ldquo;free&rdquo; choices.</strong> Neural patterns up to 10 seconds before conscious awareness can predict which option a person will &ldquo;choose.&rdquo; The choice is downstream of prior neural causes.</p>
+        <p style="margin-top: 1rem;"><strong>3. The default mode network shapes desires beneath awareness.</strong> Your wants, preferences, and inclinations are formed in systems that operate without conscious oversight.</p>
+        <p style="margin-top: 1rem;"><strong>4. Addiction demonstrates the will's bondage.</strong> When neural circuitry is captured, no amount of &ldquo;choosing differently&rdquo; can override it. The will is not sovereign over the brain &mdash; it is a product of the brain.</p>
+        <p style="margin-top: 1rem;"><strong>5. Consciousness itself is unexplained.</strong> The self that claims autonomy cannot even account for its own existence, let alone its supposed independence.</p>
+    </div>
+
+    <p>None of this was news to Scripture. The Bible never described the unregenerate will as free. It described it as dead (Ephesians 2:1), enslaved (John 8:34), hostile to God (Romans 8:7), unable to submit to God's law (Romans 8:7&ndash;8), and incapable of coming to Christ apart from the Father's drawing (John 6:44).</p>
+
+    <p>Neuroscience has spent four decades and billions of dollars arriving at the same conclusion Moses, Jeremiah, Jesus, and Paul articulated millennia ago: <strong>the human will is not an uncaused cause. It is shaped by nature, constrained by prior states, and incapable of transcending itself.</strong></p>
+
+    <div class="callout callout-gold">
+        <strong>And this is precisely why grace is so glorious.</strong> If the will could free itself, grace would be unnecessary. If consciousness could bootstrap its own transformation, the cross would be a suggestion, not a rescue. Neuroscience has confirmed what the doctrines of grace have always proclaimed: salvation must come from outside the system. It must be a sovereign act of God upon the heart &mdash; not an autonomous act of the heart upon itself.
+    </div>
+
+    <blockquote>
+        &ldquo;I will give you a new heart, and a new spirit I will put within you. And I will remove the heart of stone from your flesh and give you a heart of flesh.&rdquo;<br>
+        <span class="sc">&mdash; Ezekiel 36:26</span>
+    </blockquote>
+
+    <p>God does not ask the stone heart to soften itself. He replaces it. He does not ask dead neurons to fire differently. He gives new life. That is what regeneration is &mdash; and it is the only thing that could possibly work, given what neuroscience now knows about the machinery of human decision-making.</p>
+
+    <p class="humor-aside">[ Neuroscience: &ldquo;The will can't free itself.&rdquo; Scripture: &ldquo;We&rsquo;ve been saying that for 3,000 years.&rdquo; Neuroscience: &ldquo;Well, now we have fMRI.&rdquo; ]</p>
+</section>
+
+<!-- Continue Your Journey -->
+<section class="content-section reveal" style="background: linear-gradient(135deg, rgba(139,92,246,0.05), rgba(212,162,84,0.05)); border-radius: 16px; padding: 3rem 2rem; margin-top: 3rem;">
+    <h3 style="text-align:center; margin-bottom: 2rem;">Continue the Evidence</h3>
+    <div class="card-grid">
+        <a href="/secular-psychology-bondage-of-will" class="card">
+            <span class="label-violet">Psychology</span>
+            <h4>The Psychology of Bondage</h4>
+            <p>Cognitive bias, addiction research, and decision-making studies confirm total depravity.</p>
+        </a>
+        <a href="/secular-philosophy-free-will" class="card">
+            <span class="label-gold">Philosophy</span>
+            <h4>The Philosophy of the Unfree Will</h4>
+            <p>2,500 years of secular philosophy building the case for compatibilism.</p>
+        </a>
+        <a href="/secular-economics-depravity" class="card">
+            <span class="label-ember">Economics</span>
+            <h4>The Economics of Depravity</h4>
+            <p>How incentive structures, game theory, and market failures reveal the total corruption of human nature.</p>
+        </a>
+    </div>
+</section>
+
+</article>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section"><h4>Doctrine</h4><ul>
+            <li><a href="/questions">The Evidence</a></li>
+            <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+            <li><a href="/demolition-hub">Demolition Zone</a></li>
+            <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+        </ul></div>
+        <div class="footer-section"><h4>Explore</h4><ul>
+            <li><a href="/start-here">Start Here</a></li>
+            <li><a href="/theologians">Theologians</a></li>
+            <li><a href="/devotionals">Devotionals</a></li>
+            <li><a href="/resources">Resources</a></li>
+        </ul></div>
+        <div class="footer-section"><h4>Connect</h4><ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+        </ul></div>
+    </div>
+    <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">&uarr;</button>
+<script src="/global.js" defer></script>
+</body>
+</html>
