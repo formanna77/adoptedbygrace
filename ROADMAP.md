@@ -107,6 +107,8 @@
 - `devotional-weakness-of-gods-strength.html` — **NEW** "The Weakness of God's Strength" — Sovereignty in suffering (2 Cor 12:9)
 - `question-2tim1-9.html` — **NEW** 2 Timothy 1:9 deep-dive: "Not Because of Our Works" — grace given before the ages began
 - `question-titus3.html` — **NEW** Titus 3:3-7 deep-dive: "Not Because of Works Done by Us" — the gospel in miniature
+- `question-1peter1.html` — **NEW** 1 Peter 1:1-2 deep-dive: "Elect Exiles According to the Foreknowledge of God" — Trinitarian election, foreknowledge as fore-love
+- `question-revelation13.html` — **NEW** Revelation 13:8 & 17:8 deep-dive: "Names Written Before the Foundation of the World" — Book of Life and eternal decree
 
 ### Design System
 - Dark dramatic aesthetic (#0a0a0f bg, gold/ember/violet accents)
@@ -134,8 +136,8 @@
 - [x] **Perseverance of the Saints** — John 10:28-29, Rom 8:35-39, Phil 1:6. Eternal security grounded in God's character. → `question-perseverance.html`
 - [x] **2 Timothy 1:9 page** — "saved us...not because of our works but because of his own purpose and grace" → `question-2tim1-9.html` ✅ (2026-03-28 Content Builder)
 - [x] **Titus 3:3-7 page** — "not because of works done by us in righteousness" → `question-titus3.html` ✅ (2026-03-28 Content Builder)
-- [ ] **1 Peter 1:1-2 page** — "elect exiles...according to the foreknowledge of God"
-- [ ] **Revelation 13:8 / 17:8 page** — "names written before the foundation of the world"
+- [x] **1 Peter 1:1-2 page** — "elect exiles...according to the foreknowledge of God" → `question-1peter1.html` ✅ (2026-03-28 Content Builder)
+- [x] **Revelation 13:8 / 17:8 page** — "names written before the foundation of the world" → `question-revelation13.html` ✅ (2026-03-28 Content Builder)
 
 ### Priority 2 — Old Testament Election
 - [x] **OT Election Hub** — `ot-election.html` — Hub page linking all OT election character studies ✅ (2026-03-27 OT Election Session)
@@ -226,6 +228,41 @@
 - [ ] **"Morning Mercies"** — Lamentations 3:22-23 devotional on daily grace
 - [ ] **"The Narrow Door"** — Matthew 7:13-14 meditation on election and the few
 
+### Priority 8 — Visionary Session Ideas (2026-03-28)
+
+#### 🔥 TOP 5 — Build Next
+- [ ] **"What the Bible Says You Cannot Do" (The CANNOT Page)** — Every verse where Scripture says humans CANNOT do something spiritual: cannot come (John 6:44), cannot see (John 3:3), cannot understand (1 Cor 2:14), cannot submit (Rom 8:7), cannot please God (Rom 8:8), cannot bear fruit (John 15:4-5), cannot say "Jesus is Lord" (1 Cor 12:3). The Bible's own testimony on human inability, devastating and unique. → `question-cannot.html`
+- [ ] **John 17 — "The Prayer That Proves Election"** — The High Priestly Prayer: Jesus prays for those the Father GAVE Him (17:2, 6, 9, 24). He says "I am NOT praying for the world" (17:9). The most intimate window into Trinitarian election. Emotionally powerful + exegetically devastating. → `question-john17.html`
+- [ ] **Ezekiel 37 — "Dead Bones Don't Volunteer"** — Valley of Dry Bones: the most vivid picture of regeneration in all of Scripture. Bones don't choose to live. God commands the Spirit and the dead live. Pair with new SVG illustration. → `question-ezekiel37.html`
+- [ ] **Hymn Analysis: "Sovereign Grace in Song"** — Starting with "Amazing Grace" showing it's Reformed confession from start to finish. Then "A Mighty Fortress," "And Can It Be" (even Wesley!), "Come Thou Fount." Viral content — people share music analysis. Reaches people who'd never read theology. → `hymns.html` + individual hymn pages
+- [ ] **"Choose Your Objection" Interactive Experience** — Branching guided path: "What's your biggest concern about God's sovereignty?" → personalized journey through Scripture. Nothing like it exists on any Reformed website. → `choose-your-objection.html`
+
+#### New Passage Pages (from Vision)
+- [ ] **Isaiah 53 — "The Servant Who Bore the Sins of Many"** — "It was the WILL of the LORD to crush him" (v.10). "Make MANY to be accounted righteous" (v.11). OT foundation of definite atonement. → `question-isaiah53.html`
+- [ ] **Matthew 13:10-17 — "Why Jesus Spoke in Parables"** — Jesus says "To you it has been GIVEN to know... but to them it has NOT been given." God deliberately conceals truth from some. → `question-parables.html`
+- [ ] **Psalm 139 — "Known Before You Were Known"** — "In your book were written, every one of them, the days that were formed for me" (v.16). Predestination in the Psalms. → `question-psalm139.html`
+- [ ] **Romans 11:33-36 — "The Doxology of Sovereignty"** — After election, hardening, and remnant — Paul doesn't apologize, he WORSHIPS. The proper response to sovereignty is awe. → `question-doxology.html`
+- [ ] **1 John 5:1 — "The Verse That Settles the Order"** — Perfect tense γεγεννημένος proves new birth PRECEDES faith. Single most devastating verse for Arminian ordo salutis. → `question-1john5-1.html`
+- [ ] **Acts 4:27-28 — "The Cross Was Predestined"** — The most evil act in history was predestined by God, carried out by free human agents. Compatibilism at its most breathtaking. → `question-acts4.html`
+- [ ] **Hebrews 12:2 — "Jesus: Author and Perfecter of Our Faith"** — Faith has an AUTHOR (ἀρχηγόν) and a PERFECTER (τελειωτήν). You are not the origin of your own belief. → `question-hebrews12-2.html`
+
+#### Book-of-the-Bible Walkthrough Series (from Vision — THE BIG IDEA)
+- [ ] **"Romans: The Sovereignty Manifesto"** — Multi-page series walking through ALL 16 chapters showing Romans as one sustained argument for sovereign grace. → `romans-walkthrough.html` hub + chapter pages
+- [ ] **"John's Gospel: The Gospel of Election"** — Walk through John's Gospel chapter by chapter showing sovereignty on nearly every page. → `john-walkthrough.html` hub + chapter pages
+- [ ] **"Ephesians: The Cathedral of Grace"** — All 6 chapters dripping with sovereign grace. → `ephesians-walkthrough.html` hub + chapter pages
+- [ ] **"Genesis: The Book of God's Choosing"** — From creation to Joseph, every narrative is about God choosing. → `genesis-walkthrough.html` hub + chapter pages
+
+#### Interactive & Experience Pages (from Vision)
+- [ ] **"The Courtroom" — Put Election on Trial** — Multi-page interactive: reader is jury, prosecution presents objections, defense presents Scripture, reader votes after each witness. → `courtroom.html`
+- [ ] **Audience Landing Pages** — `/for-skeptics`, `/for-pastors`, `/for-parents`, `/for-new-believers`, `/for-students`
+- [ ] **Personal Reading Plans** — 7-day, 14-day, 4-week options for different audiences and levels
+- [ ] **Testimony Wall** — Moderated testimonies of how understanding sovereign grace changed lives
+- [ ] **Visual Theology Gallery** — Showcase all SVG diagrams plus new infographics
+
+#### Theological Deep Cuts (from Vision)
+- [ ] **The Pactum Salutis (Covenant of Redemption)** — The eternal intra-Trinitarian agreement to save the elect. The deepest, most neglected doctrine. → `systematic-pactum-salutis.html`
+- [ ] **Isaiah 6:9-10 — The Commissioning of Concealment** — God sends Isaiah to make hearts dull. Jesus quotes it in Matt 13. God actively conceals truth. → integrate into parables page or standalone
+
 ---
 
 ## Refinement Backlog (Refiner Sessions)
@@ -273,12 +310,12 @@
 - [ ] Minify HTML/CSS for production
 - [x] Add preconnect hints for Google Fonts ✅ (2026-03-27 Architect) — now on all 80 pages
 - [x] Optimize font loading with `font-display: swap` ✅ (verified 2026-03-27 — all 39 pages already had display=swap)
-- [ ] Add lazy loading for any below-fold content
+- [x] Add lazy loading for any below-fold content ✅ (verified 2026-03-28 Architect) — all 9 images across site already have loading="lazy"
 
 ### Accessibility
 - [x] Add skip-to-content links on every page ✅ (2026-03-27 Architect) — all 80 pages now have skip-link + main-content anchors
 - [x] Ensure all interactive elements have focus styles ✅ (2026-03-27 Architect Session 2) — `*:focus-visible` with gold outline on all 80 pages
-- [ ] Verify color contrast meets WCAG AA standards
+- [x] Verify color contrast meets WCAG AA standards ✅ (2026-03-28 Architect) — text-muted upgraded from #5a5650 (2.7:1) to #807b75 (4.7:1) across 123 files. All text/bg combos now pass AA.
 - [x] Add ARIA labels where appropriate ✅ (2026-03-27 Architect Session 2) — `role="navigation"` + `aria-label` on all nav, hamburger, back-to-top, reading progress, share buttons
 - [ ] Test keyboard navigation on all pages
 
@@ -286,7 +323,7 @@
 - [x] Add a "Back to Top" button on long pages ✅ (2026-03-27 Architect Session 2) — all 80 pages, fixed-position with scroll visibility toggle
 - [x] Add reading progress indicator on question pages ✅ (2026-03-27 Architect Session 2) — 50+ content pages with gradient gold-to-ember progress bar
 - [x] Improve mobile navigation (hamburger menu) ✅ (2026-03-27 Architect Session 2) — responsive hamburger on all 80 pages, animated toggle, 768px breakpoint
-- [ ] Add page transition animations
+- [x] Add page transition animations ✅ (2026-03-28 Architect) — CSS fade-in on load + IntersectionObserver scroll-reveal on all 142 pages via global.css/global.js
 - [x] Add a search feature (client-side, no server needed) ✅ (2026-03-27 Interactive Features) — `search.html` with full-text search across 60+ pages, category filters, popular search tags, URL param support
 - [x] Create a 404 page with helpful navigation ✅ (2026-03-27 Architect Session 2) — "This Page Has Not Been Predestined" with 4 help cards, Jeremiah 29:11
 - [x] Add breadcrumb navigation on deep pages ✅ (2026-03-27 UX Architect) — 50 child pages now have "← Back to [Hub]" breadcrumbs
@@ -332,6 +369,43 @@
 ---
 
 ## Session Log
+
+### 2026-03-28 — Content Builder: Two New Core Doctrine Pages + Cross-References
+- **SCOPE:** Built two Priority 1 doctrine pages from the backlog — the last two remaining in that tier
+- **PAGES BUILT:**
+  - `question-1peter1.html` — **1 Peter 1:1-2: Elect Exiles According to the Foreknowledge of God** (1753 lines)
+    - 6 Greek word studies, 7 arguments, 6 objections answered, 4 theologian quotes
+    - Critical page: definitively addresses the most common Arminian appeal to "foreknowledge = foresight"
+  - `question-revelation13.html` — **Revelation 13:8 & 17:8: Names Written Before the Foundation of the World** (1520 lines)
+    - 5 Greek word studies, 7 arguments, 6 objections answered, 3 theologian quotes
+- **HUB UPDATED:** questions.html now lists 24 question deep-dives (was 22)
+- **CROSS-REFERENCES ADDED:** 8 new cross-links across existing pages (foreknowledge, chosen, 2tim1-9, goldchain, perseverance, romans9, divine-decrees)
+- **PRIORITY 1 CORE DOCTRINE: NOW 100% COMPLETE** — All 9 items checked off
+
+### 2026-03-28 — Architect Session 3: Critical SEO Overhaul + WCAG + Animations (142 pages)
+- **SCOPE:** Addressed all 5 priority SEO fixes from Growth Deployment audit plus accessibility and animation improvements
+- **DUPLICATE SUBDIRECTORY REMOVED:** Deleted `/adoptedbygracewebsite/` nested directory (30+ stale duplicate files causing SEO duplicate content penalties)
+- **og:image ADDED TO ALL PAGES (140/142):** 118 pages were missing og:image — now all have `og-image.png`. 10 pages had inconsistent custom URLs — standardized. Created `og-image.png` social card (1200×630). Added `twitter:image` to all pages.
+- **SITEMAP.XML REBUILT:** Complete rebuild with 141 entries (was 69.4% → now 99.3%). Proper priority tiers and changefreq.
+- **CANONICAL URLs ADDED (15 pages):** demolition-arianism, devotional-cold-church, devotionals, donate, explore-map, 7 history pages, psalms-election, theologian-arminius
+- **JSON-LD STRUCTURED DATA ADDED (17 pages):** Coverage now 100% (was 76.9%). Article, CollectionPage, WebPage types applied.
+- **WCAG AA COLOR CONTRAST FIXED:** `--text-muted` upgraded from `#5a5650` (2.7:1 FAIL) to `#807b75` (4.7:1 PASS) across 123 files.
+- **PAGE TRANSITION ANIMATIONS ADDED:** CSS fade-in + IntersectionObserver scroll-reveal on all 142 pages via global.css/global.js.
+- **LAZY LOADING VERIFIED:** All 9 images already had `loading="lazy"` — no changes needed.
+- **NEW PAGE TREATED:** `question-revelation13.html` — muted color fixed, added to sitemap.
+- **SEO SCORECARD:** og:image 23%→100%, Canonical 93%→100%, JSON-LD 77%→100%, Sitemap 69%→99%, Duplicates ELIMINATED, WCAG contrast PASS
+
+### 2026-03-28 — Visionary Session: Deep Creative Exploration & Strategic Planning
+- **SCOPE:** Full creative audit of 140-page site. Read ROADMAP, THEOLOGICAL-ARSENAL, and 4 live pages deeply (Romans 9, freedom, surgeon-stone-heart, connections). Assessed strengths, gaps, and opportunities.
+- **VISION.md CREATED** — Comprehensive vision document with 5 categories:
+  - **Category A (New Content):** Book-of-the-Bible walkthroughs (Romans, John, Ephesians, Genesis), 10+ new passage pages (John 17, Ezekiel 37, Isaiah 53, Matthew 13, Psalm 139, Romans 11 doxology, 1 John 5:1, Acts 4:27-28), hymn analysis series, poetry collection, "Ask the Reformers" Q&A
+  - **Category B (Metaphors):** 8 new creative metaphors — Concert Hall (regeneration as hearing), Rescue Diver, Parent & Cliff, DNA of the Soul, Gallery of Mirrors, Fish-in-a-Bowl expanded, Adoption Papers Filed Before Birth, Love Letter Written in Blood
+  - **Category C (Design/UX):** "The Courtroom" interactive trial, audience-specific landing pages (skeptics/pastors/parents/students/new believers), personal reading plans, audio readings, shareable verse cards, Substack integration, testimony wall
+  - **Category D (Deep Cuts):** Greek middle voice of election, aorist of glorification, perfect tense of 1 John 5:1, three Hebrew hardening words, helkō word study, Pactum Salutis, Isaiah 6:9-10 commissioning of concealment, argument from prayer, argument from worship, creation-regeneration parallel
+  - **Category E (Strategy):** SEO for every major objection search query, shareable content types ranked, partnership strategy with Reformed churches/seminaries, moonshot criteria for #1 resource status
+- **TOP 5 IDEAS IDENTIFIED:** (1) "The CANNOT Page" — human inability from Scripture's own mouth, (2) John 17 — "The Prayer That Proves Election," (3) Hymn Analysis — "Sovereign Grace in Song," (4) "Choose Your Objection" interactive branching experience, (5) Ezekiel 37 — "Dead Bones Don't Volunteer"
+- **ROADMAP UPDATED** — Added Priority 8 section with 25+ new backlog items across 5 sub-categories: Top 5 builds, new passage pages, book walkthroughs, interactive experiences, theological deep cuts
+- **KEY INSIGHT:** The site's biggest gap is STORIES and INTERACTIVE EXPERIENCES. The doctrinal/exegetical foundation is world-class (140 pages). What's needed now is content that bypasses intellectual defenses — narrative, metaphor, hymn, interaction — and content optimized for specific audiences rather than one-size-fits-all entry.
 
 ### 2026-03-28 — Cross-Reference Linker: Comprehensive Internal Linking (132 pages)
 - **SCOPE:** Full cross-reference optimization across entire site — audit, link creation, verification
