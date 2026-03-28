@@ -1,0 +1,1826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Finder — Adopted by Grace</title>
+    <meta name="description" content="Find the perfect books, sermons, podcasts, and study materials to deepen your understanding of God's sovereignty in salvation. Choose your level and interests.">
+    <meta property="og:title" content="Resource Finder — Adopted by Grace">
+    <meta property="og:description" content="Discover curated theology resources matched to your learning level and interests.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/resource-finder">
+    <meta name="canonical" href="https://adoptedbygrace.net/resource-finder">
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        /* Resource Finder Specific Styles */
+        .resource-finder-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .finder-hero {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .finder-hero h1 {
+            font-family: "Playfair Display", serif;
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .finder-hero p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto 1rem;
+        }
+
+        .finder-subtitle {
+            color: var(--accent-gold);
+            font-style: italic;
+            font-size: 0.95rem;
+        }
+
+        /* Progress Indicator */
+        .progress-indicator {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+            gap: 1rem;
+        }
+
+        .progress-step {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            background-color: var(--bg-card);
+            color: var(--text-muted);
+            border: 2px solid var(--border-subtle);
+            font-family: "JetBrains Mono", monospace;
+        }
+
+        .progress-step.active {
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border-color: var(--accent-gold);
+        }
+
+        .progress-step.completed {
+            background-color: var(--accent-violet);
+            color: var(--text-primary);
+            border-color: var(--accent-violet);
+        }
+
+        .progress-line {
+            flex: 1;
+            height: 2px;
+            background-color: var(--border-subtle);
+            max-width: 60px;
+        }
+
+        /* Step Container */
+        .step-container {
+            display: none;
+            animation: fadeIn 0.4s ease-in-out;
+        }
+
+        .step-container.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .step-title {
+            font-family: "Playfair Display", serif;
+            font-size: 1.8rem;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        /* Level Selection Grid */
+        .level-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .level-card {
+            background-color: var(--bg-card);
+            border: 2px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .level-card:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-4px);
+        }
+
+        .level-card.selected {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-violet);
+            box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+        }
+
+        .level-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .level-card h3 {
+            font-family: "Inter", sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .level-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        /* Interest Selection Grid */
+        .interest-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .interest-checkbox-wrapper {
+            position: relative;
+        }
+
+        .interest-checkbox {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .interest-label {
+            display: block;
+            background-color: var(--bg-card);
+            border: 2px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            color: var(--text-primary);
+            user-select: none;
+        }
+
+        .interest-checkbox:checked + .interest-label {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+            font-weight: 600;
+            box-shadow: 0 0 15px rgba(212, 162, 84, 0.2);
+        }
+
+        .interest-label:hover {
+            border-color: var(--accent-gold);
+            background-color: var(--bg-card-hover);
+        }
+
+        /* Format Selection Grid */
+        .format-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .format-checkbox-wrapper {
+            position: relative;
+        }
+
+        .format-checkbox {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .format-label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--bg-card);
+            border: 2px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            color: var(--text-primary);
+            font-weight: 500;
+            user-select: none;
+        }
+
+        .format-checkbox:checked + .format-label {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-ember);
+            color: var(--accent-ember);
+            box-shadow: 0 0 15px rgba(232, 100, 44, 0.2);
+        }
+
+        .format-label:hover {
+            border-color: var(--accent-ember);
+            background-color: var(--bg-card-hover);
+        }
+
+        /* Button Controls */
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.9rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: "Inter", sans-serif;
+        }
+
+        .btn-primary {
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+        }
+
+        .btn-primary:hover {
+            background-color: #e8b86f;
+            transform: translateY(-2px);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background-color: var(--bg-card);
+            color: var(--text-primary);
+            border: 2px solid var(--border-subtle);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+        }
+
+        .btn-tertiary {
+            background-color: transparent;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-subtle);
+        }
+
+        .btn-tertiary:hover {
+            color: var(--accent-gold);
+            border-color: var(--accent-gold);
+        }
+
+        /* Results Section */
+        .results-container {
+            display: none;
+        }
+
+        .results-container.active {
+            display: block;
+        }
+
+        .results-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .results-header h2 {
+            font-family: "Playfair Display", serif;
+            font-size: 2rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .results-subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        .results-humor {
+            color: var(--accent-gold);
+            font-style: italic;
+            margin-top: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .results-filters {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .filter-label {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-family: "JetBrains Mono", monospace;
+        }
+
+        .filter-select {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            padding: 0.6rem 0.8rem;
+            font-family: "Inter", sans-serif;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-select:hover {
+            border-color: var(--accent-gold);
+        }
+
+        .filter-select:focus {
+            outline: none;
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 10px rgba(212, 162, 84, 0.1);
+        }
+
+        /* Results Grid */
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .resource-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .resource-card:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .resource-type-badge {
+            display: inline-block;
+            width: fit-content;
+            padding: 0.35rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.8rem;
+            font-family: "JetBrains Mono", monospace;
+        }
+
+        .type-book {
+            background-color: rgba(139, 92, 246, 0.2);
+            color: var(--accent-violet);
+        }
+
+        .type-sermon {
+            background-color: rgba(232, 100, 44, 0.2);
+            color: var(--accent-ember);
+        }
+
+        .type-podcast {
+            background-color: rgba(212, 162, 84, 0.2);
+            color: var(--accent-gold);
+        }
+
+        .type-study {
+            background-color: rgba(100, 200, 150, 0.2);
+            color: #64c896;
+        }
+
+        .type-article {
+            background-color: rgba(150, 180, 220, 0.2);
+            color: #96b4dc;
+        }
+
+        .type-creed {
+            background-color: rgba(200, 150, 180, 0.2);
+            color: #c89eb4;
+        }
+
+        .resource-title {
+            font-family: "Playfair Display", serif;
+            font-size: 1.3rem;
+            color: var(--text-primary);
+            margin-bottom: 0.3rem;
+        }
+
+        .resource-author {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .resource-difficulty {
+            display: inline-block;
+            padding: 0.3rem 0.6rem;
+            background-color: var(--bg-deep);
+            color: var(--text-muted);
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            font-family: "JetBrains Mono", monospace;
+        }
+
+        .resource-description {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        .resource-link {
+            display: inline-block;
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .resource-link:hover {
+            border-bottom-color: var(--accent-gold);
+        }
+
+        /* Category Headers in Results */
+        .results-category {
+            margin-bottom: 3rem;
+        }
+
+        .results-category h3 {
+            font-family: "Playfair Display", serif;
+            font-size: 1.6rem;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 2px solid var(--border-subtle);
+        }
+
+        .category-resources {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* Actions Bar */
+        .results-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-save-list {
+            background-color: var(--accent-violet);
+            color: var(--text-primary);
+        }
+
+        .btn-save-list:hover {
+            background-color: #9d67ff;
+            transform: translateY(-2px);
+        }
+
+        /* Continue Journey Section */
+        .continue-journey {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .continue-journey h3 {
+            font-family: "Playfair Display", serif;
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .journey-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+        }
+
+        .journey-link {
+            display: inline-block;
+            padding: 0.8rem 1.2rem;
+            background-color: var(--bg-deep);
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .journey-link:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 3rem 2rem;
+            color: var(--text-secondary);
+        }
+
+        .empty-state p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Notification Toast */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: var(--accent-violet);
+            color: var(--text-primary);
+            padding: 1rem 1.5rem;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            animation: slideIn 0.3s ease-out;
+            z-index: 1000;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .finder-hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .step-title {
+                font-size: 1.4rem;
+            }
+
+            .level-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .interest-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+
+            .results-filters {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .results-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .toast {
+                bottom: 1rem;
+                right: 1rem;
+                left: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/stories">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="resource-finder-container">
+            <!-- Hero Section -->
+            <div class="finder-hero">
+                <h1>Resource Finder</h1>
+                <p>Discover the books, sermons, podcasts, and study materials that will deepen your understanding of God's sovereignty in salvation.</p>
+                <p class="finder-subtitle">These resources didn't choose you — they were chosen for you.</p>
+            </div>
+
+            <!-- Progress Indicator -->
+            <div class="progress-indicator">
+                <div class="progress-step active" data-step="1">1</div>
+                <div class="progress-line"></div>
+                <div class="progress-step" data-step="2">2</div>
+                <div class="progress-line"></div>
+                <div class="progress-step" data-step="3">3</div>
+            </div>
+
+            <!-- Step 1: Choose Your Level -->
+            <div class="step-container active" data-step="1">
+                <h2 class="step-title">Step 1 of 3: Choose Your Level</h2>
+                <div class="level-grid">
+                    <div class="level-card" data-level="beginner">
+                        <span class="level-icon">🌱</span>
+                        <h3>Just Curious</h3>
+                        <p>New to these ideas? Start with gentle introductions and clear explanations that build your foundation.</p>
+                    </div>
+                    <div class="level-card" data-level="intermediate">
+                        <span class="level-icon">📖</span>
+                        <h3>Growing Deeper</h3>
+                        <p>Familiar with the basics? Ready for more substance and detailed theological exploration.</p>
+                    </div>
+                    <div class="level-card" data-level="advanced">
+                        <span class="level-icon">🎓</span>
+                        <h3>Advanced Study</h3>
+                        <p>Want scholarly, in-depth theological resources? Deep dives into Scripture and systematic theology.</p>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button class="btn btn-primary" id="btn-next-1" disabled>Next Step</button>
+                </div>
+            </div>
+
+            <!-- Step 2: Choose Your Interests -->
+            <div class="step-container" data-step="2">
+                <h2 class="step-title">Step 2 of 3: Choose Your Interests</h2>
+                <p style="text-align: center; color: var(--text-secondary); margin-bottom: 1.5rem;">Select all that interest you (choose at least one)</p>
+                <div class="interest-grid">
+                    <div class="interest-checkbox-wrapper">
+                        <input type="checkbox" id="interest-sovereignty" class="interest-checkbox" value="sovereignty">
+                        <label for="interest-sovereignty" class="interest-label">Understanding God's Sovereignty</label>
+                    </div>
+                    <div class="interest-checkbox-wrapper">
+                        <input type="checkbox" id="interest-doctrines" class="interest-checkbox" value="doctrines">
+                        <label for="interest-doctrines" class="interest-label">The Doctrines of Grace</label>
+                    </div>
+                    <div class="interest-checkbox-wrapper">
+                        <input type="checkbox" id="interest-history" class="interest-checkbox" value="history">
+                        <label for="interest-history" class="interest-label">Church History</label>
+                    </div>
+                    <div class="interest-checkbox-wrapper">
+                        <input type="checkbox" id="interest-apologetics" class="interest-checkbox" value="apologetics">
+                        <label for="interest-apologetics" class="interest-label">Defending the Faith</label>
+                    </div>
+                    <div class="interest-checkbox-wrapper">
+                        <input type="checkbox" id="interest-devotion" class="interest-checkbox" value="devotion">
+                        <label for="interest-devotion" class="interest-label">Personal Devotion & Worship</label>
+                    </div>
+                    <div class="interest-checkbox-wrapper">
+                        <input type="checkbox" id="interest-preaching" class="interest-checkbox" value="preaching">
+                        <label for="interest-preaching" class="interest-label">Preaching & Teaching</label>
+                    </div>
+                    <div class="interest-checkbox-wrapper">
+                        <input type="checkbox" id="interest-freewill" class="interest-checkbox" value="freewill">
+                        <label for="interest-freewill" class="interest-label">Free Will & Predestination</label>
+                    </div>
+                    <div class="interest-checkbox-wrapper">
+                        <input type="checkbox" id="interest-bible" class="interest-checkbox" value="bible">
+                        <label for="interest-bible" class="interest-label">Bible Study Methods</label>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button class="btn btn-secondary" id="btn-back-2">Back</button>
+                    <button class="btn btn-primary" id="btn-next-2" disabled>Next Step</button>
+                </div>
+            </div>
+
+            <!-- Step 3: Choose Your Formats -->
+            <div class="step-container" data-step="3">
+                <h2 class="step-title">Step 3 of 3: Choose Your Formats</h2>
+                <p style="text-align: center; color: var(--text-secondary); margin-bottom: 1.5rem;">Select all that you'd like to explore (choose at least one)</p>
+                <div class="format-grid">
+                    <div class="format-checkbox-wrapper">
+                        <input type="checkbox" id="format-books" class="format-checkbox" value="books">
+                        <label for="format-books" class="format-label">📚 Books</label>
+                    </div>
+                    <div class="format-checkbox-wrapper">
+                        <input type="checkbox" id="format-sermons" class="format-checkbox" value="sermons">
+                        <label for="format-sermons" class="format-label">🎤 Sermons & Lectures</label>
+                    </div>
+                    <div class="format-checkbox-wrapper">
+                        <input type="checkbox" id="format-podcasts" class="format-checkbox" value="podcasts">
+                        <label for="format-podcasts" class="format-label">🎙️ Podcasts</label>
+                    </div>
+                    <div class="format-checkbox-wrapper">
+                        <input type="checkbox" id="format-study" class="format-checkbox" value="study">
+                        <label for="format-study" class="format-label">✏️ Study Guides</label>
+                    </div>
+                    <div class="format-checkbox-wrapper">
+                        <input type="checkbox" id="format-articles" class="format-checkbox" value="articles">
+                        <label for="format-articles" class="format-label">📰 Articles & Essays</label>
+                    </div>
+                    <div class="format-checkbox-wrapper">
+                        <input type="checkbox" id="format-creeds" class="format-checkbox" value="creeds">
+                        <label for="format-creeds" class="format-label">⛪ Confessions & Creeds</label>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button class="btn btn-secondary" id="btn-back-3">Back</button>
+                    <button class="btn btn-primary" id="btn-find-resources">Find Resources</button>
+                </div>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-container" id="results-container">
+                <div class="results-header">
+                    <h2>Your Curated Resources</h2>
+                    <p class="results-subtitle">Based on your selections</p>
+                    <p class="results-humor">Scripture teaches that your reading list was chosen before the foundation of the world.</p>
+                </div>
+
+                <div class="results-filters">
+                    <div class="filter-group">
+                        <label class="filter-label">Sort By</label>
+                        <select class="filter-select" id="filter-sort">
+                            <option value="relevance">Relevance</option>
+                            <option value="difficulty-asc">Difficulty (Easiest First)</option>
+                            <option value="difficulty-desc">Difficulty (Hardest First)</option>
+                            <option value="title">Title (A-Z)</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Filter by Type</label>
+                        <select class="filter-select" id="filter-type">
+                            <option value="">All Types</option>
+                            <option value="book">Books</option>
+                            <option value="sermon">Sermons & Lectures</option>
+                            <option value="podcast">Podcasts</option>
+                            <option value="study">Study Guides</option>
+                            <option value="article">Articles & Essays</option>
+                            <option value="creed">Confessions & Creeds</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <button class="btn btn-primary btn-save-list" id="btn-save-list">📋 Copy List to Clipboard</button>
+                    <button class="btn btn-secondary" id="btn-start-over">Start Over</button>
+                </div>
+
+                <div id="results-content"></div>
+
+                <!-- Continue Your Journey -->
+                <div class="continue-journey">
+                    <h3>Continue Your Journey</h3>
+                    <div class="journey-links">
+                        <a href="/resources" class="journey-link">All Resources</a>
+                        <a href="/resources-books" class="journey-link">Book Library</a>
+                        <a href="/resources-sermons" class="journey-link">Sermon Hub</a>
+                        <a href="/quiz" class="journey-link">Take the Quiz</a>
+                        <a href="/start-here" class="journey-link">Back to Basics</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section"><h4>Doctrine</h4><ul>
+                <li><a href="/questions">The Evidence</a></li>
+                <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+                <li><a href="/demolition-hub">Demolition Zone</a></li>
+                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Explore</h4><ul>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li><a href="/devotionals">Devotionals</a></li>
+                <li><a href="/resources">Resources</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Connect</h4><ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+            </ul></div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+
+    <script>
+        // ========================================
+        // RESOURCE DATABASE
+        // ========================================
+        const resourcesDatabase = [
+            // BOOKS - BEGINNER
+            {
+                id: 1,
+                title: "Knowing God",
+                author: "J.I. Packer",
+                type: "book",
+                difficulty: "beginner",
+                interests: ["sovereignty", "devotion"],
+                description: "A beloved classic that makes the attributes of God accessible and personally transformative. Packer helps readers move from knowing about God to knowing God personally.",
+                link: "https://www.amazon.com/Knowing-God-J-I-Packer/dp/0830815007",
+                isExternal: true
+            },
+            {
+                id: 2,
+                title: "What is Reformed Theology?",
+                author: "R.C. Sproul",
+                type: "book",
+                difficulty: "beginner",
+                interests: ["doctrines", "sovereignty"],
+                description: "An approachable introduction to Reformed theology. Sproul explains core concepts like sovereignty, total depravity, and election in clear, memorable language.",
+                link: "/resources-books#sproul-reformed",
+                isExternal: false
+            },
+            {
+                id: 3,
+                title: "The Five Points of Calvinism",
+                author: "David N. Steele & Curtis C. Thomas",
+                type: "book",
+                difficulty: "beginner",
+                interests: ["doctrines"],
+                description: "A concise, accessible breakdown of T.U.L.I.P. using Scripture as the foundation. Perfect for those new to the doctrines of grace.",
+                link: "https://www.amazon.com/Five-Points-Calvinism-David-Steele/dp/0875524494",
+                isExternal: true
+            },
+            {
+                id: 4,
+                title: "Desiring God",
+                author: "John Piper",
+                type: "book",
+                difficulty: "beginner",
+                interests: ["devotion", "worship", "sovereignty"],
+                description: "A life-changing book on Christian hedonism — the radical truth that glorifying God and enjoying Him forever are the same thing.",
+                link: "https://www.amazon.com/Desiring-God-Meditations-Christian-Hedonist/dp/1601421265",
+                isExternal: true
+            },
+            {
+                id: 5,
+                title: "Putting Amazing Back into Grace",
+                author: "Michael S. Horton",
+                type: "book",
+                difficulty: "beginner",
+                interests: ["doctrines", "sovereignty"],
+                description: "Horton restores the wonder to the doctrine of grace by showing how it transforms our entire understanding of salvation, justification, and Christian living.",
+                link: "https://www.amazon.com/Putting-Amazing-Back-Into-Grace/dp/0801064392",
+                isExternal: true
+            },
+            {
+                id: 6,
+                title: "The Holiness of God",
+                author: "R.C. Sproul",
+                type: "book",
+                difficulty: "beginner",
+                interests: ["sovereignty", "devotion"],
+                description: "A transformative meditation on God's holiness and what it means for our lives. Sproul captures the awe and reverence due to the Holy One.",
+                link: "https://www.amazon.com/Holiness-God-R-C-Sproul/dp/0842339698",
+                isExternal: true
+            },
+
+            // BOOKS - INTERMEDIATE
+            {
+                id: 7,
+                title: "Chosen by God",
+                author: "R.C. Sproul",
+                type: "book",
+                difficulty: "intermediate",
+                interests: ["doctrines", "sovereignty"],
+                description: "A clear, biblical exposition of election. Sproul walks through Scripture showing how God's sovereign choice in salvation doesn't diminish human responsibility.",
+                link: "https://www.amazon.com/Chosen-God-R-C-Sproul/dp/0842339779",
+                isExternal: true
+            },
+            {
+                id: 8,
+                title: "The Sovereignty of God",
+                author: "Arthur W. Pink",
+                type: "book",
+                difficulty: "intermediate",
+                interests: ["sovereignty", "apologetics"],
+                description: "A classic theological treatment of God's absolute sovereignty. Pink demonstrates how Scripture consistently affirms that God rules over all things.",
+                link: "https://www.amazon.com/Sovereignty-God-Arthur-W-Pink/dp/0801064422",
+                isExternal: true
+            },
+            {
+                id: 9,
+                title: "The Doctrines of Grace",
+                author: "James Montgomery Boice & Philip Graham Ryken",
+                type: "book",
+                difficulty: "intermediate",
+                interests: ["doctrines"],
+                description: "A comprehensive yet readable exploration of the five points of Calvinism. Each chapter opens up a doctrine with pastoral insight.",
+                link: "https://www.amazon.com/Doctrines-Grace-James-Montgomery-Boice/dp/1581342705",
+                isExternal: true
+            },
+            {
+                id: 10,
+                title: "Freedom of the Will",
+                author: "Jonathan Edwards",
+                type: "book",
+                difficulty: "intermediate",
+                interests: ["freewill", "sovereignty"],
+                description: "Edwards' masterwork defending God's sovereignty and human freedom. Dense but rewarding for those ready to grapple with the deep philosophy.",
+                link: "https://www.amazon.com/Freedom-Will-Jonathan-Edwards/dp/1577997131",
+                isExternal: true
+            },
+            {
+                id: 11,
+                title: "Redemption Accomplished and Applied",
+                author: "John Murray",
+                type: "book",
+                difficulty: "intermediate",
+                interests: ["sovereignty", "doctrines"],
+                description: "Murray's systematic treatment of how Christ's work of redemption is applied to sinners. Theologically rigorous and spiritually nourishing.",
+                link: "https://www.amazon.com/Redemption-Accomplished-Applied-John-Murray/dp/0875524494",
+                isExternal: true
+            },
+            {
+                id: 12,
+                title: "The Difficult Doctrine of the Love of God",
+                author: "D.A. Carson",
+                type: "book",
+                difficulty: "intermediate",
+                interests: ["sovereignty", "devotion"],
+                description: "Carson carefully unpacks the apparent tensions in God's love — his love for all, his sovereign election, his judgment. Pastoral and theologically sound.",
+                link: "https://www.amazon.com/Difficult-Doctrine-Love-God-Carson/dp/1581344120",
+                isExternal: true
+            },
+            {
+                id: 13,
+                title: "Still Sovereign",
+                author: "Thomas R. Schreiner & Bruce A. Ware (Editors)",
+                type: "book",
+                difficulty: "intermediate",
+                interests: ["sovereignty", "apologetics"],
+                description: "Essays defending God's sovereignty and human responsibility. Multiple perspectives from Reformed scholars wrestling with the hard questions.",
+                link: "https://www.amazon.com/Still-Sovereign-Biblical-Sovereignty-Theodicy/dp/0801064244",
+                isExternal: true
+            },
+
+            // BOOKS - ADVANCED
+            {
+                id: 14,
+                title: "The Bondage of the Will",
+                author: "Martin Luther",
+                type: "book",
+                difficulty: "advanced",
+                interests: ["freewill", "sovereignty"],
+                description: "Luther's powerful response to Erasmus on the nature of human will and divine sovereignty. A foundational Reformation text on predestination.",
+                link: "https://www.amazon.com/Bondage-Will-Martin-Luther/dp/0801064279",
+                isExternal: true
+            },
+            {
+                id: 15,
+                title: "Institutes of the Christian Religion",
+                author: "John Calvin",
+                type: "book",
+                difficulty: "advanced",
+                interests: ["doctrines", "history", "sovereignty"],
+                description: "Calvin's systematic theology. Book III contains profound treatment of election and predestination. A monumental work of theological reflection.",
+                link: "https://www.amazon.com/Institutes-Christian-Religion-John-Calvin/dp/1598567616",
+                isExternal: true
+            },
+            {
+                id: 16,
+                title: "The Potter's Freedom",
+                author: "James R. White",
+                type: "book",
+                difficulty: "advanced",
+                interests: ["apologetics", "freewill"],
+                description: "White's detailed defense of Calvinism against Arminianism. Scholarly, thorough engagement with philosophical and biblical objections.",
+                link: "https://www.amazon.com/Potters-Freedom-Spiritual-Sovereignty-Responsibility/dp/1857925778",
+                isExternal: true
+            },
+            {
+                id: 17,
+                title: "Systematic Theology",
+                author: "Louis Berkhof",
+                type: "book",
+                difficulty: "advanced",
+                interests: ["sovereignty", "doctrines"],
+                description: "A comprehensive Reformed systematic theology. Dense but systematic treatment of all major doctrines with careful biblical exegesis.",
+                link: "https://www.amazon.com/Systematic-Theology-Louis-Berkhof/dp/0802822916",
+                isExternal: true
+            },
+            {
+                id: 18,
+                title: "The Knowledge of the Holy",
+                author: "A.W. Tozer",
+                type: "book",
+                difficulty: "advanced",
+                interests: ["devotion", "sovereignty"],
+                description: "Meditations on the attributes of God. Tozer combines deep theological thinking with devotional urgency and poetic language.",
+                link: "https://www.amazon.com/Knowledge-Holy-Attributes-God-Changed/dp/0062449974",
+                isExternal: true
+            },
+
+            // SERMONS - BEGINNER
+            {
+                id: 19,
+                title: "Election and Predestination",
+                author: "Charles Spurgeon",
+                type: "sermon",
+                difficulty: "beginner",
+                interests: ["doctrines", "sovereignty"],
+                description: "Spurgeon's classic sermon unpacking election with clarity and warmth. Shows how predestination drives us to humility and gratitude.",
+                link: "/resources-sermons#spurgeon-election",
+                isExternal: false
+            },
+            {
+                id: 20,
+                title: "God's Sovereignty and Our Freedom",
+                author: "John MacArthur",
+                type: "sermon",
+                difficulty: "beginner",
+                interests: ["sovereignty", "freewill"],
+                description: "MacArthur's accessible teaching on how God's sovereignty and human responsibility work together. Clear and encouraging.",
+                link: "https://www.gty.org/library/topical-series/44/Gods-Sovereignty-and-Our-Response",
+                isExternal: true
+            },
+            {
+                id: 21,
+                title: "Predestination and Election",
+                author: "Voddie Baucham",
+                type: "sermon",
+                difficulty: "beginner",
+                interests: ["doctrines"],
+                description: "Baucham powerfully explains how predestination is actually a comfort, not a burden. Rich pastoral and biblical insight.",
+                link: "https://www.youtube.com/results?search_query=voddie+baucham+predestination",
+                isExternal: true
+            },
+            {
+                id: 22,
+                title: "The Sovereignty of God in Salvation",
+                author: "Paul Washer",
+                type: "sermon",
+                difficulty: "beginner",
+                interests: ["sovereignty"],
+                description: "Washer's passionate defense of God's sovereignty and how it should drive us to mission and evangelism.",
+                link: "https://www.youtube.com/results?search_query=paul+washer+sovereignty+salvation",
+                isExternal: true
+            },
+
+            // SERMONS - INTERMEDIATE
+            {
+                id: 23,
+                title: "On Election",
+                author: "Martyn Lloyd-Jones",
+                type: "sermon",
+                difficulty: "intermediate",
+                interests: ["doctrines", "sovereignty"],
+                description: "Lloyd-Jones' expository series on election. Theological depth combined with pastoral warmth and application.",
+                link: "/resources-sermons#lloyd-jones-election",
+                isExternal: false
+            },
+            {
+                id: 24,
+                title: "The Decree of Predestination",
+                author: "R.C. Sproul",
+                type: "sermon",
+                difficulty: "intermediate",
+                interests: ["doctrines"],
+                description: "Sproul's lecture series on predestination. Clear explanations of the decree, free will, and God's knowledge of future things.",
+                link: "https://www.ligonier.org/learn/series/the-decree-of-predestination/",
+                isExternal: true
+            },
+            {
+                id: 25,
+                title: "Divine Sovereignty and Human Responsibility",
+                author: "D.A. Carson",
+                type: "sermon",
+                difficulty: "intermediate",
+                interests: ["sovereignty", "freewill"],
+                description: "Carson masterfully navigates the tension between God's omniscience and human choice. Biblically grounded and philosophically careful.",
+                link: "https://www.thegospelcoalition.org/blogs/justin-taylor/divine-sovereignty-and-human-responsibility-carson/",
+                isExternal: true
+            },
+
+            // SERMONS - ADVANCED
+            {
+                id: 26,
+                title: "The Predestination of God",
+                author: "John Owen",
+                type: "sermon",
+                difficulty: "advanced",
+                interests: ["sovereignty", "doctrines"],
+                description: "Owen's deep treatment of predestination. Classic Puritan theology wrestling with Scripture and defending God's decree.",
+                link: "/resources-sermons#owen-predestination",
+                isExternal: false
+            },
+            {
+                id: 27,
+                title: "Lecture Series on God's Decrees",
+                author: "William Perkins",
+                type: "sermon",
+                difficulty: "advanced",
+                interests: ["doctrines", "history"],
+                description: "Perkins, a foundational Reformed theologian, teaches on God's eternal decrees and their implications for theology and life.",
+                link: "/resources-sermons#perkins-decrees",
+                isExternal: false
+            },
+
+            // PODCASTS - BEGINNER
+            {
+                id: 28,
+                title: "Renewing Your Mind",
+                author: "R.C. Sproul",
+                type: "podcast",
+                difficulty: "beginner",
+                interests: ["sovereignty", "doctrines"],
+                description: "Daily 15-minute lessons on Reformed theology. Sproul's teaching is accessible, scriptural, and transformative.",
+                link: "https://www.ligonier.org/learn/podcasts/renewing-your-mind/",
+                isExternal: true
+            },
+            {
+                id: 29,
+                title: "The Briefing",
+                author: "Albert Mohler",
+                type: "podcast",
+                difficulty: "beginner",
+                interests: ["sovereignty", "apologetics"],
+                description: "Daily analysis of news and culture from a Christian worldview. Helps you think biblically about current events.",
+                link: "https://albertmohler.com/the-briefing/",
+                isExternal: true
+            },
+            {
+                id: 30,
+                title: "Theology Simply Profound",
+                author: "Derek Thomas",
+                type: "podcast",
+                difficulty: "beginner",
+                interests: ["doctrines", "devotion"],
+                description: "Derek Thomas unpacks biblical truths with clarity and warmth. Great for growing in knowledge of God.",
+                link: "https://www.malachi3v16.org/theologymp",
+                isExternal: true
+            },
+
+            // PODCASTS - INTERMEDIATE
+            {
+                id: 31,
+                title: "Reformed Forum",
+                author: "Various Speakers",
+                type: "podcast",
+                difficulty: "intermediate",
+                interests: ["doctrines", "history"],
+                description: "Deep theological discussions on Reformed Christianity. Regular guests include leading scholars and pastors.",
+                link: "https://www.reformedforum.org/",
+                isExternal: true
+            },
+            {
+                id: 32,
+                title: "White Horse Inn",
+                author: "Michael Horton & Others",
+                type: "podcast",
+                difficulty: "intermediate",
+                interests: ["doctrines", "apologetics"],
+                description: "Conversations on the doctrines of grace and Reformed Christianity. Thoughtful, engaging, and intellectually stimulating.",
+                link: "https://www.whitehorseinn.org/",
+                isExternal: true
+            },
+            {
+                id: 33,
+                title: "Knowing Scripture",
+                author: "John MacArthur & Staff",
+                type: "podcast",
+                difficulty: "intermediate",
+                interests: ["bible", "sovereignty"],
+                description: "Learn the principles and methods for studying Scripture deeply. Practical tools for better Bible understanding.",
+                link: "https://www.gty.org/library/topical-series/7/knowing-scripture",
+                isExternal: true
+            },
+
+            // PODCASTS - ADVANCED
+            {
+                id: 34,
+                title: "Ligonier Ministries: Every Doctrine",
+                author: "Various Reformed Teachers",
+                type: "podcast",
+                difficulty: "advanced",
+                interests: ["doctrines"],
+                description: "In-depth teaching on every doctrine of Christian faith. Scholarly yet accessible for committed learners.",
+                link: "https://www.ligonier.org/learn/podcasts/",
+                isExternal: true
+            },
+            {
+                id: 35,
+                title: "Table Talk Radio",
+                author: "R.C. Sproul",
+                type: "podcast",
+                difficulty: "advanced",
+                interests: ["doctrines", "apologetics"],
+                description: "Callers engage Sproul on theological and philosophical questions. Live, dynamic, intellectually rigorous.",
+                link: "https://www.ligonier.org/learn/podcasts/table-talk-radio/",
+                isExternal: true
+            },
+
+            // STUDY GUIDES - BEGINNER
+            {
+                id: 36,
+                title: "Sovereignty of God Study Guide",
+                author: "Ligonier Ministries",
+                type: "study",
+                difficulty: "beginner",
+                interests: ["sovereignty"],
+                description: "A structured study guide on God's sovereignty. Includes questions, scripture passages, and reflection prompts.",
+                link: "/resources-study#ligonier-sovereignty",
+                isExternal: false
+            },
+            {
+                id: 37,
+                title: "Election and Predestination: The Essentials",
+                author: "Adopted by Grace",
+                type: "study",
+                difficulty: "beginner",
+                interests: ["doctrines"],
+                description: "A beginner-friendly study guide with key passages, definitions, and application questions on the doctrines of election.",
+                link: "/resources-study#election-essentials",
+                isExternal: false
+            },
+
+            // STUDY GUIDES - INTERMEDIATE
+            {
+                id: 38,
+                title: "Systematic Theology Study Curriculum",
+                author: "Greta Macbeth Covenant Church",
+                type: "study",
+                difficulty: "intermediate",
+                interests: ["doctrines", "sovereignty"],
+                description: "A comprehensive 30-week study through the major doctrines of Christianity. Includes homework, discussion questions, and small group guidance.",
+                link: "/resources-study#systematic-curriculum",
+                isExternal: false
+            },
+
+            // ARTICLES - INTERMEDIATE
+            {
+                id: 39,
+                title: "Ten Myths About Predestination",
+                author: "Adopted by Grace",
+                type: "article",
+                difficulty: "intermediate",
+                interests: ["sovereignty", "apologetics"],
+                description: "Addresses common misconceptions about predestination. Shows how Scripture teaches God's sovereignty without fatalism.",
+                link: "/articles/myths-predestination",
+                isExternal: false
+            },
+            {
+                id: 40,
+                title: "God's Sovereignty and Evangelism",
+                author: "Piper & Dann",
+                type: "article",
+                difficulty: "intermediate",
+                interests: ["sovereignty", "preaching"],
+                description: "Explores why believing in predestination doesn't hinder evangelism — it actually frees us to evangelize boldly.",
+                link: "https://www.desiringgod.org/articles/divine-election-and-evangelism",
+                isExternal: true
+            },
+
+            // CREEDS & CONFESSIONS - ALL LEVELS
+            {
+                id: 41,
+                title: "The Westminster Confession of Faith",
+                author: "Westminster Assembly (1646)",
+                type: "creed",
+                difficulty: "intermediate",
+                interests: ["doctrines", "history"],
+                description: "The foundational Reformed confession. Chapters on God's decrees, election, and predestination are particularly relevant.",
+                link: "/resources-confessions#westminster",
+                isExternal: false
+            },
+            {
+                id: 42,
+                title: "The Canons of Dort",
+                author: "Synod of Dort (1619)",
+                type: "creed",
+                difficulty: "intermediate",
+                interests: ["doctrines", "history"],
+                description: "A precise statement of Reformed doctrine on predestination and the nature of human will. Responds to Arminianism.",
+                link: "/resources-confessions#dort",
+                isExternal: false
+            },
+            {
+                id: 43,
+                title: "The Belgic Confession",
+                author: "Guido de Brès (1561)",
+                type: "creed",
+                difficulty: "beginner",
+                interests: ["doctrines", "history"],
+                description: "A beautiful confession of Reformed faith. Articles 16 and 34 address predestination with biblical clarity.",
+                link: "/resources-confessions#belgic",
+                isExternal: false
+            },
+            {
+                id: 44,
+                title: "The 1689 London Baptist Confession",
+                author: "London Particular Baptists (1689)",
+                type: "creed",
+                difficulty: "intermediate",
+                interests: ["doctrines", "history"],
+                description: "A Reformed Baptist confession mirroring the Westminster Confession. Shows how Baptists embrace Reformed theology.",
+                link: "/resources-confessions#1689",
+                isExternal: false
+            },
+            {
+                id: 45,
+                title: "The Heidelberg Catechism",
+                author: "Zacharius Ursinus & Caspar Olevianus (1563)",
+                type: "creed",
+                difficulty: "beginner",
+                interests: ["devotion", "doctrines"],
+                description: "A warm, pastoral catechism teaching Reformed faith. Question 1 captures the heart: our only comfort is that we belong to our Savior.",
+                link: "/resources-confessions#heidelberg",
+                isExternal: false
+            }
+        ];
+
+        // ========================================
+        // STATE MANAGEMENT
+        // ========================================
+        let appState = {
+            currentStep: 1,
+            selectedLevel: null,
+            selectedInterests: [],
+            selectedFormats: [],
+            filteredResults: []
+        };
+
+        // ========================================
+        // STEP 1: LEVEL SELECTION
+        // ========================================
+        document.querySelectorAll('.level-card').forEach(card => {
+            card.addEventListener('click', function() {
+                document.querySelectorAll('.level-card').forEach(c => c.classList.remove('selected'));
+                this.classList.add('selected');
+                appState.selectedLevel = this.dataset.level;
+                document.getElementById('btn-next-1').disabled = false;
+            });
+        });
+
+        document.getElementById('btn-next-1').addEventListener('click', function() {
+            appState.currentStep = 2;
+            updateStepDisplay();
+        });
+
+        // ========================================
+        // STEP 2: INTEREST SELECTION
+        // ========================================
+        document.querySelectorAll('.interest-checkbox').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                updateSelectedInterests();
+                updateNextButtonState();
+            });
+        });
+
+        function updateSelectedInterests() {
+            appState.selectedInterests = Array.from(
+                document.querySelectorAll('.interest-checkbox:checked')
+            ).map(cb => cb.value);
+        }
+
+        function updateNextButtonState() {
+            const interestBtn = document.getElementById('btn-next-2');
+            const formatBtn = document.getElementById('btn-find-resources');
+
+            if (appState.currentStep === 2) {
+                interestBtn.disabled = appState.selectedInterests.length === 0;
+            } else if (appState.currentStep === 3) {
+                formatBtn.disabled = appState.selectedFormats.length === 0;
+            }
+        }
+
+        document.getElementById('btn-next-2').addEventListener('click', function() {
+            if (appState.selectedInterests.length > 0) {
+                appState.currentStep = 3;
+                updateStepDisplay();
+            }
+        });
+
+        document.getElementById('btn-back-2').addEventListener('click', function() {
+            appState.currentStep = 1;
+            updateStepDisplay();
+        });
+
+        // ========================================
+        // STEP 3: FORMAT SELECTION
+        // ========================================
+        document.querySelectorAll('.format-checkbox').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                updateSelectedFormats();
+                updateNextButtonState();
+            });
+        });
+
+        function updateSelectedFormats() {
+            appState.selectedFormats = Array.from(
+                document.querySelectorAll('.format-checkbox:checked')
+            ).map(cb => cb.value);
+        }
+
+        document.getElementById('btn-find-resources').addEventListener('click', function() {
+            if (appState.selectedFormats.length > 0) {
+                filterResources();
+                appState.currentStep = 4;
+                updateStepDisplay();
+            }
+        });
+
+        document.getElementById('btn-back-3').addEventListener('click', function() {
+            appState.currentStep = 2;
+            updateStepDisplay();
+        });
+
+        // ========================================
+        // RESOURCE FILTERING & RESULTS
+        // ========================================
+        function filterResources() {
+            appState.filteredResults = resourcesDatabase.filter(resource => {
+                // Filter by level
+                if (appState.selectedLevel === 'beginner' && resource.difficulty !== 'beginner') return false;
+                if (appState.selectedLevel === 'intermediate' && resource.difficulty !== 'intermediate') return false;
+                if (appState.selectedLevel === 'advanced' && resource.difficulty !== 'advanced') return false;
+
+                // Filter by interests
+                const hasMatchingInterest = resource.interests.some(interest =>
+                    appState.selectedInterests.includes(interest)
+                );
+                if (!hasMatchingInterest) return false;
+
+                // Filter by formats
+                const typeMap = {
+                    'books': 'book',
+                    'sermons': 'sermon',
+                    'podcasts': 'podcast',
+                    'study': 'study',
+                    'articles': 'article',
+                    'creeds': 'creed'
+                };
+
+                const resourceType = resource.type;
+                const hasMatchingFormat = appState.selectedFormats.some(format =>
+                    typeMap[format] === resourceType
+                );
+                if (!hasMatchingFormat) return false;
+
+                return true;
+            });
+
+            renderResults();
+        }
+
+        function renderResults() {
+            const resultsContent = document.getElementById('results-content');
+
+            if (appState.filteredResults.length === 0) {
+                resultsContent.innerHTML = '<div class="empty-state"><p>No resources match your selections. Try adjusting your filters.</p></div>';
+                return;
+            }
+
+            // Group resources by interest
+            const grouped = {};
+            appState.selectedInterests.forEach(interest => {
+                grouped[interest] = appState.filteredResults.filter(r => r.interests.includes(interest));
+            });
+
+            // Build HTML
+            let html = '';
+            const interestLabels = {
+                'sovereignty': 'Understanding God\'s Sovereignty',
+                'doctrines': 'The Doctrines of Grace',
+                'history': 'Church History',
+                'apologetics': 'Defending the Faith',
+                'devotion': 'Personal Devotion & Worship',
+                'preaching': 'Preaching & Teaching',
+                'freewill': 'Free Will & Predestination',
+                'bible': 'Bible Study Methods'
+            };
+
+            appState.selectedInterests.forEach(interest => {
+                const resources = grouped[interest];
+                if (resources.length === 0) return;
+
+                html += `<div class="results-category">
+                    <h3>${interestLabels[interest]}</h3>
+                    <div class="category-resources">`;
+
+                resources.forEach(resource => {
+                    html += renderResourceCard(resource);
+                });
+
+                html += '</div></div>';
+            });
+
+            resultsContent.innerHTML = html;
+            setupResultsInteractivity();
+        }
+
+        function renderResourceCard(resource) {
+            const typeMap = {
+                'book': 'book',
+                'sermon': 'sermon',
+                'podcast': 'podcast',
+                'study': 'study',
+                'article': 'article',
+                'creed': 'creed'
+            };
+
+            const difficultyLabel = {
+                'beginner': 'Beginner-Friendly',
+                'intermediate': 'Intermediate',
+                'advanced': 'Advanced'
+            };
+
+            const typeLabel = {
+                'book': 'Book',
+                'sermon': 'Sermon/Lecture',
+                'podcast': 'Podcast',
+                'study': 'Study Guide',
+                'article': 'Article/Essay',
+                'creed': 'Confession/Creed'
+            };
+
+            return `
+                <div class="resource-card">
+                    <span class="resource-type-badge type-${typeMap[resource.type]}">${typeLabel[resource.type]}</span>
+                    <h4 class="resource-title">${resource.title}</h4>
+                    <p class="resource-author">by ${resource.author}</p>
+                    <span class="resource-difficulty">${difficultyLabel[resource.difficulty]}</span>
+                    <p class="resource-description">${resource.description}</p>
+                    <a href="${resource.link}" class="resource-link" ${resource.isExternal ? 'target="_blank" rel="noopener"' : ''}>
+                        ${resource.isExternal ? 'Visit Resource →' : 'Learn More →'}
+                    </a>
+                </div>
+            `;
+        }
+
+        function setupResultsInteractivity() {
+            // Filter sorting
+            const filterSort = document.getElementById('filter-sort');
+            const filterType = document.getElementById('filter-type');
+
+            filterSort.addEventListener('change', applyFilters);
+            filterType.addEventListener('change', applyFilters);
+        }
+
+        function applyFilters() {
+            const sortBy = document.getElementById('filter-sort').value;
+            const filterByType = document.getElementById('filter-type').value;
+
+            let filtered = [...appState.filteredResults];
+
+            // Filter by type
+            if (filterByType) {
+                filtered = filtered.filter(r => r.type === filterByType);
+            }
+
+            // Sort
+            if (sortBy === 'difficulty-asc') {
+                const diffOrder = { 'beginner': 1, 'intermediate': 2, 'advanced': 3 };
+                filtered.sort((a, b) => diffOrder[a.difficulty] - diffOrder[b.difficulty]);
+            } else if (sortBy === 'difficulty-desc') {
+                const diffOrder = { 'beginner': 1, 'intermediate': 2, 'advanced': 3 };
+                filtered.sort((a, b) => diffOrder[b.difficulty] - diffOrder[a.difficulty]);
+            } else if (sortBy === 'title') {
+                filtered.sort((a, b) => a.title.localeCompare(b.title));
+            }
+
+            // Re-render
+            const resultsContent = document.getElementById('results-content');
+            let html = '';
+
+            if (filtered.length === 0) {
+                resultsContent.innerHTML = '<div class="empty-state"><p>No resources match your filters.</p></div>';
+                return;
+            }
+
+            filtered.forEach(resource => {
+                html += renderResourceCard(resource);
+            });
+
+            // Wrap in a flat grid for this view
+            resultsContent.innerHTML = `<div class="results-grid">${html}</div>`;
+        }
+
+        // Save list to clipboard
+        document.getElementById('btn-save-list').addEventListener('click', function() {
+            let text = 'MY CURATED RESOURCES FROM ADOPTED BY GRACE\n\n';
+
+            const interestLabels = {
+                'sovereignty': 'Understanding God\'s Sovereignty',
+                'doctrines': 'The Doctrines of Grace',
+                'history': 'Church History',
+                'apologetics': 'Defending the Faith',
+                'devotion': 'Personal Devotion & Worship',
+                'preaching': 'Preaching & Teaching',
+                'freewill': 'Free Will & Predestination',
+                'bible': 'Bible Study Methods'
+            };
+
+            appState.selectedInterests.forEach(interest => {
+                const resources = appState.filteredResults.filter(r => r.interests.includes(interest));
+                if (resources.length === 0) return;
+
+                text += `${interestLabels[interest]}\n`;
+                text += '---\n';
+                resources.forEach(r => {
+                    text += `${r.title} by ${r.author}\n`;
+                });
+                text += '\n';
+            });
+
+            text += '\nFound at: adoptedbygrace.net/resource-finder';
+
+            navigator.clipboard.writeText(text).then(() => {
+                showToast('Resource list copied to clipboard!');
+            });
+        });
+
+        // Start over button
+        document.getElementById('btn-start-over').addEventListener('click', function() {
+            appState = {
+                currentStep: 1,
+                selectedLevel: null,
+                selectedInterests: [],
+                selectedFormats: [],
+                filteredResults: []
+            };
+
+            document.querySelectorAll('.level-card').forEach(c => c.classList.remove('selected'));
+            document.querySelectorAll('.interest-checkbox').forEach(c => c.checked = false);
+            document.querySelectorAll('.format-checkbox').forEach(c => c.checked = false);
+            document.getElementById('btn-next-1').disabled = true;
+
+            updateStepDisplay();
+        });
+
+        // ========================================
+        // UI UPDATES
+        // ========================================
+        function updateStepDisplay() {
+            // Hide all steps
+            document.querySelectorAll('.step-container').forEach(s => s.classList.remove('active'));
+
+            // Show current step
+            if (appState.currentStep <= 3) {
+                document.querySelector(`.step-container[data-step="${appState.currentStep}"]`).classList.add('active');
+                document.getElementById('results-container').classList.remove('active');
+            } else {
+                document.getElementById('results-container').classList.add('active');
+            }
+
+            // Update progress indicator
+            document.querySelectorAll('.progress-step').forEach(step => {
+                const stepNum = parseInt(step.dataset.step);
+                step.classList.remove('active', 'completed');
+
+                if (stepNum === appState.currentStep) {
+                    step.classList.add('active');
+                } else if (stepNum < appState.currentStep) {
+                    step.classList.add('completed');
+                }
+            });
+
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function showToast(message) {
+            const toast = document.createElement('div');
+            toast.className = 'toast';
+            toast.textContent = message;
+            document.body.appendChild(toast);
+
+            setTimeout(() => {
+                toast.remove();
+            }, 3000);
+        }
+
+        // ========================================
+        // INITIALIZATION
+        // ========================================
+        document.getElementById('btn-next-1').disabled = true;
+        document.getElementById('btn-next-2').disabled = true;
+        document.getElementById('btn-find-resources').disabled = true;
+    </script>
+
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+    <script src="/global.js" defer></script>
+</body>
+</html>
