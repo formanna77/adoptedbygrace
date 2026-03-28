@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Covenant Theology: God's binding promise">
+  <!-- Scroll with seal/ribbon -->
+  <path d="M10 8 C6 8 6 14 10 14 L38 14 C42 14 42 8 38 8 Z" fill="none" stroke="#d4a254" stroke-width="1.5"/>
+  <path d="M10 14 L10 38" stroke="#d4a254" stroke-width="1.5"/>
+  <path d="M38 14 L38 38" stroke="#d4a254" stroke-width="1.5"/>
+  <path d="M10 38 C6 38 6 44 10 44 L38 44 C42 44 42 38 38 38" fill="none" stroke="#d4a254" stroke-width="1.5"/>
+  <!-- Text lines -->
+  <line x1="16" y1="20" x2="32" y2="20" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <line x1="16" y1="24" x2="32" y2="24" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <line x1="16" y1="28" x2="32" y2="28" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <line x1="16" y1="32" x2="28" y2="32" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <!-- Seal -->
+  <circle cx="32" cy="34" r="4" fill="none" stroke="#e8642c" stroke-width="1.2" opacity="0.6"/>
+  <text x="32" y="37" text-anchor="middle" font-size="5" fill="#e8642c" opacity="0.6">✦</text>
+</svg>

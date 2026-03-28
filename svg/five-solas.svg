@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-label="The Five Solas of the Reformation: Sola Scriptura, Sola Fide, Sola Gratia, Solus Christus, Soli Deo Gloria">
+  <defs>
+    <linearGradient id="fs-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#10101a"/>
+    </linearGradient>
+    <linearGradient id="fs-pillar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a254" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#d4a254" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="fs-gold-line" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a254"/>
+      <stop offset="100%" stop-color="#a07830"/>
+    </linearGradient>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono:wght@600&amp;display=swap');
+
+      .fs-title { font-family: 'Playfair Display', serif; font-weight: 800; fill: #f0ece4; }
+      .fs-latin { font-family: 'Playfair Display', serif; font-weight: 700; fill: #d4a254; font-style: italic; }
+      .fs-english { font-family: 'Inter', sans-serif; font-weight: 600; fill: #f0ece4; }
+      .fs-desc { font-family: 'Inter', sans-serif; font-weight: 400; fill: #9a958c; }
+      .fs-verse { font-family: 'JetBrains Mono', monospace; font-weight: 600; fill: #d4a254; }
+      .fs-mono { font-family: 'JetBrains Mono', monospace; }
+
+      @keyframes pillar-rise {
+        from { transform: scaleY(0); }
+        to { transform: scaleY(1); }
+      }
+
+      .pillar { transform-origin: bottom; animation: pillar-rise 1s ease-out both; }
+      .pillar:nth-child(1) { animation-delay: 0.1s; }
+      .pillar:nth-child(2) { animation-delay: 0.3s; }
+      .pillar:nth-child(3) { animation-delay: 0.5s; }
+      .pillar:nth-child(4) { animation-delay: 0.7s; }
+      .pillar:nth-child(5) { animation-delay: 0.9s; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="420" fill="url(#fs-bg)"/>
+
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" class="fs-mono" font-size="9" fill="#d4a254" opacity="0.5" letter-spacing="0.2em">THE REFORMATION</text>
+  <text x="450" y="56" text-anchor="middle" class="fs-title" font-size="22">The Five Solas</text>
+  <text x="450" y="74" text-anchor="middle" class="fs-desc" font-size="11">The five pillars upon which biblical Christianity stands</text>
+
+  <!-- Ground line -->
+  <line x1="50" y1="340" x2="850" y2="340" stroke="#d4a254" stroke-width="1" opacity="0.2"/>
+
+  <!-- ===== PILLAR 1: Sola Scriptura ===== -->
+  <g class="pillar">
+    <rect x="70" y="110" width="130" height="230" rx="3" fill="url(#fs-pillar)" stroke="rgba(212,162,84,0.2)" stroke-width="1"/>
+    <!-- Capital -->
+    <rect x="65" y="105" width="140" height="12" rx="2" fill="#12121a" stroke="#d4a254" stroke-width="0.8" opacity="0.5"/>
+    <!-- Base -->
+    <rect x="65" y="335" width="140" height="10" rx="2" fill="#12121a" stroke="#d4a254" stroke-width="0.8" opacity="0.5"/>
+    <!-- Content -->
+    <text x="135" y="145" text-anchor="middle" class="fs-latin" font-size="14">Sola Scriptura</text>
+    <text x="135" y="168" text-anchor="middle" class="fs-english" font-size="11">Scripture Alone</text>
+    <line x1="105" y1="178" x2="165" y2="178" stroke="#d4a254" stroke-width="0.5" opacity="0.3"/>
+    <text x="135" y="200" text-anchor="middle" class="fs-desc" font-size="9">The Bible is the</text>
+    <text x="135" y="214" text-anchor="middle" class="fs-desc" font-size="9">sole infallible rule</text>
+    <text x="135" y="228" text-anchor="middle" class="fs-desc" font-size="9">of faith and</text>
+    <text x="135" y="242" text-anchor="middle" class="fs-desc" font-size="9">practice</text>
+    <text x="135" y="310" text-anchor="middle" class="fs-verse" font-size="8" opacity="0.6">2 Tim 3:16</text>
+  </g>
+
+  <!-- ===== PILLAR 2: Sola Fide ===== -->
+  <g class="pillar">
+    <rect x="230" y="110" width="130" height="230" rx="3" fill="url(#fs-pillar)" stroke="rgba(212,162,84,0.2)" stroke-width="1"/>
+    <rect x="225" y="105" width="140" height="12" rx="2" fill="#12121a" stroke="#d4a254" stroke-width="0.8" opacity="0.5"/>
+    <rect x="225" y="335" width="140" height="10" rx="2" fill="#12121a" stroke="#d4a254" stroke-width="0.8" opacity="0.5"/>
+    <text x="295" y="145" text-anchor="middle" class="fs-latin" font-size="14">Sola Fide</text>
+    <text x="295" y="168" text-anchor="middle" class="fs-english" font-size="11">Faith Alone</text>
+    <line x1="265" y1="178" x2="325" y2="178" stroke="#d4a254" stroke-width="0.5" opacity="0.3"/>
+    <text x="295" y="200" text-anchor="middle" class="fs-desc" font-size="9">Justification is</text>
+    <text x="295" y="214" text-anchor="middle" class="fs-desc" font-size="9">received through</text>
+    <text x="295" y="228" text-anchor="middle" class="fs-desc" font-size="9">faith alone, not</text>
+    <text x="295" y="242" text-anchor="middle" class="fs-desc" font-size="9">works</text>
+    <text x="295" y="310" text-anchor="middle" class="fs-verse" font-size="8" opacity="0.6">Rom 3:28</text>
+  </g>
+
+  <!-- ===== PILLAR 3: Sola Gratia (CENTER — tallest) ===== -->
+  <g class="pillar">
+    <rect x="390" y="95" width="130" height="245" rx="3" fill="url(#fs-pillar)" stroke="rgba(212,162,84,0.3)" stroke-width="1.5"/>
+    <rect x="385" y="90" width="140" height="12" rx="2" fill="#12121a" stroke="#d4a254" stroke-width="1" opacity="0.6"/>
+    <rect x="385" y="335" width="140" height="10" rx="2" fill="#12121a" stroke="#d4a254" stroke-width="1" opacity="0.6"/>
+    <text x="455" y="128" text-anchor="middle" class="fs-latin" font-size="15">Sola Gratia</text>
+    <text x="455" y="152" text-anchor="middle" class="fs-english" font-size="12">Grace Alone</text>
+    <line x1="420" y1="162" x2="490" y2="162" stroke="#d4a254" stroke-width="0.5" opacity="0.4"/>
+    <text x="455" y="185" text-anchor="middle" class="fs-desc" font-size="9">Salvation is entirely</text>
+    <text x="455" y="199" text-anchor="middle" class="fs-desc" font-size="9">a gift of God's</text>
+    <text x="455" y="213" text-anchor="middle" class="fs-desc" font-size="9">unmerited favor,</text>
+    <text x="455" y="227" text-anchor="middle" class="fs-desc" font-size="9">not earned or</text>
+    <text x="455" y="241" text-anchor="middle" class="fs-desc" font-size="9">deserved</text>
+    <text x="455" y="310" text-anchor="middle" class="fs-verse" font-size="8" opacity="0.6">Eph 2:8-9</text>
+  </g>
+
+  <!-- ===== PILLAR 4: Solus Christus ===== -->
+  <g class="pillar">
+    <rect x="550" y="110" width="130" height="230" rx="3" fill="url(#fs-pillar)" stroke="rgba(212,162,84,0.2)" stroke-width="1"/>
+    <rect x="545" y="105" width="140" height="12" rx="2" fill="#12121a" stroke="#d4a254" stroke-width="0.8" opacity="0.5"/>
+    <rect x="545" y="335" width="140" height="10" rx="2" fill="#12121a" stroke="#d4a254" stroke-width="0.8" opacity="0.5"/>
+    <text x="615" y="145" text-anchor="middle" class="fs-latin" font-size="14">Solus Christus</text>
+    <text x="615" y="168" text-anchor="middle" class="fs-english" font-size="11">Christ Alone</text>
+    <line x1="585" y1="178" x2="645" y2="178" stroke="#d4a254" stroke-width="0.5" opacity="0.3"/>
+    <text x="615" y="200" text-anchor="middle" class="fs-desc" font-size="9">Jesus Christ is</text>
+    <text x="615" y="214" text-anchor="middle" class="fs-desc" font-size="9">the only mediator</text>
+    <text x="615" y="228" text-anchor="middle" class="fs-desc" font-size="9">between God</text>
+    <text x="615" y="242" text-anchor="middle" class="fs-desc" font-size="9">and man</text>
+    <text x="615" y="310" text-anchor="middle" class="fs-verse" font-size="8" opacity="0.6">1 Tim 2:5</text>
+  </g>
+
+  <!-- ===== PILLAR 5: Soli Deo Gloria ===== -->
+  <g class="pillar">
+    <rect x="710" y="110" width="130" height="230" rx="3" fill="url(#fs-pillar)" stroke="rgba(212,162,84,0.2)" stroke-width="1"/>
+    <rect x="705" y="105" width="140" height="12" rx="2" fill="#12121a" stroke="#d4a254" stroke-width="0.8" opacity="0.5"/>
+    <rect x="705" y="335" width="140" height="10" rx="2" fill="#12121a" stroke="#d4a254" stroke-width="0.8" opacity="0.5"/>
+    <text x="775" y="145" text-anchor="middle" class="fs-latin" font-size="14">Soli Deo Gloria</text>
+    <text x="775" y="168" text-anchor="middle" class="fs-english" font-size="11">God's Glory Alone</text>
+    <line x1="745" y1="178" x2="805" y2="178" stroke="#d4a254" stroke-width="0.5" opacity="0.3"/>
+    <text x="775" y="200" text-anchor="middle" class="fs-desc" font-size="9">All glory belongs</text>
+    <text x="775" y="214" text-anchor="middle" class="fs-desc" font-size="9">to God alone —</text>
+    <text x="775" y="228" text-anchor="middle" class="fs-desc" font-size="9">the Alpha and</text>
+    <text x="775" y="242" text-anchor="middle" class="fs-desc" font-size="9">Omega of all</text>
+    <text x="775" y="310" text-anchor="middle" class="fs-verse" font-size="8" opacity="0.6">Rom 11:36</text>
+  </g>
+
+  <!-- Bottom inscription -->
+  <text x="450" y="375" text-anchor="middle" font-family="'Playfair Display', serif" font-size="12" fill="#f0ece4" font-style="italic">"For from him and through him and to him are all things."</text>
+  <text x="450" y="400" text-anchor="middle" class="fs-mono" font-size="9" fill="#d4a254" opacity="0.5" letter-spacing="0.1em">ROMANS 11:36 — THE SUMMARY OF ALL THEOLOGY</text>
+</svg>

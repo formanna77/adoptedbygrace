@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Scripture: The Word of God">
+  <!-- Open Bible -->
+  <path d="M8 10 L24 14 L40 10 L40 38 L24 34 L8 38 Z" fill="none" stroke="#d4a254" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Center spine -->
+  <line x1="24" y1="14" x2="24" y2="34" stroke="#d4a254" stroke-width="1.2"/>
+  <!-- Text lines left page -->
+  <line x1="12" y1="18" x2="21" y2="20" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <line x1="12" y1="22" x2="21" y2="24" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <line x1="12" y1="26" x2="21" y2="28" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <line x1="12" y1="30" x2="21" y2="32" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <!-- Text lines right page -->
+  <line x1="27" y1="20" x2="36" y2="18" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <line x1="27" y1="24" x2="36" y2="22" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <line x1="27" y1="28" x2="36" y2="26" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <line x1="27" y1="32" x2="36" y2="30" stroke="#d4a254" stroke-width="0.7" opacity="0.4"/>
+  <!-- Light rays from above -->
+  <line x1="24" y1="2" x2="24" y2="8" stroke="#d4a254" stroke-width="1" opacity="0.3" stroke-linecap="round"/>
+  <line x1="18" y1="4" x2="20" y2="9" stroke="#d4a254" stroke-width="0.8" opacity="0.2" stroke-linecap="round"/>
+  <line x1="30" y1="4" x2="28" y2="9" stroke="#d4a254" stroke-width="0.8" opacity="0.2" stroke-linecap="round"/>
+</svg>

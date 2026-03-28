@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" role="img" aria-label="The Golden Chain of Romans 8:29-30: Foreknew, Predestined, Called, Justified, Glorified — an unbreakable chain of sovereign grace">
+  <defs>
+    <linearGradient id="gc-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#10101a"/>
+    </linearGradient>
+    <linearGradient id="gc-chain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a254"/>
+      <stop offset="50%" stop-color="#c4922a"/>
+      <stop offset="100%" stop-color="#d4a254"/>
+    </linearGradient>
+    <linearGradient id="gc-chain-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a07830"/>
+      <stop offset="50%" stop-color="#8a6820"/>
+      <stop offset="100%" stop-color="#a07830"/>
+    </linearGradient>
+    <filter id="gc-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono:wght@600&amp;display=swap');
+
+      .gc-title { font-family: 'Playfair Display', serif; font-weight: 800; fill: #f0ece4; }
+      .gc-word { font-family: 'Playfair Display', serif; font-weight: 700; fill: #d4a254; }
+      .gc-desc { font-family: 'Inter', sans-serif; font-weight: 400; fill: #9a958c; font-size: 11px; }
+      .gc-greek { font-family: 'Inter', sans-serif; font-weight: 500; fill: #8b5cf6; font-size: 10px; font-style: italic; }
+      .gc-verse { font-family: 'JetBrains Mono', monospace; font-weight: 600; fill: #d4a254; }
+
+      @keyframes chain-shimmer {
+        0% { opacity: 0.6; }
+        50% { opacity: 1; }
+        100% { opacity: 0.6; }
+      }
+      @keyframes link-appear {
+        from { opacity: 0; transform: scale(0.8); }
+        to { opacity: 1; transform: scale(1); }
+      }
+
+      .chain-link { animation: chain-shimmer 4s ease-in-out infinite; }
+      .chain-link:nth-child(2) { animation-delay: 0.5s; }
+      .chain-link:nth-child(3) { animation-delay: 1.0s; }
+      .chain-link:nth-child(4) { animation-delay: 1.5s; }
+      .chain-link:nth-child(5) { animation-delay: 2.0s; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="400" fill="url(#gc-bg)"/>
+
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#d4a254" opacity="0.5" letter-spacing="0.2em">ROMANS 8:29-30</text>
+  <text x="450" y="68" text-anchor="middle" class="gc-title" font-size="24">The Golden Chain</text>
+
+  <!-- Chain links — 5 interlocking oval links across the middle -->
+  <!-- Each link is a rounded rectangle/oval representing a chain link -->
+
+  <!-- Connecting chain segments (behind the main links) -->
+  <g opacity="0.5">
+    <ellipse cx="225" cy="165" rx="55" ry="22" fill="none" stroke="url(#gc-chain-dark)" stroke-width="6" transform="rotate(15, 225, 165)"/>
+    <ellipse cx="375" cy="165" rx="55" ry="22" fill="none" stroke="url(#gc-chain-dark)" stroke-width="6" transform="rotate(-15, 375, 165)"/>
+    <ellipse cx="525" cy="165" rx="55" ry="22" fill="none" stroke="url(#gc-chain-dark)" stroke-width="6" transform="rotate(15, 525, 165)"/>
+    <ellipse cx="675" cy="165" rx="55" ry="22" fill="none" stroke="url(#gc-chain-dark)" stroke-width="6" transform="rotate(-15, 675, 165)"/>
+  </g>
+
+  <!-- Main chain links -->
+  <!-- 1. FOREKNEW -->
+  <g class="chain-link">
+    <ellipse cx="150" cy="165" rx="65" ry="28" fill="none" stroke="url(#gc-chain)" stroke-width="7" filter="url(#gc-glow)"/>
+    <text x="150" y="170" text-anchor="middle" class="gc-word" font-size="15">Foreknew</text>
+  </g>
+
+  <!-- 2. PREDESTINED -->
+  <g class="chain-link">
+    <ellipse cx="300" cy="165" rx="65" ry="28" fill="none" stroke="url(#gc-chain)" stroke-width="7" filter="url(#gc-glow)"/>
+    <text x="300" y="170" text-anchor="middle" class="gc-word" font-size="15">Predestined</text>
+  </g>
+
+  <!-- 3. CALLED -->
+  <g class="chain-link">
+    <ellipse cx="450" cy="165" rx="65" ry="28" fill="none" stroke="url(#gc-chain)" stroke-width="7" filter="url(#gc-glow)"/>
+    <text x="450" y="170" text-anchor="middle" class="gc-word" font-size="15">Called</text>
+  </g>
+
+  <!-- 4. JUSTIFIED -->
+  <g class="chain-link">
+    <ellipse cx="600" cy="165" rx="65" ry="28" fill="none" stroke="url(#gc-chain)" stroke-width="7" filter="url(#gc-glow)"/>
+    <text x="600" y="170" text-anchor="middle" class="gc-word" font-size="15">Justified</text>
+  </g>
+
+  <!-- 5. GLORIFIED -->
+  <g class="chain-link">
+    <ellipse cx="750" cy="165" rx="65" ry="28" fill="none" stroke="url(#gc-chain)" stroke-width="7" filter="url(#gc-glow)"/>
+    <text x="750" y="170" text-anchor="middle" class="gc-word" font-size="15">Glorified</text>
+  </g>
+
+  <!-- Greek terms below each link -->
+  <text x="150" y="210" text-anchor="middle" class="gc-greek">προέγνω</text>
+  <text x="300" y="210" text-anchor="middle" class="gc-greek">προώρισεν</text>
+  <text x="450" y="210" text-anchor="middle" class="gc-greek">ἐκάλεσεν</text>
+  <text x="600" y="210" text-anchor="middle" class="gc-greek">ἐδικαίωσεν</text>
+  <text x="750" y="210" text-anchor="middle" class="gc-greek">ἐδόξασεν</text>
+
+  <!-- Descriptions below Greek -->
+  <text x="150" y="235" text-anchor="middle" class="gc-desc">Set His love</text>
+  <text x="150" y="249" text-anchor="middle" class="gc-desc">upon them</text>
+
+  <text x="300" y="235" text-anchor="middle" class="gc-desc">Marked out</text>
+  <text x="300" y="249" text-anchor="middle" class="gc-desc">beforehand</text>
+
+  <text x="450" y="235" text-anchor="middle" class="gc-desc">Effectually</text>
+  <text x="450" y="249" text-anchor="middle" class="gc-desc">summoned</text>
+
+  <text x="600" y="235" text-anchor="middle" class="gc-desc">Declared</text>
+  <text x="600" y="249" text-anchor="middle" class="gc-desc">righteous</text>
+
+  <text x="750" y="235" text-anchor="middle" class="gc-desc">Brought to</text>
+  <text x="750" y="249" text-anchor="middle" class="gc-desc">final glory</text>
+
+  <!-- "Aorist tense" note -->
+  <rect x="250" y="275" width="400" height="32" rx="4" fill="#12121a" stroke="rgba(139,92,246,0.2)" stroke-width="1"/>
+  <text x="450" y="296" text-anchor="middle" font-family="'Inter', sans-serif" font-size="10" fill="#8b5cf6" opacity="0.8">All five verbs are aorist indicative — completed action. Even glorification is past tense.</text>
+
+  <!-- Bottom Scripture quote -->
+  <text x="450" y="340" text-anchor="middle" font-family="'Playfair Display', serif" font-size="13" fill="#f0ece4" font-style="italic">"Those whom he foreknew he also predestined... and those whom</text>
+  <text x="450" y="358" text-anchor="middle" font-family="'Playfair Display', serif" font-size="13" fill="#f0ece4" font-style="italic">he predestined he also called... justified... glorified."</text>
+  <text x="450" y="380" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#d4a254" opacity="0.6" letter-spacing="0.1em">FIVE LINKS. ZERO CONDITIONS. NO ONE LOST BETWEEN LINKS.</text>
+</svg>

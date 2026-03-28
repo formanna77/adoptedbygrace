@@ -625,7 +625,8 @@
         .related-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.8rem; }
         .related-explore-grid a { display: block; padding: 0.8rem 1rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 168, 83, 0.15); border-radius: 8px; color: var(--text-primary, #e8e6e3); text-decoration: none; font-size: 0.9rem; font-family: 'Inter', sans-serif; transition: all 0.2s; }
         .related-explore-grid a:hover { border-color: var(--accent-gold, #d4a853); background: rgba(212, 168, 83, 0.08); transform: translateY(-1px); }
-    </style>
+    @media (max-width: 768px) { .section-nav { display: none !important; } }
+</style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -672,6 +673,11 @@
             <li><a href="#reading" class="nav-section-link">Further Reading</a></li>
         </ul>
     </nav>
+
+    <!-- Visual: Compatibilism Diagram -->
+    <div style="max-width: 900px; margin: 0 auto 2rem; padding: 0 1rem;">
+        <img src="svg/compatibilism-diagram.svg" alt="Compatibilism: God's Sovereignty and Human Responsibility — two rails of one track, not competing forces" style="width: 100%; height: auto; border-radius: 8px; border: 1px solid rgba(212,162,84,0.1);" loading="lazy">
+    </div>
 
     <!-- Main Content -->
     <div class="content-container">

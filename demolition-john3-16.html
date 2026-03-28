@@ -162,7 +162,8 @@
         .breadcrumb-nav { max-width: 900px; margin: 1rem auto 0; padding: 0 2rem; }
         .breadcrumb-nav a { color: var(--accent-gold, #d4a853); text-decoration: none; font-size: 0.85rem; font-family: 'Inter', sans-serif; letter-spacing: 0.03em; opacity: 0.8; transition: opacity 0.2s; }
         .breadcrumb-nav a:hover { opacity: 1; text-decoration: underline; }
-    </style>
+    @media (max-width: 768px) { .section-nav { display: none !important; } }
+</style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>

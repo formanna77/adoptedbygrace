@@ -70,6 +70,13 @@
 - `scripture-tsunami.html` — **NEW** Scripture Tsunami: 200+ verse interactive database organized by TULIP doctrine
 - `quiz.html` — **NEW** Reformed Theology Quiz — 30 interactive TULIP questions with instant Scripture-backed feedback, 3 difficulty modes, TULIP category scoring, study recommendations
 - `search.html` — **NEW** Client-side full-text search across 60+ pages with category filters, keyword highlighting, popular search tags, URL param support
+- `ot-election.html` — **NEW** OT Election Hub — gateway to 6 character studies on sovereign choice throughout the Old Testament
+- `ot-jacob-esau.html` — **NEW** Jacob vs. Esau — Election before birth (Genesis 25, Malachi 1:2-3, Romans 9:10-13)
+- `ot-abraham.html` — **NEW** Abraham — Election and the covenant (Genesis 12-18, Nehemiah 9:7, Romans 4)
+- `ot-moses-pharaoh.html` — **NEW** Moses & Pharaoh — Mercy and hardening (Exodus 3-14, Romans 9:14-18)
+- `ot-david.html` — **NEW** David — Election and kingship (1 Samuel 16, Psalm 65:4, 2 Samuel 7)
+- `ot-joseph.html` — **NEW** Joseph — Sovereignty in suffering (Genesis 37-50, Genesis 50:20)
+- `ot-israel-chosen.html` — **NEW** Israel: A Chosen Nation (Deuteronomy 7:6-8, 9:4-6, Isaiah 46:9-10)
 
 ### Design System
 - Dark dramatic aesthetic (#0a0a0f bg, gold/ember/violet accents)
@@ -101,12 +108,20 @@
 - [ ] **Revelation 13:8 / 17:8 page** — "names written before the foundation of the world"
 
 ### Priority 2 — Old Testament Election
-- [ ] **Deuteronomy 7:6-8 page** — "The LORD your God has chosen you" — not because you were more
-- [ ] **Isaiah 46:9-10 / 55:11 page** — God's word accomplishes what He purposes
-- [ ] **Malachi 1:2-3 / Jacob and Esau** — "Jacob I loved, Esau I hated" — OT context
-- [ ] **Exodus hardening of Pharaoh** — God's sovereignty over hearts
-- [ ] **Psalm 65:4 page** — "Blessed is the one you choose and bring near"
-- [ ] **Proverbs 16:33 / 21:1 page** — Sovereignty over lots and kings' hearts
+- [x] **OT Election Hub** — `ot-election.html` — Hub page linking all OT election character studies ✅ (2026-03-27 OT Election Session)
+- [x] **Jacob vs. Esau** — `ot-jacob-esau.html` — Election before birth, Romans 9 foundation, Malachi 1:2-3 ✅ (2026-03-27 OT Election Session)
+- [x] **Abraham: Election & Covenant** — `ot-abraham.html` — God's sovereign call from pagan Ur, Genesis 15 unilateral covenant, Isaac vs. Ishmael ✅ (2026-03-27 OT Election Session)
+- [x] **Moses & Pharaoh** — `ot-moses-pharaoh.html` — Mercy and hardening, Exodus 33:19, Romans 9:14-18 ✅ (2026-03-27 OT Election Session)
+- [x] **David: Election & Kingship** — `ot-david.html` — The youngest chosen, Psalm 65:4, Davidic covenant, type of Christ ✅ (2026-03-27 OT Election Session)
+- [x] **Joseph: Sovereignty in Suffering** — `ot-joseph.html` — Genesis 50:20, compatibilism, type of Christ ✅ (2026-03-27 OT Election Session)
+- [x] **Israel: A Chosen Nation** — `ot-israel-chosen.html` — Deuteronomy 7:6-8, 9:4-6, remnant principle, Isaiah 46:9-10 ✅ (2026-03-27 OT Election Session)
+- [ ] **Noah: Chosen for Preservation** — Genesis 6-9, grace before the flood
+- [ ] **Abel vs. Cain: The First Election** — Genesis 4, Hebrews 11:4
+- [ ] **Isaiah's Servant** — The ultimate election narrative
+- [ ] **Jeremiah: Called Before Formation** — Jeremiah 1:5
+- [ ] **Job: Suffering and God's Sovereignty**
+- [ ] **Jonah: Reluctant Chosen Instrument**
+- [ ] **Proverbs 16:33 / 21:1 standalone page** — Sovereignty over lots and kings' hearts
 
 ### Priority 3 — Systematic Theology Pages
 - [x] **Systematic Theology Hub** — `systematic-theology.html` — Hub linking all systematic theology topics
@@ -243,7 +258,119 @@
 
 ---
 
+## Visual Design Backlog
+
+### Completed
+- [x] **TULIP Diagram** — Animated SVG flower with 5 petals (T-U-L-I-P), content rows with descriptions and verse refs → `svg/tulip-diagram.svg` ✅ (2026-03-27 Visual Design Agent)
+- [x] **Ordo Salutis Timeline** — 10-step animated timeline from eternity past (Election) to eternity future (Glorification), with Greek terms, verse refs, Romans 8:30 quote → `svg/ordo-salutis-timeline.svg` ✅ (2026-03-27 Visual Design Agent)
+- [x] **Golden Chain** — Interlocking chain links for Romans 8:29-30 (Foreknew → Predestined → Called → Justified → Glorified), Greek terms, aorist tense note → `svg/golden-chain.svg` ✅ (2026-03-27 Visual Design Agent)
+- [x] **Compatibilism Diagram** — Two-rail convergence showing God's sovereignty + human responsibility as complementary, 4 biblical examples → `svg/compatibilism-diagram.svg` ✅ (2026-03-27 Visual Design Agent)
+- [x] **Election Flow Diagram** — Trinitarian flow: Father Elects → Son Redeems → Spirit Applies, converging on the elect → `svg/election-flow.svg` ✅ (2026-03-27 Visual Design Agent)
+- [x] **Adoption Illustration** — Before/Decree/After triptych showing spiritual adoption from orphan to heir → `svg/adoption-illustration.svg` ✅ (2026-03-27 Visual Design Agent)
+- [x] **Doctrine Icon Set** — 10 SVG icons: election, depravity, atonement, grace, perseverance, scripture, adoption, sovereignty, covenant, regeneration → `svg/icons/` ✅ (2026-03-27 Visual Design Agent)
+- [x] **Hero Cross** — Subtle decorative cross with glow effect → `svg/hero-cross.svg` ✅ (2026-03-27 Visual Design Agent)
+- [x] **Decorative Divider** — Elegant gold divider with diamond ornament → `svg/divider-grace.svg` ✅ (2026-03-27 Visual Design Agent)
+
+### Pending
+- [ ] **Scroll-triggered animations** — CSS animations that trigger on scroll for section headers and cards
+- [ ] **Pull-quote callout designs** — Styled blockquote components for theologian quotes
+- [ ] **Reading progress bar** — Animated progress indicator for long articles (some pages already have this)
+- [ ] **Page transition animations** — Smooth transitions between pages
+- [ ] **Interactive TULIP explorer** — Click-to-expand HTML component version of TULIP diagram
+- [ ] **Animated verse carousel** — Auto-scrolling banner of key verses with typewriter effect
+- [x] **Five Solas visual** — Five pillars illustration with Latin, English, descriptions, and verse refs → `svg/five-solas.svg` ✅ (2026-03-27 Visual Design Agent)
+- [ ] **Redemptive History Timeline** — Interactive visual timeline from creation to consummation
+
+---
+
 ## Session Log
+
+### 2026-03-27 — Visual Design Agent: 9 SVG Illustrations + 6 Page Integrations
+- **Created 9 SVG visual assets** in `/svg/` directory — all responsive, animated, accessible, matching site design system (dark dramatic, gold/ember/violet)
+- **Major Illustrations:**
+  - `svg/tulip-diagram.svg` — The Five Points of Grace as an animated tulip flower with pulsing petals, content rows for each point with verse references
+  - `svg/ordo-salutis-timeline.svg` — Sweeping 10-step timeline from Election to Glorification with era markers (Eternity Past → In Time → Eternity Future), animated node appearances, Romans 8:30 quote block
+  - `svg/golden-chain.svg` — Interlocking chain links with gold gradient, Greek terms (προέγνω, προώρισεν, ἐκάλεσεν, ἐδικαίωσεν, ἐδόξασεν), shimmer animation, aorist tense notation
+  - `svg/compatibilism-diagram.svg` — Two-rail convergence diagram showing sovereignty + responsibility as complementary rails, 4 biblical examples (Joseph, Cross, Pharaoh, Assyria)
+  - `svg/election-flow.svg` — Trinitarian election flow: Father Elects (Eph 1:4) → Son Redeems (John 10:11) → Spirit Applies (Titus 3:5), animated flow lines, "NOT from man" rejection panel
+  - `svg/adoption-illustration.svg` — Before/Decree/After triptych: orphan in chains → adoption decree with seal → crowned heir with radiance, 1 John 3:1 quote
+- **Decorative Elements:**
+  - `svg/hero-cross.svg` — Subtle cross with ambient glow for hero backgrounds
+  - `svg/divider-grace.svg` — Elegant horizontal divider with diamond ornament
+- **Doctrine Icon Set (10 icons in `svg/icons/`):**
+  - `icon-election.svg` — Crown + choosing hand
+  - `icon-depravity.svg` — Cracked stone heart with chains
+  - `icon-atonement.svg` — Cross with blood drops
+  - `icon-grace.svg` — Descending dove with new heart
+  - `icon-perseverance.svg` — Cupped hands holding figure + seal
+  - `icon-scripture.svg` — Open Bible with light rays
+  - `icon-adoption.svg` — Parent embracing child + adoption papers
+  - `icon-sovereignty.svg` — Crown over globe
+  - `icon-covenant.svg` — Scroll with seal
+  - `icon-regeneration.svg` — Stone heart → living heart transformation
+- **Integrated visuals into 6 existing pages:**
+  - `systematic-ordo-salutis.html` — Ordo Salutis timeline below hero
+  - `systematic-compatibilism.html` — Compatibilism diagram below hero
+  - `systematic-theology.html` — Ordo Salutis timeline on hub page
+  - `start-here-phase2.html` — TULIP diagram above content
+  - `question-goldchain.html` — Golden Chain visual below hero
+  - `question-chosen.html` — Election Flow diagram below hero
+  - `about.html` — Adoption illustration below hero
+  - `index.html` — TULIP diagram between nuggets and featured sections
+  - `resources-confessions.html` — Five Solas pillar illustration below hero
+- **Created bonus `svg/five-solas.svg`** — Five Solas as architectural pillars: Sola Scriptura, Sola Fide, Sola Gratia (center, tallest), Solus Christus, Soli Deo Gloria. Animated pillar-rise effect, verse refs, Romans 11:36 bottom inscription
+- **Design principles followed:**
+  - All SVGs use site design system: `#0a0a0f` bg, `#d4a254` gold, `#e8642c` ember, `#8b5cf6` violet
+  - Playfair Display / Inter / JetBrains Mono font stack
+  - CSS animations: pulse, shimmer, fade-in, flow, grow effects
+  - Responsive (viewBox-based, no fixed pixel sizes)
+  - Accessible (role="img", aria-label on every SVG)
+  - Lazy-loaded via `loading="lazy"` on all img tags
+- **Total new files:** 19 SVG files (7 major diagrams/illustrations + 10 doctrine icons + 2 decorative elements)
+- **Pages modified:** 8 HTML files updated with visual integrations (index, about, start-here-phase2, systematic-ordo-salutis, systematic-compatibilism, systematic-theology, question-goldchain, question-chosen, resources-confessions)
+- **Next priorities:** Scroll-triggered animations, pull-quote callout designs, interactive TULIP explorer, animated verse carousel, Redemptive History Timeline
+
+### 2026-03-27 — OT Election Specialist: 7 New Pages (Entire OT Election Series Launch)
+- **New section launched:** Old Testament Election — 1 hub page + 6 comprehensive character studies
+- **Built `ot-election.html`** — Hub page with theological introduction ("The Pattern of Sovereign Choice"), 6 live character study cards, 6 coming-soon studies, key OT election texts reference section
+- **Built `ot-jacob-esau.html`** — Jacob vs. Esau: Election Before Birth (~4,500 words)
+  - Genesis 25 narrative, the oracle before birth, Hebrew word studies (bachar, ahav, sane)
+  - Malachi 1:2-3 commentary, Romans 9:10-13 Greek analysis (eklogē, prothesis)
+  - The pattern of younger over elder across Scripture
+  - 5 Arminian objections answered, 6 Reformed witnesses
+- **Built `ot-abraham.html`** — Abraham: Election and the Covenant (~4,800 words)
+  - The call from pagan Ur (Joshua 24:2, Nehemiah 9:7), Hebrew studies (bachar, qara, berit)
+  - Genesis 15 unilateral covenant (God alone passes between the pieces)
+  - Genesis 18:19 elective knowledge (yada), Abraham's faith as gift not achievement
+  - Isaac vs. Ishmael pattern, NT fulfillment in Galatians 3 and Romans 4
+  - 5 Arminian objections answered, 6 Reformed witnesses
+- **Built `ot-moses-pharaoh.html`** — Moses & Pharaoh: Mercy and Hardening (~5,200 words)
+  - Two sides of sovereignty: mercy for Moses, hardening for Pharaoh
+  - Hebrew studies (chanan, racham, chazaq, kaved), three phases of Pharaoh's hardening
+  - Exodus 33:19 as the fountain of election, Romans 9:14-18 Greek analysis
+  - Purpose of the plagues (Exodus 9:16), double predestination, compatibilism
+  - 5 Arminian objections answered, 6 Reformed witnesses
+- **Built `ot-david.html`** — David: Election and Kingship (~4,200 words)
+  - 1 Samuel 16 narrative (the youngest chosen), Psalm 65:4 analysis
+  - Hebrew studies (bachar, mashach, lev, nagid), Davidic covenant (2 Samuel 7)
+  - David's psalms of election (Psalm 139, 33, 135), "man after God's heart" paradox
+  - David as type of Christ, 5 Arminian objections answered, 6 Reformed witnesses
+- **Built `ot-joseph.html`** — Joseph: Sovereignty in Suffering (~4,800 words)
+  - Genesis 37-50 narrative arc (dreamer → descent → exaltation)
+  - Genesis 45:5-8 and 50:20 — the theological keys to compatibilism
+  - Hebrew studies (chashav — same verb for evil intent and divine purpose)
+  - Joseph as type of Christ (10 parallels), TULIP connections
+  - 5 Arminian objections answered, 6 Reformed witnesses
+- **Built `ot-israel-chosen.html`** — Israel: A Chosen Nation (~5,200 words)
+  - Deuteronomy 7:6-8 (the circular logic of grace), Deuteronomy 9:4-6 (triple negation)
+  - Hebrew studies (bachar, segullah, ahav, qadosh), Isaiah 41 & 46, Amos 3:2
+  - The remnant principle (Isaiah 10, Romans 9:27, Romans 11:5-7)
+  - NT fulfillment (1 Peter 2:9, the church as true Israel)
+  - 4 Arminian objections answered, 6 Reformed witnesses
+- **Updated `sitemap.xml`** — 7 new pages added
+- **All pages include:** JSON-LD structured data, full meta tags, canonical URLs, reading progress bar, back-to-top button, section navigation, responsive design, skip-to-content accessibility, Hebrew/Greek word studies with transliterations, Reformed theologian witnesses, Arminian objections answered
+- **Total new theological content:** ~29,000+ words across 7 pages
+- **Current page count:** 68+ HTML files
 
 ### 2026-03-27 — Interactive Features Agent: Quiz + Search
 - **Built `quiz.html`** — Reformed Theology Quiz: comprehensive interactive assessment of TULIP knowledge
