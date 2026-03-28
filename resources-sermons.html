@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curated sermon library on the doctrines of grace: Sproul, Piper, MacArthur, Lawson, Beeke, Voddie Baucham, and more — organized by topic, preacher, and Scripture passage.">
+    <meta property="og:title" content="Sermon Library — Faithful Preaching on the Doctrines of Grace">
+    <meta property="og:description" content="Curated sermon library on the doctrines of grace: Sproul, Piper, MacArthur, Lawson, Beeke, and more — organized by topic and Scripture.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/resources-sermons.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/resources-sermons.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Sermon Library — Faithful Preaching on the Doctrines of Grace">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Sermon Library — Faithful Preaching on the Doctrines of Grace | Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "headline": "Sermon Library — Faithful Preaching on the Doctrines of Grace",
+        "description": "Curated sermon library on the doctrines of grace: Sproul, Piper, MacArthur, Lawson, Beeke, and more.",
+        "url": "https://adoptedbygrace.net/resources-sermons.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.7; overflow-x: hidden; -webkit-text-size-adjust: 100%; }
+
+        nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 15, 0.85); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0.1em; text-decoration: none; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { text-decoration: none; color: var(--text-secondary); font-size: 0.95rem; transition: color 0.3s ease; font-weight: 500; }
+        .nav-links a:hover, .nav-links a.active { color: var(--accent-gold); }
+
+        .hero { max-width: 900px; margin: 3rem auto; padding: 3rem 2rem; text-align: center; }
+        .back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; transition: opacity 0.3s ease; }
+        .back-link:hover { opacity: 0.7; }
+        .topic-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 1rem; }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 800; margin-bottom: 1.5rem; line-height: 1.2; }
+        .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto; line-height: 1.8; }
+
+        .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 1.5rem; margin: 0 auto 3rem; max-width: 800px; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
+        .scripture-ref { display: block; margin-top: 0.8rem; font-style: normal; color: var(--text-muted); font-size: 0.85rem; }
+
+        .content { max-width: 1000px; margin: 0 auto; padding: 0 2rem 4rem; }
+
+        /* Sermon Topic Section */
+        .sermon-topic { margin-bottom: 3.5rem; }
+        .sermon-topic h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); margin-bottom: 0.6rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--border-subtle); }
+        .topic-desc { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem; }
+
+        .sermon-item { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.3rem 1.5rem; margin-bottom: 0.8rem; transition: all 0.3s ease; }
+        .sermon-item:hover { background: var(--bg-card-hover); border-color: rgba(212, 162, 84, 0.2); }
+        .sermon-title { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.3rem; }
+        .sermon-meta { display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; margin-bottom: 0.4rem; }
+        .sermon-preacher { font-size: 0.88rem; color: var(--accent-gold); font-weight: 600; }
+        .sermon-passage { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-violet); }
+        .sermon-source { font-size: 0.8rem; color: var(--text-muted); }
+        .sermon-desc { color: var(--text-secondary); font-size: 0.88rem; line-height: 1.6; }
+        .sermon-link { display: inline-block; margin-top: 0.5rem; color: var(--accent-gold); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: opacity 0.3s ease; }
+        .sermon-link:hover { opacity: 0.7; text-decoration: underline; }
+
+        /* Preacher Cards */
+        .preachers-section { max-width: 1000px; margin: 0 auto 4rem; padding: 0 2rem; }
+        .preachers-section h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--text-primary); text-align: center; margin-bottom: 0.8rem; }
+        .preachers-intro { text-align: center; color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem; }
+        .preacher-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; }
+        .preacher-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.5rem; }
+        .preacher-name { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--text-primary); margin-bottom: 0.3rem; }
+        .preacher-years { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); margin-bottom: 0.6rem; }
+        .preacher-desc { color: var(--text-secondary); font-size: 0.88rem; line-height: 1.6; margin-bottom: 0.8rem; }
+        .preacher-link { color: var(--accent-gold); text-decoration: none; font-size: 0.85rem; }
+        .preacher-link:hover { text-decoration: underline; }
+
+        footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center; }
+        .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
+        .footer-section ul { list-style: none; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--accent-gold); }
+        .footer-copyright { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
+
+        @media (max-width: 768px) {
+            nav { padding: 0.8rem 1rem; }
+            .nav-container { flex-direction: column; gap: 0.6rem; }
+            .nav-links { gap: 0.6rem; flex-wrap: wrap; justify-content: center; }
+            .nav-links a { font-size: 0.8rem; }
+            .hero h1 { font-size: 2.2rem; }
+            .preacher-grid { grid-template-columns: 1fr; }
+            .sermon-meta { flex-direction: column; gap: 0.3rem; align-items: flex-start; }
+            footer { padding: 2rem 1rem; }
+        }
+        .skip-to-content { position: absolute; top: -40px; left: 0; background: var(--accent-gold); color: var(--bg-deep); padding: 8px 16px; z-index: 10000; font-size: 0.9rem; transition: top 0.3s ease; }
+        .skip-to-content:focus { top: 0; }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">ADOPTED BY GRACE</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="start-here.html">Start Here</a></li>
+                <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
+                <li><a href="resources.html" class="active">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="main-content" class="hero">
+        <a href="resources.html" class="back-link">← Back to Resources</a>
+        <div class="topic-label">Sermon Library · Faithful Preaching</div>
+        <h1>Hear the Word Proclaimed</h1>
+        <p class="hero-subtitle">The best sermons on the doctrines of grace from the most faithful preachers — organized by topic and passage so you can hear the text preached well.</p>
+    </section>
+
+    <div class="scripture-block">
+        "How then will they call on him in whom they have not believed? And how are they to believe in him of whom they have never heard? And how are they to hear without someone preaching?"
+        <span class="scripture-ref">— Romans 10:14 (ESV)</span>
+    </div>
+
+    <div class="content">
+
+        <!-- SOVEREIGNTY & ELECTION -->
+        <div class="sermon-topic">
+            <h2>Sovereignty &amp; Election</h2>
+            <p class="topic-desc">Sermons on God's sovereign choice, unconditional election, and predestination.</p>
+
+            <div class="sermon-item">
+                <div class="sermon-title">Chosen by God (Teaching Series)</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">R.C. Sproul</span>
+                    <span class="sermon-passage">Ephesians 1; Romans 9</span>
+                    <span class="sermon-source">Ligonier Ministries</span>
+                </div>
+                <div class="sermon-desc">Sproul's landmark teaching series walking through the biblical case for unconditional election. Covers free will, the bondage of the will, double predestination, and the pastoral implications. Perhaps the finest audio/video introduction to the doctrines of grace available.</div>
+                <a href="https://www.ligonier.org/learn/series/chosen-by-god" target="_blank" rel="noopener" class="sermon-link">Listen at Ligonier →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">The Doctrines of Grace in John (Sermon Series)</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">John MacArthur</span>
+                    <span class="sermon-passage">John 6:35-65</span>
+                    <span class="sermon-source">Grace to You</span>
+                </div>
+                <div class="sermon-desc">MacArthur's verse-by-verse exposition of John 6 — the Father's drawing, the Son's receiving, and the Spirit's work. Methodical, exegetical, and uncompromising on the text's meaning.</div>
+                <a href="https://www.gty.org/library/sermons-library/43-36" target="_blank" rel="noopener" class="sermon-link">Listen at Grace to You →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">The Absolute Sovereignty of God</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">Voddie Baucham</span>
+                    <span class="sermon-passage">Romans 9:1-29</span>
+                </div>
+                <div class="sermon-desc">Baucham preaches Romans 9 with characteristic directness and passion. He refuses to let the text be domesticated by human comfort and shows why Paul's argument demands unconditional election.</div>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">Unconditional Election</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">John Piper</span>
+                    <span class="sermon-passage">Romans 9:6-13</span>
+                    <span class="sermon-source">Desiring God</span>
+                </div>
+                <div class="sermon-desc">Part of Piper's series on Romans. A careful exposition of Jacob and Esau showing that God's purpose of election stands "not because of works but because of him who calls."</div>
+                <a href="https://www.desiringgod.org/messages/unconditional-election-part-1" target="_blank" rel="noopener" class="sermon-link">Listen at Desiring God →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">Jacob I Loved, Esau I Hated</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">Steven Lawson</span>
+                    <span class="sermon-passage">Romans 9:10-13</span>
+                </div>
+                <div class="sermon-desc">Lawson's characteristically precise exposition of the most uncomfortable verses in Romans 9. He demonstrates that God's sovereignty in election is not arbitrary but purposeful, wise, and just.</div>
+            </div>
+        </div>
+
+        <!-- TOTAL DEPRAVITY -->
+        <div class="sermon-topic">
+            <h2>Total Depravity</h2>
+            <p class="topic-desc">Sermons on man's fallen condition, spiritual inability, and the bondage of the will.</p>
+
+            <div class="sermon-item">
+                <div class="sermon-title">Dead in Sin (Radical Corruption)</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">R.C. Sproul</span>
+                    <span class="sermon-passage">Ephesians 2:1-3</span>
+                    <span class="sermon-source">Ligonier Ministries</span>
+                </div>
+                <div class="sermon-desc">Sproul unpacks the meaning of spiritual death — not merely sickness, but death. He explains why dead men cannot cooperate in their own resurrection and why grace must be the sole cause of salvation.</div>
+                <a href="https://www.ligonier.org/learn/series/chosen-by-god" target="_blank" rel="noopener" class="sermon-link">Listen at Ligonier →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">The Total Depravity of Man</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">John MacArthur</span>
+                    <span class="sermon-passage">Romans 3:10-18</span>
+                    <span class="sermon-source">Grace to You</span>
+                </div>
+                <div class="sermon-desc">MacArthur walks through Paul's devastating indictment of the human race in Romans 3, showing that every faculty — mind, will, emotions, desires — is corrupted by the fall.</div>
+                <a href="https://www.gty.org/library/sermons-library/90-345" target="_blank" rel="noopener" class="sermon-link">Listen at Grace to You →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">Are People Basically Good?</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">Voddie Baucham</span>
+                    <span class="sermon-passage">Genesis 6:5; Jeremiah 17:9</span>
+                </div>
+                <div class="sermon-desc">Baucham confronts the culture's most comforting lie with the Bible's most sobering diagnosis. A powerful sermon on the depth of human depravity and the impossibility of self-salvation.</div>
+            </div>
+        </div>
+
+        <!-- IRRESISTIBLE GRACE -->
+        <div class="sermon-topic">
+            <h2>Irresistible Grace &amp; Effectual Calling</h2>
+            <p class="topic-desc">Sermons on God's effectual call that unfailingly brings His elect to saving faith.</p>
+
+            <div class="sermon-item">
+                <div class="sermon-title">Irresistible Grace (Teaching Series)</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">R.C. Sproul</span>
+                    <span class="sermon-passage">John 6:37-44</span>
+                    <span class="sermon-source">Ligonier Ministries</span>
+                </div>
+                <div class="sermon-desc">Sproul explains the distinction between the outward call of the gospel and the inward, effectual call of the Holy Spirit. When God calls effectually, the result is certain — the dead are made alive.</div>
+                <a href="https://www.ligonier.org/learn/series/chosen-by-god" target="_blank" rel="noopener" class="sermon-link">Listen at Ligonier →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">The Effectual Call</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">Steven Lawson</span>
+                    <span class="sermon-passage">Romans 8:29-30</span>
+                </div>
+                <div class="sermon-desc">Lawson traces the golden chain of redemption and shows that calling is not a mere invitation but a sovereign act of God that unfailingly produces faith, justification, and glorification.</div>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">New Birth</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">John Piper</span>
+                    <span class="sermon-passage">John 3:1-8; 1 Peter 1:3</span>
+                    <span class="sermon-source">Desiring God</span>
+                </div>
+                <div class="sermon-desc">Piper expounds Jesus' teaching to Nicodemus — the wind blows where it wishes. Regeneration is a sovereign act of God that precedes and produces faith. You must be born again, and you cannot birth yourself.</div>
+                <a href="https://www.desiringgod.org/messages/what-is-the-new-birth" target="_blank" rel="noopener" class="sermon-link">Listen at Desiring God →</a>
+            </div>
+        </div>
+
+        <!-- DEFINITE ATONEMENT -->
+        <div class="sermon-topic">
+            <h2>Definite Atonement</h2>
+            <p class="topic-desc">Sermons on the particular, effective, saving work of Christ for His sheep.</p>
+
+            <div class="sermon-item">
+                <div class="sermon-title">Limited Atonement</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">R.C. Sproul</span>
+                    <span class="sermon-passage">John 10:11, 14-15</span>
+                    <span class="sermon-source">Ligonier Ministries</span>
+                </div>
+                <div class="sermon-desc">Sproul reframes the question: the issue is not the power of the atonement (which is infinite) but its design. Did Christ intend to save all people, or did He lay down His life for His sheep?</div>
+                <a href="https://www.ligonier.org/learn/series/chosen-by-god" target="_blank" rel="noopener" class="sermon-link">Listen at Ligonier →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">For Whom Did Christ Die?</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">John MacArthur</span>
+                    <span class="sermon-passage">John 10:1-30</span>
+                    <span class="sermon-source">Grace to You</span>
+                </div>
+                <div class="sermon-desc">MacArthur expounds the Good Shepherd discourse and shows that Christ's atoning death was intentional, particular, and effective — He lays down His life for the sheep, and the sheep alone are given by the Father.</div>
+                <a href="https://www.gty.org/library/sermons-library/43-58" target="_blank" rel="noopener" class="sermon-link">Listen at Grace to You →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">The Death of Death in the Death of Christ</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">Steven Lawson</span>
+                    <span class="sermon-passage">Isaiah 53:4-12; Hebrews 9:12</span>
+                </div>
+                <div class="sermon-desc">Lawson presents the biblical and logical case for definite atonement — if Christ bore the sins of all without exception, then either all are saved or Christ's sacrifice fails for some. Neither option is biblical.</div>
+            </div>
+        </div>
+
+        <!-- PERSEVERANCE -->
+        <div class="sermon-topic">
+            <h2>Perseverance of the Saints</h2>
+            <p class="topic-desc">Sermons on the eternal security of believers grounded in God's sovereign keeping power.</p>
+
+            <div class="sermon-item">
+                <div class="sermon-title">Perseverance of the Saints (Teaching Series)</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">R.C. Sproul</span>
+                    <span class="sermon-passage">Romans 8:28-39; John 10:27-30</span>
+                    <span class="sermon-source">Ligonier Ministries</span>
+                </div>
+                <div class="sermon-desc">Sproul distinguishes Reformed perseverance from the shallow "once saved, always saved" of easy-believism. True believers persevere because God preserves — and He loses none of His own.</div>
+                <a href="https://www.ligonier.org/learn/series/chosen-by-god" target="_blank" rel="noopener" class="sermon-link">Listen at Ligonier →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">The Perseverance of the Saints</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">John Piper</span>
+                    <span class="sermon-passage">Romans 8:28-39</span>
+                    <span class="sermon-source">Desiring God</span>
+                </div>
+                <div class="sermon-desc">Piper walks through the golden chain of Romans 8:29-30 and the triumphant crescendo of 8:35-39. Nothing can separate us from the love of God because the chain has no broken links.</div>
+                <a href="https://www.desiringgod.org/messages/the-perseverance-of-the-saints" target="_blank" rel="noopener" class="sermon-link">Listen at Desiring God →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">Eternal Security</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">John MacArthur</span>
+                    <span class="sermon-passage">John 10:27-30</span>
+                    <span class="sermon-source">Grace to You</span>
+                </div>
+                <div class="sermon-desc">MacArthur shows that eternal security is not a license to sin but the most powerful assurance in the universe — grounded in Christ's promise that no one can snatch His sheep from His hand or the Father's.</div>
+                <a href="https://www.gty.org/library/sermons-library/43-60" target="_blank" rel="noopener" class="sermon-link">Listen at Grace to You →</a>
+            </div>
+        </div>
+
+        <!-- COMPREHENSIVE SERIES -->
+        <div class="sermon-topic">
+            <h2>Complete Sermon Series</h2>
+            <p class="topic-desc">Multi-part series covering the whole system of Reformed theology.</p>
+
+            <div class="sermon-item">
+                <div class="sermon-title">Chosen by God (6 Messages)</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">R.C. Sproul</span>
+                    <span class="sermon-source">Ligonier Ministries</span>
+                </div>
+                <div class="sermon-desc">The complete "Chosen by God" teaching series — covering free will, man's fallen nature, the sovereignty of God's choice, effectual grace, the atonement's design, and the preservation of believers. Start here.</div>
+                <a href="https://www.ligonier.org/learn/series/chosen-by-god" target="_blank" rel="noopener" class="sermon-link">Full Series at Ligonier →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">The Doctrines of Grace (5 Messages)</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">Steven Lawson</span>
+                    <span class="sermon-source">Ligonier Ministries</span>
+                </div>
+                <div class="sermon-desc">Lawson's systematic walk through TULIP — each message devoted to one point, with characteristic precision and passion. One of the clearest and most compelling sermon series on the five points.</div>
+                <a href="https://www.ligonier.org/learn/series/doctrines-of-grace" target="_blank" rel="noopener" class="sermon-link">Full Series at Ligonier →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">TULIP: The Pursuit of God's Glory in Salvation (5 Messages)</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">John Piper</span>
+                    <span class="sermon-source">Desiring God</span>
+                </div>
+                <div class="sermon-desc">Piper's five-part series delivered at a conference — each point of TULIP presented with Scripture, urgency, and doxology. Piper's unique ability to make doctrine burn bright is on full display.</div>
+                <a href="https://www.desiringgod.org/series/tulip" target="_blank" rel="noopener" class="sermon-link">Full Series at Desiring God →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">The Five Points of Calvinism (8 Messages)</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">John MacArthur</span>
+                    <span class="sermon-source">Grace to You</span>
+                </div>
+                <div class="sermon-desc">MacArthur's thorough treatment of each point of TULIP with extended exegesis and practical application. He demonstrates that the doctrines of grace are not a system imposed on Scripture but truths drawn from it.</div>
+                <a href="https://www.gty.org/library/sermons-library/90-345" target="_blank" rel="noopener" class="sermon-link">Full Series at Grace to You →</a>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">The History and Theology of Calvinism (30+ Messages)</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">Curt Daniel</span>
+                </div>
+                <div class="sermon-desc">The most comprehensive audio lecture series on Reformed theology ever produced. Daniel covers history, every point of TULIP, the covenants, the decrees, and scores of related topics across 30+ hours. Available free online.</div>
+            </div>
+
+            <div class="sermon-item">
+                <div class="sermon-title">Theology Matters: The Doctrines of Grace</div>
+                <div class="sermon-meta">
+                    <span class="sermon-preacher">Voddie Baucham</span>
+                </div>
+                <div class="sermon-desc">Baucham brings his characteristic energy, humor, and biblical gravity to the doctrines of grace. Especially powerful on total depravity and unconditional election — he refuses to soften the text to protect human pride.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preacher Profiles -->
+    <div class="preachers-section">
+        <h2>Trusted Preachers</h2>
+        <p class="preachers-intro">These men have faithfully proclaimed the doctrines of grace for decades. Their full sermon archives are among the richest theological resources available.</p>
+
+        <div class="preacher-grid">
+            <div class="preacher-card">
+                <div class="preacher-name">R.C. Sproul</div>
+                <div class="preacher-years">1939–2017</div>
+                <div class="preacher-desc">Founder of Ligonier Ministries. The great Reformed teacher of our generation. His gift was making complex theology accessible without dumbing it down.</div>
+                <a href="https://www.ligonier.org/learn/series" target="_blank" rel="noopener" class="preacher-link">Browse at Ligonier →</a>
+            </div>
+
+            <div class="preacher-card">
+                <div class="preacher-name">John Piper</div>
+                <div class="preacher-years">b. 1946</div>
+                <div class="preacher-desc">Founder of Desiring God. Pastor, theologian, and author. His preaching burns with a vision of God's sovereignty as the foundation of all joy.</div>
+                <a href="https://www.desiringgod.org/messages" target="_blank" rel="noopener" class="preacher-link">Browse at Desiring God →</a>
+            </div>
+
+            <div class="preacher-card">
+                <div class="preacher-name">John MacArthur</div>
+                <div class="preacher-years">b. 1939</div>
+                <div class="preacher-desc">Pastor of Grace Community Church. 55+ years of verse-by-verse exposition. His commitment to the text has produced one of the largest sermon archives in history.</div>
+                <a href="https://www.gty.org/library/sermons-library" target="_blank" rel="noopener" class="preacher-link">Browse at Grace to You →</a>
+            </div>
+
+            <div class="preacher-card">
+                <div class="preacher-name">Steven Lawson</div>
+                <div class="preacher-years">b. 1951</div>
+                <div class="preacher-desc">President of OnePassion Ministries. One of the clearest, most precise expositors of Reformed soteriology alive today. His series on the doctrines of grace are indispensable.</div>
+                <a href="https://www.ligonier.org/learn/teachers/steven-lawson" target="_blank" rel="noopener" class="preacher-link">Browse at Ligonier →</a>
+            </div>
+
+            <div class="preacher-card">
+                <div class="preacher-name">Voddie Baucham</div>
+                <div class="preacher-years">b. 1969</div>
+                <div class="preacher-desc">Dean of Theology at African Christian University. A powerful preacher who brings fire, humor, and unflinching commitment to the sovereignty of God in every sermon.</div>
+            </div>
+
+            <div class="preacher-card">
+                <div class="preacher-name">Joel Beeke</div>
+                <div class="preacher-years">b. 1952</div>
+                <div class="preacher-desc">President of Puritan Reformed Theological Seminary. A scholar-pastor who brings the depth of Puritan theology to modern preaching. Especially strong on the experiential side of Reformed piety.</div>
+                <a href="https://www.prts.edu/joel-beeke/" target="_blank" rel="noopener" class="preacher-link">Learn More at PRTS →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>ADOPTED BY GRACE</h4>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="questions.html">The Evidence</a></li>
+                    <li><a href="systematic-theology.html">Systematic Theology</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="resources-books.html">Recommended Books</a></li>
+                    <li><a href="resources-sermons.html">Sermon Library</a></li>
+                    <li><a href="resources-glossary.html">Glossary</a></li>
+                    <li><a href="resources-study-guides.html">Study Guides</a></li>
+                    <li><a href="resources-confessions.html">Creeds &amp; Confessions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            © 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === 'resources.html') {
+                link.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>

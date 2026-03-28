@@ -6,10 +6,16 @@
 
 ---
 
-## Current State (as of 2026-03-26)
+## Current State (as of 2026-03-27)
 
 ### Pages Live
 - `index.html` — Homepage with hero, featured questions, key verses
+- `start-here.html` — **NEW** Start Here landing page with 5-phase journey overview
+- `start-here-phase1.html` — **NEW** Phase 1: What Is Reformed Theology?
+- `start-here-phase2.html` — **NEW** Phase 2: The Five Points of Grace (TULIP)
+- `start-here-phase3.html` — **NEW** Phase 3: What Does the Bible Actually Teach?
+- `start-here-phase4.html` — **NEW** Phase 4: Objections Answered
+- `start-here-phase5.html` — **NEW** Phase 5: Living as an Elect Child of God
 - `questions.html` — Hub listing 16 question deep-dives in 4 categories
 - `question-chosen.html` — Ephesians 1:3-11 (election in Christ)
 - `question-john6.html` — John 6:37-44,65 (the Father's drawing)
@@ -31,8 +37,29 @@
 - `question-depravity.html` — Total Depravity (Romans 3, Eph 2, Gen 6 — man's complete inability)
 - `about.html` — Mission and audience
 - `essays.html` — 6 downloadable PDF essays
+- `systematic-theology.html` — Hub page for Systematic Theology series (4 live topics, 9 planned)
+- `systematic-ordo-salutis.html` — The Ordo Salutis: election→glorification, golden chain, Greek analysis
+- `systematic-covenant-theology.html` — Covenant Theology: pactum salutis, covenant of works/grace, Christ as mediator
+- `systematic-divine-decrees.html` — Divine Decrees: attributes, predestination, providence, supra/infra
+- `systematic-compatibilism.html` — Compatibilism: sovereignty & responsibility, Joseph, cross, Pharaoh, philosophical framework
+- `question-irresistible.html` — Irresistible Grace / Effectual Calling (John 6:37, Phil 1:29, Acts 16:14)
+- `question-perseverance.html` — Perseverance of the Saints (John 10:28-29, Rom 8:35-39, Phil 1:6)
 - `freedom.html` — Why sovereign grace is the end of fear
 - `connections.html` — The Unbreakable Thread (comprehensive proof)
+- `resources.html` — **NEW** Resources hub with 6 category cards and external links
+- `resources-books.html` — **NEW** 70+ curated Reformed theology books by topic and difficulty
+- `resources-sermons.html` — **NEW** Sermon library: Sproul, Piper, MacArthur, Lawson, Baucham + series
+- `resources-glossary.html` — **NEW** Theological glossary with 35+ terms, search, Greek/Latin roots
+- `resources-study-guides.html` — **NEW** 5-week TULIP study series + Scripture studies + reading group plans
+- `resources-confessions.html` — **NEW** Canons of Dort, Westminster, 1689, Belgic, Heidelberg with excerpts
+- `community.html` — **NEW** Prayer guides, testimony prompts, church finder, group startup guide
+- `theologians.html` — **NEW** Historical Theology hub — the cloud of witnesses across 6 eras
+- `theologian-augustine.html` — **NEW** Augustine of Hippo — the Doctor of Grace (354–430)
+- `theologian-luther.html` — **NEW** Martin Luther — the Hammer of Rome (1483–1546)
+- `theologian-calvin.html` — **NEW** John Calvin — the Theologian of the Holy Spirit (1509–1564)
+- `theologian-owen.html` — **NEW** John Owen — the Theologian's Theologian (1616–1683)
+- `theologian-edwards.html` — **NEW** Jonathan Edwards — America's Greatest Theologian (1703–1758)
+- `theologian-spurgeon.html` — **NEW** Charles Spurgeon — the Prince of Preachers (1834–1892)
 
 ### Design System
 - Dark dramatic aesthetic (#0a0a0f bg, gold/ember/violet accents)
@@ -46,7 +73,7 @@
 - ~~No sitemap.xml or robots.txt~~ — **Fixed 2026-03-26**
 - No structured data (JSON-LD) for SEO
 - No analytics integration
-- No "Start Here" guided reading path for newcomers
+- ~~No "Start Here" guided reading path for newcomers~~ — **Built 2026-03-27** (6 pages)
 
 ---
 
@@ -54,8 +81,8 @@
 
 ### Priority 1 — Core Doctrine Pages (New)
 - [x] **Total Depravity deep-dive** — Romans 3:10-18, Eph 2:1-3, Gen 6:5. Man's complete inability. → `question-depravity.html`
-- [ ] **Irresistible Grace deep-dive** — John 6:37, Phil 1:29, Acts 16:14. Effectual calling.
-- [ ] **Perseverance of the Saints** — John 10:28-29, Rom 8:35-39, Phil 1:6. Eternal security grounded in God's character.
+- [x] **Irresistible Grace deep-dive** — John 6:37, Phil 1:29, Acts 16:14. Effectual calling. → `question-irresistible.html`
+- [x] **Perseverance of the Saints** — John 10:28-29, Rom 8:35-39, Phil 1:6. Eternal security grounded in God's character. → `question-perseverance.html`
 - [ ] **2 Timothy 1:9 page** — "saved us...not because of our works but because of his own purpose and grace"
 - [ ] **Titus 3:3-7 page** — "not because of works done by us in righteousness"
 - [ ] **1 Peter 1:1-2 page** — "elect exiles...according to the foreknowledge of God"
@@ -69,15 +96,31 @@
 - [ ] **Psalm 65:4 page** — "Blessed is the one you choose and bring near"
 - [ ] **Proverbs 16:33 / 21:1 page** — Sovereignty over lots and kings' hearts
 
-### Priority 3 — Thematic Pages
-- [ ] **"Start Here" guided reading path** — A curated journey for someone encountering Reformed theology for the first time
+### Priority 3 — Systematic Theology Pages
+- [x] **Systematic Theology Hub** — `systematic-theology.html` — Hub linking all systematic theology topics
+- [x] **Ordo Salutis** — `systematic-ordo-salutis.html` — The golden chain: election→glorification, 10 links, Greek analysis, 5 arguments, 4 objections answered
+- [x] **Covenant Theology** — `systematic-covenant-theology.html` — Pactum salutis, covenant of works, covenant of grace (6 sub-covenants), Christ as mediator
+- [x] **Divine Decrees** — `systematic-divine-decrees.html` — 7 attributes, predestination, reprobation, supra/infra, providence, 5 arguments
+- [x] **Compatibilism** — `systematic-compatibilism.html` — 7 biblical patterns, philosophical framework, Edwards' distinction, 5 arguments
+- [ ] **Christology** — Person and work of Christ, two natures, three offices, definite atonement
+- [ ] **Pneumatology** — The Holy Spirit: regeneration, illumination, indwelling, sealing
+- [ ] **Hamartiology** — Original sin, total depravity, the fall, imputation
+- [ ] **Theology Proper** — God's aseity, simplicity, immutability, sovereignty, attributes
+- [ ] **Prolegomena** — Scripture, revelation, authority, sufficiency, perspicuity
+- [ ] **Ecclesiology** — The church, marks, means of grace, mission
+- [ ] **Eschatology** — Death, return of Christ, resurrection, judgment, new creation
+- [ ] **Anthropology** — Image of God, human nature, fall, restoration in Christ
+
+### Priority 4 — Thematic Pages
+- [x] **"Start Here" guided reading path** — 5-phase journey from curiosity to conviction → `start-here.html` + 5 phase pages ✅ (2026-03-27 Start Here Session)
 - [ ] **The Five Solas page** — Historical and biblical case for each sola
 - [ ] **Redemptive History Timeline** — Interactive timeline from creation to consummation showing God's sovereign plan
-- [ ] **Glossary of Terms** — Election, predestination, effectual calling, regeneration, justification, sanctification, glorification, monergism, synergism, etc.
-- [ ] **Historical Theology page** — Augustine, Luther, Calvin, Edwards, Spurgeon, Whitefield — the cloud of witnesses
-- [ ] **Creeds & Confessions page** — Canons of Dort, Westminster Standards, 1689 Baptist Confession — with explanation
+- [x] **Glossary of Terms** — Election, predestination, effectual calling, regeneration, justification, sanctification, glorification, monergism, synergism, etc. → `resources-glossary.html` ✅ (2026-03-27 Resources Session)
+- [x] **Historical Theology page** — Augustine, Luther, Calvin, Owen, Edwards, Spurgeon — the cloud of witnesses → `theologians.html` + 6 individual pages ✅ (2026-03-27 Historical Theology Session)
+- [x] **Creeds & Confessions page** — Canons of Dort, Westminster Standards, 1689 Baptist Confession — with explanation → `resources-confessions.html` ✅ (2026-03-27 Resources Session)
+- [x] **Resources Hub** — Curated resource library with books, sermons, study guides, glossary, confessions, community → `resources.html` + 6 sub-pages ✅ (2026-03-27 Resources Session)
 
-### Priority 4 — Apologetic / Objection Pages
+### Priority 5 — Apologetic / Objection Pages
 - [ ] **"What about the person who never heard?"** — Romans 1, general vs. special revelation
 - [ ] **"Did Jesus die for everyone?"** — Definite atonement / limited atonement
 - [ ] **"Can you lose your salvation?"** — Comprehensive perseverance case
@@ -121,20 +164,20 @@
 - [x] Create `sitemap.xml` ✅ (2026-03-26 Architect)
 - [x] Create `robots.txt` ✅ (2026-03-26 Architect)
 - [x] Update all OG meta tags from `re-formed.netlify.app` to `adoptedbygrace.net` ✅ (2026-03-26 Architect)
-- [ ] Add JSON-LD structured data (Article schema) to every content page
-- [ ] Optimize meta descriptions for every page
-- [x] Add canonical URLs to every page ✅ (2026-03-26 Architect)
-- [ ] Ensure all heading hierarchy is correct (single H1 per page)
+- [x] Add JSON-LD structured data (Article schema) to every content page ✅ (2026-03-27 Architect) — 34 pages added (Article, WebSite, CollectionPage, AboutPage types)
+- [x] Optimize meta descriptions for every page ✅ (2026-03-27 Architect) — 19 pages fixed (6 too-short rewritten, 13 too-long trimmed to 120-160 chars)
+- [x] Add canonical URLs to every page ✅ (2026-03-26 Architect) — fixed missing canonical on question-depravity.html (2026-03-27)
+- [x] Ensure all heading hierarchy is correct (single H1 per page) ✅ (2026-03-27 Architect) — index.html hero-title converted from div to h1
 
 ### Performance
 - [ ] Extract shared CSS into a single `styles.css` file (reduces total site size dramatically)
 - [ ] Minify HTML/CSS for production
-- [ ] Add preconnect hints for Google Fonts
-- [ ] Optimize font loading with `font-display: swap`
+- [x] Add preconnect hints for Google Fonts ✅ (2026-03-27 Architect) — added to 35 pages
+- [x] Optimize font loading with `font-display: swap` ✅ (verified 2026-03-27 — all 39 pages already had display=swap)
 - [ ] Add lazy loading for any below-fold content
 
 ### Accessibility
-- [ ] Add skip-to-content links on every page
+- [x] Add skip-to-content links on every page ✅ (2026-03-27 Architect) — all 39 pages, with CSS focus styles and main-content anchors
 - [ ] Ensure all interactive elements have focus styles
 - [ ] Verify color contrast meets WCAG AA standards
 - [ ] Add ARIA labels where appropriate
@@ -152,12 +195,206 @@
 
 ### Infrastructure
 - [ ] Set up Netlify deploy configuration properly
-- [ ] Add `_headers` file for caching and security headers
-- [ ] Add `_redirects` for any needed URL redirects
+- [x] Add `_headers` file for caching and security headers ✅ (2026-03-27 Architect) — security headers (CSP, X-Frame-Options, etc.) + caching for HTML/PDF/images
+- [x] Add `_redirects` for any needed URL redirects ✅ (2026-03-27 Architect) — old domain redirect + 404 fallback
 
 ---
 
 ## Session Log
+
+### 2026-03-27 — Resources & Community Agent: 7 New Pages
+- **New section launched:** Resources & Community — the resource infrastructure for going deeper
+- **Built `resources.html`** — Hub page with 6 resource category cards, quick links to 8 existing site sections, 8 trusted external sources
+- **Built `resources-books.html`** — Curated library of 70+ Reformed theology books
+  - 8 categories: Where to Start, Doctrines of Grace, Sovereignty, Systematic Theology, Biblical Theology, Historical Theology, Devotional, Apologetics, Commentaries
+  - Each book with author, description, difficulty level (beginner/intermediate/advanced), and must-read tags
+  - JavaScript filter by difficulty level
+- **Built `resources-sermons.html`** — Sermon library organized by TULIP topic
+  - 20+ curated sermons from Sproul, Piper, MacArthur, Lawson, Baucham, Daniel
+  - Links to Ligonier, Desiring God, Grace to You
+  - 6 complete sermon series recommendations
+  - 6 preacher profile cards with links to their archives
+- **Built `resources-glossary.html`** — Theological glossary with 35+ terms (A-U)
+  - Greek/Latin etymology for key terms
+  - Scripture references for every definition
+  - Links to relevant deep-dive pages on the site
+  - Client-side search functionality
+- **Built `resources-study-guides.html`** — Study guides for small groups
+  - 5-week TULIP study series with 7 discussion questions per week
+  - 3 Scripture deep-dive studies (Romans 8, John 6, Ephesians 2)
+  - 3 reading group plans (Chosen by God, Knowing God, Bondage of the Will)
+  - Tips for group leaders
+- **Built `resources-confessions.html`** — Creeds & Confessions
+  - Canons of Dort with 3 key excerpts on election, effectual calling, perseverance
+  - Westminster Confession with 3 excerpts + Shorter Catechism Q.1
+  - 1689 Baptist Confession with 2 excerpts showing Baptist-Reformed unity
+  - Belgic Confession with Article 16 (Eternal Election)
+  - Heidelberg Catechism with Q.1 and Q.54
+  - Nicene Creed
+  - Links to full texts online
+- **Built `community.html`** — Community & Discussion tools
+  - Prayer guides shaped by each petal of TULIP
+  - Prayer guide for the unconverted
+  - Full prayer of adoration for sovereign grace
+  - 5 testimony/reflection prompts
+  - Reformed church finder with 6 directory links (9Marks, TGC, Founders, NAPARC, OPC, PCA)
+  - Step-by-step guide for starting a study group
+- **All 7 pages include:** JSON-LD structured data, canonical URLs, full meta tags, skip-to-content links, responsive design, consistent design system
+- **Sitemap updated** with all 7 new pages
+- **ROADMAP updated** — checked off Glossary, Creeds & Confessions, and Resources Hub
+- **Current page count:** 40+ HTML files
+- **Next priorities:** Add "Resources" link to navigation on all existing pages
+
+### 2026-03-27 — Historical Theology Agent: 7 New Pages
+- **New series launched:** Historical Theology — The Cloud of Witnesses
+- **Built `theologians.html`** — Hub page with theologians across 6 historical eras
+  - Patristic Era: Augustine (live page)
+  - Reformation: Luther, Calvin (live pages), Beza (coming soon)
+  - Puritan Era: Owen (live page), Perkins, Boston (coming soon)
+  - Great Awakening: Edwards (live page), Whitefield (coming soon)
+  - Victorian Era: Spurgeon (live page), Kuyper (coming soon)
+  - Modern Era: Machen, Van Til, MacArthur (coming soon)
+  - Theological progression diagram: Paul → Augustine → Luther → Calvin → Dort → Owen → Edwards → Spurgeon
+  - Key doctrines across centuries grid (6 doctrines traced through history)
+  - Further reading section with 6 links to existing site sections
+- **Built `theologian-augustine.html`** — Augustine of Hippo: The Doctor of Grace
+  - Full biography (Thagaste, Manichaeism, Milan, Tolle Lege, Pelagian Controversy, death at Hippo)
+  - 6 theological contributions (original sin, sovereign grace, effectual calling, predestination, perseverance, Trinity)
+  - 7 key quotes with sources and context
+  - 8 major works with descriptions
+  - Legacy, contemporary relevance, cross-references to 7 existing pages
+- **Built `theologian-luther.html`** — Martin Luther: The Hammer of Rome
+  - Full biography (thunderstorm, tower experience, 95 Theses, Diet of Worms, Wartburg, Bible translation)
+  - 6 theological contributions (sola fide, bondage of will, sola Scriptura, law/gospel, theology of cross, priesthood)
+  - 7 key quotes, 8 major works, legacy and contemporary relevance
+  - Emphasis on Bondage of the Will as Luther's most important work
+- **Built `theologian-calvin.html`** — John Calvin: The Theologian of the Holy Spirit
+  - Full biography (sudden conversion, Institutes at 26, Farel's thunderbolt, Geneva ministry, unmarked grave)
+  - 8 theological contributions (sovereignty, predestination, union with Christ, Spirit's testimony, third use of law, two kingdoms, Lord's Supper)
+  - 7 key quotes, 6 major works, legacy from Geneva to global Reformed tradition
+- **Built `theologian-owen.html`** — John Owen: The Theologian's Theologian
+  - Full biography (Oxford at 12, providential conversion, Parliamentary chaplain, Christ Church dean, ejection, loss of 11 children)
+  - 6 theological contributions (Death of Death triple-choice argument, mortification, communion with God, Holy Spirit, covenants, perseverance)
+  - 7 key quotes, 8 major works, legacy through Banner of Truth revival
+- **Built `theologian-edwards.html`** — Jonathan Edwards: America's Greatest Theologian
+  - Full biography (Yale at 13, Northampton revival, "Sinners in the Hands of an Angry God", dismissal, Stockbridge, Princeton)
+  - 7 theological contributions (Freedom of the Will, Original Sin, Religious Affections, True Virtue, God's glory, Christ's beauty, revival)
+  - 7 key quotes, 8 major works, influence on Christian Hedonism
+- **Built `theologian-spurgeon.html`** — Charles Spurgeon: The Prince of Preachers
+  - Full biography (converted at 15, pastor at 19, Metropolitan Tabernacle, 10 million hearers, Downgrade Controversy, depression)
+  - 6 theological contributions (unashamed Calvinism, election as evangelism's fuel, particular redemption, power of preaching, Downgrade, baptistic Calvinism)
+  - 7 key quotes, 7 major works, model of warmth + sovereignty
+- **Sitemap updated** with all 7 new pages
+- **Current page count:** 40+ HTML files
+- **Next priorities:** Beza, Whitefield, Kuyper, Machen, Van Til individual pages; Creeds & Confessions page
+
+### 2026-03-27 — Architect Session #2: SEO Completion + Performance + Accessibility + Infrastructure
+- **JSON-LD structured data added to ALL 39 pages** — Article schema for content pages, WebSite for homepage, CollectionPage for hubs, AboutPage for about
+- **Meta descriptions optimized across 19 pages** — 6 truncated descriptions rewritten from scratch (question-acts, question-foreknowledge, question-john10, question-john15, question-john6, question-whosoever), 13 too-long descriptions trimmed to 120-160 chars. All og:description and twitter:description tags updated to match.
+- **Heading hierarchy audited** — All 39 pages verified. Fixed index.html (converted hero-title div to proper H1 tag)
+- **Sitemap fixed** — Added missing question-depravity.html entry
+- **Canonical URL fixed** — Added missing canonical to question-depravity.html
+- **Preconnect hints added** to 35 pages (4 already had them) for faster Google Fonts loading
+- **font-display: swap verified** — all 39 pages already had it
+- **Skip-to-content accessibility links** added to all 39 pages with focus-visible CSS and main-content anchor targets
+- **Netlify `_headers` file created** — security headers (CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, XSS-Protection) + caching rules (HTML 1hr, PDFs 1wk, images 1mo)
+- **Netlify `_redirects` file created** — old domain (re-formed.netlify.app) 301 redirect to adoptedbygrace.net + 404 fallback
+- **Full verification pass** — all 39 pages confirmed structurally sound with all SEO/accessibility features present
+- **Architecture backlog items completed this session:** 8 checked off (JSON-LD, meta descriptions, heading hierarchy, preconnect, font-display, skip-to-content, _headers, _redirects)
+
+### 2026-03-27 — Content Builder: Irresistible Grace + Perseverance of the Saints
+- **Built `question-irresistible.html`** — "Drawn, Not Dragged — The Unstoppable Grace of Effectual Calling"
+  - 6 primary texts: John 6:37, 6:44, 6:65, Phil 1:29, Acts 16:14, Acts 13:48
+  - 6 Greek analyses (helkuō, hēxei, dedomenon, echaristhē, diēnoixen, tetagmenoi)
+  - 7 arguments for effectual grace
+  - 7 objections anticipated and answered (puppet-master, Acts 7:51, why not all, John 12:32, evangelism, helkuō meaning, parable of sower)
+  - 6 historic witnesses (Augustine, Calvin, Hodge, Spurgeon, Pink, Sproul)
+  - Cross-references to 10+ existing pages; Further Reading section with 6 links
+  - JSON-LD Article structured data, canonical URL, full meta tags
+- **Built `question-perseverance.html`** — "Kept by God — The Perseverance of the Saints"
+  - 7 primary texts: John 10:27-30, Rom 8:35-39, Phil 1:6, John 6:39-40, 1 Pet 1:3-5, Jude 24-25
+  - 6 Greek analyses (ou mē apolōntai, harpasei, epitelesei, phrouroumenous, chōrisei, phylaxai)
+  - 7 arguments for perseverance (golden chain, eternal life, Christ's intercession, sealing, Father's will, irreversible regeneration, human inability)
+  - 5 objections answered (Hebrews 6, license to sin, Judas, warning passages, self-separation)
+  - 5 historic witnesses (Spurgeon, Owen, Bavinck, Sproul, Edwards)
+  - Cross-references to 8+ existing pages; Further Reading section with 6 links
+  - JSON-LD Article structured data, canonical URL, full meta tags
+- **Updated `questions.html`** — added items #19 and #20; meta description updated to 20 articles
+- **Updated `sitemap.xml`** — added both new pages
+- **Cross-references added** to 4 existing pages linking back to irresistible grace: question-john6, question-faithgift, question-newheart, question-goldchain
+- **Current page count:** 33+ HTML files
+- **Next priorities:** 2 Timothy 1:9, Titus 3:3-7, 1 Peter 1:1-2
+
+### 2026-03-27 — Start Here Journey Agent: 6 New Pages
+- **"Start Here" guided journey launched** — 5-phase pathway from curiosity to conviction
+- **Built `start-here.html`** — Landing page with journey overview, 5 phase cards, quick-start options, audience cards
+- **Built `start-here-phase1.html`** — Phase 1: What Is Reformed Theology?
+  - History from Paul → Augustine → Luther → Calvin → Spurgeon
+  - Comparison table (Arminian vs. Reformed views)
+  - Key concept boxes, reflection questions
+  - Progress indicator showing current phase
+- **Built `start-here-phase2.html`** — Phase 2: The Five Points of Grace (TULIP)
+  - Interactive accordion for each petal with Scripture and deep-dive links
+  - "Logic of Grace" section showing how points connect
+  - Links to 5 existing deep-dive pages (depravity, chosen, john10, newheart, sealed)
+- **Built `start-here-phase3.html`** — Phase 3: What Does the Bible Actually Teach?
+  - 6 passage cards: Ephesians 1, John 6, Romans 9, Romans 8:29-30, Acts 13:48, Ezekiel 36
+  - Each with key verse, commentary, takeaway box, and link to full deep-dive
+- **Built `start-here-phase4.html`** — Phase 4: Objections Answered
+  - 5 interactive objection accordions: free will, fairness, John 3:16, 1 Tim 2:4, evangelism
+  - Each with short answer + biblical answer + Scripture + links to existing pages
+- **Built `start-here-phase5.html`** — Phase 5: Living as an Elect Child of God
+  - 5 life implications: assurance, prayer, worship, evangelism, suffering
+  - Journey completion section with Romans 11:36
+  - "Where to Go from Here" grid linking to 6 site sections
+- **All pages include:** progress bar, phase navigation, reflection questions, consistent design system
+- **Sitemap updated** with all 6 new pages
+- **Cross-references:** Links to 15+ existing pages across the journey
+- **Next:** Add "Start Here" link to homepage hero/navigation on all existing pages
+
+### 2026-03-27 — Systematic Theology Agent: 5 New Pages
+- **New series launched:** Systematic Theology
+- **Built `systematic-theology.html`** — Hub page with 4 live topics, 9 planned, integration diagram, JSON-LD
+- **Built `systematic-ordo-salutis.html`** — The Golden Chain Unbroken
+  - 10 links of the chain: Election → Predestination → Effectual Calling → Regeneration → Faith & Repentance → Justification → Adoption → Sanctification → Perseverance → Glorification
+  - 6 Greek analyses (proegnō, proōrisen, ekalesen, edikaiōsen, edoxasen, palingenesia)
+  - 5 critical arguments (chain has no dropouts, regeneration precedes faith, forensic justification, proleptic aorist, Arminian ordo collapses)
+  - 4 objections answered, 6 historical witnesses, cross-references to 8+ existing pages
+- **Built `systematic-covenant-theology.html`** — One Plan, One People, One Mediator
+  - Pactum Salutis (intra-Trinitarian covenant of redemption)
+  - Covenant of Works (Adam as federal head, Hosea 6:7, Romans 5)
+  - Covenant of Grace (6 progressive sub-covenants: Protoevangelium → Noahic → Abrahamic → Mosaic → Davidic → New)
+  - Christ as Mediator (Heb 8:6, active/passive obedience)
+  - 5 key Greek/Hebrew terms, 5 arguments, 5 objections answered
+- **Built `systematic-divine-decrees.html`** — Before the Foundation of the World
+  - 7 attributes of the decree (eternal, immutable, unconditional, all-comprehensive, efficacious, wise, free)
+  - Predestination and reprobation, supra vs. infra explained
+  - Decree and providence (primary/secondary causes, concurrence)
+  - 5 Greek/Hebrew terms, 5 arguments, 5 objections answered
+- **Built `systematic-compatibilism.html`** — Both True, Both Real
+  - 7 biblical patterns (Joseph, the cross, Pharaoh, Assyria, Judas, Babylon, Phil 2:12-13)
+  - Philosophical framework (nature of will, moral vs. natural inability, author-character analogy)
+  - 6 Greek/Hebrew terms, 5 arguments, 5 objections answered
+- **Sitemap updated** with all 5 new pages
+- **ROADMAP updated** with systematic theology backlog (9 remaining topics)
+- **Current page count:** 31 HTML files
+- **Next priorities:** Christology, Pneumatology, Hamartiology systematic pages
+
+### 2026-03-27 — Fleet Operations Run (automated)
+- **Total HTML pages:** 26 (root)
+- **Git health:** ✅ CLEAN — branch main, working tree clean, pull succeeded, already up to date
+- **Push test:** ⚠️ Cannot verify from sandbox (no GitHub credentials in sandbox environment — expected; agents on Aaron's Mac have credentials)
+- **Lock files:** Cleared (index.lock present but permission-denied in sandbox — harmless, only affects sandbox)
+- **Placeholder text scan:** ✅ None found
+- **Navigation audit:**
+  - `questions.html` links all 16 question pages ✅
+  - `demolition-hub.html` links `demolition-john3-16.html` ✅
+  - ⚠️ **Gap:** `demolition-hub.html` is NOT linked from `index.html` — site-architecture-ux agent should add it
+- **Design spot-check:** `demolition-hub.html` and `about.html` both use correct colors, fonts, variables ✅
+- **Agent fleet:** 24 enabled / 6 disabled (legacy). All 24 enabled agents have lastRunAt within 24 hours ✅
+  - Disabled (legacy, replaced by newer agents): abg-builder, abg-refiner, abg-architect, abg-deploy, dissemination-multiformat, social-viral-content
+- **ROADMAP.md:** ~231 lines, healthy. No archiving needed yet.
+- **Fleet status:** 🟢 GREEN
 
 ### 2026-03-27 — Verse Demolition Agent: John 3:16 + Hub
 - **New series launched:** Verse-by-Verse Demolition Series
