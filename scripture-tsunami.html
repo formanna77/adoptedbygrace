@@ -13,6 +13,8 @@
     <meta name="twitter:title" content="Scripture Tsunami — The Biblical Case for Sovereign Grace">
     <meta name="twitter:description" content="Interactive database of 200+ Bible verses organized by TULIP. Searchable, cross-referenced, impossible to ignore.">
     <link rel="canonical" href="https://adoptedbygrace.net/scripture-tsunami.html">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     <style>
         * {
@@ -687,7 +689,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
     <a href="#main-content" class="skip-to-content">Skip to content</a>
 
-    <nav>
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
             <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="this.classList.toggle('active');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('active'))">

@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Systematic Theology: Prolegomena — The authority, inspiration, and sufficiency of Scripture as the foundation of all Christian doctrine.">
+    <meta name="keywords" content="prolegomena, Scripture, sola Scriptura, inspiration, authority, biblical theology, Reformed theology">
+    <meta name="author" content="Adopted By Grace">
+    <meta name="theme-color" content="#0a0a0f">
+    <link rel="canonical" href="https://adoptedbygrace.net/systematic-prolegomena.html">
+    <meta property="og:title" content="The Word That Cannot Be Broken — Systematic Theology: Prolegomena">
+    <meta property="og:description" content="Understanding Scripture's authority, inspiration, and sufficiency as the foundation of all Christian doctrine.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/systematic-prolegomena.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Prolegomena — Scripture & Authority | Adopted By Grace</title>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Word That Cannot Be Broken: Systematic Theology — Prolegomena",
+        "description": "A comprehensive examination of Scripture's authority, inspiration, and sufficiency as the foundation of Christian theology.",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted By Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "datePublished": "2026-03-27",
+        "inLanguage": "en",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Adopted By Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --dark-bg: #0a0a0f;
+            --card-bg: #12121a;
+            --gold: #d4a254;
+            --ember: #e8642c;
+            --violet: #8b5cf6;
+            --text-primary: #ffffff;
+            --text-secondary: #c0c0c0;
+            --border-color: #2a2a3a;
+            --accent-hover: #e8642c;
+        }
+
+        html, body {
+            background-color: var(--dark-bg);
+            color: var(--text-primary);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            max-width: 1400px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+
+        nav a:hover {
+            color: var(--gold);
+            background-color: rgba(212, 162, 84, 0.1);
+        }
+
+        nav a.active {
+            color: var(--gold);
+            border-bottom: 2px solid var(--gold);
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            padding: 1rem 2rem;
+            background-color: var(--dark-bg);
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .breadcrumb a {
+            color: var(--violet);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--gold);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border-bottom: 1px solid var(--border-color);
+            padding: 4rem 2rem;
+        }
+
+        .hero-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .hero-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            color: var(--gold);
+            line-height: 1.2;
+        }
+
+        .hero .subtitle {
+            font-size: 1.3rem;
+            color: var(--text-secondary);
+            max-width: 900px;
+            line-height: 1.8;
+        }
+
+        /* Section Navigation */
+        .section-nav {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 2rem;
+            overflow-x: auto;
+        }
+
+        .section-nav-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .section-nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .section-nav a:hover,
+        .section-nav a.active {
+            color: var(--gold);
+            border-color: var(--gold);
+            background-color: rgba(212, 162, 84, 0.1);
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        /* Card Styles */
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            border-color: var(--gold);
+            box-shadow: 0 0 20px rgba(212, 162, 84, 0.1);
+        }
+
+        .card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--gold);
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--violet);
+            padding-bottom: 1rem;
+        }
+
+        .card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--violet);
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .card ul, .card ol {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card li {
+            margin-bottom: 0.8rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .card strong {
+            color: var(--gold);
+        }
+
+        /* Scripture Quote */
+        .scripture-quote {
+            background: linear-gradient(90deg, rgba(212, 162, 84, 0.1) 0%, rgba(139, 92, 246, 0.05) 100%);
+            border-left: 4px solid var(--gold);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: var(--text-primary);
+        }
+
+        .scripture-cite {
+            color: var(--violet);
+            font-style: normal;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        /* Objection Container */
+        .objection-container {
+            background-color: rgba(232, 100, 44, 0.05);
+            border-left: 4px solid var(--ember);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .objection-title {
+            color: var(--ember);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .objection-answer {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-top: 0.8rem;
+        }
+
+        /* Witness Section */
+        .witness-card {
+            background-color: rgba(139, 92, 246, 0.05);
+            border-left: 4px solid var(--violet);
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        .witness-quote {
+            color: var(--text-primary);
+            font-style: italic;
+            margin: 1rem 0;
+            line-height: 1.8;
+        }
+
+        .witness-author {
+            color: var(--gold);
+            font-weight: 600;
+            font-style: normal;
+            margin-top: 1rem;
+        }
+
+        /* Connection Links */
+        .connection-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .connection-link {
+            background-color: rgba(212, 162, 84, 0.05);
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .connection-link:hover {
+            border-color: var(--gold);
+            background-color: rgba(212, 162, 84, 0.1);
+        }
+
+        .connection-link h4 {
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .connection-link p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Revelation subsection */
+        .revelation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .revelation-box {
+            background-color: rgba(139, 92, 246, 0.05);
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .revelation-box h4 {
+            color: var(--gold);
+            margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+        }
+
+        .revelation-box p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        /* Label/Code styles */
+        .label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--violet);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin: 1rem 0 0.5rem 0;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+            }
+
+            nav a {
+                font-size: 0.85rem;
+                padding: 0.4rem 0.7rem;
+            }
+
+            .section-nav-content {
+                gap: 0.5rem;
+            }
+
+            .section-nav a {
+                font-size: 0.8rem;
+                padding: 0.4rem 0.7rem;
+            }
+
+            .card {
+                padding: 1.5rem;
+            }
+
+            .card h2 {
+                font-size: 1.5rem;
+            }
+
+            .connection-links {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--card-bg);
+            border-top: 1px solid var(--border-color);
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-top: 3rem;
+        }
+
+        footer a {
+            color: var(--violet);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--gold);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="start-here.html">Start Here</a></li>
+            <li><a href="questions.html">The Evidence</a></li>
+            <li><a href="systematic-theology.html">Systematic</a></li>
+            <li><a href="systematic-prolegomena.html" class="active">Prolegomena</a></li>
+            <li><a href="demolition-hub.html">Demolition</a></li>
+            <li><a href="theologians.html">Theologians</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="systematic-theology.html">← Back to Systematic Theology</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-label">Systematic Theology · Prolegomena</div>
+            <h1>The Word That Cannot Be Broken</h1>
+            <p class="subtitle">Before we can know what God has decreed, we must know where He has spoken. Scripture is not merely one source of doctrine among many—it is the sole, sufficient, and authoritative rule of faith and practice. All theology rests on this foundation.</p>
+        </div>
+    </section>
+
+    <!-- Section Navigation -->
+    <div class="section-nav">
+        <div class="section-nav-content">
+            <a href="#text" class="active">The Text</a>
+            <a href="#definition">Definition</a>
+            <a href="#revelation">Revelation</a>
+            <a href="#inspiration">Inspiration</a>
+            <a href="#authority">Authority</a>
+            <a href="#sufficiency">Sufficiency</a>
+            <a href="#perspicuity">Perspicuity</a>
+            <a href="#foundation">Biblical Foundation</a>
+            <a href="#historical">Historical</a>
+            <a href="#objections">Objections</a>
+            <a href="#witnesses">Witnesses</a>
+            <a href="#connections">Connections</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- 1. The Text -->
+        <section id="text" class="card">
+            <h2>The Text</h2>
+            <p>The doctrine of Scripture's authority and inspiration rests on Scripture itself. The Apostle Paul and Peter speak with unmistakable clarity about the divine nature of God's written Word.</p>
+
+            <div class="scripture-quote">
+                "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work."
+                <div class="scripture-cite">2 Timothy 3:16–17</div>
+            </div>
+
+            <div class="scripture-quote">
+                "knowing this first of all, that no prophecy of Scripture comes from someone's own interpretation. For no prophecy was ever produced by the will of man, but men spoke from God as they were carried along by the Holy Spirit."
+                <div class="scripture-cite">2 Peter 1:20–21</div>
+            </div>
+
+            <p>These are not peripheral texts or the musings of a single author. They are the apostolic testimony to the nature of Scripture. From the earliest writings of the New Testament, the Bible claims to be God's speech—inscribed, permanent, and authoritative for all time.</p>
+        </section>
+
+        <!-- 2. Definition -->
+        <section id="definition" class="card">
+            <h2>Definition: Prolegomena</h2>
+            <p><strong>Prolegomena</strong> means "things said before." In Christian theology, prolegomena is the foundational study that precedes the exposition of doctrine. Before we examine what God has revealed about Himself, His attributes, His decrees, redemption, or the last things, we must first ask: <em>How do we know what God has said? On what authority do we base our claims about divine truth?</em></p>
+
+            <h3>The Reformed Answer: Sola Scriptura</h3>
+            <p>For Reformed theology, the answer is unambiguous: <strong>the authority is Holy Scripture alone</strong>. This is not a mere preference, a denominational quirk, or a post-Reformation invention. It is a theological necessity rooted in the nature of God, the nature of truth, and the finality of Christ's revelation.</p>
+
+            <p>Sola Scriptura asserts that the Bible is the <strong>sole, sufficient, and supreme rule of faith and practice</strong>. It is:</p>
+            <ul>
+                <li><strong>Sole</strong> — exclusive among authorities; the final court of appeal</li>
+                <li><strong>Sufficient</strong> — complete for all matters of salvation and godliness</li>
+                <li><strong>Supreme</strong> — above church tradition, human reason, and private experience</li>
+                <li><strong>Self-authenticating</strong> — it requires no external authority to validate it</li>
+            </ul>
+
+            <p>This is not a reactionary Protestant position but a return to apostolic practice. Jesus and His apostles repeatedly appealed to Scripture as the final arbiter of truth, as the very speech of God that cannot fail.</p>
+        </section>
+
+        <!-- 3. Revelation -->
+        <section id="revelation" class="card">
+            <h2>General and Special Revelation</h2>
+            <p>Christian theology distinguishes two modes by which God reveals Himself: general revelation through creation, and special revelation through His Word.</p>
+
+            <div class="revelation-grid">
+                <div class="revelation-box">
+                    <h4>General Revelation</h4>
+                    <p>God reveals His eternal power and divine nature through the created order. The heavens declare His glory; creation manifests His invisible attributes.</p>
+                    <div class="scripture-quote">
+                        "For what can be known about God is plain to them, because God has shown it to them. For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made."
+                        <div class="scripture-cite">Romans 1:19–20</div>
+                    </div>
+                    <div class="scripture-quote">
+                        "The heavens declare the glory of God, and the sky above proclaims the work of his hands."
+                        <div class="scripture-cite">Psalm 19:1</div>
+                    </div>
+                    <p><strong>Sufficiency:</strong> General revelation is sufficient to leave all men without excuse (Rom 1:20), but <strong>insufficient for salvation</strong>. A person cannot know Christ, cannot understand redemption, cannot apprehend the Gospel through creation alone.</p>
+                </div>
+
+                <div class="revelation-box">
+                    <h4>Special Revelation</h4>
+                    <p>God speaks. He breaks the silence of a fallen world and addresses His creatures directly through prophets, apostles, and supremely through His Son.</p>
+                    <div class="scripture-quote">
+                        "Long ago, at many times and in many ways, God spoke to our fathers by the prophets, but in these last days he has spoken to us by his Son, whom he appointed the heir of all things, through whom also he created the world."
+                        <div class="scripture-cite">Hebrews 1:1–2</div>
+                    </div>
+                    <p><strong>Now inscripturated:</strong> Special revelation is now permanently recorded in the 66 books of the Old and New Testaments. The living voice of God speaks through written words—the Word made visible on the page.</p>
+                </div>
+            </div>
+
+            <h3>Why Special Revelation Is Necessary</h3>
+            <p>The fall of humanity has corrupted our ability to rightly interpret even general revelation. The suppression of truth (Rom 1:18) means that fallen minds, left to themselves, will exchange the glory of God for idols. We need the clarifying, correcting, redemptive speech of God. We need the Gospel. We need special revelation inscripturated.</p>
+
+            <div class="scripture-quote">
+                "For although they knew God, they did not honor him as God or give thanks to him, but they became futile in their thinking, and their foolish hearts were darkened."
+                <div class="scripture-cite">Romans 1:21</div>
+            </div>
+        </section>
+
+        <!-- 4. Inspiration -->
+        <section id="inspiration" class="card">
+            <h2>Inspiration: The Divine Authorship of Scripture</h2>
+            <p>The doctrine of inspiration answers the question: <em>How does God speak through human writers?</em> The answer is not mechanical dictation, and it is not mere human insight illuminated by God's Spirit. It is something far more profound: <strong>verbal plenary inspiration</strong>.</p>
+
+            <h3>Verbal Plenary Inspiration</h3>
+            <p>This doctrine asserts that:</p>
+            <ul>
+                <li><strong>Every word</strong> (verbal) of Scripture is inspired by God</li>
+                <li><strong>Every book and every part</strong> (plenary) is fully inspired</li>
+                <li>There are no degrees of inspiration; some parts are not "more inspired" than others</li>
+                <li>This inspiration extends to all that Scripture affirms—doctrine, history, ethics, and prophecy</li>
+            </ul>
+
+            <h3>Theopneustos: God-Breathed</h3>
+            <p>The Greek word <strong>theopneustos</strong> (2 Timothy 3:16) is crucial. It does not mean "breathed into"—as if inspiration were a passive infusion into lifeless matter. Rather, it means "breathed out by God." Scripture is the very exhalation of the Almighty—as vital, as intentional, as fully expressive of God's mind as creation itself.</p>
+
+            <h3>The Human Authors and the Holy Spirit</h3>
+            <p>Scripture presents inspiration as a divine-human cooperation, not a negation of human personality:</p>
+
+            <div class="scripture-quote">
+                "Men spoke from God as they were carried along by the Holy Spirit."
+                <div class="scripture-cite">2 Peter 1:21</div>
+            </div>
+
+            <p><strong>Organic inspiration</strong> accounts for this reality. God so moved upon the prophets and apostles that every word they wrote was exactly what God intended, yet their own personalities, vocabularies, historical contexts, and literary styles are fully preserved. John writes differently from Paul; Luke records details Matthew omits; the Psalms employ metaphor while Leviticus employs legal precision—yet all are equally God's Word.</p>
+
+            <h3>Against False Theories</h3>
+            <ul>
+                <li><strong>Dictation theory</strong> (too mechanical) — erases human personality and reduces authors to secretaries</li>
+                <li><strong>Mere illumination</strong> (too low) — treats Scripture as merely insightful human reflection, no different in kind from other wisdom literature</li>
+                <li><strong>Limited inerrancy</strong> (inconsistent) — asserts inspiration in doctrine but not in history or science, creating an arbitrary division</li>
+            </ul>
+
+            <h3>The Question of Transmission</h3>
+            <p>Inspiration applies to the <strong>autographa</strong> (original manuscripts). We do not possess the originals, but we do possess the text of Scripture with remarkable accuracy through careful transmission and the work of the Holy Spirit in preservation. God, having inspired the text, has also providentially sustained it through the centuries.</p>
+        </section>
+
+        <!-- 5. Authority -->
+        <section id="authority" class="card">
+            <h2>Authority: Why Scripture Is Final</h2>
+            <p>Authority is not granted by human institutions or scholarly consensus. <strong>Scripture's authority is self-authenticating</strong>—it derives from God alone.</p>
+
+            <h3>The Self-Authenticating Nature of Scripture</h3>
+            <p>Scripture's authority comes from God, not from the church, not from councils, not from scholars. The Westminster Confession of Faith states this with precision:</p>
+
+            <div class="scripture-quote">
+                "The authority of the Holy Scripture, for which it ought to be believed and obeyed, dependeth not upon the testimony of any man or church, but wholly upon God (who is truth itself) the author thereof: and therefore it is to be received, because it is the Word of God."
+                <div class="scripture-cite">WCF 1.4</div>
+            </div>
+
+            <p>This statement directly contradicts Rome's claim that the church <em>gave</em> the Bible to the world and thus stands over it. It equally refutes liberal theology's reduction of Scripture to a merely human document. Scripture is God's Word precisely <em>because God speaks in it</em>.</p>
+
+            <h3>The Internal Testimony of the Holy Spirit</h3>
+            <p>John Calvin recovered an essential truth: the final, personal persuasion that Scripture is God's Word comes through <strong>the internal testimony of the Holy Spirit</strong> (<em>testimonium Spiritus Sancti internum</em>). This is not mysticism or subjectivity. Rather, it is the recognition that God's Spirit, who inspired Scripture, also illuminates our hearts to perceive its divine authority.</p>
+
+            <p>We may offer external evidences—manuscript evidence, historical corroboration, fulfilled prophecy, internal consistency—and these are valuable. But the ultimate conviction that Scripture is God's Word is wrought in the believer's heart by the same Spirit who breathed it out.</p>
+
+            <h3>Inerrancy and Infallibility</h3>
+            <p><strong>Inerrancy:</strong> Scripture is without error in all that it affirms. Whatever the Bible asserts—whether in matters of doctrine, history, science, or ethics—is true. This does not mean every genre of Scripture is scientific; the Psalms employ poetic language without ceasing to be true. But where Scripture makes a claim, that claim is accurate.</p>
+
+            <p><strong>Infallibility:</strong> Scripture cannot fail in its purpose. God's Word will not return to Him empty (Isaiah 55:11). It accomplishes what He purposes and prospers in the thing for which He sent it. Even if a hearer rejects the Gospel, Scripture has not failed—it has testified truly.</p>
+
+            <div class="scripture-quote">
+                "So shall my word be that goes out from my mouth; it shall not return to me empty, but it shall accomplish that which I purpose, and shall succeed in the thing for which I sent it."
+                <div class="scripture-cite">Isaiah 55:11</div>
+            </div>
+        </section>
+
+        <!-- 6. Sufficiency -->
+        <section id="sufficiency" class="card">
+            <h2>Sufficiency: Scripture Is Enough</h2>
+            <p>The doctrine of sufficiency asserts that Scripture contains all that is necessary for salvation and godly living. We need no additional revelation, no supplementary traditions (unless derived from Scripture itself), no ongoing prophecies beyond the canon.</p>
+
+            <h3>The Sufficiency Principle</h3>
+            <div class="scripture-quote">
+                "The whole counsel of God concerning all things necessary for his own glory, man's salvation, faith and life, is either expressly set down in Scripture, or by good and necessary consequence may be deduced from Scripture."
+                <div class="scripture-cite">WCF 1.6</div>
+            </div>
+
+            <p>This remarkable statement combines two sources of doctrine:</p>
+            <ul>
+                <li><strong>Express statements:</strong> doctrines plainly taught in Scripture</li>
+                <li><strong>Good and necessary consequence:</strong> truths logically deduced from Scripture (e.g., the Trinity is not stated as such, but is the necessary logical implication of multiple biblical assertions)</li>
+            </ul>
+
+            <p>Together, these mean that all essential Christian doctrine rests on Scripture. We do not need tradition, ongoing revelation, or human invention to know God's will.</p>
+
+            <h3>What Sufficiency Does Not Mean</h3>
+            <p>Sufficiency does not mean Scripture addresses every possible question. It does not tell us which career to pursue, whom to marry, or what house to buy. But it provides sufficient principles for making wise decisions in all such matters. More importantly, it reveals everything necessary to know God, to be saved, and to live in a manner pleasing to Him.</p>
+
+            <div class="scripture-quote">
+                "The secret things belong to the LORD our God, but the things that are revealed belong to us and to our children forever, that we may do all the words of this law."
+                <div class="scripture-cite">Deuteronomy 29:29</div>
+            </div>
+
+            <p>God, in His wisdom, has not told us everything. But He has told us everything we need. We must not confuse curiosity about the unrevealed with a deficiency in the revealed.</p>
+        </section>
+
+        <!-- 7. Perspicuity -->
+        <section id="perspicuity" class="card">
+            <h2>Perspicuity: The Clarity of Scripture</h2>
+            <p>The doctrine of perspicuity (also called <em>clarity</em>) asserts that Scripture can be understood. The essential matters necessary for salvation are sufficiently clear that any believer, with prayer and attention, can grasp them.</p>
+
+            <h3>Not All Equally Clear</h3>
+            <p>This does not mean all of Scripture is equally transparent. Peter himself acknowledged that Paul's letters contain "some things hard to understand" (2 Peter 3:16). The book of Revelation employs symbolic language; the book of Job explores deep questions of suffering; the epistles address specific historical situations. Some portions require study, reflection, and scholarly care.</p>
+
+            <p>But the core truths—that God is God, that Christ is His Son, that He died for sinners, that faith in Him brings salvation—these are clear. A child can understand them; a scholar can spend a lifetime exploring their depths.</p>
+
+            <h3>Against Magisterial Monopoly</h3>
+            <p>The Roman Catholic Church claims that Scripture is so opaque, so prone to misinterpretation, that only the living Magisterium (the church's teaching authority) can authoritatively interpret it. This turns the church into the true authority, with Scripture as merely the raw material the church processes.</p>
+
+            <p>But perspicuity asserts that the people of God—ordinary believers—can read Scripture and understand what God is saying. This does not bypass the role of teachers and gifted expositors. The Apostle Paul lists teachers among the gifts Christ gives the church:</p>
+
+            <div class="scripture-quote">
+                "And he gave the apostles, the prophets, the evangelists, the shepherds and teachers, to equip the saints for the work of ministry, for building up the body of Christ."
+                <div class="scripture-cite">Ephesians 4:11–12</div>
+            </div>
+
+            <p>But the ultimate authority is not the teacher—it is the Scripture itself. The teacher serves Scripture; Scripture does not serve the teacher.</p>
+        </section>
+
+        <!-- 8. Biblical Foundation -->
+        <section id="foundation" class="card">
+            <h2>Biblical Foundation: Key Passages</h2>
+            <p>Scripture itself testifies to its own authority, clarity, and sufficiency. These key passages establish the foundation of the doctrine of Scripture:</p>
+
+            <div class="scripture-quote">
+                "The law of the LORD is perfect, reviving the soul; the testimony of the LORD is sure, making wise the simple; the precepts of the LORD are right, rejoicing the heart; the commandment of the LORD is pure, enlightening the eyes."
+                <div class="scripture-cite">Psalm 19:7–8</div>
+            </div>
+
+            <div class="scripture-quote">
+                "Your word is a lamp to my feet and a light to my path."
+                <div class="scripture-cite">Psalm 119:105</div>
+            </div>
+
+            <div class="scripture-quote">
+                "The unfolding of your words gives light; it imparts understanding to the simple."
+                <div class="scripture-cite">Psalm 119:130</div>
+            </div>
+
+            <div class="scripture-quote">
+                "The grass withers, the flower fades, but the word of our God will stand forever."
+                <div class="scripture-cite">Isaiah 40:8</div>
+            </div>
+
+            <div class="scripture-quote">
+                "Therefore everyone who hears these words of mine and puts them into practice is like a wise man who built his house on the rock."
+                <div class="scripture-cite">Matthew 7:24</div>
+            </div>
+
+            <div class="scripture-quote">
+                "Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them. For truly I tell you, until heaven and earth disappear, not the smallest letter, not the least stroke of a pen, will by any means disappear from the Law until everything is accomplished."
+                <div class="scripture-cite">Matthew 5:17–18</div>
+            </div>
+
+            <div class="scripture-quote">
+                "Jesus answered them, 'Is it not written in your Law, "I have said you are gods"? If he called them 'gods,' to whom the word of God came—and Scripture cannot be broken—what about the one whom the Father set apart as his very own and sent into the world?'"
+                <div class="scripture-cite">John 10:34–36</div>
+            </div>
+
+            <div class="scripture-quote">
+                "For the word of God is living and active. Sharper than any double-edged sword, it penetrates even to dividing soul and spirit, joints and marrow; it judges the thoughts and attitudes of the heart."
+                <div class="scripture-cite">Hebrews 4:12</div>
+            </div>
+
+            <p>Notice how consistently Scripture declares itself to be God's Word—perfect, sufficient, clear, enduring, and with absolute authority. Jesus Himself treated Scripture as the final arbiter of truth. When tempted in the wilderness, He did not appeal to His own divine authority but to Scripture: "It is written" (Matthew 4:4, 7, 10).</p>
+        </section>
+
+        <!-- 9. Historical Development -->
+        <section id="historical" class="card">
+            <h2>Historical Development of the Doctrine</h2>
+            <p>The doctrine of Scripture's authority, though rooted in the apostolic age, developed throughout church history as the church faced challenges to biblical authority.</p>
+
+            <h3>The Early Church and Canon Formation</h3>
+            <p>The early Christians recognized certain writings as authoritative because they came from apostles or had apostolic warrant. The formation of the canon was not arbitrary but was a recognition of what the Spirit had done. The church did not <em>make</em> the New Testament; it <em>recognized</em> what God had given.</p>
+
+            <h3>Augustine and the Authority of Scripture</h3>
+            <p>Augustine established a key principle: when Scripture appears to conflict with reason or experience, Scripture must prevail. He distinguished between the infallible text and fallible interpreters—a distinction Rome would later reject.</p>
+
+            <h3>The Medieval Period: Scripture vs. Tradition</h3>
+            <p>By the Middle Ages, the Roman Church had elevated tradition to a co-equal authority with Scripture. The Reformation challenged this directly, recovering the apostolic principle that Scripture alone is the rule of faith.</p>
+
+            <h3>Martin Luther at the Diet of Worms (1521)</h3>
+            <p>When called to recant, Luther refused, appealing to Scripture as his final authority. His words echo across the centuries: "I am bound by the Scriptures I have quoted and my conscience is captive to the Word of God." This was not mere stubbornness but a recovery of apostolic authority.</p>
+
+            <h3>John Calvin and the Internal Testimony of the Spirit</h3>
+            <p>Calvin provided the most nuanced theological account of how we know Scripture is God's Word—not through arguments alone (though these are valuable) but through the internal testimony of the Holy Spirit. This became the classical Reformed position.</p>
+
+            <h3>The Westminster Confession (1647)</h3>
+            <p>The Westminster Confession of Faith provided the most comprehensive Reformed statement of the doctrine of Scripture, affirming authority, sufficiency, clarity, and inerrancy. It remains unsurpassed in its precision and comprehensiveness.</p>
+
+            <h3>B.B. Warfield and the Chicago Statement on Biblical Inerrancy (1978)</h3>
+            <p>In the modern period, B.B. Warfield (1851–1921) articulated a robust doctrine of inerrancy in response to critical attacks on Scripture. Nearly a century later, evangelical scholars drafted the Chicago Statement on Biblical Inerrancy, affirming that "being wholly and verbally God-given, Scripture is without error or fault in all its teaching."</p>
+
+            <h3>Modern Challenges: Higher Criticism and Postmodernism</h3>
+            <p>The 19th and 20th centuries brought unprecedented challenges to biblical authority:</p>
+            <ul>
+                <li><strong>Higher criticism</strong> — the attempt to deconstruct Scripture's composition and question its historicity</li>
+                <li><strong>Postmodernism</strong> — the denial that any text has fixed meaning; interpretation is purely subjective</li>
+                <li><strong>Syncretism</strong> — the absorption of Scripture into the categories of secular philosophy</li>
+            </ul>
+
+            <p>Yet through all these challenges, the doctrine of Scripture's divine authority persists. Those who have tested Scripture most thoroughly find it most reliable. Those who have sought to undermine it have ultimately undermined their own ground.</p>
+        </section>
+
+        <!-- 10. Objections -->
+        <section id="objections" class="card">
+            <h2>Objections and Responses</h2>
+            <p>The doctrine of sola Scriptura faces persistent objections. Here are the principal ones, with responses rooted in Scripture itself.</p>
+
+            <div class="objection-container">
+                <div class="objection-title">Objection 1: "Isn't sola Scriptura a product of the Reformation, not the Bible itself?"</div>
+                <div class="objection-answer">
+                    <strong>Response:</strong> The terminology is post-biblical, but the principle is apostolic. Jesus consistently appealed to Scripture as the final arbiter (Matthew 22:29, "You are wrong, because you know neither the powers of God nor the scriptures"). The apostles did the same. Paul commended the Bereans for examining Scripture to test his teaching (Acts 17:11). The early church recognized certain writings as authoritative precisely because they carried apostolic authority. The Reformation recovered what had been obscured by Rome's elevation of tradition; it did not invent sola Scriptura.
+                </div>
+            </div>
+
+            <div class="objection-container">
+                <div class="objection-title">Objection 2: "How can Scripture be authoritative if humans wrote it?"</div>
+                <div class="objection-answer">
+                    <strong>Response:</strong> This assumes a false dichotomy. Scripture is the product of <strong>dual authorship</strong>: human and divine. God did not bypass human nature; He worked through it. The authors were fully themselves—writing in their own languages, employing their own vocabularies, addressing specific historical situations. Yet God so moved upon them that every word they wrote was exactly what He intended. This is not mechanical dictation (which would deny human agency) but organic inspiration (which affirms both human and divine action).
+                </div>
+            </div>
+
+            <div class="objection-container">
+                <div class="objection-title">Objection 3: "What about apparent contradictions in Scripture?"</div>
+                <div class="objection-answer">
+                    <strong>Response:</strong> Apparent contradictions are resolved through careful study. Biblical interpreters employ several valid tools:
+                    <ul style="margin-top: 0.8rem;">
+                        <li><strong>Harmonization:</strong> showing how seemingly conflicting accounts can both be true when properly understood</li>
+                        <li><strong>Progressive revelation:</strong> recognizing that God's revelation unfolds over time; later revelation clarifies earlier forms</li>
+                        <li><strong>Genre awareness:</strong> understanding that poetry employs different conventions than history, yet both are truthful</li>
+                        <li><strong>Historical context:</strong> recognizing the specific situation a passage addresses</li>
+                    </ul>
+                    <p style="margin-top: 0.8rem;">To abandon inerrancy because of apparent difficulties is to capitulate before careful study begins. The history of biblical scholarship shows that perceived contradictions are often resolved when examined thoroughly.</p>
+                </div>
+            </div>
+
+            <div class="objection-container">
+                <div class="objection-title">Objection 4: "Doesn't everyone just interpret Scripture differently?"</div>
+                <div class="objection-answer">
+                    <strong>Response:</strong> This confuses the clarity of Scripture with the perspicuity of all its parts. The essential doctrines are clear enough that genuine believers, across cultures and centuries, have arrived at substantial agreement on the core truths. That some people misinterpret Scripture does not negate its clarity; it testifies to human sinfulness and the need for the Spirit's illumination. Moreover, the historic consensus of the church provides a check on idiosyncratic interpretations. Perspicuity does not mean every believer will independently arrive at every correct interpretation; it means that Scripture's essential message is accessible and that the Spirit enables understanding.
+                </div>
+            </div>
+
+            <div class="objection-container">
+                <div class="objection-title">Objection 5: "Don't we need the church to interpret Scripture authoritatively?"</div>
+                <div class="objection-answer">
+                    <strong>Response:</strong> The church needs Scripture far more than Scripture needs the church. Scripture is God's Word; the church is God's people. The church serves Scripture; Scripture does not serve the church. Certainly, the church has teachers (Eph 4:11–12), and we honor faithful expositors. But teachers are not authorities; Scripture is the authority. When a teacher contradicts Scripture, the teacher must be corrected by Scripture, not vice versa. Rome's claim that the Magisterium alone can interpret Scripture authoritatively makes the church the true authority and reduces Scripture to raw material the church processes. This inverts the proper relationship.
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. Witnesses -->
+        <section id="witnesses" class="card">
+            <h2>Witnesses to Scripture's Authority</h2>
+            <p>Throughout history, faithful believers have testified to the authority and sufficiency of Scripture. Here are the voices of those who counted the cost and stood firm on God's Word.</p>
+
+            <div class="witness-card">
+                <div class="witness-quote">
+                    "Unless I am convicted by Scripture and plain reason—I do not accept the authority of popes and councils, for they have contradicted each other—my conscience is captive to the Word of God. I cannot and I will not recant anything, for to go against conscience is neither right nor safe. Here I stand, I can do no other, so help me God. Amen."
+                </div>
+                <div class="witness-author">Martin Luther at the Diet of Worms, April 18, 1521</div>
+            </div>
+
+            <div class="witness-card">
+                <div class="witness-quote">
+                    "I am not content merely to approve of Scripture, but I assent to it with my whole heart. Without the illumination of the Holy Spirit, our eyes are too dull to see [Scripture's] beauty. I confess that Scripture is the surest and best proof of God."
+                </div>
+                <div class="witness-author">John Calvin, Institutes of the Christian Religion, Book I</div>
+            </div>
+
+            <div class="witness-card">
+                <div class="witness-quote">
+                    "The Bible is no other than the voice of Him that sitteth upon the throne. Every statement in the Bible is the direct voice of God and not a report of what God said."
+                </div>
+                <div class="witness-author">Benjamin B. Warfield, The Inspiration and Authority of the Bible (1881)</div>
+            </div>
+
+            <div class="witness-card">
+                <div class="witness-quote">
+                    "The authority of the Holy Scripture, for which it ought to be believed and obeyed, dependeth not upon the testimony of any man or church, but wholly upon God (who is truth itself) the author thereof: and therefore it is to be received, because it is the Word of God."
+                </div>
+                <div class="witness-author">Westminster Confession of Faith, Chapter 1, Section 4 (1647)</div>
+            </div>
+
+            <div class="witness-card">
+                <div class="witness-quote">
+                    "We affirm that the whole of Scripture and all its parts, down to the very words of the original, were given by divine inspiration."
+                </div>
+                <div class="witness-author">The Chicago Statement on Biblical Inerrancy, Preamble (1978)</div>
+            </div>
+        </section>
+
+        <!-- 12. Connections -->
+        <section id="connections" class="card">
+            <h2>Connections: Where Prolegomena Leads</h2>
+            <p>Prolegomena is not an isolated doctrine; it is foundational to all systematic theology. Having established that Scripture is our authority, we now ask: <em>What does Scripture say about God, redemption, and the last things?</em></p>
+
+            <p>Every subsequent doctrine rests on this foundation. If Scripture is not authoritative, then our claims about theology are mere opinion. But if Scripture is God's Word—infallible, inerrant, sufficient, and clear—then our theology has solid ground.</p>
+
+            <div class="connection-links">
+                <a href="systematic-theology.html" class="connection-link">
+                    <h4>Systematic Theology Hub</h4>
+                    <p>Return to the main systematic theology page to explore all doctrinal topics.</p>
+                </a>
+                <a href="systematic-theology.html#theology-proper" class="connection-link">
+                    <h4>Theology Proper</h4>
+                    <p>Having established Scripture as our authority, we now ask: What does Scripture tell us about God—His existence, attributes, and character?</p>
+                </a>
+                <a href="theologians.html" class="connection-link">
+                    <h4>Great Theologians</h4>
+                    <p>Explore how faithful theologians throughout history have defended Scripture's authority and built their theology upon it.</p>
+                </a>
+                <a href="resources.html" class="connection-link">
+                    <h4>Resources</h4>
+                    <p>Find commentaries, systematic theologies, and books defending and explaining the doctrine of Scripture.</p>
+                </a>
+            </div>
+
+            <h3>The Centrality of Scripture</h3>
+            <p>Every doctrine in systematic theology flows from and must be tested by Scripture. The doctrine of God, the person and work of Christ, the nature of redemption, the constitution of the church, the hope of resurrection—all are established and defined by Scripture. This is why prolegomena is where we begin. Before we can answer any theological question rightly, we must establish our authority. For the Christian, that authority is the inscripturated speech of God—the 66 books of the Bible, which cannot be broken.</p>
+
+            <div class="scripture-quote">
+                "So is my word that goes out from my mouth: It will not return to me empty, but will accomplish what I desire and achieve the purpose for which I sent it."
+                <div class="scripture-cite">Isaiah 55:11</div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Adopted By Grace. All rights reserved. May the Word of God reign supreme in all our theology and living.</p>
+    </footer>
+
+</body>
+</html>
