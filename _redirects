@@ -2,5 +2,11 @@
 # Redirect old domain to new
 https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 
+# Engagement pages — clean URLs
+/connect    /connect.html    200
+/donate     /donate.html     200
+/support    /donate.html     301
+/contact    /connect.html    301
+
 # Custom 404
 /*  /404.html  404
