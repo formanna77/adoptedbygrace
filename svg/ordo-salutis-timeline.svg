@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-label="The Ordo Salutis: The order of salvation from God's eternal decree through glorification — every link forged by sovereign grace">
+  <defs>
+    <linearGradient id="os-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#0f0f18"/>
+    </linearGradient>
+    <linearGradient id="os-line-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4a254" stop-opacity="0.1"/>
+      <stop offset="15%" stop-color="#d4a254" stop-opacity="0.8"/>
+      <stop offset="85%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="os-gold-ember" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4a254"/>
+      <stop offset="100%" stop-color="#e8642c"/>
+    </linearGradient>
+
+    <filter id="os-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="os-soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12"/>
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@600&amp;display=swap');
+
+      .os-title { font-family: 'Playfair Display', serif; font-weight: 800; fill: #f0ece4; }
+      .os-subtitle { font-family: 'Inter', sans-serif; font-weight: 400; fill: #9a958c; }
+      .os-step-name { font-family: 'Playfair Display', serif; font-weight: 700; fill: #f0ece4; font-size: 12px; }
+      .os-step-desc { font-family: 'Inter', sans-serif; font-weight: 400; fill: #9a958c; font-size: 9.5px; }
+      .os-verse { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 8px; }
+      .os-number { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 10px; }
+      .os-era { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 9px; letter-spacing: 0.15em; }
+
+      @keyframes timeline-draw {
+        from { stroke-dashoffset: 1100; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes node-appear {
+        from { r: 0; opacity: 0; }
+        to { r: 14; opacity: 1; }
+      }
+      @keyframes fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+      .timeline-path {
+        stroke-dasharray: 1100;
+        stroke-dashoffset: 1100;
+        animation: timeline-draw 3s ease-out forwards;
+      }
+
+      .step-group { opacity: 0; animation: fade-in 0.6s ease-out forwards; }
+      .step-group:nth-child(1) { animation-delay: 0.3s; }
+      .step-group:nth-child(2) { animation-delay: 0.6s; }
+      .step-group:nth-child(3) { animation-delay: 0.9s; }
+      .step-group:nth-child(4) { animation-delay: 1.2s; }
+      .step-group:nth-child(5) { animation-delay: 1.5s; }
+      .step-group:nth-child(6) { animation-delay: 1.8s; }
+      .step-group:nth-child(7) { animation-delay: 2.1s; }
+      .step-group:nth-child(8) { animation-delay: 2.4s; }
+      .step-group:nth-child(9) { animation-delay: 2.7s; }
+      .step-group:nth-child(10) { animation-delay: 3.0s; }
+
+      @keyframes pulse-ring {
+        0%, 100% { r: 18; opacity: 0.15; }
+        50% { r: 22; opacity: 0.3; }
+      }
+      .pulse-ring { animation: pulse-ring 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="500" fill="url(#os-bg)"/>
+
+  <!-- Title area -->
+  <text x="600" y="42" text-anchor="middle" class="os-era" fill="#d4a254" opacity="0.5">THE ORDER OF SALVATION</text>
+  <text x="600" y="68" text-anchor="middle" class="os-title" font-size="26">The Golden Chain Unbroken</text>
+  <text x="600" y="90" text-anchor="middle" class="os-subtitle" font-size="12">From eternity past to eternity future — every link forged by sovereign grace alone</text>
+
+  <!-- Era markers -->
+  <text x="115" y="130" text-anchor="middle" class="os-era" fill="#d4a254" opacity="0.4">ETERNITY PAST</text>
+  <text x="600" y="130" text-anchor="middle" class="os-era" fill="#e8642c" opacity="0.4">IN TIME</text>
+  <text x="1085" y="130" text-anchor="middle" class="os-era" fill="#8b5cf6" opacity="0.4">ETERNITY FUTURE</text>
+
+  <!-- Main timeline line -->
+  <line x1="60" y1="190" x2="1140" y2="190" stroke="url(#os-line-grad)" stroke-width="2" class="timeline-path"/>
+
+  <!-- Decorative dots along the line -->
+  <circle cx="60" cy="190" r="3" fill="#d4a254" opacity="0.3"/>
+  <circle cx="1140" cy="190" r="3" fill="#8b5cf6" opacity="0.3"/>
+
+  <!-- ===== 10 STEPS ===== -->
+
+  <!-- 1. ELECTION (Eternity Past) -->
+  <g class="step-group">
+    <circle cx="115" cy="190" r="18" fill="none" stroke="#d4a254" stroke-width="0.5" class="pulse-ring" opacity="0.2"/>
+    <circle cx="115" cy="190" r="14" fill="#12121a" stroke="#d4a254" stroke-width="1.5"/>
+    <text x="115" y="194" text-anchor="middle" class="os-number" fill="#d4a254">1</text>
+    <text x="115" y="225" text-anchor="middle" class="os-step-name">Election</text>
+    <text x="115" y="240" text-anchor="middle" class="os-step-desc">Chosen before</text>
+    <text x="115" y="252" text-anchor="middle" class="os-step-desc">the foundation</text>
+    <text x="115" y="270" text-anchor="middle" class="os-verse" fill="#d4a254" opacity="0.6">Eph 1:4</text>
+  </g>
+
+  <!-- 2. PREDESTINATION -->
+  <g class="step-group">
+    <circle cx="230" cy="190" r="14" fill="#12121a" stroke="#c49344" stroke-width="1.5"/>
+    <text x="230" y="194" text-anchor="middle" class="os-number" fill="#c49344">2</text>
+    <text x="230" y="225" text-anchor="middle" class="os-step-name">Predestination</text>
+    <text x="230" y="240" text-anchor="middle" class="os-step-desc">Destined for</text>
+    <text x="230" y="252" text-anchor="middle" class="os-step-desc">adoption</text>
+    <text x="230" y="270" text-anchor="middle" class="os-verse" fill="#c49344" opacity="0.6">Eph 1:5</text>
+  </g>
+
+  <!-- 3. GOSPEL CALL -->
+  <g class="step-group">
+    <circle cx="345" cy="190" r="14" fill="#12121a" stroke="#b87f3a" stroke-width="1.5"/>
+    <text x="345" y="194" text-anchor="middle" class="os-number" fill="#b87f3a">3</text>
+    <text x="345" y="225" text-anchor="middle" class="os-step-name">Gospel Call</text>
+    <text x="345" y="240" text-anchor="middle" class="os-step-desc">The Word goes</text>
+    <text x="345" y="252" text-anchor="middle" class="os-step-desc">out to all</text>
+    <text x="345" y="270" text-anchor="middle" class="os-verse" fill="#b87f3a" opacity="0.6">Rom 10:14</text>
+  </g>
+
+  <!-- 4. REGENERATION -->
+  <g class="step-group">
+    <circle cx="460" cy="190" r="14" fill="#12121a" stroke="#c0643a" stroke-width="1.5"/>
+    <text x="460" y="194" text-anchor="middle" class="os-number" fill="#c0643a">4</text>
+    <text x="460" y="225" text-anchor="middle" class="os-step-name">Regeneration</text>
+    <text x="460" y="240" text-anchor="middle" class="os-step-desc">God gives a</text>
+    <text x="460" y="252" text-anchor="middle" class="os-step-desc">new heart</text>
+    <text x="460" y="270" text-anchor="middle" class="os-verse" fill="#c0643a" opacity="0.6">Ezek 36:26</text>
+  </g>
+
+  <!-- 5. FAITH & REPENTANCE -->
+  <g class="step-group">
+    <circle cx="575" cy="190" r="14" fill="#12121a" stroke="#c85a3a" stroke-width="1.5"/>
+    <text x="575" y="194" text-anchor="middle" class="os-number" fill="#c85a3a">5</text>
+    <text x="575" y="225" text-anchor="middle" class="os-step-name">Faith</text>
+    <text x="575" y="240" text-anchor="middle" class="os-step-desc">Believing — a</text>
+    <text x="575" y="252" text-anchor="middle" class="os-step-desc">gift of God</text>
+    <text x="575" y="270" text-anchor="middle" class="os-verse" fill="#c85a3a" opacity="0.6">Eph 2:8</text>
+  </g>
+
+  <!-- 6. JUSTIFICATION -->
+  <g class="step-group">
+    <circle cx="690" cy="190" r="14" fill="#12121a" stroke="#a85a5a" stroke-width="1.5"/>
+    <text x="690" y="194" text-anchor="middle" class="os-number" fill="#a85a5a">6</text>
+    <text x="690" y="225" text-anchor="middle" class="os-step-name">Justification</text>
+    <text x="690" y="240" text-anchor="middle" class="os-step-desc">Declared righteous</text>
+    <text x="690" y="252" text-anchor="middle" class="os-step-desc">in Christ</text>
+    <text x="690" y="270" text-anchor="middle" class="os-verse" fill="#a85a5a" opacity="0.6">Rom 5:1</text>
+  </g>
+
+  <!-- 7. ADOPTION -->
+  <g class="step-group">
+    <circle cx="805" cy="190" r="14" fill="#12121a" stroke="#9a5a7a" stroke-width="1.5"/>
+    <text x="805" y="194" text-anchor="middle" class="os-number" fill="#9a5a7a">7</text>
+    <text x="805" y="225" text-anchor="middle" class="os-step-name">Adoption</text>
+    <text x="805" y="240" text-anchor="middle" class="os-step-desc">Made sons and</text>
+    <text x="805" y="252" text-anchor="middle" class="os-step-desc">daughters</text>
+    <text x="805" y="270" text-anchor="middle" class="os-verse" fill="#9a5a7a" opacity="0.6">Gal 4:5</text>
+  </g>
+
+  <!-- 8. SANCTIFICATION -->
+  <g class="step-group">
+    <circle cx="920" cy="190" r="14" fill="#12121a" stroke="#8a5a9a" stroke-width="1.5"/>
+    <text x="920" y="194" text-anchor="middle" class="os-number" fill="#8a5a9a">8</text>
+    <text x="920" y="225" text-anchor="middle" class="os-step-name">Sanctification</text>
+    <text x="920" y="240" text-anchor="middle" class="os-step-desc">Being conformed</text>
+    <text x="920" y="252" text-anchor="middle" class="os-step-desc">to Christ</text>
+    <text x="920" y="270" text-anchor="middle" class="os-verse" fill="#8a5a9a" opacity="0.6">Phil 1:6</text>
+  </g>
+
+  <!-- 9. PERSEVERANCE -->
+  <g class="step-group">
+    <circle cx="1000" cy="190" r="14" fill="#12121a" stroke="#7a5aaa" stroke-width="1.5"/>
+    <text x="1000" y="194" text-anchor="middle" class="os-number" fill="#7a5aaa">9</text>
+    <text x="1000" y="225" text-anchor="middle" class="os-step-name">Perseverance</text>
+    <text x="1000" y="240" text-anchor="middle" class="os-step-desc">Kept by God's</text>
+    <text x="1000" y="252" text-anchor="middle" class="os-step-desc">power</text>
+    <text x="1000" y="270" text-anchor="middle" class="os-verse" fill="#7a5aaa" opacity="0.6">John 10:28</text>
+  </g>
+
+  <!-- 10. GLORIFICATION -->
+  <g class="step-group">
+    <circle cx="1085" cy="190" r="18" fill="none" stroke="#8b5cf6" stroke-width="0.5" class="pulse-ring" opacity="0.2"/>
+    <circle cx="1085" cy="190" r="14" fill="#12121a" stroke="#8b5cf6" stroke-width="1.5"/>
+    <text x="1085" y="194" text-anchor="middle" class="os-number" fill="#8b5cf6">10</text>
+    <text x="1085" y="225" text-anchor="middle" class="os-step-name">Glorification</text>
+    <text x="1085" y="240" text-anchor="middle" class="os-step-desc">Forever with</text>
+    <text x="1085" y="252" text-anchor="middle" class="os-step-desc">the Lord</text>
+    <text x="1085" y="270" text-anchor="middle" class="os-verse" fill="#8b5cf6" opacity="0.6">Rom 8:30</text>
+  </g>
+
+  <!-- Bottom Scripture -->
+  <rect x="200" y="310" width="800" height="80" rx="8" fill="#12121a" stroke="rgba(212,162,84,0.15)" stroke-width="1"/>
+  <text x="600" y="340" text-anchor="middle" font-family="'Playfair Display', serif" font-size="14" fill="#f0ece4" font-style="italic">"Those whom he predestined he also called, and those whom he called</text>
+  <text x="600" y="360" text-anchor="middle" font-family="'Playfair Display', serif" font-size="14" fill="#f0ece4" font-style="italic">he also justified, and those whom he justified he also glorified."</text>
+  <text x="600" y="380" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#d4a254" opacity="0.7" letter-spacing="0.1em">ROMANS 8:30</text>
+
+  <!-- Bottom note -->
+  <text x="600" y="430" text-anchor="middle" font-family="'Inter', sans-serif" font-size="10" fill="#5a5650">Not one link is contingent on human will. From first to last, salvation is of the Lord.</text>
+  <text x="600" y="450" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#5a5650" letter-spacing="0.1em">JONAH 2:9 • EPHESIANS 2:8-9 • PHILIPPIANS 1:6</text>
+</svg>

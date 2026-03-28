@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="TULIP — The Five Points of Calvinism: Total Depravity, Unconditional Election, Limited Atonement, Irresistible Grace, Perseverance of the Saints">
+  <defs>
+    <!-- Shared gradients -->
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#12121a"/>
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4a254"/>
+      <stop offset="100%" stop-color="#e8642c"/>
+    </linearGradient>
+    <linearGradient id="glow-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a254" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#d4a254" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="center-glow">
+      <stop offset="0%" stop-color="#d4a254" stop-opacity="0.08"/>
+      <stop offset="70%" stop-color="#d4a254" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Petal shape -->
+    <clipPath id="petal-clip">
+      <ellipse cx="0" cy="-45" rx="32" ry="55"/>
+    </clipPath>
+
+    <!-- Glow filter -->
+    <filter id="gold-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+    </filter>
+
+    <!-- Styles -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@600&amp;display=swap');
+
+      .title { font-family: 'Playfair Display', serif; font-weight: 800; fill: #f0ece4; }
+      .subtitle { font-family: 'Inter', sans-serif; font-weight: 400; fill: #9a958c; }
+      .letter { font-family: 'Playfair Display', serif; font-weight: 800; }
+      .point-name { font-family: 'Playfair Display', serif; font-weight: 700; fill: #f0ece4; }
+      .point-desc { font-family: 'Inter', sans-serif; font-weight: 400; fill: #9a958c; }
+      .verse-ref { font-family: 'JetBrains Mono', monospace; font-weight: 600; }
+
+      /* Petal animations */
+      @keyframes petalPulse {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 1; }
+      }
+      @keyframes glowPulse {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(12px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes stemGrow {
+        from { stroke-dashoffset: 120; }
+        to { stroke-dashoffset: 0; }
+      }
+
+      .petal-group { animation: petalPulse 4s ease-in-out infinite; }
+      .petal-group:nth-child(2) { animation-delay: 0.4s; }
+      .petal-group:nth-child(3) { animation-delay: 0.8s; }
+      .petal-group:nth-child(4) { animation-delay: 1.2s; }
+      .petal-group:nth-child(5) { animation-delay: 1.6s; }
+
+      .center-glow-anim { animation: glowPulse 5s ease-in-out infinite; }
+
+      .stem-line {
+        stroke-dasharray: 120;
+        stroke-dashoffset: 120;
+        animation: stemGrow 2s ease-out forwards;
+      }
+
+      .content-row { animation: fadeInUp 0.8s ease-out both; }
+      .content-row:nth-child(1) { animation-delay: 0.6s; }
+      .content-row:nth-child(2) { animation-delay: 0.8s; }
+      .content-row:nth-child(3) { animation-delay: 1.0s; }
+      .content-row:nth-child(4) { animation-delay: 1.2s; }
+      .content-row:nth-child(5) { animation-delay: 1.4s; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="600" fill="url(#bg-grad)"/>
+
+  <!-- Ambient center glow -->
+  <circle cx="450" cy="155" r="180" fill="url(#center-glow)" class="center-glow-anim"/>
+
+  <!-- ===== TULIP FLOWER ===== -->
+  <g transform="translate(450, 165)">
+    <!-- Stem -->
+    <line x1="0" y1="50" x2="0" y2="170" stroke="#3a5a2a" stroke-width="3" stroke-linecap="round" class="stem-line" opacity="0.6"/>
+    <!-- Leaves -->
+    <path d="M0,120 Q-30,100 -15,80" fill="none" stroke="#3a5a2a" stroke-width="2" opacity="0.4"/>
+    <path d="M0,140 Q25,125 12,105" fill="none" stroke="#3a5a2a" stroke-width="2" opacity="0.4"/>
+
+    <!-- Petal 1: T — Total Depravity (top-left) -->
+    <g class="petal-group" transform="rotate(-36)">
+      <ellipse cx="0" cy="-52" rx="28" ry="50" fill="#8b2020" opacity="0.9"/>
+      <ellipse cx="0" cy="-52" rx="28" ry="50" fill="none" stroke="#d4a254" stroke-width="0.5" opacity="0.4"/>
+      <text x="0" y="-48" text-anchor="middle" class="letter" font-size="22" fill="#d4a254" filter="url(#gold-glow)">T</text>
+    </g>
+
+    <!-- Petal 2: U — Unconditional Election (top far-left) -->
+    <g class="petal-group" transform="rotate(-18)">
+      <ellipse cx="0" cy="-52" rx="28" ry="50" fill="#7a1f3d" opacity="0.9"/>
+      <ellipse cx="0" cy="-52" rx="28" ry="50" fill="none" stroke="#d4a254" stroke-width="0.5" opacity="0.4"/>
+      <text x="0" y="-48" text-anchor="middle" class="letter" font-size="22" fill="#d4a254" filter="url(#gold-glow)">U</text>
+    </g>
+
+    <!-- Petal 3: L — Limited Atonement (center) -->
+    <g class="petal-group" transform="rotate(0)">
+      <ellipse cx="0" cy="-55" rx="28" ry="52" fill="#6b1a4a" opacity="0.9"/>
+      <ellipse cx="0" cy="-55" rx="28" ry="52" fill="none" stroke="#d4a254" stroke-width="0.5" opacity="0.4"/>
+      <text x="0" y="-50" text-anchor="middle" class="letter" font-size="22" fill="#d4a254" filter="url(#gold-glow)">L</text>
+    </g>
+
+    <!-- Petal 4: I — Irresistible Grace (top-right) -->
+    <g class="petal-group" transform="rotate(18)">
+      <ellipse cx="0" cy="-52" rx="28" ry="50" fill="#5a1a5a" opacity="0.9"/>
+      <ellipse cx="0" cy="-52" rx="28" ry="50" fill="none" stroke="#d4a254" stroke-width="0.5" opacity="0.4"/>
+      <text x="0" y="-48" text-anchor="middle" class="letter" font-size="22" fill="#d4a254" filter="url(#gold-glow)">I</text>
+    </g>
+
+    <!-- Petal 5: P — Perseverance (far right) -->
+    <g class="petal-group" transform="rotate(36)">
+      <ellipse cx="0" cy="-52" rx="28" ry="50" fill="#4a1a6b" opacity="0.9"/>
+      <ellipse cx="0" cy="-52" rx="28" ry="50" fill="none" stroke="#d4a254" stroke-width="0.5" opacity="0.4"/>
+      <text x="0" y="-48" text-anchor="middle" class="letter" font-size="22" fill="#d4a254" filter="url(#gold-glow)">P</text>
+    </g>
+
+    <!-- Center pistil -->
+    <circle cx="0" cy="-8" r="10" fill="#d4a254" opacity="0.2"/>
+    <circle cx="0" cy="-8" r="5" fill="#d4a254" opacity="0.5"/>
+  </g>
+
+  <!-- ===== CONTENT ROWS ===== -->
+  <!-- Row backgrounds and content -->
+
+  <!-- T — Total Depravity -->
+  <g class="content-row" transform="translate(0, 330)">
+    <rect x="50" y="0" width="800" height="44" rx="6" fill="#12121a" stroke="rgba(139,32,32,0.3)" stroke-width="1"/>
+    <rect x="50" y="0" width="4" height="44" rx="2" fill="#8b2020"/>
+    <text x="72" y="18" class="letter" font-size="18" fill="#d4a254">T</text>
+    <text x="95" y="18" class="point-name" font-size="13">Total Depravity</text>
+    <text x="95" y="35" class="point-desc" font-size="11">Man is dead in sin, unable to choose God apart from regenerating grace</text>
+    <text x="780" y="27" text-anchor="end" class="verse-ref" font-size="10" fill="#d4a254" opacity="0.7">ROM 3:10-12</text>
+  </g>
+
+  <!-- U — Unconditional Election -->
+  <g class="content-row" transform="translate(0, 382)">
+    <rect x="50" y="0" width="800" height="44" rx="6" fill="#12121a" stroke="rgba(122,31,61,0.3)" stroke-width="1"/>
+    <rect x="50" y="0" width="4" height="44" rx="2" fill="#7a1f3d"/>
+    <text x="72" y="18" class="letter" font-size="18" fill="#d4a254">U</text>
+    <text x="95" y="18" class="point-name" font-size="13">Unconditional Election</text>
+    <text x="95" y="35" class="point-desc" font-size="11">God chose His people before the foundation of the world, not based on foreseen faith</text>
+    <text x="780" y="27" text-anchor="end" class="verse-ref" font-size="10" fill="#d4a254" opacity="0.7">EPH 1:4-5</text>
+  </g>
+
+  <!-- L — Limited Atonement -->
+  <g class="content-row" transform="translate(0, 434)">
+    <rect x="50" y="0" width="800" height="44" rx="6" fill="#12121a" stroke="rgba(107,26,74,0.3)" stroke-width="1"/>
+    <rect x="50" y="0" width="4" height="44" rx="2" fill="#6b1a4a"/>
+    <text x="72" y="18" class="letter" font-size="18" fill="#d4a254">L</text>
+    <text x="95" y="18" class="point-name" font-size="13">Limited Atonement</text>
+    <text x="95" y="35" class="point-desc" font-size="11">Christ died effectually for His sheep — a ransom that actually redeems</text>
+    <text x="780" y="27" text-anchor="end" class="verse-ref" font-size="10" fill="#d4a254" opacity="0.7">JOHN 10:11</text>
+  </g>
+
+  <!-- I — Irresistible Grace -->
+  <g class="content-row" transform="translate(0, 486)">
+    <rect x="50" y="0" width="800" height="44" rx="6" fill="#12121a" stroke="rgba(90,26,90,0.3)" stroke-width="1"/>
+    <rect x="50" y="0" width="4" height="44" rx="2" fill="#5a1a5a"/>
+    <text x="72" y="18" class="letter" font-size="18" fill="#d4a254">I</text>
+    <text x="95" y="18" class="point-name" font-size="13">Irresistible Grace</text>
+    <text x="95" y="35" class="point-desc" font-size="11">The Holy Spirit effectually calls the elect, giving them new hearts that willingly come</text>
+    <text x="780" y="27" text-anchor="end" class="verse-ref" font-size="10" fill="#d4a254" opacity="0.7">EZEK 36:26</text>
+  </g>
+
+  <!-- P — Perseverance of the Saints -->
+  <g class="content-row" transform="translate(0, 538)">
+    <rect x="50" y="0" width="800" height="44" rx="6" fill="#12121a" stroke="rgba(74,26,107,0.3)" stroke-width="1"/>
+    <rect x="50" y="0" width="4" height="44" rx="2" fill="#4a1a6b"/>
+    <text x="72" y="18" class="letter" font-size="18" fill="#d4a254">P</text>
+    <text x="95" y="18" class="point-name" font-size="13">Perseverance of the Saints</text>
+    <text x="95" y="35" class="point-desc" font-size="11">Those whom God saves, He keeps — none shall be plucked from the Father's hand</text>
+    <text x="780" y="27" text-anchor="end" class="verse-ref" font-size="10" fill="#d4a254" opacity="0.7">JOHN 10:28-29</text>
+  </g>
+
+  <!-- Header text -->
+  <text x="450" y="302" text-anchor="middle" class="subtitle" font-size="11" letter-spacing="0.2em" fill="#d4a254" opacity="0.6">THE FIVE POINTS OF GRACE</text>
+</svg>

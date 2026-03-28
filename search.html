@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search across 60+ pages of Reformed theology content — find verses, doctrines, theologians, and answers to your questions about the doctrines of grace.">
+    <meta property="og:title" content="Search — Adopted by Grace">
+    <meta property="og:description" content="Search across 60+ pages of Reformed theology content on election, sovereignty, TULIP, and the doctrines of grace.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/search.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/search.html">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>Search — Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SearchResultsPage",
+        "name": "Search — Adopted by Grace",
+        "description": "Search across 60+ pages of Reformed theology content.",
+        "url": "https://adoptedbygrace.net/search.html",
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.7; overflow-x: hidden; -webkit-text-size-adjust: 100%; }
+        .skip-link { position: absolute; top: -40px; left: 0; background: var(--accent-gold); color: var(--bg-deep); padding: 8px 16px; z-index: 10000; font-weight: 600; transition: top 0.3s ease; }
+        .skip-link:focus { top: 0; }
+        nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 15, 0.85); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: 0.1em; text-decoration: none; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { text-decoration: none; color: var(--text-secondary); font-size: 0.95rem; transition: color 0.3s ease; font-weight: 500; }
+        .nav-links a:hover, .nav-links a.active { color: var(--accent-gold); }
+
+        /* Search Hero */
+        .search-hero { max-width: 800px; margin: 0 auto; padding: 4rem 2rem 2rem; text-align: center; }
+        .search-hero h1 { font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; }
+        .search-hero h1 span { background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .search-hero p { color: var(--text-secondary); font-size: 1rem; }
+
+        /* Search Input */
+        .search-container { max-width: 700px; margin: 2rem auto; padding: 0 2rem; position: relative; }
+        .search-wrapper { position: relative; }
+        .search-icon { position: absolute; left: 1.2rem; top: 50%; transform: translateY(-50%); color: var(--text-muted); pointer-events: none; }
+        .search-icon svg { width: 20px; height: 20px; }
+        .search-input { width: 100%; padding: 1.1rem 1.2rem 1.1rem 3.2rem; background: var(--bg-card); border: 2px solid var(--border-subtle); border-radius: 10px; color: var(--text-primary); font-family: 'Inter', sans-serif; font-size: 1.05rem; outline: none; transition: border-color 0.3s ease, box-shadow 0.3s ease; }
+        .search-input:focus { border-color: var(--accent-gold); box-shadow: 0 0 20px rgba(212, 162, 84, 0.1); }
+        .search-input::placeholder { color: var(--text-muted); }
+        .search-clear { position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1.2rem; display: none; padding: 0.3rem; }
+        .search-clear.visible { display: block; }
+        .search-clear:hover { color: var(--text-secondary); }
+        .search-meta { text-align: center; margin-top: 0.8rem; font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.05em; min-height: 1.2rem; }
+
+        /* Filter Pills */
+        .filter-bar { max-width: 700px; margin: 1rem auto 2rem; padding: 0 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center; }
+        .filter-pill { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 20px; padding: 0.4rem 1rem; font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--text-secondary); cursor: pointer; transition: all 0.2s ease; font-weight: 500; }
+        .filter-pill:hover { border-color: var(--accent-gold); color: var(--text-primary); }
+        .filter-pill.active { background: rgba(212, 162, 84, 0.1); border-color: var(--accent-gold); color: var(--accent-gold); }
+
+        /* Results */
+        .results-container { max-width: 800px; margin: 0 auto; padding: 0 2rem 4rem; }
+        .result-item { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 1.5rem; margin-bottom: 0.8rem; text-decoration: none; display: block; transition: all 0.3s ease; position: relative; overflow: hidden; }
+        .result-item::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--accent-gold), transparent); opacity: 0; transition: opacity 0.3s ease; }
+        .result-item:hover { background: var(--bg-card-hover); border-color: rgba(212, 162, 84, 0.25); transform: translateY(-1px); }
+        .result-item:hover::before { opacity: 1; }
+        .result-category { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.4rem; display: inline-block; padding: 0.15rem 0.5rem; border-radius: 3px; }
+        .result-title { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--text-primary); margin-bottom: 0.4rem; line-height: 1.4; }
+        .result-title mark { background: rgba(212, 162, 84, 0.2); color: var(--accent-gold); border-radius: 2px; padding: 0 2px; }
+        .result-desc { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; }
+        .result-desc mark { background: rgba(212, 162, 84, 0.15); color: var(--accent-gold); border-radius: 2px; padding: 0 1px; }
+        .result-tags { margin-top: 0.6rem; display: flex; gap: 0.4rem; flex-wrap: wrap; }
+        .result-tag { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--text-muted); background: rgba(255,255,255,0.03); padding: 0.15rem 0.4rem; border-radius: 3px; letter-spacing: 0.05em; }
+
+        /* Category colors */
+        .cat-evidence { background: rgba(212, 162, 84, 0.1); color: var(--accent-gold); }
+        .cat-systematic { background: rgba(139, 92, 246, 0.1); color: var(--accent-violet); }
+        .cat-demolition { background: rgba(232, 100, 44, 0.1); color: var(--accent-ember); }
+        .cat-theologians { background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
+        .cat-resources { background: rgba(52, 211, 153, 0.1); color: #34d399; }
+        .cat-start { background: rgba(245, 158, 11, 0.1); color: #f59e0b; }
+        .cat-stories { background: rgba(236, 72, 153, 0.1); color: #ec4899; }
+        .cat-other { background: rgba(148, 163, 184, 0.1); color: #94a3b8; }
+
+        /* Empty state */
+        .empty-state { text-align: center; padding: 4rem 2rem; }
+        .empty-icon { font-size: 3rem; margin-bottom: 1rem; opacity: 0.3; }
+        .empty-title { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--text-secondary); margin-bottom: 0.8rem; }
+        .empty-text { color: var(--text-muted); font-size: 0.95rem; max-width: 400px; margin: 0 auto; line-height: 1.7; }
+
+        /* Popular topics */
+        .popular-topics { max-width: 700px; margin: 2rem auto 4rem; padding: 0 2rem; }
+        .popular-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--text-muted); text-align: center; margin-bottom: 1rem; }
+        .popular-grid { display: flex; gap: 0.6rem; flex-wrap: wrap; justify-content: center; }
+        .popular-tag { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 0.5rem 1rem; color: var(--text-secondary); font-size: 0.85rem; cursor: pointer; transition: all 0.2s ease; text-decoration: none; }
+        .popular-tag:hover { border-color: var(--accent-gold); color: var(--accent-gold); background: rgba(212, 162, 84, 0.04); }
+
+        /* Footer */
+        footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
+        .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center; }
+        .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
+        .footer-section ul { list-style: none; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--accent-gold); }
+        .footer-copyright { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
+
+        @media (max-width: 768px) {
+            nav { padding: 0.8rem 1rem; }
+            .nav-container { flex-direction: column; gap: 0.6rem; }
+            .logo { font-size: 1rem; }
+            .nav-links { gap: 0.6rem; flex-wrap: wrap; justify-content: center; }
+            .nav-links a { font-size: 0.8rem; }
+            .search-hero { padding: 2.5rem 1.2rem 1rem; }
+            .search-hero h1 { font-size: 1.8rem; }
+            .search-container { padding: 0 1.2rem; }
+            .results-container { padding: 0 1.2rem 3rem; }
+            .result-item { padding: 1.2rem; }
+            .result-title { font-size: 1.05rem; }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="start-here.html">Start Here</a></li>
+                <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
+                <li><a href="demolition-hub.html">Demolition</a></li>
+                <li><a href="theologians.html">Theologians</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="search-hero">
+            <h1>Search the <span>Evidence</span></h1>
+            <p>Find Scripture, doctrines, theologians, and answers across 60+ pages of Reformed theology.</p>
+        </section>
+
+        <div class="search-container">
+            <div class="search-wrapper">
+                <span class="search-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></span>
+                <input type="search" class="search-input" id="searchInput" placeholder="Search for a doctrine, verse, theologian, or topic..." autocomplete="off" autofocus>
+                <button class="search-clear" id="searchClear" onclick="clearSearch()" aria-label="Clear search">&times;</button>
+            </div>
+            <div class="search-meta" id="searchMeta"></div>
+        </div>
+
+        <div class="filter-bar" id="filterBar">
+            <button class="filter-pill active" data-filter="all" onclick="setFilter('all')">All</button>
+            <button class="filter-pill" data-filter="evidence" onclick="setFilter('evidence')">Evidence</button>
+            <button class="filter-pill" data-filter="systematic" onclick="setFilter('systematic')">Systematic</button>
+            <button class="filter-pill" data-filter="demolition" onclick="setFilter('demolition')">Demolition</button>
+            <button class="filter-pill" data-filter="theologians" onclick="setFilter('theologians')">Theologians</button>
+            <button class="filter-pill" data-filter="resources" onclick="setFilter('resources')">Resources</button>
+            <button class="filter-pill" data-filter="start" onclick="setFilter('start')">Start Here</button>
+        </div>
+
+        <div class="results-container" id="results"></div>
+
+        <div class="popular-topics" id="popularTopics">
+            <div class="popular-label">Popular Searches</div>
+            <div class="popular-grid">
+                <a class="popular-tag" onclick="searchFor('election')">Election</a>
+                <a class="popular-tag" onclick="searchFor('Romans 9')">Romans 9</a>
+                <a class="popular-tag" onclick="searchFor('John 6')">John 6</a>
+                <a class="popular-tag" onclick="searchFor('total depravity')">Total Depravity</a>
+                <a class="popular-tag" onclick="searchFor('predestination')">Predestination</a>
+                <a class="popular-tag" onclick="searchFor('perseverance')">Perseverance</a>
+                <a class="popular-tag" onclick="searchFor('Augustine')">Augustine</a>
+                <a class="popular-tag" onclick="searchFor('Spurgeon')">Spurgeon</a>
+                <a class="popular-tag" onclick="searchFor('atonement')">Atonement</a>
+                <a class="popular-tag" onclick="searchFor('foreknowledge')">Foreknowledge</a>
+                <a class="popular-tag" onclick="searchFor('free will')">Free Will</a>
+                <a class="popular-tag" onclick="searchFor('irresistible grace')">Irresistible Grace</a>
+                <a class="popular-tag" onclick="searchFor('covenant')">Covenant</a>
+                <a class="popular-tag" onclick="searchFor('Ephesians 1')">Ephesians 1</a>
+                <a class="popular-tag" onclick="searchFor('golden chain')">Golden Chain</a>
+            </div>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section"><h4>ADOPTED BY GRACE</h4><p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p></div>
+            <div class="footer-section"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="start-here.html">Start Here</a></li><li><a href="questions.html">The Evidence</a></li><li><a href="systematic-theology.html">Systematic</a></li><li><a href="demolition-hub.html">Demolition</a></li><li><a href="theologians.html">Theologians</a></li><li><a href="resources.html">Resources</a></li><li><a href="about.html">About</a></li></ul></div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
+    </footer>
+
+    <script>
+    // ============================================================
+    // CLIENT-SIDE SEARCH INDEX
+    // ============================================================
+    const searchIndex = [
+        // === THE EVIDENCE (Question pages) ===
+        { url:"question-chosen.html", title:"Chosen Before the Foundation of the World", desc:"Ephesians 1:3-11 examined in depth. God chose us in Christ before the foundation of the world. Greek analysis, arguments, and objections answered.", cat:"evidence", tags:["ephesians 1","election","predestination","chosen","foundation of the world","eklego","proorizō"] },
+        { url:"question-john6.html", title:"No One Can Come Unless the Father Draws Him", desc:"John 6:37-44,65: Jesus makes faith causally dependent on prior divine action. The Father's drawing is irresistible.", cat:"evidence", tags:["john 6","drawing","helkō","father draws","irresistible","no one can come"] },
+        { url:"question-john10.html", title:"You Do Not Believe Because You Are Not My Sheep", desc:"John 10:26-29: sheep-status determines belief, not the reverse. The Good Shepherd lays down His life for the sheep.", cat:"evidence", tags:["john 10","sheep","good shepherd","eternal life","never perish","definite atonement"] },
+        { url:"question-john15.html", title:"You Did Not Choose Me, But I Chose You", desc:"John 15:16: divine initiative, not human choice, determines discipleship. Jesus chose the disciples before they chose Him.", cat:"evidence", tags:["john 15","you did not choose me","divine initiative","appointed","fruit"] },
+        { url:"question-matt11.html", title:"Thank You, Father, for Hiding This", desc:"Matthew 11:25-27: Jesus thanks the Father for hiding truth from the wise and revealing it to babes. Revelation is selective and sovereign.", cat:"evidence", tags:["matthew 11","hidden","revealed","babes","wise","sovereign revelation"] },
+        { url:"question-romans9.html", title:"Jacob, Esau, and the Chapter That Changes Everything", desc:"Romans 9:6-24 — the most direct chapter on election. Jacob and Esau, Pharaoh, the potter and clay, vessels of mercy and wrath.", cat:"evidence", tags:["romans 9","jacob","esau","pharaoh","potter","clay","vessels","mercy","wrath","election"] },
+        { url:"question-sealed.html", title:"Sealed for the Day of Redemption", desc:"Ephesians 1:13-14, 4:30: sealed by the Holy Spirit — the guarantee (arrabōn) of our inheritance. The deal is done.", cat:"evidence", tags:["ephesians 1","ephesians 4","sealed","holy spirit","guarantee","arrabōn","security"] },
+        { url:"question-goldchain.html", title:"The Unbreakable Chain — Romans 8:28-30", desc:"Foreknown, predestined, called, justified, glorified. Every link is divine and every link holds. No one drops out.", cat:"evidence", tags:["romans 8","golden chain","foreknown","predestined","called","justified","glorified"] },
+        { url:"question-newheart.html", title:"The New Heart You Didn't Ask For", desc:"Ezekiel 36:26-27: God promises a new heart and new spirit. He removes the heart of stone and replaces it. He does not ask permission.", cat:"evidence", tags:["ezekiel 36","new heart","heart of stone","heart of flesh","regeneration","spirit"] },
+        { url:"question-acts.html", title:"The Verse in Acts Nobody Preaches — Acts 13:48", desc:"As many as were appointed (tetagmenoi) to eternal life believed. Appointment precedes faith.", cat:"evidence", tags:["acts 13","appointed","tetagmenoi","eternal life","believed","ordain"] },
+        { url:"question-freewill.html", title:"Free Will: The Doctrine the Bible Never Actually Teaches", desc:"The Bible never teaches autonomous free will. It describes spiritual death, binding sin, and regeneration preceding faith.", cat:"evidence", tags:["free will","autonomy","bondage","spiritual death","libertarian","compatibilism"] },
+        { url:"question-foreknowledge.html", title:"Foreknowledge vs. Predestination — Romans 8:29", desc:"Does foreknowledge mean foresight of faith? Greek proginōskō means to know/love beforehand, not merely to foresee.", cat:"evidence", tags:["foreknowledge","prognosis","proginōskō","romans 8","foresight","prescience"] },
+        { url:"question-godwants.html", title:"Doesn't God Want Everyone Saved?", desc:"1 Timothy 2:4, 2 Peter 3:9 and the two wills of God — His revealed will and sovereign decree.", cat:"evidence", tags:["1 timothy 2","2 peter 3","god wants","all people","two wills","revealed will","decretive will"] },
+        { url:"question-unfair.html", title:"Is God Unfair? — Romans 9:19-23", desc:"Paul confronts the moral objection to election head-on and does not soften the answer. 'Who are you, O man?'", cat:"evidence", tags:["romans 9","unfair","justice","potter","clay","who are you","objection"] },
+        { url:"question-whosoever.html", title:"What About 'Whosoever Will'?", desc:"John 3:16 and 2 Peter 3:9: the offer is universal, but the reception is divinely determined.", cat:"evidence", tags:["whosoever","john 3:16","whoever believes","universal offer","world","kosmos"] },
+        { url:"question-boasting.html", title:"The Boasting Problem That Destroys Free Will", desc:"1 Corinthians 1:26-31: God chose the foolish to shame the wise. Election eliminates human boasting.", cat:"evidence", tags:["1 corinthians 1","boasting","foolish","wise","shame","election design"] },
+        { url:"question-faithgift.html", title:"Faith: Gift or Achievement?", desc:"Philippians 1:29 and Ephesians 2:8-9 answer: faith is granted by God, not generated by man.", cat:"evidence", tags:["philippians 1","ephesians 2","faith","gift","echaristhē","charis","grace","not of works"] },
+        { url:"question-depravity.html", title:"Dead, Not Sick — The Bible's Diagnosis of Humanity", desc:"Total depravity: not being as bad as possible, but as helpless as possible. Romans 3, Ephesians 2, Genesis 6.", cat:"evidence", tags:["total depravity","romans 3","ephesians 2","genesis 6","dead","nekrous","inability","sin"] },
+        { url:"question-irresistible.html", title:"Drawn, Not Dragged — The Grace of Effectual Calling", desc:"Irresistible grace is liberation, not coercion. God transforms wills. John 6:37, Philippians 1:29, Acts 16:14.", cat:"evidence", tags:["irresistible grace","effectual calling","john 6","acts 16","lydia","drawn","transformed"] },
+        { url:"question-perseverance.html", title:"Kept by God — The Perseverance of the Saints", desc:"Perseverance: not human effort, but divine commitment. Those God saves, He keeps. John 10:28-29, Romans 8:35-39.", cat:"evidence", tags:["perseverance","preservation","saints","john 10","romans 8","kept","eternal security","once saved"] },
+
+        // === SYSTEMATIC THEOLOGY ===
+        { url:"systematic-theology.html", title:"Systematic Theology — The Whole Counsel of God", desc:"The whole counsel of God mapped and interconnected: divine decrees, ordo salutis, covenant theology, compatibilism, and more.", cat:"systematic", tags:["systematic theology","whole counsel","framework","overview","hub"] },
+        { url:"systematic-ordo-salutis.html", title:"The Ordo Salutis: The Order of Salvation", desc:"God's order of salvation from election to glorification. Every link in the chain of salvation is forged by sovereign grace. 10 links, Greek analysis.", cat:"systematic", tags:["ordo salutis","order of salvation","election","calling","regeneration","faith","justification","adoption","sanctification","glorification","golden chain"] },
+        { url:"systematic-covenant-theology.html", title:"One Plan, One People, One Mediator — Covenant Theology", desc:"God's single covenant of grace runs through all redemptive history: pactum salutis, covenant of works, covenant of grace.", cat:"systematic", tags:["covenant theology","pactum salutis","covenant of works","covenant of grace","mediator","suzerain","abrahamic","mosaic","davidic","new covenant"] },
+        { url:"systematic-divine-decrees.html", title:"Before the Foundation — God's Eternal Decrees", desc:"Nothing catches God off guard. Before the foundation, God decreed all that would come to pass. 7 attributes, supralapsarianism, infralapsarianism.", cat:"systematic", tags:["divine decrees","eternal decree","sovereignty","predestination","providence","supralapsarianism","infralapsarianism","reprobation"] },
+        { url:"systematic-compatibilism.html", title:"Compatibilism — Sovereignty and Responsibility", desc:"God's absolute sovereignty and genuine human responsibility are both true. 7 biblical patterns, Edwards' distinction, philosophical framework.", cat:"systematic", tags:["compatibilism","sovereignty","responsibility","free will","determinism","edwards","joseph","cross","pharaoh"] },
+
+        // === DEMOLITION ZONE ===
+        { url:"demolition-hub.html", title:"Verse-by-Verse Demolition — Arminian Proof Texts Answered", desc:"Every verse cited against Reformed theology examined and shown to support the doctrines of grace through Greek analysis.", cat:"demolition", tags:["demolition","arminian","proof text","answered","verse by verse"] },
+        { url:"demolition-john3-16.html", title:"Does 'The World' Mean Every Individual? — John 3:16", desc:"John 3:16 actually supports the doctrines of grace. Greek kosmos analyzed in historical context.", cat:"demolition", tags:["john 3:16","world","kosmos","god so loved","whoever believes"] },
+        { url:"demolition-1tim2-4.html", title:"1 Timothy 2:4 — God Desires All People Saved?", desc:"'God desires all people to be saved' = all KINDS of people. Greek analysis: thelei, pantas anthrōpous.", cat:"demolition", tags:["1 timothy 2:4","all people","all kinds","thelei","desire","saved","antilutron"] },
+        { url:"demolition-2peter3-9.html", title:"2 Peter 3:9 — Not Willing That Any Should Perish", desc:"'Not wishing that any should perish' — the pronoun 'you' (eis humas) settles it. Greek: boulomenos.", cat:"demolition", tags:["2 peter 3:9","not willing","any should perish","boulomenos","patience","delay","pronoun"] },
+        { url:"demolition-1john2-2.html", title:"1 John 2:2 — Owen's Trilemma", desc:"'Propitiation for the whole world' — Owen's trilemma demolishes universal atonement. Jewish-Gentile distinction.", cat:"demolition", tags:["1 john 2:2","propitiation","hilasmos","whole world","owen","trilemma","particular redemption","jewish","gentile"] },
+        { url:"demolition-orthodox-predestination.html", title:"Dismantling the Orthodox Case Against Predestination", desc:"A thorough exegetical dismantling of Eastern Orthodox arguments against Reformed predestination.", cat:"demolition", tags:["orthodox","eastern orthodox","predestination","patristic","genetic fallacy"] },
+        { url:"objection-author-of-sin.html", title:"Does Predestination Make God the Author of Sin?", desc:"Primary vs. secondary causation, WCF 3.1, Joseph, the Cross. Compatibilism answers the objection.", cat:"demolition", tags:["author of sin","causation","primary","secondary","wcf","westminster","joseph","cross","compatibilism"] },
+        { url:"objection-why-command.html", title:"If God Predestined Everything, Why Does He Command?", desc:"God ordains both ends and means. Acts 27, Acts 18, Romans 10. Election as the engine of evangelism.", cat:"demolition", tags:["why command","means","ends","evangelism","acts 27","shipwreck","carey","judson","prayer"] },
+
+        // === THEOLOGIANS ===
+        { url:"theologians.html", title:"The Cloud of Witnesses — Great Reformed Theologians", desc:"Augustine, Luther, Calvin, Owen, Edwards, Spurgeon — two millennia of defenders of sovereign grace.", cat:"theologians", tags:["theologians","history","cloud of witnesses","reformed","patristic","reformation","puritan","modern"] },
+        { url:"theologian-augustine.html", title:"Augustine of Hippo — The Doctor of Grace", desc:"354–430. Augustine's writings on predestination, grace, and total depravity shaped Reformed theology and Western Christianity.", cat:"theologians", tags:["augustine","hippo","doctor of grace","pelagius","confessions","city of god","original sin","predestination"] },
+        { url:"theologian-luther.html", title:"Martin Luther — The Hammer of Rome", desc:"1483–1546. The Reformation's catalyst: justification by faith alone, the bondage of the will, sola fide, sola scriptura.", cat:"theologians", tags:["luther","reformation","95 theses","bondage of the will","sola fide","sola scriptura","justification","erasmus"] },
+        { url:"theologian-calvin.html", title:"John Calvin — Theologian of God's Sovereignty", desc:"1509–1564. The Institutes, the theologian of the Holy Spirit. Calvin's comprehensive vision of God's sovereignty in all things.", cat:"theologians", tags:["calvin","institutes","geneva","sovereignty","holy spirit","reformed","calvinism","five points"] },
+        { url:"theologian-owen.html", title:"John Owen — The Theologian's Theologian", desc:"1616–1683. Definitive work on limited atonement (Death of Death), mortification of sin, communion with God.", cat:"theologians", tags:["owen","death of death","limited atonement","mortification","sin","puritan","communion with god"] },
+        { url:"theologian-edwards.html", title:"Jonathan Edwards — America's Greatest Theologian", desc:"1703–1758. Freedom of the Will, Religious Affections, divine sovereignty, beauty of Christ, Great Awakening.", cat:"theologians", tags:["edwards","freedom of will","religious affections","great awakening","beauty","sovereignty","sinners in the hands"] },
+        { url:"theologian-spurgeon.html", title:"Charles Spurgeon — The Prince of Preachers", desc:"1834–1892. The greatest preacher of the 19th century, passionate Calvinist and evangelistic fire.", cat:"theologians", tags:["spurgeon","prince of preachers","metropolitan tabernacle","calvinist","evangelism","preaching","baptist"] },
+
+        // === START HERE ===
+        { url:"start-here.html", title:"Start Here — Your Journey into Sovereign Grace", desc:"New to Reformed theology? A guided 5-phase journey from curiosity to conviction about salvation, grace, and sovereignty.", cat:"start", tags:["start here","journey","beginner","introduction","new","phases","curiosity","conviction"] },
+        { url:"start-here-phase1.html", title:"What Is Reformed Theology? — Phase 1", desc:"An honest, accessible introduction to what Reformed Christians believe about God, salvation, and grace.", cat:"start", tags:["phase 1","what is reformed","introduction","basics","overview"] },
+        { url:"start-here-phase2.html", title:"The Five Points of Grace (TULIP) — Phase 2", desc:"TULIP explained: Total Depravity, Unconditional Election, Limited Atonement, Irresistible Grace, Perseverance.", cat:"start", tags:["phase 2","tulip","five points","calvinism","depravity","election","atonement","grace","perseverance"] },
+        { url:"start-here-phase3.html", title:"What Does the Bible Actually Teach? — Phase 3", desc:"Passage-by-passage through Romans 9, Ephesians 1, John 6, and more — in full context.", cat:"start", tags:["phase 3","bible","passages","romans 9","ephesians 1","john 6","context"] },
+        { url:"start-here-phase4.html", title:"But What About Free Will and Fairness? — Phase 4", desc:"The hardest objections answered: free will, fairness, John 3:16, 'whosoever will,' evangelism.", cat:"start", tags:["phase 4","objections","free will","fairness","john 3:16","whosoever","evangelism"] },
+        { url:"start-here-phase5.html", title:"Living as an Elect Child of God — Phase 5", desc:"How sovereign grace transforms assurance, prayer, worship, mission, and daily walk with Christ.", cat:"start", tags:["phase 5","living","assurance","prayer","worship","mission","daily walk","elect"] },
+
+        // === RESOURCES ===
+        { url:"resources.html", title:"Resources — Go Deeper in Reformed Theology", desc:"Curated resources: books, sermons, study guides, confessions, glossary, and community tools.", cat:"resources", tags:["resources","books","sermons","study guides","confessions","glossary","community"] },
+        { url:"resources-books.html", title:"Recommended Books — Reformed Theology Reading Lists", desc:"70+ curated books organized by doctrine, difficulty, and author — from introductions to great works.", cat:"resources", tags:["books","reading list","sproul","piper","owen","calvin","institutes","reformed","theology"] },
+        { url:"resources-sermons.html", title:"Sermon Library — Faithful Preaching on the Doctrines of Grace", desc:"Sermons from Sproul, Piper, MacArthur, Lawson, Baucham, organized by TULIP topic.", cat:"resources", tags:["sermons","preaching","sproul","piper","macarthur","lawson","baucham","ligonier","desiring god"] },
+        { url:"resources-glossary.html", title:"Theological Glossary — Key Terms", desc:"80+ Reformed theology definitions from adoption to Zwingli with Scripture references and Greek/Latin roots.", cat:"resources", tags:["glossary","terms","definitions","greek","latin","adoption","justification","sanctification","monergism","synergism"] },
+        { url:"resources-study-guides.html", title:"Study Guides — Small Group & Personal Study", desc:"Discussion questions, TULIP study series, Scripture study templates, and reading group plans.", cat:"resources", tags:["study guides","small group","discussion","questions","devotion","tulip study","reading group"] },
+        { url:"resources-confessions.html", title:"Creeds & Confessions — The Historic Reformed Faith", desc:"Westminster Standards, Canons of Dort, 1689 Baptist Confession, Belgic Confession, Heidelberg Catechism.", cat:"resources", tags:["confessions","creeds","westminster","dort","1689","belgic","heidelberg","catechism","reformed faith"] },
+        { url:"community.html", title:"Community — Study Together", desc:"Prayer guides, testimony prompts, church finder, group startup guide for the doctrines of grace.", cat:"resources", tags:["community","prayer","testimony","church finder","group","together","study"] },
+
+        // === STORIES ===
+        { url:"stories.html", title:"Stories of Sovereign Grace", desc:"Modern parables, allegories, and fables bringing election, regeneration, and perseverance to life.", cat:"stories", tags:["stories","parables","allegories","fables","fiction","narrative"] },
+        { url:"story-surgeon-stone-heart.html", title:"The Surgeon and the Stone Heart", desc:"A modern parable about a heart surgeon who operates on a patient who never asked for a new heart — a story about regeneration.", cat:"stories", tags:["surgeon","stone heart","parable","regeneration","ezekiel 36","heart transplant"] },
+
+        // === OTHER ===
+        { url:"connections.html", title:"The Unbreakable Thread — Sovereignty Across All Scripture", desc:"Old Testament patterns, New Testament witnesses, logical arguments, historical quotes, typological proofs — all pointing to one truth.", cat:"other", tags:["connections","thread","sovereignty","comprehensive","ot","nt","typology","logic","history"] },
+        { url:"freedom.html", title:"The Truth Will Set You Free — Why Sovereignty Destroys Fear", desc:"If God chose you before the foundation, nothing can separate you. The doctrines of grace destroy anxiety.", cat:"other", tags:["freedom","fear","anxiety","comfort","assurance","nothing can separate","love"] },
+        { url:"essays.html", title:"Essays — Full Arguments on Divine Election", desc:"Six theological essays on Reformed soteriology, sovereignty, and the doctrines of grace (downloadable PDFs).", cat:"other", tags:["essays","pdf","download","arguments","soteriology"] },
+        { url:"about.html", title:"About — The Mission of Adopted By Grace", desc:"Presenting the biblical case for divine election with clarity, depth, and reverence for Scripture. Soli Deo Gloria.", cat:"other", tags:["about","mission","purpose","soli deo gloria"] },
+        { url:"quiz.html", title:"Reformed Theology Quiz — Test Your Knowledge", desc:"30 questions on TULIP, election, sovereignty, and the doctrines of grace with instant Scripture-backed feedback.", cat:"resources", tags:["quiz","test","tulip","interactive","questions","knowledge","score"] },
+        { url:"scripture-tsunami.html", title:"Scripture Tsunami — 200+ Verses on TULIP", desc:"Interactive database of 200+ Bible verses organized by the five points of Calvinism. Searchable and cross-referenced.", cat:"evidence", tags:["scripture tsunami","verses","database","200","tulip","bible","searchable"] },
+        { url:"ot-election.html", title:"Election in the Old Testament", desc:"The doctrine of election throughout the Old Testament — from Abraham to David, God's sovereign choice shaped history.", cat:"evidence", tags:["old testament","election","abraham","david","ot","sovereign choice","history"] },
+        { url:"ot-abraham.html", title:"Abraham & Election", desc:"God's sovereign election of Abraham: the call created faith, not faith creating the call.", cat:"evidence", tags:["abraham","election","call","faith","genesis","covenant","promise"] },
+        { url:"ot-jacob-esau.html", title:"Jacob Over Esau: God's Sovereign Election Before Birth", desc:"Jacob and Esau: comprehensive biblical analysis of Romans 9's proof text for unconditional election.", cat:"evidence", tags:["jacob","esau","before birth","romans 9","unconditional","election","genesis"] }
+    ];
+
+    // ============================================================
+    // SEARCH ENGINE
+    // ============================================================
+
+    let activeFilter = 'all';
+    let debounceTimer;
+
+    const searchInput = document.getElementById('searchInput');
+    const searchClear = document.getElementById('searchClear');
+    const searchMeta = document.getElementById('searchMeta');
+    const resultsEl = document.getElementById('results');
+    const popularTopics = document.getElementById('popularTopics');
+
+    searchInput.addEventListener('input', function() {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => performSearch(), 150);
+        searchClear.classList.toggle('visible', this.value.length > 0);
+    });
+
+    searchInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') clearSearch();
+    });
+
+    function clearSearch() {
+        searchInput.value = '';
+        searchClear.classList.remove('visible');
+        searchMeta.textContent = '';
+        resultsEl.innerHTML = '';
+        popularTopics.style.display = '';
+        searchInput.focus();
+    }
+
+    function searchFor(term) {
+        searchInput.value = term;
+        searchClear.classList.add('visible');
+        performSearch();
+        searchInput.focus();
+    }
+
+    function setFilter(filter) {
+        activeFilter = filter;
+        document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+        document.querySelector('[data-filter="' + filter + '"]').classList.add('active');
+        performSearch();
+    }
+
+    function performSearch() {
+        const query = searchInput.value.trim().toLowerCase();
+
+        if (query.length === 0) {
+            resultsEl.innerHTML = '';
+            searchMeta.textContent = '';
+            popularTopics.style.display = '';
+            return;
+        }
+
+        popularTopics.style.display = 'none';
+
+        // Tokenize query
+        const tokens = query.split(/\s+/).filter(t => t.length > 0);
+
+        // Score each page
+        let scored = searchIndex.map(page => {
+            // Filter by category
+            if (activeFilter !== 'all' && page.cat !== activeFilter) return null;
+
+            let score = 0;
+            const titleLower = page.title.toLowerCase();
+            const descLower = page.desc.toLowerCase();
+            const tagsStr = page.tags.join(' ').toLowerCase();
+
+            // Exact phrase match (highest)
+            if (titleLower.includes(query)) score += 100;
+            if (descLower.includes(query)) score += 50;
+            if (tagsStr.includes(query)) score += 70;
+
+            // Individual token matches
+            tokens.forEach(token => {
+                if (titleLower.includes(token)) score += 30;
+                if (descLower.includes(token)) score += 15;
+                if (tagsStr.includes(token)) score += 25;
+
+                // Partial match in tags (e.g., "elect" matches "election")
+                page.tags.forEach(tag => {
+                    if (tag.includes(token) || token.includes(tag)) score += 10;
+                });
+            });
+
+            // Boost for title starting with query
+            if (titleLower.startsWith(query)) score += 40;
+
+            return score > 0 ? { ...page, score } : null;
+        }).filter(Boolean);
+
+        // Sort by score
+        scored.sort((a, b) => b.score - a.score);
+
+        // Render
+        const catNames = {
+            evidence: 'The Evidence',
+            systematic: 'Systematic Theology',
+            demolition: 'Demolition Zone',
+            theologians: 'Theologians',
+            resources: 'Resources',
+            start: 'Start Here',
+            stories: 'Stories',
+            other: 'Other'
+        };
+
+        if (scored.length === 0) {
+            searchMeta.textContent = 'No results found';
+            resultsEl.innerHTML = '<div class="empty-state"><div class="empty-icon">&#128270;</div><div class="empty-title">No pages match your search</div><div class="empty-text">Try different keywords, or browse the site using the navigation above. Every truth you need is somewhere on these pages.</div></div>';
+            return;
+        }
+
+        searchMeta.textContent = scored.length + ' result' + (scored.length !== 1 ? 's' : '') + ' found';
+
+        resultsEl.innerHTML = scored.map(r => {
+            const catClass = 'cat-' + r.cat;
+            const catName = catNames[r.cat] || 'Page';
+
+            // Highlight matches in title and desc
+            let highlightedTitle = highlightText(r.title, tokens);
+            let highlightedDesc = highlightText(r.desc, tokens);
+
+            // Show relevant tags
+            const matchingTags = r.tags.filter(tag =>
+                tokens.some(t => tag.includes(t) || t.includes(tag))
+            ).slice(0, 5);
+
+            const tagsHtml = matchingTags.length > 0
+                ? '<div class="result-tags">' + matchingTags.map(t => '<span class="result-tag">' + t + '</span>').join('') + '</div>'
+                : '';
+
+            return '<a class="result-item" href="' + r.url + '">' +
+                '<span class="result-category ' + catClass + '">' + catName + '</span>' +
+                '<div class="result-title">' + highlightedTitle + '</div>' +
+                '<div class="result-desc">' + highlightedDesc + '</div>' +
+                tagsHtml +
+                '</a>';
+        }).join('');
+    }
+
+    function highlightText(text, tokens) {
+        if (!tokens.length) return escapeHtml(text);
+
+        // Sort tokens by length (longest first) to avoid partial replacements
+        const sorted = [...tokens].sort((a, b) => b.length - a.length);
+        const escaped = escapeHtml(text);
+
+        // Build regex from all tokens
+        const pattern = sorted.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+        const regex = new RegExp('(' + pattern + ')', 'gi');
+
+        return escaped.replace(regex, '<mark>$1</mark>');
+    }
+
+    function escapeHtml(str) {
+        const div = document.createElement('div');
+        div.appendChild(document.createTextNode(str));
+        return div.innerHTML;
+    }
+
+    // Handle URL params (e.g., ?q=election)
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlQuery = urlParams.get('q');
+    if (urlQuery) {
+        searchInput.value = urlQuery;
+        searchClear.classList.add('visible');
+        performSearch();
+    }
+    </script>
+</body>
+</html>

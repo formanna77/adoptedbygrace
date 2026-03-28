@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the doctrine of election throughout the Old Testament. From Abraham to David, discover how God's sovereign choice shaped history and proves the gospel.">
+    <meta name="keywords" content="Old Testament, election, predestination, God's sovereignty, biblical theology, Abraham, Jacob, Esau, Moses, David">
+    <meta name="author" content="ADOPTED BY GRACE">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://adoptedbygrace.net/ot-election.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Election in the Old Testament | ADOPTED BY GRACE">
+    <meta property="og:description" content="Before Paul wrote Romans 9, before Jesus said 'You did not choose me,' God was already choosing. Explore 1,500 years of sovereign, unconditional election.">
+    <meta property="og:url" content="https://adoptedbygrace.net/ot-election.html">
+    <meta property="og:site_name" content="ADOPTED BY GRACE">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Election in the Old Testament | ADOPTED BY GRACE">
+    <meta name="twitter:description" content="Before Paul wrote Romans 9, God was choosing. From Abraham to David, explore 1,500 years of sovereign election.">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Election in the Old Testament",
+        "description": "A comprehensive hub exploring the doctrine of election throughout the Old Testament with character studies and theological analysis.",
+        "url": "https://adoptedbygrace.net/ot-election.html",
+        "image": "https://adoptedbygrace.net/og-image.png",
+        "publisher": {
+            "@type": "Organization",
+            "name": "ADOPTED BY GRACE",
+            "url": "https://adoptedbygrace.net",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://adoptedbygrace.net/logo.png"
+            }
+        },
+        "mainEntity": {
+            "@type": "Thing",
+            "name": "Old Testament Election",
+            "description": "The doctrine of God's sovereign, unconditional choice displayed throughout the Old Testament"
+        }
+    }
+    </script>
+
+    <title>Election in the Old Testament | ADOPTED BY GRACE</title>
+
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #5a5650;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Reading Progress Bar */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
+            width: 0%;
+            z-index: 9999;
+            transition: width 0.2s ease;
+        }
+
+        /* Skip Link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px;
+            text-decoration: none;
+            z-index: 100;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: rgba(10, 10, 15, 0.95);
+            border-bottom: 1px solid var(--border-subtle);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.25rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--accent-gold);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Mobile Nav */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+                justify-content: center;
+            }
+
+            .nav-links a {
+                font-size: 0.85rem;
+            }
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.05));
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 5rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(232, 100, 44, 0.05), transparent);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .topic-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            letter-spacing: 0.2em;
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 2.5rem;
+            line-height: 1.8;
+        }
+
+        .verse-block {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin-top: 2rem;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+            color: var(--text-primary);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .verse-reference {
+            display: block;
+            margin-top: 0.75rem;
+            font-style: normal;
+            font-weight: 600;
+            color: var(--accent-gold);
+            font-size: 0.95rem;
+        }
+
+        /* Main Content */
+        #main-content {
+            outline: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Pattern Section */
+        .pattern-section {
+            padding: 4rem 2rem;
+            background-color: rgba(18, 18, 26, 0.5);
+            border-top: 1px solid var(--border-subtle);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .pattern-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .pattern-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--accent-gold);
+        }
+
+        .pattern-section p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.25rem;
+            line-height: 1.8;
+        }
+
+        .pattern-points {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .pattern-point {
+            background-color: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-subtle);
+            transition: all 0.3s ease;
+        }
+
+        .pattern-point:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-2px);
+        }
+
+        .pattern-point h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent-gold);
+            margin-bottom: 0.75rem;
+            font-size: 1.15rem;
+        }
+
+        .pattern-point p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        /* Cards Grid */
+        .cards-section {
+            padding: 4rem 2rem;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+            text-align: center;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(212, 162, 84, 0.1);
+        }
+
+        .card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--accent-gold);
+        }
+
+        .card-description {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1.25rem;
+            flex-grow: 1;
+            line-height: 1.6;
+        }
+
+        .card-key-text {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            background-color: rgba(10, 10, 15, 0.5);
+            padding: 0.75rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+            border-left: 2px solid var(--accent-violet);
+        }
+
+        .card-status {
+            display: inline-block;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .status-live {
+            background-color: rgba(76, 175, 80, 0.15);
+            color: #4caf50;
+            border: 1px solid rgba(76, 175, 80, 0.3);
+        }
+
+        .status-coming {
+            background-color: rgba(139, 92, 246, 0.15);
+            color: var(--accent-violet);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+        }
+
+        /* Coming Soon Section */
+        .coming-soon-section {
+            padding: 4rem 2rem;
+            background-color: rgba(139, 92, 246, 0.03);
+            border-top: 1px solid var(--border-subtle);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .coming-soon-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .coming-soon-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--accent-violet);
+        }
+
+        .coming-soon-subtitle {
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            font-size: 1rem;
+        }
+
+        .coming-soon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .coming-soon-card {
+            background-color: var(--bg-card);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .coming-soon-card:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-violet);
+        }
+
+        .coming-soon-card h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent-violet);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .coming-soon-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* Key Texts Section */
+        .key-texts-section {
+            padding: 3rem 2rem;
+            background-color: rgba(232, 100, 44, 0.02);
+        }
+
+        .key-texts-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .key-texts-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--accent-ember);
+        }
+
+        .texts-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .text-item {
+            background-color: var(--bg-card);
+            padding: 1rem;
+            border-radius: 6px;
+            border-left: 3px solid var(--accent-ember);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: var(--accent-gold);
+        }
+
+        .footer-section p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border-subtle);
+            padding-top: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 48px;
+            height: 48px;
+            background-color: var(--accent-gold);
+            border: none;
+            border-radius: 50%;
+            color: var(--bg-deep);
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            z-index: 999;
+            font-weight: 700;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-violet);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(212, 162, 84, 0.3);
+        }
+
+        .back-to-top.show {
+            display: flex;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.05rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .pattern-section h2 {
+                font-size: 2rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .coming-soon-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .back-to-top {
+                width: 42px;
+                height: 42px;
+                bottom: 1.5rem;
+                right: 1.5rem;
+                font-size: 1.2rem;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 3rem 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 0.95rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+
+            .nav-links {
+                gap: 0.75rem;
+            }
+
+            .nav-links a {
+                font-size: 0.75rem;
+            }
+
+            .pattern-points {
+                grid-template-columns: 1fr;
+            }
+
+            .verse-block {
+                padding: 1rem;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress"></div>
+
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="start-here.html">Start Here</a></li>
+                <li><a href="questions.html">The Evidence</a></li>
+                <li><a href="systematic-theology.html">Systematic</a></li>
+                <li><a href="demolition-hub.html">Demolition</a></li>
+                <li><a href="theologians.html">Theologians</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="topic-label">Old Testament · Election Through the Ages</p>
+            <h1>Election in the Old Testament</h1>
+            <p class="hero-subtitle">Before Paul wrote Romans 9, before Jesus said "You did not choose me," God was already choosing. From the first family to the exile, the Old Testament is a 1,500-year testimony to sovereign, unconditional election. These are the stories that prove it.</p>
+            <div class="verse-block">
+                "For I have chosen him, that he may command his children and his household after him to keep the way of the LORD."
+                <span class="verse-reference">Genesis 18:19 (ESV)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Pattern Section -->
+        <section class="pattern-section">
+            <div class="pattern-content">
+                <h2>The Pattern of Sovereign Choice</h2>
+                <p>Throughout the Old Testament, God demonstrates a remarkable pattern that undermines human expectations and eliminates the possibility of human boasting. Again and again, the God of Israel chooses the weak over the strong, the younger over the elder, the unlikely over the expected. This is not randomness. It is the deliberate display of grace.</p>
+                <p>Election in the Old Testament answers a fundamental question: Does God choose based on human merit, effort, or foreseen faith? The biblical record screams "No." God's choices consistently reveal that His purposes stand independent of human works, human status, and human wisdom. The Israelites would later ask "Why us?" And the answer was: "Not because you are the greatest of all peoples, for you are the fewest of all peoples, but because the LORD loves you" (Deuteronomy 7:7-8).</p>
+                <p>These are the stories of that grace. Study them closely. They are the foundation upon which New Testament election stands.</p>
+
+                <div class="pattern-points">
+                    <div class="pattern-point">
+                        <h3>Younger Over Elder</h3>
+                        <p>Isaac over Ishmael, Jacob over Esau, Joseph over his brothers, David over his older brothers—God chooses those who have no natural claim to blessing.</p>
+                    </div>
+                    <div class="pattern-point">
+                        <h3>Weakness Reveals God's Power</h3>
+                        <p>Moses was a murderer, David was a shepherd boy, Jeremiah was too young. In choosing the weak, God ensures the glory belongs entirely to Him.</p>
+                    </div>
+                    <div class="pattern-point">
+                        <h3>Works Have No Say</h3>
+                        <p>Jacob was "chosen" before he did anything good or bad. Abraham was called out of idolatry with no foreknowledge of his faith. Election precedes and secures everything else.</p>
+                    </div>
+                    <div class="pattern-point">
+                        <h3>Grace Flows Downstream</h3>
+                        <p>God's choice of individuals shapes nations. The choice of Abraham became the choice of Israel. The choice of David secured the throne for Christ. Personal election has cosmic consequences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Character Studies Section -->
+        <section class="cards-section">
+            <h2 class="section-title">The Chosen Characters</h2>
+            <p class="section-subtitle">Individual studies of those whom God selected for His sovereign purposes</p>
+
+            <div class="cards-grid">
+                <!-- Jacob & Esau -->
+                <a href="ot-jacob-esau.html" class="card">
+                    <h3 class="card-title">Jacob & Esau</h3>
+                    <p class="card-description">Before the twins had done anything good or bad, God's purpose in election stood. The classic text of unconditional choice.</p>
+                    <div class="card-key-text">Genesis 25 · Malachi 1:2-3 · Romans 9:10-13</div>
+                    <span class="card-status status-live">Live</span>
+                </a>
+
+                <!-- Abraham -->
+                <a href="ot-abraham.html" class="card">
+                    <h3 class="card-title">Abraham</h3>
+                    <p class="card-description">God called Abram out of pagan Ur—not because Abram sought God, but because God chose him. The father of the faithful was chosen first.</p>
+                    <div class="card-key-text">Genesis 12 · Genesis 15 · Genesis 17</div>
+                    <span class="card-status status-live">Live</span>
+                </a>
+
+                <!-- Moses & Pharaoh -->
+                <a href="ot-moses-pharaoh.html" class="card">
+                    <h3 class="card-title">Moses & Pharaoh</h3>
+                    <p class="card-description">"I will have mercy on whom I have mercy. And I will harden whom I choose to harden." Election as the basis for all history.</p>
+                    <div class="card-key-text">Exodus 3-14 · Romans 9:14-18</div>
+                    <span class="card-status status-live">Live</span>
+                </a>
+
+                <!-- David -->
+                <a href="ot-david.html" class="card">
+                    <h3 class="card-title">David</h3>
+                    <p class="card-description">"The LORD said: Arise, anoint him, for this is he." From shepherd to king—a life shaped entirely by divine selection.</p>
+                    <div class="card-key-text">1 Samuel 16 · Psalm 65:4 · 2 Samuel 7</div>
+                    <span class="card-status status-live">Live</span>
+                </a>
+
+                <!-- Joseph -->
+                <a href="ot-joseph.html" class="card">
+                    <h3 class="card-title">Joseph</h3>
+                    <p class="card-description">"You meant it for evil, but God meant it for good." Election works through suffering and sovereignty to accomplish God's purposes.</p>
+                    <div class="card-key-text">Genesis 37-50</div>
+                    <span class="card-status status-live">Live</span>
+                </a>
+
+                <!-- Israel as a Chosen Nation -->
+                <a href="ot-israel-chosen.html" class="card">
+                    <h3 class="card-title">Israel: A Chosen Nation</h3>
+                    <p class="card-description">"The LORD your God has chosen you out of all the peoples on the face of the earth." The election of a nation reveals the mind of God toward all His people.</p>
+                    <div class="card-key-text">Deuteronomy 7:6-8 · Deuteronomy 9:4-6</div>
+                    <span class="card-status status-live">Live</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Coming Soon Section -->
+        <section class="coming-soon-section">
+            <div class="coming-soon-content">
+                <h2 class="coming-soon-title">Coming Soon</h2>
+                <p class="coming-soon-subtitle">Additional Old Testament election studies in development</p>
+
+                <div class="coming-soon-grid">
+                    <div class="coming-soon-card">
+                        <h3>Noah: Chosen for Preservation</h3>
+                        <p>Why was Noah chosen to survive the flood when all others were destroyed? What does his election tell us about God's mercy and judgment?</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-muted);">Genesis 6-9</p>
+                    </div>
+
+                    <div class="coming-soon-card">
+                        <h3>Abel vs. Cain: The First Election</h3>
+                        <p>Long before God called Abraham, He accepted Abel's offering and rejected Cain's. The first biblical display of divine preference.</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-muted);">Genesis 4</p>
+                    </div>
+
+                    <div class="coming-soon-card">
+                        <h3>Isaiah's Servant: The Ultimate Election Narrative</h3>
+                        <p>"Behold my servant, whom I uphold; my chosen, in whom my soul delights." The election texts that point directly to Christ.</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-muted);">Isaiah 42:1, 49:7, 50:4-11, 52:13-53:12</p>
+                    </div>
+
+                    <div class="coming-soon-card">
+                        <h3>Jeremiah: Called Before Formation</h3>
+                        <p>"Before I formed you in the womb I knew you." Election established before time itself began.</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-muted);">Jeremiah 1:5</p>
+                    </div>
+
+                    <div class="coming-soon-card">
+                        <h3>Job: Suffering and God's Sovereignty</h3>
+                        <p>Does God's election protect from suffering? Job's story reveals that divine choice often includes trial—but never abandonment.</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-muted);">Job 1-42</p>
+                    </div>
+
+                    <div class="coming-soon-card">
+                        <h3>Jonah: Reluctant Chosen Instrument</h3>
+                        <p>What happens when God selects someone who refuses? Jonah's flight reveals the inescapability of God's sovereign call.</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-muted);">Jonah 1-4</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key OT Election Texts -->
+        <section class="key-texts-section">
+            <div class="key-texts-content">
+                <h3 class="key-texts-title">Key Old Testament Election Texts</h3>
+                <div class="texts-list">
+                    <div class="text-item">Deuteronomy 7:6-8</div>
+                    <div class="text-item">Deuteronomy 9:4-6</div>
+                    <div class="text-item">Psalm 65:4</div>
+                    <div class="text-item">Proverbs 16:33</div>
+                    <div class="text-item">Proverbs 21:1</div>
+                    <div class="text-item">Isaiah 46:9-10</div>
+                    <div class="text-item">Isaiah 55:11</div>
+                    <div class="text-item">Malachi 1:2-3</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>ADOPTED BY GRACE</h4>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Biblical theology for those willing to follow the text.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="start-here.html">Start Here</a></li>
+                    <li><a href="questions.html">The Evidence</a></li>
+                    <li><a href="systematic-theology.html">Systematic</a></li>
+                    <li><a href="demolition-hub.html">Demolition</a></li>
+                    <li><a href="theologians.html">Theologians</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">&copy; 2026 ADOPTED BY GRACE. All Scripture quoted is ESV unless otherwise noted. Soli Deo Gloria.</div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <!-- JavaScript -->
+    <script>
+        // Reading Progress Bar
+        function updateProgressBar() {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+            document.querySelector('.reading-progress').style.width = scrollPercent + '%';
+        }
+
+        window.addEventListener('scroll', updateProgressBar);
+
+        // Back to Top Button
+        const backToTopBtn = document.querySelector('.back-to-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Smooth scroll for skip link
+        document.querySelector('.skip-link').addEventListener('click', (e) => {
+            e.preventDefault();
+            document.querySelector('#main-content').focus();
+            document.querySelector('#main-content').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
