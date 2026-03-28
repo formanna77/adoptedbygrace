@@ -5,212 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Letter to the Cold Church — Adopted by Grace</title>
     <meta name="description" content="A warm, pastoral devotional on Revelation 3:14-22 and spiritual lukewarmness. How sovereign grace melts cold hearts.">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
     <style>
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            line-height: 1.7;
-        }
-
-        nav {
+        /* Page-specific styles only */
+        .reflection-box {
             background-color: var(--bg-card);
-            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--accent-gold);
-            text-decoration: none;
-        }
-
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            background: none;
-            border: none;
-            cursor: pointer;
-            gap: 6px;
-        }
-
-        .hamburger span {
-            width: 25px;
-            height: 3px;
-            background-color: var(--accent-gold);
-            transition: 0.3s;
-        }
-
-        .nav-links {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-        }
-
-        .nav-links a, .nav-trigger {
-            color: var(--text-primary);
-            text-decoration: none;
-            transition: color 0.3s;
-            background: none;
-            border: none;
-            cursor: pointer;
-            font-size: 1rem;
-        }
-
-        .nav-links a:hover, .nav-trigger:hover {
-            color: var(--accent-gold);
-        }
-
-        .nav-dropdown {
-            display: none;
-            position: absolute;
-            background-color: var(--bg-card);
-            border: 1px solid rgba(212, 162, 84, 0.2);
-            flex-direction: column;
-            min-width: 200px;
-            padding: 1rem 0;
-            margin-top: 0.5rem;
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            padding: 1.5rem;
+            margin: 2rem 0;
             border-radius: 4px;
         }
 
-        .nav-dropdown a {
-            padding: 0.75rem 1.5rem;
-            text-decoration: none;
-            color: var(--text-primary);
-            transition: background-color 0.3s;
-        }
-
-        .nav-dropdown a:hover {
-            background-color: rgba(212, 162, 84, 0.1);
-            color: var(--accent-gold);
-        }
-
-        li:has(> .nav-trigger) {
-            position: relative;
-        }
-
-        li:has(> .nav-trigger):hover .nav-dropdown {
-            display: flex;
-        }
-
-        .nav-arrow {
-            font-size: 0.75rem;
-        }
-
-        main {
-            max-width: 900px;
-            margin: 3rem auto;
-            padding: 0 2rem;
-        }
-
-        .hero {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: var(--accent-gold);
-        }
-
-        .tagline {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            margin-bottom: 0.5rem;
-        }
-
-        .passage-ref {
-            font-style: italic;
+        .reflection-box h4 {
             color: var(--accent-violet);
-            font-size: 0.95rem;
-        }
-
-        .scripture-block {
-            background-color: var(--bg-card);
-            border-left: 4px solid var(--accent-gold);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            font-style: italic;
-            font-size: 1.05rem;
-            line-height: 1.8;
-        }
-
-        .scripture-ref {
-            font-style: normal;
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            margin-top: 1rem;
-        }
-
-        .section {
-            margin: 2rem 0;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            color: var(--accent-gold);
-            margin-top: 2.5rem;
-            margin-bottom: 1rem;
-            border-bottom: 1px solid rgba(212, 162, 84, 0.3);
-            padding-bottom: 0.5rem;
-        }
-
-        h3 {
-            font-size: 1.3rem;
-            color: var(--accent-violet);
-            margin-top: 1.5rem;
             margin-bottom: 0.75rem;
-        }
-
-        p {
-            margin-bottom: 1rem;
-            line-height: 1.8;
-        }
-
-        strong {
-            color: var(--accent-gold);
-        }
-
-        em {
-            color: var(--accent-violet);
-        }
-
-        ul, ol {
-            margin-left: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        li {
-            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
         }
 
         .callout {
@@ -236,97 +50,6 @@
             text-decoration: underline;
         }
 
-        .reflection-box {
-            background-color: var(--bg-card);
-            border: 1px solid rgba(139, 92, 246, 0.3);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 4px;
-        }
-
-        .reflection-box h4 {
-            color: var(--accent-violet);
-            margin-bottom: 0.75rem;
-            font-size: 1.1rem;
-        }
-
-        footer {
-            background-color: var(--bg-card);
-            border-top: 1px solid rgba(212, 162, 84, 0.2);
-            margin-top: 4rem;
-            padding: 3rem 2rem;
-        }
-
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-
-        .footer-section h4 {
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-        }
-
-        .footer-section ul {
-            list-style: none;
-            margin: 0;
-        }
-
-        .footer-section li {
-            margin-bottom: 0.75rem;
-        }
-
-        .footer-section a {
-            color: var(--text-primary);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-copyright {
-            text-align: center;
-            padding: 2rem 0 0;
-            border-top: 1px solid rgba(212, 162, 84, 0.2);
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            max-width: 1200px;
-            margin: 2rem auto 0;
-        }
-
-        .back-to-top {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 50px;
-            height: 50px;
-            background-color: var(--accent-gold);
-            color: var(--bg-deep);
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 1.5rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.3s;
-            z-index: 999;
-        }
-
-        .back-to-top.visible {
-            opacity: 1;
-        }
-
-        .back-to-top:hover {
-            background-color: var(--accent-ember);
-        }
-
         .reading-progress {
             position: fixed;
             top: 0;
@@ -337,87 +60,69 @@
             width: 0%;
         }
 
-        @media (max-width: 968px) {
-            h1 {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            .nav-links {
-                gap: 1rem;
-            }
+        .never-gives-up-banner {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 2rem 2.5rem;
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.04));
+            border: 1px solid rgba(212, 162, 84, 0.15);
+            border-radius: 12px;
+            text-align: center;
         }
 
-        @media (max-width: 768px) {
-            .hamburger {
-                display: flex;
-            }
-
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background-color: var(--bg-card);
-                flex-direction: column;
-                gap: 0;
-                padding: 1rem 0;
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .nav-links a {
-                padding: 0.75rem 1.5rem;
-            }
-
-            h1 {
-                font-size: 1.5rem;
-            }
-
-            h2 {
-                font-size: 1.2rem;
-            }
-
-            main {
-                margin: 2rem 1rem;
-            }
-
-            .scripture-block {
-                font-size: 1rem;
-            }
+        .never-gives-up-banner .banner-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
         }
 
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 1.3rem;
-            }
+        .never-gives-up-banner .banner-title em {
+            color: var(--accent-gold);
+        }
 
-            h2 {
-                font-size: 1.1rem;
-            }
+        .never-gives-up-banner .banner-subtitle {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.2rem;
+            line-height: 1.6;
+        }
 
-            main {
-                margin: 1.5rem 1rem;
-                padding: 0;
-            }
+        .never-gives-up-banner a {
+            display: inline-block;
+            padding: 0.7rem 2rem;
+            border: 1px solid var(--accent-gold);
+            color: var(--accent-gold);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
 
-            .footer-container {
-                grid-template-columns: 1fr;
-            }
+        .never-gives-up-banner a:hover {
+            background-color: rgba(212, 162, 84, 0.1);
+        }
 
-            .back-to-top {
-                width: 45px;
-                height: 45px;
-                font-size: 1.25rem;
-                right: 1rem;
-                bottom: 1rem;
-            }
+        .continue-journey {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05));
+            border-top: 1px solid rgba(218,165,32,0.1);
+        }
+
+        .continue-journey-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .continue-journey h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+            text-align: center;
         }
     </style>
 </head>
@@ -426,49 +131,17 @@
 
     <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
-            <a href="/" class="logo">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <a href="/" class="logo">ADOPTED BY GRACE</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/start-here">Start Here</a></li>
-                <li><a href="/explore-map">The Map</a></li>
-                <li>
-                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/questions">The Evidence</a>
-                        <a href="/systematic-theology">Systematic Theology</a>
-                        <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/demolition-hub">Demolition Zone</a>
-                        <a href="/compare-calvinism-arminianism">Comparisons</a>
-                        <a href="/objection-why-command">Objections Answered</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/devotionals">Devotionals</a>
-                        <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/stories">Analogies</a>
-                        <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/theologians">Theologians</a>
-                        <a href="/history-timeline">Church History</a>
-                        <a href="/ot-election">OT Election</a>
-                    </div>
-                </li>
+                <li><a href="/questions">The Evidence</a></li>
+                <li><a href="/systematic-theology-hub">Systematic</a></li>
+                <li><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/theologians">Theologians</a></li>
                 <li><a href="/resources">Resources</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
@@ -481,33 +154,33 @@
         </div>
 
         <article>
-            <div class="hero">
+            <div class="page-hero">
                 <h1>A Letter to the Cold Church</h1>
                 <p class="tagline">When the Comfortable Need Christ Most</p>
                 <p class="passage-ref">Revelation 3:14-22</p>
             </div>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>The Letter That Cuts</h2>
                 <p>Among all the seven churches of Asia, the Laodicean letter stings the most. Not because it speaks of persecution or false doctrine, but because it speaks to us in the comfort of our own self-sufficiency. The risen Christ addresses a church that has everything—everything except Him.</p>
 
-                <div class="scripture-block">
+                <blockquote>
                     "To the angel of the church in Laodicea write: These are the words of the Amen, the faithful and true witness, the ruler of God's creation. I know your deeds, that you are neither cold nor hot. I wish you were either one or the other! So, because you are lukewarm—neither hot nor cold—I am about to spit you out of my mouth."
-                    <div class="scripture-ref">Revelation 3:14-16</div>
-                </div>
+                    <cite>Revelation 3:14-16</cite>
+                </blockquote>
 
                 <p>Laodicea was a prosperous city—a banking center, a medical hub, a place of influence. The church there reflected this prosperity. They had assumed that their material blessing equaled spiritual health. They had mistaken comfort for growth, affluence for faithfulness. In the ancient world, lukewarm water was useless—neither refreshing like cold water nor healing like hot water. It was simply repulsive.</p>
 
                 <p>Christ's word through John cuts right to the heart: <strong>You are neither hot nor cold, and I cannot stomach it.</strong></p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>The Diagnosis: Wealth Without Wisdom</h2>
 
-                <div class="scripture-block">
+                <blockquote>
                     "You say, 'I am rich; I have acquired wealth and do not need a thing.' But you do not realize that you are wretched, pitiful, poor, blind and naked."
-                    <div class="scripture-ref">Revelation 3:17</div>
-                </div>
+                    <cite>Revelation 3:17</cite>
+                </blockquote>
 
                 <p>Here is the great irony of Laodicea, and perhaps our own age: the things we trust for security are precisely the things that blind us to our need. When we are warm in our homes, secure in our incomes, confident in our institutions, we have no natural inclination to cry out to God. The prayer of desperation becomes a luxury we cannot afford—because we feel we have already afforded everything else.</p>
 
@@ -525,13 +198,13 @@
                 <p>This is the paradox of the cold church—it often feels the warmest to those inside it.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>But Christ Stands at the Door</h2>
 
-                <div class="scripture-block">
+                <blockquote>
                     "Here I am! I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with that person, and they with me."
-                    <div class="scripture-ref">Revelation 3:20</div>
-                </div>
+                    <cite>Revelation 3:20</cite>
+                </blockquote>
 
                 <p>Here is where the letter transforms from judgment to grace. Even in lukewarmness, Christ has not abandoned His church. Even in spiritual presumption, He does not give up. The image is breathtaking: the risen, ascended, all-powerful Christ standing outside His own church, knocking.</p>
 
@@ -545,7 +218,7 @@
                 </div>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>Sovereign Grace for the Self-Sufficient Heart</h2>
 
                 <p>Here is the deepest truth hidden in Revelation 3: it takes divine grace to make a comfortable church uncomfortable. It takes the sovereign work of the Holy Spirit to convict a prosperous people of their poverty. It takes sovereign love to stand at the door of those who have convinced themselves they need nothing.</p>
@@ -557,7 +230,7 @@
                 <p>The Laodicean church needed to remember what the elect of God have always known: that every good thing—every talent, every comfort, every moment of peace—is a gift of grace. That our worthiness before God has nothing to do with our bank accounts or our influence, but everything to do with Christ's worthiness given to us through faith. That the deepest satisfaction the soul can know is not the satisfaction of having everything, but the satisfaction of knowing that we are known, loved, and chosen by God.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>The Call: Open the Door</h2>
 
                 <p>What does Christ ask of Laodicea? Not works to earn His favor—grace has already provided that. Not suffering to prove our devotion—Christ suffered for us. What He asks is the simplest and hardest thing: to <em>open the door</em>.</p>
@@ -574,47 +247,47 @@
                 </div>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>A Prayer</h2>
 
                 <p><em>Lord Jesus, we confess that we are often Laodicea. We grow comfortable. We trust in things that cannot save us. We assume we are rich when we are poor. We are blind to our blindness. But You stand at the door, knocking—not to condemn, but to commune. Open our hearts to hear Your voice. Make us discontent with anything less than You. Teach us that true wealth is knowing You, true healing is being loved by You, true clothing is being covered by Your righteousness. Come in and dine with us. Transform our lukewarmness into passionate love for You. We open the door. Amen.</em></p>
             </section>
 
-        <!-- Never Gives Up Banner -->
-        <div style="max-width: 800px; margin: 3rem auto; padding: 2rem 2.5rem; background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.04)); border: 1px solid rgba(212, 162, 84, 0.15); border-radius: 12px; text-align: center;">
-            <p style="font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: #f0ece4; margin-bottom: 0.5rem;">No matter how far you fall — <em style="color: #d4a254;">He will never give up on you.</em></p>
-            <p style="font-size: 0.95rem; color: #9a958c; margin-bottom: 1.2rem; line-height: 1.6;">The most soul-quenching truth for weary hearts fed a lifetime of merit-based religion.</p>
-            <a href="devotional-never-gives-up.html" style="display: inline-block; padding: 0.7rem 2rem; border: 1px solid #d4a254; color: #d4a254; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; letter-spacing: 0.1em; text-decoration: none; border-radius: 6px; transition: all 0.3s ease;">READ THE DEVOTIONAL →</a>
-        </div>
+            <!-- Never Gives Up Banner -->
+            <div class="never-gives-up-banner">
+                <p class="banner-title">No matter how far you fall — <em>He will never give up on you.</em></p>
+                <p class="banner-subtitle">The most soul-quenching truth for weary hearts fed a lifetime of merit-based religion.</p>
+                <a href="devotional-never-gives-up.html">READ THE DEVOTIONAL →</a>
+            </div>
 
             <!-- Cross-Reference Section -->
-            <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-                <div style="max-width: 900px; margin: 0 auto;">
-                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                        <a href="systematic-ecclesiology.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Ecclesiology: The Nature of the Church</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Understanding the true identity of God's people.</p>
+            <section class="continue-journey">
+                <div class="continue-journey-container">
+                    <h3>Continue Your Journey</h3>
+                    <div class="card-grid">
+                        <a href="systematic-ecclesiology.html" class="card">
+                            <h4>Ecclesiology: The Nature of the Church</h4>
+                            <p>Understanding the true identity of God's people.</p>
                         </a>
-                        <a href="community.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Community: Living as God's Elect Together</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How believers encourage one another in truth.</p>
+                        <a href="community.html" class="card">
+                            <h4>Community: Living as God's Elect Together</h4>
+                            <p>How believers encourage one another in truth.</p>
                         </a>
-                        <a href="question-perseverance.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Perseverance of the Saints</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">God's promise to keep His own to the end.</p>
+                        <a href="question-perseverance.html" class="card">
+                            <h4>Perseverance of the Saints</h4>
+                            <p>God's promise to keep His own to the end.</p>
                         </a>
-                        <a href="devotional-forever-loved.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Forever Loved: Nothing Can Separate</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Meditate on eternal security and perseverance.</p>
+                        <a href="devotional-forever-loved.html" class="card">
+                            <h4>Forever Loved: Nothing Can Separate</h4>
+                            <p>Meditate on eternal security and perseverance.</p>
                         </a>
-                        <a href="theologian-spurgeon.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Charles Spurgeon: Preacher of Grace</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A pastor who championed the sovereignty of God.</p>
+                        <a href="theologian-spurgeon.html" class="card">
+                            <h4>Charles Spurgeon: Preacher of Grace</h4>
+                            <p>A pastor who championed the sovereignty of God.</p>
                         </a>
-                        <a href="devotional-weakness-of-gods-strength.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Weakness of God's Strength</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Suffering transformed by God's grace.</p>
+                        <a href="devotional-weakness-of-gods-strength.html" class="card">
+                            <h4>The Weakness of God's Strength</h4>
+                            <p>Suffering transformed by God's grace.</p>
                         </a>
                     </div>
                 </div>
@@ -628,7 +301,7 @@
                 <h4>Doctrine</h4>
                 <ul>
                     <li><a href="/questions">The Evidence</a></li>
-                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
                     <li><a href="/demolition-hub">Demolition Zone</a></li>
                     <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
                 </ul>
@@ -636,7 +309,8 @@
             <div class="footer-section">
                 <h4>Explore</h4>
                 <ul>
-                    <li><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
                     <li><a href="/devotionals">Devotionals</a></li>
                     <li><a href="/resources">Resources</a></li>
                 </ul>
@@ -645,7 +319,7 @@
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>
@@ -655,47 +329,7 @@
         </div>
     </footer>
 
-    <script>
-        // Set active nav link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            if (link.getAttribute('href') === 'devotional-cold-church.html') {
-                link.classList.add('active');
-            }
-        });
-
-        // Scroll-spy for section navigation
-        const sectionLinks = document.querySelectorAll('.section-link');
-        const sections = document.querySelectorAll('.section');
-
-        const observerOptions = {
-            root: null,
-            rootMargin: '-30% 0px -70% 0px',
-            threshold: 0
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const id = entry.target.getAttribute('id');
-                    sectionLinks.forEach(link => {
-                        link.classList.remove('active');
-                        if (link.getAttribute('href') === '#' + id) {
-                            link.classList.add('active');
-                        }
-                    });
-                }
-            });
-        }, observerOptions);
-
-        sections.forEach(section => observer.observe(section));
-    </script>
-    <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-    <script>
-    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
-    </script>
-    <script>
-    (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
-    </script>
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
     <script src="/global.js" defer></script>
 </body>
 </html>

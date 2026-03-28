@@ -5,212 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jacobus Arminius: The Man Behind the Movement — Adopted by Grace</title>
     <meta name="description" content="A respectful but honest treatment of Jacobus Arminius. His background, training under Beza, the five Remonstrant articles, and how his views differ from what Scripture teaches about sovereign grace.">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+
     <style>
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-        }
+        /* Page-specific styles for Arminius theologian page */
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            line-height: 1.7;
-        }
-
-        nav {
-            background-color: var(--bg-card);
-            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--accent-gold);
-            text-decoration: none;
-        }
-
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            background: none;
-            border: none;
-            cursor: pointer;
-            gap: 6px;
-        }
-
-        .hamburger span {
-            width: 25px;
-            height: 3px;
-            background-color: var(--accent-gold);
-            transition: 0.3s;
-        }
-
-        .nav-links {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-        }
-
-        .nav-links a, .nav-trigger {
-            color: var(--text-primary);
-            text-decoration: none;
-            transition: color 0.3s;
-            background: none;
-            border: none;
-            cursor: pointer;
-            font-size: 1rem;
-        }
-
-        .nav-links a:hover, .nav-trigger:hover {
-            color: var(--accent-gold);
-        }
-
-        .nav-dropdown {
-            display: none;
-            position: absolute;
+        .article-card {
             background-color: var(--bg-card);
             border: 1px solid rgba(212, 162, 84, 0.2);
-            flex-direction: column;
-            min-width: 200px;
-            padding: 1rem 0;
-            margin-top: 0.5rem;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
             border-radius: 4px;
         }
 
-        .nav-dropdown a {
-            padding: 0.75rem 1.5rem;
-            text-decoration: none;
-            color: var(--text-primary);
-            transition: background-color 0.3s;
-        }
-
-        .nav-dropdown a:hover {
-            background-color: rgba(212, 162, 84, 0.1);
+        .article-title {
             color: var(--accent-gold);
-        }
-
-        li:has(> .nav-trigger) {
-            position: relative;
-        }
-
-        li:has(> .nav-trigger):hover .nav-dropdown {
-            display: flex;
-        }
-
-        .nav-arrow {
-            font-size: 0.75rem;
-        }
-
-        main {
-            max-width: 900px;
-            margin: 3rem auto;
-            padding: 0 2rem;
-        }
-
-        .hero {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: var(--accent-gold);
-        }
-
-        .tagline {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
+            font-weight: bold;
             margin-bottom: 0.5rem;
         }
 
-        .passage-ref {
-            font-style: italic;
-            color: var(--accent-violet);
-            font-size: 0.95rem;
-        }
-
-        .scripture-block {
+        .reflection-box {
             background-color: var(--bg-card);
-            border-left: 4px solid var(--accent-gold);
+            border: 1px solid rgba(139, 92, 246, 0.3);
             padding: 1.5rem;
             margin: 2rem 0;
-            font-style: italic;
-            font-size: 1.05rem;
-            line-height: 1.8;
+            border-radius: 4px;
         }
 
-        .scripture-ref {
-            font-style: normal;
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            margin-top: 1rem;
-        }
-
-        .section {
-            margin: 2rem 0;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            color: var(--accent-gold);
-            margin-top: 2.5rem;
-            margin-bottom: 1rem;
-            border-bottom: 1px solid rgba(212, 162, 84, 0.3);
-            padding-bottom: 0.5rem;
-        }
-
-        h3 {
-            font-size: 1.3rem;
+        .reflection-box h4 {
             color: var(--accent-violet);
-            margin-top: 1.5rem;
             margin-bottom: 0.75rem;
-        }
-
-        p {
-            margin-bottom: 1rem;
-            line-height: 1.8;
-        }
-
-        strong {
-            color: var(--accent-gold);
-        }
-
-        em {
-            color: var(--accent-violet);
-        }
-
-        ul, ol {
-            margin-left: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        li {
-            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
         }
 
         .callout {
@@ -236,253 +67,76 @@
             text-decoration: underline;
         }
 
-        .reflection-box {
-            background-color: var(--bg-card);
-            border: 1px solid rgba(139, 92, 246, 0.3);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 4px;
+        .continue-journey-section {
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05));
+            border-top: 1px solid rgba(218,165,32,0.1);
+            margin-top: 3rem;
         }
 
-        .reflection-box h4 {
-            color: var(--accent-violet);
-            margin-bottom: 0.75rem;
-            font-size: 1.1rem;
-        }
-
-        .article-card {
-            background-color: var(--bg-card);
-            border: 1px solid rgba(212, 162, 84, 0.2);
-            padding: 1.5rem;
-            margin: 1.5rem 0;
-            border-radius: 4px;
-        }
-
-        .article-title {
-            color: var(--accent-gold);
-            font-weight: bold;
-            margin-bottom: 0.5rem;
-        }
-
-        footer {
-            background-color: var(--bg-card);
-            border-top: 1px solid rgba(212, 162, 84, 0.2);
-            margin-top: 4rem;
-            padding: 3rem 2rem;
-        }
-
-        .footer-container {
-            max-width: 1200px;
+        .continue-journey-container {
+            max-width: 900px;
             margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
         }
 
-        .footer-section h4 {
+        .continue-journey-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
             color: var(--accent-gold);
-            margin-bottom: 1rem;
-        }
-
-        .footer-section ul {
-            list-style: none;
-            margin: 0;
-        }
-
-        .footer-section li {
-            margin-bottom: 0.75rem;
-        }
-
-        .footer-section a {
-            color: var(--text-primary);
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-copyright {
+            margin-bottom: 1.5rem;
             text-align: center;
-            padding: 2rem 0 0;
-            border-top: 1px solid rgba(212, 162, 84, 0.2);
-            color: var(--text-secondary);
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.2rem;
+        }
+
+        .card {
+            display: block;
+            padding: 1.2rem 1.5rem;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(218,165,32,0.15);
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            background: rgba(255,255,255,0.05);
+            border-color: rgba(218,165,32,0.3);
+        }
+
+        .card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: var(--accent-gold);
+            margin-bottom: 0.4rem;
+        }
+
+        .card p {
             font-size: 0.9rem;
-            max-width: 1200px;
-            margin: 2rem auto 0;
-        }
-
-        .back-to-top {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 50px;
-            height: 50px;
-            background-color: var(--accent-gold);
-            color: var(--bg-deep);
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 1.5rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.3s;
-            z-index: 999;
-        }
-
-        .back-to-top.visible {
-            opacity: 1;
-        }
-
-        .back-to-top:hover {
-            background-color: var(--accent-ember);
-        }
-
-        .reading-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background-color: var(--accent-gold);
-            z-index: 1001;
-            width: 0%;
-        }
-
-        @media (max-width: 968px) {
-            h1 {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            .nav-links {
-                gap: 1rem;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .hamburger {
-                display: flex;
-            }
-
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background-color: var(--bg-card);
-                flex-direction: column;
-                gap: 0;
-                padding: 1rem 0;
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .nav-links a {
-                padding: 0.75rem 1.5rem;
-            }
-
-            h1 {
-                font-size: 1.5rem;
-            }
-
-            h2 {
-                font-size: 1.2rem;
-            }
-
-            main {
-                margin: 2rem 1rem;
-            }
-
-            .scripture-block {
-                font-size: 1rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 1.3rem;
-            }
-
-            h2 {
-                font-size: 1.1rem;
-            }
-
-            main {
-                margin: 1.5rem 1rem;
-                padding: 0;
-            }
-
-            .footer-container {
-                grid-template-columns: 1fr;
-            }
-
-            .back-to-top {
-                width: 45px;
-                height: 45px;
-                font-size: 1.25rem;
-                right: 1rem;
-                bottom: 1rem;
-            }
+            color: #b0b0b0;
+            margin: 0;
+            line-height: 1.4;
         }
     </style>
 </head>
 <body>
-    <div class="reading-progress" aria-label="Reading progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
-
     <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
-            <a href="/" class="logo">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <a href="/" class="logo">ADOPTED BY GRACE</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/start-here">Start Here</a></li>
-                <li><a href="/explore-map">The Map</a></li>
-                <li>
-                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/questions">The Evidence</a>
-                        <a href="/systematic-theology">Systematic Theology</a>
-                        <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/demolition-hub">Demolition Zone</a>
-                        <a href="/compare-calvinism-arminianism">Comparisons</a>
-                        <a href="/objection-why-command">Objections Answered</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/devotionals">Devotionals</a>
-                        <a href="/stories">Stories &amp; Parables</a>
-                        <a href="/stories">Analogies</a>
-                        <a href="/pastoral-assurance">Pastoral</a>
-                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/theologians">Theologians</a>
-                        <a href="/history-timeline">Church History</a>
-                        <a href="/ot-election">OT Election</a>
-                    </div>
-                </li>
+                <li><a href="/questions">The Evidence</a></li>
+                <li><a href="/systematic-theology-hub">Systematic</a></li>
+                <li><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/theologians">Theologians</a></li>
                 <li><a href="/resources">Resources</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
@@ -495,20 +149,20 @@
         </div>
 
         <article>
-            <div class="hero">
+            <div class="page-hero">
                 <h1>Jacobus Arminius</h1>
                 <p class="tagline">The Man Behind the Movement</p>
                 <p class="passage-ref">1559-1609 | Dutch Theologian</p>
             </div>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>A Life of Faithful Questioning</h2>
                 <p>Jacobus Arminius (1559-1609) was not a rebel priest seeking to tear down the church. He was a learned theologian, a pastor of the Gospel, and a man genuinely concerned with understanding Scripture faithfully. That his conclusions diverged from what Scripture teaches about sovereign grace does not diminish his sincerity or his intellectual rigor. Understanding Arminius—his background, his training, his genuine concerns—helps us appreciate why his questions arose and why the church's response was so important.</p>
 
                 <p>This is not a hatchet job. It is a respectful examination of a man and a movement, with one goal: to help you see why understanding what Scripture teaches about God's sovereignty in salvation matters deeply.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>The Making of a Theologian</h2>
 
                 <p>Jacobus Arminius was born in Oudewater, a small town in the southern Netherlands. After studying at various universities, he was sent to Geneva to study under <strong>Theodore Beza</strong>, Calvin's hand-picked successor. Beza was one of the most brilliant theologians of the Reformation, and his lectures on predestination were rigorous, precise, and thoroughly biblical.</p>
@@ -526,7 +180,7 @@
                 <p>These are serious theological questions. The fact that Arminius raised them does not make him a heretic. The fact that his answers diverged from Scripture's own teaching is the crucial point.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>The Five Remonstrant Articles</h2>
 
                 <p>After Arminius's death in 1609, his followers—called the Remonstrants—published their theological position in five articles. These became the defining statement of what would later be called "Arminianism." Understanding these five points is crucial to understanding where Arminius and his followers departed from what Scripture teaches:</p>
@@ -562,7 +216,7 @@
                 </div>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>Why Arminius Mattered: The Synod of Dort (1618-1619)</h2>
 
                 <p>Arminius's death in 1609 did not settle the matter. His followers became increasingly vocal, and the Dutch churches found themselves at an impasse. The theological questions at stake were not peripheral—they touched the very heart of the Gospel: What saves us? Is salvation ultimately God's work or ours? Is our assurance founded on God's sovereignty or on our own faithfulness?</p>
@@ -577,7 +231,7 @@
                 <p>Dort did not reject Arminius as a man, nor did they dismiss his concerns as illegitimate. But they did affirm that Scripture teaches God's sovereignty in salvation, and that theology must be conformed to Scripture, not the other way around.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>A Fair Assessment</h2>
 
                 <p>So what do we make of Jacobus Arminius? Several things deserve to be said:</p>
@@ -595,7 +249,7 @@
                 <p>Scripture teaches a paradox that human reason struggles with: God is absolutely sovereign, and yet human beings are genuinely responsible. We are not called to resolve this paradox by retreating from either pole. We are called to embrace both truths as Scripture presents them.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>From History to Your Heart</h2>
 
                 <p>Why should you care about a 16th-century Dutch theologian? Because the questions Arminius raised are questions you may have asked yourself:</p>
@@ -609,7 +263,7 @@
                 <p>This is the supremacy of God in Christ—not a cold, distant doctrine, but a truth that transforms how you live, how you pray, and how you entrust your soul to Him.</p>
             </section>
 
-            <section class="section">
+            <section class="content-section reveal">
                 <h2>The Invitation</h2>
 
                 <p>Scripture teaches that God, in His sovereignty, has chosen you in Christ before the foundation of the world. This truth is meant to fill your heart with assurance, not paralyze it with questions. Yes, the relationship between God's sovereignty and human freedom remains mysterious. But that mystery is not a weakness in the Gospel—it is the depth of God's wisdom.</p>
@@ -618,33 +272,33 @@
             </section>
 
             <!-- Cross-Reference Section -->
-            <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-                <div style="max-width: 900px; margin: 0 auto;">
-                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                        <a href="compare-calvinism-arminianism.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Calvinism vs. Arminianism: A Clear Comparison</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Understanding the historical and theological divide.</p>
+            <section class="continue-journey-section">
+                <div class="continue-journey-container">
+                    <h3 class="continue-journey-title">Continue Your Journey</h3>
+                    <div class="card-grid">
+                        <a href="/compare-calvinism-arminianism" class="card">
+                            <h4>Calvinism vs. Arminianism: A Clear Comparison</h4>
+                            <p>Understanding the historical and theological divide.</p>
                         </a>
-                        <a href="history-dort.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Synod of Dort: Scripture's Answer</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How the church responded to Arminian challenges.</p>
+                        <a href="/history-dort" class="card">
+                            <h4>The Synod of Dort: Scripture's Answer</h4>
+                            <p>How the church responded to Arminian challenges.</p>
                         </a>
-                        <a href="theologian-calvin.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">John Calvin: Reformer of Scripture</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The man who championed biblical sovereignty.</p>
+                        <a href="/theologian-calvin" class="card">
+                            <h4>John Calvin: Reformer of Scripture</h4>
+                            <p>The man who championed biblical sovereignty.</p>
                         </a>
-                        <a href="demolition-arminian-facts.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Arminian Arguments Examined</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Testing claims against Scripture.</p>
+                        <a href="/demolition-arminian-facts" class="card">
+                            <h4>Arminian Arguments Examined</h4>
+                            <p>Testing claims against Scripture.</p>
                         </a>
-                        <a href="systematic-election.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Doctrine of Election Explained</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A comprehensive systematic theology of divine election.</p>
+                        <a href="/systematic-election" class="card">
+                            <h4>The Doctrine of Election Explained</h4>
+                            <p>A comprehensive systematic theology of divine election.</p>
                         </a>
-                        <a href="question-freewill.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Free Will & Divine Sovereignty</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How human freedom coexists with God's power.</p>
+                        <a href="/question-freewill" class="card">
+                            <h4>Free Will & Divine Sovereignty</h4>
+                            <p>How human freedom coexists with God's power.</p>
                         </a>
                     </div>
                 </div>
@@ -654,78 +308,28 @@
 
     <footer>
         <div class="footer-container">
-            <div class="footer-section">
-                <h4>Doctrine</h4>
-                <ul>
-                    <li><a href="/questions">The Evidence</a></li>
-                    <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li><a href="/demolition-hub">Demolition Zone</a></li>
-                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Explore</h4>
-                <ul>
-                    <li><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
-                    <li><a href="/devotionals">Devotionals</a></li>
-                    <li><a href="/resources">Resources</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Connect</h4>
-                <ul>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/connect">Contact</a></li>
-                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
-                </ul>
-            </div>
+            <div class="footer-section"><h4>Doctrine</h4><ul>
+                <li><a href="/questions">The Evidence</a></li>
+                <li><a href="/systematic-theology-hub">Systematic Theology</a></li>
+                <li><a href="/demolition-hub">Demolition Zone</a></li>
+                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Explore</h4><ul>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li><a href="/devotionals">Devotionals</a></li>
+                <li><a href="/resources">Resources</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Connect</h4><ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+            </ul></div>
         </div>
-        <div class="footer-copyright">
-            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
-        </div>
+        <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
     </footer>
 
-    <script>
-        // Set active nav link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            if (link.getAttribute('href') === 'theologian-arminius.html') {
-                link.classList.add('active');
-            }
-        });
-
-        // Scroll-spy for section navigation
-        const sectionLinks = document.querySelectorAll('.section-link');
-        const sections = document.querySelectorAll('.section');
-
-        const observerOptions = {
-            root: null,
-            rootMargin: '-30% 0px -70% 0px',
-            threshold: 0
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const id = entry.target.getAttribute('id');
-                    sectionLinks.forEach(link => {
-                        link.classList.remove('active');
-                        if (link.getAttribute('href') === '#' + id) {
-                            link.classList.add('active');
-                        }
-                    });
-                }
-            });
-        }, observerOptions);
-
-        sections.forEach(section => observer.observe(section));
-    </script>
-    <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-    <script>
-    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
-    </script>
-    <script>
-    (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
-    </script>
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
     <script src="/global.js" defer></script>
 </body>
 </html>
