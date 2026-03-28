@@ -20,3 +20,22 @@ A record of ideas generated, connections made, and content built by the Visionar
 
 ### Built This Session
 - **secular-algorithm-sovereignty.html** — "The Algorithm Knows You Better Than You Know Yourself" — Full secular evidence page connecting predictive algorithms, AI, and data science to divine sovereignty and foreordination. ~2,500 words. Includes real research citations, stat callouts, prediction grid, thought experiments, scale comparison, compatibilism section, and pastoral turn. Added to secular-evidence.html hub.
+
+---
+
+## 2026-03-28 — Visionary Session #2
+
+### Ideas Generated
+
+1. **"The Orphanage"** — A long-form allegory where hundreds of children in an orphanage believe they choose their adoptive family on Adoption Day, until one girl named Mara finds the records room and discovers that the adoption papers were signed before the foundation of the orphanage — before any of the children existed. Maps Ephesians 1:4-5, John 15:16, Romans 9, and 1 John 4:19 through narrative, not argument. Features Mara (the elect discovering truth), Eli (the unlikely chosen one who can't believe he'd be wanted), and Kael (the one who rages against sovereignty because it dethrones the self). The story captures election, effectual calling, regeneration preceding faith, and the security of a love that begins in the Lover, not the beloved. **STATUS: BUILT**
+
+2. **"Five Fears: What's Really Holding You Back from the Most Comforting Doctrine in the Bible"** — Takes the 5 most common *emotional* objections to sovereignty ("If God chose, He's a monster" / "My faith isn't real if I didn't choose" / "Predestination makes choices meaningless" / "A loving God would save everyone" / "Evangelism is pointless") and reframes each with a devastating analogy that flips the emotional argument. Not theological rebuttal — emotional revelation. Each "fear" gets a story-based answer that shows how the Reformed position is actually MORE loving, not less. **STATUS: BACKLOG — Apologetics/Pastoral crossover page.**
+
+3. **"The Moment the Light Came On"** — A collection of fictional first-person vignettes capturing the moment someone first truly understood sovereign grace: the Arminian pastor who couldn't unsee Romans 9 after the hundredth reading, the recovering addict who knew experientially that his will was in bondage before a theologian said it, the grieving widow who found comfort ONLY in sovereignty, the new believer who was told "you chose God" but knew that wasn't what happened, the parent who watched their child ignore wisdom and suddenly understood why God doesn't just "offer" salvation. Mirrors the site's target audience. **STATUS: BACKLOG — Devotional/Stories crossover.**
+
+4. **"What Your Mirror Can't Show You"** — Secular evidence page connecting Dunning-Kruger effect, the "better-than-average" bias (93% of drivers think they're above average), cognitive blind spots, and the neuroscience of self-deception to total depravity. Every human rates themselves as more moral than they are — which is EXACTLY what Jeremiah 17:9 says: "The heart is deceitful above all things." You literally cannot see your own depravity, and that inability to see it IS the depravity. Uses real published studies with citations. **STATUS: BACKLOG — Secular Evidence series.**
+
+5. **"The Love Letter Dated Before Time"** — Ephesians 1:3-14 rewritten as intimate personal correspondence from God to the reader. Each theological phrase translated into first-person devotional language: "Before I made the mountains, I chose you. Before the first star burned, I loved you. Not because I foresaw something good in you — but because I decided to put something good in you." Paired with the actual Greek text alongside. Maps to the experience of finding a love letter written years ago that you only just discovered. **STATUS: BACKLOG — Devotional page, potentially most shareable content on the site.**
+
+### Built This Session
+- **story-the-orphanage.html** — "The Orphanage" — A long-form allegory (~3,000 words) in 11 chapters: I. The House on the Hill, II. What Everyone Believed, III. Mara, IV. The Door That Shouldn't Have Been Open, V. The Papers, VI. The Second Discovery, VII. The Argument, VIII. The Uproar, IX. The Question That Changed Everything, X. Adoption Day, XI. Outside. Features doctrine section mapping every element to Scripture (Eph 1:4-6, John 15:16, Romans 3:11, John 6:44, Romans 9:19, 1 John 4:19). Includes "Never Gives Up" banner, share buttons, Continue Your Journey grid. Added to stories.html hub as a featured published story.

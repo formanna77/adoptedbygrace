@@ -209,7 +209,7 @@
 ### Priority 6 — Stories (Story Engine)
 - [x] **Stories Hub** — `stories.html` — Hub page organizing all stories by type, doctrine, and length ✅ (2026-03-27 Story Engine)
 - [x] **"The Surgeon and the Stone Heart"** — Modern parable on regeneration (Ezekiel 36:26) → `story-surgeon-stone-heart.html` ✅ (2026-03-27 Story Engine)
-- [ ] **"The Adoption Papers"** — Modern parable on election (Ephesians 1:5)
+- [x] **"The Orphanage"** — Long-form allegory on election and adoption (Ephesians 1:4-5, John 15:16) — children discover adoption papers were signed before they were born → `story-the-orphanage.html` ✅ (2026-03-28 Visionary #2)
 - [ ] **"The Voice in the Valley"** — Modern parable on effectual calling (John 10:27)
 - [ ] **"The Unbreakable Thread"** — Modern parable on perseverance (Romans 8:38-39)
 - [x] **"The King's Banquet"** — Modern parable on irresistible grace (Luke 14:23) → `story-the-kings-banquet.html` ✅ (2026-03-28 Live Session)
@@ -291,6 +291,13 @@
 - [ ] **"The Parenting Proof"** — Universal parenting experience (grabbing toddler's hand in parking lot) maps to irresistible grace. Child screams "I want to do it myself!" — parent overrides suicidal autonomy out of love. → devotional or analogy page
 - [ ] **"The Addiction Testimony"** — Every person who tried to quit a habit and failed knows the bondage of the will. AA's Step 1 is the most Reformed sentence in secular culture. Romans 7 in everyday life. → connects to psychology series
 - [ ] **"The 404 Page That Preaches"** — Redesign 404 into mini-evangelistic moment: "You're lost. So were we all. (Ephesians 2:1-5)." Links to Start Here and Never Gives Up devotional. Quick win, shareable. → update `404.html`
+
+#### Visionary Session #3 Ideas (2026-03-28)
+- [x] **"The Orphanage"** — Long-form allegory: children believe they choose their family, one girl discovers adoption papers dated before the foundation of the orphanage. Eph 1:4-5, John 15:16, 1 John 4:19. 11 chapters, ~3,000 words. → `story-the-orphanage.html` ✅ (2026-03-28 Visionary #2)
+- [ ] **"Five Fears: What's Really Holding You Back"** — 5 emotional objections to sovereignty reframed with devastating analogies that flip the argument. Shows Reformed theology is MORE loving. → pastoral/apologetics crossover page
+- [ ] **"The Moment the Light Came On"** — Collection of fictional first-person vignettes: the Arminian pastor who couldn't unsee Romans 9, the addict who knew bondage before a theologian said it, the grieving widow who found comfort only in sovereignty. → devotional/stories crossover
+- [ ] **"What Your Mirror Can't Show You"** — Secular evidence: Dunning-Kruger, better-than-average bias, neuroscience of self-deception → total depravity. You can't see your own depravity; that's the depravity. → `secular-mirror.html`
+- [ ] **"The Love Letter Dated Before Time"** — Ephesians 1:3-14 rewritten as personal correspondence from God. Most potentially shareable content on the site. → devotional page
 
 ---
 
