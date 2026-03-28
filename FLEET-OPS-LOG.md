@@ -1,5 +1,25 @@
 # Fleet Operations Log
 
+## 2026-03-28 21:16 UTC — Fleet Ops Check (Run 4 of 4)
+
+- **Pipeline status:** DEGRADED
+- **Last commit:** 2026-03-28 14:14:17 -0600 — "Fix homepage hamburger menu: rewire from missing mega-panel to nav-links toggle"
+- **Uncommitted files:** 158 modified files waiting to be committed
+- **Lock files found:** 1 (index.lock — removed successfully), 1 gc.pid (cannot remove from sandbox), 161 tmp_obj files (cannot remove from sandbox)
+- **Git integrity:** fsck clean (no errors), but gc blocked by stale gc.pid
+- **Remote sync:** BLOCKED — SSH host key verification failed. `git fetch origin` cannot connect.
+- **Commits in last 24h:** 52 (healthy production rate)
+- **Error log patterns:** RECURRING — sandbox mount cannot delete .git internal files. Same issue logged at 12:57, 13:00, and 19:06 UTC today.
+- **Actions taken:**
+  - Removed index.lock (success)
+  - Attempted to remove gc.pid and 161 tmp_obj files (FAILED — Operation not permitted in sandbox)
+  - Attempted git gc (FAILED — gc.pid blocks it)
+  - Attempted emergency commit+push (FAILED — new index.lock created during `git add` cannot be cleaned)
+- **ROOT CAUSE:** The Cowork sandbox mount has different FS permissions than the host. Files created by other processes (Desktop Commander agents, auto-push) in `.git/` cannot be deleted by the sandbox. Only processes running on Aaron's actual machine can manage `.git/` internals.
+- **RECOMMENDATION:** The auto-push scheduled task (which runs on the host via Desktop Commander) needs to: (1) delete gc.pid, (2) clean all tmp_obj files, (3) commit 158 pending files, (4) push to origin. If auto-push is also failing due to SSH, Aaron needs to run `ssh-keyscan github.com >> ~/.ssh/known_hosts` on his machine.
+
+---
+
 ## 2026-03-28 16:44 UTC — Fleet Ops Check
 
 ### Status: ISSUES FLAGGED (no critical damage)
