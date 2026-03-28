@@ -56,13 +56,7 @@
             top: 0;
         }
 
-        nav {
-            background-color: var(--bg-card);
-            border-bottom: 1px solid var(--border-subtle);
-            position: sticky;
-            top: 0;
-            z-index: 50;
-        }
+        nav { position: sticky; top: 0; z-index: 1000; background: rgba(10, 10, 15, 0.85); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); padding: 1rem 2rem; }
 
         .nav-container {
             max-width: 1200px;
@@ -455,7 +449,31 @@
                 gap: 1rem;
             }
         }
-    </style>
+    /* ========== HAMBURGER MENU ========== */
+.hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; z-index: 1001; }
+.hamburger span { display: block; width: 24px; height: 2px; background: var(--accent-gold); margin: 5px 0; transition: all 0.3s ease; border-radius: 2px; }
+.hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.hamburger.active span:nth-child(2) { opacity: 0; }
+.hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+@media (max-width: 768px) {
+    .hamburger { display: block; }
+    .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: rgba(10, 10, 15, 0.98); flex-direction: column; padding: 1rem 2rem 2rem; gap: 0; border-bottom: 1px solid var(--border-subtle); }
+    .nav-links.open { display: flex; }
+    .nav-links li { padding: 0.7rem 0; border-bottom: 1px solid rgba(212, 162, 84, 0.08); }
+    .nav-links li:last-child { border-bottom: none; }
+    .nav-links a { font-size: 1.1rem; display: block; }
+    nav .nav-container { position: relative; }
+    .logo { font-size: 1rem !important; }
+}
+
+/* ========== FOCUS STYLES ========== */
+*:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+.skip-link:focus { outline: 2px solid var(--accent-gold); }
+
+</style>
 </head>
 <body>
     <div class="reading-progress" id="readingProgress"></div>
@@ -465,6 +483,9 @@
     <nav>
         <div class="nav-container">
             <a href="index.html" class="logo" style="text-decoration:none;">ADOPTED BY GRACE</a>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="this.classList.toggle('active');document.querySelector('.nav-links').classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('active'))">
+                <span></span><span></span><span></span>
+            </button>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="start-here.html">Start Here</a></li>
