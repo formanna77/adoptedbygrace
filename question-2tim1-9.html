@@ -266,7 +266,11 @@
             .nav-links li:hover .nav-dropdown {
                 max-height: 500px;
             }
-        }
+        
+
+            .nav-links > li:hover > .nav-dropdown,
+            .nav-links > li.dropdown-open > .nav-dropdown { position: static; transform: none; opacity: 1; visibility: visible; left: 0; width: 100%; min-width: 100%; }
+}
 
         .breadcrumb-nav {
             max-width: 1400px;
