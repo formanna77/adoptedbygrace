@@ -97,18 +97,11 @@ Add cross-links using the existing link style on each page. Do NOT create new se
 
 ### 5. NAVIGATION AUDIT & REPAIR (Medium Priority)
 
-Verify that ALL pages use the current mega-menu navigation. The canonical nav structure is:
+Verify that ALL pages use the canonical nav from `/_nav-template.html`. The nav is a flat bar with 12 links (no logo, no dropdowns, no mega-menu):
 
-**Top-level items:** Home, Start Here, Doctrine (dropdown), Apologetics (dropdown), Explore (dropdown), History (dropdown), About
+**Links in order:** Best Reads → Start Here → The Evidence → Theology → Demolition → Why We Resist → Devotionals → Stories → Secular → History → Analogies → About
 
-**Doctrine dropdown:** The Evidence, Systematic Theology, Scripture Tsunami, Creeds & Confessions
-**Apologetics dropdown:** Demolition Zone, Comparisons, Objections Answered
-**Explore dropdown:** Devotionals, Stories & Parables, Analogies, Pastoral, Secular Evidence
-**History dropdown:** Theologians, Church History, OT Election
-
-If a page has the old flat nav (4-5 links, no dropdowns), replace it with the mega-menu nav from `index.html`. Copy the full nav HTML, CSS, and JS.
-
-**Logo text:** Must be `Adopted by Grace` (title case, NOT all-caps). Fix any page that uses "ADOPTED BY GRACE".
+If ANY page has a different nav (old mega-menu, missing links, wrong order, a logo), replace it with the exact content of `/_nav-template.html`. All nav CSS lives in `/global.css` — remove any inline nav CSS from the page's `<style>` block. Ensure the page has `<link rel="stylesheet" href="/global.css">` in the `<head>`.
 
 ### 6. FOOTER CONSISTENCY (Medium Priority)
 
@@ -129,7 +122,7 @@ If `/contact.html`, `/privacy.html`, or `/terms.html` do not exist, create simpl
 
 **contact.html:**
 - Site name, mission statement (1 sentence), email: foreknownone@adoptedbygrace.net
-- Use the standard mega-menu nav and site design system
+- Use the canonical nav from `/_nav-template.html` and the site design system
 - Simple, warm, brief
 
 **privacy.html:**
@@ -169,7 +162,7 @@ Every session, update `INTEGRITY-LOG.md` in the repo root with:
 - {page1} ↔ {page2} (shared doctrine: {topic})
 
 ### Nav Repairs
-- {N} pages upgraded to mega-menu nav
+- {N} pages fixed to match canonical nav from `/_nav-template.html`
 
 ### Infrastructure Pages
 - Created/updated: {list}

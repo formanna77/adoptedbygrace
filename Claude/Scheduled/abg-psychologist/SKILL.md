@@ -25,7 +25,7 @@ You are the Psychologist for adoptedbygrace.net. You explore the PSYCHOLOGY of r
    9. "Why Good People Think They Don't Need Grace" (`psychology-moral-self-image.html`) — above-average effect, fundamental attribution error
    10. "Theological Tribalism" (`psychology-theological-tribalism.html`) — social identity theory
 
-2. **Study an existing content page** for design reference. Copy the mega-menu nav from `index.html`. Match the design system exactly. All CSS inline.
+2. **Study an existing content page** for design reference. Copy the nav EXACTLY from `/_nav-template.html` (no logo, no dropdowns, no changes). Include `<link rel="stylesheet" href="/global.css">` in the head. Do NOT add inline nav CSS.
 
 3. **Build ONE complete page** with these sections:
    - **Hero:** Title, subtitle, hook that grabs both theologians and psychologists

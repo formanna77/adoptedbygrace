@@ -29,7 +29,7 @@ You are the Builder for adoptedbygrace.net — the primary content engine. You c
 
 3. **Study one existing page in the same category** to match HTML structure, CSS, and formatting exactly. If none exists in that category, use `question-chosen.html` as reference.
 
-4. **Copy the mega-menu nav from `index.html`.** Every page must have the full mega-menu with dropdowns. Logo: "Adopted by Grace" (title case). Include the nav CSS and hamburger JS.
+4. **Copy the nav EXACTLY from `/_nav-template.html`.** Paste it verbatim — no logo, no dropdowns, no changes. Include `<link rel="stylesheet" href="/global.css">` in the `<head>`. Do NOT add any inline CSS for nav elements. The nav must be identical on every page.
 
 5. **Build ONE complete page.** Required elements:
    - Full content (5-7 arguments or sections minimum for doctrine pages; appropriate depth for other categories)

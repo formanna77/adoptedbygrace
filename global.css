@@ -50,8 +50,8 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
 
 /* Desktop nav-right: full-width bar of links */
 .nav-right { display: none; align-items: center; gap: 0; width: 100%; justify-content: center; }
-.nav-top-link { text-decoration: none; color: var(--text-secondary); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.7rem; height: 50px; display: flex; align-items: center; transition: color 0.25s ease; white-space: nowrap; position: relative; }
-.nav-top-link::after { content: ''; position: absolute; bottom: 0; left: 0.7rem; right: 0.7rem; height: 2px; background: var(--accent-gold); transform: scaleX(0); transition: transform 0.3s ease; transform-origin: center; }
+.nav-top-link { text-decoration: none; color: var(--text-secondary); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; padding: 0 0.5rem; height: 50px; display: flex; align-items: center; transition: color 0.25s ease; white-space: nowrap; position: relative; }
+.nav-top-link::after { content: ''; position: absolute; bottom: 0; left: 0.5rem; right: 0.5rem; height: 2px; background: var(--accent-gold); transform: scaleX(0); transition: transform 0.3s ease; transform-origin: center; }
 .nav-top-link:hover { color: var(--accent-gold); }
 .nav-top-link:hover::after { transform: scaleX(1); }
 
