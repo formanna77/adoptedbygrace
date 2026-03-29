@@ -181,19 +181,9 @@
             margin: 0 auto;
         }
 
-        .section-nav a {
-            font-size: 0.9rem;
-            font-weight: 500;
-            color: var(--text-secondary);
-            border-bottom: 2px solid transparent;
-            padding-bottom: 4px;
-            transition: all 0.3s ease;
-        }
+        .section-
 
-        .section-nav a:hover {
-            color: var(--accent-gold);
-            border-bottom-color: var(--accent-gold);
-        }
+        .section-
 
         /* Content */
         .content {
@@ -522,9 +512,7 @@
                 gap: 1rem;
             }
 
-            .section-nav a {
-                display: block;
-            }
+            .section-
 
             .hero {
                 padding: 3rem 1.5rem;
@@ -570,7 +558,7 @@ a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
 
     </style>
-    <link rel="stylesheet" href="./global.css">
+            <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to main content</a>
@@ -854,62 +842,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
 
-    <script>
-        // Reading Progress Bar
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.scrollY;
-            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollPercent = (scrollTop / docHeight) * 100;
-            document.getElementById('readingProgress').style.width = scrollPercent + '%';
-        });
-
-        // Back to Top Button
-        const backToTopBtn = document.getElementById('backToTop');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                backToTopBtn.classList.add('show');
-            } else {
-                backToTopBtn.classList.remove('show');
-            }
-        });
-
-        backToTopBtn.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Hamburger Menu
-        const hamburger = document.getElementById('hamburger');
-        const navLinks = document.getElementById('navLinks');
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
-
-        // Close menu on link click
-        navLinks.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('active');
-            });
-        });
-
-        // Share Functions
-        function shareOnX() {
-            const url = 'https://adoptedbygrace.net/demolition-john12-32';
-            const text = 'John 12:32 doesn\'t teach universal atonement—the Greek exegesis and cross-references prove otherwise. Demolished.';
-            window.open(`https://x.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`, '_blank');
-        }
-
-        function shareOnThreads() {
-            const url = 'https://adoptedbygrace.net/demolition-john12-32';
-            window.open(`https://www.threads.net/intent/post?url=${encodeURIComponent(url)}`, '_blank');
-        }
-
-        function copyLink() {
-            const url = 'https://adoptedbygrace.net/demolition-john12-32';
-            navigator.clipboard.writeText(url).then(() => {
-                alert('Link copied to clipboard!');
-            });
-        }
-    </script>
+    
 <script src="/global.js" defer>
         // Mobile dropdown toggles
         const navLinks = document.querySelector('.nav-links');

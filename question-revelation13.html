@@ -125,22 +125,9 @@
             text-align: center;
         }
 
-        .breadcrumb-nav a {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.5rem 1rem;
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-        }
+        .breadcrumb-
 
-        .breadcrumb-nav a:hover {
-            background-color: rgba(212, 162, 84, 0.15);
-            border-color: var(--accent-gold);
-        }
+        .breadcrumb-
 
         /* Hero Section */
         .hero {
@@ -186,21 +173,9 @@
             border-bottom: 1px solid var(--border-subtle);
         }
 
-        .section-nav a {
-            padding: 0.75rem 1.25rem;
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-            font-weight: 500;
-        }
+        .section-
 
-        .section-nav a:hover, .section-nav a.active {
-            background-color: rgba(212, 162, 84, 0.15);
-            border-color: var(--accent-gold);
-            color: var(--accent-gold);
-        }
+        .section-nav a:hover, .section-
 
         /* Main Content */
         .content {
@@ -756,10 +731,7 @@
                 padding: 1rem;
             }
 
-            .section-nav a {
-                width: 100%;
-                text-align: center;
-            }
+            .section-
 
             .content {
                 padding: 1rem;
@@ -799,6 +771,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
     </style>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+        <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to main content</a>
@@ -1188,141 +1161,11 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
 
     <!-- Global Stylesheet Link -->
-    <link rel="stylesheet" href="./global.css">
-
+    
     <!-- Scripts -->
     <script defer src="/global.js"></script>
 
-    <script>
-        // Navigation functionality
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-        const navTriggers = document.querySelectorAll('.nav-trigger');
-
-        hamburger?.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navLinks?.classList.toggle('active');
-            hamburger.setAttribute('aria-expanded', hamburger.classList.contains('active'));
-        });
-
-        navTriggers.forEach(trigger => {
-            trigger.addEventListener('click', (e) => {
-                e.preventDefault();
-                const dropdown = trigger.nextElementSibling;
-                const isActive = dropdown?.classList.contains('active');
-
-                document.querySelectorAll('.nav-dropdown.active').forEach(d => {
-                    d.classList.remove('active');
-                });
-                document.querySelectorAll('.nav-trigger.active').forEach(t => {
-                    t.classList.remove('active');
-                });
-
-                if (!isActive) {
-                    dropdown?.classList.add('active');
-                    trigger.classList.add('active');
-                }
-            });
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('li')) {
-                document.querySelectorAll('.nav-dropdown.active').forEach(d => {
-                    d.classList.remove('active');
-                });
-                document.querySelectorAll('.nav-trigger.active').forEach(t => {
-                    t.classList.remove('active');
-                });
-            }
-        });
-
-        // Section Navigation Scroll Spy
-        const sections = document.querySelectorAll('.section');
-        const navLinks2 = document.querySelectorAll('.section-nav a');
-
-        window.addEventListener('scroll', () => {
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                if (pageYOffset >= sectionTop - 200) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks2.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href').slice(1) === current) {
-                    link.classList.add('active');
-                }
-            });
-        });
-
-        // Back to Top Button
-        const backToTop = document.getElementById('backToTop');
-
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                backToTop?.classList.add('show');
-            } else {
-                backToTop?.classList.remove('show');
-            }
-        });
-
-        backToTop?.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Reading Progress Bar
-        const progressBar = document.querySelector('.reading-progress');
-
-        window.addEventListener('scroll', () => {
-            const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            const scrolled = (window.scrollY / windowHeight) * 100;
-            if (progressBar) progressBar.style.width = scrolled + '%';
-        });
-
-        // Share Functions
-        function shareOnTwitter() {
-            const url = window.location.href;
-            const text = "Names Written Before the Foundation of the World — Revelation 13:8 & 17:8 reveal God's sovereign election.";
-            window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
-        }
-
-        function shareOnFacebook() {
-            const url = window.location.href;
-            window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
-        }
-
-        function copyLink() {
-            const url = window.location.href;
-            navigator.clipboard.writeText(url).then(() => {
-                alert('Link copied to clipboard!');
-            });
-        }
     
-        // Mobile dropdown toggles
-        const navLinks = document.querySelector('.nav-links');
-        if (navLinks) {
-            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
-                trigger.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const li = trigger.closest('li');
-                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
-                        if (openLi !== li) openLi.classList.remove('dropdown-open');
-                    });
-                    li.classList.toggle('dropdown-open');
-                });
-            });
-            navLinks.querySelectorAll('a').forEach(a => {
-                a.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                    const hamburger = document.querySelector('.hamburger');
-                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
-                });
-            });
-        }
-
-    </script>
 
     <script>
     // ===== SITE SEARCH =====

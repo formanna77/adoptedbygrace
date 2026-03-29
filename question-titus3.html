@@ -87,14 +87,9 @@
             font-size: 1rem;
         }
 
-        .breadcrumb-nav a {
-            color: var(--accent-gold);
-            text-decoration: none;
-        }
+        .breadcrumb-
 
-        .breadcrumb-nav a:hover {
-            text-decoration: underline;
-        }
+        .breadcrumb-
 
         .hero {
             max-width: 1400px;
@@ -126,20 +121,9 @@
             font-style: italic;
         }
 
-        .section-nav a {
-            padding: 0.8rem 1.2rem;
-            color: var(--text-secondary);
-            text-decoration: none;
-            border-bottom: 2px solid transparent;
-            font-size: 0.95rem;
-            transition: all 0.2s ease;
-            white-space: nowrap;
-        }
+        .section-
 
-        .section-nav a:hover, .section-nav a.active {
-            color: var(--accent-gold);
-            border-bottom-color: var(--accent-gold);
-        }
+        .section-nav a:hover, .section-
 
         .content {
             max-width: 1400px;
@@ -578,10 +562,7 @@
                 font-size: 1rem;
             }
 
-            .section-nav a {
-                padding: 0.6rem 0.9rem;
-                font-size: 0.85rem;
-            }
+            .section-
 
             .back-to-top {
                 width: 40px;
@@ -612,7 +593,7 @@
 
     </style>
 
-    <link rel="stylesheet" href="./global.css">
+            <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <div class="reading-progress"></div>
@@ -1103,94 +1084,7 @@
 
     <button class="back-to-top" aria-label="Back to top">↑</button>
 
-    <script>
-        // Reading Progress Bar
-        const readingProgressBar = document.querySelector('.reading-progress');
-        window.addEventListener('scroll', () => {
-            const windowHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrolled = (window.scrollY / windowHeight) * 100;
-            readingProgressBar.style.width = scrolled + '%';
-        });
-
-        // Back to Top Button
-        const backToTopBtn = document.querySelector('.back-to-top');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                backToTopBtn.classList.add('show');
-            } else {
-                backToTopBtn.classList.remove('show');
-            }
-        });
-        backToTopBtn.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Scroll Spy for Section Navigation
-        const navLinks = document.querySelectorAll('.section-nav a');
-        const sections = document.querySelectorAll('.section');
-
-        const observerOptions = {
-            threshold: 0.3,
-            rootMargin: '0px 0px -50% 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    navLinks.forEach(link => {
-                        link.classList.remove('active');
-                        if (link.getAttribute('href') === '#' + entry.id) {
-                            link.classList.add('active');
-                        }
-                    });
-                }
-            });
-        }, observerOptions);
-
-        sections.forEach(section => observer.observe(section));
-
-        // Hamburger Menu Toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navLinksMenu = document.querySelector('.nav-links');
-
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navLinksMenu.classList.toggle('active');
-        });
-
-        // Close menu when a link is clicked
-        navLinksMenu.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navLinksMenu.classList.remove('active');
-            });
-        });
-
-        // Objection Container Expand/Collapse
-        document.querySelectorAll('.objection-container').forEach(container => {
-            const header = container.querySelector('.objection-header');
-            header.addEventListener('click', () => {
-                container.classList.toggle('expanded');
-            });
-        });
-
-        // Share Button Functionality
-        document.querySelectorAll('.share-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.preventDefault();
-                const text = btn.textContent;
-                if (text.includes('X')) {
-                    window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href) + '&text=Check out this study on Titus 3:3-7', '_blank');
-                } else if (text.includes('Facebook')) {
-                    window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank');
-                } else if (text.includes('Copy')) {
-                    navigator.clipboard.writeText(window.location.href);
-                    btn.textContent = 'Copied!';
-                    setTimeout(() => { btn.textContent = 'Copy Link'; }, 2000);
-                }
-            });
-        });
-    </script>
+    
 
     <script src="/global.js" defer></script>
 

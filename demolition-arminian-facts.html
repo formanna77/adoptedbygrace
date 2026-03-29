@@ -638,7 +638,7 @@ a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
 
     </style>
-    <link rel="stylesheet" href="./global.css">
+            <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <div class="progress-bar"></div>
@@ -988,42 +988,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     <!-- Back to Top Button -->
     <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
-    <script>
-        // Reading Progress Bar
-        window.addEventListener('scroll', function() {
-            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrolled = window.scrollY;
-            const progress = (scrolled / scrollHeight) * 100;
-            document.querySelector('.progress-bar').style.width = progress + '%';
-
-            // Back to Top Button
-            const backButton = document.querySelector('.back-to-top');
-            if (window.scrollY > 300) {
-                backButton.classList.add('show');
-            } else {
-                backButton.classList.remove('show');
-            }
-        });
-
-        // Hamburger Menu
-        document.addEventListener('click', function(e) {
-            const hamburger = document.querySelector('.hamburger');
-            const navLinks = document.querySelector('.nav-links');
-
-            if (!e.target.closest('.hamburger') && !e.target.closest('.nav-links')) {
-                hamburger.classList.remove('active');
-                navLinks.classList.remove('open');
-                hamburger.setAttribute('aria-expanded', 'false');
-            }
-        });
-
-        // Active Nav Link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            if (link.href === window.location.href) {
-                link.classList.add('active');
-            }
-        });
-    </script>
+    
 
     <script type="application/ld+json">
     {

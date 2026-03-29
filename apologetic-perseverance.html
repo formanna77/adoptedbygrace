@@ -41,8 +41,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./global.css">
-
+    
     <style>
         :root {
             --bg-primary: #0a0a0f;
@@ -439,6 +438,7 @@
         }
 
     </style>
+        <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <div class="reading-progress"></div>
@@ -660,65 +660,7 @@
 
     <button class="back-to-top" aria-label="Back to top">↑</button>
 
-    <script>
-        // Reading Progress Bar
-        const progressBar = document.querySelector('.reading-progress');
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.scrollY;
-            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const progress = (scrollTop / docHeight) * 100;
-            progressBar.style.width = progress + '%';
-        });
-
-        // Back to Top Button
-        const backToTopBtn = document.querySelector('.back-to-top');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                backToTopBtn.classList.add('show');
-            } else {
-                backToTopBtn.classList.remove('show');
-            }
-        });
-        backToTopBtn.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Hamburger Menu Toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-
-        // Close menu when a link is clicked
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navLinks.classList.remove('active');
-            });
-        });
-
-        // Navigation Dropdown Toggle
-        const navTriggers = document.querySelectorAll('.nav-trigger');
-        navTriggers.forEach(trigger => {
-            trigger.addEventListener('click', (e) => {
-                e.preventDefault();
-                const isActive = trigger.classList.contains('active');
-                navTriggers.forEach(t => t.classList.remove('active'));
-                if (!isActive) {
-                    trigger.classList.add('active');
-                }
-            });
-        });
-
-        // Close dropdowns when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('.nav-trigger') && !e.target.closest('.nav-dropdown')) {
-                navTriggers.forEach(t => t.classList.remove('active'));
-            }
-        });
-    </script>
+    
 
     <script src="/global.js">
         // Mobile dropdown toggles

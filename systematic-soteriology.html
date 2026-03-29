@@ -327,17 +327,6 @@
 
         @media (max-width: 968px) {
 
-            .nav-links {
-
-                left: 0;
-                right: 0;
-                flex-direction: column;
-                background: var(--bg-card);
-                padding: 1rem;
-                gap: 0;
-                border-bottom: 1px solid var(--border-subtle);
-            }
-
             .hero {
                 padding: 2rem 1rem;
                 margin: 2rem auto;
@@ -408,7 +397,7 @@ a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
 
     </style>
-    <link rel="stylesheet" href="./global.css">
+            <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <div class="reading-progress" role="progressbar" aria-label="Reading progress"></div>
@@ -806,27 +795,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     </footer>
 
     <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-    <script>
-    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
-    </script>
-    <script>
-    (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
-    </script>
-    <script>
-        document.querySelector('.hamburger').addEventListener('click', function() {
-            const navLinks = document.querySelector('.nav-links');
-            navLinks.classList.toggle('active');
-            this.setAttribute('aria-expanded', navLinks.classList.contains('active'));
-        });
-
-        document.querySelectorAll('.nav-trigger').forEach(trigger => {
-            trigger.addEventListener('click', function(e) {
-                e.preventDefault();
-                const dropdown = this.nextElementSibling;
-                dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
-            });
-        });
-    </script>
+    
     <script src="/global.js" defer></script>
 
     <script>

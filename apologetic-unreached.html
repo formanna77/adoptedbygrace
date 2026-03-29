@@ -41,8 +41,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./global.css">
-
+    
     <style>
         :root {
             --bg-primary: #0a0a0f;
@@ -385,6 +384,7 @@
         }
 
     </style>
+        <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <div class="reading-progress"></div>
@@ -605,76 +605,7 @@
     </footer>
 
     <script src="/global.js"></script>
-    <script>
-        // Reading Progress Bar
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.scrollY;
-            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollPercent = (scrollTop / docHeight) * 100;
-            document.querySelector('.reading-progress').style.width = scrollPercent + '%';
-
-            // Show/hide back to top button
-            const backToTopBtn = document.querySelector('.back-to-top');
-            if (scrollTop > 300) {
-                backToTopBtn.classList.add('show');
-            } else {
-                backToTopBtn.classList.remove('show');
-            }
-        });
-
-        // Back to Top Button
-        document.querySelector('.back-to-top').addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Navigation toggle for mobile
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-        const navTriggers = document.querySelectorAll('.nav-trigger');
-
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-
-        navTriggers.forEach(trigger => {
-            trigger.addEventListener('click', (e) => {
-                e.preventDefault();
-                trigger.classList.toggle('active');
-            });
-        });
-
-        // Close menu when a link is clicked
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navLinks.classList.remove('active');
-            });
-        });
     
-        // Mobile dropdown toggles
-        const navLinks = document.querySelector('.nav-links');
-        if (navLinks) {
-            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
-                trigger.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const li = trigger.closest('li');
-                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
-                        if (openLi !== li) openLi.classList.remove('dropdown-open');
-                    });
-                    li.classList.toggle('dropdown-open');
-                });
-            });
-            navLinks.querySelectorAll('a').forEach(a => {
-                a.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                    const hamburger = document.querySelector('.hamburger');
-                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
-                });
-            });
-        }
-
-    </script>
 
     <script>
     // ===== SITE SEARCH =====

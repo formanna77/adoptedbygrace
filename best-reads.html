@@ -270,32 +270,7 @@
 
     <button class="back-to-top" aria-label="Back to top">&uarr;</button>
 
-    <script>
-        // Hamburger toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-        
-
-        // Search toggle
-        const searchToggle = document.getElementById('searchToggle');
-        const searchOverlay = document.getElementById('searchOverlay');
-        const searchInput = document.getElementById('searchInput');
-        const searchClose = document.getElementById('searchClose');
-        if (searchToggle && searchOverlay) {
-            searchToggle.addEventListener('click', () => { searchOverlay.classList.add('open'); searchInput?.focus(); });
-            searchClose?.addEventListener('click', () => { searchOverlay.classList.remove('open'); });
-            document.addEventListener('keydown', (e) => { if (e.key === 'Escape') searchOverlay.classList.remove('open'); });
-        }
-
-        // Scroll effects
-        const nav = document.querySelector('nav');
-        const backToTop = document.querySelector('.back-to-top');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) { nav?.classList.add('scrolled'); } else { nav?.classList.remove('scrolled'); }
-            if (window.scrollY > 400) { backToTop?.classList.add('visible'); } else { backToTop?.classList.remove('visible'); }
-        });
-        backToTop?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-    </script>
+    
     <script src="/nav.js"></script>
 </body>
 </html>

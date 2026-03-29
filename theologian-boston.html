@@ -85,29 +85,11 @@
             line-height: 1.8;
         }
 
-        .section-nav ul {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
+        .section-
 
-        .section-nav a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid transparent;
-        }
+        .section-
 
-        .section-nav a:hover, .section-nav a.active {
-            color: var(--accent-gold);
-            border-bottom-color: var(--accent-gold);
-        }
+        .section-nav a:hover, .section-
 
         /* Main Content */
         .container {
@@ -428,10 +410,7 @@
                 font-size: 1.8rem;
             }
 
-            .section-nav ul {
-                gap: 1rem;
-                font-size: 0.8rem;
-            }
+            .section-
 
             .card-grid, .quote-cards, .works-list {
                 grid-template-columns: 1fr;
@@ -478,6 +457,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="/global.css">
 </head>
 <body>
         <nav role="navigation" aria-label="Main navigation">
@@ -1016,105 +996,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
     <button class="back-to-top" aria-label="Back to top">&uarr;</button>
 
-    <link rel="stylesheet" href="./global.css">
-    <script src="/global.js" defer></script>
+        <script src="/global.js" defer></script>
 
-    <script>
-        // Back to top button
-        const backToTopButton = document.querySelector('.back-to-top');
-
-        window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 300) {
-                backToTopButton.classList.add('show');
-            } else {
-                backToTopButton.classList.remove('show');
-            }
-        });
-
-        backToTopButton.addEventListener('click', () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-
-        // Section navigation active state
-        const sectionNav = document.querySelector('.section-nav');
-        const navLinks = sectionNav.querySelectorAll('a');
-
-        window.addEventListener('scroll', () => {
-            let current = '';
-
-            navLinks.forEach(link => {
-                const section = document.querySelector(link.getAttribute('href'));
-                if (section && section.offsetTop <= window.pageYOffset + 200) {
-                    current = link.getAttribute('href');
-                }
-            });
-
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === current) {
-                    link.classList.add('active');
-                }
-            });
-        });
-
-        // Smooth scroll for section links
-        navLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const targetId = link.getAttribute('href');
-                const targetSection = document.querySelector(targetId);
-                if (targetSection) {
-                    targetSection.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
-        });
-
-        // Hamburger menu
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks2 = document.querySelector('.nav-links');
-
-        hamburger.addEventListener('click', () => {
-            navLinks2.style.display = navLinks2.style.display === 'flex' ? 'none' : 'flex';
-            hamburger.setAttribute('aria-expanded',
-                hamburger.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
-        });
-
-        // Dropdown menus
-        const navTriggers = document.querySelectorAll('.nav-trigger');
-        navTriggers.forEach(trigger => {
-            trigger.addEventListener('click', (e) => {
-                e.preventDefault();
-                const dropdown = trigger.nextElementSibling;
-                dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
-            });
-        });
     
-        // Mobile dropdown toggles
-        const navLinks = document.querySelector('.nav-links');
-        if (navLinks) {
-            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
-                trigger.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const li = trigger.closest('li');
-                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
-                        if (openLi !== li) openLi.classList.remove('dropdown-open');
-                    });
-                    li.classList.toggle('dropdown-open');
-                });
-            });
-            navLinks.querySelectorAll('a').forEach(a => {
-                a.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                    const hamburger = document.querySelector('.hamburger');
-                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
-                });
-            });
-        }
-
-    </script>
 
     <script>
     // ===== SITE SEARCH =====

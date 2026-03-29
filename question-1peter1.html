@@ -19,8 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./global.css">
-    <style>
+        <style>
         :root {
             --bg-deep: #0a0a0f;
             --bg-card: #12121a;
@@ -136,20 +135,9 @@
             max-width: 800px;
         }
 
-        .breadcrumb-nav a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 600;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            transition: gap 0.3s ease;
-        }
+        .breadcrumb-
 
-        .breadcrumb-nav a:hover {
-            gap: 12px;
-        }
+        .breadcrumb-
 
         .section-nav-container {
             display: flex;
@@ -171,22 +159,10 @@
             border-radius: 2px;
         }
 
-        .section-nav a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 600;
-            padding: 8px 0;
-            border-bottom: 2px solid transparent;
-            transition: all 0.3s ease;
-            white-space: nowrap;
-        }
+        .section-
 
         .section-nav a:hover,
-        .section-nav a.active {
-            color: var(--accent-gold);
-            border-bottom-color: var(--accent-gold);
-        }
+        .section-
 
         /* Main Content */
         #main-content {
@@ -876,9 +852,7 @@
                 gap: 12px;
             }
 
-            .section-nav a {
-                font-size: 13px;
-            }
+            .section-
 
             .share-buttons {
                 gap: 8px;
@@ -961,6 +935,7 @@ body {
         }
     }
     </script>
+        <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <div class="reading-progress" role="progressbar" aria-label="Reading progress"></div>
@@ -1479,99 +1454,7 @@ body {
 
     <button class="back-to-top" onclick="scrollToTop()" aria-label="Back to top"></button>
 
-    <script>
-        // Reading Progress Bar
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.scrollY;
-            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollPercent = (scrollTop / docHeight) * 100;
-            document.querySelector('.reading-progress').style.width = scrollPercent + '%';
-        });
-
-        // Navigation
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-        const navTriggers = document.querySelectorAll('.nav-trigger');
-
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-
-        navTriggers.forEach(trigger => {
-            trigger.addEventListener('click', (e) => {
-                e.preventDefault();
-                const dropdown = trigger.nextElementSibling;
-                const isActive = dropdown.classList.contains('active');
-
-                document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('active'));
-                document.querySelectorAll('.nav-trigger').forEach(t => t.classList.remove('active'));
-
-                if (!isActive) {
-                    dropdown.classList.add('active');
-                    trigger.classList.add('active');
-                }
-            });
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('nav')) {
-                document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('active'));
-                document.querySelectorAll('.nav-trigger').forEach(t => t.classList.remove('active'));
-            }
-        });
-
-        // Section Navigation Scroll Spy
-        const sectionNavLinks = document.querySelectorAll('.section-nav-link');
-        const sections = document.querySelectorAll('.section');
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const id = entry.target.id;
-                    sectionNavLinks.forEach(link => {
-                        link.classList.remove('active');
-                        if (link.getAttribute('href') === `#${id}`) {
-                            link.classList.add('active');
-                        }
-                    });
-                }
-            });
-        }, { threshold: 0.3 });
-
-        sections.forEach(section => observer.observe(section));
-
-        // Back to Top Button
-        const backToTopBtn = document.querySelector('.back-to-top');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                backToTopBtn.classList.add('visible');
-            } else {
-                backToTopBtn.classList.remove('visible');
-            }
-        });
-
-        function scrollToTop() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-
-        // Share Functions
-        function shareToTwitter() {
-            const url = 'https://adoptedbygrace.net/question-1peter1.html';
-            const text = 'Elect Exiles According to the Foreknowledge of God — A rigorous exegetical examination of 1 Peter 1:1-2 that demolishes the Arminian reading.';
-            window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`, '_blank');
-        }
-
-        function shareToFacebook() {
-            const url = 'https://adoptedbygrace.net/question-1peter1.html';
-            window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
-        }
-
-        function copyToClipboard() {
-            navigator.clipboard.writeText('https://adoptedbygrace.net/question-1peter1.html');
-            alert('Link copied to clipboard!');
-        }
-    </script>
+    
     <script src="/global.js" defer>
         // Mobile dropdown toggles
         const navLinks = document.querySelector('.nav-links');

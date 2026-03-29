@@ -120,21 +120,9 @@
             padding: 3rem 2rem;
         }
 
-        .section-nav a {
-            padding: 0.75rem 1.5rem;
-            border-radius: 0.5rem;
-            background-color: var(--bg-card);
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            transition: all 0.3s ease;
-            border: 1px solid transparent;
-        }
+        .section-
 
-        .section-nav a:hover {
-            background-color: var(--bg-card-hover);
-            color: var(--accent-gold);
-            border-color: var(--border-subtle);
-        }
+        .section-
 
         /* Content Sections */
         section {
@@ -502,8 +490,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
     </style>
 
-    <link rel="stylesheet" href="./global.css">
-    <script type="application/ld+json">
+        <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -521,6 +508,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="/global.css">
 </head>
 <body>
         <nav role="navigation" aria-label="Main navigation">
@@ -1080,93 +1068,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
     <script src="/global.js" defer></script>
 
-    <script>
-        // Back to top button functionality
-        const backToTopBtn = document.querySelector('.back-to-top');
-
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                backToTopBtn.classList.add('show');
-            } else {
-                backToTopBtn.classList.remove('show');
-            }
-        });
-
-        backToTopBtn.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Hamburger menu functionality
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-
-        hamburger.addEventListener('click', () => {
-            const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
-            hamburger.setAttribute('aria-expanded', !isExpanded);
-
-            if (!isExpanded) {
-                navLinks.style.display = 'flex';
-                navLinks.style.position = 'absolute';
-                navLinks.style.top = '60px';
-                navLinks.style.left = '0';
-                navLinks.style.right = '0';
-                navLinks.style.flexDirection = 'column';
-                navLinks.style.gap = '0';
-                navLinks.style.backgroundColor = 'var(--bg-card)';
-                navLinks.style.borderBottom = '1px solid var(--border-subtle)';
-                navLinks.style.zIndex = '99';
-            } else {
-                navLinks.style.display = '';
-                navLinks.style.position = '';
-                navLinks.style.top = '';
-                navLinks.style.left = '';
-                navLinks.style.right = '';
-                navLinks.style.flexDirection = '';
-                navLinks.style.gap = '';
-                navLinks.style.backgroundColor = '';
-                navLinks.style.borderBottom = '';
-            }
-        });
-
-        // Close menu when a link is clicked
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.setAttribute('aria-expanded', 'false');
-                navLinks.style.display = '';
-                navLinks.style.position = '';
-                navLinks.style.top = '';
-                navLinks.style.left = '';
-                navLinks.style.right = '';
-                navLinks.style.flexDirection = '';
-                navLinks.style.gap = '';
-                navLinks.style.backgroundColor = '';
-                navLinks.style.borderBottom = '';
-            });
-        });
     
-        // Mobile dropdown toggles
-        const navLinks = document.querySelector('.nav-links');
-        if (navLinks) {
-            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
-                trigger.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const li = trigger.closest('li');
-                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
-                        if (openLi !== li) openLi.classList.remove('dropdown-open');
-                    });
-                    li.classList.toggle('dropdown-open');
-                });
-            });
-            navLinks.querySelectorAll('a').forEach(a => {
-                a.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                    const hamburger = document.querySelector('.hamburger');
-                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
-                });
-            });
-        }
-
-    </script>
 
     <script>
     // ===== SITE SEARCH =====

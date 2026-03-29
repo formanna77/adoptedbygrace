@@ -122,15 +122,9 @@
             margin-bottom: 1rem;
         }
 
-        .section-nav a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
+        .section-
 
-        .section-nav a:hover {
-            color: var(--accent-ember);
-        }
+        .section-
 
         /* Section Headers */
         section {
@@ -469,8 +463,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
     </style>
 
-    <link rel="stylesheet" href="./global.css">
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+        <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+        <link rel="stylesheet" href="/global.css">
 </head>
 <body>
         <nav role="navigation" aria-label="Main navigation">
@@ -903,74 +897,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     <button class="back-to-top" aria-label="Back to top">&uarr;</button>
     <script src="/global.js" defer></script>
 
-    <script>
-        // Mobile hamburger menu
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-        const navTriggers = document.querySelectorAll('.nav-trigger');
-
-        if (hamburger) {
-            hamburger.addEventListener('click', () => {
-                const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
-                hamburger.setAttribute('aria-expanded', !isExpanded);
-                navLinks.classList.toggle('active');
-            });
-        }
-
-        // Nav dropdown functionality
-        navTriggers.forEach(trigger => {
-            trigger.addEventListener('click', (e) => {
-                e.preventDefault();
-                trigger.classList.toggle('active');
-            });
-        });
-
-        // Close mobile menu when a link is clicked
-        const allNavLinks = document.querySelectorAll('.nav-links a');
-        allNavLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('active');
-                hamburger.setAttribute('aria-expanded', 'false');
-            });
-        });
-
-        // Back to top button
-        const backToTopBtn = document.querySelector('.back-to-top');
-        window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 300) {
-                backToTopBtn.classList.add('show');
-            } else {
-                backToTopBtn.classList.remove('show');
-            }
-        });
-
-        backToTopBtn.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
     
-        // Mobile dropdown toggles
-        const navLinks = document.querySelector('.nav-links');
-        if (navLinks) {
-            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
-                trigger.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const li = trigger.closest('li');
-                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
-                        if (openLi !== li) openLi.classList.remove('dropdown-open');
-                    });
-                    li.classList.toggle('dropdown-open');
-                });
-            });
-            navLinks.querySelectorAll('a').forEach(a => {
-                a.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                    const hamburger = document.querySelector('.hamburger');
-                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
-                });
-            });
-        }
-
-    </script>
 
     <script>
     // ===== SITE SEARCH =====

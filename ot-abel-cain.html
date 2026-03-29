@@ -185,27 +185,11 @@
             font-weight: 600;
         }
 
-        .section-nav a {
-            padding: var(--spacing-sm) var(--spacing-md);
-            color: var(--text-secondary);
-            text-decoration: none;
-            border-left: 3px solid transparent;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-            font-size: 0.9rem;
-        }
+        .section-
 
-        .section-nav a:hover {
-            border-left-color: var(--accent-gold);
-            color: var(--accent-gold);
-            background: rgba(212, 162, 84, 0.05);
-        }
+        .section-
 
-        .section-nav a.active {
-            border-left-color: var(--accent-gold);
-            color: var(--accent-gold);
-            background: rgba(212, 162, 84, 0.08);
-        }
+        .section-
 
         /* CONTENT SECTIONS */
         section {
@@ -544,7 +528,7 @@
 
     </style>
 
-    <link rel="stylesheet" href="./global.css">
+            <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <div class="reading-progress"></div>
@@ -1009,70 +993,7 @@
 
     <button id="back-to-top" aria-label="Back to top">↑</button>
 
-    <script>
-        // Reading Progress Bar
-        function updateProgressBar() {
-            const scrollTop = window.scrollY;
-            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollPercent = (scrollTop / docHeight) * 100;
-            document.querySelector('.reading-progress').style.width = scrollPercent + '%';
-        }
-
-        window.addEventListener('scroll', updateProgressBar);
-
-        // Back to Top Button
-        const backToTopBtn = document.getElementById('back-to-top');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                backToTopBtn.classList.add('show');
-            } else {
-                backToTopBtn.classList.remove('show');
-            }
-        });
-
-        backToTopBtn.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        // Hamburger Menu Toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navLinks.classList.toggle('active');
-        });
-
-        // Close menu when link is clicked
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navLinks.classList.remove('active');
-            });
-        });
-
-        // Section Navigation Scroll Spy
-        const sections = document.querySelectorAll('section[id]');
-        const navLinks_spy = document.querySelectorAll('.section-nav a');
-
-        window.addEventListener('scroll', () => {
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (window.scrollY >= sectionTop - 100) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks_spy.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href').slice(1) === current) {
-                    link.classList.add('active');
-                }
-            });
-        });
-    </script>
+    
 
     <script src="/global.js" defer>
         // Mobile dropdown toggles
