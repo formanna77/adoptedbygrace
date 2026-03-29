@@ -9,12 +9,16 @@
   Styling lives in /global.css — do NOT add inline nav CSS except
   the homepage transparency override (see index.html).
 
+  Every page MUST include these two lines before </body>:
+    <script src="/nav.js"></script>
+
   Last updated: 2026-03-29
   ============================================================
 -->
 
     <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
