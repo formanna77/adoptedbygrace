@@ -168,20 +168,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         .quiz-result .score { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); margin-bottom: 0.5rem; }
         .quiz-result .score-msg { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; }
 
-        /* Email Signup */
-        .email-signup { margin: 3rem 0; padding: 2.5rem; background: linear-gradient(135deg, rgba(212, 162, 84, 0.04), rgba(139, 92, 246, 0.04)); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 12px; text-align: center; }
-        .email-signup h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--text-primary); margin-bottom: 0.8rem; }
-        .email-signup p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; max-width: 500px; margin: 0 auto 1.5rem; }
-        .email-form { display: flex; gap: 0.8rem; max-width: 450px; margin: 0 auto 0.8rem; }
-        .email-form input { flex: 1; padding: 0.8rem 1.2rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 6px; color: var(--text-primary); font-size: 0.9rem; font-family: 'Inter', sans-serif; }
-        .email-form input::placeholder { color: var(--text-muted); }
-        .email-form button { padding: 0.8rem 1.5rem; background: var(--accent-gold); border: none; border-radius: 6px; color: var(--bg-deep); font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em; cursor: pointer; transition: all 0.3s ease; white-space: nowrap; }
-        .email-form button:hover { background: var(--accent-ember); }
-        .email-signup .signup-note { font-size: 0.75rem; color: var(--text-muted); font-style: italic; }
-        @media (max-width: 480px) {
-            .email-form { flex-direction: column; }
-            .knowledge-check { padding: 1.5rem; }
-        }
 
     </style>
             <link rel="stylesheet" href="/global.css">
@@ -488,19 +474,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </div>
 
-    <!-- Email Signup CTA -->
-    <div class="email-signup">
-        <h3>Let This Truth Burn Deeper</h3>
-        <p>Six passages. Hundreds more await. Every morning, let a devotional on God's sovereign grace meet you where you wake — to deepen your wonder, sharpen your faith, and anchor your soul in the reality of your predestined redemption.</p>
-        <form class="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-            <input type="hidden" name="form-name" value="newsletter">
-            <input type="hidden" name="bot-field" style="display:none;">
-            <input type="email" name="email" placeholder="Your email address" required>
-            <button type="submit">SUBSCRIBE</button>
-        </form>
-        <div class="signup-note">We'll never spam you. Soli Deo Gloria.</div>
-    </div>
-
     <div class="phase-nav">
         <a href="start-here-phase2.html" class="phase-nav-box prev">
             <div class="phase-nav-label">&larr; Previous: Phase 2</div>
@@ -627,34 +600,6 @@ document.querySelectorAll('.quiz-option').forEach(option => {
     });
 });
 </script>
-    <script>
-    // Newsletter signup AJAX handler
-    document.querySelector('.email-signup form').addEventListener('submit', async function(e) {
-        e.preventDefault();
-        const form = e.target;
-        const btn = form.querySelector('button');
-        const origText = btn.textContent;
-        btn.textContent = 'Sending...';
-        btn.disabled = true;
-        try {
-            const resp = await fetch('/', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(new FormData(form)).toString()
-            });
-            if (resp.ok) {
-                btn.textContent = 'Subscribed!';
-                btn.style.background = '#4ade80';
-                form.querySelector('input[type="email"]').value = '';
-                setTimeout(() => { btn.textContent = origText; btn.style.background = ''; btn.disabled = false; }, 4000);
-            } else { throw new Error('Failed'); }
-        } catch {
-            btn.textContent = 'Try Again';
-            btn.disabled = false;
-            setTimeout(() => { btn.textContent = origText; }, 3000);
-        }
-    });
-    </script>
     <script src="/global.js" defer></script>
 
     <script>

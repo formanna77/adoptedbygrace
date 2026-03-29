@@ -56,6 +56,14 @@ All resources pages were deleted 2026-03-28. Agents are BANNED from creating res
 ## EXTRACURRICULAR PAGES — ELIMINATED
 Community, connect, start-here-groups pages were deleted 2026-03-28. No study guides, podcasts, sermon libraries, or community hubs.
 
+## EMAIL NEWSLETTER / SIGNUP — ELIMINATED
+All newsletter signup forms, floating popups, email collection, and "Subscribe" CTAs were deleted 2026-03-29. We have NO email sending infrastructure (no Mailchimp, ConvertKit, SendGrid, etc.). Agents are BANNED from:
+- Creating email signup forms, popups, or modals
+- Adding "Subscribe" links or buttons anywhere
+- Adding newsletter references in footers
+- Re-adding any code to global.js or global.css for newsletter functionality
+- Collecting visitor email addresses for any mailing list purpose
+
 ## CONTENT STANDARDS
 - De-emphasize Reformed/Calvinism/TULIP labels. Lead with "Scripture teaches" not "Calvinism says."
 - No eschatology. Laser focus on God's sovereignty in salvation.
