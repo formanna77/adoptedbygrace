@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adopted By Grace exists to present the biblical case for divine election with clarity, depth, and reverence for Scripture. Soli Deo Gloria.">
-    <meta property="og:title" content="About — The Mission of Adopted By Grace">
-    <meta property="og:description" content="Adopted By Grace exists to present the biblical case for divine election with clarity, depth, and reverence for Scripture. Soli Deo Gloria.">
+    <meta name="description" content="Why does Adopted By Grace exist? For the person who just encountered God's sovereignty and needs to understand what happened. Read the story behind the site.">
+    <meta property="og:title" content="About — Why This Site Exists | Adopted By Grace">
+    <meta property="og:description" content="For the person who encountered God's sovereignty and needs to understand what happened. The story behind Adopted By Grace.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
     <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
-    <meta property="og:url" content="https://adoptedbygrace.net/about.html">
-    <link rel="canonical" href="https://adoptedbygrace.net/about.html">
+    <meta property="og:url" content="https://adoptedbygrace.net/about">
+    <link rel="canonical" href="https://adoptedbygrace.net/about">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="About — The Mission of Adopted By Grace">
-    <meta name="twitter:description" content="Adopted By Grace exists to present the biblical case for divine election with clarity, depth, and reverence for Scripture. Soli Deo Gloria.">
+    <meta name="twitter:title" content="About — Why This Site Exists | Adopted By Grace">
+    <meta name="twitter:description" content="For the person who encountered God's sovereignty and needs to understand what happened. The story behind Adopted By Grace.">
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-    <title>About – The Mission of ADOPTED BY GRACE</title>
+    <title>About – Why This Site Exists | ADOPTED BY GRACE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-        <script type="application/ld+json">
+    <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "AboutPage",
-        "headline": "About – The Mission of ADOPTED BY GRACE",
-        "description": "Adopted By Grace exists to present the biblical case for divine election with clarity, depth, and reverence for Scripture. Soli Deo Gloria.",
-        "url": "https://adoptedbygrace.net/about.html",
+        "headline": "About – Why This Site Exists | Adopted By Grace",
+        "description": "For the person who encountered God's sovereignty and needs to understand what happened. The story behind Adopted By Grace.",
+        "url": "https://adoptedbygrace.net/about",
         "publisher": {
             "@type": "Organization",
             "name": "Adopted by Grace",
@@ -33,12 +33,9 @@
         }
     }
     </script>
+    <link rel="stylesheet" href="/global.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
         :root {
             --bg-deep: #0a0a0f;
@@ -53,26 +50,26 @@
             --border-subtle: rgba(212, 162, 84, 0.12);
         }
 
+        html { scroll-behavior: smooth; }
+
         body {
-            background-color: #0a0a0f;
-            background-color: var(--bg-deep);
-            color: #f0ece4;
+            background: var(--bg-deep);
             color: var(--text-primary);
-            -webkit-text-size-adjust: 100%;
             font-family: 'Inter', sans-serif;
             line-height: 1.6;
             overflow-x: hidden;
+            -webkit-text-size-adjust: 100%;
         }
 
-        /* Hero Section */
+        /* ===== HERO ===== */
         .hero {
-            min-height: 50vh;
+            min-height: 55vh;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
-            padding: 4rem 2rem;
+            padding: 5rem 2rem 3rem;
             position: relative;
             overflow: hidden;
         }
@@ -80,139 +77,388 @@
         .hero::before {
             content: '';
             position: absolute;
-            top: -50%;
-            right: -20%;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(212, 162, 84, 0.05) 0%, transparent 70%);
+            top: -40%;
+            right: -15%;
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, rgba(212, 162, 84, 0.06) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.04) 0%, transparent 70%);
             border-radius: 50%;
             pointer-events: none;
         }
 
         .hero h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 3rem;
+            font-size: 3.2rem;
             font-weight: 800;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
             letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
+
+        .hero h1 span {
+            display: block;
+            font-size: 1.1rem;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-gold);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
         }
 
         .hero-subtitle {
-            font-size: 1.2rem;
+            font-size: 1.15rem;
             color: var(--text-secondary);
-            max-width: 700px;
-            line-height: 1.7;
-        }
-
-        /* Main Content */
-        .content {
-            max-width: 900px;
-            margin: 4rem auto;
-            padding: 0 2rem;
-        }
-
-        .content h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            margin-bottom: 2rem;
-            margin-top: 3rem;
-            color: var(--accent-gold);
-        }
-
-        .content h2:first-of-type {
-            margin-top: 0;
-        }
-
-        .content p {
-            color: var(--text-secondary);
-            margin-bottom: 1.5rem;
+            max-width: 680px;
             line-height: 1.8;
         }
 
-        /* Manifesto Items */
-        .manifesto-grid {
-            display: grid;
-            gap: 2rem;
-            margin: 2rem 0;
+        /* ===== MAIN CONTENT ===== */
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
         }
 
-        .manifesto-item {
-            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.08));
-            border: 1px solid var(--border-subtle);
-            border-left: 4px solid var(--accent-gold);
-            border-radius: 4px;
-            padding: 2rem;
+        /* ===== THE ORIGIN STORY (top prose) ===== */
+        .origin {
+            max-width: 800px;
+            margin: 3rem auto 4rem;
+            padding: 0 2rem;
         }
 
-        .manifesto-number {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 1.2rem;
+        .origin p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            line-height: 1.85;
+            margin-bottom: 1.5rem;
+        }
+
+        .origin p:last-child {
+            margin-bottom: 0;
+        }
+
+        .origin .pullquote {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--text-primary);
+            line-height: 1.6;
+            border-left: 3px solid var(--accent-gold);
+            padding: 1rem 0 1rem 1.5rem;
+            margin: 2.5rem 0;
+            font-style: italic;
+        }
+
+        .origin .pullquote cite {
+            display: block;
+            font-size: 0.85rem;
+            font-family: 'Inter', sans-serif;
+            color: var(--text-muted);
+            font-style: normal;
+            margin-top: 0.5rem;
+        }
+
+        /* ===== SECTION HEADERS ===== */
+        .section-header {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
             color: var(--accent-gold);
-            font-weight: 700;
+            margin-bottom: 1.5rem;
+            margin-top: 0;
+        }
+
+        /* ===== EXPLORE GRID ===== */
+        .explore-section {
+            max-width: 900px;
+            margin: 0 auto 4rem;
+            padding: 0 2rem;
+        }
+
+        .explore-intro {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        .explore-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.2rem;
+        }
+
+        .explore-card {
+            display: block;
+            padding: 1.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .explore-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .explore-card:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(212, 162, 84, 0.25);
+            transform: translateY(-2px);
+        }
+
+        .explore-card:hover::before {
+            opacity: 1;
+        }
+
+        .explore-card-icon {
+            font-size: 1.6rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .explore-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: var(--accent-gold);
             margin-bottom: 0.5rem;
         }
 
-        .manifesto-title {
-            font-size: 1.3rem;
-            color: var(--text-primary);
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-
-        .manifesto-text {
+        .explore-card p {
+            font-size: 0.9rem;
             color: var(--text-secondary);
-            line-height: 1.7;
-        }
-
-        /* Who This Is For */
-        .audience-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        .audience-item {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            padding: 1.5rem;
-            text-align: center;
-        }
-
-        .audience-emoji {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .audience-title {
-            font-size: 1.1rem;
-            color: var(--accent-gold);
-            margin-bottom: 0.8rem;
-            font-weight: 600;
-        }
-
-        .audience-description {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
             line-height: 1.6;
+            margin: 0;
         }
 
-        /* CTA */
-        .cta-section {
-            background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(212, 162, 84, 0.1));
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            padding: 3rem 2rem;
-            text-align: center;
-            margin-top: 4rem;
+        /* ===== COMMITMENTS ===== */
+        .commitments-section {
+            max-width: 800px;
+            margin: 0 auto 4rem;
+            padding: 0 2rem;
         }
 
-        .cta-text {
+        .commitment {
+            padding: 1.5rem 0;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .commitment:last-child {
+            border-bottom: none;
+        }
+
+        .commitment-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            color: var(--text-primary);
+            margin-bottom: 0.6rem;
+            display: flex;
+            align-items: baseline;
+            gap: 0.8rem;
+        }
+
+        .commitment-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            font-weight: 700;
+        }
+
+        .commitment p {
             color: var(--text-secondary);
-            margin-bottom: 2rem;
+            line-height: 1.7;
+            font-size: 0.95rem;
+            padding-left: 1.8rem;
+        }
+
+        /* ===== CONTACT STRIP ===== */
+        .contact-strip {
+            max-width: 800px;
+            margin: 0 auto 4rem;
+            padding: 0 2rem;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.06));
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            padding: 2.5rem 2rem;
+            text-align: center;
+        }
+
+        .contact-box p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 1.2rem;
+        }
+
+        .contact-email {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.15rem;
+            color: var(--accent-gold);
+            text-decoration: none;
+            letter-spacing: 0.02em;
+            transition: color 0.3s ease;
+        }
+
+        .contact-email:hover {
+            color: var(--accent-ember);
+        }
+
+        .contact-verse {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            font-style: italic;
+            margin-top: 1.2rem;
+            margin-bottom: 0;
+        }
+
+        /* ===== DIVIDER ===== */
+        .section-divider {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section-divider hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+            opacity: 0.3;
+            margin: 3rem 0;
+        }
+
+        /* ===== TESTIMONY ===== */
+        .testimony-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+        }
+
+        .testimony-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .testimony-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.08em;
+        }
+
+        .testimony-header .subtitle {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .testimony-body p {
+            color: var(--text-secondary);
+            font-size: 1.02rem;
+            line-height: 1.85;
+            margin-bottom: 1.5rem;
+        }
+
+        .testimony-body .scripture {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            color: var(--text-primary);
+            border-left: 3px solid var(--accent-gold);
+            padding: 0.8rem 0 0.8rem 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            line-height: 1.7;
+        }
+
+        .testimony-body .scripture cite {
+            display: block;
+            font-size: 0.8rem;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-gold);
+            font-style: normal;
+            margin-top: 0.5rem;
+        }
+
+        .testimony-body .section-break {
+            text-align: center;
+            color: var(--accent-gold);
+            font-size: 1.2rem;
+            letter-spacing: 0.5em;
+            margin: 2.5rem 0;
+        }
+
+        .testimony-closing {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .testimony-closing p {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            font-style: italic;
+            line-height: 1.7;
+        }
+
+        .testimony-closing .soli-deo {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-top: 1rem;
+            font-style: normal;
+        }
+
+        /* ===== CTA ===== */
+        .cta-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+            text-align: center;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.08), rgba(212, 162, 84, 0.08));
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            padding: 3rem 2rem;
+        }
+
+        .cta-box p {
+            color: var(--text-secondary);
             font-size: 1.1rem;
             line-height: 1.7;
+            margin-bottom: 1.5rem;
         }
 
         .cta-button {
@@ -222,17 +468,17 @@
             text-decoration: none;
             padding: 1rem 2.5rem;
             border-radius: 4px;
-            font-weight: 600;
-            transition: all 0.3s ease;
+            font-weight: 700;
             font-size: 1rem;
+            transition: all 0.3s ease;
         }
 
         .cta-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(212, 162, 84, 0.2);
+            box-shadow: 0 8px 20px rgba(212, 162, 84, 0.25);
         }
 
-        /* Footer */
+        /* ===== FOOTER ===== */
         footer {
             background: var(--bg-card);
             border-top: 1px solid var(--border-subtle);
@@ -241,7 +487,8 @@
         }
 
         .footer-container {
-            max-width: 1200px; width: 100%;
+            max-width: 1200px;
+            width: 100%;
             margin: 0 auto;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -255,9 +502,7 @@
             font-family: 'Playfair Display', serif;
         }
 
-        .footer-section ul {
-            list-style: none;
-        }
+        .footer-section ul { list-style: none; }
 
         .footer-section a {
             color: var(--text-secondary);
@@ -266,9 +511,7 @@
             transition: color 0.3s ease;
         }
 
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
+        .footer-section a:hover { color: var(--accent-gold); }
 
         .footer-copyright {
             text-align: center;
@@ -279,115 +522,78 @@
             font-size: 0.85rem;
         }
 
-        /* Responsive */
+        /* ===== RESPONSIVE ===== */
         @media (max-width: 768px) {
-
             .hero {
                 min-height: auto;
-                padding: 2rem 1.2rem;
+                padding: 3rem 1.2rem 2rem;
             }
 
-            .hero h1 {
-                font-size: 1.8rem;
-            }
+            .hero h1 { font-size: 2rem; }
+            .hero h1 span { font-size: 0.85rem; }
+            .hero-subtitle { font-size: 0.95rem; }
 
-            .hero-subtitle {
-                font-size: 0.95rem;
-            }
-
-            .content {
-                padding: 0 1.2rem;
-                margin: 2.5rem auto;
-            }
-
-            .content h2 {
-                font-size: 1.5rem;
-            }
-
-            .audience-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .manifesto-item {
-                padding: 1.2rem;
-            }
-
+            .origin, .explore-section, .commitments-section,
+            .contact-strip, .section-divider, .testimony-section,
             .cta-section {
-                padding: 2rem 1.2rem;
-                margin-top: 2.5rem;
+                padding-left: 1.2rem;
+                padding-right: 1.2rem;
             }
 
-            footer {
-                padding: 2rem 1rem;
-                margin-top: 2.5rem;
-            }
+            .origin p { font-size: 1rem; }
+            .origin .pullquote { font-size: 1.2rem; }
+
+            .explore-grid { grid-template-columns: 1fr 1fr; }
+
+            .testimony-header h2 { font-size: 1.8rem; }
+
+            footer { padding: 2rem 1rem; }
         }
 
         @media (max-width: 480px) {
             .hero {
-                min-height: auto;
-                padding: 1.5rem 1rem;
+                padding: 2rem 1rem 1.5rem;
             }
 
-            .hero h1 {
-                font-size: 1.5rem;
-            }
+            .hero h1 { font-size: 1.6rem; }
+            .hero-subtitle { font-size: 0.9rem; }
 
-            .hero-subtitle {
-                font-size: 0.9rem;
-            }
-
-            .content {
-                padding: 0 1rem;
-                margin: 2rem auto;
-            }
-
-            .content h2 {
-                font-size: 1.3rem;
-                margin-top: 2rem;
-            }
-
-            .manifesto-item {
-                padding: 1rem;
-            }
-
-            .audience-item {
-                padding: 1rem;
-            }
-
+            .origin, .explore-section, .commitments-section,
+            .contact-strip, .section-divider, .testimony-section,
             .cta-section {
-                padding: 1.5rem 1rem;
-                margin-top: 2rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
             }
 
-            footer {
-                padding: 1.5rem 1rem;
-                margin-top: 5rem;
-            }
+            .explore-grid { grid-template-columns: 1fr; }
+
+            .testimony-header h2 { font-size: 1.5rem; }
+
+            .cta-box { padding: 2rem 1rem; }
+
+            footer { padding: 1.5rem 1rem; margin-top: 5rem; }
         }
 
-/* ========== FOCUS STYLES ========== */
-*:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+        /* ===== FOCUS / A11Y ===== */
+        *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+        a:focus-visible { outline-offset: 3px; }
 
-/* ========== BACK TO TOP ========== */
-.back-to-top { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; border-radius: 50%; background: rgba(18, 18, 26, 0.9); border: 1px solid var(--border-subtle); color: var(--accent-gold); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 999; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-.back-to-top.visible { opacity: 1; visibility: visible; }
-.back-to-top:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); transform: translateY(-2px); }
-
+        /* ===== BACK TO TOP ===== */
+        .back-to-top { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; border-radius: 50%; background: rgba(18, 18, 26, 0.9); border: 1px solid var(--border-subtle); color: var(--accent-gold); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 999; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+        .back-to-top.visible { opacity: 1; visibility: visible; }
+        .back-to-top:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); transform: translateY(-2px); }
     </style>
-            <link rel="stylesheet" href="/global.css">
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
+
     <!-- Navigation -->
-                <nav role="navigation" aria-label="Main navigation">
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
-            <a href="/" class="nav-site-name">Adopted by Grace</a>
             <ul class="nav-links">
                 <li><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
@@ -436,152 +642,358 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     </div>
 
 
-    <!-- Hero Section -->
+    <!-- ===== HERO ===== -->
     <section id="main-content" class="hero">
-        <h1>The Mission</h1>
-        <p class="hero-subtitle">What ADOPTED BY GRACE is about and why this doctrine matters more than you think.</p>
+        <h1>
+            <span>Why This Site Exists</span>
+            This Was Built for You
+        </h1>
+        <p class="hero-subtitle">
+            For the man, woman, or child who encountered the living God and was left shaken — who experienced something spiritually that they couldn't yet understand intellectually. This site exists so you never have to search alone.
+        </p>
     </section>
 
-    <!-- Visual: Adoption Illustration -->
-    <div style="max-width: 800px; margin: 0 auto 1rem; padding: 0 1rem;">
-        <img src="svg/adoption-illustration.svg" alt="Adopted by Grace: From orphans to sons and daughters of the King — the beauty of spiritual adoption in Ephesians 1:5" style="width: 100%; height: auto; border-radius: 8px; border: 1px solid rgba(212,162,84,0.1);" loading="lazy">
-    </div>
 
-    <!-- Content -->
-    <div class="content">
-        <h2>Our Commitments</h2>
+    <!-- ===== THE ORIGIN ===== -->
+    <div class="origin">
         <p>
-            ADOPTED BY GRACE exists for one reason: to demonstrate that the doctrine of divine election is not a medieval curiosity or a Calvinist obsession. It is written into the very fabric of Scripture. It is what the text says when you read it carefully, word by word, in the original languages. And it matters.
+            Somewhere right now, someone is sitting in a church pew — or on the edge of their bed — reeling. God just did something to them. Not a warm feeling. Not an emotional high. Something tectonic. They felt the weight of a sovereignty so absolute that it crushed every assumption they ever had about how salvation works. And they have no idea what just happened.
         </p>
 
-        <div class="manifesto-grid">
-            <div class="manifesto-item">
-                <div class="manifesto-number">1</div>
-                <div class="manifesto-title">Go to the Original Languages</div>
-                <div class="manifesto-text">
-                    We do not guess at what the Greek and Hebrew mean. We examine the text word by word—parsing, tense, voice, and mood. Translation matters. Precision matters. Doctrine must rest on the bedrock of Scripture, not on English paraphrases or theological assumptions.
-                </div>
-            </div>
+        <p>
+            They look around their church. Nobody is talking about this. Their pastor hasn't mentioned it. Their small group leader would probably dismiss it. The Christian books on their shelf describe a God who waits politely at the door of the human heart, hoping to be let in. But what they just experienced was not a knock. It was an earthquake.
+        </p>
 
-            <div class="manifesto-item">
-                <div class="manifesto-number">2</div>
-                <div class="manifesto-title">Deploy Arguments Nobody Else Is Making</div>
-                <div class="manifesto-text">
-                    Election is not just biblical—it is logical. We build arguments from the structure of sentences, from the grammar of doxology, from the internal contradictions of competing views, from necessary inferences that follow from the text itself.
-                </div>
-            </div>
-
-            <div class="manifesto-item">
-                <div class="manifesto-number">3</div>
-                <div class="manifesto-title">Steel-Man Every Objection</div>
-                <div class="manifesto-text">
-                    We do not defeat strawmen. We address the strongest form of each objection—the version that would be hardest to answer. And then we show why the text of Scripture ultimately vindicates divine election.
-                </div>
-            </div>
-
-            <div class="manifesto-item">
-                <div class="manifesto-number">4</div>
-                <div class="manifesto-title">Follow the Text Wherever It Leads</div>
-                <div class="manifesto-text">
-                    We do not begin with a theological system and then make the Bible fit. We begin with the Bible and follow it. If it teaches election, we say so. If it teaches free will, we would say so. But it teaches election.
-                </div>
-            </div>
-
-            <div class="manifesto-item">
-                <div class="manifesto-number">5</div>
-                <div class="manifesto-title">Give God All the Glory</div>
-                <div class="manifesto-text">
-                    The doctrine of election exists to exalt God's sovereignty, grace, and power. It exists to humble human pride and to show that salvation is entirely a work of God. Soli Deo Gloria—glory to God alone.
-                </div>
-            </div>
+        <div class="pullquote">
+            "I will give you a new heart, and a new spirit I will put within you. And I will remove the heart of stone from your flesh and give you a heart of flesh."
+            <cite>Ezekiel 36:26</cite>
         </div>
 
-        <h2>Who This Is For</h2>
         <p>
-            This site is for anyone willing to let the text speak. That includes:
+            This site was built for that person. Not for theologians who already know the vocabulary. Not for pastors who studied this in seminary. For <em>you</em> — the one who just got wrecked by God and has no framework for what happened.
         </p>
 
-        <div class="audience-grid">
-            <div class="audience-item">
-                <div class="audience-emoji">🤔</div>
-                <div class="audience-title">Skeptics</div>
-                <div class="audience-description">You have questions. You think election is unbiblical or unfair. We have arguments. Let's examine the text together.</div>
-            </div>
-
-            <div class="audience-item">
-                <div class="audience-emoji">🔍</div>
-                <div class="audience-title">Seekers</div>
-                <div class="audience-description">You're exploring what the Bible actually teaches. You don't yet know where you land. We'll show you what the text says.</div>
-            </div>
-
-            <div class="audience-item">
-                <div class="audience-emoji">📖</div>
-                <div class="audience-title">Pastors</div>
-                <div class="audience-description">You preach the Bible. You need arguments that are textual, not just traditional. We provide the exegesis to back up the doctrine.</div>
-            </div>
-
-            <div class="audience-item">
-                <div class="audience-emoji">🎓</div>
-                <div class="audience-title">Students</div>
-                <div class="audience-description">You study Scripture. You need to understand the case for election at the deepest level. Here it is, text by text.</div>
-            </div>
-        </div>
-
-        <p style="margin-top: 3rem;">
-            What unites these groups is this: a willingness to follow the text wherever it leads. If you're open to that, ADOPTED BY GRACE is for you.
-        </p>
-
-        <h2 style="margin-top: 4rem;">Get in Touch</h2>
         <p>
-            Have a question about what Scripture teaches? Want to share your story of how God opened your eyes to His sovereign grace? We would love to hear from you.
+            The truth is, what you experienced has a name. It has a two-thousand-year history. It is written into the very fabric of Scripture — in the Greek, in the Hebrew, in the logic of every sentence Paul ever wrote about salvation. But most churches don't teach it. Most pastors tiptoe around it. And that is a travesty, because the doctrine of God's sovereign grace is not a fringe idea for theological hobbyists. It is the main point. It is what the Bible actually says when you read it carefully, word by word, without flinching.
         </p>
-        <div style="margin: 2rem 0; padding: 2rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; text-align: center;">
-            <p style="color: var(--text-secondary); font-size: 1rem; margin-bottom: 1rem;">Write to us directly:</p>
-            <a href="mailto:foreknownone@adoptedbygrace.net" style="font-family: 'JetBrains Mono', monospace; font-size: 1.2rem; color: var(--accent-gold); text-decoration: none; letter-spacing: 0.03em; transition: color 0.3s ease;">foreknownone@adoptedbygrace.net</a>
-            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 1rem; font-style: italic;">"Before I formed you in the womb I knew you." — Jeremiah 1:5</p>
-        </div>
-        <p style="color: var(--text-secondary);">
-            You can also reach us through our <a href="/contact" style="color: var(--accent-gold);">contact form</a>, submit a prayer request, or share a testimony of God's grace in your life.
+
+        <p>
+            Adopted By Grace exists to bridge the gap between what you experienced in your spirit and what the Scriptures teach to your mind. Every page on this site is written to do one thing: turn the lights on. In your head. In your heart. In your soul.
         </p>
     </div>
 
-    <!-- CTA -->
+
+    <!-- ===== WHAT YOU'LL FIND ===== -->
+    <div class="explore-section">
+        <h2 class="section-header">What You'll Find Here</h2>
+        <p class="explore-intro">
+            This isn't a blog. It's an arsenal. Every section is designed to answer a different kind of question — from the biblical evidence, to the psychology of resistance, to stories that make the doctrine live and breathe.
+        </p>
+
+        <div class="explore-grid">
+            <a href="/start-here" class="explore-card">
+                <div class="explore-card-icon">&#x1F9ED;</div>
+                <h3>Start Here</h3>
+                <p>New to all this? A guided path that meets you where you are and walks you through what Scripture teaches — step by step.</p>
+            </a>
+
+            <a href="/questions" class="explore-card">
+                <div class="explore-card-icon">&#x2696;</div>
+                <h3>The Evidence</h3>
+                <p>31 biblical questions answered with rigorous exegesis. Greek parsing. Original languages. The text speaks for itself.</p>
+            </a>
+
+            <a href="/demolition-hub" class="explore-card">
+                <div class="explore-card-icon">&#x1F4A5;</div>
+                <h3>Demolition</h3>
+                <p>Every verse used against God's sovereignty — dismantled. We steel-man the objection, then let the text answer it.</p>
+            </a>
+
+            <a href="/psychology-hub" class="explore-card">
+                <div class="explore-card-icon">&#x1F9E0;</div>
+                <h3>Why We Resist</h3>
+                <p>The real reason people reject these truths isn't intellectual. It's psychological and spiritual. We go deep into why.</p>
+            </a>
+
+            <a href="/devotionals" class="explore-card">
+                <div class="explore-card-icon">&#x1F525;</div>
+                <h3>Devotionals</h3>
+                <p>Theology that hits you in the chest. Short, fierce, tender — written for people who want to <em>feel</em> the doctrines, not just know them.</p>
+            </a>
+
+            <a href="/stories" class="explore-card">
+                <div class="explore-card-icon">&#x1F4D6;</div>
+                <h3>Stories</h3>
+                <p>Parables, allegories, and thought experiments that make sovereign grace unforgettable. Fiction that tells the truth.</p>
+            </a>
+
+            <a href="/systematic-theology" class="explore-card">
+                <div class="explore-card-icon">&#x1F3DB;</div>
+                <h3>Theology</h3>
+                <p>The full systematic framework — from prolegomena to soteriology. For those who want the architecture behind the truth.</p>
+            </a>
+
+            <a href="/secular-evidence" class="explore-card">
+                <div class="explore-card-icon">&#x1F52C;</div>
+                <h3>Secular Evidence</h3>
+                <p>Neuroscience, philosophy, psychology — even the secular world confirms what Scripture teaches about human inability.</p>
+            </a>
+
+            <a href="/history-timeline" class="explore-card">
+                <div class="explore-card-icon">&#x231B;</div>
+                <h3>History</h3>
+                <p>Augustine to Edwards to Spurgeon. The greatest minds in church history stood exactly where Scripture stands.</p>
+            </a>
+
+            <a href="/analogies-illustrations" class="explore-card">
+                <div class="explore-card-icon">&#x1F4A1;</div>
+                <h3>Analogies</h3>
+                <p>The dead man who can't choose to live. The slave who can't free himself. Illustrations that make the truth click.</p>
+            </a>
+
+            <a href="/best-reads" class="explore-card">
+                <div class="explore-card-icon">&#x2B50;</div>
+                <h3>Best Reads</h3>
+                <p>The most powerful pages on the site — curated. If you only have an hour, start here.</p>
+            </a>
+
+            <a href="/scripture-tsunami" class="explore-card">
+                <div class="explore-card-icon">&#x1F30A;</div>
+                <h3>Scripture Tsunami</h3>
+                <p>An overwhelming flood of Bible verses — all pointing in one direction. The sheer volume of evidence is staggering.</p>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- ===== OUR COMMITMENTS ===== -->
+    <div class="commitments-section">
+        <h2 class="section-header">How We Build Every Page</h2>
+
+        <div class="commitment">
+            <div class="commitment-title">
+                <span class="commitment-number">01</span>
+                Original Languages First
+            </div>
+            <p>We parse the Greek and Hebrew — tense, voice, mood. Doctrine rests on the bedrock of Scripture, not on English paraphrases or theological assumptions.</p>
+        </div>
+
+        <div class="commitment">
+            <div class="commitment-title">
+                <span class="commitment-number">02</span>
+                Arguments Nobody Else Is Making
+            </div>
+            <p>We build cases from the grammar of doxology, from the internal contradictions of competing views, from necessary inferences that follow from the text itself.</p>
+        </div>
+
+        <div class="commitment">
+            <div class="commitment-title">
+                <span class="commitment-number">03</span>
+                Steel-Man Every Objection
+            </div>
+            <p>We address the strongest form of each objection — the version hardest to answer. Then we show why the text ultimately vindicates God's sovereign choice.</p>
+        </div>
+
+        <div class="commitment">
+            <div class="commitment-title">
+                <span class="commitment-number">04</span>
+                Follow the Text Wherever It Leads
+            </div>
+            <p>We do not begin with a system and make the Bible fit. We begin with the Bible and follow it. If it teaches election, we say so. And it teaches election.</p>
+        </div>
+
+        <div class="commitment">
+            <div class="commitment-title">
+                <span class="commitment-number">05</span>
+                Give God All the Glory
+            </div>
+            <p>This doctrine exists to exalt God's sovereignty and humble human pride — to show that salvation is entirely His work. Soli Deo Gloria.</p>
+        </div>
+    </div>
+
+
+    <!-- ===== CONTACT ===== -->
+    <div class="contact-strip">
+        <div class="contact-box">
+            <p>
+                Have a question about what Scripture teaches? Want to share your story of how God opened your eyes to His sovereign grace? We would love to hear from you.
+            </p>
+            <a href="mailto:foreknownone@adoptedbygrace.net" class="contact-email">foreknownone@adoptedbygrace.net</a>
+            <p class="contact-verse">"Before I formed you in the womb I knew you." — Jeremiah 1:5</p>
+        </div>
+    </div>
+
+
+    <!-- ===== TESTIMONY DIVIDER ===== -->
+    <div class="section-divider">
+        <hr>
+    </div>
+
+
+    <!-- ===== TESTIMONY: RE-FORMED ===== -->
+    <div class="testimony-section">
+        <div class="testimony-header">
+            <h2>RE-FORMED</h2>
+            <div class="subtitle">A Testimony</div>
+        </div>
+
+        <div class="testimony-body">
+            <p>
+                I grew up believing I chose God. Every altar call, every revival, every worship song confirmed it: salvation was a transaction. God offered. I accepted. My faith was the deciding factor. I was the hero of my own conversion story, and I had no reason to question it — because everyone around me believed the same thing.
+            </p>
+
+            <p>
+                I loved Jesus. That was real. I served in church, I read my Bible, I prayed. But somewhere underneath all of it was an assumption I never examined: that God's plan for my salvation depended on my cooperation. That He wanted to save me, but couldn't — until I said yes. That my free will was the hinge on which eternity swung.
+            </p>
+
+            <p>
+                I didn't know there was another way to read the Bible. Nobody told me. My pastors didn't preach it. My church didn't teach it. The Christian books I read didn't mention it. And so I walked through years of faith with a God who was powerful, but not sovereign — who loved me, but whose love could be ultimately defeated by my refusal.
+            </p>
+
+            <div class="section-break">&#x2022; &#x2022; &#x2022;</div>
+
+            <p>
+                Then God broke me.
+            </p>
+
+            <p>
+                I don't have a better way to say it. There was no buildup. No seminary class. No Reformed friend who slowly argued me out of my position. God Himself showed up in a way I did not invite, did not expect, and could not have manufactured — and He revealed something about Himself that leveled every theological structure I had ever built.
+            </p>
+
+            <p>
+                I felt the weight of His sovereignty. Not as a concept. Not as a debate topic. As a <em>reality</em> so massive that it pressed the air out of my lungs. The God I encountered was not standing at the door of my heart knocking, hoping I'd let Him in. He was the God who speaks and the dead rise. The God who chose me before the foundation of the world — not because He foresaw my faith, but because He decided to set His love on me before I existed to do anything at all.
+            </p>
+
+            <div class="scripture">
+                "He chose us in Him before the foundation of the world, that we should be holy and blameless before Him. In love He predestined us for adoption to Himself as sons through Jesus Christ, according to the purpose of His will."
+                <cite>Ephesians 1:4–5</cite>
+            </div>
+
+            <p>
+                I didn't understand what had happened to me. I sat with it for days. I didn't have the vocabulary. I didn't know the word "election." I didn't know what "monergism" meant. I had never heard of the doctrines of grace. All I knew was that the God I thought I had figured out was infinitely larger, infinitely more sovereign, and infinitely more gracious than anything I had been taught.
+            </p>
+
+            <p>
+                So I did what any desperate person does. I opened my Bible. And for the first time, I read it without defending my assumptions.
+            </p>
+
+            <div class="section-break">&#x2022; &#x2022; &#x2022;</div>
+
+            <p>
+                I started in Romans. Not because someone told me to, but because I remembered Paul kept saying things I used to speed past. Things that made me uncomfortable.
+            </p>
+
+            <div class="scripture">
+                "So then it depends not on human will or exertion, but on God, who has mercy."
+                <cite>Romans 9:16</cite>
+            </div>
+
+            <p>
+                I had always been told Romans 9 was about nations, not individuals. About God's plan for Israel, not about personal salvation. So I read it again. Slowly. Word by word. And I watched that explanation collapse. Because Paul anticipates exactly that objection — "Is there injustice on God's part?" — and instead of softening, he doubles down: "I will have mercy on whom I have mercy."
+            </p>
+
+            <p>
+                Then I went to John 6.
+            </p>
+
+            <div class="scripture">
+                "No one can come to me unless the Father who sent me draws him. And I will raise him up on the last day."
+                <cite>John 6:44</cite>
+            </div>
+
+            <p>
+                "No one <em>can</em>." Not "no one will." Can. The Greek is <em>dunatai</em> — to have the ability, the power, the capacity. Jesus was not describing a preference. He was describing an inability. And then He said every single person the Father draws, He will raise up. Not some. All. The drawing is effectual. It accomplishes what it intends.
+            </p>
+
+            <p>
+                I kept going. John 10 — "You do not believe because you are not among my sheep." Not "you are not my sheep because you don't believe." The order mattered. John 15 — "You did not choose me, but I chose you." Ephesians 2 — dead in trespasses. Not sick. Not struggling. Dead. And dead men do not make decisions.
+            </p>
+
+            <div class="section-break">&#x2022; &#x2022; &#x2022;</div>
+
+            <p>
+                The more I read, the more the ground shifted. This wasn't a secondary issue. This was the main point. The entire Bible — from Genesis to Revelation — was telling one story: God saves. Not God offers and hopes. Not God makes salvation possible and then steps back. God <em>saves</em>. He chooses. He calls. He regenerates. He grants faith. He preserves. He glorifies. And not a single one of His chosen is lost along the way.
+            </p>
+
+            <div class="scripture">
+                "And those whom He predestined He also called, and those whom He called He also justified, and those whom He justified He also glorified."
+                <cite>Romans 8:30</cite>
+            </div>
+
+            <p>
+                The golden chain. No link breaks. No one falls out between predestination and glorification. Every verb is in the aorist tense — completed action. As far as God is concerned, it's already done. The outcome was never in doubt.
+            </p>
+
+            <p>
+                I remember the night it fully landed. I was sitting alone, Bible open, and the reality hit me: I didn't choose God. God chose me. The faith I thought was my contribution was itself a gift. The moment I thought I made my decision for Christ was actually the moment Christ's decision for me broke through into my experience. I was the dead man who was spoken to life. I was Lazarus in the tomb, and the Voice that called me out was not a suggestion — it was a command that carried its own power to obey.
+            </p>
+
+            <div class="section-break">&#x2022; &#x2022; &#x2022;</div>
+
+            <p>
+                Something else happened that I did not expect. When the pride of my own choosing was demolished, worship rushed in to fill the space. And it was a worship I had never known before.
+            </p>
+
+            <p>
+                When I believed I chose God, gratitude had a ceiling. I was thankful — but part of me always knew (or thought I knew) that the whole thing ultimately came down to my decision. I was the tipping point. I was the one who made the difference between heaven and hell. And somewhere in the back of my mind, that made me a little bit the hero.
+            </p>
+
+            <p>
+                But when I understood that God chose me — that He reached down into my rebellion, my blindness, my spiritual death, and made me alive when I had zero capacity to ask for it — the gratitude became bottomless. There was no floor. Because I contributed nothing. It was all grace. Every atom of it. And for the first time in my life, "Amazing Grace" wasn't a song I sang. It was the air I breathed.
+            </p>
+
+            <div class="scripture">
+                "But God, being rich in mercy, because of the great love with which He loved us, even when we were dead in our trespasses, made us alive together with Christ — by grace you have been saved."
+                <cite>Ephesians 2:4–5</cite>
+            </div>
+
+            <p>
+                The doctrine of election didn't make God cold. It made Him unimaginably kind. Because the God who chooses is the God who finishes. He doesn't start a work and abandon it. He doesn't save you on Tuesday and lose you on Thursday. He will never give up on you — because your salvation was never contingent on your grip. It was contingent on His.
+            </p>
+
+            <div class="section-break">&#x2022; &#x2022; &#x2022;</div>
+
+            <p>
+                I built this site because I wish it had existed when all of this was happening to me. I had no one to talk to. No one in my church understood. The pastors I trusted had never taught these things — not because they were bad pastors, but because they themselves had been taught a version of the gospel that puts the deciding vote in human hands. And when you grow up in that system, you don't even know there's something to question until God Himself shows you.
+            </p>
+
+            <p>
+                So this is for you. The one who felt the earthquake and doesn't know what to call it. The one who opened Romans 9 and couldn't make it fit what you were taught. The one who is terrified that these truths might be real — because if they are, everything changes.
+            </p>
+
+            <p>
+                They are real. And everything does change. But what changes is not what you fear. What changes is the size of God. He gets bigger. Your contribution gets smaller. And for the first time, the gospel becomes truly, absolutely, devastatingly good news — because it depends on Him, not you.
+            </p>
+
+            <p>
+                You were adopted before time began. Not because you were lovable. Because God is love. And His grace was set on you before you drew breath, before you sinned, before you believed, before you existed.
+            </p>
+
+            <p>
+                Adopted by grace. That's not just the name of a website. It's the story of every soul God has ever saved.
+            </p>
+
+            <div class="testimony-closing">
+                <p>"He predestined us for adoption to Himself as sons through Jesus Christ, according to the purpose of His will, to the praise of His glorious grace."</p>
+                <p class="soli-deo">Soli Deo Gloria</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ===== CTA ===== -->
     <div class="cta-section">
-        <p class="cta-text">
-            Ready to see the case for divine election built from the text of Scripture itself?
-        </p>
-        <a href="question-chosen.html" class="cta-button">Start with Ephesians 1:3-11</a>
+        <div class="cta-box">
+            <p>
+                Ready to see the evidence for yourself?
+            </p>
+            <a href="/start-here" class="cta-button">Start Your Journey</a>
+        </div>
     </div>
 
-    <!-- Cross-Reference Section -->
-    <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-        <div style="max-width: 900px; margin: 0 auto;">
-            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                <a href="/start-here" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Start Here</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A guided path to understanding God's sovereignty in salvation.</p>
-                </a>
-                <a href="/questions" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Evidence</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Explore biblical answers to your deepest questions.</p>
-                </a>
-                
-                
-                <a href="/contact" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Connect</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Reach out and share your story or ask questions.</p>
-                </a>
-                <a href="/donate" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Support This Ministry</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Help us reach more people with the gospel of sovereignty.</p>
-                </a>
-            </div>
-        </div>
-    </section>
 
-    <!-- Footer -->
-            <footer>
+    <!-- ===== FOOTER ===== -->
+    <footer>
         <div class="footer-container">
             <div class="footer-section">
                 <h4>Doctrine</h4>
@@ -595,7 +1007,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             <div class="footer-section">
                 <h4>Explore</h4>
                 <ul>
-                    <li><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
                     <li><a href="/devotionals">Devotionals</a></li>
                     <li><a href="/questions">The Evidence</a></li>
                 </ul>
@@ -615,159 +1028,11 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </footer>
 
+    <button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#x2191;</button>
     <script>
-        // Set active nav link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            if (link.href === window.location.href) {
-                link.classList.add('active');
-            }
-        });
+    (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
     </script>
-<button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-<script>
-(function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
-</script>
-    <script src="/global.js" defer></script>
-
-    <script>
-    // ===== SITE SEARCH =====
-    const searchPages = [
-        { title: "The Evidence — 31 Questions", url: "/questions", cat: "Doctrine", desc: "Every question about God's sovereign choice, answered from Scripture" },
-        { title: "Start Here — Your Journey", url: "/start-here", cat: "Journey", desc: "Begin discovering what Scripture teaches about salvation" },
-        { title: "Verse-by-Verse Demolition", url: "/demolition-hub", cat: "Apologetics", desc: "Every Arminian proof text dismantled with devastating exegetical precision" },
-        { title: "Scripture Tsunami", url: "/scripture-tsunami", cat: "Doctrine", desc: "An overwhelming flood of biblical evidence for sovereign grace" },
-        { title: "The Unbreakable Thread", url: "/connections", cat: "Doctrine", desc: "God's sovereignty woven through every page of Scripture" },
-        { title: "The Last Idol — Why We Resist Grace", url: "/resistance-last-idol", cat: "Psychology", desc: "The highest-rated page on the site — why autonomy is the last idol" },
-        { title: "Why We Resist Sovereign Grace", url: "/psychology-why-we-resist", cat: "Psychology", desc: "Deep analysis of why even believers refuse to accept God's sovereignty" },
-        { title: "The Autonomy Illusion", url: "/psychology-autonomy-illusion", cat: "Psychology", desc: "The psychological roots of our resistance to divine sovereignty" },
-        { title: "He Will Never Give Up On You", url: "/devotional-never-gives-up", cat: "Devotional", desc: "No matter how far you fall, the Father and Son will never let go" },
-        { title: "Adoption Papers", url: "/devotional-adoption-papers", cat: "Devotional", desc: "Your adoption was sealed before the foundation of the world" },
-        { title: "The Dead Who Live", url: "/devotional-dead-who-live", cat: "Devotional", desc: "We were corpses — and God spoke life" },
-        { title: "Forever Loved", url: "/devotional-forever-loved", cat: "Devotional", desc: "A love that was set on you before time began" },
-        { title: "My Chains Fell Away", url: "/devotional-my-chains-fell-away", cat: "Devotional", desc: "The moment grace broke every chain" },
-        { title: "The Good I Cannot Do", url: "/devotional-good-i-cannot-do", cat: "Devotional", desc: "Romans 7 — the war inside every believer" },
-        { title: "Love Before the World", url: "/devotional-love-before-the-world", cat: "Devotional", desc: "God loved you before He made the stars" },
-        { title: "In Christ", url: "/devotional-in-christ", cat: "Devotional", desc: "What it means to be hidden in Christ" },
-        { title: "Not My Will, But Joy", url: "/devotional-not-my-will-but-joy", cat: "Devotional", desc: "Surrendering your will and finding joy" },
-        { title: "Rescued Without a Say", url: "/devotional-rescued-without-a-say", cat: "Devotional", desc: "Salvation happened TO you, not BY you" },
-        { title: "When God Says No", url: "/devotional-when-god-says-no", cat: "Devotional", desc: "The sovereignty behind every closed door" },
-        { title: "Letter to the Cold Church", url: "/devotional-cold-church", cat: "Devotional", desc: "A warning to the lukewarm — Revelation 3 brought to life" },
-        { title: "Glory of Divine Choice", url: "/devotional-glory-of-divine-choice", cat: "Devotional", desc: "The beauty and glory of God choosing you" },
-        { title: "Weakness of God's Strength", url: "/devotional-weakness-of-gods-strength", cat: "Devotional", desc: "God's power made perfect in weakness" },
-        { title: "The Dead City", url: "/story-the-dead-city", cat: "Story", desc: "A city of grey corpses — until the Voice speaks" },
-        { title: "The Fish Who Chose the Ocean", url: "/story-the-fish-who-chose-the-ocean", cat: "Story", desc: "Did the fish choose the water, or was it born in it?" },
-        { title: "The King's Banquet", url: "/story-the-kings-banquet", cat: "Story", desc: "A parable of election — the King invites who He will" },
-        { title: "The Orphanage", url: "/story-the-orphanage", cat: "Story", desc: "Adopted — not because you earned it" },
-        { title: "The Surgeon's Stone Heart", url: "/story-surgeon-stone-heart", cat: "Story", desc: "Only the Surgeon can replace a heart of stone" },
-        { title: "Systematic Theology", url: "/systematic-theology", cat: "Doctrine", desc: "The full theological framework of Reformed soteriology" },
-        { title: "Soteriology — Doctrine of Salvation", url: "/systematic-soteriology", cat: "Doctrine", desc: "How God saves — from election to glorification" },
-        { title: "Divine Election", url: "/systematic-election", cat: "Doctrine", desc: "God's unconditional choice before the foundation of the world" },
-        { title: "The Ordo Salutis", url: "/systematic-ordo-salutis", cat: "Doctrine", desc: "The order of salvation — regeneration precedes faith" },
-        { title: "Regeneration", url: "/systematic-regeneration", cat: "Doctrine", desc: "Born again — by God's will, not yours" },
-        { title: "Definite Atonement", url: "/apologetic-definite-atonement", cat: "Doctrine", desc: "Christ died for the elect — and accomplished what He intended" },
-        { title: "The Golden Chain — Romans 8", url: "/question-goldchain", cat: "Doctrine", desc: "Foreknown, predestined, called, justified, glorified — no link breaks" },
-        { title: "Total Depravity", url: "/question-depravity", cat: "The Evidence", desc: "Dead in sin, not merely sick — humanity's true condition" },
-        { title: "Unconditional Election", url: "/question-chosen", cat: "The Evidence", desc: "God chose you — not based on anything He saw in you" },
-        { title: "Irresistible Grace", url: "/question-irresistible", cat: "The Evidence", desc: "When God calls effectually, no one resists" },
-        { title: "Perseverance of the Saints", url: "/question-perseverance", cat: "The Evidence", desc: "Those God saves, He keeps — every last one" },
-        { title: "Is Faith a Gift?", url: "/question-faithgift", cat: "The Evidence", desc: "Even the faith to believe is given by God" },
-        { title: "Free Will vs. Sovereign Choice", url: "/question-freewill", cat: "The Evidence", desc: "Can the dead choose to live?" },
-        { title: "Foreknowledge ≠ Foresight", url: "/question-foreknowledge", cat: "The Evidence", desc: "God didn't look ahead — He decided ahead" },
-        { title: "Is Predestination Unfair?", url: "/question-unfair", cat: "The Evidence", desc: "The fairness objection answered from Romans 9" },
-        { title: "What About 'Whosoever Will'?", url: "/question-whosoever", cat: "The Evidence", desc: "Every 'whosoever' passage proves election, not disproves it" },
-        { title: "Does God Want All Saved?", url: "/question-godwants", cat: "The Evidence", desc: "1 Timothy 2:4 — what 'all' actually means" },
-        { title: "Romans 9 — The Mountain", url: "/question-romans9", cat: "The Evidence", desc: "The most direct chapter on election in all of Scripture" },
-        { title: "John 6 — Drawing and Coming", url: "/question-john6", cat: "The Evidence", desc: "All the Father gives me WILL come — none lost" },
-        { title: "John 10 — My Sheep Hear", url: "/question-john10", cat: "The Evidence", desc: "You don't believe because you're not my sheep" },
-        { title: "John 15 — Abiding in Christ", url: "/question-john15", cat: "The Evidence", desc: "You did not choose me — I chose you" },
-        { title: "John 17 — The High Priestly Prayer", url: "/question-john17", cat: "The Evidence", desc: "Jesus prays for those given to Him — not for the world" },
-        { title: "Calvinism vs Arminianism", url: "/compare-calvinism-arminianism", cat: "Comparisons", desc: "The core comparison — two views of how salvation works" },
-        { title: "Monergism vs Synergism", url: "/compare-monergism-synergism", cat: "Comparisons", desc: "God alone vs. God plus you" },
-        { title: "Calvinism vs Molinism", url: "/compare-calvinism-molinism", cat: "Comparisons", desc: "Middle knowledge — a sophisticated attempt to save free will" },
-        { title: "Calvinism vs Open Theism", url: "/compare-calvinism-open-theism", cat: "Comparisons", desc: "Does God know the future or not?" },
-        { title: "John 3:16 — Demolition", url: "/demolition-john3-16", cat: "Demolition", desc: "'World' doesn't mean what you think it means" },
-        { title: "2 Peter 3:9 — Demolition", url: "/demolition-2peter3-9", cat: "Demolition", desc: "'Not wishing any to perish' — any of WHOM?" },
-        { title: "1 Timothy 2:4 — Demolition", url: "/demolition-1tim2-4", cat: "Demolition", desc: "God desires all men — what 'all' means in context" },
-        { title: "Acts 7:51 — Demolition", url: "/demolition-acts7-51", cat: "Demolition", desc: "Resisting the Spirit — does this disprove irresistible grace?" },
-        { title: "Matthew 23:37 — Demolition", url: "/demolition-matt23-37", cat: "Demolition", desc: "Jesus weeping over Jerusalem — sovereign grief" },
-        { title: "Revelation 3:20 — Demolition", url: "/demolition-rev3-20", cat: "Demolition", desc: "Behold I stand at the door — written to a CHURCH, not sinners" },
-        { title: "Hebrews 6:4-6 — Demolition", url: "/demolition-hebrews6-4-6", cat: "Demolition", desc: "Can you lose your salvation? Hebrews says no." },
-        { title: "FACTS Framework Dismantled", url: "/demolition-arminian-facts", cat: "Demolition", desc: "The Arminian FACTS system taken apart piece by piece" },
-        { title: "Neuroscience & Human Inability", url: "/secular-neuroscience-human-inability", cat: "Secular Evidence", desc: "Your brain makes decisions before you're conscious of them" },
-        { title: "Philosophy & Free Will", url: "/secular-philosophy-free-will", cat: "Secular Evidence", desc: "Even secular philosophers know free will is an illusion" },
-        { title: "Psychology & the Bondage of Will", url: "/secular-psychology-bondage-of-will", cat: "Secular Evidence", desc: "Addiction science confirms what Luther wrote 500 years ago" },
-        { title: "Economics & Depravity", url: "/secular-economics-depravity", cat: "Secular Evidence", desc: "Markets prove total depravity every single day" },
-        { title: "Algorithms & Sovereignty", url: "/secular-algorithm-sovereignty", cat: "Secular Evidence", desc: "Every algorithm is a tiny picture of divine sovereignty" },
-        { title: "Church History Timeline", url: "/history-timeline", cat: "History", desc: "2000 years of God preserving Reformed truth" },
-        { title: "2,000 Years of Grace", url: "/history-golden-thread", cat: "History", desc: "The golden thread of sovereign grace through church history" },
-        { title: "Cloud of Witnesses", url: "/theologians", cat: "History", desc: "The great theologians who championed sovereign grace" },
-        { title: "Augustine vs Pelagius", url: "/history-augustine-pelagius", cat: "History", desc: "The original debate — grace vs. human ability" },
-        { title: "The Great Awakening", url: "/history-great-awakening", cat: "History", desc: "Revival born from Reformed preaching" },
-        { title: "OT Election", url: "/ot-election", cat: "Old Testament", desc: "God's sovereign choice running through the entire Old Testament" },
-        { title: "Jacob & Esau", url: "/ot-jacob-esau", cat: "Old Testament", desc: "Before they were born — the paradigm of election" },
-        { title: "Moses & Pharaoh", url: "/ot-moses-pharaoh", cat: "Old Testament", desc: "I will have mercy on whom I will have mercy" },
-        { title: "Election & Assurance", url: "/pastoral-assurance", cat: "Pastoral", desc: "How election gives you the deepest possible assurance" },
-        { title: "Evangelism & Sovereignty", url: "/pastoral-evangelism", cat: "Pastoral", desc: "Sovereignty doesn't kill evangelism — it fuels it" },
-        { title: "Suffering & Sovereignty", url: "/pastoral-suffering", cat: "Pastoral", desc: "Your suffering has purpose because God is sovereign over all" },
-        { title: "Is God the Author of Sin?", url: "/objection-author-of-sin", cat: "Objections", desc: "The most common objection to sovereignty — answered" },
-        { title: "Human Responsibility", url: "/objection-responsibility", cat: "Objections", desc: "How can God hold us responsible? Romans 9 answers." },
-        { title: "Belief Self-Assessment", url: "/belief-assessment", cat: "Tools", desc: "Where do you stand on God's sovereignty?" },
-        { title: "Reformed Theology Quiz", url: "/quiz", cat: "Tools", desc: "Test your knowledge of what Scripture teaches" },
-        { title: "Analogies & Illustrations", url: "/analogies-illustrations", cat: "Explore", desc: "Complex theology made simple through powerful analogies" },
-        { title: "The Doctor & the Corpse", url: "/analogy-doctor-corpse", cat: "Analogy", desc: "Can a doctor negotiate with a dead man?" },
-        { title: "The Chess Grandmaster", url: "/analogy-chess-grandmaster", cat: "Analogy", desc: "God sovereignly orchestrates every move" },
-        { title: "Creeds & Confessions", url: "/creeds-confessions", cat: "History", desc: "The historic confessions that codified Reformed truth" },
-        { title: "The Truth Will Set You Free", url: "/freedom", cat: "Explore", desc: "Freedom isn't what you think — it's better" },
-        { title: "Essays", url: "/essays", cat: "Explore", desc: "Downloadable in-depth theological essays" },
-        { title: "About the Mission", url: "/about", cat: "About", desc: "Why this site exists and what drives it" },
-        { title: "Contact Us", url: "/contact", cat: "About", desc: "Get in touch with Adopted by Grace" },
-    ];
-
-    const searchToggle = document.getElementById('searchToggle');
-    const searchOverlay = document.getElementById('searchOverlay');
-    const searchInput = document.getElementById('searchInput');
-    const searchClose = document.getElementById('searchClose');
-    const searchResults = document.getElementById('searchResults');
-
-    function openSearch() {
-        searchOverlay.classList.add('open');
-        setTimeout(() => searchInput.focus(), 100);
-    }
-    function closeSearch() {
-        searchOverlay.classList.remove('open');
-        searchInput.value = '';
-        searchResults.innerHTML = '';
-    }
-
-    if (searchToggle) searchToggle.addEventListener('click', openSearch);
-    if (searchClose) searchClose.addEventListener('click', closeSearch);
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && searchOverlay && searchOverlay.classList.contains('open')) closeSearch();
-        if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
-    });
-
-    if (searchInput) searchInput.addEventListener('input', () => {
-        const q = searchInput.value.trim().toLowerCase();
-        if (q.length < 2) { searchResults.innerHTML = ''; return; }
-        const matches = searchPages.filter(p =>
-            p.title.toLowerCase().includes(q) ||
-            p.desc.toLowerCase().includes(q) ||
-            p.cat.toLowerCase().includes(q)
-        ).slice(0, 12);
-        if (matches.length === 0) {
-            searchResults.innerHTML = '<div class="search-no-results">No pages found. Try different keywords.</div>';
-            return;
-        }
-        searchResults.innerHTML = matches.map(p => `
-            <a href="${p.url}" class="search-result-item">
-                <div class="search-result-category">${p.cat}</div>
-                <div class="search-result-title">${p.title}</div>
-                <div class="search-result-snippet">${p.desc}</div>
-            </a>
-        `).join('');
-    });
-    </script>
-
     <script src="/nav.js"></script>
+    <script src="/global.js" defer></script>
 </body>
 </html>
