@@ -132,9 +132,10 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
 
 /* ===== MOBILE MODE (≤968px) — Premium full-screen nav ===== */
 @media (max-width: 968px) {
-    /* Top bar: site name left, hamburger right */
+    /* Top bar: hamburger left, site name centered */
     .hamburger { display: block; }
-    .nav-container { justify-content: space-between; }
+    .nav-container { justify-content: center; position: relative; }
+    .hamburger { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); }
     .nav-site-name { display: block; }
     .nav-right { display: none !important; }
 
