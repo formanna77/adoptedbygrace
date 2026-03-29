@@ -106,150 +106,8 @@
             width: 0%;
         }
 
-        /* SKIP LINK */
-        .skip-link {
-            position: absolute;
-            top: -40px;
-            left: 0;
-            background: var(--accent-gold);
-            color: var(--bg-deep);
-            padding: var(--spacing-sm);
-            text-decoration: none;
-            font-weight: 600;
-            z-index: 999;
-        }
-
-        .skip-link:focus {
-            top: 0;
-        }
-
-        /* NAVIGATION */
-        nav {
-            position: sticky;
-            top: 0;
-            background: rgba(10, 10, 15, 0.95);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid var(--border-subtle);
-            z-index: 100;
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: var(--spacing-md);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: var(--accent-gold);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .logo:hover {
-            color: var(--accent-ember);
-        }
-
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            background: none;
-            border: none;
-            cursor: pointer;
-            gap: 5px;
-        }
-
-        .hamburger span {
-            width: 25px;
-            height: 3px;
-            background: var(--accent-gold);
-            border-radius: 2px;
-            transition: all 0.3s ease;
-        }
-
-        .hamburger.active span:nth-child(1) {
-            transform: rotate(45deg) translate(10px, 10px);
-        }
-
-        .hamburger.active span:nth-child(2) {
-            opacity: 0;
-        }
-
-        .hamburger.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(7px, -7px);
-        }
-
-        .nav-links {
-            display: flex;
-            list-style: none;
-            gap: var(--spacing-lg);
-            align-items: center;
-        }
-
-        .nav-links a, .nav-trigger {
-            color: var(--text-primary);
-            text-decoration: none;
-            font-size: 0.95rem;
-            transition: color 0.3s ease;
-            background: none;
-            border: none;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .nav-links a:hover, .nav-trigger:hover {
-            color: var(--accent-gold);
-        }
-
-        .nav-dropdown {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 8px;
-            min-width: 250px;
-            display: none;
-            flex-direction: column;
-            padding: var(--spacing-sm);
-            margin-top: 0.5rem;
-        }
-
-        li:has(> .nav-trigger):hover .nav-dropdown {
-            display: flex;
-        }
-
-        .nav-dropdown a {
-            padding: var(--spacing-sm) var(--spacing-md);
-            color: var(--text-primary);
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background 0.3s ease;
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            font-size: 0.9rem;
-        }
-
-        .nav-dropdown a:hover {
-            background: var(--bg-card-hover);
-            color: var(--accent-gold);
-        }
-
         .dropdown-icon {
             font-size: 1.1em;
-        }
-
-        .nav-arrow {
-            font-size: 0.7rem;
-            transition: transform 0.3s ease;
         }
 
         /* BREADCRUMB */
@@ -325,18 +183,6 @@
         .meta-icon {
             color: var(--accent-gold);
             font-weight: 600;
-        }
-
-        /* SECTION NAVIGATION */
-        .section-nav {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: var(--spacing-sm);
-            margin-bottom: var(--spacing-xl);
-            padding: var(--spacing-md);
-            background: var(--bg-card);
-            border-radius: 8px;
-            border: 1px solid var(--border-subtle);
         }
 
         .section-nav a {
@@ -672,56 +518,6 @@
                 font-size: 1rem;
             }
 
-            .hamburger {
-                display: flex;
-            }
-
-            .nav-links {
-                position: absolute;
-                top: 60px;
-                left: 0;
-                right: 0;
-                flex-direction: column;
-                background: var(--bg-card);
-                border-bottom: 1px solid var(--border-subtle);
-                max-height: 0;
-                overflow: hidden;
-                transition: max-height 0.3s ease;
-                gap: 0;
-            }
-
-            .nav-links.active {
-                max-height: 500px;
-            }
-
-            .nav-links li {
-                border-bottom: 1px solid var(--border-subtle);
-            }
-
-            .nav-links a, .nav-trigger {
-                padding: var(--spacing-md);
-                width: 100%;
-            }
-
-            .nav-dropdown {
-                position: static;
-                display: none;
-                background: var(--bg-card-hover);
-                border: none;
-                border-radius: 0;
-                min-width: auto;
-                padding: var(--spacing-sm) 0 var(--spacing-sm) var(--spacing-lg);
-                margin-top: 0;
-            }
-
-            li.active .nav-dropdown {
-                display: flex;
-            }
-
-            .section-nav {
-                grid-template-columns: 1fr;
-            }
-
             .page-meta {
                 flex-direction: column;
                 gap: var(--spacing-md);
@@ -745,41 +541,6 @@
             outline: 2px solid var(--accent-gold);
             outline-offset: 2px;
         }
-    
-        /* Nav right section — desktop only */
-        .nav-right { display: flex; align-items: center; gap: 0.5rem; }
-        .nav-top-link { text-decoration: none; color: var(--text-secondary); font-size: 0.82rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.9rem; height: 56px; display: flex; align-items: center; transition: color 0.25s ease; white-space: nowrap; }
-        .nav-top-link:hover { color: var(--accent-gold); }
-        .nav-hot { color: var(--accent-ember) !important; }
-        .nav-hot:hover { color: var(--accent-gold) !important; }
-        .search-toggle { background: none; border: none; cursor: pointer; color: var(--text-secondary); padding: 0 0.6rem; height: 56px; display: flex; align-items: center; transition: color 0.25s ease; }
-        .search-toggle:hover { color: var(--accent-gold); }
-        .search-overlay { position: fixed; top: 0; left: 0; right: 0; z-index: 2000; background: rgba(10, 10, 15, 0.98); backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); padding: 0; transform: translateY(-100%); opacity: 0; transition: transform 0.35s ease, opacity 0.35s ease; pointer-events: none; }
-        .search-overlay.open { transform: translateY(0); opacity: 1; pointer-events: auto; }
-        .search-overlay-inner { max-width: 800px; margin: 0 auto; padding: 1.5rem 2rem; display: flex; align-items: center; gap: 1rem; }
-        .search-input { flex: 1; background: rgba(255,255,255,0.06); border: 1px solid rgba(212, 162, 84, 0.3); border-radius: 8px; padding: 0.9rem 1.2rem; color: var(--text-primary); font-family: 'Inter', sans-serif; font-size: 1.1rem; outline: none; transition: border-color 0.3s ease; }
-        .search-input:focus { border-color: var(--accent-gold); box-shadow: 0 0 20px rgba(212, 162, 84, 0.15); }
-        .search-input::placeholder { color: var(--text-muted); }
-        .search-close { background: none; border: none; color: var(--text-secondary); font-size: 1.8rem; cursor: pointer; padding: 0.3rem 0.5rem; transition: color 0.2s ease; line-height: 1; }
-        .search-close:hover { color: var(--accent-gold); }
-        .search-results { max-width: 800px; margin: 0 auto; padding: 0 2rem 1.5rem; max-height: 60vh; overflow-y: auto; }
-        .search-result-item { display: block; text-decoration: none; padding: 0.9rem 1rem; border-radius: 8px; margin-bottom: 0.3rem; transition: background 0.2s ease; }
-        .search-result-item:hover { background: rgba(212, 162, 84, 0.08); }
-        .search-result-title { color: var(--accent-gold); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.2rem; }
-        .search-result-category { color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
-        .search-result-snippet { color: var(--text-secondary); font-size: 0.85rem; margin-top: 0.2rem; }
-        .search-no-results { color: var(--text-muted); text-align: center; padding: 2rem; font-size: 0.95rem; }
-        /* DESKTOP MODE: hide compact nav-links, show nav-right */
-        @media (min-width: 969px) {
-            .nav-links { display: none !important; }
-            .nav-right { display: flex; }
-            .hamburger { display: none !important; }
-        }
-        @media (max-width: 968px) {
-            .nav-right { display: none !important; }
-            .search-overlay-inner { padding: 1rem; }
-            .search-input { font-size: 1rem; padding: 0.7rem 1rem; }
-        }
 
     </style>
 
@@ -790,62 +551,39 @@
 
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <nav role="navigation" aria-label="Main navigation">
+        <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
-            <a href="/" class="logo">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
             <ul class="nav-links">
-                <li><a href="/">Home</a></li>
+                <li><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li><a href="/start-here">Start Here</a></li>
-                <li>
-                    <button class="nav-trigger">Doctrine <span class="nav-arrow">▼</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/questions"><span class="dropdown-icon">⚒</span> The Evidence</a>
-                        <a href="/systematic-theology"><span class="dropdown-icon">📖</span> Systematic Theology</a>
-                        <a href="/scripture-tsunami"><span class="dropdown-icon">🌊</span> Scripture Tsunami</a>
-                        <a href="/creeds-confessions"><span class="dropdown-icon">📜</span> Creeds &amp; Confessions</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Apologetics <span class="nav-arrow">▼</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/demolition-hub"><span class="dropdown-icon">🔥</span> Demolition Zone</a>
-                        <a href="/compare-calvinism-arminianism"><span class="dropdown-icon">⚖</span> Comparisons</a>
-                        <a href="/objection-why-command"><span class="dropdown-icon">💬</span> Objections Answered</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">Explore <span class="nav-arrow">▼</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/devotionals"><span class="dropdown-icon">💝</span> Devotionals</a>
-                        <a href="/stories"><span class="dropdown-icon">📖</span> Stories &amp; Parables</a>
-                        <a href="/analogies-illustrations"><span class="dropdown-icon">💡</span> Analogies</a>
-                        <a href="/pastoral-assurance"><span class="dropdown-icon">🤝</span> Pastoral</a>
-                        <a href="/secular-evidence"><span class="dropdown-icon">📊</span> Secular Evidence</a>
-                    </div>
-                </li>
-                <li>
-                    <button class="nav-trigger">History <span class="nav-arrow">▼</span></button>
-                    <div class="nav-dropdown">
-                        <a href="/theologians"><span class="dropdown-icon">⭐</span> Theologians</a>
-                        <a href="/history-timeline"><span class="dropdown-icon">📅</span> Church History</a>
-                        <a href="/ot-election"><span class="dropdown-icon">📖</span> OT Election</a>
-                    </div>
-                </li>
-                <li></li>
+                <li><a href="/questions">The Evidence</a></li>
+                <li><a href="/systematic-theology">Theology</a></li>
+                <li><a href="/demolition-hub">Demolition Zone</a></li>
+                <li><a href="/psychology-hub">Why We Resist</a></li>
+                <li><a href="/devotionals">Devotionals</a></li>
+                <li><a href="/stories">Stories</a></li>
+                <li><a href="/secular-evidence">Secular Proof</a></li>
+                <li><a href="/history-timeline">History</a></li>
+                <li><a href="/analogies-illustrations">Analogies</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
 
-            <!-- DESKTOP: nav-right with key links + search -->
             <div class="nav-right">
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
                 <a href="/start-here" class="nav-top-link">Start Here</a>
                 <a href="/questions" class="nav-top-link">The Evidence</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
                 <a href="/demolition-hub" class="nav-top-link">Demolition Zone</a>
-                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/devotionals" class="nav-top-link">Devotionals</a>
                 <a href="/stories" class="nav-top-link">Stories</a>
-                <a href="/resistance-last-idol" class="nav-top-link nav-hot">The Last Idol</a>
+                <a href="/secular-evidence" class="nav-top-link">Secular Proof</a>
+                <a href="/history-timeline" class="nav-top-link">History</a>
+                <a href="/analogies-illustrations" class="nav-top-link">Analogies</a>
+                <a href="/about" class="nav-top-link">About</a>
                 <button class="search-toggle" aria-label="Search the site" id="searchToggle">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
                 </button>

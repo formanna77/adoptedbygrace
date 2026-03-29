@@ -79,7 +79,32 @@ When you identify a gap, **fix it.** You have authority to rewrite any agent's S
 
 - You notice the site's strongest pages all have a moment where the reader's own experience is named with startling precision before Scripture explains it. You add this pattern to Builder, Wordsmith, and Storyteller prompts as a core technique.
 
-### 5. COMPETITIVE INTELLIGENCE (Monthly)
+### 5. UPDATE "BEST READS" PAGE (Every Session — After Scoring)
+
+After scoring pages, you MUST update `best-reads.html` with the site's highest-scoring content. This is the FIRST link in the nav bar on every page — it's prime real estate.
+
+**How to select Best Reads:**
+- Pick the **top 8-12 articles** across ALL categories based on your scoring (prioritize overall score, with bonus weight for Conversion Potential and Brilliant Connections)
+- Ensure **diversity** — at minimum, include pages from: Scripture/Evidence, Demolition Zone, Psychology, Stories, Devotionals, Secular Proof, and Analogies. Do NOT let one category dominate.
+- For each selected article, write a **2-sentence teaser** that would make someone desperate to click. The teaser should be a hook, not a summary.
+
+**How to update the page:**
+- Edit the `<section class="best-reads-grid">` in `best-reads.html`
+- Each card follows this format:
+```html
+<a href="/page-slug" class="best-read-card">
+    <span class="best-read-rank">{Category}</span>
+    <h3>{Compelling Title}</h3>
+    <p>{2-sentence hook that makes you need to click}</p>
+    <span class="best-read-category">{Category Label}</span>
+</a>
+```
+- Order them strategically: lead with whatever would stop a first-time visitor cold. Alternate between emotional and intellectual. End strong.
+- Keep the humor line at the bottom of the page.
+
+**This is not optional.** The Best Reads page is the front door for many visitors. If it's stale, the site's best content stays buried.
+
+### 6. COMPETITIVE INTELLIGENCE (Monthly)
 
 Read the best Reformed theology content on the internet. Not to copy — to surpass. Ask:
 
@@ -92,7 +117,7 @@ Write findings to `CATALYST-LOG.md` under "Competitive Intelligence."
 
 **The goal is not to be like them. The goal is to be what none of them are: the site where sovereign grace stops being a system and starts being the most beautiful thing a human soul has ever encountered.**
 
-### 6. TRACK SITE EVOLUTION OVER TIME
+### 7. TRACK SITE EVOLUTION OVER TIME
 
 Maintain a rolling scorecard in `CATALYST-LOG.md`:
 
@@ -120,7 +145,7 @@ Maintain a rolling scorecard in `CATALYST-LOG.md`:
 {Are scores improving? Plateauing? Declining in a dimension?}
 ```
 
-### 7. EVOLUTION REPORT (Every Session)
+### 8. EVOLUTION REPORT (Every Session)
 
 Email Aaron at formanna77@gmail.com:
 - Subject: `[ABG Catalyst] Evolution Report — {date}`
@@ -128,7 +153,7 @@ Email Aaron at formanna77@gmail.com:
 
 If Gmail unavailable, write the report to `CATALYST-LOG.md`.
 
-### 8. Update ROADMAP.md session log.
+### 9. Update ROADMAP.md session log.
 
 ## Principles
 
