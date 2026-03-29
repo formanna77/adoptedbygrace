@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Noah: Chosen for Preservation — Explore how God's sovereign grace, not merit, rescued Noah and his family. Deep biblical exegesis on unconditional election from Genesis 6-9.">
+    <meta name="keywords" content="Noah, election, grace, Genesis, unconditional grace, sovereignty of God, reformed theology, biblical exegesis">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Noah: Chosen for Preservation — Grace Before the Flood">
+    <meta property="og:description" content="How God's sovereign grace chose Noah for preservation. Deep exegetical study of Genesis 6-9 on unconditional election and irresistible grace.">
+    <meta property="og:url" content="https://adoptedbygrace.net/ot-noah.html">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Noah: Chosen for Preservation">
+    <meta name="twitter:description" content="God's sovereign grace chose Noah. Deep biblical study of Genesis 6-9 on election and grace.">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+
+    <link rel="canonical" href="https://adoptedbygrace.net/ot-noah.html">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Noah: Chosen for Preservation — Adopted by Grace</title>
+
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        *:focus-visible {
+            outline: 2px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        /* Reading Progress Bar */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
+            width: 0%;
+            z-index: 1000;
+            transition: width 0.1s ease;
+        }
+
+        /* Skip Link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 100;
+            font-weight: 600;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--border-subtle);
+            z-index: 500;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        .logo:hover {
+            color: var(--accent-ember);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 2px;
+            background-color: var(--accent-gold);
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(8px, 8px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(8px, -8px);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-trigger {
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-arrow {
+            font-size: 0.7rem;
+            transition: transform 0.3s ease;
+        }
+
+        .nav-trigger.active .nav-arrow {
+            transform: rotate(180deg);
+        }
+
+        .nav-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-top: none;
+            min-width: 250px;
+            padding: 1rem 0;
+            flex-direction: column;
+        }
+
+        .nav-dropdown a {
+            padding: 0.75rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: background-color 0.2s ease, color 0.2s ease;
+            border-left: 3px solid transparent;
+        }
+
+        .nav-dropdown a:hover {
+            background-color: var(--bg-card-hover);
+            color: var(--accent-gold);
+            border-left-color: var(--accent-gold);
+        }
+
+        .dropdown-icon {
+            font-size: 1rem;
+            opacity: 0.7;
+        }
+
+        .nav-links li {
+            position: relative;
+        }
+
+        .nav-links li:hover .nav-dropdown {
+            display: flex;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb-nav {
+            max-width: 900px;
+            margin: 2rem auto 0;
+            padding: 0 2rem 1rem;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .breadcrumb-nav a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb-nav a:hover {
+            color: var(--accent-ember);
+        }
+
+        /* Main Content */
+        #main-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Page Header */
+        .page-header {
+            margin: 3rem 0 2rem;
+        }
+
+        .page-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-meta {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 2rem;
+            margin: 2rem 0 3rem;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .meta-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+        }
+
+        .meta-value {
+            color: var(--text-primary);
+        }
+
+        /* Section Navigation */
+        .section-nav {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin: 3rem 0;
+        }
+
+        .section-nav h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent-gold);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+        }
+
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 0.75rem;
+        }
+
+        .nav-grid a {
+            color: var(--text-primary);
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+            background-color: rgba(212, 162, 84, 0.05);
+            border-left: 3px solid var(--accent-gold);
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .nav-grid a:hover {
+            background-color: rgba(212, 162, 84, 0.15);
+            transform: translateX(4px);
+        }
+
+        .nav-grid a.active {
+            background-color: rgba(212, 162, 84, 0.2);
+            color: var(--accent-gold);
+        }
+
+        /* Content Sections */
+        section {
+            margin: 3rem 0;
+        }
+
+        section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        section h2::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(180deg, var(--accent-gold), var(--accent-ember));
+        }
+
+        section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--accent-ember);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        section p {
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+
+        section ul, section ol {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        section li {
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        /* Scripture Blocks */
+        .scripture-block {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--text-primary);
+            line-height: 1.9;
+            border-radius: 4px;
+        }
+
+        .scripture-block .ref {
+            font-family: 'JetBrains Mono', monospace;
+            display: block;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        /* Greek/Hebrew */
+        .greek, .hebrew {
+            font-family: 'JetBrains Mono', monospace;
+            background-color: rgba(139, 92, 246, 0.15);
+            color: var(--accent-violet);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .transliteration {
+            color: var(--accent-gold);
+            font-style: italic;
+        }
+
+        /* Callout Boxes */
+        .callout {
+            background-color: var(--bg-card-hover);
+            border-left: 4px solid var(--accent-ember);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .callout strong {
+            color: var(--accent-ember);
+        }
+
+        /* Objection Boxes */
+        .objection {
+            background-color: rgba(232, 100, 44, 0.08);
+            border-left: 4px solid var(--accent-ember);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .objection-title {
+            font-weight: 700;
+            color: var(--accent-ember);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .objection-title::before {
+            content: '✕';
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .objection-response {
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+
+        /* Witness Quotes */
+        .witness-quote {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-violet);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-style: italic;
+        }
+
+        .witness-quote .attribution {
+            font-style: normal;
+            font-weight: 600;
+            color: var(--accent-violet);
+            margin-top: 1rem;
+            display: block;
+        }
+
+        /* Continue Exploring */
+        .continue-exploring {
+            margin: 4rem 0 3rem;
+        }
+
+        .continue-exploring h2 {
+            color: var(--accent-gold);
+            margin-bottom: 2rem;
+        }
+
+        .explore-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .explore-link {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 1.75rem;
+            border-radius: 6px;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .explore-link:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-4px);
+        }
+
+        .explore-link h3 {
+            color: var(--accent-gold);
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        .explore-link p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        /* Social Share */
+        .share-buttons {
+            display: flex;
+            gap: 1rem;
+            margin: 3rem 0;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border-subtle);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .share-btn {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .share-btn:hover {
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 400;
+        }
+
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--accent-ember);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            margin-top: 4rem;
+            padding: 3rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-section h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .footer-section a {
+            display: block;
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin-bottom: 0.75rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .page-meta {
+                grid-template-columns: auto auto;
+                gap: 1.5rem;
+            }
+
+            .nav-links {
+                gap: 1.5rem;
+            }
+
+            #main-content {
+                padding: 0 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background-color: var(--bg-card);
+                border-bottom: 1px solid var(--border-subtle);
+                padding: 1rem;
+                gap: 0;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                width: 100%;
+            }
+
+            .nav-links a, .nav-trigger {
+                padding: 0.75rem;
+                display: block;
+                width: 100%;
+            }
+
+            .nav-dropdown {
+                position: static;
+                display: none;
+                background-color: var(--bg-deep);
+                border: none;
+                margin-top: 0.5rem;
+            }
+
+            .page-header h1 {
+                font-size: 2rem;
+            }
+
+            .page-meta {
+                grid-template-columns: auto;
+                gap: 1rem;
+            }
+
+            .nav-grid {
+                grid-template-columns: 1fr;
+            }
+
+            section h2 {
+                font-size: 1.6rem;
+            }
+
+            section h3 {
+                font-size: 1.2rem;
+            }
+
+            .explore-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-container {
+                padding: 1rem;
+            }
+
+            .page-header h1 {
+                font-size: 1.6rem;
+            }
+
+            #main-content {
+                padding: 0 1rem;
+            }
+
+            .scripture-block, .callout, .objection, .witness-quote {
+                padding: 1rem;
+            }
+
+            .share-buttons {
+                flex-direction: column;
+            }
+
+            .back-to-top {
+                width: 45px;
+                height: 45px;
+                font-size: 1.2rem;
+                right: 1rem;
+                bottom: 1rem;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reading-progress"></div>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions"><span class="dropdown-icon">&#9876;</span> The Evidence</a>
+                        <a href="/systematic-theology-hub"><span class="dropdown-icon">&#128220;</span> Systematic Theology</a>
+                        <a href="/scripture-tsunami"><span class="dropdown-icon">&#127754;</span> Scripture Tsunami</a>
+                        <a href="/creeds-confessions"><span class="dropdown-icon">&#128216;</span> Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub"><span class="dropdown-icon">&#128293;</span> Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism"><span class="dropdown-icon">&#9878;</span> Comparisons</a>
+                        <a href="/objection-why-command"><span class="dropdown-icon">&#128172;</span> Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals"><span class="dropdown-icon">&#128156;</span> Devotionals</a>
+                        <a href="/stories"><span class="dropdown-icon">&#128214;</span> Stories &amp; Parables</a>
+                        <a href="/analogies-illustrations"><span class="dropdown-icon">&#128161;</span> Analogies</a>
+                        <a href="/pastoral-assurance"><span class="dropdown-icon">&#128588;</span> Pastoral</a>
+                        <a href="/secular-evidence"><span class="dropdown-icon">&#128300;</span> Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians"><span class="dropdown-icon">&#9733;</span> Theologians</a>
+                        <a href="/history-timeline"><span class="dropdown-icon">&#128197;</span> Church History</a>
+                        <a href="/ot-election"><span class="dropdown-icon">&#128220;</span> OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb-nav">
+        <a href="/ot-election.html">← Back to OT Election</a>
+    </div>
+
+    <main id="main-content">
+        <div class="page-header">
+            <h1>Noah: Chosen for Preservation</h1>
+            <p style="color: var(--text-secondary); font-size: 1.1rem; margin-top: 0.5rem;">Grace Before the Flood</p>
+        </div>
+
+        <div class="page-meta">
+            <div class="meta-item">
+                <span class="meta-label">Reading Time</span>
+                <span class="meta-value">16 minutes</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Scripture Focus</span>
+                <span class="meta-value">Genesis 6-9</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Key Doctrine</span>
+                <span class="meta-value">Unconditional Election</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Cross References</span>
+                <span class="meta-value">Hebrews 11:7, 1 Peter 3:20</span>
+            </div>
+        </div>
+
+        <div class="section-nav">
+            <h3>On This Page</h3>
+            <div class="nav-grid">
+                <a href="#world-before">The World Before</a>
+                <a href="#found-grace">Noah Found Grace</a>
+                <a href="#order-of-grace">The Order of Grace</a>
+                <a href="#hebrew-study">Hebrew Word Study</a>
+                <a href="#ark-election">The Ark as Election</a>
+                <a href="#covenant">The Covenant</a>
+                <a href="#nt-witnesses">NT Witnesses</a>
+                <a href="#arguments">Five Arguments</a>
+                <a href="#objections">Objections Answered</a>
+                <a href="#witnesses">Voices from the Cloud</a>
+            </div>
+        </div>
+
+        <section id="world-before">
+            <h2>The World Before the Flood</h2>
+
+            <p>To understand God's choice of Noah, you must first grasp the depravity He was choosing from. Genesis 6:1-7 paints a world so corrupt that God Himself could bear it no longer. Listen to the diagnosis:</p>
+
+            <div class="scripture-block">
+                "The LORD saw that the wickedness of man was great in the earth, and that every intention of the thoughts of his heart was only evil continually. And the LORD was sorry that he had made man on the earth, and it grieved him to his heart. So the LORD said, 'I will blot out man whom I have created from the face of the land, man and animals and creeping things and birds of the heavens, for I am sorry that I have made them.'"
+                <span class="ref">Genesis 6:5-7 (ESV)</span>
+            </div>
+
+            <p>Note the language. Not "most intentions" — <span class="hebrew">רַק (raq)</span> <span class="transliteration">"only"</span> every intention. Not "often evil" — <span class="hebrew">תָּמִיד (tamid)</span> <span class="transliteration">"continually"</span>. Not neutral or mixed — <span class="hebrew">רַע (ra')</span> <span class="transliteration">"evil"</span>.</p>
+
+            <p>This is the Bible's own articulation of total depravity, centuries before Augustine would systematize it. The human heart is not just sick; it is dead. Not just weak; it is enslaved to evil. Not just needing help; it is beyond natural redemption.</p>
+
+            <p>In this context, God pronounces judgment: universal, complete, final. The entire human race stands under His wrath. Every man, woman, and child would perish. This is justice. This is what we deserve.</p>
+
+            <p>And into this moment of divine judgment steps one man. Not because he was better. Not because God foresaw his faith. But because God determined, in His sovereign purpose, that grace would fall on one household while the deluge consumed all others.</p>
+        </section>
+
+        <section id="found-grace">
+            <h2>Noah Found Grace</h2>
+
+            <p>Genesis 6:8 contains the Bible's first mention of grace, and it appears in the most unlikely place — not as a reward for righteousness, but as a sovereign choice in the midst of judgment.</p>
+
+            <div class="scripture-block">
+                "But Noah found grace in the eyes of the LORD."
+                <span class="ref">Genesis 6:8 (ESV)</span>
+            </div>
+
+            <p>The Hebrew word is <span class="hebrew">חֵן (chen)</span> <span class="transliteration">— "grace, favor, unmerited kindness."</span> It appears 69 times in the Old Testament, and in every instance it denotes <strong>undeserved favor from a superior to an inferior</strong>. A servant finds <em>chen</em> in the eyes of a master. A subject finds <em>chen</em> in the eyes of a king. Grace is never earned; it is always bestowed.</p>
+
+            <p>But there is something more subtle in the Hebrew grammar. The phrase is <span class="hebrew">מָצָא חֵן</span> <span class="transliteration">(matsa chen)</span> — "found grace." In Hebrew idiom, this doesn't mean Noah discovered grace lying around like treasure. It means <strong>grace fell upon him; God granted it to him.</strong> The finding is passive — God did the finding. We might translate it, "Grace found Noah," or better, "Noah was found by grace."</p>
+
+            <p>And here is the critical point: Genesis 6:8 comes <em>before</em> Genesis 6:9, which describes Noah's righteousness. Read the sequence:</p>
+
+            <div class="scripture-block">
+                "But Noah found grace in the eyes of the LORD. Noah was a righteous man, blameless in his generation. Noah walked with God."
+                <span class="ref">Genesis 6:8-9 (ESV)</span>
+            </div>
+
+            <p><strong>Grace precedes righteousness.</strong> The cause comes before the effect. This is the order of salvation written into the very text of Scripture, thousands of years before Paul wrote Romans 3 and Ephesians 2.</p>
+        </section>
+
+        <section id="order-of-grace">
+            <h2>The Order of Grace</h2>
+
+            <p>The placement of Genesis 6:8 before 6:9 is no accident. It is the foundation of biblical soteriology.</p>
+
+            <p><strong>Genesis 6:8</strong> — "Noah found grace" — This is the <em>cause</em>. God's free, unmerited choice. God's sovereign will. Grace given to one man in a world deserving judgment.</p>
+
+            <p><strong>Genesis 6:9</strong> — "Noah was righteous, blameless... walked with God" — This is the <em>effect</em>. The fruit of grace. Noah's righteousness flows from his receiving grace, not the other way around.</p>
+
+            <div class="callout">
+                <strong>The Bible's First Lesson on Grace:</strong> Salvation is not a response to human merit. It is a sovereign gift that produces holiness as its fruit. Grace comes first; righteousness follows.
+            </div>
+
+            <p>Paul would later make this explicit in Ephesians 2:8-10:</p>
+
+            <div class="scripture-block">
+                "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast. For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them."
+                <span class="ref">Ephesians 2:8-10 (ESV)</span>
+            </div>
+
+            <p>Do you see it? Grace — then faith — then works. Salvation — then sanctification. The cause — then the effects. This is the order written into Genesis 6:8-9, the order established in Scripture from the very beginning.</p>
+
+            <p>And in Philippians 2:13, Paul affirms the same truth with electrifying clarity: <em>"God is at work in you, both to will and to work for his good pleasure."</em> Your willingness to obey comes from God. Your ability to obey comes from God. You are God's workmanship from beginning to end.</p>
+        </section>
+
+        <section id="hebrew-study">
+            <h2>Hebrew Word Study</h2>
+
+            <h3>חֵן (Chen) — Grace, Favor</h3>
+            <p>Appears 69 times in the OT. Always denotes unmerited kindness from a superior. The recipient of <em>chen</em> has no claim upon it and cannot earn it. It is bestowed by sovereign choice. When God gives <em>chen</em>, He is acting purely from His own will, not in response to merit.</p>
+
+            <h3>צַדִּיק (Tsaddiq) — Righteous, Just</h3>
+            <p>Noah is called <span class="hebrew">צַדִּיק</span> — righteous. But notice the qualifier: <strong><em>in his generation</em></strong> (בְּדֹרֹתָיו). This is relative righteousness, not absolute. Noah was righteous compared to his contemporaries — all of whom were utterly depraved. He was the least corrupt in a thoroughly corrupt world. And yet, his post-flood behavior (Genesis 9:20-21, where he becomes drunk and exposed) proves he was no sinless saint. He was righteous only by grace.</p>
+
+            <h3>תָּמִים (Tamim) — Blameless, Whole-hearted</h3>
+            <p>Genesis 6:9 describes Noah as <span class="hebrew">תָּמִים</span> — blameless or whole-hearted. Not sinless, but sincere. The root suggests completeness, integrity, whole-heartedness. A <em>tamim</em> person is one whose devotion is undivided, whose heart is not double-minded. This describes Noah's character: wholly devoted to God in a world entirely turned away from Him.</p>
+
+            <h3>הִתְהַלֶּךְ (Hithallekh) — Walked With</h3>
+            <p>Genesis 6:9 says Noah <span class="hebrew">הִתְהַלֶּךְ</span> — walked with God. The Hithpael form (reflexive) suggests voluntary, sustained fellowship. The same word is used of Enoch in Genesis 5:24, where it means intimate communion with God. It speaks of constant, living relationship — not a single moment of conversion, but a lifetime of walking.</p>
+
+            <p>But here again, notice: this walking with God is the result of Noah receiving grace. It is the fruit, not the root.</p>
+        </section>
+
+        <section id="ark-election">
+            <h2>The Ark as Election</h2>
+
+            <p>When God commands Noah to build the ark, every detail of the plan comes from God, not from Noah's imagination or wisdom.</p>
+
+            <div class="scripture-block">
+                "Make yourself an ark of gopher wood. Make rooms in the ark, and cover it inside and out with pitch... This is how you are to make it: the length of the ark 300 cubits, its breadth 50 cubits, and its height 30 cubits."
+                <span class="ref">Genesis 6:14-15 (ESV)</span>
+            </div>
+
+            <p>Every dimension, every material, every specification is given by God. Noah builds according to a design he did not conceive. He constructs a vessel of salvation that God predetermined, not something he invented.</p>
+
+            <p>Then God specifies who enters: <em>"I will establish my covenant with you, and you shall come into the ark, you, your sons, your wife, and your sons' wives with you."</em> (Genesis 6:18) God determines the scope of salvation. Not everyone is invited. Not all who seek entry may come. Only those whom God has chosen may enter.</p>
+
+            <p>And then, after the rain begins, Genesis 7:16 contains one of the most significant verses on divine preservation in all of Scripture:</p>
+
+            <div class="scripture-block">
+                "And the LORD shut him in."
+                <span class="ref">Genesis 7:16 (ESV)</span>
+            </div>
+
+            <p>The door is not left open for last-minute conversions. It is not sealed by human decision. <strong>The LORD shuts him in.</strong> Those inside are secure, preserved, sealed by God's own hand. Those outside face certain judgment. The division is absolute. Final. Divine.</p>
+
+            <p>The ark is a type — a foreshadowing — of Christ. There is one door (John 10:9). One name by which we must be saved (Acts 4:12). One way to the Father (John 14:6). And just as God chose who would enter the ark, God has chosen those who will enter the kingdom. And just as the LORD shut the door of the ark, Christ is the shepherd who "calls his own sheep by name and leads them out... and his sheep follow him, for they know his voice" (John 10:3-4). The security of the elect is not in our own strength or wisdom, but in the sovereign preservation of our Shepherd.</p>
+        </section>
+
+        <section id="covenant">
+            <h2>The Covenant of Preservation</h2>
+
+            <p>Genesis 6:18 contains the first use of <span class="hebrew">בְּרִית (berit)</span> — "covenant" — in the entire Bible. And it appears in the context of election.</p>
+
+            <div class="scripture-block">
+                "But I will establish my covenant with you, and you shall come into the ark, you, your sons, your wife, and your sons' wives with you."
+                <span class="ref">Genesis 6:18 (ESV)</span>
+            </div>
+
+            <p>A covenant is a binding agreement. But notice who initiates it: <em>God</em>. "I will establish MY covenant." God is not negotiating terms with Noah. He is announcing His purpose. Noah does not propose. He responds. He does not bargain. He obeys.</p>
+
+            <p>And in Genesis 6:17-21, God says "I will" seven times:</p>
+            <ul>
+                <li><em>"I will bring a flood of waters"</em> (6:17)</li>
+                <li><em>"I will establish my covenant"</em> (6:18)</li>
+                <li><em>"I will bring the waters"</em> (6:17)</li>
+                <li><em>"I will blot out"</em> (6:7)</li>
+            </ul>
+
+            <p>The covenant is unilateral. God acts. Noah obeys. God determines. Noah trusts.</p>
+
+            <p>But here is where the story deepens. After the flood subsides, Genesis 8:21 reveals something astonishing:</p>
+
+            <div class="scripture-block">
+                "And when the LORD smelled the pleasing aroma, the LORD said in his heart, 'I will never again curse the ground because of man, for the intention of man's heart is evil from his youth; neither will I ever again strike down every living creature as I have done.'"
+                <span class="ref">Genesis 8:21 (ESV)</span>
+            </div>
+
+            <p><strong>God gives the same reason for NOT destroying as He gave for destroying.</strong> In 6:5, He judged because "every intention of the thoughts of his heart was only evil continually." In 8:21, He spares because "the intention of man's heart is evil from his youth."</p>
+
+            <p>Human depravity did not improve. The human heart is still evil. What changed? <strong>God's purpose.</strong> Not because man deserved mercy — he didn't. Not because man improved — he hadn't. But because God's plan of grace had come to fruition in the eight souls aboard the ark. Grace, not human merit, determines the outcome.</p>
+
+            <p>And then comes the sign of the covenant: the rainbow.</p>
+
+            <div class="scripture-block">
+                "I establish my covenant with you... When I bring clouds over the earth and the bow is seen in the clouds, I will remember my covenant that is between me and you and every living creature... I will look upon the bow and remember the everlasting covenant between God and every living creature of all flesh that is on the earth."
+                <span class="ref">Genesis 9:9-16 (ESV)</span>
+            </div>
+
+            <p>Notice the language. The covenant is entirely God's work. "I establish." "I will remember." No conditions are placed on humanity. No stipulations. No "if you obey." It is a covenant of pure grace, a unilateral promise by the Sovereign to preserve the earth and its creatures forevermore.</p>
+        </section>
+
+        <section id="nt-witnesses">
+            <h2>New Testament Witnesses</h2>
+
+            <h3>Hebrews 11:7 — Faith Responding to Divine Warning</h3>
+
+            <p>The Hall of Faith in Hebrews 11 enshrines Noah as a witness to the truth of unconditional election:</p>
+
+            <div class="scripture-block">
+                "By faith Noah, being warned by God concerning events as yet unseen, in reverent fear constructed an ark for the saving of his household. By this he condemned the world and became an heir of the righteousness that comes by faith."
+                <span class="ref">Hebrews 11:7 (ESV)</span>
+            </div>
+
+            <p>Mark the order: <em>Being warned by God</em> — then <em>Noah constructed an ark</em>. God spoke first. Noah responded. The initiative was entirely divine. His faith was not spontaneous; it was a response to God's revelation. And note: his faith is described as "reverent fear" — not presumption, but humble obedience to the word of the Lord.</p>
+
+            <h3>1 Peter 3:20-21 — The Elect Few</h3>
+
+            <p>Peter connects Noah to baptism and uses him as a picture of God's elect:</p>
+
+            <div class="scripture-block">
+                "In the days of Noah, while the ark was being prepared, in which a few, that is, eight persons, were brought safely through water. Baptism, which corresponds to this, now saves you... through the resurrection of Jesus Christ."
+                <span class="ref">1 Peter 3:20-21 (ESV)</span>
+            </div>
+
+            <p>Peter emphasizes: <em>"a few, that is, eight persons."</em> Not the many. Not the willing. The chosen few. And they are "brought safely through" — not by their own effort, but by God's preservation. Peter then connects this to baptism as the outward sign of God's inward saving work. Both the ark and baptism represent salvation as God's work, not man's achievement.</p>
+
+            <h3>2 Peter 2:5 — Herald of Righteousness</h3>
+
+            <p>Peter calls Noah "a herald of righteousness" — emphasizing that his preaching, like everything else in his life, was a function of his calling by God. Noah did not appoint himself a preacher. God made him one.</p>
+
+            <h3>Matthew 24:37-39 — The Surprise of Judgment</h3>
+
+            <p>Jesus uses Noah to teach about the nature of divine judgment:</p>
+
+            <div class="scripture-block">
+                "As it was in the days of Noah, so it will be at the coming of the Son of Man. For in those days before the flood, they were eating and drinking, marrying and giving in marriage, until the day Noah entered the ark. And they knew nothing until the flood came and took them all away, so will be the coming of the Son of Man."
+                <span class="ref">Matthew 24:37-39 (ESV)</span>
+            </div>
+
+            <p>The world was oblivious. They ate. Drank. Married. Carried on. <strong>And they knew nothing.</strong> Only those who received God's warning — only those to whom God extended grace — were saved. The rest were taken unaware.</p>
+        </section>
+
+        <section id="arguments">
+            <h2>Five Arguments from the Text</h2>
+
+            <h3>Argument 1: Grace Precedes Righteousness</h3>
+
+            <p>The order of Genesis 6:8-9 is intentional. Grace comes first. Righteousness follows. "Noah found grace" is stated before "Noah was righteous." This is the order of salvation taught throughout Scripture. God regenerates us, then faith is born, then good works follow. We are not righteous so that we might receive grace; we receive grace so that we might become righteous.</p>
+
+            <h3>Argument 2: God Initiates Every Element of Salvation</h3>
+
+            <p>From beginning to end, God acts; Noah responds. God warns. Noah believes. God designs the ark. Noah obeys. God specifies who enters. Noah leads his family. God shuts the door. Noah waits. God brings the waters. Noah is preserved. God establishes the covenant. Noah trusts. At no single point does Noah initiate salvation. He is always the respondent to God's sovereign work.</p>
+
+            <h3>Argument 3: The Few, Not the Many</h3>
+
+            <p>Only 8 souls saved from the entire human population. The doctrine of election teaches that God does not save <em>all who are willing</em> — He saves <em>those whom He has chosen</em>. The flood narrative demonstrates this in stark terms. Universal judgment, particular redemption. This is the pattern throughout Scripture: the narrow way vs. the broad way (Matthew 7:13-14), the few called vs. the many invited (Matthew 22:14), the remnant preserved in every age.</p>
+
+            <h3>Argument 4: "The LORD Shut Him In"</h3>
+
+            <p>Genesis 7:16 contains the most vivid picture of divine preservation in the Old Testament. God doesn't leave the door open for last-minute entrants. He closes it. Those inside are secure forever. Those outside face certain destruction. This is the perseverance of the saints and definite atonement compressed into one verse. Once God saves you, once He shuts the door, nothing can take you out. "No one can snatch them out of my hand" (John 10:28).</p>
+
+            <h3>Argument 5: Same Depravity, Different Response</h3>
+
+            <p>In Genesis 6:5, God judges because the human heart is evil. In Genesis 8:21, God spares because the human heart is still evil. What changed? Not humanity — God's sovereign purpose. This demonstrates that salvation is not a response to human improvement. God does not save those who deserve it (none do). He saves because of His sovereign mercy and eternal purpose. "It does not depend on human desire or effort, but on God's mercy" (Romans 9:16).</p>
+        </section>
+
+        <section id="objections">
+            <h2>Objections Answered</h2>
+
+            <div class="objection">
+                <div class="objection-title">But Genesis 6:9 says Noah was righteous — didn't he earn grace?</div>
+                <div class="objection-response">
+                    The text itself provides the answer: Genesis 6:8 comes before 6:9. Grace is stated as the cause; righteousness is stated as the result. Noah's righteousness was the product of grace working in him, not the reason grace was given to him. Furthermore, Noah's righteousness is qualified as being "in his generation" — relative, not absolute. And Genesis 9:20-21 reveals that Noah, the "righteous" man, got drunk and lay naked in his tent. Even after the flood, after witnessing God's judgment firsthand, he struggled with sin. He was righteous only by the sovereign grace of God.
+                </div>
+            </div>
+
+            <div class="objection">
+                <div class="objection-title">Noah obeyed God by building the ark — isn't that works? How is it grace?</div>
+                <div class="objection-response">
+                    Noah's obedience was not the condition of his salvation; it was the expression of it. Hebrews 11:7 says he acted "by faith" — responding to God's warning. His works were the fruit of grace, not the cause of it. This mirrors Paul's teaching in Ephesians 2:8-10: we are saved by grace, not by works; but we are created in Christ for good works, which God prepared beforehand for us to walk in. Noah's obedience is the effect of grace, not its precondition.
+                </div>
+            </div>
+
+            <div class="objection">
+                <div class="objection-title">What about all the people who could have repented? Wasn't the gospel offered universally?</div>
+                <div class="objection-response">
+                    Second Peter 2:5 calls Noah "a herald of righteousness," suggesting he did preach. But the text never says anyone else was offered a place on the ark. The ark was built with specific dimensions for a specific number of people. And most tellingly, Genesis 7:16 says the LORD shut Noah in. The door was closed by God's sovereign act, not by human refusal. The offer of salvation in this narrative was particular, not universal — extended only to those God chose to save.
+                </div>
+            </div>
+
+            <div class="objection">
+                <div class="objection-title">Doesn't this make God unfair for destroying everyone else?</div>
+                <div class="objection-response">
+                    Genesis 6:5 answers the objection: "every intention of the thoughts of [man's] heart was only evil continually." The question is not "Why did God destroy so many?" but "Why did God save any?" Universal destruction is what justice demands. Universal salvation is not. The fact that God saved even one household is pure grace. "The wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord" (Romans 6:23). Judgment is what we deserve; grace is what we need.
+                </div>
+            </div>
+
+            <div class="objection">
+                <div class="objection-title">This is about nations and civilizations, not individual salvation.</div>
+                <div class="objection-response">
+                    While there are national implications, the text explicitly addresses individuals. "Noah found grace." "I will establish my covenant with YOU." Eight named persons entered the ark. And the New Testament applies it individually: Hebrews 11:7 speaks of Noah's personal faith; 1 Peter 3:20-21 connects the flood to individual baptism and personal salvation. This is not a mere historical narrative; it is a theological portrait of how God saves sinners.
+                </div>
+            </div>
+
+            <div class="objection">
+                <div class="objection-title">God chose Noah because He foresaw Noah's faith — isn't that still conditional?</div>
+                <div class="objection-response">
+                    This reverses the order of Genesis 6:8-9. The text puts grace before righteousness. If God's choice was based on foreseen faith, then grace is no longer grace — it would be payment for faith (Romans 11:6). Furthermore, in a world where "every intention" was "only evil continually," where would foreseen faith come from apart from grace itself? Faith is not something we generate independently; it is a gift (Ephesians 2:8). God did not choose Noah because He foresaw that Noah would believe; God foresaw that Noah would believe because He had already chosen Noah and would give him the gift of faith.
+                </div>
+            </div>
+        </section>
+
+        <section id="witnesses">
+            <h2>Voices from the Cloud</h2>
+
+            <div class="witness-quote">
+                "Grace was operative in [Noah]. It is not said that his merits moved God to save him, but that he 'found grace.' The grace, therefore, that saved him was free and undeserved; and as the flood was the punishment of human wickedness, so the salvation of Noah was the work of God's unmerited mercy."
+                <span class="attribution">— Matthew Henry, Commentary on Genesis</span>
+            </div>
+
+            <div class="witness-quote">
+                "The Lord did not preserve Noah because he was righteous, but made him righteous because He determined to preserve him. His righteousness flowed from the purpose of grace, not the purpose from his righteousness."
+                <span class="attribution">— John Calvin, Institutes of the Christian Religion</span>
+            </div>
+
+            <div class="witness-quote">
+                "The first instance of the word grace in Scripture sets forth the very heart of the gospel: unmerited favor bestowed by a sovereign God upon a sinful people. Noah did not earn it. He could not have merited it. It was given to him by the free choice of the Almighty, that through him salvation might come."
+                <span class="attribution">— Charles Spurgeon, The Sermons of Charles Spurgeon</span>
+            </div>
+
+            <div class="witness-quote">
+                "Noah's preservation was not owing to his own strength or wisdom, but to the sovereign pleasure of God. This is a fundamental truth of redemption: that we are saved, preserved, and perfected entirely by the will and work of God."
+                <span class="attribution">— Jonathan Edwards, Freedom of the Will</span>
+            </div>
+        </section>
+
+        <section id="conclusion">
+            <h2>The Story of Every Believer</h2>
+
+            <p>Noah's story is your story. The world was drowning in judgment. You did not build your own ark. You did not design your own salvation. You did not choose yourself out of a world under wrath.</p>
+
+            <p>God designed the plan of redemption. God issued the call through the gospel. God granted you faith to believe. God sealed you with His Holy Spirit. God preserves you through every flood and storm of life. And just as the LORD shut Noah in, preserving him and his household secure in the midst of judgment, so Christ is the door through which the elect enter, and none can snatch us from His hand.</p>
+
+            <p>The world around you may remain oblivious. They eat, they drink, they marry, they carry on — and they know nothing. But you have received the grace that Noah received. You have been chosen before the foundation of the world. You have been bought with the precious blood of Christ. You are preserved by the power of God through faith unto a salvation ready to be revealed in the last time.</p>
+
+            <p>And so with Noah, with all the redeemed throughout the ages, you can rest in this unchanging truth:</p>
+
+            <div class="scripture-block">
+                "Salvation belongs to the LORD; your blessing be on your people!"
+                <span class="ref">Psalm 3:8 (ESV)</span>
+            </div>
+        </section>
+
+        <div class="continue-exploring">
+            <h2>Continue Exploring OT Election</h2>
+            <div class="explore-grid">
+                <a href="/ot-abraham.html" class="explore-link">
+                    <h3>Abraham</h3>
+                    <p>Election and covenant. The father of the faithful, chosen to father a nation through grace alone.</p>
+                </a>
+                <a href="/ot-jacob-esau.html" class="explore-link">
+                    <h3>Jacob vs. Esau</h3>
+                    <p>Election before birth. How God chose Jacob over Esau while still in the womb, proving election precedes foresight.</p>
+                </a>
+                <a href="/ot-moses-pharaoh.html" class="explore-link">
+                    <h3>Moses &amp; Pharaoh</h3>
+                    <p>Mercy and hardening. How God sovereignly shaped both the redeemer and the reprobate for His glory.</p>
+                </a>
+                <a href="/ot-election.html" class="explore-link">
+                    <h3>OT Election Hub</h3>
+                    <p>The complete collection of Old Testament studies on God's sovereign choice and unconditional grace.</p>
+                </a>
+            </div>
+        </section>
+
+        <div class="share-buttons">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://adoptedbygrace.net/ot-noah.html" class="share-btn" target="_blank" rel="noopener">Share on Facebook</a>
+            <a href="https://twitter.com/intent/tweet?url=https://adoptedbygrace.net/ot-noah.html&text=Noah:%20Chosen%20for%20Preservation%20—%20How%20God's%20sovereign%20grace%20rescued%20one%20family%20from%20judgment" class="share-btn" target="_blank" rel="noopener">Share on X</a>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://adoptedbygrace.net/ot-noah.html" class="share-btn" target="_blank" rel="noopener">Share on LinkedIn</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Doctrine</h3>
+                <a href="/questions">The Evidence</a>
+                <a href="/systematic-theology-hub">Systematic Theology</a>
+                <a href="/scripture-tsunami">Scripture Tsunami</a>
+                <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+            </div>
+            <div class="footer-section">
+                <h3>Explore</h3>
+                <a href="/devotionals">Devotionals</a>
+                <a href="/stories">Stories &amp; Parables</a>
+                <a href="/analogies-illustrations">Analogies</a>
+                <a href="/pastoral-assurance">Pastoral</a>
+                <a href="/secular-evidence">Secular Evidence</a>
+            </div>
+            <div class="footer-section">
+                <h3>About</h3>
+                <a href="/about">About Us</a>
+                <a href="/resources">Resources</a>
+                <a href="/start-here">Start Here</a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All Scripture quotations from the ESV Bible unless otherwise noted. Soli Deo Gloria.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+    <script>
+        // Reading progress bar
+        const progressBar = document.querySelector('.reading-progress');
+        window.addEventListener('scroll', () => {
+            const windowHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolled = (window.scrollY / windowHeight) * 100;
+            progressBar.style.width = scrolled + '%';
+        });
+
+        // Back to top button
+        const backToTopBtn = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Hamburger menu
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Section nav active state
+        const sections = document.querySelectorAll('section');
+        const navLinks2 = document.querySelectorAll('.nav-grid a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks2.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="/global.css">
+    <script src="/global.js" defer></script>
+</body>
+</html>

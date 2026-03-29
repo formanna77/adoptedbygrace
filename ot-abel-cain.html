@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Genesis 4 reveals God's sovereign distinction between Abel and Cain—the Bible's first election narrative. Scripture teaches unconditional election through the story of two brothers, two offerings, and God's sovereign choice.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Abel and Cain: The First Election | Adopted by Grace">
+    <meta property="og:description" content="The Bible's first story after the Fall reveals God's sovereign distinction. A deep dive into Genesis 4 and the doctrine of unconditional election.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/ot-abel-cain.html">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Abel and Cain: The First Election">
+    <meta name="twitter:description" content="God's sovereign distinction revealed in Genesis 4—the first election narrative in Scripture.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://adoptedbygrace.net/ot-abel-cain.html">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='75' font-size='75' font-family='serif' fill='%23d4a254'%3E✦%3C/text%3E%3C/svg%3E">
+
+    <!-- Google Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Abel and Cain: The First Election",
+        "description": "Genesis 4 reveals God's sovereign distinction between Abel and Cain—the Bible's first election narrative.",
+        "image": "https://adoptedbygrace.net/og-image.png",
+        "datePublished": "2026-03-28",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntity": {
+            "@type": "Thing",
+            "name": "Unconditional Election",
+            "description": "God's sovereign and gracious choice of individuals for salvation, not based on foreseen faith or works."
+        }
+    }
+    </script>
+
+    <title>Abel and Cain: The First Election | Adopted by Grace</title>
+
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 1.5rem;
+            --spacing-lg: 2rem;
+            --spacing-xl: 3rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* READING PROGRESS BAR */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
+            z-index: 1000;
+            width: 0%;
+        }
+
+        /* SKIP LINK */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: var(--spacing-sm);
+            text-decoration: none;
+            font-weight: 600;
+            z-index: 999;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* NAVIGATION */
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-subtle);
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--spacing-md);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .logo:hover {
+            color: var(--accent-ember);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background: var(--accent-gold);
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(10px, 10px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: var(--spacing-lg);
+            align-items: center;
+        }
+
+        .nav-links a, .nav-trigger {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            background: none;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-links a:hover, .nav-trigger:hover {
+            color: var(--accent-gold);
+        }
+
+        .nav-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            min-width: 250px;
+            display: none;
+            flex-direction: column;
+            padding: var(--spacing-sm);
+            margin-top: 0.5rem;
+        }
+
+        li:has(> .nav-trigger):hover .nav-dropdown {
+            display: flex;
+        }
+
+        .nav-dropdown a {
+            padding: var(--spacing-sm) var(--spacing-md);
+            color: var(--text-primary);
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 0.9rem;
+        }
+
+        .nav-dropdown a:hover {
+            background: var(--bg-card-hover);
+            color: var(--accent-gold);
+        }
+
+        .dropdown-icon {
+            font-size: 1.1em;
+        }
+
+        .nav-arrow {
+            font-size: 0.7rem;
+            transition: transform 0.3s ease;
+        }
+
+        /* BREADCRUMB */
+        .breadcrumb {
+            max-width: 900px;
+            margin: var(--spacing-lg) auto 0;
+            padding: 0 var(--spacing-md);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .breadcrumb a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent-ember);
+        }
+
+        /* MAIN CONTENT */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+
+        /* PAGE HEADER */
+        .page-header {
+            text-align: center;
+            padding: var(--spacing-xl) 0;
+            border-bottom: 1px solid var(--border-subtle);
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .page-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: var(--spacing-md);
+            line-height: 1.2;
+        }
+
+        .page-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto var(--spacing-lg);
+            line-height: 1.5;
+        }
+
+        .page-meta {
+            display: flex;
+            justify-content: center;
+            gap: var(--spacing-lg);
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: var(--spacing-lg);
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .meta-icon {
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        /* SECTION NAVIGATION */
+        .section-nav {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-sm);
+            margin-bottom: var(--spacing-xl);
+            padding: var(--spacing-md);
+            background: var(--bg-card);
+            border-radius: 8px;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .section-nav a {
+            padding: var(--spacing-sm) var(--spacing-md);
+            color: var(--text-secondary);
+            text-decoration: none;
+            border-left: 3px solid transparent;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .section-nav a:hover {
+            border-left-color: var(--accent-gold);
+            color: var(--accent-gold);
+            background: rgba(212, 162, 84, 0.05);
+        }
+
+        .section-nav a.active {
+            border-left-color: var(--accent-gold);
+            color: var(--accent-gold);
+            background: rgba(212, 162, 84, 0.08);
+        }
+
+        /* CONTENT SECTIONS */
+        section {
+            margin-bottom: var(--spacing-xl);
+            scroll-margin-top: 80px;
+        }
+
+        section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: var(--spacing-md);
+            padding-bottom: var(--spacing-md);
+            border-bottom: 2px solid var(--accent-gold);
+            position: relative;
+        }
+
+        section h2::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            width: 60px;
+            height: 4px;
+            background: var(--accent-gold);
+            border-radius: 2px;
+        }
+
+        section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--accent-ember);
+            margin-top: var(--spacing-lg);
+            margin-bottom: var(--spacing-md);
+        }
+
+        p {
+            margin-bottom: var(--spacing-md);
+            color: var(--text-primary);
+        }
+
+        /* SCRIPTURE BLOCK */
+        .scripture-block {
+            background: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: var(--spacing-md);
+            margin: var(--spacing-lg) 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            display: block;
+            font-style: normal;
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-top: var(--spacing-md);
+            font-size: 0.9rem;
+        }
+
+        /* HEBREW/GREEK */
+        .hebrew, .greek {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-violet);
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .word-study {
+            background: rgba(139, 92, 246, 0.05);
+            border-left: 4px solid var(--accent-violet);
+            padding: var(--spacing-md);
+            margin: var(--spacing-lg) 0;
+            border-radius: 4px;
+        }
+
+        .word-study strong {
+            color: var(--accent-violet);
+        }
+
+        /* CALLOUT BOX */
+        .callout {
+            background: var(--bg-card);
+            border-left: 4px solid var(--accent-ember);
+            padding: var(--spacing-md);
+            margin: var(--spacing-lg) 0;
+            border-radius: 4px;
+            color: var(--text-primary);
+        }
+
+        .callout strong {
+            color: var(--accent-ember);
+        }
+
+        /* OBJECTION BOX */
+        .objection {
+            background: rgba(232, 100, 44, 0.08);
+            border-left: 4px solid var(--accent-ember);
+            padding: var(--spacing-md);
+            margin: var(--spacing-lg) 0;
+            border-radius: 4px;
+        }
+
+        .objection h4 {
+            color: var(--accent-ember);
+            margin-bottom: var(--spacing-sm);
+            font-weight: 700;
+        }
+
+        .objection-response {
+            color: var(--text-secondary);
+            margin-top: var(--spacing-sm);
+        }
+
+        /* WITNESS QUOTE */
+        .witness {
+            background: var(--bg-card);
+            border-left: 4px solid var(--accent-violet);
+            padding: var(--spacing-md);
+            margin: var(--spacing-lg) 0;
+            border-radius: 4px;
+        }
+
+        .witness-text {
+            font-style: italic;
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .witness-attr {
+            color: var(--accent-violet);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        /* ARGUMENT LIST */
+        .argument-list {
+            list-style: none;
+        }
+
+        .argument-list li {
+            padding: var(--spacing-md);
+            margin-bottom: var(--spacing-md);
+            background: var(--bg-card);
+            border-radius: 4px;
+            border-left: 4px solid var(--accent-gold);
+        }
+
+        .argument-list strong {
+            color: var(--accent-gold);
+        }
+
+        /* CONTINUE EXPLORING */
+        .continue-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-lg);
+            margin: var(--spacing-xl) 0;
+            padding-top: var(--spacing-xl);
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .continue-card {
+            background: var(--bg-card);
+            padding: var(--spacing-md);
+            border-radius: 8px;
+            border: 1px solid var(--border-subtle);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: var(--text-primary);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .continue-card:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-gold);
+            transform: translateY(-2px);
+        }
+
+        .continue-card h3 {
+            color: var(--accent-gold);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .continue-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        /* SOCIAL SHARE */
+        .social-share {
+            display: flex;
+            gap: var(--spacing-md);
+            margin: var(--spacing-xl) 0;
+            padding: var(--spacing-md);
+            background: var(--bg-card);
+            border-radius: 8px;
+            justify-content: center;
+        }
+
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--bg-card-hover);
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .social-btn:hover {
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            transform: scale(1.1);
+        }
+
+        /* BACK TO TOP */
+        #back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            z-index: 50;
+        }
+
+        #back-to-top:hover {
+            background: var(--accent-ember);
+            transform: translateY(-3px);
+        }
+
+        #back-to-top.show {
+            display: flex;
+        }
+
+        /* FOOTER */
+        footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            padding: var(--spacing-xl) var(--spacing-md);
+            margin-top: var(--spacing-xl);
+        }
+
+        .footer-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-lg);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .footer-section h3 {
+            color: var(--accent-gold);
+            margin-bottom: var(--spacing-md);
+            font-size: 1rem;
+        }
+
+        .footer-section a {
+            display: block;
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin-bottom: var(--spacing-sm);
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: var(--spacing-lg);
+            border-top: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .page-header h1 {
+                font-size: 2rem;
+            }
+
+            .page-subtitle {
+                font-size: 1rem;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background: var(--bg-card);
+                border-bottom: 1px solid var(--border-subtle);
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+                gap: 0;
+            }
+
+            .nav-links.active {
+                max-height: 500px;
+            }
+
+            .nav-links li {
+                border-bottom: 1px solid var(--border-subtle);
+            }
+
+            .nav-links a, .nav-trigger {
+                padding: var(--spacing-md);
+                width: 100%;
+            }
+
+            .nav-dropdown {
+                position: static;
+                display: none;
+                background: var(--bg-card-hover);
+                border: none;
+                border-radius: 0;
+                min-width: auto;
+                padding: var(--spacing-sm) 0 var(--spacing-sm) var(--spacing-lg);
+                margin-top: 0;
+            }
+
+            li.active .nav-dropdown {
+                display: flex;
+            }
+
+            .section-nav {
+                grid-template-columns: 1fr;
+            }
+
+            .page-meta {
+                flex-direction: column;
+                gap: var(--spacing-md);
+            }
+
+            .continue-grid {
+                grid-template-columns: 1fr;
+            }
+
+            #back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+                font-size: 1.2rem;
+            }
+        }
+
+        /* FOCUS STYLES */
+        a:focus, button:focus {
+            outline: 2px solid var(--accent-gold);
+            outline-offset: 2px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <div class="reading-progress"></div>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">▼</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions"><span class="dropdown-icon">⚒</span> The Evidence</a>
+                        <a href="/systematic-theology-hub"><span class="dropdown-icon">📖</span> Systematic Theology</a>
+                        <a href="/scripture-tsunami"><span class="dropdown-icon">🌊</span> Scripture Tsunami</a>
+                        <a href="/creeds-confessions"><span class="dropdown-icon">📜</span> Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">▼</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub"><span class="dropdown-icon">🔥</span> Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism"><span class="dropdown-icon">⚖</span> Comparisons</a>
+                        <a href="/objection-why-command"><span class="dropdown-icon">💬</span> Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">▼</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals"><span class="dropdown-icon">💝</span> Devotionals</a>
+                        <a href="/stories"><span class="dropdown-icon">📖</span> Stories &amp; Parables</a>
+                        <a href="/analogies-illustrations"><span class="dropdown-icon">💡</span> Analogies</a>
+                        <a href="/pastoral-assurance"><span class="dropdown-icon">🤝</span> Pastoral</a>
+                        <a href="/secular-evidence"><span class="dropdown-icon">📊</span> Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">▼</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians"><span class="dropdown-icon">⭐</span> Theologians</a>
+                        <a href="/history-timeline"><span class="dropdown-icon">📅</span> Church History</a>
+                        <a href="/ot-election"><span class="dropdown-icon">📖</span> OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb">
+        <a href="/ot-election">← Back to OT Election</a>
+    </div>
+
+    <main id="main-content">
+        <header class="page-header">
+            <h1>Abel and Cain: The First Election</h1>
+            <p class="page-subtitle">The Bible's First Story After the Fall Reveals God's Sovereign Distinction</p>
+            <div class="page-meta">
+                <div class="meta-item"><span class="meta-icon">📖</span> Reading Time: ~15 min</div>
+                <div class="meta-item"><span class="meta-icon">⚡</span> Genesis 4:1–16, Hebrews 11:4</div>
+                <div class="meta-item"><span class="meta-icon">✦</span> Doctrine: Unconditional Election</div>
+            </div>
+        </header>
+
+        <nav class="section-nav">
+            <a href="#first-story">The First Story</a>
+            <a href="#offerings">Two Offerings</a>
+            <a href="#why-accepted">Why Accepted?</a>
+            <a href="#hebrew-study">Hebrew Study</a>
+            <a href="#hebrews11">Hebrews 11:4</a>
+            <a href="#1john3">1 John 3:12</a>
+            <a href="#warning">God's Warning</a>
+            <a href="#arguments">Six Arguments</a>
+            <a href="#objections">Objections Answered</a>
+            <a href="#witnesses">Cloud of Witnesses</a>
+        </nav>
+
+        <section id="first-story">
+            <h2>The First Story After Eden</h2>
+            <p>Genesis 3 is the Fall. Humanity rebels. Sin enters the world. Death comes with it. Creation groans.</p>
+            <p>And then Genesis 4 begins: "Now Adam knew Eve his wife, and she conceived and bore Cain" (Genesis 4:1).</p>
+            <p>This is not incidental. The first narrative after sin—before the flood, before Abraham, before Israel—is the story of two brothers. One whose offering God accepts. One whose offering God rejects. And the text tells us this happened not because of circumstances, not because of environment, not because of opportunity, but because of <em>God's sovereign choice</em>.</p>
+            <p>Both brothers were children of Adam and Eve. Both inherited humanity's fallen nature. Both lived in the same household. Both brought offerings to the Lord. Yet God distinguished between them—and in that distinction, the entire doctrine of election is foreshadowed.</p>
+            <p class="callout"><strong>This page has not been predestined to bore you</strong> (though every other page might be).</p>
+        </section>
+
+        <section id="offerings">
+            <h2>The Two Offerings</h2>
+            <div class="scripture-block">
+                "In the course of time Cain brought to the LORD an offering of the fruit of the ground. And Abel also brought of the firstborn of his flock and of their fat portions. And the LORD had regard for Abel and his offering, but for Cain and his offering he had no regard."
+                <span class="scripture-ref">Genesis 4:3–5</span>
+            </div>
+
+            <h3>The Distinction in the Offerings</h3>
+            <p>Cain brought "an offering of the fruit of the ground"—the text gives no qualifier. Just an offering. No specificity. No excellence marked.</p>
+            <p>Abel brought "of the firstborn of his flock"—<span class="hebrew">בְּכוֹרוֹת</span> (bekhorot), the firstborn. And "of their fat portions"—<span class="hebrew">חֶלְבֵהֶן</span> (chelvehen), the richest, the best parts. Abel gave God the <em>first and the finest</em>.</p>
+            <p>The contrast is stark. It is intentional. And yet—and this is critical—Hebrews 11:4 will later tell us the difference was not primarily about <em>what</em> was offered, but about <em>who offered it and how</em>.</p>
+
+            <h3>The Order of Acceptance</h3>
+            <p>Notice the order of acceptance: "The LORD had regard for Abel AND his offering."</p>
+            <p>Person first. <em>Then</em> offering. The text does not say God had regard for the offering, which then reflected credit on Abel. It says God had regard <em>for Abel himself</em>, and this acceptance of the person made the offering acceptable.</p>
+            <p>This mirrors Ephesians 1:6—we are "accepted in the Beloved." We are accepted in Christ. Not because of who we are, but because God has chosen to regard us in Him. And our works are acceptable only insofar as we are acceptable in Him.</p>
+
+            <div class="callout">
+                <strong>Election precedes works:</strong> God accepted Abel before God accepted Abel's offering. The person's standing with God determines the acceptability of the person's actions.
+            </div>
+        </section>
+
+        <section id="why-accepted">
+            <h2>Why Was Abel's Offering Accepted?</h2>
+            <p>This is the critical question. And there are three possible answers—and only one is biblical.</p>
+
+            <h3>The Arminian Answer (and why it fails)</h3>
+            <p>Abel chose better. Abel had the moral wisdom or initiative to bring a superior offering. It was Abel's free will decision that secured his acceptance.</p>
+            <p><em>But this fails.</em> Genesis 4 gives no evidence that Abel was morally superior to Cain. Both were sinners. Both were born of Adam. Both inherited humanity's fallen nature. If the difference is mere choice, why did Abel choose rightly and Cain didn't? The text offers no explanation—which means we must look elsewhere.</p>
+
+            <h3>The Moralistic Answer (and its silence)</h3>
+            <p>The traditional view: Abel brought a blood sacrifice; Cain brought plants. Bloodshed alone pleased God.</p>
+            <p><em>But the text doesn't say this.</em> Genesis 4 never explains why God accepted Abel. And grain offerings are perfectly legitimate in Levitical law (Leviticus 2). God accepted grain from faithful worshippers. So the type of offering cannot be the fundamental issue.</p>
+
+            <h3>The Biblical Answer: Faith (and its source)</h3>
+            <p>Hebrews 11:4 settles it: "By faith Abel offered to God a more acceptable sacrifice than Cain, through which he was commended as righteous."</p>
+            <p><em>Faith.</em> That was the difference. Not moral superiority. Not the type of offering. <em>Faith</em>.</p>
+            <p>And now the essential question emerges: <strong>Where did Abel's faith come from?</strong></p>
+            <p>Both brothers had the same parents. Same household. Same knowledge of God. Same fallen nature. Yet Abel had faith and Cain didn't.</p>
+            <p>The only answer that makes sense of the text is this: <em>God gave Abel faith.</em> God sovereignly granted Abel the gift of believing trust. And this gift was not based on anything Abel did or would do—it was an act of God's unmerited grace.</p>
+            <p>Ephesians 2:8-9 says: "By grace you have been saved, through faith—and this not of yourselves, it is the gift of God; not as a result of works, so that no one can boast."</p>
+            <p>Faith is the gift of God. And if faith is God's gift, then the source of Abel's acceptance lies in God's sovereign giving—not in Abel's choosing.</p>
+        </section>
+
+        <section id="hebrew-study">
+            <h2>Hebrew Word Study</h2>
+
+            <div class="word-study">
+                <strong><span class="hebrew">שָׁעָה</span> (sha'ah)</strong> — "to gaze upon; to look with favor; to regard"
+                <br><br>Used of God's acceptance and approval. It implies <em>sovereign choice</em> of attention and regard. God "had regard for Abel"—God actively, sovereignly chose to look upon Abel with favor.
+            </div>
+
+            <div class="word-study">
+                <strong><span class="hebrew">מִנְחָה</span> (minchah)</strong> — "offering; gift; tribute"
+                <br><br>Both brothers brought a minchah. The word itself is neutral—it simply means "offering." The difference was not in the category of offering but in the acceptance of the <em>person</em> offering it.
+            </div>
+
+            <div class="word-study">
+                <strong><span class="hebrew">בְּכוֹרוֹת</span> (bekhorot)</strong> — "firstborn; first-fruits; the choicest"
+                <br><br>Abel's offering was from the firstborn of his flock. This meant giving God <em>first</em>, giving God <em>best</em>. It reflects a heart oriented toward God's supremacy. Cain's offering carried no such qualification.
+            </div>
+
+            <div class="word-study">
+                <strong><span class="hebrew">חֶלְבֵהֶן</span> (chelvehen)</strong> — "fat portions; the richest, choicest parts"
+                <br><br>In Levitical law, the fat belonged to God—it was the finest, most valued part of the animal. Abel didn't just offer from the firstborn; he offered the finest <em>part</em> of those firstborn. This reflects worship marked by excellence and honor toward God.
+            </div>
+
+            <div class="word-study">
+                <strong><span class="hebrew">חָרָה</span> (charah)</strong> — "to burn; to kindle; to be angry or wrathful"
+                <br><br>In Genesis 4:5, Cain's face "fell" and "anger was kindled against him" (using charah). This is the response of the heart to rejection. What the text reveals is that Cain's anger, his bitterness, his murderous rage—these flowed from a heart already opposed to God.
+            </div>
+
+            <h3>The Significance of Abel's Name</h3>
+            <p>The Hebrew name <span class="hebrew">הֶבֶל</span> (Hevel/Abel) means "breath" or "vapor"—something transient, fleeting, temporary. It echoes Ecclesiastes: "vanity of vanities, all is vanity" (<span class="hebrew">הֶבֶל הֲבָלִים</span>, hevel havalim).</p>
+            <p>Yet <em>this</em> is the one God chose. God chose the one whose very name means "nothing lasts." God chose the transient, the passing, the seemingly insignificant. And His choice stands eternal.</p>
+            <p>This pattern recurs throughout Scripture: God chooses the weak, the small, the overlooked. "Not many of you were wise by worldly standards... God chose what is foolish in the world to shame the wise" (1 Corinthians 1:27-28).</p>
+        </section>
+
+        <section id="hebrews11">
+            <h2>Hebrews 11:4—The New Testament Key</h2>
+            <div class="scripture-block">
+                "By faith Abel offered to God a more acceptable sacrifice than Cain, through which he was commended as righteous, God commending him by accepting his gifts. And through his faith, though he died, he still speaks."
+                <span class="scripture-ref">Hebrews 11:4</span>
+            </div>
+
+            <h3>Three Truths from This Verse</h3>
+
+            <h4>1. Faith Was the Decisive Factor</h4>
+            <p>Not the offering type. Not moral superiority. <em>Faith.</em> "By faith Abel offered..."</p>
+            <p>Faith was the distinguishing mark. In a household where both brothers knew God, both knew how to bring an offering, both had access to the same covenant—Abel had something Cain lacked: faith. And that faith made his offering acceptable.</p>
+
+            <h4>2. Abel Was Commended as Righteous</h4>
+            <p>"Through which he was commended as righteous."</p>
+            <p>Abel was declared righteous. Not because he <em>became</em> good through his offering. But because God regarded him as righteous. This is <em>imputed righteousness</em>—the pattern of Romans 4:5: "to the one who does not work but believes in him who justifies the ungodly, his faith is counted as righteousness."</p>
+            <p>Abel's righteousness was not earned. It was <em>credited</em> to him. God counted him as righteous. And the basis was not works, but faith.</p>
+
+            <h4>3. Abel's Faith Still Speaks</h4>
+            <p>"And through his faith, though he died, he still speaks."</p>
+            <p>The witness of Abel endures. Even in death—murdered by his brother, his blood crying out from the ground—the voice of his faith remains. He speaks as a martyr to the power and reality of faith in God's sovereignty.</p>
+            <p>Later, Hebrews 12:24 will say: "You have come to Jesus, the mediator of a new covenant, and to the sprinkled blood that speaks a better word than the blood of Abel."</p>
+            <p>The blood of Jesus speaks a better word than Abel's blood. But the pattern is the same: the innocent blood of a chosen one, shed for others, speaking eternally of God's grace and redemption.</p>
+        </section>
+
+        <section id="1john3">
+            <h2>1 John 3:12—The Nature of Cain</h2>
+            <div class="scripture-block">
+                "We should not be like Cain, who was of the evil one and murdered his brother. And why did he murder him? Because his own deeds were evil and his brother's righteous."
+                <span class="scripture-ref">1 John 3:12</span>
+            </div>
+
+            <h3>The Foundation of Cain's Actions</h3>
+            <p>John's statement is stark: Cain "was of the evil one" (ἐκ τοῦ πονηροῦ, <em>ek tou ponērou</em>).</p>
+            <p>This is not merely behavioral description. This is a statement of <em>nature</em>. Cain's identity, his fundamental orientation, was toward evil. He belonged to the evil one.</p>
+            <p>And what was the fruit of this nature? Murder. Cain murdered his brother. But notice what John says about the <em>reason</em>: "Because his own deeds were evil and his brother's righteous."</p>
+            <p>The murder was not the cause of the problem. The murder was the <em>symptom</em>. It flowed from a nature already oriented away from God, already in the domain of darkness. Cain killed Abel because Cain's deeds were evil. The evil nature came first; the evil action followed.</p>
+
+            <h3>Nature Determines Behavior</h3>
+            <p>This parallels Jesus' teaching in John 8:44: "You are of your father the devil, and you want to do the desires of your father."</p>
+            <p>Nature determines desire. Desire determines action. <em>You cannot change behavior without changing nature.</em></p>
+            <p>Cain could not have chosen to bring a faithful offering. Not because he was forbidden, but because his nature—his heart—was opposed to God. And the heart cannot change itself.</p>
+            <p>This is total depravity: the human heart, in its fallen state, cannot orient itself toward God without an act of God's grace that gives a new nature. Cain was not merely making a bad choice; Cain was enslaved to evil.</p>
+
+            <h3>The Gospel Response</h3>
+            <p>But 1 John does not end in despair. The same letter says: "We know that we have passed out of death into life, because we love the brothers" (1 John 3:14).</p>
+            <p>The change from Cain-like nature to Abel-like faith is not something <em>we</em> accomplish. It is something God accomplishes in us. God gives us a new nature. God causes us to love. God grants us faith.</p>
+        </section>
+
+        <section id="warning">
+            <h2>God's Warning to Cain</h2>
+            <div class="scripture-block">
+                "If you do well, will you not be accepted? And if you do not do well, sin is crouching at the door. Its desire is contrary to you, but you must rule over it."
+                <span class="scripture-ref">Genesis 4:6–7</span>
+            </div>
+
+            <h3>A Genuine Warning</h3>
+            <p>God does not leave Cain in darkness. After Cain's face fell in anger and rejection, God spoke to him. God gave Cain a genuine, true warning.</p>
+            <p>"If you do well, will you not be accepted?" The condition is real. The pathway is clear. "Do well" and acceptance follows.</p>
+            <p>This is <em>common grace</em>. God in His kindness gives a warning to a fallen person. God appeals to Cain to turn, to do well, to seek acceptance.</p>
+
+            <h3>The Image: Sin Crouching at the Door</h3>
+            <p>God uses a vivid image: sin is <span class="hebrew">רֹבֵץ</span> (rovets)—crouching at the door, like a predator waiting to pounce.</p>
+            <p>"Its desire is contrary to you"—sin <em>desires</em> to destroy Cain, to have him. It is not neutral. It is active, malevolent, seeking to enslave.</p>
+            <p>"But you must rule over it"—and yet, Cain is responsible. He <em>can</em> rule over sin. Or rather, he can <em>be enabled by God</em> to rule over sin.</p>
+
+            <h3>The Paradox: Responsibility Without Ability</h3>
+            <p>This is the great paradox of Scripture. God commands what humans cannot do apart from grace. "Repent!" (Acts 17:30). Yet who can repent? Only those whom "the Lord granted... repentance" (2 Timothy 2:25).</p>
+            <p>"Let each of you turn from your evil ways" (Jonah 3:8). Yet Jeremiah says: "Can the Ethiopian change his skin or the leopard his spots? Then also you can do good who are accustomed to doing evil" (Jeremiah 13:23).</p>
+            <p>"Rule over sin," God tells Cain. But Cain cannot. And Cain knows it. And God knows Cain knows it. Yet the command stands. The responsibility remains.</p>
+            <p>God's warning demonstrates that Cain was fully responsible for his actions. He was not a puppet. He was not excused by determinism. He was a moral agent accountable to God. But without grace—and grace was not given to Cain—he could not obey.</p>
+
+            <h3>Compatibilism in Practice</h3>
+            <p>This is <em>compatibilism</em>—the view that divine sovereignty and human responsibility are both true, both real, both important. God is sovereign over all things, including the choices of human hearts. Yet humans make real choices, bear real responsibility, and face real judgment.</p>
+            <p>The fact that Cain did not repent despite the warning proves exactly what Scripture teaches about the fallen human heart: that without grace, it cannot change.</p>
+        </section>
+
+        <section id="arguments">
+            <h2>Six Arguments from the Text</h2>
+
+            <ul class="argument-list">
+                <li>
+                    <strong>1. God accepted the person before the offering</strong>
+                    <br>Genesis 4:4b says "The LORD had regard for Abel AND his offering" (person first, then action). This follows the order of salvation: election → regeneration → faith → works. God accepts the person; therefore the person's works are acceptable. Not the reverse.
+                </li>
+
+                <li>
+                    <strong>2. Both brothers had identical circumstances</strong>
+                    <br>Same parents, same environment, same knowledge of God, same fallen nature. The difference between them did not arise from external factors. It arose from God's sovereign distinction. If both were sinners in identical circumstances, why did one have faith and the other didn't? Only answer: God's gift.
+                </li>
+
+                <li>
+                    <strong>3. Faith is the decisive factor, and faith is a gift</strong>
+                    <br>Hebrews 11:4 says the difference was "faith." But Ephesians 2:8-9 says faith is "the gift of God." And Philippians 1:29 says faith is "granted" to us. Therefore, God's gracious gift of faith to Abel was the ground of his acceptance.
+                </li>
+
+                <li>
+                    <strong>4. Cain's nature determined his actions</strong>
+                    <br>1 John 3:12 says Cain "was of the evil one"—a statement about nature, not just behavior. He murdered Abel because his deeds were evil; the nature came first, the actions followed. He could not have chosen differently without a change of nature.
+                </li>
+
+                <li>
+                    <strong>5. The pattern: firstborn rejected, younger chosen</strong>
+                    <br>Cain was the firstborn. Abel was younger. This pattern reverses natural expectation and runs throughout Scripture (Ishmael/Isaac, Esau/Jacob, Reuben/Joseph). God overturns human priority and establishes His own sovereign choice.
+                </li>
+
+                <li>
+                    <strong>6. God's warning proves responsibility without disproving sovereignty</strong>
+                    <br>The warning (Genesis 4:6-7) shows that Cain was responsible, accountable, and capable of understanding the moral stakes. But Cain didn't repent. This proves that warnings alone cannot change the heart without grace—exactly what Scripture teaches about human depravity.
+                </li>
+            </ul>
+        </section>
+
+        <section id="objections">
+            <h2>Objections Answered</h2>
+
+            <div class="objection">
+                <h4>"Cain just brought a bad offering—it was about offering type, not election."</h4>
+                <div class="objection-response">
+                    Hebrews 11:4 explicitly says the difference was <em>faith</em>, not offering type. Furthermore, grain offerings are legitimate in Levitical law—God accepts plant offerings from faithful worshippers. And the text itself says God had regard for <em>Abel first</em>, then his offering. The person was accepted before the works. This is election, not meritocracy.
+                </div>
+            </div>
+
+            <div class="objection">
+                <h4>"Abel chose to have faith—it was his free will decision."</h4>
+                <div class="objection-response">
+                    Where does Abel's faith come from in a world where both brothers inherited Adam's fallen nature? Ephesians 2:8-9 says faith itself is "the gift of God." Philippians 1:29 says faith is "granted" to us. In what sense is Abel "free" to choose faith when faith is a gift he must receive? The choice to believe is not a choice the sinner can make apart from grace. Grace must come first.
+                </div>
+            </div>
+
+            <div class="objection">
+                <h4>"God gave Cain a chance to repent (Genesis 4:6-7), so it wasn't predetermined."</h4>
+                <div class="objection-response">
+                    The warning proves accountability, not ability. This is the biblical pattern: God commands what humans cannot do apart from grace. "Repent" (Acts 17:30)—yet who can repent without the Lord granting it (2 Timothy 2:25)? "Rule over sin" (Genesis 4:7)—yet Cain cannot, and doesn't. The fact that Cain didn't repent despite the warning proves Scripture's teaching on total depravity: the unregenerate heart cannot change itself.
+                </div>
+            </div>
+
+            <div class="objection">
+                <h4>"This is about worship practice or ethics, not soteriological election."</h4>
+                <div class="objection-response">
+                    The New Testament authors disagree. Hebrews 11 places Abel in the hall of faith—the chapter about believers throughout history. 1 John 3 makes Cain a paradigm of spiritual darkness ("of the evil one"). Jesus calls Abel "righteous Abel" (Matthew 23:35). The Bible itself treats this as a salvation-level distinction between two kinds of people: those whom God chooses and those He doesn't.
+                </div>
+            </div>
+
+            <div class="objection">
+                <h4>"It's unfair for God to accept one and reject the other without the brothers doing anything different."</h4>
+                <div class="objection-response">
+                    Both brothers were sinners. Neither deserved acceptance. Justice would have rejected both. That God accepted one is grace; that He rejected the other is justice. The question isn't "Why did God reject Cain?" The real question is "Why did God accept Abel?" And the answer is: because God is merciful. That mercy fell on one and not the other—and that is the scandal and the glory of election.
+                </div>
+            </div>
+        </section>
+
+        <section id="witnesses">
+            <h2>The Cloud of Witnesses</h2>
+
+            <div class="witness">
+                <div class="witness-text">
+                    "The fact that Abel was accepted, and Cain rejected, was no accident of nature or circumstance, but the result of God's sovereign discrimination. God did not accept Abel because Abel was good; God accepted Abel, and therefore Abel was good. The order is all-important. Election precedes righteousness; grace precedes faith."
+                </div>
+                <div class="witness-attr">— Augustine, reflecting on predestination and grace</div>
+            </div>
+
+            <div class="witness">
+                <div class="witness-text">
+                    "Why was Abel's sacrifice more excellent than Cain's? Not because he brought a different offering, but because his heart was already turned toward God. From whence came this turning? Not from himself, but from God's eternal choice. Even so, faith is the gift of God."
+                </div>
+                <div class="witness-attr">— John Calvin, Genesis Commentary (on Genesis 4:4)</div>
+            </div>
+
+            <div class="witness">
+                <div class="witness-text">
+                    "Here is the first of all elections recorded in holy writ. Neither in the case of Abel nor of any other did God wait to see what they would do before He loved them. No; He loved them because He loved them, and that is the only reason."
+                </div>
+                <div class="witness-attr">— Charles Spurgeon, Sermon on Election</div>
+            </div>
+
+            <div class="witness">
+                <div class="witness-text">
+                    "Cain and Abel show us two kinds of religion: one which flows from the heart made alive by God, and one which flows from the natural human heart. One brings the firstfruits; the other brings what remains. One is accepted; the other is not. And this tells us everything about the nature of true religion versus counterfeit affection."
+                </div>
+                <div class="witness-attr">— Jonathan Edwards, Religious Affections</div>
+            </div>
+        </section>
+
+        <section id="conclusion">
+            <h2>The Cloud of Witnesses Speaks</h2>
+            <p>The first story after Eden is the story of election. Before there was a nation of Israel, before there was a pharaoh to harden, before Romans 9 was written—God was already distinguishing between people.</p>
+            <p>Not on the basis of works. "For by works of the law no flesh will be justified" (Romans 3:20). Not on the basis of foreseen faith. Cain and Abel had identical circumstances. Not on the basis of natural ability or virtue. Both were sinners.</p>
+            <p>But on the basis of God's <em>sovereign purpose and gracious choice.</em> God looked upon Abel and his offering. God had regard for Abel. And this regard was not earned, was not predicted on anything Abel would do, was not merited by Abel's character. It was the free and sovereign act of God's will.</p>
+            <p>Abel's blood cried from the ground (Genesis 4:10). His innocent blood, spilled by his brother, spoke of injustice, of violence, of death. But Hebrews 12:24 tells us something greater: the blood of Jesus "speaks a better word than the blood of Abel."</p>
+            <p>Christ is the chosen one. The Lamb slain before the foundation of the world. The one whom God loves with everlasting love. The one whom the Father has given all things. And in Him, all whom God has chosen—all the Abels of the elect—are loved, accepted, and made righteous.</p>
+            <p>By faith Abel offered to God a more acceptable sacrifice than Cain. By faith—the gift of God. And though he died, he still speaks.</p>
+            <div class="scripture-block">
+                "By faith Abel offered to God a more acceptable sacrifice than Cain, through which he was commended as righteous, God commending him by accepting his gifts. And through his faith, though he died, he still speaks."
+                <span class="scripture-ref">Hebrews 11:4</span>
+            </div>
+        </section>
+
+        <div class="social-share">
+            <a href="https://twitter.com/intent/tweet?url=https://adoptedbygrace.net/ot-abel-cain.html&text=Abel%20and%20Cain:%20The%20First%20Election%20-%20God%27s%20sovereign%20choice%20before%20the%20Fall%27s%20consequence%20even%20faded" class="social-btn" title="Share on X">𝕏</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://adoptedbygrace.net/ot-abel-cain.html" class="social-btn" title="Share on Facebook">f</a>
+            <a href="mailto:?subject=Abel%20and%20Cain:%20The%20First%20Election&body=https://adoptedbygrace.net/ot-abel-cain.html" class="social-btn" title="Share via Email">✉</a>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://adoptedbygrace.net/ot-abel-cain.html" class="social-btn" title="Share on LinkedIn">in</a>
+        </div>
+
+        <div class="continue-grid">
+            <h3 style="grid-column: 1 / -1; color: var(--accent-gold); margin-bottom: var(--spacing-md);">Continue Exploring Election</h3>
+            <a href="/ot-noah.html" class="continue-card">
+                <h3>Noah: Chosen for Preservation</h3>
+                <p>How God chose one family in a corrupt world and preserved a remnant through judgment.</p>
+            </a>
+            <a href="/ot-abraham.html" class="continue-card">
+                <h3>Abraham: Election and Covenant</h3>
+                <p>God calls a man from darkness and makes an everlasting covenant with him and his seed.</p>
+            </a>
+            <a href="/ot-jacob-esau.html" class="continue-card">
+                <h3>Jacob vs. Esau: Election Before Birth</h3>
+                <p>God's sovereign choice displayed before either twin had done good or evil.</p>
+            </a>
+            <a href="/ot-election.html" class="continue-card">
+                <h3>OT Election Hub</h3>
+                <p>A complete guide to the doctrine of election in the Old Testament.</p>
+            </a>
+            <a href="/question-depravity.html" class="continue-card">
+                <h3>Total Depravity</h3>
+                <p>Why the human heart cannot save itself—and why grace must be first.</p>
+            </a>
+            <a href="/question-chosen.html" class="continue-card">
+                <h3>Chosen Before the Foundation</h3>
+                <p>Scripture's testimony that God chose His people before time began.</p>
+            </a>
+        </div>
+
+        <section id="resources" style="margin-top: var(--spacing-xl);">
+            <h2>Further Reading</h2>
+            <ul class="argument-list" style="list-style: none;">
+                <li style="border-left: 4px solid var(--accent-gold);">
+                    <a href="/question-chosen.html" style="color: var(--accent-gold); text-decoration: none; font-weight: 600;">Chosen Before the Foundation</a> — Scripture's testimony to God's eternal election of His people.
+                </li>
+                <li style="border-left: 4px solid var(--accent-gold);">
+                    <a href="/question-faithgift.html" style="color: var(--accent-gold); text-decoration: none; font-weight: 600;">Is Faith a Gift?</a> — The biblical foundation for understanding grace as prior to faith.
+                </li>
+                <li style="border-left: 4px solid var(--accent-gold);">
+                    <a href="/systematic-hamartiology.html" style="color: var(--accent-gold); text-decoration: none; font-weight: 600;">The Doctrine of Sin</a> — Understanding total depravity and its implications.
+                </li>
+                <li style="border-left: 4px solid var(--accent-gold);">
+                    <a href="/question-goldchain.html" style="color: var(--accent-gold); text-decoration: none; font-weight: 600;">The Golden Chain</a> — Romans 8:29-30 and the order of salvation.
+                </li>
+                <li style="border-left: 4px solid var(--accent-gold);">
+                    <a href="/ot-noah.html" style="color: var(--accent-gold); text-decoration: none; font-weight: 600;">Noah: Chosen for Preservation</a> — The second election narrative in Scripture.
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Doctrine</h3>
+                    <a href="/questions">The Evidence</a>
+                    <a href="/systematic-theology-hub">Systematic Theology</a>
+                    <a href="/scripture-tsunami">Scripture Tsunami</a>
+                    <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Explore</h3>
+                    <a href="/devotionals">Devotionals</a>
+                    <a href="/stories">Stories &amp; Parables</a>
+                    <a href="/analogies-illustrations">Analogies</a>
+                    <a href="/pastoral-assurance">Pastoral</a>
+                    <a href="/secular-evidence">Secular Evidence</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <a href="/about">About</a>
+                    <a href="/resources">All Resources</a>
+                    <a href="/contact">Contact</a>
+                    <a href="/privacy">Privacy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Adopted by Grace. All Scripture quotations are from the ESV unless otherwise noted. <strong>Soli Deo Gloria.</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+
+    <script>
+        // Reading Progress Bar
+        function updateProgressBar() {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            document.querySelector('.reading-progress').style.width = scrollPercent + '%';
+        }
+
+        window.addEventListener('scroll', updateProgressBar);
+
+        // Back to Top Button
+        const backToTopBtn = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Hamburger Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Section Navigation Scroll Spy
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks_spy = document.querySelectorAll('.section-nav a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks_spy.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+    <script src="/global.js" defer></script>
+</body>
+</html>

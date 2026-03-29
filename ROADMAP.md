@@ -118,6 +118,8 @@
 - `question-1peter1.html` — **NEW** 1 Peter 1:1-2 deep-dive: "Elect Exiles According to the Foreknowledge of God" — Trinitarian election, foreknowledge as fore-love
 - `question-revelation13.html` — **NEW** Revelation 13:8 & 17:8 deep-dive: "Names Written Before the Foundation of the World" — Book of Life and eternal decree
 - `secular-algorithm-sovereignty.html` — **NEW** "The Algorithm Knows You Better Than You Know Yourself" — Secular evidence page: predictive algorithms (Netflix, Spotify, Amazon, Target, Facebook studies) confirm divine sovereignty & foreknowledge. ~2,500 words. ✅ (2026-03-28 Visionary)
+- `ot-noah.html` — **NEW** Noah: Chosen for Preservation — Genesis 6-9, grace before the flood, Hebrew word study (chen, tsaddiq, tamim), the order of grace (6:8 before 6:9), the ark as election, the covenant of preservation. ✅ (2026-03-28 Content Builder)
+- `ot-abel-cain.html` — **NEW** Abel vs. Cain: The First Election — Genesis 4, Hebrews 11:4, 1 John 3:12. The Bible's first story after Eden reveals sovereign distinction. Hebrew analysis, six arguments, five objections answered. ✅ (2026-03-28 Content Builder)
 
 ### Design System
 - Dark dramatic aesthetic (#0a0a0f bg, gold/ember/violet accents)
@@ -156,8 +158,8 @@
 - [x] **David: Election & Kingship** — `ot-david.html` — The youngest chosen, Psalm 65:4, Davidic covenant, type of Christ ✅ (2026-03-27 OT Election Session)
 - [x] **Joseph: Sovereignty in Suffering** — `ot-joseph.html` — Genesis 50:20, compatibilism, type of Christ ✅ (2026-03-27 OT Election Session)
 - [x] **Israel: A Chosen Nation** — `ot-israel-chosen.html` — Deuteronomy 7:6-8, 9:4-6, remnant principle, Isaiah 46:9-10 ✅ (2026-03-27 OT Election Session)
-- [ ] **Noah: Chosen for Preservation** — Genesis 6-9, grace before the flood
-- [ ] **Abel vs. Cain: The First Election** — Genesis 4, Hebrews 11:4
+- [x] **Noah: Chosen for Preservation** — Genesis 6-9, grace before the flood → `ot-noah.html` ✅ (2026-03-28 Content Builder)
+- [x] **Abel vs. Cain: The First Election** — Genesis 4, Hebrews 11:4 → `ot-abel-cain.html` ✅ (2026-03-28 Content Builder)
 - [ ] **Isaiah's Servant** — The ultimate election narrative
 - [ ] **Jeremiah: Called Before Formation** — Jeremiah 1:5
 - [ ] **Job: Suffering and God's Sovereignty**
@@ -405,6 +407,13 @@
 ---
 
 ## Session Log
+
+### 2026-03-28 — Content Builder Session: OT Election Expansion (2 New Pages)
+- **Built `ot-noah.html`** — Noah: Chosen for Preservation (Genesis 6-9). ~1,323 lines. Deep exegetical page covering: the world before the flood (Gen 6:5 total depravity), "Noah found grace" (Gen 6:8 — the Bible's first use of חֵן), the critical order of grace (6:8 before 6:9 proves grace precedes righteousness), Hebrew word studies (chen, tsaddiq, tamim, hithallekh), the ark as a type of Christ, "the LORD shut him in" (Gen 7:16), the covenant of preservation, NT witnesses (Heb 11:7, 1 Pet 3:20, 2 Pet 2:5, Matt 24), 7 arguments from the text, 6 objections answered, theologian quotes.
+- **Built `ot-abel-cain.html`** — Abel vs. Cain: The First Election (Genesis 4). ~1,278 lines. The first story after Eden reveals God's sovereign distinction. Covers: the two offerings, why Abel's was accepted (Heb 11:4 — faith, not offering type), Hebrew analysis (sha'ah, minchah, bekhorot, chelvehen, charah), 1 John 3:12 (Cain's nature), God's warning to Cain (compatibilism), 6 arguments, 5 objections answered, theologian quotes.
+- **Updated `ot-election.html`** — Added both Noah and Abel & Cain cards to the character studies grid and the Continue Your Journey footer section
+- **Cross-references added** to: question-depravity.html (Noah link), question-chosen.html (Noah link), systematic-covenant-theology.html (Noah link), ot-abraham.html (Noah link), question-irresistible.html (Noah link)
+- **ROADMAP updated** — Both items checked off in Priority 2 backlog
 
 ### 2026-03-28 — Architect Session 4: Comprehensive Technical Overhaul (187 pages)
 - **SCOPE:** Full-site technical audit and remediation — sitemap, SEO, accessibility, navigation, and broken links
