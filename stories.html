@@ -387,6 +387,119 @@
             footer { padding: 1.2rem 0.8rem; margin-top: 2rem; }
         }
 
+/* ========== AUDIENCE BADGES ========== */
+.audience-badge {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    padding: 0.25rem 0.65rem;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.audience-badge.all-ages {
+    background: rgba(139, 92, 246, 0.15);
+    color: #a78bfa;
+}
+
+.audience-badge.deep-thinkers {
+    background: rgba(212, 162, 84, 0.15);
+    color: var(--accent-gold);
+}
+
+.audience-badge.dark {
+    background: rgba(220, 38, 38, 0.12);
+    color: #f87171;
+}
+
+.audience-badge.tender {
+    background: rgba(52, 211, 153, 0.12);
+    color: #6ee7b7;
+}
+
+.audience-badge.kids {
+    background: rgba(96, 165, 250, 0.15);
+    color: #93c5fd;
+}
+
+.audience-badge.hard-hitting {
+    background: rgba(251, 146, 60, 0.15);
+    color: #fdba74;
+}
+
+.audience-badge.humor {
+    background: rgba(250, 204, 21, 0.12);
+    color: #fde68a;
+}
+
+.audience-badge.thought-experiment {
+    background: rgba(232, 100, 44, 0.12);
+    color: var(--accent-ember);
+}
+
+.card-badges {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.8rem;
+}
+
+/* ========== FILTER BAR ========== */
+.filter-bar {
+    max-width: 900px;
+    margin: 0 auto 2rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.filter-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-muted);
+    margin-right: 0.5rem;
+}
+
+.filter-btn {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.35rem 0.8rem;
+    border-radius: 4px;
+    border: 1px solid var(--border-subtle);
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.filter-btn:hover {
+    border-color: rgba(212, 162, 84, 0.4);
+    color: var(--text-primary);
+}
+
+.filter-btn.active {
+    background: rgba(212, 162, 84, 0.15);
+    border-color: var(--accent-gold);
+    color: var(--accent-gold);
+}
+
+@media (max-width: 768px) {
+    .filter-bar { padding: 0 1.2rem; }
+}
+
+@media (max-width: 480px) {
+    .filter-bar { padding: 0 0.8rem; gap: 0.4rem; }
+    .filter-btn { font-size: 0.6rem; padding: 0.3rem 0.6rem; }
+}
+
 /* ========== FOCUS STYLES ========== */
 *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
@@ -469,11 +582,27 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </section>
 
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+        <span class="filter-label">Browse by:</span>
+        <button class="filter-btn active" data-filter="all">All Stories</button>
+        <button class="filter-btn" data-filter="all-ages">All Ages</button>
+        <button class="filter-btn" data-filter="kids">Great for Kids</button>
+        <button class="filter-btn" data-filter="dark">Dark &amp; Gripping</button>
+        <button class="filter-btn" data-filter="tender">Tender</button>
+        <button class="filter-btn" data-filter="thought-experiment">Thought Experiments</button>
+    </div>
+
     <!-- Featured Story -->
-    <section class="featured-section">
+    <section class="featured-section" data-audience="all-ages tender kids">
         <div class="section-label">Story of the Week</div>
         <a href="story-the-fish-who-chose-the-ocean" class="featured-card">
             <div class="card-type">A Fable</div>
+            <div class="card-badges">
+                <span class="audience-badge all-ages">All Ages</span>
+                <span class="audience-badge tender">Tender</span>
+                <span class="audience-badge kids">Great for Kids</span>
+            </div>
             <h2>The Fish Who Chose the Ocean</h2>
             <p class="card-excerpt">A small blue fish announces to the reef that he chose the ocean. An old sea turtle asks him a few questions he cannot answer. He was not wrong that he loved the water. He was only wrong about where the loving came from.</p>
             <div class="card-meta">
@@ -487,10 +616,14 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     </section>
 
     <!-- Published Stories -->
-    <section class="featured-section">
+    <section class="featured-section" data-audience="dark deep-thinkers thought-experiment">
         <div class="section-label">Published Stories</div>
         <a href="story-the-dead-city" class="featured-card">
             <div class="card-type">An Allegory</div>
+            <div class="card-badges">
+                <span class="audience-badge dark">Dark &amp; Gripping</span>
+                <span class="audience-badge thought-experiment">Thought Experiment</span>
+            </div>
             <h2>The Dead City</h2>
             <p class="card-excerpt">An entire city lies under a curse. Every inhabitant is frozen — upright, functioning, convinced they are free. Then a Prince walks through at night, carrying a lantern, and breathes life into those He chooses. They did not know they were dead. That was the nature of the curse.</p>
             <div class="card-meta">
@@ -503,9 +636,13 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </a>
     </section>
 
-    <section class="featured-section">
+    <section class="featured-section" data-audience="all-ages thought-experiment">
         <a href="story-surgeon-stone-heart" class="featured-card">
             <div class="card-type">A Modern Parable</div>
+            <div class="card-badges">
+                <span class="audience-badge all-ages">All Ages</span>
+                <span class="audience-badge thought-experiment">Thought Experiment</span>
+            </div>
             <h2>The Surgeon and the Stone Heart</h2>
             <p class="card-excerpt">A heart surgeon operates on a patient who never asked for the surgery, couldn't consent to it, and will only discover what happened when she wakes up with a new heart. She didn't choose a new heart. A new heart chose her.</p>
             <div class="card-meta">
@@ -517,9 +654,13 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </a>
     </section>
 
-    <section class="featured-section">
+    <section class="featured-section" data-audience="all-ages kids tender">
         <a href="story-the-kings-banquet" class="featured-card">
             <div class="card-type">A Modern Parable</div>
+            <div class="card-badges">
+                <span class="audience-badge all-ages">All Ages</span>
+                <span class="audience-badge kids">Great for Kids</span>
+            </div>
             <h2>The King's Banquet</h2>
             <p class="card-excerpt">A king prepares a magnificent feast and sends servants to invite guests. When they refuse, the king does something unexpected: he commands his servants to compel the poor, blind, and lame to come in. None chose to come. All are welcome at the table.</p>
             <div class="card-meta">
@@ -532,9 +673,13 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     </section>
 
     <!-- The Orphanage -->
-    <section class="featured-section">
+    <section class="featured-section" data-audience="tender all-ages">
         <a href="story-the-orphanage" class="featured-card">
             <div class="card-type">A Long-Form Allegory</div>
+            <div class="card-badges">
+                <span class="audience-badge tender">Tender</span>
+                <span class="audience-badge all-ages">All Ages</span>
+            </div>
             <h2>The Orphanage</h2>
             <p class="card-excerpt">Every child in the orphanage believed they chose their family on Adoption Day. Then one girl found the records room — and the adoption papers were dated before she was born. She hadn't chosen anyone. Someone had chosen her.</p>
             <div class="card-meta">
@@ -656,6 +801,37 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 (function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
 </script>
     <script src="/global.js" defer></script>
+
+    <script>
+    // ===== STORY FILTER =====
+    (function() {
+        var btns = document.querySelectorAll('.filter-btn');
+        var sections = document.querySelectorAll('.featured-section[data-audience]');
+        var comingSection = document.querySelector('.coming-section');
+
+        btns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                btns.forEach(function(b) { b.classList.remove('active'); });
+                btn.classList.add('active');
+                var filter = btn.getAttribute('data-filter');
+
+                sections.forEach(function(sec) {
+                    if (filter === 'all') {
+                        sec.style.display = '';
+                    } else {
+                        var audiences = sec.getAttribute('data-audience') || '';
+                        sec.style.display = audiences.indexOf(filter) !== -1 ? '' : 'none';
+                    }
+                });
+
+                // Hide "Coming Soon" when filtering
+                if (comingSection) {
+                    comingSection.style.display = filter === 'all' ? '' : 'none';
+                }
+            });
+        });
+    })();
+    </script>
 
     <script>
     // ===== SITE SEARCH =====
