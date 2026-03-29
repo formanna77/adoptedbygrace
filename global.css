@@ -55,6 +55,11 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
 .nav-top-link:hover { color: var(--accent-gold); }
 .nav-top-link:hover::after { transform: scaleX(1); }
 
+/* Home icon */
+.nav-home { padding: 0 0.4rem !important; }
+.nav-home svg { display: block; stroke: var(--accent-gold); transition: stroke 0.25s ease, transform 0.25s ease; }
+.nav-home:hover svg { stroke: var(--accent-ember); transform: scale(1.1); }
+
 /* Best Reads — special fire styling */
 .nav-best-reads { color: var(--accent-ember) !important; font-weight: 700 !important; }
 .nav-best-reads::after { background: var(--accent-ember) !important; }
