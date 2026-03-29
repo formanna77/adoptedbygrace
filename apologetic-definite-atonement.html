@@ -13,7 +13,10 @@
     <meta property="og:type" content="article">
     <link rel="canonical" href="https://adoptedbygrace.net/apologetic-definite-atonement">
     <title>Did Jesus Die for Everyone? Scripture on Definite Atonement | Adopted by Grace</title>
-    <link rel="stylesheet" href="/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./global.css">
 
     <style>
         :root {
@@ -526,7 +529,7 @@
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -732,7 +735,7 @@
                     <li><a href="/questions">The Evidence</a></li>
                     <li><a href="/systematic-theology">Systematic Theology</a></li>
                     <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                    <li><a href="/resources-confessions">Creeds &amp; Confessions</a></li>
+                    <li><a href="/creeds-confessions">Creeds &amp; Confessions</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -749,9 +752,9 @@
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="/questions">The Evidence</a></li>
-                    <li><a href="/connect">Subscribe</a></li>
+                    <li><a href="/contact">Subscribe</a></li>
                 </ul>
             </div>
         </div>
@@ -811,6 +814,29 @@
                 e.preventDefault();
             });
         });
+    
+        // Mobile dropdown toggles
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks) {
+            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
+                trigger.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const li = trigger.closest('li');
+                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
+                        if (openLi !== li) openLi.classList.remove('dropdown-open');
+                    });
+                    li.classList.toggle('dropdown-open');
+                });
+            });
+            navLinks.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const hamburger = document.querySelector('.hamburger');
+                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
     </script>
 </body>
 </html>

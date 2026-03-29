@@ -15,7 +15,7 @@
     <meta name="twitter:title" content="Demolition: Revelation 3:20 — 'I Stand at the Door and Knock'">
     <meta name="twitter:description" content="Revelation 3:20 examined: 'Behold I stand at the door and knock' is NOT an evangelistic altar call. This verse addresses a lukewarm church, not unbelievers. Context is everything.">
     <meta name="keywords" content="Revelation 3:20, Laodicea church, door and knock, altar call misuse, church discipline, covenant fellowship, Greek deipnon, Arminian proof texts answered, verse demolition">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <title>Demolition: Revelation 3:20 — 'I Stand at the Door and Knock'</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -244,7 +244,7 @@
         .skip-link:focus { outline: 2px solid var(--accent-gold); }
 
     </style>
-    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="./global.css">
 </head>
 <body>
     <div class="reading-progress"></div>
@@ -267,7 +267,7 @@
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -643,7 +643,7 @@
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>
@@ -714,7 +714,30 @@
             });
         });
     </script>
-    <script src="/global.js" defer></script>
+    <script src="/global.js" defer>
+        // Mobile dropdown toggles
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks) {
+            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
+                trigger.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const li = trigger.closest('li');
+                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
+                        if (openLi !== li) openLi.classList.remove('dropdown-open');
+                    });
+                    li.classList.toggle('dropdown-open');
+                });
+            });
+            navLinks.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const hamburger = document.querySelector('.hamburger');
+                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
+    </script>
 
 </body>
 </html>

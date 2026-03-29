@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="What about the billions who never heard the gospel? Scripture reveals God's justice, general revelation, and the true nature of human accountability before Him.">
+    <meta name="keywords" content="unreached, unevangelized, general revelation, Romans 1, God's justice, mission, accountability">
+    <meta property="og:title" content="What About Those Who Never Heard the Gospel? — Adopted by Grace">
+    <meta property="og:description" content="How God's sovereignty, justice, and general revelation answer this profound question of compassion.">
+    <meta property="og:url" content="https://adoptedbygrace.net/apologetic-unreached">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="What About Those Who Never Heard the Gospel?">
+    <meta name="twitter:description" content="A Scripture-first answer to one of faith's deepest questions.">
+    <link rel="canonical" href="https://adoptedbygrace.net/apologetic-unreached">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "What About Those Who Never Heard the Gospel? Scripture's Answer",
+      "description": "How God's sovereignty, general revelation, and perfect justice address this profound question.",
+      "image": "https://adoptedbygrace.net/og-image.jpg",
+      "datePublished": "2026-03-28",
+      "author": {
+        "@type": "Organization",
+        "name": "Adopted by Grace"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Adopted by Grace",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://adoptedbygrace.net/logo.png"
+        }
+      }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./global.css">
+
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-tertiary: #1a1a25;
+            --text-primary: #f0f0f5;
+            --text-secondary: #b8b8c8;
+            --accent-gold: #d4a254;
+            --accent-violet: #8b5cf6;
+            --accent-ember: #dc2626;
+            --border-color: #2a2a35;
+            --hover-bg: rgba(212, 162, 84, 0.08);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        /* Reading Progress Bar */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
+            width: 0%;
+            z-index: 999;
+            transition: width 0.2s ease;
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            text-decoration: none;
+            letter-spacing: 0.5px;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 2px;
+            background: var(--accent-gold);
+            transition: all 0.3s ease;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(10px, 10px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .nav-links li {
+            position: relative;
+        }
+
+        .nav-links a,
+        .nav-trigger {
+            display: block;
+            padding: 0.75rem 1rem;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            transition: color 0.3s ease, background 0.3s ease;
+        }
+
+        .nav-links a:hover,
+        .nav-trigger:hover {
+            color: var(--accent-gold);
+            background: var(--hover-bg);
+        }
+
+        .nav-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            min-width: 220px;
+            display: none;
+            flex-direction: column;
+            margin-top: 0.5rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .nav-dropdown a {
+            padding: 0.75rem 1.5rem;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .nav-dropdown a:last-child {
+            border-bottom: none;
+        }
+
+        .nav-dropdown a:hover {
+            background: var(--hover-bg);
+            color: var(--accent-gold);
+        }
+
+        .nav-trigger.active ~ .nav-dropdown {
+            display: flex;
+        }
+
+        .nav-arrow {
+            display: inline-block;
+            transition: transform 0.3s ease;
+            font-size: 0.75rem;
+        }
+
+        .nav-trigger.active .nav-arrow {
+            transform: rotate(180deg);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.1), rgba(139, 92, 246, 0.05));
+            border-bottom: 1px solid var(--border-color);
+            padding: 6rem 2rem 4rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.2rem;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 2rem 0;
+            font-size: 0.95rem;
+        }
+
+        .breadcrumb a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent-violet);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .section {
+            margin-bottom: 4rem;
+        }
+
+        .section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+            line-height: 1.3;
+        }
+
+        .section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--accent-violet);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+
+        .section p {
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+
+        .section ul,
+        .section ol {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+
+        .section li {
+            margin-bottom: 0.75rem;
+        }
+
+        /* Scripture Box */
+        .scripture-box {
+            background: var(--bg-tertiary);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.75rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            line-height: 1.9;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        .scripture-ref {
+            display: block;
+            font-style: normal;
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-top: 1rem;
+            font-size: 0.95rem;
+        }
+
+        /* Quote Block */
+        .quote-block {
+            background: rgba(139, 92, 246, 0.08);
+            border-left: 4px solid var(--accent-violet);
+            padding: 1.75rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            line-height: 1.9;
+            font-style: italic;
+            color: var(--text-primary);
+        }
+
+        .quote-attr {
+            display: block;
+            font-style: normal;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+            font-size: 0.95rem;
+        }
+
+        /* Never Gives Up Banner */
+        .never-gives-up-banner {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.15), rgba(139, 92, 246, 0.1));
+            border: 1px solid rgba(212, 162, 84, 0.3);
+            border-radius: 16px;
+            padding: 3rem 2rem;
+            text-align: center;
+            max-width: 900px;
+            margin: 4rem auto;
+        }
+
+        .never-gives-up-banner h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent-gold);
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            margin-top: 0;
+        }
+
+        .never-gives-up-banner p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto 1.5rem;
+        }
+
+        .never-gives-up-banner a {
+            display: inline-block;
+            padding: 12px 32px;
+            background: var(--accent-gold);
+            color: #0a0a0f;
+            font-weight: 700;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .never-gives-up-banner a:hover {
+            background: var(--accent-violet);
+            color: var(--text-primary);
+        }
+
+        /* Related Resources */
+        .related-resources {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .resource-card {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            padding: 1.75rem;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .resource-card:hover {
+            border-color: var(--accent-gold);
+            background: var(--hover-bg);
+        }
+
+        .resource-card h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent-gold);
+            font-size: 1.2rem;
+            margin: 0 0 0.75rem 0;
+            line-height: 1.3;
+        }
+
+        .resource-card p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--accent-gold);
+            color: #0a0a0f;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.5rem;
+            z-index: 50;
+            transition: all 0.3s ease;
+        }
+
+        .back-to-top:hover {
+            background: var(--accent-violet);
+            transform: translateY(-3px);
+        }
+
+        .back-to-top.show {
+            display: flex;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 3rem 2rem;
+            text-align: center;
+            margin-top: 6rem;
+        }
+
+        footer div {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-violet);
+        }
+
+        footer p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero p {
+                font-size: 1.05rem;
+            }
+
+            .section h2 {
+                font-size: 1.6rem;
+            }
+
+            .section h3 {
+                font-size: 1.25rem;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background: var(--bg-secondary);
+                border-top: 1px solid var(--border-color);
+                gap: 0;
+                border-radius: 0;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-dropdown {
+                position: static;
+                border: none;
+                background: var(--bg-tertiary);
+                display: none;
+                box-shadow: none;
+                margin: 0;
+                border-radius: 0;
+            }
+
+            .nav-trigger.active ~ .nav-dropdown {
+                display: flex;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reading-progress"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="logo">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/explore-map">The Map</a></li>
+                <li>
+                    <button class="nav-trigger">Doctrine <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/questions">The Evidence</a>
+                        <a href="/systematic-theology">Systematic Theology</a>
+                        <a href="/scripture-tsunami">Scripture Tsunami</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Apologetics <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/demolition-hub">Demolition Zone</a>
+                        <a href="/compare-calvinism-arminianism">Comparisons</a>
+                        <a href="/objection-why-command">Objections Answered</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">Explore <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/devotionals">Devotionals</a>
+                        <a href="/stories">Stories &amp; Parables</a>
+                        <a href="/analogies-illustrations">Analogies</a>
+                        <a href="/pastoral-assurance">Pastoral</a>
+                        <a href="/secular-philosophy-free-will">Secular Evidence</a>
+                    </div>
+                </li>
+                <li>
+                    <button class="nav-trigger">History <span class="nav-arrow">&#9660;</span></button>
+                    <div class="nav-dropdown">
+                        <a href="/theologians">Theologians</a>
+                        <a href="/history-timeline">Church History</a>
+                        <a href="/ot-election">OT Election</a>
+                    </div>
+                </li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>What About Those Who Never Heard the Gospel?</h1>
+        <p>One of compassion's most haunting questions. This is where our hearts ache and our theology is tested.</p>
+    </section>
+
+    <div class="breadcrumb">
+        <a href="/questions">← Back to The Evidence</a>
+    </div>
+
+    <main>
+        <section class="section">
+            <h2>The Question That Haunts</h2>
+            <p>Ask almost any believer about God's sovereignty in salvation, and eventually someone will ask: "But what about the billions who never hear the gospel? How can God be just if He predestines some to salvation while entire unreached people groups live and die without ever hearing the name of Jesus?"</p>
+            <p>This question is born of genuine compassion. We see the lostness of the world and our hearts break. We want God to be merciful. We want Him to be fair. So we ask it—sometimes with faith, sometimes with doubt, always with intensity.</p>
+            <p>Here's what we must understand: the question assumes something false. It assumes that without hearing the gospel message, people are neutral, innocent, waiting innocently for information. But Scripture teaches something profoundly different. It teaches that every human being is born in rebellion against God, and every human being has already rejected what He has made known. The problem is not a lack of evidence. The problem is a heart that suppresses it.</p>
+        </section>
+
+        <section class="section">
+            <h2>The Hidden Assumptions</h2>
+            <p>Before we answer the question, we must diagnose it. When someone asks about the unreached, they're usually assuming one or both of these things:</p>
+            <ul>
+                <li><strong>That people are innocent until they explicitly reject the gospel message.</strong> This assumes that ignorance of the gospel equals innocence before God. But Scripture teaches that humans are "born in sin, shaped in iniquity" (Psalm 51:5). We don't become sinners by rejecting Christ; we become accountable by rejecting what we've already been shown.</li>
+                <li><strong>That God's justice requires equal access to the gospel.</strong> This assumes that a fair God must give every human being an equal opportunity to hear, understand, and believe the gospel before He can justly condemn them. But Scripture teaches that God's justice consists in giving each person what they have earned—and all have earned death (Romans 6:23).</li>
+            </ul>
+            <p>Both assumptions crumble when we stand on Scripture. The question isn't whether God is fair to people without the gospel. The question is whether God is gracious to anyone at all—and He is.</p>
+        </section>
+
+        <section class="section">
+            <h2>What Every Human Being Has Received</h2>
+            <p>Paul writes in Romans 1:18-23:</p>
+            <div class="scripture-box">
+                "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who suppress the truth in unrighteousness, because what may be known of God is manifest in them, for God has shown it to them. For since the creation of the world His invisible attributes are clearly seen, being understood by the things that are made, even His eternal power and Godhead, so that they are without excuse."
+                <span class="scripture-ref">Romans 1:18-20 NKJV</span>
+            </div>
+            <p>Notice the precision here. God has not left the unreached in darkness. He has shown them His power and nature through creation itself. Every person who has ever lived has been given a revelation of God's existence and attributes through the physical world.</p>
+            <p>The sun rises over billions who have never heard of Christ. Mountains tower before them. The stars wheel through the night sky. The human conscience whispers of right and wrong. These are not accidents. These are divine messages.</p>
+            <p>Here's an analogy that grips me: Imagine a courtroom where the defendant insists they never received the summons. But the judge responds: "The summons was written on every sunrise you've ever seen. It was carved into every mountain you've passed. It was whispered in every moment your conscience accused or excused you. You had the summons. You simply chose not to hear it."</p>
+            <p>This is the condition of humanity. Not ignorant. Suppressing. Not innocent. Guilty.</p>
+        </section>
+
+        <section class="section">
+            <h2>The Law Written on Every Heart</h2>
+            <p>Romans 2:14-15 adds another dimension:</p>
+            <div class="scripture-box">
+                "For when Gentiles, who do not have the law, by nature do the things in the law, these, although not having the law, are a law to themselves, who show the work of the law written in their hearts, their own conscience also bearing witness."
+                <span class="scripture-ref">Romans 2:14-15 NKJV</span>
+            </div>
+            <p>The moral conscience is not a Christian invention. It is a divine imprint on the human heart. The person in a remote jungle who has never heard of Moses or the Ten Commandments nevertheless knows in their conscience that stealing is wrong, that murder is evil, that certain things violate the natural order. They carry evidence of God's law within themselves.</p>
+            <p>This conscience is not neutral. It accuses and excuses. It works like a courtroom inside the human soul. And this inner trial runs for a lifetime, for every person, in every place.</p>
+            <p>The unreached are not innocent victims of circumstance. They are morally accountable beings who suppress the truth they already possess.</p>
+        </section>
+
+        <section class="section">
+            <h2>The Real Problem: Not Ignorance, But Guilt</h2>
+            <p>Paul's diagnosis is surgical:</p>
+            <div class="scripture-box">
+                "There is none righteous, no, not one; there is none who understands; there is none who seeks after God. They have all turned aside; they have together become unprofitable; there is none who does good, no, not one."
+                <span class="scripture-ref">Romans 3:10-12 NKJV</span>
+            </div>
+            <p>The questioner often imagines a person in a remote village who has never heard the gospel but who is genuinely seeking God with all their heart, waiting for truth. Scripture says no one is seeking God. Not one. "All have sinned and fall short of the glory of God" (Romans 3:23).</p>
+            <p>This is a bitter truth, but it is the foundation of grace. The unreached are not innocent prisoners waiting for the jailer to unlock the door. They are rebels in chains who have earned their imprisonment. The question then becomes not "How can God be just if He doesn't save them?" but rather "How can God be gracious that He saves anyone at all?"</p>
+            <p>Here's another analogy: A prisoner doesn't become innocent because he hasn't heard that a pardon exists. His crime remains. His guilt stands. The pardon, when it comes, is pure grace—not justice catching up to what he deserves, but mercy sweeping away what he does deserve.</p>
+            <p>This is the triumph of the gospel. Not that God gives everyone fair access to decide about Christ. But that God, through Christ, offers forgiveness to rebels who deserve none.</p>
+        </section>
+
+        <section class="section">
+            <h2>God Sovereignly Determines Every Boundary</h2>
+            <p>Here's where the doctrine of election becomes profoundly comforting. Paul writes in Acts 17:26-27:</p>
+            <div class="scripture-box">
+                "And He has made from one blood every nation of men to dwell on all the face of the earth, and has determined their preappointed times and the boundaries of their dwellings, so that they should seek the Lord, in the hope that they might grope for Him and find Him."
+                <span class="scripture-ref">Acts 17:26-27 NKJV</span>
+            </div>
+            <p>This is staggering. God determines the times and boundaries—the exact era, the exact place—where each person will live. And He does this "so that they should seek the Lord." This is not random chaos. This is deliberate, purposeful orchestration.</p>
+            <p>If God intends for one of His elect to hear the gospel, He will move heaven and earth to bring it to them. The Ethiopian eunuch did not accidentally encounter Philip on a desert road. Cornelius, a Gentile, did not randomly have a vision prompting him to seek Peter. These were appointments kept by God Himself.</p>
+            <p>God is not bound by geography, lack of infrastructure, or the sluggishness of human missionary efforts. If an unreached person is among God's chosen, they will be reached. This doesn't excuse our laziness in missions—it empowers it. We go because God has appointed us as His instruments. But we go knowing that God's will cannot be thwarted.</p>
+        </section>
+
+        <section class="section">
+            <h2>What About Children and the Cognitively Unable?</h2>
+            <p>Before we go further, a tender word: Scripture offers pastoral assurance about those who cannot understand or respond—infants, young children, and those with severe cognitive limitations.</p>
+            <p>David, after his infant son died, declared with confidence: "I shall go to him, but he shall not return to me" (2 Samuel 12:23). The oldest Christian tradition has held that those incapable of moral choice—those who have not reached the age of accountability—fall under God's mercy, not His judgment. God's justice does not hold infants to the standard of adults.</p>
+            <p>This is a question worthy of deeper exploration in its own discussion. For now, know this: our concern is not for those incapable of understanding. Our concern should be for those who understand and refuse to repent.</p>
+        </section>
+
+        <section class="section">
+            <h2>God's Justice Triumphs Over Our Understanding</h2>
+            <p>Abraham asked God a haunting question: "Shall not the Judge of all the earth do right?" (Genesis 18:25). This was Abraham's way of saying: I don't understand this. But I trust You.</p>
+            <p>And his trust was not naive. It was grounded in God's revealed character. God is just. He is merciful. He is wise beyond our comprehension. When we stand before the throne of God at the end of all things and see how He has dealt with every soul ever born, we will see perfect justice and perfect mercy working together in a harmony we never imagined.</p>
+            <p>The question "What about those who never heard?" is not a question we need to answer perfectly. It's a question that should drive us to the throne of God in prayer, knowing that His way is higher than our way, His thoughts higher than our thoughts.</p>
+            <p>And then it should drive us to urgent action.</p>
+        </section>
+
+        <section class="section">
+            <h2>This Question Should Drive Us to Mission</h2>
+            <p>Here's the paradox: understanding that God is sovereign doesn't make us complacent about missions. It makes us urgent. Paul writes:</p>
+            <div class="scripture-box">
+                "How then shall they call on Him in whom they have not believed? And how shall they believe in Him of whom they have not heard? And how shall they hear without a preacher? And how shall they preach unless they are sent? As it is written: 'How beautiful are the feet of those who preach the gospel of peace, who bring glad tidings of good things!'"
+                <span class="scripture-ref">Romans 10:14-15 NKJV</span>
+            </div>
+            <p>Paul's logic is iron: if people cannot call on Jesus without believing, cannot believe without hearing, and cannot hear without a preacher, then the preacher is not optional—he is essential. God sovereignly ordains both the ends (the salvation of His elect) and the means (the faithful preaching of the gospel by His church).</p>
+            <p>Our commission is not to save the world. That's beyond our power and above our pay grade. Our commission is to preach the gospel faithfully to every tribe, tongue, and nation, trusting that God will use our obedience to bring His elect into His kingdom.</p>
+            <p>The question "What about the unreached?" should never make us doubt God's justice. Instead, it should make us weep with compassion and rise with determination. It should send us to the hardest places, the most resistant people groups, the most hostile regions—not because success depends on our effort, but because God has appointed us as His messengers and has promised that His word will not return empty (Isaiah 55:11).</p>
+        </section>
+
+        <section class="section">
+            <h2>Final Truth: The Judge of All the Earth Is Just</h2>
+            <p>When you lie awake at night troubled by this question, remember this: God is more compassionate than you. God wants the salvation of the unreached more than you do. And God has all power to accomplish it.</p>
+            <p>If the unreached are His chosen, they will be reached, by any means necessary—dreams, visions, chance encounters, faithful missionaries, or supernatural revelation. Their salvation is secure in His hands.</p>
+            <p>If they are not among His chosen, they will face a just God who has given them sufficient witness through creation and conscience, whose judgment will be righteous and true, whose mercy will be incomprehensible to us, and whose glory will be vindicated in ways we cannot yet see.</p>
+            <p>We do not stand in judgment over God. We stand under His judgment, justified only by grace, saved only through faith in Christ. And that is enough.</p>
+        </section>
+
+    </main>
+
+    <!-- Never Gives Up Banner -->
+    <div class="never-gives-up-banner">
+        <h2>Never Gives Up</h2>
+        <p>God's sovereignty means He will stop at nothing to reach His own. His justice means He owes mercy to no one. His grace means He freely gives it anyway. This is the paradox that changes everything.</p>
+        <a href="/devotional-never-gives-up">Read the Full Devotional</a>
+    </div>
+
+    <!-- Related Resources -->
+    <main>
+        <section class="section">
+            <h2>Related Pages</h2>
+            <div class="related-resources">
+                <a href="/apologetic-definite-atonement" class="resource-card">
+                    <h3>Did Jesus Die for Everyone?</h3>
+                    <p>Explore the doctrine of definite atonement and why Christ's death was perfectly sufficient for the elect.</p>
+                </a>
+                <a href="/question-unfair" class="resource-card">
+                    <h3>Is God Unfair?</h3>
+                    <p>A deep look at what fairness really means and why God's sovereignty is perfectly just.</p>
+                </a>
+                <a href="/question-romans9" class="resource-card">
+                    <h3>What About Romans 9?</h3>
+                    <p>Paul's most direct treatment of election, divine choice, and human responsibility.</p>
+                </a>
+                <a href="/apologetic-perseverance" class="resource-card">
+                    <h3>Can You Lose Your Salvation?</h3>
+                    <p>The security of God's elect and the permanence of His saving work in Christ.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <div class="footer-links">
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+                <a href="/contact">Subscribe</a>
+            </div>
+            <p>&copy; 2026 Adopted by Grace — Soli Deo Gloria</p>
+        </div>
+    </footer>
+
+    <script src="/global.js"></script>
+    <script>
+        // Reading Progress Bar
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            document.querySelector('.reading-progress').style.width = scrollPercent + '%';
+
+            // Show/hide back to top button
+            const backToTopBtn = document.querySelector('.back-to-top');
+            if (scrollTop > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        // Back to Top Button
+        document.querySelector('.back-to-top').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Navigation toggle for mobile
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        const navTriggers = document.querySelectorAll('.nav-trigger');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        navTriggers.forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                e.preventDefault();
+                trigger.classList.toggle('active');
+            });
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+    
+        // Mobile dropdown toggles
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks) {
+            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
+                trigger.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const li = trigger.closest('li');
+                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
+                        if (openLi !== li) openLi.classList.remove('dropdown-open');
+                    });
+                    li.classList.toggle('dropdown-open');
+                });
+            });
+            navLinks.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const hamburger = document.querySelector('.hamburger');
+                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
+    </script>
+</body>
+</html>

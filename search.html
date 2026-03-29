@@ -12,7 +12,7 @@
     <meta property="og:url" content="https://adoptedbygrace.net/search.html">
     <link rel="canonical" href="https://adoptedbygrace.net/search.html">
     <meta name="twitter:card" content="summary">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <title>Search — Adopted by Grace</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -173,8 +173,29 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             .card { padding: 1.5rem; }
             blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
         }
-</style>
-    <link rel="stylesheet" href="/global.css">
+
+        .nav-links a, .nav-links .nav-trigger { text-decoration: none; color: var(--text-secondary); font-size: 0.82rem; transition: color 0.25s ease; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.9rem; height: 56px; display: flex; align-items: center; gap: 0.3rem; cursor: pointer; background: none; border: none; font-family: inherit; }
+        .nav-links a:hover, .nav-links a.active, .nav-links li:hover > .nav-trigger { color: var(--accent-gold); }
+        .nav-arrow { font-size: 0.55rem; transition: transform 0.3s ease; opacity: 0.5; }
+        .nav-links li:hover .nav-arrow { transform: rotate(180deg); opacity: 1; }
+        .nav-dropdown { position: absolute; top: 100%; left: 50%; transform: translateX(-50%) translateY(8px); min-width: 220px; background: rgba(14, 14, 22, 0.97); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 0.6rem 0; opacity: 0; visibility: hidden; transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease; box-shadow: 0 20px 60px rgba(0,0,0,0.5); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); z-index: 100; }
+        .nav-links > li:hover > .nav-dropdown { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+        .nav-dropdown a { display: flex; align-items: center; gap: 0.7rem; padding: 0.6rem 1.3rem; color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: all 0.2s ease; border-left: 2px solid transparent; height: auto; text-transform: none; letter-spacing: normal; }
+        .nav-dropdown a:hover { color: var(--accent-gold); background: rgba(212, 162, 84, 0.05); border-left-color: var(--accent-gold); padding-left: 1.5rem; }
+            .nav-links > li > .nav-trigger {
+                height: auto; padding: 0.8rem 2rem; justify-content: space-between; font-size: 0.9rem;
+            }
+            .nav-dropdown {
+                position: static; transform: none; opacity: 1; visibility: visible;
+                min-width: 100%; border: none; border-radius: 0; box-shadow: none;
+                background: rgba(18, 18, 26, 0.5); padding: 0; display: none;
+            }
+            .nav-links > li.dropdown-open > .nav-dropdown { display: block; }
+            .nav-links > li:hover > .nav-dropdown { position: static; transform: none; opacity: 1; visibility: visible; }
+            .nav-dropdown a { padding: 0.6rem 2rem 0.6rem 3rem; font-size: 0.85rem; border-left: none; }
+            .nav-dropdown a:hover { padding-left: 3.2rem; }
+    </style>
+    <link rel="stylesheet" href="./global.css">
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to content</a>
@@ -195,7 +216,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -302,7 +323,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>
@@ -374,13 +395,13 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         { url:"start-here-phase5.html", title:"Living as an Elect Child of God — Phase 5", desc:"How sovereign grace transforms assurance, prayer, worship, mission, and daily walk with Christ.", cat:"start", tags:["phase 5","living","assurance","prayer","worship","mission","daily walk","elect"] },
 
         // === RESOURCES ===
-        { url:"resources.html", title:"Resources — Go Deeper in Reformed Theology", desc:"Curated resources: books, sermons, study guides, confessions, glossary, and community tools.", cat:"resources", tags:["resources","books","sermons","study guides","confessions","glossary","community"] },
-        { url:"resources-books.html", title:"Recommended Books — Reformed Theology Reading Lists", desc:"70+ curated books organized by doctrine, difficulty, and author — from introductions to great works.", cat:"resources", tags:["books","reading list","sproul","piper","owen","calvin","institutes","reformed","theology"] },
-        { url:"resources-sermons.html", title:"Sermon Library — Faithful Preaching on the Doctrines of Grace", desc:"Sermons from Sproul, Piper, MacArthur, Lawson, Baucham, organized by TULIP topic.", cat:"resources", tags:["sermons","preaching","sproul","piper","macarthur","lawson","baucham","ligonier","desiring god"] },
-        { url:"resources-glossary.html", title:"Theological Glossary — Key Terms", desc:"80+ Reformed theology definitions from adoption to Zwingli with Scripture references and Greek/Latin roots.", cat:"resources", tags:["glossary","terms","definitions","greek","latin","adoption","justification","sanctification","monergism","synergism"] },
-        { url:"resources-study-guides.html", title:"Study Guides — Small Group & Personal Study", desc:"Discussion questions, TULIP study series, Scripture study templates, and reading group plans.", cat:"resources", tags:["study guides","small group","discussion","questions","devotion","tulip study","reading group"] },
-        { url:"resources-confessions.html", title:"Creeds & Confessions — The Historic Reformed Faith", desc:"Westminster Standards, Canons of Dort, 1689 Baptist Confession, Belgic Confession, Heidelberg Catechism.", cat:"resources", tags:["confessions","creeds","westminster","dort","1689","belgic","heidelberg","catechism","reformed faith"] },
-        { url:"community.html", title:"Community — Study Together", desc:"Prayer guides, testimony prompts, church finder, group startup guide for the doctrines of grace.", cat:"resources", tags:["community","prayer","testimony","church finder","group","together","study"] },
+        
+        
+        
+        
+        
+        
+        
 
         // === STORIES ===
         { url:"stories.html", title:"Stories of Sovereign Grace", desc:"Modern parables, allegories, and fables bringing election, regeneration, and perseverance to life.", cat:"stories", tags:["stories","parables","allegories","fables","fiction","narrative"] },
@@ -391,7 +412,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         { url:"freedom.html", title:"The Truth Will Set You Free — Why Sovereignty Destroys Fear", desc:"If God chose you before the foundation, nothing can separate you. The doctrines of grace destroy anxiety.", cat:"other", tags:["freedom","fear","anxiety","comfort","assurance","nothing can separate","love"] },
         { url:"essays.html", title:"Essays — Full Arguments on Divine Election", desc:"Six theological essays on Reformed soteriology, sovereignty, and the doctrines of grace (downloadable PDFs).", cat:"other", tags:["essays","pdf","download","arguments","soteriology"] },
         { url:"about.html", title:"About — The Mission of Adopted By Grace", desc:"Presenting the biblical case for divine election with clarity, depth, and reverence for Scripture. Soli Deo Gloria.", cat:"other", tags:["about","mission","purpose","soli deo gloria"] },
-        { url:"quiz.html", title:"Reformed Theology Quiz — Test Your Knowledge", desc:"30 questions on TULIP, election, sovereignty, and the doctrines of grace with instant Scripture-backed feedback.", cat:"resources", tags:["quiz","test","tulip","interactive","questions","knowledge","score"] },
+        
         { url:"scripture-tsunami.html", title:"Scripture Tsunami — 200+ Verses on TULIP", desc:"Interactive database of 200+ Bible verses organized by the five points of Calvinism. Searchable and cross-referenced.", cat:"evidence", tags:["scripture tsunami","verses","database","200","tulip","bible","searchable"] },
         { url:"ot-election.html", title:"Election in the Old Testament", desc:"The doctrine of election throughout the Old Testament — from Abraham to David, God's sovereign choice shaped history.", cat:"evidence", tags:["old testament","election","abraham","david","ot","sovereign choice","history"] },
         { url:"ot-abraham.html", title:"Abraham & Election", desc:"God's sovereign election of Abraham: the call created faith, not faith creating the call.", cat:"evidence", tags:["abraham","election","call","faith","genesis","covenant","promise"] },

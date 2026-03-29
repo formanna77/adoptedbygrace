@@ -49,7 +49,6 @@ NEW_NAV = '''    <nav role="navigation" aria-label="Main navigation">
                         <a href="/ot-election"><span class="dropdown-icon">&#128220;</span> OT Election</a>
                     </div>
                 </li>
-                <li><a href="/resources">Resources</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
         </div>
