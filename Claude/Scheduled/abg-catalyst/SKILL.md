@@ -47,7 +47,7 @@ If the answer is no, your changes aren't ambitious enough.
 
 ## CONTENT DISTRIBUTION BALANCING — MANDATORY EVERY RUN
 
-Before evaluating quality, run a **Category Census**. Count pages per file pattern:
+Before evaluating quality, run a **Category Census**. Count pages per file pattern. Start with the known categories below, but also **scan for any NEW file prefixes** that agents have created since the last run. New categories are ENCOURAGED — the Builder and Storyteller have full license to invent new content types. When you discover a new category, add it to this census and evaluate whether it deserves more investment or has enough.
 
 | Pattern | Category |
 |---------|----------|
@@ -67,6 +67,7 @@ Before evaluating quality, run a **Category Census**. Count pages per file patte
 | `scripture-tsunami-*.html` | Scripture Tsunami |
 | `story-*.html` | Stories |
 | `resistance-*.html` | Why We Resist |
+| *(scan for new prefixes)* | *(new categories created by agents)* |
 
 ### What to do with the census:
 
