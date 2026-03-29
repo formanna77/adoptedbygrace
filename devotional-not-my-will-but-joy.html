@@ -15,7 +15,7 @@
     <meta name="twitter:description" content="A meditative reflection on divine sovereignty and joyful surrender to God's eternal plan.">
     <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
     <link rel="canonical" href="https://adoptedbygrace.net/devotional-not-my-will-but-joy.html">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -560,8 +560,29 @@
             .card { padding: 1.5rem; }
             blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
         }
+    
+        .nav-links a, .nav-links .nav-trigger { text-decoration: none; color: var(--text-secondary); font-size: 0.82rem; transition: color 0.25s ease; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.9rem; height: 56px; display: flex; align-items: center; gap: 0.3rem; cursor: pointer; background: none; border: none; font-family: inherit; }
+        .nav-links a:hover, .nav-links a.active, .nav-links li:hover > .nav-trigger { color: var(--accent-gold); }
+        .nav-arrow { font-size: 0.55rem; transition: transform 0.3s ease; opacity: 0.5; }
+        .nav-links li:hover .nav-arrow { transform: rotate(180deg); opacity: 1; }
+        .nav-dropdown { position: absolute; top: 100%; left: 50%; transform: translateX(-50%) translateY(8px); min-width: 220px; background: rgba(14, 14, 22, 0.97); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 0.6rem 0; opacity: 0; visibility: hidden; transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease; box-shadow: 0 20px 60px rgba(0,0,0,0.5); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); z-index: 100; }
+        .nav-links > li:hover > .nav-dropdown { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+        .nav-dropdown a { display: flex; align-items: center; gap: 0.7rem; padding: 0.6rem 1.3rem; color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: all 0.2s ease; border-left: 2px solid transparent; height: auto; text-transform: none; letter-spacing: normal; }
+        .nav-dropdown a:hover { color: var(--accent-gold); background: rgba(212, 162, 84, 0.05); border-left-color: var(--accent-gold); padding-left: 1.5rem; }
+            .nav-links > li > .nav-trigger {
+                height: auto; padding: 0.8rem 2rem; justify-content: space-between; font-size: 0.9rem;
+            }
+            .nav-dropdown {
+                position: static; transform: none; opacity: 1; visibility: visible;
+                min-width: 100%; border: none; border-radius: 0; box-shadow: none;
+                background: rgba(18, 18, 26, 0.5); padding: 0; display: none;
+            }
+            .nav-links > li.dropdown-open > .nav-dropdown { display: block; }
+            .nav-links > li:hover > .nav-dropdown { position: static; transform: none; opacity: 1; visibility: visible; }
+            .nav-dropdown a { padding: 0.6rem 2rem 0.6rem 3rem; font-size: 0.85rem; border-left: none; }
+            .nav-dropdown a:hover { padding-left: 3.2rem; }
     </style>
-    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="./global.css">
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -583,7 +604,7 @@
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -629,61 +650,44 @@
                 <h1>Not My Will, But Joy</h1>
                 <div class="article-meta">
                     <span>📖 Devotional</span>
-                    <span>⏱ 8 min read</span>
-                    <span>✝️ Reformed Theology</span>
+                    <span>⏱ 7 min read</span>
                 </div>
             </header>
 
             <div class="devotional-opening">
-                <p>In the Garden of Gethsemane, the Son of God bent to the earth and prayed the most terrifying prayer ever spoken: "Not my will, but yours, be done." The one Person in all of creation who had the greatest claim to His own will—the one who <em>deserved</em> to be obeyed—surrendered that will completely to the Father's decree. He was sweating drops of blood. He was in such agony that He asked if the cup could be removed from Him. And yet He prayed: "Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done."</p>
-                <p>If the incarnate Son of God surrendered His will to the Father's plan, how much more should we—who cannot see tomorrow, who do not understand the sweep of history, who are blind to the ultimate purposes of God—rest in the sovereign will of the God who does?</p>
+                <p>In Gethsemane, the Son of God pressed His face into the dirt and prayed the most terrifying prayer ever spoken: <em>"Not my will, but yours, be done."</em> He was sweating blood. He begged the Father to remove the cup. And then He drank it — not because He wanted to, but because He trusted the hand that poured it.</p>
+                <p>The one Person in all creation who had the greatest claim to His own will surrendered it completely. If He did that — the One who <em>deserved</em> to be obeyed — what makes us think our will is worth white-knuckling?</p>
             </div>
 
             <h2>The Throne That Never Trembles</h2>
 
-            <p>Modern Christianity has become allergic to the doctrine of divine sovereignty. We have dressed it in clinical language and placed it in the corner of our theology like a piece of furniture we don't quite know what to do with. We acknowledge it exists. We don't deny it. We just don't talk about it very much, because it makes people uncomfortable.</p>
+            <p>Modern Christianity has shoved divine sovereignty into the corner of its theology like a piece of furniture nobody wants to sit on. We acknowledge it exists. We just don't talk about it, because it makes people uncomfortable.</p>
 
-            <p>But the Psalms have no such reticence. They speak of God's sovereignty not as a theoretical abstraction but as the most comforting truth in the universe.</p>
+            <p>The Psalms have no such embarrassment.</p>
 
             <div class="verse-block">
                 <p>"Our God is in the heavens; he does all that he pleases."</p>
                 <cite>Psalm 115:3 (ESV)</cite>
             </div>
 
-            <p>Consider what this verse says. Not "Our God <em>tries</em> to do what He pleases." Not "Our God <em>hopes to do</em> what He pleases." Not "Our God does what He pleases <em>as long as we cooperate.</em>" No. He <em>does</em> all that He pleases. Every decree. Every plan. Every purpose. Every intention. All accomplished without obstruction, without resistance, without the possibility of failure.</p>
-
-            <p>The Psalmist echoes this in Psalm 135:</p>
-
             <div class="verse-block">
                 <p>"Whatever the Lord pleases, he does, in heaven and on earth, in the seas and all deeps."</p>
                 <cite>Psalm 135:6 (ESV)</cite>
             </div>
 
-            <p>The sweep is breathtaking. Not just in Jerusalem. Not just in the temple. Not just in matters of religion. <em>Whatever</em> the Lord pleases, He does. In the heavens. On the earth. In the seas. In the deeps. The physical cosmos itself bows to His will. The laws of nature execute His decrees. The atoms themselves are held together by His sustaining power.</p>
+            <p>The sweep is staggering. Not just in matters of religion. <em>Whatever</em> the Lord pleases, He does. The physical cosmos bows to His will. The laws of nature execute His decrees. The atoms themselves hold together because He holds them.</p>
 
-            <p>And yet, we are afraid of this doctrine. Why?</p>
-
-            <p>Perhaps because we have confused <strong>sovereignty</strong> with <strong>tyranny</strong>. We have imagined that if God controls all things, then God must be capricious, arbitrary, unjust—a cosmic despot whose whims are law and whose character is whatever He decides it will be in any given moment. We have pictured a God like some ancient king, unpredictable and cruel, doing whatever He wants simply because He can.</p>
-
-            <p>But this is a catastrophic misreading of Scripture. Divine sovereignty is not the absence of justice. It is the guarantee of it. The God who does all that He pleases is not an arbitrary tyrant. He is the God who <em>is</em> goodness, who <em>is</em> love, who <em>is</em> justice. His sovereignty is the sovereignty of perfect character. His will is the will of infinite wisdom and eternal mercy.</p>
+            <p>We are afraid of this. We confuse sovereignty with tyranny — imagining a cosmic despot whose whims are law and whose character shifts with His mood. But this is a catastrophic misreading. The God who does all that He pleases is not arbitrary. He <em>is</em> goodness. He <em>is</em> justice. He <em>is</em> love. His sovereignty is the sovereignty of perfect character. His will is the will of infinite wisdom exercised in eternal mercy.</p>
 
             <h3>Sovereignty Versus Fatalism</h3>
 
-            <p>There is a crucial distinction that often goes unnoticed. <strong>Fatalism</strong> says: "Whatever happens, happens. There is no meaning, no purpose, no reason. Events unfold like dominoes falling—one into another—without aim or intention. You are caught in the machinery of a purposeless universe."</p>
+            <p><strong>Fatalism</strong> says: whatever happens, happens. No meaning. No purpose. Dominoes falling in a purposeless universe. <strong>Sovereignty</strong> says something that sounds similar but is utterly different: whatever happens, God ordained it — and the One who ordained it is not indifferent. He is personal. He is wise. He is good. And He is working all things together for the good of those who love Him.</p>
 
-            <p>This is cold. This is impersonal. This is ultimately the doctrine of despair, even if it hides behind a mask of resignation.</p>
-
-            <p>But <strong>sovereignty</strong> says something entirely different: "Whatever happens, God ordained it for a purpose. The One who controls all things is not arbitrary or indifferent. He is personal. He is wise. He is good. And He is working all things together for the good of those who love Him."</p>
-
-            <p>This is warm. This is personal. This is the doctrine of hope itself.</p>
-
-            <p>The difference is not academic. It is existential. It changes everything about how you respond to your circumstances. When your child gets sick, fatalism says: "This is meaningless suffering in a meaningless world." Sovereignty says: "God has a purpose in this that I cannot yet see, but I can trust the character of the God who permits it." When you lose your job, fatalism says: "Bad luck. The universe is indifferent to your suffering." Sovereignty says: "God has ordained this—not to destroy me, but to shape me, to redirect me, to bring me into a deeper dependence on Him and a clearer vision of His purposes."</p>
-
-            <p>One leads to despair. The other leads to faith.</p>
+            <p>The difference is not academic. It is the difference between despair and faith. When your child gets sick, fatalism whispers: <em>meaningless suffering in a meaningless world.</em> Sovereignty says: <em>God has a purpose I cannot yet see, but I can trust the character of the God who permits it.</em> One crushes you. The other carries you.</p>
 
             <div class="reflection-box">
                 <h4>The Story God Rewrites</h4>
-                <p>Genesis 50 gives us one of the most powerful illustrations of sovereignty at work. Joseph has been betrayed by his brothers, sold into slavery, falsely accused and imprisoned. Everything in his life has gone catastrophically wrong. And yet, after their father Jacob dies, Joseph's brothers come to him in fear, expecting revenge. But Joseph says something that captures the heart of what sovereignty means:</p>
+                <p>Joseph was betrayed, sold into slavery, falsely accused, and imprisoned. Everything in his life went catastrophically wrong. Then his brothers came to him expecting revenge. What they got was Genesis 50:20:</p>
             </div>
 
             <div class="verse-block">
@@ -691,59 +695,45 @@
                 <cite>Genesis 50:20 (ESV)</cite>
             </div>
 
-            <p>Look at the architecture of this verse. The same events. The same actions. The same sequence of cause and effect. But two completely different intentions layered on top of each other. His brothers meant it for evil. God meant it for good. The brothers were free in their choices—they genuinely intended harm. But their intentions were not the final word. God's intention overrode theirs. God's purpose prevailed. And the result? Not Joseph's destruction, but the salvation of an entire nation. The very evil that was meant to destroy Joseph became the instrument of his elevation and of saving countless lives.</p>
+            <p>Look at the architecture. The same events. The same actions. Two completely different intentions layered on top of each other. The brothers meant evil — genuinely, freely, maliciously. But their intentions were not the final word. God's purpose prevailed. The very evil meant to destroy Joseph became the instrument that saved a nation.</p>
 
-            <p>This is sovereignty. Not the destruction of human agency, but the orchestration of all human agency toward God's ultimate purposes. God does not puppet us like wooden toys. We choose. We act. We reason. We plan. But our choices and actions and plans are gathered up into a larger story—God's story—and made to serve purposes far greater than we imagined.</p>
+            <p>This is sovereignty. Not puppetry. Orchestration. We choose. We act. We plan. And God gathers all of it — even the worst of it — into a story so much larger than we imagined that one day we will look back and weep with gratitude at the chapters that made us weep with grief.</p>
 
             <h2>The Prayer of Joyful Surrender</h2>
 
-            <p>And here is the deepest paradox of the gospel: <em>when we surrender our will to God's, we do not lose ourselves. We find ourselves.</em></p>
+            <p>Here is the deepest paradox: when you surrender your will to God's, you do not lose yourself. You find yourself. When you stop fighting the current and let the river carry you, you discover the river is flowing home.</p>
 
-            <p>We have been taught that autonomy is freedom. We have been told that the greatest good is the ability to make our own choices, to chart our own course, to be the author of our own story. And so we cling to our will with fierce intensity. We resist the suggestion that anyone—even God—might have authority over us. We want to be the captains of our fate.</p>
-
-            <p>But the Scripture invites us to a completely different understanding. When you stop fighting the current and let the river carry you, you discover the river is flowing home. When you stop insisting on your own way and align yourself with God's way, you discover that His way is infinitely better than any way you could have chosen for yourself.</p>
-
-            <p>Jesus modeled this for us in the Garden. He did not say, "I don't want to do this, but I will out of duty." He said, "Not my will, but yours, be done"—and He said it with an obedience so complete that it became the foundation of our salvation. He surrendered His will, and in that surrender, He accomplished more than could ever have been accomplished if He had insisted on His own way.</p>
+            <p>Jesus modeled this in the Garden. He did not say "I don't want to do this, but I will out of duty." He surrendered His will so completely that it became the foundation of our salvation. He accomplished more by yielding than He ever could have by insisting.</p>
 
             <p>And then He rose from the dead.</p>
 
-            <p>The deepest joy is not found in getting what we want. It is found in wanting what we are given. It is found in the peace that passes understanding—the peace that comes when we stop resisting God's will and start resting in it. When we stop asking "Why?" and start asking "What does God want to do in me through this?" When we stop trying to control our circumstances and start trusting the One who holds all circumstances in His hands.</p>
+            <p>The deepest joy is not getting what you want. It is wanting what you are given. It is the peace that arrives — illogical, uninvited, overwhelming — when you stop asking "why?" and start asking "what does God want to do in me through this?"</p>
 
             <div class="verse-block">
                 <p>"And we know that for those who love God all things work together for good, for those who are called according to his purpose."</p>
                 <cite>Romans 8:28 (ESV)</cite>
             </div>
 
-            <p>All things. Not just the good things. Not just the circumstances we would have chosen for ourselves. <em>All things</em>. The losses. The disappointments. The prayers that were not answered the way we hoped. The dreams that died. The plans that fell apart. God is working all of it—not as random tragedy, but as meaningful chapters in the story He is writing with your life.</p>
+            <p><em>All things.</em> The losses. The unanswered prayers. The dreams that died. The plans that shattered. God is working all of it — not as random tragedy, but as chapters in a story whose ending will make every page worth it.</p>
 
-            <h3>Jonathan Edwards on the Beauty of God's Sovereignty</h3>
-
-            <p>The great theologian Jonathan Edwards spent much of his life reflecting on divine sovereignty, and he came to see it not as a doctrine that should frighten us, but as a doctrine that should captivate us with its beauty. He wrote: "God is not a being of such a nature as to admit of rivals in his government... It is his right to govern all things according to his pleasure."</p>
-
-            <p>But Edwards understood that God's sovereignty is always exercised in service to His infinite excellence. God is not using His power to diminish creation or to make us into puppets. He is using His power to maximize goodness, to manifest His glory, to work out purposes of redemption and restoration that human minds can scarcely fathom.</p>
-
-            <p>And Edwards saw that when we truly grasp the beauty of God's sovereignty, we stop wanting our own will. We become like a choir member who hears the director's vision so clearly, so beautifully, that they would never want to sing off-key again. We align ourselves with God's will not out of fear or obligation, but out of attraction. We want to do what God wants to do because we see that God's way is perfect, and our ways are broken.</p>
+            <p>Jonathan Edwards saw this more clearly than most. He wrote that when we truly grasp the beauty of God's sovereignty, we stop wanting our own will. We become like a choir member who hears the conductor's vision so clearly, so beautifully, that singing off-key becomes unthinkable. We align ourselves with God's will not out of fear — but out of attraction. Because His way is perfect. And ours is broken.</p>
 
             <h2>The Surrender That Brings Joy</h2>
 
-            <p>There is a prayer that many of us learned as children, but its depth is inexhaustible. It is the prayer that Jesus Himself prayed: "Your kingdom come, your will be done, on earth as it is in heaven."</p>
+            <p><em>"Your kingdom come, your will be done, on earth as it is in heaven."</em> We learned this prayer as children. Most of us have never stopped to hear what it actually asks. In heaven, God's will is done perfectly. Without resistance. Without delay. Jesus taught us to pray that <em>our</em> hearts would become like that — that what we want would become what God wants, until the difference disappears entirely.</p>
 
-            <p>Think about that. In heaven, God's will is done perfectly. Immediately. Without question. Without resistance. Every angel, every power, every throne and dominion—all bowing to the will of God with joy. And Jesus taught us to pray that this would become true on earth as well. That your will would become aligned with God's will. That what you want would become what God wants. That your agenda would become His agenda. That your dreams would become His dreams.</p>
+            <p>This is not the prayer of a slave. This is the prayer of a child who trusts his Father so completely that he wants nothing the Father has not chosen for him.</p>
 
-            <p>This is not the prayer of a slave being forced against his will. This is the prayer of a child who has learned to trust his Father so completely that he wants nothing more than what the Father wants for him.</p>
-
-            <p>And when you pray this prayer—truly pray it, not just with your lips but with your whole heart—something miraculous happens. The resistance melts. The anxiety dissipates. The fear that God might have plans that contradict your happiness gives way to the deepest possible security: the knowledge that the One who controls all things loves you with a love that was willing to die for you. That He knows what you need before you ask. That He is working all things, even the painful things, toward your ultimate good.</p>
-
-            <p>This is the joy that transcends understanding. Not the happiness of getting what you want. Not the pleasure of being in control. But the profound peace of knowing that you have surrendered yourself into the hands of infinite love, infinite wisdom, infinite power—and that this surrender is the safest possible place to be.</p>
+            <p>And when you pray it — truly pray it, not with your lips but with the marrow of your soul — the strangest thing happens. The resistance melts. The anxiety drains. The white-knuckled grip on your own plans gives way to the deepest security a human being can experience: the knowledge that the One who controls all things loves you enough to die for you, knows what you need before you ask, and is working everything — even the things that are breaking you — toward your ultimate, unimaginable good.</p>
 
             <div class="verse-block">
                 <p>"Therefore humble yourselves under the mighty hand of God, that he may exalt you in due time, casting all your anxieties on him, because he cares for you."</p>
                 <cite>1 Peter 5:6-7 (ESV)</cite>
             </div>
 
-            <p>Not my will. Not your will. But His will—the will of the God who loves you more deeply than you love yourself, who sees further than you can see, who has authority over all things and exercises that authority with perfect justice and infinite mercy.</p>
+            <p>Not my will. Not yours. His — the will of a God who loves you more than you love yourself, who sees further than you can see, and whose authority over all things is exercised with perfect justice and infinite mercy.</p>
 
-            <p><strong>His will. And in that surrender, the deepest joy.</strong></p>
+            <p><strong>His will. And in that surrender — not loss, but the deepest joy you will ever know.</strong></p>
 
             <div class="share-buttons" role="group" aria-label="Share this article">
                 <span class="share-label">Share</span>
@@ -776,27 +766,27 @@
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
                         <a href="systematic-divine-decrees.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Divine Decrees: God's Eternal Plan</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Understanding God's sovereign purposes.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">What God decided before time — and why nothing can overrule it.</p>
                         </a>
                         <a href="question-freewill.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Free Will & Divine Sovereignty</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How human freedom coexists with God's power.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">You choose. God ordains. Both are true. Here is why that is not a contradiction.</p>
                         </a>
                         <a href="systematic-compatibilism.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Compatibilism: Freedom & Sovereignty</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The beautiful harmony of divine and human agency.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The framework that holds sovereignty and human agency in both hands without dropping either.</p>
                         </a>
                         <a href="devotional-weakness-of-gods-strength.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Weakness of God's Strength</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Suffering transformed by God's grace.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">When everything falls apart — and you discover the arms that were holding you all along.</p>
                         </a>
                         <a href="devotional-my-chains-fell-away.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">My Chains Fell Away</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Freedom in Christ through sovereign grace.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The door opened from outside. The prisoner did not ask. That is the whole gospel.</p>
                         </a>
                         <a href="question-unfair.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Isn't God's Sovereignty Unfair?</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Understanding divine justice and mercy.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">You want fairness? Fairness condemns every one of us. What you really want is mercy.</p>
                         </a>
                     </div>
                 </div>
@@ -827,7 +817,7 @@
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

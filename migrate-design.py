@@ -33,7 +33,6 @@ STANDARD_NAV = '''    <nav role="navigation" aria-label="Main navigation">
                 <li><a href="/systematic-theology">Systematic</a></li>
                 <li><a href="/demolition-hub">Demolition</a></li>
                 <li><a href="/theologians">Theologians</a></li>
-                <li><a href="/resources">Resources</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
         </div>
@@ -58,7 +57,6 @@ STANDARD_FOOTER = '''    <footer>
                     <li><a href="/start-here">Start Here</a></li>
                     <li><a href="/theologians">Theologians</a></li>
                     <li><a href="/devotionals">Devotionals</a></li>
-                    <li><a href="/resources">Resources</a></li>
                 </ul>
             </div>
             <div class="footer-section">

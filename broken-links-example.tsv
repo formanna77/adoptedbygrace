@@ -1,0 +1,4 @@
+source_file	broken_href	resolved_target	status
+./example.html	/missing-page	./missing-page.html	BROKEN
+./another-page.html	./non-existent.css	./non-existent.css	BROKEN
+./content.html	../assets/bad-image.png	./assets/bad-image.png	BROKEN

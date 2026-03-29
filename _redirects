@@ -76,5 +76,20 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /systematic-glorification      /systematic-ordo-salutis.html  301
 /systematic-sanctification     /systematic-ordo-salutis.html  301
 
+# Resources section redirects (deprecated)
+/resources                   /start-here.html               301
+/resources-books             /start-here.html               301
+/resources-sermons           /start-here.html               301
+/resources-commentaries      /start-here.html               301
+/resources-confessions       /creeds-confessions.html       301
+/resources-catechisms        /start-here.html               301
+/resources-glossary          /start-here.html               301
+/resources-prayer            /start-here.html               301
+/resources-podcasts          /start-here.html               301
+/resources-reading-plans     /start-here.html               301
+/resources-study-guides      /start-here.html               301
+/resource-finder             /start-here.html               301
+/start-here-resources        /start-here.html               301
+
 # Custom 404
 /*  /404.html  404

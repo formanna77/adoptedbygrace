@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>20th Century Reformed Resurgence | Adopted by Grace</title>
     <meta name="description" content="The liberal decline, the Reformed comeback, and sovereign grace rediscovered. J. Gresham Machen, Martyn Lloyd-Jones, R.C. Sproul, John MacArthur. Young, Restless, and Reformed.">
@@ -508,7 +508,7 @@ a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
 .skip-link:focus { outline: 2px solid var(--accent-gold); }
 </style>
-    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="./global.css">
     <link rel="canonical" href="https://adoptedbygrace.net/history-20th-century.html">
     <script type="application/ld+json">
 {
@@ -547,7 +547,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -699,7 +699,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <li><a href="/history-puritans">The Puritans — The spiritual heritage that shaped 20th century Reformed thinkers</a></li>
                 <li><a href="/theologians">Modern Reformers — Explore Machen, Lloyd-Jones, Sproul, MacArthur</a></li>
                 <li><a href="/systematic-theology">Systematic Theology — Master the doctrines these teachers proclaimed</a></li>
-                <li><a href="/resources-confessions">Westminster Confession — The foundation of Reformed thought</a></li>
+                <li><a href="/creeds-confessions">Westminster Confession — The foundation of Reformed thought</a></li>
                 <li><a href="/history-timeline">The Golden Thread — See 20th century in the larger story</a></li>
             </ul>
         </section>
@@ -746,7 +746,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>
@@ -775,10 +775,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Timeline</h4>
                         <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Eighteen centuries of theological development in one view.</p>
                     </a>
-                    <a href="/resources-books.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Resources: Books</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Modern voices for God's sovereignty—the great books.</p>
-                    </a>
+                    
                     <a href="/theologians.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                         <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Theologians</h4>
                         <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The voices across history—Augustine to Owen to Edwards to the present.</p>
@@ -787,7 +784,30 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             </div>
         </section>
     </footer>
-    <script src="/global.js" defer></script>
+    <script src="/global.js" defer>
+        // Mobile dropdown toggles
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks) {
+            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
+                trigger.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const li = trigger.closest('li');
+                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
+                        if (openLi !== li) openLi.classList.remove('dropdown-open');
+                    });
+                    li.classList.toggle('dropdown-open');
+                });
+            });
+            navLinks.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const hamburger = document.querySelector('.hamburger');
+                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
+    </script>
     <button class="back-to-top" aria-label="Back to top">&uarr;</button>
 </body>
 </html>

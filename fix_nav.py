@@ -20,7 +20,6 @@ STANDARD_NAV = '''<nav role="navigation" aria-label="Main navigation">
                 <li><a href="systematic-theology.html" class="active">Systematic</a></li>
                 <li><a href="demolition-hub.html">Demolition</a></li>
                 <li><a href="theologians.html">Theologians</a></li>
-                <li><a href="resources.html">Resources</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </div>

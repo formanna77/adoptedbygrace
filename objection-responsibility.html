@@ -895,8 +895,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 .skip-link:focus { outline: 2px solid var(--accent-gold); }
 </style>
 
-    <link rel="stylesheet" href="/global.css">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -918,7 +918,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -1287,7 +1287,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <h4>Doctrine</h4>
                 <a href="/systematic-theology">Systematic Theology</a>
                 <a href="/scripture-tsunami">Scripture Tsunami</a>
-                <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                 <a href="/compare-calvinism-arminianism">Comparisons</a>
             </div>
             <div class="footer-section">
@@ -1300,7 +1300,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             <div class="footer-section">
                 <h4>About</h4>
                 <a href="/about">Our Mission</a>
-                <a href="/resources">Resources</a>
+                
                 <a href="/">Home</a>
             </div>
         </div>
@@ -1311,6 +1311,29 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
     <button class="back-to-top" aria-label="Back to top">&uarr;</button>
 
-    <script src="/global.js" defer></script>
+    <script src="/global.js" defer>
+        // Mobile dropdown toggles
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks) {
+            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
+                trigger.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const li = trigger.closest('li');
+                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
+                        if (openLi !== li) openLi.classList.remove('dropdown-open');
+                    });
+                    li.classList.toggle('dropdown-open');
+                });
+            });
+            navLinks.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const hamburger = document.querySelector('.hamburger');
+                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
+    </script>
 </body>
 </html>

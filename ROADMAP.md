@@ -18,7 +18,7 @@
 - `start-here-phase5.html` — Phase 5: Living as an Elect Child of God (+ knowledge check quiz + email signup)
 - `start-here-assessment.html` — **NEW** Interactive self-assessment quiz — "Find Your Starting Point" (7 questions, personalized phase recommendation)
 - `start-here-groups.html` — **NEW** 5-week small group discussion guide with icebreakers, Scripture, 8-10 questions per week, leader tips
-- `start-here-resources.html` — **NEW** Journey resources hub — recommended books, sermons, on-site links for each phase + 5-week reading plan
+- ~~`start-here-resources.html`~~ — **DELETED 2026-03-28** Resources section permanently eliminated. All content must be original.
 - `questions.html` — Hub listing 16 question deep-dives in 4 categories
 - `question-chosen.html` — Ephesians 1:3-11 (election in Christ)
 - `question-john6.html` — John 6:37-44,65 (the Father's drawing)
@@ -56,18 +56,8 @@
 - `question-perseverance.html` — Perseverance of the Saints (John 10:28-29, Rom 8:35-39, Phil 1:6)
 - `freedom.html` — Why sovereign grace is the end of fear
 - `connections.html` — The Unbreakable Thread (comprehensive proof)
-- `resources.html` — **UPDATED** Resources hub with 13 category cards (added 5 new resource pages) and external links
-- `resources-books.html` — 70+ curated Reformed theology books by topic and difficulty
-- `resources-sermons.html` — Sermon library: Sproul, Piper, MacArthur, Lawson, Baucham + series
-- `resources-glossary.html` — Theological glossary with 80+ terms, search, Greek/Latin roots
-- `resources-study-guides.html` — 5-week TULIP study series + Scripture studies + reading group plans
-- `resources-confessions.html` — Canons of Dort, Westminster, 1689, Belgic, Heidelberg with excerpts
+- ~~`resources.html` + all 11 sub-pages~~ — **ENTIRE SECTION DELETED 2026-03-28.** Resources section permanently eliminated. All agents BANNED from creating resources content. Only original content allowed on this site.
 - `community.html` — Prayer guides, testimony prompts, church finder, group startup guide
-- `resources-commentaries.html` — **NEW** Bible commentary recommendations: whole-Bible sets, OT/NT, sovereignty-focused, how-to guide
-- `resources-reading-plans.html` — **NEW** 4 structured reading plans: 7-day, 14-day, 4-week, and Romans deep-dive with expandable daily cards
-- `resources-podcasts.html` — **NEW** Podcasts & media directory: 15+ podcasts, YouTube channels, online courses with filter system
-- `resources-prayer.html` — **NEW** Sovereignty-shaped prayer guides: 7-day doctrines of grace prayer plan, Scripture prayers, historic prayers, situation prompts
-- `resources-catechisms.html` — **NEW** Catechism study hub: Westminster, Heidelberg, Baptist, New City catechisms with sovereignty Q&As highlighted
 - `demolition-1tim2-4.html` — **NEW** Demolition: 1 Timothy 2:4 — "God desires all people to be saved" = all kinds of people
 - `demolition-2peter3-9.html` — **NEW** Demolition: 2 Peter 3:9 — "Not willing that any should perish" — the pronoun "you" settles it
 - `demolition-1john2-2.html` — **NEW** Demolition: 1 John 2:2 — Owen's trilemma and the Jewish-Gentile distinction
@@ -101,6 +91,7 @@
 - `systematic-prolegomena.html` — **NEW** Prolegomena: Scripture, revelation, authority
 - `psychology-hub.html` — **NEW** Psychology of Resistance hub — gateway to 10 psychology/theology pages
 - `psychology-why-we-resist.html` — **NEW** "Why We Resist: The Psychology of Rejecting God's Sovereignty" — flagship overview: 6 psychological phenomena mapped to 6 Scripture passages
+- `psychology-autonomy-illusion.html` — **NEW** "The Autonomy Illusion: Why 'Free Will' Feels So Real" — Libet experiments, Kornhuber, Soon, Wegner + Jeremiah 17:9, Proverbs 21:1, Philippians 2:13, compatibilism
 - `404.html` — **NEW** Custom 404 error page: "This Page Has Not Been Predestined"
 - `devotionals.html` — **NEW** Devotionals hub — 10 meditative reflections on sovereign grace
 - `devotional-glory-of-divine-choice.html` — **NEW** "The Glory of Divine Choice" — Election as worship (Eph 1:3-6)
@@ -120,6 +111,8 @@
 - `secular-algorithm-sovereignty.html` — **NEW** "The Algorithm Knows You Better Than You Know Yourself" — Secular evidence page: predictive algorithms (Netflix, Spotify, Amazon, Target, Facebook studies) confirm divine sovereignty & foreknowledge. ~2,500 words. ✅ (2026-03-28 Visionary)
 - `ot-noah.html` — **NEW** Noah: Chosen for Preservation — Genesis 6-9, grace before the flood, Hebrew word study (chen, tsaddiq, tamim), the order of grace (6:8 before 6:9), the ark as election, the covenant of preservation. ✅ (2026-03-28 Content Builder)
 - `ot-abel-cain.html` — **NEW** Abel vs. Cain: The First Election — Genesis 4, Hebrews 11:4, 1 John 3:12. The Bible's first story after Eden reveals sovereign distinction. Hebrew analysis, six arguments, five objections answered. ✅ (2026-03-28 Content Builder)
+- `ot-jeremiah.html` — **NEW** Jeremiah: Called Before Formation — Jeremiah 1:4-10, "Before I formed you in the womb I knew you." Hebrew word studies (yada', yatsar, qadash, natan), three divine actions before birth, parallel with Paul (Gal 1:15), six arguments, five objections answered. ✅ (2026-03-28 Content Builder)
+- `question-1john5-1.html` — **NEW** The Verse That Settles the Order — 1 John 5:1. Greek perfect tense γεγέννηται proves regeneration precedes faith. All 9 uses in 1 John analyzed, seven arguments, five objections answered. ✅ (2026-03-28 Content Builder)
 
 ### Design System
 - Dark dramatic aesthetic (#0a0a0f bg, gold/ember/violet accents)
@@ -160,8 +153,8 @@
 - [x] **Israel: A Chosen Nation** — `ot-israel-chosen.html` — Deuteronomy 7:6-8, 9:4-6, remnant principle, Isaiah 46:9-10 ✅ (2026-03-27 OT Election Session)
 - [x] **Noah: Chosen for Preservation** — Genesis 6-9, grace before the flood → `ot-noah.html` ✅ (2026-03-28 Content Builder)
 - [x] **Abel vs. Cain: The First Election** — Genesis 4, Hebrews 11:4 → `ot-abel-cain.html` ✅ (2026-03-28 Content Builder)
-- [ ] **Isaiah's Servant** — The ultimate election narrative
-- [ ] **Jeremiah: Called Before Formation** — Jeremiah 1:5
+- [x] **Isaiah's Servant** — The ultimate election narrative → `ot-isaiah-servant.html` ✅ (previously built)
+- [x] **Jeremiah: Called Before Formation** — Jeremiah 1:5 → `ot-jeremiah.html` ✅ (2026-03-28 Content Builder)
 - [ ] **Job: Suffering and God's Sovereignty**
 - [ ] **Jonah: Reluctant Chosen Instrument**
 - [ ] **Proverbs 16:33 / 21:1 standalone page** — Sovereignty over lots and kings' hearts
@@ -202,9 +195,9 @@
 - [x] **1 John 2:2 Demolition** — "Propitiation for the whole world" — Owen's trilemma → `demolition-1john2-2.html` ✅ (2026-03-27 Apologetics Session)
 - [x] **"Does predestination make God the author of sin?"** — Primary/secondary causation, WCF 3.1, Joseph, the Cross → `objection-author-of-sin.html` ✅ (2026-03-27 Apologetics Session)
 - [x] **"If God predestined everything, why command anything?"** — Decree of ends AND means, Acts 27, election as engine of evangelism → `objection-why-command.html` ✅ (2026-03-27 Apologetics Session)
-- [ ] **"What about the person who never heard?"** — Romans 1, general vs. special revelation
+- [x] **"What about the person who never heard?"** — Romans 1, general vs. special revelation → `apologetic-unreached.html` ✅ (2026-03-28 Overseer Run 4)
 - [x] **"Did Jesus die for everyone?"** — Definite atonement / limited atonement → `apologetic-definite-atonement.html` ✅ (2026-03-28 Overseer)
-- [ ] **"Can you lose your salvation?"** — Comprehensive perseverance case
+- [x] **"Can you lose your salvation?"** — Comprehensive perseverance case → `apologetic-perseverance.html` ✅ (2026-03-28 Overseer Run 3)
 - [ ] **"Doesn't election make evangelism pointless?"** — Election as the engine of evangelism
 - [ ] **"What about babies/children?"** — Grace, covenant, and those who die young
 
@@ -215,7 +208,7 @@
 - [ ] **"The Voice in the Valley"** — Modern parable on effectual calling (John 10:27)
 - [ ] **"The Unbreakable Thread"** — Modern parable on perseverance (Romans 8:38-39)
 - [x] **"The King's Banquet"** — Modern parable on irresistible grace (Luke 14:23) → `story-the-kings-banquet.html` ✅ (2026-03-28 Live Session)
-- [ ] **"The Fish Who Chose the Ocean"** — Fable on sovereignty
+- [x] **"The Fish Who Chose the Ocean"** — Fable on sovereignty → `story-the-fish-who-chose-the-ocean.html` ✅ (exists on disk)
 - [x] **"The Dead City"** — Allegory on regeneration and election → `story-the-dead-city.html` ✅ (2026-03-28 Live Session)
 - [ ] **"The Trial"** — Allegory on justification and substitutionary atonement
 - [ ] **"The Potter's House"** — Allegory on Romans 9:21
@@ -242,7 +235,7 @@
 ### Priority 7.5 — Psychology of Resistance Series
 - [x] **Psychology Hub** — `psychology-hub.html` — Gateway page with cards for all 10 psychology pages ✅ (2026-03-28 Psychologist Agent)
 - [x] **"Why We Resist"** — `psychology-why-we-resist.html` — Flagship overview: motivated reasoning, reactance, autonomy bias, terror management, system justification, cognitive dissonance — each mapped to Scripture (Romans 1:18, 9:19-20, Jer 17:9, John 3:19-20, 1 Cor 2:14, 2 Tim 4:3-4) ✅ (2026-03-28 Psychologist Agent)
-- [ ] **"The Autonomy Illusion"** — `psychology-autonomy-illusion.html` — Neuroscience of Libet experiments, compatibilism, Jeremiah 17:9
+- [x] **"The Autonomy Illusion"** — `psychology-autonomy-illusion.html` — Neuroscience of Libet experiments, compatibilism, Jeremiah 17:9 ✅ (exists on disk)
 - [ ] **"Cognitive Biases and the Blindness of Sin"** — `psychology-cognitive-biases.html` — Map cognitive biases to noetic effects of sin
 - [ ] **"The Offense of Grace"** — `psychology-offense-of-grace.html` — Moral foundations theory (Haidt) + Romans 9:19-21
 - [ ] **"Suppressing the Truth"** — `psychology-suppressing-truth.html` — Romans 1:18 and motivated reasoning deep-dive
@@ -266,7 +259,7 @@
 - [ ] **Matthew 13:10-17 — "Why Jesus Spoke in Parables"** — Jesus says "To you it has been GIVEN to know... but to them it has NOT been given." God deliberately conceals truth from some. → `question-parables.html`
 - [ ] **Psalm 139 — "Known Before You Were Known"** — "In your book were written, every one of them, the days that were formed for me" (v.16). Predestination in the Psalms. → `question-psalm139.html`
 - [ ] **Romans 11:33-36 — "The Doxology of Sovereignty"** — After election, hardening, and remnant — Paul doesn't apologize, he WORSHIPS. The proper response to sovereignty is awe. → `question-doxology.html`
-- [ ] **1 John 5:1 — "The Verse That Settles the Order"** — Perfect tense γεγεννημένος proves new birth PRECEDES faith. Single most devastating verse for Arminian ordo salutis. → `question-1john5-1.html`
+- [x] **1 John 5:1 — "The Verse That Settles the Order"** — Perfect tense γεγέννηται proves new birth PRECEDES faith. Single most devastating verse for Arminian ordo salutis. → `question-1john5-1.html` ✅ (2026-03-28 Content Builder)
 - [ ] **Acts 4:27-28 — "The Cross Was Predestined"** — The most evil act in history was predestined by God, carried out by free human agents. Compatibilism at its most breathtaking. → `question-acts4.html`
 - [ ] **Hebrews 12:2 — "Jesus: Author and Perfecter of Our Faith"** — Faith has an AUTHOR (ἀρχηγόν) and a PERFECTER (τελειωτήν). You are not the origin of your own belief. → `question-hebrews12-2.html`
 
@@ -407,6 +400,28 @@
 ---
 
 ## Session Log
+
+### 2026-03-28 — Catalyst Inaugural Session: Fleet Evolution Engine Activated
+- **Evaluated 8 pages** across all major content categories: index.html, devotional-never-gives-up.html, story-the-dead-city.html, demolition-john3-16.html, question-romans9.html, secular-neuroscience-human-inability.html, psychology-why-we-resist.html, resistance-last-idol.html
+- **Site baseline established:** Overall average 8.0/10. Strongest dimension: Scripture Authority (8.8). Weakest dimension: Humor (5.6).
+- **Critical finding:** Demolition and Question pages are the weakest category (6.4-6.9 avg) — intellectually rigorous but emotionally flat. Psychology/Resistance pages are the strongest (8.4-9.1).
+- **Identified "The DNA of Devastation":** The site's top pages all share a technique — naming the reader's experience with startling precision BEFORE presenting doctrine. This technique is absent from the weakest pages.
+- **4 Agent prompts rewritten:**
+  1. **Builder** — Added opening hook examples, emotional arc requirement, "Name It Before You Explain It" technique, controlling metaphor requirement
+  2. **Refiner** — Added emotional arc assessment as FIRST step (before adding arguments), humor check, quote weaving instruction
+  3. **Wordsmith** — Elevated question/demolition pages to priority 3-4 (above devotionals), added "Name It" technique
+  4. **Storyteller** — Added doctrine-invisibility instruction, controlling image requirement
+- **Created CATALYST-LOG.md** — Full scoring, pattern analysis, evolution scorecard, and baseline metrics for tracking site improvement over time
+- **Strongest page found:** resistance-last-idol.html (9.1/10) — perfect fusion of psychology, theology, and pastoral address
+- **Weakest page found:** question-romans9.html (6.4/10) — intellectually strong but emotionally flat, no humor, no worship
+
+### 2026-03-28 — Content Builder Session: Jeremiah + 1 John 5:1 (2 New Pages)
+- **Built `ot-jeremiah.html`** — Jeremiah: Called Before Formation (Jeremiah 1:4-10). ~1,371 lines. Deep exegetical page covering: context of Jeremiah's call during Josiah's reforms, full exegesis of Jeremiah 1:5 (three clauses dismantling human autonomy), Hebrew word studies (yada' as covenantal election-knowing, yatsar as potter's word, qadash as consecration, natan as sovereign appointment, beterem used twice for temporal priority), three divine actions before birth (election, sanctification, commission), Jeremiah's objection and God's monergistic response, parallel with Paul in Galatians 1:15-16 (Greek aphorisas analysis), 6 arguments from the text, 5 objections thoroughly answered, 4 theologian quotes (Augustine, Calvin, Spurgeon, Owen).
+- **Built `question-1john5-1.html`** — The Verse That Settles the Order (1 John 5:1). ~1,345 lines. The single most devastating verse for the Arminian ordo salutis. Deep Greek analysis of πᾶς ὁ πιστεύων (present participle = ongoing believing) vs. γεγέννηται (perfect passive = completed past birth with continuing results). Tense timeline showing birth precedes belief. All 9 uses of γεγέννηται in 1 John showing invariable birth→fruit pattern. Cross-references to John 1:12-13, 3:3-8, Eph 2:1-5, James 1:18, 1 Peter 1:3/23, Ezekiel 36:26-27. 7 arguments, 5 objections answered, 4 theologian quotes.
+- **Updated `ot-election.html`** — Added Jeremiah card to character studies grid; removed Noah & Abel from "Coming Soon" since both are now live
+- **Updated `questions.html`** — Added 1 John 5:1 entry (#27) to The Evidence hub
+- **Cross-references added** to: ot-jacob-esau.html, question-goldchain.html, question-foreknowledge.html, question-1peter1.html (all now link to ot-jeremiah.html)
+- **ROADMAP updated** — Jeremiah checked off in Priority 2, Isaiah's Servant marked as previously built, 1 John 5:1 checked off in Priority 8
 
 ### 2026-03-28 — Content Builder Session: OT Election Expansion (2 New Pages)
 - **Built `ot-noah.html`** — Noah: Chosen for Preservation (Genesis 6-9). ~1,323 lines. Deep exegetical page covering: the world before the flood (Gen 6:5 total depravity), "Noah found grace" (Gen 6:8 — the Bible's first use of חֵן), the critical order of grace (6:8 before 6:9 proves grace precedes righteousness), Hebrew word studies (chen, tsaddiq, tamim, hithallekh), the ark as a type of Christ, "the LORD shut him in" (Gen 7:16), the covenant of preservation, NT witnesses (Heb 11:7, 1 Pet 3:20, 2 Pet 2:5, Matt 24), 7 arguments from the text, 6 objections answered, theologian quotes.

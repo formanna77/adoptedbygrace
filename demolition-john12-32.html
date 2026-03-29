@@ -14,7 +14,7 @@
     <meta name="twitter:title" content="Demolition: John 12:32 — The Greek Text Destroys the Arminian Reading">
     <meta name="twitter:description" content="Why 'I will draw all people to myself' doesn't mean what Arminians think it means.">
     <link rel="canonical" href="https://adoptedbygrace.net/demolition-john12-32">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <title>Demolition: John 12:32 — "I Will Draw ALL People" | Adopted by Grace</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -726,7 +726,7 @@ a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
 .skip-link:focus { outline: 2px solid var(--accent-gold); }
 </style>
-    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="./global.css">
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to main content</a>
@@ -749,7 +749,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -999,7 +999,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     <footer>
         <div class="footer-content">
             <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
-            <p><a href="/">Home</a> | <a href="/questions">Doctrine</a> | <a href="/demolition-hub">Apologetics</a> | <a href="/about">About</a> | <a href="/connect">Contact</a></p>
+            <p><a href="/">Home</a> | <a href="/questions">Doctrine</a> | <a href="/demolition-hub">Apologetics</a> | <a href="/about">About</a> | <a href="/contact">Contact</a></p>
             <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-muted);">For the supremacy of God in Christ. | Soli Deo Gloria.</p>
         </div>
     </footer>
@@ -1063,6 +1063,29 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             });
         }
     </script>
-<script src="/global.js" defer></script>
+<script src="/global.js" defer>
+        // Mobile dropdown toggles
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks) {
+            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
+                trigger.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const li = trigger.closest('li');
+                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
+                        if (openLi !== li) openLi.classList.remove('dropdown-open');
+                    });
+                    li.classList.toggle('dropdown-open');
+                });
+            });
+            navLinks.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const hamburger = document.querySelector('.hamburger');
+                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
+    </script>
 </body>
 </html>

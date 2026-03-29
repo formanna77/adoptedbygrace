@@ -13,11 +13,11 @@
     <meta name="twitter:description" content="Explore everything Adopted by Grace has to offer — 90+ pages of biblical theology, devotionals, apologetics, church history, and more.">
     <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
     <title>The Living Map — Explore Everything | Adopted by Grace</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="./global.css">
     <style>
         /* ===== MAP-SPECIFIC STYLES ===== */
         .map-hero { padding: 7rem 2rem 2rem; text-align: center; position: relative; }
@@ -130,7 +130,28 @@
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
 .skip-link:focus { outline: 2px solid var(--accent-gold); }
-</style>
+
+        .nav-links a, .nav-links .nav-trigger { text-decoration: none; color: var(--text-secondary); font-size: 0.82rem; transition: color 0.25s ease; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.9rem; height: 56px; display: flex; align-items: center; gap: 0.3rem; cursor: pointer; background: none; border: none; font-family: inherit; }
+        .nav-links a:hover, .nav-links a.active, .nav-links li:hover > .nav-trigger { color: var(--accent-gold); }
+        .nav-arrow { font-size: 0.55rem; transition: transform 0.3s ease; opacity: 0.5; }
+        .nav-links li:hover .nav-arrow { transform: rotate(180deg); opacity: 1; }
+        .nav-dropdown { position: absolute; top: 100%; left: 50%; transform: translateX(-50%) translateY(8px); min-width: 220px; background: rgba(14, 14, 22, 0.97); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 0.6rem 0; opacity: 0; visibility: hidden; transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease; box-shadow: 0 20px 60px rgba(0,0,0,0.5); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); z-index: 100; }
+        .nav-links > li:hover > .nav-dropdown { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+        .nav-dropdown a { display: flex; align-items: center; gap: 0.7rem; padding: 0.6rem 1.3rem; color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: all 0.2s ease; border-left: 2px solid transparent; height: auto; text-transform: none; letter-spacing: normal; }
+        .nav-dropdown a:hover { color: var(--accent-gold); background: rgba(212, 162, 84, 0.05); border-left-color: var(--accent-gold); padding-left: 1.5rem; }
+            .nav-links > li > .nav-trigger {
+                height: auto; padding: 0.8rem 2rem; justify-content: space-between; font-size: 0.9rem;
+            }
+            .nav-dropdown {
+                position: static; transform: none; opacity: 1; visibility: visible;
+                min-width: 100%; border: none; border-radius: 0; box-shadow: none;
+                background: rgba(18, 18, 26, 0.5); padding: 0; display: none;
+            }
+            .nav-links > li.dropdown-open > .nav-dropdown { display: block; }
+            .nav-links > li:hover > .nav-dropdown { position: static; transform: none; opacity: 1; visibility: visible; }
+            .nav-dropdown a { padding: 0.6rem 2rem 0.6rem 3rem; font-size: 0.85rem; border-left: none; }
+            .nav-dropdown a:hover { padding-left: 3.2rem; }
+    </style>
     <link rel="canonical" href="https://adoptedbygrace.net/explore-map.html">
     <script type="application/ld+json">
 {
@@ -164,7 +185,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -409,12 +430,12 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         {cat:"journey",url:"/quiz",title:"Reformed Theology Quiz",desc:"Test your knowledge — 'How Reformed are you?' Find out in 5 minutes."},
 
         // === RESOURCES ===
-        {cat:"resources",url:"/resources",title:"Resources Hub",desc:"Books, sermons, confessions, study guides — everything you need to go deeper."},
-        {cat:"resources",url:"/resources-books",title:"Recommended Books",desc:"The essential Reformed reading list — from beginner to seminary-level."},
-        {cat:"resources",url:"/resources-sermons",title:"Sermon Library",desc:"Faithful preaching on the doctrines of grace — audio, video, and transcripts."},
-        {cat:"resources",url:"/resources-confessions",title:"Creeds & Confessions",desc:"The historic Reformed faith — Westminster, Heidelberg, Dort, London Baptist, and more."},
-        {cat:"resources",url:"/resources-glossary",title:"Theological Glossary",desc:"Key terms explained — from 'antinomianism' to 'supralapsarianism.'"},
-        {cat:"resources",url:"/resources-study-guides",title:"Study Guides",desc:"Personal and small group materials for working through the doctrines of grace."},
+        
+        
+        
+        
+        
+        
 
         // === SECULAR EVIDENCE ===
         {cat:"secular",url:"/secular-psychology-bondage-of-will",title:"Psychology Proves Total Depravity",desc:"Secular science confirms what the Bible teaches — the will is not free."},
@@ -506,25 +527,24 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         // === ADDITIONAL JOURNEY ===
         {cat:"journey",url:"/belief-assessment",title:"Belief Assessment",desc:"Discover where you stand theologically on salvation."},
         {cat:"journey",url:"/start-here-assessment",title:"Find Your Starting Point",desc:"Discover your starting point on the 5-phase journey."},
-        {cat:"journey",url:"/start-here-groups",title:"Small Group Guide",desc:"A 5-week discussion guide to study sovereign grace together."},
-        {cat:"journey",url:"/start-here-resources",title:"Resources for Your Journey",desc:"Complete resource hub for the 5-phase Start Here journey."},
+        
 
         // === ADDITIONAL RESOURCES ===
-        {cat:"resources",url:"/about",title:"About — The Mission",desc:"Adopted By Grace exists to present the biblical case for divine election with clarity and power."},
-        {cat:"resources",url:"/community",title:"Community",desc:"Study the doctrines of grace together — group discussion guides and tools."},
-        {cat:"resources",url:"/connect",title:"Connect With Us",desc:"Share prayer requests, testimonies, and theological questions."},
-        {cat:"resources",url:"/creed-canons-dort",title:"The Canons of Dort",desc:"The confessional heart of sovereign grace — full text with modern commentary."},
-        {cat:"resources",url:"/creed-heidelberg-catechism",title:"The Heidelberg Catechism",desc:"'My only comfort in life and death' — the catechism that shaped millions."},
-        {cat:"resources",url:"/creeds-confessions",title:"Creeds & Confessions Hub",desc:"The great creeds and confessions that have upheld God's sovereignty for centuries."},
-        {cat:"resources",url:"/donate",title:"Support This Ministry",desc:"Help spread the doctrines of sovereign grace to the nations."},
-        {cat:"resources",url:"/resource-finder",title:"Resource Finder",desc:"Find the perfect books, sermons, podcasts, and study materials."},
-        {cat:"resources",url:"/resources-catechisms",title:"Catechism Study Resources",desc:"Westminster, Heidelberg, Baptist — learn Reformed theology through the great catechisms."},
-        {cat:"resources",url:"/resources-commentaries",title:"Bible Commentaries",desc:"Curated commentary recommendations from a Reformed perspective."},
-        {cat:"resources",url:"/resources-podcasts",title:"Podcasts & Media",desc:"Curated podcasts, video channels, and media on Reformed theology."},
-        {cat:"resources",url:"/resources-prayer",title:"Prayer Guides",desc:"Biblical resources to deepen prayer life in light of God's sovereignty."},
-        {cat:"resources",url:"/resources-reading-plans",title:"Reading Plans",desc:"Structured plans through Scripture exploring God's sovereignty in salvation."},
-        {cat:"resources",url:"/search",title:"Search All Pages",desc:"Search across the entire site — find verses, doctrines, theologians, and more."},
-        {cat:"resources",url:"/verse-explorer",title:"Scripture Verse Explorer",desc:"Explore Scripture organized by the five doctrines of grace."},
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
         // === PSYCHOLOGY & RESISTANCE ===
         {cat:"resistance",url:"/psychology-why-we-resist",title:"Why We Resist: The Psychology of Rejecting Sovereignty",desc:"Why intelligent, Bible-reading Christians resist God's sovereignty — a deep psychological exploration."},

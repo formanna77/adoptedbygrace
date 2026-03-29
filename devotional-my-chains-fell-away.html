@@ -15,7 +15,7 @@
     <meta name="twitter:title" content="My Chains Fell Away | Adopted by Grace">
     <meta name="twitter:description" content="A meditative reflection on the freedom we receive through God's irresistible grace.">
     <link rel="canonical" href="https://adoptedbygrace.net/devotional-my-chains-fell-away.html">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -491,6 +491,27 @@
             .card { padding: 1.5rem; }
             blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
         }
+    
+        .nav-links a, .nav-links .nav-trigger { text-decoration: none; color: var(--text-secondary); font-size: 0.82rem; transition: color 0.25s ease; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 0.9rem; height: 56px; display: flex; align-items: center; gap: 0.3rem; cursor: pointer; background: none; border: none; font-family: inherit; }
+        .nav-links a:hover, .nav-links a.active, .nav-links li:hover > .nav-trigger { color: var(--accent-gold); }
+        .nav-arrow { font-size: 0.55rem; transition: transform 0.3s ease; opacity: 0.5; }
+        .nav-links li:hover .nav-arrow { transform: rotate(180deg); opacity: 1; }
+        .nav-dropdown { position: absolute; top: 100%; left: 50%; transform: translateX(-50%) translateY(8px); min-width: 220px; background: rgba(14, 14, 22, 0.97); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 0.6rem 0; opacity: 0; visibility: hidden; transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease; box-shadow: 0 20px 60px rgba(0,0,0,0.5); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); z-index: 100; }
+        .nav-links > li:hover > .nav-dropdown { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+        .nav-dropdown a { display: flex; align-items: center; gap: 0.7rem; padding: 0.6rem 1.3rem; color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: all 0.2s ease; border-left: 2px solid transparent; height: auto; text-transform: none; letter-spacing: normal; }
+        .nav-dropdown a:hover { color: var(--accent-gold); background: rgba(212, 162, 84, 0.05); border-left-color: var(--accent-gold); padding-left: 1.5rem; }
+            .nav-links > li > .nav-trigger {
+                height: auto; padding: 0.8rem 2rem; justify-content: space-between; font-size: 0.9rem;
+            }
+            .nav-dropdown {
+                position: static; transform: none; opacity: 1; visibility: visible;
+                min-width: 100%; border: none; border-radius: 0; box-shadow: none;
+                background: rgba(18, 18, 26, 0.5); padding: 0; display: none;
+            }
+            .nav-links > li.dropdown-open > .nav-dropdown { display: block; }
+            .nav-links > li:hover > .nav-dropdown { position: static; transform: none; opacity: 1; visibility: visible; }
+            .nav-dropdown a { padding: 0.6rem 2rem 0.6rem 3rem; font-size: 0.85rem; border-left: none; }
+            .nav-dropdown a:hover { padding-left: 3.2rem; }
     </style>
     <script type="application/ld+json">
     {
@@ -521,7 +542,7 @@
         }
     }
     </script>
-    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="./global.css">
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -543,7 +564,7 @@
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -586,108 +607,86 @@
         <article>
             <header class="article-header">
                 <h1>My Chains Fell Away</h1>
-                <div class="article-meta">A meditation on irresistible grace and spiritual freedom</div>
+                <div class="article-meta">On grace that does not ask permission — and the freedom that follows</div>
             </header>
 
             <section class="article-content">
                 <h2>The Prisoner and the Open Door</h2>
 
-                <p>Picture a prisoner who has spent decades in darkness. He knows nothing else. The chains have worn grooves into his wrists—deep, painful grooves that he no longer notices. He has been in these chains so long that he has stopped trying to escape. More than that: he has grown to love them. They are familiar. They are his. They define him. In his deepest heart, he would not know who he is without them.</p>
+                <p>Picture a prisoner who has spent decades in darkness. The chains have worn grooves into his wrists — grooves so familiar he no longer feels them. He has stopped trying to escape. Worse: he has grown to love the chains. They are his identity. He would not know himself without them.</p>
 
-                <p>One day, the door opens. Not from inside. From outside. A hand reaches in—a hand scarred and pierced, a hand that has worn chains of its own. The prisoner flinches. He does not want to be freed. Freedom terrifies him. It means stepping into light he has forgotten. It means becoming someone new. It means losing the only identity he has ever known.</p>
+                <p>One day, the door opens. Not from inside. From outside. A hand reaches in — scarred, pierced, a hand that has worn chains of its own. The prisoner flinches. Freedom terrifies him more than captivity ever did.</p>
 
                 <p>But the hand does not ask permission.</p>
 
-                <p>The chains do not slowly loosen. They shatter. They fall. The prisoner, trembling and confused, steps out into light so brilliant it blinds him. For the first time in decades, he experiences something he had forgotten was possible: he is free. Not because he chose it. Not because he worked for it. Not because he was worthy of it. But because someone outside him, someone stronger than him, someone who loved him more than he loved his chains, reached in and broke them.</p>
+                <p>The chains shatter. The prisoner stumbles into light so brilliant it blinds him. He is free. Not because he chose it. Not because he earned it. But because someone who loved him more than he loved his bondage reached in and broke it.</p>
 
-                <p>Charles Wesley understood this. "My chains fell off, my heart was free," he wrote. Not "my chains slowly loosened." Not "I gradually escaped." Fell off. In a moment. In an act not his own. And then the cry: "I rose, went forth, and followed Thee."</p>
-
-                <p>This is irresistible grace. This is the gospel. This is what it means to be redeemed by the God of the Bible.</p>
+                <p>Charles Wesley understood. <em>"My chains fell off, my heart was free."</em> Not "my chains slowly loosened." Not "I gradually escaped." <em>Fell off.</em> In a moment. In an act not his own. And then the cry that only the truly liberated can make: <em>"I rose, went forth, and followed Thee."</em></p>
 
                 <h2>What Is True Freedom?</h2>
 
-                <p>We live in a world obsessed with freedom. Freedom to choose. Freedom to define ourselves. Freedom to do whatever we want, as long as we don't hurt anyone else. We have made freedom synonymous with autonomy, with the power to choose.</p>
+                <p>Our culture worships autonomy — the power to choose, to define yourself, to answer to no one. We call this freedom. Scripture calls it something else entirely.</p>
 
-                <p>But the Scripture tells us something radically different. True freedom is not the power to choose God. True freedom is being freed from the bondage of sin by God.</p>
+                <p>True freedom is not the power to choose God. True freedom is being freed from the bondage that makes you <em>unable</em> to choose Him.</p>
 
-                <p>There is a difference so fundamental, so world-altering, that we must stop and feel the weight of it.</p>
+                <p>A man enslaved to alcohol does not need more options at the bar. He needs to be liberated from the desire that is killing him. A heart in love with sin does not need a wider menu. It needs a transplant. A soul bound in spiritual darkness does not need the ability to find God on his own terms. He needs a hand to reach in and drag him into light.</p>
 
-                <p>A man enslaved to alcohol does not need the freedom to choose whether to drink. He needs to be liberated from the chains that make him want to drink. A heart in love with sin does not need more options. It needs to be transformed so that it loves something else. A soul bound in spiritual darkness does not need the ability to find God on his own terms. He needs a hand to reach in, to shatter his chains, and to drag him into light.</p>
-
-                <p>This is what makes grace so dangerous, so revolutionary. Grace does not respect our autonomy. Grace does not ask permission. Grace reaches into the prison and breaks chains the prisoner loves. Grace transforms desires we have held as sacred. Grace tells us that the freedom we thought we wanted was a delusion, and that the only true freedom is the freedom to worship and serve the God who liberated us.</p>
+                <p>This is what makes grace dangerous. Grace does not respect your autonomy. Grace does not ask permission. Grace reaches into the prison and breaks chains the prisoner loves — then rewires the prisoner's heart so that he loves the light more than he ever loved the dark.</p>
 
                 <div class="verse-block">
                     <p>For freedom Christ has set us free; stand firm therefore, and do not submit again to a yoke of slavery.</p>
                     <cite>Galatians 5:1 (ESV)</cite>
                 </div>
 
-                <p>Notice the redundancy. For freedom Christ has set us free. It is not enough that we are freed. We are freed FOR something. We are freed so that we would BE free. Not free to go back into our chains. Not free to construct new ones. But liberated so that freedom itself becomes our new reality.</p>
-
-                <p>The passage that follows is crucial: "Stand firm therefore, and do not submit again to a yoke of slavery." These are the words of Paul to people who have been liberated. He is not saying, "You have the option to remain free if you choose." He is saying, "You have been freed. Now live like it. Refuse to go back. Refuse to pick up new chains."</p>
+                <p>Notice Paul's stunning redundancy. <em>For freedom</em> Christ has set us free. You are not freed for probation. Not freed for a trial period. You are freed <em>for freedom itself.</em> And then the command: stand firm. Do not pick up new chains. Do not crawl back into the cell. You have been liberated — now live like it.</p>
 
                 <h2>The Slavery We Do Not Recognize</h2>
-
-                <p>In John 8, Jesus makes a shocking statement:</p>
 
                 <div class="verse-block">
                     <p>Jesus answered them, "Truly, truly, I say to you, everyone who practices sin is a slave to sin. The slave does not remain in the house forever; the son remains forever. So if the Son sets you free, you will be free indeed."</p>
                     <cite>John 8:34-36 (ESV)</cite>
                 </div>
 
-                <p>The most powerful aspect of this passage is what it reveals about the nature of sin. Sin is not merely a collection of bad acts. Sin is slavery. To practice sin is to be enslaved by it. And here is the horror: the enslaved do not know they are enslaved. They think they are free.</p>
+                <p>Sin is not a collection of bad decisions. Sin is slavery. And the most terrifying thing about slavery is this: the enslaved think they are free.</p>
 
-                <p>The religious leaders of Jesus's day believed they were free. They were children of Abraham. They had never been enslaved to anyone. But Jesus looked at them and saw slaves—slaves to their pride, slaves to their interpretation of the law, slaves to their need to control and condemn others, slaves to the very spiritual system they had built their identities around.</p>
+                <p>The Pharisees were certain they were free. Children of Abraham. Keepers of the law. Masters of their own spiritual destiny. Jesus looked at them and saw men in chains so old they had mistaken the weight for the weight of their own bones. They loved their bondage — not because it was good, but because it was <em>theirs.</em> The thought of bowing before a Messiah they could not control terrified them more than the slavery they could not see.</p>
 
-                <p>And He saw something deeper still: they loved their chains. The thought of real freedom, the thought of being broken of their self-righteousness, the thought of bowing before a Messiah they did not expect and could not control—it terrified them. So they rejected the only One who could set them free.</p>
-
-                <p>This is the true tragedy of unfreedom. Not that the chains are on us. But that we do not want them removed. The slave loves his slavery. The prisoner loves his prison. We practice sin not because we are forced to, but because, in our fallenness, we have come to love sin more than we love holiness. We love the comfort of known things more than the terror of liberation.</p>
+                <p>This is the deepest tragedy. Not that the chains are on us. That we do not want them removed. We practice sin not because we are forced to, but because — in our fallenness — we have come to love it more than holiness. We love the comfort of known darkness more than the terror of unfamiliar light.</p>
 
                 <div class="reflection-box">
-                    <p><strong>Reflect:</strong> What "chains" do you love? What comfortable patterns of sin have become so familiar that the thought of breaking them brings anxiety rather than joy? Not the sins you know are wrong. The ones you have rationalized as acceptable. The ones that feel like freedom.</p>
+                    <p><strong>Reflect:</strong> What chains do you love? Not the sins you know are wrong. The ones you have rationalized into virtues. The ones that feel like freedom — and are anything but.</p>
                 </div>
 
                 <h2>The Miracle of Changed Desires</h2>
 
-                <p>This is where the miracle appears. This is where grace becomes irresistible not because it violates our will, but because it transforms what we will.</p>
+                <p>Here is where grace becomes something other religions cannot even imagine. God does not simply break your chains and shove you into light you hate. That would be torture, not salvation. Instead, the Spirit does something infinitely more radical: He makes the prisoner <em>want</em> to be free.</p>
 
-                <p>God does not simply break your chains and expect you to walk into light you do not want. That would not be grace. That would be cruelty. Instead, the Spirit of God does something infinitely more remarkable. He changes your heart. He transforms your desires. He reaches into the prisoner's cell and does not just break the chains—He reaches into the prisoner's soul and makes the prisoner want to be free.</p>
+                <p>He changes what you love. He rewires the deepest machinery of your heart so that holiness — which once looked like death — suddenly looks like the only life worth living. After the chains fell off Wesley's wrists, he did not run back to his old life. He <em>rose, went forth, and followed Christ.</em> Why? Because the same grace that broke his chains had broken his love of sin. He could no more return to bondage than a man raised from the dead could prefer the coffin.</p>
 
-                <p>You will notice that after Jesus sets people free, they do not run. They follow. After the chains fell off Charles Wesley's wrists, he did not go back to his old life. He rose, went forth, and followed Christ. Why? Because the same grace that broke his chains had also broken his love of sin. He wanted, more than anything, to follow the One who had liberated him.</p>
+                <p>This is what irresistible grace actually means: not force that overrides your will, but transformation so deep it <em>captures</em> your will. A person with a new heart is not coerced into holiness. She is liberated into it. Freedom is not choosing between options. Freedom is desiring the good — and choosing it because you finally, truly, want to.</p>
 
-                <p>This is irresistible grace: not force that ignores human will, but transformation so deep that it captures human will. A person with a transformed heart, a new nature, a renewed desire—that person is more truly free than anyone on earth. Because freedom is not the power to choose between options. Freedom is desiring the good, and then choosing it.</p>
-
-                <p>The great theologians of the church have always understood this. Augustine, after his conversion, would write: "O Lord, you had broken my chains. I will offer to you the sacrifice of praise." Not "I will offer if I feel like it." Not "I will offer because I'm obligated." The chains were broken, the heart was transformed, and the only response that made sense was worship.</p>
+                <p>Augustine knew. After his conversion he wrote: <em>"O Lord, you had broken my chains. I will offer to you the sacrifice of praise."</em> Not "I will offer if I feel like it." The chains were broken, the heart was new, and worship was the only response that made any sense at all.</p>
 
                 <h2>The Hard Truth About Freedom</h2>
 
-                <p>But we must say something hard here. Something the modern world does not want to hear. Real spiritual freedom is not the freedom to do whatever you want. Real freedom is the freedom from wanting what destroys you.</p>
+                <p>Real freedom is not the freedom to do whatever you want. Real freedom is the freedom from wanting what destroys you. This is scandalous to modern ears — but it is the deepest truth of the gospel.</p>
 
-                <p>A man freed from addiction is not then free to use drugs. He is free FROM using drugs. His chains are broken when his desire for drugs is broken. The freedom is real—but it is not the freedom to go back to his chains. The freedom is to stay free.</p>
-
-                <p>In the same way, the sinner made new in Christ is not free to sin. Not because he is under a law that forbids it, but because his heart has been transformed. His freedom is the freedom from sin's dominion. And the highest expression of that freedom is not the ability to sin if he chooses, but the power to love Christ more than sin.</p>
-
-                <p>This is scandalous to autonomous man. But it is the deepest truth of the gospel. You are free. Truly, completely, eternally free. But you are free as a child is free in the arms of a loving father. Your freedom is not independence from Him. Your freedom is dependence on Him, because in Him alone is perfect safety, perfect love, perfect peace.</p>
+                <p>You are free. Truly, eternally free. But you are free the way a child is free in the arms of a father — not independent <em>from</em> Him, but safe <em>in</em> Him. Your liberty is not autonomy. Your liberty is belonging to someone whose love will never let you go and whose wisdom will never lead you wrong.</p>
 
                 <div class="verse-block">
                     <p>So Jesus said to the Jews who had believed him, "If you abide in my word, you are truly my disciples, and you will know the truth, and the truth will set you free."</p>
                     <cite>John 8:31-32 (ESV)</cite>
                 </div>
 
-                <p>The chains have fallen. The prison door is open. The light is brilliant and terrifying and real. The question that remains is not whether you can be free. The chains have already been broken, for those who are in Christ. The question is whether you will stand firm in freedom. Whether you will refuse to pick up new chains. Whether you will allow the Spirit to continue His transforming work in your heart, making you more and more free from the desires that once enslaved you.</p>
+                <p>The chains have fallen. The door is open. The light is brilliant and terrifying and real. The question is not whether you <em>can</em> be free — in Christ, the chains are already broken. The question is whether you will stand in that freedom, or crawl back into a cell that was never home.</p>
 
-                <p>And this, finally, is what makes the gospel good news. Not that you have the freedom to choose God. But that God has the power to choose you, to free you, and to transform you so completely that worshiping Him becomes not obligation, but your deepest joy.</p>
+                <p>And this is what makes the gospel news so unimaginably good: not that you have the freedom to choose God, but that God has the power to choose you, free you, and transform you so completely that worshiping Him becomes not obligation — but the deepest joy you have ever known.</p>
 
                 <h2>A Closing Prayer</h2>
 
-                <p>O God of infinite mercy, You have seen me in my chains. You have seen me loving my bondage, justifying my slavery, building my identity on the very things that were destroying me. And still, You reached in. Your hand, pierced for my freedom, broke every chain that held me.</p>
+                <p>God, You saw me in my chains — loving them, defending them, building my identity on the very things that were killing me. And You reached in anyway. Your scarred hand broke what my willing hands could never release.</p>
 
-                <p>I do not deserve this liberation. I did not ask for it. I would not have chosen it, had it been left to my fallen will. But You did not leave it to me. In irresistible grace, You reached into my prison and pulled me into light.</p>
-
-                <p>Now, Holy Spirit, continue Your work in me. Transform my desires. Make me love freedom more than I love the comfortable lies of slavery. Make me run toward holiness not from fear of punishment, but from joy that there is a God worth running toward. Make me understand, ever more deeply, that the only true freedom is the freedom to worship You.</p>
-
-                <p>And give me courage to stand firm. Not to drift back into chains. Not to construct new ones. But to live as one who is truly, gloriously, eternally free in Christ.</p>
-
-                <p>For the praise of Your great name. Amen.</p>
+                <p>Now keep me free. Make me love the light more than I ever loved the dark. And when I am tempted to crawl back into that cell, remind me: the door was opened from the outside, by hands that will never, ever let me go. Amen.</p>
 
                 <div class="related-links">
                     <h3>Explore Related Topics</h3>
@@ -721,27 +720,27 @@
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
                         <a href="question-irresistible.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Irresistible Grace: Why Freedom is Found in Surrender</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Discover how grace calls us and draws us home.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Grace that does not wait for your permission — and why that is the best news you will ever hear.</p>
                         </a>
                         <a href="freedom.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">True Freedom in Christ</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Freedom from sin through the supremacy of Christ.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">What freedom actually looks like when you stop confusing it with autonomy.</p>
                         </a>
                         <a href="question-depravity.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Total Depravity: Why We Cannot Free Ourselves</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Understand our bondage before the Liberator comes.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">You cannot fix what you will not admit is broken. Scripture is unflinching here.</p>
                         </a>
                         <a href="devotional-rescued-without-a-say.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Rescued Without a Say</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Grace that saves us despite ourselves.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Nobody asked Lazarus if he wanted to live again. That is the point.</p>
                         </a>
                         <a href="systematic-soteriology.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Soteriology: The Doctrine of Salvation</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How God saves His people completely.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">From election to glorification — the architecture of a rescue that cannot fail.</p>
                         </a>
                         <a href="devotional-not-my-will-but-joy.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                             <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Not My Will, But Joy in His</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Surrender that leads to deeper joy.</p>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">If the Son of God surrendered His will to the Father, what makes you think yours is worth clinging to?</p>
                         </a>
                     </div>
                 </div>
@@ -772,7 +771,7 @@
                 <h4>Connect</h4>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/connect">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
             </div>

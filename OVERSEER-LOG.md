@@ -1,5 +1,41 @@
 # Overseer Log — adoptedbygrace.net
 
+## 2026-03-28 — Run 4 (Scheduled)
+
+### Audit Results
+- **No broken internal links** — clean pass across all 199 HTML pages
+- **No eschatology references** in any HTML file — clean
+- **Sitemap synced** — only `index-old.html` missing (intentionally excluded as deprecated)
+- **global.css/global.js** — only missing from 3 index variants (known/acceptable)
+- **QA-REPORT** shows all 192 pages passed all checks in last QA session; 0 outstanding defects
+- **Fleet-ops** reports 158 uncommitted files and SSH host key verification failure blocking git push. Auto-push may be stalled. Aaron may need to run `ssh-keyscan github.com >> ~/.ssh/known_hosts` on his machine.
+
+### Issues Found & Fixed
+1. **ROADMAP sync** — 3 items marked as unchecked that actually exist on disk:
+   - `psychology-autonomy-illusion.html` — marked complete
+   - `story-the-fish-who-chose-the-ocean.html` — marked complete
+   - `apologetic-perseverance.html` ("Can you lose your salvation?") — marked complete (built in Run 3)
+2. **Never Gives Up banner link** — `apologetic-unreached.html` had `/never-gives-up` instead of `/devotional-never-gives-up` — fixed before deployment
+
+### Content Built
+- **`apologetic-unreached.html`** — NEW: "What About the Person Who Never Heard the Gospel?" — Comprehensive biblical response to the unreached question. Features Romans 1:18-23 (general revelation), Romans 2:14-15 (moral law), Romans 3:10-23 (universal guilt), Acts 17:26-27 (sovereign orchestration), Genesis 18:25 (God's character), Romans 10:13-15 (mission imperative). Brilliant courtroom analogy (summons written on sunrises), prisoner/pardon distinction, tender pastoral section on children. Never Gives Up banner. 4 related resource cards. ~815 lines, ~2,500 words of content. Scripture-first terminology throughout. Added to sitemap and ROADMAP.
+
+### Current Page Count
+- **199 HTML pages** (198 existing + 1 new)
+- **Sitemap entries: ~200** (synced)
+
+### Agent Assessment
+- **Wordsmith** has polished 16 pages (index, start-here series, 8 devotionals). ~183 pages remain untouched — still the biggest quality gap.
+- **Story Engine** at 5 stories (surgeon, dead city, fish, king's banquet, orphanage). 7 more planned.
+- **Psychology series** at hub + 2 pages (why-we-resist, autonomy-illusion). 8 more planned.
+- **Apologetics** now at 3 complete (definite atonement, perseverance, unreached). 2 more planned (evangelism pointless, babies/children).
+- **Git health: DEGRADED** — 158 uncommitted files, SSH blocking remote push. This is the #1 infrastructure concern.
+
+### Top 3 Priorities for Next Run
+1. **Story Engine: "The Adoption Papers"** — Stories reach hearts that arguments miss; this one directly serves the site's core adoption metaphor
+2. **Apologetics: "Doesn't election make evangelism pointless?"** — Election as the engine of evangelism, one of the most common objections
+3. **Wordsmith acceleration** — 183 pages untouched. The quality gap between polished and unpolished pages is stark. Need to prioritize high-traffic hub pages.
+
 ## 2026-03-28 — Run 3 (Scheduled)
 
 ### Issues Found & Fixed

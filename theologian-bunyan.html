@@ -628,7 +628,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 .skip-link:focus { outline: 2px solid var(--accent-gold); }
 </style>
 
-    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="./global.css">
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -644,7 +644,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   "mainEntityOfPage": "https://adoptedbygrace.net/theologian-bunyan.html"
 }
     </script>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
@@ -665,7 +665,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                         <a href="/questions">The Evidence</a>
                         <a href="/systematic-theology">Systematic Theology</a>
                         <a href="/scripture-tsunami">Scripture Tsunami</a>
-                        <a href="/resources-confessions">Creeds &amp; Confessions</a>
+                        <a href="/creeds-confessions">Creeds &amp; Confessions</a>
                     </div>
                 </li>
                 <li>
@@ -1170,7 +1170,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 </div>
                 <div class="cross-ref-item">
                     <strong>Historical Context:</strong>
-                    <br><a href="/history-timeline">Church History Timeline</a>, <a href="/resources-confessions">Confessions</a>
+                    <br><a href="/history-timeline">Church History Timeline</a>, <a href="/creeds-confessions">Confessions</a>
                 </div>
                 <div class="cross-ref-item">
                     <strong>Pastoral Application:</strong>
@@ -1193,7 +1193,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             <p>&copy; 2026 <a href="/">Adopted by Grace</a> &mdash; Soli Deo Gloria</p>
             <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">
                 <a href="/theologians">All Theologians</a> &middot;
-                <a href="/resources">Resources</a> &middot;
+                 &middot;
                 <a href="/about">About</a>
             </p>
         </div>
@@ -1266,6 +1266,29 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 navLinks.style.borderBottom = '';
             });
         });
+    
+        // Mobile dropdown toggles
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks) {
+            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
+                trigger.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const li = trigger.closest('li');
+                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
+                        if (openLi !== li) openLi.classList.remove('dropdown-open');
+                    });
+                    li.classList.toggle('dropdown-open');
+                });
+            });
+            navLinks.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const hamburger = document.querySelector('.hamburger');
+                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
     </script>
 </body>
 </html>
