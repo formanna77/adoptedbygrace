@@ -13,16 +13,8 @@
 })();
 
 // ===== HAMBURGER MENU =====
-(function() {
-    const btn = document.querySelector('.hamburger');
-    const links = document.querySelector('.nav-links');
-    if (!btn || !links) return;
-    btn.addEventListener('click', () => {
-        btn.classList.toggle('active');
-        links.classList.toggle('open');
-        btn.setAttribute('aria-expanded', btn.classList.contains('active'));
-    });
-})();
+// Handled by nav.js — do NOT duplicate here.
+// Both scripts toggling the same class cancels each other out.
 
 // ===== MOBILE DROPDOWN TOGGLES =====
 (function() {

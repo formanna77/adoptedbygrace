@@ -8,12 +8,20 @@
     'use strict';
 
     // === HAMBURGER MENU ===
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
+    var hamburger = document.querySelector('.hamburger');
+    var navLinks = document.querySelector('.nav-links');
 
     if (hamburger && navLinks) {
+        // === NUCLEAR: clone the button to strip ALL prior event listeners ===
+        // Some pages attach duplicate click handlers via inline scripts or
+        // global.js, causing double-toggles that cancel each other out.
+        // Cloning creates a clean button with zero listeners.
+        var cleanBtn = hamburger.cloneNode(true);
+        hamburger.parentNode.replaceChild(cleanBtn, hamburger);
+        hamburger = cleanBtn; // reassign so all later code uses the live element
+
         hamburger.addEventListener('click', function () {
-            const isOpen = navLinks.classList.contains('open');
+            var isOpen = navLinks.classList.contains('open');
             navLinks.classList.toggle('open');
             hamburger.classList.toggle('active');
             hamburger.setAttribute('aria-expanded', String(!isOpen));
