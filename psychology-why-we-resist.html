@@ -325,14 +325,16 @@
             }
         }
 
-        /* Reveal Animation */
-        .reveal {
+        /* Reveal Animation — progressive enhancement only.
+           Content is visible by default. JS adds .will-animate
+           so if JS fails or hasn't run, content is never hidden. */
+        .reveal.will-animate {
             opacity: 0;
             transform: translateY(30px);
             transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
         }
 
-        .reveal.active {
+        .reveal.will-animate.active {
             opacity: 1;
             transform: translateY(0);
         }
@@ -1019,8 +1021,13 @@
 
         window.addEventListener('scroll', updateReadingProgress);
 
-        // Scroll Reveal for sections
+        // Scroll Reveal for sections — progressive enhancement
+        // Content is visible by default. We add .will-animate via JS
+        // so if JS ever fails, content stays visible (never hidden).
         const revealElements = document.querySelectorAll('.reveal');
+
+        // Mark elements for animation ONLY after JS is confirmed running
+        revealElements.forEach(el => el.classList.add('will-animate'));
 
         const revealOnScroll = () => {
             revealElements.forEach(el => {
