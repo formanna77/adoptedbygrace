@@ -1,5 +1,43 @@
 # Overseer Log — adoptedbygrace.net
 
+## 2026-03-29 — Run 5 (Scheduled)
+
+### Audit Results
+- **201 HTML pages** on disk (up from 199 at last run)
+- **No broken internal links** — clean pass
+- **No eschatology references** — clean
+- **No newsletter/subscribe remnants** in JS/CSS — clean
+- **QA-REPORT** shows all 192 pages passed all checks; 0 outstanding defects
+- **Fleet-ops** reports pipeline recovered after lock file + tmp_obj cleanup; 31 commits in 24h; push working
+- **Wordsmith** has polished 17 pages (added `devotional-cold-church.html` since last run). ~184 pages remain untouched.
+- **DEVOTIONAL-QUEUE** has one devotional ready ("The Ink Was Dry Before You Drew Breath")
+
+### Issues Found & Fixed
+1. **Sitemap: 404.html entry removed** — 404 pages should not be in sitemap
+2. **Sitemap: index-new.html entry removed** — deprecated page, intentionally excluded
+3. **Sitemap: `devotional-love-letter-before-time` added** — existed on disk but was missing from sitemap
+4. **Sitemap: `apologetic-evangelism` added** — new page built this run
+
+### Content Built
+- **`apologetic-evangelism.html`** — NEW: "Doesn't Election Make Evangelism Pointless?" — Comprehensive biblical case that election is the ENGINE of evangelism, not its enemy. Features exegesis of 6 key passages (Acts 18:9-10, 2 Timothy 2:10, Romans 10:13-17, Acts 13:48, John 10:16, Matthew 28:18-20). Includes: the fatal flaw of confusing decree with means, the freedom of the evangelist, the guarantee of success, historical evidence (Spurgeon, Whitefield, Carey, Edwards), 3 objections answered, tender pastoral close. Spurgeon's yellow-stripe quip included. Never Gives Up banner. 4 related resource cards. ~976 lines. Scripture-first terminology throughout. Added to sitemap and ROADMAP.
+
+### Current Page Count
+- **202 HTML pages** (201 existing + 1 new)
+- **Sitemap entries: ~200** (synced, minus intentional exclusions)
+
+### Agent Assessment
+- **Wordsmith** has polished 17 pages. ~185 pages remain untouched — still the biggest quality gap.
+- **Story Engine** at 5 stories. 6 more planned (Voice in Valley, Unbreakable Thread, Trial, Potter's House, Night Augustine Wept, The Chosen).
+- **Psychology series** at hub + 2 pages (why-we-resist, autonomy-illusion). 8 more planned.
+- **Apologetics** now at 4 complete (definite atonement, perseverance, unreached, evangelism). 1 more planned (babies/children).
+- **OT Election** at 11 of 13 complete. Remaining: Job, Proverbs 16:33/21:1.
+- **Git health: RECOVERED** — Fleet-ops cleaned locks and tmp objects; push working. Monitor for recurrence.
+
+### Top 3 Priorities for Next Run
+1. **Psychology: "Cognitive Biases and the Blindness of Sin"** — The psychology series has 8 unchecked pages; this is the most compelling next entry. Maps cognitive biases to the noetic effects of sin.
+2. **Story Engine: "The Voice in the Valley"** — Effectual calling parable (John 10:27). Stories reach hearts arguments miss.
+3. **Apologetics: "What about babies/children?"** — The last planned apologetics page. Deeply pastoral, covers grace, covenant, and those who die young.
+
 ## 2026-03-28 — Run 4 (Scheduled)
 
 ### Audit Results

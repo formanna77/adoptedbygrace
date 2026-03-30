@@ -13,6 +13,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://adoptedbygrace.net/apologetic-evangelism</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://adoptedbygrace.net/apologetic-unreached</loc>
     <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -1117,22 +1123,16 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://adoptedbygrace.net/404</loc>
-    <lastmod>2026-03-28</lastmod>
+    <loc>https://adoptedbygrace.net/devotional-love-letter-before-time</loc>
+    <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/index</loc>
     <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://adoptedbygrace.net/index-new</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/ot-abel-cain</loc>
@@ -1151,6 +1151,18 @@
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/ot-job</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/question-parables</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/ot-noah</loc>

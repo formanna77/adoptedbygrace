@@ -92,6 +92,7 @@
 - `psychology-hub.html` — **NEW** Psychology of Resistance hub — gateway to 10 psychology/theology pages
 - `psychology-why-we-resist.html` — **NEW** "Why We Resist: The Psychology of Rejecting God's Sovereignty" — flagship overview: 6 psychological phenomena mapped to 6 Scripture passages
 - `psychology-autonomy-illusion.html` — **NEW** "The Autonomy Illusion: Why 'Free Will' Feels So Real" — Libet experiments, Kornhuber, Soon, Wegner + Jeremiah 17:9, Proverbs 21:1, Philippians 2:13, compatibilism
+- `psychology-cognitive-biases.html` — **NEW** "Cognitive Biases and the Blindness of Sin" — Six cognitive biases (confirmation, Dunning-Kruger, anchoring, backfire effect, system justification, bias blind spot) mapped to six Scripture passages. Noetic effects of sin as measurable, directional corruption. ✅ (2026-03-29 Psychologist)
 - `404.html` — **NEW** Custom 404 error page: "This Page Has Not Been Predestined"
 - `devotionals.html` — **NEW** Devotionals hub — 10 meditative reflections on sovereign grace
 - `devotional-glory-of-divine-choice.html` — **NEW** "The Glory of Divine Choice" — Election as worship (Eph 1:3-6)
@@ -113,6 +114,8 @@
 - `ot-noah.html` — **NEW** Noah: Chosen for Preservation — Genesis 6-9, grace before the flood, Hebrew word study (chen, tsaddiq, tamim), the order of grace (6:8 before 6:9), the ark as election, the covenant of preservation. ✅ (2026-03-28 Content Builder)
 - `ot-abel-cain.html` — **NEW** Abel vs. Cain: The First Election — Genesis 4, Hebrews 11:4, 1 John 3:12. The Bible's first story after Eden reveals sovereign distinction. Hebrew analysis, six arguments, five objections answered. ✅ (2026-03-28 Content Builder)
 - `ot-jeremiah.html` — **NEW** Jeremiah: Called Before Formation — Jeremiah 1:4-10, "Before I formed you in the womb I knew you." Hebrew word studies (yada', yatsar, qadash, natan), three divine actions before birth, parallel with Paul (Gal 1:15), six arguments, five objections answered. ✅ (2026-03-28 Content Builder)
+- `ot-job.html` — **NEW** Job: When God Answered Suffering with Sovereignty — Job 1-2, 38-42. God initiates suffering, speaks from the whirlwind with 70+ questions, never explains "why." Hebrew word studies, six arguments, five objections answered, pastoral section for the suffering reader. ✅ (2026-03-29 Content Builder)
+- `question-parables.html` — **NEW** Matthew 13:10-17: Why Jesus Spoke in Parables — divine selectivity in revelation. Understanding is "given" to some and withheld from others. Greek analysis, seven arguments, Arminian counter dismantled, five objections answered. ✅ (2026-03-29 Content Builder)
 - `question-1john5-1.html` — **NEW** The Verse That Settles the Order — 1 John 5:1. Greek perfect tense γεγέννηται proves regeneration precedes faith. All 9 uses in 1 John analyzed, seven arguments, five objections answered. ✅ (2026-03-28 Content Builder)
 
 ### Design System
@@ -156,7 +159,7 @@
 - [x] **Abel vs. Cain: The First Election** — Genesis 4, Hebrews 11:4 → `ot-abel-cain.html` ✅ (2026-03-28 Content Builder)
 - [x] **Isaiah's Servant** — The ultimate election narrative → `ot-isaiah-servant.html` ✅ (previously built)
 - [x] **Jeremiah: Called Before Formation** — Jeremiah 1:5 → `ot-jeremiah.html` ✅ (2026-03-28 Content Builder)
-- [ ] **Job: Suffering and God's Sovereignty**
+- [x] **Job: Suffering and God's Sovereignty** — Job 1-2, 38-42. God initiates suffering, speaks from the whirlwind, never explains "why" — and Job worships. Hebrew word studies (yasad, etsah, gazar, ma'as, se'arah, tam), six arguments, five objections answered, pastoral section for the suffering reader. → `ot-job.html` ✅ (2026-03-29 Content Builder)
 - [x] **Jonah: Reluctant Chosen Instrument** — Jonah 1-4, sovereignty over reluctant prophets, Hebrew word studies (manah, hetil, barach, yeshu'ah, nehpakhet), irresistible grace in narrative, Nineveh revival, 6 arguments, 5 objections answered → `ot-jonah.html` ✅ (2026-03-29 Content Builder)
 - [ ] **Proverbs 16:33 / 21:1 standalone page** — Sovereignty over lots and kings' hearts
 
@@ -199,7 +202,7 @@
 - [x] **"What about the person who never heard?"** — Romans 1, general vs. special revelation → `apologetic-unreached.html` ✅ (2026-03-28 Overseer Run 4)
 - [x] **"Did Jesus die for everyone?"** — Definite atonement / limited atonement → `apologetic-definite-atonement.html` ✅ (2026-03-28 Overseer)
 - [x] **"Can you lose your salvation?"** — Comprehensive perseverance case → `apologetic-perseverance.html` ✅ (2026-03-28 Overseer Run 3)
-- [ ] **"Doesn't election make evangelism pointless?"** — Election as the engine of evangelism
+- [x] **"Doesn't election make evangelism pointless?"** — Election as the engine of evangelism → `apologetic-evangelism.html` ✅ (2026-03-29 Overseer Run 5)
 - [ ] **"What about babies/children?"** — Grace, covenant, and those who die young
 
 ### Priority 6 — Stories (Story Engine)
@@ -237,7 +240,7 @@
 - [x] **Psychology Hub** — `psychology-hub.html` — Gateway page with cards for all 10 psychology pages ✅ (2026-03-28 Psychologist Agent)
 - [x] **"Why We Resist"** — `psychology-why-we-resist.html` — Flagship overview: motivated reasoning, reactance, autonomy bias, terror management, system justification, cognitive dissonance — each mapped to Scripture (Romans 1:18, 9:19-20, Jer 17:9, John 3:19-20, 1 Cor 2:14, 2 Tim 4:3-4) ✅ (2026-03-28 Psychologist Agent)
 - [x] **"The Autonomy Illusion"** — `psychology-autonomy-illusion.html` — Neuroscience of Libet experiments, compatibilism, Jeremiah 17:9 ✅ (exists on disk)
-- [ ] **"Cognitive Biases and the Blindness of Sin"** — `psychology-cognitive-biases.html` — Map cognitive biases to noetic effects of sin
+- [x] **"Cognitive Biases and the Blindness of Sin"** — `psychology-cognitive-biases.html` — Six cognitive biases (confirmation, Dunning-Kruger, anchoring, backfire, system justification, bias blind spot) mapped to Scripture passages. Noetic effects of sin as measurable, directional corruption. ✅ (2026-03-29 Psychologist Agent)
 - [ ] **"The Offense of Grace"** — `psychology-offense-of-grace.html` — Moral foundations theory (Haidt) + Romans 9:19-21
 - [ ] **"Suppressing the Truth"** — `psychology-suppressing-truth.html` — Romans 1:18 and motivated reasoning deep-dive
 - [ ] **"The Dead Cannot Choose"** — `psychology-dead-cannot-choose.html` — Anosognosia meets Ezekiel 37
@@ -257,7 +260,7 @@
 
 #### New Passage Pages (from Vision)
 - [x] **Isaiah 53 — "The Servant Who Bore the Sins of Many"** — "It was the WILL of the LORD to crush him" (v.10). "Make MANY to be accounted righteous" (v.11). OT foundation of definite atonement. Hebrew word studies (rabbim, chaphets, asham, nasa', ammi). Owen's trilemma applied. → `question-isaiah53.html` ✅ (2026-03-29 Content Builder)
-- [ ] **Matthew 13:10-17 — "Why Jesus Spoke in Parables"** — Jesus says "To you it has been GIVEN to know... but to them it has NOT been given." God deliberately conceals truth from some. → `question-parables.html`
+- [x] **Matthew 13:10-17 — "Why Jesus Spoke in Parables"** — Jesus says "To you it has been GIVEN to know... but to them it has NOT been given." Divine selectivity in revelation. Greek analysis (dedotai, mystēria, epachynthē, ekammysan, mēpote, makarioi), seven arguments, steelmanned Arminian counter, four witnesses, five objections answered. → `question-parables.html` ✅ (2026-03-29 Content Builder)
 - [ ] **Psalm 139 — "Known Before You Were Known"** — "In your book were written, every one of them, the days that were formed for me" (v.16). Predestination in the Psalms. → `question-psalm139.html`
 - [ ] **Romans 11:33-36 — "The Doxology of Sovereignty"** — After election, hardening, and remnant — Paul doesn't apologize, he WORSHIPS. The proper response to sovereignty is awe. → `question-doxology.html`
 - [x] **1 John 5:1 — "The Verse That Settles the Order"** — Perfect tense γεγέννηται proves new birth PRECEDES faith. Single most devastating verse for Arminian ordo salutis. → `question-1john5-1.html` ✅ (2026-03-28 Content Builder)
@@ -401,6 +404,48 @@
 ---
 
 ## Session Log
+
+### 2026-03-29 — Content Builder Session #2: ot-job.html & question-parables.html
+- **Built `ot-job.html`** — "Job: When God Answered Suffering with Sovereignty"
+  - Written for the suffering reader — the person at 2am who has received the worst news of their life
+  - Full theological treatment: The heavenly setup (Job 1-2), the whirlwind speech (Job 38-41), Job's confession (Job 42)
+  - 6 Hebrew word studies: yasad (found/establish), etsah (counsel/plan), gazar (decree), ma'as (retract), se'arah (whirlwind), tam (blameless)
+  - 6 arguments for God's sovereignty from Job (God initiates, Job attributes loss to God, friends condemned, God refuses to explain, sovereignty over natural evil, restoration proves purpose)
+  - 6 historical witnesses: Augustine, Spurgeon, Margaret Clarkson, Piper, Kreeft, Corrie ten Boom
+  - 5 objections answered (Satan did it, bully tactic, arbitrary God, righteous suffer unfairly, questioning is wrong)
+  - Rich pastoral section connecting suffering to election and Romans 8:28
+  - Registered in ot-election.html (live card replacing Coming Soon), sitemap.xml
+  - 6 cross-reference links (Joseph, Freedom, Golden Chain, Compatibilism, Author of Sin, Weakness of God's Strength)
+- **Built `question-parables.html`** — "Why Jesus Spoke in Parables (It's Not What You Think)"
+  - Matthew 13:10-17 deep dive — divine selectivity in revelation
+  - Full text walkthrough with verse-by-verse analysis
+  - 6 Greek word studies: dedotai (it has been given — passive/perfect), mystēria (secrets/mysteries), epachynthē (grown dull/thick), ekammysan (closed eyes), mēpote (lest — purpose clause), makarioi (blessed/divinely favored)
+  - 7 arguments for divine selectivity (understanding given not achieved, concealment is stated purpose, Isaiah 6 commission, Matthew principle, pattern throughout Scripture, disciples blessed not better, private explanation to elect)
+  - Steelmanned Arminian counter-position then dismantled with Isaiah 6 Hebrew, divine passive, and John 12:40
+  - 4 historical witnesses: Augustine, Calvin, J.C. Ryle, R.C. Sproul
+  - 5 objections answered (parables as teaching aids, God wants all saved, God unfair, only first century, why teach at all)
+  - Pastoral section connecting understanding to gratitude, prayer, and worship
+  - Registered in sitemap.xml, ROADMAP pages list
+  - 6 cross-reference links (John 6, Matthew 11, Total Depravity, CANNOT page, 1 Timothy 2:4 demolition, Ephesians 1)
+
+### 2026-03-29 — Content Builder Session: ot-jonah.html & question-isaiah53.html
+- **Built `ot-jonah.html`** — "Jonah: The Prophet Who Tried to Outrun God"
+  - Full 4-chapter walkthrough with sovereignty lens on every scene
+  - 5 Hebrew word studies: manah (appoint), hetil (hurl), barach (flee), yeshu'ah (salvation), nehpakhet (overthrown)
+  - 6 theological arguments for God's sovereign control over reluctant instruments
+  - 4 historical witnesses: Calvin, Spurgeon, Packer, Sproul
+  - 5 objections answered (free choice, Nineveh's response, just a story, Nineveh fell, author of sin)
+  - 4-part pastoral application section
+  - Registered in ot-election.html (live card), sitemap.xml, cross-references from question-irresistible, ot-moses-pharaoh, systematic-compatibilism
+- **Built `question-isaiah53.html`** — "Isaiah 53: The Servant Who Bore the Sins of Many"
+  - Full text walkthrough (52:13–53:12) with four movements: shock, substitution, silence, the Father's will
+  - 5 Hebrew word studies: rabbim (many), chaphets (delight/pleasure), asham (guilt offering), nasa' (bear/carry), ammi (my people)
+  - 5 Reformed arguments for definite atonement from Isaiah 53
+  - Steelmanned Arminian counter-position then dismantled with Owen's trilemma
+  - 4 historical witnesses: Owen, Spurgeon, Motyer, Piper
+  - 5 objections answered (many=all, "us all" in v.6, limits God's love, about Israel, gospel offer)
+  - 3-part pastoral application (assurance, overwhelmed by cross, doctrine seems cold)
+  - Registered in questions.html (card #28), sitemap.xml, cross-references from apologetic-definite-atonement and question-goldchain
 
 ### 2026-03-29 — Refiner Session #2: ot-jonah.html & question-romans9.html
 - **Builder content today:** `ot-jonah.html` (Jonah: Reluctant Chosen Instrument) was created by the Content Builder on 3/29.
