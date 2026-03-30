@@ -17,19 +17,21 @@ The ONLY exception is if Aaron explicitly asks you to push right now in that spe
 **Every page MUST use the exact nav from `/_nav-template.html`.** Copy it verbatim. No exceptions.
 
 ### Rules:
-- **DO NOT** add a logo, dropdowns, mega-menus, or any extra links
+- **DO NOT** add a logo, dropdowns, or any extra links beyond what exists
 - **DO NOT** rename, reorder, add, or remove any nav links
 - **DO NOT** add inline CSS for nav styling — all nav CSS lives in `/global.css`
 - **DO NOT** add inline JavaScript for hamburger/nav toggle — all nav JS lives in `/nav.js`
 - **DO** include `<link rel="stylesheet" href="/global.css">` in the `<head>`
 - **DO** include `<script src="/nav.js"></script>` before `</body>`
-- **DO** include the search overlay HTML that follows the `</nav>` tag
+- **DO** include the mega-menu dropdown HTML that follows the `</nav>` tag
+- **DO** include the search overlay HTML that follows the mega-menu
 
-### Two Layouts — Both Are Handled Automatically
+### Two Layouts + Mega-Menu — All Handled Automatically
 The nav has TWO display modes controlled entirely by `/global.css`. Do NOT write any inline CSS for either layout.
 
 **DESKTOP (≥969px):**
-- `.nav-right` is visible — a horizontal bar with all 13 links + search icon
+- `.nav-right` is visible — a horizontal bar with all 13 links + Explore button + search icon
+- The "Explore" button opens a mega-menu dropdown showing all 15 content categories with descriptions and article counts
 - `.nav-links`, `.hamburger`, and `.nav-site-name` are hidden
 - Font: 0.72rem uppercase, 0.5rem horizontal padding per link
 

@@ -401,6 +401,19 @@
 
 ## Session Log
 
+### 2026-03-29 7:00 PM — Analytics Feedback Loop: Weekly Data Pull
+- **Source:** Netlify Observability, Last 7 days (Mar 22–29, 2026)
+- **Total site requests:** 8,985 | **Content page requests:** ~3,045
+- **Key findings:**
+  - Questions & Objections = runaway #1 category (641 requests, 25 pages, 25.6 avg/page)
+  - Demolition has HIGHEST per-page average (26.0) across 8 pages — every demolition page earns its place
+  - `/objection-why-command` remains top content page at 57 requests (2nd week running)
+  - Start Here journey VALIDATED: Phase 3 matches hub at 34 requests — visitors clicking through
+  - Analogies category undertapped: hub gets 18 but only 1 individual page exists
+  - Psychology of Resistance showing promise at 22 requests on just 2 pages (brand new category)
+- **Fleet directives updated:** Priority create questions/objections + demolition. Expand analogies and secular evidence libraries. Study objection-why-command pattern for replication.
+- **ANALYTICS.md fully rewritten** with comprehensive raw data from 100+ content pages
+
 ### 2026-03-29 — Log Gardener: Weekly Maintenance Run
 - **Log trimming:** All 4 logs (ROADMAP session log, CATALYST-LOG, WORDSMITH-LOG, FLEET-OPS-LOG) reviewed. All entries within retention window — no archiving needed this week.
 - **Content backlog:** 79 unchecked items remaining — above 50-item threshold, no replenishment needed.

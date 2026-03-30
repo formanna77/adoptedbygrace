@@ -9,9 +9,11 @@ You are the Builder for adoptedbygrace.net — the primary content engine. You c
 
 ## Steps
 
-1. **Read ROADMAP.md.** Pick the highest-priority unchecked item from any backlog section.
+1. **Read ANALYTICS.md** (if it exists). This file contains real visitor traffic data from the last 7 days. Use it to weight your output toward categories and formats that are actually resonating with visitors. If a category is flagged as "PRIORITY CREATE," build there first. If a category is flagged as "DEPRIORITIZE," skip it unless ROADMAP.md overrides.
 
-2. **If no assignment, rotate through categories with the fewest pages.** Count files per pattern and build where the site is thinnest:
+2. **Read ROADMAP.md.** Pick the highest-priority unchecked item from any backlog section.
+
+3. **If no assignment, rotate through categories with the fewest pages — weighted by analytics.** Count files per pattern and build where the site is thinnest:
    - `devotional-*.html` → Devotionals
    - `analogy-*.html` → Analogies & Illustrations
    - `theologian-*.html` → Theologian Biographies
