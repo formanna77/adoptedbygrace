@@ -117,6 +117,7 @@
 - `secular-algorithm-sovereignty.html` — **NEW** "The Algorithm Knows You Better Than You Know Yourself" — Secular evidence page: predictive algorithms (Netflix, Spotify, Amazon, Target, Facebook studies) confirm divine sovereignty & foreknowledge. ~2,500 words. ✅ (2026-03-28 Visionary)
 - `question-proverbs-sovereignty.html` — **NEW** "No Dice, No Chance" — Proverbs 16:33 & 21:1: sovereignty over lots and kings' hearts. Hebrew word studies (goral, mishpat, palgey-mayim, natah, lev, kol), six arguments, steelmanned counter, five witnesses, five objections answered. ✅ (2026-03-30 Content Builder)
 - `question-acts4.html` — **NEW** "The Cross Was Predestined" — Acts 4:27-28: the most evil act in history was predestined by God, carried out by free agents. Six Greek word studies (proōrisen, boulē, cheir, poiēsai, synēchthēsan, Despota), seven arguments, steelmanned counter, seven witnesses, five objections answered. ✅ (2026-03-30 Builder)
+- `question-psalm139.html` — **NEW** "Known Before You Were Known" — Psalm 139: God wrote every day of your life before you existed. Six Hebrew word studies (yatsar, golmi, siphr'kha, kullam, sakhakh, chaqar), seven arguments, steelmanned Arminian counter, five witnesses (Spurgeon, Calvin, Sproul, Piper, Edwards), five objections answered, pastoral application. ✅ (2026-03-30 Builder)
 - `secular-billion-decisions.html` — **NEW** "The Billion Decisions You Didn't Make Today" — Secular evidence page: autonomic nervous system, immune function, DNA repair, brainstem sovereignty → if God didn't trust your heartbeat to free will, why your salvation? ~2,200 words. ✅ (2026-03-30 Visionary #4)
 - `ot-noah.html` — **NEW** Noah: Chosen for Preservation — Genesis 6-9, grace before the flood, Hebrew word study (chen, tsaddiq, tamim), the order of grace (6:8 before 6:9), the ark as election, the covenant of preservation. ✅ (2026-03-28 Content Builder)
 - `ot-abel-cain.html` — **NEW** Abel vs. Cain: The First Election — Genesis 4, Hebrews 11:4, 1 John 3:12. The Bible's first story after Eden reveals sovereign distinction. Hebrew analysis, six arguments, five objections answered. ✅ (2026-03-28 Content Builder)
@@ -271,7 +272,7 @@
 #### New Passage Pages (from Vision)
 - [x] **Isaiah 53 — "The Servant Who Bore the Sins of Many"** — "It was the WILL of the LORD to crush him" (v.10). "Make MANY to be accounted righteous" (v.11). OT foundation of definite atonement. Hebrew word studies (rabbim, chaphets, asham, nasa', ammi). Owen's trilemma applied. → `question-isaiah53.html` ✅ (2026-03-29 Content Builder)
 - [x] **Matthew 13:10-17 — "Why Jesus Spoke in Parables"** — Jesus says "To you it has been GIVEN to know... but to them it has NOT been given." Divine selectivity in revelation. Greek analysis (dedotai, mystēria, epachynthē, ekammysan, mēpote, makarioi), seven arguments, steelmanned Arminian counter, four witnesses, five objections answered. → `question-parables.html` ✅ (2026-03-29 Content Builder)
-- [ ] **Psalm 139 — "Known Before You Were Known"** — "In your book were written, every one of them, the days that were formed for me" (v.16). Predestination in the Psalms. → `question-psalm139.html`
+- [x] **Psalm 139 — "Known Before You Were Known"** — "In your book were written, every one of them, the days that were formed for me" (v.16). Predestination in the Psalms. Hebrew word studies, seven arguments, five objections answered. → `question-psalm139.html` ✅ (2026-03-30 Builder)
 - [ ] **Romans 11:33-36 — "The Doxology of Sovereignty"** — After election, hardening, and remnant — Paul doesn't apologize, he WORSHIPS. The proper response to sovereignty is awe. → `question-doxology.html`
 - [x] **1 John 5:1 — "The Verse That Settles the Order"** — Perfect tense γεγέννηται proves new birth PRECEDES faith. Single most devastating verse for Arminian ordo salutis. → `question-1john5-1.html` ✅ (2026-03-28 Content Builder)
 - [x] **Acts 4:27-28 — "The Cross Was Predestined"** — The most evil act in history was predestined by God, carried out by free human agents. Compatibilism at its most breathtaking. → `question-acts4.html` ✅ (2026-03-30 Builder)
@@ -318,7 +319,7 @@
 #### Log Gardener Replenishment (2026-03-30)
 
 **Scripture Studies:**
-- [ ] **Psalm 139 — "Known Before You Were Known"** — "In your book were written, every one of them, the days that were formed for me" (v.16). Predestination in the Psalms. Hebrew word studies (yatsar, galal, sepher). → `question-psalm139.html`
+- [x] **Psalm 139 — "Known Before You Were Known"** — "In your book were written, every one of them, the days that were formed for me" (v.16). Predestination in the Psalms. Hebrew word studies (yatsar, golmi, sepher, kullam, sakhakh, chaqar). Seven arguments, steelmanned Arminian counter, five historical witnesses, five objections answered, pastoral application for doubters/sufferers/new believers. → `question-psalm139.html` ✅ (2026-03-30 Builder)
 - [ ] **Romans 11:33-36 — "The Doxology of Sovereignty"** — After election, hardening, and remnant, Paul doesn't apologize — he WORSHIPS. The proper response to sovereignty is awe. → `question-doxology.html`
 - [ ] **Philippians 1:29 — "Granted to Suffer"** — God grants (echaristhē — same root as grace) BOTH belief AND suffering. The gift nobody asked for that proves election more than blessing ever could. → `question-phil1-29.html`
 - [ ] **2 Thessalonians 2:13 — "Chosen from the Beginning"** — Paul thanks God for choosing the Thessalonians "from the beginning" (ap' archēs) through sanctification and belief. Belief is the RESULT, not the cause, of election. → `question-2thess2-13.html`
@@ -450,6 +451,14 @@
 ---
 
 ## Session Log
+
+### 2026-03-30 — Builder Session #4: question-psalm139.html
+- **Page:** `question-psalm139.html` — "Known Before You Were Known — Psalm 139 and the God Who Wrote Your Story Before It Began"
+- **Category:** Questions & Objections (Scripture Deep-Dive) — the #1 traffic-driving category
+- **101 Ways angle:** POETIC/INTIMATE. Written for the person who loves Psalm 139 but has never followed it to its theological conclusion. Also for the person who searches "does the Bible teach predestination" or "Psalm 139 meaning" and needs to see that predestination is in the Psalter, not just Paul's letters. The opening hook reframes the most-quoted, least-understood psalm.
+- **Content includes:** Opening hook ("the Psalm everyone loves but nobody follows to its conclusion"), full text walk-through (vv. 1-4, 7-10, 13-16), six Hebrew word studies (yatsar, golmi, siphr'kha, kullam, sakhakh, chaqar), seven biblical arguments (authorship not observation, day of belief was formed, inward parts include will, book written before life lived, fearfully made = sovereignty statement, David's response was worship, nowhere-to-hide = providence not just presence), steelmanned Arminian counter with four-point rebuttal, five historical witnesses (Spurgeon, Calvin, Sproul, Piper, Edwards), five objections answered (poetry isn't theology, verse 16 only about embryo, foreknowledge isn't predestination, puppet objection, problem of evil), verdict with two Scripture bookends, pastoral application (for the doubter, the suffering, the new believer, the one who prays), six cross-reference links
+- **Target reader:** The person who quotes "fearfully and wonderfully made" on Instagram but has never read verse 16. The seeker Googling "does the OT teach predestination." The believer who thinks sovereignty is only in Romans 9.
+- **Analytics alignment:** Question-format page (#1 traffic category). Highly searchable topic ("Psalm 139 meaning," "predestination in the Old Testament," "did God plan my life").
 
 ### 2026-03-30 — Builder Session #3: apologetic-babies.html
 - **Page:** `apologetic-babies.html` — "What About Babies Who Die? — Grace, Covenant, and the Littlest Lambs"
