@@ -3,10 +3,10 @@
 https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 
 # Engagement pages — clean URLs
-/connect    /connect.html    200
+/connect    /contact.html    301
 /donate     /donate.html     200
 /support    /donate.html     301
-/contact    /connect.html    301
+/contact    /contact.html    200
 
 # Creeds & Confessions — deep-dive pages
 /creed-canons-dort           /creed-canons-dort.html           200

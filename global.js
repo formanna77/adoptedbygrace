@@ -334,7 +334,7 @@
             <h3 class="engage-cta-title">Continue the Conversation</h3>
             <p class="engage-cta-subtitle">This truth was not meant to stay on a screen. Let it move you.</p>
             <div class="engage-cta-grid">
-                <a href="/connect" class="engage-cta-card">
+                <a href="/contact" class="engage-cta-card">
                     <div class="engage-cta-icon">
                         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
                     </div>
@@ -371,16 +371,4 @@
 
 
 
-// Scroll-reveal animation
-(function() {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('revealed');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-
-    document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
-})();
+// Scroll-reveal animation REMOVED 2026-03-29 — CSS rules deleted, this code was orphaned.
