@@ -406,6 +406,29 @@
 
 ## Session Log
 
+### 2026-03-29 — Refiner Session #3: question-isaiah53.html, question-parables.html, ot-job.html
+- **Builder content today:** Three unrefined pages from today's Builder sessions prioritized for refinement.
+- **Refined `question-isaiah53.html`:**
+  - **101 Ways Audit:** Sharpened opening hook — replaced generic "soldier on grenade" opening with visceral "someone you love is suffering" scenario that names the reader's experience before explaining doctrine. Targets the person who has wrestled with the concept of substitution personally, not just intellectually.
+  - Added 3 new theologian quotes: Augustine (On the Predestination of the Saints — perseverance of the chosen), Calvin (Commentary on Isaiah 53 — particular design of atonement), Luther (Letter to Spenlein — real sinners, real salvation). Page now has 7 total witnesses (Augustine, Owen, Calvin, Spurgeon, Luther, Motyer, Piper).
+  - Added surgeon metaphor in Verdict section — vivid real-world parallel for the non-theologian: God operates with a patient's chart, not a general announcement. Makes definite atonement intuitive for readers who've never encountered the concept.
+  - Added 3 inline cross-references: question-irresistible (sovereign unveiling), question-acts (Acts 13:48 — appointed to eternal life), apologetic-evangelism (election and evangelism).
+  - Fixed internal link: pastoral-evangelism → apologetic-evangelism (today's new page).
+  - Added 2 new cross-reference cards: apologetic-evangelism and question-parables in Continue Your Journey. Page now has 8 cross-reference links.
+  - **Hebrew audit:** All 5 Hebrew word studies verified accurate (rabbim, chaphets, asham, nasa', ammi). No corrections needed.
+- **Refined `question-parables.html`:**
+  - **101 Ways Audit:** Page excellently targets the "parables = teaching aids" assumption. Opening hook is strong. Added radio tower metaphor in Verdict — signal broadcast everywhere but only receivers God builds can hear the music. Reaches the technologically-minded reader and the person who wonders why they "get it" when others don't.
+  - Added 2 new theologian quotes: Spurgeon (Sermon 1890 — same sun melts wax, hardens clay; sovereign agency of Spirit) and Edwards (Freedom of the Will — God's sovereign withholding of light). Page now has 6 total witnesses (Augustine, Calvin, Ryle, Sproul, Spurgeon, Edwards).
+  - Added inline cross-reference: question-romans9 (Romans 9:19-20) in Objection 3 answer.
+  - Added 2 new cross-reference cards: question-isaiah53 and question-romans9 in Continue Your Journey. Page now has 8 cross-reference links.
+  - **Greek audit:** All 6 Greek word studies verified accurate (dedotai, mystēria, epachynthē, ekammysan, mēpote, makarioi). No corrections needed.
+- **Refined `ot-job.html`:**
+  - **101 Ways Audit:** Page explicitly targets "the person at 2am who has received the worst news." Fixed the "101 Ways Lens" callout that broke the fourth wall — replaced with a pastoral "Before You Read Further" callout directing the suffering reader to skip to the pastoral section. More compassionate, less methodological.
+  - Added 2 new theologian quotes: Calvin (Sermons on Job — secret providence of God) and Edwards (Divine Decrees — all parts of God's glory shining forth). Page now has 8 total witnesses (Augustine, Spurgeon, Clarkson, Calvin, Edwards, Piper, Kreeft, Corrie ten Boom).
+  - Added 3 inline cross-references: question-romans9 (Romans 9:20 and 9:11) and question-goldchain (Romans 8:28).
+  - **Hebrew audit:** All 6 Hebrew word studies verified accurate (yasad, etsah, gazar, ma'as, se'arah, tam). No corrections needed.
+- **101 Ways Assessment:** The three pages now cover distinct angles: Isaiah 53 reaches the person wrestling with whether God's love is personal or general (new surgeon metaphor); Parables reaches the person confused about why they understand the gospel when others don't (new radio metaphor); Job reaches the person in active suffering who needs sovereignty as a lifeline, not an argument. Each page now has 6-8 theologian quotes adding historical depth.
+
 ### 2026-03-29 — Storyteller Session: "The Self-Made Man" (Humor Category)
 - **Built `story-the-self-made-man.html`** — "The Self-Made Man: A Memoir He Didn't Write"
   - **Category:** Humor (first humor story on the site — filling a critical gap)
