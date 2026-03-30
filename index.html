@@ -48,9 +48,13 @@
         html { scroll-behavior: smooth; }
         body { background: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.6; overflow-x: hidden; }
 
-        /* Homepage-only: more transparent nav over the starfield hero */
+        /* Homepage-only: more transparent nav over the starfield hero (desktop only) */
         nav .nav-container { background: rgba(10, 10, 15, 0.6); }
         nav.scrolled .nav-container { background: rgba(10, 10, 15, 0.92); }
+        @media (max-width: 968px) {
+            nav { background: #0a0a0f !important; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
+            nav .nav-container { background: transparent !important; }
+        }
 
         /* ===== HERO ===== */
         .hero { position: relative; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; overflow: hidden; }
