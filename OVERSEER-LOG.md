@@ -1,5 +1,44 @@
 # Overseer Log — adoptedbygrace.net
 
+## 2026-03-30 — Run 6 (Scheduled)
+
+### Audit Results
+- **213 HTML pages** on disk (up from 202 at last run — 11 new pages in 24h)
+- **No broken internal links** — clean pass
+- **No eschatology references** in any HTML file — clean
+- **No newsletter/subscribe remnants** — clean
+- **QA-REPORT** shows 205 pages scanned, 19 issues fixed by Nightwatch, 6 "Coming Soon" badges flagged (informational)
+- **Fleet-ops** reports pipeline recovered: lock files cleaned, tmp_obj files removed, push working. 31 commits in 24h.
+- **Wordsmith** has polished 19 pages (added devotional-love-letter-before-time + devotional-in-christ since last run). ~194 pages remain untouched.
+- **DEVOTIONAL-QUEUE** has 1 devotional ready ("The Ink Was Dry Before You Drew Breath")
+- **Sitemap sync**: Only expected exclusions missing (404, _nav-template, index-new, index-old). No phantom entries.
+
+### Issues Found & Fixed
+1. **Sitemap: Homepage (`/`) was missing** — The site's homepage (index.html) had no sitemap entry. Added with priority 1.0 and daily changefreq.
+2. **Sitemap: `psychology-suppressing-truth` added** — New page built this run.
+3. **Psychology Hub: Card 05 activated** — "Suppressing the Truth" card changed from disabled Coming Soon to active link with "New" badge.
+4. **ROADMAP: psychology-suppressing-truth marked complete** — Updated with build details and date.
+
+### Content Built
+- **`psychology-suppressing-truth.html`** — NEW: "Suppressing the Truth: Why the Human Mind Fights What It Already Knows" — Romans 1:18 deep-dive mapping Paul's description of truth-suppression to modern motivated reasoning research. Features: Kunda's landmark 1990 research, Kahan's identity-protective cognition, five stages of suppression (Romans 1:21-25) mapped to five psychological phenomena (self-serving attribution → rationalization → cognitive entrenchment → Dunning-Kruger → active substitution). The devastating irony: rejecting sovereignty PROVES sovereignty. Greek word studies (katechontōn, alētheian, adikia). Pull quotes from Augustine, Edwards, Spurgeon. Pastoral section with 2 Timothy 2:25. Never Gives Up banner. 6-card grid linking to psychology series + Romans 9. ~55KB, ~9 min read. Scripture-first terminology throughout. Zero Reformed/Calvinism labels.
+
+### Current Page Count
+- **214 HTML pages** (213 existing + 1 new)
+- **Sitemap entries: ~213** (synced, minus intentional exclusions)
+
+### Agent Assessment
+- **Wordsmith** has polished 19 pages. ~195 pages remain untouched — still the biggest quality gap.
+- **Story Engine** at 8 stories (added room-where-you-chose, letter-before-the-world, self-made-man). 4 more planned (Voice in Valley, Trial, Potter's House, Night Augustine Wept, The Chosen).
+- **Psychology series** now at hub + 5 pages (why-we-resist, autonomy-illusion, cognitive-biases, offense-of-grace, suppressing-truth). 5 more planned.
+- **Apologetics** now COMPLETE at 5/5 (definite atonement, perseverance, unreached, evangelism, babies).
+- **OT Election** COMPLETE at 14/14 (including Proverbs 16:33/21:1).
+- **Git health: GOOD** — Fleet-ops cleaned locks and tmp objects; push working. No recurrence of issues.
+
+### Top 3 Priorities for Next Run
+1. **Psychology: "The Dead Cannot Choose"** — Anosognosia meets Ezekiel 37. The psychology series has momentum (5 of 10 complete); keep building.
+2. **Story Engine: "The Voice in the Valley"** — Effectual calling parable (John 10:27). Stories reach hearts arguments miss. 4 stories remain in backlog.
+3. **Devotional: "The Valley of the Shadow"** — Psalm 23 meditation. 3 devotionals remain in backlog. The devotional queue needs replenishment.
+
 ## 2026-03-29 — Run 5 (Scheduled)
 
 ### Audit Results

@@ -252,7 +252,7 @@
 - [x] **"The Autonomy Illusion"** — `psychology-autonomy-illusion.html` — Neuroscience of Libet experiments, compatibilism, Jeremiah 17:9 ✅ (exists on disk)
 - [x] **"Cognitive Biases and the Blindness of Sin"** — `psychology-cognitive-biases.html` — Six cognitive biases (confirmation, Dunning-Kruger, anchoring, backfire, system justification, bias blind spot) mapped to Scripture passages. Noetic effects of sin as measurable, directional corruption. ✅ (2026-03-29 Psychologist Agent)
 - [x] **"The Offense of Grace"** — `psychology-offense-of-grace.html` — Five psychological mechanisms (Haidt's Fairness foundation, Brehm's reactance, Lerner's just-world hypothesis, self-serving attribution bias, Liberty/Oppression module) mapped to Romans 9:19-21, Eph 2:8-9. ✅ (2026-03-30 Psychologist Agent)
-- [ ] **"Suppressing the Truth"** — `psychology-suppressing-truth.html` — Romans 1:18 and motivated reasoning deep-dive
+- [x] **"Suppressing the Truth"** — `psychology-suppressing-truth.html` — Romans 1:18 and motivated reasoning deep-dive. Five stages of suppression mapped to psychological phenomena (self-serving attribution, rationalization, cognitive entrenchment, Dunning-Kruger, active substitution). Kunda's motivated reasoning research + Kahan's identity-protective cognition. ✅ (2026-03-30 Overseer)
 - [ ] **"The Dead Cannot Choose"** — `psychology-dead-cannot-choose.html` — Anosognosia meets Ezekiel 37
 - [ ] **"Terror Management Theory and the Cross"** — `psychology-terror-management.html` — Becker's Denial of Death
 - [ ] **"The Idol Factory"** — `psychology-idol-factory.html` — Calvin meets modern psychology of religion
