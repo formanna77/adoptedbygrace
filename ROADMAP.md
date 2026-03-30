@@ -418,6 +418,34 @@
 
 ## Session Log
 
+### 2026-03-30 — Refiner Session #4: All 4 Builder Pages from Today
+- **Builder content today:** 4 pages: `question-proverbs-sovereignty.html`, `psychology-offense-of-grace.html`, `secular-billion-decisions.html`, `story-the-room-where-you-chose.html`
+- **Refined `question-proverbs-sovereignty.html`:**
+  - **101 Ways Audit:** Sharpened opening hook — replaced generic "billions of tiny events" with vivid personal scenarios (job, spouse, traffic light). Now names the reader's experience before explaining doctrine.
+  - **De-emphasized labels:** Changed "The Arminian Counter" → "The Counter-Argument" (CLAUDE.md compliance)
+  - Added 2 new theologian quotes: Augustine (Enchiridion ch. 95 — God permits nothing without willing it) and Luther (Bondage of the Will — no free will under Satan's dominion). Page now has 7 total witnesses.
+  - Added chess grandmaster metaphor in Verdict — vivid parallel for the strategic thinker: God doesn't just control His pieces, He controls the entire board.
+  - Added 4 inline cross-references: question-newheart (Ezekiel 36:26), question-perseverance (keeping saved), ot-moses-pharaoh (Pharaoh's heart), question-chosen (Ephesians 1:11)
+  - Added Ephesians 1:11 cross-reference in Argument 4 connecting Solomon to Paul
+  - **Hebrew audit:** All 6 word studies verified accurate (goral, mishpat, palgey-mayim, natah, lev, kol). No corrections needed.
+- **Refined `psychology-offense-of-grace.html`:**
+  - **101 Ways Audit:** Page is outstanding — targets the person experiencing moral outrage at election. Opening hook is strong.
+  - Added Edwards quote in "Voices Across the Centuries" (Freedom of the Will — the will determined by the person, not the person by the will). Page now has 7 total theologian quotes.
+  - Added organ transplant/immune response metaphor in Section 4 — fallen moral intuitions attack sovereign grace like an immune system attacks a transplanted organ, not because the organ is harmful but because it's foreign. Reaches the medically-minded reader.
+  - Added 3 inline cross-references: question-chosen (Eph 1:4), question-romans9, question-john6 woven into opening paragraph
+  - Added cross-reference to question-boasting (Eph 2:8-9) in self-serving bias section
+- **Refined `secular-billion-decisions.html`:**
+  - **101 Ways Audit:** Excellent targeting — reaches the person who believes in free will but has never thought about autonomic systems. "God gave your will the fork. He kept the heartbeat for Himself" is devastating.
+  - Added Westminster Shorter Catechism Q.11 on providence after the pull-quote
+  - Added Spurgeon quote (dust particles and spray drops have orbits like stars) before the Spiritual Parallel section. Page now has stronger theological grounding.
+  - Added 2 inline cross-references: question-depravity (dead), question-newheart (spiritual life)
+  - Added 2 new cross-reference cards: question-proverbs-sovereignty (No Dice, No Chance) and question-ezekiel37 (Dead Bones Don't Volunteer). Page now has 6 cross-reference links.
+- **Refined `story-the-room-where-you-chose.html`:**
+  - **101 Ways Audit:** This is among the strongest pieces on the entire site. The causation chain (sneeze → bullet casing → stars → book) is extraordinary. No major refinement needed — the story is devastating as written.
+  - **Accessibility fix:** Added `id="main-content"` to `<main>` tag and added skip-link for screen readers
+  - Added 3 new reading cards: question-revelation13 (names written before the foundation — direct parallel to the story's climactic book), question-john15 (You did not choose Me), question-foreknowledge (foreknowledge vs. predestination). Page now has 6 cross-reference links.
+- **101 Ways Assessment across all 4 pages:** Each page reaches a distinctly different audience through a different doorway — Proverbs reaches the luck-believer and politically anxious through wisdom literature; Psychology reaches the person experiencing moral outrage through empirical research; Secular Evidence reaches the science-minded through biology; The Room reaches the narrative-lover through story. No overlap in angle. Excellent 101-Ways coverage.
+
 ### 2026-03-30 — Content Builder Session: question-proverbs-sovereignty.html
 - **Page:** `question-proverbs-sovereignty.html` — "No Dice, No Chance — God's Sovereignty over Lots and Kings"
 - **Priority 2 — OT Election** backlog item: Proverbs 16:33 / 21:1 standalone page
