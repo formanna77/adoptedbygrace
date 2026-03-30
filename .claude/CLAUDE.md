@@ -44,7 +44,7 @@ The nav has TWO display modes controlled entirely by `/global.css`. Do NOT write
 - All 13 links stack vertically with generous touch targets
 
 ### Nav Items (13 total):
-🏠 (home icon) → Best Reads → Start Here → The Evidence → Theology → Demolition → Why We Resist → Devotionals → Stories → Secular → History → Analogies → About
+🏠 (home icon) → Best Reads → Start Here → Questions → Theology → Demolition → Why We Resist → Devotionals → Stories → Secular → History → Analogies → About
 
 - "Best Reads" uses class `nav-best-reads` (ember colored, bold)
 - Home icon uses class `nav-home` with an SVG house icon
