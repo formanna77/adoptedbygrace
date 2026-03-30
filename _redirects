@@ -91,5 +91,22 @@ https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 /resource-finder             /start-here.html               301
 /start-here-resources        /start-here.html               301
 
+# Bot/hacker probes — return 410 Gone (stop crawling these)
+/wordpress/*                   /404.html  410
+/wp-admin/*                    /404.html  410
+/wp-login.php                  /404.html  410
+/wp-content/*                  /404.html  410
+/wp-includes/*                 /404.html  410
+/.env                          /404.html  410
+/.env.local                    /404.html  410
+/.env.bak                      /404.html  410
+/.git/config                   /404.html  410
+/backend/.env                  /404.html  410
+/admin/.env                    /404.html  410
+/config.js                     /404.html  410
+
+# Dead links — redirect to closest match
+/plans                         /start-here.html  301
+
 # Custom 404
 /*  /404.html  404

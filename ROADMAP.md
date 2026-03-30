@@ -72,6 +72,7 @@
 - `theologian-spurgeon.html` — **NEW** Charles Spurgeon — the Prince of Preachers (1834–1892)
 - `stories.html` — **NEW** Stories hub page — parables, allegories, fables of sovereign grace
 - `story-surgeon-stone-heart.html` — **NEW** "The Surgeon and the Stone Heart" — modern parable on regeneration (Ezekiel 36:26)
+- `story-the-self-made-man.html` — **NEW** "The Self-Made Man" — satirical humor memoir: a man claims credit for everything (birth, talent, fortune, faith); omniscient Narrator footnotes expose total sovereignty. Category: Humor. ✅ (2026-03-29 Storyteller)
 - `scripture-tsunami.html` — **NEW** Scripture Tsunami: 200+ verse interactive database organized by TULIP doctrine
 - `quiz.html` — **NEW** Reformed Theology Quiz — 30 interactive TULIP questions with instant Scripture-backed feedback, 3 difficulty modes, TULIP category scoring, study recommendations
 - `search.html` — **NEW** Client-side full-text search across 60+ pages with category filters, keyword highlighting, popular search tags, URL param support
@@ -404,6 +405,20 @@
 ---
 
 ## Session Log
+
+### 2026-03-29 — Storyteller Session: "The Self-Made Man" (Humor Category)
+- **Built `story-the-self-made-man.html`** — "The Self-Made Man: A Memoir He Didn't Write"
+  - **Category:** Humor (first humor story on the site — filling a critical gap)
+  - **Format:** Satirical first-person memoir with omniscient Narrator footnotes
+  - **Concept:** Gerald Whitmore III writes his autobiography, taking credit for everything — choosing his parents, building his mind, making his fortune, finding God. The Narrator's footnotes gently, devastatingly correct every claim, revealing total sovereignty without once naming the doctrine.
+  - **Target audience:** The person who would never read a theology article but would read something funny. The skeptic who needs to laugh before they can listen.
+  - **Doctrine smuggled:** Total sovereignty (birth, talent, circumstances, conversion — all orchestrated). No labels used. No "Calvinism," "election," or "predestination" in the story itself.
+  - **Writing influences:** C.S. Lewis's wit, Terry Pratchett's footnote humor, Douglas Adams's absurdist precision
+  - **5 chapters:** "I Chose Excellent Parents" → "I Built My Own Mind" → "I Made My Fortune" → "I Found God" → "Acknowledgments"
+  - **Haunting ending line:** "Gerald never did figure out who was holding the pen."
+  - **Cross-links:** question-freewill.html, psychology-autonomy-illusion.html, question-depravity.html
+  - Registered in stories.html hub (new featured card + search index + cross-reference grid), sitemap.xml
+  - ~1,500 words of story prose, 7 min read, production-ready HTML with full nav, SEO, JSON-LD
 
 ### 2026-03-29 — Content Builder Session #2: ot-job.html & question-parables.html
 - **Built `ot-job.html`** — "Job: When God Answered Suffering with Sovereignty"
