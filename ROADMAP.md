@@ -124,6 +124,7 @@
 - `ot-job.html` — **NEW** Job: When God Answered Suffering with Sovereignty — Job 1-2, 38-42. God initiates suffering, speaks from the whirlwind with 70+ questions, never explains "why." Hebrew word studies, six arguments, five objections answered, pastoral section for the suffering reader. ✅ (2026-03-29 Content Builder)
 - `question-parables.html` — **NEW** Matthew 13:10-17: Why Jesus Spoke in Parables — divine selectivity in revelation. Understanding is "given" to some and withheld from others. Greek analysis, seven arguments, Arminian counter dismantled, five objections answered. ✅ (2026-03-29 Content Builder)
 - `question-1john5-1.html` — **NEW** The Verse That Settles the Order — 1 John 5:1. Greek perfect tense γεγέννηται proves regeneration precedes faith. All 9 uses in 1 John analyzed, seven arguments, five objections answered. ✅ (2026-03-28 Content Builder)
+- `apologetic-babies.html` — **NEW** "What About Babies Who Die? — Grace, Covenant, and the Littlest Lambs" — Pastoral apologetic: David's confidence (2 Sam 12:23), Jesus and children (Matt 18-19, Luke 18:15), Spirit's sovereignty (John 3:8, WCF 10.3), the Arminian problem, seven biblical arguments, five historical witnesses, five objections answered, pastoral application for grieving parents. ✅ (2026-03-30 Builder)
 
 ### Design System
 - Dark dramatic aesthetic (#0a0a0f bg, gold/ember/violet accents)
@@ -210,7 +211,7 @@
 - [x] **"Did Jesus die for everyone?"** — Definite atonement / limited atonement → `apologetic-definite-atonement.html` ✅ (2026-03-28 Overseer)
 - [x] **"Can you lose your salvation?"** — Comprehensive perseverance case → `apologetic-perseverance.html` ✅ (2026-03-28 Overseer Run 3)
 - [x] **"Doesn't election make evangelism pointless?"** — Election as the engine of evangelism → `apologetic-evangelism.html` ✅ (2026-03-29 Overseer Run 5)
-- [ ] **"What about babies/children?"** — Grace, covenant, and those who die young
+- [x] **"What about babies/children?"** — Grace, covenant, and those who die young → `apologetic-babies.html` ✅ (2026-03-30 Builder)
 
 ### Priority 6 — Stories (Story Engine)
 - [x] **Stories Hub** — `stories.html` — Hub page organizing all stories by type, doctrine, and length ✅ (2026-03-27 Story Engine)
@@ -449,6 +450,14 @@
 ---
 
 ## Session Log
+
+### 2026-03-30 — Builder Session #3: apologetic-babies.html
+- **Page:** `apologetic-babies.html` — "What About Babies Who Die? — Grace, Covenant, and the Littlest Lambs"
+- **Category:** Apologetics / Pastoral — addresses the deeply emotional question of infant salvation
+- **101 Ways angle:** PASTORAL. Written for the grieving parent, the couple who lost a pregnancy, the person terrified that sovereignty means infants are damned. Most pages on the site hit intellectual readers; this one leads with the heart.
+- **Content includes:** Opening pastoral hook, David's confidence (2 Sam 12:23 with Hebrew analysis), Jesus and children (Matthew 18-19, Luke 18:15 with Greek brephē/toioutōn analysis), Spirit's sovereignty (John 3:8, Jeremiah 1:5, Luke 1:41, WCF 10.3), the Arminian problem (three options, all failing), seven biblical arguments, five historical witnesses (Spurgeon, Hodge, Westminster, Sproul, Warfield), five objections answered (original sin, faith requirement, reprobation, emotion vs. exegesis, miscarriages), verdict, pastoral application for the grieving parent, six cross-reference links
+- **Target reader:** The parent who buried a child. The person who uses this question to attack election. The couple processing miscarriage.
+- **Analytics alignment:** Apologetics/question format = #1 traffic driver. Highly searchable topic ("what happens to babies who die", "do babies go to heaven").
 
 ### 2026-03-30 9:45 AM — Analytics Feedback Loop: Weekly Data Pull
 - **Source:** Netlify Observability, Last 7 days (Mar 23–30, 2026)
