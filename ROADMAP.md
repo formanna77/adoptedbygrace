@@ -256,7 +256,7 @@
 - [ ] **"Choose Your Objection" Interactive Experience** — Branching guided path: "What's your biggest concern about God's sovereignty?" → personalized journey through Scripture. Nothing like it exists on any Reformed website. → `choose-your-objection.html`
 
 #### New Passage Pages (from Vision)
-- [ ] **Isaiah 53 — "The Servant Who Bore the Sins of Many"** — "It was the WILL of the LORD to crush him" (v.10). "Make MANY to be accounted righteous" (v.11). OT foundation of definite atonement. → `question-isaiah53.html`
+- [x] **Isaiah 53 — "The Servant Who Bore the Sins of Many"** — "It was the WILL of the LORD to crush him" (v.10). "Make MANY to be accounted righteous" (v.11). OT foundation of definite atonement. Hebrew word studies (rabbim, chaphets, asham, nasa', ammi). Owen's trilemma applied. → `question-isaiah53.html` ✅ (2026-03-29 Content Builder)
 - [ ] **Matthew 13:10-17 — "Why Jesus Spoke in Parables"** — Jesus says "To you it has been GIVEN to know... but to them it has NOT been given." God deliberately conceals truth from some. → `question-parables.html`
 - [ ] **Psalm 139 — "Known Before You Were Known"** — "In your book were written, every one of them, the days that were formed for me" (v.16). Predestination in the Psalms. → `question-psalm139.html`
 - [ ] **Romans 11:33-36 — "The Doxology of Sovereignty"** — After election, hardening, and remnant — Paul doesn't apologize, he WORSHIPS. The proper response to sovereignty is awe. → `question-doxology.html`
@@ -401,6 +401,26 @@
 ---
 
 ## Session Log
+
+### 2026-03-29 — Refiner Session #2: ot-jonah.html & question-romans9.html
+- **Builder content today:** `ot-jonah.html` (Jonah: Reluctant Chosen Instrument) was created by the Content Builder on 3/29.
+- **Refined `ot-jonah.html`:**
+  - **101 Ways Audit:** Page targets 4 distinct audiences in pastoral section (believers running from calling, those struggling with God's mercy, inadequate evangelists, people who think they've outrun God). Sharpened the voice further.
+  - **De-emphasized labels:** Changed "The Arminian says" → "One person protests" (CLAUDE.md compliance)
+  - Added 3 theologian quotes: Augustine (City of God, God's purposes not defeated by flight), Jonathan Edwards (sovereignty makes the difference between gospel success and failure), Martin Luther (Bondage of the Will — Jonah's will was nothing before God's counsel). Page now has 7 total quotes (Calvin, Spurgeon, Packer, Sproul, Augustine, Edwards, Luther).
+  - Added river metaphor in The Verdict — vivid modern parallel for non-theological readers: "You can swim against the current... but the river doesn't tire."
+  - Added inline cross-reference to ot-jeremiah.html (Jeremiah 1:5) in Chapter 3 section
+  - Added 2 new cross-reference cards: ot-jeremiah ("Called Before Formation") and ot-abel-cain ("The First Election") in Continue Your Journey section. Page now has 8 cross-reference links.
+  - **Hebrew audit:** All 5 Hebrew word studies verified accurate (manah, hetil, barach, yeshu'ah, nehpakhet). No corrections needed.
+  - Page grew from 1079 → ~1110 lines
+- **Refined `question-romans9.html` (flagship page):**
+  - **CRITICAL FIX:** Fixed broken HTML — `</div>` on line 782 should have been `</blockquote>`. The opening blockquote tag on line 776 was never properly closed, causing potential rendering issues.
+  - **Added Historical Witnesses section** (7 theologian quotes): Augustine (Predestination of the Saints), Spurgeon (Sermon 241 on Jacob & Esau), Luther (Lectures on Romans), Calvin (Institutes III.22.1), Edwards (Freedom of the Will), Sproul (Chosen by God), Piper (The Justification of God). This was the flagship page and had ZERO theologian quotes before this session.
+  - Added "Historical Witnesses" to section navigation
+  - **Greek audit:** All 6 Greek terms verified accurate (ἐκλογή, μισέω, σκεῦος, ἐκ τῶν ἔργων, οὐ τοῦ θέλοντος, ἐλεέω/ἐλεήσω). No corrections needed.
+  - All internal links verified working.
+- **Broken-link audit:** Checked 8 pages (question-john6, question-depravity, question-goldchain, question-foreknowledge, question-chosen, ot-jeremiah, ot-abel-cain, question-1john5-1). All 8 pages clean — zero broken internal links found. Confirmed systematic-election.html, psychology-why-we-resist.html, systematic-divine-decrees.html all exist. question-ephesians.html still does not exist (Builder should prioritize).
+- **101 Ways Assessment:** The Jonah page reaches narrative-lovers and everyday-life readers through the storm/fish story, but the new river metaphor also opens a doorway for people who understand addiction or feeling swept along by forces beyond their control. The Romans 9 page, now with 7 historic voices, reaches the historically-minded reader who needs to know this isn't a modern invention.
 
 ### 2026-03-29 — Refiner Session: question-boasting.html & question-acts.html
 - **No Builder content today** — Analytics and Log Gardener were the only 3/29 sessions. Focused on Refinement Backlog instead.

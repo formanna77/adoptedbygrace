@@ -341,14 +341,14 @@
                     <span class="engage-cta-label">Ask a Question</span>
                     <span class="engage-cta-desc">We love wrestling with Scripture together.</span>
                 </a>
-                <a href="/connect#prayer" class="engage-cta-card" onclick="sessionStorage.setItem('abg-tab','prayer')">
+                <a href="/contact" class="engage-cta-card">
                     <div class="engage-cta-icon engage-cta-icon-ember">
                         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
                     </div>
                     <span class="engage-cta-label">Share a Prayer</span>
                     <span class="engage-cta-desc">We will intercede for you.</span>
                 </a>
-                <a href="/connect#testimony" class="engage-cta-card" onclick="sessionStorage.setItem('abg-tab','testimony')">
+                <a href="/contact" class="engage-cta-card">
                     <div class="engage-cta-icon engage-cta-icon-violet">
                         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
                     </div>
