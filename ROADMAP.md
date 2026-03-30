@@ -1514,6 +1514,19 @@
 6. **Update this file last.** Check off what you did. Add anything new you discovered.
 7. **Never break existing pages.** If refactoring shared elements, verify all 23+ pages still work.
 
+### 2026-03-30 — Deploy Session
+- **Deployment status:** ✅ LIVE — Site already deployed via Git-linked auto-deploy (Netlify deploy ID: `69cac740c933c5000805d322`, commit `d3cfe6e`)
+- **Published at:** 2026-03-30T18:56:26 UTC
+- **New pages verified live today:**
+  - `story-the-room-where-you-chose.html` — "The Room Where You Chose" (thought experiment on tracing choice to sovereignty)
+  - `story-the-letter-before-the-world.html` — "The Letter Before the World" (tender story on election as adoption)
+  - `psychology-offense-of-grace.html` — "The Offense of Grace" (Haidt's Moral Foundations + Romans 9 on moral outrage)
+- **Pre-deployment validation:** All 3 new pages verified: proper HTML structure, meta tags, OG tags, canonical URLs, JSON-LD, global.css, nav.js, sitemap entries ✅
+- **Live site verification:** Homepage, questions hub, all 3 new pages, and older pages load correctly. Navigation functional, no 404s, no broken links ✅
+- **Pending uncommitted changes (7 files):** analogy-adoption.html, analogy-doctor-corpse.html, analogy-light-switch.html, demolition-ezekiel18-23.html, ot-jeremiah.html, scripture-tsunami.html, systematic-ecclesiology.html — will deploy in next auto-push cycle
+- **Netlify CLI deploy:** ❌ Sandbox proxy still blocks direct Netlify API calls (same as 2026-03-26). Git-linked auto-deploy is the working path.
+- **No blockers.** Site healthy. All systems green.
+
 ### 2026-03-28 — QA Enforcer Session 3
 - Audited all 189 pages (up from 104 in previous session)
 - Fixed 27 broken path-style links (added Netlify redirects + corrected hrefs)

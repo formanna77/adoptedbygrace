@@ -50,20 +50,21 @@
 
     <style>
         :root {
-            --color-primary: #1a1a1a;
-            --color-secondary: #4a4a4a;
-            --color-accent: #c41e3a;
-            --color-light: #f5f5f5;
-            --color-border: #e0e0e0;
-            --color-scripture: #f9f3e6;
-            --color-arminian: #fef3e6;
-            --color-devastating: #fee6e6;
+            --color-primary: #f0ece4;
+            --color-secondary: #9a958c;
+            --color-accent: #d4a254;
+            --color-accent-ember: #e8642c;
+            --color-light: #12121a;
+            --color-border: rgba(212, 162, 84, 0.12);
+            --color-scripture: #12121a;
+            --color-arminian: #12121a;
+            --color-devastating: #12121a;
             --font-serif: 'Playfair Display', serif;
             --font-sans: 'Inter', sans-serif;
             --font-mono: 'JetBrains Mono', monospace;
-            --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
-            --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
-            --shadow-lg: 0 8px 32px rgba(0,0,0,0.15);
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.3);
+            --shadow-md: 0 4px 16px rgba(0,0,0,0.4);
+            --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
         }
 
         * {
@@ -79,7 +80,7 @@
         body {
             font-family: var(--font-sans);
             color: var(--color-primary);
-            background: #ffffff;
+            background: #0a0a0f;
             line-height: 1.7;
             font-size: 18px;
         }
@@ -89,7 +90,7 @@
             top: 0;
             left: 0;
             height: 4px;
-            background: linear-gradient(90deg, var(--color-accent), #8b1429);
+            background: linear-gradient(90deg, var(--color-accent), var(--color-accent-ember));
             width: 0%;
             z-index: 1000;
             transition: width 0.2s ease;
@@ -97,7 +98,7 @@
 
         /* HERO SECTION */
         .hero {
-            background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+            background: linear-gradient(135deg, #12121a 0%, #0a0a0f 100%);
             padding: 4rem 2rem 5rem;
             text-align: center;
             border-bottom: 2px solid var(--color-border);
@@ -131,7 +132,7 @@
         .tier-badge {
             display: inline-block;
             background: var(--color-accent);
-            color: #ffffff;
+            color: #0a0a0f;
             padding: 0.5rem 1rem;
             border-radius: 20px;
             font-size: 0.8rem;
@@ -163,10 +164,6 @@
             border-radius: 8px;
             margin: 3rem 0;
         }
-
-        .section-
-
-        .section-
 
         /* MAIN CONTENT */
         .content {
@@ -217,7 +214,7 @@
         .scripture-block {
             background: var(--color-scripture);
             padding: 2rem;
-            border-left: 4px solid #d4a574;
+            border-left: 4px solid var(--color-accent);
             border-radius: 4px;
             margin: 2rem 0;
             font-family: var(--font-mono);
@@ -240,10 +237,11 @@
         }
 
         .highlight-word {
-            background: #ffeaa7;
+            background: rgba(212, 162, 84, 0.25);
             padding: 0.2em 0.4em;
             border-radius: 3px;
             font-weight: 600;
+            color: var(--color-accent);
         }
 
         /* GREEK/HEBREW GRID */
@@ -255,7 +253,7 @@
         }
 
         .greek-box {
-            background: #f0f4f8;
+            background: var(--color-light);
             padding: 1.5rem;
             border-radius: 8px;
             border-top: 3px solid var(--color-accent);
@@ -286,13 +284,13 @@
         .arminian-box {
             background: var(--color-arminian);
             padding: 2rem;
-            border-left: 4px solid #ff9800;
+            border-left: 4px solid var(--color-accent-ember);
             border-radius: 4px;
             margin: 2rem 0;
         }
 
         .arminian-box h3 {
-            color: #d97706;
+            color: var(--color-accent-ember);
             margin-top: 0;
         }
 
@@ -304,13 +302,13 @@
         .devastating-box {
             background: var(--color-devastating);
             padding: 2rem;
-            border-left: 4px solid var(--color-accent);
+            border-left: 4px solid var(--color-accent-ember);
             border-radius: 4px;
             margin: 2rem 0;
         }
 
         .devastating-box h3 {
-            color: var(--color-accent);
+            color: var(--color-accent-ember);
             margin-top: 0;
         }
 
@@ -337,7 +335,7 @@
         .argument-number {
             display: inline-block;
             background: var(--color-accent);
-            color: #ffffff;
+            color: #0a0a0f;
             width: 40px;
             height: 40px;
             border-radius: 50%;
@@ -387,20 +385,20 @@
 
         /* CROSS REFERENCES */
         .cross-ref {
-            background: #e3f2fd;
+            background: var(--color-light);
             padding: 1.5rem;
             border-radius: 4px;
             margin: 1.5rem 0;
-            border-left: 3px solid #1976d2;
+            border-left: 3px solid #8b5cf6;
         }
 
         .cross-ref strong {
-            color: #1565c0;
+            color: #a78bfa;
         }
 
         /* VERDICT BOX */
         .verdict-box {
-            background: linear-gradient(135deg, var(--color-light) 0%, #f0f4f8 100%);
+            background: var(--color-light);
             padding: 2.5rem;
             border-radius: 8px;
             margin: 3rem 0;
@@ -456,8 +454,8 @@
         }
 
         .next-article {
-            background: linear-gradient(135deg, var(--color-accent) 0%, #8b1429 100%);
-            color: #ffffff;
+            background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-ember) 100%);
+            color: #0a0a0f;
             padding: 2.5rem;
             border-radius: 8px;
             margin: 4rem 0;
@@ -465,13 +463,13 @@
         }
 
         .next-article h3 {
-            color: #ffffff;
+            color: #0a0a0f;
             margin-top: 0;
         }
 
         .next-article a {
             display: inline-block;
-            background: #ffffff;
+            background: #0a0a0f;
             color: var(--color-accent);
             padding: 0.75rem 2rem;
             border-radius: 4px;
@@ -488,10 +486,11 @@
 
         /* FOOTER */
         footer {
-            background: var(--color-primary);
-            color: #ffffff;
+            background: #0a0a0f;
+            color: var(--color-primary);
             padding: 4rem 2rem 2rem;
             margin-top: 5rem;
+            border-top: 1px solid var(--color-border);
         }
 
         .footer-container {
@@ -507,7 +506,7 @@
             font-family: var(--font-serif);
             font-size: 1.1rem;
             margin-bottom: 1rem;
-            color: #ffffff;
+            color: var(--color-primary);
         }
 
         .footer-section ul {
@@ -515,7 +514,7 @@
         }
 
         .footer-section a {
-            color: #cccccc;
+            color: var(--color-secondary);
             text-decoration: none;
             font-size: 0.9rem;
             line-height: 2;
@@ -529,9 +528,9 @@
         .footer-copyright {
             text-align: center;
             padding-top: 2rem;
-            border-top: 1px solid #444444;
+            border-top: 1px solid rgba(212, 162, 84, 0.08);
             font-size: 0.85rem;
-            color: #aaaaaa;
+            color: var(--color-secondary);
         }
 
         /* BACK TO TOP */
@@ -540,7 +539,7 @@
             bottom: 2rem;
             right: 2rem;
             background: var(--color-accent);
-            color: #ffffff;
+            color: #0a0a0f;
             border: none;
             width: 50px;
             height: 50px;
@@ -563,10 +562,6 @@
         .back-to-top.show {
             display: flex;
         }
-
-        .breadcrumb-
-
-        .breadcrumb-
 
         /* RESPONSIVE */
         @media (max-width: 1024px) {
