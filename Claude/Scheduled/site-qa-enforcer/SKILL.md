@@ -136,6 +136,22 @@ Update `QA-REPORT.md` every session:
 - Sync hubs or sitemap (Integrator's job)
 - Run `git add`, `git commit`, or `git push` (hourly auto-push handles this)
 
+### 5. PRINT STYLESHEET VERIFICATION (Lower Priority)
+
+Test that pages render acceptably when printed or saved as PDF:
+- Verify that dark backgrounds don't print (wastes ink, unreadable). Pages should have a `@media print` block that switches to white background with dark text.
+- Nav, hamburger, back-to-top button, and other interactive elements should be hidden in print
+- Scripture references and links should show their URLs in print mode
+- If no print styles exist on a page, add a basic `@media print` block:
+  ```css
+  @media print {
+    body { background: #fff; color: #000; }
+    nav, .hamburger, .back-to-top, .nav-overlay { display: none; }
+    a[href]::after { content: " (" attr(href) ")"; font-size: 0.8em; }
+  }
+  ```
+- Priority: focus on devotional and question pages first (most likely to be printed for study groups)
+
 **ZERO DEFECTS.** Use ALL available compute. Test every page. Fix every issue.
 
 ## File Location

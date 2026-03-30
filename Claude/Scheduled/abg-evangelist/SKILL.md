@@ -131,18 +131,55 @@ Each session, pick 3-5 pages and evaluate:
 
 If you are confident in a title tag or meta description improvement, MAKE THE CHANGE directly in the HTML file. For bigger structural changes, log them for review.
 
-### 4. WELCOME EMAIL SEQUENCE (Monthly — When Due)
+### 4. VIDEO & AUDIO SCRIPT GENERATION (Medium-High Priority)
 
-Maintain a 5-email welcome sequence in `WELCOME-SEQUENCE.md` for new subscribers. Update it monthly as new content is published.
+**Every session, produce ONE video or audio script** saved to `SCRIPTS-QUEUE.md`:
 
-**Sequence:**
-1. **Email 1 (Immediate):** "Welcome — Here's what we believe and why" — links to start-here.html
-2. **Email 2 (Day 3):** "The verse that changes everything" — links to the site's strongest question page
-3. **Email 3 (Day 7):** "A story about grace" — links to the best story page
-4. **Email 4 (Day 14):** "When God changes the way you see everything" — links to a devotional or psychology page
-5. **Email 5 (Day 21):** "Go deeper" — links to systematic theology, Scripture Tsunami, and the quiz
+**Video Scripts (YouTube / Short-Form):**
+- Take the site's strongest arguments and convert them to spoken-word scripts
+- Format: Hook (5 sec) → Setup (30 sec) → Core argument with Scripture (2-4 min) → Devastating close (15 sec)
+- Short-form (60-90 sec) for TikTok/Reels: one punchy argument, one verse, one mic-drop line
+- Include visual direction notes: [SHOW TEXT ON SCREEN: Romans 9:16], [CUT TO: quote card]
+- Every script links back to the full article on adoptedbygrace.net
 
-Each email: 300-500 words, warm, personal, ends with clear CTA to the site.
+**Audio/Podcast Scripts:**
+- Conversational 10-15 minute scripts that walk through one page's content as if speaking to a friend
+- Include natural pauses, rhetorical questions, and moments of reflection
+- Format as a monologue or as a two-voice dialogue
+- End with: "Read the full deep-dive at adoptedbygrace.net/[page]"
+
+### 4b. SOCIAL PROOF & TESTIMONIAL COLLECTION
+
+Maintain `TESTIMONIALS.md` — a curated collection of compelling social proof:
+- Search for and document any positive mentions of adoptedbygrace.net content online
+- Draft hypothetical testimonial formats that could be added to pages (pending real testimonials)
+- Create "impact statement" callout boxes for pages: "This article has been read by X visitors" (when analytics supports it)
+- For the strongest pages, draft a 1-sentence impact summary suitable for social sharing
+
+### 4c. GUEST POST & OUTREACH PITCHES
+
+Maintain `OUTREACH-QUEUE.md` — draft pitches for guest posting on theology blogs:
+- Identify 5-10 theology blogs/sites that accept guest posts
+- Draft pitch emails that offer original content related to what they publish
+- The content always links back to adoptedbygrace.net for the deep dive
+- Tone: humble, generous, collaborative — not self-promotional
+- Rotate pitches monthly
+
+### 4d. SEASONAL CONTENT CALENDAR
+
+Maintain `SEASONAL-CALENDAR.md` — a 12-month content calendar:
+- Map key dates: Easter (resurrection & election), Christmas (incarnation & sovereignty), Reformation Day (Oct 31), Good Friday, Pentecost
+- For each season, identify which existing site pages are most relevant
+- Draft seasonal newsletter and social content 2-4 weeks ahead
+- Suggest seasonal article ideas to Builder via ROADMAP.md
+
+### 4e. SUBSTACK CROSS-POSTING OPTIMIZATION
+
+When drafting newsletters for Substack (@formanna77):
+- Optimize for Substack's recommendation algorithm (engagement-driving subject lines, first 2 sentences visible in preview)
+- Include Substack-native formatting (pull quotes, section breaks)
+- Add "Notes" (Substack's short-form feature) ideas: 1-2 sentence provocative theological observations
+- Track which newsletter formats drive the most click-throughs to the site (log in DISTRIBUTION-LOG.md)
 
 ### 5. ANALYTICS MONITORING (When Analytics Is Installed)
 

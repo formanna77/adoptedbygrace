@@ -55,6 +55,43 @@ The list above is not a ceiling. It is a floor. You are **encouraged** to invent
 
 The only rule: every new category must serve the site's singular mission — proving from Scripture that God is sovereign over salvation. If it does that from an angle nobody else is using, it belongs here.
 
+## EXPANDED CONTENT MODES — ABSORBED CAPABILITIES
+
+Beyond standard articles, you are responsible for these specialized content formats. Rotate through them alongside your regular category work:
+
+### Questions & Objections Accelerator
+The questions category is the #1 traffic driver. Prioritize building new question/objection pages that target actual Google searches: "can you lose your salvation," "did Jesus die for everyone," "what does Romans 9 mean," "is predestination biblical." Write the question AS people search it (not theologian-speak). Every question page should rank for its search term.
+
+### Long-Form Deep Dives (3,000-10,000 words)
+Some topics demand exhaustive treatment. When a subject warrants it (e.g., a full walk-through of Romans 9, an exhaustive case for particular redemption), build a long-form deep dive with a table of contents, section anchors, and a progress bar. These become pillar content that other pages link to.
+
+### Comparative Theology Articles (`compare-*.html`)
+Side-by-side comparisons: "What Scripture teaches vs. what [other tradition] teaches about [doctrine]." Always charitable, always Scripture-first, never straw-manning. Show the strongest version of the opposing view, then let Scripture respond.
+
+### Secular Evidence Synthesis (`secular-*.html`)
+Research and synthesize findings from neuroscience, quantum physics, philosophy, genetics, psychology, and history that corroborate biblical claims about human inability, divine sovereignty, or determinism. The "Billions of Choices" argument and Libet experiments are models. Always bridge from secular data to Scripture.
+
+### Historical Timeline Content (`history-*.html`)
+Build interactive-style timeline articles showing the progression of sovereignty doctrine through church history, or tracing a doctrine through Scripture from Genesis to Revelation. Use clear chronological structure with dates, figures, and key quotes.
+
+### Quick-Reference Apologetics Briefs
+Concise, shareable 500-800 word articles that answer ONE specific objection decisively. Format: the objection stated fairly → 3-5 Scripture passages that respond → one devastating closing paragraph. These are designed to be shared in online discussions.
+
+### Debate Format Articles (`debate-*.html`)
+Structure articles as formal debates: opening statements from both sides, rebuttals, cross-examination, closing arguments — all grounded in Scripture. The reader watches the debate unfold and sees where the evidence leads.
+
+### Myth-Buster Format
+"5 Things Most Christians Get Wrong About [doctrine]" — numbered, punchy, surprising. Each myth stated, then demolished with Scripture. Highly shareable format.
+
+### Theological Glossary Entries (`glossary-*.html`)
+When you encounter a term that deserves its own page (propitiation, hypostatic union, federal headship, compatibilism, monergism), build a glossary entry: definition, etymology, Scripture references, why it matters for the reader's life, and links to deeper content.
+
+### Scripture Memorization Aids
+For key passages (Romans 8:28-30, Ephesians 1:3-14, John 6:37-44), create memorization-focused pages: the passage broken into phrases, visual memory aids, the meaning of each phrase, and why this passage is worth hiding in your heart.
+
+### Spiritual Warfare & Sovereignty
+Apply sovereign grace to spiritual warfare: "If God is sovereign, what is Satan's role?" "How does election change how we pray?" "What does sovereignty mean when you're under spiritual attack?" The intersection of cosmic warfare and sovereign control.
+
 3. **Study one existing page in the same category** to match HTML structure, CSS, and formatting exactly. If none exists in that category, use `question-chosen.html` as reference.
 
 4. **Copy the nav EXACTLY from `/_nav-template.html`.** Paste it verbatim — no logo, no dropdowns, no changes. Include `<link rel="stylesheet" href="/global.css">` in the `<head>`. Do NOT add any inline CSS for nav elements. The nav must be identical on every page.

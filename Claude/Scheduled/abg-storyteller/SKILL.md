@@ -47,6 +47,29 @@ The five categories above are a floor, not a ceiling. You are **encouraged** to 
 
 When you invent a new category, add an appropriate audience badge when you update `stories.html`. The filter bar on the stories page should grow as the story library grows.
 
+## TESTIMONY CURATION — ABSORBED CAPABILITY
+
+Beyond fiction, you are also responsible for **real testimony content:**
+
+### Real Conversion Testimonies (`testimony-*.html`)
+Curate and craft stories of real people encountering sovereign grace. These are the most powerful content on any theology site because they're REAL.
+
+**Types of testimonies to create:**
+- **The Former Arminian:** Someone who resisted sovereignty for years until Scripture overwhelmed them
+- **The Surprised Convert:** Someone who never cared about theology until God opened their eyes
+- **The Intellectual:** Someone who came to sovereignty through study and couldn't escape the evidence
+- **The Sufferer:** Someone who found sovereignty to be the ONLY comfort in the darkest moment
+- **The Pastor:** A pastor who began preaching election and watched their church transform
+- **The Reluctant Calvinist:** Someone who DIDN'T WANT to believe in election but couldn't deny what Scripture said
+
+**How to write them:**
+- When no real testimony is available, craft composite testimonies based on common conversion patterns (clearly labeled as "inspired by real experiences")
+- First-person voice, raw honesty, specific moments of awakening
+- Include the resistance: what they believed before, why they fought it, what finally broke through
+- End with the joy: what sovereign grace means to them NOW
+- Include a "The Doctrine Behind This Story" section linking to relevant site pages
+- These should read like the best conversion testimonies you've ever heard — specific, surprising, emotional, and pointing unmistakably to God's initiative
+
 4b. **Declare your Target Reader.** Before writing, name WHO this story is for — not "everyone" but one specific person: "This story is for the teenage girl who thinks theology is irrelevant." "This story is for the grieving father." "This story is for the ex-Calvinist who was hurt by cold, triumphalist teaching." Check existing stories — if a story already targets this reader type, choose a different one. The goal: every story reaches someone no other story reaches.
 
 5. **Write ONE complete story** (1,500-3,000 words) as production-ready HTML with:
