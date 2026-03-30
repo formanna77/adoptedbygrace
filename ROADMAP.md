@@ -73,6 +73,7 @@
 - `stories.html` — **NEW** Stories hub page — parables, allegories, fables of sovereign grace
 - `story-surgeon-stone-heart.html` — **NEW** "The Surgeon and the Stone Heart" — modern parable on regeneration (Ezekiel 36:26)
 - `story-the-self-made-man.html` — **NEW** "The Self-Made Man" — satirical humor memoir: a man claims credit for everything (birth, talent, fortune, faith); omniscient Narrator footnotes expose total sovereignty. Category: Humor. ✅ (2026-03-29 Storyteller)
+- `story-the-room-where-you-chose.html` — **NEW** "The Room Where You Chose" — thought experiment: a person dies and traces their "choice" of God backward through an infinite chain of causation (friends, broken cars, sneezes, stars) to a book with their name written before time. Category: Thought Experiment. ✅ (2026-03-30 Storyteller)
 - `scripture-tsunami.html` — **NEW** Scripture Tsunami: 200+ verse interactive database organized by TULIP doctrine
 - `quiz.html` — **NEW** Reformed Theology Quiz — 30 interactive TULIP questions with instant Scripture-backed feedback, 3 difficulty modes, TULIP category scoring, study recommendations
 - `search.html` — **NEW** Client-side full-text search across 60+ pages with category filters, keyword highlighting, popular search tags, URL param support
@@ -217,6 +218,7 @@
 - [x] **"The King's Banquet"** — Modern parable on irresistible grace (Luke 14:23) → `story-the-kings-banquet.html` ✅ (2026-03-28 Live Session)
 - [x] **"The Fish Who Chose the Ocean"** — Fable on sovereignty → `story-the-fish-who-chose-the-ocean.html` ✅ (exists on disk)
 - [x] **"The Dead City"** — Allegory on regeneration and election → `story-the-dead-city.html` ✅ (2026-03-28 Live Session)
+- [x] **"The Room Where You Chose"** — Thought experiment: tracing the chain of causation from "choosing" God back to eternity past → `story-the-room-where-you-chose.html` ✅ (2026-03-30 Storyteller)
 - [ ] **"The Trial"** — Allegory on justification and substitutionary atonement
 - [ ] **"The Potter's House"** — Allegory on Romans 9:21
 - [ ] **"The Night Augustine Wept"** — Historical fiction on Augustine's conversion
