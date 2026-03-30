@@ -1,84 +1,96 @@
 # Deep Dive QA Report
-**Run:** 2026-03-29 (automated — run 2)
-**Pages Tested:** 203
-**Viewports:** HTTP status verified at all URLs; CSS/JS analysis done via comprehensive source code scan
-**Status:** CLEAN
+**Run:** 2026-03-30 ~15:22 UTC
+**Pages Tested:** 164 (all non-template, non-legacy HTML files)
+**HTTP Status Check:** All 164 pages — curl at adoptedbygrace.net
+**Rendering Spot-Check:** Homepage, Questions, Devotionals via WebFetch
+**Status:** ✅ CLEAN
 
 ## CRITICAL (fix immediately)
 None. No invisible content, no broken pages, no global file corruption.
 
-## PHASE 1: GLOBAL FILE INTEGRITY
+## Phase 1: Global File Integrity
 
-### global.css — CLEAN
-- No `.reveal { opacity: 0 }` — removal comments from 2026-03-29 confirmed in place
-- No `.scroll-reveal { opacity: 0 }` — removal comment confirmed
-- No `.stagger > * { opacity: 0 }` — removal comment confirmed
-- `opacity: 0` only found on safe elements: `.back-to-top` (button), `.tooltip` (UI), keyframe `from` states, decorative pseudo-elements
-- No `display:none` on content classes — all instances are nav layout toggles (mobile/desktop), print styles, or tab panels (expected)
-- No `visibility:hidden` on content — only on `.back-to-top` and `.tooltip` (expected)
+### global.css ✅
+- NO `.reveal { opacity: 0 }` — confirmed removed
+- NO `.scroll-reveal { opacity: 0 }` — confirmed removed
+- NO `.stagger > * { opacity: 0 }` — confirmed removed (comment at line 627 documents removal)
+- NO opacity:0 on any content-bearing classes
+- Acceptable opacity:0 uses: `.back-to-top` (button), `.tooltip` (hover widget), animation keyframes, `.hamburger.active span:nth-child(2)` (hamburger animation), `.section-divider` (decorative 0.2 opacity)
+- No dangerous `display:none` on content (all are nav toggles, print styles, tab panels)
+- No `visibility:hidden` on content (only `.back-to-top` and `.tooltip`)
 
-### global.js — CLEAN
-- Scroll reveal code adds `.visible` class only (no opacity:0 setting)
-- Auto-reveal adds `.reveal` class then observes — safe since CSS `.reveal` has no opacity:0
-- Engagement CTAs point to `/contact` and `/donate` — both files exist
-- No newsletter/email signup code
-- No code that could throw blocking errors
+### global.js ✅
+- No opacity:0 set on content elements
+- Scroll reveal code adds `.visible` class via IntersectionObserver — safe pattern
+- Auto-reveal (lines 104-112) adds `.reveal` class to `.content-section` and `.card-grid` but CSS no longer hides `.reveal` — safe
+- Engagement CTAs point to `/contact` and `/donate` — both valid pages ✅
+- No newsletter/email signup code ✅
+- No code that could throw errors blocking subsequent scripts ✅
 
-### nav.js — CLEAN
-- Hamburger toggle functional with clone-to-strip-listeners pattern
+### nav.js ✅
+- Hamburger toggle functional (clone-and-replace pattern for clean listeners)
 - Mega-menu open/close with click-outside handling
-- Search overlay with lazy-loaded index
-- Mobile search with results container
-- Keyboard shortcuts (Escape, Ctrl+K)
-- Scroll detection for nav background
-- Resize handler to close mobile menu on desktop transition
+- Search overlay opens/closes properly, Escape key closes all overlays
+- Mobile search with inline results
 - No errors that could break navigation
+
+## Phase 2: HTTP Status Check
+All 164 pages returned HTTP 200 via curl. No 404s, no redirect loops, no timeouts.
+
+## Phase 3: Rendering Spot-Check (WebFetch)
+- **Homepage (index.html):** ✅ Hero section, Five Truths tabs, Explore Hub, 70+ links, no errors, no newsletter
+- **Questions hub:** ✅ 34 question links across 5 categories, full nav, no errors, no banned content
+- **Devotionals hub:** ✅ 15 devotional cards, full nav, no errors, no banned content
+
+## Phase 4: Structural Checks
+
+### Missing Includes
+All 164 pages include:
+- ✅ `global.css`
+- ✅ `nav.js`
+- ✅ `<!DOCTYPE html>`
+- ✅ `<meta name="viewport"`
+
+### Inline opacity:0 Audit (HTML files)
+20 HTML files contain inline `opacity:0` — ALL verified safe:
+- Back-to-top buttons (most common)
+- Animation keyframes (`@keyframes slideIn`, etc.)
+- Hidden radio inputs in quiz/assessment (`input[type="radio"]`)
+- Hover-reveal arrows on link cards
+- Decorative pseudo-elements (opacity: 0.15, 0.25, 0.3 — not fully hidden)
+
+### Banned Content Check
+- ✅ No newsletter signup forms found
+- ✅ No email collection code
+- ✅ No resources pages
+- ⚠️ `privacy.html` line 558 mentions "If we add... email newsletters... in the future" — informational text only, not functional code. Acceptable.
+- ⚠️ `search-index.js` contains the word "newsletter" as indexed text — this is just the search index reflecting page content. Acceptable.
+
+### Broken Internal Links
+✅ No broken internal links found. All `href="/..."` paths resolve to existing files.
+
+## Phase 5: Redirect Health
+
+### _redirects File (112 lines)
+✅ All redirect targets verified — every target HTML file exists in the repo.
+
+Notable redirects:
+- `/connect → /contact.html` (301) — properly redirects deleted page
+- `/subscribe → /contact.html` (301) — properly redirects eliminated feature
+- `/resources-*` → various pages (301) — all 12 resource redirects point to valid targets
+- `/privacy → /about.html`, `/terms → /about.html` — valid
+- Bot/hacker probes (wp-admin, .env, etc.) → 410 Gone — good security practice
+
+No redirect chains detected. No dead targets.
 
 ## ERRORS
 None found.
 
 ## WARNINGS
-
-### Inline opacity:0 in page-specific styles (23 instances across pages)
-All reviewed and confirmed SAFE:
-- **CSS animation entrance effects** (e.g., `history-timeline.html` `.timeline-item` uses `animation: fadeInUp 0.8s ease forwards` — animates from 0 to 1, `forwards` keeps final state)
-- **Homepage hero slides** (`index.html` `.hero-slide`) — JS-controlled slide transitions
-- **Card arrows** (`.card-arrow` on analogies, psychology-hub, secular-evidence, stories, creeds-confessions) — decorative hover effects
-- **Radio inputs** (`belief-assessment.html` hidden radio for custom styling)
-- **Unused alternate homepages** (`index-old.html`, `index-new.html`) — not served to visitors
-
-No opacity:0 found on content-bearing sections, articles, paragraphs, or main elements.
-
-## STRUCTURAL
-
-### Missing Includes — NONE
-All 203 HTML files contain:
-- `<link rel="stylesheet" href="/global.css">`
-- `<script src="/nav.js"></script>`
-- `<!DOCTYPE html>`
-- `<meta name="viewport">`
-
-### Broken Internal Links — NONE
-All internal `href="/..."` links resolve to existing files or are covered by `_redirects`.
-
-### Banned Content — CLEAN
-- `privacy.html` mentions "email newsletters" in a policy disclosure sentence (not a signup form — acceptable)
-- No newsletter signup forms, email collection, or resources pages found
-
-## REDIRECT HEALTH
-All redirect targets verified:
-- 112 redirect rules in `_redirects`
-- All `.html` targets exist in the repo
-- No redirect chains detected
-- Resources section redirects correctly point to `start-here.html` or `creeds-confessions.html`
-- Bot/hacker probes (wp-admin, .env, etc.) correctly return 410
-- `/subscribe` correctly redirects to `/contact.html`
-- `/connect` correctly redirects to `/contact.html`
-
-## HTTP STATUS
-All 203 pages returned HTTP 200 (verified via curl against live site adoptedbygrace.net).
+- privacy.html contains forward-looking newsletter language (line 558) — cosmetic only, no functional issue
+- `index-old.html` and `index-new.html` exist as legacy files — not linked, not harmful
 
 ## SUMMARY
-203 pages clean. 0 issues found. 0 auto-fixes needed. Site is healthy.
+**164 pages checked. 0 issues found. 0 auto-fixes needed. Site is healthy.**
 
-The 2026-03-29 opacity:0 fix in global.css remains intact. No new content-hiding patterns have been introduced.
+All global files (CSS, JS, nav) are clean. The opacity:0 bug from 2026-03-29 has not returned. No banned content (newsletters, resources, community) detected. All redirects resolve. All pages return HTTP 200. Content renders correctly on spot-checked pages.

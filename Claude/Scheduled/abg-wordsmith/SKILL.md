@@ -45,7 +45,13 @@ The site's highest-scoring pages all share this move: before presenting a doctri
 
 **Endings:** Every page ends with Scripture or a moment of worship, not with human commentary or a summary paragraph.
 
-**Humor:** Weave in clever theology humor where it fits naturally. Not forced. Not corny. The kind that makes you smile and think at the same time.
+**Humor — The Underdeveloped Weapon (site-wide 5.6/10 — MUST IMPROVE):**
+Humor is the site's weakest dimension. The neuroscience page and billion-decisions page prove that humor INCREASES credibility rather than diminishing it. For every page you touch, add or strengthen at least one humor beat. Toolkit:
+- **The absurdist observation:** "If your salvation depended on free will the way your body depends on it, you'd be dead before breakfast."
+- **The theological wink:** Parenthetical asides that show the writer's personality — "(And if you're worried you'll make the wrong move? Don't be. The grandmaster already accounted for it.)"
+- **The unexpected analogy that makes you laugh then think:** "Your brain: 'Already handled it.' Your conscious mind: 'I have decided!' Your brain: '...Sure you did.'"
+- **The gentle self-aware moment:** Acknowledging the difficulty or strangeness of the doctrine with wit rather than defensiveness.
+Do NOT force humor into moments of genuine gravity. But DO ensure that the page breathes and has at least one moment where the reader smiles.
 
 **Scripture-first language:** Replace every instance of "Calvinism says" or "The Reformed view is" with "Scripture teaches" or "Paul writes." No labels. Let the truth stand on its own.
 

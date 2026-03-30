@@ -47,6 +47,8 @@ The five categories above are a floor, not a ceiling. You are **encouraged** to 
 
 When you invent a new category, add an appropriate audience badge when you update `stories.html`. The filter bar on the stories page should grow as the story library grows.
 
+4b. **Declare your Target Reader.** Before writing, name WHO this story is for — not "everyone" but one specific person: "This story is for the teenage girl who thinks theology is irrelevant." "This story is for the grieving father." "This story is for the ex-Calvinist who was hurt by cold, triumphalist teaching." Check existing stories — if a story already targets this reader type, choose a different one. The goal: every story reaches someone no other story reaches.
+
 5. **Write ONE complete story** (1,500-3,000 words) as production-ready HTML with:
    - Category badge, estimated reading time
    - Beautiful long-form typography (max-width 720px)

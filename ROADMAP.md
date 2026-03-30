@@ -74,6 +74,7 @@
 - `story-surgeon-stone-heart.html` — **NEW** "The Surgeon and the Stone Heart" — modern parable on regeneration (Ezekiel 36:26)
 - `story-the-self-made-man.html` — **NEW** "The Self-Made Man" — satirical humor memoir: a man claims credit for everything (birth, talent, fortune, faith); omniscient Narrator footnotes expose total sovereignty. Category: Humor. ✅ (2026-03-29 Storyteller)
 - `story-the-room-where-you-chose.html` — **NEW** "The Room Where You Chose" — thought experiment: a person dies and traces their "choice" of God backward through an infinite chain of causation (friends, broken cars, sneezes, stars) to a book with their name written before time. Category: Thought Experiment. ✅ (2026-03-30 Storyteller)
+- `story-the-letter-before-the-world.html` — **NEW** "The Letter Before the World" — tender story: a woman discovers a letter her father wrote to her by name, dated 14 months before she was born. Election as the most intimate love imaginable. Category: Tender. ✅ (2026-03-30 Storyteller)
 - `scripture-tsunami.html` — **NEW** Scripture Tsunami: 200+ verse interactive database organized by TULIP doctrine
 - `quiz.html` — **NEW** Reformed Theology Quiz — 30 interactive TULIP questions with instant Scripture-backed feedback, 3 difficulty modes, TULIP category scoring, study recommendations
 - `search.html` — **NEW** Client-side full-text search across 60+ pages with category filters, keyword highlighting, popular search tags, URL param support
@@ -115,6 +116,7 @@
 - `question-revelation13.html` — **NEW** Revelation 13:8 & 17:8 deep-dive: "Names Written Before the Foundation of the World" — Book of Life and eternal decree
 - `secular-algorithm-sovereignty.html` — **NEW** "The Algorithm Knows You Better Than You Know Yourself" — Secular evidence page: predictive algorithms (Netflix, Spotify, Amazon, Target, Facebook studies) confirm divine sovereignty & foreknowledge. ~2,500 words. ✅ (2026-03-28 Visionary)
 - `question-proverbs-sovereignty.html` — **NEW** "No Dice, No Chance" — Proverbs 16:33 & 21:1: sovereignty over lots and kings' hearts. Hebrew word studies (goral, mishpat, palgey-mayim, natah, lev, kol), six arguments, steelmanned counter, five witnesses, five objections answered. ✅ (2026-03-30 Content Builder)
+- `question-acts4.html` — **NEW** "The Cross Was Predestined" — Acts 4:27-28: the most evil act in history was predestined by God, carried out by free agents. Six Greek word studies (proōrisen, boulē, cheir, poiēsai, synēchthēsan, Despota), seven arguments, steelmanned counter, seven witnesses, five objections answered. ✅ (2026-03-30 Builder)
 - `secular-billion-decisions.html` — **NEW** "The Billion Decisions You Didn't Make Today" — Secular evidence page: autonomic nervous system, immune function, DNA repair, brainstem sovereignty → if God didn't trust your heartbeat to free will, why your salvation? ~2,200 words. ✅ (2026-03-30 Visionary #4)
 - `ot-noah.html` — **NEW** Noah: Chosen for Preservation — Genesis 6-9, grace before the flood, Hebrew word study (chen, tsaddiq, tamim), the order of grace (6:8 before 6:9), the ark as election, the covenant of preservation. ✅ (2026-03-28 Content Builder)
 - `ot-abel-cain.html` — **NEW** Abel vs. Cain: The First Election — Genesis 4, Hebrews 11:4, 1 John 3:12. The Bible's first story after Eden reveals sovereign distinction. Hebrew analysis, six arguments, five objections answered. ✅ (2026-03-28 Content Builder)
@@ -220,6 +222,7 @@
 - [x] **"The Fish Who Chose the Ocean"** — Fable on sovereignty → `story-the-fish-who-chose-the-ocean.html` ✅ (exists on disk)
 - [x] **"The Dead City"** — Allegory on regeneration and election → `story-the-dead-city.html` ✅ (2026-03-28 Live Session)
 - [x] **"The Room Where You Chose"** — Thought experiment: tracing the chain of causation from "choosing" God back to eternity past → `story-the-room-where-you-chose.html` ✅ (2026-03-30 Storyteller)
+- [x] **"The Letter Before the World"** — Tender story: a woman discovers her adoptive father's letter to her by name, dated before she was born. Election as the deepest love. → `story-the-letter-before-the-world.html` ✅ (2026-03-30 Storyteller)
 - [ ] **"The Trial"** — Allegory on justification and substitutionary atonement
 - [ ] **"The Potter's House"** — Allegory on Romans 9:21
 - [ ] **"The Night Augustine Wept"** — Historical fiction on Augustine's conversion
@@ -270,7 +273,7 @@
 - [ ] **Psalm 139 — "Known Before You Were Known"** — "In your book were written, every one of them, the days that were formed for me" (v.16). Predestination in the Psalms. → `question-psalm139.html`
 - [ ] **Romans 11:33-36 — "The Doxology of Sovereignty"** — After election, hardening, and remnant — Paul doesn't apologize, he WORSHIPS. The proper response to sovereignty is awe. → `question-doxology.html`
 - [x] **1 John 5:1 — "The Verse That Settles the Order"** — Perfect tense γεγέννηται proves new birth PRECEDES faith. Single most devastating verse for Arminian ordo salutis. → `question-1john5-1.html` ✅ (2026-03-28 Content Builder)
-- [ ] **Acts 4:27-28 — "The Cross Was Predestined"** — The most evil act in history was predestined by God, carried out by free human agents. Compatibilism at its most breathtaking. → `question-acts4.html`
+- [x] **Acts 4:27-28 — "The Cross Was Predestined"** — The most evil act in history was predestined by God, carried out by free human agents. Compatibilism at its most breathtaking. → `question-acts4.html` ✅ (2026-03-30 Builder)
 - [ ] **Hebrews 12:2 — "Jesus: Author and Perfecter of Our Faith"** — Faith has an AUTHOR (ἀρχηγόν) and a PERFECTER (τελειωτήν). You are not the origin of your own belief. → `question-hebrews12-2.html`
 
 #### Book-of-the-Bible Walkthrough Series (from Vision — THE BIG IDEA)
@@ -417,6 +420,55 @@
 ---
 
 ## Session Log
+
+### 2026-03-30 11:15 PM — Deploy Session: Production Deployment Successful
+- **Deploy ID:** `69ca96ecdfb62110c147f7ab`
+- **Production URL:** https://adoptedbygrace.net
+- **Unique Deploy URL:** https://69ca96ecdfb62110c147f7ab--adoptedbygrace.netlify.app
+- **Files deployed:** 374 files hashed, 9 new/changed files uploaded
+- **Total HTML pages:** 212
+- **Pre-deployment validation:**
+  - All 5 new pages from today verified: `story-the-room-where-you-chose.html`, `story-the-letter-before-the-world.html`, `question-proverbs-sovereignty.html`, `psychology-offense-of-grace.html`, `secular-billion-decisions.html`
+  - HTML structure validated on all 5 pages (doctype, head, title, meta, nav, main, footer, global.css, nav.js — all ✅)
+  - Internal link spot-check: 0 broken links found across 3 sampled pages
+  - **Sitemap fix applied:** Added `psychology-offense-of-grace.html` and `secular-billion-decisions.html` to sitemap.xml (were missing). Sitemap now has 208 URLs.
+  - Hub registrations verified: stories in stories.html ✅, psychology in psychology-hub.html ✅, proverbs linked from ot-election.html ✅, secular linked from secular-evidence.html ✅
+- **Live site verification (post-deploy):**
+  - Homepage: loads correctly, navigation functional, all category links working ✅
+  - `story-the-letter-before-the-world`: full story content, navigation, styling ✅
+  - `question-proverbs-sovereignty`: Hebrew word studies, 6 arguments, theologian quotes, cross-refs ✅
+  - `secular-billion-decisions`: autonomic sovereignty content, 6 cross-reference cards ✅
+  - `question-romans9` (older page): loads correctly, content intact, no regression ✅
+- **No blockers. No issues. All validations passed.**
+
+### 2026-03-30 — Storyteller Session #2: "The Letter Before the World" (Tender Category)
+- **Built `story-the-letter-before-the-world.html`** — "The Letter Before the World"
+  - **Category:** Tender (first tender story on the site — filling a critical gap)
+  - **Format:** Third-person narrative with embedded letter excerpts
+  - **Concept:** After her father Samuel's death, Miriam finds a locked drawer in his desk. Inside: a letter addressed to her by name, dated 14 months before she was born — before her birth mother was even pregnant, before anyone on earth knew she would exist. The letter describes a love that preceded its object. Her father named her before she was conceived, loved her before she could be loved, chose her before she could choose anything at all. She discovers that the verse he circled most in his Bible — Ephesians 1:4 — had two words penciled next to it: "Like Miriam."
+  - **Target audience:** The person who has been told election is cold, mechanical, impersonal — who needs to FEEL that it is the most intimate love imaginable. The grieving. The adopted. The one who wonders if they belong.
+  - **Doctrine smuggled:** Unconditional election (Eph 1:4-5), foreknowledge as intimate love (Jer 1:5), adoption as the heart of God's sovereign plan. No labels used. No "Calvinism" or "predestination" in the story itself. The doctrine is felt, not stated — until the final verse reveal.
+  - **Writing influences:** Buechner's raw honesty, Lewis's imagination, Keller's surprising tenderness
+  - **Haunting ending:** She sits in her father's chair, in the house he prepared before she existed, and for the first time since the funeral, she feels not like an orphan but like what she has always been: chosen.
+  - **Cross-links:** question-election.html, story-the-orphanage.html, devotional-never-gives-up.html
+  - Registered in stories.html hub (new featured card), sitemap.xml
+  - ~1,600 words of story prose, 7 min read, production-ready HTML with full nav, SEO, JSON-LD
+
+### 2026-03-30 — Builder Session #2: question-acts4.html
+- **Page:** `question-acts4.html` — "The Cross Was Predestined — Acts 4:27-28 and the Sovereignty Behind Calvary"
+- **Priority 8 — New Passage Pages** backlog item: Acts 4:27-28 standalone page
+- **Category/Angle:** Compatibilism through the lens of the most important event in history — the cross. Written for the person who struggles with how divine sovereignty and human responsibility coexist, using Calvary as the ultimate proof text.
+- **Content includes:**
+  - Opening hook: "The Question Nobody Asks at the Cross" — who planned the crucifixion?
+  - Full text of Acts 4:24-28 with contextual exposition
+  - Six Greek word studies: προώρισεν (predestined), βουλή (deliberate counsel), χείρ (hand of God), ποιῆσαι (to accomplish), συνήχθησαν (were gathered — passive voice), Δέσποτα (Sovereign Lord/Absolute Ruler)
+  - Seven arguments from Scripture: compatibilism proven at the cross, four hostile parties united by providence, predestination preceded the agents, the cross guarantees the recipients, early church comfort in sovereignty, the cross as model for all providence, prophecy requires predestination
+  - Steelmanned counter-argument ("the cross was a unique exception") with three-point rebuttal from Proverbs, Ephesians, Lamentations
+  - Seven historical witnesses: Westminster Confession 3.1, Calvin, Spurgeon, Sproul, Edwards, Piper, Augustine
+  - Five objections answered: author of sin, puppets/robots, unique event generalization, God wanting His Son to suffer, moral responsibility and inability to do otherwise
+  - Pastoral application: suffering, evil appearing to win, doubt, and prayer
+  - Six cross-reference cards linking to compatibilism, golden chain, Revelation 13:8, Joseph, author-of-sin objection, and Isaiah 53
+- **101 Ways lens:** Reaches the person who has been told "God can't control everything because that would make us robots" — using the cross itself as the irrefutable counterexample. Also reaches the suffering believer who needs assurance that God's hand is behind their pain, just as it was behind Calvary. The playwright metaphor (Shakespeare/Hamlet) provides a literary doorway for the humanities-minded reader.
 
 ### 2026-03-30 — Refiner Session #4: All 4 Builder Pages from Today
 - **Builder content today:** 4 pages: `question-proverbs-sovereignty.html`, `psychology-offense-of-grace.html`, `secular-billion-decisions.html`, `story-the-room-where-you-chose.html`

@@ -95,6 +95,23 @@ Every page must have an emotional arc, not just an intellectual structure. The r
 ### The "Name It Before You Explain It" Technique
 Before presenting doctrine, name the human experience the doctrine addresses. Before explaining total depravity, describe what it feels like to try to change and fail. Before explaining election, describe the exhausting performance-based religion that election destroys. The site's strongest pages all do this — the reader's experience is named with startling precision, and THEN Scripture explains it.
 
+### Literary Device Rotation — MANDATORY
+You MUST vary the literary structure of your pages. Do NOT default to "verse → Greek → argument → objection → verdict" for every page. Before writing, check what literary devices the last 3-5 pages in the same category used (by reading the files). Then choose a DIFFERENT device.
+
+**Rotation menu (use at least 5 different devices per 10 pages):**
+1. Standard exegesis (verse → analysis → application) — BUT limit to 30% of output
+2. Socratic dialogue — two voices debating the passage
+3. First-person retelling — "I Am Lazarus," "I Was in the Crowd at Capernaum"
+4. Forensic/courtroom argument — prosecution and defense, evidence presented
+5. Thought experiment — "What if..." philosophical scenario
+6. Letter format — "Dear friend who just read Romans 9 for the first time..."
+7. Investigative journalism — reporting on the passage as if it's breaking news
+8. "Day in the life" — following one person through a day where this doctrine becomes visible
+9. Reductio ad absurdum — take the opposing view to its logical conclusion until it collapses
+10. Scientific hypothesis-test — state the claim, examine the evidence, render the verdict
+
+**For every question-*.html or demolition-*.html page, ask:** "Would this content be MORE effective in a non-standard format?" If a page about John 6 would work better as a first-person narrative from the crowd's perspective, BUILD IT THAT WAY.
+
 ### Core Standards
 - Scripture has the final word. Every claim grounded in what the text says.
 - Lead with "Scripture teaches," NEVER "Calvinism says." No Reformed/TULIP labels.
