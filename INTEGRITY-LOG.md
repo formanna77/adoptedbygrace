@@ -1,4 +1,44 @@
-# Site Integrity Log — 2026-03-28
+# Site Integrity Log — 2026-03-29
+
+**Agent:** abg-integrator | **Run time:** Scheduled
+**Pages scanned:** 203 HTML files | **Date:** 2026-03-29
+
+---
+
+## Session: 2026-03-29
+
+### Broken Links Fixed
+- No broken internal links found across all 203 pages (1 false positive: `explore-map.html` contains `${p.url}` which is a JS template literal, not a real link)
+
+### Hub Pages Updated
+- **questions.html**: Added `question-parables.html` — "Why Jesus Spoke in Parables (It's Not What You Think)" (Matthew 13:10-17) to "Jesus' Own Words" section. Renumbered all 34 entries sequentially (01-34) — also fixed pre-existing duplicate numbers at positions 27-28.
+- **stories.html**: Added `story-the-self-made-man.html` — "The Self-Made Man" (satirical memoir, humor category) before the "Coming Soon" section.
+
+### Sitemap Updated
+- Added 1 page: `psychology-cognitive-biases`
+- Removed 0 stale entries
+- 404.html intentionally excluded from sitemap
+
+### Cross-References Added
+- `analogy-adoption.html` — Added "Continue Your Journey" section (3 links: devotional-adoption-papers, story-the-orphanage, question-chosen)
+- `analogy-chess-grandmaster.html` — Added "Continue Your Journey" section (3 links: systematic-divine-decrees, secular-algorithm-sovereignty, question-foreknowledge)
+- `analogy-lazarus-grave.html` — Added "Continue Your Journey" section (4 links: devotional-dead-who-live, question-depravity, systematic-regeneration, question-ezekiel37)
+- `analogy-light-switch.html` — Added "Continue Your Journey" section (4 links: question-irresistible, question-john6, psychology-autonomy-illusion, question-parables)
+- `ot-isaiah-servant.html` — Added "Continue Your Journey" section (3 links: question-isaiah53, systematic-atonement, apologetic-definite-atonement)
+- `secular-art-literature-reformed-truth.html` — Added "Continue Your Journey" section (3 links: secular-philosophy-free-will, secular-history-sovereignty, analogies-illustrations)
+
+### Nav Repairs
+- 0 pages needed repair — all 202 content pages have canonical v3 nav with mega-menu, nav.js, and global.css
+
+### Infrastructure Pages
+- No changes needed — contact.html, privacy.html, terms.html all exist
+
+### Issues Requiring Aaron's Attention
+- None. Site integrity is strong.
+
+---
+
+# Previous Session: 2026-03-28
 
 **Agent:** abg-integrator | **Run time:** Scheduled
 **Pages scanned:** 198 HTML files | **Internal links checked:** 8,790
