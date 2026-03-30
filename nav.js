@@ -509,16 +509,31 @@
         if (!container) return;
 
         container.innerHTML = '';
-        var html = '<span class="mobile-categories-label">Explore All Categories</span>';
 
+        // Quick links: Home + Best Reads (pill buttons at top)
+        var html = '';
+        html += '<div class="mobile-quick-links">';
+        html += '<a href="/" class="mobile-quick-link mobile-quick-link-home">';
+        html += '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>';
+        html += ' Home</a>';
+        html += '<a href="/best-reads" class="mobile-quick-link mobile-quick-link-best">';
+        html += '\uD83D\uDD25 Best Reads</a>';
+        html += '</div>';
+
+        // Category label
+        html += '<span class="mobile-categories-label">Explore All Categories</span>';
+
+        // All categories with full sub-pages
         for (var i = 0; i < MEGA_MENU_DATA.length; i++) {
             var cat = MEGA_MENU_DATA[i];
             var catId = 'mobile-acc-' + i;
+            var subCount = cat.subs ? cat.subs.length : 0;
 
             html += '<div class="mobile-accordion-cat">';
             html += '<div class="mobile-accordion-header" data-cat-index="' + i + '">';
             html += '<span class="mobile-accordion-icon">' + cat.icon + '</span>';
             html += '<span class="mobile-accordion-cat-name">' + escapeHtml(cat.name) + '</span>';
+            html += '<span class="mobile-accordion-cat-count">' + subCount + '</span>';
             html += '<span class="chevron">▼</span>';
             html += '</div>';
             html += '<div class="mobile-accordion-subs" id="' + catId + '">';
@@ -528,8 +543,22 @@
                 html += '<a href="' + escapeAttr(sub.href) + '" class="mobile-accordion-sub">' + escapeHtml(sub.name) + '</a>';
             }
 
+            // "View all" link at bottom of each category
+            html += '<a href="' + escapeAttr(cat.href) + '" class="mobile-accordion-view-all">View all ' + escapeHtml(cat.name) + ' \u2192</a>';
+
             html += '</div></div>';
         }
+
+        // Footer: About, Contact, Donate, Explore Map
+        html += '<div class="mobile-menu-footer">';
+        html += '<a href="/about">About</a>';
+        html += '<span class="footer-separator">\u00B7</span>';
+        html += '<a href="/contact">Contact</a>';
+        html += '<span class="footer-separator">\u00B7</span>';
+        html += '<a href="/donate">Donate</a>';
+        html += '<span class="footer-separator">\u00B7</span>';
+        html += '<a href="/explore-map">Site Map</a>';
+        html += '</div>';
 
         container.innerHTML = html;
 
@@ -539,11 +568,26 @@
             (function(header) {
                 header.addEventListener('click', function(e) {
                     e.stopPropagation();
+                    e.preventDefault();
                     var index = parseInt(header.getAttribute('data-cat-index'), 10);
                     toggleMobileAccordion(index);
                 });
             })(headers[h]);
         }
+
+        // Close mobile menu when any link inside accordion is tapped
+        container.querySelectorAll('a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                if (navLinks) {
+                    navLinks.classList.remove('open');
+                    if (hamburger) {
+                        hamburger.classList.remove('active');
+                        hamburger.setAttribute('aria-expanded', 'false');
+                    }
+                    document.body.style.overflow = '';
+                }
+            });
+        });
     }
 
     function toggleMobileAccordion(activeIndex) {
