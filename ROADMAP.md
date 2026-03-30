@@ -104,6 +104,7 @@
 - `devotional-not-my-will-but-joy.html` — **NEW** "Not My Will, But Joy" — Surrendering to God's will (Ps 115:3)
 - `devotional-good-i-cannot-do.html` — **NEW** "The Good That I Cannot Do" — Inability and dependence (Rom 7:18)
 - `devotional-weakness-of-gods-strength.html` — **NEW** "The Weakness of God's Strength" — Sovereignty in suffering (2 Cor 12:9)
+- `devotional-love-letter-before-time.html` — **NEW** "The Love Letter Dated Before Time" — Eph 1:3-14 as God's personal correspondence, Greek analysis, grandmother's-attic framing (Visionary Session #3, 2026-03-29)
 - `question-2tim1-9.html` — **NEW** 2 Timothy 1:9 deep-dive: "Not Because of Our Works" — grace given before the ages began
 - `question-titus3.html` — **NEW** Titus 3:3-7 deep-dive: "Not Because of Works Done by Us" — the gospel in miniature
 - `question-1peter1.html` — **NEW** 1 Peter 1:1-2 deep-dive: "Elect Exiles According to the Foreknowledge of God" — Trinitarian election, foreknowledge as fore-love
@@ -156,7 +157,7 @@
 - [x] **Isaiah's Servant** — The ultimate election narrative → `ot-isaiah-servant.html` ✅ (previously built)
 - [x] **Jeremiah: Called Before Formation** — Jeremiah 1:5 → `ot-jeremiah.html` ✅ (2026-03-28 Content Builder)
 - [ ] **Job: Suffering and God's Sovereignty**
-- [ ] **Jonah: Reluctant Chosen Instrument**
+- [x] **Jonah: Reluctant Chosen Instrument** — Jonah 1-4, sovereignty over reluctant prophets, Hebrew word studies (manah, hetil, barach, yeshu'ah, nehpakhet), irresistible grace in narrative, Nineveh revival, 6 arguments, 5 objections answered → `ot-jonah.html` ✅ (2026-03-29 Content Builder)
 - [ ] **Proverbs 16:33 / 21:1 standalone page** — Sovereignty over lots and kings' hearts
 
 ### Priority 3 — Systematic Theology Pages
@@ -309,8 +310,8 @@
 - [x] Refine question-faithgift.html — fix Greek error, add witnesses, cross-references, further reading ✅ (2026-03-26 Refiner)
 
 ### Specific Page Fixes (found during refinement)
-- [ ] **question-boasting.html:** Fix garbled Greek "ἵνα μὴ κομχθῇ" → should be "ἵνα μὴ καυχήσηται (hina mē kauchēsētai)"; add cross-references and historic quotes
-- [ ] **question-acts.html:** Add cross-references to related pages, add historical theologian quotations, add Further Reading section
+- [x] **question-boasting.html:** Fix garbled Greek "ἵνα μὴ κομχθῇ" → should be "ἵνα μὴ καυχήσηται (hina mē kauchēsētai)"; add cross-references and historic quotes ✅ (2026-03-29 Refiner)
+- [x] **question-acts.html:** Add cross-references to related pages, add historical theologian quotations, add Further Reading section ✅ (2026-03-29 Refiner)
 
 ### Scripture Handling
 - [ ] Verify all Scripture quotations are accurate (ESV preferred)
@@ -400,6 +401,37 @@
 ---
 
 ## Session Log
+
+### 2026-03-29 — Refiner Session: question-boasting.html & question-acts.html
+- **No Builder content today** — Analytics and Log Gardener were the only 3/29 sessions. Focused on Refinement Backlog instead.
+- **Refined `question-boasting.html`:**
+  - **CRITICAL FIX:** Corrected garbled Greek "ἵνα μὴ κομχθῇ" → "ἵνα μὴ καυχήσηται (hina mē kauchēsētai)" with full grammatical annotation (aorist middle subjunctive of καυχάομαι)
+  - Added 6 theologian quotes: Augustine (1 Cor 4:7), Spurgeon (God choosing the weak), Calvin (unconditional election), Edwards (creature's inability), Owen (God as sole author), Luther (grace vs. works)
+  - Added 6 cross-reference cards linking to question-goldchain, question-depravity, question-chosen, question-romans9, question-faithgift, and questions hub
+  - Added Further Reading section with 7 curated resources (Ligonier, Monergism, Desiring God, Sproul's "Chosen by God", Piper, PRTS)
+  - Verified all existing Greek terms accurate (ἐξελέξατο, τὰ μωρά, ἀσθενῆ, ἐξουθενημένα, ἐξ αὐτοῦ)
+  - Fixed broken link to non-existent question-ephesians.html → redirected to questions.html
+  - Page grew from 865 → 994 lines
+- **Refined `question-acts.html`:**
+  - Added 6 theologian quotes: Calvin (on Acts 13:48 specifically), Spurgeon (sovereign appointment), Augustine (predestination), Owen (effectual calling), Luther (divine passive), Sproul (ordo salutis)
+  - Added 8 cross-reference links woven into prose: question-romans9, question-chosen, question-depravity, question-faithgift, question-foreknowledge, question-john6, question-goldchain, question-1john5-1
+  - Added Further Reading section with 7 resources (Ligonier, Monergism, Desiring God, James White YouTube + "Potter's Freedom", Sproul's "Chosen by God" + "Systematic Theology")
+  - Verified all Greek accurate: τεταγμένοι (perfect passive participle), ἐπίστευσαν (aorist active), εἰς ζωὴν αἰώνιον
+  - Strengthened objection answers (disposed reading, appointed-to-hear, narrative vs doctrine, corporate election)
+  - Fixed broken link to non-existent question-ephesians.html → redirected to question-chosen.html
+- **Broken-link audit:** Checked 8 pages, 39 internal links. Found 1 broken link pattern (question-ephesians.html does not exist) — fixed in both pages. All other links verified working.
+- **Note for Builder:** `question-ephesians.html` (Ephesians 2:8-9) does not exist yet and is referenced from multiple pages. Should be a priority build.
+
+### 2026-03-29 10:58 PM — Deploy Session: Production Deployment Successful
+- **Deploy ID:** `69c9e6f9369a7703e29e299a`
+- **Production URL:** https://adoptedbygrace.net
+- **Unique deploy URL:** https://69c9e6f9369a7703e29e299a--adoptedbygrace.netlify.app
+- **Files deployed:** 348 files, 1 function (Netlify Emails)
+- **CDN diff:** 4 new/changed files uploaded
+- **Pre-deployment validation:** All HTML files present, sitemap.xml valid (197 URLs), index.html verified, best-reads.html verified, question-1john5-1.html verified
+- **Live site verification:** Homepage loads correctly, Best Reads page working, Demolition Hub working (17 demolished), Devotionals hub listing 14 articles, question-1john5-1 content verified
+- **No blockers detected.** Git index.lock issue noted in Known Issues but does not affect Netlify deployment.
+- **Site health:** All pages loading, navigation functional, styles rendering, no 404 errors on spot-checked pages
 
 ### 2026-03-29 7:00 PM — Analytics Feedback Loop: Weekly Data Pull
 - **Source:** Netlify Observability, Last 7 days (Mar 22–29, 2026)
