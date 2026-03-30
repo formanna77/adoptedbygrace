@@ -112,6 +112,7 @@
 - `question-1peter1.html` — **NEW** 1 Peter 1:1-2 deep-dive: "Elect Exiles According to the Foreknowledge of God" — Trinitarian election, foreknowledge as fore-love
 - `question-revelation13.html` — **NEW** Revelation 13:8 & 17:8 deep-dive: "Names Written Before the Foundation of the World" — Book of Life and eternal decree
 - `secular-algorithm-sovereignty.html` — **NEW** "The Algorithm Knows You Better Than You Know Yourself" — Secular evidence page: predictive algorithms (Netflix, Spotify, Amazon, Target, Facebook studies) confirm divine sovereignty & foreknowledge. ~2,500 words. ✅ (2026-03-28 Visionary)
+- `secular-billion-decisions.html` — **NEW** "The Billion Decisions You Didn't Make Today" — Secular evidence page: autonomic nervous system, immune function, DNA repair, brainstem sovereignty → if God didn't trust your heartbeat to free will, why your salvation? ~2,200 words. ✅ (2026-03-30 Visionary #4)
 - `ot-noah.html` — **NEW** Noah: Chosen for Preservation — Genesis 6-9, grace before the flood, Hebrew word study (chen, tsaddiq, tamim), the order of grace (6:8 before 6:9), the ark as election, the covenant of preservation. ✅ (2026-03-28 Content Builder)
 - `ot-abel-cain.html` — **NEW** Abel vs. Cain: The First Election — Genesis 4, Hebrews 11:4, 1 John 3:12. The Bible's first story after Eden reveals sovereign distinction. Hebrew analysis, six arguments, five objections answered. ✅ (2026-03-28 Content Builder)
 - `ot-jeremiah.html` — **NEW** Jeremiah: Called Before Formation — Jeremiah 1:4-10, "Before I formed you in the womb I knew you." Hebrew word studies (yada', yatsar, qadash, natan), three divine actions before birth, parallel with Paul (Gal 1:15), six arguments, five objections answered. ✅ (2026-03-28 Content Builder)
@@ -297,7 +298,14 @@
 - [ ] **"Five Fears: What's Really Holding You Back"** — 5 emotional objections to sovereignty reframed with devastating analogies that flip the argument. Shows Reformed theology is MORE loving. → pastoral/apologetics crossover page
 - [ ] **"The Moment the Light Came On"** — Collection of fictional first-person vignettes: the Arminian pastor who couldn't unsee Romans 9, the addict who knew bondage before a theologian said it, the grieving widow who found comfort only in sovereignty. → devotional/stories crossover
 - [ ] **"What Your Mirror Can't Show You"** — Secular evidence: Dunning-Kruger, better-than-average bias, neuroscience of self-deception → total depravity. You can't see your own depravity; that's the depravity. → `secular-mirror.html`
-- [ ] **"The Love Letter Dated Before Time"** — Ephesians 1:3-14 rewritten as personal correspondence from God. Most potentially shareable content on the site. → devotional page
+- [x] **"The Love Letter Dated Before Time"** — Ephesians 1:3-14 rewritten as personal correspondence from God. Most potentially shareable content on the site. → `devotional-love-letter-before-time.html` ✅ (2026-03-29 Visionary #3)
+
+#### Visionary Session #4 Ideas (2026-03-30)
+- [x] **"The Billion Decisions You Didn't Make Today"** — Secular evidence: your body's autonomic systems (heartbeat, immune response, DNA repair, digestion) operate sovereignly without your consent. 37 trillion cells, none consulting your free will. If God didn't trust your heartbeat to free will, why your salvation? → `secular-billion-decisions.html` ✅ (2026-03-30 Visionary #4)
+- [ ] **"The Prodigal Who Thought He Walked Home"** — Luke 15:11-32 re-read through sovereignty lens. Father was watching, father ran, father interrupted the speech. Who put the hunger in the pig pen? Who made the far country empty? The son thinks he walked home; the Father was drawing. → devotional/stories crossover
+- [ ] **"The Anesthesia Argument"** — Surgery analogy: you surrender consciousness and will to the surgeon's sovereign skill. Nobody protests being passive during open-heart surgery. The most Reformed thing any human does is go under general anesthesia. Maps entire surgical experience to ordo salutis. → analogies series
+- [ ] **"What Your Tears Already Know"** — Involuntary tears as confession of sovereignty. You don't decide to cry. Grace doesn't ask for a committee vote. Acts 16:14 (Lord opened Lydia's heart). → devotional
+- [ ] **"The Trial of Free Will v. Romans 9"** — Dramatic courtroom trial with Free Will as defendant, Romans 9 as prosecution, reader as jury. Paul, Moses, Pharaoh, Jacob, Esau called as witnesses. Every objection already anticipated in the text. Major creative project. → stories/demolition crossover
 
 ---
 
