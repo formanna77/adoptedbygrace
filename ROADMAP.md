@@ -95,6 +95,7 @@
 - `psychology-why-we-resist.html` — **NEW** "Why We Resist: The Psychology of Rejecting God's Sovereignty" — flagship overview: 6 psychological phenomena mapped to 6 Scripture passages
 - `psychology-autonomy-illusion.html` — **NEW** "The Autonomy Illusion: Why 'Free Will' Feels So Real" — Libet experiments, Kornhuber, Soon, Wegner + Jeremiah 17:9, Proverbs 21:1, Philippians 2:13, compatibilism
 - `psychology-cognitive-biases.html` — **NEW** "Cognitive Biases and the Blindness of Sin" — Six cognitive biases (confirmation, Dunning-Kruger, anchoring, backfire effect, system justification, bias blind spot) mapped to six Scripture passages. Noetic effects of sin as measurable, directional corruption. ✅ (2026-03-29 Psychologist)
+- `psychology-offense-of-grace.html` — **NEW** "The Offense of Grace: Why Unconditional Election Triggers Moral Outrage" — Five psychological mechanisms (Haidt's Fairness/Cheating foundation, Brehm's psychological reactance, Lerner's just-world hypothesis, self-serving attribution bias, Liberty/Oppression module) mapped to Romans 9:19-21, Ephesians 2:8-9, Romans 9:16. Paul predicted the moral outrage two millennia before Haidt published. ✅ (2026-03-30 Psychologist)
 - `404.html` — **NEW** Custom 404 error page: "This Page Has Not Been Predestined"
 - `devotionals.html` — **NEW** Devotionals hub — 10 meditative reflections on sovereign grace
 - `devotional-glory-of-divine-choice.html` — **NEW** "The Glory of Divine Choice" — Election as worship (Eph 1:3-6)
@@ -246,7 +247,7 @@
 - [x] **"Why We Resist"** — `psychology-why-we-resist.html` — Flagship overview: motivated reasoning, reactance, autonomy bias, terror management, system justification, cognitive dissonance — each mapped to Scripture (Romans 1:18, 9:19-20, Jer 17:9, John 3:19-20, 1 Cor 2:14, 2 Tim 4:3-4) ✅ (2026-03-28 Psychologist Agent)
 - [x] **"The Autonomy Illusion"** — `psychology-autonomy-illusion.html` — Neuroscience of Libet experiments, compatibilism, Jeremiah 17:9 ✅ (exists on disk)
 - [x] **"Cognitive Biases and the Blindness of Sin"** — `psychology-cognitive-biases.html` — Six cognitive biases (confirmation, Dunning-Kruger, anchoring, backfire, system justification, bias blind spot) mapped to Scripture passages. Noetic effects of sin as measurable, directional corruption. ✅ (2026-03-29 Psychologist Agent)
-- [ ] **"The Offense of Grace"** — `psychology-offense-of-grace.html` — Moral foundations theory (Haidt) + Romans 9:19-21
+- [x] **"The Offense of Grace"** — `psychology-offense-of-grace.html` — Five psychological mechanisms (Haidt's Fairness foundation, Brehm's reactance, Lerner's just-world hypothesis, self-serving attribution bias, Liberty/Oppression module) mapped to Romans 9:19-21, Eph 2:8-9. ✅ (2026-03-30 Psychologist Agent)
 - [ ] **"Suppressing the Truth"** — `psychology-suppressing-truth.html` — Romans 1:18 and motivated reasoning deep-dive
 - [ ] **"The Dead Cannot Choose"** — `psychology-dead-cannot-choose.html` — Anosognosia meets Ezekiel 37
 - [ ] **"Terror Management Theory and the Cross"** — `psychology-terror-management.html` — Becker's Denial of Death
