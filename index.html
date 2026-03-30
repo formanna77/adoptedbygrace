@@ -167,14 +167,9 @@
         .footer-copyright { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
 
         /* ===== SCROLL ANIMATIONS ===== */
-        /* Reveal Animation — progressive enhancement only */
-        .reveal.will-animate { opacity: 0; transform: translateY(40px); transition: opacity 0.8s ease, transform 0.8s ease; }
-        .reveal.will-animate.visible { opacity: 1; transform: translateY(0); }
-        .reveal-delay-1 { transition-delay: 0.1s; }
-        .reveal-delay-2 { transition-delay: 0.2s; }
-        .reveal-delay-3 { transition-delay: 0.3s; }
-        .reveal-delay-4 { transition-delay: 0.4s; }
-        .reveal-delay-5 { transition-delay: 0.5s; }
+        /* Reveal animation REMOVED — was causing invisible content bug.
+           All content is visible immediately. No animation is worth
+           losing a single reader. */
 
         /* ===== RESPONSIVE ===== */
         @media (max-width: 968px) {
@@ -246,10 +241,7 @@ body {
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
-.scroll-reveal.revealed {
-    opacity: 1;
-    transform: translateY(0);
-}
+/* Scroll reveal styles removed — animation eliminated */
 </style>
 </head>
 <body>
@@ -721,22 +713,7 @@ body {
     document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
 })();
 
-// Scroll-reveal animation for .reveal elements (Five Truths, Explore, Never, CTA)
-(function() {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-
-    const revealElements = document.querySelectorAll('.reveal');
-    // Mark elements for animation ONLY after JS is confirmed running
-    revealElements.forEach(el => el.classList.add('will-animate'));
-    revealElements.forEach(el => observer.observe(el));
-})();
+// Scroll reveal animation REMOVED — was causing invisible content bug.
 
     </script>
 

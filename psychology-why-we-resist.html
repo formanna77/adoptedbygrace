@@ -325,19 +325,9 @@
             }
         }
 
-        /* Reveal Animation — progressive enhancement only.
-           Content is visible by default. JS adds .will-animate
-           so if JS fails or hasn't run, content is never hidden. */
-        .reveal.will-animate {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        }
-
-        .reveal.will-animate.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
+        /* Reveal animation REMOVED — was causing invisible content bug.
+           All content is visible immediately. No animation is worth
+           losing a single reader. */
 
         /* Blockquote Override for Scripture */
         .scripture-quote {
@@ -1021,28 +1011,7 @@
 
         window.addEventListener('scroll', updateReadingProgress);
 
-        // Scroll Reveal for sections — progressive enhancement
-        // Content is visible by default. We add .will-animate via JS
-        // so if JS ever fails, content stays visible (never hidden).
-        const revealElements = document.querySelectorAll('.reveal');
-
-        // Mark elements for animation ONLY after JS is confirmed running
-        revealElements.forEach(el => el.classList.add('will-animate'));
-
-        const revealOnScroll = () => {
-            revealElements.forEach(el => {
-                const windowHeight = window.innerHeight;
-                const elementTop = el.getBoundingClientRect().top;
-                const elementVisible = 150;
-
-                if (elementTop < windowHeight - elementVisible) {
-                    el.classList.add('active');
-                }
-            });
-        };
-
-        window.addEventListener('scroll', revealOnScroll);
-        revealOnScroll(); // Check on load
+        // Scroll reveal animation REMOVED — was causing invisible content bug.
     </script>
 
     <script>
