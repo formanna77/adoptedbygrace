@@ -429,14 +429,21 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   Last updated: 2026-03-29
   ============================================================
 -->
-
-    <nav role="navigation" aria-label="Main navigation">
+<nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
             <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
                 <li><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li><a href="/start-here">Start Here</a></li>
@@ -450,6 +457,32 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <li><a href="/history-timeline">History</a></li>
                 <li><a href="/analogies-illustrations">Analogies</a></li>
                 <li><a href="/about">About</a></li>
+                <!-- All categories grid (mobile only) -->
+                <li class="mobile-categories-section" style="list-style:none;">
+                    <span class="mobile-categories-label">Explore All Categories</span>
+                    <div class="mobile-categories-grid">
+                        <a href="/start-here" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F9ED;</span><span class="mobile-cat-name">Start Here</span></a>
+                        <a href="/questions" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4D6;</span><span class="mobile-cat-name">The Evidence</span></a>
+                        <a href="/systematic-theology" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F3DB;</span><span class="mobile-cat-name">Theology</span></a>
+                        <a href="/demolition-hub" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4A5;</span><span class="mobile-cat-name">Demolition</span></a>
+                        <a href="/psychology-hub" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F9E0;</span><span class="mobile-cat-name">Why We Resist</span></a>
+                        <a href="/devotionals" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F56F;</span><span class="mobile-cat-name">Devotionals</span></a>
+                        <a href="/stories" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4DC;</span><span class="mobile-cat-name">Stories</span></a>
+                        <a href="/secular-evidence" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F52C;</span><span class="mobile-cat-name">Secular</span></a>
+                        <a href="/history-timeline" class="mobile-cat-link"><span class="mobile-cat-icon">&#x23F3;</span><span class="mobile-cat-name">History</span></a>
+                        <a href="/analogies-illustrations" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4A1;</span><span class="mobile-cat-name">Analogies</span></a>
+                        <a href="/theologians" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F9D3;</span><span class="mobile-cat-name">Theologians</span></a>
+                        <a href="/ot-election" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4DA;</span><span class="mobile-cat-name">Old Testament</span></a>
+                        <a href="/compare-calvinism-arminianism" class="mobile-cat-link"><span class="mobile-cat-icon">&#x2696;</span><span class="mobile-cat-name">Comparisons</span></a>
+                        <a href="/creeds-confessions" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4DC;</span><span class="mobile-cat-name">Creeds</span></a>
+                        <a href="/pastoral-assurance" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F91D;</span><span class="mobile-cat-name">Pastoral</span></a>
+                    </div>
+                </li>
+                <!-- Footer links in mobile menu -->
+                <li class="mobile-menu-footer" style="list-style:none;">
+                    <a href="/best-reads">&#x1F525; Best Reads — Our Most Powerful Articles</a>
+                    <a href="/explore-map">&#x1F5FA; Full Content Map</a>
+                </li>
             </ul>
 
             <div class="nav-right">
@@ -622,6 +655,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
+
 
 
 
