@@ -75,6 +75,7 @@
 - `story-the-self-made-man.html` — **NEW** "The Self-Made Man" — satirical humor memoir: a man claims credit for everything (birth, talent, fortune, faith); omniscient Narrator footnotes expose total sovereignty. Category: Humor. ✅ (2026-03-29 Storyteller)
 - `story-the-room-where-you-chose.html` — **NEW** "The Room Where You Chose" — thought experiment: a person dies and traces their "choice" of God backward through an infinite chain of causation (friends, broken cars, sneezes, stars) to a book with their name written before time. Category: Thought Experiment. ✅ (2026-03-30 Storyteller)
 - `story-the-letter-before-the-world.html` — **NEW** "The Letter Before the World" — tender story: a woman discovers a letter her father wrote to her by name, dated 14 months before she was born. Election as the most intimate love imaginable. Category: Tender. ✅ (2026-03-30 Storyteller)
+- `story-the-garden-that-grew-itself.html` — **NEW** "The Garden That Grew Itself" — children's fable: flowers believe they chose to bloom, but a seedling learns from an old oak that the Gardener planted every seed in the dark, named every flower before it had petals. Election for a 7-year-old. Category: Children's Story. ✅ (2026-03-30 Storyteller)
 - `scripture-tsunami.html` — **NEW** Scripture Tsunami: 200+ verse interactive database organized by TULIP doctrine
 - `quiz.html` — **NEW** Reformed Theology Quiz — 30 interactive TULIP questions with instant Scripture-backed feedback, 3 difficulty modes, TULIP category scoring, study recommendations
 - `search.html` — **NEW** Client-side full-text search across 60+ pages with category filters, keyword highlighting, popular search tags, URL param support
@@ -451,6 +452,14 @@
 ---
 
 ## Session Log
+
+### 2026-03-30 — Storyteller Session: story-the-garden-that-grew-itself.html
+- **Page:** `story-the-garden-that-grew-itself.html` — "The Garden That Grew Itself"
+- **Category:** Children's Story (rotating from Tender/Thought Experiment/Humor in previous sessions)
+- **101 Ways angle:** CHILDREN/ALL AGES. Written for the child who has never heard a theology lecture — and for the adult who needs to hear the truth told simply. A garden where every flower believes it chose to bloom, until a small seedling asks an old oak tree the questions no one has asked. The Gardener plants every seed in the dark, names every flower before it has petals. Election taught through fable without a single theological label.
+- **Doctrine illuminated:** Election, sovereignty, regeneration (John 15:16, Ezekiel 36:26). The Gardener = God. The seeds planted in the dark = election before the foundation of the world. The flowers' pride in "choosing" to bloom = the human illusion of autonomous spiritual decision. The oak's gentle revelation = Scripture revealing what happened before we were aware.
+- **Target reader:** A 7-year-old hearing about God's choosing for the first time. A parent reading aloud at bedtime. An adult who has built walls against theological arguments but would read a fable. Anyone who needs the 101st way.
+- **Files updated:** `story-the-garden-that-grew-itself.html` (new), `stories.html` (hub card + cross-reference), `sitemap.xml`, `ROADMAP.md`
 
 ### 2026-03-30 — Builder Session #4: question-psalm139.html
 - **Page:** `question-psalm139.html` — "Known Before You Were Known — Psalm 139 and the God Who Wrote Your Story Before It Began"

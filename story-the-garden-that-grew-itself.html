@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Garden That Grew Itself — A Children's Story | Adopted by Grace</title>
+
+  <!-- SEO meta tags -->
+  <meta name="description" content="A children's fable about a garden where every flower believes it chose to bloom — until a small seedling learns the truth from an old oak tree.">
+  <meta name="author" content="Adopted by Grace">
+  <link rel="canonical" href="https://adoptedbygrace.net/story-the-garden-that-grew-itself.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Garden That Grew Itself — A Children's Story">
+  <meta property="og:description" content="Every flower in the garden was proud of one thing: it had chosen to bloom. Then a small seedling asked the old oak a question no one had ever asked before.">
+  <meta property="og:url" content="https://adoptedbygrace.net/story-the-garden-that-grew-itself.html">
+  <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+  <meta property="og:site_name" content="Adopted by Grace">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Garden That Grew Itself — Adopted by Grace">
+  <meta name="twitter:description" content="A children's fable about flowers who think they chose to bloom.">
+  <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Garden That Grew Itself",
+    "description": "A children's fable about a garden where every flower believes it chose to bloom — until a small seedling learns the truth from an old oak tree.",
+    "author": { "@type": "Organization", "name": "Adopted by Grace" },
+    "publisher": { "@type": "Organization", "name": "Adopted by Grace", "logo": { "@type": "ImageObject", "url": "https://adoptedbygrace.net/logo.png" } },
+    "datePublished": "2026-03-30",
+    "url": "https://adoptedbygrace.net/story-the-garden-that-grew-itself.html",
+    "image": "https://adoptedbygrace.net/og-image.png"
+  }
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Global styles -->
+  <link rel="stylesheet" href="/global.css">
+
+  <style>
+    :root {
+      --bg-deep: #0a0a0f;
+      --bg-card: #12121a;
+      --accent-gold: #d4a254;
+      --accent-ember: #e8642c;
+      --accent-violet: #8b5cf6;
+      --accent-green: #4ade80;
+      --text-primary: #f0ece4;
+      --text-secondary: #9a958c;
+      --text-muted: #807b75;
+    }
+
+    body {
+      background-color: var(--bg-deep);
+      color: var(--text-primary);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.7;
+    }
+
+    .breadcrumb-nav {
+      max-width: 800px;
+      margin: 2rem auto 0;
+      padding: 0 2rem;
+    }
+
+    .breadcrumb-nav a {
+      color: var(--accent-gold);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: opacity 0.2s;
+    }
+
+    .breadcrumb-nav a:hover {
+      opacity: 0.8;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    article {
+      padding: 2rem 0;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 3.5rem;
+      padding: 3rem 0;
+    }
+
+    .category-tag {
+      display: inline-block;
+      background-color: rgba(74, 222, 128, 0.15);
+      color: var(--accent-green);
+      padding: 0.5rem 1rem;
+      border-radius: 2rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+      color: var(--text-primary);
+    }
+
+    .hero .subtitle {
+      font-size: 1.3rem;
+      color: var(--text-secondary);
+      font-style: italic;
+      margin-bottom: 1.5rem;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .story-info {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+    }
+
+    .story-container {
+      max-width: 720px;
+      margin: 0 auto 4rem;
+    }
+
+    .story-text p {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.15rem;
+      line-height: 1.85;
+      color: var(--text-primary);
+      margin-bottom: 1.5rem;
+    }
+
+    .story-text em {
+      color: var(--accent-gold);
+    }
+
+    .scene-break {
+      text-align: center;
+      margin: 2.5rem 0;
+      font-size: 1.5rem;
+      color: var(--accent-gold);
+      opacity: 0.6;
+    }
+
+    .dialogue {
+      display: block;
+      margin: 1.8rem 0;
+      padding: 1.2rem 1.8rem;
+      border-left: 3px solid var(--accent-gold);
+      background-color: rgba(212, 162, 84, 0.04);
+      font-size: 1.1rem;
+      line-height: 1.85;
+      color: var(--text-primary);
+      font-style: italic;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .chapter-heading {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--accent-gold);
+      margin: 3rem 0 1.5rem;
+      text-align: center;
+    }
+
+    .closing-line {
+      text-align: center;
+      font-style: italic;
+      font-size: 1.3rem;
+      color: var(--accent-gold);
+      margin: 3rem 0;
+      line-height: 1.6;
+    }
+
+    /* Further reading */
+    .further-reading {
+      max-width: 800px;
+      margin: 0 auto 4rem;
+      padding: 3rem 0;
+      border-top: 1px solid rgba(212, 162, 84, 0.15);
+    }
+
+    .further-reading h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      color: var(--accent-gold);
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .reading-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.2rem;
+    }
+
+    .reading-card {
+      display: block;
+      background: var(--bg-card);
+      border: 1px solid rgba(212, 162, 84, 0.12);
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .reading-card:hover {
+      border-color: rgba(212, 162, 84, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .reading-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      color: var(--accent-gold);
+      margin-bottom: 0.5rem;
+    }
+
+    .reading-card p {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem 2rem;
+      border-top: 1px solid rgba(212, 162, 84, 0.1);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: var(--accent-gold);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.2rem; }
+      .hero .subtitle { font-size: 1.1rem; }
+      .story-text p { font-size: 1.05rem; }
+      .chapter-heading { font-size: 1.35rem; }
+      .reading-cards { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 1.8rem; }
+      .hero .subtitle { font-size: 1rem; }
+      .story-text p { font-size: 1rem; line-height: 1.75; }
+      main { padding: 0 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
+                <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">History</a></li>
+                <li class="mobile-nav-link"><a href="/analogies-illustrations">Analogies</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/devotionals" class="nav-top-link">Devotionals</a>
+                <a href="/stories" class="nav-top-link">Stories</a>
+                <a href="/secular-evidence" class="nav-top-link">Secular</a>
+                <a href="/history-timeline" class="nav-top-link">History</a>
+                <a href="/analogies-illustrations" class="nav-top-link">Analogies</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+  <div class="breadcrumb-nav">
+    <a href="/stories">&larr; All Stories</a>
+  </div>
+
+  <main>
+    <article>
+      <div class="hero">
+        <span class="category-tag">Children's Story &bull; 6 min read</span>
+        <h1>The Garden That<br>Grew Itself</h1>
+        <p class="subtitle">A fable for the young — and for those who have<br>forgotten what it is like to be planted.</p>
+        <p class="story-info">A story about a garden where every flower is proud of one thing it never did.</p>
+      </div>
+
+      <div class="story-container">
+        <div class="story-text">
+
+          <p>Once upon a time, at the edge of a great meadow, there stood a garden.</p>
+
+          <p>It was not an ordinary garden. The flowers were taller than most gardens grow, and brighter than most gardens dare. There were roses the color of fire and lilies as white as morning, bluebells that rang when the wind touched them, and sunflowers so tall they had conversations with the clouds.</p>
+
+          <p>And every flower in the garden was very proud.</p>
+
+          <p>Not proud of their colors, though their colors were magnificent. Not proud of their height, though several of them were quite tall. No — every flower in the garden was proud of one thing above all else:</p>
+
+          <p><em>It had chosen to bloom.</em></p>
+
+          <div class="scene-break">&#10022;</div>
+
+          <p>"I decided to open my petals on a Tuesday," the Rose said, tossing her scarlet head. "I remember it clearly. The sun came up, and I thought to myself: <em>Today, I will bloom.</em> And so I did."</p>
+
+          <p>"I chose yellow," the Sunflower announced, stretching toward the sky. "I considered blue. I considered purple. But yellow suited me, and I made the decision, and here I am."</p>
+
+          <p>"I chose to grow near the wall," the Ivy said, creeping upward, "because I prefer the shade. It was entirely my idea."</p>
+
+          <p>The flowers spoke this way all day long. They congratulated each other on their excellent decisions. They held little ceremonies where each flower would stand up (which was easy, since they were already standing) and tell the story of how it had chosen to bloom, chosen its color, chosen its place in the garden.</p>
+
+          <p>It was the most important thing about them, they believed — that they had done it themselves.</p>
+
+          <div class="scene-break">&#10022;</div>
+
+          <p>Now, at the center of the garden stood an old oak tree.</p>
+
+          <p>The oak was older than the garden. Older, some said, than the meadow. Its trunk was wider than six flowers standing shoulder to shoulder, and its roots went down so deep that not even the earthworms knew where they ended. It had been there before the first seed was planted, and it would be there long after the last petal fell.</p>
+
+          <p>The oak never said much. It listened to the flowers tell their stories, and it said nothing. Sometimes a leaf would fall from one of its branches — slowly, as if it were thinking — and the flowers would wonder what the oak thought about things. But they never asked.</p>
+
+          <p>They were too busy congratulating themselves.</p>
+
+          <div class="scene-break">&#10022;</div>
+
+          <p>One morning, something new appeared at the edge of the garden.</p>
+
+          <p>It was very small. A pale green shoot, barely an inch tall, with two tiny leaves that trembled in the breeze. It didn't have a flower yet. It didn't have a color. It didn't even know what kind of plant it was.</p>
+
+          <p>The flowers noticed immediately.</p>
+
+          <p>"Hello, little one," the Rose said. "What have you decided to be?"</p>
+
+          <p>The shoot looked up. "I — I don't know."</p>
+
+          <p>"Well, you must decide," the Sunflower said firmly. "That's how it works. You choose what to be, and then you become it. I chose to be a sunflower. The Rose chose to be a rose. What do you choose?"</p>
+
+          <p>The shoot trembled. "I don't think I chose to be here at all," it whispered. "I just — woke up. I was in the dark for a long time. Then one day I felt something warm above me, and I started pushing upward, and now I'm here. But I didn't decide any of it. It just happened."</p>
+
+          <p>The flowers stared at each other.</p>
+
+          <p>"That's ridiculous," said the Ivy. "Of course you decided. Everyone decides."</p>
+
+          <p>"Perhaps you've forgotten," the Rose said kindly. "It happens. But trust me — you chose this. We all did."</p>
+
+          <div class="scene-break">&#10022;</div>
+
+          <p>The little shoot said nothing more. But late that evening, when the other flowers had closed their petals for the night, it turned toward the old oak tree.</p>
+
+          <p>"Excuse me," the shoot said. "May I ask you something?"</p>
+
+          <p>A leaf drifted down from the oak's highest branch. "You may."</p>
+
+          <p>"Did you choose to grow here?"</p>
+
+          <p>The oak was quiet for a long time. When it finally spoke, its voice was low and deep, the kind of voice that sounds like it has been traveling upward from somewhere far below the earth.</p>
+
+          <div class="dialogue">
+            "Let me ask you something first, little one. When you were a seed — down in the dark, before you had leaves, before you had roots, before you knew what sunlight was — did you put yourself in the soil?"
+          </div>
+
+          <p>"No," the shoot said. "I was already there when I woke up."</p>
+
+          <div class="dialogue">
+            "And who cracked your shell? Did you decide to split open so the first root could come out?"
+          </div>
+
+          <p>"No. It just — broke. Something inside me pushed, but I didn't tell it to push."</p>
+
+          <div class="dialogue">
+            "And the water that reached you underground, before you ever broke the surface — did you send for it?"
+          </div>
+
+          <p>"No."</p>
+
+          <div class="dialogue">
+            "And the sun. When you felt it through the soil for the first time and started growing toward it — did you create the sun?"
+          </div>
+
+          <p>The shoot almost laughed. "Of course not."</p>
+
+          <p>The oak let another leaf fall. Slowly.</p>
+
+          <div class="dialogue">
+            "So. You did not place yourself in the ground. You did not crack your own shell. You did not send the water. You did not make the light. You did not tell your roots which direction to grow. And yet — here you are. Growing."
+          </div>
+
+          <p>"Yes," the shoot said quietly.</p>
+
+          <div class="dialogue">
+            "Does that sound like something you chose? Or something that was done to you — with great care, and from very far away, and long before you had any idea it was happening?"
+          </div>
+
+          <div class="scene-break">&#10022;</div>
+
+          <p>The shoot was quiet for a long time after that. The moon came up over the meadow, and the stars switched on one by one — which is another thing no one in the garden had chosen, though none of them had thought about that either.</p>
+
+          <p>"But the other flowers," the shoot said at last. "They all say they chose. They remember choosing."</p>
+
+          <p>The oak creaked gently, which is how old oaks laugh.</p>
+
+          <div class="dialogue">
+            "They remember <em>blooming</em>. They remember the moment their petals opened and they saw the sky for the first time. And because it felt like the most wonderful thing they had ever done, they assumed they had done it. But feeling like you did something is not the same as having done it."
+          </div>
+
+          <p>"So who did it?" the shoot asked.</p>
+
+          <div class="dialogue">
+            "Have you ever heard the flowers talk about the Gardener?"
+          </div>
+
+          <p>"No," said the shoot. "Never."</p>
+
+          <div class="dialogue">
+            "No. They wouldn't. They've never seen him. He comes in the dark, you see. Always in the dark. Long before the blooming."
+          </div>
+
+          <div class="scene-break">&#10022;</div>
+
+          <p>"Tell me," the shoot whispered.</p>
+
+          <p>And the oak did.</p>
+
+          <p>The Gardener, the oak said, came to the garden before it was a garden. When it was only dirt and stone and silence. He came with a leather bag over his shoulder and a lantern in his hand — though there was no one to see the light, and nowhere to hang it, and no reason to be there at all except that he had decided to make something beautiful in a place where nothing was.</p>
+
+          <p>He knelt in the dark. He dug each hole with his own hands. He placed each seed — one by one — in the exact spot he had chosen for it. Not randomly. Not carelessly. He knew what each seed would become. He knew the Rose would be red and the Sunflower yellow and the Bluebells would ring in the wind. He knew all of it before he covered the first seed with soil.</p>
+
+          <div class="dialogue">
+            "He named them," the oak said. "Every one. Before they sprouted. Before they had petals or color or any way to be told apart. He named them in the dark."
+          </div>
+
+          <p>"And then?" the shoot asked.</p>
+
+          <div class="dialogue">
+            "And then he watered them. And he came back the next night, and watered them again. And the next. And the next. He was there every night — tending, protecting, pulling weeds that would have choked them before they ever broke the surface. The flowers don't remember any of this because they were underground. They were seeds. Seeds don't have memories. But the work was done just the same."
+          </div>
+
+          <p>"And when they finally bloomed —"</p>
+
+          <div class="dialogue">
+            "When they finally bloomed, they opened their eyes for the first time and saw the garden. And because it was the first thing they ever experienced, they thought it was the first thing that ever happened. They thought the story began with them. But the story began in the dark, with a Gardener and a bag of seeds and a plan that was finished before the first root moved."
+          </div>
+
+          <div class="scene-break">&#10022;</div>
+
+          <p>The shoot sat with this for a long time. Around it, the garden slept. The Rose's head was bowed. The Sunflower leaned against the wall. The Bluebells were silent.</p>
+
+          <p>"So I didn't choose to be here," the shoot said. It was not a sad voice. It was a wondering voice — the voice of someone discovering that the story is bigger than they thought.</p>
+
+          <div class="dialogue">
+            "No. You were chosen to be here. There is a very great difference."
+          </div>
+
+          <p>"And my color — when I bloom — I won't choose that either?"</p>
+
+          <div class="dialogue">
+            "Your color was decided before you were planted. The Gardener already knows what you will look like in full bloom. He's known since before the garden existed."
+          </div>
+
+          <p>"Is that — is that a sad thing?"</p>
+
+          <p>The oak's branches moved in the wind, and for a moment the moonlight came through the leaves in a way that looked almost like a smile.</p>
+
+          <div class="dialogue">
+            "Little one, does the Rose love the sun?"
+          </div>
+
+          <p>"Yes. More than anything."</p>
+
+          <div class="dialogue">
+            "And does the Rose feel that love as her own? Does it feel real to her? Does she turn toward the light every morning with something that feels exactly like joy?"
+          </div>
+
+          <p>"Yes."</p>
+
+          <div class="dialogue">
+            "Then it is real. It is her joy. It is her turning. But it is his sun. And it was his hand that pointed her east when she was still a seed and had no idea which direction the light would come from. The joy is real. The love is real. She simply did not start it. That is not a sad thing. That is the safest thing in the world — to be loved by someone who started loving you before you could love him back."
+          </div>
+
+          <div class="scene-break">&#10022;</div>
+
+          <p>The next morning, the flowers opened their petals and began their usual conversations about their excellent choices. The Rose told her Tuesday story again. The Sunflower explained about choosing yellow. The Ivy described its strategic decision regarding the wall.</p>
+
+          <p>The little shoot listened and said nothing.</p>
+
+          <p>But something had changed. Overnight, it had grown another inch. Two new leaves had appeared — larger than the first, and darker, and steadier in the wind. And at the very tip of the shoot, so small you would miss it unless you were looking, there was the faintest beginning of a bud.</p>
+
+          <p>The shoot did not know what color it would be.</p>
+
+          <p>But it knew — with the kind of knowing that goes deeper than memory, deeper than choosing, deeper than anything a flower can explain — that whoever had planted it in the dark had already decided.</p>
+
+          <p>And it was content to wait and see.</p>
+
+          <div class="scene-break">&#10022;</div>
+
+          <p class="closing-line">It is still growing, that little shoot.<br>And the Gardener still comes in the dark.<br>He always has.<br>He always will.</p>
+
+        </div>
+      </div>
+
+      <!-- Further Reading Section -->
+      <section class="further-reading">
+        <h2>Explore the Truth Behind This Story</h2>
+        <div class="reading-cards">
+          <a href="/question-john15" class="reading-card">
+            <h3>"You Did Not Choose Me"</h3>
+            <p>Jesus told his disciples something the flowers in this story never heard: "You did not choose me, but I chose you." What does John 15 reveal about who really starts the relationship?</p>
+          </a>
+          <a href="/question-newheart" class="reading-card">
+            <h3>The New Heart</h3>
+            <p>Ezekiel 36:26 — "I will give you a new heart." Like the Gardener who cracked the seed's shell, God gives life to hearts that cannot give it to themselves.</p>
+          </a>
+          <a href="/story-the-fish-who-chose-the-ocean" class="reading-card">
+            <h3>The Fish Who Chose the Ocean</h3>
+            <p>Another fable for all ages — about a fish who insists he chose the water, and an old turtle who gently reveals the truth.</p>
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</p>
+    <p style="margin-top:0.5rem;"><a href="/">Home</a> &middot; <a href="/stories">Stories</a> &middot; <a href="/about">About</a></p>
+  </footer>
+
+  <script src="/nav.js"></script>
+</body>
+</html>

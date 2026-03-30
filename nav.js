@@ -329,6 +329,51 @@
             subs: [
                 { name: 'Election in the Psalms', href: '/psalms-election', desc: 'How David understood himself as chosen by grace, not merit. Election themes throughout the Psalms—Psalm 65:4, 33:12, 135' }
             ]
+        },
+        {
+            name: 'The Anxious Mind',
+            icon: '🧠',
+            href: '/anxious-mind-hub',
+            desc: 'Mental health meets sovereignty',
+            subs: [
+                { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'Anxiety is the logical result of believing everything depends on you. The sovereignty of God is the deepest cure.' }
+            ]
+        },
+        {
+            name: 'The Broken Mirror',
+            icon: '🪞',
+            href: '/broken-mirror-hub',
+            desc: 'Identity, worth & purpose in God\'s design',
+            subs: [
+                { name: 'You Are Not a Self-Made Anything', href: '/broken-mirror-not-self-made', desc: 'The myth of self-creation dismantled. You aren\'t building an identity — you\'re discovering one crafted before Genesis 1:1.' }
+            ]
+        },
+        {
+            name: 'The Open Wound',
+            icon: '🩸',
+            href: '/open-wound-hub',
+            desc: 'Suffering, grief & trauma under sovereignty',
+            subs: [
+                { name: 'The Question That Haunts Every Hospital Room', href: '/open-wound-hospital-room', desc: 'Why do bad things happen? The #1 theological search answered without platitudes — with tears and with Scripture.' }
+            ]
+        },
+        {
+            name: 'The Invisible Wall',
+            icon: '👥',
+            href: '/invisible-wall-hub',
+            desc: 'Loneliness, relationships & belonging',
+            subs: [
+                { name: '82% of People Are Lonely — Here\'s Why That\'s a Theological Problem', href: '/invisible-wall-lonely-theological', desc: '82% of people report loneliness. It\'s not a social problem — it\'s a sovereignty problem.' }
+            ]
+        },
+        {
+            name: 'The Shattered Lens',
+            icon: '🔍',
+            href: '/shattered-lens-hub',
+            desc: 'Truth, trust & the crisis of belief',
+            subs: [
+                { name: 'When You Can\'t Tell What\'s True Anymore', href: '/shattered-lens-cant-tell-true', desc: 'The epistemological crisis of 2026: AI, deepfakes, misinformation. Romans 1 predicted it. Sovereignty is the only anchor.' }
+            ]
         }
     ];
 
