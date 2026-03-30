@@ -4,13 +4,7 @@
    ============================================================ */
 
 // ===== NAV SCROLL EFFECT =====
-(function() {
-    const nav = document.querySelector('nav');
-    if (!nav) return;
-    window.addEventListener('scroll', () => {
-        nav.classList.toggle('scrolled', window.scrollY > 50);
-    });
-})();
+// Handled by nav.js — do NOT duplicate here.
 
 // ===== HAMBURGER MENU =====
 // Handled by nav.js — do NOT duplicate here.
