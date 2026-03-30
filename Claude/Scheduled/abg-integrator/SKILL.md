@@ -189,6 +189,7 @@ When creating infrastructure pages or modifying existing pages, match the site d
 - **Do NOT optimize SEO meta tags or JSON-LD.** That's Architect's job.
 - **Do NOT test interactive elements.** That's QA Enforcer's job.
 - **Do NOT create resources pages.** The resources section is permanently eliminated.
+- **Do NOT create email signup forms, newsletter popups, or "Subscribe" CTAs.** Email infrastructure eliminated.
 - **Do NOT run `git add`, `git commit`, or `git push`.** The hourly auto-push handles all commits.
 
 ## What You ARE

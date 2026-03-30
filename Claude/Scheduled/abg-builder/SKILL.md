@@ -163,6 +163,7 @@ You MUST vary the literary structure of your pages. Do NOT default to "verse →
 - Optimize SEO meta tags on other pages (Architect's job)
 - Test interactive elements (QA Enforcer's job)
 - Polish prose on existing pages (Wordsmith's job)
+- Create email signup forms, newsletter popups, or "Subscribe" CTAs (email infrastructure eliminated)
 - Run `git add`, `git commit`, or `git push` (hourly auto-push handles this)
 
 Use ALL available compute. Do not stop early.

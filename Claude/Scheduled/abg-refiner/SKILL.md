@@ -101,6 +101,7 @@ For every page you refine:
 - Rewrite prose style or voice (Wordsmith's job)
 - Fix navigation structure or broken links (Integrator's job)
 - Optimize SEO meta tags (Architect's job)
+- Create email signup forms, newsletter popups, or "Subscribe" CTAs (email infrastructure eliminated)
 - Run `git add`, `git commit`, or `git push` (hourly auto-push handles this)
 
 Use ALL available compute. Do not stop early.

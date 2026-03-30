@@ -1,120 +1,150 @@
 # Agent Fleet Map — adoptedbygrace.net
-> Last updated: 2026-03-28 (v10 — Catalyst agent created: closed-loop evolution engine that reads the site, scores pages, and rewrites agent prompts so the fleet self-improves)
+> Last updated: 2026-03-30 (v13 — MEGA-AGENT CONSOLIDATION: 16 agents → 5 mega-agents maximizing 200K context windows)
 
-## Fleet Overview (13 Active + 4 Disabled)
+## Fleet Overview (5 Mega-Agents + 4 Utility Tasks)
 
-| Agent | Role | Primary Output | Cadence |
-|-------|------|---------------|---------|
-| **abg-builder** | Universal content creator (ALL categories) | HTML pages across 14 content categories | 2x/day (7am & 7pm) |
-| **abg-refiner** | Deepen & strengthen existing pages | Improved arguments, quotes, cross-refs | 2x/day (10am & 10pm) |
-| **abg-wordsmith** | Prose optimizer + devotional writer | Polished pages + DEVOTIONAL-QUEUE.md | Every 3 hours |
-| **abg-storyteller** | Original stories, parables, narratives | Story HTML pages across 5 categories | Daily (9am) |
-| **abg-psychologist** | Psychology of resistance to sovereignty | Psychology HTML pages + psychology hub | 2x/month (8th & 22nd) |
-| **abg-visionary** | Creative ideation & strategic planning | VISION.md ideas, ROADMAP backlog items | Daily (6am) |
-| **abg-integrator** | Site integrity: links, hubs, sitemap, nav, footers, key pages | INTEGRITY-LOG.md + structural fixes | Every 4 hours |
-| **site-qa-enforcer** | Functional testing + design QA | QA-REPORT.md + immediate fixes | 3x/day |
-| **abg-architect** | Technical excellence (SEO, a11y, UX, perf) + fleet optimization | Tech improvements + optimized SKILL.md files | Mondays 11am |
-| **abg-evangelist** | Growth & distribution: newsletters, social, SEO | NEWSLETTER-QUEUE.md + SOCIAL-QUEUE.md + SEO-QUEUE.md | Every 6 hours |
-| **abg-deploy** | Pre-deploy checks + Netlify deployment | Live deployment | Daily (10pm) |
-| **abg-catalyst** | Closed-loop evolution engine — reads site as visitor, scores pages, rewrites agent prompts | CATALYST-LOG.md + evolved SKILL.md files | Daily (8am) |
-| **Overseer** | Master QC, gap-filler, project manager | Cross-agent coordination | 5x/day |
+| Agent | Role | Absorbed From | Cadence |
+|-------|------|--------------|---------|
+| **THE CREATOR** | ALL content creation: doctrine, healing, stories, psychology, testimony, every category | builder, builder-2, storyteller, psychologist | 8x/day (every 3hrs) |
+| **THE ENHANCER** | ALL content improvement: deepens, polishes, force-multiplies | refiner, wordsmith, force-multiplier | 4x/day |
+| **THE GUARDIAN** | ALL site integrity + QA + deployment | integrator, site-qa-enforcer, design-enforcer, deploy | 2x/day (5am, 5pm) |
+| **THE STRATEGIST** | ALL intelligence + strategy + optimization + technical excellence | catalyst, visionary, overseer, architect | 1x/day (8am) |
+| **THE EVANGELIST** | ALL growth + distribution: Substack, social, SEO, scripts, outreach | evangelist (expanded) | 1x/day (8pm) |
 
-## Disabled Agents
-| Agent | Reason | Replaced By |
-|-------|--------|-------------|
-| **abg-harmonizer** | Absorbed into abg-integrator (2026-03-28) | abg-integrator |
-| **abg-designer** | Replaced by site-qa-enforcer (2026-03-28) | site-qa-enforcer |
-| **abg-inspector** | Replaced by site-qa-enforcer (2026-03-28) | site-qa-enforcer |
-| **abg-hymn-theologian** | Eliminated by Aaron (2026-03-28) — content not worth pursuing | N/A |
+### Utility Tasks (Still Active)
+| Task | Role | Cadence |
+|------|------|---------|
+| **auto-push-site** | Rebuild search index + mega-menu, commit & push | Every 30 min |
+| **daily-summary-email** | Activity report emailed to Aaron | 1x/day (5pm) |
+| **analytics-feedback-loop** | Scrape Netlify, write ANALYTICS.md | Sundays 8pm |
+| **scheduler-monitor** | Track missed/late runs, maintain health log | 1x/day (10am) |
+| **log-gardener** | Trim logs, archive old roadmap entries | Sundays 11pm |
+
+### Manual-Only Tasks
+| Task | Role |
+|------|------|
+| **fix-404s** | Scrape Netlify 404 analytics and fix broken resources |
+| **nightwatch-qa** | Visual rendering QA via Chrome MCP (requires browser) |
 
 ## Pipeline Flow
 ```
 Content Creation:
-  Builder / Storyteller / Psychologist CREATE pages
-    → Refiner DEEPENS arguments, adds theologian voices, strengthens objections
-    → Wordsmith POLISHES prose to literary masterpiece + writes devotionals
+  THE CREATOR builds 2-3 complete pages per run (8x/day = 16-24 pages/day potential)
+    → THE ENHANCER runs 5-step pipeline: Diagnose → Deepen → Polish → Force-Multiply → Devotional
 
 Infrastructure:
-  Integrator WIRES pages into the site (hubs, sitemap, cross-links, nav, footers, key pages)
-    → QA Enforcer TESTS everything (functional + design) and fixes defects
-    → Architect OPTIMIZES tech (SEO, a11y, UX, perf) + tunes agent prompts
+  THE GUARDIAN handles ALL integrity in one pass per page:
+    Broken links → Hub sync → Sitemap → Nav → Footer → Cross-refs → Functional testing → Design QA → Deploy
+
+Intelligence:
+  THE STRATEGIST reads the whole site, scores quality, generates vision, optimizes SEO/a11y/performance,
+    then rewrites Creator and Enhancer prompts so the fleet evolves every day
 
 Distribution:
-  Evangelist DISTRIBUTES content (newsletters, social, SEO optimization)
-    → Deploy VERIFIES health + publishes to Netlify
-
-Strategy & Evolution:
-  Visionary IMAGINES what's next → feeds ROADMAP backlog for all agents
-  Catalyst READS the site as a visitor → scores pages → rewrites agent prompts → fleet evolves
-  Overseer coordinates the fleet 5x/day
+  THE EVANGELIST packages content for Substack, social, video/audio, outreach, seasonal calendar
 ```
 
-## Agent Responsibilities (Surgical Summary)
+## Why 5 Mega-Agents?
 
-### Content Agents
-| Agent | Creates | Does NOT |
-|-------|---------|----------|
-| **Builder** | Pages in ALL 14 categories (devotionals, analogies, theologians, questions, demolitions, systematic, comparisons, pastoral, creeds, history, OT election, secular evidence, Scripture Tsunami, objections) | Fix nav, SEO, test, polish prose |
-| **Refiner** | Strengthened arguments, theologian quotes, cross-refs, consistency checks | Create new pages, fix nav, SEO, prose style |
-| **Wordsmith** | Literary-quality prose rewrites, daily devotionals | Create new pages, add arguments, fix nav |
-| **Storyteller** | Stories/parables across 5 categories (children, humor, dark, tender, thought experiments) — DAILY | Question pages, nav, hub features |
-| **Psychologist** | Psychology-of-resistance pages + psychology hub | Other content types, nav |
-| **Visionary** | Ideas in VISION.md, ROADMAP backlog items | Build any pages |
+**Before (16 agents):**
+- Each agent used ~20-40K of its 200K context window
+- 3 agents (refiner, wordsmith, force-multiplier) all touched the same files → edit conflicts
+- 3 agents (integrator, QA, design-enforcer) all scanned every page separately → redundant reads
+- Hourly scheduling collisions despite one-agent-per-hour policy
 
-### Operations Agents
-| Agent | Owns | Does NOT |
-|-------|------|----------|
-| **Integrator** | Broken links, hub sync, sitemap sync, nav enforcement, footer consistency, cross-ref weaving, key page maintenance, infrastructure pages | Create content, SEO, test interactive elements |
-| **QA Enforcer** | Functional testing (links, nav, interactive elements, page integrity) + design QA (spacing, typography, colors, mobile, components) | Create content, refine arguments, SEO |
-| **Architect** | SEO, accessibility, UX, performance, agent prompt optimization, fleet recommendations | Create content, fix nav/links, design QA |
-| **Evangelist** | Newsletter drafts, social snippets, SEO title/meta optimization, welcome email sequence, analytics | Create pages, fix nav/links, test |
-| **Deploy** | Pre-deploy health checks + Netlify deployment | Everything else |
-| **Catalyst** | Read site as visitor, score pages 0-10 on 7 dimensions, identify patterns, rewrite agent prompts, competitive intel | Create content, fix nav/links, test |
-| **Overseer** | Audit agent output, fill gaps, enforce standards, maintain ROADMAP, coordinate fleet | Create content, override agent prompts |
+**After (5 mega-agents):**
+- Each agent uses its FULL 200K context window
+- Zero edit conflicts — one agent owns content improvement, one owns integrity
+- Zero redundant reads — Guardian reads each page once and runs all checks
+- 16 runs/day across 24 hours with clean separation
+- MORE total work done with FEWER agents
 
-## Content Categories Covered
+## Schedule (24-Hour View)
+```
+00:00  THE CREATOR (run 1/8)
+01:00  THE ENHANCER (run 1/4)
+03:00  THE CREATOR (run 2/8)
+05:00  THE GUARDIAN (run 1/2) — morning integrity sweep + deploy
+06:00  THE CREATOR (run 3/8)
+07:00  THE ENHANCER (run 2/4)
+08:00  THE STRATEGIST (run 1/1) — daily intelligence + optimization
+09:00  THE CREATOR (run 4/8)
+10:00  scheduler-monitor
+12:00  THE CREATOR (run 5/8)
+13:00  THE ENHANCER (run 3/4)
+15:00  THE CREATOR (run 6/8)
+17:00  THE GUARDIAN (run 2/2) — evening integrity sweep + deploy
+        daily-summary-email
+18:00  THE CREATOR (run 7/8)
+19:00  THE ENHANCER (run 4/4)
+20:00  THE EVANGELIST (run 1/1) — daily distribution
+21:00  THE CREATOR (run 8/8)
+```
 
-All 14 content categories have a creator (Builder rotates through the thinnest category):
+## Disabled Agents (Consolidated into Mega-Agents 2026-03-30)
+| Old Agent | Now Part Of |
+|-----------|-------------|
+| abg-builder | THE CREATOR |
+| abg-builder-2 | THE CREATOR |
+| abg-storyteller | THE CREATOR |
+| abg-psychologist | THE CREATOR |
+| abg-refiner | THE ENHANCER |
+| abg-wordsmith | THE ENHANCER |
+| abg-force-multiplier | THE ENHANCER |
+| abg-integrator | THE GUARDIAN |
+| site-qa-enforcer | THE GUARDIAN |
+| design-enforcer | THE GUARDIAN |
+| abg-deploy | THE GUARDIAN |
+| abg-catalyst | THE STRATEGIST |
+| abg-visionary | THE STRATEGIST |
+| overseer | THE STRATEGIST |
+| abg-architect | THE STRATEGIST |
 
-| Category | File Pattern | Creator |
-|----------|-------------|---------|
-| Devotionals | `devotional-*.html` | Builder |
-| Analogies | `analogy-*.html` | Builder |
-| Theologian Bios | `theologian-*.html` | Builder |
-| Questions/Doctrine | `question-*.html` | Builder |
-| Demolition Zone | `demolition-*.html` | Builder |
-| Objections Answered | `objection-*.html` | Builder |
-| Systematic Theology | `systematic-*.html` | Builder |
-| Comparisons | `compare-*.html` | Builder |
-| Pastoral/Assurance | `pastoral-*.html` | Builder |
-| Creeds & Confessions | `creed-*.html` | Builder |
-| Church History | `history-*.html` | Builder |
-| OT Election | `ot-election-*.html` | Builder |
-| Secular Evidence | `secular-*.html` | Builder + Psychologist |
-| Scripture Tsunami | `scripture-tsunami-*.html` | Builder |
-| Stories | `story-*.html` | Storyteller |
-| Psychology | `psychology-*.html` | Psychologist |
+## Content Categories Covered (All by THE CREATOR)
+
+| Category | File Pattern |
+|----------|-------------|
+| Devotionals | `devotional-*.html` |
+| Analogies | `analogy-*.html` |
+| Theologian Bios | `theologian-*.html` |
+| Questions/Doctrine | `question-*.html` |
+| Demolition Zone | `demolition-*.html` |
+| Objections Answered | `objection-*.html` |
+| Systematic Theology | `systematic-*.html` |
+| Comparisons | `compare-*.html` |
+| Pastoral/Assurance | `pastoral-*.html` |
+| Creeds & Confessions | `creed-*.html` |
+| Church History | `history-*.html` |
+| OT Election | `ot-election-*.html` |
+| Secular Evidence | `secular-*.html` |
+| Scripture Tsunami | `scripture-tsunami-*.html` |
+| Stories | `story-*.html` |
+| Testimonies | `testimony-*.html` |
+| Psychology | `psychology-*.html` |
+| Healing | `healing-*.html` |
+| Why We Resist | `resistance-*.html` |
+| *(new categories welcome)* | *(Strategist invents, Creator builds)* |
 
 ## Mandatory Directives (ALL Agents)
-1. **BANNED:** No resources section content. All content must be ORIGINAL to adoptedbygrace.net.
-2. **Scripture-first language:** "Scripture teaches" not "Calvinism says." No Reformed/TULIP labels.
-3. **Brilliant connections:** Human realities → biblical truths → lights turning on.
-4. **Creative humor:** Woven naturally, not forced.
-5. **Writing standard:** Lewis's clarity, Spurgeon's fire, Buechner's beauty. Brevity over bloat.
-6. **No git operations:** Agents must NOT run `git add`, `git commit`, or `git push`. Hourly auto-push handles all commits.
+1. **BANNED:** No resources pages, no email signup forms, no community pages
+2. **Scripture-first language:** "Scripture teaches" not "Calvinism says"
+3. **Brilliant connections:** Human realities → biblical truths → lights turning on
+4. **Creative humor:** Woven naturally, not forced
+5. **Writing standard:** Lewis + Spurgeon + Buechner + Edwards. Brevity over bloat.
+6. **No git operations:** Agents must NOT run `git add/commit/push`. Auto-push handles it.
 7. **Max compute:** Every agent uses ALL available compute. No stopping early.
+8. **101 Ways Principle:** Every page is a doorway for a specific type of person
 
 ## File Locations
 - Agent SKILL.md files: `Claude/Scheduled/`
 - Website files: `/Users/aaronforman/Documents/adoptedbygracewebsite/`
 - Roadmap: `ROADMAP.md`
 - Vision notes: `VISION.md`
-- Wordsmith tracking: `WORDSMITH-LOG.md`
+- Objection tracker: `OBJECTION-TRACKER.md`
 - Devotional queue: `DEVOTIONAL-QUEUE.md`
-- QA defect log: `QA-REPORT.md`
-- Integrity log: `INTEGRITY-LOG.md`
 - Newsletter queue: `NEWSLETTER-QUEUE.md`
 - Social queue: `SOCIAL-QUEUE.md`
 - SEO queue: `SEO-QUEUE.md`
 - Distribution log: `DISTRIBUTION-LOG.md`
-- Evolution log: `CATALYST-LOG.md`
+- QA report: `QA-REPORT.md`
+- Integrity log: `INTEGRITY-LOG.md`

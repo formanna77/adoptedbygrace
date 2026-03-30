@@ -1,136 +1,89 @@
-# Site Integrity Log — 2026-03-29
+# Site Integrity Log — 2026-03-30
 
-**Agent:** abg-integrator | **Run time:** Scheduled
-**Pages scanned:** 203 HTML files | **Date:** 2026-03-29
-
----
-
-## Session: 2026-03-29
-
-### Broken Links Fixed
-- No broken internal links found across all 203 pages (1 false positive: `explore-map.html` contains `${p.url}` which is a JS template literal, not a real link)
-
-### Hub Pages Updated
-- **questions.html**: Added `question-parables.html` — "Why Jesus Spoke in Parables (It's Not What You Think)" (Matthew 13:10-17) to "Jesus' Own Words" section. Renumbered all 34 entries sequentially (01-34) — also fixed pre-existing duplicate numbers at positions 27-28.
-- **stories.html**: Added `story-the-self-made-man.html` — "The Self-Made Man" (satirical memoir, humor category) before the "Coming Soon" section.
-
-### Sitemap Updated
-- Added 1 page: `psychology-cognitive-biases`
-- Removed 0 stale entries
-- 404.html intentionally excluded from sitemap
-
-### Cross-References Added
-- `analogy-adoption.html` — Added "Continue Your Journey" section (3 links: devotional-adoption-papers, story-the-orphanage, question-chosen)
-- `analogy-chess-grandmaster.html` — Added "Continue Your Journey" section (3 links: systematic-divine-decrees, secular-algorithm-sovereignty, question-foreknowledge)
-- `analogy-lazarus-grave.html` — Added "Continue Your Journey" section (4 links: devotional-dead-who-live, question-depravity, systematic-regeneration, question-ezekiel37)
-- `analogy-light-switch.html` — Added "Continue Your Journey" section (4 links: question-irresistible, question-john6, psychology-autonomy-illusion, question-parables)
-- `ot-isaiah-servant.html` — Added "Continue Your Journey" section (3 links: question-isaiah53, systematic-atonement, apologetic-definite-atonement)
-- `secular-art-literature-reformed-truth.html` — Added "Continue Your Journey" section (3 links: secular-philosophy-free-will, secular-history-sovereignty, analogies-illustrations)
-
-### Nav Repairs
-- 0 pages needed repair — all 202 content pages have canonical v3 nav with mega-menu, nav.js, and global.css
-
-### Infrastructure Pages
-- No changes needed — contact.html, privacy.html, terms.html all exist
-
-### Issues Requiring Aaron's Attention
-- None. Site integrity is strong.
+**Agent:** abg-integrator
+**Run time:** ~15 minutes
+**Pages scanned:** 227 HTML files
 
 ---
 
-# Previous Session: 2026-03-28
+## 1. BROKEN LINKS FIXED (3 links across 3 files)
 
-**Agent:** abg-integrator | **Run time:** Scheduled
-**Pages scanned:** 198 HTML files | **Internal links checked:** 8,790
+| Source File | Broken Link | Fixed To | Reason |
+|---|---|---|---|
+| `story-the-letter-before-the-world.html` | `/question-election` | `/question-chosen` | Target file never existed; `question-chosen.html` (Ephesians 1:3-11) is the correct election page |
+| `open-wound-hub.html` | `/theology` | `/systematic-theology` | Footer link pointed to nonexistent `/theology`; correct page is `systematic-theology.html` |
+| `open-wound-hospital-room.html` | `/theology` | `/systematic-theology` | Same footer link issue |
 
----
+## 2. HUB-TO-CHILD SYNCHRONIZATION
 
-## 1. Broken Link Repair
+### Fixed:
+- **questions.html** — Added missing card for `question-proverbs-sovereignty.html` ("No Dice, No Chance — God's Sovereignty over Lots and Kings", Proverbs 16:33/21:1) as question #37 in the "Further Objections & Refinements" section.
 
-**Status: CLEAN**
-
-All 8,790 internal links across 198 pages resolve correctly. No broken internal links found. No links point to deleted resource pages (the 13 resources pages were removed previously and no orphan links remain).
-
----
-
-## 2. Hub-to-Child Synchronization
-
-**Status: ALL SYNCED**
-
-Every hub page links to all of its child pages:
-
+### Already Synchronized (no action needed):
 | Hub | Children | Status |
-|-----|----------|--------|
-| questions.html | 32 question-* pages | Synced |
-| devotionals.html | 14 devotional-* pages | Synced |
-| stories.html | 5 story-* pages | Synced |
-| demolition-hub.html | 18 demolition-* pages | Synced |
-| systematic-theology.html | 20 systematic-* pages | Synced |
-| theologians.html | 10 theologian-* pages | Synced |
-| analogies-illustrations.html | 5 analogy-* pages | Synced |
-| secular-evidence.html | 8 secular-* pages | Synced |
-| psychology-hub.html | 2 psychology-* pages | Synced |
+|---|---|---|
+| devotionals.html | 15 | 100% |
+| stories.html | 9 | 100% |
+| demolition-hub.html | 18 | 100% |
+| systematic-theology.html | 20 | 100% |
+| theologians.html | 10 | 100% |
+| analogies-illustrations.html | 5 | 100% |
+| secular-evidence.html | 9 | 100% |
+| psychology-hub.html | 5 | 100% |
+| history-golden-thread.html | 14 | (self-ref excluded by design) |
 
----
+## 3. SITEMAP SYNCHRONIZATION
 
-## 3. Sitemap Synchronization
+**Status: Clean.** All 212 sitemap entries resolve to existing files. All content pages on disk are represented in sitemap.xml.
 
-**13 dead entries removed** (all deleted resources pages):
+Intentionally excluded from sitemap (correct):
+- `404.html` (error page)
+- `index-new.html` (draft/staging page)
+- `index-old.html` (archived)
+- `_nav-template.html` (template fragment)
 
-- resource-finder, resources, resources-books, resources-catechisms
-- resources-commentaries, resources-confessions, resources-glossary
-- resources-podcasts, resources-prayer, resources-reading-plans
-- resources-sermons, resources-study-guides, start-here-resources
+## 4. CROSS-REFERENCE WEAVING (4 pages updated)
 
-**Sitemap now has 198 entries** matching all live HTML files (excluding index-old.html).
+### compare-calvinism-arminianism.html
+Added 5 new cross-reference cards to existing "Continue Your Journey" section:
+- question-john6.html — "John 6: No One Can Come Unless Drawn"
+- question-depravity.html — "Total Depravity: How Deep Does It Go?"
+- question-irresistible.html — "Irresistible Grace"
+- question-perseverance.html — "Perseverance of the Saints"
 
----
+### question-depravity.html
+Added new "Continue Your Journey" cross-reference section (6 cards):
+- question-romans9, question-john6, question-irresistible, question-perseverance, question-newheart, question-ezekiel37
 
-## 4. Navigation Audit & Repair
+### question-ezekiel37.html
+Added new "Continue Your Journey" cross-reference section (4 cards):
+- question-depravity, question-romans9, question-irresistible, question-newheart
 
-### Old Flat Nav Replaced (5 pages)
-These pages had outdated flat navigation without dropdown menus. Replaced with canonical mega-menu nav:
-- question-john17.html
-- question-ezekiel37.html
-- story-the-kings-banquet.html
-- question-cannot.html
-- devotional-when-god-says-no.html
+### psychology-hub.html
+Added new "Go Deeper" cross-reference section (4 cards):
+- question-romans9, question-depravity, question-freewill, secular-psychology-bondage-of-will
 
-### Dropdown CSS Injected (133 pages)
-Most pages had the dropdown nav HTML but were missing the CSS rules for `.nav-trigger`, `.nav-dropdown`, and `.nav-arrow`. Injected the canonical dropdown CSS into 133 pages so dropdown menus render and function correctly.
+### Remaining cross-reference opportunities (for future runs):
+A full audit identified 245+ missing cross-references site-wide. Key areas for future work:
+- Comparison pages (compare-calvinism-molinism, compare-calvinism-catholic-soteriology, etc.) need links to core Q&A pages
+- Many question-* pages lack cross-references to related questions
+- Healing category pages (anxious-mind, broken-mirror, etc.) could link to doctrinal foundations
 
-### Dropdown JS Injected (53 pages)
-53 pages were missing the mobile dropdown toggle JavaScript. Injected the event listeners for `.nav-trigger` click handling and `.dropdown-open` state management.
+## 5. NAVIGATION AUDIT
 
-### Terminology
-No pages have "Resources" in their navigation. The term has been successfully replaced with "The Evidence" site-wide.
+**Status: Clean.** Sampled 45+ pages across all categories. Every page has:
+- global.css linked in head
+- nav.js loaded before body close
+- Mega-menu dropdown present
+- Search overlay present
+- Canonical nav structure matching _nav-template.html
 
----
+No remediation required.
 
-## 5. Cross-Reference Weaving
+## 6. ITEMS FOR AARON'S ATTENTION
 
-**8 cross-references added** to existing "Continue Exploring" sections:
-
-| Source Page | Added Link To | Connection |
-|-------------|--------------|------------|
-| question-depravity.html | secular-psychology-bondage-of-will.html | Secular corroboration of total depravity |
-| question-depravity.html | analogy-doctor-corpse.html | Primary visual illustration |
-| question-irresistible.html | systematic-regeneration.html | Irresistible grace = regeneration |
-| question-irresistible.html | analogy-lazarus-grave.html | Lazarus illustrates effectual calling |
-| question-perseverance.html | apologetic-perseverance.html | Pastoral → apologetic defense |
-| question-sealed.html | apologetic-perseverance.html | Sealing as perseverance guarantee |
-| question-john6.html | demolition-john3-16.html | John 6 ↔ John 3:16 objection |
-| question-romans9.html | systematic-election.html | Romans 9 → election doctrine |
-
-**Skipped (no existing related section):** 7 target pages that could benefit from back-links but lack a "Related Pages" section. Creating new sections would be content creation, which is outside the integrator's mandate.
-
----
-
-## Issues for Aaron's Attention
-
-1. **nav-right section inconsistency:** Only `index.html` has the full `nav-right` section with "Start Here", "The Evidence" top-links, and "Explore All" mega-toggle. All other 193+ pages are missing this desktop enhancement. This is a design decision — flagging for awareness.
-
-2. **Back-link opportunity:** The following pages are frequently referenced but lack a "Related Pages" section to link back: `systematic-regeneration.html`, `systematic-election.html`, `apologetic-perseverance.html`, `analogy-doctor-corpse.html`, `analogy-lazarus-grave.html`, `secular-psychology-bondage-of-will.html`, `demolition-john3-16.html`. Content agents could add related sections to these pages.
+- **index-new.html** exists as a draft homepage. If it's no longer needed, consider removing it.
+- **245+ cross-reference gaps** remain site-wide. The integrator added the highest-value ones this run; future runs will continue weaving.
 
 ---
 

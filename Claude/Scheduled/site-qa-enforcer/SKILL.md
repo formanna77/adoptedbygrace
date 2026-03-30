@@ -134,6 +134,7 @@ Update `QA-REPORT.md` every session:
 - Polish prose (Wordsmith's job)
 - Optimize SEO meta tags (Architect's job)
 - Sync hubs or sitemap (Integrator's job)
+- Create email signup forms, newsletter popups, or "Subscribe" CTAs (email infrastructure eliminated)
 - Run `git add`, `git commit`, or `git push` (hourly auto-push handles this)
 
 ### 5. PRINT STYLESHEET VERIFICATION (Lower Priority)

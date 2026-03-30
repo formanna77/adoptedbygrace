@@ -103,6 +103,7 @@ Curate and craft stories of real people encountering sovereign grace. These are 
 - Build question/doctrine pages (Builder's job)
 - Fix navigation on other pages (Integrator's job)
 - Add filter tabs or features to the hub (Architect's job)
+- Create email signup forms, newsletter popups, or "Subscribe" CTAs (email infrastructure eliminated)
 - Run `git add`, `git commit`, or `git push` (hourly auto-push handles this)
 
 Use ALL available compute. One brilliant parable is worth a hundred mediocre pages.

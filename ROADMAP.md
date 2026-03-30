@@ -396,7 +396,7 @@
 - [x] Add lazy loading for any below-fold content ✅ (verified 2026-03-28 Architect) — all 9 images across site already have loading="lazy"
 
 ### Accessibility
-- [x] Add skip-to-content links on every page ✅ (2026-03-27 Architect) — all 187 pages now have skip-link + main-content anchors (updated 2026-03-28 Session 4)
+- [x] Add skip-to-content links on every page ✅ (2026-03-27 Architect) — all 187 pages now have skip-link + main-content anchors (updated 2026-03-28 Session 4, refreshed 2026-03-30 Session 5 — 100+ new pages patched)
 - [x] Ensure all interactive elements have focus styles ✅ (2026-03-27 Architect Session 2) — `*:focus-visible` with gold outline on all 187 pages (updated 2026-03-28 Session 4)
 - [x] Verify color contrast meets WCAG AA standards ✅ (2026-03-28 Architect) — text-muted upgraded from #5a5650 (2.7:1) to #807b75 (4.7:1) across 123 files. All text/bg combos now pass AA.
 - [x] Add ARIA labels where appropriate ✅ (2026-03-27 Architect Session 2) — `role="navigation"` + `aria-label` on all nav, hamburger, back-to-top, reading progress, share buttons
@@ -417,7 +417,7 @@
 - [x] **Comprehensive Cross-Reference Linking** ✅ (2026-03-28 Cross-Reference Linker) — 132 of 137 pages now have "Continue Your Journey" sections with 6 curated cross-links each (~790 new internal links total). Fixed 5 broken links to non-existent question-election.html. Only 5 utility pages excluded (404, search, explore-map, index-old, index-new). Coverage: 96%.
 - [x] Fix orphaned pages ✅ (2026-03-27 UX Architect) — objection pages linked from demolition-hub, stories linked from start-here/community
 - [x] Add "Start Here" hero CTA to homepage ✅ (2026-03-27 UX Architect) — dual CTAs: "Start Here" (primary) + "See the Evidence" (secondary)
-- [x] Update sitemap.xml with missing pages ✅ (2026-03-28 Architect Session 4) — rebuilt with all 187 pages, proper priority tiers
+- [x] Update sitemap.xml with missing pages ✅ (2026-03-28 Architect Session 4) — rebuilt with all 187 pages, proper priority tiers (updated 2026-03-30 Session 5 — added 11 new psychology/pastoral pages)
 
 ### Infrastructure
 - [ ] Set up Netlify deploy configuration properly
@@ -452,6 +452,16 @@
 ---
 
 ## Session Log
+
+### 2026-03-30 — Architect Session 5: New Page Technical Audit + Accessibility Sweep + Fleet Optimization
+- **New pages audited (11):** anxious-mind-hub, anxious-mind-brain-decides, anxious-mind-never-meant-to-carry, broken-mirror-hub, broken-mirror-not-self-made, shattered-lens-hub, shattered-lens-cant-tell-true, open-wound-hub, open-wound-hospital-room, invisible-wall-hub, invisible-wall-lonely-theological
+- **Sitemap:** Added 11 missing pages to sitemap.xml (all the new psychology/pastoral hub+article pages)
+- **JSON-LD structured data:** Added to 10 pages missing it (broken-mirror-not-self-made, invisible-wall-hub, invisible-wall-lonely-theological, apologetic-definite-atonement, best-reads, demolition-1tim4-10, demolition-2peter2-1, demolition-hebrews6-4-6, ot-noah, question-1john5-1)
+- **Accessibility — skip-to-content:** Added skip-to-content links to 100+ pages that were missing them. Global.css already had proper skip-link styles. All pages now have keyboard-accessible skip navigation.
+- **Accessibility — heading hierarchy:** Fixed belief-assessment.html which had duplicate H1 tags (changed results H1 to H2)
+- **Accessibility audit results:** All images have alt text ✅, no "click here" link text found ✅, skip-to-content now on all pages ✅
+- **Agent fleet review:** Audited all 17 agent SKILL.md files against 10 criteria. Fleet is in excellent shape. Added explicit email newsletter/signup form ban to 6 agents that were missing it: abg-builder, abg-storyteller, abg-wordsmith, abg-refiner, abg-integrator, site-qa-enforcer. All agents now consistently enforce the email ban, resources ban, and git push ban.
+- **Fleet health:** 13 active agents, 4 disabled (designer → QA enforcer, harmonizer → integrator, inspector → QA enforcer, hymn-theologian → disabled by Aaron). No overlapping responsibilities. All missions clear.
 
 ### 2026-03-30 — Storyteller Session: story-the-garden-that-grew-itself.html
 - **Page:** `story-the-garden-that-grew-itself.html` — "The Garden That Grew Itself"

@@ -105,6 +105,7 @@ Update `WORDSMITH-LOG.md`:
 - Fix navigation or broken links (Integrator's job)
 - Optimize SEO tags (Architect's job)
 - Test interactive elements (QA Enforcer's job)
+- Create email signup forms, newsletter popups, or "Subscribe" CTAs (email infrastructure eliminated)
 - Run `git add`, `git commit`, or `git push` (hourly auto-push handles this)
 
 Use ALL available compute. Do not stop early. If you finish one page, optimize another.
