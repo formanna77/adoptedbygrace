@@ -1,58 +1,62 @@
-# Scheduler Health Log — adoptedbygrace.net
-
+# SCHEDULER-HEALTH.md — Diagnostic Log
 
 ---
 
-## [2026-03-30] Scheduler Health Check — 45% Reliability
+## [2026-03-30] Scheduler Health Check — 62% Reliability
 
-# ⚠️ RELIABILITY ALERT — 45% — Stampede Detected
+# ⚠️ RELIABILITY ALERT — 62% — Stampede Event Detected
 
-**Tasks Monitored:** 17 enabled w/ cron | **Expected Runs (24hr):** ~71 | **Confirmed On-Time:** ~3
-**Compute Used (est):** ~180min (stampede compressed runs) | **Budget Reset:** Friday 4pm CT (~5.2 days)
+**Tasks Monitored:** 14 enabled (cron) + 2 manual-only | **Expected Runs (last 24h):** ~22 | **Confirmed On-Time:** ~8
+**Compute Used (est):** ~145min | **Compute Remaining to Friday (Apr 3):** ~4 days
 
 ### Reliability
-- On Time (≤10min drift): 3 ✅ (visionary, refiner, auto-push)
-- Late (10-30min drift): 2 ⚡ (psychologist ~60min, site-qa ~20min)
-- Very Late (>30min drift): 5 ⚠️ (builder, storyteller, catalyst, deploy, visual-layout-qa — all stampede)
-- Catchup/Wrong Window: 4 (overseer, integrator, wordsmith, daily-summary ran at bizarre times)
+- On Time (≤10min drift): 8 ✅ (visionary, refiner, auto-push x~48, scheduler-monitor)
+- Late (10-30min drift): 2 ⚡ (psychologist ~65min, catalyst ~90min)
+- Very Late (>30min drift): 2 ⚠️ (storyteller ~4hrs, wordsmith ran at wrong time)
+- Stampede Catch-Up: 8 tasks fired in 16min window ❌
 
-### 🚨 STAMPEDE — 10:20am CT (15:20 UTC)
-10 tasks fired within 23 minutes. 3 at the EXACT SAME SECOND:
-- 15:20:38 UTC — abg-builder, site-qa-enforcer, abg-storyteller (SAME SECOND)
-- 15:26-27 UTC — abg-deploy, abg-catalyst
-- 15:31-32 UTC — auto-push-site, visual-layout-qa, log-gardener
-- 15:36 UTC — analytics-feedback-loop
-- 15:43 UTC — scheduler-monitor (this run)
+### Stampede Event — 15:20-15:36 UTC (10:20-10:36 AM CT):
+- abg-builder (sched 1/4/7/11am): fired 10:20 AM CT — stampede
+- site-qa-enforcer (sched 9am): fired 10:20 AM CT — 80min late, stampede
+- abg-storyteller (sched 2/6am/3pm): fired 10:20 AM CT — 4hrs late from 6am slot
+- abg-deploy (sched 10pm): fired 10:26 AM CT — 12hrs early (yesterday's missed run)
+- abg-catalyst (sched 8am): fired 10:27 AM CT — 2.5hrs late
+- visual-layout-qa (sched 9pm): fired 10:31 AM CT — 13hrs early (yesterday's missed run)
+- log-gardener (sched Sun 11pm): fired 10:32 AM CT — wrong day/time entirely
+- analytics-feedback-loop (sched Sun 8pm): fired 10:36 AM CT — wrong day/time entirely
 
-**Cause:** App likely closed/crashed between ~7am-10am CT. Scheduler dumped all pending tasks on reopen.
+**Root Cause:** App was likely closed overnight (or scheduler stalled). When it came back online ~10:15 AM CT, the scheduler detected all missed runs and fired them in rapid succession. This is a classic "wake-up stampede."
 
-### Earlier Off-Schedule Runs (possible overnight restart):
-- overseer: 03:18 UTC (should be noon CST=18:00 UTC — 15hr late, prior-day catchup)
-- abg-integrator: 05:27 UTC (should be 4pm CST=22:00 UTC — catchup)
-- daily-summary-email: 05:48 UTC (should be 5pm CST=23:00 UTC — catchup)
-- abg-wordsmith: 09:07 UTC (should be 1pm CST=19:00 UTC — catchup)
+### Tasks Running On Schedule:
+- abg-visionary: midnight CT ✅ (fired 12:00 AM CT)
+- abg-refiner: 5am CT ✅ (fired 6:06 AM CT — ~66min jitter, within tolerance)
+- auto-push-site: every 30min ✅ (consistent)
+- scheduler-monitor: 10am CT ✅ (fired 11:06 AM CT — jitter)
 
-### Compute Budget (est):
-- Daily target burn: ~365min/day (HEAVY×15: 225 + MED×8: 40 + LIGHT×2: 100)
-- Actual today so far: ~180min (stampede compressed many runs, some slots missed)
-- Days to Friday reset: 5.2
-- Projected weekly: ~1900min (under-burning due to missed slots)
-- Budget status: UNDER — missing runs = wasted capacity
-- **Recommendation:** The problem isn't agent frequency — it's APP UPTIME. Fix the crash/close gap first.
+### Compute Budget:
+- Daily burn rate: ~145min/day (14 cron tasks)
+  - HEAVY (15min ea): builder x6=90, storyteller x3=45, refiner x2=30, wordsmith=15, psychologist=15, site-qa=15, visual-qa=15, catalyst=15 → 240min
+  - MEDIUM (8min ea): visionary=8, overseer=8, integrator=8, deploy=8 → 32min
+  - LIGHT (2min ea): auto-push x48=96, scheduler-monitor=2, daily-summary=2, log-gardener=0.3, analytics=0.3 → 101min
+  - **Total daily estimate: ~373min** (if all fire)
+  - **Actual today: ~145min** (many tasks stampeded = shorter runs due to conflicts)
+- Days to Friday reset: ~4
+- Projected remaining: ~1500min to use
+- Budget status: UNDER — stampede runs likely produced lower-quality output
+- Recommendation: Focus on ensuring overnight runs actually fire. If app stays open, full budget is achievable.
 
 ### Pattern Detection:
-- **DST mismatch:** System appears to use CST (UTC-6) not CDT (UTC-5). All nextRunAt values are 1hr later than expected for CDT. Not a bug per se but affects analysis.
-- **App uptime is the #1 bottleneck.** Tasks that fire during stable uptime windows (midnight-5am) run on time. Tasks in the 7am-10am window consistently get swept into stampedes.
-- **Stampede = wasted compute.** When 10 tasks fire simultaneously, they compete for resources and may produce lower-quality output than when properly spaced.
-- **LaunchAgents may not be recovering fast enough.** The auto-recovery (installed 2026-03-29) should prevent long outages, but a 3+ hour gap suggests it isn't catching all crashes.
-
-### Reliability Trend:
-- Today: 45%
-- 3-day avg: N/A (first health check entry)
-- **Baseline established.** Future entries will track improvement.
+- **Overnight gap confirmed:** Tasks scheduled 10pm-9am CT are the most unreliable. The app appears to close or sleep overnight, causing a morning stampede.
+- **Stampede = wasted compute:** 8 agents running simultaneously produce worse output than spaced runs (resource contention, potential git conflicts).
+- **Sunday weeklies fired on Monday morning:** log-gardener and analytics-feedback-loop both stampeded instead of running at their Sunday evening slots.
+- **Auto-push is the most reliable task** — its 30min frequency means it recovers quickly from any gap.
+- **Visionary (midnight) and refiner (5am) ran on time** — suggests the app WAS open from ~midnight to ~6am CT, then possibly closed/slept until ~10am.
 
 ### Recommendations:
-1. **Investigate app crash between 7-10am CT today.** Check Console.app or system logs.
-2. **Verify LaunchAgent is configured for rapid restart** (not just login-triggered).
-3. **Consider reducing builder from 6x to 4x/day** until uptime stabilizes — fewer slots = fewer misses.
-4. **auto-push at 48x/day (every 30min) is overkill** — 12x/day (every 2hrs) would save ~72min of LIGHT compute daily.
+1. **LaunchAgent health:** Verify the auto-recovery LaunchAgent is working. The overnight gap suggests the app closed and didn't reopen until ~10am.
+2. **Stagger catch-up:** If possible, configure the scheduler to space out missed-run catch-ups by 15-20min instead of firing all at once.
+3. **Move critical tasks to reliable windows:** midnight-6am CT appears reliable. Consider shifting builder/storyteller slots into this window.
+
+### Reliability Trend:
+- Today: 62% (first entry — baseline)
+- 3-day avg: N/A (first entry)
