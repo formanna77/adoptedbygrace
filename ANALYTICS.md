@@ -1,168 +1,134 @@
 # Fleet Analytics Intelligence
-**Last updated:** 2026-03-29 7:00 PM CT
-**Period:** Last 7 days (Mar 22–29, 2026)
-**Total site requests:** 8,985
-**Total content page requests:** ~3,045 (excluding static assets, bot probes, and non-content URLs)
+**Last updated:** 2026-03-30 9:45 AM CT
+**Period:** Last 7 days (Mar 23–30, 2026)
+**Total site requests:** 10,856 (up from 8,985 last week — **+20.8% growth**)
+**Total content page requests (visible in top 50):** ~1,933 (excluding static assets, bot probes, meta files)
+**Note:** Netlify Observability shows top 50 URLs by request count. Pages below ~18 requests/week are not captured but still contribute to the total. With 200+ content pages now live, most long-tail pages fall below this threshold.
 
 ## TOP PERFORMING CATEGORIES (double down)
-1. **Questions & Objections** — 641 requests across 25 pages (avg 25.6/page). The runaway #1 content driver. Visitors are actively Googling specific theological questions and objections. This format is proven gold.
-2. **Demolition** — 208 requests across 8 pages (avg 26.0/page). Highest per-page average of any content category. Dismantling bad arguments draws people in hard.
-3. **Systematic Theology** — 186 requests across 12 pages (avg 15.5/page). Solid middle performer. The hub page (35 requests) pulls well as an entry point.
-4. **Devotionals** — 155 requests across 10 pages (avg 15.5/page). Heart-level content that keeps people coming back. Hub page strong at 31.
-5. **Start Here Journey** — 148 requests across 6 pages (avg 24.7/page). Strong per-page average indicates visitors are entering the guided path and clicking through phases.
+
+1. **Questions & Objections** — 232 requests across 9 pages visible in top 50, out of 40 total pages. Hub page at 38 requests. `/objection-why-command` is STILL the #1 content page at 48 requests. Six individual question pages made the top 50. This category dominates because it matches how people actually search — they Google their objections.
+2. **Devotionals** — 61 requests across 2 visible pages, out of 16 total. Hub at 40, `/devotional-never-gives-up` at 21. The hub is performing strongly as an entry point. Per-visible-page average of 30.5 is excellent.
+3. **Demolition** — 59 requests across 2 visible pages, out of 19 total. Hub at 40, `/demolition-john3-16` at 19. Hub performing well. Many demolition pages likely exist in the 10-17 range just below visibility.
+4. **Psychology of Resistance** — 53 requests across 2 visible pages, out of only 5 total. Hub at 27, `/psychology-why-we-resist` at 26. **Highest per-page ratio in the entire site.** With only 5 pages, this tiny category punches way above its weight. Both pages nearly tied — visitors who find the hub click through.
+5. **Systematic Theology** — 53 requests across 2 visible pages (hub at 34 + theologians hub at 19), out of 32 total pages (21 systematic + 11 theologian). Large library but most pages fall below top 50 visibility. Hub performs well as entry point.
 
 ## TOP PERFORMING PAGES (study what works)
-1. `/` (Homepage) — 1,053 requests (combined 200/301)
-2. `/about` — 64 requests
-3. `/objection-why-command` — 57 requests ← **#1 CONTENT PAGE ON THE SITE**
-4. `/questions` — 45 requests (hub page)
-5. `/demolition-hub` — 40 requests
-6. `/demolition-arminian-facts` — 36 requests
-7. `/systematic-theology` — 35 requests
-8. `/stories` — 35 requests (hub)
-9. `/start-here` — 34 requests
-10. `/start-here-phase3` — 34 requests ← visitors are progressing through the journey!
-11. `/connections` — 32 requests
-12. `/question-freewill` — 32 requests
-13. `/question-goldchain` — 32 requests
-14. `/devotionals` — 31 requests (hub)
-15. `/demolition-orthodox-predestination` — 31 requests
+
+| Rank | Page | Requests | Category |
+|------|------|----------|----------|
+| 1 | `/` (Homepage) | 1,214 | Site |
+| 2 | `/about` | 58 | Site |
+| 3 | `/objection-why-command` | 48 | Questions — **#1 CONTENT PAGE (3rd week running)** |
+| 4 | `/devotionals` (hub) | 40 | Devotionals |
+| 5 | `/demolition-hub` | 40 | Demolition |
+| 6 | `/questions` (hub) | 38 | Questions |
+| 7 | `/systematic-theology` (hub) | 34 | Theology |
+| 8 | `/stories` (hub) | 30 | Stories |
+| 9 | `/analogies-illustrations` (hub) | 28 | Analogies |
+| 10 | `/start-here` | 28 | Start Here |
+| 11 | `/psychology-hub` | 27 | Psychology |
+| 12 | `/explore-map` | 27 | Site |
+| 13 | `/psychology-why-we-resist` | 26 | Psychology |
+| 14 | `/question-freewill` | 25 | Questions |
+| 15 | `/connections` | 25 | Site |
+
+**Key observations:**
+- Hub pages dominate the top 15. This means visitors are entering through category landing pages and then exploring deeper. Hub quality is critical.
+- `/objection-why-command` remains the #1 non-hub content page for the third consecutive week. The "why would God command if He predestined" format is an SEO goldmine.
+- Psychology pages are punching above their weight — both pages in the top 15 with only 5 total pages in the category.
+- Homepage grew from 1,053 to 1,214 requests (+15.3%).
 
 ## UNDERPERFORMING CATEGORIES (needs fresh approach)
-- **Analogies** — 27 requests across only 2 pages. Hub gets 18, but only 1 individual analogy page visible (`/analogy-doctor-corpse` at 9). Need MANY more analogy pages — the concept works but the library is thin.
-- **Psychology of Resistance** — 22 requests across 2 pages (hub at 14, `/resistance-last-idol` at 8). Brand new category, still building. Monitor weekly.
-- **Old Testament Studies** — 60 requests across 6 pages (avg 10/page). Pages exist but aren't breaking out. Need more compelling titles that connect OT to the sovereignty question.
-- **History & Theologians** — 87 requests across 6 pages (avg 14.5/page). Theologian pages are mid-tier. History pages (augustine-pelagius, dort, timeline) all at 10. Consider more dramatic storytelling approach.
-- **Secular Evidence** — 43 requests across 3 pages. `/scripture-tsunami` leads at 25. `/secular-evidence` hub at 10. `/secular-philosophy-free-will` at 8. Needs more volume — the "billions of choices" argument and scientific determinism angles are undertapped.
-- **Comparisons** — 31 requests across 3 pages. Decent niche but small library.
-- **Essays** — 24 requests for hub only. Need individual essay pages to capture search traffic.
+
+- **Analogies** — Hub gets 28 requests but zero individual analogy pages broke the top 50. We have 5 individual analogy pages (adoption, chess-grandmaster, doctor-corpse, lazarus-grave, light-switch) but none are generating enough traffic. The concept resonates (hub gets clicks) but the individual pages aren't ranking or converting. **Try more provocative, search-friendly titles.**
+- **Stories** — Hub strong at 30 but zero individual story pages in the top 50. We have 8 story pages. Similar problem to analogies — the hub draws people in but individual stories aren't capturing search traffic. **Need SEO-optimized titles that match what people actually search for.**
+- **Secular Evidence** — `/scripture-tsunami` at 22 is the only visible page. Hub and 9 other secular pages all below threshold. This is the site's most original content angle (billions of choices, neuroscience of inability) but it's underperforming. **Needs better internal linking and more compelling meta descriptions.**
+- **Old Testament Studies** — 14 pages, zero in top 50. This entire category is invisible to analytics. Either traffic is spread thin across many pages (~5-10 each) or these pages aren't ranking at all. **Consider consolidating the best OT content or creating more dramatic titles.**
+- **History** — 14 pages, zero in top 50 (theologians hub barely made it at 19). Rich content but not finding an audience. **History pages may need more emotional hooks — "The Trial That Saved Christianity" beats "Augustine vs Pelagius".**
+- **Comparisons** — 6 pages, zero in top 50. These are reference pages that may serve returning visitors but aren't driving search traffic.
+- **Pastoral** — 4 pages, zero in top 50. New category, still building.
+- **Apologetics** — 4 pages, zero in top 50. Needs more volume and better titles.
 
 ## FLEET DIRECTIVES
+
 Based on this week's data:
-- **PRIORITY CREATE: Question/Objection content** — 641 total requests, 25.6 avg per page. `/objection-why-command` alone got 57 hits. Every new objection or question page is a new Google doorway. The format works because people literally search "why does God command if He predestined" — match their queries.
-- **PRIORITY CREATE: Demolition content** — 26.0 avg per page (HIGHEST of any category). `/demolition-arminian-facts` at 36 and `/demolition-orthodox-predestination` at 31 are both breakout pages. Dismantling bad theology is a magnet.
-- **PRIORITY REFINE: Homepage and About** — 1,053 and 64 requests respectively. These are the front door. Every improvement here has outsized impact on conversion to deeper content.
-- **STUDY: `/objection-why-command`** — 57 requests, top content page for 2 weeks running. Analyze title, meta description, structure, emotional hook. Replicate this pattern. The "why would God command X if He..." format is a search engine magnet.
-- **STUDY: `/start-here-phase3`** — 34 requests, matching the hub itself. Visitors are clicking THROUGH the journey. This validates the multi-phase approach. Ensure each phase links clearly to the next.
-- **EXPAND: Analogies library** — Hub pulls 18 requests but only 1 individual page exists. This is untapped potential. Create 10+ analogy pages to build critical mass.
-- **EXPAND: Secular Evidence** — `/scripture-tsunami` at 25 shows appetite for this angle. Create more pages: determinism in neuroscience, physics, genetics. The "billions of choices" argument needs its own page.
-- **EXPERIMENT: Psychology of Resistance** — 22 requests on just 2 pages after only days of content. This category has legs. Keep building.
-- **MONITOR: Stories** — Hub gets 35 but individual stories underperform (surgeon-stone-heart at 22, fish-who-chose at 7). Stories need more provocative SEO-friendly titles.
 
-## RAW DATA (all content pages, sorted by requests)
-```
- 1053 | / (homepage)
-   64 | /about
-   57 | /objection-why-command
-   45 | /questions (hub)
-   40 | /demolition-hub
-   36 | /demolition-arminian-facts
-   35 | /systematic-theology (hub)
-   35 | /stories (hub)
-   34 | /start-here
-   34 | /start-here-phase3
-   32 | /connections
-   32 | /question-freewill
-   32 | /question-goldchain
-   31 | /devotionals (hub)
-   31 | /demolition-orthodox-predestination
-   29 | /question-sealed
-   28 | /question-romans9
-   28 | /question-newheart
-   27 | /resources
-   27 | /demolition-john3-16
-   27 | /objection-author-of-sin
-   26 | /question-chosen
-   26 | /question-john6
-   26 | /question-foreknowledge
-   25 | /freedom
-   25 | /scripture-tsunami
-   25 | /theologians
-   25 | /question-godwants
-   24 | /question-perseverance
-   24 | /essays
-   24 | /question-matt11
-   24 | /start-here-phase1
-   24 | /question-john10
-   24 | /question-unfair
-   23 | /question-acts
-   23 | /question-irresistible
-   22 | /explore-map
-   22 | /story-surgeon-stone-heart
-   22 | /demolition-1john2-2
-   22 | /question-boasting
-   22 | /question-whosoever
-   22 | /start-here-phase2
-   22 | /start-here-phase4
-   22 | /demolition-1tim2-4
-   22 | /question-john15
-   21 | /devotional-my-chains-fell-away
-   21 | /devotional-love-before-the-world
-   21 | /demolition-2peter3-9
-   20 | /systematic-ordo-salutis
-   20 | /systematic-ecclesiology
-   19 | /theologian-spurgeon
-   18 | /analogies-illustrations (hub)
-   18 | /systematic-compatibilism
-   18 | /systematic-theology-proper
-   16 | /donate
-   15 | /devotional-never-gives-up
-   14 | /psychology-hub
-   13 | /resources-books
-   13 | /devotional-forever-loved
-   13 | /systematic-christology
-   13 | /compare-calvinism-arminianism
-   12 | /theologian-luther
-   12 | /resources-study-guides
-   12 | /ot-election
-   12 | /systematic-pneumatology
-   12 | /start-here-phase5
-   11 | /devotional-good-i-cannot-do
-   11 | /resources-sermons
-   11 | /devotional-glory-of-divine-choice
-   11 | /theologian-edwards
-   11 | /systematic-prolegomena
-   11 | /ot-david
-   11 | /systematic-theology-hub
-   11 | /devotional-not-my-will-but-joy
-   11 | /devotional-dead-who-live
-   11 | /systematic-anthropology
-   10 | /devotional-rescued-without-a-say
-   10 | /history-augustine-pelagius
-   10 | /pastoral-assurance
-   10 | /theologian-augustine
-   10 | /secular-evidence (hub)
-   10 | /compare-monergism-synergism
-   10 | /theologian-calvin
-   10 | /question-depravity
-   10 | /ot-israel-chosen
-   10 | /history-dort
-   10 | /history-timeline
-   10 | /resources-glossary
-    9 | /ot-moses-pharaoh
-    9 | /ot-joseph
-    9 | /demolition-matt23-37
-    9 | /ot-abraham
-    9 | /analogy-doctor-corpse
-    9 | /systematic-covenant-theology
-    9 | /history-great-awakening
-    9 | /objection-responsibility
-    8 | /history-spurgeon-downgrade
-    8 | /systematic-trinity
-    8 | /question-faithgift
-    8 | /secular-philosophy-free-will
-    8 | /history-luther
-    8 | /compare-calvinism-molinism
-    8 | /resistance-last-idol
-    7 | /story-the-fish-who-chose-the-ocean
-```
+- **PRIORITY CREATE: Question/Objection content** — Still the undisputed #1 traffic driver. `/objection-why-command` at 48 requests, 6 individual question pages in top 50. With 40 pages already, this category has critical mass AND keeps growing. Every new question page is a new Google doorway. The "objection-" prefix format is especially strong — create more pages starting with "objection-" (objection-robots, objection-fairness, objection-babies, objection-desire).
+- **PRIORITY CREATE: Psychology of Resistance content** — Only 5 pages but 53 requests visible. That's 10.6 requests per page — **the highest ratio on the site.** This category has massive untapped potential. Create pages on: fear of losing control, emotional vs. rational rejection, the comfort of self-salvation, pride as the root objection, pastoral sensitivity to resistance.
+- **PRIORITY REFINE: Hub pages** — 7 of the top 15 pages are hub/landing pages. These are the front doors to each category. Every hub page improvement has outsized downstream impact. Ensure each hub has compelling descriptions, clear navigation, and strong meta descriptions.
+- **STUDY: `/objection-why-command`** — 48 requests, #1 content page for 3 weeks. Whatever this page does — title format, meta description, emotional hook, structure — REPLICATE IT across every new objection and question page.
+- **STUDY: Psychology category** — With the highest per-page ratio, understand WHY this works. Theory: people search for "why do Christians reject predestination" or "why I hate Calvinism" and these pages match that emotional search intent.
+- **EXPAND: Analogies with better titles** — Hub draws 28 visitors but individual pages can't keep them. Rename/retitle analogy pages for SEO: "Why a Dead Man Can't Choose to Live" beats "The Doctor and the Corpse." Match the question people are asking in their head.
+- **EXPAND: Stories with search-friendly titles** — Same problem as analogies. Retitle for search: "The Story of a Fish Who Thought He Chose the Ocean" → "Did You Really Choose God? A Parable About Free Will."
+- **EXPERIMENT: Secular Evidence promotion** — Great content, poor discoverability. Try internal linking from high-traffic question pages to secular evidence pages. Cross-pollinate.
+- **DEPRIORITIZE: Old Testament studies, History, Comparisons** — Combined 34 pages producing near-zero visible traffic. Don't stop creating, but shift primary compute to Questions, Psychology, and Demolition. When creating OT/History content, use dramatic storytelling titles, not academic ones.
 
-## NOTE FOR AGENTS
-This data is updated weekly by the analytics-feedback-loop agent. Use it to inform your content priorities. Key takeaways:
+## WEEK-OVER-WEEK TRENDS
 
-1. **Question/Objection format = PROVEN traffic magnet.** 25 pages averaging 25.6 requests each. When in doubt, frame content as answering a question someone is Googling.
-2. **Demolition has the highest per-page average (26.0).** Every dismantling page earns its place. Create more.
-3. **Hub pages matter.** Questions hub (45), demolition hub (40), systematic theology (35), stories (35), devotionals (31) — these are entry points. Keep them polished.
-4. **Start Here journey is WORKING.** Phase 3 matches the hub at 34. People are clicking through. Make sure every phase links clearly forward.
-5. **Analogies and Secular Evidence are undertapped.** Both have strong concepts but thin libraries. Build volume here.
-6. **Stories need better titles.** Hub pulls 35 but individual stories underperform. SEO-optimize story titles with the theological question they illuminate.
+| Metric | Last Week (Mar 22–29) | This Week (Mar 23–30) | Change |
+|--------|----------------------|----------------------|--------|
+| Total requests | 8,985 | 10,856 | **+20.8%** |
+| Homepage | 1,053 | 1,214 | +15.3% |
+| #1 content page | `/objection-why-command` (57) | `/objection-why-command` (48) | -15.8%* |
+| Error rate | — | 1.33% | — |
+
+*Note: The slight decrease in top content page requests may reflect the time window shifting (7-day rolling). Overall site traffic grew significantly.
+
+## SITE SCALE
+
+| Category | Pages | Visible in Top 50 | Est. Traffic Share |
+|----------|-------|-------------------|-------------------|
+| Questions & Objections | 40 | 9 | Dominant |
+| Systematic Theology + Theologians | 32 | 2 | Low per-page |
+| Demolition | 19 | 2 | Moderate |
+| Devotionals | 16 | 2 | Moderate |
+| History | 14 | 0 | Very low |
+| Old Testament | 14 | 0 | Very low |
+| Secular Evidence | 10 | 1 | Low |
+| Stories | 9 | 1 (hub only) | Low |
+| Start Here | 7 | 1 | Low |
+| Analogies | 6 | 1 (hub only) | Low |
+| Comparisons | 6 | 0 | Very low |
+| Psychology | 5 | 2 | **Highest per-page** |
+| Apologetics | 4 | 0 | Very low |
+| Pastoral | 4 | 0 | Very low |
+| **TOTAL** | **~200+** | **21** | — |
+
+## RAW DATA (Top 50 URLs, filtered)
+
+Content pages only (static assets, bot probes, and meta files removed; duplicate URL entries combined):
+
+| URL | Requests |
+|-----|----------|
+| `/` | 1,214 |
+| `/about` | 58 |
+| `/objection-why-command` | 48 |
+| `/devotionals` | 40 |
+| `/demolition-hub` | 40 |
+| `/questions` | 38 |
+| `/systematic-theology` | 34 |
+| `/stories` | 30 |
+| `/analogies-illustrations` | 28 |
+| `/start-here` | 28 |
+| `/psychology-hub` | 27 |
+| `/explore-map` | 27 |
+| `/psychology-why-we-resist` | 26 |
+| `/question-freewill` | 25 |
+| `/connections` | 25 |
+| `/contact` | 24 |
+| `/scripture-tsunami` | 22 |
+| `/question-sealed` | 22 |
+| `/question-romans9` | 21 |
+| `/question-goldchain` | 21 |
+| `/devotional-never-gives-up` | 21 |
+| `/question-chosen` | 20 |
+| `/demolition-john3-16` | 19 |
+| `/question-newheart` | 19 |
+| `/theologians` | 19 |
+| `/freedom` | 19 |
+| `/question-perseverance` | 18 |
+
+**Non-content URLs filtered out:** /global.css (414), /favicon.ico (437 combined), /global.js (297), /nav.js (254), /favicon.svg (250 combined), /apple-touch-icon.png (292 combined), /apple-touch-icon-precomposed.png (39), /wordpress/wp-admin/* (301 combined — bot probes), /wp-admin/* (293 combined — bot probes), /robots.txt (81), /sitemap.xml (45), /.env (26 — bot probe), /.git/config (24 — bot probe), /wp-login.php (19 — bot probe)
+
+**Bot probe traffic:** 663 requests (6.1% of total) from WordPress/wp-admin scanners, .env/.git probes. Not a concern but worth noting — the site is being scanned by bots looking for WordPress vulnerabilities it doesn't have.

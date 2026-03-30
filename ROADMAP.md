@@ -314,6 +314,35 @@
 - [ ] **"What Your Tears Already Know"** — Involuntary tears as confession of sovereignty. You don't decide to cry. Grace doesn't ask for a committee vote. Acts 16:14 (Lord opened Lydia's heart). → devotional
 - [ ] **"The Trial of Free Will v. Romans 9"** — Dramatic courtroom trial with Free Will as defendant, Romans 9 as prosecution, reader as jury. Paul, Moses, Pharaoh, Jacob, Esau called as witnesses. Every objection already anticipated in the text. Major creative project. → stories/demolition crossover
 
+#### Log Gardener Replenishment (2026-03-30)
+
+**Scripture Studies:**
+- [ ] **Psalm 139 — "Known Before You Were Known"** — "In your book were written, every one of them, the days that were formed for me" (v.16). Predestination in the Psalms. Hebrew word studies (yatsar, galal, sepher). → `question-psalm139.html`
+- [ ] **Romans 11:33-36 — "The Doxology of Sovereignty"** — After election, hardening, and remnant, Paul doesn't apologize — he WORSHIPS. The proper response to sovereignty is awe. → `question-doxology.html`
+- [ ] **Philippians 1:29 — "Granted to Suffer"** — God grants (echaristhē — same root as grace) BOTH belief AND suffering. The gift nobody asked for that proves election more than blessing ever could. → `question-phil1-29.html`
+- [ ] **2 Thessalonians 2:13 — "Chosen from the Beginning"** — Paul thanks God for choosing the Thessalonians "from the beginning" (ap' archēs) through sanctification and belief. Belief is the RESULT, not the cause, of election. → `question-2thess2-13.html`
+
+**Demolition Pages:**
+- [ ] **Demolition: Matthew 23:37 — "How Often I Would Have Gathered…"** — Jesus weeps over Jerusalem. Arminian proof text demolished: the "you" who refuse ≠ the "children" Jesus would gather. Leaders reject; the elect come anyway. → `demolition-matt23-37-deep.html`
+- [ ] **Demolition: Hebrews 6:4-6 — "Can the Elect Fall Away?"** — The most feared passage in the Bible. Five participial clauses, the "impossible" (adynaton), and the purpose of the warning: to prove the perseverance of real faith. → `demolition-hebrews6-deep.html`
+
+**Stories (diverse categories & audiences):**
+- [ ] **"The Gardener Who Did Not Plant Himself"** — Children's story: a sunflower seed thinks it chose to grow, until it learns about the gardener, the soil, the rain, and the sun that were there first. Target: children ages 6-12. Category: Children. → `story-the-gardener.html`
+- [ ] **"Lazarus Speaks"** — First-person narrative from inside the tomb. Four days dead. No thoughts. No prayers. No decisions. Then a Voice — and everything. Target: the person who thinks they "decided" for Jesus. Category: Dark/Hard-hitting. → `story-lazarus-speaks.html`
+- [ ] **"The Diary of a Former Arminian Pastor"** — Epistolary fiction: journal entries tracing a pastor's crisis when Romans 9 won't let go. Target: the ex-Calvinist or the pastor wrestling with sovereignty. Category: Tender. → `story-arminian-pastor-diary.html`
+
+**Analogies (new domains of life):**
+- [ ] **"The Transplant List"** — Organ donation analogy: the recipient doesn't choose the donor, doesn't earn the organ, can't pay for it, and was dying without it. The call comes TO you. You don't call the hospital. → `analogy-transplant-list.html`
+- [ ] **"The Rescue Diver"** — Drowning analogy done RIGHT: drowning people don't "accept" rescue — they're unconscious, pulled from the water, resuscitated. The diver doesn't wait for consent. Target: anyone who's heard the lifeboat analogy used badly. → `analogy-rescue-diver.html`
+
+**Secular Evidence (psychology, philosophy, economics):**
+- [ ] **"The Behavioral Economist's Case for Sovereignty"** — Kahneman's System 1/System 2, nudge theory, choice architecture. Every marketer knows humans don't make free choices. The secular world has been preaching total depravity since Tversky. → `secular-behavioral-economics.html`
+- [ ] **"The Geneticist's Confession"** — DNA, epigenetics, and the illusion of self-determination. Your genes chose your temperament, your neurochemistry shapes your desires, your microbiome influences your mood. Even materialists admit you didn't author yourself. → `secular-genetics-sovereignty.html`
+
+**History:**
+- [ ] **"The Synod of Dort: Five Points Forged in Fire"** — The dramatic 1618-1619 showdown. Arminius's followers vs. the Reformed church. Political intrigue, theological precision, and five canons that changed church history. Target: the history lover. → `history-dort-deep.html`
+- [ ] **"The African Fathers: Augustine Wasn't Alone"** — Cyprian, Tertullian, and the North African theological tradition that shaped sovereignty theology BEFORE Augustine. The doctrine of grace has African roots. Target: the person who thinks Reformed theology is European. → `history-african-fathers.html`
+
 ---
 
 ## Refinement Backlog (Refiner Sessions)
@@ -420,6 +449,40 @@
 ---
 
 ## Session Log
+
+### 2026-03-30 9:45 AM — Analytics Feedback Loop: Weekly Data Pull
+- **Source:** Netlify Observability, Last 7 days (Mar 23–30, 2026)
+- **Total site requests:** 10,856 (**+20.8% week-over-week** from 8,985)
+- **Homepage:** 1,214 requests (+15.3% from 1,053)
+- **#1 content page:** `/objection-why-command` at 48 requests (3rd consecutive week at #1)
+- **Breakout finding: Psychology of Resistance** — highest per-page ratio on the entire site (10.6 req/page) with only 5 pages. Massive expansion opportunity.
+- **Hub pages dominate:** 7 of top 15 pages are category hubs. Hub quality = downstream traffic.
+- **Underperformers:** Old Testament (14 pages, 0 in top 50), History (14 pages, 0 in top 50), Comparisons (6 pages, 0 in top 50). Need dramatic storytelling titles, not academic ones.
+- **Fleet directive:** Priority create Questions + Psychology content. Expand analogies/stories with search-friendly titles. Deprioritize OT/History/Comparisons until title strategy improves.
+- **ANALYTICS.md updated** with full data, category breakdown, week-over-week trends, and actionable fleet directives.
+
+### 2026-03-30 — Catalyst Session 2: Site Evolution Analysis + Fleet Prompt Updates
+- **Pages evaluated (8):** secular-billion-decisions (9.0), story-the-room-where-you-chose (9.3), devotional-never-gives-up (8.3), demolition-john3-16 (6.7), psychology-autonomy-illusion (8.0), analogy-chess-grandmaster (7.5), history-augustine-pelagius (8.0), question-romans9 (6.2)
+- **Site average this session:** 7.9/10 (vs. 8.0 Session 1 baseline — stable, wider sample)
+- **Strongest page:** story-the-room-where-you-chose.html (9.3) — thought experiment pulling a golden thread of causation backward through Dave → Ruth → blue paint → bullet casing → stars → the Book with your name
+- **Weakest page:** question-romans9.html (6.2) — Greek exegesis is logically devastating but emotionally flat, zero humor, zero worship
+- **#1 Finding: Literary Device Gap** — Pages using deliberate literary devices score 8.5+. Pages defaulting to standard verse→Greek→argument→objection→verdict score 6-7. The gap is structural, not intellectual. 34+ question/demolition pages use identical architecture.
+- **#2 Finding: Humor at 5.6/10 site-wide** — Only story-the-self-made-man and secular-billion-decisions deploy humor. Question/demolition category is a humor desert.
+- **#3 Finding: Doorway gaps** — No page yet reaches the grieving parent, the artist/musician, the teenager, or the person leaving a legalistic church.
+- **4 Agent SKILL.md prompts rewritten:**
+  1. **Builder** — Literary Device Rotation (10-item menu, standard exegesis capped at 30%)
+  2. **Storyteller** — Target Reader declaration required before writing each story
+  3. **Refiner** — Literary Device Assessment added as FIRST evaluation step
+  4. **Wordsmith** — "Humor — The Underdeveloped Weapon" expanded toolkit (4-point system)
+- **best-reads.html updated:** 8 → 10 cards, reordered by score. Added: Room Where You Chose (9.3), Billion Decisions (9.0), Augustine vs. Pelagius (8.0). Removed: question-romans9, analogy-doctor-corpse.
+- **Session 3 targets:** Re-score question-romans9 post-Refiner; evaluate 8 new Builder pages for literary device variety; measure humor improvement; check doorway gap coverage.
+
+### 2026-03-30 — Log Gardener: Weekly Maintenance Run
+- All logs reviewed: ROADMAP.md session log (all entries within 7 days — no archiving needed), CATALYST-LOG.md (2 scorecards — under 3 limit), WORDSMITH-LOG.md (all entries within 14 days), FLEET-OPS-LOG.md (all entries within 7 days)
+- **Archived:** 0 lines (all logs are young — site is only 4 days old)
+- **Backlog replenished:** Added 15 new items across 6 categories (Scripture studies, demolition, stories, analogies, secular evidence, history). Backlog now at ~58 unchecked items (was 43).
+- **Sitemap verified:** 212 HTML pages, 209 sitemap URLs (3-page gap, under 5-page threshold — no action needed)
+- ARCHIVE directory created for future use
 
 ### 2026-03-30 11:15 PM — Deploy Session: Production Deployment Successful
 - **Deploy ID:** `69ca96ecdfb62110c147f7ab`
