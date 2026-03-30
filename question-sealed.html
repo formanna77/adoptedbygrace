@@ -576,27 +576,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <li><a href="/history-timeline">History</a></li>
                 <li><a href="/analogies-illustrations">Analogies</a></li>
                 <li><a href="/about">About</a></li>
-                <!-- All categories grid (mobile only) -->
-                <li class="mobile-categories-section" style="list-style:none;">
-                    <span class="mobile-categories-label">Explore All Categories</span>
-                    <div class="mobile-categories-grid">
-                        <a href="/start-here" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F9ED;</span><span class="mobile-cat-name">Start Here</span></a>
-                        <a href="/questions" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4D6;</span><span class="mobile-cat-name">Questions</span></a>
-                        <a href="/systematic-theology" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F3DB;</span><span class="mobile-cat-name">Theology</span></a>
-                        <a href="/demolition-hub" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4A5;</span><span class="mobile-cat-name">Demolition</span></a>
-                        <a href="/psychology-hub" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F9E0;</span><span class="mobile-cat-name">Why We Resist</span></a>
-                        <a href="/devotionals" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F56F;</span><span class="mobile-cat-name">Devotionals</span></a>
-                        <a href="/stories" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4DC;</span><span class="mobile-cat-name">Stories</span></a>
-                        <a href="/secular-evidence" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F52C;</span><span class="mobile-cat-name">Secular</span></a>
-                        <a href="/history-timeline" class="mobile-cat-link"><span class="mobile-cat-icon">&#x23F3;</span><span class="mobile-cat-name">History</span></a>
-                        <a href="/analogies-illustrations" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4A1;</span><span class="mobile-cat-name">Analogies</span></a>
-                        <a href="/theologians" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F9D3;</span><span class="mobile-cat-name">Theologians</span></a>
-                        <a href="/ot-election" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4DA;</span><span class="mobile-cat-name">Old Testament</span></a>
-                        <a href="/compare-calvinism-arminianism" class="mobile-cat-link"><span class="mobile-cat-icon">&#x2696;</span><span class="mobile-cat-name">Comparisons</span></a>
-                        <a href="/creeds-confessions" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4DC;</span><span class="mobile-cat-name">Creeds</span></a>
-                        <a href="/pastoral-assurance" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F91D;</span><span class="mobile-cat-name">Pastoral</span></a>
-                    </div>
-                </li>
+                <!-- Mobile categories accordion (built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
                 <!-- Footer links in mobile menu -->
                 <li class="mobile-menu-footer" style="list-style:none;">
                     <a href="/best-reads">&#x1F525; Best Reads — Our Most Powerful Articles</a>
@@ -630,141 +611,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </nav>
 
-    <!-- Mega-menu dropdown -->
-    <div class="mega-menu" id="megaMenu">
-        <div class="mega-menu-inner">
-            <div class="mega-menu-header">
-                <h2 class="mega-menu-title">Explore 200+ Articles</h2>
-                <p class="mega-menu-subtitle">God's sovereignty in salvation — examined from every angle</p>
-            </div>
-            <div class="mega-menu-grid">
-                <a href="/start-here" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F9ED;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Start Here</span>
-                        <span class="mega-menu-card-desc">Your guided 5-phase journey into the biblical case</span>
-                        <span class="mega-menu-card-count">7 articles</span>
-                    </div>
-                </a>
-                <a href="/questions" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4D6;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Questions</span>
-                        <span class="mega-menu-card-desc">33 Scripture-driven proofs the Bible teaches sovereign election</span>
-                        <span class="mega-menu-card-count">34 articles</span>
-                    </div>
-                </a>
-                <a href="/systematic-theology" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F3DB;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Theology</span>
-                        <span class="mega-menu-card-desc">Complete systematic framework — from bibliology to resurrection</span>
-                        <span class="mega-menu-card-count">21 articles</span>
-                    </div>
-                </a>
-                <a href="/demolition-hub" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4A5;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Demolition Zone</span>
-                        <span class="mega-menu-card-desc">Verse-by-verse exegetical rebuttals to every major objection</span>
-                        <span class="mega-menu-card-count">19 articles</span>
-                    </div>
-                </a>
-                <a href="/psychology-hub" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F9E0;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Why We Resist</span>
-                        <span class="mega-menu-card-desc">The psychology behind why we suppress the truth of God's sovereignty</span>
-                        <span class="mega-menu-card-count">5 articles</span>
-                    </div>
-                </a>
-                <a href="/devotionals" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F56F;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Devotionals</span>
-                        <span class="mega-menu-card-desc">Meditations that move sovereign grace from your head to your heart</span>
-                        <span class="mega-menu-card-count">15 articles</span>
-                    </div>
-                </a>
-                <a href="/stories" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4DC;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Stories</span>
-                        <span class="mega-menu-card-desc">Original parables and narratives that illuminate doctrine through story</span>
-                        <span class="mega-menu-card-count">6 articles</span>
-                    </div>
-                </a>
-                <a href="/secular-evidence" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F52C;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Secular Evidence</span>
-                        <span class="mega-menu-card-desc">Neuroscience, philosophy, economics — even the world confirms it</span>
-                        <span class="mega-menu-card-count">9 articles</span>
-                    </div>
-                </a>
-                <a href="/history-timeline" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x23F3;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">History</span>
-                        <span class="mega-menu-card-desc">2,000 years of God's sovereignty proclaimed — from the Apostles to today</span>
-                        <span class="mega-menu-card-count">14 articles</span>
-                    </div>
-                </a>
-                <a href="/analogies-illustrations" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4A1;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Analogies</span>
-                        <span class="mega-menu-card-desc">Pictures and illustrations that make deep truths click</span>
-                        <span class="mega-menu-card-count">5 articles</span>
-                    </div>
-                </a>
-                <a href="/theologians" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F9D3;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Theologians</span>
-                        <span class="mega-menu-card-desc">Augustine, Calvin, Edwards, Spurgeon — the giants who came before</span>
-                        <span class="mega-menu-card-count">10 profiles</span>
-                    </div>
-                </a>
-                <a href="/ot-election" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4DA;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Old Testament</span>
-                        <span class="mega-menu-card-desc">Sovereign election woven through every OT figure and theme</span>
-                        <span class="mega-menu-card-count">14 studies</span>
-                    </div>
-                </a>
-                <a href="/compare-calvinism-arminianism" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x2696;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Comparisons</span>
-                        <span class="mega-menu-card-desc">Side-by-side: how Scripture's teaching differs from rival systems</span>
-                        <span class="mega-menu-card-count">6 comparisons</span>
-                    </div>
-                </a>
-                <a href="/creeds-confessions" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4DC;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Creeds &amp; Confessions</span>
-                        <span class="mega-menu-card-desc">The historic statements of faith that have shaped the Church</span>
-                        <span class="mega-menu-card-count">3 documents</span>
-                    </div>
-                </a>
-                <a href="/pastoral-assurance" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F91D;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Pastoral</span>
-                        <span class="mega-menu-card-desc">Assurance, prayer, suffering, evangelism — living out these truths</span>
-                        <span class="mega-menu-card-count">4 guides</span>
-                    </div>
-                </a>
-            </div>
-            <div class="mega-menu-footer">
-                <a href="/best-reads" class="mega-menu-footer-link mega-menu-footer-best">&#x1F525; Best Reads — Our most powerful articles</a>
-                <a href="/explore-map" class="mega-menu-footer-link">&#x1F5FA; Explore the Full Content Map</a>
-            </div>
-        </div>
-    </div>
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+
 
     <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">

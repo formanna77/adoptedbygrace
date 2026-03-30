@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Why does Adopted By Grace exist? For the person who just encountered God's sovereignty and needs to understand what happened. Read the story behind the site.">
+    <meta name="description" content="For the one who can't un-see it. You stumbled into God's sovereignty and the ground disappeared. This site exists because Scripture says more than most churches will touch.">
     <meta property="og:title" content="About — Why This Site Exists | Adopted By Grace">
-    <meta property="og:description" content="For the person who encountered God's sovereignty and needs to understand what happened. The story behind Adopted By Grace.">
+    <meta property="og:description" content="For the one who can't un-see it. You stumbled into God's sovereignty and the ground disappeared. This site exists for you.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
     <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
@@ -13,7 +13,7 @@
     <link rel="canonical" href="https://adoptedbygrace.net/about">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="About — Why This Site Exists | Adopted By Grace">
-    <meta name="twitter:description" content="For the person who encountered God's sovereignty and needs to understand what happened. The story behind Adopted By Grace.">
+    <meta name="twitter:description" content="For the one who can't un-see it. You stumbled into God's sovereignty and the ground disappeared. This site exists for you.">
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <title>About – Why This Site Exists | ADOPTED BY GRACE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
         "@context": "https://schema.org",
         "@type": "AboutPage",
         "headline": "About – Why This Site Exists | Adopted By Grace",
-        "description": "For the person who encountered God's sovereignty and needs to understand what happened. The story behind Adopted By Grace.",
+        "description": "For the one who can't un-see it. You stumbled into God's sovereignty and the ground disappeared. This site exists for you.",
         "url": "https://adoptedbygrace.net/about",
         "publisher": {
             "@type": "Organization",
@@ -643,27 +643,8 @@
                 <li><a href="/history-timeline">History</a></li>
                 <li><a href="/analogies-illustrations">Analogies</a></li>
                 <li><a href="/about">About</a></li>
-                <!-- All categories grid (mobile only) -->
-                <li class="mobile-categories-section" style="list-style:none;">
-                    <span class="mobile-categories-label">Explore All Categories</span>
-                    <div class="mobile-categories-grid">
-                        <a href="/start-here" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F9ED;</span><span class="mobile-cat-name">Start Here</span></a>
-                        <a href="/questions" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4D6;</span><span class="mobile-cat-name">Questions</span></a>
-                        <a href="/systematic-theology" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F3DB;</span><span class="mobile-cat-name">Theology</span></a>
-                        <a href="/demolition-hub" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4A5;</span><span class="mobile-cat-name">Demolition</span></a>
-                        <a href="/psychology-hub" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F9E0;</span><span class="mobile-cat-name">Why We Resist</span></a>
-                        <a href="/devotionals" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F56F;</span><span class="mobile-cat-name">Devotionals</span></a>
-                        <a href="/stories" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4DC;</span><span class="mobile-cat-name">Stories</span></a>
-                        <a href="/secular-evidence" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F52C;</span><span class="mobile-cat-name">Secular</span></a>
-                        <a href="/history-timeline" class="mobile-cat-link"><span class="mobile-cat-icon">&#x23F3;</span><span class="mobile-cat-name">History</span></a>
-                        <a href="/analogies-illustrations" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4A1;</span><span class="mobile-cat-name">Analogies</span></a>
-                        <a href="/theologians" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F9D3;</span><span class="mobile-cat-name">Theologians</span></a>
-                        <a href="/ot-election" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4DA;</span><span class="mobile-cat-name">Old Testament</span></a>
-                        <a href="/compare-calvinism-arminianism" class="mobile-cat-link"><span class="mobile-cat-icon">&#x2696;</span><span class="mobile-cat-name">Comparisons</span></a>
-                        <a href="/creeds-confessions" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F4DC;</span><span class="mobile-cat-name">Creeds</span></a>
-                        <a href="/pastoral-assurance" class="mobile-cat-link"><span class="mobile-cat-icon">&#x1F91D;</span><span class="mobile-cat-name">Pastoral</span></a>
-                    </div>
-                </li>
+                <!-- Mobile categories accordion (built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
                 <!-- Footer links in mobile menu -->
                 <li class="mobile-menu-footer" style="list-style:none;">
                     <a href="/best-reads">&#x1F525; Best Reads — Our Most Powerful Articles</a>
@@ -697,141 +678,10 @@
         </div>
     </nav>
 
-    <!-- Mega-menu dropdown -->
-    <div class="mega-menu" id="megaMenu">
-        <div class="mega-menu-inner">
-            <div class="mega-menu-header">
-                <h2 class="mega-menu-title">Explore 200+ Articles</h2>
-                <p class="mega-menu-subtitle">God's sovereignty in salvation — examined from every angle</p>
-            </div>
-            <div class="mega-menu-grid">
-                <a href="/start-here" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F9ED;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Start Here</span>
-                        <span class="mega-menu-card-desc">Your guided 5-phase journey into the biblical case</span>
-                        <span class="mega-menu-card-count">7 articles</span>
-                    </div>
-                </a>
-                <a href="/questions" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4D6;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Questions</span>
-                        <span class="mega-menu-card-desc">33 Scripture-driven proofs the Bible teaches sovereign election</span>
-                        <span class="mega-menu-card-count">34 articles</span>
-                    </div>
-                </a>
-                <a href="/systematic-theology" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F3DB;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Theology</span>
-                        <span class="mega-menu-card-desc">Complete systematic framework — from bibliology to resurrection</span>
-                        <span class="mega-menu-card-count">21 articles</span>
-                    </div>
-                </a>
-                <a href="/demolition-hub" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4A5;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Demolition Zone</span>
-                        <span class="mega-menu-card-desc">Verse-by-verse exegetical rebuttals to every major objection</span>
-                        <span class="mega-menu-card-count">19 articles</span>
-                    </div>
-                </a>
-                <a href="/psychology-hub" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F9E0;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Why We Resist</span>
-                        <span class="mega-menu-card-desc">The psychology behind why we suppress the truth of God's sovereignty</span>
-                        <span class="mega-menu-card-count">5 articles</span>
-                    </div>
-                </a>
-                <a href="/devotionals" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F56F;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Devotionals</span>
-                        <span class="mega-menu-card-desc">Meditations that move sovereign grace from your head to your heart</span>
-                        <span class="mega-menu-card-count">15 articles</span>
-                    </div>
-                </a>
-                <a href="/stories" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4DC;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Stories</span>
-                        <span class="mega-menu-card-desc">Original parables and narratives that illuminate doctrine through story</span>
-                        <span class="mega-menu-card-count">6 articles</span>
-                    </div>
-                </a>
-                <a href="/secular-evidence" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F52C;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Secular Evidence</span>
-                        <span class="mega-menu-card-desc">Neuroscience, philosophy, economics — even the world confirms it</span>
-                        <span class="mega-menu-card-count">9 articles</span>
-                    </div>
-                </a>
-                <a href="/history-timeline" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x23F3;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">History</span>
-                        <span class="mega-menu-card-desc">2,000 years of God's sovereignty proclaimed — from the Apostles to today</span>
-                        <span class="mega-menu-card-count">14 articles</span>
-                    </div>
-                </a>
-                <a href="/analogies-illustrations" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4A1;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Analogies</span>
-                        <span class="mega-menu-card-desc">Pictures and illustrations that make deep truths click</span>
-                        <span class="mega-menu-card-count">5 articles</span>
-                    </div>
-                </a>
-                <a href="/theologians" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F9D3;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Theologians</span>
-                        <span class="mega-menu-card-desc">Augustine, Calvin, Edwards, Spurgeon — the giants who came before</span>
-                        <span class="mega-menu-card-count">10 profiles</span>
-                    </div>
-                </a>
-                <a href="/ot-election" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4DA;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Old Testament</span>
-                        <span class="mega-menu-card-desc">Sovereign election woven through every OT figure and theme</span>
-                        <span class="mega-menu-card-count">14 studies</span>
-                    </div>
-                </a>
-                <a href="/compare-calvinism-arminianism" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x2696;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Comparisons</span>
-                        <span class="mega-menu-card-desc">Side-by-side: how Scripture's teaching differs from rival systems</span>
-                        <span class="mega-menu-card-count">6 comparisons</span>
-                    </div>
-                </a>
-                <a href="/creeds-confessions" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F4DC;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Creeds &amp; Confessions</span>
-                        <span class="mega-menu-card-desc">The historic statements of faith that have shaped the Church</span>
-                        <span class="mega-menu-card-count">3 documents</span>
-                    </div>
-                </a>
-                <a href="/pastoral-assurance" class="mega-menu-card">
-                    <span class="mega-menu-icon">&#x1F91D;</span>
-                    <div class="mega-menu-card-text">
-                        <span class="mega-menu-card-title">Pastoral</span>
-                        <span class="mega-menu-card-desc">Assurance, prayer, suffering, evangelism — living out these truths</span>
-                        <span class="mega-menu-card-count">4 guides</span>
-                    </div>
-                </a>
-            </div>
-            <div class="mega-menu-footer">
-                <a href="/best-reads" class="mega-menu-footer-link mega-menu-footer-best">&#x1F525; Best Reads — Our most powerful articles</a>
-                <a href="/explore-map" class="mega-menu-footer-link">&#x1F5FA; Explore the Full Content Map</a>
-            </div>
-        </div>
-    </div>
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+
 
     <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">
@@ -849,10 +699,10 @@
     <section id="main-content" class="hero">
         <h1>
             <span>Why This Site Exists</span>
-            What If There's More to the Story?
+            For the One Who Can't Un-See It
         </h1>
         <p class="hero-subtitle">
-            Most of us were taught a version of the gospel that ends with our decision. We heard the call, we walked the aisle, we prayed the prayer — and that was the moment everything changed. But what if the Bible tells a bigger story than the one we were given? What if the most important things about your salvation happened before you ever bowed your head — and the God behind it all is more sovereign, more intentional, and more breathtakingly gracious than you've been led to believe? This site exists because Scripture answers those questions with a clarity that most churches never touch. We don't ask you to accept a label or join a camp. We ask you to open your Bible and look — really look — at what it says in the original Greek and Hebrew about how God saves. Every page here approaches that single question from a different angle: through exegesis, through stories, through history, through philosophy, through the objections you're already thinking of and the answers that will stop you mid-sentence — until something clicks that you can't un-see, and the gospel becomes bigger, more stunning, and more unshakably yours than you ever imagined.
+            You read a passage you'd read a hundred times — and suddenly it said something it had never said before. Or you were sitting in a pew when the weight of God's sovereignty landed on your chest like a hand pressing you into the chair. Or you stumbled into Romans 9 and the ground disappeared. Whatever happened, you can't go back. This site exists for you — the one still catching your breath. We don't ask you to accept a label. We ask you to open your Bible and look at what it actually says in the original Greek and Hebrew about how God saves. Every page approaches that single question from a different angle — exegesis, story, history, psychology, the objections already forming in your mind — until something clicks that rewires everything, and the gospel becomes bigger and more unshakably yours than you ever imagined.
         </p>
     </section>
 
@@ -861,80 +711,80 @@
     <div class="explore-section">
         <h2 class="section-header">What You'll Find Here</h2>
         <p class="explore-intro">
-            This isn't a blog. It's an arsenal. Every section is designed to answer a different kind of question — from the biblical evidence, to the psychology of resistance, to stories that make the doctrine live and breathe.
+            This isn't a blog. It's an arsenal — 200+ pages, each one a different door into the same room. Because the truth that sets people free doesn't always arrive the same way twice.
         </p>
 
         <div class="explore-grid">
             <a href="/start-here" class="explore-card">
                 <div class="explore-card-icon">&#x1F9ED;</div>
                 <h3>Start Here</h3>
-                <p>New to all this? A guided path that meets you where you are and walks you through what Scripture teaches — step by step.</p>
+                <p>New to all this? Five phases that take you from "wait, what?" to "how did I never see this before?" — at whatever pace your soul needs.</p>
             </a>
 
             <a href="/questions" class="explore-card">
                 <div class="explore-card-icon">&#x2696;</div>
                 <h3>The Evidence</h3>
-                <p>31 biblical questions answered with rigorous exegesis. Greek parsing. Original languages. The text speaks for itself.</p>
+                <p>40 passages examined in the original Greek and Hebrew. No commentary gymnastics — just the text, in the language it was written, saying what it has always said.</p>
             </a>
 
             <a href="/demolition-hub" class="explore-card">
                 <div class="explore-card-icon">&#x1F4A5;</div>
                 <h3>Demolition</h3>
-                <p>Every verse used against God's sovereignty — dismantled. We steel-man the objection, then let the text answer it.</p>
+                <p>Every verse lobbed against God's sovereignty — caught, examined, and returned to sender. We build the strongest version of the objection, then watch the text dismantle it.</p>
             </a>
 
             <a href="/psychology-hub" class="explore-card">
                 <div class="explore-card-icon">&#x1F9E0;</div>
                 <h3>Why We Resist</h3>
-                <p>The real reason people reject these truths isn't intellectual. It's psychological and spiritual. We go deep into why.</p>
+                <p>The real reason people reject these truths has nothing to do with intelligence. It's the thing you won't say out loud: you don't want God to be this big.</p>
             </a>
 
             <a href="/devotionals" class="explore-card">
                 <div class="explore-card-icon">&#x1F525;</div>
                 <h3>Devotionals</h3>
-                <p>Theology that hits you in the chest. Short, fierce, tender — written for people who want to <em>feel</em> the doctrines, not just know them.</p>
+                <p>Five-minute reads that hit you in the chest. Written for the person who already knows the doctrine is true and needs to <em>feel</em> it catch fire.</p>
             </a>
 
             <a href="/stories" class="explore-card">
                 <div class="explore-card-icon">&#x1F4D6;</div>
                 <h3>Stories</h3>
-                <p>Parables, allegories, and thought experiments that make sovereign grace unforgettable. Fiction that tells the truth.</p>
+                <p>Original parables, allegories, and thought experiments. Fiction that tells a truer truth than most sermons — the kind that sneaks past your defenses and detonates.</p>
             </a>
 
             <a href="/systematic-theology" class="explore-card">
                 <div class="explore-card-icon">&#x1F3DB;</div>
                 <h3>Theology</h3>
-                <p>The full systematic framework — from prolegomena to soteriology. For those who want the architecture behind the truth.</p>
+                <p>The full systematic framework — every doctrine from Scripture's authority to the resurrection of the body. For those who want to see the cathedral, not just the stained glass.</p>
             </a>
 
             <a href="/secular-evidence" class="explore-card">
                 <div class="explore-card-icon">&#x1F52C;</div>
                 <h3>Secular Evidence</h3>
-                <p>Neuroscience, philosophy, psychology — even the secular world confirms what Scripture teaches about human inability.</p>
+                <p>Neuroscience, philosophy, behavioral economics — the secular world keeps accidentally proving what Scripture has said all along about human inability.</p>
             </a>
 
             <a href="/history-timeline" class="explore-card">
                 <div class="explore-card-icon">&#x231B;</div>
                 <h3>History</h3>
-                <p>Augustine to Edwards to Spurgeon. The greatest minds in church history stood exactly where Scripture stands.</p>
+                <p>Two thousand years of the Church's brightest minds — Augustine, Luther, Calvin, Edwards, Spurgeon — all landing in the same place. That's not a coincidence. It's a current.</p>
             </a>
 
             <a href="/analogies-illustrations" class="explore-card">
                 <div class="explore-card-icon">&#x1F4A1;</div>
                 <h3>Analogies</h3>
-                <p>The dead man who can't choose to live. The slave who can't free himself. Illustrations that make the truth click.</p>
+                <p>A dead man doesn't choose to live. A slave doesn't free himself. Sometimes one image does what a thousand arguments couldn't.</p>
             </a>
 
             <a href="/best-reads" class="explore-card">
                 <div class="explore-card-icon">&#x2B50;</div>
                 <h3>Best Reads</h3>
-                <p>The most powerful pages on the site — curated. If you only have an hour, start here.</p>
+                <p>Short on time? These are the pages people send to their friends at midnight with the message: "You have to read this."</p>
             </a>
 
             <a href="/scripture-tsunami" class="explore-card">
                 <div class="explore-card-icon">&#x1F30A;</div>
                 <h3>Scripture Tsunami</h3>
-                <p>An overwhelming flood of Bible verses — all pointing in one direction. The sheer volume of evidence is staggering.</p>
+                <p>200+ verses. One direction. The sheer weight of biblical evidence isn't a drip — it's a flood. Good luck building a dam.</p>
             </a>
         </div>
     </div>
@@ -949,7 +799,7 @@
                 <span class="commitment-number">01</span>
                 Original Languages First
             </div>
-            <p>We parse the Greek and Hebrew — tense, voice, mood. Doctrine rests on the bedrock of Scripture, not on English paraphrases or theological assumptions.</p>
+            <p>We parse the Greek and Hebrew — tense, voice, mood. English translations are gentle with you. The original languages are not. We let them speak.</p>
         </div>
 
         <div class="commitment">
@@ -957,7 +807,7 @@
                 <span class="commitment-number">02</span>
                 Arguments Nobody Else Is Making
             </div>
-            <p>We build cases from the grammar of doxology, from the internal contradictions of competing views, from necessary inferences that follow from the text itself.</p>
+            <p>You've heard the standard arguments. We make the ones nobody else is making — from the grammar of doxology, from the internal contradictions of rival views, from the inferences the text demands and most commentaries dodge.</p>
         </div>
 
         <div class="commitment">
@@ -965,7 +815,7 @@
                 <span class="commitment-number">03</span>
                 Steel-Man Every Objection
             </div>
-            <p>We address the strongest form of each objection — the version hardest to answer. Then we show why the text ultimately vindicates God's sovereign choice.</p>
+            <p>We never fight straw men. Every objection gets its strongest form — the version hardest to answer, the one your smartest friend would use. Then we let the text respond.</p>
         </div>
 
         <div class="commitment">
@@ -973,7 +823,7 @@
                 <span class="commitment-number">04</span>
                 Follow the Text Wherever It Leads
             </div>
-            <p>We do not begin with a system and make the Bible fit. We begin with the Bible and follow it. If it teaches election, we say so. And it teaches election.</p>
+            <p>We did not start with a system and go looking for proof texts. We started with the text and followed it. It led somewhere most churches won't go. We went anyway.</p>
         </div>
 
         <div class="commitment">
@@ -981,7 +831,7 @@
                 <span class="commitment-number">05</span>
                 Give God All the Glory
             </div>
-            <p>This doctrine exists to exalt God's sovereignty and humble human pride — to show that salvation is entirely His work. Soli Deo Gloria.</p>
+            <p>Every page on this site exists for one purpose: to make God bigger in your eyes and your contribution to your salvation smaller — until it disappears entirely, and all that remains is grace. <em>Soli Deo Gloria.</em></p>
         </div>
     </div>
 
@@ -990,7 +840,7 @@
     <div class="contact-strip">
         <div class="contact-box">
             <p>
-                Have a question about what Scripture teaches? Want to share your story of how God opened your eyes to His sovereign grace? We would love to hear from you.
+                Have a question the site hasn't answered yet? Want to tell us about the moment God opened your eyes? We read every message.
             </p>
             <a href="mailto:foreknownone@adoptedbygrace.net" class="contact-email">foreknownone@adoptedbygrace.net</a>
             <p class="contact-verse">"Before I formed you in the womb I knew you." — Jeremiah 1:5</p>
@@ -1002,7 +852,7 @@
     <div class="cta-section">
         <div class="cta-box">
             <p>
-                Ready to see the evidence for yourself?
+                The evidence is waiting. Are you?
             </p>
             <a href="/start-here" class="cta-button">Start Your Journey</a>
         </div>
