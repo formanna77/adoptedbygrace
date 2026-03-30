@@ -181,6 +181,13 @@ const CATEGORIES = [
     prefixes: ['psalms', 'psalm'],
     // No hubFiles — psalms-election IS content, not just a hub landing page
   },
+  {
+    name: 'Healing & Hope',
+    icon: '💚',
+    hub: '/anxious-mind-hub',
+    desc: 'Where real pain meets sovereign grace',
+    prefixes: ['anxious-mind', 'broken-mirror', 'invisible-wall', 'open-wound', 'shattered-lens'],
+  },
 ];
 
 // ── Helpers ────────────────────────────────────────────────────────

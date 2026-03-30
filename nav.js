@@ -176,6 +176,7 @@
                 { name: 'Chosen Before the Foundation - A Letter from Before You Existed', href: '/story-the-letter-before-the-world', desc: 'A woman finds a letter her father wrote before she was born. A tender story about being chosen before the foundation of ' },
                 { name: 'Did You Choose God or Did God Choose You?', href: '/story-the-fish-who-chose-the-ocean', desc: 'Did you really choose God? A fable about the fish who chose the ocean and why God' },
                 { name: 'The Dead City - Dead People Can\'t Choose', href: '/story-the-dead-city', desc: 'Why dead people can' },
+                { name: 'The Garden That Grew Itself — A Children\'s Story', href: '/story-the-garden-that-grew-itself', desc: 'A children' },
                 { name: 'The King\'s Banquet - What is Irresistible Grace?', href: '/story-the-kings-banquet', desc: 'What is irresistible grace? The King' },
                 { name: 'The Orphanage - What is Election in the Bible?', href: '/story-the-orphanage', desc: 'What is election in the Bible? Every child chose their family - until adoption papers dated before birth were found.' },
                 { name: 'The Self-Made Man - Why Self-Salvation is an Illusion', href: '/story-the-self-made-man', desc: 'The self-made man who took credit for everything he didn' },
@@ -331,48 +332,22 @@
             ]
         },
         {
-            name: 'The Anxious Mind',
-            icon: '🧠',
+            name: 'Healing & Hope',
+            icon: '💚',
             href: '/anxious-mind-hub',
-            desc: 'Mental health meets sovereignty',
+            desc: 'Where real pain meets sovereign grace',
             subs: [
-                { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'Anxiety is the logical result of believing everything depends on you. The sovereignty of God is the deepest cure.' }
-            ]
-        },
-        {
-            name: 'The Broken Mirror',
-            icon: '🪞',
-            href: '/broken-mirror-hub',
-            desc: 'Identity, worth & purpose in God\'s design',
-            subs: [
-                { name: 'You Are Not a Self-Made Anything', href: '/broken-mirror-not-self-made', desc: 'The myth of self-creation dismantled. You aren\'t building an identity — you\'re discovering one crafted before Genesis 1:1.' }
-            ]
-        },
-        {
-            name: 'The Open Wound',
-            icon: '🩸',
-            href: '/open-wound-hub',
-            desc: 'Suffering, grief & trauma under sovereignty',
-            subs: [
-                { name: 'The Question That Haunts Every Hospital Room', href: '/open-wound-hospital-room', desc: 'Why do bad things happen? The #1 theological search answered without platitudes — with tears and with Scripture.' }
-            ]
-        },
-        {
-            name: 'The Invisible Wall',
-            icon: '👥',
-            href: '/invisible-wall-hub',
-            desc: 'Loneliness, relationships & belonging',
-            subs: [
-                { name: '82% of People Are Lonely — Here\'s Why That\'s a Theological Problem', href: '/invisible-wall-lonely-theological', desc: '82% of people report loneliness. It\'s not a social problem — it\'s a sovereignty problem.' }
-            ]
-        },
-        {
-            name: 'The Shattered Lens',
-            icon: '🔍',
-            href: '/shattered-lens-hub',
-            desc: 'Truth, trust & the crisis of belief',
-            subs: [
-                { name: 'When You Can\'t Tell What\'s True Anymore', href: '/shattered-lens-cant-tell-true', desc: 'The epistemological crisis of 2026: AI, deepfakes, misinformation. Romans 1 predicted it. Sovereignty is the only anchor.' }
+                { name: '82% of People Are Lonely — Why That\'s a Theological Problem', href: '/invisible-wall-lonely-theological', desc: 'Loneliness is not a social problem—it' },
+                { name: 'The Anxious Mind', href: '/anxious-mind-hub', desc: 'The Anxious Mind — exploring anxiety, depression, burnout, and OCD through the lens of God' },
+                { name: 'The Broken Mirror — Identity, Worth & Purpose', href: '/broken-mirror-hub', desc: 'The Broken Mirror — Identity, Worth & Purpose. You are not a self-made anything. Discover who God made you to be before ' },
+                { name: 'The Invisible Wall: Relationships, Loneliness & Forgiveness', href: '/invisible-wall-hub', desc: '82% of people report experiencing loneliness. But God' },
+                { name: 'The Open Wound — Suffering & God\'s Sovereignty', href: '/open-wound-hub', desc: 'The Open Wound: Suffering, Grief & Trauma. For those who have lost someone, live with pain, survived abuse, or asked why' },
+                { name: 'The Question That Haunts Every Hospital Room', href: '/open-wound-hospital-room', desc: 'The Question That Haunts Every Hospital Room: Why do bad things happen to good people? Scripture' },
+                { name: 'The Shattered Lens — Truth, Trust & the Modern Crisis of Belief', href: '/shattered-lens-hub', desc: 'The Shattered Lens: Truth, Trust & the Modern Crisis of Belief. In a world of deepfakes, AI, misinformation, and politic' },
+                { name: 'When You Can\'t Tell What\'s True Anymore', href: '/shattered-lens-cant-tell-true', desc: 'When You Can' },
+                { name: 'You Are Not a Self-Made Anything', href: '/broken-mirror-not-self-made', desc: 'You Are Not a Self-Made Anything. Culture screams' },
+                { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'You Were Never Meant to Carry This — why anxiety is the logical result of believing everything depends on you, and how G' },
+                { name: 'Your Brain Decides Before You Do — And That\'s Good News', href: '/anxious-mind-brain-decides', desc: 'Neuroscience shows your brain decides before' }
             ]
         }
     ];
