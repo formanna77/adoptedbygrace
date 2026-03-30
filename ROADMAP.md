@@ -112,6 +112,7 @@
 - `question-1peter1.html` — **NEW** 1 Peter 1:1-2 deep-dive: "Elect Exiles According to the Foreknowledge of God" — Trinitarian election, foreknowledge as fore-love
 - `question-revelation13.html` — **NEW** Revelation 13:8 & 17:8 deep-dive: "Names Written Before the Foundation of the World" — Book of Life and eternal decree
 - `secular-algorithm-sovereignty.html` — **NEW** "The Algorithm Knows You Better Than You Know Yourself" — Secular evidence page: predictive algorithms (Netflix, Spotify, Amazon, Target, Facebook studies) confirm divine sovereignty & foreknowledge. ~2,500 words. ✅ (2026-03-28 Visionary)
+- `question-proverbs-sovereignty.html` — **NEW** "No Dice, No Chance" — Proverbs 16:33 & 21:1: sovereignty over lots and kings' hearts. Hebrew word studies (goral, mishpat, palgey-mayim, natah, lev, kol), six arguments, steelmanned counter, five witnesses, five objections answered. ✅ (2026-03-30 Content Builder)
 - `secular-billion-decisions.html` — **NEW** "The Billion Decisions You Didn't Make Today" — Secular evidence page: autonomic nervous system, immune function, DNA repair, brainstem sovereignty → if God didn't trust your heartbeat to free will, why your salvation? ~2,200 words. ✅ (2026-03-30 Visionary #4)
 - `ot-noah.html` — **NEW** Noah: Chosen for Preservation — Genesis 6-9, grace before the flood, Hebrew word study (chen, tsaddiq, tamim), the order of grace (6:8 before 6:9), the ark as election, the covenant of preservation. ✅ (2026-03-28 Content Builder)
 - `ot-abel-cain.html` — **NEW** Abel vs. Cain: The First Election — Genesis 4, Hebrews 11:4, 1 John 3:12. The Bible's first story after Eden reveals sovereign distinction. Hebrew analysis, six arguments, five objections answered. ✅ (2026-03-28 Content Builder)
@@ -163,7 +164,7 @@
 - [x] **Jeremiah: Called Before Formation** — Jeremiah 1:5 → `ot-jeremiah.html` ✅ (2026-03-28 Content Builder)
 - [x] **Job: Suffering and God's Sovereignty** — Job 1-2, 38-42. God initiates suffering, speaks from the whirlwind, never explains "why" — and Job worships. Hebrew word studies (yasad, etsah, gazar, ma'as, se'arah, tam), six arguments, five objections answered, pastoral section for the suffering reader. → `ot-job.html` ✅ (2026-03-29 Content Builder)
 - [x] **Jonah: Reluctant Chosen Instrument** — Jonah 1-4, sovereignty over reluctant prophets, Hebrew word studies (manah, hetil, barach, yeshu'ah, nehpakhet), irresistible grace in narrative, Nineveh revival, 6 arguments, 5 objections answered → `ot-jonah.html` ✅ (2026-03-29 Content Builder)
-- [ ] **Proverbs 16:33 / 21:1 standalone page** — Sovereignty over lots and kings' hearts
+- [x] **Proverbs 16:33 / 21:1 standalone page** — Sovereignty over lots and kings' hearts → `question-proverbs-sovereignty.html` ✅ (2026-03-30 Content Builder)
 
 ### Priority 3 — Systematic Theology Pages
 - [x] **Systematic Theology Hub** — `systematic-theology.html` — Hub linking all systematic theology topics
@@ -413,6 +414,22 @@
 ---
 
 ## Session Log
+
+### 2026-03-30 — Content Builder Session: question-proverbs-sovereignty.html
+- **Page:** `question-proverbs-sovereignty.html` — "No Dice, No Chance — God's Sovereignty over Lots and Kings"
+- **Priority 2 — OT Election** backlog item: Proverbs 16:33 / 21:1 standalone page
+- **Category/Angle:** Wisdom literature meets everyday life — written for the person who believes in luck, fears powerful leaders, or has never considered that the "random" events of their life are divinely governed.
+- **Content includes:**
+  - Opening hook targeting the "luck-believer" and the politically anxious
+  - Six Proverbs passages in context (16:33, 21:1, 16:1, 16:9, 19:21, 20:24)
+  - Six Hebrew word studies: goral (lot), mishpat (decision/verdict), palgey-mayim (channels of water), natah (to turn/incline), lev (heart/will), kol (every)
+  - Six arguments from Scripture including lesser-to-greater reasoning, historical examples (Pharaoh, Cyrus, Artaxerxes), and salvation application
+  - Steelmanned Arminian counter with four-point rebuttal (grammar, metaphor, genre, cross-references)
+  - Five historical witnesses: Calvin, Spurgeon, A.W. Pink, R.C. Sproul, Jonathan Edwards
+  - Five objections answered: author of sin, fatalism, determinism and effort, free will, genre of Proverbs
+  - Pastoral section addressing four life situations: chaos, political fear, assurance, prayer
+  - Six cross-reference cards linking to related pages
+- **101 Ways lens:** Reaches the person who watches the news and despairs over politics, the person who attributes life events to "luck," and the person who has never connected Proverbs to the doctrine of salvation.
 
 ### 2026-03-29 — Refiner Session #3: question-isaiah53.html, question-parables.html, ot-job.html
 - **Builder content today:** Three unrefined pages from today's Builder sessions prioritized for refinement.
