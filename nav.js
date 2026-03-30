@@ -16,10 +16,10 @@
             href: '/start-here',
             desc: 'Your guided journey into sovereign grace',
             subs: [
+                { name: '500+ Bible Verses That Prove God\'s Sovereignty in Salvation | Scripture Tsunami', href: '/scripture-tsunami', desc: 'They told you' },
                 { name: 'But What About Free Will and Fairness? — Phase 4', href: '/start-here-phase4', desc: 'Phase 4: The hardest objections to biblical theology answered — free will, fairness, John 3:16,' },
                 { name: 'Find Your Starting Point', href: '/start-here-assessment', desc: 'Discover your starting point on the 5-phase journey to understanding God' },
                 { name: 'Living as an Elect Child of God — Phase 5', href: '/start-here-phase5', desc: 'Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, worship, mission, and ' },
-                { name: 'Scripture Tsunami', href: '/scripture-tsunami', desc: 'Interactive database of 500+ Bible verses organized by the five doctrines of grace. Searchable, cross-referenced, and im' },
                 { name: 'Start Here — Your Journey into Sovereign Grace', href: '/start-here', desc: 'New to biblical theology? A guided 5-phase journey from curiosity to conviction about salvation, grace, and God' },
                 { name: 'The Five Points of Grace — Phase 2', href: '/start-here-phase2', desc: 'The five biblical doctrines of grace explained: Total Depravity, Unconditional Election, Definite Atonement, Irresistibl' },
                 { name: 'What Does the Bible Actually Teach? — Phase 3', href: '/start-here-phase3', desc: 'Phase 3: What does the Bible actually teach about salvation? A passage-by-passage journey through Romans 9, Ephesians 1,' },
@@ -41,7 +41,7 @@
                 { name: 'Eternal Security: Can a Believer Lose Salvation?', href: '/question-secure', desc: 'Eternal Security: Can a Believer Lose Salvation? Scripture teaches that those whom God saves are kept safe by His power.' },
                 { name: 'External and Internal Calling: What\'s the Difference?', href: '/question-external-internal-call', desc: 'External and Internal Calling: What' },
                 { name: 'Faith: Gift or Achievement? – Philippians 1:29 & Ephesians 2:8-9', href: '/question-faithgift', desc: 'Is faith a human achievement or a divine gift? Philippians 1:29 and Ephesians 2:8-9 answer definitively: faith is grante' },
-                { name: 'Free Will: The Doctrine the Bible Never Actually Teaches – Ephesians 2:1-5, Romans 8:7-8', href: '/question-freewill', desc: 'The Bible never teaches autonomous free will. What it describes is spiritual death, binding sin, and regeneration that p' },
+                { name: 'Free Will: The Doctrine the Bible Never Actually Teaches – Ephesians 2:1-5, Romans 8:7-8', href: '/question-freewill', desc: 'You' },
                 { name: 'God\'s Hardening: Does God Make People Sin?', href: '/question-hardening', desc: 'God' },
                 { name: 'Is God Unfair? – Romans 9:19-23', href: '/question-unfair', desc: 'Is God unfair? Romans 9:19-23 — Paul confronts the moral objection to election head-on and does not soften the answer.' },
                 { name: 'Isaiah 53: The Servant Who Bore the Sins of Many', href: '/question-isaiah53', desc: 'Deep exegesis of Isaiah 53 — the Suffering Servant bore the sins of MANY, not all. Hebrew word studies, the will of the ' },
@@ -123,7 +123,7 @@
                 { name: 'FACTS Check: Dismantling the Arminian Framework Point by Point', href: '/demolition-arminian-facts', desc: 'Seminary-level exegetical analysis dismantling the Society of Evangelical Arminians' },
                 { name: 'Hebrews 6:4-6 — Verse Demolition #10', href: '/demolition-hebrews6-4-6', desc: 'Demolition #10: Hebrews 6:4-6 — The' },
                 { name: 'If God Controls Everything, How Can He Blame Us?', href: '/objection-responsibility', desc: 'If God predetermines everything, how can He hold us responsible? Romans 9:19 answered with Scripture, compatibilism, and' },
-                { name: 'If God Predestined Everything, Why Does He Command Us?', href: '/objection-why-command', desc: 'An objection answered: How God' },
+                { name: 'If God Predestined Everything, Why Does He Command Us?', href: '/objection-why-command', desc: 'If God predestined everything, why pray? Why obey? The answer reveals why commands aren' },
                 { name: 'Joshua 24:15 — Verse-by-Verse Demolition', href: '/demolition-joshua24-15', desc: 'Verse-by-verse exegetical demolition of the Arminian use of Joshua 24:15 as proof of libertarian free will. Scripture te' },
                 { name: 'Titus 2:11 — "The Grace of God Has Appeared to All"', href: '/demolition-titus2-11', desc: 'Demolition #17: Titus 2:11 and the' },
                 { name: 'When Philosophy Replaces Exegesis — Dismantling the Orthodox Case Against Predestination', href: '/demolition-orthodox-predestination', desc: 'A thorough exegetical dismantling of the Eastern Orthodox argument against Reformed predestination — exposing the geneti' }
@@ -140,7 +140,7 @@
                 { name: 'The Autonomy Illusion: Why "Free Will" Feels So Real', href: '/psychology-autonomy-illusion', desc: 'Neuroscience reveals that our sense of autonomous choice may be the brain' },
                 { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Why self-sovereignty is the last idol to fall — even for believers. A deep psychological and theological exploration of ' },
                 { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
-                { name: 'Why We Resist: The Psychology of Rejecting God\'s Sovereignty', href: '/psychology-why-we-resist', desc: 'Explore the psychology of why intelligent, Bible-reading Christians resist God' }
+                { name: 'Why We Resist: The Psychology of Rejecting God\'s Sovereignty', href: '/psychology-why-we-resist', desc: 'Why do smart, Bible-loving Christians reject what the Bible clearly says about God' }
             ]
         },
         {
@@ -152,7 +152,7 @@
                 { name: 'A Letter to the Cold Church', href: '/devotional-cold-church', desc: 'A warm, pastoral devotional on Revelation 3:14-22 and spiritual lukewarmness. How sovereign grace melts cold hearts.' },
                 { name: 'Adoption Papers', href: '/devotional-adoption-papers', desc: 'Adoption Papers: A meditative reflection on being chosen and adopted as God' },
                 { name: 'Forever Loved', href: '/devotional-forever-loved', desc: 'Forever Loved: A meditative reflection on God' },
-                { name: 'He Will Never Give Up On You', href: '/devotional-never-gives-up', desc: 'He Will Never Give Up On You — the truth every broken heart needs most: God' },
+                { name: 'He Will Never Give Up On You', href: '/devotional-never-gives-up', desc: 'What if the God of the universe decided to love you before you were born — and nothing you could ever do could make Him ' },
                 { name: 'In Christ: The Two Words That Change Everything', href: '/devotional-in-christ', desc: 'A devotional meditation on union with Christ — the two most powerful words in Scripture. Every spiritual blessing flows ' },
                 { name: 'Love Before the World Was Made', href: '/devotional-love-before-the-world', desc: 'A meditative devotion on God' },
                 { name: 'My Chains Fell Away', href: '/devotional-my-chains-fell-away', desc: 'My Chains Fell Away: A meditative reflection on irresistible grace and spiritual freedom. biblical theology devotional.' },
