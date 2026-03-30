@@ -819,66 +819,6 @@
     <!-- BACK TO TOP -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">&#x2191;</button>
 
-    <script>
-    window.addEventListener('scroll', () => {
-        const bar = document.getElementById('readingProgressBar');
-        const scrollTop = document.documentElement.scrollTop;
-        const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        if (bar) bar.style.width = (scrollTop / scrollHeight * 100) + '%';
-        const btn = document.getElementById('backToTop');
-        if (btn) { if (scrollTop > 400) btn.classList.add('visible'); else btn.classList.remove('visible'); }
-    });
-    document.getElementById('backToTop')?.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
-    const sections = document.querySelectorAll('.main-content h2[id]');
-    const navLinks = document.querySelectorAll('.section-nav a');
-    window.addEventListener('scroll', () => {
-        let current = '';
-        sections.forEach(s => { if (window.scrollY >= s.offsetTop - 150) current = s.getAttribute('id'); });
-        navLinks.forEach(l => { l.classList.remove('active'); if (l.getAttribute('href') === '#' + current) l.classList.add('active'); });
-    });
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => { if (entry.isIntersecting) { entry.target.style.opacity = '1'; entry.target.style.transform = 'translateY(0)'; } });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.scripture-block, .callout, .objection, .witness-quote, .explore-link').forEach(el => {
-        el.style.opacity = '0'; el.style.transform = 'translateY(20px)'; el.style.transition = 'opacity 0.6s ease, transform 0.6s ease'; observer.observe(el);
-    });
-    </script>
-
-    <script>
-    const searchPages = [
-        { title: "Isaiah 53: The Servant Who Bore the Sins of Many", url: "/question-isaiah53", cat: "The Evidence", desc: "The OT foundation of definite atonement" },
-        { title: "John 17: The Prayer That Proves Election", url: "/question-john17", cat: "The Evidence", desc: "Jesus prays for those given to Him — not for the world" },
-        { title: "Romans 9 — The Mountain", url: "/question-romans9", cat: "The Evidence", desc: "The most direct chapter on election" },
-        { title: "The Golden Chain — Romans 8:29-30", url: "/question-goldchain", cat: "The Evidence", desc: "Foreknew, predestined, called, justified, glorified" },
-        { title: "Ephesians 1 — Chosen in Christ", url: "/question-chosen", cat: "The Evidence", desc: "Chosen before the foundation of the world" },
-        { title: "John 6 — Drawing and Coming", url: "/question-john6", cat: "The Evidence", desc: "No one CAN come unless the Father draws" },
-        { title: "1 John 2:2 — Demolition", url: "/demolition-1john2-2", cat: "Demolition", desc: "Owen's trilemma and the Jewish-Gentile distinction" },
-        { title: "Christology", url: "/systematic-christology", cat: "Theology", desc: "Person and work of Christ, definite atonement" },
-        { title: "Total Depravity", url: "/question-depravity", cat: "The Evidence", desc: "Man's complete inability" },
-        { title: "Irresistible Grace", url: "/question-irresistible", cat: "The Evidence", desc: "The power of effectual calling" },
-    ];
-    const searchToggle = document.getElementById('searchToggle');
-    const searchOverlay = document.getElementById('searchOverlay');
-    const searchInput = document.getElementById('searchInput');
-    const searchClose = document.getElementById('searchClose');
-    const searchResults = document.getElementById('searchResults');
-    function openSearch() { searchOverlay.classList.add('open'); setTimeout(() => searchInput.focus(), 100); }
-    function closeSearch() { searchOverlay.classList.remove('open'); searchInput.value = ''; searchResults.innerHTML = ''; }
-    if (searchToggle) searchToggle.addEventListener('click', openSearch);
-    if (searchClose) searchClose.addEventListener('click', closeSearch);
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && searchOverlay?.classList.contains('open')) closeSearch();
-        if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
-    });
-    if (searchInput) searchInput.addEventListener('input', () => {
-        const q = searchInput.value.trim().toLowerCase();
-        if (q.length < 2) { searchResults.innerHTML = ''; return; }
-        const matches = searchPages.filter(p => p.title.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q) || p.cat.toLowerCase().includes(q)).slice(0, 12);
-        if (!matches.length) { searchResults.innerHTML = '<div class="search-no-results">No pages found.</div>'; return; }
-        searchResults.innerHTML = matches.map(p => `<a href="${p.url}" class="search-result-item"><div class="search-result-category">${p.cat}</div><div class="search-result-title">${p.title}</div><div class="search-result-snippet">${p.desc}</div></a>`).join('');
-    });
-    </script>
-
     <script src="/nav.js"></script>
 </body>
 </html>

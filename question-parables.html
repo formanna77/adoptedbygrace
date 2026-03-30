@@ -902,59 +902,6 @@
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
 
-    <script>
-    window.addEventListener('scroll', () => {
-        const bar = document.getElementById('readingProgress');
-        const h = document.documentElement.scrollHeight - window.innerHeight;
-        if (bar && h > 0) bar.style.width = (window.scrollY / h * 100) + '%';
-    });
-    const btt = document.getElementById('backToTop');
-    window.addEventListener('scroll', () => { if (btt) btt.classList.toggle('visible', window.scrollY > 400); });
-    if (btt) btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(e => { if (e.isIntersecting) { e.target.style.opacity = '1'; e.target.style.transform = 'translateY(0)'; observer.unobserve(e.target); } });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.scripture-block, .callout, .objection, .witness-quote, .explore-link, .argument-item, .greek-box').forEach(el => {
-        el.style.opacity = '0'; el.style.transform = 'translateY(20px)'; el.style.transition = 'opacity 0.6s ease, transform 0.6s ease'; observer.observe(el);
-    });
-    </script>
-
-    <script>
-    const searchPages = [
-        { title: "Why Jesus Spoke in Parables", url: "/question-parables", cat: "The Evidence", desc: "Divine selectivity in revelation — Matthew 13:10-17" },
-        { title: "John 6 — Drawing and Coming", url: "/question-john6", cat: "The Evidence", desc: "All the Father gives me WILL come — none lost" },
-        { title: "Matthew 11 — Hidden from the Wise", url: "/question-matt11", cat: "The Evidence", desc: "Jesus thanks the Father for selective revelation" },
-        { title: "Total Depravity", url: "/question-depravity", cat: "The Evidence", desc: "Man's complete inability apart from grace" },
-        { title: "The CANNOT Page", url: "/question-cannot", cat: "The Evidence", desc: "What the Bible says you cannot do" },
-        { title: "1 Timothy 2:4 Demolition", url: "/demolition-1tim2-4", cat: "Demolition", desc: "God desires all KINDS of people to be saved" },
-        { title: "Ephesians 1 — Chosen in Christ", url: "/question-chosen", cat: "The Evidence", desc: "Chosen before the foundation of the world" },
-        { title: "Romans 9 — The Mountain", url: "/question-romans9", cat: "The Evidence", desc: "The most direct chapter on election" },
-        { title: "The Golden Chain", url: "/question-goldchain", cat: "The Evidence", desc: "Foreknew, predestined, called, justified, glorified" },
-        { title: "Irresistible Grace", url: "/question-irresistible", cat: "The Evidence", desc: "Grace that overcomes resistance" },
-    ];
-    const searchToggle = document.getElementById('searchToggle');
-    const searchOverlay = document.getElementById('searchOverlay');
-    const searchInput = document.getElementById('searchInput');
-    const searchClose = document.getElementById('searchClose');
-    const searchResults = document.getElementById('searchResults');
-    function openSearch() { searchOverlay.classList.add('open'); setTimeout(() => searchInput.focus(), 100); }
-    function closeSearch() { searchOverlay.classList.remove('open'); searchInput.value = ''; searchResults.innerHTML = ''; }
-    if (searchToggle) searchToggle.addEventListener('click', openSearch);
-    if (searchClose) searchClose.addEventListener('click', closeSearch);
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && searchOverlay && searchOverlay.classList.contains('open')) closeSearch();
-        if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
-    });
-    if (searchInput) searchInput.addEventListener('input', () => {
-        const q = searchInput.value.trim().toLowerCase();
-        if (q.length < 2) { searchResults.innerHTML = ''; return; }
-        const matches = searchPages.filter(p => p.title.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q) || p.cat.toLowerCase().includes(q)).slice(0, 12);
-        if (!matches.length) { searchResults.innerHTML = '<div class="search-no-results">No pages found.</div>'; return; }
-        searchResults.innerHTML = matches.map(p => `<a href="${p.url}" class="search-result-item"><div class="search-result-category">${p.cat}</div><div class="search-result-title">${p.title}</div><div class="search-result-snippet">${p.desc}</div></a>`).join('');
-    });
-    </script>
-
     <script src="/nav.js"></script>
 </body>
 </html>

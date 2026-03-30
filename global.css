@@ -430,7 +430,7 @@ h3 { font-size: 1.5rem; font-weight: 700; }
 h4 { font-size: 1.2rem; font-weight: 700; }
 
 /* ===== PAGE HERO ===== */
-.page-hero { position: relative; padding: 9rem 2rem 4rem; text-align: center; overflow: hidden; }
+.page-hero { position: relative; padding: 5rem 2rem 4rem; text-align: center; overflow: hidden; }
 .page-hero::before { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 700px; height: 700px; background: radial-gradient(circle, rgba(212, 162, 84, 0.05) 0%, rgba(139, 92, 246, 0.03) 40%, transparent 70%); border-radius: 50%; pointer-events: none; animation: pulseGlow 6s ease-in-out infinite; }
 @keyframes pulseGlow { 0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); } 50% { opacity: 1; transform: translate(-50%, -50%) scale(1.15); } }
 .page-hero .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.35em; color: var(--accent-ember); margin-bottom: 1rem; position: relative; z-index: 1; }
@@ -441,7 +441,8 @@ h4 { font-size: 1.2rem; font-weight: 700; }
 /* ===== SECTION DIVIDERS ===== */
 .section-divider { height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.2; margin: 0; border: none; }
 
-/* ===== CONTENT SECTIONS ===== */
+/* ===== CONTENT CONTAINERS & SECTIONS ===== */
+.content-container { max-width: 850px; margin: 0 auto; padding: 0 2rem; }
 .content-section { max-width: 850px; margin: 0 auto; padding: 4rem 2rem; }
 .content-section h2 { margin-bottom: 1.5rem; }
 .content-section h3 { margin-top: 2.5rem; margin-bottom: 1rem; color: var(--accent-gold); }
@@ -530,7 +531,7 @@ a:focus-visible { outline-offset: 3px; }
 @media (max-width: 768px) {
     h1 { font-size: 2.2rem; }
     h2 { font-size: 1.8rem; }
-    .page-hero { padding: 5rem 1.5rem 2rem; }
+    .page-hero { padding: 3rem 1.5rem 2rem; }
     .page-hero::before { width: 350px; height: 350px; }
     .page-hero .subtitle { font-size: 1rem; }
     .content-section { padding: 2rem 1.5rem; }
@@ -543,7 +544,7 @@ a:focus-visible { outline-offset: 3px; }
 }
 @media (max-width: 480px) {
     h1 { font-size: 1.8rem; }
-    .page-hero { padding: 4.5rem 1rem 1.5rem; }
+    .page-hero { padding: 2.5rem 1rem 1.5rem; }
     .page-hero::before { width: 250px; height: 250px; }
     .content-section { padding: 1.5rem 1rem; }
     footer { margin-top: 2rem; padding: 1.5rem 1rem; }
