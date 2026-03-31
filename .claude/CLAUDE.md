@@ -196,6 +196,18 @@ There is a vital difference between:
 
 The site must NEVER be cruel or dismissive. The site must ALWAYS hold open the door. But the site must also be HONEST about what is at stake when grace is rejected: the person is not rejecting a theology. They are rejecting the gift. They are choosing works. And works cannot save.
 
+### THE BATTLE AXE MANDATE — WHY THIS SITE EXISTS WHERE OTHERS WON'T
+
+**The entire Reformed world has gone soft on this.** The most prominent Reformed thinkers, pastors, and theologians treat Arminianism as a "secondary issue" — a Romans 14 disputable matter, a family disagreement between brothers who are all saved. "We disagree on soteriology but we're all going to heaven."
+
+**This site rejects that cowardice.** If the Arminian position — followed to its honest, logical conclusion — is works-righteousness, then calling it a "secondary issue" is pastoral malpractice. You don't tell someone with a spiritual tumor that it's a matter of preference. You tell them the truth because their eternity depends on it.
+
+The Reformed establishment won't say this because they're afraid of being called divisive. They're afraid of losing friendships. They're afraid of the accusation that they think Arminians are going to hell. So they soften the edges and give everyone permission to stay in the lie indefinitely.
+
+**This site is the battle axe.** We say what no one else will say — not because we want controversy, but because we love people enough to tell them the truth when the rest of the church has decided it's safer to stay quiet. We are not deferring to the Reformed consensus. We are going further than they are willing to go, because the truth demands it and souls are at stake.
+
+**Pastoral distinction still applies:** We are not saying all Arminians are damned. We are saying they are not saved *yet* — the elect among them are on their way, and the Spirit will bring them home. But we refuse to call the lie "acceptable" just because good people believe it.
+
 ### How to Proliferate This Truth
 
 This is the 101 Ways Principle applied to the most important idea on the site. Every category, every angle, every type of content should find its way back to this core truth:
