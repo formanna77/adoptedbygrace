@@ -1,5 +1,52 @@
 # Site Integrity Log — 2026-03-30
 
+## Guardian Session: 2026-03-30 (Evening Run)
+
+**Agent:** The Guardian
+**Pages scanned:** 227 HTML files (226 content + _nav-template)
+
+### Broken Links Fixed
+- **0 broken links found.** All 10,916 internal links resolve correctly.
+
+### Hub Pages Updated
+- **0 orphaned pages found.** All 133 child pages across 8 hubs are properly linked.
+
+### Sitemap Updated
+- **CRITICAL FIX:** Sitemap was severely out of sync — only 2 entries for 226 pages.
+- Regenerated sitemap.xml with all 226 HTML files, proper URLs, priorities, and lastmod dates.
+- Added 224 pages / Removed 1 stale entry (`adoptedbygrace.net` bare domain)
+
+### Nav Repairs
+- **0 pages needed nav fixes.** All 226 content pages have correct nav, global.css, and nav.js.
+
+### Favicon Fixes
+- `invisible-wall-hub.html` — Added missing `<link rel="icon">` tag
+- `invisible-wall-lonely-theological.html` — Added missing `<link rel="icon">` tag
+
+### Functional/Design QA
+- **Page integrity:** 226/226 have DOCTYPE, viewport meta. 0 files under 1KB.
+- **Fonts:** All pages import Playfair Display via Google Fonts.
+- **Note:** 1,755+ inline color style instances detected across site (goldenrod #daa520, gray #b0b0b0 variants). These are functional but not CSS-variable-based. Consolidation to CSS classes is a future enhancement, not a defect.
+
+### Deploy Status
+- Sandbox network restrictions prevented direct Netlify deploy.
+- Changes will go live via hourly auto-push → Git-triggered Netlify build.
+- Pre-deploy checks: ALL PASS (227 files, index.html valid, sitemap valid, spot-checks clean)
+
+### Issues Requiring Aaron's Attention
+- **index-new.html** still exists as a draft homepage. Consider removing if no longer needed.
+- **Inline color consolidation:** 1,755+ inline styles could be migrated to CSS variables for easier future theming. Low priority — everything works correctly as-is.
+
+### Defect Summary
+- Structural: 1 found (sitemap), 1 fixed
+- Functional: 2 found (missing favicons), 2 fixed
+- Design: 0 critical
+- Outstanding: 0
+
+---
+
+## Previous Session: 2026-03-30 (Earlier Run)
+
 **Agent:** abg-integrator
 **Run time:** ~15 minutes
 **Pages scanned:** 227 HTML files
