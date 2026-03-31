@@ -181,10 +181,10 @@
                 { name: 'Terror Management and the Threat of Sovereignty', href: '/psychology-terror-management', desc: 'Terror Management Theory explains why God' },
                 { name: 'The Autonomy Illusion: Why "Free Will" Feels So Real', href: '/psychology-autonomy-illusion', desc: 'Neuroscience reveals that our sense of autonomous choice may be the brain' },
                 { name: 'The Comfort of Believing You Saved Yourself', href: '/psychology-comfort-self-salvation', desc: 'Why does the idea that you chose God feel so right? Psychology reveals it' },
-                { name: 'The Cost of Rejecting Grace: When Claiming Your Salvation Becomes Your Damnation', href: '/psychology-cost-of-rejecting-grace', desc: 'What happens when someone rejects the doctrines of grace and claims credit for their own salvation? They commit the anci' },
                 { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Why self-sovereignty is the last idol to fall — even for believers. A deep psychological and theological exploration of ' },
                 { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
                 { name: 'When Your Heart Rejects What Your Mind Accepts', href: '/psychology-emotional-vs-rational', desc: 'When your head knows sovereignty is biblical but your heart rejects it. Dual-process theory, affect heuristic, and Haidt' },
+                { name: 'Where Did Your Faith Come From? The Question That Changes Everything', href: '/psychology-cost-of-rejecting-grace', desc: 'You love Jesus. You give God the glory. But have you ever asked where your faith came from? Follow one simple question t' },
                 { name: 'Why the Truth That Makes You Angriest Is the One That Will Set You Free', href: '/psychology-hostility-reaction', desc: 'When a lifelong Christian suddenly becomes enraged at the doctrines of grace, something deeper than theology is happenin' },
                 { name: 'Why We Resist: The Psychology of Rejecting God\'s Sovereignty', href: '/psychology-why-we-resist', desc: 'Why do smart, Bible-loving Christians reject what the Bible clearly says about God' }
             ]
