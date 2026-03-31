@@ -1039,6 +1039,26 @@ body {
 
 /* scroll-reveal REMOVED 2026-03-29 — same opacity:0 bug as .reveal */
 
+/* ===== RELATED ARTICLES — "ALL ROADS LEAD TO ROME" DISCOVERY ===== */
+.related-articles { max-width: 1000px; margin: 4rem auto 0; padding: 3rem 2rem; border-top: 1px solid rgba(212, 162, 84, 0.15); }
+.related-articles-inner { max-width: 900px; margin: 0 auto; }
+.related-articles-heading { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: var(--accent-gold); margin-bottom: 0.4rem; text-align: center; }
+.related-articles-subtitle { color: var(--text-muted); font-size: 0.9rem; text-align: center; margin-bottom: 2rem; }
+.related-articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.related-article-card { display: flex; flex-direction: column; gap: 0.4rem; padding: 1.2rem; background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.08); border-radius: 8px; text-decoration: none; color: inherit; transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease; }
+.related-article-card:hover { border-color: rgba(212, 162, 84, 0.3); background: var(--bg-card-hover); transform: translateY(-2px); }
+.related-article-cat { font-size: 0.7rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.1em; }
+.related-article-title { font-weight: 700; color: var(--text-primary); font-size: 0.92rem; line-height: 1.4; }
+.related-article-desc { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; }
+.related-articles-browse { display: flex; justify-content: center; gap: 2rem; margin-top: 2rem; }
+.related-browse-link { color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: color 0.2s ease; border-bottom: 1px solid transparent; }
+.related-browse-link:hover { border-bottom-color: var(--accent-gold); }
+@media (max-width: 768px) {
+    .related-articles-grid { grid-template-columns: 1fr; }
+    .related-articles { padding: 2rem 1.2rem; }
+    .related-articles-browse { flex-direction: column; align-items: center; gap: 1rem; }
+}
+
 /* ===== MOBILE LAYOUT OVERRIDES ===== */
 @media (max-width: 968px) {
     .footer-container { grid-template-columns: 1fr !important; }
