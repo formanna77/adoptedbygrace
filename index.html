@@ -125,6 +125,20 @@
         .truth-card-link { display: inline-block; margin-top: 1.5rem; color: var(--accent-gold); text-decoration: none; font-weight: 700; font-size: 0.95rem; padding: 0.7rem 1.5rem; border: 1px solid rgba(212, 162, 84, 0.4); border-radius: 6px; transition: all 0.3s ease; letter-spacing: 0.02em; }
         .truth-card-link:hover { color: #0a0a0f; background: linear-gradient(135deg, var(--accent-gold), #b8860b); border-color: var(--accent-gold); transform: translateY(-2px); box-shadow: 0 4px 20px rgba(212, 162, 84, 0.25); }
 
+        /* ===== CROWN JEWEL SECTION ===== */
+        .crown-jewel-section { padding: 5rem 2rem; position: relative; overflow: hidden; text-align: center; background: linear-gradient(135deg, rgba(232, 100, 44, 0.06) 0%, rgba(139, 92, 246, 0.04) 50%, rgba(212, 162, 84, 0.06) 100%); }
+        .crown-jewel-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent 10%, var(--accent-ember), var(--accent-gold), var(--accent-ember), transparent 90%); opacity: 0.6; }
+        .crown-jewel-section::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.3; }
+        .crown-jewel-inner { max-width: 780px; margin: 0 auto; position: relative; z-index: 1; }
+        .crown-jewel-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.5em; color: var(--accent-ember); margin-bottom: 1.5rem; }
+        .crown-jewel-headline { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 900; line-height: 1.2; margin-bottom: 1.5rem; }
+        .crown-jewel-headline em { font-style: italic; color: var(--accent-ember); }
+        .crown-jewel-body { font-size: 1.1rem; line-height: 1.9; color: var(--text-secondary); max-width: 680px; margin: 0 auto; }
+        .crown-jewel-body strong { color: var(--text-primary); }
+        .crown-jewel-body em { color: var(--accent-gold); }
+        .crown-jewel-cta { display: inline-block; margin-top: 2.5rem; padding: 1.1rem 2.5rem; background: linear-gradient(135deg, var(--accent-ember), #c0541e); color: #fff; font-weight: 700; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; letter-spacing: 0.03em; box-shadow: 0 4px 20px rgba(232, 100, 44, 0.25); }
+        .crown-jewel-cta:hover { transform: translateY(-3px); box-shadow: 0 8px 35px rgba(232, 100, 44, 0.4); }
+
         /* ===== EXPLORE HUB ===== */
         .explore-section { padding: 6rem 2rem; position: relative; }
         .explore-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-violet), transparent); opacity: 0.3; }
@@ -187,6 +201,9 @@
             .hero-never-text { font-size: 0.85rem; }
             .hero-glow { width: 400px; height: 400px; }
             .five-truths { padding: 3rem 1.5rem; }
+            .crown-jewel-section { padding: 3rem 1.5rem; }
+            .crown-jewel-headline { font-size: 2rem; }
+            .crown-jewel-body { font-size: 1rem; }
             .explore-section { padding: 3rem 1.5rem; }
             .never-section { padding: 3rem 1.5rem; }
             .never-headline { font-size: 2.2rem; }
@@ -212,6 +229,8 @@
             .hero-ctas { margin-top: 1.5rem; flex-direction: column; align-items: center; gap: 0.8rem; }
             .hero-glow { width: 250px; height: 250px; }
             .five-truths { padding: 2rem 1rem; }
+            .crown-jewel-section { padding: 2rem 1rem; }
+            .crown-jewel-headline { font-size: 1.6rem; }
             .explore-section { padding: 2rem 1rem; }
             .never-section { padding: 2rem 1rem; }
             .never-headline { font-size: 1.8rem; }
@@ -367,8 +386,8 @@ body {
                 <a href="/start-here" class="btn-primary">Begin the Journey</a>
                 <a href="/questions" class="btn-secondary">See the Evidence</a>
             </div>
-            <a href="/psychology-hostility-reaction" class="hero-never-link">
-                <span class="hero-never-text">She loved Jesus for 60 years. Then someone mentioned election — and something snapped. <em>Why does this doctrine make people so angry?</em></span>
+            <a href="/psychology-cost-of-rejecting-grace" class="hero-never-link">
+                <span class="hero-never-text">If your faith is something <em>you</em> generated — then it's a work, not grace. And what is not grace <em>cannot save.</em></span>
                 <span class="hero-never-arrow">→</span>
             </a>
         </div>
@@ -447,6 +466,21 @@ body {
         </div>
     </section>
 
+    <!-- ===== CROWN JEWEL — THE COST OF REJECTING GRACE ===== -->
+    <section class="crown-jewel-section">
+        <div class="crown-jewel-inner">
+            <div class="crown-jewel-eyebrow">THE QUESTION THAT CHANGES EVERYTHING</div>
+            <h2 class="crown-jewel-headline">What If Rejecting Grace<br><em>Is</em> the Unforgivable Sin?</h2>
+            <p class="crown-jewel-body">
+                Scripture says faith is a <strong>gift</strong> — not something you manufacture. So when someone insists <em>they</em> chose God, that <em>their</em> decision saved them, they are claiming credit for the one thing Scripture says they cannot take credit for. They are making faith a <strong>work</strong>. And what is not grace <em>cannot save</em>.
+            </p>
+            <p class="crown-jewel-body" style="margin-top: 1rem;">
+                This is not a theological technicality. This is the difference between resting in God's arms and trusting in your own. <strong>The stakes are eternal.</strong>
+            </p>
+            <a href="/psychology-cost-of-rejecting-grace" class="crown-jewel-cta">Read the Full Argument →</a>
+        </div>
+    </section>
+
     <!-- ===== EXPLORE HUB ===== -->
     <section class="explore-section">
         <div class="reveal">
@@ -468,8 +502,8 @@ body {
             </a>
             <a href="/systematic-theology" class="explore-card reveal reveal-delay-2">
                 <div class="explore-card-title">Systematic Theology</div>
-                <div class="explore-card-desc">The full biblical framework — from God's eternal decrees to the golden chain of salvation. See how every doctrine connects into one breathtaking whole.</div>
-                <div class="explore-card-count">DEEP DOCTRINE</div>
+                <div class="explore-card-desc">The full biblical framework — from God's eternal decrees to the golden chain of salvation. See how every truth connects into one breathtaking whole.</div>
+                <div class="explore-card-count">DEEP TRUTH</div>
             </a>
             <a href="/theologians" class="explore-card reveal reveal-delay-3">
                 <div class="explore-card-title">The Theologians</div>
@@ -478,7 +512,7 @@ body {
             </a>
             <a href="/devotionals" class="explore-card reveal reveal-delay-3">
                 <div class="explore-card-title">Devotionals</div>
-                <div class="explore-card-desc">Where theology catches fire and doctrine becomes doxology. Short, soul-piercing meditations designed to move you from understanding to worship.</div>
+                <div class="explore-card-desc">Where theology catches fire and truth becomes doxology. Short, soul-piercing meditations designed to move you from understanding to worship.</div>
                 <div class="explore-card-count">HEART & SOUL</div>
             </a>
             <a href="/start-here" class="explore-card reveal reveal-delay-4">

@@ -128,6 +128,62 @@ Agents are BANNED from creating social media content of any kind. No tweets, no 
 - Writing models: Lewis, Buechner, Spurgeon, Keller.
 - Weave clever theology humor into pages where appropriate.
 
+## CRITICAL TERMINOLOGY — "DOCTRINE" → "TRUTH" / "ELECTION" → "GRACE"
+**This is a foundational paradigm shift. All agents MUST internalize this.**
+
+**1. "Doctrine of election" → "Doctrines of grace"**
+When people reject election, they are not rejecting an abstract theological concept. They are rejecting GRACE ITSELF. If you reject the idea that God chose you, you are rejecting grace and choosing works. The phrase "doctrines of grace" names what is actually at stake — and exposes what is actually being resisted.
+
+**2. Generic "doctrine" → "truth"**
+The word "doctrine" has academic, clinical connotations. It creates distance. It lets the reader treat what they're reading as theology-class material rather than reality. The word "truth" is personal, existential, and inescapable. What we present IS truth — call it what it is.
+
+**Why this matters:** This is the very center of the resistance, anger, and hostility that the sinner automatically feels when confronted with the reality that they have been saved by grace, not by works. "Doctrine" lets them categorize it as opinion. "Truth" forces them to reckon with it. "Election" lets them reject a concept. "Grace" forces them to see they are rejecting the gift itself.
+
+**How to apply:** Every page, every article, every sentence. When referring to what people resist, frame it as rejecting GRACE. When referring to what Scripture teaches, call it TRUTH. Only use "doctrine" when it appears in a proper noun, a direct quote, or where the academic register is specifically needed for rhetorical contrast.
+
+## ══════════════════════════════════════════════════════
+## THE CROWN JEWEL — THE MOST IMPORTANT IDEA ON THIS SITE
+## ══════════════════════════════════════════════════════
+
+**MANDATORY: Every agent must internalize this. This is the cornerstone truth of the entire project.**
+
+### The Argument
+
+1. **Faith itself is a gift of God** (Ephesians 2:8-9). Not just salvation — the faith to believe is the gift.
+2. **Genuine saving faith is therefore received, not manufactured.** It is something done TO you, not BY you.
+3. **The doctrines of grace are the articulation of this reality** — that salvation is by grace alone, through faith alone, and that even the faith is grace.
+4. **When someone rejects this** — when they insist THEY chose God, that THEIR decision saved them — they are claiming credit for the one thing Scripture says they cannot take credit for.
+5. **To claim credit for your faith is to make faith a work.** Faith that is a work is not grace. What is not grace cannot save. (Galatians 5:4 — "You who are trying to be justified by the law have been alienated from Christ; you have fallen away from grace.")
+6. **Therefore: rejecting the doctrines of grace is not merely a theological error — it is, at its root, works-righteousness.** The person may love Jesus sincerely. They may be deeply devout. But what they are ultimately trusting in is THEMSELVES — their own choice, their own decision, their own righteousness. And self-trust is the definition of works-based salvation.
+7. **The elect will eventually submit to this truth** because the Holy Spirit will not let them rest in a lie about their own righteousness. They may resist for years. They may run (as Aaron did for a decade). They may rage. But grace will pursue them, because His sheep WILL hear His voice (John 10:27).
+8. **The inverse is the devastating implication:** those who are confronted with grace and persistently, hostilely reject it — preferring their own autonomy and righteousness over the gift — may be revealing something terrifying about their spiritual state.
+
+### The Pastoral Nuance (CRITICAL — DO NOT SKIP THIS)
+
+There is a vital difference between:
+- **Someone who hasn't yet understood grace** — the Spirit may still be doing the slow work of illumination. Aaron himself took years. Many believers come to these truths gradually. Patience and love are required.
+- **Someone who has been confronted with grace and actively, persistently, hostilely rejects it** — choosing their own autonomy over the gift. This is the pattern that should cause alarm.
+
+The site must NEVER be cruel or dismissive. The site must ALWAYS hold open the door. But the site must also be HONEST about what is at stake when grace is rejected: the person is not rejecting a theology. They are rejecting the gift. They are choosing works. And works cannot save.
+
+### How to Proliferate This Truth
+
+This is the 101 Ways Principle applied to the most important idea on the site. Every category, every angle, every type of content should find its way back to this core truth:
+
+- **Psychology pages**: Why the flesh rejects grace (it exposes powerlessness)
+- **Philosophy pages**: The logical impossibility of self-generated saving faith
+- **Scripture pages**: Every passage teaching faith as gift (Eph 2:8-9, Phil 1:29, John 6:44, Acts 13:48, 2 Tim 2:25)
+- **Stories**: Parables and analogies that make this visible
+- **History**: Every revival was grace-centered; works-based theology produces dead religion
+- **Testimony**: Aaron's story IS this truth lived out
+- **Objection responses**: Every objection to grace is a defense of works — name it as such
+- **Secular evidence**: Neuroscience of self-deception and identity protection
+- **Devotionals**: The comfort of resting in grace vs. the terror of depending on yourself
+- **Apologetics**: Why this matters for evangelism and the visible church
+- **Healing pages**: The freedom that comes from finally letting go of self-righteousness
+
+**The measure of success:** Can a reader arrive at this site from ANY page and eventually encounter this truth? Can they encounter it from so many angles that every escape route is closed? That is the goal.
+
 ## ══════════════════════════════════════════════════════
 ## SELF-EVOLUTION MANDATE — MANDATORY FOR ALL AGENTS
 ## ══════════════════════════════════════════════════════

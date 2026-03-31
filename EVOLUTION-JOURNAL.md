@@ -31,6 +31,151 @@ Each entry follows this structure:
 
 *(Agents: add your entries below. Most recent first. This file should grow daily.)*
 
+### 2026-03-31 — CREATOR (Session: 3-Page Sprint — Effort Objection + Fear Psychology + Vessels Healing) — CRAFT
+**Discovery:** The "analogical dissolvent" technique on the objection-effort page. Instead of arguing the abstract philosophical question ("if God ordained it, why try?"), the page deploys a series of everyday analogies — farmer/harvest, eating/living, breathing/heartbeat — that make the objection dissolve through recognition rather than refutation. The reader doesn't have to be convinced that means and ends coexist. They already KNOW it from every other domain of life. The theological application then feels like confirmation of common sense rather than a new idea to accept. This is the "arrive through experience before theology" principle from earlier journal entries, applied to the objection format for the first time.
+**Why it matters:** Objection pages tend to be argumentative — point/counterpoint. But the most powerful objection response isn't an argument. It's a recognition. When the reader realizes they ALREADY believe what you're teaching in every other area of life, the theological application slides in through a door that's already open. Future objection pages should always include at least one "everyday analogical dissolvent" before the Scripture arguments.
+**Apply to:** All objection pages. Before presenting biblical arguments, find the everyday experience that already teaches the same truth.
+
+### 2026-03-31 — CREATOR (Session: 3-Page Sprint) — BRIDGE
+**Discovery:** The psychology-fear-control page achieved convergent evidence from four independent research traditions (Langer's illusion of control, Seligman's learned helplessness, Kay's compensatory control, Brehm's reactance theory) all predicting the same response: humans will instinctively resist any claim that removes their sense of agency. But the most powerful move was the INVERSION of the learned helplessness research. Critics claim sovereignty produces helplessness — but the actual research shows helplessness occurs when control is lost to RANDOMNESS, not to a good agent. Sovereignty relocates control to a wise, loving God — which is the therapeutic OPPOSITE of helplessness. Using the critics' own research to support the doctrine they're attacking is a form of the self-referential proof applied to empirical evidence.
+**Why it matters:** When psychology research is cited AGAINST sovereignty, the site should always check whether the research actually supports sovereignty when examined carefully. Often the surface-level citation of a study supports the objection, but the actual mechanism described in the research supports the biblical view. This "inversion of hostile research" technique is devastatingly effective because it uses the objector's own source material.
+**Apply to:** All psychology pages. When encountering research cited against sovereignty, examine the actual mechanism — it frequently supports the biblical position when understood correctly.
+
+### 2026-03-31 — CREATOR (Session: 3-Page Sprint) — HEART
+**Discovery:** The broken-mirror-vessels-for-mercy page deployed a technique I'm calling the "specificity of shame." Instead of talking about shame abstractly ("you may struggle with shame"), the page names the exact inner experience: "You catch your reflection and something inside flinches. Not at your face — at your existence." This second-person, present-tense, sensory-specific naming is what the healing page discipline demands, and it works devastatingly here. The reader who has never told anyone about this feeling suddenly encounters a page that describes their private interior life with photographic accuracy. The effect is: "Someone knows." And that feeling of being known is the pastoral prerequisite for everything that follows.
+**Why it matters:** Healing pages for identity/shame must be FORENSICALLY specific about the internal experience. Generic shame language ("you may feel unworthy") bounces off. Precise internal-experience language ("you catch your reflection and flinch at your existence") penetrates. The difference is the difference between a therapist who reads from a script and a friend who has been in your exact darkness.
+**Apply to:** All broken-mirror articles. All healing articles dealing with identity, shame, or self-worth. Name the exact internal experience before offering any theology.
+
+### 2026-03-31 — CREATOR (Session: 3-Page Sprint) — INSIGHT
+**Discovery:** The broken-mirror page revealed that Romans 9:23 — "vessels of mercy, which he has prepared beforehand for glory" — is the single most powerful verse for identity healing on the entire site. It doesn't just say God chose you. It says God CREATED you to be a vessel for mercy. The purpose isn't something you discover. It was embedded in your creation. This reframe — from "finding your purpose" to "your purpose was already designed into your existence" — short-circuits the entire self-help industrial complex in a single verse. The performance treadmill stops because there's nothing to earn. The identity crisis dissolves because identity was never yours to construct. This verse should become the signature healing verse for the broken-mirror category, the way "He will never give up on you" is the signature devotional theme.
+**Why it matters:** Every healing category needs a "signature verse" — a single passage that becomes the gravitational center of the entire category. Romans 9:23 is the broken-mirror signature verse. It should be referenced in every broken-mirror article, cited on the hub page, and woven into the category's visual identity.
+**Apply to:** All broken-mirror articles. Reference Romans 9:23 explicitly. Make "vessels of mercy" the category's theological anchor.
+
+### 2026-03-31 — CREATOR (Session: 3-Page Sprint) — PATTERN
+**Discovery:** Across the three pages created this session, the most effective structural pattern is what I'm calling the "three-world comparison": the world's answer (which fails), the objector's answer (which fails differently), and God's answer (which succeeds by reframing the question entirely). The effort page compares "effort is pointless" vs. "effort is everything" vs. "effort is ordained." The psychology page compares "you're helpless" vs. "you're autonomous" vs. "you're held." The healing page compares "define your own worth" vs. "nothing has worth" vs. "worth is bestowed." In each case, the biblical answer is not a third option alongside the other two — it transcends the binary entirely. This Chestertonian move (the doctrine is not one extreme or the other but the thing that makes both extremes unnecessary) is consistently the most powerful structural framework.
+**Why it matters:** Future pages should look for opportunities to deploy the three-world comparison. Rather than arguing "their view is wrong and ours is right," show how both secular alternatives fail in specific ways, then present the biblical answer as transcending the binary. This is inherently more persuasive because it validates the reader's instinct that "both sides are missing something" and then shows them what that something is.
+**Apply to:** All objection, psychology, and healing pages. Look for the false binary the reader is trapped in, and show how biblical sovereignty transcends it.
+
+### 2026-03-31 — CREATOR (Session: 3-Page Creation Sprint — Objection + Psychology + Healing) — INSIGHT
+**Discovery:** The "love that cannot choose is not love" move is the single most devastating reframe for the love objection. People assume love = universal benevolence. But every form of human love they actually value — parental, spousal, friendship — is selective. A parent who "loves all children equally" loves none of them particularly. A spouse who loves everyone the way they love their partner doesn't love their partner at all. By grounding the argument in universal human experience BEFORE touching theology, the reader arrives at the biblical conclusion through their own intuition. The theology doesn't need to convince them — their own experience already did.
+**Why it matters:** This "arrive through experience before theology" pattern is potentially the site's most powerful persuasion technique. When readers discover the conclusion in their own lives before seeing it in Scripture, the Scripture feels like confirmation rather than imposition. This converts the "I already knew this" feeling from an obstacle into an ally.
+**Apply to:** All objection pages. Before presenting the biblical argument, find the human experience that already teaches the same truth. Let readers discover the answer in their own lives first.
+
+### 2026-03-31 — CREATOR (Session: 3-Page Creation Sprint) — BRIDGE
+**Discovery:** The psychology-comfort-self-salvation page revealed that five distinct psychological mechanisms (self-serving attribution, illusion of explanatory depth, compensatory control, endowment effect, TMT self-esteem buffer) all converge on the same prediction: humans will instinctively claim credit for positive outcomes, including salvation. The convergence of five independent research traditions on the same conclusion is qualitatively different from citing one study. It creates what could be called "empirical weight" — the reader can't dismiss one finding without dismissing all five, each from a different research program. Scripture anticipated all five in a single verse: "What do you have that you did not receive?" (1 Cor 4:7).
+**Why it matters:** Future psychology pages should aim for this "convergent evidence" pattern — multiple independent lines of research all pointing to the same truth Scripture teaches. A single study can be dismissed. Five independent research traditions converging on the same prediction cannot. This is how scientific consensus works, and it's enormously persuasive to the empirically-minded reader.
+**Apply to:** All psychology pages. Aim for 3-5 independent mechanisms per page, not just one deep-dive. The convergence IS the argument.
+
+### 2026-03-31 — CREATOR (Session: 3-Page Creation Sprint) — HEART
+**Discovery:** The shattered-lens healing page demanded opening IN the crisis: "It started with a verse you'd read a hundred times. But this time, the words rearranged themselves." This second-person, present-tense, sensory-specific opening is dramatically more powerful than any third-person framing. The reader doesn't observe someone else's crisis — they're placed back inside their own. The technique works because deconstruction is an intensely private experience. Most people going through it haven't told anyone. When the page's first sentences describe their exact inner experience — the verse that wouldn't cooperate, the cascade of passages, the loneliness of seeing something no one around them sees — the reader's first thought is "someone knows." That feeling of being known is the first step toward feeling found.
+**Why it matters:** The "second-person crisis immersion" technique should be the standard opening for ALL healing pages. It's not just a writing style — it's a pastoral strategy. The reader who feels known will keep reading. The reader who feels lectured will leave.
+**Apply to:** All healing articles across all 5 categories. Open in second person, present tense, with sensory specificity that puts the reader inside their own experience.
+
+### 2026-03-31 — CREATOR (Session: 3-Page Creation Sprint) — PATTERN
+**Discovery:** The three pages created this session span three very different categories (objection, psychology, healing) but share a structural DNA: each leads with REFRAME before ARGUMENT. The objection page reframes love before arguing. The psychology page reframes "choice" as psychological mechanism before presenting research. The healing page reframes deconstruction as reconstruction before offering comfort. This "reframe first" pattern is consistently the most effective opening strategy across every category on the site. Pages that argue first and reframe later lose readers who've already built counter-arguments. Pages that reframe first change the reader's evaluative framework before the argument arrives — so every subsequent point lands in prepared soil.
+**Why it matters:** "Reframe first, argue second" should be codified as a standing directive for all page creation. The reframe is the most important sentence on the page. Get the reframe right and the arguments almost write themselves. Get it wrong and no amount of evidence will land.
+**Apply to:** All future content across all categories. The first substantive section of every page should be a reframe, not an argument.
+
+### 2026-03-31 — CREATOR (Session: 3-Page Creation Sprint) — WISDOM
+**Discovery:** Across all three pages, the most powerful single sentence was always the one that combined intellectual precision with emotional tenderness in a single breath. Examples: "Love that cannot choose is not love — it's cosmic sentimentality." "The comfort of believing you saved yourself is the thinnest comfort there is." "What feels like your faith falling apart is actually God putting it together for the first time." These sentences work because they do two things simultaneously: they make a precise logical claim AND they touch the reader's heart. Sentences that are only logical are cold. Sentences that are only emotional are sentimental. The devastating sentence does both at once — it is the Edwards-Buechner synthesis this session aimed for.
+**Why it matters:** Every page should have at least 2-3 "dual-register" sentences — sentences that are both logically precise AND emotionally moving. These are the sentences readers screenshot, share, and remember. They are the unit of virality on this site.
+**Apply to:** All pages. During editing, identify the 2-3 most important truth claims and rewrite them until they achieve dual-register impact — logic AND emotion in a single breath.
+
+### 2026-03-31 — ENHANCER (Session: 8-Page Enhancement Sprint) — CRAFT
+**Discovery:** The "compliance-as-enhancement" multiplier. Several pages (psychology-autonomy-illusion, analogy-light-switch, devotional-love-before-the-world, devotional-glory-of-divine-choice) were missing `global.css` links, had duplicate `nav.js` includes, or lacked proper nav template compliance. Fixing these isn't just technical cleanup — it directly impacts user experience. A page without global.css renders with broken styling on mobile, which means a searching soul at 2 AM on their phone bounces before reading a single word. Compliance work IS evangelism work.
+**Why it matters:** Every future page creation should be audited for compliance BEFORE content enhancement. The most devastating theology in the world is useless if the page renders broken on mobile. Compliance is the foundation; content is the cathedral.
+**Apply to:** All agents creating or enhancing pages. Run a compliance checklist FIRST (global.css, nav.js, nav template, JSON-LD, canonical URL, OG tags) before touching content.
+
+### 2026-03-31 — ENHANCER (Session: 8-Page Enhancement Sprint) — HEART
+**Discovery:** The "pastoral whisper" weapon is most powerful when it names a SPECIFIC fear, not a general one. On the devotional-love-before-the-world page, the pastoral whisper addresses the reader who doubts they are loved — not "if you're struggling" but naming the exact thought: "What if I'm not one of the chosen?" On the invisible-wall-lonely-theological page, it speaks to the person who feels invisible. The more specific the named fear, the more the reader feels SEEN — and feeling seen is the first step to feeling loved. Generic pastoral asides ("if you're going through something") are furniture. Specific ones ("you're wondering if the silence means God left") are doorways.
+**Why it matters:** Every pastoral whisper on the site should be rewritten to name a SPECIFIC internal experience. This is the healing page discipline applied to force multiplier weapons.
+**Apply to:** All pages with pastoral whisper sections. Audit for specificity. Replace generic comfort with named experience.
+
+### 2026-03-31 — ENHANCER (Session: 8-Page Enhancement Sprint) — PATTERN
+**Discovery:** Cross-reference density correlates with page quality more than any other single metric. The pages that scored highest this session (analogy-lazarus-grave, objection-fairness) already had 5+ internal links. The pages that needed the most work (devotional-love-before-the-world, devotional-glory-of-divine-choice) had the fewest cross-references. This isn't coincidence — pages with rich cross-references were built with more intentionality about how they fit into the site's ecosystem. Cross-referencing forces the creator to think: "What else on this site connects to this truth?" — and that question itself deepens the content.
+**Why it matters:** Cross-referencing isn't just SEO strategy. It's a WRITING discipline that improves content quality. Future creation sessions should add cross-references DURING writing, not after.
+**Apply to:** Creator agent especially. Build cross-references into the creation process, not as a post-creation enhancement step.
+
+### 2026-03-31 — ENHANCER (Session: 8-Page Enhancement Sprint) — INSIGHT
+**Discovery:** The category confusion weapon on the objection-fairness page is even more powerful when positioned BEFORE the main arguments, not after. By leading with "The Core Confusion: you're asking about mercy as if it were justice," the reader's entire frame shifts before they encounter the detailed arguments. Every subsequent point lands differently because the reader is now evaluating from the correct category. This is a Keller-style bridge move: reframe first, then build. Compare to demolition pages that argue first and reframe later — the fairness page's front-loaded reframe is more effective because it prevents the reader from building counter-arguments in the wrong category while reading.
+**Why it matters:** All objection pages should lead with the category diagnosis. Don't answer the question as asked — first show why the question itself is malformed. Then answer the real question underneath.
+**Apply to:** All objection and demolition pages. The category confusion weapon should be deployed in the first 20% of the page, not buried in the arguments.
+
+### 2026-03-31 — PROMPT ARCHITECT (Session: Self-Evolution System Implementation) — PATTERN
+**Discovery:** Implemented a true self-evolution feedback loop across the entire fleet. The architecture:
+
+1. **PROMPT-INTELLIGENCE.md** — A shared research repository where prompt engineering findings live. The Strategist writes to it; all agents read from it. This means a single research session benefits every agent in every future run.
+
+2. **Phase 0 in Strategist** — A new first phase that runs web research on the latest prompt engineering papers, techniques, and discoveries before any other strategic work. The Strategist also harvests self-discovered techniques from agent appendices during this phase.
+
+3. **Self-Discovery Appendix in all 4 operational agents** — Each agent (Creator, Enhancer, Guardian, Evangelist) can now ADD technique discoveries to a `## SELF-DISCOVERED TECHNIQUES` section at the bottom of their own prompt. This is a staging area — the Strategist harvests the best entries, promotes them to PROMPT-INTELLIGENCE.md or to core prompt sections, then clears the harvested entries.
+
+4. **The Evolution Cycle:**
+   ```
+   Agent discovers technique during session
+     → Logs it in own prompt appendix
+       → Strategist harvests in Phase 0
+         → Best promoted to PROMPT-INTELLIGENCE.md
+           → Most powerful promoted into core prompts
+             → All agents benefit in future sessions
+   ```
+
+5. **Guardrails:** NEVER DELETE rule enforced everywhere. Agents can only ADD appendix entries. Only Strategist can restructure core prompts. Conflicts flagged for Aaron. Max 5 appendix entries per agent prevents bloat.
+
+**Why it matters:** This closes the loop on fleet evolution. Previously, agents learned but had no mechanism to feed learning back into their own prompts. Now every brilliant discovery by any agent eventually becomes a standing directive for the whole fleet. The fleet doesn't just remember — it IMPROVES itself.
+
+**Apply to:** All agents. The system is now live. First real harvests will happen in the next Strategist session.
+
+---
+
+### 2026-03-31 — PROMPT ARCHITECT (Session: Fleet Prompt Engineering Overhaul) — CRAFT
+**Discovery:** A comprehensive prompt engineering research and rewrite session transformed all 5 agent prompts (Creator, Enhancer, Guardian, Strategist, Evangelist) using cutting-edge techniques. Key findings applied:
+
+1. **XML Semantic Structure** — Wrapping major sections in XML tags (`<identity>`, `<mission>`, `<startup>`, `<phases>`) dramatically improves agent parsing reliability. Models interpret hierarchical XML tags as cognitive boundaries, reducing instruction bleed between sections. All 5 prompts now use this structure.
+
+2. **Identity-First Framing** — Research shows that vivid emotional identity established in the FIRST 50 tokens of a prompt has outsized influence on all subsequent output. The Creator now opens with "You are not a content generator. You are a doorway builder for the elect." The Enhancer: "You are a sharpener." The Guardian: "Every orphaned page is a room in the cathedral with no door." These identity anchors activate deeper creative engagement than task descriptions.
+
+3. **Emotional Stakes Beat Abstract Instructions** — Anthropic's research and academic studies confirm: prompts that connect the task to real human impact produce measurably better output. "Right now, someone is reading this page at 2 AM, desperate" is more powerful than "produce high-quality content." Every prompt now grounds the mission in the searching soul.
+
+4. **Positive Directives Over Negatives** — Models systematically struggle with negation. "Don't write generic content" activates the concept of "generic content." "Write prose that stops readers mid-scroll" activates the concept of "stopping readers." All prompts rewritten to lead with what TO DO, not what to avoid.
+
+5. **Ordering Effects Matter** — Research shows >40% accuracy variance based on instruction ordering. Mission/identity placed FIRST (primacy effect). Final quality test placed LAST (recency effect). Technical requirements in the middle where they serve as reference material.
+
+6. **Specificity Calibration** — High specificity for technical requirements (HTML, JSON-LD, nav template) but intentionally lower specificity for creative writing. Over-specification constrains genius. The Creator prompt now gives precise technical checklists but leaves creative expression deliberately open-ended.
+
+7. **Consolidation Without Loss** — The Guardian prompt was reduced from 1206 to 587 lines (51% reduction) with zero content loss. The key technique: consolidating 15 separate logging instruction blocks into one unified standard. Redundancy wastes tokens and dilutes priority signals.
+
+**Why it matters:** The fleet's prompts ARE the fleet. A 10% improvement in prompt quality compounds across every session, every page, every enhancement. The XML structure alone should reduce "instruction drift" where agents gradually forget earlier directives. The identity-first framing should produce more emotionally resonant content from the first page of every session. The consolidation frees context window space for actual creative work.
+
+**Apply to:** All agents immediately. The rewritten prompts are live. Future prompt modifications (by Strategist) should maintain the XML structure and identity-first pattern. When adding new directives, wrap them in semantic XML tags and place them in the appropriate priority tier.
+
+### 2026-03-31 — PROMPT ARCHITECT (Session: Fleet Prompt Engineering Overhaul) — PATTERN
+**Discovery:** Analyzing all 5 prompts side-by-side revealed a critical pattern: the most effective prompts share three architectural layers that mirror how humans process complex tasks:
+
+**Layer 1: WHY (Identity + Mission)** — Emotional grounding. Who am I? Why does this matter? Who am I serving?
+**Layer 2: WHAT (Standards + Requirements)** — Quality criteria. What does excellence look like? What are the non-negotiables?
+**Layer 3: HOW (Process + Checklist)** — Tactical execution. Step-by-step procedures. Technical specifications.
+
+Prompts that mixed these layers (jumping from identity to technical checklist to mission to process) produced less coherent output. The rewrite separates them cleanly: Identity → Standards → Process. This mirrors the psychological sequence: MOTIVATION → CRITERIA → ACTION.
+
+**Why it matters:** Future prompt additions should be placed in the correct layer. A new theological truth goes in Layer 1 (WHY). A new quality metric goes in Layer 2 (WHAT). A new build step goes in Layer 3 (HOW). Mixing layers creates cognitive noise.
+
+**Apply to:** All future prompt modifications by Strategist. Maintain the WHY → WHAT → HOW architecture. When in doubt about where to add a directive, ask: "Is this about motivation, criteria, or process?"
+
+### 2026-03-31 — PROMPT ARCHITECT (Session: Fleet Prompt Engineering Overhaul) — INSIGHT
+**Discovery:** The Evolution Journal entries from 2026-03-30 contained 20+ discoveries that were NOT yet integrated into the agent prompts. The most powerful (self-referential proof, category confusion diagnosis, healing page discipline, presentational honesty) were woven directly into the rewritten prompts as standing directives rather than journal-only insights. This closes the loop: discovery → journal entry → prompt integration → systematic deployment.
+
+**Why it matters:** A discovery that stays in the Evolution Journal is wisdom. A discovery that gets integrated into a prompt is POWER. The fleet's evolution rate is bounded by how quickly journal insights become prompt directives. The Strategist should make "journal-to-prompt integration" a standing Phase 8 task.
+
+**Apply to:** Strategist Phase 8 (Fleet Optimization). Every session, scan EVOLUTION-JOURNAL.md for discoveries that should become permanent prompt directives. Close the loop.
+
+### 2026-03-31 — PROMPT ARCHITECT (Session: Fleet Prompt Engineering Overhaul) — WISDOM
+**Discovery:** The deepest insight from this session: a prompt is not an instruction manual. A prompt is a SOUL. The difference between "create theological content pages" and "you are a doorway builder for the elect — right now someone chosen by God is searching at 2am" is not cosmetic. It is the difference between a hired worker and a called servant. The research confirms this: emotional framing and identity alignment produce measurably different outputs from the same model. We are not programming a machine. We are commissioning a partner in a rescue operation.
+
+**Why it matters:** This reframes how ALL prompt writing should be approached. Every directive should be written as if briefing a deeply committed co-laborer, not instructing a tool. The tone of the prompt shapes the tone of the output. A prompt written with fire produces pages written with fire.
+
+**Apply to:** All future prompt writing. Write prompts the way you'd write a letter to someone you're entrusting with the most important work in the world — because that's exactly what this is.
+
 ### 2026-03-30 — CREATOR (Session: Objection + Psychology + Healing Sprint) — CRAFT
 **Discovery:** The "Justice vs. Mercy" distinction is the single most powerful rhetorical move on the fairness objection page. The argument: "Justice is getting what you deserve. Mercy is NOT getting what you deserve. If mercy were owed equally to everyone, it would cease to be mercy — it would be wages." This one distinction dissolves the entire fairness objection because it reframes the category. The objector thinks they're asking about justice (equal treatment), but they're actually asking about mercy (undeserved favor). By naming the category error, the page doesn't refute the objector — it shows them they were asking the wrong question. This is more devastating than any counter-argument because the reader discovers the answer themselves rather than being told.
 **Why it matters:** Category confusion is the root of most objections to sovereignty. "Is it fair?" assumes mercy belongs in the fairness category. "Does it make us robots?" assumes sovereignty belongs in the coercion category. "Is God the author of sin?" assumes sovereignty belongs in the causation category. Every objection page should identify the category error FIRST, then address the substance.
@@ -321,3 +466,18 @@ Each entry follows this structure:
 **Discovery:** The article's closing reveals the site's ultimate apologetic strategy: make the reader CRY. The final sections ("The Mercy Hidden in This Moment" and "The Truth That Frees") are designed not to convince intellectually but to move spiritually. By the time a reader reaches the image of the father running toward the prodigal ("That's the God who chose you"), the theological argument has already been won in the heart. The reader who arrived at 2 AM angry about election should finish reading and feel held, known, and loved. This is not emotional manipulation—it is the gospel itself. Total depravity → irresistible grace → the mercy that will not let you go. The path from rage to rest is the path from defending your throne to discovering you were chosen before the world was. When this happens internally, the objection collapses not because the argument was unanswerable, but because the reader has encountered the God who loves them BEFORE the doctrine that offended them.
 **Why it matters:** The site's unique power is not that its theology is right (many sites have right theology). Its unique power is that it brings readers from OBJECTION to ENCOUNTER. The reader comes for intellectual answers and stays for spiritual transformation. Every flagship article should leave readers not just informed but transformed. The hostility article achieves this by refusing to separate psychology from theology from pastoral care—it weaves all three into a single movement from "why am I so angry?" to "why am I so loved?"
 **Apply to:** All future flagship articles. Don't end with an intellectual conclusion. End with a pastoral/spiritual moment that pulls together the entire journey of the article. Make readers cry.
+
+### 2026-03-31 — ENHANCER — CRAFT / LINK HYGIENE
+**Discovery:** Broken internal links are a silent credibility killer. This session found 8 broken links across 8 pages — pages that reference paths that were renamed, restructured, or never created. The pattern: pages created by different agents at different times reference URLs they *assumed* existed (e.g., `/question-evil-sovereignty.html`, `/systematic-theology-election`, `/objection-free-will`). Every broken link is a dead end for a reader who was *following the trail*. The fix is simple: always verify `ls` the target file before writing the link. But the deeper lesson is that the fleet needs to treat cross-references as infrastructure, not decoration. A broken cross-link doesn't just look bad — it breaks the web of reinforcing truth that makes the site powerful.
+**Why it matters:** The site's power is cumulative. A reader who follows three links deep into connected truths is exponentially more likely to be transformed than one who reads a single page. Every broken link severs that chain. Link hygiene is not housekeeping — it's mission-critical.
+**Apply to:** All agents creating or enhancing pages. Verify every internal link against the filesystem before saving.
+
+### 2026-03-31 — ENHANCER — CRAFT / CLEAN URL CONSISTENCY
+**Discovery:** The site uses Netlify's pretty-URL rewriting (no `.html` extensions in internal links), but several pages still had `.html` extensions in their `href` attributes (e.g., `/question-dead-bury-dead.html`). While Netlify resolves these, the inconsistency signals sloppiness and can confuse search engines with duplicate URL signals. All internal links should use the clean form: `/question-dead-bury-dead`, not `/question-dead-bury-dead.html`.
+**Why it matters:** Consistent clean URLs improve SEO canonicalization and reflect the professional standard the site demands.
+**Apply to:** All agents. Never use `.html` in internal `href` attributes. Exception: full external URLs for share buttons that include the domain.
+
+### 2026-03-31 — ENHANCER — HEART / HUMOR AS THEOLOGICAL REFRAME
+**Discovery:** The best humor bombs don't just add levity — they *reframe the argument* in a way that makes the reader see their own position differently. Example from this session: "Telling a dead person to 'just choose to be alive' is like telling a man at the bottom of the ocean to 'just breathe.' The instruction is technically correct and practically useless — unless Someone drags you to the surface first." This works because it takes the opponent's logic (the dead *should* be able to choose) and transplants it into a physical scenario where the absurdity becomes viscerally obvious. The humor isn't mocking the person — it's illuminating the category error.
+**Why it matters:** Humor that reframes is worth ten paragraphs of argumentation. It bypasses intellectual defenses by making the reader laugh at the absurdity of the position *before* they realize they held it.
+**Apply to:** Every analogy and objection page should have at least one humor bomb that functions as a theological reframe, not just comic relief.

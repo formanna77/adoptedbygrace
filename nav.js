@@ -32,6 +32,7 @@
             href: '/questions',
             desc: 'Scripture-driven proofs for sovereign grace',
             subs: [
+                { name: 'Can God Create a Universe Where He Isn\'t Sovereign?', href: '/question-sovereignty-logic', desc: 'Can God make a rock too heavy for Him to lift? Can He create a universe He doesn' },
                 { name: 'Chosen Before the Foundation of the World – Ephesians 1:3-11', href: '/question-chosen', desc: 'Ephesians 1:3-11 examined in depth. God chose us in Christ before the foundation of the world. Greek analysis, arguments' },
                 { name: 'Dead Bones Don\'t Volunteer — Ezekiel 37', href: '/question-ezekiel37', desc: 'Ezekiel 37' },
                 { name: 'Dead, Not Sick — The Bible\'s Diagnosis of the Human Condition', href: '/question-depravity', desc: 'Total depravity is not about being as bad as possible — it' },
@@ -66,6 +67,7 @@
                 { name: 'The Verse That Settles the Order — 1 John 5:1', href: '/question-1john5-1', desc: 'The Greek perfect tense in 1 John 5:1 proves regeneration precedes faith. Deep exegesis with Greek word study, seven arg' },
                 { name: 'What About \'Whosoever Will\'? – John 3:16 & 2 Peter 3:9', href: '/question-whosoever', desc: 'What About \'Whosoever Will\'? – John 3:16 & 2 Peter 3:9' },
                 { name: 'What About Predestination Based on Foreknowledge? – Romans 8:29', href: '/question-foreknowledge', desc: 'Does foreknowledge mean foresight of faith? Romans 8:29 examined. Greek proginōskō means to choose beforehand, not merel' },
+                { name: 'What Did Jesus Mean by \'Let the Dead Bury the Dead\'?', href: '/question-dead-bury-dead', desc: 'When Jesus said' },
                 { name: 'Why Does Grace Feel Like a Choice?', href: '/question-how-grace-feels', desc: 'When you come to faith, it feels like you chose God. When a pastor preaches, he speaks as if choice matters. How does th' },
                 { name: 'Why Jesus Spoke in Parables — Matthew 13:10-17', href: '/question-parables', desc: 'Why did Jesus speak in parables? Not to make truth clearer — but to conceal it from some while revealing it to others. M' },
                 { name: 'You Did Not Choose Me, But I Chose You – John 15:16', href: '/question-john15', desc: 'John 15:16:' },
@@ -106,6 +108,8 @@
             href: '/questions',
             desc: 'Steel-manned and demolished — every hard question',
             subs: [
+                { name: 'How Can a Loving God Choose Some and Not Others?', href: '/objection-love', desc: 'If God is love, why doesn' },
+                { name: 'If Everything Is Predetermined, Why Even Try?', href: '/objection-effort', desc: 'If God already predetermined everything, why bother trying? Because your effort isn' },
                 { name: 'If God Already Chose Us, Why Do We Have to Believe?', href: '/objection-why-believe', desc: 'A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. Exploring how God' },
                 { name: 'If God Already Chose Who Will Be Saved, Why Evangelize?', href: '/objection-evangelism-pointless', desc: 'If God already chose who will be saved, why evangelize? Because God ordains the means as well as the ends. Election does' },
                 { name: 'If God Controls Everything, How Can He Blame Us?', href: '/objection-responsibility', desc: 'If God predetermines everything, how can He hold us responsible? Romans 9:19 answered with Scripture, compatibilism, and' },
@@ -171,14 +175,17 @@
             desc: 'The psychology of suppressing truth',
             subs: [
                 { name: 'Cognitive Biases and the Blindness of Sin', href: '/psychology-cognitive-biases', desc: 'Cognitive biases mapped to biblical descriptions of fallen thinking. Confirmation bias, anchoring, Dunning-Kruger — mode' },
-                { name: 'Pride: The Root of Every Objection to God\'s Sovereignty', href: '/psychology-pride-root-objection', desc: 'Why does the doctrine of election provoke such fury? Psychology reveals the answer: pride. Every objection to God' },
+                { name: 'Fear of Losing Control: Why God\'s Sovereignty Terrifies Us', href: '/psychology-fear-control', desc: 'Why does God' },
+                { name: 'Pride: The Root of Every Objection to God\'s Sovereignty', href: '/psychology-pride-root-objection', desc: 'Why do the doctrines of grace provoke such fury? Psychology reveals the answer: pride. Every objection to God' },
                 { name: 'Suppressing the Truth', href: '/psychology-suppressing-truth', desc: 'Romans 1:18 reveals the deepest human problem: we suppress what we already know about God. Modern psychology calls it mo' },
                 { name: 'Terror Management and the Threat of Sovereignty', href: '/psychology-terror-management', desc: 'Terror Management Theory explains why God' },
                 { name: 'The Autonomy Illusion: Why "Free Will" Feels So Real', href: '/psychology-autonomy-illusion', desc: 'Neuroscience reveals that our sense of autonomous choice may be the brain' },
+                { name: 'The Comfort of Believing You Saved Yourself', href: '/psychology-comfort-self-salvation', desc: 'Why does the idea that you chose God feel so right? Psychology reveals it' },
+                { name: 'The Cost of Rejecting Grace: When Claiming Your Salvation Becomes Your Damnation', href: '/psychology-cost-of-rejecting-grace', desc: 'What happens when someone rejects the doctrines of grace and claims credit for their own salvation? They commit the anci' },
                 { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Why self-sovereignty is the last idol to fall — even for believers. A deep psychological and theological exploration of ' },
                 { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
                 { name: 'When Your Heart Rejects What Your Mind Accepts', href: '/psychology-emotional-vs-rational', desc: 'When your head knows sovereignty is biblical but your heart rejects it. Dual-process theory, affect heuristic, and Haidt' },
-                { name: 'Why the Doctrine That Makes You Angriest Is the One That\'s Most True', href: '/psychology-hostility-reaction', desc: 'When a lifelong Christian suddenly becomes enraged at the doctrine of election, something deeper than theology is happen' },
+                { name: 'Why the Truth That Makes You Angriest Is the One That Will Set You Free', href: '/psychology-hostility-reaction', desc: 'When a lifelong Christian suddenly becomes enraged at the doctrines of grace, something deeper than theology is happenin' },
                 { name: 'Why We Resist: The Psychology of Rejecting God\'s Sovereignty', href: '/psychology-why-we-resist', desc: 'Why do smart, Bible-loving Christians reject what the Bible clearly says about God' }
             ]
         },
@@ -285,11 +292,11 @@
             href: '/analogies-illustrations',
             desc: 'Pictures that make deep truths click',
             subs: [
+                { name: 'Can a Spiritually Dead Person Choose God? Why Salvation Must Be God\'s Work Alone', href: '/analogy-doctor-corpse', desc: 'Why can' },
                 { name: 'Can You Choose to Believe? The Light Switch & Spiritual Blindness', href: '/analogy-light-switch', desc: 'Can you choose to believe on your own? Explore why your ability to have faith is a gift from God, not something you gene' },
                 { name: 'Did Lazarus Choose to Rise? God\'s Sovereign Calling Explained', href: '/analogy-lazarus-grave', desc: 'Does God force salvation or respect free will? John 11 shows how effectual calling works through Lazarus' },
                 { name: 'Did You Choose God or Did God Choose You? The Adoption Analogy', href: '/analogy-adoption', desc: 'A baby doesn' },
-                { name: 'Does God Control Everything? The Chess Grandmaster Analogy', href: '/analogy-chess-grandmaster', desc: 'Does God control everything? The chess grandmaster analogy explains how divine sovereignty and human choice coexist with' },
-                { name: 'Why a Dead Man Can\'t Choose God: Spiritual Death Explained', href: '/analogy-doctor-corpse', desc: 'Why can' }
+                { name: 'Does God Control Everything? The Chess Grandmaster Analogy', href: '/analogy-chess-grandmaster', desc: 'Does God control everything? The chess grandmaster analogy explains how divine sovereignty and human choice coexist with' }
             ]
         },
         {
@@ -343,7 +350,7 @@
             href: '/pastoral-assurance',
             desc: 'Living out these truths',
             subs: [
-                { name: 'Election &amp; Assurance: When Anxiety Attacks Your Faith', href: '/pastoral-assurance', desc: 'How the doctrine of election gives deep, unshakeable assurance to Christians struggling with anxiety and depression. God' },
+                { name: 'Election &amp; Assurance: When Anxiety Attacks Your Faith', href: '/pastoral-assurance', desc: 'How the doctrines of grace give deep, unshakeable assurance to Christians struggling with anxiety and depression. God ch' },
                 { name: 'Evangelism &amp; God\'s Sovereignty', href: '/pastoral-evangelism', desc: 'If God has already chosen who will be saved, why share the gospel? Because Scripture teaches that evangelism is the very' },
                 { name: 'Prayer &amp; God\'s Sovereign Decrees', href: '/pastoral-prayer', desc: 'If God has already decreed all things, why pray? Because Scripture teaches that prayer is not a backup plan — it is the ' },
                 { name: 'Suffering &amp; the Sovereignty of God', href: '/pastoral-suffering', desc: 'How God' }
@@ -372,10 +379,12 @@
                 { name: 'The Question That Haunts Every Hospital Room', href: '/open-wound-hospital-room', desc: 'The Question That Haunts Every Hospital Room: Why do bad things happen to good people? Scripture' },
                 { name: 'The Shattered Lens — Truth, Trust & the Modern Crisis of Belief', href: '/shattered-lens-hub', desc: 'The Shattered Lens: Truth, Trust & the Modern Crisis of Belief. In a world of deepfakes, AI, misinformation, and politic' },
                 { name: 'What If I\'m Not One of the Chosen?', href: '/anxious-mind-what-if-not-chosen', desc: 'What if I' },
+                { name: 'When Everything You Were Taught Was Wrong', href: '/shattered-lens-taught-wrong', desc: 'You grew up believing one thing about God. Now Scripture is showing you something different. That disorientation isn' },
                 { name: 'When God Is Sovereign and Your World Just Collapsed', href: '/open-wound-sovereignty-in-grief', desc: 'When God Is Sovereign and Your World Just Collapsed: Grief doesn' },
                 { name: 'When You Can\'t Tell What\'s True Anymore', href: '/shattered-lens-cant-tell-true', desc: 'When You Can' },
                 { name: 'You Are Not a Self-Made Anything', href: '/broken-mirror-not-self-made', desc: 'You Are Not a Self-Made Anything. Culture screams' },
                 { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'You Were Never Meant to Carry This — why anxiety is the logical result of believing everything depends on you, and how G' },
+                { name: 'You Were Not an Accident — You Were Created for Mercy', href: '/broken-mirror-vessels-for-mercy', desc: 'You weren' },
                 { name: 'Your Brain Decides Before You Do — And That\'s Good News', href: '/anxious-mind-brain-decides', desc: 'Neuroscience shows your brain decides before' }
             ]
         }
