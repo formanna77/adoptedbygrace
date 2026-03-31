@@ -101,10 +101,26 @@
             ]
         },
         {
+            name: 'Objections Answered',
+            icon: '🛡',
+            href: '/questions',
+            desc: 'Steel-manned and demolished — every hard question',
+            subs: [
+                { name: 'If God Already Chose Us, Why Do We Have to Believe?', href: '/objection-why-believe', desc: 'A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. Exploring how God' },
+                { name: 'If God Already Chose Who Will Be Saved, Why Evangelize?', href: '/objection-evangelism-pointless', desc: 'If God already chose who will be saved, why evangelize? Because God ordains the means as well as the ends. Election does' },
+                { name: 'If God Controls Everything, How Can He Blame Us?', href: '/objection-responsibility', desc: 'If God predetermines everything, how can He hold us responsible? Romans 9:19 answered with Scripture, compatibilism, and' },
+                { name: 'If God Could Save Everyone, Why Doesn\'t He?', href: '/objection-god-could-save-all', desc: 'The hardest question in Reformed theology. If God can irresistibly save, why doesn' },
+                { name: 'If God Predestined Everything, Are We Just Robots?', href: '/objection-robots', desc: 'If God predestined everything, are we just robots? No. Scripture teaches something far more beautiful: we are free creat' },
+                { name: 'If God Predestined Everything, Why Does He Command Us?', href: '/objection-why-command', desc: 'If God predestined everything, why pray? Why obey? The answer reveals why commands aren' },
+                { name: 'Is God the Author of Sin? The Predestination Problem Answered', href: '/objection-author-of-sin', desc: 'Does God cause sin? If He predestines everything, how is He not responsible for evil? Scripture teaches a clear distinct' },
+                { name: 'Is Predestination Fair?', href: '/objection-fairness', desc: 'Is predestination fair? Doesn' }
+            ]
+        },
+        {
             name: 'Demolition Zone',
             icon: '💥',
             href: '/demolition-hub',
-            desc: 'Every objection answered',
+            desc: 'Arminian proof-texts dismantled verse by verse',
             subs: [
                 { name: '1 Corinthians 15:22 — Verse Demolition #4', href: '/demolition-1cor15-22', desc: 'Demolition #4: 1 Corinthians 15:22 proves particular redemption, not universal atonement. The parallel is representation' },
                 { name: '1 John 2:2 — Verse Demolition #7', href: '/demolition-1john2-2', desc: '1 John 2:2 — Does' },
@@ -127,19 +143,25 @@
                 { name: 'FACTS Check: Dismantling the Arminian Framework Point by Point', href: '/demolition-arminian-facts', desc: 'Seminary-level exegetical analysis dismantling the Society of Evangelical Arminians' },
                 { name: 'Hebrews 2:9 — Verse Demolition #5', href: '/demolition-hebrews2-9', desc: 'Demolition #5: Hebrews 2:9 —' },
                 { name: 'Hebrews 6:4-6 — Verse Demolition #10', href: '/demolition-hebrews6-4-6', desc: 'Demolition #10: Hebrews 6:4-6 — The' },
-                { name: 'If God Already Chose Us, Why Do We Have to Believe?', href: '/objection-why-believe', desc: 'A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. Exploring how God' },
-                { name: 'If God Already Chose Who Will Be Saved, Why Evangelize?', href: '/objection-evangelism-pointless', desc: 'If God already chose who will be saved, why evangelize? Because God ordains the means as well as the ends. Election does' },
-                { name: 'If God Controls Everything, How Can He Blame Us?', href: '/objection-responsibility', desc: 'If God predetermines everything, how can He hold us responsible? Romans 9:19 answered with Scripture, compatibilism, and' },
-                { name: 'If God Could Save Everyone, Why Doesn\'t He?', href: '/objection-god-could-save-all', desc: 'The hardest question in Reformed theology. If God can irresistibly save, why doesn' },
-                { name: 'If God Predestined Everything, Are We Just Robots?', href: '/objection-robots', desc: 'If God predestined everything, are we just robots? No. Scripture teaches something far more beautiful: we are free creat' },
-                { name: 'If God Predestined Everything, Why Does He Command Us?', href: '/objection-why-command', desc: 'If God predestined everything, why pray? Why obey? The answer reveals why commands aren' },
-                { name: 'Is God the Author of Sin? The Predestination Problem Answered', href: '/objection-author-of-sin', desc: 'Does God cause sin? If He predestines everything, how is He not responsible for evil? Scripture teaches a clear distinct' },
-                { name: 'Is Predestination Fair?', href: '/objection-fairness', desc: 'Is predestination fair? Doesn' },
                 { name: 'Joshua 24:15 — Verse-by-Verse Demolition', href: '/demolition-joshua24-15', desc: 'Verse-by-verse exegetical demolition of the Arminian use of Joshua 24:15 as proof of libertarian free will. Scripture te' },
                 { name: 'Philippians 2:12-13 — Verse Demolition #3', href: '/demolition-philippians2-12-13', desc: 'Demolition #3: Philippians 2:12-13 proves monergistic grace, not human autonomy. God works in you to both will and work.' },
                 { name: 'Steel Man: Arminianism at Its Absolute Best', href: '/demolition-steel-man-arminianism', desc: 'We present Arminianism using its strongest scholars and best arguments—then show why Scripture points to something deepe' },
                 { name: 'Titus 2:11 — "The Grace of God Has Appeared to All"', href: '/demolition-titus2-11', desc: 'Demolition #17: Titus 2:11 and the' },
                 { name: 'When Philosophy Replaces Exegesis — Dismantling the Orthodox Case Against Predestination', href: '/demolition-orthodox-predestination', desc: 'A thorough exegetical dismantling of the Eastern Orthodox argument against Reformed predestination — exposing the geneti' }
+            ]
+        },
+        {
+            name: 'Apologetics',
+            icon: '⚔',
+            href: '/apologetic-evangelism',
+            desc: 'Defending and commending the faith',
+            subs: [
+                { name: 'Can You Lose Your Salvation?', href: '/apologetic-perseverance', desc: 'Can you lose your salvation? Scripture' },
+                { name: 'Did Jesus Die for Everyone? Scripture on Definite Atonement', href: '/apologetic-definite-atonement', desc: 'Did Jesus die for everyone? Scripture teaches that Christ' },
+                { name: 'Doesn\'t Election Make Evangelism Pointless?', href: '/apologetic-evangelism', desc: 'Does election make evangelism pointless? No—it' },
+                { name: 'The Great Debate: Does Man Have Free Will?', href: '/debate-free-will', desc: 'A rigorous formal debate: Does man have free will? Two positions argue their strongest cases—libertarian free will vs. b' },
+                { name: 'What About Babies Who Die? — Grace, Covenant, and the Littlest Lambs', href: '/apologetic-babies', desc: 'What happens to babies and children who die? Scripture gives the grieving parent a sovereign, rock-solid hope that no fr' },
+                { name: 'What About Those Who Never Heard the Gospel?', href: '/apologetic-unreached', desc: 'What about the billions who never heard the gospel? Scripture reveals God' }
             ]
         },
         {
@@ -302,20 +324,6 @@
                 { name: 'Monergism vs Synergism: Does God Save Alone?', href: '/compare-monergism-synergism', desc: 'Monergism vs Synergism explained from Scripture: Does God save alone, or does man cooperate? The fundamental divide in s' },
                 { name: 'Predestination vs Foreknowledge: Which Comes First?', href: '/compare-predestination-foreknowledge', desc: 'Predestination vs Foreknowledge: Does God predestine based on what He foresees, or does He foreknow because He predestin' },
                 { name: 'Reformed vs Catholic Soteriology: How Are We Justified?', href: '/compare-calvinism-catholic-soteriology', desc: 'Reformed vs Catholic soteriology compared: justification by faith alone vs. faith plus works, imputed vs. infused righte' }
-            ]
-        },
-        {
-            name: 'Apologetics',
-            icon: '🛡',
-            href: '/apologetic-evangelism',
-            desc: 'Defending and commending the faith',
-            subs: [
-                { name: 'Can You Lose Your Salvation?', href: '/apologetic-perseverance', desc: 'Can you lose your salvation? Scripture' },
-                { name: 'Did Jesus Die for Everyone? Scripture on Definite Atonement', href: '/apologetic-definite-atonement', desc: 'Did Jesus die for everyone? Scripture teaches that Christ' },
-                { name: 'Doesn\'t Election Make Evangelism Pointless?', href: '/apologetic-evangelism', desc: 'Does election make evangelism pointless? No—it' },
-                { name: 'The Great Debate: Does Man Have Free Will?', href: '/debate-free-will', desc: 'A rigorous formal debate: Does man have free will? Two positions argue their strongest cases—libertarian free will vs. b' },
-                { name: 'What About Babies Who Die? — Grace, Covenant, and the Littlest Lambs', href: '/apologetic-babies', desc: 'What happens to babies and children who die? Scripture gives the grieving parent a sovereign, rock-solid hope that no fr' },
-                { name: 'What About Those Who Never Heard the Gospel?', href: '/apologetic-unreached', desc: 'What about the billions who never heard the gospel? Scripture reveals God' }
             ]
         },
         {
