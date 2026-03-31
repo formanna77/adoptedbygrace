@@ -223,15 +223,15 @@
             desc: 'Original parables and narratives',
             subs: [
                 { name: 'Can a Stone Heart Choose? The Surgeon\'s Parable on Regeneration', href: '/story-surgeon-stone-heart', desc: 'Can a stone heart choose? A surgeon gives a new heart without asking. A parable about regeneration and why dead hearts n' },
+                { name: 'Can You Save Yourself? A Parable About Grace and Human Effort', href: '/story-the-garden-that-grew-itself', desc: 'A powerful children' },
                 { name: 'Did You Really Choose God? — A Story About the Illusion of Free Will', href: '/story-the-room-where-you-chose', desc: 'Follow a golden thread back through time to discover the origin of your most important choice. A story about free will, ' },
-                { name: 'The Dead City - Dead People Can\'t Choose', href: '/story-the-dead-city', desc: 'Why dead people can' },
-                { name: 'The Fish Who Chose the Ocean — A Parable About Free Will and Grace', href: '/story-the-fish-who-chose-the-ocean', desc: 'A powerful parable about a fish who thought he chose the ocean—and the wise turtle who gently reveals the truth about gr' },
-                { name: 'The Garden That Grew Itself — A Children\'s Story', href: '/story-the-garden-that-grew-itself', desc: 'A children' },
-                { name: 'The King\'s Banquet — What Is Irresistible Grace?', href: '/story-the-kings-banquet', desc: 'What is irresistible grace? The King' },
+                { name: 'Did You Really Choose God? A Parable About Free Will and Grace', href: '/story-the-fish-who-chose-the-ocean', desc: 'Did you choose God, or did God choose you? A parable about a fish who thought he chose the ocean—revealing the truth abo' },
                 { name: 'The Letter Before the World — A Story of Election as God\'s Most Intimate Love', href: '/story-the-letter-before-the-world', desc: 'She found a letter her father wrote before she was born — before he even knew he would adopt her. A tender story about b' },
                 { name: 'The Night Augustine Stole the Pears — A Story About Total Depravity', href: '/story-historical-augustine-pears', desc: 'A story about Augustine at sixteen, stealing pears he didn' },
-                { name: 'The Orphanage - What is Election in the Bible?', href: '/story-the-orphanage', desc: 'What is election in the Bible? Every child chose their family - until adoption papers dated before birth were found.' },
-                { name: 'The Self-Made Man - Why Self-Salvation is an Illusion', href: '/story-the-self-made-man', desc: 'The self-made man who took credit for everything he didn' }
+                { name: 'The Orphanage: A Story About Being Chosen by God | Election Parable', href: '/story-the-orphanage', desc: 'The Orphanage: A powerful allegory exploring divine election. A girl discovers adoption papers signed before she was bor' },
+                { name: 'The Self-Made Man - Why Self-Salvation is an Illusion', href: '/story-the-self-made-man', desc: 'The self-made man who took credit for everything he didn' },
+                { name: 'What Does It Mean to Be Dead in Sin? A Story About Total Depravity', href: '/story-the-dead-city', desc: 'An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God—and why the Voice that awakens' },
+                { name: 'Why No One Comes to the Banquet: A Story About Irresistible Grace', href: '/story-the-kings-banquet', desc: 'Why doesn' }
             ]
         },
         {

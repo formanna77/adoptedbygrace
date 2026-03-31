@@ -269,6 +269,85 @@
                 font-size: 1.8rem;
             }
         }
+        .keep-reading-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 3rem 2rem;
+        }
+
+        .keep-reading-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: #d4a254;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .keep-reading-subtitle {
+            text-align: center;
+            color: #a0a0a0;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+
+        .keep-reading-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .keep-reading-card {
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, rgba(15, 15, 15, 0.8), rgba(26, 26, 26, 0.6));
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-decoration: none;
+            color: #d0d0d0;
+            transition: all 0.3s ease;
+            gap: 0.75rem;
+        }
+
+        .keep-reading-card:hover {
+            border-color: #d4a254;
+            background: linear-gradient(135deg, rgba(15, 15, 15, 1), rgba(26, 26, 26, 0.8));
+            box-shadow: 0 8px 24px rgba(212, 175, 55, 0.15);
+        }
+
+        .keep-reading-category {
+            display: block;
+            font-size: 0.85rem;
+            color: #999;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .keep-reading-title {
+            display: block;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            color: #d4a254;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .keep-reading-card:hover .keep-reading-title {
+            color: #e8a866;
+        }
+
+        .keep-reading-preview {
+            display: block;
+            font-size: 0.95rem;
+            color: #a0a0a0;
+            line-height: 1.6;
+            margin-top: 0.5rem;
+        }
+
         .never-gives-up-banner { max-width: 900px; margin: 3rem auto; background: linear-gradient(135deg, rgba(212,162,84,0.1), rgba(139,92,246,0.1)); border: 1px solid rgba(212,162,84,0.2); border-radius: 12px; padding: 2rem; text-align: center; }
         .never-gives-up-banner a { color: #d4a254; text-decoration: none; font-family: 'Playfair Display', serif; font-size: 1.3rem; }
         .never-gives-up-banner a:hover { color: #e8642c; }
@@ -439,7 +518,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <section class="content-section reveal">
             <h2>What the Corpse Cannot Do</h2>
             <p>
-                Scripture teaches that human beings, in their natural state—separated from God—are spiritually dead. Not sick. Not wounded. Not asleep. Dead. And a dead person cannot do the things a living person can do.
+                Scripture teaches that human beings, in their natural state—separated from God—are spiritually dead. Not sick. Not wounded. Not asleep. Dead. And a dead person cannot do the things a living person can do. This is what theologians call <a href="/question-depravity.html" style="color: #d4a254; text-decoration: underline;">total depravity</a>—not that you're as bad as you could be, but that sin has corrupted every part of your being, leaving you incapable of reaching toward God.
             </p>
 
             <h3>The Corpse Cannot Hear</h3>
@@ -514,7 +593,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 If salvation depended on the dead person's response, no one would be saved. The doctor must act unilaterally. He must take the initiative completely.
             </p>
             <p>
-                This is the doctrine of <span class="emphasis">regeneration</span>—the work of God that precedes and produces faith. God doesn't wait for you to choose life. He makes you alive. And in making you alive, He enables your choice.
+                This is the work of <span class="emphasis"><a href="/systematic-regeneration.html" style="color: #d4a254; text-decoration: underline;">regeneration</a></span>—God's sovereign act that precedes and produces faith. God doesn't wait for you to choose life. He makes you alive. And in making you alive, He enables your choice.
             </p>
 
             <h3>God Acts Alone</h3>
@@ -614,6 +693,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 Because if salvation depended on your response, your cooperation, your faith, your choosing—you would lose it the moment you stopped performing. Your salvation would hang on you. And we know how that ends. We fail. We doubt. We fall. We forget. We stumble.
             </p>
 
+            <blockquote style="border-left-color: #d4a254; background: rgba(212, 175, 55, 0.12); text-align: center; font-size: 1.15rem; font-style: normal; padding: 2rem;">
+                <strong style="color: #d4a254; font-size: 1.2rem;">The corpse was dead. The doctor acted. The corpse lived. And then the corpse said thank you.</strong>
+            </blockquote>
+
             <h3>Your Salvation Doesn't Depend on You</h3>
             <p>
                 But look at what Scripture teaches: if you have been born again—if you have been raised from spiritual death—that new life is <span class="emphasis">permanent</span>. Not because you earned it. Not because you can maintain it. But because God raises the dead, and God doesn't un-resurrect people.
@@ -659,10 +742,19 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <section class="content-section reveal" style="background: rgba(212, 175, 55, 0.05); border-left: 4px solid #d4a254;">
             <h3 style="margin-top: 0;">A Word for the Heavy-Hearted</h3>
             <p>
-                If you're reading this and thinking <em>"But I can't believe. I've tried, and I just can't make myself have faith"</em>—do you hear what that confession reveals? Your very inability is proof of the doctrine. You are diagnosing your own spiritual death. And here's the mercy: you don't have to resurrect yourself. The doctor is not waiting for your permission. The command "believe" is not a burden laid on your dead shoulders. It is the resurrection itself. When the Doctor speaks, the corpse lives.
+                Maybe you're reading this and your heart is breaking. You've been told all your life: "Just believe. Just accept Jesus. Just make the choice." And you've tried. God knows you've tried. You've wept. You've pleaded. You've wanted so desperately to feel what everyone says they feel. But the faith won't come. The belief won't stick. And now you're wondering: <em>"What if I'm broken? What if I can't be saved because I can't make myself believe?"</em>
             </p>
             <p>
-                So stop trying to perform faith. Stop trying to generate belief from the cold machinery of your own will. Lie still before Him. Let yourself be raised. And then you will see—you will finally be alive enough to see—that you were chosen before the foundation of the world.
+                Listen: your very inability is proof of the truth on this page. You're not broken. You're dead. And the dead cannot resurrect themselves—no matter how hard they try, no matter how much they want to, no matter how many times they attempt it. That's not failure. That's accuracy. That's honesty. That's the exact diagnosis Scripture gives.
+            </p>
+            <p>
+                And here's the whisper that might change everything: you don't have to resurrect yourself. The Doctor is not waiting for your permission. The command "believe" is not a burden He's laying on your dead shoulders while you scramble to obey. The command IS the resurrection. When the Doctor speaks to the corpse—"Live!"—the corpse doesn't say "I'm going to try harder to believe in CPR." The corpse simply opens its eyes. The breathing happens. The heart beats. Life returns.
+            </p>
+            <p>
+                So stop the performance. Stop trying to manufacture faith from the machinery of your own will. Stop treating belief like a work you have to complete. Instead, lie still. Let yourself be still before Him. And if you sense even the faintest stirring—a question, a curiosity, a moment where Scripture suddenly feels true, a night where you cannot shake the reality of God—that stirring is not your achievement. That is the Doctor. That is the resurrection beginning. That is life coming to the dead.
+            </p>
+            <p>
+                When the life finally comes—and if you are elect, it will come—you will understand what happened. You were not the hero of your own salvation. You did not reach down to save yourself. Rather, you were known, chosen, sought, found, and raised by One who loved you before the foundation of the world. And then, finally alive, you will see: you were not trying to find Him. He was finding you. You were not struggling to believe in Him. He was calling you to life. And all along, grace was at work.
             </p>
         </section>
 
@@ -682,6 +774,34 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <span class="witness-attr">&mdash; Augustine, <em>On Rebuke and Grace</em>, Ch. 2</span>
             </div>
         </div>
+
+        <!-- Keep Reading Section -->
+        <section class="keep-reading-section">
+            <h2>Keep Reading</h2>
+            <p class="keep-reading-subtitle">Explore deeper truths about spiritual death, resurrection, and grace.</p>
+            <div class="keep-reading-grid">
+                <a href="/analogy-light-switch.html" class="keep-reading-card">
+                    <span class="keep-reading-category">📖 Analogy</span>
+                    <span class="keep-reading-title">Can You Choose to Believe?</span>
+                    <span class="keep-reading-preview">Why commanding someone to choose proves they cannot choose.</span>
+                </a>
+                <a href="/question-depravity.html" class="keep-reading-card">
+                    <span class="keep-reading-category">❓ Question</span>
+                    <span class="keep-reading-title">Total Depravity: How Dead Is Dead?</span>
+                    <span class="keep-reading-preview">Scripture's diagnosis of the human condition before resurrection.</span>
+                </a>
+                <a href="/systematic-regeneration.html" class="keep-reading-card">
+                    <span class="keep-reading-category">📚 Theology</span>
+                    <span class="keep-reading-title">Regeneration: Born Again Before You Believed</span>
+                    <span class="keep-reading-preview">God's sovereign work of making the dead alive.</span>
+                </a>
+                <a href="/devotional-dead-who-live.html" class="keep-reading-card">
+                    <span class="keep-reading-category">🕯 Devotional</span>
+                    <span class="keep-reading-title">The Dead Who Live</span>
+                    <span class="keep-reading-preview">A tender meditation for those awakened by grace.</span>
+                </a>
+            </div>
+        </section>
 
         <!-- Never Gives Up Banner -->
         <div class="never-gives-up-banner">

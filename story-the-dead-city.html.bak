@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>What Does It Mean to Be Dead in Sin? A Story About Total Depravity</title>
+  <title>The Dead City - Dead People Can't Choose | Adopted by Grace</title>
 
   <!-- SEO & Meta -->
-  <meta name="description" content="An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God—and why the Voice that awakens them is the only hope. Explore the doctrine of total depravity through story.">
+  <meta name="description" content="Why dead people can't choose God. A story about spiritual death, regeneration, and the Voice that awakens. Allegory on election.">
   <meta name="author" content="Adopted by Grace">
   <link rel="canonical" href="https://adoptedbygrace.net/story-the-dead-city.html">
 
   <!-- OG Tags -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="What Does It Mean to Be Dead in Sin? A Story About Total Depravity">
-  <meta property="og:description" content="An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God—and why the Voice that awakens them is the only hope. Explore the doctrine of total depravity through story.">
+  <meta property="og:title" content="The Dead City - Spiritual Death & Regeneration">
+  <meta property="og:description" content="Why dead people can't choose God. A story about spiritual death, regeneration, and divine awakening.">
   <meta property="og:url" content="https://adoptedbygrace.net/story-the-dead-city.html">
   <meta property="og:image" content="https://adoptedbygrace.net/og-image.jpg">
   <meta property="og:site_name" content="Adopted by Grace">
@@ -29,8 +29,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "What Does It Mean to Be Dead in Sin? A Story About Total Depravity",
-    "description": "An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God—and why the Voice that awakens them is the only hope. Explore the doctrine of total depravity through story.",
+    "headline": "The Dead City",
+    "description": "An allegory on regeneration and election — a story about those who are dead but don't know it, and the Voice that awakens them.",
     "author": {
       "@type": "Organization",
       "name": "Adopted by Grace"
@@ -684,7 +684,6 @@
             <h3>The Voice from Outside</h3>
             <div class="symbol">→ God's Grace</div>
             <p>The Voice comes from beyond the city walls—outside and other than the dead. It is not generated from within the city; it is pure gift, pure calling, pure election from beyond.</p>
-            <p><em><a href="/analogy-doctor-corpse.html" style="color: var(--accent-gold); text-decoration: underline;">Can a dead person choose to live?</a> Our analogy page explores this profound question through the lens of a physician and an unwilling patient.</em></p>
             <p class="scripture-ref">Ephesians 2:4–5</p>
           </div>
 
@@ -699,7 +698,6 @@
             <h3>The Call to Live</h3>
             <div class="symbol">→ Effectual Calling</div>
             <p>When the Voice speaks, the dead are made alive. The call is not an offer that can be rejected. It is a command that resurrects. The effectiveness lies in the Voice, not the hearer.</p>
-            <p><em><a href="/question-depravity.html" style="color: var(--accent-gold); text-decoration: underline;">What does total depravity actually mean?</a> Dive deeper into how dead hearts cannot generate saving faith on their own.</em></p>
             <p class="scripture-ref">John 5:25, John 11:43–44</p>
           </div>
 
@@ -732,31 +730,31 @@
       </section>
 
       <section class="further-reading">
-        <h2>Keep Reading</h2>
+        <h2>Continue Exploring</h2>
 
-        <div class="reading-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
-          <a href="/analogy-doctor-corpse.html" class="reading-card" style="background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; padding: 2rem; text-decoration: none; transition: all var(--transition-smooth); display: flex; flex-direction: column;">
-            <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-size: 1.1rem;">Can a Dead Person Choose to Live?</h3>
-            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">The doctor and the corpse—what happens when you ask a dead man to wake himself up? This analogy cuts to the heart of total depravity.</p>
-            <span style="color: var(--accent-ember); font-weight: 600;">Read Analogy →</span>
+        <div class="reading-cards">
+          <a href="/story-surgeon-stone-heart.html" class="reading-card">
+            <h3>The Surgeon & the Stone Heart</h3>
+            <p>Another allegory exploring grace, transformation, and the surgical precision of God's work in the human heart.</p>
+            <span class="reading-link">Read Story</span>
           </a>
 
-          <a href="/question-depravity.html" class="reading-card" style="background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; padding: 2rem; text-decoration: none; transition: all var(--transition-smooth); display: flex; flex-direction: column;">
-            <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-size: 1.1rem;">Total Depravity: How Dead Is Dead?</h3>
-            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">Scripture teaches that we are not merely sick—we are dead in sin. Explore what this truth means for salvation and your hope in Christ.</p>
-            <span style="color: var(--accent-ember); font-weight: 600;">Ask the Question →</span>
+          <a href="/question-depravity.html" class="reading-card">
+            <h3>Total Depravity</h3>
+            <p>What Scripture teaches about humanity's condition and why we are unable to choose God apart from His grace.</p>
+            <span class="reading-link">Learn More</span>
           </a>
 
-          <a href="/story-the-garden-that-grew-itself.html" class="reading-card" style="background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; padding: 2rem; text-decoration: none; transition: all var(--transition-smooth); display: flex; flex-direction: column;">
-            <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-size: 1.1rem;">The Garden That Grew Itself</h3>
-            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">An allegory about regeneration and divine sovereignty—who makes the garden grow? A parable about faith and the impossible transformation of the human heart.</p>
-            <span style="color: var(--accent-ember); font-weight: 600;">Read Story →</span>
+          <a href="/devotional-dead-who-live.html" class="reading-card">
+            <h3>The Dead Who Live</h3>
+            <p>A devotional reflection on resurrection, identity, and the moment your life changed forever.</p>
+            <span class="reading-link">Read Devotional</span>
           </a>
 
-          <a href="/devotional-dead-who-live.html" class="reading-card" style="background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; padding: 2rem; text-decoration: none; transition: all var(--transition-smooth); display: flex; flex-direction: column;">
-            <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-size: 1.1rem;">The Dead Who Live</h3>
-            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">A devotional for those who have heard the Voice and been awakened—a meditation on identity, resurrection, and what it means to be made alive in Christ.</p>
-            <span style="color: var(--accent-ember); font-weight: 600;">Read Devotional →</span>
+          <a href="/psychology-why-we-resist.html" class="reading-card">
+            <h3>Why We Resist</h3>
+            <p>An exploration of the psychological and spiritual reasons we suppress the truth and refuse God's sovereignty—and what Scripture says about this resistance.</p>
+            <span class="reading-link">Explore Psychology</span>
           </a>
         </div>
       </section>
