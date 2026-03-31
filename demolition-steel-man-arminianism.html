@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steel Man: Arminianism at Its Absolute Best | Adopted by Grace</title>
+    <meta name="description" content="We present Arminianism using its strongest scholars and best arguments—then show why Scripture points to something deeper.">
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 6rem 2rem 4rem;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(232, 100, 44, 0.05) 100%);
+            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #d4a254, #e8642c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 4rem 2rem;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.15);
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent-gold);
+            line-height: 1.2;
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-ember);
+            line-height: 1.3;
+        }
+
+        h3:first-child {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 1.3rem;
+            color: var(--text-primary);
+        }
+
+        .argument-block {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-violet);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .argument-block h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            color: var(--accent-gold);
+            margin-bottom: 0.8rem;
+        }
+
+        .argument-block p {
+            margin-bottom: 0.8rem;
+        }
+
+        .argument-block p:last-child {
+            margin-bottom: 0;
+        }
+
+        .scripture {
+            font-family: 'JetBrains Mono', monospace;
+            background-color: rgba(139, 92, 246, 0.1);
+            border-radius: 3px;
+            padding: 0.3rem 0.6rem;
+            color: var(--accent-violet);
+            font-size: 0.95rem;
+        }
+
+        .response-header {
+            font-family: 'JetBrains Mono', monospace;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            color: var(--accent-ember);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(232, 100, 44, 0.3);
+        }
+
+        .key-insight {
+            background-color: rgba(232, 100, 44, 0.1);
+            border-left: 4px solid var(--accent-ember);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .key-insight p {
+            margin-bottom: 0;
+        }
+
+        strong {
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        em {
+            color: var(--accent-violet);
+            font-style: italic;
+        }
+
+        .remonstrant-articles {
+            display: grid;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .article-item {
+            background-color: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: 4px;
+            border-left: 3px solid var(--accent-gold);
+        }
+
+        .article-item strong {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--accent-gold);
+        }
+
+        .article-item p {
+            margin-bottom: 0;
+        }
+
+        .question-block {
+            background-color: rgba(139, 92, 246, 0.15);
+            border-radius: 4px;
+            padding: 2rem;
+            margin: 2rem 0;
+            font-style: italic;
+            border-left: 4px solid var(--accent-violet);
+        }
+
+        .question-block p {
+            margin-bottom: 0.8rem;
+        }
+
+        .question-block p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-card);
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            border-bottom: 1px solid var(--accent-gold);
+        }
+
+        footer a:hover {
+            color: var(--accent-ember);
+            border-bottom-color: var(--accent-ember);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            h3 {
+                font-size: 1.3rem;
+            }
+
+            .container {
+                padding: 0 1.5rem;
+            }
+
+            section {
+                padding: 2.5rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
+                <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">History</a></li>
+                <li class="mobile-nav-link"><a href="/analogies-illustrations">Analogies</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/devotionals" class="nav-top-link">Devotionals</a>
+                <a href="/stories" class="nav-top-link">Stories</a>
+                <a href="/secular-evidence" class="nav-top-link">Secular</a>
+                <a href="/history-timeline" class="nav-top-link">History</a>
+                <a href="/analogies-illustrations" class="nav-top-link">Analogies</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="mega-menu" id="megaMenu"></div>
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="hero">
+        <div class="container">
+            <h1>We Took Your Best Shot</h1>
+            <p>
+                This is not a hit piece. This is not a caricature. This is what Reformed theology looks like when it takes Arminianism seriously — by understanding it at its absolute strongest, as articulated by its finest scholars, before responding.
+            </p>
+            <p style="margin-top: 1.5rem;">
+                What you'll read in the first half of this page will be fairer to your position than many Arminian presentations of your own beliefs. We're not fighting straw men. We're taking your best argument and showing what Scripture says about it.
+            </p>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <h2>What Arminians Actually Believe</h2>
+            <p>
+                Start here. This is where most Reformed critiques go sideways — by attacking a version of Arminianism that no serious Arminian actually holds. We won't do that.
+            </p>
+            <p>
+                In 1610, five years after Jacobus Arminius died, his followers published the <em>Remonstrance</em> — five articles that define classical Arminianism. They don't look like most Protestants assume.
+            </p>
+
+            <h3>The Five Remonstrant Articles (Charitably Read)</h3>
+
+            <div class="remonstrant-articles">
+                <div class="article-item">
+                    <strong>Article 1: Election Is Conditional</strong>
+                    <p>
+                        God's decree of election is not arbitrary. It rests on God's foreknowledge of who will, through grace, accept the offer of salvation. God chose those He foreknew would believe. This preserves both God's sovereignty (He still chooses) and human responsibility (you still respond).
+                    </p>
+                </div>
+
+                <div class="article-item">
+                    <strong>Article 2: Christ Died for All</strong>
+                    <p>
+                        The atonement is sufficient for all but efficient only for believers. Christ's death makes salvation possible for everyone. Whether that possibility becomes reality depends on whether you accept it.
+                    </p>
+                </div>
+
+                <div class="article-item">
+                    <strong>Article 3: Prevenient Grace (This Is the Key)</strong>
+                    <p>
+                        Humans are indeed totally depraved in Adam — you won't find Arminians denying original sin or total corruption. But God gives prevenient grace to everyone. This grace is not saving, but it is enabling. It restores to human nature a capacity to respond to the gospel. Without it, everyone would reject God. With it, some do and some don't, and the difference is their choice.
+                    </p>
+                </div>
+
+                <div class="article-item">
+                    <strong>Article 4: Grace Can Be Resisted</strong>
+                    <p>
+                        Prevenient grace is not irresistible. It enables the will but does not coerce it. Even with grace at work, a person can and does say no. This is why, in the same family, one sibling believes and the other doesn't.
+                    </p>
+                </div>
+
+                <div class="article-item">
+                    <strong>Article 5: Believers Can Lose Salvation</strong>
+                    <p>
+                        Perseverance is not automatic. A genuine believer can fall away. God grants eternal life conditionally — on the condition of faith. That condition can be broken.
+                    </p>
+                </div>
+            </div>
+
+            <p>
+                Now notice what's missing from this list: Arminians don't say humans have free will in a vacuum. They're not denying depravity. They're not saying God is a passive observer. They're saying something far more subtle: <strong>God's sovereignty works through human choice, not despite it or instead of it.</strong> This distinction matters.
+            </p>
+
+            <p>
+                The irony that kills every bad Reformed critique: Arminians sound more like most evangelicals than the folk accusing them of denying depravity. Walk into a typical evangelical church and listen to the altar call. "Jesus has done His part. Now you must do yours." That's Arminianism, lived out in the pews of Reformed churches that don't realize it.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>The Seven Strongest Arminian Arguments</h2>
+            <p>
+                What follows are the actual arguments made by Arminian scholars like Roger Olson, Jerry Walls, Robert Picirilli, Jack Cottrell, and Ben Witherington III. These are serious people doing serious theology. This is their case at full strength.
+            </p>
+
+            <div class="argument-block">
+                <h4>Argument 1: Prevenient Grace Solves Total Depravity Without Eliminating Freedom</h4>
+                <p>
+                    Reformed theology affirms total depravity — humans cannot choose God apart from grace. Arminianism affirms the same. The difference is this: Reformed theology says grace is <em>irresistible</em> and <em>efficacious</em> (it accomplishes what it aims at, namely, your conversion). Arminianism says grace is <em>prevenient</em> and <em>enabling</em>. It restores to the will the capacity to respond, but doesn't override the will's operation.
+                </p>
+                <p>
+                    The Arminian asks: Why would God give us moral responsibility if He then removes the ability to exercise it? If you're responsible for belief, then belief must be within your capacity. Prevenient grace accounts for how you can be responsible for something you cannot achieve in your own power. Grace gave you the ability; you exercise it.
+                </p>
+                <p>
+                    This preserves both depravity and responsibility — and it explains why external circumstances matter. Same sermon, same gospel, same preaching — and some believe, others don't. If grace is irresistible, why would this be? Arminianism says: because they're exercising the grace-restored capacity differently. One person says yes; another says no. The difference is in how they use the ability grace restored.
+                </p>
+            </div>
+
+            <div class="argument-block">
+                <h4>Argument 2: Scripture Teaches God's Universal Salvific Will</h4>
+                <p>
+                    This argument rests on three texts that are, on their face, extraordinarily difficult for Reformed theology:
+                </p>
+                <p>
+                    <span class="scripture">1 Timothy 2:4</span> — "God desires all people to be saved and to come to the knowledge of the truth."
+                </p>
+                <p>
+                    <span class="scripture">2 Peter 3:9</span> — "The Lord is not slow to fulfill His promise as some count slowness, but is patient toward you, not wishing that any should perish, but that all should reach repentance."
+                </p>
+                <p>
+                    <span class="scripture">1 John 2:2</span> — "He is the propitiation for our sins, and not for ours only but also for the sins of the whole world."
+                </p>
+                <p>
+                    The plain reading of these texts seems to say: God wants everyone saved. God sent Christ to die for everyone. How is this compatible with limited atonement? With God decreeing from eternity who will be saved and who won't? The Arminian position is simpler: God really does want all to be saved. Christ really did die for all. Whether they're saved depends on whether they accept it. This takes the texts at face value without theological maneuver.
+                </p>
+            </div>
+
+            <div class="argument-block">
+                <h4>Argument 3: Conditional Election Preserves God's Justice</h4>
+                <p>
+                    Here's the uncomfortable question Arminians press: If God, from eternity, decrees that only certain people will be saved — and that the rest will not, and cannot — how is that consistent with calling God just? You don't choose to be reprobate. You don't choose to be among those God has not chosen. You're born into a world where your eternal fate was sealed before you existed, sealed against your will, and then you're held responsible for the very rebellion that was decreed.
+                </p>
+                <p>
+                    Arminianism answers: God decrees that salvation will be available to all, and that He'll elect those He foreknows will accept it. Yes, God's foreknowledge is real — He knows from eternity who will believe. But what He foreknows is your choice, not something He's forcing. You can have knowledge of what someone freely will do without making them do it. A parent can know from long experience that their child will refuse an offer — and the child's refusal will be free.
+                </p>
+                <p>
+                    Under this model, justice is preserved. No one can stand before God and say, "I had no choice. You decreed my damnation and made my rebellion inevitable." Instead, they must say, "I rejected grace. I refused the offer. My condemnation is my own doing."
+                </p>
+            </div>
+
+            <div class="argument-block">
+                <h4>Argument 4: The Atonement Has Universal Scope</h4>
+                <p>
+                    Christ did not die for an elect few. He died for all. Consider these texts:
+                </p>
+                <p>
+                    <span class="scripture">Hebrews 2:9</span> — "By the grace of God He tasted death for everyone."
+                </p>
+                <p>
+                    <span class="scripture">2 Corinthians 5:14-15</span> — "One has died for all... that those who live might no longer live for themselves."
+                </p>
+                <p>
+                    <span class="scripture">Titus 2:11</span> — "The grace of God has appeared, bringing salvation for all people."
+                </p>
+                <p>
+                    When Scripture says Christ died for "all," "the world," "everyone," the most straightforward reading is that His death was not limited in scope. The Arminian argues that Reformed theology has to engage in complex interpretive gymnastics to explain how "all" means "the elect" or how "world" means "kinds of people" rather than actual persons. Why not take it plainly? Christ's death is sufficient for all; efficient for those who believe.
+                </p>
+            </div>
+
+            <div class="argument-block">
+                <h4>Argument 5: Grace Can Be Resisted</h4>
+                <p>
+                    Stephen's dying speech in Acts 7:51 is remarkable: "You stiff-necked people, uncircumcised in heart and ears, you always resist the Holy Spirit."
+                </p>
+                <p>
+                    This assumes it's possible to resist the Spirit. Not that you will — but that resistance is within the scope of what's possible. When Jesus wept over Jerusalem, saying <span class="scripture">Matthew 23:37</span> — "How often would I have gathered your children together as a hen gathers her brood under her wings, and you would not!" — He expresses a real wish that was thwarted by human refusal. He wanted to gather them; they would not be gathered.
+                </p>
+                <p>
+                    This language makes no sense if the outcome is already decreed. If God had decreed that Jerusalem would reject Him, then "you would not" is not a genuine resistance but a predetermined script. But the text reads as genuine — as a real possibility that was rejected, leaving Jesus genuinely sorrowful.
+                </p>
+                <p>
+                    The Arminian concludes: Grace offers. It enables. But it does not compel. You can say no, and many do.
+                </p>
+            </div>
+
+            <div class="argument-block">
+                <h4>Argument 6: Believers Can Forfeit Salvation</h4>
+                <p>
+                    Hebrews 6:4-6 presents believers who were genuinely converted, genuinely enlightened, and yet fell away. The text says they are crucifying Christ afresh and holding Him up to contempt. The question is: Were they ever really saved? Arminians answer yes. They had the experience of genuine faith, real conversion, actual benefit from Christ. And then they turned away.
+                </p>
+                <p>
+                    Similarly, Hebrews 10:26-29 warns believers: "If we go on sinning deliberately after receiving the knowledge of the truth, there no longer remains a sacrifice for sins." This assumes it's possible for those who have been sanctified to willfully reject Christ.
+                </p>
+                <p>
+                    Why would Scripture warn believers about the possibility of falling away if it's impossible? Why would Paul say in 1 Corinthians 9:27, "I discipline my body and keep it under control, lest after preaching to others I myself should be disqualified"? If Paul's salvation is secure and certain, why speak of being disqualified?
+                </p>
+                <p>
+                    The Arminian conclusion: Salvation is secure as long as faith is active. Faith is something you exercise, something you hold, something you can lose. God doesn't remove faith from you; you can release it.
+                </p>
+            </div>
+
+            <div class="argument-block">
+                <h4>Argument 7: Love Requires Genuine Choice</h4>
+                <p>
+                    This is the emotional bedrock of Arminianism. Love compelled is not love — it's control. Love that has no real alternative is not love.
+                </p>
+                <p>
+                    God desires relationship with His people. Relationship presupposes the genuine possibility of refusal. If you couldn't say no, then your yes is not a response of love but an inevitable outcome. You're not choosing to love God; you're a program executing its code. A woman cannot love a man if she's been programmed to. She must be able to say no in order for her yes to mean anything.
+                </p>
+                <p>
+                    By this logic, God grants to humanity real freedom — the power to say no, even to grace itself. This makes human love possible. We choose God; He doesn't choose for us and then call our inevitable compliance "love."
+                </p>
+            </div>
+
+            <div class="key-insight">
+                <p>
+                    <strong>Why This Constellation of Arguments Is Compelling:</strong> Arminianism sounds like the gospel as it's preached in churches. It takes biblical texts at face value. It preserves human responsibility and divine justice. It makes God's love feel less like sovereignty and more like free sacrifice. For millions of sincere Christians, this is what Christianity is. They're not heretics. They're reading Scripture and drawing conclusions that feel natural.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Where Each Argument Breaks</h2>
+            <p>
+                What follows is not a dismissal. It's what happens when you press the Arminian argument to its logical conclusion and let Scripture speak its full counsel.
+            </p>
+
+            <h3>The Prevenient Grace Problem: Who Makes the Difference?</h3>
+            <p>
+                Here's where the Arminian case breaks, and it breaks decisively.
+            </p>
+            <p>
+                Arminianism affirms total depravity. A totally depraved person, without grace, cannot and will not choose God. Agreed. Arminianism also affirms prevenient grace. God gives to every person enabling grace — the capacity to respond. Now the crucial question: <strong>Given that two people receive the exact same grace, hear the exact same gospel, face the exact same choice — what accounts for the fact that one accepts and one refuses?</strong>
+            </p>
+            <p>
+                The Arminian answer must be: their choice. Their will. The difference is in the person's decision-making capacity, how they use the will they've been given.
+            </p>
+
+            <div class="response-header">— The Problem This Creates —</div>
+
+            <p>
+                If two people, equally depraved, with equal grace, and identical circumstances diverge in their choice, then what made the difference? The Arminian says: their choice. But choice arises from character. Character arises from nature. And if both have the same nature (depravity) and the same grace (prevenience), then by what logic could their choices diverge unless something in the person themselves — something beyond depravity, something beyond grace — is different?
+            </p>
+            <p>
+                Arminianism has only two options: either there is something in the converted person that was not in the unconverted person (making the person, not grace, the determining factor), or prevenient grace is not equal (which contradicts Arminianism's claim that it's given universally).
+            </p>
+            <p>
+                In other words, Arminianism ends in this contradiction: <strong>Human nature is totally depraved, and yet the difference between salvation and damnation rests in human nature.</strong>
+            </p>
+            <p>
+                This is why the Arminian quietly relies on libertarian free will — the idea that the will has a power of contrary choice that cannot be explained by prior causes, by nature, by character, or by circumstance. It's just... free. It floats above causation.
+            </p>
+
+            <div class="response-header">— What Scripture Says —</div>
+
+            <p>
+                Scripture teaches something far more radical: <span class="scripture">Romans 9:16</span> — "It depends not on human will or exertion, but on God who has mercy."
+            </p>
+            <p>
+                Not "God's will works alongside human will." Not "God's will enables human will." But "It depends... on God who has mercy." The entire outcome — your conversion, your faith, your salvation — depends on God's mercy, not on your willing.
+            </p>
+            <p>
+                Why? Because you are dead. <span class="scripture">Ephesians 2:1</span> — "You were dead in your trespasses and sins." A dead man's will cannot contribute to his resurrection. A corpse does not cooperate with the surgeon; it is operated upon. The difference between the believer and the unbeliever is not that the believer chose better or used grace better. The difference is that God made alive the one and passed by the other — and <strong>this difference originates in God's choice, not yours.</strong>
+            </p>
+            <p>
+                Consider John 1:12-13: "To all who did receive Him, He gave the right to become children of God, even to those who believe in His name, who were born, not of blood nor of the will of the flesh nor of the will of man, but of God."
+            </p>
+            <p>
+                Notice the phrase: "who were born... not of the will of man." This is your new birth. It did not arise from your will. It arose from God's will. You did not will yourself into the kingdom. God did. And because you did not contribute your will to your conversion, you cannot take credit for it, and you cannot undo it.
+            </p>
+
+            <h3>The Universal Salvific Will Problem: Why Doesn't Everyone Believe?</h3>
+
+            <div class="response-header">— The Arminian Difficulty —</div>
+
+            <p>
+                The Arminian rests heavily on 1 Timothy 2:4 and 2 Peter 3:9 — "God desires all to be saved" and "the Lord is not willing that any should perish." If this is true at face value, the Arminian asks, how can the Reformed faith affirm a limited atonement, a particular election, a predetermination of some to damnation?
+            </p>
+            <p>
+                But here's what the Arminian hasn't considered: <strong>If God's desire for all to be saved is thwarted — if not all are saved — then what stopped God from accomplishing His will?</strong>
+            </p>
+            <p>
+                The Arminian answer: human choice. Human refusal. Humans chose not to believe, therefore not all are saved, therefore God's desire was thwarted.
+            </p>
+            <p>
+                But this means human will is more powerful than God's will. God wanted something; humans refused; what humans wanted won out. This may not be what the Arminian intends, but it's the logical conclusion of the system.
+            </p>
+
+            <div class="response-header">— What Scripture Says —</div>
+
+            <p>
+                Consider Isaiah 46:9-10: "I am God, and there is no other; I am God, and there is none like Me, declaring the end from the beginning and from ancient times things not yet done, saying, 'My counsel shall stand, and I will accomplish all My purpose.'"
+            </p>
+            <p>
+                God's counsel stands. God accomplishes all His purpose. Not some. All. If it is truly God's purpose that all people be saved, then — given His omnipotence — all will be saved. But they aren't. So either:
+            </p>
+            <p>
+                <strong>1)</strong> It is not God's purpose that all be saved, or
+                <strong>2)</strong> "all" in these texts means something other than every individual person.
+            </p>
+            <p>
+                The Reformed answer is option 2, and it's the more careful reading. When 1 Timothy 2:4 says God desires all people to be saved, the context is about representatives from every nation, every class, every group. <span class="scripture">1 Timothy 2:1-4</span> reads: "I urge that supplications, prayers, intercessions, and thanksgivings be made for all people, for kings and all who are in high positions, that we may lead a peaceful and quiet life, godly and dignified in every way. This is good and it is pleasing in the sight of God our Savior, who desires all people to be saved and to come to the knowledge of the truth."
+            </p>
+            <p>
+                The context is about praying for representatives from every stratum. "All people" means all kinds of people — rich, poor, rulers, subjects — not necessarily every individual. This makes sense of the text without requiring God's will to be thwarted.
+            </p>
+            <p>
+                Similarly, 2 Peter 3:9 says the Lord is "not willing that any should perish." In context, "any" refers to believers — those within the church. Peter is assuring believers that God is patient with them, not willing that any of His chosen ones should perish. The patience of God is extended toward His elect, not toward the world generally.
+            </p>
+            <p>
+                Once you read these texts in their grammatical context, the "universal salvific will" problem evaporates. God is not frustrated. God's counsel stands. What God intends comes to pass.
+            </p>
+
+            <h3>The Conditional Election Problem: God Foreknew What Hasn't Happened Yet</h3>
+
+            <div class="response-header">— The Arminian Argument —</div>
+
+            <p>
+                Arminianism argues that God foreknew who would believe, and based on that foreknowledge, God elected them. This preserves both divine sovereignty (God still chooses, based on His knowledge) and human choice (God chooses the ones He knows will choose Him).
+            </p>
+            <p>
+                It sounds elegant. But it creates an absurdity.
+            </p>
+
+            <div class="response-header">— What Scripture Says —</div>
+
+            <p>
+                If God foreknew that you would believe, then you must believe. You cannot do otherwise. Why? Because you cannot make false something that God foreknew to be true. God cannot be wrong. If God foreknew that you believe, then belief is necessary — decreed by the logic of divine omniscience.
+            </p>
+            <p>
+                This is why <span class="scripture">Romans 8:29-30</span> presents predestination and foreknowledge in this order: "For those whom He foreknew He also predestined to be conformed to the image of His Son... And those whom He predestined He also called, and those whom He called He also justified, and those whom He justified He also glorified."
+            </p>
+            <p>
+                Notice the chain. Those He foreknew, He predestined. Why? Because His foreknowledge is infallible. If you foreknow something will happen, then it will happen. There is no gap between foreknowledge and predestination when we're talking about God's knowledge.
+            </p>
+            <p>
+                Furthermore, consider what it means for God to foreknow. In the depths of God's being, before any world was made, God knew you. Not just that you would exist, but that you would exist, and that you would believe, and that you would be saved. This wasn't a conclusion God reached by looking into the future and seeing what you would freely do. God knew you in a way that transcends temporal sequence entirely. God's knowledge is not deduced from your choices; your choices flow from God's knowledge.
+            </p>
+            <p>
+                The Arminian wants to have it both ways: God knows with certainty that you will believe (which means you must believe), and yet your belief is free and could have been otherwise (which means you didn't have to believe). This is logically impossible.
+            </p>
+
+            <h3>The Atonement Scope Problem: Bought But Not Saved</h3>
+
+            <div class="response-header">— The Arminian Claim —</div>
+
+            <p>
+                Christ died for all. His blood was shed for all. He is the propitiation for the sins of the whole world. This is all true — and it means that Christ's death is available to all, but efficient only for those who believe.
+            </p>
+
+            <div class="response-header">— The Problem —</div>
+
+            <p>
+                This means most of what Christ accomplished is wasted. He died for billions of people who are in hell. His blood was shed for people now suffering eternal punishment. The sacrifice was made for them; they are not saved by it.
+            </p>
+            <p>
+                How is this meaningful? In what sense did Christ die for people in hell? Arminianism answers: His death made it possible for them to be saved. It was available. They rejected it.
+            </p>
+            <p>
+                But "made possible" is not what Scripture says Christ did. Consider Romans 5:10 — "While we were enemies we were reconciled to God by the death of His Son." Not "possible to be reconciled." Reconciled. Changed. Brought near. Saved.
+            </p>
+            <p>
+                Or 1 Peter 1:18-19: "You were ransomed... with the precious blood of Christ, like that of a lamb without blemish or spot." Ransomed. Purchased. Owned. Delivered from your master's house. Not "made ransomable" or "ransoming became available." But ransomed.
+            </p>
+            <p>
+                When Scripture speaks of what Christ's death accomplishes, it speaks in terms of actual salvation, actual redemption, actual deliverance — not mere possibility. And when it narrows the scope of those who receive this benefit, it speaks plainly.
+            </p>
+
+            <div class="response-header">— What Scripture Says —</div>
+
+            <p>
+                Consider Matthew 1:21: "She will bear a son, and you shall call His name Jesus, for He will save His people from their sins." Not "He will make it possible." He will save. His people. Particular people. Those given to Him.
+            </p>
+            <p>
+                Or John 10:11 — "I am the good shepherd. The good shepherd lays down His life for the sheep." The sheep. His sheep. Not for the goats. Not for those who never hear. For His sheep — those the Father has given Him.
+            </p>
+            <p>
+                Or John 17:9 — "I am praying for them. I am not praying for the world but for those whom you have given Me, for they are yours." Christ explicitly did not pray for the world — but for the elect. For those given Him. His death accomplishes salvation for these.
+            </p>
+            <p>
+                The most honest Arminian position would be: "Christ died for all, but His death was designed to make salvation possible, not to guarantee it." But that's not what Scripture says Christ's death does. It saves. It redeems. It reconciles. And when it does these things, it does them definitively, not tentatively.
+            </p>
+
+            <h3>The Grace Resistance Problem: A Resisted Gift That Doesn't Resist</h3>
+
+            <div class="response-header">— The Arminian Claim —</div>
+
+            <p>
+                Grace can be resisted. Stephen said so. Jesus wept over Jerusalem. Therefore, it's possible to say no to grace. The human will retains the power to refuse even God's enabling power.
+            </p>
+
+            <div class="response-header">— What Scripture Says —</div>
+
+            <p>
+                But consider what "resistance" means in these texts. In Acts 7:51, "resist the Holy Spirit" refers to those resisting through their prophets, refusing to listen to the message. But they never became believers. They never received the Spirit. They died as unbelievers.
+            </p>
+            <p>
+                Similarly, when Jesus wept over Jerusalem, He was expressing a sentiment that was never acted upon. "How often would I have gathered you..." — but He didn't. Why? Because He came to do the will of the Father. And the Father did not will that Jerusalem be gathered. Jesus' lament does not indicate that the gathering was possible. It indicates that it was not, and Jesus grieved over the necessity.
+            </p>
+            <p>
+                But what about grace that actually encounters a person? What about irresistible grace — not in the sense of mechanical force, but in the sense of grace that accomplishes what God intends?
+            </p>
+            <p>
+                Consider Romans 6:17 — "Thanks be to God that you who were once slaves of sin have become obedient from the heart to the form of teaching to which you were committed."
+            </p>
+            <p>
+                You were committed to a form of teaching. You became obedient. This was not a matter of your will overcoming God's grace. You were committed — placed, positioned — in the pathway of grace, and you became obedient. Your transformation was certain because God committed you to it.
+            </p>
+            <p>
+                Or consider 1 Corinthians 15:10 — "By the grace of God I am what I am." Paul does not say grace was offered and he cooperated. He says grace made him what he is. Grace determined the outcome.
+            </p>
+            <p>
+                Or most plainly, John 6:37 — "All that the Father gives Me will come to Me, and whoever comes to Me I will not cast out." Not "might come." Will come. The Father's gift effectually brings the person to Christ.
+            </p>
+
+            <h3>The Perseverance Problem: How Can You Hold What Holds You?</h3>
+
+            <div class="response-header">— The Arminian Claim —</div>
+
+            <p>
+                You can lose salvation. Faith is something you hold; it can be released. Believers are warned against falling away because falling away is possible. If it weren't possible, the warning would be meaningless.
+            </p>
+
+            <div class="response-header">— The Problem —</div>
+
+            <p>
+                This rests on a fundamental misunderstanding of what faith is. Arminianism treats faith as primarily a human activity — something you do, something you maintain, something you can stop doing.
+            </p>
+            <p>
+                But Scripture treats faith as something God creates in you. It's not your achievement; it's His creation. And if faith is God's work in you, then its continuation is God's work, not yours.
+            </p>
+            <p>
+                Consider Hebrews 12:2 — "Looking to Jesus, the founder and perfecter of our faith." Jesus is the founder of your faith. He started it. Jesus is the perfecter of your faith. He will complete it. You are the subject, not the agent.
+            </p>
+            <p>
+                Or Philippians 1:6 — "I am sure of this, that He who began a good work in you will bring it to completion at the day of Jesus Christ." God began the work. God will complete it. You, in the middle, are not in charge of maintaining it. God is. And what God has begun in genuine believers, He will finish.
+            </p>
+            <p>
+                What about the warnings in Hebrews about falling away? Are they not warnings against apostasy?
+            </p>
+            <p>
+                Consider the context of Hebrews 6:4-6. It's addressing a community of believers facing persecution. The warning is: Don't fall away. Don't return to Judaism. Don't abandon Christ under pressure. But notice what the text actually says about those who do: "It is impossible to renew them again unto repentance, seeing they crucify the Son of God afresh."
+            </p>
+            <p>
+                This is not a warning about possible apostasy that might happen. This is a description of what apostasy would mean if it occurred — and it would mean being lost. The warning is meant to prevent apostasy by showing its seriousness. It's not teaching that genuine believers can lose salvation; it's teaching that those who fall away were never genuine believers. (This is why 1 John 2:19 says of apostates: "They went out from us, but they were not of us; for if they had been of us, they would have continued with us.")
+            </p>
+            <p>
+                The warnings in Hebrews are not proof that apostasy is possible for the genuinely saved. They are pastorally employed to test whether your faith is genuine and to exhort you not to draw back. The guarantee of perseverance holds for true believers; the warnings call us to examine whether our faith is real.
+            </p>
+
+            <h3>The Love Problem: Genuine Choice Without Genuine Alternatives</h3>
+
+            <div class="response-header">— The Arminian Claim —</div>
+
+            <p>
+                Love requires freedom. If your yes to God is not matched by a real possibility of no, then your yes is not love — it's programming. God desires a relationship of love, which means genuine freedom to refuse must be part of the picture.
+            </p>
+
+            <div class="response-header">— What Scripture Says —</div>
+
+            <p>
+                This is where the Arminian assumption about love breaks down. The Arminian assumes that love must be reciprocal — that God loves us if and only if we're free to love Him back. But Scripture teaches that God's love is not conditional on our response.
+            </p>
+            <p>
+                <span class="scripture">1 John 4:19</span> — "We love because He first loved us." Our love is a response to His. It's not co-equal. It's not the ground of His love; it's the fruit of it.
+            </p>
+            <p>
+                Furthermore, the kind of love Scripture describes is not the kind that requires libertarian free will. Consider agape — God's covenant love, His electing love, His love that chooses and then secures what it chooses. This is the highest form of love revealed in Scripture. It's not the love of equals negotiating a contract. It's the love of a God who stoops, who chooses, who secures, who will not let go.
+            </p>
+            <p>
+                A mother's love for her newborn is not free in the Arminian sense. The child cannot refuse to be loved. The mother does not need the child's permission to care for them, protect them, or lay down her life for them. Her love is not cheapened by the fact that the child cannot refuse it; it's deepened by the fact that she loves despite having every power to do otherwise.
+            </p>
+            <p>
+                God's love works the same way. It does not depend on your choice to validate it. Your love for God is a response to His love, and the fact that you cannot help but love Him (because He has made you new) does not diminish the reality of love. It perfects it.
+            </p>
+            <p>
+                Moreover, if love truly required the possibility of refusal, then even God's love in heaven would be suspect. In the new creation, will you still have the power to rebel? Most Arminians say no — that in glory, we will be incapable of sin. But if that's true, then love in heaven is not "free" in the Arminian sense. We will be incapable of refusing God's love, incapable of turning away, and yet our love will be perfected, not diminished. This proves that the Arminian conception of freedom-as-prerequisite-for-love is false.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>The Question They Can't Answer</h2>
+
+            <div class="question-block">
+                <p>
+                    If prevenient grace is given universally to all people — if everyone receives the enabling power to respond to the gospel — then what accounts for the difference between those who believe and those who don't?
+                </p>
+                <p>
+                    The Arminian must answer: their choice. Their will. Their decision-making.
+                </p>
+                <p>
+                    But here's the next question: What accounts for their choice? What makes one person's will incline toward God and another's away?
+                </p>
+                <p>
+                    If you answer, "their character," then you're saying the difference is in the person's nature — and that makes the person, not God, the determining factor in salvation.
+                </p>
+                <p>
+                    If you answer, "their circumstances," then you're saying something external — where they were born, who preached to them, what they experienced — made the difference. But that's not free will; that's determinism by circumstance. And it's not fair. A child born in a Muslim country has different odds than a child born in a Christian home. If salvation depends on circumstances, then salvation depends on luck.
+                </p>
+                <p>
+                    If you answer, "libertarian free will — they just freely chose," then you've abandoned the claim that depravity is total. A totally depraved person, left to themselves, will always choose rebellion. They cannot will themselves toward God. If they do, something has changed them — and that something is not themselves, it's grace. But if grace changed them, then grace determined the outcome, not the person's free will.
+                </p>
+                <p>
+                    <strong>The Arminian system requires a factor it cannot name and cannot defend: a mysterious power in the human person to respond to grace or reject it, independent of grace, independent of nature, independent of circumstances, and independent of God's decree.</strong>
+                </p>
+                <p>
+                    This is why Arminianism, pushed to its logical conclusion, collapses into Pelagianism. Not always explicitly — Arminians genuinely affirm grace. But functionally, the difference between the believer and the unbeliever must reside somewhere, and if not in God's choosing, then in the person. And if the determining factor is the person, then salvation, ultimately, is a human achievement.
+                </p>
+                <p>
+                    Which is precisely what Scripture forbids.
+                </p>
+            </div>
+
+            <p style="margin-top: 3rem;">
+                <span class="scripture">Romans 9:16</span> — "So then it depends not on human will or exertion, but on God who has mercy."
+            </p>
+
+            <p>
+                Not partly on human will. Not on human will plus God's will. Depends on God. Period.
+            </p>
+
+            <p>
+                <span class="scripture">1 Corinthians 1:26-31</span> — "Not many of you were wise by worldly standards, not many were powerful, not many were of noble birth. But God chose what is foolish in the world to shame the wise; God chose what is weak in the world to shame the strong... So that, as it is written, 'Let the one who boasts, boast in the Lord.'"
+            </p>
+
+            <p>
+                God chose. God did the choosing. Why? So that no one could boast in themselves. So that all the boasting would be in the Lord. If the difference between the saved and the unsaved were a choice made by the person, then the person could boast. They could say, "I was wise enough to choose God. I was humble enough to accept grace. I was strong enough in will to say yes." But Scripture says that's exactly what you can't do. You can't boast. The choosing was God's. Your salvation is God's achievement, not yours.
+            </p>
+
+            <p>
+                This is why it's gospel. This is why it's good news. You don't have to be smart enough to choose right. You don't have to be strong enough in will. You don't have to muster the spiritual wisdom or moral courage. God chose you. God called you. God made you alive. God will keep you. And when you stand before Him, you'll have no one to thank but Him.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Why This Matters</h2>
+
+            <h3>The Arminian View Is Less Comforting, Not More</h3>
+
+            <p>
+                Arminianism appeals to something in us because it flatters us. It says you have the power to choose. You have the ability to respond. You are the master of your destiny. In a world of depression and anxiety and powerlessness, this sounds emancipating. You're not a victim of God's decree. You're the author of your salvation.
+            </p>
+
+            <p>
+                But think about what this means in the dark night. You're lying in a hospital bed, diagnosed with cancer. You're in a depression so deep you can barely think. You're facing a loss that's broken you. And the question echoes: Did you choose right? Are you still choosing rightly? Is your salvation dependent on a choice you make right now, while you're shattered?
+            </p>
+
+            <p>
+                Arminianism offers no comfort here. Your faith is your work. You must maintain it. You must hold on. And if you can't, if your faith wavers, if doubt creeps in — then you're the one who's failed.
+            </p>
+
+            <p>
+                But Scripture offers something radically different.
+            </p>
+
+            <h3>Reformed Theology Is a Gospel of Radical Comfort</h3>
+
+            <p>
+                Your salvation does not depend on the constancy of your choosing. It depends on the constancy of God's choosing. God chose you before the foundation of the world. Before you did anything good or bad. Before you were wise or foolish. God saw you in your sin, saw you in your rebellion, saw you in your death — and He chose you. For what? Not because you were lovable. Not because you had potential. Not because you made a wise choice that proved your worth.
+            </p>
+
+            <p>
+                He chose you for adoption into His family. He chose you as the object of His mercy. He chose you so that you could know, forever, that you are loved with a love that cannot be undone.
+            </p>
+
+            <p>
+                And having chosen you, God will not change His mind. Your doubt doesn't change it. Your sin doesn't change it. Your despair doesn't change it. The God who chose you in eternity is the same God who will hold you in eternity. You are not in charge of keeping yourself. He is. And He is faithful.
+            </p>
+
+            <p>
+                This is not a diminishment of your responsibility. You are called to believe, to repent, to obey, to persevere. But your perseverance is not something you do alone. It's something God does in you. It's not your white-knuckle grip on faith; it's God's grip on you. And His grip does not loosen.
+            </p>
+
+            <h3>What God's Election Means for Your Life Today</h3>
+
+            <p>
+                If you are a believer, you were chosen before the world was made. This changes everything.
+            </p>
+
+            <p>
+                It means you're not here by accident. You're not the product of blind chance or cosmic randomness. You were known. You were foreseen. You were desired. The God who shaped the stars and set the heavens in their place saw you, named you, and chose you.
+            </p>
+
+            <p>
+                It means your faith is not your achievement. It's a gift. You can receive it with gratitude instead of defending it with anxiety. You didn't have to be smart enough or good enough or faithful enough. God did all that. Your job is simply to rest in it.
+            </p>
+
+            <p>
+                It means you can't lose what you didn't earn. Your salvation is not dependent on your monthly performance review. It's not forfeited by your failures. God's commitment to you is not conditional on your output. You are His. Always.
+            </p>
+
+            <p>
+                It means that every providence in your life — every pain, every loss, every unexpected turn — is working toward your good and your conformity to Christ. Because God chose you for a purpose: to be conformed to the image of His Son. Everything in your story is part of that story. Nothing is wasted. Nothing is purposeless.
+            </p>
+
+            <p>
+                It means you can face the future without fear. Not because nothing bad will happen. The elect are not exempt from suffering; they often bear more. But because whatever happens, your destiny is secure. You will be brought to glory. You will see Jesus. You will know, forever, that you are loved. That's the future you're heading toward, and no power on earth can divert you from it.
+            </p>
+
+            <p>
+                This is the message the world needs to hear. Not "You have the power to choose salvation." But "You are chosen. You are loved. You are kept. You belong to God, and He will never let you go."
+            </p>
+
+            <p>
+                That's the gospel. And it's infinitely more comforting than anything Arminianism can offer.
+            </p>
+        </div>
+    </section>
+
+    <section style="background-color: var(--bg-card); border-top: 1px solid rgba(212, 162, 84, 0.2); border-bottom: none;">
+        <div class="container">
+            <h2 style="margin-bottom: 1.5rem;">The Bottom Line</h2>
+            <p>
+                Arminianism is not born of bad faith. Its finest scholars are thinking carefully, reading Scripture seriously, trying to preserve both God's sovereignty and human responsibility. The tragedy is that they've tried to solve an apparent tension by creating a different one.
+            </p>
+            <p>
+                Scripture presents no tension. God is sovereign. God decrees. God chooses. And human choice is real, genuinely human, genuinely responsible — because it flows from a nature that God has made, a character that God has transformed, a will that God has renewed. You choose freely. And your choice is certain, not despite God's will, but because of it.
+            </p>
+            <p>
+                Every objection Arminianism raises has an answer. Every text they cite fits into a fuller picture. And what emerges is not a theology that flatters human power, but a gospel that devastates human arrogance and offers, in its place, a love that's stronger than death, a grace that's irresistible in the best way, and a God who will never, ever let go.
+            </p>
+            <p>
+                That's what you're choosing when you choose Reformed theology. Not a system designed to protect God's reputation. But a gospel designed to save your soul and secure it for eternity.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            Questions? Objections? Read more about the doctrines of grace in our <a href="/theology">Theology section</a> or explore <a href="/demolition-hub">other arguments for God's sovereignty</a>.
+        </p>
+    </footer>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

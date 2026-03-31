@@ -10,8 +10,8 @@
 
 ### TIER 1 — Maximum Impact (Build First)
 1. **Healing Category Articles** — 20 new articles (4 per healing category). These target high-volume searches NO Reformed site competes for. The site's biggest growth lever.
-2. **Objection Pages** — 8 new pages replicating objection-why-command format (#1 content page 3 weeks running). Targets: robots, fairness, evangelism, love, effort, faith-choice, manipulation, moral-responsibility.
-3. **Psychology Pages** — 4 new pages. Highest per-page traffic ratio on the site. Targets: pride, comfort-self-salvation, fear-control, emotional-vs-rational.
+2. **Objection Pages** — 8 new pages replicating objection-why-command format (#1 content page 3 weeks running). Targets: ~~robots~~, ~~fairness~~, ~~evangelism~~, love, effort, faith-choice, manipulation, ~~moral-responsibility~~.
+3. **Psychology Pages** — 4 new pages. Highest per-page traffic ratio on the site. Targets: ~~pride~~, comfort-self-salvation, fear-control, ~~emotional-vs-rational~~.
 
 ### TIER 2 — High Impact (Build Second)
 4. **Stories** — 5 new stories across mood categories (2 children, 1 humor, 1 dark, 1 historical fiction). SEO-optimize all story titles.
@@ -25,9 +25,14 @@
 10. **Choose Your Objection** — Interactive branching experience.
 
 ### Fleet Health Alert
-- AGENT-PROMPT-CREATOR.md: MISSING — needs restoration from scheduled task definition
+- AGENT-PROMPT-CREATOR.md: ✅ RESTORED (2026-03-30 Creator session)
 - AGENT-PROMPT-GUARDIAN.md: MISSING — needs restoration
 - AGENT-PROMPT-EVANGELIST.md: MISSING — needs restoration
+
+### Recent Builds (2026-03-30 Creator Session)
+- `objection-fairness.html` — ✅ "Is Predestination Fair?" — Justice vs. Mercy distinction, steelmanned objection, 5 arguments, Greek analysis of adikia, 3 historical witnesses. Targets Tier 1 objection backlog.
+- `psychology-emotional-vs-rational.html` — ✅ "When Your Heart Rejects What Your Mind Accepts" — Dual Process Theory (Kahneman), Affect Heuristic (Slovic), Rider/Elephant (Haidt), self-referential proof. Targets Tier 1 psychology backlog.
+- `open-wound-sovereignty-in-grief.html` — ✅ "When God Is Sovereign and Your World Just Collapsed" — Healing page for the grieving. Opens IN the grief. Lament as worship. Psalm 88. Jesus wept. Targets Tier 1 healing backlog.
 
 ---
 
