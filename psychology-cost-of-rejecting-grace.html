@@ -388,6 +388,13 @@
     <!-- Article Content -->
     <div class="article-container">
 
+        <div class="share-buttons" role="group" aria-label="Share this article" style="display:flex;gap:0.75rem;align-items:center;margin:0 0 2rem;padding:1.5rem;background:var(--bg-card,#12121a);border:1px solid rgba(212,162,84,0.12);border-radius:8px;">
+            <span style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;text-transform:uppercase;letter-spacing:0.15em;color:var(--text-secondary);margin-right:0.5rem;">Share</span>
+            <a style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;border:1px solid rgba(212,162,84,0.2);background:transparent;color:var(--accent-gold,#d4a254);text-decoration:none;font-size:0.9rem;transition:all 0.3s ease;cursor:pointer;" href="" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" aria-label="Share on X (Twitter)" title="Share on X">𝕏</a>
+            <a style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;border:1px solid rgba(212,162,84,0.2);background:transparent;color:var(--accent-gold,#d4a254);text-decoration:none;font-size:0.9rem;transition:all 0.3s ease;cursor:pointer;" href="" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','width=550,height=420');return false" aria-label="Share on Facebook" title="Share on Facebook">f</a>
+            <button style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;border:1px solid rgba(212,162,84,0.2);background:transparent;color:var(--accent-gold,#d4a254);font-size:0.9rem;transition:all 0.3s ease;cursor:pointer;" onclick="navigator.clipboard.writeText(location.href).then(function(){this.innerHTML='✓';var b=this;setTimeout(function(){b.innerHTML='🔗'},2000)}.bind(this))" aria-label="Copy link" title="Copy link">🔗</button>
+        </div>
+
         <p>I need you to hear me. Not as a theologian. Not as a debater. As someone who loves you enough to say the thing no one else will say to your face.</p>
 
         <p>There is something wrong with what you believe about your salvation. And the reason no one has told you is because the people around you believe the same thing. The whole room is sick, so no one notices the symptoms.</p>
