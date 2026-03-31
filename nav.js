@@ -119,12 +119,14 @@
                 { name: 'Demolition: Romans 10:9-10 — "If You Confess... You Will Be Saved"', href: '/demolition-romans10-9', desc: 'Romans 10:9-10 — Does' },
                 { name: 'Did C.S. Lewis Refute Calvinism? — What They Won\'t Tell You', href: '/counter-cs-lewis-free-will', desc: 'Did C.S. Lewis refute Calvinism? A careful examination of how anti-Reformed writers misuse Lewis' },
                 { name: 'Does God Take Pleasure in Death? — Ezekiel 18:23 Explained', href: '/demolition-ezekiel18-23', desc: 'Exegetical demolition of the Arminian misuse of Ezekiel 18:23,32. Explores the two wills of God, covenantal context, and' },
-                { name: 'Does Predestination Make God the Author of Sin?', href: '/objection-author-of-sin', desc: 'biblical theology answers the objection that predestination makes God the author of sin. Explore Scripture, the Westmins' },
                 { name: 'FACTS Check: Dismantling the Arminian Framework Point by Point', href: '/demolition-arminian-facts', desc: 'Seminary-level exegetical analysis dismantling the Society of Evangelical Arminians' },
                 { name: 'Hebrews 6:4-6 — Verse Demolition #10', href: '/demolition-hebrews6-4-6', desc: 'Demolition #10: Hebrews 6:4-6 — The' },
                 { name: 'If God Already Chose Us, Why Do We Have to Believe?', href: '/objection-why-believe', desc: 'A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. Exploring how God' },
+                { name: 'If God Already Chose Who Will Be Saved, Why Evangelize?', href: '/objection-evangelism-pointless', desc: 'If God already chose who will be saved, why evangelize? Because God ordains the means as well as the ends. Election does' },
                 { name: 'If God Controls Everything, How Can He Blame Us?', href: '/objection-responsibility', desc: 'If God predetermines everything, how can He hold us responsible? Romans 9:19 answered with Scripture, compatibilism, and' },
+                { name: 'If God Predestined Everything, Are We Just Robots?', href: '/objection-robots', desc: 'If God predestined everything, are we just robots? No. Scripture teaches something far more beautiful: we are free creat' },
                 { name: 'If God Predestined Everything, Why Does He Command Us?', href: '/objection-why-command', desc: 'If God predestined everything, why pray? Why obey? The answer reveals why commands aren' },
+                { name: 'Is God the Author of Sin? The Predestination Problem Answered', href: '/objection-author-of-sin', desc: 'Does God cause sin? If He predestines everything, how is He not responsible for evil? Scripture teaches a clear distinct' },
                 { name: 'Joshua 24:15 — Verse-by-Verse Demolition', href: '/demolition-joshua24-15', desc: 'Verse-by-verse exegetical demolition of the Arminian use of Joshua 24:15 as proof of libertarian free will. Scripture te' },
                 { name: 'Titus 2:11 — "The Grace of God Has Appeared to All"', href: '/demolition-titus2-11', desc: 'Demolition #17: Titus 2:11 and the' },
                 { name: 'When Philosophy Replaces Exegesis — Dismantling the Orthodox Case Against Predestination', href: '/demolition-orthodox-predestination', desc: 'A thorough exegetical dismantling of the Eastern Orthodox argument against Reformed predestination — exposing the geneti' }
@@ -137,6 +139,7 @@
             desc: 'The psychology of suppressing truth',
             subs: [
                 { name: 'Cognitive Biases and the Blindness of Sin', href: '/psychology-cognitive-biases', desc: 'Cognitive biases mapped to biblical descriptions of fallen thinking. Confirmation bias, anchoring, Dunning-Kruger — mode' },
+                { name: 'Pride: The Root of Every Objection to God\'s Sovereignty', href: '/psychology-pride-root-objection', desc: 'Why does the doctrine of election provoke such fury? Psychology reveals the answer: pride. Every objection to God' },
                 { name: 'Suppressing the Truth', href: '/psychology-suppressing-truth', desc: 'Romans 1:18 reveals the deepest human problem: we suppress what we already know about God. Modern psychology calls it mo' },
                 { name: 'Terror Management and the Threat of Sovereignty', href: '/psychology-terror-management', desc: 'Terror Management Theory explains why God' },
                 { name: 'The Autonomy Illusion: Why "Free Will" Feels So Real', href: '/psychology-autonomy-illusion', desc: 'Neuroscience reveals that our sense of autonomous choice may be the brain' },
@@ -157,14 +160,15 @@
                 { name: 'He Will Never Give Up On You', href: '/devotional-never-gives-up', desc: 'What if the God of the universe decided to love you before you were born — and nothing you could ever do could make Him ' },
                 { name: 'In Christ: The Two Words That Change Everything', href: '/devotional-in-christ', desc: 'A devotional meditation on union with Christ — the two most powerful words in Scripture. Every spiritual blessing flows ' },
                 { name: 'Love Before the World Was Made', href: '/devotional-love-before-the-world', desc: 'A meditative devotion on God' },
-                { name: 'My Chains Fell Away', href: '/devotional-my-chains-fell-away', desc: 'My Chains Fell Away: A meditative reflection on irresistible grace and spiritual freedom. biblical theology devotional.' },
+                { name: 'My Chains Fell Away', href: '/devotional-my-chains-fell-away', desc: 'What does it feel like when God breaks your chains? A devotional on the moment grace becomes irresistible — when the sou' },
                 { name: 'Not My Will, But Joy – Devotional', href: '/devotional-not-my-will-but-joy', desc: 'A meditative reflection on divine sovereignty and joyful surrender. Discover how yielding to God' },
                 { name: 'Rescued Without a Say – Devotional', href: '/devotional-rescued-without-a-say', desc: 'A meditative reflection on Irresistible Grace and the sovereign work of God in salvation. Discover how grace comes not a' },
-                { name: 'The Dead Who Live', href: '/devotional-dead-who-live', desc: 'A meditative devotion on spiritual death and resurrection—the radical miracle of being made alive in Christ.' },
+                { name: 'The Dead Who Live — What Does It Mean to Be Spiritually Dead?', href: '/devotional-dead-who-live', desc: 'Ephesians 2:1 says you were dead — not struggling, not searching, dead. This devotional explores what spiritual death re' },
                 { name: 'The Glory of Divine Choice', href: '/devotional-glory-of-divine-choice', desc: 'A meditative devotion on election and divine choice—the glory of being chosen before the foundation of the world.' },
                 { name: 'The Good That I Cannot Do', href: '/devotional-good-i-cannot-do', desc: 'You have tried to be good. You know what happened. A devotional on Romans 7, human inability, and why' },
                 { name: 'The Love Letter Dated Before Time', href: '/devotional-love-letter-before-time', desc: 'What if you found a letter written to you before you were born — before the world was born? Ephesians 1:3-14 as God' },
                 { name: 'The Weakness of God\'s Strength', href: '/devotional-weakness-of-gods-strength', desc: 'A meditative reflection on divine sovereignty in suffering. Explore how God' },
+                { name: 'Valley of the Shadow', href: '/devotional-valley-shadow', desc: 'Psalm 23 doesn' },
                 { name: 'When God Says No — A Devotional on Unanswered Prayer', href: '/devotional-when-god-says-no', desc: 'Sometimes God says no. And His refusal is more loving than our yes would have been. A devotional meditation on unanswere' }
             ]
         },
@@ -248,10 +252,10 @@
             desc: 'Pictures that make deep truths click',
             subs: [
                 { name: 'Adoption Analogy: How God Chooses His Children | Biblical Election Explained', href: '/analogy-adoption', desc: 'Why God chooses adoption: a powerful analogy showing how divine election and grace work. The parent chooses the child—Go' },
-                { name: 'Can a Dead Man Choose a Doctor? Spiritual Death and Regeneration', href: '/analogy-doctor-corpse', desc: 'Why can' },
                 { name: 'Is God a Chess Grandmaster? Sovereignty and Free Will Explained', href: '/analogy-chess-grandmaster', desc: 'Can God foreknow all our choices and still let us freely choose? The chess grandmaster analogy reveals how God' },
                 { name: 'Lazarus and the Grave: Why God\'s Call Always Works', href: '/analogy-lazarus-grave', desc: 'Why don' },
-                { name: 'The Light Switch Analogy: Conditions vs. Causes in Salvation', href: '/analogy-light-switch', desc: 'Is faith a condition or a cause of salvation? The light switch analogy reveals the crucial difference that transforms ho' }
+                { name: 'The Light Switch Analogy: Conditions vs. Causes in Salvation', href: '/analogy-light-switch', desc: 'Is faith a condition or a cause of salvation? The light switch analogy reveals the crucial difference that transforms ho' },
+                { name: 'Why a Dead Man Can\'t Choose God: Spiritual Death Explained', href: '/analogy-doctor-corpse', desc: 'Why can' }
             ]
         },
         {
@@ -347,6 +351,7 @@
                 { name: 'The Open Wound — Suffering & God\'s Sovereignty', href: '/open-wound-hub', desc: 'The Open Wound: Suffering, Grief & Trauma. For those who have lost someone, live with pain, survived abuse, or asked why' },
                 { name: 'The Question That Haunts Every Hospital Room', href: '/open-wound-hospital-room', desc: 'The Question That Haunts Every Hospital Room: Why do bad things happen to good people? Scripture' },
                 { name: 'The Shattered Lens — Truth, Trust & the Modern Crisis of Belief', href: '/shattered-lens-hub', desc: 'The Shattered Lens: Truth, Trust & the Modern Crisis of Belief. In a world of deepfakes, AI, misinformation, and politic' },
+                { name: 'What If I\'m Not One of the Chosen?', href: '/anxious-mind-what-if-not-chosen', desc: 'What if I' },
                 { name: 'When You Can\'t Tell What\'s True Anymore', href: '/shattered-lens-cant-tell-true', desc: 'When You Can' },
                 { name: 'You Are Not a Self-Made Anything', href: '/broken-mirror-not-self-made', desc: 'You Are Not a Self-Made Anything. Culture screams' },
                 { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'You Were Never Meant to Carry This — why anxiety is the logical result of believing everything depends on you, and how G' },
