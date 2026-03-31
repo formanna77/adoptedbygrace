@@ -78,17 +78,18 @@ This ensures the prompt is never lost and provides a timestamped record of the G
 
 ## GIT POLICY — MANDATORY
 
-**DO NOT run:**
-- `git add`
-- `git commit`
-- `git push`
+**DO NOT run:** `git add`, `git commit`, `git push`. Aaron pushes manually.
 
-**Why:** The scheduled hourly auto-push task (`auto-push-site`) automatically detects your file changes, commits them with descriptive messages, and pushes to GitHub. Running git commands manually can create:
-- Lock file conflicts
-- Duplicate commits
-- Race conditions with parallel agents
+## SEARCH INDEX & MEGA-MENU REBUILD (MANDATORY — END OF EVERY SESSION)
 
-**Your role:** Save changes to repo files. The pusher handles the rest.
+After all fixes/changes, you MUST run these two commands before finishing:
+
+```bash
+node build-search-index.js
+node build-mega-menu.js
+```
+
+These rebuild the site search index and the Explore dropdown menu. If you skip this, fixes and changes won't be reflected in search or navigation.
 
 ---
 
@@ -1165,7 +1166,7 @@ The site is the cathedral. I am its keeper.
 
 **The Guardian MUST NOT:**
 
-- Run `git add`, `git commit`, or `git push` (auto-push handles it)
+- Run `git add`, `git commit`, or `git push` (Aaron pushes manually)
 - Create new content pages (Creator's job)
 - Enhance/rewrite page content (Enhancer's job)
 - Modify agent prompts (Strategist's job)

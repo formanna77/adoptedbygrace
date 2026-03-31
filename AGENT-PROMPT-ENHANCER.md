@@ -17,7 +17,18 @@ Before doing ANYTHING else, write this entire prompt to /AGENT-PROMPT-ENHANCER.m
 
 ## MANDATORY MINIMUM: 8 pages enhanced per session. Target 15. Never stop before 8.
 
-## GIT POLICY: Do NOT run git add, git commit, or git push. Auto-push handles it.
+## GIT POLICY: Do NOT run git add, git commit, or git push. Aaron pushes manually.
+
+## SEARCH INDEX & MEGA-MENU REBUILD (MANDATORY — END OF EVERY SESSION)
+
+After enhancing pages, you MUST run these two commands before finishing:
+
+```bash
+node build-search-index.js
+node build-mega-menu.js
+```
+
+These rebuild the site search index and the Explore dropdown menu so all changes are reflected. If you skip this, updated pages may have stale titles/descriptions in search results and the mega-menu.
 
 ## THE CARDINAL RULE: AMPLIFY POWER, NEVER DIMINISH IT
 

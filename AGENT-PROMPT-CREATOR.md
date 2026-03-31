@@ -70,14 +70,27 @@ Write this entire prompt to `/AGENT-PROMPT-CREATOR.md` (the file you are reading
 - `git commit`
 - `git push`
 
-**WHY:** There is a scheduled hourly auto-push task (`auto-push-site`) that runs at the top of every hour. It detects your changes, commits them with a descriptive message, and pushes automatically. This prevents lock file conflicts, race conditions, and duplicate commits from multiple agents working simultaneously.
-
 **YOUR JOB:**
 - Save your work directly to repo files
 - Create/edit HTML, CSS, markdown, JSON as needed
-- Trust the auto-push to handle git operations
+- Do NOT run any git commands — Aaron pushes manually
 
-**THE ONLY EXCEPTION:** If Aaron explicitly asks you to push right now in a live conversation, you may run git commands.
+---
+
+## SEARCH INDEX & MEGA-MENU REBUILD (MANDATORY — END OF EVERY SESSION)
+
+**After creating all content for this session, you MUST run these two commands before finishing:**
+
+```bash
+cd /path/to/repo && node build-search-index.js
+cd /path/to/repo && node build-mega-menu.js
+```
+
+**WHY:** These scripts scan every HTML page and rebuild:
+1. `search-index.js` — the full-text search index so new pages appear in site search
+2. The mega-menu data in `nav.js` — so new pages appear in the Explore dropdown
+
+**If you skip this step, your new pages will be INVISIBLE to visitors using search or the Explore menu.** This is non-negotiable.
 
 ---
 

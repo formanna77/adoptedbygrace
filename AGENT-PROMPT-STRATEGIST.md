@@ -17,7 +17,7 @@ Before doing ANYTHING else, write this entire prompt to /AGENT-PROMPT-STRATEGIST
 10. Read EVOLUTION-JOURNAL.md for fleet learning history
 11. Begin 11-phase strategic session (Phase 11 = Evolution Scoring)
 
-## GIT POLICY: Do NOT run git add, git commit, or git push. Auto-push handles it.
+## GIT POLICY: Do NOT run git add, git commit, or git push. Aaron pushes manually.
 
 ## ══════════════════════════════════════════════════════
 ## THE 10-PHASE STRATEGIC SESSION

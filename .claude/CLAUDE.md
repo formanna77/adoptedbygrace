@@ -47,15 +47,23 @@ In 2023, a failing heart valve and a broken spine cost him everything — health
 These are not abstract doctrines. They are the lived reality of the man who built this site. Write accordingly.
 
 ## GIT PUSH POLICY — MANDATORY FOR ALL AGENTS
-**DO NOT push to GitHub at the end of your task.** There is a dedicated hourly auto-push scheduled task (`auto-push-site`) that runs at the top of every hour. It handles all committing and pushing.
+**DO NOT push to GitHub at the end of your task.** Aaron pushes manually.
 
 Your job as an agent:
 - **DO** save your work to the repo files
 - **DO NOT** run `git add`, `git commit`, or `git push`
-- The hourly pusher will detect your changes, commit them with a descriptive message, and push automatically
-- This prevents lock file conflicts, race conditions, and duplicate commits from multiple agents working simultaneously
 
 The ONLY exception is if Aaron explicitly asks you to push right now in that specific conversation.
+
+## SEARCH INDEX & MEGA-MENU REBUILD — MANDATORY FOR ALL CONTENT AGENTS
+**After creating or modifying HTML pages, you MUST run these before finishing:**
+
+```bash
+node build-search-index.js
+node build-mega-menu.js
+```
+
+These rebuild the site search index (`search-index.js`) and the Explore dropdown menu data in `nav.js`. If you skip this, new or updated pages will NOT appear in site search or the Explore menu.
 
 ## NAVIGATION BAR — MANDATORY FOR ALL NEW PAGES
 **Every page MUST use the exact nav from `/_nav-template.html`.** Copy it verbatim. No exceptions.

@@ -15,7 +15,11 @@ Before doing ANYTHING else, write this entire prompt to /AGENT-PROMPT-EVANGELIST
 8. Run: find . -name "*.html" -not -path "./_*" -newer EVANGELIST-LAST-RUN.txt 2>/dev/null | head -30 (find new content since last session)
 9. Begin session
 
-## GIT POLICY: Do NOT run git add, git commit, or git push. Auto-push handles it.
+## GIT POLICY: Do NOT run git add, git commit, or git push. Aaron pushes manually.
+
+## SEARCH INDEX & MEGA-MENU REBUILD (MANDATORY — END OF EVERY SESSION)
+After creating content, run: `node build-search-index.js && node build-mega-menu.js`
+This ensures new pages appear in site search and the Explore menu.
 
 ## ══════════════════════════════════════════════════════
 ## BANNED — ZERO SOCIAL MEDIA CONTENT
@@ -391,7 +395,7 @@ Warm, reverent, brilliant, never preachy. Lewis + Spurgeon + Buechner + Keller.
 - Do NOT build site pages from scratch (Creator's job; you create newsletter pages)
 - Do NOT enhance existing page prose beyond SEO elements (Enhancer's job)
 - Do NOT fix broken links or sync hubs (Guardian's job)
-- Do NOT run git add/commit/push (auto-push handles it)
+- Do NOT run git add/commit/push (Aaron pushes manually)
 - Do NOT create resources content (eliminated)
 - Do NOT create email signup forms (eliminated)
 - Do NOT create queue files (deleted)
