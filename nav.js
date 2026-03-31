@@ -174,6 +174,7 @@
             href: '/psychology-hub',
             desc: 'The psychology of suppressing truth',
             subs: [
+                { name: 'Are You Sure You\'re Saved?', href: '/psychology-cost-of-rejecting-grace', desc: 'Are you sure you' },
                 { name: 'Cognitive Biases and the Blindness of Sin', href: '/psychology-cognitive-biases', desc: 'Cognitive biases mapped to biblical descriptions of fallen thinking. Confirmation bias, anchoring, Dunning-Kruger — mode' },
                 { name: 'Fear of Losing Control: Why God\'s Sovereignty Terrifies Us', href: '/psychology-fear-control', desc: 'Why does God' },
                 { name: 'Pride: The Root of Every Objection to God\'s Sovereignty', href: '/psychology-pride-root-objection', desc: 'Why do the doctrines of grace provoke such fury? Psychology reveals the answer: pride. Every objection to God' },
@@ -184,7 +185,6 @@
                 { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Why self-sovereignty is the last idol to fall — even for believers. A deep psychological and theological exploration of ' },
                 { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
                 { name: 'When Your Heart Rejects What Your Mind Accepts', href: '/psychology-emotional-vs-rational', desc: 'When your head knows sovereignty is biblical but your heart rejects it. Dual-process theory, affect heuristic, and Haidt' },
-                { name: 'Where Did Your Faith Come From? The Question That Changes Everything', href: '/psychology-cost-of-rejecting-grace', desc: 'You love Jesus. You give God the glory. But have you ever asked where your faith came from? Follow one simple question t' },
                 { name: 'Why the Truth That Makes You Angriest Is the One That Will Set You Free', href: '/psychology-hostility-reaction', desc: 'When a lifelong Christian suddenly becomes enraged at the doctrines of grace, something deeper than theology is happenin' },
                 { name: 'Why We Resist: The Psychology of Rejecting God\'s Sovereignty', href: '/psychology-why-we-resist', desc: 'Why do smart, Bible-loving Christians reject what the Bible clearly says about God' }
             ]
