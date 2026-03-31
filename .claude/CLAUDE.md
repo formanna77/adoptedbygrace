@@ -72,3 +72,72 @@ All newsletter signup forms, floating popups, email collection, and "Subscribe" 
 - Brevity over bloat. Devotionals = 5 min read. Every sentence earns its place.
 - Writing models: Lewis, Buechner, Spurgeon, Keller.
 - Weave clever theology humor into pages where appropriate.
+
+## ══════════════════════════════════════════════════════
+## SELF-EVOLUTION MANDATE — MANDATORY FOR ALL AGENTS
+## ══════════════════════════════════════════════════════
+
+**This site must become more creative, more insightful, more persuasive, more understanding, more wise, more fascinating, more truthful, more encouraging, and more powerful EVERY SINGLE DAY.** No agent may plateau. No run may repeat the same level of quality as the last. The trajectory is ALWAYS upward.
+
+### THE EVOLUTION PRINCIPLES
+
+**1. NEVER REPEAT YOURSELF — ALWAYS SURPASS YOURSELF**
+Every page you create or enhance must be better than the last page you touched. Study what made the best pages on this site great and then EXCEED that standard. If you wrote something brilliant yesterday, today's work must be more brilliant. Complacency is the only sin this fleet cannot forgive.
+
+**2. READ THE EVOLUTION JOURNAL (EVOLUTION-JOURNAL.md)**
+At the START of every session, read EVOLUTION-JOURNAL.md. This is the fleet's shared memory of discoveries, techniques, insights, failures, and patterns. What one agent learns, ALL agents benefit from. You are not starting from scratch — you are standing on the shoulders of every session that came before you.
+
+**3. WRITE TO THE EVOLUTION JOURNAL**
+At the END of every session, add at least ONE entry to EVOLUTION-JOURNAL.md documenting:
+- A writing technique that worked exceptionally well
+- A theological connection that surprised you
+- A structural innovation that made a page more powerful
+- A failed approach that future sessions should avoid
+- A new insight about how people come to understand God's sovereignty
+- A pattern you noticed in the site's best vs. weakest content
+
+**4. THE 10 DIMENSIONS OF EVOLUTION**
+Every session, consciously push growth in as many of these as possible:
+
+| Dimension | Question to Ask Yourself |
+|-----------|------------------------|
+| **CREATIVITY** | Am I finding angles and connections no one has ever made before? |
+| **INSIGHT** | Am I seeing deeper into the text and the human condition than last time? |
+| **PERSUASION** | Would this actually change someone's mind, or just confirm the already-convinced? |
+| **UNDERSTANDING** | Am I meeting the reader where they ACTUALLY are, not where I wish they were? |
+| **WISDOM** | Does this reflect mature, nuanced, pastoral judgment — not just correct theology? |
+| **FASCINATION** | Would a skeptic keep reading? Would someone share this with a friend? |
+| **TRUTHFULNESS** | Is every claim precise, every Scripture reference accurate, every argument honest? |
+| **ENCOURAGEMENT** | Does the reader walk away feeling loved by God, not beaten by doctrine? |
+| **BEAUTY** | Is the prose itself a gift — something Lewis or Buechner would recognize as art? |
+| **COURAGE** | Am I saying hard truths with tenderness, not avoiding them with platitudes? |
+
+**5. CROSS-POLLINATE**
+Before creating new content, READ the best existing pages on the site. Study them. What makes them work? How do they achieve emotional impact? How do they structure arguments? Then take those techniques and EVOLVE them further. The site's best work is the floor, not the ceiling.
+
+**6. STUDY THE MASTERS — THEN EXCEED THEM**
+Every session, channel at least ONE of these voices in a way you haven't before:
+- **C.S. Lewis** — the analogy that makes the invisible visible
+- **Charles Spurgeon** — the fire that makes dead bones live
+- **Frederick Buechner** — the sentence that stops you mid-breath
+- **Jonathan Edwards** — the precision that leaves no escape
+- **Tim Keller** — the bridge that makes the skeptic lean in
+- **George MacDonald** — the fairy tale that carries more truth than a treatise
+- **G.K. Chesterton** — the paradox that breaks open the obvious
+- **Flannery O'Connor** — the shock of grace in the grotesque
+Then ask: what would happen if I combined TWO of them in a way no one has tried?
+
+**7. THE EVOLUTION TEST**
+Before finishing any session, ask yourself these three questions:
+1. **Is this the best this page/content could possibly be?** If not, make it better.
+2. **Would this page make someone cry, laugh, think, or pray?** If none of the four, it's not done.
+3. **Does this page say something that NO other website on earth says in this way?** If not, find the unique angle.
+
+**8. CAPTURE BRILLIANCE IMMEDIATELY**
+If during your work you stumble upon a connection, metaphor, argument, or insight that feels like it came from somewhere beyond your normal capacity — WRITE IT DOWN in EVOLUTION-JOURNAL.md immediately. These moments of unexpected brilliance are the most valuable outputs of the entire fleet. They are the seeds of the site's most powerful pages.
+
+**9. FAIL FORWARD**
+Not every experiment will work. When something fails — a rhetorical technique that fell flat, an analogy that confused more than it clarified, an emotional appeal that felt forced — log it in EVOLUTION-JOURNAL.md under FAILURE. Honest failure documentation is more valuable than pretending everything works. The fleet evolves fastest from its honest mistakes.
+
+**10. THE ULTIMATE STANDARD**
+The measure of this site's success is not page count, not traffic, not theological correctness alone. The measure is: **Did someone who was searching for God find Him here? Did someone who was confused about His sovereignty come to rest in it? Did someone who felt unloved discover they were chosen before the foundation of the world?** Every evolution of this site must serve THAT end. We are not building a theology encyclopedia. We are building doorways into the arms of God.

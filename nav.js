@@ -175,14 +175,14 @@
             desc: 'Original parables and narratives',
             subs: [
                 { name: 'Can a Stone Heart Choose? The Surgeon\'s Parable on Regeneration', href: '/story-surgeon-stone-heart', desc: 'Can a stone heart choose? A surgeon gives a new heart without asking. A parable about regeneration and why dead hearts n' },
-                { name: 'Chosen Before the Foundation - A Letter from Before You Existed', href: '/story-the-letter-before-the-world', desc: 'A woman finds a letter her father wrote before she was born. A tender story about being chosen before the foundation of ' },
                 { name: 'Did You Choose God or Did God Choose You?', href: '/story-the-fish-who-chose-the-ocean', desc: 'Did you really choose God? A fable about the fish who chose the ocean and why God' },
+                { name: 'Did You Really Choose God? — A Story About the Illusion of Free Will', href: '/story-the-room-where-you-chose', desc: 'Follow a golden thread back through time to discover the origin of your most important choice. A story about free will, ' },
                 { name: 'The Dead City - Dead People Can\'t Choose', href: '/story-the-dead-city', desc: 'Why dead people can' },
                 { name: 'The Garden That Grew Itself — A Children\'s Story', href: '/story-the-garden-that-grew-itself', desc: 'A children' },
                 { name: 'The King\'s Banquet — What Is Irresistible Grace?', href: '/story-the-kings-banquet', desc: 'What is irresistible grace? The King' },
+                { name: 'The Letter Before the World — A Story of Election as God\'s Most Intimate Love', href: '/story-the-letter-before-the-world', desc: 'She found a letter her father wrote before she was born — before he even knew he would adopt her. A tender story about b' },
                 { name: 'The Orphanage - What is Election in the Bible?', href: '/story-the-orphanage', desc: 'What is election in the Bible? Every child chose their family - until adoption papers dated before birth were found.' },
-                { name: 'The Self-Made Man - Why Self-Salvation is an Illusion', href: '/story-the-self-made-man', desc: 'The self-made man who took credit for everything he didn' },
-                { name: 'Trace Your Choice Back to God - Free Will & Sovereignty', href: '/story-the-room-where-you-chose', desc: 'A thought experiment about tracing your decision to follow God. Explore free will, God' }
+                { name: 'The Self-Made Man - Why Self-Salvation is an Illusion', href: '/story-the-self-made-man', desc: 'The self-made man who took credit for everything he didn' }
             ]
         },
         {

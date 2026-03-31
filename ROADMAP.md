@@ -6,6 +6,31 @@
 
 ---
 
+## STRATEGIST PRIORITIES — April 2026 (Updated 2026-03-30)
+
+### TIER 1 — Maximum Impact (Build First)
+1. **Healing Category Articles** — 20 new articles (4 per healing category). These target high-volume searches NO Reformed site competes for. The site's biggest growth lever.
+2. **Objection Pages** — 8 new pages replicating objection-why-command format (#1 content page 3 weeks running). Targets: robots, fairness, evangelism, love, effort, faith-choice, manipulation, moral-responsibility.
+3. **Psychology Pages** — 4 new pages. Highest per-page traffic ratio on the site. Targets: pride, comfort-self-salvation, fear-control, emotional-vs-rational.
+
+### TIER 2 — High Impact (Build Second)
+4. **Stories** — 5 new stories across mood categories (2 children, 1 humor, 1 dark, 1 historical fiction). SEO-optimize all story titles.
+5. **Title Surgery** — Rewrite titles on ALL analogy, story, history, and OT pages for search intent matching.
+6. **Internal Linking Offensive** — Add 3-5 cross-references to every page scoring below 6 on XR.
+
+### TIER 3 — Strategic Differentiation (Build Third)
+7. **Romans Walkthrough** — Start the book-of-the-Bible series with Romans chapters 1-3.
+8. **Audience Landing Pages** — /for-skeptics and /for-new-believers.
+9. **Hymn Analysis** — Amazing Grace + And Can It Be.
+10. **Choose Your Objection** — Interactive branching experience.
+
+### Fleet Health Alert
+- AGENT-PROMPT-CREATOR.md: MISSING — needs restoration from scheduled task definition
+- AGENT-PROMPT-GUARDIAN.md: MISSING — needs restoration
+- AGENT-PROMPT-EVANGELIST.md: MISSING — needs restoration
+
+---
+
 ## Current State (as of 2026-03-28)
 
 ### Pages Live

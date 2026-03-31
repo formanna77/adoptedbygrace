@@ -3,9 +3,31 @@
 
 > *"The heavens declare the glory of God, and the sky above proclaims his handiwork."* — Psalm 19:1
 
-> **Last updated:** 2026-03-28 (Visionary Session)
+> **Last updated:** 2026-03-30 (Strategist Session)
 
 This document is the imagination of the website. Every idea lives here first. The best ideas graduate to ROADMAP.md.
+
+---
+
+## STRATEGIST'S 30-DAY VISION (April 2026)
+
+### The Inflection Point
+We have 231 pages. Traffic grew 20.8% week-over-week to 10,856 requests. The site is no longer a small project — it's approaching critical mass. The healing categories launched 2 days ago and the early articles (anxious-mind, broken-mirror) are already scoring 7.5+ quality. The psychology category proves that unique content with real research backing crushes generic theological content in traffic-per-page ratio.
+
+### The April Thesis: "From Library to Lighthouse"
+The site has been building a fortress of theological content. 85% serves people already in the theological conversation. April is when we pivot: the healing categories become the FRONT DOOR. People searching for anxiety help, identity crisis answers, grief support, loneliness relief, and truth in a post-truth world will find us — and discover sovereignty through their pain.
+
+### The 5 Strategic Bets for April
+1. **Healing articles are the #1 priority.** 20 new articles across 5 categories. These target high-volume searches that NO Reformed site competes for. This is blue ocean.
+2. **The objection format is gold.** objection-why-command has been #1 for 3 weeks. Create 8 more in the exact same format. Each new objection page is a new Google doorway.
+3. **Psychology gets aggressive expansion.** 7 pages, highest per-page ratio. 4 more turns this into a second powerhouse alongside Questions.
+4. **Title surgery on underperformers.** Analogies, Stories, History, and OT pages need dramatic, search-friendly titles. The content is good — the packaging isn't.
+5. **Internal linking offensive.** Cross-referencing is the #1 quality weakness. Every page gets 3-5 links to related content. This keeps readers on the site and boosts SEO.
+
+### The Moonshot (if we execute)
+By April 30: 275 pages, 13,000+ weekly requests, healing categories appearing in search results, psychology pages rivaling questions for traffic, and the site becoming the ONLY place on the internet where someone searching "why am I so anxious" can discover the sovereignty of God through peer-reviewed psychology and heartfelt pastoral care — all on the same page.
+
+That's not a website. That's a ministry.
 
 ---
 
