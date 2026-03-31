@@ -138,12 +138,16 @@ for (const file of htmlFiles) {
     continue;
   }
 
+  // Crown jewel: psychology-cost-of-rejecting-grace.html gets priority 1
+  const isCrownJewel = file === 'psychology-cost-of-rejecting-grace.html';
+
   pages.push({
     url,
     title: title || file.replace(/\.html$/, '').replace(/-/g, ' '),
     desc: description,
     cat: category,
-    text: fullText
+    text: fullText,
+    priority: isCrownJewel ? 1 : 0
   });
 }
 

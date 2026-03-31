@@ -108,16 +108,18 @@
             href: '/questions',
             desc: 'Steel-manned and demolished — every hard question',
             subs: [
-                { name: 'How Can a Loving God Choose Some and Not Others?', href: '/objection-love', desc: 'If God is love, why doesn' },
+                { name: 'Doesn\'t God Desire All to Be Saved? What 1 Timothy 2:4 and 2 Peter 3:9 Actually Mean', href: '/objection-desire', desc: 'These two verses are cited endlessly as proof against election. But read them in context, and they actually SUPPORT God' },
+                { name: 'How Can a Loving God Choose Some and Not Others?', href: '/objection-love', desc: 'The deepest love has always been particular. Why election is not a threat to God' },
                 { name: 'If Everything Is Predetermined, Why Even Try?', href: '/objection-effort', desc: 'If God already predetermined everything, why bother trying? Because your effort isn' },
                 { name: 'If God Already Chose Us, Why Do We Have to Believe?', href: '/objection-why-believe', desc: 'A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. Exploring how God' },
                 { name: 'If God Already Chose Who Will Be Saved, Why Evangelize?', href: '/objection-evangelism-pointless', desc: 'If God already chose who will be saved, why evangelize? Because God ordains the means as well as the ends. Election does' },
                 { name: 'If God Controls Everything, How Can He Blame Us?', href: '/objection-responsibility', desc: 'If God predetermines everything, how can He hold us responsible? Romans 9:19 answered with Scripture, compatibilism, and' },
                 { name: 'If God Could Save Everyone, Why Doesn\'t He?', href: '/objection-god-could-save-all', desc: 'The hardest question in Reformed theology. If God can irresistibly save, why doesn' },
-                { name: 'If God Predestined Everything, Are We Just Robots?', href: '/objection-robots', desc: 'If God predestined everything, are we just robots? No. Scripture teaches something far more beautiful: we are free creat' },
+                { name: 'If God Predestined Everything, Are We Just Robots?', href: '/objection-robots', desc: 'Does predestination make us robots or puppets? Scripture says no. You are truly free because God makes you willing, not ' },
                 { name: 'If God Predestined Everything, Why Does He Command Us?', href: '/objection-why-command', desc: 'If God predestined everything, why pray? Why obey? The answer reveals why commands aren' },
                 { name: 'Is God the Author of Sin? The Predestination Problem Answered', href: '/objection-author-of-sin', desc: 'Does God cause sin? If He predestines everything, how is He not responsible for evil? Scripture teaches a clear distinct' },
-                { name: 'Is Predestination Fair?', href: '/objection-fairness', desc: 'Is predestination fair? Doesn' }
+                { name: 'Is Predestination Fair?', href: '/objection-fairness', desc: 'Is predestination fair? Doesn' },
+                { name: 'Isn\'t Faith a Choice? The Question That Changes Everything', href: '/objection-faith-choice', desc: 'Is faith a choice? Discover what Scripture actually teaches about where your faith came from—and why claiming you chose ' }
             ]
         },
         {
@@ -174,7 +176,7 @@
             href: '/psychology-hub',
             desc: 'The psychology of suppressing truth',
             subs: [
-                { name: 'Are You Sure You\'re Saved?', href: '/psychology-cost-of-rejecting-grace', desc: 'Are you sure you' },
+                { name: '⚡ Are You Sure You\'re Saved?', href: '/psychology-cost-of-rejecting-grace', desc: 'This is not a theology lesson. This is an intervention. One question, five minutes, and the truth about whether your fai' },
                 { name: 'Cognitive Biases and the Blindness of Sin', href: '/psychology-cognitive-biases', desc: 'Cognitive biases mapped to biblical descriptions of fallen thinking. Confirmation bias, anchoring, Dunning-Kruger — mode' },
                 { name: 'Fear of Losing Control: Why God\'s Sovereignty Terrifies Us', href: '/psychology-fear-control', desc: 'Why does God' },
                 { name: 'Pride: The Root of Every Objection to God\'s Sovereignty', href: '/psychology-pride-root-objection', desc: 'Why do the doctrines of grace provoke such fury? Psychology reveals the answer: pride. Every objection to God' },
@@ -186,7 +188,8 @@
                 { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
                 { name: 'When Your Heart Rejects What Your Mind Accepts', href: '/psychology-emotional-vs-rational', desc: 'When your head knows sovereignty is biblical but your heart rejects it. Dual-process theory, affect heuristic, and Haidt' },
                 { name: 'Why the Truth That Makes You Angriest Is the One That Will Set You Free', href: '/psychology-hostility-reaction', desc: 'When a lifelong Christian suddenly becomes enraged at the doctrines of grace, something deeper than theology is happenin' },
-                { name: 'Why We Resist: The Psychology of Rejecting God\'s Sovereignty', href: '/psychology-why-we-resist', desc: 'Why do smart, Bible-loving Christians reject what the Bible clearly says about God' }
+                { name: 'Why We Resist: The Psychology of Rejecting God\'s Sovereignty', href: '/psychology-why-we-resist', desc: 'Why do smart, Bible-loving Christians reject what the Bible clearly says about God' },
+                { name: 'Why Your Church Friends All Agree With Each Other', href: '/psychology-groupthink', desc: 'Why do church friends all believe the same theology? Discover how conformity bias, groupthink, and social identity keep ' }
             ]
         },
         {
@@ -205,7 +208,7 @@
                 { name: 'Not My Will, But Joy – Devotional', href: '/devotional-not-my-will-but-joy', desc: 'A meditative reflection on divine sovereignty and joyful surrender. Discover how yielding to God' },
                 { name: 'Rescued Without a Say – Devotional', href: '/devotional-rescued-without-a-say', desc: 'A meditative reflection on Irresistible Grace and the sovereign work of God in salvation. Discover how grace comes not a' },
                 { name: 'The Dead Who Live — What Does It Mean to Be Spiritually Dead?', href: '/devotional-dead-who-live', desc: 'Ephesians 2:1 says you were dead — not struggling, not searching, dead. This devotional explores what spiritual death re' },
-                { name: 'The Glory of Divine Choice', href: '/devotional-glory-of-divine-choice', desc: 'A meditative devotion on election and divine choice—the glory of being chosen before the foundation of the world.' },
+                { name: 'The Glory of Divine Choice', href: '/devotional-glory-of-divine-choice', desc: 'Meditate on the glory of divine choice: why God chose you before the foundation of the world, and why this truth is the ' },
                 { name: 'The Good That I Cannot Do', href: '/devotional-good-i-cannot-do', desc: 'You have tried to be good. You know what happened. A devotional on Romans 7, human inability, and why' },
                 { name: 'The Love Letter Dated Before Time', href: '/devotional-love-letter-before-time', desc: 'What if you found a letter written to you before you were born — before the world was born? Ephesians 1:3-14 as God' },
                 { name: 'The Weakness of God\'s Strength', href: '/devotional-weakness-of-gods-strength', desc: 'A meditative reflection on divine sovereignty in suffering. Explore how God' },
@@ -220,12 +223,13 @@
             desc: 'Original parables and narratives',
             subs: [
                 { name: 'Can a Stone Heart Choose? The Surgeon\'s Parable on Regeneration', href: '/story-surgeon-stone-heart', desc: 'Can a stone heart choose? A surgeon gives a new heart without asking. A parable about regeneration and why dead hearts n' },
-                { name: 'Did You Choose God or Did God Choose You?', href: '/story-the-fish-who-chose-the-ocean', desc: 'Did you really choose God? A fable about the fish who chose the ocean and why God' },
                 { name: 'Did You Really Choose God? — A Story About the Illusion of Free Will', href: '/story-the-room-where-you-chose', desc: 'Follow a golden thread back through time to discover the origin of your most important choice. A story about free will, ' },
                 { name: 'The Dead City - Dead People Can\'t Choose', href: '/story-the-dead-city', desc: 'Why dead people can' },
+                { name: 'The Fish Who Chose the Ocean — A Parable About Free Will and Grace', href: '/story-the-fish-who-chose-the-ocean', desc: 'A powerful parable about a fish who thought he chose the ocean—and the wise turtle who gently reveals the truth about gr' },
                 { name: 'The Garden That Grew Itself — A Children\'s Story', href: '/story-the-garden-that-grew-itself', desc: 'A children' },
                 { name: 'The King\'s Banquet — What Is Irresistible Grace?', href: '/story-the-kings-banquet', desc: 'What is irresistible grace? The King' },
                 { name: 'The Letter Before the World — A Story of Election as God\'s Most Intimate Love', href: '/story-the-letter-before-the-world', desc: 'She found a letter her father wrote before she was born — before he even knew he would adopt her. A tender story about b' },
+                { name: 'The Night Augustine Stole the Pears — A Story About Total Depravity', href: '/story-historical-augustine-pears', desc: 'A story about Augustine at sixteen, stealing pears he didn' },
                 { name: 'The Orphanage - What is Election in the Bible?', href: '/story-the-orphanage', desc: 'What is election in the Bible? Every child chose their family - until adoption papers dated before birth were found.' },
                 { name: 'The Self-Made Man - Why Self-Salvation is an Illusion', href: '/story-the-self-made-man', desc: 'The self-made man who took credit for everything he didn' }
             ]
@@ -292,7 +296,7 @@
             href: '/analogies-illustrations',
             desc: 'Pictures that make deep truths click',
             subs: [
-                { name: 'Can a Spiritually Dead Person Choose God? Why Salvation Must Be God\'s Work Alone', href: '/analogy-doctor-corpse', desc: 'Why can' },
+                { name: 'Can a Dead Person Choose? The Doctor and the Corpse Analogy Explained', href: '/analogy-doctor-corpse', desc: 'Why can a spiritually dead person not choose God? This powerful doctor-and-corpse analogy explains why salvation must be' },
                 { name: 'Can You Choose to Believe? The Light Switch & Spiritual Blindness', href: '/analogy-light-switch', desc: 'Can you choose to believe on your own? Explore why your ability to have faith is a gift from God, not something you gene' },
                 { name: 'Did Lazarus Choose to Rise? God\'s Sovereign Calling Explained', href: '/analogy-lazarus-grave', desc: 'Does God force salvation or respect free will? John 11 shows how effectual calling works through Lazarus' },
                 { name: 'Did You Choose God or Did God Choose You? The Adoption Analogy', href: '/analogy-adoption', desc: 'A baby doesn' },
@@ -373,15 +377,19 @@
             subs: [
                 { name: '82% of People Are Lonely — Why That\'s a Theological Problem', href: '/invisible-wall-lonely-theological', desc: 'Loneliness is not a social problem—it' },
                 { name: 'The Anxious Mind', href: '/anxious-mind-hub', desc: 'The Anxious Mind — exploring anxiety, depression, burnout, and OCD through the lens of God' },
-                { name: 'The Broken Mirror — Identity, Worth & Purpose', href: '/broken-mirror-hub', desc: 'The Broken Mirror — Identity, Worth & Purpose. You are not a self-made anything. Discover who God made you to be before ' },
+                { name: 'The Broken Mirror — Identity, Worth & Purpose', href: '/broken-mirror-hub', desc: 'Christian Identity Crisis? Find Your Worth in God. You are not self-made. Discover who God made you to be before you exi' },
+                { name: 'The Friend Who Left When Your Theology Changed', href: '/invisible-wall-friend-who-left', desc: 'What happens when you discover the truth about God' },
                 { name: 'The Invisible Wall: Relationships, Loneliness & Forgiveness', href: '/invisible-wall-hub', desc: '82% of people report experiencing loneliness. But God' },
                 { name: 'The Open Wound — Suffering & God\'s Sovereignty', href: '/open-wound-hub', desc: 'The Open Wound: Suffering, Grief & Trauma. For those who have lost someone, live with pain, survived abuse, or asked why' },
+                { name: 'The Performance Treadmill: When \'Doing Enough for God\' Becomes a Prison', href: '/broken-mirror-performance-treadmill', desc: 'You believe God' },
                 { name: 'The Question That Haunts Every Hospital Room', href: '/open-wound-hospital-room', desc: 'The Question That Haunts Every Hospital Room: Why do bad things happen to good people? Scripture' },
                 { name: 'The Shattered Lens — Truth, Trust & the Modern Crisis of Belief', href: '/shattered-lens-hub', desc: 'The Shattered Lens: Truth, Trust & the Modern Crisis of Belief. In a world of deepfakes, AI, misinformation, and politic' },
                 { name: 'What If I\'m Not One of the Chosen?', href: '/anxious-mind-what-if-not-chosen', desc: 'What if I' },
                 { name: 'When Everything You Were Taught Was Wrong', href: '/shattered-lens-taught-wrong', desc: 'You grew up believing one thing about God. Now Scripture is showing you something different. That disorientation isn' },
                 { name: 'When God Is Sovereign and Your World Just Collapsed', href: '/open-wound-sovereignty-in-grief', desc: 'When God Is Sovereign and Your World Just Collapsed: Grief doesn' },
                 { name: 'When You Can\'t Tell What\'s True Anymore', href: '/shattered-lens-cant-tell-true', desc: 'When You Can' },
+                { name: 'When You Can\'t Unsee It: The Beautiful Terror of Seeing Clearly', href: '/shattered-lens-cant-unsee-it', desc: 'When the Bible suddenly reveals God' },
+                { name: 'Why You Can Sleep When the World Is Falling Apart', href: '/anxious-mind-sovereignty-of-sleep', desc: 'Why You Can Sleep When the World Is Falling Apart — How God' },
                 { name: 'You Are Not a Self-Made Anything', href: '/broken-mirror-not-self-made', desc: 'You Are Not a Self-Made Anything. Culture screams' },
                 { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'You Were Never Meant to Carry This — why anxiety is the logical result of believing everything depends on you, and how G' },
                 { name: 'You Were Not an Accident — You Were Created for Mercy', href: '/broken-mirror-vessels-for-mercy', desc: 'You weren' },
@@ -872,7 +880,13 @@
                 if (score > 0) scored.push({ page: page, score: score });
             }
 
-            scored.sort(function (a, b) { return b.score - a.score; });
+            // Sort by priority first (crown jewel always first), then by score
+            scored.sort(function (a, b) {
+                var aPriority = a.page.priority || 0;
+                var bPriority = b.page.priority || 0;
+                if (aPriority !== bPriority) return bPriority - aPriority;
+                return b.score - a.score;
+            });
             if (scored.length > 12) scored = scored.slice(0, 12);
 
             if (scored.length === 0) {
@@ -953,7 +967,13 @@
                 if (score > 0) scored.push({ page: page, score: score });
             }
 
-            scored.sort(function (a, b) { return b.score - a.score; });
+            // Sort by priority first (crown jewel always first), then by score
+            scored.sort(function (a, b) {
+                var aPriority = a.page.priority || 0;
+                var bPriority = b.page.priority || 0;
+                if (aPriority !== bPriority) return bPriority - aPriority;
+                return b.score - a.score;
+            });
 
             // Show top 15 in overlay
             if (scored.length > 15) scored = scored.slice(0, 15);

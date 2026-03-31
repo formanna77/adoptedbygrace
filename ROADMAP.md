@@ -6,28 +6,56 @@
 
 ---
 
-## STRATEGIST PRIORITIES — April 2026 (Updated 2026-03-30)
+## STRATEGIST PRIORITIES — April 2026 (Updated 2026-03-31)
 
 ### TIER 1 — Maximum Impact (Build First)
-1. **Healing Category Articles** — 20 new articles (4 per healing category). These target high-volume searches NO Reformed site competes for. The site's biggest growth lever.
-2. **Objection Pages** — 8 new pages replicating objection-why-command format (#1 content page 3 weeks running). Targets: ~~robots~~, ~~fairness~~, ~~evangelism~~, love, effort, faith-choice, manipulation, ~~moral-responsibility~~.
-3. **Psychology Pages** — 4 new pages. Highest per-page traffic ratio on the site. Targets: ~~pride~~, comfort-self-salvation, fear-control, ~~emotional-vs-rational~~.
+1. **Healing: Invisible Wall** — HIGHEST PRIORITY GAP. Only 1 article. Need 5 new articles: loneliness in marriage, friend who ghosted you, spiritual isolation, the invisible wall with family, theological loneliness in a mixed church.
+2. **Healing: Shattered Lens** — 2 articles scoring 6.4. Need 4 new articles + Enhancer pass on existing: when your pastor teaches what you know isn't true, the loneliness of seeing what others don't, when you can't unsee it, the beautiful terror of seeing clearly.
+3. **Healing: Open Wound** — 2 articles. Need 4 new articles: sovereignty and miscarriage, when the diagnosis is terminal, the death that makes no sense, when God took the most faithful person you knew.
+4. **Objection Pages — Final 3** — objection-babies ("What About Babies?"), objection-manipulation ("Is God Manipulating Us?"), objection-desire ("Doesn't God Desire All to Be Saved?"). Completes the full objection library.
+5. **Enhancer: Quality Floor Sweep** — 11 pages scoring below 6.5 need immediate enhancement (see CONTENT-STRATEGY-2026.md for list).
 
 ### TIER 2 — High Impact (Build Second)
-4. **Stories** — 5 new stories across mood categories (2 children, 1 humor, 1 dark, 1 historical fiction). SEO-optimize all story titles.
-5. **Title Surgery** — Rewrite titles on ALL analogy, story, history, and OT pages for search intent matching.
-6. **Internal Linking Offensive** — Add 3-5 cross-references to every page scoring below 6 on XR.
+6. **Healing: Broken Mirror + Anxious Mind** — 3 new articles each to reach 50% of target.
+7. **Stories** — 5 new stories: 2 historical fiction (Luther thunderstorm, Newton storm), 1 children's, 1 humor, 1 hard-hitting. SEO-optimize all titles.
+8. **Title Surgery** — History and OT pages still have academic titles. Apply dramatic, search-intent titles to ALL 28 pages.
+9. **JSON-LD Sweep** — Add structured data to all pages missing it (~50% of site).
+10. **Internal Linking Offensive** — Add cross-references to all pages scoring below 6 on XR.
 
 ### TIER 3 — Strategic Differentiation (Build Third)
-7. **Romans Walkthrough** — Start the book-of-the-Bible series with Romans chapters 1-3.
-8. **Audience Landing Pages** — /for-skeptics and /for-new-believers.
-9. **Hymn Analysis** — Amazing Grace + And Can It Be.
-10. **Choose Your Objection** — Interactive branching experience.
+11. **Romans Walkthrough** — Start the book-of-the-Bible series with Romans chapters 1-3.
+12. **Audience Landing Pages** — /for-skeptics, /for-new-believers, /for-pastors.
+13. **Hymn Analysis** — Amazing Grace + And Can It Be.
+14. **Choose Your Objection** — Interactive branching experience.
+15. **Dedicated page: "Does God Predestine People to Hell?"** — High-search keyword with NO dedicated page.
+16. **Dedicated page: "Is Predestination Biblical?"** — High-search keyword, currently scattered across pages.
 
-### Fleet Health Alert
-- AGENT-PROMPT-CREATOR.md: ✅ RESTORED (2026-03-30 Creator session)
-- AGENT-PROMPT-GUARDIAN.md: MISSING — needs restoration
-- AGENT-PROMPT-EVANGELIST.md: MISSING — needs restoration
+### COMPLETED (Tier 1 from 2026-03-30)
+- ✅ Objection Pages: 7 of 8 completed (robots, fairness, evangelism, love, effort, faith-choice, moral-responsibility). Only manipulation remains.
+- ✅ Psychology Pages: All 5 targets completed (pride, comfort-self-salvation, fear-control, emotional-vs-rational, groupthink). Category at 14 pages. Shift to enhancement of older pages.
+- ✅ Stories: Historical fiction gap filled (Augustine pears).
+
+### Fleet Health
+- AGENT-PROMPT-CREATOR.md: ✅ Current
+- AGENT-PROMPT-ENHANCER.md: ✅ Current
+- AGENT-PROMPT-STRATEGIST.md: ✅ Current (backed up 2026-03-31)
+- AGENT-PROMPT-GUARDIAN.md: ⚠️ Needs restoration
+- AGENT-PROMPT-EVANGELIST.md: ⚠️ Needs restoration
+
+### Recent Builds (2026-03-31 Creator Session #3 — Invisible Wall + Shattered Lens + Desire Objection)
+- `invisible-wall-friend-who-left.html` — ✅ "The Friend Who Left When Your Theology Changed" — Invisible Wall healing article. Opens with "empty chair" image (Buechner territory). Names the grief of lost friendships after theological change. Three-world comparison. Scripture: John 16:1-4, Matt 10:34-39, Ps 27:10. Pastoral absolution for unnamed guilt. Targets Tier 1 healing backlog (Invisible Wall — highest priority gap, now 2 articles).
+- `shattered-lens-cant-unsee-it.html` — ✅ "When You Can't Unsee It: The Beautiful Terror of Seeing Clearly" — Shattered Lens healing article. Paradox opening: "The most terrifying thing is not losing your faith. It is finding it." Color vision analogy as structural metaphor. Three-world comparison. Scripture: John 9, 2 Cor 4:6, Eph 1:17-18. Targets Tier 1 healing backlog (Shattered Lens — now 3 articles).
+- `objection-desire.html` — ✅ "Doesn't God Desire All to Be Saved? What 1 Timothy 2:4 and 2 Peter 3:9 Actually Mean" — Definitive objection page. Trilemma structure (universalism/divine failure/Reformed reading). Greek analysis of pantas anthrōpous and boulomenos. Pronoun "you" in 2 Peter 3:9 as the key. 5 arguments, 7 objections answered. Crown Jewel connection. Targets Tier 1 objection backlog (desire — one of final 3 for complete library, now 2 remain: babies + manipulation).
+
+### Recent Builds (2026-03-31 Creator Session #2 — Love Objection + Sleep Healing + Augustine Fiction)
+- `objection-love.html` — ✅ "How Can a Loving God Choose Some and Not Others?" — The love objection answered through human experience. Reframe: every love you value is particular and selective. Greek analysis of agapaō. 7 arguments, 7 objections answered, 4 historical witnesses. Crown Jewel connection: contingent love is not unconditional love. Targets Tier 1 objection backlog (love).
+- `anxious-mind-sovereignty-of-sleep.html` — ✅ "Why You Can Sleep When the World Is Falling Apart" — Healing article for the insomniac. Opens at 2:47 AM. Reframe: sleep is the body's most primal act of faith. Three-world comparison (secular/religious/gospel). Psalms 121, 127, 3, 4. Mandatory pastoral note on medication. Targets Tier 1 healing backlog.
+- `story-historical-augustine-pears.html` — ✅ "The Night Augustine Stole the Pears" — FIRST historical fiction story on the site. Augustine at 16 in Thagaste. Sin for the sake of sin. Total depravity shown from the inside. Flash-forward to Confessions Book 2 at age 43. Grace turn: God chose him before the pear tree was planted. Targets Tier 2 story backlog (historical fiction gap filled).
+
+### Recent Builds (2026-03-31 Creator Session #1)
+- `objection-faith-choice.html` — ✅ "Isn't Faith a Choice? The Question That Changes Everything" — THE Crown Jewel page. Socratic trap: "Where did your faith come from?" Fork structure (God caused it vs. you activated it). Greek analysis of pistis, echaristhē, elkō, didōmi, tetaginmenoi. 7 arguments, 7 objections answered. Targets Tier 1 objection backlog.
+- `psychology-groupthink.html` — ✅ "Why Your Church Friends All Agree With Each Other" — 5 convergent research traditions (Asch, Janis, Noelle-Neumann, Tajfel/Turner, Bikhchandani et al.) all predicting theological conformity. Self-referential proof: conformity proves need for divine illumination. Targets Tier 1 psychology backlog.
+- `broken-mirror-performance-treadmill.html` — ✅ "The Performance Treadmill: When 'Doing Enough for God' Becomes a Prison" — Healing article for exhausted perfectionists. Opens IN the exhaustion. Crown Jewel applied pastorally: performance treadmill = works-righteousness in disguise. Romans 9:23 signature verse. Targets Tier 1 healing backlog.
 
 ### Recent Builds (2026-03-30 Creator Session)
 - `objection-fairness.html` — ✅ "Is Predestination Fair?" — Justice vs. Mercy distinction, steelmanned objection, 5 arguments, Greek analysis of adikia, 3 historical witnesses. Targets Tier 1 objection backlog.

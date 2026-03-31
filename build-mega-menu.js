@@ -296,6 +296,21 @@ for (const cat of CATEGORIES) {
 
   // Sort subs alphabetically by name
   categoryPages[cat.key].sort((a, b) => a.name.localeCompare(b.name));
+
+  // Pin the crown jewel at the top of "Why We Resist" category
+  if (cat.key === 'why-we-resist') {
+    const crownJewelIndex = categoryPages[cat.key].findIndex(
+      item => item.href === '/psychology-cost-of-rejecting-grace'
+    );
+    if (crownJewelIndex !== -1) {
+      const crownJewel = categoryPages[cat.key][crownJewelIndex];
+      // Add indicator to name
+      crownJewel.name = '⚡ ' + crownJewel.name;
+      // Move to front
+      categoryPages[cat.key].splice(crownJewelIndex, 1);
+      categoryPages[cat.key].unshift(crownJewel);
+    }
+  }
 }
 
 // Report unassigned pages

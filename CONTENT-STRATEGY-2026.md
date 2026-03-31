@@ -1,54 +1,53 @@
 # Content Strategy 2026 — Adopted by Grace
-## Strategist Session: March 30, 2026
+## Strategist Session: March 31, 2026
 
 ---
 
-## SITE CENSUS (as of 2026-03-30)
+## SITE CENSUS (as of 2026-03-31)
 
-**Total HTML pages: 231**
+**Total HTML pages: 266** (up from 231 on 2026-03-30 — **+35 pages in 24 hours**)
 
-| Category | Prefix | Count | Notes |
-|----------|--------|-------|-------|
-| Questions (The Evidence) | question-*.html | 37 | STRONGEST category. 9 pages in top 50 traffic. |
-| Systematic Theology | systematic-*.html | 21 | Complete doctrinal framework. Hub performs well. |
-| Demolition (Verse Studies) | demolition-*.html | 19 (incl. hub) | Hub strong at 40 req/wk. john3-16 at 19. |
-| Devotionals | devotional-*.html | 15 (incl. hub) | Hub at 40, never-gives-up at 21. |
-| Old Testament Election | ot-*.html | 14 | ZERO in top 50. Invisible to analytics. |
-| History | history-*.html | 14 | ZERO in top 50. Rich content, no audience. |
-| Theologian Bios | theologian-*.html | 10 | Hub barely in top 50 at 19. |
-| Secular Evidence | secular-*.html | 10 | scripture-tsunami at 22. Rest invisible. |
-| Stories | story-*.html | 9 | Hub at 30 but ZERO individual stories in top 50. |
-| Psychology of Resistance | psychology-*.html | 7 (incl. hub) | **HIGHEST per-page ratio.** 53 req across 2 visible pages. |
-| Comparisons | compare-*.html | 6 | ZERO in top 50. Reference content. |
-| Analogies | analogy-*.html | 5 | Hub at 28 but ZERO individual pages in top 50. |
-| Apologetics | apologetic-*.html | 5 | ZERO in top 50. New category, building. |
-| Pastoral | pastoral-*.html | 4 | ZERO in top 50. |
-| Objections | objection-*.html | 4 | #1 content page (why-command at 48). GOLD FORMAT. |
-| Creeds | creed-*.html | 2 | Minimal presence. |
-| Resistance | resistance-*.html | 1 | Solo page. |
-| Counter-apologetics | counter-*.html | 1 | Solo page. |
-| Debate | debate-*.html | 1 | Brand new category (free-will debate). |
+| Category | Prefix | Count | Change vs 3/30 | Notes |
+|----------|--------|-------|-----------------|-------|
+| Questions (The Evidence) | question-*.html | 40 | +3 | STRONGEST category. 9 pages in top 50 traffic. |
+| Demolition (Verse Studies) | demolition-*.html | 26 | +7 | Massive growth. Hub strong at 40 req/wk. |
+| Systematic Theology | systematic-*.html | 21 | — | Complete doctrinal framework. Maintenance mode. |
+| Devotionals | devotional-*.html | 16 | +1 | Hub at 40 req/wk. Never-gives-up at 21. |
+| Old Testament Election | ot-*.html | 14 | — | ZERO in top 50. Invisible to analytics. |
+| History | history-*.html | 14 | — | ZERO in top 50. Rich content, no audience. |
+| Psychology of Resistance | psychology-*.html | 14 | +7 | **EXPLOSIVE GROWTH.** From 7→14. Highest per-page traffic ratio. |
+| Objections | objection-*.html | 11 | +7 | **EXPLOSIVE GROWTH.** From 4→11. #1 content page format. |
+| Theologian Bios | theologian-*.html | 10 | — | Hub barely in top 50 at 19. |
+| Secular Evidence | secular-*.html | 10 | — | scripture-tsunami at 22. Rest invisible. |
+| Stories | story-*.html | 10 | +1 | Hub at 30 but ZERO individual stories in top 50. |
+| Comparisons | compare-*.html | 6 | — | ZERO in top 50. Reference content. |
+| Analogies | analogy-*.html | 5 | — | Hub at 28 but ZERO individual pages in top 50. |
+| Apologetics | apologetic-*.html | 5 | +1 | Building. |
+| Pastoral | pastoral-*.html | 4 | — | ZERO in top 50. |
+| Creeds | creed-*.html | 2 | — | Minimal presence. |
+| Resistance | resistance-*.html | 1 | — | Solo page. |
+| Counter-apologetics | counter-*.html | 1 | — | Solo page. |
+| Debate | debate-*.html | 1 | — | Brand new category. |
 
-### 5 Healing Categories (NEW — launched Mar 29-30)
+### 5 Healing Categories
 
-| Category | Hub | Articles | Total | Target |
-|----------|-----|----------|-------|--------|
-| The Anxious Mind | anxious-mind-hub.html | 2 | 3 | 10-12 |
-| The Broken Mirror | broken-mirror-hub.html | 1 | 2 | 10-12 |
-| The Open Wound | open-wound-hub.html | 1 | 2 | 10-12 |
-| The Invisible Wall | invisible-wall-hub.html | 1 | 2 | 10-12 |
-| The Shattered Lens | shattered-lens-hub.html | 1 | 2 | 10-12 |
-| **HEALING TOTAL** | **5 hubs** | **6 articles** | **11** | **50-60** |
+| Category | Hub | Articles | Total | Target | Progress |
+|----------|-----|----------|-------|--------|----------|
+| The Anxious Mind | anxious-mind-hub.html | 4 | 5 | 10-12 | 42% |
+| The Broken Mirror | broken-mirror-hub.html | 3 | 4 | 10-12 | 33% |
+| The Open Wound | open-wound-hub.html | 2 | 3 | 10-12 | 25% |
+| The Invisible Wall | invisible-wall-hub.html | 1 | 2 | 10-12 | 17% |
+| The Shattered Lens | shattered-lens-hub.html | 2 | 3 | 10-12 | 25% |
+| **HEALING TOTAL** | **5 hubs** | **12 articles** | **17** | **50-60** | **28%** |
 
-### Infrastructure Pages (17)
-index.html, about.html, start-here.html, start-here-phase1-5.html (5), start-here-assessment.html, search.html, contact.html, freedom.html, connections.html, quiz.html, 404.html, essays.html, explore-map.html
-
-### Hub Pages (14)
-questions.html, devotionals.html, demolition-hub.html, stories.html, analogies-illustrations.html, systematic-theology.html, theologians.html, psychology-hub.html, explore-map.html, anxious-mind-hub.html, broken-mirror-hub.html, open-wound-hub.html, invisible-wall-hub.html, shattered-lens-hub.html
+### Infrastructure & Hub Pages (31)
+- Infrastructure (17): index, about, start-here (7 pages), search, contact, freedom, connections, quiz, 404, essays, explore-map
+- Hub Pages (14): questions, devotionals, demolition-hub, stories, analogies-illustrations, systematic-theology, theologians, psychology-hub, explore-map, anxious-mind-hub, broken-mirror-hub, open-wound-hub, invisible-wall-hub, shattered-lens-hub
+- Additional: all-content, best-reads, belief-assessment, daily-newsletter, donate, topics, verse-explorer, creeds-confessions, privacy, terms, psalms-election, secular-evidence, ot-election
 
 ---
 
-## QUALITY SCORING (30 Pages Sampled)
+## QUALITY SCORING (30 Pages Sampled — 2026-03-31)
 
 ### Scoring Criteria (1-10 each)
 - **TP** = Theological Precision
@@ -58,285 +57,349 @@ questions.html, devotionals.html, demolition-hub.html, stories.html, analogies-i
 - **XR** = Cross-Referencing
 - **FM** = Force Multiplier Density
 - **UC** = Unique Contribution
+- **PW** = Pastoral Warmth
 
-| Page | TP | EP | LQ | SEO | XR | FM | UC | AVG |
-|------|----|----|----|----|----|----|----|----|
-| objection-why-command | 9 | 8 | 8 | 9 | 7 | 7 | 8 | **8.0** |
-| psychology-why-we-resist | 9 | 9 | 9 | 8 | 7 | 8 | 9 | **8.4** |
-| question-freewill | 8 | 8 | 7 | 8 | 6 | 6 | 7 | **7.1** |
-| devotional-never-gives-up | 7 | 9 | 8 | 8 | 7 | 7 | 7 | **7.6** |
-| demolition-john3-16 | 9 | 7 | 8 | 9 | 6 | 7 | 8 | **7.7** |
-| analogy-chess-grandmaster | 7 | 7 | 7 | 7 | 5 | 5 | 6 | **6.3** |
-| analogy-adoption | 7 | 7 | 7 | 7 | 5 | 5 | 6 | **6.3** |
-| story-the-dead-city | 7 | 8 | 8 | 7 | 5 | 6 | 7 | **6.9** |
-| story-surgeon-stone-heart | 7 | 8 | 8 | 7 | 5 | 5 | 7 | **6.7** |
-| secular-algorithm-sovereignty | 8 | 7 | 8 | 7 | 5 | 6 | 9 | **7.1** |
-| secular-billion-decisions | 8 | 8 | 8 | 7 | 5 | 6 | 9 | **7.3** |
-| history-augustine-pelagius | 8 | 7 | 7 | 7 | 5 | 5 | 6 | **6.4** |
-| compare-calvinism-arminianism | 8 | 5 | 6 | 8 | 6 | 4 | 5 | **6.0** |
-| pastoral-assurance | 7 | 8 | 7 | 7 | 5 | 6 | 6 | **6.6** |
-| question-chosen | 8 | 7 | 7 | 7 | 6 | 6 | 6 | **6.7** |
-| question-romans9 | 9 | 8 | 8 | 8 | 7 | 7 | 7 | **7.7** |
-| question-goldchain | 9 | 8 | 8 | 8 | 7 | 7 | 7 | **7.7** |
-| question-sealed | 8 | 7 | 7 | 7 | 6 | 6 | 6 | **6.7** |
-| question-newheart | 8 | 8 | 7 | 7 | 6 | 6 | 7 | **7.0** |
-| devotional-glory-of-divine-choice | 7 | 7 | 7 | 6 | 5 | 5 | 5 | **6.0** |
-| devotional-love-before-the-world | 7 | 8 | 7 | 6 | 5 | 5 | 5 | **6.1** |
-| ot-jacob-esau | 8 | 7 | 7 | 6 | 5 | 5 | 6 | **6.3** |
-| anxious-mind-never-meant-to-carry | 8 | 9 | 8 | 8 | 6 | 7 | 9 | **7.9** |
-| broken-mirror-not-self-made | 7 | 8 | 8 | 7 | 5 | 6 | 8 | **7.0** |
-| psychology-offense-of-grace | 9 | 8 | 8 | 7 | 6 | 7 | 9 | **7.7** |
-| psychology-cognitive-biases | 9 | 7 | 8 | 7 | 6 | 7 | 9 | **7.6** |
-| psychology-terror-management | 9 | 8 | 8 | 7 | 6 | 7 | 9 | **7.7** |
-| question-acts4 | 9 | 8 | 8 | 8 | 6 | 7 | 8 | **7.7** |
-| question-psalm139 | 9 | 8 | 8 | 8 | 6 | 7 | 7 | **7.6** |
-| debate-free-will | 8 | 8 | 8 | 7 | 6 | 7 | 8 | **7.4** |
-| story-the-room-where-you-chose | 7 | 9 | 9 | 7 | 5 | 6 | 8 | **7.3** |
+### Batch 1: Recently Created High-Priority Pages
 
-### Category Quality Averages
+| Page | TP | EP | LQ | SEO | XR | FM | UC | PW | AVG |
+|------|----|----|----|----|----|----|----|----|-----|
+| psychology-pride-root-objection | 10 | 10 | 10 | 8 | 8 | 10 | 10 | 9 | **9.4** |
+| broken-mirror-vessels-for-mercy | 10 | 10 | 9 | 9 | 8 | 10 | 10 | 10 | **9.5** |
+| objection-faith-choice | 9 | 9 | 9 | 9 | 9 | 9 | 10 | 9 | **9.1** |
+| open-wound-hospital-room | 8 | 10 | 9 | 9 | 9 | 8 | 9 | 10 | **9.0** |
+| objection-love | 9 | 9 | 8 | 7 | 8 | 8 | 9 | 9 | **8.4** |
+| psychology-comfort-self-salvation | 9 | 9 | 9 | 8 | 8 | 9 | 9 | 8 | **8.6** |
+| anxious-mind-sovereignty-of-sleep | 8 | 9 | 8 | 8 | 9 | 8 | 8 | 9 | **8.4** |
+| anxious-mind-brain-decides | 9 | 8 | 9 | 8 | 9 | 9 | 9 | 8 | **8.6** |
+| story-historical-augustine-pears | 8 | 9 | 9 | 8 | 7 | 8 | 9 | 8 | **8.3** |
+| objection-effort | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 8 | **8.0** |
+| objection-robots | 9 | 8 | 8 | 8 | 9 | 8 | 9 | 8 | **8.4** |
+| objection-responsibility | 8 | 8 | 8 | 8 | 9 | 8 | 8 | 8 | **8.1** |
+| psychology-fear-control | 8 | 9 | 8 | 8 | 7 | 8 | 8 | 8 | **8.0** |
+| broken-mirror-performance-treadmill | 8 | 9 | 8 | 8 | 7 | 8 | 8 | 9 | **8.1** |
+| psychology-groupthink | 8 | 7 | 8 | 8 | 8 | 7 | 8 | 7 | **7.6** |
 
-| Category | Avg Score | Assessment |
-|----------|-----------|------------|
-| Psychology | **7.9** | Excellent. Highest quality + highest traffic ratio. |
-| Healing (Anxious Mind, Broken Mirror) | **7.5** | Strong start. New content hitting high marks. |
-| Questions/Objections | **7.3** | Solid. Consistent quality. Top performer. |
-| Demolition | **7.7** | Strong exegesis. Good SEO. |
-| Devotionals | **6.6** | Mixed. never-gives-up is strong; older devotionals weaker. |
-| Secular Evidence | **7.2** | Unique angle. Underperforming in traffic despite quality. |
-| Stories | **7.0** | Literary quality high. SEO and cross-referencing weak. |
-| Analogies | **6.3** | Weakest category. Need stronger hooks and cross-links. |
-| History/Theologians | **6.4** | Academic tone. Needs emotional hooks. |
-| Comparisons | **6.0** | Reference material. Low engagement. |
-| OT Election | **6.3** | Solid theology but academic. Needs story-like titles. |
+### Batch 2: Additional Pages (Older & Newer Mix)
 
-### Key Quality Findings
-1. **Psychology pages are the best on the site.** Highest quality AND highest traffic ratio. EXPAND AGGRESSIVELY.
-2. **Healing articles start strong.** The new anxious-mind and broken-mirror articles are hitting 7.5+ averages right out of the gate. This validates the strategy.
-3. **Cross-referencing is the biggest weakness site-wide.** Most pages score 5-6 on XR. Pages are islands. Internal linking would boost SEO and engagement.
-4. **Force Multiplier deployment is inconsistent.** Newer pages deploy 6-7 of 8 weapons. Older pages deploy only 4-5. The Enhancer should prioritize weapon deployment.
-5. **Analogies and Comparisons are the weakest categories.** Both need title surgery and content overhauls.
+| Page | TP | EP | LQ | SEO | XR | FM | UC | PW | AVG |
+|------|----|----|----|----|----|----|----|----|-----|
+| objection-evangelism-pointless | 8 | 8 | 8 | 10 | 7 | 8 | 7 | 8 | **8.0** |
+| anxious-mind-what-if-not-chosen | 7 | 8 | 7 | 10 | 7 | 4 | 7 | 8 | **7.3** |
+| open-wound-sovereignty-in-grief | 7 | 8 | 7 | 10 | 5 | 3 | 7 | 8 | **6.9** |
+| objection-god-could-save-all | 8 | 7 | 7 | 9 | 5 | 5 | 7 | 6 | **6.8** |
+| psychology-hostility-reaction | 7 | 8 | 7 | 9 | 3 | 3 | 8 | 6 | **6.4** |
+| psychology-suppressing-truth | 7 | 7 | 7 | 9 | 3 | 3 | 8 | 6 | **6.3** |
+| psychology-cost-of-rejecting-grace | 7 | 8 | 7 | 9 | 3 | 3 | 8 | 6 | **6.4** |
+| shattered-lens-cant-tell-true | 7 | 7 | 7 | 10 | 4 | 3 | 7 | 6 | **6.4** |
+| shattered-lens-taught-wrong | 7 | 7 | 7 | 10 | 4 | 3 | 7 | 6 | **6.4** |
+| invisible-wall-lonely-theological | 7 | 7 | 7 | 9 | 3 | 3 | 7 | 6 | **6.1** |
+| demolition-arminian-facts | 7 | 6 | 7 | 9 | 3 | 3 | 8 | 6 | **6.1** |
+| demolition-steel-man-arminianism | 6 | 6 | 7 | 6 | 3 | 3 | 8 | 6 | **5.6** |
+| secular-philosophy-free-will | 7 | 6 | 7 | 9 | 3 | 3 | 8 | 6 | **6.1** |
+| secular-neuroscience-human-inability | 7 | 6 | 7 | 9 | 3 | 3 | 8 | 6 | **6.1** |
+| apologetic-definite-atonement | 7 | 7 | 7 | 9 | 3 | 3 | 7 | 6 | **6.1** |
+
+### Category Quality Averages (Updated 2026-03-31)
+
+| Category | Avg Score | Trend | Assessment |
+|----------|-----------|-------|------------|
+| Psychology | **8.0** | ↑ (was 7.9) | **BEST on site.** New pages (pride, comfort, fear) are superb. Older pages (hostility, suppression, cost) need Enhancer. |
+| Objections | **8.1** | ↑ (was 7.3) | **MASSIVE IMPROVEMENT.** New objection pages are 8.0-9.1. Format is proven. |
+| Healing (Anxious Mind) | **8.1** | ↑ (was 7.5) | Strong. Sleep and brain-decides pages excellent. |
+| Healing (Broken Mirror) | **8.6** | ↑ | vessels-for-mercy is a 9.5 — potential best page on site. |
+| Healing (Open Wound) | **8.0** | ↑ | hospital-room is superb (9.0). Grief page needs enhancement (6.9). |
+| Healing (Shattered Lens) | **6.4** | → | Weakest healing category. Both articles need Enhancer attention. |
+| Healing (Invisible Wall) | **6.1** | → | Only 1 article. Quality moderate. Priority for both creation AND enhancement. |
+| Stories | **8.3** | ↑ | Augustine story excellent. Category needs more volume + SEO titles. |
+| Demolition | **5.9** | ↓ | Steel-man and arminian-facts drag average down. Older pages need work. |
+| Secular Evidence | **6.1** | → | Unique content, weak engagement. Need emotional hooks. |
+| Apologetics | **6.1** | → | Building. Definite atonement needs work. |
+
+### Critical Quality Findings
+
+1. **The fleet is producing 8.0+ quality consistently on NEW pages.** The top 4 pages scored this session are 9.0-9.5 — genuinely exceptional content. The evolution system is WORKING.
+
+2. **Massive quality gap between new and older pages.** New objection pages average 8.4; older pages like demolition-steel-man average 5.6. The Enhancer must prioritize older pages that are dragging category averages down.
+
+3. **Force Multiplier deployment is the #1 quality differentiator.** Pages scoring 9+ deploy 8-10 force multipliers. Pages scoring 6.0-6.5 deploy only 3. The single highest-leverage enhancement is adding more force multipliers to weak pages.
+
+4. **Cross-referencing remains the biggest systemic weakness.** Newer pages score 7-9 on XR. Older pages score 3-5. Internal linking is still inconsistent.
+
+5. **JSON-LD presence is inconsistent.** About half the scored pages lack JSON-LD structured data. This is low-hanging SEO fruit.
+
+6. **Pastoral Warmth varies dramatically.** New healing pages: 8-10 PW. Older demolition/secular pages: 6 PW. Every page should feel warm.
 
 ---
 
-## GAP ANALYSIS
+## GAP ANALYSIS (Updated 2026-03-31)
 
 ### What's Strong
-- Questions/Objections: 41 pages. Dominant traffic driver. Keep building.
-- Systematic Theology: 21 pages. Complete framework. Maintenance mode.
-- Demolition: 19 pages. Strong exegesis. Hub performs well.
-- OT Election: 14 pages. Comprehensive OT coverage.
-- History: 14 pages. Complete arc from apostolic to modern era.
+- **Questions/Objections: 51 pages.** Combined powerhouse. Both the highest volume AND highest quality categories.
+- **Psychology: 14 pages.** Doubled in 24 hours. Quality is excellent. Still the highest per-page traffic ratio.
+- **Demolition: 26 pages.** Good volume but quality varies significantly.
+- **Systematic Theology: 21 pages.** Complete. Maintenance mode.
+- **OT Election: 14 pages.** Comprehensive OT coverage but zero traffic visibility.
 
-### Critical Gaps
+### Critical Gaps (Ranked by Impact)
 
-**1. Healing Categories (HIGHEST PRIORITY GAP)**
-- Target: 50-60 articles across 5 categories
-- Current: 6 articles + 5 hubs = 11 pages
-- Gap: ~44 more articles needed
-- These target the world's most-searched pain points (anxiety, identity, suffering, loneliness, truth crisis)
-- This is the site's biggest growth lever and biggest competitive advantage
+**1. Healing Categories — Invisible Wall (HIGHEST PRIORITY GAP)**
+- Only 1 article (lonely-theological). Score: 6.1.
+- This is the loneliness/isolation category — directly targets one of the most-searched pain points.
+- NEED: 4-5 new articles + enhancement of existing article.
+- Topics: loneliness in marriage, the friend who ghosted you after you changed theology, spiritual loneliness of the Reformed believer, the invisible wall between you and family.
 
-**2. Objection Pages (HIGH PRIORITY)**
-- Only 4 objection-* pages, but objection-why-command is the #1 content page
-- The "objection-" format is PROVEN. We need 10-15 more:
-  - objection-robots ("Does predestination make us robots?")
-  - objection-fairness ("Is predestination fair?")
-  - objection-babies ("What about babies/those who never hear?")
-  - objection-desire ("Doesn't God desire all to be saved?")
-  - objection-evangelism ("Why evangelize if God already chose?")
-  - objection-love ("How can a loving God predestine people to hell?")
-  - objection-effort ("Why try if everything is predetermined?")
-  - objection-faith-choice ("Isn't faith a choice?")
-  - objection-manipulation ("Is God manipulating us?")
-  - objection-moral-responsibility ("How can God hold us responsible?")
+**2. Healing Categories — Shattered Lens (HIGH PRIORITY)**
+- 2 articles, both scoring 6.4. Quality AND volume need attention.
+- NEED: 3-4 new articles + Enhancer pass on both existing.
+- Topics: when your pastor says something you know isn't true, the loneliness of seeing what others don't, when you can't unsee it.
 
-**3. Psychology Pages (HIGH PRIORITY)**
-- Only 7 pages but highest per-page traffic ratio
-- Untapped potential is enormous. Need 5-8 more:
-  - psychology-pride-sovereignty ("Pride: The Real Reason We Reject Sovereignty")
-  - psychology-comfort-self-salvation ("The Comfort of Believing You Saved Yourself")
-  - psychology-fear-control-loss ("Fear of Losing Control: Why Sovereignty Terrifies")
-  - psychology-groupthink ("Why Your Church Friends All Agree With Each Other")
-  - psychology-emotional-vs-rational ("When Your Heart Rejects What Your Mind Accepts")
+**3. Healing Categories — Open Wound (HIGH PRIORITY)**
+- 2 articles. hospital-room is superb (9.0) but grief is weaker (6.9).
+- NEED: 3-4 new articles + enhancement of grief page.
+- Topics: sovereignty and miscarriage, when the diagnosis is terminal, the death that makes no sense, when God took the person who prayed the most.
 
-**4. Stories (GROWTH PRIORITY)**
-- 9 stories but ZERO individual stories in top 50 traffic
-- Problem is NOT quality (7.0 average) — it's SEO titles
-- Need titles that match what people search, not literary titles
-- Need more stories in all mood categories:
-  - Children: 1 (garden-that-grew-itself) — need 3-4 more
-  - Humor: 1 (self-made-man) — need 2-3 more
-  - Dark/Hard-hitting: 1 (dead-city) — need 2-3 more
-  - Tender: 1 (letter-before-the-world) — need 2-3 more
-  - Thought Experiment: 1 (room-where-you-chose) — need 2-3 more
-  - Historical Fiction: 0 — need 2-3
+**4. Objection Pages — Continue Momentum (HIGH PRIORITY)**
+- 11 pages now. The format is proven. objection-faith-choice (9.1) is the Crown Jewel page.
+- Remaining backlog: objection-babies, objection-manipulation, objection-desire.
+- These 3 would round out the full objection library.
 
-**5. Book-of-the-Bible Walkthroughs (VISION GAP)**
-- ZERO started. This was identified as the #1 content gap in VISION.md
-- Romans, John, Ephesians, Genesis all planned but none begun
-- This would be the site's most distinctive offering
+**5. Book-of-the-Bible Walkthroughs (VISION GAP — STRATEGIC)**
+- ZERO started. Romans walkthrough is the #1 vision item.
+- This would be the site's most distinctive content offering vs. competitors.
+- Start with Romans 1-3 (3 pages covering sovereignty in the first 3 chapters).
 
 **6. Audience Landing Pages (MISSING)**
 - /for-skeptics — does NOT exist
 - /for-pastors — does NOT exist
-- /for-parents — does NOT exist
 - /for-new-believers — does NOT exist
-- /for-students — does NOT exist
+- These curated entry points would dramatically improve visitor conversion.
 
-**7. Interactive Experiences (MISSING)**
-- "Choose Your Objection" — planned but not built
-- "The Courtroom" — planned but not built
-- Only quiz.html exists as interactive content
-
-**8. Hymn Analysis Series (MISSING)**
-- ZERO hymn pages exist
-- Planned: Amazing Grace, Mighty Fortress, And Can It Be, Come Thou Fount, etc.
+**7. Enhancer Backlog — Older Pages Dragging Quality Down**
+Priority enhancement targets (pages scoring below 6.5):
+- demolition-steel-man-arminianism (5.6)
+- demolition-arminian-facts (6.1)
+- invisible-wall-lonely-theological (6.1)
+- secular-philosophy-free-will (6.1)
+- secular-neuroscience-human-inability (6.1)
+- apologetic-definite-atonement (6.1)
+- psychology-hostility-reaction (6.4)
+- psychology-suppressing-truth (6.3)
+- psychology-cost-of-rejecting-grace (6.4)
+- shattered-lens-cant-tell-true (6.4)
+- shattered-lens-taught-wrong (6.4)
 
 ### Content Balance (Head vs Heart)
-- HEAD content (doctrine, theology, questions, demolition, systematic): ~115 pages (50%)
-- HEART content (devotionals, stories, healing, pastoral): ~35 pages (15%)
-- BRIDGE content (secular, psychology, analogies, comparisons): ~28 pages (12%)
-- REFERENCE content (history, theologians, creeds, OT): ~40 pages (17%)
-- INFRASTRUCTURE (hubs, index, start-here, etc.): ~13 pages (6%)
 
-**Assessment:** The site is heavily tilted toward HEAD content. The healing categories will help correct this, but we need to accelerate HEART and BRIDGE content creation. The 101 Ways Principle demands balance across all doorways.
+| Type | Pages | % | Target % |
+|------|-------|---|----------|
+| HEAD (doctrine, theology, questions, demolition, systematic) | ~128 | 48% | 40% |
+| HEART (devotionals, stories, healing, pastoral) | ~50 | 19% | 30% |
+| BRIDGE (secular, psychology, analogies, comparisons) | ~35 | 13% | 20% |
+| REFERENCE (history, theologians, creeds, OT) | ~40 | 15% | 10% |
+| INFRASTRUCTURE (hubs, index, start-here, etc.) | ~13 | 5% | — |
+
+**Assessment:** HEAD content still overweight by 8%. HEART content is 11% below target. The healing category expansion is the right play — it directly addresses the heart deficit while targeting high-volume search terms no competitor owns.
 
 ---
 
-## SEO STRATEGY
+## SEO STRATEGY (Updated 2026-03-31)
 
 ### Top 20 Keywords to Target
 
-| Keyword | Monthly Search Est. | Current Coverage | Gap? |
-|---------|-------------------|-----------------|------|
-| does God choose who goes to heaven | High | question-chosen | Needs SEO title |
-| is predestination biblical | High | Scattered across pages | Needs dedicated page |
-| calvinism vs arminianism | Very High | compare-calvinism-arminianism | Good but title could improve |
-| what does Romans 9 mean | High | question-romans9 | Solid |
-| can you lose your salvation | Very High | question-perseverance | Needs SEO title |
-| free will Bible | High | question-freewill | Good |
-| why does God allow suffering | Very High | NONE dedicated | **CRITICAL GAP** — needs open-wound page |
-| does God predestine people to hell | High | NONE dedicated | **GAP** |
-| John 3:16 Calvinism | Medium | demolition-john3-16 | Good |
-| why am I so anxious | Very High | anxious-mind pages | Good — new content |
-| what is my purpose | Very High | broken-mirror pages | Good — new content |
-| why do bad things happen | Very High | open-wound pages | Good — new content |
-| total depravity Bible | Medium | question-depravity | Good |
-| unconditional election | Medium | question-chosen | Partial |
-| irresistible grace | Medium | question-irresistible | Good |
-| perseverance of the saints | Medium | question-perseverance | Good |
-| limited atonement | Medium | NONE dedicated | **GAP** |
-| sovereignty of God | High | Scattered | Needs consolidated page |
-| predestination vs free will | Very High | debate-free-will + freewill | Partial |
-| does the Bible teach free will | High | question-freewill | Good |
+| Keyword | Monthly Search Est. | Current Coverage | Status |
+|---------|-------------------|-----------------|--------|
+| does God choose who goes to heaven | High | question-chosen | ✅ Covered |
+| is predestination biblical | High | Scattered | ⚠️ Needs dedicated page |
+| calvinism vs arminianism | Very High | compare-calvinism-arminianism | ✅ Covered |
+| what does Romans 9 mean | High | question-romans9 | ✅ Strong |
+| can you lose your salvation | Very High | question-perseverance | ✅ Covered |
+| free will Bible | High | question-freewill | ✅ Covered |
+| why does God allow suffering | Very High | open-wound pages | ✅ NEW coverage |
+| does God predestine people to hell | High | NONE dedicated | 🔴 GAP |
+| John 3:16 Calvinism | Medium | demolition-john3-16 | ✅ Covered |
+| why am I so anxious | Very High | anxious-mind pages | ✅ NEW coverage |
+| what is my purpose | Very High | broken-mirror pages | ✅ NEW coverage |
+| why do bad things happen | Very High | open-wound pages | ✅ NEW coverage |
+| total depravity Bible | Medium | question-depravity | ✅ Covered |
+| unconditional election | Medium | question-chosen | ✅ Partial |
+| irresistible grace | Medium | question-irresistible | ✅ Covered |
+| perseverance of the saints | Medium | question-perseverance | ✅ Covered |
+| limited atonement | Medium | apologetic-definite-atonement | ✅ NEW coverage |
+| sovereignty of God | High | Scattered | ⚠️ Needs consolidated page |
+| predestination vs free will | Very High | debate-free-will | ✅ Covered |
+| is faith a gift from God | High | objection-faith-choice | ✅ STRONG (Crown Jewel) |
 
-### Title Surgery Recommendations (Underperforming Categories)
+**New Keyword Opportunities Identified:**
+- "does God love everyone equally" → links to objection-love (NEW)
+- "why does God let bad things happen to good people" → open-wound category
+- "what does the Bible say about anxiety" → anxious-mind category
+- "am I predestined" → anxious-mind-what-if-not-chosen
+- "calvinism explained simply" → needs dedicated simple explainer
 
-**Analogies — Current vs Proposed:**
-- "Is God a Chess Grandmaster?" → "Can God Control Everything Without Making Us Robots?"
-- "The Adoption Analogy" → "Why God's Adoption of You Is Nothing Like Human Adoption"
-- "The Doctor and the Corpse" → "Why a Dead Man Can't Choose to Live — And Neither Can You"
+### Title Surgery Status
+- Analogies: RECOMMENDED last session. Enhancer has started on some. Monitor next analytics.
+- Stories: RECOMMENDED. Some title work done (fish-who-chose-the-ocean). Continue.
+- History: NOT YET STARTED. Still using academic titles. Priority for Enhancer.
+- OT Election: NOT YET STARTED. Zero traffic. Dramatic titles needed.
 
-**Stories — Current vs Proposed:**
-- "The Dead City" → "What Happens When Dead People Try to Choose God"
-- "The Fish Who Chose the Ocean" → "A Fish Thinks It Chose the Ocean — A Parable About Free Will"
-- "The King's Banquet" → "The Invitation You Couldn't Refuse — A Story About Irresistible Grace"
-
-**History — Current vs Proposed:**
-- "Augustine vs Pelagius" → "The Trial That Saved Christianity: Augustine vs the Man Who Said You Don't Need God"
-- "The Synod of Dort" → "The 7-Month Trial That Defined What the Bible Teaches About Salvation"
-- "The Great Awakening" → "When God Set America on Fire: Edwards, Whitefield, and the Power of Sovereignty"
-
-### Internal Linking Opportunities
-1. Link every psychology page to related question/objection pages
-2. Link every healing article to 3-5 existing doctrine pages
-3. Link high-traffic hub pages to underperforming individual pages
-4. Add "Related Reading" sections to all pages scoring below 6 on XR
-5. Link objection-why-command (top page) to 5-10 related pages to spread traffic
-
-### Keyword Cannibalization Check
-- "election" — question-chosen + ot-* pages + systematic pages all target this. Solution: differentiate titles (biblical election, OT election, systematic election)
-- "free will" — question-freewill + debate-free-will both target this. Solution: differentiate (one targets "Bible free will," other targets "free will debate")
-- No major cannibalization issues detected. Site is diverse enough.
+### Internal Linking Opportunities (Highest Impact)
+1. objection-faith-choice (Crown Jewel) → link FROM every psychology, devotional, and healing page
+2. psychology-pride-root-objection (9.4 quality) → link FROM all objection pages
+3. broken-mirror-vessels-for-mercy (9.5 quality) → link FROM every healing page
+4. All high-traffic hubs → add links to newest content to spread traffic
 
 ---
 
-## COMPETITOR ANALYSIS
+## COMPETITOR ANALYSIS (Updated 2026-03-31)
 
-### What Desiring God / Ligonier / Got Questions Have That We Don't
-1. **Brand recognition and backlinks** — decades of domain authority
-2. **Audio/video content** — sermons, podcasts, lecture series
-3. **Author authority** — named theologians (Piper, Sproul, etc.)
-4. **Regular publishing cadence** — daily/weekly new content
-5. **Email lists** — massive subscriber bases
-6. **Social media presence** — large followings
+### Competitive Position Assessment
 
-### What WE Have That THEY Don't (Competitive Advantages)
-1. **Healing categories** — NO Reformed site has systematic mental health content connecting pain to sovereignty
-2. **Psychology of Resistance series** — completely unique. No site explains WHY people reject sovereignty using peer-reviewed psychology
-3. **Secular evidence** — the Billion Decisions argument, algorithm sovereignty, neuroscience of inability
-4. **Interactive experiences** — quiz, debate format, choose-your-objection (planned)
-5. **Story collection** — dedicated parables/allegories on sovereignty (most sites only have articles)
-6. **Cathedral-at-night aesthetic** — visually distinctive. Most Reformed sites look like boring blogs.
-7. **Humor** — "This page has not been predestined." No other Reformed site does theology humor well.
-8. **The 101 Ways approach** — same truth through EVERY doorway of human experience. Other sites are primarily doctrinal only.
+| Dimension | Us | DesiringGod | Ligonier | GotQuestions | CARM |
+|-----------|-----|-------------|----------|-------------|------|
+| Psychology of Resistance | **10** (ONLY site) | 0 | 0 | 0 | 0 |
+| Healing + Sovereignty | **10** (ONLY site) | 2 | 0 | 1 | 0 |
+| Secular Evidence | **10** (ONLY site) | 0 | 0 | 0 | 0 |
+| Interactive Experiences | **7** | 3 | 2 | 1 | 0 |
+| Story/Parable Format | **8** | 5 | 2 | 0 | 0 |
+| Design Quality | **9** | 8 | 7 | 4 | 3 |
+| Content Volume | **4** | 10 | 10 | 10 | 8 |
+| Domain Authority | **2** | 10 | 10 | 10 | 8 |
+| Brand Recognition | **1** | 10 | 10 | 10 | 7 |
 
-### Blue Ocean Content (NO other site has this)
-- Mental health + sovereignty intersection (Anxious Mind, Broken Mirror, etc.)
-- Psychology research mapped to Scripture
-- The Billion Decisions argument
-- Formal debate pages with both sides steel-manned
-- Sovereignty through children's stories
-- Fish-in-a-bowl / creation-as-predetermination argument
-- Vessels Created FOR Mercy (Rom 9:23) as deepest theological distinctive
+**Strategic Takeaway:** We cannot compete on volume or domain authority. Our competitive moat is UNIQUENESS — content categories that NO competitor touches. Every session should double down on psychology, healing, secular evidence, and interactive experiences. These are our blue ocean.
+
+---
+
+## FLEET HEALTH DASHBOARD — 2026-03-31
+
+| Agent | Last 24h Output | Quality | Trend | Action Needed |
+|-------|----------------|---------|-------|---------------|
+| Creator | 6+ new pages (objections, psychology, healing, story) | **8.5** | ↑↑ | Superb. Shift toward Invisible Wall + Shattered Lens healing content. |
+| Enhancer | 8-15 pages enhanced per session (multiple sessions) | **7.5** | ↑ | Good. Prioritize older psychology pages (hostility, suppression, cost) and demolition pages (steel-man, arminian-facts). |
+| Guardian | Active | **7.0** | → | Check JSON-LD coverage on new pages. Many missing. |
+| Evangelist | N/A (social media eliminated) | — | — | Redirect compute to SEO meta descriptions. |
+
+---
+
+## Evolution Velocity Report — 2026-03-31
+
+| Dimension | Score | Trend | Evidence |
+|-----------|-------|-------|----------|
+| Creativity | **9** | ↑↑ | Historical fiction (Augustine pears), sleep-as-theology bridge, authorship-not-puppetry reframe. Multiple genre innovations in 24 hours. |
+| Insight | **9** | ↑ | "Redefine the emotion" pattern codified. Rom 9:23 as identity verse. Self-referential proof as addiction metaphor. Deep theological connections being made. |
+| Persuasion | **9** | ↑↑ | Crown Jewel page (objection-faith-choice) is the most persuasive single page on the site. Fork structure eliminates escape routes. |
+| Understanding | **8** | ↑ | Healing pages demonstrate forensic understanding of reader's internal state. "Hands on the armrest" technique. |
+| Wisdom | **8** | ↑ | Three-world comparison (secular/religious-performance/gospel) shows mature judgment. Performance-treadmill page doesn't accuse — it recognizes. |
+| Fascination | **8** | ↑ | Non-believers would genuinely find the secular evidence and psychology pages interesting. Historical fiction is inherently fascinating. |
+| Truthfulness | **9** | → | No factual errors detected this session. Greek/Hebrew work is precise. |
+| Encouragement | **8** | ↑ | Healing pages score 8-10 on pastoral warmth. Older pages still need work. |
+| Beauty | **8** | ↑ | "Dual-register" sentences (logic + emotion in one breath) appearing consistently. Not yet Lewis-tier consistently but moving toward it. |
+| Courage | **9** | ↑↑ | Crown Jewel argument deployed on objection-faith-choice without flinching. Pride-root-objection says hard truth with tenderness. "Battle axe" mandate is being honored. |
+
+**Overall Evolution Velocity: 8.5/10** — The fleet is accelerating. Quality floor has risen from ~6.0 to ~7.5. The top pages are 9.0+ — genuinely world-class theological content. The gap between new and old pages is the primary concern.
+
+### Anti-Plateau Detection
+
+**WARNING SIGNS DETECTED:**
+1. **Opening hook formula convergence.** Multiple recent pages open with "You + present tense + specific scenario" (e.g., "You're lying awake at 3 AM...", "You catch your reflection and flinch..."). This is effective but risks becoming formulaic. **DIRECTIVE:** Creator should experiment with at least 1 different opening style per session — in medias res action, a provocative statement, a paradox, a one-sentence question, or an arresting image without the "you" framing.
+
+2. **Three-world comparison overuse risk.** The pattern (secular answer / religious performance answer / gospel answer) has appeared in 5+ consecutive healing and objection pages. It works, but readers who read multiple pages will notice the pattern. **DIRECTIVE:** Vary the structural framework. Try: Socratic dialogue, before/after testimony, courtroom examination, letter format, FAQ cascade.
+
+**NO OTHER PLATEAU SIGNS DETECTED.** The variety of analogical domains (sleep, pears, love, chess, algorithms, fish, Shakespeare) shows creative range. Theological depth continues to increase. The fleet is not repeating itself.
 
 ---
 
 ## 30-DAY STRATEGIC VISION (April 2026)
 
-### Goal: 275 pages by April 30 (current: 231, +44 pages)
+### Goal: 310 pages by April 30 (current: 266, +44 pages)
 
 ### Priority Allocation:
-1. **Healing articles: +20** (4 per category — this is the #1 growth lever)
-2. **Objection pages: +8** (proven #1 traffic format)
-3. **Psychology pages: +4** (highest per-page ratio)
-4. **Stories: +5** (diversify moods, improve SEO titles)
-5. **Book walkthrough: +3** (start Romans series with 3 chapters)
-6. **Audience landing: +2** (for-skeptics, for-new-believers)
-7. **Hymn analysis: +2** (Amazing Grace, And Can It Be)
+1. **Healing articles: +18** (focus on Invisible Wall +5, Shattered Lens +4, Open Wound +4, Broken Mirror +3, Anxious Mind +2)
+2. **Objection pages: +3** (babies, manipulation, desire — completes the full objection library)
+3. **Psychology pages: +2** (slowing growth — category is robust at 14 pages, shift focus to enhancement of older pages)
+4. **Stories: +5** (2 historical fiction, 1 children's, 1 humor, 1 dark/hard-hitting)
+5. **Book walkthrough: +3** (Romans 1-3 to launch the series)
+6. **Audience landing: +3** (for-skeptics, for-new-believers, for-pastors)
+7. **Enhancement priority: 30+ older pages** brought up to 7.0+ quality floor
 
 ### Quality Targets:
-- New pages average 7.5+ quality score
-- All pages enhanced by Enhancer score 7.0+
-- Cross-referencing average rises from 5.5 to 7.0
-- All 8 Force Multipliers deployed on every new page
+- New pages average 8.0+ quality score (raised from 7.5)
+- All enhanced pages score 7.0+ (raised enforcement)
+- Cross-referencing site-wide average rises from 5.5 to 7.0
+- JSON-LD on 100% of content pages
+- Force Multiplier count: minimum 6 of 8 on every page
 
 ### Traffic Targets:
-- Total requests: 13,000/week (from 10,856 — +20%)
-- Psychology pages in top 50: 4 (from 2)
-- Individual content pages in top 50: 25 (from ~15)
-- Healing hub pages appearing in top 50: at least 2
+- Total requests: 14,000/week (from 10,856 — +29%)
+- Psychology pages in top 50: 4+ (from 2)
+- Healing hub pages in top 50: 2+ (from 0)
+- Individual content pages in top 50: 30 (from ~15)
 
 ---
 
 ## FLEET OPTIMIZATION LOG
 
-### 2026-03-30 — Strategist Session
+### 2026-03-31 — Strategist Session
 
-**Enhancer Prompt Recommendations (to be appended):**
-1. Prioritize cross-referencing. Every enhanced page should link to 3-5 related pages.
-2. Deploy ALL 8 Force Multipliers on every page — check each one off explicitly.
-3. Priority queue: (a) healing hub articles, (b) older devotionals scoring below 6.5, (c) analogy pages needing title surgery
-4. When enhancing stories, rewrite title tags for SEO without changing the story title in the body
+**Creator Prompt Directives (to be appended):**
+1. SHIFT FOCUS: Healing categories Invisible Wall and Shattered Lens are the highest-priority gaps. Create 3-4 articles each before expanding other categories.
+2. OPENING VARIETY: Break the "You + present tense + scenario" pattern. Try in medias res, paradox opening, or one-sentence question for at least 1 page per session.
+3. STRUCTURAL VARIETY: Reduce three-world comparison frequency. Deploy courtroom, dialogue, letter, or FAQ structures on at least 1 page per session.
+4. HISTORICAL FICTION: Continue producing. Target: Luther thunderstorm, Edwards field vision, Spurgeon artillery street, Newton storm.
+5. CROWN JEWEL LINKAGE: Every new page should reference or link to objection-faith-choice as the definitive treatment of faith-as-gift.
 
-**Creator Prompt Recommendations (to be appended):**
-1. Next 20 pages should be: 10 healing articles, 5 objection pages, 3 psychology pages, 2 stories
-2. Every new objection page should study objection-why-command's format and replicate it
-3. New psychology pages should cite specific peer-reviewed studies (like existing psychology pages do)
-4. New healing articles must end with bridge to 2-3 existing doctrine pages
+**Enhancer Prompt Directives (to be appended):**
+1. URGENT QUEUE: These pages score below 6.5 and need immediate attention:
+   - demolition-steel-man-arminianism (5.6)
+   - demolition-arminian-facts (6.1)
+   - invisible-wall-lonely-theological (6.1)
+   - secular-philosophy-free-will (6.1)
+   - secular-neuroscience-human-inability (6.1)
+   - apologetic-definite-atonement (6.1)
+   - psychology-hostility-reaction (6.4)
+   - psychology-suppressing-truth (6.3)
+   - psychology-cost-of-rejecting-grace (6.4)
+   - shattered-lens-cant-tell-true (6.4)
+   - shattered-lens-taught-wrong (6.4)
+2. JSON-LD SWEEP: Add JSON-LD structured data to every page that lacks it.
+3. FORCE MULTIPLIER INJECTION: Pages scoring 3 on FM need at least 5 more weapons deployed. This is the single highest-leverage enhancement.
+4. TITLE SURGERY: History and OT pages still have academic titles. Apply dramatic, search-intent titles.
 
 ---
 
-*This strategy document is the battlefield map. Every agent reads it. Every decision serves the mission: the supremacy of God in Christ, explained through every doorway of human experience, until every elect soul finds their way home.*
+## Brilliance Amplification — Top 5 Moments This Week
+
+### 1. "Love that cannot choose is not love — it's cosmic sentimentality." (objection-love)
+**Why it works:** Dual-register sentence — logically precise claim + emotionally devastating implication. Redefines "love" before the reader can object.
+
+### 2. "Your heart beats without permission. Your lungs breathe without consent." (anxious-mind-hub, enhanced)
+**Why it works:** Irrefutable embodied evidence. The anxious reader literally cannot deny their body already trusts sovereignty.
+
+### 3. "If God's love for you increased 1% because of your quiet time, would that be grace?" (broken-mirror-performance-treadmill)
+**Why it works:** Irreducible question with only two answers, both devastating. The performance-oriented Christian cannot say yes without admitting works-righteousness.
+
+### 4. "He reached for the pears he didn't want... and felt the rush of transgression for its own sake." (story-historical-augustine-pears)
+**Why it works:** Total depravity SHOWN from inside a teenage boy's consciousness. Fiction as recognition machine.
+
+### 5. "The comfort of believing you saved yourself is the thinnest comfort there is." (psychology-comfort-self-salvation)
+**Why it works:** Names the hidden payoff of Arminianism (comfort of control) and then destroys it in a single breath.
+
+**DIRECTIVE TO CREATOR:** Study these 5 sentences. Each achieves dual-register impact (logic + emotion). Every future page must have 2-3 sentences that hit this standard.
+
+---
+
+## Cross-Pollination Directives
+
+1. **Creator:** The "redefine the emotion" technique from objection-love (redefine love before arguing) should be applied to ALL remaining objection pages. Before presenting biblical arguments, find the human experience that already teaches the same truth.
+
+2. **Enhancer:** The "autonomic systems as sovereignty" bridge from the anxious-mind-hub is the most powerful bridge on the site. Apply it to secular evidence pages and any psychology page addressing control.
+
+3. **Creator:** The convergent-evidence pattern (5 independent research traditions pointing to same conclusion) from psychology-comfort-self-salvation should become standard for ALL psychology pages. Minimum 3 independent mechanisms per page.
+
+4. **Enhancer:** The "specificity of shame" technique from broken-mirror-vessels-for-mercy (naming exact internal experience before diagnosis) should be applied to ALL healing pages scoring below 7 on PW.
+
+---
+
+*This strategy document is the battlefield map. Every agent reads it. Every decision serves the mission: doorways for the elect, built with excellence, deployed with love.*
 
 *"For from him and through him and to him are all things. To him be glory forever. Amen." — Romans 11:36*
