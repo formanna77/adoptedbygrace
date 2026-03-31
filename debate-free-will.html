@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A rigorous formal debate: Does man have free will? Two positions argue their strongest cases—libertarian free will vs. biblical sovereignty. Scripture decides.">
+    <meta name="keywords" content="free will, free will debate, Arminianismus, Calvinism, compatibilism, election, predestination, biblical sovereignty, libertarian freedom">
+    <meta name="author" content="Adopted by Grace">
+    <meta property="og:title" content="The Great Debate: Does Man Have Free Will?">
+    <meta property="og:description" content="Two advocates present their strongest cases before the ultimate Judge. Scripture decides.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/debate-free-will">
+    <meta name="robots" content="index, follow">
+    <title>The Great Debate: Does Man Have Free Will? | Adopted by Grace</title>
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        :root {
+            --accent-gold: #e8642c;
+            --accent-violet: #9d4edd;
+            --accent-ember: #ff6b35;
+            --bg-dark: #0a0a0f;
+            --text-light: #f0f0f0;
+            --text-muted: #a0a0a8;
+            --border-subtle: rgba(232, 100, 44, 0.15);
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet), var(--accent-ember));
+            width: 0%;
+            z-index: 9999;
+            transition: width 0.3s ease;
+        }
+
+        .page-hero {
+            text-align: center;
+            margin-bottom: 4rem;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .page-hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-violet));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-hero .category-badge {
+            display: inline-block;
+            background: rgba(157, 78, 221, 0.2);
+            border: 1px solid var(--accent-violet);
+            color: var(--accent-violet);
+            padding: 0.4rem 1rem;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .opening-hook {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 2rem auto;
+            line-height: 1.9;
+            padding: 2rem;
+            background: rgba(232, 100, 44, 0.05);
+            border-left: 3px solid var(--accent-gold);
+        }
+
+        .debate-section {
+            margin: 4rem 0;
+            padding: 2rem;
+            border-left: 4px solid;
+            background: rgba(10, 10, 15, 0.5);
+        }
+
+        .position-a {
+            border-left-color: #4a90e2;
+            background: linear-gradient(90deg, rgba(74, 144, 226, 0.08), transparent);
+        }
+
+        .position-b {
+            border-left-color: var(--accent-gold);
+            background: linear-gradient(90deg, rgba(232, 100, 44, 0.08), transparent);
+        }
+
+        .debate-section h2 {
+            font-size: 1.7rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .position-a h2 {
+            color: #4a90e2;
+        }
+
+        .position-b h2 {
+            color: var(--accent-gold);
+        }
+
+        .position-badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            padding: 0.4rem 0.8rem;
+            border-radius: 2px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .position-a .position-badge {
+            background: #4a90e2;
+            color: white;
+        }
+
+        .position-b .position-badge {
+            background: var(--accent-gold);
+            color: white;
+        }
+
+        .debate-section p {
+            margin-bottom: 1.3rem;
+            line-height: 1.85;
+        }
+
+        .scripture-quote {
+            margin: 1.5rem 0;
+            padding: 1.2rem;
+            background: rgba(157, 78, 221, 0.1);
+            border-left: 3px solid var(--accent-violet);
+            font-style: italic;
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .scripture-quote .verse-ref {
+            display: block;
+            margin-top: 0.8rem;
+            font-style: normal;
+            font-size: 0.85rem;
+            color: var(--accent-violet);
+            font-weight: 600;
+        }
+
+        .key-argument {
+            background: rgba(232, 100, 44, 0.08);
+            padding: 1.2rem;
+            border-radius: 4px;
+            margin: 1.5rem 0;
+            border-left: 3px solid var(--accent-gold);
+        }
+
+        .key-argument strong {
+            color: var(--accent-gold);
+        }
+
+        .cross-exam {
+            margin: 4rem 0;
+            padding: 2rem;
+            background: rgba(10, 10, 15, 0.7);
+            border: 1px solid rgba(157, 78, 221, 0.2);
+        }
+
+        .cross-exam h2 {
+            font-size: 1.7rem;
+            color: var(--accent-violet);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .qa-block {
+            margin: 1.5rem 0;
+            padding: 1.2rem;
+            background: rgba(157, 78, 221, 0.05);
+            border-left: 3px solid var(--accent-violet);
+        }
+
+        .qa-block .question {
+            font-weight: 700;
+            color: var(--accent-violet);
+            margin-bottom: 0.8rem;
+            font-size: 1rem;
+        }
+
+        .qa-block .answer {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        .closing-arg {
+            margin: 4rem 0;
+            padding: 2rem;
+            border-left: 4px solid;
+            background: rgba(10, 10, 15, 0.5);
+        }
+
+        .closing-arg.position-a {
+            border-left-color: #4a90e2;
+            background: linear-gradient(90deg, rgba(74, 144, 226, 0.08), transparent);
+        }
+
+        .closing-arg.position-b {
+            border-left-color: var(--accent-gold);
+            background: linear-gradient(90deg, rgba(232, 100, 44, 0.08), transparent);
+        }
+
+        .closing-arg h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .closing-arg.position-a h3 {
+            color: #4a90e2;
+        }
+
+        .closing-arg.position-b h3 {
+            color: var(--accent-gold);
+        }
+
+        .verdict {
+            margin: 5rem 0;
+            padding: 3rem;
+            background: linear-gradient(135deg, rgba(255, 107, 53, 0.15), rgba(157, 78, 221, 0.1));
+            border: 1px solid rgba(232, 100, 44, 0.3);
+            border-radius: 4px;
+        }
+
+        .verdict h2 {
+            font-size: 1.8rem;
+            color: var(--accent-ember);
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .verdict p {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            margin-bottom: 1.3rem;
+        }
+
+        .theologian-quote {
+            margin: 1.5rem 0;
+            padding: 1.2rem;
+            background: rgba(10, 10, 15, 0.6);
+            border-left: 3px solid var(--accent-violet);
+            font-style: italic;
+            font-size: 0.95rem;
+        }
+
+        .theologian-quote .source {
+            display: block;
+            margin-top: 0.8rem;
+            font-style: normal;
+            font-size: 0.85rem;
+            color: var(--accent-violet);
+            font-weight: 600;
+        }
+
+        .humor-break {
+            margin: 3rem 0;
+            padding: 1.5rem;
+            background: rgba(232, 100, 44, 0.08);
+            border-radius: 4px;
+            text-align: center;
+            font-style: italic;
+            color: var(--text-muted);
+            border: 1px dashed rgba(232, 100, 44, 0.3);
+        }
+
+        .further-reading {
+            margin: 5rem 0 0;
+            padding-top: 3rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .further-reading h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent-violet);
+        }
+
+        .further-reading ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .further-reading li {
+            margin: 0.8rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .further-reading li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent-gold);
+        }
+
+        .further-reading a {
+            color: var(--accent-violet);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .further-reading a:hover {
+            color: var(--accent-gold);
+        }
+
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-violet);
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 100;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        @media (max-width: 768px) {
+            .page-hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .debate-section,
+            .closing-arg {
+                padding: 1.5rem;
+                margin: 2.5rem 0;
+            }
+
+            .opening-hook {
+                font-size: 1rem;
+                padding: 1.5rem;
+            }
+
+            main {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+    <div class="reading-progress"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
+                <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">History</a></li>
+                <li class="mobile-nav-link"><a href="/analogies-illustrations">Analogies</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/devotionals" class="nav-top-link">Devotionals</a>
+                <a href="/stories" class="nav-top-link">Stories</a>
+                <a href="/secular-evidence" class="nav-top-link">Secular</a>
+                <a href="/history-timeline" class="nav-top-link">History</a>
+                <a href="/analogies-illustrations" class="nav-top-link">Analogies</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="mega-menu" id="megaMenu"></div>
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <main id="main-content">
+        <article>
+            <div class="page-hero">
+                <span class="category-badge">Debate</span>
+                <h1>The Great Debate: Does Man Have Free Will?</h1>
+            </div>
+
+            <div class="opening-hook">
+                "For two thousand years, the brightest minds in Christianity have fought over a single question: when you said 'yes' to God, was that your doing — or His? What follows is not a summary. It is the debate itself. Two positions. Their strongest arguments. Their honest weaknesses. And a verdict that lets the text speak."
+            </div>
+
+            <!-- POSITION A: OPENING STATEMENT -->
+            <section class="debate-section position-a">
+                <h2>
+                    <span class="position-badge">Position A</span>
+                    The Case for Libertarian Free Will — Opening Statement
+                </h2>
+
+                <p>God gave you a genuine choice. Not an illusion. Not a predetermined puppet show where your "choice" is scripted. A <em>real</em> alternative possibility—the ability to say yes to Christ or to say no, and the outcome genuinely hangs on <em>your</em> decision.</p>
+
+                <p>This is what Scripture teaches. Jesus himself invites all people without exception:</p>
+
+                <div class="scripture-quote">
+                    "Come to me, all you who are weary and burdened, and I will give you rest."
+                    <span class="verse-ref">Matthew 11:28</span>
+                </div>
+
+                <p>That's not predestined. That's an invitation to choose. Jesus in Revelation makes the offer explicit and personal:</p>
+
+                <div class="scripture-quote">
+                    "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me."
+                    <span class="verse-ref">Revelation 3:20</span>
+                </div>
+
+                <p>The word is "anyone"—not just the elect. The image is crystal clear: Jesus knocks; <em>you</em> open the door. That's real agency.</p>
+
+                <div class="key-argument">
+                    <strong>The Love Argument:</strong> A God who does not give genuine choice is not the God described in Scripture. Grace is a gift that can be accepted or rejected. Forced love is not love. A salvation that depends on your resistance being overcome—that depends on your will being violated—is not salvation into a loving relationship. It's coercion dressed in theology.
+                </div>
+
+                <p>And consider the moral foundation: how can you be guilty for your sin if you never had the genuine ability to choose otherwise? Romans 1:20 says humanity is "without excuse." But if your nature makes sin inevitable—if you were created dead in sin and unable to choose life—how is that just? How do you stand guilty before God if your will was bound from birth?</p>
+
+                <p>This is what Arminius and the Arminian tradition recovered: <em>prevenient grace</em>—God's enabling grace that goes before every person, restoring to all of us the capacity to choose. God doesn't force our hand. He extends His hand, and we choose whether to take it.</p>
+
+                <div class="theologian-quote">
+                    "Grace is but another name for the goodness of God when it is seen as working in time... It is not irresistible; the creature may resist it."
+                    <span class="source">Jacob Arminius</span>
+                </div>
+
+                <p>God foreknew who would believe before the foundation of the world. But He didn't <em>cause</em> that belief. He simply saw in advance which hearts would turn toward Him when offered genuine freedom. Election is not arbitrary—it rests on God's knowledge of the choices people would make.</p>
+
+                <p>The alternative—predetermining every spiritual choice—makes evangelism absurd. Why command men to repent if repentance is predetermined? Why tell the dead to rise if they have no power to move?</p>
+
+                <div class="scripture-quote">
+                    "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+                    <span class="verse-ref">John 3:16</span>
+                </div>
+
+                <p>"Whoever"—that's everyone. And belief is an act <em>you</em> perform. God does not believe for you. You respond. Your choice matters.</p>
+            </section>
+
+            <!-- POSITION B: OPENING STATEMENT -->
+            <section class="debate-section position-b">
+                <h2>
+                    <span class="position-badge">Position B</span>
+                    The Case for Biblical Sovereignty — Opening Statement
+                </h2>
+
+                <p>The God of Scripture is not a passive observer hoping you'll choose Him. He is the one who calls, the one who draws, the one who regenerates. Your salvation is not a joint venture. It is His work, secured by His faithfulness, guaranteed by His will.</p>
+
+                <p>Start with the plainest statement in Scripture about the human will and its capacity for spiritual choice:</p>
+
+                <div class="scripture-quote">
+                    "As for you, you were dead in your transgressions and sins... But because of his great love for us, God, who is rich in mercy, made us alive with Christ even when we were dead in our transgressions."
+                    <span class="verse-ref">Ephesians 2:1-5</span>
+                </div>
+
+                <p><em>Dead</em>. Not sick. Not weakened. Not lacking resources. Dead. A corpse cannot choose life. A dead man cannot open a door. The metaphor is unambiguous: before regeneration, before God makes us alive, we are incapable of the spiritual choice that leads to salvation.</p>
+
+                <p>Jesus Himself taught this:</p>
+
+                <div class="scripture-quote">
+                    "No one can come to me unless the Father who sent me draws him, and I will raise him up at the last day."
+                    <span class="verse-ref">John 6:44</span>
+                </div>
+
+                <p>The Greek word is <em>helkuo</em>—to draw, to drag, to pull. Not to invite. Not to offer. Not to knock and wait. To draw. The Father's drawing is not merely persuasive; it is effectual. Those drawn come. All who are given to the Son come to the Son. And the Son loses none of them.</p>
+
+                <p>Election is not based on foreseen faith. It is the basis of faith:</p>
+
+                <div class="scripture-quote">
+                    "For those God foreknew he also predestined to be conformed to the image of his Son... And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
+                    <span class="verse-ref">Romans 8:29-30</span>
+                </div>
+
+                <p>This is an unbroken chain. Foreknowledge leads to predestination. Predestination leads to calling. Calling leads to justification. Justification leads to glorification. Not one link is conditional on human choice; each link is God's act, and the chain is unbreakable.</p>
+
+                <div class="key-argument">
+                    <strong>The Assurance Argument:</strong> Your salvation depends entirely on God's character and God's faithfulness—not on your continued good choices. You cannot lose what God has determined. Your faith is not the foundation of your salvation; God's decree is. That is unshakeable security. Your feelings will waver. Your resolve will weaken. But God's will does not waver. His grace does not weaken. <em>That</em> is why we can say Jesus lost none of those given to Him.
+                </div>
+
+                <p>Paul anticipated the objection that would arise from Position A. And he did not give their answer:</p>
+
+                <div class="scripture-quote">
+                    "One of you will say to me: 'Then why does God still blame us? For who resists his will?' But who are you, O man, to talk back to God?"
+                    <span class="verse-ref">Romans 9:19-20</span>
+                </div>
+
+                <p>The objection is exactly what libertarian free will would raise: "If God has predetermined all things, I have no free will, and therefore I cannot be held responsible." Paul does <em>not</em> answer: "Ah, but you do have free will." He says something far more profound: "That question proceeds from a misunderstanding of what responsibility means and what justice is."</p>
+
+                <p>Genuine human choice exists. You choose. Your choices are real. But they operate within the bounds of your <em>nature</em>. An unregenerate person chooses sin as reliably as a grapevine produces grapes—not because choice is absent, but because that's what unregenerate nature does. The regenerate person chooses Christ as reliably as a redeemed nature chooses—not because the choice is coerced, but because that is what a regenerated will desires.</p>
+
+                <div class="theologian-quote">
+                    "Man's will is always free, yet it is also always enslaved to the nature of which it is the will. When man sins, he sins willingly. But he sins willingly because his will is enslaved to his sinful nature."
+                    <span class="source">Augustine of Hippo</span>
+                </div>
+
+                <p>This is not robbery of human dignity. It is its exaltation. God saw you before the foundation of the world and chose you. Not because you deserved it. Not because He knew you'd be good enough. He chose you unconditionally, and He will finish what He started in you.</p>
+
+                <p>That is the God of Scripture.</p>
+            </section>
+
+            <!-- REBUTTAL A -->
+            <section class="debate-section position-a">
+                <h2>
+                    <span class="position-badge">Position A</span>
+                    Rebuttal — The Sovereignty Texts Are Compatible With Free Will
+                </h2>
+
+                <p>Position B has given us powerful texts. But the texts need reading, not merely quoting. The Apostle Paul was a careful writer. He knew exactly what words to use. And when he wanted to say something is predetermined, he uses <em>different</em> language than when he describes genuine human choice.</p>
+
+                <p>Take John 6:44—"No one can come to me unless the Father draws him." The Arminian reading: the Father's drawing of <em>some</em> is irresistible. But read the verse in context:</p>
+
+                <div class="scripture-quote">
+                    "It is written in the Prophets: 'They will all be taught by God.' Everyone who has heard the Father and learned from him comes to me."
+                    <span class="verse-ref">John 6:45</span>
+                </div>
+
+                <p>Note the structure: taught by God, <em>and</em> learns <em>from</em> Him, <em>then</em> comes to Him. These are distinct acts. The drawing is the revelation of truth. Learning is the soul's reception. Coming is the will's response. The Father draws all people through His written word (John 1:1-3 shows His word goes to all creation). Some learn. Some come. Some do not.</p>
+
+                <p>As for Ephesians 2:1-5—yes, we are dead in sins. But the point of deadness is not inability to choose; it is inability to <em>merit</em> grace. We are dead in our condition, our guilt, our estrangement. But the Father does not regenerate the unwilling. He offers life to the dead. They may still refuse it.</p>
+
+                <div class="key-argument">
+                    <strong>The "Foreknew" Distinction:</strong> Romans 8:29 says God "foreknew" His people. In Greek, <em>proginosko</em> means "to know beforehand." It does not mean "to cause beforehand" or "to predestine beforehand." God's omniscience is different from God's causation. God knows in advance what you will choose—because He exists outside time and sees all times at once—but His knowledge does not <em>cause</em> your choice. To conflate knowledge with causation is to confuse two different categories.
+                </div>
+
+                <p>And regarding Romans 9—yes, Paul says it is not about works or willing. But he does not say it is <em>exclusively</em> about God's will. The entire chapter must be read together. Yes, God has mercy on whom He wants (9:18). But Paul is speaking of <em>corporate</em> destiny—Israel as a nation, the church as a body. God's purposes for nations and ages are not the same as His purposes for individual souls. God can ordain that the gospel will come to all nations without ordaining that every individual will respond to it.</p>
+
+                <p>Paul himself uses the language of genuine possibility in contexts of salvation:</p>
+
+                <div class="scripture-quote">
+                    "Here is a trustworthy saying that deserves full acceptance: Christ Jesus came into the world to save sinners—of whom I am the worst."
+                    <span class="verse-ref">1 Timothy 1:15</span>
+                </div>
+
+                <p>"Sinners"—not "the elect sinners." Not "those whom God has irresistibly drawn." Just sinners. Humanity. And the gospel promise is to all of them.</p>
+
+                <p>The fact that some refuse does not mean the offer was not real. It means they made a choice.</p>
+            </section>
+
+            <!-- REBUTTAL B -->
+            <section class="debate-section position-b">
+                <h2>
+                    <span class="position-badge">Position B</span>
+                    Rebuttal — The "Whosoever" Texts Do Not Teach Libertarian Free Will
+                </h2>
+
+                <p>Position A appeals to texts like John 3:16 ("whoever believes") and argues these prove universal opportunity and human choice. But they have not reckoned with what Scripture says about who is able to believe.</p>
+
+                <p>Yes, John 3:16 says "whoever believes." But let's read what Scripture says about who <em>can</em> believe:</p>
+
+                <div class="scripture-quote">
+                    "However, as it is written: 'No eye has seen, no ear has heard, no mind has conceived what God has prepared for those who love him'—but God has revealed it to us by his Spirit... The person without the Spirit does not accept the things of the Spirit of God, for they are foolishness to him, and he cannot understand them because they are spiritually discerned."
+                    <span class="verse-ref">1 Corinthians 2:9-14</span>
+                </div>
+
+                <p>The unregenerate person <em>cannot</em> accept spiritual things. Not "won't." Not "refuses." <em>Cannot.</em> It is not a matter of options presented and a choice made. It is an incapacity. This is not about knowledge. The Spirit-less person may hear the gospel. He may hear it perfectly clearly. But he cannot receive it spiritually because he lacks the Spirit.</p>
+
+                <p>Position A says "God's drawing of some is resistible." But Scripture says:</p>
+
+                <div class="scripture-quote">
+                    "No one can come to me unless the Father who sent me draws him, and I will raise him up at the last day... It is written in the Prophets: 'They will all be taught by God.' Everyone who has heard the Father and learned from him comes to me."
+                    <span class="verse-ref">John 6:44-45</span>
+                </div>
+
+                <p>Jesus does not say "Whoever is drawn <em>may</em> come." He says "whoever is drawn <em>comes</em>." This is not grammatically open to the Arminian reading. The one drawn comes. That is the structure of the sentence and the promise of the Lord.</p>
+
+                <p>What about 1 Timothy 2:4 and 2 Peter 3:9—"God desires all to be saved"? Position A marshals these texts to prove universalism. But desire and design are not the same thing. God desires the destruction of no one—His wish is their repentance. But His decretive will (what He has determined to bring to pass) is not the same as His preceptive will (what He commands and desires). A parent may desire his child to always obey, but he decrees that the child will rebel—and the child's rebellion serves a greater purpose in the parent's plan.</p>
+
+                <div class="key-argument">
+                    <strong>The Nature Argument:</strong> Your nature determines what you will choose. An unregenerate nature, left to itself, will always choose sin. A regenerate nature will always choose Christ. This is not robot-hood; this is the deepest kind of authenticity. You choose according to your nature. The question is: what <em>is</em> your nature? That is determined by God's regenerating grace. Once regenerate, you choose Christ freely—not despite your nature, but because of it. That is a far more coherent account of human choice than one that says your will is somehow independent of your nature.
+                </div>
+
+                <p>And on the corporate vs. individual distinction raised by Position A: Scripture does not support it. Paul is speaking of individuals in Romans 9. He quotes Malachi ("Jacob I loved, Esau I hated") in reference to two individual persons. The predestination of individuals to salvation is inescapable in these texts.</p>
+
+                <p>Finally, on "foreknew" vs. "predestined": Position A has invoked a distinction that Paul himself does not make. In Romans 8:29-30, the chain is tight: foreknew → predestined → called → justified → glorified. Each term flows from the prior one. Foreknowledge does not stand alone as mere passive knowledge; it is the basis of active predestination. God's knowledge of future events is not passive observation; it is knowledge of events He ordains.</p>
+
+                <p>The God who "foreknew" is the same God whose will cannot be resisted.</p>
+            </section>
+
+            <!-- CROSS EXAMINATION -->
+            <section class="cross-exam">
+                <h2>Cross-Examination: The Hardest Questions</h2>
+
+                <p><strong>Position A's Most Challenging Questions to Position B:</strong></p>
+
+                <div class="qa-block">
+                    <div class="question">1. "If God has predestined who will be saved and who will be damned, how is God just in condemning those He did not choose?"</div>
+                    <div class="answer">Position B's response: Scripture does not shy from this question (Romans 9:14-24). The answer is not that God is unjust, but that justice is defined differently than Position A assumes. God owes no one salvation. He owes all of us judgment. That He saves any at all is mercy. The reprobate receive what they deserve (justice). The elect receive what they do not deserve (mercy). The combination is just, not unjust.</div>
+                </div>
+
+                <div class="qa-block">
+                    <div class="question">2. "If faith is irresistibly given by God, are we not robots? Where is human agency?"</div>
+                    <div class="answer">Position B's response: Robots lack will. You have a will. You choose. But you choose according to your nature. The elect choose Christ freely—not against their will, but with their will, because their regenerated will desires Him. This is not robotry; this is the deepest authenticity. You become most fully yourself when your will is aligned with truth and goodness. To make human dignity depend on the ability to choose contrary to your own good is a twisted view of freedom.</div>
+                </div>
+
+                <div class="qa-block">
+                    <div class="question">3. "Why does God command repentance if repentance is predetermined? Why issue imperatives to the dead if they cannot respond?"</div>
+                    <div class="answer">Position B's response: Because the command itself is part of how God accomplishes the predetermined end. God does not predestine the end without predestining the means. God uses the preached word (including imperatives) to bring His elect to repentance. The command is not meaningless; it is the instrument through which God's decree is fulfilled. Moreover, the command holds all people accountable regardless of predestination. You are commanded to repent. That you are predestined to do so does not erase the command; it secures that you will obey it.</div>
+                </div>
+
+                <p style="margin-top: 3rem;"><strong>Position B's Most Challenging Questions to Position A:</strong></p>
+
+                <div class="qa-block">
+                    <div class="question">1. "If you were dead in sin (Ephesians 2:1), how did you choose life? How does a corpse choose to rise?"</div>
+                    <div class="answer">Position A's response: The deadness of sin is metaphorical—it describes the spiritual condition of separation from God, not an absolute inability to respond. Just as a person physically dead cannot move, a person spiritually dead cannot merit God's favor. But grace comes to the dead and offers life. The offer is real. The choice is real. Some hear and choose. Some hear and refuse.</div>
+                </div>
+
+                <div class="qa-block">
+                    <div class="question">2. "If your election is based on your foreseen faith, who gets the ultimate credit for your salvation—you or God?"</div>
+                    <div class="answer">Position A's response: Both, in their proper spheres. God is the author of grace. You are the receiver of grace. God does 99% of the work. But He does not do 100%—He does not believe for you. You respond. Your response is the condition of your election. But the ability to respond is also God's gift (prevenient grace). The credit belongs to God for making your response possible, and to you for actually responding. This is not a 50/50 division; it is a cooperative relationship in which God is sovereign and you are genuinely responsible.</div>
+                </div>
+
+                <div class="qa-block">
+                    <div class="question">3. "If your salvation depends on your continued free choice, how can you have assurance? Won't you eventually choose wrongly and lose your salvation?"</div>
+                    <div class="answer">Position A's response: Classical Arminianism distinguishes between the possibility of apostasy and the likelihood of apostasy. Yes, theoretically, one could turn away. But God gives us persevering grace—grace that sustains us throughout our lives. Those who truly receive Christ are preserved in faith through God's ongoing grace. The assurance lies not in the inability to fall away, but in God's promise to sustain those who trust Him. Once truly converted, our will becomes conformed to God's will, and we choose Christ not once, but continually. That is genuine assurance.</div>
+                </div>
+            </section>
+
+            <div class="humor-break">
+                "At this point in the debate, both sides have referenced more than two millennia of theological scholarship, sparred over Greek grammar, invoked Augustine and Arminius, and somehow still arrived at their original positions. This should not surprise us. Great Christians have disagreed on this question across centuries. What unites them is infinitely more important than what divides them. But don't let that stop you from thinking hard about which side has the better argument."
+            </div>
+
+            <!-- CLOSING ARGUMENTS -->
+            <section class="closing-arg position-a">
+                <h3>Closing Argument — Position A: Libertarian Free Will</h3>
+
+                <p>We have been given a rational God and an intelligible world. When Scripture tells us God is just, that means something. Punishing a being for choices that being could not avoid is not justice by any definition. It is tyranny.</p>
+
+                <p>The Arminian view preserves both God's sovereignty <em>and</em> human responsibility. God foreknew all things. God's plans will come to pass. But God is not the author of sin. God does not determine every choice. He has given humanity a genuine will, and He has given enough grace for any person to respond to the gospel. That grace is resistible, but it is not weak—it is so powerful that it restores the capacity for genuine response.</p>
+
+                <p>This is the God of love. This is the God who stands outside your door and knocks, who invites you to come and drink, who extends His hand and waits for you to take it. Your choice matters. Your "yes" to Christ is your choice—enabled by grace, but truly yours. And that makes your salvation not a divine gift only, but the fulfillment of the deepest longing of your redeemed will.</p>
+
+                <p>Election is certain because God knows the future. Salvation is universal in offer because God desires all people to be saved. And human freedom is preserved because God, in His infinite wisdom, has constructed a world in which His will is accomplished through human choice, not despite it.</p>
+            </section>
+
+            <section class="closing-arg position-b">
+                <h3>Closing Argument — Position B: Biblical Sovereignty</h3>
+
+                <p>We have been given a text. Not a philosophy. Not a logical system. A text. And when we read that text without our presuppositions, we find this: God saves. God chose. God draws. God regenerates. God keeps.</p>
+
+                <p>The language of Scripture on these points is not equivocal. It is plain. "All that the Father gives me will come to me" (John 6:37). "He chose us before the foundation of the world" (Ephesians 1:4). "God made us alive" (Ephesians 2:5). "It is not of him who wills or of him who runs, but of God who shows mercy" (Romans 9:16).</p>
+
+                <p>This is not a God who stands outside your door hoping you'll let Him in. This is God who breaks into your deadness and makes you alive. This is a God whose purposes cannot be thwarted. This is a God on whom your salvation rests entirely, not partly.</p>
+
+                <p>And far from diminishing human responsibility, this <em>secures</em> it. When you choose Christ, you choose as one who has been regenerated by the Spirit. That choice is the expression of a new nature, a redeemed will. You are not robots—you are new creatures, and your choices flow from the newness you have become by God's power.</p>
+
+                <p>The heresy is not that God ordains all things. The heresy is that salvation could depend on the frailty of human will—that you could earn your own redemption by managing to make the right choice in the teeth of your own spiritual deadness. Your security rests on God. Your assurance flows from His faithfulness. Your freedom is the freedom of the redeemed—free from sin, free for righteousness, free to love Christ because He first loved you with an everlasting love.</p>
+
+                <p>This is the God of Scripture. This is the God who saves.</p>
+            </section>
+
+            <!-- THE VERDICT -->
+            <section class="verdict">
+                <h2>The Verdict: What the Text Actually Says</h2>
+
+                <p>Both positions have articulated their cases with intelligence and sincerity. Both appeal to Scripture. Both claim fidelity to the tradition. But one side reads the text more faithfully than the other.</p>
+
+                <p><strong>The decisive question is not philosophical. It is grammatical.</strong></p>
+
+                <p>When Scripture says the unregenerate are "dead in sin," Position A must read that as metaphorical—dead in moral condition, but with the capacity to choose life. Position B reads it literally—dead as the controlling image, which requires resurrection before genuine spiritual response becomes possible. The text does not waver on this: "alive with Christ" (Ephesians 2:5), "raised with him" (Colossians 3:1). The language of resurrection is not rhetorical flourish. It describes a real transformation that must precede saving faith.</p>
+
+                <p>When Scripture says "no one can come to me unless the Father draws him," Position A reads "draw" as invitation. Position B reads it as the effectual drawing of the Father that brings the drawn to Christ. The Greek allows both readings on the lexical level. But the immediate context settles it: "everyone who has heard the Father and learned from him comes to me." Not <em>may</em> come. <em>Comes.</em> The result is certain.</p>
+
+                <p>When Scripture establishes the logical chain of Romans 8:29-30—foreknew → predestined → called → justified → glorified—Position A must insert the condition "based on foreseen faith" between foreknowledge and predestination. But the text makes no such insertion. Paul establishes an unbroken chain. Position B takes the text at face value: the chain is complete and unbroken because each link is God's act.</p>
+
+                <p>Here is the critical test: <strong>Paul addresses the objection that libertarian free will would raise, and he does not give the libertarian answer.</strong></p>
+
+                <div class="scripture-quote">
+                    "One of you will say to me: 'Then why does God still blame us? For who resists his will?' But who are you, O man, to talk back to God? Does not the potter have the right to make out of the same lump of clay some pottery for noble purposes and some for common use?"
+                    <span class="verse-ref">Romans 9:19-21</span>
+                </div>
+
+                <p>If Paul's doctrine were compatible with libertarian free will, the objection would never arise. A person with libertarian free will could resist God's will and bear responsibility for that resistance. But Paul does not say: "Oh, but you <em>do</em> have free will, and that's how God's blame is just." Instead, he reframes the entire question. The problem is not with the doctrine of predestination; the problem is with the human questioner's assumption about what justice requires.</p>
+
+                <p>Paul's answer is only intelligible if predestination is what Position B claims: God's determination of all things, including the will of His creatures. The objection arises because the doctrine removes the ground on which libertarian free will stands. Paul does not reinstate that ground. He deconstructs the question itself.</p>
+
+                <p><strong>On the "whosoever" texts:</strong> Position A is right that universal language appears in Scripture. But universal language does not prove universal capability. When Jesus says "whoever believes," He is stating the condition of salvation. But condition and capability are not synonymous. The condition is faith. But the capacity for faith is not given universally—it is given to those whom the Father draws, whom He regenerates, whom He gives to the Son. The universality of the invitation does not negate the particularity of the capability.</p>
+
+                <p><strong>The integrity test:</strong> Which position can hold together all the texts without editorial insertion? Position B can read every text as it stands. The dead are raised to life. The Father draws and those drawn come. Election is unconditional. Salvation is by God's mercy, not by human will. The texts cohere. Position A must insert qualifications ("based on foreseen faith," "prevenient grace that restores capacity") that the text itself does not state. This is not to say these insertions are false—it is to say they are not present in the text and require extrabiblical philosophy to justify them.</p>
+
+                <p><strong>What this verdict does not mean:</strong> It does not mean Position A's adherents lack genuine faith. It does not mean their salvation is less secure or their hearts less devoted. God's truth is larger than theological systems. What it means is that Position B has the weight of Scripture—not merely prooftexts, but the cumulative witness of the entire New Testament.</p>
+
+                <p><strong>And the deepest irony:</strong> Position A fears that unconditional election diminishes human dignity. But the opposite is true. That God chose <em>you</em>—not because you were good enough, not because He foresaw your faith, not because you possessed some excellence He detected in advance—that He chose you unconditionally, purely because of His love and mercy, is the exaltation of human dignity to its highest point.</p>
+
+                <p>You are not saved because you succeeded. You are saved because God loved you. That is the verdict of Scripture. And it is the most beautiful verdict a trembling heart could receive.</p>
+            </section>
+
+            <!-- FURTHER READING -->
+            <section class="further-reading">
+                <h3>Further Reading on This Question</h3>
+                <ul>
+                    <li><a href="/question-freewill">Do We Have Free Will? The Question That Launches a Thousand Theologies</a></li>
+                    <li><a href="/objection-why-command">If God Predestines All Things, Why Does He Command Us to Repent?</a></li>
+                    <li><a href="/psychology-autonomy-illusion">The Autonomy Illusion: Why We Think We Choose What We Choose</a></li>
+                    <li><a href="/question-romans9">Romans 9: Is God Unjust? The Hardest Chapter in Scripture</a></li>
+                    <li><a href="/systematic-compatibilism">Compatibilism Explained: How Divine Sovereignty and Human Choice Coexist</a></li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer style="border-top: 1px solid rgba(232,100,44,0.15); padding: 3rem 2rem; text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+        <p style="margin-bottom: 0.5rem;">&copy; 2026 Adopted by Grace &mdash; <a href="/about" style="color: var(--accent-violet); text-decoration: none;">About</a> &bull; <a href="/questions" style="color: var(--accent-violet); text-decoration: none;">All Questions</a></p>
+        <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.1em; color: var(--text-muted);">Soli Deo Gloria</p>
+    </footer>
+
+    <script>
+        // Reading progress bar
+        window.addEventListener('scroll', function() {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            document.querySelector('.reading-progress').style.width = scrollPercent + '%';
+        });
+
+        // Smooth scroll for further reading links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+    <script src="/nav.js"></script>
+</body>
+</html>

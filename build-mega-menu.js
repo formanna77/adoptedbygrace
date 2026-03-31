@@ -153,7 +153,7 @@ const CATEGORIES = [
     icon: '🛡',
     hub: '/apologetic-evangelism',
     desc: 'Defending and commending the faith',
-    prefixes: ['apologetic'],
+    prefixes: ['apologetic', 'debate'],
   },
   {
     key: 'creeds',

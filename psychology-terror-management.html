@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Terror Management Theory explains why God's sovereignty triggers existential dread. 500+ experiments confirm Becker's thesis—and Scripture predicted it two thousand years ago.">
+    <meta name="keywords" content="terror management theory, Ernest Becker, mortality salience, existential dread, sovereignty, death anxiety, immortality project, Reformed theology, psychology of resistance">
+    <meta property="og:title" content="Terror Management and the Threat of Sovereignty: Why God's Control Feels Like Death — Adopted by Grace">
+    <meta property="og:description" content="Existential psychology explains why unconditional election triggers dread. Scripture predicted this terror—and holds the only cure.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/psychology-terror-management">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-psychology.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Terror Management and the Threat of Sovereignty — Adopted by Grace">
+    <meta name="twitter:description" content="Existential psychology explains why unconditional election triggers dread. Scripture predicted this terror—and holds the only cure.">
+    <link rel="canonical" href="https://adoptedbygrace.net/psychology-terror-management">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Terror Management and the Threat of Sovereignty — Adopted by Grace</title>
+
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #6b6661;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Reading Progress Bar */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold) 0%, var(--accent-ember) 50%, var(--accent-violet) 100%);
+            z-index: 1000;
+            width: 0%;
+            transition: width 0.1s ease-out;
+        }
+
+        /* Skip to content link */
+        .skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--accent-gold);
+            color: var(--bg-deep);
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            z-index: 100;
+        }
+
+        .skip-to-content:focus {
+            top: 0;
+        }
+
+        /* Psychology Visual Identity */
+        .page-hero {
+            position: relative;
+            padding: 10rem 2rem 5rem;
+            text-align: left;
+            max-width: 900px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 30% 40%, rgba(232, 100, 44, 0.08) 0%, transparent 60%),
+                        radial-gradient(ellipse at 80% 20%, rgba(139, 92, 246, 0.05) 0%, transparent 40%);
+            pointer-events: none;
+        }
+
+        .hero-eyebrow {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            letter-spacing: 0.15em;
+            color: var(--accent-ember);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .page-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            line-height: 1.15;
+            color: var(--text-primary);
+            font-weight: 900;
+        }
+
+        .page-hero h1 .gold {
+            color: var(--accent-gold);
+        }
+
+        .page-hero h1 .ember {
+            color: var(--accent-ember);
+        }
+
+        .page-hero .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 650px;
+            margin-top: 1.5rem;
+            line-height: 1.7;
+        }
+
+        .read-time {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-top: 1.5rem;
+        }
+
+        /* Main content area */
+        .content-body {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+        }
+
+        .content-body p {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .content-body strong {
+            color: var(--text-primary);
+        }
+
+        /* Section Headers with Numbers */
+        .section-number {
+            display: inline-block;
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--accent-ember);
+            opacity: 0.15;
+            margin-right: 1rem;
+            line-height: 1;
+        }
+
+        .content-body h2 {
+            position: relative;
+            padding-left: 4rem;
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.75rem, 5vw, 2.5rem);
+            color: var(--text-primary);
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            font-weight: 800;
+        }
+
+        .content-body h2 .section-number {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .content-body h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--text-primary);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        /* Mechanism Card */
+        .mechanism-card {
+            background: rgba(232, 100, 44, 0.05);
+            border: 1px solid rgba(232, 100, 44, 0.15);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .mechanism-card h4 {
+            color: var(--accent-ember);
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .mechanism-card .research-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--accent-violet);
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .mechanism-card p {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .mechanism-card .research-cite {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 1rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid rgba(232, 100, 44, 0.1);
+        }
+
+        /* Scripture-Science Pairing */
+        .pairing-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+            align-items: stretch;
+        }
+
+        @media (max-width: 768px) {
+            .pairing-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .pairing-science,
+        .pairing-scripture {
+            padding: 1.5rem;
+            border-radius: 6px;
+        }
+
+        .pairing-science {
+            border-left: 3px solid var(--accent-violet);
+            background: rgba(139, 92, 246, 0.04);
+        }
+
+        .pairing-scripture {
+            border-left: 3px solid var(--accent-gold);
+            background: rgba(212, 162, 84, 0.04);
+        }
+
+        .pairing-science h4,
+        .pairing-scripture h4 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .pairing-science h4 {
+            color: var(--accent-violet);
+        }
+
+        .pairing-scripture h4 {
+            color: var(--accent-gold);
+        }
+
+        .pairing-science p,
+        .pairing-scripture p {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+
+        /* Pull Quotes */
+        .pull-quote-container {
+            margin: 3rem 0;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.1) 0%, rgba(139, 92, 246, 0.05) 100%);
+            border-left: 4px solid var(--accent-gold);
+            border-radius: 4px;
+            position: relative;
+        }
+
+        .pull-quote-container::before {
+            content: '\201C';
+            position: absolute;
+            top: -10px;
+            left: 10px;
+            font-size: 4rem;
+            color: var(--accent-ember);
+            opacity: 0.3;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .pull-quote {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            line-height: 1.7;
+            color: var(--text-primary);
+            font-style: italic;
+            margin: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .pull-quote-author {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+            font-style: normal;
+            text-align: right;
+        }
+
+        /* Irony Box */
+        .irony-box {
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border: 2px solid rgba(232, 100, 44, 0.3);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 3rem 0;
+        }
+
+        .irony-box h3 {
+            color: var(--accent-ember);
+            margin-top: 0;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+        }
+
+        .irony-box p {
+            color: var(--text-primary);
+            line-height: 1.8;
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Scripture Quote */
+        .scripture-quote {
+            border-left: 4px solid var(--accent-gold);
+            padding-left: 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: var(--text-primary);
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .scripture-ref {
+            display: block;
+            font-style: normal;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+        }
+
+        /* Pastoral address */
+        .pastoral-address {
+            background: rgba(212, 162, 84, 0.06);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            border-radius: 8px;
+            padding: 2.5rem;
+            margin: 3rem 0;
+        }
+
+        .pastoral-address h3 {
+            color: var(--accent-gold);
+            margin-top: 0;
+        }
+
+        .pastoral-address p {
+            line-height: 1.9;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        /* Card Grid for Further Reading */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .card {
+            background: rgba(232, 100, 44, 0.05);
+            border: 1px solid rgba(232, 100, 44, 0.12);
+            border-radius: 8px;
+            padding: 2rem;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-gold);
+            background: rgba(232, 100, 44, 0.08);
+            box-shadow: 0 12px 32px rgba(232, 100, 44, 0.12);
+        }
+
+        .card h3 {
+            color: var(--accent-gold);
+            margin-top: 0;
+            margin-bottom: 0.75rem;
+            font-size: 1.15rem;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            flex-grow: 1;
+            margin-bottom: 1rem;
+        }
+
+        .card-arrow {
+            color: var(--accent-ember);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        /* Theology Humor */
+        .theology-humor {
+            background: rgba(212, 162, 84, 0.04);
+            border-left: 3px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Experiment Box */
+        .experiment-box {
+            background: rgba(139, 92, 246, 0.04);
+            border: 1px solid rgba(139, 92, 246, 0.15);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 6px;
+        }
+
+        .experiment-box .label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--accent-violet);
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            margin-bottom: 0.75rem;
+            display: block;
+            font-weight: 600;
+        }
+
+        .experiment-box h4 {
+            color: var(--text-primary);
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .experiment-box p {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+
+        /* Theologian Quotes Grid */
+        .theologian-quotes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 3rem 0;
+        }
+
+        .quote-block {
+            border-left: 3px solid var(--accent-violet);
+            padding: 1rem;
+            background: rgba(139, 92, 246, 0.03);
+            border-radius: 4px;
+        }
+
+        .quote-block p {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .quote-block .author {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--accent-violet);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* Lists */
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.9;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(232, 100, 44, 0.15);
+            padding: 3rem 2rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        footer a {
+            color: var(--accent-violet);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .soli-deo {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+        }
+    </style>
+
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <div class="reading-progress"></div>
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+    <!-- NAV -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
+                <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">History</a></li>
+                <li class="mobile-nav-link"><a href="/analogies-illustrations">Analogies</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/devotionals" class="nav-top-link">Devotionals</a>
+                <a href="/stories" class="nav-top-link">Stories</a>
+                <a href="/secular-evidence" class="nav-top-link">Secular</a>
+                <a href="/history-timeline" class="nav-top-link">History</a>
+                <a href="/analogies-illustrations" class="nav-top-link">Analogies</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="mega-menu" id="megaMenu"></div>
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <div class="page-hero">
+        <span class="hero-eyebrow">Psychology of Resistance</span>
+        <h1>Terror Management and the <span class="ember">Threat</span> of <span class="gold">Sovereignty</span></h1>
+        <p class="subtitle">Why God's control feels like losing your identity—and why that terror is actually the door to freedom.</p>
+        <p class="read-time">Read time: 8–10 minutes</p>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content" class="content-body">
+        <p>
+            In 1973, a cultural anthropologist named <strong>Ernest Becker</strong> won the Pulitzer Prize for a book called <em>The Denial of Death</em>. His thesis was stark: every civilization, every religion, every war, every work of art, every moral system—all of it is ultimately driven by one primal force: the terror of death.
+        </p>
+
+        <p>
+            Forty years later, over 500 controlled experiments have confirmed Becker's hypothesis. What started as a controversial theory is now established science. And buried inside this research is something that matters urgently to you: <strong>a scientific explanation for why you flinch when someone says God chose you before you were born.</strong>
+        </p>
+
+        <!-- Section 1: Terror Management Theory -->
+        <h2><span class="section-number">1</span>Terror Management Theory (TMT)</h2>
+
+        <p>
+            Becker's work was expanded by a team of social psychologists in the 1980s: <strong>Sheldon Solomon, Jeff Greenberg, and Tom Pyszczynski</strong>. They called their framework Terror Management Theory. Their core claim: humans are unique animals because we are aware of our own mortality. We know we will die.
+        </p>
+
+        <p>
+            This knowledge creates existential terror. To manage this terror, we construct what Becker called "immortality projects"—cultural belief systems that convince us our lives matter, that we've transcended death, that we've secured something permanent.
+        </p>
+
+        <div class="mechanism-card">
+            <h4>The Core Finding</h4>
+            <span class="research-label">Terror Management Theory (Solomon, Greenberg, Pyszczynski, 1986–present)</span>
+            <p>When mortality is made psychologically salient—when people are reminded of death—they cling much harder to their cultural worldview and become hostile to ideas that threaten it. And sovereignty <em>demolishes</em> the immortality project.</p>
+            <div class="research-cite">Solomon et al., 2015 meta-analysis of 400+ experiments</div>
+        </div>
+
+        <p>
+            Here's where this gets personal. <strong>Your immortality project looks like this: "I matter because of what I choose, what I do, what I achieve, what I believe."</strong> You earned your salvation through belief. You chose Jesus. Your decision matters. Your will is sovereign.
+        </p>
+
+        <p>
+            Then someone says: "God chose you before the foundation of the world. Your choice was never the deciding factor."
+        </p>
+
+        <p>
+            That's not just theology. That's an attack on your immortality project. And your brain responds with terror.
+        </p>
+
+        <div class="pairing-row">
+            <div class="pairing-science">
+                <h4>What Science Shows</h4>
+                <p>Mortality salience triggers existential anxiety, which causes people to defend their worldview more aggressively and become hostile to alternatives.</p>
+            </div>
+            <div class="pairing-scripture">
+                <h4>What Scripture Says</h4>
+                <p class="scripture-quote"><em>"So it depends not on human will or exertion, but on God who has mercy."</em> <span class="scripture-ref">Romans 9:16</span></p>
+            </div>
+        </div>
+
+        <!-- Section 2: Mortality Salience -->
+        <h2><span class="section-number">2</span>Mortality Salience and Worldview Defense</h2>
+
+        <p>
+            The experiments that confirm this are blunt and brilliant. Researchers simply ask people to <strong>think about their own death</strong> for a few minutes. Describe the pain. Imagine what happens to the body. Then the researchers measure what happens next.
+        </p>
+
+        <div class="experiment-box">
+            <span class="label">Classic Mortality Salience Experiment</span>
+            <h4>The Setup</h4>
+            <p>Half the participants write about death; the control group writes about something neutral. Afterward, both groups evaluate a stranger's worldview that differs from their own. Result: The death-primed group harshly judges the stranger's beliefs and rates them as more morally offensive.</p>
+        </div>
+
+        <p>
+            This happens automatically. You're not thinking: "I'm threatened by death, so I'll defend my beliefs harder." The threat bypasses your conscious mind. Your defenses simply rise.
+        </p>
+
+        <p>
+            Now apply this to sovereignty. Sovereignty doesn't explicitly mention death—but it implies something as terrifying: <strong>loss of control over your own destiny.</strong> You didn't choose to exist. God did. Your ultimate salvation was decided before you were conscious. You are not the author of your story.
+        </p>
+
+        <div class="pull-quote-container">
+            <p class="pull-quote">The terror of death and the terror of irrelevance are the same terror wearing different masks.</p>
+            <span class="pull-quote-author">Ernest Becker, adapted</span>
+        </div>
+
+        <div class="pairing-row">
+            <div class="pairing-science">
+                <h4>What Science Shows</h4>
+                <p>500+ experiments confirm: reminding people of death makes them defend their beliefs more aggressively and become hostile to worldview-threatening ideas.</p>
+            </div>
+            <div class="pairing-scripture">
+                <h4>What Scripture Says</h4>
+                <p class="scripture-quote"><em>"He destroyed the one who has the power of death, that is, the devil, and freed those who all their lives were held in slavery by the fear of death."</em> <span class="scripture-ref">Hebrews 2:14–15</span></p>
+            </div>
+        </div>
+
+        <!-- Section 3: Self-Esteem as Buffer -->
+        <h2><span class="section-number">3</span>Self-Esteem as the Anxiety Buffer</h2>
+
+        <p>
+            TMT proposes a specific mechanism for how immortality projects work: <strong>self-esteem.</strong> When you achieve something, when you make a good choice, when you succeed—your self-esteem rises. And mysteriously, so does your death anxiety buffer. You feel less afraid of death.
+        </p>
+
+        <p>
+            This is not poetic. This is neurological. Researchers have shown that boosting self-esteem—even with something trivial like telling someone they performed well on a test—reduces their physiological stress response when they're reminded of death.
+        </p>
+
+        <p>
+            Self-esteem functions as a buffer against the existential terror. And here's the problem with sovereignty:
+        </p>
+
+        <div class="mechanism-card">
+            <h4>Sovereignty Dismantles the Buffer</h4>
+            <span class="research-label">Self-Esteem & Death Anxiety (Greenberg et al., 1992)</span>
+            <p>Sovereignty says: "You don't matter because of what you do or choose or achieve. You matter because God chose you—not because you chose Him." This removes the entire foundation of the self-esteem buffer. You are cherished not for your merit, but despite your unworthiness.</p>
+            <div class="research-cite">Tested across multiple cultures and belief systems</div>
+        </div>
+
+        <div class="pairing-row">
+            <div class="pairing-science">
+                <h4>What Science Shows</h4>
+                <p>Self-esteem based on personal achievement buffers death anxiety. Remove the achievement-based foundation and the buffer collapses.</p>
+            </div>
+            <div class="pairing-scripture">
+                <h4>What Scripture Says</h4>
+                <p class="scripture-quote"><em>"By grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast."</em> <span class="scripture-ref">Ephesians 2:8–9</span></p>
+            </div>
+        </div>
+
+        <div class="theology-humor">
+            This page has not been predestined. (We checked.)
+        </div>
+
+        <!-- Section 4: The Immortality Project -->
+        <h2><span class="section-number">4</span>The Immortality Project</h2>
+
+        <p>
+            Becker's most powerful insight is this: <strong>the immortality project is not conscious.</strong> You don't wake up thinking, "Today I will deny my mortality through cultural worldview participation." Instead, you feel it as duty, morality, meaning, purpose.
+        </p>
+
+        <p>
+            What counts as an immortality project? Anything that symbolically transcends death:
+        </p>
+
+        <ul>
+            <li>Building a successful career so your name is remembered</li>
+            <li>Having children so your genes continue</li>
+            <li>Creating art so your creative spirit lives on</li>
+            <li>Religious performance so you "earn" eternal life</li>
+            <li>Moral achievement so you feel you "deserve" God's favor</li>
+            <li>A theological system where <em>you</em> are the deciding factor in your own salvation</li>
+        </ul>
+
+        <p>
+            All of these feel meaningful. All of them are ways of saying: "I matter. I won. I transcended death through my own agency."
+        </p>
+
+        <p>
+            Sovereignty says something terrifying: <strong>"You don't need an immortality project. God has already given you immortality."</strong> Not because you earned it. Not because you chose it. Because He decreed it before time existed.
+        </p>
+
+        <div class="pairing-row">
+            <div class="pairing-science">
+                <h4>What Science Shows</h4>
+                <p>Humans universally construct symbolic systems to transcend death. These systems feel deeply meaningful. Attacking them creates intense defensive reactions.</p>
+            </div>
+            <div class="pairing-scripture">
+                <h4>What Scripture Says</h4>
+                <p class="scripture-quote"><em>"He saved us and called us to a holy calling, not because of our works but because of his own purpose and grace, which he gave us in Christ Jesus before the ages began."</em> <span class="scripture-ref">2 Timothy 1:9–10</span></p>
+            </div>
+        </div>
+
+        <!-- Section 5: Close Relationship Partners -->
+        <h2><span class="section-number">5</span>Close Relationship Partners Under Mortality Threat</h2>
+
+        <p>
+            Here's a stunning finding from Israeli researcher <strong>Mario Mikulincer</strong> (2003): When mortality is made salient, people don't retreat into isolation. They seek out "close relationship partners"—people with whom they feel secure and known.
+        </p>
+
+        <p>
+            The terror of death is unbearable alone. We reach for relational connection.
+        </p>
+
+        <p>
+            Now here's the irony: <strong>Sovereignty offers the closest possible relationship partner imaginable.</strong> You are chosen before birth. You are known completely. You cannot be lost, rejected, or uncovered. You are held eternally. The relationship was decided by God Himself.
+        </p>
+
+        <p>
+            But it <em>feels</em> threatening because it removes your control. You cannot decide whether you're worthy of this relationship. You cannot perform your way into it. You simply are in it.
+        </p>
+
+        <div class="mechanism-card">
+            <h4>The Deepest Irony</h4>
+            <span class="research-label">Attachment Under Mortality Salience (Mikulincer, Florian, & Hirschberger, 2003)</span>
+            <p>Sovereignty offers the one relationship that can never be revoked, never depend on your performance, never be conditional on your continued achievement. It is the ultimate "close relationship partner." Yet it feels threatening because you did not choose it and cannot secure it through your own effort.</p>
+            <div class="research-cite">Tested across secure and anxious attachment styles</div>
+        </div>
+
+        <div class="pairing-row">
+            <div class="pairing-science">
+                <h4>What Science Shows</h4>
+                <p>Under mortality threat, people seek secure attachment. Yet they sabotage unconditional relationships because the lack of control feels unsafe.</p>
+            </div>
+            <div class="pairing-scripture">
+                <h4>What Scripture Says</h4>
+                <p class="scripture-quote"><em>"Neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God."</em> <span class="scripture-ref">Romans 8:38–39</span></p>
+            </div>
+        </div>
+
+        <!-- Scripture Saw It First -->
+        <h2>Scripture Saw It First</h2>
+
+        <p>
+            The Bible predicted every finding of Terror Management Theory—two thousand years before the experiments. Not as abstract theology, but as lived pastoral reality:
+        </p>
+
+        <div class="theologian-quotes">
+            <div class="quote-block">
+                <p><em>"Because of the power of death, fear held people in slavery their whole lives."</em></p>
+                <p class="author">Hebrews 2:14–15</p>
+            </div>
+            <div class="quote-block">
+                <p><em>"The spirit you received does not make you slaves again to fear."</em></p>
+                <p class="author">Romans 8:15</p>
+            </div>
+            <div class="quote-block">
+                <p><em>"Perfect love casts out fear, because fear has to do with punishment."</em></p>
+                <p class="author">1 John 4:18</p>
+            </div>
+        </div>
+
+        <p>
+            The gospel is not primarily a belief system. It is an <strong>anti-terror-management intervention.</strong> It says: Your immortality project has failed. You cannot build a system secure enough to outrun death. But I am building one for you. And you cannot lose it.
+        </p>
+
+        <!-- The Irony Section -->
+        <div class="irony-box">
+            <h3>The Supreme Irony</h3>
+            <p>
+                Critics say God's sovereignty triggers anxiety. But they misdiagnose the sickness. The anxiety is not caused by sovereignty. The anxiety is caused by death itself. You have spent your whole life building immortality projects to manage this terror. Then sovereignty offers the only real answer: an immortality that does not depend on your flickering will, your achievement, your choice, your performance.
+            </p>
+            <p>
+                <strong>The very thing that triggers the terror—loss of control—is the only thing that can cure it.</strong> Because if your salvation depends on God's eternal decree rather than your constant vigilance, then it cannot be lost, cannot be reversed, cannot be undone even by death itself. You can stop building immortality projects and simply receive immortality.
+            </p>
+            <p>
+                The terror you feel when someone says "God chose you" is not the terror of damnation. It is the terror of having your defenses demolished. And that demolition is mercy.
+            </p>
+        </div>
+
+        <!-- Pastoral Address -->
+        <div class="pastoral-address">
+            <h3>To the Person Who Feels This Terror</h3>
+            <p>
+                You are not crazy. The dread you feel when sovereignty is mentioned is not weakness or sin. It is a completely natural human response. Your defenses are working exactly as they were designed to work. You have built something real—an identity, a sense of meaning, a way of mattering—and sovereignty feels like it demands that you dismantle it.
+            </p>
+            <p>
+                It doesn't. What it demands is that you stop trusting your dismantled defenses to save you. That you admit the immortality project has already failed. That you are already mortal. That you cannot control your own destiny.
+            </p>
+            <p>
+                And then it offers you something infinitely more stable: the arms of Someone who loved you before you existed and will love you after you die. Not because you chose Him. Because He chose you.
+            </p>
+            <p>
+                This is not the death of death you feared. It is the death of fear.
+            </p>
+        </div>
+
+        <!-- Further Reading -->
+        <h2>Further Reading</h2>
+
+        <div class="card-grid">
+            <a href="/psychology-offense-of-grace" class="card">
+                <h3>The Offense of Grace</h3>
+                <p>How Moral Foundations Theory explains why unconditional election feels unfair—and why fairness isn't the point.</p>
+                <span class="card-arrow">Read more →</span>
+            </a>
+            <a href="/psychology-control-illusion" class="card">
+                <h3>The Illusion of Control</h3>
+                <p>Why humans feel compelled to believe they control their destiny, even when the evidence is overwhelming.</p>
+                <span class="card-arrow">Read more →</span>
+            </a>
+            <a href="/demolition-identity" class="card">
+                <h3>The Death of Identity</h3>
+                <p>What happens to your sense of self when you stop being the hero of your own story—and become the beloved instead.</p>
+                <span class="card-arrow">Read more →</span>
+            </a>
+            <a href="/start-here" class="card">
+                <h3>Start Here</h3>
+                <p>A gentle entry point into sovereignty—for those whose defenses are still high.</p>
+                <span class="card-arrow">Read more →</span>
+            </a>
+            <a href="/psychology-hub" class="card">
+                <h3>Why We Resist</h3>
+                <p>The full catalog of psychological mechanisms that make sovereignty feel like a threat.</p>
+                <span class="card-arrow">Read more →</span>
+            </a>
+        </div>
+
+        <p style="margin-top: 4rem; text-align: center; color: var(--text-muted); font-size: 0.9rem;">
+            Have you felt this terror? The pathway through it begins with admitting you cannot save yourself—and discovering that Someone already has.
+        </p>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p style="margin-bottom: 0.5rem;">&copy; 2026 Adopted by Grace &mdash; <a href="/about" style="color: var(--accent-violet); text-decoration: none;">About</a> &bull; <a href="/psychology-hub" style="color: var(--accent-violet); text-decoration: none;">Psychology Hub</a></p>
+        <p class="soli-deo">Soli Deo Gloria</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/nav.js"></script>
+    <script>
+        window.addEventListener('scroll', function() {
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolled = window.scrollY;
+            const progress = (scrolled / docHeight) * 100;
+            document.querySelector('.reading-progress').style.width = progress + '%';
+        });
+    </script>
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Terror Management and the Threat of Sovereignty: Why God's Control Feels Like Death",
+        "description": "Terror Management Theory explains why God's sovereignty triggers existential dread. 500+ experiments confirm Becker's thesis—and Scripture predicted it two thousand years ago.",
+        "image": "https://adoptedbygrace.net/og-psychology.jpg",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        },
+        "datePublished": "2026-03-30",
+        "dateModified": "2026-03-30",
+        "url": "https://adoptedbygrace.net/psychology-terror-management",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+</body>
+</html>

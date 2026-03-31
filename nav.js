@@ -122,6 +122,7 @@
                 { name: 'Does Predestination Make God the Author of Sin?', href: '/objection-author-of-sin', desc: 'biblical theology answers the objection that predestination makes God the author of sin. Explore Scripture, the Westmins' },
                 { name: 'FACTS Check: Dismantling the Arminian Framework Point by Point', href: '/demolition-arminian-facts', desc: 'Seminary-level exegetical analysis dismantling the Society of Evangelical Arminians' },
                 { name: 'Hebrews 6:4-6 — Verse Demolition #10', href: '/demolition-hebrews6-4-6', desc: 'Demolition #10: Hebrews 6:4-6 — The' },
+                { name: 'If God Already Chose Us, Why Do We Have to Believe?', href: '/objection-why-believe', desc: 'A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. Exploring how God' },
                 { name: 'If God Controls Everything, How Can He Blame Us?', href: '/objection-responsibility', desc: 'If God predetermines everything, how can He hold us responsible? Romans 9:19 answered with Scripture, compatibilism, and' },
                 { name: 'If God Predestined Everything, Why Does He Command Us?', href: '/objection-why-command', desc: 'If God predestined everything, why pray? Why obey? The answer reveals why commands aren' },
                 { name: 'Joshua 24:15 — Verse-by-Verse Demolition', href: '/demolition-joshua24-15', desc: 'Verse-by-verse exegetical demolition of the Arminian use of Joshua 24:15 as proof of libertarian free will. Scripture te' },
@@ -137,6 +138,7 @@
             subs: [
                 { name: 'Cognitive Biases and the Blindness of Sin', href: '/psychology-cognitive-biases', desc: 'Cognitive biases mapped to biblical descriptions of fallen thinking. Confirmation bias, anchoring, Dunning-Kruger — mode' },
                 { name: 'Suppressing the Truth', href: '/psychology-suppressing-truth', desc: 'Romans 1:18 reveals the deepest human problem: we suppress what we already know about God. Modern psychology calls it mo' },
+                { name: 'Terror Management and the Threat of Sovereignty', href: '/psychology-terror-management', desc: 'Terror Management Theory explains why God' },
                 { name: 'The Autonomy Illusion: Why "Free Will" Feels So Real', href: '/psychology-autonomy-illusion', desc: 'Neuroscience reveals that our sense of autonomous choice may be the brain' },
                 { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Why self-sovereignty is the last idol to fall — even for believers. A deep psychological and theological exploration of ' },
                 { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
@@ -296,6 +298,7 @@
                 { name: 'Can You Lose Your Salvation?', href: '/apologetic-perseverance', desc: 'Can you lose your salvation? Scripture' },
                 { name: 'Did Jesus Die for Everyone? Scripture on Definite Atonement', href: '/apologetic-definite-atonement', desc: 'Did Jesus die for everyone? Scripture teaches that Christ' },
                 { name: 'Doesn\'t Election Make Evangelism Pointless?', href: '/apologetic-evangelism', desc: 'Does election make evangelism pointless? No—it' },
+                { name: 'The Great Debate: Does Man Have Free Will?', href: '/debate-free-will', desc: 'A rigorous formal debate: Does man have free will? Two positions argue their strongest cases—libertarian free will vs. b' },
                 { name: 'What About Babies Who Die? — Grace, Covenant, and the Littlest Lambs', href: '/apologetic-babies', desc: 'What happens to babies and children who die? Scripture gives the grieving parent a sovereign, rock-solid hope that no fr' },
                 { name: 'What About Those Who Never Heard the Gospel?', href: '/apologetic-unreached', desc: 'What about the billions who never heard the gospel? Scripture reveals God' }
             ]
