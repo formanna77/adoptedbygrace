@@ -178,6 +178,7 @@
                 { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Why self-sovereignty is the last idol to fall — even for believers. A deep psychological and theological exploration of ' },
                 { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
                 { name: 'When Your Heart Rejects What Your Mind Accepts', href: '/psychology-emotional-vs-rational', desc: 'When your head knows sovereignty is biblical but your heart rejects it. Dual-process theory, affect heuristic, and Haidt' },
+                { name: 'Why the Doctrine That Makes You Angriest Is the One That\'s Most True', href: '/psychology-hostility-reaction', desc: 'When a lifelong Christian suddenly becomes enraged at the doctrine of election, something deeper than theology is happen' },
                 { name: 'Why We Resist: The Psychology of Rejecting God\'s Sovereignty', href: '/psychology-why-we-resist', desc: 'Why do smart, Bible-loving Christians reject what the Bible clearly says about God' }
             ]
         },

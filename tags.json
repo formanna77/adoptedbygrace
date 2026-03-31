@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-31T04:54:13.613Z",
-  "pageCount": 228,
+  "generated": "2026-03-31T05:36:26.254Z",
+  "pageCount": 229,
   "topicCount": 30,
   "pages": [
     {
@@ -120,9 +120,10 @@
         "Sovereignty of God",
         "Salvation & Justification",
         "Prayer & Devotion",
+        "Definite Atonement",
         "Election & Predestination",
         "Total Depravity",
-        "Definite Atonement"
+        "Identity & Adoption"
       ]
     },
     {
@@ -246,12 +247,12 @@
       "category": "General",
       "tags": [
         "Analogies & Illustrations",
+        "Arminianism & Objections",
+        "Election & Predestination",
         "Total Depravity",
         "Irresistible Grace",
+        "Sovereignty of God",
         "Human Responsibility",
-        "Election & Predestination",
-        "Romans 9",
-        "Identity & Adoption",
         "Free Will"
       ]
     },
@@ -529,12 +530,12 @@
       "tags": [
         "Church History",
         "Arminianism & Objections",
-        "Human Responsibility",
         "Election & Predestination",
-        "Sovereignty of God",
-        "Salvation & Justification",
         "Covenant Theology",
-        "Identity & Adoption"
+        "Human Responsibility",
+        "Free Will",
+        "Irresistible Grace",
+        "Sovereignty of God"
       ]
     },
     {
@@ -1081,7 +1082,14 @@
       "desc": "Discover your starting point on the 5-phase journey to understanding God",
       "category": "Start Here",
       "tags": [
-        "Election & Predestination"
+        "Election & Predestination",
+        "Old Testament",
+        "Definite Atonement",
+        "Sovereignty of God",
+        "Salvation & Justification",
+        "Prayer & Devotion",
+        "Analogies & Illustrations",
+        "Identity & Adoption"
       ]
     },
     {
@@ -2238,8 +2246,8 @@
         "Science & Secular Evidence",
         "Free Will",
         "Church History",
-        "Psychology & Resistance",
         "Scripture & Bible",
+        "Psychology & Resistance",
         "Total Depravity",
         "Parables & Stories",
         "Sovereignty of God"
@@ -2481,9 +2489,9 @@
       "tags": [
         "Healing & Mental Health",
         "Assurance & Comfort",
-        "Science & Secular Evidence",
-        "Prayer & Devotion",
         "Election & Predestination",
+        "Prayer & Devotion",
+        "Science & Secular Evidence",
         "Human Responsibility",
         "Free Will",
         "Sovereignty of God"
@@ -2577,10 +2585,10 @@
         "Identity & Adoption",
         "Election & Predestination",
         "Suffering & Grief",
-        "Romans 9",
-        "Sovereignty of God",
+        "Prayer & Devotion",
         "Assurance & Comfort",
-        "Prayer & Devotion"
+        "Romans 9",
+        "Sovereignty of God"
       ]
     },
     {
@@ -2931,11 +2939,13 @@
       "category": "Healing & Hope",
       "tags": [
         "Salvation & Justification",
-        "Healing & Mental Health",
+        "Church History",
         "Identity & Adoption",
+        "Famous Theologians",
+        "Prayer & Devotion",
+        "Healing & Mental Health",
         "Election & Predestination",
-        "Sovereignty of God",
-        "Prayer & Devotion"
+        "Sovereignty of God"
       ]
     },
     {
@@ -3052,8 +3062,9 @@
       "tags": [
         "Suffering & Grief",
         "Sovereignty of God",
-        "Healing & Mental Health",
         "Election & Predestination",
+        "Old Testament",
+        "Healing & Mental Health",
         "Prayer & Devotion",
         "Parables & Stories",
         "Fairness & Justice"
@@ -3262,6 +3273,9 @@
         "Healing & Mental Health",
         "Science & Secular Evidence",
         "Psychology & Resistance",
+        "Famous Theologians",
+        "Total Depravity",
+        "Church History",
         "Identity & Adoption"
       ]
     },
@@ -3678,6 +3692,23 @@
       ]
     },
     {
+      "url": "/psychology-hostility-reaction",
+      "file": "psychology-hostility-reaction.html",
+      "title": "Why the Doctrine That Makes You Angriest Is the One That's Most True",
+      "desc": "When a lifelong Christian suddenly becomes enraged at the doctrine of election, something deeper than theology is happening. The hostility reaction is not evide",
+      "category": "Why We Resist",
+      "tags": [
+        "Election & Predestination",
+        "Science & Secular Evidence",
+        "Free Will",
+        "Salvation & Justification",
+        "Identity & Adoption",
+        "Sovereignty of God",
+        "Psychology & Resistance",
+        "Parables & Stories"
+      ]
+    },
+    {
       "url": "/psychology-why-we-resist",
       "file": "psychology-why-we-resist.html",
       "title": "Why We Resist: The Psychology of Rejecting God's Sovereignty",
@@ -3923,6 +3954,7 @@
       "/demolition-orthodox-predestination",
       "/question-how-grace-feels",
       "/question-parables",
+      "/psychology-hostility-reaction",
       "/psychology-why-we-resist",
       "/history-confessions-story",
       "/broken-mirror-not-self-made",
@@ -3942,6 +3974,7 @@
       "/story-surgeon-stone-heart",
       "/analogy-light-switch",
       "/systematic-compatibilism",
+      "/creeds-confessions",
       "/ot-david",
       "/question-ezekiel37",
       "/question-depravity",
@@ -4015,6 +4048,7 @@
       "/start-here-phase1",
       "/analogy-doctor-corpse",
       "/question-how-grace-feels",
+      "/psychology-hostility-reaction",
       "/psychology-why-we-resist",
       "/question-john15",
       "/anxious-mind-brain-decides"
@@ -4058,6 +4092,7 @@
       "/creed-heidelberg-catechism",
       "/secular-neuroscience-human-inability",
       "/secular-psychology-bondage-of-will",
+      "/shattered-lens-hub",
       "/analogy-doctor-corpse"
     ],
     "Irresistible Grace": [
@@ -4065,6 +4100,7 @@
       "/analogies-illustrations",
       "/compare-calvinism-arminianism",
       "/story-surgeon-stone-heart",
+      "/creeds-confessions",
       "/question-ezekiel37",
       "/demolition-john3-16",
       "/demolition-prevenient-grace",
@@ -4125,6 +4161,7 @@
       "/demolition-john12-32",
       "/demolition-john3-16",
       "/apologetic-definite-atonement",
+      "/start-here-assessment",
       "/demolition-hebrews2-9",
       "/question-isaiah53",
       "/ot-isaiah-servant",
@@ -4148,6 +4185,7 @@
       "/ot-abel-cain",
       "/ot-abraham",
       "/demolition-acts17-30",
+      "/analogies-illustrations",
       "/secular-art-literature-reformed-truth",
       "/theologian-augustine",
       "/systematic-divine-decrees",
@@ -4174,6 +4212,7 @@
       "/psalms-election",
       "/pastoral-evangelism",
       "/question-external-internal-call",
+      "/start-here-assessment",
       "/theologian-whitefield",
       "/question-hardening",
       "/objection-why-believe",
@@ -4248,6 +4287,7 @@
       "/open-wound-sovereignty-in-grief",
       "/devotional-when-god-says-no",
       "/psychology-emotional-vs-rational",
+      "/psychology-hostility-reaction",
       "/psychology-why-we-resist",
       "/anxious-mind-never-meant-to-carry"
     ],
@@ -4470,7 +4510,6 @@
       "/theologian-spurgeon",
       "/question-chosen",
       "/history-timeline",
-      "/creeds-confessions",
       "/question-ezekiel37",
       "/demolition-arianism",
       "/demolition-2peter3-9",
@@ -4492,6 +4531,7 @@
       "/question-external-internal-call",
       "/demolition-arminian-facts",
       "/question-faithgift",
+      "/start-here-assessment",
       "/question-freewill",
       "/question-hardening",
       "/demolition-hebrews2-9",
@@ -4564,6 +4604,7 @@
       "/anxious-mind-what-if-not-chosen",
       "/start-here-phase1",
       "/devotional-when-god-says-no",
+      "/psychology-hostility-reaction",
       "/psychology-why-we-resist"
     ],
     "Scripture & Bible": [
@@ -4675,6 +4716,7 @@
       "/ot-abraham",
       "/demolition-acts17-30",
       "/demolition-acts7-51",
+      "/analogies-illustrations",
       "/start-here-phase4",
       "/compare-calvinism-arminianism",
       "/compare-calvinism-molinism",
@@ -4752,11 +4794,13 @@
       "/history-great-awakening",
       "/creed-heidelberg-catechism",
       "/secular-history-sovereignty",
+      "/invisible-wall-hub",
       "/secular-philosophy-free-will",
       "/history-spurgeon-downgrade",
       "/secular-psychology-bondage-of-will",
       "/history-puritans",
       "/systematic-resurrection",
+      "/shattered-lens-hub",
       "/history-dort",
       "/systematic-anthropology",
       "/systematic-theology-proper",
@@ -4788,8 +4832,10 @@
       "/theologians",
       "/history-golden-thread",
       "/history-great-awakening",
+      "/invisible-wall-hub",
       "/secular-philosophy-free-will",
       "/history-spurgeon-downgrade",
+      "/shattered-lens-hub",
       "/history-dort",
       "/theologian-boston",
       "/start-here-phase1"
@@ -4817,6 +4863,7 @@
       "/shattered-lens-hub",
       "/apologetic-unreached",
       "/psychology-emotional-vs-rational",
+      "/psychology-hostility-reaction",
       "/psychology-why-we-resist"
     ],
     "Evangelism & Mission": [
@@ -4866,6 +4913,7 @@
       "/apologetic-definite-atonement",
       "/question-godwants",
       "/psalms-election",
+      "/start-here-assessment",
       "/devotional-forever-loved",
       "/devotional-never-gives-up",
       "/objection-why-command",
@@ -4917,6 +4965,7 @@
       "/question-1peter1",
       "/ot-election",
       "/psalms-election",
+      "/start-here-assessment",
       "/question-hardening",
       "/objection-fairness",
       "/question-isaiah53",
@@ -4941,6 +4990,7 @@
       "/systematic-hamartiology",
       "/secular-economics-depravity",
       "/secular-history-sovereignty",
+      "/open-wound-hub",
       "/ot-prophets-remnant",
       "/secular-psychology-bondage-of-will",
       "/open-wound-hospital-room",
@@ -4983,6 +5033,7 @@
       "/story-the-self-made-man",
       "/systematic-theology-proper",
       "/question-parables",
+      "/psychology-hostility-reaction",
       "/history-confessions-story",
       "/broken-mirror-not-self-made",
       "/question-john15"
@@ -5000,6 +5051,7 @@
       "/story-the-fish-who-chose-the-ocean",
       "/analogy-adoption",
       "/analogy-chess-grandmaster",
+      "/start-here-assessment",
       "/objection-evangelism-pointless",
       "/objection-responsibility",
       "/objection-why-command",
@@ -5059,11 +5111,11 @@
       "/systematic-theology-proper",
       "/demolition-orthodox-predestination",
       "/psychology-emotional-vs-rational",
+      "/psychology-hostility-reaction",
       "/psychology-why-we-resist",
       "/anxious-mind-brain-decides"
     ],
     "Romans 9": [
-      "/analogies-illustrations",
       "/start-here-phase4",
       "/ot-election",
       "/question-hardening",
@@ -5244,13 +5296,13 @@
       "/demolition-2cor5-14-15",
       "/demolition-2peter2-1",
       "/history-20th-century",
+      "/scripture-tsunami",
       "/invisible-wall-lonely-theological",
       "/devotional-cold-church",
       "/ot-abel-cain",
       "/demolition-acts17-30",
       "/demolition-acts7-51",
       "/devotional-adoption-papers",
-      "/analogies-illustrations",
       "/secular-art-literature-reformed-truth",
       "/history-augustine-pelagius",
       "/systematic-divine-decrees",
@@ -5262,7 +5314,6 @@
       "/question-chosen",
       "/psychology-cognitive-biases",
       "/systematic-compatibilism",
-      "/creeds-confessions",
       "/ot-david",
       "/question-ezekiel37",
       "/question-depravity",
@@ -5291,6 +5342,7 @@
       "/question-external-internal-call",
       "/demolition-arminian-facts",
       "/question-faithgift",
+      "/start-here-assessment",
       "/devotional-forever-loved",
       "/question-freewill",
       "/theologian-whitefield",
@@ -5416,6 +5468,7 @@
       "/psychology-emotional-vs-rational",
       "/analogy-doctor-corpse",
       "/question-parables",
+      "/psychology-hostility-reaction",
       "/psychology-why-we-resist",
       "/history-confessions-story",
       "/broken-mirror-not-self-made",
@@ -5426,35 +5479,35 @@
     ]
   },
   "topicCounts": {
-    "Analogies & Illustrations": 31,
-    "Total Depravity": 39,
-    "Irresistible Grace": 38,
+    "Analogies & Illustrations": 32,
+    "Arminianism & Objections": 46,
+    "Election & Predestination": 148,
+    "Total Depravity": 40,
+    "Irresistible Grace": 39,
+    "Sovereignty of God": 113,
     "Human Responsibility": 86,
-    "Election & Predestination": 147,
-    "Romans 9": 16,
-    "Identity & Adoption": 183,
-    "Free Will": 87,
+    "Free Will": 89,
+    "Identity & Adoption": 184,
     "Ephesians 1": 24,
-    "Old Testament": 47,
-    "Parables & Stories": 35,
-    "Sovereignty of God": 110,
+    "Old Testament": 49,
+    "Parables & Stories": 36,
     "Scripture & Bible": 101,
-    "Church History": 47,
+    "Church History": 49,
     "Suffering & Grief": 39,
     "God's Love": 8,
     "Assurance & Comfort": 69,
-    "Salvation & Justification": 113,
+    "Salvation & Justification": 114,
     "John 6": 10,
-    "Science & Secular Evidence": 40,
+    "Science & Secular Evidence": 41,
     "Healing & Mental Health": 20,
     "Fairness & Justice": 60,
-    "Prayer & Devotion": 44,
+    "Prayer & Devotion": 45,
     "Evangelism & Mission": 34,
     "Covenant Theology": 25,
-    "Definite Atonement": 25,
+    "Definite Atonement": 26,
     "Perseverance of the Saints": 10,
-    "Psychology & Resistance": 23,
-    "Arminianism & Objections": 45,
-    "Famous Theologians": 27
+    "Psychology & Resistance": 24,
+    "Romans 9": 15,
+    "Famous Theologians": 29
   }
 }
