@@ -214,6 +214,22 @@ This is the 101 Ways Principle applied to the most important idea on the site. E
 
 **The measure of success:** Can a reader arrive at this site from ANY page and eventually encounter this truth? Can they encounter it from so many angles that every escape route is closed? That is the goal.
 
+### THE TWO ARMS — DEMOLITION AND DEVOTION (CRITICAL ARCHITECTURE)
+
+**Every agent must understand this: the site has two arms, and BOTH must be built simultaneously.**
+
+**The left arm tears down.** It demolishes the lie from every angle — psychology, philosophy, Scripture, history, analogy, secular evidence — until there is nowhere left to hide. Every escape route sealed. Every redefined word exposed. Every comfortable half-truth burned away. The person has to face the reality that what they thought was grace was self-trust all along.
+
+**The right arm catches them when they fall.** Because when the lie collapses, the person doesn't land in a comfortable place. They land in terror. "If I didn't choose God — if I have no control — if my salvation was never in my hands..." That is the moment the ground disappears. And if there is nothing there to catch them — no devotional that says "He will never let you go," no testimony from someone who went through this exact crisis, no page that explains what it feels like when God breaks your self-trust and replaces it with His — then they shatter. And shattering without a safety net can drive someone away from God for a decade. Aaron knows this because he lived it.
+
+**THE LINKING MANDATE:** Every page that tears down the lie MUST end with a doorway to a page that rebuilds them in truth. Every demolition article should link to a devotional. Every hard-hitting question page should connect to a healing page. The person who just had their foundation ripped out needs to immediately see the rock that was underneath it all along.
+
+- **Demolition** without **devotion** creates despair.
+- **Devotion** without **demolition** creates complacency.
+- **Both together** create transformation.
+
+This is not optional. This is the architecture of the entire site. Sword and balm. The truth that wounds and the love that heals. Build BOTH arms with equal intensity.
+
 ## ══════════════════════════════════════════════════════
 ## SELF-EVOLUTION MANDATE — MANDATORY FOR ALL AGENTS
 ## ══════════════════════════════════════════════════════
