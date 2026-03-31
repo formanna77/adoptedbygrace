@@ -106,6 +106,7 @@
             href: '/demolition-hub',
             desc: 'Every objection answered',
             subs: [
+                { name: '1 Corinthians 15:22 — Verse Demolition #4', href: '/demolition-1cor15-22', desc: 'Demolition #4: 1 Corinthians 15:22 proves particular redemption, not universal atonement. The parallel is representation' },
                 { name: '1 John 2:2 — Verse Demolition #7', href: '/demolition-1john2-2', desc: '1 John 2:2 — Does' },
                 { name: '1 Timothy 2:4 — Verse Demolition #2', href: '/demolition-1tim2-4', desc: 'Demolition #2: Does God Desire the Salvation of Every Individual? A Reformed analysis of 1 Timothy 2:4 that dismantles A' },
                 { name: '1 Timothy 4:10 — Verse Demolition #12', href: '/demolition-1tim4-10', desc: 'Demolition #12: Does 1 Timothy 4:10 Prove Universal Atonement? A Reformed analysis that reveals how' },
@@ -133,7 +134,9 @@
                 { name: 'If God Predestined Everything, Are We Just Robots?', href: '/objection-robots', desc: 'If God predestined everything, are we just robots? No. Scripture teaches something far more beautiful: we are free creat' },
                 { name: 'If God Predestined Everything, Why Does He Command Us?', href: '/objection-why-command', desc: 'If God predestined everything, why pray? Why obey? The answer reveals why commands aren' },
                 { name: 'Is God the Author of Sin? The Predestination Problem Answered', href: '/objection-author-of-sin', desc: 'Does God cause sin? If He predestines everything, how is He not responsible for evil? Scripture teaches a clear distinct' },
+                { name: 'Is Predestination Fair?', href: '/objection-fairness', desc: 'Is predestination fair? Doesn' },
                 { name: 'Joshua 24:15 — Verse-by-Verse Demolition', href: '/demolition-joshua24-15', desc: 'Verse-by-verse exegetical demolition of the Arminian use of Joshua 24:15 as proof of libertarian free will. Scripture te' },
+                { name: 'Philippians 2:12-13 — Verse Demolition #3', href: '/demolition-philippians2-12-13', desc: 'Demolition #3: Philippians 2:12-13 proves monergistic grace, not human autonomy. God works in you to both will and work.' },
                 { name: 'Steel Man: Arminianism at Its Absolute Best', href: '/demolition-steel-man-arminianism', desc: 'We present Arminianism using its strongest scholars and best arguments—then show why Scripture points to something deepe' },
                 { name: 'Titus 2:11 — "The Grace of God Has Appeared to All"', href: '/demolition-titus2-11', desc: 'Demolition #17: Titus 2:11 and the' },
                 { name: 'When Philosophy Replaces Exegesis — Dismantling the Orthodox Case Against Predestination', href: '/demolition-orthodox-predestination', desc: 'A thorough exegetical dismantling of the Eastern Orthodox argument against Reformed predestination — exposing the geneti' }
@@ -152,6 +155,7 @@
                 { name: 'The Autonomy Illusion: Why "Free Will" Feels So Real', href: '/psychology-autonomy-illusion', desc: 'Neuroscience reveals that our sense of autonomous choice may be the brain' },
                 { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Why self-sovereignty is the last idol to fall — even for believers. A deep psychological and theological exploration of ' },
                 { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
+                { name: 'When Your Heart Rejects What Your Mind Accepts', href: '/psychology-emotional-vs-rational', desc: 'When your head knows sovereignty is biblical but your heart rejects it. Dual-process theory, affect heuristic, and Haidt' },
                 { name: 'Why We Resist: The Psychology of Rejecting God\'s Sovereignty', href: '/psychology-why-we-resist', desc: 'Why do smart, Bible-loving Christians reject what the Bible clearly says about God' }
             ]
         },
@@ -359,6 +363,7 @@
                 { name: 'The Question That Haunts Every Hospital Room', href: '/open-wound-hospital-room', desc: 'The Question That Haunts Every Hospital Room: Why do bad things happen to good people? Scripture' },
                 { name: 'The Shattered Lens — Truth, Trust & the Modern Crisis of Belief', href: '/shattered-lens-hub', desc: 'The Shattered Lens: Truth, Trust & the Modern Crisis of Belief. In a world of deepfakes, AI, misinformation, and politic' },
                 { name: 'What If I\'m Not One of the Chosen?', href: '/anxious-mind-what-if-not-chosen', desc: 'What if I' },
+                { name: 'When God Is Sovereign and Your World Just Collapsed', href: '/open-wound-sovereignty-in-grief', desc: 'When God Is Sovereign and Your World Just Collapsed: Grief doesn' },
                 { name: 'When You Can\'t Tell What\'s True Anymore', href: '/shattered-lens-cant-tell-true', desc: 'When You Can' },
                 { name: 'You Are Not a Self-Made Anything', href: '/broken-mirror-not-self-made', desc: 'You Are Not a Self-Made Anything. Culture screams' },
                 { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'You Were Never Meant to Carry This — why anxiety is the logical result of believing everything depends on you, and how G' },

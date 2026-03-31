@@ -109,12 +109,13 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
 .search-results a {
     display: block; padding: 1rem; margin-bottom: 0.5rem; background: var(--bg-card);
     border: 1px solid rgba(212, 162, 84, 0.08); border-radius: 8px;
-    text-decoration: none; transition: border-color 0.25s ease, background 0.25s ease;
+    text-decoration: none; color: var(--text-primary); transition: border-color 0.25s ease, background 0.25s ease;
 }
+.search-results a:visited { color: var(--text-primary); }
 .search-results a:hover { border-color: rgba(212, 162, 84, 0.3); background: var(--bg-card-hover); }
-.search-results .search-title { font-weight: 700; color: var(--text-primary); font-size: 0.95rem; }
-.search-results .search-cat { font-size: 0.7rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem; }
-.search-results .search-desc { font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem; }
+.search-results .search-title, .search-results .search-result-title { font-weight: 700; color: var(--text-primary); font-size: 0.95rem; }
+.search-results .search-cat, .search-results .search-result-category { font-size: 0.7rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem; }
+.search-results .search-desc, .search-results .search-result-snippet { font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem; }
 
 /* Hamburger */
 .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; z-index: 1001; }
@@ -639,7 +640,7 @@ h4 { font-size: 1.2rem; font-weight: 700; }
 .content-section a:hover { color: var(--accent-ember); border-color: var(--accent-ember); }
 
 /* ===== BLOCKQUOTES (Scripture) ===== */
-blockquote, .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.04), rgba(232, 100, 44, 0.04)); border-left: 4px solid var(--accent-gold); border-radius: 0 8px 8px 0; padding: 1.8rem 2rem; margin: 2rem 0; position: relative; overflow: hidden; }
+blockquote, .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.04), rgba(232, 100, 44, 0.04)); border-left: 4px solid var(--accent-gold); border-radius: 0 8px 8px 0; padding: 1.8rem 2rem; margin: 2rem auto; position: relative; overflow: hidden; }
 blockquote::after { content: '\201D'; position: absolute; top: -10px; right: 20px; font-size: 8rem; font-family: 'Playfair Display', serif; color: rgba(212, 162, 84, 0.06); pointer-events: none; }
 blockquote p, .scripture-block p { font-style: italic; color: var(--text-primary); line-height: 1.9; font-size: 1.1rem; margin-bottom: 0; }
 blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.1em; font-style: normal; display: block; margin-top: 0.8rem; }
