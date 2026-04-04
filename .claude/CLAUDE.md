@@ -118,6 +118,24 @@ All newsletter signup forms, floating popups, email collection, and "Subscribe" 
 - Re-adding any code to global.js or global.css for newsletter functionality
 - Collecting visitor email addresses for any mailing list purpose
 
+## APOLOGETICS CATEGORY — ELIMINATED
+The "Apologetics" category was retired 2026-04-04. It was redundant — the entire site IS an apologetic. Every category defends and commends the faith from its own angle. The 6 articles that were in the apologetics category have been redistributed into Questions (where they naturally belong as question-format articles). Agents are BANNED from:
+- Creating an "Apologetics" category, hub page, or nav entry
+- Using the word "apologetics" as a category label (the concept is fine; the category is dead)
+- Any article prefixed `apologetic-` should be treated as belonging to the Questions category
+
+## FOOTER GRACE WARNING — MANDATORY ON EVERY PAGE
+Every page MUST include the `footer-grace-warning` element in its footer, between `footer-container` and `footer-copyright`:
+```html
+<div class="footer-grace-warning">
+    "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+    Grace is not a license to sin. It is the power that frees us from sin's dominion.
+</div>
+```
+This addresses the most common objection to sovereign grace (antinomianism) proactively on every page. Do NOT remove, modify, or omit this element. The CSS for it lives in `/global.css` under `.footer-grace-warning`.
+
+Also: footer section headers use "Truth" not "Doctrine" (per the terminology mandate).
+
 ## SOCIAL MEDIA CONTENT — ELIMINATED
 Agents are BANNED from creating social media content of any kind. No tweets, no threads, no Instagram carousels, no TikTok scripts, no Facebook posts, no social snippets, no SOCIAL-QUEUE.md entries. Zero. The content on the site must be so good that readers share it themselves — we do not create social media marketing. All compute that would have gone to social media must be redirected to making the site content itself more powerful, more discoverable via SEO, and more devastating in its quality.
 

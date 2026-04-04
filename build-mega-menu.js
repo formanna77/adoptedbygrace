@@ -46,7 +46,7 @@ const CATEGORIES = [
     icon: '📖',
     hub: '/questions',
     desc: 'Scripture-driven proofs for sovereign grace',
-    prefixes: ['question'],
+    prefixes: ['question', 'apologetic', 'debate'],
     hubFiles: ['questions.html'],
   },
   {
@@ -74,14 +74,6 @@ const CATEGORIES = [
     desc: 'Arminian proof-texts dismantled verse by verse',
     prefixes: ['demolition', 'counter'],
     hubFiles: ['demolition-hub.html'],
-  },
-  {
-    key: 'apologetics',
-    name: 'Apologetics',
-    icon: '⚔',
-    hub: '/apologetic-evangelism',
-    desc: 'Defending and commending the faith',
-    prefixes: ['apologetic', 'debate'],
   },
   {
     key: 'why-we-resist',

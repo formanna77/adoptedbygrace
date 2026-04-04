@@ -79,7 +79,7 @@ function extractDescription(html) {
 function extractCategory(html, filename) {
   // Try to detect from path patterns or page content
   const catMap = [
-    [/^(question-|q-)/, 'The Evidence'],
+    [/^(question-|q-|apologetic-|debate-)/, 'The Evidence'],
     [/^demo(lition)?-/, 'Demolition Zone'],
     [/^devotional-|^dev-/, 'Devotionals'],
     [/^story-/, 'Stories'],

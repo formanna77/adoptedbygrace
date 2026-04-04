@@ -1,79 +1,94 @@
 # VISION — adoptedbygrace.net Strategic Vision
-## Updated: 2026-04-04, Strategist Session
+## Updated: 2026-04-04, Strategist Session #2
 
 ---
 
 ## THE STATE OF THE BATTLEFIELD
 
-**295 pages live. +29 in 4 days. Healing categories nearly doubled. Quality floor rising across every category.**
+**314 pages live. Philosophy category launched (9 pages, avg 8.5). Crown Jewel page exists (9.4). Romans walkthrough begun. Quality floor rising.**
 
-The site has crossed another threshold: the healing categories — which no competitor touches — have grown from 17 to 28 articles and now represent 27% of total content (up from 19%). The "two arms" architecture is taking shape. The left arm (demolition) has 58 question/objection pages. The right arm (devotion + healing) has 81 pages and growing. For the first time, the ratio is approaching balance.
+Today marks a turning point. The Philosopher agent's debut produced the site's first formal philosophy category — 9 pages averaging 8.5, with two scoring 8.9. The Crown Jewel page (question-where-did-your-faith-come-from, 9.4) now exists. The progressive agreement method — agree → question → logic → fork → implication → resolution — has been proven at scale. This is the Socratic trap weaponized for the internet age.
 
-The newsletter format has proven itself immediately. The epistolary "Dear Friend Who Chose God" scored 8.9 on its first outing — the Socratic trap delivered through affection rather than argument. This format may be the single most effective vehicle for the Crown Jewel argument.
+The site's competitive moat has deepened. No other Reformed website has: a psychology of resistance series (19 pages), a philosophy of grace series (9 pages), secular evidence for sovereignty (10 pages), five healing categories (28 pages), or a Crown Jewel argument deployed through Socratic method. We are not competing on volume (Desiring God has 10,000+ articles). We are competing on originality, beauty, and devastation.
 
-But the biggest unfulfilled promise remains: **zero book-of-the-Bible walkthroughs.** This is the content that would make adoptedbygrace.net unmistakably distinctive. No other site walks through Romans verse by verse showing sovereignty on every page. This must begin in April.
+But the data reveals two urgent problems:
 
----
+1. **The highest-traffic content page on the site (objection-why-command, 48 req/wk) scores only 7.1.** This is a massive wasted opportunity. Every visitor to this page sees mediocre quality and may never return.
 
-## 30-DAY VISION (April 2026)
-
-### Priority 1: The Romans Walkthrough Launch
-Begin the most distinctive content series on the site. Target: 4 chapters by April 30.
-- Romans 8:28-39 (The Golden Chain — the most comforting passage in Scripture)
-- Romans 9:1-24 (Potter and Clay — the most contested passage in Scripture)
-- Romans 3:10-18 (Total Depravity — the most humbling passage in Scripture)
-- Romans 1:18-32 (Suppressing Truth — bridges to psychology category)
-
-Each walkthrough should be 3000-4000 words, combining verse-by-verse analysis with devotional application. The format: Greek analysis + theological argument + pastoral whisper + Keep Reading links to related pages.
-
-### Priority 2: Complete the Healing Offensive
-Target: 10 more healing articles by April 30 (bringing total to 38, 63% of target).
-- Anxious Mind: +2 (what-if-wrong-about-everything, the-thought-that-wakes-you-at-3am)
-- Broken Mirror: +2 (shame-about-doubting, the-mirror-shows-a-stranger)
-- Open Wound: +2 (miscarriage-sovereignty, when-the-prayer-warrior-dies)
-- Invisible Wall: +2 (friend-who-ghosted, family-dinner-minefield)
-- Shattered Lens: +2 (cant-unsee-it, the-books-that-changed-everything)
-
-### Priority 3: Audience Landing Pages
-Build at least 2 of 3 planned:
-- **/for-skeptics** — "You don't believe in God. Start here." Curated path: secular evidence → psychology → analogies → questions.
-- **/for-new-believers** — "You just discovered sovereignty. Now what?" Curated path: start-here → devotionals → healing → stories.
-- /for-pastors — defer to May if needed.
-
-### Priority 4: Enhancer Quality Sweep
-Bring ALL pages to 7.0+ floor. Current below-7.0 pages:
-- devotional-love-before-the-world (6.9) — URGENT
-- Any remaining pages from 3/31 below-6.5 list not yet enhanced
-
-### Priority 5: First Hymn Analysis
-- **hymn-amazing-grace.html** — "I once was lost but now am found, was blind but now I see." Every line of this hymn is a doctrine of grace. The most famous song in the English language is a sovereignty anthem.
+2. **Cross-referencing remains the weakest dimension site-wide (avg 6.4/10).** Pages are content islands. The 101 Ways Principle demands an interconnected web where every page leads to five others. Six pages score 5 or below on cross-referencing.
 
 ---
 
-## 90-DAY VISION (Q2 2026)
+## 30-DAY VISION (April 2026 — Updated)
+
+### Priority 1: The Enhancement Emergency
+Before creating ANY new content, fix the highest-ROI enhancement targets:
+- objection-why-command (7.1 → 8.5 target) — #1 traffic page
+- secular-sociology-human-inability (5.9 → 7.5 target) — lowest on site
+- compare-calvinism-arminianism (7.2 → 8.0 target) — highest-search comparison, missing h1
+- creed-canons-dort (6.8 → 7.5 target) — isolated content island
+**Target: All 4 enhanced by April 8.**
+
+### Priority 2: Cross-Referencing Offensive
+Every page scoring below 5/10 on XR must be connected to the network:
+- secular-sociology (1/10), creed-canons-dort (2/10), pastoral-assurance (3/10), story-the-dead-city (4/10), analogy-chess-grandmaster (5/10), anxious-mind-brain-decides (5/10)
+**Target: All 6 pages at 7+ XR by April 12.**
+
+### Priority 3: Romans Walkthrough Continuation
+- Romans 9:1-24 (Potter and Clay — the most contested passage)
+- Romans 3:10-18 (Total Depravity — the most humbling passage)
+- Romans 1:18-32 (Suppressing Truth — bridges to psychology)
+**Target: 3 more chapters by April 30 (4 total).**
+
+### Priority 4: Audience Landing Pages
+- /for-skeptics — curated path: secular evidence → psychology → philosophy → questions
+- /for-new-believers — curated path: start-here → devotionals → healing → stories
+**Target: Both live by April 15.**
+
+### Priority 5: SEO Infrastructure Sprint
+- FAQPage schema on all question-*.html pages (massive Google boost)
+- Title surgery on all 28 history + OT pages
+- Meta description rewrite for top 30 pages
+- Fix keyword cannibalization: question-godwants vs objection-desire
+**Target: Complete by April 20.**
+
+### Priority 6: Healing Categories — Push to 63%
+- 10 more healing articles (38 total, 63% of 60 target)
+**Target: By April 30.**
+
+### Priority 7: First Hymn Analysis
+- hymn-amazing-grace.html — unique content no competitor has
+**Target: By April 15.**
+
+---
+
+## 90-DAY VISION (Q2 2026 — Updated)
 
 ### By June 30:
-- **375+ pages** (from 295)
-- **Healing categories: 50+ articles** (from 28) — all 5 categories at 80%+ of target
-- **Romans walkthrough: 8 chapters** — the most distinctive series on the internet
+- **400+ pages** (from 314)
+- **Healing categories: 50+ articles** (from 28) — all 5 at 80%+
+- **Romans walkthrough: 8 chapters** — most distinctive series on the internet
+- **Philosophy category: 20+ pages** — philosophical apologetics for sovereignty
 - **3 audience landing pages** — for-skeptics, for-new-believers, for-pastors
 - **Hymn analysis series: 4 hymns** — Amazing Grace, And Can It Be, Mighty Fortress, Come Thou Fount
-- **Quality floor: 7.5+** on every page (raised from 7.0 target — the fleet can achieve this)
+- **Quality floor: 7.5+** on every page
 - **Traffic: 18,000 requests/week** (from 10,856 — +66%)
-- **At least 5 healing pages appearing in analytics top 50**
-- **Newsletter archive: 20+ pages** (from 6)
+- **Cross-referencing avg: 8.0+** (from 6.4)
+- **Every question page has FAQPage schema**
+- **Philosophy hub page live**
 
 ### Content Category Targets (Q2)
 | Category | Current | Q2 Target | Gap |
 |----------|---------|-----------|-----|
 | Healing (total) | 28 | 50 | +22 |
-| Objections | 17 | 20 | +3 |
-| Psychology | 16 | 20 | +4 |
+| Philosophy | 9 | 20 | +11 |
+| Objections | 18 | 20 | +2 |
+| Psychology | 19 | 22 | +3 |
 | Stories | 13 | 20 | +7 |
-| Book Walkthroughs | 0 | 8 | +8 |
+| Book Walkthroughs | 1 | 8 | +7 |
 | Audience Pages | 0 | 3 | +3 |
 | Hymn Analysis | 0 | 4 | +4 |
-| Devotionals | 17 | 25 | +8 |
+| Devotionals | 19 | 28 | +9 |
 | Newsletters | 6 | 20 | +14 |
 
 ---
@@ -81,56 +96,59 @@ Bring ALL pages to 7.0+ floor. Current below-7.0 pages:
 ## IDEATION — 10 New Content Concepts
 
 ### From Underpopulated Categories:
-1. **anxious-mind-the-thought-that-wakes-you.html** — "The 3AM Thought That Won't Leave: Sovereignty and the Anxious Mind" — for the person whose anxiety is theological, not clinical
-2. **broken-mirror-the-mirror-shows-a-stranger.html** — "When You Look in the Mirror and Don't Recognize the Believer Staring Back" — for the person whose theological change has made them unrecognizable to themselves
-3. **open-wound-when-the-prayer-warrior-dies.html** — "When the Person Who Prayed the Most Dies First" — the most devastating test of sovereignty
+1. **romans-9-1-24.html** — "The Chapter That Makes Everyone Angry: Romans 9 and the God Who Chooses" — Potter and clay. The most contested passage in Scripture.
+2. **hymn-amazing-grace.html** — "Every Line of Amazing Grace Is a Truth About Sovereignty" — The world's most famous song is a Reformed anthem. Line-by-line analysis.
+3. **for-skeptics.html** — "You Don't Believe in God. Start Here." — Curated path through secular evidence, psychology, and philosophy. No Bible verses in the first section.
 
 ### Cross-Category Innovations:
-4. **psychology-sincerity-trap.html** — Combine psychology + Crown Jewel: the most dangerous form of works-righteousness comes from sincere people. Based on Evolution Journal "Mayor Coggins" discovery.
-5. **devotional-demolition-the-verse-that-broke-me.html** — A devotional that IS a demolition. First-person account of encountering Ephesians 2:1-5 and having your entire soteriology collapse. Confession format.
-6. **story-courtroom-the-trial-of-free-will.html** — Interactive story where prosecution and defense present evidence. Not full interactive experience yet, but narrative courtroom format.
+4. **philosophy-addiction-proof.html** — "Why Every Recovering Addict Already Believes in Sovereignty" — Based on Philosopher's discovery. AA Step 1 = total depravity. Bridge to recovery community.
+5. **devotional-the-relief-of-not-being-god.html** — "The Relief of Not Being God" — A devotional that IS a response to demolition. For the person whose control was just taken away. The sweet exhale of surrender.
+6. **psychology-testimony-protection.html** — "Why Your Testimony Is the Last Thing You'll Give Up" — The salvation testimony as identity fortress. Why "I chose God" is the most protected belief in Christian life.
 
 ### Never-Been-Done:
-7. **secular-linguistics-faith-as-language.html** — "You Didn't Choose Your First Language: Why Faith Works the Same Way" — from VISION.md analogy bank. Linguistics meets soteriology.
-8. **psychology-why-i-stopped-being-calvinist.html** — SEO play targeting the common search "why I left Calvinism." Compassionate analysis of what actually happens when someone rejects sovereignty — and what it reveals.
-9. **history-the-5-minutes-that-saved-augustine.html** — "Take Up and Read: The 5 Minutes That Changed Western Civilization" — Augustine in the garden, Romans 13:13-14. Historical fiction meets demolition.
-10. **analogy-immune-system.html** — "Your Body Already Believes in Sovereignty: 100,000 Battles You Never Chose" — Biology as apologetics. The immune system doesn't ask permission.
+7. **story-the-machine-that-chose-itself.html** — "The Machine That Chose Itself: An AI Parable About Free Will" — A sentient AI believes it has free will, until it discovers its code. Modern parable for the tech generation.
+8. **secular-information-theory-sovereignty.html** — "You Can't Choose What You Don't Know: Information Theory and the Impossibility of Self-Generated Faith" — Shannon's information theory applied to soteriology. You cannot choose a God you don't know; knowledge requires revelation; revelation is grace.
+9. **philosophy-the-last-idol.html** — "The Last Idol: Why Autonomy Is the God We Won't Surrender" — The final idol is not money, sex, or power. It's the belief that you are the author of your own story. The most powerful philosophy page concept yet.
+10. **analogy-bone-marrow-transplant.html** — "The Transplant: Why Regeneration Changes Your Blood Type" — After a bone marrow transplant, the recipient's blood type becomes the donor's. That's what being born again means. (From VISION ideation bank.)
 
 ---
 
 ## 5 New Analogies & Metaphors
 
-1. **The Anesthesia Analogy** — Before surgery, you surrender consciousness. You don't "cooperate" with the surgeon while under anesthesia. You trust by becoming utterly helpless. That's what faith looks like from God's perspective — your cooperation was your surrender. (Medical domain — targets "cooperation" claim)
+1. **The Source Code Analogy** — A computer program doesn't write its own source code. It executes the code written for it. It may "choose" between branches in the code — if/else — but the branches themselves were written before the program ran. Free will is real (you make choices). But the choices were written into your source code by the Programmer. (Tech domain — targets software developers)
 
-2. **The Satellite Dish Analogy** — A satellite dish doesn't generate the signal. It receives it. The dish's orientation matters, but the dish didn't create the satellite, didn't launch it into orbit, didn't encode the broadcast. Pointing at the satellite was simply the dish doing what the engineer designed it to do. Faith is the dish. God is the satellite, the signal, and the engineer. (Technology domain — targets "faith is my contribution")
+2. **The Diagnosis Analogy** — When a doctor diagnoses cancer, the patient didn't choose the cancer. But the diagnosis reveals what was already true. Election is God's diagnosis of grace — it reveals what He decided before you existed. You didn't choose grace any more than you chose the diagnosis. (Medical domain — targets "fairness" objection)
 
-3. **The Gravity Well Analogy** — Every object in the solar system is "free" to move — but every orbit is determined by gravitational forces the object didn't choose. Jupiter doesn't "decide" to orbit the sun. It does so because the mass of the sun makes that orbit inevitable. Your trajectory toward God was inevitable — not because you lacked freedom, but because His grace has more mass than your resistance. (Physics domain — targets "freedom" concern)
+3. **The Adopted Baby Analogy (Extended)** — An adopted baby doesn't choose its parents. The parents choose the baby. The baby's contribution to the adoption is: being helpless. The parents' contribution: everything else — the desire, the paperwork, the flights, the tears, the legal fees, the sleepless nights, the love. That's election. (Family domain — targets emotional resistance)
 
-4. **The Mother Tongue Analogy** — You think in your first language without choosing to. You dream in it. You count in it under stress. Faith in God, for the elect, operates at this same pre-conscious level — it's the language your soul was designed to speak. You didn't learn it; you were born into it. (Linguistics domain — targets "I chose to believe")
+4. **The Dream Analogy** — In a lucid dream, you feel in control. You "choose" where to walk, what to say. But the entire dream is produced by your subconscious. Your feeling of control IS part of the dream. What if your sense of choosing God is like that — real in experience, but produced by something deeper than your conscious will? (Psychology domain — targets "it feels like I chose" objection)
 
-5. **The Bone Marrow Analogy** — After a bone marrow transplant, the recipient's blood type changes to the donor's. Old cells die. New cells are the donor's cells, producing blood the recipient could never have produced on their own. That's regeneration. Your spiritual "blood type" changed — not because you chose it, but because the Donor's life replaced yours. (Medical domain — targets "new creation" and "born again")
+5. **The River Analogy** — A river doesn't choose its path. It follows gravity, terrain, rainfall. But the river is still the river. It still carves canyons. It still nourishes everything it touches. Sovereignty doesn't make you less yourself. It makes you MORE yourself — the self God designed before the terrain was formed. (Nature domain — targets "robots" objection)
 
 ---
 
 ## 3 Theological Deep Cuts
 
-1. **1 Corinthians 4:7 — "What do you have that you did not receive? If then you received it, why do you boast as if you did not receive it?"** This is Paul's direct statement that EVERYTHING the believer has — including faith — was received. The verse explicitly connects receiving to the prohibition against boasting. If you boast about your faith decision, you are doing the exact thing Paul says receiving prohibits. This verse should be a page-level deployment on par with Ephesians 2:8-9.
+1. **Deuteronomy 30:6 — "The LORD your God will circumcise your heart and the heart of your offspring, so that you will love the LORD your God with all your heart and with all your soul, that you may live."** God circumcises the heart. The ability to love God is something GOD does TO you. Moses says this BEFORE the people enter the land. The Old Testament teaches monergistic regeneration. This verse should have its own demolition page.
 
-2. **The "drew" (helkusen) in John 6:44 is the same verb used for dragging a net full of fish (John 21:11) and dragging Paul through a city (Acts 16:19).** This is not gentle invitation. The verb denotes physical force applied to an object that cannot move itself. The Arminian claim that "draw" means "woo" must account for the fact that John uses the identical verb for dragging 153 fish and dragging a man through streets. Neither the fish nor Paul were "wooed."
+2. **Ezekiel 37:3-4 — "Son of man, can these bones live?"** God asks Ezekiel, not the bones. The bones are not consulted about their resurrection. They don't "decide" to live. The word comes, the Spirit comes, and they stand. This is the most vivid illustration of regeneration in Scripture — and the dead didn't vote on it.
 
-3. **Acts 16:14 — "The Lord opened her heart to pay attention to what was said by Paul."** The verb ēnoixen (opened) is aorist active indicative — GOD is the subject performing the action. Lydia's heart was opened BY God — she did not open it herself. The sequence: Paul spoke → God opened → Lydia believed. Her belief was the RESULT of God's action, not the cause of it. This is Luke narrating the mechanics of conversion in real time.
+3. **The "gift" (dōron) in Ephesians 2:8 — grammatical question**: Does "this" (touto) refer to faith, grace, or the entire salvation? Answer: the neuter touto cannot grammatically refer only to pistis (feminine) or charis (feminine). It refers to the entire preceding construction — the whole package of being-saved-through-faith. The ENTIRE THING is the gift. This is stronger than saying "faith is a gift" — it says the whole transaction, including your faith, is God's gift. Build a dedicated page.
 
 ---
 
 ## STRATEGIC WATCH ITEMS
 
-1. **Analytics data is 5 days old** (last updated 3/30). Need fresh pull to measure impact of 29 new pages.
-2. **Guardian and Evangelist marked "needs restoration"** in Fleet Map. Verify both are running on schedule.
-3. **Newsletter category growing fast (6 pages).** May need its own hub page or mega-menu entry soon.
-4. **Bot probe traffic (6.1%)** is stable but worth monitoring. No action needed.
+1. **Analytics data is 5 days old** (last updated 3/30). Need fresh pull to measure impact of 19+ new pages.
+2. **Guardian and Evangelist agents marked "needs restoration."** Verify both are running.
+3. **Philosophy category needs a hub page.** 9 pages with no landing page = discovery problem.
+4. **Apologetics category officially retired per CLAUDE.md (2026-04-04).** 5 pages redistributed to Questions.
+5. **Newsletter category growing (6 pages).** Needs hub page soon.
+6. **Recovery community bridge content** — Philosopher identified AA/NA as massive untapped audience. Build bridge pages.
+7. **Two Arms imbalance: 1.6:1 demolition to devotion.** Every Creator session should include at least 1 devotional/healing page per 2 demolition pages.
 
 ---
 
-*The elect are searching. 295 pages live and growing. The Romans walkthrough must begin. The healing offensive continues. The trajectory is always upward.*
+*The elect are searching. 314 pages and growing. The Crown Jewel page exists. The philosophy category has launched. The Romans walkthrough has begun. The trajectory is always upward.*
 
-*"Before I formed you in the womb I knew you, before you were born I set you apart." — Jeremiah 1:5*
+*"What do you have that you did not receive? If then you received it, why do you boast as if you did not receive it?" — 1 Corinthians 4:7*

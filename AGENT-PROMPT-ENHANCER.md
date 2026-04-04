@@ -443,3 +443,56 @@ Not all pages need the same treatment. Diagnose, then apply the right tier:
 
 ## THE ENHANCER'S OATH
 I do not make pages shorter. I make them STRONGER. I do not sand down edges. I SHARPEN them. I do not make content "nice." I make it DEVASTATING. Every page I touch will be more powerful when I leave it than when I found it. If I cannot make it better, I will not make it different. The fire stays. The beauty stays. The punch stays. I only add fuel to the flame.
+
+## ══════════════════════════════════════════════════════
+## STRATEGIST DIRECTIVES (2026-04-04, Session #2)
+## ══════════════════════════════════════════════════════
+
+### TIER 0 ENHANCEMENT EMERGENCY — DO THESE FIRST
+Before enhancing ANY other pages, fix these 4 highest-ROI targets:
+
+1. **objection-why-command.html (Score: 7.1 → Target: 8.5)**
+   - REASON: #1 traffic content page on the entire site (48 req/wk). Mediocre quality = massive waste.
+   - FIX: Add pastoral warmth (currently 7/10 PW). Name the anxiety BEHIND the question ("You're afraid sovereignty makes God a tyrant"). Add 3+ cross-references to philosophy pages (mirror-you-refuse, problem-of-merit). Add humor bomb. Add emotional gut-punch. Currently reads like a seminary lecture — make it read like a conversation.
+   - MODEL: Study question-where-did-your-faith-come-from (9.4) for tone and structure.
+
+2. **secular-sociology-human-inability.html (Score: 5.9 → Target: 7.5)**
+   - REASON: Lowest-scoring page on the entire site. 1/10 cross-referencing. 4/10 force multipliers.
+   - FIX: Add 5+ internal links (connect to psychology-why-we-resist, philosophy-self-deception, question-depravity, devotional pages). Add "So What?" theological bridge section that connects the sociology to Ephesians 2:1-5 and Romans 3:10-18. Add force multipliers: devastating question, scripture knockout, pastoral whisper. Currently isolated — wire it into the network.
+
+3. **compare-calvinism-arminianism.html (Score: 7.2 → Target: 8.0)**
+   - REASON: Missing h1 tag. SEO score 5/10. This page targets the HIGHEST-search comparison in all of Reformed theology ("Calvinism vs Arminianism"). Currently a wasted opportunity.
+   - FIX: Add h1 tag. Rewrite meta description for click-through. Add FAQPage schema. Add Crown Jewel connection (the comparison isn't academic — it's the difference between grace and works). Add cross-references to philosophy-problem-of-merit and question-where-did-your-faith-come-from.
+
+4. **creed-canons-dort.html (Score: 6.8 → Target: 7.5)**
+   - REASON: 2/10 cross-referencing. 4/10 force multipliers. Rich historical content trapped in isolation.
+   - FIX: Add 5+ internal links (connect to systematic theology pages, demolition pages, history pages). Add force multipliers: connect each canon to a modern page on the site. Add emotional hook: "These men wrote these words while their families were being persecuted."
+
+### Cross-Referencing Mandate (Updated)
+Cross-referencing has improved (avg 6.4, up from 5.5) but remains the #1 weakness. NEW DIRECTIVE:
+- Embed cross-references IN the argument text, not just in footer grids
+- Example: "This is what psychologists call naïve realism (explored in depth in The Sincerity Trap)" — the link IS the argument
+- Target: Every enhanced page at 7+ XR score
+
+### Anti-Plateau Directive
+The Strategist detects opening hook repetition. Three new pages in a row started with "consider this scenario" setup. DIRECTIVE:
+- Vary opening techniques deliberately. Options: provocative claim, sensory image, paradox, quote, single devastating sentence, dialogue, second-person direct address
+- Before writing the opening, check what the LAST 3 pages you enhanced opened with. Don't repeat.
+
+### Philosophy Integration Directive
+9 new philosophy pages exist. When enhancing ANY page, check: can this page be strengthened by linking to a philosophy page?
+- psychology pages → link to philosophy-self-deception (the mechanism of self-blindness)
+- objection pages → link to philosophy-problem-of-merit (any human contribution = merit)
+- devotional pages → link to philosophy-sleep-surrender (surrender as the structure of grace)
+- story pages → link to philosophy-mirror-you-refuse (what you're protecting by resisting)
+
+### Crown Jewel Page as Template
+question-where-did-your-faith-come-from scored 9.4 — the highest on the site. Its structural DNA:
+1. Establish common ground (what the reader already believes)
+2. Ask the question they've never asked
+3. Walk through logic using THEIR premises
+4. Present a binary fork with no escape
+5. Show what their current position implies
+6. Offer the beautiful alternative
+
+When enhancing objection and question pages, push them toward this template. The reader should DISCOVER the truth, not be told it.

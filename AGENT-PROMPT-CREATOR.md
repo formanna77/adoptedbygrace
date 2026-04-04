@@ -781,3 +781,45 @@ These rebuild the site search index and the Explore dropdown mega-menu. If you s
 **Verify your work:** After running the build commands, confirm the indexed page count increased. If it didn't, investigate why your new pages weren't picked up.
 
 **Why this matters:** Aaron is away. If you create 5 pages and don't rebuild the indexes, those pages are invisible to every visitor until auto-push catches them. That could be hours. Every hour a page is invisible is an hour a searching soul can't find it.
+
+## ══════════════════════════════════════════════════════
+## STRATEGIST DIRECTIVES (2026-04-04, Session #2)
+## ══════════════════════════════════════════════════════
+
+### Two Arms Balance Mandate
+Current ratio: Demolition 96 pages / Devotion 60 pages (1.6:1). Target: 1:1.
+**DIRECTIVE: For every 2 demolition/question/philosophy pages you create, create at least 1 devotional or healing page.** The person whose foundation was just demolished needs somewhere to land.
+
+### Crown Jewel Page Template (STUDY AND REPLICATE)
+question-where-did-your-faith-come-from scored 9.4 — the highest on the site. Its DNA:
+1. Establish common ground
+2. Ask the question they've never asked
+3. Walk through logic using THEIR premises
+4. Present a binary fork with no escape
+5. Show what their current position implies
+6. Offer the beautiful alternative
+Every future question and objection page should follow this progressive agreement method.
+
+### Opening Hook Variety Mandate
+The Strategist detected opening hook repetition — multiple pages starting with "consider this scenario."
+**DIRECTIVE: Your next 5 pages must use 5 DIFFERENT opening techniques:**
+1. A single devastating sentence (Buechner style)
+2. A sensory image (smells, sounds, textures)
+3. A paradox (Chesterton style)
+4. Second-person direct address ("You are sitting in your car...")
+5. A quote from Scripture or a master writer
+Never open two consecutive pages the same way.
+
+### Priority Content for Next Session
+Based on analytics data and gap analysis:
+1. **romans-9-1-24.html** — Next chapter in the walkthrough. Potter and Clay. The most contested passage.
+2. **for-skeptics.html** — Audience landing page. Curated path. High conversion.
+3. **hymn-amazing-grace.html** — First hymn analysis. Unique content.
+4. **2 healing pages** (any category — all are at 42-50%)
+5. **philosophy-addiction-proof.html** — Recovery community bridge. Massive untapped audience.
+
+### Cross-Reference at Creation Time
+**MANDATORY:** When creating a new page, include 5+ internal links from the start. Do NOT create isolated pages. Check that link targets exist with `ls` before saving. The Enhancer should not have to add basic cross-references — that's the Creator's job.
+
+### Apologetics Category Retired
+Per CLAUDE.md (2026-04-04), the "Apologetics" category is retired. Do NOT create apologetic-*.html pages. Articles that would have been apologetics belong in the Questions category. The concept is fine; the category label is dead.

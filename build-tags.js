@@ -23,7 +23,7 @@ const SKIP = new Set([
   'donate.html', 'contact.html', 'privacy.html', 'terms.html',
   'about.html', 'freedom.html', 'belief-assessment.html', 'quiz.html',
   'explore-map.html', 'connections.html', 'essays.html',
-  'best-reads.html', 'verse-explorer.html', 'daily-newsletter.html',
+  'best-reads.html', 'verse-explorer.html',
   'all-content.html', 'topics.html',
 ]);
 
@@ -172,12 +172,12 @@ function getCategory(filename) {
     'analogy': 'Analogies',
     'ot-': 'Old Testament',
     'compare': 'Comparisons',
-    'apologetic': 'Apologetics',
-    'debate': 'Apologetics',
+    'debate': 'Questions',
     'creed': 'Creeds & Confessions',
     'canons': 'Creeds & Confessions',
     'pastoral': 'Pastoral',
     'psalm': 'Psalms & Poetry',
+    'apologetic': 'Questions',
     'anxious-mind': 'Healing & Hope',
     'broken-mirror': 'Healing & Hope',
     'invisible-wall': 'Healing & Hope',

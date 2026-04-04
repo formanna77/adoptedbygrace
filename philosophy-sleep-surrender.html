@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Why you can't will yourself to sleep—and what that teaches us about grace, the will, and what it means to receive what we cannot achieve.">
+    <meta name="keywords" content="grace, free will, faith as gift, insomnia, surrender, divine sovereignty, Reformed theology, Ephesians 2:8-9">
+    
+    <title>Why You Can't Will Yourself to Sleep — And What It Proves About Grace</title>
+    
+    <meta property="og:title" content="Why You Can't Will Yourself to Sleep — And What It Proves About Grace">
+    <meta property="og:description" content="The universal experience of insomnia reveals a truth about the human will that Scripture has always taught: some things can only be received, never achieved.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/philosophy-sleep-surrender">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Why You Can't Will Yourself to Sleep — And What It Proves About Grace">
+    <meta name="twitter:description" content="The universal experience of insomnia reveals a truth about the human will that Scripture has always taught: some things can only be received, never achieved.">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Why You Can't Will Yourself to Sleep — And What It Proves About Grace",
+        "description": "A philosophical exploration of insomnia, surrender, and grace—showing how the universal human experience of the will's powerlessness mirrors the structure of salvation itself.",
+        "image": "https://adoptedbygrace.net/og-image.png",
+        "datePublished": "2026-04-04",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(to right, #d4a574, #b8860b);
+            width: 0%;
+            z-index: 9999;
+            transition: width 0.1s ease;
+        }
+
+        .philosophy-hero {
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1620 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .philosophy-hero-eyebrow {
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #d4a574;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .philosophy-hero h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .philosophy-hero-subtitle {
+            font-size: 1.1rem;
+            color: #ccc;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+            font-weight: 300;
+        }
+
+        .philosophy-container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .philosophy-section {
+            margin-bottom: 4rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .philosophy-section.reveal {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .section-number {
+            display: inline-block;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #d4a574;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-title {
+            font-size: clamp(1.5rem, 3vw, 2.2rem);
+            line-height: 1.3;
+            margin-bottom: 1.5rem;
+            color: #0a0a0f;
+            font-weight: 700;
+        }
+
+        .section-content {
+            color: #2a2a2a;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .section-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .concept-card {
+            background: #f9f5f0;
+            border-left: 4px solid #d4a574;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #3a3a3a;
+            line-height: 1.8;
+        }
+
+        .pull-quote {
+            border-left: 4px solid #d4a574;
+            padding-left: 2rem;
+            margin: 2.5rem 0;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #0a0a0f;
+            line-height: 1.7;
+        }
+
+        .pull-quote.scripture {
+            font-style: italic;
+            color: #555;
+        }
+
+        .scripture-ref {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        .keep-reading {
+            background: #fafafa;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        .keep-reading h3 {
+            font-size: 1.1rem;
+            color: #0a0a0f;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .keep-reading-links {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .keep-reading-links {
+                grid-template-columns: 1fr;
+            }
+
+            .philosophy-hero {
+                padding: 2.5rem 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+        }
+
+        .keep-reading-link {
+            display: block;
+            padding: 1rem;
+            background: white;
+            border: 1px solid #d4a574;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #0a0a0f;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .keep-reading-link:hover {
+            background: #d4a574;
+            color: white;
+            border-color: #d4a574;
+        }
+
+        .keep-reading-link-title {
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .keep-reading-link-icon {
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="reading-progress"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
+                <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">History</a></li>
+                <li class="mobile-nav-link"><a href="/analogies-illustrations">Analogies</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/devotionals" class="nav-top-link">Devotionals</a>
+                <a href="/stories" class="nav-top-link">Stories</a>
+                <a href="/secular-evidence" class="nav-top-link">Secular</a>
+                <a href="/history-timeline" class="nav-top-link">History</a>
+                <a href="/analogies-illustrations" class="nav-top-link">Analogies</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="mega-menu" id="megaMenu"></div>
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <header class="philosophy-hero">
+        <div class="philosophy-eyebrow">Philosophy of Truth</div>
+        <h1>Why You Can't Will Yourself to Sleep</h1>
+        <p class="philosophy-hero-subtitle">And what that teaches us about grace, the will, and the structure of salvation itself</p>
+    </header>
+
+    <main class="philosophy-container">
+
+        <article class="philosophy-section" data-section="01">
+            <div class="section-number">01 — Three Forty-Seven in the Morning</div>
+            <h2 class="section-title">The Universal Helplessness</h2>
+            <div class="section-content">
+                <p>You're lying in the dark. Your eyes are closed. Your body is heavy with exhaustion. You need to sleep—desperately. You <em>want</em> to sleep with every fiber of your being. You know you have to be up in five hours. So you command yourself. <em>Sleep. Sleep now. Close your mind. Relax. Let go.</em></p>
+                
+                <p>And nothing happens.</p>
+                
+                <p>The harder you concentrate on falling asleep, the more acutely aware you become of every sound, every sensation, every thought. The desperation to sleep becomes a spotlight, and you watch it illuminate the very wakefulness you are trying to extinguish. Minutes crawl. You try a different technique. Breathe slower. Count backwards. Empty your mind. But the very effort of emptying your mind becomes a thought you are aware of. Effort has become the enemy of what you're trying to achieve.</p>
+
+                <div class="concept-card">
+                    Every human being has lain awake at three in the morning, absolutely desperate, completely sincere, fully determined—and entirely powerless. We have all encountered, in the flesh, the boundary of the will's dominion.
+                </div>
+
+                <p>This is not a rare problem for the few. This is the universal human experience. Rich and poor, the brilliant and the simple, the pious and the profane—they have all found themselves in that dark room, willing with every ounce of their being toward a goal their will cannot produce. And in that moment, if you are paying attention, you come face to face with a truth about yourself that most of us spend our entire lives avoiding: <strong>there are things you want with genuine intensity that you simply cannot do, no matter how sincere your desire, no matter how determined your will.</strong></p>
+
+                <p>This is not a failure to try hard enough. It is not a lack of motivation. It is a failure of <em>capacity</em>. And the human being was not designed to accept such failure easily. So we lie there, and we rage against it silently, and we wonder: what is happening to me?</p>
+            </div>
+        </article>
+
+        <article class="philosophy-section" data-section="02">
+            <div class="section-number">02 — The Paradox of Effort</div>
+            <h2 class="section-title">Why Striving Defeats Itself</h2>
+            <div class="section-content">
+                <p>Sleep is not unique. There are many things that flee from effort.</p>
+
+                <p>You cannot will yourself to fall in love. The moment you recognize you're trying to force feeling, the feeling evaporates. You cannot will yourself to find something funny—laughter dies the instant you become conscious of manufacturing it. You cannot will yourself to believe something you don't actually believe; the effort of pretending reveals the lie. You cannot will yourself to forget something painful; the concentration on forgetting keeps it front and center. You cannot will yourself to be confident, or humble, or courageous, or at peace.</p>
+
+                <div class="pull-quote">
+                    All these things share a hidden structure: they can only be <em>received</em>, never <em>achieved</em>.
+                </div>
+
+                <p>This is what makes them different from the things the will can do. You can will yourself to exercise, to study, to apologize, to serve. These are acts of the will acting upon the external world or the body. But sleep, love, faith, laughter, peace—these are states of being that can only arrive when the will stops trying to produce them.</p>
+
+                <p>Sleep requires that you surrender the very instrument you've been using to chase it. It requires that you stop <em>trying</em>. The will cannot will itself into submission. Control cannot create the conditions for surrender. Effort to stop making effort is still effort. This is the paradox: the will, by its very nature, is incapable of producing what it needs to produce. It is locked in a cage of its own making.</p>
+
+                <p>And yet—somehow, at some point, sleep comes. Not because you achieved it, but because something changed. The effort stopped. The will finally released. And in that moment of surrender, what the will could not produce arrived unbidden.</p>
+
+                <p>What is this dynamic? Why does it exist? And what could it possibly tell us about the structure of human existence itself?</p>
+            </div>
+        </article>
+
+        <article class="philosophy-section" data-section="03">
+            <div class="section-number">03 — A Living Parable of Powerlessness</div>
+            <h2 class="section-title">The Insomniac as Scripture</h2>
+            <div class="section-content">
+                <p>The insomniac is a living embodiment of a spiritual reality that Scripture has been trying to communicate for thousands of years—a reality that most of us spend our entire lives avoiding or denying.</p>
+
+                <p>Consider: The insomniac <em>wants</em> sleep. The desire is real. It burns. They would do almost anything to sleep—they'll try pills, meditation, apps, white noise, cold rooms, hot baths. The desire is genuine and intense. But desire is not the same as ability. Wanting something desperately is not the same as being capable of producing it.</p>
+
+                <div class="pull-quote scripture">
+                    "For I have the desire to do what is right, but not the ability to carry it out."
+                    <div class="scripture-ref">Romans 7:18</div>
+                </div>
+
+                <p>Paul is describing the human condition. Not just the bad behavior of bad people, but the spiritual reality of all humanity: a profound, unbridgeable gap between what we want and what we can do. We want God (or we want something we cannot name—peace, meaning, wholeness, goodness). We want it sincerely. We want it desperately. And we are utterly incapable of reaching it through our own will.</p>
+
+                <p>This is what the insomniac knows in their bones. This is what three in the morning teaches: <strong>the will's desire is not equivalent to the will's power.</strong> You can want with complete sincerity and still be powerless. That is not a moral failure. That is a structure of human existence. You are not strong enough. You are not disciplined enough. You are not <em>able</em> enough. The incapacity is not a temporary condition that trying harder will overcome. The incapacity is fundamental.</p>
+
+                <p>This is the truth that humanity rejects with every fiber. We believe—we <em>must</em> believe, our pride insists—that if we just try hard enough, want badly enough, work long enough, we can achieve anything. But the insomniac knows better. The insomniac has met the boundary where their will stops and their powerlessness begins. And that boundary is real, and it doesn't move.</p>
+
+                <p>Scripture says this is true not just of sleep, but of the deepest transformation a human being can experience: becoming a child of God, receiving the gift of faith, being saved. It is the thing humanity wants most desperately and is least able to produce.</p>
+            </div>
+        </article>
+
+        <article class="philosophy-section" data-section="04">
+            <div class="section-number">04 — The Moment the Walls Come Down</div>
+            <h2 class="section-title">How Surrender Becomes Reception</h2>
+            <div class="section-content">
+                <p>And then—at some hour you cannot predict, through no effort of your own—it happens. Sleep comes.</p>
+
+                <p>You didn't flip a switch. You didn't discover the secret technique. You didn't finally muster the willpower. What happened is simpler and more profound: <em>you stopped trying.</em></p>
+
+                <p>Perhaps your mind simply wore itself out. Perhaps you gave up. Perhaps you had a moment of surrender where you whispered into the dark: "I can't do this. I'm just going to lie here." And in that moment—the moment the striving collapsed—something shifted. The tension released. The desperate watchfulness eased. And sleep, which had been retreating from every effort to seize it, simply arrived. Not because you deserved it. Not because you earned it. Not because you finally tried the right technique. But because you stopped fighting against the very thing you needed.</p>
+
+                <div class="pull-quote">
+                    "Come to me, all who are weary and burdened, and I will give you rest."
+                    <div class="scripture-ref">Matthew 11:28</div>
+                </div>
+
+                <p>Notice what Jesus does not say: "Try harder. Work on yourself. Develop better rest habits. Take responsibility for your own restoration." None of that. He says: <em>Come. And I will give.</em> The verb is passive. The reception is the action. The surrender is what allows the gift to arrive.</p>
+
+                <p>This is the structure of grace. Grace arrives when human effort exhausts itself. Not because the exhaustion earns grace, but because exhaustion is the moment when the wall of the will—the barrier erected by our insistence that we can do this ourselves—finally comes down. In that moment of collapse, what the will could not produce becomes receivable.</p>
+
+                <p>The insomniac lying in bed thinking "I can't do this alone" is not far from the sinner on their knees thinking "I can't save myself." They've arrived at the same place: the end of their own sufficiency. And at that place, alone, is the only doorway through which grace can enter.</p>
+
+                <p>For sleep, it takes minutes. For salvation, it takes a lifetime—and often it takes broken circumstances, lost certainties, the collapse of self-confidence, and the anguish of realizing that every attempt to reach toward God through your own effort is pushing you further away. But the structure is identical. <strong>Grace is the gift that arrives when you finally stop trying to produce what you cannot produce.</strong></p>
+            </div>
+        </article>
+
+        <article class="philosophy-section" data-section="05">
+            <div class="section-number">05 — Waking in Wonder</div>
+            <h2 class="section-title">The Gift You Did Not Earn</h2>
+            <div class="section-content">
+                <p>Here is the most beautiful thing about sleep: when you wake, you do not take credit for it.</p>
+
+                <p>No one lies in bed in the morning and thinks, "I achieved sleep through my superior willpower." You don't write in your journal: "I worked so hard on sleep and finally succeeded." You don't brag to your friends: "You won't believe the sleep technique I perfected." You simply received a gift your exhausted body needed and your will was unable to produce. The reception is so complete that you accept it without a shred of boasting.</p>
+
+                <p>This is what happens when faith finally arrives.</p>
+
+                <p>The Christian does not take credit for faith. Not because they are told not to—though Scripture does say so—but because they <em>know</em> they didn't do it. Just as the person waking from sleep knows they didn't cause sleep, the believer knows they didn't cause faith. They arrived at it through no achievement of their own. They were empty, and something was given. They were powerless, and grace moved. They were drowning in the awareness of their own incapacity, and suddenly—not through their effort, but despite their powerlessness—they could breathe.</p>
+
+                <div class="concept-card">
+                    The deepest possible knowledge of grace is not intellectual. It is experiential. You know you didn't do it because you remember the moment you stopped trying, and the moment faith arrived anyway.
+                </div>
+
+                <p>This is why the elect—those whom God has chosen to bring into His family—cannot help but rest in grace. Not because they're more sophisticated theologians. Not because they've thought about it carefully. But because they've experienced what the insomniac experiences: the moment when the will collapses and something real, something undeniable, something that tastes like love and truth and home arrives completely unbidden. And they know. As clearly as the sleeper knows they didn't cause sleep, they know they didn't cause faith.</p>
+
+                <div class="pull-quote scripture">
+                    "By grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
+                    <div class="scripture-ref">Ephesians 2:8-9</div>
+                </div>
+
+                <p>Not by works. Not by trying. Not by willing yourself toward righteousness or faith or wholeness. The gift. Unearned. Undeserved. Arriving not because you conquered yourself but because you finally admitted you couldn't.</p>
+
+                <p>When you finally understand this—not just in your head, but in the deepest places where truth lives—everything changes. The fear dissolves. The performance stops. The desperate grasping ceases. You lie down in peace, not because you achieved peace, but because the peace achieved you. And you wake in a world where you are loved not for what you have done but for what has been done for you.</p>
+
+                <p>That is grace. That is what the insomniac's dark room can teach us, if we're paying attention. That is the rest that remains for the people of God.</p>
+            </div>
+        </article>
+
+        <div class="keep-reading">
+            <h3>Keep Reading</h3>
+            <div class="keep-reading-links">
+                <a href="/philosophy-copernican-revolution" class="keep-reading-link">
+                    <span class="keep-reading-link-title">The Copernican Revolution</span>
+                    <span class="keep-reading-link-icon">Philosophy</span>
+                </a>
+                <a href="/philosophy-self-deception" class="keep-reading-link">
+                    <span class="keep-reading-link-title">The Self-Deception Engine</span>
+                    <span class="keep-reading-link-icon">Philosophy</span>
+                </a>
+                <a href="/devotionals" class="keep-reading-link">
+                    <span class="keep-reading-link-title">Devotionals</span>
+                    <span class="keep-reading-link-icon">All categories</span>
+                </a>
+                <a href="/psychology-hub" class="keep-reading-link">
+                    <span class="keep-reading-link-title">Why We Resist</span>
+                    <span class="keep-reading-link-icon">Psychology Hub</span>
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script>
+        // Reading progress bar
+        function updateReadingProgress() {
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolled = window.scrollY;
+            const scrollPercent = (scrolled / docHeight) * 100;
+            document.querySelector('.reading-progress').style.width = scrollPercent + '%';
+        }
+
+        window.addEventListener('scroll', updateReadingProgress);
+
+        // Reveal on scroll
+        const revealElements = document.querySelectorAll('.philosophy-section');
+
+        const revealOnScroll = () => {
+            revealElements.forEach(el => {
+                const elementTop = el.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (elementTop < windowHeight - 100) {
+                    el.classList.add('reveal');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', revealOnScroll);
+        revealOnScroll();
+    </script>
+</body>
+</html>

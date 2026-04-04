@@ -684,7 +684,10 @@ footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle);
 .footer-section li { margin-bottom: 0.5rem; }
 .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; display: inline-block; padding: 0.4rem 0; min-height: 44px; line-height: 1.8; }
 .footer-section a:hover { color: var(--accent-gold); }
-.footer-copyright { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
+.footer-grace-warning { text-align: center; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-subtle); color: var(--text-secondary); font-size: 0.85rem; font-style: italic; line-height: 1.7; max-width: 700px; margin-left: auto; margin-right: auto; }
+.footer-grace-warning a { color: var(--accent-gold); text-decoration: none; transition: color 0.3s ease; }
+.footer-grace-warning a:hover { color: var(--text-primary); }
+.footer-copyright { text-align: center; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
 
 /* ===== COMPARISON TABLES ===== */
 /* Table scroll wrapper for mobile */
@@ -715,6 +718,16 @@ a:focus-visible { outline-offset: 3px; }
 .skip-to-content { position: absolute; top: 0; left: 0; background: var(--accent-gold); color: var(--bg-deep); padding: 8px 16px; z-index: 10000; font-weight: 600; font-size: 0.9rem; text-decoration: none; transition: transform 0.2s; transform: translateY(-100%); }
 .skip-to-content:focus { transform: translateY(0); }
 
+/* ===== BREADCRUMB NAV ===== */
+.breadcrumb-nav, .breadcrumb { overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; padding: 0.5rem 1rem; font-size: 0.85rem; }
+
+/* ===== SECTION NAV (in-page anchor links) ===== */
+.section-nav { position: sticky; top: 50px; z-index: 90; background: var(--bg-deep); border-bottom: 1px solid var(--border-subtle); padding: 0.8rem 0; }
+.section-nav-container { max-width: 1200px; width: 100%; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 1rem; padding: 0 2rem; list-style: none; justify-content: center; }
+.section-nav a, .section-nav-item a, .section-link { color: var(--accent-gold); text-decoration: none; font-size: 0.88rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; padding: 0.4rem 0.6rem; border-radius: 4px; transition: background 0.3s ease, color 0.3s ease; white-space: nowrap; }
+.section-nav a:hover, .section-nav-item a:hover, .section-link:hover { background: rgba(212, 162, 84, 0.1); color: var(--text-primary); }
+.section-nav a.active, .section-link.active { color: var(--accent-gold); background: rgba(212, 162, 84, 0.08); }
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     h1 { font-size: 2.2rem; }
@@ -729,6 +742,10 @@ a:focus-visible { outline-offset: 3px; }
     .compare-table th, .compare-table td { padding: 0.7rem 0.5rem; }
     .timeline { padding-left: 1.5rem; }
     .timeline-item::before { left: -1.5rem; transform: translateX(-5px); }
+    .section-nav-container { gap: 0.5rem; padding: 0 1rem; justify-content: center; }
+    .section-nav a, .section-nav-item a, .section-link { font-size: 0.78rem; padding: 0.35rem 0.5rem; letter-spacing: 0.03em; }
+    .tab-nav { flex-wrap: wrap; gap: 0; }
+    .tab-btn { font-size: 0.78rem; padding: 0.7rem 0.8rem; white-space: normal; text-align: center; flex: 1 1 auto; min-width: 0; }
 }
 @media (max-width: 480px) {
     h1 { font-size: 1.8rem; }
@@ -743,7 +760,9 @@ a:focus-visible { outline-offset: 3px; }
     .pull-quote-text { font-size: 1.05rem; }
     .accordion-header { padding: 1rem 1.2rem; font-size: 1rem; }
     .accordion-body-inner { padding: 1rem 1.2rem 1.3rem; }
-    .tab-btn { padding: 0.8rem 1rem; font-size: 0.78rem; }
+    .tab-btn { padding: 0.6rem 0.6rem; font-size: 0.72rem; letter-spacing: 0.02em; }
+    .section-nav-container { flex-direction: column; align-items: stretch; gap: 0.3rem; padding: 0 1rem; }
+    .section-nav a, .section-nav-item a, .section-link { text-align: center; padding: 0.5rem 0.8rem; font-size: 0.75rem; border: 1px solid var(--border-subtle); border-radius: 6px; }
     .steps li { padding: 1.2rem 1rem 1.2rem 3.8rem; }
     .callout { padding: 1.2rem 1.3rem; }
     .tooltip::after { max-width: 220px; }

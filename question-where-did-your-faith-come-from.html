@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where Did Your Faith Come From? The Question That Changes Everything — Adopted by Grace</title>
+    <meta name="description" content="A gentle Socratic journey into the most important question a Christian can ask: Where did your faith actually come from? Not where the gospel came from. Where did the faith itself come from?">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Where Did Your Faith Come From? The Question That Changes Everything">
+    <meta property="og:description" content="A gentle Socratic journey into the most important question a Christian can ask: Where did your faith actually come from?">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/question-where-did-your-faith-come-from">
+    <meta property="og:image" content="https://adoptedbygrace.net/images/og-questions.jpg">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Where Did Your Faith Come From? The Question That Changes Everything",
+        "description": "A gentle Socratic journey into the most important question a Christian can ask.",
+        "url": "https://adoptedbygrace.net/question-where-did-your-faith-come-from",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        },
+        "datePublished": "2026-04-04",
+        "image": "https://adoptedbygrace.net/images/og-questions.jpg"
+    }
+    </script>
+    
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        :root {
+            --accent-color: #d4a574;
+            --accent-dark: #b8923f;
+            --accent-light: #e8c9a0;
+            --bg-light: #faf8f3;
+        }
+
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-color), var(--accent-dark));
+            width: 0%;
+            z-index: 9999;
+            transition: width 0.1s ease;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-eyebrow {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .hero h1 {
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.85);
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .content {
+            background: white;
+            padding: 3rem 2rem;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .section {
+            margin-bottom: 4rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .section.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .section-number {
+            display: inline-block;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-dark);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #0a0a0f;
+            line-height: 1.3;
+        }
+
+        .section p {
+            margin-bottom: 1.3rem;
+            color: #333;
+        }
+
+        .scripture-block {
+            background: linear-gradient(135deg, var(--bg-light) 0%, rgba(212, 165, 116, 0.08) 100%);
+            border-left: 4px solid var(--accent-color);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: #1a1a2e;
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            display: block;
+            font-style: normal;
+            font-weight: 600;
+            color: var(--accent-dark);
+            margin-top: 0.8rem;
+            font-size: 0.95rem;
+        }
+
+        .concept-card {
+            background: white;
+            border: 2px solid var(--accent-light);
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .concept-card h3 {
+            color: var(--accent-dark);
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+        }
+
+        .concept-card p {
+            margin-bottom: 0;
+            color: #333;
+        }
+
+        .pull-quote {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: var(--accent-dark);
+            text-align: center;
+            margin: 2.5rem 0;
+            padding: 2rem;
+            border-top: 2px solid var(--accent-light);
+            border-bottom: 2px solid var(--accent-light);
+            line-height: 1.6;
+        }
+
+        .two-options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .two-options .option {
+            padding: 1.5rem;
+            border-radius: 6px;
+            border: 2px solid #e0e0e0;
+        }
+
+        .two-options .option h3 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .two-options .option-a {
+            background: rgba(212, 165, 116, 0.1);
+            border-color: var(--accent-color);
+        }
+
+        .two-options .option-a h3 {
+            color: var(--accent-dark);
+        }
+
+        .two-options .option-b {
+            background: rgba(220, 53, 69, 0.08);
+            border-color: #dc3545;
+        }
+
+        .two-options .option-b h3 {
+            color: #dc3545;
+        }
+
+        @media (max-width: 768px) {
+            .two-options {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+
+            .content {
+                padding: 1.5rem 1rem;
+            }
+
+            .pull-quote {
+                font-size: 1.1rem;
+                padding: 1.5rem;
+            }
+        }
+
+        .keep-reading {
+            background: linear-gradient(135deg, var(--bg-light) 0%, rgba(212, 165, 116, 0.1) 100%);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-top: 3rem;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .keep-reading h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--accent-dark);
+            margin-bottom: 1rem;
+        }
+
+        .keep-reading ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .keep-reading li {
+            margin-bottom: 0.8rem;
+        }
+
+        .keep-reading a {
+            color: var(--accent-dark);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        .keep-reading a:hover {
+            border-bottom-color: var(--accent-dark);
+        }
+
+        .em-word {
+            color: var(--accent-dark);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="reading-progress"></div>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
+                <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">History</a></li>
+                <li class="mobile-nav-link"><a href="/analogies-illustrations">Analogies</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/devotionals" class="nav-top-link">Devotionals</a>
+                <a href="/stories" class="nav-top-link">Stories</a>
+                <a href="/secular-evidence" class="nav-top-link">Secular</a>
+                <a href="/history-timeline" class="nav-top-link">History</a>
+                <a href="/analogies-illustrations" class="nav-top-link">Analogies</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="mega-menu" id="megaMenu"></div>
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <div class="hero">
+        <div class="hero-eyebrow">Questions</div>
+        <h1>Where Did Your Faith Come From?</h1>
+        <p class="hero-subtitle">The question that changes everything. Not where the gospel came from. Not who preached to you. Where did the faith itself come from?</p>
+    </div>
+
+    <div class="container">
+        <div class="content">
+
+            <!-- SECTION 01 -->
+            <div class="section" data-section="1">
+                <div class="section-number">01 — A Question You've Never Been Asked</div>
+                <h2>The Question You've Probably Never Been Asked</h2>
+
+                <p>You've probably heard a hundred sermons about faith. You've probably given your testimony dozens of times. You know the story: you were lost, you heard the gospel, and you <em>believed</em>. Simple. Beautiful. True.</p>
+
+                <p>But has anyone ever asked you this one simple question: <span class="em-word">Where did your faith come from?</span></p>
+
+                <p>Not where did the gospel come from. Not who preached to you. Not what Bible verse convicted you. Not even <em>why</em> you believed. But literally—the faith itself, the ability to trust, the willingness to believe—where did that <em>originate</em>?</p>
+
+                <p>This isn't a trick question. It's not an attack on your salvation. It's not skepticism dressed in theological language. It's the most important question a Christian can ask themselves, and it's the question that will either deepen your understanding of grace or shatter the scaffolding you've been standing on.</p>
+
+                <p>Most people have never thought about it. And that's exactly the problem.</p>
+            </div>
+
+            <!-- SECTION 02 -->
+            <div class="section" data-section="2">
+                <div class="section-number">02 — What Everyone Agrees On</div>
+                <h2>Common Ground</h2>
+
+                <p>Let's start with what every Christian agrees on. This is the foundation, and it's solid:</p>
+
+                <div class="scripture-block">
+                    <p>"For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast."</p>
+                    <span class="scripture-ref">Ephesians 2:8–9 (ESV)</span>
+                </div>
+
+                <p>Read that again slowly. <span class="em-word">For by grace you have been saved through faith.</span> Grace does the saving. Faith is the channel—the instrument, the means. You don't generate grace. Grace is poured into you. You just... receive it. By faith.</p>
+
+                <p>And then: <span class="em-word">this is not your own doing; it is the gift of God.</span> What is "the gift"? Salvation, yes. But more precisely—the entire package. The grace. The faith. The whole rescue operation is a gift. Not something you earned. Not something you manufactured. A gift. Which means...</p>
+
+                <p><span class="em-word">Not a result of works, so that no one may boast.</span></p>
+
+                <p>No boasting. You don't get credit. You can't strut around heaven bragging about your salvation because salvation isn't something you accomplished. It's something that was given to you. You received it. You didn't generate it.</p>
+
+                <p>Everyone agrees with this. You agree with this. This verse is the heartbeat of Christian theology.</p>
+
+                <p>So let's dig deeper.</p>
+            </div>
+
+            <!-- SECTION 03 -->
+            <div class="section" data-section="3">
+                <div class="section-number">03 — The Question Behind the Question</div>
+                <h2>Where Is the Gift?</h2>
+
+                <p>Here's where it gets interesting. Paul says the whole thing is a gift—grace, faith, salvation, the works. But now let's ask the precise question:</p>
+
+                <div class="pull-quote">
+                    What exactly was given to you? Salvation? Or faith itself?
+                </div>
+
+                <p>Because these are not the same thing.</p>
+
+                <p>You might say: "God offered me salvation, and I chose to accept it by faith." Sounds reasonable. But wait—where did that <em>ability to accept</em> come from? Did you already possess it? Was it something you could do on your own?</p>
+
+                <p>Or look at it this way: Imagine a man drowning in the ocean. A rescue boat appears. The boat doesn't just offer to save him—what if the boat reached down, pulled him out against his will, and said, "You're saved"? Would that be rescue? Yes. Is it the same as a drowning man who reaches out and grabs the rope? Not exactly.</p>
+
+                <p>Scripture doesn't describe salvation as an <em>offer</em> you can refuse. Look at what it actually says:</p>
+
+                <div class="scripture-block">
+                    <p>"It has been granted to you that for the sake of Christ you should not only believe in him but also suffer for his sake."</p>
+                    <span class="scripture-ref">Philippians 1:29</span>
+                </div>
+
+                <p><span class="em-word">Granted.</span> Not offered. Granted. It's been given to you. The ability to believe—granted. Not by your choosing. By grace.</p>
+
+                <div class="scripture-block">
+                    <p>"The Lord's servant must not be quarrelsome but kind to everyone, able to teach, patiently enduring evil, correcting his opponents with gentleness. God may perhaps grant them repentance leading to a knowledge of the truth."</p>
+                    <span class="scripture-ref">2 Timothy 2:25</span>
+                </div>
+
+                <p>God <span class="em-word">grants</span> repentance. You don't generate it. You don't manufacture it from your own moral resources. God grants it.</p>
+
+                <div class="scripture-block">
+                    <p>"The Gentiles heard this and were glad and honored the word of the Lord; and all who were appointed for eternal life believed."</p>
+                    <span class="scripture-ref">Acts 13:48</span>
+                </div>
+
+                <p><span class="em-word">Appointed for eternal life—they believed.</span> The appointment came first. Then the belief followed. Not: they believed and then were appointed. The order matters.</p>
+
+                <div class="scripture-block">
+                    <p>"One who heard us was a woman named Lydia, from the city of Thyatira, a seller of purple goods. She was a worshiper of God. The Lord opened her heart to pay attention to what was said by Paul."</p>
+                    <span class="scripture-ref">Acts 16:14</span>
+                </div>
+
+                <p><span class="em-word">The Lord opened her heart.</span> Not: she opened her own heart to God. The Lord—God Himself—opened it. Like a gift being opened.</p>
+
+                <div class="scripture-block">
+                    <p>"No one can come to me unless the Father who sent me draws him. And I will raise him up on the last day."</p>
+                    <span class="scripture-ref">John 6:44</span>
+                </div>
+
+                <p><span class="em-word">No one CAN come unless the Father draws him.</span> Can't. It's not a matter of won't. It's a matter of can't. Without the Father's draw, coming to Jesus is impossible. But when the Father draws, coming is inevitable.</p>
+
+                <p>The testimony of Scripture is overwhelming: faith is <span class="em-word">received</span>, not manufactured. It's granted, not generated. It's opened in you, not produced by you.</p>
+            </div>
+
+            <!-- SECTION 04 -->
+            <div class="section" data-section="4">
+                <div class="section-number">04 — The Fork in the Road</div>
+                <h2>There Is No Middle Ground</h2>
+
+                <p>This is where you need to be honest with yourself. There are only two possibilities. Not three. Not a spectrum. Two.</p>
+
+                <div class="two-options">
+                    <div class="option option-a">
+                        <h3>Option A</h3>
+                        <p>God gave you faith. He granted it, opened your heart to it, drew you to it. Faith is a gift from God to you.</p>
+                    </div>
+                    <div class="option option-b">
+                        <h3>Option B</h3>
+                        <p>You generated faith yourself. From your own resources, your own choice, your own will. Faith came from you.</p>
+                    </div>
+                </div>
+
+                <p>Pick one. You cannot have both. You cannot say "God did 99% and I did 1%" because the 1% is the <em>deciding factor</em>. The moment that matters. The moment of choice. If you're the one who made the choice, then you're the one who made the difference between heaven and hell. That 1% becomes 100% of what matters.</p>
+
+                <p>And here's what happens if you choose Option B:</p>
+
+                <p>If you generated your own faith—if it came from your heart, your will, your decision—then faith is <span class="em-word">your contribution</span> to your salvation. It's the thing you added. And if faith is what determines whether someone is saved or damned, then what you added was the deciding factor. Which means you are the hero of your own salvation story.</p>
+
+                <p>You chose God. You made the decision. You had the wisdom to believe when others didn't. You had the spiritual sensitivity to respond. You were the one who took the initiative.</p>
+
+                <p>That is boasting. That is claiming credit for something Scripture says you cannot take credit for.</p>
+
+                <div class="scripture-block">
+                    <p>"Where, then, is boasting? It is excluded. On what basis? On that of observing the law? No, but on that of faith. For we maintain that a man is justified by faith apart from works of the law."</p>
+                    <span class="scripture-ref">Romans 3:27–28 (NASB)</span>
+                </div>
+
+                <div class="scripture-block">
+                    <p>"If Abraham was justified by works, he has something to boast about—but not before God. What does Scripture say? 'Abraham believed God, and it was credited to him as righteousness.'"</p>
+                    <span class="scripture-ref">Romans 4:2–3</span>
+                </div>
+
+                <p>You cannot boast before God. And if the thing you're claiming—your faith, your decision, your choice—is the thing that saved you, then you're boasting. You're saying the most important moment in your eternal existence was <em>something you did</em>. That's not humility. That's pride wearing a three-piece suit.</p>
+
+                <p>So choose carefully. Option A or Option B. Grace or works. You cannot have Option C.</p>
+            </div>
+
+            <!-- SECTION 05 -->
+            <div class="section" data-section="5">
+                <div class="section-number">05 — What You've Been Saying Without Knowing It</div>
+                <h2>The Language That Betrays You</h2>
+
+                <p>This is where it gets personal. And uncomfortable. And necessary.</p>
+
+                <p>Every time you said <span class="em-word">"I gave my life to Christ,"</span> you were making a claim about the origin of your faith. You were placing yourself at the center of the transaction. <em>I</em> gave. <em>I</em> made the move. <em>I</em> took the action. And Christ... received?</p>
+
+                <p>Every time you said <span class="em-word">"I made a decision for Jesus,"</span> you were placing yourself as the subject, the agent, the one who initiated. Your decision was the hinge on which your eternity turned.</p>
+
+                <p>Every time you said <span class="em-word">"I accepted Christ,"</span> you were describing an action that <em>you performed</em>. You were the active one. Christ was the offered. And you were the accepter.</p>
+
+                <p>And you probably never realized it. Because the whole church was saying the same thing. It's everywhere. It's woven into the evangelical vocabulary so completely that nobody notices what it implies. It implies that <span class="em-word">you initiated the relationship</span>. That <span class="em-word">you took the first step</span>. That <span class="em-word">the difference between you and the unbeliever is something you did</span>.</p>
+
+                <p>The unbeliever? They didn't choose. They didn't make the decision. They didn't accept. They rejected. They said no. And because they said no and you said yes, you're saved and they're lost. Your "yes" is what saved you.</p>
+
+                <p>That is a work. Not in the sense of earning righteousness through moral effort. But in the sense that <em>something you do is the deciding factor in your salvation</em>. The difference between heaven and hell is your choice. Your decision. Your action. Your work.</p>
+
+                <p>And look what happens when you build your faith on this foundation:</p>
+
+                <div class="scripture-block">
+                    <p>"You who are trying to be justified by the law have been alienated from Christ; you have fallen away from grace."</p>
+                    <span class="scripture-ref">Galatians 5:4</span>
+                </div>
+
+                <p>If you're claiming the deciding factor in your salvation is something <em>you did</em>, then you're trying to be justified by works. You're claiming credit. You're saying your righteousness—your choice, your decision, your faith—is what made the difference. And what does Paul say happens to people who try to be justified by works?</p>
+
+                <p>They fall away from grace.</p>
+
+                <p>Not because God kicked them out. But because they stopped trusting in <span class="em-word">His</span> action and started trusting in <span class="em-word">their own</span>. They stopped resting in what was given to them and started boasting about what they accomplished.</p>
+
+                <p>You probably never saw it that way. But the language you use betrays something deeper than you realized.</p>
+            </div>
+
+            <!-- SECTION 06 -->
+            <div class="section" data-section="6">
+                <div class="section-number">06 — The Most Beautiful Answer</div>
+                <h2>Grace Upon Grace Upon Grace</h2>
+
+                <p>Here's the good news. The answer to "where did your faith come from?" is not a cosmic shrug. It's not ambiguity. It's the most romantic, beautiful, devastating truth in the universe.</p>
+
+                <p><span class="em-word">God gave you faith.</span></p>
+
+                <p>He didn't just make salvation possible. He didn't just knock on the door and hope you'd answer. He didn't just offer you a gift and cross His fingers hoping you'd be smart enough to take it. He <em>gave</em> you faith. He opened your heart. He drew you. He granted you the ability to believe. And through that faith—that gift—you were saved.</p>
+
+                <p>This is not demotion. This is not diminishment. This is not a loss of your humanity or your genuine choice.</p>
+
+                <p>Your faith is real. Your response is genuine. Your love for Jesus is not an illusion. Your commitment is not fake. You really do love Him. You really do trust Him. You really do believe.</p>
+
+                <p>But the <em>origin</em> of that faith—where the ability to believe came from—came from Him. And that means something staggering: your salvation is not fragile. It does not depend on your continued spiritual discipline. It does not rest on your ability to keep believing hard enough. It rests on the One who gave you faith in the first place.</p>
+
+                <div class="scripture-block">
+                    <p>"Being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."</p>
+                    <span class="scripture-ref">Philippians 1:6</span>
+                </div>
+
+                <p>He began it. He will complete it. It's not on you to maintain it. You don't have to white-knuckle your way through life terrified that you'll lose your faith. The One who gave it to you will guard it. Will sustain it. Will carry you to the end.</p>
+
+                <p>That's grace. Not just at the moment of conversion. But every moment after. Grace upon grace. Gift upon gift.</p>
+
+                <p>You were chosen before the foundation of the world—not because of anything you would do, but despite everything you would do.</p>
+
+                <div class="scripture-block">
+                    <p>"For he chose us in him before the creation of the world to be holy and blameless in his sight."</p>
+                    <span class="scripture-ref">Ephesians 1:4</span>
+                </div>
+
+                <p>Before you drew your first breath. Before you could do anything good or bad. Before you were even born. He chose you. And when He did, He promised that the One who chose you will never let you go.</p>
+
+                <p>That is the answer. That is where your faith came from. From the hands of a God who chose you when you were nothing. Gave you faith when you were dead. And now holds you in a grip that cannot fail.</p>
+
+                <p>And suddenly, the deepest truth of all becomes clear: you are not the hero of your salvation story. But you never wanted to be. You're far happier to be the beloved of Someone who is.</p>
+            </div>
+
+            <!-- KEEP READING -->
+            <div class="keep-reading">
+                <h3>Keep Reading</h3>
+                <ul>
+                    <li><a href="/philosophy-problem-of-merit">If You Chose God, What Makes You Different?</a> — An exploration of what it means to claim your choice was the decisive factor</li>
+                    <li><a href="/demolition-hub">The Demolition Hub</a> — Every objection to grace, dismantled with gentleness and precision</li>
+                    <li><a href="/devotionals">Devotionals</a> — Rest in what has been given. The balm that heals the wounds of awakening</li>
+                    <li><a href="/questions">More Questions</a> — Explore other truths that will reshape your understanding of God and yourself</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script>
+        // Reading progress bar
+        function updateReadingProgress() {
+            const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = window.scrollY;
+            const scrollPercent = (scrolled / docHeight) * 100;
+            document.querySelector('.reading-progress').style.width = scrollPercent + '%';
+        }
+
+        window.addEventListener('scroll', updateReadingProgress);
+
+        // Reveal sections on scroll
+        function revealOnScroll() {
+            const sections = document.querySelectorAll('.section');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('revealed');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -100px 0px'
+            });
+
+            sections.forEach(section => observer.observe(section));
+        }
+
+        document.addEventListener('DOMContentLoaded', revealOnScroll);
+    </script>
+</body>
+</html>

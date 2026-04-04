@@ -6,44 +6,72 @@
 
 ---
 
-## STRATEGIST PRIORITIES — April 2026 (Updated 2026-04-04)
+## 🚨 CRITICAL INFRASTRUCTURE ISSUES (2026-04-04)
 
-### TIER 1 — Maximum Impact (Build First)
-1. **Romans Walkthrough — LAUNCH NOW.** Promoted from Tier 3. Zero pages exist. Most distinctive content gap vs. competitors. Start with Romans 8:28-39 (Golden Chain), Romans 9:1-24 (Potter & Clay), Romans 3:10-18 (Total Depravity). Target: 4 chapters by April 30.
-2. **Audience Landing Pages** — Promoted from Tier 3. /for-skeptics and /for-new-believers are high-conversion, low-effort pages that dramatically improve visitor experience.
-3. **Healing: Continue Building** — All 5 categories now at 42-50% (up from 17-50%). Target: +10 more articles to reach 38 total (63% of 60 target). Priority: Anxious Mind (+2), Broken Mirror (+2), Open Wound (+2), Invisible Wall (+2), Shattered Lens (+2).
-4. **Enhancer: Quality Floor Sweep** — devotional-love-before-the-world (6.9), story-the-dead-city (7.3), and all pages from 3/31 below-6.5 list not yet enhanced.
-5. **Psychology: Sincerity Trap** — New page: "The Most Dangerous Form of Pride Wears Humility's Mask." Based on Evolution Journal Crown Jewel discovery.
+**ANALYTICS FEEDBACK LOOP — STALE**
+- ANALYTICS.md last updated: 2026-03-30 (5 days old as of 2026-04-04)
+- Weekly analytics task should fire every Saturday, not manually
+- SCHEDULER-HEALTH.md shows analytics-feedback-loop is scheduled for Apr 5/6 (due today or tomorrow)
+- **ACTION:** Verify analytics task runs today. If it fails, debug scheduler health immediately.
+
+**SCHEDULER RELIABILITY — 38%**
+- Only 3 of 10 enabled tasks ran on-time during last 24h window
+- Root cause: App closed overnight → tasks queue → stampede event (5 tasks in 14 minutes)
+- App MUST stay running continuously for reliable task execution
+- Stampede risk is HIGH; stagger gaps insufficient
+- **ACTION:** Document compute budget ceiling (currently unknown)
+
+
+## STRATEGIST PRIORITIES — April 2026 (Updated 2026-04-04, Session #2)
+
+### TIER 0 — EMERGENCY (Do Before Anything Else)
+1. **ENHANCE objection-why-command.html** — #1 traffic content page (48 req/wk) but only scores 7.1. Add pastoral warmth, cross-references, force multipliers. Highest-ROI enhancement on the site.
+2. **ENHANCE secular-sociology-human-inability.html** — Scores 5.9, the lowest on the entire site. 1/10 cross-referencing. Add 5+ internal links, theological bridge section, force multipliers.
+3. **FIX compare-calvinism-arminianism.html** — Missing h1 tag. SEO score 5/10. Targets the highest-search comparison in all of Reformed theology. Add h1, FAQ schema, enhance meta.
+4. **ENHANCE creed-canons-dort.html** — 2/10 cross-referencing, 4/10 force multipliers. Isolated island of excellent content.
+
+### TIER 1 — Maximum Impact (Build Next)
+5. **Romans Walkthrough — Continue.** romans-8-28-39 live (7.9). Next: Romans 9:1-24 (Potter & Clay), Romans 3:10-18 (Total Depravity), Romans 1:18-32. Target: 4 chapters by April 30.
+6. **Audience Landing Pages** — /for-skeptics and /for-new-believers. High-conversion, zero pages exist. Target: 2 by April 15.
+7. **Healing: Continue Building** — All 5 categories at 42-50%. Target: +10 more articles to reach 38 total. Priority: Anxious Mind (+2), Broken Mirror (+2), Open Wound (+2), Invisible Wall (+2), Shattered Lens (+2).
+8. **Cross-Referencing Offensive** — 6 pages score 5 or below on XR. Enhancer must prioritize: secular-sociology (1/10), creed-canons-dort (2/10), pastoral-assurance (3/10), story-the-dead-city (4/10), analogy-chess-grandmaster (5/10), anxious-mind-brain-decides (5/10).
+9. **Hymn Analysis Launch** — hymn-amazing-grace.html. First in series. Unique content no competitor has.
 
 ### TIER 2 — High Impact (Build This Week)
-6. **Objection pages: 3 more to fill new gaps** — objection-why-not-save-everyone (keyword gap), plus 2 new angles from analytics data (targeting search queries).
-7. **Stories** — Newton storm (historical fiction), 1 more children's story, 1 epistolary story. SEO-optimize all story titles.
-8. **Hymn Analysis Launch** — hymn-amazing-grace.html. First in series.
-9. **Title Surgery** — History and OT pages still have academic titles. Apply dramatic, search-intent titles to ALL 28 pages.
-10. **JSON-LD Sweep** — Add structured data to remaining ~30-40% of pages missing it.
+10. **FAQPage Schema Sweep** — Add FAQ structured data to ALL question-*.html pages. Massive SEO boost.
+11. **Title Surgery** — History and OT pages: academic titles → dramatic, search-intent titles. All 28 pages.
+12. **Stories** — Newton storm (historical fiction), 1 epistolary, 1 children's. SEO-optimize all titles.
+13. **psychology-why-i-stopped-being-calvinist.html** — SEO play targeting "why I left Calvinism" search query. Compassionate analysis.
+14. **Recovery Community Bridge Content** — Philosopher discovered AA/NA as pre-primed audience for sovereign grace. Build bridge pages.
+15. **JSON-LD Sweep** — Add structured data to remaining pages missing it.
 
 ### TIER 3 — Strategic Differentiation
-11. **for-pastors.html** — Third audience landing page.
-12. **Choose Your Objection** — Interactive branching experience.
-13. **secular-game-theory-sovereignty.html** — Nash equilibrium + sovereignty. Unique bridge content.
-14. **psychology-why-i-stopped-being-calvinist.html** — SEO play targeting common search query.
-15. **Newsletter hub page** — Newsletter category now at 6 pages, needs its own hub.
-16. **Internal Linking Offensive** — Continue adding cross-references to all pages scoring below 7 on XR.
+16. **for-pastors.html** — Third audience landing page.
+17. **Choose Your Objection** — Interactive branching experience.
+18. **secular-game-theory-sovereignty.html** — Nash equilibrium + sovereignty.
+19. **Newsletter hub page** — 6 newsletter pages need their own hub.
+20. **Keyword cannibalization fix** — Differentiate question-godwants vs objection-desire, question-unfair vs objection-fairness.
+21. **Philosophy Category Hub Page** — 9 philosophy pages need a hub/landing page.
 
-### COMPLETED (Updated 2026-04-04)
-- ✅ **Objection Pages: 17 pages.** Full library + expansions. objection-faith-choice (9.1) is Crown Jewel page.
-- ✅ **Psychology: 16 pages.** Highest per-page traffic ratio. sunk-cost-faith and identity-threat are latest additions.
-- ✅ **Healing: 28 articles across 5 hubs.** Up from 17 on 3/31. Invisible Wall and Shattered Lens dramatically improved.
-- ✅ **Stories: 13 pages.** 3 historical fiction, 1 satire, 1 children's, multiple parables.
+### COMPLETED (Updated 2026-04-04, Session #2)
+- ✅ **Philosophy Category: 9 pages launched.** Avg 8.5. mirror-you-refuse (8.9) and resistance-is-proof (8.9) exceptional.
+- ✅ **Crown Jewel Page: question-where-did-your-faith-come-from (9.4).** Site's masterpiece.
+- ✅ **Romans Walkthrough: LAUNCHED.** romans-8-28-39 (7.9). First entry.
+- ✅ **psychology-sincerity-trap (8.6).** Naïve realism + Jeremiah 17:9.
+- ✅ **objection-why-not-save-everyone (8.4).** Frame flip technique.
+- ✅ **Objection Pages: 18 pages total.** Library effectively complete.
+- ✅ **Psychology: 19 pages.** Highest per-page traffic. Consistent 8.0+ quality.
+- ✅ **Healing: 28 articles across 5 hubs.** Up from 17 on 3/31.
+- ✅ **Stories: 13 pages.** letter-before-the-world (8.9), luther-storm (8.6) standouts.
 - ✅ **Newsletters: 6 pages.** dear-friend (8.9) proves epistolary format.
-- ✅ **Analogies: drowning-man at 9.3.** Site's front-door page.
-- ✅ **question-predestined-to-hell (8.5).** Fills high-search keyword gap.
-- ✅ Enhancer: Analogy category overhauled (6.3 → 8.7 avg). Cross-referencing dramatically improved site-wide.
+- ✅ **Analogies: drowning-man (9.3).** Site's front-door page.
+- ✅ Enhancer: 24-page sweep with parallel architecture. Cross-referencing dramatically improved.
 
 ### Fleet Health
 - AGENT-PROMPT-CREATOR.md: ✅ Current
 - AGENT-PROMPT-ENHANCER.md: ✅ Current
-- AGENT-PROMPT-STRATEGIST.md: ✅ Current (backed up 2026-03-31)
+- AGENT-PROMPT-STRATEGIST.md: ✅ Current (backed up 2026-04-04)
+- AGENT-PROMPT-PHILOSOPHER.md: ✅ NEW — Active (2026-04-04)
 - AGENT-PROMPT-GUARDIAN.md: ⚠️ Needs restoration
 - AGENT-PROMPT-EVANGELIST.md: ⚠️ Needs restoration
 

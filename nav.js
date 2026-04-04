@@ -34,12 +34,15 @@
             subs: [
                 { name: 'Can God Create a Universe Where He Isn\'t Sovereign?', href: '/question-sovereignty-logic', desc: 'Can God make a rock too heavy for Him to lift? Can He create a universe He doesn' },
                 { name: 'Can God\'s Plan for You Be Broken? Romans 8:28-30', href: '/question-goldchain', desc: 'Romans 8:28-30 — foreknown, predestined, called, justified, glorified. An unbreakable chain where every link is divine a' },
+                { name: 'Can You Lose Your Salvation?', href: '/apologetic-perseverance', desc: 'Can you lose your salvation? Scripture' },
                 { name: 'Can You Lose Your Salvation? Ephesians 4:30', href: '/question-sealed', desc: 'Ephesians 4:30 proves once saved always saved. You are sealed by the Holy Spirit for the day of redemption — not until y' },
                 { name: 'Dead Bones Don\'t Volunteer — Ezekiel 37', href: '/question-ezekiel37', desc: 'Ezekiel 37' },
                 { name: 'Dead, Not Sick — The Bible\'s Diagnosis of the Human Condition', href: '/question-depravity', desc: 'Total depravity is not about being as bad as possible — it' },
                 { name: 'Did God Choose You Before You Were Born?', href: '/question-chosen', desc: 'Ephesians 1:3-11 examined in depth. God chose us in Christ before the foundation of the world. Greek analysis, arguments' },
+                { name: 'Did Jesus Die for Everyone? Scripture on Definite Atonement', href: '/apologetic-definite-atonement', desc: 'Did Jesus die for everyone? Scripture teaches that Christ' },
                 { name: 'Does God Change Your Heart Without Permission?', href: '/question-newheart', desc: 'Ezekiel 36:26-27 — God promises a new heart and a new spirit. He does not ask permission. He removes the heart of stone ' },
                 { name: 'Does God Predestine People to Hell? What Scripture Actually Teaches', href: '/question-predestined-to-hell', desc: 'Does God send people to hell on purpose? Discover the biblical distinction between election and reprobation—and why the ' },
+                { name: 'Doesn\'t Election Make Evangelism Pointless?', href: '/apologetic-evangelism', desc: 'Does election make evangelism pointless? No—it' },
                 { name: 'Doesn\'t God Want Everyone Saved? – 1 Timothy 2:4', href: '/question-godwants', desc: 'Does God want everyone saved? 1 Timothy 2:4 and the two wills of God — His revealed will and His sovereign decree.' },
                 { name: 'Drawn, Not Dragged — The Unstoppable Grace of Effectual Calling', href: '/question-irresistible', desc: 'Irresistible grace is liberation, not coercion. God transforms wills; He doesn' },
                 { name: 'Elect Exiles According to the Foreknowledge of God – 1 Peter 1:1-2', href: '/question-1peter1', desc: 'A rigorous exegetical examination of 1 Peter 1:1-2 and the doctrine of unconditional election. Demolishes the Arminian c' },
@@ -63,13 +66,17 @@
                 { name: 'The CANNOT Page: Scripture\'s Testimony to Human Inability', href: '/question-cannot', desc: 'Scripture' },
                 { name: 'The Cross Was Predestined — Acts 4:27-28 and the Sovereignty Behind Calvary', href: '/question-acts4', desc: 'The most evil act in history — the murder of God' },
                 { name: 'The External Call vs The Effectual Call', href: '/question-external-call', desc: 'The External Call vs The Effectual Call: Scripture teaches that God calls all people to salvation, but only the elect tr' },
+                { name: 'The Great Debate: Does Man Have Free Will?', href: '/debate-free-will', desc: 'A rigorous formal debate: Does man have free will? Two positions argue their strongest cases—libertarian free will vs. b' },
                 { name: 'The Prayer That Proves Election — John 17', href: '/question-john17', desc: 'Explore Jesus' },
                 { name: 'The Verse in Acts That Nobody Preaches – Acts 13:48', href: '/question-acts', desc: 'Acts 13:48 unpacked:' },
                 { name: 'The Verse That Settles the Order — 1 John 5:1', href: '/question-1john5-1', desc: 'The Greek perfect tense in 1 John 5:1 proves regeneration precedes faith. Deep exegesis with Greek word study, seven arg' },
                 { name: 'What About \'Whosoever Will\'? – John 3:16 & 2 Peter 3:9', href: '/question-whosoever', desc: 'What About \'Whosoever Will\'? – John 3:16 & 2 Peter 3:9' },
+                { name: 'What About Babies Who Die? — Grace, Covenant, and the Littlest Lambs', href: '/apologetic-babies', desc: 'What happens to babies and children who die? Scripture gives the grieving parent a sovereign, rock-solid hope that no fr' },
                 { name: 'What About Predestination Based on Foreknowledge? – Romans 8:29', href: '/question-foreknowledge', desc: 'Does foreknowledge mean foresight of faith? Romans 8:29 examined. Greek proginōskō means to choose beforehand, not merel' },
+                { name: 'What About Those Who Never Heard the Gospel?', href: '/apologetic-unreached', desc: 'What about the billions who never heard the gospel? Scripture reveals God' },
                 { name: 'What Did Jesus Mean by \'Let the Dead Bury the Dead\'?', href: '/question-dead-bury-dead', desc: 'When Jesus said' },
                 { name: 'What Does Romans 9 Really Mean? Verse by Verse', href: '/question-romans9', desc: 'Romans 9 is the most direct chapter on election in the Bible. Jacob and Esau, Pharaoh, the potter and the clay — examine' },
+                { name: 'Where Did Your Faith Come From? The Question That Changes Everything', href: '/question-where-did-your-faith-come-from', desc: 'A gentle Socratic journey into the most important question a Christian can ask: Where did your faith actually come from?' },
                 { name: 'Why Jesus Spoke in Parables — Matthew 13:10-17', href: '/question-parables', desc: 'Why did Jesus speak in parables? Not to make truth clearer — but to conceal it from some while revealing it to others. M' },
                 { name: 'You Did Not Choose Me, But I Chose You – John 15:16', href: '/question-john15', desc: 'John 15:16:' },
                 { name: 'You Do Not Believe Because You Are Not My Sheep – John 10:26-29', href: '/question-john10', desc: 'John 10:26-29:' }
@@ -164,20 +171,6 @@
             ]
         },
         {
-            name: 'Apologetics',
-            icon: '⚔',
-            href: '/apologetic-evangelism',
-            desc: 'Defending and commending the faith',
-            subs: [
-                { name: 'Can You Lose Your Salvation?', href: '/apologetic-perseverance', desc: 'Can you lose your salvation? Scripture' },
-                { name: 'Did Jesus Die for Everyone? Scripture on Definite Atonement', href: '/apologetic-definite-atonement', desc: 'Did Jesus die for everyone? Scripture teaches that Christ' },
-                { name: 'Doesn\'t Election Make Evangelism Pointless?', href: '/apologetic-evangelism', desc: 'Does election make evangelism pointless? No—it' },
-                { name: 'The Great Debate: Does Man Have Free Will?', href: '/debate-free-will', desc: 'A rigorous formal debate: Does man have free will? Two positions argue their strongest cases—libertarian free will vs. b' },
-                { name: 'What About Babies Who Die? — Grace, Covenant, and the Littlest Lambs', href: '/apologetic-babies', desc: 'What happens to babies and children who die? Scripture gives the grieving parent a sovereign, rock-solid hope that no fr' },
-                { name: 'What About Those Who Never Heard the Gospel?', href: '/apologetic-unreached', desc: 'What about the billions who never heard the gospel? Scripture reveals God' }
-            ]
-        },
-        {
             name: 'Why We Resist',
             icon: '🧠',
             href: '/psychology-hub',
@@ -192,6 +185,7 @@
                 { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
                 { name: 'The Sincerity Trap | Psychology of Resistance', href: '/psychology-sincerity-trap', desc: 'Why the warmest, most sincere believers are often the hardest to reach. How sincerity becomes the armor against truth.' },
                 { name: 'The Sunk Cost of Self-Made Faith', href: '/psychology-sunk-cost-faith', desc: 'The sunk cost fallacy explains why believers resist grace the longer they' },
+                { name: 'What Every Recovering Addict Already Knows About Salvation', href: '/psychology-addiction-proof', desc: 'The 12 steps prove what Scripture teaches: the will is enslaved to sin, and freedom comes only through a power greater t' },
                 { name: 'When Your Heart Rejects What Your Mind Accepts', href: '/psychology-emotional-vs-rational', desc: 'When your head knows sovereignty is biblical but your heart rejects it. Dual-process theory, affect heuristic, and Haidt' },
                 { name: 'Why Believing You Saved Yourself Feels Right', href: '/psychology-comfort-self-salvation', desc: 'Why does it feel right that you chose God? Psychology reveals your ego' },
                 { name: 'Why Do People Reject What They Know Is True?', href: '/psychology-suppressing-truth', desc: 'Romans 1:18 reveals the deepest human problem: we suppress what we already know about God. Modern psychology calls it mo' },
@@ -215,7 +209,7 @@
                 { name: 'Can God Stop Loving You?', href: '/devotional-never-gives-up', desc: 'Can God stop loving you? What if He decided before your birth to love you forever—and nothing you do could change His mi' },
                 { name: 'Forever Loved', href: '/devotional-forever-loved', desc: 'Forever Loved: A meditative reflection on God' },
                 { name: 'In Christ: The Two Words That Change Everything', href: '/devotional-in-christ', desc: 'A devotional meditation on union with Christ — the two most powerful words in Scripture. Every spiritual blessing flows ' },
-                { name: 'Love Before the World Was Made', href: '/devotional-love-before-the-world', desc: 'A meditative devotion on God' },
+                { name: 'Love Before the World Was Made — God\'s Eternal Electing Love', href: '/devotional-love-before-the-world', desc: 'A meditative devotion on God' },
                 { name: 'My Chains Fell Away', href: '/devotional-my-chains-fell-away', desc: 'What does it feel like when God breaks your chains? A devotional on the moment grace becomes irresistible — when the sou' },
                 { name: 'Not My Will, But Joy – Devotional', href: '/devotional-not-my-will-but-joy', desc: 'A meditative reflection on divine sovereignty and joyful surrender. Discover how yielding to God' },
                 { name: 'Rescued Without a Say – Devotional', href: '/devotional-rescued-without-a-say', desc: 'A meditative reflection on Irresistible Grace and the sovereign work of God in salvation. Discover how grace comes not a' },
@@ -237,18 +231,18 @@
             desc: 'Original parables and narratives',
             subs: [
                 { name: 'A Love Letter Written Before Time Began', href: '/story-the-letter-before-the-world', desc: 'She found a letter her father wrote before she was born — before he even knew he would adopt her. A tender story about b' },
+                { name: 'Augustine\'s Stolen Pears: The Night That Proved Total Depravity', href: '/story-historical-augustine-pears', desc: 'A story about Augustine at sixteen, stealing pears he didn' },
                 { name: 'Can a Stone Heart Choose? The Surgeon\'s Parable on Regeneration', href: '/story-surgeon-stone-heart', desc: 'Can a stone heart choose? A surgeon gives a new heart without asking. A parable about regeneration and why dead hearts n' },
                 { name: 'Can You Save Yourself? A Parable About Grace and Human Effort', href: '/story-the-garden-that-grew-itself', desc: 'A powerful children' },
-                { name: 'Did You Choose God? A Parable About Free Will', href: '/story-the-fish-who-chose-the-ocean', desc: 'Did you choose God, or did God choose you? A parable about a fish who thought he chose the ocean—revealing the truth abo' },
                 { name: 'Did You Really Choose God? — A Story About the Illusion of Free Will', href: '/story-the-room-where-you-chose', desc: 'Follow a golden thread back through time to discover the origin of your most important choice. A story about free will, ' },
+                { name: 'Did You Really Choose God? The Fish Who Thought He Chose the Ocean', href: '/story-the-fish-who-chose-the-ocean', desc: 'Did you choose God, or did God choose you? A parable about a fish who thought he chose the ocean—revealing the truth abo' },
                 { name: 'Martin Luther\'s Thunderstorm: How God Chose a Monk Before He Chose God', href: '/story-historical-luther-storm', desc: 'July 2, 1505. Martin Luther, a terrified law student, is struck by lightning and screams a vow that changes history. The' },
                 { name: 'The Committee to Save Yourself — A Satire on Works-Righteousness', href: '/story-humor-committee-to-save-yourself', desc: 'A town of drowning people forms a committee to rescue themselves. A satirical story about the absurdity of trying to sav' },
                 { name: 'The King Who Chose His Children — A Story About Being Chosen by God', href: '/story-children-the-king-who-chose', desc: 'A children' },
-                { name: 'The Night Augustine Stole the Pears — A Story About Total Depravity', href: '/story-historical-augustine-pears', desc: 'A story about Augustine at sixteen, stealing pears he didn' },
+                { name: 'The King\'s Banquet: A Parable About Election and Grace', href: '/story-the-kings-banquet', desc: 'Why doesn' },
                 { name: 'The Orphanage: A Story About Being Chosen by Grace', href: '/story-the-orphanage', desc: 'The Orphanage: A powerful allegory exploring divine election. A girl discovers adoption papers signed before she was bor' },
                 { name: 'The Self-Made Man: A Story About Self-Salvation', href: '/story-the-self-made-man', desc: 'The self-made man who took credit for everything he didn' },
-                { name: 'What Does Dead in Sin Really Mean? A Parable', href: '/story-the-dead-city', desc: 'An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God—and why the Voice that awakens' },
-                { name: 'Why No One Comes Unless God Draws Them', href: '/story-the-kings-banquet', desc: 'Why doesn' }
+                { name: 'What If Everyone Was Dead and Didn\'t Know It? A Parable About Sin', href: '/story-the-dead-city', desc: 'An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God—and why the Voice that awakens' }
             ]
         },
         {
@@ -275,17 +269,17 @@
             desc: '2,000 years of sovereign grace proclaimed',
             subs: [
                 { name: '20th Century Reformed Resurgence', href: '/history-20th-century', desc: 'The liberal decline, the Reformed comeback, and sovereign grace rediscovered. J. Gresham Machen, Martyn Lloyd-Jones, R.C' },
-                { name: 'Augustine vs Pelagius: The First Great Battle for Grace', href: '/history-augustine-pelagius', desc: 'The theological clash that shaped Christianity: Augustine' },
-                { name: 'John Calvin and Geneva', href: '/history-calvin-geneva', desc: 'John Calvin and Geneva: The Institutes of the Christian Religion, Geneva as a city on a hill, TULIP crystallized, and Ca' },
-                { name: 'Martin Luther and the Reformation (1517+)', href: '/history-luther', desc: 'Martin Luther and the Reformation: the 95 Theses, The Bondage of the Will, Sola Fide, Sola Gratia, and the rediscovery o' },
+                { name: 'John Calvin in Geneva: The Man Behind the Reformation\'s Theology', href: '/history-calvin-geneva', desc: 'John Calvin and Geneva: The Institutes of the Christian Religion, Geneva as a city on a hill, TULIP crystallized, and Ca' },
+                { name: 'Martin Luther and the Bondage of the Will: The Debate That Changed Everything', href: '/history-luther', desc: 'Martin Luther and the Reformation: the 95 Theses, The Bondage of the Will, Sola Fide, Sola Gratia, and the rediscovery o' },
                 { name: 'Medieval Theology and the Seeds of Reform (300-1400 AD)', href: '/history-medieval', desc: 'Medieval theology: Augustine vs Pelagius, Semi-Pelagianism' },
                 { name: 'The Apostolic Fathers and Early Church (100-300 AD)', href: '/history-apostolic', desc: 'The Apostolic Fathers (100-300 AD) on grace, election, and God' },
                 { name: 'The Doctrines of Grace Today', href: '/history-today', desc: 'Where sovereign grace stands now. Global spread of Reformed theology. Africa, Asia, Latin America. The digital reformati' },
+                { name: 'The Downgrade Controversy: When Spurgeon Stood Alone for Truth', href: '/history-spurgeon-downgrade', desc: 'Charles Spurgeon' },
                 { name: 'The Golden Thread — 2,000 Years of Sovereign Grace', href: '/history-golden-thread', desc: 'The Golden Thread: how God preserved the doctrines of grace through 2,000 years of church history — from Paul to Augusti' },
-                { name: 'The Great Awakening: Sovereign Grace Sets a Continent on Fire', href: '/history-great-awakening', desc: 'The story of Jonathan Edwards and George Whitefield: how Calvinism ignited the Great Awakening and proved that sovereign' },
-                { name: 'The Prince Who Would Not Bow: Spurgeon & the Downgrade Controversy', href: '/history-spurgeon-downgrade', desc: 'Charles Spurgeon' },
+                { name: 'The Great Awakening: When God\'s Sovereignty Set America on Fire', href: '/history-great-awakening', desc: 'The story of Jonathan Edwards and George Whitefield: how Calvinism ignited the Great Awakening and proved that sovereign' },
                 { name: 'The Puritans and Reformed Orthodoxy', href: '/history-puritans', desc: 'Explore the golden age of Reformed theology. The Puritans' },
-                { name: 'The Synod of Dort (1618-1619) — TULIP Forged in Fire', href: '/history-dort', desc: 'Discover how the Synod of Dort crystallized the Five Points of Calvinism in response to Arminianism. The moment when the' },
+                { name: 'The Synod of Dort: How the Church Defended Grace Against Works', href: '/history-dort', desc: 'Discover how the Synod of Dort crystallized the Five Points of Calvinism in response to Arminianism. The moment when the' },
+                { name: 'The Trial That Saved Christianity: Augustine vs Pelagius', href: '/history-augustine-pelagius', desc: 'The theological clash that shaped Christianity: Augustine' },
                 { name: 'Written in Blood and Fire — The Story of the Reformed Confessions', href: '/history-confessions-story', desc: 'The dramatic stories behind the Reformed confessions: how martyrs, assemblies, and pastors forged the Heidelberg Catechi' }
             ]
         },
@@ -313,12 +307,12 @@
             href: '/analogies-illustrations',
             desc: 'Pictures that make deep truths click',
             subs: [
-                { name: 'Can You Choose to Believe? The Light Switch & Spiritual Blindness', href: '/analogy-light-switch', desc: 'Can you choose to believe on your own? Explore why your ability to have faith is a gift from God, not something you gene' },
-                { name: 'Did Lazarus Choose to Rise? God\'s Sovereign Calling Explained', href: '/analogy-lazarus-grave', desc: 'Does God force salvation or respect free will? John 11 shows how effectual calling works through Lazarus' },
-                { name: 'Does God Control Everything? The Chess Grandmaster Analogy', href: '/analogy-chess-grandmaster', desc: 'Does God control everything? The chess grandmaster analogy explains how divine sovereignty and human choice coexist with' },
+                { name: 'Is God Like a Chess Grandmaster? Sovereignty and Free Will', href: '/analogy-chess-grandmaster', desc: 'Does God control everything? The chess grandmaster analogy explains how divine sovereignty and human choice coexist with' },
                 { name: 'The Drowning Man Who Thinks He\'s Swimming', href: '/analogy-drowning-man', desc: 'The crucial distinction between drowning and dead. Why' },
+                { name: 'The Lazarus Argument: Dead People Don\'t Choose to Live', href: '/analogy-lazarus-grave', desc: 'Does God force salvation or respect free will? John 11 shows how effectual calling works through Lazarus' },
                 { name: 'What Does Adoption Teach About God\'s Choice?', href: '/analogy-adoption', desc: 'A baby doesn' },
-                { name: 'Why the Spiritually Dead Cannot Choose God — The Doctor and Corpse', href: '/analogy-doctor-corpse', desc: 'A corpse cannot choose to live. Neither can a spiritually dead person choose God. This stark analogy shatters the myth o' }
+                { name: 'Who Turns On the Light? A Simple Picture of Regeneration', href: '/analogy-light-switch', desc: 'Can you choose to believe on your own? Explore why your ability to have faith is a gift from God, not something you gene' },
+                { name: 'Why the Spiritually Dead Cannot Choose God', href: '/analogy-doctor-corpse', desc: 'A corpse cannot choose to live. Neither can a spiritually dead person choose God. This stark analogy shatters the myth o' }
             ]
         },
         {
@@ -385,12 +379,14 @@
             href: '/philosophy-of-truth',
             desc: 'Deep philosophical proofs that sovereign grace must be true',
             subs: [
+                { name: 'If You Chose God, What Makes You Different From Those Who Didn\'t?', href: '/philosophy-problem-of-merit', desc: 'The Problem of Merit: If you chose God, what makes you different from those who didn' },
+                { name: 'The Copernican Revolution of the Soul: Why Your Salvation Doesn\'t Revolve Around You', href: '/philosophy-copernican-revolution', desc: 'Just as Copernicus showed the Earth isn' },
                 { name: 'The Mirror You Refuse to Look In: Why Grace Reveals What We Really Are', href: '/philosophy-mirror-you-refuse', desc: 'We reject God' },
-                { name: 'The Problem of Merit: If You Chose God, What Makes You Different?', href: '/philosophy-problem-of-merit', desc: 'The Problem of Merit: If you chose God, what makes you different from those who didn' },
                 { name: 'The Resistance Is the Proof: Why We Blame God Before Ourselves', href: '/philosophy-resistance-is-proof', desc: 'When confronted with God' },
-                { name: 'The Self-Deception Engine: How the Will Hides from Itself', href: '/philosophy-self-deception', desc: 'The Self-Deception Engine: How the human will hides truth from itself. A philosophical excavation of Jeremiah' },
                 { name: 'Why Exclusive Love Is the Only Real Love', href: '/philosophy-exclusive-love', desc: 'A love that is extended to everyone equally is not love—it is policy. Real love requires distinction. Real love means yo' },
-                { name: 'Why Is Marriage Special? A Philosophical Proof of Election', href: '/philosophy-marriage-election', desc: 'Why is marriage special? Because someone chose YOU and no one else. Discover what this reveals about God' }
+                { name: 'Why Is Marriage Special? A Philosophical Proof of Election', href: '/philosophy-marriage-election', desc: 'Why is marriage special? Because someone chose YOU and no one else. Discover what this reveals about God' },
+                { name: 'Why You Can\'t See Your Own Spiritual Blindness', href: '/philosophy-self-deception', desc: 'Why you can' },
+                { name: 'Why You Can\'t Will Yourself to Sleep — And What It Proves About Grace', href: '/philosophy-sleep-surrender', desc: 'Why you can' }
             ]
         },
         {
@@ -735,6 +731,7 @@
     // Lazy-load the search index
     var searchIndex = null;
     var indexLoading = false;
+    var conceptsLoading = false;
 
     function ensureIndex(callback) {
         // If already loaded globally (e.g. search.html loaded it)
@@ -772,6 +769,147 @@
             if (callback) callback();
         };
         document.head.appendChild(script);
+    }
+
+    // Load the theological concept map for intelligent search
+    var conceptMap = null;
+
+    function ensureConcepts(callback) {
+        if (window.SEARCH_CONCEPTS) {
+            conceptMap = window.SEARCH_CONCEPTS;
+            if (callback) callback();
+            return;
+        }
+        if (conceptMap) {
+            if (callback) callback();
+            return;
+        }
+        if (conceptsLoading) {
+            var check = setInterval(function () {
+                if (window.SEARCH_CONCEPTS || conceptMap) {
+                    clearInterval(check);
+                    conceptMap = window.SEARCH_CONCEPTS || conceptMap;
+                    if (callback) callback();
+                }
+            }, 100);
+            return;
+        }
+        conceptsLoading = true;
+        var script = document.createElement('script');
+        script.src = '/search-concepts.js';
+        script.onload = function () {
+            conceptMap = window.SEARCH_CONCEPTS || {};
+            conceptsLoading = false;
+            if (callback) callback();
+        };
+        script.onerror = function () {
+            conceptsLoading = false;
+            conceptMap = {};
+            if (callback) callback();
+        };
+        document.head.appendChild(script);
+    }
+
+    // Expand query using theological concept map
+    function expandQuery(query, tokens) {
+        if (!conceptMap) return { expandedTerms: tokens, expandedPhrases: [] };
+
+        var expandedSet = {};
+        var expandedPhrases = [];
+
+        // Add original tokens
+        for (var t = 0; t < tokens.length; t++) {
+            expandedSet[tokens[t]] = true;
+        }
+
+        // Check if query matches a phrase in the phrase map
+        if (conceptMap.phrases && conceptMap.phrases[query]) {
+            var phraseMappings = conceptMap.phrases[query];
+            for (var p = 0; p < phraseMappings.length; p++) {
+                expandedSet[phraseMappings[p]] = true;
+                expandedPhrases.push(phraseMappings[p]);
+            }
+        }
+
+        // Check if any token maps to a concept
+        if (conceptMap.concepts) {
+            for (var t = 0; t < tokens.length; t++) {
+                var token = tokens[t];
+                if (conceptMap.concepts[token]) {
+                    var synonyms = conceptMap.concepts[token];
+                    for (var s = 0; s < synonyms.length; s++) {
+                        expandedSet[synonyms[s]] = true;
+                    }
+                }
+            }
+        }
+
+        // Check if query matches a Scripture reference
+        if (conceptMap.scriptures) {
+            for (var verse in conceptMap.scriptures) {
+                // Check if verse reference is in the query
+                if (query.indexOf(verse) !== -1 || query.indexOf(verse.replace(' ', '').toLowerCase()) !== -1) {
+                    var phrasings = conceptMap.scriptures[verse];
+                    for (var ph = 0; ph < phrasings.length; ph++) {
+                        expandedSet[phrasings[ph]] = true;
+                        expandedPhrases.push(phrasings[ph]);
+                    }
+                }
+            }
+        }
+
+        var expandedTerms = Object.keys(expandedSet);
+        return { expandedTerms: expandedTerms, expandedPhrases: expandedPhrases };
+    }
+
+    // Enhanced scoring function
+    function scorePageAdvanced(page, query, tokens) {
+        var score = 0;
+        var titleLower = page.title.toLowerCase();
+        var descLower = (page.desc || '').toLowerCase();
+        var textLower = (page.text || '').toLowerCase();
+
+        // EXACT PHRASE MATCHING (highest weight)
+        if (titleLower.indexOf(query) !== -1) score += 200;
+        if (descLower.indexOf(query) !== -1) score += 100;
+        if (textLower.indexOf(query) !== -1) score += 50;
+
+        // INDIVIDUAL TOKEN MATCHING
+        for (var t = 0; t < tokens.length; t++) {
+            var token = tokens[t];
+            if (titleLower.indexOf(token) !== -1) score += 40;
+            if (descLower.indexOf(token) !== -1) score += 20;
+            if (textLower.indexOf(token) !== -1) score += 10;
+        }
+
+        // CONCEPT-EXPANDED MATCHING
+        var expansion = expandQuery(query, tokens);
+        if (expansion.expandedPhrases.length > 0) {
+            for (var ep = 0; ep < expansion.expandedPhrases.length; ep++) {
+                var phrase = expansion.expandedPhrases[ep];
+                // Concept matches get a bonus but less than exact matches
+                if (titleLower.indexOf(phrase) !== -1) score += 25;
+                if (descLower.indexOf(phrase) !== -1) score += 15;
+                if (textLower.indexOf(phrase) !== -1) score += 8;
+            }
+        }
+
+        // BONUS: Title starts with query
+        if (titleLower.indexOf(query) === 0) score += 80;
+
+        // BONUS: Count occurrences in full text
+        if (score > 0 && textLower.length > 0) {
+            var count = 0;
+            var pos = 0;
+            while ((pos = textLower.indexOf(query, pos)) !== -1) {
+                count++;
+                pos += query.length;
+                if (count >= 20) break;
+            }
+            score += count * 3;
+        }
+
+        return score;
     }
 
     function openSearch() {
@@ -885,59 +1023,47 @@
         showMobileMenuContent(false);
 
         ensureIndex(function () {
-            if (!searchIndex || searchIndex.length === 0) {
-                container.innerHTML = '<div style="padding:1rem;text-align:center;color:#807b75;font-size:0.85rem;">Loading...</div>';
-                return;
-            }
-
-            var tokens = query.split(/\s+/).filter(function (t) { return t.length > 0; });
-            var scored = [];
-
-            for (var i = 0; i < searchIndex.length; i++) {
-                var page = searchIndex[i];
-                var score = 0;
-                var titleLower = page.title.toLowerCase();
-                var descLower = (page.desc || '').toLowerCase();
-                var textLower = (page.text || '').toLowerCase();
-
-                if (titleLower.indexOf(query) !== -1) score += 200;
-                if (descLower.indexOf(query) !== -1) score += 100;
-                if (textLower.indexOf(query) !== -1) score += 50;
-
-                for (var t = 0; t < tokens.length; t++) {
-                    if (titleLower.indexOf(tokens[t]) !== -1) score += 40;
-                    if (descLower.indexOf(tokens[t]) !== -1) score += 20;
-                    if (textLower.indexOf(tokens[t]) !== -1) score += 10;
+            ensureConcepts(function () {
+                if (!searchIndex || searchIndex.length === 0) {
+                    container.innerHTML = '<div style="padding:1rem;text-align:center;color:#807b75;font-size:0.85rem;">Loading...</div>';
+                    return;
                 }
 
-                if (score > 0) scored.push({ page: page, score: score });
-            }
+                var tokens = query.split(/\s+/).filter(function (t) { return t.length > 0; });
+                var scored = [];
 
-            // Sort by priority first (crown jewel always first), then by score
-            scored.sort(function (a, b) {
-                var aPriority = a.page.priority || 0;
-                var bPriority = b.page.priority || 0;
-                if (aPriority !== bPriority) return bPriority - aPriority;
-                return b.score - a.score;
+                for (var i = 0; i < searchIndex.length; i++) {
+                    var page = searchIndex[i];
+                    var score = scorePageAdvanced(page, query, tokens);
+                    if (score > 0) scored.push({ page: page, score: score });
+                }
+
+                // Sort by priority first (crown jewel always first), then by score
+                scored.sort(function (a, b) {
+                    var aPriority = a.page.priority || 0;
+                    var bPriority = b.page.priority || 0;
+                    if (aPriority !== bPriority) return bPriority - aPriority;
+                    return b.score - a.score;
+                });
+                if (scored.length > 12) scored = scored.slice(0, 12);
+
+                if (scored.length === 0) {
+                    container.innerHTML = '<div style="padding:1rem;text-align:center;color:#807b75;font-size:0.85rem;">No results found. Try different keywords.</div>';
+                    return;
+                }
+
+                var html = '';
+                for (var r = 0; r < scored.length; r++) {
+                    var p = scored[r].page;
+                    html += '<a href="' + escapeAttr(p.url) + '" style="display:block;padding:0.7rem 1rem;text-decoration:none;border-bottom:1px solid rgba(212,162,84,0.06);">' +
+                        '<div style="font-size:0.7rem;color:#d4a254;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.15rem;">' + escapeHtml(p.cat) + '</div>' +
+                        '<div style="font-size:0.88rem;color:#f0ece4;font-weight:600;">' + escapeHtml(p.title) + '</div>' +
+                        '</a>';
+                }
+                html += '<a href="/search?q=' + encodeURIComponent(mobileMenuSearchInput.value.trim()) + '" style="display:block;padding:0.8rem 1rem;text-align:center;color:#d4a254;font-weight:600;font-size:0.85rem;text-decoration:none;">See all results &rarr;</a>';
+
+                container.innerHTML = html;
             });
-            if (scored.length > 12) scored = scored.slice(0, 12);
-
-            if (scored.length === 0) {
-                container.innerHTML = '<div style="padding:1rem;text-align:center;color:#807b75;font-size:0.85rem;">No results found. Try different keywords.</div>';
-                return;
-            }
-
-            var html = '';
-            for (var r = 0; r < scored.length; r++) {
-                var p = scored[r].page;
-                html += '<a href="' + escapeAttr(p.url) + '" style="display:block;padding:0.7rem 1rem;text-decoration:none;border-bottom:1px solid rgba(212,162,84,0.06);">' +
-                    '<div style="font-size:0.7rem;color:#d4a254;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.15rem;">' + escapeHtml(p.cat) + '</div>' +
-                    '<div style="font-size:0.88rem;color:#f0ece4;font-weight:600;">' + escapeHtml(p.title) + '</div>' +
-                    '</a>';
-            }
-            html += '<a href="/search?q=' + encodeURIComponent(mobileMenuSearchInput.value.trim()) + '" style="display:block;padding:0.8rem 1rem;text-align:center;color:#d4a254;font-weight:600;font-size:0.85rem;text-decoration:none;">See all results &rarr;</a>';
-
-            container.innerHTML = html;
         });
     }
 
@@ -972,64 +1098,52 @@
         }
 
         ensureIndex(function () {
-            if (!searchIndex || searchIndex.length === 0) {
-                searchResults.innerHTML = '<div style="padding:1.5rem;text-align:center;color:#807b75;">Search index loading...</div>';
-                return;
-            }
-
-            var tokens = query.split(/\s+/).filter(function (t) { return t.length > 0; });
-            var scored = [];
-
-            for (var i = 0; i < searchIndex.length; i++) {
-                var page = searchIndex[i];
-                var score = 0;
-                var titleLower = page.title.toLowerCase();
-                var descLower = (page.desc || '').toLowerCase();
-                var textLower = (page.text || '').toLowerCase();
-
-                if (titleLower.indexOf(query) !== -1) score += 200;
-                if (descLower.indexOf(query) !== -1) score += 100;
-                if (textLower.indexOf(query) !== -1) score += 50;
-
-                for (var t = 0; t < tokens.length; t++) {
-                    if (titleLower.indexOf(tokens[t]) !== -1) score += 40;
-                    if (descLower.indexOf(tokens[t]) !== -1) score += 20;
-                    if (textLower.indexOf(tokens[t]) !== -1) score += 10;
+            ensureConcepts(function () {
+                if (!searchIndex || searchIndex.length === 0) {
+                    searchResults.innerHTML = '<div style="padding:1.5rem;text-align:center;color:#807b75;">Search index loading...</div>';
+                    return;
                 }
 
-                if (score > 0) scored.push({ page: page, score: score });
-            }
+                var tokens = query.split(/\s+/).filter(function (t) { return t.length > 0; });
+                var scored = [];
 
-            // Sort by priority first (crown jewel always first), then by score
-            scored.sort(function (a, b) {
-                var aPriority = a.page.priority || 0;
-                var bPriority = b.page.priority || 0;
-                if (aPriority !== bPriority) return bPriority - aPriority;
-                return b.score - a.score;
+                for (var i = 0; i < searchIndex.length; i++) {
+                    var page = searchIndex[i];
+                    var score = scorePageAdvanced(page, query, tokens);
+                    if (score > 0) scored.push({ page: page, score: score });
+                }
+
+                // Sort by priority first (crown jewel always first), then by score
+                scored.sort(function (a, b) {
+                    var aPriority = a.page.priority || 0;
+                    var bPriority = b.page.priority || 0;
+                    if (aPriority !== bPriority) return bPriority - aPriority;
+                    return b.score - a.score;
+                });
+
+                // Show top 15 in overlay
+                if (scored.length > 15) scored = scored.slice(0, 15);
+
+                if (scored.length === 0) {
+                    searchResults.innerHTML = '<div class="search-no-results" style="padding:1.5rem;text-align:center;color:#807b75;">No pages found. Try different keywords.</div>';
+                    return;
+                }
+
+                var html = '';
+                for (var r = 0; r < scored.length; r++) {
+                    var p = scored[r].page;
+                    html += '<a href="' + escapeAttr(p.url) + '" class="search-result-item">' +
+                        '<div class="search-result-category">' + escapeHtml(p.cat) + '</div>' +
+                        '<div class="search-result-title">' + escapeHtml(p.title) + '</div>' +
+                        '<div class="search-result-snippet">' + escapeHtml(p.desc || extractBrief(p.text, query)) + '</div>' +
+                        '</a>';
+                }
+
+                // Add "See all results" link
+                html += '<a href="/search?q=' + encodeURIComponent(searchInput.value.trim()) + '" class="search-result-item" style="text-align:center;color:#d4a254;font-weight:600;font-size:0.9rem;">See all results &rarr;</a>';
+
+                searchResults.innerHTML = html;
             });
-
-            // Show top 15 in overlay
-            if (scored.length > 15) scored = scored.slice(0, 15);
-
-            if (scored.length === 0) {
-                searchResults.innerHTML = '<div class="search-no-results" style="padding:1.5rem;text-align:center;color:#807b75;">No pages found. Try different keywords.</div>';
-                return;
-            }
-
-            var html = '';
-            for (var r = 0; r < scored.length; r++) {
-                var p = scored[r].page;
-                html += '<a href="' + escapeAttr(p.url) + '" class="search-result-item">' +
-                    '<div class="search-result-category">' + escapeHtml(p.cat) + '</div>' +
-                    '<div class="search-result-title">' + escapeHtml(p.title) + '</div>' +
-                    '<div class="search-result-snippet">' + escapeHtml(p.desc || extractBrief(p.text, query)) + '</div>' +
-                    '</a>';
-            }
-
-            // Add "See all results" link
-            html += '<a href="/search?q=' + encodeURIComponent(searchInput.value.trim()) + '" class="search-result-item" style="text-align:center;color:#d4a254;font-weight:600;font-size:0.9rem;">See all results &rarr;</a>';
-
-            searchResults.innerHTML = html;
         });
     }
 
