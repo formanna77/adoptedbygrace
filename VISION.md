@@ -1,107 +1,136 @@
 # VISION — adoptedbygrace.net Strategic Vision
-## Updated: 2026-03-31, Strategist Session
+## Updated: 2026-04-04, Strategist Session
 
 ---
 
 ## THE STATE OF THE BATTLEFIELD
 
-**266 pages live. 35 built in the last 24 hours. Quality floor rising. The fleet is accelerating.**
+**295 pages live. +29 in 4 days. Healing categories nearly doubled. Quality floor rising across every category.**
 
-The site has crossed a critical threshold: it now has enough content that returning visitors discover new material every visit, and enough category diversity that different types of searchers find relevant doorways. The psychology category alone — which no competitor touches — has doubled from 7 to 14 pages and remains the highest per-page traffic generator.
+The site has crossed another threshold: the healing categories — which no competitor touches — have grown from 17 to 28 articles and now represent 27% of total content (up from 19%). The "two arms" architecture is taking shape. The left arm (demolition) has 58 question/objection pages. The right arm (devotion + healing) has 81 pages and growing. For the first time, the ratio is approaching balance.
 
-But the mission isn't page count. The mission is: *Did someone who was searching for God find Him here?*
+The newsletter format has proven itself immediately. The epistolary "Dear Friend Who Chose God" scored 8.9 on its first outing — the Socratic trap delivered through affection rather than argument. This format may be the single most effective vehicle for the Crown Jewel argument.
+
+But the biggest unfulfilled promise remains: **zero book-of-the-Bible walkthroughs.** This is the content that would make adoptedbygrace.net unmistakably distinctive. No other site walks through Romans verse by verse showing sovereignty on every page. This must begin in April.
 
 ---
 
 ## 30-DAY VISION (April 2026)
 
-### The Healing Offensive
-The #1 strategic priority for April is completing the healing categories. Here's why:
+### Priority 1: The Romans Walkthrough Launch
+Begin the most distinctive content series on the site. Target: 4 chapters by April 30.
+- Romans 8:28-39 (The Golden Chain — the most comforting passage in Scripture)
+- Romans 9:1-24 (Potter and Clay — the most contested passage in Scripture)
+- Romans 3:10-18 (Total Depravity — the most humbling passage in Scripture)
+- Romans 1:18-32 (Suppressing Truth — bridges to psychology category)
 
-1. **No competitor has this.** Not Desiring God, not Ligonier, not Got Questions. No Reformed site systematically connects mental health pain points to sovereign grace.
-2. **The search volume is massive.** "Why am I so anxious," "what is my purpose," "why do bad things happen" — these are some of the most-searched questions on the internet. Our healing categories answer them from a Reformed soteriology perspective.
-3. **The content balance demands it.** HEAD content (doctrine) is 48% of the site. HEART content (healing, devotionals, stories) is only 19%. The 101 Ways Principle requires balance.
-4. **The two-arms mandate requires it.** Every demolition page needs a devotional doorway at the end. Every hard truth needs a soft landing. The healing categories ARE the soft landing.
+Each walkthrough should be 3000-4000 words, combining verse-by-verse analysis with devotional application. The format: Greek analysis + theological argument + pastoral whisper + Keep Reading links to related pages.
 
-**Target:** 18 new healing articles by April 30 (Invisible Wall +5, Shattered Lens +4, Open Wound +4, Broken Mirror +3, Anxious Mind +2). This brings total healing to 35 articles (58% of the 60-article target).
+### Priority 2: Complete the Healing Offensive
+Target: 10 more healing articles by April 30 (bringing total to 38, 63% of target).
+- Anxious Mind: +2 (what-if-wrong-about-everything, the-thought-that-wakes-you-at-3am)
+- Broken Mirror: +2 (shame-about-doubting, the-mirror-shows-a-stranger)
+- Open Wound: +2 (miscarriage-sovereignty, when-the-prayer-warrior-dies)
+- Invisible Wall: +2 (friend-who-ghosted, family-dinner-minefield)
+- Shattered Lens: +2 (cant-unsee-it, the-books-that-changed-everything)
 
-### The Quality Floor Sweep
-11 pages scored below 6.5 this session. These pages are pulling their categories down and creating inconsistent visitor experiences. The Enhancer must bring ALL pages to a 7.0+ floor. Key targets: demolition-steel-man-arminianism (5.6), the three older psychology pages (6.3-6.4), and both shattered-lens articles (6.4).
+### Priority 3: Audience Landing Pages
+Build at least 2 of 3 planned:
+- **/for-skeptics** — "You don't believe in God. Start here." Curated path: secular evidence → psychology → analogies → questions.
+- **/for-new-believers** — "You just discovered sovereignty. Now what?" Curated path: start-here → devotionals → healing → stories.
+- /for-pastors — defer to May if needed.
 
-### The Objection Library Completion
-Only 3 objection pages remain (babies, manipulation, desire). Completing these gives the site the most comprehensive objection-answer library on the internet. The objection-faith-choice page (9.1 quality, Crown Jewel deployment) proves the format can achieve world-class quality.
+### Priority 4: Enhancer Quality Sweep
+Bring ALL pages to 7.0+ floor. Current below-7.0 pages:
+- devotional-love-before-the-world (6.9) — URGENT
+- Any remaining pages from 3/31 below-6.5 list not yet enhanced
+
+### Priority 5: First Hymn Analysis
+- **hymn-amazing-grace.html** — "I once was lost but now am found, was blind but now I see." Every line of this hymn is a doctrine of grace. The most famous song in the English language is a sovereignty anthem.
 
 ---
 
 ## 90-DAY VISION (Q2 2026)
 
 ### By June 30:
-- **350+ pages** (from 266)
-- **Healing categories: 50+ articles** (from 17) — all 5 categories at 80%+ of target
-- **Romans walkthrough: 8 chapters** — the site's most distinctive content series
+- **375+ pages** (from 295)
+- **Healing categories: 50+ articles** (from 28) — all 5 categories at 80%+ of target
+- **Romans walkthrough: 8 chapters** — the most distinctive series on the internet
 - **3 audience landing pages** — for-skeptics, for-new-believers, for-pastors
 - **Hymn analysis series: 4 hymns** — Amazing Grace, And Can It Be, Mighty Fortress, Come Thou Fount
-- **Quality floor: 7.0+** on every page on the site
+- **Quality floor: 7.5+** on every page (raised from 7.0 target — the fleet can achieve this)
 - **Traffic: 18,000 requests/week** (from 10,856 — +66%)
-- **At least 3 healing pages appearing in analytics top 50**
+- **At least 5 healing pages appearing in analytics top 50**
+- **Newsletter archive: 20+ pages** (from 6)
 
 ### Content Category Targets (Q2)
 | Category | Current | Q2 Target | Gap |
 |----------|---------|-----------|-----|
-| Healing (total) | 17 | 50 | +33 |
-| Objections | 11 | 14 | +3 |
-| Psychology | 14 | 16 | +2 |
-| Stories | 10 | 18 | +8 |
+| Healing (total) | 28 | 50 | +22 |
+| Objections | 17 | 20 | +3 |
+| Psychology | 16 | 20 | +4 |
+| Stories | 13 | 20 | +7 |
 | Book Walkthroughs | 0 | 8 | +8 |
 | Audience Pages | 0 | 3 | +3 |
 | Hymn Analysis | 0 | 4 | +4 |
+| Devotionals | 17 | 25 | +8 |
+| Newsletters | 6 | 20 | +14 |
 
 ---
 
 ## IDEATION — 10 New Content Concepts
 
 ### From Underpopulated Categories:
-1. **invisible-wall-reformed-marriage.html** — "When Your Spouse Doesn't See What You See: Sovereignty and the Lonely Believer" — for the person whose theological awakening has created a wall with their partner
-2. **invisible-wall-church-pew-alone.html** — "Sitting in the Pew Where No One Understands" — the Reformed believer in a non-Reformed church
-3. **shattered-lens-pastor-wrong.html** — "When You Love Your Pastor But Can't Believe What He's Teaching" — the agonizing moment of theological awakening in a church led by someone you admire
-4. **open-wound-miscarriage-sovereignty.html** — "When God Is Sovereign and the Baby Is Gone" — most pastorally sensitive page on the site
+1. **anxious-mind-the-thought-that-wakes-you.html** — "The 3AM Thought That Won't Leave: Sovereignty and the Anxious Mind" — for the person whose anxiety is theological, not clinical
+2. **broken-mirror-the-mirror-shows-a-stranger.html** — "When You Look in the Mirror and Don't Recognize the Believer Staring Back" — for the person whose theological change has made them unrecognizable to themselves
+3. **open-wound-when-the-prayer-warrior-dies.html** — "When the Person Who Prayed the Most Dies First" — the most devastating test of sovereignty
 
 ### Cross-Category Innovations:
-5. **devotional-demolition-whosoever.html** — "Whosoever Will: A Devotional Demolition" — combine the demolition format with devotional warmth. Dismantle the misreading of "whosoever" then rebuild the reader in the truth of effectual calling.
-6. **psychology-story-the-theologian-who-broke.html** — "The Theologian Who Broke: A Story About the Psychology of Deconstruction Toward Truth" — combine story format with psychology research. Fiction character goes through Kübler-Ross stages but toward truth rather than away from it.
+4. **psychology-sincerity-trap.html** — Combine psychology + Crown Jewel: the most dangerous form of works-righteousness comes from sincere people. Based on Evolution Journal "Mayor Coggins" discovery.
+5. **devotional-demolition-the-verse-that-broke-me.html** — A devotional that IS a demolition. First-person account of encountering Ephesians 2:1-5 and having your entire soteriology collapse. Confession format.
+6. **story-courtroom-the-trial-of-free-will.html** — Interactive story where prosecution and defense present evidence. Not full interactive experience yet, but narrative courtroom format.
 
 ### Never-Been-Done:
-7. **interactive-courtroom.html** — "The Trial of Free Will" — interactive experience where the reader serves as juror. Prosecution presents evidence against libertarian free will. Defense presents the best Arminian case. The reader delivers the verdict. Scripture citations throughout.
-8. **question-why-god-doesnt-save-everyone.html** — "Does God Predestine People to Hell? What the Bible Actually Says" — targets a high-volume keyword gap with zero dedicated page
-9. **secular-game-theory-sovereignty.html** — "Game Theory, the Prisoner's Dilemma, and Why Free Will Can't Save You" — apply Nash equilibrium to the problem of human cooperation with God. Demonstrates that rational self-interest always defects — only an external agent (grace) can break the defection pattern.
-10. **story-historical-luther-thunderstorm.html** — "The Thunderstorm That Changed the World" — Luther at 21, the lightning bolt, the vow, the monastery. Historical fiction showing how God's sovereignty broke a man's self-reliance and redirected the course of Western civilization.
+7. **secular-linguistics-faith-as-language.html** — "You Didn't Choose Your First Language: Why Faith Works the Same Way" — from VISION.md analogy bank. Linguistics meets soteriology.
+8. **psychology-why-i-stopped-being-calvinist.html** — SEO play targeting the common search "why I left Calvinism." Compassionate analysis of what actually happens when someone rejects sovereignty — and what it reveals.
+9. **history-the-5-minutes-that-saved-augustine.html** — "Take Up and Read: The 5 Minutes That Changed Western Civilization" — Augustine in the garden, Romans 13:13-14. Historical fiction meets demolition.
+10. **analogy-immune-system.html** — "Your Body Already Believes in Sovereignty: 100,000 Battles You Never Chose" — Biology as apologetics. The immune system doesn't ask permission.
 
 ---
 
 ## 5 New Analogies & Metaphors
 
-1. **The Transplant Analogy** — You don't consent to a heart transplant when you're dead on the operating table. The surgeon doesn't wait for the corpse's permission. That's regeneration. That's grace. (Medical domain — targets the "consent" objection)
+1. **The Anesthesia Analogy** — Before surgery, you surrender consciousness. You don't "cooperate" with the surgeon while under anesthesia. You trust by becoming utterly helpless. That's what faith looks like from God's perspective — your cooperation was your surrender. (Medical domain — targets "cooperation" claim)
 
-2. **The Screenplay Analogy** — A character in a film makes choices that feel authentic. The audience weeps when they suffer and cheers when they triumph. But the screenwriter wrote every word. The character's freedom is real within the story — and the screenwriter's sovereignty is absolute over the story. That's compatibilism. (Film domain — targets the "robots" objection)
+2. **The Satellite Dish Analogy** — A satellite dish doesn't generate the signal. It receives it. The dish's orientation matters, but the dish didn't create the satellite, didn't launch it into orbit, didn't encode the broadcast. Pointing at the satellite was simply the dish doing what the engineer designed it to do. Faith is the dish. God is the satellite, the signal, and the engineer. (Technology domain — targets "faith is my contribution")
 
-3. **The Immune System Analogy** — Your immune system fights 100,000 battles a day that you never know about. It doesn't ask permission. It doesn't wait for your command. It operates on the principle that you are NOT qualified to manage your own cellular defense. That's sovereignty. And it works. (Biology domain — targets the "control" fear)
+3. **The Gravity Well Analogy** — Every object in the solar system is "free" to move — but every orbit is determined by gravitational forces the object didn't choose. Jupiter doesn't "decide" to orbit the sun. It does so because the mass of the sun makes that orbit inevitable. Your trajectory toward God was inevitable — not because you lacked freedom, but because His grace has more mass than your resistance. (Physics domain — targets "freedom" concern)
 
-4. **The River and the Canal** — A river flows where gravity takes it. You can dig a canal, but you can't make water flow uphill. The Arminian claim is that you dug a canal uphill and the water followed. The Reformed position is that God redirected the entire river. (Engineering/Nature domain — targets the "cooperation" claim)
+4. **The Mother Tongue Analogy** — You think in your first language without choosing to. You dream in it. You count in it under stress. Faith in God, for the elect, operates at this same pre-conscious level — it's the language your soul was designed to speak. You didn't learn it; you were born into it. (Linguistics domain — targets "I chose to believe")
 
-5. **The Language Acquisition Analogy** — No child chooses to learn their first language. They don't consent. They don't cooperate. They absorb it because they were placed in a language environment by someone else. Faith is the spiritual first language. You didn't choose it — you were placed in the environment where it became inevitable. (Linguistics domain — targets "faith is a choice")
+5. **The Bone Marrow Analogy** — After a bone marrow transplant, the recipient's blood type changes to the donor's. Old cells die. New cells are the donor's cells, producing blood the recipient could never have produced on their own. That's regeneration. Your spiritual "blood type" changed — not because you chose it, but because the Donor's life replaced yours. (Medical domain — targets "new creation" and "born again")
 
 ---
 
 ## 3 Theological Deep Cuts
 
-1. **Deuteronomy 29:4 — "But to this day the LORD has not given you a heart to understand or eyes to see or ears to hear."** This verse explicitly states that the ability to understand spiritual truth is a GIFT from God, and that God withheld it from Israel for 40 years. Devastating for the claim that everyone has equal spiritual ability.
+1. **1 Corinthians 4:7 — "What do you have that you did not receive? If then you received it, why do you boast as if you did not receive it?"** This is Paul's direct statement that EVERYTHING the believer has — including faith — was received. The verse explicitly connects receiving to the prohibition against boasting. If you boast about your faith decision, you are doing the exact thing Paul says receiving prohibits. This verse should be a page-level deployment on par with Ephesians 2:8-9.
 
-2. **The "vessels of mercy prepared beforehand for glory" (Rom 9:23) applied to the problem of evil.** If God CREATED certain people as vessels specifically FOR mercy, then the existence of evil is not a philosophical problem to be solved but a theological context that makes mercy intelligible. Without the darkness of sin, the light of mercy would have no canvas. This is not God causing evil — it is God creating beings who would need His mercy and then gloriously providing it.
+2. **The "drew" (helkusen) in John 6:44 is the same verb used for dragging a net full of fish (John 21:11) and dragging Paul through a city (Acts 16:19).** This is not gentle invitation. The verb denotes physical force applied to an object that cannot move itself. The Arminian claim that "draw" means "woo" must account for the fact that John uses the identical verb for dragging 153 fish and dragging a man through streets. Neither the fish nor Paul were "wooed."
 
-3. **The aorist passive of ἐχαρίσθη (echaristhē) in Philippians 1:29** — "it has been graciously granted to you... to believe." The verb is aorist passive — a completed action done TO the believer, not BY the believer. The grammar itself is a theological argument: faith was gifted at a point in time, and the believer was the passive recipient. This single verb form dismantles the entire "faith as human choice" framework.
+3. **Acts 16:14 — "The Lord opened her heart to pay attention to what was said by Paul."** The verb ēnoixen (opened) is aorist active indicative — GOD is the subject performing the action. Lydia's heart was opened BY God — she did not open it herself. The sequence: Paul spoke → God opened → Lydia believed. Her belief was the RESULT of God's action, not the cause of it. This is Luke narrating the mechanics of conversion in real time.
 
 ---
 
-*The elect are searching. The site exists for them. Every page is a doorway. Every sentence earns its place. The trajectory is always upward.*
+## STRATEGIC WATCH ITEMS
 
-*"For those whom he foreknew he also predestined to be conformed to the image of his Son." — Romans 8:29*
+1. **Analytics data is 5 days old** (last updated 3/30). Need fresh pull to measure impact of 29 new pages.
+2. **Guardian and Evangelist marked "needs restoration"** in Fleet Map. Verify both are running on schedule.
+3. **Newsletter category growing fast (6 pages).** May need its own hub page or mega-menu entry soon.
+4. **Bot probe traffic (6.1%)** is stable but worth monitoring. No action needed.
+
+---
+
+*The elect are searching. 295 pages live and growing. The Romans walkthrough must begin. The healing offensive continues. The trajectory is always upward.*
+
+*"Before I formed you in the womb I knew you, before you were born I set you apart." — Jeremiah 1:5*

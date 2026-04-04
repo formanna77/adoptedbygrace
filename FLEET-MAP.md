@@ -1,5 +1,5 @@
 # FLEET MAP — adoptedbygrace.net Agent Architecture
-## Updated: 2026-03-31
+## Updated: 2026-04-04
 
 ---
 
@@ -28,13 +28,14 @@
 
 ---
 
-## FLEET HEALTH SUMMARY (2026-03-31)
+## FLEET HEALTH SUMMARY (2026-04-04)
 
-- **Total pages:** 266 (+35 in 24h)
-- **Quality floor:** Rising. New pages 8.0+. 11 older pages need enhancement below 6.5.
-- **Evolution velocity:** 8.5/10. Fleet is accelerating. No major plateau detected.
-- **Primary gap:** Healing categories (especially Invisible Wall and Shattered Lens)
-- **Primary risk:** Quality gap between new and old pages creating inconsistent visitor experience
+- **Total pages:** 295 (+29 since 3/31)
+- **Quality floor:** Lowest scored page this session: 6.9 (up from 5.6 on 3/31). Rising steadily.
+- **Evolution velocity:** 8.4/10. Fleet accelerating. Minor plateau detected in objection template — directive issued.
+- **Primary gap:** Romans walkthroughs (ZERO pages — promoted to Tier 1), audience landing pages (ZERO pages)
+- **Primary strength:** Healing categories nearly doubled (17→28). Psychology at 16 pages with highest traffic ratio.
+- **Primary risk:** Analytics data 5 days old. Guardian and Evangelist need schedule verification.
 
 ---
 

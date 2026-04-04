@@ -118,10 +118,11 @@
                 { name: 'If God Already Chose Who\'s Saved, Why Evangelize?', href: '/objection-why-evangelize', desc: 'If God already chose who' },
                 { name: 'If God Already Chose, Why Evangelize?', href: '/objection-evangelism-pointless', desc: 'If God already chose who will be saved, why evangelize? Because God ordains the means as well as the ends. Election does' },
                 { name: 'If God Already Decided Everything, Why Pray?', href: '/objection-why-pray', desc: 'If God has predetermined everything, why pray? Isn' },
+                { name: 'If God Can Save Everyone, Why Doesn\'t He?', href: '/objection-why-not-save-everyone', desc: 'If God is all-powerful and all-loving, why doesn' },
                 { name: 'If God Controls Everything, How Can He Blame Us?', href: '/objection-responsibility', desc: 'If God predetermines everything, how can He hold us responsible? Romans 9:19 answered with Scripture, compatibilism, and' },
                 { name: 'If God Could Save Everyone, Why Doesn\'t He?', href: '/objection-god-could-save-all', desc: 'The hardest question in Reformed theology. If God can irresistibly save, why doesn' },
                 { name: 'If God Only Chose Some, Isn\'t That Unfair?', href: '/objection-unfair-to-choose-some', desc: 'If God only chose some for salvation, isn' },
-                { name: 'If God Predestined Everything, Why Does He Command?', href: '/objection-why-command', desc: 'If God predestined everything, why pray? Why obey? The answer reveals why commands aren' },
+                { name: 'If God Predestined Everything, Why Does He Command?', href: '/objection-why-command', desc: 'If God predestined everything, why does He command? The answer shatters the objection: God' },
                 { name: 'Is Election Fair? Why Grace Is Unfair', href: '/objection-fairness', desc: 'Is election fair? Does God' },
                 { name: 'Is God the Author of Sin? What Scripture and Logic Reveal', href: '/objection-author-of-sin', desc: 'Does God cause sin if He predestines everything? Scripture teaches a clear distinction between ordaining and authoring. ' },
                 { name: 'Isn\'t Faith a Choice? The Question That Changes Everything', href: '/objection-faith-choice', desc: 'Is faith a choice? Discover what Scripture actually teaches about where your faith came from—and why claiming you chose ' },
@@ -189,12 +190,13 @@
                 { name: 'The Autonomy Illusion: Why "Free Will" Feels So Real', href: '/psychology-autonomy-illusion', desc: 'Neuroscience reveals that our sense of autonomous choice may be the brain' },
                 { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Why self-sovereignty is the last idol to fall — even for believers. A deep psychological and theological exploration of ' },
                 { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
+                { name: 'The Sincerity Trap | Psychology of Resistance', href: '/psychology-sincerity-trap', desc: 'Why the warmest, most sincere believers are often the hardest to reach. How sincerity becomes the armor against truth.' },
                 { name: 'The Sunk Cost of Self-Made Faith', href: '/psychology-sunk-cost-faith', desc: 'The sunk cost fallacy explains why believers resist grace the longer they' },
                 { name: 'When Your Heart Rejects What Your Mind Accepts', href: '/psychology-emotional-vs-rational', desc: 'When your head knows sovereignty is biblical but your heart rejects it. Dual-process theory, affect heuristic, and Haidt' },
                 { name: 'Why Believing You Saved Yourself Feels Right', href: '/psychology-comfort-self-salvation', desc: 'Why does it feel right that you chose God? Psychology reveals your ego' },
                 { name: 'Why Do People Reject What They Know Is True?', href: '/psychology-suppressing-truth', desc: 'Romans 1:18 reveals the deepest human problem: we suppress what we already know about God. Modern psychology calls it mo' },
                 { name: 'Why Do We Reject Grace? Pride Is the Root', href: '/psychology-pride-root-objection', desc: 'Why does grace provoke fury? Psychology and Scripture both reveal the answer: pride. Every objection to sovereignty defe' },
-                { name: 'Why Do We Resist God\'s Sovereignty?', href: '/psychology-why-we-resist', desc: 'Why do intelligent Christians resist God' },
+                { name: 'Why Do We Resist Predestination? The Psychology Explained', href: '/psychology-why-we-resist', desc: 'Why do intelligent, Bible-believing Christians reject predestination? Psychology reveals motivated reasoning, cognitive ' },
                 { name: 'Why Does God\'s Sovereignty Terrify Us?', href: '/psychology-fear-control', desc: 'Why does God' },
                 { name: 'Why Evidence Makes Some People Believe Harder', href: '/psychology-backfire-effect', desc: 'Why does showing someone Scripture about election make them believe harder in free will? The backfire effect reveals how' },
                 { name: 'Why Grace Feels Like an Attack on Your Identity', href: '/psychology-identity-threat', desc: 'Why does grace feel like an attack on your identity? Identity-protective cognition explains how belief becomes self-conc' },
@@ -218,7 +220,8 @@
                 { name: 'Not My Will, But Joy – Devotional', href: '/devotional-not-my-will-but-joy', desc: 'A meditative reflection on divine sovereignty and joyful surrender. Discover how yielding to God' },
                 { name: 'Rescued Without a Say – Devotional', href: '/devotional-rescued-without-a-say', desc: 'A meditative reflection on Irresistible Grace and the sovereign work of God in salvation. Discover how grace comes not a' },
                 { name: 'The Dead Who Live — What Does It Mean to Be Spiritually Dead?', href: '/devotional-dead-who-live', desc: 'Ephesians 2:1 says you were dead — not struggling, not searching, dead. This devotional explores what spiritual death re' },
-                { name: 'The Glory of Divine Choice', href: '/devotional-glory-of-divine-choice', desc: 'Meditate on the glory of divine choice: why God chose you before the foundation of the world, and why this truth is the ' },
+                { name: 'The Glory of Divine Choice', href: '/devotional-glory-of-divine-choice-BACKUP', desc: 'Meditate on the glory of divine choice: why God chose you before the foundation of the world, and why this truth is the ' },
+                { name: 'The Glory of Divine Choice', href: '/devotional-glory-of-divine-choice', desc: 'You were chosen before the foundation of the world. Not because you' },
                 { name: 'The Good That I Cannot Do', href: '/devotional-good-i-cannot-do', desc: 'You have tried to be good. You know what happened. A devotional on Romans 7, human inability, and why' },
                 { name: 'The Love Letter Dated Before Time', href: '/devotional-love-letter-before-time', desc: 'What if you found a letter written to you before you were born — before the world was born? Ephesians 1:3-14 as God' },
                 { name: 'The Prayer You Didn\'t Pray — When Even Crying Out Is Grace', href: '/devotional-the-prayer-you-didnt-pray', desc: 'You think you reached out to God. But what if God reached out first—and the prayer was the proof? A devotional on the gr' },
@@ -310,12 +313,12 @@
             href: '/analogies-illustrations',
             desc: 'Pictures that make deep truths click',
             subs: [
-                { name: 'Can a Dead Person Choose? The Doctor and the Corpse Analogy Explained', href: '/analogy-doctor-corpse', desc: 'Why can a spiritually dead person not choose God? This powerful doctor-and-corpse analogy explains why salvation must be' },
                 { name: 'Can You Choose to Believe? The Light Switch & Spiritual Blindness', href: '/analogy-light-switch', desc: 'Can you choose to believe on your own? Explore why your ability to have faith is a gift from God, not something you gene' },
                 { name: 'Did Lazarus Choose to Rise? God\'s Sovereign Calling Explained', href: '/analogy-lazarus-grave', desc: 'Does God force salvation or respect free will? John 11 shows how effectual calling works through Lazarus' },
                 { name: 'Does God Control Everything? The Chess Grandmaster Analogy', href: '/analogy-chess-grandmaster', desc: 'Does God control everything? The chess grandmaster analogy explains how divine sovereignty and human choice coexist with' },
                 { name: 'The Drowning Man Who Thinks He\'s Swimming', href: '/analogy-drowning-man', desc: 'The crucial distinction between drowning and dead. Why' },
-                { name: 'What Does Adoption Teach About God\'s Choice?', href: '/analogy-adoption', desc: 'A baby doesn' }
+                { name: 'What Does Adoption Teach About God\'s Choice?', href: '/analogy-adoption', desc: 'A baby doesn' },
+                { name: 'Why the Spiritually Dead Cannot Choose God — The Doctor and Corpse', href: '/analogy-doctor-corpse', desc: 'A corpse cannot choose to live. Neither can a spiritually dead person choose God. This stark analogy shatters the myth o' }
             ]
         },
         {
@@ -382,6 +385,20 @@
             desc: 'Singing the sovereignty of God',
             subs: [
                 { name: 'Election in the Psalms', href: '/psalms-election', desc: 'How David understood himself as chosen by grace, not merit. Election themes throughout the Psalms—Psalm 65:4, 33:12, 135' }
+            ]
+        },
+        {
+            name: 'Philosophy of Truth',
+            icon: '🔭',
+            href: '/philosophy-of-truth',
+            desc: 'Deep philosophical proofs that sovereign grace must be true',
+            subs: [
+                { name: 'The Mirror You Refuse to Look In: Why Grace Reveals What We Really Are', href: '/philosophy-mirror-you-refuse', desc: 'We reject God' },
+                { name: 'The Problem of Merit: If You Chose God, What Makes You Different?', href: '/philosophy-problem-of-merit', desc: 'The Problem of Merit: If you chose God, what makes you different from those who didn' },
+                { name: 'The Resistance Is the Proof: Why We Blame God Before Ourselves', href: '/philosophy-resistance-is-proof', desc: 'When confronted with God' },
+                { name: 'The Self-Deception Engine: How the Will Hides from Itself', href: '/philosophy-self-deception', desc: 'The Self-Deception Engine: How the human will hides truth from itself. A philosophical excavation of Jeremiah' },
+                { name: 'Why Exclusive Love Is the Only Real Love', href: '/philosophy-exclusive-love', desc: 'A love that is extended to everyone equally is not love—it is policy. Real love requires distinction. Real love means yo' },
+                { name: 'Why Is Marriage Special? A Philosophical Proof of Election', href: '/philosophy-marriage-election', desc: 'Why is marriage special? Because someone chose YOU and no one else. Discover what this reveals about God' }
             ]
         },
         {

@@ -6,34 +6,39 @@
 
 ---
 
-## STRATEGIST PRIORITIES — April 2026 (Updated 2026-03-31)
+## STRATEGIST PRIORITIES — April 2026 (Updated 2026-04-04)
 
 ### TIER 1 — Maximum Impact (Build First)
-1. **Healing: Invisible Wall** — HIGHEST PRIORITY GAP. Only 1 article. Need 5 new articles: loneliness in marriage, friend who ghosted you, spiritual isolation, the invisible wall with family, theological loneliness in a mixed church.
-2. **Healing: Shattered Lens** — 2 articles scoring 6.4. Need 4 new articles + Enhancer pass on existing: when your pastor teaches what you know isn't true, the loneliness of seeing what others don't, when you can't unsee it, the beautiful terror of seeing clearly.
-3. **Healing: Open Wound** — 2 articles. Need 4 new articles: sovereignty and miscarriage, when the diagnosis is terminal, the death that makes no sense, when God took the most faithful person you knew.
-4. **Objection Pages — Final 3** — objection-babies ("What About Babies?"), objection-manipulation ("Is God Manipulating Us?"), objection-desire ("Doesn't God Desire All to Be Saved?"). Completes the full objection library.
-5. **Enhancer: Quality Floor Sweep** — 11 pages scoring below 6.5 need immediate enhancement (see CONTENT-STRATEGY-2026.md for list).
+1. **Romans Walkthrough — LAUNCH NOW.** Promoted from Tier 3. Zero pages exist. Most distinctive content gap vs. competitors. Start with Romans 8:28-39 (Golden Chain), Romans 9:1-24 (Potter & Clay), Romans 3:10-18 (Total Depravity). Target: 4 chapters by April 30.
+2. **Audience Landing Pages** — Promoted from Tier 3. /for-skeptics and /for-new-believers are high-conversion, low-effort pages that dramatically improve visitor experience.
+3. **Healing: Continue Building** — All 5 categories now at 42-50% (up from 17-50%). Target: +10 more articles to reach 38 total (63% of 60 target). Priority: Anxious Mind (+2), Broken Mirror (+2), Open Wound (+2), Invisible Wall (+2), Shattered Lens (+2).
+4. **Enhancer: Quality Floor Sweep** — devotional-love-before-the-world (6.9), story-the-dead-city (7.3), and all pages from 3/31 below-6.5 list not yet enhanced.
+5. **Psychology: Sincerity Trap** — New page: "The Most Dangerous Form of Pride Wears Humility's Mask." Based on Evolution Journal Crown Jewel discovery.
 
-### TIER 2 — High Impact (Build Second)
-6. **Healing: Broken Mirror + Anxious Mind** — 3 new articles each to reach 50% of target.
-7. **Stories** — 5 new stories: 2 historical fiction (Luther thunderstorm, Newton storm), 1 children's, 1 humor, 1 hard-hitting. SEO-optimize all titles.
-8. **Title Surgery** — History and OT pages still have academic titles. Apply dramatic, search-intent titles to ALL 28 pages.
-9. **JSON-LD Sweep** — Add structured data to all pages missing it (~50% of site).
-10. **Internal Linking Offensive** — Add cross-references to all pages scoring below 6 on XR.
+### TIER 2 — High Impact (Build This Week)
+6. **Objection pages: 3 more to fill new gaps** — objection-why-not-save-everyone (keyword gap), plus 2 new angles from analytics data (targeting search queries).
+7. **Stories** — Newton storm (historical fiction), 1 more children's story, 1 epistolary story. SEO-optimize all story titles.
+8. **Hymn Analysis Launch** — hymn-amazing-grace.html. First in series.
+9. **Title Surgery** — History and OT pages still have academic titles. Apply dramatic, search-intent titles to ALL 28 pages.
+10. **JSON-LD Sweep** — Add structured data to remaining ~30-40% of pages missing it.
 
-### TIER 3 — Strategic Differentiation (Build Third)
-11. **Romans Walkthrough** — Start the book-of-the-Bible series with Romans chapters 1-3.
-12. **Audience Landing Pages** — /for-skeptics, /for-new-believers, /for-pastors.
-13. **Hymn Analysis** — Amazing Grace + And Can It Be.
-14. **Choose Your Objection** — Interactive branching experience.
-15. **Dedicated page: "Does God Predestine People to Hell?"** — High-search keyword with NO dedicated page.
-16. **Dedicated page: "Is Predestination Biblical?"** — High-search keyword, currently scattered across pages.
+### TIER 3 — Strategic Differentiation
+11. **for-pastors.html** — Third audience landing page.
+12. **Choose Your Objection** — Interactive branching experience.
+13. **secular-game-theory-sovereignty.html** — Nash equilibrium + sovereignty. Unique bridge content.
+14. **psychology-why-i-stopped-being-calvinist.html** — SEO play targeting common search query.
+15. **Newsletter hub page** — Newsletter category now at 6 pages, needs its own hub.
+16. **Internal Linking Offensive** — Continue adding cross-references to all pages scoring below 7 on XR.
 
-### COMPLETED (Tier 1 from 2026-03-30)
-- ✅ **Objection Pages: COMPLETE LIBRARY.** All 12 objection pages live (robots, fairness, evangelism, love, effort, faith-choice, moral-responsibility, babies, desire, why-believe, god-could-save-all, **manipulation**). Category milestone achieved.
-- ✅ Psychology Pages: All 5 targets completed (pride, comfort-self-salvation, fear-control, emotional-vs-rational, groupthink). Category at 14 pages. Shift to enhancement of older pages.
-- ✅ Stories: Historical fiction gap filled (Augustine pears).
+### COMPLETED (Updated 2026-04-04)
+- ✅ **Objection Pages: 17 pages.** Full library + expansions. objection-faith-choice (9.1) is Crown Jewel page.
+- ✅ **Psychology: 16 pages.** Highest per-page traffic ratio. sunk-cost-faith and identity-threat are latest additions.
+- ✅ **Healing: 28 articles across 5 hubs.** Up from 17 on 3/31. Invisible Wall and Shattered Lens dramatically improved.
+- ✅ **Stories: 13 pages.** 3 historical fiction, 1 satire, 1 children's, multiple parables.
+- ✅ **Newsletters: 6 pages.** dear-friend (8.9) proves epistolary format.
+- ✅ **Analogies: drowning-man at 9.3.** Site's front-door page.
+- ✅ **question-predestined-to-hell (8.5).** Fills high-search keyword gap.
+- ✅ Enhancer: Analogy category overhauled (6.3 → 8.7 avg). Cross-referencing dramatically improved site-wide.
 
 ### Fleet Health
 - AGENT-PROMPT-CREATOR.md: ✅ Current

@@ -190,6 +190,15 @@ const CATEGORIES = [
     // No hubFiles — psalms-election IS content, not just a hub landing page
   },
   {
+    key: 'philosophy',
+    name: 'Philosophy of Truth',
+    icon: '🔭',
+    hub: '/philosophy-of-truth',
+    desc: 'Deep philosophical proofs that sovereign grace must be true',
+    prefixes: ['philosophy'],
+    hubFiles: ['philosophy-of-truth.html'],
+  },
+  {
     name: 'Healing & Hope',
     icon: '💚',
     hub: '/anxious-mind-hub',

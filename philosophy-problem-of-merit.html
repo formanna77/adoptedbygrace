@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Problem of Merit: If you chose God, what makes you different from those who didn't? Philosophical proof that any answer becomes a work. A devastating logical trap with no escape except grace.">
+    <meta name="keywords" content="problem of merit, works-righteousness, logicalfallacy, choice vs grace, Romans 9:16, Arminianism refutation, salvation philosophy">
+    <meta property="og:title" content="The Problem of Merit: If You Chose God, What Makes You Different?">
+    <meta property="og:description" content="The logical trap no one escapes: if you chose God, what distinguishes you from those who didn't? Every answer becomes a merit. Every merit becomes a work.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/philosophy-problem-of-merit.html">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-philosophy.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Problem of Merit: If You Chose God, What Makes You Different?">
+    <meta name="twitter:description" content="A logical trap with no escape: any answer to 'what made you different' becomes a work of the flesh.">
+    <link rel="canonical" href="https://adoptedbygrace.net/philosophy-problem-of-merit.html">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="/global.css">
+
+    <title>The Problem of Merit: If You Chose God, What Makes You Different?</title>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Problem of Merit: If You Chose God, What Makes You Different?",
+        "description": "A devastating logical trap: if salvation depends on your choice, what distinguishes you from those who chose differently? Every possible answer becomes a merit. And merit kills grace.",
+        "author": { "@type": "Organization", "name": "Adopted by Grace" },
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace" },
+        "datePublished": "2026-04-04",
+        "dateModified": "2026-04-04",
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://adoptedbygrace.net/philosophy-problem-of-merit.html" }
+    }
+    </script>
+
+    <style>
+        /* Philosophy Page Specific Styles */
+
+        /* Reading Progress Bar */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold) 0%, var(--accent-ember) 50%, var(--accent-violet) 100%);
+            z-index: 1000;
+            width: 0%;
+            transition: width 0.1s ease-out;
+        }
+
+        /* Philosophy Visual Identity */
+        .page-hero {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.1) 0%, rgba(217, 119, 6, 0.05) 100%);
+            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
+        }
+
+        .hero-eyebrow {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            letter-spacing: 0.15em;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .page-hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            line-height: 1.15;
+            color: var(--text-primary);
+        }
+
+        .page-hero h1 .gold {
+            color: var(--accent-gold);
+        }
+
+        .page-hero .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin-top: 1.5rem;
+            line-height: 1.6;
+        }
+
+        /* Section Headers with Numbers */
+        .section-number {
+            display: inline-block;
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--accent-gold);
+            opacity: 0.15;
+            margin-right: 1rem;
+            line-height: 1;
+        }
+
+        .content-section h2 {
+            position: relative;
+            padding-left: 4rem;
+            font-size: clamp(1.75rem, 5vw, 2.5rem);
+            color: var(--text-primary);
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+        }
+
+        .content-section h2 .section-number {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        /* Logic Card */
+        .logic-card {
+            background: rgba(212, 162, 84, 0.05);
+            border: 1px solid rgba(212, 162, 84, 0.15);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem 0;
+            transition: all 0.3s ease;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .logic-card:hover {
+            border-color: rgba(212, 162, 84, 0.4);
+            background: rgba(212, 162, 84, 0.08);
+            box-shadow: 0 8px 32px rgba(212, 162, 84, 0.1);
+        }
+
+        .logic-card h3 {
+            color: var(--accent-gold);
+            font-size: 1.15rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .logic-card p {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+        }
+
+        .answer-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .answer-list li {
+            margin: 1.25rem 0;
+            padding-left: 2rem;
+            position: relative;
+        }
+
+        .answer-list li:before {
+            content: "❌";
+            position: absolute;
+            left: 0;
+            color: var(--accent-gold);
+            font-weight: bold;
+        }
+
+        .answer-list strong {
+            color: var(--accent-gold);
+        }
+
+        .pull-quote {
+            font-size: 1.5rem;
+            line-height: 1.8;
+            color: var(--accent-gold);
+            font-style: italic;
+            margin: 2rem 0;
+            padding-left: 2rem;
+            border-left: 4px solid var(--accent-gold);
+        }
+
+        .pull-quote-author {
+            font-size: 0.9rem;
+            font-style: normal;
+            color: var(--text-secondary);
+            margin-top: 0.75rem;
+        }
+
+        .verdict {
+            background: rgba(212, 162, 84, 0.1);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .verdict strong {
+            color: var(--accent-gold);
+        }
+    </style>
+</head>
+<body>
+    <div class="reading-progress"></div>
+
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
+                <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">History</a></li>
+                <li class="mobile-nav-link"><a href="/analogies-illustrations">Analogies</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/devotionals" class="nav-top-link">Devotionals</a>
+                <a href="/stories" class="nav-top-link">Stories</a>
+                <a href="/secular-evidence" class="nav-top-link">Secular</a>
+                <a href="/history-timeline" class="nav-top-link">History</a>
+                <a href="/analogies-illustrations" class="nav-top-link">Analogies</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <main class="content-main">
+        <div class="page-hero">
+            <div class="content-container">
+                <span class="hero-eyebrow">Philosophy of Truth</span>
+                <h1>The Problem of Merit<br><span class="gold">If You Chose God, What Makes You Different?</span></h1>
+                <p class="subtitle">
+                    The theological trap that no one escapes intact. If salvation depends on your choice, then the saved person has something the unsaved person doesn't. What is it? The answer destroys grace.
+                </p>
+            </div>
+        </div>
+
+        <div class="content-container">
+            <article class="article-text">
+
+                <section class="content-section reveal">
+                    <h2><span class="section-number">01</span> The Setup: Two People, One Gospel</h2>
+
+                    <p>
+                        Imagine this scene. A pastor preaches the gospel to a gathering of people. The gospel is presented clearly: Christ died for sinners. Faith is offered. The invitation is extended. Everyone hears the same message.
+                    </p>
+
+                    <p>
+                        Some people believe. Some people don't.
+                    </p>
+
+                    <p>
+                        On the non-Reformed view of salvation, what explains the difference? If God didn't predestine some to believe and not others, if God didn't choose some and not others, then the difference must come from somewhere. The person who believes must have something the person who doesn't believe doesn't have.
+                    </p>
+
+                    <p>
+                        Here is where the trap begins: <strong>What is that something?</strong>
+                    </p>
+
+                    <p>
+                        Let's call it "X." The believer has X. The unbeliever doesn't. X is the decisive factor in salvation. X is what makes the difference. X is what determines eternal destiny.
+                    </p>
+
+                    <p>
+                        The question becomes: What is X?
+                    </p>
+
+                    <p>
+                        And every answer to that question carries a devastating implication.
+                    </p>
+                </section>
+
+                <section class="content-section reveal">
+                    <h2><span class="section-number">02</span> The Trap: Every Possible Answer Becomes a Merit</h2>
+
+                    <p>
+                        Let's walk through the most common answers people give. Each time we'll see the same pattern: whatever X is named becomes the factor that saved the person. And if something you did or possessed saved you, then that is a work. And works cannot save.
+                    </p>
+
+                    <div class="logic-card">
+                        <h3>Testing Each Answer</h3>
+
+                        <ul class="answer-list">
+                            <li>
+                                <strong>X = Humility</strong><br>
+                                "I was more humble. I was willing to admit I couldn't save myself." But then humility becomes the decisive factor. You had it; others didn't. Humility is something you contributed. Humility is a work—a very spiritual work, but a work nonetheless. And you just made salvation depend on your humility.
+                            </li>
+
+                            <li>
+                                <strong>X = Openness to the Gospel</strong><br>
+                                "I was more open to the message." But openness is something you did. It's a response you gave that others didn't give. It's a work. You just made salvation depend on your openness.
+                            </li>
+
+                            <li>
+                                <strong>X = Sincerity</strong><br>
+                                "I was more sincere in my desire to be saved." Sincerity is something you possessed that others didn't. It's the quality you brought to the table. You just made salvation depend on your sincerity.
+                            </li>
+
+                            <li>
+                                <strong>X = Desperation</strong><br>
+                                "I was desperate enough to change." But desperation is a state you entered. It's something happening in your will, your emotions, your conditions. You just made salvation depend on your degree of desperation.
+                            </li>
+
+                            <li>
+                                <strong>X = Non-Resistance</strong><br>
+                                "I just didn't resist God's offer. I didn't say no." But choosing not to resist is still a choice. It's still an act. It's still something you did that the other person didn't do. You just made salvation depend on your non-resistance—which is a work.
+                            </li>
+
+                            <li>
+                                <strong>X = The Choice Itself</strong><br>
+                                "I simply chose to believe. It was my decision." But a decision is an act. A choice is something you do. You just made salvation depend on your choice. And a choice that determines eternal destiny is, by definition, a work.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p>
+                        Do you see the pattern? No matter what X is, it becomes a factor *you possessed* or *you did*. And the moment it becomes a factor you possessed or did, it becomes a work. Because if the difference between the saved and the damned is something *you* supplied, then *you* are the difference. And if *you* are the difference that secured your salvation, then *you* are the one who saved yourself.
+                    </p>
+
+                    <p>
+                        This is the trap. You cannot name X without making it a work. The logic is inescapable.
+                    </p>
+                </section>
+
+                <section class="content-section reveal">
+                    <h2><span class="section-number">03</span> Why This Destroys Grace</h2>
+
+                    <p>
+                        Paul said something that cuts right to the center of this problem: "So it depends not on human desire or effort, but on God's mercy" (Romans 9:16).
+                    </p>
+
+                    <p>
+                        Notice the structure. It does NOT depend on human desire or effort. It depends on mercy. Mercy is not a reward for what you did. Mercy is not payment for a debt you didn't incur. Mercy is something done for you that you did not earn and could not earn.
+                    </p>
+
+                    <p>
+                        But if salvation depends on X—on something you possessed or did—then it does depend on human desire or effort. It depends on the degree to which you were humble, open, sincere, non-resistant, or decisive.
+                    </p>
+
+                    <p>
+                        And if it depends on those things, then mercy becomes conditional. Your mercy is proportional to your humility. God's grace is extended to those worthy of receiving it—worthy by virtue of having already displayed the openness or sincerity or non-resistance that qualifies them.
+                    </p>
+
+                    <p>
+                        But that's not mercy anymore. That's a transaction. That's payment for services rendered. That's God rewarding you for being the kind of person who would respond rightly to the gospel.
+                    </p>
+
+                    <p>
+                        And grace that is conditional on your merit is not grace at all.
+                    </p>
+
+                    <div class="verdict">
+                        <strong>The Verdict:</strong> If salvation depends on your choice, then the difference between you and the damned is a difference you made. And if a difference you made determined your eternal fate, then you are—at the most fundamental level—counting on yourself. You are trusting in your decision, your openness, your choice. You are a works-based believer, whether you name it that way or not.
+                    </div>
+                </section>
+
+                <section class="content-section reveal">
+                    <h2><span class="section-number">04</span> The Only Escape: God Made the Difference</h2>
+
+                    <p>
+                        There is only one way to escape this trap. Only one answer to "What makes you different?" that preserves both logic and grace.
+                    </p>
+
+                    <p>
+                        <strong>The answer: Nothing. God made the difference.</strong>
+                    </p>
+
+                    <p>
+                        Not "God plus your choice." Not "God's offer and your acceptance." Not "God gives 99% and you contribute 1%."
+                    </p>
+
+                    <p>
+                        God. Alone.
+                    </p>
+
+                    <p>
+                        If the difference between the saved and the damned is something *God* did—if God changed your heart, if God granted you faith, if God gave you the willingness to believe—then you have nothing to boast about. You have no merit to claim. You have no contribution to celebrate. You are saved entirely by mercy. By grace. By something done *to* you and *for* you that you did not earn.
+                    </p>
+
+                    <p>
+                        This is why Scripture insists: "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God—not a result of works, so that no one may boast" (Ephesians 2:8-9).
+                    </p>
+
+                    <div class="pull-quote">
+                        "So that no one may boast." Why? Because if salvation depended on you—on your choice, your openness, your sincerity—then you would have something to boast about. But grace says: the difference was not in you. It was in God. It was in mercy. And mercy produces not boasting but gratitude. Not pride but humility. Not self-trust but trust in God alone.
+                    </div>
+
+                    <p>
+                        The person who is saved by grace knows one thing with absolute clarity: "I did not choose this. I did not earn this. I did not deserve this. God did this." That person has been liberated from the burden of self-trust. They do not lie awake at night wondering if they're truly saved, wondering if their faith is genuine enough, wondering if they chose rightly. Because they know: they didn't do it. God did.
+                    </p>
+                </section>
+
+                <section class="content-section reveal">
+                    <h2><span class="section-number">05</span> The Truth That Transforms Everything</h2>
+
+                    <p>
+                        When you understand this—when you really grasp that if you have anything different from the damned, it's because God gave it to you—something breaks in you. Not in a bad way. In a way that sets you free.
+                    </p>
+
+                    <p>
+                        You stop trying to prove that your faith is real by pointing to your sincerity. You stop defending your salvation by highlighting your commitment. You stop measuring your assurance against the intensity of your belief. Because all of that is still counting on yourself. All of that is still making *you* the foundation of your faith.
+                    </p>
+
+                    <p>
+                        But grace says: the foundation is not you. The foundation is God. He chose you. He gave you faith. He sustains you. He keeps you. You are safe not because you're good enough to stay saved, but because God is good and powerful enough to hold you.
+                    </p>
+
+                    <p>
+                        This is the peace that passes understanding. This is why believers can rest. Not in themselves. But in the God who chose them before the foundation of the world.
+                    </p>
+
+                    <p>
+                        The problem of merit dissolves the moment you stop trying to find merit in yourself and start finding everything in God's mercy. And that is the only place mercy can be found.
+                    </p>
+                </section>
+
+                <section class="content-section reveal">
+                    <h2><span class="section-number">06</span> For Those Who Claim They Chose</h2>
+
+                    <p>
+                        If you're reading this and your first instinct is to object—to insist that you *did* choose God, that your faith *is* your own achievement—I'm not asking you to deny the reality of your choice. You genuinely chose. You genuinely made a decision to believe.
+                    </p>
+
+                    <p>
+                        But I'm asking you to trace that choice backward. Where did the willingness to choose come from? Not the ability to think about it. Not the exposure to the gospel. But the willingness. The inclination. The desire to believe. Where did that come from?
+                    </p>
+
+                    <p>
+                        If you generated it entirely from yourself, then you answered the riddle: What made you different? It was your willingness. And your willingness is a work. And grace is gone.
+                    </p>
+
+                    <p>
+                        But if that willingness was given to you—if God made you willing—then you have nothing to boast about. You have everything to be grateful for. And your gratitude will lead you away from the question "What did I do?" and toward the answer: "What did God do?"
+                    </p>
+
+                    <p>
+                        And on that foundation, grace is unshakeable.
+                    </p>
+                </section>
+
+            </article>
+
+            <!-- Related Journey -->
+            <section class="reveal" style="margin-top: 4rem; padding-top: 3rem; border-top: 2px solid rgba(212, 162, 84, 0.2);">
+                <h2>The Complete Picture</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 2.5rem;">
+                    You've seen the trap. Now see the foundation and the hope.
+                </p>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
+
+                    <a href="/philosophy-self-deception.html" class="card" style="border-left: 4px solid var(--accent-gold);">
+                        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="display: inline-block; background: var(--accent-gold); color: #0a0a0f; padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem;">Read First</span>
+                        </div>
+                        <h3>The Self-Deception Engine: How the Will Hides from Itself</h3>
+                        <p>Understand why people can claim they chose God when the truth is that their will has hidden that choice from them. The architecture of how we deceive ourselves.</p>
+                        <span class="card-arrow">→ Understand</span>
+                    </a>
+
+                    <a href="/objection-faith-choice.html" class="card" style="border-left: 4px solid var(--accent-violet);">
+                        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="display: inline-block; background: var(--accent-violet); color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem;">Face It</span>
+                        </div>
+                        <h3>Isn't Faith a Choice? The Question That Changes Everything</h3>
+                        <p>The full theological answer to the question "Isn't faith a choice?" that brings philosophy and Scripture together.</p>
+                        <span class="card-arrow">→ Explore</span>
+                    </a>
+
+                    <a href="/devotional-never-gives-up.html" class="card" style="border-left: 4px solid var(--accent-ember);">
+                        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                            <span style="display: inline-block; background: var(--accent-ember); color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem;">Feel This</span>
+                        </div>
+                        <h3>He Will Never Give Up On You</h3>
+                        <p>When these philosophical truths strip away your self-reliance, read this. Because God doesn't just teach logic—He pursues with love.</p>
+                        <span class="card-arrow">→ Receive</span>
+                    </a>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Doctrine</h4>
+                    <ul>
+                        <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                        <li><a href="/systematic-theology">Systematic Theology</a></li>
+                        <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                        <li><a href="/creeds-confessions">Creeds &amp; Confessions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                        <li class="mobile-nav-link"><a href="/stories">Stories &amp; Parables</a></li>
+                        <li class="mobile-nav-link"><a href="/analogies-illustrations">Analogies</a></li>
+                        <li><a href="/pastoral-assurance">Pastoral</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li></li>
+                        <li><a href="/theologians">Theologians</a></li>
+                        <li><a href="/history-timeline">Church History</a></li>
+                        <li><a href="/demolition-hub">Apologetics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li class="mobile-nav-link"><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="https://substack.com/@formanna77" target="_blank">Substack</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Adopted by Grace. All rights reserved. God's grace to you.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top"></button>
+
+    <!-- Global Scripts -->
+    <script src="/global.js" defer></script>
+
+    <!-- Page-Specific Scripts -->
+    <script>
+        // Reading Progress Bar
+        function updateReadingProgress() {
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight - windowHeight;
+            const scrolled = window.scrollY;
+            const progress = (scrolled / documentHeight) * 100;
+            document.querySelector('.reading-progress').style.width = progress + '%';
+        }
+
+        window.addEventListener('scroll', updateReadingProgress);
+    </script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>
