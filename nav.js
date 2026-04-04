@@ -209,8 +209,9 @@
                     name: 'Verse by Verse',
                     icon: '💥',
                     href: '/demolition-hub',
-                    count: 23,
+                    count: 24,
                     pages: [
+                        { name: '1 Corinthians 15:22 — In Adam All Die, In Christ All Shall Be Made Alive', href: '/demolition-1cor15-22', desc: 'Demolition #4: 1 Corinthians 15:22 proves particular redemption, not universal atonement. The parallel is representation' },
                         { name: '1 John 2:2 — Verse Demolition #7', href: '/demolition-1john2-2', desc: '1 John 2:2 — Does' },
                         { name: '1 Timothy 2:4 — Verse Demolition #2', href: '/demolition-1tim2-4', desc: 'Demolition #2: Does God Desire the Salvation of Every Individual? A Reformed analysis of 1 Timothy 2:4 that dismantles A' },
                         { name: '1 Timothy 4:10 — Verse Demolition #12', href: '/demolition-1tim4-10', desc: 'Demolition #12: Does 1 Timothy 4:10 Prove Universal Atonement? A Reformed analysis that reveals how' },
