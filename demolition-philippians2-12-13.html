@@ -226,40 +226,7 @@
             font-size: 0.9rem;
             text-transform: uppercase;
             letter-spacing: 1px;
-        }
-
-        .back-to-top {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 48px;
-            height: 48px;
-            background-color: var(--accent-gold);
-            color: var(--bg-deep);
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.3s ease;
-            z-index: 900;
-        }
-
-        .back-to-top.show {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .back-to-top:hover {
-            background-color: var(--accent-ember);
-            transform: translateY(-4px);
-        }
-
-        @media (max-width: 768px) {
+        }@media (max-width: 768px) {
             .container {
                 padding: 2rem 1.5rem;
             }
@@ -272,13 +239,7 @@
                 font-size: 1.3rem;
             }
 
-            .back-to-top {
-                width: 40px;
-                height: 40px;
-                bottom: 1rem;
-                right: 1rem;
             }
-        }
 
         blockquote {
             border-left: 3px solid var(--accent-gold);
@@ -576,64 +537,9 @@
         </section>
     </div>
 
-    <button class="back-to-top" aria-label="Back to top">↑</button>
+    
 
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Philippians 2:12-13 — Work Out Your Salvation Because God Is Working In You",
-        "description": "A comprehensive Reformed analysis showing why this verse proves monergistic grace and absolute divine sovereignty in salvation, not human cooperation.",
-        "author": {
-            "@type": "Organization",
-            "name": "Adopted by Grace"
-        },
-        "datePublished": "2026-03-30",
-        "dateModified": "2026-03-30",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Adopted by Grace",
-            "url": "https://adoptedbygrace.net"
-        },
-        "url": "https://adoptedbygrace.net/demolition-philippians2-12-13.html",
-        "articleSection": "Verse-by-Verse Demolition",
-        "keywords": "Philippians 2:12-13, monergistic grace, compatibilism, Reformed theology, free will, divine sovereignty, election, Greek exegesis, total depravity"
-    }
-    </script>
-
-    <script>
-        function updateProgressBar() {
-            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrolled = window.scrollY;
-            const progress = scrollHeight > 0 ? (scrolled / scrollHeight) : 0;
-            document.querySelector('.progress-bar').style.transform = `scaleX(${progress})`;
-        }
-
-        const backToTopBtn = document.querySelector('.back-to-top');
-
-        function toggleBackToTop() {
-            if (window.scrollY > 300) {
-                backToTopBtn.classList.add('show');
-            } else {
-                backToTopBtn.classList.remove('show');
-            }
-        }
-
-        backToTopBtn.addEventListener('click', () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-
-        window.addEventListener('scroll', () => {
-            updateProgressBar();
-            toggleBackToTop();
-        });
-
-        updateProgressBar();
-        toggleBackToTop();
-    </script>
+    
     <script src="/global.js" defer></script>
     
     <footer>

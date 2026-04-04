@@ -90,6 +90,21 @@
 - **The Song That Makes You Cry** — You didn't choose to be moved. The beauty acted on you. That's how grace works — it moves you before you can decide whether to be moved.
 - **The Painter's Discovery** — Great artists describe "discovering" what was already in the marble, not "creating" something new. Michelangelo said "I saw the angel in the marble and carved until I set him free." God sees His elect in the mass of humanity and carves until they are free.
 
+### AARON'S BATTLE AXE IDEAS (HIGHEST PRIORITY — FROM THE FOUNDER)
+
+- **✅ BUILT: "Was Christ a Robot?" — The Predestination of the Cross (Acts 2:23)** → [question-was-christ-a-robot.html](/question-was-christ-a-robot) — Built 2026-04-04 (Exegete Session). Three-question Socratic trap deployed. Greek word study on proorizō proving Acts 4:28 and Ephesians 1:5 use the same verb. Five objections answered. Four historical witnesses. Two Arms bridge to devotionals.
+
+- **🔥 "WHOSE SIDE ARE YOU ON?" — The Great Divide (SERIES)** — Every believer must answer this question: does your theology side with MAN or with GOD? Arminian theology, at every decision point, sides with man — man's autonomy, man's choice, man's ability, man's dignity, man's decision as the determining factor. Reformed theology, at every decision point, sides with God — God's sovereignty, God's choice, God's power, God's glory, God's decision as the determining factor. Strip away the theological jargon, the proof-texting, the emotional arguments, and this is what remains: one theology makes man the hero; the other makes God the hero. One theology protects human pride; the other protects divine glory. This realization must be made so devastatingly clear that no one can hide behind the false compassion that Arminianism permeates through nearly every church.
+  - *Category:* SERIES — potentially 5-8 articles across multiple categories
+  - *Possible series structure:*
+    1. "Whose Side Are You On?" — The Core Question (demolition/philosophy)
+    2. "The Compassion That Kills" — How Arminian 'compassion' is actually cruelty because it gives people false assurance (demolition)
+    3. "Man-Centered vs. God-Centered" — A systematic comparison at every doctrinal point (comparison)
+    4. "The History of Siding with Man" — From Pelagius to modern evangelicalism (history)
+    5. "What It Feels Like to Finally Side with God" — Testimonial/devotional about surrender (devotional)
+  - *Crown Jewel integration:* This is the Crown Jewel argument from a different angle — claiming credit for your faith IS siding with man over God
+  - *Two Arms:* The demolition articles must link to devotionals about the freedom of surrendering to God's side
+
 ### SPORTS & COMPETITION
 - **The Draft Pick** — In professional sports, YOU don't choose your team. The team chooses YOU. And being drafted is the highest honor — not an insult. Why do we treat divine election as an offense?
 - **The Coach Who Sees What You Can't** — A great coach sees potential in a player that the player doesn't see in themselves. They choose the player, develop the player, and the player becomes what the coach always saw. That is election.

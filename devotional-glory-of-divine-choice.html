@@ -245,37 +245,7 @@
             background-color: var(--bg-card-hover);
             color: var(--accent-ember);
             border-color: var(--accent-gold);
-        }
-
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            background-color: var(--accent-gold);
-            color: var(--bg-deep);
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-            display: none;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            transition: all 0.3s ease;
-            z-index: 40;
-        }
-
-        .back-to-top.show {
-            display: flex;
-        }
-
-        .back-to-top:hover {
-            background-color: var(--accent-ember);
-            transform: translateY(-3px);
-        }
-
-        footer {
+        }footer {
             background-color: var(--bg-card);
             border-top: 1px solid var(--border-subtle);
             margin-top: 5rem;
@@ -345,13 +315,7 @@
                 padding: 20px;
             }
 
-            .back-to-top {
-                width: 45px;
-                height: 45px;
-                bottom: 20px;
-                right: 20px;
             }
-        }
         @media (max-width: 480px) {
             h1 { font-size: 1.8rem; }
             .page-hero { padding: 4.5rem 1rem 1.5rem; }
@@ -383,36 +347,21 @@
     <link rel="stylesheet" href="/global.css">
 
   REQUIRED before </body>:
-    <script src="/nav.js"></script>
+    
 
-  DO NOT add any inline CSS for nav, hamburger, .nav-links,
-  .nav-right, .nav-container, .nav-site-name, .search-overlay,
-  or .mega-menu. All styling lives in /global.css.
-
-  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
-                     button that opens mega-menu dropdown
-  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
-                     Hamburger opens full-screen overlay menu
-
-  Last updated: 2026-03-29
-  ============================================================
--->
-        <nav role="navigation" aria-label="Main navigation">
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
-            <!-- Mobile search icon (right side of nav bar) -->
             <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             </button>
             <ul class="nav-links">
-                <!-- Search bar at top of mobile menu -->
                 <li class="mobile-menu-search" style="list-style:none;">
                     <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
                 </li>
-                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
                 <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
@@ -423,7 +372,6 @@
                 <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
                 <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
                 <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
                 <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
             </ul>
 
@@ -446,14 +394,11 @@
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
                 </button>
             </div>
-
         </div>
     </nav>
 
-    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
     <div class="mega-menu" id="megaMenu"></div>
 
-    <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">
         <div class="search-overlay-inner">
             <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
@@ -461,271 +406,131 @@
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-    </div>
-    </div>
-
-
-
 
     <main id="main-content">
-        <div class="breadcrumb">
-            <a href="devotionals.html">← Back to Devotionals</a>
-        </div>
-
         <article>
-            <header class="article-meta">
+            <header class="article-header">
                 <h1>The Glory of Divine Choice</h1>
-                <p>You were chosen before the foundation of the world. Not for who you will become - for who you are.</p>
-                <p style="margin-top: 5px; font-size: 0.85rem; color: var(--text-muted);">Reading time: ~5 minutes</p>
+                <div class="article-meta">Before you drew your first breath—before your parents met—before the first star ignited—you were chosen. Not because of who you'd become. Because of who He is.</div>
             </header>
 
-            <section>
-                <h2>Before You Were Born, You Were Chosen</h2>
+            <section class="article-content">
+                <h2>You Were Not an Afterthought</h2>
 
-                <p>Imagine standing outside an ancient cathedral at night. The stones are indifferent. They have forgotten a thousand generations. The darkness is complete.</p>
+                <p>God did not see you coming. He did not stumble upon you as a surprise. Before the atoms were arranged that would become your fingers, before the DNA spiraled into you, before time itself was wound into existence—you were already marked. Already known. Already chosen.</p>
 
-                <p>Then light pours through the stained glass - great shafts of it flood the courtyard. The darkness breaks. It finds you. Illuminates the ground beneath your feet. Makes you visible in a way you were not.</p>
-
-                <p>And here is what must wreck you: <strong>You did not create that light. You did not decide it would shine on you. The light chose to shine on you.</strong> This is divine choice. This is grace. And the question that reveals everything is this: <em>When you learned God chose you before the foundation of the world - before you did anything, before you chose anything - did it feel like freedom or like the loss of control?</em></p>
-
-                <div style="background: linear-gradient(135deg, rgba(232, 100, 44, 0.12), rgba(139, 92, 246, 0.08)); border-left: 5px solid var(--accent-ember); padding: 25px; margin: 40px 0; border-radius: 4px; font-style: italic; line-height: 1.8;">
-                    <p style="margin: 0; font-size: 1rem;">If your first instinct was resistance - if the idea that God chose <em>you</em>, not that you chose <em>Him</em>, made you uneasy - understand this: that discomfort is not weakness. It is the sound of pride being exposed. And grace is about to destroy it.</p>
-                </div>
-
-                <p>Our age worships the false doctrine of human choice. Everything depends on you. You author your story. You save yourself through the right decision. But Scripture whispers something that undoes all of that: <em>Before you were born, God chose you.</em> Not because He saw something beautiful in you. Not because you would earn it. He chose you because grace cannot be earned - it can only be given.</p>
-            </section>
-
-            <section>
-                <h2>The Word That Settles Everything</h2>
-
-                <p>Listen to Paul, his heart overflowing with wonder:</p>
+                <p>This is not sentiment. This is not wishful thinking for those who feel unseen by the world. This is the thundering declaration of Scripture:</p>
 
                 <div class="verse-block">
-                    Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places, even as he chose us in him before the foundation of the world, that we should be holy and blameless before him. In love he predestined us for adoption as sons through Jesus Christ, according to the purpose of his will, to the praise of his glorious grace, which he freely bestowed on us in the Beloved.
-                    <cite>Ephesians 1:3–6 (ESV)</cite>
+                    <p>He chose us in him before the foundation of the world, that we should be holy and blameless before him. In love he predestined us for adoption as sons through Jesus Christ, according to the purpose of his will.</p>
+                    <cite>Ephesians 1:4-5 (ESV)</cite>
                 </div>
 
-                <p>Notice what Paul is doing. Every verb belongs to God. He blessed you. He chose you - not you choosing Him. He predestined you for adoption before anything existed to earn anything. He freely gave you His grace.</p>
+                <p>Stop there. Let the weight of it settle.</p>
 
-                <p>This is what you need to see: <strong>Your entire salvation, from first to last, is God's work.</strong> You are the beloved not because you demanded it, but because you are in Christ, and Christ is eternally loved by the Father. <a href="/question-chosen.html" style="color: var(--accent-gold); text-decoration: underline;">This is the doctrines of grace</a> - not your decision to follow God, but <a href="/devotional-adoption-papers.html" style="color: var(--accent-gold); text-decoration: underline;">His decision to adopt you.</a></p>
-            </section>
+                <p><em>Before the foundation of the world.</em> Not after you were born. Not after you became aware. Not after you proved yourself. The Greek word is <em>proorizó</em>—to mark out beforehand, to determine in advance. God looked at the corridor of time, at the person you would become in all your brokenness and rebellion, and He said: "That one. Mine. By grace."</p>
 
-            <section>
-                <h2>The Question That Pierces Defenses</h2>
-
-                <p>Here is where this becomes unbearably personal. Think of the moment you first believed. What happened?</p>
-
-                <p>You might say, "I prayed. I confessed Christ. I made the decision." But then ask yourself: <em>Where did the desire to pray come from? Who made you care? Who opened your eyes to see Jesus as beautiful?</em></p>
-
-                <p>Most people never ask these questions because they're terrifying. Because if you didn't generate your own faith - if the desire itself was a gift - then you cannot take credit for the one thing that saved you. And a heart built on pride cannot bear that thought.</p>
-
-                <blockquote>
-                    For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified.
-                    <cite>Romans 8:29-30 (ESV)</cite>
+                <blockquote class="pull-quote">
+                    You were not an afterthought in God's mind. You were a first thought. Settled. Certain. Irrevocable.
                 </blockquote>
 
-                <p>The chain is unbroken. Predestination - calling - justification - glorification. If He chose you at the beginning, He will not abandon you in the middle. Your struggles now - He saw them. Your joys ahead - He ordained them. Long ago. This is not a lottery. This is love made eternal.</p>
-            </section>
+                <h2>What This Choice Actually Means</h2>
 
-            <section>
-                <h2>When Striving Stops, Worship Begins</h2>
+                <p>When a parent names their child before birth, they are doing something profound. They are saying: "I know who you are before I see your face. I have imagined your life before you draw breath." They are not responding to who the child is. They are shaping who the child will become.</p>
 
-                <p>Here is what most people miss: election doesn't paralyze - it liberates.</p>
+                <p>This is election. This is grace.</p>
 
-                <p>When your salvation depends on you, you are forever performing. Forever earning. Forever hunting your own heart for proof that maybe you are not actually chosen. This is exhaustion. This is the kingdom of human effort.</p>
+                <p>God did not choose you because He saw that you would eventually deserve it. He did not predestine you because He foresaw that you would make a good choice, that you would be worth choosing, that you would add something valuable to His kingdom. In fact, the Scripture is ruthless on this point: there is nothing in you—before grace—that makes you choosable at all.</p>
 
-                <p>But when you grasp that your grace was decided before you could do anything - that the Trinity looked at you in counsels you will never fathom and said, "This one is mine" - something breaks open. The performance anxiety dissolves. A song rises.</p>
+                <p>You were a sinner. Dead in sin. Enslaved to rebellion. Hostile to truth. The flesh within you "does not submit to God's law, nor can it do so" (Romans 8:7). You had zero capacity to choose God. Zero power to reach toward Him. Zero merit that would make you a logical choice for anything but judgment.</p>
 
-                <blockquote style="background-color: transparent; border-left: none; padding: 0; margin: 25px 0; font-style: normal; color: var(--accent-gold); text-align: center; font-size: 1.05rem;"><em>"Election is the mother of holiness, not the killer of it. Those who know they are chosen will seek to live lives worthy of their calling—not to earn anything, but out of gratitude."</em> <cite style="display: block; font-size: 0.85rem; margin-top: 8px;">- Jonathan Edwards</cite></blockquote>
+                <p>And yet—in love, according to the purpose of His will—He chose you anyway.</p>
 
-                <p>Edwards understood what our age has forgotten: you are not trying to become worthy of your election. You already are chosen. You are resting in grace, and that rest produces a righteousness that flows from love, not fear.</p>
-            </section>
+                <blockquote class="pull-quote">
+                    Election is not about God seeing something good in you that He wants to cultivate. It's about God creating something good in you that He determined to create before the world began.
+                </blockquote>
 
-            <section>
-                <h2>The Deepest Comfort</h2>
+                <h2>The Cost of Rejecting This Truth</h2>
 
-                <p>You were not a surprise to God. Not an accident He is making the best of. You are exactly who He meant to choose - in all of history, in all of time and space, in all possible lives that could have been lived, He chose yours.</p>
+                <p>Do you know what it costs you to reject election? To insist that <em>you</em> chose God, that your decision was the decisive factor in your salvation?</p>
 
-                <p>Before the universe drew its first breath, He knew your joys and sorrows, your strengths and weaknesses, your faith and your doubt. And knowing all of it, He chose you anyway. More than that: He chose you <em>so that</em> His grace could abound in your weakness.</p>
+                <p>You inherit works-righteousness. You become the author of your own salvation. Your choices become the linchpin, which means your choices also become your judge. If you can choose God, then theoretically, you can unchoose Him. Your security becomes conditional on your continued performance. You are forever in debt to your own decision, forever trying to maintain the relationship you initiated.</p>
 
-                <div class="verse-block">
-                    I have loved you with an everlasting love; I have drawn you with unfailing kindness. I will build you up again, and you will be rebuilt. You will be joyful and will dance again.
-                    <cite>Jeremiah 31:3-4 (NIV)</cite>
+                <p>This is exhausting. This is the spiritual equivalent of holding yourself up by your own bootstraps.</p>
+
+                <p>But if you are chosen—if the decision was made before time, in love, according to God's purpose alone—then you are secure in a way no human decision-maker could ever be. You did not put yourself here. God did. And what God determines is not subject to your mood swings, your doubts, your failures, your rebellion.</p>
+
+                <div class="pastoral-whisper">
+                    <p><strong>For the reader who doesn't feel chosen:</strong> The feeling doesn't change the fact. You may wake up tomorrow and doubt. You may read this and think, "That's not true for me. I don't feel chosen." But feeling is not the arbiter of reality. The Scripture is. And Scripture says you are chosen. The Spirit testifies to it. Not based on your feeling, but based on the promise. The assurance grows when you stop waiting to feel worthy and start resting in His choice.</p>
                 </div>
 
-                <p>That choice is final. Secure. Cannot be undone. Not by your sin, not by your doubt, not by your weakness. He will never let you go.</p>
-            </section>
+                <h2>The Electrifying Proof: A Parent Naming a Child Unseen</h2>
 
-            <section class="related-links">
-                <h3>Go Deeper Into This Truth</h3>
-                <ul>
-                    <li><a href="/question-chosen.html">What Does It Mean To Be Chosen?</a> — The biblical grounds for understanding divine selection</li>
-                    <li><a href="/devotional-adoption-papers.html">Adoption Papers Signed Before Time</a> — The legal irrevocability of your place in God's family</li>
-                    <li><a href="/question-goldchain.html">The Golden Chain (Romans 8:29-30)</a> — From predestination to glorification—an unbroken line</li>
-                    <li><a href="/psychology-offense-of-grace.html">Why Grace Offends Us</a> — The spiritual resistance we face when confronted with our powerlessness</li>
-                    <li><a href="/objection-faith-choice.html">The Objection: "But Didn't I Choose God?"</a> — Why this objection misunderstands what faith actually is</li>
-                </ul>
-            </section>
+                <p>Here is a reality that proves the logic of election: a parent names their child before the child is born. Before they know what the child will look like, what gifts they'll have, what struggles they'll face, what choices they'll make.</p>
 
-            <section class="closing-prayer">
-                <p>Father, we come before You in awe. Before the foundation of the world, You looked at us and chose us. You loved us. You predestined us for adoption through Christ.</p>
+                <p>The parent chooses the name in love, in hope, in the purpose of giving that child an identity that will precede them. "Our son will be Michael. Our daughter will be Hannah." The name is chosen before the face is known. The identity is decided before the person emerges.</p>
 
-                <p>Forgive us for the times we have striven to be good enough, trying to earn what was already given. Forgive us for doubting whether we were truly chosen. Help us rest in this truth. Let it reshape how we live, how we love, how we serve.</p>
+                <p>This parent is not responding to the child. The child is not yet in existence. The parent is acting in pure creative authority, marking out the future with a name, a blessing, an intention.</p>
 
-                <p>Overwhelm us with Your choosing so that we respond with lives of gratitude and worship. Let the doctrines of grace not be cold abstraction but living warmth in our hearts - the knowledge that we are loved, known, chosen, and safe in Your hands forever.</p>
+                <p>This is what God does—infinitely more so. He names you before time. He chooses you before existence. He marks you with a name and a purpose that was settled when the foundations of the world were laid.</p>
 
-                <p>In the name of Christ, our Beloved, in whom we were chosen and through whom we are redeemed. Amen.</p>
-            </section>
+                <p>You are not a response to God's plan. You are part of His plan. Your life is not a surprise He's improvising around. Your life is part of the master intention He set before time began.</p>
 
-            <div class="share-buttons" role="group" aria-label="Share this article">
-                <span class="share-label">Share</span>
-                <a class="share-btn" href="" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(location.href)+'&text='+encodeURIComponent(document.title),'_blank','width=550,height=420');return false" aria-label="Share on X (Twitter)" title="Share on X">𝕏</a>
-                <a class="share-btn" href="" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'_blank','width=550,height=420');return false" aria-label="Share on Facebook" title="Share on Facebook">f</a>
-                <button class="share-btn" onclick="navigator.clipboard.writeText(location.href).then(function(){this.innerHTML='✓';setTimeout(function(){document.querySelector('.share-buttons .share-btn:nth-child(4)').innerHTML='🔗'},2000)}.bind(this))" aria-label="Copy link" title="Copy link">🔗</button>
-            </div>
+                <h2>The Invitation: Rest in What Was Decided</h2>
 
-            <!-- Keep Reading Section -->
-            <section style="margin-top: 60px; padding: 40px 0; border-top: 1px solid rgba(212, 162, 84, 0.15);">
-                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #d4a254; margin-bottom: 10px; text-align: center;">Keep Reading</h3>
-                <p style="text-align: center; color: var(--text-secondary); margin-bottom: 40px; font-size: 0.95rem;">Understand what it means to be chosen before time.</p>
+                <p>Here is what changes when you truly believe you are chosen:</p>
 
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
-                    <a href="/question-chosen.html" style="display: flex; flex-direction: column; padding: 25px; background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; text-decoration: none; transition: all 0.3s ease; cursor: pointer;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 12px; line-height: 1.3;">What Does It Mean To Be Chosen?</h4>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; flex-grow: 1;">The biblical grounds of divine election.</p>
-                    </a>
+                <p>You stop trying to earn your place. You stop performing for approval. You stop defending yourself against the suspicion that you're not enough—because you finally understand that enough-ness was never the issue. God didn't choose you for your potential. He chose you, period.</p>
 
-                    <a href="/devotional-adoption-papers.html" style="display: flex; flex-direction: column; padding: 25px; background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; text-decoration: none; transition: all 0.3s ease; cursor: pointer;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 12px; line-height: 1.3;">Adoption Papers Signed Before Time</h4>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; flex-grow: 1;">Your eternal placement in the Father's family.</p>
-                    </a>
+                <p>You can finally breathe. Finally rest. Finally trust that the one decision that matters most has already been made, already been sealed, already been affirmed by blood.</p>
 
-                    <a href="/psychology-offense-of-grace.html" style="display: flex; flex-direction: column; padding: 25px; background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; text-decoration: none; transition: all 0.3s ease; cursor: pointer;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 12px; line-height: 1.3;">Why Grace Offends Us</h4>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; flex-grow: 1;">The resistance we feel when confronted with powerlessness.</p>
-                    </a>
+                <p>This is the glory of divine choice: you are not self-made. You are chosen-made. And the hand that made you will never let you go.</p>
 
-                    <a href="/question-goldchain.html" style="display: flex; flex-direction: column; padding: 25px; background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; text-decoration: none; transition: all 0.3s ease; cursor: pointer;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 12px; line-height: 1.3;">The Golden Chain (Romans 8:29-30)</h4>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0; flex-grow: 1;">From predestination to glorification - unbroken.</p>
-                    </a>
+                <div class="related-links">
+                    <h3>Go Deeper</h3>
+                    <ul>
+                        <li><a href="/question-chosen">Are You Really Chosen? What Election Actually Means</a></li>
+                        <li><a href="/devotional-never-gives-up">He Will Never Give Up</a></li>
+                        <li><a href="/question-faithgift">Is Faith a Gift or a Choice?</a></li>
+                        <li><a href="/devotional-love-before-the-world">God's Love Before the World Existed</a></li>
+                    </ul>
                 </div>
-            </section>
 
-        <!-- Never Gives Up Banner -->
-        <div style="max-width: 800px; margin: 3rem auto; padding: 2rem 2.5rem; background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.04)); border: 1px solid rgba(212, 162, 84, 0.15); border-radius: 12px; text-align: center;">
-            <p style="font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: #f0ece4; margin-bottom: 0.5rem;">No matter how far you fall — <em style="color: #d4a254;">He will never give up on you.</em></p>
-            <p style="font-size: 0.95rem; color: #9a958c; margin-bottom: 1.2rem; line-height: 1.6;">The most soul-quenching truth for weary hearts fed a lifetime of merit-based religion.</p>
-            <a href="devotional-never-gives-up.html" style="display: inline-block; padding: 0.7rem 2rem; border: 1px solid #d4a254; color: #d4a254; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; letter-spacing: 0.1em; text-decoration: none; border-radius: 6px; transition: all 0.3s ease;">READ THE DEVOTIONAL →</a>
-        </div>
-
-            <!-- Cross-Reference Section -->
-            <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-                <div style="max-width: 900px; margin: 0 auto;">
-                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Keep Reading</h3>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                        <a href="question-chosen.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Why Does God Choose Some and Not Others?</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Explore the biblical grounds of divine election.</p>
-                        </a>
-                        <a href="systematic-election.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Doctrines of Grace Explained</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A comprehensive view of how God's sovereign grace secures your salvation.</p>
-                        </a>
-                        <a href="ot-jacob-esau.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Jacob and Esau: Election in the Old Testament</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Scripture's stunning portrait of sovereign choice.</p>
-                        </a>
-                        <a href="devotional-love-before-the-world.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Love Before the World Began</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Meditate on eternity's deepest affection.</p>
-                        </a>
-                        <a href="question-foreknowledge.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Foreknowledge vs. Foreordination</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Understanding the distinction in Scripture.</p>
-                        </a>
-                        <a href="devotional-adoption-papers.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Adoption Papers Signed Before Time</h4>
-                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Your eternal placement in the Father's family.</p>
-                        </a>
-                    </div>
+                <div class="closing-prayer">
+                    <p>Father, let me believe this today: before I was, I was chosen. Before I could do anything, You determined to make me Yours. Help me rest in that choice. Help me stop trying to earn what was already given. Let the glory of Your decision—made in eternity, paid for in blood—become the ground of my peace. In Jesus' name, amen.</p>
                 </div>
+
             </section>
         </article>
     </main>
 
-        
-
-<!-- RELATED-ARTICLES-START -->
-<section class="related-articles" aria-label="Related articles">
-  <div class="related-articles-inner">
-    <h2 class="related-articles-heading">Keep Exploring</h2>
-    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
-    <div class="related-articles-grid">
-      <a href="/analogy-adoption" class="related-article-card">
-        <span class="related-article-cat">💡 Analogies</span>
-        <span class="related-article-title">Did You Choose God or Did God Choose You?</span>
-        <span class="related-article-desc">A baby doesn't choose adoption. A parent does. This is how grace works.</span>
-      </a>
-      <a href="/devotional-adoption-papers" class="related-article-card">
-        <span class="related-article-cat">🕯 Devotionals</span>
-        <span class="related-article-title">Adoption Papers</span>
-        <span class="related-article-desc">A meditative reflection on being chosen and adopted as God's own child.</span>
-      </a>
-      <a href="/question-chosen.html" class="related-article-card">
-        <span class="related-article-cat">❓ Questions</span>
-        <span class="related-article-title">What Does It Mean To Be Chosen?</span>
-        <span class="related-article-desc">The biblical grounds for understanding divine selection.</span>
-      </a>
-      <a href="/psychology-offense-of-grace.html" class="related-article-card">
-        <span class="related-article-cat">🧠 Psychology</span>
-        <span class="related-article-title">Why Grace Offends Us</span>
-        <span class="related-article-desc">The spiritual resistance we face when our control is taken away.</span>
-      </a>
-      <a href="/systematic-election.html" class="related-article-card">
-        <span class="related-article-cat">🏛 Theology</span>
-        <span class="related-article-title">The Doctrines of Grace Explained</span>
-        <span class="related-article-desc">A comprehensive view of how God's sovereign grace secures your salvation.</span>
-      </a>
-      <a href="/devotional-never-gives-up.html" class="related-article-card">
-        <span class="related-article-cat">🕯 Devotionals</span>
-        <span class="related-article-title">He Will Never Give Up On You</span>
-        <span class="related-article-desc">The most soul-quenching truth for those who feel abandoned.</span>
-      </a>
-    </div>
-    <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
-</section>
-<!-- RELATED-ARTICLES-END -->
-
-<footer>
+    <footer>
         <div class="footer-container">
             <div class="footer-section">
-                <h4>Truth</h4>
+                <h4>TRUTH</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
                     <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                    <li><a href="/biblical-foundations">Biblical Foundations</a></li>
+                    <li><a href="/reformed-theology">Reformed Heritage</a></li>
+                    <li><a href="/common-objections">Common Objections</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h4>Explore</h4>
+                <h4>EXPLORE</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
-                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                    <li><a href="/about">About This Site</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h4>Connect</h4>
+                <h4>RESOURCES</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/stories">Stories & Analogies</a></li>
+                    <li><a href="/secular-evidence">Secular Evidence</a></li>
+                    <li><a href="/history-timeline">Through the Ages</a></li>
                 </ul>
             </div>
         </div>
@@ -734,42 +539,16 @@
             Grace is not a license to sin. It is the power that frees us from sin's dominion.
         </div>
         <div class="footer-copyright">
-            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+            <p>&copy; 2024–2026 Adopted by Grace. All rights reserved. | <a href="/privacy">Privacy</a> | <a href="/contact">Contact</a></p>
         </div>
     </footer>
-
-    <button class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
-
-    <script>
-        // Scroll progress bar
-        window.addEventListener('scroll', function() {
-            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
-            document.querySelector('.progress-bar').style.width = scrolled + '%';
-
-            // Back to top button
-            const backToTop = document.querySelector('.back-to-top');
-            if (winScroll > 300) {
-                backToTop.classList.add('show');
-            } else {
-                backToTop.classList.remove('show');
-            }
-        });
-
-        // Back to top button click
-        document.querySelector('.back-to-top').addEventListener('click', function() {
-            document.documentElement.scrollTop = 0;
-            document.body.scrollTop = 0;
-        });
-    </script>
 
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "The Glory of Divine Choice",
-        "description": "You were chosen before the foundation of the world. Not because you'd become worthy, but in spite of who you are.",
+        "headline": "The Glory of Divine Choice: You Were Chosen Before the Foundation of the World",
+        "description": "Before you were born, before your parents met, before time itself—God chose you. Explore what election means and why this truth is the foundation of unstoppable grace.",
         "author": {
             "@type": "Organization",
             "name": "Adopted by Grace"
@@ -784,7 +563,7 @@
         },
         "datePublished": "2026-03-27",
         "dateModified": "2026-04-04",
-        "articleBody": "A worshipful meditation on the doctrines of grace—exploring how God chose you in Christ before the foundation of the world, and why this truth is the source of both profound humility and unshakeable joy."
+        "articleBody": "A worshipful meditation on unconditional election—exploring how God chose you in Christ before the foundation of the world, in love, according to the purpose of His will. Discover what it means that you were not an afterthought, why this truth destroys the lie of works-righteousness, and how to rest in the security of being chosen."
     }
     </script>
     <script src="/global.js" defer></script>

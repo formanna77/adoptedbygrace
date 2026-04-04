@@ -974,10 +974,7 @@ blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font
    It hides articles site-wide when JS fails to trigger reveals.
    Content must ALWAYS be visible by default. */
 
-/* ===== BACK TO TOP ===== */
-.back-to-top { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; border-radius: 50%; background: rgba(18, 18, 26, 0.9); border: 1px solid var(--border-subtle); color: var(--accent-gold); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 999; backdrop-filter: blur(10px); }
-.back-to-top.visible { opacity: 1; visibility: visible; }
-.back-to-top:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); transform: translateY(-2px); }
+/* ===== BACK TO TOP — REMOVED 2026-04-04 (covered content on mobile) ===== */
 
 /* ===== FOOTER ===== */
 footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
@@ -1253,7 +1250,7 @@ table { max-width: 100%; overflow-x: auto; display: block; }
 
 /* ===== PRINT STYLES ===== */
 @media print {
-    nav, footer, .back-to-top, .share-bar, .reading-progress { display: none !important; }
+    nav, footer, .share-bar, .reading-progress { display: none !important; }
     body { background: #fff; color: #000; font-size: 12pt; }
     .page-hero { padding: 2rem 0 1rem; }
     .page-hero::before { display: none; }
@@ -1360,6 +1357,16 @@ body {
 }
 
 /* scroll-reveal REMOVED 2026-03-29 — same opacity:0 bug as .reveal */
+
+/* ===== READING CARDS — FURTHER READING SECTIONS ===== */
+.reading-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.4rem; margin: 2rem 0; }
+.reading-card { display: block; padding: 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; color: inherit; transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease; }
+.reading-card:hover { border-color: rgba(218,165,32,0.3); background: rgba(255,255,255,0.06); transform: translateY(-3px); }
+.reading-card h3 { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--accent-gold); margin: 0 0 0.5rem 0; line-height: 1.3; }
+.reading-card p { font-size: 0.9rem; color: var(--text-muted); margin: 0; line-height: 1.4; }
+@media (max-width: 768px) {
+    .reading-cards { grid-template-columns: 1fr; }
+}
 
 /* ===== RELATED ARTICLES — "ALL ROADS LEAD TO ROME" DISCOVERY ===== */
 .related-articles { max-width: 1000px; margin: 4rem auto 0; padding: 3rem 2rem; border-top: 1px solid rgba(212, 162, 84, 0.15); }

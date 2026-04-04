@@ -511,9 +511,6 @@ a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
 
 /* ========== BACK TO TOP ========== */
-.back-to-top { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; border-radius: 50%; background: rgba(18, 18, 26, 0.9); border: 1px solid var(--border-subtle); color: var(--accent-gold); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 999; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-.back-to-top.visible { opacity: 1; visibility: visible; }
-.back-to-top:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); transform: translateY(-2px); }
 /* ========== READING PROGRESS ========== */
 .reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); z-index: 9999; transition: width 0.1s linear; width: 0; }
 
@@ -934,10 +931,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
         </div>
     </footer>
-<button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-<script>
-(function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
-</script>
+
+
 <script>
 (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
 </script>

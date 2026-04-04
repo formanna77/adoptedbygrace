@@ -24,13 +24,17 @@
   <meta name="twitter:description" content="An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God—and why the Voice that awakens them is the only hope.">
   <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.jpg">
 
+  <!-- Styles -->
+  <link rel="stylesheet" href="/global.css">
+
   <!-- JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "What Does It Mean to Be Dead in Sin? A Story About Total Depravity",
-    "description": "An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God—and why the Voice that awakens them is the only hope. Explore the doctrine of total depravity through story.",
+    "headline": "What If Everyone Was Dead and Didn't Know It? A Parable About Sin",
+    "description": "An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God—and why the Voice that awakens them is the only hope.",
+    "image": "https://adoptedbygrace.net/og-image.jpg",
     "author": {
       "@type": "Organization",
       "name": "Adopted by Grace"
@@ -40,437 +44,15 @@
       "name": "Adopted by Grace",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://adoptedbygrace.net/logo.png"
+        "url": "https://adoptedbygrace.net/og-image.jpg"
       }
     },
-    "datePublished": "2026-03-28",
-    "url": "https://adoptedbygrace.net/story-the-dead-city.html",
-    "image": "https://adoptedbygrace.net/og-image.jpg"
+    "datePublished": "2026-04-04",
+    "dateModified": "2026-04-04",
+    "articleBody": "The Dead City is an allegory exploring the doctrine of total depravity and God's effectual grace. It depicts a city where all inhabitants are spiritually dead—alive in appearance but unable to perceive spiritual reality. Through the Voice that calls from beyond, some are awakened to see color, hear music, taste sweetness, and experience the reality of life. The story illustrates how salvation is not offered to the dead but rather is a resurrection—an effectual call that cannot be refused.",
+    "keywords": "allegory, depravity, grace, election, regeneration, effectual calling, Ephesians 2, John 5, parable, sovereignty, predestination"
   }
   </script>
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-  <link rel="icon" type="image/png" href="./favicon.svg">
-
-  <!-- Styles -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-    :root {
-      --bg-deep: #0a0a0f;
-      --bg-card: #12121a;
-      --accent-gold: #d4a254;
-      --accent-ember: #e8642c;
-      --accent-violet: #8b5cf6;
-      --text-primary: #f0ece4;
-      --text-secondary: #9a958c;
-      --text-muted: #807b75;
-      --transition-smooth: 0.3s ease-in-out;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      background-color: var(--bg-deep);
-      color: var(--text-primary);
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-
-    /* Reading Progress Bar */
-    .reading-progress {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 3px;
-      background: linear-gradient(to right, var(--accent-gold), var(--accent-ember), var(--accent-violet));
-      width: 0%;
-      z-index: 999;
-      transition: width 0.1s ease-out;
-    }
-
-    /* Header & Navigation */
-    header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      background: rgba(10, 10, 15, 0.95);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(212, 162, 84, 0.1);
-      z-index: 90;
-      padding: 1rem 2rem;
-    }
-
-    @media (max-width: 768px) {
-
-      header {
-        padding: 1rem;
-      }
-    }
-
-    /* Main Content */
-    main {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 120px 2rem 4rem;
-    }
-
-    .hero {
-      text-align: center;
-      margin-bottom: 4rem;
-    }
-
-    .story-meta {
-      font-size: 0.9rem;
-      color: var(--text-secondary);
-      margin-bottom: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-
-    h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2.5rem, 6vw, 4rem);
-      line-height: 1.2;
-      margin-bottom: 1.5rem;
-      color: var(--accent-gold);
-      letter-spacing: -2px;
-    }
-
-    .subtitle {
-      font-size: 1.1rem;
-      color: var(--text-secondary);
-      font-style: italic;
-      max-width: 700px;
-      margin: 0 auto 2rem;
-    }
-
-    /* Story Container */
-    .story-container {
-      background: var(--bg-card);
-      border: 1px solid rgba(212, 162, 84, 0.15);
-      border-radius: 8px;
-      padding: 3rem;
-      margin-bottom: 4rem;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-    }
-
-    .story-text {
-      line-height: 1.9;
-      font-size: 1.05rem;
-    }
-
-    .story-text p {
-      margin-bottom: 1.5rem;
-      color: var(--text-primary);
-    }
-
-    .story-text p:first-letter {
-      font-family: 'Playfair Display', serif;
-      font-size: 2em;
-      font-weight: 700;
-      color: var(--accent-gold);
-      margin-right: 0.1em;
-    }
-
-    .scene-break {
-      text-align: center;
-      margin: 2.5rem 0;
-      color: var(--accent-violet);
-      font-size: 1.5rem;
-      font-family: 'JetBrains Mono', monospace;
-    }
-
-    /* Allegory Unveiled */
-    .allegory-section {
-      margin-top: 4rem;
-      padding-top: 3rem;
-      border-top: 2px solid rgba(212, 162, 84, 0.2);
-    }
-
-    .allegory-section h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      color: var(--accent-gold);
-      margin-bottom: 2rem;
-      text-align: center;
-    }
-
-    .allegory-map {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 2rem;
-      margin-bottom: 3rem;
-    }
-
-    .allegory-card {
-      background: rgba(212, 162, 84, 0.05);
-      border: 1px solid rgba(212, 162, 84, 0.2);
-      border-radius: 8px;
-      padding: 2rem;
-      transition: all var(--transition-smooth);
-    }
-
-    .allegory-card:hover {
-      border-color: var(--accent-gold);
-      background: rgba(212, 162, 84, 0.1);
-      transform: translateY(-4px);
-    }
-
-    .allegory-card h3 {
-      color: var(--accent-gold);
-      font-size: 1.2rem;
-      margin-bottom: 0.5rem;
-      font-family: 'Playfair Display', serif;
-    }
-
-    .allegory-card .symbol {
-      color: var(--accent-ember);
-      font-size: 1.1rem;
-      margin-bottom: 0.5rem;
-      font-weight: 600;
-    }
-
-    .allegory-card p {
-      color: var(--text-secondary);
-      font-size: 0.95rem;
-      line-height: 1.6;
-      margin-bottom: 1rem;
-    }
-
-    .scripture-ref {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.85rem;
-      color: var(--accent-violet);
-      font-weight: 500;
-    }
-
-    /* Further Reading */
-    .further-reading {
-      margin-top: 4rem;
-      padding-top: 3rem;
-      border-top: 2px solid rgba(212, 162, 84, 0.2);
-    }
-
-    .further-reading h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      color: var(--accent-gold);
-      margin-bottom: 2rem;
-      text-align: center;
-    }
-
-    .reading-cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .reading-card {
-      background: var(--bg-card);
-      border: 1px solid rgba(212, 162, 84, 0.2);
-      border-radius: 8px;
-      padding: 1.5rem;
-      text-decoration: none;
-      color: inherit;
-      transition: all var(--transition-smooth);
-      display: flex;
-      flex-direction: column;
-    }
-
-    .reading-card:hover,
-    .reading-card:focus-visible {
-      border-color: var(--accent-gold);
-      background: rgba(212, 162, 84, 0.05);
-      transform: translateY(-4px);
-      outline: none;
-    }
-
-    .reading-card h3 {
-      font-family: 'Playfair Display', serif;
-      color: var(--accent-gold);
-      font-size: 1.1rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .reading-card p {
-      color: var(--text-secondary);
-      font-size: 0.9rem;
-      margin-bottom: 1rem;
-      flex-grow: 1;
-    }
-
-    .reading-link {
-      color: var(--accent-violet);
-      font-weight: 600;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-size: 0.95rem;
-    }
-
-    .reading-link::after {
-      content: '→';
-    }
-
-    /* Never Gives Up Banner */
-    .never-gives-up-banner {
-      margin-top: 4rem;
-      padding: 2rem;
-      background: linear-gradient(135deg, rgba(232, 100, 44, 0.15), rgba(139, 92, 246, 0.15));
-      border: 1px solid rgba(232, 100, 44, 0.3);
-      border-radius: 8px;
-      text-align: center;
-    }
-
-    .banner-title {
-      font-family: 'Playfair Display', serif;
-      color: var(--accent-ember);
-      font-size: 1.3rem;
-      margin-bottom: 0.5rem;
-      font-weight: 700;
-    }
-
-    .banner-text {
-      color: var(--text-secondary);
-      line-height: 1.6;
-    }
-
-    /* Back to Top */
-    .back-to-top {
-      position: fixed;
-      bottom: 2rem;
-      right: 2rem;
-      width: 48px;
-      height: 48px;
-      background: var(--accent-gold);
-      color: var(--bg-deep);
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      font-size: 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-      pointer-events: none;
-      transition: all var(--transition-smooth);
-      z-index: 80;
-      font-weight: bold;
-    }
-
-    .back-to-top.show {
-      opacity: 1;
-      pointer-events: auto;
-    }
-
-    .back-to-top:hover,
-    .back-to-top:focus-visible {
-      background: var(--accent-ember);
-      transform: scale(1.1);
-      outline: none;
-    }
-
-    /* Footer */
-    footer {
-      background: var(--bg-card);
-      border-top: 1px solid rgba(212, 162, 84, 0.1);
-      padding: 3rem 2rem;
-      margin-top: 4rem;
-      text-align: center;
-      color: var(--text-secondary);
-      font-size: 0.9rem;
-    }
-
-    footer a {
-      color: var(--accent-gold);
-      text-decoration: none;
-      transition: color var(--transition-smooth);
-    }
-
-    footer a:hover,
-    footer a:focus-visible {
-      color: var(--accent-ember);
-    }
-
-    /* Focus Visible */
-    *:focus-visible {
-      outline: 2px solid var(--accent-gold);
-      outline-offset: 4px;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      main {
-        padding: 100px 1.5rem 3rem;
-      }
-
-      .story-container {
-        padding: 2rem;
-      }
-
-      h1 {
-        font-size: 2rem;
-      }
-
-      .story-text {
-        font-size: 1rem;
-      }
-
-      .back-to-top {
-        width: 44px;
-        height: 44px;
-        bottom: 1.5rem;
-        right: 1.5rem;
-        font-size: 1.2rem;
-      }
-
-      .allegory-map {
-        grid-template-columns: 1fr;
-      }
-
-      .reading-cards {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    </style>
-        <link rel="stylesheet" href="/global.css">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-</head>
-<body>
-    <a href="#main-content" class="skip-to-content">Skip to content</a>
-  <div class="skip-link">
-    <a href="#main-content">Skip to main content</a>
-  </div>
-
-  <div class="reading-progress"></div>
-
-        <!--
-  ============================================================
-  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
-  ============================================================
-  Every page on adoptedbygrace.net MUST use this EXACT nav block.
-  Copy-paste it verbatim. Do not add, remove, rename, or reorder
-  any links. Do not add a logo.
-
-  REQUIRED in <head>:
-    <link rel="stylesheet" href="/global.css">
-
-  REQUIRED before </body>:
-    <script src="/nav.js"></script>
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -558,7 +140,7 @@
   <main id="main-content">
     <article>
       <div class="hero">
-        <div class="story-meta">Story</div>
+        <div class="story-meta">Story <span style="margin-left: 1rem; opacity: 0.7;">• 11 min read</span></div>
         <h1>The Dead City</h1>
         <p class="subtitle">An allegory on regeneration and election — where the awakening comes not by choice, but by grace.</p>
       </div>
@@ -680,6 +262,7 @@
             <div class="symbol">→ God's Grace</div>
             <p>The Voice comes from beyond the city walls—outside and other than the dead. It is not generated from within the city; it is pure gift, pure calling, pure election from beyond.</p>
             <p><em><a href="/analogy-doctor-corpse.html" style="color: var(--accent-gold); text-decoration: underline;">Can a dead person choose to live?</a> Our analogy page explores this profound question through the lens of a physician and an unwilling patient.</em></p>
+            <blockquote class="pull-quote" style="margin: 1.5rem 0; padding: 1rem 1.5rem; border-left: 4px solid var(--accent-gold); background: rgba(212, 162, 84, 0.05); font-style: italic; color: var(--text-secondary);">"The Voice comes from beyond the city walls—outside and other than the dead. It is pure gift, pure calling, pure election from beyond."</blockquote>
             <p class="scripture-ref">Ephesians 2:4–5</p>
           </div>
 
@@ -694,6 +277,7 @@
             <h3>The Call to Live</h3>
             <div class="symbol">→ Effectual Calling</div>
             <p>When the Voice speaks, the dead are made alive. The call is not an offer that can be rejected. It is a command that resurrects. The effectiveness lies in the Voice, not the hearer.</p>
+            <blockquote class="pull-quote" style="margin: 1.5rem 0; padding: 1rem 1.5rem; border-left: 4px solid var(--accent-gold); background: rgba(212, 162, 84, 0.05); font-style: italic; color: var(--text-secondary);">"When the Voice speaks, the dead are made alive. The call is not an offer that can be rejected. It is a command that resurrects."</blockquote>
             <p><em><a href="/question-depravity.html" style="color: var(--accent-gold); text-decoration: underline;">What does total depravity actually mean?</a> Dive deeper into how dead hearts cannot generate saving faith on their own.</em></p>
             <p class="scripture-ref">John 5:25, John 11:43–44</p>
           </div>
@@ -718,40 +302,49 @@
             <p>The tears of the awakened flow from seeing the truth of their former condition and the grace of their present state. Repentance is not effort; it is clarity—seeing clearly what was and what now is.</p>
             <p class="scripture-ref">Romans 5:8, 2 Corinthians 7:10</p>
           </div>
+
+          <div class="allegory-card" style="background: rgba(248, 215, 124, 0.08); border: 1px solid rgba(248, 215, 124, 0.3);">
+            <h3 style="color: var(--accent-gold);">A Pastoral Word</h3>
+            <div class="symbol">→ If This Story Is About You</div>
+            <p>If you read this and wondered whether you're among the awakened or still sleeping—if you felt unsettled or defensive—know this: the fact that you're here, seeking, wrestling with these questions, is itself evidence that something has been stirring in you. The Spirit does not leave His own in darkness. If you sense you're being called, that sense is the call. Listen to it. Rest in the promise that the Voice that awakens will never let you go.</p>
+            <p><em>Read: <a href="/devotional-never-gives-up.html" style="color: var(--accent-gold); text-decoration: underline;">Never Gives Up</a> — for the soul who needs to know they're held.</em></p>
+          </div>
         </div>
 
         <div style="background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 8px; padding: 2rem; margin-top: 2rem; text-align: center;">
           <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7;">Scripture teaches that we are dead in our sins, unable and unwilling to choose God. Our awakening comes not by our effort, but by His choice. The Voice that calls the dead to life is the voice of the one who spoke creation into being. When He calls, the dead cannot help but live. This is not bondage—it is the most complete freedom: to be alive.</p>
           <p style="color: var(--accent-gold); font-weight: 600; margin-top: 1rem; font-family: 'JetBrains Mono', monospace;">Romans 8:30 — "And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."</p>
+          <p style="margin-top: 1.5rem; color: var(--text-secondary); font-size: 0.9rem;"><em>Go deeper: Explore <a href="/question-ezekiel37.html" style="color: var(--accent-gold); text-decoration: underline;">Ezekiel 37 and the Valley of Dry Bones</a> — the ultimate image of how the dead are made alive by God's command alone.</em></p>
         </div>
       </section>
 
       <section class="further-reading">
         <h2>Keep Reading</h2>
+        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem; line-height: 1.6;"><em>You've just read the story. Now explore how this allegory connects to Scripture, psychology, and the pastoral reality of being awakened by grace. These pages show you the "doctrine behind the story"—and catch you with the comfort of God's love when truth has torn something down.</em></p>
 
         <div class="reading-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
-          <a href="/analogy-doctor-corpse.html" class="reading-card" style="background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; padding: 2rem; text-decoration: none; transition: all var(--transition-smooth); display: flex; flex-direction: column;">
-            <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-size: 1.1rem;">Can a Dead Person Choose to Live?</h3>
-            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">The doctor and the corpse—what happens when you ask a dead man to wake himself up? This analogy cuts to the heart of total depravity.</p>
-            <span style="color: var(--accent-ember); font-weight: 600;">Read Analogy →</span>
-          </a>
-
           <a href="/question-depravity.html" class="reading-card" style="background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; padding: 2rem; text-decoration: none; transition: all var(--transition-smooth); display: flex; flex-direction: column;">
             <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-size: 1.1rem;">Total Depravity: How Dead Is Dead?</h3>
-            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">Scripture teaches that we are not merely sick—we are dead in sin. Explore what this truth means for salvation and your hope in Christ.</p>
+            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">Scripture teaches that we are not merely sick—we are dead in sin. Explore what this truth means for salvation and your hope in Christ. This is the doctrine that undergirds everything else.</p>
             <span style="color: var(--accent-ember); font-weight: 600;">Ask the Question →</span>
           </a>
 
-          <a href="/story-the-garden-that-grew-itself.html" class="reading-card" style="background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; padding: 2rem; text-decoration: none; transition: all var(--transition-smooth); display: flex; flex-direction: column;">
-            <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-size: 1.1rem;">The Garden That Grew Itself</h3>
-            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">An allegory about regeneration and divine sovereignty—who makes the garden grow? A parable about faith and the impossible transformation of the human heart.</p>
-            <span style="color: var(--accent-ember); font-weight: 600;">Read Story →</span>
+          <a href="/analogy-doctor-corpse.html" class="reading-card" style="background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; padding: 2rem; text-decoration: none; transition: all var(--transition-smooth); display: flex; flex-direction: column;">
+            <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-size: 1.1rem;">Can a Dead Person Choose to Live?</h3>
+            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">The doctor and the corpse—what happens when you ask a dead man to wake himself up? This analogy cuts to the heart of why grace must be effectual, not merely offered.</p>
+            <span style="color: var(--accent-ember); font-weight: 600;">Read Analogy →</span>
           </a>
 
           <a href="/devotional-dead-who-live.html" class="reading-card" style="background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; padding: 2rem; text-decoration: none; transition: all var(--transition-smooth); display: flex; flex-direction: column;">
-            <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-size: 1.1rem;">The Dead Who Live</h3>
-            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">A devotional for those who have heard the Voice and been awakened—a meditation on identity, resurrection, and what it means to be made alive in Christ.</p>
-            <span style="color: var(--accent-ember); font-weight: 600;">Read Devotional →</span>
+            <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-size: 1.1rem;">The Dead Who Live — A Devotional</h3>
+            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">Now that you've heard the allegory, rest here. A meditation on identity, resurrection, and what it means to be made alive in Christ. This is the devotional that catches you when the truth has shaken you.</p>
+            <span style="color: var(--accent-ember); font-weight: 600;">Rest & Meditate →</span>
+          </a>
+
+          <a href="/question-ezekiel37.html" class="reading-card" style="background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; padding: 2rem; text-decoration: none; transition: all var(--transition-smooth); display: flex; flex-direction: column;">
+            <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-size: 1.1rem;">Ezekiel 37: The Valley of Dry Bones</h3>
+            <p style="color: var(--text-secondary); flex-grow: 1; margin-bottom: 1rem; line-height: 1.6;">The ultimate biblical image of how the dead are made alive. Ezekiel's vision is the foundation of everything in this allegory—God commanding the bones to live, and they have no choice but to obey.</p>
+            <span style="color: var(--accent-ember); font-weight: 600;">Explore Scripture →</span>
           </a>
         </div>
       </section>
@@ -791,10 +384,10 @@
         <span class="related-article-title">Stories of Sovereign Grace</span>
         <span class="related-article-desc">Modern parables and allegories that reveal God</span>
       </a>
-      <a href="/question-boasting" class="related-article-card">
-        <span class="related-article-cat">📖 Questions</span>
-        <span class="related-article-title">The Boasting Problem That Destroys Free Will – 1 Corinthians 1:26-31</span>
-        <span class="related-article-desc">1 Corinthians 1:26-31 — God chose the foolish to shame the wise. His election strategy is designed t...</span>
+      <a href="/psychology-cost-of-rejecting-grace" class="related-article-card">
+        <span class="related-article-cat">🧠 Psychology</span>
+        <span class="related-article-title">Why We Resist Grace: The Cost of Rejecting Sovereign Love</span>
+        <span class="related-article-desc">The allegory shows the dead refusing to see the awakened. Why does the flesh resist the truth of grace so violently? What is it defending?</span>
       </a>
       <a href="/devotional-glory-of-divine-choice" class="related-article-card">
         <span class="related-article-cat">🕯 Devotionals</span>
@@ -837,7 +430,7 @@
     <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
 </footer>
 
-  <button class="back-to-top" aria-label="Back to top"></button>
+  
 
   <script src="/global.js"></script>
   <!-- Navigation and reading progress handled by global.js -->

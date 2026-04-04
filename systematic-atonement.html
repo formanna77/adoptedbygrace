@@ -340,32 +340,6 @@
         }
 
         /* Back to Top */
-        .back-to-top {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 48px;
-            height: 48px;
-            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
-            color: var(--bg-deep);
-            border: none;
-            border-radius: 50%;
-            font-size: 1.5rem;
-            cursor: pointer;
-            opacity: 0;
-            transition: all 0.3s ease;
-            z-index: 500;
-        }
-
-        .back-to-top.visible {
-            opacity: 1;
-        }
-
-        .back-to-top:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 24px rgba(212, 162, 84, 0.3);
-        }
-
         /* Reading Progress */
         .reading-progress {
             position: fixed;
@@ -424,14 +398,7 @@
                 padding: 0 1rem;
             }
 
-            .back-to-top {
-                width: 40px;
-                height: 40px;
-                font-size: 1.2rem;
-                bottom: 1rem;
-                right: 1rem;
             }
-        }
     *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
@@ -1102,10 +1069,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
         sections.forEach(section => observer.observe(section));
     </script>
-<button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-<script>
-(function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
-</script>
+
+
 <script>
 (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
 </script>

@@ -383,8 +383,7 @@
 
         /* Print styles */
         @media print {
-            nav, footer, .controls, .back-to-top, .share-buttons, .reading-progress { display: none !important; }
-            .verse-card { break-inside: avoid; border: 1px solid rgba(212, 162, 84, 0.12); }
+.verse-card { break-inside: avoid; border: 1px solid rgba(212, 162, 84, 0.12); }
             .verse-commentary { display: block !important; }
             .expand-indicator { display: none !important; }
             body { background: #0a0a0f; color: #f0ece4; }
@@ -4667,7 +4666,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         // Initial render
         renderVerses();
     </script>
-    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+    
     <script src="/global.js" defer>
         // Mobile dropdown toggles
         const navLinks = document.querySelector('.nav-links');

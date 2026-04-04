@@ -512,11 +512,7 @@ a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
 
 /* ========== BACK TO TOP ========== */
-.back-to-top { position: fixed; bottom: 2rem; right: 2rem; width: 44px; height: 44px; border-radius: 50%; background: rgba(18, 18, 26, 0.9); border: 1px solid var(--border-subtle); color: var(--accent-gold); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 999; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-.back-to-top.visible { opacity: 1; visibility: visible; }
-.back-to-top:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); transform: translateY(-2px); }
-
-    </style>
+</style>
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
@@ -1065,10 +1061,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
         </div>
     </footer>
-<button class="back-to-top" aria-label="Back to top" title="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-<script>
-(function(){var b=document.querySelector('.back-to-top');if(b){window.addEventListener('scroll',function(){b.classList.toggle('visible',window.scrollY>400)},{passive:true})}})();
-</script>
+
+
     <script src="/global.js" defer></script>
 
     <script>

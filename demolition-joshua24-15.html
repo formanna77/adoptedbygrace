@@ -500,35 +500,6 @@
         }
 
         /* Back to Top Button */
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background-color: var(--accent-gold);
-            color: var(--bg-deep);
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            border: none;
-            cursor: pointer;
-            font-size: 24px;
-            font-weight: 700;
-            display: none;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s ease;
-            z-index: 999;
-        }
-
-        .back-to-top:hover {
-            background-color: var(--accent-ember);
-            transform: translateY(-4px);
-        }
-
-        .back-to-top.visible {
-            display: flex;
-        }
-
         /* Responsive */
         @media (max-width: 1024px) {
 
@@ -605,14 +576,7 @@
                 font-size: 16px;
             }
 
-            .back-to-top {
-                width: 42px;
-                height: 42px;
-                font-size: 20px;
-                bottom: 20px;
-                right: 20px;
             }
-        }
     *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
@@ -1161,7 +1125,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </footer>
 
-    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+    
     <script src="/global.js" defer>
         // Mobile dropdown toggles
         const navLinks = document.querySelector('.nav-links');

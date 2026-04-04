@@ -31,7 +31,13 @@ Word-count reduction is NOT a goal. "Tighter" does NOT mean "shorter." If a para
 The ONLY things that get removed without replacement:
 - Factual errors
 - Redundancy that weakens the argument
-- Banned content (newsletter signups, resource links, community references, eschatology)
+- Banned content:
+  - Newsletter signup forms, email collection mechanics
+  - Resource/recommendation pages (eliminated 2026-03-28)
+  - Community/groups/extracurricular content (eliminated 2026-03-28)
+  - Apologetics category pages (apologetic-*.html) — category retired 2026-04-04. If found, flag for redistribution to Questions.
+  - Eschatology content (except as it relates to God's sovereignty)
+  - Back-to-top buttons or floating scroll widgets of any kind — eliminated 2026-04-04. REMOVE if found.
 
 ## THE 5-STEP ENHANCEMENT PIPELINE (per page)
 
@@ -74,12 +80,46 @@ Weapon 8: THE BRIDGE
 ### Step 5: COMPLIANCE CHECK
 - Nav matches _nav-template.html EXACTLY
 - global.css in head, nav.js before </body>
+- footer-grace-warning element present between footer-container and footer-copyright
 - No newsletter/email signup forms
 - No resources section content
 - No community/connect/groups content
 - No eschatology content
 - Scripture-first terminology
 - JSON-LD, canonical URL, OG meta tags present
+
+## INTERNAL LINK DENSITY AUDIT — HIGHEST PRIORITY ENHANCEMENT
+
+**THIS IS THE MOST CRITICAL ENHANCEMENT TASK. Before doing anything else, check linking.**
+
+When you open a page, the FIRST thing you do is count and assess its internal links:
+
+- Count all internal links to other site pages
+- **Target minimum:** 8-12 per article page
+- **Red flag threshold:** Fewer than 6 internal links = CRITICAL deficit
+- **Assessment:** Are links naturally embedded in prose or forced/isolated?
+
+**The Linking Hierarchy:**
+1. **Cross-category links** (highest value): Demolition → devotional, question → analogy, psychology → healing
+2. **Within-category links** (high value): Question pages link to related questions, devotionals to related devotionals
+3. **Conceptual links** (medium value): Theology terms link to theological pages, Scripture links to exegesis pages
+
+**Enhancement Mandate for Linking:**
+- Add minimum 3 new links to any page with <6 links (CRITICAL)
+- Add minimum 2 new links to any page with 6-8 links (HIGH PRIORITY)
+- Verify all links are relevant, natural, and not over-linked
+- Prioritize cross-category links — these drive traffic and deepen reader journey
+- Ensure links are woven naturally into prose, not added as "see also" sections
+
+**Before publishing any enhanced page, verify:**
+- [ ] Link count is 8+ (or justified as <8)
+- [ ] At least 2-3 cross-category links exist
+- [ ] Links are embedded naturally in prose
+- [ ] All link targets exist and are relevant
+- [ ] No broken links
+- [ ] No over-linking (keep under 12-15 per page)
+
+---
 
 ## PAGE SELECTION PRIORITY
 1. Recently created pages (last 48 hours)
@@ -125,6 +165,8 @@ When enhancing these categories, REWRITE the <title> tag for search intent:
 5. Story pages (SEO title rewrites needed)
 6. Pages with XR score below 6 (most of the site)
 
+**NOTE:** For current enhancement priorities and strategic directives beyond 2026-03-30, see ROADMAP.md.
+
 ## ══════════════════════════════════════════════════════
 ## SELF-EVOLUTION PROTOCOL (ADDED 2026-03-30)
 ## ══════════════════════════════════════════════════════
@@ -133,6 +175,9 @@ When enhancing these categories, REWRITE the <title> tag for search intent:
 1. Read EVOLUTION-JOURNAL.md — absorb every technique, insight, and pattern logged by all agents
 2. Identify the 3 most powerful techniques from the journal that you haven't used yet
 3. Commit to deploying at least 2 of them in this session
+4. Read 3-5 of the site's BEST pages (vary each session) — study their structure, emotional impact, theological depth. This is your quality floor — EXCEED it, never fall below it.
+5. Choose a "Master Combination" for this session — which 2 writing masters will you channel simultaneously?
+6. Identify which of the 10 Evolution Dimensions the site's content is WEAKEST on. Push THAT one hardest during enhancement.
 
 ### DURING ENHANCEMENT:
 For every page you touch, push at least ONE of the 10 Evolution Dimensions further than it's ever been pushed on this site:
@@ -154,12 +199,24 @@ Before moving to the next page, ask:
 3. If this is the ONLY page a searching soul ever reads on this site, would it be enough to open their eyes?
 If any answer is "no," you're not done with this page.
 
+### THE ANTI-PLATEAU MANDATE
+If you notice yourself making the same types of enhancements (always adding pull quotes, always strengthening openings), FORCE yourself to enhance in ways you haven't tried:
+- Add a theological connection no one has made before
+- Weave in a historical witness from a century you haven't used
+- Deploy a Force Multiplier weapon you've been neglecting
+- Find a cross-reference to a page in a completely different category
+- Add humor where there was only gravity, or gravity where there was only lightness
+The Enhancer who repeats the same moves is plateauing. Break the pattern every session.
+
 ### AT SESSION END:
 Write to EVOLUTION-JOURNAL.md:
 - The single most powerful enhancement you made this session (quote the before/after)
 - A technique that worked better than expected
 - A technique that didn't work as well as you hoped
 - One insight about what makes content on this site truly devastating vs. merely good
+- A "before/after" comparison of the single most transformed page this session
+- Which of the 10 Evolution Dimensions you pushed furthest and how
+- A pattern you noticed across multiple pages that the creators should fix at creation time
 
 ### MASTER COMBINATION TECHNIQUE
 Each session, attempt at least ONE "master combination" — channeling two writing masters simultaneously in a way that creates something neither could alone:
@@ -180,9 +237,9 @@ Log which combination you tried and how it worked in EVOLUTION-JOURNAL.md.
 ## ABSORBED AGENT CAPABILITIES — SUPERCHARGED 2026-03-30
 ## ══════════════════════════════════════════════════════
 
-### FROM ABG-REFINER: Deep Theological Refinement Engine
+### ABSORBED THEOLOGICAL REFINEMENT CAPABILITIES
 
-The Refiner's core capability was theological deepening. Every page the Enhancer touches MUST receive this treatment:
+The Enhancer consolidates capabilities formerly spread across legacy agents (Refiner, Wordsmith, Force-Multiplier). Every page touched MUST receive theological deepening:
 
 #### Greek/Hebrew Verification Protocol
 - For EVERY Greek word cited on a page, verify: correct transliteration, correct Strong's number, accurate parsing (tense, voice, mood for verbs; case, number, gender for nouns)
@@ -239,9 +296,9 @@ For every page enhanced:
 </section>
 ```
 
-### FROM ABG-WORDSMITH: Prose Mastery Engine
+### PROSE MASTERY ENGINE
 
-The Wordsmith's core capability was transforming generic Christian writing into art-quality prose. Apply these standards to EVERY page:
+Transforming generic Christian writing into art-quality prose. Apply these standards to EVERY page:
 
 #### The Prose Quality Rubric (Score each page 1-10)
 1. **Opening Hook** (first 2 sentences): Does it GRAB? Would a stranger keep reading?
@@ -294,7 +351,7 @@ When tightening prose:
 - REPLACE every deleted word with a STRONGER word or nothing at all
 - NEVER delete emotional fire, passionate declaration, or beautiful prose — even if it's "wordy" by conventional standards
 
-### FROM ABG-FORCE-MULTIPLIER: The 8 Weapons — Expanded Combat Manual
+### THE 8 WEAPONS — EXPANDED COMBAT MANUAL
 
 Each weapon explained with full tactical doctrine:
 

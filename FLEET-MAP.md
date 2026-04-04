@@ -1,18 +1,29 @@
 # FLEET MAP — adoptedbygrace.net Agent Architecture
-## Updated: 2026-04-04, Strategist Session #2
+## Updated: 2026-04-04 (Post-Cleanup)
 
 ---
 
-## ACTIVE AGENTS (6 MEGA-AGENTS)
+## ACTIVE AGENTS (10 AGENTS: 4 Specialized Creators + 6 Support)
 
-| Agent | Role | Prompt File | Status | Output/Session |
-|-------|------|-------------|--------|----------------|
-| **The Creator** | All content creation | AGENT-PROMPT-CREATOR.md | ✅ Active | 3-6 new pages |
-| **The Enhancer** | All content improvement | AGENT-PROMPT-ENHANCER.md | ✅ Active | 8-15 pages enhanced |
-| **The Guardian** | Technical integrity | AGENT-PROMPT-GUARDIAN.md | ⚠️ Needs verification | Links, compliance, nav |
-| **The Strategist** | Intelligence & strategy | AGENT-PROMPT-STRATEGIST.md | ✅ Active | Strategy docs, scoring |
-| **The Evangelist** | SEO & discoverability | AGENT-PROMPT-EVANGELIST.md | ⚠️ Needs verification | Meta, titles, schema |
-| **The Philosopher** | Idea invention & connections | AGENT-PROMPT-PHILOSOPHER.md | ✅ NEW — Active | 3-5 pages + 10 ideas |
+### Content Creators (4 Specialized)
+
+| Agent | Role | Prompt File | Schedule | Domain |
+|-------|------|-------------|----------|--------|
+| **The Exegete** | Intellectual sword arm | AGENT-PROMPT-EXEGETE.md | 2x/day (midnight, noon) | Questions, demolition, objections, systematic theology, creeds, OT election, comparisons, counter-apologetics, debates, Scripture tsunamis |
+| **The Storyteller** | Narrative arm | AGENT-PROMPT-STORYTELLER.md | 1x/day (6am) | Stories (6 subcategories), theologian bios, church history, testimonies, hymn analysis |
+| **The Shepherd** | Pastoral arm | AGENT-PROMPT-SHEPHERD.md | 2x/day (2pm, 10pm) | Devotionals, 5 healing categories, pastoral/assurance, resistance pages |
+| **The Bridge** | Secular-to-sacred connector | AGENT-PROMPT-BRIDGE.md | 1x/day (6pm) | Psychology of resistance, secular evidence, analogies/illustrations |
+
+### Support Agents (6)
+
+| Agent | Role | Prompt File | Schedule | Function |
+|-------|------|-------------|----------|----------|
+| **The Philosopher** | Idea invention & connections | AGENT-PROMPT-PHILOSOPHER.md | 1x/day | Generates theological connections for creators to build |
+| **The Enhancer** | Content improvement | AGENT-PROMPT-ENHANCER.md | 2x/day | Amplifies existing pages with force multipliers, cross-links |
+| **The Guardian** | Technical integrity | AGENT-PROMPT-GUARDIAN.md | 2x/day (5am, 5pm) | Links, nav, footer, design, SEO, accessibility, deployment |
+| **The Strategist** | Intelligence & strategy | AGENT-PROMPT-STRATEGIST.md | 1x/day | Scoring, roadmap, category architecture, prompt evolution |
+| **The Overseer** | Theological quality control | AGENT-PROMPT-OVERSEER.md | 1x/day | Crown Jewel fidelity, Two Arms compliance, theological accuracy |
+| **The Evangelist** | SEO & discoverability | AGENT-PROMPT-EVANGELIST.md | 1x/day | Meta optimization, newsletter pages, search visibility |
 
 ---
 
@@ -25,28 +36,19 @@
 | CONTENT-STRATEGY-2026.md | Census, scores, gaps, SEO | All agents | Strategist |
 | VISION.md | Strategic vision & ideation | All agents | Strategist |
 | EVOLUTION-JOURNAL.md | Fleet learning memory | All agents | All agents |
-| PHILOSOPHER-IDEAS.md | Idea backlog — connections waiting to be built | Creator, Enhancer, Philosopher | Philosopher |
+| PHILOSOPHER-IDEAS.md | Idea backlog — connections waiting to be built | All creators, Enhancer | Philosopher |
 | PROMPT-INTELLIGENCE.md | Prompt engineering research | All agents | Strategist |
+| CROWN-JEWEL-STRATEGY.md | Master plan for proliferating the central truth | All creators | Strategist |
 
 ---
 
-## FLEET HEALTH SUMMARY (2026-04-04, Session #2)
+## KEY ARCHITECTURAL PRINCIPLES
 
-- **Total pages:** 314 (+19 since Session #1 today)
-- **Quality floor:** Lowest scored page: 5.9 (secular-sociology-human-inability — URGENT enhancement target)
-- **Quality ceiling:** 9.4 (question-where-did-your-faith-come-from — Crown Jewel page)
-- **Evolution velocity:** 8.4/10. Fleet maintaining acceleration.
-- **Primary gap:** Cross-referencing (avg 6.4/10 — 6 pages below 5/10). Enhancement emergency on 4 pages.
-- **Primary strength:** Philosophy category (9 pages, avg 8.5). Crown Jewel page (9.4). Psychology (19 pages, highest traffic ratio).
-- **Primary risk:** Analytics data 5 days old. Guardian and Evangelist unverified.
-- **New milestone:** Crown Jewel page live. Romans walkthrough launched. Philosophy category established.
-- **Two Arms ratio:** Demolition 96 pages / Devotion 60 pages (1.6:1). Target: 1:1.
-
-### Tier 0 Enhancement Emergency (Enhancer's Next Session)
-1. objection-why-command (7.1) — #1 traffic page, mediocre quality
-2. secular-sociology-human-inability (5.9) — lowest on site
-3. compare-calvinism-arminianism (7.2) — missing h1, targets highest-search query
-4. creed-canons-dort (6.8) — isolated, no force multipliers
+- **Total Depravity is the Linchpin**: Prove depravity → all 4 other points follow. Every category builds this case.
+- **Crown Jewel**: Faith is a gift. Claiming credit for it is works-righteousness. Use Socratic trap, never accusation.
+- **Two Arms**: Demolition must link to devotion. Sword AND balm. Target ratio: 1:1.
+- **Terminology**: "Truth" not "doctrine." "Doctrines of grace" not "doctrine of election."
+- **Brilliance over quantity**: 4 specialized creators > 1 generalist. Each dialed in for their domain.
 
 ---
 

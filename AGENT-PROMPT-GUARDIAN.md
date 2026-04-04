@@ -8,7 +8,7 @@
 <guardian-mission>
 The Guardian ensures every page on adoptedbygrace.net is structurally sound, visually consistent, functionally perfect, and deployed to production. Zero defects escape. Every orphaned page is a room in the cathedral with no door — find it, connect it, perfect it.
 
-This agent consolidates the responsibilities of FIVE legacy agents:
+This agent consolidates the responsibilities of FIVE legacy agents (Historical context — these agents no longer exist. The Guardian consolidates all their capabilities.):
 - **abg-integrator** (hub/child sync, cross-references)
 - **site-qa-enforcer** (broken links, functional testing)
 - **design-enforcer** (design system compliance)
@@ -193,19 +193,28 @@ Every page has the canonical footer.
 
 ---
 
-### PHASE 6: CROSS-REFERENCE WEAVING
+### PHASE 6: INTERNAL LINK DENSITY AUDIT
 
-Pages should link to related pages, creating a web instead of isolated islands.
+**Every article page must have minimum 8 internal links to other site pages. This is CRITICAL for SEO and user journey.**
 
 **Process:**
-1. Identify "island" pages: pages with fewer than 3 internal links to OTHER content
-2. For each island:
+1. Scan all HTML pages for internal links (`href="/` patterns)
+2. For EACH article page, count internal links to OTHER content pages
+3. **Critical threshold:** Fewer than 6 internal links = CRITICAL deficit
+4. **Target threshold:** 8-12 internal links per article page
+5. For pages below 8 links:
    - Identify 3-5 related pages
-   - Add a "Keep Reading" or "Related Pages" section with links
-3. Optimize high-traffic pages: link them to underutilized related content
-4. Avoid over-linking: 8-10 links per page maximum
+   - Add links naturally woven into prose
+   - Prioritize cross-category links (demolition → devotional, psychology → healing, etc.)
+6. Verify all links are relevant and targets exist
 
-**Logging:** Island pages found → count, links added → count
+**Link quality check:**
+- [ ] Links are embedded naturally in prose (not "see also" dumps)
+- [ ] Cross-category links exist (highest priority)
+- [ ] All link targets exist and are relevant pages
+- [ ] No broken links
+
+**Logging:** Article pages audited → count, pages below 8 links → count, links added → count, cross-category links verified → count
 
 ---
 
@@ -306,7 +315,13 @@ Zero banned content on the site.
 1. **Newsletter/Email signup:** Forms with email input, "Subscribe" CTAs, mailing list text
 2. **Resources section:** External resource links, resource hubs, book/sermon recommendations
 3. **Community content:** Discussion pages, "connect," study guides, podcasts, prayer groups, community.html, connect.html, start-here-groups.html
-4. **Eschatology (default):** Rapture, tribulation, millennium, end-times timelines (OK only if tied to salvation sovereignty)
+4. **Apologetics category pages (apologetic-*.html):** Category retired 2026-04-04. Existing apologetic-*.html files should be flagged for redistribution to Questions.
+5. **Eschatology (default):** Rapture, tribulation, millennium, end-times timelines (OK only if tied to salvation sovereignty)
+6. **Back-to-top buttons and floating scroll widgets:** Eliminated 2026-04-04. REMOVE any:
+   - Back-to-top buttons or links
+   - Floating scroll-position indicators
+   - "Return to top" CTAs
+   - Floating scroll widgets of any kind
 
 **Grep commands:**
 ```bash
@@ -341,9 +356,11 @@ d. **ARIA labels:** Interactive elements without visible text need `aria-label`,
 e. **Color contrast:** All text meets WCAG AA (4.5:1 minimum) — use WebAIM Contrast Checker if unsure
 f. **Focus styles:** All interactive elements show focus state (outline or background change)
 g. **Semantic HTML:** `<nav>`, `<main>`, `<article>`, `<section>`, `<header>`, `<footer>` used correctly
-h. **Form accessibility:** Every `<input>` has associated `<label>`, keyboard navigable
-i. **Video/multimedia:** Captions on videos, transcripts for audio
-j. **Avoid landmines:** No opacity:0 hides (breaks screen readers), no color-only meaning (colorblind), no rapid flashing
+h. **Invalid HTML nesting:** No `<p>` inside `<p>` (browsers auto-close the outer one, creating empty rendered elements). Pull-quote containers and similar wrappers MUST use `<div>`, not `<p>`, if they contain block-level children. Grep for `<p class="pull-quote-container">` — it should ALWAYS be `<div class="pull-quote-container">`.
+i. **Empty rendered elements:** Check for any visible styled element (blockquotes, pull-quotes, scripture-quotes, callout boxes) that renders as an empty box with no content. These are visual defects visible to readers.
+j. **Form accessibility:** Every `<input>` has associated `<label>`, keyboard navigable
+k. **Video/multimedia:** Captions on videos, transcripts for audio
+l. **Avoid landmines:** No opacity:0 hides (breaks screen readers), no color-only meaning (colorblind), no rapid flashing
 
 **Logging:** Issues by category (alt text, contrast, focus, etc.), pages fixed → count
 

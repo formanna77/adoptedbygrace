@@ -30,6 +30,10 @@
 3. **FIX compare-calvinism-arminianism.html** — Missing h1 tag. SEO score 5/10. Targets the highest-search comparison in all of Reformed theology. Add h1, FAQ schema, enhance meta.
 4. **ENHANCE creed-canons-dort.html** — 2/10 cross-referencing, 4/10 force multipliers. Isolated island of excellent content.
 
+### TIER 0.5 — AARON'S BATTLE AXE IDEAS (Founder Priority)
+- **"Was Christ a Robot?" (Acts 2:23)** — Demolition of the "predestination makes us puppets" objection. Christ's crucifixion was predestined by God's "deliberate plan and foreknowledge." Was Christ a puppet? The objection cannot survive contact with Acts 2:23. Category: Demolition or Questions. ONE-PUNCH KNOCKOUT.
+- **"WHOSE SIDE ARE YOU ON?" (SERIES — 5-8 articles)** — The great divide: Arminian theology sides with man at every decision point; Reformed theology sides with God. Strip away the jargon and this is what remains. Series spans demolition, philosophy, comparison, history, and devotional. Must be so devastatingly clear that no one can hide behind the false compassion Arminianism permeates through nearly every church. See PHILOSOPHER-IDEAS.md for full series outline.
+
 ### TIER 1 — Maximum Impact (Build Next)
 5. **Romans Walkthrough — Continue.** romans-8-28-39 live (7.9). Next: Romans 9:1-24 (Potter & Clay), Romans 3:10-18 (Total Depravity), Romans 1:18-32. Target: 4 chapters by April 30.
 6. **Audience Landing Pages** — /for-skeptics and /for-new-believers. High-conversion, zero pages exist. Target: 2 by April 15.

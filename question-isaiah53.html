@@ -208,16 +208,6 @@
             cursor: pointer; font-family: inherit;
         }
         .share-btn:hover { background-color: var(--bg-card-hover); border-color: var(--accent-gold); }
-        .back-to-top {
-            position: fixed; bottom: 30px; right: 30px; width: 44px; height: 44px;
-            background: var(--accent-gold); color: var(--bg-deep); border: none;
-            border-radius: 50%; cursor: pointer; font-size: 20px;
-            display: flex; align-items: center; justify-content: center; z-index: 999;
-            opacity: 0; visibility: hidden; transition: all 0.3s ease;
-            box-shadow: 0 4px 20px rgba(212, 162, 84, 0.3);
-        }
-        .back-to-top.visible { opacity: 1; visibility: visible; }
-        .back-to-top:hover { transform: scale(1.1); }
         @media (max-width: 768px) {
             .page-header { padding: 40px 20px; }
             .page-header h1 { font-size: 32px; }
@@ -658,7 +648,7 @@
     </div>
 
     <!-- BACK TO TOP -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">&#x2191;</button>
+    
 
     <script src="/global.js" defer></script>
 <script src="/nav.js"></script>

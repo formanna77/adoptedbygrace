@@ -460,37 +460,7 @@
             border-top: 1px solid var(--border-subtle);
             font-size: 0.85rem;
             color: var(--text-muted);
-        }
-
-        .back-to-top {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 50px;
-            height: 50px;
-            background-color: var(--accent-gold);
-            color: var(--bg-deep);
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            display: none;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            z-index: 999;
-            transition: all 0.3s ease;
-        }
-
-        .back-to-top:hover {
-            background-color: var(--accent-ember);
-            transform: translateY(-4px);
-        }
-
-        .back-to-top.show {
-            display: flex;
-        }
-
-        *:focus-visible {
+        }*:focus-visible {
             outline: 2px solid var(--accent-gold);
             outline-offset: 2px;
             border-radius: 2px;
@@ -514,13 +484,6 @@
 
             .container {
                 padding: 2rem 1.5rem;
-            }
-
-            .back-to-top {
-                width: 45px;
-                height: 45px;
-                bottom: 1.5rem;
-                right: 1.5rem;
             }
 
             .arguments-grid {
@@ -565,14 +528,7 @@
                 margin-top: 5rem;
             }
 
-            .back-to-top {
-                width: 40px;
-                height: 40px;
-                bottom: 1rem;
-                right: 1rem;
-                font-size: 1.2rem;
             }
-        }
 
     </style>
     
@@ -1016,7 +972,7 @@
         </div>
     </footer>
 
-    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+    
 
     
 <script src="/global.js" defer>

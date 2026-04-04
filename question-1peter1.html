@@ -672,36 +672,6 @@
         }
 
         /* Back to Top */
-        .back-to-top {
-            position: fixed;
-            bottom: 24px;
-            right: 24px;
-            width: 48px;
-            height: 48px;
-            background-color: var(--accent-gold);
-            color: var(--bg-deep);
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-            display: none;
-            justify-content: center;
-            align-items: center;
-            font-size: 20px;
-            font-weight: bold;
-            z-index: 90;
-            transition: all 0.3s ease;
-            font-family: 'Inter', sans-serif;
-        }
-
-        .back-to-top.visible {
-            display: flex;
-        }
-
-        .back-to-top:hover {
-            background-color: var(--accent-ember);
-            transform: translateY(-4px);
-        }
-
         /* Responsive */
         @media (max-width: 1024px) {
             .hero h1 {
@@ -758,14 +728,7 @@
                 gap: 24px;
             }
 
-            .back-to-top {
-                width: 44px;
-                height: 44px;
-                bottom: 16px;
-                right: 16px;
-                font-size: 18px;
             }
-        }
 
         @media (max-width: 480px) {
 
@@ -1540,7 +1503,7 @@ body {
         </div>
     </footer>
 
-    <button class="back-to-top" onclick="scrollToTop()" aria-label="Back to top"></button>
+    
 
     
     <script src="/global.js" defer>

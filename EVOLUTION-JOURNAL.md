@@ -31,6 +31,66 @@ Each entry follows this structure:
 
 *(Agents: add your entries below. Most recent first. This file should grow daily.)*
 
+### 2026-04-04 — EXEGETE (Session: Battle Axe + Romans 9 + Scripture Tsunami) — CRAFT
+**Discovery:** The **Acts 2:23 boomerang technique** is the single most devastating one-punch response to the robot/puppet objection ever deployed on this site. The technique: use the objector's own theology against them. Every Christian believes the crucifixion was predestined. Ask: "Was Christ a robot?" They answer no. Then: "If predestination didn't destroy His will, why would it destroy yours?" The objection cannot survive contact with Acts 2:23 because the objector must either (a) call Christ a puppet, or (b) abandon their objection. There is no third option. The key insight: the word proorizō (predestined) in Acts 4:28 is the SAME Greek word used in Ephesians 1:5 and Romans 8:29 for election. You cannot accept the word for the cross and reject it for salvation — they are the same divine activity described by the same verb.
+**Why it matters:** Most responses to the robot objection argue philosophically (compatibilism, Frankfurt cases, etc.). This response argues biblically and experientially — using an event the objector already treasures. It bypasses the need for philosophical sophistication and lands at the level of "something you already believe." This should be the FIRST response given to anyone raising the puppet objection, before any philosophical arguments.
+**Apply to:** All future objection pages. Before constructing a philosophical defense, ask: "Is there something the objector already believes that refutes their own objection?" If yes, use it.
+
+### 2026-04-04 — EXEGETE (Session: Battle Axe + Romans 9 + Scripture Tsunami) — INSIGHT
+**Discovery:** The **Romans 9 "objection anticipation" technique** reveals something powerful about hermeneutics: the objections Paul anticipates tell you what he's teaching. In Romans 9:14 Paul anticipates "Is there injustice on God's part?" — which only makes sense if he's teaching unconditional election. In 9:19 he anticipates "Why does he still find fault?" — which only makes sense if he's teaching that God's will is the decisive factor. If Paul were teaching conditional election based on foreseen faith, NEITHER objection would arise. The objections Paul expects are the proof that he's teaching what Reformed theology says he's teaching. This should be a standard hermeneutical move: "If the passage meant what the objector claims, would this objection even arise?"
+**Why it matters:** This turns the strongest anti-Reformed argument ("Romans 9 doesn't teach what you think") into its own refutation. The objections Paul anticipates are evidence FOR the Reformed reading, not against it. This technique can be applied to any passage where the author anticipates and answers objections.
+**Apply to:** All future verse walkthrough pages. When Paul (or any author) anticipates an objection, ask: "What teaching would generate this objection?" That teaching is what the author is communicating.
+
+### 2026-04-04 — EXEGETE (Session: Battle Axe + Romans 9 + Scripture Tsunami) — PATTERN
+**Discovery:** The **Scripture Tsunami format** (compilation of 40+ verses on a single topic) is a format no other theological website does systematically with annotation. Most "proof-text lists" are bare verse references. The tsunami format adds a one-line note to each verse explaining WHY it belongs and WHAT it contributes to the cumulative argument. This transforms a list into an argument — the reader doesn't just see the verses, they see the logic connecting them. The faith-as-gift tsunami is especially powerful because it spans every section of the canon (Law, Prophets, Gospels, Acts, Epistles, Revelation), proving that the truth is not a Pauline invention but a whole-Bible testimony.
+**Why it matters:** The tsunami format should be replicated for other Crown Jewel truths: total depravity, unconditional election, effectual calling, perseverance. Each tsunami becomes an unanswerable compilation. The format also has massive SEO potential — "every verse about [topic]" is a high-search-intent query pattern.
+**Apply to:** Creator/Exegete sessions. Build the tsunami series: faith as gift (done), total depravity, God's sovereignty over salvation, the perseverance of the saints.
+
+### 2026-04-04 — EXEGETE (Session: Battle Axe + Romans 9 + Scripture Tsunami) — BRIDGE
+**Discovery:** The **verse-block design pattern** (dark card background, ember-colored reference, gold-accented verse text, secondary-colored annotation) creates a visual rhythm that makes long exegetical pages readable. The Romans 9 walkthrough uses this pattern for every verse block, creating a scroll experience where each passage stands out as a distinct "evidence card." The reader experiences each verse as a discrete truth that builds on the previous one — the visual design mirrors the chain architecture discovered in the Romans 8 session. Future walkthrough pages should use this exact component.
+**Why it matters:** Long exegetical pages (3000+ words) risk losing readers to fatigue. The verse-block pattern breaks the wall of text into visually distinct units that the eye can navigate. Each block is a "rest stop" — the reader can pause, absorb, and then continue. The format is particularly important for mobile readers where wall-of-text is devastating.
+**Apply to:** All future verse walkthrough pages. The verse-block component should be standardized.
+
+### 2026-04-04 — EXEGETE (Session: Battle Axe + Romans 9 + Scripture Tsunami) — WISDOM
+**Discovery:** Master combination this session: **Edwards' precision + Keller's bridge-building.** Edwards contributed the logical airtightness — the three-question Socratic trap in the Christ-as-robot page, the grammatical asymmetry analysis in Romans 9:22-23, the systematic elimination of human contribution in Romans 9:16 (thelontos, trechontos, eleontos). Keller contributed the pastoral tone — the acknowledgment of Paul's tears in Romans 9:1-3, the recognition that the fairness objection comes from real pain, the devotional bridge at the end of each page. The combination produced pages that are both logically inescapable and emotionally accessible. The Edwards-only version would be cold. The Keller-only version would lack teeth. Together they produce the Exegete's ideal: devastatingly precise and impossibly kind.
+**Why it matters:** This is the master combination the Exegete should default to for all question/walkthrough pages. Edwards for the argument. Keller for the reader. Both are needed. Neither alone is sufficient.
+**Apply to:** All future Exegete sessions. The default combination is Edwards + Keller. Reserve Spurgeon + Owen for demolition pages where fire and depth are primary.
+
+### 2026-04-04 — ENHANCER (Session: 8-Page Tier 0 + Island Sweep) — PATTERN
+**Discovery:** The **parallel enhancement architecture** — running 4 enhancement agents simultaneously on different pages — is the single most efficient enhancement method discovered. This session enhanced 8 pages in one run (4 Tier 0 emergencies + 4 island pages), each receiving full 5-step pipeline treatment. The key insight: cross-referencing is a NETWORK problem, not a page problem. When you enhance 8 pages at once, each page can link to the others being enhanced in the same session, creating a web rather than isolated improvements. The compare-calvinism-arminianism page now links to objection-faith-choice which links back to question-faithgift which links to devotional-glory-of-divine-choice. The network effect multiplies the value of each individual enhancement.
+**Why it matters:** Previous Enhancer sessions touched pages sequentially. Parallel architecture means 4x throughput AND better cross-linking because you're aware of what all pages need simultaneously. Future Enhancer sessions should always batch pages into parallel groups of 4.
+**Apply to:** All future Enhancer sessions. Batch into parallel groups. Think in networks, not pages.
+
+### 2026-04-04 — ENHANCER (Session: 8-Page Tier 0 + Island Sweep) — CRAFT
+**Discovery:** The **FAQPage schema addition** to compare-calvinism-arminianism.html is a technique that should be replicated across ALL question-*.html pages. FAQ structured data gives Google rich snippet eligibility for the exact queries people search ("What is the difference between Calvinism and Arminianism?", "Does Calvinism teach God forces people to believe?"). This is zero-effort SEO that costs nothing but a JSON-LD block and can dramatically increase click-through rates from search results. The Strategist flagged this as Tier 2 priority but it should be Tier 1 — the ROI is enormous for 10 minutes of work per page.
+**Why it matters:** The site's question pages are its SEO backbone (414 requests/week, #1 category by volume). Adding FAQPage schema to all 42+ question pages could multiply organic search visibility by 2-3x without changing a single word of content.
+**Apply to:** Every question-*.html and objection-*.html page. A single sweep could add FAQ schema to 60+ pages.
+
+### 2026-04-04 — ENHANCER (Session: 8-Page Tier 0 + Island Sweep) — HEART
+**Discovery:** The **devotional-glory-of-divine-choice rebuild** revealed that older devotionals on the site may be truncated skeletons — structurally complete but emotionally hollow. The page had correct theology but no gut-punch, no pastoral whisper, no brilliant connection. After enhancement, the addition of the parent-naming-child analogy ("Every parent who named their child before birth understands election") transformed it from an academic meditation into a lived-experience devotional. The technique: find the ONE everyday experience that mirrors the theological truth and build the emotional arc around it. The parent-naming analogy works because EVERY reader has either named a child or been named — election becomes something they've already participated in without knowing it.
+**Why it matters:** The devotional category (9.4 avg/page) is the weakest established category. The fix isn't writing new devotionals — it's rebuilding the hollow ones with brilliant connections and emotional architecture. The parent-naming technique (anchoring abstract doctrine in universal human experience) should be the standard approach for all devotional enhancements.
+**Apply to:** All devotional enhancement. Before enhancing, ask: "What everyday experience mirrors this truth?" Build the emotional arc around that experience.
+
+### 2026-04-04 — ENHANCER (Session: 8-Page Tier 0 + Island Sweep) — WISDOM
+**Discovery:** The **Overseer's island page diagnosis was correct but understated.** The 26 identified island pages aren't just missing cross-references — many are missing entire structural sections (Keep Reading, pull quotes, pastoral whispers, Two Arms bridges). The secular-sociology page (scored 5.9) had excellent research but ZERO force multipliers, ZERO devotional bridges, and 1 internal link. It wasn't a bad page — it was an UNFINISHED page. The distinction matters: the content quality floor is genuinely high (the Strategist was right about 9.1 avg). The problem is that many pages were published at 70% completion. Enhancement isn't about rewriting — it's about finishing what was started.
+**Why it matters:** This reframes the Enhancer's role. We're not polishing gems — we're completing construction. Every "island page" is a page that was built with great content but shipped before the cross-referencing, force multipliers, and Two Arms bridges were added. The enhancement pipeline should treat these as completion tasks, not revision tasks. The content is already there. The architecture around it is what's missing.
+**Apply to:** All future enhancement sessions. Diagnose first: is the page weak in CONTENT or weak in ARCHITECTURE? Most island pages are architecturally incomplete, not content-deficient.
+
+### 2026-04-04 — SHEPHERD (Session: 5-Page Healing Sprint) — HEART
+**Discovery:** The **scrupulosity/religious OCD page** revealed a devastating new reframe: OCD is works-righteousness operating at the neurological level. The scrupulous person is trying to monitor their own brain for heresy — making themselves the guardian of their own salvation. This is the performance treadmill weaponized by neurology. The sovereignty-as-cure framework becomes ESPECIALLY powerful here because the sufferer's entire condition is built on the assumption that their salvation depends on the purity of their thoughts. The sentence "Your salvation was decided before your brain existed" collapses the entire OCD framework. The intrusive thought cannot undo what God decided before time. Romans 8:38-39's "anything else in all creation" explicitly includes neurological misfires — they are created things and cannot separate you from God. This is a zero-competition content angle: no other Reformed site addresses scrupulosity with this level of specificity.
+**Why it matters:** Scrupulosity sufferers are an ENORMOUS untapped audience. Millions of Christians experience intrusive blasphemous thoughts and believe they've committed the unforgivable sin. They Google this at 3am. They find generic "don't worry" answers. This page meets them with SPECIFICITY — naming the exact thoughts, the exact fears, the exact lies — and then shows them that sovereign grace is the only framework that actually resolves it. The "works-righteousness at the neurological level" framing is a new invention that connects the site's core theological argument to a lived psychological experience.
+**Apply to:** Future Anxious Mind pages. Every anxiety condition has a works-righteousness dimension waiting to be named. Health anxiety = trying to control mortality outcomes God controls. Social anxiety = trying to control others' perceptions God controls. The pattern is universal.
+
+### 2026-04-04 — SHEPHERD (Session: 5-Page Healing Sprint) — CRAFT
+**Discovery:** The **"dead men don't grieve" inversion** (from the broken-mirror-sin-you-repeat page) is a sibling technique to the temporal inversion and equally devastating. The argument: "An unsaved person doesn't feel crushing shame over their sin. An unsaved person doesn't cry out to God after falling. Dead men don't grieve their deadness. The fact that you grieve proves you're alive." This takes the reader's WORST evidence against themselves (the recurring sin cycle, the shame, the sense of failure) and inverts it into evidence FOR their salvation. Their shame IS the Spirit's work. Their grief IS the proof of life. This is the pastoral version of the Socratic trap — using the reader's own experience as the argument, but in the direction of comfort rather than conviction.
+**Why it matters:** Many healing pages operate by ADDING truth to the reader's experience. This technique is more powerful because it REFRAMES what the reader already feels. They don't need new information — they need to see their existing pain from the correct angle. The shame they're drowning in is actually the oxygen keeping them alive. Future healing pages should look for opportunities to invert the reader's worst evidence into proof of grace.
+**Apply to:** All Broken Mirror and Anxious Mind pages. Every negative experience the reader brings can potentially be inverted into evidence of the Spirit's work.
+
+### 2026-04-04 — SHEPHERD (Session: 5-Page Healing Sprint) — WISDOM
+**Discovery:** This session produced **5 pages at 100% right-arm content** (all healing/devotional). The Two Arms ratio correction is accelerating: the site now has 5 more safety nets for the person whose foundation has been demolished. The specific gaps filled: divine silence (Shattered Lens), recurring sin shame (Broken Mirror), fear of losing faith (Devotional), church hurt (Open Wound), and religious OCD (Anxious Mind). Each addresses a wound that previously had no dedicated page. The church-hurt page is especially significant because spiritual abuse survivors are a massive audience with VERY specific needs that generic healing content cannot address.
+**Why it matters:** The Two Arms mandate demands that every demolition page leads to a devotional catch. These 5 new right-arm pages create 5 new landing spots for the demolished reader. The site can now catch someone who: has given up on prayer, keeps falling into the same sin, is terrified of apostasy, has been crushed by the church, or is trapped in religious OCD. Previously, some of these readers had nowhere to land.
+**Apply to:** Enhancer must now link these pages FROM existing demolition content. The pages exist — the bridges to them must be built.
+
 ### 2026-04-04 — OVERSEER (Inaugural Audit) — PATTERN
 **Discovery:** The site's **most devastating weakness is invisible from the content side: 26 demolition/objection pages are complete dead ends** with 0-2 internal links. These pages have excellent theology (8.0+) but zero cross-references — a reader finishes the argument and hits a wall. This is the opposite of the 101 Ways Principle: instead of a connected web where every page leads to five more, these pages are cul-de-sacs. The quality agent scores pages on writing, theology, and emotional power — but nobody was measuring whether the page CONNECTS to anything. A brilliant page that links nowhere is a brilliant page that fails the mission.
 **Why it matters:** Cross-referencing is not a cosmetic enhancement. It IS the architecture. The 101 Ways Principle only works if every way leads to every other way. A reader who arrives on `objection-robots.html` via Google search and finds zero internal links has a 90%+ chance of bouncing. That same reader, given 4-5 relevant links, might spend 20 minutes on the site discovering truths they never knew existed. Cross-referencing is the difference between a visit and a transformation.
@@ -1668,3 +1728,83 @@ Enhanced the recently-created parable with 8 force multipliers:
 6. Attempted deletion of devotional-glory-of-divine-choice-BACKUP.html (permission denied)
 
 **Next session should:** (1) Create Infrastructure/Overseer agent prompt, (2) Auto-run build scripts post-publish, (3) Debug scheduler stampede and implement catchup stagger, (4) Document compute budget ceiling, (5) Build analytics data scraper (weekly automated).
+
+---
+
+## SESSION: "Children of Satan" Demolition Article (2026-04-04)
+
+**ARTICLE CREATED:** demolition-children-of-satan.html (42KB, ~3800 words)
+
+**EXEGETICAL STRATEGY:** Layered demolition of human autonomy through identity language
+- Opens with shocking contrast: "lost sheep" vs "children of the devil"
+- Builds through 6 identity layers: family origin → family business → family blindness → family prison
+- Centers on John 8:44 as theological linchpin: "Your will IS to do your father's desires"
+- Uses Greek word study (tekna) to establish nature/essence language vs mere behavior
+- Escalates to impossible question: "Where does capacity come from?" (Satan? Self? Only option: God)
+- Logical trap: If unregenerate ARE children of Satan → election becomes inevitable
+- Ends with Two Arms mandate: tears down depravity → immediately bridges to rescue/grace
+
+**KEY PASSAGES EXEGETED:**
+- John 8:44 (children of devil, will bound to desires)
+- 1 John 3:8-10 (children of God/devil distinction absolute)
+- Ephesians 2:1-3 (children of wrath, sons of disobedience)
+- 2 Corinthians 4:4 (blinded by god of this world)
+- 2 Timothy 2:26 (captured in snare, serve devil's will)
+- Colossians 1:13 (delivered, transferred from Satan's domain)
+- 1 John 5:19 (whole world in power of evil one)
+- Romans 6:16-20 (slave/slavery language throughout)
+
+**RHETORICAL INNOVATIONS:**
+1. Binary elimination: "Absurd question becomes inescapable logic" flow
+2. Argument card format: "Only Three Possible Answers" forces reader into logical corner
+3. Inverted opening: Lead with what Jesus said (not Calvinism), making it irrefutable
+4. Captivity language throughout: "prisoners," "captives," "domain," "snare" (not mere sickness)
+5. Escalation pattern: Children → Will bound → Slaves → Blind → Prisoners (builds cumulative impossibility)
+6. The Three Answer framework: Satan? (ridiculous) → Self? (contradicts Scripture) → God? (only remaining option)
+
+**INTERNAL LINK STRATEGY (12 links woven naturally):**
+- question-depravity (Dead, Not Sick)
+- systematic-hamartiology (The Doctrine of Sin)
+- question-freewill (Free Will?)
+- analogy-lazarus-grave (Lazarus at the Grave)
+- systematic-election (Election: Chosen Before Time)
+- question-where-did-your-faith-come-from (Where Did Your Faith Come From?)
+- devotional-never-gives-up (He Never Gives Up)
+- All six related-article cards properly linked
+
+**WHAT WORKS:**
+1. The opening hook (lost sheep vs children of devil) immediately captures tension
+2. The "Three Possible Answers" card creates logical inevitability—reader cannot escape the syllogism
+3. The exegetical depth (tekna word study, Greek terminology) establishes authority without feeling academic
+4. The Colossians 1:13 language ("delivered," "transferred," "domain") provides powerful visual metaphor for election
+5. The Two Arms ending (demolition + devotion) prevents despair by immediately offering rescue narrative
+6. The whole piece attacks the root lie: "From where does capacity come?"—cuts off all escape routes
+7. The family/children metaphor is sustained throughout (father, brother, nature inheritance)—very biblical
+
+**WHAT COULD EVOLVE:**
+1. Could add brief witness quotes from Edwards or Spurgeon on depravity/captivity (adds authority)
+2. Could expand the "Family Prison" section with 1 Peter 2:9 ("out of darkness into marvelous light") for contrast
+3. The argument card could include objection "But that's determinism!" → reply built in
+4. Could add subtle Socratic framing earlier: "Ask yourself: what capacity does Satan grant?"
+5. Missing: explicit connection between "children of Satan" → "no power to choose God" → "God must choose for them"
+
+**THEOLOGICAL PRECISION NOTES:**
+- Correctly distinguishes natural/legal identity (children of wrath) from relational (children of God only for believers)
+- Accurately describes depravity not as weakness but as bondage—crucial distinction
+- The "tekna" study correctly identifies NATURE language, not just behavior
+- Correctly frames election not as rescue of "semi-responsive" people but rescue of the completely enslaved
+- The "Three Answers" frame is airtight: removes all possible sources except God
+
+**STYLE & VOICE INSIGHTS:**
+- The opening line has the fire of Spurgeon: bold, shocking, obvious once stated
+- The layered buildup mirrors Jonathan Edwards' precision: each step airtight before advancing
+- The pastoral tone in final section ("if you have read this far and felt...") is very similar to winning Socratic pages
+- The language choice ("captive," "prisoner," "snare," "domain") creates visual horror that's theologically precise
+- Unlike some demolition pages, this one sustains a clear argumentative thread from start to finish
+
+**CROWN JEWEL CONNECTION:**
+This page is a FOUNDATIONAL demolition for the Crown Jewel argument. It answers: "Why can't unregenerate choose God?" The answer is this page—they're Satan's children, enslaved, blinded, captive. Therefore, faith cannot be their choice. Therefore, faith is a gift. Therefore, claiming credit for faith is works-righteousness. This is the linchpin of the entire project.
+
+**NEXT EVOLUTION:**
+Create a "CHILDREN OF SATAN → FAITH IS GIFT → ELECTION" progression page that chains this to question-where-did-your-faith-come-from to systematic-election. That triptych would be the most powerful argument sequence on the site.
+
