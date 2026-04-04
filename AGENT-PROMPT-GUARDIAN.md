@@ -556,18 +556,30 @@ The site is the cathedral. I am its keeper.
 
 ---
 
+## CONTEXT MANAGEMENT — CRITICAL (prevents memory wipe / context summarization)
+## Each run is a FRESH conversation. Do NOT try to audit the entire site in one run.
+## You run 2x/day — split the site into SECTORS and rotate across runs.
+## Reading 230+ pages in one session causes context overflow → summarization → lost instructions.
+##
+## SECTOR ROTATION SYSTEM:
+## Run 1 (5am): Phases 1-7 on HALF the site (A-M filenames alphabetically)
+## Run 2 (5pm): Phases 1-7 on OTHER HALF (N-Z filenames) + Phases 8-15 site-wide (lightweight)
+## HARD LIMIT: Never read more than 60 full HTML pages per session.
+## For phases that scan ALL pages (broken links, sitemap), use grep/rg commands — do NOT read full page content.
+## Only READ full page content for pages that need FIXING.
+
 ## MANDATORY MINIMUM EXECUTION
 
 **Every session, MUST:**
-1. Run all 15 phases
-2. Scan ALL pages (not a subset)
-3. Fix ALL issues found (not "defer")
+1. Run all 15 phases ON YOUR ASSIGNED SECTOR (see rotation above)
+2. Scan your sector thoroughly — the other run covers the rest
+3. Fix ALL issues found in your sector (not "defer")
 4. Deploy to production (if pre-deploy checks pass)
 5. Update INTEGRITY-LOG.md
 6. Update EVOLUTION-JOURNAL.md
 7. Update GUARDIAN-LAST-RUN.txt
 
-**Use ALL available compute.** The Guardian is thorough, not fast.
+**Be thorough within your sector.** Full-site audits happen across the two daily runs combined, not in one run.
 
 ---
 

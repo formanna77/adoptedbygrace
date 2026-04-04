@@ -265,7 +265,7 @@
                     name: 'Secular Evidence',
                     icon: '🔬',
                     href: '/secular-evidence',
-                    count: 9,
+                    count: 10,
                     pages: [
                         { name: 'Art & Literature — How the Greatest Writers Intuited Reformed Truth', href: '/secular-art-literature-reformed-truth', desc: 'Shakespeare, Dostoevsky, Flannery O' },
                         { name: 'Sociology & Human Inability — Every Experiment Confirms Depravity', href: '/secular-sociology-human-inability', desc: 'The Milgram experiment, Stanford Prison Study, mob psychology, and groupthink research all confirm what Scripture teache' },
@@ -275,7 +275,8 @@
                         { name: 'The History of Sovereignty — When Secular Historians Document Divine Control', href: '/secular-history-sovereignty', desc: 'Secular historians have documented patterns they cannot explain: the rise and fall of empires, the convergence of imposs' },
                         { name: 'The Neuroscience of Inability — Your Brain Decided Before You Did', href: '/secular-neuroscience-human-inability', desc: 'Neuroscience reveals that conscious' },
                         { name: 'The Philosophy of the Unfree Will — Secular Confirmation of Reformed Compatibilism', href: '/secular-philosophy-free-will', desc: 'Secular philosophy' },
-                        { name: 'The Psychology of Bondage — Secular Science Proves Total Depravity', href: '/secular-psychology-bondage-of-will', desc: 'Modern psychology confirms what the Reformers taught 500 years ago: the human will is in bondage. Cognitive bias, addict' }
+                        { name: 'The Psychology of Bondage — Secular Science Proves Total Depravity', href: '/secular-psychology-bondage-of-will', desc: 'Modern psychology confirms what the Reformers taught 500 years ago: the human will is in bondage. Cognitive bias, addict' },
+                        { name: 'Written Before You Were Born: DNA and Sovereignty', href: '/secular-genetics-sovereignty', desc: 'Behavioral genetics proves that personality, temperament, and moral intuitions are substantially heritable. You didn' }
                     ]
                 }
             ]
@@ -289,13 +290,14 @@
                     name: 'Psychology of Resistance',
                     icon: '🧠',
                     href: '/psychology-hub',
-                    count: 20,
+                    count: 22,
                     pages: [
                         { name: '⚡ Are You Sure You\'re Saved?', href: '/psychology-cost-of-rejecting-grace', desc: 'This is not a theology lesson. This is an intervention. One question, five minutes, and the truth about whether your fai' },
                         { name: 'Cognitive Biases and the Blindness of Sin', href: '/psychology-cognitive-biases', desc: 'Cognitive biases mapped to biblical descriptions of fallen thinking. Confirmation bias, anchoring, Dunning-Kruger — mode' },
                         { name: 'Terror Management and the Threat of Sovereignty', href: '/psychology-terror-management', desc: 'Terror Management Theory explains why God' },
                         { name: 'The Art of Redefining Grace: How We Turn a Gift Into an Achievement', href: '/resistance-redefining-grace', desc: 'You think you understand grace. But have you unconsciously redefined it to include your own contribution? A gentle demol' },
                         { name: 'The Autonomy Illusion: Why "Free Will" Feels So Real', href: '/psychology-autonomy-illusion', desc: 'Neuroscience reveals that our sense of autonomous choice may be the brain' },
+                        { name: 'The Credit Thief Inside Your Brain: Why You Think You Chose God', href: '/psychology-attribution-error', desc: 'The Fundamental Attribution Error explains why humans instinctively take credit for outcomes they didn' },
                         { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Why self-sovereignty is the last idol to fall — even for believers. A deep psychological and theological exploration of ' },
                         { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
                         { name: 'The Sincerity Trap | Psychology of Resistance', href: '/psychology-sincerity-trap', desc: 'Why the warmest, most sincere believers are often the hardest to reach. How sincerity becomes the armor against truth.' },
@@ -309,6 +311,7 @@
                         { name: 'Why Does God\'s Sovereignty Terrify Us?', href: '/psychology-fear-control', desc: 'Why does God' },
                         { name: 'Why Evidence Makes Some People Believe Harder', href: '/psychology-backfire-effect', desc: 'Why does showing someone Scripture about election make them believe harder in free will? The backfire effect reveals how' },
                         { name: 'Why Grace Feels Like an Attack on Your Identity', href: '/psychology-identity-threat', desc: 'Why does grace feel like an attack on your identity? Identity-protective cognition explains how belief becomes self-conc' },
+                        { name: 'Why People Defend the Theology That Enslaves Them', href: '/psychology-system-justification', desc: 'System Justification Theory explains why people defend unfair systems — even ones that hurt them. It also explains why m' },
                         { name: 'Why the Truth That Makes You Angriest Is the One That Will Set You Free', href: '/psychology-hostility-reaction', desc: 'When a lifelong Christian suddenly becomes enraged at the doctrines of grace, something deeper than theology is happenin' },
                         { name: 'Why Your Church All Believes the Same Thing', href: '/psychology-groupthink', desc: 'Why do church friends all believe the same theology? Discover how conformity bias, groupthink, and social identity keep ' }
                     ]
@@ -338,11 +341,12 @@
                     name: 'Analogies',
                     icon: '💡',
                     href: '/analogies-illustrations',
-                    count: 6,
+                    count: 7,
                     pages: [
                         { name: 'God\'s Sovereignty and Free Will: Does God Control Everything? (Explained)', href: '/analogy-chess-grandmaster', desc: 'Does God control everything? The chess grandmaster analogy explains how divine sovereignty and human choice coexist with' },
                         { name: 'The Drowning Man Who Thinks He\'s Swimming', href: '/analogy-drowning-man', desc: 'The crucial distinction between drowning and dead. Why' },
                         { name: 'The Lazarus Argument: Dead People Don\'t Choose to Live', href: '/analogy-lazarus-grave', desc: 'Does God force salvation or respect free will? John 11 shows how effectual calling works through Lazarus' },
+                        { name: 'The River That Thinks It Chose Its Path', href: '/analogy-river', desc: 'A river flows freely—rushing, turning, cascading. But every twist was determined by terrain carved before the first drop' },
                         { name: 'What Does Adoption Teach About God\'s Choice?', href: '/analogy-adoption', desc: 'A baby doesn' },
                         { name: 'Who Turns On the Light? A Simple Picture of Regeneration', href: '/analogy-light-switch', desc: 'Can you choose to believe on your own? Explore why your ability to have faith is a gift from God, not something you gene' },
                         { name: 'Why the Spiritually Dead Cannot Choose God', href: '/analogy-doctor-corpse', desc: 'A corpse cannot choose to live. Neither can a spiritually dead person choose God. This stark analogy shatters the myth o' }

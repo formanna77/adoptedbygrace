@@ -20,6 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -28,147 +29,183 @@
         "description": "Demolition series: Every verse cited against biblical theology examined and shown to support the doctrines of grace through Greek analysis.",
         "url": "https://adoptedbygrace.net/demolition-hub.html",
         "datePublished": "2026-03-27",
-        "dateModified": "2026-03-28",
+        "dateModified": "2026-04-04",
         "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
     }
     </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root { --bg-deep: #0a0a0f; --bg-card: #12121a; --bg-card-hover: #1a1a2e; --accent-gold: #d4a254; --accent-ember: #e8642c; --accent-violet: #8b5cf6; --text-primary: #f0ece4; --text-secondary: #9a958c; --text-muted: #807b75; --border-subtle: rgba(212, 162, 84, 0.12); }
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+            --border-danger: rgba(232, 100, 44, 0.25);
+        }
         body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.8; overflow-x: hidden; }
-        .hero { max-width: 900px; margin: 3rem auto; padding: 3rem 2rem; text-align: center; }
-        .hero-series-label { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
-        .hero-series-label::before, .hero-series-label::after { content: ''; display: inline-block; width: 30px; height: 2px; background: var(--accent-ember); }
-        .hero h1 { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 800; margin-bottom: 1.5rem; line-height: 1.2; }
-        .hero-subtitle { font-size: 1.15rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto 2rem; line-height: 1.8; }
-        .hero-stat-row { display: flex; justify-content: center; gap: 3rem; margin-top: 2rem; }
-        .hero-stat { text-align: center; }
-        .hero-stat-number { font-family: 'JetBrains Mono', monospace; font-size: 2rem; font-weight: 700; color: var(--accent-gold); }
-        .hero-stat-label { font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; }
-        .content { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
-        .tier-section { margin-bottom: 4rem; }
-        .tier-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
-        .tier-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; padding: 0.4rem 1rem; border-radius: 4px; white-space: nowrap; }
-        .tier-1 .tier-badge { background: linear-gradient(135deg, rgba(232, 100, 44, 0.15), rgba(212, 162, 84, 0.15)); border: 1px solid rgba(232, 100, 44, 0.3); color: var(--accent-ember); }
-        .tier-2 .tier-badge { background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(212, 162, 84, 0.15)); border: 1px solid rgba(139, 92, 246, 0.3); color: var(--accent-violet); }
-        .tier-3 .tier-badge { background: linear-gradient(135deg, rgba(212, 162, 84, 0.1), rgba(154, 149, 140, 0.1)); border: 1px solid var(--border-subtle); color: var(--text-secondary); }
-        .tier-title { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: var(--accent-gold); }
-        .tier-description { color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem; }
-        .verse-grid { display: grid; gap: 1rem; }
-        .verse-card { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 1.5rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 1.5rem; text-decoration: none; transition: all 0.3s ease; color: inherit; }
-        .verse-card:hover { background: var(--bg-card-hover); border-color: var(--accent-gold); transform: translateX(4px); }
-        .verse-card.live:hover { border-color: var(--accent-ember); }
-        .verse-number { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--text-muted); width: 30px; text-align: center; }
-        .verse-card.live .verse-number { color: var(--accent-ember); }
-        .verse-info { min-width: 0; }
-        .verse-reference { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.3rem; }
-        .verse-card.live .verse-reference { color: var(--accent-gold); }
-        .verse-claim { font-size: 0.9rem; color: var(--text-secondary); }
-        .verse-status { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.3rem 0.8rem; border-radius: 3px; white-space: nowrap; }
-        .status-demolished { background: linear-gradient(135deg, rgba(232, 100, 44, 0.15), rgba(212, 162, 84, 0.15)); color: var(--accent-ember); border: 1px solid rgba(232, 100, 44, 0.3); }
-        .status-coming { background: rgba(154, 149, 140, 0.08); color: var(--text-muted); border: 1px solid var(--border-subtle); }
-        .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 3rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; text-align: center; }
-        .scripture-ref { display: block; margin-top: 1rem; font-style: normal; color: var(--text-muted); font-size: 0.9rem; }
-        footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
-        .footer-container { max-width: 1200px; width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; text-align: center; }
-        .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
+
+        /* HERO & MISSION BRIEFING */
+        .hero { max-width: 1000px; margin: 3rem auto; padding: 3rem 2rem; text-align: center; border-bottom: 2px solid var(--border-subtle); padding-bottom: 3rem; }
+        .hero-operation-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.3em; margin-bottom: 1.5rem; }
+        .hero-operation-label::before { content: '▪ '; margin-right: 0.5rem; }
+        .hero-operation-label::after { content: ' ▪'; margin-left: 0.5rem; }
+
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 3.2rem; font-weight: 800; margin-bottom: 0.5rem; line-height: 1.1; }
+        .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 750px; margin: 1.5rem auto 2.5rem; line-height: 1.8; }
+
+        /* TACTICAL DASHBOARD */
+        .mission-dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .tactical-readout { background: linear-gradient(135deg, rgba(232, 100, 44, 0.08), rgba(212, 162, 84, 0.08)); border: 1px solid var(--border-danger); border-radius: 6px; padding: 1.5rem; text-align: center; }
+        .readout-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.8rem; }
+        .readout-value { font-family: 'JetBrains Mono', monospace; font-size: 2.2rem; font-weight: 700; color: var(--accent-gold); }
+
+        /* SCRIPTURE DIRECTIVE */
+        .scripture-directive { background: linear-gradient(135deg, rgba(139, 92, 246, 0.08), rgba(232, 100, 44, 0.08)); border-left: 5px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 3rem auto; max-width: 900px; font-size: 1.05rem; line-height: 1.9; color: var(--text-primary); font-style: italic; text-align: center; }
+        .scripture-text { display: block; margin-bottom: 1rem; }
+        .scripture-ref { display: block; font-style: normal; color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem; }
+
+        /* OPERATION ZONES */
+        .content { max-width: 1000px; margin: 0 auto; padding: 0 2rem; }
+        .zone { margin-bottom: 5rem; }
+        .zone-header { display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid var(--border-subtle); }
+        .zone-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; padding: 0.5rem 1.2rem; border-radius: 4px; white-space: nowrap; flex-shrink: 0; }
+
+        /* ZONE ALPHA (Big Guns) */
+        .zone-alpha .zone-badge { background: linear-gradient(135deg, rgba(232, 100, 44, 0.2), rgba(212, 162, 84, 0.15)); border: 1px solid rgba(232, 100, 44, 0.4); color: var(--accent-ember); }
+        .zone-alpha .zone-title { color: var(--accent-ember); }
+
+        /* ZONE BRAVO (Secondary) */
+        .zone-bravo .zone-badge { background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(212, 162, 84, 0.15)); border: 1px solid rgba(139, 92, 246, 0.4); color: var(--accent-violet); }
+        .zone-bravo .zone-title { color: var(--accent-violet); }
+
+        /* ZONE CHARLIE (Remaining) */
+        .zone-charlie .zone-badge { background: linear-gradient(135deg, rgba(212, 162, 84, 0.15), rgba(154, 149, 140, 0.1)); border: 1px solid var(--border-subtle); color: var(--text-secondary); }
+        .zone-charlie .zone-title { color: var(--accent-gold); }
+
+        /* ZONE DELTA & ECHO (Articles & Objections) */
+        .zone-delta .zone-badge, .zone-echo .zone-badge { background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(212, 162, 84, 0.15)); border: 1px solid rgba(139, 92, 246, 0.4); color: var(--accent-violet); }
+        .zone-delta .zone-title, .zone-echo .zone-title { color: var(--accent-violet); }
+
+        .zone-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700; }
+        .zone-description { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0; }
+
+        /* TACTICAL BRIEFING CARDS */
+        .briefing-grid { display: grid; gap: 1.2rem; }
+        .briefing-card { display: grid; grid-template-columns: 50px 1fr auto; align-items: center; gap: 1.5rem; background: var(--bg-card); border: 2px solid var(--border-subtle); border-radius: 6px; padding: 1.5rem; text-decoration: none; transition: all 0.35s ease; color: inherit; position: relative; overflow: hidden; }
+        .briefing-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--accent-gold); transition: background 0.35s ease; }
+        .briefing-card.live { border-color: var(--border-danger); }
+        .briefing-card.live::before { background: var(--accent-ember); }
+        .briefing-card.live:hover { background: var(--bg-card-hover); border-color: var(--accent-ember); box-shadow: 0 0 20px rgba(232, 100, 44, 0.15); }
+        .briefing-card:not(.live):hover { background: var(--bg-card-hover); border-color: var(--accent-gold); box-shadow: 0 0 15px rgba(212, 162, 84, 0.1); }
+
+        .target-number { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-muted); text-align: center; font-weight: 700; }
+        .briefing-card.live .target-number { color: var(--accent-ember); }
+
+        .briefing-info { min-width: 0; }
+        .verse-ref { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.3rem; }
+        .briefing-card.live .verse-ref { color: var(--accent-gold); }
+        .arminian-claim { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5; }
+
+        .status-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.12em; padding: 0.4rem 1rem; border-radius: 3px; white-space: nowrap; font-weight: 600; }
+        .status-neutralized { background: linear-gradient(135deg, rgba(232, 100, 44, 0.2), rgba(212, 162, 84, 0.15)); color: var(--accent-ember); border: 1px solid rgba(232, 100, 44, 0.3); }
+        .status-incoming { background: rgba(154, 149, 140, 0.08); color: var(--text-muted); border: 1px solid var(--border-subtle); }
+
+        /* CROSS-REFERENCE GRID */
+        .cross-ref-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 3rem auto; max-width: 900px; }
+        .cross-ref-card { background: linear-gradient(135deg, rgba(139, 92, 246, 0.08), rgba(232, 100, 44, 0.08)); border: 1px solid rgba(139, 92, 246, 0.2); border-radius: 6px; padding: 1.5rem; text-decoration: none; color: inherit; transition: all 0.3s ease; }
+        .cross-ref-card:hover { border-color: var(--accent-violet); background: linear-gradient(135deg, rgba(139, 92, 246, 0.12), rgba(232, 100, 44, 0.08)); }
+        .cross-ref-verse { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 0.5rem; }
+        .cross-ref-title { font-size: 0.95rem; color: var(--text-primary); line-height: 1.6; }
+
+        /* CROWN JEWEL BANNER */
+        .crown-jewel-banner { background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(232, 100, 44, 0.08)); border: 2px solid var(--accent-violet); border-radius: 8px; padding: 2.5rem; margin: 4rem auto; max-width: 900px; text-align: center; }
+        .crown-jewel-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 1rem; }
+        .crown-jewel-title { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 700; color: var(--text-primary); margin-bottom: 1rem; }
+        .crown-jewel-text { font-size: 1rem; color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.8; }
+        .crown-jewel-cta { display: inline-block; padding: 0.8rem 2rem; background: var(--accent-violet); color: var(--bg-deep); text-decoration: none; border-radius: 4px; font-weight: 600; transition: all 0.3s ease; }
+        .crown-jewel-cta:hover { background: var(--accent-gold); }
+
+        /* RELATED ARTICLES */
+        .related-articles { max-width: 900px; margin: 4rem auto 0; padding-top: 3rem; border-top: 2px solid var(--border-subtle); }
+        .related-title { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--accent-gold); margin-bottom: 2rem; text-align: center; }
+        .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+        .related-link { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 1.5rem; text-decoration: none; color: inherit; transition: all 0.3s ease; }
+        .related-link:hover { border-color: var(--accent-gold); background: var(--bg-card-hover); }
+        .related-link-title { font-size: 0.95rem; color: var(--text-primary); font-weight: 600; }
+
+        /* FOOTER */
+        footer { background: var(--bg-card); border-top: 2px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
+        .footer-container { max-width: 1200px; width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2.5rem; }
+        .footer-section h4 { color: var(--accent-gold); margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.1rem; }
         .footer-section ul { list-style: none; }
+        .footer-section li { margin-bottom: 0.8rem; }
         .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
         .footer-section a:hover { color: var(--accent-gold); }
-        .footer-copyright { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
+
+        .footer-grace-warning { background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(212, 162, 84, 0.08)); border: 1px solid rgba(232, 100, 44, 0.2); border-radius: 6px; padding: 1.5rem; margin: 2rem 0; color: var(--text-secondary); font-size: 0.9rem; text-align: center; line-height: 1.7; }
+
+        .footer-copyright { text-align: center; margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
+
+        /* RESPONSIVE */
         @media (max-width: 768px) {
-            .hero { padding: 1.5rem 1.2rem; margin: 1rem auto; }
-            .hero h1 { font-size: 1.6rem; margin-bottom: 1rem; }
-            .hero-stat-row { gap: 1.2rem; margin-top: 2rem; }
-            .hero-stat-number { font-size: 1.3rem; }
-            .content { padding: 0 1.2rem; }
-            .verse-card { grid-template-columns: auto 1fr; gap: 1rem; padding: 1rem; }
-            .verse-status { grid-column: 1 / -1; justify-self: start; }
-            .tier-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
-            .tier-title { font-size: 1.2rem; margin-bottom: 0.8rem; }
-            .tier-section { margin-top: 2.5rem; padding-top: 2rem; }
-            footer { padding: 1.5rem 1rem; margin-top: 5rem; }
+            .hero { padding: 2rem 1.5rem; margin: 1.5rem auto; }
+            .hero h1 { font-size: 2rem; margin-bottom: 0.8rem; }
+            .hero-subtitle { font-size: 0.95rem; }
+
+            .mission-dashboard { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+            .tactical-readout { padding: 1.2rem; }
+            .readout-value { font-size: 1.8rem; }
+
+            .content { padding: 0 1.5rem; }
+            .zone-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; padding-bottom: 1rem; }
+            .zone-title { font-size: 1.4rem; }
+
+            .briefing-card { grid-template-columns: 40px 1fr; gap: 1rem; padding: 1.2rem; }
+            .briefing-card .status-badge { grid-column: 1 / -1; justify-self: start; margin-top: 0.5rem; }
+
+            .cross-ref-grid { grid-template-columns: 1fr; gap: 1rem; }
+            .crown-jewel-banner { padding: 1.5rem; }
+            .crown-jewel-title { font-size: 1.3rem; }
+
+            footer { padding: 2rem 1.5rem; }
+            .footer-container { grid-template-columns: 1fr; gap: 2rem; }
         }
 
         @media (max-width: 480px) {
-            .hero { padding: 1rem; margin: 0.5rem auto; }
-            .hero h1 { font-size: 1.3rem; margin-bottom: 0.8rem; }
+            .hero { padding: 1.5rem; margin: 0.5rem auto; }
+            .hero h1 { font-size: 1.5rem; }
             .hero-subtitle { font-size: 0.85rem; }
-            .hero-stat-row { gap: 1rem; margin-top: 1.2rem; flex-wrap: wrap; }
-            .hero-stat { flex-basis: 100%; }
-            .hero-stat-number { font-size: 1.1rem; }
-            .hero-stat-label { font-size: 0.7rem; }
-            .content { padding: 0 0.8rem; }
-            .verse-card { gap: 0.8rem; padding: 0.8rem; margin-bottom: 1rem; }
-            .tier-header { gap: 0.3rem; }
-            .tier-title { font-size: 1rem; }
-            .verse-title { font-size: 0.95rem; }
-            .verse-count { font-size: 0.75rem; }
-            .tier-section { margin-top: 3rem; padding-top: 1.5rem; }
-            footer { padding: 1.2rem 0.8rem; margin-top: 2rem; }
+            .mission-dashboard { grid-template-columns: 1fr; gap: 0.8rem; }
+            .tactical-readout { padding: 1rem; }
+            .readout-value { font-size: 1.5rem; }
+
+            .zone-title { font-size: 1.1rem; }
+            .briefing-card { grid-template-columns: 35px 1fr; padding: 1rem; gap: 0.8rem; }
+            .verse-ref { font-size: 0.95rem; }
+            .arminian-claim { font-size: 0.85rem; }
         }
-        a:focus-visible, button:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 3px; border-radius: 2px; }
-
-/* ========== FOCUS STYLES ========== */
-*:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-/* ========== BACK TO TOP ========== */
-/* ========== READING PROGRESS ========== */
-.reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); z-index: 9999; transition: width 0.1s linear; width: 0; }
-
     </style>
-            <link rel="stylesheet" href="/global.css">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
 <body>
-<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-
-    <a href="#main-content" class="skip-to-content">Skip to content</a>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-                <!--
-  ============================================================
-  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
-  ============================================================
-  Every page on adoptedbygrace.net MUST use this EXACT nav block.
-  Copy-paste it verbatim. Do not add, remove, rename, or reorder
-  any links. Do not add a logo.
-
-  REQUIRED in <head>:
-    <link rel="stylesheet" href="/global.css">
-
-  REQUIRED before </body>:
-    <script src="/nav.js"></script>
-
-  DO NOT add any inline CSS for nav, hamburger, .nav-links,
-  .nav-right, .nav-container, .nav-site-name, .search-overlay,
-  or .mega-menu. All styling lives in /global.css.
-
-  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
-                     button that opens mega-menu dropdown
-  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
-                     Hamburger opens full-screen overlay menu
-
-  Last updated: 2026-03-29
-  ============================================================
--->
-        <nav role="navigation" aria-label="Main navigation">
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
-            <!-- Mobile search icon (right side of nav bar) -->
             <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             </button>
             <ul class="nav-links">
-                <!-- Search bar at top of mobile menu -->
                 <li class="mobile-menu-search" style="list-style:none;">
                     <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
                 </li>
-                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
                 <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
@@ -179,10 +216,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
                 <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
                 <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
                 <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
             </ul>
-
             <div class="nav-right">
                 <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
                 <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
@@ -202,14 +237,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
                 </button>
             </div>
-
         </div>
     </nav>
-
-    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
     <div class="mega-menu" id="megaMenu"></div>
-
-    <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">
         <div class="search-overlay-inner">
             <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
@@ -217,235 +247,562 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
+
+    <section class="hero">
+        <p class="hero-operation-label">OPERATION BRIEF</p>
+        <h1>Every Verse They Throw at You — Answered</h1>
+        <p class="hero-subtitle">The Arminian proof-text arsenal, systematically neutralized. Every verse examined. Every claim answered. Every escape route sealed.</p>
+
+        <div class="mission-dashboard">
+            <div class="tactical-readout">
+                <div class="readout-label">Targets Neutralized</div>
+                <div class="readout-value">21</div>
+            </div>
+            <div class="tactical-readout">
+                <div class="readout-label">Incoming</div>
+                <div class="readout-value">9+</div>
+            </div>
+            <div class="tactical-readout">
+                <div class="readout-label">Operation Zones</div>
+                <div class="readout-value">5</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="scripture-directive">
+        <span class="scripture-text">"Casting down imaginations and every high thing that exalteth itself against the knowledge of God, and bringing into captivity every thought to the obedience of Christ." — 2 Corinthians 10:5 (KJV)</span>
     </div>
-    </div>
 
-
-
-    <main id="main-content">
-    <div class="hero">
-        <div class="hero-series-label">Verse-by-Verse Demolition Series</div>
-        <h1>Every Verse They Throw at You &mdash; Answered</h1>
-        <p class="hero-subtitle">Arminians have a handful of go-to verses they cite against the doctrines of grace. Here, we take <em>every single one</em> and demonstrate &mdash; exegetically, contextually, grammatically &mdash; that these verses <strong>actually support</strong> Reformed soteriology when properly understood.</p>
-        <div class="hero-stat-row">
-            <div class="hero-stat"><div class="hero-stat-number">17</div><div class="hero-stat-label">Demolished</div></div>
-            <div class="hero-stat"><div class="hero-stat-number">30+</div><div class="hero-stat-label">Planned</div></div>
-            <div class="hero-stat"><div class="hero-stat-number">3</div><div class="hero-stat-label">Tiers</div></div>
-        </div>
-    </div>
-    <div class="content">
-        <div class="scripture-block">"We destroy arguments and every lofty opinion raised against the knowledge of God, and take every thought captive to obey Christ."<span class="scripture-ref">&mdash; 2 Corinthians 10:5 (ESV)</span></div>
-
-        <div class="tier-section tier-1">
-            <div class="tier-header"><span class="tier-badge">Tier 1</span><span class="tier-title">The "Big Guns" &mdash; Verses Arminians Always Use</span></div>
-            <p class="tier-description">The heavy artillery. The verses cited most often, most confidently, and most incorrectly against the doctrines of grace.</p>
-            <div class="verse-grid">
-                <a href="demolition-john3-16.html" class="verse-card live"><span class="verse-number">01</span><div class="verse-info"><div class="verse-reference">John 3:16 &mdash; "For God so loved the WORLD"</div><div class="verse-claim">"World" (kosmos) doesn't mean every individual without exception</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-1tim2-4.html" class="verse-card live"><span class="verse-number">02</span><div class="verse-info"><div class="verse-reference">1 Timothy 2:4 &mdash; "God desires ALL to be saved"</div><div class="verse-claim">Decretive vs. prescriptive will; "all kinds of people"</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-2peter3-9.html" class="verse-card live"><span class="verse-number">03</span><div class="verse-info"><div class="verse-reference">2 Peter 3:9 &mdash; "Not willing that ANY should perish"</div><div class="verse-claim">The "you" is the elect; God is patient with His people</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-matt23-37.html" class="verse-card live"><span class="verse-number">04</span><div class="verse-info"><div class="verse-reference">Matthew 23:37 &mdash; "How often I would have gathered you"</div><div class="verse-claim">Jerusalem's leaders vs. their children &mdash; two different groups</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-rev3-20.html" class="verse-card live"><span class="verse-number">05</span><div class="verse-info"><div class="verse-reference">Revelation 3:20 &mdash; "Behold, I stand at the door and knock"</div><div class="verse-claim">Written to a CHURCH, not unbelievers</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-acts7-51.html" class="verse-card live"><span class="verse-number">06</span><div class="verse-info"><div class="verse-reference">Acts 7:51 &mdash; "You always resist the Holy Spirit"</div><div class="verse-claim">External call vs. internal/effectual call</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-1john2-2.html" class="verse-card live"><span class="verse-number">07</span><div class="verse-info"><div class="verse-reference">1 John 2:2 &mdash; "Propitiation for the whole world"</div><div class="verse-claim">World vs. Jews only; same author wrote John 10</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-ezekiel18-23.html" class="verse-card live"><span class="verse-number">08</span><div class="verse-info"><div class="verse-reference">Ezekiel 18:23 &mdash; "Do I take pleasure in the death of the wicked?"</div><div class="verse-claim">God's revealed will vs. His decretive will</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-john12-32.html" class="verse-card live"><span class="verse-number">09</span><div class="verse-info"><div class="verse-reference">John 12:32 &mdash; "I will draw ALL people to myself"</div><div class="verse-claim">"All" means all kinds; same draw-word as John 6:44</div></div><span class="verse-status status-demolished">Demolished</span></a>
-            </div>
-        </div>
-
-        <div class="tier-section tier-2">
-            <div class="tier-header"><span class="tier-badge">Tier 2</span><span class="tier-title">Secondary Proof Texts</span></div>
-            <p class="tier-description">Verses cited less frequently but still used to challenge Reformed theology. Each falls apart under careful exegesis.</p>
-            <div class="verse-grid">
-                <a href="demolition-hebrews6-4-6.html" class="verse-card live"><span class="verse-number">10</span><div class="verse-info"><div class="verse-reference">Hebrews 6:4-6 &mdash; "Fallen away"</div><div class="verse-claim">Tasting vs. eating; external participation vs. regeneration</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-2peter2-1.html" class="verse-card live"><span class="verse-number">11</span><div class="verse-info"><div class="verse-reference">2 Peter 2:1 &mdash; "Denying the Master who bought them"</div><div class="verse-claim">Corporate vs. individual atonement language</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-1tim4-10.html" class="verse-card live"><span class="verse-number">12</span><div class="verse-info"><div class="verse-reference">1 Timothy 4:10 &mdash; "Savior of all people, especially believers"</div><div class="verse-claim">General providence vs. saving grace</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <div class="verse-card"><span class="verse-number">13</span><div class="verse-info"><div class="verse-reference">Deuteronomy 30:19 &mdash; "Choose life"</div><div class="verse-claim">Command does not equal ability</div></div><span class="verse-status status-coming">Coming</span></div>
-                <a href="demolition-joshua24-15.html" class="verse-card live"><span class="verse-number">14</span><div class="verse-info"><div class="verse-reference">Joshua 24:15 &mdash; "Choose this day whom you will serve"</div><div class="verse-claim">Spoken to covenant people, not about initial salvation</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <div class="verse-card"><span class="verse-number">15</span><div class="verse-info"><div class="verse-reference">John 1:12 &mdash; "To all who received him"</div><div class="verse-claim">Verse 13: "born not of the will of man, but of God"</div></div><span class="verse-status status-coming">Coming</span></div>
-                <a href="demolition-romans10-9.html" class="verse-card live"><span class="verse-number">16</span><div class="verse-info"><div class="verse-reference">Romans 10:9 &mdash; "If you confess... you will be saved"</div><div class="verse-claim">Who enables confession? Philippians 2:13</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-titus2-11.html" class="verse-card live"><span class="verse-number">17</span><div class="verse-info"><div class="verse-reference">Titus 2:11 &mdash; "The grace of God has appeared to ALL"</div><div class="verse-claim">Grace appearing does not equal grace saving</div></div><span class="verse-status status-demolished">Demolished</span></a>
-            </div>
-        </div>
-
-        <div class="tier-section tier-3">
-            <div class="tier-header"><span class="tier-badge">Tier 3</span><span class="tier-title">The Rest &mdash; Every Remaining Proof Text</span></div>
-            <p class="tier-description">Every other verse cited against Reformed theology. No stone left unturned.</p>
-            <div class="verse-grid">
-                <a href="demolition-hebrews2-9.html" class="verse-card live"><span class="verse-number">18</span><div class="verse-info"><div class="verse-reference">Hebrews 2:9 &mdash; "He might taste death for everyone"</div><div class="verse-claim">"Everyone" = the many sons He brings to glory (v.10)</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <div class="verse-card"><span class="verse-number">19</span><div class="verse-info"><div class="verse-reference">John 5:40 &mdash; "You refuse to come to me"</div><div class="verse-claim">Willful refusal confirms depravity, not free will</div></div><span class="verse-status status-coming">Coming</span></div>
-                <div class="verse-card"><span class="verse-number">20</span><div class="verse-info"><div class="verse-reference">Matthew 11:28 &mdash; "Come to me, all who labor"</div><div class="verse-claim">Invitation given; ability granted only by the Father (v.27)</div></div><span class="verse-status status-coming">Coming</span></div>
-                <div class="verse-card"><span class="verse-number">21</span><div class="verse-info"><div class="verse-reference">Mark 16:16 &mdash; "Whoever believes and is baptized"</div><div class="verse-claim">Describes believers; doesn't address who enables belief</div></div><span class="verse-status status-coming">Coming</span></div>
-                <div class="verse-card"><span class="verse-number">22</span><div class="verse-info"><div class="verse-reference">Acts 16:31 &mdash; "Believe in the Lord Jesus"</div><div class="verse-claim">Same chapter: God opened Lydia's heart (v.14)</div></div><span class="verse-status status-coming">Coming</span></div>
-                <div class="verse-card"><span class="verse-number">23</span><div class="verse-info"><div class="verse-reference">Romans 1:16 &mdash; "Power of God for salvation to everyone who believes"</div><div class="verse-claim">The gospel is powerful &mdash; but who grants the believing?</div></div><span class="verse-status status-coming">Coming</span></div>
-                <a href="demolition-2cor5-14-15.html" class="verse-card live"><span class="verse-number">24</span><div class="verse-info"><div class="verse-reference">2 Corinthians 5:14-15 &mdash; "Christ died for all"</div><div class="verse-claim">Paul's logic proves definite atonement: "all died" = all FOR WHOM Christ died</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-acts17-30.html" class="verse-card live"><span class="verse-number">25</span><div class="verse-info"><div class="verse-reference">Acts 17:30 &mdash; "God commands all people everywhere to repent"</div><div class="verse-claim">Universal command reveals obligation, not capacity &mdash; within Paul's most sovereign speech</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-philippians2-12-13.html" class="verse-card live"><span class="verse-number">26</span><div class="verse-info"><div class="verse-reference">Philippians 2:12-13 &mdash; "Work out your salvation"</div><div class="verse-claim">Verse 13: "God works in you both to WILL and to work" &mdash; the most explicit compatibilist verse</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-1cor15-22.html" class="verse-card live"><span class="verse-number">27</span><div class="verse-info"><div class="verse-reference">1 Corinthians 15:22 &mdash; "In Christ all shall be made alive"</div><div class="verse-claim">Representational headship: "all" is defined by "in Adam" vs. "in Christ"</div></div><span class="verse-status status-demolished">Demolished</span></a>
-            </div>
-        </div>
-
-        <div class="tier-section tier-1" style="margin-top: 4rem; padding-top: 3rem; border-top: 2px solid var(--border-subtle);">
-            <div class="tier-header"><span class="tier-badge" style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(232, 100, 44, 0.15)); border: 1px solid rgba(139, 92, 246, 0.3); color: var(--accent-violet);">New</span><span class="tier-title">Article Demolitions &mdash; Popular Anti-Reformed Articles Answered</span></div>
-            <p class="tier-description">Beyond individual verses, entire articles and essays are written against the doctrines of grace. Here we take the most popular and influential ones and dismantle them point by point with rigorous exegesis.</p>
-            <div class="verse-grid">
-                <a href="demolition-orthodox-predestination.html" class="verse-card live"><span class="verse-number">01</span><div class="verse-info"><div class="verse-reference">When Philosophy Replaces Exegesis</div><div class="verse-claim">Dismantling "Orthodoxy and Predestination" &mdash; an Orthodox article that cites one verse, six philosophers, and zero Eastern Fathers</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-arminian-facts.html" class="verse-card live"><span class="verse-number">02</span><div class="verse-info"><div class="verse-reference">FACTS Check: Dismantling the Arminian Framework</div><div class="verse-claim">The Society of Evangelical Arminians' FACTS acronym &mdash; prevenient grace, universal atonement, conditional election &mdash; dismantled point by point with Greek exegesis</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-arianism.html" class="verse-card live"><span class="verse-number">03</span><div class="verse-info"><div class="verse-reference">Arianism and the Deity of Christ</div><div class="verse-claim">Arius and his teaching. Council of Nicaea. Athanasius contra mundum. Why Christ's full deity is essential for salvation. Modern echoes of Arianism.</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="counter-cs-lewis-free-will.html" class="verse-card live"><span class="verse-number">04</span><div class="verse-info"><div class="verse-reference">Did C.S. Lewis Refute Calvinism?</div><div class="verse-claim">How anti-Reformed writers weaponize Lewis against predestination &mdash; and why his own testimony of "reluctant conversion" is a textbook case of irresistible grace</div></div><span class="verse-status status-demolished">Demolished</span></a>
-            </div>
-        </div>
-
-        <div class="tier-section tier-1" style="margin-top: 4rem; padding-top: 3rem; border-top: 2px solid var(--border-subtle);">
-            <div class="tier-header"><span class="tier-badge" style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(232, 100, 44, 0.15)); border: 1px solid rgba(139, 92, 246, 0.3); color: var(--accent-violet);">New</span><span class="tier-title">Objections Answered &mdash; Common Theological Objections Dismantled</span></div>
-            <p class="tier-description">The most common objections to the doctrines of grace answered with Scripture, logic, and the witness of church history.</p>
-            <div class="verse-grid">
-                <a href="objection-author-of-sin.html" class="verse-card live"><span class="verse-number">01</span><div class="verse-info"><div class="verse-reference">"Does Predestination Make God the Author of Sin?"</div><div class="verse-claim">Primary vs. secondary causation, WCF 3.1, and 5 biblical examples where God ordained evil for good</div></div><span class="verse-status status-demolished">Answered</span></a>
-                <a href="objection-why-command.html" class="verse-card live"><span class="verse-number">02</span><div class="verse-info"><div class="verse-reference">"If God Predestined Everything, Why Command Anything?"</div><div class="verse-claim">God ordains both the ends AND the means &mdash; election is the engine of evangelism</div></div><span class="verse-status status-demolished">Answered</span></a>
-                <div class="verse-card"><span class="verse-number">03</span><div class="verse-info"><div class="verse-reference">"What About the Person Who Never Heard?"</div><div class="verse-claim">Romans 1, general vs. special revelation, and the justice of God</div></div><span class="verse-status status-coming">Coming</span></div>
-                <div class="verse-card"><span class="verse-number">04</span><div class="verse-info"><div class="verse-reference">"Did Jesus Die for Everyone?"</div><div class="verse-claim">Definite atonement &mdash; for whom did Christ actually secure redemption?</div></div><span class="verse-status status-coming">Coming</span></div>
-                <div class="verse-card"><span class="verse-number">05</span><div class="verse-info"><div class="verse-reference">"Doesn't Election Make Evangelism Pointless?"</div><div class="verse-claim">Election as the engine of evangelism &mdash; from Carey to the ends of the earth</div></div><span class="verse-status status-coming">Coming</span></div>
-                <a href="objection-god-could-save-all.html" class="verse-card live"><span class="verse-number">06</span><div class="verse-info"><div class="verse-reference">"If God Could Save Everyone, Why Doesn't He?"</div><div class="verse-claim">Romans 9:22-23 &mdash; mercy requires the backdrop of justice. And the Arminian doesn't escape this problem.</div></div><span class="verse-status status-demolished">Answered</span></a>
-                <a href="demolition-prevenient-grace.html" class="verse-card live"><span class="verse-number">07</span><div class="verse-info"><div class="verse-reference">The Prevenient Grace Reckoning</div><div class="verse-claim">Arminianism's central doctrine taken at its strongest and demolished from 8 angles</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="demolition-steel-man-arminianism.html" class="verse-card live"><span class="verse-number">08</span><div class="verse-info"><div class="verse-reference">Steel Man: Arminianism at Its Absolute Best</div><div class="verse-claim">Their 7 strongest arguments, presented fairly, then dismantled with surgical precision</div></div><span class="verse-status status-demolished">Demolished</span></a>
-                <a href="question-how-grace-feels.html" class="verse-card live"><span class="verse-number">09</span><div class="verse-info"><div class="verse-reference">"Why Does Grace Feel Like a Choice?"</div><div class="verse-claim">God transforms the will, doesn't violate it &mdash; compatibilism in lived experience</div></div><span class="verse-status status-demolished">Answered</span></a>
-            </div>
-        </div>
-
-        <div class="scripture-block">"The secret things belong to the LORD our God, but the things that are revealed belong to us and to our children forever, that we may do all the words of this law."<span class="scripture-ref">&mdash; Deuteronomy 29:29 (ESV)</span></div>
-
-        <!-- Cross-Reference Section -->
-        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-            <div style="max-width: 900px; margin: 0 auto;">
-                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Deepen Your Understanding</h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                    <a href="/demolition-1tim2-4.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">God Desires All Men to Be Saved</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">1 Timothy 2:4 — A foundational text in the debate on divine will and human salvation.</p>
-                    </a>
-                    <a href="/demolition-2peter3-9.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Patience of God and His Not Willing Any to Perish</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">2 Peter 3:9 — Understanding the true meaning of divine patience and preference.</p>
-                    </a>
-                    <a href="/demolition-1john2-2.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Propitiation for the Whole World</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">1 John 2:2 — Christ's universal sufficiency and particular efficacy examined.</p>
-                    </a>
-                    <a href="/demolition-john3-16.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">God So Loved the World</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">John 3:16 — Perhaps the most misquoted verse in Scripture, properly interpreted.</p>
-                    </a>
-                    <a href="/objection-author-of-sin.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Is God the Author of Sin?</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Address a primary objection and understand God's sovereignty in relation to sin.</p>
-                    </a>
-                    <a href="/objection-why-command.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">If Predestined, Why Command?</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A classic objection answered—God ordains both the ends and the means.</p>
-                    </a>
+    <section class="content">
+        <!-- ZONE ALPHA: THE BIG GUNS -->
+        <section class="zone zone-alpha">
+            <div class="zone-header">
+                <div class="zone-badge">ZONE ALPHA</div>
+                <div>
+                    <h2 class="zone-title">The Big Guns</h2>
+                    <p class="zone-description">Verses Arminians Always Use — All Answered</p>
                 </div>
             </div>
+            <div class="briefing-grid">
+                <a href="demolition-john3-16.html" class="briefing-card live">
+                    <div class="target-number">01</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">John 3:16</div>
+                        <div class="arminian-claim">"For God so loved the <span style="font-style: italic;">world</span>" — Everyone can be saved.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-1tim2-4.html" class="briefing-card live">
+                    <div class="target-number">02</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">1 Timothy 2:4</div>
+                        <div class="arminian-claim">"God desires ALL to be saved" — Conditional soteriology.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-2peter3-9.html" class="briefing-card live">
+                    <div class="target-number">03</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">2 Peter 3:9</div>
+                        <div class="arminian-claim">"Not willing that ANY should perish" — Universal redemption.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-matt23-37.html" class="briefing-card live">
+                    <div class="target-number">04</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Matthew 23:37</div>
+                        <div class="arminian-claim">"How often I would have gathered you" — Jesus's will thwarted.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-rev3-20.html" class="briefing-card live">
+                    <div class="target-number">05</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Revelation 3:20</div>
+                        <div class="arminian-claim">"Behold, I stand at the door and knock" — Saving grace is passive.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-acts7-51.html" class="briefing-card live">
+                    <div class="target-number">06</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Acts 7:51</div>
+                        <div class="arminian-claim">"You always resist the Holy Spirit" — Man has power to reject God.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-1john2-2.html" class="briefing-card live">
+                    <div class="target-number">07</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">1 John 2:2</div>
+                        <div class="arminian-claim">"Propitiation for the whole world" — Christ died for everyone.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-ezekiel18-23.html" class="briefing-card live">
+                    <div class="target-number">08</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Ezekiel 18:23</div>
+                        <div class="arminian-claim">"Do I take pleasure in death of the wicked?" — God's desire is universal salvation.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-john12-32.html" class="briefing-card live">
+                    <div class="target-number">09</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">John 12:32</div>
+                        <div class="arminian-claim">"I will draw ALL people to myself" — Universal drawing power.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+            </div>
         </section>
-    </div>
-    </main>
-            
 
+        <!-- ZONE BRAVO: SECONDARY PROOF TEXTS -->
+        <section class="zone zone-bravo">
+            <div class="zone-header">
+                <div class="zone-badge">ZONE BRAVO</div>
+                <div>
+                    <h2 class="zone-title">Secondary Proof Texts</h2>
+                    <p class="zone-description">Supporting Claims — All Addressed</p>
+                </div>
+            </div>
+            <div class="briefing-grid">
+                <a href="demolition-hebrews6-4-6.html" class="briefing-card live">
+                    <div class="target-number">10</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Hebrews 6:4-6</div>
+                        <div class="arminian-claim">"Fallen away" — Believers can lose salvation.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
 
-<!-- Crown Jewel Banner -->
-<div style="max-width: 800px; margin: 3rem auto; padding: 2.5rem; background: linear-gradient(135deg, rgba(232, 100, 44, 0.08) 0%, rgba(139, 92, 246, 0.05) 100%); border: 2px solid rgba(232, 100, 44, 0.25); border-radius: 12px; text-align: center;">
-    <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4em; color: #e8642c; margin-bottom: 1rem;">URGENT — ETERNAL CONSEQUENCES</p>
-    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.6rem; color: #f0ece4; margin-bottom: 1rem; line-height: 1.3;">Are You Sure You're Saved?</h3>
-    <p style="color: #9a958c; font-size: 1rem; line-height: 1.7; max-width: 600px; margin: 0 auto 1.5rem;">The lie that damned millions hides in plain sight. It whispers: "You chose God." But if you chose your salvation, you earned it. And what you earn is not grace—it's works. Scripture demolishes this deception in verse after verse. Yet still, the lie persists, condemning souls who think they're saved when they're still enslaved.</p>
-    <a href="/psychology-cost-of-rejecting-grace" style="display: inline-block; padding: 0.9rem 2rem; background: linear-gradient(135deg, #e8642c, #c0541e); color: #fff; font-weight: 700; font-size: 0.95rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(232, 100, 44, 0.25);">Read This Now →</a>
-</div>
+                <a href="demolition-2peter2-1.html" class="briefing-card live">
+                    <div class="target-number">11</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">2 Peter 2:1</div>
+                        <div class="arminian-claim">"Denying the Master who bought them" — Universal atonement language.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
 
-<!-- RELATED-ARTICLES-START -->
-<section class="related-articles" aria-label="Related articles">
-  <div class="related-articles-inner">
-    <h2 class="related-articles-heading">Keep Exploring</h2>
-    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
-    <div class="related-articles-grid">
-      <a href="/compare-calvinism-arminianism" class="related-article-card">
-        <span class="related-article-cat">⚖ Comparisons</span>
-        <span class="related-article-title">Calvinism vs Arminianism: A Biblical Comparison</span>
-        <span class="related-article-desc">A comprehensive, point-by-point biblical comparison of Calvinism and Arminianism across all five poi...</span>
-      </a>
-      <a href="/question-freewill" class="related-article-card">
-        <span class="related-article-cat">📖 Questions</span>
-        <span class="related-article-title">Free Will: The Doctrine the Bible Never Actually Teaches – Ephesians 2:1-5, Romans 8:7-8</span>
-        <span class="related-article-desc">You</span>
-      </a>
-      <a href="/systematic-regeneration" class="related-article-card">
-        <span class="related-article-cat">🏛 Theology</span>
-        <span class="related-article-title">Regeneration — Born Again by the Power of God</span>
-        <span class="related-article-desc">Systematic Theology: Regeneration (The New Birth). Scripture teaches that God causes us to be born a...</span>
-      </a>
-      <a href="/analogy-lazarus-grave" class="related-article-card">
-        <span class="related-article-cat">💡 Analogies</span>
-        <span class="related-article-title">Did Lazarus Choose to Rise? God&#039;s Sovereign Calling Explained</span>
-        <span class="related-article-desc">Does God force salvation or respect free will? John 11 shows how effectual calling works through Laz...</span>
-      </a>
-      <a href="/objection-why-believe" class="related-article-card">
-        <span class="related-article-cat">🛡 Objections Answered</span>
-        <span class="related-article-title">If God Already Chose Us, Why Do We Have to Believe?</span>
-        <span class="related-article-desc">A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. ...</span>
-      </a>
-      <a href="/history-apostolic" class="related-article-card">
-        <span class="related-article-cat">⏳ History</span>
-        <span class="related-article-title">The Apostolic Fathers and Early Church (100-300 AD)</span>
-        <span class="related-article-desc">The Apostolic Fathers (100-300 AD) on grace, election, and God</span>
-      </a>
-    </div>
-    <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
-</section>
-<!-- RELATED-ARTICLES-END -->
+                <a href="demolition-1tim4-10.html" class="briefing-card live">
+                    <div class="target-number">12</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">1 Timothy 4:10</div>
+                        <div class="arminian-claim">"Savior of all people, especially believers" — Saving grace is universal.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
 
-<footer>
+                <div class="briefing-card">
+                    <div class="target-number">13</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Deuteronomy 30:19</div>
+                        <div class="arminian-claim">"Choose life" — Man has the power to choose salvation.</div>
+                    </div>
+                    <div class="status-badge status-incoming">COMING</div>
+                </div>
+
+                <a href="demolition-joshua24-15.html" class="briefing-card live">
+                    <div class="target-number">14</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Joshua 24:15</div>
+                        <div class="arminian-claim">"Choose this day" — Free will is prerequisite to faith.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <div class="briefing-card">
+                    <div class="target-number">15</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">John 1:12</div>
+                        <div class="arminian-claim">"All who received him" — Reception of Christ is man's act, not God's grace.</div>
+                    </div>
+                    <div class="status-badge status-incoming">COMING</div>
+                </div>
+
+                <a href="demolition-romans10-9.html" class="briefing-card live">
+                    <div class="target-number">16</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Romans 10:9</div>
+                        <div class="arminian-claim">"If you confess, you will be saved" — Confession is man's saving work.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-titus2-11.html" class="briefing-card live">
+                    <div class="target-number">17</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Titus 2:11</div>
+                        <div class="arminian-claim">"Grace appeared to ALL" — Saving grace is offered to everyone.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ZONE CHARLIE: THE REST -->
+        <section class="zone zone-charlie">
+            <div class="zone-header">
+                <div class="zone-badge">ZONE CHARLIE</div>
+                <div>
+                    <h2 class="zone-title">Remaining Proof Texts</h2>
+                    <p class="zone-description">Every Other Arminian Text — Being Addressed</p>
+                </div>
+            </div>
+            <div class="briefing-grid">
+                <a href="demolition-hebrews2-9.html" class="briefing-card live">
+                    <div class="target-number">18</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Hebrews 2:9</div>
+                        <div class="arminian-claim">"He might taste death for everyone" — Christ's atonement is unlimited.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <div class="briefing-card">
+                    <div class="target-number">19</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">John 5:40</div>
+                        <div class="arminian-claim">"You refuse to come to me" — Refusal proves human choice.</div>
+                    </div>
+                    <div class="status-badge status-incoming">COMING</div>
+                </div>
+
+                <div class="briefing-card">
+                    <div class="target-number">20</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Matthew 11:28</div>
+                        <div class="arminian-claim">"Come to me, all who labor" — The invitation is given to all.</div>
+                    </div>
+                    <div class="status-badge status-incoming">COMING</div>
+                </div>
+
+                <div class="briefing-card">
+                    <div class="target-number">21</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Mark 16:16</div>
+                        <div class="arminian-claim">"Whoever believes and is baptized" — Belief is the believer's choice.</div>
+                    </div>
+                    <div class="status-badge status-incoming">COMING</div>
+                </div>
+
+                <div class="briefing-card">
+                    <div class="target-number">22</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Acts 16:31</div>
+                        <div class="arminian-claim">"Believe in the Lord Jesus" — Belief is the sinner's initiative.</div>
+                    </div>
+                    <div class="status-badge status-incoming">COMING</div>
+                </div>
+
+                <div class="briefing-card">
+                    <div class="target-number">23</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Romans 1:16</div>
+                        <div class="arminian-claim">"Power to all who believe" — Belief is the condition man meets.</div>
+                    </div>
+                    <div class="status-badge status-incoming">COMING</div>
+                </div>
+
+                <a href="demolition-2cor5-14-15.html" class="briefing-card live">
+                    <div class="target-number">24</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">2 Corinthians 5:14-15</div>
+                        <div class="arminian-claim">"Christ died for all" — Unlimited atonement proved here.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-acts17-30.html" class="briefing-card live">
+                    <div class="target-number">25</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Acts 17:30</div>
+                        <div class="arminian-claim">"Commands all people everywhere to repent" — Repentance is man's power.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-philippians2-12-13.html" class="briefing-card live">
+                    <div class="target-number">26</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Philippians 2:12-13</div>
+                        <div class="arminian-claim">"Work out your salvation" — Salvation depends on human effort.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-1cor15-22.html" class="briefing-card live">
+                    <div class="target-number">27</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">1 Corinthians 15:22</div>
+                        <div class="arminian-claim">"In Christ all shall be made alive" — Universal resurrection language.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ZONE DELTA: ARTICLE DEMOLITIONS -->
+        <section class="zone zone-delta">
+            <div class="zone-header">
+                <div class="zone-badge">ZONE DELTA</div>
+                <div>
+                    <h2 class="zone-title">Popular Anti-Reformed Arguments</h2>
+                    <p class="zone-description">When They Attack Our Doctrine — Dismantled</p>
+                </div>
+            </div>
+            <div class="briefing-grid">
+                <a href="demolition-orthodox-predestination.html" class="briefing-card live">
+                    <div class="target-number">D1</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">When Philosophy Replaces Exegesis</div>
+                        <div class="arminian-claim">Dismantling "Orthodoxy and Predestination" — one verse, six philosophers, zero Eastern Fathers.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-arminian-facts.html" class="briefing-card live">
+                    <div class="target-number">D2</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">FACTS Check: The Arminian Framework Dismantled</div>
+                        <div class="arminian-claim">Society of Evangelical Arminians' FACTS acronym — prevenient grace, conditional election — answered point by point with Greek exegesis.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-arianism.html" class="briefing-card live">
+                    <div class="target-number">D3</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Arianism and the Deity of Christ</div>
+                        <div class="arminian-claim">Why full deity is essential for salvation. Modern echoes in soteriology.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="counter-cs-lewis-free-will.html" class="briefing-card live">
+                    <div class="target-number">D4</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Did C.S. Lewis Refute Calvinism?</div>
+                        <div class="arminian-claim">Anti-Reformed writers weaponize Lewis. His "reluctant conversion" proves irresistible grace.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ZONE ECHO: OBJECTIONS ANSWERED -->
+        <section class="zone zone-echo">
+            <div class="zone-header">
+                <div class="zone-badge">ZONE ECHO</div>
+                <div>
+                    <h2 class="zone-title">Objections Answered</h2>
+                    <p class="zone-description">The Hard Questions — All Met</p>
+                </div>
+            </div>
+            <div class="briefing-grid">
+                <a href="objection-author-of-sin.html" class="briefing-card live">
+                    <div class="target-number">E1</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Does Predestination Make God the Author of Sin?</div>
+                        <div class="arminian-claim">Primary vs. secondary causation. WCF 3.1 explained. Five biblical examples.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">ANSWERED</div>
+                </a>
+
+                <a href="objection-why-command.html" class="briefing-card live">
+                    <div class="target-number">E2</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">If Everything Is Predestined, Why Command Anything?</div>
+                        <div class="arminian-claim">God ordains BOTH the ends AND the means of salvation.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">ANSWERED</div>
+                </a>
+
+                <div class="briefing-card">
+                    <div class="target-number">E3</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">What About the Person Who Never Heard?</div>
+                        <div class="arminian-claim">Romans 1. General vs. special revelation.</div>
+                    </div>
+                    <div class="status-badge status-incoming">COMING</div>
+                </div>
+
+                <div class="briefing-card">
+                    <div class="target-number">E4</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Did Jesus Die for Everyone?</div>
+                        <div class="arminian-claim">Definite atonement — for whom did Christ ACTUALLY secure redemption?</div>
+                    </div>
+                    <div class="status-badge status-incoming">COMING</div>
+                </div>
+
+                <div class="briefing-card">
+                    <div class="target-number">E5</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Doesn't Election Make Evangelism Pointless?</div>
+                        <div class="arminian-claim">Election as the ENGINE of evangelism, not its replacement.</div>
+                    </div>
+                    <div class="status-badge status-incoming">COMING</div>
+                </div>
+
+                <a href="objection-god-could-save-all.html" class="briefing-card live">
+                    <div class="target-number">E6</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">If God Could Save Everyone, Why Doesn't He?</div>
+                        <div class="arminian-claim">Romans 9:22-23 — mercy requires the backdrop of justice.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">ANSWERED</div>
+                </a>
+
+                <a href="demolition-prevenient-grace.html" class="briefing-card live">
+                    <div class="target-number">E7</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">The Prevenient Grace Doctrine</div>
+                        <div class="arminian-claim">Arminianism's central doctrine — taken at its strongest, then demolished from 8 angles.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="demolition-steel-man-arminianism.html" class="briefing-card live">
+                    <div class="target-number">E8</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Steel Man: Arminianism at Its Absolute Best</div>
+                        <div class="arminian-claim">Their 7 strongest arguments, presented fairly, then dismantled with precision.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">NEUTRALIZED</div>
+                </a>
+
+                <a href="question-how-grace-feels.html" class="briefing-card live">
+                    <div class="target-number">E9</div>
+                    <div class="briefing-info">
+                        <div class="verse-ref">Why Does Grace Feel Like a Choice?</div>
+                        <div class="arminian-claim">God transforms the will, doesn't violate it — compatibilism in lived experience.</div>
+                    </div>
+                    <div class="status-badge status-neutralized">ANSWERED</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- SCRIPTURE DIRECTIVE: DEUTERONOMY 29:29 -->
+        <div class="scripture-directive">
+            <span class="scripture-text">"The secret things belong to the Lord our God, but the things revealed belong to us and to our children forever, that we may follow all the words of this law." — Deuteronomy 29:29</span>
+        </div>
+
+        <!-- CROWN JEWEL BANNER -->
+        <div class="crown-jewel-banner">
+            <p class="crown-jewel-label">THE MOST IMPORTANT TRUTH ON THIS SITE</p>
+            <h3 class="crown-jewel-title">Faith Itself Is a Gift of God</h3>
+            <p class="crown-jewel-text">When someone claims credit for their own faith — when they insist THEY chose God — they are claiming credit for the one thing Scripture says they cannot take credit for. This is works-righteousness dressed in the clothes of grace. And the elect will eventually see it, because the Holy Spirit will not let them rest in this lie about their own righteousness.</p>
+            <a href="/psychology-cost-of-rejecting-grace.html" class="crown-jewel-cta">Understand the Cost of Rejecting Grace</a>
+        </div>
+
+        <!-- CROSS-REFERENCE GRID -->
+        <div style="max-width: 900px; margin: 3rem auto;">
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--accent-gold); margin-bottom: 2rem; text-align: center;">Quick Reference Grid</h3>
+            <div class="cross-ref-grid">
+                <a href="/demolition-john3-16.html" class="cross-ref-card">
+                    <div class="cross-ref-verse">John 3:16</div>
+                    <div class="cross-ref-title">God So Loved the World</div>
+                </a>
+                <a href="/demolition-1tim2-4.html" class="cross-ref-card">
+                    <div class="cross-ref-verse">1 Timothy 2:4</div>
+                    <div class="cross-ref-title">God Desires All Men to Be Saved</div>
+                </a>
+                <a href="/demolition-2peter3-9.html" class="cross-ref-card">
+                    <div class="cross-ref-verse">2 Peter 3:9</div>
+                    <div class="cross-ref-title">The Patience of God</div>
+                </a>
+                <a href="/demolition-1john2-2.html" class="cross-ref-card">
+                    <div class="cross-ref-verse">1 John 2:2</div>
+                    <div class="cross-ref-title">Propitiation for the Whole World</div>
+                </a>
+                <a href="/objection-author-of-sin.html" class="cross-ref-card">
+                    <div class="cross-ref-verse">Hard Question</div>
+                    <div class="cross-ref-title">Is God the Author of Sin?</div>
+                </a>
+                <a href="/objection-why-command.html" class="cross-ref-card">
+                    <div class="cross-ref-verse">Hard Question</div>
+                    <div class="cross-ref-title">If Predestined, Why Command?</div>
+                </a>
+            </div>
+        </div>
+
+        <!-- RELATED ARTICLES -->
+        <div class="related-articles">
+            <h3 class="related-title">Related Explorations</h3>
+            <div class="related-grid">
+                <a href="/compare-calvinism-arminianism.html" class="related-link">
+                    <div class="related-link-title">Calvinism vs. Arminianism</div>
+                </a>
+                <a href="/question-freewill.html" class="related-link">
+                    <div class="related-link-title">Do We Have Free Will?</div>
+                </a>
+                <a href="/systematic-regeneration.html" class="related-link">
+                    <div class="related-link-title">Regeneration & New Birth</div>
+                </a>
+                <a href="/analogy-lazarus-grave.html" class="related-link">
+                    <div class="related-link-title">Lazarus at the Grave</div>
+                </a>
+                <a href="/objection-why-believe.html" class="related-link">
+                    <div class="related-link-title">Why Believe in Predestination?</div>
+                </a>
+                <a href="/history-apostolic.html" class="related-link">
+                    <div class="related-link-title">What the Apostles Believed</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
         <div class="footer-container">
             <div class="footer-section">
                 <h4>Truth</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/questions">Questions</a></li>
                     <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Explore</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
-                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/psychology-hub">Why We Resist</a></li>
+                    <li><a href="/history-timeline">Through the Ages</a></li>
+                    <li><a href="/devotionals">Rest in Grace</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Connect</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="https://substack.com/@foreknownone" target="_blank">Substack</a></li>
+                    <li><a href="https://x.com/foreknownone" target="_blank">X / Twitter</a></li>
                 </ul>
             </div>
         </div>
+
         <div class="footer-grace-warning">
             "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
             Grace is not a license to sin. It is the power that frees us from sin's dominion.
         </div>
+
         <div class="footer-copyright">
-            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+            2026 Adopted by Grace — Soli Deo Gloria
         </div>
     </footer>
-    <script>document.querySelectorAll('.nav-links a').forEach(function(link) { if (link.getAttribute('href') === 'questions.html') link.classList.add('active'); });</script>
-
-
-<script>
-(function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
-</script>
-    <script src="/global.js" defer></script>
 
     <script src="/nav.js"></script>
 </body>

@@ -16,7 +16,7 @@
     <meta name="twitter:description" content="The cloud of witnesses: Augustine, Luther, Calvin, Owen, Edwards, Spurgeon and more — the great Reformed theologians who defended the doctrines of grace across two millennia.">
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <title>The Cloud of Witnesses — Great Theologians of Reformed Grace</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     <script type="application/ld+json">
@@ -51,156 +51,132 @@
             --text-muted: #807b75;
             --border-subtle: rgba(212, 162, 84, 0.12);
         }
-        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.7; overflow-x: hidden; -webkit-text-size-adjust: 100%; }
 
-        /* Hero */
-        .hero { max-width: 900px; margin: 3rem auto; padding: 3rem 2rem; text-align: center; }
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            overflow-x: hidden;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        .hero { max-width: 1000px; margin: 3rem auto; padding: 3rem 2rem; text-align: center; }
         .back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; transition: opacity 0.3s ease; }
         .back-link:hover { opacity: 0.7; }
         .topic-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 1rem; }
         .hero h1 { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 800; margin-bottom: 1.5rem; line-height: 1.2; }
         .hero-subtitle { font-size: 1.15rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto 2rem; line-height: 1.8; }
 
-        /* Scripture Block */
+        .stats-dashboard { display: flex; justify-content: center; gap: 2rem; margin: 2rem 0; padding: 1.5rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; flex-wrap: wrap; }
+        .stat-item { text-align: center; }
+        .stat-number { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); font-weight: 700; }
+        .stat-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 0.3rem; }
+
         .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2rem auto; max-width: 800px; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
         .scripture-ref { display: block; margin-top: 1rem; font-style: normal; color: var(--text-muted); font-size: 0.9rem; }
 
-        /* Timeline */
-        .timeline-section { max-width: 1000px; margin: 4rem auto; padding: 0 2rem; }
-        .timeline-section h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--accent-gold); text-align: center; margin-bottom: 1rem; }
-        .timeline-subtitle { text-align: center; color: var(--text-secondary); margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .gallery-wing { max-width: 1100px; margin: 4rem auto; padding: 0 2rem; }
+        .wing-header { position: relative; margin-bottom: 2.5rem; text-align: center; }
+        .wing-century { font-family: 'Playfair Display', serif; font-size: 3.5rem; font-weight: 800; color: rgba(212, 162, 84, 0.12); position: absolute; top: -1.5rem; left: 50%; transform: translateX(-50%); z-index: 0; pointer-events: none; }
+        .wing-title { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--accent-gold); text-align: center; margin-bottom: 0.5rem; position: relative; z-index: 1; }
+        .wing-subtitle { text-align: center; color: var(--text-secondary); font-size: 0.95rem; max-width: 600px; margin: 0 auto; }
 
-        .timeline { position: relative; padding: 2rem 0; }
-        .timeline::before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: linear-gradient(to bottom, var(--accent-gold), var(--accent-violet), var(--accent-ember)); opacity: 0.3; transform: translateX(-50%); }
+        .portrait-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; margin: 2rem 0; }
 
-        .era { margin-bottom: 4rem; }
-        .era-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.15em; text-align: center; margin-bottom: 2rem; padding: 0.5rem 1.5rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 20px; display: inline-block; position: relative; left: 50%; transform: translateX(-50%); }
+        .portrait-frame { background: var(--bg-card); border: 2px solid var(--border-subtle); border-radius: 6px; padding: 2rem; transition: all 0.3s ease; text-decoration: none; color: inherit; position: relative; overflow: hidden; display: flex; flex-direction: column; }
+        .portrait-frame::before, .portrait-frame::after { content: ''; position: absolute; width: 20px; height: 20px; border: 2px solid var(--accent-gold); opacity: 0.4; transition: opacity 0.3s ease; }
+        .portrait-frame::before { top: 8px; left: 8px; border-right: none; border-bottom: none; }
+        .portrait-frame::after { bottom: 8px; right: 8px; border-left: none; border-top: none; }
+        .portrait-frame:hover::before, .portrait-frame:hover::after { opacity: 0.8; }
+        .portrait-frame.has-page { cursor: pointer; }
+        .portrait-frame.has-page:hover { background: var(--bg-card-hover); border-color: rgba(212, 162, 84, 0.25); transform: translateY(-4px); box-shadow: 0 8px 24px rgba(212, 162, 84, 0.1); }
+        .portrait-frame.coming-soon { opacity: 0.75; }
+        .portrait-frame.coming-soon:hover { opacity: 0.85; transform: none; box-shadow: none; }
 
-        /* Theologian Cards */
-        .theologian-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
-
-        .theologian-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 2rem; transition: all 0.3s ease; text-decoration: none; color: inherit; position: relative; overflow: hidden; display: block; }
-        .theologian-card::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); opacity: 0; transition: opacity 0.3s ease; }
-        .theologian-card:hover { background: var(--bg-card-hover); border-color: rgba(212, 162, 84, 0.25); transform: translateY(-3px); }
-        .theologian-card:hover::after { opacity: 1; }
-        .theologian-card.has-page:hover { box-shadow: 0 8px 30px rgba(212, 162, 84, 0.08); }
-
-        .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; }
-        .card-dates { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.05em; }
-        .card-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.2rem 0.6rem; border-radius: 3px; }
+        .plaque-name { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.2rem; }
+        .plaque-title { font-size: 0.75rem; color: var(--accent-ember); font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem; }
+        .plaque-dates { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent-gold); letter-spacing: 0.05em; margin-bottom: 1rem; }
+        .portrait-content { flex: 1; }
+        .portrait-desc { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.2rem; }
+        .portrait-quote { font-style: italic; font-size: 0.85rem; color: var(--text-secondary); border-left: 3px solid var(--accent-gold); padding-left: 1rem; margin: 1rem 0; line-height: 1.6; }
+        .portrait-badge { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.3rem 0.7rem; border-radius: 3px; margin-top: 1rem; }
         .badge-live { background: rgba(212, 162, 84, 0.15); color: var(--accent-gold); }
         .badge-coming { background: rgba(139, 92, 246, 0.15); color: var(--accent-violet); }
 
-        .card-name { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; margin-bottom: 0.3rem; color: var(--text-primary); }
-        .card-title { font-size: 0.85rem; color: var(--accent-ember); font-weight: 600; margin-bottom: 1rem; font-style: italic; }
-        .card-desc { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.2rem; }
-        .card-contribution { font-size: 0.8rem; color: var(--text-muted); line-height: 1.6; }
-        .card-contribution strong { color: var(--text-secondary); }
-
-        .card-quote { font-style: italic; font-size: 0.85rem; color: var(--text-secondary); border-left: 2px solid var(--accent-gold); padding-left: 1rem; margin-top: 1rem; line-height: 1.6; }
-
-        .card-link-indicator { display: flex; align-items: center; gap: 0.5rem; margin-top: 1.2rem; font-size: 0.8rem; color: var(--accent-gold); font-weight: 600; }
-
-        /* Progression Section */
-        .progression { max-width: 900px; margin: 5rem auto; padding: 0 2rem; }
-        .progression h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--accent-gold); margin-bottom: 1.5rem; }
-        .progression p { color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.5rem; }
-
+        .progression { max-width: 1000px; margin: 5rem auto; padding: 0 2rem; }
+        .progression h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--accent-gold); margin-bottom: 1.5rem; text-align: center; }
+        .progression p { color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.5rem; max-width: 900px; margin-left: auto; margin-right: auto; }
         .flow-diagram { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; justify-content: center; margin: 3rem 0; padding: 2rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; }
-        .flow-node { background: linear-gradient(135deg, rgba(212, 162, 84, 0.1), rgba(139, 92, 246, 0.05)); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 0.6rem 1.2rem; font-size: 0.85rem; color: var(--text-primary); font-weight: 600; text-align: center; }
-        .flow-arrow { color: var(--accent-gold); font-size: 1.2rem; }
+        .flow-node { background: linear-gradient(135deg, rgba(212, 162, 84, 0.1), rgba(139, 92, 246, 0.05)); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 0.7rem 1.2rem; font-size: 0.85rem; color: var(--text-primary); font-weight: 600; text-align: center; min-width: 100px; }
+        .flow-arrow { color: var(--accent-gold); font-size: 1.2rem; margin: 0 0.3rem; }
 
-        /* Key Doctrines Section */
-        .doctrines { max-width: 900px; margin: 5rem auto; padding: 0 2rem; }
-        .doctrines h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--accent-gold); margin-bottom: 1.5rem; }
+        .doctrines { max-width: 1000px; margin: 5rem auto; padding: 0 2rem; }
+        .doctrines h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--accent-gold); margin-bottom: 1.5rem; text-align: center; }
         .doctrine-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
-        .doctrine-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 1.5rem; }
-        .doctrine-name { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; }
+        .doctrine-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 1.5rem; transition: all 0.3s ease; }
+        .doctrine-card:hover { border-color: rgba(212, 162, 84, 0.25); background: var(--bg-card-hover); }
+        .doctrine-name { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.8rem; font-weight: 700; }
         .doctrine-thread { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; }
-        .doctrine-thread strong { color: var(--accent-gold); }
+        .doctrine-thread strong { color: var(--text-primary); font-weight: 600; }
 
-        /* Further Reading */
-        .further-reading { max-width: 900px; margin: 5rem auto; padding: 0 2rem 5rem; }
-        .further-reading h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--accent-gold); margin-bottom: 1.5rem; }
-        .reading-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; }
-        .reading-link { display: block; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 1.2rem; text-decoration: none; transition: all 0.3s ease; }
-        .reading-link:hover { background: var(--bg-card-hover); border-color: rgba(212, 162, 84, 0.25); }
-        .reading-link-title { color: var(--accent-gold); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.3rem; }
-        .reading-link-desc { color: var(--text-secondary); font-size: 0.8rem; }
+        .further-reading { max-width: 1000px; margin: 5rem auto; padding: 0 2rem 5rem; }
+        .further-reading h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--accent-gold); margin-bottom: 1.5rem; text-align: center; }
+        .reading-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; }
+        .reading-link { display: block; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 1.3rem; text-decoration: none; transition: all 0.3s ease; }
+        .reading-link:hover { background: var(--bg-card-hover); border-color: rgba(212, 162, 84, 0.25); transform: translateY(-2px); }
+        .reading-link-title { color: var(--accent-gold); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.4rem; }
+        .reading-link-desc { color: var(--text-secondary); font-size: 0.85rem; line-height: 1.5; }
 
-        /* Footer */
-        footer { text-align: center; padding: 4rem 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
+        footer { text-align: center; padding: 4rem 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; margin-top: 5rem; }
         footer a { color: var(--accent-gold); text-decoration: none; }
         footer a:hover { text-decoration: underline; }
 
-        /* Mobile */
+        .footer-grace-warning { background: linear-gradient(135deg, rgba(232, 100, 44, 0.05), rgba(139, 92, 246, 0.05)); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 1.2rem 1.5rem; margin-bottom: 2rem; font-size: 0.85rem; line-height: 1.6; color: var(--text-secondary); }
+        .footer-container { max-width: 1000px; margin: 0 auto; }
+        .footer-copyright { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-subtle); }
+
         @media (max-width: 768px) {
             .hero h1 { font-size: 2.2rem; }
-            .theologian-grid { grid-template-columns: 1fr; }
-            .timeline::before { left: 20px; }
-            .era-label { left: 0; transform: none; }
+            .wing-century { font-size: 2.5rem; top: 0; }
+            .wing-title { font-size: 1.6rem; }
+            .portrait-gallery { grid-template-columns: 1fr; }
             .flow-diagram { flex-direction: column; }
-            .flow-arrow { transform: rotate(90deg); }
+            .flow-arrow { transform: rotate(90deg); margin: 0.5rem 0; }
+            .stats-dashboard { flex-direction: column; gap: 1rem; }
         }
+
         @media (max-width: 480px) {
             .hero h1 { font-size: 1.8rem; }
             .hero { padding: 2rem 1rem; }
+            .plaque-name { font-size: 1.2rem; }
+            .portrait-frame { padding: 1.5rem; }
         }
 
-/* ========== FOCUS STYLES ========== */
-*:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+        *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+        a:focus-visible { outline-offset: 3px; }
+        button:focus-visible { outline-offset: 2px; }
 
-/* ========== BACK TO TOP ========== */
-</style>
-            <link rel="stylesheet" href="/global.css">
+    </style>
+    <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
-                <!--
-  ============================================================
-  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
-  ============================================================
-  Every page on adoptedbygrace.net MUST use this EXACT nav block.
-  Copy-paste it verbatim. Do not add, remove, rename, or reorder
-  any links. Do not add a logo.
 
-  REQUIRED in <head>:
-    <link rel="stylesheet" href="/global.css">
-
-  REQUIRED before </body>:
-    <script src="/nav.js"></script>
-
-  DO NOT add any inline CSS for nav, hamburger, .nav-links,
-  .nav-right, .nav-container, .nav-site-name, .search-overlay,
-  or .mega-menu. All styling lives in /global.css.
-
-  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
-                     button that opens mega-menu dropdown
-  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
-                     Hamburger opens full-screen overlay menu
-
-  Last updated: 2026-03-29
-  ============================================================
--->
-        <nav role="navigation" aria-label="Main navigation">
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
-            <!-- Mobile search icon (right side of nav bar) -->
             <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             </button>
             <ul class="nav-links">
-                <!-- Search bar at top of mobile menu -->
                 <li class="mobile-menu-search" style="list-style:none;">
                     <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
                 </li>
-                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
                 <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
@@ -211,7 +187,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
                 <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
                 <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
                 <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
             </ul>
 
@@ -234,14 +209,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
                 </button>
             </div>
-
         </div>
     </nav>
 
-    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
     <div class="mega-menu" id="megaMenu"></div>
-
-    <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">
         <div class="search-overlay-inner">
             <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
@@ -249,554 +220,398 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-    </div>
-    </div>
 
+    <main id="main-content">
 
+        <div class="hero">
+            <a href="index.html" class="back-link">&larr; Back to Home</a>
+            <div class="topic-label">Theology & History</div>
+            <h1>The Cloud of Witnesses</h1>
+            <p class="hero-subtitle">Great theologians of Reformed grace across two millennia — from Augustine's defense against Pelagius to Spurgeon's proclamation from the Metropolitan Tabernacle. These are the voices that shaped the doctrines of grace. Their legacy endures.</p>
 
-
-    <div class="hero">
-        <a href="index.html" class="back-link">&larr; Back to Home</a>
-        <div class="topic-label">Historical Theology</div>
-        <h1>The Cloud of Witnesses</h1>
-        <p class="hero-subtitle">
-            Reformed theology is not an innovation. For two thousand years, the greatest minds in Christendom have
-            championed the doctrines of sovereign grace — tracing an unbroken line from the apostle Paul through
-            Augustine, the Reformers, the Puritans, and down to the present day. These are the men who spent their
-            lives in the text of Scripture. We stand on their shoulders.
-        </p>
-    </div>
-
-    <div class="scripture-block">
-        "Therefore, since we are surrounded by so great a cloud of witnesses, let us also lay aside every weight,
-        and sin which clings so closely, and let us run with endurance the race that is set before us, looking to
-        Jesus, the founder and perfecter of our faith."
-        <span class="scripture-ref">— Hebrews 12:1–2 (ESV)</span>
-    </div>
-
-    <!-- ========== ERA: PATRISTIC ========== -->
-    <div class="timeline-section">
-        <h2>The Theological Heritage of Grace</h2>
-        <p class="timeline-subtitle">From the early church to the modern age, God has raised up defenders of His sovereign grace in every generation.</p>
-
-        <div class="timeline">
-
-            <!-- PATRISTIC ERA -->
-            <div class="era">
-                <div class="era-label">Patristic Era · 4th–5th Century</div>
-                <div class="theologian-grid">
-                    <a href="theologian-augustine.html" class="theologian-card has-page">
-                        <div class="card-header">
-                            <div class="card-dates">354–430 AD</div>
-                            <div class="card-badge badge-live">Read Now</div>
-                        </div>
-                        <div class="card-name">Augustine of Hippo</div>
-                        <div class="card-title">The Doctor of Grace</div>
-                        <div class="card-desc">
-                            The man who defeated Pelagianism and established the doctrine of sovereign grace
-                            for all subsequent theology. Every Reformer looked back to Augustine.
-                        </div>
-                        <div class="card-quote">"Give what You command, and command what You will."</div>
-                        <div class="card-link-indicator">Explore Augustine's theology &rarr;</div>
-                    </a>
+            <div class="stats-dashboard">
+                <div class="stat-item">
+                    <div class="stat-number">16</div>
+                    <div class="stat-label">Theologians</div>
                 </div>
-            </div>
-
-            <!-- REFORMATION ERA -->
-            <div class="era">
-                <div class="era-label">The Reformation · 16th Century</div>
-                <div class="theologian-grid">
-                    <a href="theologian-luther.html" class="theologian-card has-page">
-                        <div class="card-header">
-                            <div class="card-dates">1483–1546</div>
-                            <div class="card-badge badge-live">Read Now</div>
-                        </div>
-                        <div class="card-name">Martin Luther</div>
-                        <div class="card-title">The Hammer of Rome</div>
-                        <div class="card-desc">
-                            The monk who shook the world. Luther's rediscovery of justification by faith alone
-                            and his defense of the bondage of the will launched the Protestant Reformation.
-                        </div>
-                        <div class="card-quote">"Here I stand; I can do no other. God help me."</div>
-                        <div class="card-link-indicator">Explore Luther's theology &rarr;</div>
-                    </a>
-
-                    <a href="theologian-calvin.html" class="theologian-card has-page">
-                        <div class="card-header">
-                            <div class="card-dates">1509–1564</div>
-                            <div class="card-badge badge-live">Read Now</div>
-                        </div>
-                        <div class="card-name">John Calvin</div>
-                        <div class="card-title">The Theologian of the Holy Spirit</div>
-                        <div class="card-desc">
-                            The systematic mind of the Reformation. Calvin's Institutes remain the most important
-                            work of Protestant theology ever written — a cathedral of biblical reasoning.
-                        </div>
-                        <div class="card-quote">"We are not our own; therefore neither our reason nor our will should predominate in our deliberations."</div>
-                        <div class="card-link-indicator">Explore Calvin's theology &rarr;</div>
-                    </a>
-
-                    <div class="theologian-card">
-                        <div class="card-header">
-                            <div class="card-dates">1519–1605</div>
-                            <div class="card-badge badge-coming">Coming Soon</div>
-                        </div>
-                        <div class="card-name">Theodore Beza</div>
-                        <div class="card-title">Calvin's Successor</div>
-                        <div class="card-desc">
-                            Calvin's chosen successor at Geneva. Beza codified Reformed theology, defended
-                            predestination with philosophical rigor, and trained the next generation.
-                        </div>
-                        <div class="card-quote">"God does not elect because He foresees faith; He gives faith because He has elected."</div>
-                    </div>
-
-                    <a href="theologian-arminius.html" class="theologian-card has-page">
-                        <div class="card-header">
-                            <div class="card-dates">1559–1609</div>
-                            <div class="card-badge badge-live">Read Now</div>
-                        </div>
-                        <div class="card-name">Jacobus Arminius</div>
-                        <div class="card-title">The Man Behind the Movement</div>
-                        <div class="card-desc">
-                            A learned theologian and pastor whose questions about divine sovereignty and human freedom sparked a movement — and prompted the church to clarify what Scripture truly teaches about God's grace.
-                        </div>
-                        <div class="card-quote">"The foundation of election is not foreseen faith, but God's free mercy in Christ."</div>
-                        <div class="card-link-indicator">Explore Arminius' theology &rarr;</div>
-                    </a>
+                <div class="stat-item">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Historical Eras</div>
                 </div>
-            </div>
-
-            <!-- PURITAN ERA -->
-            <div class="era">
-                <div class="era-label">The Puritan Era · 17th Century</div>
-                <div class="theologian-grid">
-                    <a href="theologian-owen.html" class="theologian-card has-page">
-                        <div class="card-header">
-                            <div class="card-dates">1616–1683</div>
-                            <div class="card-badge badge-live">Read Now</div>
-                        </div>
-                        <div class="card-name">John Owen</div>
-                        <div class="card-title">The Theologian's Theologian</div>
-                        <div class="card-desc">
-                            The greatest Puritan mind. Owen's work on the atonement, the Holy Spirit,
-                            and the mortification of sin remains unsurpassed in theological precision.
-                        </div>
-                        <div class="card-quote">"Be killing sin, or it will be killing you."</div>
-                        <div class="card-link-indicator">Explore Owen's theology &rarr;</div>
-                    </a>
-
-                    <div class="theologian-card">
-                        <div class="card-header">
-                            <div class="card-dates">1558–1602</div>
-                            <div class="card-badge badge-coming">Coming Soon</div>
-                        </div>
-                        <div class="card-name">William Perkins</div>
-                        <div class="card-title">Father of English Puritanism</div>
-                        <div class="card-desc">
-                            The architect of English Reformed theology. Perkins' golden chain of salvation
-                            and practical divinity shaped an entire movement.
-                        </div>
-                        <div class="card-quote">"The foundation of election is not foreseen faith, but God's free mercy in Christ."</div>
-                    </div>
-
-                    <a href="theologian-boston.html" class="theologian-card has-page">
-                        <div class="card-header">
-                            <div class="card-dates">1676–1732</div>
-                            <div class="card-badge badge-live">Read Now</div>
-                        </div>
-                        <div class="card-name">Thomas Boston</div>
-                        <div class="card-title">The Marrow Theologian</div>
-                        <div class="card-desc">
-                            The Scottish pastor whose "Human Nature in its Fourfold State" and defense of
-                            free grace in the Marrow Controversy championed grace against legalism.
-                        </div>
-                        <div class="card-quote">"Grace found us beggars but always leaves us debtors."</div>
-                        <div class="card-link-indicator">Explore Boston's theology &rarr;</div>
-                    </a>
-
-                    <a href="theologian-bunyan.html" class="theologian-card has-page">
-                        <div class="card-header">
-                            <div class="card-dates">1628–1688</div>
-                            <div class="card-badge badge-live">Read Now</div>
-                        </div>
-                        <div class="card-name">John Bunyan</div>
-                        <div class="card-title">The Tinker of Bedford</div>
-                        <div class="card-desc">
-                            An uneducated tinker who spent twelve years in prison for preaching — and emerged
-                            with the most widely read allegory in the English language. God chose the foolish
-                            to shame the wise.
-                        </div>
-                        <div class="card-quote">"Run, John, run, the law commands, but gives us neither feet nor hands. Far better news the gospel brings: it bids us fly and gives us wings."</div>
-                        <div class="card-link-indicator">Explore Bunyan's theology &rarr;</div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- GREAT AWAKENING -->
-            <div class="era">
-                <div class="era-label">The Great Awakening · 18th Century</div>
-                <div class="theologian-grid">
-                    <a href="theologian-edwards.html" class="theologian-card has-page">
-                        <div class="card-header">
-                            <div class="card-dates">1703–1758</div>
-                            <div class="card-badge badge-live">Read Now</div>
-                        </div>
-                        <div class="card-name">Jonathan Edwards</div>
-                        <div class="card-title">America's Greatest Theologian</div>
-                        <div class="card-desc">
-                            The towering intellect of American Christianity. Edwards fused Reformed theology
-                            with philosophical brilliance and revival fire — proving that sovereign grace
-                            does not kill evangelism, but fuels it.
-                        </div>
-                        <div class="card-quote">"The happiness of the creature consists in rejoicing in God, by which also God is magnified and exalted."</div>
-                        <div class="card-link-indicator">Explore Edwards' theology &rarr;</div>
-                    </a>
-
-                    <a href="theologian-whitefield.html" class="theologian-card has-page">
-                        <div class="card-header">
-                            <div class="card-dates">1714–1770</div>
-                            <div class="card-badge badge-live">Read Now</div>
-                        </div>
-                        <div class="card-name">George Whitefield</div>
-                        <div class="card-title">The Grand Itinerant</div>
-                        <div class="card-desc">
-                            The greatest evangelist of the eighteenth century — and a thoroughgoing Calvinist.
-                            Whitefield preached to millions on two continents, proving that election
-                            is the engine of evangelism.
-                        </div>
-                        <div class="card-quote">"I embrace the Calvinistic scheme, not because Calvin, but Jesus Christ has taught it to me."</div>
-                        <div class="card-link-indicator">Explore Whitefield's theology &rarr;</div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- VICTORIAN ERA -->
-            <div class="era">
-                <div class="era-label">The Victorian Era · 19th Century</div>
-                <div class="theologian-grid">
-                    <a href="theologian-spurgeon.html" class="theologian-card has-page">
-                        <div class="card-header">
-                            <div class="card-dates">1834–1892</div>
-                            <div class="card-badge badge-live">Read Now</div>
-                        </div>
-                        <div class="card-name">Charles Haddon Spurgeon</div>
-                        <div class="card-title">The Prince of Preachers</div>
-                        <div class="card-desc">
-                            The most widely read preacher in history. Spurgeon proclaimed the doctrines of
-                            grace with such warmth and power that thousands came to faith under a message
-                            of sovereign election.
-                        </div>
-                        <div class="card-quote">"I have my own private opinion that there is no such thing as preaching Christ and Him crucified, unless we preach what nowadays is called Calvinism."</div>
-                        <div class="card-link-indicator">Explore Spurgeon's theology &rarr;</div>
-                    </a>
-
-                    <div class="theologian-card">
-                        <div class="card-header">
-                            <div class="card-dates">1837–1920</div>
-                            <div class="card-badge badge-coming">Coming Soon</div>
-                        </div>
-                        <div class="card-name">Abraham Kuyper</div>
-                        <div class="card-title">Theology and Culture</div>
-                        <div class="card-desc">
-                            The Dutch polymath who was theologian, journalist, university founder, and prime minister.
-                            Kuyper showed that sovereign grace claims every square inch of creation.
-                        </div>
-                        <div class="card-quote">"There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry, Mine!"</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- MODERN ERA -->
-            <div class="era">
-                <div class="era-label">The Modern Era · 20th–21st Century</div>
-                <div class="theologian-grid">
-                    <div class="theologian-card">
-                        <div class="card-header">
-                            <div class="card-dates">1881–1937</div>
-                            <div class="card-badge badge-coming">Coming Soon</div>
-                        </div>
-                        <div class="card-name">J. Gresham Machen</div>
-                        <div class="card-title">Defender of Orthodox Christianity</div>
-                        <div class="card-desc">
-                            The Princeton scholar who drew a line in the sand against theological liberalism
-                            and founded Westminster Seminary to preserve Reformed orthodoxy.
-                        </div>
-                        <div class="card-quote">"The chief modern rival of Christianity is 'liberalism.' An examination of the teachings of liberalism shows that at every point the liberal movement is in opposition to Christianity."</div>
-                    </div>
-
-                    <div class="theologian-card">
-                        <div class="card-header">
-                            <div class="card-dates">1895–1987</div>
-                            <div class="card-badge badge-coming">Coming Soon</div>
-                        </div>
-                        <div class="card-name">Cornelius Van Til</div>
-                        <div class="card-title">Presuppositional Apologetics</div>
-                        <div class="card-desc">
-                            The philosopher who demonstrated that the sovereign God of Reformed theology
-                            is the necessary precondition for all human thought, knowledge, and reason.
-                        </div>
-                        <div class="card-quote">"The Reformed faith alone does justice to the sovereign God of Scripture."</div>
-                    </div>
-
-                    <div class="theologian-card">
-                        <div class="card-header">
-                            <div class="card-dates">1939–present</div>
-                            <div class="card-badge badge-coming">Coming Soon</div>
-                        </div>
-                        <div class="card-name">John MacArthur</div>
-                        <div class="card-title">Expository Preacher</div>
-                        <div class="card-desc">
-                            For over fifty years, MacArthur has championed verse-by-verse exposition and
-                            the doctrines of grace, training a generation of pastors committed to the text.
-                        </div>
-                        <div class="card-quote">"God saves sinners — and the force of this confession may not be weakened by distinguishing between God's part and man's part."</div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- ========== THEOLOGICAL PROGRESSION ========== -->
-    <div class="progression">
-        <h2>The Unbroken Thread of Grace</h2>
-        <p>
-            Reformed theology did not spring from nowhere in the sixteenth century. It is the recovery of apostolic
-            Christianity. Paul taught it. Augustine defended it against Pelagius. The medieval church obscured it.
-            Luther rediscovered it. Calvin systematized it. The Puritans applied it. Edwards revived it.
-            Spurgeon proclaimed it. And it endures because it is not the theology of any man — it is the theology of Scripture.
-        </p>
-
-        <div class="flow-diagram">
-            <div class="flow-node">Paul<br><small style="color:var(--text-muted)">Romans 9</small></div>
-            <div class="flow-arrow">&rarr;</div>
-            <div class="flow-node">Augustine<br><small style="color:var(--text-muted)">vs. Pelagius</small></div>
-            <div class="flow-arrow">&rarr;</div>
-            <div class="flow-node">Luther<br><small style="color:var(--text-muted)">Bondage of Will</small></div>
-            <div class="flow-arrow">&rarr;</div>
-            <div class="flow-node">Calvin<br><small style="color:var(--text-muted)">Institutes</small></div>
-            <div class="flow-arrow">&rarr;</div>
-            <div class="flow-node">Dort<br><small style="color:var(--text-muted)">Five Points</small></div>
-            <div class="flow-arrow">&rarr;</div>
-            <div class="flow-node">Owen<br><small style="color:var(--text-muted)">Death of Death</small></div>
-            <div class="flow-arrow">&rarr;</div>
-            <div class="flow-node">Edwards<br><small style="color:var(--text-muted)">Freedom of Will</small></div>
-            <div class="flow-arrow">&rarr;</div>
-            <div class="flow-node">Spurgeon<br><small style="color:var(--text-muted)">Prince of Preachers</small></div>
-        </div>
-
-        <p>
-            Each generation faced its own form of the same ancient question: <em>Is salvation ultimately God's
-            work or man's?</em> And each generation, guided by Scripture, gave the same answer:
-            <strong style="color: var(--accent-gold);">salvation is of the Lord</strong> (Jonah 2:9).
-        </p>
-    </div>
-
-    <!-- ========== KEY DOCTRINES ACROSS HISTORY ========== -->
-    <div class="doctrines">
-        <h2>Key Doctrines Across the Centuries</h2>
-        <div class="doctrine-grid">
-            <div class="doctrine-card">
-                <div class="doctrine-name">Sovereign Election</div>
-                <div class="doctrine-thread">
-                    <strong>Paul</strong> (Rom 9) &rarr; <strong>Augustine</strong> (Against Pelagius) &rarr;
-                    <strong>Calvin</strong> (Institutes III.21-24) &rarr; <strong>Dort</strong> (First Head) &rarr;
-                    <strong>Edwards</strong> (Freedom of Will) &rarr; <strong>Spurgeon</strong> (Election sermon)
-                </div>
-            </div>
-            <div class="doctrine-card">
-                <div class="doctrine-name">Total Depravity</div>
-                <div class="doctrine-thread">
-                    <strong>Paul</strong> (Eph 2:1-3) &rarr; <strong>Augustine</strong> (On Grace and Free Will) &rarr;
-                    <strong>Luther</strong> (Bondage of the Will) &rarr; <strong>Owen</strong> (Mortification of Sin) &rarr;
-                    <strong>Edwards</strong> (Original Sin)
-                </div>
-            </div>
-            <div class="doctrine-card">
-                <div class="doctrine-name">Effectual Grace</div>
-                <div class="doctrine-thread">
-                    <strong>Jesus</strong> (John 6:37) &rarr; <strong>Augustine</strong> (On the Predestination of Saints) &rarr;
-                    <strong>Calvin</strong> (Institutes II.3) &rarr; <strong>Dort</strong> (Third/Fourth Head) &rarr;
-                    <strong>Spurgeon</strong> (Effectual Calling)
-                </div>
-            </div>
-            <div class="doctrine-card">
-                <div class="doctrine-name">Definite Atonement</div>
-                <div class="doctrine-thread">
-                    <strong>Jesus</strong> (John 10:15) &rarr; <strong>Gottschalk</strong> (9th c.) &rarr;
-                    <strong>Calvin</strong> (Commentary on John) &rarr; <strong>Owen</strong> (Death of Death) &rarr;
-                    <strong>Spurgeon</strong> (Particular Redemption)
-                </div>
-            </div>
-            <div class="doctrine-card">
-                <div class="doctrine-name">Perseverance of the Saints</div>
-                <div class="doctrine-thread">
-                    <strong>Jesus</strong> (John 10:28-29) &rarr; <strong>Augustine</strong> (Gift of Perseverance) &rarr;
-                    <strong>Dort</strong> (Fifth Head) &rarr; <strong>Owen</strong> (Hebrews Commentary) &rarr;
-                    <strong>Edwards</strong> (Religious Affections)
-                </div>
-            </div>
-            <div class="doctrine-card">
-                <div class="doctrine-name">Justification by Faith Alone</div>
-                <div class="doctrine-thread">
-                    <strong>Paul</strong> (Rom 3:28) &rarr; <strong>Luther</strong> (95 Theses, Romans lectures) &rarr;
-                    <strong>Calvin</strong> (Institutes III.11) &rarr; <strong>Owen</strong> (Justification by Faith) &rarr;
-                    <strong>Machen</strong> (Christianity and Liberalism)
+                <div class="stat-item">
+                    <div class="stat-number">2000+</div>
+                    <div class="stat-label">Years of Grace</div>
                 </div>
             </div>
         </div>
-    </div>
 
-        <!-- Cross-Reference Section -->
-        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-            <div style="max-width: 900px; margin: 0 auto;">
-                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                    <a href="theologian-augustine.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Augustine</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The father of Reformed theology defending grace</p>
-                    </a>
-                    <a href="theologian-luther.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Martin Luther</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Reformation pioneer on human will and God's authority</p>
-                    </a>
-                    <a href="theologian-calvin.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">John Calvin</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Reformation theologian on God's sovereignty and election</p>
-                    </a>
-                    <a href="theologian-owen.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">John Owen</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Puritan theologian on atonement and covenant theology</p>
-                    </a>
-                    <a href="theologian-edwards.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Jonathan Edwards</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">American theologian on compatibilism and revival</p>
-                    </a>
-                    <a href="theologian-spurgeon.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Charles Spurgeon</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The prince of preachers on God's sovereignty</p>
-                    </a>
+        <div class="scripture-block">
+            "Therefore, since we are surrounded by such a great cloud of witnesses, let us throw off everything that hinders and the sin that so easily entangles. And let us run with perseverance the race marked out for us."
+            <span class="scripture-ref">— Hebrews 12:1-2</span>
+        </div>
+
+        <div class="gallery-wing">
+            <div class="wing-header">
+                <div class="wing-century">4th</div>
+                <div class="wing-title">The Patristic Era</div>
+                <div class="wing-subtitle">4th-5th Century — When Grace Defeated Heresy</div>
+            </div>
+            <div class="portrait-gallery">
+                <a href="theologian-augustine.html" class="portrait-frame has-page">
+                    <div class="plaque-name">Augustine of Hippo</div>
+                    <div class="plaque-title">The Doctor of Grace</div>
+                    <div class="plaque-dates">354–430</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The greatest theologian of the patristic era. Defeated Pelagianism by proving that salvation is God's work from beginning to end, and that man contributes nothing but rebellion.</div>
+                        <div class="portrait-quote">"Give what You command, and command what You will."</div>
+                    </div>
+                    <span class="portrait-badge badge-live">Live</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="gallery-wing">
+            <div class="wing-header">
+                <div class="wing-century">16th</div>
+                <div class="wing-title">The Reformation</div>
+                <div class="wing-subtitle">16th Century — The Recovery of Scripture</div>
+            </div>
+            <div class="portrait-gallery">
+                <a href="theologian-luther.html" class="portrait-frame has-page">
+                    <div class="plaque-name">Martin Luther</div>
+                    <div class="plaque-title">The Hammer of Rome</div>
+                    <div class="plaque-dates">1483–1546</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The man who shook Christendom by proving that Rome's system was not Christianity. His "Bondage of the Will" stands as one of the greatest theological treatises on human depravity.</div>
+                        <div class="portrait-quote">"Here I stand; I can do no other. God help me."</div>
+                    </div>
+                    <span class="portrait-badge badge-live">Live</span>
+                </a>
+                <a href="theologian-calvin.html" class="portrait-frame has-page">
+                    <div class="plaque-name">John Calvin</div>
+                    <div class="plaque-title">The Theologian of the Holy Spirit</div>
+                    <div class="plaque-dates">1509–1564</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The brilliant systematizer who organized Reformed theology into the Institutes—a masterwork that shaped the entire Protestant world and defined the doctrines of grace for centuries.</div>
+                        <div class="portrait-quote">"We are not our own; therefore neither our reason nor our will should predominate in our deliberations."</div>
+                    </div>
+                    <span class="portrait-badge badge-live">Live</span>
+                </a>
+                <div class="portrait-frame coming-soon">
+                    <div class="plaque-name">Theodore Beza</div>
+                    <div class="plaque-title">Calvin's Successor</div>
+                    <div class="plaque-dates">1519–1605</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The faithful student who carried on Calvin's legacy, defending election against Arminianism in its earliest forms.</div>
+                        <div class="portrait-quote">"God does not elect because He foresees faith; He gives faith because He has elected."</div>
+                    </div>
+                    <span class="portrait-badge badge-coming">Coming Soon</span>
+                </div>
+                <a href="theologian-arminius.html" class="portrait-frame has-page">
+                    <div class="plaque-name">Jacobus Arminius</div>
+                    <div class="plaque-title">The Man Behind the Movement</div>
+                    <div class="plaque-dates">1559–1609</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The theologian whose well-intentioned errors spawned the greatest heresy against grace in the modern church. Examined here not to condemn, but to understand the enemy.</div>
+                        <div class="portrait-quote">"The foundation of election is not foreseen faith, but God's free mercy in Christ."</div>
+                    </div>
+                    <span class="portrait-badge badge-live">Live</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="gallery-wing">
+            <div class="wing-header">
+                <div class="wing-century">17th</div>
+                <div class="wing-title">The Puritan Era</div>
+                <div class="wing-subtitle">17th Century — Grace Applied to the Soul</div>
+            </div>
+            <div class="portrait-gallery">
+                <a href="theologian-owen.html" class="portrait-frame has-page">
+                    <div class="plaque-name">John Owen</div>
+                    <div class="plaque-title">The Theologian's Theologian</div>
+                    <div class="plaque-dates">1616–1683</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The greatest Puritan theologian. His "Death of Death in the Death of Christ" remains the definitive defense of definite atonement. Profound, unstoppable, devastating.</div>
+                        <div class="portrait-quote">"Be killing sin, or it will be killing you."</div>
+                    </div>
+                    <span class="portrait-badge badge-live">Live</span>
+                </a>
+                <div class="portrait-frame coming-soon">
+                    <div class="plaque-name">William Perkins</div>
+                    <div class="plaque-title">Father of English Puritanism</div>
+                    <div class="plaque-dates">1558–1602</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The man who shaped English Reformed theology and gave us the pastoral, practical application of election that fed the Puritan movement.</div>
+                        <div class="portrait-quote">"The foundation of election is not foreseen faith, but God's free mercy in Christ."</div>
+                    </div>
+                    <span class="portrait-badge badge-coming">Coming Soon</span>
+                </div>
+                <a href="theologian-boston.html" class="portrait-frame has-page">
+                    <div class="plaque-name">Thomas Boston</div>
+                    <div class="plaque-title">The Marrow Theologian</div>
+                    <div class="plaque-dates">1676–1732</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The Scottish theologian who recovered a lost jewel—the Marrow of Modern Divinity—and sparked a revival of grace-centered preaching that burned across Scotland.</div>
+                        <div class="portrait-quote">"Grace found us beggars but always leaves us debtors."</div>
+                    </div>
+                    <span class="portrait-badge badge-live">Live</span>
+                </a>
+                <a href="theologian-bunyan.html" class="portrait-frame has-page">
+                    <div class="plaque-name">John Bunyan</div>
+                    <div class="plaque-title">The Tinker of Bedford</div>
+                    <div class="plaque-dates">1628–1688</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The unlettered tinker who wrote the most famous allegory in Christian history. His "Pilgrim's Progress" taught the doctrines of grace to millions who would never read a theology textbook.</div>
+                        <div class="portrait-quote">"Run, John, run, the law commands, but gives us neither feet nor hands. Far better news the gospel brings: it bids us fly and gives us wings."</div>
+                    </div>
+                    <span class="portrait-badge badge-live">Live</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="gallery-wing">
+            <div class="wing-header">
+                <div class="wing-century">18th</div>
+                <div class="wing-title">The Great Awakening</div>
+                <div class="wing-subtitle">18th Century — When God Shook Two Continents</div>
+            </div>
+            <div class="portrait-gallery">
+                <a href="theologian-edwards.html" class="portrait-frame has-page">
+                    <div class="plaque-name">Jonathan Edwards</div>
+                    <div class="plaque-title">America's Greatest Theologian</div>
+                    <div class="plaque-dates">1703–1758</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The brilliant American theologian whose works on the will, affections, and revival shaped the Great Awakening and remain the standard for Reformed theology of the will.</div>
+                        <div class="portrait-quote">"The happiness of the creature consists in rejoicing in God, by which also God is magnified and exalted."</div>
+                    </div>
+                    <span class="portrait-badge badge-live">Live</span>
+                </a>
+                <a href="theologian-whitefield.html" class="portrait-frame has-page">
+                    <div class="plaque-name">George Whitefield</div>
+                    <div class="plaque-title">The Grand Itinerant</div>
+                    <div class="plaque-dates">1714–1770</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The fiery revivalist preacher who proclaimed Reformed theology to tens of thousands across the Atlantic. His sermons still burn with conviction.</div>
+                        <div class="portrait-quote">"I embrace the Calvinistic scheme, not because Calvin, but Jesus Christ has taught it to me."</div>
+                    </div>
+                    <span class="portrait-badge badge-live">Live</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="gallery-wing">
+            <div class="wing-header">
+                <div class="wing-century">19th</div>
+                <div class="wing-title">The Victorian Era</div>
+                <div class="wing-subtitle">19th Century — Grace From the Pulpit</div>
+            </div>
+            <div class="portrait-gallery">
+                <a href="theologian-spurgeon.html" class="portrait-frame has-page">
+                    <div class="plaque-name">Charles Haddon Spurgeon</div>
+                    <div class="plaque-title">The Prince of Preachers</div>
+                    <div class="plaque-dates">1834–1892</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The greatest preacher of the Victorian age. From the Metropolitan Tabernacle, he proclaimed the doctrines of grace to thousands every week with unmatched power and clarity.</div>
+                        <div class="portrait-quote">"I have my own private opinion that there is no such thing as preaching Christ and Him crucified, unless we preach what nowadays is called Calvinism."</div>
+                    </div>
+                    <span class="portrait-badge badge-live">Live</span>
+                </a>
+                <div class="portrait-frame coming-soon">
+                    <div class="plaque-name">Abraham Kuyper</div>
+                    <div class="plaque-title">Theology and Culture</div>
+                    <div class="plaque-dates">1837–1920</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The Dutch theologian and statesman who proved that Reformed theology was not retreat from culture but conquest of it. Grace transforms everything.</div>
+                        <div class="portrait-quote">"There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry, Mine!"</div>
+                    </div>
+                    <span class="portrait-badge badge-coming">Coming Soon</span>
                 </div>
             </div>
+        </div>
+
+        <div class="gallery-wing">
+            <div class="wing-header">
+                <div class="wing-century">20th</div>
+                <div class="wing-title">The Modern Era</div>
+                <div class="wing-subtitle">20th-21st Century — Grace in a Faithless Age</div>
+            </div>
+            <div class="portrait-gallery">
+                <div class="portrait-frame coming-soon">
+                    <div class="plaque-name">J. Gresham Machen</div>
+                    <div class="plaque-title">Defender of Orthodox Christianity</div>
+                    <div class="plaque-dates">1881–1937</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The brilliant defender of orthodoxy against the modernism that was eating the church from within. His "Christianity and Liberalism" remains a masterwork.</div>
+                        <div class="portrait-quote">"The chief modern rival of Christianity is 'liberalism.' An examination of the teachings of liberalism shows that at every point the liberal movement is in opposition to Christianity."</div>
+                    </div>
+                    <span class="portrait-badge badge-coming">Coming Soon</span>
+                </div>
+                <div class="portrait-frame coming-soon">
+                    <div class="plaque-name">Cornelius Van Til</div>
+                    <div class="plaque-title">Presuppositional Apologetics</div>
+                    <div class="plaque-dates">1895–1987</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The architect of presuppositional apologetics, who showed that the entire intellectual universe belongs to Christ and that human reasoning outside of God is futility.</div>
+                        <div class="portrait-quote">"The Reformed faith alone does justice to the sovereign God of Scripture."</div>
+                    </div>
+                    <span class="portrait-badge badge-coming">Coming Soon</span>
+                </div>
+                <div class="portrait-frame coming-soon">
+                    <div class="plaque-name">John MacArthur</div>
+                    <div class="plaque-title">Expository Preacher</div>
+                    <div class="plaque-dates">1939–present</div>
+                    <div class="portrait-content">
+                        <div class="portrait-desc">The tireless defender of biblical expository preaching and the doctrines of grace in the contemporary church. Faithful to Scripture, faithful to the tradition.</div>
+                        <div class="portrait-quote">— Coming Soon</div>
+                    </div>
+                    <span class="portrait-badge badge-coming">Coming Soon</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="progression">
+            <h2>The Unbroken Thread of Grace</h2>
+            <p>
+                Reformed theology did not spring from nowhere in the sixteenth century. It is the recovery of apostolic Christianity. Paul taught it. Augustine defended it against Pelagius. The medieval church obscured it. Luther rediscovered it. Calvin systematized it. The Puritans applied it. Edwards revived it. Spurgeon proclaimed it. And it endures because it is not the theology of any man — it is the theology of Scripture.
+            </p>
+
+            <div class="flow-diagram">
+                <div class="flow-node">Paul<br><small style="color:var(--text-muted)">Romans 9</small></div>
+                <div class="flow-arrow">&rarr;</div>
+                <div class="flow-node">Augustine<br><small style="color:var(--text-muted)">vs. Pelagius</small></div>
+                <div class="flow-arrow">&rarr;</div>
+                <div class="flow-node">Luther<br><small style="color:var(--text-muted)">Bondage of Will</small></div>
+                <div class="flow-arrow">&rarr;</div>
+                <div class="flow-node">Calvin<br><small style="color:var(--text-muted)">Institutes</small></div>
+                <div class="flow-arrow">&rarr;</div>
+                <div class="flow-node">Dort<br><small style="color:var(--text-muted)">Five Points</small></div>
+                <div class="flow-arrow">&rarr;</div>
+                <div class="flow-node">Owen<br><small style="color:var(--text-muted)">Death of Death</small></div>
+                <div class="flow-arrow">&rarr;</div>
+                <div class="flow-node">Edwards<br><small style="color:var(--text-muted)">Freedom of Will</small></div>
+                <div class="flow-arrow">&rarr;</div>
+                <div class="flow-node">Spurgeon<br><small style="color:var(--text-muted)">Prince of Preachers</small></div>
+            </div>
+
+            <p>
+                Each generation faced its own form of the same ancient question: <em>Is salvation ultimately God's work or man's?</em> And each generation, guided by Scripture, gave the same answer: <strong style="color: var(--accent-gold);">salvation is of the Lord</strong> (Jonah 2:9).
+            </p>
+        </div>
+
+        <div class="doctrines">
+            <h2>Key Doctrines Across the Centuries</h2>
+            <div class="doctrine-grid">
+                <div class="doctrine-card">
+                    <div class="doctrine-name">Sovereign Election</div>
+                    <div class="doctrine-thread"><strong>Paul</strong> (Rom 9) — <strong>Augustine</strong> (Against Pelagius) — <strong>Calvin</strong> (Institutes III.21-24) — <strong>Dort</strong> (First Head) — <strong>Edwards</strong> (Freedom of Will) — <strong>Spurgeon</strong> (Election sermon)</div>
+                </div>
+                <div class="doctrine-card">
+                    <div class="doctrine-name">Total Depravity</div>
+                    <div class="doctrine-thread"><strong>Paul</strong> (Eph 2:1-3) — <strong>Augustine</strong> (On Grace and Free Will) — <strong>Luther</strong> (Bondage of the Will) — <strong>Owen</strong> (Mortification of Sin) — <strong>Edwards</strong> (Original Sin)</div>
+                </div>
+                <div class="doctrine-card">
+                    <div class="doctrine-name">Effectual Grace</div>
+                    <div class="doctrine-thread"><strong>Jesus</strong> (John 6:37) — <strong>Augustine</strong> (On the Predestination of Saints) — <strong>Calvin</strong> (Institutes II.3) — <strong>Dort</strong> (Third/Fourth Head) — <strong>Spurgeon</strong> (Effectual Calling)</div>
+                </div>
+                <div class="doctrine-card">
+                    <div class="doctrine-name">Definite Atonement</div>
+                    <div class="doctrine-thread"><strong>Jesus</strong> (John 10:15) — <strong>Gottschalk</strong> (9th c.) — <strong>Calvin</strong> (Commentary on John) — <strong>Owen</strong> (Death of Death) — <strong>Spurgeon</strong> (Particular Redemption)</div>
+                </div>
+                <div class="doctrine-card">
+                    <div class="doctrine-name">Perseverance of the Saints</div>
+                    <div class="doctrine-thread"><strong>Jesus</strong> (John 10:28-29) — <strong>Augustine</strong> (Gift of Perseverance) — <strong>Dort</strong> (Fifth Head) — <strong>Owen</strong> (Hebrews Commentary) — <strong>Edwards</strong> (Religious Affections)</div>
+                </div>
+                <div class="doctrine-card">
+                    <div class="doctrine-name">Justification by Faith Alone</div>
+                    <div class="doctrine-thread"><strong>Paul</strong> (Rom 3:28) — <strong>Luther</strong> (95 Theses, Romans lectures) — <strong>Calvin</strong> (Institutes III.11) — <strong>Owen</strong> (Justification by Faith) — <strong>Machen</strong> (Christianity and Liberalism)</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="further-reading">
+            <h2>Continue Exploring</h2>
+            <div class="reading-grid">
+                <a href="systematic-theology.html" class="reading-link">
+                    <div class="reading-link-title">Systematic Theology</div>
+                    <div class="reading-link-desc">The doctrines these theologians taught, organized and explained</div>
+                </a>
+                <a href="questions.html" class="reading-link">
+                    <div class="reading-link-title">Scripture Deep-Dives</div>
+                    <div class="reading-link-desc">The texts these men spent their lives studying</div>
+                </a>
+                <a href="demolition-hub.html" class="reading-link">
+                    <div class="reading-link-title">Verse Demolition Series</div>
+                    <div class="reading-link-desc">Dismantling misreadings these theologians confronted</div>
+                </a>
+                <a href="connections.html" class="reading-link">
+                    <div class="reading-link-title">The Unbreakable Thread</div>
+                    <div class="reading-link-desc">The comprehensive proof they all pointed to</div>
+                </a>
+                <a href="start-here.html" class="reading-link">
+                    <div class="reading-link-title">Start Here</div>
+                    <div class="reading-link-desc">New to Reformed theology? Begin the journey</div>
+                </a>
+                <a href="essays.html" class="reading-link">
+                    <div class="reading-link-title">Essays</div>
+                    <div class="reading-link-desc">In-depth PDF studies for further study</div>
+                </a>
+            </div>
+        </div>
+
+        <section class="related-articles" aria-label="Related articles">
+          <div class="related-articles-inner">
+            <h2 class="related-articles-heading">Keep Exploring</h2>
+            <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+            <div class="related-articles-grid">
+              <a href="/invisible-wall-hub" class="related-article-card">
+                <span class="related-article-cat">Healing & Hope</span>
+                <span class="related-article-title">The Invisible Wall: Relationships, Loneliness & Forgiveness</span>
+                <span class="related-article-desc">82% of people report experiencing loneliness. But God</span>
+              </a>
+              <a href="/systematic-divine-decrees" class="related-article-card">
+                <span class="related-article-cat">Theology</span>
+                <span class="related-article-title">Before the Foundation of the World — God's Eternal Decrees</span>
+                <span class="related-article-desc">God</span>
+              </a>
+              <a href="/history-timeline" class="related-article-card">
+                <span class="related-article-cat">History</span>
+                <span class="related-article-title">Church History Timeline — The Golden Thread</span>
+                <span class="related-article-desc">Interactive timeline showing how God preserved the doctrines of grace through 2000 years of church h...</span>
+              </a>
+              <a href="/apologetic-evangelism" class="related-article-card">
+                <span class="related-article-cat">Apologetics</span>
+                <span class="related-article-title">Doesn't Election Make Evangelism Pointless?</span>
+                <span class="related-article-desc">Does election make evangelism pointless? No—it</span>
+              </a>
+              <a href="/pastoral-assurance" class="related-article-card">
+                <span class="related-article-cat">Pastoral</span>
+                <span class="related-article-title">Election & Assurance: When Anxiety Attacks Your Faith</span>
+                <span class="related-article-desc">How the doctrines of grace gives deep, unshakeable assurance to Christians struggling with anxiety...</span>
+              </a>
+              <a href="/objection-evangelism-pointless" class="related-article-card">
+                <span class="related-article-cat">Objections Answered</span>
+                <span class="related-article-title">If God Already Chose Who Will Be Saved, Why Evangelize?</span>
+                <span class="related-article-desc">If God already chose who will be saved, why evangelize? Because God ordains the means as well as the...</span>
+              </a>
+            </div>
+            <div class="related-articles-browse"></div>
+          </div>
         </section>
 
-    <!-- ========== FURTHER READING ========== -->
-    <div class="further-reading">
-        <h2>Continue Exploring</h2>
-        <div class="reading-grid">
-            <a href="systematic-theology.html" class="reading-link">
-                <div class="reading-link-title">Systematic Theology</div>
-                <div class="reading-link-desc">The doctrines these theologians taught, organized and explained</div>
-            </a>
-            <a href="questions.html" class="reading-link">
-                <div class="reading-link-title">Scripture Deep-Dives</div>
-                <div class="reading-link-desc">The texts these men spent their lives studying</div>
-            </a>
-            <a href="demolition-hub.html" class="reading-link">
-                <div class="reading-link-title">Verse Demolition Series</div>
-                <div class="reading-link-desc">Dismantling misreadings these theologians confronted</div>
-            </a>
-            <a href="connections.html" class="reading-link">
-                <div class="reading-link-title">The Unbreakable Thread</div>
-                <div class="reading-link-desc">The comprehensive proof they all pointed to</div>
-            </a>
-            <a href="start-here.html" class="reading-link">
-                <div class="reading-link-title">Start Here</div>
-                <div class="reading-link-desc">New to Reformed theology? Begin the journey</div>
-            </a>
-            <a href="essays.html" class="reading-link">
-                <div class="reading-link-title">Essays</div>
-                <div class="reading-link-desc">In-depth PDF studies for further study</div>
-            </a>
-        </div>
-    </div>
+    </main>
 
-            
-
-<!-- RELATED-ARTICLES-START -->
-<section class="related-articles" aria-label="Related articles">
-  <div class="related-articles-inner">
-    <h2 class="related-articles-heading">Keep Exploring</h2>
-    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
-    <div class="related-articles-grid">
-      <a href="/invisible-wall-hub" class="related-article-card">
-        <span class="related-article-cat">💚 Healing &amp; Hope</span>
-        <span class="related-article-title">The Invisible Wall: Relationships, Loneliness &amp; Forgiveness</span>
-        <span class="related-article-desc">82% of people report experiencing loneliness. But God</span>
-      </a>
-      <a href="/systematic-divine-decrees" class="related-article-card">
-        <span class="related-article-cat">🏛 Theology</span>
-        <span class="related-article-title">Before the Foundation of the World — God&#039;s Eternal Decrees</span>
-        <span class="related-article-desc">God</span>
-      </a>
-      <a href="/history-timeline" class="related-article-card">
-        <span class="related-article-cat">⏳ History</span>
-        <span class="related-article-title">Church History Timeline — The Golden Thread</span>
-        <span class="related-article-desc">Interactive timeline showing how God preserved the doctrines of grace through 2000 years of church h...</span>
-      </a>
-      <a href="/apologetic-evangelism" class="related-article-card">
-        <span class="related-article-cat">⚔ Apologetics</span>
-        <span class="related-article-title">Doesn&#039;t Election Make Evangelism Pointless?</span>
-        <span class="related-article-desc">Does election make evangelism pointless? No—it</span>
-      </a>
-      <a href="/pastoral-assurance" class="related-article-card">
-        <span class="related-article-cat">🤝 Pastoral</span>
-        <span class="related-article-title">Election &amp;amp; Assurance: When Anxiety Attacks Your Faith</span>
-        <span class="related-article-desc">How the doctrines of grace gives deep, unshakeable assurance to Christians struggling with anxiety...</span>
-      </a>
-      <a href="/objection-evangelism-pointless" class="related-article-card">
-        <span class="related-article-cat">🛡 Objections Answered</span>
-        <span class="related-article-title">If God Already Chose Who Will Be Saved, Why Evangelize?</span>
-        <span class="related-article-desc">If God already chose who will be saved, why evangelize? Because God ordains the means as well as the...</span>
-      </a>
-    </div>
-    <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
-</section>
-<!-- RELATED-ARTICLES-END -->
-
-<footer>
+    <footer>
         <div class="footer-container">
-            <div class="footer-section">
-                <h4>Truth</h4>
-                <ul>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                    <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                </ul>
+            <div class="footer-grace-warning">
+                "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+                Grace is not a license to sin. It is the power that frees us from sin's dominion.
             </div>
-            <div class="footer-section">
-                <h4>Explore</h4>
-                <ul>
-                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
-                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                </ul>
+            <div class="footer-copyright">
+                &copy; 2025 Adopted by Grace. All rights reserved. <a href="/about">About</a> | <a href="/privacy">Privacy</a>
             </div>
-            <div class="footer-section">
-                <h4>Connect</h4>
-                <ul>
-                    <li class="mobile-nav-link"><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-grace-warning">
-            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
-            Grace is not a license to sin. It is the power that frees us from sin's dominion.
-        </div>
-        <div class="footer-copyright">
-            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
         </div>
     </footer>
-
-
-    <script src="/global.js" defer></script>
 
     <script src="/nav.js"></script>
 </body>

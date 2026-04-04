@@ -3,93 +3,525 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The best articles on Adopted by Grace — our most powerful, thought-provoking, and life-changing content, hand-picked from across the site.">
-    <meta property="og:title" content="Best Reads — Adopted by Grace">
+    <meta name="description" content="Our most powerful, thought-provoking, and life-changing articles — hand-selected from across the entire site.">
+    <meta property="og:title" content="The Best Reads — Adopted by Grace">
     <meta property="og:description" content="The most powerful content on the site — hand-picked articles that will challenge, move, and transform.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://adoptedbygrace.net/best-reads.html">
     <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Best Reads — Adopted by Grace">
+    <meta name="twitter:title" content="The Best Reads — Adopted by Grace">
     <meta name="twitter:description" content="The most powerful content on the site — hand-picked articles that will challenge, move, and transform.">
     <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
     <link rel="canonical" href="https://adoptedbygrace.net/best-reads.html">
-    <title>Best Reads — Adopted by Grace</title>
+    <title>The Best Reads — Adopted by Grace</title>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/global.css">
     <style>
+        /* ================================================================
+           AWARDS STAGE AESTHETIC — Hero & General Layout
+           ================================================================ */
+
         .best-reads-hero {
-            position: relative; padding: 8rem 2rem 4rem; text-align: center; overflow: hidden;
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1525 50%, #0a0a0f 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
         }
+
         .best-reads-hero::before {
-            content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-            width: 800px; height: 800px;
-            background: radial-gradient(circle, rgba(232, 100, 44, 0.08) 0%, rgba(212, 162, 84, 0.04) 40%, transparent 70%);
-            border-radius: 50%; pointer-events: none; animation: pulseGlow 6s ease-in-out infinite;
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(circle at 20% 30%, rgba(212, 162, 84, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(232, 100, 44, 0.06) 0%, transparent 40%);
+            pointer-events: none;
+            z-index: 1;
         }
-        @keyframes pulseGlow { 0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); } 50% { opacity: 1; transform: translate(-50%, -50%) scale(1.15); } }
+
+        .best-reads-hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
         .best-reads-hero .eyebrow {
-            font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; text-transform: uppercase;
-            letter-spacing: 0.35em; color: var(--accent-ember); margin-bottom: 1rem; position: relative; z-index: 1;
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #d4a254;
+            font-weight: 600;
+            margin-bottom: 1rem;
         }
-        .best-reads-hero h1 { position: relative; z-index: 1; max-width: 800px; margin: 0 auto 1.5rem; font-size: 3.2rem; font-weight: 900; }
-        .best-reads-hero h1 .ember { background: linear-gradient(135deg, var(--accent-ember), var(--accent-gold)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+
+        .best-reads-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.1;
+            color: #fff;
+            margin: 0.5rem 0;
+            letter-spacing: -1px;
+        }
+
         .best-reads-hero .subtitle {
-            color: var(--text-secondary); font-size: 1.15rem; max-width: 650px; margin: 0 auto; line-height: 1.8; position: relative; z-index: 1;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #b0b0c0;
+            max-width: 700px;
+            margin: 1.5rem auto 0;
+            font-weight: 400;
         }
 
-        .best-reads-grid {
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1.8rem;
-            max-width: 1100px; margin: 0 auto; padding: 3rem 2rem 5rem;
-        }
-        .best-read-card {
-            background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 12px;
-            padding: 2rem; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden;
-            text-decoration: none; display: block;
-        }
-        .best-read-card::before {
-            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
-            background: linear-gradient(90deg, var(--accent-ember), var(--accent-gold));
-            transform: scaleX(0); transition: transform 0.4s ease; transform-origin: left;
-        }
-        .best-read-card:hover { transform: translateY(-4px); border-color: rgba(232, 100, 44, 0.3); box-shadow: 0 16px 50px rgba(0,0,0,0.3), 0 0 30px rgba(232, 100, 44, 0.1); }
-        .best-read-card:hover::before { transform: scaleX(1); }
-        .best-read-rank {
-            font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; text-transform: uppercase;
-            letter-spacing: 0.2em; color: var(--accent-ember); margin-bottom: 0.8rem; display: block;
-        }
-        .best-read-card h3 {
-            font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--text-primary);
-            margin-bottom: 0.7rem; line-height: 1.3;
-        }
-        .best-read-card p {
-            color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7;
-        }
-        .best-read-category {
-            font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; text-transform: uppercase;
-            letter-spacing: 0.15em; padding: 0.35rem 0.8rem; border-radius: 4px; display: inline-block;
-            margin-top: 1rem; background: rgba(212, 162, 84, 0.12); color: var(--accent-gold);
+        .stats-banner {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2.5rem;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
         }
 
-        .empty-state {
-            text-align: center; padding: 5rem 2rem; max-width: 600px; margin: 0 auto;
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
         }
-        .empty-state h2 { color: var(--accent-gold); margin-bottom: 1rem; }
-        .empty-state p { color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8; }
 
-        /* Humor footer */
-        .theology-humor {
-            text-align: center; padding: 2rem; color: var(--text-muted); font-size: 0.85rem;
-            font-style: italic; border-top: 1px solid var(--border-subtle); max-width: 600px; margin: 0 auto 3rem;
+        .stat-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #d4a254;
         }
+
+        .stat-label {
+            color: #999;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* ================================================================
+           CROWN JEWEL FEATURED ARTICLE — GRAND STAGE
+           ================================================================ */
+
+        .crown-jewel-section {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .crown-jewel-card {
+            background: linear-gradient(135deg, #1a1525 0%, #0f0f1a 100%);
+            border: 2px solid #d4a254;
+            border-radius: 8px;
+            padding: 3rem;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 0 40px rgba(212, 162, 84, 0.15);
+        }
+
+        .crown-jewel-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(212, 162, 84, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .crown-jewel-badge {
+            display: inline-block;
+            background: #d4a254;
+            color: #0a0a0f;
+            padding: 0.5rem 1.2rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .crown-jewel-card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #fff;
+            margin: 0 0 1rem 0;
+            line-height: 1.3;
+            position: relative;
+            z-index: 2;
+        }
+
+        .crown-jewel-card p {
+            color: #c0c0d0;
+            font-size: 1.05rem;
+            line-height: 1.7;
+            margin: 0 0 2rem 0;
+            position: relative;
+            z-index: 2;
+            max-width: 90%;
+        }
+
+        .crown-jewel-cta {
+            display: inline-block;
+            background: #d4a254;
+            color: #0a0a0f;
+            padding: 0.8rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            position: relative;
+            z-index: 2;
+            transition: all 0.3s ease;
+            border: 2px solid #d4a254;
+        }
+
+        .crown-jewel-cta:hover {
+            background: transparent;
+            color: #d4a254;
+        }
+
+        /* ================================================================
+           TOP 3 ARTICLES — SILVER PODIUM ROW
+           ================================================================ */
+
+        .podium-section {
+            max-width: 1200px;
+            margin: 3.5rem auto;
+            padding: 0 2rem;
+        }
+
+        .podium-label {
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #d4a254;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            display: block;
+        }
+
+        .podium-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3.5rem;
+        }
+
+        .podium-card {
+            background: linear-gradient(135deg, #1a1525 0%, #0f0f1a 100%);
+            border: 1px solid #3a3a4a;
+            border-radius: 6px;
+            padding: 2.5rem;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .podium-card:hover {
+            border-color: #d4a254;
+            box-shadow: 0 0 25px rgba(212, 162, 84, 0.12);
+        }
+
+        .podium-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #d4a254, transparent);
+        }
+
+        .medal-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .medal-gold {
+            background: linear-gradient(135deg, #d4a254 0%, #c69438 100%);
+            color: #0a0a0f;
+            box-shadow: 0 0 15px rgba(212, 162, 84, 0.3);
+        }
+
+        .medal-silver {
+            background: linear-gradient(135deg, #c0c0d0 0%, #a0a0b0 100%);
+            color: #0a0a0f;
+            box-shadow: 0 0 15px rgba(192, 192, 208, 0.2);
+        }
+
+        .medal-bronze {
+            background: linear-gradient(135deg, #b8860b 0%, #8b6914 100%);
+            color: #fff;
+            box-shadow: 0 0 15px rgba(184, 134, 11, 0.2);
+        }
+
+        .podium-rank {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: #999;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .podium-score {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #d4a254;
+            margin-bottom: 1rem;
+        }
+
+        .podium-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #fff;
+            margin: 0 0 1rem 0;
+            line-height: 1.4;
+        }
+
+        .podium-card p {
+            color: #a0a0b0;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin: 0 0 1.5rem 0;
+        }
+
+        .podium-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .podium-category {
+            display: inline-block;
+            background: rgba(212, 162, 84, 0.1);
+            color: #d4a254;
+            padding: 0.3rem 0.8rem;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            border: 1px solid rgba(212, 162, 84, 0.2);
+        }
+
+        .podium-read-link {
+            color: #d4a254;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .podium-read-link:hover {
+            gap: 0.8rem;
+        }
+
+        /* ================================================================
+           REMAINING ARTICLES — NOMINEE GRID
+           ================================================================ */
+
+        .nominees-section {
+            max-width: 1200px;
+            margin: 3.5rem auto;
+            padding: 0 2rem;
+        }
+
+        .nominees-label {
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #999;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            display: block;
+        }
+
+        .nominees-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .nominee-card {
+            background: linear-gradient(135deg, #0f0f1a 0%, #1a1020 100%);
+            border: 1px solid #2a2a3a;
+            border-radius: 6px;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: block;
+            color: inherit;
+        }
+
+        .nominee-card:hover {
+            border-color: #8b5cf6;
+            background: linear-gradient(135deg, #1a1020 0%, #252030 100%);
+        }
+
+        .nominee-score-badge {
+            display: inline-block;
+            background: rgba(212, 162, 84, 0.05);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            color: #d4a254;
+            padding: 0.4rem 0.8rem;
+            border-radius: 3px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .nominee-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #fff;
+            margin: 0 0 0.8rem 0;
+            line-height: 1.4;
+        }
+
+        .nominee-card p {
+            color: #909090;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin: 0 0 1.5rem 0;
+        }
+
+        .nominee-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .nominee-category {
+            display: inline-block;
+            background: rgba(139, 92, 246, 0.1);
+            color: #b8a8e0;
+            padding: 0.25rem 0.7rem;
+            border-radius: 2px;
+            font-size: 0.7rem;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+            border: 1px solid rgba(139, 92, 246, 0.2);
+        }
+
+        .nominee-read-link {
+            color: #8b5cf6;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            transition: all 0.3s ease;
+        }
+
+        .nominee-read-link:hover {
+            gap: 0.7rem;
+        }
+
+        /* ================================================================
+           FOOTER HUMOR
+           ================================================================ */
+
+        .best-reads-footer-humor {
+            text-align: center;
+            margin-top: 4rem;
+            padding: 2rem;
+            color: #777;
+            font-style: italic;
+            font-size: 0.95rem;
+        }
+
+        .best-reads-footer-humor strong {
+            color: #999;
+            font-weight: 600;
+        }
+
+        /* ================================================================
+           RESPONSIVE DESIGN
+           ================================================================ */
 
         @media (max-width: 768px) {
-            .best-reads-hero h1 { font-size: 2.2rem; }
-            .best-reads-hero { padding: 5rem 1.5rem 2rem; }
-            .best-reads-grid { grid-template-columns: 1fr; padding: 2rem 1.5rem; }
+            .best-reads-hero {
+                padding: 3rem 1.5rem;
+            }
+
+            .best-reads-hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .best-reads-hero .subtitle {
+                font-size: 1rem;
+            }
+
+            .stats-banner {
+                gap: 2rem;
+            }
+
+            .crown-jewel-card {
+                padding: 2rem;
+            }
+
+            .crown-jewel-card h2 {
+                font-size: 1.6rem;
+            }
+
+            .crown-jewel-card p {
+                max-width: 100%;
+            }
+
+            .podium-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .podium-card,
+            .nominee-card {
+                padding: 1.5rem;
+            }
+
+            .podium-card h3 {
+                font-size: 1.2rem;
+            }
+
+            .nominees-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -105,36 +537,9 @@
     </script>
 </head>
 <body>
-    <a href="#main-content" class="skip-to-content">Skip to content</a>
 
-    <!--
-  ============================================================
-  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
-  ============================================================
-  Every page on adoptedbygrace.net MUST use this EXACT nav block.
-  Copy-paste it verbatim. Do not add, remove, rename, or reorder
-  any links. Do not add a logo.
-
-  REQUIRED in <head>:
-    <link rel="stylesheet" href="/global.css">
-
-  REQUIRED before </body>:
-    <script src="/global.js" defer></script>
-<script src="/nav.js"></script>
-
-  DO NOT add any inline CSS for nav, hamburger, .nav-links,
-  .nav-right, .nav-container, .nav-site-name, .search-overlay,
-  or .mega-menu. All styling lives in /global.css.
-
-  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
-                     button that opens mega-menu dropdown
-  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
-                     Hamburger opens full-screen overlay menu
-
-  Last updated: 2026-03-29
-  ============================================================
--->
-        <nav role="navigation" aria-label="Main navigation">
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -198,171 +603,231 @@
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-    </div>
-    </div>
 
-
-
-    <main id="main-content">
-        <section class="best-reads-hero">
-            <div class="eyebrow">Curated Collection</div>
-            <h1>The <span class="ember">Best Reads</span></h1>
+    <!-- ==================== HERO ==================== -->
+    <section class="best-reads-hero">
+        <div class="best-reads-hero-content">
+            <span class="eyebrow">Curated Collection</span>
+            <h1>The Best Reads</h1>
             <p class="subtitle">Our most powerful, thought-provoking, and life-changing articles — hand-selected from across the entire site. If you read nothing else, read these.</p>
-        </section>
-
-        <hr class="section-divider">
-        <!-- Crown Jewel Featured Article -->
-        <div style="max-width: 900px; margin: 0 auto 4rem; padding: 3rem; background: linear-gradient(135deg, rgba(232, 100, 44, 0.12) 0%, rgba(139, 92, 246, 0.08) 100%); border: 2px solid rgba(232, 100, 44, 0.3); border-radius: 12px; text-align: center; position: relative; overflow: hidden;">
-            <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #e8642c, #8b5cf6);"></div>
-            <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.4em; color: #e8642c; margin-bottom: 1rem;">URGENT — READ THIS ARTICLE</p>
-            <h2 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #f0ece4; margin-bottom: 1rem; line-height: 1.3;">Are You Sure You're Saved?</h2>
-            <p style="color: #9a958c; font-size: 1.05rem; line-height: 1.8; max-width: 700px; margin: 0 auto 2rem;">Millions of Christians are unwittingly lost—trapped in a lie so subtle they don't even see it. They claim their faith was their choice. But if you chose your faith, you earned your salvation. And salvation cannot be earned. This is the most dangerous deception in church history, and it may have claimed you.</p>
-            <a href="/psychology-cost-of-rejecting-grace" style="display: inline-block; padding: 1rem 2.5rem; background: linear-gradient(135deg, #e8642c, #c0541e); color: #fff; font-weight: 700; font-size: 0.95rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(232, 100, 44, 0.35); border: 1px solid rgba(255,255,255,0.1);">Read This Now →</a>
-        </div>
-
-        <!-- BEST READS GRID — populated by abg-catalyst agent based on page scoring -->
-        <!-- Last updated: 2026-03-30 (Catalyst Session 2) -->
-        <section class="best-reads-grid" id="bestReadsGrid">
-
-            <a href="/psychology-cost-of-rejecting-grace" class="best-read-card" style="border: 2px solid rgba(232, 100, 44, 0.6); background: linear-gradient(135deg, rgba(232, 100, 44, 0.08) 0%, rgba(212, 162, 84, 0.05) 100%);">
-                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.8rem;">
-                    <span class="best-read-rank">MUST READ &middot; 10/10</span>
-                    <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.15em; padding: 0.35rem 0.8rem; border-radius: 4px; background: linear-gradient(135deg, rgba(232, 100, 44, 0.25), rgba(212, 162, 84, 0.15)); color: var(--accent-ember); font-weight: 600;">Crown Jewel</span>
+            <div class="stats-banner">
+                <div class="stat-item">
+                    <div class="stat-number">11</div>
+                    <div class="stat-label">Award-Winning Articles</div>
                 </div>
+                <div class="stat-item">
+                    <div class="stat-number">7</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Impact Potential</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CROWN JEWEL FEATURED ==================== -->
+    <section class="crown-jewel-section">
+        <div class="crown-jewel-card">
+            <span class="crown-jewel-badge">Urgent — Read This Article</span>
+            <h2>Are You Sure You're Saved?</h2>
+            <p>Millions of Christians are unwittingly lost—trapped in a lie so subtle they don't even see it. This isn't about theology; it's about whether you've truly encountered the grace that saves.</p>
+            <a href="/psychology-cost-of-rejecting-grace" class="crown-jewel-cta">Read This Now →</a>
+        </div>
+    </section>
+
+    <!-- ==================== TOP 3 PODIUM ==================== -->
+    <section class="podium-section">
+        <span class="podium-label">Featured Award-Winners</span>
+        <div class="podium-grid">
+            <!-- RANK 1: Gold Medal -->
+            <a href="/psychology-cost-of-rejecting-grace" class="podium-card">
+                <div class="medal-badge medal-gold">🥇</div>
+                <span class="podium-rank">Must Read</span>
+                <div class="podium-score">10/10</div>
                 <h3>Are You Sure You're Saved?</h3>
-                <p>This is not a theology lesson. This is an intervention. Five minutes that could change your eternity.</p>
-                <span class="best-read-category">Psychology</span>
+                <p>Millions of Christians are unwittingly lost—trapped in a lie so subtle they don't even see it. This article exposes the most insidious deception in the modern church.</p>
+                <div class="podium-meta">
+                    <span class="podium-category">Psychology</span>
+                    <span class="podium-read-link">Read →</span>
+                </div>
             </a>
 
-            <a href="/story-the-room-where-you-chose" class="best-read-card">
-                <span class="best-read-rank">Featured &middot; 9.3/10</span>
+            <!-- RANK 2: Silver Medal -->
+            <a href="/story-the-room-where-you-chose" class="podium-card">
+                <div class="medal-badge medal-silver">🥈</div>
+                <span class="podium-rank">Featured</span>
+                <div class="podium-score">9.3/10</div>
                 <h3>The Room Where You Chose</h3>
-                <p>You die on a Tuesday. Then you pull a golden thread backward through every decision that led you to God — and discover your name was written before any of them existed.</p>
-                <span class="best-read-category">Thought Experiment</span>
+                <p>A thought experiment that dissolves the illusion of autonomy. What if the choice you thought you made wasn't really yours to make? A profound meditation on predestination and free will.</p>
+                <div class="podium-meta">
+                    <span class="podium-category">Story</span>
+                    <span class="podium-read-link">Read →</span>
+                </div>
             </a>
 
-            <a href="/resistance-last-idol" class="best-read-card">
-                <span class="best-read-rank">Featured &middot; 9.1/10</span>
+            <!-- RANK 3: Bronze Medal -->
+            <a href="/resistance-last-idol" class="podium-card">
+                <div class="medal-badge medal-bronze">🥉</div>
+                <span class="podium-rank">Featured</span>
+                <div class="podium-score">9.1/10</div>
                 <h3>The Last Idol: Why Your Will Is the Final Thing You'll Surrender</h3>
-                <p>Every idol falls before this one. A psychological and theological excavation of the one thing we refuse to give up — and the freedom waiting on the other side.</p>
-                <span class="best-read-category">Psychology</span>
+                <p>The human will is the final fortress. We'll give up everything else before surrendering our autonomy. This article explains why—and what it means when grace finally breaks through.</p>
+                <div class="podium-meta">
+                    <span class="podium-category">Psychology</span>
+                    <span class="podium-read-link">Read →</span>
+                </div>
             </a>
-
-            <a href="/secular-billion-decisions" class="best-read-card">
-                <span class="best-read-rank">Secular Proof &middot; 9.0/10</span>
-                <h3>The Billion Decisions You Didn't Make Today</h3>
-                <p>Your heart beat 100,000 times yesterday without asking. Your immune system fought wars you never knew about. If God didn't trust your heartbeat to free will, why would He trust your salvation to it?</p>
-                <span class="best-read-category">Secular Evidence</span>
-            </a>
-
-            <a href="/devotional-never-gives-up" class="best-read-card">
-                <span class="best-read-rank">Devotional &middot; 8.5/10</span>
-                <h3>He Will Never Give Up On You</h3>
-                <p>You want a love with no exit clause. Every human love you've tasted had conditions. This devotional names the fear you're afraid to say aloud — and answers it with Scripture that will not let you go.</p>
-                <span class="best-read-category">Devotionals</span>
-            </a>
-
-            <a href="/psychology-why-we-resist" class="best-read-card">
-                <span class="best-read-rank">Psychology &middot; 8.4/10</span>
-                <h3>Why We Resist: The Psychology of Rejecting Sovereignty</h3>
-                <p>The human mind has built-in defense mechanisms against the truth of God's sovereignty. Psychology explains what Romans 1 already told us — we suppress the truth in unrighteousness.</p>
-                <span class="best-read-category">Why We Resist</span>
-            </a>
-
-            <a href="/secular-neuroscience-human-inability" class="best-read-card">
-                <span class="best-read-rank">Secular Proof &middot; 8.3/10</span>
-                <h3>Neuroscience Confirms Human Inability</h3>
-                <p>Your brain decides before "you" do. The Libet experiments proved what Scripture has taught for millennia — your conscious mind isn't the one calling the shots.</p>
-                <span class="best-read-category">Secular Evidence</span>
-            </a>
-
-            <a href="/story-the-dead-city" class="best-read-card">
-                <span class="best-read-rank">Story &middot; 8.1/10</span>
-                <h3>The Dead City</h3>
-                <p>A city of people who think they're alive — until the Voice calls some by name and color floods the world. A parable of irresistible grace that will haunt you.</p>
-                <span class="best-read-category">Stories</span>
-            </a>
-
-            <a href="/history-augustine-pelagius" class="best-read-card">
-                <span class="best-read-rank">History &middot; 8.0/10</span>
-                <h3>The First Great Battle for Grace: Augustine vs. Pelagius</h3>
-                <p>A British monk believed too much in man. An African bishop had lived too long in the slavery of sin to agree. Their collision shaped the gospel for 1,600 years.</p>
-                <span class="best-read-category">History</span>
-            </a>
-
-            <a href="/question-john6" class="best-read-card">
-                <span class="best-read-rank">Scripture</span>
-                <h3>John 6:37-44 — The Father's Drawing</h3>
-                <p>"All that the Father gives me will come to me." The passage that changed everything. Exegetical precision meets devastating clarity.</p>
-                <span class="best-read-category">The Evidence</span>
-            </a>
-
-            <a href="/demolition-john3-16" class="best-read-card">
-                <span class="best-read-rank">Demolition</span>
-                <h3>John 3:16 — The Verse Everyone Thinks They Understand</h3>
-                <p>The most misquoted verse in the history of Christianity — dismantled word by word from the Greek. You'll never read it the same way.</p>
-                <span class="best-read-category">Demolition Zone</span>
-            </a>
-
-        </section>
-
-        <div class="theology-humor">
-            "This page was predestined to be your favorite." — The Management
         </div>
-    </main>
+    </section>
 
-    <footer>
+    <!-- ==================== REMAINING NOMINEES ==================== -->
+    <section class="nominees-section">
+        <span class="nominees-label">More Excellence</span>
+        <div class="nominees-grid">
+            <!-- RANK 4 -->
+            <a href="/secular-billion-decisions" class="nominee-card">
+                <span class="nominee-score-badge">9.0/10</span>
+                <h4>The Billion Decisions You Didn't Make Today</h4>
+                <p>A secular proof of predestination hiding in plain sight. If all things are foreordained, what does that mean for human choice? This article finds the answer in creation itself.</p>
+                <div class="nominee-meta">
+                    <span class="nominee-category">Secular Proof</span>
+                    <span class="nominee-read-link">Read →</span>
+                </div>
+            </a>
+
+            <!-- RANK 5 -->
+            <a href="/devotional-never-gives-up" class="nominee-card">
+                <span class="nominee-score-badge">8.5/10</span>
+                <h4>He Will Never Give Up On You</h4>
+                <p>A devotional for those who feel abandoned. The promise that echoes through every page of Scripture: God will not let His people go, no matter how far they run.</p>
+                <div class="nominee-meta">
+                    <span class="nominee-category">Devotional</span>
+                    <span class="nominee-read-link">Read →</span>
+                </div>
+            </a>
+
+            <!-- RANK 6 -->
+            <a href="/psychology-why-we-resist" class="nominee-card">
+                <span class="nominee-score-badge">8.4/10</span>
+                <h4>Why We Resist: The Psychology of Rejecting Sovereignty</h4>
+                <p>The human psyche is hardwired to resist the idea that it has no ultimate control. This article explains the deep psychological mechanisms that make us reject grace.</p>
+                <div class="nominee-meta">
+                    <span class="nominee-category">Why We Resist</span>
+                    <span class="nominee-read-link">Read →</span>
+                </div>
+            </a>
+
+            <!-- RANK 7 -->
+            <a href="/secular-neuroscience-human-inability" class="nominee-card">
+                <span class="nominee-score-badge">8.3/10</span>
+                <h4>Neuroscience Confirms Human Inability</h4>
+                <p>What does modern neuroscience reveal about human free will? More than you might think. The science points to what Scripture has always taught about our deadness in sin.</p>
+                <div class="nominee-meta">
+                    <span class="nominee-category">Secular Proof</span>
+                    <span class="nominee-read-link">Read →</span>
+                </div>
+            </a>
+
+            <!-- RANK 8 -->
+            <a href="/story-the-dead-city" class="nominee-card">
+                <span class="nominee-score-badge">8.1/10</span>
+                <h4>The Dead City</h4>
+                <p>A haunting story about a city where no one can move, speak, or choose. A parable about total depravity that hits harder than any theological argument.</p>
+                <div class="nominee-meta">
+                    <span class="nominee-category">Story</span>
+                    <span class="nominee-read-link">Read →</span>
+                </div>
+            </a>
+
+            <!-- RANK 9 -->
+            <a href="/history-augustine-pelagius" class="nominee-card">
+                <span class="nominee-score-badge">8.0/10</span>
+                <h4>The First Great Battle for Grace: Augustine vs. Pelagius</h4>
+                <p>The conflict that shaped church history. Augustine fought to defend human depravity and God's irresistible grace against Pelagius's insistence on human capacity. The battle rages still.</p>
+                <div class="nominee-meta">
+                    <span class="nominee-category">History</span>
+                    <span class="nominee-read-link">Read →</span>
+                </div>
+            </a>
+
+            <!-- RANK 10 -->
+            <a href="/question-john6" class="nominee-card">
+                <span class="nominee-score-badge">8.0/10</span>
+                <h4>John 6:37-44 — The Father's Drawing</h4>
+                <p>One of Scripture's most devastating passages about election. If no one comes to the Father except those whom He draws, then what does that mean for human choice?</p>
+                <div class="nominee-meta">
+                    <span class="nominee-category">The Evidence</span>
+                    <span class="nominee-read-link">Read →</span>
+                </div>
+            </a>
+
+            <!-- RANK 11 -->
+            <a href="/demolition-john3-16" class="nominee-card">
+                <span class="nominee-score-badge">8.0/10</span>
+                <h4>John 3:16 — The Verse Everyone Thinks They Understand</h4>
+                <p>The most quoted verse in Scripture might be the most misunderstood. What does "God so loved the world" really mean? The truth is far more radical than you think.</p>
+                <div class="nominee-meta">
+                    <span class="nominee-category">Demolition</span>
+                    <span class="nominee-read-link">Read →</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER HUMOR ==================== -->
+    <section class="best-reads-footer-humor">
+        <p>"This page was <strong>predestined</strong> to be your favorite." — <strong>The Management</strong></p>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer-section">
         <div class="footer-container">
-            <div class="footer-section">
-                <h4>Explore</h4>
-                <ul>
-                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                    <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
-                </ul>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Truth</h4>
+                    <ul>
+                        <li><a href="/systematic-theology">Systematic Theology</a></li>
+                        <li><a href="/devotionals">Devotionals</a></li>
+                        <li><a href="/stories">Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="/questions">Questions</a></li>
+                        <li><a href="/demolition-hub">Demolition</a></li>
+                        <li><a href="/psychology-hub">Why We Resist</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Learn</h4>
+                    <ul>
+                        <li><a href="/history-timeline">Through the Ages</a></li>
+                        <li><a href="/secular-evidence">Secular Evidence</a></li>
+                        <li><a href="/start-here">Start Here</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="/about">About This Site</a></li>
+                        <li><a href="https://substack.com/@ForeknownOne" target="_blank">Substack</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-section">
-                <h4>Go Deeper</h4>
-                <ul>
-                    <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                    <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
-                    <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
-                </ul>
+            <div class="footer-grace-warning">
+                "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+                Grace is not a license to sin. It is the power that frees us from sin's dominion.
             </div>
-            <div class="footer-section">
-                <h4>History</h4>
-                <ul>
-                    <li><a href="/history-timeline">Church History</a></li>
-                    <li><a href="/theologians">Theologians</a></li>
-                    <li><a href="/ot-election">OT Election</a></li>
-                    <li><a href="/creeds-confessions">Creeds</a></li>
-                </ul>
+            <div class="footer-copyright">
+                <p>&copy; 2024-2026 Adopted by Grace. All rights reserved. Built with truth.</p>
             </div>
-            <div class="footer-section">
-                <h4>Site</h4>
-                <ul>
-                    <li class="mobile-nav-link"><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="/explore-map">Site Map</a></li>
-                    <li><a href="/privacy">Privacy</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-grace-warning">
-            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
-            Grace is not a license to sin. It is the power that frees us from sin's dominion.
-        </div>
-        <div class="footer-copyright">
-            &copy; 2025 Adopted by Grace &mdash; Soli Deo Gloria
         </div>
     </footer>
 
-    
+    <script src="/nav.js"></script>
 
-    
-    <script src="/global.js" defer></script>
-<script src="/nav.js"></script>
 </body>
 </html>

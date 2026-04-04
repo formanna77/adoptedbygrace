@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The River That Thinks It Chose Its Path | Adopted by Grace</title>
+    <meta name="description" content="A river flows freely—rushing, turning, cascading. But every twist was determined by terrain carved before the first drop fell. You are that river. And there is Someone who carved the canyon.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="The River That Thinks It Chose Its Path">
+    <meta property="og:description" content="A river flows freely—rushing, turning, cascading. But every twist was determined by terrain carved before the first drop fell. You are that river.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/analogy-river">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The River That Thinks It Chose Its Path">
+    <meta name="twitter:description" content="Every twist of the river was determined by terrain carved before the water arrived. You are that river. Someone carved your canyon.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://adoptedbygrace.net/analogy-river">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="/global.css">
+
+    <!-- Page-Specific Styles -->
+    <style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+        }
+
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-ember), var(--accent-violet));
+            z-index: 9999;
+            transition: width 0.2s ease;
+        }
+
+        .page-hero {
+            position: relative;
+            padding: 6rem 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .page-hero .eyebrow {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .page-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 6vw, 3.5rem);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .page-hero h1 .gold {
+            color: var(--accent-gold);
+        }
+
+        .page-hero .subtitle {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            font-weight: 300;
+        }
+
+        .content-wrap {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            color: var(--text-primary);
+            line-height: 1.9;
+        }
+
+        .content-wrap h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.75rem, 4vw, 2.25rem);
+            font-weight: 700;
+            margin: 3rem 0 1.5rem 0;
+            color: var(--text-primary);
+        }
+
+        .content-wrap h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 2.5rem 0 1rem 0;
+            color: var(--accent-gold);
+        }
+
+        .content-wrap p {
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .scripture {
+            margin: 2.5rem 0;
+            padding: 2rem;
+            border-left: 4px solid var(--accent-gold);
+            background: rgba(212, 162, 84, 0.05);
+            border-radius: 0 4px 4px 0;
+        }
+
+        .scripture .ref {
+            font-size: 0.9rem;
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .scripture p {
+            font-style: italic;
+            margin: 0;
+            color: var(--text-secondary);
+        }
+
+        .pullquote {
+            margin: 2.5rem 0;
+            padding: 2rem;
+            border-left: 4px solid var(--accent-violet);
+            background: rgba(139, 92, 246, 0.05);
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: var(--text-primary);
+            font-style: italic;
+        }
+
+        .pullquote strong {
+            color: var(--accent-gold);
+        }
+
+        .aha-moment {
+            margin: 3rem 0;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(139, 92, 246, 0.1));
+            border: 1px solid rgba(212, 162, 84, 0.3);
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .aha-moment::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-ember), var(--accent-gold), var(--accent-violet));
+        }
+
+        .aha-moment p {
+            margin: 0;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .pastoral {
+            margin: 3rem 0;
+            padding: 2rem;
+            background: rgba(9, 9, 15, 0.5);
+            border-left: 4px solid var(--accent-gold);
+            border-radius: 4px;
+        }
+
+        .pastoral p {
+            margin: 0.75rem 0;
+        }
+
+        .pastoral strong {
+            color: var(--accent-gold);
+        }
+
+        .cross-links {
+            margin: 4rem 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .cross-link {
+            padding: 1.5rem;
+            background: rgba(212, 162, 84, 0.08);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            border-radius: 6px;
+            text-decoration: none;
+            color: var(--accent-gold);
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .cross-link:hover {
+            background: rgba(212, 162, 84, 0.15);
+            border-color: rgba(212, 162, 84, 0.4);
+            transform: translateX(4px);
+        }
+
+        .cross-link::after {
+            content: '→';
+            font-size: 1.2rem;
+        }
+
+        .never-gives-up-banner {
+            margin: 4rem 0;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(232, 100, 44, 0.15));
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .never-gives-up-banner h3 {
+            margin: 0 0 1rem 0;
+            color: var(--accent-violet);
+        }
+
+        .never-gives-up-banner p {
+            margin: 0;
+            line-height: 1.8;
+        }
+
+        .never-gives-up-banner a {
+            color: var(--accent-gold);
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 2px solid var(--accent-gold);
+        }
+
+        .never-gives-up-banner a:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            margin-top: 6rem;
+            padding: 3rem 2rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            color: var(--text-secondary);
+        }
+
+        .footer-container {
+            max-width: 1000px;
+            margin: 0 auto 3rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 2rem;
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-grace-warning {
+            max-width: 1000px;
+            margin: 0 auto 2rem;
+            padding: 1.5rem;
+            border-left: 4px solid var(--accent-ember);
+            background: rgba(232, 100, 44, 0.08);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .page-hero {
+                padding: 3rem 1.5rem;
+                margin-top: 1rem;
+            }
+
+            .content-wrap {
+                padding: 0 1.5rem;
+            }
+
+            .scripture, .pullquote, .aha-moment, .pastoral {
+                padding: 1.5rem;
+            }
+
+            .cross-links {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The River That Thinks It Chose Its Path",
+        "description": "A river flows freely—rushing, turning, cascading. But every twist was determined by terrain carved before the first drop fell. You are that river. And there is Someone who carved the canyon.",
+        "image": "https://adoptedbygrace.net/og-image.png",
+        "datePublished": "2026-04-04",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+<!-- Reading Progress Bar -->
+<div class="reading-progress" id="readingProgress"></div>
+
+<!-- Navigation -->
+<nav role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+        <a href="/" class="nav-site-name">Adopted by Grace</a>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <ul class="nav-links">
+            <li class="mobile-menu-search" style="list-style:none;">
+                <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+            </li>
+            <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+            <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+            <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+            <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+            <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+            <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+            <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+            <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+            <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+            <li class="mobile-nav-link"><a href="/about">About</a></li>
+            <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+        </ul>
+        <div class="nav-right">
+            <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+            <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+            <a href="/start-here" class="nav-top-link">Start Here</a>
+            <a href="/questions" class="nav-top-link">Questions</a>
+            <a href="/systematic-theology" class="nav-top-link">Theology</a>
+            <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+            <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+            <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+            <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+            <a href="/about" class="nav-top-link">About</a>
+            <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                <span class="mega-menu-toggle-label">Explore</span>
+            </button>
+            <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<div class="mega-menu" id="megaMenu"></div>
+<div class="search-overlay" id="searchOverlay">
+    <div class="search-overlay-inner">
+        <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+        <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+</div>
+
+<!-- Page Hero -->
+<section class="page-hero">
+    <div class="eyebrow">Analogy</div>
+    <h1>The River That <span class="gold">Thinks</span> It Chose Its Path</h1>
+    <p class="subtitle">A river flows freely—rushing, turning, cascading over rocks. It appears to go wherever it wants. But every twist, every turn, every rapid was determined by the terrain carved before the first drop of water fell. You are that river. And there is Someone who carved the canyon.</p>
+</section>
+
+<!-- Main Content -->
+<div class="content-wrap">
+
+    <h2>Watch a River</h2>
+    <p>Have you ever stood on a bridge or sat on a bank and actually <em>watched</em> a river? Not for a moment, but long enough to see its personality emerge—the way it braids and splits, how it rushes where the channel narrows, how it pools in the deep places, how it crashes against the rocks as if the rocks had personally offended it?</p>
+
+    <p>A river looks like the freest thing alive. It curves where it wants to curve. It cascades where it wants to cascade. It swirls and eddies and finds its own way. Watch it long enough and you start to believe the river is choosing. The river is deciding. The river has agency and will.</p>
+
+    <p>But here is the thing that should stop you cold: <strong>every single movement the river makes was determined before the river existed.</strong></p>
+
+    <h2>The Terrain Came First</h2>
+    <p>The riverbed was carved millions of years before the first drop of water fell into it. Geology—the slow grinding of tectonic forces, the patient work of wind and rain and time—created the channel. The canyon walls were shaped. The rocks were positioned. The elevation was set. The banks were defined.</p>
+
+    <p>Only then did the water arrive. And the moment it did, every movement of that water was determined entirely by the topography that had been shaped before it came.</p>
+
+    <p>The river does not flow freely. The river flows <em>within boundaries that were already there.</em> And because those boundaries are total—because there is no place the water can go except through the channel carved for it—the river appears to flow wherever it wants, when in fact it has no choice at all.</p>
+
+    <div class="aha-moment">
+        <p><strong>The water's freedom and its total determinism are the same thing.</strong> The river is genuinely flowing. Its power is real. Its movement is actual. But it flows exactly where the terrain demands, because the terrain came first.</p>
+    </div>
+
+    <h2>This Is How Everything Works</h2>
+    <p>This is not poetry. This is physics. This is how causation actually operates in the real world.</p>
+
+    <p>Initial conditions determine all future states. The terrain determines where the water goes. Your genetics determine your capacity for emotion and reason. Your neural architecture—carved by development and experience—determines what you will do next. The billion variables set before you were born determine the billion choices you will make.</p>
+
+    <p>A fish in a bowl is free to swim. It swims freely. It goes wherever it chooses within the bowl. But the bowl determines every possible place the fish can go. <a href="/secular-billion-decisions">The bowl is total.</a> The fish cannot leave. And because it cannot leave, all its choosing happens within constraints that were established before the fish was born.</p>
+
+    <p>You are that fish. Your life is that river. Your choices are real—genuinely, actually yours. But they flow through a channel carved before you existed. And that channel was carved by <a href="/systematic-theology">Someone who sees all the way to the end.</a></p>
+
+    <h2>What Scripture Actually Says</h2>
+
+    <div class="scripture">
+        <span class="ref">Proverbs 21:1 (ESV)</span>
+        <p>"The king's heart is a stream of water in the hand of the LORD; he turns it wherever he will."</p>
+    </div>
+
+    <p>Not a stream that God influences. Not a stream that God guides gently. A stream <em>in His hand</em> that He <em>turns</em> wherever He wills. The very image is of a river being directed by sovereign hands. The water is flowing. The water is moving. But it is moving exactly where the Hand turns it.</p>
+
+    <div class="scripture">
+        <span class="ref">Jeremiah 10:23 (ESV)</span>
+        <p>"I know, O LORD, that the way of man is not in himself, that it is not in man who walks to direct his steps."</p>
+    </div>
+
+    <p>Not that man has a hard time directing his steps. Not that man needs help directing his steps. That <em>it is not in man.</em> The capacity to direct one's own steps belongs not to the creature but to the Creator. Your steps are not yours to direct. They flow where the terrain goes.</p>
+
+    <div class="scripture">
+        <span class="ref">Psalm 139:16 (ESV)</span>
+        <p>"Your eyes saw my unformed substance; in your book were written, every one of them, the days that were formed for me, when as yet there was none of them."</p>
+    </div>
+
+    <p>Not that God predicted your days. That He <em>wrote</em> them. In His book, before you existed, every day was already there. You are reading a book that has been written for you. The river is flowing through a canyon already carved.</p>
+
+    <h2>The Comfort in the Current</h2>
+    <p>Here is what the human heart cannot bear to hear: you are not in control. Your life is not ultimately your decision. Your salvation was not your achievement.</p>
+
+    <p>And here is what the human heart cannot bear to hear <em>but desperately needs to know:</em> that is the best news imaginable.</p>
+
+    <div class="pullquote">
+        <p><strong>A river without banks is a flood.</strong> It is destructive. Purposeless. It destroys what it should nourish. It drowns what it should water. A river with banks—a river that flows where it was meant to flow—is a force of life.</p>
+    </div>
+
+    <p>If your life had no sovereignty written into it, you would be chaos. <a href="/psychology-autonomy-illusion">You would be a flood of impulses, wounds, and contradictions.</a> You would have freedom with no direction. You would have agency with no love guiding it. You would be utterly alone in an infinite wilderness with no map and no compass.</p>
+
+    <p>But you have been carved into a canyon. <a href="/devotional-never-gives-up">The terrain of your life has been shaped by Someone who saw you before you existed and loved you before you could love Him back.</a> Your life flows toward Him not because you have no choice—you have complete choice within the channel—but because the channel itself is carved in the direction of grace.</p>
+
+    <p>Every turn, every cascade, every rapid and pool in your life is not happening <em>in spite of</em> God's sovereignty. It is happening <em>because of it.</em> The freedom you experience is real. The choices you make matter. But they matter because they flow through a channel carved by Someone who knew exactly where this water needs to go.</p>
+
+    <h2>The Illusion of Alternative</h2>
+    <p><a href="/secular-philosophy-free-will">Most people imagine that freedom means having had an alternative choice.</a> That genuine choice requires that at any moment, you could have done otherwise. But that is not how freedom works in the real world. That is libertarian fantasy.</p>
+
+    <p>A chess grandmaster makes a move. It is the only move he would ever make in that position because he sees seventeen moves ahead. His freedom consists in seeing so far that he chooses exactly what he must choose. His mastery is the total alignment of his desire with the best move.</p>
+
+    <p><a href="/analogy-chess-grandmaster">That is how God works in your life.</a> He sees so far that He can predetermine your steps and you can make them freely, because what you want and what He has ordained are the same thing. The terrain and your flowing are one reality described from two angles.</p>
+
+    <div class="pastoral">
+        <p><strong>If you are resisting this,</strong> notice what you are resisting. You are resisting the idea that you might not be the hero of your own story. You are resisting the possibility that <a href="/psychology-fear-control">your deepest sense of autonomy might be an illusion.</a> You are resisting the surrender that comes when you finally admit: I did not choose this. I was chosen. And I am loved.</p>
+        <p>That resistance is not courage. That is <a href="/question-where-did-your-faith-come-from">pride in its most subtle disguise.</a></p>
+    </div>
+
+    <h2>You Are the River</h2>
+    <p>Your life is flowing. You are moving. You are choosing and acting and responding and deciding. All of that is real. All of that is you.</p>
+
+    <p>But you are flowing through a canyon that was carved before you were born. That canyon is not a prison. It is the channel that turns chaos into a river, that turns your raw life-force into something that carves canyons of its own, that turns you into an instrument of the will of Someone who loves you more than you can fathom.</p>
+
+    <p>The terrain came first. The water will always flow where the terrain demands. And the terrain was carved with your name on it, shaped specifically for this water, formed by a God who knew you before the foundation of the world and will never let you go.</p>
+
+    <p>Stop fighting the banks. Stop wishing you could be a flood. Flow where you were made to flow. And discover that <a href="/start-here">the greatest freedom you could ever experience is not the freedom to choose your own way—it is the freedom to flow freely in the way you were always meant to go.</a></p>
+
+    <div class="never-gives-up-banner">
+        <h3>He Will Never Let You Go</h3>
+        <p>Your life is not out of control. It is not random. You were chosen, shaped, and sustained by Someone whose love is as relentless as a river. <a href="/devotional-never-gives-up">Discover what it means to rest in a sovereignty that will never abandon you.</a></p>
+    </div>
+
+    <h2>Go Deeper</h2>
+    <div class="cross-links">
+        <a href="/secular-billion-decisions" class="cross-link">The Billion Decisions Argument</a>
+        <a href="/question-where-did-your-faith-come-from" class="cross-link">Where Did Your Faith Come From?</a>
+        <a href="/analogy-chess-grandmaster" class="cross-link">The Chess Grandmaster</a>
+        <a href="/analogy-drowning-man" class="cross-link">The Drowning Man</a>
+        <a href="/psychology-autonomy-illusion" class="cross-link">The Autonomy Illusion</a>
+        <a href="/psychology-fear-control" class="cross-link">Why We Fear Loss of Control</a>
+        <a href="/devotional-never-gives-up" class="cross-link">Never Gives Up</a>
+        <a href="/secular-philosophy-free-will" class="cross-link">Free Will & Physics</a>
+        <a href="/start-here" class="cross-link">Start Here</a>
+        <a href="/systematic-theology" class="cross-link">Systematic Theology</a>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Truth</h4>
+            <ul>
+                <li><a href="/questions">Questions</a></li>
+                <li><a href="/systematic-theology">Systematic Theology</a></li>
+                <li><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Explore</h4>
+            <ul>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li><a href="/devotionals">Devotionals</a></li>
+                <li><a href="/best-reads">Best Reads</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Connect</h4>
+            <ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-grace-warning">
+        "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+        Grace is not a license to sin. It is the power that frees us from sin's dominion.
+    </div>
+    <div class="footer-copyright">
+        &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+    </div>
+</footer>
+
+<!-- Navigation Scripts -->
+<script src="/nav.js"></script>
+
+<!-- Reading Progress Script -->
+<script>
+    document.addEventListener('scroll', () => {
+        const height = document.documentElement.scrollHeight - window.innerHeight;
+        const scrolled = (window.scrollY / height) * 100;
+        document.getElementById('readingProgress').style.width = scrolled + '%';
+    });
+</script>
+
+</body>
+</html>
