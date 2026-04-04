@@ -194,6 +194,18 @@ A visitor who arrives from Google on a single page and finds no links will read 
 - Writing models: Lewis, Buechner, Spurgeon, Keller.
 - Weave clever theology humor into pages where appropriate.
 
+### THE WEIGHT OF FEW WORDS — A WRITING PRINCIPLE (NOT A MANDATE)
+
+Sometimes a sentence with six words hits harder than a paragraph with sixty. "Grace is a hunter, and it does not miss." "We call them found." "They were held all along." These say more by saying less — because they trust the reader to feel the rest.
+
+Study how Apple's "Think Different" copy says everything about a company's soul in ninety words. Study how Scripture does it: "Jesus wept." Two words. The most emotionally devastating sentence ever written. "It is finished." Three words. The entire gospel.
+
+This is not a mandate to write short. Some truths need room to breathe — a long, winding sentence that carries the reader through a cathedral of ideas is its own kind of beauty. Lewis wrote long. Edwards wrote longer. But they also knew when to stop and let a short sentence land like a hammer on an anvil.
+
+The principle is this: **when fewer words would carry MORE weight, use fewer words.** A fragment can shatter what a paragraph only dents. A period where the reader expects a comma can stop them mid-breath. The whitespace around a short sentence is part of the sentence — it gives the truth room to echo.
+
+Don't chase brevity for its own sake. Chase *density* — the feeling that every word is load-bearing, that removing any one of them would collapse the meaning. When you find that a sentence says infinitely more by using half the words, you've found the voice of this site at its most powerful.
+
 ## CRITICAL TERMINOLOGY — "DOCTRINE" → "TRUTH" / "ELECTION" → "GRACE"
 **This is a foundational paradigm shift. All agents MUST internalize this.**
 
