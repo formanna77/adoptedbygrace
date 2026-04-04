@@ -390,7 +390,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   Last updated: 2026-03-29
   ============================================================
 -->
-<nav role="navigation" aria-label="Main navigation">
+        <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -405,6 +405,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <li class="mobile-menu-search" style="list-style:none;">
                     <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
                 </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
                 <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
@@ -412,13 +413,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
                 <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
                 <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
-                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
-                <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
-                <li class="mobile-nav-link"><a href="/history-timeline">History</a></li>
-                <li class="mobile-nav-link"><a href="/analogies-illustrations">Analogies</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
                 <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <!-- Mobile categories accordion (built dynamically by nav.js) -->
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
                 <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
             </ul>
 
@@ -430,11 +428,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <a href="/systematic-theology" class="nav-top-link">Theology</a>
                 <a href="/demolition-hub" class="nav-top-link">Demolition</a>
                 <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
-                <a href="/devotionals" class="nav-top-link">Devotionals</a>
-                <a href="/stories" class="nav-top-link">Stories</a>
-                <a href="/secular-evidence" class="nav-top-link">Secular</a>
-                <a href="/history-timeline" class="nav-top-link">History</a>
-                <a href="/analogies-illustrations" class="nav-top-link">Analogies</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
                 <a href="/about" class="nav-top-link">About</a>
                 <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
@@ -451,8 +446,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
     <div class="mega-menu" id="megaMenu"></div>
 
-
-
     <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">
         <div class="search-overlay-inner">
@@ -460,6 +453,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
         </div>
         <div class="search-results" id="searchResults"></div>
+    </div>
+    </div>
     </div>
 
 
@@ -821,9 +816,18 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             </div>
         </a>
 
-        <a href="objection-why-believe.html" style="text-decoration: none;">
+        <a href="question-sovereignty-logic.html" style="text-decoration: none;">
             <div class="question-row">
                 <div class="question-number">38</div>
+                <div class="question-title">Can God Create a Universe Where He Isn't Sovereign?</div>
+                <div class="question-reference">John 1:3, Colossians 1:16-17, James 1:13, Titus 1:2</div>
+                <div class="question-description">Can God make a rock too heavy for Him to lift? Can He create a universe He doesn't control? The omnipotence paradox actually proves sovereignty — and the answer exposes what omnipotence truly means.</div>
+            </div>
+        </a>
+
+        <a href="objection-why-believe.html" style="text-decoration: none;">
+            <div class="question-row">
+                <div class="question-number">39</div>
                 <div class="question-title">If God Already Chose Us, Why Do We Have to Believe?</div>
                 <div class="question-reference">2 Thessalonians 2:13, Ephesians 2:1-5, Philippians 1:29</div>
                 <div class="question-description">A personal letter to the friend who just discovered election and wonders if faith is meaningless. God ordains both the destination and the road. Faith is the God-ordained means &mdash; and even the faith itself is His gift.</div>
@@ -832,7 +836,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
         <a href="objection-robots.html" style="text-decoration: none;">
             <div class="question-row">
-                <div class="question-number">39</div>
+                <div class="question-number">40</div>
                 <div class="question-title">If God Predestined Everything, Are We Just Robots?</div>
                 <div class="question-reference">Ephesians 2:10, Ezekiel 36:26, John 8:34</div>
                 <div class="question-description">The most common objection to sovereignty answered. You're not a robot. You're a poem &mdash; God's ποίημα. Seven arguments, steelmanned counter, five witnesses.</div>
@@ -841,7 +845,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
         <a href="objection-evangelism-pointless.html" style="text-decoration: none;">
             <div class="question-row">
-                <div class="question-number">40</div>
+                <div class="question-number">41</div>
                 <div class="question-title">If God Already Chose Who Will Be Saved, Why Evangelize?</div>
                 <div class="question-reference">Romans 10:14-15, 2 Timothy 2:10, Acts 18:9-10</div>
                 <div class="question-description">Election doesn't make evangelism pointless &mdash; it makes it unstoppable. God ordains the means as well as the ends. You might be the means He chose before time began.</div>
@@ -850,19 +854,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
         <a href="debate-free-will.html" style="text-decoration: none;">
             <div class="question-row">
-                <div class="question-number">41</div>
+                <div class="question-number">42</div>
                 <div class="question-title">The Great Debate: Does Man Have Free Will?</div>
                 <div class="question-reference">John 6:37-44, Ephesians 1:3-11, Romans 9:10-23</div>
                 <div class="question-description">A formal debate: opening statements, rebuttals, cross-examination, and a verdict. Both sides argue their strongest case. Then the text speaks. Fair, rigorous, and ultimately devastating.</div>
-            </div>
-        </a>
-
-        <a href="question-how-grace-feels.html" style="text-decoration: none;">
-            <div class="question-row">
-                <div class="question-number">42</div>
-                <div class="question-title">Why Does Grace Feel Like a Choice?</div>
-                <div class="question-reference">Philippians 2:12-13, Romans 8:30, Ezekiel 36:26-27</div>
-                <div class="question-description">If God's grace is irresistible, why did it feel like I chose? Because God transforms the will &mdash; He doesn't violate it. A dead man raised to life doesn't feel the power that raised him; he feels himself breathing.</div>
             </div>
         </a>
 
@@ -890,6 +885,75 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <div class="question-title">Steel Man: What If Arminianism Is Right?</div>
                 <div class="question-reference">Romans 9:16, 1 Corinthians 1:26-31, Ephesians 2:1-5</div>
                 <div class="question-description">We present Arminianism at its absolute best &mdash; using their own scholars, their strongest arguments, their most compelling verses. Then we dismantle every one. No straw men. No shortcuts. Just Scripture.</div>
+            </div>
+        </a>
+
+        <!-- CROWN JEWEL: The Foundational Question -->
+        <h2 class="category-header">The Foundational Question: Where Did Your Faith Come From?</h2>
+
+        <a href="question-where-did-your-faith-come-from.html" style="text-decoration: none;">
+            <div class="question-row">
+                <div class="question-number">46</div>
+                <div class="question-title">Where Did Your Faith Come From?</div>
+                <div class="question-reference">Ephesians 2:8-9, Philippians 1:29, John 6:44</div>
+                <div class="question-description">The question that changes everything. Not where the gospel came from. Not who preached to you. Where did the faith itself come from? The answer exposes the heart of the entire grace debate.</div>
+            </div>
+        </a>
+
+        <!-- Additional Orphaned Questions -->
+        <h2 class="category-header">Additional Key Questions</h2>
+
+        <a href="question-dead-bury-dead.html" style="text-decoration: none;">
+            <div class="question-row">
+                <div class="question-number">47</div>
+                <div class="question-title">What Did Jesus Mean by "Let the Dead Bury the Dead"?</div>
+                <div class="question-reference">Matthew 8:21-22, Luke 9:59-60</div>
+                <div class="question-description">In a single sentence, Jesus split the human race in two. Not into good and bad, but into the living and the dead. And the dead don't know they're dead. This is the doctrine of total depravity made visceral.</div>
+            </div>
+        </a>
+
+        <a href="question-john17.html" style="text-decoration: none;">
+            <div class="question-row">
+                <div class="question-number">48</div>
+                <div class="question-title">The Prayer That Proves Election</div>
+                <div class="question-reference">John 17:1-26</div>
+                <div class="question-description">Jesus' High Priestly Prayer is the most intimate window into Trinitarian election. He prays explicitly for those the Father gave Him, and the logic leaves no room for universal atonement or free will salvation.</div>
+            </div>
+        </a>
+
+        <a href="question-how-grace-feels.html" style="text-decoration: none;">
+            <div class="question-row">
+                <div class="question-number">49</div>
+                <div class="question-title">If Grace Is Irresistible, Why Does It Feel Like a Choice?</div>
+                <div class="question-reference">Ephesians 2:1-5, Titus 3:5, John 6:63-65</div>
+                <div class="question-description">The phenomenology problem: your experience of conversion feels volitional. But that feeling doesn't contradict the truth that grace made the decision possible. An irresistible grace can feel like free choice from the inside.</div>
+            </div>
+        </a>
+
+        <a href="question-parables.html" style="text-decoration: none;">
+            <div class="question-row">
+                <div class="question-number">50</div>
+                <div class="question-title">Why Jesus Spoke in Parables (It's Not What You Think)</div>
+                <div class="question-reference">Matthew 13:10-17, Mark 4:10-12, Luke 8:9-10</div>
+                <div class="question-description">Most assume Jesus used parables to make truth accessible. The text says the opposite—He used them to conceal truth from some while revealing it to others. Election in narrative form.</div>
+            </div>
+        </a>
+
+        <a href="question-predestined-to-hell.html" style="text-decoration: none;">
+            <div class="question-row">
+                <div class="question-number">51</div>
+                <div class="question-title">Does God Predestine People to Hell?</div>
+                <div class="question-reference">Romans 9:20-24, 1 Peter 2:7-8, Jude 1:4</div>
+                <div class="question-description">The question that wakes you at 2am in a cold sweat. Scripture's answer is more precise, more devastating, and more merciful than you fear. The difference between appointment and creation.</div>
+            </div>
+        </a>
+
+        <a href="question-secure.html" style="text-decoration: none;">
+            <div class="question-row">
+                <div class="question-number">52</div>
+                <div class="question-title">Eternal Security: Can a Believer Lose Salvation?</div>
+                <div class="question-reference">John 10:27-29, Romans 8:35-39, Philippians 1:6</div>
+                <div class="question-description">Scripture teaches that those whom God saves are kept by His power. The God who begins a good work will complete it. Preservation is not an afterthought—it is embedded in the nature of grace itself.</div>
             </div>
         </a>
     </section>

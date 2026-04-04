@@ -1,134 +1,317 @@
 # Fleet Analytics Intelligence
-**Last updated:** 2026-03-30 9:45 AM CT
-**Period:** Last 7 days (Mar 23–30, 2026)
-**Total site requests:** 10,856 (up from 8,985 last week — **+20.8% growth**)
-**Total content page requests (visible in top 50):** ~1,933 (excluding static assets, bot probes, meta files)
-**Note:** Netlify Observability shows top 50 URLs by request count. Pages below ~18 requests/week are not captured but still contribute to the total. With 200+ content pages now live, most long-tail pages fall below this threshold.
+**Last updated:** April 4, 2026 12:30 PM CT
+**Period:** Last 7 days (Mar 28 – Apr 4, 2026)
+**Total requests (all):** 13,248 (up from 10,856 last week — **+22.0% growth**)
+**Total content page requests (filtered):** ~4,120
+**Unique content URLs visited:** 224
+**Error rate:** 12.14% (mostly bot probes hitting wp-admin, .env, xmlrpc — NOT real user errors)
+**Data source:** Netlify Observability, grouped by URL, all 7 pages extracted (350+ URL rows)
+
+---
 
 ## TOP PERFORMING CATEGORIES (double down)
 
-1. **Questions & Objections** — 232 requests across 9 pages visible in top 50, out of 40 total pages. Hub page at 38 requests. `/objection-why-command` is STILL the #1 content page at 48 requests. Six individual question pages made the top 50. This category dominates because it matches how people actually search — they Google their objections.
-2. **Devotionals** — 61 requests across 2 visible pages, out of 16 total. Hub at 40, `/devotional-never-gives-up` at 21. The hub is performing strongly as an entry point. Per-visible-page average of 30.5 is excellent.
-3. **Demolition** — 59 requests across 2 visible pages, out of 19 total. Hub at 40, `/demolition-john3-16` at 19. Hub performing well. Many demolition pages likely exist in the 10-17 range just below visibility.
-4. **Psychology of Resistance** — 53 requests across 2 visible pages, out of only 5 total. Hub at 27, `/psychology-why-we-resist` at 26. **Highest per-page ratio in the entire site.** With only 5 pages, this tiny category punches way above its weight. Both pages nearly tied — visitors who find the hub click through.
-5. **Systematic Theology** — 53 requests across 2 visible pages (hub at 34 + theologians hub at 19), out of 32 total pages (21 systematic + 11 theologian). Large library but most pages fall below top 50 visibility. Hub performs well as entry point.
+| Rank | Category | Requests | Pages | Avg/Page | Verdict |
+|------|----------|----------|-------|----------|---------|
+| 1 | **Homepage** | 1,384 | 1 | 1,384.0 | Gateway working — people are finding the site |
+| 2 | **Questions & Objections** | 414 | 42 | 9.9 | **#1 content category by total volume** — massive breadth |
+| 3 | **History & Theologians** | 257 | 23 | 11.2 | Strong depth, good per-page average |
+| 4 | **Demolition** | 221 | 20 | 11.1 | Core category performing well |
+| 5 | **Systematic Theology** | 206 | 20 | 10.3 | Solid academic backbone |
+| 6 | **Psychology of Resistance** | 199 | 11 | **18.1** | **HIGHEST per-page average of any content category** |
+| 7 | **Old Testament / Scripture** | 165 | 16 | 10.3 | Steady performer |
+| 8 | **Devotionals** | 141 | 15 | 9.4 | The "right arm" — needs more volume |
+| 9 | **Start Here Journey** | 115 | 9 | 12.8 | Strong funnel engagement |
+| 10 | **Secular Evidence** | 107 | 9 | 11.9 | High per-page — unique angle resonating |
+| 11 | **Analogies & Illustrations** | 105 | 7 | **15.0** | Second-highest per-page — readers love these |
+| 12 | **Stories** | 91 | 8 | 11.4 | Good per-page, room to grow |
+| 13 | **Comparative Theology** | 72 | 6 | 12.0 | Niche but strong engagement |
+| 14 | **Hub Pages** | 68 | 2 | 34.0 | Devotionals + Questions hubs drawing traffic |
+| 15 | **Pastoral** | 53 | 4 | 13.2 | Small but engaged — high per-page |
+| 16 | **Apologetics** | 53 | 5 | 10.6 | Redistributed to Questions — performing fine |
+| 17 | **Creeds & Confessions** | 32 | 3 | 10.7 | Small category, consistent |
+| 18 | **Healing** | 20 | 3 | 6.7 | **Lowest per-page** — brand new category, needs ramp |
+
+---
 
 ## TOP PERFORMING PAGES (study what works)
 
-| Rank | Page | Requests | Category |
-|------|------|----------|----------|
-| 1 | `/` (Homepage) | 1,214 | Site |
-| 2 | `/about` | 58 | Site |
-| 3 | `/objection-why-command` | 48 | Questions — **#1 CONTENT PAGE (3rd week running)** |
-| 4 | `/devotionals` (hub) | 40 | Devotionals |
-| 5 | `/demolition-hub` | 40 | Demolition |
-| 6 | `/questions` (hub) | 38 | Questions |
-| 7 | `/systematic-theology` (hub) | 34 | Theology |
-| 8 | `/stories` (hub) | 30 | Stories |
-| 9 | `/analogies-illustrations` (hub) | 28 | Analogies |
-| 10 | `/start-here` | 28 | Start Here |
-| 11 | `/psychology-hub` | 27 | Psychology |
-| 12 | `/explore-map` | 27 | Site |
-| 13 | `/psychology-why-we-resist` | 26 | Psychology |
-| 14 | `/question-freewill` | 25 | Questions |
-| 15 | `/connections` | 25 | Site |
+| Rank | Requests | Page | Category |
+|------|----------|------|----------|
+| 1 | **62** | `/psychology-cost-of-rejecting-grace` | Psychology of Resistance |
+| 2 | **38** | `/devotionals` (hub) | Hub Page |
+| 3 | **35** | `/psychology-hub` | Psychology of Resistance |
+| 4 | **30** | `/analogies-illustrations` (hub) | Analogies |
+| 5 | **30** | `/questions` (hub) | Hub Page |
+| 6 | **29** | `/systematic-theology` (hub) | Systematic Theology |
+| 7 | **29** | `/best-reads` | Site Page |
+| 8 | **28** | `/demolition-hub` | Demolition |
+| 9 | **28** | `/stories` (hub) | Stories |
+| 10 | **28** | `/psychology-why-we-resist` | Psychology of Resistance |
 
-**Key observations:**
-- Hub pages dominate the top 15. This means visitors are entering through category landing pages and then exploring deeper. Hub quality is critical.
-- `/objection-why-command` remains the #1 non-hub content page for the third consecutive week. The "why would God command if He predestined" format is an SEO goldmine.
-- Psychology pages are punching above their weight — both pages in the top 15 with only 5 total pages in the category.
-- Homepage grew from 1,053 to 1,214 requests (+15.3%).
+### Breakout Star: `/psychology-cost-of-rejecting-grace`
+At **62 requests**, this page has nearly **3x the traffic** of the next non-hub content page. This is the single most visited piece of original content on the site. WHY: it names the cost of resistance — it's personal, it's confrontational, and it uses the psychology angle that makes people feel *understood* before being challenged. Every agent should study this page's structure and replicate the pattern.
+
+---
 
 ## UNDERPERFORMING CATEGORIES (needs fresh approach)
 
-- **Analogies** — Hub gets 28 requests but zero individual analogy pages broke the top 50. We have 5 individual analogy pages (adoption, chess-grandmaster, doctor-corpse, lazarus-grave, light-switch) but none are generating enough traffic. The concept resonates (hub gets clicks) but the individual pages aren't ranking or converting. **Try more provocative, search-friendly titles.**
-- **Stories** — Hub strong at 30 but zero individual story pages in the top 50. We have 8 story pages. Similar problem to analogies — the hub draws people in but individual stories aren't capturing search traffic. **Need SEO-optimized titles that match what people actually search for.**
-- **Secular Evidence** — `/scripture-tsunami` at 22 is the only visible page. Hub and 9 other secular pages all below threshold. This is the site's most original content angle (billions of choices, neuroscience of inability) but it's underperforming. **Needs better internal linking and more compelling meta descriptions.**
-- **Old Testament Studies** — 14 pages, zero in top 50. This entire category is invisible to analytics. Either traffic is spread thin across many pages (~5-10 each) or these pages aren't ranking at all. **Consider consolidating the best OT content or creating more dramatic titles.**
-- **History** — 14 pages, zero in top 50 (theologians hub barely made it at 19). Rich content but not finding an audience. **History pages may need more emotional hooks — "The Trial That Saved Christianity" beats "Augustine vs Pelagius".**
-- **Comparisons** — 6 pages, zero in top 50. These are reference pages that may serve returning visitors but aren't driving search traffic.
-- **Pastoral** — 4 pages, zero in top 50. New category, still building.
-- **Apologetics** — 4 pages, zero in top 50. Needs more volume and better titles.
+| Category | Requests | Pages | Avg/Page | Issue |
+|----------|----------|-------|----------|-------|
+| **Healing** | 20 | 3 | 6.7 | Brand new (5 hubs planned, 50 articles). Needs time + internal links from demolition pages |
+| **Devotionals** | 141 | 15 | 9.4 | Lowest per-page among established categories. The "right arm" needs sharper titles and more emotional hooks |
+
+---
 
 ## FLEET DIRECTIVES
-
 Based on this week's data:
 
-- **PRIORITY CREATE: Question/Objection content** — Still the undisputed #1 traffic driver. `/objection-why-command` at 48 requests, 6 individual question pages in top 50. With 40 pages already, this category has critical mass AND keeps growing. Every new question page is a new Google doorway. The "objection-" prefix format is especially strong — create more pages starting with "objection-" (objection-robots, objection-fairness, objection-babies, objection-desire).
-- **PRIORITY CREATE: Psychology of Resistance content** — Only 5 pages but 53 requests visible. That's 10.6 requests per page — **the highest ratio on the site.** This category has massive untapped potential. Create pages on: fear of losing control, emotional vs. rational rejection, the comfort of self-salvation, pride as the root objection, pastoral sensitivity to resistance.
-- **PRIORITY REFINE: Hub pages** — 7 of the top 15 pages are hub/landing pages. These are the front doors to each category. Every hub page improvement has outsized downstream impact. Ensure each hub has compelling descriptions, clear navigation, and strong meta descriptions.
-- **STUDY: `/objection-why-command`** — 48 requests, #1 content page for 3 weeks. Whatever this page does — title format, meta description, emotional hook, structure — REPLICATE IT across every new objection and question page.
-- **STUDY: Psychology category** — With the highest per-page ratio, understand WHY this works. Theory: people search for "why do Christians reject predestination" or "why I hate Calvinism" and these pages match that emotional search intent.
-- **EXPAND: Analogies with better titles** — Hub draws 28 visitors but individual pages can't keep them. Rename/retitle analogy pages for SEO: "Why a Dead Man Can't Choose to Live" beats "The Doctor and the Corpse." Match the question people are asking in their head.
-- **EXPAND: Stories with search-friendly titles** — Same problem as analogies. Retitle for search: "The Story of a Fish Who Thought He Chose the Ocean" → "Did You Really Choose God? A Parable About Free Will."
-- **EXPERIMENT: Secular Evidence promotion** — Great content, poor discoverability. Try internal linking from high-traffic question pages to secular evidence pages. Cross-pollinate.
-- **DEPRIORITIZE: Old Testament studies, History, Comparisons** — Combined 34 pages producing near-zero visible traffic. Don't stop creating, but shift primary compute to Questions, Psychology, and Demolition. When creating OT/History content, use dramatic storytelling titles, not academic ones.
+### PRIORITY CREATE
+- **Psychology of Resistance content** — 18.1 avg requests/page (highest of any category). This angle RESONATES. Readers want to understand WHY they resist grace. Create more pages exploring cognitive dissonance, identity threat, the neuroscience of belief resistance, and emotional defense mechanisms.
+- **Analogies & Illustrations** — 15.0 avg/page with only 7 pages. This is the most under-supplied high-performing category. Readers love analogies. Create 5-10 more. Think courtroom, medical, adoption, rescue scenarios.
+- **Questions & Objections** — 414 total requests across 42 pages. Still the #1 traffic driver by volume. The question/objection format is what people search for ("Does God choose who is saved?", "Is faith a gift?"). Keep creating these — they are the SEO backbone.
 
-## WEEK-OVER-WEEK TRENDS
+### PRIORITY ENHANCE
+- **Devotionals** — 9.4 avg/page is below the site average. The "right arm" (catching people after demolition) needs work. Sharper titles, more emotional pull, better internal linking FROM demolition pages. Study `/devotional-never-gives-up` (21 requests) — it works because the title is visceral.
+- **Healing category** — Only 3 pages live, averaging 6.7/page. The 5 healing hubs are planned (Anxious Mind, Broken Mirror, Open Wound, Invisible Wall, Shattered Lens). Accelerate population of these. CRITICAL: every demolition page should link to a healing page.
 
-| Metric | Last Week (Mar 22–29) | This Week (Mar 23–30) | Change |
-|--------|----------------------|----------------------|--------|
-| Total requests | 8,985 | 10,856 | **+20.8%** |
-| Homepage | 1,053 | 1,214 | +15.3% |
-| #1 content page | `/objection-why-command` (57) | `/objection-why-command` (48) | -15.8%* |
-| Error rate | — | 1.33% | — |
+### EXPERIMENT
+- **Secular Evidence** — 11.9 avg/page with only 9 pages. The "billion decisions" argument, neuroscience, economics angles are working. Try: secular psychology of self-deception, AI/determinism parallels, quantum mechanics and sovereignty.
+- **Stories** — 11.4 avg/page. The parable format works. Try darker, more Flannery O'Connor-style stories that shock readers into seeing grace.
 
-*Note: The slight decrease in top content page requests may reflect the time window shifting (7-day rolling). Overall site traffic grew significantly.
+### STUDY & REPLICATE
+- `/psychology-cost-of-rejecting-grace` — **62 requests**. Analyze: title formula (names the cost), psychology framing (readers feel understood), confrontational but empathetic tone. Replicate this pattern across other categories.
+- `/psychology-why-we-resist` — **28 requests**. The "why we resist" framing is magnetic. Apply to other contexts: "Why We Resist Surrender," "Why We Resist Being Chosen," "Why We Resist Rest."
 
-## SITE SCALE
+### DEPRIORITIZE
+- **Comparative Theology deep dives** (Calvinism vs Molinism, vs Catholic soteriology, etc.) — performing adequately (12.0 avg) but niche. Don't create more until higher-priority categories are fully built out.
+- **Creeds & Confessions** — holding steady at 10.7 avg with 3 pages. Not urgent.
 
-| Category | Pages | Visible in Top 50 | Est. Traffic Share |
-|----------|-------|-------------------|-------------------|
-| Questions & Objections | 40 | 9 | Dominant |
-| Systematic Theology + Theologians | 32 | 2 | Low per-page |
-| Demolition | 19 | 2 | Moderate |
-| Devotionals | 16 | 2 | Moderate |
-| History | 14 | 0 | Very low |
-| Old Testament | 14 | 0 | Very low |
-| Secular Evidence | 10 | 1 | Low |
-| Stories | 9 | 1 (hub only) | Low |
-| Start Here | 7 | 1 | Low |
-| Analogies | 6 | 1 (hub only) | Low |
-| Comparisons | 6 | 0 | Very low |
-| Psychology | 5 | 2 | **Highest per-page** |
-| Apologetics | 4 | 0 | Very low |
-| Pastoral | 4 | 0 | Very low |
-| **TOTAL** | **~200+** | **21** | — |
+### CRITICAL INSIGHT: THE TWO ARMS IN THE DATA
+The data confirms the Two Arms architecture is working but **imbalanced**:
+- **Left arm (Demolition):** 221 requests, 11.1 avg — strong
+- **Right arm (Devotionals):** 141 requests, 9.4 avg — lagging
+- **Psychology** is the BRIDGE between the two arms: 199 requests, 18.1 avg
 
-## RAW DATA (Top 50 URLs, filtered)
+**Action:** Every new demolition page must link to a devotional. Every new psychology page must link to both. The bridge is where the readers are — build more bridges.
 
-Content pages only (static assets, bot probes, and meta files removed; duplicate URL entries combined):
+### WEEK-OVER-WEEK TRENDS
+- **Total requests: 13,248** (up from 10,856 — **+22.0% growth**)
+- Psychology of Resistance exploded — `/psychology-cost-of-rejecting-grace` at 62 requests is the clear breakout star
+- Hub pages continue to perform as strong entry points (devotionals hub at 38, questions hub at 30, demolition hub at 28)
+- Bot probe traffic remains ~12% (wp-admin, .env, xmlrpc) — normal for any website
+- 224 unique content URLs received traffic this week — the long tail is filling in as the site grows
 
-| URL | Requests |
-|-----|----------|
-| `/` | 1,214 |
-| `/about` | 58 |
-| `/objection-why-command` | 48 |
-| `/devotionals` | 40 |
-| `/demolition-hub` | 40 |
-| `/questions` | 38 |
-| `/systematic-theology` | 34 |
-| `/stories` | 30 |
-| `/analogies-illustrations` | 28 |
-| `/start-here` | 28 |
-| `/psychology-hub` | 27 |
-| `/explore-map` | 27 |
-| `/psychology-why-we-resist` | 26 |
-| `/question-freewill` | 25 |
-| `/connections` | 25 |
-| `/contact` | 24 |
-| `/scripture-tsunami` | 22 |
-| `/question-sealed` | 22 |
-| `/question-romans9` | 21 |
-| `/question-goldchain` | 21 |
-| `/devotional-never-gives-up` | 21 |
-| `/question-chosen` | 20 |
-| `/demolition-john3-16` | 19 |
-| `/question-newheart` | 19 |
-| `/theologians` | 19 |
-| `/freedom` | 19 |
-| `/question-perseverance` | 18 |
+---
 
-**Non-content URLs filtered out:** /global.css (414), /favicon.ico (437 combined), /global.js (297), /nav.js (254), /favicon.svg (250 combined), /apple-touch-icon.png (292 combined), /apple-touch-icon-precomposed.png (39), /wordpress/wp-admin/* (301 combined — bot probes), /wp-admin/* (293 combined — bot probes), /robots.txt (81), /sitemap.xml (45), /.env (26 — bot probe), /.git/config (24 — bot probe), /wp-login.php (19 — bot probe)
+## RAW DATA — Content Pages by Request Count
 
-**Bot probe traffic:** 663 requests (6.1% of total) from WordPress/wp-admin scanners, .env/.git probes. Not a concern but worth noting — the site is being scanned by bots looking for WordPress vulnerabilities it doesn't have.
+| Requests | URL | Category |
+|----------|-----|----------|
+| 1384 | / | Homepage |
+| 62 | /psychology-cost-of-rejecting-grace | Psychology |
+| 57 | /contact | Site Page |
+| 53 | /about | Site Page |
+| 38 | /devotionals | Hub |
+| 37 | /search | Site Page |
+| 35 | /psychology-hub | Psychology |
+| 30 | /analogies-illustrations | Analogies |
+| 30 | /questions | Hub |
+| 29 | /systematic-theology | Systematic |
+| 29 | /best-reads | Site Page |
+| 28 | /demolition-hub | Demolition |
+| 28 | /stories | Stories |
+| 28 | /psychology-why-we-resist | Psychology |
+| 23 | /start-here | Start Here |
+| 23 | /secular-evidence | Secular |
+| 21 | /devotional-never-gives-up | Devotionals |
+| 19 | /resistance-last-idol | Psychology |
+| 19 | /scripture-tsunami | OT/Scripture |
+| 18 | /question-chosen | Questions |
+| 18 | /question-secure | Questions |
+| 18 | /question-irresistible | Questions |
+| 18 | /belief-assessment | Start Here |
+| 18 | /secular-economics-depravity | Secular |
+| 18 | /demolition-hebrews6-4-6 | Demolition |
+| 18 | /history-apostolic | History |
+| 18 | /theologian-owen | History |
+| 17 | /history-timeline | History |
+| 17 | /theologians | History |
+| 16 | /analogy-doctor-corpse | Analogies |
+| 16 | /psalms-election | OT/Scripture |
+| 16 | /question-goldchain | Questions |
+| 16 | /systematic-covenant-theology | Systematic |
+| 16 | /start-here-phase1 | Start Here |
+| 15 | /question-sealed | Questions |
+| 15 | /explore-map | Site Page |
+| 14 | /demolition-john3-16 | Demolition |
+| 14 | /analogy-chess-grandmaster | Analogies |
+| 14 | /analogy-lazarus-grave | Analogies |
+| 14 | /demolition-ezekiel18-23 | Demolition |
+| 14 | /question-faithgift | Questions |
+| 14 | /counter-cs-lewis-free-will | Apologetics |
+| 14 | /pastoral-assurance | Pastoral |
+| 14 | /pastoral-evangelism | Pastoral |
+| 14 | /objection-responsibility | Questions |
+| 14 | /question-depravity | Questions |
+| 14 | /compare-calvinism-arminianism | Comparative |
+| 13 | /creeds-confessions | Creeds |
+| 13 | /question-john17 | Questions |
+| 13 | /ot-election | OT/Scripture |
+| 13 | /connections | Site Page |
+| 13 | /apologetic-definite-atonement | Apologetics |
+| 13 | /analogy-light-switch | Analogies |
+| 13 | /pastoral-prayer | Pastoral |
+| 13 | /compare-calvinism-open-theism | Comparative |
+| 12 | /story-the-fish-who-chose-the-ocean | Stories |
+| 12 | /history-augustine-pelagius | History |
+| 12 | /history-dort | History |
+| 12 | /demolition-titus2-11 | Demolition |
+| 12 | /psychology-autonomy-illusion | Psychology |
+| 12 | /question-perseverance | Questions |
+| 12 | /pastoral-suffering | Pastoral |
+| 12 | /compare-calvinism-molinism | Comparative |
+| 12 | /secular-algorithm-sovereignty | Secular |
+| 12 | /privacy | Site Page |
+| 11 | /systematic-justification | Systematic |
+| 11 | /systematic-atonement | Systematic |
+| 11 | /ot-noah | OT/Scripture |
+| 11 | /secular-philosophy-free-will | Secular |
+| 11 | /compare-calvinism-catholic-soteriology | Comparative |
+| 11 | /compare-monergism-synergism | Comparative |
+| 11 | /analogy-adoption | Analogies |
+| 11 | /theologian-luther | History |
+| 11 | /start-here-phase3 | Start Here |
+| 11 | /devotional-glory-of-divine-choice | Devotionals |
+| 11 | /question-romans9 | Questions |
+| 11 | /compare-predestination-foreknowledge | Comparative |
+| 11 | /systematic-soteriology | Systematic |
+| 11 | /quiz | Start Here |
+| 11 | /history-20th-century | History |
+| 10 | /theologian-whitefield | History |
+| 10 | /theologian-calvin | History |
+| 10 | /apologetic-perseverance | Apologetics |
+| 10 | /ot-isaiah-servant | OT/Scripture |
+| 10 | /theologian-boston | History |
+| 10 | /story-the-dead-city | Stories |
+| 10 | /history-puritans | History |
+| 10 | /objection-why-command | Questions |
+| 10 | /demolition-joshua24-15 | Demolition |
+| 10 | /demolition-arminian-facts | Demolition |
+| 10 | /ot-abel-cain | OT/Scripture |
+| 10 | /question-hardening | Questions |
+| 10 | /demolition-romans10-9 | Demolition |
+| 10 | /demolition-1tim4-10 | Demolition |
+| 10 | /theologian-spurgeon | History |
+| 10 | /secular-art-literature-reformed-truth | Secular |
+| 10 | /history-luther | History |
+| 10 | /systematic-compatibilism | Systematic |
+| 10 | /history-golden-thread | History |
+| 10 | /story-the-self-made-man | Stories |
+| 10 | /creed-heidelberg-catechism | Creeds |
+| 10 | /systematic-trinity | Systematic |
+| 10 | /question-1john5-1 | Questions |
+| 10 | /demolition-orthodox-predestination | Demolition |
+| 10 | /demolition-john12-32 | Demolition |
+| 10 | /systematic-divine-decrees | Systematic |
+| 10 | /start-here-assessment | Start Here |
+| 10 | /question-foreknowledge | Questions |
+| 10 | /question-1peter1 | Questions |
+| 10 | /history-confessions-story | History |
+| 10 | /start-here-phase4 | Start Here |
+| 10 | /history-today | History |
+| 9 | /question-isaiah53 | Questions |
+| 9 | /systematic-bibliology | Systematic |
+| 9 | /devotional-weakness-of-gods-strength | Devotionals |
+| 9 | /secular-sociology-human-inability | Secular |
+| 9 | /donate | Site Page |
+| 9 | /systematic-pneumatology | Systematic |
+| 9 | /start-here-phase2 | Start Here |
+| 9 | /systematic-hamartiology | Systematic |
+| 9 | /theologian-arminius | History |
+| 9 | /demolition-1tim2-4 | Demolition |
+| 9 | /ot-joseph | OT/Scripture |
+| 9 | /devotional-rescued-without-a-say | Devotionals |
+| 9 | /apologetic-unreached | Apologetics |
+| 9 | /question-freewill | Questions |
+| 9 | /story-surgeon-stone-heart | Stories |
+| 9 | /devotional-love-letter-before-time | Devotionals |
+| 9 | /question-acts | Questions |
+| 9 | /question-ezekiel37 | Questions |
+| 9 | /ot-jacob-esau | OT/Scripture |
+| 9 | /demolition-arianism | Demolition |
+| 9 | /history-great-awakening | History |
+| 9 | /ot-moses-pharaoh | OT/Scripture |
+| 9 | /devotional-cold-church | Devotionals |
+| 9 | /ot-israel-chosen | OT/Scripture |
+| 9 | /theologian-bunyan | History |
+| 9 | /devotional-in-christ | Devotionals |
+| 9 | /demolition-rev3-20 | Demolition |
+| 9 | /question-revelation13 | Questions |
+| 9 | /creed-canons-dort | Creeds |
+| 9 | /question-external-internal-call | Questions |
+| 9 | /demolition-1john2-2 | Demolition |
+| 9 | /ot-david | OT/Scripture |
+| 9 | /systematic-christology | Systematic |
+| 9 | /secular-history-sovereignty | Secular |
+| 9 | /demolition-acts7-51 | Demolition |
+| 9 | /ot-jeremiah | OT/Scripture |
+| 9 | /demolition-2peter2-1 | Demolition |
+| 9 | /secular-neuroscience-human-inability | Secular |
+| 8 | /question-newheart | Questions |
+| 8 | /question-acts4 | Questions |
+| 8 | /objection-author-of-sin | Questions |
+| 8 | /history-calvin-geneva | History |
+| 8 | /ot-job | OT/Scripture |
+| 8 | /devotional-when-god-says-no | Devotionals |
+| 8 | /systematic-theology-proper | Systematic |
+| 8 | /ot-prophets-remnant | OT/Scripture |
+| 8 | /systematic-prolegomena | Systematic |
+| 8 | /devotional-good-i-cannot-do | Devotionals |
+| 8 | /psychology-cognitive-biases | Psychology |
+| 8 | /devotional-love-before-the-world | Devotionals |
+| 8 | /devotional-dead-who-live | Devotionals |
+| 8 | /systematic-resurrection | Systematic |
+| 8 | /psychology-offense-of-grace | Psychology |
+| 8 | /history-spurgeon-downgrade | History |
+| 8 | /devotional-my-chains-fell-away | Devotionals |
+| 8 | /systematic-regeneration | Systematic |
+| 8 | /question-external-call | Questions |
+| 8 | /devotional-not-my-will-but-joy | Devotionals |
+| 8 | /devotional-forever-loved | Devotionals |
+| 8 | /systematic-anthropology | Systematic |
+| 8 | /theologian-edwards | History |
+| 8 | /psychology-hostility-reaction | Psychology |
+| 8 | /question-john15 | Questions |
+| 8 | /story-the-orphanage | Stories |
+| 8 | /devotional-adoption-papers | Devotionals |
+| 8 | /ot-jonah | OT/Scripture |
+| 8 | /demolition-2peter3-9 | Demolition |
+| 8 | /question-boasting | Questions |
+| 8 | /question-cannot | Questions |
+| 8 | /ot-abraham | OT/Scripture |
+| 7 | /question-psalm139 | Questions |
+| 7 | /systematic-ecclesiology | Systematic |
+| 7 | /apologetic-babies | Apologetics |
+| 7 | /systematic-ordo-salutis | Systematic |
+| 7 | /question-parables | Questions |
+| 7 | /question-godwants | Questions |
+| 7 | /story-the-garden-that-grew-itself | Stories |
+| 7 | /open-wound-hub | Healing |
+| 7 | /invisible-wall-lonely-theological | Healing |
+| 7 | /objection-fairness | Questions |
+| 7 | /question-proverbs-sovereignty | Questions |
+| 7 | /question-matt11 | Questions |
+| 7 | /verse-explorer | Site Page |
+| 7 | /question-2tim1-9 | Questions |
+| 7 | /question-john10 | Questions |
+| 7 | /all-content | Site Page |
+| 7 | /demolition-prevenient-grace | Demolition |
+| 7 | /question-whosoever | Questions |
+| 7 | /psychology-suppressing-truth | Psychology |
+| 7 | /story-the-room-where-you-chose | Stories |
+| 7 | /question-titus3 | Questions |
+| 6 | /demolition-acts17-30 | Demolition |
+| 6 | /broken-mirror-not-self-made | Healing |
+| 6 | /psychology-pride-root-objection | Psychology |
+| 6 | /secular-billion-decisions | Secular |

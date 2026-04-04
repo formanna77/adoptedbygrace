@@ -47,66 +47,72 @@
 <body>
 
 <!-- NAVIGATION -->
-<nav role="navigation" aria-label="Main navigation">
-    <div class="nav-container">
-        <a href="/" class="nav-site-name">Adopted by Grace</a>
-        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-            <span></span><span></span><span></span>
-        </button>
-        <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        </button>
-        <ul class="nav-links">
-            <li class="mobile-menu-search" style="list-style:none;">
-                <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
-            </li>
-            <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
-            <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
-            <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
-            <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-            <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
-            <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-            <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
-            <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-            <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
-            <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
-            <li class="mobile-nav-link"><a href="/history-timeline">History</a></li>
-            <li class="mobile-nav-link"><a href="/analogies-illustrations">Analogies</a></li>
-            <li class="mobile-nav-link"><a href="/about">About</a></li>
-            <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
-        </ul>
-        <div class="nav-right">
-            <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
-            <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
-            <a href="/start-here" class="nav-top-link">Start Here</a>
-            <a href="/questions" class="nav-top-link">Questions</a>
-            <a href="/systematic-theology" class="nav-top-link">Theology</a>
-            <a href="/demolition-hub" class="nav-top-link">Demolition</a>
-            <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
-            <a href="/devotionals" class="nav-top-link">Devotionals</a>
-            <a href="/stories" class="nav-top-link">Stories</a>
-            <a href="/secular-evidence" class="nav-top-link">Secular</a>
-            <a href="/history-timeline" class="nav-top-link">History</a>
-            <a href="/analogies-illustrations" class="nav-top-link">Analogies</a>
-            <a href="/about" class="nav-top-link">About</a>
-            <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
-                <span class="mega-menu-toggle-label">Explore</span>
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
             </button>
-            <button class="search-toggle" aria-label="Search the site" id="searchToggle">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
         </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
     </div>
-</nav>
-<div class="mega-menu" id="megaMenu"></div>
-<div class="search-overlay" id="searchOverlay">
-    <div class="search-overlay-inner">
-        <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
-        <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
     </div>
-    <div class="search-results" id="searchResults"></div>
-</div>
+    </div>
 
 <!-- READING PROGRESS BAR -->
 <div class="reading-progress-bar" id="readingProgressBar"></div>
@@ -244,28 +250,28 @@
         <section class="keep-reading">
             <h3>Keep Reading</h3>
             <div class="keep-reading-cards">
-                <a href="/devotionals-broken-mirror" class="keep-reading-card">
+                <a href="/broken-mirror-hub" class="keep-reading-card">
                     <span class="card-category">Devotional</span>
                     <h4>When You Can't See Yourself Anymore</h4>
                     <p>Sometimes grief makes you a stranger to yourself. What happens when the mirror shatters?</p>
                 </a>
-                <a href="/broken-mirror-invisible-wall" class="keep-reading-card">
+                <a href="/invisible-wall-hub" class="keep-reading-card">
                     <span class="card-category">Healing</span>
                     <h4>The Invisible Wall Between You and God</h4>
                     <p>When loss makes God feel distant. When prayers feel like they're bouncing off the ceiling.</p>
                 </a>
-                <a href="/stories-tender-his-grace-in-exile" class="keep-reading-card">
+                <a href="/story-the-letter-before-the-world" class="keep-reading-card">
                     <span class="card-category">Story</span>
-                    <h4>His Grace in Exile</h4>
-                    <p>What it looks like when God pursues you even when you've run so far you can't find your way back.</p>
+                    <h4>The Letter Before the World</h4>
+                    <p>A daughter finds a letter from her father written before she was born. God's love, determined and expressed before time existed.</p>
                 </a>
-                <a href="/never-lets-go" class="keep-reading-card">
+                <a href="/devotional-never-gives-up" class="keep-reading-card">
                     <span class="card-category">Devotional</span>
                     <h4>He Will Never Let You Go</h4>
                     <p>A meditation on the only promise that matters when everything else is taken.</p>
                 </a>
-                <a href="/shattered-lens-re-formed" class="keep-reading-card">
-                    <span class="card-category">Healing</span>
+                <a href="/RE-FORMED.pdf" class="keep-reading-card">
+                    <span class="card-category">Testimony</span>
                     <h4>The Story Behind This Site</h4>
                     <p>Why this site exists. Why these truths matter. The testimony of someone who thought God had let him go.</p>
                 </a>

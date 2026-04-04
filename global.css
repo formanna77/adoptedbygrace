@@ -493,7 +493,184 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
     color: var(--accent-ember);
 }
 
-/* ===== MOBILE ACCORDION STYLES ===== */
+/* ===== NESTED MEGA-MENU: SUBCATEGORIES & PAGES ===== */
+.mega-menu-subcat {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(212, 162, 84, 0.08);
+}
+
+.mega-menu-subcat:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.mega-menu-subcat-header {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(212, 162, 84, 0.1);
+}
+
+.mega-menu-subcat-icon {
+    font-size: 0.95rem;
+    flex-shrink: 0;
+}
+
+.mega-menu-subcat-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--accent-gold);
+    flex: 1;
+}
+
+.mega-menu-subcat-count {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    background: rgba(212, 162, 84, 0.08);
+    padding: 0.15rem 0.4rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.mega-menu-subcat-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.mega-menu-page-link {
+    display: block;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(212, 162, 84, 0.06);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.mega-menu-page-link:last-child {
+    border-bottom: none;
+}
+
+.mega-menu-page-link:hover {
+    padding-left: 0.5rem;
+}
+
+.mega-menu-page-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.mega-menu-page-desc {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    margin-top: 0.15rem;
+}
+
+.mega-menu-page-link:hover .mega-menu-page-name {
+    color: var(--accent-gold);
+}
+
+.mega-menu-view-all-subcat {
+    display: inline-block;
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+    color: var(--accent-gold);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.mega-menu-view-all-subcat:hover {
+    color: var(--accent-ember);
+}
+
+/* ===== MOBILE ACCORDION STYLES (UPDATED FOR NESTED STRUCTURE) ===== */
+.mobile-accordion-umbrella {
+    border-bottom: 1px solid rgba(212, 162, 84, 0.06);
+}
+
+.mobile-accordion-umbrella-name {
+    flex: 1;
+}
+
+.mobile-accordion-umbrella-count {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    background: rgba(212, 162, 84, 0.08);
+    padding: 0.15rem 0.45rem;
+    border-radius: 10px;
+    font-weight: 600;
+    min-width: 1.5rem;
+    text-align: center;
+}
+
+.mobile-accordion-subcats {
+    display: none;
+    padding: 0.6rem 1.2rem 0.6rem 3.3rem;
+}
+
+.mobile-accordion-subcats.open {
+    display: block;
+}
+
+.mobile-accordion-subcat {
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+}
+
+.mobile-accordion-subcat:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.mobile-accordion-subcat-name {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--accent-gold);
+    padding: 0.4rem 0 0.6rem;
+    border-bottom: 1px solid rgba(212, 162, 84, 0.1);
+    margin-bottom: 0.6rem;
+}
+
+.mobile-accordion-page {
+    display: block;
+    padding: 0.4rem 0;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.82rem;
+    line-height: 1.3;
+    border-bottom: 1px solid rgba(212, 162, 84, 0.04);
+    transition: color 0.2s ease;
+}
+
+.mobile-accordion-page:last-of-type {
+    border-bottom: none;
+}
+
+.mobile-accordion-page:active {
+    color: var(--accent-gold);
+}
+
+.mobile-accordion-view-all-subcat {
+    display: block;
+    padding: 0.5rem 0 0.2rem;
+    color: var(--accent-gold);
+    text-decoration: none;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.mobile-accordion-view-all-subcat:active {
+    color: var(--accent-ember);
+}
+
+/* ===== MOBILE ACCORDION STYLES (OLD - COMPATIBILITY) ===== */
 .mobile-accordion-cat {
     border-bottom: 1px solid rgba(212, 162, 84, 0.06);
 }

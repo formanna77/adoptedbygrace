@@ -550,7 +550,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   Last updated: 2026-03-29
   ============================================================
 -->
-<nav role="navigation" aria-label="Main navigation">
+        <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -565,6 +565,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <li class="mobile-menu-search" style="list-style:none;">
                     <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
                 </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
                 <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
@@ -572,13 +573,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
                 <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
                 <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
-                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
-                <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
-                <li class="mobile-nav-link"><a href="/history-timeline">History</a></li>
-                <li class="mobile-nav-link"><a href="/analogies-illustrations">Analogies</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
                 <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <!-- Mobile categories accordion (built dynamically by nav.js) -->
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
                 <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
             </ul>
 
@@ -590,11 +588,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <a href="/systematic-theology" class="nav-top-link">Theology</a>
                 <a href="/demolition-hub" class="nav-top-link">Demolition</a>
                 <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
-                <a href="/devotionals" class="nav-top-link">Devotionals</a>
-                <a href="/stories" class="nav-top-link">Stories</a>
-                <a href="/secular-evidence" class="nav-top-link">Secular</a>
-                <a href="/history-timeline" class="nav-top-link">History</a>
-                <a href="/analogies-illustrations" class="nav-top-link">Analogies</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
                 <a href="/about" class="nav-top-link">About</a>
                 <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
@@ -611,8 +606,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
     <div class="mega-menu" id="megaMenu"></div>
 
-
-
     <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">
         <div class="search-overlay-inner">
@@ -620,6 +613,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
         </div>
         <div class="search-results" id="searchResults"></div>
+    </div>
+    </div>
     </div>
 
 
@@ -821,6 +816,87 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <span class="card-tag">Sovereignty</span>
                 <span class="card-tag">John 15:16</span>
                 <span class="card-read-time">6 min read</span>
+                <span class="card-arrow">&rarr;</span>
+            </div>
+        </a>
+    </section>
+
+    <!-- Additional Stories -->
+    <!-- The King Who Chose -->
+    <section class="featured-section" data-audience="kids children all-ages tender">
+        <a href="story-children-the-king-who-chose" class="featured-card">
+            <div class="card-type">A Children's Story</div>
+            <div class="card-badges">
+                <span class="audience-badge kids">Great for Kids</span>
+                <span class="audience-badge all-ages">All Ages</span>
+            </div>
+            <h2>The King Who Chose</h2>
+            <p class="card-excerpt">A king does not wait for subjects to choose him. He chooses whom he will call, whom he will love, whom he will make part of his kingdom. A children's story about election that shattered every child's assumption about freedom.</p>
+            <div class="card-meta">
+                <span class="card-tag">Election</span>
+                <span class="card-tag">Sovereignty</span>
+                <span class="card-tag">John 15:16</span>
+                <span class="card-read-time">7 min read</span>
+                <span class="card-arrow">&rarr;</span>
+            </div>
+        </a>
+    </section>
+
+    <!-- Augustine and the Pears -->
+    <section class="featured-section" data-audience="all-ages dark thought-experiment">
+        <a href="story-historical-augustine-pears" class="featured-card">
+            <div class="card-type">A Historical Reflection</div>
+            <div class="card-badges">
+                <span class="audience-badge all-ages">All Ages</span>
+                <span class="audience-badge thought-experiment">Thought Experiment</span>
+            </div>
+            <h2>Augustine and the Pears: The Theft That Changed Everything</h2>
+            <p class="card-excerpt">Augustine stole pears he didn't want, not because he desired them but because he desired the disobedience itself. A meditation on depravity that shows how sin is not about wanting "bad things"—it's about wanting to be God.</p>
+            <div class="card-meta">
+                <span class="card-tag">Depravity</span>
+                <span class="card-tag">Augustine</span>
+                <span class="card-tag">Romans 3:10-12</span>
+                <span class="card-read-time">9 min read</span>
+                <span class="card-arrow">&rarr;</span>
+            </div>
+        </a>
+    </section>
+
+    <!-- Luther's Storm -->
+    <section class="featured-section" data-audience="deep-thinkers all-ages tender">
+        <a href="story-historical-luther-storm" class="featured-card">
+            <div class="card-type">A Historical Narrative</div>
+            <div class="card-badges">
+                <span class="audience-badge all-ages">All Ages</span>
+                <span class="audience-badge tender">Tender</span>
+            </div>
+            <h2>Luther in the Storm: The Night Grace Found Him</h2>
+            <p class="card-excerpt">A monk on a horse, terrified in a violent thunderstorm, crying out to a saint. Moments later, he made a vow that would remake Christendom—not because he decided to, but because grace decided for him.</p>
+            <div class="card-meta">
+                <span class="card-tag">Effectual Calling</span>
+                <span class="card-tag">Grace</span>
+                <span class="card-tag">Ephesians 2:1-5</span>
+                <span class="card-read-time">8 min read</span>
+                <span class="card-arrow">&rarr;</span>
+            </div>
+        </a>
+    </section>
+
+    <!-- The Committee to Save Yourself -->
+    <section class="featured-section" data-audience="humor all-ages thought-experiment">
+        <a href="story-humor-committee-to-save-yourself" class="featured-card">
+            <div class="card-type">A Satirical Dialogue</div>
+            <div class="card-badges">
+                <span class="audience-badge humor">Humor</span>
+                <span class="audience-badge all-ages">All Ages</span>
+            </div>
+            <h2>The Committee to Save Yourself</h2>
+            <p class="card-excerpt">What if saving yourself required a committee of specialized experts? A brilliant satire on the absurdity of claiming that your salvation depends on your will, your decision, your obedience—without realizing you're the worst possible person to execute that plan.</p>
+            <div class="card-meta">
+                <span class="card-tag">Humor</span>
+                <span class="card-tag">Depravity</span>
+                <span class="card-tag">Ephesians 2:8-9</span>
+                <span class="card-read-time">8 min read</span>
                 <span class="card-arrow">&rarr;</span>
             </div>
         </a>

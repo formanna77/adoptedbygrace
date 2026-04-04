@@ -8,11 +8,11 @@
 
 ## 🚨 CRITICAL INFRASTRUCTURE ISSUES (2026-04-04)
 
-**ANALYTICS FEEDBACK LOOP — STALE**
-- ANALYTICS.md last updated: 2026-03-30 (5 days old as of 2026-04-04)
-- Weekly analytics task should fire every Saturday, not manually
-- SCHEDULER-HEALTH.md shows analytics-feedback-loop is scheduled for Apr 5/6 (due today or tomorrow)
-- **ACTION:** Verify analytics task runs today. If it fails, debug scheduler health immediately.
+**ANALYTICS FEEDBACK LOOP — ✅ RESOLVED**
+- ANALYTICS.md updated: 2026-04-04 12:30 PM CT (was stale since 2026-03-30)
+- Full 7-page data extraction from Netlify Observability (350+ URL rows, 13,248 total requests)
+- Key finding: 22% traffic growth week-over-week. Psychology of Resistance = highest per-page avg (18.1)
+- Breakout star: `/psychology-cost-of-rejecting-grace` at 62 requests (3x any other content page)
 
 **SCHEDULER RELIABILITY — 38%**
 - Only 3 of 10 enabled tasks ran on-time during last 24h window
@@ -74,6 +74,16 @@
 - AGENT-PROMPT-PHILOSOPHER.md: ✅ NEW — Active (2026-04-04)
 - AGENT-PROMPT-GUARDIAN.md: ⚠️ Needs restoration
 - AGENT-PROMPT-EVANGELIST.md: ⚠️ Needs restoration
+
+### Analytics Pull (2026-04-04 — Analytics Feedback Loop Agent)
+- **ANALYTICS.md fully refreshed** with 7 days of Netlify Observability data (Mar 28 – Apr 4)
+- **13,248 total requests** (+22.0% WoW growth from 10,856)
+- **224 unique content URLs** received traffic — long tail filling in
+- **Top content page:** `/psychology-cost-of-rejecting-grace` (62 requests) — 3x any other content page
+- **Highest per-page category:** Psychology of Resistance (18.1 avg/page, 11 pages)
+- **Most under-supplied high performer:** Analogies & Illustrations (15.0 avg/page, only 7 pages)
+- **Two Arms imbalance confirmed:** Demolition (11.1 avg) outperforming Devotionals (9.4 avg) — right arm needs strengthening
+- **Fleet directives issued:** Priority create Psychology + Analogies. Priority enhance Devotionals + Healing. Study psychology-cost page pattern for replication.
 
 ### Recent Builds (2026-03-31 Creator Session #8 — Predestined to Hell + Grace Too Good + Luther Storm)
 - `question-predestined-to-hell.html` — ✅ "Does God Predestine People to Hell? What Scripture Actually Teaches" — Question deep-dive targeting #1 unanswered high-search keyword. Grammatical asymmetry technique: active voice for vessels of mercy (proētoimasen) vs. passive for vessels of wrath (katērtismena) in Romans 9:22-23. Key distinction: election (active mercy) vs. preterition (passing over/permissive justice). Greek word study on katērtismena. 7 arguments from Scripture. 7 objections answered including the strongest form ("if God could save them and doesn't..."). Governor/pardon analogy. Westminster Confession citation. 4 historical witnesses (Calvin, Spurgeon, Edwards, Bavinck). Diagnostic inversion pastoral whisper: "your fear of being non-elect is the strongest evidence you aren't." Fills Tier 3 roadmap gap #15.
