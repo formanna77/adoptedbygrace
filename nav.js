@@ -330,6 +330,7 @@
                 { name: 'Abel and Cain: The First Election', href: '/ot-abel-cain', desc: 'Genesis 4 reveals God' },
                 { name: 'Abraham & Election', href: '/ot-abraham', desc: 'God' },
                 { name: 'David: God\'s Sovereign Election for Kingship', href: '/ot-david', desc: 'God' },
+                { name: 'Election in the Psalms', href: '/psalms-election', desc: 'How David understood himself as chosen by grace, not merit. Election themes throughout the Psalms—Psalm 65:4, 33:12, 135' },
                 { name: 'Isaiah: The Servant &amp; God\'s Immutable Counsel', href: '/ot-isaiah-servant', desc: 'Isaiah reveals God' },
                 { name: 'Israel: God\'s Chosen Nation', href: '/ot-israel-chosen', desc: 'A comprehensive biblical study of Israel' },
                 { name: 'Jacob Over Esau: God\'s Sovereign Election Before Birth', href: '/ot-jacob-esau', desc: 'Jacob and Esau: God' },
@@ -376,15 +377,6 @@
                 { name: 'Evangelism &amp; God\'s Sovereignty', href: '/pastoral-evangelism', desc: 'If God has already chosen who will be saved, why share the gospel? Because Scripture teaches that evangelism is the very' },
                 { name: 'Prayer &amp; God\'s Sovereign Decrees', href: '/pastoral-prayer', desc: 'If God has already decreed all things, why pray? Because Scripture teaches that prayer is not a backup plan — it is the ' },
                 { name: 'Suffering &amp; the Sovereignty of God', href: '/pastoral-suffering', desc: 'How God' }
-            ]
-        },
-        {
-            name: 'Psalms & Poetry',
-            icon: '🎵',
-            href: '/psalms-election',
-            desc: 'Singing the sovereignty of God',
-            subs: [
-                { name: 'Election in the Psalms', href: '/psalms-election', desc: 'How David understood himself as chosen by grace, not merit. Election themes throughout the Psalms—Psalm 65:4, 33:12, 135' }
             ]
         },
         {

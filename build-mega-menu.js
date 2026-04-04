@@ -152,7 +152,7 @@ const CATEGORIES = [
     icon: '📚',
     hub: '/ot-election',
     desc: 'Sovereign election in every OT figure',
-    prefixes: ['ot'],
+    prefixes: ['ot', 'psalms', 'psalm'],
     hubFiles: ['ot-election.html'],
   },
   {
@@ -180,15 +180,8 @@ const CATEGORIES = [
     desc: 'Living out these truths',
     prefixes: ['pastoral'],
   },
-  {
-    key: 'psalms',
-    name: 'Psalms & Poetry',
-    icon: '🎵',
-    hub: '/psalms-election',
-    desc: 'Singing the sovereignty of God',
-    prefixes: ['psalms', 'psalm'],
-    // No hubFiles — psalms-election IS content, not just a hub landing page
-  },
+  // Psalms & Poetry category AXED 2026-04-04 — only had 1 page (psalms-election).
+  // That page now routes to Old Testament via the 'psalms' prefix below.
   {
     key: 'philosophy',
     name: 'Philosophy of Truth',
