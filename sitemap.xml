@@ -9,13 +9,13 @@
   <url>
     <loc>https://adoptedbygrace.net/about.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/all-content.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -64,7 +64,7 @@
     <loc>https://adoptedbygrace.net/anxious-mind-hub.html</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/anxious-mind-never-meant-to-carry.html</loc>
@@ -123,14 +123,14 @@
   <url>
     <loc>https://adoptedbygrace.net/best-reads.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/broken-mirror-hub.html</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/broken-mirror-not-self-made.html</loc>
@@ -225,7 +225,7 @@
   <url>
     <loc>https://adoptedbygrace.net/daily-newsletter.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -322,7 +322,7 @@
     <loc>https://adoptedbygrace.net/demolition-hub.html</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/demolition-john12-32.html</loc>
@@ -603,7 +603,7 @@
   <url>
     <loc>https://adoptedbygrace.net/</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
@@ -616,7 +616,7 @@
     <loc>https://adoptedbygrace.net/invisible-wall-hub.html</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/invisible-wall-lonely-theological.html</loc>
@@ -625,7 +625,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://adoptedbygrace.net/invisible-wall-singing-alone.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://adoptedbygrace.net/objection-author-of-sin.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/objection-babies.html</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -697,6 +709,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://adoptedbygrace.net/open-wound-empty-nursery.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://adoptedbygrace.net/open-wound-hospital-room.html</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
@@ -706,7 +724,7 @@
     <loc>https://adoptedbygrace.net/open-wound-hub.html</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/open-wound-sovereignty-in-grief.html</loc>
@@ -886,7 +904,7 @@
     <loc>https://adoptedbygrace.net/psychology-hub.html</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/psychology-offense-of-grace.html</loc>
@@ -1161,7 +1179,7 @@
   <url>
     <loc>https://adoptedbygrace.net/questions.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
@@ -1264,7 +1282,7 @@
     <loc>https://adoptedbygrace.net/shattered-lens-hub.html</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/shattered-lens-taught-wrong.html</loc>
@@ -1311,7 +1329,7 @@
   <url>
     <loc>https://adoptedbygrace.net/start-here.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
@@ -1581,11 +1599,107 @@
   <url>
     <loc>https://adoptedbygrace.net/topics.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://adoptedbygrace.net/verse-explorer.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/analogy-drowning-man.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/broken-mirror-grace-too-good.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/broken-mirror-imposter-syndrome.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/index.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/invisible-wall-family.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/invisible-wall-marriage.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/newsletter-2026-03-31-drowning-or-dead.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/newsletter-2026-03-31-the-fraud.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/newsletter-2026-03-31-where-did-your-faith-come-from.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/objection-manipulation.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/open-wound-senseless-death.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/open-wound-terminal-diagnosis.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/question-predestined-to-hell.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/resistance-redefining-grace.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/shattered-lens-pastor.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://adoptedbygrace.net/story-historical-luther-storm.html</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

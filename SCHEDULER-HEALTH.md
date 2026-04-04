@@ -1,49 +1,57 @@
-# SCHEDULER HEALTH LOG — adoptedbygrace.net
+# SCHEDULER-HEALTH.md — Diagnostic Log for adoptedbygrace.net Task Scheduler
 
-Maintained by the `scheduler-monitor` task. Tracks reliability, drift, missed runs, compute burn, and patterns.
+
+# ⚠️ RELIABILITY ALERT — 8% — Action Required
 
 ---
 
-# ⚠️ RELIABILITY ALERT — 56% — Action Required
+## [2026-04-04] Scheduler Health Check — 8% Reliability
 
-## [2026-03-31] Scheduler Health Check — 56% Reliability
+**Tasks Monitored:** 10 enabled | **Runs Expected (24h):** ~38 | **Runs Confirmed:** 3
+**Compute Used (est):** ~19min | **Compute Remaining to Friday (Apr 10):** ~full budget
 
-**Tasks Monitored:** 9 enabled | **Disabled:** 54 | **Runs Expected (last confirmed per task):** 9 | **Runs On Time:** 5
-**Compute Burn Rate (est):** ~321 min/day (~5.4 hr/day)
+### Root Cause: ~3-Day Scheduler Outage
+The scheduler appears to have been offline from ~April 1 through April 4 morning. Evidence:
+- the-creator last ran 2026-04-01T06:04Z (3+ days ago, should run 11x/day)
+- the-enhancer last ran 2026-04-01T03:03Z (3+ days ago, should run 6x/day)
+- the-guardian last ran 2026-04-01T05:06Z (3+ days ago, should run 3x/day)
+- the-strategist last ran 2026-03-31T17:02Z (4 days ago, should run daily)
+- auto-push last ran 2026-03-31T22:03Z (3+ days ago, should run every 2h)
 
-### Reliability (based on last confirmed run of each enabled task)
-- On Time (≤10min drift): 5 ✅ — evangelist, daily-summary, the-creator, the-guardian, scheduler-monitor
-- Late (10-30min drift): 0
-- Very Late (>30min drift): 4 ⚠️ — the-enhancer, the-strategist, log-gardener, analytics-feedback-loop
-
-### Late/Missed Details
-- **the-enhancer** — expected 7:00am CT (3/31), ran 7:51am CT (+51min) ⚠️
-- **the-strategist** — expected 11:00am CT (3/30), ran 7:12pm CT (+8h 12min) ⚠️⚠️ — today's 11am run pending
-- **log-gardener** — expected Sun 3/29 11:00pm CT, ran Mon 3/30 9:32am CT (+10h 32min) ⚠️⚠️
-- **analytics-feedback-loop** — expected Sun 3/29 8:00pm CT, ran Mon 3/30 9:36am CT (+13h 36min) ⚠️⚠️
+### Reliability
+- On Time (≤10min drift): 0 ✅
+- Late (10-30min drift): 0 ⚡
+- Very Late (>30min drift): 0 ⚠️
+- Missed (no run in 24h window): 5 ❌ (the-creator, the-enhancer, the-guardian, the-strategist, auto-push)
+- Stampede recovery: 3 tasks fired simultaneously at 14:42:06Z
 
 ### Stampede Check
-- 3/30 ~15:20–15:36 UTC: site-qa-enforcer, abg-catalyst, visual-layout-qa, log-gardener, analytics-feedback-loop all fired within 16 min window. Classic catch-up stampede — scheduler likely stalled overnight Sun→Mon and flushed the backlog Monday morning.
+- ⚠️ STAMPEDE DETECTED: abg-evangelist, daily-summary-email, and scheduler-monitor ALL fired at 2026-04-04T14:42:06Z — identical timestamp. This is the scheduler catching up after a multi-day outage. The remaining 5 enabled tasks have upcoming nextRunAt times today, suggesting they will recover on their own.
 
-### Compute Budget (Weekly reset: Fri 4pm CT)
-- Daily burn rate: ~321 min/day (the-creator 165, the-enhancer 90, the-guardian 45, the-strategist 8, evangelist 8, utilities 5)
-- Days to Friday 4pm reset: ~3.6
-- Projected remaining burn: ~1,156 min (~19.3 hr)
-- **the-creator alone (11x/day) consumes 51% of daily compute** — this is the biggest lever for throttling if needed
-- Budget status: UNKNOWN (first log entry — no baseline to compare against yet). Recommend Aaron confirm weekly compute cap so future entries can project overages.
+### Late/Missed Tasks (last 24h)
+- the-creator — MISSED: 0 of 11 expected runs. Last ran 3 days ago. Next: 15:04 UTC today.
+- the-enhancer — MISSED: 0 of 6 expected runs. Last ran 3 days ago. Next: 19:03 UTC today.
+- the-guardian — MISSED: 0 of 3 expected runs. Last ran 3 days ago. Next: 23:06 UTC today.
+- the-strategist — MISSED: 0 of 1 expected runs. Last ran 4 days ago. Next: 17:02 UTC today.
+- auto-push — MISSED: 0 of 12 expected runs. Last ran 3 days ago. Next: 16:03 UTC today.
 
-### Pattern Detection (First Entry — Establishing Baselines)
-- **Sunday night is a dead zone.** Both weekly tasks (log-gardener, analytics-feedback-loop) scheduled Sun evening were 10-13 hours late, caught up in a Mon morning stampede. Hypothesis: the app was closed or the machine was asleep overnight Sunday.
-- **the-strategist (1x/day at 11am) was 8+ hours late on 3/30.** Possible cause: heavy contention from 11 creator/enhancer/guardian runs that day. Single-run daily agents get starved when multi-run agents dominate the queue.
-- **the-enhancer drifting.** 51min late is not catastrophic but suggests queue contention at the 7am slot (the-guardian runs at 5am, the-creator at 6am — back-to-back heavies before the-enhancer's 7am slot).
-- **54 disabled tasks remain in the scheduler.** These are legacy agents from the pre-consolidation era. Consider deleting them to reduce noise in diagnostics.
+### Compute Budget
+- Daily burn rate (if all tasks fire normally): ~352min/day
+- Days to Friday reset (Apr 10): 6
+- Actual compute used since last reset (Apr 3 4pm CT): ~19min (near zero due to outage)
+- Budget status: MASSIVELY UNDER — outage wasted 3 days of compute
+- Recommendation: Once scheduler recovers, monitor for stampede overload. The 5 pending tasks should resume within the next 8 hours. No throttling needed — we need to CATCH UP, not slow down.
 
-### Recommendations
-1. **Move Sunday tasks to Monday morning.** If the machine sleeps Sunday night, schedule log-gardener and analytics-feedback-loop for Mon 6am instead — avoids the overnight miss + stampede pattern entirely.
-2. **Space the heavy agents.** the-creator (11x), the-enhancer (6x), and the-guardian (3x) total 20 heavy runs/day. Stagger their cron times so no two heavies fire within 30min of each other.
-3. **Confirm weekly compute cap.** Cannot project overages without knowing the ceiling.
-4. **Prune disabled tasks.** 54 disabled tasks are dead weight. Archive their prompts and delete them from the scheduler.
+### Disabled Task Inventory
+- 53 disabled tasks remain from previous fleet configurations (pre-consolidation era)
+- These are harmless but create noise. Consider archiving task definitions for disabled tasks that haven't run since March 28.
+
+### Pattern Detection
+- FIRST ENTRY — no historical data to compare. Establishing baseline.
+- The 3-day outage (Apr 1–4) suggests the Claude desktop app was closed or the scheduler process was suspended. This is not a cron misconfiguration — all nextRunAt values are correctly populated.
+- The stampede pattern (3 tasks, identical timestamp) confirms the scheduler fires all overdue tasks simultaneously on restart rather than spacing them out. This could cause compute spikes on recovery.
 
 ### Reliability Trend
-- Today: 56%
+- Today: 8%
 - 3-day avg: N/A (first entry)
+- Action: Monitor tomorrow's entry to confirm full recovery. If the-creator and the-enhancer don't resume by end of day, escalate.
