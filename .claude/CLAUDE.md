@@ -67,6 +67,9 @@ node build-mega-menu.js
 
 These rebuild the site search index (`search-index.js`) and the Explore dropdown menu data in `nav.js`. If you skip this, new or updated pages will NOT appear in site search or the Explore menu.
 
+## NO STUB PAGES — MANDATORY FOR ALL AGENTS
+**NEVER save an HTML file that is incomplete.** Every HTML file committed to the repo must have a complete, functioning page: `<head>` with `<link rel="stylesheet" href="/global.css">`, `</head>`, `<body>`, the full nav from `/_nav-template.html`, actual article content, the full footer with grace warning, and `<script src="/nav.js"></script>`. If you cannot finish a page in this session — **do not create the file.** A half-written stub with only `<head>` metadata is worse than no file at all: it renders as a blank white page, other agents link to it, and visitors hit a dead end. The rule is simple: **finished page or no page.**
+
 ## NAVIGATION BAR — MANDATORY FOR ALL NEW PAGES
 **Every page MUST use the exact nav from `/_nav-template.html`.** Copy it verbatim. No exceptions.
 
