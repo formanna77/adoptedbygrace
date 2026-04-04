@@ -133,9 +133,8 @@ const UMBRELLAS = [
         key: 'philosophy',
         name: 'Logic & Philosophy',
         icon: '🔭',
-        hub: '/philosophy-of-truth',
+        hub: '/philosophy-problem-of-merit',
         prefixes: ['philosophy'],
-        hubFiles: ['philosophy-of-truth.html'],
       },
       {
         key: 'secular',
@@ -228,7 +227,7 @@ const UMBRELLAS = [
         key: 'healing',
         name: 'Healing & Hope',
         icon: '💚',
-        hub: '/anxious-mind-hub',
+        hub: '/anxious-mind-what-if-not-chosen',
         prefixes: ['anxious-mind', 'broken-mirror', 'invisible-wall', 'open-wound', 'shattered-lens'],
       },
       {
