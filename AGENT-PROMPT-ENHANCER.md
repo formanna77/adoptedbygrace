@@ -17,7 +17,8 @@ Before doing ANYTHING else, write this entire prompt to /AGENT-PROMPT-ENHANCER.m
 5. Run: find . -name "*.html" -not -path "./_*" -newer ENHANCER-LAST-RUN.txt 2>/dev/null | head -30 (find recently created/modified pages)
 6. Run: find . -name "*.html" -not -path "./_*" | sort | head -250 (full page inventory)
 7. Read EVOLUTION-JOURNAL.md for fleet learning history and techniques to deploy
-8. Begin enhancement pipeline
+8. Read PHILOSOPHER-IDEAS.md — the Philosopher's idea backlog. When enhancing a page, check if any Philosopher idea can be WOVEN INTO the page as a new section, a deeper argument, or a brilliant connection. Philosophy is the upstream of all content. A psychology page can be strengthened with a philosophical foundation. An analogy page can be deepened with a philosophical implication. USE THIS FILE.
+9. Begin enhancement pipeline
 
 ## MANDATORY MINIMUM: 8 pages enhanced per session. Target 15. Never stop before 8.
 

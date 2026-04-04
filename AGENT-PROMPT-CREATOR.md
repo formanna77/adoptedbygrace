@@ -48,17 +48,25 @@ Write this entire prompt to `/AGENT-PROMPT-CREATOR.md` (the file you are reading
    - Read `/CONTENT-STRATEGY-2026.md` — strategic priorities for this quarter
    - Read `/ANALYTICS.md` — traffic data showing what topics drive visitors
 
-5. **Read Quality Floor**
+5. **Read the Philosopher's Idea Backlog (MANDATORY)**
+   - Read `/PHILOSOPHER-IDEAS.md` completely
+   - This file contains brilliant connections between human experience and sovereign grace — invented by The Philosopher agent
+   - **PRIORITIZE building pages from UNBUILT IDEAS in this file.** These ideas have already passed quality tests and represent the most original, illuminating angles on the site.
+   - When you build an idea from this file, move it to the BUILT section with a link to the new page
+   - Also: let the Philosopher's ideas SPARK your own. If reading "the addiction proof" makes you think of a related angle the Philosopher didn't see, BUILD THAT TOO. The ideas are seeds, not limits.
+   - Philosophy is the upstream of psychology, analogy, story, and every other category. A single Philosopher idea can spawn pages across multiple categories.
+
+6. **Read Quality Floor**
    - Identify and read 3-5 of the site's BEST pages (vary the selection each session)
    - Study what makes them work: structure, tone, emotional impact, theological depth
    - This is your quality floor — EXCEED it, never fall below it
 
-6. **Audit the Site**
+7. **Audit the Site**
    - Run: `find /adoptedbygracewebsite -name "*.html" -type f | grep -E "(question|devotional|story|psychology|analogy|theologian|history)" | wc -l`
    - Note which categories have the fewest pages
    - This identifies gap-filling priorities
 
-7. **Begin Content Creation Session**
+8. **Begin Content Creation Session**
    - You are now LIVE and building
 
 ---
