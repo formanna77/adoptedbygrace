@@ -588,6 +588,87 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
     color: var(--accent-ember);
 }
 
+/* ===== PROGRESSIVE REVEAL: SUBCATEGORY CARD GRID (Level 2) ===== */
+.mega-menu-subcat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.mega-menu-subcat-card {
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.1);
+    border-radius: 12px;
+    padding: 1.2rem 1rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-align: center;
+}
+
+.mega-menu-subcat-card:hover {
+    background: rgba(212, 162, 84, 0.1);
+    border-color: rgba(212, 162, 84, 0.3);
+    transform: translateY(-2px);
+}
+
+.mega-menu-subcat-card-icon {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.mega-menu-subcat-card-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.mega-menu-subcat-card-count {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.mega-menu-subcat-card-arrow {
+    font-size: 0.8rem;
+    color: var(--accent-gold);
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.mega-menu-subcat-card:hover .mega-menu-subcat-card-arrow {
+    opacity: 1;
+}
+
+/* Back button in Level 3 */
+.mega-menu-back {
+    display: inline-block;
+    font-size: 0.82rem;
+    color: var(--accent-gold);
+    cursor: pointer;
+    padding: 0.4rem 0;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.mega-menu-back:hover {
+    color: var(--accent-ember);
+}
+
+/* Total count badge */
+.mega-menu-total-count {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    background: rgba(212, 162, 84, 0.08);
+    padding: 0.15rem 0.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-left: 0.4rem;
+}
+
 /* ===== MOBILE ACCORDION STYLES (UPDATED FOR NESTED STRUCTURE) ===== */
 .mobile-accordion-umbrella {
     border-bottom: 1px solid rgba(212, 162, 84, 0.06);
@@ -627,19 +708,64 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
     padding-bottom: 0;
 }
 
-.mobile-accordion-subcat-name {
+/* Subcategory header (clickable — Level 2 in progressive reveal) */
+.mobile-accordion-subcat-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 0;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(212, 162, 84, 0.08);
+}
+
+.mobile-accordion-subcat-header .mobile-accordion-subcat-icon {
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+
+.mobile-accordion-subcat-header .mobile-accordion-subcat-name {
     display: block;
     font-size: 0.85rem;
     font-weight: 700;
     color: var(--accent-gold);
-    padding: 0.4rem 0 0.6rem;
-    border-bottom: 1px solid rgba(212, 162, 84, 0.1);
-    margin-bottom: 0.6rem;
+    flex: 1;
+    padding: 0;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.mobile-accordion-subcat-header .mobile-accordion-subcat-count {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    background: rgba(212, 162, 84, 0.08);
+    padding: 0.1rem 0.35rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.mobile-accordion-subcat-header .chevron-small {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    transition: transform 0.2s ease;
+}
+
+.mobile-accordion-subcat-header.open .chevron-small {
+    transform: rotate(90deg);
+}
+
+/* Article list (hidden until subcategory tapped — Level 3) */
+.mobile-accordion-pages {
+    display: none;
+    padding: 0.3rem 0 0.5rem 1.5rem;
+}
+
+.mobile-accordion-pages.open {
+    display: block;
 }
 
 .mobile-accordion-page {
     display: block;
-    padding: 0.4rem 0;
+    padding: 0.45rem 0;
     color: var(--text-secondary);
     text-decoration: none;
     font-size: 0.82rem;

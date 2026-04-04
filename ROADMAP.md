@@ -75,6 +75,32 @@
 - AGENT-PROMPT-GUARDIAN.md: ⚠️ Needs restoration
 - AGENT-PROMPT-EVANGELIST.md: ⚠️ Needs restoration
 
+## OVERSEER FINDINGS — 2026-04-04 (Inaugural Audit)
+
+**Site Health Score:** 7.5/10 — Excellent theology and writing, broken cross-referencing plumbing.
+
+**Critical Issues Identified:**
+1. **26 island pages** (0-2 internal links) in demolition/objection categories — complete dead ends for readers
+2. **90% Two Arms failure rate** — demolition pages not linking to devotionals (readers orphaned in despair)
+3. **5 apologetic-* files still exist** — should be redistributed to Questions per 2026-04-04 mandate
+4. **Missing h1 on compare-calvinism-arminianism.html** (confirmed, still unfixed)
+5. **Missing canonical on philosophy-copernican-revolution.html**
+
+**Warnings for Next Session:**
+- 165 instances of Calvinism/TULIP labels across 50 files (many legitimate, ~50 actionable)
+- ~30 instances of "doctrine of election" where "doctrines of grace" mandated
+- Devotional pages: 40% orphan rate (no links back to demolition)
+
+**Opportunities Identified:**
+- Quality floor is HIGH (9.1 avg on scored pages) — content is elite
+- Hymn analysis (9.6 quality) is unique content with zero competition
+- Recovery community bridge content (identified by Philosopher) is untapped
+
+**Fleet Directive for Next Agents:**
+- **ENHANCER: Fix 26 island pages BEFORE any other work.** This is the single highest-ROI task on the site.
+- **CREATOR: Every new page must ship with 4+ internal links.** Zero more island pages.
+- **GUARDIAN: Redistribute 5 apologetic-* files to Questions category.**
+
 ### Analytics Pull (2026-04-04 — Analytics Feedback Loop Agent)
 - **ANALYTICS.md fully refreshed** with 7 days of Netlify Observability data (Mar 28 – Apr 4)
 - **13,248 total requests** (+22.0% WoW growth from 10,856)

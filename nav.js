@@ -615,10 +615,16 @@
         megaMenu.appendChild(panel);
     }
 
+    // Track which subcategory is expanded (null = show subcategory cards only)
+    var expandedSubcat = null;
+
     function setActiveMegaMenuUmbrella(index) {
         if (!megaMenu) return;
         var umbrella = MEGA_MENU_DATA[index];
         if (!umbrella) return;
+
+        // Reset expanded subcategory when switching umbrellas
+        expandedSubcat = null;
 
         // Update left panel active state
         var umbrellaItems = megaMenu.querySelectorAll('.mega-menu-cat-item');
@@ -629,41 +635,107 @@
             umbrellaItems[index].classList.add('active');
         }
 
-        // Update right panel content
+        // Show Level 2: subcategory cards (no articles yet)
+        renderSubcategoryCards(index);
+    }
+
+    // LEVEL 2: Show subcategory cards for an umbrella (no article list)
+    function renderSubcategoryCards(umbrellaIndex) {
         var rightPanel = document.getElementById('megaMenuDetail');
         if (!rightPanel) return;
+        var umbrella = MEGA_MENU_DATA[umbrellaIndex];
+        if (!umbrella) return;
+
+        var totalPages = 0;
+        for (var t = 0; t < umbrella.subcategories.length; t++) {
+            totalPages += umbrella.subcategories[t].count;
+        }
 
         var html = '';
-        html += '<div class="mega-menu-detail-title">' + escapeHtml(umbrella.umbrella) + '</div>';
-        html += '<div class="mega-menu-detail-desc">' + escapeHtml(umbrella.desc) + '</div>';
+        html += '<div class="mega-menu-detail-title">' + umbrella.icon + ' ' + escapeHtml(umbrella.umbrella) + '</div>';
+        html += '<div class="mega-menu-detail-desc">' + escapeHtml(umbrella.desc) + ' <span class="mega-menu-total-count">' + totalPages + ' articles</span></div>';
 
-        // Render each subcategory
+        // If only 1 subcategory, skip straight to articles
+        if (umbrella.subcategories.length === 1) {
+            renderSubcategoryArticles(umbrellaIndex, 0);
+            return;
+        }
+
+        html += '<div class="mega-menu-subcat-grid">';
         for (var s = 0; s < umbrella.subcategories.length; s++) {
             var subcat = umbrella.subcategories[s];
-            if (subcat.pages.length === 0) continue; // Skip empty subcategories
+            if (subcat.pages.length === 0) continue;
 
-            html += '<div class="mega-menu-subcat">';
-            html += '<div class="mega-menu-subcat-header">';
-            html += '<span class="mega-menu-subcat-icon">' + subcat.icon + '</span>';
-            html += '<span class="mega-menu-subcat-name">' + escapeHtml(subcat.name) + '</span>';
-            html += '<span class="mega-menu-subcat-count">' + subcat.count + '</span>';
+            html += '<div class="mega-menu-subcat-card" data-umbrella="' + umbrellaIndex + '" data-subcat="' + s + '">';
+            html += '<div class="mega-menu-subcat-card-icon">' + subcat.icon + '</div>';
+            html += '<div class="mega-menu-subcat-card-name">' + escapeHtml(subcat.name) + '</div>';
+            html += '<div class="mega-menu-subcat-card-count">' + subcat.count + ' articles</div>';
+            html += '<div class="mega-menu-subcat-card-arrow">Browse →</div>';
             html += '</div>';
-            html += '<div class="mega-menu-subcat-pages">';
+        }
+        html += '</div>';
 
-            for (var p = 0; p < subcat.pages.length; p++) {
-                var page = subcat.pages[p];
-                html += '<a href="' + escapeAttr(page.href) + '" class="mega-menu-page-link">';
-                html += '<div class="mega-menu-page-name">' + escapeHtml(page.name) + '</div>';
-                html += '<div class="mega-menu-page-desc">' + escapeHtml(page.desc) + '</div>';
-                html += '</a>';
-            }
+        rightPanel.innerHTML = html;
 
-            html += '</div>';
-            html += '<a href="' + escapeAttr(subcat.href) + '" class="mega-menu-view-all-subcat">View all in ' + escapeHtml(subcat.name) + ' →</a>';
-            html += '</div>';
+        // Add click listeners to subcategory cards
+        var cards = rightPanel.querySelectorAll('.mega-menu-subcat-card');
+        for (var c = 0; c < cards.length; c++) {
+            (function(card) {
+                card.addEventListener('click', function() {
+                    var ui = parseInt(card.getAttribute('data-umbrella'), 10);
+                    var si = parseInt(card.getAttribute('data-subcat'), 10);
+                    renderSubcategoryArticles(ui, si);
+                });
+            })(cards[c]);
+        }
+    }
+
+    // LEVEL 3: Show articles for a specific subcategory (max 8, then "View all")
+    function renderSubcategoryArticles(umbrellaIndex, subcatIndex) {
+        var rightPanel = document.getElementById('megaMenuDetail');
+        if (!rightPanel) return;
+        var umbrella = MEGA_MENU_DATA[umbrellaIndex];
+        if (!umbrella) return;
+        var subcat = umbrella.subcategories[subcatIndex];
+        if (!subcat) return;
+
+        var maxShow = 8;
+        var html = '';
+
+        // Back button (unless single subcategory)
+        if (umbrella.subcategories.length > 1) {
+            html += '<div class="mega-menu-back" data-umbrella="' + umbrellaIndex + '">← Back to ' + escapeHtml(umbrella.umbrella) + '</div>';
+        }
+
+        html += '<div class="mega-menu-detail-title">' + subcat.icon + ' ' + escapeHtml(subcat.name) + '</div>';
+        html += '<div class="mega-menu-detail-desc">' + subcat.count + ' articles</div>';
+
+        html += '<div class="mega-menu-subcat-pages">';
+        var showCount = Math.min(subcat.pages.length, maxShow);
+        for (var p = 0; p < showCount; p++) {
+            var page = subcat.pages[p];
+            html += '<a href="' + escapeAttr(page.href) + '" class="mega-menu-page-link">';
+            html += '<div class="mega-menu-page-name">' + escapeHtml(page.name) + '</div>';
+            html += '</a>';
+        }
+        html += '</div>';
+
+        if (subcat.pages.length > maxShow) {
+            html += '<a href="' + escapeAttr(subcat.href) + '" class="mega-menu-view-all-subcat">View all ' + subcat.count + ' articles in ' + escapeHtml(subcat.name) + ' →</a>';
+        } else if (subcat.href) {
+            html += '<a href="' + escapeAttr(subcat.href) + '" class="mega-menu-view-all-subcat">Go to ' + escapeHtml(subcat.name) + ' hub →</a>';
         }
 
         rightPanel.innerHTML = html;
+
+        // Add back button listener
+        var backBtn = rightPanel.querySelector('.mega-menu-back');
+        if (backBtn) {
+            backBtn.addEventListener('click', function() {
+                var ui = parseInt(backBtn.getAttribute('data-umbrella'), 10);
+                renderSubcategoryCards(ui);
+            });
+        }
     }
 
     // === BUILD MOBILE CATEGORIES ACCORDION (with nested umbrellas) ===
@@ -686,37 +758,52 @@
         // Category label
         html += '<span class="mobile-categories-label">Explore All Categories</span>';
 
-        // All umbrellas with subcategories and pages
+        // All umbrellas with subcategories (progressive reveal: umbrella → subcats → articles)
         for (var i = 0; i < MEGA_MENU_DATA.length; i++) {
             var umbrella = MEGA_MENU_DATA[i];
             var umbrellaId = 'mobile-acc-' + i;
-            var subcatCount = umbrella.subcategories ? umbrella.subcategories.length : 0;
+            var totalPages = 0;
+            for (var tc = 0; tc < umbrella.subcategories.length; tc++) {
+                totalPages += umbrella.subcategories[tc].count;
+            }
 
             html += '<div class="mobile-accordion-umbrella">';
             html += '<div class="mobile-accordion-header" data-umbrella-index="' + i + '">';
             html += '<span class="mobile-accordion-icon">' + umbrella.icon + '</span>';
             html += '<span class="mobile-accordion-umbrella-name">' + escapeHtml(umbrella.umbrella) + '</span>';
-            html += '<span class="mobile-accordion-umbrella-count">' + subcatCount + '</span>';
+            html += '<span class="mobile-accordion-umbrella-count">' + totalPages + '</span>';
             html += '<span class="chevron">▼</span>';
             html += '</div>';
             html += '<div class="mobile-accordion-subcats" id="' + umbrellaId + '">';
 
-            // Render subcategories within this umbrella
+            // LEVEL 2: Show subcategory names as clickable items (no articles yet)
             for (var s = 0; s < umbrella.subcategories.length; s++) {
                 var subcat = umbrella.subcategories[s];
                 if (subcat.pages.length === 0) continue;
+                var subcatId = 'mobile-subcat-' + i + '-' + s;
 
                 html += '<div class="mobile-accordion-subcat">';
-                html += '<div class="mobile-accordion-subcat-name">' + escapeHtml(subcat.name) + ' (' + subcat.count + ')</div>';
+                html += '<div class="mobile-accordion-subcat-header" data-umbrella-index="' + i + '" data-subcat-index="' + s + '">';
+                html += '<span class="mobile-accordion-subcat-icon">' + subcat.icon + '</span>';
+                html += '<span class="mobile-accordion-subcat-name">' + escapeHtml(subcat.name) + '</span>';
+                html += '<span class="mobile-accordion-subcat-count">' + subcat.count + '</span>';
+                html += '<span class="chevron-small">›</span>';
+                html += '</div>';
 
-                // Render pages within this subcategory
-                for (var p = 0; p < subcat.pages.length; p++) {
+                // LEVEL 3: Articles (hidden until subcat is tapped)
+                html += '<div class="mobile-accordion-pages" id="' + subcatId + '">';
+                var mobileMax = 6;
+                var showCount = Math.min(subcat.pages.length, mobileMax);
+                for (var p = 0; p < showCount; p++) {
                     var page = subcat.pages[p];
                     html += '<a href="' + escapeAttr(page.href) + '" class="mobile-accordion-page">' + escapeHtml(page.name) + '</a>';
                 }
-
-                // "View all" link for this subcategory
-                html += '<a href="' + escapeAttr(subcat.href) + '" class="mobile-accordion-view-all-subcat">View all in ' + escapeHtml(subcat.name) + ' \u2192</a>';
+                if (subcat.pages.length > mobileMax) {
+                    html += '<a href="' + escapeAttr(subcat.href) + '" class="mobile-accordion-view-all-subcat">View all ' + subcat.count + ' articles →</a>';
+                } else if (subcat.href) {
+                    html += '<a href="' + escapeAttr(subcat.href) + '" class="mobile-accordion-view-all-subcat">Go to ' + escapeHtml(subcat.name) + ' →</a>';
+                }
+                html += '</div>';
                 html += '</div>';
             }
 
@@ -736,7 +823,7 @@
 
         container.innerHTML = html;
 
-        // Add event listeners for accordion toggle
+        // Add event listeners for umbrella accordion toggle
         var headers = container.querySelectorAll('.mobile-accordion-header');
         for (var h = 0; h < headers.length; h++) {
             (function(header) {
@@ -747,6 +834,39 @@
                     toggleMobileAccordion(index);
                 });
             })(headers[h]);
+        }
+
+        // Add event listeners for subcategory accordion toggle (Level 3)
+        var subcatHeaders = container.querySelectorAll('.mobile-accordion-subcat-header');
+        for (var sh = 0; sh < subcatHeaders.length; sh++) {
+            (function(subHeader) {
+                subHeader.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    var ui = subHeader.getAttribute('data-umbrella-index');
+                    var si = subHeader.getAttribute('data-subcat-index');
+                    var pagesEl = document.getElementById('mobile-subcat-' + ui + '-' + si);
+                    if (!pagesEl) return;
+
+                    // Toggle this subcategory's articles
+                    var isOpen = pagesEl.classList.contains('open');
+
+                    // Close all other subcategory pages within same umbrella
+                    var siblingPages = subHeader.closest('.mobile-accordion-subcats').querySelectorAll('.mobile-accordion-pages');
+                    var siblingHeaders = subHeader.closest('.mobile-accordion-subcats').querySelectorAll('.mobile-accordion-subcat-header');
+                    for (var sp = 0; sp < siblingPages.length; sp++) {
+                        siblingPages[sp].classList.remove('open');
+                    }
+                    for (var sph = 0; sph < siblingHeaders.length; sph++) {
+                        siblingHeaders[sph].classList.remove('open');
+                    }
+
+                    if (!isOpen) {
+                        pagesEl.classList.add('open');
+                        subHeader.classList.add('open');
+                    }
+                });
+            })(subcatHeaders[sh]);
         }
 
         // Close mobile menu when any link inside accordion is tapped
