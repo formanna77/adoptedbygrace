@@ -45,160 +45,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 
-    <style>
-        .hero {
-            background: linear-gradient(135deg, rgba(13, 27, 42, 0.95), rgba(25, 51, 84, 0.95)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><pattern id="dots" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse"><circle cx="30" cy="30" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="1200" height="600" fill="url(%23dots)"/></svg>');
-            color: #f0ece4;
-            padding: 6rem 2rem;
-            text-align: center;
-            border-bottom: 3px solid #d4a254;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3.5rem;
-            margin-bottom: 1rem;
-            text-shadow: 0 2px 8px rgba(0,0,0,0.3);
-        }
-
-        .hero p {
-            font-size: 1.3rem;
-            line-height: 1.6;
-            max-width: 700px;
-            margin: 0 auto 1.5rem;
-            opacity: 0.95;
-        }
-
-        .hero-verse {
-            background: rgba(18, 18, 26, 0.6);
-            border-left: 4px solid #d4a254;
-            padding: 1.5rem 2rem;
-            max-width: 650px;
-            margin: 2rem auto;
-            border-radius: 4px;
-            font-style: italic;
-            color: #f0ece4;
-        }
-
-        .content-section {
-            max-width: 800px;
-            margin: 3rem auto;
-            padding: 0 2rem;
-        }
-
-        .content-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            color: #f0ece4;
-            margin-bottom: 1.5rem;
-            border-bottom: 2px solid #d4a254;
-            padding-bottom: 0.75rem;
-        }
-
-        .content-section p {
-            font-family: 'Inter', sans-serif;
-            line-height: 1.8;
-            margin-bottom: 1.5rem;
-            color: #9a958c;
-        }
-
-        blockquote {
-            background: #12121a;
-            border-left: 4px solid #d4a254;
-            padding: 1.5rem 2rem;
-            margin: 2rem 0;
-            font-style: italic;
-            color: #9a958c;
-            border-radius: 4px;
-        }
-
-        blockquote cite {
-            display: block;
-            text-align: right;
-            margin-top: 0.75rem;
-            font-style: normal;
-            color: #807b75;
-            font-size: 0.95rem;
-        }
-
-        /* Reveal animation REMOVED — was causing invisible content bug.
-           All content is visible immediately. No animation is worth
-           losing a single reader. */
-
-        .highlight {
-            background: rgba(212, 162, 84, 0.15);
-            padding: 0.2rem 0.4rem;
-            border-radius: 3px;
-        }
-
-        .comparison-box {
-            background: #12121a;
-            border: 2px solid #d4a254;
-            border-radius: 6px;
-            padding: 1.5rem;
-            margin: 2rem 0;
-            color: #f0ece4;
-        }
-
-        .comparison-box strong {
-            color: #d4a254;
-        }
-
-        .pull-quote {
-            background: linear-gradient(to right, rgba(212, 162, 84, 0.08), transparent);
-            border-left: 5px solid #d4a254;
-            padding: 1.5rem;
-            margin: 2rem 0;
-            font-size: 1.15rem;
-            font-style: italic;
-            color: #f0ece4;
-            line-height: 1.7;
-            position: relative;
-        }
-
-        .devastating-question {
-            background: rgba(212, 162, 84, 0.05);
-            border: 2px solid rgba(212, 162, 84, 0.3);
-            border-radius: 6px;
-            padding: 1.25rem 1.5rem;
-            margin: 2rem 0;
-            color: #f0ece4;
-            font-weight: 500;
-            font-size: 1.05rem;
-        }
-
-        .pastoral-whisper {
-            background: rgba(240, 236, 228, 0.03);
-            border-left: 4px solid #807b75;
-            padding: 1.2rem 1.5rem;
-            margin: 2rem 0;
-            font-size: 0.95rem;
-            color: #9a958c;
-            font-style: italic;
-            border-radius: 4px;
-        }
-
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-        /* ===== RESPONSIVE ===== */
-        @media (max-width: 968px) {
-            .page-header h1, h1 { font-size: 2rem; }
-            .page-header p, .page-intro { font-size: 1rem; }
-            .content-wrapper, .article-content, .main-content { padding: 0 1.5rem; }
-            .card-grid, .grid { grid-template-columns: 1fr; }
-            .footer-container { grid-template-columns: 1fr; text-align: center; }
-        }
-        @media (max-width: 480px) {
-            .page-header h1, h1 { font-size: 1.6rem; }
-            h2 { font-size: 1.3rem; }
-            .page-header { padding: 5rem 1rem 2rem; }
-            .content-wrapper, .article-content, .main-content { padding: 0 1rem; }
-            blockquote { padding: 1rem; margin: 1rem 0; }
-        }
-
-    </style>
+    
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -215,10 +62,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    <link rel="stylesheet" href="/global.css">
+    
 
   REQUIRED before </body>:
-    <script src="/nav.js"></script>
+    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -580,7 +427,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <span class="related-article-title">Analogies &amp;amp; Illustrations</span>
         <span class="related-article-desc">Vivid analogies that illuminate God</span>
       </a>
-      <a href="/demolition-romans10-9" class="related-article-card">
+      <a href="/demolition-hub" class="related-article-card">
         <span class="related-article-cat">💥 Demolition Zone</span>
         <span class="related-article-title">Demolition: Romans 10:9-10 — &quot;If You Confess... You Will Be Saved&quot;</span>
         <span class="related-article-desc">Romans 10:9-10 — Does</span>

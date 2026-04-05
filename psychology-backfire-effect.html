@@ -38,91 +38,7 @@
     }
     </script>
 
-    <style>
-        .reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold) 0%, var(--accent-ember) 50%, var(--accent-violet) 100%); z-index: 1000; width: 0%; transition: width 0.1s ease-out; }
-
-        .page-hero {
-            position: relative;
-            padding: 10rem 2rem 5rem;
-            text-align: left;
-            max-width: 900px;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-        .page-hero::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: radial-gradient(ellipse at 30% 40%, rgba(139, 92, 246, 0.08) 0%, transparent 60%),
-                        radial-gradient(ellipse at 80% 20%, rgba(232, 100, 44, 0.05) 0%, transparent 40%);
-            pointer-events: none;
-        }
-        .hero-eyebrow {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.875rem;
-            letter-spacing: 0.15em;
-            color: var(--accent-violet);
-            text-transform: uppercase;
-            margin-bottom: 1rem;
-            display: block;
-        }
-        .page-hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2.5rem, 6vw, 4rem);
-            line-height: 1.15;
-            color: var(--text-primary);
-            font-weight: 900;
-        }
-        .page-hero h1 .gold { color: var(--accent-gold); }
-        .page-hero .subtitle {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            max-width: 650px;
-            margin-top: 1.5rem;
-            line-height: 1.7;
-        }
-
-        .content-wrap { max-width: 850px; margin: 0 auto; padding: 0 2rem 4rem; }
-
-        h2 { font-family: 'Playfair Display', serif; font-size: 1.65rem; font-weight: 700; color: var(--accent-gold); margin: 3rem 0 1.2rem; line-height: 1.3; }
-        h3 { font-family: 'Playfair Display', serif; font-size: 1.25rem; color: var(--text-primary); margin: 2rem 0 0.8rem; }
-        p { margin-bottom: 1.4rem; font-size: 1.05rem; line-height: 1.8; }
-
-        .scripture { background: rgba(139,92,246,0.08); border-left: 3px solid var(--accent-violet); padding: 1.2rem 1.5rem; margin: 1.8rem 0; font-style: italic; border-radius: 0 6px 6px 0; }
-        .scripture .ref { display: block; margin-top: 0.6rem; font-style: normal; font-size: 0.85rem; color: var(--accent-violet); font-family: 'JetBrains Mono', monospace; }
-
-        .mechanism-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.8rem; margin: 1.8rem 0; }
-        .mechanism-card h3 { margin-top: 0; color: var(--accent-violet); }
-        .mechanism-num { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 0.4rem; }
-        .researcher { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--accent-gold); display: block; margin-bottom: 0.8rem; }
-
-        .pullquote { font-family: 'Playfair Display', serif; font-size: 1.35rem; color: var(--accent-gold); text-align: center; padding: 2rem 1.5rem; margin: 2.5rem 0; border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); line-height: 1.5; }
-
-        .pastoral { background: linear-gradient(135deg, rgba(212,162,84,0.06), rgba(212,162,84,0.02)); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; padding: 2.5rem; margin: 3rem 0; }
-        .pastoral h2 { color: var(--accent-gold); margin-top: 0; }
-
-        .self-ref { background: linear-gradient(135deg, rgba(139,92,246,0.08), rgba(139,92,246,0.03)); border: 1px solid rgba(139,92,246,0.2); border-radius: 8px; padding: 2rem; margin: 2.5rem 0; }
-        .self-ref h3 { color: var(--accent-violet); margin-top: 0; }
-
-        .cross-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0; }
-        .cross-link { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 1.2rem; text-decoration: none; transition: all 0.3s ease; }
-        .cross-link:hover { border-color: var(--accent-gold); transform: translateY(-2px); }
-        .cross-link .cl-cat { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent-violet); text-transform: uppercase; letter-spacing: 1px; }
-        .cross-link .cl-title { color: var(--text-primary); font-weight: 600; font-size: 0.95rem; display: block; margin-top: 0.3rem; }
-
-        .never-gives-up-banner { background: linear-gradient(135deg, rgba(212,162,84,0.1), rgba(139,92,246,0.1)); border: 1px solid rgba(212,162,84,0.2); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
-        .never-gives-up-banner a { color: var(--accent-gold); text-decoration: none; font-family: 'Playfair Display', serif; font-size: 1.3rem; }
-        .never-gives-up-banner a:hover { color: var(--accent-ember); }
-        .never-gives-up-banner p { color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem; margin-bottom: 0; }
-
-        @media (max-width: 768px) {
-            .page-hero { padding: 7rem 1.2rem 3rem; }
-            .page-hero h1 { font-size: 2rem; }
-            .content-wrap { padding: 0 1.2rem 3rem; }
-            h2 { font-size: 1.35rem; }
-            .pullquote { font-size: 1.1rem; padding: 1.5rem 1rem; }
-        }
-    </style>
+    
 </head>
 <body>
 
@@ -317,7 +233,7 @@
 
         <p>Aaron believed his own choice for thirty years before grace broke through. The people who loved him most weren't the ones who tried to argue him out of it. They were the ones who loved him through it.</p>
 
-        <p>If you're struggling with whether to keep confronting or let go, <a href="/pastoral-wisdom-timing" style="color: var(--accent-gold);">there are resources on knowing when to speak and when to wait</a>.</p>
+        <p>If you're struggling with whether to keep confronting or let go, <a href="/pastoral-assurance" style="color: var(--accent-gold);">there are resources on knowing when to speak and when to wait</a>.</p>
     </div>
 
     <h2>Keep Reading</h2>
@@ -335,11 +251,11 @@
             <span class="cl-cat">Psychology</span>
             <span class="cl-title">The Sunk Cost of Self-Made Faith</span>
         </a>
-        <a href="/question-how-share-truth" class="cross-link">
+        <a href="/pastoral-evangelism" class="cross-link">
             <span class="cl-cat">Question</span>
             <span class="cl-title">How Do I Share Grace With Someone Who Doesn't Believe in It?</span>
         </a>
-        <a href="/devotional-patient-god" class="cross-link">
+        <a href="/devotional-valley-shadow" class="cross-link">
             <span class="cl-cat">Devotional</span>
             <span class="cl-title">The Patient God: Why Grace Takes a Lifetime</span>
         </a>

@@ -14,6 +14,9 @@
     <meta property="og:site_name" content="Adopted by Grace">
 
     <link rel="canonical" href="https://adoptedbygrace.net/psychology-sincerity-trap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/global.css">
 
     <script type="application/ld+json">
@@ -39,252 +42,7 @@
     }
     </script>
 
-    <style>
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #1a1a22;
-            --text-primary: #e8e6e1;
-            --text-secondary: #b8b6b1;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --border-subtle: #2a2a32;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html, body {
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            line-height: 1.8;
-        }
-
-        .page-wrapper {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .progress-bar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(to right, var(--accent-gold), var(--accent-ember));
-            width: 0%;
-            z-index: 1000;
-        }
-
-        .hero {
-            padding: 6rem 2rem;
-            text-align: center;
-            max-width: 900px;
-            margin: 4rem auto 3rem;
-        }
-
-        .hero-eyebrow {
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--accent-gold);
-            margin-bottom: 1.5rem;
-            font-weight: 600;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 3.2rem;
-            font-weight: 700;
-            line-height: 1.15;
-            margin-bottom: 1.5rem;
-            color: var(--text-primary);
-        }
-
-        .hero p {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            max-width: 700px;
-            margin: 0 auto;
-        }
-
-        .content {
-            max-width: 750px;
-            margin: 0 auto;
-            padding: 0 2rem;
-            flex: 1;
-        }
-
-        .section {
-            margin-bottom: 4rem;
-        }
-
-        h2 {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-            color: var(--text-primary);
-            border-left: 4px solid var(--accent-gold);
-            padding-left: 1.5rem;
-        }
-
-        h3 {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.4rem;
-            font-weight: 700;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            color: var(--text-primary);
-        }
-
-        p {
-            margin-bottom: 1.5rem;
-            color: var(--text-primary);
-            font-size: 1rem;
-        }
-
-        .pull-quote {
-            background: rgba(212, 162, 84, 0.1);
-            border-left: 4px solid var(--accent-gold);
-            padding: 2rem;
-            margin: 2.5rem 0;
-            font-size: 1.2rem;
-            font-style: italic;
-            color: var(--accent-gold);
-            line-height: 1.7;
-        }
-
-        .scripture-block {
-            background: rgba(232, 100, 44, 0.08);
-            border-left: 4px solid var(--accent-ember);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            font-size: 0.95rem;
-            line-height: 1.8;
-        }
-
-        .scripture-block .reference {
-            display: block;
-            margin-top: 1rem;
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            font-style: italic;
-        }
-
-        a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            border-bottom: 1px solid rgba(212, 162, 84, 0.3);
-            transition: all 0.3s ease;
-        }
-
-        a:hover {
-            color: var(--accent-ember);
-            border-bottom-color: var(--accent-ember);
-        }
-
-        .emphasis {
-            color: var(--accent-gold);
-            font-weight: 600;
-        }
-
-        .indent-block {
-            margin-left: 2rem;
-            padding-left: 1.5rem;
-            border-left: 2px solid var(--border-subtle);
-            color: var(--text-secondary);
-        }
-
-        .keep-reading {
-            margin: 5rem auto 3rem;
-            max-width: 750px;
-            padding: 0 2rem;
-        }
-
-        .keep-reading h3 {
-            border-left: 4px solid var(--accent-gold);
-            padding-left: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        .card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            padding: 2rem;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-        }
-
-        .card:hover {
-            border-color: var(--accent-gold);
-            transform: translateY(-2px);
-        }
-
-        .card h4 {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.1rem;
-            margin-bottom: 0.8rem;
-            color: var(--accent-gold);
-        }
-
-        .card p {
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            margin-bottom: 1.2rem;
-        }
-
-        .card-link {
-            display: inline-block;
-            color: var(--accent-gold);
-            font-weight: 600;
-            font-size: 0.9rem;
-            border: none;
-        }
-
-        footer {
-            background: rgba(26, 26, 34, 0.5);
-            border-top: 1px solid var(--border-subtle);
-            margin-top: 5rem;
-            padding: 3rem 2rem;
-            text-align: center;
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-
-        @media (max-width: 768px) {
-            .hero {
-                padding: 3rem 1.5rem;
-                margin: 2rem auto 2rem;
-            }
-
-            .hero h1 {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            .content {
-                padding: 0 1.5rem;
-            }
-
-            .cards-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    
 </head>
 <body>
     <div class="page-wrapper">
@@ -509,9 +267,9 @@
                         <a href="/psychology-why-we-resist" class="card-link">Read →</a>
                     </div>
                     <div class="card">
-                        <h4><a href="/devotional-grace-pursues">He Will Not Let You Go</a></h4>
+                        <h4><a href="/devotional-never-gives-up">He Will Not Let You Go</a></h4>
                         <p>The other side of the sword. For when your foundation has shifted and you need to know: grace doesn't leave you. Ever.</p>
-                        <a href="/devotional-grace-pursues" class="card-link">Read →</a>
+                        <a href="/devotional-never-gives-up" class="card-link">Read →</a>
                     </div>
                 </div>
             </div>

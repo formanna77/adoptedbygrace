@@ -34,282 +34,7 @@
         "dateModified": "2026-03-29"
     }
     </script>
-    <style>
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --bg-card-hover: #1a1a2e;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-
-        body {
-            background: var(--bg-deep);
-            color: var(--text-primary);
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            line-height: 1.8;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        a { color: var(--accent-gold); text-decoration: none; transition: opacity 0.2s; }
-        a:hover { opacity: 0.8; }
-
-        .skip-link {
-            position: absolute; top: -100px; left: 0;
-            background: var(--accent-gold); color: var(--bg-deep);
-            padding: 0.5rem 1.5rem; z-index: 10001;
-            font-weight: 600; border-radius: 0 0 4px 0;
-        }
-        .skip-link:focus { top: 0; }
-        *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; }
-
-        .hero {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 4rem 2rem 2rem;
-        }
-
-        .breadcrumb {
-            display: inline-block;
-            margin-bottom: 1.5rem;
-            color: var(--accent-gold);
-            font-size: 0.9rem;
-        }
-
-        .topic-label {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            color: var(--accent-gold);
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            margin-bottom: 1rem;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2rem, 5vw, 3rem);
-            font-weight: 800;
-            line-height: 1.15;
-            margin-bottom: 1.25rem;
-            background: linear-gradient(135deg, var(--text-primary), var(--accent-gold));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .hero-subtitle {
-            font-size: 1.15rem;
-            color: var(--text-secondary);
-            max-width: 700px;
-            line-height: 1.7;
-        }
-
-        .hero-verse {
-            margin-top: 2rem;
-            padding: 1.5rem 2rem;
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.06), rgba(232, 100, 44, 0.04));
-            border-left: 4px solid var(--accent-violet);
-            border-radius: 4px;
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
-            font-style: italic;
-            color: var(--text-primary);
-            line-height: 1.7;
-        }
-
-        .hero-verse .ref {
-            display: block;
-            margin-top: 0.75rem;
-            font-style: normal;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-
-        .section-nav {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 0 2rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.75rem;
-        }
-
-        .section-nav a {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            padding: 0.5rem 1rem;
-            font-size: 0.8rem;
-            font-family: 'JetBrains Mono', monospace;
-            color: var(--text-muted);
-            transition: all 0.2s;
-        }
-        .section-nav a:hover { color: var(--accent-gold); border-color: var(--accent-gold); opacity: 1; }
-
-        .content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 2rem 4rem;
-        }
-
-        .section { margin-bottom: 5rem; scroll-margin-top: 100px; }
-        .section h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 1.5rem; color: var(--accent-gold); }
-        .section h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-top: 2.5rem; margin-bottom: 1rem; color: var(--text-primary); }
-        .section p { margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 1.85; }
-        .section strong { color: var(--text-primary); }
-
-        .scripture-block {
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05));
-            border-left: 4px solid var(--accent-gold);
-            border-radius: 4px;
-            padding: 2rem;
-            margin: 2rem 0;
-            font-size: 1rem;
-            line-height: 1.9;
-            color: var(--text-primary);
-            font-style: italic;
-        }
-
-        .scripture-ref {
-            display: block;
-            margin-top: 1rem;
-            font-style: normal;
-            color: var(--text-muted);
-            font-size: 0.85rem;
-            font-family: 'JetBrains Mono', monospace;
-        }
-
-        .greek-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-            margin: 2rem 0;
-        }
-
-        .greek-box {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-left: 4px solid var(--accent-gold);
-            border-radius: 4px;
-            padding: 1.5rem;
-        }
-
-        .greek-word { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.4rem; }
-        .greek-translation { font-size: 0.95rem; color: var(--accent-ember); font-weight: 600; margin-bottom: 0.75rem; }
-        .greek-explanation { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.65; }
-
-        .arguments-grid { display: grid; gap: 2rem; margin: 2rem 0; }
-
-        .argument-item {
-            background: linear-gradient(135deg, rgba(212, 162, 84, 0.05), rgba(139, 92, 246, 0.05));
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            padding: 2rem;
-        }
-
-        .argument-number { font-family: 'JetBrains Mono', monospace; color: var(--accent-gold); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.5rem; }
-        .argument-title { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--text-primary); margin-bottom: 1rem; font-weight: 600; }
-        .argument-text { color: var(--text-secondary); line-height: 1.8; }
-        .argument-text .verse { color: var(--accent-gold); font-weight: 500; }
-
-        .objection {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            margin: 2rem 0;
-            overflow: hidden;
-        }
-
-        .objection-header {
-            background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(139, 92, 246, 0.05));
-            border-bottom: 1px solid var(--border-subtle);
-            padding: 1.25rem 1.5rem;
-            font-weight: 600;
-            color: var(--accent-ember);
-            font-size: 0.95rem;
-        }
-        .objection-header::before { content: '\2694\FE0F  OBJECTION: '; }
-
-        .objection-body { padding: 1.5rem; color: var(--text-secondary); line-height: 1.8; border-bottom: 1px solid var(--border-subtle); }
-
-        .answer-header {
-            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.04));
-            padding: 1.25rem 1.5rem;
-            font-weight: 600;
-            color: var(--accent-gold);
-            font-size: 0.95rem;
-        }
-        .answer-header::before { content: '\2713  ANSWER: '; }
-        .answer-body { padding: 1.5rem; color: var(--text-secondary); line-height: 1.8; }
-
-        .witness-quote {
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.08), rgba(212, 162, 84, 0.05));
-            border: 1px solid var(--border-subtle);
-            border-left: 4px solid var(--accent-violet);
-            border-radius: 4px;
-            padding: 2rem;
-            margin: 2.5rem 0;
-        }
-
-        .witness-quote blockquote { font-family: 'Playfair Display', serif; font-size: 1.1rem; line-height: 1.7; color: var(--text-primary); font-style: italic; margin-bottom: 1rem; }
-        .witness-attribution { color: var(--accent-violet); font-size: 0.9rem; font-weight: 600; }
-
-        .callout {
-            background: linear-gradient(135deg, rgba(232, 100, 44, 0.08), rgba(212, 162, 84, 0.06));
-            border: 1px solid rgba(232, 100, 44, 0.2);
-            border-radius: 4px;
-            padding: 2rem;
-            margin: 2rem 0;
-        }
-        .callout-title { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem; }
-        .callout p { color: var(--text-primary); line-height: 1.8; }
-
-        .explore-section { margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--border-subtle); }
-        .explore-section h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); margin-bottom: 2rem; text-align: center; }
-        .explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
-
-        .explore-link {
-            display: block;
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            padding: 1.5rem;
-            transition: all 0.3s ease;
-        }
-        .explore-link:hover { border-color: var(--accent-gold); transform: translateY(-2px); opacity: 1; }
-        .explore-link-cat { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; }
-        .explore-link-title { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; }
-        .explore-link-desc { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; }
-
-        .site-footer { max-width: 900px; margin: 0 auto; padding: 3rem 2rem; text-align: center; border-top: 1px solid var(--border-subtle); }
-        .footer-brand { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.5rem; }
-        .footer-tagline { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; }
-        .footer-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 1.5rem; }
-        .footer-links a { font-size: 0.8rem; color: var(--text-muted); }
-        .footer-links a:hover { color: var(--accent-gold); }
-        .footer-copy { font-size: 0.75rem; color: var(--text-muted); }
-
-        .reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); z-index: 10001; transition: width 0.1s linear; }
-
-        @media (max-width: 768px) {
-            .hero { padding: 3rem 1.25rem 1.5rem; }
-            .content { padding: 0 1.25rem 3rem; }
-            .section-nav { padding: 0 1.25rem; }
-            .hero h1 { font-size: 1.8rem; }
-            .section h2 { font-size: 1.6rem; }
-            .greek-grid { grid-template-columns: 1fr; }
-            .explore-grid { grid-template-columns: 1fr; }
-        }
-    </style>
+    
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
 <body>
@@ -599,7 +324,7 @@
                 <div class="objection-header">"God wants everyone to be saved (1 Timothy 2:4), so He wouldn't hide truth."</div>
                 <div class="objection-body">A God who conceals truth from some people contradicts His desire for all to be saved.</div>
                 <div class="answer-header">Take that up with Jesus.</div>
-                <div class="answer-body">Jesus is the one who says "to them it has <em>not</em> been given." Jesus quotes Isaiah 6 approvingly — a text where God commands concealment to prevent repentance. If your theology says God would never do this, but Jesus says God does do this, then your theology needs to yield to Jesus. The solution to 1 Timothy 2:4 is to understand "all" in context — all <em>kinds</em> of people (kings, rulers, etc.), not every individual without exception. See our <a href="/demolition-1tim2-4">full treatment of 1 Timothy 2:4</a>.</div>
+                <div class="answer-body">Jesus is the one who says "to them it has <em>not</em> been given." Jesus quotes Isaiah 6 approvingly — a text where God commands concealment to prevent repentance. If your theology says God would never do this, but Jesus says God does do this, then your theology needs to yield to Jesus. The solution to 1 Timothy 2:4 is to understand "all" in context — all <em>kinds</em> of people (kings, rulers, etc.), not every individual without exception. See our <a href="/demolition-1tim4-10">full treatment of 1 Timothy 2:4</a>.</div>
             </div>
 
             <div class="objection">
@@ -683,12 +408,12 @@
                     <div class="explore-link-title">Total Depravity — Man's Complete Inability</div>
                     <div class="explore-link-desc">Why the natural person cannot accept the things of the Spirit</div>
                 </a>
-                <a href="/question-cannot" class="explore-link">
+                <a href="/question-freewill" class="explore-link">
                     <div class="explore-link-cat">The Evidence</div>
                     <div class="explore-link-title">What the Bible Says You Cannot Do</div>
                     <div class="explore-link-desc">Every verse where Scripture says humans CANNOT do something spiritual</div>
                 </a>
-                <a href="/demolition-1tim2-4" class="explore-link">
+                <a href="/demolition-1tim4-10" class="explore-link">
                     <div class="explore-link-cat">Demolition</div>
                     <div class="explore-link-title">1 Timothy 2:4 — "God Desires All to Be Saved"</div>
                     <div class="explore-link-desc">What "all" really means in context</div>
@@ -727,7 +452,7 @@
         <span class="related-article-title">Compatibilism</span>
         <span class="related-article-desc">Compatibilism: God</span>
       </a>
-      <a href="/ot-david" class="related-article-card">
+      <a href="/ot-election" class="related-article-card">
         <span class="related-article-cat">📚 Old Testament</span>
         <span class="related-article-title">David: God&#039;s Sovereign Election for Kingship</span>
         <span class="related-article-desc">God</span>

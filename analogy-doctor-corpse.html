@@ -34,336 +34,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 
-    <style>
-        .hero-section {
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-            padding: 6rem 2rem;
-            text-align: center;
-            border-bottom: 3px solid #d4a254;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(circle at 30% 50%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
-            pointer-events: none;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .hero-section h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3.5rem;
-            font-weight: 900;
-            color: #d4a254;
-            margin: 0 0 1.5rem 0;
-            line-height: 1.1;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-        }
-
-        .hero-section .verse-reference {
-            font-family: 'Inter', sans-serif;
-            font-size: 1.1rem;
-            color: #ccc;
-            margin-bottom: 2rem;
-            font-style: italic;
-        }
-
-        .hero-section .verse-box {
-            background: rgba(212, 175, 55, 0.1);
-            border-left: 4px solid #d4a254;
-            padding: 1.5rem;
-            margin: 2rem auto;
-            max-width: 700px;
-            text-align: left;
-            font-size: 1.05rem;
-            line-height: 1.8;
-            color: #e0e0e0;
-        }
-
-        .content-section {
-            max-width: 900px;
-            margin: 4rem auto;
-            padding: 2rem;
-            background: #0f0f0f;
-            border-radius: 8px;
-            border-left: 4px solid #d4a254;
-        }
-
-        .content-section.reveal {
-            opacity: 1;
-            animation: slideUp 0.8s ease-out;
-        }
-
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .content-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.2rem;
-            color: #d4a254;
-            margin-top: 0;
-            margin-bottom: 1.5rem;
-        }
-
-        .content-section h3 {
-            font-family: 'Inter', sans-serif;
-            font-size: 1.3rem;
-            color: #d4a254;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        .content-section p {
-            font-family: 'Inter', sans-serif;
-            font-size: 1.05rem;
-            line-height: 1.8;
-            color: #d0d0d0;
-            margin: 1.2rem 0;
-        }
-
-        .content-section ul, .content-section ol {
-            font-family: 'Inter', sans-serif;
-            font-size: 1.05rem;
-            line-height: 1.8;
-            color: #d0d0d0;
-            margin: 1.5rem 0;
-            padding-left: 2rem;
-        }
-
-        .content-section li {
-            margin: 0.8rem 0;
-        }
-
-        blockquote {
-            background: rgba(212, 175, 55, 0.08);
-            border-left: 4px solid #d4a254;
-            padding: 1.5rem 1.5rem 1.5rem 2rem;
-            margin: 2rem 0;
-            font-style: italic;
-            color: #c0c0c0;
-            font-size: 1.05rem;
-            line-height: 1.8;
-        }
-
-        .scripture-ref {
-            display: block;
-            text-align: right;
-            font-style: normal;
-            color: #999;
-            font-size: 0.95rem;
-            margin-top: 0.8rem;
-        }
-
-        .humor-note {
-            background: rgba(212, 175, 55, 0.05);
-            border-radius: 6px;
-            padding: 1rem 1.5rem;
-            margin: 2rem 0;
-            font-style: italic;
-            color: #a0a0a0;
-            border-left: 3px solid #d4a254;
-        }
-
-        .objection-box {
-            background: rgba(232, 100, 44, 0.08);
-            border-left: 4px solid #e8642c;
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 6px;
-        }
-
-        .objection-box strong {
-            color: #e8642c;
-        }
-
-        .answer-box {
-            background: rgba(212, 175, 55, 0.08);
-            border-left: 4px solid #d4a254;
-            padding: 1.5rem;
-            margin: 1.5rem 0 2rem 0;
-            border-radius: 6px;
-        }
-
-        .sidebar {
-            max-width: 900px;
-            margin: 4rem auto;
-            padding: 2rem;
-            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
-            border: 1px solid #d4a254;
-            border-radius: 8px;
-        }
-
-        .sidebar h3 {
-            font-family: 'Playfair Display', serif;
-            color: #d4a254;
-            margin-top: 0;
-        }
-
-        .sidebar ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .sidebar li {
-            margin: 0.8rem 0;
-        }
-
-        .sidebar a {
-            color: #d4a254;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .sidebar a:hover {
-            color: #fff;
-        }
-
-        .emphasis {
-            color: #d4a254;
-            font-weight: 600;
-        }
-
-        .closing-line {
-            text-align: center;
-            font-style: italic;
-            color: #a0a0a0;
-            margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid #d4a254;
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        @media (max-width: 768px) {
-            .hero-section h1 {
-                font-size: 2.2rem;
-            }
-
-            .content-section {
-                margin: 2rem 1rem;
-                padding: 1.5rem;
-            }
-
-            .content-section h2 {
-                font-size: 1.8rem;
-            }
-        }
-        .keep-reading-section {
-            max-width: 900px;
-            margin: 4rem auto;
-            padding: 3rem 2rem;
-        }
-
-        .keep-reading-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.2rem;
-            color: #d4a254;
-            margin-top: 0;
-            margin-bottom: 0.5rem;
-            text-align: center;
-        }
-
-        .keep-reading-subtitle {
-            text-align: center;
-            color: #a0a0a0;
-            font-size: 1rem;
-            margin-bottom: 2rem;
-            font-style: italic;
-        }
-
-        .keep-reading-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        .keep-reading-card {
-            display: flex;
-            flex-direction: column;
-            background: linear-gradient(135deg, rgba(15, 15, 15, 0.8), rgba(26, 26, 26, 0.6));
-            border: 1px solid rgba(212, 175, 55, 0.3);
-            border-radius: 8px;
-            padding: 1.5rem;
-            text-decoration: none;
-            color: #d0d0d0;
-            transition: all 0.3s ease;
-            gap: 0.75rem;
-        }
-
-        .keep-reading-card:hover {
-            border-color: #d4a254;
-            background: linear-gradient(135deg, rgba(15, 15, 15, 1), rgba(26, 26, 26, 0.8));
-            box-shadow: 0 8px 24px rgba(212, 175, 55, 0.15);
-        }
-
-        .keep-reading-category {
-            display: block;
-            font-size: 0.85rem;
-            color: #999;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .keep-reading-title {
-            display: block;
-            font-family: 'Playfair Display', serif;
-            font-size: 1.2rem;
-            color: #d4a254;
-            font-weight: 600;
-            line-height: 1.4;
-        }
-
-        .keep-reading-card:hover .keep-reading-title {
-            color: #e8a866;
-        }
-
-        .keep-reading-preview {
-            display: block;
-            font-size: 0.95rem;
-            color: #a0a0a0;
-            line-height: 1.6;
-            margin-top: 0.5rem;
-        }
-
-        .never-gives-up-banner { max-width: 900px; margin: 3rem auto; background: linear-gradient(135deg, rgba(212,162,84,0.1), rgba(139,92,246,0.1)); border: 1px solid rgba(212,162,84,0.2); border-radius: 12px; padding: 2rem; text-align: center; }
-        .never-gives-up-banner a { color: #d4a254; text-decoration: none; font-family: 'Playfair Display', serif; font-size: 1.3rem; }
-        .never-gives-up-banner a:hover { color: #e8642c; }
-        .never-gives-up-banner p { color: #a0a0a0; font-size: 0.9rem; margin-top: 0.5rem; margin-bottom: 0; }
-
-        .witnesses-section { max-width: 900px; margin: 4rem auto; padding: 2rem; }
-        .witnesses-section h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: #d4a254; margin-top: 0; margin-bottom: 1.5rem; text-align: center; }
-        .witness-quote { background: rgba(212, 175, 55, 0.05); border-left: 3px solid rgba(212, 175, 55, 0.3); padding: 1.2rem 1.5rem; margin: 1.5rem 0; border-radius: 0 6px 6px 0; }
-        .witness-quote p { font-style: italic; color: #c0c0c0; font-size: 1.05rem; line-height: 1.8; margin: 0; }
-        .witness-quote .witness-attr { font-style: normal; display: block; text-align: right; color: #999; font-size: 0.9rem; margin-top: 0.8rem; }
-
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-    </style>
+    
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -380,10 +51,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    <link rel="stylesheet" href="/global.css">
+    
 
   REQUIRED before </body>:
-    <script src="/nav.js"></script>
+    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -825,7 +496,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <span class="keep-reading-title">Regeneration: Born Again Before You Believed</span>
                     <span class="keep-reading-preview">God's sovereign work of making the dead alive.</span>
                 </a>
-                <a href="/devotional-dead-who-live.html" class="keep-reading-card">
+                <a href="/devotional-my-chains-fell-away.html" class="keep-reading-card">
                     <span class="keep-reading-category">🕯 Devotional</span>
                     <span class="keep-reading-title">The Dead Who Live</span>
                     <span class="keep-reading-preview">A tender meditation for those awakened by grace.</span>
@@ -848,8 +519,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <li><a href="/question-irresistible">What is Irresistible Grace?</a> — Why God's call cannot be resisted by the dead</li>
                 <li><a href="/question-john6">Can I Choose God? (John 6:44 Explained)</a> — "No one can come unless the Father draws"</li>
                 <li><a href="/analogy-lazarus-grave">The Lazarus Analogy: Dead Four Days</a> — Another portrait of resurrection power</li>
-                <li><a href="/crown-jewel-works-vs-grace">The Crown Jewel: Why Rejecting Election Is Rejecting Grace</a> — The most essential argument on this site</li>
-                <li><a href="/devotional-dead-who-live">Devotional: The Dead Who Lived</a> — Comfort for those awakened by grace</li>
+                <li><a href="/question-where-did-your-faith-come-from">The Crown Jewel: Why Rejecting Election Is Rejecting Grace</a> — The most essential argument on this site</li>
+                <li><a href="/devotional-my-chains-fell-away">Devotional: The Dead Who Lived</a> — Comfort for those awakened by grace</li>
             </ul>
         </aside>
 
@@ -872,7 +543,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <span class="related-article-title">Dead, Not Sick — The Bible&#039;s Diagnosis of the Human Condition</span>
         <span class="related-article-desc">Total depravity is not about being as bad as possible — it</span>
       </a>
-      <a href="/devotional-love-before-the-world" class="related-article-card">
+      <a href="/devotional-love-letter-before-time" class="related-article-card">
         <span class="related-article-cat">🕯 Devotionals</span>
         <span class="related-article-title">Love Before the World Was Made</span>
         <span class="related-article-desc">A meditative devotion on God</span>

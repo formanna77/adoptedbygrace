@@ -35,217 +35,7 @@
         }
     }
     </script>
-        <style>
-        /* Page-specific hero */
-        .page-hero {
-            position: relative;
-            padding: 10rem 2rem 5rem;
-            text-align: center;
-            overflow: hidden;
-        }
-        .page-hero::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: radial-gradient(ellipse at 50% 30%, rgba(139, 92, 246, 0.08) 0%, transparent 60%),
-                        radial-gradient(ellipse at 80% 70%, rgba(232, 100, 44, 0.05) 0%, transparent 50%);
-            pointer-events: none;
-        }
-        .hero-eyebrow {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.4em;
-            color: var(--accent-gold);
-            margin-bottom: 1.5rem;
-            position: relative;
-            z-index: 1;
-        }
-        .hero-title {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2.5rem, 5vw, 4rem);
-            font-weight: 900;
-            line-height: 1.15;
-            margin-bottom: 1.5rem;
-            position: relative;
-            z-index: 1;
-        }
-        .hero-title .gold {
-            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        .hero-verse {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
-            color: var(--accent-gold);
-            margin-bottom: 1.25rem;
-            font-style: italic;
-            position: relative;
-            z-index: 1;
-        }
-        .hero-subtitle {
-            font-size: 1.15rem;
-            color: var(--text-secondary);
-            max-width: 650px;
-            margin: 0 auto;
-            line-height: 1.8;
-            position: relative;
-            z-index: 1;
-        }
-
-        /* Content sections */
-        .content-section {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 3rem 2rem;
-        }
-        .content-section.reveal {
-            opacity: 1;
-        }
-
-        /* Section headings */
-        .section-title {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(1.8rem, 3vw, 2.2rem);
-            font-weight: 700;
-            color: var(--accent-gold);
-            margin-bottom: 1.5rem;
-            line-height: 1.2;
-        }
-        .section-title .sub {
-            display: block;
-            font-size: 0.7em;
-            color: var(--text-secondary);
-            font-weight: 400;
-            margin-top: 0.5rem;
-        }
-
-        /* Scripture blockquotes */
-        blockquote {
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.04), rgba(212, 162, 84, 0.04));
-            border-left: 4px solid var(--accent-gold);
-            border-radius: 4px;
-            padding: 2rem;
-            margin: 2rem 0;
-            font-size: 1rem;
-            line-height: 1.9;
-            color: var(--text-primary);
-            font-style: italic;
-        }
-        blockquote .ref {
-            display: block;
-            margin-top: 1rem;
-            font-style: normal;
-            color: var(--accent-gold);
-            font-size: 0.85rem;
-            font-family: 'JetBrains Mono', monospace;
-        }
-
-        /* Body text */
-        .content-section p {
-            font-size: 1rem;
-            line-height: 1.85;
-            color: var(--text-primary);
-            margin-bottom: 1.25rem;
-        }
-        .content-section p:last-child {
-            margin-bottom: 0;
-        }
-
-        /* Emphasis and highlights */
-        strong {
-            color: var(--accent-gold);
-            font-weight: 600;
-        }
-        em {
-            font-style: italic;
-            color: var(--text-primary);
-        }
-
-        /* Inline callouts */
-        .callout {
-            background: rgba(212, 162, 84, 0.1);
-            border-left: 3px solid var(--accent-gold);
-            padding: 1.5rem;
-            border-radius: 4px;
-            margin: 2rem 0;
-        }
-        .callout p {
-            margin-bottom: 0;
-        }
-        .callout-label {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: var(--accent-gold);
-            margin-bottom: 0.75rem;
-            display: block;
-        }
-
-        /* Lists */
-        .content-section ul,
-        .content-section ol {
-            margin: 1.5rem 0;
-            padding-left: 2rem;
-        }
-        .content-section li {
-            margin-bottom: 0.75rem;
-            line-height: 1.8;
-            color: var(--text-primary);
-        }
-
-        /* Closing theology humor */
-        .closing-humor {
-            text-align: center;
-            padding: 3rem 2rem;
-            color: var(--text-muted);
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.85rem;
-            letter-spacing: 0.05em;
-            margin-top: 4rem;
-            border-top: 1px solid var(--border-subtle);
-        }
-        .closing-humor em {
-            color: var(--accent-gold);
-            font-style: normal;
-        }
-
-        /* Back to analogies link */
-        .back-link {
-            display: inline-block;
-            margin-top: 3rem;
-            padding: 0.85rem 1.5rem;
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 4px;
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            transition: all 0.3s ease;
-        }
-        .back-link:hover {
-            background: var(--bg-card-hover);
-            border-color: var(--accent-gold);
-            transform: translateY(-2px);
-        }
-
-        @media (max-width: 768px) {
-
-            .page-hero { padding: 5rem 1.5rem 2rem; }
-            .content-section { padding: 2rem 1.5rem; }
-            .section-title { font-size: 1.6rem; }
-        }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-    </style>
+        
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
@@ -261,10 +51,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    <link rel="stylesheet" href="/global.css">
+    
 
   REQUIRED before </body>:
-    <script src="/nav.js"></script>
+    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -515,11 +305,11 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                     <div style="color: #94a3b8; font-size: 0.85rem;">The systematic truth: spiritual birth precedes saving faith. You were dead. Then made alive. Then believing became possible.</div>
                     <div style="color: #d4a254; font-size: 0.75rem; margin-top: 1rem; font-style: italic;">→ systematic-regeneration.html</div>
                 </a>
-                <a href="/devotional-dead-who-live" style="display: flex; flex-direction: column; padding: 1.5rem; background: linear-gradient(135deg, rgba(232, 100, 44, 0.08), rgba(139, 92, 246, 0.04)); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 12px; text-decoration: none; transition: all 0.3s ease; position: relative; overflow: hidden;">
+                <a href="/devotional-my-chains-fell-away" style="display: flex; flex-direction: column; padding: 1.5rem; background: linear-gradient(135deg, rgba(232, 100, 44, 0.08), rgba(139, 92, 246, 0.04)); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 12px; text-decoration: none; transition: all 0.3s ease; position: relative; overflow: hidden;">
                     <div style="color: #d4a254; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.6rem; font-weight: 600;">Devotional</div>
                     <div style="color: #e2e8f0; font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; flex-grow: 1;">The Dead Who Live</div>
                     <div style="color: #94a3b8; font-size: 0.85rem;">A 5-minute reflection on resurrection power. For those who feel spiritually dead and need to remember they are not beyond reach.</div>
-                    <div style="color: #d4a254; font-size: 0.75rem; margin-top: 1rem; font-style: italic;">→ devotional-dead-who-live.html</div>
+                    <div style="color: #d4a254; font-size: 0.75rem; margin-top: 1rem; font-style: italic;">→ devotional-my-chains-fell-away.html</div>
                 </a>
             </div>
         </section>
@@ -537,7 +327,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <div style="color: #d4a254; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem;">Related Analogy</div>
                 <div style="color: #e2e8f0; font-size: 1.05rem; font-weight: 600;">The Doctor and the Corpse — A Picture of Salvation</div>
             </a>
-            <a href="/devotional-dead-who-live" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+            <a href="/devotional-my-chains-fell-away" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                 <div style="color: #d4a254; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem;">Daily Reflection</div>
                 <div style="color: #e2e8f0; font-size: 1.05rem; font-weight: 600;">The Dead Who Live — A 5-Minute Devotional</div>
             </a>

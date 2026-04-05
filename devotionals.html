@@ -32,441 +32,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <style>
-        /* Design Tokens */
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #14120e;
-            --bg-card-hover: #1c1914;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-            --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        /* Reset & Base Styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        /* Reading Progress Bar */
-        .progress-bar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet), var(--accent-ember));
-            width: 0%;
-            z-index: 200;
-            transition: width 0.1s linear;
-        }
-
-        /* Hero Section */
-        .hero {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            padding: 5rem 1.5rem 3rem;
-            text-align: center;
-            position: relative;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            right: -20%;
-            width: 400px;
-            height: 400px;
-            background: radial-gradient(circle, rgba(139, 92, 246, 0.08) 0%, transparent 70%);
-            border-radius: 50%;
-            pointer-events: none;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2.5rem, 8vw, 4rem);
-            font-weight: 900;
-            margin-bottom: 1rem;
-            letter-spacing: -0.02em;
-            line-height: 1.2;
-        }
-
-        .hero p {
-            font-size: 1.5rem;
-            color: var(--text-secondary);
-            max-width: 600px;
-            margin: 0 auto 3rem;
-            font-weight: 300;
-            letter-spacing: 0.02em;
-        }
-
-        /* Intro Paragraph */
-        .intro-section {
-            max-width: 800px;
-            margin: 0 auto 4rem;
-            padding: 2.5rem;
-            background: linear-gradient(135deg, rgba(20, 18, 14, 0.5) 0%, rgba(28, 25, 20, 0.3) 100%);
-            border: 1px solid var(--border-subtle);
-            border-radius: 8px;
-            position: relative;
-        }
-
-        .intro-section::before {
-            content: '"';
-            position: absolute;
-            top: 10px;
-            left: 20px;
-            font-size: 4rem;
-            color: var(--accent-gold);
-            opacity: 0.3;
-            font-family: 'Playfair Display', serif;
-        }
-
-        .intro-section p {
-            font-size: 1.1rem;
-            color: var(--text-primary);
-            line-height: 1.8;
-            margin-bottom: 1.5rem;
-        }
-
-        .intro-section p:last-child {
-            margin-bottom: 0;
-        }
-
-        .intro-section em {
-            color: var(--accent-gold);
-            font-style: italic;
-            font-weight: 500;
-        }
-
-        /* Devotionals Grid */
-        .devotionals-container {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            padding: 0 1.5rem 4rem;
-        }
-
-        .devotionals-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-            margin-bottom: 4rem;
-        }
-
-        /* Devotional Card */
-        .devotional-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 8px;
-            padding: 2rem;
-            transition: all var(--transition-smooth);
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            cursor: pointer;
-            text-decoration: none;
-            color: var(--text-primary);
-        }
-
-        .devotional-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
-            opacity: 0;
-            transition: opacity var(--transition-smooth);
-        }
-
-        .devotional-card::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: radial-gradient(circle at top right, rgba(212, 162, 84, 0.05), transparent);
-            opacity: 0;
-            transition: opacity var(--transition-smooth);
-        }
-
-        .devotional-card:hover {
-            background: var(--bg-card-hover);
-            border-color: rgba(212, 162, 84, 0.3);
-            transform: translateY(-4px);
-        }
-
-        .devotional-card:hover::before {
-            opacity: 1;
-        }
-
-        .devotional-card:hover::after {
-            opacity: 1;
-        }
-
-        .card-number {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--accent-gold);
-            opacity: 0.4;
-            margin-bottom: 0.5rem;
-            line-height: 1;
-        }
-
-        .card-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 0.75rem;
-            line-height: 1.3;
-            color: var(--text-primary);
-        }
-
-        .card-description {
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            margin-bottom: 1rem;
-            flex-grow: 1;
-            line-height: 1.6;
-        }
-
-        .card-scripture {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.85rem;
-            color: var(--accent-violet);
-            margin-bottom: 1rem;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        .card-footer {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 1.5rem;
-            padding-top: 1rem;
-            border-top: 1px solid rgba(212, 162, 84, 0.1);
-        }
-
-        .card-read {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: var(--accent-gold);
-            font-weight: 600;
-            font-size: 0.9rem;
-            transition: all var(--transition-smooth);
-        }
-
-        .card-read svg {
-            width: 16px;
-            height: 16px;
-            stroke-width: 2;
-            transition: transform var(--transition-smooth);
-        }
-
-        .devotional-card:hover .card-read {
-            gap: 0.75rem;
-            color: var(--accent-ember);
-        }
-
-        .devotional-card:hover .card-read svg {
-            transform: translateX(3px);
-        }
-
-        /* Spurgeon Quote Block */
-        .quote-block {
-            max-width: 900px;
-            margin: 3rem auto;
-            padding: 3rem;
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(232, 100, 44, 0.05) 100%);
-            border-left: 4px solid var(--accent-gold);
-            border-radius: 8px;
-            position: relative;
-        }
-
-        .quote-block::before {
-            content: '"';
-            position: absolute;
-            top: 10px;
-            left: 30px;
-            font-size: 5rem;
-            color: var(--accent-gold);
-            opacity: 0.2;
-            font-family: 'Playfair Display', serif;
-            line-height: 1;
-        }
-
-        .quote-text {
-            font-size: 1.3rem;
-            color: var(--text-primary);
-            font-style: italic;
-            line-height: 1.8;
-            margin-bottom: 1rem;
-            position: relative;
-            z-index: 1;
-            font-family: 'Playfair Display', serif;
-            font-weight: 700;
-        }
-
-        .quote-author {
-            color: var(--accent-gold);
-            font-size: 0.95rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-align: right;
-        }}
-
-        .footer-container {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            padding: 3rem 1.5rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 3rem;
-        }
-
-        .footer-section h4 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            color: var(--accent-gold);
-            letter-spacing: 0.05em;
-        }
-
-        .footer-section p {
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section ul li {
-            margin-bottom: 0.75rem;
-        }
-
-        .footer-section a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color var(--transition-smooth);
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-copyright {
-            max-width: 1200px; width: 100%;
-            margin: 2rem auto 0;
-            padding: 2rem 1.5rem 0;
-            border-top: 1px solid var(--border-subtle);
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 0.85rem;
-        }
-
-        /* Focus Visible Styles */
-        a:focus-visible,
-        button:focus-visible {
-            outline: 2px solid var(--accent-violet);
-            outline-offset: 2px;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-
-            .hero {
-                padding: 3rem 1.5rem 2rem;
-            }
-
-            .hero::before {
-                width: 200px;
-                height: 200px;
-                right: -10%;
-            }
-
-            .intro-section {
-                padding: 2rem;
-            }
-
-            .intro-section::before {
-                font-size: 2rem;
-                left: 10px;
-            }
-
-            .devotionals-grid {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-
-            .quote-block {
-                padding: 2rem;
-            }
-
-            .quote-text {
-                font-size: 1.15rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero p {
-                font-size: 1.1rem;
-            }
-
-            .devotional-card {
-                padding: 1.5rem;
-            }
-
-            .card-number {
-                font-size: 2rem;
-            }
-
-            .card-title {
-                font-size: 1.25rem;
-            }
-
-            .footer-container {
-                gap: 2rem;
-            }
-        }
-
-        /* Reduced motion */
-        @media (prefers-reduced-motion: reduce) {
-            * {
-                animation-duration: 0.01ms !important;
-                animation-iteration-count: 1 !important;
-                transition-duration: 0.01ms !important;
-            }
-        }
-
-    </style>
+    
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
@@ -485,10 +51,10 @@
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    <link rel="stylesheet" href="/global.css">
+    
 
   REQUIRED before </body>:
-    <script src="/nav.js"></script>
+    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -600,7 +166,7 @@
                 </a>
 
                 <!-- Card 2 -->
-                <a href="devotional-dead-who-live.html" class="devotional-card">
+                <a href="devotional-my-chains-fell-away.html" class="devotional-card">
                     <div class="card-number">02</div>
                     <h2 class="card-title">The Dead Who Live</h2>
                     <p class="card-description">Regeneration is not self-improvement but resurrection. Only a dead man raised can understand what grace has made you—alive in Christ.</p>
@@ -611,7 +177,7 @@
                 </a>
 
                 <!-- Card 3 -->
-                <a href="devotional-love-before-the-world.html" class="devotional-card">
+                <a href="devotional-love-letter-before-time.html" class="devotional-card">
                     <div class="card-number">03</div>
                     <h2 class="card-title">Love Before the World Was Made</h2>
                     <p class="card-description">Your election was not an afterthought when God saw your faith. He loved you in His Son before time itself began—a love older than creation.</p>
@@ -715,7 +281,7 @@
                 </a>
 
                 <!-- Card 14 -->
-                <a href="devotional-when-god-says-no.html" class="devotional-card">
+                <a href="devotional-valley-shadow.html" class="devotional-card">
                     <div class="card-number">14</div>
                     <h2 class="card-title">When God Says No</h2>
                     <p class="card-description">In prayer's refusal lies divine purpose. Unanswered prayer is not indifference but love—God's "no" is more gracious than the "yes" we desperately wanted.</p>
@@ -802,7 +368,7 @@
                         <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Glory of Divine Choice</h4>
                         <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Devotional reflection on election</p>
                     </a>
-                    <a href="devotional-dead-who-live.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                    <a href="devotional-my-chains-fell-away.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                         <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Dead Who Live</h4>
                         <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Regeneration and new life in Christ</p>
                     </a>

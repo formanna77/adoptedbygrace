@@ -33,164 +33,7 @@
         "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
     }
     </script>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --bg-card-hover: #1a1a2e;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-            --border-danger: rgba(232, 100, 44, 0.25);
-        }
-        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.8; overflow-x: hidden; }
-
-        /* HERO & MISSION BRIEFING */
-        .hero { max-width: 1000px; margin: 3rem auto; padding: 3rem 2rem; text-align: center; border-bottom: 2px solid var(--border-subtle); padding-bottom: 3rem; }
-        .hero-operation-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.3em; margin-bottom: 1.5rem; }
-        .hero-operation-label::before { content: '▪ '; margin-right: 0.5rem; }
-        .hero-operation-label::after { content: ' ▪'; margin-left: 0.5rem; }
-
-        .hero h1 { font-family: 'Playfair Display', serif; font-size: 3.2rem; font-weight: 800; margin-bottom: 0.5rem; line-height: 1.1; }
-        .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 750px; margin: 1.5rem auto 2.5rem; line-height: 1.8; }
-
-        /* TACTICAL DASHBOARD */
-        .mission-dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; max-width: 800px; margin-left: auto; margin-right: auto; }
-        .tactical-readout { background: linear-gradient(135deg, rgba(232, 100, 44, 0.08), rgba(212, 162, 84, 0.08)); border: 1px solid var(--border-danger); border-radius: 6px; padding: 1.5rem; text-align: center; }
-        .readout-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.8rem; }
-        .readout-value { font-family: 'JetBrains Mono', monospace; font-size: 2.2rem; font-weight: 700; color: var(--accent-gold); }
-
-        /* SCRIPTURE DIRECTIVE */
-        .scripture-directive { background: linear-gradient(135deg, rgba(139, 92, 246, 0.08), rgba(232, 100, 44, 0.08)); border-left: 5px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 3rem auto; max-width: 900px; font-size: 1.05rem; line-height: 1.9; color: var(--text-primary); font-style: italic; text-align: center; }
-        .scripture-text { display: block; margin-bottom: 1rem; }
-        .scripture-ref { display: block; font-style: normal; color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem; }
-
-        /* OPERATION ZONES */
-        .content { max-width: 1000px; margin: 0 auto; padding: 0 2rem; }
-        .zone { margin-bottom: 5rem; }
-        .zone-header { display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid var(--border-subtle); }
-        .zone-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; padding: 0.5rem 1.2rem; border-radius: 4px; white-space: nowrap; flex-shrink: 0; }
-
-        /* ZONE ALPHA (Big Guns) */
-        .zone-alpha .zone-badge { background: linear-gradient(135deg, rgba(232, 100, 44, 0.2), rgba(212, 162, 84, 0.15)); border: 1px solid rgba(232, 100, 44, 0.4); color: var(--accent-ember); }
-        .zone-alpha .zone-title { color: var(--accent-ember); }
-
-        /* ZONE BRAVO (Secondary) */
-        .zone-bravo .zone-badge { background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(212, 162, 84, 0.15)); border: 1px solid rgba(139, 92, 246, 0.4); color: var(--accent-violet); }
-        .zone-bravo .zone-title { color: var(--accent-violet); }
-
-        /* ZONE CHARLIE (Remaining) */
-        .zone-charlie .zone-badge { background: linear-gradient(135deg, rgba(212, 162, 84, 0.15), rgba(154, 149, 140, 0.1)); border: 1px solid var(--border-subtle); color: var(--text-secondary); }
-        .zone-charlie .zone-title { color: var(--accent-gold); }
-
-        /* ZONE DELTA & ECHO (Articles & Objections) */
-        .zone-delta .zone-badge, .zone-echo .zone-badge { background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(212, 162, 84, 0.15)); border: 1px solid rgba(139, 92, 246, 0.4); color: var(--accent-violet); }
-        .zone-delta .zone-title, .zone-echo .zone-title { color: var(--accent-violet); }
-
-        .zone-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700; }
-        .zone-description { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0; }
-
-        /* TACTICAL BRIEFING CARDS */
-        .briefing-grid { display: grid; gap: 1.2rem; }
-        .briefing-card { display: grid; grid-template-columns: 50px 1fr auto; align-items: center; gap: 1.5rem; background: var(--bg-card); border: 2px solid var(--border-subtle); border-radius: 6px; padding: 1.5rem; text-decoration: none; transition: all 0.35s ease; color: inherit; position: relative; overflow: hidden; }
-        .briefing-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--accent-gold); transition: background 0.35s ease; }
-        .briefing-card.live { border-color: var(--border-danger); }
-        .briefing-card.live::before { background: var(--accent-ember); }
-        .briefing-card.live:hover { background: var(--bg-card-hover); border-color: var(--accent-ember); box-shadow: 0 0 20px rgba(232, 100, 44, 0.15); }
-        .briefing-card:not(.live):hover { background: var(--bg-card-hover); border-color: var(--accent-gold); box-shadow: 0 0 15px rgba(212, 162, 84, 0.1); }
-
-        .target-number { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-muted); text-align: center; font-weight: 700; }
-        .briefing-card.live .target-number { color: var(--accent-ember); }
-
-        .briefing-info { min-width: 0; }
-        .verse-ref { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.3rem; }
-        .briefing-card.live .verse-ref { color: var(--accent-gold); }
-        .arminian-claim { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5; }
-
-        .status-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.12em; padding: 0.4rem 1rem; border-radius: 3px; white-space: nowrap; font-weight: 600; }
-        .status-neutralized { background: linear-gradient(135deg, rgba(232, 100, 44, 0.2), rgba(212, 162, 84, 0.15)); color: var(--accent-ember); border: 1px solid rgba(232, 100, 44, 0.3); }
-        .status-incoming { background: rgba(154, 149, 140, 0.08); color: var(--text-muted); border: 1px solid var(--border-subtle); }
-
-        /* CROSS-REFERENCE GRID */
-        .cross-ref-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 3rem auto; max-width: 900px; }
-        .cross-ref-card { background: linear-gradient(135deg, rgba(139, 92, 246, 0.08), rgba(232, 100, 44, 0.08)); border: 1px solid rgba(139, 92, 246, 0.2); border-radius: 6px; padding: 1.5rem; text-decoration: none; color: inherit; transition: all 0.3s ease; }
-        .cross-ref-card:hover { border-color: var(--accent-violet); background: linear-gradient(135deg, rgba(139, 92, 246, 0.12), rgba(232, 100, 44, 0.08)); }
-        .cross-ref-verse { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 0.5rem; }
-        .cross-ref-title { font-size: 0.95rem; color: var(--text-primary); line-height: 1.6; }
-
-        /* CROWN JEWEL BANNER */
-        .crown-jewel-banner { background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(232, 100, 44, 0.08)); border: 2px solid var(--accent-violet); border-radius: 8px; padding: 2.5rem; margin: 4rem auto; max-width: 900px; text-align: center; }
-        .crown-jewel-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 1rem; }
-        .crown-jewel-title { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 700; color: var(--text-primary); margin-bottom: 1rem; }
-        .crown-jewel-text { font-size: 1rem; color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.8; }
-        .crown-jewel-cta { display: inline-block; padding: 0.8rem 2rem; background: var(--accent-violet); color: var(--bg-deep); text-decoration: none; border-radius: 4px; font-weight: 600; transition: all 0.3s ease; }
-        .crown-jewel-cta:hover { background: var(--accent-gold); }
-
-        /* RELATED ARTICLES */
-        .related-articles { max-width: 900px; margin: 4rem auto 0; padding-top: 3rem; border-top: 2px solid var(--border-subtle); }
-        .related-title { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--accent-gold); margin-bottom: 2rem; text-align: center; }
-        .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
-        .related-link { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 1.5rem; text-decoration: none; color: inherit; transition: all 0.3s ease; }
-        .related-link:hover { border-color: var(--accent-gold); background: var(--bg-card-hover); }
-        .related-link-title { font-size: 0.95rem; color: var(--text-primary); font-weight: 600; }
-
-        /* FOOTER */
-        footer { background: var(--bg-card); border-top: 2px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
-        .footer-container { max-width: 1200px; width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2.5rem; }
-        .footer-section h4 { color: var(--accent-gold); margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.1rem; }
-        .footer-section ul { list-style: none; }
-        .footer-section li { margin-bottom: 0.8rem; }
-        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
-        .footer-section a:hover { color: var(--accent-gold); }
-
-        .footer-grace-warning { background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(212, 162, 84, 0.08)); border: 1px solid rgba(232, 100, 44, 0.2); border-radius: 6px; padding: 1.5rem; margin: 2rem 0; color: var(--text-secondary); font-size: 0.9rem; text-align: center; line-height: 1.7; }
-
-        .footer-copyright { text-align: center; margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
-
-        /* RESPONSIVE */
-        @media (max-width: 768px) {
-            .hero { padding: 2rem 1.5rem; margin: 1.5rem auto; }
-            .hero h1 { font-size: 2rem; margin-bottom: 0.8rem; }
-            .hero-subtitle { font-size: 0.95rem; }
-
-            .mission-dashboard { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
-            .tactical-readout { padding: 1.2rem; }
-            .readout-value { font-size: 1.8rem; }
-
-            .content { padding: 0 1.5rem; }
-            .zone-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; padding-bottom: 1rem; }
-            .zone-title { font-size: 1.4rem; }
-
-            .briefing-card { grid-template-columns: 40px 1fr; gap: 1rem; padding: 1.2rem; }
-            .briefing-card .status-badge { grid-column: 1 / -1; justify-self: start; margin-top: 0.5rem; }
-
-            .cross-ref-grid { grid-template-columns: 1fr; gap: 1rem; }
-            .crown-jewel-banner { padding: 1.5rem; }
-            .crown-jewel-title { font-size: 1.3rem; }
-
-            footer { padding: 2rem 1.5rem; }
-            .footer-container { grid-template-columns: 1fr; gap: 2rem; }
-        }
-
-        @media (max-width: 480px) {
-            .hero { padding: 1.5rem; margin: 0.5rem auto; }
-            .hero h1 { font-size: 1.5rem; }
-            .hero-subtitle { font-size: 0.85rem; }
-            .mission-dashboard { grid-template-columns: 1fr; gap: 0.8rem; }
-            .tactical-readout { padding: 1rem; }
-            .readout-value { font-size: 1.5rem; }
-
-            .zone-title { font-size: 1.1rem; }
-            .briefing-card { grid-template-columns: 35px 1fr; padding: 1rem; gap: 0.8rem; }
-            .verse-ref { font-size: 0.95rem; }
-            .arminian-claim { font-size: 0.85rem; }
-        }
-    </style>
+    
 </head>
 <body>
     <nav role="navigation" aria-label="Main navigation">
@@ -285,7 +128,7 @@
             </div>
             <div class="briefing-grid">
 
-                <a href="demolition-1tim2-4.html" class="briefing-card live">
+                <a href="demolition-1tim4-10.html" class="briefing-card live">
                     <div class="target-number">02</div>
                     <div class="briefing-info">
                         <div class="verse-ref">1 Timothy 2:4</div>
@@ -307,7 +150,7 @@
                     <div class="status-badge status-neutralized">NEUTRALIZED</div>
                 </a>
 
-                <a href="demolition-acts7-51.html" class="briefing-card live">
+                <a href="demolition-hub.html" class="briefing-card live">
                     <div class="target-number">06</div>
                     <div class="briefing-info">
                         <div class="verse-ref">Acts 7:51</div>
@@ -355,7 +198,7 @@
                 </div>
             </div>
             <div class="briefing-grid">
-                <a href="demolition-hebrews6-4-6.html" class="briefing-card live">
+                <a href="demolition-hub.html" class="briefing-card live">
                     <div class="target-number">10</div>
                     <div class="briefing-info">
                         <div class="verse-ref">Hebrews 6:4-6</div>
@@ -364,7 +207,7 @@
                     <div class="status-badge status-neutralized">NEUTRALIZED</div>
                 </a>
 
-                <a href="demolition-2peter2-1.html" class="briefing-card live">
+                <a href="demolition-hub.html" class="briefing-card live">
                     <div class="target-number">11</div>
                     <div class="briefing-info">
                         <div class="verse-ref">2 Peter 2:1</div>
@@ -409,7 +252,7 @@
                     <div class="status-badge status-incoming">COMING</div>
                 </div>
 
-                <a href="demolition-romans10-9.html" class="briefing-card live">
+                <a href="demolition-hub.html" class="briefing-card live">
                     <div class="target-number">16</div>
                     <div class="briefing-info">
                         <div class="verse-ref">Romans 10:9</div>
@@ -520,7 +363,7 @@
                     <div class="status-badge status-neutralized">NEUTRALIZED</div>
                 </a>
 
-                <a href="demolition-1cor15-22.html" class="briefing-card live">
+                <a href="demolition-hub.html" class="briefing-card live">
                     <div class="target-number">27</div>
                     <div class="briefing-info">
                         <div class="verse-ref">1 Corinthians 15:22</div>
@@ -682,7 +525,7 @@
         <div style="max-width: 900px; margin: 3rem auto;">
             <h3 style="font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--accent-gold); margin-bottom: 2rem; text-align: center;">Quick Reference Grid</h3>
             <div class="cross-ref-grid">
-                <a href="/demolition-1tim2-4.html" class="cross-ref-card">
+                <a href="/demolition-1tim4-10.html" class="cross-ref-card">
                     <div class="cross-ref-verse">1 Timothy 2:4</div>
                     <div class="cross-ref-title">God Desires All Men to Be Saved</div>
                 </a>

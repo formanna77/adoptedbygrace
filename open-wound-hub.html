@@ -32,77 +32,7 @@
         "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
     }
     </script>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root { --bg-deep: #0a0a0f; --bg-card: #12121a; --bg-card-hover: #1a1a2e; --accent-gold: #d4a254; --accent-ember: #e8642c; --accent-violet: #8b5cf6; --text-primary: #f0ece4; --text-secondary: #9a958c; --text-muted: #807b75; --border-subtle: rgba(212, 162, 84, 0.12); }
-        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.8; overflow-x: hidden; }
-        .hero { max-width: 900px; margin: 3rem auto; padding: 3rem 2rem; text-align: center; }
-        .hero-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 1rem; }
-        .hero h1 { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 800; margin-bottom: 1.5rem; line-height: 1.2; }
-        .hero h1 .gold { color: var(--accent-gold); }
-        .hero-subtitle { font-size: 1.15rem; color: var(--text-secondary); max-width: 750px; margin: 0 auto; line-height: 1.8; }
-        .intro-block { max-width: 800px; margin: 3rem auto; padding: 2.5rem; background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-violet); border-radius: 4px; }
-        .intro-block p { font-size: 1.05rem; color: var(--text-primary); line-height: 1.9; margin-bottom: 1rem; }
-        .intro-block strong { color: var(--accent-gold); font-weight: 600; }
-        .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(212, 162, 84, 0.08)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2.5rem; margin: 3rem auto; max-width: 800px; font-size: 1.05rem; line-height: 1.95; color: var(--text-primary); font-style: italic; text-align: center; }
-        .scripture-ref { display: block; margin-top: 1rem; font-style: normal; color: var(--text-muted); font-size: 0.9rem; }
-        .content { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
-        .articles-header { margin: 3rem 0 2rem 0; }
-        .articles-header h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); margin-bottom: 0.5rem; }
-        .articles-header p { color: var(--text-secondary); font-size: 0.95rem; }
-        .articles-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
-        .article-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2rem; text-decoration: none; color: inherit; transition: all 0.3s ease; display: flex; flex-direction: column; }
-        .article-card:hover { background: var(--bg-card-hover); border-color: rgba(59, 130, 246, 0.3); transform: translateY(-2px); }
-        .article-card.coming { opacity: 0.7; }
-        .article-icon { font-size: 2.2rem; margin-bottom: 1rem; }
-        .article-number { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.1em; margin-bottom: 0.5rem; }
-        .article-title { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--text-primary); margin-bottom: 0.8rem; line-height: 1.4; flex-grow: 1; }
-        .article-card.live .article-title { color: var(--accent-gold); }
-        .article-status { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.4rem 0.8rem; border-radius: 3px; width: fit-content; margin-top: 1rem; }
-        .status-live { background: linear-gradient(135deg, rgba(212, 162, 84, 0.15), rgba(232, 100, 44, 0.15)); color: var(--accent-gold); border: 1px solid rgba(212, 162, 84, 0.3); }
-        .status-coming { background: rgba(154, 149, 140, 0.08); color: var(--text-muted); border: 1px solid var(--border-subtle); }
-        .humor-bar { max-width: 800px; margin: 4rem auto; padding: 2rem; background: rgba(59, 130, 246, 0.08); border: 1px solid rgba(59, 130, 246, 0.2); border-radius: 4px; font-size: 1rem; color: var(--text-secondary); line-height: 1.7; text-align: center; font-style: italic; }
-        .humor-bar strong { color: var(--accent-gold); font-style: normal; font-weight: 600; }
-        .cross-ref-section { max-width: 800px; margin: 4rem auto; padding: 2rem; background: linear-gradient(135deg, rgba(212, 162, 84, 0.05), rgba(139, 92, 246, 0.05)); border: 1px solid var(--border-subtle); border-radius: 4px; }
-        .cross-ref-section h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 1rem; }
-        .cross-ref-links { display: flex; flex-wrap: wrap; gap: 1rem; }
-        .cross-ref-links a { padding: 0.6rem 1.2rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease; }
-        .cross-ref-links a:hover { color: var(--accent-gold); border-color: var(--accent-gold); background: var(--bg-card-hover); }
-        footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
-        .footer-container { max-width: 1200px; width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; text-align: center; }
-        .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
-        .footer-section ul { list-style: none; }
-        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
-        .footer-section a:hover { color: var(--accent-gold); }
-        .footer-copyright { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
-        @media (max-width: 768px) {
-            .hero { padding: 1.5rem 1.2rem; margin: 1rem auto; }
-            .hero h1 { font-size: 1.8rem; margin-bottom: 1rem; }
-            .hero-subtitle { font-size: 0.95rem; }
-            .content { padding: 0 1.2rem; }
-            .articles-grid { gap: 1rem; }
-            .article-card { padding: 1.5rem; }
-            .intro-block { padding: 1.5rem; margin: 2rem 1.2rem; }
-            .scripture-block { padding: 1.5rem; margin: 2rem 1.2rem; }
-            footer { padding: 1.5rem 1rem; }
-        }
-        @media (max-width: 480px) {
-            .hero { padding: 1rem; margin: 0.5rem auto; }
-            .hero h1 { font-size: 1.3rem; margin-bottom: 0.8rem; }
-            .hero-eyebrow { font-size: 0.7rem; }
-            .hero-subtitle { font-size: 0.9rem; }
-            .content { padding: 0 0.8rem; }
-            .articles-grid { grid-template-columns: 1fr; gap: 0.8rem; }
-            .article-card { padding: 1.2rem; }
-            .article-title { font-size: 1rem; }
-            .intro-block { padding: 1rem; margin: 1.5rem 0.8rem; }
-            .scripture-block { padding: 1rem; margin: 1.5rem 0.8rem; font-size: 0.95rem; }
-            footer { padding: 1.2rem 0.8rem; margin-top: 2rem; }
-        }
-        a:focus-visible, button:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 3px; border-radius: 2px; }
-        *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-        .reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); z-index: 9999; transition: width 0.1s linear; width: 0; }
-    </style>
+    
     <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>

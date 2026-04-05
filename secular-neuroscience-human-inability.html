@@ -37,142 +37,7 @@
         }
     }
     </script>
-    <style>
-        .brain-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 12px;
-            padding: 2rem;
-            margin: 2rem 0;
-            position: relative;
-            overflow: hidden;
-        }
-        .brain-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-violet), var(--accent-ember));
-        }
-        .brain-card .neuro-label {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.68rem;
-            text-transform: uppercase;
-            letter-spacing: 0.2em;
-            color: var(--accent-violet);
-            margin-bottom: 0.5rem;
-        }
-        .brain-card h4 {
-            color: var(--text-primary);
-            margin-bottom: 0.8rem;
-            font-size: 1.15rem;
-        }
-        .brain-card p {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            line-height: 1.8;
-            margin-bottom: 0;
-        }
-        .brain-card .scripture-echo {
-            margin-top: 1rem;
-            padding-top: 1rem;
-            border-top: 1px solid var(--border-subtle);
-            font-style: italic;
-            color: var(--accent-gold);
-            font-size: 0.9rem;
-        }
-        .timeline-ms {
-            display: flex;
-            align-items: stretch;
-            gap: 0;
-            margin: 2.5rem 0;
-            position: relative;
-        }
-        .timeline-ms::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 0; right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, var(--accent-violet), var(--accent-ember), var(--accent-gold));
-            z-index: 0;
-        }
-        .ms-step {
-            flex: 1;
-            text-align: center;
-            position: relative;
-            z-index: 1;
-            padding: 0 0.5rem;
-        }
-        .ms-step .ms-dot {
-            width: 16px;
-            height: 16px;
-            border-radius: 50%;
-            background: var(--accent-violet);
-            margin: 0 auto 0.8rem;
-            border: 3px solid var(--bg-deep);
-            box-shadow: 0 0 12px rgba(139, 92, 246, 0.4);
-        }
-        .ms-step:nth-child(2) .ms-dot { background: var(--accent-ember); box-shadow: 0 0 12px rgba(232, 100, 44, 0.4); }
-        .ms-step:nth-child(3) .ms-dot { background: var(--accent-gold); box-shadow: 0 0 12px rgba(212, 162, 84, 0.4); }
-        .ms-step .ms-time {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 1.3rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            display: block;
-        }
-        .ms-step .ms-desc {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            margin-top: 0.3rem;
-            line-height: 1.5;
-        }
-        .stat-row {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin: 2rem 0;
-        }
-        .stat-box {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 10px;
-            padding: 1.5rem;
-            text-align: center;
-        }
-        .stat-box .stat-num {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.2rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        .stat-box .stat-label {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            margin-top: 0.3rem;
-        }
-        .humor-aside {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.78rem;
-            color: var(--text-muted);
-            text-align: center;
-            margin: 1.5rem 0;
-            letter-spacing: 0.02em;
-        }
-        @media (max-width: 600px) {
-            .timeline-ms { flex-direction: column; gap: 1.5rem; }
-            .timeline-ms::after { display: none; }
-            .stat-row { grid-template-columns: 1fr; }
-        }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-    </style>
+    
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
@@ -190,10 +55,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    <link rel="stylesheet" href="/global.css">
+    
 
   REQUIRED before </body>:
-    <script src="/nav.js"></script>
+    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
