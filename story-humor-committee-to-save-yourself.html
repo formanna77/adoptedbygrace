@@ -40,7 +40,7 @@
 
 <style>
 
-.story-hero {
+.page-hero {
             position: relative;
             padding: 10rem 2rem 5rem;
             text-align: left;
@@ -48,7 +48,7 @@
             margin: 0 auto;
             overflow: hidden;
         }
-.story-hero::before {
+.page-hero::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
@@ -68,9 +68,9 @@
             border-radius: 3px;
             margin-bottom: 1.2rem;
         }
-.story-hero 
-.story-hero h1 .gold { color: var(--accent-gold); }
-.story-hero .subtitle {
+.page-hero 
+.page-hero h1 .gold { color: var(--accent-gold); }
+.page-hero .subtitle {
             font-size: 1.1rem;
             color: var(--text-secondary);
             max-width: 650px;
@@ -84,10 +84,10 @@
             color: var(--text-muted);
             margin-top: 1rem;
         }
-.story-wrap { max-width: 720px; margin: 0 auto; padding: 0 2rem 4rem; }
-.story-wrap p { margin-bottom: 1.5rem; font-size: 1.08rem; line-height: 1.9; }
-.story-wrap p.scene-break { text-align: center; color: var(--accent-gold); font-size: 1.5rem; margin: 2.5rem 0; letter-spacing: 0.5em; }
-.story-wrap .first-word { font-variant: small-caps; font-size: 1.15em; letter-spacing: 0.05em; color: var(--accent-gold); }
+.article-body { max-width: 720px; margin: 0 auto; padding: 0 2rem 4rem; }
+.article-body p { margin-bottom: 1.5rem; font-size: 1.08rem; line-height: 1.9; }
+.article-body p.scene-break { text-align: center; color: var(--accent-gold); font-size: 1.5rem; margin: 2.5rem 0; letter-spacing: 0.5em; }
+.article-body .first-word { font-variant: small-caps; font-size: 1.15em; letter-spacing: 0.05em; color: var(--accent-gold); }
 .pullquote {
             font-family: 'Playfair Display', serif;
             font-size: 1.3rem;
@@ -179,8 +179,8 @@
 .footer-site a { color: var(--text-secondary); text-decoration: none; }
 .footer-site a:hover { color: var(--accent-gold); }
 @media (max-width: 600px) {
-            .story-hero { padding: 8rem 1.2rem 3rem; }
-            .story-wrap { padding: 0 1.2rem 3rem; }
+            .page-hero { padding: 8rem 1.2rem 3rem; }
+            .article-body { padding: 0 1.2rem 3rem; }
             .truth-section { padding: 1.5rem; }
         }
     </style>
@@ -254,14 +254,14 @@
         <div class="search-results" id="searchResults"></div>
     </div>
 
-<div class="story-hero">
+<div class="page-hero">
     <span class="story-badge">Humor &middot; Satire</span>
     <h1>The Committee to <span class="gold">Save Yourself</span></h1>
     <p class="subtitle">A town of drowning people forms a committee to rescue themselves. A satire on the beautiful absurdity of works-righteousness.</p>
     <p class="reading-time">10 min read</p>
 </div>
 
-<div class="story-wrap">
+<div class="article-body">
 
 <p><span class="first-word">The town of Meritville</span> sat at the bottom of a valley, which was, in hindsight, an unfortunate place to build a town.</p>
 
@@ -450,7 +450,7 @@
 
 </div>
 
-<div class="story-wrap">
+<div class="article-body">
 
 <div class="truth-section">
     <h3>The Truth Behind the Story</h3>

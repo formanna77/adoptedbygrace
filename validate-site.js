@@ -178,9 +178,79 @@ for (const hubFile of Object.keys(HUB_REGISTRY)) {
 if (styleIssues === 0) ok('No inline styles on hub pages');
 
 // ═══════════════════════════════════════
-// CHECK 5: CSS brace balance
+// CHECK 5: CANONICAL DESIGN FORMAT COMPLIANCE
 // ═══════════════════════════════════════
-console.log('\n━━━ CHECK 5: CSS Integrity ━━━');
+console.log('\n━━━ CHECK 5: Canonical Design Format ━━━');
+let designIssues = 0;
+
+// Banned class names — these were all replaced with canonical equivalents
+const BANNED_CLASSES = [
+    { pattern: 'class="article-hero"', fix: 'class="page-hero"' },
+    { pattern: 'class="article-subtitle"', fix: 'class="subtitle"' },
+    { pattern: 'class="article-meta"', fix: 'class="eyebrow"' },
+    { pattern: 'class="hero-eyebrow"', fix: 'class="eyebrow"' },
+    { pattern: 'class="topic-label"', fix: 'class="eyebrow"' },
+    { pattern: 'class="category-tag"', fix: 'class="eyebrow"' },
+    { pattern: 'class="hero-topic"', fix: 'class="eyebrow"' },
+    { pattern: 'class="hero-subtitle"', fix: 'class="subtitle"' },
+    { pattern: 'class="hero-description"', fix: 'class="subtitle"' },
+    { pattern: 'class="hero-section"', fix: 'class="page-hero"' },
+    { pattern: 'class="article-section"', fix: 'class="article-body"' },
+];
+
+// Hub pages that use hub-hero (exempt from page-hero check)
+const HUB_FILES = new Set(Object.keys(HUB_REGISTRY));
+const EXEMPT_FROM_HERO = new Set([
+    ...UTILITY_PAGES, ...HUB_FILES, ...IGNORE_FILES,
+    'index.html', '_nav-template.html'
+]);
+
+for (const file of htmlFiles) {
+    const content = fs.readFileSync(path.join(ROOT, file), 'utf8');
+
+    // Check for banned class names
+    for (const { pattern, fix } of BANNED_CLASSES) {
+        if (content.includes(pattern)) {
+            error(`${file} — uses banned "${pattern}" → should be "${fix}"`);
+            designIssues++;
+        }
+    }
+
+    // Check article pages have page-hero with eyebrow
+    if (!EXEMPT_FROM_HERO.has(file) && !content.includes('hub-hero')) {
+        if (!content.includes('page-hero')) {
+            error(`${file} — missing page-hero class (canonical hero)`);
+            designIssues++;
+        } else if (!content.includes('class="eyebrow"')) {
+            warn(`${file} — has page-hero but missing .eyebrow element`);
+            designIssues++;
+        }
+    }
+
+    // Check article pages use content-section or article-body (not bare unstyled content)
+    if (!EXEMPT_FROM_HERO.has(file) && !content.includes('hub-hero')) {
+        const hasContentContainer = content.includes('content-section') ||
+                                     content.includes('article-body') ||
+                                     content.includes('class="content"') ||
+                                     content.includes('class="section"');
+        if (!hasContentContainer) {
+            warn(`${file} — no content container class (content-section/article-body/content/section)`);
+            designIssues++;
+        }
+    }
+
+    // Check for <article class="article-container"> wrapper (banned)
+    if (content.includes('<article class="article-container">') || content.includes('<div class="article-container">')) {
+        error(`${file} — uses banned article-container wrapper`);
+        designIssues++;
+    }
+}
+if (designIssues === 0) ok('All pages follow canonical design format');
+
+// ═══════════════════════════════════════
+// CHECK 6: CSS brace balance
+// ═══════════════════════════════════════
+console.log('\n━━━ CHECK 6: CSS Integrity ━━━');
 const cssPath = path.join(ROOT, 'global.css');
 if (fs.existsSync(cssPath)) {
     const css = fs.readFileSync(cssPath, 'utf8');

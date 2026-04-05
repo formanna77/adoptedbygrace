@@ -39,7 +39,7 @@
 
 <style>
 
-.story-hero {
+.page-hero {
             position: relative;
             padding: 10rem 2rem 5rem;
             text-align: left;
@@ -47,7 +47,7 @@
             margin: 0 auto;
             overflow: hidden;
         }
-.story-hero::before {
+.page-hero::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
@@ -67,8 +67,8 @@
             border-radius: 2rem;
             margin-bottom: 1.5rem;
         }
-.story-hero 
-.story-hero .subtitle {
+.page-hero 
+.page-hero .subtitle {
             font-size: 1.25rem;
             color: var(--text-secondary);
             font-style: italic;
@@ -80,18 +80,18 @@
             color: var(--text-muted);
             letter-spacing: 0.02em;
         }
-.story-container {
+.article-body {
             max-width: 720px;
             margin: 0 auto 4rem;
             padding: 0 2rem;
         }
-.story-text p {
+.article-body .story-prose p {
             font-size: 1.15rem;
             line-height: 1.85;
             color: var(--text-primary);
             margin-bottom: 1.5rem;
         }
-.story-text em { color: var(--accent-gold); }
+.article-body .story-prose em { color: var(--accent-gold); }
 .scene-break {
             text-align: center;
             margin: 2.5rem 0;
@@ -232,7 +232,7 @@
         <div class="search-results" id="searchResults"></div>
     </div>
 
-    <div class="story-hero">
+    <div class="page-hero">
         <div class="story-badge">Thought Experiment</div>
         <h1>The Day You Got to Choose Again</h1>
         <p class="subtitle">What if God gave you one clean shot — no upbringing, no culture, no nudges? Just you and Him in a room. What would you choose?</p>
@@ -241,8 +241,8 @@
 
     <main>
         <article>
-            <div class="story-container">
-                <div class="story-text">
+            <div class="article-body">
+                <div class="story-prose">
 
                     <p>You die on a Tuesday.</p>
 
