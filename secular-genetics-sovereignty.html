@@ -40,7 +40,7 @@
     
     <link rel="stylesheet" href="/global.css">
 <style>
-        .genetics-card {
+.genetics-card {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 12px;
@@ -49,14 +49,14 @@
             position: relative;
             overflow: hidden;
         }
-        .genetics-card::before {
+.genetics-card::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
             height: 3px;
             background: linear-gradient(90deg, var(--accent-violet), var(--accent-ember));
         }
-        .genetics-card .genetics-label {
+.genetics-card .genetics-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.68rem;
             text-transform: uppercase;
@@ -64,18 +64,18 @@
             color: var(--accent-violet);
             margin-bottom: 0.5rem;
         }
-        .genetics-card h4 {
+.genetics-card h4 {
             color: var(--text-primary);
             margin-bottom: 0.8rem;
             font-size: 1.15rem;
         }
-        .genetics-card p {
+.genetics-card p {
             color: var(--text-secondary);
             font-size: 0.95rem;
             line-height: 1.8;
             margin-bottom: 0;
         }
-        .genetics-card .scripture-echo {
+.genetics-card .scripture-echo {
             margin-top: 1rem;
             padding-top: 1rem;
             border-top: 1px solid var(--border-subtle);
@@ -83,12 +83,12 @@
             color: var(--accent-gold);
             font-size: 0.9rem;
         }
-        .trait-chart {
+.trait-chart {
             display: grid;
             gap: 1.2rem;
             margin: 2rem 0;
         }
-        .trait-bar {
+.trait-bar {
             display: flex;
             align-items: center;
             gap: 1rem;
@@ -97,13 +97,13 @@
             border-radius: 8px;
             border-left: 3px solid var(--accent-gold);
         }
-        .trait-label {
+.trait-label {
             font-weight: 600;
             color: var(--text-primary);
             min-width: 140px;
             font-size: 0.9rem;
         }
-        .trait-percentage {
+.trait-percentage {
             flex: 1;
             height: 20px;
             background: rgba(139, 92, 246, 0.1);
@@ -111,12 +111,12 @@
             overflow: hidden;
             position: relative;
         }
-        .trait-percentage-fill {
+.trait-percentage-fill {
             height: 100%;
             background: linear-gradient(90deg, var(--accent-violet), var(--accent-gold));
             border-radius: 10px;
         }
-        .trait-stat {
+.trait-stat {
             font-family: 'JetBrains Mono', monospace;
             color: var(--accent-gold);
             font-size: 0.85rem;
@@ -124,7 +124,7 @@
             min-width: 50px;
             text-align: right;
         }
-        .pullquote {
+.pullquote {
             border-left: 3px solid var(--accent-ember);
             padding-left: 1.5rem;
             padding-top: 1rem;
@@ -135,7 +135,7 @@
             font-style: italic;
             line-height: 1.8;
         }
-        .scripture {
+.scripture {
             background: rgba(139, 92, 246, 0.08);
             border: 1px solid var(--border-subtle);
             border-radius: 8px;
@@ -143,7 +143,7 @@
             margin: 2rem 0;
             position: relative;
         }
-        .scripture::before {
+.scripture::before {
             content: '"';
             position: absolute;
             top: -10px;
@@ -152,12 +152,12 @@
             color: var(--accent-gold);
             opacity: 0.2;
         }
-        .scripture p {
+.scripture p {
             color: var(--text-primary);
             margin: 0 0 0.8rem 0;
             line-height: 1.8;
         }
-        .scripture .ref {
+.scripture .ref {
             display: block;
             text-align: right;
             font-style: italic;
@@ -165,77 +165,77 @@
             font-size: 0.9rem;
             margin-top: 0.8rem;
         }
-        .self-ref {
+.self-ref {
             background: rgba(232, 100, 44, 0.08);
             border-left: 3px solid var(--accent-ember);
             padding: 1.5rem;
             margin: 2rem 0;
             border-radius: 4px;
         }
-        .self-ref h4 {
+.self-ref h4 {
             color: var(--accent-ember);
             margin-bottom: 0.8rem;
             font-size: 0.95rem;
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
-        .self-ref p {
+.self-ref p {
             color: var(--text-secondary);
             margin: 0;
             font-size: 0.95rem;
             line-height: 1.8;
         }
-        .pastoral {
+.pastoral {
             background: rgba(212, 162, 84, 0.08);
             border: 1px solid var(--border-subtle);
             border-radius: 8px;
             padding: 1.5rem;
             margin: 2rem 0;
         }
-        .pastoral h4 {
+.pastoral h4 {
             color: var(--accent-gold);
             margin-bottom: 0.8rem;
             font-size: 0.95rem;
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
-        .pastoral p {
+.pastoral p {
             color: var(--text-secondary);
             margin: 0;
             font-size: 0.95rem;
             line-height: 1.8;
         }
-        .research-item {
+.research-item {
             margin: 1.5rem 0;
             padding-left: 1.5rem;
             border-left: 2px solid var(--accent-violet);
         }
-        .research-item .study-name {
+.research-item .study-name {
             font-weight: 600;
             color: var(--text-primary);
             display: block;
             margin-bottom: 0.3rem;
         }
-        .research-item .study-year {
+.research-item .study-year {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.8rem;
             color: var(--accent-gold);
             text-transform: uppercase;
             letter-spacing: 0.1em;
         }
-        .research-item p {
+.research-item p {
             color: var(--text-secondary);
             font-size: 0.95rem;
             margin: 0.5rem 0 0;
             line-height: 1.7;
         }
-        .cross-links {
+.cross-links {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 1.2rem;
             margin: 2.5rem 0;
         }
-        .cross-link {
+.cross-link {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 8px;
@@ -247,24 +247,24 @@
             flex-direction: column;
             gap: 0.5rem;
         }
-        .cross-link:hover {
+.cross-link:hover {
             background: var(--bg-card-hover);
             border-color: var(--accent-gold);
             color: var(--accent-gold);
         }
-        .cross-link-category {
+.cross-link-category {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.65rem;
             text-transform: uppercase;
             letter-spacing: 0.15em;
             color: var(--accent-violet);
         }
-        .cross-link-title {
+.cross-link-title {
             font-weight: 600;
             color: var(--text-primary);
             font-size: 0.95rem;
         }
-        .never-gives-up-banner {
+.never-gives-up-banner {
             background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(232, 100, 44, 0.1));
             border: 1px solid var(--border-subtle);
             border-radius: 8px;
@@ -272,18 +272,18 @@
             text-align: center;
             margin: 3rem 0;
         }
-        .never-gives-up-banner h3 {
+.never-gives-up-banner h3 {
             color: var(--accent-gold);
             margin-bottom: 1rem;
             font-family: 'Playfair Display', serif;
             font-size: 1.4rem;
         }
-        .never-gives-up-banner p {
+.never-gives-up-banner p {
             color: var(--text-secondary);
             line-height: 1.8;
             margin: 0;
         }
-        .reading-progress {
+.reading-progress {
             position: fixed;
             top: 50px;
             left: 0;
@@ -292,7 +292,7 @@
             z-index: 999;
             width: 0%;
         }
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
             .genetics-card { padding: 1.5rem; }
             .trait-bar { flex-direction: column; align-items: flex-start; gap: 0.8rem; }
             .trait-label { min-width: auto; }

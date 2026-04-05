@@ -26,7 +26,6 @@
 
     <title>Noah: Chosen for Preservation — Adopted by Grace</title>
 
-    
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -43,43 +42,15 @@
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --bg-card-hover: #1a1a2e;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-        }
-
-        * {
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
-        *:focus-visible {
-            outline: 2px solid var(--accent-gold);
-            outline-offset: 2px;
-        }
-
-        html {
+html {
             scroll-behavior: smooth;
         }
-
-        body {
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            font-family: 'Inter', sans-serif;
-            line-height: 1.7;
-            font-size: 16px;
-        }
-
-        /* Reading Progress Bar */
+/* Reading Progress Bar */
         .reading-progress {
             position: fixed;
             top: 0;
@@ -90,13 +61,11 @@
             z-index: 1000;
             transition: width 0.1s ease;
         }
-
-        .dropdown-icon {
+.dropdown-icon {
             font-size: 1rem;
             opacity: 0.7;
         }
-
-        .breadcrumb-
+.breadcrumb-
 
         .breadcrumb-
 
@@ -106,25 +75,11 @@
             margin: 0 auto;
             padding: 0 2rem;
         }
-
-        /* Page Header */
+/* Page Header */
         .page-header {
             margin: 3rem 0 2rem;
         }
-
-        .page-header h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.8rem;
-            font-weight: 800;
-            line-height: 1.2;
-            margin-bottom: 1rem;
-            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .page-meta {
+.page-meta {
             display: grid;
             grid-template-columns: auto auto auto auto;
             gap: 2rem;
@@ -134,26 +89,22 @@
             padding-bottom: 2rem;
             border-bottom: 1px solid var(--border-subtle);
         }
-
-        .meta-item {
+.meta-item {
             display: flex;
             flex-direction: column;
             gap: 0.25rem;
         }
-
-        .meta-label {
+.meta-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             color: var(--text-muted);
         }
-
-        .meta-value {
+.meta-value {
             color: var(--text-primary);
         }
-
-        .section-nav h3 {
+.section-nav h3 {
             font-family: 'Playfair Display', serif;
             color: var(--accent-gold);
             font-size: 0.9rem;
@@ -161,14 +112,12 @@
             letter-spacing: 1px;
             margin-bottom: 1rem;
         }
-
-        .nav-grid {
+.nav-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 0.75rem;
         }
-
-        .nav-grid a {
+.nav-grid a {
             color: var(--text-primary);
             text-decoration: none;
             padding: 0.75rem 1rem;
@@ -177,23 +126,19 @@
             transition: all 0.3s ease;
             font-size: 0.9rem;
         }
-
-        .nav-grid a:hover {
+.nav-grid a:hover {
             background-color: rgba(212, 162, 84, 0.15);
             transform: translateX(4px);
         }
-
-        .nav-grid a.active {
+.nav-grid a.active {
             background-color: rgba(212, 162, 84, 0.2);
             color: var(--accent-gold);
         }
-
-        /* Content Sections */
+/* Content Sections */
         section {
             margin: 3rem 0;
         }
-
-        section h2 {
+section h2 {
             font-family: 'Playfair Display', serif;
             font-size: 2rem;
             color: var(--accent-gold);
@@ -201,8 +146,7 @@
             position: relative;
             padding-left: 1.5rem;
         }
-
-        section h2::before {
+section h2::before {
             content: '';
             position: absolute;
             left: 0;
@@ -211,32 +155,27 @@
             width: 4px;
             background: linear-gradient(180deg, var(--accent-gold), var(--accent-ember));
         }
-
-        section h3 {
+section h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.4rem;
             color: var(--accent-ember);
             margin-top: 2rem;
             margin-bottom: 1rem;
         }
-
-        section p {
+section p {
             margin-bottom: 1.5rem;
             color: var(--text-primary);
             line-height: 1.8;
         }
-
-        section ul, section ol {
+section ul, section ol {
             margin-left: 2rem;
             margin-bottom: 1.5rem;
         }
-
-        section li {
+section li {
             margin-bottom: 1rem;
             color: var(--text-primary);
         }
-
-        /* Scripture Blocks */
+/* Scripture Blocks */
         .scripture-block { display: block;
             background-color: var(--bg-card);
             border-left: 4px solid var(--accent-gold);
@@ -247,8 +186,7 @@
             line-height: 1.9;
             border-radius: 4px;
         }
-
-        .scripture-block .ref {
+.scripture-block .ref {
             font-family: 'JetBrains Mono', monospace;
             display: block;
             font-size: 0.85rem;
@@ -257,8 +195,7 @@
             font-style: normal;
             font-weight: 600;
         }
-
-        /* Greek/Hebrew */
+/* Greek/Hebrew */
         .greek, .hebrew {
             font-family: 'JetBrains Mono', monospace;
             background-color: rgba(139, 92, 246, 0.15);
@@ -268,13 +205,11 @@
             font-weight: 600;
             display: inline-block;
         }
-
-        .transliteration {
+.transliteration {
             color: var(--accent-gold);
             font-style: italic;
         }
-
-        /* Callout Boxes */
+/* Callout Boxes */
         .callout {
             background-color: var(--bg-card-hover);
             border-left: 4px solid var(--accent-ember);
@@ -282,12 +217,10 @@
             margin: 2rem 0;
             border-radius: 4px;
         }
-
-        .callout strong {
+.callout strong {
             color: var(--accent-ember);
         }
-
-        /* Objection Boxes */
+/* Objection Boxes */
         .objection {
             background-color: rgba(232, 100, 44, 0.08);
             border-left: 4px solid var(--accent-ember);
@@ -295,8 +228,7 @@
             margin: 2rem 0;
             border-radius: 4px;
         }
-
-        .objection-title {
+.objection-title {
             font-weight: 700;
             color: var(--accent-ember);
             margin-bottom: 1rem;
@@ -304,19 +236,16 @@
             align-items: center;
             gap: 0.75rem;
         }
-
-        .objection-title::before {
+.objection-title::before {
             content: '✕';
             font-weight: bold;
             font-size: 1.2rem;
         }
-
-        .objection-response {
+.objection-response {
             color: var(--text-primary);
             line-height: 1.8;
         }
-
-        /* Witness Quotes */
+/* Witness Quotes */
         .witness-quote {
             background-color: var(--bg-card);
             border-left: 4px solid var(--accent-violet);
@@ -325,33 +254,28 @@
             border-radius: 4px;
             font-style: italic;
         }
-
-        .witness-quote .attribution {
+.witness-quote .attribution {
             font-style: normal;
             font-weight: 600;
             color: var(--accent-violet);
             margin-top: 1rem;
             display: block;
         }
-
-        /* Continue Exploring */
+/* Continue Exploring */
         .continue-exploring {
             margin: 4rem 0 3rem;
         }
-
-        .continue-exploring h2 {
+.continue-exploring h2 {
             color: var(--accent-gold);
             margin-bottom: 2rem;
         }
-
-        .explore-grid {
+.explore-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 1.5rem;
             margin-bottom: 3rem;
         }
-
-        .explore-link {
+.explore-link {
             background-color: var(--bg-card);
             border: 1px solid var(--border-subtle);
             padding: 1.75rem;
@@ -363,98 +287,27 @@
             flex-direction: column;
             gap: 0.75rem;
         }
-
-        .explore-link:hover {
+.explore-link:hover {
             background-color: var(--bg-card-hover);
             border-color: var(--accent-gold);
             transform: translateY(-4px);
         }
-
-        .explore-link h3 {
+.explore-link h3 {
             color: var(--accent-gold);
             font-size: 1.1rem;
             margin: 0;
         }
-
-        .explore-link p {
+.explore-link p {
             font-size: 0.9rem;
             color: var(--text-secondary);
             margin: 0;
         }
+/* Social Share */
+        
+/* Footer */
+        
 
-        /* Social Share */
-        .share-buttons {
-            display: flex;
-            gap: 1rem;
-            margin: 3rem 0;
-            padding: 2rem 0;
-            border-top: 1px solid var(--border-subtle);
-            border-bottom: 1px solid var(--border-subtle);
-        }
-
-        .share-btn {
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            color: var(--text-primary);
-            padding: 0.75rem 1.5rem;
-            border-radius: 4px;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            transition: all 0.3s ease;
-            font-size: 0.9rem;
-        }
-
-        .share-btn:hover {
-            background-color: var(--accent-gold);
-            color: var(--bg-deep);
-        }/* Footer */
-        footer {
-            background-color: var(--bg-card);
-            border-top: 1px solid var(--border-subtle);
-            margin-top: 4rem;
-            padding: 3rem 2rem;
-        }
-
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 3rem;
-            margin-bottom: 3rem;
-        }
-
-        .footer-section h3 {
-            font-family: 'Playfair Display', serif;
-            color: var(--accent-gold);
-            margin-bottom: 1.5rem;
-            font-size: 1.1rem;
-        }
-
-        .footer-section a {
-            display: block;
-            color: var(--text-secondary);
-            text-decoration: none;
-            margin-bottom: 0.75rem;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-copyright {
-            text-align: center;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-subtle);
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
-
-        /* Responsive Design */
+/* Responsive Design */
         @media (max-width: 1024px) {
             .page-meta {
                 grid-template-columns: auto auto;
@@ -465,8 +318,7 @@
                 padding: 0 1.5rem;
             }
         }
-
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
 
             .page-header h1 {
                 font-size: 2rem;
@@ -493,8 +345,7 @@
                 grid-template-columns: 1fr;
             }
         }
-
-        @media (max-width: 480px) {
+@media (max-width: 480px) {
 
             .page-header h1 {
                 font-size: 1.6rem;
@@ -508,16 +359,10 @@
                 padding: 1rem;
             }
 
-            .share-buttons {
-                flex-direction: column;
-            }
+            
 
-            .footer-container {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
+            
         }
-
     </style>
 </head>
 <body>
@@ -535,10 +380,8 @@
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -616,9 +459,6 @@
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-
-
-
 
     <div class="breadcrumb-nav">
         <a href="/ot-election.html">← Back to OT Election</a>
@@ -993,8 +833,6 @@
 
         </main>
 
-    
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -1071,10 +909,6 @@
             <p>&copy; 2026 Adopted by Grace. All Scripture quotations from the ESV Bible unless otherwise noted. Soli Deo Gloria.</p>
         </div>
     </footer>
-
-    
-
-    
 
         <script src="/global.js" defer>
         // Mobile dropdown toggles

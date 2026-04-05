@@ -47,40 +47,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    
-<style>:root {
-            --accent-gold: #d4af37;
-            --accent-violet: #a78bfa;
-            --accent-ember: #f97316;
-            --text-primary: #1a1a2e;
-            --text-secondary: #6b7280;
-            --text-light: #9ca3af;
-            --bg-primary: #ffffff;
-            --bg-secondary: #f9fafb;
-            --bg-card: #f3f4f6;
-            --border-subtle: #e5e7eb;
-            --border-strong: #d1d5db;
-        }
-
-        * {
+<style>
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
-        html {
+html {
             scroll-behavior: smooth;
         }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            color: var(--text-primary);
-            background-color: var(--bg-primary);
-            line-height: 1.6;
-            letter-spacing: 0.3px;
-        }
-
-        .reading-progress {
+.reading-progress {
             position: fixed;
             top: 0;
             left: 0;
@@ -89,14 +65,12 @@
             z-index: 9999;
             transition: width 0.2s ease;
         }
-
-        .content-wrap {
+.content-wrap {
             max-width: 800px;
             margin: 0 auto;
             padding: 4rem 2rem;
         }
-
-        .content-wrap h2 {
+.content-wrap h2 {
             font-family: 'Playfair Display', serif;
             font-size: clamp(1.75rem, 4vw, 2.25rem);
             font-weight: 700;
@@ -104,28 +78,24 @@
             margin: 3rem 0 1.5rem 0;
             line-height: 1.3;
         }
-
-        .content-wrap h3 {
+.content-wrap h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.5rem;
             font-weight: 600;
             color: var(--text-primary);
             margin: 2.5rem 0 1rem 0;
         }
-
-        .content-wrap p {
+.content-wrap p {
             font-size: 1.05rem;
             color: var(--text-primary);
             line-height: 1.8;
             margin-bottom: 1.5rem;
         }
-
-        .content-wrap strong {
+.content-wrap strong {
             color: var(--text-primary);
             font-weight: 600;
         }
-
-        .scripture {
+.scripture {
             border-left: 4px solid var(--accent-gold);
             padding-left: 1.5rem;
             margin: 2rem 0;
@@ -136,16 +106,14 @@
             padding-left: 1.5rem;
             border-radius: 0.5rem;
         }
-
-        .scripture-ref {
+.scripture-ref {
             display: block;
             margin-top: 0.75rem;
             font-size: 0.95rem;
             font-weight: 600;
             color: var(--text-light);
         }
-
-        .pullquote {
+.pullquote {
             font-family: 'Playfair Display', serif;
             font-size: 1.35rem;
             font-weight: 600;
@@ -156,8 +124,7 @@
             border-left: 3px solid var(--accent-violet);
             text-align: left;
         }
-
-        .pastoral-whisper {
+.pastoral-whisper {
             background-color: #f0f3ff;
             border: 1px solid #d8dff5;
             border-radius: 0.5rem;
@@ -167,22 +134,19 @@
             font-style: italic;
             line-height: 1.8;
         }
-
-        .pastoral-whisper::before {
+.pastoral-whisper::before {
             content: "✦ ";
             color: var(--accent-violet);
             font-weight: 600;
             margin-right: 0.5rem;
         }
-
-        .cross-links {
+.cross-links {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 1.5rem;
             margin: 3rem 0;
         }
-
-        .cross-link {
+.cross-link {
             background-color: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 0.75rem;
@@ -191,45 +155,38 @@
             transition: all 0.3s ease;
             cursor: pointer;
         }
-
-        .cross-link:hover {
+.cross-link:hover {
             border-color: var(--accent-gold);
             box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
             transform: translateY(-2px);
         }
-
-        .cross-link h4 {
+.cross-link h4 {
             font-family: 'Playfair Display', serif;
             font-size: 1.1rem;
             color: var(--text-primary);
             margin-bottom: 0.5rem;
         }
-
-        .cross-link p {
+.cross-link p {
             font-size: 0.95rem;
             color: var(--text-secondary);
             margin-bottom: 0;
         }
-
-        .never-gives-up-banner {
+.never-gives-up-banner {
             background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-ember) 100%);
             border-radius: 0.75rem;
             padding: 2rem;
             margin: 3rem 0;
             text-align: center;
         }
-
-        .never-gives-up-banner h3 {
+.never-gives-up-banner h3 {
             color: white;
             margin-bottom: 0.75rem;
         }
-
-        .never-gives-up-banner p {
+.never-gives-up-banner p {
             color: rgba(255, 255, 255, 0.95);
             margin-bottom: 1.5rem;
         }
-
-        .never-gives-up-banner a {
+.never-gives-up-banner a {
             display: inline-block;
             background-color: rgba(255, 255, 255, 0.2);
             color: white;
@@ -240,70 +197,11 @@
             border: 1px solid rgba(255, 255, 255, 0.4);
             transition: all 0.3s ease;
         }
-
-        .never-gives-up-banner a:hover {
+.never-gives-up-banner a:hover {
             background-color: rgba(255, 255, 255, 0.3);
             border-color: white;
         }
-
-        footer {
-            background-color: var(--bg-secondary);
-            border-top: 1px solid var(--border-subtle);
-            padding: 3rem 2rem;
-        }
-
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto 2rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 2rem;
-        }
-
-        .footer-section h4 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-            font-weight: 600;
-        }
-
-        .footer-section a {
-            display: block;
-            color: var(--text-secondary);
-            text-decoration: none;
-            margin-bottom: 0.75rem;
-            font-size: 0.95rem;
-            transition: color 0.2s ease;
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-grace-warning {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 1.5rem;
-            background-color: var(--bg-card);
-            border-left: 4px solid var(--accent-violet);
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            line-height: 1.7;
-            text-align: center;
-        }
-
-        .footer-copyright {
-            max-width: 1200px;
-            margin: 0 auto;
-            text-align: center;
-            padding-top: 1.5rem;
-            border-top: 1px solid var(--border-subtle);
-            font-size: 0.9rem;
-            color: var(--text-light);
-        }
-
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
                     .content-wrap {
                 padding: 2.5rem 1.5rem;
             }
@@ -315,7 +213,8 @@
             .never-gives-up-banner {
                 padding: 1.5rem;
             }
-        }</style>
+        }
+    </style>
 </head>
 <body>
     <div class="reading-progress" id="readingProgress"></div>
@@ -387,7 +286,7 @@
 
     <!-- HERO SECTION -->
     <section class="page-hero">
-        <div class="hero-eyebrow">SHATTERED LENS</div>
+        <div class="eyebrow">SHATTERED LENS</div>
         <h1>When God Goes Silent</h1>
         <p>You prayed. You begged. You waited. And the ceiling never moved. For the person whose faith is crumbling because the God you thought was listening went completely, devastatingly silent.</p>
     </section>

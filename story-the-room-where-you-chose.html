@@ -45,58 +45,25 @@
   <!-- Global styles -->
   <link rel="stylesheet" href="/global.css">
 
-  
 <style>
-    :root {
-      --bg-deep: #0a0a0f;
-      --bg-card: #12121a;
-      --accent-gold: #d4a254;
-      --accent-ember: #e8642c;
-      --accent-violet: #8b5cf6;
-      --text-primary: #f0ece4;
-      --text-secondary: #9a958c;
-      --text-muted: #807b75;
-    }
-
-    body {
-      background-color: var(--bg-deep);
-      color: var(--text-primary);
-    }
-
-    .breadcrumb-nav {
+.breadcrumb-nav {
       max-width: 800px;
       margin: 2rem auto 0;
       padding: 0 2rem;
     }
-
-    .breadcrumb-nav a {
+.breadcrumb-nav a {
       color: var(--accent-gold);
       text-decoration: none;
       font-size: 0.95rem;
       transition: opacity 0.2s;
     }
-
-    .breadcrumb-nav a:hover {
+.breadcrumb-nav a:hover {
       opacity: 0.8;
     }
-
-    main {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 0 2rem;
-    }
-
-    article {
+article {
       padding: 2rem 0;
     }
-
-    .hero {
-      text-align: center;
-      margin-bottom: 4rem;
-      padding: 3rem 0;
-    }
-
-    .category-tag {
+.category-tag {
       display: inline-block;
       background-color: rgba(139, 92, 246, 0.15);
       color: var(--accent-violet);
@@ -108,56 +75,40 @@
       letter-spacing: 0.05em;
       margin-bottom: 1.5rem;
     }
-
-    .hero h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      font-weight: 800;
-      line-height: 1.1;
-      margin-bottom: 0.5rem;
-      color: var(--text-primary);
-    }
-
-    .hero .subtitle {
+.hero .subtitle {
       font-size: 1.3rem;
       color: var(--text-secondary);
       font-style: italic;
       margin-bottom: 1.5rem;
       font-family: 'Inter', sans-serif;
     }
-
-    .story-info {
+.story-info {
       font-size: 0.9rem;
       color: var(--text-muted);
       letter-spacing: 0.02em;
     }
-
-    .story-container {
+.story-container {
       max-width: 720px;
       margin: 0 auto 4rem;
     }
-
-    .story-text p {
+.story-text p {
       font-family: 'Inter', sans-serif;
       font-size: 1.15rem;
       line-height: 1.8;
       color: var(--text-primary);
       margin-bottom: 1.5rem;
     }
-
-    .story-text em {
+.story-text em {
       color: var(--accent-gold);
     }
-
-    .scene-break {
+.scene-break {
       text-align: center;
       margin: 2.5rem 0;
       font-size: 1.5rem;
       color: var(--accent-gold);
       opacity: 0.6;
     }
-
-    .chapter-heading {
+.chapter-heading {
       font-family: 'Playfair Display', serif;
       font-size: 1.8rem;
       font-weight: 700;
@@ -166,8 +117,7 @@
       margin-bottom: 1.5rem;
       line-height: 1.2;
     }
-
-    .thread-line {
+.thread-line {
       display: block;
       margin: 1.5rem 0 1.5rem 2rem;
       padding: 1rem 1.5rem;
@@ -179,29 +129,25 @@
       font-style: italic;
       font-family: 'Inter', sans-serif;
     }
-
-    .further-reading {
+.further-reading {
       margin-top: 5rem;
       padding-top: 3rem;
       border-top: 1px solid rgba(212, 162, 84, 0.2);
     }
-
-    .further-reading h2 {
+.further-reading h2 {
       font-family: 'Playfair Display', serif;
       font-size: 1.5rem;
       color: var(--accent-gold);
       margin-bottom: 2rem;
       text-align: center;
     }
-
-    .reading-cards {
+.reading-cards {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
       margin-bottom: 3rem;
     }
-
-    .reading-card {
+.reading-card {
       background-color: var(--bg-card);
       border: 1px solid rgba(212, 162, 84, 0.15);
       border-radius: 0.5rem;
@@ -211,50 +157,25 @@
       color: inherit;
       display: block;
     }
-
-    .reading-card:hover {
+.reading-card:hover {
       border-color: var(--accent-gold);
       background-color: rgba(212, 162, 84, 0.05);
     }
-
-    .reading-card h3 {
+.reading-card h3 {
       font-family: 'Playfair Display', serif;
       font-size: 1.3rem;
       color: var(--accent-gold);
       margin-bottom: 0.5rem;
       line-height: 1.2;
     }
-
-    .reading-card p {
+.reading-card p {
       font-size: 0.95rem;
       color: var(--text-secondary);
       line-height: 1.6;
       margin: 0;
     }
-
-    footer {
-      text-align: center;
-      padding: 3rem 2rem;
-      color: var(--text-muted);
-      font-size: 0.85rem;
-      border-top: 1px solid rgba(212, 162, 84, 0.1);
-      margin-top: 4rem;
-    }
-
-    footer a {
-      color: var(--accent-gold);
-      text-decoration: none;
-      transition: opacity 0.2s;
-    }
-
-    footer a:hover {
-      opacity: 0.8;
-    }
-
-    @media (max-width: 768px) {
-      .hero h1 {
-        font-size: 2rem;
-      }
+@media (max-width: 768px) {
+      
 
       .hero .subtitle {
         font-size: 1.1rem;
@@ -275,7 +196,7 @@
         font-size: 1.4rem;
       }
     }
-  </style>
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -289,10 +210,8 @@
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -380,7 +299,7 @@
   <main id="main-content">
     <article>
       <div class="page-hero">
-        <span class="category-tag">Thought Experiment</span>
+        <span class="eyebrow">Thought Experiment</span>
         <h1>The Room Where You Chose</h1>
         <p class="subtitle">What if you could trace your decision back to its origin?</p>
         <p class="story-info">6 min read &middot; Truth illuminated: Election, Predestination, Total Inability</p>
@@ -515,8 +434,6 @@
       </div>
     </article>
   </main>
-
-  
 
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">

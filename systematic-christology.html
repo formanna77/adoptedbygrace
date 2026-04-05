@@ -40,59 +40,40 @@
     }
     </script>
 
-    
     <link rel="canonical" href="https://adoptedbygrace.net/systematic-christology.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link rel="stylesheet" href="/global.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<style>* {
+<style>
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
-        html {
+html {
             scroll-behavior: smooth;
         }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background-color: #0a0a0f;
-            color: #e4e4e7;
-            line-height: 1.8;
-            overflow-x: hidden;
-        }
-
-        /* Breadcrumb */
+/* Breadcrumb */
         .breadcrumb {
             background-color: #12121a;
             padding: 1rem 2rem;
             border-bottom: 1px solid #27272e;
             font-size: 0.9rem;
         }
-
-        .breadcrumb a {
+.breadcrumb a {
             color: #d4a254;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
         }
-
-        .breadcrumb a:hover {
+.breadcrumb a:hover {
             text-decoration: underline;
         }
-
-        /* Hero Section */
-        .hero {
-            padding: 4rem 2rem;
-            text-align: center;
-            background: linear-gradient(135deg, #0a0a0f 0%, #1a1a27 100%);
-            border-bottom: 2px solid #d4a254;
-        }
-
-        .hero-label {
+/* Hero Section */
+        
+.hero-label {
             color: #d4a254;
             font-size: 0.85rem;
             text-transform: uppercase;
@@ -101,48 +82,25 @@
             margin-bottom: 1rem;
             font-weight: 600;
         }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3.5rem;
-            margin-bottom: 1rem;
-            background: linear-gradient(135deg, #d4a254 0%, #e8642c 50%, #8b5cf6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            line-height: 1.1;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            color: #a1a1aa;
-            max-width: 700px;
-            margin: 0 auto;
-            line-height: 1.6;
-        }
-
-        /* Container */
+/* Container */
         .container {
             max-width: 1200px; width: 100%;
             margin: 0 auto;
             padding: 0 2rem;
         }
-
-        .section-nav h3 {
+.section-nav h3 {
             font-family: 'Playfair Display', serif;
             margin-bottom: 1rem;
             color: #d4a254;
             font-size: 1.1rem;
         }
-
-        .section-nav-list {
+.section-nav-list {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 0.5rem;
             list-style: none;
         }
-
-        .section-nav-list a {
+.section-nav-list a {
             color: #a1a1aa;
             text-decoration: none;
             padding: 0.5rem;
@@ -150,24 +108,20 @@
             border-radius: 4px;
             transition: all 0.3s;
         }
-
-        .section-nav-list a:hover {
+.section-nav-list a:hover {
             background-color: #27272e;
             color: #d4a254;
             padding-left: 1rem;
         }
-
-        /* Main Content */
+/* Main Content */
         main {
             padding: 3rem 0;
         }
-
-        section {
+section {
             margin-bottom: 4rem;
             scroll-margin-top: 120px;
         }
-
-        section h2 {
+section h2 {
             font-family: 'Playfair Display', serif;
             font-size: 2.2rem;
             margin-bottom: 1.5rem;
@@ -176,60 +130,51 @@
             align-items: center;
             gap: 1rem;
         }
-
-        section h2::before {
+section h2::before {
             content: '';
             width: 4px;
             height: 2rem;
             background: linear-gradient(180deg, #d4a254, #e8642c);
             border-radius: 2px;
         }
-
-        section h3 {
+section h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.4rem;
             margin-top: 1.5rem;
             margin-bottom: 1rem;
             color: #e8642c;
         }
-
-        section h4 {
+section h4 {
             font-family: 'Playfair Display', serif;
             font-size: 1.1rem;
             margin-top: 1rem;
             margin-bottom: 0.75rem;
             color: #8b5cf6;
         }
-
-        section p {
+section p {
             margin-bottom: 1rem;
             line-height: 1.8;
             color: #d1d1d6;
         }
-
-        section ul, section ol {
+section ul, section ol {
             margin-left: 1.5rem;
             margin-bottom: 1.5rem;
         }
-
-        section li {
+section li {
             margin-bottom: 0.75rem;
             color: #d1d1d6;
         }
-
-        section a {
+section a {
             color: #d4a254;
             text-decoration: none;
             border-bottom: 1px solid #d4a254;
             transition: all 0.3s;
         }
-
-        section a:hover {
+section a:hover {
             color: #e8642c;
             border-bottom-color: #e8642c;
         }
-
-        /* Scripture Block */
+/* Scripture Block */
         .scripture-block { display: block;
             background-color: #12121a;
             border-left: 4px solid #8b5cf6;
@@ -240,8 +185,7 @@
             color: #b4b4ba;
             position: relative;
         }
-
-        .scripture-ref { display: block;
+.scripture-ref { display: block;
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.85rem;
             color: #8b5cf6;
@@ -249,8 +193,7 @@
             margin-top: 0.75rem;
             font-weight: 600;
         }
-
-        /* Card */
+/* Card */
         .card {
             background-color: #12121a;
             border: 1px solid #27272e;
@@ -259,19 +202,16 @@
             margin-bottom: 1.5rem;
             transition: all 0.3s;
         }
-
-        .card:hover {
+.card:hover {
             border-color: #d4a254;
             box-shadow: 0 8px 24px rgba(212, 162, 84, 0.1);
             transform: translateY(-2px);
         }
-
-        .card h3 {
+.card h3 {
             color: #d4a254;
             margin-bottom: 1rem;
         }
-
-        /* Objection Container */
+/* Objection Container */
         .objection-container {
             background-color: #12121a;
             border: 2px solid #e8642c;
@@ -279,29 +219,25 @@
             padding: 1.5rem;
             margin-bottom: 1.5rem;
         }
-
-        .objection-container h4 {
+.objection-container h4 {
             color: #e8642c;
             display: flex;
             align-items: center;
             gap: 0.75rem;
             margin-bottom: 1rem;
         }
-
-        .objection-container p {
+.objection-container p {
             color: #d1d1d6;
             margin-bottom: 0.75rem;
         }
-
-        .objection-response {
+.objection-response {
             color: #8b5cf6;
             padding-top: 0.75rem;
             border-top: 1px solid #27272e;
             margin-top: 0.75rem;
             padding-left: 1rem;
         }
-
-        /* Witness Card */
+/* Witness Card */
         .witness-card {
             background-color: #12121a;
             border-left: 4px solid #d4a254;
@@ -309,32 +245,28 @@
             margin-bottom: 1.5rem;
             border-radius: 4px;
         }
-
-        .witness-name {
+.witness-name {
             font-family: 'Playfair Display', serif;
             font-size: 1.1rem;
             color: #d4a254;
             margin-bottom: 0.5rem;
             font-weight: 600;
         }
-
-        .witness-quote {
+.witness-quote {
             font-style: italic;
             color: #b4b4ba;
             margin: 0.75rem 0;
             padding-left: 1rem;
             border-left: 2px solid #8b5cf6;
         }
-
-        /* Connection Links */
+/* Connection Links */
         .connections-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 1rem;
             margin-top: 1.5rem;
         }
-
-        .connection-link {
+.connection-link {
             background-color: #12121a;
             border: 1px solid #27272e;
             padding: 1rem;
@@ -346,38 +278,16 @@
             align-items: center;
             justify-content: space-between;
         }
-
-        .connection-link:hover {
+.connection-link:hover {
             background-color: #1a1a27;
             border-color: #d4a254;
             color: #d4a254;
         }
-
-        /* Footer */
-        footer {
-            background-color: #12121a;
-            border-top: 1px solid #27272e;
-            padding: 2rem;
-            margin-top: 5rem;
-            text-align: center;
-            color: #717177;
-            font-size: 0.9rem;
-        }
-
-        footer a {
-            color: #d4a254;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* Responsive */
+/* Footer */
+        
+/* Responsive */
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2.2rem;
-            }
+            
 
             section h2 {
                 font-size: 1.7rem;
@@ -387,50 +297,32 @@
                 padding: 0 1rem;
             }
         }
-
-        /* Emphasis Utilities */
+/* Emphasis Utilities */
         .highlight {
             color: #d4a254;
             font-weight: 600;
         }
-
-        .subtitle-text {
+.subtitle-text {
             color: #8b5cf6;
             font-weight: 500;
         }
-
-        em {
-            color: #e8642c;
-            font-style: italic;
-        }
-
-        strong {
-            color: #d4a254;
-            font-weight: 600;
-        }
-
 /* ========== FOCUS STYLES ========== */
-*:focus-visible { outline: 2px solid #d4a254; outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
 
+a:focus-visible { outline-offset: 3px; }
 /* ========== BACK TO TOP ========== */
 /* ========== READING PROGRESS ========== */
 .reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, #d4a254, #e8642c); z-index: 9999; transition: width 0.1s linear; width: 0; }
-
 /* ========== SOCIAL SHARING ========== */
-.share-buttons { display: flex; gap: 0.75rem; align-items: center; margin: 2rem 0; padding: 1.5rem; background: var(--bg-card, #12121a); border: 1px solid rgba(212, 162, 84, 0.12); border-radius: 8px; }
-.share-buttons .share-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: #9a958c; margin-right: 0.5rem; }
-.share-btn { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(212, 162, 84, 0.2); background: transparent; color: #d4a254; text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease; cursor: pointer; }
-.share-btn:hover { background: rgba(212, 162, 84, 0.12); border-color: #d4a254; transform: translateY(-2px); }
-.share-btn svg { width: 18px; height: 18px; fill: currentColor; }
-        @media (max-width: 480px) {
+
+@media (max-width: 480px) {
             h1 { font-size: 1.8rem; }
             .content-section { padding: 1.5rem 1rem; }
-            footer { margin-top: 2rem; padding: 1.5rem 1rem; }
+            
             .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
             .card { padding: 1.5rem; }
             blockquote, .scripture-block { display: block; padding: 1.2rem 1.3rem; }
-        }</style>
+        }
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -446,10 +338,8 @@ a:focus-visible { outline-offset: 3px; }
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -528,9 +418,6 @@ a:focus-visible { outline-offset: 3px; }
         <div class="search-results" id="searchResults"></div>
     </div>
 
-
-
-
     <!-- Breadcrumb -->
     <div class="breadcrumb">
         <a href="systematic-theology.html">← Back to Systematic Theology</a>
@@ -539,6 +426,8 @@ a:focus-visible { outline-offset: 3px; }
     <!-- Hero Section -->
     <div class="page-hero">
         <div class="hero-label">Systematic Theology · Christology</div>
+        <div class="eyebrow">Systematic Theology</div>
+
         <h1>The Glory of Christ</h1>
         <p>The Person and Work of Christ is the center of all theology, the heart of Scripture, and the hope of the elect. In Christ alone we see the full revelation of God's character, the triumph of His redemption, and the promise of His return.</p>
     </div>
@@ -1228,7 +1117,6 @@ a:focus-visible { outline-offset: 3px; }
     </main>
 
     <!-- Footer -->
-        
 
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">

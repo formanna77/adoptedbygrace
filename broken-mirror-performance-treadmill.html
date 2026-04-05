@@ -45,29 +45,9 @@
         "keywords": "Christian perfectionism, spiritual performance anxiety, grace, works-righteousness, scrupulosity, broken identity"
     }
     </script>
-    
-    
+
 <style>
-        :root {
-            --healing-gold: #d4a574;
-            --healing-amber: #f5e6d3;
-            --healing-glow: rgba(212, 165, 116, 0.15);
-        }
-        
-        body {
-            background-color: var(--bg-primary);
-            color: var(--text-primary);
-        }
-        
-        .hero {
-            background: linear-gradient(135deg, rgba(212, 165, 116, 0.08) 0%, rgba(245, 230, 211, 0.05) 100%);
-            border-bottom: 1px solid var(--healing-glow);
-            padding: 4rem 2rem;
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-        
-        .hero-eyebrow {
+.hero-eyebrow {
             font-size: 0.85rem;
             font-weight: 600;
             letter-spacing: 0.15em;
@@ -75,33 +55,7 @@
             text-transform: uppercase;
             margin-bottom: 1rem;
         }
-        
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2rem, 5vw, 3.5rem);
-            font-weight: 700;
-            line-height: 1.2;
-            margin: 0;
-            color: var(--text-primary);
-        }
-        
-        .hero p {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            max-width: 600px;
-            margin: 1.5rem auto 0;
-            line-height: 1.6;
-        }
-        
-        main {
-            max-width: 760px;
-            margin: 0 auto;
-            padding: 0 2rem 4rem;
-            font-size: 1.05rem;
-            line-height: 1.8;
-        }
-        
-        .reading-progress {
+.reading-progress {
             position: fixed;
             top: 0;
             left: 0;
@@ -111,29 +65,25 @@
             z-index: 1000;
             transition: width 0.1s ease;
         }
-        
-        main h2 {
+main h2 {
             font-family: 'Playfair Display', serif;
             font-size: 2rem;
             margin: 2.5rem 0 1rem;
             color: var(--text-primary);
             font-weight: 700;
         }
-        
-        main h3 {
+main h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.5rem;
             margin: 2rem 0 0.75rem;
             color: var(--text-primary);
             font-weight: 700;
         }
-        
-        main p {
+main p {
             margin-bottom: 1.5rem;
             color: var(--text-primary);
         }
-        
-        .pull-quote {
+.pull-quote {
             background: var(--healing-amber);
             border-left: 4px solid var(--healing-gold);
             padding: 1.5rem;
@@ -143,13 +93,11 @@
             color: var(--text-primary);
             line-height: 1.8;
         }
-        
-        .pull-quote strong {
+.pull-quote strong {
             color: var(--healing-gold);
             font-weight: 600;
         }
-        
-        .scripture {
+.scripture {
             background: rgba(212, 165, 116, 0.1);
             border-left: 3px solid var(--healing-gold);
             padding: 1.25rem;
@@ -159,72 +107,42 @@
             color: var(--text-primary);
             line-height: 1.8;
         }
-        
-        .scripture .verse-ref {
+.scripture .verse-ref {
             font-weight: 600;
             color: var(--healing-gold);
             display: block;
             margin-bottom: 0.5rem;
             font-size: 0.95rem;
         }
-        
-        em {
-            color: var(--text-secondary);
-            font-style: italic;
-        }
-        
-        strong {
-            color: var(--healing-gold);
-            font-weight: 600;
-        }
-        
-        a {
-            color: var(--healing-gold);
-            text-decoration: none;
-            border-bottom: 1px solid rgba(212, 165, 116, 0.3);
-            transition: all 0.2s ease;
-        }
-        
-        a:hover {
-            color: var(--text-primary);
-            border-bottom-color: var(--healing-gold);
-        }
-        
-        .cross-links {
+.cross-links {
             background: var(--healing-amber);
             padding: 2rem;
             border-radius: 8px;
             margin: 3rem 0;
         }
-        
-        .cross-links h3 {
+.cross-links h3 {
             margin-top: 0;
             color: var(--healing-gold);
             text-transform: uppercase;
             font-size: 0.95rem;
             letter-spacing: 0.1em;
         }
-        
-        .cross-links ul {
+.cross-links ul {
             list-style: none;
             padding: 0;
             margin: 0;
         }
-        
-        .cross-links li {
+.cross-links li {
             margin-bottom: 0.75rem;
         }
-        
-        .cross-links a {
+.cross-links a {
             color: var(--text-primary);
             border-bottom: 2px solid var(--healing-gold);
         }
-        
-        .cross-links a:hover {
+.cross-links a:hover {
             color: var(--healing-gold);
         }
-        
-        .closing-reflection {
+.closing-reflection {
             background: linear-gradient(135deg, rgba(212, 165, 116, 0.1) 0%, rgba(245, 230, 211, 0.05) 100%);
             padding: 2rem;
             border-radius: 8px;
@@ -233,63 +151,52 @@
             color: var(--text-primary);
             line-height: 1.8;
         }
-        
-        .keep-exploring {
+.keep-exploring {
             margin-top: 3rem;
             padding-top: 3rem;
             border-top: 1px solid var(--healing-glow);
         }
-        
-        .keep-exploring h3 {
+.keep-exploring h3 {
             margin-top: 0;
             color: var(--healing-gold);
         }
-        
-        .related-articles {
+.related-articles {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 1.5rem;
             margin-top: 1.5rem;
         }
-        
-        .related-article {
+.related-article {
             background: var(--healing-amber);
             padding: 1.5rem;
             border-radius: 8px;
             border-left: 4px solid var(--healing-gold);
             transition: all 0.3s ease;
         }
-        
-        .related-article:hover {
+.related-article:hover {
             box-shadow: 0 8px 24px rgba(212, 165, 116, 0.15);
             transform: translateY(-4px);
         }
-        
-        .related-article h4 {
+.related-article h4 {
             margin-top: 0;
             color: var(--text-primary);
             font-size: 1.05rem;
         }
-        
-        .related-article p {
+.related-article p {
             font-size: 0.95rem;
             margin-bottom: 1rem;
         }
-        
-        .related-article a {
+.related-article a {
             font-weight: 600;
             color: var(--healing-gold);
             border-bottom: 2px solid var(--healing-gold);
         }
-        
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
             main {
                 padding: 0 1.5rem 3rem;
             }
             
-            .hero {
-                padding: 3rem 1.5rem;
-            }
+            
             
             main h2 {
                 font-size: 1.5rem;
@@ -706,8 +613,7 @@
             </div>
         </div>
     </main>
-    
-    
+
     <footer>
         <div class="footer-container">
             <div class="footer-section">

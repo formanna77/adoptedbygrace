@@ -38,15 +38,14 @@
     </script>
 
     <title>Scripture Verse Explorer | Adopted by Grace</title>
-    
-    
+
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        /* Page-Specific Styles for Verse Explorer */
+/* Page-Specific Styles for Verse Explorer */
 
         .verse-explorer-hero {
             text-align: center;
@@ -55,30 +54,26 @@
             border-bottom: 1px solid var(--border-subtle);
             margin-bottom: 2rem;
         }
-
-        .verse-explorer-hero h1 {
+.verse-explorer-hero h1 {
             font-family: 'Playfair Display', serif;
             font-size: 2.5rem;
             color: var(--text-primary);
             margin-bottom: 0.5rem;
             font-weight: 700;
         }
-
-        .verse-explorer-hero p {
+.verse-explorer-hero p {
             font-size: 1.125rem;
             color: var(--text-secondary);
             max-width: 700px;
             margin: 0 auto;
             line-height: 1.6;
         }
-
-        .verse-explorer-container {
+.verse-explorer-container {
             max-width: 1200px; width: 100%;
             margin: 0 auto;
             padding: 0 1rem;
         }
-
-        /* Category Tabs */
+/* Category Tabs */
         .verse-tabs {
             display: flex;
             gap: 0.75rem;
@@ -86,8 +81,7 @@
             flex-wrap: wrap;
             justify-content: center;
         }
-
-        .verse-tab {
+.verse-tab {
             padding: 0.75rem 1.5rem;
             border: 2px solid var(--border-subtle);
             background: var(--bg-card);
@@ -101,50 +95,42 @@
             position: relative;
             overflow: hidden;
         }
-
-        .verse-tab:hover {
+.verse-tab:hover {
             background: var(--bg-card-hover);
             border-color: var(--accent-gold);
             transform: translateY(-2px);
         }
-
-        .verse-tab.active {
+.verse-tab.active {
             border-color: currentColor;
             color: var(--text-primary);
             font-weight: 700;
         }
-
-        .verse-tab[data-category="total-inability"].active {
+.verse-tab[data-category="total-inability"].active {
             border-color: var(--accent-gold);
             background: rgba(212, 162, 84, 0.1);
             box-shadow: 0 0 12px rgba(212, 162, 84, 0.2);
         }
-
-        .verse-tab[data-category="unconditional-election"].active {
+.verse-tab[data-category="unconditional-election"].active {
             border-color: var(--accent-ember);
             background: rgba(232, 100, 44, 0.1);
             box-shadow: 0 0 12px rgba(232, 100, 44, 0.2);
         }
-
-        .verse-tab[data-category="particular-redemption"].active {
+.verse-tab[data-category="particular-redemption"].active {
             border-color: var(--accent-violet);
             background: rgba(139, 92, 246, 0.1);
             box-shadow: 0 0 12px rgba(139, 92, 246, 0.2);
         }
-
-        .verse-tab[data-category="effectual-calling"].active {
+.verse-tab[data-category="effectual-calling"].active {
             border-color: #10b981;
             background: rgba(16, 185, 129, 0.1);
             box-shadow: 0 0 12px rgba(16, 185, 129, 0.2);
         }
-
-        .verse-tab[data-category="preservation"].active {
+.verse-tab[data-category="preservation"].active {
             border-color: #06b6d4;
             background: rgba(6, 182, 212, 0.1);
             box-shadow: 0 0 12px rgba(6, 182, 212, 0.2);
         }
-
-        /* Controls Section */
+/* Controls Section */
         .verse-controls {
             display: flex;
             gap: 1rem;
@@ -152,13 +138,11 @@
             flex-wrap: wrap;
             align-items: center;
         }
-
-        .verse-search {
+.verse-search {
             flex: 1;
             min-width: 250px;
         }
-
-        .verse-search input {
+.verse-search input {
             width: 100%;
             padding: 0.75rem 1rem;
             background: var(--bg-card);
@@ -169,23 +153,19 @@
             font-size: 1rem;
             transition: all 0.3s ease;
         }
-
-        .verse-search input:focus {
+.verse-search input:focus {
             outline: none;
             border-color: var(--accent-gold);
             box-shadow: 0 0 8px rgba(212, 162, 84, 0.3);
         }
-
-        .verse-search input::placeholder {
+.verse-search input::placeholder {
             color: var(--text-muted);
         }
-
-        .button-group {
+.button-group {
             display: flex;
             gap: 0.75rem;
         }
-
-        .btn-random, .btn-reset {
+.btn-random, .btn-reset {
             padding: 0.75rem 1.25rem;
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -197,14 +177,12 @@
             transition: all 0.3s ease;
             font-size: 0.95rem;
         }
-
-        .btn-random:hover, .btn-reset:hover {
+.btn-random:hover, .btn-reset:hover {
             background: var(--bg-card-hover);
             border-color: var(--accent-gold);
             transform: translateY(-2px);
         }
-
-        /* Verse Counter */
+/* Verse Counter */
         .verse-counter {
             color: var(--text-secondary);
             font-family: 'JetBrains Mono', monospace;
@@ -214,27 +192,14 @@
             border-radius: 6px;
             border: 1px solid var(--border-subtle);
         }
-
-        /* Verse Grid */
+/* Verse Grid */
         .verse-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             gap: 1.5rem;
             animation: fadeIn 0.4s ease;
         }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .verse-card {
+.verse-card {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 8px;
@@ -244,8 +209,7 @@
             position: relative;
             overflow: hidden;
         }
-
-        .verse-card::before {
+.verse-card::before {
             content: '';
             position: absolute;
             top: 0;
@@ -255,35 +219,28 @@
             background: var(--accent-gold);
             transition: all 0.3s ease;
         }
-
-        .verse-card[data-category="unconditional-election"]::before {
+.verse-card[data-category="unconditional-election"]::before {
             background: var(--accent-ember);
         }
-
-        .verse-card[data-category="particular-redemption"]::before {
+.verse-card[data-category="particular-redemption"]::before {
             background: var(--accent-violet);
         }
-
-        .verse-card[data-category="effectual-calling"]::before {
+.verse-card[data-category="effectual-calling"]::before {
             background: #10b981;
         }
-
-        .verse-card[data-category="preservation"]::before {
+.verse-card[data-category="preservation"]::before {
             background: #06b6d4;
         }
-
-        .verse-card:hover {
+.verse-card:hover {
             background: var(--bg-card-hover);
             border-color: var(--accent-gold);
             transform: translateY(-4px);
             box-shadow: 0 8px 24px rgba(212, 162, 84, 0.15);
         }
-
-        .verse-card.expanded {
+.verse-card.expanded {
             grid-column: span 1;
         }
-
-        .verse-reference {
+.verse-reference {
             font-family: 'JetBrains Mono', monospace;
             color: var(--accent-gold);
             font-size: 0.85rem;
@@ -292,8 +249,7 @@
             letter-spacing: 1px;
             margin-bottom: 0.75rem;
         }
-
-        .verse-text {
+.verse-text {
             font-family: 'Inter', sans-serif;
             color: var(--text-primary);
             font-size: 1rem;
@@ -301,28 +257,24 @@
             margin-bottom: 1rem;
             font-style: italic;
         }
-
-        .verse-text .key-phrase {
+.verse-text .key-phrase {
             background: rgba(212, 162, 84, 0.2);
             padding: 0 0.25rem;
             border-radius: 3px;
             font-weight: 600;
             color: var(--accent-gold);
         }
-
-        .verse-explanation {
+.verse-explanation {
             display: none;
             padding-top: 1rem;
             border-top: 1px solid var(--border-subtle);
             margin-top: 1rem;
         }
-
-        .verse-card.expanded .verse-explanation {
+.verse-card.expanded .verse-explanation {
             display: block;
             animation: slideDown 0.3s ease;
         }
-
-        @keyframes slideDown {
+@keyframes slideDown {
             from {
                 opacity: 0;
                 max-height: 0;
@@ -332,37 +284,31 @@
                 max-height: 500px;
             }
         }
-
-        .verse-explanation-text {
+.verse-explanation-text {
             color: var(--text-secondary);
             font-size: 0.95rem;
             line-height: 1.6;
         }
-
-        .verse-expand-indicator {
+.verse-expand-indicator {
             display: inline-block;
             margin-left: 0.5rem;
             transition: transform 0.3s ease;
             color: var(--accent-gold);
         }
-
-        .verse-card.expanded .verse-expand-indicator {
+.verse-card.expanded .verse-expand-indicator {
             transform: rotate(180deg);
         }
-
-        /* Empty State */
+/* Empty State */
         .verse-empty-state {
             text-align: center;
             padding: 3rem 1rem;
             color: var(--text-secondary);
         }
-
-        .verse-empty-state p {
+.verse-empty-state p {
             font-size: 1.1rem;
             margin-bottom: 1rem;
         }
-
-        /* Random Verse Animation */
+/* Random Verse Animation */
         @keyframes verseSpinIn {
             0% {
                 opacity: 0;
@@ -373,12 +319,10 @@
                 transform: scale(1) rotateZ(0deg);
             }
         }
-
-        .verse-card.random-highlight {
+.verse-card.random-highlight {
             animation: verseSpinIn 0.5s ease;
         }
-
-        /* Continue Journey Section */
+/* Continue Journey Section */
         .continue-journey {
             margin-top: 4rem;
             padding: 2rem;
@@ -387,28 +331,24 @@
             border-radius: 8px;
             text-align: center;
         }
-
-        .continue-journey h2 {
+.continue-journey h2 {
             font-family: 'Playfair Display', serif;
             font-size: 1.75rem;
             color: var(--text-primary);
             margin-bottom: 1.5rem;
         }
-
-        .continue-journey p {
+.continue-journey p {
             color: var(--text-secondary);
             margin-bottom: 1.5rem;
             font-size: 1rem;
         }
-
-        .journey-links {
+.journey-links {
             display: flex;
             gap: 1rem;
             flex-wrap: wrap;
             justify-content: center;
         }
-
-        .journey-link {
+.journey-link {
             padding: 0.75rem 1.5rem;
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -419,14 +359,12 @@
             transition: all 0.3s ease;
             font-size: 0.95rem;
         }
-
-        .journey-link:hover {
+.journey-link:hover {
             background: var(--bg-card-hover);
             border-color: var(--accent-gold);
             transform: translateY(-2px);
         }
-
-        /* Humor Element */
+/* Humor Element */
         .humor-note {
             text-align: center;
             margin-top: 3rem;
@@ -435,16 +373,14 @@
             border-radius: 6px;
             border: 1px dashed var(--border-subtle);
         }
-
-        .humor-note p {
+.humor-note p {
             color: var(--text-secondary);
             font-style: italic;
             font-size: 0.95rem;
             line-height: 1.6;
             margin: 0;
         }
-
-        /* Responsive */
+/* Responsive */
         @media (max-width: 768px) {
             .verse-explorer-hero h1 {
                 font-size: 1.75rem;
@@ -491,10 +427,8 @@
                 width: 100%;
             }
         }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
     </style>
 </head>
 <body>
@@ -509,10 +443,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -590,9 +522,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-
-
-
 
     <!-- Hero Section -->
     <section class="verse-explorer-hero">
@@ -687,7 +616,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     </footer>
 
     <!-- Back to Top Button -->
-    
 
     <!-- Verse Data & Interactive Script -->
     <script>

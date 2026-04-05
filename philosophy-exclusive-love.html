@@ -41,7 +41,7 @@
     </script>
 
 <style>
-        /* Philosophy Page Specific Styles */
+/* Philosophy Page Specific Styles */
 
         /* Reading Progress Bar */
         .reading-progress {
@@ -54,8 +54,7 @@
             width: 0%;
             transition: width 0.1s ease-out;
         }
-
-        /* Philosophy Visual Identity */
+/* Philosophy Visual Identity */
 
         .hero-eyebrow {
             font-family: 'JetBrains Mono', monospace;
@@ -66,8 +65,7 @@
             margin-bottom: 1rem;
             display: block;
         }
-
-        /* Section Headers with Numbers */
+/* Section Headers with Numbers */
         .section-number {
             display: inline-block;
             font-family: 'Playfair Display', serif;
@@ -78,24 +76,13 @@
             margin-right: 1rem;
             line-height: 1;
         }
-
-        .content-section h2 {
-            position: relative;
-            padding-left: 4rem;
-            font-size: clamp(1.75rem, 5vw, 2.5rem);
-            color: var(--text-primary);
-            margin-top: 4rem;
-            margin-bottom: 2rem;
-        }
-
-        .content-section h2 .section-number {
+.content-section h2 .section-number {
             position: absolute;
             left: 0;
             top: 50%;
             transform: translateY(-50%);
         }
-
-        /* Definition Box */
+/* Definition Box */
         .definition-box {
             background: rgba(212, 162, 84, 0.05);
             border: 1px solid rgba(212, 162, 84, 0.15);
@@ -104,21 +91,18 @@
             margin: 2rem 0;
             transition: all 0.3s ease;
         }
-
-        .definition-box:hover {
+.definition-box:hover {
             border-color: rgba(212, 162, 84, 0.4);
             background: rgba(212, 162, 84, 0.08);
             box-shadow: 0 8px 32px rgba(212, 162, 84, 0.1);
         }
-
-        .definition-box h3 {
+.definition-box h3 {
             color: var(--accent-gold);
             font-size: 1.25rem;
             margin-bottom: 1rem;
             font-weight: 600;
         }
-
-        /* Critical Distinction Box */
+/* Critical Distinction Box */
         .critical-distinction {
             background: linear-gradient(135deg, rgba(212, 162, 84, 0.1) 0%, rgba(232, 100, 44, 0.1) 100%);
             border: 2px solid rgba(212, 162, 84, 0.3);
@@ -127,28 +111,24 @@
             margin: 3rem 0;
             position: relative;
         }
-
-        .critical-distinction h3 {
+.critical-distinction h3 {
             color: var(--accent-gold);
             margin-top: 0;
             display: flex;
             align-items: center;
             font-size: 1.3rem;
         }
-
-        .critical-distinction h3::before {
+.critical-distinction h3::before {
             content: '●';
             margin-right: 0.75rem;
             font-size: 1.5rem;
             color: var(--accent-ember);
         }
-
-        .critical-distinction p {
+.critical-distinction p {
             color: var(--text-primary);
             line-height: 1.8;
         }
-
-        /* Two-Column Comparison */
+/* Two-Column Comparison */
         .comparison-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -156,48 +136,39 @@
             margin: 2rem 0;
             align-items: stretch;
         }
-
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
             .comparison-grid {
                 grid-template-columns: 1fr;
             }
         }
-
-        .comparison-item {
+.comparison-item {
             padding: 1.5rem;
             border-radius: 6px;
             background: rgba(212, 162, 84, 0.03);
         }
-
-        .comparison-love {
+.comparison-love {
             border-left: 3px solid var(--accent-gold);
         }
-
-        .comparison-policy {
+.comparison-policy {
             border-left: 3px solid var(--accent-ember);
         }
-
-        .comparison-item h4 {
+.comparison-item h4 {
             font-size: 1rem;
             margin-bottom: 0.75rem;
             font-weight: 600;
         }
-
-        .comparison-love h4 {
+.comparison-love h4 {
             color: var(--accent-gold);
         }
-
-        .comparison-policy h4 {
+.comparison-policy h4 {
             color: var(--accent-ember);
         }
-
-        .comparison-item p {
+.comparison-item p {
             font-size: 0.95rem;
             line-height: 1.6;
             color: var(--text-secondary);
         }
-
-        /* Pull Quotes */
+/* Pull Quotes */
         .pull-quote-container {
             margin: 3rem 0;
             padding: 2.5rem;
@@ -206,8 +177,7 @@
             border-radius: 4px;
             position: relative;
         }
-
-        .pull-quote-container::before {
+.pull-quote-container::before {
             content: '"';
             position: absolute;
             top: -20px;
@@ -217,8 +187,7 @@
             opacity: 0.3;
             font-family: 'Playfair Display', serif;
         }
-
-        .pull-quote {
+.pull-quote {
             font-size: 1.4rem;
             line-height: 1.8;
             color: var(--text-primary);
@@ -227,8 +196,7 @@
             position: relative;
             z-index: 1;
         }
-
-        /* Warning Box */
+/* Warning Box */
         .warning-box {
             background: linear-gradient(135deg, rgba(232, 100, 44, 0.1) 0%, rgba(212, 162, 84, 0.05) 100%);
             border: 1px solid rgba(232, 100, 44, 0.3);
@@ -236,27 +204,23 @@
             padding: 2rem;
             margin: 3rem 0;
         }
-
-        .warning-box h3 {
+.warning-box h3 {
             color: var(--accent-ember);
             margin-top: 0;
             font-size: 1.2rem;
         }
-
-        .warning-box p {
+.warning-box p {
             color: var(--text-primary);
             line-height: 1.8;
         }
-
-        /* Card Grid for Related Pages */
+/* Card Grid for Related Pages */
         .card-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
             margin: 3rem 0;
         }
-
-        .card {
+.card {
             background: rgba(212, 162, 84, 0.05);
             border: 1px solid rgba(212, 162, 84, 0.15);
             border-radius: 8px;
@@ -267,36 +231,31 @@
             display: flex;
             flex-direction: column;
         }
-
-        .card:hover {
+.card:hover {
             transform: translateY(-4px);
             border-color: var(--accent-gold);
             background: rgba(212, 162, 84, 0.08);
             box-shadow: 0 12px 32px rgba(212, 162, 84, 0.15);
         }
-
-        .card h3 {
+.card h3 {
             color: var(--accent-gold);
             margin-top: 0;
             margin-bottom: 0.75rem;
             font-size: 1.15rem;
         }
-
-        .card p {
+.card p {
             color: var(--text-secondary);
             font-size: 0.95rem;
             line-height: 1.6;
             flex-grow: 1;
             margin-bottom: 1rem;
         }
-
-        .card-arrow {
+.card-arrow {
             color: var(--accent-ember);
             font-weight: 600;
             font-size: 0.9rem;
         }
-
-        /* Responsive */
+/* Responsive */
         @media (max-width: 1024px) {
             .content-section h2 {
                 padding-left: 0;
@@ -381,7 +340,7 @@
     <!-- Page Hero -->
     <header class="page-hero" id="main-content">
         <div class="content-container">
-            <span class="hero-eyebrow">Philosophy of Truth</span>
+            <span class="eyebrow">Philosophy of Truth</span>
             <h1>Why <span class="accent">Exclusive Love</span> Is the Only Real Love</h1>
             <p class="subtitle">
                 A God who "loves" all people identically does not love any of them. Love by definition requires distinction. Love means you, not them. This is not cruelty—this is the very shape of love itself.

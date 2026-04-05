@@ -37,47 +37,12 @@
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        * {
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --bg-card-hover: #1a1a2e;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-        }
-        body {
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            font-family: 'Inter', sans-serif;
-            line-height: 1.8;
-            overflow-x: hidden;
-        }
-        .hero {
-            max-width: 900px;
-            margin: 3rem auto;
-            padding: 3rem 2rem;
-        }
-        .back-link {
-            display: inline-block;
-            margin-bottom: 1.5rem;
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: opacity 0.3s ease;
-        }
-        .back-link:hover {
-            opacity: 0.7;
-        }
-        .topic-label {
+.topic-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
             color: var(--accent-gold);
@@ -85,27 +50,20 @@
             letter-spacing: 0.1em;
             margin-bottom: 1rem;
         }
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.8rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-        .hero-subtitle {
+.hero-subtitle {
             font-size: 1.1rem;
             color: var(--text-secondary);
             margin-bottom: 2rem;
         }
-        .content {
+.content {
             max-width: 900px;
             margin: 0 auto;
             padding: 0 2rem 4rem;
         }
-        .section {
+.section {
             margin-bottom: 3rem;
         }
-        .section h2 {
+.section h2 {
             font-family: 'Playfair Display', serif;
             font-size: 1.8rem;
             font-weight: 700;
@@ -114,7 +72,7 @@
             border-bottom: 2px solid var(--border-subtle);
             padding-bottom: 1rem;
         }
-        .section h3 {
+.section h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.3rem;
             font-weight: 700;
@@ -122,14 +80,14 @@
             margin-bottom: 1rem;
             color: var(--text-primary);
         }
-        .section p {
+.section p {
             margin-bottom: 1.2rem;
             color: var(--text-primary);
         }
-        .section strong {
+.section strong {
             color: var(--accent-gold);
         }
-        .scripture-block { display: block;
+.scripture-block { display: block;
             background: var(--bg-card);
             border-left: 4px solid var(--accent-gold);
             padding: 1.5rem;
@@ -138,111 +96,68 @@
             color: var(--text-secondary);
             line-height: 1.9;
         }
-        .scripture-ref {
+.scripture-ref {
             display: block;
             margin-top: 1rem;
             font-style: normal;
             font-weight: 600;
             color: var(--accent-gold);
         }
-        .key-terms {
+.key-terms {
             background: var(--bg-card-hover);
             border: 1px solid var(--border-subtle);
             padding: 1.5rem;
             margin: 1.5rem 0;
             border-radius: 6px;
         }
-        .key-terms h4 {
+.key-terms h4 {
             color: var(--accent-gold);
             margin-bottom: 1rem;
             font-weight: 600;
         }
-        .key-terms ul {
+.key-terms ul {
             list-style: none;
             padding: 0;
         }
-        .key-terms li {
+.key-terms li {
             margin-bottom: 0.75rem;
             padding-left: 1.5rem;
             position: relative;
         }
-        .key-terms li:before {
+.key-terms li:before {
             content: "▸";
             position: absolute;
             left: 0;
             color: var(--accent-violet);
         }
-        .truthful-box {
+.truthful-box {
             background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(232, 100, 44, 0.1));
             border: 1px solid var(--border-subtle);
             padding: 1.5rem;
             margin: 1.5rem 0;
             border-radius: 6px;
         }
-        .truthful-box h4 {
+.truthful-box h4 {
             color: var(--accent-violet);
             margin-bottom: 0.75rem;
             font-weight: 600;
         }
-        .breadcrumb {
+.breadcrumb {
             max-width: 900px;
             margin: 3rem auto 0;
             padding: 0 2rem 1rem;
             font-size: 0.9rem;
         }
-        .breadcrumb a {
+.breadcrumb a {
             color: var(--accent-gold);
             text-decoration: none;
             transition: opacity 0.3s ease;
         }
-        .breadcrumb a:hover {
+.breadcrumb a:hover {
             opacity: 0.7;
         }
-        footer {
-            background: var(--bg-card);
-            border-top: 1px solid var(--border-subtle);
-            margin-top: 4rem;
-            padding: 3rem 2rem 1rem;
-        }
-        .footer-container {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-        .footer-section h4 {
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-            font-size: 0.95rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-        .footer-section ul {
-            list-style: none;
-        }
-        .footer-section ul li {
-            margin-bottom: 0.5rem;
-        }
-        .footer-section a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: color 0.3s ease;
-        }
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-        .footer-copyright {
-            text-align: center;
-            border-top: 1px solid var(--border-subtle);
-            padding-top: 1rem;
-            color: var(--text-muted);
-            font-size: 0.85rem;
-        }
-        .reading-progress {
+
+.reading-progress {
             position: fixed;
             top: 0;
             left: 0;
@@ -252,23 +167,9 @@
             z-index: 1001;
             transition: width 0.1s ease;
         }
-        @media (max-width: 968px) {
-            .footer-container { grid-template-columns: 1fr; text-align: center; }
-            .hero h1 {
-                font-size: 2.2rem;
-            }
-            .footer-container {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-        @media (max-width: 968px) {
-            .hero {
-                padding: 2rem 1rem;
-                margin: 2rem auto;
-            }
-            .hero h1 {
-                font-size: 1.8rem;
-            }
+@media (max-width: 968px) {
+            
+            
             .hero-subtitle {
                 font-size: 1rem;
             }
@@ -282,21 +183,16 @@
                 padding: 1rem;
                 font-size: 0.95rem;
             }
-            .footer-container {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
+            
         }
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
             .content-section { padding: 2rem 1.5rem; }
             .section-grid, .card-grid { grid-template-columns: 1fr; }
             h1 { font-size: 2rem; }
             h2 { font-size: 1.5rem; }
         }
-        @media (max-width: 480px) {
-            .hero h1 {
-                font-size: 1.5rem;
-            }
+@media (max-width: 480px) {
+            
             .hero-subtitle {
                 font-size: 0.95rem;
             }
@@ -307,7 +203,6 @@
                 font-size: 1.1rem;
             }
             }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
     </style>
@@ -325,10 +220,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -407,14 +300,11 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="search-results" id="searchResults"></div>
     </div>
 
-
-
-
     <div class="page-hero">
         <a href="/systematic-theology" class="back-link">← Back to Systematic Theology</a>
-        <p class="topic-label">Truth of Salvation</p>
+        <p class="eyebrow">Truth of Salvation</p>
         <h1>Systematic Soteriology</h1>
-        <p class="hero-subtitle">From election through glorification — Scripture's complete teaching on how God saves sinners. A comprehensive examination of salvation's ordo (order) and the monergistic grace that secures our redemption.</p>
+        <p class="subtitle">From election through glorification — Scripture's complete teaching on how God saves sinners. A comprehensive examination of salvation's ordo (order) and the monergistic grace that secures our redemption.</p>
     </div>
 
     <div class="content">
@@ -716,8 +606,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <a href="/systematic-theology">← Back to Systematic Theology</a>
     </div>
 
-    
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -801,8 +689,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </footer>
 
-    
-    
     <script src="/global.js" defer></script>
 
     <script src="/nav.js"></script>

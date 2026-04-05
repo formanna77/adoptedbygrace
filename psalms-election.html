@@ -40,58 +40,50 @@
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        .psalm-card {
+.psalm-card {
             background-color: var(--bg-card);
             border: 1px solid rgba(212, 162, 84, 0.2);
             padding: 1.5rem;
             margin: 1.5rem 0;
             border-radius: 4px;
         }
-
-        .psalm-number {
+.psalm-number {
             color: var(--accent-violet);
             font-weight: bold;
             font-size: 1.1rem;
         }
-
-        .reflection-box {
+.reflection-box {
             background-color: var(--bg-card);
             border: 1px solid rgba(139, 92, 246, 0.3);
             padding: 1.5rem;
             margin: 2rem 0;
             border-radius: 4px;
         }
-
-        .reflection-box h4 {
+.reflection-box h4 {
             color: var(--accent-violet);
             margin-bottom: 0.75rem;
             font-size: 1.1rem;
         }
-
-        .callout {
+.callout {
             background-color: rgba(232, 100, 44, 0.1);
             border-left: 4px solid var(--accent-ember);
             padding: 1rem;
             margin: 1.5rem 0;
             border-radius: 4px;
         }
-
-        .breadcrumb {
+.breadcrumb {
             color: var(--text-secondary);
             font-size: 0.9rem;
             margin-bottom: 2rem;
         }
-
-        .breadcrumb a {
+.breadcrumb a {
             color: var(--accent-gold);
             text-decoration: none;
         }
-
-        .breadcrumb a:hover {
+.breadcrumb a:hover {
             text-decoration: underline;
         }
-
-        .reading-progress {
+.reading-progress {
             position: fixed;
             top: 0;
             left: 0;
@@ -100,33 +92,30 @@
             z-index: 1001;
             width: 0%;
         }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-        /* ===== RESPONSIVE ===== */
+/* ===== RESPONSIVE ===== */
         @media (max-width: 968px) {
             .page-header h1, h1 { font-size: 2rem; }
             .page-header p, .page-intro { font-size: 1rem; }
             .content-wrapper, .article-content, .main-content { padding: 0 1.5rem; }
             .card-grid, .grid { grid-template-columns: 1fr; }
-            .footer-container { grid-template-columns: 1fr; text-align: center; }
+            
         }
-        @media (max-width: 768px) {
-            .page-hero { padding: 5rem 1.5rem 2rem; }
+@media (max-width: 768px) {
+            
             .content-section { padding: 2rem 1.5rem; }
             .section-grid, .card-grid { grid-template-columns: 1fr; }
             h1 { font-size: 2rem; }
             h2 { font-size: 1.5rem; }
         }
-        @media (max-width: 480px) {
+@media (max-width: 480px) {
             .page-header h1, h1 { font-size: 1.6rem; }
             h2 { font-size: 1.3rem; }
             .page-header { padding: 5rem 1rem 2rem; }
             .content-wrapper, .article-content, .main-content { padding: 0 1rem; }
             blockquote { padding: 1rem; margin: 1rem 0; }
         }
-
     </style>
 </head>
 <body>
@@ -142,10 +131,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -224,9 +211,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="search-results" id="searchResults"></div>
     </div>
 
-
-
-
     <main id="main-content">
         <div class="breadcrumb">
             <a href="/ot-election">OT: David</a> / Election in the Psalms
@@ -234,6 +218,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
         <article>
             <div class="page-hero">
+            <div class="eyebrow">Old Testament</div>
+
                 <h1>Election in the Psalms</h1>
                 <p class="tagline">David's Song of Being Chosen by Grace</p>
                 <p class="passage-ref">Psalm 65:4, 33:12, 135:4, 105:6</p>
@@ -402,8 +388,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </section>
 
-    
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -476,7 +460,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
     </footer>
 
-    
     <script src="/global.js" defer>
         // Mobile dropdown toggles
         const navLinks = document.querySelector('.nav-links');

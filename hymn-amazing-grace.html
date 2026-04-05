@@ -20,29 +20,12 @@
     <link rel="stylesheet" href="/global.css">
     
 <style>
-        :root {
-            --primary-dark: #0a0a0f;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --text-light: #f5f5f5;
-            --text-muted: #b0b0b0;
-            --border-subtle: #2a2a2f;
-        }
-
-        * {
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: var(--primary-dark);
-            color: var(--text-light);
-            line-height: 1.7;
-        }
-
-        /* Reading Progress Bar */
+/* Reading Progress Bar */
         .progress-bar {
             position: fixed;
             top: 0;
@@ -53,19 +36,16 @@
             width: 0%;
             transition: width 0.2s ease;
         }
-
-        /* Main Content */
+/* Main Content */
         main {
             max-width: 800px;
             margin: 0 auto;
             padding: 60px 20px;
         }
-
-        .article-header {
+.article-header {
             margin-bottom: 50px;
         }
-
-        .eyebrow {
+.eyebrow {
             display: inline-block;
             font-size: 0.75rem;
             letter-spacing: 0.15em;
@@ -74,24 +54,13 @@
             margin-bottom: 12px;
             font-weight: 600;
         }
-
-        h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3rem;
-            font-weight: 700;
-            line-height: 1.15;
-            margin-bottom: 24px;
-            color: var(--text-light);
-        }
-
-        .subtitle {
+.subtitle {
             font-size: 1.25rem;
             color: var(--text-muted);
             margin-bottom: 20px;
             font-style: italic;
         }
-
-        .article-meta {
+.article-meta {
             display: flex;
             gap: 20px;
             font-size: 0.9rem;
@@ -99,52 +68,44 @@
             border-bottom: 1px solid var(--border-subtle);
             padding-bottom: 20px;
         }
-
-        .reading-time {
+.reading-time {
             display: flex;
             align-items: center;
             gap: 6px;
         }
-
-        /* Content Sections */
+/* Content Sections */
         .section {
             margin-bottom: 50px;
         }
-
-        .section h2 {
+.section h2 {
             font-family: 'Playfair Display', serif;
             font-size: 2rem;
             margin-bottom: 24px;
             margin-top: 40px;
             color: var(--text-light);
         }
-
-        .section h3 {
+.section h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.5rem;
             margin-bottom: 16px;
             margin-top: 32px;
             color: var(--accent-gold);
         }
-
-        .section p {
+.section p {
             margin-bottom: 20px;
             color: var(--text-light);
         }
-
-        .section a {
+.section a {
             color: var(--accent-gold);
             text-decoration: none;
             border-bottom: 1px solid var(--accent-gold);
             transition: color 0.2s ease;
         }
-
-        .section a:hover {
+.section a:hover {
             color: var(--accent-ember);
             border-bottom-color: var(--accent-ember);
         }
-
-        /* Hymn Analysis Sections */
+/* Hymn Analysis Sections */
         .verse-analysis {
             background: rgba(212, 162, 84, 0.05);
             border-left: 3px solid var(--accent-gold);
@@ -152,8 +113,7 @@
             margin: 32px 0;
             border-radius: 4px;
         }
-
-        .verse-quote {
+.verse-quote {
             font-style: italic;
             color: var(--accent-gold);
             font-size: 1.1rem;
@@ -161,27 +121,23 @@
             font-family: 'Playfair Display', serif;
             line-height: 1.6;
         }
-
-        .verse-breakdown {
+.verse-breakdown {
             margin-top: 16px;
         }
-
-        .verse-point {
+.verse-point {
             margin-bottom: 12px;
             padding-left: 20px;
             position: relative;
             color: var(--text-light);
         }
-
-        .verse-point:before {
+.verse-point:before {
             content: '→';
             position: absolute;
             left: 0;
             color: var(--accent-ember);
             font-weight: bold;
         }
-
-        /* Pull Quotes */
+/* Pull Quotes */
         .pull-quote {
             border-left: 4px solid var(--accent-ember);
             padding: 24px 24px 24px 32px;
@@ -192,16 +148,14 @@
             line-height: 1.8;
             font-family: 'Playfair Display', serif;
         }
-
-        .quote-attribution {
+.quote-attribution {
             font-size: 0.9rem;
             font-style: normal;
             color: var(--text-muted);
             margin-top: 12px;
             text-align: right;
         }
-
-        /* Callout Boxes */
+/* Callout Boxes */
         .callout {
             background: rgba(232, 100, 44, 0.08);
             border: 1px solid rgba(232, 100, 44, 0.3);
@@ -209,23 +163,19 @@
             border-radius: 4px;
             margin: 32px 0;
         }
-
-        .callout h4 {
+.callout h4 {
             color: var(--accent-ember);
             margin-bottom: 12px;
             font-size: 1.1rem;
         }
-
-        .callout p {
+.callout p {
             color: var(--text-light);
             margin-bottom: 10px;
         }
-
-        .callout p:last-child {
+.callout p:last-child {
             margin-bottom: 0;
         }
-
-        /* Scripture Block */
+/* Scripture Block */
         .scripture-block { display: block;
             background: rgba(212, 162, 84, 0.05);
             border-left: 3px solid var(--accent-gold);
@@ -235,34 +185,29 @@
             line-height: 1.8;
             color: var(--text-light);
         }
-
-        .scripture-ref { display: block;
+.scripture-ref { display: block;
             color: var(--accent-gold);
             font-size: 0.85rem;
             font-weight: 600;
             margin-top: 12px;
         }
-
-        /* Keep Reading Section */
+/* Keep Reading Section */
         .keep-reading {
             margin-top: 80px;
             padding-top: 60px;
             border-top: 1px solid var(--border-subtle);
         }
-
-        .keep-reading h3 {
+.keep-reading h3 {
             font-size: 1.5rem;
             margin-bottom: 32px;
         }
-
-        .article-cards {
+.article-cards {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 24px;
             margin-bottom: 40px;
         }
-
-        .article-card {
+.article-card {
             background: rgba(212, 162, 84, 0.08);
             border: 1px solid rgba(212, 162, 84, 0.2);
             padding: 24px;
@@ -272,40 +217,34 @@
             text-decoration: none;
             transition: all 0.3s ease;
         }
-
-        .article-card:hover {
+.article-card:hover {
             background: rgba(232, 100, 44, 0.1);
             border-color: rgba(232, 100, 44, 0.3);
             transform: translateY(-4px);
         }
-
-        .article-card-title {
+.article-card-title {
             font-family: 'Playfair Display', serif;
             font-size: 1.2rem;
             color: var(--accent-gold);
             margin-bottom: 12px;
             font-weight: 600;
         }
-
-        .article-card-desc {
+.article-card-desc {
             color: var(--text-muted);
             font-size: 0.95rem;
             flex-grow: 1;
             margin-bottom: 16px;
         }
-
-        .article-card-link {
+.article-card-link {
             color: var(--accent-ember);
             font-size: 0.9rem;
             font-weight: 600;
             text-decoration: none;
         }
-
-        .article-card-link:hover {
+.article-card-link:hover {
             text-decoration: underline;
         }
-
-        /* Responsive */
+/* Responsive */
         @media (max-width: 768px) {
             h1 {
                 font-size: 2rem;
@@ -336,13 +275,9 @@
                 grid-template-columns: 1fr;
             }
         }
-
-        /* Dark theme enhancements */
+/* Dark theme enhancements */
         @media (prefers-color-scheme: dark) {
-            body {
-                background: var(--primary-dark);
-                color: var(--text-light);
-            }
+            
         }
     </style>
 </head>
@@ -420,7 +355,7 @@
                 <span class="eyebrow">Hymn Analysis</span>
                 <h1>Amazing Grace: The Hymn That Proves What You Already Believe</h1>
                 <p class="subtitle">You've been singing sovereign grace your whole life. You just didn't know it.</p>
-                <div class="article-meta">
+                <div class="eyebrow">
                     <div class="reading-time">
                         <span>⏱</span>
                         <span>12 min read</span>

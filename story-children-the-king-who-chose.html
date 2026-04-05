@@ -38,24 +38,9 @@
     }
     </script>
 
-    
 <style>
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-        }
-        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.9; }
-
-        .reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet)); z-index: 9999; width: 0%; transition: width 0.1s ease; }
-
-        .story-hero {
+.reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet)); z-index: 9999; width: 0%; transition: width 0.1s ease; }
+.story-hero {
             position: relative;
             padding: 10rem 2rem 5rem;
             text-align: left;
@@ -63,7 +48,7 @@
             margin: 0 auto;
             overflow: hidden;
         }
-        .story-hero::before {
+.story-hero::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
@@ -71,7 +56,7 @@
                         radial-gradient(ellipse at 70% 70%, rgba(139, 92, 246, 0.06) 0%, transparent 40%);
             pointer-events: none;
         }
-        .story-badge {
+.story-badge {
             display: inline-block;
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
@@ -83,15 +68,15 @@
             border-radius: 3px;
             margin-bottom: 1.2rem;
         }
-        .story-hero h1 {
+.story-hero h1 {
             font-family: 'Playfair Display', serif;
             font-size: clamp(2.2rem, 5.5vw, 3.5rem);
             line-height: 1.15;
             color: var(--text-primary);
             font-weight: 900;
         }
-        .story-hero h1 .gold { color: var(--accent-gold); }
-        .story-hero .subtitle {
+.story-hero h1 .gold { color: var(--accent-gold); }
+.story-hero .subtitle {
             font-size: 1.1rem;
             color: var(--text-secondary);
             max-width: 620px;
@@ -99,21 +84,17 @@
             line-height: 1.7;
             font-style: italic;
         }
-        .reading-time {
+.reading-time {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.8rem;
             color: var(--text-muted);
             margin-top: 1rem;
         }
-
-        .story-wrap { max-width: 720px; margin: 0 auto; padding: 0 2rem 4rem; }
-
-        .story-wrap p { margin-bottom: 1.5rem; font-size: 1.08rem; line-height: 1.9; }
-        .story-wrap p.scene-break { text-align: center; color: var(--accent-gold); font-size: 1.5rem; margin: 2.5rem 0; letter-spacing: 0.5em; }
-
-        .story-wrap .first-word { font-variant: small-caps; font-size: 1.15em; letter-spacing: 0.05em; color: var(--accent-gold); }
-
-        .pullquote {
+.story-wrap { max-width: 720px; margin: 0 auto; padding: 0 2rem 4rem; }
+.story-wrap p { margin-bottom: 1.5rem; font-size: 1.08rem; line-height: 1.9; }
+.story-wrap p.scene-break { text-align: center; color: var(--accent-gold); font-size: 1.5rem; margin: 2.5rem 0; letter-spacing: 0.5em; }
+.story-wrap .first-word { font-variant: small-caps; font-size: 1.15em; letter-spacing: 0.05em; color: var(--accent-gold); }
+.pullquote {
             font-family: 'Playfair Display', serif;
             font-size: 1.3rem;
             color: var(--accent-gold);
@@ -125,8 +106,7 @@
             line-height: 1.5;
             font-style: italic;
         }
-
-        .scripture {
+.scripture {
             background: var(--bg-card);
             border-left: 3px solid var(--accent-gold);
             padding: 1.2rem 1.5rem;
@@ -137,7 +117,7 @@
             font-size: 1.08rem;
             line-height: 1.7;
         }
-        .scripture .ref {
+.scripture .ref {
             display: block;
             margin-top: 0.6rem;
             font-style: normal;
@@ -146,73 +126,70 @@
             color: var(--accent-gold);
             letter-spacing: 0.05em;
         }
-
-        .truth-section {
+.truth-section {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 12px;
             padding: 2.5rem;
             margin: 3rem 0;
         }
-        .truth-section h3 {
+.truth-section h3 {
             font-family: 'Playfair Display', serif;
             color: var(--accent-gold);
             font-size: 1.3rem;
             margin-bottom: 1.2rem;
         }
-        .truth-section p {
+.truth-section p {
             font-size: 1rem;
             line-height: 1.8;
             color: var(--text-secondary);
             margin-bottom: 1rem;
         }
-        .truth-section p:last-child { margin-bottom: 0; }
-        .truth-section a { color: var(--accent-gold); text-decoration: underline; text-underline-offset: 2px; }
-        .truth-section a:hover { color: var(--accent-ember); }
-
-        .discussion-section {
+.truth-section p:last-child { margin-bottom: 0; }
+.truth-section a { color: var(--accent-gold); text-decoration: underline; text-underline-offset: 2px; }
+.truth-section a:hover { color: var(--accent-ember); }
+.discussion-section {
             background: rgba(139, 92, 246, 0.06);
             border: 1px solid rgba(139, 92, 246, 0.15);
             border-radius: 12px;
             padding: 2.5rem;
             margin: 2rem 0 3rem;
         }
-        .discussion-section h3 {
+.discussion-section h3 {
             font-family: 'Playfair Display', serif;
             color: var(--accent-violet);
             font-size: 1.2rem;
             margin-bottom: 1.2rem;
         }
-        .discussion-section ol {
+.discussion-section ol {
             padding-left: 1.5rem;
             color: var(--text-secondary);
         }
-        .discussion-section li {
+.discussion-section li {
             margin-bottom: 0.8rem;
             font-size: 1rem;
             line-height: 1.7;
         }
-
-        .keep-reading {
+.keep-reading {
             padding: 4rem 2rem;
             background: linear-gradient(135deg, rgba(212, 162, 84, 0.04), rgba(139, 92, 246, 0.04));
             border-top: 1px solid var(--border-subtle);
         }
-        .keep-reading h2 {
+.keep-reading h2 {
             font-family: 'Playfair Display', serif;
             color: var(--accent-gold);
             font-size: 1.6rem;
             text-align: center;
             margin-bottom: 2rem;
         }
-        .keep-reading-grid {
+.keep-reading-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 1.2rem;
             max-width: 900px;
             margin: 0 auto;
         }
-        .keep-reading-card {
+.keep-reading-card {
             display: block;
             background: rgba(255,255,255,0.03);
             border: 1px solid var(--border-subtle);
@@ -221,8 +198,8 @@
             text-decoration: none;
             transition: all 0.3s ease;
         }
-        .keep-reading-card:hover { background: rgba(255,255,255,0.06); border-color: rgba(212, 162, 84, 0.3); }
-        .keep-reading-card .card-eyebrow {
+.keep-reading-card:hover { background: rgba(255,255,255,0.06); border-color: rgba(212, 162, 84, 0.3); }
+.keep-reading-card .card-eyebrow {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.7rem;
             text-transform: uppercase;
@@ -230,14 +207,12 @@
             color: var(--accent-violet);
             margin-bottom: 0.5rem;
         }
-        .keep-reading-card h3 { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--accent-gold); margin-bottom: 0.4rem; }
-        .keep-reading-card p { font-size: 0.88rem; color: var(--text-secondary); margin: 0; line-height: 1.5; }
-
-        .footer-site { text-align: center; padding: 3rem 2rem; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid var(--border-subtle); }
-        .footer-site a { color: var(--text-secondary); text-decoration: none; }
-        .footer-site a:hover { color: var(--accent-gold); }
-
-        @media (max-width: 600px) {
+.keep-reading-card h3 { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--accent-gold); margin-bottom: 0.4rem; }
+.keep-reading-card p { font-size: 0.88rem; color: var(--text-secondary); margin: 0; line-height: 1.5; }
+.footer-site { text-align: center; padding: 3rem 2rem; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid var(--border-subtle); }
+.footer-site a { color: var(--text-secondary); text-decoration: none; }
+.footer-site a:hover { color: var(--accent-gold); }
+@media (max-width: 600px) {
             .story-hero { padding: 8rem 1.2rem 3rem; }
             .story-wrap { padding: 0 1.2rem 3rem; }
             .truth-section, .discussion-section { padding: 1.5rem; }
@@ -313,14 +288,12 @@
         <div class="search-results" id="searchResults"></div>
     </div>
 
-
 <div class="story-hero">
     <span class="story-badge">Children's Story &middot; Ages 6&ndash;12</span>
     <h1>The King Who <span class="gold">Chose</span> His Children</h1>
     <p class="subtitle">A fairy tale about a King who doesn't wait to be asked. He walks into the orphanage himself&mdash;because that is what love does.</p>
     <p class="reading-time">8 min read &middot; Read it aloud together</p>
 </div>
-
 
 <div class="story-wrap">
 
@@ -503,7 +476,6 @@
 
 </div>
 
-
 <div class="story-wrap">
 
 <div class="truth-section">
@@ -526,7 +498,6 @@
 
 </div>
 
-
 <div class="keep-reading">
     <h2>Keep Reading</h2>
     <div class="keep-reading-grid">
@@ -547,7 +518,6 @@
         </a>
     </div>
 </div>
-
 
 <footer class="footer-site">
     <p>&copy; 2026 <a href="/">Adopted by Grace</a> &mdash; <a href="/about">About</a> &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></p>

@@ -42,25 +42,14 @@
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        /* Story-specific styles */
+/* Story-specific styles */
         .story-header {
             max-width: 720px;
             margin: 0 auto;
             padding: 4rem 2rem 2rem;
             text-align: center;
         }
-
-        .back-link {
-            display: inline-block;
-            margin-bottom: 2rem;
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: opacity 0.3s ease;
-        }
-        .back-link:hover { opacity: 0.7; }
-
-        .story-type-label {
+.story-type-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.72rem;
             text-transform: uppercase;
@@ -69,8 +58,7 @@
             opacity: 0.7;
             margin-bottom: 1.2rem;
         }
-
-        .story-header h1 {
+.story-header h1 {
             font-family: 'Playfair Display', serif;
             font-size: clamp(2.2rem, 5vw, 3rem);
             font-weight: 800;
@@ -79,39 +67,34 @@
             margin-bottom: 1.2rem;
             color: var(--text-primary);
         }
-
-        .story-header .subtitle {
+.story-header .subtitle {
             font-family: 'Playfair Display', serif;
             font-style: italic;
             font-size: 1.15rem;
             color: var(--text-secondary);
             line-height: 1.6;
         }
-
-        .story-divider {
+.story-divider {
             width: 60px;
             height: 2px;
             background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
             margin: 2.5rem auto;
             border: none;
         }
-
-        /* Story Body */
+/* Story Body */
         .story-body {
             max-width: 680px;
             margin: 0 auto;
             padding: 0 2rem 3rem;
         }
-
-        .story-body p {
+.story-body p {
             font-size: 1.08rem;
             line-height: 1.95;
             color: var(--text-primary);
             margin-bottom: 1.6rem;
             text-indent: 0;
         }
-
-        .story-body p.scene-break {
+.story-body p.scene-break {
             text-align: center;
             margin: 2.5rem 0;
             color: var(--accent-gold);
@@ -120,8 +103,7 @@
             letter-spacing: 0.5em;
             text-indent: 0;
         }
-
-        .story-body .first-letter::first-letter {
+.story-body .first-letter::first-letter {
             font-family: 'Playfair Display', serif;
             font-size: 3.8rem;
             float: left;
@@ -131,18 +113,15 @@
             color: var(--accent-gold);
             font-weight: 800;
         }
-
-        .story-body em {
+.story-body em {
             font-style: italic;
             color: var(--text-primary);
         }
-
-        .story-body strong {
+.story-body strong {
             color: var(--accent-gold);
             font-weight: 600;
         }
-
-        .story-body .chapter-heading {
+.story-body .chapter-heading {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.7rem;
             text-transform: uppercase;
@@ -152,8 +131,7 @@
             margin-top: 3rem;
             text-indent: 0;
         }
-
-        .story-body .whisper {
+.story-body .whisper {
             font-style: italic;
             color: var(--accent-gold);
             text-align: center;
@@ -163,8 +141,7 @@
             margin: 2rem 0;
             padding: 0 1rem;
         }
-
-        .story-body .paper-text {
+.story-body .paper-text {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.88rem;
             color: var(--text-secondary);
@@ -175,19 +152,16 @@
             line-height: 1.9;
             border-radius: 0 6px 6px 0;
         }
-
-        .story-body .paper-text em {
+.story-body .paper-text em {
             color: var(--accent-gold);
         }
-
-        /* Truth Section */
+/* Truth Section */
         .truth-section {
             max-width: 680px;
             margin: 0 auto;
             padding: 0 2rem 3rem;
         }
-
-        .truth-box {
+.truth-box {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 8px;
@@ -195,50 +169,43 @@
             position: relative;
             overflow: hidden;
         }
-
-        .truth-box::before {
+.truth-box::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
             height: 2px;
             background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
         }
-
-        .truth-box h2 {
+.truth-box h2 {
             font-family: 'Playfair Display', serif;
             font-size: 1.5rem;
             margin-bottom: 1.2rem;
             color: var(--accent-gold);
         }
-
-        .truth-box p {
+.truth-box p {
             font-size: 1rem;
             line-height: 1.8;
             color: var(--text-secondary);
             margin-bottom: 1rem;
         }
-
-        .truth-box p:last-child {
+.truth-box p:last-child {
             margin-bottom: 0;
         }
-
-        .verse-block {
+.verse-block {
             border-left: 3px solid var(--accent-gold);
             padding: 1rem 1.5rem;
             margin: 1.5rem 0;
             background: rgba(212, 162, 84, 0.04);
             border-radius: 0 6px 6px 0;
         }
-
-        .verse-block p {
+.verse-block p {
             font-family: 'Playfair Display', serif;
             font-style: italic;
             font-size: 1rem;
             line-height: 1.7;
             color: var(--text-primary);
         }
-
-        .verse-block cite {
+.verse-block cite {
             display: block;
             margin-top: 0.5rem;
             font-family: 'JetBrains Mono', monospace;
@@ -247,62 +214,34 @@
             font-style: normal;
             letter-spacing: 0.05em;
         }
-
-        /* Share Section */
+/* Share Section */
         .share-section {
             text-align: center;
             padding: 2rem;
             max-width: 680px;
             margin: 0 auto;
         }
-        .share-section p {
+.share-section p {
             font-family: 'Playfair Display', serif;
             font-style: italic;
             color: var(--text-secondary);
             font-size: 1.05rem;
         }
-        .share-section .share-sub {
+.share-section .share-sub {
             font-family: 'Inter', sans-serif;
             font-style: normal;
             font-size: 0.85rem;
             color: var(--text-muted);
             margin-top: 0.5rem;
         }
-
-        .share-buttons {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 0.8rem;
-            margin: 1.5rem auto 3rem;
-        }
-        .share-label {
+.share-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.7rem;
             text-transform: uppercase;
             letter-spacing: 0.2em;
             color: var(--text-muted);
         }
-        .share-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 36px; height: 36px;
-            border-radius: 50%;
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.85rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        .share-btn:hover {
-            border-color: var(--accent-gold);
-            color: var(--accent-gold);
-        }
-
-        /* Reading Progress */
+/* Reading Progress */
         .reading-progress {
             position: fixed;
             top: 0;
@@ -313,14 +252,12 @@
             width: 0%;
             transition: width 0.1s linear;
         }
-
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
             .story-header { padding: 3rem 1.5rem 1.5rem; }
             .story-body { padding: 0 1.5rem 2rem; }
             .truth-section { padding: 0 1.5rem 2rem; }
             .story-body .first-letter::first-letter { font-size: 3rem; }
         }
-
     </style>
 </head>
 <body>
@@ -336,10 +273,8 @@
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -417,9 +352,6 @@
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-
-
-
 
     <!-- Story Header -->
     <header class="story-header" id="main-content">
@@ -770,7 +702,6 @@
     </section>
 
     <!-- Footer -->
-    
 
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
@@ -854,8 +785,7 @@
             &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
         </div>
     </footer>
-    
-    
+
     <script>
     (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
     </script>

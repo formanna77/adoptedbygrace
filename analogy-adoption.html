@@ -31,87 +31,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        .hero {
-            background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(51, 65, 85, 0.95));
-            padding: 80px 20px;
-            text-align: center;
-            color: white;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3em;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-
-        .hero p {
-            font-size: 1.3em;
-            margin-bottom: 30px;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1.6;
-            opacity: 0.95;
-        }
-
-        .hero blockquote {
-            font-style: italic;
-            font-size: 1.1em;
-            border-left: 4px solid #d4a254;
-            padding-left: 20px;
-            margin: 30px auto;
-            max-width: 600px;
-        }
-
-        .content-section {
-            max-width: 800px;
-            margin: 60px auto;
-            padding: 0 20px;
-        }
-
-        .content-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.2em;
-            margin-top: 50px;
-            margin-bottom: 20px;
-            color: #f0ece4;
-        }
-
-        .content-section h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.5em;
-            margin-top: 40px;
-            margin-bottom: 15px;
-            color: #f0ece4;
-        }
-
-        .content-section p {
-            line-height: 1.8;
-            margin-bottom: 18px;
-            color: #9a958c;
-            font-size: 1.05em;
-        }
-
-        .content-section blockquote {
+.content-section blockquote {
             border-left: 4px solid #d4a254;
             padding-left: 24px;
             margin: 25px 0;
             font-style: italic;
             color: #9a958c;
         }
-
-        .reveal {
+.reveal {
             opacity: 1;
             animation: fadeInUp 0.6s ease-out forwards;
         }
-
-        @keyframes fadeInUp {
+@keyframes fadeInUp {
             from {
                 opacity: 0;
                 transform: translateY(20px);
@@ -121,48 +56,41 @@
                 transform: translateY(0);
             }
         }
-
-        .emphasis {
+.emphasis {
             font-weight: 600;
             color: #f0ece4;
         }
-
-        .scripture-ref {
+.scripture-ref {
             color: #9a958c;
             font-size: 0.95em;
         }
-
-        .highlight-box {
+.highlight-box {
             background: #12121a;
             border-left: 4px solid #d4a254;
             padding: 20px;
             margin: 30px 0;
             border-radius: 4px;
         }
-
-        .highlight-box p {
+.highlight-box p {
             margin-bottom: 0;
         }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-        /* ===== RESPONSIVE ===== */
+/* ===== RESPONSIVE ===== */
         @media (max-width: 968px) {
             .page-header h1, h1 { font-size: 2rem; }
             .page-header p, .page-intro { font-size: 1rem; }
             .content-wrapper, .article-content, .main-content { padding: 0 1.5rem; }
             .card-grid, .grid { grid-template-columns: 1fr; }
-            .footer-container { grid-template-columns: 1fr; text-align: center; }
+            
         }
-        @media (max-width: 480px) {
+@media (max-width: 480px) {
             .page-header h1, h1 { font-size: 1.6rem; }
             h2 { font-size: 1.3rem; }
             .page-header { padding: 5rem 1rem 2rem; }
             .content-wrapper, .article-content, .main-content { padding: 0 1rem; }
             blockquote { padding: 1rem; margin: 1rem 0; }
         }
-
     </style>
 </head>
 <body>
@@ -176,10 +104,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -258,10 +184,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="search-results" id="searchResults"></div>
     </div>
 
-
-
-
     <div class="page-hero">
+    <div class="eyebrow">Analogy</div>
+
         <h1>Did You Choose God, or Did God Choose You?</h1>
         <p>A baby doesn't choose its parents—and a baby cannot possibly choose being rescued from an orphanage. So the question for your soul is the same: Did you actually choose God, or is that the most dangerous illusion the human heart can tell itself?</p>
         <blockquote>
@@ -370,7 +295,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             </div>
         </div>
 
-
         <div class="content-section reveal">
             <h2>The New Name</h2>
             <p>
@@ -464,8 +388,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </section>
 
-    
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -510,7 +432,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   </div>
 </section>
 <!-- RELATED-ARTICLES-END -->
-
 
     <section class="further-reading" style="max-width: 800px; margin: 60px auto; padding: 0 20px;">
       <h2 style="font-family: 'Playfair Display', serif; font-size: 1.8em; color: #d4a254; margin-bottom: 25px;">Keep Reading</h2>

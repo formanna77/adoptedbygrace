@@ -41,7 +41,7 @@
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        .history-card {
+.history-card {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 12px;
@@ -50,14 +50,14 @@
             position: relative;
             overflow: hidden;
         }
-        .history-card::before {
+.history-card::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
             height: 3px;
             background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
         }
-        .history-card .era-label {
+.history-card .era-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.68rem;
             text-transform: uppercase;
@@ -65,18 +65,18 @@
             color: var(--accent-gold);
             margin-bottom: 0.5rem;
         }
-        .history-card h4 {
+.history-card h4 {
             color: var(--text-primary);
             margin-bottom: 0.8rem;
             font-size: 1.15rem;
         }
-        .history-card p {
+.history-card p {
             color: var(--text-secondary);
             font-size: 0.95rem;
             line-height: 1.8;
             margin-bottom: 0;
         }
-        .history-card .scripture-echo {
+.history-card .scripture-echo {
             margin-top: 1rem;
             padding-top: 1rem;
             border-top: 1px solid var(--border-subtle);
@@ -84,12 +84,12 @@
             color: var(--accent-gold);
             font-size: 0.9rem;
         }
-        .convergence-list {
+.convergence-list {
             list-style: none;
             padding: 0;
             margin: 2rem 0;
         }
-        .convergence-list li {
+.convergence-list li {
             background: var(--bg-card);
             border-left: 3px solid var(--accent-gold);
             padding: 1.2rem 1.5rem;
@@ -99,12 +99,12 @@
             font-size: 0.95rem;
             line-height: 1.7;
         }
-        .convergence-list li strong {
+.convergence-list li strong {
             color: var(--text-primary);
             display: block;
             margin-bottom: 0.3rem;
         }
-        .humor-aside {
+.humor-aside {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.78rem;
             color: var(--text-muted);
@@ -112,27 +112,27 @@
             margin: 1.5rem 0;
             letter-spacing: 0.02em;
         }
-        .empire-grid {
+.empire-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 1.5rem;
             margin: 2rem 0;
         }
-        .empire-box {
+.empire-box {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 10px;
             padding: 1.8rem;
             text-align: center;
         }
-        .empire-box .empire-name {
+.empire-box .empire-name {
             font-family: 'Playfair Display', serif;
             font-size: 1.1rem;
             color: var(--text-primary);
             font-weight: 700;
             margin-bottom: 0.3rem;
         }
-        .empire-box .empire-dates {
+.empire-box .empire-dates {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.72rem;
             color: var(--accent-gold);
@@ -140,19 +140,17 @@
             letter-spacing: 0.15em;
             margin-bottom: 0.8rem;
         }
-        .empire-box p {
+.empire-box p {
             color: var(--text-secondary);
             font-size: 0.88rem;
             line-height: 1.7;
             margin: 0;
         }
-        @media (max-width: 600px) {
+@media (max-width: 600px) {
             .empire-grid { grid-template-columns: 1fr; }
         }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
     </style>
 </head>
 <body>
@@ -169,10 +167,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -251,14 +247,13 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="search-results" id="searchResults"></div>
     </div>
 
-
-
-
 <main id="main-content">
 <article>
 
 <div class="page-hero">
     <span class="label-gold">Secular Evidence &mdash; History</span>
+    <div class="eyebrow">Secular Evidence</div>
+
     <h1>The History<br><span class="text-gradient">of Sovereignty</span></h1>
     <p class="subtitle">When secular historians keep documenting patterns that only a sovereign God can explain</p>
 </div>
@@ -441,8 +436,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 </article>
 </main>
 
-
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -514,7 +507,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
 </footer>
-
 
 <script src="/global.js" defer>
         // Mobile dropdown toggles

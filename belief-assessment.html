@@ -28,31 +28,27 @@
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        /* Assessment-specific interactive styles */
+/* Assessment-specific interactive styles */
         .assessment-container {
             max-width: 800px;
             margin: 0 auto;
             padding: 3rem 2rem;
         }
-
-        .assessment-header {
+.assessment-header {
             text-align: center;
             margin-bottom: 2rem;
         }
-
-        .assessment-header h1 {
+.assessment-header h1 {
             font-size: 2.5rem;
             margin-bottom: 0.5rem;
             color: var(--text-primary);
         }
-
-        .assessment-subtitle {
+.assessment-subtitle {
             font-size: 1.1rem;
             color: var(--text-secondary);
             margin-bottom: 1rem;
         }
-
-        .assessment-disclaimer {
+.assessment-disclaimer {
             background: rgba(139, 92, 246, 0.08);
             border-left: 4px solid var(--accent-violet);
             padding: 1rem;
@@ -61,43 +57,36 @@
             color: var(--text-secondary);
             font-size: 0.95rem;
         }
-
-        /* Progress bar */
+/* Progress bar */
         .progress-bar-container {
             margin-bottom: 2rem;
         }
-
-        .progress-bar {
+.progress-bar {
             height: 4px;
             background: var(--bg-card);
             border-radius: 2px;
             overflow: hidden;
             margin-bottom: 0.5rem;
         }
-
-        .progress-fill {
+.progress-fill {
             height: 100%;
             background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
             transition: width 0.4s ease;
         }
-
-        .progress-text {
+.progress-text {
             font-size: 0.85rem;
             color: var(--text-muted);
             text-align: right;
         }
-
-        /* Question container */
+/* Question container */
         .question-container {
             display: none;
         }
-
-        .question-container.active {
+.question-container.active {
             display: block;
             animation: slideIn 0.3s ease;
         }
-
-        @keyframes slideIn {
+@keyframes slideIn {
             from {
                 opacity: 0;
                 transform: translateY(10px);
@@ -107,23 +96,20 @@
                 transform: translateY(0);
             }
         }
-
-        .question-number {
+.question-number {
             font-size: 0.9rem;
             color: var(--accent-gold);
             margin-bottom: 0.5rem;
             font-weight: 600;
         }
-
-        .question-text {
+.question-text {
             font-size: 1.3rem;
             font-weight: 500;
             color: var(--text-primary);
             margin-bottom: 1.5rem;
             line-height: 1.6;
         }
-
-        .question-category {
+.question-category {
             display: inline-block;
             background: rgba(212, 162, 84, 0.1);
             color: var(--accent-gold);
@@ -132,27 +118,23 @@
             font-size: 0.8rem;
             margin-bottom: 1rem;
         }
-
-        /* Answer options */
+/* Answer options */
         .answer-options {
             display: flex;
             flex-direction: column;
             gap: 1rem;
             margin-bottom: 2rem;
         }
-
-        .answer-option {
+.answer-option {
             position: relative;
             cursor: pointer;
         }
-
-        .answer-option input[type="radio"] {
+.answer-option input[type="radio"] {
             position: absolute;
             opacity: 0;
             cursor: pointer;
         }
-
-        .answer-label {
+.answer-label {
             display: block;
             padding: 1.25rem;
             border: 1px solid var(--border-subtle);
@@ -163,8 +145,7 @@
             position: relative;
             padding-left: 2.5rem;
         }
-
-        .answer-label::before {
+.answer-label::before {
             content: '';
             position: absolute;
             left: 1rem;
@@ -176,89 +157,74 @@
             border-radius: 50%;
             transition: all 0.2s ease;
         }
-
-        .answer-option input[type="radio"]:checked + .answer-label {
+.answer-option input[type="radio"]:checked + .answer-label {
             border-color: var(--accent-gold);
             background: rgba(212, 162, 84, 0.08);
             box-shadow: 0 0 12px rgba(212, 162, 84, 0.15);
         }
-
-        .answer-option input[type="radio"]:checked + .answer-label::before {
+.answer-option input[type="radio"]:checked + .answer-label::before {
             border-color: var(--accent-gold);
             background: var(--accent-gold);
         }
-
-        .answer-label:hover {
+.answer-label:hover {
             border-color: var(--accent-gold);
             background: rgba(212, 162, 84, 0.04);
         }
-
-        .answer-letter {
+.answer-letter {
             font-weight: 600;
             color: var(--accent-gold);
             display: block;
             margin-bottom: 0.25rem;
             font-size: 0.9rem;
         }
-
-        .answer-text {
+.answer-text {
             color: var(--text-primary);
             line-height: 1.5;
         }
-
-        .btn-submit {
+.btn-submit {
             background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
             color: var(--bg-deep);
             border: none;
             font-weight: 600;
             flex: 2;
         }
-
-        .btn-submit:hover:not(:disabled) {
+.btn-submit:hover:not(:disabled) {
             transform: translateY(-2px);
             box-shadow: 0 8px 24px rgba(232, 100, 44, 0.3);
         }
-
-        /* Results section */
+/* Results section */
         .results-container {
             display: none;
         }
-
-        .results-container.active {
+.results-container.active {
             display: block;
             animation: slideIn 0.3s ease;
         }
-
-        .results-header {
+.results-header {
             text-align: center;
             margin-bottom: 2rem;
         }
-
-        .results-title {
+.results-title {
             font-size: 2rem;
             color: var(--text-primary);
             margin-bottom: 0.5rem;
         }
-
-        .results-subtitle {
+.results-subtitle {
             font-size: 1.1rem;
             color: var(--text-secondary);
         }
-
-        /* Radar chart container */
+/* Radar chart container */
         .chart-container {
             margin: 2rem 0;
             text-align: center;
         }
-
-        .radar-canvas {
+.radar-canvas {
             max-width: 100%;
             height: auto;
             margin: 0 auto;
             display: block;
         }
-
-        /* Theological profile */
+/* Theological profile */
         .profile-card {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -266,69 +232,59 @@
             border-radius: 12px;
             margin-bottom: 2rem;
         }
-
-        .profile-title {
+.profile-title {
             font-size: 1.3rem;
             font-weight: 600;
             color: var(--accent-gold);
             margin-bottom: 1rem;
         }
-
-        .profile-description {
+.profile-description {
             color: var(--text-primary);
             line-height: 1.8;
             font-size: 1.05rem;
         }
-
-        /* Truth breakdown */
+/* Truth breakdown */
         .truth-breakdown {
             margin-bottom: 2rem;
         }
-
-        .truth-item {
+.truth-item {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             padding: 1.5rem;
             margin-bottom: 1rem;
             border-radius: 8px;
         }
-
-        .truth-name {
+.truth-name {
             font-size: 1.1rem;
             font-weight: 600;
             color: var(--accent-gold);
             margin-bottom: 0.75rem;
         }
-
-        .truth-position {
+.truth-position {
             color: var(--text-primary);
             margin-bottom: 1rem;
             line-height: 1.6;
         }
-
-        .truth-scripture {
+.truth-scripture {
             background: rgba(139, 92, 246, 0.08);
             padding: 0.75rem;
             border-radius: 4px;
             margin-bottom: 1rem;
             border-left: 3px solid var(--accent-violet);
         }
-
-        .truth-scripture-label {
+.truth-scripture-label {
             font-size: 0.85rem;
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 0.5px;
             margin-bottom: 0.5rem;
         }
-
-        .truth-scripture-text {
+.truth-scripture-text {
             color: var(--text-primary);
             font-style: italic;
             line-height: 1.6;
         }
-
-        .truth-link {
+.truth-link {
             display: inline-block;
             color: var(--accent-gold);
             text-decoration: none;
@@ -338,12 +294,10 @@
             border-radius: 4px;
             transition: all 0.2s ease;
         }
-
-        .truth-link:hover {
+.truth-link:hover {
             background: rgba(212, 162, 84, 0.1);
         }
-
-        /* Reading path */
+/* Reading path */
         .reading-path {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -351,21 +305,18 @@
             border-radius: 12px;
             margin-bottom: 2rem;
         }
-
-        .reading-path-title {
+.reading-path-title {
             font-size: 1.3rem;
             font-weight: 600;
             color: var(--accent-gold);
             margin-bottom: 1.5rem;
         }
-
-        .reading-path-items {
+.reading-path-items {
             display: flex;
             flex-direction: column;
             gap: 1rem;
         }
-
-        .path-item {
+.path-item {
             padding: 1rem;
             background: var(--bg-deep);
             border: 1px solid var(--border-subtle);
@@ -374,8 +325,7 @@
             align-items: center;
             gap: 1rem;
         }
-
-        .path-item-number {
+.path-item-number {
             min-width: 2.5rem;
             width: 2.5rem;
             height: 2.5rem;
@@ -387,34 +337,28 @@
             color: var(--bg-deep);
             font-weight: 600;
         }
-
-        .path-item-content {
+.path-item-content {
             flex: 1;
         }
-
-        .path-item-link {
+.path-item-link {
             color: var(--accent-gold);
             text-decoration: none;
             font-weight: 500;
         }
-
-        .path-item-link:hover {
+.path-item-link:hover {
             text-decoration: underline;
         }
-
-        .path-item-description {
+.path-item-description {
             color: var(--text-secondary);
             font-size: 0.9rem;
             margin-top: 0.25rem;
         }
-
-        /* Share results */
+/* Share results */
         .share-container {
             text-align: center;
             margin-bottom: 2rem;
         }
-
-        .btn-share {
+.btn-share {
             padding: 0.875rem 2rem;
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -424,13 +368,11 @@
             font-weight: 500;
             transition: all 0.2s ease;
         }
-
-        .btn-share:hover {
+.btn-share:hover {
             border-color: var(--accent-gold);
             background: rgba(212, 162, 84, 0.08);
         }
-
-        .share-feedback {
+.share-feedback {
             display: none;
             margin-top: 1rem;
             padding: 1rem;
@@ -438,12 +380,10 @@
             border-radius: 6px;
             color: var(--accent-violet);
         }
-
-        .share-feedback.show {
+.share-feedback.show {
             display: block;
         }
-
-        /* Journey section */
+/* Journey section */
         .continue-journey {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -451,21 +391,18 @@
             border-radius: 12px;
             margin-top: 3rem;
         }
-
-        .journey-title {
+.journey-title {
             font-size: 1.3rem;
             font-weight: 600;
             color: var(--accent-gold);
             margin-bottom: 1.5rem;
         }
-
-        .journey-links {
+.journey-links {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1rem;
         }
-
-        .journey-link {
+.journey-link {
             padding: 1rem;
             background: var(--bg-deep);
             border: 1px solid var(--border-subtle);
@@ -476,13 +413,11 @@
             text-align: center;
             font-weight: 500;
         }
-
-        .journey-link:hover {
+.journey-link:hover {
             border-color: var(--accent-gold);
             background: rgba(212, 162, 84, 0.04);
         }
-
-        /* Responsive */
+/* Responsive */
         @media (max-width: 640px) {
             .assessment-container {
                 padding: 2rem 1rem;
@@ -504,10 +439,8 @@
                 grid-template-columns: 1fr;
             }
         }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
     </style>
 </head>
 <body>
@@ -522,10 +455,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -603,9 +534,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-
-
-
 
     <!-- Main Content -->
     <main id="main-content" class="assessment-container">
@@ -715,8 +643,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
         <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
     </footer>
-
-    
 
     <!-- Assessment Logic -->
     <script>

@@ -47,29 +47,8 @@
     }
     </script>
 
-    
 <style>
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --bg-card-hover: #1a1a2e;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-        }
-
-        body {
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            font-family: 'Inter', sans-serif;
-            line-height: 1.8;
-        }
-
-        .reading-progress {
+.reading-progress {
             position: fixed;
             top: 0;
             left: 0;
@@ -79,16 +58,7 @@
             z-index: 9999;
             transition: width 0.1s ease;
         }
-
-        .hero {
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.08) 0%, rgba(212, 162, 84, 0.04) 100%);
-            border-bottom: 1px solid var(--border-subtle);
-            padding: 5rem 2rem 3rem;
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .hero-eyebrow {
+.hero-eyebrow {
             font-size: 0.85rem;
             letter-spacing: 0.15em;
             text-transform: uppercase;
@@ -96,85 +66,32 @@
             margin-bottom: 1rem;
             font-weight: 600;
         }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.4rem;
-            font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: 1.5rem;
-            color: var(--text-primary);
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .hero p {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            max-width: 700px;
-            margin: 0 auto;
-            line-height: 1.7;
-        }
-
-        .reading-time {
+.reading-time {
             font-size: 0.85rem;
             color: var(--text-muted);
             margin-top: 1rem;
         }
-
-        main {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 2rem 4rem;
-        }
-
-        h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            font-weight: 700;
-            margin: 3rem 0 1.5rem;
-            color: var(--text-primary);
-            border-left: 3px solid var(--accent-violet);
-            padding-left: 1.5rem;
-        }
-
-        h3 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin: 2rem 0 1rem;
-            color: var(--text-primary);
-        }
-
-        p {
-            margin-bottom: 1.5rem;
-            font-size: 1.05rem;
-        }
-
-        .scripture-block { display: block;
+.scripture-block { display: block;
             background: var(--bg-card);
             border-left: 3px solid var(--accent-gold);
             padding: 1.5rem 2rem;
             margin: 2rem 0;
             border-radius: 0 8px 8px 0;
         }
-
-        .scripture-ref {
+.scripture-ref {
             display: block;
             font-size: 0.85rem;
             color: var(--accent-gold);
             margin-bottom: 0.5rem;
             font-weight: 600;
         }
-
-        .scripture-text {
+.scripture-text {
             display: block;
             font-style: italic;
             color: var(--text-primary);
             line-height: 1.7;
         }
-
-        .pullquote {
+.pullquote {
             font-family: 'Playfair Display', serif;
             font-size: 1.45rem;
             line-height: 1.5;
@@ -186,8 +103,7 @@
             text-align: center;
             font-weight: 700;
         }
-
-        .pastoral-whisper {
+.pastoral-whisper {
             background: linear-gradient(135deg, rgba(139, 92, 246, 0.08) 0%, rgba(212, 162, 84, 0.06) 100%);
             border: 1px solid rgba(139, 92, 246, 0.2);
             border-radius: 8px;
@@ -197,58 +113,49 @@
             color: var(--text-secondary);
             line-height: 1.8;
         }
-
-        .three-world {
+.three-world {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 8px;
             padding: 1.5rem 2rem;
             margin: 1.5rem 0;
         }
-
-        .three-world h3 {
+.three-world h3 {
             margin-top: 0;
             font-size: 1.1rem;
         }
-
-        .three-world p {
+.three-world p {
             font-size: 0.98rem;
             color: var(--text-secondary);
         }
-
-        .grace-card {
+.grace-card {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 8px;
             padding: 1.5rem 2rem;
             margin: 1.5rem 0;
         }
-
-        .grace-card h3 {
+.grace-card h3 {
             color: var(--accent-gold);
             margin-top: 0;
             font-size: 1.1rem;
         }
-
-        .grace-card p {
+.grace-card p {
             font-size: 0.98rem;
             color: var(--text-secondary);
         }
-
-        .keep-reading {
+.keep-reading {
             margin-top: 4rem;
             padding-top: 2rem;
             border-top: 1px solid var(--border-subtle);
         }
-
-        .keep-reading-title {
+.keep-reading-title {
             font-family: 'Playfair Display', serif;
             font-size: 1.4rem;
             margin-bottom: 1.5rem;
             color: var(--text-primary);
         }
-
-        .article-link {
+.article-link {
             display: block;
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -258,19 +165,16 @@
             text-decoration: none;
             transition: all 0.2s ease;
         }
-
-        .article-link:hover {
+.article-link:hover {
             background: var(--bg-card-hover);
             border-color: var(--accent-violet);
         }
-
-        .article-link-title {
+.article-link-title {
             font-weight: 600;
             color: var(--accent-violet);
             margin-bottom: 0.25rem;
         }
-
-        .article-link-desc {
+.article-link-desc {
             font-size: 0.9rem;
             color: var(--text-muted);
         }
@@ -345,7 +249,7 @@
     </div>
 
     <div class="page-hero">
-        <div class="hero-eyebrow">The Invisible Wall &middot; Healing</div>
+        <div class="eyebrow">The Invisible Wall &middot; Healing</div>
         <h1>When Your Family Can't Follow You Here</h1>
         <p>The hardest wall isn't the one between you and a stranger. It's the one that appeared — quietly, without permission — between you and the people who share your last name.</p>
         <div class="reading-time">8 min read</div>

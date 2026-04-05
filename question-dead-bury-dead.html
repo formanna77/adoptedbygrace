@@ -70,99 +70,89 @@
     <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        .hero { max-width: 900px; margin: 3rem auto; padding: 3rem 2rem; }
-        .topic-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; }
-        .hero h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
-        .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.7; }
-        .back-link { display: inline-block; margin-bottom: 1.5rem; color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; transition: opacity 0.3s ease; }
-        .back-link:hover { opacity: 0.7; }
-        .content { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
-        .section { margin-bottom: 4rem; scroll-margin-top: 200px; }
-        .section h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 1.5rem; color: var(--accent-gold); }
-        .section h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 1rem; margin-top: 2.5rem; color: var(--text-primary); }
-        .section p { margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 1.8; }
-        blockquote { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
-        .scripture-ref { display: block; margin-top: 1rem; font-style: normal; color: var(--text-muted); font-size: 0.9rem; }
-        .greek-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin: 2rem 0; }
-        .greek-box { background: var(--bg-card); border: 1px solid var(--border-subtle); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 1.5rem; }
-        .greek-word { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.5rem; }
-        .greek-translation { font-size: 0.95rem; color: var(--accent-ember); font-weight: 600; margin-bottom: 1rem; }
-        .greek-explanation { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; }
-        .key-insight { background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.08)); border: 2px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2rem 0; }
-        .key-insight-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.75rem; }
-        .key-insight p { color: var(--text-primary); font-size: 1.05rem; line-height: 1.8; margin-bottom: 0; }
-        .two-deaths { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0; }
-        .death-column { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2rem; position: relative; }
-        .death-column.spiritual { border-top: 4px solid var(--accent-ember); }
-        .death-column.physical { border-top: 4px solid var(--accent-gold); }
-        .death-column h4 { font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 1rem; }
-        .death-column.spiritual h4 { color: var(--accent-ember); }
-        .death-column.physical h4 { color: var(--accent-gold); }
-        .death-column p { color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem; margin-bottom: 0.75rem; }
-        .death-column .who { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; }
-        .verse-anatomy { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2.5rem; margin: 2rem 0; }
-        .verse-anatomy .verse-text { font-family: 'Playfair Display', serif; font-size: 1.6rem; line-height: 1.6; color: var(--text-primary); text-align: center; margin-bottom: 2rem; }
-        .verse-anatomy .word-dead-1 { color: var(--accent-ember); font-weight: 800; text-decoration: underline; text-decoration-color: var(--accent-ember); text-underline-offset: 4px; }
-        .verse-anatomy .word-dead-2 { color: var(--accent-gold); font-weight: 800; text-decoration: underline; text-decoration-color: var(--accent-gold); text-underline-offset: 4px; }
-        .objection-container { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; margin: 2rem 0; overflow: hidden; }
-        .objection-header { background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(139, 92, 246, 0.05)); border-bottom: 1px solid var(--border-subtle); padding: 1.5rem; font-weight: 600; color: var(--accent-ember); }
-        .objection-header::before { content: '\2694 OBJECTION: '; margin-right: 0.5rem; }
-        .answer-header { background: linear-gradient(135deg, rgba(212, 162, 84, 0.1), rgba(139, 92, 246, 0.05)); border-top: 1px solid var(--border-subtle); padding: 1.5rem; font-weight: 600; color: var(--accent-gold); }
-        .answer-header::before { content: '\2713 ANSWER: '; margin-right: 0.5rem; }
-        .objection-body, .answer-body { padding: 1.5rem; color: var(--text-secondary); line-height: 1.8; }
-        .chain-link { display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.5rem 0; padding: 1.5rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; }
-        .chain-link .chain-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; min-width: 120px; padding-top: 0.2rem; }
-        .chain-link .chain-text { color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem; }
-        .chain-link .chain-text em { color: var(--text-primary); font-style: italic; }
-        .verdict-box { background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(212, 162, 84, 0.1)); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2.5rem; margin: 2rem 0; text-align: center; }
-        .verdict-quote { font-family: 'Playfair Display', serif; font-size: 1.4rem; line-height: 1.7; color: var(--text-primary); margin-bottom: 1rem; }
-        .cross-ref { color: var(--accent-gold); text-decoration: none; border-bottom: 1px dotted var(--accent-gold); transition: color 0.3s ease, border-color 0.3s ease; }
-        .cross-ref:hover { color: var(--accent-ember); border-bottom-color: var(--accent-ember); }
-        .next-article { max-width: 900px; margin: 4rem auto; padding: 2rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; text-align: center; }
-        .next-article a { color: var(--accent-gold); text-decoration: none; font-weight: 600; transition: color 0.3s ease; }
-        .next-article a:hover { color: var(--accent-ember); }
-        .share-buttons { display: flex; gap: 0.75rem; align-items: center; margin: 2rem 0; padding: 1.5rem; background: var(--bg-card); border: 1px solid rgba(212, 162, 84, 0.12); border-radius: 8px; }
-        .share-buttons .share-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--text-secondary); margin-right: 0.5rem; }
-        .share-btn { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(212, 162, 84, 0.2); background: transparent; color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease; cursor: pointer; }
-        .share-btn:hover { background: rgba(212, 162, 84, 0.12); border-color: var(--accent-gold); transform: translateY(-2px); }
-        .share-btn svg { width: 18px; height: 18px; fill: currentColor; }
-        .related-explore { max-width: 900px; margin: 3rem auto; padding: 2rem; border-top: 2px solid rgba(212, 168, 83, 0.2); }
-        .related-explore h3 { font-family: 'Playfair Display', serif; color: var(--accent-gold); font-size: 1.3rem; margin-bottom: 1.2rem; }
-        .related-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; }
-        .related-explore-grid a { display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 168, 83, 0.15); border-radius: 12px; color: var(--text-primary); text-decoration: none; font-size: 0.9rem; font-family: 'Inter', sans-serif; transition: all 0.3s; }
-        .related-explore-grid a:hover { border-color: var(--accent-gold); background: rgba(212, 168, 83, 0.08); transform: translateY(-1px); }
-        .related-explore-grid a h4 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.4rem; }
-        .related-explore-grid a p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.4; }
-        @media (max-width: 1024px) {
-            .hero h1 { font-size: 1.8rem; }
+.topic-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1rem; }
+.hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.7; }
+.content { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+.section { margin-bottom: 4rem; scroll-margin-top: 200px; }
+.section h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 1.5rem; color: var(--accent-gold); }
+.section h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 1rem; margin-top: 2.5rem; color: var(--text-primary); }
+.section p { margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 1.8; }
+.scripture-ref { display: block; margin-top: 1rem; font-style: normal; color: var(--text-muted); font-size: 0.9rem; }
+.greek-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin: 2rem 0; }
+.greek-box { background: var(--bg-card); border: 1px solid var(--border-subtle); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 1.5rem; }
+.greek-word { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.5rem; }
+.greek-translation { font-size: 0.95rem; color: var(--accent-ember); font-weight: 600; margin-bottom: 1rem; }
+.greek-explanation { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; }
+.key-insight { background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.08)); border: 2px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2rem 0; }
+.key-insight-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.75rem; }
+.key-insight p { color: var(--text-primary); font-size: 1.05rem; line-height: 1.8; margin-bottom: 0; }
+.two-deaths { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0; }
+.death-column { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2rem; position: relative; }
+.death-column.spiritual { border-top: 4px solid var(--accent-ember); }
+.death-column.physical { border-top: 4px solid var(--accent-gold); }
+.death-column h4 { font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 1rem; }
+.death-column.spiritual h4 { color: var(--accent-ember); }
+.death-column.physical h4 { color: var(--accent-gold); }
+.death-column p { color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem; margin-bottom: 0.75rem; }
+.death-column .who { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; }
+.verse-anatomy { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2.5rem; margin: 2rem 0; }
+.verse-anatomy .verse-text { font-family: 'Playfair Display', serif; font-size: 1.6rem; line-height: 1.6; color: var(--text-primary); text-align: center; margin-bottom: 2rem; }
+.verse-anatomy .word-dead-1 { color: var(--accent-ember); font-weight: 800; text-decoration: underline; text-decoration-color: var(--accent-ember); text-underline-offset: 4px; }
+.verse-anatomy .word-dead-2 { color: var(--accent-gold); font-weight: 800; text-decoration: underline; text-decoration-color: var(--accent-gold); text-underline-offset: 4px; }
+.objection-container { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; margin: 2rem 0; overflow: hidden; }
+.objection-header { background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(139, 92, 246, 0.05)); border-bottom: 1px solid var(--border-subtle); padding: 1.5rem; font-weight: 600; color: var(--accent-ember); }
+.objection-header::before { content: '\2694 OBJECTION: '; margin-right: 0.5rem; }
+.answer-header { background: linear-gradient(135deg, rgba(212, 162, 84, 0.1), rgba(139, 92, 246, 0.05)); border-top: 1px solid var(--border-subtle); padding: 1.5rem; font-weight: 600; color: var(--accent-gold); }
+.answer-header::before { content: '\2713 ANSWER: '; margin-right: 0.5rem; }
+.objection-body, .answer-body { padding: 1.5rem; color: var(--text-secondary); line-height: 1.8; }
+.chain-link { display: flex; align-items: flex-start; gap: 1.5rem; margin: 1.5rem 0; padding: 1.5rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; }
+.chain-link .chain-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; min-width: 120px; padding-top: 0.2rem; }
+.chain-link .chain-text { color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem; }
+.chain-link .chain-text em { color: var(--text-primary); font-style: italic; }
+.verdict-box { background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(212, 162, 84, 0.1)); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2.5rem; margin: 2rem 0; text-align: center; }
+.verdict-quote { font-family: 'Playfair Display', serif; font-size: 1.4rem; line-height: 1.7; color: var(--text-primary); margin-bottom: 1rem; }
+.cross-ref { color: var(--accent-gold); text-decoration: none; border-bottom: 1px dotted var(--accent-gold); transition: color 0.3s ease, border-color 0.3s ease; }
+.cross-ref:hover { color: var(--accent-ember); border-bottom-color: var(--accent-ember); }
+.next-article { max-width: 900px; margin: 4rem auto; padding: 2rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; text-align: center; }
+.next-article a { color: var(--accent-gold); text-decoration: none; font-weight: 600; transition: color 0.3s ease; }
+.next-article a:hover { color: var(--accent-ember); }
+
+.related-explore { max-width: 900px; margin: 3rem auto; padding: 2rem; border-top: 2px solid rgba(212, 168, 83, 0.2); }
+.related-explore h3 { font-family: 'Playfair Display', serif; color: var(--accent-gold); font-size: 1.3rem; margin-bottom: 1.2rem; }
+.related-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; }
+.related-explore-grid a { display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 168, 83, 0.15); border-radius: 12px; color: var(--text-primary); text-decoration: none; font-size: 0.9rem; font-family: 'Inter', sans-serif; transition: all 0.3s; }
+.related-explore-grid a:hover { border-color: var(--accent-gold); background: rgba(212, 168, 83, 0.08); transform: translateY(-1px); }
+.related-explore-grid a h4 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.4rem; }
+.related-explore-grid a p { font-size: 0.9rem; color: var(--text-secondary); margin: 0; line-height: 1.4; }
+@media (max-width: 1024px) {
+            
             .section h2 { font-size: 1.5rem; }
             .section h3 { font-size: 1.2rem; }
             blockquote { padding: 1.5rem; font-size: 0.95rem; }
             .greek-grid { grid-template-columns: 1fr; }
             .two-deaths { grid-template-columns: 1fr; }
-            .hero { padding: 2rem 1.2rem; margin: 1.5rem auto; }
+            
             .content { padding: 0 1.2rem; }
         }
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
             .section { margin-bottom: 3rem !important; }
             .next-article { margin: 2.5rem auto !important; }
-            .hero { padding: 2rem 1.5rem !important; }
+            
             .content { padding: 0 1.5rem !important; }
-            .hero h1 { font-size: 1.8rem !important; }
+            
             .section h2 { font-size: 1.5rem !important; }
         }
-        @media (max-width: 480px) {
+@media (max-width: 480px) {
             .section { margin-bottom: 2rem !important; }
             .next-article { margin: 2rem auto !important; padding: 1.5rem !important; }
-            .hero { padding: 1.5rem 1rem !important; margin: 1rem auto !important; }
+            
             .content { padding: 0 1rem !important; }
-            .hero h1 { font-size: 1.5rem !important; }
+            
             .section h2 { font-size: 1.2rem !important; }
             .verse-anatomy .verse-text { font-size: 1.2rem; }
         }
-        *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-        a:focus-visible { outline-offset: 3px; }
-        button:focus-visible { outline-offset: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible { outline-offset: 2px; }
     </style>
 </head>
 <body>
@@ -179,10 +169,8 @@
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -267,9 +255,9 @@
 
     <div class="page-hero">
         <a href="/questions" class="back-link">&larr; Back to Questions</a>
-        <div class="topic-label">Scripture &middot; Total Depravity &middot; The Words of Jesus</div>
+        <div class="eyebrow">Scripture &middot; Total Depravity &middot; The Words of Jesus</div>
         <h1>What Did Jesus Mean by &ldquo;Let the Dead Bury the Dead&rdquo;?</h1>
-        <p class="hero-subtitle">In a single sentence, Jesus split the human race in two. Not into good and bad. Not into religious and secular. Into the <strong>living</strong> and the <strong>dead</strong>. And the dead don&rsquo;t know they&rsquo;re dead.</p>
+        <p class="subtitle">In a single sentence, Jesus split the human race in two. Not into good and bad. Not into religious and secular. Into the <strong>living</strong> and the <strong>dead</strong>. And the dead don&rsquo;t know they&rsquo;re dead.</p>
     </div>
 
     <div class="content">

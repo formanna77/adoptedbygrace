@@ -41,26 +41,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-    
 
   <link rel="stylesheet" href="/global.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-    /* Story-specific styling */
+/* Story-specific styling */
     .story-container {
       max-width: 900px;
       margin: 0 auto;
       padding: 2rem;
     }
-
-    .story-header {
+.story-header {
       text-align: center;
       margin-bottom: 3rem;
       padding-bottom: 2rem;
       border-bottom: 1px solid rgba(217, 119, 6, 0.3);
     }
-
-    .story-title {
+.story-title {
       font-family: 'Playfair Display', serif;
       font-size: 3rem;
       font-weight: 700;
@@ -68,52 +65,44 @@
       margin: 0 0 1rem 0;
       line-height: 1.2;
     }
-
-    .story-subtitle {
+.story-subtitle {
       font-family: 'Inter', sans-serif;
       font-size: 1.1rem;
       color: #b8a397;
       font-style: italic;
       margin: 0;
     }
-
-    .story-content {
+.story-content {
       font-family: 'Inter', sans-serif;
       font-size: 1.1rem;
       line-height: 1.8;
       color: #e8e0d5;
     }
-
-    .story-content p {
+.story-content p {
       margin-bottom: 1.5rem;
       text-align: justify;
     }
-
-    .story-content .scene-break {
+.story-content .scene-break {
       text-align: center;
       margin: 3rem 0;
       color: #d97706;
       font-size: 1.5rem;
     }
-
-    .parable-unveiled {
+.parable-unveiled {
       margin-top: 4rem;
       padding-top: 3rem;
       border-top: 2px solid rgba(217, 119, 6, 0.4);
     }
-
-    .parable-unveiled h2 {
+.parable-unveiled h2 {
       font-family: 'Playfair Display', serif;
       font-size: 2rem;
       color: #d97706;
       margin-bottom: 2rem;
     }
-
-    .mapping-section {
+.mapping-section {
       margin-bottom: 2.5rem;
     }
-
-    .mapping-section h3 {
+.mapping-section h3 {
       font-family: 'Inter', sans-serif;
       font-size: 1.2rem;
       color: #f5e6d3;
@@ -121,67 +110,57 @@
       text-transform: uppercase;
       letter-spacing: 0.1em;
     }
-
-    .mapping-item {
+.mapping-item {
       background: rgba(217, 119, 6, 0.08);
       padding: 1.5rem;
       margin-bottom: 1rem;
       border-left: 4px solid #d97706;
       border-radius: 0.25rem;
     }
-
-    .mapping-item strong {
+.mapping-item strong {
       color: #fbbf24;
     }
-
-    .truth-grid {
+.truth-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 1.5rem;
       margin-top: 1.5rem;
     }
-
-    .truth-card {
+.truth-card {
       background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(217, 119, 6, 0.1));
       border: 1px solid rgba(217, 119, 6, 0.3);
       padding: 1.5rem;
       border-radius: 0.5rem;
     }
-
-    .truth-card h4 {
+.truth-card h4 {
       font-family: 'Playfair Display', serif;
       color: #d97706;
       margin: 0 0 0.75rem 0;
       font-size: 1.1rem;
     }
-
-    .truth-card p {
+.truth-card p {
       margin: 0;
       font-size: 0.95rem;
       line-height: 1.6;
       color: #d1c5b8;
     }
-
-    .further-reading {
+.further-reading {
       margin-top: 4rem;
       padding-top: 3rem;
       border-top: 1px solid rgba(217, 119, 6, 0.3);
     }
-
-    .further-reading h2 {
+.further-reading h2 {
       font-family: 'Playfair Display', serif;
       font-size: 1.8rem;
       color: #f5e6d3;
       margin-bottom: 2rem;
     }
-
-    .reading-cards {
+.reading-cards {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 1.5rem;
     }
-
-    .reading-card {
+.reading-card {
       background: rgba(10, 10, 15, 0.6);
       border: 1px solid rgba(217, 119, 6, 0.4);
       padding: 1.5rem;
@@ -189,33 +168,28 @@
       transition: all 0.3s ease;
       text-decoration: none;
     }
-
-    .reading-card:hover {
+.reading-card:hover {
       background: rgba(217, 119, 6, 0.15);
       border-color: #d97706;
       transform: translateY(-2px);
     }
-
-    .reading-card:focus-visible {
+.reading-card:focus-visible {
       outline: 2px solid #d97706;
       outline-offset: 2px;
     }
-
-    .reading-card h3 {
+.reading-card h3 {
       font-family: 'Playfair Display', serif;
       color: #fbbf24;
       margin: 0 0 0.75rem 0;
       font-size: 1.1rem;
     }
-
-    .reading-card p {
+.reading-card p {
       margin: 0;
       font-size: 0.95rem;
       color: #b8a397;
       line-height: 1.5;
     }
-
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
       .story-container {
         padding: 1.5rem;
       }
@@ -232,7 +206,6 @@
         font-size: 1.5rem;
       }
     }
-
     </style>
 </head>
 <body class="dark-theme">
@@ -249,10 +222,8 @@
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -330,9 +301,6 @@
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-
-
-
 
   <div class="breadcrumb-nav"><a href="stories.html">&larr; Back to Stories</a></div>
 
@@ -611,7 +579,6 @@
   </main>
 
   <!-- Footer -->
-  
 
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">

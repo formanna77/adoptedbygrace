@@ -37,13 +37,7 @@
 
     <!-- Page-specific styles -->
     <style>
-        :root {
-            --philosophy-gold: #d4a574;
-            --philosophy-gold-light: rgba(212, 165, 116, 0.15);
-            --philosophy-gold-dim: rgba(212, 165, 116, 0.08);
-        }
-
-        /* Reading progress bar */
+/* Reading progress bar */
         .reading-progress-bar {
             position: fixed;
             top: 0;
@@ -53,58 +47,21 @@
             z-index: 9999;
             width: 0;
         }
-
-        /* Page hero section */
-        .page-hero {
-            padding: 6rem 2rem 4rem;
-            margin-bottom: 3rem;
-            text-align: center;
-        }
-
-        .page-hero .eyebrow {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            font-weight: 600;
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            color: var(--philosophy-gold);
-            margin-bottom: 1rem;
-            opacity: 0.95;
-        }
-
-        .page-hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2.2rem, 6vw, 3.5rem);
-            font-weight: 700;
-            line-height: 1.15;
-            margin-bottom: 1.2rem;
-            color: #fff;
-        }
-
-        .page-hero .subtitle {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            color: rgba(255, 255, 255, 0.85);
-            max-width: 45rem;
-            margin: 0 auto;
-            font-weight: 300;
-        }
-
-        /* Main content */
+/* Page hero section */
+        
+/* Main content */
         .content-main {
             max-width: 50rem;
             margin: 0 auto;
             padding: 0 2rem;
         }
-
-        /* Section styling */
+/* Section styling */
         .section {
             margin-bottom: 4rem;
             animation: revealOnScroll 0.8s ease-out forwards;
             opacity: 0;
         }
-
-        .section-number {
+.section-number {
             font-family: 'Playfair Display', serif;
             font-size: 3.5rem;
             font-weight: 700;
@@ -113,8 +70,7 @@
             margin-bottom: 0.5rem;
             opacity: 0.6;
         }
-
-        .section-title {
+.section-title {
             font-family: 'Playfair Display', serif;
             font-size: 1.85rem;
             font-weight: 700;
@@ -122,31 +78,26 @@
             color: #fff;
             line-height: 1.3;
         }
-
-        .section-body {
+.section-body {
             font-size: 1.05rem;
             line-height: 1.75;
             color: rgba(255, 255, 255, 0.88);
             margin-bottom: 1.5rem;
         }
-
-        .section-body p {
+.section-body p {
             margin-bottom: 1.2rem;
         }
-
-        .section-body a {
+.section-body a {
             color: var(--philosophy-gold);
             text-decoration: none;
             border-bottom: 1px solid rgba(212, 165, 116, 0.4);
             transition: all 0.2s ease;
         }
-
-        .section-body a:hover {
+.section-body a:hover {
             border-bottom-color: var(--philosophy-gold);
             color: #fff;
         }
-
-        /* Pull quotes */
+/* Pull quotes */
         .pull-quote {
             margin: 2rem 0;
             padding: 1.5rem 1.5rem 1.5rem 2rem;
@@ -158,16 +109,14 @@
             color: rgba(255, 255, 255, 0.92);
             font-family: 'Georgia', serif;
         }
-
-        .pull-quote::before {
+.pull-quote::before {
             content: '"';
             font-size: 2.5rem;
             color: var(--philosophy-gold);
             line-height: 0.5;
             margin-right: 0.5rem;
         }
-
-        /* Concept cards */
+/* Concept cards */
         .concept-card {
             background: rgba(212, 165, 116, 0.06);
             border: 1px solid var(--philosophy-gold-light);
@@ -175,8 +124,7 @@
             border-radius: 8px;
             margin: 2rem 0;
         }
-
-        .concept-card-label {
+.concept-card-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
             font-weight: 600;
@@ -185,44 +133,38 @@
             color: var(--philosophy-gold);
             margin-bottom: 0.8rem;
         }
-
-        .concept-card-title {
+.concept-card-title {
             font-family: 'Playfair Display', serif;
             font-size: 1.3rem;
             font-weight: 700;
             margin-bottom: 0.8rem;
             color: #fff;
         }
-
-        .concept-card-text {
+.concept-card-text {
             font-size: 0.95rem;
             line-height: 1.7;
             color: rgba(255, 255, 255, 0.85);
         }
-
-        /* Keep reading section */
+/* Keep reading section */
         .keep-reading {
             margin-top: 5rem;
             padding: 3rem 0 0;
             border-top: 1px solid rgba(212, 165, 116, 0.2);
         }
-
-        .keep-reading-title {
+.keep-reading-title {
             font-family: 'Playfair Display', serif;
             font-size: 1.8rem;
             font-weight: 700;
             margin-bottom: 2.5rem;
             color: #fff;
         }
-
-        .reading-card-grid {
+.reading-card-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
             margin-bottom: 3rem;
         }
-
-        .reading-card {
+.reading-card {
             background: rgba(212, 165, 116, 0.05);
             border: 1px solid rgba(212, 165, 116, 0.15);
             padding: 1.8rem;
@@ -233,14 +175,12 @@
             display: flex;
             flex-direction: column;
         }
-
-        .reading-card:hover {
+.reading-card:hover {
             background: rgba(212, 165, 116, 0.1);
             border-color: var(--philosophy-gold);
             transform: translateY(-4px);
         }
-
-        .reading-card-tag {
+.reading-card-tag {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.65rem;
             font-weight: 600;
@@ -249,8 +189,7 @@
             color: var(--philosophy-gold);
             margin-bottom: 0.8rem;
         }
-
-        .reading-card-title {
+.reading-card-title {
             font-family: 'Playfair Display', serif;
             font-size: 1.15rem;
             font-weight: 700;
@@ -258,31 +197,23 @@
             color: #fff;
             line-height: 1.4;
         }
-
-        .reading-card-excerpt {
+.reading-card-excerpt {
             font-size: 0.9rem;
             line-height: 1.6;
             color: rgba(255, 255, 255, 0.75);
             flex-grow: 1;
             margin-bottom: 1rem;
         }
-
-        .reading-card-cta {
+.reading-card-cta {
             font-size: 0.85rem;
             color: var(--philosophy-gold);
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
-
-        /* Footer */
-        .footer-section {
-            margin-top: 5rem;
-            padding-top: 3rem;
-            border-top: 1px solid rgba(212, 165, 116, 0.2);
-        }
-
-        /* Reveal on scroll animation */
+/* Footer */
+        
+/* Reveal on scroll animation */
         @keyframes revealOnScroll {
             from {
                 opacity: 0;
@@ -293,21 +224,13 @@
                 transform: translateY(0);
             }
         }
-
-        /* Responsive */
+/* Responsive */
         @media (max-width: 768px) {
-            .page-hero {
-                padding: 4rem 1.5rem 3rem;
-                margin-bottom: 2rem;
-            }
+            
 
-            .page-hero h1 {
-                font-size: 1.8rem;
-            }
+            
 
-            .page-hero .subtitle {
-                font-size: 1rem;
-            }
+            
 
             .content-main {
                 padding: 0 1.5rem;

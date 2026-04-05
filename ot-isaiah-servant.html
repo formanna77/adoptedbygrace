@@ -38,11 +38,10 @@
     }
     </script>
 
-    
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        .servant-song-card {
+.servant-song-card {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 12px;
@@ -51,18 +50,18 @@
             position: relative;
             overflow: hidden;
         }
-        .servant-song-card::before {
+.servant-song-card::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
             height: 3px;
             background: linear-gradient(90deg, var(--accent-violet), var(--accent-gold));
         }
-        .servant-song-card h4 {
+.servant-song-card h4 {
             color: var(--accent-gold);
             margin-bottom: 0.5rem;
         }
-        .servant-song-card .song-ref {
+.servant-song-card .song-ref {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.72rem;
             color: var(--accent-violet);
@@ -71,13 +70,13 @@
             margin-bottom: 1rem;
             display: block;
         }
-        .theology-point {
+.theology-point {
             display: flex;
             gap: 1.2rem;
             align-items: flex-start;
             margin: 1.5rem 0;
         }
-        .theology-point .point-marker {
+.theology-point .point-marker {
             flex-shrink: 0;
             width: 36px;
             height: 36px;
@@ -93,7 +92,7 @@
             font-weight: 700;
             margin-top: 0.2rem;
         }
-        .hebrew-term {
+.hebrew-term {
             font-family: 'JetBrains Mono', monospace;
             color: var(--accent-ember);
             font-size: 0.9em;
@@ -101,7 +100,7 @@
             background: rgba(232, 100, 44, 0.08);
             border-radius: 3px;
         }
-        .decree-box {
+.decree-box {
             background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.06));
             border: 1px solid rgba(212, 162, 84, 0.15);
             border-radius: 12px;
@@ -109,30 +108,27 @@
             margin: 2.5rem 0;
             text-align: center;
         }
-        .decree-box h3 {
+.decree-box h3 {
             color: var(--accent-gold);
             margin-bottom: 1rem;
         }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-        /* ===== RESPONSIVE ===== */
+/* ===== RESPONSIVE ===== */
         @media (max-width: 968px) {
             .page-header h1, h1 { font-size: 2rem; }
             .page-header p, .page-intro { font-size: 1rem; }
             .content-wrapper, .article-content, .main-content { padding: 0 1.5rem; }
             .card-grid, .grid { grid-template-columns: 1fr; }
-            .footer-container { grid-template-columns: 1fr; text-align: center; }
+            
         }
-        @media (max-width: 480px) {
+@media (max-width: 480px) {
             .page-header h1, h1 { font-size: 1.6rem; }
             h2 { font-size: 1.3rem; }
             .page-header { padding: 5rem 1rem 2rem; }
             .content-wrapper, .article-content, .main-content { padding: 0 1rem; }
             blockquote { padding: 1rem; margin: 1rem 0; }
         }
-
     </style>
 </head>
 <body>
@@ -147,10 +143,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -228,9 +222,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-
-
-
 
     <header class="page-hero">
         <p class="eyebrow">Old Testament Election &bull; Isaiah</p>
@@ -556,8 +547,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
     </main>
 
-    
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -630,7 +619,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
     </footer>
 
-    
     <script src="/global.js" defer>
         // Mobile dropdown toggles
         const navLinks = document.querySelector('.nav-links');

@@ -40,7 +40,7 @@
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        /* Page-specific styles only */
+/* Page-specific styles only */
         .reflection-box {
             background-color: var(--bg-card);
             border: 1px solid rgba(139, 92, 246, 0.3);
@@ -48,37 +48,31 @@
             margin: 2rem 0;
             border-radius: 4px;
         }
-
-        .reflection-box h4 {
+.reflection-box h4 {
             color: var(--accent-violet);
             margin-bottom: 0.75rem;
             font-size: 1.1rem;
         }
-
-        .callout {
+.callout {
             background-color: rgba(232, 100, 44, 0.1);
             border-left: 4px solid var(--accent-ember);
             padding: 1rem;
             margin: 1.5rem 0;
             border-radius: 4px;
         }
-
-        .breadcrumb {
+.breadcrumb {
             color: var(--text-secondary);
             font-size: 0.9rem;
             margin-bottom: 2rem;
         }
-
-        .breadcrumb a {
+.breadcrumb a {
             color: var(--accent-gold);
             text-decoration: none;
         }
-
-        .breadcrumb a:hover {
+.breadcrumb a:hover {
             text-decoration: underline;
         }
-
-        .reading-progress {
+.reading-progress {
             position: fixed;
             top: 0;
             left: 0;
@@ -87,8 +81,7 @@
             z-index: 1001;
             width: 0%;
         }
-
-        .never-gives-up-banner {
+.never-gives-up-banner {
             max-width: 800px;
             margin: 3rem auto;
             padding: 2rem 2.5rem;
@@ -97,27 +90,23 @@
             border-radius: 12px;
             text-align: center;
         }
-
-        .never-gives-up-banner .banner-title {
+.never-gives-up-banner .banner-title {
             font-family: 'Playfair Display', serif;
             font-size: 1.4rem;
             font-weight: 700;
             color: var(--text-primary);
             margin-bottom: 0.5rem;
         }
-
-        .never-gives-up-banner .banner-title em {
+.never-gives-up-banner .banner-title em {
             color: var(--accent-gold);
         }
-
-        .never-gives-up-banner .banner-subtitle {
+.never-gives-up-banner .banner-subtitle {
             font-size: 0.95rem;
             color: var(--text-secondary);
             margin-bottom: 1.2rem;
             line-height: 1.6;
         }
-
-        .never-gives-up-banner a {
+.never-gives-up-banner a {
             display: inline-block;
             padding: 0.7rem 2rem;
             border: 1px solid var(--accent-gold);
@@ -129,55 +118,48 @@
             border-radius: 6px;
             transition: all 0.3s ease;
         }
-
-        .never-gives-up-banner a:hover {
+.never-gives-up-banner a:hover {
             background-color: rgba(212, 162, 84, 0.1);
         }
-
-        .continue-journey {
+.continue-journey {
             padding: 4rem 2rem;
             background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05));
             border-top: 1px solid rgba(218,165,32,0.1);
         }
-
-        .continue-journey-container {
+.continue-journey-container {
             max-width: 900px;
             margin: 0 auto;
         }
-
-        .continue-journey h3 {
+.continue-journey h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.8rem;
             color: var(--accent-gold);
             margin-bottom: 1.5rem;
             text-align: center;
         }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-        /* ===== RESPONSIVE ===== */
+/* ===== RESPONSIVE ===== */
         @media (max-width: 968px) {
             .page-header h1, h1 { font-size: 2rem; }
             .page-header p, .page-intro { font-size: 1rem; }
             .content-wrapper, .article-content, .main-content { padding: 0 1.5rem; }
             .card-grid, .grid { grid-template-columns: 1fr; }
-            .footer-container { grid-template-columns: 1fr; text-align: center; }
+            
         }
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
                 .content-section { padding: 2rem 1.5rem; }
             .section-grid, .card-grid { grid-template-columns: 1fr; }
             h1 { font-size: 2rem; }
             h2 { font-size: 1.5rem; }
         }
-        @media (max-width: 480px) {
+@media (max-width: 480px) {
             .page-header h1, h1 { font-size: 1.6rem; }
             h2 { font-size: 1.3rem; }
             .page-header { padding: 5rem 1rem 2rem; }
             .content-wrapper, .article-content, .main-content { padding: 0 1rem; }
             blockquote { padding: 1rem; margin: 1rem 0; }
         }
-
     </style>
 </head>
 <body>
@@ -193,10 +175,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -275,9 +255,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="search-results" id="searchResults"></div>
     </div>
 
-
-
-
     <main id="main-content">
         <div class="breadcrumb">
             <a href="/devotionals">Devotionals</a> / A Letter to the Cold Church
@@ -285,6 +262,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
         <article>
             <div class="page-hero">
+            <div class="eyebrow">Devotional</div>
+
                 <h1>A Letter to the Cold Church</h1>
                 <p class="tagline">The Most Dangerous Spiritual Condition Feels Like Peace</p>
                 <p class="passage-ref">Revelation 3:14-22</p>
@@ -404,8 +383,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </article>
     </main>
 
-    
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -485,7 +462,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </footer>
 
-    
     <script src="/global.js" defer>
         // Mobile dropdown toggles
         const navLinks = document.querySelector('.nav-links');

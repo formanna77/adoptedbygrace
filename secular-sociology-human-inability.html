@@ -41,7 +41,7 @@
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        .study-card {
+.study-card {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 12px;
@@ -50,14 +50,14 @@
             position: relative;
             overflow: hidden;
         }
-        .study-card::before {
+.study-card::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
             height: 3px;
             background: linear-gradient(90deg, var(--accent-ember), var(--accent-violet));
         }
-        .study-card .study-label {
+.study-card .study-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.68rem;
             text-transform: uppercase;
@@ -65,18 +65,18 @@
             color: var(--accent-ember);
             margin-bottom: 0.5rem;
         }
-        .study-card h4 {
+.study-card h4 {
             color: var(--text-primary);
             margin-bottom: 0.8rem;
             font-size: 1.15rem;
         }
-        .study-card p {
+.study-card p {
             color: var(--text-secondary);
             font-size: 0.95rem;
             line-height: 1.8;
             margin-bottom: 0;
         }
-        .study-card .scripture-echo {
+.study-card .scripture-echo {
             margin-top: 1rem;
             padding-top: 1rem;
             border-top: 1px solid var(--border-subtle);
@@ -85,20 +85,20 @@
             color: var(--accent-gold);
             letter-spacing: 0.05em;
         }
-        .stat-row {
+.stat-row {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1.5rem;
             margin: 2.5rem 0;
         }
-        .stat-box {
+.stat-box {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             border-radius: 10px;
             padding: 1.8rem;
             text-align: center;
         }
-        .stat-box .stat-number {
+.stat-box .stat-number {
             font-family: 'Playfair Display', serif;
             font-size: 2.5rem;
             font-weight: 900;
@@ -109,12 +109,12 @@
             display: block;
             margin-bottom: 0.5rem;
         }
-        .stat-box .stat-desc {
+.stat-box .stat-desc {
             color: var(--text-secondary);
             font-size: 0.85rem;
             line-height: 1.5;
         }
-        .verdict-box {
+.verdict-box {
             background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.06));
             border: 1px solid rgba(212, 162, 84, 0.2);
             border-radius: 12px;
@@ -122,21 +122,21 @@
             margin: 3rem 0;
             text-align: center;
         }
-        .verdict-box h3 {
+.verdict-box h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.5rem;
             font-weight: 800;
             margin-bottom: 1rem;
             color: var(--accent-gold);
         }
-        .verdict-box p {
+.verdict-box p {
             color: var(--text-secondary);
             font-size: 1rem;
             line-height: 1.8;
             max-width: 700px;
             margin: 0 auto;
         }
-        .humor-bar {
+.humor-bar {
             text-align: center;
             padding: 3rem 2rem;
             color: var(--text-muted);
@@ -144,27 +144,24 @@
             font-size: 0.75rem;
             letter-spacing: 0.05em;
         }
-        .humor-bar em { color: var(--accent-gold); font-style: normal; }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+.humor-bar em { color: var(--accent-gold); font-style: normal; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-        /* ===== RESPONSIVE ===== */
+/* ===== RESPONSIVE ===== */
         @media (max-width: 968px) {
             .page-header h1, h1 { font-size: 2rem; }
             .page-header p, .page-intro { font-size: 1rem; }
             .content-wrapper, .article-content, .main-content { padding: 0 1.5rem; }
             .card-grid, .grid { grid-template-columns: 1fr; }
-            .footer-container { grid-template-columns: 1fr; text-align: center; }
+            
         }
-        @media (max-width: 480px) {
+@media (max-width: 480px) {
             .page-header h1, h1 { font-size: 1.6rem; }
             h2 { font-size: 1.3rem; }
             .page-header { padding: 5rem 1rem 2rem; }
             .content-wrapper, .article-content, .main-content { padding: 0 1rem; }
             blockquote { padding: 1rem; margin: 1rem 0; }
         }
-
     </style>
 </head>
 <body>
@@ -179,10 +176,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -261,14 +256,13 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="search-results" id="searchResults"></div>
     </div>
 
-
-
-
     <main id="main-content">
         <!-- Hero -->
         <section class="page-hero">
             <div style="max-width:850px; margin:0 auto;">
                 <p style="font-family:'JetBrains Mono',monospace; font-size:0.75rem; text-transform:uppercase; letter-spacing:0.4em; color:var(--accent-ember); margin-bottom:1.5rem;">Secular Sociology &bull; Human Inability</p>
+                <div class="eyebrow">Secular Evidence</div>
+
                 <h1 style="font-family:'Playfair Display',serif; font-size:clamp(2.5rem,5vw,3.8rem); font-weight:900; line-height:1.15; margin-bottom:1.5rem;">
                     The Entire Field of Sociology<br>
                     <span style="background:linear-gradient(135deg,var(--accent-gold),var(--accent-ember)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">Is an Accidental Footnote to Romans 3:10.</span>
@@ -600,8 +594,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     </main>
 
-    
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -684,7 +676,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
     </footer>
 
-    
     <script src="/global.js" defer></script>
 
     <script src="/nav.js"></script>

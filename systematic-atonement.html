@@ -41,61 +41,14 @@
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        * {
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --bg-card-hover: #1a1a2e;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-        }
-
-        body {
-            background-color: #0a0a0f;
-            background-color: var(--bg-deep);
-            color: #f0ece4;
-            color: var(--text-primary);
-            -webkit-text-size-adjust: 100%;
-            font-family: 'Inter', sans-serif;
-            line-height: 1.8;
-            overflow-x: hidden;
-        }
-
-        li {
-            position: relative;
-        }
-
-        /* Hero */
-        .hero {
-            max-width: 900px;
-            margin: 3rem auto;
-            padding: 3rem 2rem;
-        }
-
-        .back-link {
-            display: inline-block;
-            margin-bottom: 1.5rem;
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: opacity 0.3s ease;
-        }
-
-        .back-link:hover {
-            opacity: 0.7;
-        }
-
-        .topic-label {
+/* Hero */
+        
+.topic-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
             color: var(--accent-gold);
@@ -103,30 +56,19 @@
             letter-spacing: 0.1em;
             margin-bottom: 1rem;
         }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.8rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-
-        .hero-subtitle {
+.hero-subtitle {
             font-size: 1.1rem;
             color: var(--text-secondary);
             margin-bottom: 2rem;
         }
-
-        .section-nav-container {
+.section-nav-container {
             max-width: 900px;
             margin: 0 auto;
             padding: 0 2rem;
             display: flex; flex-wrap: wrap;
             gap: 1.5rem;
         }
-
-        .section-
+.section-
 
         .section-nav a:hover,
         .section-
@@ -137,34 +79,29 @@
             margin: 0 auto;
             padding: 0 2rem;
         }
-
-        .section {
+.section {
             margin-bottom: 5rem;
             scroll-margin-top: 200px;
         }
-
-        .section h2 {
+.section h2 {
             font-family: 'Playfair Display', serif;
             font-size: 2rem;
             margin-bottom: 1.5rem;
             color: var(--accent-gold);
         }
-
-        .section h3 {
+.section h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.4rem;
             margin-bottom: 1rem;
             margin-top: 2.5rem;
             color: var(--text-primary);
         }
-
-        .section p {
+.section p {
             margin-bottom: 1.5rem;
             color: var(--text-secondary);
             line-height: 1.8;
         }
-
-        /* Scripture Block */
+/* Scripture Block */
         .scripture-block { display: block;
             background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05));
             border-left: 4px solid var(--accent-gold);
@@ -176,30 +113,26 @@
             color: var(--text-primary);
             font-style: italic;
         }
-
-        .scripture-ref {
+.scripture-ref {
             display: block;
             margin-top: 1rem;
             font-style: normal;
             color: var(--text-muted);
             font-size: 0.9rem;
         }
-
-        /* Argument Grid */
+/* Argument Grid */
         .arguments-grid {
             display: grid;
             gap: 2rem;
             margin: 2rem 0;
         }
-
-        .argument-item {
+.argument-item {
             background: linear-gradient(135deg, rgba(212, 162, 84, 0.05), rgba(139, 92, 246, 0.05));
             border: 1px solid var(--border-subtle);
             border-radius: 4px;
             padding: 2rem;
         }
-
-        .argument-number {
+.argument-number {
             font-family: 'JetBrains Mono', monospace;
             color: var(--accent-gold);
             font-size: 0.85rem;
@@ -207,20 +140,17 @@
             letter-spacing: 0.1em;
             margin-bottom: 0.5rem;
         }
-
-        .argument-title {
+.argument-title {
             font-size: 1.2rem;
             color: var(--text-primary);
             margin-bottom: 1rem;
             font-weight: 600;
         }
-
-        .argument-text {
+.argument-text {
             color: var(--text-secondary);
             line-height: 1.7;
         }
-
-        /* Objection/Answer */
+/* Objection/Answer */
         .objection-container {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -228,41 +158,35 @@
             margin: 2rem 0;
             overflow: hidden;
         }
-
-        .objection-header {
+.objection-header {
             background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(139, 92, 246, 0.05));
             border-bottom: 1px solid var(--border-subtle);
             padding: 1.5rem;
             font-weight: 600;
             color: var(--accent-ember);
         }
-
-        .objection-header::before {
+.objection-header::before {
             content: '⚔ OBJECTION: ';
             margin-right: 0.5rem;
         }
-
-        .answer-header {
+.answer-header {
             background: linear-gradient(135deg, rgba(212, 162, 84, 0.1), rgba(139, 92, 246, 0.05));
             border-top: 1px solid var(--border-subtle);
             padding: 1.5rem;
             font-weight: 600;
             color: var(--accent-gold);
         }
-
-        .answer-header::before {
+.answer-header::before {
             content: '✦ ANSWER: ';
             margin-right: 0.5rem;
         }
-
-        .objection-body,
+.objection-body,
         .answer-body {
             padding: 1.5rem;
             color: var(--text-secondary);
             line-height: 1.7;
         }
-
-        /* Connection Links */
+/* Connection Links */
         .connection-box {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -271,8 +195,7 @@
             padding: 1.5rem;
             margin: 2rem 0;
         }
-
-        .connection-label {
+.connection-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
             color: var(--accent-violet);
@@ -280,69 +203,19 @@
             letter-spacing: 0.1em;
             margin-bottom: 0.5rem;
         }
-
-        .connection-box a {
+.connection-box a {
             color: var(--accent-gold);
             text-decoration: none;
             font-weight: 600;
             transition: opacity 0.3s ease;
         }
-
-        .connection-box a:hover {
+.connection-box a:hover {
             opacity: 0.7;
         }
+/* Footer */
+        
 
-        /* Footer */
-        footer {
-            background: var(--bg-card);
-            border-top: 1px solid var(--border-subtle);
-            padding: 3rem 2rem;
-            margin-top: 5rem;
-        }
-
-        .footer-container {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 3rem;
-        }
-
-        .footer-section h4 {
-            color: var(--accent-gold);
-            font-family: 'Playfair Display', serif;
-            font-size: 1.2rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section li {
-            margin-bottom: 0.75rem;
-        }
-
-        .footer-section a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-copyright {
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            margin-top: 2rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-subtle);
-        }
-
-        /* Back to Top */
+/* Back to Top */
         /* Reading Progress */
         .reading-progress {
             position: fixed;
@@ -353,41 +226,27 @@
             z-index: 1001;
             width: 0%;
         }
-
-        /* Responsive */
+/* Responsive */
         @media (max-width: 968px) {
-            .hero h1 {
-                font-size: 2.2rem;
-            }
+            
 
             .section h2 {
                 font-size: 1.6rem;
             }
         }
-
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 1.8rem;
-            }
+@media (max-width: 768px) {
+            
 
             .section h2 {
                 font-size: 1.4rem;
             }
 
-            .footer-container {
-                grid-template-columns: 1fr;
-            }
+            
         }
+@media (max-width: 480px) {
+            
 
-        @media (max-width: 480px) {
-            .hero {
-                padding: 1.5rem 1rem;
-                margin: 1rem auto;
-            }
-
-            .hero h1 {
-                font-size: 1.5rem;
-            }
+            
 
             .section h2 {
                 font-size: 1.2rem;
@@ -402,10 +261,8 @@
             }
 
             }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
     </style>
 </head>
 <body>
@@ -421,10 +278,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -502,9 +357,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-
-
-
 
     <section class="page-hero">
         <div class="eyebrow">Soteriology</div>
@@ -913,7 +765,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
         </section>
 
-
         <!-- Cross-Reference Section -->
         <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
             <div style="max-width: 900px; margin: 0 auto;">
@@ -948,8 +799,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </section>
 
     </main>
-
-    
 
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
@@ -1067,7 +916,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
         sections.forEach(section => observer.observe(section));
     </script>
-
 
 <script>
 (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();

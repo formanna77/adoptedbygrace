@@ -46,7 +46,7 @@
     </script>
 
 <style>
-        /* Reading Progress Bar */
+/* Reading Progress Bar */
         .reading-progress {
             position: fixed;
             top: 0;
@@ -57,8 +57,7 @@
             width: 0%;
             transition: width 0.1s ease-out;
         }
-
-        /* Page Hero */
+/* Page Hero */
 
         .hero-eyebrow {
             font-family: 'JetBrains Mono', monospace;
@@ -69,39 +68,9 @@
             margin-bottom: 1.5rem;
             display: block;
         }
-
-        /* Main Content */
-        .article-container {
-            max-width: 750px;
-            margin: 0 auto;
-            padding: 0 2rem 4rem;
-        }
-
-        .article-container p {
-            font-size: 1.05rem;
-            line-height: 1.8;
-            color: var(--text-primary);
-            margin-bottom: 1.5rem;
-        }
-
-        .article-container h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            color: var(--text-primary);
-            margin-top: 3rem;
-            margin-bottom: 1.5rem;
-            border-bottom: 2px solid rgba(212, 162, 84, 0.2);
-            padding-bottom: 1rem;
-        }
-
-        .article-container h3 {
-            font-size: 1.35rem;
-            color: var(--text-primary);
-            margin-top: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        /* Pull Quote */
+/* Main Content */
+        
+/* Pull Quote */
         .pull-quote-container {
             margin: 3rem 0;
             padding: 2.5rem;
@@ -110,8 +79,7 @@
             border-radius: 4px;
             position: relative;
         }
-
-        .pull-quote-container::before {
+.pull-quote-container::before {
             content: '"';
             position: absolute;
             top: -20px;
@@ -121,8 +89,7 @@
             opacity: 0.3;
             font-family: 'Playfair Display', serif;
         }
-
-        .pull-quote {
+.pull-quote {
             font-size: 1.5rem;
             line-height: 1.8;
             color: var(--text-primary);
@@ -131,16 +98,14 @@
             position: relative;
             z-index: 1;
         }
-
-        .pull-quote-attribution {
+.pull-quote-attribution {
             font-size: 0.9rem;
             color: var(--text-secondary);
             margin-top: 1rem;
             font-style: normal;
             text-align: right;
         }
-
-        /* Scripture Quote */
+/* Scripture Quote */
         .scripture-quote {
             background: rgba(212, 162, 84, 0.06);
             border-left: 4px solid #d4a254;
@@ -150,15 +115,13 @@
             color: var(--text-secondary);
             line-height: 1.8;
         }
-
-        .scripture-ref {
+.scripture-ref {
             font-size: 0.9rem;
             color: var(--text-secondary);
             margin-top: 0.75rem;
             font-style: normal;
         }
-
-        /* Key Insight Box */
+/* Key Insight Box */
         .key-insight {
             background: linear-gradient(135deg, rgba(232, 100, 44, 0.12) 0%, rgba(212, 162, 84, 0.08) 100%);
             border: 2px solid rgba(232, 100, 44, 0.3);
@@ -167,28 +130,24 @@
             margin: 3rem 0;
             position: relative;
         }
-
-        .key-insight h3 {
+.key-insight h3 {
             color: #e8642c;
             margin-top: 0;
             display: flex;
             align-items: center;
             font-size: 1.3rem;
         }
-
-        .key-insight h3::before {
+.key-insight h3::before {
             content: '⚡';
             margin-right: 0.75rem;
             font-size: 1.5rem;
         }
-
-        .key-insight p {
+.key-insight p {
             color: var(--text-primary);
             line-height: 1.8;
             margin: 1rem 0 0 0;
         }
-
-        /* Scene Card */
+/* Scene Card */
         .scene-card {
             background: rgba(139, 92, 246, 0.08);
             border: 1px solid rgba(139, 92, 246, 0.2);
@@ -199,8 +158,7 @@
             color: var(--text-secondary);
             line-height: 1.8;
         }
-
-        /* Mercy Section */
+/* Mercy Section */
         .mercy-section {
             background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(212, 162, 84, 0.08) 100%);
             border: 2px solid rgba(139, 92, 246, 0.2);
@@ -208,93 +166,41 @@
             padding: 2.5rem;
             margin: 4rem 0;
         }
-
-        .mercy-section h3 {
+.mercy-section h3 {
             color: #8b5cf6;
             margin-top: 0;
         }
-
-        .mercy-section p {
+.mercy-section p {
             color: var(--text-primary);
             line-height: 1.8;
         }
-
-        /* Share Bar */
+/* Share Bar */
         .share-bar {
             margin-top: 4rem;
             padding-top: 2rem;
             border-top: 2px solid rgba(212, 162, 84, 0.2);
             text-align: center;
         }
-
-        .share-label {
+.share-label {
             font-size: 0.9rem;
             color: var(--text-secondary);
             text-transform: uppercase;
             letter-spacing: 0.1em;
             margin-bottom: 1rem;
         }
+/* Ordered List */
+        
+@media (max-width: 768px) {
 
-        .share-buttons {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .share-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.75rem 1.5rem;
-            background: rgba(232, 100, 44, 0.1);
-            border: 1px solid rgba(232, 100, 44, 0.3);
-            border-radius: 4px;
-            color: #e8642c;
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: all 0.2s ease;
-            cursor: pointer;
-        }
-
-        .share-btn:hover {
-            background: #e8642c;
-            color: white;
-            border-color: #e8642c;
-        }
-
-        /* Ordered List */
-        .article-container ol {
-            line-height: 2;
-            margin: 2rem 0;
-        }
-
-        .article-container ol li {
-            margin-bottom: 0.5rem;
-        }
-
-        .article-container ol li strong {
-            color: #e8642c;
-        }
-
-        @media (max-width: 768px) {
-
-            .article-container {
-                padding: 0 1.5rem 3rem;
-            }
+            
 
             .pull-quote {
                 font-size: 1.2rem;
             }
 
-            .share-buttons {
-                gap: 0.5rem;
-            }
+            
 
-            .share-btn {
-                padding: 0.6rem 1rem;
-                font-size: 0.85rem;
-            }
+            
         }
     </style>
 </head>
@@ -368,13 +274,12 @@
 
     <!-- Page Hero -->
     <div class="page-hero">
-        <span class="hero-eyebrow">A Heart-to-Heart</span>
+        <span class="eyebrow">A Heart-to-Heart</span>
         <h1>Are You Sure You're Saved?</h1>
         <p class="subtitle">This is not a theology lesson. This is an intervention.</p>
     </div>
 
     <!-- Article Content -->
-    <div class="article-container">
 
         <h2>The Courtroom</h2>
 
@@ -522,7 +427,6 @@
     </div>
 
     <!-- Share Bar -->
-    <div class="article-container">
         <div class="share-bar">
             <div class="share-label">Share This Article</div>
             </div>

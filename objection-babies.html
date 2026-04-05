@@ -47,29 +47,8 @@
     }
     </script>
 
-    
 <style>
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --bg-card-hover: #1a1a2e;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-        }
-
-        body {
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            font-family: 'Inter', sans-serif;
-            line-height: 1.8;
-        }
-
-        .reading-progress {
+.reading-progress {
             position: fixed;
             top: 0;
             left: 0;
@@ -79,16 +58,7 @@
             z-index: 9999;
             transition: width 0.1s ease;
         }
-
-        .hero {
-            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08) 0%, rgba(232, 100, 44, 0.04) 100%);
-            border-bottom: 1px solid var(--border-subtle);
-            padding: 5rem 2rem 3rem;
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .hero-eyebrow {
+.hero-eyebrow {
             font-size: 0.85rem;
             letter-spacing: 0.15em;
             text-transform: uppercase;
@@ -96,62 +66,12 @@
             margin-bottom: 1rem;
             font-weight: 600;
         }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.6rem;
-            font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: 1.5rem;
-            color: var(--text-primary);
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .hero p {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            max-width: 700px;
-            margin: 0 auto;
-            line-height: 1.7;
-        }
-
-        .reading-time {
+.reading-time {
             font-size: 0.85rem;
             color: var(--text-muted);
             margin-top: 1rem;
         }
-
-        main {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 2rem 4rem;
-        }
-
-        h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            font-weight: 700;
-            margin: 3rem 0 1.5rem;
-            color: var(--text-primary);
-            border-left: 3px solid var(--accent-gold);
-            padding-left: 1.5rem;
-        }
-
-        h3 {
-            font-size: 1.3rem;
-            font-weight: 600;
-            margin: 2rem 0 1rem;
-            color: var(--text-primary);
-        }
-
-        p {
-            margin-bottom: 1.5rem;
-            font-size: 1.05rem;
-        }
-
-        .opening-hook {
+.opening-hook {
             font-size: 1.15rem;
             color: var(--text-secondary);
             background: rgba(212, 162, 84, 0.05);
@@ -160,8 +80,7 @@
             margin-bottom: 2rem;
             border-left: 3px solid var(--accent-gold);
         }
-
-        .pullquote {
+.pullquote {
             font-family: 'Playfair Display', serif;
             font-size: 1.4rem;
             line-height: 1.5;
@@ -172,16 +91,14 @@
             background: rgba(212, 162, 84, 0.05);
             font-style: italic;
         }
-
-        .scripture-block { display: block;
+.scripture-block { display: block;
             background-color: var(--bg-card);
             border-left: 4px solid var(--accent-gold);
             padding: 1.5rem 2rem;
             margin: 2rem 0;
             border-radius: 4px;
         }
-
-        .scripture-ref {
+.scripture-ref {
             display: block;
             font-size: 0.875rem;
             color: var(--accent-violet);
@@ -190,15 +107,13 @@
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
-
-        .scripture-text {
+.scripture-text {
             font-family: "JetBrains Mono", monospace;
             font-size: 0.95rem;
             line-height: 1.8;
             color: var(--text-primary);
         }
-
-        .pastoral-whisper {
+.pastoral-whisper {
             background-color: rgba(139, 92, 246, 0.08);
             border-left: 4px solid var(--accent-violet);
             padding: 1.5rem;
@@ -207,14 +122,12 @@
             font-style: italic;
             color: var(--text-primary);
         }
-
-        .greek-word {
+.greek-word {
             font-family: 'JetBrains Mono', monospace;
             color: var(--accent-gold);
             font-size: 0.95rem;
         }
-
-        .argument-card {
+.argument-card {
             background: var(--bg-card);
             border-radius: 8px;
             padding: 1.5rem 2rem;
@@ -222,14 +135,12 @@
             border: 1px solid var(--border-subtle);
             border-left: 3px solid var(--accent-gold);
         }
-
-        .argument-card h3 {
+.argument-card h3 {
             margin-top: 0;
             color: var(--accent-gold);
             font-size: 1.15rem;
         }
-
-        .objection-card {
+.objection-card {
             background: var(--bg-card);
             border-radius: 8px;
             padding: 1.5rem 2rem;
@@ -237,59 +148,40 @@
             border: 1px solid var(--border-subtle);
             border-left: 3px solid var(--accent-ember);
         }
-
-        .objection-card h3 {
+.objection-card h3 {
             margin-top: 0;
             color: var(--accent-ember);
             font-size: 1.15rem;
         }
-
-        .theologian-quote {
+.theologian-quote {
             background: var(--bg-card);
             border-left: 3px solid var(--accent-violet);
             padding: 1.25rem 1.5rem;
             margin: 1.5rem 0;
             border-radius: 4px;
         }
-
-        .theologian-quote p {
+.theologian-quote p {
             font-style: italic;
             margin-bottom: 0.5rem;
         }
-
-        .theologian-quote .attribution {
+.theologian-quote .attribution {
             font-size: 0.85rem;
             color: var(--accent-violet);
             font-style: normal;
             font-weight: 600;
         }
-
-        a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            transition: color 0.3s ease;
-            border-bottom: 1px solid transparent;
-        }
-
-        a:hover {
-            color: var(--accent-ember);
-            border-bottom: 1px solid var(--accent-ember);
-        }
-
-        .keep-reading {
+.keep-reading {
             margin: 3rem 0;
             padding-top: 2rem;
             border-top: 1px solid rgba(212, 162, 84, 0.2);
         }
-
-        .keep-reading-title {
+.keep-reading-title {
             font-family: "Playfair Display", serif;
             font-size: 1.5rem;
             margin-bottom: 1.5rem;
             color: var(--accent-gold);
         }
-
-        .article-link {
+.article-link {
             display: block;
             padding: 1.25rem;
             background-color: var(--bg-card);
@@ -298,42 +190,25 @@
             border-left: 3px solid var(--accent-violet);
             transition: transform 0.3s ease, background-color 0.3s ease;
         }
-
-        .article-link:hover {
+.article-link:hover {
             transform: translateX(8px);
             background-color: rgba(139, 92, 246, 0.1);
             border-bottom: none;
         }
-
-        .article-link-title {
+.article-link-title {
             font-weight: 600;
             color: var(--text-primary);
             font-size: 1rem;
             margin-bottom: 0.25rem;
         }
-
-        .article-link-desc {
+.article-link-desc {
             font-size: 0.85rem;
             color: var(--text-secondary);
         }
-
-        .site-footer {
-            background-color: var(--bg-card);
-            border-top: 1px solid var(--border-subtle);
-            text-align: center;
-            padding: 3rem 2rem;
-            color: var(--text-muted);
-            font-size: 0.85rem;
-        }
-
-        .site-footer a {
-            color: var(--accent-gold);
-        }
-
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 1.8rem;
-            }
+.site-
+.site-
+@media (max-width: 768px) {
+            
             main {
                 padding: 0 1.25rem 3rem;
             }
@@ -412,7 +287,7 @@
     </div>
 
 <div class="page-hero">
-    <div class="hero-eyebrow">Objections Answered</div>
+    <div class="eyebrow">Objections Answered</div>
     <h1>What About Babies Who Die? Election, Infant Salvation, and the God Who Saves Without Permission</h1>
     <p>This objection to God's sovereign election actually <em>proves</em> it — because infant salvation only works if God can save someone who never made a decision.</p>
     <p class="reading-time">10 min read</p>
@@ -624,7 +499,6 @@
         progress.style.width = scrollPercent + '%';
     });
 </script>
-
 
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">

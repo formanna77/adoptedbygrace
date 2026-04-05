@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="/global.css">
     
 <style>
-        .reading-progress {
+.reading-progress {
             position: fixed;
             top: 0;
             left: 0;
@@ -49,8 +49,7 @@
             width: 0%;
             z-index: 9999;
         }
-        
-        .hero-eyebrow {
+.hero-eyebrow {
             font-size: 0.75rem;
             font-weight: 600;
             letter-spacing: 0.15em;
@@ -59,58 +58,26 @@
             margin-bottom: 0.5rem;
             opacity: 0.9;
         }
-        
-        .page-hero {
-            padding: 4rem 2rem;
-            max-width: 50rem;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .page-hero h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: 1.5rem;
-        }
-
-        @media (max-width: 768px) {
-            .page-hero h1 {
-                font-size: 1.8rem;
-            }
-        }
-
-        .page-hero .subtitle {
-            font-size: 1.125rem;
-            line-height: 1.6;
-            font-weight: 400;
-            margin-bottom: 1rem;
-        }
-
-        .reading-time {
+.reading-time {
             font-size: 0.85rem;
             color: #888;
             font-weight: 500;
             letter-spacing: 0.05em;
         }
-        
-        .content-main {
+.content-main {
             max-width: 50rem;
             margin: 0 auto;
             padding: 3rem 2rem;
         }
-        
-        .section {
+.section {
             margin-bottom: 3rem;
             padding-bottom: 3rem;
             border-bottom: 1px solid rgba(212, 165, 116, 0.1);
         }
-        
-        .section:last-of-type {
+.section:last-of-type {
             border-bottom: none;
         }
-        
-        .section-number {
+.section-number {
             font-size: 0.75rem;
             font-weight: 700;
             letter-spacing: 0.2em;
@@ -119,38 +86,32 @@
             margin-bottom: 0.75rem;
             opacity: 0.8;
         }
-        
-        .section-title {
+.section-title {
             font-size: 1.75rem;
             font-weight: 700;
             margin-bottom: 1.5rem;
             color: #0a0a0f;
             line-height: 1.3;
         }
-        
-        .section-body {
+.section-body {
             font-size: 1rem;
             line-height: 1.7;
             color: #333;
         }
-        
-        .section-body p {
+.section-body p {
             margin-bottom: 1.25rem;
         }
-        
-        .section-body p:last-child {
+.section-body p:last-child {
             margin-bottom: 0;
         }
-        
-        .concept-card {
+.concept-card {
             background: rgba(212, 165, 116, 0.04);
             border-left: 4px solid #d4a574;
             padding: 1.5rem;
             margin: 2rem 0;
             border-radius: 4px;
         }
-        
-        .concept-card-title {
+.concept-card-title {
             font-size: 0.95rem;
             font-weight: 700;
             color: #d4a574;
@@ -158,14 +119,12 @@
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
-        
-        .concept-card-body {
+.concept-card-body {
             font-size: 0.95rem;
             line-height: 1.6;
             color: #444;
         }
-        
-        .pull-quote {
+.pull-quote {
             font-size: 1.25rem;
             line-height: 1.6;
             color: #d4a574;
@@ -175,8 +134,7 @@
             margin: 2rem 0;
             font-weight: 500;
         }
-        
-        .pull-quote-attribution {
+.pull-quote-attribution {
             font-size: 0.875rem;
             color: #888;
             font-style: normal;
@@ -184,15 +142,13 @@
             font-weight: 600;
             letter-spacing: 0.05em;
         }
-        
-        .comparison-table {
+.comparison-table {
             width: 100%;
             margin: 2rem 0;
             border-collapse: collapse;
             font-size: 0.95rem;
         }
-        
-        .comparison-table th {
+.comparison-table th {
             background: rgba(212, 165, 116, 0.1);
             padding: 1rem;
             text-align: left;
@@ -200,38 +156,32 @@
             color: #0a0a0f;
             border-bottom: 2px solid #d4a574;
         }
-        
-        .comparison-table td {
+.comparison-table td {
             padding: 1rem;
             border-bottom: 1px solid rgba(212, 165, 116, 0.1);
             color: #444;
         }
-        
-        .comparison-table tr:hover td {
+.comparison-table tr:hover td {
             background: rgba(212, 165, 116, 0.02);
         }
-        
-        .keep-reading {
+.keep-reading {
             margin-top: 4rem;
             padding: 2rem;
             background: rgba(212, 165, 116, 0.05);
             border-radius: 8px;
         }
-        
-        .keep-reading-title {
+.keep-reading-title {
             font-size: 1.25rem;
             font-weight: 700;
             margin-bottom: 1.5rem;
             color: #0a0a0f;
         }
-        
-        .keep-reading-grid {
+.keep-reading-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1.5rem;
         }
-        
-        .keep-reading-card {
+.keep-reading-card {
             background: white;
             padding: 1.25rem;
             border-radius: 6px;
@@ -239,48 +189,37 @@
             text-decoration: none;
             transition: all 0.3s ease;
         }
-        
-        .keep-reading-card:hover {
+.keep-reading-card:hover {
             border-color: #d4a574;
             box-shadow: 0 4px 12px rgba(212, 165, 116, 0.15);
             transform: translateY(-2px);
         }
-        
-        .keep-reading-card-title {
+.keep-reading-card-title {
             font-size: 0.95rem;
             font-weight: 700;
             color: #0a0a0f;
             margin-bottom: 0.5rem;
             display: block;
         }
-        
-        .keep-reading-card-desc {
+.keep-reading-card-desc {
             font-size: 0.85rem;
             color: #666;
             line-height: 1.5;
         }
-        
-        .reveal {
+.reveal {
             opacity: 0;
             transform: translateY(20px);
             transition: opacity 0.6s ease, transform 0.6s ease;
         }
-        
-        .reveal.visible {
+.reveal.visible {
             opacity: 1;
             transform: translateY(0);
         }
-        
-        .footnote {
+.footnote {
             font-size: 0.875rem;
             color: #888;
             margin-top: 0.5rem;
             font-style: italic;
-        }
-        
-        strong {
-            color: #0a0a0f;
-            font-weight: 700;
         }
     </style>
 </head>

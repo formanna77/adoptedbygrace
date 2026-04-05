@@ -57,24 +57,7 @@
     </script>
 
 <style>
-        :root {
-            --bg-deep: #0a0a0f;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --line-color: #2a2a32;
-        }
-
-        body {
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            font-family: 'Inter', sans-serif;
-            line-height: 1.75;
-        }
-
-        .reading-progress {
+.reading-progress {
             position: fixed;
             top: 0;
             left: 0;
@@ -85,41 +68,35 @@
             transform-origin: left;
             z-index: 9999;
         }
-
-        .content-wrap {
+.content-wrap {
             max-width: 900px;
             margin: 0 auto;
             padding: 0 1.5rem;
         }
-
-        .content-wrap > p {
+.content-wrap > p {
             margin-bottom: 1.5rem;
             font-size: 1.05rem;
         }
-
-        .content-wrap h2 {
+.content-wrap h2 {
             font-family: 'Playfair Display', serif;
             font-size: 2rem;
             margin: 2.5rem 0 1.5rem;
             color: var(--text-primary);
         }
-
-        .content-wrap h3 {
+.content-wrap h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.5rem;
             margin: 2rem 0 1rem;
             color: var(--accent-gold);
         }
-
-        .mechanism-card {
+.mechanism-card {
             background-color: rgba(212, 162, 84, 0.05);
             border-left: 4px solid var(--accent-gold);
             padding: 1.5rem;
             margin: 2rem 0;
             border-radius: 4px;
         }
-
-        .mechanism-num {
+.mechanism-num {
             display: inline-block;
             background-color: var(--accent-gold);
             color: var(--bg-deep);
@@ -129,16 +106,14 @@
             font-size: 0.9rem;
             margin-bottom: 0.5rem;
         }
-
-        .mechanism-card .researcher {
+.mechanism-card .researcher {
             display: block;
             font-size: 0.95rem;
             color: var(--text-secondary);
             margin-top: 0.5rem;
             font-style: italic;
         }
-
-        .scripture {
+.scripture {
             background-color: rgba(139, 92, 246, 0.08);
             border-left: 4px solid var(--accent-violet);
             padding: 1.5rem;
@@ -146,16 +121,14 @@
             border-radius: 4px;
             font-size: 1rem;
         }
-
-        .scripture .ref {
+.scripture .ref {
             display: block;
             font-size: 0.9rem;
             color: var(--accent-violet);
             font-weight: 600;
             margin-top: 0.75rem;
         }
-
-        .pullquote {
+.pullquote {
             font-size: 1.35rem;
             font-style: italic;
             color: var(--accent-gold);
@@ -164,38 +137,33 @@
             margin: 2rem 0;
             line-height: 1.6;
         }
-
-        .self-ref {
+.self-ref {
             background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(139, 92, 246, 0.1));
             border: 2px solid var(--accent-ember);
             padding: 2rem;
             border-radius: 8px;
             margin: 2.5rem 0;
         }
-
-        .self-ref h4 {
+.self-ref h4 {
             color: var(--accent-ember);
             font-size: 1.2rem;
             margin-bottom: 1rem;
             font-weight: 700;
         }
-
-        .pastoral {
+.pastoral {
             background-color: rgba(212, 162, 84, 0.08);
             border: 2px solid var(--accent-gold);
             padding: 2rem;
             border-radius: 8px;
             margin: 2.5rem 0;
         }
-
-        .pastoral h4 {
+.pastoral h4 {
             color: var(--accent-gold);
             font-size: 1.2rem;
             margin-bottom: 1rem;
             font-weight: 700;
         }
-
-        .cross-links {
+.cross-links {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 1.5rem;
@@ -204,21 +172,18 @@
             border-top: 1px solid var(--line-color);
             border-bottom: 1px solid var(--line-color);
         }
-
-        .cross-link {
+.cross-link {
             padding: 1.5rem;
             border: 1px solid var(--line-color);
             border-radius: 6px;
             transition: all 0.3s ease;
         }
-
-        .cross-link:hover {
+.cross-link:hover {
             background-color: rgba(212, 162, 84, 0.05);
             border-color: var(--accent-gold);
             transform: translateY(-4px);
         }
-
-        .cross-link a {
+.cross-link a {
             color: var(--accent-gold);
             text-decoration: none;
             font-weight: 600;
@@ -226,18 +191,15 @@
             margin-bottom: 0.5rem;
             font-size: 1.05rem;
         }
-
-        .cross-link a:hover {
+.cross-link a:hover {
             text-decoration: underline;
         }
-
-        .cross-link p {
+.cross-link p {
             font-size: 0.95rem;
             color: var(--text-secondary);
             margin: 0;
         }
-
-        .never-gives-up-banner {
+.never-gives-up-banner {
             background: linear-gradient(135deg, var(--accent-ember), var(--accent-gold));
             padding: 2rem;
             border-radius: 8px;
@@ -245,87 +207,21 @@
             text-align: center;
             color: var(--bg-deep);
         }
-
-        .never-gives-up-banner h3 {
+.never-gives-up-banner h3 {
             color: var(--bg-deep);
             margin-top: 0;
         }
-
-        .never-gives-up-banner p {
+.never-gives-up-banner p {
             color: var(--bg-deep);
             font-weight: 500;
         }
-
-        .never-gives-up-banner a {
+.never-gives-up-banner a {
             color: var(--bg-deep);
             text-decoration: underline;
             font-weight: 700;
         }
 
-        footer {
-            background-color: #000;
-            margin-top: 4rem;
-            border-top: 1px solid var(--line-color);
-        }
-
-        .footer-container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 3rem 1.5rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-        }
-
-        .footer-section h4 {
-            color: var(--accent-gold);
-            font-size: 0.95rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            margin-bottom: 1rem;
-            font-weight: 700;
-        }
-
-        .footer-section ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .footer-section li {
-            margin-bottom: 0.75rem;
-        }
-
-        .footer-section a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.95rem;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-grace-warning {
-            max-width: 900px;
-            margin: 2rem auto 1rem;
-            padding: 1.5rem;
-            background-color: rgba(212, 162, 84, 0.08);
-            border-left: 4px solid var(--accent-gold);
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            text-align: center;
-        }
-
-        .footer-copyright {
-            text-align: center;
-            padding: 1.5rem;
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            border-top: 1px solid var(--line-color);
-        }
-
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
 
             .content-wrap {
                 padding: 0 1rem;

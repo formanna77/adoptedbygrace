@@ -40,7 +40,8 @@
     
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<style>/* Page-specific: study cards, stat callouts, discipline badges */
+<style>
+/* Page-specific: study cards, stat callouts, discipline badges */
         .study-card {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -50,14 +51,14 @@
             position: relative;
             overflow: hidden;
         }
-        .study-card::before {
+.study-card::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
             height: 3px;
             background: linear-gradient(90deg, var(--accent-violet), var(--accent-ember));
         }
-        .study-card .study-label {
+.study-card .study-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.68rem;
             text-transform: uppercase;
@@ -65,18 +66,18 @@
             color: var(--accent-violet);
             margin-bottom: 0.5rem;
         }
-        .study-card h4 {
+.study-card h4 {
             color: var(--text-primary);
             margin-bottom: 0.8rem;
             font-size: 1.15rem;
         }
-        .study-card p {
+.study-card p {
             color: var(--text-secondary);
             font-size: 0.95rem;
             line-height: 1.8;
             margin-bottom: 0;
         }
-        .study-card .reformed-echo {
+.study-card .reformed-echo {
             margin-top: 1rem;
             padding-top: 1rem;
             border-top: 1px solid var(--border-subtle);
@@ -84,8 +85,7 @@
             color: var(--accent-gold);
             font-size: 0.9rem;
         }
-
-        .stat-callout {
+.stat-callout {
             display: flex;
             align-items: center;
             gap: 1.5rem;
@@ -95,7 +95,7 @@
             padding: 1.5rem 2rem;
             margin: 2rem 0;
         }
-        .stat-callout .stat-number {
+.stat-callout .stat-number {
             font-family: 'Playfair Display', serif;
             font-size: 2.8rem;
             font-weight: 900;
@@ -106,13 +106,12 @@
             white-space: nowrap;
             line-height: 1;
         }
-        .stat-callout .stat-text {
+.stat-callout .stat-text {
             color: var(--text-secondary);
             font-size: 0.95rem;
             line-height: 1.7;
         }
-
-        .verdict-box {
+.verdict-box {
             background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.05));
             border: 2px solid rgba(212, 162, 84, 0.2);
             border-radius: 12px;
@@ -120,20 +119,19 @@
             margin: 3rem 0;
             text-align: center;
         }
-        .verdict-box h3 {
+.verdict-box h3 {
             color: var(--accent-gold);
             margin-bottom: 1rem;
             font-size: 1.6rem;
         }
-        .verdict-box p {
+.verdict-box p {
             color: var(--text-secondary);
             font-size: 1.1rem;
             line-height: 1.9;
             max-width: 650px;
             margin: 0 auto;
         }
-
-        .humor-aside {
+.humor-aside {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.78rem;
             color: var(--text-muted);
@@ -141,29 +139,27 @@
             padding: 1rem;
             letter-spacing: 0.03em;
         }
-
-        .discipline-tags {
+.discipline-tags {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
             margin: 1rem 0;
         }
-
-        @media (max-width: 600px) {
+@media (max-width: 600px) {
             .stat-callout { flex-direction: column; text-align: center; gap: 0.8rem; }
             .stat-callout .stat-number { font-size: 2.2rem; }
         }
-        @media (max-width: 480px) {
+@media (max-width: 480px) {
             h1 { font-size: 1.8rem; }
             .content-section { padding: 1.5rem 1rem; }
-            footer { margin-top: 2rem; padding: 1.5rem 1rem; }
+            
             .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
             .card { padding: 1.5rem; }
             blockquote, .scripture-block { display: block; padding: 1.2rem 1.3rem; }
         }
-    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }</style>
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -177,10 +173,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -258,9 +252,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-
-
-
 
     <div class="breadcrumb-nav"><a href="secular-evidence.html">&larr; Back to The Evidence</a></div>
 
@@ -573,8 +564,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
     </main>
 
-    
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -678,7 +667,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </section>
     </footer>
 
-    
     <script src="/global.js" defer>
         // Mobile dropdown toggles
         const navLinks = document.querySelector('.nav-links');

@@ -41,18 +41,11 @@
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-*:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-        /* ===== PAGE HERO SECTION ===== */
-        .page-hero {
-            padding: 0 2rem;
-            text-align: center;
-            margin: 4rem auto 3rem;
-            max-width: 800px;
-        }
-        .eyebrow {
+/* ===== PAGE HERO SECTION ===== */
+        
+.eyebrow {
             font-size: 0.75rem;
             text-transform: uppercase;
             letter-spacing: 0.15em;
@@ -60,30 +53,13 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             margin-bottom: 1rem;
             font-weight: 600;
         }
-        .page-hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3.2rem;
-            font-weight: 900;
-            color: var(--text-primary);
-            margin: 0 0 1rem;
-            line-height: 1.1;
-        }
-        .page-hero .subtitle {
-            font-family: 'Inter', sans-serif;
-            font-size: 1.15rem;
-            color: var(--text-secondary);
-            margin: 0;
-            line-height: 1.6;
-        }
-
-        /* ===== MAIN CONTENT ===== */
+/* ===== MAIN CONTENT ===== */
         .content-container {
             max-width: 850px;
             margin: 0 auto;
             padding: 0 2rem;
         }
-
-        /* ===== SHARE BAR ===== */
+/* ===== SHARE BAR ===== */
         .share-bar {
             display: flex;
             align-items: center;
@@ -92,45 +68,29 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             margin: 2rem auto;
             padding: 0 2rem;
         }
-        .share-label {
+.share-label {
             font-size: 0.7rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.1em;
             color: var(--text-muted);
         }
-        .share-btn {
-            width: 36px; height: 36px;
-            border-radius: 50%;
-            border: 1px solid var(--border-subtle);
-            background: transparent;
-            color: var(--text-secondary);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-decoration: none;
-        }
-        .share-btn:hover { border-color: var(--accent-gold); color: var(--accent-gold); }
-
-        /* ===== RESPONSIVE ===== */
+/* ===== RESPONSIVE ===== */
         @media (max-width: 968px) {
-            .page-hero h1 { font-size: 2.2rem; }
-            .page-hero .subtitle { font-size: 1rem; }
-            .hero { padding: 4rem 1.5rem 3rem; }
+            
+            
+            
             .content-container { padding: 0 1.5rem; }
-            .footer-container { grid-template-columns: 1fr; text-align: center; }
+            
         }
-        @media (max-width: 480px) {
-            .hero h1 { font-size: 1.8rem; }
+@media (max-width: 480px) {
+            
             .hero-subtitle { font-size: 0.95rem; }
-            .hero { padding: 3rem 1rem 2.5rem; }
+            
             .content-container { padding: 0 1rem; }
             .hero-verses blockquote { padding: 0.8rem 1rem; font-size: 0.95rem; }
             blockquote { padding: 1rem; margin: 1rem 0; }
         }
-
     </style>
 </head>
 <body>
@@ -146,10 +106,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -228,11 +186,10 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="search-results" id="searchResults"></div>
     </div>
 
-
-
-
 <!-- Hero Section -->
 <section class="page-hero">
+            <div class="eyebrow">Analogy</div>
+
     <h1>Does God Control Everything? The Chess Grandmaster Analogy</h1>
     <p class="subtitle">How God's <a href="/question-sovereignty-logic">Sovereignty</a> and Human Responsibility Play On the Same Board</p>
 </section>
@@ -472,7 +429,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
 <!-- Footer -->
 
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -530,7 +486,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
     <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
 </footer>
-
 
 <script src="/global.js" defer></script>
 
