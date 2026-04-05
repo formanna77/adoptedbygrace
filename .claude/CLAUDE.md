@@ -82,15 +82,16 @@ Diamond Week is an intensive enhancement blitz. Creation is capped; enhancement 
 
 **After Diamond Week (April 13+):** Remove this section and delete DIAMOND-WEEK-TRACKER.md.
 
-## SEARCH INDEX & MEGA-MENU REBUILD — MANDATORY FOR ALL CONTENT AGENTS
-**After creating or modifying HTML pages, you MUST run these before finishing:**
+## SEARCH INDEX, MEGA-MENU & HOMEPAGE COUNTER REBUILD — MANDATORY FOR ALL CONTENT AGENTS
+**After creating or modifying HTML pages, you MUST run ALL THREE of these before finishing:**
 
 ```bash
 node build-search-index.js
 node build-mega-menu.js
+node build-homepage-counts.js
 ```
 
-These rebuild the site search index (`search-index.js`) and the Explore dropdown menu data in `nav.js`. If you skip this, new or updated pages will NOT appear in site search or the Explore menu.
+These rebuild: (1) the site search index (`search-index.js`), (2) the Explore dropdown menu data in `nav.js`, and (3) the article-count counters in the Content Explorer section on the homepage (`index.html`). If you skip any of these, new or updated pages will NOT appear in site search, the Explore menu, or the homepage content inventory.
 
 ## NO STUB PAGES — MANDATORY FOR ALL AGENTS
 **NEVER save an HTML file that is incomplete.** Every HTML file committed to the repo must have a complete, functioning page: `<head>` with `<link rel="stylesheet" href="/global.css">`, `</head>`, `<body>`, the full nav from `/_nav-template.html`, actual article content, the full footer with grace warning, and `<script src="/nav.js"></script>`. If you cannot finish a page in this session — **do not create the file.** A half-written stub with only `<head>` metadata is worse than no file at all: it renders as a blank white page, other agents link to it, and visitors hit a dead end. The rule is simple: **finished page or no page.**
