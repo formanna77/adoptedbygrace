@@ -252,6 +252,117 @@ Every hub page MUST include a `.hub-stats` bar inside the `.hub-hero`, showing a
 </body>
 ```
 
+## ══════════════════════════════════════════════════════
+## ARTICLE PAGE DESIGN — MANDATORY FOR ALL AGENTS — ZERO EXCEPTIONS
+## ══════════════════════════════════════════════════════
+
+**Every article page MUST use EXACTLY this HTML structure.** No exceptions. No custom wrapper classes. No inline `<style>` tags. This was established 2026-04-05 after discovering that 68+ pages used non-standard wrapper classes, causing white text, no max-width, and broken layouts.
+
+### THE ROOT CAUSE (SO YOU NEVER REPEAT IT)
+Different agents invented different CSS class names for content wrappers: `content-wrap`, `article-content`, `content-wrapper`, `main-content`, `content-container`, `content-main`, `article-wrapper`, `pattern-section`, `point-section`, `content-grid`. Most of these were NOT styled in global.css, so content defaulted to white text with no constraints. A safety net has been added to global.css to catch legacy pages, but **new pages MUST use `article-body` and nothing else.**
+
+### The ONLY Allowed Wrapper Class for Article Body Content: `article-body`
+Not `content-wrap`. Not `article-content`. Not `content-wrapper`. Not `main-content`. Not `content-section`. Not `section`. **ONLY `article-body`.** This is the canonical class. All others exist only as legacy aliases.
+
+### The ONLY Allowed Hero Class for Article Pages: `page-hero`
+Not `hub-hero` (that's for hub pages only). Not a custom hero class. Not an inline-styled header. **ONLY `page-hero` with a `.eyebrow` span.**
+
+### Article Page Template (COPY THIS EXACTLY):
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Title | Adopted by Grace</title>
+    <meta name="description" content="155-character description for SEO.">
+    <link rel="canonical" href="https://adoptedbygrace.net/article-slug">
+    <meta property="og:title" content="Article Title">
+    <meta property="og:description" content="Same as meta description.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/article-slug">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <!-- PASTE EXACT NAV FROM /_nav-template.html HERE -->
+
+    <header class="page-hero">
+        <span class="eyebrow">Category Name</span>
+        <h1>Article Title</h1>
+        <p class="hub-subtitle">One-sentence subtitle/description.</p>
+    </header>
+
+    <article class="article-body">
+        <!-- ALL article content goes inside this single wrapper -->
+        <!-- Use h2 for major sections, h3 for subsections -->
+        <!-- Use <blockquote> for Scripture quotations -->
+        <!-- Use <p> for all body text -->
+        <!-- Weave internal links throughout prose (8-12 minimum) -->
+
+        <h2>First Section Heading</h2>
+        <p>Body text here using var(--text-secondary) automatically from global.css.</p>
+
+        <blockquote>
+            <p>"Scripture quote here in NIV."</p>
+            <cite>BOOK CHAPTER:VERSE</cite>
+        </blockquote>
+
+        <h2>Next Section</h2>
+        <p>More content...</p>
+    </article>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <!-- footer content -->
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+</body>
+</html>
+```
+
+### Agents are BANNED from:
+- Using ANY wrapper class other than `article-body` for new article pages
+- Using `hub-hero` on article pages (that's for hub/category pages ONLY)
+- Adding inline `<style>` tags to ANY page (the ONLY exceptions: index.html, belief-assessment.html, question-faith-origin-test.html, verse-explorer.html — these are interactive widgets)
+- Inventing new CSS class names. If a class doesn't exist in global.css, DON'T CREATE IT. Use the classes that exist.
+- Using hardcoded colors (e.g., `color: white`, `color: #fff`, `color: #f5eedc`). Use CSS variables: `var(--text-secondary)` for body text, `var(--accent-gold)` for gold accents, `var(--accent-ember)` for ember accents.
+
+### The Eyebrow Category Labels (use exactly these):
+| Hub | Eyebrow Text |
+|-----|-------------|
+| questions.html | Questions |
+| demolition-hub.html | Demolition |
+| psychology-hub.html | Psychology |
+| philosophy-hub.html | Philosophy |
+| stories.html | Stories |
+| devotionals.html | Devotionals |
+| analogies-illustrations.html | Analogies |
+| secular-evidence.html | Secular Evidence |
+| systematic-theology.html | Systematic Theology |
+| theologians.html | Theologians |
+| history-timeline.html | History |
+| creeds-confessions.html | Creeds & Confessions |
+| ot-hub.html | Old Testament |
+| essays.html | Essays |
+| comparisons-hub.html | Comparisons |
+| pastoral-hub.html | Pastoral |
+| invisible-wall-hub.html | The Invisible Wall |
+| open-wound-hub.html | The Open Wound |
+| shattered-lens-hub.html | The Shattered Lens |
+| broken-mirror-hub.html | The Broken Mirror |
+| anxious-mind-hub.html | The Anxious Mind |
+
 ## SOCIAL MEDIA CONTENT — ELIMINATED
 Agents are BANNED from creating social media content of any kind. No tweets, no threads, no Instagram carousels, no TikTok scripts, no Facebook posts, no social snippets, no SOCIAL-QUEUE.md entries. Zero. The content on the site must be so good that readers share it themselves — we do not create social media marketing. All compute that would have gone to social media must be redirected to making the site content itself more powerful, more discoverable via SEO, and more devastating in its quality.
 

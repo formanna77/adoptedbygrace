@@ -977,7 +977,7 @@ h4 { font-size: 1.2rem; font-weight: 700; }
 /* ===== CONTENT CONTAINERS & SECTIONS ===== */
 /* These styles ensure EVERY article page looks warm, golden, and consistent
    without needing page-specific inline <style> blocks. */
-.content-container, .content { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+.content-container, .content, .content-main, .article-wrapper { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
 .content-section, .article-body, .section { max-width: 900px; margin: 0 auto; padding: 4rem 2rem; }
 
 /* Headings — Playfair, gold accents */
@@ -1846,53 +1846,110 @@ table { max-width: 100%; }
 .story-prose p { margin-bottom: 1.5rem; font-size: 1.08rem; line-height: 1.9; }
 .story-prose em { color: var(--accent-gold); }
 
-/* --- Article Content (legacy alias for article-body) --- */
-.article-content, .content-wrap, .content-body, .content-wrapper, .main-content {
+/* --- Article Content (catch-all aliases for article-body) --- */
+/* Every wrapper class any agent has EVER used, so no page falls through the cracks. */
+/* New pages MUST use .article-body — these aliases exist only to fix legacy pages. */
+.article-content, .content-wrap, .content-body, .content-wrapper, .main-content,
+.content-container, .content-main, .article-wrapper, .pattern-section, .point-section,
+.content-grid, .essay-content, .story-content, .devotional-content, .theology-content {
     max-width: 900px;
     margin: 0 auto;
     padding: 3rem 2rem;
 }
-.article-content h2, .content-wrap h2, .content-body h2 {
+.article-content h2, .content-wrap h2, .content-body h2, .content-wrapper h2,
+.main-content h2, .content-container h2, .content-main h2, .article-wrapper h2,
+.pattern-section h2, .point-section h2, .content-grid h2, .essay-content h2,
+.story-content h2, .devotional-content h2, .theology-content h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--accent-gold);
-    margin-top: 3rem;
-    margin-bottom: 1.2rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid rgba(212, 162, 84, 0.12);
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid rgba(212, 162, 84, 0.15);
+    line-height: 1.3;
 }
-.article-content h3, .content-wrap h3, .content-body h3 {
+.article-content h3, .content-wrap h3, .content-body h3, .content-wrapper h3,
+.main-content h3, .content-container h3, .content-main h3, .article-wrapper h3,
+.pattern-section h3, .point-section h3, .content-grid h3, .essay-content h3,
+.story-content h3, .devotional-content h3, .theology-content h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 600;
     color: var(--accent-gold);
     margin-top: 2.5rem;
     margin-bottom: 1rem;
 }
-.article-content p, .content-wrap p, .content-body p {
+.article-content h4, .content-wrap h4, .content-body h4, .content-wrapper h4,
+.main-content h4, .content-container h4, .content-main h4, .article-wrapper h4,
+.pattern-section h4, .point-section h4, .content-grid h4, .essay-content h4,
+.story-content h4, .devotional-content h4, .theology-content h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent-gold);
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+}
+.article-content p, .content-wrap p, .content-body p, .content-wrapper p,
+.main-content p, .content-container p, .content-main p, .article-wrapper p,
+.pattern-section p, .point-section p, .content-grid p, .essay-content p,
+.story-content p, .devotional-content p, .theology-content p {
     color: var(--text-secondary);
     font-size: 1.05rem;
     line-height: 1.9;
     margin-bottom: 1.5rem;
 }
-.article-content a, .content-wrap a, .content-body a {
+.article-content a, .content-wrap a, .content-body a, .content-wrapper a,
+.main-content a, .content-container a, .content-main a, .article-wrapper a,
+.pattern-section a, .point-section a, .content-grid a, .essay-content a,
+.story-content a, .devotional-content a, .theology-content a {
     color: var(--accent-gold);
     text-decoration: none;
     border-bottom: 1px solid rgba(212, 162, 84, 0.3);
     transition: all 0.3s ease;
 }
-.article-content a:hover, .content-wrap a:hover, .content-body a:hover {
+.article-content a:hover, .content-wrap a:hover, .content-body a:hover, .content-wrapper a:hover,
+.main-content a:hover, .content-container a:hover, .content-main a:hover, .article-wrapper a:hover,
+.pattern-section a:hover, .point-section a:hover, .content-grid a:hover, .essay-content a:hover,
+.story-content a:hover, .devotional-content a:hover, .theology-content a:hover {
     color: var(--accent-ember);
     border-color: var(--accent-ember);
 }
-.article-content strong, .content-wrap strong, .content-body strong {
+.article-content strong, .content-wrap strong, .content-body strong, .content-wrapper strong,
+.main-content strong, .content-container strong, .content-main strong, .article-wrapper strong,
+.pattern-section strong, .point-section strong, .content-grid strong, .essay-content strong,
+.story-content strong, .devotional-content strong, .theology-content strong {
     color: var(--text-bright);
     font-weight: 600;
 }
-.article-content em, .content-wrap em, .content-body em {
+.article-content em, .content-wrap em, .content-body em, .content-wrapper em,
+.main-content em, .content-container em, .content-main em, .article-wrapper em,
+.pattern-section em, .point-section em, .content-grid em, .essay-content em,
+.story-content em, .devotional-content em, .theology-content em {
     color: var(--text-bright);
     font-style: italic;
+}
+.article-content ul, .content-wrap ul, .content-body ul, .content-wrapper ul,
+.main-content ul, .content-container ul, .content-main ul, .article-wrapper ul,
+.pattern-section ul, .point-section ul, .content-grid ul, .essay-content ul,
+.story-content ul, .devotional-content ul, .theology-content ul,
+.article-content ol, .content-wrap ol, .content-body ol, .content-wrapper ol,
+.main-content ol, .content-container ol, .content-main ol, .article-wrapper ol,
+.pattern-section ol, .point-section ol, .content-grid ol, .essay-content ol,
+.story-content ol, .devotional-content ol, .theology-content ol {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+.article-content li, .content-wrap li, .content-body li, .content-wrapper li,
+.main-content li, .content-container li, .content-main li, .article-wrapper li,
+.pattern-section li, .point-section li, .content-grid li, .essay-content li,
+.story-content li, .devotional-content li, .theology-content li {
+    margin-bottom: 0.5rem;
 }
 
 /* --- Page Header (legacy alias for page-hero) --- */
@@ -2653,4 +2710,26 @@ body {
     .thread-section h2 { font-size: 1.4rem; }
     .thread-content p { font-size: 0.95rem; }
     .related-articles { padding: 1.5rem; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   SAFETY NET — Catch-all for any future wrapper classes agents invent.
+   This ensures NO page EVER shows white body text or unstyled content.
+   New pages MUST use .article-body (per CLAUDE.md mandate).
+   This rule exists as a backstop, NOT as permission to invent classes.
+   ═══════════════════════════════════════════════════════════════════ */
+body > article p, body > main p, body > div:not(.nav-container):not(.mega-menu-dropdown):not(.search-overlay):not(.footer-container):not(.footer-grace-warning):not(.footer-copyright):not(.hub-container):not(.hub-grid) > p {
+    color: var(--text-secondary);
+    line-height: 1.9;
+}
+body > article h2, body > main h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--accent-gold);
+}
+body > article h3, body > main h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--accent-gold);
+}
+body > article a, body > main a {
+    color: var(--accent-gold);
 }
