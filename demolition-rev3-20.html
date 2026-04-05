@@ -71,7 +71,7 @@
         .section p { margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 1.8; }
         .section strong { color: var(--text-primary); }
         .section em { color: var(--accent-gold); font-style: italic; }
-        .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
+        .scripture-block { display: block; background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
         .scripture-block.large { font-size: 1.15rem; padding: 2.5rem; }
         .scripture-ref { display: block; margin-top: 1rem; font-style: normal; color: var(--text-muted); font-size: 0.9rem; }
         .version-block { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 1.5rem; margin: 1rem 0; }
@@ -126,7 +126,7 @@
         .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s ease; }
         .footer-section a:hover { color: var(--accent-gold); }
         .footer-copyright { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.85rem; }
-        @media (max-width: 1024px) { .hero h1 { font-size: 1.8rem; } .section h2 { font-size: 1.5rem; } .section h3 { font-size: 1.2rem; } .scripture-block { padding: 1.2rem; font-size: 0.9rem; } .scripture-block.large { padding: 1.5rem; font-size: 1rem; } .greek-grid { grid-template-columns: 1fr; } .section-nav-container { gap: 1rem; } .hero { padding: 2rem 1.2rem; margin: 1.5rem auto; } .content { padding: 0 1.2rem; } .argument-item { padding: 1.2rem; } .next-article { margin: 2rem auto; padding: 1.2rem; } footer { padding: 2rem 1rem; } .section- .pull-quote { padding: 1.2rem; } .pull-quote-text { font-size: 1rem; } }
+        @media (max-width: 1024px) { .hero h1 { font-size: 1.8rem; } .section h2 { font-size: 1.5rem; } .section h3 { font-size: 1.2rem; } .scripture-block { display: block; padding: 1.2rem; font-size: 0.9rem; } .scripture-block.large { padding: 1.5rem; font-size: 1rem; } .greek-grid { grid-template-columns: 1fr; } .section-nav-container { gap: 1rem; } .hero { padding: 2rem 1.2rem; margin: 1.5rem auto; } .content { padding: 0 1.2rem; } .argument-item { padding: 1.2rem; } .next-article { margin: 2rem auto; padding: 1.2rem; } footer { padding: 2rem 1rem; } .section- .pull-quote { padding: 1.2rem; } .pull-quote-text { font-size: 1rem; } }
 
         @media (max-width: 768px) {
             .hero { padding: 1.5rem 1rem; margin: 1.5rem auto; }
@@ -136,7 +136,7 @@
             .section h2 { font-size: 1.3rem; margin-bottom: 1rem; margin-top: 2.5rem; }
             .section h3 { font-size: 1rem; margin-top: 1rem; margin-bottom: 0.6rem; }
             .content { padding: 0 1rem; }
-            .scripture-block { padding: 1rem; font-size: 0.9rem; margin: 1.5rem 0; }
+            .scripture-block { display: block; padding: 1rem; font-size: 0.9rem; margin: 1.5rem 0; }
             .scripture-block.large { padding: 1.2rem; font-size: 0.95rem; }
             .greek-grid { gap: 1.5rem; }
             .greek-box { padding: 1rem; }
@@ -164,9 +164,9 @@
             .section h3 { font-size: 0.95rem; margin-top: 0.8rem; }
             .section p { margin-bottom: 1rem; }
             .content { padding: 0 0.8rem; }
-            .scripture-block { padding: 0.8rem; font-size: 0.85rem; margin: 1rem 0; }
+            .scripture-block { display: block; padding: 0.8rem; font-size: 0.85rem; margin: 1rem 0; }
             .scripture-block.large { padding: 1rem; font-size: 0.9rem; }
-            .scripture-ref { font-size: 0.8rem; margin-top: 0.6rem; }
+            .scripture-ref { display: block; font-size: 0.8rem; margin-top: 0.6rem; }
             .greek-grid { grid-template-columns: 1fr; gap: 1rem; }
             .greek-box { padding: 0.8rem; }
             .greek-word { font-size: 0.95rem; }

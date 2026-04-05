@@ -943,7 +943,7 @@ h4 { font-size: 1.2rem; font-weight: 700; }
 .content-section a:hover { color: var(--accent-ember); border-color: var(--accent-ember); }
 
 /* ===== BLOCKQUOTES (Scripture) ===== */
-blockquote, .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.04), rgba(232, 100, 44, 0.04)); border-left: 4px solid var(--accent-gold); border-radius: 0 8px 8px 0; padding: 1.8rem 2rem; margin: 2rem auto; position: relative; overflow: hidden; }
+blockquote, .scripture-block { display: block; background: linear-gradient(135deg, rgba(139, 92, 246, 0.04), rgba(232, 100, 44, 0.04)); border-left: 4px solid var(--accent-gold); border-radius: 0 8px 8px 0; padding: 1.8rem 2rem; margin: 2rem auto; position: relative; overflow: visible; }
 blockquote::after { content: '\201D'; position: absolute; top: -10px; right: 20px; font-size: 8rem; font-family: 'Playfair Display', serif; color: rgba(212, 162, 84, 0.06); pointer-events: none; }
 blockquote p, .scripture-block p { font-style: italic; color: var(--text-primary); line-height: 1.9; font-size: 1.1rem; margin-bottom: 0; }
 blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.1em; font-style: normal; display: block; margin-top: 0.8rem; }

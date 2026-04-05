@@ -69,7 +69,7 @@
         .section h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 1.5rem; color: var(--accent-gold); }
         .section h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-top: 2rem; margin-bottom: 1rem; color: var(--accent-gold); }
         .section p { margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 1.8; }
-        .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
+        .scripture-block { display: block; background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
         .greek-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin: 2rem 0; }
         .greek-box { background: var(--bg-card); border: 1px solid var(--border-subtle); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 1.5rem; }
         .greek-word { font-family: 'JetBrains Mono', monospace; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.5rem; }
@@ -132,7 +132,7 @@
             .section h2 { font-size: 1.5rem; }
             .section h3 { font-size: 1.2rem; }
             .content { padding: 0 1.2rem; }
-            .scripture-block { padding: 1.2rem; font-size: 0.9rem; }
+            .scripture-block { display: block; padding: 1.2rem; font-size: 0.9rem; }
             .greek-grid { grid-template-columns: 1fr; }
             .attributes-grid { grid-template-columns: 1fr; }
             .section-nav-container { gap: 0.8rem; }
@@ -177,7 +177,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             footer { margin-top: 2rem; padding: 1.5rem 1rem; }
             .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
             .card { padding: 1.5rem; }
-            blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
+            blockquote, .scripture-block { display: block; padding: 1.2rem 1.3rem; }
         }
 
     </style>
