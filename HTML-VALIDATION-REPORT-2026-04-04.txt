@@ -1,0 +1,179 @@
+================================================================================
+HTML VALIDATION REPORT - ADOPTEDBYGRACE.NET
+Site Content Files: 298
+Report Date: 2026-04-04
+================================================================================
+
+EXECUTIVE SUMMARY
+=================
+Out of 298 HTML site content files, 3 distinct issues found across 17 files.
+
+Critical issues: 2 (require immediate fix)
+Minor issues: 1 (quality/structure concern)
+Status: URGENT - Multiple pages have duplicate <body> tags and fonts in wrong location
+
+================================================================================
+ISSUE 1: DUPLICATE <body> TAGS (10 FILES) - CRITICAL
+================================================================================
+
+These files have TWO <body> tags, which will cause rendering issues:
+
+1. objection-author-of-sin.html
+   Line 19: <body>
+   Line 38: <body>
+
+2. objection-why-command.html
+   Line 16: <body>
+   Line 44: <body>
+
+3. ot-abel-cain.html
+   - Multiple <body> tags found
+
+4. ot-election.html
+   - Multiple <body> tags found
+
+5. ot-joseph.html
+   - Multiple <body> tags found
+
+6. question-john17.html
+   - Multiple <body> tags found
+
+7. question-revelation13.html
+   - Multiple <body> tags found
+
+8. start-here-assessment.html
+   - Multiple <body> tags found
+
+9. story-the-dead-city.html
+   - Multiple <body> tags found
+
+10. theologian-whitefield.html
+    - Multiple <body> tags found
+
+IMPACT: Browsers will only recognize one <body> tag. The second one will be
+ignored. This creates rendering inconsistencies and may affect navigation,
+styling, or script execution.
+
+FIX: Remove the first <body> tag (at head/meta section). These files appear
+to have been edited/concatenated incorrectly.
+
+================================================================================
+ISSUE 2: GOOGLE FONTS <link> TAGS INSIDE <body> (6 FILES) - CRITICAL
+================================================================================
+
+These files have Google Fonts <link> tags AFTER the <body> tag opens,
+instead of in the <head>:
+
+1. index.html
+   Lines 19-21: Google Fonts preconnect and stylesheet in body
+
+2. objection-why-command.html
+   - Google Fonts links appear in body (after line 44)
+
+3. ot-abel-cain.html
+   - Google Fonts links in body
+
+4. ot-election.html
+   - Google Fonts links in body
+
+5. ot-joseph.html
+   - Google Fonts links in body
+
+6. question-revelation13.html
+   - Google Fonts links in body
+
+IMPACT: Link tags in the body are invalid HTML. They should only appear in
+<head>. This causes font loading to be delayed and may cause FOIT/FOUT
+(Flash of Unstyled/Invisible Text) issues.
+
+FIX: Move all <link rel="preconnect"> and <link href="...fonts.googleapis...">
+tags to the <head> section, before </head>.
+
+================================================================================
+ISSUE 3: <style> TAG INSIDE <body> (1 FILE) - MINOR
+================================================================================
+
+File: psychology-hub.html
+   Line 24: <body>
+   Line 343: <style>... (appears in body)
+
+IMPACT: Inline styles should be in <head> or loaded externally. While modern
+browsers tolerate this, it's invalid HTML and can cause rendering delays.
+
+FIX: Move the <style> tag from line 343 to the <head> section.
+
+================================================================================
+ISSUES NOT FOUND (GOOD NEWS!)
+================================================================================
+
+Check 5: Extra </div> after search overlay
+   STATUS: PASS - All files correctly have only one closing </div> after
+   searchResults div
+
+Check 3: Missing footer-grace-warning
+   STATUS: PASS - All 298 site content files include the footer-grace-warning
+
+Check 2: <title> tag inside <body>
+   STATUS: PASS - No files have <title> tags in the body
+
+================================================================================
+NOTES ON HTML PARSER VALIDATION
+================================================================================
+
+Check 6 (unclosed tags): The HTML parser detected unclosed tags at end of all
+298 files. This is EXPECTED and NORMAL - the parser doesn't fully understand
+HTML void elements (br, meta, link, input) and closing sequences at the end
+of files. This is not an error.
+
+All 298 files close properly with </html> at the very end.
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+IMMEDIATE ACTIONS REQUIRED:
+
+1. Fix the 10 files with duplicate <body> tags
+   - Remove the first <body> tag in each file
+   - Verify structure after edit
+
+2. Fix the 6 files with fonts in body
+   - Move Google Fonts <link> tags from body to <head>
+   - Maintain order: preconnect links before stylesheet link
+
+3. Fix psychology-hub.html
+   - Move <style> tag from body to <head>
+
+PRIORITY: HIGH - These are structural HTML errors that affect page rendering
+and validity.
+
+TIME ESTIMATE: 15-30 minutes to fix all 17 files
+
+================================================================================
+DETAILED FILE LISTING
+================================================================================
+
+FILES WITH DUPLICATE <body> TAGS (10):
+- objection-author-of-sin.html
+- objection-why-command.html
+- ot-abel-cain.html
+- ot-election.html
+- ot-joseph.html
+- question-john17.html
+- question-revelation13.html
+- start-here-assessment.html
+- story-the-dead-city.html
+- theologian-whitefield.html
+
+FILES WITH FONTS IN BODY (6):
+- index.html
+- objection-why-command.html
+- ot-abel-cain.html
+- ot-election.html
+- ot-joseph.html
+- question-revelation13.html
+
+FILES WITH STYLE IN BODY (1):
+- psychology-hub.html
+
+================================================================================
