@@ -38,26 +38,9 @@
     }
     </script>
 
-    
 <style>
         .reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold) 0%, var(--accent-ember) 50%, var(--accent-violet) 100%); z-index: 1000; width: 0%; transition: width 0.1s ease-out; }
 
-        .page-hero {
-            position: relative;
-            padding: 10rem 2rem 5rem;
-            text-align: left;
-            max-width: 900px;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-        .page-hero::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: radial-gradient(ellipse at 30% 40%, rgba(139, 92, 246, 0.08) 0%, transparent 60%),
-                        radial-gradient(ellipse at 80% 20%, rgba(232, 100, 44, 0.05) 0%, transparent 40%);
-            pointer-events: none;
-        }
         .hero-eyebrow {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.875rem;
@@ -66,21 +49,6 @@
             text-transform: uppercase;
             margin-bottom: 1rem;
             display: block;
-        }
-        .page-hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2.5rem, 6vw, 4rem);
-            line-height: 1.15;
-            color: var(--text-primary);
-            font-weight: 900;
-        }
-        .page-hero h1 .gold { color: var(--accent-gold); }
-        .page-hero .subtitle {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            max-width: 650px;
-            margin-top: 1.5rem;
-            line-height: 1.7;
         }
 
         .content-wrap { max-width: 850px; margin: 0 auto; padding: 0 2rem 4rem; }
@@ -117,8 +85,7 @@
         .never-gives-up-banner p { color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem; margin-bottom: 0; }
 
         @media (max-width: 768px) {
-            .page-hero { padding: 7rem 1.2rem 3rem; }
-            .page-hero h1 { font-size: 2rem; }
+
             .content-wrap { padding: 0 1.2rem 3rem; }
             h2 { font-size: 1.35rem; }
             .pullquote { font-size: 1.1rem; padding: 1.5rem 1rem; }

@@ -63,56 +63,6 @@
             color: var(--text-primary);
         }
 
-        .reading-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-violet), var(--accent-gold));
-            width: 0%;
-            z-index: 9999;
-            transition: width 0.1s ease-out;
-        }
-
-        .hero-section {
-            position: relative;
-            min-height: 70vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 4rem 2rem;
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.08) 0%, rgba(232, 100, 44, 0.04) 100%);
-            border-bottom: 1px solid var(--border-subtle);
-            text-align: center;
-        }
-
-        .hero-eyebrow {
-            font-size: 0.75rem;
-            font-weight: 600;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: var(--accent-violet);
-            margin-bottom: 1.5rem;
-        }
-
-        .hero-title {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2.5rem, 6vw, 4.5rem);
-            font-weight: 900;
-            line-height: 1.1;
-            margin-bottom: 1rem;
-            color: var(--text-primary);
-        }
-
-        .hero-subtitle {
-            font-size: clamp(1rem, 2.5vw, 1.5rem);
-            color: var(--text-secondary);
-            font-weight: 400;
-            margin-bottom: 2rem;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
 
         .content-section {
             max-width: 820px;
@@ -333,11 +283,6 @@
         }
 
         @media (max-width: 768px) {
-            .hero-section {
-                min-height: auto;
-                padding: 3rem 1.5rem;
-            }
-
             .content-section {
                 padding: 2rem 1.5rem;
             }
@@ -353,9 +298,7 @@
     </style>
 </head>
 <body>
-    <div class="reading-progress" id="readingProgress"></div>
-
-            <nav role="navigation" aria-label="Main navigation">
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -421,12 +364,10 @@
     </div>
 
     <main>
-        <section class="hero-section">
-            <div>
-                <div class="hero-eyebrow">THE PSYCHOLOGY OF RESISTANCE</div>
-                <h1 class="hero-title">Why Your Church Friends All Agree With Each Other</h1>
-                <p class="hero-subtitle">The psychology of theological conformity — and why the truth rarely travels in crowds</p>
-            </div>
+        <section class="page-hero">
+            <div class="eyebrow">THE PSYCHOLOGY OF RESISTANCE</div>
+            <h1>Why Your Church Friends All Agree With Each Other</h1>
+            <p class="subtitle">The psychology of theological conformity — and why the truth rarely travels in crowds</p>
         </section>
 
         <section class="content-section">
@@ -861,14 +802,5 @@
     </footer>
 
     <script src="/nav.js"></script>
-    <script>
-        // Reading progress bar
-        window.addEventListener('scroll', function() {
-            const scrollTop = window.scrollY;
-            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollPercent = (scrollTop / docHeight) * 100;
-            document.getElementById('readingProgress').style.width = scrollPercent + '%';
-        });
-    </script>
 </body>
 </html>

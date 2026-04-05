@@ -53,11 +53,9 @@
         body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.8; overflow-x: hidden; -webkit-text-size-adjust: 100%; }
 
         /* Hero */
-        .page-hero { padding: 6rem 2rem 4rem; text-align: center; position: relative; overflow: hidden; }
-        .page-hero::before { content: ''; position: absolute; top: -30%; left: 50%; transform: translateX(-50%); width: 800px; height: 800px; background: radial-gradient(circle, rgba(139, 92, 246, 0.06) 0%, rgba(212, 162, 84, 0.03) 40%, transparent 70%); border-radius: 50%; pointer-events: none; }
+
         .hero-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.3em; color: var(--accent-violet); opacity: 0.8; margin-bottom: 1.5rem; }
-        .page-hero h1 { font-family: 'Playfair Display', serif; font-size: 3.2rem; font-weight: 800; line-height: 1.2; max-width: 800px; margin: 0 auto 1.5rem; }
-        .page-hero h1 .highlight { background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+
         .hero-subtitle { font-size: 1.2rem; color: var(--text-secondary); max-width: 650px; margin: 0 auto; line-height: 1.8; }
 
         /* Content Layout */
@@ -119,18 +117,14 @@
         /* Responsive */
         @media (max-width: 768px) {
             .content-wrapper { flex-direction: column; padding: 0 1.2rem 2rem; }
-            .page-hero h1 { font-size: 2.2rem; }
-            .page-hero { padding: 5rem 1.5rem 2rem; }
+
             .hero-subtitle { font-size: 1.05rem; }
             .scripture-block { display: block; padding: 1rem 1.2rem; }
             .theologian-quote { padding: 1.25rem; }
             .cross-links { grid-template-columns: 1fr; }
         }
         @media (max-width: 480px) {
-            .page-hero {
-                padding: 4.5rem 1rem 1.5rem;
-            }
-            .page-hero h1 { font-size: 1.8rem; }
+
             .hero-subtitle { font-size: 0.95rem; }
             .content-wrapper {
                 padding: 0 0.75rem 1.5rem;
@@ -154,10 +148,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
 
   REQUIRED before </body>:
-    
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -235,9 +227,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         </div>
         <div class="search-results" id="searchResults"></div>
     </div>
-
-
-
 
 <!-- Hero -->
 <section class="page-hero">
@@ -602,8 +591,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     </main>
 </div>
 
-    
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -708,7 +695,6 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
     </footer>
 
     <script src="/global.js" defer></script>
-    
 
     <script src="/nav.js"></script>
 </body>

@@ -45,29 +45,22 @@
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
 
-        /* ===== HERO SECTION ===== */
-        .hero {
-            background: linear-gradient(135deg, #0a0a0a 0%, #111118 100%);
-            padding: 5rem 2rem 4rem;
+        /* ===== PAGE HERO SECTION ===== */
+        .page-hero {
+            padding: 0 2rem;
             text-align: center;
-            border-bottom: 2px solid rgba(212, 162, 84, 0.15);
-            position: relative;
-            overflow: hidden;
-        }
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: radial-gradient(circle at 50% 40%, rgba(212, 162, 84, 0.06) 0%, transparent 60%);
-            pointer-events: none;
-        }
-        .hero-content {
-            position: relative;
-            z-index: 1;
+            margin: 4rem auto 3rem;
             max-width: 800px;
-            margin: 0 auto;
         }
-        .hero h1 {
+        .eyebrow {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #d4a254;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        .page-hero h1 {
             font-family: 'Playfair Display', serif;
             font-size: 3.2rem;
             font-weight: 900;
@@ -75,35 +68,12 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             margin: 0 0 1rem;
             line-height: 1.1;
         }
-        .hero-subtitle {
+        .page-hero .subtitle {
             font-family: 'Inter', sans-serif;
             font-size: 1.15rem;
             color: var(--text-secondary);
-            margin-bottom: 2.5rem;
+            margin: 0;
             line-height: 1.6;
-        }
-        .hero-verses blockquote {
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-            font-size: 1.05rem;
-            color: var(--text-secondary);
-            border-left: 3px solid var(--accent-gold);
-            padding: 1rem 1.5rem;
-            margin: 1.2rem auto;
-            max-width: 650px;
-            text-align: left;
-            background: rgba(212, 162, 84, 0.03);
-            border-radius: 0 6px 6px 0;
-            line-height: 1.8;
-        }
-        .hero-verses .source {
-            display: block;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            font-style: normal;
-            color: var(--accent-gold);
-            margin-top: 0.5rem;
-            letter-spacing: 0.05em;
         }
 
         /* ===== MAIN CONTENT ===== */
@@ -146,8 +116,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
         /* ===== RESPONSIVE ===== */
         @media (max-width: 968px) {
-            .hero h1 { font-size: 2.2rem; }
-            .hero-subtitle { font-size: 1rem; }
+            .page-hero h1 { font-size: 2.2rem; }
+            .page-hero .subtitle { font-size: 1rem; }
             .hero { padding: 4rem 1.5rem 3rem; }
             .content-container { padding: 0 1.5rem; }
             .footer-container { grid-template-columns: 1fr; text-align: center; }
@@ -262,19 +232,9 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
 
 <!-- Hero Section -->
-<section class="hero">
-    <div class="hero-content">
-        <h1>Does God Control Everything? The Chess Grandmaster Analogy</h1>
-        <p class="hero-subtitle">How God's <a href="/question-sovereignty-logic">Sovereignty</a> and Human Responsibility Play On the Same Board</p>
-        <div class="hero-verses">
-            <blockquote>
-                "As for you, you meant evil against me, but God meant it for good, to bring it about that many people should be kept alive, as they are today." <span class="source">— Genesis 50:20</span>
-            </blockquote>
-            <blockquote>
-                "This Jesus, delivered up according to the definite plan and <a href="/question-foreknowledge">foreknowledge</a> of God, you crucified and killed by the hands of lawless men." <span class="source">— Acts 2:23</span>
-            </blockquote>
-        </div>
-    </div>
+<section class="page-hero">
+    <h1>Does God Control Everything? The Chess Grandmaster Analogy</h1>
+    <p class="subtitle">How God's <a href="/question-sovereignty-logic">Sovereignty</a> and Human Responsibility Play On the Same Board</p>
 </section>
 
 <!-- Main Content -->

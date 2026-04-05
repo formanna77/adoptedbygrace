@@ -61,12 +61,12 @@
             padding: 0 1.5rem;
         }
 
-        .hero-section {
+        .page-hero {
             margin: 4rem auto 3rem;
             text-align: center;
         }
 
-        .hero-eyebrow {
+        .eyebrow {
             font-size: 0.75rem;
             text-transform: uppercase;
             letter-spacing: 0.15em;
@@ -84,19 +84,11 @@
             margin: 0 0 1rem 0;
         }
 
-        .hero-subtitle {
+        .subtitle {
             font-size: 1.1rem;
             color: #c9bfb0;
             margin-bottom: 1.5rem;
             line-height: 1.6;
-        }
-
-        .reading-meta {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            font-size: 0.9rem;
-            color: #8b8680;
         }
 
         .article-content {
@@ -229,7 +221,7 @@
                 font-size: 1.8rem;
             }
 
-            .hero-subtitle {
+            .subtitle {
                 font-size: 1rem;
             }
 
@@ -249,8 +241,6 @@
     </style>
 </head>
 <body>
-    <div class="reading-progress" id="readingProgress"></div>
-
             <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
@@ -318,17 +308,13 @@
 
     <main>
         <article>
-            <section class="hero-section">
-                <span class="hero-eyebrow">Analogies & Illustrations</span>
+            <section class="page-hero">
+                <div class="eyebrow">Analogies & Illustrations</div>
                 <h1>The Drowning Man Who Thinks He's Swimming</h1>
-                <p class="hero-subtitle">The crucial distinction between drowning and dead. Why "grabbing the rope" misses what Scripture actually says happened to you.</p>
-                <div class="reading-meta">
-                    <span>7 min read</span>
-                    <span>Ephesians 2 • John 11 • Ezekiel 37</span>
-                </div>
+                <p class="subtitle">The crucial distinction between drowning and dead. Why "grabbing the rope" misses what Scripture actually says happened to you.</p>
             </section>
 
-            <section class="article-content">
+            <section class="article-body">
 
 <h2>The Man in the Water</h2>
 
@@ -518,41 +504,6 @@
     </footer>
 
     <script src="/nav.js"></script>
-    <script>
-        // Reading progress bar
-        window.addEventListener('scroll', function() {
-            const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
-            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
-            document.getElementById('readingProgress').style.width = scrolled + '%';
-        });
-
-        // Search functionality
-        const searchToggle = document.getElementById('searchToggle');
-        const mobileSearchToggle = document.getElementById('mobileSearchToggle');
-        const searchOverlay = document.getElementById('searchOverlay');
-        const searchClose = document.getElementById('searchClose');
-        const searchInput = document.getElementById('searchInput');
-
-        if (searchToggle) {
-            searchToggle.addEventListener('click', () => searchOverlay.style.display = 'flex');
-        }
-        if (mobileSearchToggle) {
-            mobileSearchToggle.addEventListener('click', () => searchOverlay.style.display = 'flex');
-        }
-        if (searchClose) {
-            searchClose.addEventListener('click', () => searchOverlay.style.display = 'none');
-        }
-
-        searchOverlay.addEventListener('click', (e) => {
-            if (e.target === searchOverlay) searchOverlay.style.display = 'none';
-        });
-
-        if (searchInput) {
-            searchInput.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape') searchOverlay.style.display = 'none';
-            });
-        }
-    </script>
+    <script src="/global.js" defer></script>
 </body>
 </html>

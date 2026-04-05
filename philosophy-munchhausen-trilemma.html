@@ -54,15 +54,14 @@
             width: 0;
         }
 
-        /* Hero section */
-        .hero-section {
-            background: linear-gradient(135deg, var(--philosophy-gold-dim) 0%, rgba(15, 15, 20, 0.8) 100%);
-            border-bottom: 1px solid var(--philosophy-gold-light);
+        /* Page hero section */
+        .page-hero {
             padding: 6rem 2rem 4rem;
             margin-bottom: 3rem;
+            text-align: center;
         }
 
-        .hero-eyebrow {
+        .page-hero .eyebrow {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
             font-weight: 600;
@@ -73,7 +72,7 @@
             opacity: 0.95;
         }
 
-        .hero-title {
+        .page-hero h1 {
             font-family: 'Playfair Display', serif;
             font-size: clamp(2.2rem, 6vw, 3.5rem);
             font-weight: 700;
@@ -82,19 +81,13 @@
             color: #fff;
         }
 
-        .hero-subtitle {
+        .page-hero .subtitle {
             font-size: 1.1rem;
             line-height: 1.6;
             color: rgba(255, 255, 255, 0.85);
             max-width: 45rem;
-            margin-bottom: 2rem;
+            margin: 0 auto;
             font-weight: 300;
-        }
-
-        .reading-time {
-            font-size: 0.9rem;
-            color: var(--philosophy-gold);
-            font-family: 'JetBrains Mono', monospace;
         }
 
         /* Main content */
@@ -303,16 +296,16 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            .hero-section {
+            .page-hero {
                 padding: 4rem 1.5rem 3rem;
                 margin-bottom: 2rem;
             }
 
-            .hero-title {
+            .page-hero h1 {
                 font-size: 1.8rem;
             }
 
-            .hero-subtitle {
+            .page-hero .subtitle {
                 font-size: 1rem;
             }
 
@@ -400,13 +393,10 @@
     </div>
 
     <!-- Hero section -->
-    <section class="hero-section">
-        <div class="content-main">
-            <div class="hero-eyebrow">Philosophy of Truth</div>
-            <h1 class="hero-title">The Münchhausen Trilemma of Self-Salvation</h1>
-            <p class="hero-subtitle">Every justification leads somewhere. Follow your faith backward through time and reason. Ask why at each step. You will hit a wall. On the other side of that wall stands God.</p>
-            <div class="reading-time">7 min read</div>
-        </div>
+    <section class="page-hero">
+        <div class="eyebrow">Philosophy of Truth</div>
+        <h1>The Münchhausen Trilemma of Self-Salvation</h1>
+        <p class="subtitle">Every justification leads somewhere. Follow your faith backward through time and reason. Ask why at each step. You will hit a wall. On the other side of that wall stands God.</p>
     </section>
 
     <!-- Main content -->

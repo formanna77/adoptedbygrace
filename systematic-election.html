@@ -42,7 +42,6 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         :root {
             --bg-deep: #0a0a0f;
             --bg-card: #12121a;
@@ -55,7 +54,6 @@
             --text-muted: #807b75;
             --border-subtle: rgba(212, 162, 84, 0.12);
         }
-
         body {
             background-color: var(--bg-deep);
             color: var(--text-primary);
@@ -63,7 +61,6 @@
             line-height: 1.8;
             overflow-x: hidden;
         }
-
         .breadcrumb {
             max-width: 1200px; width: 100%;
             margin: 2rem auto 0;
@@ -71,22 +68,18 @@
             font-size: 0.9rem;
             color: var(--text-secondary);
         }
-
         .breadcrumb a {
             color: var(--accent-gold);
             text-decoration: none;
         }
-
         .breadcrumb a:hover {
             text-decoration: underline;
         }
-
         .main-container {
             max-width: 900px;
             margin: 0 auto;
             padding: 3rem 2rem;
         }
-
         h1 {
             font-family: 'Playfair Display', serif;
             font-size: 2.8rem;
@@ -98,14 +91,12 @@
             background-clip: text;
             line-height: 1.1;
         }
-
         .subtitle {
             color: var(--text-secondary);
             font-size: 1.1rem;
             margin-bottom: 2rem;
             font-style: italic;
         }
-
         h2 {
             font-family: 'Playfair Display', serif;
             font-size: 1.8rem;
@@ -114,7 +105,6 @@
             margin-bottom: 1rem;
             color: var(--accent-gold);
         }
-
         h3 {
             font-size: 1.2rem;
             font-weight: 600;
@@ -122,12 +112,10 @@
             margin-bottom: 0.8rem;
             color: var(--accent-violet);
         }
-
         p {
             margin-bottom: 1.2rem;
             text-align: justify;
         }
-
         .scripture-block { display: block;
             background: var(--bg-card);
             border-left: 4px solid var(--accent-gold);
@@ -138,7 +126,6 @@
             color: var(--text-primary);
             line-height: 1.9;
         }
-
         .scripture-reference {
             color: var(--accent-ember);
             font-weight: 600;
@@ -146,7 +133,6 @@
             display: block;
             margin-top: 1rem;
         }
-
         .theology-box {
             background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(212, 162, 84, 0.08));
             border: 1px solid var(--border-subtle);
@@ -154,21 +140,17 @@
             margin: 1.5rem 0;
             border-radius: 4px;
         }
-
         .theology-box strong {
             color: var(--accent-violet);
         }
-
         .internal-link {
             color: var(--accent-gold);
             text-decoration: none;
             font-weight: 500;
         }
-
         .internal-link:hover {
             text-decoration: underline;
         }
-
         .humor-note {
             color: var(--accent-ember);
             font-size: 0.95rem;
@@ -179,14 +161,12 @@
             border-left: 3px solid var(--accent-ember);
             border-radius: 2px;
         }
-
         footer {
             background: var(--bg-card);
             border-top: 1px solid var(--border-subtle);
             padding: 3rem 2rem 2rem;
             margin-top: 4rem;
         }
-
         .footer-container {
             max-width: 1200px; width: 100%;
             margin: 0 auto;
@@ -195,32 +175,26 @@
             gap: 2rem;
             margin-bottom: 2rem;
         }
-
         .footer-section h4 {
             font-family: 'Playfair Display', serif;
             color: var(--accent-gold);
             margin-bottom: 1rem;
             font-size: 1.1rem;
         }
-
         .footer-section ul {
             list-style: none;
         }
-
         .footer-section ul li {
             margin-bottom: 0.6rem;
         }
-
         .footer-section a {
             color: var(--text-secondary);
             text-decoration: none;
             transition: color 0.2s;
         }
-
         .footer-section a:hover {
             color: var(--accent-gold);
         }
-
         .footer-copyright {
             text-align: center;
             color: var(--text-muted);
@@ -228,7 +202,6 @@
             border-top: 1px solid var(--border-subtle);
             font-size: 0.9rem;
         }
-
         .reading-progress {
             position: fixed;
             top: 0;
@@ -239,62 +212,48 @@
             width: 0%;
             transition: width 0.1s;
         }
-
         @media (max-width: 968px) {
             h1 {
                 font-size: 2.2rem;
             }
-
             h2 {
                 font-size: 1.5rem;
             }
-
             .main-container {
                 padding: 2rem 1.5rem;
             }
         }
-
         @media (max-width: 968px) {
-
             h1 {
                 font-size: 1.8rem;
             }
-
             h2 {
                 font-size: 1.3rem;
             }
-
             .main-container {
                 padding: 1.5rem 1rem;
             }
-
             .breadcrumb {
                 padding: 0.8rem 1rem;
             }
 }
-
         @media (max-width: 768px) {
-            .page-hero { padding: 5rem 1.5rem 2rem; }
             .content-section { padding: 2rem 1.5rem; }
             .section-grid, .card-grid { grid-template-columns: 1fr; }
             h1 { font-size: 2rem; }
             h2 { font-size: 1.5rem; }
         }
-
         @media (max-width: 480px) {
             h1 {
                 font-size: 1.5rem;
             }
-
             h2 {
                 font-size: 1.1rem;
             }
-
             .scripture-block { display: block;
                 padding: 1rem;
                 font-size: 0.95rem;
             }
-
             .footer-container {
                 grid-template-columns: 1fr;
             }
@@ -302,7 +261,6 @@
     *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
     </style>
 </head>
 <body>

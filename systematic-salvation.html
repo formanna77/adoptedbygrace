@@ -46,7 +46,6 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         :root {
             --bg-deep: #0a0a0f;
             --bg-card: #12121a;
@@ -59,7 +58,6 @@
             --text-muted: #807b75;
             --border-subtle: rgba(212, 162, 84, 0.12);
         }
-
         body {
             background-color: #0a0a0f;
             background-color: var(--bg-deep);
@@ -70,21 +68,18 @@
             line-height: 1.8;
             overflow-x: hidden;
         }
-
         /* Content */
         .content {
             max-width: 1000px;
             margin: 0 auto;
             padding: 3rem 2rem;
         }
-
         h1 {
             font-family: 'Playfair Display', serif;
             font-size: 2.5rem;
             margin-bottom: 1rem;
             color: var(--text-primary);
         }
-
         h2 {
             font-family: 'Playfair Display', serif;
             font-size: 1.8rem;
@@ -93,41 +88,34 @@
             padding-bottom: 1rem;
             border-bottom: 1px solid var(--border-subtle);
         }
-
         h3 {
             font-size: 1.3rem;
             margin: 2rem 0 1rem 0;
             color: var(--text-primary);
             font-weight: 600;
         }
-
         p {
             margin-bottom: 1.5rem;
             color: var(--text-secondary);
             line-height: 1.8;
         }
-
         em {
             color: var(--accent-gold);
             font-style: italic;
         }
-
         strong {
             color: var(--accent-ember);
             font-weight: 600;
         }
-
         a {
             color: var(--accent-gold);
             text-decoration: none;
             transition: color 0.3s ease;
         }
-
         a:hover {
             color: var(--accent-ember);
             text-decoration: underline;
         }
-
         /* Scripture Block */
         .scripture-block { display: block;
             background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05));
@@ -140,7 +128,6 @@
             color: var(--text-primary);
             font-style: italic;
         }
-
         .scripture-ref {
             display: block;
             margin-top: 1rem;
@@ -148,7 +135,6 @@
             color: var(--text-muted);
             font-size: 0.9rem;
         }
-
         /* Card Grid */
         .card-grid {
             display: grid;
@@ -156,7 +142,6 @@
             gap: 2rem;
             margin: 2.5rem 0;
         }
-
         .truth-card {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -165,13 +150,11 @@
             transition: all 0.3s ease;
             cursor: pointer;
         }
-
         .truth-card:hover {
             background: var(--bg-card-hover);
             border-color: var(--accent-gold);
             transform: translateY(-2px);
         }
-
         .card-number {
             font-family: 'JetBrains Mono', monospace;
             color: var(--accent-gold);
@@ -180,7 +163,6 @@
             letter-spacing: 0.1em;
             margin-bottom: 0.5rem;
         }
-
         .card-title {
             font-family: 'Playfair Display', serif;
             font-size: 1.3rem;
@@ -188,14 +170,12 @@
             margin-bottom: 1rem;
             font-weight: 700;
         }
-
         .card-description {
             font-size: 0.95rem;
             color: var(--text-secondary);
             line-height: 1.6;
             margin-bottom: 1.5rem;
         }
-
         .card-link {
             display: inline-flex;
             align-items: center;
@@ -206,24 +186,20 @@
             font-size: 0.95rem;
             transition: all 0.3s ease;
         }
-
         .card-link:hover {
             color: var(--accent-ember);
             gap: 0.8rem;
         }
-
         /* Ordo Salutis Timeline */
         .timeline {
             margin: 2rem 0;
         }
-
         .timeline-item {
             margin-bottom: 2rem;
             padding-left: 2rem;
             border-left: 2px solid var(--accent-gold);
             position: relative;
         }
-
         .timeline-item::before {
             content: '';
             position: absolute;
@@ -234,7 +210,6 @@
             background: var(--accent-gold);
             border-radius: 50%;
         }
-
         .timeline-label {
             font-size: 0.85rem;
             color: var(--accent-ember);
@@ -243,20 +218,17 @@
             font-weight: 600;
             margin-bottom: 0.5rem;
         }
-
         .timeline-title {
             font-size: 1.1rem;
             color: var(--text-primary);
             font-weight: 600;
             margin-bottom: 0.5rem;
         }
-
         .timeline-text {
             color: var(--text-secondary);
             font-size: 0.95rem;
             line-height: 1.6;
         }
-
         /* Breadcrumb */
         .breadcrumb {
             max-width: 1000px;
@@ -265,11 +237,9 @@
             font-size: 0.9rem;
             color: var(--text-muted);
         }
-
         .breadcrumb a {
             color: var(--accent-gold);
         }
-
         /* Footer */
         footer {
             background: var(--bg-card);
@@ -277,7 +247,6 @@
             padding: 3rem 2rem 2rem;
             margin-top: 4rem;
         }
-
         .footer-container {
             max-width: 1200px; width: 100%;
             margin: 0 auto;
@@ -286,32 +255,26 @@
             gap: 3rem;
             margin-bottom: 2rem;
         }
-
         .footer-section h4 {
             font-size: 1rem;
             color: var(--accent-gold);
             margin-bottom: 1.5rem;
             font-weight: 700;
         }
-
         .footer-section ul {
             list-style: none;
         }
-
         .footer-section li {
             margin-bottom: 0.8rem;
         }
-
         .footer-section a {
             color: var(--text-secondary);
             text-decoration: none;
             transition: color 0.3s ease;
         }
-
         .footer-section a:hover {
             color: var(--accent-gold);
         }
-
         .footer-copyright {
             text-align: center;
             padding-top: 2rem;
@@ -319,7 +282,6 @@
             color: var(--text-muted);
             font-size: 0.9rem;
         }
-
         /* Reading Progress */
         .reading-progress {
             position: fixed;
@@ -329,7 +291,6 @@
             background: var(--accent-gold);
             z-index: 1001;
         }
-
         /* Back to Top */
         /* Responsive */
         @media (max-width: 968px) {
@@ -346,7 +307,6 @@
                 grid-template-columns: 1fr;
             }
         }
-
         @media (max-width: 968px) {
             .content {
                 padding: 1.5rem 1rem;
@@ -364,15 +324,12 @@
                 padding: 1.5rem;
             }
 }
-
         @media (max-width: 768px) {
-            .page-hero { padding: 5rem 1.5rem 2rem; }
             .content-section { padding: 2rem 1.5rem; }
             .section-grid, .card-grid { grid-template-columns: 1fr; }
             h1 { font-size: 2rem; }
             h2 { font-size: 1.5rem; }
         }
-
         @media (max-width: 480px) {
             body {
                 font-size: 0.95rem;
@@ -394,7 +351,6 @@
     *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
 a:focus-visible { outline-offset: 3px; }
 button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
     </style>
 </head>
 <body>

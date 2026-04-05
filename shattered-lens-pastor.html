@@ -30,48 +30,6 @@
     <link rel="stylesheet" href="/global.css">
     
 <style>
-        .reading-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, #8b5cf6, #d4a254);
-            z-index: 9999;
-            transition: width 0.2s ease;
-        }
-        
-        .hero-section {
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(232, 100, 44, 0.05));
-            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
-            padding: 3rem 2rem;
-            text-align: center;
-        }
-        
-        .hero-eyebrow {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: #d4a254;
-            margin-bottom: 1rem;
-            font-weight: 600;
-        }
-        
-        .hero-title {
-            font-size: clamp(1.75rem, 5vw, 2.8rem);
-            line-height: 1.2;
-            margin: 0;
-            color: #f0ece4;
-            font-family: 'Playfair Display', serif;
-        }
-        
-        .hero-subtitle {
-            font-size: 1.1rem;
-            color: #9a958c;
-            margin-top: 1.5rem;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
         
         .content-wrapper {
             max-width: 750px;
@@ -258,9 +216,7 @@
     </style>
 </head>
 <body>
-    <div class="reading-progress"></div>
-    
-            <nav role="navigation" aria-label="Main navigation">
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -326,10 +282,10 @@
     </div>
     
     <main>
-        <section class="hero-section">
-            <div class="hero-eyebrow">The Shattered Lens · Healing</div>
-            <h1 class="hero-title">When Your Pastor Teaches What You Know Isn't True</h1>
-            <p class="hero-subtitle">The pain of seeing grace clearly while your shepherd teaches something else. And the path forward with humility and integrity.</p>
+        <section class="page-hero">
+            <div class="eyebrow">The Shattered Lens · Healing</div>
+            <h1>When Your Pastor Teaches What You Know Isn't True</h1>
+            <p class="subtitle">The pain of seeing grace clearly while your shepherd teaches something else. And the path forward with humility and integrity.</p>
         </section>
         
         <article class="content-wrapper">
@@ -508,19 +464,8 @@
         "articleSection": "Healing"
     }
     </script>
-    
-    <script>
-        // Reading progress bar
-        const progressBar = document.querySelector('.reading-progress');
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.scrollY;
-            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollPercent = (scrollTop / docHeight) * 100;
-            progressBar.style.width = scrollPercent + '%';
-        });
-    </script>
-    
-    
+
+
     <footer>
         <div class="footer-container">
             <div class="footer-section">

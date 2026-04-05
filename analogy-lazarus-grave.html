@@ -39,21 +39,6 @@
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-        /* Page-specific hero */
-        .page-hero {
-            position: relative;
-            padding: 10rem 2rem 5rem;
-            text-align: center;
-            overflow: hidden;
-        }
-        .page-hero::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: radial-gradient(ellipse at 50% 30%, rgba(139, 92, 246, 0.08) 0%, transparent 60%),
-                        radial-gradient(ellipse at 80% 70%, rgba(232, 100, 44, 0.05) 0%, transparent 50%);
-            pointer-events: none;
-        }
         .hero-eyebrow {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
@@ -240,8 +225,7 @@
 
         @media (max-width: 768px) {
 
-            .page-hero { padding: 5rem 1.5rem 2rem; }
-            .content-section { padding: 2rem 1.5rem; }
+                .content-section { padding: 2rem 1.5rem; }
             .section-title { font-size: 1.6rem; }
         }
     *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }

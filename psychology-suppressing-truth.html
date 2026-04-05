@@ -55,8 +55,7 @@
     </script>
     <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<style>
-        /* Reading Progress Bar */
+<style>/* Reading Progress Bar */
         .reading-progress {
             position: fixed;
             top: 0;
@@ -69,57 +68,6 @@
         }
 
         /* Psychology Visual Identity */
-        .page-hero {
-            position: relative;
-            padding: 10rem 2rem 5rem;
-            text-align: left;
-            max-width: 900px;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-
-        .page-hero::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: radial-gradient(ellipse at 30% 40%, rgba(232, 100, 44, 0.08) 0%, transparent 60%),
-                        radial-gradient(ellipse at 80% 20%, rgba(139, 92, 246, 0.05) 0%, transparent 40%);
-            pointer-events: none;
-        }
-
-        .hero-eyebrow {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.875rem;
-            letter-spacing: 0.15em;
-            color: var(--accent-ember);
-            text-transform: uppercase;
-            margin-bottom: 1rem;
-            display: block;
-        }
-
-        .page-hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2.5rem, 6vw, 4rem);
-            line-height: 1.15;
-            color: var(--text-primary);
-            font-weight: 900;
-        }
-
-        .page-hero h1 .gold {
-            color: var(--accent-gold);
-        }
-
-        .page-hero h1 .ember {
-            color: var(--accent-ember);
-        }
-
-        .page-hero .subtitle {
-            font-size: 1.25rem;
-            color: var(--text-secondary);
-            max-width: 650px;
-            margin-top: 1.5rem;
-            line-height: 1.7;
-        }
 
         .read-time {
             font-family: 'JetBrains Mono', monospace;
@@ -516,10 +464,7 @@
         }
 
         @media (max-width: 768px) {
-            .page-hero {
-                padding: 5rem 1.5rem 2rem;
-            }
-            .content-body {
+                .content-body {
                 padding: 0 1.5rem 4rem;
             }
         }
@@ -541,8 +486,7 @@
 
         /* Focus styles */
         *:focus-visible { outline: 2px solid var(--accent-violet); outline-offset: 2px; border-radius: 2px; }
-        a:focus-visible { outline-offset: 3px; }
-    </style>
+        a:focus-visible { outline-offset: 3px; }</style>
 </head>
 <body>
     <div class="reading-progress"></div>
