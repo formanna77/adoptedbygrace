@@ -604,12 +604,12 @@
         rightPanel.className = 'mega-menu-detail';
         rightPanel.id = 'megaMenuDetail';
 
-        // Initialize with first umbrella
-        setActiveMegaMenuUmbrella(0);
-
         panel.appendChild(leftPanel);
         panel.appendChild(rightPanel);
         megaMenu.appendChild(panel);
+
+        // Initialize with first umbrella (MUST be after DOM insertion so getElementById works)
+        setActiveMegaMenuUmbrella(0);
     }
 
     // Track which subcategory is expanded (null = show subcategory cards only)
@@ -678,7 +678,8 @@
         var cards = rightPanel.querySelectorAll('.mega-menu-subcat-card');
         for (var c = 0; c < cards.length; c++) {
             (function(card) {
-                card.addEventListener('click', function() {
+                card.addEventListener('click', function(e) {
+                    e.stopPropagation(); // Prevent document click handler from closing mega-menu
                     var ui = parseInt(card.getAttribute('data-umbrella'), 10);
                     var si = parseInt(card.getAttribute('data-subcat'), 10);
                     renderSubcategoryArticles(ui, si);
@@ -728,7 +729,8 @@
         // Add back button listener
         var backBtn = rightPanel.querySelector('.mega-menu-back');
         if (backBtn) {
-            backBtn.addEventListener('click', function() {
+            backBtn.addEventListener('click', function(e) {
+                e.stopPropagation(); // Prevent document click handler from closing mega-menu
                 var ui = parseInt(backBtn.getAttribute('data-umbrella'), 10);
                 renderSubcategoryCards(ui);
             });
