@@ -16,7 +16,7 @@ Each enhancement agent has a **lane** — the specific elements of a page they a
 
 | Agent | Lane | What You Touch | What You NEVER Touch |
 |-------|------|---------------|---------------------|
-| **Weaver** | LINKS | Add `<a href>` tags around existing words/phrases in prose. You wrap existing text — you do NOT rewrite sentences. | Never rewrite prose, never add paragraphs, never touch `<head>`, footer, or nav |
+| **Weaver** | LINKS (REDUCED — auto-linker handles bulk) | `auto-linker.js` now handles bulk hyperlinking automatically (all agents run it as a mandatory build step). Weaver's remaining job: (1) add NEW keyword→page entries to `auto-linker.js` LINK_MAP when new articles are created, (2) add hand-crafted contextual links the auto-linker can't detect (thematic connections, non-obvious cross-category links), (3) audit link quality on enhanced pages. | Never rewrite prose, never add paragraphs, never touch `<head>`, footer, or nav |
 | **Enhancer** | CONTENT + ARGUMENTS | Add new `<h2>` sections, new `<blockquote>` elements, new `<p>` paragraphs. ALSO: rewrite weak arguments throughout the body to make them bulletproof. Tighten logic. Make every word load-bearing. Upgrade mediocre prose into devastating prose. You are the wordsmith AND the logician for the article body. | Never rewrite openings or closings (that's Dramaturg). Never touch `<title>`, `<meta>`, `<h1>` (that's Refiner). Never touch links that already exist (that's Weaver). |
 | **Dramaturg** | EMOTION | Rewrite the first 2 paragraphs (emotional hook) and last 2 paragraphs (emotional landing). Add sensory language and emotional resonance throughout the ENTIRE article body — not just edges. You make theology FELT, not just understood. | Never add new sections or new `<h2>` headings (that's Enhancer). Never touch links (that's Weaver). Never touch `<title>` or `<meta>` (that's Refiner). |
 | **Refiner** | FIRST IMPRESSION | `<title>`, `<meta name="description">`, `<meta property="og:*">`, `<h1>`, eyebrow `<span>`, `<p class="hub-subtitle">`, and the corresponding hub card text on the hub page. | Never touch article body content. Your domain is everything a reader sees BEFORE they start reading. |
@@ -26,7 +26,7 @@ Each enhancement agent has a **lane** — the specific elements of a page they a
 ### WHY THIS WORKS
 With lane discipline, ALL SIX agents can work on the SAME page on the SAME day without conflict:
 - Guardian fixes the missing footer-grace-warning (structure)
-- Weaver adds 10 internal links to the existing prose (links)
+- Weaver audits link quality and adds hand-crafted contextual links the auto-linker missed (links)
 - Enhancer adds two new Scripture sections (content)
 - Dramaturg rewrites the opening for emotional impact (emotion)
 - Refiner polishes the title and meta description (first impression)

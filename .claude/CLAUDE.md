@@ -82,16 +82,17 @@ Diamond Week is an intensive enhancement blitz. Creation is capped; enhancement 
 
 **After Diamond Week (April 13+):** Remove this section and delete DIAMOND-WEEK-TRACKER.md.
 
-## SEARCH INDEX, MEGA-MENU & HOMEPAGE COUNTER REBUILD — MANDATORY FOR ALL CONTENT AGENTS
-**After creating or modifying HTML pages, you MUST run ALL THREE of these before finishing:**
+## SEARCH INDEX, MEGA-MENU, HOMEPAGE COUNTER & AUTO-LINKER REBUILD — MANDATORY FOR ALL CONTENT AGENTS
+**After creating or modifying HTML pages, you MUST run ALL FOUR of these before finishing:**
 
 ```bash
 node build-search-index.js
 node build-mega-menu.js
 node build-homepage-counts.js
+node auto-linker.js
 ```
 
-These rebuild: (1) the site search index (`search-index.js`), (2) the Explore dropdown menu data in `nav.js`, and (3) the article-count counters in the Content Explorer section on the homepage (`index.html`). If you skip any of these, new or updated pages will NOT appear in site search, the Explore menu, or the homepage content inventory.
+These rebuild: (1) the site search index (`search-index.js`), (2) the Explore dropdown menu data in `nav.js`, (3) the article-count counters in the Content Explorer section on the homepage (`index.html`), and (4) internal hyperlinks across all article pages. The auto-linker adds Wikipedia-style inline `<a>` links throughout article prose, connecting every mention of a concept, doctrine, Scripture reference, theologian, or analogy to its dedicated page. It is idempotent — safe to run repeatedly. If you skip it, new pages will not be linked TO from existing pages, and new pages will not contain links to the rest of the site.
 
 ## NO STUB PAGES — MANDATORY FOR ALL AGENTS
 **NEVER save an HTML file that is incomplete.** Every HTML file committed to the repo must have a complete, functioning page: `<head>` with `<link rel="stylesheet" href="/global.css">`, `</head>`, `<body>`, the full nav from `/_nav-template.html`, actual article content, the full footer with grace warning, and `<script src="/nav.js"></script>`. If you cannot finish a page in this session — **do not create the file.** A half-written stub with only `<head>` metadata is worse than no file at all: it renders as a blank white page, other agents link to it, and visitors hit a dead end. The rule is simple: **finished page or no page.**

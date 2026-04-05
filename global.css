@@ -1352,12 +1352,13 @@ blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font
 }
 
 /* ===== BUTTONS ===== */
-.btn-primary { display: inline-block; padding: 1rem 2.5rem; background: linear-gradient(135deg, var(--accent-gold), #b8860b); color: #0a0a0f; font-weight: 700; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; letter-spacing: 0.03em; position: relative; overflow: hidden; border: none; cursor: pointer; }
+/* SINGLE canonical definition — do NOT duplicate these elsewhere in this file */
+.btn-primary { display: inline-block; padding: 1rem 2.5rem; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); color: #fff; font-weight: 800; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; letter-spacing: 0.05em; position: relative; overflow: hidden; border: none; cursor: pointer; text-shadow: 0 1px 2px rgba(0,0,0,0.3); }
 .btn-primary::after { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s ease; }
 .btn-primary:hover::after { left: 100%; }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(212, 162, 84, 0.3); }
-.btn-secondary { display: inline-block; padding: 1rem 2.5rem; border: 1px solid rgba(212, 162, 84, 0.4); color: var(--accent-gold); font-weight: 600; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; background: transparent; cursor: pointer; }
-.btn-secondary:hover { background: rgba(212, 162, 84, 0.08); border-color: var(--accent-gold); transform: translateY(-2px); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(212, 162, 84, 0.4); }
+.btn-secondary { display: inline-block; padding: 1rem 2.5rem; border: 2px solid var(--accent-gold); color: #fff; font-weight: 700; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; background: transparent; cursor: pointer; }
+.btn-secondary:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-ember); color: #fff; transform: translateY(-2px); }
 
 /* ===== LABELS & BADGES ===== */
 .label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; padding: 0.35rem 0.8rem; border-radius: 4px; display: inline-block; }
@@ -1901,19 +1902,19 @@ table { max-width: 100%; }
     line-height: 1.9;
     margin-bottom: 1.5rem;
 }
-.article-content a, .content-wrap a, .content-body a, .content-wrapper a,
-.main-content a, .content-container a, .content-main a, .article-wrapper a,
-.pattern-section a, .point-section a, .content-grid a, .essay-content a,
-.story-content a, .devotional-content a, .theology-content a {
+.article-content a:not([class*="btn-"]), .content-wrap a:not([class*="btn-"]), .content-body a:not([class*="btn-"]), .content-wrapper a:not([class*="btn-"]),
+.main-content a:not([class*="btn-"]), .content-container a:not([class*="btn-"]), .content-main a:not([class*="btn-"]), .article-wrapper a:not([class*="btn-"]),
+.pattern-section a:not([class*="btn-"]), .point-section a:not([class*="btn-"]), .content-grid a:not([class*="btn-"]), .essay-content a:not([class*="btn-"]),
+.story-content a:not([class*="btn-"]), .devotional-content a:not([class*="btn-"]), .theology-content a:not([class*="btn-"]) {
     color: var(--accent-gold);
     text-decoration: none;
     border-bottom: 1px solid rgba(212, 162, 84, 0.3);
     transition: all 0.3s ease;
 }
-.article-content a:hover, .content-wrap a:hover, .content-body a:hover, .content-wrapper a:hover,
-.main-content a:hover, .content-container a:hover, .content-main a:hover, .article-wrapper a:hover,
-.pattern-section a:hover, .point-section a:hover, .content-grid a:hover, .essay-content a:hover,
-.story-content a:hover, .devotional-content a:hover, .theology-content a:hover {
+.article-content a:not([class*="btn-"]):hover, .content-wrap a:not([class*="btn-"]):hover, .content-body a:not([class*="btn-"]):hover, .content-wrapper a:not([class*="btn-"]):hover,
+.main-content a:not([class*="btn-"]):hover, .content-container a:not([class*="btn-"]):hover, .content-main a:not([class*="btn-"]):hover, .article-wrapper a:not([class*="btn-"]):hover,
+.pattern-section a:not([class*="btn-"]):hover, .point-section a:not([class*="btn-"]):hover, .content-grid a:not([class*="btn-"]):hover, .essay-content a:not([class*="btn-"]):hover,
+.story-content a:not([class*="btn-"]):hover, .devotional-content a:not([class*="btn-"]):hover, .theology-content a:not([class*="btn-"]):hover {
     color: var(--accent-ember);
     border-color: var(--accent-ember);
 }
@@ -2017,46 +2018,7 @@ table { max-width: 100%; }
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2), 0 0 15px var(--glow-gold);
 }
 
-/* --- Buttons --- */
-.btn-primary {
-    display: inline-block;
-    background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
-    color: var(--bg-deep);
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 0.95rem;
-    padding: 1rem 2.5rem;
-    border: none;
-    border-radius: 8px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-.btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(212, 162, 84, 0.3);
-}
-.btn-secondary {
-    display: inline-block;
-    background: transparent;
-    color: var(--accent-gold);
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 0.9rem;
-    padding: 0.8rem 2rem;
-    border: 1px solid var(--accent-gold);
-    border-radius: 8px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.btn-secondary:hover {
-    background: rgba(212, 162, 84, 0.1);
-    border-color: var(--accent-ember);
-    color: var(--accent-ember);
-}
+/* --- Buttons --- REMOVED DUPLICATE — canonical definition is in BUTTONS section above ---*/
 
 /* --- Container / Wrapper aliases --- */
 .container { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
@@ -2831,18 +2793,18 @@ article p, main p,
     margin-bottom: 1.5rem;
 }
 
-/* Any a inside article, main, or common wrapper patterns */
-article a, main a,
-[class*="content"] a, [class*="section"] a, [class*="body"] a,
-[class*="wrap"] a, [class*="article"] a {
+/* Any a inside article, main, or common wrapper patterns — EXCLUDES .btn-* buttons */
+article a:not([class*="btn-"]), main a:not([class*="btn-"]),
+[class*="content"] a:not([class*="btn-"]), [class*="section"] a:not([class*="btn-"]), [class*="body"] a:not([class*="btn-"]),
+[class*="wrap"] a:not([class*="btn-"]), [class*="article"] a:not([class*="btn-"]) {
     color: var(--accent-gold);
     text-decoration: none;
     border-bottom: 1px solid rgba(212, 162, 84, 0.3);
     transition: all 0.3s ease;
 }
-article a:hover, main a:hover,
-[class*="content"] a:hover, [class*="section"] a:hover, [class*="body"] a:hover,
-[class*="wrap"] a:hover, [class*="article"] a:hover {
+article a:not([class*="btn-"]):hover, main a:not([class*="btn-"]):hover,
+[class*="content"] a:not([class*="btn-"]):hover, [class*="section"] a:not([class*="btn-"]):hover, [class*="body"] a:not([class*="btn-"]):hover,
+[class*="wrap"] a:not([class*="btn-"]):hover, [class*="article"] a:not([class*="btn-"]):hover {
     color: var(--accent-ember);
     border-color: var(--accent-ember);
 }
