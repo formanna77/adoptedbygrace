@@ -12,9 +12,11 @@
     --accent-gold: #d4a254;
     --accent-ember: #e8642c;
     --accent-violet: #8b5cf6;
-    --text-primary: #f0ece4;
+    --text-primary: #c8c2b8;
+    --text-bright: #ddd8d0;
     --text-secondary: #9a958c;
     --text-muted: #807b75;
+    --accent-scripture: #b8a9e8;
     --border-subtle: rgba(212, 162, 84, 0.12);
     --glow-gold: rgba(212, 162, 84, 0.15);
     --glow-violet: rgba(139, 92, 246, 0.1);
@@ -954,7 +956,7 @@ a.mega-menu-hub-link:hover .mega-menu-hub-arrow {
 }
 
 /* ===== TYPOGRAPHY ===== */
-h1, h2, h3, h4 { font-family: 'Playfair Display', serif; line-height: 1.2; }
+h1, h2, h3, h4 { font-family: 'Playfair Display', serif; line-height: 1.2; color: var(--accent-gold); }
 h1 { font-size: 3.2rem; font-weight: 900; }
 h2 { font-size: 2.4rem; font-weight: 800; }
 h3 { font-size: 1.5rem; font-weight: 700; }
@@ -967,7 +969,7 @@ h4 { font-size: 1.2rem; font-weight: 700; }
 .page-hero .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.35em; color: var(--accent-ember); margin-bottom: 1rem; position: relative; z-index: 1; }
 .page-hero h1 { position: relative; z-index: 1; max-width: 800px; margin: 0 auto 1.5rem; }
 .page-hero h1 .gold { background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-.page-hero .subtitle { color: var(--text-secondary); font-size: 1.15rem; max-width: 650px; margin: 0 auto; line-height: 1.8; position: relative; z-index: 1; }
+.page-hero .subtitle { color: var(--accent-ember); font-size: 1.15rem; max-width: 650px; margin: 0 auto; line-height: 1.8; position: relative; z-index: 1; opacity: 0.85; }
 
 /* ===== SECTION DIVIDERS ===== */
 .section-divider { height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.2; margin: 0; border: none; }
@@ -1002,7 +1004,7 @@ h4 { font-size: 1.2rem; font-weight: 700; }
     font-family: 'Inter', sans-serif;
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--text-primary);
+    color: var(--accent-gold);
     margin-top: 2rem;
     margin-bottom: 0.8rem;
 }
@@ -1015,11 +1017,11 @@ h4 { font-size: 1.2rem; font-weight: 700; }
     margin-bottom: 1.5rem;
 }
 .content-section p strong, .article-body p strong, .section p strong {
-    color: var(--text-primary);
+    color: var(--text-bright);
     font-weight: 600;
 }
 .content-section em, .article-body em, .section em {
-    color: var(--text-primary);
+    color: var(--text-bright);
     font-style: italic;
 }
 
@@ -1035,17 +1037,17 @@ h4 { font-size: 1.2rem; font-weight: 700; }
     border-color: var(--accent-ember);
 }
 
-/* Strong text — always visible against dark bg */
+/* Strong text — bright grey against dark bg */
 .content-section strong, .article-body strong, .section strong {
-    color: var(--text-primary);
+    color: var(--text-bright);
     font-weight: 600;
 }
 
-/* ===== BLOCKQUOTES (Scripture) ===== */
-blockquote, .scripture-block { display: block; background: linear-gradient(135deg, rgba(139, 92, 246, 0.04), rgba(232, 100, 44, 0.04)); border-left: 4px solid var(--accent-gold); border-radius: 0 8px 8px 0; padding: 1.8rem 2rem; margin: 2rem auto; position: relative; overflow: visible; }
-blockquote::after { content: '\201D'; position: absolute; top: -10px; right: 20px; font-size: 8rem; font-family: 'Playfair Display', serif; color: rgba(212, 162, 84, 0.06); pointer-events: none; }
-blockquote p, .scripture-block p { font-style: italic; color: var(--text-primary); line-height: 1.9; font-size: 1.1rem; margin-bottom: 0; }
-blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.1em; font-style: normal; display: block; margin-top: 0.8rem; }
+/* ===== BLOCKQUOTES (Scripture) — Distinctive violet-tinged treatment ===== */
+blockquote, .scripture-block { display: block; background: linear-gradient(135deg, rgba(139, 92, 246, 0.06), rgba(184, 169, 232, 0.03)); border-left: 4px solid var(--accent-scripture); border-radius: 0 8px 8px 0; padding: 1.8rem 2rem; margin: 2rem auto; position: relative; overflow: visible; }
+blockquote::after { content: '\201D'; position: absolute; top: -10px; right: 20px; font-size: 8rem; font-family: 'Playfair Display', serif; color: rgba(139, 92, 246, 0.06); pointer-events: none; }
+blockquote p, .scripture-block p { font-family: 'Playfair Display', serif; font-style: italic; color: var(--accent-scripture); line-height: 1.9; font-size: 1.1rem; margin-bottom: 0; }
+blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-violet); letter-spacing: 0.1em; font-style: normal; display: block; margin-top: 0.8rem; }
 
 /* ===== BREADCRUMBS ===== */
 .breadcrumb { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 2rem; letter-spacing: 0.05em; }
@@ -1363,13 +1365,14 @@ table { max-width: 100%; }
 
 /* --- Scripture Box (violet-accented Bible verse callout) --- */
 .scripture, .verse-block, .scripture-box {
-    background: rgba(139, 92, 246, 0.06);
-    border-left: 4px solid var(--accent-violet);
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.06), rgba(184, 169, 232, 0.03));
+    border-left: 4px solid var(--accent-scripture);
     padding: 1.5rem 2rem;
     margin: 2rem 0;
     border-radius: 0 8px 8px 0;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
-    color: var(--text-primary);
+    color: var(--accent-scripture);
     line-height: 1.9;
     font-size: 1.05rem;
 }
@@ -1578,7 +1581,7 @@ table { max-width: 100%; }
 /* --- Pullquote (alias for pull-quote) --- */
 .pullquote { position: relative; margin: 3rem auto; padding: 2.5rem 2.5rem 2rem; max-width: 700px; text-align: center; border-top: 1px solid rgba(212, 162, 84, 0.15); border-bottom: 1px solid rgba(212, 162, 84, 0.15); }
 .pullquote::before { content: '\201C'; position: absolute; top: -0.6em; left: 50%; transform: translateX(-50%); font-family: 'Playfair Display', serif; font-size: 5rem; color: var(--accent-gold); opacity: 0.2; line-height: 1; }
-.pullquote p { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-style: italic; color: var(--text-primary); line-height: 1.8; }
+.pullquote p { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-style: italic; color: var(--text-bright); line-height: 1.8; }
 
 /* --- Never Gives Up Banner (site-wide devotional link) --- */
 .never-gives-up-banner {
@@ -1831,11 +1834,11 @@ table { max-width: 100%; }
     border-color: var(--accent-ember);
 }
 .article-content strong, .content-wrap strong, .content-body strong {
-    color: var(--text-primary);
+    color: var(--text-bright);
     font-weight: 600;
 }
 .article-content em, .content-wrap em, .content-body em {
-    color: var(--text-primary);
+    color: var(--text-bright);
     font-style: italic;
 }
 
@@ -1847,7 +1850,7 @@ table { max-width: 100%; }
     overflow: hidden;
 }
 .page-header h1 { max-width: 800px; margin: 0 auto 1.5rem; }
-.page-header .subtitle { color: var(--text-secondary); font-size: 1.15rem; max-width: 650px; margin: 0 auto; line-height: 1.8; }
+.page-header .subtitle { color: var(--accent-ember); font-size: 1.15rem; max-width: 650px; margin: 0 auto; line-height: 1.8; opacity: 0.85; }
 
 /* --- Hero Label (legacy alias for eyebrow) --- */
 .hero-label, .topic-label, .series-label {
@@ -2047,7 +2050,7 @@ table { max-width: 100%; overflow-x: auto; display: block; }
 /* Pull quotes */
 .pull-quote { position: relative; margin: 3rem auto; padding: 2.5rem 2.5rem 2rem; max-width: 700px; text-align: center; border-top: 1px solid rgba(212, 162, 84, 0.15); border-bottom: 1px solid rgba(212, 162, 84, 0.15); }
 .pull-quote::before { content: '\201C'; position: absolute; top: -0.6em; left: 50%; transform: translateX(-50%); font-family: 'Playfair Display', serif; font-size: 5rem; color: var(--accent-gold); opacity: 0.2; line-height: 1; }
-.pull-quote-text { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-style: italic; color: var(--text-primary); line-height: 1.8; }
+.pull-quote-text { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-style: italic; color: var(--text-bright); line-height: 1.8; }
 .pull-quote-attribution { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; color: var(--accent-ember); letter-spacing: 0.1em; margin-top: 1rem; text-transform: uppercase; }
 
 /* Small caps for theological terms */
@@ -2271,10 +2274,10 @@ table { max-width: 100%; overflow-x: auto; display: block; }
 .engage-cta-icon-gold { background: rgba(212,162,84,0.1); color: #d4a254; }
 .engage-cta-label {
     font-family: 'Playfair Display', serif; font-size: 1.05rem; font-weight: 700;
-    color: #f0ece4;
+    color: var(--accent-gold);
 }
 .engage-cta-desc {
-    font-size: 0.85rem; color: #9a958c; line-height: 1.4;
+    font-size: 0.85rem; color: var(--text-secondary); line-height: 1.4;
 }
 @media (max-width: 600px) {
     .engage-cta-grid { grid-template-columns: 1fr 1fr; }

@@ -231,6 +231,10 @@ for (const file of htmlFiles) {
     if (!EXEMPT_FROM_HERO.has(file) && !content.includes('hub-hero')) {
         const hasContentContainer = content.includes('content-section') ||
                                      content.includes('article-body') ||
+                                     content.includes('article-content') ||
+                                     content.includes('content-wrap') ||
+                                     content.includes('story-text') ||
+                                     content.includes('story-container') ||
                                      content.includes('class="content"') ||
                                      content.includes('class="section"');
         if (!hasContentContainer) {
