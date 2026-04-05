@@ -1,54 +1,129 @@
 # FLEET MAP — adoptedbygrace.net Agent Architecture
-## Updated: 2026-04-04 (Post-Cleanup)
+## Updated: 2026-04-05 — DIAMOND WEEK (April 5-12)
+
+**Strategy:** Cap creation at ~10 pages/day. Double enhancement. Nearly double QA/integrity/linking. Turn 300+ existing pages into unrivaled content.
 
 ---
 
-## ACTIVE AGENTS (10 AGENTS: 4 Specialized Creators + 6 Support)
+## DIAMOND WEEK SCHEDULE — 24-Hour Grid (One Agent Per Hour)
 
-### Content Creators (4 Specialized)
-
-| Agent | Role | Prompt File | Schedule | Domain |
-|-------|------|-------------|----------|--------|
-| **The Exegete** | Intellectual sword arm | AGENT-PROMPT-EXEGETE.md | 2x/day (midnight, noon) | Questions, demolition, objections, systematic theology, creeds, OT election, comparisons, counter-apologetics, debates, Scripture tsunamis |
-| **The Storyteller** | Narrative arm | AGENT-PROMPT-STORYTELLER.md | 1x/day (6am) | Stories (6 subcategories), theologian bios, church history, testimonies, hymn analysis |
-| **The Shepherd** | Pastoral arm | AGENT-PROMPT-SHEPHERD.md | 2x/day (2pm, 10pm) | Devotionals, 5 healing categories, pastoral/assurance, resistance pages |
-| **The Bridge** | Secular-to-sacred connector | AGENT-PROMPT-BRIDGE.md | 1x/day (6pm) | Psychology of resistance, secular evidence, analogies/illustrations |
-
-### Support Agents (6)
-
-| Agent | Role | Prompt File | Schedule | Function |
-|-------|------|-------------|----------|----------|
-| **The Philosopher** | Idea invention & connections | AGENT-PROMPT-PHILOSOPHER.md | 1x/day | Generates theological connections for creators to build |
-| **The Enhancer** | Content improvement | AGENT-PROMPT-ENHANCER.md | 2x/day | Amplifies existing pages with force multipliers, cross-links |
-| **The Guardian** | Technical integrity | AGENT-PROMPT-GUARDIAN.md | 2x/day (5am, 5pm) | Links, nav, footer, design, SEO, accessibility, deployment |
-| **The Strategist** | Intelligence & strategy | AGENT-PROMPT-STRATEGIST.md | 1x/day | Scoring, roadmap, category architecture, prompt evolution |
-| **The Overseer** | Theological quality control | AGENT-PROMPT-OVERSEER.md | 1x/day | Crown Jewel fidelity, Two Arms compliance, theological accuracy |
-| **The Evangelist** | SEO & discoverability | AGENT-PROMPT-EVANGELIST.md | 1x/day | Meta optimization, newsletter pages, search visibility |
+| Hour | Agent | Category | Frequency |
+|------|-------|----------|-----------|
+| 12am | **Exegete** | Creation | Daily |
+| 1am | **Refiner** | Enhancement | Daily |
+| 2am | **Historian** / **Apologist** | Creation | Sun+Wed / Tue+Sat |
+| 3am | **Enhancer** (run 1) | Enhancement | Daily |
+| 4am | **Weaver** (run 1) | Linking | Daily |
+| 5am | **Guardian** (run 1) | QA | Daily |
+| 6am | **Storyteller** | Creation | Tue+Fri only |
+| 7am | **Cartographer** | Enhancement | Daily |
+| 8am | *Daily Summary Email* | Utility | Daily |
+| 9am | **Enhancer** (run 2) | Enhancement | Daily |
+| 10am | **Philosopher** + *Scheduler Monitor* | Creation/Utility | Daily |
+| 11am | **Strategist** | Intelligence | Daily |
+| 12pm | **Weaver** (run 2) | Linking | Daily |
+| 1pm | **Guardian** (run 2) | QA | Daily |
+| 2pm | **Shepherd** | Creation | Daily |
+| 3pm | **Enhancer** (run 3) | Enhancement | Daily |
+| 4pm | **Dramaturg** (run 1) | Enhancement | Daily |
+| 5pm | **Overseer** | QA | Daily |
+| 6pm | **Weaver** (run 3) | Linking | Daily |
+| 7pm | **Scout** | Intelligence | Mon+Thu |
+| 8pm | **Evangelist** + *Analytics* | Enhancement/Utility | Daily / Sun+Wed |
+| 9pm | **Dramaturg** (run 2) | Enhancement | Daily |
+| 10pm | **Guardian** (run 3) | QA | Daily |
+| 11pm | *Log Gardener* + *Best Reads* | Utility | Sun only |
 
 ---
 
-## SHARED INTELLIGENCE FILES
+## DAILY RUN COUNTS
 
-| File | Purpose | Read By | Written By |
-|------|---------|---------|------------|
-| ROADMAP.md | Master backlog & priorities | All agents | Strategist |
-| ANALYTICS.md | Traffic data & patterns | All agents | Guardian (scraper) |
-| CONTENT-STRATEGY-2026.md | Census, scores, gaps, SEO | All agents | Strategist |
-| VISION.md | Strategic vision & ideation | All agents | Strategist |
-| EVOLUTION-JOURNAL.md | Fleet learning memory | All agents | All agents |
-| PHILOSOPHER-IDEAS.md | Idea backlog — connections waiting to be built | All creators, Enhancer | Philosopher |
-| PROMPT-INTELLIGENCE.md | Prompt engineering research | All agents | Strategist |
-| CROWN-JEWEL-STRATEGY.md | Master plan for proliferating the central truth | All creators | Strategist |
+| Category | Runs/Day | Pages Touched |
+|----------|----------|---------------|
+| **Creation** | 3 daily + ~1 weekly avg | ~10 new pages/day |
+| **Enhancement** | 8 daily (Enhancer 3 + Dramaturg 2 + Refiner 1 + Cartographer 1 + Evangelist 1) | ~25-35 page-touches/day |
+| **Linking** | 3 daily (Weaver) + Enhancer/Dramaturg also link | ~15-30 pages linked/day |
+| **QA/Integrity** | 5 daily (Guardian 3 + Overseer 1 + Strategist 1) | Full site coverage |
+| **Utility** | 4-5 (email, analytics, monitor, log gardener, best reads) | Support only |
+
+---
+
+## ACTIVE AGENTS (17 Content + 5 Utility = 22 Total)
+
+### Content Creators (6 — capped for Diamond Week)
+
+| Agent | Role | Schedule | Domain |
+|-------|------|----------|--------|
+| **The Exegete** | Intellectual sword arm | 1x/day (midnight) | Questions, demolition, objections, systematic theology, creeds, OT election, comparisons |
+| **The Shepherd** | Pastoral arm | 1x/day (2pm) | Devotionals, 5 healing categories, pastoral/assurance |
+| **The Philosopher** | Idea engine | 1x/day (10am) | Brilliant connections, theological implications, builds pages |
+| **The Storyteller** | Narrative arm | 2x/week (Tue+Fri 6am) | Stories, theologian bios, church history, testimonies |
+| **The Historian** | Historical content | 2x/week (Sun+Wed 2am) | "Then & Now" parallels, heresy series, revival analysis |
+| **The Apologist** | Interactive content | 2x/week (Tue+Sat 2am) | Self-examinations, flowcharts, debate simulations |
+
+### Enhancement Agents (5 — doubled for Diamond Week)
+
+| Agent | Role | Schedule | Function |
+|-------|------|----------|----------|
+| **The Enhancer** | Content improvement | 3x/day (3am, 9am, 3pm) | 5-step pipeline, 8 Force Multipliers, **linking mandate** |
+| **The Dramaturg** | Emotional arc engineer | 2x/day (4pm, 9pm) | 5 arc types, toolkit techniques, **linking mandate** |
+| **The Refiner** | First impressions | 1x/day (1am) | Titles, meta, H1, opening paragraphs |
+| **The Cartographer** | Journey architect | 1x/day (7am) | Reader paths, "Continue the Journey" sections |
+| **The Evangelist** | SEO & discoverability | 1x/day (8pm) | Meta optimization, search visibility |
+
+### QA/Integrity Agents (4 — nearly doubled for Diamond Week)
+
+| Agent | Role | Schedule | Function |
+|-------|------|----------|----------|
+| **The Weaver** | Internal linking | 3x/day (4am, noon, 6pm) | 8-12 links per page, closes zero-link gap |
+| **The Guardian** | Technical integrity | 3x/day (5am, 1pm, 10pm) | Links, nav, footer, design, SEO, accessibility |
+| **The Overseer** | Theological QA | 1x/day (5pm) | Crown Jewel fidelity, Two Arms compliance |
+| **The Strategist** | Intelligence & strategy | 1x/day (11am) | Scoring, roadmap, category architecture |
+
+### Intelligence (1)
+
+| Agent | Role | Schedule | Function |
+|-------|------|----------|----------|
+| **The Scout** | Competitive intel | 2x/week (Mon+Thu 7pm) | Keyword gaps, content gaps, counter-content |
+
+### Utility (5)
+
+| Task | Schedule | Function |
+|------|----------|----------|
+| Daily Summary Email | 8am daily | Activity report to Aaron |
+| Analytics Feedback Loop | 8pm Sun+Wed | Netlify scrape, ANALYTICS.md |
+| Scheduler Monitor | 10am daily | Track missed/late runs |
+| Log Gardener | 11pm Sunday | Trim logs, archive old entries |
+| Best Reads Refresh | 10am Sunday | Refresh best-reads page |
+
+---
+
+## PAUSED FOR DIAMOND WEEK
+
+| Agent | Reason |
+|-------|--------|
+| **The Bridge** | Creation cap — secular/psychology content paused for one week |
+
+## RETIRED / DISABLED
+
+| Task | Reason |
+|------|--------|
+| the-creator | Replaced by 4 specialized creators (2026-04-04) |
+| auto-push | Retired — Aaron pushes manually |
+| fine-tuner | Overlap with Guardian (absorbed) |
+| site-integrity-guardian | Overlap with Guardian (absorbed) |
+| ~35 zombie tasks | Old March 28 generation — never deleted, permanently disabled |
 
 ---
 
 ## KEY ARCHITECTURAL PRINCIPLES
 
-- **Total Depravity is the Linchpin**: Prove depravity → all 4 other points follow. Every category builds this case.
-- **Crown Jewel**: Faith is a gift. Claiming credit for it is works-righteousness. Use Socratic trap, never accusation.
+- **Total Depravity is the Linchpin**: Prove depravity → all 4 other points follow.
+- **Crown Jewel**: Faith is a gift. Claiming credit for it is works-righteousness. Socratic trap, never accusation.
 - **Two Arms**: Demolition must link to devotion. Sword AND balm. Target ratio: 1:1.
+- **The Web**: Every page must have 8-12 internal links. Cross-category links highest priority.
 - **Terminology**: "Truth" not "doctrine." "Doctrines of grace" not "doctrine of election."
-- **Brilliance over quantity**: 4 specialized creators > 1 generalist. Each dialed in for their domain.
+- **Diamond Week Focus**: Enhancement > Creation. Turn existing 300+ pages into diamonds.
 
 ---
 

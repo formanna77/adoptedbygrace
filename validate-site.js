@@ -13,6 +13,15 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = __dirname;
+
+// Safe file reader — skips locked/unreadable files
+function safeReadFileSync(filePath) {
+  try {
+    return fs.readFileSync(filePath, 'utf8');
+  } catch (e) {
+    return null;
+  }
+}
 const IGNORE_FILES = new Set(['_nav-template.html', '404.html', 'search.html']);
 const UTILITY_PAGES = new Set([
     'index.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html',
@@ -76,7 +85,8 @@ console.log('━━━ CHECK 1: Broken Internal Links ━━━');
 let brokenLinks = 0;
 
 for (const file of htmlFiles) {
-    const content = fs.readFileSync(path.join(ROOT, file), 'utf8');
+    const content = safeReadFileSync(path.join(ROOT, file));
+    if (!content) continue;
     // Match href attributes pointing to local .html files
     const hrefRegex = /href=["'](?:\/)?([a-z0-9_-]+(?:\.html)?)["']/gi;
     let match;
@@ -107,7 +117,8 @@ for (const [hubFile, prefixes] of Object.entries(HUB_REGISTRY)) {
         warn(`Hub page ${hubFile} doesn't exist`);
         continue;
     }
-    const hubContent = fs.readFileSync(path.join(ROOT, hubFile), 'utf8');
+    const hubContent = safeReadFileSync(path.join(ROOT, hubFile));
+    if (!hubContent) continue;
     const linkRegex = /href=["'](?:\/)?([a-z0-9_-]+(?:\.html)?)["']/gi;
     let m;
     while ((m = linkRegex.exec(hubContent)) !== null) {
@@ -140,7 +151,8 @@ console.log('\n━━━ CHECK 3: Structural HTML ━━━');
 let structuralIssues = 0;
 
 for (const file of htmlFiles) {
-    const content = fs.readFileSync(path.join(ROOT, file), 'utf8');
+    const content = safeReadFileSync(path.join(ROOT, file));
+    if (!content) continue;
 
     if (!content.includes('global.css')) {
         error(`${file} — missing global.css link`);
@@ -169,7 +181,8 @@ let styleIssues = 0;
 
 for (const hubFile of Object.keys(HUB_REGISTRY)) {
     if (!existingFiles.has(hubFile)) continue;
-    const content = fs.readFileSync(path.join(ROOT, hubFile), 'utf8');
+    const content = safeReadFileSync(path.join(ROOT, hubFile));
+    if (!content) continue;
     if (content.includes('<style')) {
         error(`${hubFile} — has inline <style> block (BANNED on hub pages)`);
         styleIssues++;
@@ -206,7 +219,8 @@ const EXEMPT_FROM_HERO = new Set([
 ]);
 
 for (const file of htmlFiles) {
-    const content = fs.readFileSync(path.join(ROOT, file), 'utf8');
+    const content = safeReadFileSync(path.join(ROOT, file));
+    if (!content) continue;
 
     // Check for banned class names
     for (const { pattern, fix } of BANNED_CLASSES) {

@@ -1,0 +1,112 @@
+WRAPPER ARCHITECTURE AUDIT — ADOPTED BY GRACE
+==============================================
+
+CRITICAL FINDING: 95 out of 150+ article pages have full-width content sections 
+(sections without max-width containers) appearing BEFORE the article-body wrapper, 
+or without being wrapped in article-body at all.
+
+This violates the mandatory architecture rule:
+"Every article page MUST use EXACTLY this HTML structure. No exceptions."
+
+PROBLEM PATTERNS IDENTIFIED:
+
+1. COMPARE-* PAGES (8 pages with 7-11 sections each)
+   ❌ compare-calvinism-arminianism.html — 11 problematic sections
+   ❌ compare-calvinism-catholic-soteriology.html — 10 sections
+   ❌ compare-calvinism-molinism.html — 9 sections
+   ❌ compare-calvinism-open-theism.html — 10 sections
+   ❌ compare-monergism-synergism.html — 7 sections
+   ❌ compare-predestination-foreknowledge.html — 10 sections
+
+   Issues: These pages use custom classes like:
+   - <section class="overview-table"> (FULL-WIDTH table before wrapper)
+   - <section class="point-section"> (FULL-WIDTH comparison cards)
+   - <div class="compare-grid"> (custom grid outside wrapper)
+   - <div class="section-nav"> (navigation before wrapper)
+   
+   These sit at full browser width with no max-width constraint, no padding.
+
+2. QUESTION-* PAGES (30+ pages with varying issues)
+   ❌ question-romans9.html — 7 problematic sections
+   ❌ question-acts.html — 7 sections
+   ❌ question-boasting.html — 6 sections
+   ❌ question-chosen.html — 8 sections
+   ❌ question-depravity.html — 8 sections
+   ❌ question-faithgift.html — 7 sections
+   ❌ question-foreknowledge.html — 6 sections
+   
+   (And 23 more question pages with 1-8 sections each)
+   
+   Issues:
+   - <div class="answer-body"> instead of article-body
+   - <section class="section content-section"> (mixed/non-standard)
+   - <div class="definition"> (custom definition boxes outside wrapper)
+   - Greek language boxes not constrained in width
+
+3. SYSTEMATIC-* PAGES (15 pages)
+   ❌ systematic-divine-decrees.html — 8 problematic sections
+   ❌ systematic-covenant-theology.html — 7 sections
+   ❌ systematic-ordo-salutis.html — 7 sections
+   ❌ systematic-atonement.html — 5 sections
+
+4. STORY-* / ANALOGY-* PAGES (Mixed issues)
+   ❌ analogy-light-switch.html — 1 section
+   ❌ ot-job.html — 7 problematic sections
+   ❌ question-1peter1.html — 8 sections
+
+5. SPECIAL PAGES WITH CUSTOM LAYOUTS
+   ❌ apologetic-babies.html — 6 sections (uses answer-body, arguments-grid)
+   ❌ contact.html — 1 section
+   ❌ freedom.html — 1 section
+   ❌ privacy.html — 1 section
+   ❌ terms.html — 1 section
+
+ROOT CAUSES:
+
+1. Non-standard wrapper class names:
+   - answer-body (instead of article-body)
+   - content (ambiguous, often standalone without max-width)
+   - section / content-section (not the same as article-body wrapper)
+   - definition, answer-header, arguments-grid (custom, no wrapper parent)
+
+2. Sections appearing OUTSIDE any wrapper:
+   - <section class="overview-table"> goes directly after <header>
+   - <div class="section-nav"> appears between </nav> and hero
+   - <section class="point-section"> not inside article-body
+   - <div class="compare-grid"> sits without wrapper
+
+3. Full-width layouts that break padding/centering:
+   - Tables and grids render at 100% viewport width
+   - No left/right padding on mobile
+   - No max-width constraint means content extends edge-to-edge
+   - Text becomes hard to read on mobile/tablets
+
+COMPLIANCE STATUS:
+
+✅ COMPLIANT (using standard article-body wrapper):
+   - Most recent articles (2026-04-01 and later)
+   - Hub pages (use .hub-card/.hub-grid correctly)
+   - Home page
+
+❌ NON-COMPLIANT (95 pages with wrapper issues):
+   - All 8 compare-* pages
+   - 30+ question-* pages
+   - 15 systematic-* pages
+   - Mixed other pages
+
+IMPACT:
+
+Affected pages likely display:
+- Content at full viewport width on mobile
+- No padding on edges
+- Poor text readability on narrow screens
+- Layout inconsistency with compliant pages
+- Potential white-space-only rendering in edge cases
+
+MANDATORY REMEDIATION:
+
+All 95 pages must be updated to use ONLY <article class="article-body"> as the 
+content wrapper, with all sections moved INSIDE this wrapper. No custom wrapper 
+classes should be used at the top level of article pages.
+
+================================================================================

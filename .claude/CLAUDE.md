@@ -60,6 +60,28 @@ Your job as an agent:
 
 There are NO exceptions. Not even if you think it would be helpful. Not even at the end of a long session. Aaron pushes when Aaron is ready to push.
 
+## ══════════════════════════════════════════════════════
+## DIAMOND WEEK COORDINATION (April 5-12, 2026) — MANDATORY
+## ══════════════════════════════════════════════════════
+
+**ALL enhancement agents MUST read `/DIAMOND-WEEK-TRACKER.md` at the start of every session.**
+
+Diamond Week is an intensive enhancement blitz. Creation is capped; enhancement is the priority. The tracker contains:
+1. **LANE DISCIPLINE** — Each agent owns a specific part of the page (links, content, emotion, meta, journey, structure). Stay in your lane. Do NOT modify elements that belong to another agent's lane.
+2. **PRIORITY QUEUE** — Weakest pages first. 231 pages have ZERO internal links. 201 pages are missing footer-grace-warning. Fix the worst first.
+3. **COMPLETION LOG** — After enhancing a page, log what you did in the tracker. This prevents duplicate work.
+4. **FLAGS** — If you see a problem outside your lane, log it in the Flags section for the responsible agent.
+
+**The lane assignments:**
+- **Weaver** → Links only (add `<a>` tags around existing words)
+- **Enhancer** → Content only (add new sections, paragraphs, blockquotes)
+- **Dramaturg** → Emotion only (rewrite openings/closings, add sensory language)
+- **Refiner** → Meta only (`<title>`, `<meta>`, `<h1>`, eyebrow, hub card text)
+- **Cartographer** → Journey only (post-article navigation sections)
+- **Guardian** → Structure only (footer-grace-warning, nav, wrapper classes)
+
+**After Diamond Week (April 13+):** Remove this section and delete DIAMOND-WEEK-TRACKER.md.
+
 ## SEARCH INDEX & MEGA-MENU REBUILD — MANDATORY FOR ALL CONTENT AGENTS
 **After creating or modifying HTML pages, you MUST run these before finishing:**
 

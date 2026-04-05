@@ -1,0 +1,154 @@
+================================================================================
+ADOPTEDBYGRACE.NET — DIAMOND WEEK AUDIT SUMMARY
+April 5, 2026
+================================================================================
+
+AUDIT SCOPE
+-----------
+Total HTML article pages scanned: 292
+Hub/special pages excluded: 74
+
+HEADLINE FINDINGS
+-----------------
+✓ NO CRITICAL ISSUES — All pages have valid HTML structure
+✓ CONTENT DEPTH IS EXCELLENT — 0 pages are thin (all ≥8 KB)
+✓ META TAGS ARE NEAR-PERFECT — 99.7% compliance (291/292 pages have full meta)
+✗ LINKING IS THE BOTTLENECK — 88% of pages (257 pages) lack optimal cross-linking
+✗ STRUCTURE HAS GAPS — 69% of pages (201 pages) missing footer-grace-warning
+
+WEAKNESS DISTRIBUTION
+---------------------
+184 pages (63%) — 2 weak dimensions
+ 91 pages (31%) — 1 weak dimension  
+ 17 pages (6%)  — 0 weak dimensions (EXEMPLAR PAGES)
+
+BREAKDOWN BY DIMENSION
+----------------------
+LINKS (Total weak: 257/292 = 88%)
+  0 links: 231 pages (79%) — CRITICAL FOR LINKING CAMPAIGN
+  1-3 links: 18 pages (6%)
+  4-7 links: 8 pages (3%)
+  8-12 links: 28 pages (10%) — approaching standard
+  13+ links: 7 pages (2%) — exemplar linking
+
+DEPTH (Total weak: 0/292 = 0%)
+  <8 KB: 0 pages (0%) — ZERO thin pages
+  8-20 KB: 121 pages (41%) — lean but adequate
+  20+ KB: 171 pages (59%) — rich content
+
+STRUCTURE (Total weak: 201/292 = 69%)
+  Full compliance (5/5): 91 pages (31%)
+    - Has: article-body, page-hero, grace-warning, nav.js, global.css
+  Partial (4/5): 201 pages (69%)
+    - Missing: grace-warning OR eyebrow (almost always grace-warning)
+
+META TAGS (Total weak: 1/292 = 0.3%)
+  Full compliance (3/3): 291 pages (99.7%)
+    - Has: description, og:title, canonical
+  Partial: 1 page (0.3%)
+    - for-hurting.html (missing description)
+
+CATEGORY PERFORMANCE
+--------------------
+Worst performers (100% weakness rate):
+  - story (19 pages) — All underlinked or missing grace-warning
+  - systematic (20 pages) — All underlinked or missing grace-warning
+  - secular (12 pages) — All underlinked
+  - history (14 pages) — All missing grace-warning
+  - theologian (10 pages) — All missing grace-warning
+  - pastoral (4 pages), open-wound (7 pages), shattered-lens (5 pages)
+
+Best performers:
+  - romans: 50% (1/2 pages have issues)
+  - broken-mirror: 67% (4/6 pages have issues)
+  - invisible-wall: 80% (4/5 pages have issues)
+
+TOP 5 ACTION ITEMS FOR DIAMOND WEEK
+------------------------------------
+
+1. GRACE-WARNING AUDIT (Impact: High | Effort: Low | Duration: 1-2 days)
+   Fix: 201 pages missing footer-grace-warning element
+   Action: Add grace-warning div to footer in all pages
+   Status: Fixable in bulk with search/replace
+   Expected improvement: 201 pages → COMPLIANT
+
+2. LINKING CAMPAIGN (Impact: HIGHEST | Effort: High | Duration: 4-5 days)
+   Fix: 257 pages with <8 internal links
+   Priority tiers:
+     - Tier 1 (39 pages): 0-3 links → need 8-12 each
+     - Tier 2 (91 pages): 4-7 links → need to reach 8+
+     - Tier 3 (54 pages): 8+ links but structure gaps → verify links
+   Strategy: Use 101 Ways principle — every analogy links to Q&A, devotional, theology
+   Expected improvement: 257 pages better interconnected
+
+3. EYEBROW CLASS VERIFICATION (Impact: Medium | Effort: Low | Duration: 1 day)
+   Fix: Some pages missing eyebrow span in page-hero
+   Action: Verify all article pages have: <span class="eyebrow">Category</span>
+   Status: Mostly present but verify completeness
+   Expected improvement: Structural consistency
+
+4. STUB PAGE RESOLUTION (Impact: Medium | Effort: Medium | Duration: 1-2 days)
+   Fix: 6-10 incomplete pages
+   Pages:
+     - contact.html (1 KB stub)
+     - explore-all.html (2 KB stub)
+     - donate.html (needs verification)
+     - search.html, sitemap.html (verify functionality)
+   Action: Complete or repurpose these pages
+   Expected improvement: No dead-end pages
+
+5. EXEMPLAR ANALYSIS (Impact: Medium | Effort: Low | Duration: 0.5 days)
+   Study 17 exemplar pages to understand patterns
+   These pages have ALL strengths:
+     - 10-18 internal links
+     - 27-52 KB depth
+     - Full structural compliance
+     - Complete meta tags
+   Action: Use these as templates for enhancement approach
+   Expected improvement: Quality assurance on future changes
+
+EFFORT ESTIMATE FOR FULL ENHANCEMENT
+------------------------------------
+Grace-warning fixes: 2 days (201 pages)
+Linking campaign: 5 days (257 pages)
+Eyebrow verification: 1 day (all pages)
+Stub resolution: 2 days (5-10 pages)
+Validation & QA: 1 day (run validate-site.js)
+---
+TOTAL: 11 days (realistic for 1-2 dedicated enhancers)
+
+TOOLS & AUTOMATION
+------------------
+✓ Use build-search-index.js after major updates
+✓ Use build-mega-menu.js after adding new content
+✓ Use validate-site.js to catch broken links and orphans
+✓ CSV export (DIAMOND-WEEK-AUDIT-DATA.csv) has all data for filtering
+
+FILES GENERATED
+---------------
+✓ DIAMOND-WEEK-AUDIT.md — Full detailed report with tables
+✓ DIAMOND-WEEK-AUDIT-DATA.csv — Machine-readable data (292 rows)
+✓ DIAMOND-WEEK-SUMMARY.txt — This file
+
+NEXT STEPS
+----------
+1. Open DIAMOND-WEEK-AUDIT.md for full enhancement details
+2. Use DIAMOND-WEEK-AUDIT-DATA.csv to filter by category or weakness type
+3. Study 17 exemplar pages (listed in AUDIT.md Tier 3 section)
+4. Start with grace-warning fixes (quick wins)
+5. Proceed to linking campaign (highest impact)
+
+STRATEGIC INSIGHT
+-----------------
+The site has a SOLID FOUNDATION. No critical HTML breaks. Excellent content depth.
+This audit reveals the specific, actionable enhancements needed to transform the site
+from "functionally complete" to "maximally interconnected."
+
+The 101 Ways principle is key: every page should be a doorway to 8-12 other pages.
+A reader arriving on ANY page should be able to follow links deeper and deeper into
+the truth until they've encountered the Crown Jewel from multiple angles.
+
+Current state: The web is fragmented (88% of pages have <8 links).
+Diamond Week opportunity: Make the web inescapable.
+
+================================================================================

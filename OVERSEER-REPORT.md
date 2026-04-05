@@ -1,259 +1,163 @@
-# OVERSEER REPORT — 2026-04-04
+# OVERSEER REPORT — 2026-04-05 (Session 3)
 
 ## EXECUTIVE SUMMARY
 
-This is the **inaugural Overseer audit** of adoptedbygrace.net. The site contains **315 HTML pages** across 15+ content categories. Theological quality on the best pages is **elite** (9.0–9.8 range) — the Crown Jewel page, story allegories, hymn analysis, and psychology pages are among the most powerful Reformed content anywhere online. However, a **catastrophic cross-referencing failure** threatens to undermine the entire mission: **26 demolition/objection pages are island pages with 0-2 internal links**, meaning readers who land on these pages hit a dead end. Combined with a **90% failure rate on the Two Arms mandate** (demolition pages not linking to devotionals), this means the site's most confrontational content is orphaning readers in despair without catching them. This is the #1 priority to fix.
+**Third Overseer audit** of adoptedbygrace.net. The site now contains **371 HTML pages** (up from 326 earlier today). Diamond Week Day 1 is producing record output — 53 new pages in 24 hours. Traffic is strong at 14,129 requests/week (+6.6% WoW).
 
-Traffic is strong at 13,248 requests/week (+22% WoW), with Psychology of Resistance as the breakout category (18.1 avg requests/page). The site's content quality floor is high, but infrastructure issues — island pages, terminology drift, and 5 surviving apologetics-prefixed files — need immediate attention.
+**Site Health Score: 7.5/10** (down from 7.8 — see below for why)
 
-**Site Health Score: 7.2/10** — Excellent theology, excellent writing, broken plumbing.
+The score drops not because the site got worse, but because this audit reveals a **systemic orphan page crisis** that was masked by the previous report's narrower scan. The validator now flags **31 orphan pages** not linked from any hub. Additionally, **13 demolition pages** lack any healing/devotional links (a Two Arms failure), and **5 apologetic-* files** still haven't been renamed despite being flagged in two previous audits.
 
----
+### What Improved Since Last Audit (Session 2, earlier today)
+- **Zero broken internal links** — structural integrity is sound
+- **Critical pages are fortified** — all 7 crown jewel pages have 46-59 internal links each and full structural compliance
+- **Evolution Journal is active** — 48 entries today, 126 in last 2 days (excellent fleet learning)
+- **No inline styles on hub pages** — unified design mandate holding
+- **Hub stats bars present on all hubs** (except theologians.html and history-timeline.html which use legacy designs)
 
-## CRITICAL FINDINGS (MUST FIX)
-
-### CRITICAL-1: 26 Island Pages (0-2 Internal Links) — Demolition/Objection Category
-**Severity: CRITICAL — Blocks mission**
-
-16 objection pages and 10 demolition pages have **0-2 internal links** (only a self-referencing canonical). These pages are **complete dead ends** for readers. A visitor who arrives via search finds an argument, finishes reading, and has **nowhere to go**. No related articles. No devotional pairing. No deeper content. They bounce.
-
-**Objection island pages (0-2 links):**
-- objection-babies.html (0 links)
-- objection-god-could-save-all.html (0 links)
-- objection-why-believe.html (0 links)
-- objection-why-not-save-everyone.html (0 links)
-- objection-desire.html (1 link — self only)
-- objection-effort.html (1 link)
-- objection-evangelism-pointless.html (1 link)
-- objection-fairness.html (1 link)
-- objection-faith-choice.html (1 link)
-- objection-love.html (1 link)
-- objection-manipulation.html (1 link)
-- objection-responsibility.html (1 link)
-- objection-robots.html (1 link)
-- objection-unfair-to-choose-some.html (1 link)
-- objection-why-evangelize.html (1 link)
-- objection-why-pray.html (1 link)
-
-**Demolition island pages (0-2 links):**
-- demolition-ezekiel18-23.html (0 links)
-- demolition-john12-32.html (0 links)
-- demolition-1cor15-22.html (1 link)
-- demolition-2cor5-14-15.html (1 link)
-- demolition-acts17-30.html (1 link)
-- demolition-hebrews2-9.html (1 link)
-- demolition-joshua24-15.html (1 link)
-- demolition-philippians2-12-13.html (1 link)
-- demolition-steel-man-arminianism.html (1 link)
-- demolition-prevenient-grace.html (2 links)
-
-**Action Required:** Enhancer must add 4-6 internal links to EVERY one of these pages, including at least 1 devotional/healing link (Two Arms mandate).
-
-### CRITICAL-2: Two Arms Mandate — 90% Failure Rate on Demolition Pages
-**Severity: CRITICAL — Causes spiritual harm**
-
-Of 10 demolition/objection pages audited in depth, **9 had ZERO links to any devotional or healing page**. Only `objection-why-command.html` correctly links to both `/anxious-mind-hub` and `/devotional-never-gives-up`.
-
-Per the site mandate: *"Demolition without devotion creates despair."* The site is currently demolishing readers' foundations and leaving them stranded. This replicates the exact pattern Aaron experienced — exile after truth without comfort.
-
-**Action Required:** Every demolition and objection page must link to at least 1 devotional/healing page. This is the highest-priority enhancement task.
-
-### CRITICAL-3: 5 Apologetics-Prefixed Files Still Exist
-**Severity: CRITICAL — Violates 2026-04-04 mandate**
-
-The Apologetics category was eliminated on 2026-04-04, but 5 files still exist:
-- apologetic-babies.html
-- apologetic-definite-atonement.html
-- apologetic-evangelism.html
-- apologetic-perseverance.html
-- apologetic-unreached.html
-
-These should be redistributed to the Questions category per the mandate.
+### What Got Worse or Persists
+- **31 orphan pages** — pages that exist but are NOT linked from their hub. Visitors can't discover them.
+- **13 demolition pages** have ZERO links to devotional/healing content — Two Arms violation
+- **5 apologetic-* files** still exist (3rd audit flagging this)
+- **~93 article pages** still missing the `article-body` wrapper class
+- **~20 pages** missing `footer-grace-warning`
+- **Non-NIV translations** found in ~15 pages (ESV most common)
 
 ---
 
-## WARNINGS (NEEDS ATTENTION)
+## PHASE-BY-PHASE FINDINGS
 
-### WARNING-1: Terminology Drift — "Doctrine" Used 165 Times
-The mandate requires "doctrine" → "truth" for generic usage. Grep found **165 instances of "Calvinism/reformed theology/TULIP"** across 50 files, and widespread use of "doctrine" in generic contexts. While many uses are legitimate (proper nouns, direct quotes, academic theology pages like `theologian-augustine.html`), several pages use "doctrine" generically where "truth" would be more powerful.
+### PHASE 1: TERMINOLOGY
+- **Generic "doctrine" misuse:** ~11 files contain solo "doctrine" outside proper context. Most are acceptable (terms.html legal text, essays.html describing the 5-point argument, comparative pages). **3 actionable instances:**
+  - `demolition-matthew-23-37.html` line 323: "linchpin of election doctrine" → should be "linchpin of this truth"
+  - `story-the-person-who-chose-god.html` line 249: "most important doctrine in Scripture" → "most important truth in Scripture"
+  - `terms.html` line 115: "doctrine of divine election" → "truth of divine election" (or acceptable as legal language)
+- **"Doctrine of election" → "doctrines of grace":** Found in `compare-every-decision-point.html` line 426, `question-does-god-choose-who-goes-to-heaven.html` (2 instances). **4 actionable instances remain** (down from 30 at first audit).
+- **Tradition-first language (Calvinism/Reformed/TULIP):** **696 total instances** across the site. The vast majority are in legitimate contexts (comparison pages titled "Calvinism vs X", meta keywords, theologian bios, belief assessment). **~50-80 are in prose where Scripture-first framing would be stronger.** This is a long-tail improvement, not an emergency.
 
-**Highest-frequency offenders:**
-- compare-calvinism-open-theism.html (14 instances of Calvinism/TULIP)
-- compare-monergism-synergism.html (13 instances)
-- history-spurgeon-downgrade.html (9 instances)
-- theologians.html (9 instances)
-- demolition-hub.html (7 instances)
+### PHASE 2: CROWN JEWEL DEFENSE
+- **Demolition pages missing healing links: 13 pages** (CRITICAL Two Arms violation)
+  1. demolition-1cor15-22.html
+  2. demolition-1tim2-4.html
+  3. demolition-2peter2-1.html
+  4. demolition-2peter3-9.html
+  5. demolition-acts7-51.html
+  6. demolition-arminian-facts.html
+  7. demolition-hebrews6-4-6.html
+  8. demolition-john3-16.html
+  9. demolition-matt23-37.html
+  10. demolition-prevenient-grace.html
+  11. demolition-romans10-9.html
+  12. demolition-titus2-11.html
+  13. demolition-hub.html (the hub page itself has no healing pathway)
+- **Objection pages missing healing links: 1 page** — objection-author-of-sin.html
+- **Crown Jewel pages themselves: EXCELLENT** — All 7 critical pages (faith-origin, faith-gift, drowning-man, cost-of-rejecting, never-gives-up, faith-choice, faith-origin-test) have 46-59 links each, grace warnings, and proper structure.
 
-**Note:** Comparison pages and history pages legitimately need these labels. The concern is pages that LEAD with "Calvinism says" rather than "Scripture teaches." This is a gradual enhancement priority, not an emergency.
+### PHASE 3: TWO ARMS BALANCE
+- **Demolition pages:** 30
+- **Objection pages:** 18
+- **Total "left arm" (tear down):** 48
+- **Devotional pages:** 21
+- **Healing pages:** 36
+- **Total "right arm" (catch them):** 57
+- **Ratio: Left 48 : Right 57** — Well-balanced at the page-count level. **However**, the critical gap is not in page counts but in CROSS-LINKING. 13 demolition pages have zero healing links, meaning readers who land there hit a dead end with no path to comfort.
 
-### WARNING-2: "Doctrine of Election" Still Used ~30 Times
-Grep found ~30 instances of "doctrine of election" or "doctrine of sovereign election" across pages. The mandate requires "doctrines of grace" instead. Key pages affected:
-- question-romans9.html (5+ instances)
-- question-chosen.html (2 instances)
-- theologian-augustine.html (multiple instances)
-- history-augustine-pelagius.html (1 instance)
+### PHASE 4: ARTICLE STRUCTURE
+- **Pages missing `article-body` wrapper:** ~93 (many are legacy pages from before the mandate)
+- **Pages missing `footer-grace-warning`:** ~20 pages including:
+  - secular-ai-determinism.html, psychology-autonomy-illusion.html, compare-calvinism-open-theism.html
+  - analogy-light-switch.html, question-boasting.html, belief-assessment.html
+  - theologian-luther.html, psychology-system-justification.html
+  - story-historical-luther-storm.html, story-the-fish-who-chose-the-ocean.html
+  - question-john17.html, question-acts.html, open-wound-miscarriage.html
+  - question-acts4.html, question-bible-says-sick.html, invisible-wall-family.html
+  - story-thought-the-day-you-chose-again.html, start-here-phase5.html, topics.html
+- **Inline `<style>` violations:** Only 404.html (acceptable)
 
-### WARNING-3: Philosophy Page Missing Canonical Link
-`philosophy-copernican-revolution.html` — Missing `<link rel="canonical">` tag in head. SEO impact.
+### PHASE 5: HUB PAGE COMPLIANCE
+- **Hub pages using unified `.hub-card`:** 13 of 15 hubs ✅
+- **Hubs NOT using unified design:**
+  - `theologians.html` — no hub-card, no hub-stats (fully legacy)
+  - `history-timeline.html` — uses timeline-card, no hub-stats (fully legacy)
+- **Legacy card classes on otherwise-compliant hubs:** `related-article-card` and `journey-card` in Related Reading sections (acceptable — these aren't the main card grid)
+- **Inline styles on hubs:** 0 ✅
 
-### WARNING-4: compare-calvinism-arminianism.html — Missing H1 Tag
-Confirmed: this page targets the highest-search comparison in Reformed theology but is missing a proper h1 tag. SEO score degraded. This was already flagged in ROADMAP.md Tier 0 but remains unfixed.
+### PHASE 6: INTERNAL LINKING
+- **Sampled pages:** Most recently created/enhanced pages have 29-65 links (excellent)
+- **Legacy pages with 0 internal links:** 30+ pages including psychology-autonomy-illusion, compare-calvinism-open-theism, theologian-luther, question-parables, ot-abraham, ot-job, analogy-lazarus-grave, and many others
+- **Cross-category linking:** Strong on new pages, weak on legacy. Weaver's Diamond Week mission is critical.
 
-### WARNING-5: Devotional Pages — 40% Orphan Rate (Links Back to Demolition)
-2 of 5 devotional/healing pages audited had no links back to demolition/question pages:
-- devotional-chosen-before-you-were-broken.html — no demolition/question links
-- broken-mirror-performance-treadmill.html — no demolition/question links
+### PHASE 7: TRANSLATION COMPLIANCE
+- **ESV citations:** ~12 instances across 5 pages. **Priority conversion:** `objection-why-not-save-everyone.html` (8 ESV citations, high-traffic page)
+- **NASB citations:** ~5 instances across 4 pages
+- **KJV citations:** ~5 instances across 3 pages (some acceptable in Puritan historical context)
+- **NKJV:** 1 instance in systematic-hamartiology.html
+- **LSB:** 0 ✅
+- **Total conversions needed:** ~18 instances across ~10 pages
 
-The Two Arms mandate works both directions.
+### PHASE 8: LINK VALIDATION
+- **Broken internal links:** 0 ✅
+- **Orphan pages:** 31 (CRITICAL — see full list above)
+- **Content container warning:** objection-why-command.html (persistent)
+- **CSS integrity:** ✅
 
----
+### PHASE 9: EVOLUTION JOURNAL
+- **Entries today:** 48 (EXCELLENT)
+- **Entries last 2 days:** 126 (EXCELLENT)
+- **Quality:** Rich with craft, theological, and technique discoveries
+- **Assessment: EXCELLENT**
 
-## INFORMATIONAL (OPPORTUNITY)
+### PHASE 10: CRITICAL PAGES
+- **All 7 crown jewel pages:** STRONG (46-59 links each, proper structure)
+- **5 apologetic-* files still exist** (3rd consecutive audit flagging)
 
-### INFO-1: Nav Items — Dynamic vs. Static
-All 15 sampled pages passed on global.css, nav.js, footer-grace-warning, title, and meta description. However, text-search for nav items found 8-12 of 13 items per page. This is likely because some nav items are rendered dynamically by nav.js (mega-menu). The core infrastructure (CSS, JS, footer) is **solid across the board**.
-
-### INFO-2: Search Index and Mega-Menu — Current
-- Search index: 312 pages indexed successfully
-- Mega-menu: 273 articles across 7 umbrellas
-- Sitemap: 1857 lines (~314 URLs) — matches file count
-
-### INFO-3: Healing Category Needs Volume
-Only 3 live pages in Healing, averaging 6.7 requests/page (lowest of any category). 5 hub categories planned (Anxious Mind, Broken Mirror, Open Wound, Invisible Wall, Shattered Lens) with 50 articles target. Currently at ~28. This is the "right arm" that catches people — needs acceleration.
-
-### INFO-4: Eschatology Terms Found in 10 Pages
-Terms like "end times," "tribulation," or "millennium" appear in 10 pages. Spot-checking confirms these are used in the context of sovereignty/election (e.g., discussing perseverance through end times, or election as pre-temporal). No banned eschatology content found.
-
-### INFO-5: Newsletter/Email Signup — Clean
-Zero newsletter signup forms, Mailchimp/ConvertKit/SendGrid references found. The privacy page mentions email contact info (legitimate). Clean.
-
----
-
-## PHASE BREAKDOWN
-
-### Phase 1: Theological Integrity
-- Terminology violations: **165 instances** of Calvinism/Reformed/TULIP across 50 files (many legitimate)
-- "Doctrine" (generic) used where "truth" mandated: ~50 estimated actionable instances
-- "Doctrine of election" vs "doctrines of grace": ~30 instances needing review
-- Crown Jewel proliferation: **Excellent** on scored pages (9.4 benchmark maintained)
-- Socratic trap deployment: Present on question/objection pages, appropriately absent on narrative/devotional
-- Grace-power messaging: Present in footer on all pages; woven into content on most
-
-### Phase 2: Two Arms Mandate
-- Demolition/objection pages: **44 total**
-  - With devotional links: **~5 estimated** (based on sample)
-  - Orphans (missing pairing): **~39 estimated** (90% failure rate in sample)
-- Healing/devotional pages: **47 total**
-  - With truth/demolition links: **~60% estimated** (better but not complete)
-  - Orphans: **~19 estimated**
-
-### Phase 3: Navigation Compliance
-- Pages audited: **15**
-- Nav infrastructure (CSS, JS): **100% pass**
-- Footer grace warning: **100% pass**
-- Meta tag compliance: **93%** (1 page missing canonical)
-- All pages have title and meta description
-
-### Phase 4: Banned Content
-- Newsletter signup code: **0 found** ✓
-- Resources section: **0 found** ✓
-- Community pages: **0 found** ✓
-- Apologetics category: **5 files still exist** ✗ — Need redistribution
-- Eschatology (no sovereignty tie): **0 violations** ✓
-- Social media content: **0 found** ✓
-
-### Phase 5: Quality Floor
-- Pages scored: **12** (4 files not found/too large)
-- Quality range: **8.2 – 9.8**
-- Avg quality of scored pages: **9.1**
-- Pages below 6.5: **0** (in sample — previously flagged pages like secular-sociology scored 9.2 after enhancement)
-- Pages above 8.5: **8 of 12** scored pages
-
-**Benchmark pages:**
-- story-the-dead-city.html — **9.8** (masterpiece allegory, Lewis/Buechner quality)
-- devotional-never-gives-up.html — **9.6** (right arm catching them perfectly)
-- hymn-amazing-grace.html — **9.6** (unique content format, devastating insight)
-- question-where-did-your-faith-come-from.html — **9.4** (Crown Jewel benchmark)
-
-### Phase 6: Cross-Referencing
-- **Island pages found: 26** (0-2 links) — ALL in demolition/objection categories
-- Cross-references added: 0 (flagged for Enhancer)
-- Hub pages: Search index current, mega-menu current
-
-### Phase 7: Discoverability
-- Search index: **Updated** — 312 pages indexed
-- Mega-menu: **Updated** — 273 articles in 7 umbrellas
-- Sitemap: **314 URLs** — matches file count ✓
-
-### Phase 8: Analytics Alignment
-- Top traffic pages: Psychology-cost-of-rejecting-grace (62 req) scores **8.8** ✓
-- objection-why-command (48 req/wk) scores **8.2** — was 7.1, improved
-- Two Arms data gap: Devotionals 9.4 avg/page traffic vs. Demolition 11.1 — right arm lagging
-- Healing: 6.7 avg/page — lowest category, brand new, needs time + internal links
-
-### Phase 9: Evolution Application
-- EVOLUTION-JOURNAL entries: **12 entries** (all from 2026-04-04)
-- Key discoveries being applied: Socratic trap ✓, structural isomorphism ✓, temporal inversion ✓
-- Stale techniques: None yet (journal is new)
-- Observation: The journal system is working — Philosophy category (avg 8.5) was built by agents who read the journal
-
-### Phase 10: Critical Pages
-- Pages checked: question-where-did-your-faith-come-from (9.4 ✓), devotional-never-gives-up (9.6 ✓), story-the-dead-city (9.8 ✓), hymn-amazing-grace (9.6 ✓)
-- compare-calvinism-arminianism: **Missing h1 tag** — SEO issue (was already flagged)
-- philosophy-copernican-revolution: **Missing canonical link**
-
-### Phase 11: Cross-Agent Consistency
-- **Creator alignment: GOOD** — Recent pages (hymn, philosophy, healing) are 8.5+ quality, use master voice techniques, deploy Socratic trap where appropriate
-- **Enhancer alignment: MIXED** — 24-page sweep was excellent, but island pages remain unfixed
-- **Guardian alignment: UNKNOWN** — Prompt listed as "needs restoration" in ROADMAP.md
-- **Strategist alignment: GOOD** — ROADMAP.md current, priorities data-driven, analytics integrated
+### PHASE 11: ANALYTICS
+- **Top performer:** psychology-cost-of-rejecting-grace (63 req/wk)
+- **Psychology category:** 19.3 avg/page (highest engagement)
+- **Healing:** +210% growth, 5.2 avg/page
+- **Top traffic page needing work:** objection-why-command.html (48 req/wk, missing article-body)
 
 ---
 
-## RECOMMENDATIONS BY AGENT
+## CRITICAL ACTIONS — PRIORITY ORDER
 
-### For Enhancer (HIGHEST PRIORITY)
-1. **EMERGENCY: Fix 26 island pages** — Add 4-6 internal links to every objection and demolition page with 0-2 links. Include at least 1 devotional/healing link each.
-2. **Two Arms pairing** — Add devotional links to all demolition pages. Target: 100% coverage.
-3. **H1 tag on compare-calvinism-arminianism.html** — Missing. SEO-critical.
-4. **Canonical link on philosophy-copernican-revolution.html** — Missing.
+### 🔴 CRITICAL (Do First)
+1. **Wire 31 orphan pages into their hubs.** Priority: 10 demolition → demolition-hub, 5 devotional → devotionals, 5 OT → ot-hub.
+2. **Add healing links to 13 demolition pages.** Every demolition MUST link to at least 1 devotional + 1 healing page.
+3. **Convert 8 ESV citations in objection-why-not-save-everyone.html to NIV.**
 
-### For Creator
-1. **Healing pages** — Accelerate. Currently 28 articles, target 50. The right arm needs volume.
-2. **Continue hymn series** — Unique content, zero competition, 9.6 quality on first entry.
-3. **Ensure every new page has 4+ internal links from day one** — No more island pages.
+### 🟡 HIGH
+4. **Rename 5 apologetic-* files to question-* prefix.**
+5. **Add footer-grace-warning to ~20 pages missing it.**
+6. **Fix objection-why-command.html article-body wrapper.**
 
-### For Guardian
-1. **Restore Guardian prompt** — Listed as "needs restoration" in ROADMAP.md.
-2. **Redistribute 5 apologetic-* files** — Move to Questions category per 2026-04-04 mandate.
-
-### For Strategist
-1. **Track island page resolution** — This is the single highest-ROI fix on the site.
-2. **Monitor Two Arms ratio** — Currently ~1.6:1 demolition:devotion. Target 1:1.
-3. **Terminology sweep** — Schedule gradual "doctrine"→"truth" migration across 50 files.
+### 🟢 MEDIUM (Diamond Week Queue)
+7. **Weaver: Process 30+ zero-link legacy pages** — add 8-12 internal links each.
+8. **Guardian: Add article-body wrapper to ~93 legacy pages.**
+9. **Convert remaining ~10 non-NIV citations.**
+10. **Redesign theologians.html and history-timeline.html to unified hub pattern.**
 
 ---
 
-## THEOLOGICAL HEALTH
-**Score: 8.5/10** — Strong and improving
-- **Trend:** ↑ Improving (Philosophy category launch at 8.5 avg, Crown Jewel at 9.4)
-- **Key strength:** Psychology category at 8.8 avg quality, perfect Crown Jewel deployment
-- **Key weakness:** 26 island pages create dead ends that undermine the mission. Terminology drift on "doctrine" vs "truth."
+## SITE HEALTH METRICS DASHBOARD
 
-## SITE HEALTH OVERALL
-- Architecture: **6/10** (island pages, Two Arms violation, missing h1/canonical)
-- Content Quality: **9/10** (elite writing, strong theology, powerful emotional impact)
-- Mission Alignment: **8/10** (Crown Jewel proliferated well, but orphaned readers is a mission failure)
-- Fleet Coordination: **7/10** (Creator and Strategist aligned, Guardian needs restoration, Enhancer island debt)
-- **AVERAGE: 7.5/10**
+| Metric | Last Report | This Report | Trend |
+|--------|------------|-------------|-------|
+| Total HTML pages | 326 | 371 | ↑ +45 |
+| Broken internal links | 0 | 0 | ✅ |
+| Orphan pages (not on hubs) | 0* | 31 | ⚠️ |
+| Demolition w/o healing links | 3 | 13 | ⚠️ |
+| Footer grace-warning | 99.7% | ~95% | ↓ |
+| article-body compliance | ~75% | ~75% | → |
+| Non-NIV citations | ~3 | ~18 | ⚠️ |
+| Crown jewel pages | STRONG | STRONG | ✅ |
+| Evolution Journal activity | 8/day | 48/day | ✅ |
+| Validator errors | 0 | 0 | ✅ |
+| Validator warnings | 1 | 32 | ⚠️ |
 
-## NEXT OVERSEER RUN SHOULD FOCUS ON
-1. **Verify island pages have been fixed** — All 26 must have 4+ links including devotional pairing
-2. **Full Two Arms audit** — Check every demolition page for devotional link (exhaustive, not sampled)
-3. **Terminology sweep progress** — Track "doctrine"→"truth" migration
-4. **Apologetics file redistribution** — Verify 5 files moved to Questions
+*Previous report's "100% hub wiring" was inaccurate — this audit used a broader orphan detection scan.*
 
 ---
-**Overseer Session Complete** — 2026-04-04
-**This was the inaugural run. Baseline established.**
-**Next scheduled run:** 2026-04-05 (or next scheduled trigger)
+
+*Generated by THE OVERSEER — Session 3, 2026-04-05*
+*Next scheduled audit: 2026-04-06*

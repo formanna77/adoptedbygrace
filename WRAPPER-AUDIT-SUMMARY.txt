@@ -1,0 +1,202 @@
+================================================================================
+WRAPPER ARCHITECTURE AUDIT SUMMARY
+Adopted by Grace Website
+Date: 2026-04-05
+================================================================================
+
+CRITICAL FINDING
+================================================================================
+95 out of 150+ article pages violate the mandatory architecture rule:
+
+    "Every article page MUST use EXACTLY this HTML structure. No exceptions."
+
+Content-bearing sections are appearing OUTSIDE standard <article class="article-body"> 
+wrappers, causing full-width rendering with no max-width constraints or padding.
+
+================================================================================
+AFFECTED PAGES BY CATEGORY
+================================================================================
+
+COMPARE-* PAGES (8 pages — HIGHEST PRIORITY)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✗ compare-calvinism-arminianism.html (11 problematic sections)
+✗ compare-calvinism-catholic-soteriology.html (10 sections)
+✗ compare-calvinism-molinism.html (9 sections)
+✗ compare-calvinism-open-theism.html (10 sections)
+✗ compare-monergism-synergism.html (7 sections)
+✗ compare-predestination-foreknowledge.html (10 sections)
+
+Issue: <section class="overview-table"> and <section class="point-section"> 
+appear between </nav> and first wrapper, sitting at full viewport width.
+
+QUESTION-* PAGES (35 pages — HIGH PRIORITY)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✗ question-1peter1.html (8)          ✗ question-faithgift.html (7)
+✗ question-acts.html (7)             ✗ question-foreknowledge.html (6)
+✗ question-acts4.html (6)            ✗ question-freewill.html (7)
+✗ question-boasting.html (6)         ✗ question-godwants.html (7)
+✗ question-chosen.html (8)           ✗ question-goldchain.html (7)
+✗ question-depravity.html (8)        ✗ question-irresistible.html (10)
+✗ question-john10.html (6)           ✗ question-john15.html (7)
+✗ question-john6.html (7)            ✗ question-matt11.html (7)
+✗ question-newheart.html (6)         ✗ question-parables.html (7)
+✗ question-perseverance.html (8)     ✗ question-revelation13.html (8)
+✗ question-romans9.html (7)          ✗ question-sealed.html (6)
+✗ question-sovereignty-logic.html (4) ✗ question-unfair.html (6)
+✗ question-whosoever.html (6)
+
++ 13 more question-* pages with 1-6 issues each
+
+Issue: Non-standard <div class="answer-body"> instead of article-body, 
+plus custom <div class="definition"> boxes outside wrappers.
+
+SYSTEMATIC-* PAGES (15 pages — MEDIUM PRIORITY)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✗ systematic-divine-decrees.html (8)
+✗ systematic-covenant-theology.html (7)
+✗ systematic-ordo-salutis.html (7)
+✗ systematic-atonement.html (5)
+✗ systematic-bibliology.html (3)
+
++ 10 more systematic-* pages with 1-3 issues each
+
+Issue: Custom <div class="section-header"> and <div class="definition"> 
+outside article-body wrapper.
+
+DEMOLITION-* PAGES (10 pages)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✗ demolition-ezekiel18-23.html (3)
+✗ demolition-john12-32.html (3)
+✗ demolition-rev3-20.html (3)
+✗ demolition-1john2-2.html (1)
+✗ demolition-1tim4-10.html (1)
+✗ demolition-faith-is-not-a-gift.html (1)
+✗ demolition-orthodox-predestination.html (1)
+✗ demolition-titus2-11.html (1)
+
+OLD TESTAMENT-* PAGES (8 pages)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✗ ot-job.html (7)
+✗ ot-jonah.html (2)
+✗ ot-joseph.html (2)
+✗ ot-jeremiah.html (1)
+✗ ot-noah.html (1)
+
+SPECIAL PAGES & OTHER CATEGORIES (21 pages)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✗ apologetic-babies.html (6) — uses answer-body + arguments-grid
+✗ analogy-light-switch.html (1)
+✗ start-here-phase1/2/3/4/5.html (1 each)
+✗ counter-cs-lewis-free-will.html (1)
+✗ objection-responsibility.html (2)
+✗ philosophy-exclusive-love.html (2)
+✗ history-augustine-pelagius.html (2)
+✗ history-great-awakening.html (1)
+✗ psychology-sincerity-trap.html (1)
+✗ contact.html, freedom.html, privacy.html, terms.html (1 each)
+✗ theologian-augustine.html, theologian-boston.html, theologian-calvin.html,
+  theologian-edwards.html, theologian-luther.html, theologian-spurgeon.html
+
+================================================================================
+ROOT CAUSE ANALYSIS
+================================================================================
+
+1. NON-STANDARD WRAPPER CLASS NAMES
+   - answer-body (25+ pages) — should be article-body
+   - content (5+ pages) — ambiguous, often without max-width
+   - section / content-section (15+ pages) — not standardized
+   - answer-header, answer-body, definition — custom without wrapper parent
+
+2. SECTIONS APPEARING OUTSIDE WRAPPERS
+   - <section class="overview-table"> → full-width table before wrapper
+   - <section class="point-section"> → full-width comparison cards
+   - <div class="section-nav"> → navigation appearing before wrapper
+   - <div class="definition"> → definition boxes with no parent max-width
+   - Various custom layout sections (compare-grid, greek-box, etc.)
+
+3. LAYOUT CONSEQUENCES
+   - Content renders at 100% viewport width (no max-width)
+   - No left/right padding on narrow screens
+   - Text extends to viewport edges on mobile
+   - Inconsistent layout vs. compliant pages
+   - Poor mobile readability
+
+================================================================================
+VIOLATION SUMMARY
+================================================================================
+
+The mandatory article page template requires:
+
+    <!DOCTYPE html>
+    <html>
+    <head>...</head>
+    <body>
+        <!-- Nav from /_nav-template.html -->
+        <header class="page-hero">...</header>
+        <article class="article-body">
+            <!-- ALL article content MUST go inside this wrapper -->
+            <h2>Section</h2>
+            <p>Content</p>
+            <!-- Including tables, grids, definitions, etc. -->
+        </article>
+        <!-- Footer -->
+    </body>
+    </html>
+
+Current violations:
+- Overview tables appearing between </nav> and wrapper
+- Definition boxes outside article-body
+- Custom grid classes not inside wrapper
+- Non-standard wrapper names (answer-body instead of article-body)
+- Sections with inline styles that override wrapper styling
+
+================================================================================
+IMPACT ASSESSMENT
+================================================================================
+
+VISUAL IMPACT:
+✗ Content at full viewport width on mobile/tablet
+✗ No padding between text and screen edges
+✗ Tables/grids potentially overflow horizontally
+✗ Inconsistent visual treatment across site
+✗ Poor user experience on narrow screens
+
+COMPLIANCE IMPACT:
+✗ 95 of ~150 article pages non-compliant (63%)
+✗ Violates MANDATORY article page design rule
+✗ Blocks site validation
+✗ Future CSS changes may not apply correctly to non-standard wrappers
+
+SEO IMPACT:
+? Potential readability issues may affect Google's Core Web Vitals
+? Mobile-first indexing may penalize poor responsive behavior
+
+================================================================================
+REMEDIATION STRATEGY
+================================================================================
+
+STEP 1: Wrap all content inside <article class="article-body">
+STEP 2: Delete non-standard wrapper classes (answer-body, content, etc.)
+STEP 3: Move ALL sections/tables/grids inside article-body
+STEP 4: Verify pages render correctly with max-width constraint
+STEP 5: Run build-search-index.js and build-mega-menu.js
+STEP 6: Test responsive layout on mobile/tablet
+
+PRIORITY ORDER:
+1. compare-* pages (full-width tables — most visible)
+2. question-* pages (answer-body wrapper — easiest to batch)
+3. systematic-* pages (definition boxes)
+4. All remaining pages
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. Read the detailed audit: WRAPPER-ISSUES-DETAILED.md
+2. Decide remediation approach (agent-by-agent vs. bulk automation)
+3. Create fix templates for each page type
+4. Execute remediation in priority order
+5. Validate with node validate-site.js
+6. Test responsive rendering before deployment
+
+================================================================================

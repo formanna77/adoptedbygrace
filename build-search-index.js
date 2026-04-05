@@ -124,7 +124,13 @@ const pages = [];
 
 for (const file of htmlFiles) {
   const filePath = path.join(SITE_DIR, file);
-  const html = fs.readFileSync(filePath, 'utf-8');
+  let html;
+  try {
+    html = fs.readFileSync(filePath, 'utf-8');
+  } catch (e) {
+    console.log(`  Skipping ${file} (unreadable: ${e.code || e.message})`);
+    continue;
+  }
 
   const title = extractTitle(html);
   const description = extractDescription(html);

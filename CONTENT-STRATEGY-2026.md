@@ -1,411 +1,357 @@
 # Content Strategy 2026 — Adopted by Grace
-## Strategist Session: April 4, 2026 (Session #2)
+## Strategist Session #3: April 5, 2026
 
 ---
 
-## SITE CENSUS (as of 2026-04-04, Session #2)
+## SITE CENSUS (as of 2026-04-05, Session #3)
 
-**Total HTML pages: 314** (up from 295 earlier today — **+19 pages from Philosopher + Creator sessions**)
+**Total HTML pages: 367** (up from 314 yesterday — **+53 pages in 24 hours**)
 
-| Category | Prefix | Count | Change vs Earlier Today | Notes |
-|----------|--------|-------|-------------------------|-------|
-| Questions (The Evidence) | question-*.html | 43 | +2 | question-where-did-your-faith-come-from is the CROWN JEWEL page (9.4). |
-| Demolition (Verse Studies) | demolition-*.html | 26 | — | Hub strong at 40 req/wk. Stable. |
-| Systematic Theology | systematic-*.html | 21 | — | Complete doctrinal framework. Maintenance mode. |
-| Psychology of Resistance | psychology-*.html | 19 | +3 | sincerity-trap (8.6) is outstanding. Now 19 pages — approaching saturation? |
-| Objections | objection-*.html | 18 | +1 | why-not-save-everyone (8.4) added. Library nearly complete. |
-| Devotionals | devotional-*.html | 19 | +2 | Still the weakest "right arm" category by quality floor. love-before-the-world needs enhancement. |
-| Old Testament Election | ot-*.html | 14 | — | ZERO in top 50. Invisible to analytics. |
-| History | history-*.html | 14 | — | ZERO in top 50. Rich content, no audience. |
-| Stories | story-*.html | 13 | — | letter-before-the-world (8.9) and luther-storm (8.6) are standouts. |
-| Theologian Bios | theologian-*.html | 11 | +1 | augustine (8.6) is exceptional. |
-| Secular Evidence | secular-*.html | 10 | — | sociology-human-inability scores 5.9 — LOWEST on site. Needs urgent enhancement. |
-| **Philosophy** (NEW) | philosophy-*.html | **9** | **+9 (NEW CATEGORY)** | **Philosopher agent's debut output. Avg 8.5. mirror-you-refuse (8.9) and resistance-is-proof (8.9) are exceptional.** |
-| Comparisons | compare-*.html | 6 | — | calvinism-arminianism missing h1. Zero traffic. |
-| Analogies | analogy-*.html | 6 | — | drowning-man (9.3) remains site's #1 page. chess-grandmaster (7.5) underperforms. |
-| Newsletters | newsletter-*.html | 6 | — | dear-friend (8.9) proves format. |
-| Apologetics | apologetic-*.html | 5 | — | NOTE: Category officially retired per CLAUDE.md. These pages redistributed to Questions. |
-| Pastoral | pastoral-*.html | 4 | — | assurance (7.5) decent. ZERO in top 50. |
-| Creeds | creed-*.html | 3 | +1 | canons-dort (6.8) very weak — isolated, no force multipliers. |
-| Resistance | resistance-*.html | 2 | — | Small category. |
-| Counter-apologetics | counter-*.html | 1 | — | Solo page. |
+This is the largest single-day growth in site history. Diamond Week is operational. The fleet is producing.
+
+| Category | Prefix | Count | Change vs Session #2 | Notes |
+|----------|--------|-------|----------------------|-------|
+| Questions (The Evidence) | question-*.html | 51 | +8 | Massive expansion. Includes Scout-identified SEO goldmines. |
+| Demolition (Verse Studies) | demolition-*.html | 30 | +4 | faith-is-not-a-gift.html is Crown Jewel defense. matthew-23-37 fills critical gap. |
+| Psychology of Resistance | psychology-*.html | 26 | +7 | anosognosia-of-sin is MASTERPIECE. why-this-objection-proves-our-point is devastating. |
+| Systematic Theology | systematic-*.html | 21 | — | Stable, complete framework. |
+| Stories | story-*.html | 20 | +7 | humor + dark categories filled. man-who-sued-god is EXCEPTIONAL. |
+| Devotionals | devotional-*.html | 20 | +1 | Still the weakest arm. Needs more. |
+| Objections | objection-*.html | 18 | — | Library effectively complete. |
+| Old Testament Election | ot-*.html | 15 | +1 | Still underperforming in analytics. |
+| History | history-*.html | 15 | +1 | Historian agent contributing. |
+| Secular Evidence | secular-*.html | 13 | +3 | Growing steadily. |
+| Philosophy | philosophy-*.html | 12 | +3 | infinite-regress, hub page added. Approaching saturation? |
+| Theologian Bios | theologian-*.html | 10 | -1 | Slight change (recategorization?) |
+| Analogies | analogy-*.html | 9 | +3 | song-you-didnt-compose added. High traffic/page category. |
+| Comparisons | compare-*.html | 8 | +2 | every-decision-point is the "Whose Side" series anchor. |
+| Pastoral | pastoral-*.html | 5 | +1 | Small but engaged. |
+| Apologetics | apologetic-*.html | 5 | — | RETIRED category. Redistribute pending. |
+| Newsletters | newsletter-*.html | 3 | -3 | Reduced? Verify. |
+| Romans Walkthrough | romans-*.html | 2 | +1 | Series growing. |
+| Resistance | resistance-*.html | 2 | — | Stable. |
+| Creeds | creed-*.html | 2 | -1 | Verify. |
+| Counter | counter-*.html | 1 | — | Solo page. |
 | Debate | debate-*.html | 1 | — | Solo page. |
-| **Romans Walkthrough** (NEW) | romans-*.html | **1** | **+1 (NEW SERIES)** | **romans-8-28-39 (7.9). First entry. Series launched!** |
 
 ### 5 Healing Categories
 
 | Category | Hub | Articles | Total | Target | Progress |
 |----------|-----|----------|-------|--------|----------|
-| The Anxious Mind | anxious-mind-hub.html | 4 | 5 | 10-12 | 42% |
-| The Broken Mirror | broken-mirror-hub.html | 5 | 6 | 10-12 | 50% |
-| The Open Wound | open-wound-hub.html | 5 | 6 | 10-12 | 50% |
+| The Anxious Mind | anxious-mind-hub.html | 6 | 7 | 10-12 | 58% |
+| The Broken Mirror | broken-mirror-hub.html | 6 | 7 | 10-12 | 58% |
+| The Open Wound | open-wound-hub.html | 7 | 8 | 10-12 | 67% |
 | The Invisible Wall | invisible-wall-hub.html | 5 | 6 | 10-12 | 50% |
-| The Shattered Lens | shattered-lens-hub.html | 4 | 5 | 10-12 | 42% |
-| **HEALING TOTAL** | **5 hubs** | **23 articles** | **28** | **50-60** | **47%** |
+| The Shattered Lens | shattered-lens-hub.html | 5 | 6 | 10-12 | 50% |
+| **HEALING TOTAL** | **5 hubs** | **29 articles** | **34** | **50-60** | **57%** |
 
-### Infrastructure & Hub Pages (~37)
-- Infrastructure (20): index, about, start-here (7 pages), search, contact, freedom, connections, quiz, 404, essays, explore-map, daily-newsletter, donate, index-new, index-old
-- Hub Pages (17): questions, devotionals, demolition-hub, stories, analogies-illustrations, systematic-theology, theologians, psychology-hub, explore-map, anxious-mind-hub, broken-mirror-hub, open-wound-hub, invisible-wall-hub, shattered-lens-hub, creeds-confessions, ot-election, secular-evidence (scripture-tsunami)
-- Other: all-content, best-reads, belief-assessment, topics, verse-explorer, privacy, terms, psalms-election
-
-### NEW CATEGORY: Philosophy (9 pages — launched 2026-04-04)
-The Philosopher agent's first session produced 9 complete pages. This is the site's fastest new category launch. Pages:
-1. philosophy-copernican-revolution (8.3) — paradigm resistance as narcissistic injury
-2. philosophy-of-truth (8.1) — truth vs. preference
-3. philosophy-sleep-surrender (8.3) — sleep as isomorphism for grace
-4. philosophy-exclusive-love (8.4) — particular love as the only real love
-5. philosophy-problem-of-merit (8.5) — any human contribution collapses into merit
-6. philosophy-mirror-you-refuse (8.9) — identity protection as the root of resistance
-7. philosophy-self-deception (8.6) — the epistemology of self-blindness
-8. philosophy-marriage-election (8.5) — marriage as model of elective love
-9. philosophy-resistance-is-proof (8.9) — resistance as confirming evidence of the truth
+**Healing progress: 47% → 57% in one day.** The Shepherd is delivering.
 
 ---
 
-## QUALITY SCORING — SESSION #2 (30 Pages Sampled — 2026-04-04)
+## QUALITY SCORING — SESSION #3 (12 New Pages Sampled — 2026-04-05)
 
 ### Scoring Criteria (1-10 each)
 - **TP** = Theological Precision
 - **EP** = Emotional Power
 - **LQ** = Literary Quality
 - **SEO** = SEO Readiness
-- **XR** = Cross-Referencing
+- **XR** = Cross-Referencing (internal links)
 - **FM** = Force Multiplier Density
 - **UC** = Unique Contribution
+- **NIV** = NIV Compliance
 - **PW** = Pastoral Warmth
 
-### Batch A: Newest Pages (Philosophy + Crown Jewel + Romans)
+### Batch D: Newest Pages (Diamond Week Day 1 Output)
 
-| Page | TP | EP | LQ | SEO | XR | FM | UC | PW | AVG |
-|------|----|----|----|----|----|----|----|----|-----|
-| question-where-did-your-faith-come-from | 10 | 10 | 9 | 8 | 9 | 9 | 10 | 10 | **9.4** |
-| philosophy-mirror-you-refuse | 9 | 9 | 9 | 9 | 8 | 9 | 9 | 9 | **8.9** |
-| philosophy-resistance-is-proof | 9 | 9 | 9 | 9 | 7 | 9 | 9 | 9 | **8.9** |
-| psychology-sincerity-trap | 9 | 9 | 8 | 8 | 7 | 9 | 9 | 9 | **8.6** |
-| philosophy-self-deception | 9 | 9 | 9 | 7 | 8 | 9 | 9 | 9 | **8.6** |
-| philosophy-problem-of-merit | 10 | 8 | 8 | 7 | 8 | 9 | 10 | 8 | **8.5** |
-| philosophy-marriage-election | 9 | 9 | 9 | 8 | 8 | 8 | 9 | 8 | **8.5** |
-| objection-why-not-save-everyone | 9 | 9 | 8 | 7 | 7 | 8 | 8 | 10 | **8.4** |
-| philosophy-exclusive-love | 9 | 8 | 8 | 8 | 9 | 8 | 9 | 8 | **8.4** |
-| philosophy-copernican-revolution | 9 | 8 | 9 | 7 | 8 | 8 | 9 | 8 | **8.3** |
-| philosophy-sleep-surrender | 8 | 9 | 9 | 7 | 8 | 8 | 8 | 9 | **8.3** |
-| philosophy-of-truth | 8 | 7 | 8 | 9 | 9 | 7 | 8 | 7 | **8.1** |
-| romans-8-28-39 | 10 | 8 | 7 | 7 | 6 | 7 | 8 | 8 | **7.9** |
+| Page | TP | EP | LQ | SEO | XR | FM | UC | NIV | PW | AVG |
+|------|----|----|----|----|----|----|----|----|----|----|-----|
+| psychology-anosognosia-of-sin | 10 | 10 | 10 | 9 | 9 | 10 | 10 | 10 | 9 | **9.7** |
+| story-humor-the-man-who-sued-god | 8 | 10 | 10 | 8 | 9 | 9 | 10 | 10 | 10 | **9.3** |
+| demolition-faith-is-not-a-gift | 10 | 9 | 9 | 9 | 9 | 9 | 9 | 10 | 8 | **9.1** |
+| story-dark-the-woman-who-earned-her-seat | 9 | 10 | 10 | 8 | 9 | 8 | 9 | 10 | 9 | **9.1** |
+| compare-every-decision-point | 10 | 8 | 9 | 8 | 9 | 9 | 10 | 10 | 8 | **9.0** |
+| psychology-why-this-objection-proves-our-point | 9 | 9 | 9 | 8 | 9 | 9 | 10 | 10 | 8 | **9.0** |
+| question-whose-side-are-you-on | 9 | 9 | 9 | 8 | 8 | 9 | 9 | 10 | 8 | **8.8** |
+| demolition-matthew-23-37 | 10 | 8 | 8 | 8 | 9 | 9 | 8 | 10 | 8 | **8.7** |
+| philosophy-infinite-regress-of-choice | 9 | 8 | 9 | 8 | 9 | 8 | 10 | 10 | 7 | **8.7** |
+| story-thought-the-god-who-let-you-watch | 8 | 10 | 10 | 8 | 9 | 8 | 9 | 10 | 9 | **9.0** |
+| question-does-god-choose-who-goes-to-heaven | 9 | 8 | 8 | 10 | 9 | 8 | 7 | 10 | 8 | **8.6** |
+| question-why-does-god-choose-some-not-others | 9 | 8 | 8 | 10 | 8 | 8 | 7 | 10 | 8 | **8.4** |
 
-### Batch B: Core Existing Pages (Objections, Psychology, Demolition)
+### SESSION #3 HEADLINE FINDINGS
 
-| Page | TP | EP | LQ | SEO | XR | FM | UC | PW | AVG |
-|------|----|----|----|----|----|----|----|----|-----|
-| psychology-why-we-resist | 9 | 8 | 9 | 8 | 7 | 8 | 9 | 8 | **8.2** |
-| demolition-john3-16 | 9 | 8 | 8 | 9 | 7 | 8 | 9 | 7 | **8.1** |
-| anxious-mind-brain-decides | 8 | 9 | 8 | 7 | 5 | 8 | 8 | 9 | **8.0** |
-| devotional-never-gives-up | 8 | 9 | 8 | 8 | 6 | 7 | 7 | 9 | **7.8** |
-| question-freewill | 9 | 7 | 8 | 8 | 6 | 8 | 8 | 7 | **7.6** |
-| objection-faith-choice | 8 | 7 | 8 | 8 | 6 | 7 | 8 | 8 | **7.6** |
-| objection-why-command | 8 | 7 | 7 | 8 | 6 | 7 | 7 | 7 | **7.1** |
+**1. The quality floor has risen dramatically.** Session #2's floor was 5.9 (secular-sociology). Session #3's floor is 8.4. Every page sampled scores 8.4+. The fleet is producing at a consistently elite level.
 
-### Batch C: Older/Underperforming Pages
+**2. psychology-anosognosia-of-sin scores 9.7 — the highest score in site history.** This page is a masterwork. The clinical opening (Ramachandran case study), the theological bridge (Jeremiah 17:9 + 2 Corinthians 4:4), the LINCHPIN cascade, the pastoral landing ("the surgeon who operates on sleeping patients"). It deploys every force multiplier, links richly (39 internal links), and achieves something no other page on any theology website achieves: it makes total depravity feel like a neurological diagnosis, not a theological accusation. This is the site's new #1 page, alongside the Crown Jewel.
 
-| Page | TP | EP | LQ | SEO | XR | FM | UC | PW | AVG |
-|------|----|----|----|----|----|----|----|----|-----|
-| theologian-augustine | 9 | 10 | 9 | 9 | 6 | 8 | 9 | 9 | **8.6** |
-| devotional-love-before-the-world | 6 | 10 | 10 | 8 | 7 | 9 | 9 | 10 | **8.6** |
-| ot-jacob-esau | 9 | 7 | 8 | 9 | 7 | 9 | 8 | 8 | **8.1** |
-| analogy-chess-grandmaster | 6 | 9 | 9 | 9 | 5 | 6 | 9 | 7 | **7.5** |
-| pastoral-assurance | 7 | 10 | 9 | 7 | 3 | 6 | 8 | 10 | **7.5** |
-| story-the-dead-city | 5 | 10 | 10 | 8 | 4 | 7 | 9 | 6 | **7.4** |
-| compare-calvinism-arminianism | 8 | 7 | 8 | 5 | 7 | 7 | 8 | 8 | **7.2** |
-| history-great-awakening | 6 | 9 | 8 | 7 | 5 | 7 | 7 | 8 | **7.1** |
-| creed-canons-dort | 9 | 7 | 8 | 8 | 2 | 4 | 9 | 7 | **6.8** |
-| secular-sociology-human-inability | 6 | 7 | 8 | 7 | 1 | 4 | 8 | 6 | **5.9** |
+**3. story-humor-the-man-who-sued-god scores 9.3.** This is the site's first truly devastating humor piece. Gerald T. Pemberton is an instant icon. The satire perfectly targets the autonomy objection by dramatizing it to absurdity. A courtroom comedy that is, underneath the laughter, the Crown Jewel argument delivered through farce. This page will go viral if promoted correctly.
 
-### TOP 5 PAGES THIS SESSION
+**4. Cross-referencing is SOLVED on new pages.** Every page sampled has 30-63 internal links. The linking mandate is being followed. The Weaver + Enhancer + Dramaturg pipeline is working. New pages are no longer islands.
 
-1. **question-where-did-your-faith-come-from — 9.4** — THE Crown Jewel page. Socratic trap perfected. Progressive agreement method at industrial scale. The single most important page on the site.
-2. **philosophy-mirror-you-refuse — 8.9** — Identity protection as the root of resistance. Reframes the entire debate from "theological disagreement" to "self-image preservation." Original.
-3. **philosophy-resistance-is-proof — 8.9** — The inversion that turns every objection into evidence FOR sovereignty. Philosophically airtight.
-4. **theologian-augustine — 8.6** — Historical biography that reads like narrative theology. Exceptional emotional power.
-5. **psychology-sincerity-trap — 8.6** / **philosophy-self-deception — 8.6** (tied) — Naïve realism meets Jeremiah 17:9. The secular-to-sacred bridge at its most devastating.
+**5. NIV compliance is 100%.** Every new page uses NIV. The mandate is fully adopted.
 
-### BOTTOM 5 PAGES THIS SESSION
+**6. SEO readiness is strong but not exceptional.** Titles are good but not always targeting exact search queries. The SEO-targeted pages (question-does-god-choose, question-why-does-god-choose) are the weakest literarily (8.4-8.6) but strongest on SEO (10/10). This is the right tradeoff — these are gateway pages.
 
-1. **secular-sociology-human-inability — 5.9** — CRITICAL: Lowest on site. 1/10 cross-referencing. 4/10 force multipliers. Isolated island. Urgent Enhancer attention.
-2. **creed-canons-dort — 6.8** — 2/10 cross-referencing. 4/10 force multipliers. Rich content trapped in isolation.
-3. **objection-why-command — 7.1** — #1 traffic content page but only 7.1 quality. Cerebral without pastoral warmth. Urgent enhancement — high traffic + mediocre quality = wasted opportunity.
-4. **history-great-awakening — 7.1** — Beautiful writing, weak theological precision (6/10). Missing explicit doctrinal connections.
-5. **compare-calvinism-arminianism — 7.2** — Missing h1 tag. SEO score 5/10. For a page targeting one of the highest-search comparisons in theology, this is unacceptable.
+### TOP 5 PAGES THIS SESSION (New All-Time Rankings)
 
-### Category Quality Averages (Updated 2026-04-04, Session #2)
+1. **psychology-anosognosia-of-sin — 9.7** — The highest-scoring page in site history. Neurological parallel to total depravity that is structurally identical, not merely metaphorical. Sets a new standard.
+2. **story-humor-the-man-who-sued-god — 9.3** — Gerald T. Pemberton: patron saint of free will objections. Pure comedy that is pure theology.
+3. **demolition-faith-is-not-a-gift — 9.1** — Direct defense of the Crown Jewel. Philippians 1:29 as the case-closer. Devastatingly thorough.
+4. **story-dark-the-woman-who-earned-her-seat — 9.1** — Dark parable: the religious woman who discovers she was trusting works all along. Flannery O'Connor territory.
+5. **compare-every-decision-point — 9.0** / **psychology-why-this-objection-proves-our-point — 9.0** / **story-thought-the-god-who-let-you-watch — 9.0** (three-way tie)
+
+### Category Quality Averages (Updated 2026-04-05, Session #3)
 
 | Category | Avg Score | Trend | Assessment |
 |----------|-----------|-------|------------|
-| Questions | **9.4** (Crown Jewel page) / **7.6** (older pages) | ↑↑ | Crown Jewel page is site's masterpiece. Older question pages need enhancement. |
-| **Philosophy (NEW)** | **8.5** | NEW | Exceptional debut. 9 pages with zero below 8.1. Floor = 8.1, ceiling = 8.9. |
-| Psychology | **8.4** | ↑ | sincerity-trap (8.6) continues upward trend. 19 pages, consistently excellent. |
-| Analogies | **8.4** | → | drowning-man (9.3) still the peak. chess-grandmaster (7.5) drags. |
-| Theologians | **8.6** | ↑ | augustine page is exceptional. |
-| Stories | **8.2** | → | letter-before-the-world (8.9) peak. dead-city (7.4) weak. |
-| Newsletters | **8.4** | → | dear-friend (8.9) peak. |
-| Healing (avg all 5) | **8.2** | → | Consistent. Anxious-mind-brain-decides at 8.0 solid. |
-| Objections | **7.7** | ↓ | why-command (7.1) and faith-choice (7.6) are below standard for a Tier 1 category. |
-| Devotionals | **8.2** (love-before-the-world) / **7.8** (never-gives-up) | → | Emotional power is exceptional (10/10) but theological precision (6-8) varies. |
-| Demolition | **8.1** | → | john3-16 solid. |
-| Romans Walkthrough | **7.9** | NEW | First entry. Good foundation, needs more literary polish and cross-refs. |
-| Pastoral | **7.5** | → | Low cross-referencing (3/10) cripples an otherwise warm category. |
-| Comparisons | **7.2** | → | SEO disaster. Missing h1. Massive lost opportunity. |
-| History | **7.1** | → | Beautiful writing, weak theology anchoring. |
-| Creeds | **6.8** | → | Isolated. No force multipliers. |
-| Secular Evidence | **5.9** | ↓↓ | **LOWEST ON SITE. URGENT.** |
-
-### Critical Quality Findings — Session #2
-
-1. **The Philosophy category has the highest average quality floor of ANY new category launch.** 9 pages, zero below 8.1. This validates the Philosopher agent as a powerful addition to the fleet.
-
-2. **Cross-referencing remains the #1 quality weakness site-wide.** Average XR score: 6.4/10 (up from 5.5 last session, but still the lowest dimension). Pages scoring below 5/10 on XR: secular-sociology (1), creed-canons-dort (2), pastoral-assurance (3), story-the-dead-city (4), analogy-chess-grandmaster (5), anxious-mind-brain-decides (5).
-
-3. **The Crown Jewel page (9.4) proves the Socratic trap method at scale.** This page should be studied by every agent. Its structural DNA: agree → question → logic → fork → implication → resolution. Every future question and objection page should follow this template.
-
-4. **High-traffic pages with mediocre quality = the #1 wasted opportunity.** objection-why-command gets 48 req/wk but scores 7.1. compare-calvinism-arminianism targets the highest-search comparison in theology but scores 7.2. These need URGENT Enhancer attention.
-
-5. **The "Two Arms" imbalance persists.** Demolition arm: 43 questions + 18 objections + 26 demolitions + 9 philosophy = 96 pages. Devotion arm: 19 devotionals + 28 healing + 13 stories = 60 pages. Ratio: 1.6:1 demolition to devotion. Should be closer to 1:1.
+| Psychology | **9.3** | ↑↑ | anosognosia (9.7) raises the floor. Site's strongest category by both quality AND traffic. |
+| Stories | **9.1** | ↑↑ | humor + dark stories pushed average dramatically up. Storyteller is at peak performance. |
+| Philosophy | **8.8** | ↑ | infinite-regress strong. Third consecutive strong session. |
+| Demolition | **8.9** | ↑↑ | faith-is-not-a-gift (9.1) + matthew-23-37 (8.7) raise the floor. |
+| Questions (new pages) | **8.6** | → | SEO-targeted pages are competent but not exceptional literarily. Correct tradeoff. |
+| Comparisons | **9.0** | ↑↑ | every-decision-point is exceptional. |
+| Analogies | **8.5** | ↑ | song-you-didnt-compose adds to portfolio. |
+| Devotionals | **7.8** | → | STILL the weakest arm. No new standout devotionals this session. |
 
 ---
 
-## GAP ANALYSIS (Updated 2026-04-04, Session #2)
+## GAP ANALYSIS — Session #3
 
-### What's Strong
-- **Philosophy: 9 pages, avg 8.5.** Exceptional new category. Philosopher agent justified.
-- **Questions + Objections: 61 pages combined.** Dominant traffic drivers. Crown Jewel page (9.4) is the masterpiece.
-- **Psychology: 19 pages.** Highest per-page traffic. sincerity-trap (8.6) continues the trend.
-- **Healing: 28 pages at 47%.** Steady progress toward 60-page target.
+### Critical Gaps Remaining
 
-### Critical Gaps (Ranked by Impact)
+1. **Devotionals are the weakest category — by quality AND volume.** 20 pages, avg ~7.8. In a site that now has 367 pages, the "right arm" (catching people after demolition) has not kept pace with the "left arm" (demolition, questions, psychology). The Two Arms balance is dangerously skewed. **The Shepherd should prioritize 5 new devotionals that score 9.0+ — matching the quality standard the Storyteller and Philosopher have set.**
 
-**1. CROSS-REFERENCING EMERGENCY (Site-wide)**
-- 6 pages score 5 or below on XR. These are content islands.
-- The 101 Ways Principle REQUIRES pages to connect to each other.
-- **DIRECTIVE TO ENHANCER:** Next 2 sessions must prioritize XR. Every page touched must have 5+ strategic internal links. Specifically target: secular-sociology, creed-canons-dort, pastoral-assurance, story-the-dead-city, analogy-chess-grandmaster, anxious-mind-brain-decides.
+2. **Audience landing pages still do not exist.** /for-skeptics, /for-new-believers, /for-pastors — zero progress. These are high-conversion pages that would dramatically improve reader journey depth. **Assign to Cartographer or Shepherd.**
 
-**2. SECULAR EVIDENCE CRISIS (secular-sociology at 5.9)**
-- The site's most competitive advantage (secular evidence for sovereignty) is undermined by its weakest page.
-- This category should be a BRIDGE for skeptics — instead it's an isolated island.
-- **DIRECTIVE TO ENHANCER:** secular-sociology-human-inability must be enhanced to 7.5+ immediately. Add 5+ internal links, connect to psychology and philosophy pages, add "So What?" theological bridge section.
+3. **Hymn analysis series has not launched.** hymn-amazing-grace.html was targeted for April 15. No movement. **Assign to Storyteller or Historian.**
 
-**3. HIGH-TRAFFIC / LOW-QUALITY MISMATCH**
-- objection-why-command: 48 req/wk, 7.1 quality. The #1 content page on the entire site is mediocre.
-- compare-calvinism-arminianism: Targets the highest-search comparison in all of Reformed theology. Missing h1 tag. SEO score 5/10.
-- **DIRECTIVE TO ENHANCER:** These 2 pages are the highest-ROI enhancement targets on the site. Enhance them BEFORE creating any new content.
+4. **OT category (15 pages) is invisible in analytics.** Zero OT pages in top 50. The titles are academic, not search-intent. Title surgery needed on all 15 pages. **Assign to Refiner.**
 
-**4. Book-of-the-Bible Walkthroughs — LAUNCHED but needs momentum**
-- romans-8-28-39 is live (7.9). Good start but needs literary polish and more cross-references (6/10 XR).
-- Next chapters needed: Romans 9:1-24, Romans 3:10-18, Romans 1:18-32.
-- **Target: 4 Romans chapters by April 30.**
+5. **History category (15 pages) similarly invisible.** Same diagnosis: academic titles, no search hooks. **Assign to Refiner.**
 
-**5. Audience Landing Pages (STILL ZERO)**
-- /for-skeptics, /for-new-believers — high-conversion, low-effort pages.
-- These dramatically improve visitor experience by matching entry point to audience.
-- **Target: 2 audience landing pages by April 15.**
+6. **Romans walkthrough at 2/8 target.** Needs acceleration. **Assign to Exegete.**
 
-**6. Hymn Analysis (STILL ZERO)**
-- hymn-amazing-grace.html should be the first. The most famous song in English is a sovereignty anthem.
-- Unique content no competitor produces.
-- **Target: 1 hymn analysis by April 15.**
+7. **Interactive experiences: only 2 exist** (belief-assessment, question-faith-origin-test). The Choose Your Objection interactive was a Tier 3 idea that could be a massive engagement driver. **Assign to Apologist.**
 
-**7. Healing Categories — Still Building (47% of target)**
-- Anxious Mind: 5/12 (42%)
-- Broken Mirror: 6/12 (50%)
-- Open Wound: 6/12 (50%)
-- Invisible Wall: 6/12 (50%)
-- Shattered Lens: 5/12 (42%)
-- **Total remaining: 32 healing articles to reach target of 60.**
+### Gaps Closed Since Last Session
 
-**8. Two Arms Imbalance**
-- Demolition: 96 pages. Devotion: 60 pages. Ratio: 1.6:1.
-- Need +36 devotion pages to reach 1:1 parity.
-- **Every Creator session should produce at least 1 devotional or healing page for every 2 demolition/question/philosophy pages.**
+- ✅ **Scout SEO goldmine pages created:** question-does-god-choose-who-goes-to-heaven, question-why-does-god-choose-some-not-others, demolition-faith-is-not-a-gift
+- ✅ **"Whose Side Are You On?" series launched:** question-whose-side-are-you-on, compare-every-decision-point
+- ✅ **Psychology category expanded:** anosognosia-of-sin, why-this-objection-proves-our-point
+- ✅ **Stories dramatically expanded:** +7 pages including humor, dark, and thought experiment subcategories
+- ✅ **Cross-referencing fixed on new pages:** 30-63 links per page on all new content
+- ✅ **Tier 0 emergency pages enhanced:** objection-why-command, secular-sociology, compare-calvinism-arminianism
 
 ---
 
-## SEO STRATEGY (Updated 2026-04-05 — Scout Intelligence Added)
+## SEO STRATEGY — Session #3
 
-### Tier 0 Keywords — GAPS IDENTIFIED BY SCOUT (2026-04-05)
-> These are high-volume queries where adoptedbygrace.net has NO dedicated page matching the exact search phrasing. Top Google results are WEAK or COMPROMISED. Creating pages with these exact titles as H1 will give us first-page potential.
+### Top 20 Keywords We Should Rank For
 
-| Keyword | Current Top Result | Our Existing Coverage | Action | Agent |
-|---------|-------------------|----------------------|--------|-------|
-| **"is salvation my choice or God's choice"** | Room For Doubt (soft), Greg Boyd (Open Theism) | compare pages exist but NOT this exact query | **CREATE question-is-salvation-my-choice-or-gods.html** | EXEGETE/EVANGELIST |
-| **"does God choose who goes to heaven and hell"** | Quora threads, small Arminian blogs | question-predestined-to-hell.html (related but different query) | **CREATE question-does-god-choose-who-goes-to-heaven.html** | EXEGETE |
-| **"is faith a gift from God or my choice"** | redeeminggod.com ("Faith is NOT a Gift") ranks well | question-faithgift.html + Crown Jewel page exist but DON'T counter the anti-gift argument | **CREATE demolition-faith-is-not-a-gift.html** (counter-content) | EXEGETE/APOLOGIST |
-| **"why does God choose some people and not others"** | Desiring God (podcast, no article), Quora | question-unfair.html (related but different phrasing) | **CREATE question-why-does-god-choose-some-not-others.html** | EXEGETE |
+| Priority | Keyword | Current Page | Status |
+|----------|---------|-------------|--------|
+| 1 | "is faith a gift from God" | demolition-faith-is-not-a-gift + question-faithgift | ✅ NEW — Crown Jewel defense |
+| 2 | "does God choose who goes to heaven" | question-does-god-choose-who-goes-to-heaven | ✅ NEW — Exact match |
+| 3 | "why does God choose some and not others" | question-why-does-god-choose-some-not-others | ✅ NEW — Exact match |
+| 4 | "Calvinism vs Arminianism" | compare-calvinism-arminianism | ⚠️ Enhanced but still needs work |
+| 5 | "is salvation my choice or Gods" | question-is-salvation-my-choice-or-gods | ❌ PAGE MISSING — Tier 0.75 item |
+| 6 | "total depravity explained" | question-depravity + systematic-hamartiology | ✅ Two pages cover this |
+| 7 | "what is irresistible grace" | question-irresistible | ✅ Existing |
+| 8 | "can you lose your salvation" | question-secure + question-perseverance | ✅ Existing |
+| 9 | "predestination vs free will" | question-freewill + compare-predestination-foreknowledge | ✅ Existing |
+| 10 | "why I stopped being Calvinist" | psychology-why-i-stopped-being-calvinist | ❌ PAGE MISSING — Tier 2 item |
+| 11 | "Romans 9 explained" | question-romans9 | ✅ Existing |
+| 12 | "John 3:16 Calvinism" | demolition-john3-16 | ✅ Existing |
+| 13 | "once saved always saved" | question-sealed + question-perseverance | ✅ Existing |
+| 14 | "unconditional election" | systematic-election | ✅ Existing |
+| 15 | "Matthew 23:37 sovereignty" | demolition-matthew-23-37 | ✅ NEW |
+| 16 | "what is total depravity" | question-depravity | ✅ Existing |
+| 17 | "are Arminians saved" | — | ❌ NO PAGE — Extremely high-value query |
+| 18 | "free will Bible verses" | — | ❌ NO PAGE — Could create demolition page |
+| 19 | "does God love everyone equally" | — | ❌ NO PAGE — philosophy-exclusive-love partially covers |
+| 20 | "did I choose God or did God choose me" | question-chosen | ✅ Existing |
 
-### Tier 1 Keywords (Traffic Drivers)
-| Keyword | Dedicated Page | SEO Score | Action |
-|---------|---------------|-----------|--------|
-| "does God choose who is saved" | question-chosen.html | 7/10 | Enhance meta description |
-| "predestination Bible" | question-goldchain.html | 7/10 | Add FAQ schema |
-| "once saved always saved" | question-perseverance.html | 7/10 | Add FAQ schema |
-| "can you lose salvation" | question-perseverance.html | 7/10 | Consider separate page |
-| "Calvinism vs Arminianism" | compare-calvinism-arminianism.html | **5/10** | **URGENT: Add h1, fix SEO, add "Why Both Valid Is Dangerous" section (Scout 04-05)** |
-| "is free will biblical" | question-freewill.html | 8/10 | Good. Add FAQ schema. |
-| "what does Romans 9 mean" | question-romans9.html | 7/10 | Enhance |
-| "where does faith come from" | question-where-did-your-faith-come-from.html | 8/10 | **Ensure meta targets this exact query (Scout 04-05)** |
-| **"Calvinism vs Arminianism which is correct"** | compare-calvinism-arminianism.html | **5/10** | **(Scout 04-05)** GotQuestions #1 with "both valid" answer. Our page MUST counter this. |
-| **"if God is sovereign why pray"** | objection-why-pray.html | 6/10 | **(Scout 04-05)** DG + Ligonier rank. Enhance with unique angle: prayer as PROOF of sovereignty. |
-| **"what does total depravity mean"** | question-depravity.html | 7/10 | **(Scout 04-05)** Add LINCHPIN framing. No competitor says depravity proves all 5 points. |
-
-### Tier 2 Keywords (Long-Tail)
-| Keyword | Page | Action |
-|---------|------|--------|
-| "why does God predestine some" | question-predestined-to-hell.html | Monitor |
-| "is predestination fair" | objection-fairness.html | Add FAQ schema |
-| "psychology of resisting God" | psychology-why-we-resist.html | Unique to site — protect |
-| "why do Christians reject predestination" | psychology-hub.html | Optimize meta for this query |
-| "faith is a gift" | question-faithgift.html | Add FAQ schema |
-| "Ephesians 2:8-9 meaning" | question-boasting.html | Enhance |
-| **"why do Christians get angry about Calvinism"** | psychology-hostility-reaction.html | **(Scout 04-05)** We have 20+ pages on this. Ensure SEO targeting. UNIQUE advantage. |
-| **"did God predestine people to hell"** | question-predestined-to-hell.html | **(Scout 04-05)** Enhance — be honest where others flinch. |
-
-### GotQuestions Counter-Content Targets (Scout 2026-04-05)
-> GotQuestions.org ranks #1 for most soteriology queries. Their answers are often COMPROMISED — presenting Arminianism as equally valid or stopping short of following logic to its conclusion. These are counter-targets:
-
-| GQ Page | GQ Position | Our Counter-Angle | Priority |
-|---------|------------|-------------------|----------|
-| "Calvinism vs. Arminianism — which is correct?" | "Both valid... beyond human comprehension" | Both are NOT valid. One is grace, one is works. | **URGENT** (via compare-calvinism-arminianism.html) |
-| "Where does faith come from?" | Faith is a gift (correct!) but doesn't follow through to Crown Jewel implication | Faith as gift = claiming credit is works-righteousness | **URGENT** (via Crown Jewel page) |
-| "Is unconditional election biblical?" | Presents as one option among two | It's the ONLY option that doesn't collapse into works | HIGH (via systematic-election.html) |
-| "Is irresistible grace biblical?" | Frames as "Calvinist position" | Frame as "Scripture teaches" — de-label | MEDIUM (via question-irresistible.html) |
-| "What is total depravity?" | Defines as T in TULIP (Calvinist label) | Lead with Scripture, not TULIP. Show it's what every human already knows. | MEDIUM (via question-depravity.html) |
-| "Can a Christian lose salvation?" | Strong NO — good answer | **SKIP. GQ handles this well. Don't waste build minutes.** | SKIP |
-
-### Anti-Reformed Counter-Content Targets (Scout 2026-04-05)
-> Active anti-Reformed sites that rank well and need targeted responses:
-
-| Site | Content | Our Response |
-|------|---------|-------------|
-| **redeeminggod.com** | "Faith is NOT a Gift from God (Ephesians 2:8)" — ranks for "is faith a gift" | **CREATE demolition-faith-is-not-a-gift.html** — Greek analysis + logical devastation |
-| **biblevscalvinism.org** | "A Biblical Defense of Christianity against Calvinism" — targets Reformed proof-texts | Monitor. Our demolition pages already counter most of their arguments. |
-| **March 2026 blog** | "Calvinists think non-Calvinists believe they saved themselves" (straw man) | Our psychology pages already explain this reaction. Consider meta-page connecting the dots. |
-
-### Emerging SEO Opportunities (Scout 2026-04-05)
-| Topic | Opportunity | Competition | Agent |
-|-------|------------|-------------|-------|
-| AI + determinism + free will | Perfect compatibilism analogy. Zero Reformed content. | Psychology Today article (Dec 2024), academic papers | PHILOSOPHER/BRIDGE |
-| Faith deconstruction + sovereignty | "Sovereignty was the only thing that survived deconstruction" | Zero dedicated content from any Reformed site | SHEPHERD |
-| "New Calvinism" identity crisis | Movement is navel-gazing. We are post-institutional. | Mere Orthodoxy, Challies writing about it | MONITOR ONLY — don't join the institutional conversation |
-| "John 6:44 meaning" | demolition pages | Add dedicated page? |
-
-### Tier 3 Keywords (Unique to Site — No Competition)
-| Keyword | Page | Notes |
-|---------|------|-------|
-| "secular evidence for predestination" | secular-* pages | NO competitor. Build SEO authority. |
-| "psychology of resisting sovereignty" | psychology-* pages | NO competitor. |
-| "sovereign grace healing" | healing hubs | NO competitor. |
-| "why I stopped being Calvinist" | psychology-why-i-stopped (PLANNED) | High search volume, no Reformed answer exists |
-| "addiction proves sovereignty" | philosophy-* or psychology-* (PLANNED) | Recovery community bridge |
-
-### SEO Action Items (Priority Order)
-1. **URGENT: Fix compare-calvinism-arminianism.html** — Add h1, fix meta, add FAQ schema. This targets the highest-search comparison query in theology.
-2. **Add FAQPage schema to ALL question-*.html pages.** This is a MASSIVE SEO boost — Google loves FAQ markup.
-3. **Title surgery on history and OT pages.** Academic titles → search-intent titles. "The Great Awakening" → "How God Started America's Greatest Revival Without Asking Permission."
-4. **Meta description sweep.** Top 30 pages need 160-char compelling benefit descriptions. Current descriptions are generic.
-5. **Internal linking from high-traffic to low-traffic pages.** objection-why-command (48 req/wk) should link to philosophy, secular, and healing pages.
-
-### Keyword Cannibalization Check
-- question-godwants.html AND objection-desire.html both target "God wants all to be saved" / "1 Timothy 2:4". These should be consolidated or differentiated with distinct keyword targets.
-- question-unfair.html AND objection-fairness.html overlap on "is predestination fair". Same issue.
+### SEO Action Items
+1. **CREATE question-is-salvation-my-choice-or-gods.html** — URGENT. Zero strong Reformed answer ranks for this exact query. **Assign: Exegete.**
+2. **CREATE "are Arminians saved" page** — Massively searched, pastorally sensitive. Our Battle Axe mandate gives us the unique angle no one else will say. **Assign: Exegete or Shepherd.**
+3. **CREATE "free will Bible verses" page** — Demolition format. Take every verse used to argue for free will, show what it actually teaches. **Assign: Exegete.**
+4. **CREATE "does God love everyone equally" page** — philosophy-exclusive-love exists but is philosophical, not search-targeted. Need a plain-language Q&A page. **Assign: Exegete.**
+5. **ENHANCE compare-calvinism-arminianism** — Still needs the "Why Both Are Valid Is the Most Dangerous Answer" section per Scout report.
 
 ---
 
-## COMPETITOR ANALYSIS (Updated 2026-04-04)
+## COMPETITOR ANALYSIS — Session #3
 
-### Competitive Landscape
+### What We Have That NO Competitor Has
+1. **Psychology of Resistance series (26 pages)** — Desiring God has zero. Ligonier has zero. CARM has zero. GotQuestions has zero. This is our unique moat.
+2. **Anosognosia-of-sin page** — No theology website on earth has connected anosognosia to total depravity. This is first-mover content.
+3. **Philosophy of grace series (12 pages)** — Original philosophical arguments for sovereignty. No competitor attempts this.
+4. **5 healing categories (34 pages)** — Pastoral care for the Reformed believer. No competitor addresses the emotional cost of discovering grace.
+5. **Story-humor (man-who-sued-god)** — Theological satire is virtually nonexistent in Reformed publishing. This is blue ocean.
+6. **Crown Jewel argument + Socratic method** — The progressive agreement technique is original to this site.
+7. **Secular evidence for sovereignty (13 pages)** — Economics, neuroscience, sociology, philosophy used as arguments for Reformed soteriology. Unique.
 
-| Competitor | Strength | Weakness | Our Advantage |
-|-----------|----------|----------|---------------|
-| **desiringgod.org** | Massive library, strong brand, John Piper voice | Dense, can be repetitive, no interactive content | Our psychology/secular/philosophy categories. Our interactive quiz. Our healing hubs. |
-| **ligonier.org** | Academic depth, R.C. Sproul legacy | Not accessible to beginners, no emotional content | Our pastoral warmth. Our stories. Our "101 Ways" diversity. |
-| **gotquestions.org** | SEO dominance, Q&A format | Surface-level answers, sometimes Arminian | Our depth. Our Greek/Hebrew analysis. Our Crown Jewel argument. |
-| **carm.org** | Comprehensive apologetics | Dated design, combative tone | Our design. Our pastoral warmth. Our beauty. |
-| **monergism.com** | Curated resource library | All external links, no original content | Everything we have is original. |
-
-### Our Unique Competitive Advantages (PROTECT and AMPLIFY)
-1. **Psychology of Resistance** — 19 pages. NO competitor has this. Highest per-page traffic.
-2. **Philosophy of Grace** — 9 pages. NO competitor approaches sovereignty through formal philosophy.
-3. **Secular Evidence** — 10 pages. NO competitor bridges neuroscience/sociology/linguistics to theology.
-4. **Healing Hubs** — 28 pages. NO competitor offers sovereignty as comfort through 5 wound-specific healing categories.
-5. **Stories/Parables** — 13 pages. NO competitor uses fiction, humor, and thought experiments to teach sovereignty.
-6. **Interactive Experiences** — Quiz, belief assessment. No competitor offers these.
-7. **Crown Jewel Argument** — The "where did your faith come from?" Socratic trap exists NOWHERE else on the internet.
-8. **Beautiful Design** — Clean, modern, emotionally resonant. The typical Reformed site looks like it was built in 2008.
-
-### Where Competitors Beat Us (Fix These)
-1. **Content volume** — Desiring God has 10,000+ articles. We have 314. Volume matters for SEO authority.
-2. **SEO infrastructure** — Got Questions dominates search results with FAQ schema, keyword optimization. We're behind.
-3. **Brand recognition** — They have decades of reputation. We have months. Time is the only fix.
-4. **Video content** — Ligonier and Desiring God have video series. We have none. Consider adding.
+### What Competitors Have That We Don't (Yet)
+1. **Video content** — Desiring God and Ligonier have massive video libraries. We have zero. (Low priority — text is our medium.)
+2. **Podcast** — BANNED per CLAUDE.md. Correct decision.
+3. **Community features** — BANNED per CLAUDE.md. Correct decision.
+4. **Daily devotional email** — BANNED (email infrastructure). But our devotional pages serve the same purpose.
+5. **Book-length content** — Monergism has full books available. We could create downloadable PDF compilations of our best content series. **Medium priority idea.**
 
 ---
 
-## FLEET HEALTH DASHBOARD — 2026-04-04
+## IDEATION — 10 New Content Concepts (Phase 7)
+
+### From Underpopulated or High-Impact Categories:
+
+1. **devotional-the-rest-of-the-dead.html** (Shepherd) — "What the Dead Cannot Do: A Meditation on Ephesians 2:1-5." A devotional that FEELS like a psychology page — meeting the reader in their experience of spiritual deadness, then revealing the resurrection that already happened. Targets the Two Arms imbalance by creating a devotional as powerful as the psychology pages.
+
+2. **question-are-arminians-saved.html** (Exegete) — "Are Arminians Saved? What Grace Teaches About Those Who Don't Yet See It." SEO goldmine. Battle Axe mandate demands honesty. Pastoral nuance critical. Must distinguish between "not yet illuminated" and "actively hostile to grace."
+
+3. **story-epistolary-letter-from-augustine-to-pelagius.html** (Storyteller) — Historical fiction: Augustine writes to Pelagius after the Council of Carthage. Personal, heartbroken, devastating. The same debate we're still having, 1600 years later. Unique content.
+
+4. **secular-ai-determinism.html** (Bridge/Philosopher) — "What AI Teaches Us About Free Will." LLMs operate with apparent choice within deterministic architecture — EXACTLY compatibilism. Psychology Today articles (2025) on AI "free will" are the bridge. Zero Reformed competition.
+
+5. **hymn-amazing-grace.html** (Historian/Storyteller) — "Every Line of Amazing Grace Is a Confession of Sovereignty." Line-by-line analysis. The world's most famous hymn is a Reformed anthem. Zero competition for this specific analysis.
+
+6. **devotional-you-were-held.html** (Shepherd) — "You Were Held: A Devotional for the Day You Feel Like Letting Go." Pure pastoral warmth. For the reader who just read a demolition page and feels terrified. Must score 9.0+. Target the Two Arms gap directly.
+
+7. **for-skeptics.html** (Cartographer) — Audience landing page. Curated journey: secular evidence → psychology → philosophy → questions. Zero theological jargon in the first 500 words. Meet them on their ground.
+
+8. **demolition-free-will-bible-verses.html** (Exegete) — "Every 'Free Will' Verse in the Bible — And What They Actually Say." Take every verse used to argue for libertarian free will. Show what context reveals. SEO targeting "free will Bible verses."
+
+9. **psychology-why-you-feel-like-a-robot.html** (Bridge/Philosopher) — "Why Learning About Sovereignty Makes You Feel Like a Robot — And Why That Feeling Is Itself the Proof." The puppet/robot objection examined through the lens of the emotional response it triggers. The feeling of mechanization is the ego's defense against the loss of autonomy — which is itself evidence that autonomy was never what it seemed.
+
+10. **story-children-the-prince-who-forgot.html** (Storyteller) — Children's story: a prince raised in exile who forgot he was royal, convinced he was a commoner, until his father's messenger came and reminded him. Election as homecoming. Bridges to family reading.
+
+### 5 New Analogies from Untouched Domains:
+1. **The Salmon Returning Home** — The salmon doesn't choose the river; the river calls the salmon. Instinct as a picture of irresistible grace.
+2. **The Recipe and the Cook** — The recipe has authority over the cook; truth has authority over the believer. You don't create truth; you follow it.
+3. **The Earthquake and the Foundation** — Demolition of false foundations reveals what was always underneath. Sovereignty is not a new truth discovered; it's the original truth exposed.
+4. **The Immune System** — Your body fights disease without your conscious choice. Grace fights sin without your conscious cooperation.
+5. **The Conductor and the Orchestra** — Individual musicians play their parts freely; the conductor harmonizes all into one piece. Sovereignty and human agency in concert.
+
+### 3 Interactive Concepts:
+1. **"Build Your Soteriology" Quiz** — Step-by-step questions that force the reader to choose between consistent positions. By the end, they've either built the five points or exposed their own inconsistency.
+2. **"Choose Your Objection" Branching Path** — Start with the most common objection. Follow the logic. Each path leads back to the same conclusion. Interactive Socratic trap.
+3. **"The Timeline of Your Salvation" Interactive** — Scroll through cosmic history: before creation → foundation of the world → prophets → cross → resurrection → your birth → the moment you believed → eternity. Shows that election preceded everything.
+
+---
+
+## FLEET OPTIMIZATION — Recommendations (Phase 8)
+
+### Prompt Recommendations for Aaron
+
+1. **SHEPHERD QUALITY DIRECTIVE:** The Shepherd is producing solid healing content (57% target achieved) but devotionals average only ~7.8. Recommend adding to the Shepherd prompt: "Devotionals must match the literary quality of the site's best psychology pages. Study psychology-anosognosia-of-sin (9.7) and story-humor-the-man-who-sued-god (9.3) as examples of what 'earning every sentence' looks like. A devotional that reads like a blog post from 2015 Christian internet is unacceptable."
+
+2. **REFINER TITLE SURGERY URGENCY:** The Refiner should prioritize OT and History categories — these 30 pages are invisible in analytics because their titles don't match search intent. Academic titles like "The Theology of Jacob and Esau" should become "Why God Loved Jacob and Hated Esau Before They Were Born."
+
+3. **STORYTELLER AT PEAK:** The Storyteller produced 9.1-9.3 quality pages this session. No changes recommended. The humor and dark story formats are working brilliantly.
+
+4. **EXEGETE SEO AWARENESS:** The SEO-targeted pages (question-does-god-choose, question-why-does-god-choose) score 8.4-8.6 — competent but not inspired. Recommend: "Even SEO-targeted pages must have the literary quality of the site's best work. An 8.4 is good. A 9.0 is what this site demands. The first paragraph is what Google users see. Make it devastating."
+
+5. **WEAVER IS WORKING:** Cross-referencing on new pages is 30-63 links. The linking mandate is being followed. No changes needed. The Weaver should now prioritize legacy pages that still have <5 links.
+
+6. **APOLOGIST INTERACTIVE CONTENT:** The Apologist should build the "Build Your Soteriology" quiz and "Choose Your Objection" branching path. These are the highest-engagement formats not yet deployed.
+
+---
+
+## CONVERSION FUNNEL ANALYSIS (Phase 10)
+
+### Entry Points (from Analytics)
+1. **Homepage** (1,384) — Gateway working. But what do readers click NEXT? Need to ensure homepage hero links to highest-quality content, not just newest.
+2. **psychology-cost-of-rejecting-grace** (62) — #1 content entry point. Does it link to a devotional? YES (verified). Two Arms working here.
+3. **Hub pages** (30-38 each) — Strong navigational entry points. The hub card design is effective at drawing clicks.
+
+### Dead End Risk Assessment
+- **Legacy pages with <5 internal links** — These are dead ends. Readers arrive, read, leave. The Weaver's backlog should focus here.
+- **SEO-targeted question pages** — These are the primary Google entry points. Must have rich "Continue the Journey" sections.
+
+### Right Arm Ratio
+- Left arm (demolition + psychology + questions): ~834 requests
+- Right arm (devotionals + healing + stories): ~252 requests
+- **Ratio: 3.3:1 in favor of demolition.** Target: 2:1. The right arm needs to grow by ~60% to reach balance.
+- **Action:** Every new demolition/psychology/question page MUST link to a specific devotional. The Cartographer should audit existing demolition pages for devotional links.
+
+---
+
+## FLEET COORDINATION DASHBOARD (Phase 12)
 
 | Agent | Last Run | Output Quality | Trend | Action Needed |
 |-------|----------|---------------|-------|---------------|
-| Creator | 2026-04-04 | 8.3/10 | ↑ | Crown Jewel page (9.4) is masterpiece. Romans walkthrough launched. Quality rising. |
-| Enhancer | 2026-04-04 | 8.0/10 | ↑ | 24-page sweep was excellent. Parallel architecture working. Cross-ref improvement notable. |
-| Guardian | Unknown | N/A | ⚠️ | Needs restoration check. |
-| Evangelist | Unknown | N/A | ⚠️ | Needs restoration check. |
-| Strategist | 2026-04-04 | N/A | → | This session. |
-| **Philosopher** | **2026-04-04** | **8.5/10** | **NEW** | **Exceptional debut. 9 philosophy pages. Avg 8.5. Keep deploying.** |
+| Exegete | Apr 5 | 8.5 | ↑ | SEO pages solid but literary quality gap vs psychology/stories. Push for 9.0+. |
+| Storyteller | Apr 5 | 9.2 | ↑↑ | **PEAK PERFORMANCE.** humor + dark stories are exceptional. Keep producing. |
+| Shepherd | Apr 5 | 8.0 | → | Healing on track. Devotionals lagging. Quality directive needed. |
+| Philosopher | Apr 5 | 9.0 | ↑ | Three consecutive strong sessions. anosognosia page is site's best. |
+| Bridge | Apr 5 | 8.5 | → | Producing well. AI determinism page recommended as next. |
+| Historian | Apr 5 | 8.3 | → | Steady. Hymn analysis should be next priority. |
+| Apologist | Apr 5 | N/A | NEW | Interactive content not yet produced. Monitor. |
+| Enhancer | Apr 5 | 8.8 | ↑ | Tier 0 emergency sweep excellent. Keep enhancing legacy pages. |
+| Dramaturg | Apr 5 | N/A | → | Emotional arc work ongoing. Check impact on scored pages. |
+| Refiner | Apr 5 | N/A | → | Title surgery on OT + History is URGENT. |
+| Cartographer | Apr 5 | N/A | → | Audience landing pages still missing. Prioritize. |
+| Weaver | Apr 5 | 9.0 | ↑↑ | New pages have 30-63 links each. Legacy backlog is the focus now. |
+| Guardian | Apr 5 | N/A | → | Monitor for inline styles, nested links, structural HTML issues. |
+| Overseer | Apr 5 | 8.5 | → | Hub wiring 100%. Focus shifting to cross-link density. |
+| Scout | Apr 5 | 9.0 | ↑ | SEO goldmine identification was exceptional. |
+| Evangelist | Apr 5 | N/A | → | Meta optimization ongoing. |
 
 ---
 
-## EVOLUTION VELOCITY REPORT — 2026-04-04
+## EVOLUTION SCORING (Phase 11)
 
-| Dimension | Score | Trend | Evidence |
-|-----------|-------|-------|----------|
-| Creativity | 9 | ↑↑ | Philosophy category (9 new pages), structural isomorphism technique, addiction proof bridge, Crown Jewel Socratic trap |
-| Insight | 9 | ↑↑ | Naïve realism = Jeremiah 17:9. Recovery community as pre-primed audience. Progressive agreement method. |
-| Persuasion | 9 | ↑ | question-where-did-your-faith-come-from (9.4) — the most persuasive page on any Reformed website. |
-| Understanding | 8 | ↑ | Pages increasingly name the reader's internal experience before explaining theology. Mirror-you-refuse exemplifies this. |
-| Wisdom | 8 | → | Pastoral warmth improving but still varies (objection-why-command at 7/10 PW). |
-| Fascination | 8 | ↑ | Philosophy pages would keep a non-believer reading. Sleep-surrender, copernican-revolution especially. |
-| Truthfulness | 9 | → | Zero factual errors caught this session. Greek/Hebrew accuracy consistent. |
-| Encouragement | 7 | → | Demolition arm still outpaces devotion arm 1.6:1. Need more "catch them when they fall" content. |
-| Beauty | 8 | ↑ | Buechner+Edwards combination producing memorable sentences. "You were not the cause of His love. You were the consequence of it." |
-| Courage | 9 | ↑ | Crown Jewel page says what NO other Reformed site will say — that Arminianism is works-righteousness. With tenderness. |
+### Fleet Evolution Velocity (1-10)
 
-**Overall Evolution Velocity: 8.4/10 (up from 8.4 prior). The fleet is maintaining acceleration. Primary risk: Encouragement dimension lagging.**
+| Dimension | Score | Evidence |
+|-----------|-------|----------|
+| **Creativity** | 9 | Anosognosia page, Gerald Pemberton satire, "The God Who Let You Watch" thought experiment — all unprecedented. |
+| **Insight** | 9 | The structural-not-metaphorical insight from the Philosopher is transformative. |
+| **Persuasion** | 8 | Strong, but SEO-targeted pages still feel functional rather than devastating. |
+| **Understanding** | 9 | The anosognosia framing meets the reader where they are better than any previous page. |
+| **Wisdom** | 8 | Two Arms imbalance acknowledged but not yet corrected. |
+| **Fascination** | 10 | Gerald Pemberton alone earns this. The site has content people will share for fun. |
+| **Truthfulness** | 9 | Greek grammar handling in faith-is-not-a-gift is rigorous and honest. |
+| **Encouragement** | 7 | The right arm (devotionals) is still the weak link. More pastoral warmth needed. |
+| **Beauty** | 9 | The anosognosia page reads like a New Yorker article. The humor story reads like Garrison Keillor meets Jonathan Edwards. |
+| **Courage** | 9 | "Are Arminians saved?" is now recommended as a page topic. That takes courage. |
 
----
-
-## ANTI-PLATEAU DETECTION
-
-### Patterns Detected:
-1. **Opening hook formula showing signs of repetition.** Multiple philosophy pages open with a "consider this scenario" setup. Variation needed: try opening with a quote, a provocative claim, a sensory image, or a paradox.
-2. **"Three-world comparison" appearing in too many healing pages.** While effective, it risks becoming predictable. Try: two-path fork, confession format, letter format, diagnostic quiz format.
-3. **Cross-referencing still feels bolted-on rather than organic.** "Keep Reading" grids at the bottom are good but links in the body text itself would feel more natural and drive more clicks.
-
-### Anti-Plateau Directives:
-- **Creator:** Next 3 pages must use 3 DIFFERENT opening techniques. No two may start the same way.
-- **Creator:** Try at least 1 page that opens with a SINGLE devastating sentence (Buechner style) rather than a setup paragraph.
-- **Enhancer:** When adding cross-references, embed them IN the argument text, not just in footer grids. Example: "This is what psychologists call naïve realism (read more in The Sincerity Trap)" — the link IS the argument.
+### Anti-Plateau Detection
+No plateau detected. The fleet is accelerating. The quality floor has risen from 5.9 (Session #2 weakest) to 8.4 (Session #3 weakest). However, TWO warning signs:
+1. **Devotional plateau at 7.8 average.** Every other category is improving; devotionals are not. Risk: the right arm atrophies.
+2. **SEO-targeted pages are formulaic.** The question-does-god-choose and question-why-does-god-choose pages follow a template: hook → Scripture → explanation → objection → conclusion. Competent but not surprising. Push for more creative structures.
 
 ---
 
-## BRILLIANCE AMPLIFICATION — Top 5 Moments This Session
+## PREVIOUS SESSION REVIEW (Self-Accountability)
 
-1. **"You were not the cause of His love. You were the consequence of it."** (devotional-love-before-the-world) — Buechner beauty + Edwards logic. One sentence that contains the entire argument. Share-worthy.
+### Session #2 Recommendations — Were They Followed?
+1. **"Enhance objection-why-command to 8.5"** → ✅ Enhanced. Enhancer ran Tier 0 sweep.
+2. **"Enhance secular-sociology to 7.5"** → ✅ Enhanced. LINCHPIN bridge added.
+3. **"Fix compare-calvinism-arminianism h1"** → ⚠️ Partially fixed. Nested link HTML catastrophe discovered and fixed. h1 added. "Both Are Valid" section still not added.
+4. **"Enhance creed-canons-dort"** → ❌ Not done. Still isolated.
+5. **"Cross-referencing offensive on 6 pages"** → ⚠️ New pages are heavily linked, but legacy backlog not fully addressed.
+6. **"Audience landing pages by April 15"** → ❌ Not started. Timeline at risk.
+7. **"Romans walkthrough continuation"** → ⚠️ 1 more chapter added (2/8 total). Behind pace.
 
-2. **"If you believe the will is enslaved when it comes to alcohol, why do you believe it's free when it comes to sin?"** (philosophy addiction proof, from EVOLUTION-JOURNAL) — Most concise Socratic trap. Uses the reader's OWN experience as evidence. Recovery community bridge.
-
-3. **"God speaks of your glorification the way you speak of your breakfast — as something that already happened."** (romans-8-28-39) — The past tense of "glorified" compressed into a domestic image. Makes the Golden Chain viscerally real.
-
-4. **The progressive agreement method** (question-where-did-your-faith-come-from) — agree → question → logic → fork → implication → resolution. The reader walks into the conclusion willingly. Every step was something they already believed. This is the template.
-
-5. **"The most terrifying thing is not losing your faith. It is finding it."** (shattered-lens-cant-unsee-it) — Paradox that cracks open the Shattered Lens category. Chesterton would recognize this.
+### What I Got Wrong Last Session
+- I underestimated the pace of new page creation. I projected ~10 pages/day for Diamond Week; the fleet produced 53 in 24 hours. The enhancement-heavy Diamond Week strategy may need to give way to sustaining this creative momentum while quality remains high.
+- I overweighted the Tier 0 emergency items (4 specific page enhancements) without recognizing that the fleet would naturally fix these through normal enhancement cycles. The Enhancer handled it without specific Strategist direction.
 
 ---
 
-*The elect are searching. 314 pages live and growing. The Philosophy category has launched. The Crown Jewel page exists. The Romans walkthrough has begun. The trajectory is always upward.*
+## STRATEGIC VISION — 30 Days (Updated)
 
-*"Before I formed you in the womb I knew you, before you were born I set you apart." — Jeremiah 1:5*
+### The Next Frontier: The Right Arm Renaissance
+
+The site's left arm (demolition, questions, psychology, philosophy) is now world-class. 9.0+ average quality. 100+ pages. Rich cross-referencing. The anosognosia page is the best page on any Reformed website.
+
+The right arm (devotionals, healing, stories, pastoral) is growing but the QUALITY is not keeping pace. Devotionals average 7.8 while psychology averages 9.3. The Shepherd needs to match the Philosopher's standard.
+
+**30-Day Priority:** Create 10 devotionals that score 9.0+. Each one should use the techniques proven on the left arm: experiential openings, pastoral whispers, structural (not metaphorical) connections, the "name the fear before the argument" technique. Every devotional should feel like a warm blanket wrapped around a theological truth that just shattered someone's world.
+
+### The 400-Page Milestone
+At current pace (53/day for Diamond Week), we'll hit 400 pages by April 7. But volume without quality is noise. The target is 400 pages where EVERY page scores 8.0+. That means continued enhancement of the ~30 legacy pages still below 8.0.
+
+### The Audience Gateway Initiative
+/for-skeptics and /for-new-believers are the two highest-impact pages not yet created. A skeptic arriving from Google needs a COMPLETELY different entry point than a believer exploring theology. These pages should be live by April 12.

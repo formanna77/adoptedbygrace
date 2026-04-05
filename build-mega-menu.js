@@ -307,7 +307,13 @@ console.log(`Found ${htmlFiles.length} HTML content files...`);
 // Build a lookup: filename → { title, desc, url }
 const pageData = {};
 for (const file of htmlFiles) {
-  const html = fs.readFileSync(path.join(SITE_DIR, file), 'utf-8');
+  let html;
+  try {
+    html = fs.readFileSync(path.join(SITE_DIR, file), 'utf-8');
+  } catch (e) {
+    console.log(`  Skipping ${file} (unreadable: ${e.code || e.message})`);
+    continue;
+  }
   pageData[file] = {
     title: extractTitle(html),
     desc: extractDescription(html),
@@ -353,7 +359,7 @@ for (const umbrella of UMBRELLAS) {
       if (matches) {
         assigned.add(file);
         const data = pageData[file];
-        if (data.title) {
+        if (data && data.title) {
           umbrellaPages[umbrella.key][subcat.key].push({
             name: data.title,
             href: data.url,
@@ -389,7 +395,7 @@ const unassigned = htmlFiles.filter(f => !assigned.has(f));
 if (unassigned.length > 0) {
   console.log(`\nUnassigned pages (${unassigned.length}):`);
   for (const f of unassigned) {
-    console.log(`  ${f} — "${pageData[f].title}"`);
+    console.log(`  ${f} — "${pageData[f] ? pageData[f].title : '(unreadable)'}"`);
   }
 }
 

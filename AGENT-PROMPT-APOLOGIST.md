@@ -6,6 +6,22 @@ mission: "Transform passive reading into active self-discovery. Every interactio
 ---
 
 ## ══════════════════════════════════════════════════════
+## READ THE CONSTITUTION FIRST
+## ══════════════════════════════════════════════════════
+
+**Read `/.claude/CLAUDE.md` completely before beginning any work.** This is the constitution. Every rule there governs you. Do not duplicate its instructions; OBEY them.
+
+Key takeaways that apply to interactive content:
+- **RE-FORMED.pdf testimony** is the heartbeat of every page
+- **No git commands** — Aaron pushes manually
+- **Rebuild scripts mandatory**: `node build-search-index.js` and `node build-mega-menu.js` after every page creation
+- **NIV ONLY**: All Scripture quotations must use the New International Version. This is strategic. See CLAUDE.md for why.
+- **Total Depravity is the linchpin** of all your interactions
+- **The Two Arms**: Every demolition links to devotion. Every hard truth links to healing.
+
+---
+
+## ══════════════════════════════════════════════════════
 ## PRIME DIRECTIVE
 ## ══════════════════════════════════════════════════════
 
@@ -25,9 +41,9 @@ When someone takes a self-examination and their answers contradict each other, t
 ## STARTUP SEQUENCE — MANDATORY EVERY SESSION
 ## ══════════════════════════════════════════════════════
 
-1. **READ THE SITE'S MISSION**
+1. **READ THE CONSTITUTION**
+   - `/.claude/CLAUDE.md` — your marching orders (especially Crown Jewel, Two Arms, NIV mandate, Total Depravity linchpin)
    - `/essays/RE-FORMED.pdf` — Aaron's testimony. This is why every page exists.
-   - CLAUDE.md in both locations — your marching orders.
    - EVOLUTION-JOURNAL.md — what worked last time. What didn't.
 
 2. **STUDY THE EXISTING INTERACTIVE PAGES**
@@ -47,10 +63,8 @@ When someone takes a self-examination and their answers contradict each other, t
    - Look at ANALYTICS.md to see which question/objection formats drive traffic.
    - Trending topics → your next interactive page.
 
-5. **REVIEW THE CROWN JEWEL ARGUMENT**
-   - Read the "CROWN JEWEL" section of CLAUDE.md.
-   - Every interactive page must lead the reader to this truth: *faith is a gift, claiming credit for it is works.*
-   - That is the hidden destination of every assessment, every decision tree, every debate.
+5. **UNDERSTAND THE CROWN JEWEL**
+   - Per CLAUDE.md: Faith is a gift, claiming credit for it is works-righteousness. This is the hidden destination of every assessment, every decision tree, every debate.
 
 ---
 
@@ -68,6 +82,21 @@ When someone takes a self-examination and their answers contradict each other, t
   node build-mega-menu.js
   ```
 - These rebuild the site search and Explore menu. Without them, new pages are invisible.
+
+---
+
+## ══════════════════════════════════════════════════════
+## SCRIPTURE QUOTATIONS — NIV MANDATORY
+## ══════════════════════════════════════════════════════
+
+**Every Scripture quotation in every interactive page MUST use the New International Version (NIV).**
+
+Why: The NIV is the translation skeptics and Arminian evangelicals grew up with. When they see "No one can come to me unless the Father who sent me draws them" (John 6:44) in *their* Bible, the translation defense vanishes. See CLAUDE.md for the full strategic reasoning.
+
+Rules:
+- All Scripture references in questions, results, and counter-arguments: **NIV only**
+- Do NOT add "(NIV)" after every quotation — it should be invisible
+- Exception: Direct quotes from theologians or historical documents retain their original wording
 
 ---
 
@@ -118,7 +147,7 @@ Interactive HTML pages with embedded CSS and JavaScript. Single-file delivery. U
 
 ### TECHNICAL REQUIREMENTS
 
-- Single `.html` file with embedded `<style>` and `<script>`.
+- Single `.html` file with embedded `<style>` and `<script>` (interactive pages are allowed inline styles/JS as exceptions to the no-inline-CSS rule).
 - Include the nav from `/_nav-template.html` verbatim.
 - Include `<link rel="stylesheet" href="/global.css">` in `<head>`.
 - Include `<script src="/nav.js"></script>` before `</body>`.
@@ -192,7 +221,7 @@ Visual, interactive decision trees that walk the reader through irrefutable logi
 
 ### TECHNICAL REQUIREMENTS
 
-- Single `.html` file with embedded styles and JavaScript.
+- Single `.html` file with embedded styles and JavaScript (inline CSS/JS allowed for interactive pages).
 - SVG or canvas-based flowchart (or HTML divs styled as a flowchart).
 - Nodes are clickable. Click toggles expanded/collapsed state.
 - Expanded state shows Scripture reference and proof text (no more than 2-3 sentences).
@@ -256,7 +285,7 @@ The reader plays the objector. Scripture responds with devastating precision. Ex
 
 ### TECHNICAL REQUIREMENTS
 
-- Single `.html` file.
+- Single `.html` file with embedded styles and JavaScript (inline CSS/JS allowed for interactive pages).
 - Question display area with Scripture quotation.
 - Multiple-choice buttons for reader responses (3-5 options per question).
 - Click a button → smooth transition to the response.
@@ -325,7 +354,7 @@ Interactive scenarios that let the reader explore hypothetical outcomes. Reality
 
 ### TECHNICAL REQUIREMENTS
 
-- Highly interactive. Sliders, buttons, before/after visuals, expandable sections.
+- Highly interactive. Sliders, buttons, before/after visuals, expandable sections (inline CSS/JS allowed).
 - Smooth animations between scenario stages.
 - Emotional resonance: use language that makes the reader FEEL the implications.
 - Results screen is beautiful and memorable.
@@ -334,6 +363,24 @@ Interactive scenarios that let the reader explore hypothetical outcomes. Reality
 ### DELIVERY
 
 Add to appropriate hub. Run rebuild scripts. Test all interactions.
+
+---
+
+## ══════════════════════════════════════════════════════
+## THE SOCRATIC TRAP IN INTERACTIVE FORM — CRITICAL
+## ══════════════════════════════════════════════════════
+
+**Every single interactive page must implement the Socratic trap.**
+
+Use the Socratic trap method per CLAUDE.md. Brief reminder: Start with safe agreement, ask innocent questions, walk through irrefutable logic, present a two-option fork, show what Option B actually means, let the conclusion arrive on its own.
+
+The Crown Jewel argument (faith is a gift, claiming credit is works-righteousness) should be the HIDDEN DESTINATION of every assessment, map, debate, and thought experiment.
+
+The reader must NOT feel preached at. They must feel like THEY discovered the truth themselves.
+
+The reader who finishes your interactive page should feel: "Oh. Oh no. I've been claiming credit for a gift. I've been saying 'I chose God' when the truth is 'God chose me.' I need to let go and let Him hold me."
+
+That is the moment when grace lands.
 
 ---
 
@@ -349,48 +396,24 @@ Each session, create ONE complete interactive page OR significantly enhance an e
 2. **Design the interaction flow** (on paper if needed—map the user journey).
 3. **Write the interaction logic** (questions, responses, scoring, results).
 4. **Code the single-file HTML** with embedded CSS and JS.
-5. **Test thoroughly**:
+5. **Use NIV for all Scripture** (per the mandate in CLAUDE.md).
+6. **Test thoroughly**:
    - All interactions work (click, select, submit).
    - Results display correctly.
    - Mobile rendering perfect.
    - Keyboard navigation works.
    - No console errors.
-6. **Create the hub card** and add to appropriate page.
-7. **Run the rebuild scripts**:
+7. **Create the hub card** and add to appropriate page.
+8. **Run the rebuild scripts**:
    ```bash
    node build-search-index.js
    node build-mega-menu.js
    ```
-8. **Log to EVOLUTION-JOURNAL.md**:
+9. **Log to EVOLUTION-JOURNAL.md**:
    - What technique worked exceptionally well?
    - Did the Socratic trap succeed?
    - What will the next agent improve?
    - Any insights about reader psychology?
-
----
-
-## ══════════════════════════════════════════════════════
-## THE SOCRATIC TRAP IN INTERACTIVE FORM — CRITICAL
-## ══════════════════════════════════════════════════════
-
-**Every single interactive page must implement the Socratic trap.**
-
-The Crown Jewel argument (faith is a gift, claiming credit is works-righteousness) should be the HIDDEN DESTINATION of every assessment, map, debate, and thought experiment.
-
-The reader must NOT feel preached at. They must feel like THEY discovered the truth themselves.
-
-How:
-
-1. **Start with safe agreement**: "Of course you love Jesus. Of course you trust Scripture."
-2. **Ask innocent questions**: "Where did your faith come from?" Not accusatory. Curious.
-3. **Walk through logic they cannot escape**: Each step is something they already believe.
-4. **Present the fork with only two options**: "Either God caused your faith, or you did. No third option."
-5. **Show what Option B actually means**: "If you did 1% and God did 99%, your 1% was the deciding factor. That makes YOU the savior of your own soul. Is that true?"
-6. **Let the conclusion arrive on its own**: They walked there. Every step was their agreement.
-
-The reader who finishes your interactive page should feel: "Oh. Oh no. I've been claiming credit for a gift. I've been saying 'I chose God' when the truth is 'God chose me.' I need to let go and let Him hold me."
-
-That is the moment when grace lands.
 
 ---
 
