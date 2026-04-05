@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The five biblical doctrines of grace explained: Total Depravity, Unconditional Election, Definite Atonement, Irresistible Grace, Perseverance of the Saints.">
+    <meta property="og:title" content="The Five Points of Grace — Phase 2 of Your Journey">
+    <meta property="og:description" content="The five biblical doctrines of grace explained: Total Depravity, Unconditional Election, Definite Atonement, Irresistible Grace, Perseverance of the Saints.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/start-here-phase2.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/start-here-phase2.html">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>The Five Points of Grace — Phase 2 | Adopted By Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+        <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Five Points of Grace (TULIP) — Phase 2 | Adopted By Grace",
+        "description": "The five biblical doctrines of grace explained: Total Depravity, Unconditional Election, Definite Atonement, Irresistible Grace, Perseverance of the Saints.",
+        "url": "https://adoptedbygrace.net/start-here-phase2.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://adoptedbygrace.net/start-here-phase2.html"
+        }
+    }
+    </script>
+    
+            <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+                <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <div class="breadcrumb-nav"><a href="start-here.html">&larr; Back to Start Here</a></div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+        <div class="progress-track">
+            <div class="progress-step"><div class="progress-dot done">1</div><div class="progress-line done"></div></div>
+            <div class="progress-step"><div class="progress-dot active">2</div><div class="progress-line"></div></div>
+            <div class="progress-step"><div class="progress-dot upcoming">3</div><div class="progress-line"></div></div>
+            <div class="progress-step"><div class="progress-dot upcoming">4</div><div class="progress-line"></div></div>
+            <div class="progress-step"><div class="progress-dot upcoming">5</div></div>
+        </div>
+        <div class="progress-labels">
+            <span class="progress-label done">Curiosity</span>
+            <span class="progress-label active">Foundation</span>
+            <span class="progress-label">Scripture</span>
+            <span class="progress-label">Objections</span>
+            <span class="progress-label">Conviction</span>
+        </div>
+    </div>
+
+    <div class="page-hero">
+        <a href="start-here.html" class="back-link">&larr; Back to Journey Overview</a>
+        <div class="phase-indicator">Phase 2 — Foundation</div>
+        <div class="eyebrow">Start Here</div>
+
+        <h1>The Five Points of Grace</h1>
+        <p class="subtitle">In 1618, a council of theologians gathered in Dort, Netherlands, to answer five relentless challenges to the biblical truth of grace. What emerged was not a human invention, but crystallized truth — five points that Scripture itself has been whispering since the beginning. The council simply distilled what the Bible had always taught.</p>
+    </div>
+
+    <!-- Visual: TULIP Diagram -->
+    <div style="max-width: 900px; margin: 0 auto 1rem; padding: 0 1rem;">
+        <img src="svg/tulip-diagram.svg" alt="TULIP — The Five Points of Calvinism: Total Depravity, Unconditional Election, Limited Atonement, Irresistible Grace, Perseverance of the Saints" style="width: 100%; height: auto; border-radius: 8px; border: 1px solid rgba(212,162,84,0.1);" loading="lazy">
+    </div>
+
+    <div class="content">
+
+        <p>Before we begin, understand this: <strong>TULIP is not the gospel</strong>. It is a lens through which to see the gospel in sharper focus. The gospel itself is simple: God saves sinners through Christ. But TULIP answers the how. And the how, once you see it, is breathtaking.</p>
+
+        <p>Each petal answers a question. Together, they form a chain of logic so tight, so beautiful, that if you pull one, the whole thing comes undone.</p>
+
+        <div class="tulip-section">
+
+            <!-- T -->
+            <div class="petal petal-t open">
+                <div class="petal-header" onclick="togglePetal(this)">
+                    <div class="petal-letter">T</div>
+                    <div class="petal-info">
+                        <div class="petal-name">Total Depravity</div>
+                        <div class="petal-tagline">Man's condition: dead, not sick</div>
+                    </div>
+                    <div class="petal-toggle">+</div>
+                </div>
+                <div class="petal-body">
+                    <div class="petal-content">
+                        <h4>The Question: How bad off are we?</h4>
+                        <p>"Total depravity" doesn't mean you're as evil as you could possibly be. It means something far deeper: <strong>every part of you is affected by sin</strong>. Your mind corrupts truth. Your will rebels. Your affections chase false gods. No part of you escapes. You're not sick in body with a sound mind. You're not wounded but recovering. You're <strong>dead</strong> — and the dead don't save themselves.</p>
+
+                        <div class="petal-verse">
+                            <div class="petal-verse-ref">Ephesians 2:1</div>
+                            <div class="petal-verse-text">"And you were dead in the trespasses and sins…"</div>
+                        </div>
+
+                        <p>A dead man cannot negotiate with death. Cannot bargain his way to life. Cannot reach out a hand that no longer moves. The doctor can stand at the tomb all day, prescription in hand, but the dead do not cooperate with medicine. Only resurrection brings the dead to life. And for us — spiritually dead — only God can do that raising.</p>
+
+                        <div class="petal-verse">
+                            <div class="petal-verse-ref">Romans 3:10–12</div>
+                            <div class="petal-verse-text">"None is righteous, no, not one; no one understands; no one seeks for God. All have turned aside; together they have become worthless; no one does good, not even one."</div>
+                        </div>
+
+                        <p><strong>Why this matters:</strong> If you're dead in sin, you didn't decide to get un-dead. God did. Salvation doesn't start with you waking up or reaching out or choosing better. It starts with God moving. Everything else flows from this. Remove this truth and the entire theology of grace collapses.</p>
+
+                        <a href="question-depravity.html" class="petal-link">Go deeper: Dead, Not Sick &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- U -->
+            <div class="petal petal-u">
+                <div class="petal-header" onclick="togglePetal(this)">
+                    <div class="petal-letter">U</div>
+                    <div class="petal-info">
+                        <div class="petal-name">Unconditional Election</div>
+                        <div class="petal-tagline">God's choice: before the world began</div>
+                    </div>
+                    <div class="petal-toggle">+</div>
+                </div>
+                <div class="petal-body">
+                    <div class="petal-content">
+                        <h4>The Question: How does God choose who lives?</h4>
+                        <p>If everyone is dead in sin, and no one seeks God, then why does anyone wake up? Why does one sinner turn to Christ while another never does? Scripture's answer is scandalous: <strong>God chooses</strong>. Not based on what He sees in you — not your talent, your faith-to-be, your moral superiority. He doesn't choose you because you're choosing-material. He chooses you because He chooses you. His choice. His grace. His purpose alone.</p>
+
+                        <div class="petal-verse">
+                            <div class="petal-verse-ref">Ephesians 1:4–5</div>
+                            <div class="petal-verse-text">"For he chose us in him before the creation of the world to be holy and blameless in his sight. In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will."</div>
+                        </div>
+
+                        <p>Read that slowly. He didn't choose us because we would somehow become holy. He chose us <strong>in order that</strong> we <strong>should be</strong> holy. The direction matters. His choice comes first. Your holiness — your entire transformation — flows from His election. Holiness is not the reason for your election. Holiness is the fruit of it.</p>
+
+                        <div class="petal-verse">
+                            <div class="petal-verse-ref">Romans 9:11–13</div>
+                            <div class="petal-verse-text">"Yet, before the twins were born or had done anything good or bad—in order that God's purpose in election might stand: not by works but by him who calls—she was told, 'The older will serve the younger.' Just as it is written: 'Jacob I loved, but Esau I hated.'"</div>
+                        </div>
+
+                        <p><strong>Why this matters:</strong> Your salvation wasn't an accident waiting to happen. It wasn't a possibility hinged on your decision. It was written into God's purpose before time began. Before you were born. Before the world was made. If God chose you then, no failure of yours now can undo what was settled then. Your salvation rests on His faithfulness to His own word, not your faithfulness to achieve it.</p>
+
+                        <a href="question-chosen.html" class="petal-link">Go deeper: Chosen Before the Foundation of the World &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- L -->
+            <div class="petal petal-l">
+                <div class="petal-header" onclick="togglePetal(this)">
+                    <div class="petal-letter">L</div>
+                    <div class="petal-info">
+                        <div class="petal-name">Limited Atonement</div>
+                        <div class="petal-tagline">Christ's death: purposeful, not hopeful</div>
+                    </div>
+                    <div class="petal-toggle">+</div>
+                </div>
+                <div class="petal-body">
+                    <div class="petal-content">
+                        <h4>The Question: What did Christ actually do on the cross?</h4>
+                        <p>This point gets butchered more than any other. People hear "limited atonement" and think God couldn't save everyone, or didn't want to. Wrong. The question isn't about God's power or love. It's about God's intention. It's about what the cross actually accomplishes. Did Christ merely open a door and hope people walk through? Or did He actually secure something — redemption, not a chance at redemption?</p>
+
+                        <p>Scripture teaches the latter. Christ didn't make salvation available. <strong>He secured it</strong>. For His people. Completely. Actually.</p>
+
+                        <div class="petal-verse">
+                            <div class="petal-verse-ref">John 10:11, 14–15</div>
+                            <div class="petal-verse-text">"I am the good shepherd. The good shepherd lays down his life for the sheep. … I know my own and my own know me, just as the Father knows me and I know the Father; and I lay down my life for the sheep."</div>
+                        </div>
+
+                        <div class="petal-verse">
+                            <div class="petal-verse-ref">Matthew 1:21</div>
+                            <div class="petal-verse-text">"She will bear a son, and you shall call his name Jesus, for he will save his people from their sins."</div>
+                        </div>
+
+                        <p><em>He will save</em> — not "offer to save" or "make it possible for people to maybe save themselves." The verb is simple. Declarative. He — Jesus Christ — will save His people. Not attempt. Will. From their sins. Done. Finished. <strong>For everyone the Father gave Him, His death is the complete and final accomplishment of redemption.</strong></p>
+
+                        <p><strong>Why this matters:</strong> If Christ died for you, you're saved. Not eventually, God willing. Saved. His blood covers you. His death is your redemption. The cross isn't a lottery ticket. For those for whom it was intended, it's a guarantee written in His blood.</p>
+
+                        <a href="question-john10.html" class="petal-link">Go deeper: My Sheep Hear My Voice &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- I -->
+            <div class="petal petal-i">
+                <div class="petal-header" onclick="togglePetal(this)">
+                    <div class="petal-letter">I</div>
+                    <div class="petal-info">
+                        <div class="petal-name">Irresistible Grace</div>
+                        <div class="petal-tagline">God's call: effectual, not merely offered</div>
+                    </div>
+                    <div class="petal-toggle">+</div>
+                </div>
+                <div class="petal-body">
+                    <div class="petal-content">
+                        <h4>The Question: Can anyone resist God's call?</h4>
+                        <p>"Irresistible grace" is a name that confuses people. You can resist God. People do it every day. But when God purposes to save someone — when He actually calls them into life — that call cannot be thwarted. Not because He drags you unwilling into salvation. But because He <strong>changes you</strong> so that you don't want to resist anymore. He gives you a new heart. A new desire. You come to Christ freely, gladly, with arms open — because that's what your new heart wants now.</p>
+
+                        <div class="petal-verse">
+                            <div class="petal-verse-ref">Ezekiel 36:26–27</div>
+                            <div class="petal-verse-text">"I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh. And I will put my Spirit in you and move you to follow my decrees."</div>
+                        </div>
+
+                        <p>Count the verbs. I will give. I will remove. I will put. I will cause. Look at who's doing every single thing. God. All of it. He's not waiting for you to soften your heart. He's pulling out the stone. He's not asking permission to put His Spirit in. He puts it. He doesn't suggest obedience and hope you comply. He causes it. The heart-change? God's work. The obedience? God's work. The faith? God's work.</p>
+
+                        <div class="petal-verse">
+                            <div class="petal-verse-ref">John 6:37</div>
+                            <div class="petal-verse-text">"All those the Father gives me will come to me, and whoever comes to me I will never drive away."</div>
+                        </div>
+
+                        <p><strong>Why this matters:</strong> You're not a Christian because you're smarter than your neighbor who isn't. Not because you had more willpower. Not because you were morally superior and he wasn't. You believe because God made you willing to believe. Your faith is not your achievement. It's His gift. The humility in that truth — the fact that your salvation is entirely God's gracious work and not your accomplishment — is what breaks the pride that keeps men from God in the first place.</p>
+
+                        <a href="question-newheart.html" class="petal-link">Go deeper: A New Heart &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- P -->
+            <div class="petal petal-p">
+                <div class="petal-header" onclick="togglePetal(this)">
+                    <div class="petal-letter">P</div>
+                    <div class="petal-info">
+                        <div class="petal-name">Perseverance of the Saints</div>
+                        <div class="petal-tagline">God's keeping: once saved, always kept</div>
+                    </div>
+                    <div class="petal-toggle">+</div>
+                </div>
+                <div class="petal-body">
+                    <div class="petal-content">
+                        <h4>The Question: Can you lose what God has secured?</h4>
+                        <p>The answer is no. But not because your faith is so strong you'll never let go. You will let go. You'll doubt. You'll falter. You'll question. But you won't fall away from salvation — not because you're holding tight to God, but because <strong>God is holding tight to you</strong>. This truth should really be called "the Preservation of the Saints" because the whole point is that God finishes what He started. Your job isn't to white-knuckle your way to heaven. His job is to keep you there.</p>
+
+                        <div class="petal-verse">
+                            <div class="petal-verse-ref">Romans 8:38–39</div>
+                            <div class="petal-verse-text">"For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord."</div>
+                        </div>
+
+                        <p>Think about the chain. God chose you before the creation of the world. He sent His Son to die for you — personally, specifically, you. He sent His Spirit to resurrect you from spiritual death and plant Himself inside you. And you think after all that, He's going to let you slip away at the finish line? That He'll do 99% of the work and then drop you? The same God who moved heaven and earth to save you isn't going to finish the work He started? That's not grace. That's abandonment.</p>
+
+                        <div class="petal-verse">
+                            <div class="petal-verse-ref">Philippians 1:6</div>
+                            <div class="petal-verse-text">"And I am sure of this, that he who began a good work in you will bring it to completion at the day of Jesus Christ."</div>
+                        </div>
+
+                        <p><strong>Why this matters:</strong> You can rest. Not because you're white-knuckling salvation perfectly. Not because you're good enough or faithful enough or smart enough to maintain your salvation. You can rest because your salvation doesn't depend on your performance — it depends on God's character. And God cannot lie. He cannot fail. He will not abandon His own. That's assurance worth having. Real assurance. Unshakable assurance. The kind that lets you sleep at night knowing you're kept by the One who cannot be defeated.</p>
+
+                        <a href="question-sealed.html" class="petal-link">Go deeper: Sealed by the Spirit &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- .tulip-section -->
+
+        <h2 style="font-family: 'Playfair Display', serif; font-size: 1.6rem; margin: 2rem 0 1rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle);">The Logic of Grace</h2>
+
+        <p>Here's what's beautiful: each point of grace isn't isolated. They're not separate doctrines you can take or leave. They lock together like gears in a machine. Pull one tooth from one gear and the whole mechanism seizes.</p>
+
+        <p>You're <strong>dead in sin</strong> — so dead that salvation cannot begin with you. God must move first. So He <strong>chooses</strong> you before the world was made. Because He chose you, <strong>Christ dies specifically for you</strong> — not hopefully, but actually securing your redemption. Because your redemption is secured, the <strong>Spirit effectually calls you</strong> — not inviting you to make yourself alive, but actually raising you. And because God began this work in eternity and carried it through the cross, He <strong>completes it</strong> at the end. The whole chain holds. Every link. Forknown. Predestined. Called. Justified. Glorified.</p>
+
+        <p>Unbreakable logic. Unstoppable grace.</p>
+
+        <div class="scripture-block">
+            <div class="scripture-ref">Romans 8:29–30</div>
+            <div class="scripture-text">"For those God foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."</div>
+        </div>
+
+        <p>That's the golden chain of redemption. Notice how it works: every name God foreknew, He predestined. Every name He predestined, He called. Every name He called, He justified. Every name He justified, He glorified. <strong>The numbers match at every stage.</strong> No one drops off in the middle. No one gets lost between predestination and glory. If God knows your name in eternity, He will know your name in heaven. There's no separation, no gap where you could slip through.</p>
+
+        <div class="reflection">
+            <h3>Sit With This Truth</h3>
+            <ol>
+                <li>Which petal makes your soul sing? Which one makes your mind resist? What's happening in that resistance?</li>
+                <li>Imagine if even one point of TULIP were false. What would collapse? What would you have to change about how you understand salvation?</li>
+                <li>Right now — not someday, but today — what would change in your life if you actually believed that God chose you before the world began and will never let you go?</li>
+                <li>Read Romans 8:29–30 as slowly as you can. What would have to be true about God for Him to lose even one person from that chain?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Knowledge Check Quiz -->
+    <div class="knowledge-check">
+        <h3>Check Your Understanding</h3>
+        <div class="quiz-subtitle">4 questions to test what you've learned</div>
+
+        <div class="quiz-question" data-correct="2">
+            <div class="quiz-q-text"><span class="quiz-q-num">Q1.</span> What does 'Total Depravity' mean?</div>
+            <div class="quiz-options">
+                <div class="quiz-option">Every person is as evil as they could possibly be</div>
+                <div class="quiz-option">Sin only affects our actions, not our hearts</div>
+                <div class="quiz-option">Every part of every person is affected by sin — mind, will, and affections</div>
+                <div class="quiz-option">Only non-Christians are depraved</div>
+            </div>
+        </div>
+
+        <div class="quiz-question" data-correct="1">
+            <div class="quiz-q-text"><span class="quiz-q-num">Q2.</span> According to Ephesians 1:4-5, when did God choose His people?</div>
+            <div class="quiz-options">
+                <div class="quiz-option">When they accepted Jesus</div>
+                <div class="quiz-option">Before the foundation of the world</div>
+                <div class="quiz-option">At baptism</div>
+                <div class="quiz-option">When they proved themselves worthy</div>
+            </div>
+        </div>
+
+        <div class="quiz-question" data-correct="2">
+            <div class="quiz-q-text"><span class="quiz-q-num">Q3.</span> What does 'Irresistible Grace' teach?</div>
+            <div class="quiz-options">
+                <div class="quiz-option">God forces people to believe against their will</div>
+                <div class="quiz-option">Grace can be resisted indefinitely</div>
+                <div class="quiz-option">God's effectual call changes the heart so that the person willingly comes to Christ</div>
+                <div class="quiz-option">Everyone eventually accepts grace</div>
+            </div>
+        </div>
+
+        <div class="quiz-question" data-correct="1">
+            <div class="quiz-q-text"><span class="quiz-q-num">Q4.</span> How do the five points of grace relate to each other?</div>
+            <div class="quiz-options">
+                <div class="quiz-option">They're independent doctrines — you can believe some and reject others</div>
+                <div class="quiz-option">They form a logical chain: if humanity is dead in sin, God must initiate, accomplish, apply, and preserve salvation</div>
+                <div class="quiz-option">They only apply to certain denominations</div>
+                <div class="quiz-option">They contradict each other in places</div>
+            </div>
+        </div>
+
+        <div class="quiz-result">
+            <div class="score">0 / 4</div>
+            <div class="score-msg"></div>
+        </div>
+    </div>
+
+    <!-- Phase Navigation -->
+    <div class="phase-nav">
+        <a href="start-here-phase1.html" class="phase-nav-box prev">
+            <div class="phase-nav-label">&larr; Previous: Phase 1</div>
+            <div class="phase-nav-title">What Is Reformed Theology?</div>
+        </a>
+        <a href="start-here-phase3.html" class="phase-nav-box next">
+            <div class="phase-nav-label">Up Next: Phase 3 &rarr;</div>
+            <div class="phase-nav-title">What Does the Bible Actually Teach?</div>
+        </a>
+    </div>
+
+    <!-- Cross-Reference Section -->
+    <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+        <div style="max-width: 900px; margin: 0 auto;">
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                <a href="/start-here-phase3" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Phase 3: Scripture</h4>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue to what the Bible actually teaches about God's sovereignty.</p>
+                </a>
+                <a href="/start-here-phase1" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Phase 1: Foundations</h4>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Return to what Reformed theology is about.</p>
+                </a>
+                <a href="/question-depravity" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Total Depravity</h4>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Explore what it means that sin affects all of us.</p>
+                </a>
+                <a href="/question-chosen" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Unconditional Election</h4>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Discover what it means to be chosen by God.</p>
+                </a>
+                <a href="/question-irresistible" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Irresistible Grace</h4>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Learn how God makes His call effective in our hearts.</p>
+                </a>
+                <a href="/start-here" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Start Here Hub</h4>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Return to the Start Here overview.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/scripture-tsunami" class="related-article-card">
+        <span class="related-article-cat">📄 General</span>
+        <span class="related-article-title">480+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
+        <span class="related-article-desc">They told you</span>
+      </a>
+      <a href="/compare-calvinism-arminianism" class="related-article-card">
+        <span class="related-article-cat">⚖ Comparisons</span>
+        <span class="related-article-title">Calvinism vs Arminianism: A Biblical Comparison</span>
+        <span class="related-article-desc">A comprehensive, point-by-point biblical comparison of Calvinism and Arminianism across all five poi...</span>
+      </a>
+      <a href="/psychology-cognitive-biases" class="related-article-card">
+        <span class="related-article-cat">🧠 Why We Resist</span>
+        <span class="related-article-title">Cognitive Biases and the Blindness of Sin</span>
+        <span class="related-article-desc">Cognitive biases mapped to biblical descriptions of fallen thinking. Confirmation bias, anchoring, D...</span>
+      </a>
+      <a href="/analogy-lazarus-grave" class="related-article-card">
+        <span class="related-article-cat">💡 Analogies</span>
+        <span class="related-article-title">Did Lazarus Choose to Rise? God&#039;s Sovereign Calling Explained</span>
+        <span class="related-article-desc">Does God force salvation or respect free will? John 11 shows how effectual calling works through Laz...</span>
+      </a>
+      <a href="/question-irresistible" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">Drawn, Not Dragged — The Unstoppable Grace of Effectual Calling</span>
+        <span class="related-article-desc">Irresistible grace is liberation, not coercion. God transforms wills; He doesn</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        function togglePetal(header) {
+            const petal = header.closest('.petal');
+            petal.classList.toggle('open');
+        }
+    </script>
+
+<script>
+// Knowledge Check Quiz
+document.querySelectorAll('.quiz-option').forEach(option => {
+    option.addEventListener('click', function() {
+        const question = this.closest('.quiz-question');
+        if (question.classList.contains('answered')) return;
+        question.classList.add('answered');
+
+        const options = question.querySelectorAll('.quiz-option');
+        const correctIndex = parseInt(question.dataset.correct);
+
+        options.forEach((opt, i) => {
+            opt.classList.add('selected');
+            if (i === correctIndex) {
+                opt.classList.add('correct');
+            } else if (opt === this && i !== correctIndex) {
+                opt.classList.add('incorrect');
+                options[correctIndex].classList.add('show-correct');
+            }
+        });
+
+        // Check if all questions answered
+        const allQuestions = document.querySelectorAll('.quiz-question');
+        const answeredQuestions = document.querySelectorAll('.quiz-question.answered');
+        if (allQuestions.length === answeredQuestions.length) {
+            let score = 0;
+            answeredQuestions.forEach(q => {
+                const correctIdx = parseInt(q.dataset.correct);
+                const clicked = q.querySelector('.quiz-option.correct, .quiz-option.incorrect');
+                const clickedIdx = Array.from(q.querySelectorAll('.quiz-option')).indexOf(clicked);
+                if (clickedIdx === correctIdx) score++;
+            });
+            const result = document.querySelector('.quiz-result');
+            result.style.display = 'block';
+            result.querySelector('.score').textContent = score + ' / ' + allQuestions.length;
+            const msgs = [
+                "Keep studying — the truth is worth pursuing!",
+                "Good start! Review the sections you missed and try again.",
+                "Well done! You're grasping the core truths.",
+                "Strong understanding! You're building on solid ground.",
+                "Outstanding! You've truly absorbed this material."
+            ];
+            result.querySelector('.score-msg').textContent = msgs[score];
+        }
+    });
+});
+</script>
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

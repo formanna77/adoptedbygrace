@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Systematic Theology: Divine Election. Scripture teaches that God chose His people before the creation of the world—not based on foreseen faith, but according to His sovereign will and grace.">
+    <meta property="og:title" content="Divine Election — Chosen Before the Foundation of the World">
+    <meta property="og:description" content="Systematic Theology: Divine Election. Scripture teaches that God chose His people before the creation of the world—not based on foreseen faith, but according to His sovereign will and grace.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/systematic-election.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Divine Election — Chosen Before the Foundation of the World">
+    <meta name="twitter:description" content="Systematic Theology: Divine Election. Scripture teaches that God chose His people before the creation of the world—not based on foreseen faith, but according to His sovereign will and grace.">
+    <link rel="canonical" href="https://adoptedbygrace.net/systematic-election.html">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>Divine Election — Chosen Before the Foundation of the World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Divine Election — Chosen Before the Foundation of the World",
+        "description": "Systematic Theology: Divine Election. Scripture teaches that God chose His people before the creation of the world.",
+        "url": "https://adoptedbygrace.net/systematic-election.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+    
+        <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <div class="reading-progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+        <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <div class="breadcrumb">
+        <a href="/systematic-theology">← Back to Systematic Theology</a>
+    </div>
+
+    <main id="main-content" id="main-content">
+    <section class="page-hero">
+        <div class="eyebrow">Systematic Theology</div>
+    
+        <h1>Divine Election</h1>
+    
+        <p class="subtitle">Chosen Before the Foundation of the World — The Sovereignty of God in Salvation</p>
+    </section>
+
+        <h2>The Core Question</h2>
+        <p>
+            Before the universe existed, before time itself began ticking, God made a decision. Scripture reveals that this decision was about people—about who would be saved. The truth of divine election teaches that God, in His infinite wisdom and absolute sovereignty, chose a people for Himself before the creation of the world. Not because He foresaw their faith. Not because He saw something worthy in them. But because He loved them and because it pleased Him to do so.
+        </p>
+
+        <div class="humor-note">
+            This page is not predestined to confuse you. Promise.
+        </div>
+
+        <p>
+            Election is perhaps the most misunderstood truth in Scripture. This is not a tension to sit in—it is a truth to proclaim. God's sovereignty and human responsibility are not in conflict. God sovereignly ordains the means (human choice) as well as the ends (salvation). Compatibilism is not a compromise—it is the biblical position. Scripture presents a God who knows, chooses, and accomplishes His purposes with perfect wisdom and perfect justice. His decrees ensure that human choices are free, not despite His sovereignty, but because of it.
+        </p>
+
+        <h2>Ephesians 1:3-14 — Chosen Before the Foundation of the World</h2>
+        <div class="scripture-block">
+            "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places, even as he chose us in him before the creation of the world, that we should be holy and blameless before him. In love he predestined us for adoption as sons through Jesus Christ, in accordance with his pleasure and will, to the praise of his glorious grace, with which he has blessed us in the Beloved. In him we have redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace."
+            <span class="scripture-reference">— Ephesians 1:3-7 (ESV)</span>
+        </div>
+
+        <p>
+            Paul doesn't soften his language here. "He chose us in him before the creation of the world." The Greek word for "chose" is <em>exlego</em>—it means to select, to pick out. God selected His people. This happened before anything existed. Not after creation. Not after we made our choices. But before the world was.
+        </p>
+
+        <p>
+            Notice what follows: "that we should be holy and blameless before him. In love he predestined us." The purpose of election was not arbitrary—it was that we would be holy. Election is God's sovereign determination to transform us into the image of Christ. The word "predestined" (Greek: <em>proorizo</em>) means to mark out beforehand, to determine beforehand. God determined our destiny before we had any part in determining anything.
+        </p>
+
+        <p>
+            And all of this flows from grace. "According to the purpose of his will, to the praise of his glorious grace." Election is not the absence of grace—it is grace itself. Freely given. Unmerited. Unearned. That's what makes it grace.
+        </p>
+
+        <h2>Romans 8:28-30 — The Golden Chain of Salvation</h2>
+        <div class="scripture-block">
+            "And we know that for those who love God all things work together for good, for those who are called according to his purpose. For those whom he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers. And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified."
+            <span class="scripture-reference">— Romans 8:28-30 (ESV)</span>
+        </div>
+
+        <p>
+            This passage presents what theologians call the "golden chain of salvation"—an unbroken chain of God's saving action. Each link is forged by God, not by us. Let's trace it:
+        </p>
+
+        <p>
+            <strong>Foreknowledge:</strong> God "foreknew" those who are His. This doesn't mean He merely knew in advance that we would believe. Rather, it means He set His love upon us beforehand. The Hebrew concept of <em>yada</em> (to know) in Scripture often carries the weight of intimate, covenantal love. When God "knows" someone, He claims them as His own.
+        </p>
+
+        <p>
+            <strong>Predestination:</strong> "He also predestined to be conformed to the image of his Son." The purpose of election is transformation. God chose us so that we would become like Jesus. This is the goal of salvation—not merely escape from judgment, but transformation into the likeness of Christ.
+        </p>
+
+        <p>
+            <strong>Calling:</strong> "Those whom he predestined he also called." God's call to salvation is not merely an invitation that can be refused by the spiritually dead. It is an effective call—the call of God who raises the dead. When the dead church in Ephesus heard Jesus' voice, they heard it and lived.
+        </p>
+
+        <p>
+            <strong>Justification:</strong> "Those whom he called he also justified." There are no dropouts from this chain. Every person effectually called will be justified. Not because of their own merit or effort, but because Christ's righteousness is credited to them.
+        </p>
+
+        <p>
+            <strong>Glorification:</strong> "Those whom he justified he also glorified." Notice this is stated in the past tense. So certain is the fulfillment of God's purpose that it is spoken of as already accomplished. From God's perspective—the eternal perspective—the saved are already glorified.
+        </p>
+
+        <div class="theology-box">
+            <strong>Key Insight:</strong> This chain contains no conditions imposed on us, no qualifications we must meet, no escape hatches. Each link is an action of God. We appear in this chain only as the beloved objects of God's saving purpose, not as agents acting on our own behalf.
+        </div>
+
+        <h2>Romans 9 — Jacob and Esau, Potter and Clay</h2>
+        <div class="scripture-block">
+            "I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion. So then it depends not on human will or exertion, but on God, who has mercy. For the Scripture says to Pharaoh, 'For this very purpose I have raised you up, that I might show my power in you, and that my name might be proclaimed in all the earth.' So then he has mercy on whomever he wills, and he hardens whomever he wills."
+            <span class="scripture-reference">— Romans 9:15-18 (ESV)</span>
+        </div>
+
+        <p>
+            Paul addresses the heart of the election question directly: How can God be just if He chooses some and not others? His answer: God is not obligated to save anyone. All have sinned and deserve condemnation. Mercy is by definition something given to those who don't deserve it. If God is merciful to some and not to others, He is perfectly just—because no one deserves mercy.
+        </p>
+
+        <p>
+            The example Paul uses is Jacob and Esau, two brothers born of the same mother. Before either could do good or evil, God said, "Jacob I loved, but Esau I hated." This is not because Jacob was better than Esau—it was before either was born. It was God's sovereign choice. The purpose: "that God's purpose of election might continue." Election is about God's purpose, not human achievement.
+        </p>
+
+        <p>
+            Then Paul uses the metaphor of the potter and the clay. "Does not the potter have power over the clay, to make from the same lump one vessel for honorable use and another for dishonorable use?" The point is not that God creates people for damnation—rather, that God has the sovereign right to shape history according to His purposes. He is not subject to creation. Creation is subject to Him.
+        </p>
+
+        <h2>John 6:37-44 — All That the Father Gives Will Come to Me</h2>
+        <div class="scripture-block">
+            "All those the Father gives me will come to me, and whoever comes to me I will never drive away. For I have come down from heaven, not to do my own will but the will of him who sent me. And this is the will of him who sent me, that I should lose nothing of all that he has given me, but raise them up at the last day. For this is the will of my Father, that everyone who looks on the Son and believes in him should have eternal life, and I will raise them up at the last day."
+            <span class="scripture-reference">— John 6:37-40 (NIV)</span>
+        </div>
+
+        <p>
+            Jesus Himself taught election. "All that the Father gives me will come to me." This is an absolute guarantee. The Father has a people—His elect—and He gives them to the Son. And all who are given to the Son will come to Him. Not might come. Not are invited to come. <em>Will come</em>.
+        </p>
+
+        <p>
+            This is where the truth becomes personal and comforting. If you have come to Jesus, it is because the Father gave you to Him. Your faith is not the cause of your election—it is the evidence of it. God chose you, God called you, God gave you to His Son, and because of all that, you came to Christ.
+        </p>
+
+        <p>
+            "I will never drive away" those who come to Christ. The Greek word for "cast out" is <em>ekballo</em>—to throw out, to eject. Jesus promises never to eject the ones the Father gives Him. Not because they deserve to stay, but because of God's covenant faithfulness. The one who is elect cannot be lost.
+        </p>
+
+        <h2>Acts 13:48 — As Many as Were Appointed to Eternal Life Believed</h2>
+        <div class="scripture-block">
+            "And when the Gentiles heard this, they began rejoicing and honoring the word of the Lord; and as many as were appointed to eternal life believed."
+            <span class="scripture-reference">— Acts 13:48 (ESV)</span>
+        </div>
+
+        <p>
+            This is perhaps the clearest statement of the relationship between appointment (election) and faith in all of Scripture. When Paul preached in Antioch, the result was that "as many as were appointed to eternal life believed." The appointing comes first. The believing follows as the result.
+        </p>
+
+        <p>
+            This does not mean that faith is not real or that people do not genuinely choose to believe. Rather, it means that the foundation of faith is God's prior decision to save. Those whom God appointed to eternal life believed. Those not appointed did not believe—and they did so freely, genuinely, in their own freely-made choice. But the ultimate ground of salvation is still God's appointment, not human decision.
+        </p>
+
+        <h2>Election Is Unconditional</h2>
+        <p>
+            Scripture clearly teaches that election is not based on foreseen faith. It is not "God saw that you would believe, so He chose you." Rather, it is "God chose you, therefore you will believe."
+        </p>
+
+        <p>
+            Why does this distinction matter? Because if election depended on foreseen faith, then ultimately your salvation would rest on something you did—your faith. But if election is unconditional, then salvation rests entirely on what God did—His sovereign choice. And that's the only ground secure enough to save a sinner.
+        </p>
+
+        <div class="theology-box">
+            <strong>The Unconditional Nature of Election:</strong> Scripture teaches that God's choice of His people is not conditioned on anything foreseen in them—not faith, not works, not character. God chose whom He would save in eternity past, apart from any consideration of what they would do in time. This is what makes it grace.
+        </div>
+
+        <p>
+            Consider: If God's choice depended on foreseen faith, then:
+            <br>• Your faith would be the condition of your salvation
+            <br>• You would be saved because of something you did
+            <br>• Your salvation would ultimately rest on your own spiritual achievement
+            <br>• This would not be grace—it would be wages earned
+        </p>
+
+        <p>
+            But Scripture teaches something radically different. Your faith is evidence that you are elect. Your faith is the result of God's choosing you, not the condition for it. You believe because God chose you to believe. And because your salvation rests on God's eternal choice, not on your fluctuating faith, you are secure forever.
+        </p>
+
+        <h2>The Logic of Election</h2>
+        <p>
+            Election makes sense when you understand the spiritual condition of humanity. We are dead in sin. The spiritually dead cannot and will not choose God. They cannot hear God's voice. They cannot understand God's Word. They cannot believe. They are slaves to sin with no ability to free themselves.
+        </p>
+
+        <p>
+            If salvation depended on the choice of the spiritually dead, no one would be saved. But God doesn't wait for the dead to choose Him. He raises the dead. He gives life. He quickens our hearts. He speaks, and the dead hear and live. That's the only way anyone gets saved—God must act.
+        </p>
+
+        <p>
+            Election is God's answer to human helplessness. Because we cannot save ourselves, God saves us. And He saves us by choosing us, calling us, justifying us, and glorifying us. The entire chain is His work.
+        </p>
+
+        <h2>Election and God's Justice</h2>
+        <p>
+            But doesn't election seem unjust? Why would God choose some and not others? The answer is this: God is not obligated to save anyone. All have sinned. All deserve condemnation. God would be perfectly just if He condemned all.
+        </p>
+
+        <p>
+            But He chooses to save some. He gives them grace—unmerited favor. Is it unjust for God to give mercy to some sinners? No—mercy by definition is giving good to those who deserve judgment. What would be unjust is if God gave mercy to some sinners and then condemned them unfairly. But that's not what happens. Those whom God chooses, He saves infallibly. Those whom He doesn't choose, He condemns justly for their own sins.
+        </p>
+
+        <p>
+            The real scandal isn't that God doesn't save everyone—it's that He saves anyone. That He, the Judge of all the earth, should have mercy on sinners. That's grace. That's the gospel.
+        </p>
+
+        <h2>Election and Assurance</h2>
+        <p>
+            Here is where election becomes profoundly personal: If you are in Christ, it is because the Father gave you to the Son. Your salvation does not rest on your faithfulness—it rests on God's faithfulness. You cannot lose something God has chosen to keep.
+        </p>
+
+        <p>
+            This is the foundation of Christian assurance. Not "I might lose my salvation if I'm not careful." But "God chose me before the creation of the world, called me irresistibly, justified me through Christ, and He will glorify me on the last day. My salvation is secure because it rests on God's choice, not my choice."
+        </p>
+
+        <p>
+            That's the comfort of election. That's why this truth matters not just to theologians, but to every Christian who has ever wondered, "Am I really saved? Will I make it? Can I really trust God?"
+        </p>
+
+        <h2>See Also</h2>
+        <p>
+            <a href="/systematic-soteriology.html" class="internal-link">Systematic Theology: Soteriology (The Truth of Salvation)</a> — Election sits within the broader truth of how salvation works. Soteriology covers the complete process from election through glorification.
+        </p>
+
+        <p>
+            <a href="/systematic-christology.html" class="internal-link">Systematic Theology: Christology (The Truth of Christ)</a> — It is in Christ, and through Christ, that our election is accomplished and secured.
+        </p>
+
+        <!-- Cross-Reference Section -->
+        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                    <a href="/question-chosen.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Chosen Before the Foundation</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/question-romans9.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Romans 9: Election and Choice</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/systematic-divine-decrees.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Divine Decrees</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/ot-election.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Jacob and Esau</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/question-foreknowledge.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Foreknowledge and Choice</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/devotional-glory-of-divine-choice.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Glory of Divine Choice</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/objection-why-believe" class="related-article-card">
+        <span class="related-article-cat">🛡 Objections Answered</span>
+        <span class="related-article-title">If God Already Chose Us, Why Do We Have to Believe?</span>
+        <span class="related-article-desc">A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. ...</span>
+      </a>
+      <a href="/question-chosen" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">Chosen Before the Foundation of the World – Ephesians 1:3-11</span>
+        <span class="related-article-desc">Ephesians 1:3-11 examined in depth. God chose us in Christ before the creation of the world. Greek...</span>
+      </a>
+      <a href="/devotional-in-christ" class="related-article-card">
+        <span class="related-article-cat">🕯 Devotionals</span>
+        <span class="related-article-title">In Christ: The Two Words That Change Everything</span>
+        <span class="related-article-desc">A devotional meditation on union with Christ — the two most powerful words in Scripture. Every spiri...</span>
+      </a>
+      <a href="/start-here" class="related-article-card">
+        <span class="related-article-cat">🧭 Start Here</span>
+        <span class="related-article-title">Start Here — Your Journey into Sovereign Grace</span>
+        <span class="related-article-desc">New to biblical theology? A guided 5-phase journey from curiosity to conviction about salvation, gra...</span>
+      </a>
+      <a href="/creed-canons-dort" class="related-article-card">
+        <span class="related-article-cat">📜 Creeds &amp; Confessions</span>
+        <span class="related-article-title">The Canons of Dort — The Confessional Heart of Sovereign Grace</span>
+        <span class="related-article-desc">The Canons of Dort (1619): Full text with modern commentary on God</span>
+      </a>
+      <a href="/apologetic-unreached" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">What About Those Who Never Heard the Gospel?</span>
+        <span class="related-article-desc">What about the billions who never heard the gospel? Scripture reveals God</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+    (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
+    </script>
+    
+    <script>
+    
+// Scroll-reveal animation
+(function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('revealed');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
+})();
+
+    </script>
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Economics has always assumed what Scripture teaches: humans are self-interested, short-sighted, and prone to exploitation. Game theory, moral hazard, and market failures all confirm total depravity.">
+    <meta property="og:title" content="The Economics of Depravity — How Markets Prove What Scripture Teaches About Human Nature">
+    <meta property="og:description" content="From Adam Smith to behavioral economics, the entire discipline of economics is built on the assumption of total depravity — and it works precisely because Scripture is right.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/secular-economics-depravity">
+    <link rel="canonical" href="https://adoptedbygrace.net/secular-economics-depravity">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The Economics of Depravity — How Markets Prove What Scripture Teaches">
+    <meta name="twitter:description" content="Game theory, moral hazard, and behavioral economics all assume total depravity. The discipline works because Scripture is right about human nature.">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>The Economics of Depravity — How Markets Prove Total Depravity | Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+        <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Economics of Depravity — How Markets Prove What Scripture Teaches About Human Nature",
+        "description": "Economics assumes total depravity and builds systems around it. Game theory, moral hazard, tragedy of the commons, and behavioral economics all confirm what Scripture teaches about human nature.",
+        "url": "https://adoptedbygrace.net/secular-economics-depravity",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://adoptedbygrace.net/secular-economics-depravity"
+        }
+    }
+    </script>
+    
+        <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+<div class="progress-bar"></div>
+
+    <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+<div class="breadcrumb-nav"><a href="secular-evidence.html">&larr; Back to The Evidence</a></div>
+
+<main id="main-content">
+<article>
+
+<div class="page-hero">
+    <span class="label-ember">Secular Evidence &mdash; Economics</span>
+    <div class="eyebrow">Secular Evidence</div>
+
+    <h1>The Economics<br><span class="text-gradient">of Depravity</span></h1>
+    <p class="subtitle">Why the entire discipline of economics is built on the assumption that Scripture is right about human nature &mdash; and works precisely because it is</p>
+</div>
+
+<section class="content-section reveal">
+    <p class="drop-cap">Here is an open secret that economists rarely discuss in theological terms: their entire discipline <em>assumes</em> total depravity. Not in those words, of course. They call it &ldquo;rational self-interest.&rdquo; They call it &ldquo;utility maximization.&rdquo; They call it &ldquo;incentive-compatible mechanism design.&rdquo; But strip away the jargon and the assumption is identical to what Genesis 6:5 describes: &ldquo;every intention of the thoughts of his heart was only evil continually.&rdquo;</p>
+
+    <p>Economics works &mdash; its models predict, its policies succeed, its warnings prove accurate &mdash; precisely <em>because</em> it starts where Scripture starts: with the reality that human beings are fundamentally self-interested, short-sighted, prone to exploitation, and incapable of consistently choosing the common good over private advantage.</p>
+
+    <p>Every economic institution that functions does so by <em>assuming depravity and building guardrails around it.</em> And every utopian economic system that has failed did so by <em>assuming human goodness and discovering too late that it was wrong.</em></p>
+
+    <p class="humor-aside">[ Economics: the dismal science. Scripture: the honest science. Same diagnosis. ]</p>
+</section>
+
+<section class="content-section reveal">
+    <h2>The Invisible Hand and the Depraved Heart</h2>
+
+    <p>Adam Smith is remembered for a single phrase: &ldquo;the invisible hand.&rdquo; But what is rarely noted is the <em>anthropology</em> that makes the invisible hand necessary. Smith did not argue that free markets work because people are <em>good</em>. He argued the opposite. Markets work because people are <em>self-interested</em>, and the system channels that self-interest toward productive ends.</p>
+
+    <div class="econ-card">
+        <div class="econ-label">Adam Smith, 1776</div>
+        <h4>&ldquo;It Is Not from the Benevolence of the Butcher&rdquo;</h4>
+        <p>&ldquo;It is not from the benevolence of the butcher, the brewer, or the baker, that we expect our dinner, but from their regard to their own interest. We address ourselves, not to their humanity but to their self-love, and never talk to them of our own necessities but of their advantages.&rdquo;</p>
+        <div class="scripture-echo">Compare: &ldquo;The heart is deceitful above all things and beyond cure. Who can understand it?&rdquo; &mdash; Jeremiah 17:9</div>
+    </div>
+
+    <p>Smith's genius was not optimism about human nature. It was <em>realism</em>. He looked at human beings as they actually are &mdash; self-interested, acquisitive, calculating &mdash; and designed a system that could produce social benefit <em>despite</em> individual depravity, not because of individual virtue.</p>
+
+    <p>This is precisely the logic of common grace. God restrains sin and channels human activity toward beneficial ends &mdash; not because humanity has earned it, but because God sovereignly directs even fallen impulses toward his purposes. The invisible hand is a secular metaphor for the providential hand of God governing a fallen world.</p>
+
+    <blockquote>
+        &ldquo;As for you, you meant evil against me, but God meant it for good, to bring it about that many people should be kept alive, as they are today.&rdquo;<br>
+        <span class="sc">&mdash; Genesis 50:20</span>
+    </blockquote>
+</section>
+
+<section class="content-section reveal">
+    <h2>Game Theory: The Mathematics of Self-Interest</h2>
+
+    <p>Game theory is the mathematical study of strategic decision-making. It was developed in the mid-20th century by John von Neumann and John Nash, and it has become foundational to economics, political science, evolutionary biology, and military strategy. Its central prediction is devastating to any optimistic view of human nature.</p>
+
+    <div class="econ-card">
+        <div class="econ-label">The Prisoner's Dilemma</div>
+        <h4>Why Humans Defect Even When Cooperation Is Better</h4>
+        <p>Two suspects are arrested and held separately. Each can cooperate with the other by staying silent, or defect by betraying the other. If both cooperate, both get a light sentence. If both defect, both get a heavy sentence. If one defects and the other cooperates, the defector goes free and the cooperator gets the worst sentence. The rational choice? <strong>Always defect.</strong> Even though mutual cooperation produces a better outcome for both.</p>
+        <div class="scripture-echo">&ldquo;No one seeks for God. All have turned aside; together they have become worthless; no one does good, not even one.&rdquo; &mdash; Romans 3:11&ndash;12</div>
+    </div>
+
+    <p>The Prisoner's Dilemma is not a puzzle to be solved. It is a <em>diagnosis</em>. When humans face a choice between self-interest and mutual benefit, the mathematically rational choice &mdash; and the empirically observed choice, repeated across thousands of experiments &mdash; is self-interest. Even when both parties <em>know</em> that cooperation would produce a better result.</p>
+
+    <p>This is not a flaw in game theory. It is a feature of human nature. Game theory works because it models what humans actually do, not what we wish they would do. It assumes that agents will pursue their own advantage, and it predicts outcomes with remarkable accuracy on that basis.</p>
+
+    <div class="callout callout-gold">
+        <strong>The theological parallel:</strong> Scripture never says that humans are unaware cooperation is better. It says they are <em>unable</em> to consistently choose it. &ldquo;For I do not do the good I want to do, but the evil I do not want to do &mdash; this I keep on doing&rdquo; (Romans 7:19). Game theory has formalized this pattern into mathematics.
+    </div>
+</section>
+
+<section class="content-section reveal">
+    <h2>Moral Hazard: When You Insure Against Risk, Humans Take More</h2>
+
+    <p>Insurance companies discovered a truth about human nature that theologians identified millennia earlier: when you reduce the consequences of bad behavior, humans do more of it. This is called &ldquo;moral hazard.&rdquo;</p>
+
+    <div class="concept-grid">
+        <div class="concept-box">
+            <h5>Health Insurance</h5>
+            <p>People with comprehensive health insurance visit the doctor more often, request more tests, and are less careful about health behaviors &mdash; not because they are sicker, but because someone else is paying.</p>
+        </div>
+        <div class="concept-box">
+            <h5>Bank Bailouts</h5>
+            <p>Banks that believe they will be rescued from failure take larger risks. The 2008 financial crisis was driven by institutions that socialized risk while privatizing profit &mdash; because they could.</p>
+        </div>
+        <div class="concept-box">
+            <h5>Automobile Insurance</h5>
+            <p>Studies consistently show that insured drivers take more risks. Airbags and safety features lead to faster driving. Humans offset safety gains by increasing risky behavior &mdash; a phenomenon called the &ldquo;Peltzman Effect.&rdquo;</p>
+        </div>
+        <div class="concept-box">
+            <h5>Corporate Liability</h5>
+            <p>Limited liability allows entrepreneurs to take risks without personal consequence. The result? More innovation &mdash; but also more reckless ventures, fraud, and externalized costs, because the decision-maker doesn't bear the full weight of failure.</p>
+        </div>
+    </div>
+
+    <p>Moral hazard is, in economic terms, the truth of total depravity applied to incentive structures. Remove the consequences, and the depraved nature <em>expands to fill the available space</em>. It is the economic version of Jeremiah&rsquo;s diagnosis: the heart is desperately sick, and given room, it will act on its sickness.</p>
+
+    <blockquote>
+        &ldquo;Because the sentence against an evil deed is not executed speedily, the heart of the children of man is fully set to do evil.&rdquo;<br>
+        <span class="sc">&mdash; Ecclesiastes 8:11</span>
+    </blockquote>
+
+    <p>Solomon identified moral hazard 3,000 years before economists named it. When consequences are delayed or removed, the evil in the human heart doesn't lie dormant. It accelerates.</p>
+
+    <p class="humor-aside">[ Ecclesiastes 8:11: the first published paper on moral hazard. Peer-reviewed by the Holy Spirit. ]</p>
+</section>
+
+<section class="content-section reveal">
+    <h2>The Tragedy of the Commons: Why Good Intentions Devour Shared Resources</h2>
+
+    <p>In 1968, ecologist Garrett Hardin described a scenario that has become one of the most important concepts in economics and political science: the tragedy of the commons. A shared pasture is open to all herders. Each herder has an incentive to add one more animal &mdash; the benefit accrues entirely to them, while the cost of overgrazing is shared by all. The result? Every herder adds animals until the pasture is destroyed.</p>
+
+    <p>No one intends to destroy the commons. Every individual decision is &ldquo;rational.&rdquo; But the aggregate result is catastrophe &mdash; because each person acts from self-interest, and the system has no mechanism to make them stop.</p>
+
+    <div class="econ-card">
+        <div class="econ-label">The Pattern</div>
+        <h4>Individual Rationality, Collective Ruin</h4>
+        <p>Climate change, overfishing, deforestation, antibiotic resistance, water depletion, traffic congestion &mdash; these are all tragedies of the commons. In every case, individuals acting in their own interest produce outcomes that harm everyone, including themselves. The pattern is universal because the underlying condition is universal: human beings, left to their own nature, will consume the common good for private benefit.</p>
+        <div class="scripture-echo">&ldquo;All we like sheep have gone astray; we have turned &mdash; every one &mdash; to his own way.&rdquo; &mdash; Isaiah 53:6</div>
+    </div>
+
+    <p>Isaiah's image is precise: sheep don't go astray together. They each turn to their <em>own</em> way. The tragedy is not coordination failure. It is nature failure. The commons is destroyed not because humans lack information about the consequences, but because they lack the <em>nature</em> to prioritize the common good over private advantage.</p>
+</section>
+
+<section class="content-section reveal">
+    <h2>Behavioral Economics: The Death of &ldquo;Rational Man&rdquo;</h2>
+
+    <p>Classical economics assumed that humans are rational &mdash; that they accurately process information, weigh costs and benefits, and make optimal choices. Behavioral economics, pioneered by Daniel Kahneman and Amos Tversky, demolished this assumption with decades of experimental evidence.</p>
+
+    <div style="overflow-x:auto;-webkit-overflow-scrolling:touch"><table class="vs-table">
+        <thead>
+            <tr>
+                <th>Cognitive Bias</th>
+                <th>What It Reveals</th>
+                <th>Biblical Parallel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Present Bias</strong></td>
+                <td>Humans systematically overvalue immediate rewards over future benefits, even when they know the future benefit is larger</td>
+                <td>Esau selling his birthright for a bowl of stew (Genesis 25:29&ndash;34)</td>
+            </tr>
+            <tr>
+                <td><strong>Confirmation Bias</strong></td>
+                <td>Humans seek information that confirms what they already believe and ignore disconfirming evidence</td>
+                <td>&ldquo;For the time is coming when people will not endure sound teaching, but having itching ears they will accumulate for themselves teachers to suit their own passions&rdquo; (2 Timothy 4:3)</td>
+            </tr>
+            <tr>
+                <td><strong>Self-Serving Bias</strong></td>
+                <td>Humans attribute success to their own effort and failure to external circumstances</td>
+                <td>&ldquo;The way of a fool is right in his own eyes&rdquo; (Proverbs 12:15)</td>
+            </tr>
+            <tr>
+                <td><strong>Loss Aversion</strong></td>
+                <td>The pain of losing something is psychologically twice as powerful as the pleasure of gaining it &mdash; fear dominates decision-making</td>
+                <td>The servant who buried his talent out of fear (Matthew 25:25)</td>
+            </tr>
+            <tr>
+                <td><strong>Overconfidence Effect</strong></td>
+                <td>Humans consistently overestimate their own abilities, knowledge, and control over outcomes</td>
+                <td>&ldquo;The heart is deceitful above all things&rdquo; (Jeremiah 17:9) &mdash; the heart deceives <em>its own owner</em></td>
+            </tr>
+            <tr>
+                <td><strong>Status Quo Bias</strong></td>
+                <td>Humans prefer the current state of affairs even when change would clearly benefit them</td>
+                <td>&ldquo;The natural person does not accept the things of the Spirit of God&rdquo; (1 Corinthians 2:14)</td>
+            </tr>
+        </tbody>
+    </table></div>
+
+    <p>Kahneman won the Nobel Prize in Economics for demonstrating what Scripture has always taught: human reasoning is systematically distorted by forces operating below conscious awareness. We do not think clearly. We do not choose wisely. We do not even <em>want</em> correctly. Our desires, perceptions, and judgments are warped by a nature that is &mdash; in the precise theological term &mdash; <em>totally</em> affected by the fall.</p>
+
+    <div class="callout callout-violet">
+        <strong>&ldquo;Total&rdquo; depravity doesn't mean humans are as bad as possible.</strong> It means every faculty is affected &mdash; reason, emotion, will, perception, desire. Behavioral economics has confirmed this with experimental precision. The corruption is not localized to one department of the soul. It permeates every cognitive function.
+    </div>
+</section>
+
+<section class="content-section reveal">
+    <h2>Why Utopian Economics Always Fails</h2>
+
+    <p>The most important economic test of human nature is not a laboratory experiment. It is the historical record of utopian economic systems &mdash; systems built on the assumption that human beings, given the right structures, will cooperate for the common good.</p>
+
+    <div class="econ-card">
+        <div class="econ-label">Historical Evidence</div>
+        <h4>When Economists Assumed Human Goodness</h4>
+        <p>Soviet collectivization assumed that workers would labor for the common good without personal incentive. Result: chronic shortages, black markets, and the gulag for those who wouldn't comply. Maoist communes assumed that shared ownership would eliminate greed. Result: the Great Famine &mdash; 45 million dead. Every commune, kibbutz, and utopian community that has survived long-term has done so by <em>reintroducing private incentives</em> &mdash; by acknowledging that human nature requires the very guardrails that a truth of depravity predicts.</p>
+        <div class="scripture-echo">&ldquo;The LORD saw that the wickedness of man was great in the earth, and that every intention of the thoughts of his heart was only evil continually.&rdquo; &mdash; Genesis 6:5</div>
+    </div>
+
+    <p>The economic systems that work &mdash; that produce prosperity, innovation, and human flourishing &mdash; are the ones that start with a biblical anthropology: humans are fallen, self-interested, and require external constraints and incentives. The systems that fail are the ones that start with a Pelagian anthropology: humans are basically good, and if you just create the right environment, the goodness will emerge.</p>
+
+    <p>Economics has run the experiment. Depravity wins. Every time.</p>
+
+    <p class="humor-aside">[ The free market: what happens when you design an economy for sinners. Communism: what happens when you design one for angels and get sinners. ]</p>
+</section>
+
+<section class="content-section reveal">
+    <h2>The Gospel in Economic Terms</h2>
+
+    <p>If economics confirms that human nature is fallen, self-interested, and incapable of self-correction, then the gospel is the only economically coherent rescue plan. Consider the alternatives:</p>
+
+    <div class="concept-grid">
+        <div class="concept-box">
+            <h5>Arminian Salvation</h5>
+            <p>Requires humans to make an autonomous choice for God &mdash; but behavioral economics shows humans systematically choose present comfort over future reward, default to the status quo, and are overconfident about their own judgment. The &ldquo;free choice&rdquo; model assumes cognitive capacities that empirical evidence says we don't have.</p>
+        </div>
+        <div class="concept-box">
+            <h5>Sovereign Grace</h5>
+            <p>God intervenes from outside the system, changing the nature itself &mdash; replacing the heart of stone with a heart of flesh (Ezekiel 36:26). This is the only model that accounts for the depth of the problem. You don't solve moral hazard by asking the morally hazardous to reform themselves. You change the incentive structure &mdash; or in theological terms, the nature &mdash; from the outside.</p>
+        </div>
+    </div>
+
+    <p>Every economist knows that you cannot fix a systemic problem by appealing to the participants' better nature. You must change the system. You must introduce an external force that realigns incentives, corrects distortions, and overcomes the natural tendency toward self-destruction.</p>
+
+    <p>That is precisely what sovereign grace does. It doesn't ask the depraved will to choose differently. It gives a new will. It doesn't adjust the incentive structure within the existing nature. It gives a new nature. This is not a theological abstraction. It is the only intervention that could possibly work, given what economics has demonstrated about the depth and universality of human self-interest.</p>
+
+    <blockquote>
+        &ldquo;For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast.&rdquo;<br>
+        <span class="sc">&mdash; Ephesians 2:8&ndash;9</span>
+    </blockquote>
+
+    <p>Grace is not earned. It is not traded. It is not the result of a rational cost-benefit analysis by the recipient. It is a gift &mdash; given by a sovereign God to people whose own economic behavior proves, daily, that they would never choose it on their own.</p>
+</section>
+
+<!-- Continue Your Journey -->
+<section class="content-section reveal" style="background: linear-gradient(135deg, rgba(212,162,84,0.05), rgba(232,100,44,0.05)); border-radius: 16px; padding: 3rem 2rem; margin-top: 3rem;">
+    <h3 style="text-align:center; margin-bottom: 2rem;">Continue the Evidence</h3>
+    <div class="card-grid">
+        <a href="/secular-neuroscience-human-inability" class="card">
+            <span class="label-violet">Neuroscience</span>
+            <h4>Your Brain Decided Before &ldquo;You&rdquo; Did</h4>
+            <p>How neuroscience dismantled the myth of autonomous free will and confirmed human inability.</p>
+        </a>
+        <a href="/secular-psychology-bondage-of-will" class="card">
+            <span class="label-violet">Psychology</span>
+            <h4>The Psychology of Bondage</h4>
+            <p>Cognitive bias, addiction research, and decision-making studies confirm total depravity.</p>
+        </a>
+        <a href="/secular-history-sovereignty" class="card">
+            <span class="label-gold">History</span>
+            <h4>The History of Sovereignty</h4>
+            <p>How the great forces of history demonstrate the sovereign hand behind all human events.</p>
+        </a>
+    </div>
+</section>
+
+</article>
+</main>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/question-depravity" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">Dead, Not Sick — The Bible&#039;s Diagnosis of the Human Condition</span>
+        <span class="related-article-desc">Total depravity is not about being as bad as possible — it</span>
+      </a>
+      <a href="/history-20th-century" class="related-article-card">
+        <span class="related-article-cat">⏳ History</span>
+        <span class="related-article-title">20th Century Reformed Resurgence</span>
+        <span class="related-article-desc">The liberal decline, the Reformed comeback, and sovereign grace rediscovered. J. Gresham Machen, Mar...</span>
+      </a>
+      <a href="/demolition-acts17-30" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">Acts 17:30 — Verse Demolition #7</span>
+        <span class="related-article-desc">Demolition #7: Acts 17:30 —</span>
+      </a>
+      <a href="/compare-calvinism-open-theism" class="related-article-card">
+        <span class="related-article-cat">⚖ Comparisons</span>
+        <span class="related-article-title">Calvinism vs Open Theism: Does God Know the Future?</span>
+        <span class="related-article-desc">Calvinism vs Open Theism compared: Does God know the future exhaustively, or is He learning alongsid...</span>
+      </a>
+      <a href="/psychology-cognitive-biases" class="related-article-card">
+        <span class="related-article-cat">🧠 Why We Resist</span>
+        <span class="related-article-title">Cognitive Biases and the Blindness of Sin</span>
+        <span class="related-article-desc">Cognitive biases mapped to biblical descriptions of fallen thinking. Confirmation bias, anchoring, D...</span>
+      </a>
+      <a href="/systematic-compatibilism" class="related-article-card">
+        <span class="related-article-cat">🏛 Theology</span>
+        <span class="related-article-title">Compatibilism</span>
+        <span class="related-article-desc">Compatibilism: God</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section"><h4>Truth</h4><ul>
+            <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+            <li><a href="/systematic-theology">Systematic Theology</a></li>
+            <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+            <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+        </ul></div>
+        <div class="footer-section"><h4>Explore</h4><ul>
+            <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+            <li><a href="/theologians">Theologians</a></li>
+            <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+            <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+        </ul></div>
+        <div class="footer-section"><h4>Connect</h4><ul>
+            <li class="mobile-nav-link"><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+        </ul></div>
+    </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+    <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
+</footer>
+
+<script src="/global.js" defer>
+        // Mobile dropdown toggles
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks) {
+            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
+                trigger.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const li = trigger.closest('li');
+                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
+                        if (openLi !== li) openLi.classList.remove('dropdown-open');
+                    });
+                    li.classList.toggle('dropdown-open');
+                });
+            });
+            navLinks.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const hamburger = document.querySelector('.hamburger');
+                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
+    </script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

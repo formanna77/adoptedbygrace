@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Monergism vs Synergism explained from Scripture: Does God save alone, or does man cooperate? The fundamental divide in soteriology examined with key texts and exegesis.">
+    <meta property="og:title" content="Monergism vs Synergism: Does God Save Alone? | Adopted by Grace">
+    <meta property="og:description" content="The fundamental divide in soteriology: Does God save alone (monergism), or does man cooperate (synergism)? A biblical examination.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/compare-monergism-synergism.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/compare-monergism-synergism.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Monergism vs Synergism: Does God Save Alone?">
+    <meta name="twitter:description" content="The fundamental divide in soteriology examined with key texts and exegesis.">
+    <meta name="keywords" content="monergism vs synergism, monergism, synergism, Reformed soteriology, does God save alone, cooperation in salvation, sovereign grace, Calvinism, Arminianism, Pelagianism, Semi-Pelagianism">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>Monergism vs Synergism: Does God Save Alone? | Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Monergism vs Synergism: Does God Save Alone?",
+        "description": "The fundamental divide in soteriology: Does God save alone (monergism), or does man cooperate (synergism)?",
+        "url": "https://adoptedbygrace.net/compare-monergism-synergism.html",
+        "datePublished": "2026-03-27",
+        "dateModified": "2026-03-27",
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+    }
+    </script>
+    
+            <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+            <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+<div class="section-nav">
+    <div class="section-nav-inner">
+        <a href="#definitions">Definitions</a>
+        <a href="#spectrum">The Spectrum</a>
+        <a href="#biblical-case">Biblical Case</a>
+        <a href="#analogies">Analogies</a>
+        <a href="#objections">Objections</a>
+        <a href="#verdict">Verdict</a>
+    </div>
+</div>
+
+<section class="page-hero">
+    <div class="hero-label">The Core Divide</div>
+    <div class="eyebrow">Comparison</div>
+
+    <h1><span class="gold">Monergism</span> vs <span class="muted">Synergism</span></h1>
+    <p class="subtitle">
+        Before Calvinism and <a href="/compare-calvinism-arminianism">Arminianism</a>, before TULIP and the Remonstrants, before every soteriological
+        debate — there is one fundamental question: Does God save sinners alone, or does salvation require
+        human cooperation?
+    </p>
+</section>
+
+<div class="content">
+
+<!-- DEFINITIONS -->
+<section id="definitions">
+    <div class="def-row">
+        <div class="def-box mono">
+            <div class="def-label">Reformed Position</div>
+            <h3>Monergism</h3>
+            <div class="def-etym">Greek: monos (alone) + ergon (work)</div>
+            <p>
+                <a href="/systematic-regeneration">Regeneration</a> is exclusively the work of God the Holy Spirit. In the decisive moment of the new birth,
+                God acts alone — without human cooperation, assistance, or consent. The sinner is spiritually dead
+                and contributes nothing to his own resurrection. God sovereignly gives new life, and from that new
+                life flow faith and repentance as necessary fruits. Man is active in conversion (believing, repenting),
+                but passive in regeneration (being <a href="/systematic-regeneration">born again</a>). The logical order: regeneration → faith → justification.
+            </p>
+        </div>
+        <div class="def-box syn">
+            <div class="def-label">Non-Reformed Position</div>
+            <h3>Synergism</h3>
+            <div class="def-etym">Greek: syn (together) + ergon (work)</div>
+            <p>
+                Salvation involves cooperation between God's grace and the human will. While God initiates through
+                grace (whether prevenient, sufficient, or enabling), the individual must respond positively for
+                salvation to be effected. The human will is the decisive factor that tips the scale. Some form of
+                <a href="/compare-monergism-synergism">synergism</a> characterizes Arminianism, Roman Catholicism, Eastern Orthodoxy, and most popular
+                evangelical theology. The logical order: prevenient grace → human faith → regeneration.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- SPECTRUM -->
+<section id="spectrum">
+    <div class="spectrum">
+        <h2>The Soteriological Spectrum</h2>
+        <div class="spectrum-bar">
+            <div class="spectrum-item">
+                <div class="spectrum-name">Pelagianism</div>
+                <div class="spectrum-desc">Man can save himself without grace. Condemned at Council of Ephesus (431).</div>
+            </div>
+            <div class="spectrum-item">
+                <div class="spectrum-name">Semi-Pelagianism</div>
+                <div class="spectrum-desc">Man takes the first step; grace assists. Condemned at Orange (529).</div>
+            </div>
+            <div class="spectrum-item">
+                <div class="spectrum-name">Arminianism</div>
+                <div class="spectrum-desc">Grace initiates, but human will casts the decisive vote. Synergistic.</div>
+            </div>
+            <div class="spectrum-item">
+                <div class="spectrum-name">Amyraldism</div>
+                <div class="spectrum-desc">4-point Calvinism: universal atonement with <a href="/systematic-<a href="/systematic-election">election</a>">unconditional election</a>. Mixed.</div>
+            </div>
+            <div class="spectrum-item active">
+                <div class="spectrum-name">Reformed</div>
+                <div class="spectrum-desc">God alone regenerates. Faith is the gift and fruit of <a href="/question-sovereignty-logic">sovereign</a> grace. Monergistic.</div>
+            </div>
+        </div>
+        <div class="spectrum-arrow">SYNERGISM ←————————————————→ MONERGISM</div>
+    </div>
+</section>
+
+<!-- BIBLICAL CASE -->
+<section class="section-block" id="biblical-case">
+    <h2>The Biblical Case for Monergism</h2>
+    <p class="subtitle">Scripture presents salvation as a divine rescue operation, not a joint venture.</p>
+
+    <p>
+        The Bible employs a consistent set of metaphors for conversion, and every one of them describes a
+        <strong>unilateral divine act</strong> upon a passive or incapable recipient. Consider the images
+        Scripture actually uses:
+    </p>
+    <p>
+        <strong>Creation:</strong> "For God, who said, 'Let light shine out of darkness,' has shone in our hearts"
+        (2 Cor 4:6). Did the darkness cooperate with creation? Did the void negotiate the terms of its own filling?
+    </p>
+    <p>
+        <strong>Resurrection:</strong> "Even when we were dead in our trespasses, [God] made us alive together
+        with Christ" (Eph 2:5). Dead men do not assist in their own resurrection. Lazarus did not open the tomb from inside.
+    </p>
+    <p>
+        <strong>New Birth:</strong> "Born, not of blood nor of the will of the flesh nor of the will of man, but of God"
+        (John 1:13). John explicitly excludes human will from the cause of regeneration.
+    </p>
+    <p>
+        <strong>Heart Transplant:</strong> "I will remove the heart of stone from your flesh and give you a heart
+        of flesh" (Ezek 36:26). The patient does not cooperate in open-heart surgery while unconscious on the table.
+    </p>
+
+    <div class="proof-stack">
+        <div class="proof-card">
+            <div class="proof-ref">John 3:3–8</div>
+            <p class="proof-text">"Unless one is born again he cannot see the kingdom of God… The wind blows where it wishes, and you hear its sound, but you do not know where it comes from or where it goes. So it is with everyone who is born of the Spirit."</p>
+            <p class="proof-note">Jesus compares the Spirit's regenerating work to the wind — sovereign, mysterious, and uncontrollable. "Born again" is passive voice: you don't birth yourself. And seeing the kingdom <em>precedes</em> entering it — regeneration opens blind eyes so that faith becomes possible. The order matters: new birth first, then spiritual sight, then faith.</p>
+        </div>
+        <div class="proof-card">
+            <div class="proof-ref">John 1:12–13</div>
+            <p class="proof-text">"But to all who did receive him, who believed in his name, he gave the right to become children of God, who were born, not of blood nor of the will of the flesh nor of the will of man, but of God."</p>
+            <p class="proof-note">Verse 12 describes the human activity: receiving and believing. Verse 13 describes the divine cause behind that activity: born "of God" — explicitly not of human will. The synergist must answer: why does John take pains to exclude "the will of man" from the cause of the new birth if human willing is the decisive factor?</p>
+        </div>
+        <div class="proof-card">
+            <div class="proof-ref">1 Corinthians 2:14</div>
+            <p class="proof-text">"The natural person does not accept the things of the Spirit of God, for they are folly to him, and he is not able to understand them because they are spiritually discerned."</p>
+            <p class="proof-note">The unregenerate person does not merely choose not to accept spiritual truth — he <em>is not able</em> (<span style="color: var(--accent-violet);">οὐ δύναται</span>, ou dynatai) to understand it. Inability, not mere unwillingness, is the diagnosis. Only the Spirit can give spiritual discernment — and that giving is monergistic.</p>
+        </div>
+        <div class="proof-card">
+            <div class="proof-ref">James 1:18</div>
+            <p class="proof-text">"Of his own will he brought us forth by the word of truth, that we should be a kind of firstfruits of his creatures."</p>
+            <p class="proof-note">Whose will produced the new birth? "His own will" — God's. James uses the same birth language as John 3 and attributes its cause entirely to divine volition. The word <span style="color: var(--accent-violet);">βουληθείς</span> (boulētheis) emphasizes God's deliberate, sovereign choice to bring forth spiritual life.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ANALOGIES -->
+<section class="section-block" id="analogies">
+    <h2>Analogies That Clarify</h2>
+
+    <div class="analogy">
+        <div class="analogy-label">Analogy</div>
+        <h4>The Surgeon and the Corpse</h4>
+        <p>
+            Imagine a patient who needs a heart transplant — but the patient is already dead on the table.
+            The surgeon does not ask the corpse for consent. He does not request the dead man's cooperation.
+            He performs the surgery by his own skill and power, and when the new heart begins to beat, the
+            patient wakes up <em>alive</em>. The patient's first conscious act — opening his eyes, breathing,
+            speaking — is a <em>result</em> of the surgeon's work, not a contribution to it.
+        </p>
+        <p>
+            That is <a href="/compare-monergism-synergism">monergism</a>. God transplants the heart of stone with a heart of flesh (Ezek 36:26), and
+            the sinner's first spiritual act — faith — is the fruit of the new life God gave. The synergist
+            says the dead patient must agree to the surgery before the surgeon can operate. But dead patients
+            cannot agree to anything.
+        </p>
+    </div>
+
+    <div class="analogy">
+        <div class="analogy-label">Analogy</div>
+        <h4>Lazarus at the Tomb</h4>
+        <p>
+            Jesus stood before a sealed tomb containing a man who had been dead for four days. He did not say,
+            "Lazarus, would you like to come out?" He did not offer Lazarus an opportunity to cooperate. He
+            commanded: <strong>"Lazarus, come out!"</strong> (John 11:43). And the dead man came out — because
+            the creative word of Christ carried the power to accomplish what it commanded.
+        </p>
+        <p>
+            This is the effectual call. God speaks, and dead sinners live. The power is in the voice of the
+            Shepherd, not in the responsiveness of the corpse. As Jesus said: "The hour is coming, and is now
+            here, when the dead will hear the voice of the Son of God, and those who hear will live" (John 5:25).
+        </p>
+    </div>
+</section>
+
+<!-- OBJECTIONS -->
+<section class="section-block" id="objections">
+    <h2>Common Objections Answered</h2>
+
+    <p><strong>Objection: "If God saves alone, then why does the Bible command people to believe?"</strong></p>
+    <p>
+        Because commands reveal obligation, not ability. God commands all people everywhere to repent (Acts 17:30)
+        — but this does not mean all people have the innate ability to repent. God commands "Be holy" (1 Pet 1:16) —
+        but no one achieves holiness by willpower. Commands establish responsibility and expose inability,
+        driving sinners to dependence on grace. The command to believe is the means through which the Spirit
+        works faith in the elect.
+    </p>
+
+    <p><strong>Objection: "Monergism makes God responsible for those who are not saved."</strong></p>
+    <p>
+        This confuses the categories. God is not obligated to save anyone — all deserve condemnation.
+        That He saves any is pure mercy; that He passes over others is justice. No one receives injustice.
+        As Paul answers this exact objection: "Does not the potter have the right to make out of the same lump of clay?" (Rom 9:21). The wonder
+        is not that some are left in their sins — the wonder is that any are rescued from them.
+    </p>
+
+    <p><strong>Objection: "Doesn't Acts 16:14 show Lydia chose to believe?"</strong></p>
+    <p>
+        Read it carefully: "The Lord <em>opened her heart</em> to pay attention to what was said by Paul."
+        Lydia's attention and faith were the <em>result</em> of the Lord's opening work. The text does not
+        say Lydia opened her own heart. God acted; Lydia responded. Monergism in regeneration, human activity
+        in conversion — both are present, in that order.
+    </p>
+</section>
+
+<!-- VERDICT -->
+<section class="section-block" id="verdict">
+    <div class="scripture-block">
+        "It does not, therefore, depend on human desire or effort, but on God's mercy."
+        <span class="scripture-ref">— <a href="/question-romans9">Romans 9</a>:16 (ESV)</span>
+    </div>
+
+    <div class="verdict">
+        <div class="verdict-label">The Core Issue</div>
+        <p>
+            Monergism and synergism cannot both be true. Either God alone is the efficient cause of
+            regeneration, or human cooperation is necessary. Scripture is unambiguous: the new birth is
+            "not of the will of man, but of God" (John 1:13). Salvation "depends not on human will or
+            exertion, but on God, who has mercy" (Rom 9:16). God "made us alive" when we were "dead"
+            (Eph 2:5).
+        </p>
+        <p>
+            Every biblical metaphor for conversion — creation, resurrection, new birth, heart transplant —
+            depicts a unilateral divine act upon an incapable recipient. Not one metaphor depicts a
+            cooperative venture between equals. The consistent testimony of Scripture is monergistic:
+            salvation is of the Lord (Jonah 2:9).
+        </p>
+        <p>
+            And this is the ground of our assurance. If salvation depended even 1% on my will, I would
+            have reason to fear — because I know the fickleness of my own heart. But if God began the
+            work, God sustains the work, and God will complete the work (Phil 1:6) — then my salvation
+            rests on an immovable foundation: the sovereign, unchangeable, almighty will of God.
+        </p>
+    </div>
+
+    <div class="cross-links">
+        <h3>Continue Your Study</h3>
+        <div class="cross-link-grid">
+            <a href="/compare-calvinism-arminianism.html" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Calvinism vs. Arminianism</div>
+                <div class="cross-link-desc">All five points of TULIP compared and examined</div>
+            </a>
+            <a href="/compare-calvinism-<a href="/compare-calvinism-molinism">molinism</a>.html" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Calvinism vs. Molinism</div>
+                <div class="cross-link-desc">Middle knowledge and the counterfactual challenge</div>
+            </a>
+            <a href="/compare-calvinism-open-theism" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Classical Theism vs. Open Theism</div>
+                <div class="cross-link-desc">Does God know the future exhaustively?</div>
+            </a>
+            <a href="/compare-calvinism-catholic-soteriology" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Reformed vs. Catholic Soteriology</div>
+                <div class="cross-link-desc">Justification, grace, merit, and assurance compared</div>
+            </a>
+            <a href="/question-<a href="/question-depravity">depravity</a>.html" class="cross-link">
+                <div class="cross-link-label">Deep Dive</div>
+                <div class="cross-link-title">Total Depravity</div>
+                <div class="cross-link-desc">How fallen is humanity? The biblical evidence</div>
+            </a>
+            <a href="/question-irresistible.html" class="cross-link">
+                <div class="cross-link-label">Deep Dive</div>
+                <div class="cross-link-title">Irresistible Grace</div>
+                <div class="cross-link-desc">Can the elect resist the Spirit's effectual call?</div>
+            </a>
+            <a href="/systematic-ordo-salutis.html" class="cross-link">
+                <div class="cross-link-label">Systematic</div>
+                <div class="cross-link-title">Ordo Salutis</div>
+                <div class="cross-link-desc">The order of salvation in Reformed theology</div>
+            </a>
+            <a href="/question-newheart.html" class="cross-link">
+                <div class="cross-link-label">Deep Dive</div>
+                <div class="cross-link-title">The New Heart</div>
+                <div class="cross-link-desc">Ezekiel 36 and the promise of regeneration</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+</div>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      /a>
+      <a href="/systematic-soteriology" class="related-article-card">
+        <span class="related-article-cat">🏛 Theology</span>
+        <span class="related-article-title">Systematic Soteriology — The Truth of Salvation</span>
+        <span class="related-article-desc">Systematic Soteriology: The Truth of Salvation. From election through glorification, Scripture</span>
+      </a>
+      <a href="/question-external-call" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">The External Call vs The Effectual Call</span>
+        <span class="related-article-desc">The External Call vs The Effectual Call: Scripture teaches that God calls all people to salvation, b...</span>
+      </a>
+      <a href="/analogy-lazarus-grave" class="related-article-card">
+        <span class="related-article-cat">💡 Analogies</span>
+        <span class="related-article-title">Did Lazarus Choose to Rise? God&#039;s Sovereign Calling Explained</span>
+        <span class="related-article-desc">Does God force salvation or respect <a href="/question-freewill">free will</a>? John 11 shows how <a href="/question-irresistible">effectual calling</a> works through Laz...</span>
+      </a>
+      <a href="/objection-why-believe" class="related-article-card">
+        <span class="related-article-cat">🛡 Objections Answered</span>
+        <span class="related-article-title">If God Already Chose Us, Why Do We Have to Believe?</span>
+        <span class="related-article-desc">A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. ...</span>
+      </a>
+      <a href="/devotional-in-christ" class="related-article-card">
+        <span class="related-article-cat">🕯 Devotionals</span>
+        <span class="related-article-title">In Christ: The Two Words That Change Everything</span>
+        <span class="related-article-desc">A devotional meditation on union with Christ — the two most powerful words in Scripture. Every spiri...</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+        <!-- Cross-Reference Section -->
+        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                    <a href="/question-depravity.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Total Depravity</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Can the sinner cooperate in his own resurrection?</p>
+                    </a>
+                    <a href="/question-irresistible.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Irresistible Grace</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Does grace compel, or does it invite?</p>
+                    </a>
+                    <a href="/compare-calvinism-arminianism.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Calvinism & Arminianism</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The two great systems contrasted.</p>
+                    </a>
+                    <a href="/systematic-regeneration.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Regeneration</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How does God make dead sinners alive?</p>
+                    </a>
+                    <a href="/question-john6.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">John 6 & the Gospels</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The draw of the Father—what does Jesus teach?</p>
+                    </a>
+                    <a href="/question-faithgift.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Faith a Gift?</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Does God give faith, or does the sinner produce it?</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

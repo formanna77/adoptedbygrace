@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Greek perfect tense in 1 John 5:1 proves regeneration precedes faith. Deep exegesis with Greek word study, seven arguments, and five objections answered.">
+    <link rel="canonical" href="https://adoptedbygrace.net/question-1john5-1.html">
+    <meta property="og:title" content="The Verse That Settles the Order — 1 John 5:1">
+    <meta property="og:description" content="Everyone who believes has been born of God. The Greek proves regeneration comes first.">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:type" content="article">
+    <title>The Verse That Settles the Order — 1 John 5:1 | Adopted by Grace</title>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Verse That Settles the Order — 1 John 5:1",
+        "description": "The Greek perfect tense in 1 John 5:1 proves regeneration precedes faith. Deep exegesis with Greek word study, seven arguments, and five objections answered.",
+        "author": { "@type": "Organization", "name": "Adopted by Grace" },
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" },
+        "datePublished": "2026-03-30",
+        "url": "https://adoptedbygrace.net/question-1john5-1.html",
+        "image": "https://adoptedbygrace.net/og-image.png"
+    }
+    </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div class="reading-progress"></div>
+
+    <!-- Navigation -->
+        <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-nav">
+        <a href="/questions">← Back to The Evidence</a>
+    </div>
+
+    <!-- Main Content -->
+    <main class="article-body" id="main-content">
+        <!-- Page Header -->
+        <section class="page-hero">
+                <div class="eyebrow">Questions</div>
+    <h1>The Verse That Settles the Order</h1>
+            <p class="subtitle">1 John 5:1 — Everyone Who Believes Has Been Born of God</p>
+        </section>
+
+        <!-- Page Meta -->
+        <div class="page-meta">
+            <div class="meta-item">
+                <div class="meta-label">Reading Time</div>
+                <div class="meta-value">20 minutes</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Scripture Focus</div>
+                <div class="meta-value">1 John 5:1</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Key Truth</div>
+                <div class="meta-value">Regeneration Precedes Faith</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Cross References</div>
+                <div class="meta-value">John 3:3, Eph 2:4-5, 1 Pet 1:3</div>
+            </div>
+        </div>
+
+        <!-- Section Navigation -->
+        <div class="section-nav">
+            <div class="nav-grid">
+                <a href="#the-question" class="scroll-link">The Question</a>
+                <a href="#the-verse" class="scroll-link">The Verse</a>
+                <a href="#greek-analysis" class="scroll-link">Greek Analysis</a>
+                <a href="#perfect-tense" class="scroll-link">Perfect Tense</a>
+                <a href="#johns-pattern" class="scroll-link">John's Pattern</a>
+                <a href="#whole-bible" class="scroll-link">Whole Bible</a>
+                <a href="#arguments" class="scroll-link">7 Arguments</a>
+                <a href="#objections" class="scroll-link">5 Objections</a>
+                <a href="#witnesses" class="scroll-link">Witnesses</a>
+                <a href="#final-word" class="scroll-link">Final Word</a>
+            </div>
+        </div>
+
+        <!-- Section: The Question That Divides -->
+        <section id="the-question">
+            <h2>The Question That Divides</h2>
+            <p>What comes first: faith or the new birth? This is the watershed question dividing monergism from synergism. Most Christians have never considered it, yet it determines everything about how you understand salvation, the nature of grace, and your own spiritual birth.</p>
+            <p>The Arminian says: I believe, and then God regenerates me. My faith is the condition that triggers God's response. The Reformed answer is something radically different — and Scripture has one verse that settles it definitively. This is not one man's interpretation, not a theological debate — it is the plain, grammatical, undeniable reading of the original Greek.</p>
+            <p>One verse settles it, and it's not even close.</p>
+        </section>
+
+        <!-- Section: The Verse -->
+        <section id="the-verse">
+            <h2>The Verse</h2>
+            <div class="scripture-block">
+                "Everyone who believes that Jesus is the Christ has been born of God, and everyone who loves the Father loves whoever has been born of him."
+                <span class="ref">1 John 5:1 (ESV)</span>
+            </div>
+            <p>The key is in the Greek tenses. The English translation conceals what the Greek reveals with perfect clarity. This verse doesn't just suggest an order of salvation — it grammatically <strong>demands</strong> one. And the demand is the opposite of what most evangelical teaching assumes.</p>
+            <p>You did not read that as anything shocking because English hides the tense system. But when you see the Greek, the meaning becomes inescapable.</p>
+        </section>
+
+        <!-- Section: The Greek That Changes Everything -->
+        <section id="greek-analysis">
+            <h2>The Greek That Changes Everything</h2>
+            <p>This is the critical section. This is where the text stops being a matter of opinion and becomes a matter of grammar.</p>
+
+            <h3>The Two Verbs</h3>
+            <p>The verse contains two action words, and their tenses tell the whole story:</p>
+
+            <p><strong>First:</strong> <span class="greek">πᾶς ὁ πιστεύων</span> (<span class="transliteration">pas ho pisteuōn</span>) — "everyone who believes"</p>
+            <p>This is a present active participle. Present tense means ongoing, continuous action happening right now. The believer is actively, continuously believing.</p>
+
+            <p><strong>Second:</strong> <span class="greek">ἐκ τοῦ θεοῦ γεγέννηται</span> (<span class="transliteration">ek tou theou gegennētai</span>) — "has been born of God"</p>
+            <p>This is a perfect passive indicative. And this is where everything changes.</p>
+
+            <h3>Why the Perfect Tense Matters</h3>
+            <p>The perfect tense in Greek is the most theologically loaded tense in Scripture. It indicates a completed action in the past with continuing results in the present.</p>
+            <p><strong>Think of it like this:</strong> If I write something, it is written (γέγραπται — perfect passive) and it continues to stand. If Christ said "It is finished" (τετέλεσται — perfect passive), it was completed at Calvary and continues to be completed, its effects eternal.</p>
+            <p>So <span class="greek">γεγέννηται</span> means: <strong>The new birth happened at a definite point in the past, and its effects continue into the present.</strong></p>
+
+            <h3>The Timeline</h3>
+            <div class="callout">
+                <strong>This is the verse that settles it.</strong> Read it with the tenses preserved:
+                <div class="tense-timeline">
+                    <div class="tense-item">
+                        <div class="label">PAST</div>
+                        <div class="tense">γεγέννηται</div>
+                        <div class="meaning">Has been born (perfect: completed action)</div>
+                    </div>
+                    <div class="tense-item">
+                        <div class="label">PRESENT</div>
+                        <div class="tense">πιστεύων</div>
+                        <div class="meaning">Is believing (ongoing action)</div>
+                    </div>
+                    <div class="tense-item">
+                        <div class="label">CONCLUSION</div>
+                        <div class="tense">Birth precedes faith</div>
+                        <div class="meaning">Regeneration comes before believing</div>
+                    </div>
+                </div>
+            </div>
+
+            <p>So the verse literally reads: "Everyone who is [presently] believing has [already, in the past] been born of God."</p>
+            <p>The believing is present. The being-born is past. The birth happened first. <strong>This is not interpretation — this is grammar.</strong> You cannot read Greek at all and draw any other conclusion. Any Greek lexicon, any NT grammar textbook, any seminary professor will confirm this tense distinction.</p>
+        </section>
+
+        <!-- Section: What the Perfect Tense Proves -->
+        <section id="perfect-tense">
+            <h2>What the Perfect Tense Proves</h2>
+            <p>The perfect tense is not a theological invention. It is a feature of Greek grammar that was in common use. And John uses <span class="greek">γεγέννηται</span> — "has been born" — nine times in 1 John.</p>
+            <p><strong>Every single time, the new birth is presented as the cause of spiritual activity, never the result of it.</strong></p>
+
+            <h3>John's Nine Uses of the Perfect Tense</h3>
+            <div class="argument">
+                <div class="argument-num">1 John 2:29</div>
+                <div class="argument-title">"Everyone who practices righteousness has been born of him"</div>
+                <p>The righteousness flows <strong>FROM</strong> the new birth.</p>
+            </div>
+
+            <div class="argument">
+                <div class="argument-num">1 John 3:9</div>
+                <div class="argument-title">"No one born of God makes a practice of sin"</div>
+                <p>The new birth <strong>CAUSES</strong> the cessation of habitual sin.</p>
+            </div>
+
+            <div class="argument">
+                <div class="argument-num">1 John 4:7</div>
+                <div class="argument-title">"Everyone who loves has been born of God"</div>
+                <p>Love flows <strong>FROM</strong> the new birth.</p>
+            </div>
+
+            <div class="argument">
+                <div class="argument-num">1 John 5:1</div>
+                <div class="argument-title">"Everyone who believes has been born of God"</div>
+                <p>Faith flows <strong>FROM</strong> the new birth.</p>
+            </div>
+
+            <div class="argument">
+                <div class="argument-num">1 John 5:4</div>
+                <div class="argument-title">"Everyone who has been born of God overcomes the world"</div>
+                <p>Overcoming flows <strong>FROM</strong> the new birth.</p>
+            </div>
+
+            <div class="argument">
+                <div class="argument-num">1 John 5:18</div>
+                <div class="argument-title">"Everyone who has been born of God does not keep on sinning"</div>
+                <p>Holiness flows <strong>FROM</strong> the new birth.</p>
+            </div>
+
+            <p>Notice the pattern. <strong>It is invariable.</strong> In every case, being born of God → spiritual fruit. Never fruit → being born of God. The flow is always one direction: from the birth outward to the behaviors, the faith, the love, the righteousness.</p>
+            <p>And in 1 John 5:1, faith is one of those fruits. Not the cause. The effect.</p>
+        </section>
+
+        <!-- Section: The Pattern Across Scripture -->
+        <section id="johns-pattern">
+            <h2>The Pattern Across John's Letters</h2>
+            <p>But this is not merely John's idiosyncrasy. The entire New Testament testifies to the same order.</p>
+
+            <h3>John 1:12-13 — Not of Human Will</h3>
+            <div class="scripture-block">
+                "But to all who did receive him, who believed in his name, he gave the right to become children of God, who were born, not of blood nor of the will of the flesh nor of the will of man, but of God."
+                <span class="ref">John 1:12-13 (ESV)</span>
+            </div>
+            <p>Notice what John explicitly denies: the birth is <strong>not</strong> of human will. It is not produced by your decision, your choice, your effort. It is of God.</p>
+
+            <h3>John 3:3-8 — You Must Be Born to See</h3>
+            <div class="scripture-block">
+                "Unless one is born again, he cannot see the kingdom of God."
+                <span class="ref">John 3:3 (ESV)</span>
+            </div>
+            <p>The logic is simple: you must be born before you can see. You must be alive before you can understand. Spiritual sight requires prior spiritual life.</p>
+
+            <h3>John 6:44 — The Father Draws</h3>
+            <div class="scripture-block">
+                "No one can come to me unless the Father who sent me draws them."
+                <span class="ref">John 6:44 (NIV)</span>
+            </div>
+            <p>Coming (believing) cannot happen without prior drawing (regeneration). The drawing is the cause; the coming is the effect.</p>
+
+            <h3>Ephesians 2:1-5 — Dead Men Cannot Believe</h3>
+            <div class="scripture-block">
+                "You were dead in the trespasses and sins... But because of his great love for us, God, who is rich in mercy, made us alive with Christ even when we were dead in transgressions."
+                <span class="ref">Ephesians 2:1, 4-5 (ESV)</span>
+            </div>
+            <p>The argument is unanswerable: we were dead. Dead people cannot believe. Dead people cannot respond. God made us alive first. That is regeneration. That new life produces faith.</p>
+
+            <h3>James 1:18 — His Will, Not Ours</h3>
+            <div class="scripture-block">
+                "Of his own will he brought us forth by the word of truth, that we should be a kind of firstfruits of his creatures."
+                <span class="ref">James 1:18 (ESV)</span>
+            </div>
+            <p>His will, not yours. He brought us forth. The initiative is entirely God's.</p>
+
+            <h3>1 Peter 1:3, 23 — We Are Caused to Be Born</h3>
+            <div class="scripture-block">
+                "He has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead... you have been born again... through the living and abiding word of God."
+                <span class="ref">1 Peter 1:3, 23 (ESV)</span>
+            </div>
+            <p>Not "we chose to be born again." He caused us to be born again. The passive voice is relentless: we are acted upon; God is the actor.</p>
+
+            <h3>Ezekiel 36:26-27 — God Causes Obedience</h3>
+            <div class="scripture-block">
+                "I will give you a new heart, and a new spirit I will put within you... And I will put my Spirit within you and cause you to walk in my statutes."
+                <span class="ref">Ezekiel 36:26-27 (ESV)</span>
+            </div>
+            <p>God gives the new heart. God gives the Spirit. God causes the obedience. The order is unmistakable: new life → obedience. Not the reverse.</p>
+        </section>
+
+        <!-- Section: The Whole Bible Agrees -->
+        <section id="whole-bible">
+            <h2>The Whole Bible Agrees</h2>
+            <p>The testimony is unanimous. From Ezekiel to Paul to Peter to John, Scripture never varies: God gives life, and the living believe, love, obey, and overcome. The life comes first. Faith is a fruit of that life, not the root.</p>
+            <p>This is the constant refrain of Scripture: God acts, then we respond. God gives grace, then we believe. God regenerates, then we have faith.</p>
+        </section>
+
+        <!-- Section: Seven Arguments -->
+        <section id="arguments">
+            <h2>Seven Arguments from 1 John 5:1</h2>
+
+            <div class="argument">
+                <span class="argument-num">ARGUMENT 1</span>
+                <div class="argument-title">Grammar Is Not Theology</div>
+                <p>This is not a theological interpretation imposed on the text. It is what the Greek grammar requires. The perfect tense establishes temporal priority. The being-born is past; the believing is present. Any Greek grammar textbook confirms this. This is not opinion — it is linguistics.</p>
+            </div>
+
+            <div class="argument">
+                <span class="argument-num">ARGUMENT 2</span>
+                <div class="argument-title">The Dead Cannot Believe</div>
+                <p>Ephesians 2:1 says we were dead. Dead people cannot do anything — they cannot believe, repent, or respond. <strong>Life must precede activity.</strong> Regeneration is that life. If you are dead, you are not choosing anything. You are not cooperating in anything. You are dead. God makes you alive. That life is regeneration. The living then believe.</p>
+            </div>
+
+            <div class="argument">
+                <span class="argument-num">ARGUMENT 3</span>
+                <div class="argument-title">John's Pattern Is Invariable</div>
+                <p>In nine uses of γεγέννηται in 1 John, the new birth always produces spiritual fruit. It is never the result of fruit. Faith is simply one more fruit of the new birth — along with righteousness, love, holiness, and overcoming. The pattern is consistent: birth → fruit. Never: fruit → birth.</p>
+            </div>
+
+            <div class="argument">
+                <span class="argument-num">ARGUMENT 4</span>
+                <div class="argument-title">This Explains Why Some Believe and Others Reject</div>
+                <p>If faith precedes regeneration, then what makes one person believe and another reject? If belief is a human choice, then you have grounds for boasting. The Reformed answer is the only logically coherent one: God regenerates some, and the regenerated ones believe. Some are not regenerated, and they cannot believe — not because they will not, but because they cannot. The cause of unbelief is not evil will; it is absence of new life.</p>
+            </div>
+
+            <div class="argument">
+                <span class="argument-num">ARGUMENT 5</span>
+                <div class="argument-title">This Protects the Glory of God</div>
+                <p>If you produced your own faith, you have something to boast about before God. But Ephesians 2:8-9 says faith is "not from yourselves, it is the gift of God... so that no one can boast." The new birth produces the faith; you do not produce it. Your boasting is silenced. God receives all the glory. That is the whole point.</p>
+            </div>
+
+            <div class="argument">
+                <span class="argument-num">ARGUMENT 6</span>
+                <div class="argument-title">The Analogy of Physical Birth</div>
+                <p>A baby does not decide to be born. A baby does not choose its parents. The baby does not cooperate in its own conception, gestation, or delivery. The baby is entirely passive. The parents are entirely active. Just so with spiritual birth — you are born of God. You did not decide it. You did not choose it. You did not cooperate. God caused it. And from that life comes faith. The faith does not produce the life; the life produces the faith.</p>
+            </div>
+
+            <div class="argument">
+                <span class="argument-num">ARGUMENT 7</span>
+                <div class="argument-title">Jesus Said It Plainly</div>
+                <div class="scripture-block">
+                    "You do not believe because you are not among my sheep."
+                    <span class="ref">John 10:26 (ESV)</span>
+                </div>
+                <p>Notice the order: <strong>Not</strong> "you are not my sheep because you don't believe." Rather: "you don't believe <strong>because</strong> you are not my sheep." Being a sheep (election, regeneration) is the cause of believing. Not being a sheep is the cause of unbelief. Not the reverse.</p>
+            </div>
+        </section>
+
+        <!-- Section: Five Objections Answered -->
+        <section id="objections">
+            <h2>Five Objections Answered</h2>
+
+            <div class="objection">
+                <div class="objection-title">The verse just means that believers are born of God — it doesn't establish order.</div>
+                <div class="objection-response">
+                    If that were true, then every other use of γεγέννηται in 1 John would mean something different. Take 1 John 3:9: "everyone who stops sinning has been born of God." By your logic, that means sinlessness is the cause of regeneration — which is absurd. You cannot accept the grammar in one verse and reject it in another. The perfect tense establishes temporal priority in every use. The being-born is past; the believing/sinning/loving is present. The birth comes first.
+                </div>
+            </div>
+
+            <div class="objection">
+                <div class="objection-title">The perfect tense doesn't always mean temporal priority.</div>
+                <div class="objection-response">
+                    The perfect tense indicates completed action with ongoing results. In every use of γεγέννηται in 1 John, the completed birth produces the ongoing behavior (righteousness, love, overcoming, faith). This is not one isolated verse — it is a pattern across the entire letter. The passive voice reinforces it: God is the agent; we are acted upon. And if you consult any NT grammar (Wallace, Blass-Debrunner, Robertson), the perfect tense indicates completed action in the past. You cannot debate the tense system with Greek grammar.
+                </div>
+            </div>
+
+            <div class="objection">
+                <div class="objection-title">But doesn't John 3:16 say "whoever believes" — making faith the condition?</div>
+                <div class="objection-response">
+                    John 3:16 tells you WHO receives eternal life: believers. It describes the condition for receiving life. But it doesn't tell you HOW they came to believe. That is what 1 John 5:1 answers: they believe BECAUSE they have been born of God. John 3:16 answers the question "What do I need to do to be saved?" The answer is: believe. 1 John 5:1 answers the question "How do I come to believe?" The answer is: you are born of God first, and from that life, faith flows. Both verses are true. They answer different questions.
+                </div>
+            </div>
+
+            <div class="objection">
+                <div class="objection-title">If regeneration comes before faith, then are people saved without believing?</div>
+                <div class="objection-response">
+                    No. Regeneration and faith are logically distinct but temporally inseparable. They are not separated by time. God regenerates, and the regenerated person immediately believes. There is no gap in time, but there is a logical order: the birth must happen for the faith to happen. The faith cannot produce the birth; the birth produces the faith. Think of physical birth and breathing: breathing does not produce birth; birth enables breathing. And the baby breathes immediately upon being born — there is no temporal gap. Just so spiritually.
+                </div>
+            </div>
+
+            <div class="objection">
+                <div class="objection-title">You're making too much of one verse.</div>
+                <div class="objection-response">
+                    It is not one verse. It is the entire letter of 1 John (nine uses of γεγέννηται), the Gospel of John (1:13, 3:3-8, 6:44, 10:26), the Epistles of Paul (Ephesians 2:1-5, Philippians 1:29, 2 Timothy 2:25), the Epistles of Peter (1 Peter 1:3, 1:23), the Epistle of James (1:18), and the Prophecy of Ezekiel (36:26-27). The testimony is unanimous and overwhelming. God gives life. The living believe. The order is invariable.
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Voices from the Cloud of Witnesses -->
+        <section id="witnesses">
+            <h2>Voices from the Cloud of Witnesses</h2>
+
+            <div class="witness-quote">
+                Grace is the prerequisite of faith, not its result. The sinner who has not yet believed is spiritually dead, incapable of any spiritual act whatsoever. God must work in him to make him alive before he can believe.
+                <span class="attribution">Augustine of Hippo</span>
+            </div>
+
+            <div class="witness-quote">
+                Faith is the principal work of the Holy Spirit. The Spirit does not create faith by waiting for the sinner to choose; the Spirit creates faith by giving new life. From that life, faith necessarily flows.
+                <span class="attribution">John Calvin, Institutes III.1.4</span>
+            </div>
+
+            <div class="witness-quote">
+                The new birth is not the result of the sinner's affections; it is the source of them. All gracious affections flow from the vital principle of the new birth. You do not love God because you are born again; you love God because you are born again. The new birth is the source, not the result.
+                <span class="attribution">Jonathan Edwards, Religious Affections</span>
+            </div>
+
+            <div class="witness-quote">
+                If God requires of the sinner, dead in sin, that he should take the first step toward salvation, then he requires just that which renders salvation as impossible under the gospel as ever it was under the law. The dead cannot move. The sinner must be made alive by God before he can respond in faith.
+                <span class="attribution">Charles Spurgeon</span>
+            </div>
+        </section>
+
+        <!-- Section: The Final Word Belongs to Scripture -->
+        <section id="final-word">
+            <h2>The Final Word Belongs to Scripture</h2>
+            <p>1 John 5:1 is not an obscure proof-text for theologians to debate in seminaries. It is the clear, grammatically undeniable testimony of an apostle who walked with Jesus. A man who knew the truth. A man who lived through the resurrection and experienced the power of the new birth himself.</p>
+            <p>The verse that settles the order settles everything. You did not come to God on your own. He came to you first. He gave you new life — not because you chose it, not because you earned it, not because you cooperated in it. You were dead. He made you alive. And from that life, from that regeneration, flowed the faith you now treasure. Your believing is the proof of your birth, not the cause of it.</p>
+            <p>And that should fill you not with pride but with worship. You have no cause for boasting. You have only cause for gratitude. The grace that made you alive is the grace that will keep you alive forever.</p>
+            <div class="scripture-block">
+                "Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead."
+                <span class="ref">1 Peter 1:3 (ESV)</span>
+            </div>
+        </section>
+
+        <!-- Share Buttons -->
+        <!-- Continue Exploring -->
+        <div class="continue-exploring">
+            <h2>Continue Exploring</h2>
+            <div class="explore-grid">
+                <a href="/question-faithgift.html" class="explore-link">
+                    <div class="title">Is Faith a Gift?</div>
+                    <div>Discover why faith cannot be a human work when Ephesians 2:8-9 calls it the gift of God.</div>
+                </a>
+                <a href="/question-chosen.html" class="explore-link">
+                    <div class="title">Chosen Before the Foundation</div>
+                    <div>Election is not about God looking down the corridor of time — it is about God's sovereign choice before time began.</div>
+                </a>
+                <a href="/systematic-ordo-salutis.html" class="explore-link">
+                    <div class="title">The Ordo Salutis</div>
+                    <div>The order of salvation: election, calling, regeneration, faith, justification, sanctification, glorification.</div>
+                </a>
+                <a href="/question-john6.html" class="explore-link">
+                    <div class="title">John 6: The Father's Drawing</div>
+                    <div>No one comes to the Son unless the Father draws him. What does it mean to be drawn? Scripture provides the answer.</div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Back to Top Button -->
+
+    <!-- Footer -->
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/compare-monergism-synergism" class="related-article-card">
+        <span class="related-article-cat">⚖ Comparisons</span>
+        <span class="related-article-title">Monergism vs Synergism: Does God Save Alone?</span>
+        <span class="related-article-desc">Monergism vs Synergism explained from Scripture: Does God save alone, or does man cooperate? The fun...</span>
+      </a>
+      <a href="/systematic-soteriology" class="related-article-card">
+        <span class="related-article-cat">🏛 Theology</span>
+        <span class="related-article-title">Systematic Soteriology — The Truth of Salvation</span>
+        <span class="related-article-desc">Systematic Soteriology: The Truth of Salvation. From election through glorification, Scripture</span>
+      </a>
+      <a href="/demolition-hub" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">Verse-by-Verse Demolition — Every Arminian Proof Text Answered</span>
+        <span class="related-article-desc">Demolition series: Every verse cited against biblical theology examined and shown to support the doc...</span>
+      </a>
+      <a href="/objection-why-believe" class="related-article-card">
+        <span class="related-article-cat">🛡 Objections Answered</span>
+        <span class="related-article-title">If God Already Chose Us, Why Do We Have to Believe?</span>
+        <span class="related-article-desc">A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. ...</span>
+      </a>
+      <a href="/ot-election" class="related-article-card">
+        <span class="related-article-cat">📚 Old Testament</span>
+        <span class="related-article-title">Israel: God&#039;s Chosen Nation</span>
+        <span class="related-article-desc">A comprehensive biblical study of Israel</span>
+      </a>
+      <a href="/psychology-suppressing-truth" class="related-article-card">
+        <span class="related-article-cat">🧠 Why We Resist</span>
+        <span class="related-article-title">Suppressing the Truth</span>
+        <span class="related-article-desc">Romans 1:18 reveals the deepest human problem: we suppress what we already know about God. Modern ps...</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Truth</h3>
+                <a href="/questions">Questions</a>
+                <a href="/systematic-theology">Systematic Theology</a>
+                <a href="/scripture-tsunami">Scripture Tsunami</a>
+                <a href="/creeds-confessions">Creeds &amp; Confessions</a>
+            </div>
+            <div class="footer-section">
+                <h3>Explore</h3>
+                <a href="/devotionals">Rest in Grace</a>
+                <a href="/stories">Stories &amp; Parables</a>
+<a href="/pastoral-assurance">Pastoral</a>
+                <a href="/secular-evidence">Secular Evidence</a>
+            </div>
+            <div class="footer-section">
+                <h3>About</h3>
+                <a href="/about">About Us</a>
+                <a href="mailto:foreknownone@adoptedbygrace.net">Contact</a>
+                <p style="margin-top: 1rem; font-size: 0.85rem;">For the glory of God in Christ.</p>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2025 Adopted by Grace. All Scripture quoted from the ESV unless otherwise noted.
+        </div>
+    </footer>
+
+    <!-- Global Stylesheet & Script -->
+        <script src="/global.js" defer></script>
+
+    <!-- Page-Specific JavaScript -->
+
+    <script src="/nav.js"></script>
+</body>
+</html>

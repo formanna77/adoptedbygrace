@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Trinity: one God in three persons. Scripture teaches the Father elects, the Son redeems, the Spirit applies. The foundation of salvation itself.">
+    <meta property="og:title" content="One God, Three Persons — The Trinity in Scripture and Salvation">
+    <meta property="og:description" content="The Trinity: one God in three persons. Scripture teaches the Father elects, the Son redeems, the Spirit applies. The foundation of salvation itself.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/systematic-trinity.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="One God, Three Persons — The Trinity in Scripture and Salvation">
+    <meta name="twitter:description" content="The Trinity: one God in three persons. Scripture teaches the Father elects, the Son redeems, the Spirit applies. The foundation of salvation itself.">
+    <link rel="canonical" href="https://adoptedbygrace.net/systematic-trinity.html">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>One God, Three Persons — The Trinity in Scripture and Salvation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+        <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "One God, Three Persons — The Trinity in Scripture and Salvation",
+        "description": "The Trinity: one God in three persons. Scripture teaches the Father elects, the Son redeems, the Spirit applies. The foundation of salvation itself.",
+        "url": "https://adoptedbygrace.net/systematic-trinity.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://adoptedbygrace.net/systematic-trinity.html"
+        }
+    }
+    </script>
+    
+            <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <!-- Navigation -->
+                <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- Section Navigation -->
+    <div class="section-nav">
+        <div class="section-nav-container">
+            <a href="#foundation" class="section-link active">Foundation</a>
+            <a href="#father-elects" class="section-link">Father Elects</a>
+            <a href="#son-redeems" class="section-link">Son Redeems</a>
+            <a href="#spirit-applies" class="section-link">Spirit Applies</a>
+            <a href="#nicene" class="section-link">Nicene Foundations</a>
+            <a href="#conclusion" class="section-link">Why It Matters</a>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content" id="main-content">
+        <div class="breadcrumb">
+            <a href="/systematic-theology">← Back to Systematic Theology</a>
+        </div>
+    <section class="page-hero">
+        <div class="eyebrow">Systematic Theology</div>
+
+        <h1>One God, Three Persons</h1>
+    </section>
+
+        <p>
+            The Trinity is not a medieval theological puzzle designed to keep monks occupied. It is the revealed foundation of salvation itself. Scripture teaches that God is one—absolutely, eternally, irreducibly one. Yet Scripture also teaches that the Father is God, the Son is God, and the Holy Spirit is God. Three persons, one God. Not three gods. Not three modes of one person. Three coequal, coeternal, consubstantial persons in one divine essence.
+        </p>
+        <p>
+            This truth matters not as an intellectual curiosity but as the very grammar of how salvation happens. The Father elects. The Son redeems. The Spirit applies. The whole economy of grace—from eternity past to eternity future—turns on the Trinity. Deny it, and you have a God who cannot save. Embrace it, and you hold the key to understanding everything Scripture teaches about how the elect come to saving faith.
+        </p>
+
+        <!-- Section 1: Foundation -->
+        <section id="foundation" class="section">
+            <h2>One God, Three Persons: The Biblical Foundation</h2>
+            <p>
+                The word "Trinity" does not appear in Scripture. But the truth itself—one God eternally existing in three persons—is woven through the New Testament with unmistakable clarity. And the Old Testament, read in light of the New, reveals the same truth throughout.
+            </p>
+            <p>
+                The foundational principle is stated in the Shema, the prayer Israel recited daily: "Hear, O Israel: The LORD our God, the LORD is one" (Deuteronomy 6:4). Absolute monotheism. There is one God. Not two. Not three—well, yes, three, but one. This is the paradox Scripture itself holds without apology, and the early church councils affirmed it with Nicene precision.
+            </p>
+
+            <h3>The Triune Name of God</h3>
+            <p>
+                Matthew 28:19 captures the Trinitarian structure of Christian baptism and discipleship: "Go therefore and make disciples of all nations, <em>baptizing them in the name of the Father and of the Son and of the Holy Spirit</em>." Note the singular "name"—not "names." Yet three persons are listed. The deity of each person is assumed. The unity of their essence is stated. This is not three separate deities coordinating with one another. This is one God with one name, operating through three eternal persons.
+            </p>
+
+            <div class="scripture-block">
+                "Now may the grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with you all."
+                <span class="scripture-ref">— 2 Corinthians 13:14 (ESV)</span>
+            </div>
+
+            <p>
+                Paul's benediction invokes all three persons in a single blessing. The structure is not accidental. Grace flows from Christ. Love flows from God the Father. Fellowship is administered by the Spirit. Yet this is one blessing, one God, one salvation. The persons are distinct in their roles but inseparable in their divine nature.
+            </p>
+        </section>
+
+        <!-- Section 2: The Father Elects -->
+        <section id="father-elects" class="section">
+            <h2>The Father Elects</h2>
+            <p>
+                The work of salvation begins not in time but in eternity. The Father, in sovereign freedom, chose a people for Himself before the creation of the world. This election is not a response to foreseen faith or works. It flows from the Father's free, unconditional, and immutable choice. The Father is the architect of salvation.
+            </p>
+
+            <div class="scripture-block">
+                "He chose us in him before the creation of the world, that we should be holy and blameless before him. In love he predestined us for adoption as sons through Jesus Christ, in accordance with his pleasure and will, to the praise of his glorious grace, which he has freely bestowed on us in the Beloved."
+                <span class="scripture-ref">— Ephesians 1:4-6 (ESV)</span>
+            </div>
+
+            <p>
+                This passage, written in the opening of Paul's letter to the Ephesians, lays out the entire architecture of grace. The Father chose before the creation of the world. The basis: that we should be holy. The means: adoption through Jesus Christ. The motivation: the praise of His glorious grace. Not our glory. Not our achievement. His grace.
+            </p>
+
+            <h3>Election in the Father's Hands</h3>
+            <p>
+                Scripture is clear: election belongs to the Father. "For many are called, but few are chosen," Jesus says (Matthew 22:14). Jesus Himself is the Chosen One (Isaiah 42:1). Those who believe are "chosen before the creation of the world" (Ephesians 1:4). The Father has "chosen you from the world" (John 15:19). This is not a secondary truth or a harsh dogma to be softened. It is the foundation on which everything else rests. If the Father has not chosen us, then we cannot come. If He has chosen us, then nothing can prevent us from coming to faith.
+            </p>
+
+            <p>
+                The Father's election is also described as predestination. Not in the sense of a coercive force that removes human agency, but in the sense of a predetermined outcome. Just as an architect predestines what a building will be before the first brick is laid, the Father predestines the end from the beginning. The elect will be conformed to the image of Christ. Not might be. Will be. The outcome is certain.
+            </p>
+        </section>
+
+        <!-- Section 3: The Son Redeems -->
+        <section id="son-redeems" class="section">
+            <h2>The Son Redeems</h2>
+            <p>
+                If the Father is the architect of salvation, the Son is the ransom-payer. In eternity, the Father decreed; in time, the Son fulfilled. The Son's work is not hypothetical or conditional. He actually redeemed His people through His death and resurrection. The atonement is not a mere offer that might or might not be received. It is an accomplished fact.
+            </p>
+
+            <div class="scripture-block">
+                "In him we have redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace, which he lavished upon us in all wisdom and insight."
+                <span class="scripture-ref">— Ephesians 1:7-8 (ESV)</span>
+            </div>
+
+            <p>
+                The language is absolute. "In him we have redemption"—not "in him we might have" or "in him we can obtain." We have it. The work is done. The Father's elect are redeemed because the Son paid the price that justice demanded. His death satisfies the wrath of God against sin. His resurrection demonstrates the completeness of that victory.
+            </p>
+
+            <h3>The Divinity of Christ</h3>
+            <p>
+                The opening of John's gospel establishes the Son's deity with unmistakable clarity: "In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things were made through him, and without him was not any thing made that has been made" (John 1:1-3). The Word—which is to say, the Son—is God. He is distinct from God the Father ("the Word was with God") yet is God ("the Word was God"). He is the Creator, not a creature. All of creation flows from His power. He is coequal with the Father and coeternal.
+            </p>
+
+            <p>
+                This deity is essential to the Son's redemptive work. Only God can satisfy the infinite justice of God. Only God can bear the infinite weight of the sins of the elect. Only God can rise from the dead and break the power of death forever. The Son's humanity makes His death efficacious for us; His divinity makes it efficacious for all the elect across all time. He is the perfect God-man, able to represent both God's justice and man's need.
+            </p>
+        </section>
+
+        <!-- Section 4: The Spirit Applies -->
+        <section id="spirit-applies" class="section">
+            <h2>The Holy Spirit Applies</h2>
+            <p>
+                The Father elects. The Son redeems. The Spirit applies. While the Father's work is eternal and the Son's work is accomplished in history, the Spirit's work is present and personal. The Spirit takes what Christ achieved objectively and makes it subjectively real in the hearts of the elect. He generates faith. He gives new birth. He seals and keeps the saints. He is the down payment of our inheritance.
+            </p>
+
+            <div class="scripture-block">
+                "But you are washed, you are sanctified, you are justified in the name of the Lord Jesus Christ and by the Spirit of our God."
+                <span class="scripture-ref">— 1 Corinthians 6:11 (ESV)</span>
+            </div>
+
+            <p>
+                Notice the structure: justification comes through Christ. But it is "by the Spirit of our God" that it becomes effective in us. The Spirit applies the benefits of Christ's work to believers. He is not a subordinate power or a mere force. He is the third person of the Godhead, coequal with the Father and the Son, yet taking up the specific role of applying salvation to individual believers.
+            </p>
+
+            <h3>The Spirit's Role in Salvation</h3>
+            <p>
+                The Spirit convicts of sin (John 16:8). He regenerates the dead heart (Titus 3:5). He illuminates the mind to understand Scripture (1 Corinthians 2:12). He produces the fruit of holiness (Galatians 5:22-23). He intercedes for the saints with groans too deep for words (Romans 8:26). He seals believers until the day of redemption (Ephesians 4:30). This is not the work of a secondary agent or a third-rate deity. This is the work of God Himself, operating in intimate knowledge of each believer's needs and struggles.
+            </p>
+
+            <p>
+                The Father's election, the Son's redemption, and the Spirit's application are not three separate salvations. They are three aspects of one unified work. All three persons work together toward one end: the eternal glory of God through the salvation of His elect. The Father chooses. The Son purchases. The Spirit applies. And the result is that sinners who deserve hell, who were dead in trespasses and sins, are made alive, forgiven, justified, and set apart for eternal life.
+            </p>
+        </section>
+
+        <!-- Section 5: Nicene Foundations -->
+        <section id="nicene" class="section">
+            <h2>The Nicene Formulation: The Language of Precision</h2>
+            <p>
+                In 325 AD, the church fathers gathered at Nicaea to defend the deity of Christ against the Arian heresy, which claimed that the Son was a created being, subordinate to the Father. The resulting Nicene Creed affirmed what Scripture had always taught but needed precise theological language to protect: the Son is "of one substance" (homoousios) with the Father. Not similar substance. Not created. One substance. Coequal. Coeternal.
+            </p>
+
+            <h3>Homoousios: One Substance</h3>
+            <p>
+                This single word—homoousios—became the bulwark against every Trinitarian heresy that followed. It means the Son shares the very same divine essence as the Father. He is not a copy, not an emanation, not a creature elevated to semi-divine status. He is God of God, Light of Light, Very God of Very God. The Nicene Creed made this truth unmistakable and protected the church's preaching of salvation for centuries.
+            </p>
+
+            <p>
+                The Trinitarian controversies that followed—culminating in the Chalcedonian Definition and the Athanasian Creed—refined the truth further. But they all stand on Nicene foundations: one God, three persons, one substance, three natures (if we speak of the person of Christ), unified in purpose, distinguished in person, working together in the salvation of the elect.
+            </p>
+        </section>
+
+        <!-- Section 6: Conclusion -->
+        <section id="conclusion" class="section">
+            <h2>Why the Trinity Matters for Your Salvation</h2>
+            <p>
+                The Trinity is not a truth to argue about in academic debates. It is the foundation of everything you experience in salvation. If God were not three persons in one essence, salvation would not be possible. If the Father did not elect, you would have no assurance that God chose you before the world existed. If the Son were not fully God, His death could not satisfy infinite justice. If the Spirit were not fully God, He could not regenerate your dead heart and apply Christ's benefits to you personally.
+            </p>
+
+            <p>
+                Every assurance you have—that you are chosen, that you are redeemed, that you are indwelt—rests on the Trinity. The Father's election gives you certainty. The Son's redemption gives you cleansing. The Spirit's application gives you power. One God, three persons, working in perfect harmony for your salvation and the glory of His name.
+            </p>
+
+            <p>
+                Scripture teaches the Trinity not as a puzzle but as a promise. In Father, Son, and Spirit, God has revealed Himself completely. And in this revelation lies the deepest comfort: a God with one mind and three hands, all reaching toward you in redemption. The Trinity is not abstract theology. It is the living reality of the God who chose you, redeemed you, and dwells within you.
+            </p>
+        </section>
+        <!-- Cross-Reference Section -->
+        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                    <a href="/systematic-theology-proper.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Theology Proper</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/systematic-christology.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Systematic Christology</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/systematic-pneumatology.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Pneumatology</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/systematic-prolegomena.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Prolegomena</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/theologian-augustine.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Augustine</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/creeds-confessions.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Confessions of Faith</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/devotional-in-christ" class="related-article-card">
+        <span class="related-article-cat">🕯 Devotionals</span>
+        <span class="related-article-title">In Christ: The Two Words That Change Everything</span>
+        <span class="related-article-desc">A devotional meditation on union with Christ — the two most powerful words in Scripture. Every spiri...</span>
+      </a>
+      <a href="/scripture-tsunami" class="related-article-card">
+        <span class="related-article-cat">📄 General</span>
+        <span class="related-article-title">480+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
+        <span class="related-article-desc">They told you</span>
+      </a>
+      <a href="/compare-calvinism-open-theism" class="related-article-card">
+        <span class="related-article-cat">⚖ Comparisons</span>
+        <span class="related-article-title">Calvinism vs Open Theism: Does God Know the Future?</span>
+        <span class="related-article-desc">Calvinism vs Open Theism compared: Does God know the future exhaustively, or is He learning alongsid...</span>
+      </a>
+      <a href="/psychology-cognitive-biases" class="related-article-card">
+        <span class="related-article-cat">🧠 Why We Resist</span>
+        <span class="related-article-title">Cognitive Biases and the Blindness of Sin</span>
+        <span class="related-article-desc">Cognitive biases mapped to biblical descriptions of fallen thinking. Confirmation bias, anchoring, D...</span>
+      </a>
+      <a href="/question-1peter1" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">Elect Exiles According to the Foreknowledge of God – 1 Peter 1:1-2</span>
+        <span class="related-article-desc">A rigorous exegetical examination of 1 Peter 1:1-2 and the truth of unconditional election. Demol...</span>
+      </a>
+      <a href="/demolition-arminian-facts" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">FACTS Check: Dismantling the Arminian Framework Point by Point</span>
+        <span class="related-article-desc">Seminary-level exegetical analysis dismantling the Society of Evangelical Arminians</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        // Set active nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === 'systematic-trinity.html') {
+                link.classList.add('active');
+            }
+        });
+
+        // Scroll-spy for section navigation
+        const sectionLinks = document.querySelectorAll('.section-link');
+        const sections = document.querySelectorAll('.section');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '-30% 0px -70% 0px',
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    sectionLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => observer.observe(section));
+    </script>
+
+<script>
+(function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
+</script>
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

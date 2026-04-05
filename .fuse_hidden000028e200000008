@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The brain feels sensation in amputated limbs that no longer exist. Fallen humanity feels free will in a faculty that was lost in the Fall. You experience choosing—but the capacity to choose God was severed by Adam. Grace is the restoration you didn't earn.">
+    <meta name="keywords" content="free will, depravity, phantom limb, anosognosia, Libet experiments, neuroscience, inability to choose God, fallen nature, total depravity, phantom sensation, spiritual bondage">
+    <meta property="og:title" content="The Phantom Limb of Free Will: Feeling Free While Being Bound">
+    <meta property="og:description" content="Amputees feel sensation in limbs that no longer exist. Fallen humanity feels free will in a faculty that was lost in the Fall. Grace restores what you lost.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/philosophy-phantom-limb-free-will.html">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-philosophy.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Phantom Limb of Free Will">
+    <meta name="twitter:description" content="You feel free. But the faculty that could choose God was amputated by Adam. Grace restores the limb.">
+    <link rel="canonical" href="https://adoptedbygrace.net/philosophy-phantom-limb-free-will.html">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <title>The Phantom Limb of Free Will: Feeling Free While Being Bound</title>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Phantom Limb of Free Will: Feeling Free While Being Bound",
+        "description": "Amputees feel sensation in limbs that no longer exist. Fallen humanity feels free will in a faculty that was lost in the Fall. You experience choosing—but the capacity to choose God was severed by Adam. Grace is the restoration you didn't earn.",
+        "author": { "@type": "Organization", "name": "Adopted by Grace" },
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace" },
+        "datePublished": "2026-04-04",
+        "dateModified": "2026-04-04",
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://adoptedbygrace.net/philosophy-phantom-limb-free-will.html" }
+    }
+    </script>
+
+    <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <div class="reading-progress"></div>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- Page Hero -->
+    <header class="page-hero" id="main-content">
+        <div class="content-container">
+            <span class="eyebrow">Philosophy of Truth</span>
+            <h1>The <span class="gold">Phantom Limb</span> of Free Will: Feeling Free While Being Bound</h1>
+            <p class="subtitle">
+                Amputees feel their severed arms. You feel your free will. The sensation is real. The limb is gone. You cannot choose God because the faculty to choose Him was amputated by Adam. And grace is the restoration you didn't earn.
+            </p>
+            <div class="read-time">8 min read</div>
+        </div>
+    </header>
+
+    <main class="content-section">
+        <div class="content-container">
+
+            <!-- Section 1: The Phantom Sensation -->
+            <section>
+                <h2><span class="section-number">01</span> The Sensation of a Limb That Isn't There</h2>
+
+                <p>
+                    On November 11, 1918, a soldier named Walter lost his left arm to artillery fire in the Meuse-Argonne Offensive. The surgeons were quick. The amputation was clean. What was left was a residual limb and—for the next seventy years—an unbearable sensation that the arm was still there.
+                </p>
+
+                <p>
+                    Walter could feel his phantom fingers clenching. He could sense the precise position of his phantom hand in space. When he tried to reach for a cup of coffee, he did not feel confused that his hand wasn't where it should be. He felt the cup's temperature on phantom fingertips that had been buried in French soil for two decades. The sensation was not a confusion or a memory. It was a vivid, immediate, undeniable sensory experience of a limb that objectively did not exist.
+                </p>
+
+                <p>
+                    The phenomenon is called phantom limb pain, and it happens because the <a href="/psychology-cognitive-biases">brain's body map persists even after the limb is gone</a>. The neurons that once carried signals from the arm continue to fire. They still send messages to the cortex. The cortex still interprets them as coming from the arm. So the brain—receiving these signals—does what it has always done: it generates the sensation that the limb is there.
+                </p>
+
+                <div class="concept-card">
+                    <h3>The Key Insight</h3>
+                    <p>
+                        You can experience something with complete, undeniable certainty—feel it, sense it, be absolutely convinced of it—and that thing can still not exist. The reality of the experience is independent of the reality of the thing being experienced.
+                    </p>
+                </div>
+
+                <p>
+                    This is not a small point. This is the architecture of human perception itself. We do not experience the world as it is. We experience the world as our brains tell us it is. And sometimes our brains are lying.
+                </p>
+            </section>
+
+            <!-- Section 2: The Libet Experiments -->
+            <section>
+                <h2><span class="section-number">02</span> The Decision You Think You Made Before You Made It</h2>
+
+                <p>
+                    In 1983, Benjamin Libet published a series of experiments that should have shattered forever the illusion of conscious free will. The experiment was simple: subjects were asked to flex their fingers or wrists whenever they felt like it, and to note exactly when they consciously decided to move.
+                </p>
+
+                <p>
+                    Meanwhile, electrodes measured activity in their motor cortex and recorded when the actual movement began. The results were stunning: the motor cortex fired—the brain initiated the movement—approximately 300-350 milliseconds before the subjects reported consciously deciding to move. In other words, the brain had already decided to act before the conscious mind became aware of the decision.
+                </p>
+
+                <p>
+                    Think about what this means. You experience yourself as the author of your choices. You feel the moment of decision. You sense your will acting. But that sense of agency—that feeling of "I am choosing"—arrives after the brain has already made the choice. You are narrating a decision that has already been written. You are experiencing yourself as an author when you are actually reading the book your brain wrote without consulting you.
+                </p>
+
+                <p>
+                    The conscious mind confabulates. It generates a story about the decision. It finds reasons. It constructs a narrative that makes it seem like the conscious decision preceded the action. But the evidence is clear: <a href="/psychology-autonomy-illusion">the feeling of conscious choice is an illusion generated after the fact</a>.
+                </p>
+
+                <div class="pull-quote-container">
+                    <p class="pull-quote">You do not experience reality. You experience the story your brain tells about reality. And sometimes the story is false.</p>
+                </div>
+
+                <p>
+                    Now apply this to spiritual choice. You experience yourself as choosing God. You feel the moment of decision. You remember when you accepted Christ, when you turned from sin, when you committed your life. The experience is vivid and real. But what if the actual work of conversion—the actual transformation of your will, the actual opening of your eyes to truth—happened before your conscious experience of choosing arrived?
+                </p>
+
+                <p>
+                    What if you are narrating a choice that the Holy Spirit has already made for you?
+                </p>
+            </section>
+
+            <!-- Section 3: The Fall as Amputation -->
+            <section>
+                <h2><span class="section-number">03</span> What Adam Lost and You Inherited</h2>
+
+                <p>
+                    Before the Fall, humanity had a faculty that is now gone. Not destroyed—lost. The capacity to <a href="/question-freewill">choose God, to desire Him, to will the good</a>. Adam had the power to obey or rebel. He used it to rebel, and in doing so, he severed that power from the human race.
+                </p>
+
+                <p>
+                    You are born into a condition of amputated will. The faculty that could choose God was severed in the Garden, and you inherited a residual limb. No functioning hand. No capacity to reach for God. Just the phantom sensation that you still have the limb.
+                </p>
+
+                <p>
+                    This is <a href="/systematic-hamartiology">total depravity</a> in its most precise form: not that you are as bad as you could possibly be, but that you are without the capacity to want to be good toward God. Your will is enslaved to sin not against your will, but in perfect alignment with it. You do not want God. You want yourself. And you never will want God unless something intervenes to change the very thing that is doing the wanting.
+                </p>
+
+                <p>
+                    But here is what the mind does: it insists that the limb is still there. It feels it. It reaches for it. It swears it is grasping it. You experience yourself as choosing God. You feel your will responding. You sense your decision. The sensation is absolutely real. The phantom limb feels like a real limb.
+                </p>
+
+                <div class="concept-card">
+                    <h3>The Deepest Deception</h3>
+                    <p>
+                        You are convinced that you can choose God because you have the sensation of choosing. But the faculty that could actually choose Him was severed before you were born. You are experiencing a phantom choice. And the most dangerous thing is that the phantom feels absolutely real.
+                    </p>
+                </div>
+
+                <p>
+                    The <a href="/psychology-why-we-resist">reason you resist the truth about your depravity is that accepting it means admitting this: you have never actually chosen anything about God</a>. Every spiritual decision you believe you made, every moment of will you experienced—all phantom sensations. All the brain generating the feeling of agency after the fact. The choice was made for you, or it was not made at all.
+                </p>
+            </section>
+
+            <!-- Section 4: Anosognosia - When the Organ of Awareness is Damaged -->
+            <section>
+                <h2><span class="section-number">04</span> The Stroke Patient Who Insists They Can Move Their Paralyzed Arm</h2>
+
+                <p>
+                    There is a neurological condition called anosognosia—literally, "lack of knowledge of disease." A patient suffers a stroke that paralyzes their left arm. Yet when asked to raise that arm, they say, "I just did," and seem genuinely confused when the doctor points out that the arm has not moved.
+                </p>
+
+                <p>
+                    This is not denial. This is not stubbornness. This is not lying. The patient is not consciously deceiving. The very organ that should recognize the paralysis—the brain—is the organ that has been damaged. The patient has lost the capacity to perceive their own disability. They experience themselves as moving the arm because the brain generates that experience. The sensation of movement is phantom. The conviction of ability is phantom. And the patient cannot see the phantom because the organ of seeing is the organ that is broken.
+                </p>
+
+                <p>
+                    Now consider the depravity of fallen humanity through the lens of anosognosia. <a href="/philosophy-self-deception">The will that needs to recognize its own bondage is the will that is in bondage</a>. The mind that needs to see its own slavery is the mind that is enslaved. You cannot use a broken instrument to measure the brokenness of that same instrument.
+                </p>
+
+                <p>
+                    You read, "The heart is deceitful above all things." You read, "You are dead in your transgressions." You read, "Without Me you can do nothing" (John 15:5). And your response is: "That describes other people. That describes the lost. That describes those who haven't encountered grace. But me? I have faith. I chose to believe. I reached for God and He caught me."
+                </p>
+
+                <p>
+                    That is anosognosia. That is the paralyzed limb insisting it just moved. That is the broken instrument trying to measure its own brokenness and finding nothing wrong.
+                </p>
+
+                <div class="pull-quote-container">
+                    <p class="pull-quote">The person who most desperately needs to see their bondage is the person whose bondage prevents them from seeing it. The will enslaved to sin will insist it is free because a will enslaved to sin is precisely what believes it is free.</p>
+                </div>
+
+                <p>
+                    This explains everything. Why <a href="/question-faithgift">people insist that faith is their choice</a> despite evidence that it cannot be. Why <a href="/psychology-autonomy-illusion">the human heart is so convinced of its own autonomy</a>. Why the gospel is resisted most violently by those who most need it. The broken organ cannot see its own brokenness. The enslaved will cannot perceive its own enslavement. The phantom limb feels real, and the only way to know it is phantom is to have someone from outside the system point it out—and even then, the person in anosognosia will not believe them.
+                </p>
+            </section>
+
+            <!-- Section 5: The Self-Help Lie -->
+            <section>
+                <h2><span class="section-number">05</span> The Industry Built on the Phantom Limb</h2>
+
+                <p>
+                    The self-help industry is built entirely on the phantom limb of free will. "You can do anything! You have untapped potential! Believe in yourself! Your mindset is holding you back—change your thinking and you can achieve anything!" The sentiment is beautiful and the books sell millions of copies. But it is built on a lie.
+                </p>
+
+                <p>
+                    If you are a person whose desires are enslaved to sin, you cannot choose your way out by "believing harder" or "thinking better." If your will is bound, changing your thoughts will not free your will. You are being told to lift yourself using bootstraps that are not there. You are being told the phantom limb can be trained into existence.
+                </p>
+
+                <p>
+                    But the lie persists because it feels true. You experience yourself making choices. You feel your will acting. You sense control over your life. The phantom is convincing. And the entire self-help apparatus is designed to deepen your confidence in the phantom—to convince you that the sensation is proof of the reality.
+                </p>
+
+                <p>
+                    The tragedy is this: the person drowning in addiction, enslaved to a pattern of sin, broken in their will, is told, "You just need to try harder. You just need to want it more. You just need to believe in yourself." And when they fail—when they inevitably fail because they are being asked to do something their enslaved will cannot do—they blame themselves. They were not strong enough. They did not want it enough. They did not believe hard enough. The system promises freedom through will and delivers only deeper despair when the will proves unable to deliver.
+                </p>
+
+                <div class="concept-card">
+                    <h3>The Deepest Cruelty</h3>
+                    <p>
+                        To tell an enslaved person they can free themselves is to set them up for the certainty of failure. The self-help industry is the philosophy of the phantom limb institutionalized. It tells people to reach for what is no longer there.
+                    </p>
+                </div>
+
+                <p>
+                    Now consider: what if the gospel is not the self-help lie magnified? What if the gospel is the absolute inversion of it?
+                </p>
+            </section>
+
+            <!-- Section 6: Grace as Restoration -->
+            <section>
+                <h2><span class="section-number">06</span> The Real Limb Given, Not Regrown</h2>
+
+                <p>
+                    You cannot regrow an amputated arm. But you can receive a prosthetic. Better—you can receive a donor limb. And better still—you can receive something that has never existed before: a transplant, a restoration, a gift.
+                </p>
+
+                <p>
+                    Grace is not a stronger version of the phantom limb. Grace is not you "trying harder" to reach for God with the faculty you no longer have. <a href="/devotional-never-gives-up">Grace is God doing the reaching</a>. Grace is the amputation of that phantom sensation and the installation of a real limb. Real ability. Real capacity. <a href="/question-faithgift">Real faith—not as your choice, but as His gift</a>.
+                </p>
+
+                <p>
+                    When <a href="/question-newheart.html">Ezekiel prophesied to the dry bones, he did not say, "Try to live. Believe you can live. Put effort into becoming alive." He prophesied the breath of God</a>. The dead do not need encouragement. The dead do not need stronger self-talk. The dead need resurrection. They need something done TO them, not something done BY them.
+                </p>
+
+                <p>
+                    Scripture is full of this language because it is describing the deepest reality of the human condition: you are dead. Your will is paralyzed. Your capacity to choose God is severed. And no amount of self-effort, no amount of positive thinking, no amount of "believing in yourself" will change it. You need an external intervention. You need someone from outside your system to act on your behalf.
+                </p>
+
+                <p>
+                    And that is exactly what grace is. <a href="/systematic-hamartiology">The God whose kingdom you rejected chose you anyway</a>. The God whose sovereignty you resisted drew you to Himself. <a href="/devotional-rescued-without-a-say.html">The God who saw you dead in sin made you alive in Christ</a>. Not because you finally chose hard enough. Not because you finally believed hard enough. But because grace—irresistible, unstoppable, unconditional grace—reached into your death and gave you life.
+                </p>
+
+                <div class="pull-quote-container">
+                    <p class="pull-quote">"And you, being dead in your trespasses and the uncircumcision of your flesh, He made alive together with Him, having forgiven you all trespasses."</p>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.75rem;">— Colossians 2:13</p>
+                </div>
+
+                <p>
+                    The phantom sensation of free will is replaced by the real sensation of being loved, known, and held by someone who chose you before the foundation of the world. The broken will is given a new will. The amputated capacity is restored—not by effort, not by training, not by stronger belief. By grace. By unmerited favor. By the gift you did not earn and do not deserve.
+                </p>
+
+                <p>
+                    This is why <a href="/psychology-why-we-resist">the person still clinging to the phantom limb of free will will resist this truth</a>. Because accepting grace means accepting that you are that broken, that enslaved, that powerless. It means accepting that every spiritual achievement you attribute to yourself was actually God's work. It means accepting that you are a vessels created for mercy, not autonomous agents who pulled themselves up by their bootstraps.
+                </p>
+
+                <p>
+                    But it is also why grace, once received, becomes the most liberating truth imaginable. You are no longer trying to lift yourself with phantom limbs. You are no longer trying to choose God with a will that cannot choose Him. You are no longer condemned to the slow agony of anosognosia, insisting you can move what is paralyzed. You are alive. You are held. You are known. And you are loved with a love that was decided before you could do anything to deserve it or lose it.
+                </p>
+
+                <div class="concept-card">
+                    <h3>The Inversion</h3>
+                    <p>
+                        The moment you stop trying to reach for God with your phantom limb is the moment you discover He has been reaching for you all along. The moment you accept your depravity is the moment grace becomes real.
+                    </p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Keep Reading Grid -->
+    <section class="card-grid" style="margin: 4rem 0; padding: 0 var(--content-padding);">
+        <div style="grid-column: 1 / -1; margin-bottom: 1rem;">
+            <h2 style="font-size: 1.5rem; color: var(--text-primary); margin: 0;">Keep Reading</h2>
+        </div>
+
+        <a href="/philosophy-resistance-is-proof.html" class="card" style="border-left: 4px solid var(--accent-gold);">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <span style="display: inline-block; background: var(--accent-gold); color: #0a0a0f; padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem;">Philosophy</span>
+            </div>
+            <h3>The Resistance Is the Proof</h3>
+            <p>Your hostility to grace is not evidence the truth is false. It is evidence that depravity is real—and that the truth is penetrating your defenses exactly as it should.</p>
+            <span class="card-arrow">→ Read</span>
+        </a>
+
+        <a href="/psychology-autonomy-illusion.html" class="card" style="border-left: 4px solid var(--accent-ember);">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <span style="display: inline-block; background: var(--accent-ember); color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem;">Psychology</span>
+            </div>
+            <h3>Why We Feel Free When We're Bound</h3>
+            <p>The brain generates the sensation of agency even after studies show the decision was made before you were conscious of making it. You are narrating freedom you don't have.</p>
+            <span class="card-arrow">→ Explore</span>
+        </a>
+
+        <a href="/philosophy-munchhausen-trilemma.html" class="card" style="border-left: 4px solid var(--accent-gold);">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <span style="display: inline-block; background: var(--accent-gold); color: #0a0a0f; padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem;">Philosophy</span>
+            </div>
+            <h3>The Münchhausen Trilemma: The Logic Trap Inside Your Own Choices</h3>
+            <p>If you choose your faith, what caused you to choose? Your will. What caused your will to choose? A deeper will. Infinite regress. The only escape is grace chosen for you.</p>
+            <span class="card-arrow">→ Think</span>
+        </a>
+
+        <a href="/devotional-rescued-without-a-say.html" class="card" style="border-left: 4px solid var(--accent-gold);">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <span style="display: inline-block; background: var(--accent-gold); color: #0a0a0f; padding: 0.4rem 0.8rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem;">Rest</span>
+            </div>
+            <h3>Rescued Without a Say: The Grace That Moves Before You</h3>
+            <p>You were dead. Not weak, not lost—dead. And yet God made you alive. Not because you reached out. But because grace reached in.</p>
+            <span class="card-arrow">→ Rest</span>
+        </a>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Truth</h4>
+                    <ul>
+                        <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                        <li><a href="/systematic-theology">Systematic Theology</a></li>
+                        <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                        <li><a href="/creeds-confessions">Creeds &amp; Confessions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Explore</h4>
+                    <ul><li class="mobile-nav-link"><a href="/stories">Stories &amp; Parables</a></li><li><a href="/pastoral-assurance">Pastoral</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li></li>
+                        <li><a href="/theologians">Theologians</a></li>
+                        <li><a href="/history-timeline">Church History</a></li>
+                        <li><a href="/demolition-hub">Questions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li class="mobile-nav-link"><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="https://substack.com/@foreknownone" target="_blank">Substack</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Adopted by Grace. All rights reserved. God's grace to you.</p>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+    </footer>
+
+    <script src="/global.js" defer></script>
+    <script>
+        function updateReadingProgress() {
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight - windowHeight;
+            const scrolled = window.scrollY;
+            const progress = (scrolled / documentHeight) * 100;
+            document.querySelector('.reading-progress').style.width = progress + '%';
+        }
+        window.addEventListener('scroll', updateReadingProgress);
+    </script>
+    <script src="/nav.js"></script>
+</body>
+</html>

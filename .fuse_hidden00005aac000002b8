@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reformed vs Catholic soteriology compared: justification by faith alone vs. faith plus works, imputed vs. infused righteousness, and the role of grace, merit, and human cooperation in salvation.">
+    <meta property="og:title" content="Reformed vs Catholic Soteriology: How Are We Justified? | Adopted by Grace">
+    <meta property="og:description" content="A fair and thorough biblical comparison of Protestant Reformed and Roman Catholic views on justification, grace, merit, and the role of works in salvation.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/compare-calvinism-catholic-soteriology">
+    <link rel="canonical" href="https://adoptedbygrace.net/compare-calvinism-catholic-soteriology">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Reformed vs Catholic Soteriology: How Are We Justified?">
+    <meta name="twitter:description" content="Justification by faith alone vs. faith plus works — a biblical examination of the Reformation's most consequential divide.">
+    <meta name="keywords" content="Calvinism vs Catholicism, Reformed vs Catholic, justification by faith alone, sola fide, imputed righteousness, infused righteousness, Council of Trent, merit, grace, works, Protestant Catholic debate, soteriology">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>Reformed vs Catholic Soteriology: How Are We Justified? | Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Reformed vs Catholic Soteriology: How Are We Justified?",
+        "description": "A fair and thorough biblical comparison of Protestant Reformed and Roman Catholic views on justification, grace, merit, and the role of works in salvation.",
+        "url": "https://adoptedbygrace.net/compare-calvinism-catholic-soteriology",
+        "datePublished": "2026-03-28",
+        "dateModified": "2026-03-28",
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+    }
+    </script>
+    
+            <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+        <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+<div class="section-nav">
+    <div class="section-nav-inner">
+        <a href="#overview">Overview</a>
+        <a href="#<a href="/systematic-justification">justification</a>">Justification</a>
+        <a href="#righteousness">Righteousness</a>
+        <a href="#grace-merit">Grace &amp; Merit</a>
+        <a href="#assurance">Assurance</a>
+        <a href="#james-2">James 2</a>
+        <a href="#conclusion">Conclusion</a>
+    </div>
+</div>
+
+<section class="page-hero">
+    <div class="eyebrow">Comparative Theology</div>
+    <h1><span class="gold">Sola Fide</span> vs <span class="muted">Faith + Works</span></h1>
+    <p class="subtitle">
+        The question that split Western Christianity: Are we justified by faith alone, or by faith plus works?
+        The Reformers said this was the article on which the church stands or falls.
+        Five centuries later, the Bible still gives the same answer.
+    </p>
+</section>
+
+<!-- ═══════════════ OVERVIEW TABLE ═══════════════ -->
+<section class="overview-table" id="overview">
+    <h2>At a Glance: Soteriology Compared</h2>
+    <div class="ov-grid">
+        <div class="ov-header">Truth</div>
+        <div class="ov-header reformed">Reformed Protestant</div>
+        <div class="ov-header catholic">Roman Catholic</div>
+
+        <div class="ov-label">Justification</div>
+        <div class="ov-cell reformed"><strong>Legal Declaration</strong> — A once-for-all forensic act in which God declares the sinner righteous based on the imputed righteousness of Christ, received through faith alone.</div>
+        <div class="ov-cell catholic"><strong>Transformative Process</strong> — An ongoing process begun at baptism in which the sinner is made actually righteous through infused grace, faith, and cooperating works.</div>
+
+        <div class="ov-label">Righteousness</div>
+        <div class="ov-cell reformed"><strong>Imputed (Alien)</strong> — Christ's perfect righteousness is credited to the believer's account. We are clothed in a righteousness that is not our own (2 Cor 5:21; Phil 3:9).</div>
+        <div class="ov-cell catholic"><strong>Infused (Inherent)</strong> — Grace is poured into the soul through the sacraments, making the person actually and internally righteous. Justification is based on this real inner change.</div>
+
+        <div class="ov-label">Role of Works</div>
+        <div class="ov-cell reformed"><strong>Evidence, Not Cause</strong> — Good works are the inevitable fruit and evidence of genuine faith, but they play no role in the ground of justification. We are justified by faith alone, but faith is never alone.</div>
+        <div class="ov-cell catholic"><strong>Meritorious Cooperation</strong> — Good works performed in a state of grace merit an increase of justification and contribute to final salvation. Faith without works is incomplete (CCC 2010).</div>
+
+        <div class="ov-label">Assurance</div>
+        <div class="ov-cell reformed"><strong>Confident Assurance</strong> — Believers can and should have assurance of salvation based on God's promises, the witness of the Spirit, and the evidence of a changed life (Rom 8:16; 1 John 5:13).</div>
+        <div class="ov-cell catholic"><strong>Hopeful Uncertainty</strong> — One cannot have absolute certainty of final salvation. The Council of Trent declared it anathema to claim certainty of perseverance without special revelation (Session 6, Canon 16).</div>
+
+        <div class="ov-label">Authority</div>
+        <div class="ov-cell reformed"><strong>Scripture Alone</strong> — The Bible is the sole infallible rule of faith. Tradition is valuable but subordinate to and judged by Scripture (Sola Scriptura).</div>
+        <div class="ov-cell catholic"><strong>Scripture + Tradition + Magisterium</strong> — Sacred Scripture, Sacred Tradition, and the teaching authority of the Church together form the deposit of faith. The Magisterium authoritatively interprets both.</div>
+    </div>
+</section>
+
+<div class="content">
+
+<!-- ═══════════════ POINT 1: JUSTIFICATION ═══════════════ -->
+<section class="point-section" id="justification">
+    <div class="point-header">
+        <div class="point-badge">Core Issue 1 — The Article on Which the Church Stands or Falls</div>
+        <h2 class="point-title">What Is Justification?</h2>
+        <p class="point-subtitle">Is justification a legal declaration or an ongoing transformation?</p>
+    </div>
+
+    <div class="compare-grid">
+        <div class="compare-card reformed">
+            <div class="compare-card-label">Reformed Protestant Position</div>
+            <h3>Justification Is a Legal Declaration</h3>
+            <p>
+                Scripture teaches that justification is a forensic (legal) act in which God the Judge declares the guilty sinner
+                righteous — not on the basis of anything in the sinner, but solely on the basis of Christ's perfect righteousness
+                received through faith. It is a once-for-all verdict, not an ongoing process. When God justifies, He does not make
+                the sinner righteous internally (that is sanctification, a separate though inseparable work). He <em>declares</em>
+                the sinner righteous by crediting Christ's righteousness to their account. This is why Paul can say that God
+                "justifies the ungodly" (Rom 4:5) — a statement that would be a miscarriage of justice if justification required
+                actual internal righteousness.
+            </p>
+        </div>
+        <div class="compare-card catholic">
+            <div class="compare-card-label">Roman Catholic Position</div>
+            <h3>Justification Is a Transformative Process</h3>
+            <p>
+                Catholic theology, as defined at the Council of Trent (1545–1563), holds that justification is "not only the
+                remission of sins, but also the sanctification and renewal of the interior man" (Session 6, Chapter 7). It begins
+                at baptism, where grace is infused into the soul, and continues throughout life as the believer cooperates with
+                grace through faith, works, and the sacraments. Justification can be increased by good works and lost through
+                mortal sin. It is restored through the sacrament of penance (<a href="/history-confessions-story">confession</a>). This is not "works-righteousness" in
+                the crude sense — Catholics insist that grace is always the foundation. But it does mean that human cooperation
+                is essential to the process.
+            </p>
+        </div>
+    </div>
+
+    <div class="proof-texts">
+        <h4>Key Texts Examined</h4>
+        <div class="proof-grid">
+            <div class="proof-card reformed">
+                <div class="proof-ref">Romans 4:4–5</div>
+                <p class="proof-text">"Now to the one who works, his wages are not counted as a gift but as his due. And to the one who does not work but believes in him who justifies the ungodly, his faith is counted as righteousness."</p>
+                <p class="proof-note">Paul's language is explicitly forensic: faith is "counted" (<span style="color: var(--accent-violet);">λογίζεται</span>, logizetai — an accounting term) as righteousness. God justifies "the ungodly" — not the partially sanctified. This is a courtroom, not a hospital. The verdict is rendered on the basis of faith, not on the basis of an internal transformation already underway.</p>
+            </div>
+            <div class="proof-card reformed">
+                <div class="proof-ref">Romans 3:28</div>
+                <p class="proof-text">"For we hold that one is justified by faith apart from works of the law."</p>
+                <p class="proof-note">"Apart from works" — <span style="color: var(--accent-violet);">χωρὶς ἔργων</span> (chōris ergōn). Paul doesn't say "with the help of works" or "initially by faith, then maintained by works." He says <em>apart from</em> works. The ground of justification is faith alone. Martin <a href="/theologian-luther">Luther</a>'s addition of "alone" (allein) in his German translation was not an invention — it was an accurate interpretation of Paul's exclusionary logic.</p>
+            </div>
+            <div class="proof-card reformed">
+                <div class="proof-ref">Galatians 2:16</div>
+                <p class="proof-text">"…yet we know that a person is not justified by works of the law but through faith in Jesus Christ, so we also have believed in Christ Jesus, in order to be justified by faith in Christ and not by works of the law, because by works of the law no one will be justified."</p>
+                <p class="proof-note">Paul states the principle three times in one verse — an unusual rhetorical emphasis that leaves no room for misunderstanding. Not by works. Through faith. By faith. Not by works. The triple repetition is Paul's way of saying: "I really mean this."</p>
+            </div>
+            <div class="proof-card catholic">
+                <div class="proof-ref">Council of Trent, Session 6, Canon 9</div>
+                <p class="proof-text">"If anyone says that the sinner is justified by faith alone… let him be anathema."</p>
+                <p class="proof-note">Trent explicitly condemned sola fide. But this raises a problem: Paul says justification is "by faith apart from works" (Rom 3:28) and James says "a person is justified by works and not by faith alone" (James 2:24). Are they contradicting each other? No — because Paul and James use "justified" in different senses (see our James 2 section below). But Trent sided with a surface reading of James against the entire argument of Romans and Galatians.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="verdict">
+        <div class="verdict-label">Biblical Verdict</div>
+        <p>
+            Paul's argument in Romans 3–5 and Galatians 2–3 is sustained, emphatic, and unambiguous: justification is by
+            faith, apart from works, as a gift of grace. It is a declaration, not a process. It is received, not achieved.
+            The one who "does not work but believes" is justified (Rom 4:5). If justification is a process that requires
+            human cooperation, then Paul's entire argument against the Judaizers was wrong — and the Reformation was a tragic
+            misunderstanding of a perfectly clear apostle.
+        </p>
+    </div>
+</section>
+
+<!-- ═══════════════ POINT 2: RIGHTEOUSNESS ═══════════════ -->
+<section class="point-section" id="righteousness">
+    <div class="point-header">
+        <div class="point-badge">Core Issue 2 — The Great Exchange</div>
+        <h2 class="point-title">Imputed vs. Infused Righteousness</h2>
+        <p class="point-subtitle">Is Christ's righteousness credited to our account, or poured into our souls?</p>
+    </div>
+
+    <div class="compare-grid">
+        <div class="compare-card reformed">
+            <div class="compare-card-label">Reformed Protestant Position</div>
+            <h3>Alien Righteousness — Christ's Record Becomes Ours</h3>
+            <p>
+                The Reformation's most breathtaking claim: in justification, there is a "great exchange." Our sin is
+                imputed (credited) to Christ on the cross, and His perfect righteousness is imputed to us through faith.
+                We stand before God clothed not in our own righteousness — which Isaiah calls "filthy rags" (Isa 64:6) —
+                but in the spotless righteousness of Christ. This is an "alien" righteousness: it comes from outside us.
+                It is not something we produce; it is something we receive. And because it is Christ's righteousness and
+                not our own, it is perfect, complete, and can never be lost or diminished.
+            </p>
+        </div>
+        <div class="compare-card catholic">
+            <div class="compare-card-label">Roman Catholic Position</div>
+            <h3>Infused Righteousness — Grace Transforms the Soul</h3>
+            <p>
+                Catholic theology teaches that in justification, God does not merely declare the sinner righteous —
+                He actually <em>makes</em> them righteous by infusing sanctifying grace into the soul. This grace,
+                received initially through baptism and maintained through the sacraments, produces a real internal
+                change. The believer is justified on the basis of this real, inherent righteousness — not an external
+                legal fiction. This seems more "honest" to Catholic theologians: God doesn't pretend sinners are righteous;
+                He actually transforms them. But the question is whether this is what Scripture teaches.
+            </p>
+        </div>
+    </div>
+
+    <div class="proof-texts">
+        <h4>Key Texts Examined</h4>
+        <div class="proof-grid">
+            <div class="proof-card reformed">
+                <div class="proof-ref">2 Corinthians 5:21</div>
+                <p class="proof-text">"For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God."</p>
+                <p class="proof-note">This is the double imputation in one verse. Christ "became sin" — not by being made sinful internally, but by having our sin credited to His account. Likewise, we "become the righteousness of God" — not by being made internally perfect, but by having His righteousness credited to ours. If Christ's "becoming sin" was imputational (and no one thinks Christ was internally corrupted), then our "becoming righteous" is imputational too.</p>
+            </div>
+            <div class="proof-card reformed">
+                <div class="proof-ref">Philippians 3:8–9</div>
+                <p class="proof-text">"…that I may gain Christ and be found in him, not having a righteousness of my own that comes from the law, but that which comes through faith in Christ, the righteousness from God that depends on faith."</p>
+                <p class="proof-note">Paul explicitly contrasts two kinds of righteousness: "my own" vs. one that comes "from God" through faith. If justification were based on infused righteousness (real internal change), it would be Paul's "own" righteousness — even if grace-enabled. But Paul rejects <em>any</em> righteousness of his own and stakes everything on a righteousness that comes "from God."</p>
+            </div>
+            <div class="proof-card reformed">
+                <div class="proof-ref">Romans 4:6–8</div>
+                <p class="proof-text">"…just as David also speaks of the blessing of the one to whom God counts righteousness apart from works: 'Blessed are those whose lawless deeds are forgiven, and whose sins are covered; blessed is the man against whom the Lord will not count his sin.'"</p>
+                <p class="proof-note">Paul cites David to prove that righteousness is <em>counted</em> (imputed), not infused. God "counts" righteousness — an accounting term. And this counting is "apart from works." The parallel with forgiveness confirms the forensic nature: just as forgiveness is a declaration (not a process of becoming less guilty), so justification is a declaration (not a process of becoming more righteous).</p>
+            </div>
+            <div class="proof-card catholic">
+                <div class="proof-ref">2 Peter 1:4</div>
+                <p class="proof-text">"…by which he has granted to us his precious and very great promises, so that through them you may become partakers of the divine nature."</p>
+                <p class="proof-note">Catholics cite this as evidence of real internal transformation — we participate in God's own nature. But Reformed theology affirms this too — as sanctification. The question isn't whether believers are transformed (they are!), but whether that transformation is the <em>basis</em> of our right standing before God. Sanctification is real. But justification is the legal ground on which the ungodly sinner is declared righteous.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="exegetical">
+        <h4>Why This Distinction Matters Enormously</h4>
+        <p>
+            If justification is based on infused righteousness — real internal change — then how much change is enough?
+            When has the believer been sufficiently transformed to stand before a holy God? Catholic theology answers:
+            you can't know for certain in this life. And that is precisely the problem. A salvation that depends on how
+            much internal righteousness you've accumulated offers no ground for confident assurance.
+        </p>
+        <p>
+            But if justification is based on imputed righteousness — Christ's perfect record credited to your account —
+            then the basis of your standing before God is not your fluctuating sanctification but Christ's finished work.
+            You are as justified on your worst day as a Christian as on your best, because justification never depended
+            on your performance in the first place. As one Puritan put it: "I am not accepted because I am worthy, but
+            I am worthy because I am accepted."
+        </p>
+    </div>
+
+    <div class="verdict">
+        <div class="verdict-label">Biblical Verdict</div>
+        <p>
+            The great exchange — our sin imputed to Christ, His righteousness imputed to us — is the heart of the
+            gospel. It is what Paul calls "the righteousness of God" revealed in the gospel (Rom 1:17). It is alien,
+            external, and complete. And it is the only righteousness that can stand before a holy God, because it
+            is the only perfect righteousness that has ever existed — the righteousness of Christ Himself.
+        </p>
+    </div>
+</section>
+
+<!-- ═══════════════ POINT 3: GRACE & MERIT ═══════════════ -->
+<section class="point-section" id="grace-merit">
+    <div class="point-header">
+        <div class="point-badge">Core Issue 3 — Can We Earn Anything?</div>
+        <h2 class="point-title">Grace Alone vs. Grace + Merit</h2>
+        <p class="point-subtitle">Is salvation entirely God's gift, or can human works contribute to it?</p>
+    </div>
+
+    <div class="compare-grid">
+        <div class="compare-card reformed">
+            <div class="compare-card-label">Reformed Protestant Position</div>
+            <h3>Sola Gratia — Grace Alone, From Start to Finish</h3>
+            <p>
+                Scripture teaches that salvation is by grace alone, through faith alone, in Christ alone. Grace is not
+                merely the starting point of salvation — it is the entire substance. God chose us by grace (Eph 1:4–5),
+                called us by grace (2 Tim 1:9), justified us by grace (Rom 3:24), and will glorify us by grace.
+                No human work — even a grace-enabled work — can merit or contribute to the ground of our justification.
+                Works are the fruit of salvation, not the root. As Paul says with devastating clarity: "If it is by grace,
+                it is no longer on the basis of works; otherwise grace would no longer be grace" (Rom 11:6).
+            </p>
+        </div>
+        <div class="compare-card catholic">
+            <div class="compare-card-label">Roman Catholic Position</div>
+            <h3>Grace Enables Meritorious Works</h3>
+            <p>
+                Catholic theology affirms that grace is the foundation — no one can merit the initial grace of justification
+                (CCC 2010). But once justified, the believer can perform works that genuinely <em>merit</em> an increase of
+                grace and eternal life. This is "condign merit" — merit in the proper sense, because the Holy Spirit is
+                working through the believer. Catholics insist this is not Pelagianism (earning salvation from scratch) because
+                grace is always presupposed. But it does mean that the believer's ongoing cooperation with grace contributes
+                to their final salvation.
+            </p>
+        </div>
+    </div>
+
+    <div class="scripture-block">
+        "And if by grace, then it is no longer on the basis of works; otherwise grace would no longer be grace."
+        <span class="scripture-ref">— Romans 11:6 (ESV)</span>
+    </div>
+
+    <div class="exegetical">
+        <h4>The "Grace-Enabled Merit" Problem</h4>
+        <p>
+            Catholic theology tries to thread a needle: works are meritorious, but only because grace enables them.
+            This sounds sophisticated, but Paul anticipated exactly this argument and demolished it in advance.
+            Romans 11:6 doesn't say "if it is by works apart from grace, grace is no longer grace." It says
+            "if it is by grace, it is no longer on the basis of works" — <em>full stop</em>. Grace and works
+            as grounds of justification are mutually exclusive categories. You cannot add works to grace — even
+            grace-enabled works — without destroying grace.
+        </p>
+        <p>
+            Think of it this way: if a billionaire gives you a $10 million gift, and then says "but you need to earn
+            the last $100 to make it real" — is it still a gift? Technically, 99.999% is gift. But the nature of the
+            transaction has changed. The $100 you earned means the billionaire <em>owed</em> you the rest.
+            Paul's logic is uncompromising: grace and merit cannot coexist as grounds of justification. It's one or the other.
+        </p>
+    </div>
+
+    <div class="verdict">
+        <div class="verdict-label">Biblical Verdict</div>
+        <p>
+            Paul's grace/works antithesis is not about works "apart from grace" vs. works "enabled by grace." It is
+            about works — period — as a ground of justification. If any work, however grace-enabled, contributes to
+            the basis on which God declares us righteous, then grace is compromised. The Reformation cry of <em>sola
+            gratia</em> was not a slogan — it was Paul's own logic, recovered after centuries of accumulated confusion.
+        </p>
+    </div>
+</section>
+
+<!-- ═══════════════ POINT 4: ASSURANCE ═══════════════ -->
+<section class="point-section" id="assurance">
+    <div class="point-header">
+        <div class="point-badge">Core Issue 4 — Can You Know You're Saved?</div>
+        <h2 class="point-title">Confident Assurance vs. Hopeful Uncertainty</h2>
+        <p class="point-subtitle">The pastoral difference between these two systems is staggering.</p>
+    </div>
+
+    <div class="compare-grid">
+        <div class="compare-card reformed">
+            <div class="compare-card-label">Reformed Protestant Position</div>
+            <h3>Believers Can and Should Have Assurance</h3>
+            <p>
+                If justification is a completed legal act based on Christ's finished work, then assurance is not
+                presumption — it is the proper response to a settled verdict. Scripture commands assurance: "I write
+                these things to you who believe… so that you may <em>know</em> that you have eternal life" (1 John 5:13).
+                The Holy Spirit testifies with our spirit that we are God's children (Rom 8:16). The basis of assurance
+                is not our performance but God's promise, Christ's work, and the Spirit's witness.
+            </p>
+        </div>
+        <div class="compare-card catholic">
+            <div class="compare-card-label">Roman Catholic Position</div>
+            <h3>Certainty of Salvation Is Presumptuous</h3>
+            <p>
+                The Council of Trent declared: "No one can know with a certainty of faith… that he has obtained the grace
+                of God" (Session 6, Chapter 9). Since justification can be lost through mortal sin, and since final
+                salvation depends on persevering in grace through cooperation with works and sacraments, absolute certainty
+                is impossible apart from special revelation. Catholics are encouraged to have <em>hope</em> and <em>trust</em>
+                in God's mercy, but not <em>certainty</em> of their final destiny.
+            </p>
+        </div>
+    </div>
+
+    <div class="proof-texts">
+        <h4>Key Texts Examined</h4>
+        <div class="proof-grid">
+            <div class="proof-card reformed">
+                <div class="proof-ref">1 John 5:13</div>
+                <p class="proof-text">"I write these things to you who believe in the name of the Son of God, that you may know that you have eternal life."</p>
+                <p class="proof-note">John doesn't write so that believers may <em>hope</em> or <em>wish</em> — he writes so they may <em>know</em> (<span style="color: var(--accent-violet);">εἰδῆτε</span>, eidēte). This is not a suggestion of hopeful uncertainty. It is a divinely inspired statement that assurance is the birthright of every genuine believer.</p>
+            </div>
+            <div class="proof-card reformed">
+                <div class="proof-ref">Romans 8:1</div>
+                <p class="proof-text">"There is therefore now no condemnation for those who are in Christ Jesus."</p>
+                <p class="proof-note">"No condemnation" — not "less condemnation" or "condemnation postponed pending final evaluation." The verdict is in. For those in Christ, the case is closed. The gavel has fallen. And it fell on Christ at the cross, not on us.</p>
+            </div>
+            <div class="proof-card reformed">
+                <div class="proof-ref">Romans 8:33–34</div>
+                <p class="proof-text">"Who shall bring any charge against God's elect? It is God who justifies. Who is to condemn? Christ Jesus is the one who died — more than that, who was raised — who is at the right hand of God, who indeed is interceding for us."</p>
+                <p class="proof-note">Paul's courtroom drama: Who will prosecute? God is the justifier. Who will condemn? Christ is the defender. The prosecution has been dismissed. The verdict is acquittal. And the defendant's Advocate sits at the right hand of the Judge — interceding perpetually.</p>
+            </div>
+            <div class="proof-card catholic">
+                <div class="proof-ref">Philippians 2:12</div>
+                <p class="proof-text">"…work out your own salvation with fear and trembling."</p>
+                <p class="proof-note">Catholics cite this as evidence against easy assurance. But v. 13 completes the thought: "for it is God who works in you, both to will and to work for his good pleasure." The fear and trembling is not uncertainty about God's verdict — it is reverent awe at God's <a href="/question-sovereignty-logic">sovereign</a> work within us. We work <em>out</em> (not work <em>for</em>) a salvation that God has already worked <em>in</em>.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="verdict">
+        <div class="verdict-label">Biblical Verdict</div>
+        <p>
+            The pastoral difference is enormous. If you're on your deathbed and someone asks, "Are you sure you're
+            going to heaven?" — the Catholic system says you should hope so. The biblical answer is: "I <em>know</em>
+            whom I have believed, and I am convinced that he is able to guard until that day what has been entrusted
+            to me" (2 Tim 1:12). Assurance is not arrogance. It is faith taking God at His word.
+        </p>
+    </div>
+</section>
+
+<!-- ═══════════════ POINT 5: JAMES 2 ═══════════════ -->
+<section class="point-section" id="james-2">
+    <div class="point-header">
+        <div class="point-badge">The Supposed Contradiction</div>
+        <h2 class="point-title">What About James 2? "Faith Without Works Is Dead"</h2>
+        <p class="point-subtitle">Does James contradict Paul? Catholics say yes. Scripture says no.</p>
+    </div>
+
+    <div class="scripture-block">
+        "You see that a person is justified by works and not by faith alone."
+        <span class="scripture-ref">— James 2:24 (ESV)</span>
+    </div>
+
+    <div class="compare-grid">
+        <div class="compare-card reformed">
+            <div class="compare-card-label">How Paul and James Harmonize</div>
+            <h3>Different Questions, Different Audiences, Same Gospel</h3>
+            <p>
+                Paul and James are answering different questions. Paul asks: "On what basis does God declare a sinner righteous?"
+                Answer: faith alone, apart from works (Rom 3:28). James asks: "How can you tell if someone's faith is genuine?"
+                Answer: by their works (James 2:18). Paul is talking about the <em>ground</em> of justification before God.
+                James is talking about the <em>evidence</em> of justification before men. Paul opposes works as a cause of
+                justification; James opposes a dead, fruitless "faith" that produces no works. They are fighting on two fronts:
+                Paul against legalism, James against antinomianism. The Reformed position has always affirmed both: we are
+                justified by faith alone, but the faith that justifies is never alone — it always produces the fruit of good works.
+            </p>
+        </div>
+        <div class="compare-card catholic">
+            <div class="compare-card-label">Catholic Reading</div>
+            <h3>James Corrects an Overemphasis on Faith Alone</h3>
+            <p>
+                Catholic interpreters see James as confirming that works genuinely contribute to justification — not
+                merely as evidence but as a real component. James says "a person is justified by works and not by faith
+                alone" (2:24), and this is taken at face value as a correction to any "faith alone" formulation. On this
+                reading, Paul and James represent complementary but genuinely different emphases, with James showing that
+                works are not merely evidence but necessary contributing causes to right standing before God.
+            </p>
+        </div>
+    </div>
+
+    <div class="exegetical">
+        <h4>Exegetical Note — Same Word, Different Meanings</h4>
+        <p>
+            The key is that Paul and James use "justified" (<span style="color: var(--accent-violet);">δικαιόω</span>, dikaioō)
+            in different senses. Paul uses it forensically — God's legal declaration. James uses it demonstratively — to
+            "vindicate" or "show to be righteous" before others. We see this in James's examples: Abraham was "justified"
+            by offering Isaac (James 2:21) — but <em>when</em> was he declared righteous before God? Genesis 15:6, years
+            before the offering of Isaac. Abraham's offering demonstrated a faith that already existed.
+        </p>
+        <p>
+            Similarly, James's point about Rahab (2:25) is that her works <em>demonstrated</em> her faith. The spies
+            couldn't see her heart — they could only see her actions. James is telling his readers: "You claim to have
+            faith? Show me. Because genuine faith always produces visible fruit."
+        </p>
+        <p>
+            The Reformers never taught that saving faith is bare intellectual assent with no effect on life. As
+            Luther himself said: "We are saved by faith alone, but the faith that saves is never alone." James would
+            have agreed completely.
+        </p>
+    </div>
+
+    <div class="verdict">
+        <div class="verdict-label">Biblical Verdict</div>
+        <p>
+            James and Paul are perfect allies. Paul says: "You are not justified by works — so don't try to earn it."
+            James says: "If you have no works, your faith is dead — so don't fake it." Together they destroy both
+            legalism and cheap grace. The Reformed position holds both truths simultaneously: justification is by
+            faith alone (Paul), but genuine faith is never alone (James). This is not a compromise — it is the
+            full biblical picture.
+        </p>
+    </div>
+</section>
+
+<!-- ═══════════════ CONCLUSION ═══════════════ -->
+<section class="point-section" id="conclusion">
+    <div class="point-header">
+        <div class="point-badge">The Heart of the Matter</div>
+        <h2 class="point-title">Why the Reformation Still Matters</h2>
+    </div>
+
+    <p style="font-size: 1rem; line-height: 1.9; color: var(--text-secondary); margin-bottom: 1.5rem;">
+        The Reformation was not a fight about politics, power, or personalities. It was a fight about the most
+        important question any human being will ever face: <strong style="color: var(--text-primary);">How can a sinful person stand righteous before a holy God?</strong>
+    </p>
+    <p style="font-size: 1rem; line-height: 1.9; color: var(--text-secondary); margin-bottom: 1.5rem;">
+        The Catholic answer, at its best, is this: God gives you grace to enable you to cooperate with Him in a
+        lifelong process of becoming righteous enough to inherit eternal life. The Protestant answer is this: God gives
+        you Christ — and Christ is enough. His righteousness, imputed to you by faith, is your complete and permanent
+        standing before God. You contribute nothing to this righteousness except the sin from which you are being saved.
+    </p>
+    <p style="font-size: 1rem; line-height: 1.9; color: var(--text-secondary); margin-bottom: 1.5rem;">
+        One system says: "Christ plus your cooperation." The other says: "Christ alone." And the distance between those
+        two answers is the distance between a salvation you can never be sure of and a salvation sealed by the blood
+        of the eternal Son of God.
+    </p>
+
+    <div class="scripture-block">
+        "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
+        <span class="scripture-ref">— <a href="/question-faithgift">Ephesians 2</a>:8–9 (ESV)</span>
+    </div>
+
+    <!-- CROSS LINKS -->
+    <div class="cross-links">
+        <h3>Continue Your Study</h3>
+        <div class="cross-link-grid">
+            <a href="/compare-calvinism-<a href="/compare-calvinism-arminianism">arminianism</a>" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Calvinism vs. Arminianism</div>
+                <div class="cross-link-desc">The five points compared with Scripture</div>
+            </a>
+            <a href="/compare-<a href="/question-chosen">predestination</a>-<a href="/question-foreknowledge">foreknowledge</a>" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Predestination vs. Foreknowledge</div>
+                <div class="cross-link-desc">How God's decrees relate to His knowledge</div>
+            </a>
+            <a href="/compare-<a href="/compare-monergism-<a href="/compare-monergism-synergism">synergism</a>">monergism</a>-synergism" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Monergism vs. Synergism</div>
+                <div class="cross-link-desc">The core divide beneath every soteriological debate</div>
+            </a>
+            <a href="/compare-calvinism-open-theism" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Classical Theism vs. Open Theism</div>
+                <div class="cross-link-desc">Does God know the future exhaustively?</div>
+            </a>
+            <a href="/question-romans9" class="cross-link">
+                <div class="cross-link-label">Deep Dive</div>
+                <div class="cross-link-title">Romans 9 Explained</div>
+                <div class="cross-link-desc">The definitive chapter on sovereign election</div>
+            </a>
+            <a href="/systematic-ordo-salutis" class="cross-link">
+                <div class="cross-link-label">Systematic</div>
+                <div class="cross-link-title">Ordo Salutis</div>
+                <div class="cross-link-desc">The order of salvation in Reformed theology</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+</div>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/systematic-justification" class="related-article-card">
+        <span class="related-article-cat">🏛 Theology</span>
+        <span class="related-article-title">Justification by Faith Alone</span>
+        <span class="related-article-desc">Justification by Faith Alone: How God declares sinners righteous through the imputed righteousness o...</span>
+      </a>
+      <a href="/apologetic-unreached" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">What About Those Who Never Heard the Gospel?</span>
+        <span class="related-article-desc">What about the billions who never heard the gospel? Scripture reveals God</span>
+      </a>
+      <a href="/demolition-hub" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">1 Corinthians 15:22 — Verse Demolition #4</span>
+        <span class="related-article-desc">Demolition #4: 1 Corinthians 15:22 proves <a href="/systematic-atonement">particular redemption</a>, not universal atonement. The parall...</span>
+      </a>
+      /a>
+      <a href="/objection-why-believe" class="related-article-card">
+        <span class="related-article-cat">🛡 Objections Answered</span>
+        <span class="related-article-title">If God Already Chose Us, Why Do We Have to Believe?</span>
+        <span class="related-article-desc">A letter to the sincere Christian who just discovered <a href="/systematic-election">election</a> and wonders if faith is meaningless. ...</span>
+      </a>
+      <a href="/theologian-<a href="/theologian-calvin">calvin</a>" class="related-article-card">
+        <span class="related-article-cat">🧓 Theologians</span>
+        <span class="related-article-title">John Calvin: Theologian of God&#039;s Sovereignty</span>
+        <span class="related-article-desc">A comprehensive theological biography of John Calvin, the theologian of God</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+    </footer>
+
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

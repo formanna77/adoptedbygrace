@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Psychology meets theology: 6 deep dives on why people resist God's sovereignty. Scripture predicted it. Modern psychology confirms it. The answer itself is evidence for the truth.">
+    <meta property="og:title" content="The Psychology of Resistance — Adopted by Grace">
+    <meta property="og:description" content="Why do believers resist what Scripture plainly teaches about God's sovereignty? Modern psychology confirms what Paul wrote in Romans 1:18 — the answer itself becomes evidence for the truth.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/psychology-hub.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The Psychology of Resistance — Adopted by Grace">
+    <meta name="twitter:description" content="Psychology meets theology: why people resist God's sovereignty — and how Scripture explained it first.">
+    <link rel="canonical" href="https://adoptedbygrace.net/psychology-hub.html">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>The Psychology of Resistance — Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <!--
+  ============================================================
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+  -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <main id="main-content">
+        <section class="hub-hero">
+            <div class="eyebrow">Psychology &amp; Theology</div>
+            <h1 class="hero-title">The Psychology of <span class="gold">Resistance</span></h1>
+            <p class="hub-subtitle">Scripture teaches that humans actively suppress truth they already know. Modern psychology just caught up—and calls it motivated reasoning. Here's why understanding resistance transforms how you love objectors, pray for the hardened, and trust the Spirit.</p>
+
+            <div class="hub-stats">
+                <div class="hub-stat">21 <span>Deep Dives</span></div>
+                <div class="hub-stat">1 <span>Collection</span></div>
+            </div>
+        </section>
+
+        <section class="hub-intro">
+            <h2>Why This Series Exists</h2>
+            <p>Romans 1:18 is the thesis statement for this entire project: <em>"The wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who suppress the truth in unrighteousness."</em> Paul claims that people don't simply lack evidence for God's sovereignty — they actively suppress it. They know it. They see it. And they hold it down.</p>
+            <p>This is explosive because it explains a psychological phenomenon modern science has only recently begun to document: motivated reasoning, cognitive bias, and the active distortion of evidence to protect a worldview. Everything modern psychology has catalogued, Scripture predicted. Everything science has discovered about self-deception, the Bible explained first — and told us exactly why.</p>
+            <p>This series bridges psychology and theology to show that resisting God's sovereignty is not intellectual failure — it's spiritual resistance. It's not stupidity — it's suppression. And understanding this connection transforms how we love objectors, pray for the hardened, and trust the Holy Spirit's work of illumination.</p>
+            <div class="intro-blockquote">
+                <p>"For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who suppress the truth in unrighteousness. For what can be known about God is plain to them, because God has shown it to them. For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. So they are without excuse."</p>
+                <span class="scripture-ref">Romans 1:18–20 (ESV)</span>
+            </div>
+            <div style="margin-top: 3rem; padding: 2rem; background: rgba(232, 100, 44, 0.05); border-left: 4px solid rgba(232, 100, 44, 0.5); border-radius: 4px;">
+                <p style="color: var(--text-secondary); font-style: italic; margin: 0; line-height: 1.8;">If you've landed here because you're wrestling with doubt, facing objections from brilliant people, or wondering why faith seems so counterintuitive — you're in the right place. You're not stupid. You're not alone. And understanding why resistance happens is the first step to compassion, both for others and yourself.</p>
+            </div>
+        </section>
+
+        <section class="hub-container">
+            <div class="hub-grid">
+                <!-- Card 01 - LIVE -->
+                <a href="/psychology-why-we-resist" class="hub-card">
+                    <span class="card-number">01</span>
+                    <h3 class="card-title">Why We Resist: The Psychology of Rejecting God's Sovereignty</h3>
+                    <p class="card-description">The flagship overview. Six psychological phenomena Scripture predicted. The devastation: resisting sovereign grace is itself evidence for the truth of sovereign grace.</p>
+                    <span class="card-meta">Start Here</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
+                </a>
+
+                <!-- Card 02 - LIVE -->
+                <a href="/psychology-autonomy-illusion" class="hub-card">
+                    <span class="card-number">02</span>
+                    <h3 class="card-title">The Autonomy Illusion: Why 'Free Will' Feels So Real</h3>
+                    <p class="card-description">Neuroscience reveals the brain produces convincing illusions of choice. Libet's experiments, neurosurgical evidence, and why the illusion persists—even after we understand it.</p>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
+                </a>
+
+                <!-- Card 03 - LIVE -->
+                <a href="/psychology-cognitive-biases" class="hub-card">
+                    <span class="card-number">03</span>
+                    <h3 class="card-title">Cognitive Biases and the Blindness of Sin</h3>
+                    <p class="card-description">Confirmation bias, backfire effect, Dunning-Kruger—psychology's catalog of self-deception. Scripture diagnoses it as the noetic effects of sin: minds corrupted by hearts turned away from God.</p>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
+                </a>
+
+                <!-- Card 04 - LIVE -->
+                <a href="/psychology-offense-of-grace" class="hub-card">
+                    <span class="card-number">04</span>
+                    <h3 class="card-title">The Offense of Grace: Why Unconditional Election Triggers Moral Outrage</h3>
+                    <p class="card-description">Why does sovereign election infuriate? Moral foundations theory, psychological reactance, and just-world bias reveal the exact mechanism Paul anticipated in Romans 9—2,000 years before modern psychology named it.</p>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
+                </a>
+
+                <!-- Card 05 -->
+                <a href="/psychology-suppressing-truth" class="hub-card">
+                    <span class="card-number">05</span>
+                    <h3 class="card-title">Suppressing the Truth: Romans 1:18 and Motivated Reasoning</h3>
+                    <p class="card-description">The explosive claim: humans don't lack evidence—they suppress it. Modern psychology calls it motivated reasoning. Scripture called it suppression. Paul diagnosed what neuroscience confirms.</p>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
+                </a>
+
+                <!-- Card 06 -->
+                <a href="/psychology-terror-management" class="hub-card">
+                    <span class="card-number">06</span>
+                    <h3 class="card-title">Terror Management and the Threat of Sovereignty</h3>
+                    <p class="card-description">Why does God's control feel like death? Terror Management Theory explains: mortality fear drives us to build immortality projects. Sovereign grace obliterates them—offering the only real immortality.</p>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
+                </a>
+
+                <!-- Card 07 -->
+                <a href="/psychology-pride-root-objection" class="hub-card">
+                    <span class="card-number">07</span>
+                    <h3 class="card-title">Pride: The Root of Every Objection to God's Sovereignty</h3>
+                    <p class="card-description">Strip away the arguments and at the bottom sits a single ancient refusal: I will not be a creature who was chosen. Five psychological mechanisms. One biblical diagnosis.</p>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
+                </a>
+
+                <!-- Card 08 -->
+                <a href="/psychology-addiction-proof" class="hub-card">
+                    <span class="card-number">08</span>
+                    <h3 class="card-title">What Every Recovering Addict Already Knows About Salvation</h3>
+                    <p class="card-description">The 12 steps prove what Scripture teaches: the will is enslaved to sin, and freedom comes only through a power greater than ourselves.</p>
+                    <div class="card-scripture">ROMANS 3:23</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 09 -->
+                <a href="/psychology-attribution-error" class="hub-card">
+                    <span class="card-number">09</span>
+                    <h3 class="card-title">The Credit Thief Inside Your Brain</h3>
+                    <p class="card-description">The Fundamental Attribution Error explains why humans instinctively take credit for outcomes they didn't cause—including their own salvation.</p>
+                    <div class="card-scripture">EPHESIANS 2:8-9</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 10 -->
+                <a href="/psychology-backfire-effect" class="hub-card">
+                    <span class="card-number">10</span>
+                    <h3 class="card-title">Why Evidence Makes Some People Believe Harder</h3>
+                    <p class="card-description">Why does showing someone Scripture about election make them believe harder in free will? The backfire effect reveals how evidence can entrench resistance.</p>
+                    <div class="card-scripture">ROMANS 1:18</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 11 -->
+                <a href="/psychology-emotional-vs-rational" class="hub-card">
+                    <span class="card-number">11</span>
+                    <h3 class="card-title">When Your Heart Rejects What Your Mind Accepts</h3>
+                    <p class="card-description">When your head knows sovereignty is biblical but your heart rejects it. Dual-process theory explains why emotion can override intellect.</p>
+                    <div class="card-scripture">PROVERBS 23:7</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 12 -->
+                <a href="/psychology-fear-control" class="hub-card">
+                    <span class="card-number">12</span>
+                    <h3 class="card-title">Fear of Losing Control: Why God's Sovereignty Terrifies Us</h3>
+                    <p class="card-description">Why does God's sovereignty terrify us? Because losing control feels like dying. Understanding this fear is the path to freedom.</p>
+                    <div class="card-scripture">PSALM 46:10</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 13 -->
+                <a href="/psychology-groupthink" class="hub-card">
+                    <span class="card-number">13</span>
+                    <h3 class="card-title">Why Your Church Friends All Agree With Each Other</h3>
+                    <p class="card-description">How conformity bias and groupthink keep believers from examining Scripture honestly. When the crowd's certainty replaces individual discernment.</p>
+                    <div class="card-scripture">ROMANS 12:2</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 14 -->
+                <a href="/psychology-hostility-reaction" class="hub-card">
+                    <span class="card-number">14</span>
+                    <h3 class="card-title">Why the Truth That Makes You Angriest Is the One That Will Set You Free</h3>
+                    <p class="card-description">When a lifelong Christian becomes enraged at grace, something deeper than theology is happening. The hostility reaction is evidence for the truth.</p>
+                    <div class="card-scripture">ROMANS 1:18</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 15 -->
+                <a href="/psychology-identity-threat" class="hub-card">
+                    <span class="card-number">15</span>
+                    <h3 class="card-title">Why Grace Feels Like an Attack on Your Identity</h3>
+                    <p class="card-description">Why does grace feel like an attack on your identity? Identity-protective cognition explains how belief becomes self-concept.</p>
+                    <div class="card-scripture">MATTHEW 16:25</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 16 -->
+                <a href="/psychology-illusion-free-will" class="hub-card">
+                    <span class="card-number">16</span>
+                    <h3 class="card-title">Your Brain Decides Before You Do</h3>
+                    <p class="card-description">Neuroscience reveals what Scripture has always known: your brain decides before you do. What this means for choosing God.</p>
+                    <div class="card-scripture">PROVERBS 16:9</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 17 -->
+                <a href="/psychology-reactance-theory" class="hub-card">
+                    <span class="card-number">17</span>
+                    <h3 class="card-title">Why Your Soul Rebels When It Hears the Truth</h3>
+                    <p class="card-description">Why your soul rebels when it hears the truth: reactance theory explains the automatic psychological resistance to God's sovereignty.</p>
+                    <div class="card-scripture">ROMANS 7:18</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 18 -->
+                <a href="/psychology-sincerity-trap" class="hub-card">
+                    <span class="card-number">18</span>
+                    <h3 class="card-title">Why the Most Sincere People Are the Hardest to Reach</h3>
+                    <p class="card-description">Why the warmest, most sincere believers are often the hardest to reach. How sincerity becomes the armor against truth.</p>
+                    <div class="card-scripture">JEREMIAH 17:9</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 19 -->
+                <a href="/psychology-stockholm-syndrome-sin" class="hub-card">
+                    <span class="card-number">19</span>
+                    <h3 class="card-title">The Stockholm Syndrome of Sin</h3>
+                    <p class="card-description">Hostages bond with their captors. Sinners bond with their sin. Why the enslaved will fights for the prison and defends the chains.</p>
+                    <div class="card-scripture">JEREMIAH 17:9</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 20 -->
+                <a href="/psychology-sunk-cost-faith" class="hub-card">
+                    <span class="card-number">20</span>
+                    <h3 class="card-title">The Sunk Cost of Self-Made Faith</h3>
+                    <p class="card-description">The sunk cost fallacy explains why believers resist grace the longer they've taught 'I chose God.' Identity investment creates walls of rationalization.</p>
+                    <div class="card-scripture">LUKE 9:25</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Card 21 -->
+                <a href="/psychology-system-justification" class="hub-card">
+                    <span class="card-number">21</span>
+                    <h3 class="card-title">Why People Defend the Theology That Enslaves Them</h3>
+                    <p class="card-description">System Justification Theory explains why people defend unfair systems—even ones that hurt them. It also explains Arminianism.</p>
+                    <div class="card-scripture">GALATIANS 5:1</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <div class="humor-bar">
+            Twenty-one deep dives into the psychology of resistance. One thesis: this hub has not been <em>predestined</em> to convince anyone. But it was predestined to try.
+        </div>
+
+        <section class="matters-section reveal">
+            <div class="matters-content">
+                <h2>Why Understanding Resistance Matters</h2>
+                <div class="matters-list">
+                    <div class="matters-item">
+                        <h3>Love Objectors Better</h3>
+                        <p>They're not stupid. They're human. Understanding the psychological mechanisms of resistance transforms how we listen, respond, and truly honor someone's journey toward truth.</p>
+                    </div>
+                    <div class="matters-item">
+                        <h3>Pray More, Argue Less</h3>
+                        <p>When you understand that resistance is ultimately spiritual—suppression, not ignorance—you stop fighting with arguments alone. You begin interceding for illumination.</p>
+                    </div>
+                    <div class="matters-item">
+                        <h3>Trust the Spirit's Work</h3>
+                        <p>Only the Holy Spirit can overcome suppression. Human logic is necessary but insufficient. This realization frees us from the burden of arguing someone into the kingdom.</p>
+                    </div>
+                    <div class="matters-item">
+                        <h3>Recognize Your Own Blind Spots</h3>
+                        <p>If we understand how others suppress truth, we can examine where we do the same. What biblical realities are we holding down? What does our resistance reveal about our hearts?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cross-ref-section reveal">
+            <h3>Related Hubs & Perspectives</h3>
+            <div class="cross-ref-links">
+                <a href="/questions">Questions</a>
+                <a href="/demolition-hub">Demolition Hub</a>
+                <a href="/secular-evidence">Secular Evidence</a>
+                <a href="/systematic-theology">Systematic Theology</a>
+                <a href="/stories">Stories & Parables</a>
+                <a href="/devotionals">Devotionals</a>
+            </div>
+        </section>
+
+        <!-- Crown Jewel Banner -->
+        <div style="max-width: 800px; margin: 3rem auto; padding: 2.5rem; background: linear-gradient(135deg, rgba(232, 100, 44, 0.08) 0%, rgba(139, 92, 246, 0.05) 100%); border: 2px solid rgba(232, 100, 44, 0.25); border-radius: 12px; text-align: center;">
+            <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4em; color: #e8642c; margin-bottom: 1rem;">URGENT — WHY WE RESIST THE TRUTH</p>
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.6rem; color: #f0ece4; margin-bottom: 1rem; line-height: 1.3;">Are You Sure You're Saved?</h3>
+            <p style="color: #9a958c; font-size: 1rem; line-height: 1.7; max-width: 600px; margin: 0 auto 1.5rem;">The human mind has built-in defenses against truth that exposes your powerlessness. This isn't theological disagreement—it's spiritual danger disguised as orthodoxy. Psychology and Scripture converge on one devastating reality: you may be relying on your choice instead of grace. And that choice has damned millions.</p>
+            <a href="/psychology-cost-of-rejecting-grace" style="display: inline-block; padding: 0.9rem 2rem; background: linear-gradient(135deg, #e8642c, #c0541e); color: #fff; font-weight: 700; font-size: 0.95rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(232, 100, 44, 0.25);">Read This Now →</a>
+        </div>
+
+        <!-- RELATED-ARTICLES-START -->
+        <section class="related-articles" aria-label="Related articles">
+            <div class="related-articles-inner">
+                <h2 class="related-articles-heading">Keep Exploring</h2>
+                <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+                <div class="related-articles-grid">
+                    <a href="/psalms-election" class="related-article-card">
+                        <span class="related-article-cat">🎵 Psalms &amp; Poetry</span>
+                        <span class="related-article-title">Election in the Psalms</span>
+                        <span class="related-article-desc">How David understood himself as chosen by grace, not merit. Election themes throughout the Psalms—Ps...</span>
+                    </a>
+                    <a href="/secular-algorithm-sovereignty" class="related-article-card">
+                        <span class="related-article-cat">🔬 Secular Evidence</span>
+                        <span class="related-article-title">The Algorithm Knows You Better Than You Know Yourself</span>
+                        <span class="related-article-desc">Netflix knows what you want before you do—not because of your autonomous choice, but because...</span>
+                    </a>
+                    <a href="/ot-abel-cain" class="related-article-card">
+                        <span class="related-article-cat">📚 Old Testament</span>
+                        <span class="related-article-title">Abel and Cain: The First Election</span>
+                        <span class="related-article-desc">Genesis 4 reveals God's sovereign choice from the very beginning of human history.</span>
+                    </a>
+                    <a href="/question-chosen" class="related-article-card">
+                        <span class="related-article-cat">📖 Questions</span>
+                        <span class="related-article-title">Chosen Before the Foundation of the World – Ephesians 1:3-11</span>
+                        <span class="related-article-desc">Ephesians 1:3-11 examined in depth. God chose us in Christ before the creation of the world...</span>
+                    </a>
+                    <a href="/devotionals" class="related-article-card">
+                        <span class="related-article-cat">🕯 Devotionals</span>
+                        <span class="related-article-title">Devotionals</span>
+                        <span class="related-article-desc">Meditations on sovereign grace — devotionals exploring election, regeneration, and the transformative power of being known...</span>
+                    </a>
+                </div>
+                <div class="related-articles-browse">
+                    <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+                    <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+                </div>
+            </div>
+        </section>
+        <!-- RELATED-ARTICLES-END -->
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/stories">Stories &amp; Parables</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/psychology-hub">Psychology of Resistance</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li><a href="/creeds-confessions">Creeds &amp; Confessions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li></li>
+                    <li><a href="#search">Search</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <p class="footer-copyright">Soli Deo Gloria — Adopted by Grace © 2025</p>
+    </footer>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

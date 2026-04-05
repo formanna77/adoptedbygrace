@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The best of Adopted by Grace — one hand-picked article from every category on the site. If you read nothing else, read these.">
+    <meta property="og:title" content="The Best Reads — Adopted by Grace">
+    <meta property="og:description" content="The most powerful content on the site — one hand-picked article from every category. Start anywhere. Go deeper everywhere.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/best-reads.html">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Best Reads — Adopted by Grace">
+    <meta name="twitter:description" content="The most powerful content on the site — one hand-picked article from every category.">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <link rel="canonical" href="https://adoptedbygrace.net/best-reads.html">
+    <title>The Best Reads — Adopted by Grace</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Best Reads",
+        "description": "The best articles on Adopted by Grace — one hand-picked article from every category on the site.",
+        "url": "https://adoptedbygrace.net/best-reads.html",
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hub-hero">
+        <span class="hub-eyebrow">Curated Collection</span>
+        <h1>The Best Reads</h1>
+        <p class="hub-subtitle">One hand-picked article from every category on the site. Eighteen doorways into the deepest truths about God, grace, and you. Start anywhere. Go deeper everywhere.</p>
+        <div class="hub-stats">
+            <div class="hub-stat">18 <span>Hand-Picked Articles</span></div>
+            <div class="hub-stat">6 <span>Categories</span></div>
+        </div>
+    </section>
+
+    <!-- ==================== CROWN JEWEL ==================== -->
+    <div class="hub-container">
+        <a href="/question-where-did-your-faith-come-from" class="hub-card hub-card-featured">
+            <span class="card-meta">Start Here — The Question That Changes Everything</span>
+            <h2 class="card-title">Where Did Your Faith Come From?</h2>
+            <p class="card-description">You've heard the gospel. You believed it. But have you ever asked where the belief itself came from? This is the one question most Christians have never considered — and the answer rewrites everything you thought you knew about salvation.</p>
+            <div class="card-footer">
+                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </div>
+        </a>
+    </div>
+
+    <!-- ==================== QUESTIONS & OBJECTIONS ==================== -->
+    <div class="hub-container">
+        <h2 class="hub-section-title">Questions & Objections</h2>
+        <div class="hub-grid">
+            <a href="/question-john6" class="hub-card">
+                <span class="card-number">01</span>
+                <h3 class="card-title">No One Can Come to Me Unless the Father Draws Him</h3>
+                <p class="card-description">John 6:37-44 is one of Scripture's most devastating passages about election. If no one comes to Christ unless the Father draws them — and everyone the Father draws comes — then the math is simple and the implications are inescapable.</p>
+                <span class="card-meta">Scripture Questions</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/objection-faith-choice" class="hub-card">
+                <span class="card-number">02</span>
+                <h3 class="card-title">Isn't Faith a Choice?</h3>
+                <p class="card-description">The most instinctive objection to sovereign grace. If faith is your choice, then you have something the unsaved don't — and that something becomes a work. There's no middle ground. This article walks you to the fork and lets you decide.</p>
+                <span class="card-meta">Hard Objections</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/compare-calvinism-arminianism" class="hub-card">
+                <span class="card-number">03</span>
+                <h3 class="card-title">Calvinism vs Arminianism: A Biblical Comparison</h3>
+                <p class="card-description">The two frameworks laid side by side — not caricatures, but the strongest version of each. Scripture-by-scripture, point-by-point. See both. Decide for yourself which one the Bible actually teaches.</p>
+                <span class="card-meta">Side by Side</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ==================== THEOLOGY ==================== -->
+    <div class="hub-container">
+        <h2 class="hub-section-title">Theology</h2>
+        <div class="hub-grid">
+            <a href="/systematic-election" class="hub-card">
+                <span class="card-number">04</span>
+                <h3 class="card-title">Divine Election — Chosen Before the Foundation of the World</h3>
+                <p class="card-description">The truth at the heart of everything this site exists to proclaim. God chose His people before creation — not because of anything in them, but because of everything in Him. This is the systematic case from Scripture.</p>
+                <span class="card-meta">Systematic Theology</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/ot-election" class="hub-card">
+                <span class="card-number">05</span>
+                <h3 class="card-title">Jacob Over Esau: God's Sovereign Election Before Birth</h3>
+                <p class="card-description">Before the twins were born, before either had done anything good or bad, God chose Jacob. Not for merit. Not for foreseen faith. For His own purposes. This is where election becomes undeniable — and personal.</p>
+                <span class="card-meta">Old Testament</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/creed-canons-dort" class="hub-card">
+                <span class="card-number">06</span>
+                <h3 class="card-title">The Canons of Dort — The Confessional Heart of Sovereign Grace</h3>
+                <p class="card-description">In 1619, the church gathered to answer Arminianism with Scripture. What they produced was not a political document — it was a confession of faith forged under fire. Four centuries later, every word still stands.</p>
+                <span class="card-meta">Creeds & Confessions</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ==================== DEMOLITION ZONE ==================== -->
+    <div class="hub-container">
+        <h2 class="hub-section-title">Demolition Zone</h2>
+        <div class="hub-grid">
+            <a href="/demolition-steel-man-arminianism" class="hub-card">
+                <span class="card-number">07</span>
+                <h3 class="card-title">What's the Strongest Case for Free Will?</h3>
+                <p class="card-description">We present the best theological arguments for free will at full strength — no straw men, no cheap shots. Then we show why Scripture teaches something deeper. If you can't defeat the strongest version, you haven't won.</p>
+                <span class="card-meta">Verse by Verse</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/philosophy-problem-of-merit" class="hub-card">
+                <span class="card-number">08</span>
+                <h3 class="card-title">If You Chose God, What Makes You Different?</h3>
+                <p class="card-description">A pastor preaches the gospel. Some believe. Some don't. If the difference is in you — your wisdom, your openness, your humility — then that difference is a merit. And a merit is a work. There is no escape from this logic.</p>
+                <span class="card-meta">Logic & Philosophy</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/secular-billion-decisions" class="hub-card">
+                <span class="card-number">09</span>
+                <h3 class="card-title">The Billion Decisions You Didn't Make Today</h3>
+                <p class="card-description">A secular proof of predestination hiding in plain sight. You didn't choose your parents, your genetics, your birth country, your native language, or the century you were born in. What makes you think you chose your God?</p>
+                <span class="card-meta">Secular Evidence</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ==================== WHY WE RESIST ==================== -->
+    <div class="hub-container">
+        <h2 class="hub-section-title">Why We Resist</h2>
+        <div class="hub-grid">
+            <a href="/resistance-last-idol" class="hub-card">
+                <span class="card-number">10</span>
+                <h3 class="card-title">The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender</h3>
+                <p class="card-description">You'll give up everything before you give up your autonomy. Self-sovereignty is not something you have — it's something you are. This article explains why divine sovereignty is the final offense, and what happens when grace finally wins.</p>
+                <span class="card-meta">Psychology of Resistance</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/story-the-room-where-you-chose" class="hub-card">
+                <span class="card-number">11</span>
+                <h3 class="card-title">The Room Where You Chose</h3>
+                <p class="card-description">A thought experiment that dissolves the illusion of autonomy. You walk into a room. You make a choice. But what if everything about the room — and everything about you — was arranged before you arrived?</p>
+                <span class="card-meta">Stories & Parables</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/analogy-lazarus-grave" class="hub-card">
+                <span class="card-number">12</span>
+                <h3 class="card-title">The Lazarus Argument: Dead People Don't Choose to Live</h3>
+                <p class="card-description">Jesus didn't knock on the tomb and ask Lazarus if he'd like to come out. He commanded a dead man to live — and the dead man obeyed. That is regeneration. That is grace. That is the whole argument in one story.</p>
+                <span class="card-meta">Analogies</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ==================== THROUGH THE AGES ==================== -->
+    <div class="hub-container">
+        <h2 class="hub-section-title">Through the Ages</h2>
+        <div class="hub-grid">
+            <a href="/history-augustine-pelagius" class="hub-card">
+                <span class="card-number">13</span>
+                <h3 class="card-title">Augustine vs Pelagius: The Trial That Saved Christianity</h3>
+                <p class="card-description">The first great battle for grace. Augustine fought for human depravity and God's sovereign mercy against Pelagius's insistence on human capacity. Sixteen centuries later, the same debate rages — and the same answer holds.</p>
+                <span class="card-meta">Church History</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/theologian-spurgeon" class="hub-card">
+                <span class="card-number">14</span>
+                <h3 class="card-title">Charles Spurgeon — The Prince of Preachers</h3>
+                <p class="card-description">He preached to ten million people, battled lifelong depression, and never once softened the truths of sovereign grace. Spurgeon's life is proof that the doctrines of grace are not academic — they are the oxygen of the suffering soul.</p>
+                <span class="card-meta">Theologian Profiles</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ==================== REST IN GRACE ==================== -->
+    <div class="hub-container">
+        <h2 class="hub-section-title">Rest in Grace</h2>
+        <div class="hub-grid">
+            <a href="/devotional-never-gives-up" class="hub-card">
+                <span class="card-number">15</span>
+                <h3 class="card-title">Can God Stop Loving You?</h3>
+                <p class="card-description">The promise that echoes through every page of Scripture and every page of this site: God will not let His people go. Not through rebellion. Not through exile. Not through a decade of running. He never gives up.</p>
+                <span class="card-meta">Devotionals</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/broken-mirror-vessels-for-mercy" class="hub-card">
+                <span class="card-number">16</span>
+                <h3 class="card-title">You Were Not an Accident — You Were Created for Mercy</h3>
+                <p class="card-description">You catch your reflection and something inside flinches. You know the feeling. But Romans 9:23 says God created you as a vessel for mercy — deliberately, purposefully, before the world began. Your existence is not an accident. It is an act of love.</p>
+                <span class="card-meta">Healing & Hope</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/pastoral-assurance" class="hub-card">
+                <span class="card-number">17</span>
+                <h3 class="card-title">Can I Be Sure I'm Saved?</h3>
+                <p class="card-description">Depression is not disqualifying. Doubt is not damning. If your salvation rests on God's choice and character — not your feelings or performance — then assurance has a foundation that cannot be shaken, even on your worst day.</p>
+                <span class="card-meta">Pastoral</span>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ==================== FOOTER HUMOR ==================== -->
+    <section class="hub-footer-humor">
+        <p>"This page was <strong>predestined</strong> to be your favorite." — <strong>The Management</strong></p>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Truth</h4>
+                    <ul>
+                        <li><a href="/systematic-theology">Systematic Theology</a></li>
+                        <li><a href="/devotionals">Devotionals</a></li>
+                        <li><a href="/stories">Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="/questions">Questions</a></li>
+                        <li><a href="/demolition-hub">Demolition</a></li>
+                        <li><a href="/psychology-hub">Why We Resist</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Learn</h4>
+                    <ul>
+                        <li><a href="/history-timeline">Through the Ages</a></li>
+                        <li><a href="/secular-evidence">Secular Evidence</a></li>
+                        <li><a href="/start-here">Start Here</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="/about">About This Site</a></li>
+                        <li><a href="https://substack.com/@ForeknownOne" target="_blank">Substack</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-grace-warning">
+                "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+                Grace is not a license to sin. It is the power that frees us from sin's dominion.
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024-2026 Adopted by Grace. All rights reserved. Built with truth.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+
+</body>
+</html>

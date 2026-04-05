@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church History Timeline — The Golden Thread | Adopted by Grace</title>
+    <meta name="description" content="Interactive timeline showing how God preserved the doctrines of grace through 2000 years of church history—from the apostles to today.">
+    <meta property="og:title" content="Church History Timeline — The Golden Thread | Adopted by Grace">
+    <meta property="og:description" content="Interactive timeline showing how God preserved the doctrines of grace through 2000 years of church history—from the apostles to today.">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Church History Timeline — The Golden Thread | Adopted by Grace">
+    <meta name="twitter:description" content="Interactive timeline showing how God preserved the doctrines of grace through 2000 years of church history.">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="canonical" href="https://adoptedbygrace.net/history-timeline.html">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "url": "https://adoptedbygrace.net/history-timeline.html",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Adopted by Grace",
+        "url": "https://adoptedbygrace.net"
+    },
+    "name": "Church History Timeline — The Golden Thread | Adopted by Grace",
+    "description": "Interactive timeline showing how God preserved the doctrines of grace through 2000 years of church history—from the apostles to today."
+}
+    </script>
+    <!-- Timeline styles moved to global.css -->
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu"></div>
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <main id="main-content">
+        <section class="page-hero">
+        <div class="eyebrow">History</div>
+
+            <h1>The Golden Thread</h1>
+            <p class="subtitle">How God Preserved the Doctrines of Grace Through 2000 Years of Church History</p>
+            <div class="hero-quote">
+                "Contend for the faith that was once for all delivered to the saints."
+                <span>— Jude 1:3 (ESV)</span>
+            </div>
+            <div class="chronicle-stats">
+                <div class="stat-item">11 Chapters <span>in history</span></div>
+                <div class="stat-item">2000 Years <span>of grace</span></div>
+                <div class="stat-item">One Thread <span>unbroken</span></div>
+            </div>
+        </section>
+
+        <section class="timeline-section">
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">I</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">AD 33–100</div>
+                            <h3>The Apostolic Foundation</h3>
+                            <p>Paul planted the seeds of sovereign grace in every epistle, establishing the eternal basis for redemption. The foundational truths of election, predestination, and free grace were woven into the very fabric of New Testament theology.</p>
+                            <a href="history-apostolic.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">II</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">AD 354–430</div>
+                            <h3>Augustine vs. Pelagius</h3>
+                            <p>The first great battle for grace alone. Augustine's defense of predestination and the bondage of the will against Pelagian humanism became the watershed moment that preserved grace theology when the church was tempted to trust human capacity.</p>
+                            <a href="history-augustine-pelagius.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">III</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">AD 800–1400</div>
+                            <h3>Medieval Preservation</h3>
+                            <p>Gottschalk, Bradwardine, Wycliffe—the embers that never died. Even in the darkness of medieval scholasticism, God raised up voices to contend for predestination and the supremacy of grace, keeping the thread alive through centuries of eclipse.</p>
+                            <a href="history-medieval.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">IV</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1517</div>
+                            <h3>Luther's Breakthrough</h3>
+                            <p>The rediscovery of justification by faith alone shattered the chains of works-righteousness. Luther's recovery of Augustinian grace theology became the spark that ignited the entire Reformation and reminded a lost church of its sovereign God.</p>
+                            <a href="history-luther.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">V</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1536–1564</div>
+                            <h3>Calvin and Geneva</h3>
+                            <p>The systematic articulation of sovereign grace. Calvin's <em>Institutes</em> became the theological backbone of Reformed Christianity, presenting predestination not as a dark mystery but as the profound comfort of God's omniscient, benevolent rule.</p>
+                            <a href="history-calvin-geneva.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">VI</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1618–1619</div>
+                            <h3>The Synod of Dort</h3>
+                            <p>TULIP forged in the fires of controversy. When Arminianism threatened to undermine grace, the Synod of Dort crystallized the five points of Calvinism, permanently anchoring Reformed theology in Scripture and defending God's absolute sovereignty in salvation.</p>
+                            <a href="history-dort.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">VII</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1600–1700</div>
+                            <h3>The Puritans</h3>
+                            <p>Owen, Bunyan, Goodwin—the golden age of Reformed devotion. The Puritans transformed grace theology into passionate, practical piety, proving that truthful precision and deep spirituality are inseparable fruits of the Spirit's work.</p>
+                            <a href="history-puritans.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">VIII</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1730–1770</div>
+                            <h3>The Great Awakening</h3>
+                            <p>Edwards, Whitefield—sovereign grace in revival fire. The Great Awakening demonstrated that God's absolute sovereignty and human revival are not contradictory but complementary, as the Spirit broke in with power to transform willing hearts across the colonies.</p>
+                            <a href="history-great-awakening.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">IX</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1834–1892</div>
+                            <h3>Spurgeon & the Downgrade</h3>
+                            <p>Standing for Calvinism when the church drifted. Charles Spurgeon's unflinching defense of predestination, free grace, and biblical authority in the face of theological liberalism proved that conviction and compassion need never be enemies.</p>
+                            <a href="history-spurgeon-downgrade.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">X</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1939–2000</div>
+                            <h3>The 20th Century Recovery</h3>
+                            <p>Lloyd-Jones, Sproul—the Reformed resurgence. After decades of theological erosion, God raised up prophetic voices to recover and teach the doctrines of grace with scholarly precision and evangelical passion, planting seeds that would bear fruit for generations.</p>
+                            <a href="history-20th-century.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">XI</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">2000–Present</div>
+                            <h3>Today</h3>
+                            <p>The resurgence of Reformed theology in the internet age. From podcasts to social media, a new generation of believers is discovering the joy of sovereign grace. The golden thread continues to shine brighter than ever, reaching the elect across digital highways.</p>
+                            <a href="history-today.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="thread-section">
+            <h2>The Thread That Never Breaks</h2>
+            <div class="thread-content">
+                <p>From the apostle Paul's pen in the first century to the preacher's pulpit today, God has never left Himself without a faithful witness to the truths of sovereign grace. Even when ecclesiastical establishments turned cold, when scholasticism clouded the gospel, when the human will was celebrated above divine omniscience, God sovereignly preserved a remnant who contended for the faith once delivered. The darkness was never absolute because God's Word cannot be extinguished. Augustine's thunder against Pelagianism, Wycliffe's lonely voice in medieval fog, Gottschalk's courage, Bradwardine's scholarship—these were not accidents. They were the gracious hand of a sovereign God, ensuring that the thread would never break.</p>
+
+                <p>When Luther nailed his theses, Calvin fled to Geneva, and the Synod of Dort convened to answer Arminius, they were not originating something new—they were recovering and articulating what had always been there, hidden in the marrow of Scripture and the bloodstream of the faithful. The Puritans did not invent their devotion; they merely gave voice to the grace that had been sustaining the saints all along. Edwards' revival fires, Spurgeon's thundering defenses, Lloyd-Jones' relentless expository brilliance—all links in an unbroken chain that stretches from Jerusalem to your generation, from Pentecost to this very moment.</p>
+
+                <p>This timeline is not merely history; it is a testimony to the indestructibility of truth. The doctrines of grace cannot be killed because they are rooted not in human arguments but in the character of God Himself. God's sovereignty, man's depravity, Christ's sufficiency, predestination's comfort, the perseverance of the saints—these are not inventions to be discarded when culture shifts. They are eternal realities that have survived empires, scholasticism, enlightenment skepticism, and modernist assault. They survive today. And they will prevail unto the end, because God Himself has ordained that His elect shall know His name and rejoice in His absolute grace. The thread is golden because it is woven by the fingers of God Himself.</p>
+            </div>
+        </section>
+
+        <section class="related-section">
+            <h2>Continue Your Journey</h2>
+            <div class="related-grid">
+                <a href="history-augustine-pelagius.html" class="related-card">
+                    <h3>Augustine vs. Pelagius</h3>
+                    <p>The first great battle for grace alone. Augustine's defense of predestination against Pelagian humanism became the watershed moment that preserved grace theology.</p>
+                    <span class="related-card-link">Explore</span>
+                </a>
+                <a href="history-dort.html" class="related-card">
+                    <h3>The Synod of Dort</h3>
+                    <p>TULIP forged in the fires of controversy. When Arminianism threatened to undermine grace, the Synod of Dort crystallized the five points of Calvinism.</p>
+                    <span class="related-card-link">Explore</span>
+                </a>
+                <a href="history-great-awakening.html" class="related-card">
+                    <h3>The Great Awakening</h3>
+                    <p>Edwards and Whitefield demonstrated that God's absolute sovereignty and human revival are not contradictory but complementary truths.</p>
+                    <span class="related-card-link">Explore</span>
+                </a>
+                <a href="history-spurgeon-downgrade.html" class="related-card">
+                    <h3>Spurgeon & the Downgrade</h3>
+                    <p>Charles Spurgeon's unflinching defense of predestination and free grace in the face of theological liberalism proved that conviction and compassion need never be enemies.</p>
+                    <span class="related-card-link">Explore</span>
+                </a>
+                <a href="history-confessions-story.html" class="related-card">
+                    <h3>Written in Blood and Fire — The Story of the Reformed Confessions</h3>
+                    <p>The dramatic stories behind the Reformed confessions: how martyrs, assemblies, and pastors forged the Heidelberg Catechism, Belgic Confession, Canons of Dort, Westminster Standards, and the 1689 Baptist Confession.</p>
+                    <span class="related-card-link">Explore</span>
+                </a>
+                <a href="history-golden-thread.html" class="related-card">
+                    <h3>The Golden Thread — 2,000 Years of Sovereign Grace</h3>
+                    <p>How God preserved the doctrines of grace through 2,000 years of church history — from Paul to Augustine to Luther to Spurgeon to today. A continuous story of sovereign faithfulness.</p>
+                    <span class="related-card-link">Explore</span>
+                </a>
+                <a href="/theologians" class="related-card">
+                    <h3>Theologians Hub</h3>
+                    <p>Meet the great minds who articulated and defended the doctrines of grace. From Augustine to Piper, discover the teachers who shaped Reformed theology.</p>
+                    <span class="related-card-link">Explore</span>
+                </a>
+                <a href="/systematic-theology" class="related-card">
+                    <h3>Systematic Theology</h3>
+                    <p>Go deeper into the architecture of grace. Learn how predestination, justification, sanctification, and perseverance fit together into a coherent whole.</p>
+                    <span class="related-card-link">Explore</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="related-articles" aria-label="Related articles">
+            <div class="related-articles-inner">
+                <h2 class="related-articles-heading">Keep Exploring</h2>
+                <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+                <div class="related-articles-grid">
+                    <a href="/theologian-whitefield" class="related-article-card">
+                        <span class="related-article-cat">🧓 Theologians</span>
+                        <span class="related-article-title">George Whitefield | Theologian</span>
+                        <span class="related-article-desc">George Whitefield: the greatest evangelist of the Great Awakening, a thoroughgoing Calvinist who pro...</span>
+                    </a>
+                    <a href="/systematic-divine-decrees" class="related-article-card">
+                        <span class="related-article-cat">🏛 Theology</span>
+                        <span class="related-article-title">Before the Foundation of the World — God's Eternal Decrees</span>
+                        <span class="related-article-desc">God</span>
+                    </a>
+                    <a href="/ot-election" class="related-article-card">
+                        <span class="related-article-cat">📚 Old Testament</span>
+                        <span class="related-article-title">David: God's Sovereign Election for Kingship</span>
+                        <span class="related-article-desc">God</span>
+                    </a>
+                    <a href="/question-acts4" class="related-article-card">
+                        <span class="related-article-cat">📖 Questions</span>
+                        <span class="related-article-title">The Cross Was Predestined — Acts 4:27-28 and the Sovereignty Behind Calvary</span>
+                        <span class="related-article-desc">The most evil act in history — the murder of God</span>
+                    </a>
+                    <a href="/invisible-wall-hub" class="related-article-card">
+                        <span class="related-article-cat">💚 Healing & Hope</span>
+                        <span class="related-article-title">The Invisible Wall: Relationships, Loneliness & Forgiveness</span>
+                        <span class="related-article-desc">82% of people report experiencing loneliness. But God</span>
+                    </a>
+                    <a href="/compare-calvinism-molinism" class="related-article-card">
+                        <span class="related-article-cat">⚖ Comparisons</span>
+                        <span class="related-article-title">Calvinism vs Molinism: Middle Knowledge and Sovereignty</span>
+                        <span class="related-article-desc">Calvinism vs Molinism compared: middle knowledge, counterfactuals, and God</span>
+                    </a>
+                </div>
+                <div class="related-articles-browse">
+                    <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+                    <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Rest in Grace</a></li>
+                    <li><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script src="/global.js" defer></script>
+    <script src="/nav.js"></script>
+</body>
+</html>

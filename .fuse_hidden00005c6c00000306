@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full-text search across 290+ pages — find any word or phrase anywhere on Adopted by Grace.">
+    <meta property="og:title" content="Search — Adopted by Grace">
+    <meta property="og:description" content="Full-text search across 290+ pages of biblical theology on election, sovereignty, and the doctrines of grace.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/search.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/search.html">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>Search — Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SearchResultsPage",
+        "name": "Search — Adopted by Grace",
+        "description": "Full-text search across 290+ pages of biblical theology.",
+        "url": "https://adoptedbygrace.net/search.html",
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (>=969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (<=968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <main id="main-content">
+        <section class="search-hero">
+            <h1>Search <span>Everything</span></h1>
+            <p>Full-text search across every word on every page — 290+ articles, instantly.</p>
+        </section>
+
+        <div class="search-container">
+            <div class="search-wrapper">
+                <span class="search-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></span>
+                <input type="search" id="pageSearchInput" placeholder="Type any word or phrase — titles, content, verses, names..." autocomplete="off" autofocus>
+                <button class="search-clear" id="searchClear" aria-label="Clear search">&times;</button>
+            </div>
+            <div class="search-meta" id="searchMeta"></div>
+        </div>
+
+        <div class="filter-bar" id="filterBar">
+            <button class="filter-pill active" data-filter="all">All</button>
+            <button class="filter-pill" data-filter="The Evidence">Evidence</button>
+            <button class="filter-pill" data-filter="Theology">Theology</button>
+            <button class="filter-pill" data-filter="Demolition Zone">Demolition</button>
+            <button class="filter-pill" data-filter="Devotionals">Devotionals</button>
+            <button class="filter-pill" data-filter="History">History</button>
+            <button class="filter-pill" data-filter="Old Testament">Old Testament</button>
+            <button class="filter-pill" data-filter="Stories">Stories</button>
+            <button class="filter-pill" data-filter="Secular Evidence">Secular</button>
+            <button class="filter-pill" data-filter="Start Here">Start Here</button>
+            <button class="filter-pill" data-filter="Comparisons">Comparisons</button>
+            <button class="filter-pill" data-filter="Pastoral">Pastoral</button>
+            <button class="filter-pill" data-filter="Why We Resist">Psychology</button>
+        </div>
+
+        <div class="results-container" id="results"></div>
+
+        <div class="popular-topics" id="popularTopics">
+            <div class="popular-label">Popular Searches</div>
+            <div class="popular-grid">
+                <a class="popular-tag" data-search="election">Election</a>
+                <a class="popular-tag" data-search="Romans 9">Romans 9</a>
+                <a class="popular-tag" data-search="John 6">John 6</a>
+                <a class="popular-tag" data-search="total depravity">Total Depravity</a>
+                <a class="popular-tag" data-search="predestination">Predestination</a>
+                <a class="popular-tag" data-search="perseverance">Perseverance</a>
+                <a class="popular-tag" data-search="Augustine">Augustine</a>
+                <a class="popular-tag" data-search="Spurgeon">Spurgeon</a>
+                <a class="popular-tag" data-search="atonement">Atonement</a>
+                <a class="popular-tag" data-search="foreknowledge">Foreknowledge</a>
+                <a class="popular-tag" data-search="free will">Free Will</a>
+                <a class="popular-tag" data-search="irresistible grace">Irresistible Grace</a>
+                <a class="popular-tag" data-search="suffering">Suffering</a>
+                <a class="popular-tag" data-search="Ephesians 1">Ephesians 1</a>
+                <a class="popular-tag" data-search="sovereignty">Sovereignty</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <!-- Load the full-text search index (generated by build-search-index.js) -->
+    <script src="/search-index.js"></script>
+    <!-- Load theological concept map for intelligent search -->
+    <script src="/search-concepts.js"></script>
+
+    <script>
+    // ============================================================
+    // FULL-TEXT SEARCH ENGINE — searches every word on every page
+    // With theological concept mapping for intelligent search
+    // ============================================================
+    (function () {
+        'use strict';
+
+        var activeFilter = 'all';
+        var debounceTimer;
+        var searchIndex = window.SEARCH_INDEX || [];
+        var conceptMap = window.SEARCH_CONCEPTS || {};
+
+        var input = document.getElementById('pageSearchInput');
+        var clearBtn = document.getElementById('searchClear');
+        var meta = document.getElementById('searchMeta');
+        var resultsEl = document.getElementById('results');
+        var popularEl = document.getElementById('popularTopics');
+
+        // Expand query using concept map
+        function expandQuery(query, tokens) {
+            var expandedSet = {};
+            var expandedPhrases = [];
+
+            // Add original tokens
+            for (var t = 0; t < tokens.length; t++) {
+                expandedSet[tokens[t]] = true;
+            }
+
+            // Check if query matches a phrase in the phrase map
+            if (conceptMap.phrases && conceptMap.phrases[query]) {
+                var phraseMappings = conceptMap.phrases[query];
+                for (var p = 0; p < phraseMappings.length; p++) {
+                    expandedSet[phraseMappings[p]] = true;
+                    expandedPhrases.push(phraseMappings[p]);
+                }
+            }
+
+            // Check if any token maps to a concept
+            if (conceptMap.concepts) {
+                for (var t = 0; t < tokens.length; t++) {
+                    var token = tokens[t];
+                    if (conceptMap.concepts[token]) {
+                        var synonyms = conceptMap.concepts[token];
+                        for (var s = 0; s < synonyms.length; s++) {
+                            expandedSet[synonyms[s]] = true;
+                        }
+                    }
+                }
+            }
+
+            // Check if query matches a Scripture reference
+            if (conceptMap.scriptures) {
+                for (var verse in conceptMap.scriptures) {
+                    // Check if verse reference is in the query
+                    if (query.indexOf(verse) !== -1 || query.indexOf(verse.replace(' ', '').toLowerCase()) !== -1) {
+                        var phrasings = conceptMap.scriptures[verse];
+                        for (var ph = 0; ph < phrasings.length; ph++) {
+                            expandedSet[phrasings[ph]] = true;
+                            expandedPhrases.push(phrasings[ph]);
+                        }
+                    }
+                }
+            }
+
+            var expandedTerms = Object.keys(expandedSet);
+            return { expandedTerms: expandedTerms, expandedPhrases: expandedPhrases };
+        }
+
+        // Enhanced scoring function
+        function scorePageAdvanced(page, query, tokens) {
+            var score = 0;
+            var titleLower = page.title.toLowerCase();
+            var descLower = (page.desc || '').toLowerCase();
+            var textLower = (page.text || '').toLowerCase();
+
+            // EXACT PHRASE MATCHING (highest weight)
+            if (titleLower.indexOf(query) !== -1) score += 200;
+            if (descLower.indexOf(query) !== -1) score += 100;
+            if (textLower.indexOf(query) !== -1) score += 50;
+
+            // INDIVIDUAL TOKEN MATCHING
+            for (var t = 0; t < tokens.length; t++) {
+                var token = tokens[t];
+                if (titleLower.indexOf(token) !== -1) score += 40;
+                if (descLower.indexOf(token) !== -1) score += 20;
+                if (textLower.indexOf(token) !== -1) score += 10;
+            }
+
+            // CONCEPT-EXPANDED MATCHING
+            var expansion = expandQuery(query, tokens);
+            if (expansion.expandedPhrases.length > 0) {
+                for (var ep = 0; ep < expansion.expandedPhrases.length; ep++) {
+                    var phrase = expansion.expandedPhrases[ep];
+                    // Concept matches get a bonus but less than exact matches
+                    if (titleLower.indexOf(phrase) !== -1) score += 25;
+                    if (descLower.indexOf(phrase) !== -1) score += 15;
+                    if (textLower.indexOf(phrase) !== -1) score += 8;
+                }
+            }
+
+            // BONUS: Title starts with query
+            if (titleLower.indexOf(query) === 0) score += 80;
+
+            // BONUS: Count occurrences in full text
+            if (score > 0 && textLower.length > 0) {
+                var count = 0;
+                var pos = 0;
+                while ((pos = textLower.indexOf(query, pos)) !== -1) {
+                    count++;
+                    pos += query.length;
+                    if (count >= 20) break;
+                }
+                score += count * 3;
+            }
+
+            return score;
+        }
+
+        // --- Filter pills ---
+        document.querySelectorAll('.filter-pill').forEach(function (pill) {
+            pill.addEventListener('click', function () {
+                activeFilter = this.getAttribute('data-filter');
+                document.querySelectorAll('.filter-pill').forEach(function (p) { p.classList.remove('active'); });
+                this.classList.add('active');
+                performSearch();
+            });
+        });
+
+        // --- Popular tags ---
+        document.querySelectorAll('.popular-tag').forEach(function (tag) {
+            tag.addEventListener('click', function () {
+                input.value = this.getAttribute('data-search');
+                clearBtn.classList.add('visible');
+                performSearch();
+                input.focus();
+            });
+        });
+
+        // --- Input events ---
+        input.addEventListener('input', function () {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(performSearch, 180);
+            clearBtn.classList.toggle('visible', this.value.length > 0);
+        });
+
+        input.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') clearSearch();
+        });
+
+        clearBtn.addEventListener('click', clearSearch);
+
+        function clearSearch() {
+            input.value = '';
+            clearBtn.classList.remove('visible');
+            meta.textContent = '';
+            resultsEl.innerHTML = '';
+            popularEl.style.display = '';
+            input.focus();
+        }
+
+        // --- Core search ---
+        function performSearch() {
+            var query = input.value.trim().toLowerCase();
+
+            if (query.length < 2) {
+                resultsEl.innerHTML = '';
+                meta.textContent = '';
+                popularEl.style.display = '';
+                return;
+            }
+
+            popularEl.style.display = 'none';
+            var tokens = query.split(/\s+/).filter(function (t) { return t.length > 0; });
+
+            var scored = [];
+            for (var i = 0; i < searchIndex.length; i++) {
+                var page = searchIndex[i];
+
+                // Category filter
+                if (activeFilter !== 'all' && page.cat !== activeFilter) continue;
+
+                var score = scorePageAdvanced(page, query, tokens);
+
+                if (score > 0) {
+                    scored.push({ page: page, score: score });
+                }
+            }
+
+            // Sort by score descending
+            scored.sort(function (a, b) { return b.score - a.score; });
+
+            // Limit to top 50 results
+            if (scored.length > 50) scored = scored.slice(0, 50);
+
+            if (scored.length === 0) {
+                meta.textContent = 'No results found';
+                resultsEl.innerHTML = '<div class="empty-state"><div class="empty-icon">&#128270;</div><div class="empty-title">No pages match your search</div><div class="empty-text">Try different keywords, or browse the site using the navigation above. Every truth you need is somewhere on these pages.</div></div>';
+                return;
+            }
+
+            meta.textContent = scored.length + ' result' + (scored.length !== 1 ? 's' : '') + ' found';
+
+            var html = '';
+            for (var r = 0; r < scored.length; r++) {
+                var page = scored[r].page;
+                var highlightedTitle = highlightText(page.title, tokens);
+                var highlightedDesc = highlightText(page.desc || '', tokens);
+
+                // Extract a snippet from full text showing where the match occurs
+                var snippet = extractSnippet(page.text || '', query, tokens);
+                var snippetHtml = snippet ? '<div class="result-snippet">"...' + highlightText(snippet, tokens) + '..."</div>' : '';
+
+                html += '<a class="result-item" href="' + escapeHtml(page.url) + '">' +
+                    '<span class="result-category">' + escapeHtml(page.cat) + '</span>' +
+                    '<div class="result-title">' + highlightedTitle + '</div>' +
+                    (highlightedDesc ? '<div class="result-desc">' + highlightedDesc + '</div>' : '') +
+                    snippetHtml +
+                    '</a>';
+            }
+            resultsEl.innerHTML = html;
+        }
+
+        // --- Extract a text snippet around the match ---
+        function extractSnippet(text, query, tokens) {
+            if (!text) return '';
+            var lower = text.toLowerCase();
+
+            // Try to find exact phrase first
+            var idx = lower.indexOf(query);
+            if (idx === -1) {
+                // Fall back to first token match
+                for (var t = 0; t < tokens.length; t++) {
+                    idx = lower.indexOf(tokens[t]);
+                    if (idx !== -1) break;
+                }
+            }
+            if (idx === -1) return '';
+
+            // Extract ~120 chars around the match
+            var start = Math.max(0, idx - 60);
+            var end = Math.min(text.length, idx + query.length + 60);
+
+            // Try to start/end at word boundaries
+            if (start > 0) {
+                var spaceIdx = text.indexOf(' ', start);
+                if (spaceIdx !== -1 && spaceIdx < idx) start = spaceIdx + 1;
+            }
+            if (end < text.length) {
+                var spaceIdx = text.lastIndexOf(' ', end);
+                if (spaceIdx > idx + query.length) end = spaceIdx;
+            }
+
+            return text.slice(start, end).trim();
+        }
+
+        // --- Highlight matching tokens in text ---
+        function highlightText(text, tokens) {
+            if (!tokens.length || !text) return escapeHtml(text);
+            var sorted = tokens.slice().sort(function (a, b) { return b.length - a.length; });
+            var escaped = escapeHtml(text);
+            var pattern = sorted.map(function (t) { return t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }).join('|');
+            var regex = new RegExp('(' + pattern + ')', 'gi');
+            return escaped.replace(regex, '<mark>$1</mark>');
+        }
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        // --- URL param support ---
+        var urlParams = new URLSearchParams(window.location.search);
+        var urlQuery = urlParams.get('q');
+        if (urlQuery) {
+            input.value = urlQuery;
+            clearBtn.classList.add('visible');
+            performSearch();
+        }
+    })();
+    </script>
+
+    <script src="/global.js" defer></script>
+    <script src="/nav.js"></script>
+</body>
+</html>

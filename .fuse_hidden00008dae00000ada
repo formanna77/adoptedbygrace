@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sovereignty sounds like prison until you've been inside it. Then it sounds like the only safe place in the universe. A devotional on what happens when you stop fighting God's will.">
+    <meta name="theme-color" content="#0a0a0f">
+    <meta property="og:title" content="Not My Will, But Joy – Devotional">
+    <meta property="og:description" content="A meditative reflection on divine sovereignty and joyful surrender to God's eternal plan.">
+    <meta property="og:url" content="https://adoptedbygrace.net/devotional-not-my-will-but-joy.html">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Not My Will, But Joy – Devotional">
+    <meta name="twitter:description" content="A meditative reflection on divine sovereignty and joyful surrender to God's eternal plan.">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <link rel="canonical" href="https://adoptedbygrace.net/devotional-not-my-will-but-joy.html">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+    <title>What If Surrendering Your Will Is Where Joy Begins?</title>
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Not My Will, But Joy – Devotional",
+    "description": "A meditative reflection on divine sovereignty and joyful surrender. Discover how yielding to God's will brings the deepest peace and purpose.",
+    "author": { "@type": "Person", "name": "Aaron Forman" },
+    "datePublished": "2026-04-04",
+    "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+}
+</script>
+
+
+    <!-- CANONICAL NAV TEMPLATE
+</head>
+<body>
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            
+<!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+
+
+
+    <main id="main-content">
+        <div class="breadcrumb">
+            <span>←</span>
+            <a href="devotionals.html">Back to Devotionals</a>
+        </div>
+
+        <article>
+            <section class="page-hero">
+                <h1>Not My Will, But Joy</h1>
+                <div class="eyebrow">
+                    <span>📖 Devotional</span>
+                    <span>⏱ 7 min read</span>
+                </div>
+            </section>
+
+            <div class="devotional-opening">
+                <p>In Gethsemane, the Son of God pressed His face into the dirt and prayed the most terrifying prayer ever spoken: <em>"Not my will, but yours, be done."</em> He was sweating blood. He begged the Father to remove the cup. And then He drank it — not because He wanted to, but because He trusted the hand that poured it.</p>
+                <p>The one Person in all creation who had the greatest claim to His own will surrendered it completely. If He did that — the One who <em>deserved</em> to be obeyed — what makes us think our will is worth white-knuckling?</p>
+            </div>
+
+            <h2>The Throne That Never Trembles</h2>
+
+            <p>Modern Christianity has shoved divine sovereignty into the corner of its theology like a piece of furniture nobody wants to sit on. We acknowledge it exists. We just don't talk about it, because it makes people uncomfortable.</p>
+
+            <p>The Psalms have no such embarrassment.</p>
+
+            <div class="verse-block">
+                <p>"Our God is in the heavens; he does all that he pleases."</p>
+                <cite>Psalm 115:3 (ESV)</cite>
+            </div>
+
+            <div class="verse-block">
+                <p>"Whatever the Lord pleases, he does, in heaven and on earth, in the seas and all deeps."</p>
+                <cite>Psalm 135:6 (ESV)</cite>
+            </div>
+
+            <p>The sweep is staggering. Not just in matters of religion. <em>Whatever</em> the Lord pleases, He does. The physical cosmos bows to His will. The laws of nature execute His decrees. The atoms themselves hold together because He holds them.</p>
+
+            <p>We are afraid of this. We confuse sovereignty with tyranny — imagining a cosmic despot whose whims are law and whose character shifts with His mood. But this is a catastrophic misreading. The God who does all that He pleases is not arbitrary. He <em>is</em> goodness. He <em>is</em> justice. He <em>is</em> love. His sovereignty is the sovereignty of perfect character. His will is the will of infinite wisdom exercised in eternal mercy.</p>
+
+            <h3>Sovereignty Versus Fatalism</h3>
+
+            <p><strong>Fatalism</strong> says: whatever happens, happens. No meaning. No purpose. Dominoes falling in a purposeless universe. <strong>Sovereignty</strong> says something that sounds similar but is utterly different: whatever happens, God ordained it — and the One who ordained it is not indifferent. He is personal. He is wise. He is good. And He is working all things together for the good of those who love Him.</p>
+
+            <p>The difference is not academic. It is the difference between despair and faith. When your child gets sick, fatalism whispers: <em>meaningless suffering in a meaningless world.</em> Sovereignty says: <em>God has a purpose I cannot yet see, but I can trust the character of the God who permits it.</em> One crushes you. The other carries you.</p>
+
+            <div class="reflection-box">
+                <h4>The Story God Rewrites</h4>
+                <p>Joseph was betrayed, sold into slavery, falsely accused, and imprisoned. Everything in his life went catastrophically wrong. Then his brothers came to him expecting revenge. What they got was Genesis 50:20:</p>
+            </div>
+
+            <div class="verse-block">
+                <p>"You intended to harm me, but God intended it for good to accomplish what is now being done, the saving of many lives."</p>
+                <cite>Genesis 50:20 (ESV)</cite>
+            </div>
+
+            <p>Look at the architecture. The same events. The same actions. Two completely different intentions layered on top of each other. The brothers meant evil — genuinely, freely, maliciously. But their intentions were not the final word. God's purpose prevailed. The very evil meant to destroy Joseph became the instrument that saved a nation.</p>
+
+            <p>This is sovereignty. Not puppetry. Orchestration. We choose. We act. We plan. And God gathers all of it — even the worst of it — into a story so much larger than we imagined that one day we will look back and weep with gratitude at the chapters that made us weep with grief.</p>
+
+            <h2>The Prayer of Joyful Surrender</h2>
+
+            <p>Here is the deepest paradox: when you surrender your will to God's, you do not lose yourself. You find yourself. When you stop fighting the current and let the river carry you, you discover the river is flowing home.</p>
+
+            <p>Jesus modeled this in the Garden. He did not say "I don't want to do this, but I will out of duty." He surrendered His will so completely that it became the foundation of our salvation. He accomplished more by yielding than He ever could have by insisting.</p>
+
+            <p>And then He rose from the dead.</p>
+
+            <p>The deepest joy is not getting what you want. It is wanting what you are given. It is the peace that arrives — illogical, uninvited, overwhelming — when you stop asking "why?" and start asking "what does God want to do in me through this?"</p>
+
+            <div class="verse-block">
+                <p>"And we know that in all things God works for the good of those who love him, who have been called according to his purpose."</p>
+                <cite>Romans 8:28 (ESV)</cite>
+            </div>
+
+            <p><em>All things.</em> The losses. The unanswered prayers. The dreams that died. The plans that shattered. God is working all of it — not as random tragedy, but as chapters in a story whose ending will make every page worth it.</p>
+
+            <p>Jonathan Edwards saw this more clearly than most. He wrote that when we truly grasp the beauty of God's sovereignty, we stop wanting our own will. We become like a choir member who hears the conductor's vision so clearly, so beautifully, that singing off-key becomes unthinkable. We align ourselves with God's will not out of fear — but out of attraction. Because His way is perfect. And ours is broken.</p>
+
+            <h2>The Surrender That Brings Joy</h2>
+
+            <p><em>"Your kingdom come, your will be done, on earth as it is in heaven."</em> We learned this prayer as children. Most of us have never stopped to hear what it actually asks. In heaven, God's will is done perfectly. Without resistance. Without delay. Jesus taught us to pray that <em>our</em> hearts would become like that — that what we want would become what God wants, until the difference disappears entirely.</p>
+
+            <p>This is not the prayer of a slave. This is the prayer of a child who trusts his Father so completely that he wants nothing the Father has not chosen for him.</p>
+
+            <p>And when you pray it — truly pray it, not with your lips but with the marrow of your soul — the strangest thing happens. The resistance melts. The anxiety drains. The white-knuckled grip on your own plans gives way to the deepest security a human being can experience: the knowledge that the One who controls all things loves you enough to die for you, knows what you need before you ask, and is working everything — even the things that are breaking you — toward your ultimate, unimaginable good.</p>
+
+            <div class="verse-block">
+                <p>"Therefore humble yourselves under the mighty hand of God, that he may exalt you in due time, casting all your anxieties on him, because he cares for you."</p>
+                <cite>1 Peter 5:6-7 (ESV)</cite>
+            </div>
+
+            <p>Not my will. Not yours. His — the will of a God who loves you more than you love yourself, who sees further than you can see, and whose authority over all things is exercised with perfect justice and infinite mercy.</p>
+
+            <p><strong>His will. And in that surrender — not loss, but the deepest joy you will ever know.</strong></p>
+
+            <div class="related-links">
+                <h4>Related Passages & Guides</h4>
+                <ul>
+                    <li><a href="systematic-divine-decrees.html">Divine Decrees & Predestination</a></li>
+                    <li><a href="systematic-compatibilism.html">Compatibilism: Freedom & Sovereignty</a></li>
+                    <li><a href="ot-joseph.html">Joseph: The Providence of God</a></li>
+                    <li><a href="devotionals.html">← Return to All Devotionals</a></li>
+                </ul>
+            </div>
+
+        <!-- Never Gives Up Banner -->
+        <div style="max-width: 800px; margin: 3rem auto; padding: 2rem 2.5rem; background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.04)); border: 1px solid rgba(212, 162, 84, 0.15); border-radius: 12px; text-align: center;">
+            <p style="font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: #f0ece4; margin-bottom: 0.5rem;">No matter how far you fall — <em style="color: #d4a254;">He will never give up on you.</em></p>
+            <p style="font-size: 0.95rem; color: #9a958c; margin-bottom: 1.2rem; line-height: 1.6;">The most soul-quenching truth for weary hearts fed a lifetime of merit-based religion.</p>
+            <a href="devotional-never-gives-up.html" style="display: inline-block; padding: 0.7rem 2rem; border: 1px solid #d4a254; color: #d4a254; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; letter-spacing: 0.1em; text-decoration: none; border-radius: 6px; transition: all 0.3s ease;">READ THE DEVOTIONAL →</a>
+        </div>
+
+            <!-- Cross-Reference Section -->
+            <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                        <a href="systematic-divine-decrees.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Divine Decrees: God's Eternal Plan</h4>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">What God decided before time — and why nothing can overrule it.</p>
+                        </a>
+                        <a href="question-freewill.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Free Will & Divine Sovereignty</h4>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">You choose. God ordains. Both are true. Here is why that is not a contradiction.</p>
+                        </a>
+                        <a href="systematic-compatibilism.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Compatibilism: Freedom & Sovereignty</h4>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The framework that holds sovereignty and human agency in both hands without dropping either.</p>
+                        </a>
+                        
+                        <a href="devotional-my-chains-fell-away.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">My Chains Fell Away</h4>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The door opened from outside. The prisoner did not ask. That is the whole gospel.</p>
+                        </a>
+                        <a href="question-unfair.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Isn't God's Sovereignty Unfair?</h4>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">You want fairness? Fairness condemns every one of us. What you really want is mercy.</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+        
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/open-wound-sovereignty-in-grief" class="related-article-card">
+        <span class="related-article-cat">💚 Healing &amp; Hope</span>
+        <span class="related-article-title">When God Is Sovereign and Your World Just Collapsed</span>
+        <span class="related-article-desc">When God Is Sovereign and Your World Just Collapsed: Grief doesn</span>
+      </a>
+      <a href="/demolition-1tim4-10" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">1 Timothy 4:10 — Verse Demolition #12</span>
+        <span class="related-article-desc">Demolition #12: Does 1 Timothy 4:10 Prove Universal Atonement? A Reformed analysis that reveals how</span>
+      </a>
+      <a href="/psalms-election" class="related-article-card">
+        <span class="related-article-cat">🎵 Psalms &amp; Poetry</span>
+        <span class="related-article-title">Election in the Psalms</span>
+        <span class="related-article-desc">How David understood himself as chosen by grace, not merit. Election themes throughout the Psalms—Ps...</span>
+      </a>
+      <a href="/objection-evangelism-pointless" class="related-article-card">
+        <span class="related-article-cat">🛡 Objections Answered</span>
+        <span class="related-article-title">If God Already Chose Who Will Be Saved, Why Evangelize?</span>
+        <span class="related-article-desc">If God already chose who will be saved, why evangelize? Because God ordains the means as well as the...</span>
+      </a>
+      <a href="/start-here-phase5" class="related-article-card">
+        <span class="related-article-cat">🧭 Start Here</span>
+        <span class="related-article-title">Living as an Elect Child of God — Phase 5</span>
+        <span class="related-article-desc">Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, wo...</span>
+      </a>
+      <a href="/pastoral-suffering" class="related-article-card">
+        <span class="related-article-cat">🤝 Pastoral</span>
+        <span class="related-article-title">Suffering &amp;amp; the Sovereignty of God</span>
+        <span class="related-article-desc">How God</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    
+
+    
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calvinism vs Molinism compared: middle knowledge, counterfactuals, and God's sovereignty. Does God use middle knowledge to sovereignly select a world, or does He decree all things directly?">
+    <meta property="og:title" content="Calvinism vs Molinism: Middle Knowledge and Sovereignty | Adopted by Grace">
+    <meta property="og:description" content="A biblical and philosophical comparison of Calvinism and Molinism on divine sovereignty, middle knowledge, and human freedom.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/compare-calvinism-molinism.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/compare-calvinism-molinism.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Calvinism vs Molinism: Middle Knowledge and Sovereignty">
+    <meta name="keywords" content="Calvinism vs Molinism, middle knowledge, Molina, counterfactuals of freedom, scientia media, divine sovereignty, biblical theology, libertarian free will, compatibilism, Luis de Molina, William Lane Craig">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>Calvinism vs Molinism: Middle Knowledge and Sovereignty | Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Calvinism vs Molinism: Middle Knowledge and Sovereignty",
+        "description": "A biblical and philosophical comparison of Calvinism and Molinism on divine sovereignty, middle knowledge, and human freedom.",
+        "url": "https://adoptedbygrace.net/compare-calvinism-molinism.html",
+        "datePublished": "2026-03-27",
+        "dateModified": "2026-03-27",
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+    }
+    </script>
+    
+            <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+            <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+<div class="section-nav">
+    <div class="section-nav-inner">
+        <a href="#what-is-<a href="/compare-calvinism-molinism">molinism</a>">What Is Molinism?</a>
+        <a href="#middle-knowledge">Middle Knowledge</a>
+        <a href="#key-differences">Key Differences</a>
+        <a href="#critique">Reformed Critique</a>
+        <a href="#scripture">Scripture Speaks</a>
+        <a href="#verdict">Verdict</a>
+    </div>
+</div>
+
+<section class="page-hero">
+    <div class="hero-label">Comparative Theology</div>
+    <div class="eyebrow">Comparison</div>
+
+    <h1><span class="gold">Calvinism</span> vs <span class="muted">Molinism</span></h1>
+    <p class="subtitle">
+        Molinism claims to reconcile divine <a href="/question-sovereignty-logic">sovereignty</a> with libertarian <a href="/question-freewill">free will</a> through "<a href="/compare-calvinism-molinism">middle knowledge</a>."
+        It is the most philosophically sophisticated alternative to Reformed soteriology. But does it hold up
+        under biblical scrutiny?
+    </p>
+</section>
+
+<div class="content">
+
+<!-- WHAT IS MOLINISM -->
+<section class="section-block" id="what-is-molinism">
+    <h2>What Is Molinism?</h2>
+    <p class="subtitle">A 16th-century Jesuit attempt to split the difference between Calvinism and <a href="/compare-calvinism-arminianism">Arminianism</a>.</p>
+
+    <p>
+        Molinism was developed by the Spanish Jesuit theologian <strong>Luis de Molina</strong> (1535–1600) in his
+        work <em>Concordia</em> (1588). Today it is championed by philosophers like <strong>William Lane Craig</strong>
+        and <strong>Alvin Plantinga</strong>. Molinism proposes that God possesses a special type of knowledge —
+        <em>middle knowledge</em> (scientia media) — through which He knows what every possible free creature would
+        do in every possible set of circumstances. Using this knowledge, God selected the actual world that achieves
+        His purposes while preserving libertarian free will.
+    </p>
+    <p>
+        The appeal of Molinism is obvious: it appears to affirm that God is fully <a href="/question-sovereignty-logic">sovereign</a> (He chose this world)
+        while also affirming that humans are genuinely free in the libertarian sense (their choices are not determined
+        by God's decree). But as we will see, this apparent synthesis comes at a steep theological and philosophical price.
+    </p>
+</section>
+
+<!-- MIDDLE KNOWLEDGE EXPLAINED -->
+<section class="section-block" id="middle-knowledge">
+    <h2>The Three Moments of Divine Knowledge</h2>
+    <p class="subtitle">Both Calvinists and Molinists agree on moments 1 and 3. The dispute is over moment 2.</p>
+
+    <div class="knowledge-diagram">
+        <h3>God's Knowledge in Molinism</h3>
+        <div class="k-row">
+            <div class="k-order natural">1</div>
+            <div class="k-info">
+                <h4>Natural Knowledge (Scientia Naturalis)</h4>
+                <p>God knows all necessary truths, all possibilities, all that <em>could</em> be. This knowledge is pre-volitional — it does not depend on God's will. Both Calvinists and Molinists affirm this.</p>
+            </div>
+            <div class="k-tag agreed">Agreed</div>
+        </div>
+        <div class="k-row">
+            <div class="k-order middle">2</div>
+            <div class="k-info">
+                <h4>Middle Knowledge (Scientia Media)</h4>
+                <p>God knows all <em>counterfactuals of creaturely freedom</em> — what every possible person <em>would</em> freely do in every possible circumstance. This knowledge is also pre-volitional: it is given to God, not determined by Him. <strong>This is the distinctive Molinist claim, and the point of contention.</strong></p>
+            </div>
+            <div class="k-tag disputed">Disputed</div>
+        </div>
+        <div class="k-row">
+            <div class="k-order free">3</div>
+            <div class="k-info">
+                <h4>Free Knowledge (Scientia Libera)</h4>
+                <p>God knows everything that <em>will</em> actually happen — the actual world He chose to create. This knowledge is post-volitional: it follows from God's creative decree. Both Calvinists and Molinists affirm this.</p>
+            </div>
+            <div class="k-tag agreed">Agreed</div>
+        </div>
+    </div>
+</section>
+
+<!-- KEY DIFFERENCES -->
+<section class="section-block" id="key-differences">
+    <h2>Key Differences</h2>
+
+    <div class="compare-grid">
+        <div class="compare-card reformed">
+            <div class="compare-card-label">Reformed / Calvinist</div>
+            <h3>God Decrees, Then Knows</h3>
+            <p>
+                God's knowledge of what <em>will</em> happen is based on His sovereign decree. He did not look at
+                pre-existing counterfactuals and pick the best world — He <em>ordained</em> the world according to
+                the counsel of His will. Human choices are certain because God has decreed them. Humans are free in
+                a compatibilist sense: they do what they desire, but their desires are ultimately governed by God's
+                providence. God's sovereignty is <em>causal</em>, not merely selective.
+            </p>
+        </div>
+        <div class="compare-card molinist">
+            <div class="compare-card-label">Molinist</div>
+            <h3>God Knows, Then Selects</h3>
+            <p>
+                Before any decree, God already knew what every possible creature would freely do in every possible
+                world. Using this middle knowledge, He selected the actual world — the combination of circumstances
+                that achieves His goals while respecting libertarian freedom. God's sovereignty is expressed through
+                <em>world-selection</em>, not through causal determination of human choices. Human choices are the
+                ultimate source of their own determination.
+            </p>
+        </div>
+    </div>
+
+    <div class="compare-grid">
+        <div class="compare-card reformed">
+            <div class="compare-card-label">On Free Will</div>
+            <h3>Compatibilism</h3>
+            <p>
+                Freedom is the ability to act according to one's desires without external coercion. A person is
+                free even if their desires are ultimately determined by God's providential ordering. This is the
+                freedom affirmed in Scripture: Joseph's brothers acted freely in selling him, yet God sent him
+                (Gen 50:20). The crucifiers acted freely, yet it was God's "definite plan" (Acts 2:23).
+            </p>
+        </div>
+        <div class="compare-card molinist">
+            <div class="compare-card-label">On Free Will</div>
+            <h3>Libertarianism</h3>
+            <p>
+                Freedom requires the ability to do otherwise in identical circumstances. An action is free only
+                if the agent could have chosen differently with all prior conditions being exactly the same.
+                God cannot determine human choices — He can only arrange circumstances, knowing how agents
+                would freely respond. This is the "power of contrary choice."
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- REFORMED CRITIQUE -->
+<section class="section-block" id="critique">
+    <h2>The Reformed Critique of Molinism</h2>
+    <p class="subtitle">Four fundamental problems with middle knowledge.</p>
+
+    <div class="critique-stack">
+        <div class="critique-card">
+            <div class="critique-num">Problem 1</div>
+            <h4>The Grounding Objection: What Makes Counterfactuals True?</h4>
+            <p>
+                This is the most devastating philosophical critique. Middle knowledge requires that counterfactuals
+                of creaturely freedom ("If Peter were in situation S, he would freely do X") are <em>true</em>
+                prior to God's decree. But what makes them true? Not God — because they are pre-volitional and
+                independent of His will. Not the creature — because the creature doesn't exist yet (we're still
+                in the "pre-creation" logical moment). Not the circumstances — because libertarian freedom means
+                the agent could have done otherwise in those exact circumstances.
+            </p>
+            <p>
+                There is nothing that <em>grounds</em> or explains why these counterfactuals are true rather
+                than false. They are "brute facts" about non-existent agents making undetermined choices in
+                hypothetical situations. This is, as Reformed philosopher <strong>Paul Helm</strong> argues,
+                metaphysically incoherent. Truths require truthmakers — and middle knowledge has none.
+            </p>
+        </div>
+
+        <div class="critique-card">
+            <div class="critique-num">Problem 2</div>
+            <h4>God Becomes Dependent on Creatures</h4>
+            <p>
+                In Molinism, the content of God's middle knowledge is <em>given to Him</em> — not determined
+                by Him. God is passive with respect to what creatures would freely do. This means God's plan
+                for the world is constrained by the "raw material" of counterfactuals that He did not choose.
+                He must work with whatever set of truths about free creatures happen to be true, selecting
+                the best available world rather than decreeing the world He wants.
+            </p>
+            <p>
+                This compromises divine aseity — the truth that God is self-sufficient and depends on
+                nothing outside Himself. If the content of God's knowledge (even in part) is determined by
+                something external to His will, then God is not fully self-determining. As <strong>Isaiah 40:13–14</strong>
+                declares: "Who has directed the Spirit of the LORD, or as his counselor has instructed him?
+                Whom did he consult?"
+            </p>
+        </div>
+
+        <div class="critique-card">
+            <div class="critique-num">Problem 3</div>
+            <h4>Scripture Presents God as the Cause, Not Merely the Selector</h4>
+            <p>
+                The Bible does not present God as one who merely arranges circumstances and watches agents
+                respond. It presents Him as the one who actively determines outcomes — including the free
+                choices of creatures. Consider:
+            </p>
+            <p>
+                <strong>Proverbs 21:1</strong> — "The king's heart is a stream of water in the hand of the LORD;
+                he turns it wherever he will." God does not merely know which way the king's heart would turn —
+                He <em>turns</em> it. <strong>Proverbs 16:33</strong> — "The lot is cast into the lap, but its
+                every decision is from the LORD." Even apparently random events are determined by God.
+                <strong>Philippians 2:13</strong> — "God… works in you, both to will and to work for his good
+                pleasure." God works the <em>willing itself</em> — not just the circumstances around the willing.
+            </p>
+        </div>
+
+        <div class="critique-card">
+            <div class="critique-num">Problem 4</div>
+            <h4>It Does Not Actually Solve the Problem It Claims to Solve</h4>
+            <p>
+                Molinism is designed to reconcile sovereignty with libertarian freedom. But it fails on both counts.
+                On sovereignty: if God's choice of worlds is constrained by brute-fact counterfactuals, His
+                sovereignty is reduced to "doing the best He can with the options available." It is possible
+                that no feasible world exists in which all God's purposes are accomplished — making God's plans
+                contingent on creaturely cooperation.
+            </p>
+            <p>
+                On freedom: if God creates a person knowing with certainty what they will do in every
+                circumstance, and places them in circumstances designed to produce specific outcomes — in
+                what meaningful sense is the creature "free"? The creature cannot do otherwise than what
+                God foreknew and arranged. Molinism collapses into either soft determinism (which is
+                compatibilism by another name) or genuine randomness (which is not freedom either).
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- SCRIPTURE -->
+<section class="section-block" id="scripture">
+    <h2>What Does Scripture Actually Teach?</h2>
+
+    <div class="scripture-block">
+        "Our God is in the heavens; he does all that he pleases."
+        <span class="scripture-ref">— Psalm 115:3 (ESV)</span>
+    </div>
+
+    <p>
+        Scripture does not present God as selecting among available options constrained by creaturely freedom.
+        It presents a God who <strong>"works all things according to the counsel of his will"</strong> (Eph 1:11) —
+        not according to the counsel of counterfactuals He did not author.
+    </p>
+
+    <div class="scripture-block">
+        "I am God, and there is no other; I am God, and there is none like me, declaring the end from the
+        beginning and from ancient times things not yet done, saying, 'My counsel shall stand, and I will
+        accomplish all my purpose.'"
+        <span class="scripture-ref">— Isaiah 46:9–10 (ESV)</span>
+    </div>
+
+    <p>
+        God does not merely <em>foresee</em> the end from the beginning — He <em>declares</em> it. His counsel
+        <em>shall stand</em>. He <em>will accomplish</em> all His purpose. This is the language of causal
+        sovereignty, not world-selection from a menu of possibilities.
+    </p>
+
+    <p>
+        The key text that Molinists appeal to is <strong>1 Samuel 23:10–13</strong>, where David asks God what
+        Saul would do if David stayed in Keilah, and God tells him. Molinists argue this demonstrates counterfactual
+        knowledge of free choices. But the Reformed response is straightforward: God knows counterfactuals because
+        He knows His own decree — He knows what He <em>would have decreed</em> in those circumstances. This does
+        not require a "middle" moment of knowledge independent of God's will.
+    </p>
+</section>
+
+<!-- VERDICT -->
+<section class="section-block" id="verdict">
+    <div class="verdict">
+        <div class="verdict-label">Biblical Verdict</div>
+        <p>
+            Molinism is an ingenious philosophical construction, but it is a solution to a problem that Scripture
+            does not recognize. The Bible does not struggle to reconcile sovereignty with libertarian freedom —
+            because it never affirms libertarian freedom. Scripture affirms that God determines all things
+            (Eph 1:11; Isa 46:10; Prov 16:33) and that humans make real, meaningful choices for which they are
+            responsible (Gen 50:20; Acts 2:23; 4:27–28). This is compatibilism, and it requires no "middle knowledge"
+            to make it work.
+        </p>
+        <p>
+            The heart of the issue is this: Molinism wants a God who is sovereign <em>without</em> being the ultimate
+            cause. But Scripture presents a God who is sovereign precisely <em>because</em> He is the ultimate cause.
+            "From him and through him and to him are all things" (Rom 11:36). Not some things. Not the circumstances
+            around things. <em>All things.</em>
+        </p>
+        <p>
+            The Reformed position does not diminish human responsibility — it grounds it in divine sovereignty.
+            And it preserves what Molinism cannot: a God who is truly self-sufficient, truly omnipotent, and
+            truly the author and finisher of our salvation from first to last.
+        </p>
+    </div>
+
+    <div class="cross-links">
+        <h3>Continue Your Study</h3>
+        <div class="cross-link-grid">
+            <a href="/compare-calvinism-arminianism.html" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Calvinism vs. Arminianism</div>
+                <div class="cross-link-desc">All five points of TULIP compared and examined</div>
+            </a>
+            <a href="/compare-<a href="/compare-monergism-<a href="/compare-monergism-synergism">synergism</a>">monergism</a>-synergism.html" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Monergism vs. Synergism</div>
+                <div class="cross-link-desc">The core divide beneath every soteriological debate</div>
+            </a>
+            <a href="/compare-calvinism-open-theism" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Classical Theism vs. Open Theism</div>
+                <div class="cross-link-desc">Does God know the future exhaustively?</div>
+            </a>
+            <a href="/compare-<a href="/question-chosen">predestination</a>-<a href="/question-foreknowledge">foreknowledge</a>" class="cross-link">
+                <div class="cross-link-label">Comparison</div>
+                <div class="cross-link-title">Predestination vs. Foreknowledge</div>
+                <div class="cross-link-desc">How God's decrees relate to His knowledge</div>
+            </a>
+            <a href="/systematic-compatibilism.html" class="cross-link">
+                <div class="cross-link-label">Systematic</div>
+                <div class="cross-link-title">Compatibilism</div>
+                <div class="cross-link-desc">How divine sovereignty and human responsibility coexist</div>
+            </a>
+            <a href="/systematic-divine-decrees.html" class="cross-link">
+                <div class="cross-link-label">Systematic</div>
+                <div class="cross-link-title">The Divine Decrees</div>
+                <div class="cross-link-desc">God's eternal plan and its outworking in history</div>
+            </a>
+            <a href="/question-foreknowledge.html" class="cross-link">
+                <div class="cross-link-label">Deep Dive</div>
+                <div class="cross-link-title">Foreknowledge Explained</div>
+                <div class="cross-link-desc">Does foreknowledge mean foreseen faith?</div>
+            </a>
+            <a href="/systematic-theology-proper.html" class="cross-link">
+                <div class="cross-link-label">Systematic</div>
+                <div class="cross-link-title">Theology Proper</div>
+                <div class="cross-link-desc">The attributes and nature of God</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+</div>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/ot-<a href="/systematic-election">election</a>" class="related-article-card">
+        <span class="related-article-cat">📚 Old Testament</span>
+        <span class="related-article-title">David: God&#039;s Sovereign Election for Kingship</span>
+        <span class="related-article-desc">God</span>
+      </a>
+      <a href="/psychology-pride-root-objection" class="related-article-card">
+        <span class="related-article-cat">🧠 Why We Resist</span>
+        <span class="related-article-title">Pride: The Root of Every Objection to God&#039;s Sovereignty</span>
+        <span class="related-article-desc">Why does the doctrines of grace provoke such fury? Psychology reveals the answer: pride. Every obj...</span>
+      </a>
+      <a href="/history-apostolic" class="related-article-card">
+        <span class="related-article-cat">⏳ History</span>
+        <span class="related-article-title">The Apostolic Fathers and Early Church (100-300 AD)</span>
+        <span class="related-article-desc">The Apostolic Fathers (100-300 AD) on grace, election, and God</span>
+      </a>
+      <a href="/debate-free-will" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">The Great Debate: Does Man Have Free Will?</span>
+        <span class="related-article-desc">A rigorous formal debate: Does man have free will? Two positions argue their strongest cases—liberta...</span>
+      </a>
+      <a href="/demolition-acts17-30" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">Acts 17:30 — Verse Demolition #7</span>
+        <span class="related-article-desc">Demolition #7: Acts 17:30 —</span>
+      </a>
+      <a href="/analogies-illustrations" class="related-article-card">
+        <span class="related-article-cat">📄 General</span>
+        <span class="related-article-title">Analogies &amp;amp; Illustrations</span>
+        <span class="related-article-desc">Vivid analogies that illuminate God</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+        <!-- Cross-Reference Section -->
+        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                    <a href="/question-foreknowledge.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Foreknowledge</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Does God foreknow by middle knowledge or by decree?</p>
+                    </a>
+                    <a href="/systematic-divine-decrees.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Divine Decrees</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How God's eternal purposes relate to time and human choice.</p>
+                    </a>
+                    <a href="/systematic-compatibilism.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Compatibilism</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How God's sovereignty and human freedom work together.</p>
+                    </a>
+                    <a href="/compare-calvinism-arminianism.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Calvinism & Arminianism</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The broader debate that Molinism tries to bridge.</p>
+                    </a>
+                    <a href="/question-freewill.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Free Will</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">What does Scripture teach about human choice?</p>
+                    </a>
+                    <a href="/theologian-edwards.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Jonathan Edwards</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The greatest definer of compatibilist freedom.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

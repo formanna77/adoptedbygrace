@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chosen Before You Were Broken — Adopted by Grace</title>
+    <meta name="description" content="You were chosen before the creation of the world—before any sin, before any shame, before any breaking. A devotional for the soul drowning in self-condemnation.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://adoptedbygrace.net/devotional-chosen-before-you-were-broken">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Chosen Before You Were Broken">
+    <meta property="og:description" content="You were chosen before the creation of the world—before any sin, before any shame. For the person lying awake wondering if God could still want them.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/devotional-chosen-before-you-were-broken">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-devotional.png">
+    
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Chosen Before You Were Broken",
+        "description": "You were chosen before the creation of the world—before any sin, before any shame, before any breaking.",
+        "author": {
+            "@type": "Person",
+            "name": "Adopted by Grace"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "datePublished": "2026-04-04",
+        "url": "https://adoptedbygrace.net/devotional-chosen-before-you-were-broken",
+        "articleSection": "Devotional",
+        "wordCount": 950
+    }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress-bar"></div>
+
+            <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <main>
+        <article >
+            <section class="page-hero">
+                <div class="eyebrow">
+                    <span class="category-badge">Devotional</span>
+                    <span class="reading-time">5 min read</span>
+                </div>
+                <h1>Chosen Before You Were Broken</h1>
+                <p class="subtitle">The soul drowning in self-condemnation needs to hear this.</p>
+            </section>
+
+            <div class="article-body">
+                <!-- Opening Scene -->
+                <section class="opening-scene">
+                    <p>It's 2:47 a.m., and you can't sleep.</p>
+                    
+                    <p>Your mind is running the reel again—every failure, every shame, every moment you wish you could unsay, undo, un-become. The room is dark and quiet, but your inner world is deafening. You tried praying earlier, but the words felt hollow, like they were hitting the ceiling and bouncing back. You don't feel chosen. You feel like a mistake. Like collateral damage in your own story.</p>
+                    
+                    <p>Maybe it was something you did. Maybe it was something done to you. Maybe it was a choice you made in a moment of weakness and you've been paying for it ever since. Or maybe you just became someone you never thought you'd become, and now the person staring back from the mirror is a stranger you can't trust.</p>
+                    
+                    <p>The conviction is simple and suffocating: <em>Your brokenness has disqualified you.</em></p>
+                </section>
+
+                <!-- Name the Experience -->
+                <section class="name-experience">
+                    <p>You carry the feeling that God's love was real once. Maybe it was real when you were younger, when you thought you could keep yourself together. Maybe it was real in a moment of grace you're still grieving. But surely—surely—it expired when you broke the condition. When you proved yourself unworthy. When you became what you swore you'd never be.</p>
+                    
+                    <p>You feel like damaged goods on a clearance rack that nobody wants. You feel like you've used up your invitation, burned through your chances, and now you're living in the quiet aftermath of a love that came with fine print you should have read more carefully.</p>
+                    
+                    <p>So you lie awake. And you wait for the weight of that reality to crush you into acceptance.</p>
+                </section>
+
+                <!-- The Scripture - Unpacked -->
+                <section class="scripture-section">
+                    <blockquote class="scripture-quote">
+                        "He chose us in him before the creation of the world, that we should be holy and blameless before him." <span class="verse-ref">— Ephesians 1:4 (ESV)</span>
+                    </blockquote>
+
+                    <p>Before the foundation of the world.</p>
+
+                    <p>Let that land for a moment. Not after you grew up. Not after you figured out who you were. Not after you went to church or read your Bible or said the right prayers. Not even after you committed your first sin. <em>Before.</em> Before there was a world. Before there was time. Before you existed in any form that God needed to wait and see what you'd do.</p>
+
+                    <p>Before the foundation of the world means this choice—your <a href="/systematic-election.html">election</a>—happened in the mind of God in a moment that precedes all moments. It happened before your mother was born. Before your father's father's father. Before the sin that shattered your family. Before the addiction. Before the betrayal. Before the mistake that replays in your mind at 2:47 a.m.</p>
+
+                    <p>God didn't choose you after He saw what you'd become. He didn't choose a cleaned-up version of you that doesn't exist. He didn't choose you on the condition that you'd keep yourself together. <em>He chose you knowing everything</em>—every <a href="/systematic-hamartiology.html">failure</a>, every dark corner you'd crawl into, every shameful moment you're trying to forget. And He chose you anyway.</p>
+
+                    <p>Your <a href="/systematic-hamartiology.html">brokenness</a> cannot disqualify you, because your wholeness didn't qualify you. The choice preceded the condition. The love preceded the mess.</p>
+                </section>
+
+                <!-- The Turn -->
+                <section class="the-turn">
+                    <p>You've been thinking about this backward.</p>
+                    
+                    <p>You thought your brokenness was evidence <em>against</em> God's love. But it's actually evidence <em>for</em> it. Because if God chose you before the creation of the world—knowing EVERYTHING you would do, every failure you would accumulate, every dark corridor you would wander down in desperation and despair—and chose you anyway, then your brokenness isn't a surprise to Him. It isn't a disqualification. It isn't the moment His love runs out.</p>
+                    
+                    <p>It's something He chose to walk through with you.</p>
+                    
+                    <p>The God who chose you is not standing at a distance, shaking His head in disappointment, reconsidering His investment in you. He is here. In the dark. In the shame. In the 2:47 a.m. silence when you can't pray anymore because the words feel like they're choking you. He is not waiting for you to get better. He is not holding back His love until you qualify. He chose you knowing you'd be here, in this moment, drowning in self-condemnation—and He chose you anyway.</p>
+                </section>
+
+                <!-- The Comfort -->
+                <section class="comfort">
+                    <p>Scripture speaks of a chain—and every link is forged in the mind of God before time began:</p>
+                    
+                    <blockquote class="scripture-quote">
+                        "Those he foreknew he also <a href="/question-goldchain.html">predestined... those he predestined he also called; those he called he also justified; those he justified he also glorified</a>." <span class="verse-ref">— Romans 8:29-30 (ESV)</span>
+                    </blockquote>
+
+                    <p>Notice the tense. All of it—even glorified, which hasn't happened yet—is spoken of in the past tense. Because from God's perspective, it is already done. The one who chose you before the creation of the world has already seen the end of your story. And it ends in glory.</p>
+                    
+                    <p>Not despite your brokenness. Not after you fix yourself. But <em>as you are</em>—broken, ashamed, desperate, still lying awake at 2:47 a.m. wondering if anyone could ever want someone like you. God has already seen you glorified. And that vision is fixed. That future is certain. Not because of what you will do, but because of what He has already done in choosing you.</p>
+                    
+                    <p>Your job is not to earn what you've already been given. Your job is to stop running from the one who won't let you go.</p>
+                </section>
+
+                <!-- Pull Quote -->
+                <aside class="pull-quote">
+                    You were chosen before you were broken. Not because of who you might become, but knowing exactly who you already are.
+                </aside>
+
+                <!-- Closing Prayer/Reflection -->
+                <section class="closing-prayer">
+                    <p>A prayer, if you can pray right now:</p>
+                    
+                    <p><em>God, I don't understand how this is true. I can see my failure as clearly as I see the dark ceiling above me. I can feel the weight of what I've done, what I've become. But You're telling me—Scripture is telling me—that You chose me before any of it. That I wasn't a cosmic gamble. That my brokenness didn't surprise You because I was never whole to begin with.</em></p>
+                    
+                    <p><em>I'm choosing to believe it. Not because I feel it. Not because I can make sense of it. But because the only alternative is to believe that my shame is stronger than Your grace. And I'm too tired to run anymore. So I'm choosing to believe that the God who chose me before the creation of the world won't let me go now, in this dark room, in this 2:47 a.m. moment when I feel the most alone.</em></p>
+                    
+                    <p><em>Hold me. I'm yours. I always have been.</em></p>
+                    
+                    <p class="closing-line">And He whispers back: <strong>I know. And I never let you go.</strong></p>
+                </section>
+
+                <!-- Next Steps / Related Content -->
+                <section class="related-reading">
+                    <h3>Go Deeper</h3>
+                    <ul class="related-links">
+                        <li><a href="/question-chosen">Why Does God Choose? (And What It Actually Means)</a></li>
+                        <li>Healing the Shattered Image: More on Shame and Grace</li>
+                        <li><a href="/devotional-never-gives-up">He Will Never Give Up On You</a></li>
+                        <li><a href="/freedom">Why Sovereign Grace Is the End of Fear</a></li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script>
+        // Reading progress bar
+        window.addEventListener('scroll', function() {
+            const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = window.scrollY;
+            const scrollPercent = (scrolled / windowHeight) * 100;
+            document.querySelector('.reading-progress-bar').style.width = scrollPercent + '%';
+        });
+    </script>
+</body>
+</html>

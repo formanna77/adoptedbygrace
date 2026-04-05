@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Why doesn't anyone come to the banquet? A parable revealing how God's grace cannot be resisted—it compels, transforms, and fulfills His eternal purpose.">
+  <meta name="keywords" content="grace, election, irresistible grace, parable, Luke 14, soteriology, predestination, God's will">
+  <title>The King's Banquet: A Parable About Election and Grace</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The King's Banquet: A Parable About Election and Grace">
+  <meta property="og:description" content="When the chosen refuse, the King compels the broken to come. A parable revealing God's grace that cannot be resisted or denied.">
+  <meta property="og:url" content="https://adoptedbygrace.net/story-the-kings-banquet.html">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://adoptedbygrace.net/images/og-kings-banquet.png">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://adoptedbygrace.net/story-the-kings-banquet.html">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./favicon.svg">
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Why No One Comes to the Banquet: A Story About Irresistible Grace",
+    "description": "A modern parable illustrating how God's grace compels the chosen to come, based on Luke 14:15-24.",
+    "url": "https://adoptedbygrace.net/story-the-kings-banquet.html",
+    "author": {
+      "@type": "Organization",
+      "name": "Adopted by Grace"
+    },
+    "datePublished": "2026-03-28",
+    "articleBody": "In a kingdom far older than memory, there lived a King whose wisdom ran as deep as the earth beneath his throne..."
+  }
+  </script>
+
+  <!-- Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/global.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body class="dark-theme">
+  <!-- Skip to Content -->
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Navigation -->
+      <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+  <div class="breadcrumb-nav"><a href="stories.html">&larr; Back to Stories</a></div>
+
+  <!-- Never Gives Up Banner -->
+  <div class="banner banner-dark" role="complementary" aria-label="Thematic banner">
+    <div class="banner-content">
+      <p class="banner-text">
+        The King is preparing a feast, and <span class="banner-highlight">no excuse will stop his plan</span>.
+      </p>
+    </div>
+  </div>
+
+  <!-- Reading Progress -->
+  <div class="reading-progress" aria-hidden="true"></div>
+
+  <!-- Main Content -->
+  <main id="main-content" class="story-container">
+    <section class="page-hero">
+          <div class="eyebrow">Story</div>
+    <h1 class="story-title">The King's Banquet</h1>
+      <p class="story-subtitle">A parable on irresistible grace</p>
+    </section>
+
+    <article class="article-body">
+      <p>
+        In a kingdom far older than memory, there lived a King whose wisdom ran as deep as the earth beneath his throne. The King had one son—not a prince who would someday rule, but the heir to everything the King possessed, the beloved in whom he was well-pleased.
+      </p>
+
+      <p>
+        One day the King called his servants and said, "My son is taking a bride. Prepare the greatest banquet the kingdom has ever known. Spare no expense. Every delicacy, every treasure of the table—bring them forth. I want the hall so full that not a single seat will be empty."
+      </p>
+
+      <p>
+        The servants worked for months. The banquet hall was transformed. Gold leaf adorned the walls. The finest wines filled crystal vessels. Tables groaned under the weight of a thousand delights prepared by the kingdom's greatest cooks. Every seat was placed exactly where the King commanded it.
+      </p>
+
+      <p>
+        Then the King gave the invitations to his most trusted servants. "Go to every corner of the kingdom," he said. "Tell everyone: you are invited to the wedding feast of my son. This is not a small affair—this is the greatest celebration the realm will ever know. Come and rejoice with us."
+      </p>
+
+      <p>
+        The servants set out with joy. They walked dusty roads and crossed rivers. They came to merchants and landowners, to scholars and soldiers, to rich and poor alike.
+      </p>
+
+      <p>
+        "The King invites you to his son's wedding banquet," they announced.
+      </p>
+
+      <div class="scene-break">❦</div>
+
+      <p>
+        But the invitations came back refused.
+      </p>
+
+      <p>
+        A wealthy merchant received his invitation with a laugh. "The King's banquet? What an honor," he said mockingly. "But I've just purchased a new estate—land that will make me richer than I already am. I cannot possibly leave. Tell the King I am sorry." He turned his back and returned to counting his property.
+      </p>
+
+      <p>
+        Another man who owned many oxen barely glanced at the invitation before tearing it to shreds. "I must inspect my herd," he muttered. "These animals are my life. A banquet is a distraction I cannot afford." The pieces fell like snow onto the floor.
+      </p>
+
+      <p>
+        A man who had recently taken a wife cast the invitation aside with a shrug. "The King asks me to leave my bride so soon? Impossible. My new marriage is far more interesting than any royal celebration." He closed the door before the servant could even finish speaking.
+      </p>
+
+      <p>
+        Some were crueler. They mocked the servants. They called them fools for bringing such an absurd invitation. Some took the sealed parchment and burned it before the servant's eyes. Others attacked the messengers, driving them away with threats.
+      </p>
+
+      <p>
+        Not a single invitation was accepted.
+      </p>
+
+      <p>
+        The servants returned to the King, their faces downcast. "No one is coming," they said quietly. "They all have excuses. They have refused your invitation."
+      </p>
+
+      <p>
+        The King did not look surprised. He did not rage or curse. He simply nodded, as if he had always known exactly how this would unfold.
+      </p>
+
+      <p>
+        "Of course they refused," he said calmly. "They love their land and their cattle and their new spouses more than they love my son. They are blind to the glory I have prepared for them. They cannot see beyond their own small desires. I knew this would happen before the foundation of the kingdom itself."
+      </p>
+
+      <p>
+        The King stood and walked to the window of his throne room, looking out over his realm.
+      </p>
+
+      <p>
+        "But my banquet will not stand empty," he said. "The feast is prepared. The tables are set. Every seat I designed will be filled—not by the righteous and the willing, but by those who have no power to resist, those who could never earn such a place."
+      </p>
+
+      <p>
+        He turned to his servants with new authority in his voice. "Go now to the highways and the hedges. Find the blind who cannot see the path. Find the lame who cannot walk it. Find the beggars in the streets, the outcasts by the gates, the broken and forgotten whom the kingdom has left behind. Do not ask them. Do not invite them. Go and <em>compel</em> them to come in."
+      </p>
+
+      <div class="scene-break">❦</div>
+
+      <p>
+        The servants went out into the kingdom's forgotten places.
+      </p>
+
+      <p>
+        They came to a blind man sitting by the roadside, his hands worn from begging, his face turned toward a sun he could not see. "Come with us," they said gently, taking his hand. The blind man did not understand, but he felt the certainty in their grip. They led him, step by step, to the banquet hall.
+      </p>
+
+      <p>
+        They found a crippled woman lying on a mat in a dark corner of the city, alone, forgotten by everyone. She had never imagined such a place existed as the banquet hall. The servants lifted her—not asking, but taking her with them. "The King has summoned you," they said. And she went.
+      </p>
+
+      <p>
+        They went to the poorest districts, to men and women who had nothing, who wore rags, whose bodies bore the marks of a hard and loveless world. "You are coming with us," the servants said. It was not a request. It was a promise. And one by one, the servants brought them in.
+      </p>
+
+      <p>
+        The servants did not ask if these broken people were worthy. They did not inquire whether they had the right clothes or the right manners. They did not wait for the outcasts to clean themselves or improve themselves or somehow become acceptable. They simply brought them in.
+      </p>
+
+      <p>
+        When the blind man entered the banquet hall for the first time, his companions described what his eyes could not see. "There," they said, "is a table laden with things you've never tasted." He wept—not because he had chosen to come, but because he had been chosen to be brought.
+      </p>
+
+      <p>
+        When the crippled woman was placed at the table, she looked around the hall and saw faces like hers—broken, forgotten, yet now sitting in a place of honor. "How is this possible?" she whispered. "How could someone want me here?" And the answer was simple: The King had planned it this way before the world was made.
+      </p>
+
+      <p>
+        The beggars and outcasts filled the hall. They came in by the hundreds, then the thousands. Every seat the King had prepared was occupied. Not one was empty. Not one person sat at that table who had deserved to be there. Every single one had been compelled, brought, taken by the hand by servants who acted on the King's unshakeable purpose.
+      </p>
+
+      <p>
+        When the hall was completely full, the King stood and raised his cup.
+      </p>
+
+      <p>
+        "To my son," he declared. "And to the grace that fills every seat at his table—a grace not given because it was earned, but because it was determined. A grace that brought in those who could never come on their own. A grace that could not be refused, because it was not a mere invitation, but a command born of love."
+      </p>
+
+      <p>
+        The servers moved through the hall, and the celebration began. Those who had been worthless in the eyes of the kingdom tasted food fit for a king. Those who had been alone now sat in community. Those who had been broken now rested in a place of honor. And none of it had depended on their willingness. It had depended only on the King's word.
+      </p>
+
+      <p>
+        In a corner of the hall, the servants of the King stood watching. Their work was done. The King's purpose was complete. Every seat was filled exactly as he had designed, exactly as he had known it would be, exactly as he had determined before the foundation of the kingdom itself.
+      </p>
+
+      <p>
+        And the feast continued through the night, a celebration of grace—the kind of grace that does not wait for permission, that does not depend on worthiness, that cannot be resisted because it is the will of a King who cannot be denied.
+      </p>
+    </article>
+
+    <!-- The Parable Unveiled -->
+    <section class="parable-unveiled">
+      <h2>The Parable Unveiled</h2>
+
+      <div class="mapping-section">
+        <h3>The Story in Scripture</h3>
+        <p>
+          "The King's Banquet" retells the heart of Luke 14:15–24, where Jesus describes a great banquet and those who refuse the invitation. It also echoes Matthew 22:1–14, where the King's servants are sent to "compel them to come in" (Luke 14:23). This parable was the centerpiece of Jesus' teaching on why people reject him, and why some are brought into his kingdom by a grace they cannot refuse.
+        </p>
+      </div>
+
+      <div class="mapping-section">
+        <h3>Element Mapping</h3>
+
+        <div class="mapping-item">
+          <strong>The King</strong> = God the Father, whose purpose cannot be thwarted and whose will is eternally certain.
+        </div>
+
+        <div class="mapping-item">
+          <strong>The Son</strong> = Jesus Christ, the Beloved, the reason for the feast, the center of all God's plans.
+        </div>
+
+        <div class="mapping-item">
+          <strong>The Banquet</strong> = Salvation itself—the feast prepared from the foundation of the world (Ephesians 1:4), the communion with God that believers enjoy in Christ.
+        </div>
+
+        <div class="mapping-item">
+          <strong>The Invitations (first sending)</strong> = The general call—the gospel proclaimed to all, the external invitation that goes out indiscriminately. "Come, for everything is now ready" (Luke 14:17).
+        </div>
+
+        <div class="mapping-item">
+          <strong>The Refusals</strong> = Total depravity—humanity's total inability and unwillingness to come to God. No one comes on their own (John 6:44). Everyone has an excuse. Everyone turns away.
+        </div>
+
+        <div class="mapping-item">
+          <strong>The Servants (second sending)</strong> = The effectual call—God's sovereign, irresistible work of grace that brings the chosen to himself. Not a mere invitation, but a compulsion born of divine will.
+        </div>
+
+        <div class="mapping-item">
+          <strong>The Blind, Lame, and Beggars</strong> = The elect—those whom God chooses, not based on their worthiness or foreseen faith, but according to his sovereign purpose (Ephesians 1:4–5). Scripture teaches us that God's selection is not based on anything in us. <a href="/story-the-orphanage.html">See how this truth unfolds in another parable of election.</a>
+        </div>
+
+        <div class="mapping-item">
+          <strong>"Compel them to come in"</strong> = Irresistible grace (Greek: <em>anankazo</em>)—God's grace that overcomes human resistance, that grants the will to believe, that awakens the dead in sin to life in Christ. Not coercion that violates the will, but grace that transforms the will itself so that the person willingly comes. <a href="/question-irresistible.html">Learn more about how irresistible grace works without violating free will.</a>
+        </div>
+
+        <div class="mapping-item">
+          <strong>The Full Banquet Hall</strong> = Definite atonement—the truth that Jesus' death was effectually applied to all the elect. No seat is empty. No seat goes unfilled. The atonement does not fail in its purpose. All whom the Father has given to the Son will come to him (John 6:37–40).
+        </div>
+      </div>
+
+      <div class="mapping-section">
+        <h3>The Five Doctrines</h3>
+        <div class="truth-grid">
+          <div class="truth-card">
+            <h4>Total Depravity</h4>
+            <p>Everyone invited refuses. No one comes of their own accord. Humanity's rejection of God is total and inevitable apart from divine intervention.</p>
+          </div>
+
+          <div class="truth-card">
+            <h4>Unconditional Election</h4>
+            <p>The King chooses the blind, lame, and beggars—not based on their worthiness or foreseen works, but according to his sovereign pleasure alone. Scripture teaches that God chose us before the creation of the world.</p>
+          </div>
+
+          <div class="truth-card">
+            <h4>Limited Atonement</h4>
+            <p>The feast is prepared for specific people—those the King has chosen. Not all are invited to sit. The atonement is effectually applied to the elect, and the hall is filled with exactly those for whom it was made.</p>
+          </div>
+
+          <div class="truth-card">
+            <h4>Irresistible Grace</h4>
+            <p>The servants do not ask—they compel. This grace cannot be refused because it is not contingent on human consent. It is the will of the King, executed with certainty and love.</p>
+          </div>
+
+          <div class="truth-card">
+            <h4>Perseverance of the Saints</h4>
+            <p>Once brought to the banquet, the guests remain. They are held there not by their strength, but by the King's power. None escape. None are lost from the feast they have been compelled to enter.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mapping-section">
+        <h3>Why This Matters</h3>
+        <p>
+          This parable smashes the false comfort of the rejected invitation. If God merely invites and then waits for your yes, then perhaps his purpose fails. Perhaps some seats at the table will sit empty. Perhaps the King's plan depends on your willingness.
+        </p>
+        <p>
+          But Scripture teaches something far more glorious. God does not merely invite. He compels. He does not wait to see if you will choose him. He chooses you, and his choice carries with it a grace so powerful that it irresistibly brings you in. You do not sit at the banquet because you deserved it. You do not sit there because you chose well. You sit there because the King—before the creation of the world—decided you would sit there. And his decision cannot be undone.
+        </p>
+        <p>
+          This is why the guests at this banquet weep not tears of pride, but tears of wonder. They were compelled to come not because they were worthy, but because they were chosen. And that choice—that irresistible grace—is more precious than any seat they could have earned.
+        </p>
+      </div>
+    </section>
+
+    <!-- Keep Reading -->
+    <section class="further-reading">
+      <h2>Keep Reading</h2>
+      <div class="reading-cards">
+        <a href="/question-irresistible.html" class="reading-card" tabindex="0">
+          <h3>What Is Irresistible Grace?</h3>
+          <p>Dig deeper into the mechanics of how God's grace compels without coercing—and why it cannot be refused.</p>
+        </a>
+
+        <a href="/story-the-orphanage.html" class="reading-card" tabindex="0">
+          <h3>The Orphanage: A Story of Election</h3>
+          <p>Another parable showing how God chooses the unwanted, the overlooked, and the forgotten before the world was made.</p>
+        </a>
+
+        <a href="/demolition-rev3-20.html" class="reading-card" tabindex="0">
+          <h3>Behold I Stand at the Door and Knock</h3>
+          <p>Does Revelation 3:20 really teach that sinners must open the door first? A hard look at what Scripture actually says.</p>
+        </a>
+
+        <a href="/devotional-rescued-without-a-say.html" class="reading-card" tabindex="0">
+          <h3>Rescued Without a Say</h3>
+          <p>A devotional for those who've discovered they didn't choose God—He chose them. What freedom looks like when the illusion shatters.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Back to Top -->
+    
+  </main>
+
+  <!-- Footer -->
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/ot-abel-cain" class="related-article-card">
+        <span class="related-article-cat">📚 Old Testament</span>
+        <span class="related-article-title">Abel and Cain: The First Election</span>
+        <span class="related-article-desc">Genesis 4 reveals God</span>
+      </a>
+      <a href="/demolition-hub" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">Acts 7:51 — Verse Demolition #6</span>
+        <span class="related-article-desc">Demolition #6: Does Acts 7:51 Prove that Grace Can Be Resisted? A Reformed exegesis of Stephen</span>
+      </a>
+      <a href="/analogy-adoption" class="related-article-card">
+        <span class="related-article-cat">💡 Analogies</span>
+        <span class="related-article-title">Did You Choose God or Did God Choose You? The Adoption Analogy</span>
+        <span class="related-article-desc">A baby doesn</span>
+      </a>
+      <a href="/systematic-justification" class="related-article-card">
+        <span class="related-article-cat">🏛 Theology</span>
+        <span class="related-article-title">Justification by Faith Alone</span>
+        <span class="related-article-desc">Justification by Faith Alone: How God declares sinners righteous through the imputed righteousness o...</span>
+      </a>
+      <a href="/question-titus3" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">Not Because of Works Done by Us — Titus 3:3-7</span>
+        <span class="related-article-desc">Titus 3:3-7 examined: God saved us not because of works done by us in righteousness, but according t...</span>
+      </a>
+      <a href="/stories" class="related-article-card">
+        <span class="related-article-cat">📄 General</span>
+        <span class="related-article-title">Stories of Sovereign Grace</span>
+        <span class="related-article-desc">Modern parables and allegories that reveal God</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer class="site-footer" role="contentinfo">
+    <div class="footer-content">
+      <p>&copy; 2026 Adopted by Grace. All Scripture teaching is free to share. <a href="/about">Terms</a> • <a href="/about">Privacy</a></p>
+      <p class="footer-tagline">For those who experience God's sovereignty spiritually but need to understand it intellectually.</p>
+    </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/global.js"></script>
+  <script>
+    // Story-specific tracking (optional)
+    if (window.trackPageView) {
+      window.trackPageView('story-the-kings-banquet');
+    }
+  </script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

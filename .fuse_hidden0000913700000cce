@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Committee to Save Yourself — A Satire on Works-Righteousness</title>
+    <meta name="description" content="A town of drowning people forms a committee to rescue themselves. A satirical story about the absurdity of trying to save yourself—told with Chestertonian wit.">
+    <meta name="keywords" content="works righteousness humor, satire Calvinism, grace vs works comedy, funny theology story, saved by grace humor, can you save yourself, Chesterton style theology">
+
+    <meta property="og:title" content="The Committee to Save Yourself">
+    <meta property="og:description" content="A town of drowning people forms a committee to rescue themselves. A satirical story about the beautiful absurdity of works-righteousness.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/story-humor-committee-to-save-yourself">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Committee to Save Yourself">
+    <meta name="twitter:description" content="A town of drowning people forms a committee to rescue themselves. The absurdity of saving yourself—told as comedy.">
+
+    <link rel="canonical" href="https://adoptedbygrace.net/story-humor-committee-to-save-yourself">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Committee to Save Yourself — A Satire on Works-Righteousness",
+        "description": "A town of drowning people forms a committee to rescue themselves. A satirical story about the absurdity of trying to save yourself.",
+        "url": "https://adoptedbygrace.net/story-humor-committee-to-save-yourself",
+        "datePublished": "2026-04-04",
+        "dateModified": "2026-04-04",
+        "author": { "@type": "Organization", "name": "Adopted by Grace" },
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "logo": { "@type": "ImageObject", "url": "https://adoptedbygrace.net/favicon.svg" } },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://adoptedbygrace.net/story-humor-committee-to-save-yourself" }
+    }
+    </script>
+
+</head>
+<body>
+
+<div class="reading-progress" id="readingProgress"></div>
+
+            <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+<div class="page-hero">
+    <span class="story-badge">Humor &middot; Satire</span>
+        <div class="eyebrow">Story</div>
+    <h1>The Committee to <span class="gold">Save Yourself</span></h1>
+    <p class="subtitle">A town of drowning people forms a committee to rescue themselves. A satire on the beautiful absurdity of works-righteousness.</p>
+    <p class="reading-time">10 min read</p>
+</div>
+
+<div class="article-body">
+
+<p><span class="first-word">The town of Meritville</span> sat at the bottom of a valley, which was, in hindsight, an unfortunate place to build a town.</p>
+
+<p>No one could remember who had decided to put it there. But someone had, and now the river was rising, and the entire population of Meritville&mdash;all 463 souls&mdash;found themselves standing in water that had been at their ankles on Monday, their knees on Tuesday, and their waists by Thursday morning.</p>
+
+<p>On Thursday afternoon, the mayor called an emergency meeting.</p>
+
+<p>"Ladies and gentlemen," said Mayor Coggins, standing on a table because the floor was now a foot underwater, "we have a problem."</p>
+
+<p>"We're drowning!" shouted a man named Herbert from the back of the room, where the water was slightly deeper than the front.</p>
+
+<p>"We are <em>not</em> drowning," the mayor said firmly. "We are <em>experiencing increased aquatic proximity</em>. Now, I have called this meeting because I believe, with the full confidence of my administration, that we can solve this problem. Together. As a <em>community</em>."</p>
+
+<p>The crowd cheered. Wet, cold, and slightly buoyant, but cheering nonetheless.</p>
+
+<p>"I hereby establish," the mayor continued, "the Meritville Committee for Self-Rescue."</p>
+
+<p class="scene-break">&bull; &bull; &bull;</p>
+
+<p>The Committee met the next morning on the second floor of the town hall, which was now the only dry floor in Meritville.</p>
+
+<p>The first order of business was clear: how shall we save ourselves?</p>
+
+<p>A woman named Mrs. Pemberton, who had served on seventeen committees prior to this one and chaired four of them, raised her hand. "I move that we institute a swimming curriculum. If everyone in town learns to swim, the rising water becomes a non-issue."</p>
+
+<p>"Excellent," said the mayor. "All in favor?"</p>
+
+<p>The motion passed unanimously.</p>
+
+<p>By Friday evening, Meritville had a swimming program. Classes were held in the town square, which was now five feet underwater and thus ideally suited for the purpose. Instructor Gerald, who had once swum to the far side of a pond at summer camp (in 1987, before his back went out), was appointed Head of Aquatic Self-Improvement.</p>
+
+<p>There was only one problem. The water was rising faster than the people could learn to swim.</p>
+
+<p>By Saturday, several citizens who had faithfully attended every class were nonetheless up to their chins. Instructor Gerald suggested they try harder.</p>
+
+<p>"The issue," Gerald explained, treading water with the kind of confidence that comes from a single childhood experience and four decades of not questioning it, "is <em>commitment</em>. You have to <em>want</em> to not drown. You have to <em>choose</em> to keep your head above water."</p>
+
+<p>"I am choosing!" sputtered Herbert, who was now swallowing water between words.</p>
+
+<p>"Choose <em>harder</em>," said Gerald.</p>
+
+<div class="pullquote">The Committee's operating philosophy could be summarized in a single sentence that no one ever wrote down because it seemed too obviously true to require documentation: "Surely, if we try hard enough, we can save ourselves."</div>
+
+<p class="scene-break">&bull; &bull; &bull;</p>
+
+<p>By Sunday, the swimming program had been supplemented by a second initiative.</p>
+
+<p>A man named Dr. Finch, who owned the only bookshop in Meritville (now fully submerged, the books floating like sad rectangular jellyfish), proposed the Theory of Buoyancy Through Positive Thinking.</p>
+
+<p>"The water," Dr. Finch explained, "responds to our <em>attitude</em>. If we approach the flood with optimism and intentionality, our bodies will naturally rise above it."</p>
+
+<p>"Is there evidence for this?" asked a skeptical carpenter named Paul, who was standing on a chair on top of a table and still getting wet.</p>
+
+<p>"Evidence," said Dr. Finch, adjusting his spectacles (which were foggy because they were underwater), "is the refuge of people who lack faith in their own capacity."</p>
+
+<p>The crowd applauded. Except for Paul, who noticed that Dr. Finch was standing on a very tall bookshelf and not actually in the water at all.</p>
+
+<p>By Monday, Meritville had developed a full spiritual practice around self-rescue. Morning affirmations were held at dawn. Citizens would stand (or float, depending on their floor's elevation) and recite the Meritville Creed:</p>
+
+<p style="text-align: center; font-family: 'Playfair Display', serif; font-style: italic; color: var(--accent-ember); font-size: 1.05rem; margin: 2rem 0; line-height: 1.6;"><em>I am the captain of my buoyancy.<br>I choose to rise.<br>My effort is the engine of my salvation.<br>Today, I will not drown&mdash;because I have decided not to.</em></p>
+
+<p>It was, by all accounts, a very inspiring creed. It was also, by all accounts, written by people who were drowning.</p>
+
+<p class="scene-break">&bull; &bull; &bull;</p>
+
+<p>On Tuesday, a boat arrived.</p>
+
+<p>It came from upriver&mdash;a large, sturdy vessel, clearly built by someone who knew what floods were and had planned for this one in advance. It was stocked with blankets and food and room for the entire population of Meritville twice over. A man stood at the bow with a rope and a megaphone.</p>
+
+<p>"Hello!" he called. "I've come to rescue you!"</p>
+
+<p>Mayor Coggins swam out to meet the boat. (He had gotten rather good at swimming by this point, though the water was now over his head.)</p>
+
+<p>"That's very kind," the mayor said, treading water with civic dignity, "but we have it under control."</p>
+
+<p>"You're drowning," the man on the boat observed.</p>
+
+<p>"We are <em>managing our aquatic situation through community self-reliance</em>."</p>
+
+<p>"You are quite literally going to die."</p>
+
+<p>"Sir," the mayor said, with the injured pride of a man whose committee has been disrespected, "we have a <em>program</em>. We have a <em>creed</em>. We have a fully accredited swimming curriculum taught by a man who once crossed a pond. We do not need your boat."</p>
+
+<p>The man on the boat looked at the mayor for a long moment. Then he looked at the town behind the mayor&mdash;the rooftops barely visible, the citizens clinging to chimneys and gutters, the flag of Meritville (a fist raised triumphantly above a wave, which had always been meant as metaphor but was now just journalism) drooping in the rain.</p>
+
+<p>"The boat is here," the man said quietly. "It has always been coming here. I built it for you before the flood began. You don't have to earn your way onto it. You just have to stop pretending you don't need it."</p>
+
+<div class="pullquote">"You just have to stop pretending you don't need it."</div>
+
+<p class="scene-break">&bull; &bull; &bull;</p>
+
+<p>What happened next divided Meritville permanently.</p>
+
+<p>Some citizens looked at the boat, looked at the water, and did the math. They let go of their chimneys and swam to the vessel and were pulled aboard. They did not swim to the boat because they were good swimmers. (Most of them were terrible swimmers. Herbert had to be fished out with a net.) They swam to the boat because they had finally admitted what the water had been telling them all week: <em>you cannot save yourself from this.</em></p>
+
+<p>But others refused.</p>
+
+<p>Mrs. Pemberton, who had served on seventeen committees, was not about to admit that committees could not solve the problem. She organized a subcommittee to study the boat and determine whether it met municipal safety standards. (It did. She disputed the findings.)</p>
+
+<p>Dr. Finch stood on his bookshelf&mdash;now the only dry surface in Meritville&mdash;and declared that the boat was "an insult to human agency." The people who got on the boat, he said, were "surrendering their dignity." He did not explain how dignity was supposed to keep them breathing.</p>
+
+<p>Instructor Gerald kept teaching swimming lessons, even though his students were now fully submerged. "It's a matter of technique," he insisted, his voice a stream of bubbles. "The problem is not the water. The problem is insufficient commitment to the stroke."</p>
+
+<p>And Mayor Coggins? The mayor treaded water beside the boat for two full hours, debating with the man at the bow. His objections, in order, were:</p>
+
+<p>"We didn't ask for this boat."</p>
+
+<p>"It's patronizing to assume we can't save ourselves."</p>
+
+<p>"If the boat was always coming, why didn't you send it sooner?"</p>
+
+<p>"If you only have room for 463 people, that's fine, but what about the people in the next town? How is it fair that they don't get a boat?"</p>
+
+<p>"The real issue isn't the flood. It's systemic infrastructure failure."</p>
+
+<p>And finally, as the water reached his chin:</p>
+
+<p>"I would rather drown free than be saved without my permission."</p>
+
+<p>The man on the boat looked at the mayor with something that was not anger and was not pity but was closer to grief. "You are drowning," he said, "and you are calling it freedom."</p>
+
+<div class="pullquote">"You are drowning, and you are calling it freedom."</div>
+
+<p class="scene-break">&bull; &bull; &bull;</p>
+
+<p>The boat stayed for three days.</p>
+
+<p>During those three days, a curious thing happened. Several citizens who had initially refused the boat changed their minds. Not because the arguments got better&mdash;the arguments had been perfectly clear from the start. But because something broke inside them. The pretending got too heavy. The effort of performing self-sufficiency while actively sinking became more exhausting than the shame of admitting they needed help.</p>
+
+<p>A woman named Clara, who had been clinging to the roof of her house and reciting the Meritville Creed with great enthusiasm for six days, suddenly stopped mid-affirmation. She looked at the water. She looked at her white knuckles gripping the gutter. She looked at the boat.</p>
+
+<p>And she said, very quietly: "I can't do this."</p>
+
+<p>Not "I won't." Not "I choose not to." <em>"I can't."</em></p>
+
+<p>It was the truest thing anyone in Meritville had said all week.</p>
+
+<p>The man on the boat threw her a rope. She grabbed it. Not because she had decided to be rescued&mdash;she had lost the ability to decide anything. She grabbed it because when you are drowning and a rope appears, your body knows what to do even when your pride does not.</p>
+
+<p>On the boat, wrapped in a blanket and shivering, Clara looked back at the town. The chimneys were disappearing under the water. The flag was gone. The creed was silence.</p>
+
+<p>"I didn't save myself," she said.</p>
+
+<p>"No," said the man. "You didn't."</p>
+
+<p>"I couldn't even swim to the boat. You threw the rope."</p>
+
+<p>"I did."</p>
+
+<p>"So what did <em>I</em> do?"</p>
+
+<p>The man smiled. "You let go of the gutter."</p>
+
+<p>Clara thought about this. "But I only let go because I ran out of strength."</p>
+
+<p>"Yes."</p>
+
+<p>"So even the letting go wasn't really my doing."</p>
+
+<p>The man's smile deepened. "Now you're getting it."</p>
+
+<div class="scripture">
+    "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
+    <span class="ref">Ephesians 2:8&ndash;9 (NIV)</span>
+</div>
+
+<div class="scripture">
+    "No one can come to me unless the Father who sent me draws them. And I will raise them up at the last day."
+    <span class="ref">John 6:44 (NIV)</span>
+</div>
+
+<div class="scripture">
+    "He saved us, not because of works done by us in righteousness, but according to his own mercy."
+    <span class="ref">Titus 3:5 (ESV)</span>
+</div>
+
+<p class="scene-break">&bull; &bull; &bull;</p>
+
+<p>The boat left on Friday. Those who were on it were saved. Those who were not were very, very wet.</p>
+
+<p>Legend has it that Mayor Coggins was last seen at a depth of twelve feet, still chairing a meeting. The minutes of that final session, recovered later in a waterlogged notebook, contained a single agenda item:</p>
+
+<p style="text-align: center; font-family: 'Playfair Display', serif; font-style: italic; color: var(--text-secondary); font-size: 1rem; margin: 2rem 0;"><em>Motion to formally acknowledge that the Committee for Self-Rescue has been an unqualified success. All in favor? Carried unanimously. Meeting adjourned.</em></p>
+
+<p>The water did not vote.</p>
+
+</div>
+
+<div class="article-body">
+
+<div class="truth-section">
+    <h3>The Truth Behind the Story</h3>
+    <p>The comedy of Meritville is the tragedy of every person who insists they contributed to their own salvation. The swimming lessons are our good works. The creed is our "decision for Christ." The positive thinking is our confidence that we chose God. And the boat&mdash;the boat that was always coming, built before the flood began&mdash;is <a href="/question-irresistible">grace that does not wait for an invitation</a>.</p>
+    <p>The question Clara finally asked&mdash;"So what did <em>I</em> do?"&mdash;is the question at the heart of <a href="/objection-faith-choice">the most important argument on this site</a>. If even the letting-go was not her doing&mdash;if she only released the gutter because her strength failed&mdash;then the rescue is entirely the rescuer's work. And taking credit for it is as absurd as a drowning woman thanking herself for the rope.</p>
+    <p>Mayor Coggins is not a villain. He is a sincere man who loves his town and genuinely believes he can save it. That is what makes him dangerous. The most insidious form of <a href="/resistance-redefining-grace">works-righteousness</a> is not cold legalism&mdash;it is warm, earnest, community-spirited self-reliance that looks exactly like faith but trusts the swimmer instead of the boat. The people of Meritville did not reject the boat because they hated it. They rejected it because <a href="/psychology-pride-root-objection">admitting they needed it cost them everything they believed about themselves</a>.</p>
+    <p>The man on the boat built the vessel <em>before the flood began</em>. That is <a href="/question-predestined-to-hell">predestination</a>. He came to a town that didn't ask for help. That is <a href="/question-irresistible">irresistible grace</a>. He threw the rope to Clara when she couldn't swim to him. That is <a href="/analogy-drowning-man">the truth about human inability</a>. And the boat had room for the whole town. The tragedy is not that the boat was too small. The tragedy is that some people loved their committees more than their lives.</p>
+</div>
+
+</div>
+
+<div class="keep-reading">
+    <h2>Keep Reading</h2>
+    <div class="keep-reading-grid">
+        <a class="keep-reading-card" href="/analogy-drowning-man">
+            <div class="card-eyebrow">Analogy</div>
+            <h3>The Drowning Man Who Thinks He's Swimming</h3>
+            <p>Why the difference between "drowning" and "dead" changes everything about the gospel.</p>
+        </a>
+        <a class="keep-reading-card" href="/resistance-redefining-grace">
+            <div class="card-eyebrow">Why We Resist</div>
+            <h3>The Art of Redefining Grace</h3>
+            <p>How we turn a gift into an achievement without realizing what we've done.</p>
+        </a>
+        <a class="keep-reading-card" href="/story-children-the-king-who-chose">
+            <div class="card-eyebrow">Children's Story</div>
+            <h3>The King Who Chose His Children</h3>
+            <p>A fairy tale about a King who doesn't wait to be asked. He walks into the orphanage himself.</p>
+        </a>
+    </div>
+</div>
+
+<footer class="footer-site">
+    <p>&copy; 2026 <a href="/">Adopted by Grace</a> &mdash; <a href="/about">About</a> &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></p>
+    <p style="margin-top: 0.5rem;">Soli Deo Gloria</p>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+</footer>
+
+<script src="/nav.js"></script>
+<script>
+window.addEventListener('scroll', function() {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    document.getElementById('readingProgress').style.width = scrolled + '%';
+});
+</script>
+</body>
+</html>

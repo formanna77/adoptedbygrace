@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The External Call vs The Effectual Call: Scripture teaches that God calls all people to salvation, but only the elect truly hear and respond. Matthew 22:14, John 6:44, Romans 8:30, and 1 Corinthians 1:23-24 examined.">
+    <meta property="og:title" content="The External Call vs The Effectual Call">
+    <meta property="og:description" content="The External Call vs The Effectual Call: Scripture teaches that God calls all people to salvation, but only the elect truly hear and respond.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/question-external-call.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The External Call vs The Effectual Call">
+    <meta name="twitter:description" content="Scripture teaches that God calls all people to salvation, but only the elect truly hear and respond.">
+    <link rel="canonical" href="https://adoptedbygrace.net/question-external-call.html">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>The External Call vs The Effectual Call</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The External Call vs The Effectual Call",
+        "description": "Scripture teaches that God calls all people to salvation, but only the elect truly hear and respond.",
+        "url": "https://adoptedbygrace.net/question-external-call.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://adoptedbygrace.net/question-external-call.html"
+        }
+    }
+    </script>
+    
+            <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+                <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <div class="breadcrumb-nav"><a href="/questions">← Back to Questions</a></div>
+
+    <div id="main-content" class="page-hero">
+        <div class="eyebrow">Question: Calling</div>
+        <h1>The External Call vs The Effectual Call</h1>
+        <p class="subtitle">Why does the gospel invitation go to all people, yet only some respond? Scripture teaches that God extends two kinds of calls—the external call that goes to everyone, and the effectual call that produces what it promises.</p>
+    </div>
+
+    <nav class="section-nav">
+        <div class="section-nav-container">
+            <a href="#the-problem" class="section-link">The Problem</a>
+            <a href="#external-call" class="section-link">External Call</a>
+            <a href="#effectual-call" class="section-link">Effectual Call</a>
+            <a href="#the-evidence" class="section-link">The Evidence</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <section id="the-problem" class="section">
+            <h2>The Tension: Why Don't All Respond?</h2>
+            <p>The gospel of Jesus Christ is proclaimed to all people. Churches preach that "whosoever will may come." Yet history shows that not everyone who hears the gospel believes. The same message produces opposite effects: some hear and are transformed; others hear and harden their hearts. Why?</p>
+            <p>This isn't a contradiction. It's an instruction in biblical theology that reveals God's character and the nature of salvation itself. Scripture teaches a crucial distinction that resolves the tension: the <strong>external call</strong> and the <strong>effectual call</strong>.</p>
+            <p>Understanding this distinction is not philosophical maneuvering. It's liberating truth that clarifies both God's sovereignty and human responsibility in salvation.</p>
+        </section>
+
+        <section id="external-call" class="section">
+            <h2>The External Call: The Gospel to All</h2>
+            <p>The external call is the outward proclamation of the gospel message. It goes to everyone who hears the Word preached. It's the voice of the church, the witness of believers, the offer of salvation extended publicly. Christ himself spoke in parables "that seeing, they might not see" and "hearing, they might not understand"—acknowledging that not all who hear the external call respond to it.</p>
+
+            <h3>Matthew 22:14—Many Called, Few Chosen</h3>
+            <p>Jesus concludes the parable of the wedding feast with one of scripture's most penetrating statements:</p>
+            <div class="scripture-block">
+                "For many are called, but few are chosen."
+                <span class="scripture-ref">Matthew 22:14 (ESV)</span>
+            </div>
+            <p>This verse encapsulates the truth of the external call. All are invited. The gospel goes to many. But within that "many," only the "few"—those whom the Father has chosen—actually come in faith. The external call creates no obligation on God to save everyone who hears it. It's a genuine offer, yes. But God's sovereignty means that the ultimate outcome rests not on human effort or human choice, but on His will.</p>
+
+            <h3>The Character of the External Call</h3>
+            <p>The external call has several marks:</p>
+            <ul class="evidence-list">
+                <li><strong>It is universal in scope</strong>—directed to all who hear the gospel, believers and unbelievers alike.</li>
+                <li><strong>It is genuine</strong>—the offer of salvation is real, not a trick or a deception.</li>
+                <li><strong>It does not automatically produce faith</strong>—many hear and reject.</li>
+                <li><strong>It appeals to reason and will</strong>—it can be resisted; people can say no.</li>
+                <li><strong>It is moral and just</strong>—people are held accountable for how they respond to it.</li>
+            </ul>
+            <p>The external call goes to all because God is just. He provides the means of salvation for everyone. But the external call alone does not save anyone.</p>
+        </section>
+
+        <section id="effectual-call" class="section">
+            <h2>The Effectual Call: The Call That Transforms</h2>
+            <p>The effectual call is something entirely different. It is God's irresistible, internal work of grace by which He draws those whom He has chosen. The effectual call doesn't merely invite; it accomplishes. Where the external call extends an offer, the effectual call creates what it commands. It makes alive what was dead; it opens the eyes of the blind; it opens the heart to pay attention.</p>
+
+            <h3>Romans 8:30—The Unbreakable Chain</h3>
+            <p>Paul describes the chain of God's saving work:</p>
+            <div class="scripture-block">
+                "And those he predestined he also called; and those he called he also justified; and those he justified he also glorified."
+                <span class="scripture-ref">Romans 8:30 (ESV)</span>
+            </div>
+            <p>Notice the perfection of this sequence. Every person called in God's effectual call is justified. Every person justified is glorified. This is not a tentative or conditional process. The effectual call produces what it promises. It never fails. Never. Those whom God effectually calls are eternally secured through the entire chain of salvation.</p>
+            <p>This call is internal. It's the voice of the Holy Spirit awakening the spiritually dead person to new life. It's not something you hear with your ears; it's something you experience in your spirit. And when God makes this call, the person responds. Not by compulsion—but by transformation of their desires.</p>
+
+            <h3>Acts 16:14—The Lord Opens Hearts</h3>
+            <p>Luke's account of Lydia at Philippi demonstrates the effectual call:</p>
+            <div class="scripture-block">
+                "One who heard us was a woman named Lydia, from the city of Thyatira, a seller of purple goods, who was a worshiper of God. The Lord opened her heart to pay attention to what was said by Paul."
+                <span class="scripture-ref">Acts 16:14 (ESV)</span>
+            </div>
+            <p>Paul preached (external call). But <strong>the Lord opened her heart</strong> (effectual call). The result? She paid attention and believed. The text doesn't say she decided to open her own heart or that she worked up enough willpower to respond. The Lord did it. The effectual call is sovereign action by God the Holy Spirit, causing a dead heart to come alive and a blind eye to see.</p>
+
+            <h3>1 Corinthians 1:23-24—Called to Transformation</h3>
+            <p>Paul distinguishes between those who hear the external call and those who receive the effectual call:</p>
+            <div class="scripture-block">
+                "We preach Christ crucified, a stumbling block to Jews and folly to Gentiles, but to those who are called, both Jews and Greeks, Christ the power of God and the wisdom of God."
+                <span class="scripture-ref">1 Corinthians 1:23-24 (ESV)</span>
+            </div>
+            <p>The external call—preaching Christ crucified—is foolishness to the perishing. They hear it and reject it. But to those who are called—those who have received the effectual call—the same message becomes the power of God. The word "called" here refers not to the general proclamation but to those who have experienced God's irresistible grace.</p>
+
+            <h3>John 6:44—No One Can Come Without the Father</h3>
+            <p>Jesus himself teaches the necessity of the effectual call:</p>
+            <div class="scripture-block">
+                "No one can come to me unless the Father who sent me draws them. And I will raise them up at the last day."
+                <span class="scripture-ref">John 6:44 (ESV)</span>
+            </div>
+            <p>The drawing here is the effectual call. It is not a passive suggestion or a general invitation. It's the Father actively drawing someone to Christ. And those whom the Father draws come. They will be raised up at the last day. Again, the effectual call produces what it promises.</p>
+        </section>
+
+        <section id="the-evidence" class="section">
+            <h2>The Evidence: Why This Matters</h2>
+
+            <div class="evidence-box">
+                <h3 class="evidence-title">Three Key Insights</h3>
+                <ul class="evidence-list">
+                    <li><strong>God is just in condemning those who reject the gospel.</strong> The external call is a genuine offer. People are held accountable for their response. God doesn't hide the gospel from them or trick them. He makes it known. If they reject the external call, their condemnation is just.</li>
+                    <li><strong>Salvation rests entirely on God's grace, not human effort.</strong> The effectual call means that no one can boast that they "picked Jesus," as if their spiritual condition gave them an edge. Salvation, from beginning to end, is God's work. This is the glory of the gospel—that sinners, dead in sin, are made alive entirely by the power of God.</li>
+                    <li><strong>The elect can be absolutely certain of their salvation.</strong> Because those whom God effectually calls are also justified and glorified, there is no breaking the chain. The effectual call guarantees the entire work of salvation. Those who have experienced God's irresistible grace cannot fall away.</li>
+                </ul>
+            </div>
+
+            <div class="argument-item">
+                <h3 class="argument-title">1. The Two Calls Explain Missionary Responsibility</h3>
+                <p class="argument-text">If only the elect are saved anyway, why preach to everyone? Because we don't know who the elect are. The external call is our responsibility—to proclaim the gospel to all people. The effectual call is God's prerogative—to draw those whom He has chosen. Our job is to be faithful in the external call. God's job is to make it effectual in those whom He chose before the creation of the world. Both are affirmed in scripture. Both are necessary. Neither negates the other.</p>
+            </div>
+
+            <div class="argument-item">
+                <h3 class="argument-title">2. The Two Calls Resolve the Human Responsibility Question</h3>
+                <p class="argument-text">Are people responsible for their sin and unbelief? Yes. They reject the external call with their own will. They are not coerced into unbelief by God. Rather, they freely choose to reject Christ—and that choice is their sin. The fact that God foreknew they would make that choice does not make them less responsible; it makes them fully accountable. Scripture consistently holds people responsible for their response to the gospel while also affirming God's sovereignty over who receives the effectual call.</p>
+            </div>
+
+            <div class="argument-item">
+                <h3 class="argument-title">3. The Two Calls Protect Assurance of Salvation</h3>
+                <p class="argument-text">One common fear: "What if I'm called externally but not effectually? What if I'm not truly part of God's elect?" The answer lies in what you experience. If you have genuinely responded to Christ in faith—if you have experienced the transformation that the Holy Spirit brings—then you have received the effectual call. The effectual call produces faith. Period. If you believe, you are among those whom God called effectually. The sequence in Romans 8:30 has no exceptions. And if you are called, you are justified. And if you are justified, you are glorified.</p>
+            </div>
+        </section>
+
+        <section id="the-connection" class="section">
+            <h2>How This Connects to God's Character</h2>
+            <p>The truth of the external and effectual calls reveals that God is simultaneously just and merciful, sovereign and righteous. He offers salvation to all (justice). He secures salvation for those He has chosen (mercy). He holds people accountable for their response (righteousness). He accomplishes His saving purpose (sovereignty). These are not contradictions. They are the beautiful, multi-faceted character of God revealed in scripture.</p>
+            <p>When you understand the external and effectual calls, you can preach the gospel with complete confidence: "This offer is for you. It's real. It's free. Come." And you can rest in God's sovereignty: "God will draw His elect. Not one will be lost. Not one will be snatched away."</p>
+        </section>
+
+    </div>
+
+    <div class="related-explore">
+        <h3>Explore Related Questions</h3>
+        <div class="related-explore-grid">
+            <a href="/question-external-internal-call.html">External and Internal Calling: What's the Difference?</a>
+            <a href="/question-depravity.html">Total Depravity: Dead, Not Sick</a>
+            <a href="/systematic-election.html">Election: How Can God Choose Beforehand?</a>
+            <a href="/questions">Back to All Questions</a>
+        </div>
+    </div>
+
+        <!-- Cross-Reference Section -->
+        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                    <a href="/question-irresistible.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Irresistible Grace</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The grace that overcomes all objections and transforms the willing heart.</p>
+                    </a>
+                    <a href="/question-external-internal-call.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">External and Internal Call</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Distinguishing the outer call of the gospel from the inward drawing of God.</p>
+                    </a>
+                    <a href="/question-john6.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Divine Call</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How God sovereignly draws His chosen people to Himself.</p>
+                    </a>
+                    <a href="/systematic-pneumatology.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Truth of the Holy Spirit</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Understanding the person and work of the Holy Spirit.</p>
+                    </a>
+                    <a href="/question-depravity.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Total Depravity</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Why sinners cannot save themselves and must be rescued by God.</p>
+                    </a>
+                    <a href="/systematic-regeneration.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Regeneration</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The new birth that makes faith possible and willing.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/systematic-theology" class="related-article-card">
+        <span class="related-article-cat">🏛 Theology</span>
+        <span class="related-article-title">Systematic Theology — The Whole Counsel of God</span>
+        <span class="related-article-desc">Systematic Theology: The whole counsel of God, mapped and interconnected from divine decrees to fina...</span>
+      </a>
+      /a>
+      <a href="/analogy-lazarus-grave" class="related-article-card">
+        <span class="related-article-cat">💡 Analogies</span>
+        <span class="related-article-title">Did Lazarus Choose to Rise? God&#039;s Sovereign Calling Explained</span>
+        <span class="related-article-desc">Does God force salvation or respect free will? John 11 shows how effectual calling works through Laz...</span>
+      </a>
+      <a href="/objection-why-believe" class="related-article-card">
+        <span class="related-article-cat">🛡 Objections Answered</span>
+        <span class="related-article-title">If God Already Chose Us, Why Do We Have to Believe?</span>
+        <span class="related-article-desc">A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. ...</span>
+      </a>
+      <a href="/compare-monergism-synergism" class="related-article-card">
+        <span class="related-article-cat">⚖ Comparisons</span>
+        <span class="related-article-title">Monergism vs Synergism: Does God Save Alone?</span>
+        <span class="related-article-desc">Monergism vs Synergism explained from Scripture: Does God save alone, or does man cooperate? The fun...</span>
+      </a>
+      <a href="/scripture-tsunami" class="related-article-card">
+        <span class="related-article-cat">📄 General</span>
+        <span class="related-article-title">480+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
+        <span class="related-article-desc">They told you</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        // Set active nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === '/questions') {
+                link.classList.add('active');
+            }
+        });
+
+        // Scroll-spy for section navigation
+        const sectionLinks = document.querySelectorAll('.section-link');
+        const sections = document.querySelectorAll('.section');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '-30% 0px -70% 0px',
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    sectionLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => observer.observe(section));
+    </script>
+
+<script>
+(function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
+</script>
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

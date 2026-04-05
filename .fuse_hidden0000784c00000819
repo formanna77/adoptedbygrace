@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Charles Haddon Spurgeon — the Prince of Preachers. Explore the life, theology, and enduring legacy of the greatest preacher of the 19th century, a passionate advocate for Calvinistic faith and evangelistic fire.">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Charles Haddon Spurgeon | Adopted by Grace">
+    <meta property="og:description" content="The Prince of Preachers: Spurgeon's life, theology, and legacy of sovereign grace and passionate evangelism.">
+    <meta property="og:url" content="https://adoptedbygrace.net/theologian-spurgeon.html">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Charles Haddon Spurgeon | Adopted by Grace">
+    <meta name="twitter:description" content="The Prince of Preachers: Spurgeon's life, theology, and legacy of sovereign grace and passionate evangelism.">
+    <link rel="canonical" href="https://adoptedbygrace.net/theologian-spurgeon.html">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Charles Haddon Spurgeon: The Prince of Preachers",
+        "description": "A comprehensive exploration of Spurgeon's life, theology, and enduring influence on Reformed Christianity",
+        "image": "https://adoptedbygrace.net/images/spurgeon-og.jpg",
+        "datePublished": "2026-03-27",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://adoptedbygrace.net/logo.png"
+            }
+        }
+    }
+    </script>
+
+    <title>Charles Haddon Spurgeon | Adopted by Grace</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" href="/global.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+    <!-- Navigation -->
+                <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <div class="breadcrumb-nav"><a href="theologians.html">&larr; Back to Theologians</a></div>
+
+    <!-- Hero Section -->
+    <div class="page-hero">
+        <a href="theologians.html" class="back-link">← Back to Theologians</a>
+        <div class="hero-label">Historical Theology · The Prince of Preachers</div>
+        <div class="eyebrow">Theologian Profile</div>
+
+        <h1>Charles Haddon Spurgeon</h1>
+        <div class="hero-dates">(1834–1892)</div>
+        <p class="hero-intro">
+            The greatest preacher of the nineteenth century. A man who wept over sinners while proclaiming the sovereign grace of God. Spurgeon stands as the shining example of what happens when Calvinistic theology ignites the heart of an evangelist—when the truth of election becomes not a barrier to gospel proclamation but its very fuel.
+        </p>
+    </div>
+
+    <!-- Section Navigation -->
+    <div class="section-nav">
+        <ul>
+            <li><a href="#biography">Biography</a></li>
+            <li><a href="#theology">Theology</a></li>
+            <li><a href="#quotes">Key Quotes</a></li>
+            <li><a href="#works">Major Works</a></li>
+            <li><a href="#legacy">Legacy</a></li>
+            <li><a href="#today">Today</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+
+        <!-- Biography Section -->
+        <section id="biography">
+            <h2 class="section-title">Biography: From Converted Youth to Metropolitan Giant</h2>
+
+            <p style="font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                Charles Haddon Spurgeon's life was marked by radical conversion at fifteen, meteoric rise in ministry, relentless pastoral labor, and courageous theological conviction even unto death. He was not merely a preacher—he was a shepherd, a scholar, an entrepreneur of gospel distribution, and a man of unshakeable principle in an age of theological compromise.
+            </p>
+
+            <div class="bio-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">1834</div>
+                    <div class="timeline-text">
+                        Born in Kelvedon, Essex. Raised in a pious atmosphere by Congregationalist parents, but lacking genuine conversion until age fifteen.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1850</div>
+                    <div class="timeline-text">
+                        <strong>Conversion Crisis and Victory.</strong> On a cold January evening, unable to reach his usual church, Spurgeon enters a Primitive Methodist chapel. A simple man rises and preaches from Isaiah 45:22: <span style="color: var(--accent-gold);">"Look unto me and be ye saved, all the ends of the earth."</span> In that moment, the Lord opens his eyes to see Christ, and he is converted with revolutionary assurance.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1852</div>
+                    <div class="timeline-text">
+                        At nineteen years old, becomes pastor of New Park Street Chapel, London—a congregation in decline, meeting in a neglected building. Within weeks, the chapel overflows. Within months, they must find a larger building.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1856</div>
+                    <div class="timeline-text">
+                        The Metropolitan Tabernacle opened with 5,600 seats—the largest congregation in the world at that time. Yet it filled to capacity Sunday after Sunday. Spurgeon preached to upward of 10 million people in his lifetime.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1877-1889</div>
+                    <div class="timeline-text">
+                        <strong>The Downgrade Controversy.</strong> Spurgeon stands alone against the creeping liberalism in the Baptist Union. He resigned his membership in 1887 rather than compromise Scripture's authority. Cost him friendships, standing, and health—but he would not bend.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1857-1892</div>
+                    <div class="timeline-text">
+                        Founded Spurgeon's College to train pastors in gospel faithfulness. Established orphanages, the Colportage Association (distributing literature across Britain), and countless charitable works—all while preaching multiple times weekly.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">Throughout</div>
+                    <div class="timeline-text">
+                        Battled depression ("the minister's fainting fits"), gout, rheumatism, and Bright's disease. Yet he preached through it all. His suffering became a sermon—the Gospel is for weak vessels.
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1892</div>
+                    <div class="timeline-text">
+                        Died at 57 in Mentone, France, where he had gone seeking health. His last words were spoken to his wife: his confidence in Christ unshaken to the end.
+                    </div>
+                </div>
+            </div>
+
+            <div class="scripture-block">
+                "Look unto me and be ye saved, all the ends of the earth: for I am God, and there is none else."
+                <div class="scripture-ref">Isaiah 45:22 (KJV) — The verse that converted Spurgeon's soul</div>
+            </div>
+
+            <p style="color: var(--text-secondary); margin-top: 2rem; line-height: 1.8;">
+                What made Spurgeon extraordinary was not merely his gift—though he possessed unmatched oratorical power—but his <span class="highlight-gold">integration of theology and fire</span>. He did not preach theological truths in the abstract. Every theological truth burned in his heart as a reason to weep for sinners and exalt Christ. He proved that Calvinism—properly understood—is not cold and deterministic, but warm, passionate, and evangelistic.
+            </p>
+        </section>
+
+        <!-- Theological Contributions Section -->
+        <section id="theology">
+            <h2 class="section-title">Theological Contributions: Calvinism on Fire</h2>
+
+            <p style="font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                Spurgeon's theology was thoroughly Reformed, unashamedly Calvinistic, and radically evangelistic. He showed the world that the five points of Calvinism are not obstacles to gospel urgency but its very foundation. His key contributions shaped Baptist theology, influenced the broader Reformed tradition, and continue to challenge both liberals and cold dogmatists.
+            </p>
+
+            <div class="theology-grid">
+                <div class="theology-card">
+                    <div class="theology-icon">⚡</div>
+                    <h3>Unashamed Calvinism</h3>
+                    <p>
+                        Spurgeon proclaimed the five points with joy and clarity: total depravity, unconditional election, limited atonement, irresistible grace, and perseverance of the saints. He did not hedge, apologize, or soften. Yet he proclaimed these truths to evangelize sinners, not to comfort the self-satisfied.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <div class="theology-icon">✨</div>
+                    <h3>Election as Comfort & Fuel</h3>
+                    <p>
+                        Where others saw election as a bar to evangelism, Spurgeon saw it as its power. If God has chosen a people, then the Gospel will not fail. This gives the preacher liberty to preach to all men, knowing that God's elect will hear and come.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <div class="theology-icon">🔥</div>
+                    <h3>Particular Redemption</h3>
+                    <p>
+                        Spurgeon taught that Christ's atonement was particular—He actually and effectually saved His people, not merely made salvation possible. This gives substance to the Gospel. Christ is not offering, but saving.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <div class="theology-icon">📖</div>
+                    <h3>The Power of Preaching</h3>
+                    <p>
+                        Spurgeon believed in the efficacy of the Word. Because God calls His elect through the Gospel, preaching is not a probability but a power. The Word will accomplish what it is sent to do.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <div class="theology-icon">⛔</div>
+                    <h3>Standing Against the Downgrade</h3>
+                    <p>
+                        Spurgeon fought liberalism with both barrel and sword. He would not tolerate higher criticism, denial of Scripture's authority, or the erosion of cardinal truths. Truth matters. Preaching the real Gospel, not a moralized substitute, is the minister's calling.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <div class="theology-icon">⛪</div>
+                    <h3>Baptistic Calvinism</h3>
+                    <p>
+                        Spurgeon proved that the doctrines of grace are not exclusive to Presbyterian polity. The marriage of believer's baptism and Calvinistic theology shines brightest in his ministry and legacy.
+                    </p>
+                </div>
+            </div>
+
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.6rem; margin: 2rem 0 1.5rem; color: var(--accent-gold);">The Integration: Election & Evangelism</h3>
+
+            <div class="scripture-block">
+                <p>
+                    "I do not come into this pulpit hoping that perhaps somebody will of his own free will return to Christ. My hope lies in another quarter. I hope that my Master will lay hold of some of them and say, 'You are mine, and you shall be mine. I claim you for myself.'"
+                </p>
+                <p style="margin-top: 1rem;">
+                    This integration was Spurgeon's genius. He preached to all men, knowing that God's elect would hear. He wept over sinners, not because he doubted God's power, but because God had moved his own heart. Election became the ground of his evangelism, not its enemy.
+                </p>
+                <div class="scripture-ref">From Spurgeon's sermon "Effectual Calling"</div>
+            </div>
+        </section>
+
+        <!-- Key Quotes Section -->
+        <section id="quotes">
+            <h2 class="section-title">Key Quotes: Words That Burn</h2>
+
+            <p style="font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                Spurgeon's words sear the conscience and set the soul aflame. Here are seven of his most piercing statements on Calvinism, grace, evangelism, and the preacher's calling:
+            </p>
+
+            <div class="quotes-container">
+                <div class="quote-card">
+                    <div class="quote-mark">"</div>
+                    <div class="quote-text">
+                        I have my own private opinion that there is no such thing as preaching Christ and Him crucified, unless we preach what nowadays is called Calvinism.
+                    </div>
+                    <div class="quote-source">Autobiography of Charles Spurgeon</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-mark">"</div>
+                    <div class="quote-text">
+                        I do not come into this pulpit hoping that perhaps somebody will of his own free will return to Christ. My hope lies in another quarter. I hope that my Master will lay hold of some of them and say, 'You are mine, and you shall be mine. I claim you for myself.'
+                    </div>
+                    <div class="quote-source">Sermon: Effectual Calling</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-mark">"</div>
+                    <div class="quote-text">
+                        If God would have painted a yellow stripe on the backs of the elect I'd go around lifting up shirt tails, finding out who the elect were, and preaching only to them. But God didn't do that. He told me to preach the Gospel to every creature.
+                    </div>
+                    <div class="quote-source">Attributed to Spurgeon</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-mark">"</div>
+                    <div class="quote-text">
+                        The truth of grace is simply this—that God is the Alpha and the Omega in the salvation of men. He begins the work, He carries it on, and He will complete it.
+                    </div>
+                    <div class="quote-source">Sermon: Sovereign Grace</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-mark">"</div>
+                    <div class="quote-text">
+                        I believe that every particle of dust that dances in the sunbeam does not move an atom more or less than God wishes.
+                    </div>
+                    <div class="quote-source">Sermon on Providence</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-mark">"</div>
+                    <div class="quote-text">
+                        A time will come when instead of shepherds feeding the sheep, the church will have clowns entertaining the goats.
+                    </div>
+                    <div class="quote-source">Paraphrase from the Downgrade Controversy</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-mark">"</div>
+                    <div class="quote-text">
+                        If sinners be damned, at least let them leap to Hell over our dead bodies. And if they perish, let them perish with our arms wrapped about their knees, imploring them to stay.
+                    </div>
+                    <div class="quote-source">Sermon on the Gospel's Urgency</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Works Section -->
+        <section id="works">
+            <h2 class="section-title">Major Works: The Treasury of a Lifetime</h2>
+
+            <p style="font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                Spurgeon was not only a preacher but an author and publisher of extraordinary industry. His works remain among the most-read Christian literature ever produced. Every book bears the mark of his pastoral heart and theological precision.
+            </p>
+
+            <div class="works-list">
+                <div class="work-item">
+                    <div class="work-title">The Metropolitan Tabernacle Pulpit (63 volumes)</div>
+                    <div class="work-desc">
+                        A faithful record of Spurgeon's sermons preached over decades. These sermons exemplify his method: rooting every text in the sovereignty and grace of God, then applying it with passionate urgency to the conscience. The most widely published sermon collection in history.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">The Treasury of David (7 volumes)</div>
+                    <div class="work-desc">
+                        A verse-by-verse commentary on the Psalms. Spurgeon's devotional yet scholarly treatment shows how the Psalms are ultimately about Christ. Rich in pastoral insight and spiritual warmth.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">Morning and Evening (Daily Devotional)</div>
+                    <div class="work-desc">
+                        Still one of the most beloved daily devotionals. Brief, piercing meditations for morning and evening, grounding the soul in Scripture and the person of Christ. Generations have found their hearts stirred by these readings.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">All of Grace</div>
+                    <div class="work-desc">
+                        A crystalline summary of Spurgeon's evangelism and theology. Written to be accessible yet profound, showing how salvation is entirely of grace from beginning to end. A masterpiece of brevity and power.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">Lectures to My Students</div>
+                    <div class="work-desc">
+                        Spurgeon's practical instruction on preaching, pastoral care, and theology. More relevant today than ever—a manual for those who wish to preach the Gospel with both faithfulness and warmth.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">John Ploughman's Talk</div>
+                    <div class="work-desc">
+                        Popular wisdom literature written in the voice of an English laborer. Spurgeon proves that profound biblical truth can be conveyed in plain, earthy language. Accessible yet never shallow.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">The Cheque Book of the Bank of Faith</div>
+                    <div class="work-desc">
+                        A collection of Scripture promises arranged thematically, each with a brief meditation. A treasury for believers in distress, showing that God's Word is as reliable as a bank check drawn on infinite resources.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Legacy Section -->
+        <section id="legacy">
+            <h2 class="section-title">Legacy: The Preacher Who Still Preaches</h2>
+
+            <p style="font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                Spurgeon died in 1892, but his voice echoes across the centuries. His influence on Reformed theology, evangelicalism, and Baptist life cannot be overstated. He shaped not only his own generation but generations yet unborn.
+            </p>
+
+            <div class="content-grid">
+                <div class="content-item">
+                    <h3>Influence on Baptist Tradition</h3>
+                    <p>
+                        Spurgeon proved that a pastor could be both a rigorous Calvinist and a fervent evangelist. He set the standard for Baptist preaching that persists to this day. Few figures loom larger in Baptist history.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>The Reformed Resurgence</h3>
+                    <p>
+                        Spurgeon's example helped preserve the truths of grace when they were under assault from liberalism and Arminianism. His courageous stand gave courage to others to proclaim the sovereignty of God.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>The Most Published Preacher</h3>
+                    <p>
+                        More copies of Spurgeon's sermons have been printed and distributed than those of any preacher in history. In an age before podcasts and YouTube, his printed word reached millions across the globe.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>Direct Influence on Great Men</h3>
+                    <p>
+                        Martyn Lloyd-Jones studied Spurgeon's sermons religiously. John MacArthur and John Piper cite him constantly. The preaching and theology of the modern Reformed movement flows in no small measure from Spurgeon's wells.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>A Model of Integration</h3>
+                    <p>
+                        Spurgeon modeled what the modern church desperately needs: sound truth married to passionate evangelism, scholarly rigor wed to popular accessibility, Reformed conviction burning with evangelical fire.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h3>Comfort for the Suffering</h3>
+                    <p>
+                        Spurgeon's honesty about his own depression and suffering—what he called "the minister's fainting fits"—gave permission for preachers and Christians to be honest about pain while still trusting God. His example sanctifies suffering.
+                    </p>
+                </div>
+            </div>
+
+            <div style="background: var(--bg-card); border-left: 4px solid var(--accent-ember); padding: 2rem; margin: 2rem 0; border-radius: 4px;">
+                <p style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+                    <span class="highlight-ember">The testimony of his life and ministry</span> is this: <em>That when a man gives himself wholly to Christ and refuses to compromise truth for popularity, when he weeps over sinners while proclaiming sovereign grace, when he labors faithfully until exhaustion and then labors still more—God honors that man and multiplies his influence beyond what he could have imagined. Spurgeon preached to ten million in his lifetime. How many million have heard him since?</em>
+                </p>
+            </div>
+        </section>
+
+        <!-- Today Section -->
+        <section id="today">
+            <h2 class="section-title">Why Spurgeon Matters Today</h2>
+
+            <p style="font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                The modern church faces the same fundamental crisis that Spurgeon faced: Will we serve Christ or the crowd? Will we preach the real Gospel or a domesticated substitute? Will we marry sound theology to passionate proclamation? Spurgeon's example calls us back to faithful, warm, Christ-centered ministry.
+            </p>
+
+            <div style="background: linear-gradient(135deg, rgba(232, 100, 44, 0.15), rgba(139, 92, 246, 0.15)); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 2rem; margin-bottom: 2rem;">
+                <h3 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-bottom: 1rem;">The Marriage of Mind and Heart</h3>
+                <p style="color: var(--text-secondary); line-height: 1.8;">
+                    Spurgeon teaches us that the gospel must engage the <em>whole person</em>—mind, affections, and will. In a fragmented age, he shows us how to connect truth to devotion, truth to passion, theology to tears. When a preacher himself believes that election is glory (not academic trivia), that grace is mercy (not mechanical), that Christ is all (not merely mentioned)—then the gospel burns through and people are transformed.
+                </p>
+            </div>
+
+            <div style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(212, 162, 84, 0.15)); border: 1px solid var(--border-subtle); border-radius: 6px; padding: 2rem;">
+                <h3 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-bottom: 1rem;">Evangelical Fire Without Compromise</h3>
+                <p style="color: var(--text-secondary); line-height: 1.8;">
+                    Spurgeon demolishes the false choice between "truth" and "mission." The Gospel is true <em>and</em> powerful. It is truthfully robust <em>and</em> evangelistically urgent. We do not need to abandon theology to reach people, nor must we abandon people to preserve theology. Spurgeon did both. The modern preacher needs his example now more than ever.
+                </p>
+            </div>
+
+            <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.8; margin-top: 1rem;">
+                To study Spurgeon is to be converted again—not to a new religion, but to a <span class="highlight-gold">deeper love for Christ and a fiercer commitment to His glory</span>. His life asks each of us: Will I compromise for comfort? Will I water down truth for numbers? Will I let the culture shame me into silence about the sovereignty of God?
+            </p>
+
+            <p style="font-size: 1.05rem; color: var(--text-secondary); line-height: 1.8; margin-top: 1rem;">
+                Spurgeon's answer was a thunderous No. And in that refusal, in that courageous fidelity, he became the preacher that shaped Christendom. May we follow him as he followed Christ.
+            </p>
+        </section>
+
+        <!-- Cross References -->
+        <section id="cross-references">
+            <div class="cross-ref">
+                <h4>Related Questions & Resources</h4>
+                <div class="cross-ref-list">
+                    <div class="cross-ref-item">
+                        <a href="question-chosen.html">Are we chosen? (Election)</a>
+                    </div>
+                    <div class="cross-ref-item">
+                        <a href="question-irresistible.html">Can grace be resisted?</a>
+                    </div>
+                    <div class="cross-ref-item">
+                        <a href="question-perseverance.html">Can we fall away?</a>
+                    </div>
+                    <div class="cross-ref-item">
+                        <a href="question-faithgift.html">Is faith a gift?</a>
+                    </div>
+                    <div class="cross-ref-item">
+                        John 3:16 Explained
+                    </div>
+                    <div class="cross-ref-item">
+                        <a href="question-john6.html">John 6: Come to Me</a>
+                    </div>
+                    <div class="cross-ref-item">
+                        <a href="question-depravity.html">Total Depravity</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+</div>
+
+        <!-- Cross-Reference Section -->
+        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                    <a href="theologian-edwards.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Jonathan Edwards</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">American theologian on compatibilism and revival</p>
+                    </a>
+                    <a href="theologian-owen.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">John Owen</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Puritan theologian on atonement and covenant theology</p>
+                    </a>
+                    <a href="history-spurgeon-downgrade.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Downgrade Controversy</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Spurgeon's courageous stand against truthful compromise</p>
+                    </a>
+                    <a href="question-perseverance.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Perseverance</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Will I fall away from grace?</p>
+                    </a>
+                    <a href="question-chosen.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Election</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Are we chosen by God in Christ?</p>
+                    </a>
+                    <a href="theologians.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">All Theologians</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Explore Spurgeon and the heritage of faith</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    <!-- Footer -->
+    <div class="related-explore">
+        <h3>Continue Exploring</h3>
+        <div class="related-explore-grid">
+                <a href="theologian-edwards.html">Jonathan Edwards</a>
+                <a href="theologian-calvin.html">John Calvin</a>
+                <a href="question-chosen.html">Ephesians 1 — Election in Christ</a>
+                <a href="question-perseverance.html">Perseverance of the Saints</a>
+        </div>
+    </div>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/history-spurgeon-downgrade" class="related-article-card">
+        <span class="related-article-cat">⏳ History</span>
+        <span class="related-article-title">The Prince Who Would Not Bow: Spurgeon &amp; the Downgrade Controversy</span>
+        <span class="related-article-desc">Charles Spurgeon</span>
+      </a>
+      /a>
+      <a href="/scripture-tsunami" class="related-article-card">
+        <span class="related-article-cat">📄 General</span>
+        <span class="related-article-title">480+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
+        <span class="related-article-desc">They told you</span>
+      </a>
+      <a href="/systematic-divine-decrees" class="related-article-card">
+        <span class="related-article-cat">🏛 Theology</span>
+        <span class="related-article-title">Before the Foundation of the World — God&#039;s Eternal Decrees</span>
+        <span class="related-article-desc">God</span>
+      </a>
+      <a href="/compare-calvinism-arminianism" class="related-article-card">
+        <span class="related-article-cat">⚖ Comparisons</span>
+        <span class="related-article-title">Calvinism vs Arminianism: A Biblical Comparison</span>
+        <span class="related-article-desc">A comprehensive, point-by-point biblical comparison of Calvinism and Arminianism across all five poi...</span>
+      </a>
+      /a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+<script>
+(function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
+</script>
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

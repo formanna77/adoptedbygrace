@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Truth of Salvation: A gateway to understanding soteriology. Explore election, regeneration, atonement, justification, perseverance and the ordo salutis.">
+    <meta property="og:title" content="The Truth of Salvation — Gateway to Soteriology">
+    <meta property="og:description" content="The Truth of Salvation: A gateway to understanding soteriology. Explore election, regeneration, atonement, justification, perseverance and the ordo salutis.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/systematic-salvation.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The Truth of Salvation — Gateway to Soteriology">
+    <meta name="twitter:description" content="The Truth of Salvation: A gateway to understanding soteriology. Explore election, regeneration, atonement, justification, perseverance and the ordo salutis.">
+    <link rel="canonical" href="https://adoptedbygrace.net/systematic-salvation.html">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>The Truth of Salvation — Gateway to Soteriology</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+        <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Truth of Salvation — Gateway to Soteriology",
+        "description": "The Truth of Salvation: A gateway to understanding soteriology. Explore election, regeneration, atonement, justification, perseverance and the ordo salutis.",
+        "url": "https://adoptedbygrace.net/systematic-salvation.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://adoptedbygrace.net/systematic-salvation.html"
+        }
+    }
+    </script>
+    
+            <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <!-- Navigation -->
+                <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- Content -->
+    <div class="content" id="main-content">
+        <div class="breadcrumb">
+            <a href="/systematic-theology">← Back to Systematic Theology</a>
+        </div>
+    <section class="page-hero">
+        <div class="eyebrow">Systematic Theology</div>
+
+        <h1>The Truth of Salvation</h1>
+    </section>
+
+        <p>
+            Salvation is not a moment. It is a multifaceted work of God that extends from eternity past to eternity future. Scripture teaches that God has planned, purchased, applied, and will consummate the salvation of His people according to His eternal will. This truth is the heartbeat of Christian faith—the answer to the deepest question any human being can ask: "How can I be right with God?"
+        </p>
+        <p>
+            This page serves as a gateway to all the sub-doctrines that make up the truth of salvation. Whether you are exploring the theological framework for the first time or deepening your understanding of how the whole system fits together, these linked topics form an integrated vision of how God saves sinners and preserves them to glory. This page has not been predestined—wait, actually it has.
+        </p>
+
+        <h2>The Order of Salvation: The Ordo Salutis</h2>
+        <p>
+            Christian theologians have always recognized that salvation follows a logical sequence, even though in God's eternal purposes all these events are one cohesive act. This sequence is called the <em>ordo salutis</em>—the order of salvation. Understanding how these doctrines connect will give you a comprehensive map of how the Gospel works.
+        </p>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-label">Eternity Past</div>
+                <div class="timeline-title">Election</div>
+                <div class="timeline-text">The Father's unconditional choice of His people before the creation of the world. All things proceed from this divine intention.</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-label">Eternity Past to Time</div>
+                <div class="timeline-title">Atonement & Redemption</div>
+                <div class="timeline-text">The Son's death, burial, and resurrection accomplish the actual redemption of the elect. His blood pays the price that justice demands.</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-label">At Conversion</div>
+                <div class="timeline-title">Regeneration</div>
+                <div class="timeline-text">The Spirit gives spiritual life to hearts that were dead in sin. Regeneration precedes and enables faith in the converted person.</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-label">At Conversion</div>
+                <div class="timeline-title">Faith & Repentance</div>
+                <div class="timeline-text">The believer turns from sin and trusts in Christ for salvation. This is the fruit of the Spirit's regenerating work.</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-label">At Justification</div>
+                <div class="timeline-title">Justification</div>
+                <div class="timeline-text">God declares the believer righteous based on Christ's obedience and sacrifice. Justification is forensic—a legal verdict, not an ethical transformation.</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-label">Throughout Life</div>
+                <div class="timeline-title">Sanctification</div>
+                <div class="timeline-text">The Spirit progressively conforms the believer to the image of Christ. This is the practical outworking of justification.</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-label">Throughout Life</div>
+                <div class="timeline-title">Perseverance of the Saints</div>
+                <div class="timeline-text">God preserves the truly converted to the end. No believer will fall away permanently; God's power secures what His purpose began.</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-label">Eternity Future</div>
+                <div class="timeline-title">The Resurrection</div>
+                <div class="timeline-text">Christ's resurrection guarantees the believer's resurrection. We will be raised immortal, incorruptible, and glorified.</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-label">Eternity Future</div>
+                <div class="timeline-title">Glorification</div>
+                <div class="timeline-text">The final state in which the redeemed are perfected in glory, freed from sin, and united with God forever in the new heavens and new earth.</div>
+            </div>
+        </div>
+
+        <h2>Explore the Doctrines of Soteriology</h2>
+        <p>
+            Click on any card below to explore each truth in depth. Each article stands alone but also connects to the broader theology of how God saves.
+        </p>
+
+        <div class="card-grid">
+            <div class="truth-card">
+                <div class="card-number">01. Foundation</div>
+                <div class="card-title">Election</div>
+                <div class="card-description">
+                    The Father's eternal and unconditional choice of His people before the creation of the world. Election is the root from which all other saving acts flow.
+                </div>
+                <a href="/systematic-election" class="card-link">
+                    Explore Election
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="truth-card">
+                <div class="card-number">02. Redemption</div>
+                <div class="card-title">The Atonement</div>
+                <div class="card-description">
+                    The actual payment of the price for sin through Christ's death. The atonement is substitutionary, penal, and efficacious for the elect.
+                </div>
+                <a href="/systematic-atonement" class="card-link">
+                    Explore Atonement
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="truth-card">
+                <div class="card-number">03. Application</div>
+                <div class="card-title">Regeneration</div>
+                <div class="card-description">
+                    The Spirit's act of giving spiritual life to the dead heart. Regeneration is sovereign, monergistic, and the necessary prerequisite for faith.
+                </div>
+                <a href="/systematic-regeneration" class="card-link">
+                    Explore Regeneration
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="truth-card">
+                <div class="card-number">04. Response</div>
+                <div class="card-title">Faith & Repentance</div>
+                <div class="card-description">
+                    The believer's turning from sin and trust in Christ. While the grace is sovereign, the response is real and involves the whole person.
+                </div>
+                <a href="/question-faithgift" class="card-link">
+                    Explore Faith &amp; Repentance
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="truth-card">
+                <div class="card-number">05. Justification</div>
+                <div class="card-title">Justification</div>
+                <div class="card-description">
+                    God's forensic declaration that the believer is righteous in Christ. Justification is by faith alone, not by works, and is instantaneous and complete.
+                </div>
+                <a href="/systematic-justification" class="card-link">
+                    Explore Justification
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="truth-card">
+                <div class="card-number">06. Growth</div>
+                <div class="card-title">Sanctification</div>
+                <div class="card-description">
+                    The progressive transformation of the believer into Christlikeness. Sanctification is the lifelong process of being made holy in practice.
+                </div>
+                <a href="/systematic-soteriology" class="card-link">
+                    Explore Sanctification
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="truth-card">
+                <div class="card-number">07. Security</div>
+                <div class="card-title">Perseverance of the Saints</div>
+                <div class="card-description">
+                    The truth that God preserves the truly regenerate to eternal life. No believer can lose his or her salvation because God's power sustains it.
+                </div>
+                <a href="/question-perseverance" class="card-link">
+                    Explore Perseverance
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="truth-card">
+                <div class="card-number">08. Consummation</div>
+                <div class="card-title">The Resurrection</div>
+                <div class="card-description">
+                    Christ's bodily resurrection is the foundation of all Christian hope. Our future resurrection is guaranteed by His resurrection.
+                </div>
+                <a href="/systematic-resurrection" class="card-link">
+                    Explore The Resurrection
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="truth-card">
+                <div class="card-number">09. Glory</div>
+                <div class="card-title">Glorification</div>
+                <div class="card-description">
+                    The final state of the redeemed, perfected in glory and united with God forever. Glorification is the destiny of every believer in Christ.
+                </div>
+                <a href="/systematic-ordo-salutis" class="card-link">
+                    Explore Glorification
+                    <span>→</span>
+                </a>
+            </div>
+        </div>
+
+        <h2>Scripture on the Completeness of Salvation</h2>
+        <p>
+            The New Testament speaks of salvation in three tenses—past, present, and future—showing that God's work is complete in purpose though it unfolds in time.
+        </p>
+
+        <div class="scripture-block">
+            "For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."
+            <span class="scripture-ref">— Ephesians 2:8-9 (NIV)</span>
+        </div>
+
+        <div class="scripture-block">
+            "Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in the afflictions of Christ on behalf of his body, which is the church."
+            <span class="scripture-ref">— Colossians 1:24 (ESV)</span>
+        </div>
+
+        <div class="scripture-block">
+            "being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."
+            <span class="scripture-ref">— Philippians 1:6 (ESV)</span>
+        </div>
+
+        <h2>Why This Truth Matters</h2>
+        <p>
+            Understanding salvation comprehensively—not just as a moment of conversion but as a whole work of God from eternity to eternity—transforms how you pray, how you witness, how you persevere in faith, and how you comfort others. When you grasp that your salvation was planned in eternity, purchased at the cross, applied by the Spirit at conversion, and will be consummated in resurrection, you have unshakeable certainty. You belong to God. He will not let you go. And He will perfect what He has begun in you.
+        </p>
+        <!-- Cross-Reference Section -->
+        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                    <a href="/systematic-ordo-salutis.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Order of Salvation</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/systematic-soteriology.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Systematic Soteriology</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/question-goldchain.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Golden Chain</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/question-chosen.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Chosen Before the Foundation</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/question-depravity.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Truth of Depravity</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                    <a href="/devotional-my-chains-fell-away.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">My Chains Fell Away</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Continue exploring God's sovereignty and redemptive plan.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/ot-prophets-remnant" class="related-article-card">
+        <span class="related-article-cat">📚 Old Testament</span>
+        <span class="related-article-title">The Prophets: Remnant Theology &amp;amp; the Elect Preserved Through Judgment</span>
+        <span class="related-article-desc">Jeremiah, Ezekiel, Hosea, Amos, Malachi — every prophet confirms it: God preserves a chosen remnant ...</span>
+      </a>
+      <a href="/demolition-1tim4-10" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">1 Timothy 4:10 — Verse Demolition #12</span>
+        <span class="related-article-desc">Demolition #12: Does 1 Timothy 4:10 Prove Universal Atonement? A Reformed analysis that reveals how</span>
+      </a>
+      <a href="/analogy-lazarus-grave" class="related-article-card">
+        <span class="related-article-cat">💡 Analogies</span>
+        <span class="related-article-title">Did Lazarus Choose to Rise? God&#039;s Sovereign Calling Explained</span>
+        <span class="related-article-desc">Does God force salvation or respect free will? John 11 shows how effectual calling works through Laz...</span>
+      </a>
+      <a href="/objection-why-believe" class="related-article-card">
+        <span class="related-article-cat">🛡 Objections Answered</span>
+        <span class="related-article-title">If God Already Chose Us, Why Do We Have to Believe?</span>
+        <span class="related-article-desc">A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. ...</span>
+      </a>
+      <a href="/question-external-call" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">The External Call vs The Effectual Call</span>
+        <span class="related-article-desc">The External Call vs The Effectual Call: Scripture teaches that God calls all people to salvation, b...</span>
+      </a>
+      <a href="/scripture-tsunami" class="related-article-card">
+        <span class="related-article-cat">📄 General</span>
+        <span class="related-article-title">480+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
+        <span class="related-article-desc">They told you</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        // Set active nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === 'systematic-salvation.html') {
+                link.classList.add('active');
+            }
+        });
+    </script>
+
+<script>
+(function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
+</script>
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="External and Internal Calling: What's the Difference? Scripture teaches that Jesus extended the external call to all, including those who rejected Him. But the internal call—the inward work of the Holy Spirit—creates faith where there was none. Matthew 23:37 and Acts 16:14 examined.">
+    <meta property="og:title" content="External and Internal Calling: What's the Difference?">
+    <meta property="og:description" content="Scripture teaches that Jesus extended the external call to all, including those who rejected Him. But the internal call creates faith where there was none.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/question-external-internal-call.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="External and Internal Calling: What's the Difference?">
+    <meta name="twitter:description" content="The tension between Jesus's offer to all and His effectiveness to the elect, explained.">
+    <link rel="canonical" href="https://adoptedbygrace.net/question-external-internal-call.html">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>External and Internal Calling: What's the Difference?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "External and Internal Calling: What's the Difference?",
+        "description": "Scripture teaches that Jesus extended the external call to all, including those who rejected Him. But the internal call creates faith.",
+        "url": "https://adoptedbygrace.net/question-external-internal-call.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://adoptedbygrace.net/question-external-internal-call.html"
+        }
+    }
+    </script>
+    
+            <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+                <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <div class="breadcrumb-nav"><a href="/questions">← Back to Questions</a></div>
+
+    <div id="main-content" class="page-hero">
+        <div class="eyebrow">Question: Calling</div>
+        <h1>External and Internal Calling: What's the Difference?</h1>
+        <p class="subtitle">Jesus wept over Jerusalem's rejection of Him, lamenting that He "desired to gather your children together... and you were not willing." Scripture teaches that God's external call is genuine and His sorrow is real. Yet the internal call of the Holy Spirit always accomplishes its purpose.</p>
+    </div>
+
+    <nav class="section-nav">
+        <div class="section-nav-container">
+            <a href="#the-paradox" class="section-link">The Paradox</a>
+            <a href="#external" class="section-link">The External Call</a>
+            <a href="#internal" class="section-link">The Internal Call</a>
+            <a href="#tension" class="section-link">Resolving the Tension</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <section id="the-paradox" class="section">
+            <h2>The Paradox That Confuses Many</h2>
+            <p>Jesus stands on the Mount of Olives and weeps over Jerusalem. He has just pronounced judgment on the religious leaders for their rejection of His message. His words are desperate and tender at once: "How often would I have gathered your children together as a hen gathers her brood under her wings, and you were not willing!" (Matthew 23:37).</p>
+            <p>But if God is sovereign—if He controls all things and accomplishes all His purposes—then how could Jerusalem be "not willing"? How could Jesus desire something and have it thwarted? Didn't He predestine the events of history? Didn't He know from eternity that Jerusalem would reject Him?</p>
+            <p>This is the tension that trips up so many believers. Scripture presents two seemingly contradictory realities: God's call is genuine and universal (the external call), and God's call is always effective in those whom He chooses (the internal call). The resolution lies in understanding the difference between these two kinds of calling.</p>
+        </section>
+
+        <section id="external" class="section">
+            <h2>The External Call: Genuine, Universal, Resistible</h2>
+            <p>The external call is the proclamation of the gospel to all people. It's the message: "Come to Christ. Believe. Repent. Be saved." This call goes to everyone—the elect and the non-elect, the willing and the unwilling. It is a genuine offer of grace and salvation. Jesus really was offering Himself to Jerusalem. He really did desire to gather them. His offer was not a facade or a trick.</p>
+
+            <h3>Matthew 23:37—Jesus Genuinely Desires</h3>
+            <p>Consider Christ's lament over Jerusalem:</p>
+            <div class="scripture-block">
+                "Jerusalem, Jerusalem, the city that kills the prophets and stones those who are sent to it! How often would I have gathered your children together as a hen gathers her brood under her wings, and you were not willing!"
+                <span class="scripture-ref">Matthew 23:37 (ESV)</span>
+            </div>
+            <p>Notice: Jesus's desire is real. His "how often" speaks of genuine repeated attempts. His metaphor of the hen and her brood is an image of warmth, care, and protection. This is not the language of pretense. Jesus genuinely wanted to gather Jerusalem's children. The external call is Christ's authentic offer of salvation to all who would hear.</p>
+
+            <h3>The Marks of the External Call</h3>
+            <p>The external call has several characteristics:</p>
+            <ul class="evidence-list">
+                <li><strong>It is proclaimed publicly to all</strong>—not whispered to the select few, but shouted from the rooftops (Matthew 10:27).</li>
+                <li><strong>It makes real promises</strong>—forgiveness, life, adoption, a place in God's kingdom.</li>
+                <li><strong>It can be refused</strong>—people can, and do, say no to the gospel.</li>
+                <li><strong>It exposes responsibility</strong>—those who reject it are held accountable before God.</li>
+                <li><strong>It reflects God's character</strong>—His love, His justice, His desire for the salvation of sinners.</li>
+            </ul>
+            <p>The external call is the Word of God preached. It's the Christian witness. It's the Spirit testifying "come." And it's available to everyone. But not everyone responds to it. Why? Not because the call isn't genuine, but because the call is resistible. People have the capacity—and the reality—to reject it.</p>
+
+            <h3>The Grief of the External Call</h3>
+            <p>Jesus's tears over Jerusalem are not crocodile tears. They express the real emotional reality of God the Son as He encounters human resistance to His offer of grace. This is part of what it means to affirm God's sovereignty alongside human responsibility. God genuinely offers salvation. God genuinely desires that all people be saved. And yet, God's sovereignty means that His desire encompasses more than just the offer—it includes the accomplishment. Some will reject the external call. And God's purpose is not thwarted; it is accomplished in a larger framework that includes even that rejection.</p>
+        </section>
+
+        <section id="internal" class="section">
+            <h2>The Internal Call: Hidden, Effective, Irresistible</h2>
+            <p>Contrasted with the external call is what scripture teaches about the internal call—the inward work of the Holy Spirit by which God creates the very response that He commands. The internal call is the effectual call. It's irresistible not in the sense of forcing the will through coercion, but in the sense that it infallibly produces what it intends.</p>
+
+            <h3>Acts 16:14—The Lord Opens Hearts</h3>
+            <p>Luke records the conversion of Lydia at Philippi, and his language is illuminating:</p>
+            <div class="scripture-block">
+                "One who heard us was a woman named Lydia, from the city of Thyatira, a seller of purple goods, who was a worshiper of God. The Lord opened her heart to respond to Paul's message."
+                <span class="scripture-ref">Acts 16:14 (ESV)</span>
+            </div>
+            <p>Paul extended the external call—he preached to Lydia. But something more happened. "The Lord opened her heart." This is the internal call. It's the Holy Spirit's invisible, sovereign work within Lydia's spirit. And what's the result? She "paid attention." She believed. She was baptized. Her entire household followed her into faith.</p>
+
+            <h3>John 6:44—The Father Draws</h3>
+            <p>Jesus teaches directly about the necessity of the internal call:</p>
+            <div class="scripture-block">
+                "No one can come to me unless the Father who sent me draws them. And I will raise them up at the last day."
+                <span class="scripture-ref">John 6:44 (ESV)</span>
+            </div>
+            <p>The word "draws" here is significant. It's not a passive suggestion; it's an active attracting. The Father's drawing is the internal call. And notice the result: those whom the Father draws "come" to Christ. The internal call is effective. It produces what it purposes. The Father will raise them up on the last day. There is no uncertainty here. No "might come" or "could be saved." The Father's internal call produces faith and secures salvation.</p>
+
+            <h3>The Characteristics of the Internal Call</h3>
+            <p>Unlike the external call, the internal call has these marks:</p>
+            <ul class="evidence-list">
+                <li><strong>It is hidden and invisible</strong>—it happens in the spirit, not publicly proclaimed.</li>
+                <li><strong>It is effectual</strong>—it always accomplishes its purpose in those who receive it.</li>
+                <li><strong>It is irresistible</strong>—not through coercion, but through transformation of desires. Those who receive it cannot help but respond.</li>
+                <li><strong>It is sovereign</strong>—given by God to whom He chooses, not earned or merited by the recipient.</li>
+                <li><strong>It guarantees the entire chain of salvation</strong>—calling leads to justification; justification leads to glorification (Romans 8:30).</li>
+            </ul>
+        </section>
+
+        <section id="tension" class="section">
+            <h2>How Both Callings Work Together Without Contradiction</h2>
+
+            <div class="argument-item">
+                <h3 class="argument-title">Understanding the Sovereignty-Responsibility Paradox</h3>
+                <p class="argument-text">Scripture affirms both God's absolute sovereignty and genuine human responsibility. The external call demonstrates human responsibility: we are commanded to repent, called to believe, held accountable for our response. The internal call demonstrates God's sovereignty: He accomplishes His purpose in salvation through His irresistible grace. Both are true. Both are biblical. Both are necessary. The external call explains our obligation; the internal call explains God's efficacy.</p>
+            </div>
+
+            <div class="argument-item">
+                <h3 class="argument-title">Jesus's Tears Resolve the Tension</h3>
+                <p class="argument-text">Jesus weeps over Jerusalem because His external call was rejected. His offer was genuine. His desire was real. But His sovereignty meant that He also foreknew that Jerusalem would refuse. So how can both be true? Because God's sovereignty includes not just foreknowledge but the accomplishment of His purposes in a way that includes both the offer and the refusal. Jesus's tears don't contradict His foreknowledge. They coexist. God's plan includes even the rejection of His offer. His purpose is larger than the single moment of offer-and-refusal. The cross itself—the greatest rejection of Jesus—was the centerpiece of God's redemptive plan. God's sovereignty and Jesus's genuine grief are not enemies; they are partners in the accomplishment of salvation.</p>
+            </div>
+
+            <div class="argument-item">
+                <h3 class="argument-title">The Two Calls Explain Why Some Believe and Some Don't</h3>
+                <p class="argument-text">The external call goes to all. Yet belief is not universal. Why? The answer is the internal call. Where the internal call is absent, people hear the gospel but do not respond in faith. Where the internal call is present, the Spirit opens the heart, and faith follows. This explains both the universality of the gospel proclamation and the particularity of its saving effect. We are called to extend the external call to all (Matthew 28:19-20). God's prerogative is to give the internal call to whom He chooses (John 6:37). Our faithfulness is measured by our obedience in the external call. God's faithfulness is measured by His accomplishment through the internal call.</p>
+            </div>
+
+            <div class="evidence-box">
+                <h3 class="evidence-title">Three Critical Insights</h3>
+                <ul class="evidence-list">
+                    <li><strong>God's offer is genuine, not a trick.</strong> When the gospel is preached, God really is offering salvation. He is not secretly withholding grace while publicly offering it. The external call reflects God's true desire for the salvation of sinners.</li>
+                    <li><strong>God's grace is not dependent on our decision.</strong> The internal call means that salvation does not depend on human wisdom, human strength, or human choice. It depends wholly on God's sovereign act of grace. This is the glory of the gospel: that the weakest believer, the most broken sinner, the one with no spiritual resources whatsoever—can be saved by the irresistible work of the Holy Spirit.</li>
+                    <li><strong>God is just in condemning those who reject the external call.</strong> Because the external call is genuine, those who reject it are without excuse. They have heard the truth. They have been offered grace. They have chosen to refuse. Their condemnation is just. God has not hidden the gospel from them; He has proclaimed it plainly. If they are lost, it is not because God's offer was insincere, but because they have chosen to reject what they have been genuinely offered.</li>
+                </ul>
+            </div>
+
+            <h3>The Beautiful Balance</h3>
+            <p>When you understand the two calls, you can hold these truths without tension: You can preach the gospel with all your heart, knowing that your proclamation is part of God's plan. You can call people to faith with genuine urgency, knowing that their response is their responsibility. And you can rest in God's sovereignty, knowing that in the end, His purpose will be accomplished through the irresistible work of His grace. Jesus can genuinely weep over a rejection while simultaneously being at peace in the sovereignty of God. And you can be both urgent in evangelism and confident in God's promises. Both calls are real. Both are necessary. And together, they reveal the complete picture of God's character and His plan of salvation.</p>
+        </section>
+
+    </div>
+
+    <div class="related-explore">
+        <h3>Explore Related Questions</h3>
+        <div class="related-explore-grid">
+            <a href="/question-external-call.html">The External Call vs The Effectual Call</a>
+            <a href="/question-depravity.html">Total Depravity: Dead, Not Sick</a>
+            <a href="/systematic-election.html">Election: How Can God Choose Beforehand?</a>
+            <a href="/questions">Back to All Questions</a>
+        </div>
+    </div>
+
+        <!-- Cross-Reference Section -->
+        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                    <a href="/question-external-call.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The External Call</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The general offer of the gospel to all who hear.</p>
+                    </a>
+                    <a href="/question-irresistible.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Irresistible Grace</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The grace that overcomes all objections and transforms the willing heart.</p>
+                    </a>
+                    <a href="/systematic-ordo-salutis.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Order of Salvation</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The logical and temporal sequence of God's saving work.</p>
+                    </a>
+                    <a href="/question-john6.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Divine Call</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How God sovereignly draws His chosen people to Himself.</p>
+                    </a>
+                    <a href="/systematic-pneumatology.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Truth of the Holy Spirit</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Understanding the person and work of the Holy Spirit.</p>
+                    </a>
+                    <a href="/question-depravity.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Total Depravity</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Why sinners cannot save themselves and must be rescued by God.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/apologetic-unreached" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">What About Those Who Never Heard the Gospel?</span>
+        <span class="related-article-desc">What about the billions who never heard the gospel? Scripture reveals God</span>
+      </a>
+      <a href="/secular-art-literature-reformed-truth" class="related-article-card">
+        <span class="related-article-cat">🔬 Secular Evidence</span>
+        <span class="related-article-title">Art &amp; Literature — How the Greatest Writers Intuited Reformed Truth</span>
+        <span class="related-article-desc">Shakespeare, Dostoevsky, Flannery O</span>
+      </a>
+      <a href="/analogy-lazarus-grave" class="related-article-card">
+        <span class="related-article-cat">💡 Analogies</span>
+        <span class="related-article-title">Did Lazarus Choose to Rise? God&#039;s Sovereign Calling Explained</span>
+        <span class="related-article-desc">Does God force salvation or respect free will? John 11 shows how effectual calling works through Laz...</span>
+      </a>
+      <a href="/objection-evangelism-pointless" class="related-article-card">
+        <span class="related-article-cat">🛡 Objections Answered</span>
+        <span class="related-article-title">If God Already Chose Who Will Be Saved, Why Evangelize?</span>
+        <span class="related-article-desc">If God already chose who will be saved, why evangelize? Because God ordains the means as well as the...</span>
+      </a>
+      <a href="/start-here-phase5" class="related-article-card">
+        <span class="related-article-cat">🧭 Start Here</span>
+        <span class="related-article-title">Living as an Elect Child of God — Phase 5</span>
+        <span class="related-article-desc">Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, wo...</span>
+      </a>
+      <a href="/history-medieval" class="related-article-card">
+        <span class="related-article-cat">⏳ History</span>
+        <span class="related-article-title">Medieval Theology and the Seeds of Reform (300-1400 AD)</span>
+        <span class="related-article-desc">Medieval theology: Augustine vs Pelagius, Semi-Pelagianism</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        // Set active nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === '/questions') {
+                link.classList.add('active');
+            }
+        });
+
+        // Scroll-spy for section navigation
+        const sectionLinks = document.querySelectorAll('.section-link');
+        const sections = document.querySelectorAll('.section');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '-30% 0px -70% 0px',
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    sectionLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => observer.observe(section));
+    </script>
+
+<script>
+(function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
+</script>
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

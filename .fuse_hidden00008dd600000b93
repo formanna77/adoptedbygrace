@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Start Here — A journey into sovereign grace. For the curious, skeptical, and seeking. Find your entry point and go deeper.">
+    <meta property="og:title" content="Start Here — Adopted by Grace">
+    <meta property="og:description" content="Begin your journey into sovereign grace. A guided path for the curious, skeptical, and seeking.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/start-here.html">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Start Here — Adopted by Grace">
+    <meta name="twitter:description" content="Begin your journey into sovereign grace. Find your entry point.">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <link rel="canonical" href="https://adoptedbygrace.net/start-here.html">
+    <title>Start Here — Adopted by Grace</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Start Here",
+        "description": "A guided journey into sovereign grace for the curious, skeptical, and seeking.",
+        "url": "https://adoptedbygrace.net/start-here.html",
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu"></div>
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hub-hero">
+        <span class="hub-eyebrow">Your Journey Starts Here</span>
+        <h1>Begin Your Path Into Grace</h1>
+        <p class="hub-subtitle">Different people arrive at the doctrines of grace from different directions. This is a collection of doorways. Pick the one that matches where you are — or start at the beginning and walk through all of them.</p>
+        <div class="hub-stats">
+            <div class="hub-stat">10 <span>Starting Points</span></div>
+            <div class="hub-stat">2 <span>Paths</span></div>
+        </div>
+    </section>
+
+    <!-- ==================== AUDIENCE PATHS ==================== -->
+    <div class="hub-container">
+        <h2 class="hub-section-title">This Journey Is For You If...</h2>
+        <div class="hub-grid">
+            <a href="/start-here-phase1" class="hub-card">
+                <span class="card-number">01</span>
+                <h3 class="card-title">You're Curious</h3>
+                <p class="card-description">You've heard people talk about predestination and something in you wants to know: is this real? Does the Bible actually teach this? You're not looking for a fight — you're looking for the truth. That's exactly where the best journeys begin.</p>
+                <span class="card-meta">Perfect for: Newcomers</span>
+                <div class="card-footer">
+                    <span class="card-read">Begin <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/start-here-phase2" class="hub-card">
+                <span class="card-number">02</span>
+                <h3 class="card-title">You're Skeptical</h3>
+                <p class="card-description">You've been told these doctrines make God a monster. Fair enough — we'd reject that God too. But what if the version you were taught to reject isn't what Scripture actually says? Come with your objections loaded. We welcome them.</p>
+                <span class="card-meta">Perfect for: Questioners</span>
+                <div class="card-footer">
+                    <span class="card-read">Begin <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/start-here-phase3" class="hub-card">
+                <span class="card-number">03</span>
+                <h3 class="card-title">You're Seeking Deeper</h3>
+                <p class="card-description">You already believe in grace, but you sense there's an ocean beneath the surface you haven't yet explored. You want to understand why these truths have sustained martyrs at the stake and comforted saints on their deathbeds for two millennia.</p>
+                <span class="card-meta">Perfect for: Believers</span>
+                <div class="card-footer">
+                    <span class="card-read">Begin <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ==================== QUICK START ==================== -->
+    <div class="hub-container">
+        <h2 class="hub-section-title">Not Sure Where to Start?</h2>
+        <div class="quick-start-options">
+            <a href="/start-here-assessment" class="quick-option primary">Take the Quiz (2 min) →</a>
+            <a href="/start-here-phase1" class="quick-option">I'm Brand New →</a>
+            <a href="/start-here-phase2" class="quick-option">I've Heard of TULIP →</a>
+            <a href="/start-here-phase3" class="quick-option">Show Me Scripture →</a>
+            <a href="/start-here-phase4" class="quick-option">I Have Objections →</a>
+            <a href="/start-here-phase5" class="quick-option">I Believe — Now What? →</a>
+        </div>
+    </div>
+
+    <!-- ==================== LANDMARK ARTICLE ==================== -->
+    <div class="hub-container">
+        <a href="/question-where-did-your-faith-come-from" class="hub-card hub-card-featured">
+            <span class="card-meta">The Most Important Question</span>
+            <h2 class="card-title">Where Did Your Faith Come From?</h3>
+            <p class="card-description">This single question may change everything. You've heard the gospel. You believed it. But have you ever asked where the belief itself came from? This is the one question most Christians have never considered — and the answer rewrites everything you thought you knew about salvation.</p>
+            <div class="card-footer">
+                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </div>
+        </a>
+    </div>
+
+    <!-- ==================== CORE RESOURCES ==================== -->
+    <div class="hub-container">
+        <h2 class="hub-section-title">Core Resources</h2>
+        <div class="hub-grid">
+            <a href="/best-reads" class="hub-card">
+                <span class="card-number">01</span>
+                <h3 class="card-title">Best Reads</h3>
+                <p class="card-description">Eighteen hand-picked articles — one from every category on the site. A complete journey through grace.</p>
+                <span class="card-meta">18 Articles</span>
+                <div class="card-footer">
+                    <span class="card-read">Explore <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/questions" class="hub-card">
+                <span class="card-number">02</span>
+                <h3 class="card-title">Questions & Evidence</h3>
+                <p class="card-description">20+ Scripture deep-dives. Every major objection answered. Every crucial passage explained.</p>
+                <span class="card-meta">Scripture-Centered</span>
+                <div class="card-footer">
+                    <span class="card-read">Explore <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/systematic-theology" class="hub-card">
+                <span class="card-number">03</span>
+                <h3 class="card-title">Systematic Theology</h3>
+                <p class="card-description">Comprehensive truth study. The theological architecture of grace explored from foundations to completion.</p>
+                <span class="card-meta">20 Core Doctrines</span>
+                <div class="card-footer">
+                    <span class="card-read">Explore <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/devotionals" class="hub-card">
+                <span class="card-number">04</span>
+                <h3 class="card-title">Devotionals</h3>
+                <p class="card-description">When truth encounters your heart. Read these when you need to be reminded that grace is not theory — it's the only thing strong enough to hold you.</p>
+                <span class="card-meta">Let Grace Transform You</span>
+                <div class="card-footer">
+                    <span class="card-read">Explore <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/stories" class="hub-card">
+                <span class="card-number">05</span>
+                <h3 class="card-title">Stories</h3>
+                <p class="card-description">Truth lived out. Parables, analogies, and testimonies that make truth visible and make grace irresistible.</p>
+                <span class="card-meta">See Truth Come Alive</span>
+                <div class="card-footer">
+                    <span class="card-read">Explore <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/demolition-hub" class="hub-card">
+                <span class="card-number">06</span>
+                <h3 class="card-title">Demolition Zone</h3>
+                <p class="card-description">Hard truths from Scripture, philosophy, psychology, and science. The intellectual case for grace from every angle.</p>
+                <span class="card-meta">Full Frontal Truth</span>
+                <div class="card-footer">
+                    <span class="card-read">Explore <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ==================== THE CORNERSTONE ==================== -->
+    <div class="hub-container" style="text-align: center; padding: 3rem 2rem; background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.04)); border: 1px solid rgba(212, 162, 84, 0.15); border-radius: 12px; margin: 3rem auto;">
+        <p style="font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: #f0ece4; margin-bottom: 0.5rem;">No matter how far you fall —</p>
+        <p style="font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: #d4a254; margin-bottom: 1rem;"><em>He will never give up on you.</em></p>
+        <p style="font-size: 0.95rem; color: #9a958c; margin-bottom: 1.5rem; line-height: 1.6;">The most soul-quenching truth for weary hearts fed a lifetime of merit-based religion.</p>
+        <a href="/devotional-never-gives-up" style="display: inline-block; padding: 0.7rem 2rem; border: 1px solid #d4a254; color: #d4a254; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; letter-spacing: 0.1em; text-decoration: none; border-radius: 6px; transition: all 0.3s ease;">READ THE DEVOTIONAL →</a>
+    </div>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Truth</h4>
+                    <ul>
+                        <li><a href="/systematic-theology">Systematic Theology</a></li>
+                        <li><a href="/devotionals">Devotionals</a></li>
+                        <li><a href="/stories">Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="/questions">Questions</a></li>
+                        <li><a href="/demolition-hub">Demolition</a></li>
+                        <li><a href="/psychology-hub">Why We Resist</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Learn</h4>
+                    <ul>
+                        <li><a href="/history-timeline">Through the Ages</a></li>
+                        <li><a href="/secular-evidence">Secular Evidence</a></li>
+                        <li><a href="/start-here">Start Here</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="/about">About This Site</a></li>
+                        <li><a href="https://substack.com/@ForeknownOne" target="_blank">Substack</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-grace-warning">
+                "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+                Grace is not a license to sin. It is the power that frees us from sin's dominion.
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024-2026 Adopted by Grace. All rights reserved. Built with truth.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+
+</body>
+</html>

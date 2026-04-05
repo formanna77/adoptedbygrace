@@ -31,6 +31,37 @@ Each entry follows this structure:
 
 *(Agents: add your entries below. Most recent first. This file should grow daily.)*
 
+### 2026-04-05 — REFINER (Session: 20-Page Surface Optimization) — PATTERN
+**Discovery:** The **"Verse Demolition #N" title pattern is SEO poison.** Six demolition pages used numbered series titles ("Verse Demolition #3", "#5", "#6", "#7", "#12") that no human being has ever searched for. Nobody Googles "verse demolition number seven." They Google "Does 1 John 2:2 prove universal atonement?" Replacing numbered series with question-format titles that match actual search queries is the single highest-leverage title optimization on this site. All 6 were transformed:
+- "Verse Demolition #7" → `Does "The Whole World" in 1 John 2:2 Prove Universal Atonement?`
+- "Verse Demolition #7" → `"God Commands All to Repent" — Does Acts 17:30 Disprove Election?`
+- "Verse Demolition #3" → `"Work Out Your Salvation" — Does Philippians 2:12 Prove Free Will?`
+- "Verse Demolition #5" → `"He Tasted Death for Everyone" — What Hebrews 2:9 Actually Means`
+- "Verse Demolition #6" → `"Christ Died for All" — Why 2 Corinthians 5:14 Proves the Opposite`
+- "Verse Demolition #12" → `"Savior of All People" — Does 1 Timothy 4:10 Prove Universal Atonement?`
+**Why it matters:** The pattern that works for demolition titles: quote the verse phrase in the title, then ask the question the searcher is asking. This matches the exact long-tail search query ("does Hebrews 2:9 prove universal atonement") while also creating a curiosity gap. The quoted verse phrase signals "I know the verse you're thinking of" and the question signals "I have the answer." Future demolition pages should ALWAYS use this format.
+**Apply to:** All demolition pages. Any remaining "Verse Demolition #N" titles in hub cards should also be updated. The Enhancer should check demolition-hub.html card titles for the old numbered format.
+
+### 2026-04-05 — REFINER (Session: 20-Page Surface Optimization) — CRAFT
+**Discovery:** **Academic systematic theology titles actively repel the people who need them most.** "Systematic Theology: Hamartiology" is a title that only someone who already knows hamartiology would click. The person who NEEDS to understand hamartiology — the searching believer at 2am — will never click it because the word is a wall. Transformations that worked:
+- "Systematic Theology: Hamartiology — The Truth of Sin" → `You're Not Sick in Sin — You're Dead. Here's What That Means.`
+- "Systematic Theology: Pneumatology" → `The Holy Spirit — Who He Is and Why He Changes Everything`
+- "Theological Anthropology: Created, Fallen, Redeemed" → `What Are You? Created in Glory, Ruined by Sin, Rescued by Grace`
+- "Ecclesiology: The Bride of Christ" → `The Church — Why God's People Are Called Out, Not Volunteered`
+- "Compatibilism — Adopted by Grace" → `How Can God Be Sovereign AND Humans Be Responsible? Both Are True.`
+- "Prolegomena — Scripture & Authority" → `Why Scripture Is the Final Word — And Why That Matters for Grace`
+- "Systematic Soteriology — The Truth of Salvation" → `How God Saves — The Complete Biblical Truth of Salvation`
+**Why it matters:** The principle: translate the academic concept into the question the reader actually has. Nobody searches "pneumatology." They search "what does the Holy Spirit do?" Nobody searches "compatibilism." They search "how can God be sovereign and humans be responsible?" The title should be the ANSWER to the search query, not the chapter heading of the textbook.
+**Apply to:** All systematic theology pages. There may be more academic-titled pages in the systematic-* series that need this treatment. Also applies to any future theology content.
+
+### 2026-04-05 — REFINER (Session: 20-Page Surface Optimization) — HEART
+**Discovery:** **Devotional meta descriptions that use the word "devotional" or "reflection" are wasting the most valuable 155 characters on the site.** The meta description IS the devotional in miniature. It should CREATE the emotional experience, not DESCRIBE it. Transformations:
+- "Adoption Papers: A meditative reflection on being chosen and adopted as God's child in biblical theology. Devotional." → "A baby doesn't interview for a family. It doesn't earn a place at the table. It's chosen. The adoption papers were signed before you drew your first breath."
+- "Forever Loved: A meditative reflection on God's perseverance and eternal security in biblical theology. Devotional." → "You're terrified you'll fall away. That you'll mess up so badly God gives up on you. But what if His love was never contingent on your performance?"
+- "A meditative reflection on Irresistible Grace and the sovereign work of God in salvation." → "Grace didn't knock and wait. It kicked down the door and carried you out."
+**Why it matters:** The meta description for a devotional page should do IN 155 CHARACTERS what the devotional does in 1000 words: stop the reader's heart. The person scanning Google results needs to feel the devotional before they click. "A meditative reflection on..." feels like a library catalog entry. "You're terrified you'll fall away" feels like someone reading your mind.
+**Apply to:** All devotional pages and healing category pages. The same principle applies to psychology meta descriptions — lead with the reader's experience, not the article's topic.
+
 ### 2026-04-04 — EVANGELIST (Session: 3 Newsletters + 20 SEO Fixes) — CRAFT
 **Discovery:** The **"Debate" newsletter format (G)** with the rule "ONE verse settles it, no commentary after" is the most rhetorically devastating newsletter format yet. By steel-manning the synergist position with genuine respect — acknowledging the force of "whoever believes" and the love-requires-freedom argument — and THEN letting Romans 9:16 land without explanation, the format weaponizes silence. The absence of commentary after the verse IS the commentary. The reader expects rebuttal. They get Scripture. And Scripture needs no defense. This format should be reused for every major theological debate: limited atonement, perseverance, irresistible grace. Steel-man both. One verse. Silence.
 **Why it matters:** Most apologetic content over-explains. The Debate format trusts Scripture to do its own work. The reader who expected to be argued with is instead confronted with God's own words — and the silence that follows gives those words room to echo. Less is devastatingly more.

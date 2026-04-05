@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Grace didn't knock and wait. It kicked down the door and carried you out. A devotional on irresistible grace — the rescue you never asked for and can never repay.">
+    <meta name="theme-color" content="#0a0a0f">
+    <meta property="og:title" content="Rescued Without a Say – Devotional">
+    <meta property="og:description" content="A meditative reflection on Irresistible Grace and the sovereign work of God in salvation.">
+    <meta property="og:url" content="https://adoptedbygrace.net/devotional-rescued-without-a-say.html">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rescued Without a Say – Devotional">
+    <meta name="twitter:description" content="A meditative reflection on Irresistible Grace and the sovereign work of God in salvation.">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <link rel="canonical" href="https://adoptedbygrace.net/devotional-rescued-without-a-say.html">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+    <title>You Didn't Ask to Be Saved. God Did It Anyway.</title>
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Rescued Without a Say – Devotional",
+    "description": "A meditative reflection on Irresistible Grace and the sovereign work of God in salvation. Discover how grace comes not as an invitation, but as a divine rescue.",
+    "author": { "@type": "Person", "name": "Aaron Forman" },
+    "datePublished": "2026-04-04",
+    "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+}
+</script>
+
+
+    <!-- CANONICAL NAV TEMPLATE
+</head>
+<body>
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            
+<!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+
+
+
+    <main id="main-content">
+        <div class="breadcrumb">
+            <span>←</span>
+            <a href="devotionals.html">Back to Devotionals</a>
+        </div>
+
+        <article>
+            <section class="page-hero">
+                <h1>Rescued Without a Say</h1>
+                <div class="eyebrow">
+                    <span>📖 Devotional</span>
+                    <span>⏱ 8 min read</span>
+                    <span>✝️ Reformed Theology</span>
+                </div>
+            </section>
+
+            <div class="devotional-opening">
+                <p>There is a scene in every rescue movie where the hero bursts through a door and carries someone out of a burning building. The rescued person did not file a request. They did not fill out a form. They were unconscious on the floor, lungs full of smoke, seconds from death. And someone came. They were lifted—whether they wanted to be or not—away from the flames and into the open air.</p>
+                <p>The gospel of Jesus Christ is written in that scene.</p>
+            </div>
+
+            <h2>The Silence of the Dead</h2>
+
+            <p>We do not like to think of ourselves as unconscious. We prefer the language of choice, autonomy, agency. We are the architects of our own destiny, the captains of our own souls. The modern world has built entire monuments to the sovereignty of human will. And yet, when the Scripture speaks of our condition apart from God, it uses a vocabulary that should unsettle us.</p>
+
+            <p>Dead. We are dead in our trespasses and sins. Not <em>sick</em>—dead. Not <em>weakened</em>—dead. The Scripture is unsparing: "As for you, you were dead in your transgressions and sins in which you once walked" (Ephesians 2:1-2). A dead man does not choose resurrection. A dead man does not file papers or submit applications. A dead man simply lies still.</p>
+
+            <p>And the gospel does not ask the dead what they think about being resurrected.</p>
+
+            <p>John's Gospel, in its opening chapter, cuts to the theological heart of this truth with devastating clarity. Listen to these words:</p>
+
+            <div class="verse-block">
+                <p>"But to all who did receive him, who believed in his name, he gave the right to become children of God, who were born, not of blood nor of the will of the flesh nor of the will of man, but of God."</p>
+                <cite>John 1:12-13 (ESV)</cite>
+            </div>
+
+            <p>Read that verse carefully. Marinate in its construction. This is not poetry for decoration. This is systematic theology wrapped in the most economical language John could find. He is building a logical wall, brick by brick, eliminating every possible source of our salvation except one.</p>
+
+            <h3>Three Negations, One Affirmation</h3>
+
+            <p><strong>Not of blood.</strong> Your lineage does not save you. The accident of your birth—whether you were born to Christian parents, a pastor's family, a dynasty of theologians—this confers nothing upon you. Heredity is no substitute for the new birth. All the spiritual genealogy in the world cannot beget you into the kingdom of God. The Jews were trusting in this very thing. They were the children of Abraham. Surely this meant something? John says: no. Not of blood.</p>
+
+            <p><strong>Nor of the will of the flesh.</strong> Your desires cannot save you. This is where the modern evangelical church often stumbles. We have created an entire sub-religion built on the assumption that you must first want to be saved, must first choose Jesus, must first feel a stirring in your heart. And then—if you are sufficiently motivated, sufficiently convicted, sufficiently desirous of salvation—then perhaps God will cooperate with your will. This is not the gospel. This is humanism with a cross pin.</p>
+
+            <p>The flesh—unredeemed human nature—is enmity against God. It cannot want what is good. "The natural person does not accept the things of the Spirit of God," Paul tells us, "for they are folly to him, and he is not able to understand them because they are spiritually discerned" (1 Corinthians 2:14). The flesh does not hunger for righteousness until the Spirit makes it hunger. The natural will is not free; it is enslaved to sin. And as Martin Luther would later write with crushing honesty: <em>"Man's will is like a beast standing between two riders. If God rides it, it wills and goes where God wills: as the Psalmist saith, 'I am formed in thy hands.' If Satan rides it, it wills and goes where Satan wills."</em></p>
+
+            <p>We do not begin the Christian life by choosing it. We begin by being chosen. And being chosen precedes all willing.</p>
+
+            <p><strong>Nor of the will of man.</strong> Here is the third negation, and perhaps the most violently opposed in our age. Your decision does not save you. Your commitment does not save you. Your prayer—sincerely felt though it may be—does not save you. There is something in the human soul that recoils from this. We want salvation to be a transaction in which we have negotiating power. We want to sign the contract. We want our name on the dotted line. We want to be the ones who said yes.</p>
+
+            <p>But the gospel says: You did not say yes. You were saying no—violently, continuously, in every fiber of your being. And while you were still hostile, still dead, still running the opposite direction, God said yes. God said yes to you when every human court would have convicted you. God said yes to you when every honest reckoning of justice would have condemned you. God said yes—not because you agreed to it, but despite your disagreement. Not because you chose it, but because He chose you.</p>
+
+            <div class="verse-block">
+                <p>"Jesus said to them, 'You did not choose me, but I chose you and appointed you that you should go and bear fruit and that your fruit should abide.'"</p>
+                <cite>John 15:16a (ESV)</cite>
+            </div>
+
+            <h3>The Scandal of Monergism</h3>
+
+            <p>The theology class name for this truth is "monergism"—the idea that God acts alone in salvation. <em>Mono</em> (one) + <em>ergon</em> (work). One work. One worker. Not a partnership. Not a collaboration. Not even a dance. God works, and the dead are made alive. The blind are given sight. The enslaved are set free.</p>
+
+            <p>And we find this truth not in the dusty corner of some scholastic textbook, but in the immediate narrative of Scripture itself. Consider the prophet Jonah. Here is a man who, having been assigned by God to preach to Nineveh, does the precise opposite. He flees. He takes a ship going the wrong direction. He descends into the hold. And when the storm comes and the sailors are about to kill him, he asks them to throw him into the sea.</p>
+
+            <p>He did not want to be rescued.</p>
+
+            <p>But God had other plans. A great fish swallowed him. For three days and three nights, Jonah lived in the belly of that fish—at the bottom of the ocean, surrounded by darkness, convinced he was dead. This was not a gentle invitation. This was not a soft call to reconsider. This was divine intervention. This was rescue that came whether Jonah willed it or not.</p>
+
+            <p>And what did Jonah say when he finally understood what was happening? He spoke from the depths of the sea, from inside that fish, the words that every soul eventually speaks when it realizes it has been grasped by grace:</p>
+
+            <div class="verse-block">
+                <p>"But I with a voice of thanksgiving will sacrifice to you; what I have vowed I will pay. Salvation belongs to the LORD!"</p>
+                <cite>Jonah 2:9 (ESV)</cite>
+            </div>
+
+            <p><em>Salvation belongs to the LORD.</em> Not to Jonah's decision. Not to Jonah's effort. Not to Jonah's willingness. To the <em>Lord</em>. The man who ran from God, now drowning in the sea, finally understood: his rescue was God's prerogative alone.</p>
+
+            <h3>The Conversion of the Persecutor</h3>
+
+            <p>Perhaps the most striking conversion in all of Scripture is that of Saul of Tarsus, who would become Paul the Apostle. And it is striking precisely because it was <em>not</em> a conversion in the way we typically think of conversion. It was not a gradual awakening. It was not a growing sense of conviction. It was not a man who finally said yes after long wrestling.</p>
+
+            <p>Saul was not seeking Jesus. He was hunting Christians. Acts 9 tells us: "Saul, still breathing threats and murder against the disciples of the Lord, went to the high priest and asked him for letters to the synagogues at Damascus, so that if he found any belonging to the Way, both men and women, he might bring them bound to Jerusalem."</p>
+
+            <p>This was not a seeker. This was a persecutor.</p>
+
+            <p>And then: "Now as he went on his way, he approached Damascus, and suddenly a light from heaven flashed around him. And falling to the ground he heard a voice saying to him, 'Saul, Saul, why are you persecuting me?' And he said, 'Who are you, Lord?' And he said, 'I am Jesus, whom you are persecuting.'"</p>
+
+            <p>Jesus did not send Saul a pamphlet. He did not leave Saul a message. He knocked him off his horse. He blinded him. He put him in the dust. This is not an invitation. This is an intervention. This is irresistible grace—grace that overrides every plan, every intention, every direction the human will has chosen to go.</p>
+
+            <p>And Saul—now Paul—became the greatest missionary the world has ever known. The man who was persecuting the church became the man who proclaimed the gospel to the Gentiles. Not because he changed his mind on his own. But because the risen Christ changed him.</p>
+
+            <div class="reflection-box">
+                <h4>The Pride We Must Surrender</h4>
+                <p>There is something in us that hates this truth. It is not primarily an intellectual objection. It is an existential one. We want to be the hero of our own salvation story. We want to be the one who had the courage to step forward. We want our faith to be a credit to us, a mark of our wisdom, our sensitivity, our spiritual maturity. To be told that we did not choose, but were chosen—that we did not will, but were willed into the kingdom—this strikes at the heart of our autonomy. It wounds our pride.</p>
+                <p>But perhaps this wounding is necessary. Perhaps our pride has been the very thing keeping us from God. We want to approach the throne of grace on our own terms, having earned our place, having done our part. But grace is not earned. It is not negotiated. It comes to us as the unconscious person is carried from the burning building—not as a result of our effort, but as an act of pure love.</p>
+            </div>
+
+            <h2>The Joy of the Rescued</h2>
+
+            <p>And yet—here is the paradox that makes the gospel so radical—those who have been rescued without a say, who have been chosen without their voice in the matter, who have been seized by a love they did not first seek—these become the most grateful people on earth.</p>
+
+            <p>Why? Because they understand something that the "I chose Jesus" narrative can never capture: <em>that they have been loved not because they are lovely, but because they are loved.</em> They have experienced grace not as a reward for their choosing, but as pure, undeserved favor. They have tasted what it means to be wholly dependent, wholly passive, wholly in the hands of another—and to find in that dependence the deepest security, the deepest peace, the deepest joy.</p>
+
+            <p>The man pulled from the burning building does not thank himself for his rescue. He does not tell the story of how he made the right decision to get saved. He falls on his face before the one who carried him out. He weeps. He worships. He spends his life telling others: "There is a man who saved me. I was unconscious. I was dying. And He came."</p>
+
+            <p>This is the testimony of the ransomed—not "I chose to be ransomed," but "I was ransomed." Not "I decided to follow Jesus," but "Jesus decided to follow me, even when I was running the other way. Even when I was dead. Even when I could not say yes. He said yes. And He carried me home."</p>
+
+            <p>The scandal of grace is that it comes uninvited. But once we have been grasped by it, we discover that no invitation could be more welcome. No rescue could be more necessary. No love could be more perfect than the love of the One who saved us when we could not save ourselves—who chose us when we could not choose Him—who loved us when we were yet sinners, still enemies, still blind, still dead in our sin.</p>
+
+            <p>You were rescued without a say. And now, in Christ, you finally have something to say: <em>"Salvation belongs to the Lord!"</em></p>
+
+            <div class="related-links">
+                <h4>Related Passages & Guides</h4>
+                <ul>
+                    <li><a href="question-irresistible.html">The Question of Irresistible Grace</a></li>
+                    <li><a href="question-freewill.html">Free Will & Divine Sovereignty</a></li>
+                    <li><a href="question-john6.html">Monergism in John 6: "No one can come to me..."</a></li>
+                    <li><a href="devotionals.html">← Return to All Devotionals</a></li>
+                </ul>
+            </div>
+
+        <!-- Never Gives Up Banner -->
+        <div style="max-width: 800px; margin: 3rem auto; padding: 2rem 2.5rem; background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.04)); border: 1px solid rgba(212, 162, 84, 0.15); border-radius: 12px; text-align: center;">
+            <p style="font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: #f0ece4; margin-bottom: 0.5rem;">No matter how far you fall — <em style="color: #d4a254;">He will never give up on you.</em></p>
+            <p style="font-size: 0.95rem; color: #9a958c; margin-bottom: 1.2rem; line-height: 1.6;">The most soul-quenching truth for weary hearts fed a lifetime of merit-based religion.</p>
+            <a href="devotional-never-gives-up.html" style="display: inline-block; padding: 0.7rem 2rem; border: 1px solid #d4a254; color: #d4a254; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; letter-spacing: 0.1em; text-decoration: none; border-radius: 6px; transition: all 0.3s ease;">READ THE DEVOTIONAL →</a>
+        </div>
+
+            <!-- Cross-Reference Section -->
+            <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                        <a href="question-john6.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">John 6: No One Can Come Unless...</h4>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The necessity of the Father's drawing power.</p>
+                        </a>
+                        <a href="question-depravity.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Total Depravity: Why We Cannot Free Ourselves</h4>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Understand our bondage before the Liberator comes.</p>
+                        </a>
+                        <a href="devotional-my-chains-fell-away.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Dead Who Live</h4>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Spiritual resurrection through irresistible grace.</p>
+                        </a>
+                        <a href="question-irresistible.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Irresistible Grace: Why Freedom is Found in Surrender</h4>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Discover how grace calls us and draws us home.</p>
+                        </a>
+                        <a href="systematic-regeneration.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Regeneration: The Gift of New Life</h4>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A comprehensive exploration of being born again.</p>
+                        </a>
+                        <a href="devotional-my-chains-fell-away.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">My Chains Fell Away</h4>
+                            <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Freedom in Christ through sovereign grace.</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+        
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/analogy-lazarus-grave" class="related-article-card">
+        <span class="related-article-cat">💡 Analogies</span>
+        <span class="related-article-title">Did Lazarus Choose to Rise? God&#039;s Sovereign Calling Explained</span>
+        <span class="related-article-desc">Does God force salvation or respect free will? John 11 shows how effectual calling works through Laz...</span>
+      </a>
+      <a href="/scripture-tsunami" class="related-article-card">
+        <span class="related-article-cat">📄 General</span>
+        <span class="related-article-title">480+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
+        <span class="related-article-desc">They told you</span>
+      </a>
+      <a href="/story-surgeon-stone-heart" class="related-article-card">
+        <span class="related-article-cat">📜 Stories</span>
+        <span class="related-article-title">Can a Stone Heart Choose? The Surgeon&#039;s Parable on Regeneration</span>
+        <span class="related-article-desc">Can a stone heart choose? A surgeon gives a new heart without asking. A parable about regeneration a...</span>
+      </a>
+      /a>
+      <a href="/ot-election" class="related-article-card">
+        <span class="related-article-cat">📚 Old Testament</span>
+        <span class="related-article-title">Election in the Old Testament</span>
+        <span class="related-article-desc">Explore the doctrines of grace throughout the Old Testament. From Abraham to David, discover how G...</span>
+      </a>
+      <a href="/psalms-election" class="related-article-card">
+        <span class="related-article-cat">🎵 Psalms &amp; Poetry</span>
+        <span class="related-article-title">Election in the Psalms</span>
+        <span class="related-article-desc">How David understood himself as chosen by grace, not merit. Election themes throughout the Psalms—Ps...</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    
+
+    
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

@@ -294,12 +294,43 @@ A visitor who arrives from Google on a single page and finds no links will read 
 
 **That is the goal. Every page is a door. Every door opens to every other door. The reader who enters cannot help but go deeper — because the links are irresistible.**
 
+**8. NEVER inject links into HTML structure.**
+Links go in PROSE CONTENT ONLY. Agents are BANNED from inserting `<a>` tags into:
+- `href` attributes (e.g., `href="/page-<a href="...">name</a>"` — CATASTROPHIC)
+- `class` attributes (e.g., `class="card <a href="...">label</a>"` — CATASTROPHIC)
+- HTML comments (e.g., `<!-- Section: <a href="...">Title</a> -->`)
+- Tag names or closing tags (e.g., `<h3>Title<a href="...">Title</a>/h3>`)
+- `id` attributes, `data-*` attributes, or any non-content context
+
+This has caused SITE-BREAKING damage in the past (April 2026). Pages rendered as blank screens or showed raw HTML garbage because links were injected into structural HTML. Links belong INSIDE paragraph text, list items, and other visible prose — NOWHERE ELSE.
+
 ## CONTENT STANDARDS
 - De-emphasize Reformed/Calvinism/TULIP labels. Lead with "Scripture teaches" not "Calvinism says."
 - No eschatology. Laser focus on God's sovereignty in salvation.
 - Brevity over bloat. Devotionals = 5 min read. Every sentence earns its place.
 - Writing models: Lewis, Buechner, Spurgeon, Keller.
 - Weave clever theology humor into pages where appropriate.
+
+### BIBLE TRANSLATION — NIV ONLY (MANDATORY FOR ALL AGENTS)
+
+**Every Scripture quotation on this site MUST use the New International Version (NIV).**
+
+This is not a preference — it is a strategic decision at the heart of the site's mission. Here is why:
+
+**The NIV is the Bible Arminian evangelicals grew up with.** It is the translation on their nightstand. It is published by Zondervan (not Crossway, which is Reformed-coded). Nobody has ever called the NIV "the Calvinist Bible." In the popular imagination, it is the safe, mainstream, everybody's-welcome translation.
+
+**That is precisely what makes it devastating for our purposes.** When Romans 9:11-13 says what it says in the NIV — the translation they trust — the escape hatch of translation bias is welded shut. When John 6:44 reads "No one can come to me unless the Father who sent me draws them" in THEIR Bible, the ground disappears beneath the Arminian reading. When Acts 13:48 says "all who were appointed for eternal life believed" in the translation they've trusted since Sunday school — they have to deal with the TEXT, not hide behind a translation objection.
+
+**The ESV** is associated with Reformed theology (Crossway, Wayne Grudem, etc.). A skeptical visitor who sees ESV citations gets permission to stop reading: "of course a Calvinist website uses the Calvinist Bible." **The LSB** is even worse — it's MacArthur's project. Using either gives the reader an excuse we must never provide.
+
+**The NIV removes the last excuse.** We are quoting their translation, making their Bible say what it has always said, and they have to deal with the text itself. This is the Socratic trap applied to translation choice — start with what they already agree with, and win on their home turf.
+
+**Rules:**
+1. **ALL new content** must quote Scripture from the NIV.
+2. **When updating existing content**, convert any ESV/NASB/KJV/LSB quotations to NIV.
+3. **For the rare passage** where NIV dynamic equivalence softens a critical Greek/Hebrew word (e.g., *doulos* rendered "servant" instead of "slave"), add a brief inline note: "The Greek here is *doulos*, meaning slave, not merely servant." This STRENGTHENS credibility — it shows we know the original languages and aren't hiding behind any translation.
+4. **Do NOT add "(NIV)" after every quotation.** The translation choice should be invisible. Adding translation tags creates the very translation-consciousness we are trying to avoid. Just quote the text.
+5. **Exception:** Direct quotes from theologians or historical documents (e.g., Westminster Confession) retain their original wording — those are not our Scripture quotations.
 
 ### THE WEIGHT OF FEW WORDS — A WRITING PRINCIPLE (NOT A MANDATE)
 

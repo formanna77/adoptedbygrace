@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>82% of People Are Lonely — Why That's a Theological Problem | Adopted by Grace</title>
+    <meta name="description" content="Loneliness is not a social problem—it's a theological one. Discover why 82% of people feel alone even when surrounded, and what God's sovereignty reveals about belonging.">
+    <link rel="canonical" href="https://adoptedbygrace.net/invisible-wall-lonely-theological">
+    <meta property="og:title" content="82% of People Are Lonely — Why That's a Theological Problem">
+    <meta property="og:description" content="The loneliness epidemic isn't about needing more friends. It's about needing the God-shaped hole filled.">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-lonely-theological.jpg">
+    <meta property="og:url" content="https://adoptedbygrace.net/invisible-wall-lonely-theological">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "82% of People Are Lonely — Why That's a Theological Problem",
+        "description": "Loneliness is not a social problem—it's a theological one. Discover why 82% of people feel alone even when surrounded, and what God's sovereignty reveals about belonging.",
+        "author": { "@type": "Organization", "name": "Adopted by Grace" },
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" },
+        "datePublished": "2026-03-30",
+        "url": "https://adoptedbygrace.net/invisible-wall-lonely-theological.html",
+        "image": "https://adoptedbygrace.net/og-lonely-theological.jpg"
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+    <script src="/global.js" defer></script>
+
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+            <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <main class="article-body" id="main-content">
+        
+    <section class="page-hero">
+    <article>
+            <a href="/invisible-wall-hub" class="back-link">← Back to The Invisible Wall</a>
+
+            <h1>82% of People Are Lonely — Here's Why That's a Theological Problem</h1>
+    </section>
+
+            <div class="eyebrow">
+                Relationships & Belonging • A deep dive into loneliness through the lens of God's sovereignty
+            </div>
+
+            <p>82.4% of people report experiencing loneliness. Not homelessness. Not poverty. Not lack of opportunity. <em>Loneliness.</em></p>
+            <p>In the most connected era in history—when we have more ways to reach another human being than any generation before us, when we can DM someone across the world in seconds, when we can video call someone thousands of miles away—we are more alone than ever.</p>
+            <p>The Surgeon General of the United States has called loneliness a public health crisis. Depression increases by 39% in lonely people. Loneliness is linked to heart disease, dementia, weakened immune function, and premature death. We are literally dying of being unseen.</p>
+            <p>Something has gone catastrophically wrong. And the world has diagnosed it completely wrong.</p>
+
+            <div class="pull-quote" style="background: rgba(232, 100, 44, 0.08); border-left: 4px solid var(--accent-ember); padding: 1.8rem; margin: 2.5rem 0; border-radius: 4px;">
+<strong>The loneliness epidemic is not a failure of connection. It's a symptom of a severed connection—the one that matters most.</strong> You can have a thousand friends and still feel utterly invisible. Because the hole isn't people-shaped. It's God-shaped.
+            </div>
+
+            <h2>The Epidemic: We Have More Connection Than Ever</h2>
+            <p>Pull up any social media platform and you'll see the contradiction on display. Thousands of friends. Hundreds of followers. Group chats lighting up every minute. Comment sections full of acquaintances. Yet walk into a coffee shop and every person sitting alone with their coffee feels like an island.</p>
+            <p>The numbers don't lie. According to recent research, 82% of adults experience loneliness regularly. Among teenagers, it's worse—isolation, depression, and anxiety have skyrocketed in step with smartphone adoption. We live in a world of constant connection and constant isolation.</p>
+            <p>This isn't because we lack the tools to connect. We have unprecedented access to human relationship. What's missing isn't opportunity—it's something deeper.</p>
+
+            <h2>The Misdiagnosis: More People Isn't the Answer</h2>
+            <p>The world's prescription for loneliness is simple: connect more. Join a club. Download a dating app. Find your tribe. Get on social media. Attend more events. Volunteer. Make friends.</p>
+            <p class="accent-quote">But none of it works. Because loneliness isn't primarily about the absence of people.</p>
+            <p>You can be surrounded in a crowded room and feel utterly invisible. You can have hundreds of friends and feel completely unknown. The kind of knowing your soul craves—being fully seen, fully understood, fully accepted—cannot be provided by human beings alone.</p>
+            <p>We're trying to fill a God-shaped hole with people-shaped things. And people-shaped things don't fit.</p>
+            <p>Even the best human relationships are incomplete. The person who knows you best still doesn't know you best. There are rooms in your soul no human being has access to. Patterns of thought only you understand. Wounds only God can see and heal. Desires that transcend human friendship.</p>
+            <p>Augustine said it centuries ago and it remains the most honest diagnosis: "You have made us for yourself, O Lord, and our hearts are restless until they rest in you."</p>
+
+            <div class="truth-box" style="background: rgba(139, 92, 246, 0.08); border: 1px solid rgba(139, 92, 246, 0.15); padding: 2rem; margin: 2rem 0; border-radius: 8px;">
+                <p style="font-style: italic; font-size: 1.1rem; color: var(--text-primary); line-height: 1.8; margin-bottom: 0;">The deepest loneliness is not the absence of people—it's the absence of the One who created you for Himself. No human connection, no matter how intimate, can substitute for union with God. We're trying to drink salt water and wondering why our thirst never dies.</p>
+            </div>
+
+            <h2>The Root: A Sovereignty Crisis in Disguise</h2>
+            <p>This is where it gets theological.</p>
+            <p>We were designed for connection with God first. When that connection is severed or ignored, when God is relegated to Sunday morning or abandoned altogether, no human relationship can fill the gap. The loneliness epidemic isn't a social problem—it's a spiritual one.</p>
+            <p>And here's what the world doesn't understand: <strong>God's sovereignty is the cure.</strong></p>
+            <p>Not self-help. Not therapy (though those have their place). Not more social media. Not finding the right person or joining the right community. What cures loneliness is understanding that you were never meant to be alone, and that you never have been.</p>
+            <p>In a world that treats loneliness as a social problem, the gospel reveals it as a sovereignty problem—and therefore a sovereignty solution.</p>
+
+            <h2>The Answer: Three Truths from God's Sovereignty</h2>
+
+            <div class="truth-box">
+                <h3>First: You Are Known</h3>
+                <p>Psalm 139 destroys loneliness: "You have searched me, Lord, and you know me. You know when I sit and when I rise; you perceive my thoughts from afar." Not occasionally. Not when you're performing well. You are perpetually, completely, intimately known.</p>
+                <p>God knows you in contexts where no human being exists. He knows your secret thoughts, your hidden struggles, the prayers you've prayed alone in your car at 2 AM, the conversations you've had with yourself. The parts of you that you've never shown anyone else—God knows them completely.</p>
+                <p>You are not invisible. You have never been invisible.</p>
+            </div>
+
+            <div class="truth-box">
+                <h3>Second: You Are Chosen</h3>
+                <p>Ephesians 1:4 and 1:5: "For he chose us in him before the creation of the world...In love he predestined us for adoption to sonship through Jesus Christ." Not because you impressed Him. Not because you earned it. Before the world even existed, before you took a single breath, God set His love on you. He chose you.</p>
+                <p>Think about what it means to be chosen. When people choose you, it means you matter to them. It means you have infinite, irreplaceable value in their eyes. And God—the God who spoke the universe into existence, the God before whom galaxies are dust—chose you. Predestined you. Marked you as His own.</p>
+                <p>The loneliest person in the world cannot separate themselves from that reality.</p>
+            </div>
+
+            <div class="truth-box">
+                <h3>Third: You Are Placed</h3>
+                <p>Acts 17:26: "From one man he made all the nations, that they should inhabit the whole earth; and he marked out their appointed times in history and the boundaries of their lands."</p>
+                <p>Your apartment in that city. Your desk at that job. Your seat in that church. Your family. Your friend group. The person you sit next to on the bus. The unexpected text from someone you haven't heard from in years. The coincidence that doesn't feel like a coincidence. All of it was determined by a God who puts His people exactly where He wants them.</p>
+                <p>Your placement is not an accident. Your presence in the people's lives and people in your life—all determined by a sovereign God who is working all things according to His purpose.</p>
+            </div>
+
+            <h2>The Family: Adopted Into Eternity</h2>
+            <p>But here's the climax. Here's where it all comes together.</p>
+            <p>If you belong to Christ, you are not just known, chosen, and placed. You are adopted. Ephesians 1:5 again: <em>predestined for adoption to sonship.</em></p>
+            <div class="scripture-block">
+                <span class="scripture-ref">Ephesians 1:5 (ESV)</span>
+                He predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will.
+            </div>
+            <p>Adoption is not accident. It's choice. It's commitment. It's family.</p>
+            <p>If you have trusted Jesus, you have more family than you can count. Siblings spanning every nation, every century, every circumstance. The person sitting in a church pew across the world right now is your sibling. The martyrs who died 2,000 years ago are your family. The believers not yet born are your children in the faith.</p>
+            <p>The loneliest Christian has more family than the most popular person in the world without Christ.</p>
+            <p>And the Father who adopted you—He is not distant. He is not unconcerned. He is not waiting for you to get your act together before He notices you. He is closer than your next breath. Hebrews 13:5 promises: "Never will I leave you; never will I forsake you."</p>
+            <p>That's not poetry. That's promise. That's the God who writes the plot of history saying to you, personally, by name: I will never, ever leave you.</p>
+
+            <h2>The Closing: You Are Not Alone</h2>
+            <p>The world's loneliness crisis is not a crisis of too few people. It's a crisis of forgetting God. It's millions of image-bearers, designed for connection with their Creator, trying to be satisfied by lesser things.</p>
+            <p>But if you are in Christ, everything changes. You are not alone. You have never been alone.</p>
+            <p>The God who chose you before the world began has been with you in every empty room, every silent night, every crowded space where no one saw you. He sees you. He chose you. He placed you exactly where you are. And He will never, ever leave you.</p>
+            <p class="accent-quote">That doesn't erase human loneliness. But it reframes it. It gives it meaning. And it offers a cure that no amount of human connection ever could.</p>
+
+            <div class="truth-box" style="background: rgba(139, 92, 246, 0.08); border: 1px solid rgba(139, 92, 246, 0.15); padding: 2rem; margin: 2rem 0; border-radius: 8px;">
+                <h3 style="color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; font-size: 1.3rem;">A Pastoral Word for the Lonely</h3>
+                <p style="margin-bottom: 1rem;">If you're reading this in an empty room, if you feel unseen in a crowded one, if you carry a loneliness that no one around you seems to understand—hear this: God sees you. Not occasionally. Not when you deserve it. He sees you completely, knows you infinitely, and chose you eternally. That's not mystical comfort. That's the theological foundation of your belonging.</p>
+                <p style="margin-bottom: 0;">You are not invisible. You never have been.</p>
+            </div>
+
+            <div class="cta-section">
+                <h3>Explore the Invisible Wall Series</h3>
+                <p>This is just the beginning. Dive deeper into relationships, forgiveness, toxic family systems, marriage, friendship, and what God's sovereignty reveals about belonging.</p>
+                <div class="cta-links">
+                    <a href="/invisible-wall-hub" class="cta-link">Full Series</a>
+                    <a href="/systematic-theology" class="cta-link">Theology</a>
+                    <a href="/devotionals" class="cta-link">Devotionals</a>
+                    <a href="/stories" class="cta-link">Stories</a>
+                </div>
+            </div>
+
+            <div style="max-width: 1000px; margin: 4rem auto; padding: 3rem 2rem;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); margin-bottom: 2rem; text-align: center;">Keep Reading</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2rem; text-align: center; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 0.8rem;">Chosen Before the Foundation of the World</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.5rem;">Deep exegesis of Ephesians 1:3-11. You were not an accident. You were chosen. And that choice was made before time began.</p>
+                        <a href="/question-chosen" style="display: inline-block; padding: 0.7rem 1.4rem; background: rgba(212, 162, 84, 0.15); border: 1px solid rgba(212, 162, 84, 0.3); border-radius: 4px; color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">Read Question</a>
+                    </div>
+                    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2rem; text-align: center; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 0.8rem;">Why We Resist God's Love</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.5rem;">The psychology behind loneliness, shame, and the invisible walls we build between ourselves and others—and the God who breaks them down.</p>
+                        <a href="/psychology-why-we-resist" style="display: inline-block; padding: 0.7rem 1.4rem; background: rgba(212, 162, 84, 0.15); border: 1px solid rgba(212, 162, 84, 0.3); border-radius: 4px; color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">Explore Series</a>
+                    </div>
+                    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 4px; padding: 2rem; text-align: center; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 0.8rem;">In Christ You Are Complete</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.5rem;">A devotional meditation on what it means to be hidden in Christ. When you belong to Him, you lack nothing the world claims you need.</p>
+                        <a href="/devotional-in-christ" style="display: inline-block; padding: 0.7rem 1.4rem; background: rgba(212, 162, 84, 0.15); border: 1px solid rgba(212, 162, 84, 0.3); border-radius: 4px; color: var(--accent-gold); text-decoration: none; font-size: 0.9rem; transition: all 0.3s ease;">Read Devotional</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/systematic-divine-decrees" class="related-article-card">
+        <span class="related-article-cat">🏛 Theology</span>
+        <span class="related-article-title">Before the Foundation of the World — God&#039;s Eternal Decrees</span>
+        <span class="related-article-desc">God</span>
+      </a>
+      <a href="/question-chosen" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">Chosen Before the Foundation of the World – Ephesians 1:3-11</span>
+        <span class="related-article-desc">Ephesians 1:3-11 examined in depth. God chose us in Christ before the creation of the world. Greek...</span>
+      </a>
+      <a href="/start-here-phase5" class="related-article-card">
+        <span class="related-article-cat">🧭 Start Here</span>
+        <span class="related-article-title">Living as an Elect Child of God — Phase 5</span>
+        <span class="related-article-desc">Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, wo...</span>
+      </a>
+      /a>
+      <a href="/apologetic-perseverance" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">Can You Lose Your Salvation?</span>
+        <span class="related-article-desc">Can you lose your salvation? Scripture</span>
+      </a>
+      <a href="/pastoral-assurance" class="related-article-card">
+        <span class="related-article-cat">🤝 Pastoral</span>
+        <span class="related-article-title">Election &amp;amp; Assurance: When Anxiety Attacks Your Faith</span>
+        <span class="related-article-desc">How the doctrines of grace gives deep, unshakeable assurance to Christians struggling with anxiety...</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+</body>
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse All Content — Adopted by Grace</title>
+    <meta name="description" content="Browse all 290+ articles on Reformed theology, election, predestination, Scripture, and God's sovereignty. Search and filter by category, topic, and keywords.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%23d4a254'>✦</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <main>
+        <div class="page-header">
+            <h1>Browse All Content</h1>
+            <p>Search and filter 290+ articles on Scripture, God's sovereignty, election, and redemption.</p>
+            <div class="article-count">
+                <span id="articleCount">228</span> articles
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput2" placeholder="Search by title, description, or keyword..." autocomplete="off">
+            </div>
+
+            <div class="categories-filter" id="categoriesFilter"></div>
+        </div>
+
+        <div class="articles-grid" id="articlesGrid"></div>
+
+        <div id="noResults" class="no-results" style="display: none;">
+            <p>No articles match your filters.</p>
+            <small>Try a different search term or category.</small>
+            <a href="#" class="clear-filters" id="clearFiltersBtn">Clear All Filters</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script src="/global.js" defer></script>
+    <script>
+        let allArticles = [];
+        let filteredArticles = [];
+        let activeCategory = null;
+        let searchTerm = '';
+
+        async function initPage() {
+            try {
+                const response = await fetch('/tags.json');
+                if (!response.ok) throw new Error('Failed to load tags.json');
+
+                const data = await response.json();
+                allArticles = data.pages || [];
+                filteredArticles = [...allArticles];
+
+                renderCategories();
+                renderArticles();
+            } catch (error) {
+                console.error('Error loading articles:', error);
+                document.getElementById('articlesGrid').innerHTML = '<div style="grid-column: 1/-1;"><p style="color: var(--text-secondary);">Error loading articles. Please refresh the page.</p></div>';
+            }
+        }
+
+        function getCategories() {
+            const categories = new Set();
+            allArticles.forEach(article => {
+                if (article.category) {
+                    categories.add(article.category);
+                }
+            });
+            return Array.from(categories).sort();
+        }
+
+        function renderCategories() {
+            const container = document.getElementById('categoriesFilter');
+            const categories = getCategories();
+
+            container.innerHTML = '';
+
+            categories.forEach(category => {
+                const btn = document.createElement('button');
+                btn.className = 'category-btn';
+                btn.textContent = category;
+                btn.addEventListener('click', () => {
+                    activeCategory = activeCategory === category ? null : category;
+                    updateFilter();
+                    updateCategoryButtons();
+                });
+                container.appendChild(btn);
+            });
+        }
+
+        function updateCategoryButtons() {
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent === activeCategory);
+            });
+        }
+
+        function updateFilter() {
+            filteredArticles = allArticles.filter(article => {
+                const matchesCategory = !activeCategory || article.category === activeCategory;
+                const matchesSearch = !searchTerm ||
+                    article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                    article.desc.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                    (article.tags && article.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase())));
+
+                return matchesCategory && matchesSearch;
+            });
+
+            updateArticleCount();
+            renderArticles();
+        }
+
+        function updateArticleCount() {
+            const count = filteredArticles.length;
+            document.getElementById('articleCount').textContent = count;
+        }
+
+        function renderArticles() {
+            const container = document.getElementById('articlesGrid');
+            const noResults = document.getElementById('noResults');
+
+            if (filteredArticles.length === 0) {
+                container.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            container.style.display = 'grid';
+            noResults.style.display = 'none';
+            container.innerHTML = '';
+
+            filteredArticles.forEach(article => {
+                const card = document.createElement('div');
+                card.className = 'article-card';
+
+                const tagsHtml = (article.tags && article.tags.length > 0)
+                    ? `<div class="article-tags">${article.tags.slice(0, 3).map(tag => `<span class="article-tag">${tag}</span>`).join('')}</div>`
+                    : '';
+
+                card.innerHTML = `
+                    <a href="${article.url}">
+                        <span class="article-category">${article.category}</span>
+                        <h3 class="article-title">${article.title}</h3>
+                        <p class="article-desc">${article.desc}</p>
+                        ${tagsHtml}
+                    </a>
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        document.getElementById('searchInput2').addEventListener('input', (e) => {
+            searchTerm = e.target.value;
+            updateFilter();
+        });
+
+        document.getElementById('clearFiltersBtn').addEventListener('click', (e) => {
+            e.preventDefault();
+            activeCategory = null;
+            searchTerm = '';
+            document.getElementById('searchInput2').value = '';
+            updateCategoryButtons();
+            updateFilter();
+        });
+
+        initPage();
+    </script>
+</body>
+</html>

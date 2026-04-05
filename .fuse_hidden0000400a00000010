@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Is free will real? What the Bible actually teaches about human choice. Explore why spiritual death, not autonomy, is what Scripture says about our condition.">
+    <meta property="og:title" content="Is Free Will Real? What Scripture Teaches About Human Choice">
+    <meta property="og:description" content="Is free will real? What the Bible actually teaches about human choice. Explore why spiritual death, not autonomy, is what Scripture says about our condition.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/question-freewill.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/question-freewill.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Is Free Will Real? What Scripture Teaches About Human Choice">
+    <meta name="twitter:description" content="Is free will real? What the Bible actually teaches about human choice. Explore spiritual death and human agency.">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>Is Free Will Real? What Scripture Teaches</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+        <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Free Will: The Truth the Bible Never Actually Teaches – Ephesians 2:1-5, Romans 8:7-8",
+        "description": "The Bible never teaches autonomous free will. What it describes is spiritual death, binding sin, and regeneration that precedes faith.",
+        "url": "https://adoptedbygrace.net/question-freewill.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://adoptedbygrace.net/question-freewill.html"
+        }
+    }
+    </script>
+    
+            <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <!-- Navigation -->
+                <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <div class="breadcrumb-nav"><a href="questions.html">&larr; Back to The Evidence</a></div>
+
+    <!-- Hero -->
+    <section id="main-content" class="page-hero">
+        <a href="questions.html" class="back-link">← Back to The Evidence</a>
+        <div class="eyebrow">Spiritual Death and Regeneration · Ephesians 2:1-5, Romans 8:7-8</div>
+        <h1>Free Will: The Truth the Bible Never Actually Teaches</h1>
+        <p class="subtitle">Why the language of spiritual death makes libertarian free will impossible, and how regeneration—not persuasion—is the only adequate explanation for conversion.</p>
+    </section>
+
+    <!-- Section Navigation -->
+    <div class="section-nav">
+        <div class="section-nav-container">
+            <a href="#the-text" class="section-link active">The Text</a>
+            <a href="#greek-dive" class="section-link">Greek Deep Dive</a>
+            <a href="#arguments" class="section-link">The Arguments</a>
+            <a href="#objections" class="section-link">Objections Answered</a>
+            <a href="#verdict" class="section-link">The Verdict</a>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <!-- Section 1: The Text -->
+        <section id="the-text" class="section">
+            <h2>The Text</h2>
+            <p>
+                The truth about "free will"—that humans possess libertarian agency to choose or reject salvation—is presented as biblical common sense. Yet the Bible itself refuses to use this language. Instead, it uses the language of death.
+            </p>
+
+            <div class="pull-quote">
+                Here is the secret that changes everything: If your decision was the deciding factor in your salvation, then you earned it. And what you earn is a debt, not a gift.
+            </div>
+
+            <p>
+                Ephesians 2:1-5 describes humanity outside of Christ using one word: dead. Not sick. Not weakened. Not biased. Dead. Dead people do not make choices. They do not choose. They cannot choose. Dead requires resurrection.
+            </p>
+
+            <div class="pull-quote">
+                "Dead people do not make choices. They do not choose. They cannot choose. Dead requires resurrection."
+            </div>
+
+            <div class="scripture-block">
+                And you were dead in your trespasses and sins, in which you once walked, following the course of this world, following the prince of the power of the air, the spirit that is now at work in the sons of disobedience—among whom we too all once lived in the passions of our flesh, carrying out the desires of the body and the mind, and were by nature children of wrath, like the rest of mankind. But God, being rich in mercy, because of the great love with which he loved us, even when we were dead in our trespasses, made us alive together with Christ—by grace you have been saved.
+                <br><br>
+                — Ephesians 2:1-5 (ESV)
+            </div>
+
+            <p>
+                And Romans 8:7-8 applies the same logic to the unregenerate mind:
+            </p>
+
+            <div class="scripture-block">
+                For the mind that is set on the flesh is hostile to God, for it does not submit to God's law; indeed, it cannot. Those who are in the flesh cannot please God.
+                <br><br>
+                — Romans 8:7-8 (ESV)
+            </div>
+
+            <p>
+                Notice the distinction: the unregenerate mind "does not submit" (present tense describing behavior) and "cannot submit" (describing fundamental inability). The first describes what they do. The second describes what they are. Constitutional incapacity. Not behavioral reluctance.
+            </p>
+
+            <p>
+                If the unregenerate mind cannot submit, then what must happen for salvation? <a href="/question-newheart.html">God must give a new heart first</a>—one that is alive and capable of responding to Him.
+            </p>
+        </section>
+
+        <!-- Section 2: Greek Deep Dive -->
+        <section id="greek-dive" class="section">
+            <h2>Greek Deep Dive</h2>
+            <p>
+                The Greek of Ephesians 2 and Romans 8 is precise about the state of the spiritually dead. Two concepts dominate: nekrosis (death) and the capacity distinction in Romans 8. (Remarkably, those who insist the dead can choose God are willing to redefine "dead" to mean "alive-but-reluctant," which is rather like saying a rock has free will to become a bird. More on <a href="/psychology-why-we-resist">why we resist this truth</a> later.)
+            </p>
+
+            <div class="greek-grid">
+                <div class="greek-box">
+                    <div class="greek-word">νεκρός (nekros)</div>
+                    <div class="greek-translation">"Dead, lifeless"</div>
+                    <div class="greek-explanation">Ephesians 2:1: "You were dead in your trespasses." Nekros is not metaphorical soft language. It means literally dead. The dead do not act, choose, or respond. A corpse in a grave cannot make decisions. When Paul applies this to the spiritually dead, he chooses the most absolute image of incapacity available.</div>
+                </div>
+
+                <div class="greek-box">
+                    <div class="greek-word">συνεζοοποίησεν (sunezoopoiesen)</div>
+                    <div class="greek-translation">"Made alive together, vivified together"</div>
+                    <div class="greek-explanation">Ephesians 2:5: "made us alive together with Christ." The prefix sun- means together with. God made us alive together. This is not a human decision. This is resurrection. This is divine work applied to the dead. The dead do not make themselves alive. God makes them alive.</div>
+                </div>
+
+                <div class="greek-box">
+                    <div class="greek-word">οὐ ὑποτάσσεται καὶ οὐδὲ δύναται (ou hupotassetai kai oude dynatai)</div>
+                    <div class="greek-translation">"Does not submit AND cannot submit"</div>
+                    <div class="greek-explanation">Romans 8:7-8 uses two Greek constructions: "does not submit" (present indicative describing behavior) and "cannot" (negative of dynamai, lacking the ability/power). The distinction is crucial. Present behavior and present capacity are not the same. The unbeliever's refusal is not mere volitional reluctance. It is inability. Constitutional incapacity.</div>
+                </div>
+
+                <div class="greek-box">
+                    <div class="greek-word">ἐν σαρκί (en sarki)</div>
+                    <div class="greek-translation">"In the flesh, in the natural state"</div>
+                    <div class="greek-explanation">Romans 8:8: "Those who are in the flesh cannot please God." Being "in the flesh" is a state of being, not merely a choice. It is not "people who choose fleshly desires." It is "people in the flesh." The state determines the capacity. The flesh-state cannot please God. Only those "in the Spirit" can.</div>
+                </div>
+            </div>
+
+            <p>
+                The cumulative force unmistakable. Death is absolute. Resurrection is divine work. Capacity is determined by state. The unregenerate cannot do otherwise because they are dead and in the flesh, not merely because they are unwilling.
+            </p>
+
+            <div class="did-you-know">
+                <strong>Did you know?</strong> The Greek word nekros (dead) in Ephesians 2:1 is the exact same word used for Lazarus in his tomb. When Jesus commanded Lazarus to come forth, He didn't ask a living person to make a choice—He commanded a dead man to live. That's regeneration.
+            </div>
+
+            <p>
+                This is exactly the image Jesus demonstrated at the tomb of Lazarus—<a href="/analogy-lazarus-grave.html">a dead man commanded to live, and living because the command carried the power to accomplish itself</a>. When the unregenerate person is described as "dead," Paul is drawing on the same absolute language of incapacity.
+            </p>
+        </section>
+
+        <!-- Section 3: The Arguments -->
+        <section id="arguments" class="section">
+            <h2>The Arguments</h2>
+            <p>
+                The case against "free will" (in the libertarian sense) and for regeneration-first does not rest on inference. It rests on what the text explicitly states about spiritual death, capacity, and divine action.
+            </p>
+
+            <div class="argument-item">
+                <div class="argument-number">Argument 1</div>
+                <div class="argument-title">Dead Is Not a Metaphor You Can Soften</div>
+                <div class="argument-text">
+                    Paul chose the word nekros (dead) deliberately. He could have chosen weaker language: "sick," "weakened," "inclined toward sin," "in need of help." Instead, he chose the most absolute image of incapacity. Dead. A corpse does not make decisions. It does not exercise choice. It lies inert. When Paul applies this to the spiritually dead, he is teaching an absolute incapacity, not relative weakness. The language cannot be softened without changing the text.
+                </div>
+            </div>
+
+            <div class="argument-item">
+                <div class="argument-number">Argument 2</div>
+                <div class="argument-title">"Does Not" vs "Cannot"—Behavior vs Constitutional Capacity</div>
+                <div class="argument-text">
+                    Romans 8:7-8 uses two different Greek forms. The mind set on the flesh "does not submit"—present tense, describing present behavior. But it "cannot" submit—describing fundamental inability. The distinction shows Paul is not merely describing a current refusal. He is describing the nature of the flesh. The flesh-state cannot please God. This is not about will. This is about what the flesh is capable of. Constitutional incapacity. The unregenerate person cannot believe because the state they are in does not have the capacity for believing.
+                </div>
+            </div>
+
+            <div class="argument-item">
+                <div class="argument-number">Argument 3</div>
+                <div class="argument-title">"But God"—The Two Most Consequential Words in Scripture</div>
+                <div class="argument-text">
+                    Ephesians 2:4-5: "But God, being rich in mercy...made us alive together with Christ." The conjunction "but" introduces a causal reversal. We were dead. We could not make ourselves alive. But God acted. God made us alive. The subject of the saving action is entirely God. The timing is "when we were dead"—when we could not possibly cooperate. The action is resurrection, not persuasion. God does the work. The dead receive the gift.
+
+                    This pattern repeats throughout Scripture. <a href="/question-john6">In John 6, Jesus asks who can come to Him. The answer: "No one can come to me unless the Father who sent me draws them."</a> Not "invites." Draws. And <a href="/question-romans9">Romans 9 applies this logic systematically</a>, showing that what matters is not the one who wills or runs, but God who has mercy.
+                </div>
+            </div>
+
+            <div class="argument-item">
+                <div class="argument-number">Argument 4</div>
+                <div class="argument-title">Ezekiel 36:26-27 and the Four Sovereign Verbs</div>
+                <div class="argument-text">
+                    Paul is drawing on Ezekiel 36:26-27: "I will give you a new heart, and a new spirit I will put within you...And I will cause you to walk in my statutes and be careful to obey my rules." Count the divine verbs: (1) I will give, (2) I will put, (3) I will cause, (4) implied—I will make you obey. These are four sovereign divine actions. Zero contingencies. Zero appeals to human cooperation. This is not persuasion. This is creation—the creation of a new heart that freely obeys. Salvation is regeneration followed by belief, not belief leading to regeneration.
+                </div>
+            </div>
+
+            <div class="evidence-box">
+                <div class="evidence-title">Evidence Chain Summary</div>
+                <ul class="evidence-list">
+                    <li>The spiritually dead are described as dead—the most absolute image of incapacity Paul could choose.</li>
+                    <li>Resurrection is God's work—not something dead people can contribute to or choose.</li>
+                    <li>The timing is "when we were dead"—conversion happens when the subject is incapacitated, requiring divine action alone.</li>
+                    <li>Romans 8:7-8 distinguishes behavioral refusal from constitutional inability—the flesh-state cannot please God.</li>
+                    <li>Ezekiel 36:26-27 describes regeneration as sovereign divine work—four verbs, all divine, zero contingencies.</li>
+                    <li>The pattern throughout Scripture: regeneration precedes faith, not the reverse.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 4: Objections Answered -->
+        <section id="objections" class="section">
+            <h2>Objections Answered</h2>
+
+            <div class="objection-container">
+                <div class="objection-header">Dead is metaphorical—Paul uses it to describe a spiritual state, not literal inability.</div>
+                <div class="objection-body">
+                    All language about spiritual matters is metaphorical. Paul is using "dead" as an analogy for separation from God, not to teach literal inability to choose.
+                </div>
+                <div class="answer-header">Metaphors are chosen for their force—Paul could have used weaker language but chose the strongest available.</div>
+                <div class="answer-body">
+                    All spiritual language uses earthly analogies. But not all analogies are created equal. Paul could have written "sick," "weak," "inclined toward evil," "hostile to God." Instead, he chose "dead." Metaphors are chosen precisely because they convey a particular force. If Paul meant "people who are reluctant to obey" or "people who prefer sin," he would have said so. He said dead. The metaphor works because it conveys absolute incapacity, not merely reluctance. (And remarkably, <a href="/secular-neuroscience-human-inability">neuroscience now confirms what Scripture knew first: the human brain is far less the master of its choices than we imagine</a>.)
+                </div>
+            </div>
+
+            <div class="objection-container">
+                <div class="objection-header">Prevenient grace restores ability—God gives everyone the capacity to choose salvation.</div>
+                <div class="objection-body">
+                    Maybe God's grace precedes our coming to faith, restoring the ability we lacked due to sin. This preserves human will while acknowledging human inability.
+                </div>
+                <div class="answer-header">There is zero exegetical foundation for prevenient grace—it is a theological inference with no textual support.</div>
+                <div class="answer-body">
+                    Prevenient grace is not taught anywhere in Scripture. It is a theological idea imported to solve the problem of reconciling sovereignty and will. But it has no textual foundation. Paul does not say "God gave everyone enough grace to choose." He says God made the dead alive. The dead do not choose to come alive. God causes life. The text does not teach that God's grace is a universal gift that restores ability to everyone. It teaches that God's grace is the power of resurrection applied to the spiritually dead.
+                </div>
+            </div>
+
+            <div class="objection-container">
+                <div class="objection-header">God's sovereignty works through freedom—God makes people with the power to freely choose Him.</div>
+                <div class="objection-body">
+                    Maybe the texts describe not coercion but re-creation. God gives a new nature that freely and willingly believes. That preserves both divine sovereignty and human freedom.
+                </div>
+                <div class="answer-header">This is actually correct—regeneration gives a new nature. But it's not what the objection claims.</div>
+                <div class="answer-body">
+                    God creates a new nature that freely believes. True. But the key word is "creates." You do not create something by offering it a choice. You create by sovereign action. Ephesians 2:5 says God "made us alive." Ezekiel 36:26-27 says "I will give...I will put...I will cause." These describe divine creation, not human choice. The new nature is the work of God. The belief that flows from the new nature is also ultimately from God, though experienced as a free act by the redeemed person. There is no tension. Freedom and sovereignty work together—not by God offering choice and hoping for the best, but by God creating a new person who freely loves Him.
+                </div>
+            </div>
+
+            <div class="objection-container">
+                <div class="objection-header">This makes evangelism pointless—if the dead cannot believe, why preach?</div>
+                <div class="objection-body">
+                    If people cannot believe without regeneration, and God alone grants regeneration, then preaching to the unregenerate is futile.
+                </div>
+                <div class="answer-header">2 Thessalonians 2:13-14 shows God chose THROUGH belief THROUGH the gospel—means and decree work together.</div>
+                <div class="answer-body">
+                    God ordains both ends and means. In 2 Thessalonians 2:13-14, Paul writes: "God chose you from the beginning for salvation through sanctification by the Spirit and belief in the truth...to which he called you through our gospel." Notice the order: God chose through belief through the gospel. The gospel is the means by which the Spirit works. God does not say "I will save people without preaching." God says "I will save people through preaching." The dead do not come alive without the gospel. The gospel is the power of God unto salvation. God uses the proclamation of the gospel to accomplish the regeneration He ordains. Evangelism is not a backup plan. It is the means God designed.
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: The Verdict -->
+        <section id="verdict" class="section">
+            <h2>The Verdict</h2>
+
+            <div class="verdict-box">
+                <div class="verdict-quote">
+                    "And you were dead in your trespasses and sins...But God, being rich in mercy, because of the great love with which he loved us, even when we were dead in our trespasses, made us alive together with Christ—by grace you have been saved."
+                </div>
+                <div class="verdict-attribution">Ephesians 2:1-5 (ESV)</div>
+            </div>
+
+            <p>
+                The Bible does not teach "free will" in the libertarian sense. It teaches death. It teaches inability. It teaches resurrection. Free will—the power of the dead to choose their own resurrection—is not a biblical truth. It is a theological assumption that contradicts what the text explicitly states.
+            </p>
+
+            <p>
+                When Paul describes the spiritually dead, he is not describing people who are reluctant to believe but capable of doing so. He is describing people who cannot believe because they are dead. The unregenerate person does not need more information. They do not need a more compelling argument. They need to be made alive. Regeneration, not persuasion, is the operative category.
+            </p>
+
+            <p>
+                And this is precisely why God's grace is so magnificent. It is not grace that offers a gift and hopes you'll accept it. It is grace that makes the dead alive. It is grace that creates a new heart. It is grace that causes obedience. When Ephesians 2:5 says God "made us alive together with Christ," it is not describing a choice we made in response to an offer. It is describing resurrection. Dead people do not cooperate in their own resurrection. They receive it.
+            </p>
+
+            <p>
+                The truth about free will, properly understood, is not the freedom to choose salvation. It is the freedom that comes from salvation—the freedom of a new nature that loves God and freely obeys. That freedom is created by God. It is not something we possessed before conversion. It is something God gives us through the regeneration He accomplishes.
+            </p>
+
+            <p>
+                This is hard to accept. Your instinct will be to resist it, to feel that this truth diminishes your significance or removes your agency. <a href="/psychology-why-we-resist">That resistance itself is revealing—and it's the very reason the elect feel such conflict until grace finally breaks through</a>. But when it does, when you finally rest in the truth that God chose you, made you alive, and created the very faith by which you believe, that's when you discover what true freedom actually is.
+            </p>
+        </section>
+<!-- Rabbit Hole Navigation -->
+    <section class="section" style="border-top: 1px solid rgba(212, 162, 84, 0.15); padding-top: 3rem; margin-top: 3rem;">
+        <h3 style="font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--accent-gold); margin-bottom: 1.5rem;">Go Deeper</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+            <a href="/question-irresistible.html" style="padding: 1.5rem; background: rgba(212, 162, 84, 0.05); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 8px; text-decoration: none; transition: all 0.3s ease; display: flex; flex-direction: column; gap: 0.5rem;">
+                <span style="color: var(--accent-gold); font-size: 0.75rem; text-transform: uppercase; font-weight: 600;">Next Concept</span>
+                <span style="color: var(--text-primary); font-weight: 600;">Irresistible Grace</span>
+                <span style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5;">When God Draws, Nothing Can Resist</span>
+            </a>
+            <a href="/devotional-my-chains-fell-away.html" style="padding: 1.5rem; background: rgba(139, 92, 246, 0.05); border: 1px solid rgba(139, 92, 246, 0.2); border-radius: 8px; text-decoration: none; transition: all 0.3s ease; display: flex; flex-direction: column; gap: 0.5rem;">
+                <span style="color: var(--accent-violet); font-size: 0.75rem; text-transform: uppercase; font-weight: 600;">Meditate</span>
+                <span style="color: var(--text-primary); font-weight: 600;">The Dead Who Live</span>
+                <span style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5;">A Devotional on Resurrection</span>
+            </a>
+            <a href="/psychology-why-we-resist.html" style="padding: 1.5rem; background: rgba(232, 100, 44, 0.05); border: 1px solid rgba(232, 100, 44, 0.2); border-radius: 8px; text-decoration: none; transition: all 0.3s ease; display: flex; flex-direction: column; gap: 0.5rem;">
+                <span style="color: var(--accent-ember); font-size: 0.75rem; text-transform: uppercase; font-weight: 600;">Psychology</span>
+                <span style="color: var(--text-primary); font-weight: 600;">Why We Resist</span>
+                <span style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5;">The Psychology of Rejecting God's Sovereignty</span>
+            </a>
+        </div>
+    </section>
+
+    </div>
+
+    <!-- Next Article -->
+    <div class="next-article">
+        <p>Next: <a href="question-newheart.html">The New Heart You Didn't Ask For – Ezekiel 36:26-27</a></p>
+    </div>
+
+    <!-- Footer -->
+    <div class="related-explore">
+        <h3>Continue Exploring</h3>
+        <div class="related-explore-grid">
+                <a href="question-depravity.html">Total Depravity</a>
+                <a href="systematic-compatibilism.html">Compatibilism</a>
+                <a href="question-newheart.html">Ezekiel 36:26 — A New Heart</a>
+                <a href="objection-author-of-sin.html">Does Predestination Make God the Author of Sin?</a>
+                <a href="psychology-why-we-resist.html">Why We Resist: The Psychology of Rejecting Sovereignty</a>
+                <a href="psychology-hub.html">Psychology of Resistance Series</a>
+        </div>
+    </div>
+
+        <!-- Cross-Reference Section -->
+        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                    <a href="/question-depravity.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Total Depravity</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Why sinners cannot save themselves and must be rescued by God.</p>
+                    </a>
+                    <a href="/systematic-compatibilism.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Compatibilism</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How God's sovereignty and human responsibility are perfectly compatible.</p>
+                    </a>
+                    <a href="/secular-philosophy-free-will.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Free Will in Philosophy</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">What secular thinkers say about freedom and determinism.</p>
+                    </a>
+                    <a href="/question-john6.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Divine Call</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">How God sovereignly draws His chosen people to Himself.</p>
+                    </a>
+                    <a href="/theologian-edwards.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Jonathan Edwards</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The philosopher who made Calvinism intellectually irresistible.</p>
+                    </a>
+                    <a href="/objection-author-of-sin.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Is God the Author of Sin?</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Addressing the charge that sovereignty makes God responsible for evil.</p>
+                    </a>
+                    <a href="/psychology-autonomy-illusion" style="display: block; padding: 1.2rem 1.5rem; background: rgba(139,92,246,0.05); border: 1px solid rgba(139,92,246,0.2); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #8b5cf6; margin-bottom: 0.4rem;">The Autonomy Illusion</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Neuroscience reveals why "free will" feels so real — and what Scripture knew first.</p>
+                    </a>
+                    <a href="/story-the-fish-who-chose-the-ocean.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Fish Who Chose the Ocean</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A parable that turns free will upside down through a simple swimming parable.</p>
+                    </a>
+                    <a href="/analogy-light-switch.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Light Switch Analogy</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A simple illustration of how determinism doesn't eliminate our choices.</p>
+                    </a>
+                    <a href="/secular-neuroscience-human-inability.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Neuroscience: The Limits of Human Choice</h4>
+                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">What secular brain science tells us about decision-making and autonomy.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/analogy-lazarus-grave" class="related-article-card">
+        <span class="related-article-cat">💡 Analogies</span>
+        <span class="related-article-title">Did Lazarus Choose to Rise? God&#039;s Sovereign Calling Explained</span>
+        <span class="related-article-desc">Does God force salvation or respect free will? John 11 shows how effectual calling works through Laz...</span>
+      </a>
+      <a href="/systematic-regeneration" class="related-article-card">
+        <span class="related-article-cat">🏛 Theology</span>
+        <span class="related-article-title">Regeneration — Born Again by the Power of God</span>
+        <span class="related-article-desc">Systematic Theology: Regeneration (The New Birth). Scripture teaches that God causes us to be born a...</span>
+      </a>
+      <a href="/demolition-steel-man-arminianism" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">Steel Man: Arminianism at Its Absolute Best</span>
+        <span class="related-article-desc">We present Arminianism using its strongest scholars and best arguments—then show why Scripture point...</span>
+      </a>
+      <a href="/compare-calvinism-arminianism" class="related-article-card">
+        <span class="related-article-cat">⚖ Comparisons</span>
+        <span class="related-article-title">Calvinism vs Arminianism: A Biblical Comparison</span>
+        <span class="related-article-desc">A comprehensive, point-by-point biblical comparison of Calvinism and Arminianism across all five poi...</span>
+      </a>
+      <a href="/objection-why-believe" class="related-article-card">
+        <span class="related-article-cat">🛡 Objections Answered</span>
+        <span class="related-article-title">If God Already Chose Us, Why Do We Have to Believe?</span>
+        <span class="related-article-desc">A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. ...</span>
+      </a>
+      <a href="/debate-free-will" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">The Great Debate: Does Man Have Free Will?</span>
+        <span class="related-article-desc">A rigorous formal debate: Does man have free will? Two positions argue their strongest cases—liberta...</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
+                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+        // Set active nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.getAttribute('href') === 'questions.html') {
+                link.classList.add('active');
+            }
+        });
+
+        // Scroll-spy for section navigation
+        const sectionLinks = document.querySelectorAll('.section-link');
+        const sections = document.querySelectorAll('.section');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '-30% 0px -70% 0px',
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    sectionLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => observer.observe(section));
+    </script>
+
+<script>
+(function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
+</script>
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

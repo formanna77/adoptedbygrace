@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover where you stand theologically on salvation. A thoughtful self-assessment exploring God's sovereignty, election, redemption, calling, and preservation.">
+    <meta name="theme-color" content="#0a0a0f">
+    <title>Belief Self-Assessment — Where Do You Stand on Salvation? | Adopted by Grace</title>
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adoptedbygrace.net/belief-assessment">
+    <meta property="og:title" content="Belief Self-Assessment | Adopted by Grace">
+    <meta property="og:description" content="Discover where you stand theologically on salvation. A thoughtful self-assessment exploring God's sovereignty, election, redemption, calling, and preservation.">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:site_name" content="Adopted by Grace">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://adoptedbygrace.net/belief-assessment">
+
+    <!-- Stylesheets -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+/* Assessment-specific interactive styles */
+        .assessment-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+.assessment-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+.assessment-header 
+.assessment-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+.assessment-disclaimer {
+            background: rgba(139, 92, 246, 0.08);
+            border-left: 4px solid var(--accent-violet);
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+/* Progress bar */
+        .progress-bar-container {
+            margin-bottom: 2rem;
+        }
+.progress-bar {
+            height: 4px;
+            background: var(--bg-card);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+        }
+.progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
+            transition: width 0.4s ease;
+        }
+.progress-text {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: right;
+        }
+/* Question container */
+        .question-container {
+            display: none;
+        }
+.question-container.active {
+            display: block;
+            animation: slideIn 0.3s ease;
+        }
+@keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+.question-number {
+            font-size: 0.9rem;
+            color: var(--accent-gold);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+.question-text {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+.question-category {
+            display: inline-block;
+            background: rgba(212, 162, 84, 0.1);
+            color: var(--accent-gold);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+        }
+/* Answer options */
+        .answer-options {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+.answer-option {
+            position: relative;
+            cursor: pointer;
+        }
+.answer-option input[type="radio"] {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+.answer-label {
+            display: block;
+            padding: 1.25rem;
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            background: var(--bg-card);
+            transition: all 0.2s ease;
+            cursor: pointer;
+            position: relative;
+            padding-left: 2.5rem;
+        }
+.answer-label::before {
+            content: '';
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 18px;
+            border: 2px solid var(--text-muted);
+            border-radius: 50%;
+            transition: all 0.2s ease;
+        }
+.answer-option input[type="radio"]:checked + .answer-label {
+            border-color: var(--accent-gold);
+            background: rgba(212, 162, 84, 0.08);
+            box-shadow: 0 0 12px rgba(212, 162, 84, 0.15);
+        }
+.answer-option input[type="radio"]:checked + .answer-label::before {
+            border-color: var(--accent-gold);
+            background: var(--accent-gold);
+        }
+.answer-label:hover {
+            border-color: var(--accent-gold);
+            background: rgba(212, 162, 84, 0.04);
+        }
+.answer-letter {
+            font-weight: 600;
+            color: var(--accent-gold);
+            display: block;
+            margin-bottom: 0.25rem;
+            font-size: 0.9rem;
+        }
+.answer-text {
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+.btn-submit {
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            color: var(--bg-deep);
+            border: none;
+            font-weight: 600;
+            flex: 2;
+        }
+.btn-submit:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(232, 100, 44, 0.3);
+        }
+/* Results section */
+        .results-container {
+            display: none;
+        }
+.results-container.active {
+            display: block;
+            animation: slideIn 0.3s ease;
+        }
+.results-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+.results-title {
+            font-size: 2rem;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+.results-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+/* Radar chart container */
+        .chart-container {
+            margin: 2rem 0;
+            text-align: center;
+        }
+.radar-canvas {
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+/* Theological profile */
+        .profile-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+        }
+.profile-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+.profile-description {
+            color: var(--text-primary);
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+/* Truth breakdown */
+        .truth-breakdown {
+            margin-bottom: 2rem;
+        }
+.truth-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+        }
+.truth-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--accent-gold);
+            margin-bottom: 0.75rem;
+        }
+.truth-position {
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+.truth-scripture {
+            background: rgba(139, 92, 246, 0.08);
+            padding: 0.75rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            border-left: 3px solid var(--accent-violet);
+        }
+.truth-scripture-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+        }
+.truth-scripture-text {
+            color: var(--text-primary);
+            font-style: italic;
+            line-height: 1.6;
+        }
+.truth-link {
+            display: inline-block;
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--accent-gold);
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+.truth-link:hover {
+            background: rgba(212, 162, 84, 0.1);
+        }
+/* Reading path */
+        .reading-path {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+        }
+.reading-path-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+        }
+.reading-path-items {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+.path-item {
+            padding: 1rem;
+            background: var(--bg-deep);
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+.path-item-number {
+            min-width: 2.5rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--bg-deep);
+            font-weight: 600;
+        }
+.path-item-content {
+            flex: 1;
+        }
+.path-item-link {
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-weight: 500;
+        }
+.path-item-link:hover {
+            text-decoration: underline;
+        }
+.path-item-description {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
+        }
+/* Share results */
+        .share-container {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+.btn-share {
+            padding: 0.875rem 2rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+.btn-share:hover {
+            border-color: var(--accent-gold);
+            background: rgba(212, 162, 84, 0.08);
+        }
+.share-feedback {
+            display: none;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: rgba(139, 92, 246, 0.08);
+            border-radius: 6px;
+            color: var(--accent-violet);
+        }
+.share-feedback.show {
+            display: block;
+        }
+/* Journey section */
+        .continue-journey {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-top: 3rem;
+        }
+.journey-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+        }
+.journey-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+.journey-link {
+            padding: 1rem;
+            background: var(--bg-deep);
+            border: 1px solid var(--border-subtle);
+            border-radius: 6px;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: all 0.2s ease;
+            text-align: center;
+            font-weight: 500;
+        }
+.journey-link:hover {
+            border-color: var(--accent-gold);
+            background: rgba(212, 162, 84, 0.04);
+        }
+/* Responsive */
+        @media (max-width: 640px) {
+            .assessment-container {
+                padding: 2rem 1rem;
+            }
+
+            .assessment-header 
+
+            .question-text {
+                font-size: 1.1rem;
+            }
+
+            .results-title {
+                font-size: 1.5rem;
+            }
+
+            .journey-links {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <!-- Navigation -->
+        <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content" class="assessment-container">
+        <!-- Assessment Section -->
+        <section id="assessment-section">
+            <div class="assessment-header">
+                <h1>Where Do You Stand?</h1>
+                <p class="assessment-subtitle">A Belief Self-Assessment on Salvation</p>
+                <div class="assessment-disclaimer">
+                    <strong>No judgment here.</strong> This assessment is designed to help you reflect on what you currently believe about salvation. There are no "wrong" answers—only opportunities to dig deeper into God's Word. And don't worry: your results were determined before the creation of the world. 😊
+                </div>
+            </div>
+
+            <div class="progress-bar-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <div class="progress-text"><span id="current-question">1</span> of <span id="total-questions">15</span></div>
+            </div>
+
+            <!-- Question Containers -->
+            <div id="questions-container"></div>
+
+            <!-- Navigation -->
+            <div class="assessment-nav">
+                <button class="btn-nav" id="btn-prev" disabled>← Previous</button>
+                <button class="btn-nav btn-submit" id="btn-next">Next →</button>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results-section" class="results-container">
+            <div class="results-header">
+                <h2 class="results-title">Your Theological Profile</h2>
+                <p class="results-subtitle">What Scripture Reveals About Your Journey</p>
+            </div>
+
+            <!-- Radar Chart -->
+            <div class="chart-container">
+                <canvas id="radarChart" class="radar-canvas" width="400" height="400"></canvas>
+            </div>
+
+            <!-- Profile Card -->
+            <div class="profile-card">
+                <div class="profile-title">Your Position</div>
+                <div class="profile-description" id="profile-text"></div>
+            </div>
+
+            <!-- Truth Breakdown -->
+            <div class="truth-breakdown" id="truth-breakdown"></div>
+
+            <!-- Reading Path -->
+            <div class="reading-path">
+                <div class="reading-path-title">Your Recommended Reading Path</div>
+                <div class="reading-path-items" id="reading-path-items"></div>
+            </div>
+
+            <!-- Share Results -->
+            <div class="share-container">
+                <button class="btn-share" id="btn-share">Share Your Results</button>
+                <div class="share-feedback" id="share-feedback">Copied to clipboard! Feel free to share your theological exploration with others.</div>
+            </div>
+
+            <!-- Continue Journey -->
+            <div class="continue-journey">
+                <div class="journey-title">Continue Your Journey</div>
+                <div class="journey-links">
+                    <a href="/start-here" class="journey-link">Start Here</a>
+                    <a href="/questions" class="journey-link">The Evidence</a>
+                    <a href="/scripture-tsunami" class="journey-link">Scripture Tsunami</a>
+                    <a href="/systematic-theology" class="journey-link">Systematic Theology</a>
+                    <a href="/devotionals" class="journey-link">Devotionals</a>
+                </div>
+            </div>
+
+            <!-- Back to Assessment -->
+            <div class="share-container" style="margin-top: 2rem;">
+                <button class="btn-nav" id="btn-retake">Retake Assessment</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section"><h4>Truth</h4><ul>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li><a href="/systematic-theology">Systematic Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Explore</h4><ul>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Connect</h4><ul>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+            </ul></div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
+    </footer>
+
+    <!-- Assessment Logic -->
+    <script>
+        // Assessment Questions Data
+        const questions = [
+            // Category 1: The Nature of Humanity (Total Inability)
+            {
+                category: "The Nature of Humanity",
+                question: "When it comes to our ability to respond to the gospel, which statement best reflects your view?",
+                categoryId: "humanity",
+                options: [
+                    {
+                        letter: "A",
+                        text: "Humans have a free will to accept or reject the gospel. Our natural ability to choose is intact; we just need the right information and invitation."
+                    },
+                    {
+                        letter: "B",
+                        text: "Humans have spiritual blindness but can still cooperate with God's general grace to some degree. We need divine assistance, but our choice matters significantly."
+                    },
+                    {
+                        letter: "C",
+                        text: "Humans are spiritually dead and cannot believe unless God first gives us the desire and ability. We're passive in our new birth."
+                    },
+                    {
+                        letter: "D",
+                        text: "Humans are completely dead in sin—unable to even want salvation until God regenerates us. We have no role in being born again; God does it all."
+                    }
+                ]
+            },
+            {
+                category: "The Nature of Humanity",
+                question: "When you read Romans 3:10-12 ('There is no one righteous...no one who seeks God'), how do you interpret it?",
+                categoryId: "humanity",
+                options: [
+                    {
+                        letter: "A",
+                        text: "Paul is describing a cultural tendency, not a universal inability. Many people do seek God when given the opportunity."
+                    },
+                    {
+                        letter: "B",
+                        text: "Paul describes humanity's condition, but those who hear the gospel can overcome this through their own decision to believe."
+                    },
+                    {
+                        letter: "C",
+                        text: "Paul describes total depravity, but God's grace is available to all and empowers everyone to respond if they choose."
+                    },
+                    {
+                        letter: "D",
+                        text: "Paul teaches that without God's work in us first, we cannot and will not seek Him. This describes the human condition perfectly."
+                    }
+                ]
+            },
+            {
+                category: "The Nature of Humanity",
+                question: "Do you believe humans have libertarian free will (the ability to have chosen differently given identical circumstances)?",
+                categoryId: "humanity",
+                options: [
+                    {
+                        letter: "A",
+                        text: "Yes, absolutely. Free will is central to moral responsibility and to being created in God's image."
+                    },
+                    {
+                        letter: "B",
+                        text: "Mostly yes, with some qualification. We're free in the sense that matters for responsibility, though God may have some role in shaping our choices."
+                    },
+                    {
+                        letter: "C",
+                        text: "I'm unsure. Scripture seems to affirm both God's control and human responsibility, though I'm not sure how they fit together perfectly."
+                    },
+                    {
+                        letter: "D",
+                        text: "No. Scripture teaches that God ordains all things, including our choices. Free will in that sense contradicts divine omniscience and sovereignty."
+                    }
+                ]
+            },
+
+            // Category 2: God's Choice in Salvation (Unconditional Election)
+            {
+                category: "God's Choice in Salvation",
+                question: "How does God decide who will be saved?",
+                categoryId: "election",
+                options: [
+                    {
+                        letter: "A",
+                        text: "God chose those whom He foreknew would freely choose Him. His election is based on His foresight of our faith."
+                    },
+                    {
+                        letter: "B",
+                        text: "God chose based on foreseen faith, but there's a cooperation between His foreknowledge and our willing response."
+                    },
+                    {
+                        letter: "C",
+                        text: "God chose from eternity past, and His choice creates the conditions (including our faith) that bring us to salvation."
+                    },
+                    {
+                        letter: "D",
+                        text: "God's election is completely unconditional—based solely on His sovereign will, not on anything He sees we will do."
+                    }
+                ]
+            },
+            {
+                category: "God's Choice in Salvation",
+                question: "When you encounter Ephesians 1:4-5 ('He chose us in Him before the creation of the world'), what does it mean to you?",
+                categoryId: "election",
+                options: [
+                    {
+                        letter: "A",
+                        text: "God chose us based on His foreknowledge of our faith. The 'foundation of the world' refers to God's knowledge of future events."
+                    },
+                    {
+                        letter: "B",
+                        text: "This is God's choice, but it includes His knowledge of who would respond. It's a kind of election that honors human choice."
+                    },
+                    {
+                        letter: "C",
+                        text: "God chose us before time, and that choice is sovereign, but our faith is still genuinely our own decision."
+                    },
+                    {
+                        letter: "D",
+                        text: "This is pure sovereign election. God chose particular people before time for His glory. Our faith is the fruit of that choice, not its condition."
+                    }
+                ]
+            },
+            {
+                category: "God's Choice in Salvation",
+                question: "Does God choose who will be lost (reprobation), or does He choose only to save?",
+                categoryId: "election",
+                options: [
+                    {
+                        letter: "A",
+                        text: "God chooses only to save. Those who are lost chose their own path; God didn't predestine them to hell."
+                    },
+                    {
+                        letter: "B",
+                        text: "God chooses to save, and those outside that choice face judgment. It's asymmetrical—election is active, reprobation is passive."
+                    },
+                    {
+                        letter: "C",
+                        text: "God's choice includes both salvation and judgment, though I have questions about how this relates to human responsibility."
+                    },
+                    {
+                        letter: "D",
+                        text: "Scripture teaches that God ordains both election and reprobation. Some are chosen for salvation, others left to their just judgment."
+                    }
+                ]
+            },
+
+            // Category 3: The Scope of Christ's Work (Particular Redemption)
+            {
+                category: "The Scope of Christ's Work",
+                question: "For whom did Christ die?",
+                categoryId: "atonement",
+                options: [
+                    {
+                        letter: "A",
+                        text: "Christ died for everyone without exception. His atonement is sufficient for all and genuinely offered to all, though not all will accept it."
+                    },
+                    {
+                        letter: "B",
+                        text: "Christ's death makes salvation possible for all, and He desires all to be saved. Those who believe were enabled by His cross."
+                    },
+                    {
+                        letter: "C",
+                        text: "Christ died primarily for the elect, though His death has value and benefits that extend in some sense to all creation."
+                    },
+                    {
+                        letter: "D",
+                        text: "Christ died specifically and definitively for the elect. His atonement actually secures the salvation of those chosen in eternity."
+                    }
+                ]
+            },
+            {
+                category: "The Scope of Christ's Work",
+                question: "When you read that Jesus 'gave his life a ransom for many' (Mark 10:45), who does 'many' refer to?",
+                categoryId: "atonement",
+                options: [
+                    {
+                        letter: "A",
+                        text: "'Many' is a figure of speech for 'all people.' Jesus died for everyone universally."
+                    },
+                    {
+                        letter: "B",
+                        text: "'Many' likely means many people, emphasizing the breadth of Christ's offer, though some choose not to accept it."
+                    },
+                    {
+                        letter: "C",
+                        text: "'Many' is a contrast with 'all.' Jesus died for a definite group—the elect—not for everyone."
+                    },
+                    {
+                        letter: "D",
+                        text: "'Many' clearly indicates that Christ's atonement is particular to those given to Him by the Father. Not everyone is the beneficiary."
+                    }
+                ]
+            },
+            {
+                category: "The Scope of Christ's Work",
+                question: "Is Christ's atonement sufficient for all, but efficient for some? Or is it both sufficient and efficient only for the elect?",
+                categoryId: "atonement",
+                options: [
+                    {
+                        letter: "A",
+                        text: "Christ's atonement is infinite in value and sufficient for all. Whether it saves you depends entirely on your choice."
+                    },
+                    {
+                        letter: "B",
+                        text: "It's sufficient for all and efficient for those who believe. God offers Christ's work universally, but its effect depends on our response."
+                    },
+                    {
+                        letter: "C",
+                        text: "This distinction (sufficient for all, efficient for some) seems reasonable, though I'm not entirely sure how to apply it biblically."
+                    },
+                    {
+                        letter: "D",
+                        text: "Scripture suggests that Christ's atonement is particular—both sufficient and efficient for the elect. It actually saves those for whom it was intended."
+                    }
+                ]
+            },
+
+            // Category 4: How God Saves (Effectual Calling)
+            {
+                category: "How God Saves",
+                question: "How does the Holy Spirit bring someone to faith in Christ?",
+                categoryId: "calling",
+                options: [
+                    {
+                        letter: "A",
+                        text: "The Spirit invites and persuades through the gospel, but faith depends on the individual's choice to respond."
+                    },
+                    {
+                        letter: "B",
+                        text: "The Spirit works with us to awaken our faith. His work and our response are cooperative; both matter."
+                    },
+                    {
+                        letter: "C",
+                        text: "The Spirit's calling is powerful and irresistible for the elect, but it respects our will and we must cooperate."
+                    },
+                    {
+                        letter: "D",
+                        text: "The Spirit's calling of the elect is effectual—it inevitably produces faith. We respond willingly because the Spirit first changes our hearts."
+                    }
+                ]
+            },
+            {
+                category: "How God Saves",
+                question: "Does regeneration happen before or after faith?",
+                categoryId: "calling",
+                options: [
+                    {
+                        letter: "A",
+                        text: "Faith comes first, and it produces new birth. We choose to believe, and that choice leads to spiritual regeneration."
+                    },
+                    {
+                        letter: "B",
+                        text: "They're essentially simultaneous. God doesn't regenerate us before we believe; rather, faith and new birth happen together as we respond."
+                    },
+                    {
+                        letter: "C",
+                        text: "God regenerates first and enables faith, but in a way that respects our genuine human choice and decision-making."
+                    },
+                    {
+                        letter: "D",
+                        text: "God regenerates before faith. He gives us a new heart first, and faith is the inevitable result of that spiritual birth."
+                    }
+                ]
+            },
+            {
+                category: "How God Saves",
+                question: "Can someone genuinely resist the saving work of the Holy Spirit if He calls them to salvation?",
+                categoryId: "calling",
+                options: [
+                    {
+                        letter: "A",
+                        text: "Yes, always. The Holy Spirit persuades but does not compel. We can always resist His call."
+                    },
+                    {
+                        letter: "B",
+                        text: "Essentially yes. God offers grace, but we retain the ability to refuse it, even if we're truly convinced."
+                    },
+                    {
+                        letter: "C",
+                        text: "The Spirit's call to the elect is very powerful, but theoretically could be resisted, though in practice the elect do respond."
+                    },
+                    {
+                        letter: "D",
+                        text: "No. When God the Spirit calls the elect to salvation, that call is irresistible. They will believe."
+                    }
+                ]
+            },
+
+            // Category 5: The Security of the Believer (Preservation)
+            {
+                category: "The Security of the Believer",
+                question: "Can a true believer lose their salvation?",
+                categoryId: "preservation",
+                options: [
+                    {
+                        letter: "A",
+                        text: "Yes. If we abandon faith or persistently reject God, we can lose our salvation. Our eternal security depends on our continued choice to follow Jesus."
+                    },
+                    {
+                        letter: "B",
+                        text: "Possibly. Believers are secure in Christ, but serious apostasy or unbelief could result in loss of salvation."
+                    },
+                    {
+                        letter: "C",
+                        text: "No, true believers cannot lose salvation, though I wonder about the nature and extent of God's preserving work."
+                    },
+                    {
+                        letter: "D",
+                        text: "No. God's choice and Christ's work guarantee the perseverance of the saints. Those chosen will certainly be saved and kept saved."
+                    }
+                ]
+            },
+            {
+                category: "The Security of the Believer",
+                question: "When you read John 10:27-29 ('They will never perish...no one can snatch them away'), how much does it comfort you?",
+                categoryId: "preservation",
+                options: [
+                    {
+                        letter: "A",
+                        text: "It's conditional comfort. I'm secure only as long as I keep holding on to Jesus and don't turn away."
+                    },
+                    {
+                        letter: "B",
+                        text: "It's a strong promise of security, though I realize my responsibility to maintain faith is also important."
+                    },
+                    {
+                        letter: "C",
+                        text: "It's very comforting, and I believe it means true believers will persevere, though I'm not entirely certain about God's mechanism of preservation."
+                    },
+                    {
+                        letter: "D",
+                        text: "It's absolutely comforting. Nothing can snatch me away. God's grip is stronger than my grip on Him, and He will keep me to the end."
+                    }
+                ]
+            },
+            {
+                category: "The Security of the Believer",
+                question: "What is the ultimate grounds for a believer's confidence that they will be with God forever?",
+                categoryId: "preservation",
+                options: [
+                    {
+                        letter: "A",
+                        text: "My own faithfulness and commitment to Christ. I trust that I will persevere in belief."
+                    },
+                    {
+                        letter: "B",
+                        text: "Christ's work and God's grace, but also my ongoing choice to follow Him. Both matter."
+                    },
+                    {
+                        letter: "C",
+                        text: "Christ's death and resurrection, and God's promise to preserve believers, though I have some questions about how this works perfectly."
+                    },
+                    {
+                        letter: "D",
+                        text: "God's sovereign choice and Christ's redemptive work. He chose me, Christ died for me, and God will preserve me. My confidence is in His power and promises, not my own faithfulness."
+                    }
+                ]
+            }
+        ];
+
+        // Assessment State
+        let currentQuestion = 0;
+        let answers = new Array(questions.length).fill(null);
+
+        // Initialize
+        function initializeAssessment() {
+            document.getElementById('total-questions').textContent = questions.length;
+            renderQuestion();
+            setupEventListeners();
+        }
+
+        // Render current question
+        function renderQuestion() {
+            const container = document.getElementById('questions-container');
+            container.innerHTML = '';
+
+            const q = questions[currentQuestion];
+            const questionDiv = document.createElement('div');
+            questionDiv.className = 'question-container active';
+
+            let optionsHTML = '';
+            q.options.forEach((opt, idx) => {
+                const isChecked = answers[currentQuestion] === idx ? 'checked' : '';
+                optionsHTML += `
+                    <div class="answer-option">
+                        <input
+                            type="radio"
+                            id="option-${idx}"
+                            name="answer"
+                            value="${idx}"
+                            ${isChecked}
+                            data-question="${currentQuestion}"
+                        >
+                        <label for="option-${idx}" class="answer-label">
+                            <span class="answer-letter">${opt.letter}</span>
+                            <span class="answer-text">${opt.text}</span>
+                        </label>
+                    </div>
+                `;
+            });
+
+            questionDiv.innerHTML = `
+                <div class="question-category">${q.category}</div>
+                <div class="question-number">Question ${currentQuestion + 1} of ${questions.length}</div>
+                <div class="question-text">${q.question}</div>
+                <div class="answer-options">
+                    ${optionsHTML}
+                </div>
+            `;
+
+            container.appendChild(questionDiv);
+
+            // Update progress
+            const progress = ((currentQuestion + 1) / questions.length) * 100;
+            document.getElementById('progress-fill').style.width = progress + '%';
+            document.getElementById('current-question').textContent = currentQuestion + 1;
+
+            // Update button states
+            document.getElementById('btn-prev').disabled = currentQuestion === 0;
+
+            const nextBtn = document.getElementById('btn-next');
+            if (currentQuestion === questions.length - 1) {
+                nextBtn.textContent = 'See Results →';
+            } else {
+                nextBtn.textContent = 'Next →';
+            }
+
+            // Add event listeners to new radio buttons
+            document.querySelectorAll('input[name="answer"]').forEach(input => {
+                input.addEventListener('change', (e) => {
+                    answers[currentQuestion] = parseInt(e.target.value);
+                });
+            });
+        }
+
+        // Setup event listeners
+        function setupEventListeners() {
+            document.getElementById('btn-prev').addEventListener('click', () => {
+                if (currentQuestion > 0) {
+                    currentQuestion--;
+                    renderQuestion();
+                }
+            });
+
+            document.getElementById('btn-next').addEventListener('click', () => {
+                if (currentQuestion < questions.length - 1) {
+                    currentQuestion++;
+                    renderQuestion();
+                } else {
+                    calculateResults();
+                }
+            });
+
+            document.getElementById('btn-retake').addEventListener('click', () => {
+                currentQuestion = 0;
+                answers = new Array(questions.length).fill(null);
+                document.getElementById('assessment-section').style.display = 'block';
+                document.getElementById('results-section').classList.remove('active');
+                renderQuestion();
+                window.scrollTo(0, 0);
+            });
+
+            document.getElementById('btn-share').addEventListener('click', shareResults);
+        }
+
+        // Calculate results
+        function calculateResults() {
+            // Score each category (3 questions per category)
+            const categoryScores = {
+                humanity: calculateCategoryScore(0, 3),
+                election: calculateCategoryScore(3, 6),
+                atonement: calculateCategoryScore(6, 9),
+                calling: calculateCategoryScore(9, 12),
+                preservation: calculateCategoryScore(12, 15)
+            };
+
+            displayResults(categoryScores);
+        }
+
+        function calculateCategoryScore(startIdx, endIdx) {
+            let sum = 0;
+            let count = 0;
+            for (let i = startIdx; i < endIdx; i++) {
+                if (answers[i] !== null) {
+                    sum += answers[i];
+                    count++;
+                }
+            }
+            return count > 0 ? Math.round(sum / count) : 1.5;
+        }
+
+        // Display results
+        function displayResults(categoryScores) {
+            document.getElementById('assessment-section').style.display = 'none';
+            document.getElementById('results-section').classList.add('active');
+
+            // Generate profile text
+            const profileText = generateProfileText(categoryScores);
+            document.getElementById('profile-text').textContent = profileText;
+
+            // Render truth breakdown
+            renderDoctrineBreakdown(categoryScores);
+
+            // Render reading path
+            renderReadingPath(categoryScores);
+
+            // Draw radar chart
+            drawRadarChart(categoryScores);
+
+            window.scrollTo(0, 0);
+        }
+
+        function generateProfileText(scores) {
+            const avg = (scores.humanity + scores.election + scores.atonement + scores.calling + scores.preservation) / 5;
+
+            if (avg < 1) {
+                return "You lean heavily toward Arminian or synergistic theology. You emphasize human free will, conditional election, universal atonement, and the importance of human response in salvation. God's sovereignty and human choice, in your view, work more cooperatively than you might find in Reformed theology.";
+            } else if (avg < 1.5) {
+                return "You hold a moderate position that tries to balance God's sovereignty with human responsibility. You likely believe in some form of conditional election, that God's grace works with human choice, and that salvation involves both divine and human agency. You may be exploring the 'middle ground' between Reformed and Arminian traditions.";
+            } else if (avg < 2.5) {
+                return "You lean toward Reformed theology but hold some open questions about how God's complete sovereignty works together with genuine human responsibility. You affirm the monergistic nature of salvation—God does the work—but wrestle with the full implications of these truths on questions about human will and divine predestination.";
+            } else {
+                return "You strongly affirm Reformed theology and God's absolute sovereignty in salvation. You believe God's choice and effectual work in salvation are comprehensive, that Christ died definitively for the elect, and that God's grace is irresistible and preserving. You see God's sovereignty not as competing with human responsibility but as the only firm foundation for assurance and worship.";
+            }
+        }
+
+        function renderDoctrineBreakdown(scores) {
+            const doctrinData = [
+                {
+                    name: "The Nature of Humanity",
+                    id: "humanity",
+                    score: scores.humanity,
+                    arminian: "Humans have free will to choose the gospel.",
+                    reformed: "Humans are spiritually dead until regenerated by God.",
+                    scripture: "Romans 3:10-12 — 'There is no one righteous, not even one; there is no one who understands, no one who seeks God.'",
+                    link: "/systematic-theology#total-inability"
+                },
+                {
+                    name: "God's Choice in Salvation",
+                    id: "election",
+                    score: scores.election,
+                    arminian: "God chose based on foreknowledge of our faith.",
+                    reformed: "God's election is unconditional and eternal.",
+                    scripture: "Ephesians 1:4-5 — 'For he chose us in him before the creation of the world to be holy and blameless in his sight.'",
+                    link: "/systematic-theology#unconditional-election"
+                },
+                {
+                    name: "The Scope of Christ's Work",
+                    id: "atonement",
+                    score: scores.atonement,
+                    arminian: "Christ died for all without exception.",
+                    reformed: "Christ died definitively for the elect.",
+                    scripture: "Mark 10:45 — 'For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many.'",
+                    link: "/systematic-theology#particular-redemption"
+                },
+                {
+                    name: "How God Saves",
+                    id: "calling",
+                    score: scores.calling,
+                    arminian: "The Spirit invites; we choose to respond.",
+                    reformed: "The Spirit's call to the elect is irresistible.",
+                    scripture: "John 6:37 — 'All that the Father gives me will come to me, and whoever comes to me I will never drive away.'",
+                    link: "/systematic-theology#effectual-calling"
+                },
+                {
+                    name: "The Security of the Believer",
+                    id: "preservation",
+                    score: scores.preservation,
+                    arminian: "Security depends on our continued faith.",
+                    reformed: "God's choice guarantees eternal preservation.",
+                    scripture: "John 10:27-29 — 'My sheep listen to my voice...and no one can snatch them out of my hand.'",
+                    link: "/systematic-theology#perseverance-of-the-saints"
+                }
+            ];
+
+            const breakdown = document.getElementById('truth-breakdown');
+            breakdown.innerHTML = '';
+
+            doctrinData.forEach(doc => {
+                const position = getPositionLabel(doc.score);
+                const positionText = getPositionText(doc.score, doc.arminian, doc.reformed);
+
+                const item = document.createElement('div');
+                item.className = 'truth-item';
+                item.innerHTML = `
+                    <div class="truth-name">${doc.name}</div>
+                    <div class="truth-position">
+                        <strong>${position}:</strong> ${positionText}
+                    </div>
+                    <div class="truth-scripture">
+                        <div class="truth-scripture-label">A Key Scripture</div>
+                        <div class="truth-scripture-text">${doc.scripture}</div>
+                    </div>
+                    Explore More →
+                `;
+                breakdown.appendChild(item);
+            });
+        }
+
+        function getPositionLabel(score) {
+            if (score < 1) return "Strong Arminian";
+            if (score < 1.5) return "Moderate to Arminian";
+            if (score < 2.5) return "Moderate to Reformed";
+            return "Strong Reformed";
+        }
+
+        function getPositionText(score, arminian, reformed) {
+            if (score < 1) return arminian;
+            if (score < 1.5) return `You lean toward: ${arminian}`;
+            if (score < 2.5) return `You're exploring: Both ${arminian} and ${reformed}`;
+            return reformed;
+        }
+
+        function renderReadingPath(scores) {
+            const avg = (scores.humanity + scores.election + scores.atonement + scores.calling + scores.preservation) / 5;
+
+            const paths = [
+                {
+                    title: "For the Arminian Explorer",
+                    condition: avg < 1,
+                    items: [
+                        { title: "Start Here", link: "/start-here", desc: "Get oriented to our approach" },
+                        { title: "Objections Answered", link: "/objection-why-command", desc: "Address common concerns about God's sovereignty" },
+                        { title: "The Evidence", link: "/questions", desc: "See what Scripture actually teaches" },
+                        { title: "Comparisons", link: "/compare-calvinism-arminianism", desc: "Understand the differences clearly" }
+                    ]
+                },
+                {
+                    title: "For the Seeker in the Middle",
+                    condition: avg >= 1 && avg < 2.5,
+                    items: [
+                        { title: "Systematic Theology", link: "/systematic-theology", desc: "Build a comprehensive biblical framework" },
+                        { title: "Scripture Tsunami", link: "/scripture-tsunami", desc: "See the overwhelming biblical case" },
+                        { title: "The Evidence", link: "/questions", desc: "Dig into the key passages" },
+                        { title: "Devotionals", link: "/devotionals", desc: "Let these truths transform your worship" }
+                    ]
+                },
+                {
+                    title: "For the Reformed Deepener",
+                    condition: avg >= 2.5,
+                    items: [
+                        { title: "Creeds & Confessions", link: "/creeds-confessions", desc: "Ground yourself in historical theology" },
+                        { title: "Theologians", link: "/theologians", desc: "Learn from the giants of the faith" },
+                        { title: "Devotionals", link: "/devotionals", desc: "Practice worship grounded in sovereignty" },
+                        { title: "Pastoral Assurance", link: "/pastoral-assurance", desc: "Find comfort in sovereign grace" }
+                    ]
+                }
+            ];
+
+            const currentPath = paths.find(p => p.condition);
+            const pathContainer = document.getElementById('reading-path-items');
+            pathContainer.innerHTML = `<h3 style="color: var(--accent-gold); margin-bottom: 1rem;">${currentPath.title}</h3>`;
+
+            currentPath.items.forEach((item, idx) => {
+                const elem = document.createElement('div');
+                elem.className = 'path-item';
+                elem.innerHTML = `
+                    <div class="path-item-number">${idx + 1}</div>
+                    <div class="path-item-content">
+                        ${item.title}
+                        <div class="path-item-description">${item.desc}</div>
+                    </div>
+                `;
+                pathContainer.appendChild(elem);
+            });
+        }
+
+        function drawRadarChart(scores) {
+            const canvas = document.getElementById('radarChart');
+            const ctx = canvas.getContext('2d');
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            const maxRadius = 100;
+
+            // Clear canvas
+            ctx.fillStyle = 'rgba(10, 10, 15, 1)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Draw grid
+            ctx.strokeStyle = 'rgba(212, 162, 84, 0.2)';
+            ctx.lineWidth = 1;
+            for (let r = maxRadius / 3; r <= maxRadius; r += maxRadius / 3) {
+                ctx.beginPath();
+                ctx.arc(centerX, centerY, r, 0, Math.PI * 2);
+                ctx.stroke();
+            }
+
+            // Labels
+            const labels = ['Total Inability', 'Unconditional Election', 'Particular Redemption', 'Effectual Calling', 'Perseverance'];
+            const values = [scores.humanity, scores.election, scores.atonement, scores.calling, scores.preservation];
+            const numSides = labels.length;
+            const angleSlice = (Math.PI * 2) / numSides;
+
+            // Draw axes
+            ctx.strokeStyle = 'rgba(212, 162, 84, 0.3)';
+            for (let i = 0; i < numSides; i++) {
+                const angle = angleSlice * i - Math.PI / 2;
+                const x = centerX + maxRadius * Math.cos(angle);
+                const y = centerY + maxRadius * Math.sin(angle);
+                ctx.beginPath();
+                ctx.moveTo(centerX, centerY);
+                ctx.lineTo(x, y);
+                ctx.stroke();
+
+                // Label
+                const labelDistance = maxRadius + 25;
+                const labelX = centerX + labelDistance * Math.cos(angle);
+                const labelY = centerY + labelDistance * Math.sin(angle);
+                ctx.fillStyle = 'rgba(212, 162, 84, 0.8)';
+                ctx.font = 'bold 12px Inter';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(labels[i], labelX, labelY);
+            }
+
+            // Draw data polygon
+            ctx.strokeStyle = 'rgba(232, 100, 44, 0.8)';
+            ctx.fillStyle = 'rgba(232, 100, 44, 0.2)';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+
+            for (let i = 0; i < numSides; i++) {
+                const angle = angleSlice * i - Math.PI / 2;
+                const value = values[i] / 3; // Normalize to 0-1
+                const radius = maxRadius * value;
+                const x = centerX + radius * Math.cos(angle);
+                const y = centerY + radius * Math.sin(angle);
+
+                if (i === 0) {
+                    ctx.moveTo(x, y);
+                } else {
+                    ctx.lineTo(x, y);
+                }
+            }
+
+            ctx.closePath();
+            ctx.stroke();
+            ctx.fill();
+
+            // Draw data points
+            ctx.fillStyle = 'rgba(212, 162, 84, 1)';
+            for (let i = 0; i < numSides; i++) {
+                const angle = angleSlice * i - Math.PI / 2;
+                const value = values[i] / 3;
+                const radius = maxRadius * value;
+                const x = centerX + radius * Math.cos(angle);
+                const y = centerY + radius * Math.sin(angle);
+                ctx.beginPath();
+                ctx.arc(x, y, 4, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function shareResults() {
+            const profileText = document.getElementById('profile-text').textContent;
+            const shareText = `I just took the Belief Self-Assessment from Adopted by Grace. Here's my theological profile:\n\n${profileText}\n\nDiscover where you stand: https://adoptedbygrace.net/belief-assessment`;
+
+            navigator.clipboard.writeText(shareText).then(() => {
+                const feedback = document.getElementById('share-feedback');
+                feedback.classList.add('show');
+                setTimeout(() => feedback.classList.remove('show'), 3000);
+            });
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', initializeAssessment);
+    </script>
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Belief Self-Assessment",
+        "description": "Discover where you stand theologically on salvation. A thoughtful self-assessment exploring God's sovereignty, election, redemption, calling, and preservation.",
+        "url": "https://adoptedbygrace.net/belief-assessment",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        },
+        "mainEntity": {
+            "@type": "Thing",
+            "name": "Theological Assessment Tool"
+        }
+    }
+    </script>
+
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

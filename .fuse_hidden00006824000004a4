@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Canons of Dort (1619): Full text with modern commentary on God's sovereign grace in election, atonement, human depravity, and the perseverance of the saints. The confessional foundation of the doctrines of grace.">
+    <meta property="og:title" content="The Canons of Dort — The Confessional Heart of Sovereign Grace">
+    <meta property="og:description" content="The Canons of Dort (1619): Full text with modern commentary on election, atonement, depravity, and perseverance.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/creed-canons-dort.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The Canons of Dort — The Confessional Heart of Sovereign Grace">
+    <meta name="twitter:description" content="The Canons of Dort (1619): Full text with modern commentary on election, atonement, depravity, and perseverance.">
+    <link rel="canonical" href="https://adoptedbygrace.net/creed-canons-dort.html">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>The Canons of Dort — The Confessional Heart of Sovereign Grace | Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Canons of Dort — The Confessional Heart of Sovereign Grace",
+        "description": "The Canons of Dort (1619): Full text with modern commentary on God's sovereign grace.",
+        "url": "https://adoptedbygrace.net/creed-canons-dort.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "url": "https://adoptedbygrace.net"
+        }
+    }
+    </script>
+    
+            <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+        <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before </body>:
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+        <a href="/creeds-confessions">&larr; Back to Creeds &amp; Confessions</a>
+    </nav>
+
+    <main id="main-content">
+
+    <!-- Hero -->
+    <section class="page-hero" style="text-align:center; max-width:900px; margin:0 auto; padding:3rem 2rem 2rem;">
+        <p class="eyebrow" style="font-family:'JetBrains Mono',monospace; font-size:0.75rem; color:var(--accent-gold); text-transform:uppercase; letter-spacing:0.15em; margin-bottom:1rem;">Reformed <a href="/history-confessions-story">Confession</a> &bull; 1618&ndash;1619</p>
+        <h1 style="font-family:'Playfair Display',serif; font-size:3rem; font-weight:800; line-height:1.15; margin-bottom:1.5rem;">The Canons of Dort</h1>
+        <p style="font-size:1.1rem; color:var(--text-secondary); max-width:700px; margin:0 auto; line-height:1.8;">The Canons of <a href="/history-dort">Dort</a> are the church's formal answer to the oldest question: <strong style="color:var(--text-primary);">who saves whom?</strong> When the Reformed church was forced to choose between the <a href="/question-sovereignty-logic">sovereignty</a> of God and the autonomy of man, 84 theologians from across Europe gathered in Dordrecht and answered with one voice: <strong style="color:var(--text-primary);">salvation is of the Lord.</strong></p>
+    </section>
+
+    <div style="max-width:900px; margin:0 auto; padding:0 2rem;">
+
+    <!-- Quick Navigation -->
+    <div class="dort-nav">
+        <a href="#first-head">First Head: Election</a>
+        <a href="#second-head">Second Head: Atonement</a>
+        <a href="#third-head">Third &amp; Fourth Heads: <a href="/question-depravity">Depravity</a> &amp; Conversion</a>
+        <a href="#fifth-head">Fifth Head: Perseverance</a>
+        <a href="#historical">Historical Context</a>
+    </div>
+
+    <!-- Historical Context Box -->
+    <div class="historical-context">
+        <h3>Why This Confession Exists</h3>
+        <p>In the early 1600s, followers of Jacob Arminius drafted the <strong style="color:var(--text-primary);">Remonstrance</strong>&mdash;five articles that would echo through centuries. They claimed that <a href="/question-chosen">election was based on foreseen faith</a>, that Christ's atonement was universal in intent, that <a href="/question-depravity">human depravity could be overcome by free will</a>, that grace could be resisted, and that believers could lose their salvation.</p>
+        <p>The Dutch churches convened the <strong style="color:var(--text-primary);">Synod of Dort</strong> (1618&ndash;1619), inviting Reformed delegates from Great Britain, the Palatinate, Hesse, Switzerland, Nassau, Bremen, Emden, and France. After <a href="/history-dort">154 sessions over seven months</a>, they produced these canons&mdash;not as new truth, but as a faithful summary of what Scripture had always taught. <em>The Remonstrants asked for tolerance. But you cannot be tolerant about whether salvation is a gift or an achievement.</em></p>
+        <p>Each "Head of Truth" includes positive articles (what Scripture teaches) and rejections of errors (what the Remonstrants got wrong). The Canons remain one of the Three Forms of Unity in Reformed churches worldwide.</p>
+    </div>
+
+    <p class="dort-humor">The Remonstrants thought they had five good points. Dort gave them zero. &mdash; <a href="/question-chosen">Predestined</a> humor</p>
+
+    <!-- ============================================ -->
+    <!-- FIRST HEAD OF DOCTRINE: DIVINE <a href="/systematic-election">ELECTION</a> -->
+    <!-- ============================================ -->
+    <section class="dort-head content-section reveal" id="first-head">
+        <h2>First Head of Truth</h2>
+        <p class="dort-head-subtitle">Divine Election and Reprobation</p>
+        <p class="dort-intro">The Synod begins where Scripture begins&mdash;with God. Before the world was made, before a single human being drew breath, God chose a people for Himself. Not because of anything in them. Not because He foresaw their faith. But simply and solely because it pleased Him to set His love upon them. This is <a href="/question-chosen">election</a>&mdash;the fountainhead of every spiritual blessing. <em style="color:var(--text-secondary); font-size:0.95rem;">If you've ever wondered whether the church has always believed what you're discovering, read this: for nearly 400 years, Reformed believers have confessed that God's choice came before time, before merit, before any response from us.</em></p>
+
+        <div class="article-block">
+            <p class="article-label">Article 1</p>
+            <p class="article-title">All Deserve Condemnation</p>
+            <p class="article-text">"As all men have sinned in Adam, lie under the curse, and are deserving of eternal death, God would have done no injustice by leaving them all to perish and delivering them over to condemnation on account of sin, according to the words of the apostle: 'that every mouth may be stopped, and all the world may become guilty before God' (Romans 3:19)."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> The Canons don't start with election&mdash;they start with the universal guilt of humanity. This is the ground from which grace rises. If every person justly deserves condemnation, then the real question isn't "Why does God choose some?" but "Why does God choose any?" The wonder of election can only be felt when we first feel the weight of what we deserve.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 2</p>
+            <p class="article-title">God's Love in Sending Christ</p>
+            <p class="article-text">"But in this the love of God was manifested, that He sent His only begotten Son into the world, that whosoever believeth in Him should not perish, but have everlasting life (1 John 4:9; John 3:16)."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> Notice what the Synod does here. Before they get to the particularities of election, they plant God's love at the center. The gospel call goes out to all people. "Whosoever believeth" is a genuine offer. The question that follows&mdash;the question the Remonstrants got wrong&mdash;is <em>what causes one person to believe and another not to?</em>
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 3</p>
+            <p class="article-title">The Preaching of the Gospel</p>
+            <p class="article-text">"And that men may be brought to believe, God mercifully sends the messengers of these most joyful tidings to whom He will and at what time He pleaseth; by whose ministry men are called to repentance and faith in Christ crucified."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> Even the sending of the gospel is an act of <a href="/question-sovereignty-logic">sovereign</a> mercy. You didn't choose to be born in a time and place where the gospel reached you. That was God's decision. Think about what this means: the fact that you've even <em>heard</em> the good news is itself a display of grace.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 4</p>
+            <p class="article-title">The Twofold Response to the Gospel</p>
+            <p class="article-text">"The wrath of God abideth upon those who believe not this gospel. But such as receive it and embrace Jesus the Savior by a true and living faith are by Him delivered from the wrath of God and from destruction, and have the gift of eternal life conferred upon them."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> The Synod simply observes what Scripture observes: the same gospel that falls on a thousand ears produces two different responses. Some believe. Some don't. The next articles address the question that every honest person must eventually face: <em>What accounts for the difference?</em>
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 5</p>
+            <p class="article-title">Unbelief is Man's Fault; Faith is God's Gift</p>
+            <p class="article-text">"The cause or guilt of this unbelief, as well as of all other sins, is nowise in God, but in man himself; whereas faith in Jesus Christ and salvation through Him is the free gift of God."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> Here is the crucial asymmetry of Reformed theology. Unbelief is entirely the fault of the sinner. But faith is entirely the gift of God. Those who perish have only themselves to blame. Those who believe have only God to thank. This is not a philosophical puzzle to be solved&mdash;it is a mystery to be worshipped.
+            </div>
+        </div>
+
+        <div class="scripture-support">
+            <div class="scripture-chip">"As it is written: 'Jacob I loved, but Esau I hated.' What shall we say then? Is there injustice on God's part? By no means!"<span class="ref">Romans 9:13&ndash;14</span></div>
+            <div class="scripture-chip">"He chose us in him before the creation of the world, that we should be holy and blameless before him. In love he predestined us for adoption to sonship."<span class="ref">Ephesians 1:4&ndash;5</span></div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 6</p>
+            <p class="article-title">God's Eternal Decree of Election</p>
+            <p class="article-text">"That some receive the gift of faith from God, and others do not receive it, proceeds from God's eternal decree. 'Known unto God are all His works from the beginning of the world' (Acts 15:18). According to which decree He graciously softens the hearts of the elect, however obstinate, and inclines them to believe; while He leaves the non-elect in His just judgment to their own wickedness and obduracy."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> This is the heart of the First Head. The difference between the believer and the unbeliever is <em>not</em> that one was smarter, more spiritual, or more willing. The difference is God's decree. He softened one heart and left another in its natural hardness. The believer's boast is eliminated&mdash;forever.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 7</p>
+            <p class="article-title">The Definition of Election</p>
+            <p class="article-text">"Election is the unchangeable purpose of God, whereby, before the creation of the world, He has out of mere grace, according to the sovereign good pleasure of His own will, chosen from the whole human race, which had fallen through their own fault from their primitive state of rectitude into sin and destruction, a certain number of persons to redemption in Christ."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> The Synod packs the entire truth into a single sentence. Note every qualifier: election is <em>unchangeable</em> (not subject to revision), rooted in <em>mere grace</em> (not human merit), according to <em>sovereign good pleasure</em> (not foreseen response), chosen <em>before the creation of the world</em> (not in time), from a race that <em>had fallen through their own fault</em> (not from innocent people). This is the most precise single-sentence definition of election in any confession.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 9</p>
+            <p class="article-title">Election Not Based on Foreseen Faith</p>
+            <p class="article-text">"This election was not founded upon foreseen faith, and the obedience of faith, holiness, or any other good quality or disposition, as a prerequisite cause or condition, previously required in man, but men are chosen to faith and the obedience of faith, holiness, etc."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> This article drives the stake into the ground. The Remonstrants argued: "God foresaw who would believe and chose them on that basis." The Synod replies: "No. God chose people <em>to</em> faith, not <em>because of</em> faith." Faith is the fruit of election, not the cause of it. The order matters enormously&mdash;it determines whether the glory goes to God or to man.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 11</p>
+            <p class="article-title">Election is Immutable</p>
+            <p class="article-text">"And as God Himself is most wise, unchangeable, omniscient, and omnipotent, so the election made by Him can neither be interrupted nor changed, recalled, nor annulled; neither can the elect be cast away, nor their number diminished."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> Election is as unshakable as God Himself. If God's attributes cannot fail, neither can His purposes. The security of the believer doesn't rest on the strength of the believer's faith, but on the immutability of God's decree. Here is the deepest possible foundation for assurance.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 12</p>
+            <p class="article-title">Assurance of Election</p>
+            <p class="article-text">"The elect in due time, though in various degrees and in different measures, attain the assurance of this their eternal and unchangeable election, not by inquisitively prying into the secret and deep things of God, but by observing in themselves with a spiritual joy and holy pleasure the infallible fruits of election pointed out in the Word of God&mdash;such as, a true faith in Christ, filial fear, a godly sorrow for sin, a hungering and thirsting after righteousness, etc."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> The Synod anticipates the anxious question: "How can I know if I'm elect?" And the answer is pastoral genius. Don't try to peek behind the curtain of God's secret counsel. Instead, look at the fruit in your life. Do you trust Christ? Do you grieve over sin? Do you hunger for righteousness? These are the infallible marks of election. The truth that terrifies some people is actually the truth that should comfort them most.
+            </div>
+        </div>
+
+        <blockquote style="margin:2rem 0;">
+            "For those God foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
+            <span class="scripture-ref" style="display:block; margin-top:0.8rem; font-style:normal; color:var(--text-muted); font-size:0.85rem;">&mdash; <a href="/question-goldchain">Romans 8</a>:29&ndash;30</span>
+        </blockquote>
+
+        <blockquote class="pull-quote" style="margin:3rem 0; padding:1.5rem; border-left:4px solid var(--accent-gold); background:rgba(218,165,32,0.05); font-style:italic; font-size:1.05rem; line-height:1.8; color:var(--text-primary);">
+            "Election is the unchangeable purpose of God, whereby, before the creation of the world, He has out of mere grace, according to the sovereign good pleasure of His own will, chosen from the whole human race... a certain number of persons to redemption in Christ."
+            <span class="scripture-ref" style="display:block; margin-top:0.8rem; font-style:normal; color:var(--text-secondary); font-size:0.85rem;">&mdash; Canons of Dort, Article 7</span>
+        </blockquote>
+
+        <p style="color:var(--text-secondary); font-size:0.95rem; line-height:1.8; margin-bottom:1.5rem;">Is faith really a choice, or is it a gift? The <a href="/objection-faith-choice">Crown Jewel truth</a> of the gospel hinges on understanding election. When the Synod defended election against the Remonstrants, they were defending something far deeper than a theological abstraction&mdash;they were defending the truth that even your faith is grace.</p>
+
+        <!-- Rejection of Errors for First Head -->
+        <h3 style="font-family:'Playfair Display',serif; font-size:1.3rem; color:var(--accent-ember); margin:2.5rem 0 1rem;">Rejection of Errors</h3>
+        <p style="color:var(--text-secondary); font-size:0.93rem; margin-bottom:1.5rem;">The Synod didn't just state truth&mdash;they also named lies. Each rejection targets a specific Remonstrant distortion:</p>
+
+        <div class="rejection-block">
+            <p class="rejection-label">Error Rejected I</p>
+            <p class="rejection-text">The Synod rejects the teaching that "the will of God to save those who would believe and persevere in faith" is the whole of election. <strong style="color:var(--text-primary); font-style:normal;">Why?</strong> Because this makes election conditional on something in man and smuggles human autonomy back into God's sovereign decree.</p>
+        </div>
+
+        <div class="rejection-block">
+            <p class="rejection-label">Error Rejected III</p>
+            <p class="rejection-text">The Synod rejects the teaching that "God's good pleasure and purpose, which Scripture mentions in the doctrines of grace, does not consist in this, that God chose certain persons rather than others, but in this, that He chose the act of faith." <strong style="color:var(--text-primary); font-style:normal;">Why?</strong> Because God chose <em>persons</em>, not merely a <em>plan</em>. Election is personal and particular.</p>
+        </div>
+
+        <div class="rejection-block">
+            <p class="rejection-label">Error Rejected V</p>
+            <p class="rejection-text">The Synod rejects the teaching that election is "incomplete and not peremptory" until the person has believed. <strong style="color:var(--text-primary); font-style:normal;">Why?</strong> Because this makes God's decree dependent on time-bound human action and strips election of its eternity.</p>
+        </div>
+    </section>
+
+    <p class="dort-humor">The Remonstrants insisted they had <a href="/question-freewill">free will</a>. The Synod freely chose to disagree.</p>
+
+    <!-- ============================================ -->
+    <!-- SECOND HEAD: CHRIST'S DEATH AND ATONEMENT -->
+    <!-- ============================================ -->
+    <section class="dort-head content-section reveal" id="second-head">
+        <h2>Second Head of Truth</h2>
+        <p class="dort-head-subtitle">The Death of Christ and the Redemption of Men Thereby</p>
+        <p class="dort-intro">If God chose specific people for salvation, did Christ die specifically for those people? The Synod answers with the full weight of Scripture: Christ's death is infinitely sufficient for the whole world, but it was the Father's intention that it would effectually redeem the elect. The cross doesn't merely make salvation <em>possible</em>&mdash;it makes salvation <em>certain</em>. For a deeper exploration of this truth, see <a href="/systematic-atonement">Definite Atonement</a> and <a href="/compare-calvinism-<a href="/compare-calvinism-arminianism">arminianism</a>">how this differs from the Arminian view</a>.</p>
+
+        <div class="article-block">
+            <p class="article-label">Article 1</p>
+            <p class="article-title">The Justice of God Demands Satisfaction</p>
+            <p class="article-text">"God is not only supremely merciful, but also supremely just. And His justice requires (as He has revealed Himself in His Word) that our sins committed against His infinite majesty should be punished, not only with temporal but with eternal punishments, both in body and soul; which we cannot escape, unless satisfaction be made to the justice of God."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> Before discussing <em>for whom</em> Christ died, the Synod establishes <em>why</em> He had to die. God's justice is as real as His mercy. Sin against an infinite God demands infinite satisfaction. Without this understanding, the cross becomes sentimental instead of substitutionary.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 3</p>
+            <p class="article-title">The Infinite Value of Christ's Death</p>
+            <p class="article-text">"The death of the Son of God is the only and most perfect sacrifice and satisfaction for sin, and is of infinite worth and value, abundantly sufficient to expiate the sins of the whole world."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> The Synod explicitly affirms the <em>infinite sufficiency</em> of Christ's death. This is not a stingy atonement. The blood of Christ could save ten thousand worlds. The question is not whether it was sufficient for all, but whether it was <em>intended</em> for all in the same way. Sufficiency is about the <em>value</em> of the sacrifice; intention is about the <em>purpose</em> of the Father.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 8</p>
+            <p class="article-title">The Saving Efficacy of Christ's Death</p>
+            <p class="article-text">"For this was the sovereign counsel and most gracious will and purpose of God the Father, that the quickening and saving efficacy of the most precious death of His Son should extend to all the elect, for bestowing upon them alone the gift of justifying faith, thereby to bring them infallibly to salvation."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> Here is the definitive statement. The <em>saving efficacy</em>&mdash;the power of the cross to actually save&mdash;extends to the elect. Christ's death doesn't merely open a door; it carries His people through it. The Father purposed it; the Son accomplished it; the Spirit applies it. The Trinity is unified in the work of redemption, and not one drop of Christ's blood is wasted.
+            </div>
+        </div>
+
+        <div class="scripture-support">
+            <div class="scripture-chip">"I am the good shepherd. The good shepherd lays down his life for the sheep."<span class="ref">John 10:11</span></div>
+            <div class="scripture-chip">"...just as the Father knows me and I know the Father; and I lay down my life for the sheep."<span class="ref">John 10:15</span></div>
+            <div class="scripture-chip">"Christ loved the church and gave himself up for her."<span class="ref">Ephesians 5:25</span></div>
+        </div>
+
+        <blockquote class="pull-quote" style="margin:3rem 0; padding:1.5rem; border-left:4px solid var(--accent-gold); background:rgba(218,165,32,0.05); font-style:italic; font-size:1.05rem; line-height:1.8; color:var(--text-primary);">
+            "For this was the sovereign counsel and most gracious will and purpose of God the Father, that the quickening and saving efficacy of the most precious death of His Son should extend to all the elect..."
+            <span class="scripture-ref" style="display:block; margin-top:0.8rem; font-style:normal; color:var(--text-secondary); font-size:0.85rem;">&mdash; Canons of Dort, Article 8</span>
+        </blockquote>
+
+        <div class="rejection-block">
+            <p class="rejection-label">Error Rejected I</p>
+            <p class="rejection-text">The Synod rejects the teaching that "God the Father has ordained His Son to the death of the cross without a certain and definite decree to save any." <strong style="color:var(--text-primary); font-style:normal;">Why?</strong> Because this would mean the Father sent the Son to die without knowing whether anyone would be saved by it. It reduces the cross from a rescue mission to a gamble.</p>
+        </div>
+
+        <div class="rejection-block">
+            <p class="rejection-label">Error Rejected III</p>
+            <p class="rejection-text">The Synod rejects the teaching that "Christ by His satisfaction merited neither salvation itself for anyone, nor faith... but that He merited for the Father the mere right to deal again with man." <strong style="color:var(--text-primary); font-style:normal;">Why?</strong> Because if the cross only purchased the <em>right</em> to make a new offer, then the cross didn't actually save anyone. It merely created an opportunity&mdash;an opportunity that depends entirely on human response.</p>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- THIRD & FOURTH HEADS: DEPRAVITY & CONVERSION -->
+    <!-- ============================================ -->
+    <section class="dort-head content-section reveal" id="third-head">
+        <h2>Third &amp; Fourth Heads of Truth</h2>
+        <p class="dort-head-subtitle">The Corruption of Man, His Conversion to God, and the Manner Thereof</p>
+        <p class="dort-intro">Why is sovereign grace necessary? Because the problem with humanity is not that we're a little sick&mdash;it's that we're dead. The fall didn't merely wound our ability to choose God; it destroyed it. This is <a href="/question-depravity">total depravity</a>: not a philosophical concept but a spiritual reality. And what dead people need is not better options&mdash;they need resurrection. This is what the Synod means by <em>irresistible grace</em>: not that God drags people kicking and screaming, but that He makes dead hearts alive so that they <em>want</em> to come.</p>
+
+        <div class="article-block">
+            <p class="article-label">Article 1</p>
+            <p class="article-title">The Effect of the Fall</p>
+            <p class="article-text">"Man was originally formed after the image of God. His understanding was adorned with a true and saving knowledge of his Creator, and of spiritual things; his heart and will were upright, all his affections pure, and the whole man was holy. But, revolting from God by the instigation of the devil and by his own free will, he forfeited these excellent gifts; and in the place thereof became involved in blindness of mind, horrible darkness, vanity, and perverseness of judgment; became wicked, rebellious, and obdurate in heart and will, and impure in his affections."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> The Synod paints a portrait of the fall that is comprehensive. It affected the mind (blindness), the judgment (perverseness), the heart (wickedness), the will (rebellion), and the affections (impurity). <a href="/systematic-hamartiology">Total depravity</a> doesn't mean people are as bad as they could possibly be&mdash;it means that every faculty of their being has been corrupted by sin. There's no island of untouched spiritual health from which they can choose God.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 3</p>
+            <p class="article-title">Man's Total Inability</p>
+            <p class="article-text">"Therefore all men are conceived in sin, and are by nature children of wrath, incapable of saving good, prone to evil, dead in sin, and in bondage thereto; and without the regenerating grace of the Holy Spirit, they are neither able nor willing to return to God, to reform the corruption of their nature, or to dispose themselves to reformation."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> "Neither able <em>nor willing</em>." The problem isn't just that we <em>can't</em> come to God&mdash;it's that we <em>won't</em>. Our inability is not like a man chained to the floor wanting to escape. It's like a man who loves his chains. This is why grace must be sovereign. A dead man doesn't cooperate with resurrection. He simply receives it.
+            </div>
+        </div>
+
+        <div class="scripture-support">
+            <div class="scripture-chip">"As for you, you were dead in your transgressions and sins in which you once walked."<span class="ref">Ephesians 2:1</span></div>
+            <div class="scripture-chip">"The natural person does not accept the things of the Spirit of God, for they are folly to him, and he is not able to understand them because they are spiritually discerned."<span class="ref">1 Corinthians 2:14</span></div>
+            <div class="scripture-chip">"No one can come to me unless the Father who sent me draws them."<span class="ref">John 6:44</span></div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 11</p>
+            <p class="article-title">The Work of the Holy Spirit in Conversion</p>
+            <p class="article-text">"But when God accomplishes His good pleasure in the elect, or works in them true conversion, He not only causes the gospel to be externally preached to them, and powerfully illuminates their minds by His Holy Spirit... but by the efficacy of the same regenerating Spirit He pervades the inmost recesses of man; He opens the closed and softens the hardened heart, and circumcises that which was uncircumcised; infuses new qualities into the will, which, though heretofore dead, He quickens."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> This is the most beautiful description of conversion in all the confessions. God doesn't merely shout louder at the closed heart. He <em>opens</em> it. He doesn't merely advise the hard heart. He <em>softens</em> it. He doesn't merely invite the dead will. He <em>quickens</em> it. The Spirit works in the "inmost recesses"&mdash;beneath conscious awareness, at the very root of who you are. By the time you "decided" to follow Christ, God had already been at work making you into the kind of person who would.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 12</p>
+            <p class="article-title">Regeneration Is Supernatural</p>
+            <p class="article-text">"And this is that <a href="/systematic-regeneration">regeneration</a> so highly extolled in Scripture, that new creation, resurrection from the dead, a making alive, which God works in us without our aid. But this is nowise effected merely by the external preaching of the gospel, by moral suasion, or such a mode of operation that, after God has performed His part, it still remains in the power of man to be regenerated or not, to be converted or to continue unconverted."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> The Synod explicitly names what regeneration is <em>not</em>: it is not "moral suasion"&mdash;God isn't merely making a really good case. And it is not a work where God does His part and then waits for man to do his. Regeneration is a <em>new creation</em>, a <em>resurrection</em>. The same God who said "Let there be light" says "Let there be life" in the soul of the sinner. And that word accomplishes what it commands.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 16</p>
+            <p class="article-title">Grace Does Not Destroy the Will</p>
+            <p class="article-text">"But as man by the fall did not cease to be a creature endowed with understanding and will, nor did sin, which pervaded the whole race of mankind, deprive him of the human nature... so also this divine grace of regeneration does not treat men as senseless stocks and blocks, nor take away their will and its properties, or do violence to it; but it spiritually quickens, heals, corrects, and at the same time sweetly and powerfully bends it."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> Here the Synod answers the oldest objection: "If grace is irresistible, doesn't that make us robots?" No. Grace doesn't <em>override</em> the will&mdash;it <em>heals</em> it. It doesn't force people against their will&mdash;it changes their will so that they <em>freely want</em> what God wants. The beauty of sovereign grace is that it produces genuine desire, not coerced compliance. You come to Christ willingly because God made you willing.
+            </div>
+        </div>
+
+        <blockquote style="margin:2rem 0;">
+            "I will give you a new heart, and a new spirit I will put within you. And I will remove the heart of stone from your flesh and give you a heart of flesh. And I will put my Spirit within you, and cause you to walk in my statutes."
+            <span class="scripture-ref" style="display:block; margin-top:0.8rem; font-style:normal; color:var(--text-muted); font-size:0.85rem;">&mdash; Ezekiel 36:26&ndash;27</span>
+        </blockquote>
+
+        <blockquote class="pull-quote" style="margin:3rem 0; padding:1.5rem; border-left:4px solid var(--accent-gold); background:rgba(218,165,32,0.05); font-style:italic; font-size:1.05rem; line-height:1.8; color:var(--text-primary);">
+            "...by the efficacy of the same regenerating Spirit He pervades the inmost recesses of man; He opens the closed and softens the hardened heart... He quickens..."
+            <span class="scripture-ref" style="display:block; margin-top:0.8rem; font-style:normal; color:var(--text-secondary); font-size:0.85rem;">&mdash; Canons of Dort, Article 11</span>
+        </blockquote>
+
+        <p style="color:var(--text-secondary); font-size:0.95rem; line-height:1.8; margin-bottom:1.5rem;">If total depravity sounds hopeless, that's because you haven't yet seen grace. Read <a href="/devotional-rescued-without-a-say">Rescued Without a Say</a> to experience the comfort that comes when you finally stop trying to save yourself.</p>
+    </section>
+
+    <p class="dort-humor">Free will walked into a bar. It was predestined to order the same thing.</p>
+
+    <!-- ============================================ -->
+    <!-- FIFTH HEAD: <a href="/question-perseverance">PERSEVERANCE OF THE SAINTS</a> -->
+    <!-- ============================================ -->
+    <section class="dort-head content-section reveal" id="fifth-head">
+        <h2>Fifth Head of Truth</h2>
+        <p class="dort-head-subtitle">The Perseverance of the Saints</p>
+        <p class="dort-intro">The golden chain of redemption has one final link. If God chose His people before the world began, if Christ died specifically for them, if the Spirit irresistibly drew them to faith&mdash;will He then let them go? The Synod answers with the full-throated confidence of Romans 8: <em>nothing</em> can separate us from the love of God in Christ Jesus. For the full biblical case, read why the Arminian alternative ultimately fails.</p>
+
+        <div class="article-block">
+            <p class="article-label">Article 1</p>
+            <p class="article-title">The Regenerate Still Sin</p>
+            <p class="article-text">"Whom God, according to His purpose, calls to the communion of His Son... and sanctifies by His Spirit, He also delivers from the dominion and slavery of sin in this life; though not altogether from the body of sin and from the infirmities of the flesh, so long as they continue in this world."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> The Synod is honest about the Christian life. Perseverance doesn't mean perfection. Believers still struggle with sin. The old nature still rages. But there's a difference between being <em>troubled</em> by sin and being <em>dominated</em> by it. The believer has been freed from sin's slavery even while still living in its neighborhood.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 3</p>
+            <p class="article-title">Believers Can Fall into Serious Sins</p>
+            <p class="article-text">"By reason of these remains of indwelling sin, and the temptations of sin and of the world, those who are converted could not persevere in a state of grace if left to their own strength. But God is faithful, who, having conferred grace, mercifully confirms and powerfully preserves them therein, even to the end."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> The Synod makes a startling admission: left to ourselves, we <em>would</em> fall away. Perseverance is not a testimony to human grit. It is a testimony to divine faithfulness. "God is faithful"&mdash;not "believers are faithful." Our security rests on the character of our Keeper, not on the quality of our keeping.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 6</p>
+            <p class="article-title">God Preserves the Elect</p>
+            <p class="article-text">"But God, who is rich in mercy, according to His unchangeable purpose of election, does not wholly withdraw the Holy Spirit from His own people even when they fall into grievous sins; nor suffers them to proceed so far as to lose the grace of adoption and forfeit the state of <a href="/systematic-justification">justification</a>, or to commit the sin unto death."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> Even in the worst backsliding, God does not abandon His elect. He may discipline. He may withdraw the comfort of His presence. But He will not withdraw the Holy Spirit. The grace of adoption and the state of justification&mdash;these are irrevocable gifts rooted in God's unchangeable purpose. If your salvation could be lost, then it was never the kind of salvation Scripture describes.
+            </div>
+        </div>
+
+        <div class="article-block">
+            <p class="article-label">Article 8</p>
+            <p class="article-title">The Certainty of Perseverance</p>
+            <p class="article-text">"Thus it is not in consequence of their own merits or strength, but of God's free mercy, that they neither totally fall from faith and grace nor continue and perish finally in their backslidings; which, with respect to themselves, is not only possible, but would undoubtedly happen; but with respect to God, it is utterly impossible."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> Read that last line again. "With respect to themselves... it would undoubtedly happen. But with respect to God, it is utterly impossible." This is the foundation of Christian assurance. Your perseverance is as certain as God's character. You <em>would</em> fall away&mdash;but God won't let you. Not because of your grip on Him, but because of His grip on you.
+            </div>
+        </div>
+
+        <div class="scripture-support">
+            <div class="scripture-chip">"For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord."<span class="ref">Romans 8:38&ndash;39</span></div>
+            <div class="scripture-chip">"My sheep listen to my voice; I know them, and they follow me. I give them eternal life, and they shall never perish; no one will snatch them out of my hand."<span class="ref">John 10:27&ndash;28</span></div>
+        </div>
+
+        <blockquote class="pull-quote" style="margin:3rem 0; padding:1.5rem; border-left:4px solid var(--accent-gold); background:rgba(218,165,32,0.05); font-style:italic; font-size:1.05rem; line-height:1.8; color:var(--text-primary);">
+            "Thus it is not in consequence of their own merits or strength, but of God's free mercy, that they neither totally fall from faith and grace nor continue and perish finally in their backslidings; which, with respect to themselves, is not only possible, but would undoubtedly happen; but with respect to God, it is utterly impossible."
+            <span class="scripture-ref" style="display:block; margin-top:0.8rem; font-style:normal; color:var(--text-secondary); font-size:0.85rem;">&mdash; Canons of Dort, Article 8</span>
+        </blockquote>
+
+        <div class="article-block">
+            <p class="article-label">Article 15</p>
+            <p class="article-title">This Truth Produces Holiness, Not Carelessness</p>
+            <p class="article-text">"The carnal mind is unable to comprehend this truth of the perseverance of the saints and the certainty thereof, which God has most abundantly revealed in His Word... the saints have a deep-rooted experience thereof. But the truth of perseverance... is the real source of consolation, through faith they obtain the glory of God, and the incentive to serious and constant practice of gratitude and good works."</p>
+            <div class="article-commentary">
+                <strong>Why this matters:</strong> "If I can't lose my salvation, why not sin all I want?" The Synod answers: the truth of perseverance doesn't produce carelessness&mdash;it produces gratitude. When you know that your salvation is eternally secure, the response isn't laziness but love. You don't live for God in order to keep your salvation. You live for God <em>because</em> He has already secured it.
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- HISTORICAL CONTEXT -->
+    <!-- ============================================ -->
+    <section class="dort-head content-section reveal" id="historical">
+        <h2>Historical Significance</h2>
+        <p class="dort-head-subtitle">Why Dort Still Matters</p>
+
+        <div class="historical-context">
+            <h3>The Scope of the Synod</h3>
+            <p>The <a href="/history-dort">Synod of Dort</a> was one of the most significant ecclesiastical assemblies in Protestant history. It wasn't a local church fight&mdash;it was an <strong style="color:var(--text-primary);">international Reformed council</strong>. Delegates came from the Dutch Republic, Great Britain, the Palatinate, Hesse, Switzerland, Nassau-Wetteravia, Bremen, Emden, and (unofficially) France.</p>
+            <p>Over <strong style="color:var(--text-primary);">154 sessions</strong> spanning seven months, these theologians examined the Remonstrant position against Scripture, the church fathers, and the historic confessions. The result was not innovation but confirmation: <em>the doctrines of grace are the doctrines of the Bible.</em></p>
+        </div>
+
+        <div class="historical-context">
+            <h3>What Dort Defended</h3>
+            <p>The Canons are often reduced to an acronym (which we won't name here). But the Synod wasn't constructing a system&mdash;they were defending the gospel. At stake was the most fundamental question of Christianity: <strong style="color:var(--text-primary);">Does God save sinners, or do sinners save themselves with God's help?</strong></p>
+            <p>The Remonstrants answered: God helps, but the decisive factor is the human will. Dort answered: God saves&mdash;completely, sovereignly, and irrevocably. From election to glorification, salvation is God's work from first to last.</p>
+        </div>
+
+        <div class="historical-context">
+            <h3>Dort for Today</h3>
+            <p>Four centuries later, the same questions persist. Is faith something I generate or something God gives? Is the cross a potential rescue or an actual one? Does the Holy Spirit merely woo, or does He actually create new life? Can I lose what God has promised to keep?</p>
+            <p>The Canons of Dort answer every one of these questions with the same word: <strong style="color:var(--accent-gold);">God.</strong> God elects. God redeems. God regenerates. God preserves. And for that reason, all the glory belongs to Him alone.</p>
+        </div>
+    </section>
+
+    <p class="dort-humor">If you made it to the end, it was probably predestined.</p>
+
+    <!-- Two Arms Bridge: Demolition + Devotion -->
+    <div style="max-width:900px; margin:3rem auto; padding:2rem; background:rgba(139,92,246,0.05); border-radius:8px; border:1px solid rgba(139,92,246,0.12);">
+        <p style="color:var(--text-primary); font-size:0.98rem; line-height:1.8; margin:0;">The Canons of Dort are the church's answer to the most important question you can ask about your salvation. But understanding what Dort teaches is only half the battle. You need to <em>feel</em> it. You need to experience the comfort that comes when you finally stop fighting God's sovereignty and rest in His grace. If these truths have shaken your foundation, read <a href="/devotional-rescued-without-a-say">Rescued Without a Say</a> to experience the other side&mdash;not the demolition of false hopes, but the discovery of the true hope that holds us when everything else falls away.</p>
+    </div>
+
+    </div><!-- end max-width container -->
+
+    <!-- Strategic Keep Exploring Section -->
+    <section class="content-section reveal" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
+        <div style="max-width: 900px; margin: 0 auto;">
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); margin-bottom: 1.5rem; text-align: center;">Keep Exploring</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
+                <a href="/history-dort" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.4rem;">The Dramatic Story Behind the Canons</h4>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The 154 sessions, the pastors who defended the gospel, the stakes of Dort.</p>
+                </a>
+                <a href="/creed-heidelberg-catechism" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.4rem;">The Heidelberg Catechism</h4>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Another confessional landmark teaching the same truths from a pastoral angle.</p>
+                </a>
+                <a href="/compare-calvinism-arminianism" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.4rem;">Calvinism vs. Arminianism Compared</h4>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The core differences that divided the church at Dort—and still do today.</p>
+                </a>
+                <a href="/devotional-rescued-without-a-say" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.4rem;">Rescued Without a Say</h4>
+                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A devotional on the comfort that comes when you stop trying to save yourself.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    </main>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/objection-why-believe" class="related-article-card">
+        <span class="related-article-cat">🛡 Objections Answered</span>
+        <span class="related-article-title">If God Already Chose Us, Why Do We Have to Believe?</span>
+        <span class="related-article-desc">A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. ...</span>
+      </a>
+      <a href="/systematic-compatibilism" class="related-article-card">
+        <span class="related-article-cat">🏛 Theology</span>
+        <span class="related-article-title">Compatibilism</span>
+        <span class="related-article-desc">Compatibilism: God</span>
+      </a>
+      <a href="/analogy-chess-grandmaster" class="related-article-card">
+        <span class="related-article-cat">💡 Analogies</span>
+        <span class="related-article-title">Does God Control Everything? The Chess Grandmaster Analogy</span>
+        <span class="related-article-desc">Does God control everything? The chess grandmaster analogy explains how divine sovereignty and human...</span>
+      </a>
+      <a href="/ot-election" class="related-article-card">
+        <span class="related-article-cat">📚 Old Testament</span>
+        <span class="related-article-title">Israel: God&#039;s Chosen Nation</span>
+        <span class="related-article-desc">A comprehensive biblical study of Israel</span>
+      </a>
+      <a href="/question-revelation13" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">Names Written Before the Foundation of the World – Revelation 13:8 &amp; 17:8</span>
+        <span class="related-article-desc">Revelation 13:8 and 17:8 show that names were written in the Book of Life before the foundation of t...</span>
+      </a>
+      <a href="/debate-free-will" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">The Great Debate: Does Man Have Free Will?</span>
+        <span class="related-article-desc">A rigorous formal debate: Does man have free will? Two positions argue their strongest cases—liberta...</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section"><h4>Truth</h4><ul>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li><a href="/systematic-theology">Systematic Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Explore</h4><ul>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+            </ul></div>
+            <div class="footer-section"><h4>Connect</h4><ul>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+            </ul></div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
+    </footer>
+
+    <script src="/global.js" defer>
+        // Mobile dropdown toggles
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks) {
+            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
+                trigger.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const li = trigger.closest('li');
+                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
+                        if (openLi !== li) openLi.classList.remove('dropdown-open');
+                    });
+                    li.classList.toggle('dropdown-open');
+                });
+            });
+            navLinks.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const hamburger = document.querySelector('.hamburger');
+                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
+    </script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

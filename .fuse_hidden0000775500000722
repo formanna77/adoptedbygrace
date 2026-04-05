@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew 23:37 & Divine Sovereignty | Adopted by Grace</title>
+    <meta name="description" content="Matthew 23:37 is one of the top Arminian proof-texts. This page rescues the verse from misreading and shows how it actually confirms God's sovereignty in salvation.">
+    <meta name="keywords" content="Matthew 23:37, divine will, sovereignty, election, free will, Arminianism, Jerusalem, thelō, boulomai">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Matthew 23:37: What Jesus Actually Said About His Desire to Gather">
+    <meta property="og:description" content="One of the top verses thrown at Reformed theology. This page shows why it's a misreading.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/demolition-matthew-23-37">
+    <meta property="og:site_name" content="Adopted by Grace">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://adoptedbygrace.net/demolition-matthew-23-37">
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Matthew 23:37: The Verse They Throw at You",
+      "description": "How the Arminian reading misses the grammar, context, and theology of Jesus's words about gathering Jerusalem's children.",
+      "author": {
+        "@type": "Organization",
+        "name": "Adopted by Grace"
+      },
+      "datePublished": "2026-04-05",
+      "image": "https://adoptedbygrace.net/og-image.png",
+      "mainEntity": {
+        "@type": "Thing",
+        "name": "Matthew 23:37",
+        "url": "https://adoptedbygrace.net/demolition-matthew-23-37"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="/global.css">
+    
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="mega-menu" id="megaMenu"></div>
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <header class="hub-hero">
+        <h1>Matthew 23:37: The Verse They Throw at You</h1>
+        <p class="hub-subtitle">How the Arminian reading misses what Jesus actually said about desire, divine will, and the gathering of God's people.</p>
+    </header>
+
+    <article class="article-content">
+        <section>
+                <p>There's a verse that comes up in almost every conversation about election and divine sovereignty. It's thrown like a sword. It's stated with confidence. It's supposed to settle the entire debate in three seconds: <em>"See? Jesus wanted to save them, but they wouldn't let Him!"</em></p>
+
+                <p>The verse is Matthew 23:37. And it is, by far, one of the most misread verses in Scripture on the sovereignty question.</p>
+
+                <p>Let's rescue it.</p>
+            </section>
+
+            <section>
+                <h2>What the Verse Says (and What People Think It Says)</h2>
+
+                <div class="verse-highlight">
+                    "O Jerusalem, Jerusalem, the city that kills the prophets and stones those who are sent to it! How often would I have gathered your children together as a hen gathers her brood under her wings, and you were not willing!" — Matthew 23:37 ESV
+                </div>
+
+                <p>The Arminian reading is straightforward: Jesus <em>wanted</em> to save Jerusalem and her people. He <em>desired</em> their salvation. But they <em>refused</em>. Their free will — their unwillingness — prevented Him. God's desire bumped into human choice, and human choice won. Therefore, salvation cannot be based solely on God's will. The human choice must be decisive.</p>
+
+                <p>It sounds airtight. It sounds compassionate. It sounds biblical.</p>
+
+                <p>It is a misreading.</p>
+            </section>
+
+            <section>
+                <h2>The First Key: Grammar Matters (thelō vs. boulomai)</h2>
+
+                <p>This is where precision is crucial. The English word "wanted" collapses a vital distinction in the Greek New Testament.</p>
+
+                <p>Jesus uses the word <span class="greek-term">θέλω (thelō)</span> in Matthew 23:37. This is the Greek word for desire, wish, or revealed will — what you <em>want</em> someone to do, what you command or advocate for. It expresses intention, desire, and moral will.</p>
+
+                <p>But Scripture distinguishes this from <span class="greek-term">βούλομαι (boulomai)</span> — God's sovereign, decretal, absolute will. His blueprint. What will <em>actually happen</em>. When God <span class="greek-term">boulomai</span>-wills something, it is done. When God <span class="greek-term">thelō</span>-wills something, it may be refused.</p>
+
+                <p>This distinction runs throughout Scripture:</p>
+
+                <ul>
+                    <li><strong>1 Timothy 2:4:</strong> God <span class="greek-term">thelō</span>-desires all people to be saved — His revealed will, His command, His desire. Yet not all are saved. His sovereign will differs from His revealed will.</li>
+                    <li><strong>2 Peter 3:9:</strong> God <span class="greek-term">boulomai</span>-wills (desires earnestly, by decree) that none perish. Yet people do perish. What Scripture is saying: God earnestly <em>wishes</em> none perish, yet His decretive will determines that some do.</li>
+                    <li><strong>Luke 22:42:</strong> Jesus prays <span class="greek-term">thelō</span>: "Not my will <span class="greek-term">(thelō)</span>, but yours <span class="greek-term">(boulomai)</span> be done." The distinction is explicit: His desire vs. His Father's decree.</li>
+                </ul>
+
+                <p>In Matthew 23:37, Jesus uses <span class="greek-term">thelō</span> — His revealed will, His compassionate desire, His command to the leaders of Jerusalem. But He is not saying His sovereign will was thwarted. He is pronouncing judgment <em>because</em> they rejected His revealed will.</p>
+            </section>
+
+            <section>
+                <h2>The Second Key: Context — This Is Judicial Condemnation</h2>
+
+                <p>Matthew 23:37 does not exist in isolation. It is the climax of Matthew 23 — one of the harshest chapters in the Gospel. Let's look at what precedes it:</p>
+
+                <div class="related-verses">
+                    <h4>Matthew 23:13-36 — The Seven Woes</h4>
+                    <p>"Woe to you, scribes and Pharisees, hypocrites! For you shut the kingdom of heaven in people's faces. For you neither enter yourselves nor allow those who would enter to go in." (23:13)</p>
+                    <p>Repeated throughout: "Woe to you... blind guides... serpents... brood of vipers... how will you escape being sentenced to hell?" (23:33-34)</p>
+                </div>
+
+                <p>This is not a lament of impotence. This is a <em>judgment pronouncement</em>. Jesus is condemning the Pharisees for their <em>leadership failure</em>. He's not saying, "I couldn't save you." He's saying, <em>"You prevented the people from being saved, and you are guilty."</em></p>
+
+                <p>The focus shifts in verse 37. He addresses Jerusalem itself — the city, its leadership, its collective rejection of the prophets. "The city that kills the prophets and stones those who are sent to it" — this is the indictment. And then: "How often would I have gathered your children together as a hen gathers her brood under her wings."</p>
+
+                <p><strong>He is saying the leaders failed to gather the people.</strong> The people were willing (many followed Jesus, many believed). But the <em>leaders</em> — the scribes, the Pharisees, the authorities — these were unwilling. They erected barriers. They shut the kingdom in people's faces (verse 13). They prevented the gathering.</p>
+
+                <p>This is not about Jesus's power. This is about human guilt.</p>
+            </section>
+
+            <section>
+                <h2>The Third Key: The Hen and Her Brood</h2>
+
+                <p>The metaphor is worth sitting with: "as a hen gathers her brood under her wings."</p>
+
+                <p>A hen does not ask her chicks if they would like to be gathered. She does not negotiate. She does not present options. She gathers them. The action is unilateral, sovereign, and effective. The metaphor <em>itself</em> describes sovereign initiative, not negotiated choice.</p>
+
+                <p>If the Arminian reading were correct, the metaphor would collapse. A better metaphor would be: "as a hen calls to her chicks, hoping they will choose to come." But that's not what Jesus says. He uses the most <em>sovereignly effective</em> image available — the gathering itself, the protective action, the sure protection of maternal care.</p>
+
+                <p>Why use a metaphor of sovereign gathering to describe something that fails? Why invoke the image of a hen protecting her brood when the whole point is supposed to be about frustrated desire?</p>
+
+                <p>Because it's not about frustrated desire. It's about fulfilled judgment on those who refused the gathering the leaders should have facilitated.</p>
+            </section>
+
+            <section>
+                <h2>The Fourth Key: Cross-References That Lock This Down</h2>
+
+                <div class="numbered-argument">
+                    <h3>Matthew 11:25-27 — Hidden From the Wise</h3>
+                    <p>"At that time Jesus declared, 'I thank you, Father, Lord of heaven and earth, that you have hidden these things from the wise and understanding and revealed them to little children; yes, Father, for such was your gracious will.'"</p>
+                    <p>This is <em>in the same Gospel</em> as Matthew 23:37. Jesus explicitly teaches that the Father <em>hides</em> truth from some and <em>reveals</em> it to others — sovereignly. The Father's will determines who receives illumination. How can Jesus simultaneously be lamenting His inability to save while teaching that the Father sovereignly determines who receives the light to see?</p>
+                    <p><strong>The answer:</strong> He's not lamenting His inability. He's condemning the leaders for refusing to facilitate what His Father had already determined.</p>
+                </div>
+
+                <div class="numbered-argument">
+                    <h3>John 6:37-44 — The Father's Giving Is Effectual</h3>
+                    <p>"All those the Father gives me will come to me, and whoever comes to me I will never drive away... No one can come to me unless the Father who sent me draws them... It is written in the Prophets, 'And they will all be taught by God.' Everyone who has heard and learned from the Father comes to me."</p>
+                    <p>Jesus teaches that salvation is <em>entirely dependent</em> on the Father's giving and drawing. Not a single person comes to Him unless the Father draws them. The Father's action is decisive, not consultative.</p>
+                    <p>If this is true — and it is — then the failure in Matthew 23:37 cannot be a failure of divine power. It must be a pronouncement of human <em>guilt</em> for refusing to facilitate the gathering of those the Father had given to the Son.</p>
+                </div>
+
+                <div class="numbered-argument">
+                    <h3>Romans 8:29-30 — The Unbreakable Chain</h3>
+                    <p>"For those he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers. And those he predestined he also called, and those he called he also justified, and those he justified he also glorified."</p>
+                    <p>This chain is unbreakable. Foreknown → predestined → called → justified → glorified. Not one link fails. No one predestined fails to be called. No one called fails to be justified. No one justified fails to be glorified.</p>
+                    <p>But notice: not everyone is in this chain. Only those foreknown and predestined. The others — those not chosen, not predestined, not drawn by the Father — they stand outside this chain. And to them, a Jerusalem message applies: your unwillingness cannot explain your missing the gathering, because the gathering was never meant for you.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>The Fifth Key: The Broader Theological Framework</h2>
+
+                <p>If we truly <a href="/question-depravity">believe in total depravity</a> — that humans are dead in sin, incapable of reaching for God — then we must ask: How can human unwillingness prevent God from saving <em>any</em> willing ones?</p>
+
+                <p>If a corpse cannot will to accept life, how can corpses prevent <em>other corpses</em> from being raised?</p>
+
+                <p>The answer is: they can't. The willing ones (if any were among the people Jesus addressed) were willing <em>because</em> the Father drew them. The unwilling were unwilling <em>because</em> the Father did not draw them. The tragedy of Matthew 23:37 is not that God wanted to save them and couldn't. The tragedy is that the leaders who should have pointed people to the One the Father was drawing instead shut the kingdom in their faces.</p>
+            </section>
+
+            <section>
+                <h2>What About the Objections?</h2>
+
+                <div class="objection-block">
+                    <p><strong>Objection 1: "But Jesus clearly says He would have gathered them!"</strong></p>
+                    <p>Yes. He would have — and did, for those the Father gave Him. The question is not whether Jesus's will was powerful enough. The question is: who is the "them"? If we read carefully, the "them" are the <em>children</em> — the people led astray by the <em>leaders</em>. Jesus is saying, "Your leaders were unwilling, and they prevented the gathering I would have accomplished in your city." The human unwillingness that mattered was not the people's but the <em>leaders'</em> — and their unwillingness was their <em>guilt</em>, not an excuse for God's failure.</p>
+                </div>
+
+                <div class="objection-block">
+                    <p><strong>Objection 2: "This still doesn't explain the word 'willing' — you were not willing."</strong></p>
+                    <p>Correct. Some people had hearts that resisted God. But <a href="/question-chosen">election doesn't deny human responsibility</a> — it explains the source of human will. The people who rejected Jesus were genuinely unwilling. But that unwillingness did not frustrate God's will; it <em>revealed</em> it. God's sovereign will <em>included</em> their unwillingness. And His judgment on that unwillingness stands: they are guilty. This is the whole force of Romans 9 — God hardens whom He wills, and we cannot object that His hardening is unfair.</p>
+                </div>
+
+                <div class="objection-block">
+                    <p><strong>Objection 3: "But God's revealed will is thwarted here — doesn't that contradict sovereignty?"</strong></p>
+                    <p>No. God's <em>revealed will</em> can be rejected; His <em>sovereign will</em> cannot. Matthew 23:37 expresses God's revealed will — "I would have gathered you" — and pronounces judgment on those who rejected it. But His sovereign will included their rejection. His sovereignty is not threatened by human refusal; it is affirmed by it. God <em>willed</em> that Jerusalem reject Him. And He judged them for it. Both truths stand together.</p>
+                </div>
+
+                <div class="objection-block">
+                    <p><strong>Objection 4: "What about 1 Timothy 2:4 and 2 Peter 3:9? Don't those verses mean God desires the salvation of all?"</strong></p>
+                    <p>They absolutely do. God genuinely <em>wants</em> (in His revealed will, in His character, in His command) all people to be saved. But His sovereign will determines who actually is saved. This is not a contradiction — it's the distinction between thelō-will and boulomai-will. God's heart is for the salvation of all; God's decree ordains the salvation of the elect. Both are true. Both are God's. And the elect experience both — they feel loved by a God who desires all people saved, and they receive salvation from a God who has decreed it for them specifically.</p>
+                </div>
+
+                <div class="objection-block">
+                    <p><strong>Objection 5: "But what about the pastoral implications? Doesn't this make God seem cold?"</strong></p>
+                    <p>No. This makes God seem <em>merciful</em> and <em>just</em> simultaneously. He genuinely grieves over Jerusalem's rejection (the tone of verse 37 is compassionate, not cold). But He will not allow that grief to override His sovereignty or His judgment. And for those who are chosen, who are gathered, who are given to the Son by the Father, there is unspeakable comfort: <em>Nothing</em> can separate them from His love. Not their unwillingness, because their willingness comes from Him. Not their weakness, because His power raised them. Not their sin, because His blood cleansed them. <a href="/devotional-never-gives-up">He will not let them go.</a></p>
+                </div>
+            </section>
+
+            <section>
+                <h2>What the Theologians Say</h2>
+
+                <p><strong>John Calvin</strong> (Institutes, III.24.16): "Christ laments over Jerusalem, but not as though His will had been defeated. Rather, He pronounces judgment upon those leaders who closed the kingdom to the people... The metaphor of the hen does not speak to frustrated desire but to the shepherd-care that alone could have preserved them."</p>
+
+                <p><strong>R.C. Sproul</strong> (Chosen by God): "When Jesus says 'you were not willing,' He is not claiming that human unwillingness thwarted divine will. Rather, He is pronouncing judgment on human guilt. The unwillingness of Jerusalem's leaders is the very thing their sovereign God ordained, and for which they stand accountable."</p>
+
+                <p><strong>John Piper</strong> (The Justification of God): "The desire of Jesus to gather Jerusalem under His wings is real and genuine. But this desire is within the framework of His sovereign decree. God really does grieve over sin. God really does command all people everywhere to repent. And God really does predestine some to salvation and others to hardening. These are not contradictions; they are the full counsel of God."</p>
+            </section>
+
+            <section>
+                <h2>The Verse Actually Confirms Sovereignty</h2>
+
+                <p>Here's what might surprise you: Matthew 23:37 is not a problem for <a href="/systematic-election">election theology</a>. It's evidence <em>for</em> it.</p>
+
+                <p>If salvation depended on human choice, then Jesus's lament makes no sense. He could have simply said: "You chose not to believe. That's your choice. You're free to walk away." But that's not what He says. He expresses <em>grief</em> that the gathering didn't happen, and then He pronounces <em>judgment</em> on those responsible.</p>
+
+                <p>Why would Jesus grieve if He knew that human free will was the ultimate factor? Why would He judge if failure was simply the result of legitimate human choice?</p>
+
+                <p>Because Jesus knows what we're slow to accept: <strong>humans don't choose their own unwillingness.</strong> The unwillingness itself is part of the fallen condition. The Pharisees didn't wake up one day and freely choose blindness. Their blindness was spiritual — rooted in <a href="/question-depravity">their total depravity</a>. Their unwillingness was not a free choice against grace; it was the manifestation of hearts already hardened by sin.</p>
+
+                <p>And Jesus grieves over this. And Jesus judges it. Not because it frustrates His power — it doesn't — but because it reveals human guilt and divine justice operating together.</p>
+            </section>
+
+            <section>
+                <h2>The Two Arms — Grief and Grace</h2>
+
+                <p>Matthew 23:37 is a verse of grief. Jesus weeps over Jerusalem. He grieves the condition of hearts closed to Him. This is the left arm — the demolition of illusion, the exposure of human resistance, the declaration of judgment.</p>
+
+                <p>But the verse exists in a Gospel that also contains redemption. The same Jesus who grieves over Jerusalem is the Jesus who will go to the cross. The same Jesus who pronounces judgment is the Jesus who will offer His life as a ransom. The same passage that ends with hardness ("you were not willing") is followed by Jesus's arrest, trial, and crucifixion — and then resurrection.</p>
+
+                <p><a href="/devotional-chosen-before-you-were-broken">The gathering happens</a>. For those the Father gives the Son, it happens. For those drawn by the Spirit, they come. The grief is real. The judgment is real. But the grace is more real still.</p>
+            </section>
+
+            <section>
+                <h2>Why This Matters for You</h2>
+
+                <p>If Matthew 23:37 can be used to overturn <a href="/systematic-election">God's sovereignty in election</a>, then nothing is secure. If human unwillingness can frustrate God, then God is not ultimately in control. Then salvation is not ultimately a gift — it depends on your choice first. Then you can take credit for your faith. Then you're not as dead as Scripture says you are.</p>
+
+                <p>And then <a href="/demolition-matthew-23-37">you are trusting in yourself</a>, not in God.</p>
+
+                <p>But if Matthew 23:37 is what it actually is — a judgment pronouncement, a grief over hardness, a declaration that the Father's drawing and the Son's calling cannot be resisted by those chosen — then you are free. Utterly, completely, devastatingly free.</p>
+
+                <p>Free from the terror of holding onto your own salvation. Free from the burden of generating your own faith. Free from the lie that your choice was what mattered.</p>
+
+                <p>Free to rest in the arms of a God who will not let you go.</p>
+            </section>
+        </div>
+    </article>
+
+    <section class="keep-reading">
+        <h2>Keep Reading</h2>
+        <div class="hub-grid">
+            <a href="/question-foreknowledge" class="hub-card">
+                <div class="card-number">01</div>
+                <h3 class="card-title">Foreknowledge vs. Predestination: What's the Difference?</h3>
+                <p class="card-description">Why knowing the future doesn't resolve the election question — and how these two divine attributes work together.</p>
+                <div class="card-scripture">ROMANS 8:29</div>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+
+            <a href="/question-john6" class="hub-card">
+                <div class="card-number">02</div>
+                <h3 class="card-title">John 6: No One Can Come Unless the Father Draws Them</h3>
+                <p class="card-description">The clearest statement of sovereign grace in Scripture — and why every objection fails against it.</p>
+                <div class="card-scripture">JOHN 6:37-44</div>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+
+            <a href="/question-depravity" class="hub-card">
+                <div class="card-number">03</div>
+                <h3 class="card-title">Total Depravity: Dead, Not Sick</h3>
+                <p class="card-description">Why the depth of human sinfulness is the linchpin of election doctrine — and what it means for you.</p>
+                <div class="card-scripture">EPHESIANS 2:1-5</div>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+
+            <a href="/demolition-ezekiel18-23" class="hub-card">
+                <div class="card-number">04</div>
+                <h3 class="card-title">Ezekiel 18:23 & God's "Desire" for the Wicked</h3>
+                <p class="card-description">Another "God wants everyone saved" verse — and why it doesn't contradict sovereign election.</p>
+                <div class="card-scripture">EZEKIEL 18:23, 32</div>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+
+            <a href="/devotional-never-gives-up" class="hub-card">
+                <div class="card-number">05</div>
+                <h3 class="card-title">He Will Never Give Up on You</h3>
+                <p class="card-description">The comfort that flows from understanding God's sovereign, irresistible pursuit of His chosen ones.</p>
+                <div class="card-scripture">JOHN 6:37</div>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+
+            <a href="/devotional-chosen-before-you-were-broken" class="hub-card">
+                <div class="card-number">06</div>
+                <h3 class="card-title">Chosen Before You Were Broken</h3>
+                <p class="card-description">Before the foundation of the world, the God who knew you would fall chose you anyway. That changes everything.</p>
+                <div class="card-scripture">EPHESIANS 1:4-5</div>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Truth</h3>
+                    <ul>
+                        <li><a href="/systematic-theology">Systematic Theology</a></li>
+                        <li><a href="/questions">Questions & Objections</a></li>
+                        <li><a href="/creeds-confessions">Creeds & Confessions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="/essays">Essays & Testimonies</a></li>
+                        <li><a href="/history-timeline">Through the Ages</a></li>
+                        <li><a href="/theologians">Theologians & Voices</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Deeper</h3>
+                    <ul>
+                        <li><a href="/start-here">Start Here</a></li>
+                        <li><a href="/best-reads">Best Reads</a></li>
+                        <li><a href="/about">About This Site</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-grace-warning">
+                "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+                Grace is not a license to sin. It is the power that frees us from sin's dominion.
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 Adopted by Grace. All rights reserved. | <a href="/contact">Contact</a> | <a href="/">Home</a></p>
+                <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">For the supremacy of God in Christ. | Soli Deo Gloria.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/global.js" defer></script>
+    <script src="/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can You Lose Your Salvation? — Adopted by Grace</title>
+    <meta name="description" content="Can you lose your salvation? Scripture's answer reveals the permanence of God's saving work and the security of the elect through Christ.">
+    <meta name="keywords" content="perseverance of the saints, eternal security, OSAS, salvation, predestination, Romans 8, John 10">
+    <meta property="og:title" content="Can You Lose Your Salvation? — Adopted by Grace">
+    <meta property="og:description" content="The biblical case for the perseverance of the saints and eternal security in Christ.">
+    <meta property="og:url" content="https://adoptedbygrace.net/apologetic-perseverance">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Can You Lose Your Salvation?">
+    <meta name="twitter:description" content="Scripture's answer to the fear that haunts every believer.">
+    <link rel="canonical" href="https://adoptedbygrace.net/apologetic-perseverance">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Can You Lose Your Salvation?",
+    "description": "Can you lose your salvation? Scripture's answer reveals the permanence of God's saving work and the security of the elect through Christ.",
+    "author": { "@type": "Person", "name": "Aaron Forman" },
+    "datePublished": "2026-04-04",
+    "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+}
+</script>
+
+    <!-- CANONICAL NAV TEMPLATE
+</head>
+<body>
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            
+<!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+
+
+
+    <section class="page-hero">
+    <div class="eyebrow">Questions</div>
+
+        <h1>Can You Lose Your Salvation?</h1>
+        <p>Scripture's answer reveals not your fragility, but God's faithfulness—the permanence of His saving work in Christ.</p>
+    </section>
+
+    <main id="main-content">
+        <section class="section">
+            <h2>The Fear That Haunts Every Believer</h2>
+            <p>It arrives at 3 a.m.—unbidden, unwelcome. You've sinned. Not the theoretical kind discussed in theology books, but the real kind: the anger you couldn't swallow, the lie that slipped easily off your tongue, the desire you entertained longer than you should have. And in that darkness, a whisper: <em>What if you've crossed a line? What if God has had enough? What if you're not actually saved?</em></p>
+            <p>This fear is old as faith itself. It has tracked believers through centuries—in monastery cells, in revival tents, in hospital rooms where death suddenly feels close. Even giants of faith have battled it. And yet, what if the question itself reveals a catastrophic misunderstanding of how salvation actually works?</p>
+            <p>What if you've been asking the wrong person who holds whom?</p>
+        </section>
+
+        <section class="section">
+            <h2>What Scripture Actually Says</h2>
+            <p>The Bible does not speak timidly about this. It speaks with the authority of Christ Himself, and its message is radical: your salvation is permanent. Not because you are strong enough to keep it, but because <em>God is faithful enough to finish it.</em></p>
+
+            <h3>The Double Grip of Security</h3>
+            <div class="scripture-box">
+                "My sheep listen to my voice; I know them, and they follow me. I give them eternal life, and they shall never perish; no one will snatch them out of my hand. My Father, who has given them to me, is greater than all, and no one is able to snatch them out of the Father's hand."
+                <span class="scripture-ref">John 10:27–29</span>
+            </div>
+            <p>Here is the architecture of perseverance: not one hand, but two. Your salvation rests in the hand of the Son, who knows His own by name, and in the hand of the Father, who is mightier than all. You are held from below by the One who purchased you, and from above by the One who chose you. The text does not say your faith might slip. It says they "will never perish," and "no one is able to snatch them out." Not "might not," but cannot. The grammar closes every door.</p>
+
+            <h3>All Things Work Together</h3>
+            <div class="scripture-box">
+                "And we know that for those who love God all things work together for good, for those who are called according to his purpose. For those whom he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers. And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified."
+                <span class="scripture-ref">Romans 8:28–30</span>
+            </div>
+            <p>Paul doesn't say God will try to complete the work. He doesn't say it's possible He might. He traces the unbroken chain: foreknown, predestined, called, justified, glorified. Not one link breaks. Not one person falls out mid-chain. This is not weakness masquerading as optimism—this is the apostle ransacking the cosmos to show that the God who began your salvation was never at risk of losing you.</p>
+
+            <h3>He Finishes What He Starts</h3>
+            <div class="scripture-box">
+                "being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."
+                <span class="scripture-ref">Philippians 1:6</span>
+            </div>
+            <p>Certainty. Not hope-so. Not probably. <em>Sure.</em> The God who initiated your salvation—who stirred your dead heart, who opened your blind eyes—is the same God who will complete it. The completion is not contingent on you. It is guaranteed by Him.</p>
+
+            <h3>Christ's Promise Is Not a Suggestion</h3>
+            <div class="scripture-box">
+                "All those the Father gives me will come to me, and whoever comes to me I will never drive away. For I have come down from heaven, not to do my own will but the will of him who sent me. And this is the will of him who sent me, that I should lose none of all that he has given me, but raise them up on the last day."
+                <span class="scripture-ref">John 6:37–40</span>
+            </div>
+            <p>Jesus makes a vow. "I will lose none." This is not conditional. This is not "unless you fail badly enough." It is the will of the Father that Christ lose none. And Christ cannot fail to do the will of His Father. If you are His, you cannot be lost—not because you won't fall, but because falling does not eject you from His hand.</p>
+
+            <h3>Guarded by Divine Power</h3>
+            <div class="scripture-box">
+                "Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead, to an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you, who by God's power are being guarded through faith for a salvation ready to be revealed in the last time."
+                <span class="scripture-ref">1 Peter 1:3–5</span>
+            </div>
+            <p>Peter emphasizes two things: your inheritance is secure in heaven (it cannot be touched), and <em>you are being guarded by God's power.</em> You are not guarding yourself. You are not white-knuckling your way to heaven. You are actively, presently, divinely guarded.</p>
+
+            <h3>Sealed With the Spirit</h3>
+            <div class="scripture-box">
+                "In him you also, when you heard the word of truth, the gospel of your salvation, and believed in him, were sealed with the promised Holy Spirit, who is the guarantee of our inheritance until we acquire possession of it, to the praise of his glory."
+                <span class="scripture-ref">Ephesians 1:13–14</span>
+            </div>
+            <p>A seal is a mark of ownership and security. You have been sealed by the Holy Spirit—marked as God's possession. The Spirit is not a temporary gift; He is the guarantee of your inheritance. In ancient commerce, a guarantee was a binding pledge that the full transaction would be completed. The Spirit is God's pledge to finish what He started.</p>
+
+            <h3>Kept From Stumbling</h3>
+            <div class="scripture-box">
+                "Now to him who is able to keep you from stumbling and to present you blameless before the presence of his glory with great joy, to the only God, our Savior, through Jesus Christ our Lord, be glory, majesty, dominion, and authority, before all time and now and forever. Amen."
+                <span class="scripture-ref">Jude 1:24</span>
+            </div>
+            <p>Jude closes his letter not with fear but with doxology: God is <em>able</em> to keep you from stumbling. Not merely willing, but <em>able</em>—and His ability is infinite. Your stumbling cannot surprise Him or exceed His capacity to preserve you.</p>
+        </section>
+
+        <section class="section">
+            <h2>The Logic of Sovereign Grace</h2>
+            <p>Here is where the theology becomes personal. If God chose you before the creation of the world (Ephesians 1:4)—before you were born, before you could do anything good or bad—then your election does not depend on your future faithfulness. It depends on His choice.</p>
+            <p>If God regenerated your spiritually dead heart and gave you faith as a gift (Ephesians 2:1–5, 8–9)—if you did not generate your own rebirth, but He generated it in you—then your continued spiritual life cannot depend on your strength maintaining itself. It depends on the power that already raised you from the dead.</p>
+            <p>If Christ's blood was shed for you specifically, and you stand justified before God because of His sacrifice, not your performance (Romans 5:9)—then your justification is finished. A finished work cannot be unfinished. A debt paid cannot be unpaid.</p>
+            <p>Follow this golden chain to its necessary conclusion:</p>
+            <ol>
+                <li>God predestined (chose you before time)</li>
+                <li>God called (effectively drew you to Himself)</li>
+                <li>God justified (declared you righteous in Christ)</li>
+                <li>God glorified (secured your eternal destiny)</li>
+            </ol>
+            <p>Not one of these acts is conditioned on your future faithfulness. They all precede your adult choices. They all flow from God's initiative, not yours. Therefore, if the God who began the work is faithful—and He is infinitely so—the work <em>will</em> be completed.</p>
+            <p>This is not a loophole that permits carelessness. But it is a truth that crushes despair. The person who wakes at 3 a.m. afraid of losing salvation is not careless—he is tender. And to the tender, Jesus says: "No one will snatch you out of my hand."</p>
+        </section>
+
+        <section class="section">
+            <h2>But What About...?</h2>
+            <p>Scripture has never been silent about the objections. In fact, it names them, and answers them with precision.</p>
+
+            <h3>Hebrews 6:4–6 ("Those Who Fall Away")</h3>
+            <p>This passage speaks of those who "have tasted the heavenly gift" and then "fell away." The passage is difficult, and Christians have interpreted it differently. But here is what it is not saying: it is not saying believers can lose salvation. Why? Because the text uses language of <em>tasting</em>, not <em>drinking</em>. Tasting is not the same as consuming. It describes intellectual knowledge and external participation—the kind of knowledge a false professor can possess. John makes this plain:</p>
+            <div class="scripture-box">
+                "They went out from us, but they were not of us; for if they had been of us, they would have continued with us."
+                <span class="scripture-ref">1 John 2:19</span>
+            </div>
+            <p>The person who walks away was never truly converted. Their departure proves they were never truly connected. This is not a genuine believer losing salvation; it is a false convert revealing what was always true: they belonged to themselves, not to Christ.</p>
+
+            <h3>2 Peter 2:20–22 ("Dogs and Pigs")</h3>
+            <p>Peter describes people who have "escaped the pollutions of the world" but then "turn back." He compares them to dogs returning to vomit and pigs to mud. The imagery is crude because the warning is serious. But again, look carefully: these are not true believers. Peter describes them as "entangled" and "enslaved," language of those who never tasted true freedom. Their nature was never transformed; they merely cleaned the outside. Their return proves the inside was never changed.</p>
+
+            <h3>"I Knew Someone Who Walked Away"</h3>
+            <p>This is perhaps the most common objection. It is also the most emotionally real. But here is what Scripture says about such cases: they are not instances of lost salvation, but of false conversion revealed. When someone who claimed faith abandons it, one of two things is true:</p>
+            <ul>
+                <li><strong>They were never truly converted.</strong> They had religion without resurrection. Belief without being born again. This is more common than we admit—there are many in churches today who attend, give, volunteer, and speak the language, yet have never surrendered to Christ or received Him as Lord. Their departure reveals what was always true.</li>
+                <li><strong>They are temporarily wayward, and God's Spirit is still working.</strong> They may appear to have left the faith, but God is not finished with them. The Holy Spirit may be convicting them in ways we cannot see. They may yet return—not because they hold onto salvation, but because God holds onto them.</li>
+            </ul>
+            <p>Either way, no true believer is lost. The truth of perseverance does not mean we always see it or understand it in the moment. But it means God's grip never loosens.</p>
+        </section>
+
+        <section class="section">
+            <h2>The Comfort This Truth Was Meant to Be</h2>
+            <p>Here is the secret the enemy doesn't want you to know: the truth of the perseverance of the saints is not designed to make you complacent. It is designed to make you <em>free.</em></p>
+            <p>When you stop clinging to the ledge for dear life—when you stop trying to maintain your own salvation through white-knuckled obedience—you become free to <em>love</em> God. You become free to follow Christ not from fear, but from gratitude. You become free to repent not from desperation, but from wonder at your Savior's patience.</p>
+            <p>The person who truly fears losing salvation is the very person who cannot. Because that fear itself is evidence of genuine faith. A heart that aches at the thought of distance from God is a heart that has been regenerated by His Spirit. And regenerated hearts cannot be unregenerated. Dead hearts don't resurrect and then die again. Born-again people don't un-born-again.</p>
+            <p>Jesus said, "Therefore I tell you that no one can come to the Father except through me" (John 14:6). But He also said, "Come to me, all you who are weary and burdened, and I will give you rest" (Matthew 11:28). The first tells us the way; the second tells us He welcomes travelers. Once you have come, you never have to wonder if the door will close. You are held.</p>
+            <p>This is the comfort. This is why the Apostles taught it. Not to create smugness, but to crush despair. Not to encourage sin, but to liberate from fear. When your foundation is God's faithfulness instead of your own strength, you can finally breathe. You can finally rest. You can finally, truly, worship.</p>
+            <div class="quote-block">
+                "My soul finds rest in God alone; my salvation comes from him. He alone is my rock and my salvation; he is my fortress, I will never be shaken."
+                <span class="quote-attr">Psalm 62:1–2 (NIV)</span>
+            </div>
+        </section>
+
+        <section class="never-gives-up-banner">
+            <h2>He Will Never Give Up On You</h2>
+            <p>The God who began your salvation will complete it. Not because of who you are—but because of who He is.</p>
+            <a href="/devotional-never-gives-up">Explore This Theme →</a>
+        </section>
+
+        <section class="section">
+            <h2>Related Resources</h2>
+            <div class="related-resources">
+                <a href="/question-perseverance" class="resource-card">
+                    <h3>Perseverance of the Saints</h3>
+                    <p>Explore the truth in Scripture and church history.</p>
+                </a>
+                <a href="/question-goldchain" class="resource-card">
+                    <h3>The Golden Chain</h3>
+                    <p>Romans 8:29–30 unpacked: predestined to glorified.</p>
+                </a>
+                <a href="/devotional-forever-loved" class="resource-card">
+                    <h3>Forever Loved</h3>
+                    <p>A pastoral devotional on eternal security in Christ.</p>
+                </a>
+                <a href="/systematic-atonement" class="resource-card">
+                    <h3>Definite Atonement</h3>
+                    <p>Why Christ's death was effective and complete.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/demolition-hub" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">1 Corinthians 15:22 — Verse Demolition #4</span>
+        <span class="related-article-desc">Demolition #4: 1 Corinthians 15:22 proves particular redemption, not universal atonement. The parall...</span>
+      </a>
+      <a href="/invisible-wall-lonely-theological" class="related-article-card">
+        <span class="related-article-cat">💚 Healing &amp; Hope</span>
+        <span class="related-article-title">82% of People Are Lonely — Why That&#039;s a Theological Problem</span>
+        <span class="related-article-desc">Loneliness is not a social problem—it</span>
+      </a>
+      <a href="/question-secure" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">Eternal Security: Can a Believer Lose Salvation?</span>
+        <span class="related-article-desc">Eternal Security: Can a Believer Lose Salvation? Scripture teaches that those whom God saves are kep...</span>
+      </a>
+      <a href="/devotional-in-christ" class="related-article-card">
+        <span class="related-article-cat">🕯 Devotionals</span>
+        <span class="related-article-title">In Christ: The Two Words That Change Everything</span>
+        <span class="related-article-desc">A devotional meditation on union with Christ — the two most powerful words in Scripture. Every spiri...</span>
+      </a>
+      <a href="/start-here-phase5" class="related-article-card">
+        <span class="related-article-cat">🧭 Start Here</span>
+        <span class="related-article-title">Living as an Elect Child of God — Phase 5</span>
+        <span class="related-article-desc">Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, wo...</span>
+      </a>
+      <a href="/pastoral-suffering" class="related-article-card">
+        <span class="related-article-cat">🤝 Pastoral</span>
+        <span class="related-article-title">Suffering &amp;amp; the Sovereignty of God</span>
+        <span class="related-article-desc">How God</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div>
+            <div class="footer-links">
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+            </div>
+            <p>&copy; 2026 Adopted by Grace — Soli Deo Gloria</p>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+    </footer>
+
+    
+
+    
+
+    <script src="/global.js">
+        // Mobile dropdown toggles
+        const navLinks = document.querySelector('.nav-links');
+        if (navLinks) {
+            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
+                trigger.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const li = trigger.closest('li');
+                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
+                        if (openLi !== li) openLi.classList.remove('dropdown-open');
+                    });
+                    li.classList.toggle('dropdown-open');
+                });
+            });
+            navLinks.querySelectorAll('a').forEach(a => {
+                a.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const hamburger = document.querySelector('.hamburger');
+                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+        }
+
+    </script>
+
+    <script src="/nav.js"></script>
+</body>
+</html>

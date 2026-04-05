@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Open Wound: Suffering, Grief & Trauma. For those who have lost someone, live with pain, survived abuse, or asked why bad things happen to good people.">
+    <meta property="og:title" content="The Open Wound — Suffering & God's Sovereignty">
+    <meta property="og:description" content="For those who just lost someone, live with chronic pain, survived abuse, or asked why bad things happen to good people. How a sovereign God and real suffering coexist.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/open-wound-hub.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/open-wound-hub.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The Open Wound — Suffering & God's Sovereignty">
+    <meta name="twitter:description" content="For those grieving, in pain, or asking why bad things happen. Scripture's answer to suffering is deeper than any platitude.">
+    <meta name="keywords" content="suffering God, grief theology, trauma and faith, why do bad things happen, God's sovereignty suffering, pain and God, Christian grief, abuse survivor faith">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>The Open Wound — Suffering & God's Sovereignty</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "headline": "The Open Wound — Suffering & God's Sovereignty",
+        "description": "For those who have lost someone, live with chronic pain, survived abuse, or asked why bad things happen to good people.",
+        "url": "https://adoptedbygrace.net/open-wound-hub.html",
+        "datePublished": "2026-03-30",
+        "dateModified": "2026-03-30",
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+    }
+    </script>
+    <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <main id="main-content">
+        <section class="hub-hero">
+            <div class="hub-hero-eyebrow">Suffering & Sovereignty</div>
+            <h1>The Open <span class="hub-accent">Wound</span></h1>
+            <p class="hub-subtitle">Every other answer to suffering is either dishonest or incomplete. We're going to do what almost no one does: look suffering square in the face and explain — with tears and with Scripture — how a sovereign God and real suffering coexist, and why that's actually better news than any alternative.</p>
+            <div class="hub-stats">
+                <div class="hub-stat">7 <span>Articles</span></div>
+                <div class="hub-stat">1 <span>Healing Category</span></div>
+            </div>
+        </section>
+
+        <section class="hub-intro">
+            <p><strong>If you're reading this with eyes that still sting from crying, if the funeral was last week or ten years ago and the weight hasn't lifted — you're in the right place.</strong> We don't offer platitudes here. We offer truth.</p>
+            <p><strong>Romans 8:28 isn't a platitude.</strong> It's a sovereign decree. Joseph was sold into slavery. Falsely accused. Imprisoned. Every chapter looked like abandonment. And at the end: "You meant it for evil, but God meant it for good, to bring about that many people should be kept alive." That "but God" is the hinge of history and every broken life.</p>
+        </section>
+
+        <blockquote class="hub-scripture-quote">
+            "And we know that in all things God works for the good of those who love him, who have been called according to his purpose. For those whom he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers."
+            <span class="hub-scripture-ref">Romans 8:28-29 (ESV)</span>
+        </blockquote>
+
+        <section class="hub-container">
+            <h2 class="hub-section-title">The Wound Explored</h2>
+            <p class="hub-section-subtitle">Ten articles on suffering, grief, trauma, and the God who ordains them.</p>
+            
+            <div class="hub-grid">
+                <a href="/open-wound-hospital-room.html" class="hub-card">
+                    <div class="card-number">01</div>
+                    <h3 class="card-title">The Question That Haunts Every Hospital Room</h3>
+                    <p class="card-description">When disease strikes, we ask God "Why?" Scripture answers unflinchingly.</p>
+                    <div class="card-scripture">PSALM 139:1-3</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <a href="/open-wound-sovereignty-in-grief.html" class="hub-card">
+                    <div class="card-number">02</div>
+                    <h3 class="card-title">When God Is Sovereign and Your World Just Collapsed</h3>
+                    <p class="card-description">Grief doesn't negate God's sovereignty. It reveals what it really means.</p>
+                    <div class="card-scripture">JOB 1:21</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <a href="/open-wound-empty-nursery.html" class="hub-card">
+                    <div class="card-number">03</div>
+                    <h3 class="card-title">When God Is Sovereign and the Nursery Is Empty: Sovereignty and Miscarriage</h3>
+                    <p class="card-description">You believe God is in control. And then the ultrasound goes silent. How do you hold sovereignty and miscarriage in the same trembling hands?</p>
+                    <div class="card-scripture">PSALM 139:13-14</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <a href="/open-wound-senseless-death.html" class="hub-card">
+                    <div class="card-number">04</div>
+                    <h3 class="card-title">When the Death Makes No Sense: Sovereignty and the Loss That Has No Explanation</h3>
+                    <p class="card-description">A gentle place to grieve a death that seems pointless, arbitrary, cruel. You don't need theology right now.</p>
+                    <div class="card-scripture">LAMENTATIONS 3:31-33</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <a href="/open-wound-terminal-diagnosis.html" class="hub-card">
+                    <div class="card-number">05</div>
+                    <h3 class="card-title">When the Diagnosis Is Terminal: Sovereignty and the End You Didn't Choose</h3>
+                    <p class="card-description">When the doctor says there's nothing more to do. What God's sovereignty means when the future you planned has been replaced by a countdown.</p>
+                    <div class="card-scripture">PHILIPPIANS 4:6-7</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <a href="/open-wound-betrayed-by-church.html" class="hub-card">
+                    <div class="card-number">06</div>
+                    <h3 class="card-title">When the Church Becomes the Wound</h3>
+                    <p class="card-description">When the people meant to represent God become the wound itself. Distinguishing Christ from the institution that hurt you.</p>
+                    <div class="card-scripture">HEBREWS 10:24-25</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+
+                <a href="/open-wound-miscarriage.html" class="hub-card">
+                    <div class="card-number">07</div>
+                    <h3 class="card-title">The Child You Never Held</h3>
+                    <p class="card-description">Miscarriage, infant loss, and the God who knit them together and knows their name. For the parent grieving someone the world barely acknowledges existed.</p>
+                    <div class="card-scripture">PSALM 139:13-16</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="hub-humor">
+            <strong>This page was not predestined to make suffering make sense.</strong> It was predestined to point you to the One who does.
+        </section>
+
+        <blockquote class="hub-grief-block">
+            The God who numbered your days also numbered your tears. And He has a jar for every single one.
+        </blockquote>
+
+        <section class="hub-cross-ref">
+            <h3>Explore More</h3>
+            <div class="hub-cross-ref-links">
+                <a href="/pastoral-suffering">Pastoral Suffering</a>
+                <a href="/devotional-valley-shadow">Valley of the Shadow</a>
+                <a href="/ot-job.html">Job: Suffering & Sovereignty</a>
+                <a href="/devotional-valley-shadow">Strength in Weakness</a>
+                <a href="/devotional-chosen-before-you-were-broken">Known Before You Were Known</a>
+            </div>
+        </section>
+
+        <div class="hub-crown-jewel">
+            <div class="hub-crown-label">BEFORE YOU HEAL — READ THIS</div>
+            <h3 class="hub-crown-title">Are You Sure You're Saved?</h3>
+            <p class="hub-crown-text">The deepest wound is the one you don't know you have. If your faith is something you produced, you are trusting in yourself — and that wound will never heal. True healing begins not when you forgive yourself, but when you surrender the illusion that you ever saved yourself in the first place.</p>
+            <a href="/psychology-cost-of-rejecting-grace" class="hub-crown-button">Read This Now →</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Theology</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Content</h4>
+                <ul>
+                    <li><a href="/devotionals">Rest in Grace</a></li>
+                    <li><a href="/history-timeline">Through the Ages</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/privacy">Privacy</a></li>
+                    <li><a href="/terms">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024-2026 Adopted by Grace. All content is the intellectual property of Adopted by Grace. Sharing, reproduction, or derivative works are prohibited without written permission.</p>
+        </div>
+    </footer>
+
+    <section class="related-articles" aria-label="Related articles">
+        <div class="related-articles-inner">
+            <h2 class="related-articles-heading">Keep Exploring</h2>
+            <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+            <div class="related-articles-grid">
+                <a href="/ot-abel-cain" class="related-article-card">
+                    <span class="related-article-cat">📚 Old Testament</span>
+                    <span class="related-article-title">Abel and Cain: The First Election</span>
+                    <span class="related-article-desc">Genesis 4 reveals God</span>
+                </a>
+                <a href="/story-surgeon-stone-heart" class="related-article-card">
+                    <span class="related-article-cat">📜 Stories</span>
+                    <span class="related-article-title">Can a Stone Heart Choose? The Surgeon's Parable on Regeneration</span>
+                    <span class="related-article-desc">Can a stone heart choose? A surgeon gives a new heart without asking. A parable about regeneration a...</span>
+                </a>
+                <a href="/psalms-election" class="related-article-card">
+                    <span class="related-article-cat">🎵 Psalms & Poetry</span>
+                    <span class="related-article-title">Election in the Psalms</span>
+                    <span class="related-article-desc">How David understood himself as chosen by grace, not merit. Election themes throughout the Psalms—Ps...</span>
+                </a>
+                <a href="/systematic-theology-proper" class="related-article-card">
+                    <span class="related-article-cat">🏛 Theology</span>
+                    <span class="related-article-title">Theology Proper: The God Who Is There</span>
+                    <span class="related-article-desc">Theology Proper: Exploring God</span>
+                </a>
+                <a href="/devotional-valley-shadow" class="related-article-card">
+                    <span class="related-article-cat">🕯 Devotionals</span>
+                    <span class="related-article-title">Valley of the Shadow</span>
+                    <span class="related-article-desc">Psalm 23 doesn</span>
+                </a>
+                <a href="/compare-calvinism-open-theism" class="related-article-card">
+                    <span class="related-article-cat">⚖ Comparisons</span>
+                    <span class="related-article-title">Calvinism vs Open Theism: Does God Know the Future?</span>
+                    <span class="related-article-desc">Calvinism vs Open Theism compared: Does God know the future exhaustively, or is He learning alongsid...</span>
+                </a>
+            </div>
+            <div class="related-articles-browse">
+                <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+                <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="/global.js" defer></script>
+    <script src="/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Romans 1:18 reveals the deepest human problem: we suppress what we already know about God. Modern psychology calls it motivated reasoning. Scripture diagnosed it millennia before Kunda published.">
+    <meta name="keywords" content="Romans 1:18, motivated reasoning, suppression of truth, psychological defense, sin and cognition, Reformed theology, noetic effects of sin, human depravity, truth suppression, psychology of belief">
+    <meta property="og:title" content="Why Do People Reject What They Know Is True?">
+    <meta property="og:description" content="Romans 1:18 and motivated reasoning — a deep-dive into how modern psychology's concept of motivated reasoning maps perfectly to Paul's description of humanity suppressing truth in unrighteousness.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/psychology-suppressing-truth">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-psychology.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Why Do People Reject What They Know Is True?">
+    <meta name="twitter:description" content="Romans 1:18 and motivated reasoning — Scripture's diagnosis meets modern psychology.">
+    <link rel="canonical" href="https://adoptedbygrace.net/psychology-suppressing-truth.html">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Why Do People Reject What They Know Is True?</title>
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Suppressing the Truth: Why the Human Mind Fights What It Already Knows",
+        "description": "Romans 1:18 and motivated reasoning — a deep-dive into how modern psychology's concept of motivated reasoning maps perfectly to Paul's description of humanity suppressing truth in unrighteousness.",
+        "image": "https://adoptedbygrace.net/og-psychology.jpg",
+        "datePublished": "2026-03-30",
+        "dateModified": "2026-03-30",
+        "author": {
+            "@type": "Organization",
+            "name": "Adopted by Grace"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Adopted by Grace",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://adoptedbygrace.net/logo.svg"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://adoptedbygrace.net/psychology-suppressing-truth"
+        }
+    }
+    </script>
+    <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+    <div class="reading-progress"></div>
+
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+            <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <main class="article-body" id="main-content">
+        <div class="page-hero">
+            <span class="eyebrow">Psychology Series: Why We Resist</span>
+            <h1>Suppressing the <span class="gold">Truth</span></h1>
+            <p class="subtitle">Why the human mind fights what it already knows. Romans 1:18 and motivated reasoning — Scripture's diagnosis meets modern psychology.</p>
+            <p class="read-time">9 minute read</p>
+        </div>
+
+        <div class="content-body">
+            <h2><span class="section-number">01</span>The Uncomfortable Confession of Romans 1</h2>
+
+            <p>The most devastating verse in the Bible is not about hell. It's about knowledge.</p>
+
+            <div class="scripture-quote">
+                "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who by their unrighteousness suppress the truth."
+                <span class="scripture-ref">Romans 1:18 (ESV)</span>
+            </div>
+
+            <p>Notice the operative word: <strong>suppress</strong>. Not ignorance. Not confusion. Not lack of data. The verb in Greek is <em>katechontōn</em> — present active participle. Ongoing. Deliberate. A continuous effort to hold something down.</p>
+
+            <p>Paul's claim is stunning. The human problem is not that we don't know about God. The problem is that we DO know — and we spend our lives pushing it away. The wrath of God is not primarily directed at those who are ignorant. It's directed at those who know the truth and work tirelessly to unsee it.</p>
+
+            <p>This is the deepest indictment of the human condition. We are not innocent victims of darkness. We are active agents in our own blindness. We see the light and turn away. We know the truth and cover our ears.</p>
+
+            <h2><span class="section-number">02</span>What Psychology Calls "Motivated Reasoning"</h2>
+
+            <p>In 1990, cognitive psychologist Ziva Kunda published a landmark paper that would revolutionize how we understand human decision-making. The title said everything: "The Case for Motivated Reasoning."</p>
+
+            <p>Motivated reasoning is the tendency to process information — especially threatening information — in ways that serve our pre-existing desires, beliefs, and emotions rather than truth. It's not that we're stupid. It's that we're motivated. When presented with evidence that challenges our worldview, our minds don't remain neutral. They become brilliant lawyers.</p>
+
+            <p>Here's the mechanism: a person encounters information that threatens their identity, status, or worldview. Instead of evaluating that information objectively, the mind activates an entire arsenal of defensive strategies. It nitpicks the source. It finds holes in the methodology. It generates alternative explanations. It reinterprets ambiguous evidence as supporting the preferred conclusion.</p>
+
+            <div class="mechanism-box">
+                <h4>The Directional vs. Accuracy Distinction</h4>
+                <p><strong>Accuracy motivation:</strong> I want to know what's true, wherever the evidence leads.</p>
+                <p><strong>Directional motivation:</strong> I want to arrive at the conclusion I prefer, and I'll use my intelligence to justify it.</p>
+                <p>When people are motivated to reach a particular conclusion, they stop being impartial scientists and become brilliant defense attorneys — thinking selectively, questioning selectively, and remembering selectively.</p>
+            </div>
+
+            <p>Research by Dan Kahan at Yale has extended this insight into what he calls "identity-protective cognition." People evaluate evidence not on its merits but on whether the conclusion threatens their group identity. A piece of scientific data about climate, gun violence, or pandemic response doesn't get evaluated in isolation. It gets evaluated through the lens of tribal belonging.</p>
+
+            <p>The conclusion is inescapable: human beings are <em>not</em> blank slates that absorb truth impartially. We are motivated processors who think our way toward conclusions we want to reach.</p>
+
+            <h2><span class="section-number">03</span>Scripture Said It First</h2>
+
+            <p>Paul diagnosed motivated reasoning in Romans 1:18-21, nearly two thousand years before Kunda published her groundbreaking research. Watch the progression:</p>
+
+            <div class="pairing-row">
+                <div class="pairing-scripture">
+                    <h4>Scripture</h4>
+                    <p><strong>Romans 1:19:</strong> "What can be known about God is plain to them; God has shown it to them."</p>
+                    <p>The data is available. The evidence is visible. God has made it clear.</p>
+                </div>
+                <div class="pairing-psychology">
+                    <h4>Accuracy Motivation</h4>
+                    <p>The truth is objectively knowable. It's not hidden. It's not obscure. An impartial investigation would recognize it.</p>
+                </div>
+            </div>
+
+            <div class="pairing-row">
+                <div class="pairing-scripture">
+                    <h4>Scripture</h4>
+                    <p><strong>Romans 1:20:</strong> "For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world."</p>
+                    <p>The evidence is overwhelming. Creation itself testifies to God's power and deity.</p>
+                </div>
+                <div class="pairing-psychology">
+                    <h4>Directional Motivation Activated</h4>
+                    <p>The truth is so clear that suppressing it requires <em>active effort</em>. You can't plausibly claim ignorance when surrounded by such obvious evidence.</p>
+                </div>
+            </div>
+
+            <div class="pairing-row">
+                <div class="pairing-scripture">
+                    <h4>Scripture</h4>
+                    <p><strong>Romans 1:21:</strong> "Although they knew God, they did not honor him as God or give thanks to him, but they became futile in their thinking, and their foolish hearts were darkened."</p>
+                    <p>Knowledge met with suppression leads to rationalization and darkness.</p>
+                </div>
+                <div class="pairing-psychology">
+                    <h4>Defensive Processing</h4>
+                    <p>The mind deploys counterarguments, alternative explanations, and selective evidence evaluation. The longer suppression continues, the more elaborate the alternative narrative becomes.</p>
+                </div>
+            </div>
+
+            <p>Paul's argument is more radical than Kunda's. Modern psychology says: "We all engage in motivated reasoning." Scripture says: "You suppress truth because you are <em>unrighteous</em>. Your defensive processing is not a cognitive quirk — it's a moral rebellion against God."</p>
+
+            <h2><span class="section-number">04</span>The Evidence They Cannot Unsee</h2>
+
+            <p>Paul offers a devastating claim: the evidence for God's power and deity has been "clearly perceived" from the creation of the world. Not dimly. Not ambiguously. <em>Clearly</em>.</p>
+
+            <p>Imagine a room where every wall, ceiling, and floor displays the same message in letters fifty feet tall. The lighting is perfect. Your eyesight is perfect. You stand in the room fully conscious. And then you insist you haven't received the message.</p>
+
+            <p>That's what Paul describes. General revelation is the data set that surrounds us. The complexity of consciousness. The fine-tuning of physical constants. The human capacity for reason, beauty, and moral intuition. The pervasive evidence that <em>something</em> designed this cosmos — not randomly, but with intentionality.</p>
+
+            <p>Suppressing this truth is not a failure of perception. It's a failure of will.</p>
+
+            <div class="pull-quote-container">
+                <p class="pull-quote">The problem is not that the evidence is absent. The problem is that the evidence is undeniable, and our hearts refuse to bow.</p>
+            </div>
+
+            <h2><span class="section-number">05</span>The Five Stages of Suppression</h2>
+
+            <p>Romans 1:21-25 describes a progression — each stage mapping precisely onto psychological phenomena:</p>
+
+            <div class="mechanism-box">
+                <h4>Stage 1: Attribution Refusal</h4>
+                <span class="stage-label">Romans 1:21a</span>
+                <p><strong>"They did not honor him as God or give thanks to him."</strong></p>
+                <p>This is <em>self-serving attribution bias</em> — the tendency to attribute successes to ourselves and failures to external circumstances. When God provides, we attribute it to luck or our own cleverness. We refuse the theological attribution that stares us in the face.</p>
+            </div>
+
+            <div class="mechanism-box">
+                <h4>Stage 2: Rationalization</h4>
+                <span class="stage-label">Romans 1:21b</span>
+                <p><strong>"They became futile in their thinking."</strong></p>
+                <p>They construct elaborate alternatives. Not because the evidence demands it, but because rejecting God requires <em>something</em> to put in God's place. So reason becomes "futile" — technically sound but fundamentally divorced from reality. Every good argument for atheism is a masterpiece of reasoning in service of a false conclusion.</p>
+            </div>
+
+            <div class="mechanism-box">
+                <h4>Stage 3: Cognitive Entrenchment</h4>
+                <span class="stage-label">Romans 1:21c</span>
+                <p><strong>"Their foolish hearts were darkened."</strong></p>
+                <p>Continuous suppression makes the mind darker. Not because facts changed. But because minds calcify. Each act of suppression makes the next act easier. The person who has actively denied God's existence for decades doesn't evaluate new evidence with an open mind — they evaluate it through the lens of established denial.</p>
+            </div>
+
+            <div class="mechanism-box">
+                <h4>Stage 4: Confidence Inversion</h4>
+                <span class="stage-label">Romans 1:22</span>
+                <p><strong>"Claiming to be wise, they became fools."</strong></p>
+                <p>This is the <em>Dunning-Kruger effect</em>. The more suppressed someone is, the more confident they become. The person who has systematically refused to engage with theistic arguments doesn't feel uncertain — they feel enlightened. "I've moved beyond belief in fairy tales," they think, confident that their defenses are waterproof.</p>
+            </div>
+
+            <div class="mechanism-box">
+                <h4>Stage 5: Active Substitution</h4>
+                <span class="stage-label">Romans 1:25</span>
+                <p><strong>"They exchanged the truth about God for a lie."</strong></p>
+                <p>This is the final stage. You don't just reject truth. You replace it. You construct an alternative religion, complete with its own narrative, heroes, and sacred cows. Materialism becomes your god. Your political ideology becomes your savior. Your self becomes your shrine.</p>
+            </div>
+
+            <p>The trajectory is not ignorance → knowledge. It's knowledge → active suppression → rationalization → entrenchment → false confidence → worship of the false alternative.</p>
+
+            <h2><span class="section-number">06</span>Why Sovereignty Is the Truth Most Suppressed</h2>
+
+            <p>If all truth about God is suppressed, the truth of God's sovereignty in salvation is suppressed most fiercely. Why? Because sovereignty strikes at the root of the autonomy illusion — the most cherished human fantasy.</p>
+
+            <p>Humans will accept that God exists. They'll even accept that He's powerful. But the claim that God <em>chose you before the creation of the world</em>, that your salvation is not your accomplishment but His gift, that your will is not ultimately autonomous but ultimately liberated by His — that attacks the core myth of modernity: the myth that you are the author of your own story.</p>
+
+            <p>When someone hears "God elected you," the first reaction is rarely intellectual. It's visceral. A tightness in the chest. A flash of indignation. That visceral reaction is the suppression mechanism firing in real time, defending the autonomy illusion against the truth that is clearly perceived.</p>
+
+            <p>This is why the truth of election produces more resistance than any other truth. It's not because people find it hard to understand. It's because they understand it perfectly — and they hate it, because it exposes the lie they've built their entire identity upon.</p>
+
+            <h2><span class="section-number">07</span>The Irony That Should Undo Us</h2>
+
+            <p>Here's the punchline that should stop us in our tracks: the very act of rejecting God's sovereignty <em>proves</em> God's sovereignty.</p>
+
+            <p>If Romans 1:18 is true — if humans naturally, inevitably suppress the truth about God — then the suppression mechanism has no off switch from the inside. The person enslaved to autonomy cannot liberate themselves from their love of autonomy. The person blinded by self-deception cannot see clearly enough to fix themselves.</p>
+
+            <p>This means the only way anyone stops suppressing truth about God is if God intervenes. Grace must come from outside the system, because the system is closed. We are like Plato's prisoners in the cave, unable to turn our heads, mistaking shadows for reality — and unable to want otherwise.</p>
+
+            <p>This is what theologians call the "noetic effects of sin" — sin damages not just our behavior, but our <em>thinking</em> itself. Sin is not just moral corruption. It's epistemic corruption. It blinds us not only to what we should do, but to what is true.</p>
+
+            <div class="irony-box">
+                <h3>The Paradox</h3>
+                <p>The person who says "I can figure out God's truth on my own, without needing divine intervention" is exhibiting the exact symptom Paul diagnosed in Romans 1. That very confidence is itself evidence of suppression.</p>
+            </div>
+
+            <h2><span class="section-number">08</span>A Word for You</h2>
+
+            <div class="pastoral-address">
+                <h3>If You're Reading This and Feeling Defensive</h3>
+                <p>That defensiveness may be the suppression mechanism described in Romans 1:18. Notice it. Don't run from it. The impulse to argue, to nitpick, to find reasons why this doesn't apply to <em>you</em> — that impulse is data. It's the system defending itself against truth that threatens it.</p>
+
+                <p>But here's what Scripture promises: <strong>God can break through</strong>. He has broken through a billion times. He can break through for you.</p>
+
+                <p>2 Timothy 2:25 says: "God may perhaps grant them repentance leading to a knowledge of the truth." Repentance — the turning around, the reversal of suppression — is itself a gift. You don't generate it. You don't earn it. God grants it.</p>
+
+                <p>If you're reading this and feeling humbled by the idea that you have suppressed truth about God, that humility itself may be the first movement of grace. That awareness is not something you've achieved. It's something God is doing in you.</p>
+
+                <p>And if you find yourself uncertain what to pray, pray this: "God, if I am suppressing truth about You — even truths that threaten my sense of control and autonomy — show me. Grant me the grace to stop fighting. Make me willing to be surprised by what You want to reveal."</p>
+            </div>
+
+            <h2><span class="section-number">09</span>Voices Across the Centuries</h2>
+
+            <div class="voices-box">
+                <h4>The Testimony of Giants</h4>
+
+                <div class="voice-quote">
+                    <p>"Man is not a free agent; his nature is enslaved to sin; without the grace of God he cannot will or do any spiritual good. The will of an unconverted man is in bondage to sin."</p>
+                    <span class="voice-author">— Augustine, On the Spirit and the Letter</span>
+                </div>
+
+                <div class="voice-quote">
+                    <p>"I confess that I once imagined that I was endowed with sufficient vigor and strength to be able both to will and to execute the works of righteousness in the sight of God; but it was not until God began to reveal to me that all my powers were bound in the chains of sin that I recognized my weakness."</p>
+                    <span class="voice-author">— John Calvin, Institutes of the Christian Religion</span>
+                </div>
+
+                <div class="voice-quote">
+                    <p>"The human understanding is no judge of truth. It is the slave of prejudice, caprice, and error. Some men are so enslaved by their lusts that they refuse to see the most obvious truths."</p>
+                    <span class="voice-author">— Jonathan Edwards, Freedom of the Will</span>
+                </div>
+
+                <div class="voice-quote">
+                    <p>"I once was blind but now I see — that I am blinder than I ever was. The more I learn of Christ's sovereignty, the more I see how desperately I have suppressed it. The more I know of grace, the more I wonder why I ever resisted it."</p>
+                    <span class="voice-author">— Charles Spurgeon, adapted from his autobiographical reflections</span>
+                </div>
+            </div>
+
+            <p class="theology-humor">If this article has changed your mind, congratulations — you've been awakened to truth you were actively suppressing. If it hasn't, well, that's probably proof that Romans 1:18 is still doing its job.</p>
+
+            <h2><span class="section-number">10</span>Continue the Investigation</h2>
+
+            <p>The battle for truth about God is psychological, spiritual, and intellectual all at once. Keep exploring:</p>
+
+            <div class="card-grid">
+                <a href="/psychology-why-we-resist" class="card">
+                    <h3>Why We Resist</h3>
+                    <p>The flagship overview: seven dimensions of human resistance to God's sovereignty, from autonomy to identity to tribal belonging.</p>
+                    <span class="card-arrow">Explore →</span>
+                </a>
+
+                <a href="/psychology-autonomy-illusion" class="card">
+                    <h3>The Autonomy Illusion</h3>
+                    <p>We are slaves who believe we are free. How the myth of libertarian free will seduces us and shields us from the truth of God's grace.</p>
+                    <span class="card-arrow">Explore →</span>
+                </a>
+
+                <a href="/psychology-cognitive-biases" class="card">
+                    <h3>Cognitive Biases & Sin</h3>
+                    <p>Confirmation bias, motivated reasoning, backfire effect — every cognitive error we make is a symptom of the blindness sin produces.</p>
+                    <span class="card-arrow">Explore →</span>
+                </a>
+
+                <a href="/psychology-offense-of-grace" class="card">
+                    <h3>The Offense of Grace</h3>
+                    <p>Why does unconditional election trigger moral outrage? Moral Foundations Theory and 2,000 years of resistance to Romans 9.</p>
+                    <span class="card-arrow">Explore →</span>
+                </a>
+
+                <a href="/question-romans9" class="card">
+                    <h3>Romans 9: Vessels of Mercy</h3>
+                    <p>Paul's most direct assertion of God's sovereignty in election — and the objections that prove his point about suppression.</p>
+                    <span class="card-arrow">Explore →</span>
+                </a>
+
+                <a href="/psychology-hub" class="card">
+                    <h3>Psychology Hub</h3>
+                    <p>All articles in the "Why We Resist" series. Map the hidden terrain of human resistance to God's truth.</p>
+                    <span class="card-arrow">Explore →</span>
+                </a>
+            </div>
+
+            <div class="never-gives-up-banner">
+                <a href="/devotional-never-gives-up" style="text-decoration:none;color:inherit;display:block;">
+                    <p class="never-gives-up-text">He Will Never Give Up on You</p>
+                    <p class="never-gives-up-subtext">You spent a lifetime suppressing. He spent eternity pursuing. Grace breaks through every defense you ever built.</p>
+                </a>
+            </div>
+        </div>
+    </main>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/question-1john5-1" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">The Verse That Settles the Order — 1 John 5:1</span>
+        <span class="related-article-desc">The Greek perfect tense in 1 John 5:1 proves regeneration precedes faith. Deep exegesis with Greek w...</span>
+      </a>
+      <a href="/apologetic-unreached" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">What About Those Who Never Heard the Gospel?</span>
+        <span class="related-article-desc">What about the billions who never heard the gospel? Scripture reveals God</span>
+      </a>
+      <a href="/demolition-hub" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">1 Corinthians 15:22 — Verse Demolition #4</span>
+        <span class="related-article-desc">Demolition #4: 1 Corinthians 15:22 proves particular redemption, not universal atonement. The parall...</span>
+      </a>
+      <a href="/secular-art-literature-reformed-truth" class="related-article-card">
+        <span class="related-article-cat">🔬 Secular Evidence</span>
+        <span class="related-article-title">Art &amp; Literature — How the Greatest Writers Intuited Reformed Truth</span>
+        <span class="related-article-desc">Shakespeare, Dostoevsky, Flannery O</span>
+      </a>
+      <a href="/systematic-election" class="related-article-card">
+        <span class="related-article-cat">🏛 Theology</span>
+        <span class="related-article-title">Divine Election — Chosen Before the Foundation of the World</span>
+        <span class="related-article-desc">Systematic Theology: Divine Election. Scripture teaches that God chose His people before the foundat...</span>
+      </a>
+      <a href="/objection-why-believe" class="related-article-card">
+        <span class="related-article-cat">🛡 Objections Answered</span>
+        <span class="related-article-title">If God Already Chose Us, Why Do We Have to Believe?</span>
+        <span class="related-article-desc">A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. ...</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer style="border-top: 1px solid rgba(232,100,44,0.15); padding: 3rem 2rem; text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+        <p style="margin-bottom: 0.5rem;"><strong>Adopted by Grace</strong> — Exploring God's sovereignty in salvation</p>
+        <p style="margin-bottom: 1rem;"><a href="/about" style="color: var(--accent-violet); text-decoration: none;">About</a> | <a href="/psychology-hub" style="color: var(--accent-violet); text-decoration: none;">Psychology Series</a> | <a href="/questions" style="color: var(--accent-violet); text-decoration: none;">Scripture & Evidence</a></p>
+        <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.1em; color: var(--text-muted);">Soli Deo Gloria</p>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolled = window.scrollY;
+            const progress = (scrolled / docHeight) * 100;
+            document.querySelector('.reading-progress').style.width = progress + '%';
+        });
+    </script>
+    <script src="/global.js" defer></script>
+    <script src="/nav.js"></script>
+</body>
+</html>

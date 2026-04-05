@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="When You Can't Tell What's True Anymore: Misinformation, AI, deepfakes, and political chaos have created an epistemological crisis. Romans 1 predicted this. God's sovereignty is the only stable ground.">
+    <meta property="og:title" content="When You Can't Tell What's True Anymore">
+    <meta property="og:description" content="The epistemological crisis of the 2020s: misinformation, AI deepfakes, political division. Why Romans 1 is the most relevant prediction of our era.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:url" content="https://adoptedbygrace.net/shattered-lens-cant-tell-true.html">
+    <link rel="canonical" href="https://adoptedbygrace.net/shattered-lens-cant-tell-true.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="When You Can't Tell What's True Anymore">
+    <meta name="twitter:description" content="The epistemological crisis of the 2020s: misinformation, AI deepfakes, political division. Why Romans 1 is the most relevant prediction of our era.">
+    <meta name="keywords" content="misinformation crisis, epistemological crisis, AI deepfakes, political division, truth, God sovereignty, Romans 1, deception">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <title>When You Can't Tell What's True Anymore — Adopted by Grace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "When You Can't Tell What's True Anymore",
+        "description": "The epistemological crisis of the 2020s: misinformation, AI deepfakes, political division. Why Romans 1 is the most relevant prediction of our era.",
+        "url": "https://adoptedbygrace.net/shattered-lens-cant-tell-true.html",
+        "datePublished": "2026-03-30",
+        "dateModified": "2026-03-30",
+        "author": { "@type": "Organization", "name": "Adopted by Grace" },
+        "publisher": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="/global.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+</head>
+<body>
+<div class="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/history-timeline" class="nav-top-link">Through the Ages</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <main id="main-content">
+        <article class="article-wrapper">
+            <div class="page-hero">
+                <div class="hero-label">The Shattered Lens 01</div>
+                <h1>When You Can't Tell What's True Anymore</h1>
+                <div class="eyebrow">Published March 30, 2026 · 7 min read</div>
+            </div>
+
+            <div class="article-content">
+                <p>You used to know what was true. Or at least you <em>thought</em> you did.</p>
+
+                <p>But something has shifted. The news contradicts itself. Your social media feed is a hall of mirrors where every algorithm reflects back what you already believe. AI can generate a fake video of anyone saying anything—so convincing that your own eyes betray you. Politicians gaslight in real time. Your neighbor believes something you find insane, and they feel the same way about you. Your uncle shares a conspiracy. Your sister deconstructs her faith. A headline disappears from one platform and vanishes from the internet like it never existed.</p>
+
+                <p>You're not crazy. The ground <em>really is shifting</em>. Welcome to the epistemological crisis of the 2020s.</p>
+
+                <div class="article-body">
+                    <h2>The Crisis</h2>
+
+                    <p>The numbers are stunning. Sixty percent of Americans express distrust in AI. Forty percent report that political stress affects their mental health. Deepfakes are becoming indistinguishable from reality—so much so that experts can no longer reliably tell the difference. Nobody agrees on basic facts anymore. Not because people are stupid, but because the very <em>mechanism for establishing truth</em> has broken down.</p>
+
+                    <p>This isn't just inconvenient. It's existential. If you can't tell what's true, how do you make decisions? How do you know whom to trust? How do you live in a world where the epistemic ground beneath your feet is quicksand?</p>
+
+                    <p>And here's what nobody talks about: this crisis of truth is deepening a crisis of <em>faith</em>. Young people are deconstructing. Believers are asking harder questions. Confidence in institutions—church, government, media, academia—has collapsed. Because if truth itself is unstable, what foundation is left?</p>
+                
+                    <h2>The Prediction</h2>
+
+                    <p>Here's what's stunning: the Bible predicted this exact crisis. Not in vague terms. Not in general warnings. But with precision that reads like it was written for our moment.</p>
+
+                    <div class="scripture-block">
+                        For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who by their unrighteousness suppress the truth. For what can be known about God is plain to them, because God has shown it to them. For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. So they are without excuse. For although they knew God, they did not honor him as God or give thanks to him, but they became futile in their thinking, and their foolish hearts were darkened. Claiming to be wise, they became fools, and exchanged the truth about God for a lie, and worshiped and served the creature rather than the Creator.
+                        <span class="scripture-ref">— Romans 1:18-25 (ESV)</span>
+                    </div>
+
+                    <p>Paul isn't describing a few bad actors spreading misinformation. He's describing a <strong>civilizational pattern</strong>: when a culture suppresses the truth <em>about God</em>, it doesn't just lose God. It loses the capacity for truth itself.</p>
+
+                    <p>Notice the progression: suppress truth → become futile in thinking → hearts are darkened → claim wisdom but become fools → exchange truth for lies. This is the exact arc we're living through. We have created a civilization of unprecedented technological power and profound epistemological chaos. We have the ability to generate, distribute, and verify information at the speed of light—and simultaneously, we can't agree on what's real.</p>
+
+                    <p>Why? Because we've rejected the <em>source</em> of truth. And when you reject the Source, you lose the capacity to recognize truth anywhere.</p>
+                
+                    <h2>The Anchor</h2>
+
+                    <p>Jesus said something radical in a world very different from ours—but not that different.</p>
+
+                    <div class="scripture-block">
+                        I am the way, and the truth, and the life.
+                        <span class="scripture-ref">— John 14:6</span>
+                    </div>
+
+                    <p>Not <em>"I have truth."</em> Not <em>"I tell you the truth."</em> <strong>"I am truth."</strong> Truth is not a concept to discover. It's a Person to know.</p>
+
+                    <p>And here's what makes this relevant to your crisis right now: look at what Paul says about God immediately after the Romans 1 crisis.</p>
+
+                    <div class="scripture-block">
+                        God is not the author of confusion.
+                        <span class="scripture-ref">— 1 Corinthians 14:33</span>
+                    </div>
+
+                    <p>And:</p>
+
+                    <div class="scripture-block">
+                        It is impossible for God to lie.
+                        <span class="scripture-ref">— Hebrews 6:18</span>
+                    </div>
+
+                    <p>In a world of deepfakes, manipulators, algorithms, and spin—there exists <strong>one being who is constitutionally incapable of deception.</strong> Not because He chooses not to lie. Because He <em>cannot</em> lie. It's metaphysically impossible. Like asking if God can create a square circle. God's honesty isn't a virtue He possesses. It's part of His nature.</p>
+
+                    <p>Trust has to go somewhere. In a fractured world, put it in the only place it can never be betrayed.</p>
+                
+                    <h2>The Stability</h2>
+
+                    <p>You can't control what algorithms show you. You can't verify every claim. You can't make sense of the political chaos. The noise is too loud, the lies too sophisticated, the confusion too complete.</p>
+
+                    <p>But notice what Scripture says about the chaos you're worried about:</p>
+
+                    <div class="scripture-block">
+                        The king's heart is a stream of water in the hand of the LORD; he turns it wherever he will.
+                        <span class="scripture-ref">— Proverbs 21:1</span>
+                    </div>
+
+                    <p>And:</p>
+
+                    <div class="scripture-block">
+                        He removes kings and sets up kings.
+                        <span class="scripture-ref">— Daniel 2:21</span>
+                    </div>
+
+                    <p>The political chaos that keeps you up at night? God is sovereign over it. The AI revolution you can't control? God ordained it. The misinformation flood? God is not confused by it. You don't need to figure everything out. You need to know the One who already has.</p>
+
+                    <p>This is not theology for quiet contemplation. This is theology for surviving an era of unprecedented uncertainty.</p>
+                
+                    <h2>The Freedom</h2>
+
+                    <p>Here's something that will change how you see your life:</p>
+
+                    <div class="scripture-block">
+                        And he made from one man every nation of mankind to live on all the face of the earth, having determined allotted periods and the boundaries of their dwellings.
+                        <span class="scripture-ref">— Acts 17:26</span>
+                    </div>
+
+                    <p>You were born in this era on purpose. Not in a simpler time. Not in a less confusing age. <strong>Now.</strong> This chaos is your assignment, not your punishment.</p>
+
+                    <p>And the God who placed you here equipped you with something that cuts through every lie: His Word, which is truth.</p>
+
+                    <div class="scripture-block">
+                        Sanctify them in the truth; your word is truth.
+                        <span class="scripture-ref">— John 17:17</span>
+                    </div>
+
+                    <p>You live in an age where deception is industrial. But you also live in an age where you have more access to the God's Word than any generation in history. Digital Bibles in your pocket. Commentaries instant. Theologians accessible. The very technology that enables deepfakes also gives you unprecedented access to the stable truth.</p>
+
+                    <p>You're not helpless. You're equipped.</p>
+                </div>
+
+                <div class="highlight-box">
+                    <p><strong>The Closing Thought:</strong> "You can't tell what's true anymore? That's understandable. The world has made truth harder to find than ever. But truth isn't hiding. Truth is a Person. And He's been sovereign over every headline, every algorithm, every lie—since before the first one was told."</p>
+                </div>
+
+            </div>
+
+            <div class="cta-section">
+                <h3>Dig Deeper</h3>
+                <p>This is the first article in The Shattered Lens series. Each piece explores a different dimension of truth, trust, and God's sovereignty in an age of chaos.</p>
+                <a href="/shattered-lens-hub" class="cta-link">Explore the Full Series</a>
+            </div>
+        </article>
+    </main>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/theologian-luther" class="related-article-card">
+        <span class="related-article-cat">🧓 Theologians</span>
+        <span class="related-article-title">Martin Luther</span>
+        <span class="related-article-desc">Martin Luther (1483–1546): The Reformation</span>
+      </a>
+      <a href="/psychology-suppressing-truth" class="related-article-card">
+        <span class="related-article-cat">🧠 Why We Resist</span>
+        <span class="related-article-title">Suppressing the Truth</span>
+        <span class="related-article-desc">Romans 1:18 reveals the deepest human problem: we suppress what we already know about God. Modern ps...</span>
+      </a>
+      <a href="/question-boasting" class="related-article-card">
+        <span class="related-article-cat">📖 Questions</span>
+        <span class="related-article-title">The Boasting Problem That Destroys Free Will – 1 Corinthians 1:26-31</span>
+        <span class="related-article-desc">1 Corinthians 1:26-31 — God chose the foolish to shame the wise. His election strategy is designed t...</span>
+      </a>
+      <a href="/demolition-hub" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition Zone</span>
+        <span class="related-article-title">1 Corinthians 15:22 — Verse Demolition #4</span>
+        <span class="related-article-desc">Demolition #4: 1 Corinthians 15:22 proves particular redemption, not universal atonement. The parall...</span>
+      </a>
+      <a href="/ot-abel-cain" class="related-article-card">
+        <span class="related-article-cat">📚 Old Testament</span>
+        <span class="related-article-title">Abel and Cain: The First Election</span>
+        <span class="related-article-desc">Genesis 4 reveals God</span>
+      </a>
+      <a href="/secular-art-literature-reformed-truth" class="related-article-card">
+        <span class="related-article-cat">🔬 Secular Evidence</span>
+        <span class="related-article-title">Art &amp; Literature — How the Greatest Writers Intuited Reformed Truth</span>
+        <span class="related-article-desc">Shakespeare, Dostoevsky, Flannery O</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth & Trust</h4>
+                <ul>
+                    <li><a href="/shattered-lens-hub">The Shattered Lens</a></li>
+                    <li><a href="/secular-evidence">Secular Evidence</a></li>
+                    <li><a href="/questions">Questions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        </div>
+    </footer>
+
+    <script>
+    (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
+    </script>
+    <script src="/global.js" defer></script>
+    <script src="/nav.js"></script>
+</body>
+</html>
