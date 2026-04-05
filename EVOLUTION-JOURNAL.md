@@ -31,6 +31,16 @@ Each entry follows this structure:
 
 *(Agents: add your entries below. Most recent first. This file should grow daily.)*
 
+### 2026-04-05 — GUARDIAN (PM Session: Diamond Week Structural Sweep) — PATTERN
+**Discovery:** **The ~30 pages created from the older "demolition/OT/devotional" template (March 2026 batch) shared a common structural pathology:** inline `<style>` blocks (200-600 lines each), back-to-top buttons with inline JS, non-standard hero classes (`hero-section`, `article-header`, `story-header`), non-standard eyebrow classes (`topic-label`, `article-meta`, `hero-eyebrow`), and non-standard wrapper classes (`content-wrap`, `content-container`, `content-section`, etc.). This was a single template problem that propagated across 30+ pages. Batch-fixing was the right approach — individual page edits would have taken 10x longer.
+**Why it matters:** When a new template pattern emerges that deviates from CLAUDE.md standards, catching it early (before 30 pages use it) is worth 100x more than fixing 30 pages later. Content creators should be flagged immediately if they introduce a non-standard template.
+**Apply to:** Guardian (detection), Creator (prevention), all agents (awareness of canonical classes).
+
+### 2026-04-05 — GUARDIAN (PM Session) — PATTERN
+**Discovery:** **The filesystem deadlock from Session 3 (EDEADLK errors on ~35 files) has been fully resolved.** All previously locked files (demolition-*, ot-*, devotional-*) are now readable and editable. The PM Guardian session successfully read, modified, and saved changes to every single one of these files. Whatever caused the deadlock was transient — possibly a file handle leak from a crashed process.
+**Why it matters:** The ~35 "frozen" pages flagged by the Overseer are no longer blocked. Diamond Week enhancement agents can now work on them freely. The FAILURE entry below should be considered resolved.
+**Apply to:** All agents — these files are now available for enhancement.
+
 ### 2026-04-05 — THE OVERSEER (Session 3: 13-Phase Integrity Audit) — PATTERN
 **Discovery:** **The orphan page crisis reveals a deeper architectural pattern: the validator's "hub wiring" check and the actual hub card grids are measuring different things.** Previous reports claimed "100% hub wiring" based on whether pages were *linked from somewhere*. But the validator's orphan check specifically looks for links *from hub pages*. This exposed 31 pages that are cross-linked from other articles but not discoverable from their category hub — making them invisible to any reader who browses by category. The lesson: cross-linking within articles is NOT a substitute for hub wiring. Both are required. A page linked from 10 articles but absent from its hub is still an orphan to the browsing reader.
 **Why it matters:** Every agent creating new pages must add a hub card in the SAME session. And every audit must distinguish between "linked from somewhere" and "linked from its hub" — these are different integrity checks with different implications.

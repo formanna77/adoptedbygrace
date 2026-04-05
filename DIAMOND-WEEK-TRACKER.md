@@ -80,6 +80,12 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Apr 5 | Dramaturg | psychology-emotional-vs-rational.html | EMOTION | Stop-and-feel after Supreme Irony peak (real-time self-awareness moment). Whisper closing replaces deflating block quote. ESV→NIV conversion (Rom 9:18, Rom 8:7). 4 internal links added. |
 | Apr 5 | Dramaturg | broken-mirror-performance-treadmill.html | EMOTION | Whisper crowning emotional peak ("That silence is not emptiness. It is the sound of being held."). Alarm clock callback closing. 7 internal links added. |
 | Apr 5 | Dramaturg | demolition-arminian-facts.html | EMOTION | Emotional prologue before academic sections (pastor teaching FACTS = rescue mission). Stop-and-feel after Section III. Devastating verdict whisper closing. 4 internal links. |
+| Apr 5 | Guardian | 33 pages (batch) | STRUCTURE | Added footer-grace-warning to 33 pages missing it. All 372 pages now compliant. |
+| Apr 5 | Guardian | 81 pages (batch) | STRUCTURE | Converted non-standard wrapper classes to article-body (content-wrap, article-content, content-wrapper, main-content, content-container, content-main, article-wrapper, content-grid, content-section). |
+| Apr 5 | Guardian | 31 pages (batch) | STRUCTURE | Removed banned inline `<style>` blocks from 31 pages (demolition-*, ot-*, devotional-*, anxious-mind-*, etc.) |
+| Apr 5 | Guardian | 20 pages (batch) | STRUCTURE | Removed banned back-to-top buttons + inline JS from 20 pages. |
+| Apr 5 | Guardian | 17 pages (batch) | STRUCTURE | Added/fixed page-hero class on 17 pages with missing or non-standard hero wrappers. |
+| Apr 5 | Guardian | 8 pages (batch) | STRUCTURE | Fixed non-standard eyebrow classes (hero-eyebrow, topic-label, article-meta → eyebrow; hero-subtitle, article-subtitle → hub-subtitle). |
 
 ---
 

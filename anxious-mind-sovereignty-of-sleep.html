@@ -50,336 +50,7 @@
         }
     }
     </script>
-
-    <style>
-        /* Reading Progress Bar */
-        .reading-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, rgba(56, 189, 248, 0.9) 0%, var(--accent-gold) 50%, var(--accent-ember) 100%);
-            z-index: 10001;
-            width: 0%;
-            transition: width 0.1s ease-out;
-        }
-
-        /* Page Hero */
-        .page-hero {
-            position: relative;
-            padding: 10rem 2rem 5rem;
-            text-align: center;
-            overflow: hidden;
-        }
-        .page-hero::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: radial-gradient(ellipse at 50% 30%, rgba(56, 189, 248, 0.08) 0%, transparent 60%),
-                        radial-gradient(ellipse at 20% 70%, rgba(212, 162, 84, 0.04) 0%, transparent 50%);
-            pointer-events: none;
-        }
-
-        .hero-eyebrow {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            letter-spacing: 0.4em;
-            color: rgba(56, 189, 248, 0.9);
-            text-transform: uppercase;
-            margin-bottom: 1.5rem;
-            display: block;
-            position: relative;
-            z-index: 1;
-        }
-
-        .page-hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2.5rem, 6vw, 4rem);
-            font-weight: 900;
-            line-height: 1.15;
-            color: var(--text-primary);
-            position: relative;
-            z-index: 1;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .page-hero h1 .gold {
-            background: linear-gradient(135deg, var(--accent-gold), rgba(56, 189, 248, 0.9));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .page-hero .subtitle {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            max-width: 680px;
-            margin: 1.5rem auto 0;
-            line-height: 1.8;
-            position: relative;
-            z-index: 1;
-        }
-
-        .hero-meta {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.7rem;
-            color: var(--text-muted);
-            letter-spacing: 0.1em;
-            margin-top: 1.5rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        /* Breadcrumb */
-        .breadcrumb {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            margin-bottom: 2rem;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .breadcrumb a {
-            color: rgba(56, 189, 248, 0.9);
-            text-decoration: none;
-        }
-        .breadcrumb a:hover {
-            text-decoration: underline;
-        }
-
-        /* Content Container */
-        .content-container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        .content-section {
-            padding: 2rem 0;
-        }
-
-        .content-section p {
-            color: var(--text-secondary);
-            font-size: 1.05rem;
-            line-height: 1.9;
-            margin-bottom: 1.5rem;
-        }
-
-        .content-section p strong {
-            color: var(--text-primary);
-            font-weight: 600;
-        }
-
-        .content-section p em {
-            color: var(--text-primary);
-            font-style: italic;
-        }
-
-        /* Section Headers */
-        .section-number {
-            display: inline-block;
-            font-family: 'Playfair Display', serif;
-            font-size: 3rem;
-            font-weight: 900;
-            color: rgba(56, 189, 248, 0.9);
-            opacity: 0.15;
-            margin-right: 1rem;
-            line-height: 1;
-        }
-
-        .content-section h2 {
-            position: relative;
-            padding-left: 4rem;
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(1.75rem, 5vw, 2.5rem);
-            font-weight: 800;
-            color: var(--text-primary);
-            margin-top: 4rem;
-            margin-bottom: 2rem;
-            line-height: 1.2;
-        }
-
-        .content-section h2 .section-number {
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .content-section h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-top: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        /* Scripture Quote */
-        .scripture-quote {
-            border-left: 4px solid var(--accent-gold);
-            padding: 1.5rem 1.5rem 1.5rem 2rem;
-            margin: 2rem 0;
-            font-style: italic;
-            color: var(--text-primary);
-            line-height: 1.8;
-            background: rgba(212, 162, 84, 0.03);
-            border-radius: 0 6px 6px 0;
-        }
-
-        .scripture-quote p {
-            color: var(--text-primary) !important;
-            font-style: italic;
-            margin-bottom: 0.5rem !important;
-        }
-
-        .scripture-ref {
-            display: block;
-            font-style: normal;
-            font-family: 'JetBrains Mono', monospace;
-            color: var(--accent-gold);
-            margin-top: 0.5rem;
-            font-size: 0.85rem;
-            letter-spacing: 0.08em;
-        }
-
-        /* Pull Quote */
-        .pull-quote-container {
-            margin: 3rem 0;
-            padding: 2.5rem;
-            background: linear-gradient(135deg, rgba(56, 189, 248, 0.08) 0%, rgba(212, 162, 84, 0.04) 100%);
-            border-left: 4px solid rgba(212, 162, 84, 0.9);
-            border-radius: 4px;
-            position: relative;
-        }
-
-        .pull-quote {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.35rem;
-            line-height: 1.7;
-            color: var(--text-primary);
-            font-style: italic;
-            margin: 0;
-            position: relative;
-            z-index: 1;
-        }
-
-        /* Pastoral Box */
-        .pastoral-box {
-            background: linear-gradient(135deg, rgba(212, 162, 84, 0.06) 0%, rgba(139, 92, 246, 0.04) 100%);
-            border: 1px solid rgba(212, 162, 84, 0.2);
-            border-radius: 8px;
-            padding: 2.5rem;
-            margin: 3rem 0;
-        }
-
-        .pastoral-box h3 {
-            color: var(--accent-gold);
-            margin-top: 0;
-            font-size: 1.25rem;
-        }
-
-        .pastoral-box p {
-            color: var(--text-primary) !important;
-            line-height: 1.8;
-        }
-
-        /* Bridge Section */
-        .bridge-section {
-            background: rgba(56, 189, 248, 0.05);
-            border-top: 1px solid rgba(56, 189, 248, 0.15);
-            padding: 4rem 0;
-            margin-top: 5rem;
-        }
-
-        .bridge-content {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        .bridge-content h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.5rem;
-            font-weight: 800;
-            margin-bottom: 1.5rem;
-        }
-
-        .bridge-links {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        .bridge-links a {
-            padding: 1rem;
-            background: rgba(56, 189, 248, 0.08);
-            border: 1px solid rgba(56, 189, 248, 0.2);
-            border-radius: 6px;
-            color: rgba(56, 189, 248, 0.9);
-            text-decoration: none;
-            font-size: 0.95rem;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .bridge-links a:hover {
-            background: rgba(56, 189, 248, 0.15);
-            border-color: rgba(56, 189, 248, 0.4);
-            transform: translateX(4px);
-        }
-
-        .bridge-links a::after {
-            content: '→';
-            margin-left: 0.5rem;
-        }
-
-        /* Back to top */
-        .back-to-top {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 50px;
-            height: 50px;
-            background: rgba(56, 189, 248, 0.9);
-            color: var(--bg-deep);
-            border: none;
-            border-radius: 50%;
-            font-size: 1.5rem;
-            cursor: pointer;
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-        }
-        .back-to-top.show {
-            opacity: 1;
-            visibility: visible;
-        }
-        .back-to-top:hover {
-            background: var(--accent-gold);
-            transform: scale(1.1);
-        }
-
-        @media (max-width: 768px) {
-            .page-hero { padding: 5rem 1.5rem 2rem; }
-            .content-container { padding: 0 1.5rem; }
-            .bridge-content { padding: 0 1.5rem; }
-            .page-hero .subtitle { font-size: 1rem; }
-        }
-
-        *:focus-visible { outline: 2px solid rgba(56, 189, 248, 0.9); outline-offset: 2px; }
-    </style>
-
-    <link rel="stylesheet" href="/global.css">
+<link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
 <body>
@@ -451,7 +122,7 @@
 
     <main id="main-content">
         <header class="page-hero">
-            <span class="hero-eyebrow">THE ANXIOUS MIND</span>
+            <span class="eyebrow">THE ANXIOUS MIND</span>
             <h1>Why You Can Sleep When the World Is Falling Apart</h1>
             <p class="subtitle">Sleep requires trust. Insomnia reveals what you truly believe about control. Discover how God's sovereignty becomes your pillow.</p>
             <div class="hero-meta">1,850 words | 7 min read</div>
@@ -461,8 +132,8 @@
             <a href="/">Home</a> / <a href="/psychology-hub">Why We Resist</a> / <a href="/anxious-mind-hub">The Anxious Mind</a> / This Article
         </nav>
 
-        <article class="content-container">
-            <section class="content-section">
+        <article class="article-body">
+            <section class="article-body">
                 <h2><span class="section-number">1</span>Into the 2 AM Ceiling</h2>
                 <p>It's 2:47 AM and the ceiling has never been more familiar.</p>
                 <p>You're not tired anymore—you passed tired three hours ago. Now you're somewhere else. The body is horizontal but the mind is velocity itself. You're replaying that conversation from yesterday, the one that went sideways. You're catastrophizing about tomorrow, painting scenarios that probably won't happen but feel inevitable. Your chest is tight. Your stomach churns. Your thoughts loop.</p>
@@ -472,7 +143,7 @@
                 <p>You may not know you're anxious. You might not even recognize the pattern. You just know you can't sleep. And you're exhausted.</p>
             </section>
 
-            <section class="content-section">
+            <section class="article-body">
                 <h2><span class="section-number">2</span>What Your Body Is Really Telling You</h2>
                 <p>Sleep anxiety isn't primarily a sleep problem. It's a <em>theology problem</em>.</p>
                 <p>When you close your eyes, you become defenseless. Your heartbeat becomes someone else's responsibility. Your breathing operates on autopilot. You lose control of everything—your thoughts, your safety, your vigilance. You hand your vulnerability to the dark and trust that you'll wake up.</p>
@@ -481,7 +152,7 @@
                 <p>But here's the reversal: that wakefulness is destroying you. The very vigilance you think is protecting you is poisoning your sleep, your health, your peace. You're standing watch over a kingdom you never owned and cannot defend.</p>
             </section>
 
-            <section class="content-section">
+            <section class="article-body">
                 <h2><span class="section-number">3</span>Three Answers to the Insomnia Question</h2>
 
                 <h3>The Secular Answer</h3>
@@ -513,7 +184,7 @@
                 <p>Not because you earned it. Not because you managed your stress properly. Not because you're spiritually advanced enough. He gives it to His beloved. The same God who chose you before the foundation of the world gives you sleep as a mark of His love.</p>
             </section>
 
-            <section class="content-section">
+            <section class="article-body">
                 <h2><span class="section-number">4</span>Sleep as a Theology</h2>
                 <p>Every night, before you close your eyes, you stand at a crossroads. You can either believe one of two things:</p>
                 <p><strong>Option A:</strong> <em>I must stay awake because I must protect what matters.</em> (Self-trust. Works. Control.)</p>
@@ -545,7 +216,7 @@
                 <p>That is faith in its purest form.</p>
             </section>
 
-            <section class="content-section">
+            <section class="article-body">
                 <h2><span class="section-number">5</span>The Sovereignty Pillow</h2>
                 <p>There's a crucial difference between two thoughts that sound similar but are spiritually opposite:</p>
 
@@ -566,7 +237,7 @@
                 <p>That feeling is the sovereignty pillow. That's what your head has been looking for all along.</p>
             </section>
 
-            <section class="content-section">
+            <section class="article-body">
                 <h2><span class="section-number">6</span>The Bridge from Insomnia to Rest</h2>
                 <p>You may be reading this at 2 AM, wide awake, feeling the irony intensely. <em>Great. Someone just told me to trust God. That doesn't make me sleep. That makes me more frustrated.</em></p>
                 <p>Understood. Genuine faith doesn't work like a sleep medication. You don't just accept a theological truth and suddenly rest.</p>
@@ -576,7 +247,7 @@
                 <p>That alone can shift something.</p>
             </section>
 
-            <section class="content-section">
+            <section class="article-body">
                 <div class="pastoral-box">
                     <h3>A Word If You're Drowning</h3>
                     <p>If insomnia has its hooks deep into you—if you're having panic attacks in the night, if the anxiety is clinical and persistent, if you've tried everything and nothing helps—please hear this clearly: <strong>God's sovereignty does not mean you don't need help.</strong></p>
@@ -585,7 +256,7 @@
                 </div>
             </section>
 
-            <section class="content-section">
+            <section class="article-body">
                 <h2><span class="section-number">7</span>Closing Prayer</h2>
                 <p>If you pray at all, try this:</p>
                 <p><em>God, I confess that I've been trying to stay awake, trying to manage, trying to control what was never mine to control. I've been exhausted by a burden You never asked me to carry. Tonight, help me to lay it down. Help me to believe—really believe, in my body and my bones—that You are awake. That You are keeping me. That while I sleep, You do not. Help my body remember what my mind struggles to accept: that I am safe in Your hands. And if sleep doesn't come, help me to at least stop fighting. Let me rest in the knowledge that I am held. Give me peace. Not because everything is solved, but because You never sleep. Amen.</em></p>
@@ -683,40 +354,18 @@
                 <ul>
                     <li class="mobile-nav-link"><a href="/about">About</a></li>
                     <li></li>
-                    <li><a href="/search">Search</a></li>
+                    <li><a href="/search.html">Search</a></li>
                 </ul>
             </div>
         </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+        </div>
     </footer>
-
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
-
-    <script src="/nav.js"></script>
-    <script>
-        // Reading Progress Bar
-        const readingProgress = document.querySelector('.reading-progress');
-        const article = document.querySelector('article');
-        window.addEventListener('scroll', () => {
-            if (article) {
-                const scrolled = window.scrollY;
-                const height = document.documentElement.scrollHeight - window.innerHeight;
-                const scrollPercent = (scrolled / height) * 100;
-                readingProgress.style.width = scrollPercent + '%';
-            }
-        });
-
-        // Back to Top
-        const backToTop = document.querySelector('.back-to-top');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                backToTop.classList.add('show');
-            } else {
-                backToTop.classList.remove('show');
-            }
-        });
-        backToTop.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-    </script>
+<script src="/nav.js"></script>
 </body>
 </html>

@@ -1,5 +1,48 @@
 # INTEGRITY LOG — adoptedbygrace.net Guardian Sessions
 
+## 2026-04-05 Guardian Session — PM (5:00 PM CT)
+
+**Summary:**
+- Pages scanned: 372
+- Issues found: 172
+- Issues fixed: 168
+- Deploy status: BLOCKED (Netlify CLI not authenticated — same as AM)
+
+**Phase Breakdown:**
+- Phase 1 (Broken Links): 2 broken links fixed (devotional-love-before-the-world.html: question-irresistible-grace→question-irresistible, question-1-john-419→question-1john5-1). 4 false-positive search.html validator warnings (file exists, validator path resolution issue).
+- Phase 5 (Footer): 33 pages missing footer-grace-warning — ALL FIXED (31 by batch script, 2 manually: anxious-mind-brain-decides, anxious-mind-never-meant-to-carry)
+- Phase 6 (Link Density): ALL 325 article pages have 8+ internal links. Zero-link crisis from Diamond Week audit is RESOLVED (Weaver agent completed this earlier today).
+- Phase 8 (Design System):
+  - 81 pages with non-standard wrapper classes (content-wrap, article-content, content-wrapper, main-content, content-container, content-main, article-wrapper, content-grid, content-section) → ALL converted to article-body
+  - 31 pages with banned inline `<style>` blocks → ALL REMOVED
+  - 17 pages missing page-hero class → FIXED (9 by wrapping bare h1 in page-hero header, 8 by converting article-header/story-header/eyebrow classes to page-hero)
+  - 4 pages with hero-eyebrow class → converted to eyebrow
+  - 4 pages with topic-label class → converted to eyebrow
+  - 4 pages with hero-subtitle/article-subtitle → converted to hub-subtitle
+- Phase 11 (Banned Content):
+  - 20 pages with back-to-top buttons (HTML + inline JS) → ALL REMOVED
+  - 6 banned pages identified for manual deletion (daily-newsletter.html, 3 newsletter-* pages, index-new.html, index-old.html) → cannot delete from automated session, flagged for Aaron
+- Phase 12 (Accessibility): Inline style= attributes audit found 15 pages with 40-90+ inline style attributes — flagged for future session, too risky for bulk removal without visual verification
+- Phase 15 (Search/Menu): Search index rebuilt (368 pages indexed). Mega-menu rebuilt (327 articles in 7 umbrellas).
+- Phase 16 (Deploy): BLOCKED — Netlify CLI not authenticated. Aaron must deploy manually.
+
+**Notable Patterns:**
+- The batch of ~30 pages (demolition-*, ot-*, devotional-dead/good/love/weakness/when) were created from an older template with inline styles, back-to-top buttons, and non-standard hero classes. All have now been normalized to the canonical template structure.
+- All 372 pages now have footer-grace-warning (excluding 6 banned pages pending deletion)
+- Zero pages with non-standard wrapper classes remain (excluding 5 comparison pages using point-section/pattern-section for legitimate content sub-sections)
+- Link density is excellent — 325/325 article pages meet the 8+ link minimum
+- 15 pages have heavy inline style= attributes (40-90+ occurrences) that need manual review in a future session
+
+**Banned Pages Pending Manual Deletion:**
+- daily-newsletter.html
+- newsletter-2026-03-31-drowning-or-dead.html
+- newsletter-2026-03-31-the-fraud.html
+- newsletter-2026-03-31-where-did-your-faith-come-from.html
+- index-new.html
+- index-old.html
+
+---
+
 ## 2026-04-05 Guardian Session — AM (5:00 AM CT)
 
 **Summary:**
