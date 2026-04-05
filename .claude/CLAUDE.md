@@ -148,6 +148,83 @@ The floating back-to-top button (black circle, bottom-right corner) was removed 
 - Adding back-to-top JavaScript (scroll listeners that toggle a back-to-top button)
 - Re-introducing any scroll-to-top floating widget under any class name
 
+## ══════════════════════════════════════════════════════
+## UNIFIED HUB PAGE DESIGN — MANDATORY FOR ALL AGENTS
+## ══════════════════════════════════════════════════════
+
+**Every hub/category/index page MUST use the unified hub CSS classes from `/global.css`.** No exceptions. No custom card designs. No inline `<style>` tags for card or grid layouts.
+
+This was established 2026-04-04 after a full site redesign. Previously, every hub page had its own inline CSS (50-600 lines each) with custom card classes (`.devotional-card`, `.question-card`, `.briefing-card`, `.analogy-card`, `.deep-dive-card`, `.explore-card`, `.reading-card`, etc.). This caused constant visual inconsistencies and broken layouts. All of those are DEAD. There is now ONE card design for the entire site.
+
+### The Unified Classes (all defined in `/global.css`):
+
+| Class | Purpose |
+|-------|---------|
+| `.hub-hero` | Hero section: centered title + subtitle with decorative gradient |
+| `.hub-intro` | Optional intro paragraph with quotation mark decoration |
+| `.hub-container` | Content wrapper (max-width 1200px, centered) |
+| `.hub-section-title` | Section heading within a hub page |
+| `.hub-section-subtitle` | Section description text |
+| `.hub-grid` | Card grid (auto-fit, minmax 320px, 2rem gap) |
+| `.hub-card` | Individual card — MUST be an `<a>` tag with href |
+| `.hub-card-featured` | Add alongside `.hub-card` for featured/crown-jewel articles |
+| `.hub-quote` | Quote block between card sections |
+
+### Card Inner Elements (inside each `.hub-card`):
+
+| Class | Element | Purpose |
+|-------|---------|---------|
+| `.card-number` | `<div>` | Sequential number (01, 02, 03...) |
+| `.card-title` | `<h2>` or `<h3>` | Article title |
+| `.card-description` | `<p>` | Synopsis/description |
+| `.card-scripture` | `<div>` | Scripture reference (violet, monospace) |
+| `.card-meta` | `<div>` | Category label or tag (muted, monospace) |
+| `.card-footer` | `<div>` | Bottom bar with divider |
+| `.card-read` | `<span>` | "Read" text + arrow SVG inside `.card-footer` |
+
+### The Card Template (copy this exactly):
+```html
+<a href="/article-url.html" class="hub-card">
+    <div class="card-number">01</div>
+    <h3 class="card-title">Article Title</h3>
+    <p class="card-description">One or two sentence synopsis.</p>
+    <div class="card-scripture">ROMANS 9:11-13</div>
+    <div class="card-footer">
+        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+    </div>
+</a>
+```
+
+### Agents are BANNED from:
+- Creating custom card classes (`.devotional-card`, `.question-card`, `.briefing-card`, etc.)
+- Adding inline `<style>` blocks for card or grid layouts on hub pages
+- Inventing new grid classes (`.devotionals-grid`, `.questions-grid`, `.briefing-grid`, etc.)
+- Overriding `.hub-card` styling with page-specific CSS
+- Creating any card design that doesn't use the unified system
+
+### The ONLY exception:
+- `index.html` (homepage) may have inline CSS for its hero animation and nav transparency override. The homepage is intentionally unique. But even the homepage should use `.hub-card` for any card grids it contains.
+
+### Hub Page Template Structure:
+```html
+<body>
+    <!-- Nav from /_nav-template.html -->
+    <header class="hub-hero">
+        <h1>Category Title</h1>
+        <p>Category subtitle/tagline</p>
+    </header>
+    <div class="hub-intro">
+        <p>Intro paragraph...</p>
+    </div>
+    <div class="hub-container">
+        <div class="hub-grid">
+            <!-- .hub-card elements here -->
+        </div>
+    </div>
+    <!-- Footer with footer-grace-warning -->
+</body>
+```
+
 ## SOCIAL MEDIA CONTENT — ELIMINATED
 Agents are BANNED from creating social media content of any kind. No tweets, no threads, no Instagram carousels, no TikTok scripts, no Facebook posts, no social snippets, no SOCIAL-QUEUE.md entries. Zero. The content on the site must be so good that readers share it themselves — we do not create social media marketing. All compute that would have gone to social media must be redirected to making the site content itself more powerful, more discoverable via SEO, and more devastating in its quality.
 

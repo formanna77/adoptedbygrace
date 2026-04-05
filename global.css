@@ -955,6 +955,204 @@ blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font
 .card:hover::before { transform: scaleX(1); }
 .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
 
+/* ===== HUB PAGE SYSTEM — UNIFIED DESIGN FOR ALL CATEGORY/HUB PAGES =====
+   Every hub page (devotionals, questions, demolition, analogies, stories,
+   psychology, healing hubs, essays, theology, best-reads, etc.) MUST use
+   these classes. No more per-page inline <style> blocks for cards/grids.
+   ========================================================================= */
+
+/* Hub Hero */
+.hub-hero {
+    max-width: 1200px; width: 100%; margin: 0 auto;
+    padding: 5rem 1.5rem 3rem; text-align: center; position: relative;
+}
+.hub-hero::before {
+    content: ''; position: absolute; top: 0; right: -20%;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.08) 0%, transparent 70%);
+    border-radius: 50%; pointer-events: none;
+}
+.hub-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.5rem, 8vw, 4rem); font-weight: 900;
+    margin-bottom: 1rem; letter-spacing: -0.02em; line-height: 1.2;
+}
+.hub-hero p {
+    font-size: 1.5rem; color: var(--text-secondary);
+    max-width: 600px; margin: 0 auto 3rem;
+    font-weight: 300; letter-spacing: 0.02em;
+}
+
+/* Hub Intro Section (optional block quote / intro paragraph) */
+.hub-intro {
+    max-width: 800px; margin: 0 auto 4rem; padding: 2.5rem;
+    background: linear-gradient(135deg, rgba(20, 18, 14, 0.5) 0%, rgba(28, 25, 20, 0.3) 100%);
+    border: 1px solid var(--border-subtle); border-radius: 8px; position: relative;
+}
+.hub-intro::before {
+    content: '\201C'; position: absolute; top: 10px; left: 20px;
+    font-size: 4rem; color: var(--accent-gold); opacity: 0.3;
+    font-family: 'Playfair Display', serif;
+}
+.hub-intro p {
+    font-size: 1.1rem; color: var(--text-primary);
+    line-height: 1.8; margin-bottom: 1.5rem;
+}
+.hub-intro p:last-child { margin-bottom: 0; }
+.hub-intro em { color: var(--accent-gold); font-style: italic; font-weight: 500; }
+
+/* Hub Grid Container */
+.hub-container {
+    max-width: 1200px; width: 100%; margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+}
+.hub-section-title {
+    font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700;
+    color: var(--accent-gold); margin-bottom: 0.5rem;
+}
+.hub-section-subtitle {
+    color: var(--text-secondary); font-size: 1rem; margin-bottom: 2rem; line-height: 1.6;
+}
+
+/* Hub Card Grid */
+.hub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem; margin-bottom: 4rem;
+}
+
+/* Hub Card */
+.hub-card {
+    background: var(--bg-card); border: 1px solid var(--border-subtle);
+    border-radius: 8px; padding: 2rem;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative; overflow: hidden;
+    display: flex; flex-direction: column;
+    cursor: pointer; text-decoration: none; color: var(--text-primary);
+}
+.hub-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0;
+    height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
+    opacity: 0; transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hub-card::after {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(circle at top right, rgba(212, 162, 84, 0.05), transparent);
+    opacity: 0; transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hub-card:hover {
+    background: var(--bg-card-hover);
+    border-color: rgba(212, 162, 84, 0.3);
+    transform: translateY(-4px);
+}
+.hub-card:hover::before { opacity: 1; }
+.hub-card:hover::after { opacity: 1; }
+
+/* Hub Card Inner Elements */
+.hub-card .card-number {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.5rem; font-weight: 700;
+    color: var(--accent-gold); opacity: 0.4;
+    margin-bottom: 0.5rem; line-height: 1;
+}
+.hub-card .card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem; font-weight: 700;
+    margin-bottom: 0.75rem; line-height: 1.3; color: var(--text-primary);
+}
+.hub-card .card-description {
+    font-size: 0.95rem; color: var(--text-secondary);
+    margin-bottom: 1rem; flex-grow: 1; line-height: 1.6;
+}
+.hub-card .card-scripture {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem; color: var(--accent-violet);
+    margin-bottom: 1rem; font-weight: 500;
+    text-transform: uppercase; letter-spacing: 0.05em;
+}
+.hub-card .card-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+}
+.hub-card .card-footer {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-top: 1.5rem; padding-top: 1rem;
+    border-top: 1px solid rgba(212, 162, 84, 0.1);
+}
+.hub-card .card-read {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    color: var(--accent-gold); font-weight: 600; font-size: 0.9rem;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hub-card .card-read svg {
+    width: 16px; height: 16px; stroke-width: 2;
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hub-card:hover .card-read { gap: 0.75rem; color: var(--accent-ember); }
+.hub-card:hover .card-read svg { transform: translateX(3px); }
+
+/* Hub Quote Block (for inspirational quotes between card sections) */
+.hub-quote {
+    max-width: 900px; margin: 3rem auto; padding: 3rem;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(232, 100, 44, 0.05) 100%);
+    border-left: 4px solid var(--accent-gold); border-radius: 8px; position: relative;
+}
+.hub-quote::before {
+    content: '\201C'; position: absolute; top: 10px; left: 30px;
+    font-size: 5rem; color: var(--accent-gold); opacity: 0.2;
+    font-family: 'Playfair Display', serif; line-height: 1;
+}
+.hub-quote .quote-text {
+    font-size: 1.3rem; color: var(--text-primary); font-style: italic;
+    line-height: 1.8; margin-bottom: 1rem; position: relative; z-index: 1;
+    font-family: 'Playfair Display', serif; font-weight: 700;
+}
+.hub-quote .quote-author {
+    color: var(--accent-gold); font-size: 0.95rem;
+    font-weight: 600; letter-spacing: 0.1em; text-align: right;
+}
+
+/* Hub Featured Card (for "crown jewel" or highlighted article) */
+.hub-card-featured {
+    border-color: rgba(212, 162, 84, 0.3);
+    background: linear-gradient(135deg, rgba(20, 18, 14, 0.8) 0%, rgba(28, 25, 20, 0.5) 100%);
+}
+.hub-card-featured::before { opacity: 1; }
+.hub-card-featured .card-title { color: var(--accent-gold); }
+
+/* Hub Responsive */
+@media (max-width: 768px) {
+    .hub-hero { padding: 3rem 1.5rem 2rem; }
+    .hub-hero::before { width: 200px; height: 200px; right: -10%; }
+    .hub-intro { padding: 2rem; }
+    .hub-intro::before { font-size: 2rem; left: 10px; }
+    .hub-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    .hub-quote { padding: 2rem; }
+    .hub-quote .quote-text { font-size: 1.15rem; }
+}
+@media (max-width: 480px) {
+    .hub-hero h1 { font-size: 2rem; }
+    .hub-hero p { font-size: 1.1rem; }
+    .hub-card { padding: 1.5rem; }
+    .hub-card .card-number { font-size: 2rem; }
+    .hub-card .card-title { font-size: 1.25rem; }
+}
+@media (max-width: 968px) {
+    .hub-grid { grid-template-columns: 1fr !important; }
+}
+
+/* Focus visible for hub cards */
+.hub-card:focus-visible { outline: 2px solid var(--accent-violet); outline-offset: 2px; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .hub-card, .hub-card::before, .hub-card::after, .hub-card .card-read, .hub-card .card-read svg {
+        transition-duration: 0.01ms !important;
+    }
+}
+
 /* ===== BUTTONS ===== */
 .btn-primary { display: inline-block; padding: 1rem 2.5rem; background: linear-gradient(135deg, var(--accent-gold), #b8860b); color: #0a0a0f; font-weight: 700; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; letter-spacing: 0.03em; position: relative; overflow: hidden; border: none; cursor: pointer; }
 .btn-primary::after { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s ease; }

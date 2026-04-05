@@ -32,444 +32,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    
-            <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<style>
-        /* Design Tokens */
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #14120e;
-            --bg-card-hover: #1c1914;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-            --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        /* Reset & Base Styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        /* Reading Progress Bar */
-        .progress-bar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet), var(--accent-ember));
-            width: 0%;
-            z-index: 200;
-            transition: width 0.1s linear;
-        }
-
-        /* Hero Section */
-        .hero {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            padding: 5rem 1.5rem 3rem;
-            text-align: center;
-            position: relative;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            right: -20%;
-            width: 400px;
-            height: 400px;
-            background: radial-gradient(circle, rgba(139, 92, 246, 0.08) 0%, transparent 70%);
-            border-radius: 50%;
-            pointer-events: none;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2.5rem, 8vw, 4rem);
-            font-weight: 900;
-            margin-bottom: 1rem;
-            letter-spacing: -0.02em;
-            line-height: 1.2;
-        }
-
-        .hero p {
-            font-size: 1.5rem;
-            color: var(--text-secondary);
-            max-width: 600px;
-            margin: 0 auto 3rem;
-            font-weight: 300;
-            letter-spacing: 0.02em;
-        }
-
-        /* Intro Paragraph */
-        .intro-section {
-            max-width: 800px;
-            margin: 0 auto 4rem;
-            padding: 2.5rem;
-            background: linear-gradient(135deg, rgba(20, 18, 14, 0.5) 0%, rgba(28, 25, 20, 0.3) 100%);
-            border: 1px solid var(--border-subtle);
-            border-radius: 8px;
-            position: relative;
-        }
-
-        .intro-section::before {
-            content: '"';
-            position: absolute;
-            top: 10px;
-            left: 20px;
-            font-size: 4rem;
-            color: var(--accent-gold);
-            opacity: 0.3;
-            font-family: 'Playfair Display', serif;
-        }
-
-        .intro-section p {
-            font-size: 1.1rem;
-            color: var(--text-primary);
-            line-height: 1.8;
-            margin-bottom: 1.5rem;
-        }
-
-        .intro-section p:last-child {
-            margin-bottom: 0;
-        }
-
-        .intro-section em {
-            color: var(--accent-gold);
-            font-style: italic;
-            font-weight: 500;
-        }
-
-        /* Devotionals Grid */
-        .devotionals-container {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            padding: 0 1.5rem 4rem;
-        }
-
-        .devotionals-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-            margin-bottom: 4rem;
-        }
-
-        /* Devotional Card */
-        .devotional-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 8px;
-            padding: 2rem;
-            transition: all var(--transition-smooth);
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            cursor: pointer;
-            text-decoration: none;
-            color: var(--text-primary);
-        }
-
-        .devotional-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
-            opacity: 0;
-            transition: opacity var(--transition-smooth);
-        }
-
-        .devotional-card::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: radial-gradient(circle at top right, rgba(212, 162, 84, 0.05), transparent);
-            opacity: 0;
-            transition: opacity var(--transition-smooth);
-        }
-
-        .devotional-card:hover {
-            background: var(--bg-card-hover);
-            border-color: rgba(212, 162, 84, 0.3);
-            transform: translateY(-4px);
-        }
-
-        .devotional-card:hover::before {
-            opacity: 1;
-        }
-
-        .devotional-card:hover::after {
-            opacity: 1;
-        }
-
-        .card-number {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--accent-gold);
-            opacity: 0.4;
-            margin-bottom: 0.5rem;
-            line-height: 1;
-        }
-
-        .card-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 0.75rem;
-            line-height: 1.3;
-            color: var(--text-primary);
-        }
-
-        .card-description {
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            margin-bottom: 1rem;
-            flex-grow: 1;
-            line-height: 1.6;
-        }
-
-        .card-scripture {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.85rem;
-            color: var(--accent-violet);
-            margin-bottom: 1rem;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        .card-footer {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 1.5rem;
-            padding-top: 1rem;
-            border-top: 1px solid rgba(212, 162, 84, 0.1);
-        }
-
-        .card-read {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: var(--accent-gold);
-            font-weight: 600;
-            font-size: 0.9rem;
-            transition: all var(--transition-smooth);
-        }
-
-        .card-read svg {
-            width: 16px;
-            height: 16px;
-            stroke-width: 2;
-            transition: transform var(--transition-smooth);
-        }
-
-        .devotional-card:hover .card-read {
-            gap: 0.75rem;
-            color: var(--accent-ember);
-        }
-
-        .devotional-card:hover .card-read svg {
-            transform: translateX(3px);
-        }
-
-        /* Spurgeon Quote Block */
-        .quote-block {
-            max-width: 900px;
-            margin: 3rem auto;
-            padding: 3rem;
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(232, 100, 44, 0.05) 100%);
-            border-left: 4px solid var(--accent-gold);
-            border-radius: 8px;
-            position: relative;
-        }
-
-        .quote-block::before {
-            content: '"';
-            position: absolute;
-            top: 10px;
-            left: 30px;
-            font-size: 5rem;
-            color: var(--accent-gold);
-            opacity: 0.2;
-            font-family: 'Playfair Display', serif;
-            line-height: 1;
-        }
-
-        .quote-text {
-            font-size: 1.3rem;
-            color: var(--text-primary);
-            font-style: italic;
-            line-height: 1.8;
-            margin-bottom: 1rem;
-            position: relative;
-            z-index: 1;
-            font-family: 'Playfair Display', serif;
-            font-weight: 700;
-        }
-
-        .quote-author {
-            color: var(--accent-gold);
-            font-size: 0.95rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-align: right;
-        }}
-
-        .footer-container {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            padding: 3rem 1.5rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 3rem;
-        }
-
-        .footer-section h4 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            color: var(--accent-gold);
-            letter-spacing: 0.05em;
-        }
-
-        .footer-section p {
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section ul li {
-            margin-bottom: 0.75rem;
-        }
-
-        .footer-section a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color var(--transition-smooth);
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-copyright {
-            max-width: 1200px; width: 100%;
-            margin: 2rem auto 0;
-            padding: 2rem 1.5rem 0;
-            border-top: 1px solid var(--border-subtle);
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 0.85rem;
-        }
-
-        /* Focus Visible Styles */
-        a:focus-visible,
-        button:focus-visible {
-            outline: 2px solid var(--accent-violet);
-            outline-offset: 2px;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-
-            .hero {
-                padding: 3rem 1.5rem 2rem;
-            }
-
-            .hero::before {
-                width: 200px;
-                height: 200px;
-                right: -10%;
-            }
-
-            .intro-section {
-                padding: 2rem;
-            }
-
-            .intro-section::before {
-                font-size: 2rem;
-                left: 10px;
-            }
-
-            .devotionals-grid {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-
-            .quote-block {
-                padding: 2rem;
-            }
-
-            .quote-text {
-                font-size: 1.15rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero p {
-                font-size: 1.1rem;
-            }
-
-            .devotional-card {
-                padding: 1.5rem;
-            }
-
-            .card-number {
-                font-size: 2rem;
-            }
-
-            .card-title {
-                font-size: 1.25rem;
-            }
-
-            .footer-container {
-                gap: 2rem;
-            }
-        }
-
-        /* Reduced motion */
-        @media (prefers-reduced-motion: reduce) {
-            * {
-                animation-duration: 0.01ms !important;
-                animation-iteration-count: 1 !important;
-                transition-duration: 0.01ms !important;
-            }
-        }
-
-    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -477,7 +41,7 @@
 
     <div class="progress-bar"></div>
 
-                <!--
+    <!--
   ============================================================
   CANONICAL NAV TEMPLATE — v2 with Mega-Menu
   ============================================================
@@ -486,10 +50,10 @@
   any links. Do not add a logo.
 
   REQUIRED in <head>:
-    
+    <link rel="stylesheet" href="/global.css">
 
   REQUIRED before </body>:
-    
+    <script src="/nav.js"></script>
 
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
@@ -503,7 +67,7 @@
   Last updated: 2026-03-29
   ============================================================
 -->
-        <nav role="navigation" aria-label="Main navigation">
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -568,27 +132,24 @@
         <div class="search-results" id="searchResults"></div>
     </div>
 
-
-
-
     <main id="main-content">
         <!-- Hero Section -->
-        <section class="page-hero">
+        <section class="hub-hero">
             <h1>Devotionals</h1>
             <p>Meditations on sovereign grace — for the heart that longs to worship</p>
         </section>
 
         <!-- Intro Section -->
-        <section class="intro-section">
+        <section class="hub-intro">
             <p>The mind can grasp election as doctrine. The heart must taste it as <em>grace</em>. These devotionals are written not for the theologian's desk but for the soul's transformation — to move you from intellectual assent to doxological joy. Each meditation invites you deeper into the truth that you are <em>loved with an everlasting love, chosen before the foundations of the world, rescued not because you deserved it but because He delighted to make you His own</em>.</p>
             <p>As you read, ask the Spirit to align your affections with truth. This is the work of devotion: that Christ becomes not just your doctrine but your delight.</p>
         </section>
 
         <!-- Devotionals Grid -->
-        <section class="devotionals-container">
-            <div class="devotionals-grid">
+        <section class="hub-container">
+            <div class="hub-grid">
                 <!-- Card 1 -->
-                <a href="devotional-glory-of-divine-choice.html" class="devotional-card">
+                <a href="devotional-glory-of-divine-choice.html" class="hub-card">
                     <div class="card-number">01</div>
                     <h2 class="card-title">The Glory of Divine Choice</h2>
                     <p class="card-description">Election is not arbitrary cruelty but the apex of divine wisdom and goodness. Discover why your salvation reveals God's glory more brilliantly than any alternative.</p>
@@ -599,7 +160,7 @@
                 </a>
 
                 <!-- Card 2 -->
-                <a href="devotional-my-chains-fell-away.html" class="devotional-card">
+                <a href="devotional-my-chains-fell-away.html" class="hub-card">
                     <div class="card-number">02</div>
                     <h2 class="card-title">The Dead Who Live</h2>
                     <p class="card-description">Regeneration is not self-improvement but resurrection. Only a dead man raised can understand what grace has made you—alive in Christ.</p>
@@ -610,7 +171,7 @@
                 </a>
 
                 <!-- Card 3 -->
-                <a href="devotional-love-letter-before-time.html" class="devotional-card">
+                <a href="devotional-love-letter-before-time.html" class="hub-card">
                     <div class="card-number">03</div>
                     <h2 class="card-title">Love Before the World Was Made</h2>
                     <p class="card-description">Your election was not an afterthought when God saw your faith. He loved you in His Son before time itself began—a love older than creation.</p>
@@ -621,7 +182,7 @@
                 </a>
 
                 <!-- Card 4 -->
-                <a href="devotional-my-chains-fell-away.html" class="devotional-card">
+                <a href="devotional-my-chains-fell-away.html" class="hub-card">
                     <div class="card-number">04</div>
                     <h2 class="card-title">My Chains Fell Away</h2>
                     <p class="card-description">Freedom in Christ is not permission to sin but the liberation to obey. Grace breaks our chains and sets us running toward holiness.</p>
@@ -632,7 +193,7 @@
                 </a>
 
                 <!-- Card 5 -->
-                <a href="devotional-forever-loved.html" class="devotional-card">
+                <a href="devotional-forever-loved.html" class="hub-card">
                     <div class="card-number">05</div>
                     <h2 class="card-title">Forever Loved</h2>
                     <p class="card-description">Nothing can separate you from the love of Christ—not death, not demons, not your own desperate fears. You are held in an unbreakable grip.</p>
@@ -643,7 +204,7 @@
                 </a>
 
                 <!-- Card 6 -->
-                <a href="devotional-adoption-papers.html" class="devotional-card">
+                <a href="devotional-adoption-papers.html" class="hub-card">
                     <div class="card-number">06</div>
                     <h2 class="card-title">Adoption Papers</h2>
                     <p class="card-description">Before you drew breath, God wrote your name in the register of His household. You are not a servant but a beloved child, chosen and sealed forever.</p>
@@ -654,7 +215,7 @@
                 </a>
 
                 <!-- Card 7 -->
-                <a href="devotional-rescued-without-a-say.html" class="devotional-card">
+                <a href="devotional-rescued-without-a-say.html" class="hub-card">
                     <div class="card-number">07</div>
                     <h2 class="card-title">Rescued Without a Say</h2>
                     <p class="card-description">You did not choose Him; He chose you. This overthrows human pride and anchors salvation in the sovereign mercy of God alone.</p>
@@ -665,7 +226,7 @@
                 </a>
 
                 <!-- Card 8 -->
-                <a href="devotional-not-my-will-but-joy.html" class="devotional-card">
+                <a href="devotional-not-my-will-but-joy.html" class="hub-card">
                     <div class="card-number">08</div>
                     <h2 class="card-title">Not My Will, But Joy</h2>
                     <p class="card-description">God's will may not be yours, but when you surrender to it, you find not resignation but rejoicing—the deepest satisfaction a soul can know.</p>
@@ -675,13 +236,8 @@
                     </div>
                 </a>
 
-                <!-- Card 9 -->
-                /a>
-
-                <!-- Card 10 -->
-                /a>
                 <!-- Card 11 -->
-                <a href="devotional-in-christ.html" class="devotional-card">
+                <a href="devotional-in-christ.html" class="hub-card">
                     <div class="card-number">11</div>
                     <h2 class="card-title">In Christ: The Two Words That Change Everything</h2>
                     <p class="card-description">Every spiritual blessing lives in the same address: in Him. Union with Christ is not one doctrine among many — it is the foundation beneath them all.</p>
@@ -692,7 +248,7 @@
                 </a>
 
                 <!-- Card 12 -->
-                <a href="devotional-cold-church.html" class="devotional-card">
+                <a href="devotional-cold-church.html" class="hub-card">
                     <div class="card-number">12</div>
                     <h2 class="card-title">A Letter to the Cold Church</h2>
                     <p class="card-description">A warm, pastoral devotional on spiritual lukewarmness and how sovereign grace melts cold hearts. Revelation calls us back to burning love for Christ.</p>
@@ -703,7 +259,7 @@
                 </a>
 
                 <!-- Card 13 -->
-                <a href="devotional-never-gives-up.html" class="devotional-card">
+                <a href="devotional-never-gives-up.html" class="hub-card">
                     <div class="card-number">13</div>
                     <h2 class="card-title">He Will Never Give Up On You</h2>
                     <p class="card-description">Experience the soul-quenching truth that God's love perseveres through every failure, every doubt, every fall. His relentless grace will never abandon you.</p>
@@ -714,7 +270,7 @@
                 </a>
 
                 <!-- Card 14 -->
-                <a href="devotional-valley-shadow.html" class="devotional-card">
+                <a href="devotional-valley-shadow.html" class="hub-card">
                     <div class="card-number">14</div>
                     <h2 class="card-title">When God Says No</h2>
                     <p class="card-description">In prayer's refusal lies divine purpose. Unanswered prayer is not indifference but love—God's "no" is more gracious than the "yes" we desperately wanted.</p>
@@ -724,7 +280,7 @@
                     </div>
                 </a>
 
-                <a href="devotional-love-letter-before-time.html" class="devotional-card">
+                <a href="devotional-love-letter-before-time.html" class="hub-card">
                     <div class="card-number">15</div>
                     <h2 class="card-title">The Love Letter Dated Before Time</h2>
                     <p class="card-description">What if you found a letter written to you before you were born — before the world was born? Ephesians 1:3-14 as God's personal correspondence to you, dated before the foundation of the world.</p>
@@ -733,7 +289,8 @@
                         <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
                     </div>
                 </a>
-                <a href="devotional-valley-shadow.html" class="devotional-card">
+
+                <a href="devotional-valley-shadow.html" class="hub-card">
                     <div class="card-number">16</div>
                     <h2 class="card-title">Valley of the Shadow</h2>
                     <p class="card-description">Psalm 23 doesn't say God removes the valley. It says He walks through it with you. And the Shepherd who mapped the route is the Shepherd who holds your hand in the dark.</p>
@@ -744,7 +301,7 @@
                 </a>
 
                 <!-- Additional Orphaned Devotionals -->
-                <a href="devotional-chosen-before-you-were-broken.html" class="devotional-card">
+                <a href="devotional-chosen-before-you-were-broken.html" class="hub-card">
                     <div class="card-number">17</div>
                     <h2 class="card-title">Chosen Before You Were Broken</h2>
                     <p class="card-description">You were chosen before the foundation of the world—before any sin, before any shame, before any breaking. A devotional for the soul drowning in self-condemnation.</p>
@@ -754,7 +311,7 @@
                     </div>
                 </a>
 
-                <a href="devotional-in-christ.html" class="devotional-card">
+                <a href="devotional-in-christ.html" class="hub-card">
                     <div class="card-number">18</div>
                     <h2 class="card-title">In Christ: The Two Words That Change Everything</h2>
                     <p class="card-description">Your entire salvation, past, present, and future, is hidden in these two words. Not in yourself. Not in your performance. In Christ. Everything flows from this union.</p>
@@ -764,7 +321,7 @@
                     </div>
                 </a>
 
-                <a href="devotional-cold-church.html" class="devotional-card">
+                <a href="devotional-cold-church.html" class="hub-card">
                     <div class="card-number">19</div>
                     <h2 class="card-title">A Letter to the Cold Church</h2>
                     <p class="card-description">To the believer who knows the doctrine but has lost the delight. Who can recite the confessions but cannot remember what it felt like to be amazed. A call back to wonder.</p>
@@ -774,7 +331,7 @@
                     </div>
                 </a>
 
-                <a href="devotional-the-prayer-you-didnt-pray.html" class="devotional-card">
+                <a href="devotional-the-prayer-you-didnt-pray.html" class="hub-card">
                     <div class="card-number">20</div>
                     <h2 class="card-title">The Prayer You Didn't Pray</h2>
                     <p class="card-description">Before you prayed the prayer, before you said the words, before the decision was "yours"—Someone prayed for you. Before time began.</p>
@@ -787,7 +344,7 @@
         </section>
 
         <!-- Spurgeon Quote -->
-        <section class="quote-block">
+        <section class="hub-quote">
             <p class="quote-text">A devout life is not a life of rigid restraint, but of warm affection toward God. The grace of God should kindle within us such a love for Him that our entire being overflows with gratitude and worship.</p>
             <div class="quote-author">— CHARLES HADDON SPURGEON</div>
         </section>
@@ -826,8 +383,6 @@
         </section>
     </main>
 
-        
-
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">
   <div class="related-articles-inner">
@@ -835,28 +390,27 @@
     <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
     <div class="related-articles-grid">
       <a href="/psalms-election" class="related-article-card">
-        <span class="related-article-cat">🎵 Psalms &amp; Poetry</span>
+        <span class="related-article-cat">Psalms & Poetry</span>
         <span class="related-article-title">Election in the Psalms</span>
         <span class="related-article-desc">How David understood himself as chosen by grace, not merit. Election themes throughout the Psalms—Ps...</span>
       </a>
       <a href="/story-surgeon-stone-heart" class="related-article-card">
-        <span class="related-article-cat">📜 Stories</span>
-        <span class="related-article-title">Can a Stone Heart Choose? The Surgeon&#039;s Parable on Regeneration</span>
+        <span class="related-article-cat">Stories</span>
+        <span class="related-article-title">Can a Stone Heart Choose? The Surgeon's Parable on Regeneration</span>
         <span class="related-article-desc">Can a stone heart choose? A surgeon gives a new heart without asking. A parable about regeneration a...</span>
       </a>
-      /a>
       <a href="/analogy-lazarus-grave" class="related-article-card">
-        <span class="related-article-cat">💡 Analogies</span>
-        <span class="related-article-title">Did Lazarus Choose to Rise? God&#039;s Sovereign Calling Explained</span>
+        <span class="related-article-cat">Analogies</span>
+        <span class="related-article-title">Did Lazarus Choose to Rise? God's Sovereign Calling Explained</span>
         <span class="related-article-desc">Does God force salvation or respect free will? John 11 shows how effectual calling works through Laz...</span>
       </a>
       <a href="/ot-isaiah-servant" class="related-article-card">
-        <span class="related-article-cat">📚 Old Testament</span>
-        <span class="related-article-title">Isaiah: The Servant &amp;amp; God&#039;s Immutable Counsel</span>
+        <span class="related-article-cat">Old Testament</span>
+        <span class="related-article-title">Isaiah: The Servant & God's Immutable Counsel</span>
         <span class="related-article-desc">Isaiah reveals God</span>
       </a>
       <a href="/start-here-phase5" class="related-article-card">
-        <span class="related-article-cat">🧭 Start Here</span>
+        <span class="related-article-cat">Start Here</span>
         <span class="related-article-title">Living as an Elect Child of God — Phase 5</span>
         <span class="related-article-desc">Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, wo...</span>
       </a>
@@ -870,69 +424,65 @@
 <!-- RELATED-ARTICLES-END -->
 
 <footer>
-        <div class="footer-container">
-            <div class="footer-section">
-                <h4>Truth</h4>
-                <ul>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                    <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Explore</h4>
-                <ul>
-                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
-                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Connect</h4>
-                <ul>
-                    <li class="mobile-nav-link"><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
-                </ul>
-            </div>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Truth</h4>
+            <ul>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li><a href="/systematic-theology">Systematic Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+            </ul>
         </div>
-        <div class="footer-grace-warning">
-            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
-            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        <div class="footer-section">
+            <h4>Explore</h4>
+            <ul>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+            </ul>
         </div>
-        <div class="footer-copyright">
-            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
+        <div class="footer-section">
+            <h4>Connect</h4>
+            <ul>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+            </ul>
         </div>
-    </footer>
+    </div>
+    <div class="footer-grace-warning">
+        "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+        Grace is not a license to sin. It is the power that frees us from sin's dominion.
+    </div>
+    <div class="footer-copyright">
+        &copy; 2026 Adopted by Grace — Soli Deo Gloria
+    </div>
+</footer>
 
-    
-
-    
-
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": "Devotionals — Adopted by Grace",
-        "description": "Meditations on sovereign grace — for the heart that longs to worship",
-        "url": "https://adoptedbygrace.net/devotionals.html",
-        "isPartOf": {
-            "@type": "WebSite",
-            "name": "Adopted by Grace",
-            "url": "https://adoptedbygrace.net"
-        },
-        "mainEntity": {
-            "@type": "Collection",
-            "name": "Reformed Theology Devotionals",
-            "description": "10 devotionals exploring election, regeneration, grace, and the sovereignty of God"
-        },
-        "image": "https://adoptedbygrace.net/og-image.png"
-    }
-    </script>
-    <script src="/global.js" defer></script>
-
-    <script src="/nav.js"></script>
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Devotionals — Adopted by Grace",
+    "description": "Meditations on sovereign grace — for the heart that longs to worship",
+    "url": "https://adoptedbygrace.net/devotionals.html",
+    "isPartOf": {
+        "@type": "WebSite",
+        "name": "Adopted by Grace",
+        "url": "https://adoptedbygrace.net"
+    },
+    "mainEntity": {
+        "@type": "Collection",
+        "name": "Reformed Theology Devotionals",
+        "description": "10 devotionals exploring election, regeneration, grace, and the sovereignty of God"
+    },
+    "image": "https://adoptedbygrace.net/og-image.png"
+}
+</script>
+<script src="/global.js" defer></script>
+<script src="/nav.js"></script>
 </body>
 </html>

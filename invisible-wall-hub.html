@@ -27,194 +27,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/global.css">
     <script src="/global.js" defer></script>
-    
-<style>
-        .hero-section {
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.05) 0%, rgba(232, 100, 44, 0.03) 100%);
-            border-bottom: 1px solid var(--border-subtle);
-            padding: 4rem 1rem;
-            text-align: center;
-        }
-        .hero-section .eyebrow {
-            font-size: 0.75rem;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-            font-weight: 700;
-        }
-        .hero-section h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3.5rem;
-            font-weight: 700;
-            line-height: 1.1;
-            margin-bottom: 1.5rem;
-            color: var(--text-primary);
-        }
-        .hero-section h1 .gold {
-            color: var(--accent-gold);
-        }
-        .hero-section .subtitle {
-            font-size: 1.1rem;
-            line-height: 1.7;
-            color: var(--text-secondary);
-            max-width: 700px;
-            margin: 0 auto 3rem;
-        }
-        .intro-section {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 4rem 1rem;
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 8px;
-            margin-top: 2rem;
-        }
-        .intro-section p {
-            font-size: 1.05rem;
-            line-height: 1.8;
-            color: var(--text-secondary);
-            margin-bottom: 1.5rem;
-        }
-        .intro-section .scripture-ref { display: block;
-            font-size: 0.9rem;
-            color: var(--accent-gold);
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-        .scripture-blockquote {
-            background: rgba(212, 162, 84, 0.08);
-            border-left: 4px solid var(--accent-gold);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            font-style: italic;
-            font-size: 1.1rem;
-            color: var(--text-primary);
-            line-height: 1.8;
-        }
-        .articles-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            padding: 4rem 1rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .article-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 8px;
-            padding: 2rem;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-        .article-card:hover {
-            background: rgba(251, 191, 36, 0.12);
-            border-color: var(--accent-gold);
-            transform: translateY(-4px);
-        }
-        .article-card-icon {
-            font-size: 2.5rem;
-            line-height: 1;
-        }
-        .article-card h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            color: var(--text-primary);
-            line-height: 1.4;
-        }
-        .article-card.coming-soon h3 {
-            color: var(--text-secondary);
-        }
-        .article-card-status {
-            font-size: 0.8rem;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            color: var(--accent-ember);
-            font-weight: 700;
-        }
-        .humor-bar {
-            background: rgba(139, 92, 246, 0.08);
-            border: 1px solid rgba(139, 92, 246, 0.15);
-            padding: 2rem;
-            margin: 3rem 1rem;
-            border-radius: 8px;
-            max-width: 1200px;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            font-size: 1.05rem;
-            font-style: italic;
-            color: var(--text-secondary);
-            line-height: 1.7;
-        }
-        .cross-ref-section {
-            max-width: 1200px;
-            margin: 3rem auto;
-            padding: 2rem 1rem;
-            border-top: 1px solid var(--border-subtle);
-            border-bottom: 1px solid var(--border-subtle);
-        }
-        .cross-ref-section h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.2rem;
-            margin-bottom: 1.5rem;
-            color: var(--text-primary);
-        }
-        .cross-ref-links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-        .cross-ref-links a {
-            padding: 0.75rem 1.5rem;
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            color: var(--accent-gold);
-            text-decoration: none;
-            border-radius: 6px;
-            transition: all 0.3s ease;
-            font-weight: 600;
-            font-size: 0.95rem;
-        }
-        .cross-ref-links a:hover {
-            background: rgba(212, 162, 84, 0.12);
-            border-color: var(--accent-gold);
-        }
-        @media (max-width: 768px) {
-            .hero-section h1 {
-                font-size: 2.2rem;
-            }
-            .hero-section .subtitle {
-                font-size: 1rem;
-            }
-            .articles-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
-            <nav role="navigation" aria-label="Main navigation">
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
-            <!-- Mobile search icon (right side of nav bar) -->
             <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             </button>
             <ul class="nav-links">
-                <!-- Search bar at top of mobile menu -->
                 <li class="mobile-menu-search" style="list-style:none;">
                     <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
                 </li>
-                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
                 <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
@@ -225,10 +53,8 @@
                 <li class="mobile-nav-link"><a href="/history-timeline">Through the Ages</a></li>
                 <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
                 <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
                 <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
             </ul>
-
             <div class="nav-right">
                 <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
                 <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
@@ -248,14 +74,11 @@
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
                 </button>
             </div>
-
         </div>
     </nav>
 
-    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
     <div class="mega-menu" id="megaMenu"></div>
 
-    <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">
         <div class="search-overlay-inner">
             <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
@@ -265,86 +88,101 @@
     </div>
 
     <main id="main-content">
-        <section class="hero-section">
-            <div class="eyebrow">Relationships & Belonging</div>
-            <h1>The Invisible <span class="gold">Wall</span></h1>
-            <p class="subtitle">82% of people report experiencing loneliness. The quiet epidemic nobody preaches about. But the sovereignty of God has something to say about it that no self-help book ever will: you were not lonely by accident — and if you are His, you have never been alone.</p>
+        <section class="hub-hero">
+            <div class="hub-hero-eyebrow">Relationships & Belonging</div>
+            <h1>The Invisible <span class="hub-accent">Wall</span></h1>
+            <p class="hub-hero-subtitle">82% of people report experiencing loneliness. The quiet epidemic nobody preaches about. But the sovereignty of God has something to say about it that no self-help book ever will: you were not lonely by accident — and if you are His, you have never been alone.</p>
         </section>
 
-        <section class="intro-section">
-            <p><span class="scripture-ref">Acts 17:26 — God determined exact times and places.</span> Ephesians 1:5 — predestined for adoption. The loneliest person who belongs to Christ has been adopted into a family that spans eternity.</p>
-            <div class="scripture-blockquote">"When my father and my mother forsake me, the Lord will take me up." — Psalm 27:10</div>
+        <section class="hub-intro">
+            <p><span class="hub-scripture-label">Acts 17:26 — God determined exact times and places.</span> Ephesians 1:5 — predestined for adoption. The loneliest person who belongs to Christ has been adopted into a family that spans eternity.</p>
+            <blockquote class="hub-scripture-quote">"When my father and my mother forsake me, the Lord will take me up." — Psalm 27:10</blockquote>
         </section>
 
-        <section class="articles-grid">
-            <a href="/invisible-wall-lonely-theological" class="article-card">
-                <div class="article-card-icon">👥</div>
-                <h3>82% of People Are Lonely — Here's Why That's a Theological Problem</h3>
-                <div class="article-card-status">Live</div>
-            </a>
+        <section class="hub-container">
+            <div class="hub-grid">
+                <a href="/invisible-wall-lonely-theological" class="hub-card">
+                    <div class="card-number">01</div>
+                    <h3 class="card-title">82% of People Are Lonely — Here's Why That's a Theological Problem</h3>
+                    <p class="card-description">Loneliness is an epidemic. But God's sovereignty says it's not random.</p>
+                    <div class="card-meta">Live</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
 
-            <div class="article-card coming-soon">
-                <div class="article-card-icon">💍</div>
-                <h3>The Marriage You're In Was Ordained Before You Said 'I Do'</h3>
-                <div class="article-card-status">Coming Soon</div>
-            </div>
+                <div class="hub-card">
+                    <div class="card-number">02</div>
+                    <h3 class="card-title">The Marriage You're In Was Ordained Before You Said 'I Do'</h3>
+                    <p class="card-description">Your covenant was planned in eternity.</p>
+                    <div class="card-meta">Coming Soon</div>
+                </div>
 
-            <div class="article-card coming-soon">
-                <div class="article-card-icon">🤝</div>
-                <h3>How to Forgive When Every Cell in Your Body Refuses</h3>
-                <div class="article-card-status">Coming Soon</div>
-            </div>
+                <div class="hub-card">
+                    <div class="card-number">03</div>
+                    <h3 class="card-title">How to Forgive When Every Cell in Your Body Refuses</h3>
+                    <p class="card-description">Grace-powered forgiveness for impossible situations.</p>
+                    <div class="card-meta">Coming Soon</div>
+                </div>
 
-            <div class="article-card coming-soon">
-                <div class="article-card-icon">🏙️</div>
-                <h3>Loneliness in a Crowded Room</h3>
-                <div class="article-card-status">Coming Soon</div>
-            </div>
+                <div class="hub-card">
+                    <div class="card-number">04</div>
+                    <h3 class="card-title">Loneliness in a Crowded Room</h3>
+                    <p class="card-description">The loneliness that comes from disconnection with God.</p>
+                    <div class="card-meta">Coming Soon</div>
+                </div>
 
-            <div class="article-card coming-soon">
-                <div class="article-card-icon">✂️</div>
-                <h3>The Friendship You Lost and the God Who Prunes</h3>
-                <div class="article-card-status">Coming Soon</div>
-            </div>
+                <div class="hub-card">
+                    <div class="card-number">05</div>
+                    <h3 class="card-title">The Friendship You Lost and the God Who Prunes</h3>
+                    <p class="card-description">When God removes people from your life, He's pruning you for growth.</p>
+                    <div class="card-meta">Coming Soon</div>
+                </div>
 
-            <div class="article-card coming-soon">
-                <div class="article-card-icon">🏠</div>
-                <h3>Toxic Family and the Family God Chose For You</h3>
-                <div class="article-card-status">Coming Soon</div>
-            </div>
+                <div class="hub-card">
+                    <div class="card-number">06</div>
+                    <h3 class="card-title">Toxic Family and the Family God Chose For You</h3>
+                    <p class="card-description">God's family transcends the family of your birth.</p>
+                    <div class="card-meta">Coming Soon</div>
+                </div>
 
-            <div class="article-card coming-soon">
-                <div class="article-card-icon">🔄</div>
-                <h3>Why You Keep Choosing the Wrong People</h3>
-                <div class="article-card-status">Coming Soon</div>
-            </div>
+                <div class="hub-card">
+                    <div class="card-number">07</div>
+                    <h3 class="card-title">Why You Keep Choosing the Wrong People</h3>
+                    <p class="card-description">The pattern of wrong choices and the sovereign hand that redirects.</p>
+                    <div class="card-meta">Coming Soon</div>
+                </div>
 
-            <div class="article-card coming-soon">
-                <div class="article-card-icon">💔</div>
-                <h3>The Divorce You Didn't Want</h3>
-                <div class="article-card-status">Coming Soon</div>
-            </div>
+                <div class="hub-card">
+                    <div class="card-number">08</div>
+                    <h3 class="card-title">The Divorce You Didn't Want</h3>
+                    <p class="card-description">Abandonment by another, adoption by God.</p>
+                    <div class="card-meta">Coming Soon</div>
+                </div>
 
-            <div class="article-card coming-soon">
-                <div class="article-card-icon">⛪</div>
-                <h3>When the Church Hurts Worse Than the World</h3>
-                <div class="article-card-status">Coming Soon</div>
-            </div>
+                <div class="hub-card">
+                    <div class="card-number">09</div>
+                    <h3 class="card-title">When the Church Hurts Worse Than the World</h3>
+                    <p class="card-description">Betrayal by God's people and the God who heals it.</p>
+                    <div class="card-meta">Coming Soon</div>
+                </div>
 
-            <div class="article-card coming-soon">
-                <div class="article-card-icon">👨‍👧</div>
-                <h3>The Parent Who Failed You and the Father Who Won't</h3>
-                <div class="article-card-status">Coming Soon</div>
+                <div class="hub-card">
+                    <div class="card-number">10</div>
+                    <h3 class="card-title">The Parent Who Failed You and the Father Who Won't</h3>
+                    <p class="card-description">Earthly fathers fail. The Father chosen for you cannot.</p>
+                    <div class="card-meta">Coming Soon</div>
+                </div>
             </div>
         </section>
 
-        <section class="humor-bar">
+        <section class="hub-humor">
             "This page was predestined to make you feel less alone. Ironic, isn't it — even your reading this was planned."
         </section>
 
-        <section class="cross-ref-section">
+        <section class="hub-cross-ref">
             <h3>Explore Related Categories</h3>
-            <div class="cross-ref-links">
+            <div class="hub-cross-ref-links">
                 <a href="/devotionals">Devotionals</a>
                 <a href="/stories">Stories</a>
                 <a href="/psychology-hub">Why We Resist</a>
@@ -353,16 +191,14 @@
             </div>
         </section>
 
-        <!-- Crown Jewel Banner -->
-        <div style="max-width: 800px; margin: 3rem auto; padding: 2.5rem; background: linear-gradient(135deg, rgba(232, 100, 44, 0.08) 0%, rgba(139, 92, 246, 0.05) 100%); border: 2px solid rgba(232, 100, 44, 0.25); border-radius: 12px; text-align: center;">
-            <p style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4em; color: #e8642c; margin-bottom: 1rem;">BEFORE YOU HEAL — READ THIS</p>
-            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.6rem; color: #f0ece4; margin-bottom: 1rem; line-height: 1.3;">Are You Sure You're Saved?</h3>
-            <p style="color: #9a958c; font-size: 1rem; line-height: 1.7; max-width: 600px; margin: 0 auto 1.5rem;">The wall between you and God may not be what you think. If you believe you chose Him, you've built a wall of self-trust that only grace can tear down. And if you built that wall with your own will, your own will cannot tear it down. The One who made you must make you new.</p>
-            <a href="/psychology-cost-of-rejecting-grace" style="display: inline-block; padding: 0.9rem 2rem; background: linear-gradient(135deg, #e8642c, #c0541e); color: #fff; font-weight: 700; font-size: 0.95rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(232, 100, 44, 0.25);">Read This Now →</a>
+        <div class="hub-crown-jewel">
+            <div class="hub-crown-label">BEFORE YOU HEAL — READ THIS</div>
+            <h3 class="hub-crown-title">Are You Sure You're Saved?</h3>
+            <p class="hub-crown-text">The wall between you and God may not be what you think. If you believe you chose Him, you've built a wall of self-trust that only grace can tear down. And if you built that wall with your own will, your own will cannot tear it down. The One who made you must make you new.</p>
+            <a href="/psychology-cost-of-rejecting-grace" class="hub-crown-button">Read This Now →</a>
         </div>
     </main>
 
-    
     <footer>
         <div class="footer-container">
             <div class="footer-section">
@@ -401,53 +237,49 @@
         </div>
     </footer>
 
+    <section class="related-articles" aria-label="Related articles">
+        <div class="related-articles-inner">
+            <h2 class="related-articles-heading">Keep Exploring</h2>
+            <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+            <div class="related-articles-grid">
+                <a href="/theologians" class="related-article-card">
+                    <span class="related-article-cat">🧓 Theologians</span>
+                    <span class="related-article-title">The Cloud of Witnesses — Great Theologians of Reformed Grace</span>
+                    <span class="related-article-desc">The cloud of witnesses: Augustine, Luther, Calvin, Owen, Edwards, Spurgeon and more — the great Refo...</span>
+                </a>
+                <a href="/question-acts4" class="related-article-card">
+                    <span class="related-article-cat">📖 Questions</span>
+                    <span class="related-article-title">The Cross Was Predestined — Acts 4:27-28 and the Sovereignty Behind Calvary</span>
+                    <span class="related-article-desc">The most evil act in history — the murder of God</span>
+                </a>
+                <a href="/history-puritans" class="related-article-card">
+                    <span class="related-article-cat">⏳ History</span>
+                    <span class="related-article-title">The Puritans and Reformed Orthodoxy</span>
+                    <span class="related-article-desc">Explore the golden age of Reformed theology. The Puritans</span>
+                </a>
+                <a href="/scripture-tsunami" class="related-article-card">
+                    <span class="related-article-cat">📄 General</span>
+                    <span class="related-article-title">480+ Bible Verses That Prove God's Sovereignty in Salvation | Scripture Tsunami</span>
+                    <span class="related-article-desc">They told you</span>
+                </a>
+                <a href="/systematic-divine-decrees" class="related-article-card">
+                    <span class="related-article-cat">🏛 Theology</span>
+                    <span class="related-article-title">Before the Foundation of the World — God's Eternal Decrees</span>
+                    <span class="related-article-desc">God</span>
+                </a>
+                <a href="/compare-calvinism-open-theism" class="related-article-card">
+                    <span class="related-article-cat">⚖ Comparisons</span>
+                    <span class="related-article-title">Calvinism vs Open Theism: Does God Know the Future?</span>
+                    <span class="related-article-desc">Calvinism vs Open Theism compared: Does God know the future exhaustively, or is He learning alongsid...</span>
+                </a>
+            </div>
+            <div class="related-articles-browse">
+                <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+                <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+            </div>
+        </div>
+    </section>
+
     <script src="/nav.js"></script>
-
-
-<!-- RELATED-ARTICLES-START -->
-<section class="related-articles" aria-label="Related articles">
-  <div class="related-articles-inner">
-    <h2 class="related-articles-heading">Keep Exploring</h2>
-    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
-    <div class="related-articles-grid">
-      <a href="/theologians" class="related-article-card">
-        <span class="related-article-cat">🧓 Theologians</span>
-        <span class="related-article-title">The Cloud of Witnesses — Great Theologians of Reformed Grace</span>
-        <span class="related-article-desc">The cloud of witnesses: Augustine, Luther, Calvin, Owen, Edwards, Spurgeon and more — the great Refo...</span>
-      </a>
-      <a href="/question-acts4" class="related-article-card">
-        <span class="related-article-cat">📖 Questions</span>
-        <span class="related-article-title">The Cross Was Predestined — Acts 4:27-28 and the Sovereignty Behind Calvary</span>
-        <span class="related-article-desc">The most evil act in history — the murder of God</span>
-      </a>
-      <a href="/history-puritans" class="related-article-card">
-        <span class="related-article-cat">⏳ History</span>
-        <span class="related-article-title">The Puritans and Reformed Orthodoxy</span>
-        <span class="related-article-desc">Explore the golden age of Reformed theology. The Puritans</span>
-      </a>
-      <a href="/scripture-tsunami" class="related-article-card">
-        <span class="related-article-cat">📄 General</span>
-        <span class="related-article-title">480+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
-        <span class="related-article-desc">They told you</span>
-      </a>
-      <a href="/systematic-divine-decrees" class="related-article-card">
-        <span class="related-article-cat">🏛 Theology</span>
-        <span class="related-article-title">Before the Foundation of the World — God&#039;s Eternal Decrees</span>
-        <span class="related-article-desc">God</span>
-      </a>
-      <a href="/compare-calvinism-open-theism" class="related-article-card">
-        <span class="related-article-cat">⚖ Comparisons</span>
-        <span class="related-article-title">Calvinism vs Open Theism: Does God Know the Future?</span>
-        <span class="related-article-desc">Calvinism vs Open Theism compared: Does God know the future exhaustively, or is He learning alongsid...</span>
-      </a>
-    </div>
-    <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
-</section>
-<!-- RELATED-ARTICLES-END -->
-
 </body>
 </html>

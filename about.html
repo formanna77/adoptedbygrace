@@ -36,560 +36,12 @@
     <link rel="stylesheet" href="/global.css">
     
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<style>
-        /* About page-specific styles (globals handled by global.css) */
-
-        /* ===== HERO ===== */
-        .hero {
-            min-height: 55vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 5rem 2rem 3rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -40%;
-            right: -15%;
-            width: 700px;
-            height: 700px;
-            background: radial-gradient(circle, rgba(212, 162, 84, 0.06) 0%, transparent 70%);
-            border-radius: 50%;
-            pointer-events: none;
-        }
-
-        .hero::after {
-            content: '';
-            position: absolute;
-            bottom: -30%;
-            left: -10%;
-            width: 500px;
-            height: 500px;
-            background: radial-gradient(circle, rgba(139, 92, 246, 0.04) 0%, transparent 70%);
-            border-radius: 50%;
-            pointer-events: none;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3.2rem;
-            font-weight: 800;
-            margin-bottom: 1.5rem;
-            letter-spacing: -0.02em;
-            line-height: 1.2;
-        }
-
-        .hero h1 span {
-            display: block;
-            font-size: 1.1rem;
-            font-family: 'JetBrains Mono', monospace;
-            color: var(--accent-gold);
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            font-weight: 600;
-            margin-bottom: 0.8rem;
-        }
-
-        .hero-subtitle {
-            font-size: 1.15rem;
-            color: var(--text-secondary);
-            max-width: 680px;
-            line-height: 1.8;
-        }
-
-        /* ===== MAIN CONTENT ===== */
-        .content {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        /* ===== THE ORIGIN STORY (top prose) ===== */
-        .origin {
-            max-width: 800px;
-            margin: 3rem auto 4rem;
-            padding: 0 2rem;
-        }
-
-        .origin p {
-            color: var(--text-secondary);
-            font-size: 1.05rem;
-            line-height: 1.85;
-            margin-bottom: 1.5rem;
-        }
-
-        .origin p:last-child {
-            margin-bottom: 0;
-        }
-
-        .origin .pullquote {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            color: var(--text-primary);
-            line-height: 1.6;
-            border-left: 3px solid var(--accent-gold);
-            padding: 1rem 0 1rem 1.5rem;
-            margin: 2.5rem 0;
-            font-style: italic;
-        }
-
-        .origin .pullquote cite {
-            display: block;
-            font-size: 0.85rem;
-            font-family: 'Inter', sans-serif;
-            color: var(--text-muted);
-            font-style: normal;
-            margin-top: 0.5rem;
-        }
-
-        /* ===== SECTION HEADERS ===== */
-        .section-header {
-            font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            color: var(--accent-gold);
-            margin-bottom: 1.5rem;
-            margin-top: 0;
-        }
-
-        /* ===== EXPLORE GRID ===== */
-        .explore-section {
-            max-width: 900px;
-            margin: 0 auto 4rem;
-            padding: 0 2rem;
-        }
-
-        .explore-intro {
-            color: var(--text-secondary);
-            font-size: 1.05rem;
-            line-height: 1.8;
-            margin-bottom: 2rem;
-        }
-
-        .explore-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 1.2rem;
-        }
-
-        .explore-card {
-            display: block;
-            padding: 1.5rem;
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 6px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .explore-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .explore-card:hover {
-            background: var(--bg-card-hover);
-            border-color: rgba(212, 162, 84, 0.25);
-            transform: translateY(-2px);
-        }
-
-        .explore-card:hover::before {
-            opacity: 1;
-        }
-
-        .explore-card-icon {
-            font-size: 1.6rem;
-            margin-bottom: 0.8rem;
-        }
-
-        .explore-card h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
-            color: var(--accent-gold);
-            margin-bottom: 0.5rem;
-        }
-
-        .explore-card p {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        /* ===== COMMITMENTS ===== */
-        .commitments-section {
-            max-width: 800px;
-            margin: 0 auto 4rem;
-            padding: 0 2rem;
-        }
-
-        .commitment {
-            padding: 1.5rem 0;
-            border-bottom: 1px solid var(--border-subtle);
-        }
-
-        .commitment:last-child {
-            border-bottom: none;
-        }
-
-        .commitment-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.15rem;
-            color: var(--text-primary);
-            margin-bottom: 0.6rem;
-            display: flex;
-            align-items: baseline;
-            gap: 0.8rem;
-        }
-
-        .commitment-number {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.85rem;
-            color: var(--accent-gold);
-            font-weight: 700;
-        }
-
-        .commitment p {
-            color: var(--text-secondary);
-            line-height: 1.7;
-            font-size: 0.95rem;
-            padding-left: 1.8rem;
-        }
-
-        /* ===== CONTACT STRIP ===== */
-        .contact-strip {
-            max-width: 800px;
-            margin: 0 auto 4rem;
-            padding: 0 2rem;
-        }
-
-        .contact-box {
-            background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.06));
-            border: 1px solid var(--border-subtle);
-            border-radius: 6px;
-            padding: 2.5rem 2rem;
-            text-align: center;
-        }
-
-        .contact-box p {
-            color: var(--text-secondary);
-            font-size: 1rem;
-            line-height: 1.7;
-            margin-bottom: 1.2rem;
-        }
-
-        .contact-email {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 1.15rem;
-            color: var(--accent-gold);
-            text-decoration: none;
-            letter-spacing: 0.02em;
-            transition: color 0.3s ease;
-        }
-
-        .contact-email:hover {
-            color: var(--accent-ember);
-        }
-
-        .contact-verse {
-            color: var(--text-muted);
-            font-size: 0.85rem;
-            font-style: italic;
-            margin-top: 1.2rem;
-            margin-bottom: 0;
-        }
-
-        /* ===== DIVIDER ===== */
-        .section-divider {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        .section-divider hr {
-            border: none;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
-            opacity: 0.3;
-            margin: 3rem 0;
-        }
-
-        /* ===== TESTIMONY ===== */
-        .testimony-section {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 2rem 4rem;
-        }
-
-        .testimony-header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .testimony-header h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
-            font-weight: 800;
-            color: var(--text-primary);
-            margin-bottom: 0.5rem;
-            letter-spacing: 0.08em;
-        }
-
-        .testimony-header .subtitle {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.85rem;
-            color: var(--accent-gold);
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-        }
-
-        .testimony-body p {
-            color: var(--text-secondary);
-            font-size: 1.02rem;
-            line-height: 1.85;
-            margin-bottom: 1.5rem;
-        }
-
-        .testimony-body .scripture {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.15rem;
-            color: var(--text-primary);
-            border-left: 3px solid var(--accent-gold);
-            padding: 0.8rem 0 0.8rem 1.5rem;
-            margin: 2rem 0;
-            font-style: italic;
-            line-height: 1.7;
-        }
-
-        .testimony-body .scripture cite {
-            display: block;
-            font-size: 0.8rem;
-            font-family: 'JetBrains Mono', monospace;
-            color: var(--accent-gold);
-            font-style: normal;
-            margin-top: 0.5rem;
-        }
-
-        .testimony-body .section-break {
-            text-align: center;
-            color: var(--accent-gold);
-            font-size: 1.2rem;
-            letter-spacing: 0.5em;
-            margin: 2.5rem 0;
-        }
-
-        .testimony-closing {
-            text-align: center;
-            margin-top: 3rem;
-            padding: 2rem;
-            border-top: 1px solid var(--border-subtle);
-        }
-
-        .testimony-closing p {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.2rem;
-            color: var(--text-primary);
-            font-style: italic;
-            line-height: 1.7;
-        }
-
-        .testimony-closing .soli-deo {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.8rem;
-            color: var(--accent-gold);
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            margin-top: 1rem;
-            font-style: normal;
-        }
-
-        /* ===== CTA ===== */
-        .cta-section {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 2rem 4rem;
-            text-align: center;
-        }
-
-        .cta-box {
-            background: linear-gradient(135deg, rgba(232, 100, 44, 0.08), rgba(212, 162, 84, 0.08));
-            border: 1px solid var(--border-subtle);
-            border-radius: 6px;
-            padding: 3rem 2rem;
-        }
-
-        .cta-box p {
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-            line-height: 1.7;
-            margin-bottom: 1.5rem;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
-            color: var(--bg-deep);
-            text-decoration: none;
-            padding: 1rem 2.5rem;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-        }
-
-        .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(212, 162, 84, 0.25);
-        }
-
-        /* ===== FOOTER ===== */
-        footer {
-            background: var(--bg-card);
-            border-top: 1px solid var(--border-subtle);
-            padding: 3rem 2rem;
-            margin-top: 2rem;
-        }
-
-        .footer-container {
-            max-width: 1200px;
-            width: 100%;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-            text-align: center;
-        }
-
-        .footer-section h4 {
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-            font-family: 'Playfair Display', serif;
-        }
-
-        .footer-section ul { list-style: none; }
-
-        .footer-section a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover { color: var(--accent-gold); }
-
-        .footer-copyright {
-            text-align: center;
-            margin-top: 2rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-subtle);
-            color: var(--text-muted);
-            font-size: 0.85rem;
-        }
-
-        /* ===== RESPONSIVE ===== */
-        @media (max-width: 768px) {
-            .hero {
-                min-height: auto;
-                padding: 3rem 1.2rem 2rem;
-            }
-
-            .hero h1 { font-size: 2rem; }
-            .hero h1 span { font-size: 0.85rem; }
-            .hero-subtitle { font-size: 0.95rem; }
-
-            .origin, .explore-section, .commitments-section,
-            .contact-strip, .section-divider, .testimony-section,
-            .cta-section {
-                padding-left: 1.2rem;
-                padding-right: 1.2rem;
-            }
-
-            .origin p { font-size: 1rem; }
-            .origin .pullquote { font-size: 1.2rem; }
-
-            .explore-grid { grid-template-columns: 1fr 1fr; }
-
-            .testimony-header h2 { font-size: 1.8rem; }
-
-            footer { padding: 2rem 1rem; }
-        }
-
-        @media (max-width: 480px) {
-            .hero {
-                padding: 2rem 1rem 1.5rem;
-            }
-
-            .hero h1 { font-size: 1.6rem; }
-            .hero-subtitle { font-size: 0.9rem; }
-
-            .origin, .explore-section, .commitments-section,
-            .contact-strip, .section-divider, .testimony-section,
-            .cta-section {
-                padding-left: 1rem;
-                padding-right: 1rem;
-            }
-
-            .explore-grid { grid-template-columns: 1fr; }
-
-            .testimony-header h2 { font-size: 1.5rem; }
-
-            .cta-box { padding: 2rem 1rem; }
-
-            footer { padding: 1.5rem 1rem; margin-top: 5rem; }
-        }
-
-        /* ===== FOCUS / A11Y ===== */
-        *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-        a:focus-visible { outline-offset: 3px; }
-
-        /* ===== BACK TO TOP ===== */
-        </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
 
-    <!-- Navigation -->
-    <!--
-  ============================================================
-  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
-  ============================================================
-  Every page on adoptedbygrace.net MUST use this EXACT nav block.
-  Copy-paste it verbatim. Do not add, remove, rename, or reorder
-  any links. Do not add a logo.
-
-  REQUIRED in <head>:
-    
-
-  REQUIRED before </body>:
-    
-
-  DO NOT add any inline CSS for nav, hamburger, .nav-links,
-  .nav-right, .nav-container, .nav-site-name, .search-overlay,
-  or .mega-menu. All styling lives in /global.css.
-
-  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
-                     button that opens mega-menu dropdown
-  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
-                     Hamburger opens full-screen overlay menu
-
-  Last updated: 2026-03-29
-  ============================================================
--->
-        <nav role="navigation" aria-label="Main navigation">
+    <!-- ===== NAVIGATION ===== -->
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -654,169 +106,212 @@
         <div class="search-results" id="searchResults"></div>
     </div>
 
-    <!-- ===== HERO ===== -->
-    <section id="main-content" class="hero">
-        <h1>
-            <span>Why This Site Exists</span>
-            For the One Who Can't Un-See It
-        </h1>
-        <p class="hero-subtitle">
-            Here's to the ones who couldn't leave it alone. The restless. The wrestlers. The 2am searchers who opened Romans 9 and felt the ground disappear. They fought it. They argued with God and lost. They ran — some for years, some for decades. But grace is a hunter, and it does not miss. It tracked them through every objection, every sleepless night, every pew where something didn't add up — until the day they stopped running and whispered what they had always known: <em>I didn't choose God. He chose me.</em> The world calls them fanatics. The church calls them divisive. We call them found. Because the people finally honest enough to stop taking credit for their own rescue are the ones who discover they were held all along.
-        </p>
-    </section>
+    <main id="main-content">
+        <!-- ===== HERO ===== -->
+        <section class="hub-hero">
+            <h1>Why This Site Exists</h1>
+            <p class="hub-intro">For the one who can't un-see it. You stumbled into God's sovereignty and the ground disappeared. Most churches are too afraid to finish the thought. This site isn't.</p>
+        </section>
 
-
-    <!-- ===== WHAT YOU'LL FIND ===== -->
-    <div class="explore-section">
-        <h2 class="section-header">What You'll Find Here</h2>
-        <p class="explore-intro">
-            This isn't a blog. It's an arsenal — 290+ pages, each one a different door into the same room. Because the truth that sets people free doesn't always arrive the same way twice.
-        </p>
-
-        <div class="explore-grid">
-            <a href="/start-here" class="explore-card">
-                <div class="explore-card-icon">&#x1F9ED;</div>
-                <h3>Start Here</h3>
-                <p>New to all this? Five phases that take you from "wait, what?" to "how did I never see this before?" — at whatever pace your soul needs.</p>
-            </a>
-
-            <a href="/questions" class="explore-card">
-                <div class="explore-card-icon">&#x2696;</div>
-                <h3>The Evidence</h3>
-                <p>40 passages examined in the original Greek and Hebrew. No commentary gymnastics — just the text, in the language it was written, saying what it has always said.</p>
-            </a>
-
-            <a href="/demolition-hub" class="explore-card">
-                <div class="explore-card-icon">&#x1F4A5;</div>
-                <h3>Demolition</h3>
-                <p>Every verse lobbed against God's sovereignty — caught, examined, and returned to sender. We build the strongest version of the objection, then watch the text dismantle it.</p>
-            </a>
-
-            <a href="/psychology-hub" class="explore-card">
-                <div class="explore-card-icon">&#x1F9E0;</div>
-                <h3>Why We Resist</h3>
-                <p>The real reason people reject these truths has nothing to do with intelligence. It's the thing you won't say out loud: you don't want God to be this big.</p>
-            </a>
-
-            <a href="/devotionals" class="explore-card">
-                <div class="explore-card-icon">&#x1F525;</div>
-                <h3>Devotionals</h3>
-                <p>Five-minute reads that hit you in the chest. Written for the person who already knows the doctrine is true and needs to <em>feel</em> it catch fire.</p>
-            </a>
-
-            <a href="/stories" class="explore-card">
-                <div class="explore-card-icon">&#x1F4D6;</div>
-                <h3>Stories</h3>
-                <p>Original parables, allegories, and thought experiments. Fiction that tells a truer truth than most sermons — the kind that sneaks past your defenses and detonates.</p>
-            </a>
-
-            <a href="/systematic-theology" class="explore-card">
-                <div class="explore-card-icon">&#x1F3DB;</div>
-                <h3>Theology</h3>
-                <p>The full systematic framework — every doctrine from Scripture's authority to the resurrection of the body. For those who want to see the cathedral, not just the stained glass.</p>
-            </a>
-
-            <a href="/secular-evidence" class="explore-card">
-                <div class="explore-card-icon">&#x1F52C;</div>
-                <h3>Secular Evidence</h3>
-                <p>Neuroscience, philosophy, behavioral economics — the secular world keeps accidentally proving what Scripture has said all along about human inability.</p>
-            </a>
-
-            <a href="/history-timeline" class="explore-card">
-                <div class="explore-card-icon">&#x231B;</div>
-                <h3>History</h3>
-                <p>Two thousand years of the Church's brightest minds — Augustine, Luther, Calvin, Edwards, Spurgeon — all landing in the same place. That's not a coincidence. It's a current.</p>
-            </a>
-
-            <a href="/analogies-illustrations" class="explore-card">
-                <div class="explore-card-icon">&#x1F4A1;</div>
-                <h3>Analogies</h3>
-                <p>A dead man doesn't choose to live. A slave doesn't free himself. Sometimes one image does what a thousand arguments couldn't.</p>
-            </a>
-
-            <a href="/best-reads" class="explore-card">
-                <div class="explore-card-icon">&#x2B50;</div>
-                <h3>Best Reads</h3>
-                <p>Short on time? These are the pages people send to their friends at midnight with the message: "You have to read this."</p>
-            </a>
-
-            <a href="/scripture-tsunami" class="explore-card">
-                <div class="explore-card-icon">&#x1F30A;</div>
-                <h3>Scripture Tsunami</h3>
-                <p>480+ verses. One direction. The sheer weight of biblical evidence isn't a drip — it's a flood. Good luck building a dam.</p>
-            </a>
-        </div>
-    </div>
-
-
-    <!-- ===== OUR COMMITMENTS ===== -->
-    <div class="commitments-section">
-        <h2 class="section-header">How We Build Every Page</h2>
-
-        <div class="commitment">
-            <div class="commitment-title">
-                <span class="commitment-number">01</span>
-                Original Languages First
-            </div>
-            <p>We parse the Greek and Hebrew — tense, voice, mood. English translations are gentle with you. The original languages are not. We let them speak.</p>
-        </div>
-
-        <div class="commitment">
-            <div class="commitment-title">
-                <span class="commitment-number">02</span>
-                Arguments Nobody Else Is Making
-            </div>
-            <p>You've heard the standard arguments. We make the ones nobody else is making — from the grammar of doxology, from the internal contradictions of rival views, from the inferences the text demands and most commentaries dodge.</p>
-        </div>
-
-        <div class="commitment">
-            <div class="commitment-title">
-                <span class="commitment-number">03</span>
-                Steel-Man Every Objection
-            </div>
-            <p>We never fight straw men. Every objection gets its strongest form — the version hardest to answer, the one your smartest friend would use. Then we let the text respond.</p>
-        </div>
-
-        <div class="commitment">
-            <div class="commitment-title">
-                <span class="commitment-number">04</span>
-                Follow the Text Wherever It Leads
-            </div>
-            <p>We did not start with a system and go looking for proof texts. We started with the text and followed it. It led somewhere most churches won't go. We went anyway.</p>
-        </div>
-
-        <div class="commitment">
-            <div class="commitment-title">
-                <span class="commitment-number">05</span>
-                Give God All the Glory
-            </div>
-            <p>Every page on this site exists for one purpose: to make God bigger in your eyes and your contribution to your salvation smaller — until it disappears entirely, and all that remains is grace. <em>Soli Deo Gloria.</em></p>
-        </div>
-    </div>
-
-
-    <!-- ===== CONTACT ===== -->
-    <div class="contact-strip">
-        <div class="contact-box">
+        <!-- ===== THE ORIGIN STORY ===== -->
+        <section class="origin">
             <p>
-                Have a question the site hasn't answered yet? Want to tell us about the moment God opened your eyes? We read every message.
+                In 2024, a failing heart valve and a broken spine took everything from a man named Aaron Forman — health, wealth, the illusion of control. Bedridden and broken, he returned to Scripture not to conquer but to submit. And in the midst of that surrender, he discovered something that changed everything: <strong>the mercy that never let him go.</strong>
             </p>
-            <a href="mailto:foreknownone@adoptedbygrace.net" class="contact-email">foreknownone@adoptedbygrace.net</a>
-            <p class="contact-verse">"Before I formed you in the womb I knew you." — Jeremiah 1:5</p>
-        </div>
-    </div>
-
-
-    <!-- ===== CTA ===== -->
-    <div class="cta-section">
-        <div class="cta-box">
             <p>
-                The evidence is waiting. Are you?
+                For a decade before that moment, Aaron had run from God. Not from sin — from God Himself. He lost the Spirit, lost himself, was crippled by depression, traveled a dozen countries seeking a softer reality. His mother died of cancer. He tried everything to make God forsake him through rebellion. But there was a quiet prayer that never stopped: <em>"Please, don't let me go."</em>
             </p>
-            <a href="/start-here" class="cta-button">Start Your Journey</a>
-        </div>
-    </div>
+            <p>
+                On Christmas Day 2024, he finally surrendered. And God, who never let him go, caught him.
+            </p>
+            <p class="pullquote">
+                This site exists because Aaron finally understands: <strong>God's sovereignty is not a doctrine to be studied. It is grace to be experienced.</strong>
+            </p>
+            <p>
+                Every page on this site is written with that lived reality in the background. When we write about election, we're writing about a God who chose Aaron before the foundation of the world and never let him go — not through rebellion, not through exile, not through a decade of running. When we write about total depravity, we're writing about the spiritual Frankenstein Aaron saw in the mirror. When we write about irresistible grace, we're writing about Christmas Day 2024.
+            </p>
+            <p>
+                These are not abstract doctrines. They are the lived reality of the man who built this site. And they are the truth you're searching for.
+            </p>
+        </section>
 
+        <!-- ===== EXPLORE CATEGORIES ===== -->
+        <section class="hub-container">
+            <h2 class="hub-section-title">Explore What We Build</h2>
+            <p class="hub-intro" style="margin-bottom: 2.5rem;">
+                Every page on this site is written with one purpose: to destroy the lie that you saved yourself and to show you the God who saved you despite yourself.
+            </p>
+
+            <div class="hub-grid">
+                <a href="/questions" class="hub-card">
+                    <div class="card-title">Questions</div>
+                    <div class="card-description">The hard questions your friends can't answer and your pastor might dodge. Romans 9. Ephesians 1. John 3:16 reinterpreted. Every objection examined.</div>
+                    <div class="card-footer">
+                        <div class="card-read">
+                            Read
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/devotionals" class="hub-card">
+                    <div class="card-title">Devotionals</div>
+                    <div class="card-description">Five-minute reads that hit you in the chest. Written for the person who already knows the doctrine is true and needs to feel it catch fire.</div>
+                    <div class="card-footer">
+                        <div class="card-read">
+                            Read
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/stories" class="hub-card">
+                    <div class="card-title">Stories</div>
+                    <div class="card-description">Original parables, allegories, and thought experiments. Fiction that tells a truer truth than most sermons — the kind that sneaks past your defenses and detonates.</div>
+                    <div class="card-footer">
+                        <div class="card-read">
+                            Read
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/systematic-theology" class="hub-card">
+                    <div class="card-title">Theology</div>
+                    <div class="card-description">The full systematic framework — every doctrine from Scripture's authority to the resurrection of the body. For those who want to see the cathedral, not just the stained glass.</div>
+                    <div class="card-footer">
+                        <div class="card-read">
+                            Read
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/secular-evidence" class="hub-card">
+                    <div class="card-title">Secular Evidence</div>
+                    <div class="card-description">Neuroscience, philosophy, behavioral economics — the secular world keeps accidentally proving what Scripture has said all along about human inability.</div>
+                    <div class="card-footer">
+                        <div class="card-read">
+                            Read
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/history-timeline" class="hub-card">
+                    <div class="card-title">History</div>
+                    <div class="card-description">Two thousand years of the Church's brightest minds — Augustine, Luther, Calvin, Edwards, Spurgeon — all landing in the same place. That's not a coincidence. It's a current.</div>
+                    <div class="card-footer">
+                        <div class="card-read">
+                            Read
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/analogies-illustrations" class="hub-card">
+                    <div class="card-title">Analogies</div>
+                    <div class="card-description">A dead man doesn't choose to live. A slave doesn't free himself. Sometimes one image does what a thousand arguments couldn't.</div>
+                    <div class="card-footer">
+                        <div class="card-read">
+                            Read
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/best-reads" class="hub-card">
+                    <div class="card-title">Best Reads</div>
+                    <div class="card-description">Short on time? These are the pages people send to their friends at midnight with the message: "You have to read this."</div>
+                    <div class="card-footer">
+                        <div class="card-read">
+                            Read
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/scripture-tsunami" class="hub-card">
+                    <div class="card-title">Scripture Tsunami</div>
+                    <div class="card-description">480+ verses. One direction. The sheer weight of biblical evidence isn't a drip — it's a flood. Good luck building a dam.</div>
+                    <div class="card-footer">
+                        <div class="card-read">
+                            Read
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ===== OUR COMMITMENTS ===== -->
+        <section class="hub-container" style="margin-top: 5rem;">
+            <h2 class="hub-section-title">How We Build Every Page</h2>
+
+            <div class="hub-grid" style="grid-template-columns: 1fr; gap: 2rem;">
+                <div class="commitment-card">
+                    <div class="commitment-header">
+                        <span class="commitment-number">01</span>
+                        <h3>Original Languages First</h3>
+                    </div>
+                    <p>We parse the Greek and Hebrew — tense, voice, mood. English translations are gentle with you. The original languages are not. We let them speak.</p>
+                </div>
+
+                <div class="commitment-card">
+                    <div class="commitment-header">
+                        <span class="commitment-number">02</span>
+                        <h3>Arguments Nobody Else Is Making</h3>
+                    </div>
+                    <p>You've heard the standard arguments. We make the ones nobody else is making — from the grammar of doxology, from the internal contradictions of rival views, from the inferences the text demands and most commentaries dodge.</p>
+                </div>
+
+                <div class="commitment-card">
+                    <div class="commitment-header">
+                        <span class="commitment-number">03</span>
+                        <h3>Steel-Man Every Objection</h3>
+                    </div>
+                    <p>We never fight straw men. Every objection gets its strongest form — the version hardest to answer, the one your smartest friend would use. Then we let the text respond.</p>
+                </div>
+
+                <div class="commitment-card">
+                    <div class="commitment-header">
+                        <span class="commitment-number">04</span>
+                        <h3>Follow the Text Wherever It Leads</h3>
+                    </div>
+                    <p>We did not start with a system and go looking for proof texts. We started with the text and followed it. It led somewhere most churches won't go. We went anyway.</p>
+                </div>
+
+                <div class="commitment-card">
+                    <div class="commitment-header">
+                        <span class="commitment-number">05</span>
+                        <h3>Give God All the Glory</h3>
+                    </div>
+                    <p>Every page on this site exists for one purpose: to make God bigger in your eyes and your contribution to your salvation smaller — until it disappears entirely, and all that remains is grace. <em>Soli Deo Gloria.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT STRIP ===== -->
+        <section class="contact-strip">
+            <div class="contact-box">
+                <p>
+                    Have a question the site hasn't answered yet? Want to tell us about the moment God opened your eyes? We read every message.
+                </p>
+                <a href="mailto:foreknownone@adoptedbygrace.net" class="contact-email">foreknownone@adoptedbygrace.net</a>
+                <p class="contact-verse">"Before I formed you in the womb I knew you." — Jeremiah 1:5</p>
+            </div>
+        </section>
+
+        <!-- ===== CTA ===== -->
+        <section class="cta-section">
+            <div class="cta-box">
+                <p>
+                    The evidence is waiting. Are you?
+                </p>
+                <a href="/start-here" class="cta-button">Start Your Journey</a>
+            </div>
+        </section>
+    </main>
 
     <!-- ===== FOOTER ===== -->
     <footer>

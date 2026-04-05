@@ -39,502 +39,12 @@
         }
     }
     </script>
-    
-            <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --bg-card-hover: #1a1a2e;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-        }
-
-        body {
-            background-color: var(--bg-deep);
-            color: var(--text-primary);
-            font-family: 'Inter', sans-serif;
-            line-height: 1.7;
-            overflow-x: hidden;
-            -webkit-text-size-adjust: 100%;
-        }
-
-        /* Hero */
-        .hero {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 5rem 2rem 3rem;
-            text-align: center;
-        }
-
-        .hero-label {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.72rem;
-            text-transform: uppercase;
-            letter-spacing: 0.3em;
-            color: var(--accent-gold);
-            opacity: 0.6;
-            margin-bottom: 1.2rem;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3.2rem;
-            font-weight: 800;
-            line-height: 1.2;
-            letter-spacing: -0.02em;
-            margin-bottom: 1.5rem;
-        }
-
-        .hero p {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            max-width: 600px;
-            margin: 0 auto;
-            line-height: 1.7;
-        }
-
-        .hero .epigraph {
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-            font-size: 1.05rem;
-            color: var(--text-secondary);
-            margin-top: 2.5rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-subtle);
-            max-width: 500px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .hero .epigraph cite {
-            display: block;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            font-style: normal;
-            color: var(--accent-gold);
-            margin-top: 0.5rem;
-            letter-spacing: 0.05em;
-        }
-
-        /* Featured Story */
-        .featured-section {
-            max-width: 900px;
-            margin: 0 auto 3rem;
-            padding: 0 2rem;
-        }
-
-        .section-label {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.72rem;
-            text-transform: uppercase;
-            letter-spacing: 0.2em;
-            color: var(--accent-gold);
-            margin-bottom: 1.2rem;
-        }
-
-        .featured-card {
-            display: block;
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 10px;
-            padding: 2.5rem;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .featured-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
-            opacity: 0.6;
-        }
-
-        .featured-card:hover {
-            background: var(--bg-card-hover);
-            border-color: rgba(212, 162, 84, 0.3);
-            transform: translateY(-3px);
-        }
-
-        .featured-card:hover::before {
-            opacity: 1;
-        }
-
-        .featured-card .card-type {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: var(--accent-ember);
-            margin-bottom: 0.8rem;
-        }
-
-        .featured-card h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: 0.8rem;
-            line-height: 1.3;
-        }
-
-        .featured-card .card-excerpt {
-            font-size: 1rem;
-            color: var(--text-secondary);
-            line-height: 1.7;
-            margin-bottom: 1.5rem;
-            max-width: 600px;
-        }
-
-        .featured-card .card-meta {
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-        }
-
-        .card-tag {
-            font-size: 0.75rem;
-            background: rgba(212, 162, 84, 0.1);
-            color: var(--accent-gold);
-            padding: 0.3rem 0.7rem;
-            border-radius: 4px;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        .card-read-time {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-
-        .card-arrow {
-            margin-left: auto;
-            color: var(--accent-gold);
-            font-size: 1.2rem;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .featured-card:hover .card-arrow {
-            opacity: 1;
-        }
-
-        /* Coming Soon Section */
-        .coming-section {
-            max-width: 900px;
-            margin: 0 auto 4rem;
-            padding: 0 2rem;
-        }
-
-        .coming-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.6rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .coming-section .coming-sub {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            margin-bottom: 2rem;
-        }
-
-        .coming-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 1rem;
-        }
-
-        .coming-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 8px;
-            padding: 1.5rem;
-            opacity: 0.6;
-            transition: opacity 0.3s ease;
-        }
-
-        .coming-card:hover {
-            opacity: 0.85;
-        }
-
-        .coming-card .card-type {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.65rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: var(--accent-gold);
-            margin-bottom: 0.6rem;
-        }
-
-        .coming-card h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem;
-            color: var(--text-primary);
-            margin-bottom: 0.5rem;
-            line-height: 1.4;
-        }
-
-        .coming-card p {
-            font-size: 0.88rem;
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        .coming-badge {
-            display: inline-block;
-            margin-top: 0.8rem;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.6rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: var(--text-muted);
-            background: rgba(212, 162, 84, 0.06);
-            padding: 0.2rem 0.6rem;
-            border-radius: 3px;
-        }
-
-        /* Footer */
-        footer {
-            margin-top: 5rem;
-            padding: 3rem 2rem 2rem;
-            border-top: 1px solid var(--border-subtle);
-        }
-
-        .footer-container {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 2rem;
-        }
-
-        .footer-section h4 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1rem;
-            color: var(--accent-gold);
-            margin-bottom: 0.8rem;
-        }
-
-        .footer-section ul { list-style: none; }
-
-        .footer-section a {
-            text-decoration: none;
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover { color: var(--accent-gold); }
-
-        .footer-copyright {
-            text-align: center;
-            margin-top: 2rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid var(--border-subtle);
-            color: var(--text-muted);
-            font-size: 0.8rem;
-        }
-
-        @media (max-width: 768px) {
-
-            .hero { padding: 2rem 1.2rem; margin: 1rem auto; }
-            .hero h1 { font-size: 1.6rem; margin-bottom: 0.8rem; }
-            .hero-subtitle { font-size: 0.95rem; }
-
-            .featured-section,
-            .coming-section { padding: 0 1.2rem; margin: 2rem auto; }
-
-            .featured-card { padding: 1.2rem; margin-bottom: 1.5rem; }
-            .featured-card h2 { font-size: 1.2rem; margin-bottom: 0.8rem; }
-            .featured-desc { font-size: 0.9rem; margin-bottom: 1rem; }
-
-            .story-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-            .story-card { padding: 1rem; }
-            .story-card h3 { font-size: 1rem; }
-            .story-meta { font-size: 0.8rem; }
-
-            footer { padding: 1.5rem 1rem; margin-top: 5rem; }
-        }
-
-        @media (max-width: 480px) {
-
-            .hero { padding: 1.5rem 1rem; margin: 0.5rem auto; }
-            .hero h1 { font-size: 1.3rem; margin-bottom: 0.6rem; }
-            .hero-subtitle { font-size: 0.85rem; }
-
-            .featured-section,
-            .coming-section { padding: 0 0.8rem; margin: 1.5rem auto; }
-
-            .featured-card { padding: 1rem; margin-bottom: 1rem; }
-            .featured-card h2 { font-size: 1.1rem; margin-bottom: 0.6rem; }
-            .featured-desc { font-size: 0.85rem; margin-bottom: 0.8rem; }
-
-            .featured-card p { font-size: 0.85rem; line-height: 1.6; }
-
-            .story-grid { grid-template-columns: 1fr; gap: 1rem; }
-            .story-card { padding: 0.8rem; }
-            .story-card h3 { font-size: 0.95rem; margin-bottom: 0.5rem; }
-            .story-meta { font-size: 0.75rem; }
-            .story-excerpt { font-size: 0.85rem; }
-
-            footer { padding: 1.2rem 0.8rem; margin-top: 2rem; }
-        }
-
-/* ========== AUDIENCE BADGES ========== */
-.audience-badge {
-    display: inline-block;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.62rem;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    padding: 0.25rem 0.65rem;
-    border-radius: 3px;
-    font-weight: 600;
-}
-
-.audience-badge.all-ages {
-    background: rgba(139, 92, 246, 0.15);
-    color: #a78bfa;
-}
-
-.audience-badge.deep-thinkers {
-    background: rgba(212, 162, 84, 0.15);
-    color: var(--accent-gold);
-}
-
-.audience-badge.dark {
-    background: rgba(220, 38, 38, 0.12);
-    color: #f87171;
-}
-
-.audience-badge.tender {
-    background: rgba(52, 211, 153, 0.12);
-    color: #6ee7b7;
-}
-
-.audience-badge.kids {
-    background: rgba(96, 165, 250, 0.15);
-    color: #93c5fd;
-}
-
-.audience-badge.hard-hitting {
-    background: rgba(251, 146, 60, 0.15);
-    color: #fdba74;
-}
-
-.audience-badge.humor {
-    background: rgba(250, 204, 21, 0.12);
-    color: #fde68a;
-}
-
-.audience-badge.thought-experiment {
-    background: rgba(232, 100, 44, 0.12);
-    color: var(--accent-ember);
-}
-
-.card-badges {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    margin-bottom: 0.8rem;
-}
-
-/* ========== FILTER BAR ========== */
-.filter-bar {
-    max-width: 900px;
-    margin: 0 auto 2rem;
-    padding: 0 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: center;
-}
-
-.filter-label {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.68rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    color: var(--text-muted);
-    margin-right: 0.5rem;
-}
-
-.filter-btn {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    padding: 0.35rem 0.8rem;
-    border-radius: 4px;
-    border: 1px solid var(--border-subtle);
-    background: transparent;
-    color: var(--text-secondary);
-    cursor: pointer;
-    transition: all 0.25s ease;
-}
-
-.filter-btn:hover {
-    border-color: rgba(212, 162, 84, 0.4);
-    color: var(--text-primary);
-}
-
-.filter-btn.active {
-    background: rgba(212, 162, 84, 0.15);
-    border-color: var(--accent-gold);
-    color: var(--accent-gold);
-}
-
-@media (max-width: 768px) {
-    .filter-bar { padding: 0 1.2rem; }
-}
-
-@media (max-width: 480px) {
-    .filter-bar { padding: 0 0.8rem; gap: 0.4rem; }
-    .filter-btn { font-size: 0.6rem; padding: 0.3rem 0.6rem; }
-}
-
-/* ========== FOCUS STYLES ========== */
-*:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-/* ========== BACK TO TOP ========== */
-</style>
 </head>
 <body>
-    <a href="#main-content" class="skip-to-content">Skip to content</a>
-
-    <!-- Navigation -->
-                <!--
+    <!--
   ============================================================
-  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
-  ============================================================
-  Every page on adoptedbygrace.net MUST use this EXACT nav block.
-  Copy-paste it verbatim. Do not add, remove, rename, or reorder
-  any links. Do not add a logo.
-
-  REQUIRED in <head>:
-    
-
-  REQUIRED before </body>:
-    
-
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
   or .mega-menu. All styling lives in /global.css.
@@ -546,8 +56,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
   Last updated: 2026-03-29
   ============================================================
--->
-        <nav role="navigation" aria-label="Main navigation">
+  -->
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -612,428 +122,229 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="search-results" id="searchResults"></div>
     </div>
 
+    <main id="main-content">
+        <section class="hub-hero">
+            <div class="hero-eyebrow">Parables &amp; Allegories</div>
+            <h1 class="hero-title">He Spoke in <span class="gold">Parables</span></h1>
+            <p class="hero-subtitle">Truth wrapped in story slips past defenses that theology alone cannot breach. Jesus knew this. Modern parables that reveal God's sovereignty in salvation—each one a doorway to understanding election, calling, and regeneration.</p>
+        </section>
 
+        <section class="hub-intro">
+            <h2>Why Stories Matter</h2>
+            <p>Jesus could have written systematic theology. Instead, he told stories. A sower went out to sow. A father had two sons. A merchant found a pearl of great price. The stories did the work that arguments alone could never accomplish—they bypassed the defenses and went straight to the heart.</p>
+            <p>The same is true here. A doctrine explained becomes a theology textbook. A doctrine wrapped in story becomes unforgettable—because you see it lived out. You watch the character discover what they didn't choose. You witness transformation that wasn't earned. You feel the weight of a truth that no abstract argument could carry alone.</p>
+            <p>These are not entertainment. They are weapons. Gentle ones. But weapons nonetheless. Each story is designed to do what arguments cannot: to make you *feel* what grace actually means. To break your defenses by making you care about a character before the theology hits. To leave you shaken because something you didn't believe you believed just became undeniably true.</p>
+        </section>
 
-
-    <!-- Hero -->
-    <section class="page-hero" id="main-content">
-        <div class="hero-label">9 Stories and Counting</div>
-        <h1>He Spoke in Parables</h1>
-        <p>Jesus wrapped infinite truths in finite stories that fishermen could understand and theologians are still unpacking. Truth wrapped in story slips past the defenses that theology cannot breach. These stories carry the doctrines of grace in the form He chose: narrative.</p>
-        <div class="epigraph">
-            "Without a parable He did not speak to them."
-            <cite>Matthew 13:34</cite>
-        </div>
-    </section>
-
-    <!-- Filter Bar -->
-    <div class="filter-bar">
-        <span class="filter-label">Browse by:</span>
-        <button class="filter-btn active" data-filter="all">All Stories</button>
-        <button class="filter-btn" data-filter="all-ages">All Ages</button>
-        <button class="filter-btn" data-filter="kids">Great for Kids</button>
-        <button class="filter-btn" data-filter="dark">Dark &amp; Gripping</button>
-        <button class="filter-btn" data-filter="tender">Tender</button>
-        <button class="filter-btn" data-filter="thought-experiment">Thought Experiments</button>
-    </div>
-
-    <!-- Featured Story -->
-    <section class="featured-section" data-audience="all-ages tender kids">
-        <div class="section-label">Story of the Week</div>
-        <a href="story-the-fish-who-chose-the-ocean" class="featured-card">
-            <div class="card-type">A Fable</div>
-            <div class="card-badges">
-                <span class="audience-badge all-ages">All Ages</span>
-                <span class="audience-badge tender">Tender</span>
-                <span class="audience-badge kids">Great for Kids</span>
-            </div>
-            <h2>The Fish Who Chose the Ocean</h2>
-            <p class="card-excerpt">What gives a fish the desire to love the sea? A young fish believes he chose the water, until a wise old turtle asks questions that shatter his self-made narrative—revealing a Gardener working in the dark, long before choice was ever possible.</p>
-            <div class="card-meta">
-                <span class="card-tag">Sovereignty</span>
-                <span class="card-tag">John 15:16</span>
-                <span class="card-tag">Ephesians 1:4-5</span>
-                <span class="card-read-time">10 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <!-- Published Stories -->
-    <section class="featured-section" data-audience="dark deep-thinkers thought-experiment">
-        <div class="section-label">Published Stories</div>
-        <a href="story-the-dead-city" class="featured-card">
-            <div class="card-type">An Allegory</div>
-            <div class="card-badges">
-                <span class="audience-badge dark">Dark &amp; Gripping</span>
-                <span class="audience-badge thought-experiment">Thought Experiment</span>
-            </div>
-            <h2>The Dead City</h2>
-            <p class="card-excerpt">What if the dead don't know they're dead? A city of frozen hearts, moving but empty, convinced of their freedom—until a Prince comes in the darkness, carrying light, and breathes life into the few he sovereignly chooses. A haunting exploration of spiritual deadness and divine calling.</p>
-            <div class="card-meta">
-                <span class="card-tag">Election</span>
-                <span class="card-tag">Effectual Calling</span>
-                <span class="card-tag">Ephesians 2:1-5</span>
-                <span class="card-read-time">12 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <section class="featured-section" data-audience="all-ages thought-experiment">
-        <a href="story-surgeon-stone-heart" class="featured-card">
-            <div class="card-type">A Modern Parable</div>
-            <div class="card-badges">
-                <span class="audience-badge all-ages">All Ages</span>
-                <span class="audience-badge thought-experiment">Thought Experiment</span>
-            </div>
-            <h2>The Surgeon and the Stone Heart</h2>
-            <p class="card-excerpt">A surgeon removes a stone heart without permission, without warning, without the patient's choice. The woman wakes to discover her life transformed—not because she decided to change, but because someone else decided for her. What does spiritual rebirth look like?</p>
-            <div class="card-meta">
-                <span class="card-tag">Regeneration</span>
-                <span class="card-tag">Ezekiel 36:26</span>
-                <span class="card-read-time">8 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <section class="featured-section" data-audience="all-ages kids tender">
-        <a href="story-the-kings-banquet" class="featured-card">
-            <div class="card-type">A Modern Parable</div>
-            <div class="card-badges">
-                <span class="audience-badge all-ages">All Ages</span>
-                <span class="audience-badge kids">Great for Kids</span>
-            </div>
-            <h2>The King's Banquet</h2>
-            <p class="card-excerpt">A king's feast stands empty when the invited refuse. So he commands his servants: bring the poor, blind, and lame. Compel them to come. None of them chose this feast, yet they alone taste the king's grace. What it means to be called, not chosen by circumstance.</p>
-            <div class="card-meta">
-                <span class="card-tag">Irresistible Grace</span>
-                <span class="card-tag">Luke 14:15-24</span>
-                <span class="card-read-time">10 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <!-- The Orphanage -->
-    <section class="featured-section" data-audience="tender all-ages">
-        <a href="story-the-orphanage" class="featured-card">
-            <div class="card-type">A Long-Form Allegory</div>
-            <div class="card-badges">
-                <span class="audience-badge tender">Tender</span>
-                <span class="audience-badge all-ages">All Ages</span>
-            </div>
-            <h2>The Orphanage</h2>
-            <p class="card-excerpt">A girl discovers her adoption papers were signed long before she drew her first breath. She never chose her family. Her family chose her—and the knowing shatters everything she thought about love, belonging, and the source of her identity.</p>
-            <div class="card-meta">
-                <span class="card-tag">Election</span>
-                <span class="card-tag">Adoption</span>
-                <span class="card-tag">Ephesians 1:4-5</span>
-                <span class="card-read-time">15 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <!-- The Self-Made Man -->
-    <section class="featured-section" data-audience="humor all-ages thought-experiment">
-        <a href="story-the-self-made-man" class="featured-card">
-            <div class="card-type">A Satirical Memoir</div>
-            <div class="card-badges">
-                <span class="audience-badge humor">Humor</span>
-                <span class="audience-badge all-ages">All Ages</span>
-            </div>
-            <h2>The Self-Made Man</h2>
-            <p class="card-excerpt">Hilarious absurdity: a man takes credit for his parents, his heart, his genes, his nationality. He chose to be born. He chose his own DNA. Brilliant satire about the myth of human autonomy—and what happens when you take bootstraps literally.</p>
-            <div class="card-meta">
-                <span class="card-tag">Sovereignty</span>
-                <span class="card-tag">Humor</span>
-                <span class="card-tag">Acts 17:26</span>
-                <span class="card-read-time">8 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <!-- The Room Where You Chose -->
-    <section class="featured-section" data-audience="thought-experiment deep-thinkers all-ages">
-        <a href="story-the-room-where-you-chose" class="featured-card">
-            <div class="card-type">A Thought Experiment</div>
-            <div class="card-badges">
-                <span class="audience-badge dark">Thought Experiment</span>
-                <span class="audience-badge all-ages">Deep Thinkers</span>
-            </div>
-            <h2>The Room Where You Chose</h2>
-            <p class="card-excerpt">You hold a golden thread—the moment you "chose" God. But pulling it backward, you find a friend, a car accident, a sneeze in a factory, a star forged eons ago. Pull it all the way back to before time. What Gardener wove this thread?</p>
-            <div class="card-meta">
-                <span class="card-tag">Election</span>
-                <span class="card-tag">Predestination</span>
-                <span class="card-tag">Ephesians 1:4</span>
-                <span class="card-read-time">6 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <!-- The Letter Before the World -->
-    <section class="featured-section" data-audience="tender adults grieving adoption">
-        <a href="story-the-letter-before-the-world" class="featured-card">
-            <div class="card-type">A Tender Story</div>
-            <div class="card-badges">
-                <span class="audience-badge tender">Tender</span>
-                <span class="audience-badge all-ages">Adults</span>
-            </div>
-            <h2>The Letter Before the World</h2>
-            <p class="card-excerpt">A daughter finds a letter in her dead father's desk, addressed to her by name, dated before she was born. Before the world knew she'd exist, someone already knew her, already loved her. A story about being known before time, chosen before conception.</p>
-            <div class="card-meta">
-                <span class="card-tag">Election</span>
-                <span class="card-tag">Adoption</span>
-                <span class="card-tag">Ephesians 1:4-5</span>
-                <span class="card-read-time">7 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <!-- The Garden That Grew Itself -->
-    <section class="featured-section" data-audience="kids children all-ages tender">
-        <a href="story-the-garden-that-grew-itself" class="featured-card">
-            <div class="card-type">A Children's Fable</div>
-            <div class="card-badges">
-                <span class="audience-badge kids">Great for Kids</span>
-                <span class="audience-badge all-ages">All Ages</span>
-            </div>
-            <h2>The Garden That Grew Itself</h2>
-            <p class="card-excerpt">Every flower believes it chose to bloom. A seedling asks the old oak a dangerous question, and learns about the Gardener who comes in darkness—planting each seed, naming each flower before petals even form. A timeless fable for all ages.</p>
-            <div class="card-meta">
-                <span class="card-tag">Election</span>
-                <span class="card-tag">Sovereignty</span>
-                <span class="card-tag">John 15:16</span>
-                <span class="card-read-time">6 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <!-- Additional Stories -->
-    <!-- The King Who Chose -->
-    <section class="featured-section" data-audience="kids children all-ages tender">
-        <a href="story-children-the-king-who-chose" class="featured-card">
-            <div class="card-type">A Children's Story</div>
-            <div class="card-badges">
-                <span class="audience-badge kids">Great for Kids</span>
-                <span class="audience-badge all-ages">All Ages</span>
-            </div>
-            <h2>The King Who Chose</h2>
-            <p class="card-excerpt">A king does not wait for subjects to choose him. He chooses whom he will call, whom he will love, whom he will make part of his kingdom. A children's story about election that shattered every child's assumption about freedom.</p>
-            <div class="card-meta">
-                <span class="card-tag">Election</span>
-                <span class="card-tag">Sovereignty</span>
-                <span class="card-tag">John 15:16</span>
-                <span class="card-read-time">7 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <!-- Augustine and the Pears -->
-    <section class="featured-section" data-audience="all-ages dark thought-experiment">
-        /a>
-    </section>
-
-    <!-- Luther's Storm -->
-    <section class="featured-section" data-audience="deep-thinkers all-ages tender">
-        <a href="story-historical-luther-storm" class="featured-card">
-            <div class="card-type">A Historical Narrative</div>
-            <div class="card-badges">
-                <span class="audience-badge all-ages">All Ages</span>
-                <span class="audience-badge tender">Tender</span>
-            </div>
-            <h2>Luther in the Storm: The Night Grace Found Him</h2>
-            <p class="card-excerpt">A monk on a horse, terrified in a violent thunderstorm, crying out to a saint. Moments later, he made a vow that would remake Christendom—not because he decided to, but because grace decided for him.</p>
-            <div class="card-meta">
-                <span class="card-tag">Effectual Calling</span>
-                <span class="card-tag">Grace</span>
-                <span class="card-tag">Ephesians 2:1-5</span>
-                <span class="card-read-time">8 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <!-- The Committee to Save Yourself -->
-    <section class="featured-section" data-audience="humor all-ages thought-experiment">
-        <a href="story-humor-committee-to-save-yourself" class="featured-card">
-            <div class="card-type">A Satirical Dialogue</div>
-            <div class="card-badges">
-                <span class="audience-badge humor">Humor</span>
-                <span class="audience-badge all-ages">All Ages</span>
-            </div>
-            <h2>The Committee to Save Yourself</h2>
-            <p class="card-excerpt">What if saving yourself required a committee of specialized experts? A brilliant satire on the absurdity of claiming that your salvation depends on your will, your decision, your obedience—without realizing you're the worst possible person to execute that plan.</p>
-            <div class="card-meta">
-                <span class="card-tag">Humor</span>
-                <span class="card-tag">Depravity</span>
-                <span class="card-tag">Ephesians 2:8-9</span>
-                <span class="card-read-time">8 min read</span>
-                <span class="card-arrow">&rarr;</span>
-            </div>
-        </a>
-    </section>
-
-    <!-- Coming Soon -->
-    <section class="coming-section">
-        <h2>More Stories Coming</h2>
-        <p class="coming-sub">New parables, allegories, and fables are being written. Each one carries a doctrine you'll never forget.</p>
-        <div class="coming-grid">
-            <div class="coming-card">
-                <div class="card-type">Modern Parable</div>
-                <h3>The Voice in the Valley</h3>
-                <p>A man wanders lost in a vast, dark valley. Then a voice calls his name — not an invitation, but a command that gives him ears to hear.</p>
-                <span class="coming-badge">Coming Soon</span>
-            </div>
-            <div class="coming-card">
-                <div class="card-type">Modern Parable</div>
-                <h3>The Unbreakable Thread</h3>
-                <p>A climber falls from a cliff. A single thread — thin as spider silk — catches him. It was forged before the mountain existed.</p>
-                <span class="coming-badge">Coming Soon</span>
-            </div>
-            <div class="coming-card">
-                <div class="card-type">Modern Parable</div>
-                <h3>The Lighthouse Keeper</h3>
-                <p>A shipwrecked sailor storms against the rocks, certain he must save himself. But the lighthouse beam finds him long before his strength fails — and drags him toward the shore.</p>
-                <span class="coming-badge">Coming Soon</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Cross-Reference Section -->
-    <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-        <div style="max-width: 900px; margin: 0 auto;">
-            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                <a href="story-the-fish-who-chose-the-ocean" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Fish Who Chose the Ocean</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A fable about a fish who insists he chose the ocean — and the old turtle who gently reveals the truth.</p>
+        <section class="hub-container">
+            <div class="hub-grid">
+                <!-- Card 01 - FEATURED -->
+                <a href="/story-the-fish-who-chose-the-ocean" class="hub-card hub-card-featured">
+                    <span class="card-number">01</span>
+                    <h3 class="card-title">The Fish Who Chose the Ocean</h3>
+                    <p class="card-description">What gives a fish the desire to love the sea? A young fish believes he chose the water, until a wise old turtle asks questions that shatter his self-made narrative—revealing a Gardener working in the dark, long before choice was ever possible.</p>
+                    <span class="card-meta">A Fable</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
                 </a>
-                <a href="story-the-dead-city" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Dead City</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A haunting allegory about spiritual death and the voice that awakens the elect.</p>
+
+                <!-- Card 02 -->
+                <a href="/story-the-dead-city" class="hub-card">
+                    <span class="card-number">02</span>
+                    <h3 class="card-title">The Dead City</h3>
+                    <p class="card-description">What if the dead don't know they're dead? A city of frozen hearts, moving but empty, convinced of their freedom—until a Prince comes in darkness, carrying light, and breathes life into those he sovereignly chooses.</p>
+                    <span class="card-meta">An Allegory</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
                 </a>
-                <a href="story-surgeon-stone-heart" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Surgeon & the Stone Heart</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A powerful story of divine transformation and the reality of spiritual rebirth.</p>
+
+                <!-- Card 03 -->
+                <a href="/story-surgeon-stone-heart" class="hub-card">
+                    <span class="card-number">03</span>
+                    <h3 class="card-title">The Surgeon and the Stone Heart</h3>
+                    <p class="card-description">A surgeon removes a stone heart without permission, without warning, without the patient's choice. The woman wakes to discover her life transformed—not because she decided, but because someone else decided for her.</p>
+                    <span class="card-meta">A Modern Parable</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
                 </a>
-                <a href="story-the-kings-banquet" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The King's Banquet</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">An unforgettable modern parable on irresistible grace and the king's compulsion to fill his table.</p>
+
+                <!-- Card 04 -->
+                <a href="/story-the-kings-banquet" class="hub-card">
+                    <span class="card-number">04</span>
+                    <h3 class="card-title">The King's Banquet</h3>
+                    <p class="card-description">A king's feast stands empty when the invited refuse. So he commands his servants: bring the poor, blind, and lame. Compel them to come. None of them chose this feast, yet they alone taste the king's grace.</p>
+                    <span class="card-meta">A Modern Parable</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
                 </a>
-                <a href="story-the-orphanage" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Orphanage</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A long-form allegory about adoption papers signed before the children were born.</p>
+
+                <!-- Card 05 -->
+                <a href="/story-the-orphanage" class="hub-card">
+                    <span class="card-number">05</span>
+                    <h3 class="card-title">The Orphanage</h3>
+                    <p class="card-description">A girl discovers her adoption papers were signed long before she drew her first breath. She never chose her family. Her family chose her—and the knowing shatters everything she thought about love and identity.</p>
+                    <span class="card-meta">A Long-Form Allegory</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
                 </a>
-                <a href="story-the-garden-that-grew-itself" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Garden That Grew Itself</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A children's fable about flowers who think they chose to bloom — and the Gardener who planted them in the dark.</p>
+
+                <!-- Card 06 -->
+                <a href="/story-the-self-made-man" class="hub-card">
+                    <span class="card-number">06</span>
+                    <h3 class="card-title">The Self-Made Man</h3>
+                    <p class="card-description">A satirical memoir of a man who built his empire through sheer willpower and determination—until someone shows him the invisible scaffolding that made every choice possible. A mirror held up to pride.</p>
+                    <span class="card-meta">A Satirical Memoir</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
                 </a>
-                <a href="/devotionals" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Devotionals</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Daily reflections on God's sovereignty and grace in our lives.</p>
+
+                <!-- Card 07 -->
+                <a href="/story-the-room-where-you-chose" class="hub-card">
+                    <span class="card-number">07</span>
+                    <h3 class="card-title">The Room Where You Chose</h3>
+                    <p class="card-description">A man wakes in a room and makes what feels like a free choice. Then another room. Then another. With each choice, he begins to see: every room was built by the same architect, every choice moved him toward the same destination.</p>
+                    <span class="card-meta">A Thought Experiment</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
                 </a>
-                <a href="/questions" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Evidence</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Explore biblical answers to your deepest questions.</p>
+
+                <!-- Card 08 -->
+                <a href="/story-the-letter-before-the-world" class="hub-card">
+                    <span class="card-number">08</span>
+                    <h3 class="card-title">The Letter Before the World</h3>
+                    <p class="card-description">A woman finds a love letter written to her before she was born. Before her parents met. Before the world existed. Someone loved her into being. Everything she does is response to a love that preceded her.</p>
+                    <span class="card-meta">A Love Story</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
                 </a>
-                <a href="/analogies-illustrations" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Analogies & Illustrations</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Sharp comparisons that illuminate God's sovereignty through everyday life.</p>
+
+                <!-- Card 09 -->
+                <a href="/story-the-garden-that-grew-itself" class="hub-card">
+                    <span class="card-number">09</span>
+                    <h3 class="card-title">The Garden That Grew Itself</h3>
+                    <p class="card-description">A gardener plants a seed and then stands back. No forcing. No coercion. Just the simple power of life breaking through stone. What it means that spiritual rebirth is not persuasion but resurrection.</p>
+                    <span class="card-meta">A Fable</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
                 </a>
-                <a href="/freedom" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Freedom in Sovereignty</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Discover true freedom through understanding God's sovereign will.</p>
+
+                <!-- Card 10 -->
+                <a href="/story-children-the-king-who-chose" class="hub-card">
+                    <span class="card-number">10</span>
+                    <h3 class="card-title">The King Who Chose (For Children)</h3>
+                    <p class="card-description">A king searches the kingdom for a princess. He finds her, poor and hidden, and declares: "You are mine. You were always meant to be mine." A story for children that carries the deepest truth.</p>
+                    <span class="card-meta">For Children</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
                 </a>
-                <a href="/start-here" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Start Here</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A guided path to understanding God's sovereignty in salvation.</p>
+
+                <!-- Card 11 -->
+                <a href="/story-historical-luther-storm" class="hub-card">
+                    <span class="card-number">11</span>
+                    <h3 class="card-title">The Storm and the Tower (Martin Luther)</h3>
+                    <p class="card-description">A man caught in a storm makes a vow to a God he doesn't yet know. Years later, he realizes: the storm was not an accident. God was sovereignly moving him toward truth through terror. A historical account wrapped in theological insight.</p>
+                    <span class="card-meta">Historical Account</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
+                </a>
+
+                <!-- Card 12 -->
+                <a href="/story-humor-committee-to-save-yourself" class="hub-card">
+                    <span class="card-number">12</span>
+                    <h3 class="card-title">The Committee to Save Yourself (Humor)</h3>
+                    <p class="card-description">A satirical corporate memo: the Committee to Save Yourself is now hiring. Requirements: willpower, good decision-making, and the ability to ignore the fact that you've been dying for decades. Dark humor that exposes a dangerous lie.</p>
+                    <span class="card-meta">Dark Humor</span>
+                    <div class="card-footer">
+                        <div class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
                 </a>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-            
+        <!-- RELATED-ARTICLES-START -->
+        <section class="related-articles" aria-label="Related articles">
+            <div class="related-articles-inner">
+                <h2 class="related-articles-heading">Keep Exploring</h2>
+                <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+                <div class="related-articles-grid">
+                    <a href="/story-the-fish-who-chose-the-ocean" class="related-article-card">
+                        <span class="related-article-cat">📖 Stories</span>
+                        <span class="related-article-title">The Fish Who Chose the Ocean</span>
+                        <span class="related-article-desc">A fable about desire, choice, and the Gardener who works before the choice is made...</span>
+                    </a>
+                    <a href="/analogy-adoption" class="related-article-card">
+                        <span class="related-article-cat">🔗 Analogies</span>
+                        <span class="related-article-title">Adoption: The Heart of Election</span>
+                        <span class="related-article-desc">Why adoption captures what election means better than any theological term...</span>
+                    </a>
+                    <a href="/ot-abel-cain" class="related-article-card">
+                        <span class="related-article-cat">📚 Old Testament</span>
+                        <span class="related-article-title">Abel and Cain: The First Election</span>
+                        <span class="related-article-desc">Genesis 4 reveals God's sovereign choice from the very beginning...</span>
+                    </a>
+                    <a href="/devotionals" class="related-article-card">
+                        <span class="related-article-cat">🕯 Devotionals</span>
+                        <span class="related-article-title">Devotionals</span>
+                        <span class="related-article-desc">Meditations on sovereign grace—devotionals exploring the comfort of being chosen...</span>
+                    </a>
+                    <a href="/psychology-hostility-reaction" class="related-article-card">
+                        <span class="related-article-cat">🧠 Psychology</span>
+                        <span class="related-article-title">The Psychology of Hostility to Election</span>
+                        <span class="related-article-desc">Why stories often communicate better than arguments—the psychology of narrative...</span>
+                    </a>
+                </div>
+                <div class="related-articles-browse">
+                    <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+                    <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+                </div>
+            </div>
+        </section>
+        <!-- RELATED-ARTICLES-END -->
+    </main>
 
-<!-- RELATED-ARTICLES-START -->
-<section class="related-articles" aria-label="Related articles">
-  <div class="related-articles-inner">
-    <h2 class="related-articles-heading">Keep Exploring</h2>
-    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
-    <div class="related-articles-grid">
-      <a href="/story-the-fish-who-chose-the-ocean" class="related-article-card">
-        <span class="related-article-cat">📜 Stories</span>
-        <span class="related-article-title">Did You Choose God or Did God Choose You?</span>
-        <span class="related-article-desc">Did you really choose God? A fable about the fish who chose the ocean and why God</span>
-      </a>
-      <a href="/analogy-adoption" class="related-article-card">
-        <span class="related-article-cat">💡 Analogies</span>
-        <span class="related-article-title">Did You Choose God or Did God Choose You? The Adoption Analogy</span>
-        <span class="related-article-desc">A baby doesn</span>
-      </a>
-      <a href="/ot-abel-cain" class="related-article-card">
-        <span class="related-article-cat">📚 Old Testament</span>
-        <span class="related-article-title">Abel and Cain: The First Election</span>
-        <span class="related-article-desc">Genesis 4 reveals God</span>
-      </a>
-      <a href="/devotionals" class="related-article-card">
-        <span class="related-article-cat">🕯 Devotionals</span>
-        <span class="related-article-title">Devotionals</span>
-        <span class="related-article-desc">Meditations on sovereign grace — devotionals exploring election, regeneration, and the transformativ...</span>
-      </a>
-      <a href="/psychology-hostility-reaction" class="related-article-card">
-        <span class="related-article-cat">🧠 Why We Resist</span>
-        <span class="related-article-title">Why the Truth That Makes You Angriest Is the One That Will Set You Free</span>
-        <span class="related-article-desc">When a lifelong Christian suddenly becomes enraged at the doctrines of grace, something deeper tha...</span>
-      </a>
-      <a href="/compare-calvinism-molinism" class="related-article-card">
-        <span class="related-article-cat">⚖ Comparisons</span>
-        <span class="related-article-title">Calvinism vs Molinism: Middle Knowledge and Sovereignty</span>
-        <span class="related-article-desc">Calvinism vs Molinism compared: middle knowledge, counterfactuals, and God</span>
-      </a>
-    </div>
-    <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
-</section>
-<!-- RELATED-ARTICLES-END -->
-
-<footer>
+    <footer>
         <div class="footer-container">
             <div class="footer-section">
                 <h4>Truth</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/questions">Questions</a></li>
                     <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
                     <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Explore</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
-                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/psychology-hub">Psychology of Resistance</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li><a href="/creeds-confessions">Creeds &amp; Confessions</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Connect</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li></li>
+                    <li><a href="/search">Search</a></li>
                 </ul>
             </div>
         </div>
@@ -1041,44 +352,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
             Grace is not a license to sin. It is the power that frees us from sin's dominion.
         </div>
-        <div class="footer-copyright">
-            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
-        </div>
+        <p class="footer-copyright">Soli Deo Gloria — Adopted by Grace © 2025</p>
     </footer>
-
-
-    <script src="/global.js" defer></script>
-
-    <script>
-    // ===== STORY FILTER =====
-    (function() {
-        var btns = document.querySelectorAll('.filter-btn');
-        var sections = document.querySelectorAll('.featured-section[data-audience]');
-        var comingSection = document.querySelector('.coming-section');
-
-        btns.forEach(function(btn) {
-            btn.addEventListener('click', function() {
-                btns.forEach(function(b) { b.classList.remove('active'); });
-                btn.classList.add('active');
-                var filter = btn.getAttribute('data-filter');
-
-                sections.forEach(function(sec) {
-                    if (filter === 'all') {
-                        sec.style.display = '';
-                    } else {
-                        var audiences = sec.getAttribute('data-audience') || '';
-                        sec.style.display = audiences.indexOf(filter) !== -1 ? '' : 'none';
-                    }
-                });
-
-                // Hide "Coming Soon" when filtering
-                if (comingSection) {
-                    comingSection.style.display = filter === 'all' ? '' : 'none';
-                }
-            });
-        });
-    })();
-    </script>
 
     <script src="/nav.js"></script>
 </body>

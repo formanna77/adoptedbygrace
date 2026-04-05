@@ -25,7 +25,7 @@
                         { name: 'But What About Free Will and Fairness? — Phase 4', href: '/start-here-phase4', desc: 'Phase 4: The hardest objections to biblical theology answered — free will, fairness, John 3:16,' },
                         { name: 'Find Your Starting Point', href: '/start-here-assessment', desc: 'Discover your starting point on the 5-phase journey to understanding God' },
                         { name: 'Living as an Elect Child of God — Phase 5', href: '/start-here-phase5', desc: 'Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, worship, mission, and ' },
-                        { name: 'Start Here — Your Journey into Sovereign Grace', href: '/start-here', desc: 'New to biblical theology? A guided 5-phase journey from curiosity to conviction about salvation, grace, and God' },
+                        { name: 'Start Here', href: '/start-here', desc: 'Start Here — A journey into sovereign grace. For the curious, skeptical, and seeking. Find your entry point and go deepe' },
                         { name: 'The Five Points of Grace — Phase 2', href: '/start-here-phase2', desc: 'The five biblical doctrines of grace explained: Total Depravity, Unconditional Election, Definite Atonement, Irresistibl' },
                         { name: 'What Does the Bible Actually Teach? — Phase 3', href: '/start-here-phase3', desc: 'Phase 3: What does the Bible actually teach about salvation? A passage-by-passage journey through Romans 9, Ephesians 1,' },
                         { name: 'What Is Reformed Theology? — Phase 1', href: '/start-here-phase1', desc: 'Phase 1: What is biblical theology? An honest, accessible introduction to what Reformed Christians believe about God, sa' }
@@ -42,7 +42,7 @@
                     name: 'Scripture Questions',
                     icon: '📖',
                     href: '/questions',
-                    count: 44,
+                    count: 45,
                     pages: [
                         { name: 'Can God Create a Universe Where He Isn\'t Sovereign?', href: '/question-sovereignty-logic', desc: 'Can God make a rock too heavy for Him to lift? Can He create a universe He doesn' },
                         { name: 'Can God\'s Plan for You Be Broken? Romans 8:28-30', href: '/question-goldchain', desc: 'Romans 8:28-30 — foreknown, predestined, called, justified, glorified. An unbreakable chain where every link is divine a' },
@@ -85,6 +85,7 @@
                         { name: 'What Did Jesus Mean by \'Let the Dead Bury the Dead\'?', href: '/question-dead-bury-dead', desc: 'When Jesus said' },
                         { name: 'What Does Romans 9 Really Mean? Verse by Verse', href: '/question-romans9', desc: 'Romans 9 is the most direct chapter on election in the Bible. Jacob and Esau, Pharaoh, the potter and the clay — examine' },
                         { name: 'Where Did Your Faith Come From? The Question That Changes Everything', href: '/question-where-did-your-faith-come-from', desc: 'A gentle Socratic journey into the most important question a Christian can ask: Where did your faith actually come from?' },
+                        { name: 'Where Does Your \'No\' Come From? – The Self-Referential Trap', href: '/question-where-does-your-no-come-from', desc: 'Where does your' },
                         { name: 'Why Jesus Spoke in Parables — Matthew 13:10-17', href: '/question-parables', desc: 'Why did Jesus speak in parables? Not to make truth clearer — but to conceal it from some while revealing it to others. M' },
                         { name: 'You Did Not Choose Me, But I Chose You – John 15:16', href: '/question-john15', desc: 'John 15:16:' },
                         { name: 'You Do Not Believe Because You Are Not My Sheep – John 10:26-29', href: '/question-john10', desc: 'John 10:26-29:' }
@@ -229,11 +230,13 @@
                     name: 'Logic & Philosophy',
                     icon: '🔭',
                     href: '/philosophy-problem-of-merit',
-                    count: 8,
+                    count: 10,
                     pages: [
                         { name: 'If You Chose God, What Makes You Different From Those Who Didn\'t?', href: '/philosophy-problem-of-merit', desc: 'The Problem of Merit: If you chose God, what makes you different from those who didn' },
                         { name: 'The Copernican Revolution of the Soul: Why Your Salvation Doesn\'t Revolve Around You', href: '/philosophy-copernican-revolution', desc: 'Just as Copernicus showed the Earth isn' },
                         { name: 'The Mirror You Refuse to Look In: Why Grace Reveals What We Really Are', href: '/philosophy-mirror-you-refuse', desc: 'We reject God' },
+                        { name: 'The Münchhausen Trilemma of Self-Salvation', href: '/philosophy-munchhausen-trilemma', desc: 'Every justification leads to infinite regress, circular reasoning, or an uncaused cause. Apply this to faith and you hit' },
+                        { name: 'The Phantom Limb of Free Will: Feeling Free While Being Bound', href: '/philosophy-phantom-limb-free-will', desc: 'The brain feels sensation in amputated limbs that no longer exist. Fallen humanity feels free will in a faculty that was' },
                         { name: 'The Resistance Is the Proof: Why We Blame God Before Ourselves', href: '/philosophy-resistance-is-proof', desc: 'When confronted with God' },
                         { name: 'Why Exclusive Love Is the Only Real Love', href: '/philosophy-exclusive-love', desc: 'A love that is extended to everyone equally is not love—it is policy. Real love requires distinction. Real love means yo' },
                         { name: 'Why Is Marriage Special? A Philosophical Proof of Election', href: '/philosophy-marriage-election', desc: 'Why is marriage special? Because someone chose YOU and no one else. Discover what this reveals about God' },
@@ -271,7 +274,7 @@
                     name: 'Psychology of Resistance',
                     icon: '🧠',
                     href: '/psychology-hub',
-                    count: 23,
+                    count: 24,
                     pages: [
                         { name: '⚡ Are You Sure You\'re Saved?', href: '/psychology-cost-of-rejecting-grace', desc: 'This is not a theology lesson. This is an intervention. One question, five minutes, and the truth about whether your fai' },
                         { name: 'Cognitive Biases and the Blindness of Sin', href: '/psychology-cognitive-biases', desc: 'Cognitive biases mapped to biblical descriptions of fallen thinking. Confirmation bias, anchoring, Dunning-Kruger — mode' },
@@ -283,6 +286,7 @@
                         { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Why self-sovereignty is the last idol to fall — even for believers. A deep psychological and theological exploration of ' },
                         { name: 'The Offense of Grace', href: '/psychology-offense-of-grace', desc: 'Why does unconditional election trigger moral outrage? Moral Foundations Theory, psychological reactance, and System Jus' },
                         { name: 'The Sincerity Trap | Psychology of Resistance', href: '/psychology-sincerity-trap', desc: 'Why the warmest, most sincere believers are often the hardest to reach. How sincerity becomes the armor against truth.' },
+                        { name: 'The Stockholm Syndrome of Sin: Why We Defend Our Bondage', href: '/psychology-stockholm-syndrome-sin', desc: 'Hostages bond with their captors. Sinners bond with their sin. Why the enslaved will fights for the prison and defends t' },
                         { name: 'The Sunk Cost of Self-Made Faith', href: '/psychology-sunk-cost-faith', desc: 'The sunk cost fallacy explains why believers resist grace the longer they' },
                         { name: 'What Every Recovering Addict Already Knows About Salvation', href: '/psychology-addiction-proof', desc: 'The 12 steps prove what Scripture teaches: the will is enslaved to sin, and freedom comes only through a power greater t' },
                         { name: 'When Your Heart Rejects What Your Mind Accepts', href: '/psychology-emotional-vs-rational', desc: 'When your head knows sovereignty is biblical but your heart rejects it. Dual-process theory, affect heuristic, and Haidt' },

@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-        <script type="application/ld+json">
+    <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
@@ -37,464 +37,12 @@
         }
     }
     </script>
-    
-            <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --bg-deep: #0a0a0f;
-            --bg-card: #12121a;
-            --bg-card-hover: #1a1a2e;
-            --accent-gold: #d4a254;
-            --accent-ember: #e8642c;
-            --accent-violet: #8b5cf6;
-            --text-primary: #f0ece4;
-            --text-secondary: #9a958c;
-            --text-muted: #807b75;
-            --border-subtle: rgba(212, 162, 84, 0.12);
-        }
-
-        body {
-            background-color: #0a0a0f;
-            background-color: var(--bg-deep);
-            color: #f0ece4;
-            color: var(--text-primary);
-            -webkit-text-size-adjust: 100%;
-            font-family: 'Inter', sans-serif;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        /* Hero Section */
-        .hero {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 4rem 2rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            right: -20%;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(212, 162, 84, 0.05) 0%, transparent 70%);
-            border-radius: 50%;
-            pointer-events: none;
-        }
-
-        .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-            letter-spacing: -0.02em;
-        }
-
-        .hero-subtitle {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            max-width: 700px;
-            line-height: 1.7;
-        }
-
-        /* Essays Section */
-        .essays-section {
-            max-width: 1000px;
-            margin: 4rem auto;
-            padding: 0 2rem;
-        }
-
-        .essay-category {
-            margin-bottom: 4rem;
-        }
-
-        .essay-category-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.6rem;
-            margin-bottom: 2rem;
-            color: var(--accent-gold);
-            padding-bottom: 1rem;
-            border-bottom: 2px solid var(--border-subtle);
-        }
-
-        .essay-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
-
-        .essay-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            border-radius: 8px;
-            padding: 2rem;
-            transition: all 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .essay-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-gold), transparent);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .essay-card:hover {
-            background: var(--bg-card-hover);
-            border-color: rgba(212, 162, 84, 0.3);
-        }
-
-        .essay-card:hover::before {
-            opacity: 1;
-        }
-
-        /* Flagship Card */
-        .essay-card.flagship {
-            border-left: 4px solid var(--accent-gold);
-            grid-column: span 1;
-        }
-
-        @media (min-width: 900px) {
-            .essay-card.flagship {
-                grid-column: 1 / -1;
-                padding: 2.5rem;
-            }
-
-            .flagship-content {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 3rem;
-            }
-
-            .flagship-text {
-                flex: 1;
-            }
-
-            .flagship-stats {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-            }
-        }
-
-        .essay-tag {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            color: var(--accent-gold);
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 0.5rem;
-        }
-
-        .essay-card.flagship .essay-tag {
-            background: rgba(212, 162, 84, 0.15);
-            display: inline-block;
-            padding: 0.4rem 0.8rem;
-            border-radius: 3px;
-            width: fit-content;
-        }
-
-        .essay-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            margin-bottom: 1rem;
-            line-height: 1.4;
-        }
-
-        .essay-card.flagship .essay-title {
-            font-size: 2rem;
-        }
-
-        .essay-description {
-            flex-grow: 1;
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            margin-bottom: 1.5rem;
-            line-height: 1.7;
-        }
-
-        .essay-card.flagship .essay-description {
-            font-size: 1rem;
-        }
-
-        .essay-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 1rem;
-            border-top: 1px solid var(--border-subtle);
-            margin-bottom: 1.5rem;
-        }
-
-        .essay-stats {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-
-        .essay-stat-item {
-            display: inline-block;
-            margin-right: 2rem;
-        }
-
-        .stat-label {
-            color: var(--text-muted);
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        .stat-value {
-            display: block;
-            color: var(--accent-gold);
-            font-weight: 600;
-            font-size: 1rem;
-        }
-
-        .essay-download {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.8rem;
-            background: linear-gradient(135deg, rgba(212, 162, 84, 0.1), rgba(139, 92, 246, 0.05));
-            color: var(--accent-gold);
-            text-decoration: none;
-            padding: 0.8rem 1.5rem;
-            border-radius: 4px;
-            font-weight: 600;
-            font-size: 0.95rem;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(212, 162, 84, 0.2);
-        }
-
-        .essay-download:hover {
-            background: linear-gradient(135deg, rgba(212, 162, 84, 0.15), rgba(139, 92, 246, 0.1));
-            border-color: rgba(212, 162, 84, 0.4);
-            transform: translateY(-2px);
-        }
-
-        .essay-download-icon {
-            width: 16px;
-            height: 16px;
-            display: inline-block;
-        }
-
-        .essay-divider {
-            height: 1px;
-            background: linear-gradient(90deg, transparent, var(--border-subtle), transparent);
-            margin: 3rem 0;
-        }
-
-        /* Footer */
-        footer {
-            background: var(--bg-card);
-            border-top: 1px solid var(--border-subtle);
-            padding: 3rem 2rem;
-            margin-top: 5rem;
-        }
-
-        .footer-container {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-            text-align: center;
-        }
-
-        .footer-section h4 {
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-            font-family: 'Playfair Display', serif;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover {
-            color: var(--accent-gold);
-        }
-
-        .footer-copyright {
-            text-align: center;
-            margin-top: 2rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-subtle);
-            color: var(--text-muted);
-            font-size: 0.85rem;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-
-            .hero {
-                padding: 2rem 1.2rem;
-                margin: 1rem auto;
-            }
-
-            .hero h1 {
-                font-size: 1.6rem;
-                margin-bottom: 1rem;
-            }
-
-            .hero-subtitle {
-                font-size: 0.95rem;
-            }
-
-            .essays-section {
-                padding: 0 1rem;
-                margin: 2.5rem auto;
-            }
-
-            .essay-category {
-                margin-bottom: 2.5rem;
-            }
-
-            .essay-grid {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-
-            .essay-card {
-                padding: 1.2rem;
-            }
-
-            .essay-title {
-                font-size: 1rem;
-            }
-
-            .essay-card.flagship .essay-title {
-                font-size: 1.2rem;
-            }
-
-            .flagship-content {
-                grid-template-columns: 1fr !important;
-            }
-
-            footer {
-                padding: 1.5rem 1rem;
-                margin-top: 2.5rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-
-            .hero {
-                padding: 1.5rem 1rem;
-                margin: 0.5rem auto;
-            }
-
-            .hero h1 {
-                font-size: 1.3rem;
-                margin-bottom: 0.8rem;
-            }
-
-            .hero-subtitle {
-                font-size: 0.85rem;
-            }
-
-            .hero::before {
-                width: 300px;
-                height: 300px;
-            }
-
-            .essays-section {
-                padding: 0 0.8rem;
-                margin: 2rem auto;
-            }
-
-            .essay-category-title {
-                font-size: 1.2rem;
-                margin-bottom: 1.5rem;
-            }
-
-            .essay-grid {
-                grid-template-columns: 1fr;
-                gap: 1rem;
-            }
-
-            .essay-card {
-                padding: 1rem;
-            }
-
-            .essay-date {
-                font-size: 0.75rem;
-            }
-
-            .essay-title {
-                font-size: 0.95rem;
-                margin-bottom: 0.6rem;
-            }
-
-            .essay-card.flagship {
-                grid-column: 1;
-            }
-
-            .essay-card.flagship .essay-title {
-                font-size: 1.1rem;
-            }
-
-            footer {
-                padding: 1.2rem 0.8rem;
-                margin-top: 5rem;
-            }
-        }
-        .breadcrumb-
-        .breadcrumb-
-
-/* ========== FOCUS STYLES ========== */
-*:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
-
-/* ========== BACK TO TOP ========== */
-</style>
 </head>
 <body>
-    <a href="#main-content" class="skip-to-content">Skip to content</a>
-    <!-- Navigation -->
-                <!--
+    <!--
   ============================================================
-  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
-  ============================================================
-  Every page on adoptedbygrace.net MUST use this EXACT nav block.
-  Copy-paste it verbatim. Do not add, remove, rename, or reorder
-  any links. Do not add a logo.
-
-  REQUIRED in <head>:
-    
-
-  REQUIRED before </body>:
-    
-
   DO NOT add any inline CSS for nav, hamburger, .nav-links,
   .nav-right, .nav-container, .nav-site-name, .search-overlay,
   or .mega-menu. All styling lives in /global.css.
@@ -506,8 +54,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
 
   Last updated: 2026-03-29
   ============================================================
--->
-        <nav role="navigation" aria-label="Main navigation">
+  -->
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -572,187 +120,141 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
         <div class="search-results" id="searchResults"></div>
     </div>
 
+    <main id="main-content">
+        <section class="hub-hero">
+            <h1 class="hero-title">The Full Arguments</h1>
+            <p class="hero-subtitle">These are not summaries. They are the complete cases — every verse examined, every objection answered, every thread followed to its conclusion. If you want to understand why the doctrines of grace are not merely defensible but unavoidable, start here.</p>
+        </section>
 
-
-    <div class="breadcrumb-nav"></div>
-
-    <!-- Hero Section -->
-    <section id="main-content" class="hero">
-        <h1>The Full Arguments</h1>
-        <p class="hero-subtitle">These are not summaries. They are the complete cases — every verse examined, every objection answered, every thread followed to its conclusion. If you want to understand why the doctrines of grace are not merely defensible but unavoidable, start here.</p>
-    </section>
-
-    <!-- Essays -->
-    <section class="essays-section">
-        <!-- Doctrines of Grace -->
-        <div class="essay-category">
-            <h2 class="essay-category-title">The Doctrines of Grace</h2>
-
-            <div class="essay-grid">
-                <div class="essay-card flagship">
-                    <div class="flagship-content">
-                        <div class="flagship-text">
-                            <div class="essay-tag">Flagship Essay</div>
-                            <h3 class="essay-title">Soli Deo Gloria</h3>
-                            <p class="essay-description">
-                                The five points of Calvinism are not five separate doctrines. They are a single argument — and if you grant the first point, the other four follow with the force of gravity. This essay walks through 35+ passages to demonstrate that Total Depravity necessitates Unconditional Election, which necessitates Limited Atonement, which necessitates Irresistible Grace, which guarantees the Perseverance of the Saints. Remove any link and the chain collapses. Keep them all and the gospel holds.
-                            </p>
-                            <div class="essay-meta">
-                                <div class="essay-stats">
-                                    <div class="essay-stat-item">
-                                        <span class="stat-label">Pages</span>
-                                        <span class="stat-value">25</span>
-                                    </div>
-                                    <div class="essay-stat-item">
-                                        <span class="stat-label">Passages</span>
-                                        <span class="stat-value">35+</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="essays/solideogloria.pdf" class="essay-download">
-                                <svg class="essay-download-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                                    <polyline points="7 10 12 15 17 10"></polyline>
-                                    <line x1="12" y1="15" x2="12" y2="3"></line>
-                                </svg>
-                                Download PDF
-                            </a>
-                        </div>
+        <section class="hub-container">
+            <div class="hub-grid">
+                <!-- Featured Card - Soli Deo Gloria -->
+                <a href="essays/solideogloria.pdf" class="hub-card hub-card-featured">
+                    <span class="card-number">01</span>
+                    <h3 class="card-title">Soli Deo Gloria</h3>
+                    <p class="card-description">The five points of Calvinism are not five separate doctrines. They are a single argument — and if you grant the first point, the other four follow with the force of gravity. This essay walks through 35+ passages to demonstrate that Total Depravity necessitates Unconditional Election, which necessitates Limited Atonement, which necessitates Irresistible Grace, which guarantees the Perseverance of the Saints.</p>
+                    <span class="card-scripture">35+ Passages</span>
+                    <span class="card-meta">Flagship Essay — 25 Pages</span>
+                    <div class="card-footer">
+                        <div class="card-read">Download <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
                     </div>
-                </div>
+                </a>
 
-                <div class="essay-card">
-                    <div class="essay-tag">Exegetical</div>
-                    <h3 class="essay-title">You Cannot Escape the Text</h3>
-                    <p class="essay-description">
-                        Romans 9 says it. Ephesians 1 says it. John 6 says it. This essay takes the three most contested election passages, reads them in Greek, and shows that no honest exegesis can avoid the conclusion: God chooses who will be saved, and His choice precedes human faith.
-                    </p>
-                    <div class="essay-meta">
-                        <div class="essay-stats">
-                            <div class="essay-stat-item">
-                                <span class="stat-label">Pages</span>
-                                <span class="stat-value">14</span>
-                            </div>
-                        </div>
+                <!-- Card 02 - You Cannot Escape the Text -->
+                <a href="essays/you cannot escape the text.pdf" class="hub-card">
+                    <span class="card-number">02</span>
+                    <h3 class="card-title">You Cannot Escape the Text</h3>
+                    <p class="card-description">Romans 9 says it. Ephesians 1 says it. John 6 says it. This essay takes the three most contested election passages, reads them in Greek, and shows that no honest exegesis can avoid the conclusion: God chooses who will be saved.</p>
+                    <span class="card-scripture">Romans 9, Ephesians 1, John 6</span>
+                    <span class="card-meta">Exegetical — 14 Pages</span>
+                    <div class="card-footer">
+                        <div class="card-read">Download <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
                     </div>
-                    <a href="essays/you cannot escape the text.pdf" class="essay-download">
-                        <svg class="essay-download-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            <polyline points="7 10 12 15 17 10"></polyline>
-                            <line x1="12" y1="15" x2="12" y2="3"></line>
-                        </svg>
-                        Download
+                </a>
+
+                <!-- Card 03 - Re-Formed -->
+                <a href="essays/RE-FORMED.pdf" class="hub-card">
+                    <span class="card-number">03</span>
+                    <h3 class="card-title">Re-Formed: A Testimony</h3>
+                    <p class="card-description">What happens when an Arminian reads Romans 9 without flinching? This is the account of a theological conversion — not from unbelief to belief, but from a God who waits on human permission to a God who saves by sovereign decree.</p>
+                    <span class="card-scripture">Romans 9 — Personal</span>
+                    <span class="card-meta">Testimony — 6 Pages</span>
+                    <div class="card-footer">
+                        <div class="card-read">Download <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
+                </a>
+
+                <!-- Card 04 - The Architecture of Grace -->
+                <a href="essays/The_Architecture.pdf" class="hub-card">
+                    <span class="card-number">04</span>
+                    <h3 class="card-title">The Architecture of Grace</h3>
+                    <p class="card-description">Calvin did not invent election — he organized what Scripture already taught. This essay traces Book III of the Institutes to show how Calvin moved from faith to regeneration to election with a logic so tight that five centuries of critics have failed to break it.</p>
+                    <span class="card-scripture">Calvin's Institutes Book III</span>
+                    <span class="card-meta">Reformed Theology — 28 Pages</span>
+                    <div class="card-footer">
+                        <div class="card-read">Download <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
+                </a>
+
+                <!-- Card 05 - The Institutes: Book III Essay -->
+                <a href="essays/The Institutes Book 3 essay.pdf" class="hub-card">
+                    <span class="card-number">05</span>
+                    <h3 class="card-title">The Institutes: Book III Essay</h3>
+                    <p class="card-description">A rigorous academic examination of Calvin's soteriology in Book III: how faith, predestination, and perseverance interlock within his broader theological architecture. For those who want to engage Calvin's actual arguments — not the caricatures.</p>
+                    <span class="card-scripture">Calvin — Academic</span>
+                    <span class="card-meta">Academic — 24 Pages</span>
+                    <div class="card-footer">
+                        <div class="card-read">Download <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- RELATED-ARTICLES-START -->
+        <section class="related-articles" aria-label="Related articles">
+            <div class="related-articles-inner">
+                <h2 class="related-articles-heading">Keep Exploring</h2>
+                <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+                <div class="related-articles-grid">
+                    <a href="/questions" class="related-article-card">
+                        <span class="related-article-cat">📖 Questions</span>
+                        <span class="related-article-title">All Questions</span>
+                        <span class="related-article-desc">The intellectual foundations beneath these essays.</span>
+                    </a>
+                    <a href="/systematic-theology" class="related-article-card">
+                        <span class="related-article-cat">📚 Theology</span>
+                        <span class="related-article-title">Systematic Theology</span>
+                        <span class="related-article-desc">The full theological framework: God's nature, character, and predestining grace.</span>
+                    </a>
+                    <a href="/scripture-tsunami" class="related-article-card">
+                        <span class="related-article-cat">⚡ Scripture</span>
+                        <span class="related-article-title">Scripture Tsunami</span>
+                        <span class="related-article-desc">When truth crashes through objection.</span>
+                    </a>
+                    <a href="/start-here" class="related-article-card">
+                        <span class="related-article-cat">🏠 Getting Started</span>
+                        <span class="related-article-title">Start Here</span>
+                        <span class="related-article-desc">Begin at the beginning.</span>
+                    </a>
+                    <a href="/demolition-hub" class="related-article-card">
+                        <span class="related-article-cat">🔨 Objections</span>
+                        <span class="related-article-title">Demolition Hub</span>
+                        <span class="related-article-desc">Objections answered systematically.</span>
                     </a>
                 </div>
-
-                <div class="essay-card">
-                    <div class="essay-tag">Personal</div>
-                    <h3 class="essay-title">Re-Formed: A Testimony</h3>
-                    <p class="essay-description">
-                        What happens when an Arminian reads Romans 9 without flinching? This is the account of a theological conversion — not from unbelief to belief, but from a God who waits on human permission to a God who saves by sovereign decree. A testimony of how election destroyed pride and rebuilt worship from the ground up.
-                    </p>
-                    <div class="essay-meta">
-                        <div class="essay-stats">
-                            <div class="essay-stat-item">
-                                <span class="stat-label">Pages</span>
-                                <span class="stat-value">6</span>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="essays/RE-FORMED.pdf" class="essay-download">
-                        <svg class="essay-download-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            <polyline points="7 10 12 15 17 10"></polyline>
-                            <line x1="12" y1="15" x2="12" y2="3"></line>
-                        </svg>
-                        Download
-                    </a>
+                <div class="related-articles-browse">
+                    <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+                    <a href="/topics" class="related-browse-link">Explore by Topic →</a>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- RELATED-ARTICLES-END -->
+    </main>
 
-        <div class="essay-divider"></div>
-
-        <!-- Calvin's Institutes -->
-        <div class="essay-category">
-            <h2 class="essay-category-title">Calvin's Institutes</h2>
-
-            <div class="essay-grid">
-                <div class="essay-card">
-                    <div class="essay-tag">Reformed Theology</div>
-                    <h3 class="essay-title">The Architecture of Grace</h3>
-                    <p class="essay-description">
-                        Calvin did not invent election — he organized what Scripture already taught. This essay traces Book III of the Institutes to show how Calvin moved from faith to regeneration to election with a logic so tight that five centuries of critics have failed to break it.
-                    </p>
-                    <div class="essay-meta">
-                        <div class="essay-stats">
-                            <div class="essay-stat-item">
-                                <span class="stat-label">Pages</span>
-                                <span class="stat-value">28</span>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="essays/The_Architecture.pdf" class="essay-download">
-                        <svg class="essay-download-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            <polyline points="7 10 12 15 17 10"></polyline>
-                            <line x1="12" y1="15" x2="12" y2="3"></line>
-                        </svg>
-                        Download
-                    </a>
-                </div>
-
-                <div class="essay-card">
-                    <div class="essay-tag">Academic</div>
-                    <h3 class="essay-title">The Institutes: Book III Essay</h3>
-                    <p class="essay-description">
-                        A rigorous academic examination of Calvin's soteriology in Book III: how faith, predestination, and perseverance interlock within his broader theological architecture. For those who want to engage Calvin's actual arguments — not the caricatures his opponents invented.
-                    </p>
-                    <div class="essay-meta">
-                        <div class="essay-stats">
-                            <div class="essay-stat-item">
-                                <span class="stat-label">Pages</span>
-                                <span class="stat-value">24</span>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="essays/The Institutes Book 3 essay.pdf" class="essay-download">
-                        <svg class="essay-download-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            <polyline points="7 10 12 15 17 10"></polyline>
-                            <line x1="12" y1="15" x2="12" y2="3"></line>
-                        </svg>
-                        Download
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-            <footer>
+    <footer>
         <div class="footer-container">
             <div class="footer-section">
                 <h4>Truth</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/questions">Questions</a></li>
                     <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
                     <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Explore</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>                    <li><a href="/theologians">Theologians</a></li>
-                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                    <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/questions">Questions</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Connect</h4>
                 <ul>
-                    <li class="mobile-nav-link"><a href="/about">About</a></li>
+                    <li><a href="/about">About</a></li>
                     <li><a href="/contact">Contact</a></li>
                     <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
                 </ul>
@@ -762,51 +264,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
             Grace is not a license to sin. It is the power that frees us from sin's dominion.
         </div>
-        <div class="footer-copyright">
-            &copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria
-        </div>
-        <!-- Cross-Reference Section -->
-        <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-            <div style="max-width: 900px; margin: 0 auto;">
-                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                    <a href="/questions.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">All Questions</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The intellectual foundations beneath these essays.</p>
-                    </a>
-                    <a href="/systematic-theology.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Systematic Theology</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The full theological framework.</p>
-                    </a>
-                    
-                    <a href="/scripture-tsunami.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Scripture Tsunami</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">When truth crashes through objection.</p>
-                    </a>
-                    <a href="/start-here.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Start Here</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Begin at the beginning.</p>
-                    </a>
-                    <a href="/demolition-hub.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Demolition Hub</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Objections answered systematically.</p>
-                    </a>
-                </div>
-            </div>
-        </section>
+        <p class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</p>
     </footer>
-
-    <script>
-        // Set active nav link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            if (link.href === window.location.href) {
-                link.classList.add('active');
-            }
-        });
-    </script>
-
-
-    <script src="/global.js" defer></script>
 
     <script src="/nav.js"></script>
 </body>
