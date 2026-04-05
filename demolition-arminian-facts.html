@@ -23,6 +23,596 @@
     
             <link rel="stylesheet" href="/global.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* Reading Progress Bar */
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(to right, var(--accent-gold), var(--accent-ember));
+            width: 0%;
+            z-index: 1001;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            max-width: 1200px; width: 100%;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .breadcrumb a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent-ember);
+        }
+
+        /* Hero Section */
+        .hero {
+            max-width: 1200px; width: 100%;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero-series-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent-ember);
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .hero-series-label::before,
+        .hero-series-label::after {
+            content: '—';
+            flex: 0 0 2rem;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .source-link {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: transparent;
+            border: 2px solid var(--accent-violet);
+            color: var(--accent-violet);
+            text-decoration: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+            margin-bottom: 3rem;
+        }
+
+        .source-link:hover {
+            background: var(--accent-violet);
+            color: var(--bg-deep);
+        }
+
+        /* Verse Sidebar */
+        .verse-sidebar {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-left: 4px solid var(--accent-gold);
+            padding: 2rem;
+            margin: 3rem auto;
+            max-width: 600px;
+            border-radius: 4px;
+        }
+
+        .verse-sidebar h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+        }
+
+        .verse-list {
+            display: grid;
+            gap: 0.8rem;
+        }
+
+        .verse-list li {
+            list-style: none;
+            padding-left: 1.5rem;
+            position: relative;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .verse-list li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: var(--accent-ember);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section {
+            margin: 4rem auto;
+            padding: 0;
+        }
+
+        .section-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--accent-ember);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.5rem;
+        }
+
+        .section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent-gold);
+            margin-bottom: 2rem;
+        }
+
+        .section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--text-primary);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .claim-box {
+            background: var(--bg-card);
+            border: 2px solid var(--accent-ember);
+            border-radius: 4px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .claim-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent-ember);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+        }
+
+        .claim-box p {
+            color: var(--text-primary);
+            margin: 0.5rem 0;
+        }
+
+        .response-box {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.05), rgba(232, 100, 44, 0.05));
+            border: 2px solid var(--accent-gold);
+            border-radius: 4px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .response-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .response-box ol {
+            margin-left: 2rem;
+            color: var(--text-secondary);
+        }
+
+        .response-box li {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .response-box strong {
+            color: var(--text-primary);
+        }
+
+        .greek-term {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-violet);
+            font-style: italic;
+        }
+
+        .scripture-block {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(212, 162, 84, 0.05));
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+            border-radius: 4px;
+        }
+
+        .scripture-citation {
+            display: block;
+            text-align: right;
+            margin-top: 1rem;
+            color: var(--accent-gold);
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        .emphasis-gold {
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        .emphasis-ember {
+            color: var(--accent-ember);
+            font-weight: 600;
+        }
+
+        .verdict-box {
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(212, 162, 84, 0.1));
+            border: 2px solid var(--accent-ember);
+            border-radius: 4px;
+            padding: 2.5rem;
+            margin: 3rem auto;
+            text-align: center;
+            max-width: 800px;
+            font-size: 1.1rem;
+            line-height: 1.9;
+            color: var(--text-primary);
+        }
+
+        .verdict-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--accent-ember);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+
+        /* Cross-links */
+        .cross-links {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            padding: 2rem;
+            margin: 4rem auto;
+            border-radius: 4px;
+            max-width: 800px;
+        }
+
+        .cross-links h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+        }
+
+        .cross-links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1rem;
+        }
+
+        .cross-link {
+            padding: 1rem;
+            background: var(--bg-card-hover);
+            border: 1px solid var(--border-subtle);
+            text-decoration: none;
+            color: var(--accent-gold);
+            transition: all 0.3s ease;
+            border-radius: 4px;
+            font-size: 0.95rem;
+        }
+
+        .cross-link:hover {
+            border-color: var(--accent-gold);
+            background: rgba(212, 162, 84, 0.05);
+        }
+
+        /* Social Sharing */
+        .social-share {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin: 3rem 0;
+            flex-wrap: wrap;
+        }
+
+        .share-button {
+            padding: 0.8rem 1.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+        }
+
+        .share-button:hover {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            padding: 3rem 2rem;
+            margin-top: 2rem;
+        }
+
+        .footer-content {
+            max-width: 1200px; width: 100%;
+            margin: 0 auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border-subtle);
+            padding-top: 2rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Back to Top Button */@media (max-width: 768px) {
+
+            .breadcrumb {
+                padding: 1rem 1.5rem;
+                font-size: 0.8rem;
+            }
+
+            .hero {
+                padding: 2rem 1.2rem;
+                margin: 1rem auto;
+            }
+
+            .hero h1 {
+                font-size: 1.6rem;
+                margin-bottom: 1rem;
+            }
+
+            .hero-subtitle {
+                font-size: 0.95rem;
+            }
+
+            .section {
+                padding: 0 1.2rem;
+                margin-bottom: 2.5rem;
+            }
+
+            .section h2 {
+                font-size: 1.3rem;
+                margin-bottom: 1rem;
+                margin-top: 2rem;
+            }
+
+            .section h3 {
+                font-size: 1rem;
+            }
+
+            .fact-card {
+                padding: 1.2rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .response-box {
+                padding: 1.2rem;
+                margin: 1.5rem 0;
+            }
+
+            .response-box ol {
+                margin-left: 1.5rem;
+            }
+
+            .verse-sidebar {
+                padding: 1.2rem;
+                margin: 1.5rem 0;
+            }
+
+            footer {
+                padding: 1.5rem 1rem;
+                margin-top: 5rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            .breadcrumb {
+                padding: 0.8rem 1rem;
+                font-size: 0.75rem;
+            }
+
+            .hero {
+                padding: 1.5rem 1rem;
+                margin: 0.5rem auto;
+            }
+
+            .hero h1 {
+                font-size: 1.3rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .hero-subtitle {
+                font-size: 0.85rem;
+                margin-bottom: 1rem;
+            }
+
+            .source-link {
+                font-size: 0.75rem;
+                padding: 0.3rem 0.8rem;
+            }
+
+            .section {
+                padding: 0 0.8rem;
+                margin-bottom: 2rem;
+            }
+
+            .section h2 {
+                font-size: 1.1rem;
+                margin-top: 1.2rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .section h3 {
+                font-size: 0.95rem;
+                margin-top: 0.8rem;
+            }
+
+            .fact-card {
+                padding: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .fact-number {
+                font-size: 0.85rem;
+            }
+
+            .fact-title {
+                font-size: 1rem;
+            }
+
+            .response-box {
+                padding: 1rem;
+                margin: 1rem 0;
+            }
+
+            .response-box ol {
+                margin-left: 1.2rem;
+                font-size: 0.9rem;
+            }
+
+            .verse-sidebar {
+                padding: 1rem;
+                margin: 1rem 0;
+            }
+
+            .verse-list {
+                font-size: 0.9rem;
+            }
+
+            footer {
+                padding: 1.2rem 0.8rem;
+                margin-top: 5rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .footer-section h4 {
+                font-size: 0.95rem;
+                margin-bottom: 0.6rem;
+            }
+        }
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -168,17 +758,17 @@
             <div class="response-box">
                 <div class="response-label">Exegetical Response</div>
                 <ol>
-                    <li><span class="emphasis-gold">Prevenient grace appears nowhere in Scripture</span> — neither the term nor the concept. It is a philosophical construct invented to solve a problem Arminianism itself creates. The Bible knows nothing of this doctrine.</li>
+                    <li><span class="emphasis-gold">Prevenient grace appears nowhere in Scripture</span> — neither the term nor the concept. It is a philosophical construct invented to solve a problem <a href="/compare-calvinism-arminianism.html">Arminianism</a> itself creates. The Bible knows nothing of this doctrine.</li>
 
                     <li><span class="emphasis-gold">John 12:32</span> — "I will draw ALL people to myself." The Greek word <span class="greek-term">helkō</span> (ἑλκύω) means to drag or compel. It's used of dragging nets in John 21:6 and dragging Paul in Acts 16:19. It does NOT mean "enable." And if "all" means every individual without exception, this verse teaches universalism—everyone would be drawn and saved.</li>
 
-                    <li><span class="emphasis-gold">John 6:44</span> — "No one can come to me unless the Father draws him." Same word <span class="greek-term">helkō</span>. Combined with v.37: "All that the Father gives me WILL come to me"—the drawing is effectual, not merely enabling.</li>
+                    <li><span class="emphasis-gold"><a href="/question-john6.html">John 6:44</a></span> — "No one can come to me unless the Father draws him." Same word <span class="greek-term">helkō</span>. Combined with v.37: "All that the Father gives me WILL come to me"—the drawing is <a href="/question-irresistible.html">effectual</a>, not merely enabling.</li>
 
                     <li><span class="emphasis-gold">John 6:65</span> — "No one can come to me unless it is granted him by the Father." The word <span class="greek-term">dedomenon</span> (δεδομένον) is a perfect passive participle indicating a completed prior grant. Coming to Christ requires a prior divine action, not a universal enablement.</li>
 
-                    <li><span class="emphasis-gold">Acts 16:14</span> — "The Lord OPENED her heart to pay attention." Lydia did not open her own heart. God did. This is the biblical pattern throughout Scripture.</li>
+                    <li><span class="emphasis-gold">Acts 16:14</span> — "The Lord OPENED her heart to pay attention." Lydia did not open her own heart. God did. This is the <a href="/systematic-regeneration.html">biblical pattern</a> throughout Scripture.</li>
 
-                    <li><span class="emphasis-gold">1 Corinthians 2:14</span> — "The natural person does not accept the things of the Spirit of God...he is NOT ABLE (ou dunatai) to understand them." This is not a failure of will; it is an inability rooted in the condition of the natural person.</li>
+                    <li><span class="emphasis-gold">1 Corinthians 2:14</span> — "The natural person does not accept the things of the Spirit of God...he is NOT ABLE (ou dunatai) to understand them." This is not a failure of will; it is an inability rooted in <a href="/systematic-hamartiology.html">the condition of the natural person</a>.</li>
 
                     <li><span class="emphasis-gold">The Fatal Flaw:</span> If prevenient grace is universal and irresistible enough to restore free will, why isn't it irresistible enough to save? The Arminian has merely moved the problem back one step without resolving it.</li>
                 </ol>
@@ -387,7 +977,7 @@
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>

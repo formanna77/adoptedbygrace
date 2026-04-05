@@ -91,6 +91,145 @@
     
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+            --reformed-bg: rgba(212, 162, 84, 0.06);
+            --reformed-border: rgba(212, 162, 84, 0.25);
+            --opposing-bg: rgba(154, 149, 140, 0.04);
+            --opposing-border: rgba(154, 149, 140, 0.15);
+        }
+        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.8; overflow-x: hidden; }
+        .section-nav-inner { max-width: 1200px; width: 100%; margin: 0 auto; display: flex; gap: 1.5rem; overflow-x: auto; }
+        .section-
+        .section-nav a:hover, .section-
+
+        /* HERO */
+        .hero { max-width: 900px; margin: 0 auto; padding: 4rem 2rem 2rem; text-align: center; }
+        .hero-label { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+        .hero-label::before, .hero-label::after { content: ''; display: inline-block; width: 30px; height: 2px; background: var(--accent-ember); }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 800; margin-bottom: 1.5rem; line-height: 1.15; }
+        .hero h1 .gold { color: var(--accent-gold); }
+        .hero h1 .muted { color: var(--text-secondary); }
+        .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto 2rem; line-height: 1.8; }
+
+        /* OVERVIEW TABLE */
+        .overview-table { max-width: 1000px; margin: 3rem auto; padding: 0 2rem; }
+        .overview-table h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); text-align: center; margin-bottom: 2rem; }
+        .ov-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 0; border: 1px solid var(--border-subtle); border-radius: 8px; overflow: hidden; }
+        .ov-header { background: var(--bg-card); padding: 1rem 1.25rem; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); border-bottom: 1px solid var(--border-subtle); }
+        .ov-header.reformed { color: var(--accent-gold); }
+        .ov-header.arminian { color: var(--text-secondary); }
+        .ov-label { padding: 1rem 1.25rem; font-weight: 600; font-size: 0.95rem; border-bottom: 1px solid var(--border-subtle); background: var(--bg-card); }
+        .ov-cell { padding: 1rem 1.25rem; font-size: 0.9rem; line-height: 1.6; border-bottom: 1px solid var(--border-subtle); }
+        .ov-cell.reformed { background: var(--reformed-bg); color: var(--text-primary); }
+        .ov-cell.arminian { background: var(--opposing-bg); color: var(--text-secondary); }
+
+        /* CONTENT */
+        .content { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+
+        /* POINT SECTIONS */
+        .point-section { margin: 5rem 0; }
+        .point-header { margin-bottom: 2.5rem; }
+        .point-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--accent-ember); margin-bottom: 0.75rem; }
+        .point-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.75rem; line-height: 1.2; }
+        .point-subtitle { color: var(--text-secondary); font-size: 1rem; }
+
+        /* COMPARISON GRID */
+        .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0; }
+        .compare-card { background: var(--bg-card); border-radius: 8px; padding: 2rem; border: 1px solid var(--border-subtle); }
+        .compare-card.reformed { border-left: 4px solid var(--accent-gold); background: var(--reformed-bg); }
+        .compare-card.arminian { border-left: 4px solid var(--text-muted); background: var(--opposing-bg); }
+        .compare-card-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.75rem; }
+        .compare-card.reformed .compare-card-label { color: var(--accent-gold); }
+        .compare-card.arminian .compare-card-label { color: var(--text-muted); }
+        .compare-card h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 1rem; }
+        .compare-card.reformed h3 { color: var(--accent-gold); }
+        .compare-card.arminian h3 { color: var(--text-secondary); }
+        .compare-card p { font-size: 0.92rem; line-height: 1.75; color: var(--text-secondary); }
+        .compare-card.reformed p { color: var(--text-primary); }
+
+        /* PROOF TEXTS */
+        .proof-texts { margin: 2rem 0; }
+        .proof-texts h4 { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent-ember); margin-bottom: 1rem; }
+        .proof-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .proof-card { background: var(--bg-card); border-radius: 6px; padding: 1.25rem; border: 1px solid var(--border-subtle); }
+        .proof-card.reformed { border-top: 3px solid var(--accent-gold); }
+        .proof-card.arminian { border-top: 3px solid var(--text-muted); }
+        .proof-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+        .proof-card.arminian .proof-ref { color: var(--text-muted); }
+        .proof-text { font-size: 0.88rem; line-height: 1.7; color: var(--text-secondary); font-style: italic; margin-bottom: 0.75rem; }
+        .proof-note { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; border-top: 1px solid var(--border-subtle); padding-top: 0.75rem; }
+        .proof-card.reformed .proof-note { color: var(--text-secondary); }
+
+        /* SCRIPTURE BLOCK */
+        .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2.5rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
+        .scripture-ref { display: block; margin-top: 0.75rem; font-style: normal; color: var(--text-muted); font-size: 0.85rem; font-family: 'JetBrains Mono', monospace; }
+
+        /* VERDICT */
+        .verdict { background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(232, 100, 44, 0.05)); border: 1px solid var(--reformed-border); border-radius: 8px; padding: 2rem; margin: 2rem 0; }
+        .verdict-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--accent-gold); margin-bottom: 0.75rem; }
+        .verdict p { font-size: 0.95rem; line-height: 1.8; color: var(--text-primary); }
+
+        /* EXEGETICAL NOTES */
+        .exegetical { margin: 2rem 0; padding: 1.5rem; background: var(--bg-card); border-radius: 6px; border: 1px solid var(--border-subtle); }
+        .exegetical h4 { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent-violet); margin-bottom: 1rem; }
+        .exegetical p { font-size: 0.9rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 0.75rem; }
+        .exegetical .greek { font-family: 'JetBrains Mono', monospace; color: var(--accent-violet); font-size: 0.85rem; }
+
+        /* CROSS LINKS */
+        .cross-links { margin: 4rem 0 2rem; padding: 2rem; background: var(--bg-card); border-radius: 8px; border: 1px solid var(--border-subtle); }
+        .cross-links h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 1.5rem; text-align: center; }
+        .cross-link-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; }
+        .cross-link { display: block; padding: 1rem; background: var(--bg-deep); border: 1px solid var(--border-subtle); border-radius: 6px; text-decoration: none; transition: all 0.3s; }
+        .cross-link:hover { border-color: var(--accent-gold); transform: translateY(-2px); }
+        .cross-link-label { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent-ember); margin-bottom: 0.3rem; }
+        .cross-link-title { font-size: 0.92rem; color: var(--text-primary); font-weight: 600; }
+        .cross-link-desc { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.3rem; }
+
+        /* FOOTER */
+        footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
+        .footer-container { max-width: 1200px; width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; text-align: center; }
+        .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
+        .footer-section ul { list-style: none; }
+        .footer-section li { margin-bottom: 0.5rem; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
+        .footer-section a:hover { color: var(--accent-gold); }
+        .footer-bottom { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.8rem; }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .compare-grid { grid-template-columns: 1fr; }
+            .proof-grid { grid-template-columns: 1fr; }
+            .ov-grid { grid-template-columns: 1fr; }
+            .ov-header:first-child, .ov-label { display: none; }
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .page-hero { padding: 4.5rem 1rem 1.5rem; }
+            .page-hero::before { width: 250px; height: 250px; }
+            .content-section { padding: 1.5rem 1rem; }
+            footer { margin-top: 2rem; padding: 1.5rem 1rem; }
+            .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
+            .card { padding: 1.5rem; }
+            blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
+        }
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -194,8 +333,8 @@
 <div class="section-nav">
     <div class="section-nav-inner">
         <a href="#overview">Overview</a>
-        <a href="#total-depravity">Total Depravity</a>
-        <a href="#unconditional-election">Unconditional Election</a>
+        <a href="#total-<a href="/question-depravity">depravity</a>">Total Depravity<a href="/systematic-hamartiology">Total Depravity</a>/a>
+        <a href="#unconditional-<a href="/systematic-election">election</a>">Unconditional Election</a>
         <a href="#limited-atonement">Limited Atonement</a>
         <a href="#irresistible-grace">Irresistible Grace</a>
         <a href="#perseverance">Perseverance</a>
@@ -205,7 +344,7 @@
 
 <section class="page-hero">
     <div class="hero-label">Comparative Theology</div>
-    <h1>Calvinism vs. Arminianism: <span class="gold">What Scripture Actually Teaches About Salvation</span></h1>
+    <h1>Calvinism vs. <a href="/compare-calvinism-arminianism">Arminianism</a>: <span class="gold">What Scripture Actually Teaches About Salvation</span></h1>
     <p class="hero-subtitle">
         Every Christian must answer one question: Did you choose God, or did God choose you? Your answer determines everything.
         <br><br>
@@ -220,10 +359,10 @@
     <div class="ov-grid">
         <div class="ov-header">Doctrine</div>
         <div class="ov-header reformed">Reformed (Calvinism)</div>
-        <div class="ov-header arminian">Arminian</div>
+        <div class="ov-header <a href="/compare-calvinism-arminianism">arminian</a>">Arminian</div>
 
         <div class="ov-label">Human Condition</div>
-        <div class="ov-cell reformed"><strong>Total Depravity</strong> — Fallen man is spiritually dead, unable to believe apart from sovereign regeneration.</div>
+        <div class="ov-cell reformed"><strong>Total Depravity<a href="/systematic-hamartiology">Total Depravity</a>/strong> — Fallen man is spiritually dead, unable to believe apart from <a href="/question-sovereignty-logic">sovereign</a> <a href="/systematic-regeneration">regeneration</a>.</div>
         <div class="ov-cell arminian"><strong>Partial Depravity / Freed Will</strong> — Fallen man is seriously damaged but God grants prevenient grace enabling every person to choose or reject salvation.</div>
 
         <div class="ov-label">Election</div>
@@ -239,7 +378,7 @@
         <div class="ov-cell arminian"><strong>Resistible Grace</strong> — God's saving grace can be resisted and rejected. The Spirit draws all people, but humans retain the final decision.</div>
 
         <div class="ov-label">Perseverance</div>
-        <div class="ov-cell reformed"><strong>Perseverance of the Saints</strong> — Those truly born again will persevere to the end. God preserves all whom He saves.</div>
+        <div class="ov-cell reformed"><strong>Perseverance of the Saints</strong> — Those truly <a href="/systematic-regeneration">born again</a> will persevere to the end. God preserves all whom He saves.</div>
         <div class="ov-cell arminian"><strong>Conditional Preservation</strong> — Believers can fall away from grace and lose their salvation through persistent unbelief or sin.</div>
     </div>
 </section>
@@ -252,14 +391,14 @@
         "If your faith is what saved you, who gave you that faith?"
     </p>
     <p style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 1rem; margin-bottom: 0;">
-        The Arminian system claims sinners freely choose God. But Scripture teaches that faith itself is a gift of God (Ephesians 2:8-9, Philippians 1:29).
+        The Arminian system claims sinners freely choose God. But Scripture teaches that faith itself is a gift of God (<a href="/question-faithgift">Ephesians 2</a>:8-9, Philippians 1:29).
         If you generated your own faith, you generated the very thing Scripture says was given to you. And whatever you generate, you can boast about. But
         Ephesians 2:9 cuts through the deception: "not a result of works, so that no one may boast." The moment faith becomes your contribution — your decision,
         your choice — it becomes a work, and works cannot save.
     </p>
 </div>
 
-<!-- ═══════════════ POINT 1: TOTAL DEPRAVITY ═══════════════ -->
+<!-- ═══════════════ POINT 1: <a href="/systematic-hamartiology">TOTAL DEPRAVITY</a> ═══════════════ -->
 <section class="point-section" id="total-depravity">
     <div class="point-header">
         <div class="point-badge">Point 1 of 5 — The T in TULIP</div>
@@ -270,7 +409,7 @@
     <div class="compare-grid">
         <div class="compare-card reformed">
             <div class="compare-card-label">Reformed Position</div>
-            <h3>Total Depravity</h3>
+            <h3>Total Depravity<a href="/systematic-hamartiology">Total Depravity</a>/h3>
             <p>
                 Since the Fall, every faculty of human nature is corrupted by sin. Man is not merely sick — he is
                 <em>spiritually dead</em> (Eph 2:1–3). He cannot see, understand, or desire the things of God unless
@@ -314,7 +453,7 @@
             <div class="proof-card arminian">
                 <div class="proof-ref">John 12:32</div>
                 <p class="proof-text">"And I, when I am lifted up from the earth, will draw all people to myself."</p>
-                <p class="proof-note">Arminians argue this shows a universal drawing, making prevenient grace available to all. However, the context (vv. 20–24) is the arrival of Greeks — Jesus is saying He will draw from all <em>nations</em>, not just Jews. The same Greek word <span style="color: var(--accent-violet);">ἑλκύσω</span> (helkysō) used in John 6:44 for effectual drawing appears here.</p>
+                <p class="proof-note">Arminians argue this shows a universal drawing, making prevenient grace available to all. However, the context (vv. 20–24) is the arrival of Greeks — Jesus is saying He will draw from all <em>nations</em>, not just Jews. The same Greek word <span style="color: var(--accent-violet);">ἑλκύσω</span> (helkysō) used in <a href="/question-john6">John 6</a>:44 for effectual drawing appears here.</p>
             </div>
         </div>
     </div>
@@ -323,16 +462,16 @@
         <h4>Exegetical Note — Where Is Prevenient Grace in the Text?</h4>
         <p>
             The Arminian system depends on the concept of universal prevenient grace — a grace given to every person
-            that restores libertarian free will. Yet no biblical text explicitly teaches that such a grace exists,
+            that restores libertarian <a href="/question-freewill">free will</a>. Yet no biblical text explicitly teaches that such a grace exists,
             that it is universal, or that it produces the specific effect claimed (restoration of the ability to
             believe). The concept is inferred from the premise that God commands all to repent (Acts 17:30),
             therefore He must enable all to repent. But this confuses <em>duty</em> with <em>ability</em> — a distinction
-            Reformed theology has carefully maintained since Augustine. God's commands reveal our obligation, not
+            Reformed theology has carefully maintained since <a href="/theologian-augustine">Augustine</a>. God's commands reveal our obligation, not
             our capacity.
         </p>
         <p>
-            By contrast, the Reformed understanding of effectual calling is explicitly taught: "Those whom he
-            predestined he also <em>called</em>, and those whom he called he also <em>justified</em>" (Rom 8:30).
+            By contrast, the Reformed understanding of <a href="/question-irresistible">effectual calling</a> is explicitly taught: "Those whom he
+            <a href="/question-chosen">predestined</a> he also <em>called</em>, and those whom he called he also <em>justified</em>" (Rom 8:30).
             The called = the justified. No one falls between the links of the golden chain.
         </p>
     </div>
@@ -349,7 +488,7 @@
     </div>
 </section>
 
-<!-- ═══════════════ POINT 2: UNCONDITIONAL ELECTION ═══════════════ -->
+<!-- ═══════════════ POINT 2: <a href="/systematic-election">UNCONDITIONAL ELECTION</a> ═══════════════ -->
 <section class="point-section" id="unconditional-election">
     <div class="point-header">
         <div class="point-badge">Point 2 of 5 — The U in TULIP</div>
@@ -375,7 +514,7 @@
             <p>
                 God, in His omniscience, looked down the corridor of time and foresaw who would freely choose to
                 believe in Christ. He then "elected" those individuals based on their foreseen faith. Election is
-                therefore conditional — conditioned upon the individual's decision to believe. God's sovereignty
+                therefore conditional — conditioned upon the individual's decision to believe. God's <a href="/question-sovereignty-logic">sovereignty</a>
                 is expressed in establishing the plan of salvation, while human free will determines who participates.
             </p>
         </div>
@@ -401,7 +540,7 @@
             </div>
             <div class="proof-card arminian">
                 <div class="proof-ref">Romans 8:29 / 1 Peter 1:1–2</div>
-                <p class="proof-text">"For those whom he foreknew he also predestined…" / "…according to the foreknowledge of God the Father…"</p>
+                <p class="proof-text">"For those whom he foreknew he also predestined…" / "…according to the <a href="/question-foreknowledge">foreknowledge</a> of God the Father…"</p>
                 <p class="proof-note">Arminians read "foreknew" as "foreseen faith." But biblical "foreknowledge" (Greek <span style="color: var(--accent-violet);">προέγνω</span>, proegnō) is relational, not merely cognitive. In Hebrew idiom, "to know" means to set covenant love upon (Gen 18:19; Amos 3:2; Jer 1:5). God foreknew <em>persons</em>, not their decisions. He set His love on them beforehand.</p>
             </div>
         </div>
@@ -424,7 +563,7 @@
     </div>
 </section>
 
-<!-- ═══════════════ POINT 3: LIMITED ATONEMENT ═══════════════ -->
+<!-- ═══════════════ POINT 3: <a href="/systematic-atonement">LIMITED ATONEMENT</a> ═══════════════ -->
 <section class="point-section" id="limited-atonement">
     <div class="point-header">
         <div class="point-badge">Point 3 of 5 — The L in TULIP</div>
@@ -440,7 +579,7 @@
                 Christ's death was designed by the Father, executed by the Son, and applied by the Spirit to
                 secure the salvation of the elect. Jesus did not merely make salvation <em>possible</em> — He
                 actually <em>achieved</em> it. He bore the sins of His people (Isa 53:12), purchased His church
-                (Acts 20:28), and laid down His life for His sheep (John 10:15). Both systems "limit" the atonement:
+                (Acts 20:28), and laid down His life for His sheep (<a href="/question-john10">John 10</a>:15). Both systems "limit" the atonement:
                 Arminians limit its <em>power</em> (it saves no one certainly); Calvinists limit its <em>scope</em>
                 (it saves the elect certainly). The question is whether the cross actually saves, or merely opens a door.
             </p>
@@ -495,7 +634,7 @@
         </p>
         <p>
             The Reformed view maintains the infinite value and actual efficacy of the cross: Christ's blood
-            accomplishes everything it was designed to accomplish. As John Owen memorably argued: Christ died
+            accomplishes everything it was designed to accomplish. As <a href="/theologian-owen">John Owen</a> memorably argued: Christ died
             for either (1) all the sins of all people, (2) some sins of all people, or (3) all the sins of some
             people. If (1), all are saved. If (2), no one is saved. Only (3) is consistent with Scripture's
             teaching that some are saved and others are not.
@@ -513,7 +652,7 @@
     </div>
 </section>
 
-<!-- ═══════════════ POINT 4: IRRESISTIBLE GRACE ═══════════════ -->
+<!-- ═══════════════ POINT 4: <a href="/question-irresistible">IRRESISTIBLE GRACE</a> ═══════════════ -->
 <section class="point-section" id="irresistible-grace">
     <div class="point-header">
         <div class="point-badge">Point 4 of 5 — The I in TULIP</div>
@@ -633,7 +772,7 @@
             <div class="proof-card reformed">
                 <div class="proof-ref">Romans 8:28–30</div>
                 <p class="proof-text">"And we know that for those who love God all things work together for good… For those whom he foreknew he also predestined… and those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified."</p>
-                <p class="proof-note">The golden chain of salvation is unbreakable. Every link holds: foreknown → predestined → called → justified → <em>glorified</em>. Paul writes "glorified" in the past tense — it is so certain it can be spoken of as already accomplished. No one drops out between justification and glorification.</p>
+                <p class="proof-note">The golden chain of salvation is unbreakable. Every link holds: foreknown → predestined → called → justified → <em>glorified</em>. Paul writes "glorified" in the past tense — it is so certain it can be spoken of as already accomplished. No one drops out between <a href="/systematic-justification">justification</a> and glorification.</p>
             </div>
             <div class="proof-card reformed">
                 <div class="proof-ref">Philippians 1:6</div>
@@ -666,7 +805,7 @@
         For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come,
         nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from
         the love of God in Christ Jesus our Lord."
-        <span class="scripture-ref">— Romans 8:35–39 (ESV)</span>
+        <span class="scripture-ref">— <a href="/question-goldchain">Romans 8</a>:35–39 (ESV)</span>
     </div>
 
     <div class="verdict">
@@ -730,7 +869,7 @@
                 <div class="cross-link-title">Is Faith a Gift?</div>
                 <div class="cross-link-desc">The question that exposes works-righteousness hidden in the Arminian system</div>
             </a>
-            <a href="/compare-monergism-synergism" class="cross-link">
+            <a href="/compare-<a href="/compare-monergism-<a href="/compare-monergism-synergism">synergism</a>">monergism</a>-synergism" class="cross-link">
                 <div class="cross-link-label">Comparison</div>
                 <div class="cross-link-title">Monergism vs. Synergism</div>
                 <div class="cross-link-desc">One power saves, or two working together? The foundational divide</div>
@@ -806,12 +945,12 @@
       </a>
       <a href="/scripture-tsunami" class="related-article-card">
         <span class="related-article-cat">📄 General</span>
-        <span class="related-article-title">500+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
+        <span class="related-article-title">480+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
         <span class="related-article-desc">They told you</span>
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>

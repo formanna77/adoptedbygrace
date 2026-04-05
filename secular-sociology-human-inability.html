@@ -40,6 +40,132 @@
     
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        .study-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .study-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-ember), var(--accent-violet));
+        }
+        .study-card .study-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.68rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: var(--accent-ember);
+            margin-bottom: 0.5rem;
+        }
+        .study-card h4 {
+            color: var(--text-primary);
+            margin-bottom: 0.8rem;
+            font-size: 1.15rem;
+        }
+        .study-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.8;
+            margin-bottom: 0;
+        }
+        .study-card .scripture-echo {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-subtle);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.78rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.05em;
+        }
+        .stat-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2.5rem 0;
+        }
+        .stat-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 1.8rem;
+            text-align: center;
+        }
+        .stat-box .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .stat-box .stat-desc {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+        .verdict-box {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.06));
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin: 3rem 0;
+            text-align: center;
+        }
+        .verdict-box h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: var(--accent-gold);
+        }
+        .verdict-box p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.8;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .humor-bar {
+            text-align: center;
+            padding: 3rem 2rem;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+        .humor-bar em { color: var(--accent-gold); font-style: normal; }
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 968px) {
+            .page-header h1, h1 { font-size: 2rem; }
+            .page-header p, .page-intro { font-size: 1rem; }
+            .content-wrapper, .article-content, .main-content { padding: 0 1.5rem; }
+            .card-grid, .grid { grid-template-columns: 1fr; }
+            .footer-container { grid-template-columns: 1fr; text-align: center; }
+        }
+        @media (max-width: 480px) {
+            .page-header h1, h1 { font-size: 1.6rem; }
+            h2 { font-size: 1.3rem; }
+            .page-header { padding: 5rem 1rem 2rem; }
+            .content-wrapper, .article-content, .main-content { padding: 0 1rem; }
+            blockquote { padding: 1rem; margin: 1rem 0; }
+        }
+
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -527,7 +653,7 @@
     </div>
     <div class="related-articles-browse">
       <a href="/secular-evidence" class="related-browse-link">All Secular Evidence Articles →</a>
-      <a href="/all-content" class="related-browse-link">Browse All 230+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
     </div>
   </div>
 </section>

@@ -1,0 +1,178 @@
+================================================================================
+AUDIT ISSUES BY PAGE - Detailed Inventory
+adoptedbygrace.net | 2026-04-04
+================================================================================
+
+KEY
+---
+[M] = Missing nav tag (CRITICAL)
+[C] = Missing global.css link (HIGH)
+[J] = Missing nav.js script (HIGH)
+[T] = Footer using "Doctrine" instead of "Truth" (MEDIUM)
+
+================================================================================
+PAGES WITH MULTIPLE ISSUES (5 pages)
+================================================================================
+
+apologetic-definite-atonement.html
+  [M] Missing <nav> tag
+
+demolition-1john2-2.html
+  [C] Missing global.css link
+  [T] Footer using "Doctrine" instead of "Truth"
+
+demolition-joshua24-15.html
+  [T] Footer using "Doctrine" instead of "Truth"
+
+demolition-orthodox-predestination.html
+  [T] Footer using "Doctrine" instead of "Truth"
+
+ot-abel-cain.html
+  [C] Missing global.css link
+  [T] Footer using "Doctrine" instead of "Truth"
+
+ot-jeremiah.html
+  [C] Missing global.css link
+  [T] Footer using "Doctrine" instead of "Truth"
+
+================================================================================
+PAGES WITH SINGLE ISSUES BY CATEGORY
+================================================================================
+
+MISSING NAV TAG [M] — 15 additional pages
+================================================================================
+demolition-1cor15-22.html
+demolition-1tim2-4.html
+demolition-2peter2-1.html
+demolition-acts7-51.html
+demolition-hebrews6-4-6.html
+demolition-romans10-9.html
+devotional-dead-who-live.html
+devotional-love-before-the-world.html
+devotional-when-god-says-no.html
+donate.html
+ot-david.html
+ot-israel-chosen.html
+ot-jacob-esau.html
+ot-moses-pharaoh.html
+question-cannot.html
+
+MISSING GLOBAL.CSS LINK [C] — 13 additional pages
+================================================================================
+apologetic-perseverance.html
+apologetic-unreached.html
+demolition-ezekiel18-23.html
+demolition-john12-32.html
+devotional-not-my-will-but-joy.html
+devotional-rescued-without-a-say.html
+objection-author-of-sin.html
+objection-why-command.html
+ot-election.html
+ot-joseph.html
+question-2tim1-9.html
+question-john17.html
+question-revelation13.html
+question-titus3.html
+start-here-assessment.html
+theologian-whitefield.html
+
+MISSING NAV.JS SCRIPT [J] — 1 page
+================================================================================
+broken-mirror-sin-you-repeat.html
+
+FOOTER TERMINOLOGY ISSUE [T] — 5 additional pages
+================================================================================
+compare-calvinism-arminianism.html
+demolition-arminian-facts.html
+history-calvin-geneva.html
+psychology-autonomy-illusion.html
+question-1john5-1.html
+
+================================================================================
+ISSUE STATISTICS
+================================================================================
+
+By Issue Type:
+  Missing <nav> tag:         16 pages (CRITICAL)
+  Missing global.css link:   19 pages (HIGH)
+  Missing nav.js script:      1 page  (HIGH)
+  Wrong footer terminology:  10 pages (MEDIUM)
+
+Total unique pages with issues: 46 pages
+Total issue instances: 46
+
+By Category:
+  Demolition articles: 8 issues (multiple with [M])
+  OT articles:        5 issues (multiple with [C] or [T])
+  Devotional articles: 4 issues (multiple with [M])
+  Question articles:   4 issues (multiple with [C] or [T])
+  Apologetic articles: 2 issues (1 [M], 2 [C])
+  Other:               3 issues ([J], [C], footer [T])
+  Compare/History:     4 issues (all footer [T])
+  Objection/Pastoral:  3 issues
+
+================================================================================
+REPAIR CHECKLIST
+================================================================================
+
+CRITICAL (16 pages) — Add missing <nav>
+------------------------------------
+□ apologetic-definite-atonement.html
+□ demolition-1cor15-22.html
+□ demolition-1tim2-4.html
+□ demolition-2peter2-1.html
+□ demolition-acts7-51.html
+□ demolition-hebrews6-4-6.html
+□ demolition-romans10-9.html
+□ devotional-dead-who-live.html [STUB PAGE - verify content exists]
+□ devotional-love-before-the-world.html
+□ devotional-when-god-says-no.html
+□ donate.html
+□ ot-david.html
+□ ot-israel-chosen.html
+□ ot-jacob-esau.html
+□ ot-moses-pharaoh.html
+□ question-cannot.html
+
+After all repairs: Run build-search-index.js and build-mega-menu.js
+
+HIGH (19 pages) — Add missing <link rel="stylesheet" href="/global.css">
+--------
+□ apologetic-perseverance.html
+□ apologetic-unreached.html
+□ demolition-1john2-2.html
+□ demolition-ezekiel18-23.html
+□ demolition-john12-32.html
+□ devotional-not-my-will-but-joy.html
+□ devotional-rescued-without-a-say.html
+□ objection-author-of-sin.html
+□ objection-why-command.html
+□ ot-abel-cain.html
+□ ot-election.html
+□ ot-jeremiah.html
+□ ot-joseph.html
+□ question-2tim1-9.html
+□ question-john17.html
+□ question-revelation13.html
+□ question-titus3.html
+□ start-here-assessment.html
+□ theologian-whitefield.html
+
+HIGH (1 page) — Add missing <script src="/nav.js"></script>
+------
+□ broken-mirror-sin-you-repeat.html
+
+MEDIUM (10 pages) — Fix footer terminology (Doctrine → Truth)
+--------
+□ compare-calvinism-arminianism.html
+□ demolition-arminian-facts.html
+□ demolition-joshua24-15.html
+□ demolition-orthodox-predestination.html
+□ history-calvin-geneva.html
+□ ot-abel-cain.html
+□ ot-jeremiah.html
+□ ot-noah.html
+□ psychology-autonomy-illusion.html
+□ question-1john5-1.html
+
+================================================================================

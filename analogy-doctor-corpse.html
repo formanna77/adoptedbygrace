@@ -38,6 +38,336 @@
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        .hero-section {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            padding: 6rem 2rem;
+            text-align: center;
+            border-bottom: 3px solid #d4a254;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 50%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero-section h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: #d4a254;
+            margin: 0 0 1.5rem 0;
+            line-height: 1.1;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero-section .verse-reference {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            color: #ccc;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+
+        .hero-section .verse-box {
+            background: rgba(212, 175, 55, 0.1);
+            border-left: 4px solid #d4a254;
+            padding: 1.5rem;
+            margin: 2rem auto;
+            max-width: 700px;
+            text-align: left;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+
+        .content-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 2rem;
+            background: #0f0f0f;
+            border-radius: 8px;
+            border-left: 4px solid #d4a254;
+        }
+
+        .content-section.reveal {
+            opacity: 1;
+            animation: slideUp 0.8s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .content-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: #d4a254;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-section h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.3rem;
+            color: #d4a254;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-section p {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #d0d0d0;
+            margin: 1.2rem 0;
+        }
+
+        .content-section ul, .content-section ol {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #d0d0d0;
+            margin: 1.5rem 0;
+            padding-left: 2rem;
+        }
+
+        .content-section li {
+            margin: 0.8rem 0;
+        }
+
+        blockquote {
+            background: rgba(212, 175, 55, 0.08);
+            border-left: 4px solid #d4a254;
+            padding: 1.5rem 1.5rem 1.5rem 2rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #c0c0c0;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            display: block;
+            text-align: right;
+            font-style: normal;
+            color: #999;
+            font-size: 0.95rem;
+            margin-top: 0.8rem;
+        }
+
+        .humor-note {
+            background: rgba(212, 175, 55, 0.05);
+            border-radius: 6px;
+            padding: 1rem 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #a0a0a0;
+            border-left: 3px solid #d4a254;
+        }
+
+        .objection-box {
+            background: rgba(232, 100, 44, 0.08);
+            border-left: 4px solid #e8642c;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 6px;
+        }
+
+        .objection-box strong {
+            color: #e8642c;
+        }
+
+        .answer-box {
+            background: rgba(212, 175, 55, 0.08);
+            border-left: 4px solid #d4a254;
+            padding: 1.5rem;
+            margin: 1.5rem 0 2rem 0;
+            border-radius: 6px;
+        }
+
+        .sidebar {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 2rem;
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+            border: 1px solid #d4a254;
+            border-radius: 8px;
+        }
+
+        .sidebar h3 {
+            font-family: 'Playfair Display', serif;
+            color: #d4a254;
+            margin-top: 0;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin: 0.8rem 0;
+        }
+
+        .sidebar a {
+            color: #d4a254;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .sidebar a:hover {
+            color: #fff;
+        }
+
+        .emphasis {
+            color: #d4a254;
+            font-weight: 600;
+        }
+
+        .closing-line {
+            text-align: center;
+            font-style: italic;
+            color: #a0a0a0;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #d4a254;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 2.2rem;
+            }
+
+            .content-section {
+                margin: 2rem 1rem;
+                padding: 1.5rem;
+            }
+
+            .content-section h2 {
+                font-size: 1.8rem;
+            }
+        }
+        .keep-reading-section {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 3rem 2rem;
+        }
+
+        .keep-reading-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: #d4a254;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .keep-reading-subtitle {
+            text-align: center;
+            color: #a0a0a0;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+
+        .keep-reading-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .keep-reading-card {
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, rgba(15, 15, 15, 0.8), rgba(26, 26, 26, 0.6));
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-decoration: none;
+            color: #d0d0d0;
+            transition: all 0.3s ease;
+            gap: 0.75rem;
+        }
+
+        .keep-reading-card:hover {
+            border-color: #d4a254;
+            background: linear-gradient(135deg, rgba(15, 15, 15, 1), rgba(26, 26, 26, 0.8));
+            box-shadow: 0 8px 24px rgba(212, 175, 55, 0.15);
+        }
+
+        .keep-reading-category {
+            display: block;
+            font-size: 0.85rem;
+            color: #999;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .keep-reading-title {
+            display: block;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            color: #d4a254;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .keep-reading-card:hover .keep-reading-title {
+            color: #e8a866;
+        }
+
+        .keep-reading-preview {
+            display: block;
+            font-size: 0.95rem;
+            color: #a0a0a0;
+            line-height: 1.6;
+            margin-top: 0.5rem;
+        }
+
+        .never-gives-up-banner { max-width: 900px; margin: 3rem auto; background: linear-gradient(135deg, rgba(212,162,84,0.1), rgba(139,92,246,0.1)); border: 1px solid rgba(212,162,84,0.2); border-radius: 12px; padding: 2rem; text-align: center; }
+        .never-gives-up-banner a { color: #d4a254; text-decoration: none; font-family: 'Playfair Display', serif; font-size: 1.3rem; }
+        .never-gives-up-banner a:hover { color: #e8642c; }
+        .never-gives-up-banner p { color: #a0a0a0; font-size: 0.9rem; margin-top: 0.5rem; margin-bottom: 0; }
+
+        .witnesses-section { max-width: 900px; margin: 4rem auto; padding: 2rem; }
+        .witnesses-section h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: #d4a254; margin-top: 0; margin-bottom: 1.5rem; text-align: center; }
+        .witness-quote { background: rgba(212, 175, 55, 0.05); border-left: 3px solid rgba(212, 175, 55, 0.3); padding: 1.2rem 1.5rem; margin: 1.5rem 0; border-radius: 0 6px 6px 0; }
+        .witness-quote p { font-style: italic; color: #c0c0c0; font-size: 1.05rem; line-height: 1.8; margin: 0; }
+        .witness-quote .witness-attr { font-style: normal; display: block; text-align: right; color: #999; font-size: 0.9rem; margin-top: 0.8rem; }
+
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to main content</a>
@@ -148,7 +478,7 @@
                 <div class="verse-box">
                     <blockquote>
                         And you were dead in the trespasses and sins in which you once walked, following the course of this world, following the prince of the power of the air, the spirit that is now at work in the sons of disobedience— among whom we all once lived in the passions of our flesh, carrying out the desires of the body and the mind, and were by nature children of wrath, like the rest of mankind. But God, being rich in mercy, because of the great love with which he loved us, even when we were dead in our trespasses, made us alive together with Christ.
-                        <span class="scripture-ref">— Ephesians 2:1-5 (ESV)</span>
+                        <span class="scripture-ref">— <a href="/question-faithgift">Ephesians 2</a>:1-5 (ESV)</span>
                     </blockquote>
                 </div>
             </div>
@@ -194,7 +524,7 @@
         <section class="content-section reveal">
             <h2>What the Corpse Cannot Do</h2>
             <p>
-                Scripture teaches that human beings, in their natural state—separated from God—are spiritually dead. Not sick. Not wounded. Not asleep. Dead. And a dead person cannot do the things a living person can do. This is what theologians call <a href="/question-depravity.html" style="color: #d4a254; text-decoration: underline;">total depravity</a>—not that you're as bad as you could be, but that sin has corrupted every part of your being, leaving you incapable of reaching toward God.
+                Scripture teaches that human beings, in their natural state—separated from God—are spiritually dead. Not sick. Not wounded. Not asleep. Dead. And a dead person cannot do the things a living person can do. This is what theologians call <a href="/question-<a href="/question-depravity">depravity</a>.html" style="color: #d4a254; text-decoration: underline;">total depravity</a>—not that you're as bad as you could be, but that sin has corrupted every part of your being, leaving you incapable of reaching toward God.
             </p>
 
             <h3>The Corpse Cannot Hear</h3>
@@ -215,7 +545,7 @@
             </p>
             <blockquote>
                 No one can come to me unless the Father who sent me draws him.
-                <span class="scripture-ref">— John 6:44 (ESV)</span>
+                <span class="scripture-ref">— <a href="/question-john6">John 6</a>:44 (ESV)</span>
             </blockquote>
             <p>
                 "Draws" here isn't gentle persuasion. It's the word used for dragging a net through the sea, for pulling something from death itself. Without this divine action, the dead person cannot move toward God. They are paralyzed by sin, held fast by rebellion, incapable of the first step toward repentance.
@@ -261,7 +591,7 @@
 
             <blockquote style="border-left-color: #d4a254; background: rgba(212, 175, 55, 0.08);">
                 The natural man cannot see, cannot relish, cannot choose the things of God, not from want of power to see, but from a fundamental opposition of the will. The heart is set against God. This is not a weakness—it is a slavery. And the slave cannot free himself.
-                <span class="scripture-ref">— Jonathan Edwards, <em>Religious Affections</em></span>
+                <span class="scripture-ref">— <a href="/theologian-<a href="/theologian-edwards">edwards</a>">Jonathan Edwards</a>, <em>Religious Affections</em></span>
             </blockquote>
             </div>
 
@@ -272,7 +602,7 @@
             </div>
 
             <div class="humor-note">
-                <strong>Theologically speaking:</strong> This doctrine was definitely predestined to make your self-esteem uncomfortable. But it wasn't predestined to leave you hopeless—because the Doctor doesn't need your permission to work a miracle.
+                <strong>Theologically speaking:</strong> This doctrine was definitely <a href="/question-chosen">predestined</a> to make your self-esteem uncomfortable. But it wasn't predestined to leave you hopeless—because the Doctor doesn't need your permission to work a miracle.
             </div>
         </section>
 
@@ -283,7 +613,7 @@
                 If salvation depended on a dead person's response, no one would be saved. Think about that. The corpse cannot respond. The corpse cannot initiate. The corpse cannot move toward life. Therefore, <span class="emphasis">the doctor must act unilaterally. He must take the initiative completely. He must perform the miracle alone.</span>
             </p>
             <p>
-                This is the work of <span class="emphasis"><a href="/systematic-regeneration.html" style="color: #d4a254; text-decoration: underline;">regeneration</a></span>—God's sovereign act that precedes and produces faith. God doesn't wait for you to choose life. He makes you alive first. Then, in making you alive, He enables your choice. The resurrection comes before the response. The resurrection creates the capacity for faith.
+                This is the work of <span class="emphasis"><a href="/systematic-<a href="/systematic-regeneration">regeneration</a>.html" style="color: #d4a254; text-decoration: underline;">regeneration</a></span>—God's <a href="/question-sovereignty-logic">sovereign</a> act that precedes and produces faith. God doesn't wait for you to choose life. He makes you alive first. Then, in making you alive, He enables your choice. The resurrection comes before the response. The resurrection creates the capacity for faith.
             </p>
 
             <h3>God Acts Alone</h3>
@@ -303,7 +633,7 @@
                 Jesus made this shockingly clear:
             </p>
             <blockquote>
-                Jesus answered, "Truly, truly, I say to you, unless one is born again he cannot see the kingdom of God."
+                Jesus answered, "Truly, truly, I say to you, unless one is <a href="/systematic-regeneration">born again</a> he cannot see the kingdom of God."
                 <span class="scripture-ref">— John 3:3 (ESV)</span>
             </blockquote>
             <p>
@@ -417,7 +747,7 @@
 
             <blockquote>
                 A man who has been saved understands that salvation is not his own work, and therefore he feels no pride in it. A man who has been raised from the dead by almighty power will glory not in himself but in the power that raised him. This is love purified—love that springs from knowing you have been chosen, not because you were worth choosing, but because you were utterly unworthy.
-                <span class="scripture-ref">— Charles Spurgeon (adapted)</span>
+                <span class="scripture-ref">— Charles <a href="/theologian-spurgeon">Spurgeon</a> (adapted)</span>
             </blockquote>
 
             <h3>This Assures You of Your Future</h3>
@@ -464,14 +794,14 @@
             <h2>Voices Across the Centuries</h2>
             <div class="witness-quote">
                 <p>&ldquo;The dead whom Christ raises are not merely those who have been dead four days, like Lazarus, or who have just died, like the ruler&rsquo;s daughter. They are those who have been dead from the womb &mdash; dead in a death that antedates their birth.&rdquo;</p>
-                <span class="witness-attr">&mdash; Augustine, <em>On the Predestination of the Saints</em>, Ch. 11</span>
+                <span class="witness-attr">&mdash; <a href="/theologian-augustine">Augustine</a>, <em>On the Predestination of the Saints</em>, Ch. 11</span>
             </div>
             <div class="witness-quote">
                 <p>&ldquo;A dead man cannot even assist in his own resurrection. You might stand at the door of the sepulchre and call until your voice was hoarse, but the dead cannot come forth unless the power of God accompanies your cry.&rdquo;</p>
                 <span class="witness-attr">&mdash; Charles Spurgeon, &ldquo;Human Inability,&rdquo; Sermon No. 182</span>
             </div>
             <div class="witness-quote">
-                <p>&ldquo;We are not at all helped by free will, but are altogether helped by grace. Free will can do nothing but sin. Grace comes that the will may be healed &mdash; grace comes that what is commanded may be done.&rdquo;</p>
+                <p>&ldquo;We are not at all helped by <a href="/question-freewill">free will</a>, but are altogether helped by grace. Free will can do nothing but sin. Grace comes that the will may be healed &mdash; grace comes that what is commanded may be done.&rdquo;</p>
                 <span class="witness-attr">&mdash; Augustine, <em>On Rebuke and Grace</em>, Ch. 2</span>
             </div>
         </div>
@@ -516,10 +846,10 @@
             <ul>
                 <li><a href="/question-depravity">Total Depravity: What Scripture Really Teaches</a> — The condition that makes resurrection necessary</li>
                 <li><a href="/systematic-regeneration">Regeneration Explained: God's Act Alone</a> — How God alone makes the dead alive</li>
-                <li><a href="/question-irresistible">What is Irresistible Grace?</a> — Why God's call cannot be resisted by the dead</li>
+                <li><a href="/question-irresistible">What is <a href="/question-irresistible">Irresistible Grace</a>?</a> — Why God's call cannot be resisted by the dead</li>
                 <li><a href="/question-john6">Can I Choose God? (John 6:44 Explained)</a> — "No one can come unless the Father draws"</li>
                 <li><a href="/analogy-lazarus-grave">The Lazarus Analogy: Dead Four Days</a> — Another portrait of resurrection power</li>
-                <li><a href="/question-where-did-your-faith-come-from">The Crown Jewel: Why Rejecting Election Is Rejecting Grace</a> — The most essential argument on this site</li>
+                <li><a href="/question-where-did-your-faith-come-from">The Crown Jewel: Why Rejecting <a href="/systematic-election">Election</a> Is Rejecting Grace</a> — The most essential argument on this site</li>
                 <li><a href="/devotional-my-chains-fell-away">Devotional: The Dead Who Lived</a> — Comfort for those awakened by grace</li>
             </ul>
         </aside>
@@ -570,7 +900,7 @@
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>

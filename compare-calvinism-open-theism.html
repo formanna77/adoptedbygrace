@@ -35,6 +35,119 @@
     
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-deep: #0a0a0f; --bg-card: #12121a; --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254; --accent-ember: #e8642c; --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4; --text-secondary: #9a958c; --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+            --reformed-bg: rgba(212, 162, 84, 0.06); --reformed-border: rgba(212, 162, 84, 0.25);
+            --opposing-bg: rgba(154, 149, 140, 0.04); --opposing-border: rgba(154, 149, 140, 0.15);
+        }
+        body { background-color: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.8; overflow-x: hidden; }
+        .section-nav-inner { max-width: 1200px; width: 100%; margin: 0 auto; display: flex; gap: 1.5rem; overflow-x: auto; }
+        .section-
+        .section-
+
+        .hero { max-width: 900px; margin: 0 auto; padding: 4rem 2rem 2rem; text-align: center; }
+        .hero-label { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+        .hero-label::before, .hero-label::after { content: ''; display: inline-block; width: 30px; height: 2px; background: var(--accent-ember); }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 800; margin-bottom: 1.5rem; line-height: 1.15; }
+        .hero h1 .gold { color: var(--accent-gold); }
+        .hero h1 .muted { color: var(--text-secondary); }
+        .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto; line-height: 1.8; }
+
+        .overview-table { max-width: 1000px; margin: 3rem auto; padding: 0 2rem; }
+        .overview-table h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); text-align: center; margin-bottom: 2rem; }
+        .ov-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 0; border: 1px solid var(--border-subtle); border-radius: 8px; overflow: hidden; }
+        .ov-header { background: var(--bg-card); padding: 1rem 1.25rem; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); border-bottom: 1px solid var(--border-subtle); }
+        .ov-header.reformed { color: var(--accent-gold); }
+        .ov-header.opentheist { color: var(--text-secondary); }
+        .ov-label { padding: 1rem 1.25rem; font-weight: 600; font-size: 0.95rem; border-bottom: 1px solid var(--border-subtle); background: var(--bg-card); }
+        .ov-cell { padding: 1rem 1.25rem; font-size: 0.9rem; line-height: 1.6; border-bottom: 1px solid var(--border-subtle); }
+        .ov-cell.reformed { background: var(--reformed-bg); color: var(--text-primary); }
+        .ov-cell.opentheist { background: var(--opposing-bg); color: var(--text-secondary); }
+
+        .content { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+
+        .point-section { margin: 5rem 0; }
+        .point-header { margin-bottom: 2.5rem; }
+        .point-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--accent-ember); margin-bottom: 0.75rem; }
+        .point-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.75rem; line-height: 1.2; }
+        .point-subtitle { color: var(--text-secondary); font-size: 1rem; }
+
+        .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0; }
+        .compare-card { background: var(--bg-card); border-radius: 8px; padding: 2rem; border: 1px solid var(--border-subtle); }
+        .compare-card.reformed { border-left: 4px solid var(--accent-gold); background: var(--reformed-bg); }
+        .compare-card.opentheist { border-left: 4px solid var(--text-muted); background: var(--opposing-bg); }
+        .compare-card-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.75rem; }
+        .compare-card.reformed .compare-card-label { color: var(--accent-gold); }
+        .compare-card.opentheist .compare-card-label { color: var(--text-muted); }
+        .compare-card h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 1rem; }
+        .compare-card.reformed h3 { color: var(--accent-gold); }
+        .compare-card.opentheist h3 { color: var(--text-secondary); }
+        .compare-card p { font-size: 0.92rem; line-height: 1.75; color: var(--text-secondary); }
+        .compare-card.reformed p { color: var(--text-primary); }
+
+        .proof-texts { margin: 2rem 0; }
+        .proof-texts h4 { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent-ember); margin-bottom: 1rem; }
+        .proof-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .proof-card { background: var(--bg-card); border-radius: 6px; padding: 1.25rem; border: 1px solid var(--border-subtle); }
+        .proof-card.reformed { border-top: 3px solid var(--accent-gold); }
+        .proof-card.opentheist { border-top: 3px solid var(--text-muted); }
+        .proof-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+        .proof-card.opentheist .proof-ref { color: var(--text-muted); }
+        .proof-text { font-size: 0.88rem; line-height: 1.7; color: var(--text-secondary); font-style: italic; margin-bottom: 0.75rem; }
+        .proof-note { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; border-top: 1px solid var(--border-subtle); padding-top: 0.75rem; }
+        .proof-card.reformed .proof-note { color: var(--text-secondary); }
+
+        .scripture-block { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2.5rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
+        .scripture-ref { display: block; margin-top: 0.75rem; font-style: normal; color: var(--text-muted); font-size: 0.85rem; font-family: 'JetBrains Mono', monospace; }
+
+        .verdict { background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(232, 100, 44, 0.05)); border: 1px solid var(--reformed-border); border-radius: 8px; padding: 2rem; margin: 2rem 0; }
+        .verdict-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--accent-gold); margin-bottom: 0.75rem; }
+        .verdict p { font-size: 0.95rem; line-height: 1.8; color: var(--text-primary); }
+
+        .exegetical { margin: 2rem 0; padding: 1.5rem; background: var(--bg-card); border-radius: 6px; border: 1px solid var(--border-subtle); }
+        .exegetical h4 { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent-violet); margin-bottom: 1rem; }
+        .exegetical p { font-size: 0.9rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 0.75rem; }
+
+        .cross-links { margin: 4rem 0 2rem; padding: 2rem; background: var(--bg-card); border-radius: 8px; border: 1px solid var(--border-subtle); }
+        .cross-links h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 1.5rem; text-align: center; }
+        .cross-link-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; }
+        .cross-link { display: block; padding: 1rem; background: var(--bg-deep); border: 1px solid var(--border-subtle); border-radius: 6px; text-decoration: none; transition: all 0.3s; }
+        .cross-link:hover { border-color: var(--accent-gold); transform: translateY(-2px); }
+        .cross-link-label { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent-ember); margin-bottom: 0.3rem; }
+        .cross-link-title { font-size: 0.92rem; color: var(--text-primary); font-weight: 600; }
+        .cross-link-desc { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.3rem; }
+
+        footer { background: var(--bg-card); border-top: 1px solid var(--border-subtle); padding: 3rem 2rem; margin-top: 5rem; }
+        .footer-container { max-width: 1200px; width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; text-align: center; }
+        .footer-section h4 { color: var(--accent-gold); margin-bottom: 1rem; font-family: 'Playfair Display', serif; }
+        .footer-section ul { list-style: none; }
+        .footer-section li { margin-bottom: 0.5rem; }
+        .footer-section a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
+        .footer-section a:hover { color: var(--accent-gold); }
+        .footer-bottom { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: 0.8rem; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .compare-grid { grid-template-columns: 1fr; }
+            .proof-grid { grid-template-columns: 1fr; }
+            .ov-grid { grid-template-columns: 1fr; }
+            .ov-header:first-child, .ov-label { display: none; }
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .content { padding: 0 1rem; }
+            footer { margin-top: 2rem; padding: 1.5rem 1rem; }
+        }
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -139,7 +252,7 @@
     <div class="section-nav-inner">
         <a href="#overview">Overview</a>
         <a href="#omniscience">Omniscience</a>
-        <a href="#foreknowledge">Foreknowledge</a>
+        <a href="#<a href="/question-foreknowledge">foreknowledge</a>">Foreknowledge</a>
         <a href="#providence">Providence</a>
         <a href="#prayer">Prayer</a>
         <a href="#prophecy">Prophecy</a>
@@ -238,7 +351,7 @@
             <div class="proof-card reformed">
                 <div class="proof-ref">Acts 2:23</div>
                 <p class="proof-text">"This Jesus, delivered up according to the definite plan and foreknowledge of God, you crucified and killed by the hands of lawless men."</p>
-                <p class="proof-note">The most evil act in history — the murder of the Son of God — was according to God's "definite plan" (Greek: <span style="color: var(--accent-violet);">ὡρισμένῃ βουλῇ</span>, "determined counsel"). If this event was foreknown and foreordained, what event could possibly fall outside God's sovereign plan?</p>
+                <p class="proof-note">The most evil act in history — the murder of the Son of God — was according to God's "definite plan" (Greek: <span style="color: var(--accent-violet);">ὡρισμένῃ βουλῇ</span>, "determined counsel"). If this event was foreknown and foreordained, what event could possibly fall outside God's <a href="/question-sovereignty-logic">sovereign</a> plan?</p>
             </div>
             <div class="proof-card opentheist">
                 <div class="proof-ref">Genesis 22:12</div>
@@ -315,13 +428,13 @@
         <div class="proof-grid">
             <div class="proof-card reformed">
                 <div class="proof-ref">Romans 8:29–30</div>
-                <p class="proof-text">"For those whom he foreknew he also predestined to be conformed to the image of his Son… And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified."</p>
+                <p class="proof-text">"For those whom he foreknew he also <a href="/question-chosen">predestined</a> to be conformed to the image of his Son… And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified."</p>
                 <p class="proof-note">The "golden chain" begins with foreknowledge and ends in glory — with no link broken. Note: God foreknew <em>persons</em> ("those whom"), not <em>facts</em> about persons. This is relational foreknowledge — God setting His love on specific individuals before time, not merely knowing what they would do.</p>
             </div>
             <div class="proof-card reformed">
                 <div class="proof-ref">1 Peter 1:1–2</div>
                 <p class="proof-text">"…elect exiles… according to the foreknowledge of God the Father, in the sanctification of the Spirit, for obedience to Jesus Christ."</p>
-                <p class="proof-note">Election is "according to" foreknowledge — foreknowledge is the basis of election, not a reaction to foreseen human choices. Peter attributes the entire Trinitarian work of salvation to God's prior knowledge/love.</p>
+                <p class="proof-note">Election is "according to" foreknowledge — foreknowledge is the basis of <a href="/systematic-election">election</a>, not a reaction to foreseen human choices. Peter attributes the entire Trinitarian work of salvation to God's prior knowledge/love.</p>
             </div>
             <div class="proof-card reformed">
                 <div class="proof-ref">Amos 3:2</div>
@@ -361,7 +474,7 @@
             <div class="compare-card-label">Classical / Reformed Position</div>
             <h3>God Ordains Whatsoever Comes to Pass</h3>
             <p>
-                Scripture teaches that God's sovereignty extends to every detail of creation — from the fall of a sparrow
+                Scripture teaches that God's <a href="/question-sovereignty-logic">sovereignty</a> extends to every detail of creation — from the fall of a sparrow
                 (Matt 10:29) to the roll of dice (Prov 16:33) to the decisions of kings (Prov 21:1). This is not deism
                 with occasional interventions; it is the continuous, meticulous governance of a God who "works all things
                 according to the counsel of his will" (Eph 1:11). God is not a CEO who delegates and hopes for the best.
@@ -386,7 +499,7 @@
             <div class="proof-card reformed">
                 <div class="proof-ref">Ephesians 1:11</div>
                 <p class="proof-text">"In him we have obtained an inheritance, having been predestined according to the purpose of him who works all things according to the counsel of his will."</p>
-                <p class="proof-note">"All things" — <span style="color: var(--accent-violet);">τὰ πάντα</span> (ta panta). Not "some things," not "big things," not "things He can control." All things. This is either the most sweeping claim in Scripture or Paul was exaggerating. Open theism requires that Paul was exaggerating.</p>
+                <p class="proof-note">"All things" — <span style="color: var(--accent-violet);">τὰ πάντα</span> (ta panta). Not "some things," not "big things," not "things He can control." All things. This is either the most sweeping claim in Scripture or Paul was exaggerating. <a href="/compare-calvinism-open-theism">Open theism</a> requires that Paul was exaggerating.</p>
             </div>
             <div class="proof-card reformed">
                 <div class="proof-ref">Proverbs 16:33</div>
@@ -401,7 +514,7 @@
             <div class="proof-card opentheist">
                 <div class="proof-ref">Genesis 6:6</div>
                 <p class="proof-text">"And the LORD regretted that he had made man on the earth, and it grieved him to his heart."</p>
-                <p class="proof-note">Open theists read this as genuine regret — God wishes He'd done differently. But the Hebrew <span style="color: var(--accent-violet);">נָחַם</span> (nacham) expresses grief, not cognitive revision. Numbers 23:19 explicitly says "God is not man, that he should lie, or a son of man, that he should <em>change his mind</em>" — using the same root word. Scripture interprets Scripture: God's "regret" is an anthropopathic expression of genuine grief, not a confession that the plan went wrong.</p>
+                <p class="proof-note">Open theists read this as genuine regret — God wishes He'd done differently. But the Hebrew <span style="color: var(--accent-violet);">נָחַם</span> (nacham) expresses grief, not cognitive revision. Numbers 23:19 explicitly says "God is not man, that he should lie, or a son of man, that he should <em>change his mind</em>" — using the same root word. Scripture interprets Scripture: God's "regret" is an anthropopathic expression of genuine grief, not a <a href="/history-confessions-story">confession</a> that the plan went wrong.</p>
             </div>
         </div>
     </div>
@@ -409,7 +522,7 @@
     <div class="verdict">
         <div class="verdict-label">Biblical Verdict</div>
         <p>
-            The comfort of Romans 8:28 — "all things work together for good" — requires meticulous providence. If
+            The comfort of <a href="/question-goldchain">Romans 8</a>:28 — "all things work together for good" — requires meticulous providence. If
             "all things" really means "some things, plus some random stuff God didn't plan," then the promise collapses.
             Every grieving saint, every suffering believer, every persecuted church has clung to the promise that
             God is working even <em>this</em> for good. Open theism cannot sustain that promise — because on its
@@ -468,7 +581,7 @@
         <p>
             Think about it: which is more encouraging — that your prayers reach a God who has the power to accomplish
             everything He purposes, or a God who sincerely wants to help but may not be able to because someone
-            else's free will trumps His plans?
+            else's <a href="/question-freewill">free will</a> trumps His plans?
         </p>
     </div>
 
@@ -591,22 +704,22 @@
     <div class="cross-links">
         <h3>Continue Your Study</h3>
         <div class="cross-link-grid">
-            <a href="/compare-calvinism-arminianism" class="cross-link">
+            <a href="/compare-calvinism-<a href="/compare-calvinism-arminianism">arminianism</a>" class="cross-link">
                 <div class="cross-link-label">Comparison</div>
                 <div class="cross-link-title">Calvinism vs. Arminianism</div>
                 <div class="cross-link-desc">The five points compared with Scripture</div>
             </a>
-            <a href="/compare-calvinism-molinism" class="cross-link">
+            <a href="/compare-calvinism-<a href="/compare-calvinism-molinism">molinism</a>" class="cross-link">
                 <div class="cross-link-label">Comparison</div>
                 <div class="cross-link-title">Calvinism vs. Molinism</div>
                 <div class="cross-link-desc">Middle knowledge, counterfactuals, and sovereignty</div>
             </a>
-            <a href="/compare-predestination-foreknowledge" class="cross-link">
+            <a href="/compare-<a href="/question-chosen">predestination</a>-foreknowledge" class="cross-link">
                 <div class="cross-link-label">Comparison</div>
                 <div class="cross-link-title">Predestination vs. Foreknowledge</div>
                 <div class="cross-link-desc">How God's decrees relate to His knowledge</div>
             </a>
-            <a href="/compare-monergism-synergism" class="cross-link">
+            <a href="/compare-<a href="/compare-monergism-<a href="/compare-monergism-synergism">synergism</a>">monergism</a>-synergism" class="cross-link">
                 <div class="cross-link-label">Comparison</div>
                 <div class="cross-link-title">Monergism vs. Synergism</div>
                 <div class="cross-link-desc">The core divide beneath every soteriological debate</div>
@@ -637,7 +750,7 @@
     <div class="related-articles-grid">
       <a href="/scripture-tsunami" class="related-article-card">
         <span class="related-article-cat">📄 General</span>
-        <span class="related-article-title">500+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
+        <span class="related-article-title">480+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
         <span class="related-article-desc">They told you</span>
       </a>
       <a href="/psychology-cognitive-biases" class="related-article-card">
@@ -667,7 +780,7 @@
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>

@@ -52,6 +52,314 @@
         }
     }
     </script>
+<style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+        }
+
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-ember), var(--accent-violet));
+            z-index: 9999;
+            transition: width 0.2s ease;
+        }
+
+        .page-hero {
+            position: relative;
+            padding: 6rem 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .page-hero .eyebrow {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .page-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 6vw, 3.5rem);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .page-hero h1 .gold {
+            color: var(--accent-gold);
+        }
+
+        .page-hero .subtitle {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            font-weight: 300;
+        }
+
+        .content-wrap {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            color: var(--text-primary);
+            line-height: 1.9;
+        }
+
+        .content-wrap h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.75rem, 4vw, 2.25rem);
+            font-weight: 700;
+            margin: 3rem 0 1.5rem 0;
+            color: var(--text-primary);
+        }
+
+        .content-wrap h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 2.5rem 0 1rem 0;
+            color: var(--accent-gold);
+        }
+
+        .content-wrap p {
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .scripture {
+            margin: 2.5rem 0;
+            padding: 2rem;
+            border-left: 4px solid var(--accent-gold);
+            background: rgba(212, 162, 84, 0.05);
+            border-radius: 0 4px 4px 0;
+        }
+
+        .scripture .ref {
+            font-size: 0.9rem;
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .scripture p {
+            font-style: italic;
+            margin: 0;
+            color: var(--text-secondary);
+        }
+
+        .pullquote {
+            margin: 2.5rem 0;
+            padding: 2rem;
+            border-left: 4px solid var(--accent-violet);
+            background: rgba(139, 92, 246, 0.05);
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: var(--text-primary);
+            font-style: italic;
+        }
+
+        .pullquote strong {
+            color: var(--accent-gold);
+        }
+
+        .aha-moment {
+            margin: 3rem 0;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.1), rgba(139, 92, 246, 0.1));
+            border: 1px solid rgba(212, 162, 84, 0.3);
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .aha-moment::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-ember), var(--accent-gold), var(--accent-violet));
+        }
+
+        .aha-moment p {
+            margin: 0;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .pastoral {
+            margin: 3rem 0;
+            padding: 2rem;
+            background: rgba(9, 9, 15, 0.5);
+            border-left: 4px solid var(--accent-gold);
+            border-radius: 4px;
+        }
+
+        .pastoral p {
+            margin: 0.75rem 0;
+        }
+
+        .pastoral strong {
+            color: var(--accent-gold);
+        }
+
+        .cross-links {
+            margin: 4rem 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .cross-link {
+            padding: 1.5rem;
+            background: rgba(212, 162, 84, 0.08);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            border-radius: 6px;
+            text-decoration: none;
+            color: var(--accent-gold);
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .cross-link:hover {
+            background: rgba(212, 162, 84, 0.15);
+            border-color: rgba(212, 162, 84, 0.4);
+            transform: translateX(4px);
+        }
+
+        .cross-link::after {
+            content: '→';
+            font-size: 1.2rem;
+        }
+
+        .never-gives-up-banner {
+            margin: 4rem 0;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(232, 100, 44, 0.15));
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .never-gives-up-banner h3 {
+            margin: 0 0 1rem 0;
+            color: var(--accent-violet);
+        }
+
+        .never-gives-up-banner p {
+            margin: 0;
+            line-height: 1.8;
+        }
+
+        .never-gives-up-banner a {
+            color: var(--accent-gold);
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 2px solid var(--accent-gold);
+        }
+
+        .never-gives-up-banner a:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            margin-top: 6rem;
+            padding: 3rem 2rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            color: var(--text-secondary);
+        }
+
+        .footer-container {
+            max-width: 1000px;
+            margin: 0 auto 3rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 2rem;
+        }
+
+        .footer-section h4 {
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-section a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent-gold);
+        }
+
+        .footer-grace-warning {
+            max-width: 1000px;
+            margin: 0 auto 2rem;
+            padding: 1.5rem;
+            border-left: 4px solid var(--accent-ember);
+            background: rgba(232, 100, 44, 0.08);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+
+        .footer-copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .page-hero {
+                padding: 3rem 1.5rem;
+                margin-top: 1rem;
+            }
+
+            .content-wrap {
+                padding: 0 1.5rem;
+            }
+
+            .scripture, .pullquote, .aha-moment, .pastoral {
+                padding: 1.5rem;
+            }
+
+            .cross-links {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -160,7 +468,7 @@
         <p>"The king's heart is a stream of water in the hand of the LORD; he turns it wherever he will."</p>
     </div>
 
-    <p>Not a stream that God influences. Not a stream that God guides gently. A stream <em>in His hand</em> that He <em>turns</em> wherever He wills. The very image is of a river being directed by sovereign hands. The water is flowing. The water is moving. But it is moving exactly where the Hand turns it.</p>
+    <p>Not a stream that God influences. Not a stream that God guides gently. A stream <em>in His hand</em> that He <em>turns</em> wherever He wills. The very image is of a river being directed by <a href="/question-sovereignty-logic">sovereign</a> hands. The water is flowing. The water is moving. But it is moving exactly where the Hand turns it.</p>
 
     <div class="scripture">
         <span class="ref">Jeremiah 10:23 (ESV)</span>
@@ -185,7 +493,7 @@
         <p><strong>A river without banks is a flood.</strong> It is destructive. Purposeless. It destroys what it should nourish. It drowns what it should water. A river with banks—a river that flows where it was meant to flow—is a force of life.</p>
     </div>
 
-    <p>If your life had no sovereignty written into it, you would be chaos. <a href="/psychology-autonomy-illusion">You would be a flood of impulses, wounds, and contradictions.</a> You would have freedom with no direction. You would have agency with no love guiding it. You would be utterly alone in an infinite wilderness with no map and no compass.</p>
+    <p>If your life had no <a href="/question-sovereignty-logic">sovereignty</a> written into it, you would be chaos. <a href="/psychology-autonomy-illusion">You would be a flood of impulses, wounds, and contradictions.</a> You would have freedom with no direction. You would have agency with no love guiding it. You would be utterly alone in an infinite wilderness with no map and no compass.</p>
 
     <p>But you have been carved into a canyon. <a href="/devotional-never-gives-up">The terrain of your life has been shaped by Someone who saw you before you existed and loved you before you could love Him back.</a> Your life flows toward Him not because you have no choice—you have complete choice within the channel—but because the channel itself is carved in the direction of grace.</p>
 

@@ -40,6 +40,128 @@
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+*:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            background: linear-gradient(135deg, #0a0a0a 0%, #111118 100%);
+            padding: 5rem 2rem 4rem;
+            text-align: center;
+            border-bottom: 2px solid rgba(212, 162, 84, 0.15);
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(circle at 50% 40%, rgba(212, 162, 84, 0.06) 0%, transparent 60%);
+            pointer-events: none;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.2rem;
+            font-weight: 900;
+            color: var(--text-primary);
+            margin: 0 0 1rem;
+            line-height: 1.1;
+        }
+        .hero-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+        }
+        .hero-verses blockquote {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            border-left: 3px solid var(--accent-gold);
+            padding: 1rem 1.5rem;
+            margin: 1.2rem auto;
+            max-width: 650px;
+            text-align: left;
+            background: rgba(212, 162, 84, 0.03);
+            border-radius: 0 6px 6px 0;
+            line-height: 1.8;
+        }
+        .hero-verses .source {
+            display: block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            font-style: normal;
+            color: var(--accent-gold);
+            margin-top: 0.5rem;
+            letter-spacing: 0.05em;
+        }
+
+        /* ===== MAIN CONTENT ===== */
+        .content-container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* ===== SHARE BAR ===== */
+        .share-bar {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        .share-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+        }
+        .share-btn {
+            width: 36px; height: 36px;
+            border-radius: 50%;
+            border: 1px solid var(--border-subtle);
+            background: transparent;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .share-btn:hover { border-color: var(--accent-gold); color: var(--accent-gold); }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 968px) {
+            .hero h1 { font-size: 2.2rem; }
+            .hero-subtitle { font-size: 1rem; }
+            .hero { padding: 4rem 1.5rem 3rem; }
+            .content-container { padding: 0 1.5rem; }
+            .footer-container { grid-template-columns: 1fr; text-align: center; }
+        }
+        @media (max-width: 480px) {
+            .hero h1 { font-size: 1.8rem; }
+            .hero-subtitle { font-size: 0.95rem; }
+            .hero { padding: 3rem 1rem 2.5rem; }
+            .content-container { padding: 0 1rem; }
+            .hero-verses blockquote { padding: 0.8rem 1rem; font-size: 0.95rem; }
+            blockquote { padding: 1rem; margin: 1rem 0; }
+        }
+
+    </style>
 </head>
 <body>
 <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -145,13 +267,13 @@
 <section class="hero">
     <div class="hero-content">
         <h1>Does God Control Everything? The Chess Grandmaster Analogy</h1>
-        <p class="hero-subtitle">How God's Sovereignty and Human Responsibility Play On the Same Board</p>
+        <p class="hero-subtitle">How God's <a href="/question-sovereignty-logic">Sovereignty</a> and Human Responsibility Play On the Same Board</p>
         <div class="hero-verses">
             <blockquote>
                 "As for you, you meant evil against me, but God meant it for good, to bring it about that many people should be kept alive, as they are today." <span class="source">— Genesis 50:20</span>
             </blockquote>
             <blockquote>
-                "This Jesus, delivered up according to the definite plan and foreknowledge of God, you crucified and killed by the hands of lawless men." <span class="source">— Acts 2:23</span>
+                "This Jesus, delivered up according to the definite plan and <a href="/question-foreknowledge">foreknowledge</a> of God, you crucified and killed by the hands of lawless men." <span class="source">— Acts 2:23</span>
             </blockquote>
         </div>
     </div>
@@ -215,7 +337,7 @@
 
         <!-- THEOLOGIAN VOICE -->
         <div style="background: rgba(168, 85, 247, 0.06); border-left: 3px solid rgba(168, 85, 247, 0.3); padding: 1.2rem 1.5rem; border-radius: 0 6px 6px 0; margin: 1.5rem 0;">
-            <p style="margin: 0; color: #d8b4fe; font-style: italic;">Charles Spurgeon wrote: "Providence is but another name for the foreknowledge of God, who sees all things as they are, and all things as they shall be. He has predestined all events."</p>
+            <p style="margin: 0; color: #d8b4fe; font-style: italic;">Charles <a href="/theologian-spurgeon">Spurgeon</a> wrote: "Providence is but another name for the foreknowledge of God, who sees all things as they are, and all things as they shall be. He has <a href="/question-chosen">predestined</a> all events."</p>
             <p style="margin: 1rem 0 0; color: #d8b4fe; font-style: italic;">Augustine of Hippo put it even more sharply: "Thus the will is truly free when it is not the servant of vices... God's foreknowledge does not compel events; rather, it foresees that which free agents will freely choose."</p>
         </div>
 
@@ -294,7 +416,7 @@
         <p>Your life would be at the mercy of a thousand variables you can't control. A decision made by someone else. A disease that strikes without warning. An accident that changes everything. A man with a gun. A heart that stops beating. Your future would be a lottery.</p>
         <p>But Scripture teaches something radically different: <blockquote>"And we know that for those who love God all things work together for good, for those who are called according to his purpose."</blockquote></p>
         <p>Notice the certainty. <em>All things</em>. Not most things. Not the good things and the bad things. <em>All things.</em> And this isn't wishful thinking or optimistic faith. It's the guaranteed outcome of infinite wisdom and absolute power. The grandmaster has already seen the end. Checkmate is certain.</p>
-        <p>When the diagnosis comes, Romans 8:28 isn't a nice saying on a greeting card. It's the promise that God already accounted for this. When the betrayal stings, it's the promise that God meant it for good. When your plans collapse, it's the promise that His plans never do.</p>
+        <p>When the diagnosis comes, <a href="/question-goldchain">Romans 8</a>:28 isn't a nice saying on a greeting card. It's the promise that God already accounted for this. When the betrayal stings, it's the promise that God meant it for good. When your plans collapse, it's the promise that His plans never do.</p>
         <p>This is why the doctrine of God's sovereignty is the foundation of Christian peace. Not because we understand how it all works—we don't. But because we know <em>who</em> holds the pieces: the One who is "over all, and through all, and in you all," who works "all things according to the counsel of his own will."</p>
     </section>
 
@@ -348,7 +470,7 @@
     </a>
     <a href="/question-freewill.html" style="background: var(--bg-card); padding: 24px; border-radius: 8px; border: 1px solid var(--border-subtle); text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(212, 162, 84, 0.08)'" onmouseout="this.style.background='var(--bg-card)'">
       <p style="margin: 0 0 6px; color: var(--accent-gold); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">❓ Question</p>
-      <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1em; color: var(--text-primary); margin: 0 0 8px;">What About Free Will?</h3>
+      <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1em; color: var(--text-primary); margin: 0 0 8px;">What About <a href="/question-freewill">Free Will</a>?</h3>
       <p style="color: var(--text-secondary); font-size: 0.95em; margin: 0;">Scripture's direct answer to the most common objection to God's sovereignty.</p>
     </a>
     <a href="/devotional-not-my-will-but-joy.html" style="background: var(--bg-card); padding: 24px; border-radius: 8px; border: 1px solid var(--border-subtle); text-decoration: none; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(212, 162, 84, 0.08)'" onmouseout="this.style.background='var(--bg-card)'">
@@ -404,9 +526,9 @@
         <span class="related-article-title">Compatibilism</span>
         <span class="related-article-desc">Compatibilism: God</span>
       </a>
-      <a href="/creed-canons-dort" class="related-article-card">
+      <a href="/creed-canons-<a href="/history-dort">dort</a>" class="related-article-card">
         <span class="related-article-cat">📜 Creeds &amp; Confessions</span>
-        <span class="related-article-title">The Canons of Dort — The Confessional Heart of Sovereign Grace</span>
+        <span class="related-article-title">The Canons of Dort — The Confessional Heart of <a href="/question-sovereignty-logic">Sovereign</a> Grace</span>
         <span class="related-article-desc">The Canons of Dort (1619): Full text with modern commentary on God</span>
       </a>
       <a href="/ot-abel-cain" class="related-article-card">
@@ -414,24 +536,24 @@
         <span class="related-article-title">Abel and Cain: The First Election</span>
         <span class="related-article-desc">Genesis 4 reveals God</span>
       </a>
-      <a href="/theologian-augustine" class="related-article-card">
+      <a href="/theologian-<a href="/theologian-augustine">augustine</a>" class="related-article-card">
         <span class="related-article-cat">🧓 Theologians</span>
         <span class="related-article-title">Augustine of Hippo | The Doctor of Grace</span>
         <span class="related-article-desc">Explore the life, theology, and enduring legacy of Augustine of Hippo—the Doctor of Grace whose writ...</span>
       </a>
       <a href="/compare-calvinism-open-theism" class="related-article-card">
         <span class="related-article-cat">⚖ Comparisons</span>
-        <span class="related-article-title">Calvinism vs Open Theism: Does God Know the Future?</span>
+        <span class="related-article-title">Calvinism vs <a href="/compare-calvinism-open-theism">Open Theism</a>: Does God Know the Future?</span>
         <span class="related-article-desc">Calvinism vs Open Theism compared: Does God know the future exhaustively, or is He learning alongsid...</span>
       </a>
-      <a href="/question-depravity" class="related-article-card">
+      <a href="/question-<a href="/question-depravity">depravity</a>" class="related-article-card">
         <span class="related-article-cat">📖 Questions</span>
         <span class="related-article-title">Dead, Not Sick — The Bible&#039;s Diagnosis of the Human Condition</span>
         <span class="related-article-desc">Total depravity is not about being as bad as possible — it</span>
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>

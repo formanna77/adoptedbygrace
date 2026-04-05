@@ -39,6 +39,452 @@
 
     
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            line-height: 1.75;
+            letter-spacing: 0.3px;
+        }
+
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
+            width: 0%;
+            z-index: 1000;
+            transition: width 0.1s ease;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08) 0%, rgba(139, 92, 246, 0.04) 100%);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 60px 24px 50px;
+            margin-bottom: 0;
+        }
+
+        .hero-content {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--accent-gold);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            transition: gap 0.3s ease;
+        }
+        .back-link:hover { gap: 12px; }
+
+        .topic-label {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent-ember);
+            margin-bottom: 16px;
+            padding: 6px 12px;
+            border: 1px solid var(--border-subtle);
+            border-radius: 20px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.8rem, 4.5vw, 52px);
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-violet));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            max-width: 700px;
+        }
+
+        .hero-meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: var(--text-muted);
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        /* Main Content */
+        .content-wrapper {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+
+        /* The Letter Itself */
+        .letter-container {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.06) 0%, rgba(10, 10, 15, 0.95) 100%);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            border-radius: 12px;
+            padding: 48px 40px;
+            margin-bottom: 48px;
+            position: relative;
+        }
+
+        .letter-container::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            border-radius: 12px;
+            background: radial-gradient(ellipse at top left, rgba(212, 162, 84, 0.05), transparent 60%);
+            pointer-events: none;
+        }
+
+        .letter-date {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 15px;
+            color: var(--accent-gold);
+            margin-bottom: 32px;
+            letter-spacing: 0.5px;
+        }
+
+        .letter-greeting {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 28px;
+        }
+
+        .letter-body p {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            line-height: 2;
+            color: var(--text-primary);
+            margin-bottom: 24px;
+            font-weight: 400;
+        }
+
+        .letter-body p:last-child {
+            margin-bottom: 0;
+        }
+
+        .letter-emphasis {
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        .letter-closing {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            color: var(--text-primary);
+            margin-top: 36px;
+            font-weight: 600;
+        }
+
+        .letter-signature {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-style: italic;
+            color: var(--accent-gold);
+            margin-top: 8px;
+            font-weight: 700;
+        }
+
+        .letter-ref {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--text-muted);
+            display: block;
+            margin-top: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Scripture Margin Notes */
+        .scripture-note {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--accent-violet);
+            opacity: 0.8;
+            display: block;
+            text-align: right;
+            margin-top: -18px;
+            margin-bottom: 24px;
+        }
+
+        /* Reflection Sections */
+        .reflection {
+            margin-bottom: 48px;
+        }
+
+        .reflection h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.3rem, 3vw, 28px);
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .reflection p {
+            font-size: 16px;
+            line-height: 1.85;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .reflection p strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* Greek Sidebar */
+        .greek-callout {
+            background: var(--bg-card);
+            border-left: 3px solid var(--accent-violet);
+            padding: 20px 24px;
+            border-radius: 0 8px 8px 0;
+            margin: 28px 0;
+        }
+
+        .greek-callout .greek-word {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            color: var(--accent-violet);
+            font-weight: 600;
+        }
+
+        .greek-callout .greek-meaning {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-top: 6px;
+            line-height: 1.7;
+        }
+
+        /* Scripture Block */
+        .scripture-block {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 28px 28px;
+            margin: 32px 0;
+        }
+
+        .scripture-block .verse-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 17px;
+            font-style: italic;
+            line-height: 1.9;
+            color: var(--text-primary);
+        }
+
+        .scripture-block .verse-ref {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            color: var(--accent-gold);
+            margin-top: 12px;
+            display: block;
+        }
+
+        /* The Moment Section */
+        .moment-section {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.06), rgba(212, 162, 84, 0.04));
+            border: 1px solid rgba(139, 92, 246, 0.15);
+            border-radius: 12px;
+            padding: 36px 32px;
+            margin: 48px 0;
+        }
+
+        .moment-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 20px;
+        }
+
+        .moment-section p {
+            font-size: 16px;
+            line-height: 1.85;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .moment-section p:last-child { margin-bottom: 0; }
+
+        /* Never Gives Up Banner */
+        .never-gives-up {
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.12), rgba(212, 162, 84, 0.08));
+            border: 1px solid rgba(232, 100, 44, 0.25);
+            border-radius: 12px;
+            padding: 32px;
+            margin: 48px 0;
+            text-align: center;
+        }
+
+        .never-gives-up h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--accent-ember);
+            margin-bottom: 12px;
+        }
+
+        .never-gives-up p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+
+        .never-gives-up a {
+            display: inline-block;
+            color: var(--accent-ember);
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(232, 100, 44, 0.4);
+            padding-bottom: 2px;
+            transition: border-color 0.3s ease;
+        }
+        .never-gives-up a:hover { border-color: var(--accent-ember); }
+
+        /* Journey Grid */
+        .journey-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+            margin-top: 48px;
+        }
+
+        .journey-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 24px;
+            text-decoration: none;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .journey-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(212, 162, 84, 0.3);
+        }
+
+        .journey-card .card-label {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent-gold);
+            margin-bottom: 8px;
+        }
+
+        .journey-card .card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1.4;
+            margin-bottom: 8px;
+        }
+
+        .journey-card .card-desc {
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        /* Share Section */
+        .share-section {
+            text-align: center;
+            padding: 32px 0;
+            border-top: 1px solid var(--border-subtle);
+            margin-top: 48px;
+        }
+
+        .share-section p {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.2s ease, opacity 0.2s ease;
+        }
+        .share-btn:hover { transform: translateY(-1px); opacity: 0.9; }
+
+        .share-btn.twitter { background: rgba(29, 155, 240, 0.15); color: #1d9bf0; border: 1px solid rgba(29, 155, 240, 0.3); }
+        .share-btn.facebook { background: rgba(139, 92, 246, 0.15); color: #8b5cf6; border: 1px solid rgba(139, 92, 246, 0.3); }
+        .share-btn.copy { background: rgba(212, 162, 84, 0.12); color: var(--accent-gold); border: 1px solid rgba(212, 162, 84, 0.3); cursor: pointer; }
+
+        /* Footer */
+        .site-footer {
+            text-align: center;
+            padding: 40px 24px;
+            border-top: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+        .site-footer a { color: var(--accent-gold); text-decoration: none; }
+
+        @media (max-width: 768px) {
+            .letter-container { padding: 32px 24px; }
+            .hero { padding: 40px 20px 36px; }
+            .content-wrapper { padding: 32px 20px 60px; }
+            .moment-section { padding: 28px 24px; }
+            .greek-callout { padding: 16px 20px; }
+        }
+
+        @media (max-width: 480px) {
+            .letter-container { padding: 24px 18px; }
+            .letter-body p { font-size: 16px; line-height: 1.9; }
+            .hero-meta { flex-direction: column; gap: 8px; }
+        }
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -303,12 +749,12 @@
       </a>
       <a href="/scripture-tsunami" class="related-article-card">
         <span class="related-article-cat">📄 General</span>
-        <span class="related-article-title">500+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
+        <span class="related-article-title">480+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
         <span class="related-article-desc">They told you</span>
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>

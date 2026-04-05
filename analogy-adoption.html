@@ -35,6 +35,135 @@
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        .hero {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(51, 65, 85, 0.95));
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+            opacity: 0.95;
+        }
+
+        .hero blockquote {
+            font-style: italic;
+            font-size: 1.1em;
+            border-left: 4px solid #d4a254;
+            padding-left: 20px;
+            margin: 30px auto;
+            max-width: 600px;
+        }
+
+        .content-section {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .content-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2em;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            color: #f0ece4;
+        }
+
+        .content-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            color: #f0ece4;
+        }
+
+        .content-section p {
+            line-height: 1.8;
+            margin-bottom: 18px;
+            color: #9a958c;
+            font-size: 1.05em;
+        }
+
+        .content-section blockquote {
+            border-left: 4px solid #d4a254;
+            padding-left: 24px;
+            margin: 25px 0;
+            font-style: italic;
+            color: #9a958c;
+        }
+
+        .reveal {
+            opacity: 1;
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .emphasis {
+            font-weight: 600;
+            color: #f0ece4;
+        }
+
+        .scripture-ref {
+            color: #9a958c;
+            font-size: 0.95em;
+        }
+
+        .highlight-box {
+            background: #12121a;
+            border-left: 4px solid #d4a254;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 968px) {
+            .page-header h1, h1 { font-size: 2rem; }
+            .page-header p, .page-intro { font-size: 1rem; }
+            .content-wrapper, .article-content, .main-content { padding: 0 1.5rem; }
+            .card-grid, .grid { grid-template-columns: 1fr; }
+            .footer-container { grid-template-columns: 1fr; text-align: center; }
+        }
+        @media (max-width: 480px) {
+            .page-header h1, h1 { font-size: 1.6rem; }
+            h2 { font-size: 1.3rem; }
+            .page-header { padding: 5rem 1rem 2rem; }
+            .content-wrapper, .article-content, .main-content { padding: 0 1rem; }
+            blockquote { padding: 1rem; margin: 1rem 0; }
+        }
+
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -138,7 +267,7 @@
         <h1>Did You Choose God, or Did God Choose You?</h1>
         <p>A baby doesn't choose its parents—and a baby cannot possibly choose being rescued from an orphanage. So the question for your soul is the same: Did you actually choose God, or is that the most dangerous illusion the human heart can tell itself?</p>
         <blockquote>
-            "He predestined us for adoption as sons through Jesus Christ, according to the purpose of his will, to the praise of his glorious grace, with which he has blessed us in the Beloved."
+            "He <a href="/question-chosen">predestined</a> us for adoption as sons through Jesus Christ, according to the purpose of his will, to the praise of his glorious grace, with which he has blessed us in the Beloved."
             <br><span class="scripture-ref">— Ephesians 1:4–5, ESV</span>
         </blockquote>
     </div>
@@ -162,7 +291,7 @@
             <!-- DEVASTATING QUESTION -->
             <div class="highlight-box" style="background: rgba(212, 162, 84, 0.08); border-left-color: #d4a254;">
                 <p style="margin-bottom: 0; color: #d4a254; font-weight: 600;">The Question That Changes Everything:</p>
-                <p style="margin: 0.5rem 0 0 0; font-style: italic;">If you can't make yourself born, how could you make yourself born again? If you had no voice in your physical birth, why assume you had a voice in your spiritual rebirth?</p>
+                <p style="margin: 0.5rem 0 0 0; font-style: italic;">If you can't make yourself born, how could you make yourself <a href="/systematic-<a href="/systematic-regeneration">regeneration</a>">born again</a>? If you had no voice in your physical birth, why assume you had a voice in your spiritual rebirth?</p>
             </div>
         </div>
 
@@ -179,7 +308,7 @@
                 <br><span class="scripture-ref">— Deuteronomy 7:7–8, ESV</span>
             </blockquote>
             <p>
-                The Lord didn't choose Israel because they were the most numerous, the strongest, or the most righteous. He chose them because He <span class="emphasis">wanted to</span>. Because His love is sovereign. Because His purpose is His own. This is election. And it's not less loving than human adoption—it's more loving, because human adoption at least begins with a child who can be seen and evaluated. Divine election happens before the foundation of the world, when we didn't exist at all.
+                The Lord didn't choose Israel because they were the most numerous, the strongest, or the most righteous. He chose them because He <span class="emphasis">wanted to</span>. Because His love is <a href="/question-sovereignty-logic">sovereign</a>. Because His purpose is His own. This is election. And it's not less loving than human adoption—it's more loving, because human adoption at least begins with a child who can be seen and evaluated. Divine election happens before the foundation of the world, when we didn't exist at all.
             </p>
             <!-- PULL QUOTE -->
             <blockquote class="pull-quote" style="border-left: 6px solid #d4a254; padding-left: 32px; margin: 40px 0; font-size: 1.2em; color: #f0ece4;">
@@ -206,10 +335,10 @@
             </p>
             <blockquote>
                 "For you did not receive the spirit of slavery to fall back into fear, but you have received the Spirit of adoption as sons, by whom we cry, 'Abba! Father!' The Spirit himself bears witness with our spirit that we are children of God, and if children, then heirs—heirs of God and fellow heirs with Christ, provided we suffer with him in order that we may also be glorified with him."
-                <br><span class="scripture-ref">— Romans 8:15–17, ESV</span>
+                <br><span class="scripture-ref">— <a href="/question-goldchain">Romans 8</a>:15–17, ESV</span>
             </blockquote>
             <p>
-                This is what irresistible grace accomplishes. Not force—the overcoming of your will against your will. Rather, the <span class="emphasis">transformation</span> of your will so that you actually want what God wants. The papers are signed. Your identity is changed. Your inheritance is secured. Your relationship to the Father is legally, eternally, irreversibly established. No court in heaven or on earth can reverse it.
+                This is what <a href="/question-irresistible">irresistible grace</a> accomplishes. Not force—the overcoming of your will against your will. Rather, the <span class="emphasis">transformation</span> of your will so that you actually want what God wants. The papers are signed. Your identity is changed. Your inheritance is secured. Your relationship to the Father is legally, eternally, irreversibly established. No court in heaven or on earth can reverse it.
             </p>
             <!-- EMOTIONAL GUT-PUNCH -->
             <p style="background: rgba(212, 162, 84, 0.06); padding: 20px; border-radius: 4px; line-height: 1.9; color: #f0ece4; margin: 30px 0; font-weight: 500;">
@@ -231,7 +360,7 @@
             </p>
             <blockquote>
                 "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast."
-                <br><span class="scripture-ref">— Ephesians 2:8–9, ESV</span>
+                <br><span class="scripture-ref">— <a href="/question-faithgift">Ephesians 2</a>:8–9, ESV</span>
             </blockquote>
             <p>
                 The child's only contribution is the willingness to be brought home. To stop resisting. To accept being loved despite unworthiness. And even that willingness is a gift from the Father. The Spirit doesn't just <span class="emphasis">offer</span> grace and then wait for you to generate faith on your own. The Spirit <span class="emphasis">regenerates</span> you. He makes you alive. <a href="/question-faithgift.html" style="color: #d4a254; text-decoration: underline; text-decoration-color: rgba(212,162,84,0.4);">He doesn't just offer faith—He gives it.</a> He creates in you the capacity to believe and the desire to come home.
@@ -377,7 +506,7 @@
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>

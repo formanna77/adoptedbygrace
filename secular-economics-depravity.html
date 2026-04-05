@@ -40,6 +40,119 @@
     
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        .econ-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .econ-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
+        }
+        .econ-card .econ-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.68rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: var(--accent-ember);
+            margin-bottom: 0.5rem;
+        }
+        .econ-card h4 {
+            color: var(--text-primary);
+            margin-bottom: 0.8rem;
+            font-size: 1.15rem;
+        }
+        .econ-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.8;
+            margin-bottom: 0;
+        }
+        .econ-card .scripture-echo {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-subtle);
+            font-style: italic;
+            color: var(--accent-gold);
+            font-size: 0.9rem;
+        }
+        .concept-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .concept-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 1.8rem;
+        }
+        .concept-box h5 {
+            color: var(--accent-gold);
+            font-size: 1rem;
+            margin-bottom: 0.6rem;
+            font-family: 'Playfair Display', serif;
+        }
+        .concept-box p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.7;
+            margin: 0;
+        }
+        .humor-aside {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            text-align: center;
+            margin: 1.5rem 0;
+            letter-spacing: 0.02em;
+        }
+        .vs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+        }
+        .vs-table th {
+            background: var(--bg-card);
+            color: var(--accent-gold);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 2px solid var(--accent-gold);
+        }
+        .vs-table td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
+            font-size: 0.92rem;
+            line-height: 1.6;
+            vertical-align: top;
+        }
+        .vs-table tr:hover td {
+            background: rgba(212, 162, 84, 0.03);
+        }
+        @media (max-width: 600px) {
+            .concept-grid { grid-template-columns: 1fr; }
+            .vs-table { font-size: 0.85rem; }
+            .vs-table th, .vs-table td { padding: 0.7rem; }
+        }
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -425,7 +538,7 @@
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>

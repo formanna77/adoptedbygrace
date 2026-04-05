@@ -39,6 +39,194 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/global.css">
     
+<style>
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(to right, #d4a574, #b8860b);
+            width: 0%;
+            z-index: 9999;
+            transition: width 0.1s ease;
+        }
+
+        .philosophy-hero {
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1620 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .philosophy-hero-eyebrow {
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #d4a574;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .philosophy-hero h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .philosophy-hero-subtitle {
+            font-size: 1.1rem;
+            color: #ccc;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+            font-weight: 300;
+        }
+
+        .philosophy-container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .philosophy-section {
+            margin-bottom: 4rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .philosophy-section.reveal {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .section-number {
+            display: inline-block;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #d4a574;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-title {
+            font-size: clamp(1.5rem, 3vw, 2.2rem);
+            line-height: 1.3;
+            margin-bottom: 1.5rem;
+            color: #0a0a0f;
+            font-weight: 700;
+        }
+
+        .section-content {
+            color: #2a2a2a;
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .section-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .concept-card {
+            background: #f9f5f0;
+            border-left: 4px solid #d4a574;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #3a3a3a;
+            line-height: 1.8;
+        }
+
+        .pull-quote {
+            border-left: 4px solid #d4a574;
+            padding-left: 2rem;
+            margin: 2.5rem 0;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #0a0a0f;
+            line-height: 1.7;
+        }
+
+        .pull-quote.scripture {
+            font-style: italic;
+            color: #555;
+        }
+
+        .scripture-ref {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        .keep-reading {
+            background: #fafafa;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        .keep-reading h3 {
+            font-size: 1.1rem;
+            color: #0a0a0f;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .keep-reading-links {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .keep-reading-links {
+                grid-template-columns: 1fr;
+            }
+
+            .philosophy-hero {
+                padding: 2.5rem 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+        }
+
+        .keep-reading-link {
+            display: block;
+            padding: 1rem;
+            background: white;
+            border: 1px solid #d4a574;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #0a0a0f;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .keep-reading-link:hover {
+            background: #d4a574;
+            color: white;
+            border-color: #d4a574;
+        }
+
+        .keep-reading-link-title {
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .keep-reading-link-icon {
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+    </style>
 </head>
 <body>
     <div class="reading-progress"></div>

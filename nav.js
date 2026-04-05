@@ -21,7 +21,7 @@
                     href: '/start-here',
                     count: 8,
                     pages: [
-                        { name: '500+ Bible Verses That Prove God\'s Sovereignty in Salvation | Scripture Tsunami', href: '/scripture-tsunami', desc: 'They told you' },
+                        { name: '480+ Bible Verses That Prove God\'s Sovereignty in Salvation | Scripture Tsunami', href: '/scripture-tsunami', desc: 'They told you' },
                         { name: 'But What About Free Will and Fairness? — Phase 4', href: '/start-here-phase4', desc: 'Phase 4: The hardest objections to biblical theology answered — free will, fairness, John 3:16,' },
                         { name: 'Find Your Starting Point', href: '/start-here-assessment', desc: 'Discover your starting point on the 5-phase journey to understanding God' },
                         { name: 'Living as an Elect Child of God — Phase 5', href: '/start-here-phase5', desc: 'Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, worship, mission, and ' },

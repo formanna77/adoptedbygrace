@@ -49,6 +49,160 @@
     <link rel="icon" type="image/svg+xml" href="./favicon.svg">
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        .hero {
+            background: linear-gradient(135deg, rgba(13, 27, 42, 0.95), rgba(25, 51, 84, 0.95)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><pattern id="dots" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse"><circle cx="30" cy="30" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="1200" height="600" fill="url(%23dots)"/></svg>');
+            color: #f0ece4;
+            padding: 6rem 2rem;
+            text-align: center;
+            border-bottom: 3px solid #d4a254;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto 1.5rem;
+            opacity: 0.95;
+        }
+
+        .hero-verse {
+            background: rgba(18, 18, 26, 0.6);
+            border-left: 4px solid #d4a254;
+            padding: 1.5rem 2rem;
+            max-width: 650px;
+            margin: 2rem auto;
+            border-radius: 4px;
+            font-style: italic;
+            color: #f0ece4;
+        }
+
+        .content-section {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .content-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: #f0ece4;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #d4a254;
+            padding-bottom: 0.75rem;
+        }
+
+        .content-section p {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            color: #9a958c;
+        }
+
+        blockquote {
+            background: #12121a;
+            border-left: 4px solid #d4a254;
+            padding: 1.5rem 2rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #9a958c;
+            border-radius: 4px;
+        }
+
+        blockquote cite {
+            display: block;
+            text-align: right;
+            margin-top: 0.75rem;
+            font-style: normal;
+            color: #807b75;
+            font-size: 0.95rem;
+        }
+
+        /* Reveal animation REMOVED — was causing invisible content bug.
+           All content is visible immediately. No animation is worth
+           losing a single reader. */
+
+        .highlight {
+            background: rgba(212, 162, 84, 0.15);
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+        }
+
+        .comparison-box {
+            background: #12121a;
+            border: 2px solid #d4a254;
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            color: #f0ece4;
+        }
+
+        .comparison-box strong {
+            color: #d4a254;
+        }
+
+        .pull-quote {
+            background: linear-gradient(to right, rgba(212, 162, 84, 0.08), transparent);
+            border-left: 5px solid #d4a254;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            font-size: 1.15rem;
+            font-style: italic;
+            color: #f0ece4;
+            line-height: 1.7;
+            position: relative;
+        }
+
+        .devastating-question {
+            background: rgba(212, 162, 84, 0.05);
+            border: 2px solid rgba(212, 162, 84, 0.3);
+            border-radius: 6px;
+            padding: 1.25rem 1.5rem;
+            margin: 2rem 0;
+            color: #f0ece4;
+            font-weight: 500;
+            font-size: 1.05rem;
+        }
+
+        .pastoral-whisper {
+            background: rgba(240, 236, 228, 0.03);
+            border-left: 4px solid #807b75;
+            padding: 1.2rem 1.5rem;
+            margin: 2rem 0;
+            font-size: 0.95rem;
+            color: #9a958c;
+            font-style: italic;
+            border-radius: 4px;
+        }
+
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 968px) {
+            .page-header h1, h1 { font-size: 2rem; }
+            .page-header p, .page-intro { font-size: 1rem; }
+            .content-wrapper, .article-content, .main-content { padding: 0 1.5rem; }
+            .card-grid, .grid { grid-template-columns: 1fr; }
+            .footer-container { grid-template-columns: 1fr; text-align: center; }
+        }
+        @media (max-width: 480px) {
+            .page-header h1, h1 { font-size: 1.6rem; }
+            h2 { font-size: 1.3rem; }
+            .page-header { padding: 5rem 1rem 2rem; }
+            .content-wrapper, .article-content, .main-content { padding: 0 1rem; }
+            blockquote { padding: 1rem; margin: 1rem 0; }
+        }
+
+    </style>
 </head>
 <body>
 <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -225,7 +379,7 @@
         One view says: God provides the power of salvation (the grace). God provides the switch (makes faith possible). God even explains how to flip it (the gospel). But <strong>you must flip the switch.</strong> God stands back and waits for your decision. He will not override your will. If you choose to believe, the light comes on. If you choose not to believe, you remain in darkness. <span class="highlight">Your choice is the decisive factor.</span> (This view runs deeper than theology—it reflects something fundamental about <a href="/psychology-why-we-resist.html" style="color: #d4a254; text-decoration: underline;">why we resist the idea that we cannot choose God</a>. It's not a small preference—it's a defense of human autonomy itself.)
     </p>
     <p>
-        The other view says: God is so sovereign, so powerful, so utterly committed to the salvation of His people that He does not merely make faith possible—<strong>He grants it.</strong> He doesn't just wire the house; He flips the switch. And here's the magnificent part: when He does, you genuinely choose. Your will is genuinely free. But it's a liberated will, freed from your slavery to sin by the power of grace. <span class="highlight">You are the condition of salvation (you must believe), but God is the cause (He produces the belief).</span> The distinction is everything. Because if you claim credit for the switch, you're claiming credit for the electrical grid, the building itself, and the entire system that makes the light possible. You're making grace into a work.
+        The other view says: God is so <a href="/question-sovereignty-logic">sovereign</a>, so powerful, so utterly committed to the salvation of His people that He does not merely make faith possible—<strong>He grants it.</strong> He doesn't just wire the house; He flips the switch. And here's the magnificent part: when He does, you genuinely choose. Your will is genuinely free. But it's a liberated will, freed from your slavery to sin by the power of grace. <span class="highlight">You are the condition of salvation (you must believe), but God is the cause (He produces the belief).</span> The distinction is everything. Because if you claim credit for the switch, you're claiming credit for the electrical grid, the building itself, and the entire system that makes the light possible. You're making grace into a work.
     </p>
     <blockquote>
         "I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing."
@@ -254,7 +408,7 @@
         The analogy deepens. What if the room isn't just dark? What if it's completely sealed? The light switch is rusted shut, the wiring is corroded, and the person inside cannot even see the switch, much less flip it?
     </p>
     <p>
-        Scripture describes the unregenerate human heart exactly this way: <span class="highlight">dead.</span> Not sick. Not weak. Dead. A corpse in the grave cannot see the light, cannot hear the call, cannot move toward the door. Something from outside the grave must intervene. Someone must enter, break the chains, and raise the dead. (This is why <a href="/question-depravity.html" style="color: #d4a254; text-decoration: underline;">spiritual depravity</a> isn't just a theological concept—it's the reality that makes grace necessary.)
+        Scripture describes the unregenerate human heart exactly this way: <span class="highlight">dead.</span> Not sick. Not weak. Dead. A corpse in the grave cannot see the light, cannot hear the call, cannot move toward the door. Something from outside the grave must intervene. Someone must enter, break the chains, and raise the dead. (This is why <a href="/question-<a href="/question-depravity">depravity</a>.html" style="color: #d4a254; text-decoration: underline;">spiritual depravity</a> isn't just a theological concept—it's the reality that makes grace necessary.)
     </p>
 
     <div class="pull-quote">
@@ -280,19 +434,19 @@
     </p>
 
     <blockquote>
-        "Sinners are too blind to see the Son of God when He is before them. Something must be done to open their eyes, and that something is the work of the Holy Spirit in regeneration."
+        "Sinners are too blind to see the Son of God when He is before them. Something must be done to open their eyes, and that something is the work of the Holy Spirit in <a href="/systematic-regeneration">regeneration</a>."
         <cite>Charles Spurgeon</cite>
     </blockquote>
     <blockquote>
         "The work of regeneration makes you a new creature, capable of loving what you previously hated. God does not merely make the switch available—He changes your heart so that you *want* to flip it. That is grace."
-        <cite>Jonathan Edwards (paraphrased from his Treatise on Grace)</cite>
+        <cite>Jonathan <a href="/theologian-edwards">Edwards</a> (paraphrased from his Treatise on Grace)</cite>
     </blockquote>
     <p>
         When God changes your heart, you <strong>don't feel forced.</strong> You feel liberated. Your will isn't overridden; it's transformed. Before regeneration, you didn't want Christ. You wanted sin, pleasure, independence—you wanted darkness. After regeneration, you want Him. You desire Him. And when the gospel is presented, you believe joyfully, willingly, with full conviction. It's not coercion. It's the opposite of coercion. It's the most authentic choice you've ever made.
     </p>
 
     <blockquote>
-        "There is no contradiction between the freedom of man's will and the sovereignty of God. When God graciously grants the ability to believe, the sinner freely chooses—and that very choice is the fulfillment of God's eternal purpose."
+        "There is no contradiction between the freedom of man's will and the <a href="/question-sovereignty-logic">sovereignty</a> of God. When God graciously grants the ability to believe, the sinner freely chooses—and that very choice is the fulfillment of God's eternal purpose."
         <cite>Jonathan Edwards</cite>
     </blockquote>
     <p>
@@ -389,7 +543,7 @@
         <div style="display: grid; gap: 1rem;">
             <a href="/question-freewill" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                 <div style="color: #d4a254; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem;">Scripture Question</div>
-                <div style="color: #e2e8f0; font-size: 1.05rem; font-weight: 600;">Do We Have Free Will? What Scripture Really Teaches</div>
+                <div style="color: #e2e8f0; font-size: 1.05rem; font-weight: 600;">Do We Have <a href="/question-freewill">Free Will</a>? What Scripture Really Teaches</div>
             </a>
             <a href="/question-depravity" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                 <div style="color: #d4a254; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem;">Core Doctrine</div>
@@ -398,7 +552,7 @@
             </a>
             <a href="/question-faithgift" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                 <div style="color: #d4a254; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem;">Scripture Truth</div>
-                <div style="color: #e2e8f0; font-size: 1.05rem; font-weight: 600;">Is Faith a Gift from God? What Ephesians 2:8-9 Actually Says</div>
+                <div style="color: #e2e8f0; font-size: 1.05rem; font-weight: 600;">Is Faith a Gift from God? What <a href="/question-faithgift">Ephesians 2</a>:8-9 Actually Says</div>
             </a>
             <a href="/psychology-why-we-resist" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                 <div style="color: #d4a254; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.3rem;">Why We Resist</div>
@@ -442,14 +596,14 @@
         <span class="related-article-title">Art &amp; Literature — How the Greatest Writers Intuited Reformed Truth</span>
         <span class="related-article-desc">Shakespeare, Dostoevsky, Flannery O</span>
       </a>
-      <a href="/theologian-augustine" class="related-article-card">
+      <a href="/theologian-<a href="/theologian-augustine">augustine</a>" class="related-article-card">
         <span class="related-article-cat">🧓 Theologians</span>
         <span class="related-article-title">Augustine of Hippo | The Doctor of Grace</span>
         <span class="related-article-desc">Explore the life, theology, and enduring legacy of Augustine of Hippo—the Doctor of Grace whose writ...</span>
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>
@@ -465,10 +619,10 @@
     </a>
     <a href="/analogy-doctor-corpse.html" style="background: #12121a; padding: 24px; border-radius: 8px; border: 1px solid rgba(212,162,84,0.12); text-decoration: none;">
       <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1em; color: #f0ece4; margin: 0 0 8px;">Can a Dead Person Choose to Live?</h3>
-      <p style="color: #9a958c; font-size: 0.95em; margin: 0;">The doctor-and-corpse analogy that makes total depravity unforgettable.</p>
+      <p style="color: #9a958c; font-size: 0.95em; margin: 0;">The doctor-and-corpse analogy that makes <a href="/systematic-hamartiology">total depravity</a> unforgettable.</p>
     </a>
     <a href="/systematic-regeneration.html" style="background: #12121a; padding: 24px; border-radius: 8px; border: 1px solid rgba(212,162,84,0.12); text-decoration: none;">
-      <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1em; color: #f0ece4; margin: 0 0 8px;">Regeneration: Born Again Before You Believed</h3>
+      <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1em; color: #f0ece4; margin: 0 0 8px;">Regeneration: <a href="/systematic-regeneration">Born Again</a> Before You Believed</h3>
       <p style="color: #9a958c; font-size: 0.95em; margin: 0;">The biblical case for why new birth precedes faith.</p>
     </a>
     <a href="/objection-faith-choice.html" style="background: #12121a; padding: 24px; border-radius: 8px; border: 1px solid rgba(212,162,84,0.12); text-decoration: none;">

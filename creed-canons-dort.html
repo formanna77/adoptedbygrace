@@ -36,6 +36,47 @@
     
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        .dort-head { margin-bottom: 4rem; }
+        .dort-head h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--accent-gold); margin-bottom: 0.3rem; }
+        .dort-head-subtitle { font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 1.2rem; }
+        .dort-intro { color: var(--text-secondary); font-size: 1rem; line-height: 1.8; margin-bottom: 2rem; }
+
+        .article-block { background: var(--bg-card); border: 1px solid var(--border-subtle); border-left: 3px solid var(--accent-gold); border-radius: 6px; padding: 1.8rem; margin-bottom: 1.8rem; transition: border-color 0.3s ease; }
+        .article-block:hover { border-left-color: var(--accent-ember); }
+        .article-label { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.6rem; }
+        .article-title { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: var(--accent-gold); margin-bottom: 0.8rem; }
+        .article-text { color: var(--text-primary); font-size: 0.95rem; line-height: 1.85; font-style: italic; margin-bottom: 1rem; }
+        .article-commentary { color: var(--text-secondary); font-size: 0.92rem; line-height: 1.75; padding-top: 1rem; border-top: 1px solid var(--border-subtle); }
+        .article-commentary strong { color: var(--text-primary); }
+
+        .rejection-block { background: rgba(232, 100, 44, 0.04); border: 1px solid rgba(232, 100, 44, 0.12); border-left: 3px solid var(--accent-ember); border-radius: 6px; padding: 1.5rem; margin-bottom: 1.5rem; }
+        .rejection-label { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.5rem; }
+        .rejection-text { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.75; font-style: italic; }
+        .dort-
+        .dort-
+
+        .dort-humor { font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; color: var(--text-muted); text-align: center; margin: 3rem 0; opacity: 0.7; }
+
+        .scripture-support { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+        .scripture-chip { background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border: 1px solid rgba(139, 92, 246, 0.12); border-radius: 6px; padding: 1rem 1.2rem; font-size: 0.88rem; line-height: 1.7; color: var(--text-primary); font-style: italic; }
+        .scripture-chip .ref { display: block; margin-top: 0.5rem; font-style: normal; color: var(--accent-violet); font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; }
+
+        .historical-context { background: rgba(139, 92, 246, 0.06); border: 1px solid rgba(139, 92, 246, 0.15); border-radius: 8px; padding: 2rem; margin: 2.5rem 0; }
+        .historical-context h3 { color: var(--accent-violet); font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 1rem; }
+        .historical-context p { color: var(--text-secondary); font-size: 0.93rem; line-height: 1.75; margin-bottom: 0.8rem; }
+        .historical-context p:last-child { margin-bottom: 0; }
+
+        @media (max-width: 768px) {
+            .dort-head h2 { font-size: 1.6rem; }
+            .article-block { padding: 1.3rem; }
+            .dort-
+        }
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -144,9 +185,9 @@
 
     <!-- Hero -->
     <section class="page-hero" style="text-align:center; max-width:900px; margin:0 auto; padding:3rem 2rem 2rem;">
-        <p class="eyebrow" style="font-family:'JetBrains Mono',monospace; font-size:0.75rem; color:var(--accent-gold); text-transform:uppercase; letter-spacing:0.15em; margin-bottom:1rem;">Reformed Confession &bull; 1618&ndash;1619</p>
+        <p class="eyebrow" style="font-family:'JetBrains Mono',monospace; font-size:0.75rem; color:var(--accent-gold); text-transform:uppercase; letter-spacing:0.15em; margin-bottom:1rem;">Reformed <a href="/history-confessions-story">Confession</a> &bull; 1618&ndash;1619</p>
         <h1 style="font-family:'Playfair Display',serif; font-size:3rem; font-weight:800; line-height:1.15; margin-bottom:1.5rem;">The Canons of Dort</h1>
-        <p style="font-size:1.1rem; color:var(--text-secondary); max-width:700px; margin:0 auto; line-height:1.8;">The Canons of Dort are the church's formal answer to the oldest question: <strong style="color:var(--text-primary);">who saves whom?</strong> When the Reformed church was forced to choose between the sovereignty of God and the autonomy of man, 84 theologians from across Europe gathered in Dordrecht and answered with one voice: <strong style="color:var(--text-primary);">salvation is of the Lord.</strong></p>
+        <p style="font-size:1.1rem; color:var(--text-secondary); max-width:700px; margin:0 auto; line-height:1.8;">The Canons of <a href="/history-dort">Dort</a> are the church's formal answer to the oldest question: <strong style="color:var(--text-primary);">who saves whom?</strong> When the Reformed church was forced to choose between the <a href="/question-sovereignty-logic">sovereignty</a> of God and the autonomy of man, 84 theologians from across Europe gathered in Dordrecht and answered with one voice: <strong style="color:var(--text-primary);">salvation is of the Lord.</strong></p>
     </section>
 
     <div style="max-width:900px; margin:0 auto; padding:0 2rem;">
@@ -155,7 +196,7 @@
     <div class="dort-nav">
         <a href="#first-head">First Head: Election</a>
         <a href="#second-head">Second Head: Atonement</a>
-        <a href="#third-head">Third &amp; Fourth Heads: Depravity &amp; Conversion</a>
+        <a href="#third-head">Third &amp; Fourth Heads: <a href="/question-depravity">Depravity</a> &amp; Conversion</a>
         <a href="#fifth-head">Fifth Head: Perseverance</a>
         <a href="#historical">Historical Context</a>
     </div>
@@ -168,10 +209,10 @@
         <p>Each "Head of Doctrine" includes positive articles (what Scripture teaches) and rejections of errors (what the Remonstrants got wrong). The Canons remain one of the Three Forms of Unity in Reformed churches worldwide.</p>
     </div>
 
-    <p class="dort-humor">The Remonstrants thought they had five good points. Dort gave them zero. &mdash; Predestined humor</p>
+    <p class="dort-humor">The Remonstrants thought they had five good points. Dort gave them zero. &mdash; <a href="/question-chosen">Predestined</a> humor</p>
 
     <!-- ============================================ -->
-    <!-- FIRST HEAD OF DOCTRINE: DIVINE ELECTION -->
+    <!-- FIRST HEAD OF DOCTRINE: DIVINE <a href="/systematic-election">ELECTION</a> -->
     <!-- ============================================ -->
     <section class="dort-head content-section reveal" id="first-head">
         <h2>First Head of Doctrine</h2>
@@ -201,7 +242,7 @@
             <p class="article-title">The Preaching of the Gospel</p>
             <p class="article-text">"And that men may be brought to believe, God mercifully sends the messengers of these most joyful tidings to whom He will and at what time He pleaseth; by whose ministry men are called to repentance and faith in Christ crucified."</p>
             <div class="article-commentary">
-                <strong>Why this matters:</strong> Even the sending of the gospel is an act of sovereign mercy. You didn't choose to be born in a time and place where the gospel reached you. That was God's decision. Think about what this means: the fact that you've even <em>heard</em> the good news is itself a display of grace.
+                <strong>Why this matters:</strong> Even the sending of the gospel is an act of <a href="/question-sovereignty-logic">sovereign</a> mercy. You didn't choose to be born in a time and place where the gospel reached you. That was God's decision. Think about what this means: the fact that you've even <em>heard</em> the good news is itself a display of grace.
             </div>
         </div>
 
@@ -275,7 +316,7 @@
 
         <blockquote style="margin:2rem 0;">
             "For those whom he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers. And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified."
-            <span class="scripture-ref" style="display:block; margin-top:0.8rem; font-style:normal; color:var(--text-muted); font-size:0.85rem;">&mdash; Romans 8:29&ndash;30</span>
+            <span class="scripture-ref" style="display:block; margin-top:0.8rem; font-style:normal; color:var(--text-muted); font-size:0.85rem;">&mdash; <a href="/question-goldchain">Romans 8</a>:29&ndash;30</span>
         </blockquote>
 
         <blockquote class="pull-quote" style="margin:3rem 0; padding:1.5rem; border-left:4px solid var(--accent-gold); background:rgba(218,165,32,0.05); font-style:italic; font-size:1.05rem; line-height:1.8; color:var(--text-primary);">
@@ -305,7 +346,7 @@
         </div>
     </section>
 
-    <p class="dort-humor">The Remonstrants insisted they had free will. The Synod freely chose to disagree.</p>
+    <p class="dort-humor">The Remonstrants insisted they had <a href="/question-freewill">free will</a>. The Synod freely chose to disagree.</p>
 
     <!-- ============================================ -->
     <!-- SECOND HEAD: CHRIST'S DEATH AND ATONEMENT -->
@@ -313,7 +354,7 @@
     <section class="dort-head content-section reveal" id="second-head">
         <h2>Second Head of Doctrine</h2>
         <p class="dort-head-subtitle">The Death of Christ and the Redemption of Men Thereby</p>
-        <p class="dort-intro">If God chose specific people for salvation, did Christ die specifically for those people? The Synod answers with the full weight of Scripture: Christ's death is infinitely sufficient for the whole world, but it was the Father's intention that it would effectually redeem the elect. The cross doesn't merely make salvation <em>possible</em>&mdash;it makes salvation <em>certain</em>. For a deeper exploration of this truth, see <a href="/systematic-atonement">Definite Atonement</a> and <a href="/compare-calvinism-arminianism">how this differs from the Arminian view</a>.</p>
+        <p class="dort-intro">If God chose specific people for salvation, did Christ die specifically for those people? The Synod answers with the full weight of Scripture: Christ's death is infinitely sufficient for the whole world, but it was the Father's intention that it would effectually redeem the elect. The cross doesn't merely make salvation <em>possible</em>&mdash;it makes salvation <em>certain</em>. For a deeper exploration of this truth, see <a href="/systematic-atonement">Definite Atonement</a> and <a href="/compare-calvinism-<a href="/compare-calvinism-arminianism">arminianism</a>">how this differs from the Arminian view</a>.</p>
 
         <div class="article-block">
             <p class="article-label">Article 1</p>
@@ -377,7 +418,7 @@
             <p class="article-title">The Effect of the Fall</p>
             <p class="article-text">"Man was originally formed after the image of God. His understanding was adorned with a true and saving knowledge of his Creator, and of spiritual things; his heart and will were upright, all his affections pure, and the whole man was holy. But, revolting from God by the instigation of the devil and by his own free will, he forfeited these excellent gifts; and in the place thereof became involved in blindness of mind, horrible darkness, vanity, and perverseness of judgment; became wicked, rebellious, and obdurate in heart and will, and impure in his affections."</p>
             <div class="article-commentary">
-                <strong>Why this matters:</strong> The Synod paints a portrait of the fall that is comprehensive. It affected the mind (blindness), the judgment (perverseness), the heart (wickedness), the will (rebellion), and the affections (impurity). Total depravity doesn't mean people are as bad as they could possibly be&mdash;it means that every faculty of their being has been corrupted by sin. There's no island of untouched spiritual health from which they can choose God.
+                <strong>Why this matters:</strong> The Synod paints a portrait of the fall that is comprehensive. It affected the mind (blindness), the judgment (perverseness), the heart (wickedness), the will (rebellion), and the affections (impurity). <a href="/systematic-hamartiology">Total depravity</a> doesn't mean people are as bad as they could possibly be&mdash;it means that every faculty of their being has been corrupted by sin. There's no island of untouched spiritual health from which they can choose God.
             </div>
         </div>
 
@@ -408,7 +449,7 @@
         <div class="article-block">
             <p class="article-label">Article 12</p>
             <p class="article-title">Regeneration Is Supernatural</p>
-            <p class="article-text">"And this is that regeneration so highly extolled in Scripture, that new creation, resurrection from the dead, a making alive, which God works in us without our aid. But this is nowise effected merely by the external preaching of the gospel, by moral suasion, or such a mode of operation that, after God has performed His part, it still remains in the power of man to be regenerated or not, to be converted or to continue unconverted."</p>
+            <p class="article-text">"And this is that <a href="/systematic-regeneration">regeneration</a> so highly extolled in Scripture, that new creation, resurrection from the dead, a making alive, which God works in us without our aid. But this is nowise effected merely by the external preaching of the gospel, by moral suasion, or such a mode of operation that, after God has performed His part, it still remains in the power of man to be regenerated or not, to be converted or to continue unconverted."</p>
             <div class="article-commentary">
                 <strong>Why this matters:</strong> The Synod explicitly names what regeneration is <em>not</em>: it is not "moral suasion"&mdash;God isn't merely making a really good case. And it is not a work where God does His part and then waits for man to do his. Regeneration is a <em>new creation</em>, a <em>resurrection</em>. The same God who said "Let there be light" says "Let there be life" in the soul of the sinner. And that word accomplishes what it commands.
             </div>
@@ -439,7 +480,7 @@
     <p class="dort-humor">Free will walked into a bar. It was predestined to order the same thing.</p>
 
     <!-- ============================================ -->
-    <!-- FIFTH HEAD: PERSEVERANCE OF THE SAINTS -->
+    <!-- FIFTH HEAD: <a href="/question-perseverance">PERSEVERANCE OF THE SAINTS</a> -->
     <!-- ============================================ -->
     <section class="dort-head content-section reveal" id="fifth-head">
         <h2>Fifth Head of Doctrine</h2>
@@ -467,7 +508,7 @@
         <div class="article-block">
             <p class="article-label">Article 6</p>
             <p class="article-title">God Preserves the Elect</p>
-            <p class="article-text">"But God, who is rich in mercy, according to His unchangeable purpose of election, does not wholly withdraw the Holy Spirit from His own people even when they fall into grievous sins; nor suffers them to proceed so far as to lose the grace of adoption and forfeit the state of justification, or to commit the sin unto death."</p>
+            <p class="article-text">"But God, who is rich in mercy, according to His unchangeable purpose of election, does not wholly withdraw the Holy Spirit from His own people even when they fall into grievous sins; nor suffers them to proceed so far as to lose the grace of adoption and forfeit the state of <a href="/systematic-justification">justification</a>, or to commit the sin unto death."</p>
             <div class="article-commentary">
                 <strong>Why this matters:</strong> Even in the worst backsliding, God does not abandon His elect. He may discipline. He may withdraw the comfort of His presence. But He will not withdraw the Holy Spirit. The grace of adoption and the state of justification&mdash;these are irrevocable gifts rooted in God's unchangeable purpose. If your salvation could be lost, then it was never the kind of salvation Scripture describes.
             </div>
@@ -511,7 +552,7 @@
 
         <div class="historical-context">
             <h3>The Scope of the Synod</h3>
-            <p>The Synod of Dort was one of the most significant ecclesiastical assemblies in Protestant history. It wasn't a local church fight&mdash;it was an <strong style="color:var(--text-primary);">international Reformed council</strong>. Delegates came from the Dutch Republic, Great Britain, the Palatinate, Hesse, Switzerland, Nassau-Wetteravia, Bremen, Emden, and (unofficially) France.</p>
+            <p>The <a href="/history-dort">Synod of Dort</a> was one of the most significant ecclesiastical assemblies in Protestant history. It wasn't a local church fight&mdash;it was an <strong style="color:var(--text-primary);">international Reformed council</strong>. Delegates came from the Dutch Republic, Great Britain, the Palatinate, Hesse, Switzerland, Nassau-Wetteravia, Bremen, Emden, and (unofficially) France.</p>
             <p>Over <strong style="color:var(--text-primary);">154 sessions</strong> spanning seven months, these theologians examined the Remonstrant position against Scripture, the church fathers, and the historic confessions. The result was not innovation but confirmation: <em>the doctrines of grace are the doctrines of the Bible.</em></p>
         </div>
 
@@ -603,7 +644,7 @@
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>

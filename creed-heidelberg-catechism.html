@@ -36,6 +36,44 @@
     
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        .qa-block { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 8px; padding: 2rem; margin-bottom: 2rem; transition: border-color 0.3s ease; }
+        .qa-block:hover { border-color: rgba(212, 162, 84, 0.3); }
+        .qa-number { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.8rem; }
+        .qa-question { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--accent-gold); margin-bottom: 1rem; line-height: 1.4; }
+        .qa-answer { color: var(--text-primary); font-size: 0.95rem; line-height: 1.85; font-style: italic; margin-bottom: 1.2rem; padding-left: 1.2rem; border-left: 3px solid var(--accent-gold); }
+        .qa-commentary { color: var(--text-secondary); font-size: 0.92rem; line-height: 1.75; }
+        .qa-commentary strong { color: var(--text-primary); }
+        .qa-scriptures { margin-top: 0.8rem; font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; color: var(--accent-violet); }
+
+        .part-header { margin: 4rem 0 2rem; text-align: center; }
+        .part-header h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--accent-gold); margin-bottom: 0.3rem; }
+        .part-header .part-subtitle { font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; color: var(--accent-violet); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.8rem; }
+        .part-header .part-intro { color: var(--text-secondary); font-size: 1rem; line-height: 1.8; max-width: 700px; margin: 0 auto; }
+
+        .dort-humor { font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; color: var(--text-muted); text-align: center; margin: 3rem 0; opacity: 0.7; }
+
+        .historical-context { background: rgba(139, 92, 246, 0.06); border: 1px solid rgba(139, 92, 246, 0.15); border-radius: 8px; padding: 2rem; margin: 2.5rem 0; }
+        .historical-context h3 { color: var(--accent-violet); font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 1rem; }
+        .historical-context p { color: var(--text-secondary); font-size: 0.93rem; line-height: 1.75; margin-bottom: 0.8rem; }
+        .historical-context p:last-child { margin-bottom: 0; }
+        .catechism-
+        .catechism-
+
+        .comfort-highlight { background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.06)); border: 1px solid rgba(212, 162, 84, 0.2); border-radius: 10px; padding: 2.5rem; margin: 2rem 0; text-align: center; }
+        .comfort-highlight .qa-answer { text-align: left; border-left: 4px solid var(--accent-gold); padding: 1.5rem; font-size: 1.05rem; }
+
+        @media (max-width: 768px) {
+            .part-header h2 { font-size: 1.6rem; }
+            .qa-block { padding: 1.3rem; }
+            .qa-question { font-size: 1.05rem; }
+            .catechism-
+        }
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -164,7 +202,7 @@
     <div class="historical-context">
         <h3>Why This Catechism Exists</h3>
         <p>In 1563, Elector Frederick III of the Palatinate commissioned two young theologians&mdash;<strong style="color:var(--text-primary);">Zacharias Ursinus</strong> (age 28) and <strong style="color:var(--text-primary);">Caspar Olevianus</strong> (age 26)&mdash;to write a catechism that would unite the Reformed churches of his territory. The result was a masterpiece of warmth and precision.</p>
-        <p>Unlike the Canons of Dort, which were forged in controversy, the Heidelberg Catechism was born from a pastoral heart. Its genius lies in its structure: it organizes all of Christian theology around three simple themes&mdash;<strong style="color:var(--text-primary);">misery</strong> (how great is my sin), <strong style="color:var(--text-primary);">deliverance</strong> (how I am set free), and <strong style="color:var(--text-primary);">gratitude</strong> (how I thank God for such deliverance). The entire catechism is divided into 52 Lord's Days&mdash;one for each Sunday of the year.</p>
+        <p>Unlike the Canons of <a href="/history-dort">Dort</a>, which were forged in controversy, the Heidelberg Catechism was born from a pastoral heart. Its genius lies in its structure: it organizes all of Christian theology around three simple themes&mdash;<strong style="color:var(--text-primary);">misery</strong> (how great is my sin), <strong style="color:var(--text-primary);">deliverance</strong> (how I am set free), and <strong style="color:var(--text-primary);">gratitude</strong> (how I thank God for such deliverance). The entire catechism is divided into 52 Lord's Days&mdash;one for each Sunday of the year.</p>
         <p>But the foundation of everything is <strong style="color:var(--accent-gold);">Question 1</strong>: the most famous opening question in the history of catechisms.</p>
     </div>
 
@@ -179,9 +217,9 @@
                 That I am not my own, but belong&mdash;body and soul, in life and in death&mdash;to my faithful Savior, Jesus Christ. He has fully paid for all my sins with His precious blood, and has set me free from the tyranny of the devil. He also watches over me in such a way that not a hair can fall from my head without the will of my Father in heaven; in fact, all things must work together for my salvation. Because I belong to Him, Christ, by His Holy Spirit, assures me of eternal life and makes me wholeheartedly willing and ready from now on to live for Him.
             </div>
             <p style="color:var(--text-secondary); font-size:0.95rem; line-height:1.8; max-width:700px; margin:1.5rem auto 0; text-align:left;">
-                This is arguably the most beautiful paragraph in the entire Reformed confessional tradition. In a single breath, it touches the sovereignty of God over every detail of life ("not a hair can fall"), the definite atonement of Christ ("fully paid for <em>all</em> my sins"), the bondage of the will now broken ("set me free"), the preservation of the saints ("all things must work together for my salvation"), and the effectual work of the Spirit ("makes me wholeheartedly willing"). Every doctrine of grace is here&mdash;not as cold abstraction, but as <em>personal comfort</em>.
+                This is arguably the most beautiful paragraph in the entire Reformed confessional tradition. In a single breath, it touches the <a href="/question-sovereignty-logic">sovereignty</a> of God over every detail of life ("not a hair can fall"), the <a href="/systematic-atonement">definite atonement</a> of Christ ("fully paid for <em>all</em> my sins"), the bondage of the will now broken ("set me free"), the preservation of the saints ("all things must work together for my salvation"), and the effectual work of the Spirit ("makes me wholeheartedly willing"). Every doctrine of grace is here&mdash;not as cold abstraction, but as <em>personal comfort</em>.
             </p>
-            <p class="qa-scriptures" style="text-align:center; margin-top:1rem;">Romans 14:7&ndash;9 &bull; 1 Corinthians 6:19&ndash;20 &bull; 1 Peter 1:18&ndash;19 &bull; Romans 8:28 &bull; John 6:39&ndash;40</p>
+            <p class="qa-scriptures" style="text-align:center; margin-top:1rem;">Romans 14:7&ndash;9 &bull; 1 Corinthians 6:19&ndash;20 &bull; 1 Peter 1:18&ndash;19 &bull; <a href="/question-goldchain">Romans 8</a>:28 &bull; <a href="/question-john6">John 6</a>:39&ndash;40</p>
         </div>
     </section>
 
@@ -212,7 +250,7 @@
             <p class="qa-question">Can you live up to all this perfectly?</p>
             <div class="qa-answer">No. I have a natural tendency to hate God and my neighbor.</div>
             <div class="qa-commentary">
-                <strong>Why this matters:</strong> Not "I sometimes fall short." Not "I'm working on it." The catechism says we have a <em>natural tendency to hate God</em>. This isn't pessimism&mdash;it's realism. It's what Paul means when he says "the mind that is set on the flesh is hostile to God" (Romans 8:7). Until you see this, you will never see why you need a sovereign Savior who doesn't wait for your cooperation.
+                <strong>Why this matters:</strong> Not "I sometimes fall short." Not "I'm working on it." The catechism says we have a <em>natural tendency to hate God</em>. This isn't pessimism&mdash;it's realism. It's what Paul means when he says "the mind that is set on the flesh is hostile to God" (Romans 8:7). Until you see this, you will never see why you need a <a href="/question-sovereignty-logic">sovereign</a> Savior who doesn't wait for your cooperation.
             </div>
             <p class="qa-scriptures">Romans 3:10&ndash;12 &bull; Genesis 6:5 &bull; Romans 8:7</p>
         </div>
@@ -224,13 +262,13 @@
             <div class="qa-commentary">
                 <strong>Why this matters:</strong> Original sin isn't a theological footnote&mdash;it's the explanation for everything. We're not sinners because we sin; we sin because we're sinners. The corruption runs to the root. We inherited it. We didn't choose it in some pre-existent state. We were born into it, like being born underwater&mdash;drowning is the only thing we know.
             </div>
-            <p class="qa-scriptures">Romans 5:12&ndash;19 &bull; Psalm 51:5 &bull; Ephesians 2:3</p>
+            <p class="qa-scriptures">Romans 5:12&ndash;19 &bull; Psalm 51:5 &bull; <a href="/question-faithgift">Ephesians 2</a>:3</p>
         </div>
 
         <div class="qa-block">
             <p class="qa-number">Question &amp; Answer 8</p>
             <p class="qa-question">But are we so corrupt that we are totally unable to do any good and inclined to all evil?</p>
-            <div class="qa-answer">Yes, unless we are born again by the Spirit of God.</div>
+            <div class="qa-answer">Yes, unless we are <a href="/systematic-<a href="/systematic-regeneration">regeneration</a>">born again</a> by the Spirit of God.</div>
             <div class="qa-commentary">
                 <strong>Why this matters:</strong> The catechism gives the hardest answer possible&mdash;and then immediately points to the only solution. "Unless we are born again." Not born again by choosing to be born again (who ever chose their own birth?), but "born again <em>by the Spirit of God.</em>" The solution to total inability is sovereign regeneration. Dead men don't contribute to their resurrection.
             </div>
@@ -308,9 +346,9 @@
             <p class="qa-question">What do you believe concerning "the holy catholic church"?</p>
             <div class="qa-answer">I believe that the Son of God through His Spirit and Word, out of the entire human race, from the beginning of the world to its end, gathers, protects, and preserves for Himself a community chosen for eternal life and united in true faith. And of this community I am and always will be a living member.</div>
             <div class="qa-commentary">
-                <strong>Why this matters:</strong> The church isn't a human organization that exists because people decided to join it. It exists because the Son of God <em>gathers</em> it. He chose it. He protects it. He preserves it. And the catechism makes the stunning personal claim: "of this community I am and <em>always will be</em> a living member." That's perseverance of the saints stated as personal certainty.
+                <strong>Why this matters:</strong> The church isn't a human organization that exists because people decided to join it. It exists because the Son of God <em>gathers</em> it. He chose it. He protects it. He preserves it. And the catechism makes the stunning personal claim: "of this community I am and <em>always will be</em> a living member." That's <a href="/question-perseverance">perseverance of the saints</a> stated as personal certainty.
             </div>
-            <p class="qa-scriptures">Ephesians 1:10&ndash;12 &bull; John 10:28 &bull; 1 Peter 1:3&ndash;5</p>
+            <p class="qa-scriptures">Ephesians 1:10&ndash;12 &bull; <a href="/question-john10">John 10</a>:28 &bull; 1 Peter 1:3&ndash;5</p>
         </div>
 
         <blockquote style="margin:2rem 0;">
@@ -346,7 +384,7 @@
             <p class="qa-question">Can those be saved who do not turn to God from their ungrateful and impenitent ways?</p>
             <div class="qa-answer">By no means. Scripture tells us that no unchaste person, no idolater, adulterer, thief, no covetous person, no drunkard, slanderer, robber, or the like will inherit the kingdom of God.</div>
             <div class="qa-commentary">
-                <strong>Why this matters:</strong> The catechism prevents cheap grace. Election doesn't mean "I can live however I want." Those whom God truly saves, He truly changes. The absence of any fruit isn't proof that you once believed and lost it&mdash;it's evidence that the saving work never took root. The elect produce fruit, not because they must in order to stay saved, but because God's Spirit in them makes it impossible not to.
+                <strong>Why this matters:</strong> The catechism prevents cheap grace. <a href="/systematic-election">Election</a> doesn't mean "I can live however I want." Those whom God truly saves, He truly changes. The absence of any fruit isn't proof that you once believed and lost it&mdash;it's evidence that the saving work never took root. The elect produce fruit, not because they must in order to stay saved, but because God's Spirit in them makes it impossible not to.
             </div>
             <p class="qa-scriptures">1 Corinthians 6:9&ndash;10 &bull; Galatians 5:19&ndash;21 &bull; 1 John 3:14</p>
         </div>
@@ -398,7 +436,7 @@
 
         <div class="historical-context">
             <h3>The Warmest Confession</h3>
-            <p>Among all the Reformed confessions, the Heidelberg Catechism is the most <strong style="color:var(--text-primary);">personal</strong>. While the Westminster Confession speaks in third person ("God from all eternity did decree..."), the Heidelberg speaks in first person: "I am not my own." "I trust Him." "I believe." It reads not like a legal document but like a love letter from God to His people, written in the language of comfort.</p>
+            <p>Among all the Reformed confessions, the Heidelberg Catechism is the most <strong style="color:var(--text-primary);">personal</strong>. While the <a href="/history-confessions-story">Westminster</a> Confession speaks in third person ("God from all eternity did decree..."), the Heidelberg speaks in first person: "I am not my own." "I trust Him." "I believe." It reads not like a legal document but like a love letter from God to His people, written in the language of comfort.</p>
         </div>
 
         <div class="historical-context">
@@ -408,7 +446,7 @@
 
         <div class="historical-context">
             <h3>Sovereign Grace Made Personal</h3>
-            <p>Every doctrine that some find terrifying&mdash;total depravity, unconditional election, irresistible grace, perseverance&mdash;the Heidelberg Catechism transforms into <strong style="color:var(--accent-gold);">comfort</strong>. I can't save myself? <em>Thank God&mdash;He saved me.</em> I didn't choose Him? <em>Thank God&mdash;He chose me.</em> I can't keep myself? <em>Thank God&mdash;He keeps me.</em> The doctrines of grace aren't theological abstractions to be debated. They're the ground beneath your feet when everything else gives way.</p>
+            <p>Every doctrine that some find terrifying&mdash;<a href="/systematic-hamartiology">total depravity</a>, <a href="/systematic-election">unconditional election</a>, irresistible grace, perseverance&mdash;the Heidelberg Catechism transforms into <strong style="color:var(--accent-gold);">comfort</strong>. I can't save myself? <em>Thank God&mdash;He saved me.</em> I didn't choose Him? <em>Thank God&mdash;He chose me.</em> I can't keep myself? <em>Thank God&mdash;He keeps me.</em> The doctrines of grace aren't theological abstractions to be debated. They're the ground beneath your feet when everything else gives way.</p>
         </div>
     </section>
 
@@ -429,7 +467,7 @@
                     <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.4rem;">Canons of Dort</h4>
                     <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The confessional heart of sovereign grace in four heads of doctrine.</p>
                 </a>
-                <a href="/question-depravity" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
+                <a href="/question-<a href="/question-depravity">depravity</a>" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
                     <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin-bottom: 0.4rem;">Total Depravity</h4>
                     <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Scripture's diagnosis of the human condition apart from grace.</p>
                 </a>
@@ -470,7 +508,7 @@
       </a>
       <a href="/scripture-tsunami" class="related-article-card">
         <span class="related-article-cat">📄 General</span>
-        <span class="related-article-title">500+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
+        <span class="related-article-title">480+ Bible Verses That Prove God&#039;s Sovereignty in Salvation | Scripture Tsunami</span>
         <span class="related-article-desc">They told you</span>
       </a>
       <a href="/invisible-wall-lonely-theological" class="related-article-card">
@@ -490,7 +528,7 @@
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>

@@ -48,6 +48,314 @@
     </script>
 
     
+<style>
+        :root {
+            --bg-deep: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-card-hover: #1a1a2e;
+            --accent-gold: #d4a254;
+            --accent-ember: #e8642c;
+            --accent-violet: #8b5cf6;
+            --text-primary: #f0ece4;
+            --text-secondary: #9a958c;
+            --text-muted: #807b75;
+            --border-subtle: rgba(212, 162, 84, 0.12);
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+        }
+
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
+            width: 0%;
+            z-index: 9999;
+            transition: width 0.1s ease;
+        }
+
+        .page-hero {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.08) 0%, rgba(212, 162, 84, 0.04) 100%);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 5rem 2rem 3rem;
+            text-align: center;
+        }
+
+        .hero-eyebrow {
+            font-size: 0.85rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent-violet);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .page-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.6rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+            max-width: 850px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .page-hero h1 .gold {
+            color: var(--accent-gold);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 1rem;
+            line-height: 1.7;
+        }
+
+        .reading-time {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .content-wrap {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 3rem 2rem 4rem;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin: 3rem 0 1.5rem;
+            color: var(--text-primary);
+            border-left: 3px solid var(--accent-gold);
+            padding-left: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem;
+            color: var(--text-primary);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .pullquote {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            line-height: 1.5;
+            color: var(--accent-gold);
+            border-left: 3px solid var(--accent-gold);
+            padding: 1.5rem 2rem;
+            margin: 2.5rem 0;
+            background: rgba(212, 162, 84, 0.05);
+            font-style: italic;
+        }
+
+        .scripture-block {
+            background-color: var(--bg-card);
+            border-left: 4px solid var(--accent-gold);
+            padding: 1.5rem 2rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .scripture-ref {
+            display: block;
+            font-size: 0.875rem;
+            color: var(--accent-violet);
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .scripture-text {
+            font-family: "JetBrains Mono", monospace;
+            font-size: 0.95rem;
+            line-height: 1.8;
+            color: var(--text-primary);
+        }
+
+        .pastoral-whisper {
+            background-color: rgba(139, 92, 246, 0.08);
+            border-left: 4px solid var(--accent-violet);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-style: italic;
+            color: var(--text-primary);
+        }
+
+        .three-worlds {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        @media (min-width: 700px) {
+            .three-worlds {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        .world-card {
+            background: var(--bg-card);
+            border-radius: 8px;
+            padding: 1.5rem;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .world-card.secular { border-top: 3px solid var(--text-muted); }
+        .world-card.religious { border-top: 3px solid var(--accent-ember); }
+        .world-card.gospel { border-top: 3px solid var(--accent-gold); }
+
+        .world-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .world-card.secular .world-label { color: var(--text-muted); }
+        .world-card.religious .world-label { color: var(--accent-ember); }
+        .world-card.gospel .world-label { color: var(--accent-gold); }
+
+        .world-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            border-bottom: 1px solid transparent;
+        }
+
+        a:hover {
+            color: var(--accent-ember);
+            border-bottom: 1px solid var(--accent-ember);
+        }
+
+        .never-gives-up-banner {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(212, 162, 84, 0.05) 100%);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 3rem 0;
+            text-align: center;
+        }
+
+        .banner-title {
+            font-family: "Playfair Display", serif;
+            font-size: 1.5rem;
+            color: var(--accent-gold);
+            margin-bottom: 0.75rem;
+        }
+
+        .banner-text {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .banner-link {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: var(--accent-violet);
+            color: var(--text-primary);
+            border-radius: 4px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .banner-link:hover {
+            background-color: var(--accent-gold);
+            color: var(--bg-deep);
+        }
+
+        .keep-reading {
+            margin: 3rem 0;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+        }
+
+        .keep-reading-title {
+            font-family: "Playfair Display", serif;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent-gold);
+        }
+
+        .article-link {
+            display: block;
+            padding: 1.25rem;
+            background-color: var(--bg-card);
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            border-left: 3px solid var(--accent-violet);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .article-link:hover {
+            transform: translateX(8px);
+            background-color: rgba(139, 92, 246, 0.1);
+            border-bottom: none;
+        }
+
+        .article-link-title {
+            font-weight: 600;
+            color: var(--text-primary);
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .article-link-desc {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .site-footer {
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            text-align: center;
+            padding: 3rem 2rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .site-footer a {
+            color: var(--accent-gold);
+        }
+
+        @media (max-width: 768px) {
+            .page-hero h1 {
+                font-size: 1.8rem;
+            }
+            .content-wrap {
+                padding: 2rem 1.25rem 3rem;
+            }
+            .pullquote {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="reading-progress" id="readingProgress"></div>

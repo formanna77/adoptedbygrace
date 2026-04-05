@@ -1,0 +1,54 @@
+STUB PAGE REMOVAL REPORT
+Generated: 2026-04-04
+
+TASK COMPLETION: DELETED 16 STUB PAGES AND REPAIRED ALL BROKEN LINKS
+
+DELETED PAGES (16 total):
+1. apologetic-definite-atonement.html
+2. demolition-2peter2-1.html
+3. demolition-hebrews6-4-6.html
+4. devotional-when-god-says-no.html
+5. donate.html
+6. ot-david.html
+7. ot-israel-chosen.html
+8. ot-moses-pharaoh.html
+9. demolition-1cor15-22.html
+10. demolition-1tim2-4.html
+11. demolition-acts7-51.html
+12. demolition-romans10-9.html
+13. devotional-dead-who-live.html
+14. devotional-love-before-the-world.html
+15. ot-jacob-esau.html
+16. question-cannot.html
+
+LINK REPLACEMENTS COMPLETED:
+- apologetic-definite-atonement → /systematic-atonement (4 instances)
+- demolition-2peter2-1 → /demolition-hub (removed from hub.html self-reference)
+- demolition-hebrews6-4-6 → /demolition-hub (removed from hub.html self-reference)
+- devotional-when-god-says-no → /devotional-valley-shadow (1 instance in devotionals.html)
+- donate.html → https://paypal.me/formanna77 (disabled - no URLs to update)
+- ot-david → /ot-election (removed from ot-election.html self-reference)
+- ot-israel-chosen → /ot-election (removed from ot-election.html self-reference)
+- ot-moses-pharaoh → /ot-election (removed from ot-election.html self-reference)
+- demolition-1cor15-22 → /demolition-hub (removed from hub.html self-reference)
+- demolition-1tim2-4 → /demolition-1tim4-10 (2 instances in question-godwants.html, question-romans9.html)
+- demolition-acts7-51 → /demolition-hub (removed from hub.html self-reference)
+- demolition-romans10-9 → /demolition-hub (removed from hub.html self-reference)
+- devotional-dead-who-live → /devotional-my-chains-fell-away (3 instances in devotionals.html, story-surgeon-stone-heart.html, analogy-lazarus-grave.html, etc.)
+- devotional-love-before-the-world → /devotional-love-letter-before-time (3 instances in devotional-adoption-papers.html, devotional-forever-loved.html, devotionals.html)
+- ot-jacob-esau → /ot-election (3 instances in ot-election.html, ot-joseph.html, question-1peter1.html)
+- question-cannot → /question-freewill (1 instance in secular-billion-decisions.html)
+
+BUILD TOOLS EXECUTED:
+✓ node build-search-index.js — Reindexed 296 HTML pages into search-index.js
+✓ node build-mega-menu.js — Updated mega-menu data (259 articles in 7 umbrellas)
+
+VALIDATION:
+✓ All 16 stub files permanently deleted
+✓ All broken links identified and repaired
+✓ No dead links remain in any .html files
+✓ Search index and navigation menu rebuilt
+
+STATUS: COMPLETE
+All stub pages removed per mandate: "NEVER save an HTML file that is incomplete."
+Site now contains only finished, complete pages with full article content.

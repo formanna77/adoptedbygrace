@@ -39,6 +39,254 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/global.css">
     
+<style>
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #d4a574 0%, #e8c89d 100%);
+            width: 0%;
+            z-index: 9999;
+        }
+        
+        .hero-eyebrow {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #d4a574;
+            margin-bottom: 0.5rem;
+            opacity: 0.9;
+        }
+        
+        .hero-section {
+            padding: 4rem 2rem;
+            max-width: 50rem;
+            margin: 0 auto;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(212, 165, 116, 0.03) 0%, rgba(232, 200, 157, 0.03) 100%);
+            border-bottom: 1px solid rgba(212, 165, 116, 0.1);
+        }
+        
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            color: #0a0a0f;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 1.8rem;
+            }
+        }
+        
+        .hero-subtitle {
+            font-size: 1.125rem;
+            line-height: 1.6;
+            color: #444;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+        
+        .reading-time {
+            font-size: 0.85rem;
+            color: #888;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+        }
+        
+        .content-main {
+            max-width: 50rem;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        
+        .section {
+            margin-bottom: 3rem;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid rgba(212, 165, 116, 0.1);
+        }
+        
+        .section:last-of-type {
+            border-bottom: none;
+        }
+        
+        .section-number {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #d4a574;
+            margin-bottom: 0.75rem;
+            opacity: 0.8;
+        }
+        
+        .section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #0a0a0f;
+            line-height: 1.3;
+        }
+        
+        .section-body {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #333;
+        }
+        
+        .section-body p {
+            margin-bottom: 1.25rem;
+        }
+        
+        .section-body p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .concept-card {
+            background: rgba(212, 165, 116, 0.04);
+            border-left: 4px solid #d4a574;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+        
+        .concept-card-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #d4a574;
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .concept-card-body {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #444;
+        }
+        
+        .pull-quote {
+            font-size: 1.25rem;
+            line-height: 1.6;
+            color: #d4a574;
+            font-style: italic;
+            border-left: 4px solid #d4a574;
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-weight: 500;
+        }
+        
+        .pull-quote-attribution {
+            font-size: 0.875rem;
+            color: #888;
+            font-style: normal;
+            margin-top: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            margin: 2rem 0;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+        
+        .comparison-table th {
+            background: rgba(212, 165, 116, 0.1);
+            padding: 1rem;
+            text-align: left;
+            font-weight: 700;
+            color: #0a0a0f;
+            border-bottom: 2px solid #d4a574;
+        }
+        
+        .comparison-table td {
+            padding: 1rem;
+            border-bottom: 1px solid rgba(212, 165, 116, 0.1);
+            color: #444;
+        }
+        
+        .comparison-table tr:hover td {
+            background: rgba(212, 165, 116, 0.02);
+        }
+        
+        .keep-reading {
+            margin-top: 4rem;
+            padding: 2rem;
+            background: rgba(212, 165, 116, 0.05);
+            border-radius: 8px;
+        }
+        
+        .keep-reading-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #0a0a0f;
+        }
+        
+        .keep-reading-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .keep-reading-card {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 6px;
+            border: 1px solid rgba(212, 165, 116, 0.2);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .keep-reading-card:hover {
+            border-color: #d4a574;
+            box-shadow: 0 4px 12px rgba(212, 165, 116, 0.15);
+            transform: translateY(-2px);
+        }
+        
+        .keep-reading-card-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #0a0a0f;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        
+        .keep-reading-card-desc {
+            font-size: 0.85rem;
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .footnote {
+            font-size: 0.875rem;
+            color: #888;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        
+        strong {
+            color: #0a0a0f;
+            font-weight: 700;
+        }
+    </style>
 </head>
 <body>
     <div class="reading-progress"></div>
@@ -158,13 +406,13 @@
                 
                 <p>You are the center, and salvation orbits around your choice.</p>
                 
-                <p>But the data of Scripture doesn't fit. John 6:44 says, <em>"No one can come to me unless the Father who sent me draws them."</em> Ephesians 2:8-9 says faith itself is a gift—<em>"For by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God."</em> Philippians 1:29 says <em>"it has been granted to you on behalf of Christ...to believe in him."</em> Romans 8:29-30 lays out an unbroken chain of predestination.</p>
+                <p>But the data of Scripture doesn't fit. <a href="/question-john6">John 6:44 says, <em>"No one can come to me unless the Father who sent me draws them."</em></a> <a href="/question-faithgift">Ephesians 2:8-9 says faith itself is a gift—<em>"For by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God."</em></a> Philippians 1:29 says <em>"it has been granted to you on behalf of Christ...to believe in him."</em> <a href="/question-goldchain">Romans 8:29-30 lays out an unbroken chain of predestination.</a></p>
                 
                 <p>These passages contradict the self-centered model. So theologians add epicycles.</p>
                 
                 <div class="concept-card">
                     <div class="concept-card-title">The Theological Epicycles</div>
-                    <div class="concept-card-body"><strong>Prevenient grace</strong> (grace that comes before faith) is added to explain why humans can even respond to God while still claiming free will. <strong>Middle knowledge</strong> (God knowing what free creatures would freely choose) is introduced to preserve divine foreknowledge while maintaining libertarian autonomy. <strong>Libertarian free will itself</strong> becomes a special metaphysical category that somehow exists outside causation—the ultimate epicycle, a wheel spinning in perfect freedom that defies every law of cause and effect.</div>
+                    <div class="concept-card-body"><strong>Prevenient grace</strong> (grace that comes before faith) is added to explain why humans can even respond to God while still claiming <a href="/question-freewill">free will</a>. <strong>Middle knowledge</strong> (God knowing what free creatures would freely choose) is introduced to preserve divine <a href="/question-foreknowledge">foreknowledge</a> while maintaining libertarian autonomy. <strong>Libertarian free will itself</strong> becomes a special metaphysical category that somehow exists outside causation—the ultimate epicycle, a wheel spinning in perfect freedom that defies every law of cause and effect.</div>
                 </div>
                 
                 <p>The system works, after a fashion. It fits the data... barely. But only because you keep adding wheels within wheels, each more intricate than the last.</p>
@@ -184,11 +432,11 @@
                 
                 <p>The same occurs in theology when you move the center of salvation from yourself to God.</p>
                 
-                <p>Suddenly, Romans 8:29-30 doesn't need explanation: <em>"For those God foreknew he also predestined to be conformed to the image of his Son...And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."</em> It's a perfect chain. No breaks. No epicycles needed.</p>
+                <p>Suddenly, <a href="/question-goldchain">Romans 8:29-30 doesn't need explanation: <em>"For those God foreknew he also predestined to be conformed to the image of his Son...And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."</em></a> It's a perfect chain. No breaks. No epicycles needed.</p>
                 
-                <p>John 6:44 reads as written: <em>"No one can come to me unless the Father...draws them."</em> Not "can come more easily." Not "can come with an assist." Can't come at all without being drawn. The center is not your willingness. It's God's drawing.</p>
+                <p><a href="/question-john6">John 6:44 reads as written: <em>"No one can come to me unless the Father...draws them."</em></a> Not "can come more easily." Not "can come with an assist." Can't come at all without being drawn. The center is not your willingness. It's God's drawing.</p>
                 
-                <p>Ephesians 2:8-9 means what it says: <em>"For by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."</em> Faith is a gift. Not something you manufacture. Not something you contribute. A gift. Something done <em>to you</em>, not <em>by you</em>.</p>
+                <p><a href="/question-faithgift">Ephesians 2:8-9 means what it says: <em>"For by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast."</em></a> Faith is a gift. Not something you manufacture. Not something you contribute. A gift. Something done <em>to you</em>, not <em>by you</em>.</p>
                 
                 <p>Philippians 1:29: <em>"For it has been granted to you...to believe in him."</em> Granted. As in: given. As in: you did not earn it or generate it yourself.</p>
                 
@@ -212,17 +460,17 @@
             <div class="section-body">
                 <p>Galileo was imprisoned. Bruno was burned at the stake. The Church fought heliocentrism with fury because it wasn't really about astronomy. It was about humanity's place in the cosmos. It was about being displaced from the center.</p>
                 
-                <p>Psychologists have a term for this: <strong>narcissistic injury</strong>. It's the wound that comes from discovering you are not as important as you believed. You are not the main character. The universe does not orbit you. It's a kind of ego death, and the psyche fights it with every defense mechanism available.</p>
+                <p>Psychologists have a term for this: <strong>narcissistic injury</strong>. It's the wound that comes from discovering you are not as important as you believed. You are not the main character. The universe does not orbit you. <a href="/psychology-identity-threat">It's a kind of ego death, and the psyche fights it with every defense mechanism available.</a></p>
                 
-                <p>And notice: the resistance to heliocentrism and the resistance to sovereign grace share the exact same root.</p>
-                
+                <p>And notice: the resistance to heliocentrism and the resistance to <a href="/systematic-election">sovereign grace</a> share the exact same root.</p>
+
                 <p>Both require you to accept that you are not the center. Both require you to surrender the notion that you are the decisive factor. Both strip you of control and place you in a position of radical dependence on forces larger than yourself. In astronomy, it's gravity. In theology, it's grace. And both provoke the same primal scream: <em>"No. That can't be right. I matter. I'm important. My choice matters."</em></p>
                 
                 <p>Consider what someone is really saying when they insist: <em>"I chose God. I made the decision to accept Christ. I became a Christian because I decided to."</em></p>
                 
                 <p>What they're claiming is this: <em>"The decisive factor in my eternal salvation—the thing that separates me from the damned, the thing that moved me from death to life—was my choice. My decision. My autonomy. Something I did."</em></p>
                 
-                <p>But here is what Scripture says is the decisive factor: <strong>grace</strong>. <em>"By grace you have been saved."</em> And grace is, by definition, <strong>unmerited</strong>. It is something done <em>for</em> you, not <em>by</em> you. To claim credit for your faith is to claim credit for grace. And to claim credit for grace is to say it's not grace anymore. It's a work. And works cannot save.</p>
+                <p>But here is what Scripture says is the decisive factor: <strong>grace</strong>. <em>"By grace you have been saved."</em> And grace is, by definition, <strong>unmerited</strong>. It is something done <em>for</em> you, not <em>by</em> you. To claim credit for your faith is to claim credit for grace. And to claim credit for grace is to say it's not grace anymore. <a href="/compare-monergism-synergism">It's a work. And works cannot save.</a></p>
                 
                 <div class="concept-card">
                     <div class="concept-card-title">The Hidden Accusation</div>
@@ -250,20 +498,20 @@
                 
                 <p>But what if the center is not you?</p>
                 
-                <p>What if God is the center, and your faith orbits around His sovereign choice? What if you were chosen before the foundation of the world? What if the Spirit has already drawn you, already illuminated you, already granted you faith as a gift? What if your salvation doesn't rest on your shoulders but on His?</p>
+                <p>What if God is the center, and your faith orbits around His sovereign choice? <a href="/systematic-election">What if you were chosen before the foundation of the world?</a> What if the Spirit has already drawn you, already illuminated you, already granted you faith as a gift? What if your salvation doesn't rest on your shoulders but on His?</p>
                 
                 <p>Suddenly, you are free.</p>
                 
                 <p>You no longer have to sustain yourself. You no longer have to fear that you might lose your grip. You no longer have to manage your salvation like a plate you're spinning on a pole. The gravitational force that holds you is not your will. It's God's grace. And that force has been working since before time began.</p>
                 
-                <p class="footnote">This is not permission to sin. This is not an excuse for spiritual apathy. The doctrine of grace—rightly understood—produces the deepest repentance and the most radical obedience precisely because you are free from the terror of self-salvation.</p>
+                <p class="footnote">This is not permission to sin. This is not an excuse for spiritual apathy. <a href="/devotionals">The doctrine of grace—rightly understood—produces the deepest repentance and the most radical obedience</a> precisely because you are free from the terror of self-salvation.</p>
                 
                 <div class="pull-quote">
                     Being removed from the center isn't demotion. It's the only position from which you can finally rest.
                     <div class="pull-quote-attribution">— The Peace of Dependence</div>
                 </div>
                 
-                <p>This is why Aaron Forman's testimony matters so profoundly. He lived both sides of this revolution. He built intellectual towers to defend God—towers that required him to be the center, the one who could reason his way to faith, who could choose and decide and control. And God shattered them. He brought Aaron to a place where there was nothing left but surrender. Where the only choice was to accept that he had no choice—that he had been chosen long before his choosing could even be possible.</p>
+                <p>This is why <a href="/essays/RE-FORMED.pdf">Aaron Forman's testimony</a> matters so profoundly. He lived both sides of this revolution. He built intellectual towers to defend God—towers that required him to be the center, the one who could reason his way to faith, who could choose and decide and control. And God shattered them. He brought Aaron to a place where there was nothing left but surrender. Where the only choice was to accept that he had no choice—that he had been chosen long before his choosing could even be possible.</p>
                 
                 <p>And in that surrender, he found not diminishment but glory. Not powerlessness but peace. Not insignificance but the unspeakable privilege of being held by infinite love.</p>
                 

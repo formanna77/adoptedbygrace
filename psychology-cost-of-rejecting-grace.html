@@ -46,6 +46,283 @@
     </script>
 
     
+<style>
+        /* Reading Progress Bar */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #e8642c 0%, #d4a254 50%, #8b5cf6 100%);
+            z-index: 1000;
+            width: 0%;
+            transition: width 0.1s ease-out;
+        }
+
+        /* Page Hero */
+        .page-hero {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero-eyebrow {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            letter-spacing: 0.15em;
+            color: #e8642c;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+
+        .page-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 8vw, 3.5rem);
+            line-height: 1.2;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .page-hero .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            line-height: 1.7;
+        }
+
+        /* Main Content */
+        .article-container {
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+        }
+
+        .article-container p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .article-container h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--text-primary);
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid rgba(212, 162, 84, 0.2);
+            padding-bottom: 1rem;
+        }
+
+        .article-container h3 {
+            font-size: 1.35rem;
+            color: var(--text-primary);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Pull Quote */
+        .pull-quote-container {
+            margin: 3rem 0;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.1) 0%, rgba(139, 92, 246, 0.08) 100%);
+            border-left: 4px solid #e8642c;
+            border-radius: 4px;
+            position: relative;
+        }
+
+        .pull-quote-container::before {
+            content: '"';
+            position: absolute;
+            top: -20px;
+            left: 0;
+            font-size: 4rem;
+            color: #e8642c;
+            opacity: 0.3;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .pull-quote {
+            font-size: 1.5rem;
+            line-height: 1.8;
+            color: var(--text-primary);
+            font-style: italic;
+            margin: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .pull-quote-attribution {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+            font-style: normal;
+            text-align: right;
+        }
+
+        /* Scripture Quote */
+        .scripture-quote {
+            background: rgba(212, 162, 84, 0.06);
+            border-left: 4px solid #d4a254;
+            padding: 1.5rem 0 1.5rem 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .scripture-ref {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 0.75rem;
+            font-style: normal;
+        }
+
+        /* Key Insight Box */
+        .key-insight {
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.12) 0%, rgba(212, 162, 84, 0.08) 100%);
+            border: 2px solid rgba(232, 100, 44, 0.3);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 3rem 0;
+            position: relative;
+        }
+
+        .key-insight h3 {
+            color: #e8642c;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+        }
+
+        .key-insight h3::before {
+            content: '⚡';
+            margin-right: 0.75rem;
+            font-size: 1.5rem;
+        }
+
+        .key-insight p {
+            color: var(--text-primary);
+            line-height: 1.8;
+            margin: 1rem 0 0 0;
+        }
+
+        /* Scene Card */
+        .scene-card {
+            background: rgba(139, 92, 246, 0.08);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2.5rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        /* Mercy Section */
+        .mercy-section {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(212, 162, 84, 0.08) 100%);
+            border: 2px solid rgba(139, 92, 246, 0.2);
+            border-radius: 8px;
+            padding: 2.5rem;
+            margin: 4rem 0;
+        }
+
+        .mercy-section h3 {
+            color: #8b5cf6;
+            margin-top: 0;
+        }
+
+        .mercy-section p {
+            color: var(--text-primary);
+            line-height: 1.8;
+        }
+
+        /* Share Bar */
+        .share-bar {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 2px solid rgba(212, 162, 84, 0.2);
+            text-align: center;
+        }
+
+        .share-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1rem;
+        }
+
+        .share-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: rgba(232, 100, 44, 0.1);
+            border: 1px solid rgba(232, 100, 44, 0.3);
+            border-radius: 4px;
+            color: #e8642c;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .share-btn:hover {
+            background: #e8642c;
+            color: white;
+            border-color: #e8642c;
+        }
+
+        /* Ordered List */
+        .article-container ol {
+            line-height: 2;
+            margin: 2rem 0;
+        }
+
+        .article-container ol li {
+            margin-bottom: 0.5rem;
+        }
+
+        .article-container ol li strong {
+            color: #e8642c;
+        }
+
+        @media (max-width: 768px) {
+            .page-hero {
+                padding: 2rem 1.5rem;
+            }
+
+            .article-container {
+                padding: 0 1.5rem 3rem;
+            }
+
+            .pull-quote {
+                font-size: 1.2rem;
+            }
+
+            .share-buttons {
+                gap: 0.5rem;
+            }
+
+            .share-btn {
+                padding: 0.6rem 1rem;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="reading-progress"></div>
@@ -164,7 +441,7 @@
 
         <p>Scripture already answered: <em>"It has been granted to you to believe"</em> (Philippians 1:29). Granted. Not earned. Not activated. Not chosen. <em>Granted</em> — given, by someone else, to someone who didn't have it.</p>
 
-        <p>And again: <em>"For by grace you have been saved through faith — and this is not of yourselves, it is the gift of God — not of works, so that no one may boast"</em> (Ephesians 2:8-9). <em>This</em> — the faith itself — is the gift. Not just salvation. The faith to believe is the gift.</p>
+        <p>And again: <a href="/question-faithgift"><em>"For by grace you have been saved through faith — and this is not of yourselves, it is the gift of God — not of works, so that no one may boast"</em> (Ephesians 2:8-9).</a> <em>This</em> — the faith itself — is the gift. Not just salvation. The faith to believe is the gift.</p>
 
         <p>Be honest with yourself. Because your answer to this question is the difference between grace and something that only <em>looks</em> like grace.</p>
 
@@ -206,7 +483,7 @@
 
         <p>When you say "I chose God," you are not just describing your conversion. You are making a claim about your nature. You are saying that you — a sinner, dead in trespasses and sins — had the ability to reach for God on your own. That sin did not destroy your capacity to choose holiness. That a rebel against God can choose the very thing that is opposite to his nature.</p>
 
-        <p>But Scripture does not say you were sick. It says you were <em>dead</em> (Ephesians 2:1). Dead men do not make decisions. Dead men do not "accept" anything. Dead men do not cooperate with the surgeon. A corpse that wakes up on the operating table did not contribute to its own resuscitation. The doctor did it all. If you were dead — truly dead — then every breath of spiritual life in you was placed there by someone else. Your faith is not your contribution. It is the <em>evidence</em> that God raised you from the dead.</p>
+        <p>But Scripture does not say you were sick. <a href="/systematic-hamartiology">It says you were <em>dead</em> (Ephesians 2:1).</a> Dead men do not make decisions. Dead men do not "accept" anything. Dead men do not cooperate with the surgeon. A corpse that wakes up on the operating table did not contribute to its own resuscitation. The doctor did it all. If you were dead — truly dead — then every breath of spiritual life in you was placed there by someone else. Your faith is not your contribution. It is the <em>evidence</em> that God raised you from the dead.</p>
 
         <p>Calling it your decision is like Lazarus taking credit for walking out of the tomb.</p>
 
@@ -214,15 +491,15 @@
 
         <p>That is the escape hatch. The phrase that lets you dismiss everything above without engaging any of it. So let's engage it.</p>
 
-        <p>A sinner's will is not free. It is <em>enslaved to sin</em> — that is what having a sinful nature means. Your desires, your inclinations, your will all bend toward self, not God. A will enslaved to sin cannot freely choose holiness any more than a man chained to the floor can freely walk through the door. The chain is not removed by wanting it gone. Someone else has to break it.</p>
+        <p>A sinner's will is not free. It is <em>enslaved to sin</em> — that is what having a sinful nature means. Your desires, your inclinations, your will all bend toward self, not God. <a href="/question-freewill">A will enslaved to sin cannot freely choose holiness</a> any more than a man chained to the floor can freely walk through the door. The chain is not removed by wanting it gone. Someone else has to break it.</p>
 
         <p>So when you say "free will," what you are actually saying is: <em>"My sin was not strong enough to stop me from choosing God."</em> You are saying your will overpowered your depravity. You — the slave — freed yourself. But Jesus said: <em>"Everyone who sins is a slave to sin"</em> (John 8:34). And slaves do not free themselves. That is the deepest bondage: the kind that doesn't know it's bound.</p>
 
-        <p>Paul said it with finality: <em>"It does not depend on the man who wills or the man who runs, but on God who has mercy"</em> (Romans 9:16). Not the man who wills. Not the man who "accepts." Not the man who opens the door. <em>God who has mercy.</em> Like a judge who dismisses the case — not because the defendant accepted the dismissal, but because the judge decided to have mercy.</p>
+        <p>Paul said it with finality: <a href="/question-romans9"><em>"It does not depend on the man who wills or the man who runs, but on God who has mercy"</em> (Romans 9:16).</a> Not the man who wills. Not the man who "accepts." Not the man who opens the door. <em>God who has mercy.</em> Like a judge who dismisses the case — not because the defendant accepted the dismissal, but because the judge decided to have mercy.</p>
 
         <h2>The Name for What You're Doing</h2>
 
-        <p>What you are doing — claiming your faith as your contribution, calling your decision the decisive factor, believing you completed the transaction God started — has a name. It is called <em>works-righteousness.</em> It is the oldest enemy of grace in the history of the church. And it has never been more dangerous than right now, because it is hiding inside the mouths of people who say "I believe in grace alone."</p>
+        <p>What you are doing — claiming your faith as your contribution, calling your decision the decisive factor, believing you completed the transaction God started — has a name. <a href="/demolition-works-righteousness">It is called <em>works-righteousness.</em> It is the oldest enemy of grace in the history of the church.</a> And it has never been more dangerous than right now, because it is hiding inside the mouths of people who say "I believe in grace alone."</p>
 
         <p>You are trusting in a work. You are calling it faith. And you cannot see it because the lie has dressed itself in the language of the gospel.</p>
 
@@ -255,17 +532,17 @@
 
         <p>If you belong to God, something is happening in you right now that you did not start. A crack is forming. A question is taking root that will not go away. That is not you being open-minded. That is the Shepherd calling a sheep that has been grazing in the wrong field.</p>
 
-        <p>The man who built this site ran from this truth for over a decade. Across continents. Through rebellion. Through his mother's death from cancer. Through a failing heart and a broken spine. And God would not let him go. On Christmas Day 2024, broke and bedridden, he finally stopped running. Not because he chose to. Because grace would not stop chasing him.</p>
+        <p>The man who built this site ran from this truth for over a decade. Across continents. Through rebellion. Through his mother's death from cancer. Through a failing heart and a broken spine. And God would not let him go. <a href="/essays/RE-FORMED.pdf">On Christmas Day 2024, broke and bedridden, he finally stopped running.</a> Not because he chose to. Because grace would not stop chasing him.</p>
 
-        <p>If you are His, He will do the same to you. Jesus promised: <em>"My sheep hear my voice, and I know them, and they follow me — and no one will snatch them out of my hand"</em> (John 10:27-28). He will not let you rest in the lie that you saved yourself. He will pursue you with this truth until you surrender — gently if you yield, painfully if you resist.</p>
+        <p>If you are His, He will do the same to you. Jesus promised: <em>"My sheep hear my voice, and I know them, and they follow me — and no one will snatch them out of my hand"</em> (John 10:27-28). <a href="/systematic-election">He will not let you rest in the lie that you saved yourself.</a> He will pursue you with this truth until you surrender — gently if you yield, painfully if you resist.</p>
 
         <p>But I must also say this: if what you just read fills you with <em>fury</em> — if your instinct is to defend your contribution, protect your role, insist that you did something — ask yourself what is being threatened. It is not your theology that feels attacked. It is your <em>pride.</em> And the harder you fight, the more clearly you prove the point.</p>
 
         <div class="mercy-section">
             <h3>If Something Just Broke Open</h3>
             <p>If you're still here — if something in you will not let this go — that is not you. That is Him. The very grace this article is about, doing what grace does. You don't have to figure it all out right now. You just have to stop defending the thing that is killing you.</p>
-            <p>Let go. You were never meant to carry the weight of your own salvation. The God who chose you before you existed will hold you long after you stop trying to hold yourself. <em>"He who began a good work in you will carry it on to completion"</em> (Philippians 1:6). He began it. He'll finish it. Not because you're strong enough to hold on — but because His grip does not fail.</p>
-            <p>The judge didn't ask for your signature. He had mercy. And His mercy is not an offer waiting for your response. It is a verdict that has already been rendered. Rest in that.</p>
+            <p>Let go. You were never meant to carry the weight of your own salvation. <a href="/question-chosen">The God who chose you before you existed</a> will hold you long after you stop trying to hold yourself. <em>"He who began a good work in you will carry it on to completion"</em> (Philippians 1:6). He began it. He'll finish it. Not because you're strong enough to hold on — but because His grip does not fail.</p>
+            <p>The judge didn't ask for your signature. He had mercy. <a href="/question-irresistible">And His mercy is not an offer waiting for your response. It is a verdict that has already been rendered.</a> Rest in that.</p>
         </div>
 
         <p>Five minutes. That's all this took. But if the God of the universe used these five minutes to crack something open in you — then what happens next is between you and Him. And He is not finished with you.</p>

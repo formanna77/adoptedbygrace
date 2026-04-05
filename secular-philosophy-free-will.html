@@ -35,6 +35,175 @@
     
         <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+        .philosopher-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .philosopher-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
+        }
+        .philosopher-card .era-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.68rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: var(--accent-violet);
+            margin-bottom: 0.5rem;
+        }
+        .philosopher-card h4 {
+            color: var(--text-primary);
+            margin-bottom: 0.8rem;
+            font-size: 1.15rem;
+        }
+        .philosopher-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.8;
+            margin-bottom: 0;
+        }
+        .philosopher-card .reformed-parallel {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-subtle);
+            font-style: italic;
+            color: var(--accent-gold);
+            font-size: 0.9rem;
+        }
+
+        .argument-box {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.06), rgba(232, 100, 44, 0.04));
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        .argument-box h4 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        .argument-box .premise {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.9;
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .argument-box .premise::before {
+            content: attr(data-num);
+            position: absolute;
+            left: 0;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent-ember);
+            font-weight: 600;
+        }
+        .argument-box .conclusion {
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 1rem;
+            padding-left: 1.5rem;
+            position: relative;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+        .argument-box .conclusion::before {
+            content: '∴';
+            position: absolute;
+            left: 0;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-gold);
+            font-size: 1.1rem;
+        }
+
+        .verdict-box {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.05));
+            border: 2px solid rgba(212, 162, 84, 0.2);
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin: 3rem 0;
+            text-align: center;
+        }
+        .verdict-box h3 {
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+            font-size: 1.6rem;
+        }
+        .verdict-box p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            line-height: 1.9;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .humor-aside {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            text-align: center;
+            padding: 1rem;
+            letter-spacing: 0.03em;
+        }
+
+        .poll-stat {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.06), rgba(232, 100, 44, 0.04));
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 1.5rem 2rem;
+            margin: 2rem 0;
+        }
+        .poll-stat .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            white-space: nowrap;
+            line-height: 1;
+        }
+        .poll-stat .stat-text {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 600px) {
+            .poll-stat { flex-direction: column; text-align: center; gap: 0.8rem; }
+            .poll-stat .stat-number { font-size: 2.2rem; }
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .page-hero { padding: 4.5rem 1rem 1.5rem; }
+            .page-hero::before { width: 250px; height: 250px; }
+            .content-section { padding: 1.5rem 1rem; }
+            footer { margin-top: 2rem; padding: 1.5rem 1rem; }
+            .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
+            .card { padding: 1.5rem; }
+            blockquote, .scripture-block { padding: 1.2rem 1.3rem; }
+        }
+    *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
+a:focus-visible { outline-offset: 3px; }
+button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
@@ -535,7 +704,7 @@
       </a>
     </div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
       <a href="/topics" class="related-browse-link">Explore by Topic →</a>
     </div>
   </div>
