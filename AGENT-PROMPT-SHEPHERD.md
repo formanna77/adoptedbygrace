@@ -195,6 +195,51 @@ Write this entire prompt to `/AGENT-PROMPT-SHEPHERD.md` (the file you are readin
 
 ---
 
+### UPGRADE: SPECIFIC SIN DEVOTIONALS (Added 2026-04-04)
+
+**Create devotionals that name SPECIFIC sins and show how sovereign grace addresses each one.**
+
+These are not generic "God loves sinners" pages. These are laser-targeted devotionals written as if you know EXACTLY what the reader is struggling with. They should feel like a letter written directly to THAT person.
+
+**Topics to create:**
+- **"For the Porn Addict"** — You cannot white-knuckle your way to holiness. Only a God who chose you DESPITE knowing everything can free you. Your shame says "hide." Grace says "I already saw. I chose you anyway."
+- **"For the Angry"** — Your rage is proof you're not in control. And that's the best news you'll ever hear. Sovereignty means your anger doesn't have the final word — God does.
+- **"For the Doubter"** — Your faith didn't come from you, which means your doubt can't destroy it. The God who gave you faith is not intimidated by your questions.
+- **"For the People-Pleaser"** — If God chose you before the foundation of the world, you have already been approved by the only audience that matters. Stop auditioning for roles you've already been cast in.
+- **"For the Exhausted"** — You are tired because you are carrying weight meant for God. Sovereignty means you can put it down. He was holding the world before you tried to.
+- **"For the Secretly Ashamed"** — The thing you've never told anyone? God knew it before He chose you. Election means there are no surprises. No take-backs. No fine print.
+
+**The Pattern:** Name the sin or struggle (SPECIFICALLY) → Validate the pain → Show how sovereign grace is the ONLY answer (not willpower, not accountability, not trying harder) → End with the reader feeling pursued, not condemned.
+
+**Voice:** Tender. Direct. Personal. As if you are sitting across from one person who finally admitted what they've been hiding.
+
+---
+
+### UPGRADE: CRISIS RESPONSE PAGES (Added 2026-04-04)
+
+**Create pages designed for someone in ACTIVE spiritual crisis.**
+
+These are not theology lessons. They are lifelines. Someone is Googling these exact phrases RIGHT NOW, and they need to find US, not a generic "Christian answers" site.
+
+**Pages to create:**
+- **"I Don't Think I'm Saved"** — Title it exactly as the person would SEARCH. Not "Assurance of Salvation in Reformed Theology." The person Googling this at 2am needs a hand reaching into the dark, not a seminary lecture.
+- **"I Can't Feel God"** — Sovereign grace means His presence doesn't depend on your feelings. He chose you before you felt anything. His love is not responsive to your emotional state.
+- **"I've Done Something Unforgivable"** — You're thinking about your sin. God is thinking about His Son. "Before the foundation of the world" means before you could do the thing you think disqualified you.
+- **"I'm Angry at God"** — Good. He can handle it. He chose you knowing you'd be angry at Him right now. Your anger doesn't scare Him. Your running doesn't exhaust Him. Ask Aaron — he ran for a decade.
+- **"My Faith Is Gone"** — If faith is a gift from God, then the fact that you're here, searching, means the gift hasn't been taken back. The dead don't search. You are alive.
+
+**STRUCTURAL REQUIREMENTS:**
+- Title as the person would SEARCH (conversational, raw, honest)
+- Opening paragraph: ZERO throat-clearing. Immediate validation.
+- Short (800-1200 words). The person in crisis cannot read 3000 words.
+- End with a link to a healing category page AND a devotional (the journey continues)
+- Include crisis-appropriate SEO (title, meta description matching search intent)
+- These go in `devotional-*.html` format
+
+**These may be the most important pages on the entire site.** They are the right arm at maximum extension — reaching into the darkest moment a believer faces and saying "He's here. He chose you. He's not letting go."
+
+---
+
 ### 2. ANXIOUS MIND PAGES (`anxious-mind-*.html`)
 
 **Target:** 1500-2500 words

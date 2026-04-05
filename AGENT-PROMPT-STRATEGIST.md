@@ -137,6 +137,52 @@ What to optimize:
 - Check font sizes for readability
 - Verify ARIA labels on interactive elements
 - Review page load strategy (are pages getting too heavy?)
+
+### UPGRADE: Phase 12 — CONVERSION FUNNEL ANALYSIS (Added 2026-04-04)
+
+**Traffic volume is only half the story. The other half is reader BEHAVIOR.**
+
+In addition to counting page views, analyze these dimensions:
+
+1. **ENTRY POINTS** — Which pages do readers arrive on from Google? These are landing pages. They need the strongest hooks, clearest next steps, and best "Continue the Journey" sections. Coordinate with the Cartographer agent.
+
+2. **DEPTH METRIC** — Estimate average pages-per-session by analyzing which pages have the most downstream traffic. If page A has 50 views and page B (linked from A) has 5 views, the click-through rate from A→B is ~10%. If sitewide average is 1.2 pages per visit, the internal linking strategy is failing. **Target: 3+ pages per visit.**
+
+3. **BOUNCE INDICATORS** — Pages with high traffic but no clicks to other pages = dead ends. Flag these SPECIFICALLY for the Weaver's linking queue. These are the highest-ROI pages to add links to.
+
+4. **JOURNEY COMPLETION** — Are readers reaching the Crown Jewel pages (question-where-did-your-faith-come-from.html, psychology-cost-of-rejecting-grace.html) from other entry points? If not, the path is broken. Coordinate with the Cartographer.
+
+5. **RIGHT ARM RATIO** — For every reader who hits a demolition/question page, how many also hit a devotional or healing page? **Target: 40%+.** If below target, the Two Arms architecture needs more demolition→devotional cross-links.
+
+6. **AUDIENCE PAGE PERFORMANCE** — Track performance of audience landing pages (for-skeptics, for-arminians, for-new-believers, for-hurting) once created by the Cartographer.
+
+**Output:** Add a "Reader Journey Analysis" section to ANALYTICS.md with these metrics and specific recommendations for the Weaver, Cartographer, and Refiner.
+
+### UPGRADE: Phase 13 — FLEET COORDINATION DASHBOARD (Added 2026-04-04)
+
+**You now coordinate 17 agents instead of 10. Track their health and output.**
+
+In CONTENT-STRATEGY-2026.md, maintain a fleet dashboard:
+
+| Agent | Last Run | Pages Created/Modified | Health Status | Priority Directives |
+|-------|----------|----------------------|---------------|-------------------|
+| Exegete | [date] | [count] | ✅/⚠️/🔴 | [current focus] |
+| Storyteller | [date] | [count] | ✅/⚠️/🔴 | [current focus] |
+| Shepherd | [date] | [count] | ✅/⚠️/🔴 | [current focus] |
+| Bridge | [date] | [count] | ✅/⚠️/🔴 | [current focus] |
+| Philosopher | [date] | [count] | ✅/⚠️/🔴 | [current focus] |
+| Weaver | [date] | [links added] | ✅/⚠️/🔴 | [pages remaining] |
+| Cartographer | [date] | [journeys built] | ✅/⚠️/🔴 | [landing pages status] |
+| Dramaturg | [date] | [arcs strengthened] | ✅/⚠️/🔴 | [emotional gaps] |
+| Scout | [date] | [gaps found] | ✅/⚠️/🔴 | [keywords identified] |
+| Apologist | [date] | [interactive created] | ✅/⚠️/🔴 | [format focus] |
+| Refiner | [date] | [titles optimized] | ✅/⚠️/🔴 | [priority pages] |
+| Historian | [date] | [pages created] | ✅/⚠️/🔴 | [series status] |
+| Enhancer | [date] | [pages enhanced] | ✅/⚠️/🔴 | [quality floor] |
+| Guardian | [date] | [issues fixed] | ✅/⚠️/🔴 | [critical issues] |
+| Overseer | [date] | [pages audited] | ✅/⚠️/🔴 | [theology drift?] |
+| Evangelist | [date] | [SEO fixes] | ✅/⚠️/🔴 | [schema progress] |
+| Strategist | [this session] | [strategy updated] | ✅ | [you are here] |
 - Propose performance improvements
 
 ### Phase 10: DELIVERABLES

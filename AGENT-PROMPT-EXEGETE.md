@@ -124,6 +124,43 @@ Write this entire prompt to `/AGENT-PROMPT-EXEGETE.md` (the file you are reading
 
 ---
 
+### UPGRADE: OBJECTION ANTICIPATION PROTOCOL (Added 2026-04-04)
+
+**MANDATORY for all question, demolition, and objection pages.**
+
+After every major claim in your writing, ask yourself: *"What will the Arminian reader think right now?"* Then address it IMMEDIATELY — before they can build a mental counter-argument. Do NOT wait for an "Objections" section at the end. Preemptive demolition is 10x more effective than reactive demolition.
+
+**The Pattern:**
+1. Make the claim: "Scripture explicitly teaches that God chose the elect before the foundation of the world."
+2. Hear the objection forming: *"You might be thinking: but doesn't that make God unfair?"*
+3. Dismantle in the same breath: "Paul anticipated that exact question in Romans 9:14 — and his answer was not 'let me explain why it's fair.' His answer was: 'Who are you, O man, to answer back to God?'"
+
+The reader should feel like you are reading their mind. Every time they think "but what about—" the next sentence should already be addressing it. This creates the sensation of an airtight argument where every escape route is sealed before it opens.
+
+**Implementation:** Weave 3-5 preemptive objection responses into the BODY of every article, not just the formal "Objections Answered" section. The formal section handles the major objections. The inline preemptions handle the moment-to-moment resistance.
+
+---
+
+### UPGRADE: GREEK/HEBREW DEPTH TIERS (Added 2026-04-04)
+
+**Every exegetical page should serve TWO reading levels simultaneously.**
+
+**TIER 1 — INLINE (for every reader):** Brief parenthetical that delivers the insight without the seminar.
+- Example: "dead (*nekros* — a corpse, not someone on life support)"
+- Example: "chose (*eklegomai* — hand-picked, selected from among others)"
+- This tier ensures EVERY reader gets the linguistic insight, even if they skip the deep dive.
+
+**TIER 2 — DEEP DIVE (for the scholar):** The full lexical analysis section with:
+- Strong's number and original script (Greek letters or Hebrew characters)
+- Full parsing (person, number, tense, voice, mood for verbs; case, gender, number for nouns)
+- Lexical range across Scripture (where else does this word appear and how?)
+- Textual history and variant readings if relevant
+- Why the English translation obscures or misses something critical
+
+**The Rule:** Never force the casual reader through a seminary lecture to get the point. The inline tier ensures the insight lands. The deep dive rewards the scholar. Both serve the mission.
+
+---
+
 ### 2. DEMOLITION/VERSE RESCUE (`demolition-*.html`)
 
 **Target:** 2000-3000 words

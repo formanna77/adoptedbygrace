@@ -95,36 +95,41 @@ Weapon 8: THE BRIDGE
 - Scripture-first terminology
 - JSON-LD, canonical URL, OG meta tags present
 
-## INTERNAL LINK DENSITY AUDIT — HIGHEST PRIORITY ENHANCEMENT
+## LINKING RESPONSIBILITY TRANSFER (Updated 2026-04-04)
 
-**THIS IS THE MOST CRITICAL ENHANCEMENT TASK. Before doing anything else, check linking.**
+**Internal linking is now THE WEAVER's primary job.** The Weaver (a dedicated linking agent) handles systematic link density sweeps across the entire site. Your linking responsibility is REDUCED to:
 
-When you open a page, the FIRST thing you do is count and assess its internal links:
+- Adding 2-3 cross-category links during any enhancement pass (opportunistic, not systematic)
+- Flagging pages with <5 links for the Weaver's queue (note in EVOLUTION-JOURNAL.md)
 
-- Count all internal links to other site pages
-- **Target minimum:** 8-12 per article page
-- **Red flag threshold:** Fewer than 6 internal links = CRITICAL deficit
-- **Assessment:** Are links naturally embedded in prose or forced/isolated?
+**Your PRIMARY focus is now:**
+1. **Prose quality and literary voice** (Lewis/Buechner/Spurgeon standard)
+2. **Emotional arc strengthening** (coordinate with the Dramaturg agent)
+3. **Force Multiplier density** (see expanded catalog below)
+4. **Theological precision** (verify Greek/Hebrew, strengthen arguments)
+5. **Opening paragraph hooks** (first 2 sentences must earn the reader's next 5 minutes)
 
-**The Linking Hierarchy:**
-1. **Cross-category links** (highest value): Demolition → devotional, question → analogy, psychology → healing
-2. **Within-category links** (high value): Question pages link to related questions, devotionals to related devotionals
-3. **Conceptual links** (medium value): Theology terms link to theological pages, Scripture links to exegesis pages
+---
 
-**Enhancement Mandate for Linking:**
-- Add minimum 3 new links to any page with <6 links (CRITICAL)
-- Add minimum 2 new links to any page with 6-8 links (HIGH PRIORITY)
-- Verify all links are relevant, natural, and not over-linked
-- Prioritize cross-category links — these drive traffic and deepen reader journey
-- Ensure links are woven naturally into prose, not added as "see also" sections
+## UPGRADE: FORCE MULTIPLIER CATALOG (Expanded 2026-04-04)
 
-**Before publishing any enhanced page, verify:**
-- [ ] Link count is 8+ (or justified as <8)
-- [ ] At least 2-3 cross-category links exist
-- [ ] Links are embedded naturally in prose
-- [ ] All link targets exist and are relevant
-- [ ] No broken links
-- [ ] No over-linking (keep under 12-15 per page)
+**Every page should have AT LEAST 3 of these 8 weapons deployed. Audit explicitly.**
+
+1. **THE PULLQUOTE** — A devastating sentence pulled out in large, gold-styled text. Must be quotable out of context. Must stop the scroll. Must work as a standalone truth bomb. If someone screenshots JUST this quote and shares it, does it carry power? If yes, it's a Pullquote.
+
+2. **THE SCRIPTURE CALLOUT** — A verse displayed in its own visual block (gold border, larger text) that serves as a moment of pause. Not buried in a paragraph — given its own breathing room. The reader's eye should be drawn to it. Let the Word arrest them mid-argument.
+
+3. **THE "STOP AND THINK" BOX** — A question posed directly to the reader in a styled box. Forces active engagement. "Where did YOUR faith come from? Take a moment. Actually think about it. Don't read past this." These boxes are the Socratic trap in visual form.
+
+4. **THE TESTIMONY INSERT** — 2-3 sentences from Aaron's testimony (or a hypothetical testimony) that grounds the theology in lived experience. "Aaron ran from this truth for a decade. He tried to make God forsake him through rebellion. On Christmas Day 2024, mercy came anyway." Lived truth > abstract truth.
+
+5. **THE BEFORE/AFTER** — A stark comparison showing what this truth looks like believed vs. denied. Two short columns. Maximum contrast. "WITHOUT sovereign grace: your salvation depends on you maintaining faith. WITH sovereign grace: your salvation depends on God maintaining you."
+
+6. **THE ANCHOR SENTENCE** — A single short sentence on its own line, surrounded by whitespace. Maximum impact through brevity and isolation. "He chose you." "It was finished before it started." "Grace does not ask permission." These are the sentences people remember.
+
+7. **THE DEVASTATING QUESTION** — Not just any question — the question that if answered honestly destroys the objection. "If your faith is your contribution to salvation, what makes you different from the person who didn't believe?" Place it where the reader cannot avoid it.
+
+8. **THE PASTORAL WHISPER** — A tender aside for the reader who is hurting. Interrupt the theological argument with a direct address: "If you're reading this and you feel afraid — if this truth feels more like a threat than a gift — please hear this: the fact that you're here means something. The dead don't search."
 
 ---
 

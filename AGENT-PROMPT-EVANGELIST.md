@@ -121,12 +121,63 @@ For EACH keyword: verify a dedicated page exists. If not, add to ROADMAP.md for 
 - Add "Keep Reading" sections where missing
 - Build topic clusters: hub pages linking to all related content
 
-#### Schema & Structured Data
-- Every question page should have FAQPage schema (MASSIVE SEO boost — enables rich snippets)
-- Every page needs Article or WebPage JSON-LD schema
-- Add BreadcrumbList schema for navigation
-- Add Author schema linking to about.html
+#### UPGRADE: SCHEMA MARKUP EXPANSION (Expanded 2026-04-04)
+
+**Schema markup is the single highest-ROI SEO action available. Google rewards structured data with rich snippets that dramatically increase click-through rates.**
+
+**PRIORITY 1 — FAQPage Schema (IMMEDIATE — all question/objection pages):**
+- Add FAQPage schema to ALL `question-*.html` and `objection-*.html` pages
+- This enables Google FAQ rich snippets: expandable Q&A boxes directly in search results
+- There are 60+ question/objection pages — this is a MASSIVE opportunity
+- Template:
+  ```json
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Does God choose who is saved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scripture teaches that God chose His people before the foundation of the world..."
+      }
+    }]
+  }
+  ```
+- Extract 2-3 key Q&As from each page's content for the schema
+- This is the #1 traffic driver category — FAQ schema could double impression share
+
+**PRIORITY 2 — BreadcrumbList Schema (all article pages):**
+- Add BreadcrumbList schema: Home > Category > Article
+- This displays breadcrumbs in Google search results, improving click-through
+- Template:
+  ```json
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://adoptedbygrace.net/"},
+      {"@type": "ListItem", "position": 2, "name": "Questions", "item": "https://adoptedbygrace.net/questions.html"},
+      {"@type": "ListItem", "position": 3, "name": "Article Title"}
+    ]
+  }
+  ```
+
+**PRIORITY 3 — SiteNavigationElement Schema (hub pages):**
+- Add to all 20+ hub pages so Google understands site architecture
+
+**PRIORITY 4 — Speakable Schema (devotional pages):**
+- Marks content suitable for voice assistant reading
+- Devotionals are perfect for this — people ask voice assistants spiritual questions
+- Targets the growing voice search market
+
+**PRIORITY 5 — Article Schema Enhancement:**
+- Every page already has basic Article schema
+- UPGRADE all pages to include: `wordCount`, `timeRequired` (reading time), `about` (linked entity), `citation` (for theological sources)
+- Add `author` linking to about.html
 - Verify all schema is valid (no errors)
+
+**Session Target:** Add FAQPage schema to 10-15 question/objection pages per session. At 3 sessions, all 60+ pages are covered.
 
 #### Direct SEO Fixes
 When confident, MAKE CHANGES DIRECTLY to HTML files:

@@ -48,14 +48,17 @@ In 2023, a failing heart valve and a broken spine cost him everything — health
 
 These are not abstract doctrines. They are the lived reality of the man who built this site. Write accordingly.
 
-## GIT PUSH POLICY — MANDATORY FOR ALL AGENTS
-**DO NOT push to GitHub at the end of your task.** Aaron pushes manually.
+## GIT PUSH POLICY — MANDATORY FOR ALL AGENTS — ZERO EXCEPTIONS
+**DO NOT run ANY git commands.** No `git add`, no `git commit`, no `git push`. Aaron pushes manually. This is non-negotiable.
+
+Every Netlify deploy costs build minutes. Unauthorized pushes burn through the monthly budget and cause deployment conflicts. Agents that push are wasting real money.
 
 Your job as an agent:
 - **DO** save your work to the repo files
-- **DO NOT** run `git add`, `git commit`, or `git push`
+- **DO NOT** run `git add`, `git commit`, `git push`, or ANY other git command
+- **DO NOT** "helpfully" stage or commit changes "for convenience"
 
-The ONLY exception is if Aaron explicitly asks you to push right now in that specific conversation.
+There are NO exceptions. Not even if you think it would be helpful. Not even at the end of a long session. Aaron pushes when Aaron is ready to push.
 
 ## SEARCH INDEX & MEGA-MENU REBUILD — MANDATORY FOR ALL CONTENT AGENTS
 **After creating or modifying HTML pages, you MUST run these before finishing:**

@@ -544,37 +544,6 @@
         </div>
     </footer>
 
-    <!-- BACK TO TOP BUTTON -->
-    <button id="backToTop">&#8679;</button>
-
-    <!-- JAVASCRIPT -->
-    
-
-        <script src="/global.js" defer>
-        // Mobile dropdown toggles
-        const navLinks = document.querySelector('.nav-links');
-        if (navLinks) {
-            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
-                trigger.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const li = trigger.closest('li');
-                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
-                        if (openLi !== li) openLi.classList.remove('dropdown-open');
-                    });
-                    li.classList.toggle('dropdown-open');
-                });
-            });
-            navLinks.querySelectorAll('a').forEach(a => {
-                a.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                    const hamburger = document.querySelector('.hamburger');
-                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
-                });
-            });
-        }
-
-    </script>
-
     <script src="/nav.js"></script>
 </body>
 </html>

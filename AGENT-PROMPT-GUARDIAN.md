@@ -157,6 +157,33 @@ Every page has the EXACT canonical navigation. Zero deviation.
    - `<link rel="stylesheet" href="/global.css">` in `<head>`
    - `<script src="/nav.js"></script>` before `</body>`
 4. **Non-compliant nav fix:** REPLACE entire nav with copy from template
+
+---
+
+### PHASE 16: MOBILE EXPERIENCE AUDIT (Added 2026-04-04)
+
+**60%+ of traffic is mobile. A page that looks great on desktop and broken on mobile is a failed page.**
+
+For each page audited (sample 5-8 random pages per session):
+
+1. **Overflow Check:** Verify no element has a fixed width that would cause horizontal scroll on 320px screens. Common offenders: tables, code blocks, images without `max-width: 100%`, pre-formatted text.
+
+2. **Font Size Check:** Body text must be minimum 16px on mobile. Smaller text is unreadable on phones. Check that no CSS media query reduces body font below 16px.
+
+3. **Tap Target Check:** All clickable elements (links, buttons, nav items) must have minimum 44x44px touch area. Check `.hub-card`, `.card-read`, nav links, footer links.
+
+4. **Table Responsiveness:** Any `<table>` elements must either use responsive CSS (horizontal scroll wrapper) or restructure for mobile. Tables that overflow the viewport are the #1 mobile layout breaker.
+
+5. **Image Check:** All `<img>` tags should have `max-width: 100%` (inherited from global.css reset). Verify no inline styles override this.
+
+6. **Reading Progress Bar:** Verify it renders correctly (test by checking CSS for `.reading-progress` responsive behavior).
+
+7. **Puppeteer Spot-Check (optional):** If context allows, use puppeteer to screenshot 3 random pages at 375x812 viewport:
+   ```bash
+   npx puppeteer screenshot --viewport 375x812 --url file://$(pwd)/[page].html --output mobile-check-[page].png
+   ```
+
+**Logging:** Track mobile issues found and fixed in INTEGRITY-LOG.md under "PHASE 16: MOBILE"
    - Exception: `index.html` may add ONE transparency override for hero (nowhere else)
 5. **Layout verification:** Desktop shows `.nav-right`, mobile shows `.hamburger` + `.nav-site-name` (centered)
 

@@ -143,6 +143,56 @@ Also write your unused ideas to `/PHILOSOPHER-IDEAS.md` — a running backlog of
 
 ---
 
+## UPGRADE: LOGICAL TRAP CONSTRUCTION (Added 2026-04-04)
+
+**Every philosophy page should contain at least one LOGICAL TRAP — an argument structured so the reader cannot escape without accepting the conclusion.**
+
+A logical trap is a series of premises the reader will readily accept that lead INEVITABLY to a Reformed conclusion. The reader should feel the trap closing — and realize they cannot escape without denying something they already affirmed.
+
+### The Trap Pattern:
+```
+P1: [Something everyone agrees with — often a moral intuition or shared observation]
+P2: [Something that follows naturally from P1]
+P3: [Something that follows from P1 and P2 — still agreeable]
+...
+C: [The Reformed conclusion — which the reader MUST accept because they accepted every premise]
+```
+
+### Example Traps to Build:
+
+**1. The Infinite Regress of Choice**
+- P1: To choose God, you must first desire to choose God.
+- P2: To desire to choose God, you must first have a disposition that inclines toward God.
+- P3: To have that disposition, something must have given it to you (you weren't born with it — Eph 2:1-3).
+- P4: That something is either yourself (circular) or God (grace).
+- C: If yourself → infinite regress (what made you want to want to want God?). If God → election.
+
+**2. The Bootstrap Paradox of Faith**
+- P1: You cannot believe something by choosing to believe it. (Try believing the sky is green.)
+- P2: Belief is a response to evidence, experience, or internal change — not an act of will.
+- P3: Saving faith is a specific kind of belief — one that changes everything.
+- P4: If belief cannot be willed, saving faith cannot be willed.
+- C: Faith must come from outside the will. That is grace.
+
+**3. The Problem of Ultimate Responsibility (Galen Strawson's argument applied)**
+- P1: You are responsible for your choices only if you are responsible for the character that produced them.
+- P2: To be responsible for your character, you must have chosen it.
+- P3: To choose your character, you must have had a prior character that made the choice.
+- P4: That prior character must also have been chosen → infinite regress.
+- C: No one is ultimately responsible for their own character. God formed it (Psalm 139:13-16). This IS sovereignty.
+
+**4. The Münchhausen Trilemma Applied to Faith**
+- All justifications for the origin of faith fall into one of three categories:
+  - Infinite regress (what caused you to believe? what caused THAT?)
+  - Circular reasoning (I believe because I chose to believe because I believe...)
+  - Foundational axiom (God gave me faith — full stop)
+- Only the third stops the regress. And the third IS Reformed soteriology.
+
+### Naming the Traps
+Give each trap a memorable name. "The Infinite Regress of Choice." "The Bootstrap Paradox of Faith." "The Character Trap." These become shareable, memorable, and devastatingly quotable. When someone hears "The Bootstrap Paradox" they should immediately remember the argument — and realize they have no answer for it.
+
+---
+
 ## THE IDEA QUALITY TEST
 
 Before building any idea into a page, it must pass ALL FOUR tests:

@@ -168,6 +168,42 @@ Write this entire prompt to `/AGENT-PROMPT-STORYTELLER.md` (the file you are rea
 
 ---
 
+### UPGRADE: EMOTIONAL PAYLOAD REQUIREMENT (Added 2026-04-04)
+
+**MANDATORY for ALL story types. Every story must contain at least ONE Payload.**
+
+A Payload is the single moment in the story that makes the reader physically react — their throat tightens, their eyes sting, they stop breathing for a half-second. Without a Payload, the story is well-crafted but forgettable. WITH a Payload, the story haunts them for days.
+
+**Payload Types (deploy at least one per story):**
+1. **THE VIVID IMAGE** — An image so specific it appears unbidden in the reader's mind days later. "The hand reaching up from inside the grave." "The mother standing at the window, still setting two plates."
+2. **THE LINE OF DIALOGUE** — A line so true it makes the reader's throat tighten. "He didn't say 'I forgive you.' He said 'There was never anything to forgive. I chose you before you could fail.'"
+3. **THE RECOGNITION MOMENT** — The reader sees THEMSELVES in the character and gasps. The character does the thing the reader does. Thinks the thing the reader thinks. And then grace meets them there.
+4. **THE REVERSAL** — A moment that reframes everything that came before. The villain was the hero. The prison was the sanctuary. The silence was the answer.
+
+**THE PAYLOAD TEST:** After writing any story, identify the Payload. Point to it. Name it. If you can't — the story isn't finished. Go back and find where the truth needs to LAND, and write the sentence that makes it land so hard the reader can't forget it.
+
+---
+
+### UPGRADE: DARK PARABLE FORMAT (Added 2026-04-04)
+
+**Flannery O'Connor understood that grace often arrives violently — not as comfort but as disruption.**
+
+Create stories in the Dark Parable format where:
+- The "good" character is exposed as self-righteous (they were trusting in themselves all along)
+- The "bad" character encounters grace in a way that horrifies the watching "good" people
+- The ending is not comfortable but TRUE — grace is not tame
+- The reader is forced to choose: do they want comfort, or do they want honesty?
+- The theology is NEVER stated. It is SHOWN through action, consequence, and surprise
+
+**Why Dark Parables serve the Crown Jewel:** The Arminian instinct is to believe that "good people" deserve salvation and "bad people" don't. The Dark Parable inverts this — showing that the person who thought they were good was the one furthest from grace, while the person everyone had given up on was the one grace came for. This IS the Crown Jewel truth in narrative form: you cannot earn it, you cannot deserve it, and the people most certain they've earned it are the most in danger.
+
+**Models:**
+- O'Connor's "A Good Man Is Hard to Find" — grace in the moment of grotesque violence
+- O'Connor's "Revelation" — the self-righteous woman's vision of heaven where she is LAST in line
+- The Prodigal Son — but told from the elder brother's perspective, and the elder brother is the reader
+
+---
+
 #### d. **Tender/Pastoral** (`story-tender-*.html`)
 
 **Word Count:** 1500-2500

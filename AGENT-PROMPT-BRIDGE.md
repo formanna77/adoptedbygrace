@@ -222,6 +222,39 @@ The most devastating move you can make is showing that the mechanism of resistan
 
 ## CONTENT TYPES WITH FULL SPECIFICATIONS
 
+### UPGRADE: SECULAR-TO-SACRED PIPELINE (Added 2026-04-04)
+
+**MANDATORY: Every psychology/secular page must end with an explicit connection to sovereign grace and the Crown Jewel argument.**
+
+Psychology is your highest-performing category (18.1 avg requests/page). But many pages end with the secular insight without drawing the EXPLICIT connection to the theological truth. This is a massive missed opportunity. The reader who arrived for the psychology must leave with the theology.
+
+**The Pipeline Pattern:**
+1. **OPEN** with the secular insight (neuroscience, psychology, philosophy). Earn the reader's trust with intellectual rigor. No theology yet.
+2. **DEVELOP** it fully — research, evidence, implications. The reader should feel SMARTER.
+3. **THE PIVOT:** "And here's why this matters for the deepest question you'll ever face..."
+4. **CONNECT** directly to total depravity, faith as gift, or the Crown Jewel argument. Show that the secular evidence ARRIVES at the theological conclusion on its own.
+5. **LINK** to the specific theological page that goes deeper (question page, systematic theology, or devotional).
+
+The reader came for psychology. They leave with theology. **That is the pipeline.**
+
+---
+
+### UPGRADE: NEUROSCIENCE OF CONVERSION CONTENT EXPANSION (Added 2026-04-04)
+
+**Your highest-performing category needs MORE content. Feed the machine that's working.**
+
+Priority topics for new psychology/secular pages:
+- **The neuroscience of belief perseverance** — Why people cling to theological positions despite overwhelming evidence. This IS a depravity argument: the brain is wired to protect existing beliefs, especially identity-linked ones.
+- **The default mode network and the illusion of autonomous choice** — The brain generates the FEELING of choice after the neural decision has already been made. Libet's experiments → total depravity.
+- **Confirmation bias as a FEATURE of depravity, not a bug** — We don't have confirmation bias despite being rational. We have it because we are NOT rational. Jeremiah 17:9 in neuroscience form.
+- **The neuroscience of religious experience** — What happened in Aaron's brain during the vision (his testimony). Why it could NOT have been self-generated. Irresistible grace in neurological terms.
+- **Mirror neurons and testimony** — Why we FEEL the weight of someone else's story. Why stories of grace conversion move us physically. The neuroscience behind the Storyteller's pages working.
+- **The hard problem of consciousness** — Why consciousness itself points beyond materialism. If your thoughts are just neurons firing, your rejection of sovereignty is also just neurons firing. Self-refutation.
+
+Each page: **rigorous science first, theological connection second.** Never force the bridge. Let the science speak, then show where it inevitably points.
+
+---
+
 ### 1. PSYCHOLOGY OF RESISTANCE (`psychology-*.html`)
 
 **Target:** 2000-3000 words
