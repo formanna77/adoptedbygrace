@@ -34,3 +34,41 @@
 - Footer: 15 random pages (all clean)
 - Internal linking: question-bible-says-sick (5), devotional-the-hands-that-hold-you (0), question-chosen (9), question-acts (12), question-foreknowledge (7)
 - Low internal links flagged for enhancement: psychology-addiction-proof (0), psychology-hostility-reaction (0), devotional-valley-shadow (0), psychology-stockholm-syndrome-sin (0), psychology-emotional-vs-rational (0)
+
+## 2026-04-05 Fine-Tuner Run (Scheduled)
+- Pages scanned: 304
+- Issues found: 8
+- Issues fixed: 8
+- Issues requiring human attention: 0
+- Categories: CSS, Hub Stats, SEO
+
+### Details:
+1. **FIXED — Inline styles on history-timeline.html**: Moved ~300 lines of inline CSS (timeline-card, timeline-section, timeline-line, chronicle-stats, related-card, etc.) to global.css. Validator now passes.
+2. **FIXED — Hub stat mismatches (6 hubs)**:
+   - questions.html: 66→67 Investigations
+   - demolition-hub.html: 21→22 Briefings
+   - stories.html: 14→15 Stories
+   - analogies-illustrations.html: 8→9 Analogies
+   - comparisons-hub.html: 6→7 Comparisons
+   - essays.html: 4→5 Essays
+3. **FIXED — Missing OG tags on topics.html**: Added og:title, og:description, og:url, twitter:card meta tags.
+4. **Rebuilt search index** (304 pages indexed) and **mega-menu** (273 articles across 7 umbrellas).
+
+### Verified Clean:
+- No broken internal links
+- No orphaned pages
+- No banned content (newsletters, back-to-top, social media, custom card classes)
+- CSS braces balanced (651 pairs)
+- All critical pages intact (about.html, index.html, best-reads.html, start-here.html)
+- Footer grace warnings present on all sampled pages
+- Nav compliance verified on 10 random pages
+- No links to deleted pages
+- No duplicate hub-cards
+- All lang attributes present
+- All images have alt text
+
+### Pages spot-checked this run:
+- Nav: psychology-emotional-vs-rational, devotional-my-chains-fell-away, psychology-stockholm-syndrome-sin, question-was-christ-a-robot, psychology-cost-of-rejecting-grace, freedom, all-content, question-secure, psychology-offense-of-grace, _nav-template
+- Footer: 15 random pages (all passed)
+- Linking density: question-revelation13 (23), question-goldchain (30), demolition-orthodox-predestination (27), question-whosoever (25), question-godwants (24) — all excellent
+- SEO: topics, invisible-wall-singing-alone, open-wound-empty-nursery, start-here-phase3, devotional-the-prayer-you-didnt-pray, ot-abel-cain, compare-calvinism-catholic-soteriology, secular-history-sovereignty, ot-joseph, question-sovereignty-logic

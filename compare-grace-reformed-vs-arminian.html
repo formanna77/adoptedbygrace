@@ -36,6 +36,109 @@
     </script>
     <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <style>
+        /* Section headings — gold gradient underline */
+        .article-body h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-top: 4rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 2px solid rgba(212, 162, 84, 0.2);
+        }
+        .article-body h2:first-child { margin-top: 0; }
+
+        /* Arminian / Reformed sub-headers */
+        .article-body h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 0.8rem;
+            letter-spacing: 0.02em;
+        }
+
+        /* Contrast blockquotes — the gold-bordered insight boxes */
+        .article-body blockquote {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(232, 100, 44, 0.04));
+            border-left: 4px solid var(--accent-gold);
+            border-radius: 0 10px 10px 0;
+            padding: 2rem 2.5rem;
+            margin: 2.5rem 0;
+            position: relative;
+        }
+        .article-body blockquote strong {
+            color: var(--accent-gold);
+            font-weight: 700;
+        }
+        .article-body blockquote em {
+            color: var(--text-primary);
+        }
+
+        /* Scripture witness paragraphs */
+        .article-body p strong {
+            color: var(--accent-gold);
+        }
+
+        /* Bold emphasis throughout */
+        .article-body strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* Gold links with ember hover */
+        .article-body a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.3);
+            transition: all 0.3s ease;
+        }
+        .article-body a:hover {
+            color: var(--accent-ember);
+            border-color: var(--accent-ember);
+        }
+
+        /* Go Deeper list — warm styled */
+        .article-body ul {
+            list-style: none;
+            padding: 0;
+            margin: 2rem 0;
+        }
+        .article-body ul li {
+            padding: 1rem 1.5rem;
+            margin-bottom: 0.8rem;
+            background: rgba(212, 162, 84, 0.04);
+            border-left: 3px solid rgba(212, 162, 84, 0.2);
+            border-radius: 0 6px 6px 0;
+            transition: all 0.3s ease;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+        .article-body ul li:hover {
+            background: rgba(212, 162, 84, 0.08);
+            border-left-color: var(--accent-gold);
+        }
+        .article-body ul li a {
+            font-weight: 600;
+            color: var(--accent-gold);
+        }
+
+        /* Paragraph spacing and readability */
+        .article-body p {
+            color: var(--text-secondary);
+            font-size: 1.08rem;
+            line-height: 1.95;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Emphasis — italic text pops */
+        .article-body em {
+            color: var(--text-primary);
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
 
