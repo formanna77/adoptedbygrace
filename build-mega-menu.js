@@ -106,14 +106,7 @@ const UMBRELLAS = [
         prefixes: ['ot', 'psalms', 'psalm'],
         hubFiles: ['ot-election.html'],
       },
-      {
-        key: 'creeds',
-        name: 'Creeds & Confessions',
-        icon: '📜',
-        hub: '/creeds-confessions',
-        prefixes: ['creed', 'canons'],
-        hubFiles: ['creeds-confessions.html'],
-      },
+      // Creeds merged into History (creeds-confessions.html now redirects to history-timeline)
     ],
   },
 
@@ -199,7 +192,7 @@ const UMBRELLAS = [
         name: 'Church History',
         icon: '⏳',
         hub: '/history-timeline',
-        prefixes: ['history'],
+        prefixes: ['history', 'creed', 'canons'],
         hubFiles: ['history-timeline.html'],
       },
       {

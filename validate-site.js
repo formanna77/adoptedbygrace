@@ -23,6 +23,7 @@ function safeReadFileSync(filePath) {
   }
 }
 const IGNORE_FILES = new Set(['_nav-template.html', '404.html', 'search.html']);
+const REDIRECT_PAGES = new Set(['creeds-confessions.html']); // minimal redirect pages — skip structural checks
 const UTILITY_PAGES = new Set([
     'index.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html',
     'all-content.html', 'topics.html', 'connections.html', 'explore-map.html',
@@ -46,8 +47,7 @@ const HUB_REGISTRY = {
     'secular-evidence.html': ['secular-'],
     'systematic-theology.html': ['systematic-'],
     'theologians.html': ['theologian-'],
-    'history-timeline.html': ['history-'],
-    'creeds-confessions.html': ['creed-'],
+    'history-timeline.html': ['history-', 'creed-'],
     'ot-hub.html': ['ot-'],
     'essays.html': ['counter-'],
     // newsletter section ELIMINATED 2026-04-04
@@ -151,6 +151,7 @@ console.log('\n━━━ CHECK 3: Structural HTML ━━━');
 let structuralIssues = 0;
 
 for (const file of htmlFiles) {
+    if (REDIRECT_PAGES.has(file)) continue;
     const content = safeReadFileSync(path.join(ROOT, file));
     if (!content) continue;
 
@@ -214,7 +215,7 @@ const BANNED_CLASSES = [
 // Hub pages that use hub-hero (exempt from page-hero check)
 const HUB_FILES = new Set(Object.keys(HUB_REGISTRY));
 const EXEMPT_FROM_HERO = new Set([
-    ...UTILITY_PAGES, ...HUB_FILES, ...IGNORE_FILES,
+    ...UTILITY_PAGES, ...HUB_FILES, ...IGNORE_FILES, ...REDIRECT_PAGES,
     'index.html', '_nav-template.html'
 ]);
 

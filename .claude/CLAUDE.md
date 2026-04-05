@@ -337,7 +337,7 @@ Not `hub-hero` (that's for hub pages only). Not a custom hero class. Not an inli
 | systematic-theology.html | Systematic Theology |
 | theologians.html | Theologians |
 | history-timeline.html | History |
-| creeds-confessions.html | Creeds & Confessions |
+| creeds-confessions.html | RETIRED — redirects to history-timeline.html |
 | ot-hub.html | Old Testament |
 | essays.html | Essays |
 | comparisons-hub.html | Comparisons |

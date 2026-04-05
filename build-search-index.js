@@ -92,7 +92,7 @@ function extractCategory(html, filename) {
     [/^ot-/, 'Old Testament'],
     [/^compare-|^comparison-/, 'Comparisons'],
     [/^pastoral-/, 'Pastoral'],
-    [/^creed|^confession|^canons-|^westminster-|^heidelberg-/, 'Creeds & Confessions'],
+    [/^creed|^confession|^canons-|^westminster-|^heidelberg-/, 'History'],
     [/^best-reads/, 'Best Reads'],
   ];
   for (const [re, cat] of catMap) {

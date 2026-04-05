@@ -46,7 +46,7 @@ const CATEGORIES = [
   { href: '/stories', patterns: [/^story-/] },
   { href: '/questions#objections', patterns: [/^objection-/] },
   { href: '/ot-hub', patterns: [/^ot-/, /^psalm-/, /^psalms-/] },
-  { href: '/history-timeline', patterns: [/^history-/] },
+  { href: '/history-timeline', patterns: [/^history-/, /^creed-/, /^canons-/, /^westminster-/, /^heidelberg-/] },
   { href: '/secular-evidence', patterns: [/^secular-/] },
   { href: '/philosophy-hub', patterns: [/^philosophy-/] },
   { href: '/theologians', patterns: [/^theologian-/, /^hymn-/] },

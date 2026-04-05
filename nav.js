@@ -207,16 +207,6 @@
                         { name: 'Sovereignty in the Old Testament', href: '/ot-hub', desc: 'Explore God' },
                         { name: 'The Prophets: Remnant Theology & the Elect Preserved Through Judgment', href: '/ot-prophets-remnant', desc: 'Jeremiah, Ezekiel, Hosea, Amos, Malachi — every prophet confirms it: God preserves a chosen remnant through judgment. Sa' }
                     ]
-                },
-                {
-                    name: 'Creeds & Confessions',
-                    icon: '📜',
-                    href: '/creeds-confessions',
-                    count: 2,
-                    pages: [
-                        { name: 'The Canons of Dort — The Confessional Heart of Sovereign Grace', href: '/creed-canons-dort', desc: 'The Canons of Dort (1619): Full text with modern commentary on God' },
-                        { name: 'The Heidelberg Catechism — My Only Comfort in Life and Death', href: '/creed-heidelberg-catechism', desc: 'The Heidelberg Catechism (1563): Key questions and answers on comfort, sin, deliverance, and gratitude — with modern com' }
-                    ]
                 }
             ]
         },
@@ -404,17 +394,19 @@
                     name: 'Church History',
                     icon: '⏳',
                     href: '/history-timeline',
-                    count: 14,
+                    count: 16,
                     pages: [
                         { name: '20th Century Reformed Resurgence', href: '/history-20th-century', desc: 'The liberal decline, the Reformed comeback, and sovereign grace rediscovered. J. Gresham Machen, Martyn Lloyd-Jones, R.C' },
                         { name: 'John Calvin in Geneva: The Man Behind the Reformation\'s Theology', href: '/history-calvin-geneva', desc: 'John Calvin and Geneva: The Institutes of the Christian Religion, Geneva as a city on a hill, TULIP crystallized, and Ca' },
                         { name: 'Martin Luther and the Bondage of the Will: The Debate That Changed Everything', href: '/history-luther', desc: 'Martin Luther and the Reformation: the 95 Theses, The Bondage of the Will, Sola Fide, Sola Gratia, and the rediscovery o' },
                         { name: 'Medieval Theology and the Seeds of Reform (300-1400 AD)', href: '/history-medieval', desc: 'Medieval theology: Augustine vs Pelagius, Semi-Pelagianism' },
                         { name: 'The Apostolic Fathers and Early Church (100-300 AD)', href: '/history-apostolic', desc: 'The Apostolic Fathers (100-300 AD) on grace, election, and God' },
+                        { name: 'The Canons of Dort — The Confessional Heart of Sovereign Grace', href: '/creed-canons-dort', desc: 'The Canons of Dort (1619): Full text with modern commentary on God' },
                         { name: 'The Council of Orange (529 AD) — The Heresy the Church Already Condemned', href: '/history-council-of-orange', desc: 'In 529 AD, the church formally condemned the belief that humans can initiate faith without God' },
                         { name: 'The Downgrade Controversy: When Spurgeon Stood Alone for Truth', href: '/history-spurgeon-downgrade', desc: 'Charles Spurgeon' },
                         { name: 'The Golden Thread — 2,000 Years of Sovereign Grace', href: '/history-golden-thread', desc: 'The Golden Thread: how God preserved the doctrines of grace through 2,000 years of church history — from Paul to Augusti' },
                         { name: 'The Great Awakening: When God\'s Sovereignty Set America on Fire', href: '/history-great-awakening', desc: 'The story of Jonathan Edwards and George Whitefield: how Calvinism ignited the Great Awakening and proved that sovereign' },
+                        { name: 'The Heidelberg Catechism — My Only Comfort in Life and Death', href: '/creed-heidelberg-catechism', desc: 'The Heidelberg Catechism (1563): Key questions and answers on comfort, sin, deliverance, and gratitude — with modern com' },
                         { name: 'The Puritans and Reformed Orthodoxy', href: '/history-puritans', desc: 'Explore the golden age of Reformed theology. The Puritans' },
                         { name: 'The Synod of Dort: How the Church Defended Grace Against Works', href: '/history-dort', desc: 'Discover how the Synod of Dort crystallized the Five Points of Calvinism in response to Arminianism. The moment when the' },
                         { name: 'The Trial That Saved Christianity: Augustine vs Pelagius', href: '/history-augustine-pelagius', desc: 'The theological clash that shaped Christianity: Augustine' },
