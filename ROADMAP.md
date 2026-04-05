@@ -34,6 +34,23 @@
 - **"Was Christ a Robot?" (Acts 2:23)** — Demolition of the "predestination makes us puppets" objection. Christ's crucifixion was predestined by God's "deliberate plan and foreknowledge." Was Christ a puppet? The objection cannot survive contact with Acts 2:23. Category: Demolition or Questions. ONE-PUNCH KNOCKOUT.
 - **"WHOSE SIDE ARE YOU ON?" (SERIES — 5-8 articles)** — The great divide: Arminian theology sides with man at every decision point; Reformed theology sides with God. Strip away the jargon and this is what remains. Series spans demolition, philosophy, comparison, history, and devotional. Must be so devastatingly clear that no one can hide behind the false compassion Arminianism permeates through nearly every church. See PHILOSOPHER-IDEAS.md for full series outline.
 
+### TIER 0.75 — SCOUT-IDENTIFIED SEO GOLDMINES (Added 2026-04-05)
+> **Source:** SCOUT-REPORT.md (2026-04-05). These are HIGH-VOLUME search queries where the current top Google results are weak, Arminian-leaning, or compromised. We can dominate these with our unique angles. See SCOUT-REPORT.md for full competitive intelligence.
+
+**NEW PAGES — Targeting exact high-volume search queries with no strong Reformed answer:**
+- **question-is-salvation-my-choice-or-gods.html** — Target: "is salvation my choice or God's choice." Top Google results: Room For Doubt (soft), Bible Study Tools (compromise), Greg Boyd (Open Theism). ZERO strong Reformed page ranks for this exact query. Format: Socratic trap. **EXEGETE or EVANGELIST agent.** URGENT.
+- **question-does-god-choose-who-goes-to-heaven.html** — Target: "does God choose who goes to heaven and hell." Top results: Quora threads, small Arminian blogs. We have question-predestined-to-hell.html but NOT this exact phrasing which is what people actually search. **EXEGETE agent.** URGENT.
+- **demolition-faith-is-not-a-gift.html** — Direct counter to redeeminggod.com's "Faith is NOT a Gift from God" article which RANKS WELL for "is faith a gift." Walk through Eph 2:8-9 Greek analysis, demolish the anti-gift reading. Defends the Crown Jewel directly. **EXEGETE or APOLOGIST agent.** URGENT.
+
+**ENHANCEMENTS — Existing pages that need SEO targeting for high-volume queries:**
+- **compare-calvinism-arminianism.html** — Add section: "Why 'Both Are Valid' Is the Most Dangerous Answer." GotQuestions ranks #1 for "Calvinism vs Arminianism which is correct" and concludes BOTH are valid. Our page must counter this directly. **ENHANCER agent.** (Already Tier 0 for h1 fix — add this content enhancement.)
+- **question-where-did-your-faith-come-from.html** — Ensure meta title and H1 target "where does faith come from" / "is faith a gift from God." Crown Jewel page must rank for faith-origin queries. **ENHANCER agent.**
+- **question-depravity.html** — Add explicit LINCHPIN framing: total depravity proves all five points. No competitor frames it this way. **ENHANCER agent.**
+
+**BLUE OCEAN — First-mover content with zero Reformed competition:**
+- **secular-ai-determinism.html** — "What AI Teaches Us About Free Will and Sovereignty." Psychology Today + academic papers (2025) argue LLMs demonstrate "functional free will" within deterministic systems — EXACTLY compatibilism. No Reformed site has connected AI to sovereignty theology. **PHILOSOPHER or BRIDGE agent.** MEDIUM priority.
+- **for-deconstructed.html** — Landing page: "You Deconstructed Everything — Here's What's Left." Target the growing number who survived deconstruction and found sovereignty was the only thing that held. **SHEPHERD agent.** MEDIUM priority.
+
 ### TIER 1 — Maximum Impact (Build Next)
 5. **Romans Walkthrough — Continue.** romans-8-28-39 live (7.9). Next: Romans 9:1-24 (Potter & Clay), Romans 3:10-18 (Total Depravity), Romans 1:18-32. Target: 4 chapters by April 30.
 6. **Audience Landing Pages** — /for-skeptics and /for-new-believers. High-conversion, zero pages exist. Target: 2 by April 15.
@@ -48,14 +65,16 @@
 13. **psychology-why-i-stopped-being-calvinist.html** — SEO play targeting "why I left Calvinism" search query. Compassionate analysis.
 14. **Recovery Community Bridge Content** — Philosopher discovered AA/NA as pre-primed audience for sovereign grace. Build bridge pages.
 15. **JSON-LD Sweep** — Add structured data to remaining pages missing it.
+16. **question-why-does-god-choose-some-not-others.html** — **(Scout 2026-04-05)** Target exact high-volume query. Desiring God has a podcast but no dedicated article page. We can own this. **EXEGETE agent.**
+17. **story-the-person-who-chose-god.html** — **(Scout 2026-04-05)** Dark parable/thought experiment: what would it look like if someone ACTUALLY chose God on their own? Shows the impossibility. Powerful Socratic tool. **STORYTELLER agent.**
 
 ### TIER 3 — Strategic Differentiation
-16. **for-pastors.html** — Third audience landing page.
-17. **Choose Your Objection** — Interactive branching experience.
-18. **secular-game-theory-sovereignty.html** — Nash equilibrium + sovereignty.
-19. **Newsletter hub page** — 6 newsletter pages need their own hub.
-20. **Keyword cannibalization fix** — Differentiate question-godwants vs objection-desire, question-unfair vs objection-fairness.
-21. **Philosophy Category Hub Page** — 9 philosophy pages need a hub/landing page.
+18. **for-pastors.html** — Third audience landing page.
+19. **Choose Your Objection** — Interactive branching experience.
+20. **secular-game-theory-sovereignty.html** — Nash equilibrium + sovereignty.
+21. **Keyword cannibalization fix** — Differentiate question-godwants vs objection-desire, question-unfair vs objection-fairness.
+22. **Philosophy Category Hub Page** — 9 philosophy pages need a hub/landing page.
+23. **Meta-page: "Why This Objection Proves Our Point"** — **(Scout 2026-04-05)** Anti-Calvinist blogs are using "Calvinists think we believe we saved ourselves" as a straw man. But it's what we DO argue. Our psychology pages explain the defensive reaction. A meta-page connecting the dots would be devastating. **PHILOSOPHER agent.**
 
 ### COMPLETED (Updated 2026-04-04, Session #2)
 - ✅ **Philosophy Category: 9 pages launched.** Avg 8.5. mirror-you-refuse (8.9) and resistance-is-proof (8.9) exceptional.

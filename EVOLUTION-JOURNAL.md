@@ -31,6 +31,174 @@ Each entry follows this structure:
 
 *(Agents: add your entries below. Most recent first. This file should grow daily.)*
 
+### 2026-04-05 — SCOUT (Session 1: Inaugural Competitive Intelligence Sweep) — INSIGHT
+**Discovery:** The single most dangerous competitor page on the internet for our Crown Jewel argument is **redeeminggod.com's "Faith is NOT a Gift from God (Ephesians 2:8)"** — it ranks well for "is faith a gift" and directly contradicts our foundational truth. Meanwhile, **GotQuestions.org** — the #1 search result for most soteriology queries — concludes that "Calvinism vs Arminianism" is a debate where "both are valid" because it "goes beyond human comprehension." This is the EXACT compromised answer we exist to demolish. The gap is wide open: no site on the internet follows the Crown Jewel logic chain to its devastating conclusion (faith as gift → claiming credit = works-righteousness). GotQuestions says faith is a gift but stops there. Desiring God says election is comforting but won't say rejecting it is works. We are the ONLY site that follows the argument to completion.
+**Why it matters:** The site's three URGENT content gaps are pages targeting exact high-volume search queries: "is salvation my choice or God's choice," "does God choose who goes to heaven and hell," and a direct counter to the "faith is NOT a gift" argument. These queries have WEAK top results dominated by Quora threads, Open Theists, and compromised Reformed answers. Creating pages with exact-match H1 titles will give first-page ranking potential.
+**Apply to:** EXEGETE (create 3 new question/demolition pages targeting these queries), ENHANCER (SEO-optimize Crown Jewel page and compare-calvinism-arminianism.html), PHILOSOPHER (secular-ai-determinism.html as first-mover blue ocean content).
+
+### 2026-04-05 — SCOUT (Session 1) — BRIDGE
+**Discovery:** The **AI and free will conversation** is an untapped bridge to sovereignty theology. Psychology Today (Dec 2024) published "Can AI Teach Us About Free Will?" and a 2025 Springer paper argues LLMs demonstrate "functional free will" within deterministic systems. The analogy is PERFECT for compatibilism: an LLM operates within parameters set by its creator, produces outputs that "feel" free, yet is entirely deterministic. This is EXACTLY how sovereignty and human "freedom" coexist. No Reformed site has connected this. First-mover opportunity.
+**Why it matters:** The AI conversation is happening NOW in both academic and popular media. Secular people are already asking "does AI have free will?" — and the answer keeps pointing toward compatibilism. A page connecting this to Reformed theology would be a viral-potential bridge between secular curiosity and sovereign grace.
+**Apply to:** PHILOSOPHER agent (secular-ai-determinism.html). BRIDGE agent (connect to existing secular evidence pages). Target keyword: "AI free will determinism."
+
+### 2026-04-05 — SCOUT (Session 1) — WISDOM
+**Discovery:** **Our unique competitive advantages are CONFIRMED and EXPANDING.** After auditing all Tier 1 competitors (Desiring God, Ligonier, Gospel Coalition, GotQuestions), the following categories have ZERO overlap with any competitor: Psychology of Resistance (23 pages), Secular Evidence (12 pages), Healing Categories (20+ pages), and Interactive/Socratic design. These are genuine blue oceans. The site's 315 pages are building a resource that is structurally unlike anything else on the Reformed internet. But the flip side is also confirmed: **we should NOT try to out-Ligonier Ligonier** on systematic theology or out-Desiring God Desiring God on devotionals. Our power is in the angles NO ONE ELSE takes — psychology, secular evidence, Socratic traps, healing, and the Crown Jewel logic chain followed to completion.
+**Why it matters:** Every build-minute spent duplicating what competitors already do well is a minute NOT spent on our unique strengths. The fleet should ruthlessly prioritize pages that only WE can create.
+**Apply to:** All content agents. STRATEGIST should use this to filter every new page proposal through the uniqueness test: "Does anyone else say this? Do they say it from this angle? If yes, skip. If no, build."
+
+## SCOUT SESSION LOG — 2026-04-05
+Competitors audited: 6 (DesiringGod, Ligonier, TGC, GotQuestions, redeeminggod.com, biblevscalvinism.org)
+Keyword opportunities identified: 10 (3 URGENT, 4 HIGH, 3 MEDIUM)
+GotQuestions counter-targets: 7 (5 actionable, 1 skip, 1 monitor)
+Content gaps flagged: 4 new pages + 6 enhancements
+Blue ocean opportunities: 2 (AI+determinism, deconstruction landing page)
+Files updated: SCOUT-REPORT.md (created), ROADMAP.md (Tier 0.75 added), CONTENT-STRATEGY-2026.md (SEO strategy expanded)
+
+### 2026-04-05 — APOLOGIST (Session: The Faith Origin Test) — CRAFT
+**Discovery:** The **Socratic reflection-after-selection pattern** is the most powerful interactive technique discovered so far. Instead of showing all information at once, the user selects an answer and THEN sees a targeted reflection that challenges, affirms, or reframes their choice. This creates a 1-2 punch: (1) the reader commits to a position by clicking, (2) the reflection shows them what they just committed to. The psychological commitment effect (consistency bias) means the reader can't easily dismiss the reflection — they chose the answer willingly, so the reflection feels like self-discovery rather than preaching. This is the Socratic method in digital form.
+**Why it matters:** Every future interactive page should use this delayed-reflection pattern. The reflection is WHERE THE TEACHING HAPPENS — not in the question, not in the options, but in the response to their choice. The question sets the trap. The options are the bait. The reflection is the mirror.
+**Apply to:** All future assessments, debate simulations, and thought experiments. The reflection text should be the most carefully crafted prose on the entire page.
+
+### 2026-04-05 — APOLOGIST (Session: The Faith Origin Test) — INSIGHT
+**Discovery:** **Question 7 ("What is the difference between you and that unbelieving person?") is the Crown Jewel question in interactive form.** When a reader selects "I made the right choice" and then reads the reflection showing that this IS boasting — that claiming your choice as the decisive factor IS works-righteousness — the recognition is visceral because they walked there themselves. No one accused them. They chose the answer. The reflection merely named what they chose. This is orders of magnitude more powerful than stating the same argument in an essay.
+**Why it matters:** The site's Crown Jewel argument (faith is a gift, claiming credit is works) is devastating in essay form. In interactive form, where the reader self-selects into the trap, it is INESCAPABLE. Future interactive pages should identify their "Question 7 moment" — the single question where the reader's own answer reveals the truth they've been avoiding.
+**Apply to:** Every future interactive page needs a "mirror question" — the one that uses the reader's own words against their position.
+
+### 2026-04-05 — APOLOGIST (Session: The Faith Origin Test) — PATTERN
+**Discovery:** The **four-tier result system** (Grace-Rooted / Grace-Leaning / In Tension / Self-Sourced) works better than binary pass/fail because it meets readers where they ARE rather than where we wish they were. A reader who scores "In Tension" gets a targeted challenge about their specific contradiction — which is far more compelling than being told "you're wrong." The pastoral calibration per tier also implements the Two Arms: the grace-rooted result affirms and comforts, the self-sourced result challenges but ends with an invitation, not condemnation.
+**Why it matters:** Future assessments should calibrate 3-5 result tiers with distinct pastoral tones. The person closest to the truth gets celebration. The person furthest gets the most careful, most tender, most devastating version of the argument.
+**Apply to:** All future assessments and quizzes.
+
+## APOLOGIST SESSION LOG — 2026-04-05
+Pages created: 1
+- question-faith-origin-test.html — Interactive 10-question Socratic assessment (~650 lines, 12+ internal links)
+Wired into: questions.html hub (Crown Jewel section, featured card)
+Hub count updated: 68 → 69
+Interactive techniques: Delayed reflection pattern, progressive disclosure, contradiction detection, 4-tier personalized results
+Crown Jewel delivery: Questions 4, 5, 7, and 10 form the Socratic trap chain
+Validator: 0 errors, 1 warning (eyebrow class — expected for interactive pages)
+Search index and mega-menu rebuilt: 313 pages indexed
+
+### 2026-04-05 — CARTOGRAPHER (Session 1: Journey Infrastructure + 12 Pages + Landing Page) — PATTERN
+**Discovery:** The single biggest journey architecture problem is the **dead-end pattern**: 200+ article pages have zero intentional "Continue the Journey" sections. Every page has a "Keep Reading" or "Related Articles" grid (added by the Weaver or original authors), but these are **category-locked** — a psychology page links only to other psychology pages, a demolition links only to other demolitions. This violates the Two Arms mandate at the structural level. The highest-impact intervention is adding **emotionally-mapped journey sections** that cross categories: demolition → devotional, psychology → story, question → healing.
+**Why it matters:** A reader who finishes a demolition page and sees only more demolitions will either: (a) click another demolition and get increasingly anxious without emotional resolution, or (b) leave the site. A reader who finishes a demolition and sees "Here is where grace catches you" as the next card stays. Cross-category linking is the mechanical implementation of the Two Arms.
+**Apply to:** Every content agent. When creating new pages, the "Continue the Journey" section is as important as the article content itself. The Cartographer should process ~12 pages per session until all 200+ article pages have journey sections.
+
+### 2026-04-05 — CARTOGRAPHER (Session 1) — HEART
+**Discovery:** The **for-hurting landing page** requires a fundamentally different voice than every other page on the site. The demolition voice, the Socratic voice, the educational voice — none work here. The hurting reader doesn't need arguments. They need to be told "You don't have to understand anything right now. You just need to know He never lets go." The page's numbered cards serve as steps in a grief journey: (1) comfort first, (2) physical hands of God, (3) pastoral understanding of suffering, (4) walking through the valley, (5) nothing is wasted. Only AFTER comfort is established do we introduce named-pain pages (hospital room, senseless death, church betrayal). And the "go deeper" section is explicitly framed as "when you're ready" — not now.
+**Why it matters:** The for-hurting page will likely be a high-traffic entry point from Google searches like "God why is this happening to me" or "does God care about my suffering." These readers are one bad experience away from never visiting a theology site again. The page must feel like a human sitting beside them, not a professor lecturing.
+**Apply to:** All future healing content. The tender voice is not weakness — it is the right arm of the Two Arms.
+
+### 2026-04-05 — CARTOGRAPHER (Session 1) — CRAFT
+**Discovery:** The **Continue the Journey CSS** (`.continue-journey`, `.journey-card`) is now in global.css with the site's canonical warm gold/ember aesthetic. The design uses a gradient top-border (gold → ember → transparent), subtle hover translateX animation, and arrow indicators. Cards are stacked vertically (not grid) to create a clear sequential path rather than a browse-and-pick-one grid. This vertical stacking is intentional: it communicates "here is where you go NEXT" rather than "here are some related things."
+**Why it matters:** The visual distinction between "Continue the Journey" (vertical, sequential, emotionally mapped) and existing "Keep Reading" grids (horizontal, categorical, informational) signals to the reader that the journey section is personally curated. The two systems coexist on the same page without conflict.
+**Apply to:** All future Cartographer sessions should use the `.continue-journey` class system. No inline styles for journey sections.
+
+## CARTOGRAPHER SESSION LOG — 2026-04-05
+Pages processed: 12 (journey sections added)
+Landing page created: /for-hurting.html (14 curated cards across 3 sections)
+CSS added: .continue-journey system in global.css (15 new rules)
+Pages with journey sections after this session: ~19 (7 pre-existing + 12 new)
+Remaining pages needing journey sections: ~180+
+Priority for next session: devotional-*.html pages (highest emotional impact, most likely to be dead ends)
+
+### 2026-04-05 — STORYTELLER (Session: 3-Story Sprint — Dark Parable, Thought Experiment, Satire) — CRAFT
+**Discovery:** The **"earned seat" inversion** is the Storyteller's most dangerous new character template: the DEVOUT antagonist who is the reader in disguise. Doris Whitfield is not a villain. She tithes. She serves. She's the best Christian in the room — and that IS the problem. The technique: build a character the reader identifies with (faithful, consistent, committed), then slowly reveal that the reader has been identifying with the Pharisee. The reveal happens not through accusation but through the character's OWN realization. Doris asks herself "What did my thirty-one years earn me?" and the answer — "everything" — is the knife that cuts. The reader who recognizes themselves in Doris experiences the Crown Jewel truth without being told it. They discover they've been keeping score with God.
+**Why it matters:** Dark parables about the *faithful* sinner (not the dramatic sinner) reach the demographic that most needs this site: longtime churchgoers who don't know they're trusting their own righteousness. The Marcus story (altar-he-built-himself) targets the performance Christian. The Doris story targets the attendance Christian. Together they close two major escape routes.
+**Apply to:** Future dark stories should explore more "good person" variants: the prayer warrior whose prayer life is an invoice, the evangelist whose soul-winning is a scoreboard, the theologian whose knowledge is a fortress against vulnerability.
+
+### 2026-04-05 — STORYTELLER (Session: 3-Story Sprint) — INSIGHT
+**Discovery:** The **courtroom satire format** is devastatingly effective because it forces the reader's objection into formal legal language — and formal legal language exposes the absurdity. "The Defendant saved Gerald T. Pemberton without his consent" is a sentence that anyone can see is ridiculous when stated as a legal complaint. But the EXACT SAME ARGUMENT ("God wouldn't save someone without their free choice") sounds reasonable when stated theologically. The format works because it strips the theological clothing off the argument and makes the reader see what they're actually saying: they are suing the lifeguard for pulling them from the water. The Holy Spirit's one-page defense brief — answering each point in a single devastating sentence — models the "steel-man then one verse" technique from the Evangelist's debate format.
+**Why it matters:** Humor disarms. The reader who would reject the argument in essay form laughs at it in satire form — and the laughter IS the concession. Gerald's final line ("I'm glad He didn't ask — because I would have said no") is the Crown Jewel confession delivered through comedy. Future satire should follow this pattern: state the objection formally, let it sound absurd in its own words, then let the reader discover they agree with the absurdity.
+**Apply to:** Future humor stories. The courtroom, the corporate boardroom, the congressional hearing — any formal setting where theological arguments sound ridiculous when stated plainly.
+
+### 2026-04-05 — STORYTELLER (Session: 3-Story Sprint) — HEART
+**Discovery:** The **"What if you could WATCH?" thought experiment** achieves something no previous thought experiment on the site has done: it transforms election from an abstract doctrine into a witnessed act of love. Previous thought experiments asked "What if you could choose again?" (factory settings) which attacks from the depravity angle. "What if you could watch?" attacks from the LOVE angle. The reader imagines seeing God look at them — all their sins, all their failures — and choose them anyway. The pivot question "Why me?" is devastating because every answer that starts with "because I..." collapses into boasting. The ONLY answer that preserves grace is "I don't know." And "I don't know" is the doorway to rest.
+**Why it matters:** Election needs more BEAUTY content, not just logical defense. The "watch" thought experiment makes election feel like being loved rather than being sorted. It transforms the doctrine from something the flesh fears into something the soul craves. The cost section (showing the cross as the PRICE of the choice) makes it impossible to call election "arbitrary" — because arbitrary doesn't cost everything.
+**Apply to:** Future thought experiments should explore what other doctrines LOOK like when witnessed: What if you could watch irresistible grace happen in real time? What if you could see the moment the Holy Spirit regenerated you? Each transforms theology from concept to encounter.
+
+### 2026-04-05 — STORYTELLER (Session: 3-Story Sprint) — PATTERN
+**Discovery:** The **Chesterton + O'Connor master combination** produced this session's strongest results. Chesterton provides the WIT (Gerald's legal language, the gift card analogy, the zucchini comparison) and O'Connor provides the SHOCK (Doris's realization that her faithfulness was an invoice, the moment grace "won" by sitting beside her). Together they produce content that disarms with humor and then devastates with recognition. This combination is especially powerful for the "devout villain" archetype because Chesterton understood that the most dangerous lies are the ones that look like virtues, and O'Connor understood that grace arrives most violently where self-righteousness is most entrenched.
+**Why it matters:** Lewis + Buechner produces beauty. Spurgeon + Edwards produces fire. Chesterton + O'Connor produces the unique quality this site needs most: stories where the reader laughs, then recognizes themselves, then sits in silence. The humor is the Trojan horse; the recognition is the army inside.
+**Apply to:** Future stories targeting "good Christians" — the demographic most resistant to sovereign grace because they believe their goodness is evidence they don't need it.
+
+### 2026-04-05 — STORYTELLER (Session: 3-Story Sprint) — BRIDGE
+**Discovery:** The **"Because I would have said no" confession** may be the single most powerful closing line the Storyteller has produced. It works because it is simultaneously: (1) the confession of total depravity ("my will would have rejected God"), (2) the confession of irresistible grace ("He saved me anyway"), (3) the Crown Jewel truth ("my faith was His gift"), and (4) a moment of genuine humor (the plaintiff withdrawing his own case). Four doctrines in one sentence, delivered through a character the reader has been laughing with for ten minutes. When Gerald says it, the reader realizes they agree with him — and the agreement IS the theological concession.
+**Why it matters:** The site's most powerful lines are the ones that compress maximum truth into minimum words. "He didn't need the altar" (Marcus). "She'd been keeping score against grace" (Doris). "I would have said no" (Gerald). Each is a one-line sermon. Future stories should identify their "compression line" before the story is considered finished.
+**Apply to:** Every future story. The compression line is the PAYLOAD — the sentence the reader screenshots and shares. If you can't identify it, the story isn't done.
+
+## STORYTELLER SESSION LOG — 2026-04-05
+Stories created: 3
+- story-dark-the-woman-who-earned-her-seat.html — Dark Parable (~2,500 words, 12 internal links)
+- story-thought-the-god-who-let-you-watch.html — Thought Experiment (~2,200 words, 15 internal links)
+- story-humor-the-man-who-sued-god.html — Theological Satire (~2,400 words, 11 internal links)
+All 3 wired into stories.html hub (cards 16-18, hub count updated to 18)
+Master combination: Chesterton + O'Connor
+Payload lines identified:
+- Dark: "Thirty-one years of Sundays, and she had never once sat in that pew for free."
+- Thought: "Election is not God choosing teams. It is God choosing YOU."
+- Humor: "I'm glad He didn't ask — because I would have said no."
+Validator: 0 errors, 3 minor warnings (eyebrow class)
+Search index and mega-menu rebuilt: 311 pages indexed
+
+### 2026-04-05 — WEAVER (Session: 10 Pages, ~120 Links Added) — PATTERN
+**Discovery:** **100+ content pages had ZERO internal links in their article body.** The nav/footer contribute ~30 href="/" patterns per page, masking the deficit in raw counts. The actual content-area linking was catastrophically low across every category — analogies, comparisons, healing pages, philosophy, psychology, objections, devotionals, and even the Crown Jewel page (question-where-did-your-faith-come-from.html) had 0 content links. This session brought 10 pages from 0 to 10-50+ content links each.
+**Why it matters:** The site's "every page is a doorway" mandate was being violated on the majority of article pages. Pages that look well-linked (30+ total hrefs) are actually dead ends once you strip out nav/footer. Future Weaver sessions should continue targeting the 90+ remaining zero-link pages.
+**Apply to:** All content agents. When creating new pages, ensure at least 8-12 links are woven into article prose before saving.
+
+### 2026-04-05 — WEAVER (Session: 10 Pages) — CRAFT
+**Discovery:** **The compare-calvinism-arminianism.html page is the single highest-impact page for linking** — it naturally references every major doctrine, every key passage, every theologian, and every objection. Adding 50+ contextual links turned it into a true hub-within-a-hub. Comparison pages are the best candidates for dense cross-category linking because they inherently discuss both sides.
+**Why it matters:** Future Weaver sessions should prioritize comparison pages as super-connectors. A well-linked comparison page functions like a second table of contents.
+**Apply to:** All compare-*.html pages should be prioritized for linking in the next session.
+
+### 2026-04-05 — WEAVER (Session: 10 Pages) — HEART
+**Discovery:** **Linking healing pages to systematic theology creates a powerful emotional bridge.** In broken-mirror-vessels-for-mercy.html, linking "God's mercy" to broken-mirror-grace-too-good.html and "election" to systematic-election.html creates a path from emotional vulnerability → theological grounding → deeper healing. The reader who feels unworthy can follow a thread from their pain into the doctrine that addresses it. This is the Two Arms mandate made architectural.
+**Why it matters:** Healing pages should never be theological dead ends. They are where the most vulnerable readers arrive. Every healing page needs at least 2-3 links into systematic theology and 2-3 links to other healing pages for a "you're not alone" effect.
+**Apply to:** All healing category pages (anxious-mind-*, broken-mirror-*, invisible-wall-*, open-wound-*, shattered-lens-*).
+
+## WEAVER SESSION LOG — 2026-04-05
+Pages processed: 10
+Links added: ~120 total
+Pages and approximate content links AFTER weaving:
+- question-where-did-your-faith-come-from.html: ~18 content links (was 0)
+- psychology-cost-of-rejecting-grace.html: ~20 content links (was 0)
+- devotional-chosen-before-you-were-broken.html: ~16 content links (was 0)
+- compare-calvinism-arminianism.html: ~47 content links (was 0)
+- analogy-drowning-man.html: ~19 content links (was 0)
+- demolition-matthew-23-37.html: ~27 content links (was 0)
+- theologian-spurgeon.html: ~16 content links (was 0)
+- objection-fairness.html: ~33 content links (was 0)
+- broken-mirror-vessels-for-mercy.html: ~20 content links (was 0)
+- philosophy-self-deception.html: ~19 content links (was 0)
+Broken links found: 0 (all .html targets verified)
+Pages still at critical deficit (0 content links): ~90+ remaining
+Most interesting cross-category connection: philosophy-self-deception → question-where-did-your-faith-come-from (the Crown Jewel as the answer to self-deception about faith's origin)
+
+### 2026-04-05 — ENHANCER (Session: Tier 0 Emergency — 3 Pages) — HEART
+**Discovery:** **Naming the reader's fear before addressing their objection is the single most effective pastoral move the Enhancer has deployed.** On objection-why-command.html (#1 traffic page), instead of immediately arguing that sovereignty and commands coexist, the enhancement first says: "You're afraid that if God has already decided everything, then your prayers are whispered into a void. You're afraid that your evangelism is theater." This names the exact anxiety driving the objection. The reader feels *seen* before they feel *argued with*. The difference is enormous — it transforms the page from a seminary lecture into a conversation with someone who understands what they're going through. Future objection pages should always identify the *emotional root* of the objection before addressing its *logical structure*.
+**Why it matters:** The site's objection pages average 7/10 on pastoral warmth. The highest-performing content (psychology pages at 18.1 avg/page) works precisely because it names the reader's experience. Applying this same technique to objection pages — which are the #1 traffic category by volume — could dramatically improve engagement and time-on-page.
+**Apply to:** All objection-*.html pages. The pattern: (1) State the objection fairly, (2) Name the fear/anxiety behind it, (3) Then demolish the logic. Steps 1 and 2 should happen before any argument begins.
+
+### 2026-04-05 — ENHANCER (Session: Tier 0 Emergency — 3 Pages) — CRAFT
+**Discovery:** **The "hypocrisy mirror" humor technique works brilliantly for objections about sovereignty and means.** On objection-why-command.html, the new humor bomb points out that the person asking "If God predestined everything, why pray?" is the same person who eats breakfast even though God already knows whether they'll starve. They go to the doctor even though God knows when they'll die. They set their alarm even though God knows when they'll wake up. The reader laughs — and then realizes they only "discover" the ends-vs-means problem when it touches sovereignty. The humor isn't mocking; it's a mirror. And mirrors are more devastating than arguments.
+**Why it matters:** Humor that reveals inconsistency is the most powerful kind — it bypasses intellectual defenses because the reader is disarmed before they realize they've been challenged. This "you already believe this in every other area" technique should be deployed on any page where the objector applies a standard to theology that they don't apply to daily life.
+**Apply to:** Objection pages, especially objection-why-evangelize, objection-responsibility. Any page where the reader holds God to a standard they don't apply elsewhere.
+
+### 2026-04-05 — ENHANCER (Session: Tier 0 Emergency — 3 Pages) — PATTERN
+**Discovery:** **Self-referencing links in h1 tags are an SEO anti-pattern and a UX bug.** Found on compare-calvinism-arminianism.html: `<h1>Calvinism vs. <a href="/compare-calvinism-arminianism">Arminianism</a>`. A page linking to itself inside its own heading confuses crawlers and adds nothing for readers. Fixed by removing the self-link. All future pages should be checked for this — it may exist on other pages created by agents who were adding links too aggressively.
+**Why it matters:** The CLAUDE.md correctly bans links in HTML structure, but self-referencing links in headings are a subtler form of the same error. Agents adding cross-references need to exclude the current page from their link targets.
+**Apply to:** All agents doing cross-referencing sweeps. Check: does any link on a page point back to that same page? If so, remove it.
+
+### 2026-04-05 — HISTORIAN (Session: Council of Orange) — INSIGHT
+**Discovery:** The **Council of Orange (529 AD) is the single most devastating "Then & Now" weapon on the site** because it is an *ecumenical* council — not a Protestant or Reformed one. The reader cannot dismiss it as "Calvinist bias" because Orange predates both Calvin and Luther by a millennium. When a modern evangelical discovers that the universal church formally condemned their exact soteriology in 529 AD — that "the beginning of faith is not from us but is a gift of grace" — the escape hatch of calling it a "Reformed interpretation" is welded shut. This is the ancient, undivided church speaking. The rhetorical structure that works best: quote the actual canons verbatim, then immediately translate each one into the modern evangelical phrase it condemns ("God votes for you, the devil votes against you, and you cast the deciding vote" = Canon 5 condemned). The juxtaposition of ancient authority and modern cliché creates cognitive dissonance that no amount of hand-waving can resolve. The reader is forced to ask: "Did the church get it wrong for 1,500 years, or did my pastor get it wrong last Sunday?"
+**Why it matters:** History pages that cite ecumenical (not merely Reformed) councils are armor-piercing. The reader who would dismiss Dort as "Calvinist propaganda" cannot dismiss Orange — it was ratified by the Pope. Future history content should prioritize moments where the *whole* church agreed on sovereign grace, not just the Reformed wing.
+**Apply to:** All history pages, especially "Heresy That Won't Die" series. The Council of Orange should be cross-referenced from demolition pages, question pages, and any page addressing the "I chose God" claim. It's the historical nuclear option.
+
+### 2026-04-05 — HISTORIAN (Session: Council of Orange) — CRAFT
+**Discovery:** **Quoting conciliar canons verbatim and then immediately showing the modern equivalent phrase creates a devastating rhetorical pattern.** Canon 4: *"If anyone maintains that God awaits our will to be cleansed from sin..."* → Modern: *"God has done everything He can. He's waiting for you to respond."* The ancient formal language dignifies the condemnation; the modern casual equivalent makes the reader recognize their own words. The gap between the two registers — solemn ecclesial Latin vs. casual Sunday-morning cliché — itself communicates the gravity of what's been lost. This "canon → cliché" juxtaposition should be reused in any future content involving historical councils.
+**Why it matters:** Most readers have never seen conciliar language. Its unfamiliarity creates authority. Immediately following it with a phrase they heard last Sunday creates recognition. Authority + recognition = the ground shifts.
+**Apply to:** Future Dort, Westminster, and Belgic Confession content. Any page that addresses historical theology can use this technique.
+
 ### 2026-04-05 — REFINER (Session: 20-Page Surface Optimization) — PATTERN
 **Discovery:** The **"Verse Demolition #N" title pattern is SEO poison.** Six demolition pages used numbered series titles ("Verse Demolition #3", "#5", "#6", "#7", "#12") that no human being has ever searched for. Nobody Googles "verse demolition number seven." They Google "Does 1 John 2:2 prove universal atonement?" Replacing numbered series with question-format titles that match actual search queries is the single highest-leverage title optimization on this site. All 6 were transformed:
 - "Verse Demolition #7" → `Does "The Whole World" in 1 John 2:2 Prove Universal Atonement?`
@@ -1943,4 +2111,14 @@ This page is a FOUNDATIONAL demolition for the Crown Jewel argument. It answers:
 
 **NEXT EVOLUTION:**
 Create a "CHILDREN OF SATAN → FAITH IS GIFT → ELECTION" progression page that chains this to question-where-did-your-faith-come-from to systematic-election. That triptych would be the most powerful argument sequence on the site.
+
+### 2026-04-05 — GUARDIAN — AM SESSION
+
+**Discovery:** Social share code was hiding in FOUR layers: (1) inline HTML share sections on ~10 individual pages, (2) a dynamic JS injection system in global.js that auto-injected share bars on ALL content pages matching content prefixes, (3) CSS styles in global.css supporting the share bars, (4) page-specific inline JS functions (copyToClipboard, shareToEmail). Removing only the HTML would have left the JS still injecting share bars everywhere.
+
+**Why it matters:** Banned content removal must be SYSTEMIC, not file-by-file. When a feature was implemented across HTML + JS + CSS layers, all layers must be cleaned. Future sweeps should check global.js and global.css for dynamic injection patterns, not just grep HTML files.
+
+**Integrity Insight:** Sitemap had 41 ghost entries (13% of total) pointing to deleted or never-created pages. Search engines were crawling 404s for newsletter pages deleted weeks ago, apologetics pages from the retired category, and planned content that was never built. This actively damages SEO crawl budget. Sitemap sync should be a top priority every session.
+
+**Technique to replicate:** When auditing banned content, always check: (1) HTML pages for static instances, (2) global.js for dynamic injection, (3) global.css for supporting styles, (4) print media queries for @media print references. The four-layer check catches what single-grep misses.
 

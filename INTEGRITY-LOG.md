@@ -1,5 +1,46 @@
 # INTEGRITY LOG — adoptedbygrace.net Guardian Sessions
 
+## 2026-04-05 Guardian Session — AM (5:00 AM CT)
+
+**Summary:**
+- Pages scanned: 310
+- Issues found: 48
+- Issues fixed: 48
+- Deploy status: BLOCKED (Netlify CLI not authenticated)
+
+**Phase Breakdown:**
+- Phase 1 (Broken Links): 0 broken links found. 1,268 unique href targets verified. All clean.
+- Phase 2 (Hub Sync): All 21 hubs checked. All child pages properly wired. No orphaned cards, no missing cards.
+- Phase 3 (Sitemap): 22 pages added (new content not indexed), 41 orphaned entries removed (deleted newsletter, apologetic, and planned-but-never-built pages). Sitemap now has 310 entries matching disk.
+- Phase 4 (Navigation): 310/310 pages have correct nav template, global.css, nav.js. All 13 nav links present on every page.
+- Phase 5 (Footer): 310/310 pages have footer-grace-warning element. All correct.
+- Phase 6 (Link Density): Deferred to PM run.
+- Phase 7 (Functional): No placeholder content (Lorem ipsum/TODO/FIXME). No oversized files (>500k). Site validator: ALL CHECKS PASSED.
+- Phase 8-9 (Design/CSS): Deferred to PM run.
+- Phase 10 (SEO): 10 pages missing canonical URLs — FIXED. 3 pages missing OG tags — FIXED. All 310 pages have meta descriptions.
+- Phase 11 (Banned Content):
+  - Social share buttons found on 7 pages (objection-why-command, demolition-arminian-facts, ot-abel-cain, story-the-fish-who-chose-the-ocean, devotional-love-letter-before-time, demolition-1john2-2, story-the-orphanage, story-surgeon-stone-heart, psychology-hostility-reaction, psychology-cost-of-rejecting-grace) — ALL REMOVED
+  - Share button CSS in global.css (~30 lines) — REMOVED
+  - Share button JS in global.js (~50 lines of social share injection + template code) — REMOVED
+  - Back-to-top dead code in global.js (12 lines) — REMOVED
+  - Newsletter/email signup: 0 violations
+  - Resources/community: 0 violations
+- Phase 12 (Accessibility): Deferred to PM run.
+- Phase 13 (Critical Pages): index.html, start-here.html, about.html, best-reads.html, search.html — spot-checked, all functional.
+- Phase 14 (Pre-Deploy): Page count 310. Search index rebuilt (308 indexed). Mega-menu rebuilt (277 articles in 7 umbrellas). Validator: ALL CHECKS PASSED.
+- Phase 15 (Deploy): BLOCKED — Netlify CLI not authenticated in this session. Aaron must deploy manually or re-authenticate.
+
+**Notable Patterns:**
+- Social share buttons were scattered across ~10 pages from different creation sessions — now fully eradicated site-wide including CSS and JS support code
+- The social share JS in global.js was auto-injecting share bars on ALL content pages dynamically — this was the biggest violation, now removed
+- Sitemap had 41 ghost entries pointing to deleted/never-created pages — search engines were crawling 404s
+- SEO canonical URLs were missing on 10 pages including 3 hub pages — now fixed
+
+**Next Session Todo:**
+- PM run should cover: Phase 6 (link density), Phase 8-9 (design/CSS), Phase 12 (accessibility)
+- Deploy when Netlify auth is available or Aaron pushes manually
+- Monitor for any new social share code being introduced by content agents
+
 ## 2026-04-04 Guardian Session — PM (5:00 PM CT)
 
 **Summary:**

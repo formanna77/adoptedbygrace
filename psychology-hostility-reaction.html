@@ -358,11 +358,6 @@
                 </p>
             </div>
 
-            <!-- Share Bar -->
-            <div class="share-bar">
-                <button class="share-btn" onclick="copyToClipboard('https://adoptedbygrace.net/psychology-hostility-reaction.html')">📋 Copy Link</button>
-                <button class="share-btn" onclick="shareToEmail('Why the Truth That Makes You Angriest Is the One That Will Set You Free', 'https://adoptedbygrace.net/psychology-hostility-reaction.html')">✉️ Email</button>
-            </div>
 
         </div>
     </main>
@@ -420,17 +415,6 @@
         }
         window.addEventListener('scroll', updateReadingProgress);
 
-        function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(() => {
-                alert('Link copied to clipboard!');
-            });
-        }
-
-        function shareToEmail(title, url) {
-            const subject = encodeURIComponent(title);
-            const body = encodeURIComponent(`I found this article meaningful:\n\n${title}\n${url}`);
-            window.location.href = `mailto:?subject=${subject}&body=${body}`;
-        }
     </script>
 
     <!-- Schema.org Article Markup -->

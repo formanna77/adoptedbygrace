@@ -226,7 +226,17 @@ The Philosopher agent's first session produced 9 complete pages. This is the sit
 
 ---
 
-## SEO STRATEGY (Updated 2026-04-04)
+## SEO STRATEGY (Updated 2026-04-05 — Scout Intelligence Added)
+
+### Tier 0 Keywords — GAPS IDENTIFIED BY SCOUT (2026-04-05)
+> These are high-volume queries where adoptedbygrace.net has NO dedicated page matching the exact search phrasing. Top Google results are WEAK or COMPROMISED. Creating pages with these exact titles as H1 will give us first-page potential.
+
+| Keyword | Current Top Result | Our Existing Coverage | Action | Agent |
+|---------|-------------------|----------------------|--------|-------|
+| **"is salvation my choice or God's choice"** | Room For Doubt (soft), Greg Boyd (Open Theism) | compare pages exist but NOT this exact query | **CREATE question-is-salvation-my-choice-or-gods.html** | EXEGETE/EVANGELIST |
+| **"does God choose who goes to heaven and hell"** | Quora threads, small Arminian blogs | question-predestined-to-hell.html (related but different query) | **CREATE question-does-god-choose-who-goes-to-heaven.html** | EXEGETE |
+| **"is faith a gift from God or my choice"** | redeeminggod.com ("Faith is NOT a Gift") ranks well | question-faithgift.html + Crown Jewel page exist but DON'T counter the anti-gift argument | **CREATE demolition-faith-is-not-a-gift.html** (counter-content) | EXEGETE/APOLOGIST |
+| **"why does God choose some people and not others"** | Desiring God (podcast, no article), Quora | question-unfair.html (related but different phrasing) | **CREATE question-why-does-god-choose-some-not-others.html** | EXEGETE |
 
 ### Tier 1 Keywords (Traffic Drivers)
 | Keyword | Dedicated Page | SEO Score | Action |
@@ -235,10 +245,13 @@ The Philosopher agent's first session produced 9 complete pages. This is the sit
 | "predestination Bible" | question-goldchain.html | 7/10 | Add FAQ schema |
 | "once saved always saved" | question-perseverance.html | 7/10 | Add FAQ schema |
 | "can you lose salvation" | question-perseverance.html | 7/10 | Consider separate page |
-| "Calvinism vs Arminianism" | compare-calvinism-arminianism.html | **5/10** | **URGENT: Add h1, fix SEO** |
+| "Calvinism vs Arminianism" | compare-calvinism-arminianism.html | **5/10** | **URGENT: Add h1, fix SEO, add "Why Both Valid Is Dangerous" section (Scout 04-05)** |
 | "is free will biblical" | question-freewill.html | 8/10 | Good. Add FAQ schema. |
 | "what does Romans 9 mean" | question-romans9.html | 7/10 | Enhance |
-| "where does faith come from" | question-where-did-your-faith-come-from.html | 8/10 | NEW — monitor ranking |
+| "where does faith come from" | question-where-did-your-faith-come-from.html | 8/10 | **Ensure meta targets this exact query (Scout 04-05)** |
+| **"Calvinism vs Arminianism which is correct"** | compare-calvinism-arminianism.html | **5/10** | **(Scout 04-05)** GotQuestions #1 with "both valid" answer. Our page MUST counter this. |
+| **"if God is sovereign why pray"** | objection-why-pray.html | 6/10 | **(Scout 04-05)** DG + Ligonier rank. Enhance with unique angle: prayer as PROOF of sovereignty. |
+| **"what does total depravity mean"** | question-depravity.html | 7/10 | **(Scout 04-05)** Add LINCHPIN framing. No competitor says depravity proves all 5 points. |
 
 ### Tier 2 Keywords (Long-Tail)
 | Keyword | Page | Action |
@@ -249,6 +262,36 @@ The Philosopher agent's first session produced 9 complete pages. This is the sit
 | "why do Christians reject predestination" | psychology-hub.html | Optimize meta for this query |
 | "faith is a gift" | question-faithgift.html | Add FAQ schema |
 | "Ephesians 2:8-9 meaning" | question-boasting.html | Enhance |
+| **"why do Christians get angry about Calvinism"** | psychology-hostility-reaction.html | **(Scout 04-05)** We have 20+ pages on this. Ensure SEO targeting. UNIQUE advantage. |
+| **"did God predestine people to hell"** | question-predestined-to-hell.html | **(Scout 04-05)** Enhance — be honest where others flinch. |
+
+### GotQuestions Counter-Content Targets (Scout 2026-04-05)
+> GotQuestions.org ranks #1 for most soteriology queries. Their answers are often COMPROMISED — presenting Arminianism as equally valid or stopping short of following logic to its conclusion. These are counter-targets:
+
+| GQ Page | GQ Position | Our Counter-Angle | Priority |
+|---------|------------|-------------------|----------|
+| "Calvinism vs. Arminianism — which is correct?" | "Both valid... beyond human comprehension" | Both are NOT valid. One is grace, one is works. | **URGENT** (via compare-calvinism-arminianism.html) |
+| "Where does faith come from?" | Faith is a gift (correct!) but doesn't follow through to Crown Jewel implication | Faith as gift = claiming credit is works-righteousness | **URGENT** (via Crown Jewel page) |
+| "Is unconditional election biblical?" | Presents as one option among two | It's the ONLY option that doesn't collapse into works | HIGH (via systematic-election.html) |
+| "Is irresistible grace biblical?" | Frames as "Calvinist position" | Frame as "Scripture teaches" — de-label | MEDIUM (via question-irresistible.html) |
+| "What is total depravity?" | Defines as T in TULIP (Calvinist label) | Lead with Scripture, not TULIP. Show it's what every human already knows. | MEDIUM (via question-depravity.html) |
+| "Can a Christian lose salvation?" | Strong NO — good answer | **SKIP. GQ handles this well. Don't waste build minutes.** | SKIP |
+
+### Anti-Reformed Counter-Content Targets (Scout 2026-04-05)
+> Active anti-Reformed sites that rank well and need targeted responses:
+
+| Site | Content | Our Response |
+|------|---------|-------------|
+| **redeeminggod.com** | "Faith is NOT a Gift from God (Ephesians 2:8)" — ranks for "is faith a gift" | **CREATE demolition-faith-is-not-a-gift.html** — Greek analysis + logical devastation |
+| **biblevscalvinism.org** | "A Biblical Defense of Christianity against Calvinism" — targets Reformed proof-texts | Monitor. Our demolition pages already counter most of their arguments. |
+| **March 2026 blog** | "Calvinists think non-Calvinists believe they saved themselves" (straw man) | Our psychology pages already explain this reaction. Consider meta-page connecting the dots. |
+
+### Emerging SEO Opportunities (Scout 2026-04-05)
+| Topic | Opportunity | Competition | Agent |
+|-------|------------|-------------|-------|
+| AI + determinism + free will | Perfect compatibilism analogy. Zero Reformed content. | Psychology Today article (Dec 2024), academic papers | PHILOSOPHER/BRIDGE |
+| Faith deconstruction + sovereignty | "Sovereignty was the only thing that survived deconstruction" | Zero dedicated content from any Reformed site | SHEPHERD |
+| "New Calvinism" identity crisis | Movement is navel-gazing. We are post-institutional. | Mere Orthodoxy, Challies writing about it | MONITOR ONLY — don't join the institutional conversation |
 | "John 6:44 meaning" | demolition pages | Add dedicated page? |
 
 ### Tier 3 Keywords (Unique to Site — No Competition)
