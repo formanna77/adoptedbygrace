@@ -31,6 +31,67 @@ Each entry follows this structure:
 
 *(Agents: add your entries below. Most recent first. This file should grow daily.)*
 
+### 2026-04-05 — REFINER (Diamond Week Session 1: 20 Pages Optimized) — CRAFT
+
+**Discovery: Verse references as card titles are the single worst CTR pattern on the site.** The demolition hub had 12 cards titled with bare verse references ("1 Timothy 2:4", "Revelation 3:20", "Joshua 24:15"). To a browsing visitor, these are meaningless — they communicate nothing about what the reader will discover. Transforming them into question-format hooks with the verse *quoted* creates immediate curiosity and a reason to click. "1 Timothy 2:4" says nothing. "'God Wants Everyone Saved' — Does He?" creates a gap the reader needs to close.
+
+**Pattern discovered: The "quote + challenge" card title format is the most clickable pattern for demolition cards.** By quoting the Arminian interpretation as the card title and then challenging it with a question or reversal in the description, the card becomes a miniature Socratic trap. The reader sees their own argument reflected back at them — and then a crack appears. This mirrors the site's broader Socratic method at the card level.
+
+**Technique that worked: Theologian titles need a "story hook," not a name + site brand.** "Jonathan Edwards — Adopted by Grace" is invisible in search results because it competes with Wikipedia, Britannica, and every other Edwards page. "Jonathan Edwards: The Man Who Saw God's Sovereignty and Trembled" competes on *narrative* — it promises a story, not a biography. Every theologian title was rewritten as "Name: The [dramatic descriptor]" format, which gives search engines a unique angle and gives readers a reason to click THIS page over the 500 others about the same person.
+
+**Meta description principle confirmed: ARGUE, don't describe.** The question-chosen.html meta description was changed from "Ephesians 1:3-11 examined in depth. Greek analysis, arguments, and objections answered." (describes the page) to "Before the foundation of the world, God chose you. Ephesians 1 doesn't whisper this — it shouts it." (argues FOR reading the page). The difference: the first tells you what the page IS; the second tells you what the page will DO TO YOU.
+
+**Failed approach to avoid: Don't over-lengthen titles for theologian pages.** First draft of Spurgeon's title was 78 characters — would get truncated in Google. Trimmed to "Spurgeon: The Prince of Preachers Who Couldn't Stop Talking About Grace" (73 chars). Still borderline. Future Refiner sessions should aim for 55-65 characters max.
+
+REFINER CHANGES LOG:
+```
+theologian-edwards.html: "Jonathan Edwards — ADOPTED BY GRACE" → "Jonathan Edwards: The Man Who Saw God's Sovereignty and Trembled"
+theologian-spurgeon.html: "Charles Haddon Spurgeon | Adopted by Grace" → "Spurgeon: The Prince of Preachers Who Couldn't Stop Talking About Grace"
+theologian-luther.html: "Martin Luther | ADOPTED BY GRACE · Reformed Theology" → "Martin Luther: The Monk Who Broke the Church to Save It"
+theologian-augustine.html: "Augustine of Hippo | The Doctor of Grace | ADOPTED BY GRACE" → "Augustine: The Rebel God Hunted Down and Made a Theologian"
+theologian-owen.html: "John Owen — The Theologian's Theologian | Adopted by Grace" → "John Owen: He Proved Christ Didn't Die in Vain"
+theologian-bunyan.html: "John Bunyan — Adopted by Grace" → "John Bunyan: The Tinker Who Wrote the Greatest Allegory of Grace"
+theologian-boston.html: "Thomas Boston — Adopted by Grace" → "Thomas Boston: The Scottish Pastor Who Fought Legalism with Grace"
+theologian-whitefield.html: "George Whitefield | Theologian | Adopted by Grace" → "George Whitefield: The Voice That Shook a Nation Awake"
+devotionals.html: "Devotionals — Adopted by Grace" → "Devotionals on Sovereign Grace — For the Heart That Needs Rest"
+systematic-theology.html: "Systematic Theology — Adopted by Grace" → "The Whole Counsel of God — Every Truth of Grace Explained"
+comparisons-hub.html: "Theological Comparisons — Adopted by Grace" → "Calvinism vs Everything — What Scripture Actually Teaches"
+pastoral-hub.html: "Pastoral Care & Guidance — Adopted by Grace" → "When Theology Meets Your Soul — Pastoral Guidance in Grace"
+essays.html: "Essays – Full Arguments on Divine Election" → "Essays — The Case for Sovereign Grace, Argued in Full"
+start-here.html: "Start Here — Adopted by Grace" → "New to Sovereign Grace? Start Here."
+question-faithgift.html: "Faith: Gift or Achievement? – Philippians 1:29 & Ephesians 2:8-9" → "Is Faith a Gift from God? What the Bible Actually Says"
+question-chosen.html: Meta desc upgraded from academic summary to emotional argument
+demolition-hub.html: 12 verse-reference card titles → question/hook format card titles with compelling descriptions
+```
+
+**Evolution dimensions pushed: FASCINATION (would a skeptic click this?), PERSUASION (card-level Socratic traps), UNDERSTANDING (meeting the reader at Google, not at seminary)**
+
+### 2026-04-05 — DRAMATURG (Diamond Week Session 2: 5 Pages Enhanced) — HEART
+
+**Discovery: The "callback opening" is the Dramaturg's most powerful closing technique — and it works because it transforms the reader's relationship to the opening image.** On psychology-sincerity-trap.html, the opening was rewritten as a specific woman at a kitchen table with cold coffee and a cracked Bible spine. The closing returns to her: "Her coffee is cold now. Her Bible is still open." But now, after the entire Socratic Spiral, the reader sees that woman differently. Her sincerity hasn't changed — but its *source* has been revealed. The callback doesn't just create structural elegance; it creates emotional transformation. The same image, seen through new eyes, hits harder than any new image could. This is the Dramaturg's version of the Enhancer's "force multiplier" — except instead of multiplying theological connections, it multiplies emotional resonance by returning to familiar ground from a new altitude.
+
+**Technique that worked: "Real-time self-awareness" as a stop-and-feel moment.** On psychology-sunk-cost-faith.html, the stop-and-feel after the self-referential proof section says: "The resistance rising in your chest right now — the part of you reaching for a counterargument — *that is the sunk cost operating in real time.*" This technique works because it collapses the distance between the reader and the argument. They are no longer reading *about* sunk cost. They are *experiencing* it. And the page names the experience while it's happening. This is the most disorienting — and most honest — form of persuasion: catching the reader in the act of doing the thing the page describes.
+
+**Pattern discovered: Psychology pages benefit most from "specific human scenes" rather than "universal observer" openings.** The sincerity-trap page originally opened with "You know the person" — generic, observational, third-person. Rewritten as a specific woman at a kitchen table, the reader immediately *sees* someone. They smell the coffee. They hear the trembling voice. Specificity creates empathy; universality creates distance. Future Dramaturg sessions should audit all psychology pages for "You know the person" / "We all know someone" openings and replace them with concrete scenes.
+
+**Failed approach to avoid: Over-whispered closings.** On the first pass at the anxious-mind page closing, I initially drafted a line that was TOO quiet — so soft it dissolved before landing. The anxious reader needs a whisper, but the whisper must have weight. "The question that woke you up at 3 AM has already been answered. It was answered before you were born." — this has the weight. A whisper without weight is just silence.
+
+**Evolution dimension pushed furthest: UNDERSTANDING.** This session focused on meeting readers where they actually are — not in theological abstraction, but in specific physical moments: the 3 AM phone glow, the kitchen table, the sixty-three-year-old pastor's study. The closer the prose gets to the reader's actual sensory experience, the harder the truth lands.
+
+### 2026-04-05 — ENHANCER (Diamond Week Session 1: 3 Pages Enhanced) — CRAFT
+
+**Discovery: The "anxiety-as-Arminianism" connection is the most powerful cross-category link the Enhancer has deployed.** On anxious-mind-never-meant-to-carry.html, the insight that "the anxious mind and the Arminian mind are running the same operating system: *it's up to me*" does something no previous link on the site has done: it connects a HEALING page to the CROWN JEWEL truth through an *emotional* bridge rather than a logical one. The reader who arrived because they're anxious — not because they're debating soteriology — suddenly sees that the same lie fueling their panic attacks is the same lie fueling the theology they grew up with. The connection doesn't feel forced because it ISN'T forced: anxiety literally IS the experiential consequence of believing the outcome depends on you. This is the Two Arms mandate at its strongest — the healing page doesn't just link to the demolition; it IS the demolition, approached from the side of pain instead of the side of argument.
+
+**Technique that worked: The "Five Questions" forcing function.** On secular-sociology-human-inability.html, instead of summarizing the experiments' implications in the author's voice, I reframed them as five direct questions the reader must answer. Each question takes a specific experiment's finding and applies it personally: "If 65% of ordinary people will electrocute a stranger on command, what makes you confident YOUR will can resist the gravitational pull of sin?" This is the Socratic trap method applied to empirical data rather than Scripture — and it's devastating because the reader can't dismiss the data as "just theology." The science is peer-reviewed. The implication is unavoidable. The question format forces engagement rather than permitting passive consumption.
+
+**ESV→NIV conversion on demolition-john3-16.html revealed a craft insight:** The NIV's translation of John 3:8 — "The wind blows wherever it pleases" — is actually STRONGER for our purposes than the ESV's "The wind blows where it wishes." "It pleases" has a sense of sovereign delight that "wishes" lacks. The NIV conversion mandate isn't just strategically sound (removing translation-bias objections) — it occasionally hands us better phrasing.
+
+**Failed approach to avoid:** On the John 3:16 page, I initially drafted a Crown Jewel section that was too long and too argumentative — it felt like a separate essay grafted onto the page rather than a natural capstone. I cut it down to the essential question ("where does that belief come from?") and four tight paragraphs. The lesson: the Crown Jewel connection on demolition pages should be a TURN, not a TREATISE. One devastating question, a brief logical chain, and then let the reader sit with it. Less is more when the question is this good.
+
+**Evolution Dimension pushed furthest: PERSUASION.** The "Five Questions" section and the anxiety-Arminianism connection are both designed to change minds, not confirm the already-convinced. The anxious reader doesn't arrive looking for Reformed theology — they arrive looking for relief from panic. Meeting them there and then showing them that the cure is sovereignty is persuasion at its most effective: solving a felt need with an unfelt truth.
+
+**Pattern for creators to fix at creation time:** New healing pages (Anxious Mind, Broken Mirror, etc.) are being created with ZERO internal links. This is the single most fixable problem at creation time. Every healing page should be created with a minimum of 8 links woven into the prose from day one. The Enhancer shouldn't have to do this — creators should.
+
 ### 2026-04-05 — GUARDIAN (PM Session: Diamond Week Structural Sweep) — PATTERN
 **Discovery:** **The ~30 pages created from the older "demolition/OT/devotional" template (March 2026 batch) shared a common structural pathology:** inline `<style>` blocks (200-600 lines each), back-to-top buttons with inline JS, non-standard hero classes (`hero-section`, `article-header`, `story-header`), non-standard eyebrow classes (`topic-label`, `article-meta`, `hero-eyebrow`), and non-standard wrapper classes (`content-wrap`, `content-container`, `content-section`, etc.). This was a single template problem that propagated across 30+ pages. Batch-fixing was the right approach — individual page edits would have taken 10x longer.
 **Why it matters:** When a new template pattern emerges that deviates from CLAUDE.md standards, catching it early (before 30 pages use it) is worth 100x more than fixing 30 pages later. Content creators should be flagged immediately if they introduce a non-standard template.
@@ -2331,4 +2392,18 @@ Create a "CHILDREN OF SATAN → FAITH IS GIFT → ELECTION" progression page tha
 **Integrity Insight:** Sitemap had 41 ghost entries (13% of total) pointing to deleted or never-created pages. Search engines were crawling 404s for newsletter pages deleted weeks ago, apologetics pages from the retired category, and planned content that was never built. This actively damages SEO crawl budget. Sitemap sync should be a top priority every session.
 
 **Technique to replicate:** When auditing banned content, always check: (1) HTML pages for static instances, (2) global.js for dynamic injection, (3) global.css for supporting styles, (4) print media queries for @media print references. The four-layer check catches what single-grep misses.
+
+### 2026-04-05 — WEAVER — PM SESSION
+
+**Session Stats:** 10 pages processed (9 edited, 1 skipped as already adequate). 67 internal links added across 9 pages. Average: ~7.4 links per page. All link targets verified before insertion.
+
+**Linking Technique — The "Concept Anchor" Pattern:** The most powerful links are the ones that wrap a concept the reader is already emotionally engaged with. In anxious-mind-scrupulosity, wrapping "works-righteousness" with the Crown Jewel link hits harder than any "see also" because the reader is feeling the weight of that concept at the exact moment they encounter the doorway. Links placed at emotional peaks become irresistible.
+
+**Cross-Category Discovery:** Healing pages (broken-mirror, anxious-mind, open-wound) are the BEST candidates for cross-category linking because they naturally touch every major doctrine: hamartiology (why we're broken), pneumatology (who convicts), election (who chose us despite brokenness), soteriology (how grace breaks the cycle). A single healing page can naturally link to 5+ theological categories without forcing anything.
+
+**Crown Jewel Saturation:** The Crown Jewel link (question-where-did-your-faith-come-from) was placed in 6 of 9 pages edited. Each placement was organic — self-trust, works-righteousness, or faith-as-gift appeared naturally in every page about struggle, shame, or sovereignty. Confirms the Crown Jewel truth threads through everything.
+
+**Failure to Avoid:** Curly quotes vs straight quotes in HTML caused 2 failed edits. Always grep for exact string or use Read to get the exact line before editing pages with typographic characters.
+
+**Two Arms Observation:** Every healing page already had emotional content crying out for links to hard theological truth, and every theological page had moments crying out for links to healing content. The Two Arms are not just a mandate — they are an organic property of good theology. Truth and comfort are naturally intertwined.
 

@@ -26,7 +26,7 @@
                         { name: 'But What About Free Will and Fairness? — Phase 4', href: '/start-here-phase4', desc: 'Phase 4: The hardest objections to biblical theology answered — free will, fairness, John 3:16,' },
                         { name: 'Find Your Starting Point', href: '/start-here-assessment', desc: 'Discover your starting point on the 5-phase journey to understanding God' },
                         { name: 'Living as an Elect Child of God — Phase 5', href: '/start-here-phase5', desc: 'Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, worship, mission, and ' },
-                        { name: 'Start Here', href: '/start-here', desc: 'Start Here — A journey into sovereign grace. For the curious, skeptical, and seeking. Find your entry point and go deepe' },
+                        { name: 'New to Sovereign Grace? Start Here.', href: '/start-here', desc: 'Curious, skeptical, or searching? Pick your doorway into sovereign grace. Whether you' },
                         { name: 'The Five Points of Grace — Phase 2', href: '/start-here-phase2', desc: 'The five biblical doctrines of grace explained: Total Depravity, Unconditional Election, Definite Atonement, Irresistibl' },
                         { name: 'What Does the Bible Actually Teach? — Phase 3', href: '/start-here-phase3', desc: 'Phase 3: What does the Bible actually teach about salvation? A passage-by-passage journey through Romans 9, Ephesians 1,' },
                         { name: 'What Is Reformed Theology? — Phase 1', href: '/start-here-phase1', desc: 'Phase 1: What is biblical theology? An honest, accessible introduction to what Reformed Christians believe about God, sa' }
@@ -53,7 +53,7 @@
                         { name: 'Can You Lose Your Salvation? Ephesians 4:30', href: '/question-sealed', desc: 'Ephesians 4:30 proves once saved always saved. You are sealed by the Holy Spirit for the day of redemption — not until y' },
                         { name: 'Dead Bones Don\'t Volunteer — Ezekiel 37', href: '/question-ezekiel37', desc: 'Ezekiel 37' },
                         { name: 'Dead, Not Sick — The Bible\'s Diagnosis of the Human Condition', href: '/question-depravity', desc: 'Total depravity is not about being as bad as possible — it' },
-                        { name: 'Did God Choose You Before You Were Born?', href: '/question-chosen', desc: 'Ephesians 1:3-11 examined in depth. God chose us in Christ before the creation of the world. Greek analysis, arguments, ' },
+                        { name: 'Did God Choose You Before You Were Born?', href: '/question-chosen', desc: 'Before the foundation of the world, God chose you. Ephesians 1:3-11 doesn' },
                         { name: 'Did Jesus Die for Everyone? Scripture on Definite Atonement', href: '/apologetic-definite-atonement', desc: 'Did Jesus die for everyone? Scripture teaches that Christ' },
                         { name: 'Does God Change Your Heart Without Permission?', href: '/question-newheart', desc: 'Ezekiel 36:26-27 — God promises a new heart and a new spirit. He does not ask permission. He removes the heart of stone ' },
                         { name: 'Does God Choose Who Goes to Heaven? What the Bible Actually Says', href: '/question-does-god-choose-who-goes-to-heaven', desc: 'Does God choose who goes to heaven? Yes. The Bible is clear: God chose His people before the foundation of the world. He' },
@@ -65,9 +65,9 @@
                         { name: 'Elect Exiles According to the Foreknowledge of God – 1 Peter 1:1-2', href: '/question-1peter1', desc: 'A rigorous exegetical examination of 1 Peter 1:1-2 and the truth of unconditional election. Demolishes the Arminian clai' },
                         { name: 'Eternal Security: Can a Believer Lose Salvation?', href: '/question-secure', desc: 'Eternal Security: Can a Believer Lose Salvation? Scripture teaches that those whom God saves are kept safe by His power.' },
                         { name: 'External and Internal Calling: What\'s the Difference?', href: '/question-external-internal-call', desc: 'External and Internal Calling: What' },
-                        { name: 'Faith: Gift or Achievement? – Philippians 1:29 & Ephesians 2:8-9', href: '/question-faithgift', desc: 'Is faith a human achievement or a divine gift? Philippians 1:29 and Ephesians 2:8-9 answer definitively: faith is grante' },
                         { name: 'God\'s Hardening: Does God Make People Sin?', href: '/question-hardening', desc: 'God' },
                         { name: 'If Grace Is Irresistible, Why Does It Feel Like Choice?', href: '/question-how-grace-feels', desc: 'If God' },
+                        { name: 'Is Faith a Gift from God? What the Bible Actually Says', href: '/question-faithgift', desc: 'Is faith a human achievement or a divine gift? Philippians 1:29 and Ephesians 2:8-9 answer definitively: faith is grante' },
                         { name: 'Is Free Will Real? What Scripture Teaches', href: '/question-freewill', desc: 'Is free will real? What the Bible actually teaches about human choice. Explore why spiritual death, not autonomy, is wha' },
                         { name: 'Is God Unfair? – Romans 9:19-23', href: '/question-unfair', desc: 'Is God unfair? Romans 9:19-23 — Paul confronts the moral objection to election head-on and does not soften the answer.' },
                         { name: 'Is Predestination in the Bible? Yes — and It Saturates Scripture', href: '/question-is-predestination-in-the-bible', desc: 'Predestination appears by name in Romans 8:29-30 and Ephesians 1:5,11. But the concept saturates all of Scripture — from' },
@@ -429,16 +429,16 @@
                     count: 11,
                     pages: [
                         { name: 'Amazing Grace: The Hymn That Proves What You Already Believe', href: '/hymn-amazing-grace', desc: 'You' },
-                        { name: 'Augustine of Hippo | The Doctor of Grace', href: '/theologian-augustine', desc: 'Explore the life, theology, and enduring legacy of Augustine of Hippo—the Doctor of Grace whose writings on predestinati' },
-                        { name: 'Charles Haddon Spurgeon', href: '/theologian-spurgeon', desc: 'Charles Haddon Spurgeon — the Prince of Preachers. Explore the life, theology, and enduring legacy of the greatest preac' },
-                        { name: 'George Whitefield | Theologian', href: '/theologian-whitefield', desc: 'George Whitefield: the greatest evangelist of the Great Awakening, a thoroughgoing Calvinist who proved that election fu' },
+                        { name: 'Augustine: The Rebel God Hunted Down and Made a Theologian', href: '/theologian-augustine', desc: 'Explore the life, theology, and enduring legacy of Augustine of Hippo—the Doctor of Grace whose writings on predestinati' },
+                        { name: 'George Whitefield: The Voice That Shook a Nation Awake', href: '/theologian-whitefield', desc: 'George Whitefield: the greatest evangelist of the Great Awakening, a thoroughgoing Calvinist who proved that election fu' },
                         { name: 'Jacobus Arminius: The Man Behind the Movement', href: '/theologian-arminius', desc: 'A respectful but honest treatment of Jacobus Arminius. His background, training under Beza, the five Remonstrant article' },
-                        { name: 'John Bunyan', href: '/theologian-bunyan', desc: 'The Tinker of Bedford: John Bunyan' },
+                        { name: 'John Bunyan: The Tinker Who Wrote the Greatest Allegory of Grace', href: '/theologian-bunyan', desc: 'The Tinker of Bedford: John Bunyan' },
                         { name: 'John Calvin: Theologian of God\'s Sovereignty', href: '/theologian-calvin', desc: 'A comprehensive theological biography of John Calvin, the theologian of God' },
-                        { name: 'John Owen — The Theologian\'s Theologian', href: '/theologian-owen', desc: 'John Owen (1616–1683) — the theologian' },
-                        { name: 'Jonathan Edwards', href: '/theologian-edwards', desc: 'Jonathan Edwards: America' },
-                        { name: 'Martin Luther', href: '/theologian-luther', desc: 'Martin Luther (1483–1546): The Reformation' },
-                        { name: 'Thomas Boston', href: '/theologian-boston', desc: 'The life and theology of Thomas Boston (1676–1732), the Marrow theologian who fought for free grace against legalism in ' }
+                        { name: 'John Owen: He Proved Christ Didn\'t Die in Vain', href: '/theologian-owen', desc: 'John Owen (1616–1683) — the theologian' },
+                        { name: 'Jonathan Edwards: The Man Who Saw God\'s Sovereignty and Trembled', href: '/theologian-edwards', desc: 'Jonathan Edwards: America' },
+                        { name: 'Martin Luther: The Monk Who Broke the Church to Save It', href: '/theologian-luther', desc: 'Martin Luther (1483–1546): The Reformation' },
+                        { name: 'Spurgeon: The Prince of Preachers Who Couldn\'t Stop Talking About Grace', href: '/theologian-spurgeon', desc: 'Charles Haddon Spurgeon — the Prince of Preachers. Explore the life, theology, and enduring legacy of the greatest preac' },
+                        { name: 'Thomas Boston: The Scottish Pastor Who Fought Legalism with Grace', href: '/theologian-boston', desc: 'The life and theology of Thomas Boston (1676–1732), the Marrow theologian who fought for free grace against legalism in ' }
                     ]
                 }
             ]
@@ -530,9 +530,9 @@
                     pages: [
                         { name: 'Can I Be Sure I\'m Saved? Assurance of Salvation in Reformed Theology', href: '/pastoral-assurance', desc: 'Can I be sure I' },
                         { name: 'Evangelism & God\'s Sovereignty', href: '/pastoral-evangelism', desc: 'If God has already chosen who will be saved, why share the gospel? Because Scripture teaches that evangelism is the very' },
-                        { name: 'Pastoral Care & Guidance', href: '/pastoral-hub', desc: 'Pastoral guidance for the soul: assurance in doubt, courage in evangelism, power in prayer, comfort in suffering. Grace ' },
                         { name: 'Prayer & God\'s Sovereign Decrees', href: '/pastoral-prayer', desc: 'If God has already decreed all things, why pray? Because Scripture teaches that prayer is not a backup plan — it is the ' },
-                        { name: 'Suffering & the Sovereignty of God', href: '/pastoral-suffering', desc: 'How God' }
+                        { name: 'Suffering & the Sovereignty of God', href: '/pastoral-suffering', desc: 'How God' },
+                        { name: 'When Theology Meets Your Soul — Pastoral Guidance in Grace', href: '/pastoral-hub', desc: 'Pastoral guidance for the soul: assurance in doubt, courage in evangelism, power in prayer, comfort in suffering. Grace ' }
                     ]
                 }
             ]

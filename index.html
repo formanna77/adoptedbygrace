@@ -91,33 +91,152 @@
         @keyframes bounceArrow { 0%, 100% { transform: rotate(45deg) translateY(0); } 50% { transform: rotate(45deg) translateY(8px); } }
         @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
 
-        /* ===== FIVE TRUTHS SECTION ===== */
-        .five-truths { padding: 6rem 2rem; position: relative; }
-        .five-truths::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.3; }
+        /* ===== SECTION SHARED ===== */
         .section-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4em; color: var(--accent-ember); text-align: center; margin-bottom: 1rem; }
         .section-title { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 800; text-align: center; margin-bottom: 1rem; }
-        .section-subtitle { text-align: center; color: var(--text-secondary); font-size: 1.05rem; max-width: 600px; margin: 0 auto 4rem; }
+        .section-subtitle { text-align: center; color: var(--text-secondary); font-size: 1.05rem; max-width: 600px; margin: 0 auto 2rem; }
 
-        .truth-tabs { display: flex; justify-content: center; gap: 0.5rem; margin-bottom: 3rem; flex-wrap: wrap; }
-        .truth-tab { padding: 0.6rem 1.2rem; border: 1px solid rgba(212, 162, 84, 0.15); border-radius: 50px; display: flex; align-items: center; gap: 0.5rem; font-family: 'Inter', sans-serif; font-size: 0.82rem; font-weight: 500; color: var(--text-muted); cursor: pointer; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; user-select: none; background: transparent; white-space: nowrap; }
-        .truth-tab-num { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; font-weight: 700; color: var(--accent-ember); opacity: 0.6; transition: opacity 0.3s ease; }
-        .truth-tab:hover { border-color: rgba(212, 162, 84, 0.4); color: var(--accent-gold); transform: translateY(-2px); box-shadow: 0 4px 20px rgba(212, 162, 84, 0.1); }
-        .truth-tab:hover .truth-tab-num { opacity: 1; }
-        .truth-tab.active { border-color: var(--accent-gold); color: var(--accent-gold); background: rgba(212, 162, 84, 0.08); box-shadow: 0 0 30px rgba(212, 162, 84, 0.12); }
-        .truth-tab.active .truth-tab-num { opacity: 1; color: var(--accent-gold); }
+        /* ===== CONTENT EXPLORER ===== */
+        .content-explorer { padding: 6rem 2rem; position: relative; }
+        .content-explorer::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.3; }
 
-        .truth-reveal { max-width: 750px; margin: 0 auto; position: relative; }
-        .truth-card { display: none; background: linear-gradient(135deg, rgba(18, 18, 26, 0.8), rgba(18, 18, 26, 0.6)); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 2.5rem; backdrop-filter: blur(10px); animation: truthFadeIn 0.4s ease-out; }
-        .truth-card.active { display: block; }
-        @keyframes truthFadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
-        .truth-card-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700; margin-bottom: 0.3rem; }
-        .truth-card-scripture-label { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; color: var(--accent-ember); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1.2rem; }
-        .truth-card-text { color: var(--text-secondary); font-size: 1rem; line-height: 1.9; margin-bottom: 1.2rem; }
-        .truth-card-verse { border-left: 3px solid var(--accent-gold); padding-left: 1.2rem; margin-top: 1.2rem; }
-        .truth-card-verse p { font-style: italic; color: var(--text-primary); line-height: 1.8; font-size: 1rem; }
-        .truth-card-verse cite { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.1em; font-style: normal; display: block; margin-top: 0.5rem; }
-        .truth-card-link { display: inline-block; margin-top: 1.5rem; color: var(--accent-gold); text-decoration: none; font-weight: 700; font-size: 0.95rem; padding: 0.7rem 1.5rem; border: 1px solid rgba(212, 162, 84, 0.4); border-radius: 6px; transition: all 0.3s ease; letter-spacing: 0.02em; }
-        .truth-card-link:hover { color: #0a0a0f; background: linear-gradient(135deg, var(--accent-gold), #b8860b); border-color: var(--accent-gold); transform: translateY(-2px); box-shadow: 0 4px 20px rgba(212, 162, 84, 0.25); }
+        .explorer-header { text-align: center; margin-bottom: 3rem; }
+
+        .explorer-total { margin-top: 1.5rem; }
+        .total-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.1;
+            display: block;
+        }
+        .total-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            display: block;
+            margin-top: 0.3rem;
+        }
+
+        .explorer-grid {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .explorer-tile {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.04), rgba(18, 18, 26, 0.8));
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 1.5rem 1.2rem;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        .explorer-tile::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 50% 30%, rgba(212, 162, 84, 0.08), transparent 70%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+        .explorer-tile:hover {
+            transform: translateY(-4px);
+            border-color: rgba(212, 162, 84, 0.4);
+            box-shadow: 0 8px 30px rgba(212, 162, 84, 0.1), 0 0 40px rgba(212, 162, 84, 0.04);
+        }
+        .explorer-tile:hover::before { opacity: 1; }
+
+        .tile-count {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.6rem;
+            font-weight: 900;
+            color: var(--accent-gold);
+            line-height: 1;
+            position: relative;
+            z-index: 1;
+        }
+        .tile-name {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 0.6rem;
+            position: relative;
+            z-index: 1;
+            letter-spacing: 0.01em;
+        }
+        .tile-desc {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            margin-top: 0.4rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Healing sub-section */
+        .explorer-healing {
+            max-width: 1100px;
+            margin: 2rem auto 0;
+        }
+        .healing-label {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--accent-ember);
+            letter-spacing: 0.08em;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .healing-icon { margin-right: 0.4rem; }
+        .healing-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 0.8rem;
+        }
+        .healing-tile {
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.05), rgba(18, 18, 26, 0.8));
+            border: 1px solid rgba(232, 100, 44, 0.12);
+            border-radius: 10px;
+            padding: 1.2rem 0.8rem;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: all 0.4s ease;
+        }
+        .healing-tile:hover {
+            transform: translateY(-3px);
+            border-color: rgba(232, 100, 44, 0.35);
+            box-shadow: 0 6px 24px rgba(232, 100, 44, 0.08);
+        }
+        .healing-tile .tile-count {
+            font-size: 2rem;
+            color: var(--accent-ember);
+        }
+        .healing-tile .tile-name {
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-top: 0.4rem;
+        }
 
         /* ===== CROWN JEWEL SECTION ===== */
         .crown-jewel-section { padding: 5rem 2rem; position: relative; overflow: hidden; text-align: center; background: linear-gradient(135deg, rgba(232, 100, 44, 0.06) 0%, rgba(139, 92, 246, 0.04) 50%, rgba(212, 162, 84, 0.06) 100%); }
@@ -192,7 +311,10 @@
             /* hero-rotate-wrap height set dynamically by JS */
             .hero-ctas { margin-top: 2rem; }
             .hero-glow { width: 400px; height: 400px; }
-            .five-truths { padding: 3rem 1.5rem; }
+            .content-explorer { padding: 3rem 1.5rem; }
+            .total-number { font-size: 3.5rem; }
+            .explorer-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.8rem; }
+            .healing-grid { grid-template-columns: repeat(3, 1fr); }
             .crown-jewel-section { padding: 3rem 1.5rem; }
             .crown-jewel-headline { font-size: 2rem; }
             .crown-jewel-body { font-size: 1rem; }
@@ -204,10 +326,7 @@
             .cta-section { padding: 3rem 1.5rem; }
             .cta-section::before { width: 300px; height: 300px; }
             .section-title { font-size: 2rem; }
-            .section-subtitle { margin-bottom: 2.5rem; }
-            .truth-tabs { gap: 0.4rem; }
-            .truth-tab { padding: 0.5rem 0.8rem; font-size: 0.75rem; }
-            .truth-card { padding: 1.5rem; }
+            .section-subtitle { margin-bottom: 2rem; }
             .explore-grid { grid-template-columns: 1fr; }
             .explore-card.featured { grid-column: span 1; }
             .cta-quote { font-size: 1.6rem; }
@@ -220,7 +339,15 @@
             /* hero-rotate-wrap height set dynamically by JS */
             .hero-ctas { margin-top: 1.5rem; flex-direction: column; align-items: center; gap: 0.8rem; }
             .hero-glow { width: 250px; height: 250px; }
-            .five-truths { padding: 2rem 1rem; }
+            .content-explorer { padding: 2rem 1rem; }
+            .total-number { font-size: 3rem; }
+            .explorer-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 0.6rem; }
+            .tile-count { font-size: 2rem; }
+            .tile-name { font-size: 0.78rem; }
+            .tile-desc { display: none; }
+            .healing-grid { grid-template-columns: repeat(3, 1fr); gap: 0.6rem; }
+            .healing-tile .tile-count { font-size: 1.6rem; }
+            .healing-tile .tile-name { font-size: 0.7rem; }
             .crown-jewel-section { padding: 2rem 1rem; }
             .crown-jewel-headline { font-size: 1.6rem; }
             .explore-section { padding: 2rem 1rem; }
@@ -228,10 +355,7 @@
             .never-headline { font-size: 1.8rem; }
             .never-verse { font-size: 1rem; padding: 1rem 1.2rem; }
             .cta-section { padding: 2rem 1rem; }
-            .section-subtitle { margin-bottom: 2rem; }
-            .truth-tabs { gap: 0.3rem; }
-            .truth-tab { padding: 0.4rem 0.7rem; font-size: 0.7rem; }
-            .truth-tab-num { display: none; }
+            .section-subtitle { margin-bottom: 1.5rem; }
             .cta-quote { font-size: 1.3rem; }
             .cta-attribution { margin-bottom: 1.5rem; }
         }
@@ -433,72 +557,121 @@ body {
         </div>
     </section>
 
-    <!-- ===== FIVE TRUTHS OF SCRIPTURE ===== -->
-    <section class="five-truths">
-        <div class="reveal">
-            <div class="section-eyebrow">Five Truths That Changed the World</div>
-            <h2 class="section-title">What Scripture Actually Teaches About Salvation</h2>
-            <p class="section-subtitle">These aren't anyone's theological system. They are what the Bible says — and they have shattered human pride and set captive souls free for two thousand years.</p>
+    <!-- ===== CONTENT EXPLORER — WHAT'S INSIDE ===== -->
+    <section class="content-explorer" id="contentExplorer">
+        <div class="explorer-header">
+            <div class="section-eyebrow">The Biblical Case — From Every Angle</div>
+            <h2 class="section-title">What's Inside</h2>
+            <p class="section-subtitle">One truth. Hundreds of doorways. Scripture examined from every angle until there's nowhere left to hide.</p>
+            <div class="explorer-total">
+                <span class="total-number" data-target="339">0</span>
+                <span class="total-label">Original Articles &amp; Growing</span>
+            </div>
         </div>
 
-        <div class="truth-tabs reveal reveal-delay-1" role="tablist" aria-label="Five truths of Scripture">
-            <button class="truth-tab active" data-index="0" role="tab" aria-selected="true" aria-controls="truth-0"><span class="truth-tab-num">01</span> Our Condition</button>
-            <button class="truth-tab" data-index="1" role="tab" aria-selected="false" aria-controls="truth-1"><span class="truth-tab-num">02</span> God's Choice</button>
-            <button class="truth-tab" data-index="2" role="tab" aria-selected="false" aria-controls="truth-2"><span class="truth-tab-num">03</span> Christ's Mission</button>
-            <button class="truth-tab" data-index="3" role="tab" aria-selected="false" aria-controls="truth-3"><span class="truth-tab-num">04</span> God's Call</button>
-            <button class="truth-tab" data-index="4" role="tab" aria-selected="false" aria-controls="truth-4"><span class="truth-tab-num">05</span> God's Promise</button>
+        <div class="explorer-grid">
+            <a href="/questions" class="explorer-tile">
+                <span class="tile-count" data-target="59">0</span>
+                <span class="tile-name">Scripture Questions</span>
+                <span class="tile-desc">Verse-by-verse answers to the hardest questions about salvation</span>
+            </a>
+            <a href="/demolition-hub" class="explorer-tile">
+                <span class="tile-count" data-target="31">0</span>
+                <span class="tile-name">Demolitions</span>
+                <span class="tile-desc">Arminian proof-texts dismantled in their own context</span>
+            </a>
+            <a href="/psychology-hub" class="explorer-tile">
+                <span class="tile-count" data-target="28">0</span>
+                <span class="tile-name">Psychology of Resistance</span>
+                <span class="tile-desc">Why the flesh rejects what the Spirit reveals</span>
+            </a>
+            <a href="/systematic-theology" class="explorer-tile">
+                <span class="tile-count" data-target="21">0</span>
+                <span class="tile-name">Systematic Theology</span>
+                <span class="tile-desc">The full framework from decrees to glorification</span>
+            </a>
+            <a href="/devotionals" class="explorer-tile">
+                <span class="tile-count" data-target="21">0</span>
+                <span class="tile-name">Devotionals</span>
+                <span class="tile-desc">Where theology catches fire and becomes worship</span>
+            </a>
+            <a href="/stories" class="explorer-tile">
+                <span class="tile-count" data-target="20">0</span>
+                <span class="tile-name">Stories &amp; Parables</span>
+                <span class="tile-desc">Original narratives that make sovereign grace visible</span>
+            </a>
+            <a href="/questions#objections" class="explorer-tile">
+                <span class="tile-count" data-target="18">0</span>
+                <span class="tile-name">Hard Objections</span>
+                <span class="tile-desc">Every objection answered — honestly, completely</span>
+            </a>
+            <a href="/ot-hub" class="explorer-tile">
+                <span class="tile-count" data-target="16">0</span>
+                <span class="tile-name">Old Testament</span>
+                <span class="tile-desc">Election didn't start in Romans — it started in Genesis</span>
+            </a>
+            <a href="/history-timeline" class="explorer-tile">
+                <span class="tile-count" data-target="15">0</span>
+                <span class="tile-name">Church History</span>
+                <span class="tile-desc">2,000 years of God's people rediscovering His sovereignty</span>
+            </a>
+            <a href="/secular-evidence" class="explorer-tile">
+                <span class="tile-count" data-target="13">0</span>
+                <span class="tile-name">Secular Evidence</span>
+                <span class="tile-desc">Science, neuroscience, and philosophy confirm what Scripture teaches</span>
+            </a>
+            <a href="/philosophy-hub" class="explorer-tile">
+                <span class="tile-count" data-target="12">0</span>
+                <span class="tile-name">Logic &amp; Philosophy</span>
+                <span class="tile-desc">The rational impossibility of self-generated saving faith</span>
+            </a>
+            <a href="/theologians" class="explorer-tile">
+                <span class="tile-count" data-target="11">0</span>
+                <span class="tile-name">Theologians</span>
+                <span class="tile-desc">The men who shook the world by taking God at His word</span>
+            </a>
+            <a href="/analogies-illustrations" class="explorer-tile">
+                <span class="tile-count" data-target="9">0</span>
+                <span class="tile-name">Analogies</span>
+                <span class="tile-desc">Pictures that make the invisible visible</span>
+            </a>
+            <a href="/comparisons-hub" class="explorer-tile">
+                <span class="tile-count" data-target="8">0</span>
+                <span class="tile-name">Side by Side</span>
+                <span class="tile-desc">Grace vs. works — compared point by point</span>
+            </a>
+            <a href="/start-here" class="explorer-tile">
+                <span class="tile-count" data-target="8">0</span>
+                <span class="tile-name">Start Here</span>
+                <span class="tile-desc">New? Begin your journey with a guided path</span>
+            </a>
         </div>
 
-        <div class="truth-reveal reveal reveal-delay-2">
-            <div class="truth-card active" id="truth-0" data-index="0" role="tabpanel">
-                <div class="truth-card-title">We Were Dead, Not Sick</div>
-                <div class="truth-card-scripture-label">Scripture teaches: humanity is spiritually dead</div>
-                <div class="truth-card-text">You were not sick. You were dead. Scripture doesn't describe humanity as bruised travelers limping toward God — it describes corpses in a graveyard, blind eyes staring at nothing, stone hearts incapable of a single pulse of spiritual life. Every faculty of the soul — mind, will, affections — lies shackled in darkness. No one seeks God. No one <em>can</em>. Apart from sovereign resurrection, every human being remains exactly what Adam made them: a beautiful ruin, utterly unable to save themselves.</div>
-                <div class="truth-card-verse">
-                    <p>&ldquo;The person without the Spirit does not accept the things that come from the Spirit of God but considers them foolishness, and cannot understand them because they are discerned only through the Spirit.&rdquo;</p>
-                    <cite>1 Corinthians 2:14</cite>
-                </div>
-                <a href="/question-depravity" class="truth-card-link">Explore the evidence &rarr;</a>
+        <div class="explorer-healing">
+            <div class="healing-label">
+                <span class="healing-icon">&#10084;</span> Healing &amp; Hope
             </div>
-            <div class="truth-card" id="truth-1" data-index="1" role="tabpanel">
-                <div class="truth-card-title">God Chose Before You Could</div>
-                <div class="truth-card-scripture-label">Scripture teaches: God initiates salvation</div>
-                <div class="truth-card-text">Here is the truth that levels every throne of human pride: God did not look down the corridor of time, see who would choose Him, and rubber-stamp their decision. He <em>initiated</em>. Before a single star burned, before time drew its first breath, the Father fixed His love on particular people — not because of anything in them, but because of everything in Him. Election is not God reacting to your faith. It is God <em>creating</em> it.</div>
-                <div class="truth-card-verse">
-                    <p>&ldquo;He chose us in Him before the creation of the world, that we should be holy and blameless before Him. In love He predestined us for adoption.&rdquo;</p>
-                    <cite>Ephesians 1:4-5</cite>
-                </div>
-                <a href="/question-chosen" class="truth-card-link">Explore the evidence &rarr;</a>
-            </div>
-            <div class="truth-card" id="truth-2" data-index="2" role="tabpanel">
-                <div class="truth-card-title">The Cross Was Not a Gamble</div>
-                <div class="truth-card-scripture-label">Scripture teaches: Christ's death accomplished redemption</div>
-                <div class="truth-card-text">The cross was not a gamble. Christ did not bleed and die merely to make salvation <em>possible</em> — He bled and died to make it <em>certain</em>. When Jesus said "It is finished," He meant it. The debt was paid, the ransom was completed, every last sin of every last sheep was absorbed into His body on that tree. He did not merely unlock a door and hope someone would walk through. He called His own by name and carried them home.</div>
-                <div class="truth-card-verse">
-                    <p>&ldquo;I lay down my life for the sheep&hellip; You do not believe because you are not among my sheep.&rdquo;</p>
-                    <cite>John 10:15, 26</cite>
-                </div>
-                <a href="/questions" class="truth-card-link">Explore the evidence &rarr;</a>
-            </div>
-            <div class="truth-card" id="truth-3" data-index="3" role="tabpanel">
-                <div class="truth-card-title">When God Calls, the Dead Rise</div>
-                <div class="truth-card-scripture-label">Scripture teaches: God's grace transforms the heart</div>
-                <div class="truth-card-text">When God calls His own, He does not whisper an invitation across a chasm and hope they are strong enough to leap. He <em>crosses</em> the chasm. The same voice that thundered "Lazarus, come forth!" and ripped a four-day-dead man from the grip of the grave — that is the voice that calls sinners from spiritual death into dazzling, irrevocable life. This grace does not merely assist the willing. It makes the unwilling <em>willing</em>. It turns enemies into sons.</div>
-                <div class="truth-card-verse">
-                    <p>&ldquo;All those the Father gives me will come to me, and whoever comes to me I will never drive away.&rdquo;</p>
-                    <cite>John 6:37 (NIV)</cite>
-                </div>
-                <a href="/question-faithgift" class="truth-card-link">Explore the evidence &rarr;</a>
-            </div>
-            <div class="truth-card" id="truth-4" data-index="4" role="tabpanel">
-                <div class="truth-card-title">What God Begins, God Finishes</div>
-                <div class="truth-card-scripture-label">Scripture teaches: the saved are eternally secure</div>
-                <div class="truth-card-text">What God begins, God finishes. Not one soul purchased by the blood of Christ will slip through His fingers. Not one. Salvation is not a tightrope over an abyss where one misstep sends you plummeting — it is an unbreakable golden chain forged before the creation of the world, each link welded in the furnace of divine love: foreknown, predestined, called, justified, <em>glorified</em>. Past tense. Already done in the mind of God. He who began this good work in you will carry it — and you — all the way home.</div>
-                <div class="truth-card-verse">
-                    <p>&ldquo;I give them eternal life, and they will never perish, and no one will snatch them out of my hand.&rdquo;</p>
-                    <cite>John 10:28</cite>
-                </div>
-                <a href="/question-sealed" class="truth-card-link">Explore the evidence &rarr;</a>
+            <div class="healing-grid">
+                <a href="/anxious-mind-hub" class="healing-tile">
+                    <span class="tile-count" data-target="8">0</span>
+                    <span class="tile-name">The Anxious Mind</span>
+                </a>
+                <a href="/broken-mirror-hub" class="healing-tile">
+                    <span class="tile-count" data-target="8">0</span>
+                    <span class="tile-name">The Broken Mirror</span>
+                </a>
+                <a href="/open-wound-hub" class="healing-tile">
+                    <span class="tile-count" data-target="7">0</span>
+                    <span class="tile-name">The Open Wound</span>
+                </a>
+                <a href="/invisible-wall-hub" class="healing-tile">
+                    <span class="tile-count" data-target="7">0</span>
+                    <span class="tile-name">The Invisible Wall</span>
+                </a>
+                <a href="/shattered-lens-hub" class="healing-tile">
+                    <span class="tile-count" data-target="6">0</span>
+                    <span class="tile-name">The Shattered Lens</span>
+                </a>
             </div>
         </div>
     </section>
@@ -704,6 +877,42 @@ body {
     
 
     <script>
+    // ===== ANIMATED COUNTER — CONTENT EXPLORER =====
+    (function() {
+        var counted = false;
+        function animateCounters() {
+            if (counted) return;
+            counted = true;
+            document.querySelectorAll('[data-target]').forEach(function(el) {
+                var target = parseInt(el.getAttribute('data-target'), 10);
+                var duration = 1800;
+                var start = performance.now();
+                function tick(now) {
+                    var elapsed = now - start;
+                    var progress = Math.min(elapsed / duration, 1);
+                    // ease-out cubic
+                    var eased = 1 - Math.pow(1 - progress, 3);
+                    el.textContent = Math.round(eased * target);
+                    if (progress < 1) requestAnimationFrame(tick);
+                    else el.textContent = target;
+                }
+                requestAnimationFrame(tick);
+            });
+        }
+        var explorer = document.getElementById('contentExplorer');
+        if (explorer) {
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        animateCounters();
+                        observer.disconnect();
+                    }
+                });
+            }, { threshold: 0.15 });
+            observer.observe(explorer);
+        }
+    })();
+
     // ===== ROTATING HERO SLIDES =====
     (function() {
         const INTERVAL = 4200; // ms per slide
