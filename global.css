@@ -441,6 +441,28 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
     margin-bottom: 0.3rem;
 }
 
+a.mega-menu-hub-link {
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.2s ease;
+}
+
+a.mega-menu-hub-link:hover {
+    color: var(--accent-ember);
+}
+
+.mega-menu-hub-arrow {
+    font-size: 0.9em;
+    opacity: 0.5;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+a.mega-menu-hub-link:hover .mega-menu-hub-arrow {
+    opacity: 1;
+    transform: translateX(3px);
+}
+
 .mega-menu-detail-desc {
     font-size: 0.85rem;
     color: var(--text-secondary);
@@ -796,6 +818,25 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
     color: var(--accent-ember);
 }
 
+.mobile-accordion-hub-link {
+    display: block;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.3rem;
+    color: var(--accent-gold);
+    background: rgba(212, 162, 84, 0.08);
+    border: 1px solid rgba(212, 162, 84, 0.15);
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.mobile-accordion-hub-link:active {
+    color: var(--accent-ember);
+    background: rgba(232, 100, 44, 0.1);
+}
+
 /* ===== MOBILE ACCORDION STYLES (OLD - COMPATIBILITY) ===== */
 .mobile-accordion-cat {
     border-bottom: 1px solid rgba(212, 162, 84, 0.06);
@@ -910,7 +951,6 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
     letter-spacing: 0.1em;
     font-weight: 700;
     color: var(--text-muted);
-}
 }
 
 /* ===== TYPOGRAPHY ===== */

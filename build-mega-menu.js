@@ -36,6 +36,7 @@ const UMBRELLAS = [
     umbrella: 'Start Here',
     icon: '🧭',
     desc: 'Your guided journey into sovereign grace',
+    href: '/start-here',
     subcategories: [
       {
         key: 'start-here',
@@ -54,6 +55,7 @@ const UMBRELLAS = [
     umbrella: 'Questions & Objections',
     icon: '❓',
     desc: 'Every question answered. Every objection dismantled.',
+    href: '/questions',
     subcategories: [
       {
         key: 'questions',
@@ -86,6 +88,7 @@ const UMBRELLAS = [
     umbrella: 'Theology',
     icon: '📖',
     desc: 'The deep truths of sovereign grace',
+    href: '/systematic-theology',
     subcategories: [
       {
         key: 'theology',
@@ -120,6 +123,7 @@ const UMBRELLAS = [
     umbrella: 'Demolition Zone',
     icon: '💥',
     desc: 'Tearing down the lies — from Scripture, logic, and science',
+    href: '/demolition-hub',
     subcategories: [
       {
         key: 'demolition',
@@ -153,6 +157,7 @@ const UMBRELLAS = [
     umbrella: 'Why We Resist',
     icon: '🧠',
     desc: 'Why grace is so hard to accept — and what breaks through',
+    href: '/psychology-hub',
     subcategories: [
       {
         key: 'why-we-resist',
@@ -187,6 +192,7 @@ const UMBRELLAS = [
     umbrella: 'Through the Ages',
     icon: '⏳',
     desc: 'Grace throughout church history',
+    href: '/history-timeline',
     subcategories: [
       {
         key: 'history',
@@ -214,6 +220,7 @@ const UMBRELLAS = [
     umbrella: 'Rest in Grace',
     icon: '💚',
     desc: 'When the truth shatters you — grace catches you',
+    href: '/devotionals',
     subcategories: [
       {
         key: 'devotionals',
@@ -242,23 +249,35 @@ const UMBRELLAS = [
 ];
 
 // ── Helpers ────────────────────────────────────────────────────────
+function decodeHtmlEntities(str) {
+  return str
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, h) => String.fromCharCode(parseInt(h, 16)));
+}
+
 function extractTitle(html) {
   const m = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
   if (m) {
     let t = m[1].replace(/<[^>]+>/g, '').trim();
     t = t.replace(/\s*[|\u2014\u2013\u2015–—-]\s*Adopted by Grace.*$/i, '').trim();
-    if (t) return t;
+    if (t) return decodeHtmlEntities(t);
   }
   const h1 = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  if (h1) return h1[1].replace(/<[^>]+>/g, '').trim();
+  if (h1) return decodeHtmlEntities(h1[1].replace(/<[^>]+>/g, '').trim());
   return '';
 }
 
 function extractDescription(html) {
   const m = html.match(/<meta\s+name=["']description["']\s+content=["']([\s\S]*?)["']/i);
-  if (m) return m[1].trim();
+  if (m) return decodeHtmlEntities(m[1].trim());
   const og = html.match(/<meta\s+property=["']og:description["']\s+content=["']([\s\S]*?)["']/i);
-  if (og) return og[1].trim();
+  if (og) return decodeHtmlEntities(og[1].trim());
   return '';
 }
 
@@ -407,6 +426,9 @@ for (const umbrella of UMBRELLAS) {
   dataJs += `            umbrella: '${escapeJsString(umbrella.umbrella)}',\n`;
   dataJs += `            icon: '${umbrella.icon}',\n`;
   dataJs += `            desc: '${escapeJsString(umbrella.desc)}',\n`;
+  if (umbrella.href) {
+    dataJs += `            href: '${umbrella.href}',\n`;
+  }
   dataJs += '            subcategories: [\n';
 
   for (let s = 0; s < allPages.length; s++) {

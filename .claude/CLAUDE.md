@@ -115,13 +115,15 @@ All resources pages were deleted 2026-03-28. Agents are BANNED from creating res
 ## EXTRACURRICULAR PAGES — ELIMINATED
 Community, connect, start-here-groups pages were deleted 2026-03-28. No study guides, podcasts, sermon libraries, or community hubs.
 
-## EMAIL NEWSLETTER / SIGNUP — ELIMINATED
-All newsletter signup forms, floating popups, email collection, and "Subscribe" CTAs were deleted 2026-03-29. We have NO email sending infrastructure (no Mailchimp, ConvertKit, SendGrid, etc.). Agents are BANNED from:
+## EMAIL NEWSLETTER / SIGNUP / NEWSLETTER SECTION — ELIMINATED
+All newsletter signup forms, floating popups, email collection, "Subscribe" CTAs, and the entire newsletter section (daily-newsletter.html + all newsletter-* articles) were deleted. We have NO email sending infrastructure (no Mailchimp, ConvertKit, SendGrid, etc.). Agents are BANNED from:
 - Creating email signup forms, popups, or modals
 - Adding "Subscribe" links or buttons anywhere
 - Adding newsletter references in footers
 - Re-adding any code to global.js or global.css for newsletter functionality
 - Collecting visitor email addresses for any mailing list purpose
+- Creating any page prefixed `newsletter-` or any newsletter hub page
+- Recreating the daily-newsletter.html page under any name
 
 ## APOLOGETICS CATEGORY — ELIMINATED
 The "Apologetics" category was retired 2026-04-04. It was redundant — the entire site IS an apologetic. Every category defends and commends the faith from its own angle. The 6 articles that were in the apologetics category have been redistributed into Questions (where they naturally belong as question-format articles). Agents are BANNED from:
@@ -521,3 +523,58 @@ Not every experiment will work. When something fails — a rhetorical technique 
 
 **10. THE ULTIMATE STANDARD**
 The measure of this site's success is not page count, not traffic, not theological correctness alone. The measure is: **Did someone who was searching for God find Him here? Did someone who was confused about His sovereignty come to rest in it? Did someone who felt unloved discover they were chosen before the foundation of the world?** Every evolution of this site must serve THAT end. We are not building a theology encyclopedia. We are building doorways into the arms of God.
+
+## ══════════════════════════════════════════════════════
+## INTEGRITY MANDATE — NEVER BREAK WHAT EXISTS
+## ══════════════════════════════════════════════════════
+
+**MANDATORY: Every agent must run `node validate-site.js` BEFORE finishing any session that modifies HTML files.**
+
+This site has suffered from cascading agent errors — agents that "fix" one thing while breaking three others, agents that report success but don't actually save changes, agents that create links to pages that don't exist, and agents that add content without wiring it into the site's navigation. This stops now.
+
+### THE FIVE LAWS OF SITE INTEGRITY
+
+**LAW 1: NEVER LINK TO A PAGE THAT DOESN'T EXIST.**
+Before writing ANY internal href, verify the target file exists. Run `ls filename.html` if you're unsure. Aspirational linking (linking to pages you PLAN to create) is BANNED. If the page doesn't exist RIGHT NOW, don't link to it. Period.
+
+**LAW 2: EVERY NEW PAGE MUST BE WIRED INTO ITS HUB.**
+If you create a new article, you MUST add a .hub-card for it in the appropriate hub page in the SAME session. A page that exists but isn't linked from any hub is invisible to visitors and worthless to the site. No orphans.
+
+**LAW 3: VERIFY YOUR CHANGES ACTUALLY SAVED.**
+After editing a file, grep for your change to confirm it's there. Agents have a documented pattern of reporting edits that didn't persist. Trust but verify. If you added a card to a hub, grep for the href to confirm it's in the file.
+
+**LAW 4: DO NOT DUPLICATE EXISTING CONTENT.**
+Before adding a card to a hub page, grep the hub for the article's filename. If it's already linked, don't add it again. Duplicate cards confuse readers and make the site look broken.
+
+**LAW 5: RUN THE VALIDATOR.**
+At the end of every session that touches HTML files, run `node validate-site.js`. Fix anything it flags BEFORE finishing. This is not optional. The validator checks for broken links, orphaned pages, missing hub wiring, and structural HTML issues. It takes 5 seconds and prevents hours of cleanup.
+
+### HUB PAGE REGISTRY
+Every article belongs to exactly one hub. Here is the current hub structure:
+
+| Hub Page | Content Prefix/Type |
+|----------|-------------------|
+| questions.html | question-*, objection-*, apologetic-* |
+| demolition-hub.html | demolition-* |
+| psychology-hub.html | psychology-* |
+| philosophy-hub.html | philosophy-* |
+| stories.html | story-* |
+| devotionals.html | devotional-* |
+| analogies-illustrations.html | analogy-* |
+| secular-evidence.html | secular-* |
+| systematic-theology.html | systematic-* |
+| theologians.html | theologian-* |
+| history-timeline.html | history-* |
+| creeds-confessions.html | creed-* |
+| ot-hub.html | ot-* |
+| essays.html | essays, resistance-*, counter-* |
+| ~~daily-newsletter.html~~ | ~~newsletter-*~~ **(ELIMINATED — see ban above)** |
+| invisible-wall-hub.html | invisible-wall-* |
+| open-wound-hub.html | open-wound-* |
+| shattered-lens-hub.html | shattered-lens-* |
+| broken-mirror-hub.html | broken-mirror-* |
+| anxious-mind-hub.html | anxious-mind-* |
+| pastoral-hub.html | pastoral-* |
+| comparisons-hub.html | compare-* |
+
+If you create a page that doesn't fit any prefix, ASK which hub it belongs to before creating it.

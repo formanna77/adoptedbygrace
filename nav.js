@@ -14,6 +14,7 @@
             umbrella: 'Start Here',
             icon: '🧭',
             desc: 'Your guided journey into sovereign grace',
+            href: '/start-here',
             subcategories: [
                 {
                     name: 'Start Here',
@@ -37,13 +38,15 @@
             umbrella: 'Questions & Objections',
             icon: '❓',
             desc: 'Every question answered. Every objection dismantled.',
+            href: '/questions',
             subcategories: [
                 {
                     name: 'Scripture Questions',
                     icon: '📖',
                     href: '/questions',
-                    count: 45,
+                    count: 46,
                     pages: [
+                        { name: 'Can God Blot Your Name from the Book of Life?', href: '/question-book-of-life', desc: 'If God warns He will blot names from the Book of Life, doesn' },
                         { name: 'Can God Create a Universe Where He Isn\'t Sovereign?', href: '/question-sovereignty-logic', desc: 'Can God make a rock too heavy for Him to lift? Can He create a universe He doesn' },
                         { name: 'Can God\'s Plan for You Be Broken? Romans 8:28-30', href: '/question-goldchain', desc: 'Romans 8:28-30 — foreknown, predestined, called, justified, glorified. An unbreakable chain where every link is divine a' },
                         { name: 'Can You Lose Your Salvation?', href: '/apologetic-perseverance', desc: 'Can you lose your salvation? Scripture' },
@@ -121,14 +124,15 @@
                     name: 'Side by Side',
                     icon: '⚖',
                     href: '/compare-calvinism-arminianism',
-                    count: 6,
+                    count: 7,
                     pages: [
                         { name: 'Calvinism vs Arminianism: A Biblical Comparison', href: '/compare-calvinism-arminianism', desc: 'The definitive comparison of Calvinism and Arminianism. What does Scripture actually teach about salvation—and why the A' },
                         { name: 'Calvinism vs Molinism: Middle Knowledge and Sovereignty', href: '/compare-calvinism-molinism', desc: 'Calvinism vs Molinism compared: middle knowledge, counterfactuals, and God' },
                         { name: 'Calvinism vs Open Theism: Does God Know the Future?', href: '/compare-calvinism-open-theism', desc: 'Calvinism vs Open Theism compared: Does God know the future exhaustively, or is He learning alongside us? A biblical exa' },
                         { name: 'Monergism vs Synergism: Does God Save Alone?', href: '/compare-monergism-synergism', desc: 'Monergism vs Synergism explained from Scripture: Does God save alone, or does man cooperate? The fundamental divide in s' },
                         { name: 'Predestination vs Foreknowledge: Which Comes First?', href: '/compare-predestination-foreknowledge', desc: 'Predestination vs Foreknowledge: Does God predestine based on what He foresees, or does He foreknow because He predestin' },
-                        { name: 'Reformed vs Catholic Soteriology: How Are We Justified?', href: '/compare-calvinism-catholic-soteriology', desc: 'Reformed vs Catholic soteriology compared: justification by faith alone vs. faith plus works, imputed vs. infused righte' }
+                        { name: 'Reformed vs Catholic Soteriology: How Are We Justified?', href: '/compare-calvinism-catholic-soteriology', desc: 'Reformed vs Catholic soteriology compared: justification by faith alone vs. faith plus works, imputed vs. infused righte' },
+                        { name: 'Two Graces: One Divine, One Man-Made', href: '/compare-grace-reformed-vs-arminian', desc: 'The grace of Reformed theology vs the grace of Arminianism compared side by side. One is a resurrection. The other is a ' }
                     ]
                 }
             ]
@@ -137,6 +141,7 @@
             umbrella: 'Theology',
             icon: '📖',
             desc: 'The deep truths of sovereign grace',
+            href: '/systematic-theology',
             subcategories: [
                 {
                     name: 'Systematic Theology',
@@ -170,17 +175,18 @@
                     name: 'Old Testament',
                     icon: '📚',
                     href: '/ot-election',
-                    count: 9,
+                    count: 10,
                     pages: [
                         { name: 'Abel & Cain: The First Election', href: '/ot-abel-cain', desc: 'Genesis 4 reveals God' },
                         { name: 'Election in the Psalms', href: '/psalms-election', desc: 'How David understood himself as chosen by grace, not merit. Election themes throughout the Psalms—Psalm 65:4, 33:12, 135' },
-                        { name: 'Isaiah: The Servant &amp; God\'s Immutable Counsel', href: '/ot-isaiah-servant', desc: 'Isaiah reveals God' },
+                        { name: 'Isaiah: The Servant & God\'s Immutable Counsel', href: '/ot-isaiah-servant', desc: 'Isaiah reveals God' },
                         { name: 'Jeremiah: Called Before Formation — "Before I Formed You I Knew You"', href: '/ot-jeremiah', desc: 'Deep exegesis of Jeremiah 1:5 — God knew, consecrated, and appointed Jeremiah before he was formed. Hebrew word study, s' },
                         { name: 'Job: When God Answered Suffering with Sovereignty', href: '/ot-job', desc: 'Job lost everything — and God' },
                         { name: 'Jonah: The Prophet Who Tried to Outrun God', href: '/ot-jonah', desc: 'Deep exegesis of Jonah — the prophet who ran from God' },
                         { name: 'Joseph & God\'s Sovereignty', href: '/ot-joseph', desc: 'Explore God' },
                         { name: 'Noah: Chosen for Preservation', href: '/ot-noah', desc: 'Noah: Chosen for Preservation — Explore how God' },
-                        { name: 'The Prophets: Remnant Theology &amp; the Elect Preserved Through Judgment', href: '/ot-prophets-remnant', desc: 'Jeremiah, Ezekiel, Hosea, Amos, Malachi — every prophet confirms it: God preserves a chosen remnant through judgment. Sa' }
+                        { name: 'Sovereignty in the Old Testament', href: '/ot-hub', desc: 'Explore God' },
+                        { name: 'The Prophets: Remnant Theology & the Elect Preserved Through Judgment', href: '/ot-prophets-remnant', desc: 'Jeremiah, Ezekiel, Hosea, Amos, Malachi — every prophet confirms it: God preserves a chosen remnant through judgment. Sa' }
                     ]
                 },
                 {
@@ -199,6 +205,7 @@
             umbrella: 'Demolition Zone',
             icon: '💥',
             desc: 'Tearing down the lies — from Scripture, logic, and science',
+            href: '/demolition-hub',
             subcategories: [
                 {
                     name: 'Verse by Verse',
@@ -230,13 +237,14 @@
                     name: 'Logic & Philosophy',
                     icon: '🔭',
                     href: '/philosophy-problem-of-merit',
-                    count: 10,
+                    count: 11,
                     pages: [
                         { name: 'If You Chose God, What Makes You Different From Those Who Didn\'t?', href: '/philosophy-problem-of-merit', desc: 'The Problem of Merit: If you chose God, what makes you different from those who didn' },
                         { name: 'The Copernican Revolution of the Soul: Why Your Salvation Doesn\'t Revolve Around You', href: '/philosophy-copernican-revolution', desc: 'Just as Copernicus showed the Earth isn' },
                         { name: 'The Mirror You Refuse to Look In: Why Grace Reveals What We Really Are', href: '/philosophy-mirror-you-refuse', desc: 'We reject God' },
                         { name: 'The Münchhausen Trilemma of Self-Salvation', href: '/philosophy-munchhausen-trilemma', desc: 'Every justification leads to infinite regress, circular reasoning, or an uncaused cause. Apply this to faith and you hit' },
                         { name: 'The Phantom Limb of Free Will: Feeling Free While Being Bound', href: '/philosophy-phantom-limb-free-will', desc: 'The brain feels sensation in amputated limbs that no longer exist. Fallen humanity feels free will in a faculty that was' },
+                        { name: 'The Philosophical Case for Sovereignty', href: '/philosophy-hub', desc: 'Philosophical arguments for God' },
                         { name: 'The Resistance Is the Proof: Why We Blame God Before Ourselves', href: '/philosophy-resistance-is-proof', desc: 'When confronted with God' },
                         { name: 'Why Exclusive Love Is the Only Real Love', href: '/philosophy-exclusive-love', desc: 'A love that is extended to everyone equally is not love—it is policy. Real love requires distinction. Real love means yo' },
                         { name: 'Why Is Marriage Special? A Philosophical Proof of Election', href: '/philosophy-marriage-election', desc: 'Why is marriage special? Because someone chose YOU and no one else. Discover what this reveals about God' },
@@ -269,6 +277,7 @@
             umbrella: 'Why We Resist',
             icon: '🧠',
             desc: 'Why grace is so hard to accept — and what breaks through',
+            href: '/psychology-hub',
             subcategories: [
                 {
                     name: 'Psychology of Resistance',
@@ -347,6 +356,7 @@
             umbrella: 'Through the Ages',
             icon: '⏳',
             desc: 'Grace throughout church history',
+            href: '/history-timeline',
             subcategories: [
                 {
                     name: 'Church History',
@@ -394,6 +404,7 @@
             umbrella: 'Rest in Grace',
             icon: '💚',
             desc: 'When the truth shatters you — grace catches you',
+            href: '/devotionals',
             subcategories: [
                 {
                     name: 'Devotionals',
@@ -421,9 +432,11 @@
                     name: 'Healing & Hope',
                     icon: '💚',
                     href: '/anxious-mind-what-if-not-chosen',
-                    count: 27,
+                    count: 29,
                     pages: [
                         { name: '82% of People Are Lonely — Why That\'s a Theological Problem', href: '/invisible-wall-lonely-theological', desc: 'Loneliness is not a social problem—it' },
+                        { name: 'The Anxious Mind: Intrusive Thoughts, Fear & Faith', href: '/anxious-mind-hub', desc: 'The intrusive thoughts. The terror that your faith isn' },
+                        { name: 'The Broken Mirror: Identity, Performance & Self-Worth', href: '/broken-mirror-hub', desc: 'You believe you' },
                         { name: 'The Christian Who Feels Like a Fraud', href: '/broken-mirror-imposter-syndrome', desc: 'The Christian who feels like a fraud. Imposter syndrome about faith, and why sovereignty destroys it entirely.' },
                         { name: 'The Friend Who Left When Your Theology Changed', href: '/invisible-wall-friend-who-left', desc: 'What happens when you discover the truth about God' },
                         { name: 'The Invisible Wall: Relationships, Loneliness & Forgiveness', href: '/invisible-wall-hub', desc: '82% of people report experiencing loneliness. But God' },
@@ -456,12 +469,13 @@
                     name: 'Pastoral',
                     icon: '🤝',
                     href: '/pastoral-assurance',
-                    count: 4,
+                    count: 5,
                     pages: [
                         { name: 'Can I Be Sure I\'m Saved? Assurance of Salvation in Reformed Theology', href: '/pastoral-assurance', desc: 'Can I be sure I' },
-                        { name: 'Evangelism &amp; God\'s Sovereignty', href: '/pastoral-evangelism', desc: 'If God has already chosen who will be saved, why share the gospel? Because Scripture teaches that evangelism is the very' },
-                        { name: 'Prayer &amp; God\'s Sovereign Decrees', href: '/pastoral-prayer', desc: 'If God has already decreed all things, why pray? Because Scripture teaches that prayer is not a backup plan — it is the ' },
-                        { name: 'Suffering &amp; the Sovereignty of God', href: '/pastoral-suffering', desc: 'How God' }
+                        { name: 'Evangelism & God\'s Sovereignty', href: '/pastoral-evangelism', desc: 'If God has already chosen who will be saved, why share the gospel? Because Scripture teaches that evangelism is the very' },
+                        { name: 'Pastoral Care & Guidance', href: '/pastoral-hub', desc: 'Pastoral guidance for the soul: assurance in doubt, courage in evangelism, power in prayer, comfort in suffering. Grace ' },
+                        { name: 'Prayer & God\'s Sovereign Decrees', href: '/pastoral-prayer', desc: 'If God has already decreed all things, why pray? Because Scripture teaches that prayer is not a backup plan — it is the ' },
+                        { name: 'Suffering & the Sovereignty of God', href: '/pastoral-suffering', desc: 'How God' }
                     ]
                 }
             ]
@@ -642,7 +656,11 @@
         }
 
         var html = '';
-        html += '<div class="mega-menu-detail-title">' + umbrella.icon + ' ' + escapeHtml(umbrella.umbrella) + '</div>';
+        if (umbrella.href) {
+            html += '<a href="' + escapeAttr(umbrella.href) + '" class="mega-menu-detail-title mega-menu-hub-link">' + umbrella.icon + ' ' + escapeHtml(umbrella.umbrella) + ' <span class="mega-menu-hub-arrow">→</span></a>';
+        } else {
+            html += '<div class="mega-menu-detail-title">' + umbrella.icon + ' ' + escapeHtml(umbrella.umbrella) + '</div>';
+        }
         html += '<div class="mega-menu-detail-desc">' + escapeHtml(umbrella.desc) + ' <span class="mega-menu-total-count">' + totalPages + ' articles</span></div>';
 
         // If only 1 subcategory, skip straight to articles
@@ -767,6 +785,11 @@
             html += '<span class="chevron">▼</span>';
             html += '</div>';
             html += '<div class="mobile-accordion-subcats" id="' + umbrellaId + '">';
+
+            // Hub page link (first item in expanded umbrella)
+            if (umbrella.href) {
+                html += '<a href="' + escapeAttr(umbrella.href) + '" class="mobile-accordion-hub-link">' + umbrella.icon + ' View ' + escapeHtml(umbrella.umbrella) + ' Hub →</a>';
+            }
 
             // LEVEL 2: Show subcategory names as clickable items (no articles yet)
             for (var s = 0; s < umbrella.subcategories.length; s++) {
