@@ -156,17 +156,24 @@ The floating back-to-top button (black circle, bottom-right corner) was removed 
 
 This was established 2026-04-04 after a full site redesign. Previously, every hub page had its own inline CSS (50-600 lines each) with custom card classes (`.devotional-card`, `.question-card`, `.briefing-card`, `.analogy-card`, `.deep-dive-card`, `.explore-card`, `.reading-card`, etc.). This caused constant visual inconsistencies and broken layouts. All of those are DEAD. There is now ONE card design for the entire site.
 
+### THE CANONICAL STYLE: WARM GOLD/EMBER AESTHETIC
+The design standard is the history-timeline page: gold-to-ember gradient titles, warm gold-tinted card backgrounds, gold glow shadows on hover, gold card titles. The dark background (#0a0a0f) with warm gold (#d4a254) and ember (#e8642c) accents is the soul of the site's visual identity. **NO agent may produce white, gray, or cold-toned designs.** Everything is warm, dark, and golden.
+
 ### The Unified Classes (all defined in `/global.css`):
 
 | Class | Purpose |
 |-------|---------|
-| `.hub-hero` | Hero section: centered title + subtitle with decorative gradient |
+| `.hub-hero` | Hero section: gold-to-ember gradient title, border-bottom, centered |
+| `.hub-subtitle` | Subtitle paragraph inside hub-hero (muted, max-width 900px) |
+| `.hub-stats` | Stats bar inside hub-hero: article count + sub-category count |
+| `.hub-stat` | Individual stat item (gold number + muted label) |
+| `.hub-hero-quote` | Optional gold-bordered quote block in hero |
 | `.hub-intro` | Optional intro paragraph with quotation mark decoration |
 | `.hub-container` | Content wrapper (max-width 1200px, centered) |
 | `.hub-section-title` | Section heading within a hub page |
 | `.hub-section-subtitle` | Section description text |
 | `.hub-grid` | Card grid (auto-fit, minmax 320px, 2rem gap) |
-| `.hub-card` | Individual card — MUST be an `<a>` tag with href |
+| `.hub-card` | Individual card — warm gold-tinted bg, gold glow on hover |
 | `.hub-card-featured` | Add alongside `.hub-card` for featured/crown-jewel articles |
 | `.hub-quote` | Quote block between card sections |
 
@@ -174,13 +181,13 @@ This was established 2026-04-04 after a full site redesign. Previously, every hu
 
 | Class | Element | Purpose |
 |-------|---------|---------|
-| `.card-number` | `<div>` | Sequential number (01, 02, 03...) |
-| `.card-title` | `<h2>` or `<h3>` | Article title |
-| `.card-description` | `<p>` | Synopsis/description |
+| `.card-number` | `<div>` | Sequential number (01, 02, 03...) — gold, semi-transparent |
+| `.card-title` | `<h2>` or `<h3>` | Article title — **gold colored** |
+| `.card-description` | `<p>` | Synopsis/description — secondary text |
 | `.card-scripture` | `<div>` | Scripture reference (violet, monospace) |
-| `.card-meta` | `<div>` | Category label or tag (muted, monospace) |
-| `.card-footer` | `<div>` | Bottom bar with divider |
-| `.card-read` | `<span>` | "Read" text + arrow SVG inside `.card-footer` |
+| `.card-meta` | `<div>` | Category label (gold, monospace, with underline) |
+| `.card-footer` | `<div>` | Bottom bar |
+| `.card-read` | `<span>` | "Read" text + arrow SVG — gold, ember on hover |
 
 ### The Card Template (copy this exactly):
 ```html
@@ -195,12 +202,23 @@ This was established 2026-04-04 after a full site redesign. Previously, every hu
 </a>
 ```
 
+### MANDATORY: Stats Bar on Every Hub Page
+Every hub page MUST include a `.hub-stats` bar inside the `.hub-hero`, showing article count and sub-category count at a glance. A visitor landing on any hub page must know within one second what is at their fingertips.
+```html
+<div class="hub-stats">
+    <div class="hub-stat">18 <span>Devotionals</span></div>
+    <div class="hub-stat">1 <span>Collection</span></div>
+</div>
+```
+
 ### Agents are BANNED from:
 - Creating custom card classes (`.devotional-card`, `.question-card`, `.briefing-card`, etc.)
 - Adding inline `<style>` blocks for card or grid layouts on hub pages
 - Inventing new grid classes (`.devotionals-grid`, `.questions-grid`, `.briefing-grid`, etc.)
 - Overriding `.hub-card` styling with page-specific CSS
 - Creating any card design that doesn't use the unified system
+- Using white, gray, or cold-toned colors for titles or card backgrounds
+- Omitting the `.hub-stats` bar from any hub page
 
 ### The ONLY exception:
 - `index.html` (homepage) may have inline CSS for its hero animation and nav transparency override. The homepage is intentionally unique. But even the homepage should use `.hub-card` for any card grids it contains.
@@ -211,7 +229,11 @@ This was established 2026-04-04 after a full site redesign. Previously, every hu
     <!-- Nav from /_nav-template.html -->
     <header class="hub-hero">
         <h1>Category Title</h1>
-        <p>Category subtitle/tagline</p>
+        <p class="hub-subtitle">Category subtitle/tagline</p>
+        <div class="hub-stats">
+            <div class="hub-stat">N <span>Articles</span></div>
+            <div class="hub-stat">N <span>Sub-Categories</span></div>
+        </div>
     </header>
     <div class="hub-intro">
         <p>Intro paragraph...</p>

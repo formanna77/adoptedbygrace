@@ -109,6 +109,56 @@
 - **The Draft Pick** — In professional sports, YOU don't choose your team. The team chooses YOU. And being drafted is the highest honor — not an insult. Why do we treat divine election as an offense?
 - **The Coach Who Sees What You Can't** — A great coach sees potential in a player that the player doesn't see in themselves. They choose the player, develop the player, and the player becomes what the coach always saw. That is election.
 
+### THEATER & PERFORMANCE (NEW — Session 3 Discovery)
+- **The Script You Didn't Write** — Every actor receives a script before stepping on stage. The script existed before they auditioned. The role was written before they were cast. Yet no one says the actor is a puppet — they say the actor INHABITS the role. The greatest performances are the ones where the actor disappears into a character created by someone else. This IS the believer's relationship to God's plan: you inhabit a story written before you were born. The role was designed for you. And inhabiting it is not diminishment — it is the highest form of living. Ephesians 2:10: "For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them."
+  - *Philosophical root:* The author-character relationship is structurally identical to the Creator-creature relationship. The character's reality depends on the author; the author's story depends on the character. Both are real. Neither is diminished.
+  - *Psychological implication:* Method actors report their greatest moments of artistic freedom come when they surrender to the script — not when they improvise. Freedom within structure, not freedom from structure. This mirrors the experience of the believer who finds freedom in surrender.
+  - *Societal manifestation:* The modern obsession with "authenticity" and "writing your own story" — the self-authored life as the only life worth living. But the greatest lives in history (martyrs, missionaries, saints) were all lived inside a story they did not write.
+  - *Experiential parallel:* The moment in a play when an actor "forgets themselves" and becomes the character. They are simultaneously most free and most determined. That is the Christian life.
+  - *Pastoral application:* You are not the author of your story. You are the lead actor in a masterpiece written by infinite love. The script is better than anything you could have written yourself.
+
+- **The Audience Can See What the Character Cannot** — In every great drama, the audience knows more than the character. The audience sees the villain approaching. The audience knows the letter will arrive too late. This is "dramatic irony." Apply it to sovereignty: God sees the whole story; we see only our scene. The character who insists on knowing the whole plot before they'll trust the playwright is a character who will never perform. Faith is acting your scene when you can't see the script.
+  - *Philosophical root:* Epistemic limitation is built into the creature's position. You cannot know the whole story from inside one scene.
+  - *Psychological implication:* The demand to understand sovereignty before accepting it is the demand to be the audience, not the character. It's a role refusal disguised as an intellectual objection.
+  - *Pastoral application:* You don't need to understand the whole script to trust the Playwright. The character who trusts the author performs their scene with freedom. The character who demands the whole script before acting never lives at all.
+
+### MEDICINE & ANATOMY (NEW — Session 3 Discovery)
+- **The Immune System That Fights Battles You Never Knew About** — Right now, your immune system is destroying cancer cells, neutralizing viruses, and fighting infections you will never be aware of. You didn't ask for this protection. You didn't consent to it. You don't control it. You don't even know it's happening. And yet it is the reason you are alive. This is EXACTLY how prevenient grace works in the Reformed understanding — except it goes further. Your physical immune system protects your body without your knowledge or consent. God's grace protects your SOUL without your knowledge or consent. The person who insists they must "choose" God's protection is like a patient who insists they must consciously direct each white blood cell.
+  - *Philosophical root:* The most essential preserving forces in your life operate without your awareness or permission.
+  - *Psychological implication:* We are comfortable with unconscious physical preservation but uncomfortable with unconscious spiritual preservation. This asymmetry reveals that the objection to sovereignty is not about agency — it's about pride.
+  - *Societal manifestation:* Modern medicine depends entirely on processes the patient cannot control. No one objects to this. But suggest that spiritual healing operates the same way and people rebel.
+  - *Experiential parallel:* You survived dozens of potentially fatal infections as a child without knowing it. You were KEPT ALIVE by a system you didn't build, don't understand, and can't control. That is grace.
+  - *Pastoral application:* Your spiritual immune system is the Holy Spirit. He is fighting battles for your soul that you will never see this side of eternity. Rest in that.
+
+- **The Organ Transplant: You Cannot Give Yourself a New Heart** — Ezekiel 36:26 says God will remove the heart of stone and give a heart of flesh. A heart transplant patient does not perform their own surgery. They lie on a table, unconscious, while a surgeon replaces their dying organ with a living one. They contribute nothing. They must be rendered UNCONSCIOUS for the procedure to work. Apply: regeneration is heart surgery performed by the Holy Spirit on a patient who is spiritually dead (not merely sleeping). You cannot assist in your own spiritual heart transplant any more than a patient on the operating table can guide the surgeon's hand.
+  - *Philosophical root:* The patient-surgeon relationship is asymmetrical by necessity. The one being saved is passive; the one doing the saving is active.
+  - *Psychological implication:* The terror of anesthesia — losing control, being at another's mercy — mirrors the terror of surrendering to grace.
+  - *Experiential parallel:* Every surgical patient trusts a surgeon they cannot supervise. They go under. They wake up changed. That is conversion.
+  - *Pastoral application:* You woke up with a new heart. You didn't perform the surgery. You don't need to maintain the sutures. The Surgeon's work holds.
+
+### LINGUISTICS & LANGUAGE (NEW — Session 3 Discovery)
+- **Your Mother Tongue Chose You** — No child decides to learn their native language. The language saturates them — through parents, through environment, through sheer immersion — and one day they speak it. They didn't study grammar rules. They didn't make a conscious decision to acquire vocabulary. The language HAPPENED to them. And now it is the deepest structure of their thought — more native than any later acquisition. Apply: saving faith works the same way. The elect are saturated in grace — through providence, through the Word, through the Spirit's work — until one day they believe. They didn't manufacture faith through effort. Faith HAPPENED to them. It is now the deepest structure of their spiritual life — more native than any later theological learning. And just as no one says a child "chose" English, no one should say a believer "chose" faith.
+  - *Philosophical root:* Language acquisition disproves the "conscious choice" model of human development. The most fundamental cognitive capacity is received, not chosen.
+  - *Psychological implication:* We accept non-volitional acquisition in linguistics but reject it in theology. This reveals that the objection to sovereign grace is not about the mechanism (reception vs. choice) but about the domain (salvation must be MY doing).
+  - *Societal manifestation:* The entire education system depends on students receiving knowledge they didn't create. Only in theology do we insist the student must generate the content.
+  - *Experiential parallel:* Think of the moment you first understood a word as a child. You don't remember it. It's pre-conscious. The deepest structures of your mind were laid before you had any say. Your faith may be the same.
+  - *Pastoral application:* Your faith is your mother tongue of the soul. It was given before you knew it was being given. It is yours — really yours — but you did not create it.
+
+### ECONOMICS & GAME THEORY (NEW — Session 3 Discovery)
+- **The Prisoner's Dilemma and the Impossibility of Self-Salvation** — In the classic Prisoner's Dilemma, two rational actors pursuing their own self-interest produce a worse outcome than if they had cooperated. But they CANNOT cooperate because they cannot trust each other. The structure of the game makes the optimal outcome unreachable by the players within the game. Apply: humanity is trapped in a spiritual Prisoner's Dilemma with sin. The optimal outcome (salvation, restoration, holiness) is unreachable by the players within the game. Self-interest (the flesh) always defects. You CANNOT cooperate your way to salvation because the very faculty that would need to cooperate (the will) is the faculty that always defects. Only an intervention from OUTSIDE the game — a force that restructures the payoff matrix — can achieve the cooperative outcome. That force is grace.
+  - *Philosophical root:* Game theory proves that some optimal outcomes are structurally unreachable by the players within the system. Salvation is one of them.
+  - *Psychological implication:* The "just choose God" advice is like telling Prisoner A to "just cooperate" — it ignores the structure of the game that makes cooperation impossible without external guarantee.
+  - *Societal manifestation:* Every functioning society requires external enforcement mechanisms (laws, police, courts) because people cannot reliably cooperate through self-interest alone. Why would salvation be different?
+  - *Experiential parallel:* Every time you've failed to keep a resolution (diet, exercise, patience), you've experienced the Prisoner's Dilemma: your self-interest defected against your stated intention. The will is not reliable.
+  - *Pastoral application:* Grace restructures the game. God changes the payoff matrix by giving you a new nature that WANTS to cooperate. You're not trying harder. You're playing a different game.
+
+### GEOLOGY & DEEP TIME (NEW — Session 3 Discovery)
+- **The Bedrock Was Laid Before You Arrived** — Geologists study rocks that are billions of years old. The foundation beneath your feet was laid long before any human existed. You stand on it. You build on it. You depend on it utterly. And you contributed nothing to its formation. The bedrock doesn't ask your permission to hold you. It simply holds. Apply: God's sovereign choice was made "before the foundation of the world" (Ephesians 1:4). The spiritual bedrock beneath your faith was laid before you existed. You didn't contribute to it. You can't erode it. You stand on it whether you acknowledge it or not.
+  - *Philosophical root:* Foundations must precede what is built upon them. A foundation laid by the thing it supports is a logical impossibility.
+  - *Psychological implication:* The desire to be your own foundation is the desire to be self-caused — which is the definition of divine aseity. Only God is self-caused. To claim to be the foundation of your own faith is to claim a divine attribute.
+  - *Experiential parallel:* You trust the ground beneath you every day without thinking about it. Geological faith is the most universal, unconscious trust humans exercise. And you didn't build any of it.
+  - *Pastoral application:* Your faith rests on bedrock that was laid before the stars were lit. That bedrock is God's choice. And God's choice does not erode.
+
 ---
 
 ## BUILT (completed pages — link below)
@@ -123,6 +173,10 @@
 - [What Every Recovering Addict Already Knows About Grace](/psychology-addiction-proof) — Built 2026-04-04 (Philosopher Session)
 - [Where Did Your Faith Come From?](/question-where-did-your-faith-come-from) — Built 2026-04-04 (Philosopher Session — CROWN JEWEL)
 - [Why You Can't Will Yourself to Sleep](/philosophy-sleep-surrender) — Built 2026-04-04 (Philosopher Session)
+- [The Münchhausen Trilemma of Self-Salvation](/philosophy-munchhausen-trilemma) — Built 2026-04-04 (Philosopher Session 3)
+- [The Stockholm Syndrome of Sin](/psychology-stockholm-syndrome-sin) — Built 2026-04-04 (Philosopher Session 3)
+- [The Phantom Limb of Free Will](/philosophy-phantom-limb-free-will) — Built 2026-04-04 (Philosopher Session 3)
+- [Where Does Your "No" Come From?](/question-where-does-your-no-come-from) — Built 2026-04-04 (Philosopher Session 3 — CROWN JEWEL companion)
 
 ---
 

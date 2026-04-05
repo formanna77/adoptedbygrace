@@ -280,12 +280,12 @@
             font-size: 1.05rem;
         }
 
-        /* Doctrine breakdown */
-        .doctrine-breakdown {
+        /* Truth breakdown */
+        .truth-breakdown {
             margin-bottom: 2rem;
         }
 
-        .doctrine-item {
+        .truth-item {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
             padding: 1.5rem;
@@ -293,20 +293,20 @@
             border-radius: 8px;
         }
 
-        .doctrine-name {
+        .truth-name {
             font-size: 1.1rem;
             font-weight: 600;
             color: var(--accent-gold);
             margin-bottom: 0.75rem;
         }
 
-        .doctrine-position {
+        .truth-position {
             color: var(--text-primary);
             margin-bottom: 1rem;
             line-height: 1.6;
         }
 
-        .doctrine-scripture {
+        .truth-scripture {
             background: rgba(139, 92, 246, 0.08);
             padding: 0.75rem;
             border-radius: 4px;
@@ -314,7 +314,7 @@
             border-left: 3px solid var(--accent-violet);
         }
 
-        .doctrine-scripture-label {
+        .truth-scripture-label {
             font-size: 0.85rem;
             color: var(--text-muted);
             text-transform: uppercase;
@@ -322,13 +322,13 @@
             margin-bottom: 0.5rem;
         }
 
-        .doctrine-scripture-text {
+        .truth-scripture-text {
             color: var(--text-primary);
             font-style: italic;
             line-height: 1.6;
         }
 
-        .doctrine-link {
+        .truth-link {
             display: inline-block;
             color: var(--accent-gold);
             text-decoration: none;
@@ -339,7 +339,7 @@
             transition: all 0.2s ease;
         }
 
-        .doctrine-link:hover {
+        .truth-link:hover {
             background: rgba(212, 162, 84, 0.1);
         }
 
@@ -654,8 +654,8 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 <div class="profile-description" id="profile-text"></div>
             </div>
 
-            <!-- Doctrine Breakdown -->
-            <div class="doctrine-breakdown" id="doctrine-breakdown"></div>
+            <!-- Truth Breakdown -->
+            <div class="truth-breakdown" id="truth-breakdown"></div>
 
             <!-- Reading Path -->
             <div class="reading-path">
@@ -1218,7 +1218,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
             const profileText = generateProfileText(categoryScores);
             document.getElementById('profile-text').textContent = profileText;
 
-            // Render doctrine breakdown
+            // Render truth breakdown
             renderDoctrineBreakdown(categoryScores);
 
             // Render reading path
@@ -1293,7 +1293,7 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 }
             ];
 
-            const breakdown = document.getElementById('doctrine-breakdown');
+            const breakdown = document.getElementById('truth-breakdown');
             breakdown.innerHTML = '';
 
             doctrinData.forEach(doc => {
@@ -1301,15 +1301,15 @@ button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outli
                 const positionText = getPositionText(doc.score, doc.arminian, doc.reformed);
 
                 const item = document.createElement('div');
-                item.className = 'doctrine-item';
+                item.className = 'truth-item';
                 item.innerHTML = `
-                    <div class="doctrine-name">${doc.name}</div>
-                    <div class="doctrine-position">
+                    <div class="truth-name">${doc.name}</div>
+                    <div class="truth-position">
                         <strong>${position}:</strong> ${positionText}
                     </div>
-                    <div class="doctrine-scripture">
-                        <div class="doctrine-scripture-label">A Key Scripture</div>
-                        <div class="doctrine-scripture-text">${doc.scripture}</div>
+                    <div class="truth-scripture">
+                        <div class="truth-scripture-label">A Key Scripture</div>
+                        <div class="truth-scripture-text">${doc.scripture}</div>
                     </div>
                     Explore More →
                 `;
