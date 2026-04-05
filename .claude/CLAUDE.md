@@ -86,53 +86,22 @@ These rebuild the site search index (`search-index.js`) and the Explore dropdown
 - **DO** include the mega-menu dropdown HTML that follows the `</nav>` tag
 - **DO** include the search overlay HTML that follows the mega-menu
 
-### Two Layouts + Mega-Menu — All Handled Automatically
-The nav has TWO display modes controlled entirely by `/global.css`. Do NOT write any inline CSS for either layout.
+### How It Works
+The nav has desktop and mobile layouts controlled entirely by `/global.css` and `/nav.js`. Do NOT write any inline CSS or JS for nav behavior. Both layouts + mega-menu + search overlay work automatically when you copy the template.
 
-**DESKTOP (≥969px):**
-- `.nav-right` is visible — a horizontal bar with all 13 links + Explore button + search icon
-- The "Explore" button opens a mega-menu dropdown showing all 15 content categories with descriptions and article counts
-- `.nav-links`, `.hamburger`, and `.nav-site-name` are hidden
-- Font: 0.72rem uppercase, 0.5rem horizontal padding per link
+**To add nav to a new page:** Open `/_nav-template.html` and paste it exactly. Add `<link rel="stylesheet" href="/global.css">` in `<head>` and `<script src="/nav.js"></script>` before `</body>`. That's it.
 
-**MOBILE (≤968px):**
-- `.nav-right` is hidden
-- `.hamburger` (left) and `.nav-site-name` "Adopted by Grace" (centered) are visible
-- `.nav-site-name` is CENTERED in the nav bar via `justify-content: center` on `.nav-container`
-- `.hamburger` is absolutely positioned left (`left: 1rem`)
-- Tapping hamburger opens `.nav-links` as a full-screen fixed overlay menu (solid #0a0a0f background, z-index 10000)
-- All 13 links stack vertically with generous touch targets
+The ONLY page allowed to add inline nav CSS is `index.html` (transparency override for the hero).
 
-### Nav Items (13 total):
-🏠 (home icon) → Best Reads → Start Here → Questions → Theology → Demolition → Why We Resist → Devotionals → Stories → Secular → History → Analogies → About
+## ELIMINATED FEATURES — DO NOT RECREATE
+The following features have been permanently removed. Agents are BANNED from recreating any of them:
 
-- "Best Reads" uses class `nav-best-reads` (ember colored, bold)
-- Home icon uses class `nav-home` with an SVG house icon
-- The ONLY page allowed to add inline nav CSS is `index.html` (transparency override for the hero)
-
-If you are creating a new page, open `/_nav-template.html` and paste it exactly. Then add `<link rel="stylesheet" href="/global.css">` in `<head>` and `<script src="/nav.js"></script>` before `</body>`. That's it — both layouts work automatically.
-
-## RESOURCES SECTION — ELIMINATED
-All resources pages were deleted 2026-03-28. Agents are BANNED from creating resources content. Only original content is allowed.
-
-## EXTRACURRICULAR PAGES — ELIMINATED
-Community, connect, start-here-groups pages were deleted 2026-03-28. No study guides, podcasts, sermon libraries, or community hubs.
-
-## EMAIL NEWSLETTER / SIGNUP / NEWSLETTER SECTION — ELIMINATED
-All newsletter signup forms, floating popups, email collection, "Subscribe" CTAs, and the entire newsletter section (daily-newsletter.html + all newsletter-* articles) were deleted. We have NO email sending infrastructure (no Mailchimp, ConvertKit, SendGrid, etc.). Agents are BANNED from:
-- Creating email signup forms, popups, or modals
-- Adding "Subscribe" links or buttons anywhere
-- Adding newsletter references in footers
-- Re-adding any code to global.js or global.css for newsletter functionality
-- Collecting visitor email addresses for any mailing list purpose
-- Creating any page prefixed `newsletter-` or any newsletter hub page
-- Recreating the daily-newsletter.html page under any name
-
-## APOLOGETICS CATEGORY — ELIMINATED
-The "Apologetics" category was retired 2026-04-04. It was redundant — the entire site IS an apologetic. Every category defends and commends the faith from its own angle. The 6 articles that were in the apologetics category have been redistributed into Questions (where they naturally belong as question-format articles). Agents are BANNED from:
-- Creating an "Apologetics" category, hub page, or nav entry
-- Using the word "apologetics" as a category label (the concept is fine; the category is dead)
-- Any article prefixed `apologetic-` should be treated as belonging to the Questions category
+- **Resources section** — Only original content allowed. No external resource pages.
+- **Extracurricular pages** — No community hubs, study guides, podcasts, or sermon libraries.
+- **Email newsletter / signup** — No signup forms, popups, modals, "Subscribe" CTAs, newsletter pages, or email collection of any kind. We have no email infrastructure.
+- **Apologetics category** — Retired; the entire site IS an apologetic. Former `apologetic-*` articles belong under Questions.
+- **Social media content** — No tweets, threads, carousels, TikTok scripts, or SOCIAL-QUEUE.md. The content speaks for itself.
+- **Back-to-top button** — Removed because it covered mobile content. No floating scroll-to-top widgets under any class name.
 
 ## FOOTER GRACE WARNING — MANDATORY ON EVERY PAGE
 Every page MUST include the `footer-grace-warning` element in its footer, between `footer-container` and `footer-copyright`:
@@ -145,13 +114,6 @@ Every page MUST include the `footer-grace-warning` element in its footer, betwee
 This addresses the most common objection to sovereign grace (antinomianism) proactively on every page. Do NOT remove, modify, or omit this element. The CSS for it lives in `/global.css` under `.footer-grace-warning`.
 
 Also: footer section headers use "Truth" not "Doctrine" (per the terminology mandate).
-
-## BACK-TO-TOP BUTTON — ELIMINATED
-The floating back-to-top button (black circle, bottom-right corner) was removed from all pages 2026-04-04 because it covered content on mobile. Agents are BANNED from:
-- Adding `<button class="back-to-top">` or `<div class="back-to-top">` elements to any page
-- Adding back-to-top CSS (`.back-to-top`, `#back-to-top`) to any page or global.css
-- Adding back-to-top JavaScript (scroll listeners that toggle a back-to-top button)
-- Re-introducing any scroll-to-top floating widget under any class name
 
 ## ══════════════════════════════════════════════════════
 ## UNIFIED HUB PAGE DESIGN — MANDATORY FOR ALL AGENTS
@@ -362,9 +324,6 @@ Not `hub-hero` (that's for hub pages only). Not a custom hero class. Not an inli
 | shattered-lens-hub.html | The Shattered Lens |
 | broken-mirror-hub.html | The Broken Mirror |
 | anxious-mind-hub.html | The Anxious Mind |
-
-## SOCIAL MEDIA CONTENT — ELIMINATED
-Agents are BANNED from creating social media content of any kind. No tweets, no threads, no Instagram carousels, no TikTok scripts, no Facebook posts, no social snippets, no SOCIAL-QUEUE.md entries. Zero. The content on the site must be so good that readers share it themselves — we do not create social media marketing. All compute that would have gone to social media must be redirected to making the site content itself more powerful, more discoverable via SEO, and more devastating in its quality.
 
 ## ══════════════════════════════════════════════════════
 ## THE WEB — WIKIPEDIA-STYLE HYPERLINKING MANDATE
@@ -579,7 +538,6 @@ This is the 101 Ways Principle applied to the most important idea on the site. E
 - **Objection responses**: Every objection to grace is a defense of works — name it as such
 - **Secular evidence**: Neuroscience of self-deception and identity protection
 - **Devotionals**: The comfort of resting in grace vs. the terror of depending on yourself
-- **Apologetics**: Why this matters for evangelism and the visible church
 - **Healing pages**: The freedom that comes from finally letting go of self-righteousness
 
 **The measure of success:** Can a reader arrive at this site from ANY page and eventually encounter this truth? Can they encounter it from so many angles that every escape route is closed? That is the goal.
@@ -695,31 +653,4 @@ Before adding a card to a hub page, grep the hub for the article's filename. If 
 At the end of every session that touches HTML files, run `node validate-site.js`. Fix anything it flags BEFORE finishing. This is not optional. The validator checks for broken links, orphaned pages, missing hub wiring, and structural HTML issues. It takes 5 seconds and prevents hours of cleanup.
 
 ### HUB PAGE REGISTRY
-Every article belongs to exactly one hub. Here is the current hub structure:
-
-| Hub Page | Content Prefix/Type |
-|----------|-------------------|
-| questions.html | question-*, objection-*, apologetic-* |
-| demolition-hub.html | demolition-* |
-| psychology-hub.html | psychology-* |
-| philosophy-hub.html | philosophy-* |
-| stories.html | story-* |
-| devotionals.html | devotional-* |
-| analogies-illustrations.html | analogy-* |
-| secular-evidence.html | secular-* |
-| systematic-theology.html | systematic-* |
-| theologians.html | theologian-* |
-| history-timeline.html | history-* |
-| creeds-confessions.html | creed-* |
-| ot-hub.html | ot-* |
-| essays.html | essays, resistance-*, counter-* |
-| ~~daily-newsletter.html~~ | ~~newsletter-*~~ **(ELIMINATED — see ban above)** |
-| invisible-wall-hub.html | invisible-wall-* |
-| open-wound-hub.html | open-wound-* |
-| shattered-lens-hub.html | shattered-lens-* |
-| broken-mirror-hub.html | broken-mirror-* |
-| anxious-mind-hub.html | anxious-mind-* |
-| pastoral-hub.html | pastoral-* |
-| comparisons-hub.html | compare-* |
-
-If you create a page that doesn't fit any prefix, ASK which hub it belongs to before creating it.
+Every article belongs to exactly one hub. See the Eyebrow Category Labels table (in the Article Page Design section above) for the full list of hubs. Content prefixes map to hubs naturally: `question-*` → questions.html, `demolition-*` → demolition-hub.html, `devotional-*` → devotionals.html, etc. If you create a page that doesn't fit any prefix, ASK which hub it belongs to before creating it.

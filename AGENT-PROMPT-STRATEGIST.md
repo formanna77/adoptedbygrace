@@ -450,7 +450,7 @@ Every session, review the LAST 24 hours of agent output:
 1. What did the creators build? Read 2-3 new pages from different specialists. Score them.
 2. What did the Enhancer improve? Read 2-3 enhanced pages. Did they get BETTER or just different?
 3. What did the Guardian fix? Read INTEGRITY-LOG.md. Are the same issues recurring?
-4. What did the Evangelist produce? Read NEWSLETTER-QUEUE.md and SOCIAL-QUEUE.md. Is the quality rising?
+4. What did the content agents produce? Read 2-3 recent pages from any category. Is the quality rising?
 
 #### Fleet Health Dashboard
 Maintain in CONTENT-STRATEGY-2026.md:
