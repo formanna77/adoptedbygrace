@@ -2713,6 +2713,73 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════════════════════
+   COMPARISON PAGE PATTERNS — overview tables, point sections, grids
+   Used by compare-calvinism-arminianism, compare-calvinism-catholic,
+   compare-calvinism-open-theism, compare-predestination-foreknowledge
+   ═══════════════════════════════════════════════════════════════════ */
+.overview-table { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+.overview-table h2 { font-family: 'Playfair Display', serif; color: var(--accent-gold); font-size: 1.8rem; margin-bottom: 1.5rem; text-align: center; }
+.ov-grid { display: grid; grid-template-columns: 140px 1fr 1fr; gap: 1px; background: rgba(212, 162, 84, 0.1); border-radius: 8px; overflow: hidden; }
+.ov-header { padding: 1rem; font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-gold); background: rgba(212, 162, 84, 0.08); font-weight: 700; text-align: center; }
+.ov-header.reformed { color: var(--accent-gold); }
+.ov-header.arminian { color: var(--accent-ember); }
+.ov-label { padding: 1rem; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-gold); background: rgba(10, 10, 15, 0.8); font-weight: 600; display: flex; align-items: center; }
+.ov-cell { padding: 1rem 1.2rem; background: rgba(10, 10, 15, 0.6); color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; }
+.ov-cell.reformed { border-left: 2px solid rgba(212, 162, 84, 0.2); }
+.ov-cell.arminian { border-left: 2px solid rgba(232, 100, 44, 0.2); }
+.ov-cell strong { color: var(--text-bright); }
+.ov-cell a { color: var(--accent-gold); text-decoration: none; border-bottom: 1px solid rgba(212, 162, 84, 0.3); }
+.ov-cell a:hover { color: var(--accent-ember); border-color: var(--accent-ember); }
+@media (max-width: 768px) {
+    .ov-grid { grid-template-columns: 1fr; }
+    .ov-header { display: none; }
+    .ov-label { font-size: 0.9rem; padding: 0.8rem; background: rgba(212, 162, 84, 0.08); justify-content: center; }
+    .ov-cell { padding: 0.8rem 1rem; }
+    .ov-cell.reformed::before { content: 'Reformed: '; font-weight: 700; color: var(--accent-gold); }
+    .ov-cell.arminian::before { content: 'Arminian: '; font-weight: 700; color: var(--accent-ember); }
+}
+
+/* Point sections (5-point comparison deep dives) */
+.point-section { max-width: 900px; margin: 0 auto; padding: 3rem 2rem; border-bottom: 1px solid rgba(212, 162, 84, 0.08); }
+.point-header { margin-bottom: 2rem; }
+.point-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent-ember); margin-bottom: 0.5rem; }
+.point-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: var(--accent-gold); margin-bottom: 0.8rem; line-height: 1.3; }
+.point-subtitle { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7; font-style: italic; }
+.compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0; }
+.compare-column { padding: 1.5rem; border-radius: 8px; border: 1px solid rgba(212, 162, 84, 0.1); }
+.compare-column h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 1rem; }
+.compare-column p { color: var(--text-secondary); font-size: 0.98rem; line-height: 1.8; }
+.compare-column.reformed { background: rgba(212, 162, 84, 0.03); border-color: rgba(212, 162, 84, 0.15); }
+.compare-column.arminian { background: rgba(232, 100, 44, 0.03); border-color: rgba(232, 100, 44, 0.15); }
+.column-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.5rem; }
+.column-label.reformed, .compare-column.reformed .column-label { color: var(--accent-gold); }
+.column-label.arminian, .compare-column.arminian .column-label { color: var(--accent-ember); }
+.verdict-box, .verdict { background: rgba(139, 92, 246, 0.06); border-left: 4px solid var(--accent-scripture); border-radius: 0 8px 8px 0; padding: 1.5rem; margin: 2rem 0; }
+.verdict-box h4, .verdict h4 { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent-violet); margin-bottom: 0.8rem; }
+.verdict-box p, .verdict p { color: var(--text-secondary); font-size: 1rem; line-height: 1.8; }
+@media (max-width: 768px) {
+    .compare-grid { grid-template-columns: 1fr; }
+    .point-title { font-size: 1.6rem; }
+    .overview-table { padding: 1rem; }
+}
+
+/* Common inner-element patterns used across the site */
+.attribution, .quote-attribution, .verdict-attribution { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-violet); letter-spacing: 0.1em; font-style: normal; display: block; margin-top: 0.8rem; }
+.back-link { display: inline-block; margin-bottom: 2rem; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--accent-gold); text-decoration: none; letter-spacing: 0.05em; }
+.back-link:hover { color: var(--accent-ember); }
+.badge { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-ember); padding: 0.2rem 0.6rem; border: 1px solid rgba(232, 100, 44, 0.2); border-radius: 4px; }
+.whisper, .pastoral-whisper { font-style: italic; color: var(--text-muted); font-size: 0.95rem; padding: 1rem 1.5rem; border-left: 3px solid rgba(212, 162, 84, 0.15); margin: 1.5rem 0; }
+.reading-time { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.05em; }
+.section-title, .section-heading { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); font-weight: 700; margin-bottom: 1rem; }
+.intro { color: var(--text-secondary); font-size: 1.1rem; line-height: 1.9; margin-bottom: 2rem; max-width: 900px; }
+.highlight { color: var(--accent-gold); font-weight: 600; }
+.ember { color: var(--accent-ember); }
+.violet { color: var(--accent-violet); }
+.gold { color: var(--accent-gold); }
+.skip-link { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+.skip-link:focus { position: fixed; top: 10px; left: 10px; width: auto; height: auto; z-index: 100000; background: var(--accent-gold); color: var(--bg-deep); padding: 0.5rem 1rem; border-radius: 4px; }
+
+/* ═══════════════════════════════════════════════════════════════════
    NUCLEAR SAFETY NET — Ensures EVERY page looks right regardless of
    what wrapper classes agents invent. Styles based on HTML ELEMENTS
    inside common content containers, not based on class names.
