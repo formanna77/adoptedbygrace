@@ -978,10 +978,10 @@ h4 { font-size: 1.2rem; font-weight: 700; }
 /* These styles ensure EVERY article page looks warm, golden, and consistent
    without needing page-specific inline <style> blocks. */
 .content-container, .content, .content-main, .article-wrapper { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
-.content-section, .article-body, .section { max-width: 900px; margin: 0 auto; padding: 4rem 2rem; }
+.content-section, .article-body, .section, .content { max-width: 900px; margin: 0 auto; padding: 4rem 2rem; }
 
 /* Headings — Playfair, gold accents */
-.content-section h2, .article-body h2, .section h2 {
+.content-section h2, .article-body h2, .section h2, .content h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: 700;
@@ -992,7 +992,7 @@ h4 { font-size: 1.2rem; font-weight: 700; }
     border-bottom: 2px solid rgba(212, 162, 84, 0.15);
     line-height: 1.3;
 }
-.content-section h3, .article-body h3, .section h3 {
+.content-section h3, .article-body h3, .section h3, .content h3 {
     font-family: 'Playfair Display', serif;
     font-size: 1.4rem;
     font-weight: 600;
@@ -1000,7 +1000,7 @@ h4 { font-size: 1.2rem; font-weight: 700; }
     margin-bottom: 1rem;
     color: var(--accent-gold);
 }
-.content-section h4, .article-body h4, .section h4 {
+.content-section h4, .article-body h4, .section h4, .content h4 {
     font-family: 'Inter', sans-serif;
     font-size: 1.1rem;
     font-weight: 600;
@@ -1010,35 +1010,35 @@ h4 { font-size: 1.2rem; font-weight: 700; }
 }
 
 /* Paragraphs — warm secondary text, generous line height */
-.content-section p, .article-body p, .section p {
+.content-section p, .article-body p, .section p, .content p {
     color: var(--text-secondary);
     font-size: 1.05rem;
     line-height: 1.9;
     margin-bottom: 1.5rem;
 }
-.content-section p strong, .article-body p strong, .section p strong {
+.content-section p strong, .article-body p strong, .section p strong, .content p strong {
     color: var(--text-bright);
     font-weight: 600;
 }
-.content-section em, .article-body em, .section em {
+.content-section em, .article-body em, .section em, .content em {
     color: var(--text-bright);
     font-style: italic;
 }
 
 /* Links — gold with ember hover */
-.content-section a, .article-body a, .section a {
+.content-section a, .article-body a, .section a, .content a {
     color: var(--accent-gold);
     text-decoration: none;
     border-bottom: 1px solid rgba(212, 162, 84, 0.3);
     transition: all 0.3s ease;
 }
-.content-section a:hover, .article-body a:hover, .section a:hover {
+.content-section a:hover, .article-body a:hover, .section a:hover, .content a:hover {
     color: var(--accent-ember);
     border-color: var(--accent-ember);
 }
 
 /* Strong text — bright grey against dark bg */
-.content-section strong, .article-body strong, .section strong {
+.content-section strong, .article-body strong, .section strong, .content strong {
     color: var(--text-bright);
     font-weight: 600;
 }
@@ -2713,23 +2713,113 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════════════════════
-   SAFETY NET — Catch-all for any future wrapper classes agents invent.
-   This ensures NO page EVER shows white body text or unstyled content.
+   NUCLEAR SAFETY NET — Ensures EVERY page looks right regardless of
+   what wrapper classes agents invent. Styles based on HTML ELEMENTS
+   inside common content containers, not based on class names.
    New pages MUST use .article-body (per CLAUDE.md mandate).
-   This rule exists as a backstop, NOT as permission to invent classes.
+   This exists as an unbreakable backstop.
    ═══════════════════════════════════════════════════════════════════ */
-body > article p, body > main p, body > div:not(.nav-container):not(.mega-menu-dropdown):not(.search-overlay):not(.footer-container):not(.footer-grace-warning):not(.footer-copyright):not(.hub-container):not(.hub-grid) > p {
+
+/* Any h2 inside article, main, or common wrapper patterns */
+article h2, main h2,
+[class*="content"] h2, [class*="section"] h2, [class*="body"] h2,
+[class*="wrap"] h2, [class*="article"] h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent-gold);
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid rgba(212, 162, 84, 0.15);
+    line-height: 1.3;
+}
+article h3, main h3,
+[class*="content"] h3, [class*="section"] h3, [class*="body"] h3,
+[class*="wrap"] h3, [class*="article"] h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--accent-gold);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+article h4, main h4,
+[class*="content"] h4, [class*="section"] h4, [class*="body"] h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent-gold);
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Any p inside article, main, or common wrapper patterns */
+article p, main p,
+[class*="content"] p, [class*="section"] p, [class*="body"] p,
+[class*="wrap"] p, [class*="article"] p {
     color: var(--text-secondary);
+    font-size: 1.05rem;
     line-height: 1.9;
+    margin-bottom: 1.5rem;
 }
-body > article h2, body > main h2 {
-    font-family: 'Playfair Display', serif;
+
+/* Any a inside article, main, or common wrapper patterns */
+article a, main a,
+[class*="content"] a, [class*="section"] a, [class*="body"] a,
+[class*="wrap"] a, [class*="article"] a {
     color: var(--accent-gold);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(212, 162, 84, 0.3);
+    transition: all 0.3s ease;
 }
-body > article h3, body > main h3 {
-    font-family: 'Playfair Display', serif;
-    color: var(--accent-gold);
+article a:hover, main a:hover,
+[class*="content"] a:hover, [class*="section"] a:hover, [class*="body"] a:hover,
+[class*="wrap"] a:hover, [class*="article"] a:hover {
+    color: var(--accent-ember);
+    border-color: var(--accent-ember);
 }
-body > article a, body > main a {
-    color: var(--accent-gold);
+
+/* Strong/em inside article, main, or common wrapper patterns */
+article strong, main strong,
+[class*="content"] strong, [class*="section"] strong, [class*="body"] strong {
+    color: var(--text-bright);
+    font-weight: 600;
+}
+article em, main em,
+[class*="content"] em, [class*="section"] em, [class*="body"] em {
+    color: var(--text-bright);
+    font-style: italic;
+}
+
+/* Lists inside article, main, or common wrapper patterns */
+article ul, article ol, main ul, main ol,
+[class*="content"] ul, [class*="content"] ol,
+[class*="section"] ul, [class*="section"] ol {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+article li, main li,
+[class*="content"] li, [class*="section"] li {
+    margin-bottom: 0.5rem;
+}
+
+/* Max-width safety for any div/section directly after hero */
+header.page-hero + div, header.page-hero + section, header.page-hero + article,
+header.page-hero + main {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* Exempt nav, footer, hub elements from safety net link styling */
+nav a, footer a, .hub-card a, .hub-grid a,
+.nav-links a, .nav-right a, .mega-menu-dropdown a,
+.footer-container a, .search-overlay a {
+    border-bottom: none;
 }
