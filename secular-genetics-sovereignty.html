@@ -229,12 +229,7 @@
             margin: 0.5rem 0 0;
             line-height: 1.7;
         }
-.cross-links {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.2rem;
-            margin: 2.5rem 0;
-        }
+
 .cross-link {
             background: var(--bg-card);
             border: 1px solid var(--border-subtle);
@@ -283,21 +278,13 @@
             line-height: 1.8;
             margin: 0;
         }
-.reading-progress {
-            position: fixed;
-            top: 50px;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-violet), var(--accent-ember), var(--accent-gold));
-            z-index: 999;
-            width: 0%;
-        }
+
 @media (max-width: 768px) {
             .genetics-card { padding: 1.5rem; }
             .trait-bar { flex-direction: column; align-items: flex-start; gap: 0.8rem; }
             .trait-label { min-width: auto; }
             .trait-stat { min-width: auto; }
-            .cross-links { grid-template-columns: 1fr; }
+            
             .pullquote { font-size: 1rem; }
             .never-gives-up-banner { padding: 1.5rem; }
             .never-gives-up-banner h3 { font-size: 1.2rem; }

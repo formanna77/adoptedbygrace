@@ -44,7 +44,7 @@
                     name: 'Scripture Questions',
                     icon: '📖',
                     href: '/questions',
-                    count: 46,
+                    count: 47,
                     pages: [
                         { name: 'Can God Blot Your Name from the Book of Life?', href: '/question-book-of-life', desc: 'If God warns He will blot names from the Book of Life, doesn' },
                         { name: 'Can God Create a Universe Where He Isn\'t Sovereign?', href: '/question-sovereignty-logic', desc: 'Can God make a rock too heavy for Him to lift? Can He create a universe He doesn' },
@@ -89,6 +89,7 @@
                         { name: 'What Does Romans 9 Really Mean? Verse by Verse', href: '/question-romans9', desc: 'Romans 9 is the most direct chapter on election in the Bible. Jacob and Esau, Pharaoh, the potter and the clay — examine' },
                         { name: 'Where Did Your Faith Come From? The Question That Changes Everything', href: '/question-where-did-your-faith-come-from', desc: 'A gentle Socratic journey into the most important question a Christian can ask: Where did your faith actually come from?' },
                         { name: 'Where Does Your \'No\' Come From? – The Self-Referential Trap', href: '/question-where-does-your-no-come-from', desc: 'Where does your' },
+                        { name: 'Whose Side Are You On? Man-Centered vs God-Centered Theology', href: '/question-whose-side-are-you-on', desc: 'Strip away the jargon: one theology makes man the hero, the other makes God the hero. Which side are you really on?' },
                         { name: 'Why Jesus Spoke in Parables — Matthew 13:10-17', href: '/question-parables', desc: 'Why did Jesus speak in parables? Not to make truth clearer — but to conceal it from some while revealing it to others. M' },
                         { name: 'You Did Not Choose Me, But I Chose You – John 15:16', href: '/question-john15', desc: 'John 15:16:' },
                         { name: 'You Do Not Believe Because You Are Not My Sheep – John 10:26-29', href: '/question-john10', desc: 'John 10:26-29:' }
@@ -124,11 +125,12 @@
                     name: 'Side by Side',
                     icon: '⚖',
                     href: '/compare-calvinism-arminianism',
-                    count: 7,
+                    count: 8,
                     pages: [
                         { name: 'Calvinism vs Arminianism: A Biblical Comparison', href: '/compare-calvinism-arminianism', desc: 'The definitive comparison of Calvinism and Arminianism. What does Scripture actually teach about salvation—and why the A' },
                         { name: 'Calvinism vs Molinism: Middle Knowledge and Sovereignty', href: '/compare-calvinism-molinism', desc: 'Calvinism vs Molinism compared: middle knowledge, counterfactuals, and God' },
                         { name: 'Calvinism vs Open Theism: Does God Know the Future?', href: '/compare-calvinism-open-theism', desc: 'Calvinism vs Open Theism compared: Does God know the future exhaustively, or is He learning alongside us? A biblical exa' },
+                        { name: 'Every Decision Point: Which Side Do the Scriptures Really Take?', href: '/compare-every-decision-point', desc: 'A systematic comparison of ten crucial doctrinal decision points. At each one, man-centered theology sides with man. God' },
                         { name: 'Monergism vs Synergism: Does God Save Alone?', href: '/compare-monergism-synergism', desc: 'Monergism vs Synergism explained from Scripture: Does God save alone, or does man cooperate? The fundamental divide in s' },
                         { name: 'Predestination vs Foreknowledge: Which Comes First?', href: '/compare-predestination-foreknowledge', desc: 'Predestination vs Foreknowledge: Does God predestine based on what He foresees, or does He foreknow because He predestin' },
                         { name: 'Reformed vs Catholic Soteriology: How Are We Justified?', href: '/compare-calvinism-catholic-soteriology', desc: 'Reformed vs Catholic soteriology compared: justification by faith alone vs. faith plus works, imputed vs. infused righte' },
@@ -211,7 +213,7 @@
                     name: 'Verse by Verse',
                     icon: '💥',
                     href: '/demolition-hub',
-                    count: 18,
+                    count: 19,
                     pages: [
                         { name: '1 John 2:2 — Verse Demolition #7', href: '/demolition-1john2-2', desc: '1 John 2:2 — Does' },
                         { name: '1 Timothy 4:10 — Verse Demolition #12', href: '/demolition-1tim4-10', desc: 'Demolition #12: Does 1 Timothy 4:10 Prove Universal Atonement? A Reformed analysis that reveals how' },
@@ -227,6 +229,7 @@
                         { name: 'FACTS Check: Dismantling the Arminian Framework Point by Point', href: '/demolition-arminian-facts', desc: 'Seminary-level exegetical analysis dismantling the Society of Evangelical Arminians' },
                         { name: 'Hebrews 2:9 — Verse Demolition #5', href: '/demolition-hebrews2-9', desc: 'Demolition #5: Hebrews 2:9 —' },
                         { name: 'Joshua 24:15 — Verse-by-Verse Demolition', href: '/demolition-joshua24-15', desc: 'Verse-by-verse exegetical demolition of the Arminian use of Joshua 24:15 as proof of libertarian free will. Scripture te' },
+                        { name: 'Matthew 23:37 & Divine Sovereignty', href: '/demolition-matthew-23-37', desc: 'Matthew 23:37 is one of the top Arminian proof-texts. This page rescues the verse from misreading and shows how it actua' },
                         { name: 'Philippians 2:12-13 — Verse Demolition #3', href: '/demolition-philippians2-12-13', desc: 'Demolition #3: Philippians 2:12-13 proves monergistic grace, not human autonomy. God works in you to both will and work.' },
                         { name: 'Titus 2:11 — "The Grace of God Has Appeared to All"', href: '/demolition-titus2-11', desc: 'Demolition #17: Titus 2:11 and the' },
                         { name: 'What\'s the Strongest Case for Free Will?', href: '/demolition-steel-man-arminianism', desc: 'We present the best theological arguments for free will—then show why Scripture teaches something deeper about salvation' },

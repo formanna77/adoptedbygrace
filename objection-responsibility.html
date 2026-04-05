@@ -48,20 +48,7 @@
         <link rel="stylesheet" href="/global.css">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-* {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-.reading-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
-            width: 0%;
-            z-index: 99;
-        }
+
 .series-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 12px;
@@ -110,24 +97,12 @@
             color: var(--accent-gold);
             border-bottom-color: var(--accent-gold);
         }
-.content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 60px 20px;
-        }
+
 .content section {
             margin-bottom: 80px;
             scroll-margin-top: 120px;
         }
-.content h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 42px;
-            font-weight: 700;
-            margin-bottom: 24px;
-            color: var(--text-primary);
-            position: relative;
-            padding-bottom: 16px;
-        }
+.content 
 .content h2::after {
             content: '';
             position: absolute;
@@ -160,30 +135,13 @@
             color: var(--accent-violet);
             font-style: italic;
         }
-.scripture-block { display: block;
-            background-color: var(--bg-card);
-            border-left: 4px solid var(--accent-gold);
-            padding: 24px;
-            margin: 32px 0;
-            border-radius: 4px;
-            font-style: italic;
-            line-height: 1.9;
-            color: var(--text-primary);
-        }
+
 .scripture-block.large {
             font-size: 18px;
             padding: 32px;
             margin: 40px 0;
         }
-.scripture-ref {
-            display: block;
-            text-align: right;
-            font-size: 14px;
-            font-style: normal;
-            color: var(--accent-gold);
-            margin-top: 12px;
-            font-weight: 600;
-        }
+
 .highlight-word {
             color: var(--accent-ember);
             font-weight: 700;
@@ -323,18 +281,7 @@
             margin-top: 0;
             color: var(--accent-ember);
         }
-.next-article {
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            padding: 32px;
-            margin-top: 60px;
-            border-radius: 4px;
-            text-align: center;
-        }
-.next-article h3 {
-            margin-top: 0;
-            font-size: 20px;
-        }
+
 .next-article a {
             display: inline-block;
             margin-top: 16px;
@@ -388,9 +335,7 @@
         @media (max-width: 1024px) {
             
 
-            .content h2 {
-                font-size: 36px;
-            }
+            .content 
 
             .content h3 {
                 font-size: 24px;
@@ -408,13 +353,9 @@
 
             
 
-            .content {
-                padding: 40px 20px;
-            }
+            
 
-            .content h2 {
-                font-size: 28px;
-            }
+            .content 
 
             .content h3 {
                 font-size: 20px;
@@ -434,18 +375,13 @@
 
             
 
-            .content h2 {
-                font-size: 22px;
-            }
+            .content 
 
             .content h3 {
                 font-size: 18px;
             }
 
-            .scripture-block { display: block;
-                padding: 16px;
-                font-size: 15px;
-            }
+            
 
             .pull-quote {
                 padding: 20px;
@@ -465,8 +401,7 @@
 
             
         }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
     </style>
 </head>
 <body>

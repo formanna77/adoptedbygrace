@@ -45,26 +45,10 @@
             <link rel="stylesheet" href="/global.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-* {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-html {
-            scroll-behavior: smooth;
-        }
+
 /* Breadcrumb */
-        .breadcrumb {
-            background-color: #12121a;
-            padding: 1rem 2rem;
-            border-bottom: 1px solid rgba(212, 162, 84, 0.1);
-            font-size: 0.9rem;
-        }
-.breadcrumb a {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
+        
+
 .breadcrumb a::before {
             content: "←";
             font-size: 1.1rem;
@@ -90,10 +74,7 @@ html {
         .section-
 
         /* Main content sections */
-        .content-section {
-            padding: 3rem 0;
-            border-bottom: 1px solid rgba(139, 92, 246, 0.1);
-        }
+        
 .content-section:last-of-type {
             border-bottom: none;
         }
@@ -125,21 +106,7 @@ html {
             margin-bottom: 0.5rem;
             font-weight: 600;
         }
-.scripture-block { display: block;
-            background-color: #12121a;
-            border-left: 3px solid #8b5cf6;
-            padding: 1.5rem;
-            margin: 1.5rem 0;
-            border-radius: 4px;
-            font-style: italic;
-            color: #d4d4dc;
-        }
-.scripture-ref { display: block;
-            font-style: normal;
-            font-size: 0.9rem;
-            color: #a0a0a8;
-            margin-top: 0.75rem;
-        }
+
 /* Subsection */
         .subsection {
             margin: 2rem 0;
@@ -264,12 +231,7 @@ html {
             padding: 2rem;
             margin: 3rem 0;
         }
-.continue-exploring h2 {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.8rem;
-            color: #d4a254;
-            margin-bottom: 1.5rem;
-        }
+.continue-exploring 
 .explore-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -329,19 +291,18 @@ html {
 
 /* ========== FOCUS STYLES ========== */
 
-a:focus-visible { outline-offset: 3px; }
 /* ========== BACK TO TOP ========== */
 /* ========== READING PROGRESS ========== */
-.reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, #d4a254, #e8642c); z-index: 9999; transition: width 0.1s linear; width: 0; }
+
 /* ========== SOCIAL SHARING ========== */
 
 @media (max-width: 480px) {
-            h1 { font-size: 1.8rem; }
-            .content-section { padding: 1.5rem 1rem; }
+            
+            
             
             .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
             .card { padding: 1.5rem; }
-            blockquote, .scripture-block { display: block; padding: 1.2rem 1.3rem; }
+            
         }
     </style>
 </head>

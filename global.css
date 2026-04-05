@@ -973,20 +973,95 @@ h4 { font-size: 1.2rem; font-weight: 700; }
 .section-divider { height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.2; margin: 0; border: none; }
 
 /* ===== CONTENT CONTAINERS & SECTIONS ===== */
-.content-container { max-width: 850px; margin: 0 auto; padding: 0 2rem; }
-.content-section, .article-body { max-width: 850px; margin: 0 auto; padding: 4rem 2rem; }
-.content-section h2, .article-body h2 { font-family: 'Playfair Display', serif; margin-bottom: 1.5rem; margin-top: 3rem; color: var(--text-primary); }
-.content-section h3, .article-body h3 { font-family: 'Playfair Display', serif; margin-top: 2.5rem; margin-bottom: 1rem; color: var(--accent-gold); }
-.content-section p, .article-body p { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.9; margin-bottom: 1.5rem; }
-.content-section p strong, .article-body p strong { color: var(--text-primary); font-weight: 600; }
-.content-section a, .article-body a { color: var(--accent-gold); text-decoration: none; border-bottom: 1px solid rgba(212, 162, 84, 0.3); transition: all 0.3s ease; }
-.content-section a:hover, .article-body a:hover { color: var(--accent-ember); border-color: var(--accent-ember); }
+/* These styles ensure EVERY article page looks warm, golden, and consistent
+   without needing page-specific inline <style> blocks. */
+.content-container, .content { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+.content-section, .article-body, .section { max-width: 900px; margin: 0 auto; padding: 4rem 2rem; }
+
+/* Headings — Playfair, gold accents */
+.content-section h2, .article-body h2, .section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent-gold);
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid rgba(212, 162, 84, 0.15);
+    line-height: 1.3;
+}
+.content-section h3, .article-body h3, .section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent-gold);
+}
+.content-section h4, .article-body h4, .section h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Paragraphs — warm secondary text, generous line height */
+.content-section p, .article-body p, .section p {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+}
+.content-section p strong, .article-body p strong, .section p strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+.content-section em, .article-body em, .section em {
+    color: var(--text-primary);
+    font-style: italic;
+}
+
+/* Links — gold with ember hover */
+.content-section a, .article-body a, .section a {
+    color: var(--accent-gold);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(212, 162, 84, 0.3);
+    transition: all 0.3s ease;
+}
+.content-section a:hover, .article-body a:hover, .section a:hover {
+    color: var(--accent-ember);
+    border-color: var(--accent-ember);
+}
+
+/* Strong text — always visible against dark bg */
+.content-section strong, .article-body strong, .section strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
 
 /* ===== BLOCKQUOTES (Scripture) ===== */
 blockquote, .scripture-block { display: block; background: linear-gradient(135deg, rgba(139, 92, 246, 0.04), rgba(232, 100, 44, 0.04)); border-left: 4px solid var(--accent-gold); border-radius: 0 8px 8px 0; padding: 1.8rem 2rem; margin: 2rem auto; position: relative; overflow: visible; }
 blockquote::after { content: '\201D'; position: absolute; top: -10px; right: 20px; font-size: 8rem; font-family: 'Playfair Display', serif; color: rgba(212, 162, 84, 0.06); pointer-events: none; }
 blockquote p, .scripture-block p { font-style: italic; color: var(--text-primary); line-height: 1.9; font-size: 1.1rem; margin-bottom: 0; }
 blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); letter-spacing: 0.1em; font-style: normal; display: block; margin-top: 0.8rem; }
+
+/* ===== BREADCRUMBS ===== */
+.breadcrumb { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 2rem; letter-spacing: 0.05em; }
+.breadcrumb a { color: var(--accent-gold); text-decoration: none; border-bottom: none; }
+.breadcrumb a:hover { color: var(--accent-ember); }
+
+/* ===== READING PROGRESS BAR ===== */
+.reading-progress { position: fixed; top: 0; left: 0; width: 0%; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); z-index: 10001; transition: width 0.1s linear; }
+
+/* ===== RELATED / CROSS-LINKS (bottom of articles) ===== */
+.related-explore, .cross-links, .next-article { margin-top: 4rem; padding-top: 3rem; border-top: 2px solid rgba(212, 162, 84, 0.1); }
+.related-explore h3, .cross-links h3, .next-article h3 { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: var(--accent-gold); margin-bottom: 1.5rem; }
+.related-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+.related-explore-grid a { display: block; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 1.5rem; color: var(--text-primary); text-decoration: none; transition: all 0.3s ease; border-bottom: none; }
+.related-explore-grid a:hover { border-color: rgba(212, 162, 84, 0.3); transform: translateY(-3px); box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2), 0 0 15px var(--glow-gold); }
+.related-explore-grid a span { display: block; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.5rem; }
 
 /* ===== CARDS ===== */
 .card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 2rem; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; }
@@ -1274,9 +1349,11 @@ table { max-width: 100%; }
 .timeline-text { color: var(--text-secondary); line-height: 1.8; }
 
 /* ===== LISTS ===== */
-.content-section ul, .content-section ol, .article-body ul, .article-body ol { color: var(--text-secondary); margin: 1.5rem 0; padding-left: 1.5rem; }
-.content-section li, .article-body li { margin-bottom: 0.8rem; line-height: 1.8; font-size: 1.05rem; }
-.content-section li::marker, .article-body li::marker { color: var(--accent-gold); }
+.content-section ul, .article-body ul, .section ul, .content-section ol, .article-body ol, .section ol { color: var(--text-secondary); margin: 1.5rem 0; padding-left: 1.5rem; }
+.content-section li, .article-body li, .section li { margin-bottom: 0.8rem; line-height: 1.8; font-size: 1.05rem; }
+.content-section li::marker, .article-body li::marker, .section li::marker { color: var(--accent-gold); }
+.content-section li a, .article-body li a, .section li a { color: var(--accent-gold); font-weight: 500; }
+.content-section li a:hover, .article-body li a:hover, .section li a:hover { color: var(--accent-ember); }
 
 /* ===== FOCUS STYLES ===== */
 *:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; border-radius: 2px; }
@@ -1301,7 +1378,9 @@ a:focus-visible { outline-offset: 3px; }
     .page-hero { padding: 3rem 1.5rem 2rem; }
     .page-hero::before { width: 350px; height: 350px; }
     .page-hero .subtitle { font-size: 1rem; }
-    .content-section, .article-body { padding: 2rem 1.5rem; }
+    .content-section, .article-body, .section, .content { padding: 2rem 1.5rem; }
+    .content-section h2, .article-body h2, .section h2 { font-size: 1.6rem; margin-top: 2.5rem; }
+    .related-explore-grid { grid-template-columns: 1fr; }
     footer { margin-top: 2.5rem; padding: 2rem 1.5rem; }
     .card-grid { grid-template-columns: 1fr; padding: 0 1.5rem; }
     .compare-table { font-size: 0.85rem; }
@@ -1317,7 +1396,8 @@ a:focus-visible { outline-offset: 3px; }
     h1 { font-size: 1.8rem; }
     .page-hero { padding: 2.5rem 1rem 1.5rem; }
     .page-hero::before { width: 250px; height: 250px; }
-    .content-section, .article-body { padding: 1.5rem 1rem; }
+    .content-section, .article-body, .section, .content { padding: 1.5rem 1rem; }
+    .content-section h2, .article-body h2, .section h2 { font-size: 1.4rem; }
     footer { margin-top: 2rem; padding: 1.5rem 1rem; }
     .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
     .stat-number { font-size: 2.2rem; }

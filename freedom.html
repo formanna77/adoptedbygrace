@@ -41,14 +41,11 @@
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
+
 .hero-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 1.5rem; }
 .hero-epigraph { font-style: italic; font-size: 1.15rem; color: var(--text-secondary); line-height: 1.8; max-width: 650px; margin: 0 auto 0.5rem; }
 .hero-epigraph-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.1em; }
-.content { max-width: 800px; margin: 0 auto; padding: 0 2rem; }
-.section { margin-bottom: 5rem; }
-.section h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 1.5rem; color: var(--accent-gold); line-height: 1.3; }
-.section p { margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 1.9; font-size: 1rem; }
+
 .section p strong { color: var(--text-primary); font-weight: 600; }
 .section p em { color: var(--accent-gold); font-style: italic; }
 .fear-block { background: linear-gradient(135deg, rgba(100, 40, 40, 0.12), rgba(60, 20, 20, 0.08)); border-left: 4px solid var(--accent-ember); border-radius: 4px; padding: 2rem; margin: 2.5rem 0; }
@@ -59,8 +56,7 @@
 .grace-block p { color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.8; }
 .grace-block p:last-child { margin-bottom: 0; }
 .grace-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent-gold); text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 1rem; }
-.scripture-block { display: block; background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2.5rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
-.scripture-ref { display: block; font-style: normal; font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-muted); margin-top: 1rem; letter-spacing: 0.05em; }
+
 .shift-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin: 2.5rem 0; border: 1px solid var(--border-subtle); border-radius: 4px; overflow: hidden; }
 .shift-before { background: linear-gradient(180deg, rgba(100, 40, 40, 0.12), rgba(60, 20, 20, 0.06)); padding: 2rem; border-right: 1px solid var(--border-subtle); }
 .shift-after { background: linear-gradient(180deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.04)); padding: 2rem; }
@@ -85,9 +81,9 @@
 @media (max-width: 768px) {
             
             
-            .hero-subtitle { font-size: 0.95rem; }
-            .content { padding: 0 1.2rem; }
-            .fear-block, .grace-block, .scripture-block { display: block; padding: 1.2rem; margin: 1.5rem 0; }
+            
+            
+            .fear-block, .grace-block, 
             .shift-grid { grid-template-columns: 1fr; }
             .shift-before { border-right: none; border-bottom: 1px solid var(--border-subtle); padding: 1.2rem; }
             .shift-after { padding: 1.2rem; }
@@ -99,10 +95,10 @@
 @media (max-width: 480px) {
             
             
-            .hero-subtitle { font-size: 0.85rem; }
-            .content { padding: 0 0.8rem; }
-            .fear-block, .grace-block, .scripture-block { display: block; padding: 1rem; margin: 1rem 0; font-size: 0.9rem; }
-            .scripture-ref { display: block; font-size: 0.75rem; margin-top: 0.6rem; }
+            
+            
+            .fear-block, .grace-block, 
+            
             .shift-grid { margin: 1rem 0; }
             .shift-before { padding: 1rem; }
             .shift-after { padding: 1rem; }
@@ -118,11 +114,9 @@
 
 /* ========== FOCUS STYLES ========== */
 
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
 /* ========== BACK TO TOP ========== */
 /* ========== READING PROGRESS ========== */
-.reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); z-index: 9999; transition: width 0.1s linear; width: 0; }
+
 /* ========== SOCIAL SHARING ========== */
 
     </style>

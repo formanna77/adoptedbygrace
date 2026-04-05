@@ -40,11 +40,7 @@
     </script>
     
 <style>
-* {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+
 /* Skip link for accessibility */
         .skip-link {
             position: absolute;
@@ -61,16 +57,7 @@
             top: 0;
         }
 /* Reading progress bar */
-        .reading-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
-            z-index: 10001;
-            width: 0%;
-            transition: width 0.1s linear;
-        }
+        
 /* Hero */
         
 .topic-label {
@@ -81,58 +68,13 @@
             letter-spacing: 0.1em;
             margin-bottom: 1rem;
         }
-.hero-subtitle {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            margin-bottom: 2rem;
-        }
+
 /* Main Content */
-        .content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-.section {
-            margin-bottom: 5rem;
-            scroll-margin-top: 200px;
-        }
-.section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-            color: var(--accent-gold);
-        }
-.section h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            margin-bottom: 1rem;
-            margin-top: 2.5rem;
-            color: var(--text-primary);
-        }
-.section p {
-            margin-bottom: 1.5rem;
-            color: var(--text-secondary);
-            line-height: 1.8;
-        }
+        
+
 /* Scripture Block */
-        .scripture-block { display: block;
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05));
-            border-left: 4px solid var(--accent-gold);
-            border-radius: 4px;
-            padding: 2rem;
-            margin: 2rem 0;
-            font-size: 1rem;
-            line-height: 1.9;
-            color: var(--text-primary);
-            font-style: italic;
-        }
-.scripture-ref {
-            display: block;
-            margin-top: 1rem;
-            font-style: normal;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
+        
+
 /* Greek Analysis */
         .greek-grid {
             display: grid;
@@ -239,14 +181,7 @@
             padding: 2rem;
             margin: 2.5rem 0;
         }
-.theologian-quote blockquote {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.15rem;
-            line-height: 1.7;
-            color: var(--text-primary);
-            font-style: italic;
-            margin-bottom: 1rem;
-        }
+.theologian-quote 
 .theologian-attribution {
             color: var(--accent-violet);
             font-size: 0.9rem;
@@ -362,18 +297,11 @@
         @media (max-width: 768px) {
             
 
-            .section h2 {
-                font-size: 1.5rem;
-            }
+            
 
-            .section h3 {
-                font-size: 1.2rem;
-            }
+            
 
-            .scripture-block { display: block;
-                padding: 1.2rem;
-                font-size: 0.9rem;
-            }
+            
 
             .greek-grid {
                 grid-template-columns: 1fr;
@@ -381,9 +309,7 @@
 
             
 
-            .content {
-                padding: 0 1.2rem;
-            }
+            
 
             .argument-item {
                 padding: 1.5rem;

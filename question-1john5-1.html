@@ -32,25 +32,9 @@
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-* {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-html {
-            scroll-behavior: smooth;
-        }
+
 /* Reading Progress Bar */
-        .reading-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember), var(--accent-violet));
-            width: 0%;
-            z-index: 9998;
-            transition: width 0.1s ease;
-        }
+        
 .dropdown-icon {
             font-size: 1rem;
         }
@@ -107,15 +91,7 @@ html {
             margin: 3rem 0;
             scroll-margin-top: 80px;
         }
-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            color: var(--accent-gold);
-            margin-bottom: 1.5rem;
-            padding-left: 1rem;
-            border-left: 4px solid;
-            border-image: linear-gradient(180deg, var(--accent-gold), var(--accent-ember)) 1;
-        }
+section 
 section h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.3rem;
@@ -126,14 +102,7 @@ section p {
             margin-bottom: 1.5rem;
         }
 /* Scripture Block */
-        .scripture-block { display: block;
-            background: var(--bg-card);
-            border-left: 4px solid var(--accent-gold);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border-radius: 0.5rem;
-            font-style: italic;
-        }
+        
 .scripture-block .ref {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.85rem;
@@ -276,9 +245,7 @@ section p {
         .continue-exploring {
             margin: 3rem 0;
         }
-.continue-exploring h2 {
-            margin-bottom: 2rem;
-        }
+.continue-exploring 
 .explore-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -315,17 +282,13 @@ section p {
 /* Responsive */
 
         @media (max-width: 768px) {
-            .page-header h1 {
-                font-size: 1.8rem;
-            }
+            .page-header 
 
             .page-meta {
                 grid-template-columns: 1fr;
             }
 
-            section h2 {
-                font-size: 1.5rem;
-            }
+            section 
 
             section h3 {
                 font-size: 1.1rem;
@@ -341,9 +304,7 @@ section p {
                 padding: 1rem;
             }
 
-            .page-header h1 {
-                font-size: 1.5rem;
-            }
+            .page-header 
 
             .page-header .subtitle {
                 font-size: 1rem;
@@ -357,9 +318,7 @@ section p {
                 margin: 2rem 0;
             }
 
-            section h2 {
-                font-size: 1.3rem;
-            }
+            section 
 
             .scripture-block, .callout, .objection, .argument, .witness-quote {
                 padding: 1rem;

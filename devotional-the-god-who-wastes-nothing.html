@@ -39,12 +39,7 @@
     </script>
 
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-.reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(to right, var(--accent-gold), var(--accent-violet)); z-index: 9999; width: 0%; }
-.breadcrumb { max-width: 750px; margin: 0 auto; padding: 1rem 2rem 0; }
-.breadcrumb a { color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
-.breadcrumb a:hover { color: var(--accent-gold); }
+
 .article-header { margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-subtle); }
 .article-eyebrow {
             font-family: 'JetBrains Mono', monospace;
@@ -55,16 +50,7 @@ html { scroll-behavior: smooth; }
             margin-bottom: 1rem;
             display: block;
         }
-.article-header h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: clamp(2rem, 5vw, 2.6rem);
-            line-height: 1.2;
-            margin-bottom: 0.75rem;
-            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
+.article-header 
 .article-subtitle {
             font-family: 'Playfair Display', serif;
             font-size: 1.15rem;
@@ -79,13 +65,7 @@ html { scroll-behavior: smooth; }
             font-family: 'JetBrains Mono', monospace;
         }
 .article-content p { margin-bottom: 1.5rem; line-height: 1.85; }
-.article-content h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            font-weight: 600;
-            margin: 2.5rem 0 1.2rem 0;
-            color: var(--text-primary);
-        }
+.article-content 
 .verse-block {
             background: var(--bg-card);
             border-left: 3px solid var(--accent-gold);
@@ -145,13 +125,7 @@ html { scroll-behavior: smooth; }
             background: linear-gradient(135deg, rgba(212, 162, 84, 0.04), rgba(139, 92, 246, 0.04));
             border-top: 1px solid var(--border-subtle);
         }
-.keep-reading h2 {
-            font-family: 'Playfair Display', serif;
-            color: var(--accent-gold);
-            font-size: 1.6rem;
-            text-align: center;
-            margin-bottom: 2rem;
-        }
+.keep-reading 
 .keep-reading-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));

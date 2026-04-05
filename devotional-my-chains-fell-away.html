@@ -53,23 +53,7 @@
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-* {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-html {
-            scroll-behavior: smooth;
-        }
-.reading-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(to right, var(--accent-gold), var(--accent-ember), var(--accent-violet));
-            z-index: 99;
-            width: 0%;
-        }
+
 nav[role="navigation"] {
             background: var(--bg-card);
             border-bottom: 1px solid var(--border-subtle);
@@ -77,33 +61,14 @@ nav[role="navigation"] {
             top: 0;
             z-index: 90;
         }
-.breadcrumb {
-            max-width: 900px;
-            margin: 2rem auto 0;
-            padding: 0 2rem;
-        }
-.breadcrumb a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            font-size: 0.95rem;
-            transition: color 0.3s ease;
-        }
-.breadcrumb a:hover {
-            color: var(--accent-ember);
-        }
+
 .article-header {
             text-align: center;
             margin-bottom: 3rem;
             border-bottom: 1px solid var(--border-subtle);
             padding-bottom: 2rem;
         }
-.article-header h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            letter-spacing: -0.5px;
-        }
+.article-header 
 .article-meta {
             color: var(--text-secondary);
             font-size: 0.95rem;
@@ -121,13 +86,7 @@ nav[role="navigation"] {
             line-height: 1;
             color: var(--accent-gold);
         }
-.article-content h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            font-weight: 600;
-            margin: 2.5rem 0 1.5rem 0;
-            color: var(--accent-gold);
-        }
+.article-content 
 .article-content h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.3rem;
@@ -210,9 +169,7 @@ footer[role="contentinfo"] {
         }
 
 @media (max-width: 768px) {
-            .article-header h1 {
-                font-size: 1.8rem;
-            }
+            .article-header 
 
             .article-content {
                 font-size: 1rem;
@@ -228,12 +185,12 @@ footer[role="contentinfo"] {
             }
         }
 @media (max-width: 480px) {
-            h1 { font-size: 1.8rem; }
-                    .content-section { padding: 1.5rem 1rem; }
+            
+                    
             
             .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
             .card { padding: 1.5rem; }
-            blockquote, .scripture-block { display: block; padding: 1.2rem 1.3rem; }
+            
         }
     </style>
 </head>

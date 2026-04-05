@@ -21,11 +21,7 @@
             <link rel="stylesheet" href="/global.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-* {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+
 nav a.active::after {
             content: '';
             position: absolute;
@@ -36,21 +32,8 @@ nav a.active::after {
             background: #d4a254;
         }
 /* Breadcrumb */
-        .breadcrumb {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            padding: 1.5rem 2rem;
-            font-size: 0.9rem;
-            color: #a0a0a6;
-        }
-.breadcrumb a {
-            color: #d4a254;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-.breadcrumb a:hover {
-            color: #e8642c;
-        }
+        
+
 /* Hero Section */
         
 .hero-container {
@@ -74,13 +57,7 @@ nav a.active::after {
             margin-bottom: 1rem;
             line-height: 1.1;
         }
-.hero-subtitle {
-            font-size: 1.2rem;
-            color: #b0b0b6;
-            max-width: 700px;
-            margin: 0 auto;
-            font-weight: 300;
-        }
+
 .section-nav-container {
             max-width: 1200px; width: 100%;
             margin: 0 auto;
@@ -120,14 +97,7 @@ h2::before {
             font-style: italic;
             color: #d8d8de;
         }
-.scripture-ref {
-            display: block;
-            color: #d4a254;
-            font-style: normal;
-            font-weight: 600;
-            margin-top: 0.75rem;
-            font-size: 0.9rem;
-        }
+
 /* Attributes Grid */
         .attributes-grid {
             display: grid;
@@ -332,9 +302,7 @@ h2::before {
             .hero-title {
                 font-size: 2.2rem;
             }
-            h2 {
-                font-size: 1.6rem;
-            }
+            
             .section-nav-container {
                 gap: 1rem;
             }
@@ -347,19 +315,18 @@ h2::before {
         }
 /* ========== FOCUS STYLES ========== */
 
-a:focus-visible { outline-offset: 3px; }
 /* ========== BACK TO TOP ========== */
 /* ========== READING PROGRESS ========== */
-.reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, #d4a254, #e8642c); z-index: 9999; transition: width 0.1s linear; width: 0; }
+
 /* ========== SOCIAL SHARING ========== */
 
 @media (max-width: 480px) {
-            h1 { font-size: 1.8rem; }
-            .content-section { padding: 1.5rem 1rem; }
+            
+            
             
             .btn-primary, .btn-secondary { padding: 0.8rem 1.8rem; font-size: 0.9rem; }
             .card { padding: 1.5rem; }
-            blockquote, .scripture-block { display: block; padding: 1.2rem 1.3rem; }
+            
         }
     </style>
 </head>

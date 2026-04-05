@@ -37,8 +37,7 @@
     
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+
 .skip-link {
             position: absolute; top: -100px; left: 0;
             background: var(--accent-gold); color: var(--bg-deep);
@@ -46,12 +45,7 @@ html { scroll-behavior: smooth; }
             font-weight: 600; border-radius: 0 0 4px 0;
         }
 .skip-link:focus { top: 0; }
-.breadcrumb {
-            display: inline-block;
-            margin-bottom: 1.5rem;
-            color: var(--accent-gold);
-            font-size: 0.9rem;
-        }
+
 .topic-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
@@ -60,12 +54,7 @@ html { scroll-behavior: smooth; }
             letter-spacing: 0.15em;
             margin-bottom: 1rem;
         }
-.hero-subtitle {
-            font-size: 1.15rem;
-            color: var(--text-secondary);
-            max-width: 700px;
-            line-height: 1.7;
-        }
+
 .hero-verse {
             margin-top: 2rem;
             padding: 1.5rem 2rem;
@@ -105,35 +94,9 @@ html { scroll-behavior: smooth; }
             transition: all 0.2s;
         }
 .section-nav a:hover { color: var(--accent-gold); border-color: var(--accent-gold); opacity: 1; }
-.content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 2rem 4rem;
-        }
-.section { margin-bottom: 5rem; scroll-margin-top: 100px; }
-.section h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 1.5rem; color: var(--accent-gold); }
-.section h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-top: 2.5rem; margin-bottom: 1rem; color: var(--text-primary); }
-.section p { margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 1.85; }
+
 .section strong { color: var(--text-primary); }
-.scripture-block { display: block;
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05));
-            border-left: 4px solid var(--accent-gold);
-            border-radius: 4px;
-            padding: 2rem;
-            margin: 2rem 0;
-            font-size: 1rem;
-            line-height: 1.9;
-            color: var(--text-primary);
-            font-style: italic;
-        }
-.scripture-ref {
-            display: block;
-            margin-top: 1rem;
-            font-style: normal;
-            color: var(--text-muted);
-            font-size: 0.85rem;
-            font-family: 'JetBrains Mono', monospace;
-        }
+
 .greek-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -195,7 +158,7 @@ html { scroll-behavior: smooth; }
             padding: 2rem;
             margin: 2.5rem 0;
         }
-.witness-quote blockquote { font-family: 'Playfair Display', serif; font-size: 1.1rem; line-height: 1.7; color: var(--text-primary); font-style: italic; margin-bottom: 1rem; }
+.witness-quote 
 .witness-attribution { color: var(--accent-violet); font-size: 0.9rem; font-weight: 600; }
 .callout {
             background: linear-gradient(135deg, rgba(232, 100, 44, 0.08), rgba(212, 162, 84, 0.06));
@@ -207,7 +170,7 @@ html { scroll-behavior: smooth; }
 .callout-title { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--accent-ember); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem; }
 .callout p { color: var(--text-primary); line-height: 1.8; }
 .explore-section { margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--border-subtle); }
-.explore-section h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); margin-bottom: 2rem; text-align: center; }
+.explore-section 
 .explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
 .explore-link {
             display: block;
@@ -228,13 +191,13 @@ html { scroll-behavior: smooth; }
 .footer-links a { font-size: 0.8rem; color: var(--text-muted); }
 .footer-links a:hover { color: var(--accent-gold); }
 .footer-copy { font-size: 0.75rem; color: var(--text-muted); }
-.reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); z-index: 10001; transition: width 0.1s linear; }
+
 @media (max-width: 768px) {
             
-            .content { padding: 0 1.25rem 3rem; }
+            
             .section-nav { padding: 0 1.25rem; }
             
-            .section h2 { font-size: 1.6rem; }
+            
             .greek-grid { grid-template-columns: 1fr; }
             .explore-grid { grid-template-columns: 1fr; }
         }

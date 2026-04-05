@@ -36,7 +36,7 @@
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
+
 .section-nav-inner { max-width: 1200px; width: 100%; margin: 0 auto; display: flex; gap: 1.5rem; overflow-x: auto; }
 .section-
         .section-
@@ -46,9 +46,9 @@
 .hero-label::before, .hero-label::after { content: ''; display: inline-block; width: 30px; height: 2px; background: var(--accent-ember); }
 .hero h1 .gold { color: var(--accent-gold); }
 .hero h1 .muted { color: var(--text-secondary); }
-.hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto; line-height: 1.8; }
+
 .overview-table { max-width: 1000px; margin: 3rem auto; padding: 0 2rem; }
-.overview-table h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--accent-gold); text-align: center; margin-bottom: 2rem; }
+.overview-table 
 .ov-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 0; border: 1px solid var(--border-subtle); border-radius: 8px; overflow: hidden; }
 .ov-header { background: var(--bg-card); padding: 1rem 1.25rem; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-muted); border-bottom: 1px solid var(--border-subtle); }
 .ov-header.reformed { color: var(--accent-gold); }
@@ -57,7 +57,7 @@
 .ov-cell { padding: 1rem 1.25rem; font-size: 0.9rem; line-height: 1.6; border-bottom: 1px solid var(--border-subtle); }
 .ov-cell.reformed { background: var(--reformed-bg); color: var(--text-primary); }
 .ov-cell.opentheist { background: var(--opposing-bg); color: var(--text-secondary); }
-.content { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+
 .point-section { margin: 5rem 0; }
 .point-header { margin-bottom: 2.5rem; }
 .point-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--accent-ember); margin-bottom: 0.75rem; }
@@ -86,16 +86,14 @@
 .proof-text { font-size: 0.88rem; line-height: 1.7; color: var(--text-secondary); font-style: italic; margin-bottom: 0.75rem; }
 .proof-note { font-size: 0.82rem; color: var(--text-muted); line-height: 1.6; border-top: 1px solid var(--border-subtle); padding-top: 0.75rem; }
 .proof-card.reformed .proof-note { color: var(--text-secondary); }
-.scripture-block { display: block; background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(232, 100, 44, 0.05)); border-left: 4px solid var(--accent-gold); border-radius: 4px; padding: 2rem; margin: 2.5rem 0; font-size: 1rem; line-height: 1.9; color: var(--text-primary); font-style: italic; }
-.scripture-ref { display: block; margin-top: 0.75rem; font-style: normal; color: var(--text-muted); font-size: 0.85rem; font-family: 'JetBrains Mono', monospace; }
+
 .verdict { background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(232, 100, 44, 0.05)); border: 1px solid var(--reformed-border); border-radius: 8px; padding: 2rem; margin: 2rem 0; }
 .verdict-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--accent-gold); margin-bottom: 0.75rem; }
 .verdict p { font-size: 0.95rem; line-height: 1.8; color: var(--text-primary); }
 .exegetical { margin: 2rem 0; padding: 1.5rem; background: var(--bg-card); border-radius: 6px; border: 1px solid var(--border-subtle); }
 .exegetical h4 { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent-violet); margin-bottom: 1rem; }
 .exegetical p { font-size: 0.9rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 0.75rem; }
-.cross-links { margin: 4rem 0 2rem; padding: 2rem; background: var(--bg-card); border-radius: 8px; border: 1px solid var(--border-subtle); }
-.cross-links h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 1.5rem; text-align: center; }
+
 .cross-link-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; }
 .cross-link { display: block; padding: 1rem; background: var(--bg-deep); border: 1px solid var(--border-subtle); border-radius: 6px; text-decoration: none; transition: all 0.3s; }
 .cross-link:hover { border-color: var(--accent-gold); transform: translateY(-2px); }
@@ -112,12 +110,11 @@
             .ov-header:first-child, .ov-label { display: none; }
         }
 @media (max-width: 480px) {
-            h1 { font-size: 1.8rem; }
-            .content { padding: 0 1rem; }
+            
+            
             
         }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
     </style>
 </head>
 <body>

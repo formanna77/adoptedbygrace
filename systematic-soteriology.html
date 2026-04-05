@@ -37,11 +37,7 @@
             <link rel="stylesheet" href="/global.css">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-* {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+
 .topic-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
@@ -50,59 +46,11 @@
             letter-spacing: 0.1em;
             margin-bottom: 1rem;
         }
-.hero-subtitle {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            margin-bottom: 2rem;
-        }
-.content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 2rem 4rem;
-        }
-.section {
-            margin-bottom: 3rem;
-        }
-.section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-            color: var(--accent-gold);
-            border-bottom: 2px solid var(--border-subtle);
-            padding-bottom: 1rem;
-        }
-.section h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            font-weight: 700;
-            margin-top: 1.5rem;
-            margin-bottom: 1rem;
-            color: var(--text-primary);
-        }
-.section p {
-            margin-bottom: 1.2rem;
-            color: var(--text-primary);
-        }
+
 .section strong {
             color: var(--accent-gold);
         }
-.scripture-block { display: block;
-            background: var(--bg-card);
-            border-left: 4px solid var(--accent-gold);
-            padding: 1.5rem;
-            margin: 1.5rem 0;
-            font-style: italic;
-            color: var(--text-secondary);
-            line-height: 1.9;
-        }
-.scripture-ref {
-            display: block;
-            margin-top: 1rem;
-            font-style: normal;
-            font-weight: 600;
-            color: var(--accent-gold);
-        }
+
 .key-terms {
             background: var(--bg-card-hover);
             border: 1px solid var(--border-subtle);
@@ -142,69 +90,29 @@
             margin-bottom: 0.75rem;
             font-weight: 600;
         }
-.breadcrumb {
-            max-width: 900px;
-            margin: 3rem auto 0;
-            padding: 0 2rem 1rem;
-            font-size: 0.9rem;
-        }
-.breadcrumb a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            transition: opacity 0.3s ease;
-        }
-.breadcrumb a:hover {
-            opacity: 0.7;
-        }
 
-.reading-progress {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--accent-violet));
-            width: 0%;
-            z-index: 1001;
-            transition: width 0.1s ease;
-        }
 @media (max-width: 968px) {
             
             
-            .hero-subtitle {
-                font-size: 1rem;
-            }
-            .content {
-                padding: 0 1rem 2rem;
-            }
-            .section h2 {
-                font-size: 1.4rem;
-            }
-            .scripture-block { display: block;
-                padding: 1rem;
-                font-size: 0.95rem;
-            }
+            
+            
+            
+            
             
         }
 @media (max-width: 768px) {
-            .content-section { padding: 2rem 1.5rem; }
+            
             .section-grid, .card-grid { grid-template-columns: 1fr; }
-            h1 { font-size: 2rem; }
-            h2 { font-size: 1.5rem; }
+            
+            
         }
 @media (max-width: 480px) {
             
-            .hero-subtitle {
-                font-size: 0.95rem;
+            
+            
+            
             }
-            .section h2 {
-                font-size: 1.2rem;
-            }
-            .section h3 {
-                font-size: 1.1rem;
-            }
-            }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
     </style>
 </head>
 <body>

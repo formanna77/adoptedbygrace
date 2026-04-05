@@ -37,8 +37,7 @@
     
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+
 .skip-link {
             position: absolute; top: -100px; left: 0; background: var(--accent-gold);
             color: var(--bg-deep); padding: 8px 16px; z-index: 10000; font-weight: 600;
@@ -53,12 +52,7 @@ html { scroll-behavior: smooth; }
 .page-header .subtitle {
             font-size: 20px; color: var(--text-secondary); font-style: italic; margin-bottom: 24px;
         }
-.breadcrumb {
-            max-width: 1200px; margin: 0 auto; padding: 20px 40px;
-            font-size: 13px; color: var(--text-muted);
-        }
-.breadcrumb a { color: var(--accent-gold); text-decoration: none; transition: color 0.3s; }
-.breadcrumb a:hover { color: var(--accent-ember); }
+
 .page-meta {
             max-width: 1200px; margin: 40px auto; padding: 0 40px;
             display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;
@@ -90,11 +84,7 @@ html { scroll-behavior: smooth; }
 .section-nav a:hover, .section-nav a.active {
             color: var(--accent-gold); border-left-color: var(--accent-gold);
         }
-.main-content h2 {
-            font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 700;
-            color: var(--accent-gold); margin-top: 60px; margin-bottom: 24px;
-            padding-top: 40px; border-top: 1px solid var(--border-subtle); scroll-margin-top: 100px;
-        }
+.main-content 
 .main-content h2:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
 .main-content h3 {
             font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 600;
@@ -103,11 +93,7 @@ html { scroll-behavior: smooth; }
 .main-content p { margin-bottom: 20px; color: var(--text-primary); }
 .main-content a { color: var(--accent-gold); text-decoration: underline; transition: color 0.3s; }
 .main-content a:hover { color: var(--accent-ember); }
-.scripture-block { display: block;
-            background-color: var(--bg-card); border-left: 4px solid var(--accent-violet);
-            padding: 24px; margin: 32px 0; border-radius: 4px;
-            font-size: 16px; line-height: 1.9; font-style: italic; color: var(--text-secondary);
-        }
+
 .scripture-block .ref {
             display: block; font-style: normal; color: var(--accent-gold);
             margin-top: 12px; font-size: 13px; font-weight: 600;
@@ -151,7 +137,7 @@ html { scroll-behavior: smooth; }
             max-width: 900px; margin: 80px auto 0; padding: 60px 40px;
             border-top: 1px solid var(--border-subtle); text-align: center;
         }
-.continue-exploring h2 { margin-top: 0; border-top: none; padding-top: 0; }
+.continue-exploring 
 .explore-grid {
             display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 24px; margin-top: 40px;
@@ -169,13 +155,13 @@ html { scroll-behavior: smooth; }
 .explore-link .explore-title { font-weight: 600; font-size: 15px; }
 @media (max-width: 768px) {
             .page-header { padding: 40px 20px; }
-            .page-header h1 { font-size: 32px; }
+            .page-header 
             .page-header .subtitle { font-size: 16px; }
-            .breadcrumb { padding: 16px 20px; }
+            
             .page-meta { padding: 0 20px; grid-template-columns: 1fr 1fr; }
             .section-nav-sidebar { padding: 0 20px; }
             .main-content { padding: 40px 20px; }
-            .main-content h2 { font-size: 28px; }
+            .main-content 
             .main-content h3 { font-size: 19px; }
             .continue-exploring { padding: 40px 20px; }
             .explore-grid { grid-template-columns: 1fr; }

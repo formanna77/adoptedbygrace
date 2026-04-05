@@ -23,11 +23,7 @@
             <link rel="stylesheet" href="/global.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-* {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+
 /* Reading Progress Bar */
         .progress-bar {
             position: fixed;
@@ -39,22 +35,8 @@
             z-index: 1001;
         }
 /* Breadcrumb */
-        .breadcrumb {
-            max-width: 1200px; width: 100%;
-            margin: 0 auto;
-            padding: 1.5rem 2rem;
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            border-bottom: 1px solid var(--border-subtle);
-        }
-.breadcrumb a {
-            color: var(--accent-gold);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-.breadcrumb a:hover {
-            color: var(--accent-ember);
-        }
+        
+
 /* Hero Section */
         
 .hero-series-label {
@@ -74,14 +56,7 @@
             content: '—';
             flex: 0 0 2rem;
         }
-.hero-subtitle {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            margin-bottom: 2rem;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+
 .source-link {
             display: inline-block;
             padding: 0.8rem 1.5rem;
@@ -137,10 +112,7 @@
             margin: 0 auto;
             padding: 0 2rem;
         }
-.section {
-            margin: 4rem auto;
-            padding: 0;
-        }
+
 .section-number {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
@@ -149,19 +121,7 @@
             letter-spacing: 0.15em;
             margin-bottom: 0.5rem;
         }
-.section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            color: var(--accent-gold);
-            margin-bottom: 2rem;
-        }
-.section h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            color: var(--text-primary);
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-        }
+
 .claim-box {
             background: var(--bg-card);
             border: 2px solid var(--accent-ember);
@@ -214,15 +174,7 @@
             color: var(--accent-violet);
             font-style: italic;
         }
-.scripture-block { display: block;
-            background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(212, 162, 84, 0.05));
-            border-left: 4px solid var(--accent-gold);
-            padding: 1.5rem;
-            margin: 2rem 0;
-            font-style: italic;
-            color: var(--text-secondary);
-            border-radius: 4px;
-        }
+
 .scripture-citation {
             display: block;
             text-align: right;
@@ -261,20 +213,8 @@
             letter-spacing: 0.05em;
         }
 /* Cross-links */
-        .cross-links {
-            background: var(--bg-card);
-            border: 1px solid var(--border-subtle);
-            padding: 2rem;
-            margin: 4rem auto;
-            border-radius: 4px;
-            max-width: 800px;
-        }
-.cross-links h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.2rem;
-            color: var(--accent-gold);
-            margin-bottom: 1.5rem;
-        }
+        
+
 .cross-links-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -338,33 +278,19 @@
         }
 /* Back to Top Button */@media (max-width: 768px) {
 
-            .breadcrumb {
-                padding: 1rem 1.5rem;
-                font-size: 0.8rem;
-            }
+            
+
+            
 
             
 
             
 
-            .hero-subtitle {
-                font-size: 0.95rem;
-            }
+            
 
-            .section {
-                padding: 0 1.2rem;
-                margin-bottom: 2.5rem;
-            }
+            
 
-            .section h2 {
-                font-size: 1.3rem;
-                margin-bottom: 1rem;
-                margin-top: 2rem;
-            }
-
-            .section h3 {
-                font-size: 1rem;
-            }
+            
 
             .fact-card {
                 padding: 1.2rem;
@@ -394,40 +320,24 @@
         }
 @media (max-width: 480px) {
 
-            .breadcrumb {
-                padding: 0.8rem 1rem;
-                font-size: 0.75rem;
-            }
-
             
 
             
 
-            .hero-subtitle {
-                font-size: 0.85rem;
-                margin-bottom: 1rem;
-            }
+            
+
+            
 
             .source-link {
                 font-size: 0.75rem;
                 padding: 0.3rem 0.8rem;
             }
 
-            .section {
-                padding: 0 0.8rem;
-                margin-bottom: 2rem;
-            }
+            
 
-            .section h2 {
-                font-size: 1.1rem;
-                margin-top: 1.2rem;
-                margin-bottom: 0.8rem;
-            }
+            
 
-            .section h3 {
-                font-size: 0.95rem;
-                margin-top: 0.8rem;
-            }
+            
 
             .fact-card {
                 padding: 1rem;
@@ -470,8 +380,7 @@
 
             
         }
-a:focus-visible { outline-offset: 3px; }
-button:focus-visible, .tab-btn:focus-visible, .verse-badge:focus-visible { outline-offset: 2px; }
+
     </style>
 </head>
 <body>
