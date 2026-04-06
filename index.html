@@ -238,6 +238,34 @@
             margin-top: 0.4rem;
         }
 
+        /* ===== THROUGH THE AGES — TIMELINE + THEOLOGIANS ===== */
+        .through-ages-section {
+            padding: 6rem 2rem 4rem;
+            position: relative;
+            background: linear-gradient(180deg, var(--bg-deep) 0%, rgba(212, 162, 84, 0.03) 50%, var(--bg-deep) 100%);
+        }
+        .through-ages-section::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+            opacity: 0.4;
+        }
+        .cloud-witnesses-section {
+            padding: 5rem 2rem 4rem;
+            position: relative;
+            background: linear-gradient(180deg, var(--bg-deep) 0%, rgba(139, 92, 246, 0.02) 50%, var(--bg-deep) 100%);
+        }
+        .cloud-witnesses-section::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+            opacity: 0.3;
+        }
+
         /* ===== CROWN JEWEL SECTION ===== */
         .crown-jewel-section { padding: 5rem 2rem; position: relative; overflow: hidden; text-align: center; background: linear-gradient(135deg, rgba(232, 100, 44, 0.06) 0%, rgba(139, 92, 246, 0.04) 50%, rgba(212, 162, 84, 0.06) 100%); }
         .crown-jewel-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent 10%, var(--accent-ember), var(--accent-gold), var(--accent-ember), transparent 90%); opacity: 0.6; }
@@ -315,6 +343,8 @@
             .total-number { font-size: 3.5rem; }
             .explorer-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.8rem; }
             .healing-grid { grid-template-columns: repeat(3, 1fr); }
+            .through-ages-section { padding: 3rem 1.5rem 2rem; }
+            .cloud-witnesses-section { padding: 3rem 1.5rem 2rem; }
             .crown-jewel-section { padding: 3rem 1.5rem; }
             .crown-jewel-headline { font-size: 2rem; }
             .crown-jewel-body { font-size: 1rem; }
@@ -348,6 +378,8 @@
             .healing-grid { grid-template-columns: repeat(3, 1fr); gap: 0.6rem; }
             .healing-tile .tile-count { font-size: 1.6rem; }
             .healing-tile .tile-name { font-size: 0.7rem; }
+            .through-ages-section { padding: 2rem 1rem 1.5rem; }
+            .cloud-witnesses-section { padding: 2rem 1rem 1.5rem; }
             .crown-jewel-section { padding: 2rem 1rem; }
             .crown-jewel-headline { font-size: 1.6rem; }
             .explore-section { padding: 2rem 1rem; }
@@ -673,6 +705,277 @@ body {
                     <span class="tile-name">The Shattered Lens</span>
                 </a>
             </div>
+        </div>
+    </section>
+
+    <!-- ===== THROUGH THE AGES — CHURCH HISTORY TIMELINE ===== -->
+    <section class="through-ages-section">
+        <div class="reveal">
+            <div class="section-eyebrow">Through the Ages</div>
+            <h2 class="section-title" style="background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">The Golden Thread</h2>
+            <p class="section-subtitle">2,000 years of sovereign grace — preserved through persecution, rediscovered in reformation, and proclaimed to this day. The truth was never invented. It was always there.</p>
+        </div>
+
+        <div class="timeline-section" style="padding-top: 1rem;">
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">I</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">AD 33–100</div>
+                            <h3>The Apostolic Foundation</h3>
+                            <p>Paul planted the seeds of sovereign grace in every epistle, establishing the eternal basis for redemption. The foundational truths of election, predestination, and free grace were woven into the very fabric of New Testament theology.</p>
+                            <a href="/history-apostolic.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">II</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">AD 354–430</div>
+                            <h3>Augustine vs. Pelagius</h3>
+                            <p>The first great battle for grace alone. Augustine's defense of predestination against Pelagian humanism became the watershed moment that preserved grace theology when the church was tempted to trust human capacity.</p>
+                            <a href="/history-augustine-pelagius.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">AD 529</div>
+                            <h3>The Council of Orange</h3>
+                            <p>The church formally condemned semi-Pelagianism — the belief that humans take the first step toward God. Nearly 1,500 years later, most evangelical churches teach the exact position this council declared heretical.</p>
+                            <a href="/history-council-of-orange.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">III</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">AD 800–1400</div>
+                            <h3>Medieval Preservation</h3>
+                            <p>Gottschalk, Bradwardine, Wycliffe — the embers that never died. Even in the darkness of medieval scholasticism, God raised up voices to contend for predestination, keeping the thread alive through centuries of eclipse.</p>
+                            <a href="/history-medieval.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">IV</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1517</div>
+                            <h3>Luther's Breakthrough</h3>
+                            <p>The rediscovery of justification by faith alone shattered the chains of works-righteousness. Luther's recovery of Augustinian grace theology became the spark that ignited the entire Reformation.</p>
+                            <a href="/history-luther.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">V</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1536–1564</div>
+                            <h3>Calvin and Geneva</h3>
+                            <p>The systematic articulation of sovereign grace. Calvin's <em>Institutes</em> became the theological backbone of Reformed Christianity, presenting predestination not as a dark mystery but as the profound comfort of God's benevolent rule.</p>
+                            <a href="/history-calvin-geneva.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">VI</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1618–1619</div>
+                            <h3>The Synod of Dort</h3>
+                            <p>When Arminianism threatened to undermine grace, the Synod of Dort crystallized the five points, permanently anchoring Reformed theology in Scripture and defending God's absolute sovereignty in salvation.</p>
+                            <a href="/history-dort.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">VII</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1600–1700</div>
+                            <h3>The Puritans</h3>
+                            <p>Owen, Bunyan, Goodwin — the golden age of Reformed devotion. The Puritans transformed grace theology into passionate, practical piety, proving that precision and deep spirituality are inseparable fruits of the Spirit's work.</p>
+                            <a href="/history-puritans.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">VIII</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1730–1770</div>
+                            <h3>The Great Awakening</h3>
+                            <p>Edwards, Whitefield — sovereign grace in revival fire. The Great Awakening demonstrated that God's absolute sovereignty and human revival are not contradictory but complementary, as the Spirit broke in with power.</p>
+                            <a href="/history-great-awakening.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">IX</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1834–1892</div>
+                            <h3>Spurgeon &amp; the Downgrade</h3>
+                            <p>Standing for sovereign grace when the church drifted. Spurgeon's unflinching defense of predestination and biblical authority proved that conviction and compassion need never be enemies.</p>
+                            <a href="/history-spurgeon-downgrade.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">X</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">1939–2000</div>
+                            <h3>The 20th Century Recovery</h3>
+                            <p>Lloyd-Jones, Sproul — the Reformed resurgence. After decades of theological erosion, God raised up prophetic voices to recover the truths of grace with scholarly precision and evangelical passion.</p>
+                            <a href="/history-20th-century.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-chapter-marker">XI</div>
+                        <div class="timeline-card">
+                            <div class="timeline-era-label">2000–Present</div>
+                            <h3>Today</h3>
+                            <p>The resurgence of Reformed theology in the internet age. A new generation of believers is discovering the joy of sovereign grace. The golden thread continues to shine brighter than ever, reaching the elect across digital highways.</p>
+                            <a href="/history-today.html" class="timeline-link">Read the full chapter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem; padding-bottom: 1rem;">
+            <a href="/history-timeline" class="btn-secondary" style="color: #f5eedc;">Explore the Full Timeline →</a>
+        </div>
+    </section>
+
+    <!-- ===== THE CLOUD OF WITNESSES — THEOLOGIANS ===== -->
+    <section class="cloud-witnesses-section">
+        <div class="reveal">
+            <div class="section-eyebrow">The Cloud of Witnesses</div>
+            <h2 class="section-title" style="background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">The Men God Raised Up</h2>
+            <p class="section-subtitle">From Augustine's thundering defense against Pelagius to Spurgeon's fire from the Metropolitan Tabernacle — these are the voices that shaped the truths of grace. Their legacy endures.</p>
+        </div>
+
+        <div class="hub-container" style="padding-top: 1rem;">
+
+            <h2 class="hub-section-title">The Patristic Era</h2>
+            <p class="hub-section-subtitle">4th–5th Century — When Grace Defeated Heresy</p>
+            <div class="hub-grid">
+                <a href="/theologian-augustine" class="hub-card hub-card-featured">
+                    <div class="card-number">354–430</div>
+                    <h3 class="card-title">Augustine of Hippo</h3>
+                    <p class="card-description">The Doctor of Grace. Defeated Pelagianism by proving that salvation is God's work from beginning to end, and that man contributes nothing but rebellion.</p>
+                    <div class="card-scripture">"Give what You command, and command what You will."</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+            </div>
+
+            <h2 class="hub-section-title">The Reformation</h2>
+            <p class="hub-section-subtitle">16th Century — The Recovery of Scripture</p>
+            <div class="hub-grid">
+                <a href="/theologian-luther" class="hub-card">
+                    <div class="card-number">1483–1546</div>
+                    <h3 class="card-title">Martin Luther</h3>
+                    <p class="card-description">The Hammer of Rome. The man who shook Christendom by proving that Rome's system was not Christianity. His "Bondage of the Will" stands as one of the greatest treatises on human depravity.</p>
+                    <div class="card-scripture">"Here I stand; I can do no other. God help me."</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+                <a href="/theologian-calvin" class="hub-card">
+                    <div class="card-number">1509–1564</div>
+                    <h3 class="card-title">John Calvin</h3>
+                    <p class="card-description">The Theologian of the Holy Spirit. The brilliant systematizer who organized Reformed theology into the Institutes — a masterwork that defined the truths of grace for centuries.</p>
+                    <div class="card-scripture">"We are not our own; therefore neither our reason nor our will should predominate."</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+                <a href="/theologian-arminius" class="hub-card">
+                    <div class="card-number">1559–1609</div>
+                    <h3 class="card-title">Jacobus Arminius</h3>
+                    <p class="card-description">The Man Behind the Movement. The theologian whose well-intentioned errors spawned the greatest heresy against grace in the modern church. Examined here not to condemn, but to dismantle.</p>
+                    <div class="card-scripture">"Know your adversary — not to hate him, but to dismantle him."</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+            </div>
+
+            <h2 class="hub-section-title">The Puritan Era</h2>
+            <p class="hub-section-subtitle">17th Century — Grace Applied to the Soul</p>
+            <div class="hub-grid">
+                <a href="/theologian-owen" class="hub-card hub-card-featured">
+                    <div class="card-number">1616–1683</div>
+                    <h3 class="card-title">John Owen</h3>
+                    <p class="card-description">The Theologian's Theologian. His "Death of Death in the Death of Christ" remains the definitive defense of definite atonement. Profound, unstoppable, devastating.</p>
+                    <div class="card-scripture">"Be killing sin, or it will be killing you."</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+                <a href="/theologian-boston" class="hub-card">
+                    <div class="card-number">1676–1732</div>
+                    <h3 class="card-title">Thomas Boston</h3>
+                    <p class="card-description">The Marrow Theologian. The Scottish pastor who recovered a lost jewel — the Marrow of Modern Divinity — and sparked a revival of grace-centered preaching across Scotland.</p>
+                    <div class="card-scripture">"Grace found us beggars but always leaves us debtors."</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+                <a href="/theologian-bunyan" class="hub-card">
+                    <div class="card-number">1628–1688</div>
+                    <h3 class="card-title">John Bunyan</h3>
+                    <p class="card-description">The Tinker of Bedford. The unlettered tinker who wrote the most famous allegory in Christian history. His "Pilgrim's Progress" taught the truths of grace to millions.</p>
+                    <div class="card-scripture">"Far better news the gospel brings: it bids us fly and gives us wings."</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+            </div>
+
+            <h2 class="hub-section-title">The Great Awakening</h2>
+            <p class="hub-section-subtitle">18th Century — When God Shook Two Continents</p>
+            <div class="hub-grid">
+                <a href="/theologian-edwards" class="hub-card hub-card-featured">
+                    <div class="card-number">1703–1758</div>
+                    <h3 class="card-title">Jonathan Edwards</h3>
+                    <p class="card-description">America's Greatest Theologian. His works on the will, affections, and revival shaped the Great Awakening and remain the standard for Reformed theology of the human will.</p>
+                    <div class="card-scripture">"The happiness of the creature consists in rejoicing in God."</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+                <a href="/theologian-whitefield" class="hub-card">
+                    <div class="card-number">1714–1770</div>
+                    <h3 class="card-title">George Whitefield</h3>
+                    <p class="card-description">The Grand Itinerant. The fiery revivalist who proclaimed Reformed theology to tens of thousands across the Atlantic. His sermons still burn with conviction.</p>
+                    <div class="card-scripture">"I embrace the Calvinistic scheme, not because Calvin, but Jesus Christ has taught it to me."</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+            </div>
+
+            <h2 class="hub-section-title">The Victorian Era</h2>
+            <p class="hub-section-subtitle">19th Century — Grace From the Pulpit</p>
+            <div class="hub-grid">
+                <a href="/theologian-spurgeon" class="hub-card hub-card-featured">
+                    <div class="card-number">1834–1892</div>
+                    <h3 class="card-title">Charles Haddon Spurgeon</h3>
+                    <p class="card-description">The Prince of Preachers. From the Metropolitan Tabernacle, he proclaimed the truths of grace to thousands every week with unmatched power, clarity, and fire.</p>
+                    <div class="card-scripture">"There is no such thing as preaching Christ and Him crucified, unless we preach what nowadays is called Calvinism."</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem; padding-bottom: 1rem;">
+            <a href="/theologians" class="btn-secondary" style="color: #f5eedc;">Meet the Full Cloud of Witnesses →</a>
         </div>
     </section>
 
