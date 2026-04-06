@@ -5670,6 +5670,10 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .result-snippet { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5; }
 
 /* ── CONNECTIONS / VERSE ANCHORS (connections.html) ── */
+/* Override generic .section-divider (1px line) when used as a section header container on connections page */
+.article-body .section-divider:has(h2) { height: auto; opacity: 1; background: transparent; text-align: center; padding: 3rem 1rem 1.5rem; margin: 2rem 0 1rem; }
+.article-body .section-divider h2 { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.8rem; margin-bottom: 0.5rem; }
+.article-body .section-divider p { color: var(--text-secondary); max-width: 700px; margin: 0 auto; line-height: 1.7; }
 .verse-anchor { scroll-margin-top: 100px; }
 .connection-header { display: flex; justify-content: space-between; align-items: center; padding: 1rem; cursor: pointer; }
 .connection-ref { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.2rem; }
