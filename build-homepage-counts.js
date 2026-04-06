@@ -29,7 +29,7 @@ const SKIP = new Set([
   'systematic-theology.html', 'devotionals.html', 'stories.html',
   'ot-hub.html', 'history-timeline.html', 'secular-evidence.html',
   'philosophy-hub.html', 'theologians.html', 'analogies-illustrations.html',
-  'comparisons-hub.html', 'start-here.html', 'essays.html', 'pastoral-hub.html',
+  'comparisons-hub.html', 'start-here.html', 'essays.html', 'pastoral-hub.html', 'joy-hub.html',
   'creeds-confessions.html',
   // Healing hub pages
   'anxious-mind-hub.html', 'broken-mirror-hub.html', 'open-wound-hub.html',
@@ -42,14 +42,14 @@ const CATEGORIES = [
   { href: '/demolition-hub', patterns: [/^demolition-/, /^counter-/] },
   { href: '/psychology-hub', patterns: [/^psychology-/, /^resistance-/] },
   { href: '/systematic-theology', patterns: [/^systematic-/] },
-  { href: '/devotionals', patterns: [/^devotional-/] },
+  { href: '/devotionals', patterns: [/^devotional-/, /^hymn-/] },
   { href: '/stories', patterns: [/^story-/, /^analogy-/] },
   { href: '/questions#objections', patterns: [/^objection-/] },
   { href: '/ot-hub', patterns: [/^ot-/, /^psalm-/, /^psalms-/] },
   { href: '/history-timeline', patterns: [/^history-/, /^creed-/, /^canons-/, /^westminster-/, /^heidelberg-/] },
   { href: '/secular-evidence', patterns: [/^secular-/] },
   { href: '/philosophy-hub', patterns: [/^philosophy-/] },
-  { href: '/theologians', patterns: [/^theologian-/, /^hymn-/] },
+  { href: '/theologians', patterns: [/^theologian-/] },
   // Analogies merged into /stories — { href: '/analogies-illustrations' } is retired
   { href: '/comparisons-hub', patterns: [/^compare-/, /^comparison-/] },
   { href: '/start-here', patterns: [/^start-here-/, /^phase-/, /^scripture-tsunami/] },
@@ -59,6 +59,8 @@ const CATEGORIES = [
   { href: '/open-wound-hub', patterns: [/^open-wound-/] },
   { href: '/invisible-wall-hub', patterns: [/^invisible-wall-/] },
   { href: '/shattered-lens-hub', patterns: [/^shattered-lens-/] },
+  { href: '/pastoral-hub', patterns: [/^pastoral-/, /^for-pastors/, /^just-realized/] },
+  { href: '/joy-hub', patterns: [/^joy-/] },
 ];
 
 // Get all article HTML files
