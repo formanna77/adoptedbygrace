@@ -394,7 +394,7 @@
                     name: 'Church History',
                     icon: '⏳',
                     href: '/history-timeline',
-                    count: 16,
+                    count: 17,
                     pages: [
                         { name: '20th Century Reformed Resurgence', href: '/history-20th-century', desc: 'The liberal decline, the Reformed comeback, and sovereign grace rediscovered. J. Gresham Machen, Martyn Lloyd-Jones, R.C' },
                         { name: 'John Calvin in Geneva: The Man Behind the Reformation\'s Theology', href: '/history-calvin-geneva', desc: 'John Calvin and Geneva: The Institutes of the Christian Religion, Geneva as a city on a hill, TULIP crystallized, and Ca' },
@@ -411,6 +411,7 @@
                         { name: 'The Synod of Dort: How the Church Defended Grace Against Works', href: '/history-dort', desc: 'Discover how the Synod of Dort crystallized the Five Points of Calvinism in response to Arminianism. The moment when the' },
                         { name: 'The Trial That Saved Christianity: Augustine vs Pelagius', href: '/history-augustine-pelagius', desc: 'The theological clash that shaped Christianity: Augustine' },
                         { name: 'The Truths of Grace Today', href: '/history-today', desc: 'Where sovereign grace stands now. Global spread of Reformed theology. Africa, Asia, Latin America. The digital reformati' },
+                        { name: 'Whitefield vs. Wesley — Two Revivals, One Question: Where Does Faith Come From?', href: '/history-whitefield-wesley', desc: 'George Whitefield and John Wesley both shook nations with revival fire — but they disagreed on the one question that mat' },
                         { name: 'Written in Blood and Fire — The Story of the Reformed Confessions', href: '/history-confessions-story', desc: 'The dramatic stories behind the Reformed confessions: how martyrs, assemblies, and pastors forged the Heidelberg Catechi' }
                     ]
                 },
@@ -773,7 +774,11 @@
             html += '<div class="mega-menu-back" data-umbrella="' + umbrellaIndex + '">← Back to ' + escapeHtml(umbrella.umbrella) + '</div>';
         }
 
-        html += '<div class="mega-menu-detail-title">' + subcat.icon + ' ' + escapeHtml(subcat.name) + '</div>';
+        if (subcat.href) {
+            html += '<a href="' + escapeAttr(subcat.href) + '" class="mega-menu-detail-title mega-menu-hub-link">' + subcat.icon + ' ' + escapeHtml(subcat.name) + ' <span class="mega-menu-hub-arrow">→</span></a>';
+        } else {
+            html += '<div class="mega-menu-detail-title">' + subcat.icon + ' ' + escapeHtml(subcat.name) + '</div>';
+        }
         html += '<div class="mega-menu-detail-desc">' + subcat.count + ' articles</div>';
 
         html += '<div class="mega-menu-subcat-pages">';
@@ -786,10 +791,8 @@
         }
         html += '</div>';
 
-        if (subcat.pages.length > maxShow) {
-            html += '<a href="' + escapeAttr(subcat.href) + '" class="mega-menu-view-all-subcat">View all ' + subcat.count + ' articles in ' + escapeHtml(subcat.name) + ' →</a>';
-        } else if (subcat.href) {
-            html += '<a href="' + escapeAttr(subcat.href) + '" class="mega-menu-view-all-subcat">Go to ' + escapeHtml(subcat.name) + ' hub →</a>';
+        if (subcat.pages.length > maxShow && subcat.href) {
+            html += '<a href="' + escapeAttr(subcat.href) + '" class="mega-menu-view-all-subcat">+ ' + (subcat.count - maxShow) + ' more →</a>';
         }
 
         rightPanel.innerHTML = html;
@@ -836,17 +839,19 @@
 
             html += '<div class="mobile-accordion-umbrella">';
             html += '<div class="mobile-accordion-header" data-umbrella-index="' + i + '">';
-            html += '<span class="mobile-accordion-icon">' + umbrella.icon + '</span>';
-            html += '<span class="mobile-accordion-umbrella-name">' + escapeHtml(umbrella.umbrella) + '</span>';
+            if (umbrella.href) {
+                html += '<a href="' + escapeAttr(umbrella.href) + '" class="mobile-accordion-name-link" onclick="event.stopPropagation();">';
+                html += '<span class="mobile-accordion-icon">' + umbrella.icon + '</span>';
+                html += '<span class="mobile-accordion-umbrella-name">' + escapeHtml(umbrella.umbrella) + '</span>';
+                html += '</a>';
+            } else {
+                html += '<span class="mobile-accordion-icon">' + umbrella.icon + '</span>';
+                html += '<span class="mobile-accordion-umbrella-name">' + escapeHtml(umbrella.umbrella) + '</span>';
+            }
             html += '<span class="mobile-accordion-umbrella-count">' + totalPages + '</span>';
             html += '<span class="chevron">▼</span>';
             html += '</div>';
             html += '<div class="mobile-accordion-subcats" id="' + umbrellaId + '">';
-
-            // Hub page link (first item in expanded umbrella)
-            if (umbrella.href) {
-                html += '<a href="' + escapeAttr(umbrella.href) + '" class="mobile-accordion-hub-link">' + umbrella.icon + ' View ' + escapeHtml(umbrella.umbrella) + ' Hub →</a>';
-            }
 
             // LEVEL 2: Show subcategory names as clickable items (no articles yet)
             for (var s = 0; s < umbrella.subcategories.length; s++) {
@@ -870,10 +875,10 @@
                     var page = subcat.pages[p];
                     html += '<a href="' + escapeAttr(page.href) + '" class="mobile-accordion-page">' + escapeHtml(page.name) + '</a>';
                 }
-                if (subcat.pages.length > mobileMax) {
-                    html += '<a href="' + escapeAttr(subcat.href) + '" class="mobile-accordion-view-all-subcat">View all ' + subcat.count + ' articles →</a>';
-                } else if (subcat.href) {
-                    html += '<a href="' + escapeAttr(subcat.href) + '" class="mobile-accordion-view-all-subcat">Go to ' + escapeHtml(subcat.name) + ' →</a>';
+                if (subcat.href) {
+                    var moreCount = subcat.pages.length > mobileMax ? subcat.count - mobileMax : 0;
+                    var linkText = moreCount > 0 ? 'See all ' + subcat.count + ' →' : 'Explore ' + escapeHtml(subcat.name) + ' →';
+                    html += '<a href="' + escapeAttr(subcat.href) + '" class="mobile-accordion-view-all-subcat">' + linkText + '</a>';
                 }
                 html += '</div>';
                 html += '</div>';

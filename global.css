@@ -838,23 +838,21 @@ a.mega-menu-hub-link:hover .mega-menu-hub-arrow {
     color: var(--accent-ember);
 }
 
-.mobile-accordion-hub-link {
-    display: block;
-    padding: 0.8rem 1rem;
-    margin-bottom: 0.3rem;
-    color: var(--accent-gold);
-    background: rgba(212, 162, 84, 0.08);
-    border: 1px solid rgba(212, 162, 84, 0.15);
-    border-radius: 6px;
+/* Legacy hub link — replaced by .mobile-accordion-name-link */
+.mobile-accordion-hub-link { display: none; }
+
+.mobile-accordion-name-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     text-decoration: none;
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
+    color: inherit;
+    flex: 1;
+    min-width: 0;
 }
 
-.mobile-accordion-hub-link:active {
-    color: var(--accent-ember);
-    background: rgba(232, 100, 44, 0.1);
+.mobile-accordion-name-link:active {
+    color: var(--accent-gold);
 }
 
 /* ===== MOBILE ACCORDION STYLES (OLD - COMPATIBILITY) ===== */
@@ -905,6 +903,8 @@ a.mega-menu-hub-link:hover .mega-menu-hub-arrow {
     transition: transform 0.3s ease;
     color: var(--text-muted);
     font-size: 0.65rem;
+    padding: 0.4rem;
+    border-radius: 4px;
 }
 
 .mobile-accordion-header.open .chevron {
