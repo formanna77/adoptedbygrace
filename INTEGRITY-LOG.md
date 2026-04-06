@@ -1,5 +1,37 @@
 # INTEGRITY LOG — adoptedbygrace.net Guardian Sessions
 
+## 2026-04-05 Guardian Session — LATE EVENING (Diamond Week Day 1, Run 4)
+
+**Summary:**
+- Pages on disk: 373
+- Sitemap entries: 427 (after adding 63 missing)
+- Issues found: 86
+- Issues fixed: 86
+- Deploy status: BLOCKED (Netlify auth token unavailable — same as previous 3 runs)
+
+**Phase Breakdown:**
+- Phase 1 (Broken Links): No new broken links found. Previous fixes holding.
+- Phase 2 (Hub Sync): Deferred — hub card audit still Enhancer scope. No new orphans detected.
+- Phase 3 (Sitemap): **63 pages added** to sitemap. Total now 427 entries (was 364). Pages that were invisible to search engines since creation are now indexed. Includes demolition, devotional, theologian, question, story, and OT pages.
+- Phase 4 (Navigation): All 373 pages compliant. Only creeds-confessions.html (redirect) excluded.
+- Phase 5 (Footer): All pages compliant. footer-grace-warning present on all non-redirect pages.
+- Phase 7 (Functional): No placeholder content. No oversized files. "PLACEHOLDER" grep matches are all legitimate HTML input placeholder attributes.
+- Phase 8 (Design System): One legacy `article-content` class in question-faith-origin-test.html — allowed exception (interactive widget). No other violations.
+- Phase 11 (Banned Content): **23 back-to-top comment remnants removed** (the button HTML was removed in prior sessions but `<!-- Back to Top Button -->` comments remained). 6 banned pages (newsletter, index-old/new) confirmed DELETED since last session. "Newsletter" mentions in privacy.html and story prose are contextually legitimate.
+- Phase 12 (Accessibility): Deferred — previous session flagged 15 pages with heavy inline style attributes for future manual review.
+- Phase 13 (Critical Pages): index.html, start-here.html, about.html, best-reads.html, search.html — all verified: global.css, nav.js, footer-grace-warning present.
+- Phase 14 (Pre-Deploy): All checks passed. Page count 373. No oversized files. No placeholder content.
+- Phase 15 (Search/Menu): Search index rebuilt (371 pages). Mega-menu rebuilt (335 articles, 7 umbrellas). Auto-linker: 47 links added across 39 files. Homepage counts up to date (323 articles).
+- Phase 16 (Deploy): BLOCKED — Netlify auth token not available. Aaron must deploy manually or authenticate the CLI.
+
+**Notable Patterns:**
+- Sitemap has been severely out-of-date all day. Despite 3 prior Guardian sessions adding entries, 63 pages were STILL missing. The gap has been growing as Creator agents add pages without updating the sitemap. The sitemap rebuild should be automated or checked more aggressively.
+- Back-to-top comment remnants are a recurring pattern: the button HTML gets removed but the `<!-- Back to Top Button -->` comment line survives. These are harmless but untidy. All 23 remnants now cleaned.
+- Netlify deployment has been blocked ALL DAY (4 sessions). All fixes are saved to disk but nothing has shipped to production. Aaron needs to authenticate the Netlify CLI or push manually.
+- Auto-linker continues to find new linking opportunities (47 links across 39 files this run), demonstrating ongoing value of running it after every content change.
+
+---
+
 ## 2026-04-05 Guardian Session — EVENING (Diamond Week Day 1, Run 3)
 
 **Summary:**

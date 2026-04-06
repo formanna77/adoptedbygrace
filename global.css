@@ -2669,9 +2669,15 @@ body {
 /* History Timeline — Mobile responsive */
 @media (max-width: 768px) {
     .chronicle-stats { flex-direction: column; gap: 1.5rem; margin-top: 1.5rem; }
-    .timeline-chapter-marker { display: none; }
-    .timeline-line { left: 16px; }
-    .timeline { padding-left: 60px; }
+    .timeline-chapter-marker {
+        width: 44px;
+        height: 44px;
+        font-size: 0.85rem;
+        left: -62px;
+    }
+    .timeline-section { padding: 0 1.2rem; }
+    .timeline-line { left: 22px; }
+    .timeline { padding-left: 70px; }
     .timeline-item { margin-bottom: 3rem; }
     .thread-section { padding: 2.5rem 1.5rem; }
     .thread-section h2 { font-size: 1.8rem; }
@@ -2681,9 +2687,16 @@ body {
 @media (max-width: 480px) {
     .hero-quote { padding: 1rem; font-size: 0.95rem; }
     .chronicle-stats { gap: 1rem; font-size: 0.8rem; }
-    .timeline-line { left: 12px; }
-    .timeline { padding-left: 50px; }
-    .timeline-card { padding: 1.5rem; }
+    .timeline-chapter-marker {
+        width: 38px;
+        height: 38px;
+        font-size: 0.75rem;
+        left: -54px;
+    }
+    .timeline-section { padding: 0 0.8rem; }
+    .timeline-line { left: 18px; }
+    .timeline { padding-left: 60px; }
+    .timeline-card { padding: 1.2rem; }
     .timeline-card h3 { font-size: 1.3rem; }
     .timeline-era-label { font-size: 0.7rem; }
     .thread-section { padding: 1.5rem; }
