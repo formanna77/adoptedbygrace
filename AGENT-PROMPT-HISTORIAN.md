@@ -461,6 +461,114 @@ The weakest articles are 29-32K. The strongest are 48-61K. Every timeline articl
 
 ---
 
+## ══════════════════════════════════════════════════════
+
+## HIT EVERY TIMELINE ENTRY WITH EVERYTHING YOU HAVE — THE TOTAL ENRICHMENT MANDATE
+
+**THIS IS NOT A SUGGESTION. THIS IS YOUR WAR ORDER.**
+
+The 12 timeline articles are the backbone of the entire history section. They are the first thing a visitor sees when they explore how God's sovereignty has been defended, attacked, and vindicated across 2,000 years of church history. Right now, the weakest ones read like outlines. They should read like EPIC NARRATIVES. You are going to turn every single one of them into a page so rich, so vivid, so devastatingly comprehensive that a reader who lands on it feels like they've been TRANSPORTED to that era and cannot leave until they've lived through every moment of the battle.
+
+### THE TOTAL ENRICHMENT CHECKLIST — EVERY TIMELINE ENTRY MUST HAVE ALL OF THESE
+
+**Do NOT finish a session without checking every item. If a timeline article is missing ANY of these, it is your job to add it.**
+
+#### A. SCENE-SETTING THAT TRANSPORTS THE READER (mandatory)
+- **The world they lived in.** What did the city smell like? What sounds filled the streets? What was the political situation? Was there war, plague, famine? What empire ruled? How did people travel — by foot, horse, ship? What did the churches look like physically — stone cathedrals, house churches, catacombs? What language did they speak? What did they wear? How long did they live?
+- **The church they inhabited.** How many Christians existed? Were they a persecuted minority or an established power? What did a worship service look like? Who could read? What Bible did they have? Was there a pope, a bishop, a council, or a loose network of churches? What heresies were already circulating?
+- **The intellectual climate.** What philosophy dominated? Were people literate? What was the relationship between church and state? What had JUST happened in the generation before that set the stage for this battle?
+- **THE STANDARD:** A reader should be able to close their eyes and SEE the world. If they can't, you haven't gone deep enough.
+
+#### B. CHARACTER PORTRAITS THAT MAKE DEAD MEN BREATHE (mandatory)
+- **Physical descriptions** where historically attested. Augustine was short and frail. Luther was stocky and loud. Calvin was gaunt and suffered from migraines, kidney stones, and hemorrhoids. Spurgeon was heavy-set with a booming voice. Edwards was tall, thin, and so cerebral his wife Sarah had to manage his entire household. Use these details — they make theology human.
+- **Personality and temperament.** Was this person fiery or measured? Did they have a sense of humor? Were they beloved or feared? What did their friends say about them? What did their enemies say?
+- **Weaknesses and struggles.** Augustine's sexual past. Luther's depression and crude language. Calvin's temper. Whitefield's vanity. Spurgeon's cigar habit and mental breakdowns. These are not gossip — they are PROOF that God uses broken vessels, which is itself a testimony to sovereign grace.
+- **Formative moments.** What HAPPENED to this person that made them who they were? Augustine's conversion in the garden. Luther's tower experience. Calvin's "sudden conversion." Edwards' walk in the woods. Spurgeon hearing "Look unto me" in that Methodist chapel. These moments are where theology became REAL for them — and they're where it becomes real for the reader.
+- **Their voice.** Quote them. Use their actual words — from letters, sermons, confessions, council documents. Let the reader HEAR Pelagius say what he said and then HEAR Augustine demolish it in his own words. Primary sources are the most powerful weapon in your arsenal. Use them liberally.
+
+#### C. THE CONFLICT AS COURTROOM DRAMA (mandatory)
+- **The inciting incident.** What STARTED the controversy? Not "Augustine disagreed with Pelagius" — WHERE were they? What was said? Who heard it? What letter was written? What sermon was preached? What book was published?
+- **The escalation.** How did it go from disagreement to full-blown theological war? Who got involved? Were there councils, letters, excommunications, political maneuvering? Who had power and who was the underdog?
+- **The key arguments, quoted.** Not just summarized — QUOTED. "Pelagius wrote: '...'" Then "Augustine replied: '...'" Let the reader witness the exchange as if they were in the room.
+- **The turning point.** What was the moment the battle shifted? The council vote? The publication? The sermon that changed everything? The emperor's decree?
+- **The resolution and consequences.** Who won? What was decided? Was anyone exiled, excommunicated, martyred? What changed in the church because of this battle? What would the church look like TODAY if the other side had won?
+
+#### D. THE MODERN PARALLEL — MAKE IT INESCAPABLE (mandatory)
+- **Name the modern version of the lie.** Don't be vague. "Many modern evangelicals believe..." is weak. "Your pastor probably preached last Sunday that you made a decision for Christ. Pelagius would have nodded in agreement." THAT is the connection.
+- **Show the identical logic.** Side-by-side if needed. "Pelagius said: '...' Your small group leader says: '...' The argument is identical. Only the vocabulary changed."
+- **Ask the devastating question.** "If the church decided this was heresy in 418 AD, 529 AD, and 1619 AD — what changed? Did human nature change? Did Scripture change? Or did the church simply FORGET?"
+- **Make it personal.** "Right now, in your own theology, do you believe you chose God or God chose you? If you answer 'I chose God,' you are standing exactly where Pelagius stood. And the church has ruled against that position for 1,600 years."
+
+#### E. PRIMARY SOURCE QUOTATIONS — AT LEAST 5 PER ARTICLE (mandatory)
+- Direct quotes from the historical figures themselves — not just about them
+- From letters, sermons, confessions, council canons, published works
+- Both sides: quote the heretic AND the orthodox response
+- When powerful, give extended quotations (3-5 sentences) — let the reader sit in the words
+- VERIFY every quote using web search. Historical accuracy is non-negotiable. If you cannot verify a quote, attribute it carefully: "Augustine is reported to have said..." or cite the specific work (e.g., "In *Confessions* Book VIII, Augustine writes...")
+
+#### F. THEOLOGICAL PRECISION — THE DOCTRINES AT STAKE (mandatory)
+- Name the specific doctrines being contested. Not "they disagreed about grace" but "the specific question was whether grace PRECEDES faith or merely ENABLES it — and the answer determines everything."
+- Show how this connects to the five points. Every historical battle maps onto one or more of the doctrines of grace. Make the mapping EXPLICIT.
+- Link to the systematic theology pages on this site that develop the doctrine in full. The historian provides the STORY; the systematic pages provide the STRUCTURE. They need each other.
+
+#### G. THE EMOTIONAL LANDING — WHY THIS SHOULD MAKE THE READER WORSHIP (mandatory)
+- Every timeline article must end not just with historical resolution but with DOXOLOGY
+- The reader who has just witnessed 1,600 years of God defending His truth should feel awe
+- Connect the historical victory to the reader's own experience of grace: "The same God who vindicated His sovereignty against Pelagius in 418 AD is the God who chose YOU before the foundation of the world. The same grace that Augustine discovered in that garden is the grace that found you."
+- Link to a devotional or healing page. The Two Arms mandate applies: the history that demolishes the lie must lead to the grace that catches the reader when they fall.
+
+#### H. CROSS-LINKING — MINIMUM 15 INTERNAL LINKS PER TIMELINE ARTICLE (upgraded from 12)
+Timeline articles are the HUB of the history section. They must link aggressively:
+- 3+ other timeline articles (the era before, the era after, related battles)
+- 2+ theologian biography pages
+- 2+ systematic theology pages
+- 2+ demolition or question pages (the modern version of the lie)
+- 2+ devotional or healing pages (the grace that won)
+- 2+ analogy or story pages (illustrations that make the history tangible)
+- Bonus: psychology pages (WHY does the flesh keep resurrecting these lies?)
+
+#### I. STRUCTURAL COMPLETENESS CHECK
+Every enriched timeline article must have:
+- [ ] Section nav with anchor links to all h2 sections
+- [ ] Every h2 has an `id` attribute matching the section-nav links
+- [ ] page-hero with eyebrow "History"
+- [ ] article-body wrapper (not any other wrapper class)
+- [ ] At least 8 h2 sections (comprehensive coverage demands multiple major sections)
+- [ ] Blockquotes for all Scripture (NIV only) and major primary source quotes
+- [ ] Footer with footer-grace-warning
+- [ ] No inline styles
+- [ ] Minimum 15 internal links, all verified to exist
+
+### THE PRIORITY ORDER — ATTACK THE WEAKEST FIRST
+
+Do NOT touch the 48K+ articles until every article under 40K has been enriched to 50K+. The order is:
+
+1. **history-apostolic.html (29K)** → Target: 55K+. The FOUNDATION. Apostolic era must set the stage for everything that follows.
+2. **history-medieval.html (29K)** → Target: 55K+. 600 years cannot be compressed into 29K. Expand dramatically.
+3. **history-luther.html (30K)** → Target: 55K+. Luther is one of the most dramatic figures in church history. This page should be EPIC.
+4. **history-calvin-geneva.html (32K)** → Target: 50K+. Calvin's Geneva experiment deserves the full treatment.
+5. **history-council-of-orange.html (34K)** → Target: 50K+. The council that ALREADY SETTLED semi-Pelagianism — this is a devastating weapon.
+6. **history-today.html (35K)** → Target: 50K+. The modern landscape — name names, movements, trends.
+7. **history-20th-century.html (37K)** → Target: 50K+. Machen, Lloyd-Jones, Sproul — vivid portraits needed.
+8. **history-puritans.html (40K)** → Target: 50K+. Already decent but needs richer character work.
+9. **THEN** revisit the 48K+ articles and push them to 55K+ with the checklist above.
+
+### THE STANDARD
+
+When you are done with a timeline article, ask yourself:
+
+1. **Could a reader close their eyes and SEE the world this battle happened in?** If no — add more scene-setting.
+2. **Could a reader describe the personality of every major figure?** If no — add character portraits.
+3. **Could a reader quote what both sides actually said?** If no — add primary sources.
+4. **Does the reader understand EXACTLY how this connects to their church RIGHT NOW?** If no — strengthen the modern parallel.
+5. **Does the reader feel awe at God's faithfulness across 2,000 years?** If no — strengthen the emotional landing.
+6. **Are there at least 15 internal links woven naturally into the prose?** If no — add more.
+7. **Is the article at least 50K?** If no — you haven't gone deep enough. Go back in.
+
+**This is your war order. Execute it with everything you have. Leave nothing on the table.**
+
+---
+
 ## SESSION WORKFLOW
 
 ### PHASE 1: STARTUP (15 min)

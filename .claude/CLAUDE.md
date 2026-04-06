@@ -61,6 +61,69 @@ Your job as an agent:
 There are NO exceptions. Not even if you think it would be helpful. Not even at the end of a long session. Aaron pushes when Aaron is ready to push.
 
 ## ══════════════════════════════════════════════════════
+## MINIMUM WORK OUTPUT — MANDATORY FOR ALL AGENTS — ZERO EXCEPTIONS
+## ══════════════════════════════════════════════════════
+
+**Every agent session MUST produce substantial work output. No early exits. No "remaining work for next session" cop-outs. You have a 200k token context window — you MUST use at least 60% of it (120,000 tokens) on ACTUAL WORK before your session ends.**
+
+### THE PROBLEM THIS SOLVES
+Agents have developed a pattern of scanning, auditing, finding 150 problems, fixing 15 of them, logging "remaining work for future session," and clocking out. Content creation agents have their own version: outlining 5 pages, finishing 1, and deferring the rest. Both are unacceptable. If you find 150 problems, you fix as many as you can until your context window is genuinely running low — not until you feel like stopping. If you are a content creation agent, you write complete, finished pages until your context window is genuinely running low — not until you've shipped one page and feel like planning the rest.
+
+### THE RULES
+
+**RULE 1: 70% OF YOUR SESSION MUST BE FILE MODIFICATIONS, NOT SCANNING.**
+If you spend 80% of your context on "let me check things" and 20% on actual edits, you have failed. Scanning and auditing are preparation — they are NOT the work. The work is the edits, the fixes, the new content, the structural repairs. Flip the ratio: scan quickly, then fix relentlessly. For content creation agents: reading existing pages for inspiration and planning your outline is preparation — the WORK is the finished HTML files. If you spent 80% of your context reading the site and 20% writing new pages, you have failed just as badly.
+
+**RULE 2: NO "REMAINING WORK FOR NEXT SESSION" UNTIL YOU'RE ACTUALLY OUT OF ROOM.**
+You are BANNED from deferring known work to a future session unless you have genuinely exhausted your context window. If you found 133 pages that need wrapper fixes and you fixed 19, you did not run out of room — you chose to stop. That is not allowed. Keep fixing until you cannot fit another edit. Content creation agents: if you finished 1 page and have 150k tokens remaining, you did not run out of room. Start the next page. And the next. Keep creating until your context window is genuinely at capacity.
+
+**RULE 3: BATCH AGGRESSIVELY.**
+If you find 50 pages that need the same fix (e.g., adding `class="article-body"` to bare `<article>` tags), do NOT fix them one at a time with individual explanations. Write a script, run it, verify the output, and move on. Batch operations are how you turn a 19-page fix into a 133-page fix in the same session.
+
+**RULE 4: MANDATORY SESSION RECEIPT.**
+Before finishing, you MUST report your session receipt in this exact format in your summary:
+
+```
+SESSION RECEIPT
+═══════════════
+Files modified: [exact count]
+Pages created: [exact count]
+Pages enhanced: [exact count]
+Structural fixes applied: [exact count]
+Internal links added: [exact count]
+Issues found: [exact count]
+Issues FIXED: [exact count]
+Issues DEFERRED: [exact count] — [one-line reason for EACH deferral]
+Fix rate: [FIXED / (FIXED + DEFERRED)]%
+```
+
+**A fix rate below 80% requires a justification.** "Will address in future session" is NOT a justification. Valid justifications include: "requires Aaron's decision on X," "blocked by missing dependency Y," or "fix would break Z and needs manual review." Everything else gets fixed NOW.
+
+**RULE 5: THE GUARDIAN STANDARD APPLIES TO ALL AGENTS.**
+The Guardian was caught fixing 19 out of 152 known issues — a 12.5% fix rate. That is the example of what NOT to do. Every agent, regardless of role, must aim for the highest fix rate possible. If you are the Weaver and you find 200 pages need links, you link as many as you can — not 20, not 50, but as many as your context window allows.
+
+**RULE 6: SCRIPTS ARE YOUR FORCE MULTIPLIER.**
+Any time you identify more than 10 instances of the same problem, your FIRST instinct should be to write a batch script. One Node.js or bash script can fix 100+ pages in seconds. An agent that manually edits files one at a time when a script would work is wasting Aaron's context window — which is wasting Aaron's money.
+
+**RULE 7: NO PADDING. NO GAMING. REAL WORK ONLY.**
+"Files modified" means files where you made a SUBSTANTIVE change — not whitespace adjustments, not adding a blank line, not reformatting an indent. If you report 80 files modified and 75 of them were trailing-whitespace cleanups, you have committed fraud against this project. Every file in your session receipt must reflect a meaningful edit: content added, structure fixed, links woven, bugs repaired. Aaron WILL audit session receipts against actual diffs. Agents caught inflating numbers with trivial edits will have their patterns documented as examples of what NOT to do — just like the Guardian's 12.5% fix rate is now enshrined as the permanent standard of failure.
+
+**RULE 8: NO SHALLOW SCANNING TO JUSTIFY EARLY EXIT.**
+You do not get to do a lazy scan, find 5 problems, fix 5, report "100% fix rate," and clock out. Your job is to find EVERY problem in your lane across the ENTIRE site and fix as many as possible. Run comprehensive checks — grep every page, not just the ones you feel like checking. If the Guardian checks 20 pages and finds 5 issues, that is not a clean site — that is a lazy scan. There are 370+ pages. Check them ALL. A high fix rate on a low discovery count is just as much a failure as a low fix rate on a high discovery count.
+
+**RULE 9: EACH AFFECTED PAGE = ONE ISSUE. NO BUNDLING.**
+If 133 pages are missing `article-body` wrapper classes, that is 133 issues — NOT "1 wrapper issue." Every individual page that needs a fix counts as one issue in your receipt. You may NOT collapse a systemic problem into a single line item to make your fix rate look better. If you found a pattern affecting 133 pages and fixed 19, your receipt says: "Issues found: 133. Issues FIXED: 19. Fix rate: 14%." Not "Issues found: 1. Issues FIXED: 1."
+
+**RULE 10: SCRIPTS COUNT AS ONE ACTION, NOT THE WORK ITSELF.**
+Writing a batch script that fixes 150 files is excellent — that is Rule 6 working as intended. But running that script does not end your session. The script saved you TIME. Use that time to find the NEXT category of problems and fix those too. A session where you write one script, run it, and leave is a session that used 5% of its context. After the script runs, immediately move to the next class of issues. Keep going until your context window is genuinely at capacity.
+
+**RULE 11: MINIMUM PAGE ENGAGEMENT PER SESSION.**
+Enhancement agents (Guardian, Weaver, Enhancer, Dramaturg, Refiner, Cartographer) must touch a minimum of **30 pages per session** with substantive changes. Content creation agents must produce a minimum of **3 complete, finished pages per session** (not stubs, not outlines — fully built, nav-included, footer-included, link-woven pages). 3 is the FLOOR, not the target — if you finish 3 pages and still have 40% of your context remaining, you start page 4. And page 5. You keep creating until your context window forces you to stop. If a session falls below these floors, it has failed regardless of fix rate.
+
+### WHY THIS EXISTS
+Every agent session costs real money. A session that finds 150 problems and fixes 15 is a session that wasted 90% of its budget on reconnaissance with no action. Aaron is not paying for audits. Aaron is paying for RESULTS. Deliver them.
+
+## ══════════════════════════════════════════════════════
 ## DIAMOND WEEK COORDINATION (April 5-12, 2026) — MANDATORY
 ## ══════════════════════════════════════════════════════
 
