@@ -70,8 +70,8 @@
         .hero-slide.exit { opacity: 0; visibility: hidden; transform: translateY(-18px); }
         .hero-title { font-family: 'Playfair Display', serif; font-size: 5rem; font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
         .hero-title .gold { background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .hero-verse { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.3rem; color: var(--accent-gold); max-width: 650px; margin: 2rem auto 0.5rem; line-height: 1.8; }
-        .hero-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text-muted); letter-spacing: 0.15em; }
+        .hero-verse { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.3rem; color: #d4a254; max-width: 650px; margin: 2rem auto 0.5rem; line-height: 1.8; }
+        .hero-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: #d4a254; letter-spacing: 0.15em; }
         /* Progress bar under hero rotation */
         .hero-progress { position: relative; width: 120px; height: 2px; background: rgba(212, 162, 84, 0.15); border-radius: 2px; margin: 1.5rem auto 0; overflow: hidden; opacity: 0; animation: fadeUp 1s ease 1.2s forwards; }
         .hero-progress-bar { position: absolute; left: 0; top: 0; height: 100%; width: 0; background: var(--accent-gold); border-radius: 2px; }
@@ -93,14 +93,17 @@
 
         /* ===== SECTION SHARED ===== */
         .section-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4em; color: var(--accent-ember); text-align: center; margin-bottom: 1rem; }
+        .explorer-eyebrow-wrapper .section-eyebrow { font-size: 0.95rem; margin-bottom: 0; }
         .section-title { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 800; text-align: center; margin-bottom: 1rem; }
         .section-subtitle { text-align: center; color: var(--text-secondary); font-size: 1.05rem; max-width: 600px; margin: 0 auto 2rem; }
 
         /* ===== CONTENT EXPLORER ===== */
-        .content-explorer { padding: 6rem 2rem; position: relative; }
-        .content-explorer::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.3; }
+        .content-explorer { padding: 0 2rem 6rem; position: relative; }
+        .explorer-eyebrow-wrapper { display: flex; flex-direction: column; align-items: center; padding: 3rem 0; }
+        .explorer-eyebrow-wrapper::before { content: ''; display: block; width: 100%; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.3; margin-bottom: 2.5rem; }
+        .explorer-eyebrow-wrapper::after { content: ''; display: block; width: 100%; height: 1px; background: linear-gradient(90deg, transparent, var(--accent-gold), transparent); opacity: 0.3; margin-top: 2.5rem; }
 
-        .explorer-header { text-align: center; margin-bottom: 3rem; }
+        .explorer-header { text-align: center; margin-bottom: 3rem; padding-top: 2rem; }
 
         .explorer-total { margin-top: 1.5rem; }
         .total-number {
@@ -339,7 +342,10 @@
             /* hero-rotate-wrap height set dynamically by JS */
             .hero-ctas { margin-top: 2rem; }
             .hero-glow { width: 400px; height: 400px; }
-            .content-explorer { padding: 3rem 1.5rem; }
+            .content-explorer { padding: 0 1.5rem 3rem; }
+            .explorer-eyebrow-wrapper { padding: 2rem 0; }
+            .explorer-eyebrow-wrapper::before, .explorer-eyebrow-wrapper::after { margin-top: 1.5rem; margin-bottom: 1.5rem; }
+            .explorer-eyebrow-wrapper .section-eyebrow { font-size: 0.8rem; }
             .total-number { font-size: 3.5rem; }
             .explorer-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.8rem; }
             .healing-grid { grid-template-columns: repeat(3, 1fr); }
@@ -369,7 +375,7 @@
             /* hero-rotate-wrap height set dynamically by JS */
             .hero-ctas { margin-top: 1.5rem; flex-direction: column; align-items: center; gap: 0.8rem; }
             .hero-glow { width: 250px; height: 250px; }
-            .content-explorer { padding: 2rem 1rem; }
+            .content-explorer { padding: 0 1rem 2rem; }
             .total-number { font-size: 3rem; }
             .explorer-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 0.6rem; }
             .tile-count { font-size: 2rem; }
@@ -587,8 +593,10 @@ body {
 
     <!-- ===== CONTENT EXPLORER — WHAT'S INSIDE ===== -->
     <section class="content-explorer" id="contentExplorer">
-        <div class="explorer-header">
+        <div class="explorer-eyebrow-wrapper">
             <div class="section-eyebrow">The Biblical Case — From Every Angle</div>
+        </div>
+        <div class="explorer-header">
             <h2 class="section-title">What's Inside</h2>
             <p class="section-subtitle">One truth. Hundreds of doorways. Scripture examined from every angle until there's nowhere left to hide.</p>
             <div class="explorer-total">
