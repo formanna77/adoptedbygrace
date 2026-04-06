@@ -232,6 +232,38 @@
 - [The Infinite Regress of Choice](/philosophy-infinite-regress-of-choice) — Built 2026-04-05 (Philosopher Session 4)
 - [The Anosognosia of the Soul](/psychology-anosognosia-of-sin) — Built 2026-04-05 (Philosopher Session 4)
 - [The Song You Didn't Compose](/analogy-song-you-didnt-compose) — Built 2026-04-05 (Philosopher Session 4)
+- [The Bootstrap Paradox of Faith](/philosophy-bootstrap-paradox) — Built 2026-04-05 (Philosopher Session 5)
+- [You Didn't Choose Your Mother Tongue](/psychology-language-acquisition) — Built 2026-04-05 (Philosopher Session 5)
+- [The Observer Effect of Sin](/philosophy-observer-effect-sin) — Built 2026-04-05 (Philosopher Session 5)
+- [The Immune System You Never Asked For](/philosophy-immune-system-grace) — Built 2026-04-05 (Philosopher Session 5)
+- [The Script You Didn't Write](/philosophy-theater-script) — Built 2026-04-05 (Philosopher Session 5)
+
+---
+
+## NEW IDEAS (Session 5 — April 5, 2026)
+
+### MUSIC THEORY & HARMONY (UNTOUCHED DOMAIN)
+- **The Chord Progression That Resolves Without Your Help** — In Western music, the V-I cadence (dominant to tonic) resolves with a feeling of inevitability. You don't choose to feel resolved. The resolution acts on you. The harmonic tension DEMANDS release, and when the tonic arrives, your nervous system responds before your conscious mind can evaluate it. This is irresistible grace in sound waves. The tension of sin demands resolution. The tonic is Christ. And when He arrives, the soul resolves — not because it chose to, but because the harmonic structure of reality demands it.
+  - *Philosophical root:* Musical resolution demonstrates that the experience of satisfaction/completion can be structurally determined rather than volitionally chosen.
+  - *Psychological implication:* We never say the listener "chose" to feel resolved by a V-I cadence. The feeling is involuntary. Why do we insist the soul "chooses" to feel resolved by grace?
+  - *Experiential parallel:* The moment in a song when the chord finally resolves after sustained tension. You exhale. You didn't decide to exhale. The music did that to you.
+  - *Pastoral application:* You are a dissonant chord. Christ is the resolution. When He arrives, you will resolve — not because you chose harmony, but because harmony chose you.
+
+### MARTIAL ARTS & COMBAT (UNTOUCHED DOMAIN)
+- **The Way of Water: Surrender as the Ultimate Strength** — In aikido and judo, the fundamental principle is not resistance but redirection. You do not defeat the opponent by overpowering them. You defeat them by surrendering to the force they bring and redirecting it. The harder they push, the more effectively you use their energy against them. The master who yields is stronger than the brute who fights. Apply: the soul that surrenders to sovereignty is stronger than the soul that fights it. The Arminian fights grace — pushes back, insists on autonomy, braces against sovereignty. The Reformed believer yields — and in yielding, finds a strength that resistance could never produce.
+  - *Philosophical root:* In physical combat, yielding to a greater force is the path to victory. In spiritual life, yielding to God is the path to freedom.
+  - *Psychological implication:* The Western mind equates strength with resistance. The Eastern mind equates strength with flow. Scripture sides with flow: "My grace is sufficient for you, for my power is made perfect in weakness."
+  - *Pastoral application:* Stop fighting the river of grace. The harder you push against it, the more exhausted you become. Yield. Let the current carry you. That is not weakness. It is wisdom.
+
+### GEOLOGY & DEEP TIME (UNTOUCHED DOMAIN)
+- **The Bedrock You Can't See** — Beneath every building, every city, every civilization lies bedrock — rock that was laid millions of years before anyone walked on it. You build your life on a foundation you didn't lay, in a location that was geologically prepared before your species existed. The foundation was there before you arrived, and it will be there after you leave. Apply to the cross: the atonement was "the Lamb who was slain from the creation of the world" (Revelation 13:8). Your foundation was laid before you were born. Your salvation rests on bedrock you didn't place. And bedrock doesn't shift with your moods.
+  - *Philosophical root:* Foundations by definition precede what they support. The thing built does not create its own foundation.
+  - *Pastoral application:* Your doubts are weather. The cross is bedrock. Weather changes. Bedrock doesn't.
+
+### GAME THEORY & ECONOMICS (UNTOUCHED DOMAIN)
+- **The Prisoner's Dilemma of Self-Salvation** — In game theory, the prisoner's dilemma shows that rational self-interest leads to mutually destructive outcomes. Both prisoners betray each other, and both end up worse off than if they had cooperated. The only escape from the dilemma is an external enforcement mechanism — a binding agreement that neither prisoner can break. Apply: humanity is in a spiritual prisoner's dilemma with sin. Rational self-interest (saving myself) leads to destruction. The only escape is an external enforcement mechanism — a covenant that cannot be broken. That covenant is grace. And it was established not by the prisoners but by the Judge.
+  - *Philosophical root:* Game theory proves that self-interested agents cannot optimize without external coordination. Sinners cannot save themselves without external grace.
+  - *Pastoral application:* You are in a dilemma you cannot solve from inside. The solution was imposed from outside — by the One who designed the game.
 
 ---
 

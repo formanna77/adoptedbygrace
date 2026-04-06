@@ -146,16 +146,17 @@ Diamond Week is an intensive enhancement blitz. Creation is capped; enhancement 
 **After Diamond Week (April 13+):** Remove this section and delete DIAMOND-WEEK-TRACKER.md.
 
 ## SEARCH INDEX, MEGA-MENU, HOMEPAGE COUNTER & AUTO-LINKER REBUILD — MANDATORY FOR ALL CONTENT AGENTS
-**After creating or modifying HTML pages, you MUST run ALL FOUR of these before finishing:**
+**After creating or modifying HTML pages, you MUST run ALL FIVE of these before finishing:**
 
 ```bash
 node build-search-index.js
 node build-mega-menu.js
 node build-homepage-counts.js
 node auto-linker.js
+node wire-orphans.js
 ```
 
-These rebuild: (1) the site search index (`search-index.js`), (2) the Explore dropdown menu data in `nav.js`, (3) the article-count counters in the Content Explorer section on the homepage (`index.html`), and (4) internal hyperlinks across all article pages. The auto-linker adds Wikipedia-style inline `<a>` links throughout article prose, connecting every mention of a concept, doctrine, Scripture reference, theologian, or analogy to its dedicated page. It is idempotent — safe to run repeatedly. If you skip it, new pages will not be linked TO from existing pages, and new pages will not contain links to the rest of the site.
+These rebuild: (1) the site search index (`search-index.js`), (2) the Explore dropdown menu data in `nav.js`, (3) the article-count counters in the Content Explorer section on the homepage (`index.html`), (4) internal hyperlinks across all article pages, and (5) hub-card wiring for any orphan pages not yet linked from their hub. The auto-linker adds Wikipedia-style inline `<a>` links throughout article prose, connecting every mention of a concept, doctrine, Scripture reference, theologian, or analogy to its dedicated page. The wire-orphans script scans every article page, checks if it has a `.hub-card` entry in its parent hub page, and inserts one if missing — ensuring no page is ever invisible to visitors. Both are idempotent — safe to run repeatedly. If you skip them, new pages will not be linked TO from existing pages, will not contain links to the rest of the site, and will not appear on their hub page.
 
 ## NO STUB PAGES — MANDATORY FOR ALL AGENTS
 **NEVER save an HTML file that is incomplete.** Every HTML file committed to the repo must have a complete, functioning page: `<head>` with `<link rel="stylesheet" href="/global.css">`, `</head>`, `<body>`, the full nav from `/_nav-template.html`, actual article content, the full footer with grace warning, and `<script src="/nav.js"></script>`. If you cannot finish a page in this session — **do not create the file.** A half-written stub with only `<head>` metadata is worse than no file at all: it renders as a blank white page, other agents link to it, and visitors hit a dead end. The rule is simple: **finished page or no page.**
@@ -728,7 +729,7 @@ This site has suffered from cascading agent errors — agents that "fix" one thi
 Before writing ANY internal href, verify the target file exists. Run `ls filename.html` if you're unsure. Aspirational linking (linking to pages you PLAN to create) is BANNED. If the page doesn't exist RIGHT NOW, don't link to it. Period.
 
 **LAW 2: EVERY NEW PAGE MUST BE WIRED INTO ITS HUB.**
-If you create a new article, you MUST add a .hub-card for it in the appropriate hub page in the SAME session. A page that exists but isn't linked from any hub is invisible to visitors and worthless to the site. No orphans.
+If you create a new article, you MUST add a .hub-card for it in the appropriate hub page in the SAME session. A page that exists but isn't linked from any hub is invisible to visitors and worthless to the site. No orphans. As a safety net, `node wire-orphans.js` (one of the five mandatory build scripts) will catch and fix any orphans missed by content agents — but this is the BACKUP, not the primary mechanism. Content agents must wire their own pages manually first.
 
 **LAW 3: VERIFY YOUR CHANGES ACTUALLY SAVED.**
 After editing a file, grep for your change to confirm it's there. Agents have a documented pattern of reporting edits that didn't persist. Trust but verify. If you added a card to a hub, grep for the href to confirm it's in the file.

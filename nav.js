@@ -258,16 +258,20 @@
                     name: 'Logic & Philosophy',
                     icon: '🔭',
                     href: '/philosophy-problem-of-merit',
-                    count: 12,
+                    count: 16,
                     pages: [
                         { name: 'If You Chose God, What Makes You Different From Those Who Didn\'t?', href: '/philosophy-problem-of-merit', desc: 'The Problem of Merit: If you chose God, what makes you different from those who didn' },
+                        { name: 'The Bootstrap Paradox of Faith', href: '/philosophy-bootstrap-paradox', desc: 'You cannot believe something by deciding to believe it. Try believing the sky is green. If belief cannot be willed, savi' },
                         { name: 'The Copernican Revolution of the Soul: Why Your Salvation Doesn\'t Revolve Around You', href: '/philosophy-copernican-revolution', desc: 'Just as Copernicus showed the Earth isn' },
+                        { name: 'The Immune System You Never Asked For', href: '/philosophy-immune-system-grace', desc: 'Your body fights battles you never knew about, using weapons you didn' },
                         { name: 'The Infinite Regress of Choice', href: '/philosophy-infinite-regress-of-choice', desc: 'Why' },
                         { name: 'The Mirror You Refuse to Look In: Why Grace Reveals What We Really Are', href: '/philosophy-mirror-you-refuse', desc: 'We reject God' },
                         { name: 'The Münchhausen Trilemma of Self-Salvation', href: '/philosophy-munchhausen-trilemma', desc: 'Every justification leads to infinite regress, circular reasoning, or an uncaused cause. Apply this to faith and you hit' },
+                        { name: 'The Observer Effect of Sin', href: '/philosophy-observer-effect-sin', desc: 'You cannot assess your own freedom using the faculty whose freedom is in question. The instrument of measurement IS the ' },
                         { name: 'The Phantom Limb of Free Will: Feeling Free While Being Bound', href: '/philosophy-phantom-limb-free-will', desc: 'The brain feels sensation in amputated limbs that no longer exist. Fallen humanity feels free will in a faculty that was' },
                         { name: 'The Philosophical Case for Sovereignty', href: '/philosophy-hub', desc: 'Philosophical arguments for God' },
                         { name: 'The Resistance Is the Proof: Why We Blame God Before Ourselves', href: '/philosophy-resistance-is-proof', desc: 'When confronted with God' },
+                        { name: 'The Script You Didn\'t Write', href: '/philosophy-theater-script', desc: 'Every actor receives a script they didn' },
                         { name: 'Why Exclusive Love Is the Only Real Love', href: '/philosophy-exclusive-love', desc: 'A love that is extended to everyone equally is not love—it is policy. Real love requires distinction. Real love means yo' },
                         { name: 'Why Is Marriage Special? A Philosophical Proof of Election', href: '/philosophy-marriage-election', desc: 'Why is marriage special? Because someone chose YOU and no one else. Discover what this reveals about God' },
                         { name: 'Why You Can\'t See Your Own Spiritual Blindness', href: '/philosophy-self-deception', desc: 'Why you can' },
@@ -306,7 +310,7 @@
                     name: 'Psychology of Resistance',
                     icon: '🧠',
                     href: '/psychology-hub',
-                    count: 27,
+                    count: 28,
                     pages: [
                         { name: '⚡ Are You Sure You\'re Saved?', href: '/psychology-cost-of-rejecting-grace', desc: 'This is not a theology lesson. This is an intervention. One question, five minutes, and the truth about whether your fai' },
                         { name: 'Reactance Theory & Divine Authority', href: '/psychology-reactance-theory', desc: 'Why your soul rebels when it hears the truth: reactance theory explains the automatic psychological resistance to God' },
@@ -333,6 +337,7 @@
                         { name: 'Why the Truth That Makes You Angriest Is the One That Will Set You Free', href: '/psychology-hostility-reaction', desc: 'When a lifelong Christian suddenly becomes enraged at the doctrines of grace, something deeper than theology is happenin' },
                         { name: 'Why This Objection Proves Our Point — The Psychology of the Crown Jewel Defense', href: '/psychology-why-this-objection-proves-our-point', desc: 'The most common objection to the Crown Jewel argument —' },
                         { name: 'Why Your Church All Believes the Same Thing', href: '/psychology-groupthink', desc: 'Why do church friends all believe the same theology? Discover how conformity bias, groupthink, and social identity keep ' },
+                        { name: 'You Didn\'t Choose Your Mother Tongue', href: '/psychology-language-acquisition', desc: 'No child decides to learn language. Grammar arrives uninvited, rewires the brain, and gives the child a world they never' },
                         { name: 'Your Brain Decides Before You Do', href: '/psychology-illusion-free-will', desc: 'Neuroscience reveals what Scripture has always known: your brain decides before you do. What this means for' },
                         { name: 'Your Brain Is Lying to You — And the Bible Knew It First', href: '/psychology-cognitive-biases', desc: 'Cognitive biases mapped to biblical descriptions of fallen thinking. Confirmation bias, anchoring, Dunning-Kruger — mode' }
                     ]

@@ -105,6 +105,22 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Apr 5 | Guardian | 8 pages (batch) | STRUCTURE | Removed 8 remaining back-to-top buttons (demolition-romans10-9, demolition-2peter2-1, devotional-when-god-says-no, ot-abraham, question-ezekiel37, demolition-hebrews6-4-6, ot-israel-chosen, ot-david). |
 | Apr 5 | Guardian | 19 pages (batch) | STRUCTURE | Added article-body class to 19 pages with bare `<article>` tags (2 new devotionals + 17 legacy: stories, secular, ot, demolition, devotional, theologian pages). |
 | Apr 5 | Guardian | sitemap.xml | STRUCTURE | Added 2 missing pages (history-heresy-foreknowledge, history-whitefield-wesley). Rebuilt search index (373), mega-menu (337), auto-linker (26 links/17 files). |
+| Apr 5 | Weaver | anxious-mind-sovereignty-of-sleep.html | LINKS | 0→9 hand-crafted contextual links. Cross-category: theology, psychology, devotional, questions. Crown Jewel link added. |
+| Apr 5 | Weaver | demolition-arianism.html | LINKS | 1→10 hand-crafted links. Christology, Trinity, atonement, hamartiology, Crown Jewel (faith as gift). |
+| Apr 5 | Weaver | pastoral-suffering.html | LINKS | 2→10 hand-crafted links. Divine decrees, Job, atonement, golden chain, Never Gives Up, grief healing. |
+| Apr 5 | Weaver | devotional-in-christ.html | LINKS | 4→11 hand-crafted links. Regeneration, election, sealed, perseverance, atonement, forever loved. |
+| Apr 5 | Weaver | secular-economics-depravity.html | LINKS | +3 hand-crafted links. Depravity, autonomy illusion, Crown Jewel. |
+| Apr 5 | Weaver | demolition-2peter2-1.html | LINKS | +7 hand-crafted links. Regeneration, election, Romans 9, hamartiology, depravity, chosen, perseverance. |
+| Apr 5 | Weaver | devotional-valley-shadow.html | LINKS | +5 hand-crafted links. Divine sovereignty, anxious mind hub, golden chain, grief healing, perseverance. |
+| Apr 5 | Weaver | theologian-owen.html | LINKS | 0→9 hand-crafted links. Divine sovereignty, atonement, regeneration, perseverance, justification, covenant theology, election, Puritans, Never Gives Up. |
+| Apr 5 | Weaver | systematic-justification.html | LINKS | +6 hand-crafted links. Regeneration, golden chain, election, Crown Jewel (faith as gift), perseverance, forever loved. |
+| Apr 5 | Weaver | story-the-self-made-man.html | LINKS | +4 hand-crafted links in narrator notes. Divine decrees, Crown Jewel, chosen, autonomy illusion, chess grandmaster. |
+| Apr 5 | Weaver | story-the-garden-that-grew-itself.html | LINKS | +4 hand-crafted links. Chosen, Never Gives Up, divine decrees, autonomy illusion. |
+| Apr 5 | Weaver | devotional-when-god-says-no.html | LINKS | +4 hand-crafted links. Divine sovereignty, golden chain, atonement, chosen. |
+| Apr 5 | Weaver | ot-election.html | LINKS | +2 hand-crafted links. Romans 9, boasting. |
+| Apr 5 | Weaver | open-wound-betrayed-by-church.html | LINKS | +2 hand-crafted links. Psychology why we resist, Crown Jewel (grace itself). |
+| Apr 5 | Weaver | open-wound-hospital-room.html | LINKS | +3 hand-crafted links. Golden chain, Joseph, Lazarus grave analogy. |
+| Apr 5 | Weaver | (batch via auto-linker.js) | LINKS | Auto-linker run: 152 links added across 64 files. Rebuild scripts all run. Validator: 0 errors, 42 warnings (all eyebrow-related, Refiner's lane). |
 | Apr 5 | Guardian | sitemap.xml | STRUCTURE | Added 54 missing pages to sitemap (15% of site was invisible to search engines). 364 total entries. |
 | Apr 5 | Guardian | debate-free-will.html | STRUCTURE | Fixed 2 broken links: systematic-irresistible-grace → systematic-pneumatology, systematic-perseverance → systematic-soteriology. |
 | Apr 5 | Weaver | history-great-awakening.html | LINKS | 14 hand-crafted prose links added (was 0 in body). Linked Edwards, Whitefield, total depravity, unconditional election, irresistible grace, perseverance, justification, regeneration, free will, foreknowledge, Arminianism, monergism/synergism, autonomy illusion, rescued-without-a-say devotional. |
