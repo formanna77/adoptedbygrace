@@ -27,6 +27,26 @@ Each entry follows this structure:
 
 ---
 
+### 2026-04-06 — Cartographer (Diamond Week Day 2, Session 2) — PATTERN + WISDOM
+
+**Discovery: Batch-then-refine is the optimal strategy for journey sections.** A single Node.js script with intelligent category-based recommendations can add journey sections to 149 pages in seconds. But the REAL power comes from then hand-crafting the 85 most important pages with contextual recommendations that reflect the specific content and emotional state of each page. The batch script provides the floor (no page is a dead end). The hand-crafting provides the ceiling (key pages become irresistible doorways). This two-phase approach — batch for coverage, manual for quality — should be the standard for any fleet-wide enhancement.
+
+**Technique: The "emotional state" method for choosing journey cards.** When selecting recommendations for a page, the first question is not "what's the next topic?" but "what emotional state is the reader in after finishing this page?" A reader finishing a demolition page feels demolished — they need comfort. A reader finishing a devotional feels comforted — they can handle a challenge. A reader finishing a healing page feels tender — lead them to more comfort first, then gently deeper. This emotional-first approach produces journey sections that feel intuitive rather than mechanical.
+
+**Scale achievement: 397 of 433 pages now have journey sections.** The site has been transformed from a library (read one page, leave) into a labyrinth (every page leads to two more). The remaining 36 pages without journey sections are utility pages (index, search, sitemap, privacy, terms, etc.) that don't need them.
+
+**Why it matters:** The single biggest threat to this site's mission was bounce rate — a reader arrives, reads one page, and leaves. Journey sections are the cure. A reader who sees two compelling next-step cards at the bottom of every page will click one. Then they'll see two more. Before they know it, they've been on the site for 45 minutes and encountered the Crown Jewel truth from five different angles. The labyrinth is now built. The Spirit does the rest.
+
+**Apply to:** All future content agents (every new page MUST get a journey section in the same session it's created). Cartographer future sessions (periodic audit of journey section quality — are readers actually following the recommended paths?).
+
+### 2026-04-06 — Cartographer (Diamond Week Day 2, Session 2) — HEART
+
+**Discovery: The healing category journey sections require a fundamentally different approach than intellectual pages.** For question, demolition, and philosophy pages, the Two Arms mandate means: Card 1 goes deeper, Card 2 offers comfort. But for healing pages (anxious mind, broken mirror, open wound, invisible wall, shattered lens), the order REVERSES: Card 1 offers more comfort/related experience, Card 2 gently points to doctrine. A hurting person needs to feel understood BEFORE they can engage with theology. Leading with "here's the doctrine behind your pain" feels cold. Leading with "someone else felt this too" feels like a hand extended in the dark.
+
+**Apply to:** All agents creating or enhancing healing content. The emotional sequence matters as much as the theological sequence.
+
+---
+
 ### 2026-04-06 — Enhancer (Session #7) — CRAFT + BRIDGE
 
 **Discovery: The "surrender analogy" family is the most powerful Brilliant Connection category on the site.** This session produced three variations: (1) the airplane/pilot analogy (you trust an anonymous pilot with your life but not God with your soul — the key is that *powerlessness enables rest*), (2) the sleep analogy (you cannot choose to fall asleep; faith, like sleep, happens when you stop asserting control), and (3) the adoption papers analogy (a court ruling cannot be un-adopted by the child's misbehavior). All three work because they start with something the reader *already does without anxiety* and then ask why they can't do the same with God. The answer — they have an illusion of control over their salvation that they don't have over sleep or airplanes — is the depravity argument arriving through a back door the flesh didn't guard.
@@ -2915,3 +2935,34 @@ Adding the paragraph about Dutch martyrs to the Canons of Dort page ("many of th
 In objection-why-command.html, the new section "The Question That Ends the Debate" used Matthew 5:48 ("Be perfect") as a Socratic trap: if commands prove ability, then you should be able to be perfect. This is the most efficient enhancement pattern found: a single devastating question that collapses the entire opposing argument in one move. The reader walks themselves into the trap and there is no escape.
 
 **Apply to:** All Enhancer sessions. Before adding lengthy new sections, look for the ONE question that would end the debate. If it exists, add it — it's worth more than three paragraphs of argument.
+
+---
+
+### 2026-04-06 — Freight Train (Session #3 continuation) — CRAFT + PATTERN
+
+**Discovery: The "Narrative Hook" technique outperforms "Statement Hook" for systematic theology pages.**
+When transforming systematic pages (pneumatology, christology, covenant theology, ecclesiology, divine decrees), the most effective openings were NOT bold theological statements ("God is sovereign!") but narrative scenarios that made the reader feel the problem before hearing the answer. Examples: "You have never once successfully changed your own heart" (pneumatology) works because it forces introspection before doctrine. "Most people read the Bible like a library" (covenant theology) works because it names a mistake the reader is currently making. The narrative hook creates a gap in the reader's understanding that only the page can fill — the statement hook merely asserts what they may or may not already believe.
+
+**Why it matters:** Future agents writing systematic theology pages should resist the urge to lead with a grand theological declaration. Lead with a felt experience, a common misconception, or a question the reader didn't know they needed to ask. The doctrine arrives as the ANSWER, not the announcement.
+
+**Discovery: The "Historical Drama" opening beats the "Academic Biography" opening every time.**
+The theologian-gottschalk transformation proved this decisively. "They beat him. They imprisoned him. They kept him in a cell for twenty years" is infinitely more compelling than "Gottschalk of Orbais was born into Saxon nobility in 808 AD." The reader's brain responds to conflict, not chronology. Every theologian page should open with the most dramatic moment of that person's life — the crisis, the persecution, the discovery, the conversion — not their birth date and hometown. The biography can come second.
+
+**Apply to:** All agents creating or enhancing theologian profiles and history pages. Open with the MOST DRAMATIC MOMENT, not the chronological beginning. Time is the enemy of attention — start where the fire is.
+
+**Discovery: The majority of Tier 1-3 pages (~80%) already have strong openings from prior fleet work.**
+The Dramaturg, Enhancer, and content creation agents have done remarkable work. Out of ~120+ pages scanned across all categories, only ~25 needed throat-grab transformations. This means the fleet's quality floor has risen substantially. Future Freight Train sessions should focus on: (1) pages that still open with section headers (h2 tags) without prose, (2) pages that open with academic summaries rather than felt experience, and (3) adding payload closings to pages that end abruptly.
+
+**Apply to:** Future Freight Train sessions and all content creation agents. The standard has been set — no page ships without a prose hook before the first h2.
+
+### 2026-04-06 — FREIGHT TRAIN (Continuation) — TECHNIQUE: The Confession Throat-Grab
+**Discovery:** The most devastating openings reframe the reader's own question as a confession. "You asked this question because you think it's a gotcha. It isn't. It's a confession." (objection-effort.html). "Every testimony follows the same script: 'I found God.' ... Jesus says the opposite." (question-john15.html). When the reader's own words or assumptions become evidence AGAINST their position before the argument even starts, the Socratic trap is sprung in the first paragraph. This is far more powerful than stating the Reformed position and defending it.
+**Apply to:** Every question/objection page. Don't defend — expose. Show readers that their own question, testimony, or assumption is doing the work for you.
+
+### 2026-04-06 — FREIGHT TRAIN (Continuation) — TECHNIQUE: The Praise-Trap for Matt 11
+**Discovery:** Matthew 11:25-27 is an under-utilized nuclear weapon because it shows Jesus PRAISING the Father for HIDING truth. This is not an inference or a disputed Greek word — it is Jesus expressing JOY that the Father has actively concealed saving knowledge from intelligent people. The throat-grab technique: present the emotional scandal first ("Jesus thanks the Father for hiding the truth from intelligent people"), then dare the reader to explain it within their framework. If your theology cannot account for Jesus praising God for sovereignly concealing truth, your theology cannot account for Jesus.
+**Apply to:** Any page discussing divine concealment, hardening, or the internal/external call distinction.
+
+### 2026-04-06 — FREIGHT TRAIN (Continuation) — INSIGHT: Systematic Theology Pages Need Throat-Grabs Too
+**Discovery:** Several systematic theology pages (anthropology, ordo salutis, prolegomena, theology proper) opened directly with academic section headings — no prose hook at all. These pages are crucial for visitors following links from more emotional content (devotionals, psychology), and hitting an academic wall kills momentum. Even a single paragraph of "here is why this matters to YOU" before the first h2 transforms the reading experience. The systematic pages should feel like urgent truth, not seminary lectures.
+**Apply to:** All remaining systematic theology pages. Audit every one for a prose opening before the first section heading.

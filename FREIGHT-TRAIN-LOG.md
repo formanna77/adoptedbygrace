@@ -1,0 +1,54 @@
+# FREIGHT TRAIN — Transformation Log
+Pages listed here have already been enhanced. Skip them unless doing a second pass.
+
+## TRANSFORMED PAGES
+
+- question-born-again-meaning.html — throat-grab opening, felt-experience depravity mirror, new "Proof You Were Born — Not Built" closing with payload
+- question-what-is-sovereign-grace.html — 99%/1% Socratic trap opening, historical anchor (Augustine/Luther/Spurgeon/Edwards)
+- demolition-hebrews2-9.html — rewrote academic opening to Socratic hook, added "coupon vs finished work" payload closing
+- demolition-1tim4-10.html — added Socratic opening question, consolidated 3 duplicate Scripture quotations to 1
+- demolition-cut-off-from-root.html — throat-grab opening on self-sustaining illusion, payload closing on "the Root reached back for you"
+- demolition-philippians2-12-13.html — throat-grab on "you want to believe you chose God," payload closing on "where did that desire come from?"
+- question-dead-in-sin-meaning.html — throat-grab on "you don't feel dead" as the symptom of the disease
+- question-does-god-love-everyone-equally.html — throat-grab on "which love would you rather receive?"
+- demolition-titus2-11.html — throat-grab on "five words, case closed, right?" with "Paul kept writing"
+- demolition-romans10-9.html — replaced academic subtitle with throat-grab on "most people stop reading here," added payload closing
+- systematic-atonement.html — throat-grab on "did the cross save you or make your salvation possible?"
+- systematic-compatibilism.html — throat-grab on "both sentences are true, if that makes your brain hurt, good"
+- systematic-pneumatology.html — throat-grab on "you have never once successfully changed your own heart"
+- systematic-christology.html — throat-grab on "if He is who Colossians says He is, you are a figure in His story"
+- systematic-covenant-theology.html — throat-grab on "what if the Bible is not a library but a contract?"
+- systematic-ecclesiology.html — throat-grab on "you did not join a club, you were called out"
+- systematic-divine-decrees.html — throat-grab on "nothing has ever surprised God"
+- history-apostolic.html — throat-grab on "what did the people who knew the apostles personally believe?"
+- history-medieval.html — throat-grab demolishing "Augustine invented predestination" myth
+- theologian-gottschalk.html — throat-grab on imprisonment narrative: "they beat him, imprisoned him, kept him 20 years"
+- theologian-boston.html — throat-grab on discovering The Marrow of Modern Divinity
+- history-calvin-geneva.html — throat-grab on Calvin not wanting to be in Geneva
+- history-luther.html — throat-grab on Bondage of the Will as Luther's most important work
+- compare-calvinism-catholic-soteriology.html — throat-grab on "declared vs made righteous — same word grace, universes apart"
+- compare-calvinism-open-theism.html — throat-grab on "if God does not know the future, can He guarantee anything?"
+- compare-monergism-synergism.html — throat-grab on "there are only two options, not three"
+- question-romans9.html — throat-grab on "the chapter that ends friendships"
+- question-john6.html — throat-grab on "Jesus intended to thin the crowd"
+- objection-robots.html — throat-grab on "the robot objection reveals what you actually worship"
+- objection-effort.html — throat-grab on "the question is a confession — you only value effort that might fail"
+- demolition-ezekiel18-23.html — throat-grab surgeon analogy: "takes no pleasure in cutting — and cuts anyway"
+- demolition-1john2-2.html — throat-grab on propitiation double-punishment problem
+- demolition-2peter2-1.html — throat-grab on wolves not sheep
+- question-titus3.html — throat-grab on "watch synergism die in real time"
+- question-secure.html — rewrote opening with 2am fear/theology that placed YOU at center
+- demolition-acts7-51.html — throat-grab on Stephen's dying words, external/internal call distinction
+- demolition-steel-man-arminianism.html — throat-grab on building Arminianism properly before dismantling it
+- demolition-orthodox-predestination.html — throat-grab on geography-as-exegesis
+- question-john15.html — throat-grab on "every testimony follows the same script: I found God" — Jesus says the opposite
+- question-matt11.html — throat-grab on "Jesus thanks the Father for HIDING the truth"
+- question-unfair.html — throat-grab on Paul feeling the same question, clay does not interrogate the potter
+- question-revelation13.html — throat-grab on the book written before the foundation of the world
+- question-external-internal-call.html — throat-grab on two calls resolving the sovereignty/responsibility tension
+- systematic-anthropology.html — throat-grab on "cathedral and crime scene" — more glorious and more ruined than you imagine
+- systematic-ordo-salutis.html — throat-grab on "salvation has a sequence and the order matters infinitely"
+- systematic-theology-proper.html — throat-grab on "who God IS determines everything about how He saves"
+- systematic-prolegomena.html — throat-grab on "where you start determines where you end"
+- theologian-owen.html — throat-grab on Death of Death — Owen's trilemma unanswered for 400 years
+- theologian-spurgeon.html — throat-grab Spurgeon quote: "Calvinism IS the gospel, nothing else"
