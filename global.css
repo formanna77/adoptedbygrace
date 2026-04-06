@@ -572,6 +572,24 @@ a.mega-menu-hub-link:hover .mega-menu-hub-arrow {
     border-bottom: 1px solid rgba(212, 162, 84, 0.06);
     text-decoration: none;
     transition: all 0.2s ease;
+    color: var(--text-primary);
+}
+
+.mega-menu-page-link a,
+.mega-menu-subcat-pages a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.mega-menu-page-link a:hover,
+.mega-menu-subcat-pages a:hover {
+    color: var(--accent-gold);
+}
+
+.mega-menu-page-link a:visited,
+.mega-menu-subcat-pages a:visited {
+    color: var(--text-primary);
 }
 
 .mega-menu-page-link:last-child {
@@ -1353,12 +1371,12 @@ blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font
 
 /* ===== BUTTONS ===== */
 /* SINGLE canonical definition — do NOT duplicate these elsewhere in this file */
-.btn-primary { display: inline-block; padding: 1rem 2.5rem; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); color: #fff; font-weight: 800; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; letter-spacing: 0.05em; position: relative; overflow: hidden; border: none; cursor: pointer; text-shadow: 0 1px 2px rgba(0,0,0,0.3); }
+.btn-primary { display: inline-block; padding: 1rem 2.5rem; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); color: #1a1207; font-weight: 800; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; letter-spacing: 0.05em; position: relative; overflow: hidden; border: none; cursor: pointer; text-shadow: 0 1px 2px rgba(255,255,255,0.15); }
 .btn-primary::after { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s ease; }
 .btn-primary:hover::after { left: 100%; }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(212, 162, 84, 0.4); }
-.btn-secondary { display: inline-block; padding: 1rem 2.5rem; border: 2px solid var(--accent-gold); color: #fff; font-weight: 700; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; background: transparent; cursor: pointer; }
-.btn-secondary:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-ember); color: #fff; transform: translateY(-2px); }
+.btn-secondary { display: inline-block; padding: 1rem 2.5rem; border: 2px solid var(--accent-gold); color: #f5eedc; font-weight: 700; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; background: transparent; cursor: pointer; }
+.btn-secondary:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-ember); color: #f5eedc; transform: translateY(-2px); }
 
 /* ===== LABELS & BADGES ===== */
 .label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; padding: 0.35rem 0.8rem; border-radius: 4px; display: inline-block; }
@@ -2851,4 +2869,15 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .nav-links a, .nav-right a, .mega-menu-dropdown a,
 .footer-container a, .search-overlay a {
     border-bottom: none;
+}
+
+/* Kill browser-default blue on ALL mega-menu links — no exceptions */
+.mega-menu-dropdown a {
+    color: var(--text-primary);
+}
+.mega-menu-dropdown a:visited {
+    color: var(--text-primary);
+}
+.mega-menu-dropdown a:hover {
+    color: var(--accent-gold);
 }
