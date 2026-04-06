@@ -22,7 +22,7 @@ const HUB_MAP = [
   { prefix: 'philosophy-',     hub: 'philosophy-hub.html',         eyebrow: 'Philosophy' },
   { prefix: 'story-',          hub: 'stories.html',                eyebrow: 'Stories' },
   { prefix: 'devotional-',     hub: 'devotionals.html',            eyebrow: 'Devotionals' },
-  { prefix: 'analogy-',        hub: 'analogies-illustrations.html', eyebrow: 'Analogies' },
+  { prefix: 'analogy-',        hub: 'stories.html',                eyebrow: 'Stories, Parables & Analogies' },
   { prefix: 'secular-',        hub: 'secular-evidence.html',       eyebrow: 'Secular Evidence' },
   { prefix: 'systematic-',     hub: 'systematic-theology.html',    eyebrow: 'Systematic Theology' },
   { prefix: 'theologian-',     hub: 'theologians.html',            eyebrow: 'Theologians' },
@@ -46,6 +46,7 @@ const HUB_MAP = [
   { prefix: 'romans-8',        hub: 'questions.html',              eyebrow: 'Questions' },
   { prefix: 'romans-9',        hub: 'questions.html',              eyebrow: 'Questions' },
   { prefix: 'scripture-tsunami-faith', hub: 'questions.html',      eyebrow: 'Questions' },
+  { prefix: 'joy-',             hub: 'joy-hub.html',                eyebrow: 'Joy of Election' },
   { prefix: 'freedom',         hub: 'philosophy-hub.html',         eyebrow: 'Philosophy' },
   { prefix: 'for-arminians',   hub: 'demolition-hub.html',         eyebrow: 'Demolition' },
 ];

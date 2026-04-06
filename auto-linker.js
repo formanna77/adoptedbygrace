@@ -501,6 +501,24 @@ const LINK_MAP = [
     { url: '/apologetic-evangelism', keywords: ['election make evangelism pointless', 'doesn\'t election make evangelism'], priority: 6 },
     { url: '/apologetic-perseverance', keywords: ['can you lose your salvation', 'lose salvation'], priority: 7 },
     { url: '/apologetic-unreached', keywords: ['those who never heard', 'unreached people', 'never heard the gospel'], priority: 6 },
+
+    // ── PHILOSOPHY PAGES (newly added) ──
+    { url: '/philosophy-exclusive-love', keywords: ['exclusive love', 'love requires distinction', 'particular love', 'love must be exclusive'], priority: 6 },
+    { url: '/philosophy-marriage-election', keywords: ['marriage and election', 'wedding proposal', 'marriage proves election', 'exclusive love of God'], priority: 6 },
+    { url: '/philosophy-mirror-you-refuse', keywords: ['mirror you refuse', 'grace reveals what we are', 'why we avoid the mirror'], priority: 6 },
+    { url: '/philosophy-bootstrap-paradox', keywords: ['bootstrap paradox', 'bootstrap paradox of faith', 'doxastic involuntarism', 'cannot choose to believe'], priority: 7 },
+    { url: '/philosophy-gravity-of-grace', keywords: ['gravity of grace', 'grace like gravity', 'sovereignty like gravity'], priority: 5 },
+    { url: '/philosophy-immune-system-grace', keywords: ['immune system of grace', 'grace like an immune system', 'grace you never asked for'], priority: 5 },
+    { url: '/philosophy-mother-tongue', keywords: ['mother tongue', 'language acquisition and grace', 'faith like language'], priority: 5 },
+    { url: '/philosophy-godel-incompleteness', keywords: ['Gödel', 'Godel', 'incompleteness theorem', 'system cannot prove itself'], priority: 5 },
+    { url: '/philosophy-observer-effect-sin', keywords: ['observer effect', 'observer effect and sin', 'cannot assess own will'], priority: 5 },
+
+    // ── QUESTION PAGES (newly added) ──
+    { url: '/question-regeneration-precedes-faith', keywords: ['regeneration precedes faith', 'new birth before faith', 'born again before believing'], priority: 8 },
+    { url: '/question-faith-origin-test', keywords: ['faith origin test', 'test where your faith came from', 'origin of your faith'], priority: 5 },
+
+    // ── SYSTEMATIC (newly added) ──
+    { url: '/systematic-tulip', keywords: ['TULIP', 'five points of Calvinism', 'five points of grace explained'], priority: 7 },
 ];
 
 // ═══════════════════════════════════════

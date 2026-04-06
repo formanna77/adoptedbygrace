@@ -218,6 +218,24 @@
                         { name: 'The Remnant — How God Has Always Preserved His Chosen Few', href: '/ot-prophets-remnant', desc: 'Jeremiah, Ezekiel, Hosea, Amos, Malachi — every prophet confirms it: God preserves a chosen remnant through judgment. Sa' },
                         { name: 'When God Answered Suffering with Sovereignty — Not Explanation', href: '/ot-job', desc: 'Job lost everything and demanded an answer. God gave him one — but not the one he wanted. God' }
                     ]
+                },
+                {
+                    name: 'Connections',
+                    icon: '🔗',
+                    href: '/connections',
+                    count: 1,
+                    pages: [
+                        { name: 'The Unbreakable Thread – Sovereignty Across All of Scripture', href: '/connections', desc: 'Old Testament patterns, New Testament witnesses, logical arguments, historical quotes, and typological proofs — all poin' }
+                    ]
+                },
+                {
+                    name: 'Essays',
+                    icon: '📝',
+                    href: '/essays',
+                    count: 1,
+                    pages: [
+                        { name: 'Essays — The Case for Sovereign Grace, Argued in Full', href: '/essays', desc: 'Long-form arguments that leave no escape. Six essays making the full case for sovereign grace — from Scripture, logic, a' }
+                    ]
                 }
             ]
         },

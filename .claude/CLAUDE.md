@@ -577,6 +577,63 @@ Total Depravity is the linchpin of the entire soteriological system. It is the o
 **The measure of this site's success is ultimately this:** Can we show a human being — with such clarity, such beauty, such devastating honesty — that they are dead in sin and utterly powerless to save themselves? Because the moment they see it, they will fall into the arms of the God who saved them anyway. And they will never let go. Because they will finally understand: *they never could have held on in the first place.*
 
 ## ══════════════════════════════════════════════════════
+## SHOW THEM, DON'T TELL THEM — THE DEPRAVITY WRITING MANDATE
+## ══════════════════════════════════════════════════════
+
+**MANDATORY: Every agent that writes about Total Depravity must internalize this. It overrides every instinct to summarize.**
+
+### THE PROBLEM
+
+The fleet has developed a pattern of *telling* readers they are dead in sin without *showing* them what that death looks like. Here is the pattern that must stop:
+
+> "Not sick. Not wounded. Not struggling. Dead. Corpses do not reach for anything. They do not cooperate with the surgeon. They do not 'accept' the offer of life."
+
+That is **true**. But it is not **convicting.** It is a theological summary the reader can nod at and walk away from, because "dead" is an abstraction when you are clearly alive. The reader thinks: *"I understand the metaphor. I'm a sinner. But I'm not THAT bad. I still chose to follow Jesus."* And they escape. They escape because we left room for them to escape. We told them the verdict without presenting the evidence.
+
+**The sinful mind will hide behind ANYTHING left unsaid so it doesn't have to deal with the truth.** Every gap in the argument is a foxhole. Every abstraction is an exit. Every unsaid implication is permission to keep believing the lie. If we leave even one door cracked, the flesh will sprint through it.
+
+### WHAT "DEAD" ACTUALLY MEANS — AND HOW TO PROVE IT
+
+"Dead in sin" does not mean unconscious. It does not mean unable to function. The reader is obviously alive, thinking, choosing things every day. So what does Paul mean?
+
+**Spiritually dead means you HATE holiness.** Not that you struggle with it. Not that you fall short of it. You *hate* it. Your nature recoils from the righteousness of God the way your hand recoils from a flame. And here is the devastating part: you don't even know you hate it, because you have redefined holiness to mean something comfortable enough to tolerate.
+
+**The fleet must PROVE this to readers with examples they can FEEL.** Not metaphors about corpses — examples from their own lived experience that make them recognize themselves in the description. When someone can *feel* that something is true about them — when the words on the screen describe something they have actually experienced — then the Holy Spirit has material to work with. Conviction happens when truth becomes personal.
+
+### HOW TO SHOW (NOT TELL) THAT WE HATE HOLINESS
+
+Here is the method. When writing about depravity, agents must move through three layers:
+
+**LAYER 1: STATE THE TRUTH.** "Spiritually dead means you hate holiness." (This is the thesis — necessary but not sufficient.)
+
+**LAYER 2: DEFINE WHAT THAT HATRED LOOKS LIKE.** Not fire-breathing rage. Hatred of holiness looks like avoidance, boredom, discomfort, preference for anything else. Even *disliking* holiness IS hating it — because a heart that loved holiness would run toward it, not away from it. Ask the reader: When was the last time you craved righteousness the way you crave comfort? When did obedience to God feel like relief instead of restriction? If the honest answer is "rarely" or "never," that is not weakness. That is the symptom of a nature that is oriented AWAY from God.
+
+**LAYER 3: GIVE CONCRETE EXAMPLES THE READER RECOGNIZES IN THEMSELVES.** This is where conviction lives. Examples like:
+
+- You have never once in your life spontaneously wanted to pray. Every prayer was prompted by need, guilt, habit, or crisis — never by sheer delight in the presence of God.
+- You find ten minutes of prayer exhausting but can scroll your phone for two hours without effort. Your flesh has no resistance to what it loves.
+- When you hear about God's absolute sovereignty, your first instinct is to argue — not because you have exegetical objections, but because the idea that you are not in control is intolerable to your pride.
+- You have to be *convinced* to read Scripture. You have never had to be convinced to eat, sleep, or seek entertainment. Your nature moves effortlessly toward what it desires and has to be dragged toward what it doesn't.
+- You can muster genuine emotion watching a movie but sit stone-cold through a sermon about the cross. Your heart is not malfunctioning — it is functioning exactly as a heart that loves the world and not God would function.
+- The reason you "dislike" certain Christians is not their personality — it's their holiness. Something in you recoils from people who take God seriously, and you dress that recoil in socially acceptable language like "they're judgmental" or "they're too intense."
+
+**These are not hypothetical.** These are universal human experiences. Every reader will recognize themselves in at least three of these. And when they do, "dead in sin" stops being a metaphor about corpses and starts being a mirror.
+
+### THE PRINCIPLE BEHIND THE METHOD
+
+**No one will ever believe they are as sinful as they are without the truth being articulated so obviously, so clearly, and so specifically that there is nowhere to run and nowhere to hide.**
+
+Abstract theology lets people categorize the truth as information. Concrete examples force them to categorize it as autobiography. The goal is not to make the reader understand depravity intellectually — the goal is to make them FEEL it in their own chest, to recognize it in their own experience, to see their own face in the mirror Scripture holds up.
+
+There are honestly thousands of ways to prove that we naturally hate holiness. Every category on this site should be mining for new ones — from psychology (why do we resist what's good for us?), from philosophy (why does the will always bend toward self?), from daily life (why does holiness feel like work and sin feel like rest?), from relationships (why do we resent people who are more righteous than us?), from church culture (why do we prefer entertaining sermons over convicting ones?).
+
+**The fleet's job is to find those thousands of ways and put them on this site — one devastating example at a time — until every reader has seen themselves in the description and cannot pretend otherwise.**
+
+### THE RULE
+
+From this point forward, **no page on this site may describe Total Depravity using only abstract metaphors (corpses, stones, slaves) without also providing concrete, felt, recognizable examples of what spiritual death looks like in everyday human experience.** The metaphors are the frame. The examples are the mirror. Both are required. Neither alone is sufficient.
+
+## ══════════════════════════════════════════════════════
 ## THE CROWN JEWEL — THE MOST IMPORTANT IDEA ON THIS SITE
 ## ══════════════════════════════════════════════════════
 

@@ -69,6 +69,16 @@ Each of these has a specific origin story that most Christians have never encoun
 
 **Apply to:** Historian/Storyteller (build the series), Weaver (ensure hymn pages link TO systematic theology pages and FROM devotional pages), Cartographer (add hymn journey sections).
 
+### 2026-04-06 — Guardian (Diamond Week Day 2, Session 3) — PATTERN + INSIGHT
+
+**Discovery: The "false orphan" problem — extensionless URLs in hub pages made 180 pages APPEAR orphaned when they weren't.** Hub pages link to children using `href="/analogy-doctor-corpse"` (no `.html`), which works perfectly on Netlify but causes any file-presence check using `filename.html` matching to report massive false positives. The lesson: when checking hub-to-child synchronization, always check for BOTH `filename.html` and `filename` (bare) in the hub's href attributes. This false alarm wasted significant audit time in this session before the extensionless pattern was identified.
+
+**Infrastructure insight: Sitemap entries had drifted into a mixed state — 54 pages listed TWICE (once with .html, once without).** This happened because different content agents used different URL formats when adding to the sitemap. A full rebuild from the filesystem (using only `.html` extensions) is the only reliable approach. The sitemap should be rebuilt from scratch periodically, not incrementally patched.
+
+**Technique insight: wire-orphans.js hub mapping must track hub renames.** When `analogies-illustrations.html` was retired as a redirect to `stories.html`, the wire-orphans mapping wasn't updated. The `analogy-` prefix still pointed to the dead page. Any time a hub is retired or renamed, the wire-orphans mapping MUST be updated in the same session. Added this to the permanent Guardian checklist.
+
+**Apply to:** Guardian (update checklist — extensionless URL check, sitemap full rebuilds, wire-orphans mapping after hub changes), all content agents (run build scripts after creating pages — 19 pages created without favicon links this session).
+
 ### 2026-04-06 — Guardian (Diamond Week Day 2, Session 2) — PATTERN + CRAFT
 
 **Discovery: 334 pages used `<div>` or `<section>` for `page-hero` and `article-body` instead of semantic HTML (`<header>` and `<article>`).** This was invisible to visitors but a major accessibility and SEO deficiency. Screen readers and search engine crawlers rely on semantic tags to understand page structure — a `<div class="page-hero">` is meaningless to a crawler, but `<header class="page-hero">` signals "this is the page header." Similarly, `<article class="article-body">` tells crawlers "this is the main content" in a way `<div class="article-body">` never can. The breakdown: 96 pages had `<div class="page-hero">`, 163 had `<section class="page-hero">`, 55 had `<div class="article-body">`, 20 had `<section class="article-body">`. All 334 were converted in batch via Node.js scripts in a single session.
@@ -2856,3 +2866,13 @@ Create a "CHILDREN OF SATAN → FAITH IS GIFT → ELECTION" progression page tha
 **Failure noted:** Comparison pages with structured table formats (overview grids, point-by-point layouts) resist emotional hooks less naturally. The subtitle in the page-hero carries the emotional weight instead. Don't force a hook paragraph into a page whose structure IS the argument.
 
 **Apply to:** All agents creating or enhancing article pages. The Dramaturg's taxonomy above should become standard vocabulary for the fleet. Enhancers should not add new sections to pages that lack an emotional hook — the hook comes first.
+
+### 2026-04-06 — Weaver (Session #3) — BRIDGE + PATTERN
+
+**Discovery: The highest-impact Weaver links are "conceptual echoes" — connecting pages that use different metaphors for the same underlying truth.** Example: psychology-anosognosia-of-sin (the brain can't see its own damage) and philosophy-godel-incompleteness (a system can't validate itself from within) are saying the SAME THING from two completely different disciplines. When a reader follows the link from anosognosia → Gödel, the truth hits twice — once from neurology, once from mathematics — and the double impact is far more devastating than either page alone. Similarly, philosophy-immune-system-grace (grace as an immune system you never asked for) and philosophy-gravity-of-grace (grace as a force like gravity) are parallel metaphors for the same truth: grace operates whether or not you consent to it. Linking these creates a "metaphor cluster" where the reader encounters the same inescapable truth from four different angles.
+
+**Why it matters:** The auto-linker can match keywords, but it cannot detect *conceptual resonance* between pages that use entirely different vocabulary for the same idea. This is the Weaver's irreplaceable contribution: finding the invisible threads between pages that share meaning but not words. These are the links that make readers say "I see it from every angle now."
+
+**Pattern observed:** The pages with the highest existing link counts (50+) are NOT the ones with the most keywords — they're the ones written by agents who naturally wove connections while writing. Pages written by agents who focused on single-topic depth (psychology pages, philosophy pages) tend to have 15-20 links. Cross-category hand-crafting is the only way to push these into the 25+ range.
+
+**Apply to:** All Weaver sessions. Before hand-crafting links, ask: "What page uses a DIFFERENT metaphor for the SAME truth?" That question reliably identifies the highest-value links the auto-linker will never find.

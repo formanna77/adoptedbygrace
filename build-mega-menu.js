@@ -22,7 +22,7 @@ const SKIP = new Set([
   'google0af1fbedb3c930a8.html',
   'donate.html', 'contact.html', 'privacy.html', 'terms.html',
   'about.html', 'freedom.html', 'belief-assessment.html', 'quiz.html',
-  'explore-map.html', 'connections.html', 'essays.html',
+  'explore-map.html',
   'best-reads.html', 'verse-explorer.html',
 ]);
 
@@ -107,6 +107,22 @@ const UMBRELLAS = [
         hubFiles: ['ot-election.html'],
       },
       // Creeds merged into History (creeds-confessions.html now redirects to history-timeline)
+      {
+        key: 'connections',
+        name: 'Connections',
+        icon: '🔗',
+        hub: '/connections',
+        prefixes: [],
+        extraFiles: ['connections.html'],
+      },
+      {
+        key: 'essays',
+        name: 'Essays',
+        icon: '📝',
+        hub: '/essays',
+        prefixes: [],
+        extraFiles: ['essays.html'],
+      },
     ],
   },
 
