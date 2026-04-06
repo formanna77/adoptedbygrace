@@ -131,6 +131,9 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Apr 5 | Weaver | open-wound-betrayed-by-church.html | LINKS | 4 hand-crafted links: hamartiology, faithgift, divine-decrees, lazarus-grave. Cross-category: healing→systematic, healing→analogy. |
 | Apr 5 | Weaver | demolition-1cor15-22.html | LINKS | 4 hand-crafted links: anthropology, election, atonement, chosen+never-gives-up. Cross-category: demolition→devotional (Two Arms). |
 | Apr 5 | Weaver | theologian-luther.html | LINKS | 4 hand-crafted links: free will, regeneration, where-did-your-faith, augustine. Cross-category: theologian→question. |
+| Apr 6 | Enhancer | demolition-john3-16.html | CONTENT | Added 3 new sections: "The Irony Nobody Sees" (Humor Bomb + Devastating Question + Piper quote), "A Word for the One Who Is Shaking Right Now" (Pastoral Whisper with Two Arms bridge to healing pages), sharpened Crown Jewel connection. Added Augustine witness quote. 4 new cross-category links. |
+| Apr 6 | Enhancer | anxious-mind-never-meant-to-carry.html | CONTENT | Added new Section 5: "The Theology Your Anxiety Is Trying to Tell You" — connecting Arminian framework to anxiety as its logical emotional consequence. Sleep-as-sovereignty analogy. Tripp quote. Devastating Question added to Section 2. 8+ new cross-category links (demolition, philosophy, psychology, covenant theology). |
+| Apr 6 | Enhancer | demolition-1cor15-22.html | CONTENT | Deep Enhancement: ESV→NIV conversion (5 passages). Added 3 new sections: Theologian Witnesses (Augustine, Calvin, Hodge, Spurgeon), Crown Jewel connection ("How did you get 'in Christ'?"), Pastoral Whisper. Added Devastating Question in context section. 10+ new cross-category links (psychology, devotionals, healing, other demolitions). |
 | Apr 5 | Weaver | question-where-does-your-no-come-from.html | LINKS | 2 hand-crafted links: illusion-free-will, resistance-is-proof. Cross-category: question→psychology, question→philosophy. |
 | Apr 5 | Guardian | site-wide | STRUCTURE | Rebuilt search index (363 pages), mega-menu (327 articles), auto-linker (570 links across 186 files). |
 | Apr 5 | Guardian | 8 pages (batch) | STRUCTURE | Fixed non-standard eyebrow classes (hero-eyebrow, topic-label, article-meta → eyebrow; hero-subtitle, article-subtitle → hub-subtitle). |
@@ -189,6 +192,28 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Apr 5 | Guardian | open-wound-hospital-room.html | STRUCTURE | Fixed critical orphaned content: 3 full sections + back-link + related articles + footer existed AFTER `</body></html>`. Restructured entire page with proper article/body closure. |
 | Apr 5 | Guardian | 5 theologian pages (batch) | STRUCTURE | Fixed 13 broken internal links in theologian-anselm, theologian-bradwardine, theologian-machen, theologian-warfield, theologian-wycliffe. Redirected aspirational links to nearest existing pages. |
 | Apr 5 | Guardian | site-wide | STRUCTURE | Rebuilt search index (373 pages), mega-menu (337 articles), auto-linker (583 links across 67 files). |
+| Apr 5 | Weaver | devotional-not-my-will-but-joy.html | LINKS | +6 hand-crafted links (5→11). Cross-category: divine decrees, golden chain, Joseph OT, compatibilism, perseverance, chosen. |
+| Apr 5 | Weaver | devotional-my-chains-fell-away.html | LINKS | +6 hand-crafted links (4→10). Cross-category: hamartiology, regeneration, depravity, chosen, perseverance, Crown Jewel. |
+| Apr 5 | Weaver | psalms-election.html | LINKS | +6 hand-crafted links (2→8). Cross-category: election, Crown Jewel, divine decrees, perseverance, hamartiology, forever loved. |
+| Apr 5 | Weaver | question-matt11.html | LINKS | +7 hand-crafted links (1→8). Cross-category: divine decrees, election, psychology-why-we-resist, chosen, Crown Jewel, irresistible, depravity. |
+| Apr 5 | Weaver | question-john10.html | LINKS | +5 hand-crafted links (2→8). Cross-category: election, divine decrees, golden chain, Crown Jewel, irresistible. |
+| Apr 5 | Weaver | question-newheart.html | LINKS | +5 hand-crafted links (5→9). Cross-category: divine decrees, depravity, Crown Jewel, freedom, election. |
+| Apr 5 | Weaver | secular-history-sovereignty.html | LINKS | +4 hand-crafted links (5→9). Cross-category: divine decrees, chosen, depravity, psychology-why-we-resist. |
+| Apr 5 | Weaver | story-the-room-where-you-chose.html | LINKS | +4 hand-crafted links (1→5). Cross-category: autonomy illusion, divine decrees, chosen, Crown Jewel. |
+| Apr 5 | Weaver | apologetic-unreached.html | LINKS | +6 hand-crafted links (2→8). Cross-category: depravity, divine decrees, chosen, irresistible, Crown Jewel, psychology-suppressing-truth. |
+| Apr 5 | Weaver | systematic-resurrection.html | LINKS | +5 hand-crafted links (3→8). Cross-category: Crown Jewel, atonement, election, divine decrees, chosen. |
+| Apr 5 | Weaver | question-dead-bury-dead.html | LINKS | +5 hand-crafted links (7→12). Cross-category: regeneration, Crown Jewel, election, psychology-why-we-resist, golden chain. |
+| Apr 5 | Weaver | anxious-mind-the-loop-that-wont-break.html | LINKS | +2 hand-crafted links (10→12). Cross-category: divine decrees, perseverance. |
+| Apr 5 | Weaver | psychology-sincerity-trap.html | LINKS | +4 hand-crafted links (10→14). Cross-category: Crown Jewel, chosen, regeneration, soteriology. |
+| Apr 5 | Weaver | story-children-the-king-who-chose.html | LINKS | +3 hand-crafted links (10→13). Cross-category: divine decrees, Crown Jewel, depravity. |
+| Apr 5 | Weaver | shattered-lens-cant-unsee-it.html | LINKS | +4 hand-crafted links (10→14). Cross-category: autonomy illusion, divine decrees, election, Crown Jewel. |
+| Apr 5 | Weaver | invisible-wall-friend-who-left.html | LINKS | +3 hand-crafted links (11→14). Cross-category: irresistible, depravity, chosen. |
+| Apr 5 | Weaver | story-humor-committee-to-save-yourself.html | LINKS | +2 hand-crafted links (12→14). Cross-category: Crown Jewel, depravity. |
+| Apr 5 | Weaver | question-why-pray-if-god-is-sovereign.html | LINKS | +2 hand-crafted links (12→14). Cross-category: divine decrees, irresistible. |
+| Apr 5 | Weaver | broken-mirror-the-relapse.html | LINKS | +3 hand-crafted links (13→16). Cross-category: election, divine decrees, atonement. |
+| Apr 5 | Weaver | devotional-the-god-who-wastes-nothing.html | LINKS | +1 hand-crafted link (13→14). Cross-category: divine decrees. |
+| Apr 5 | Weaver | question-sovereignty-logic.html | LINKS | +2 hand-crafted links (13→15). Cross-category: Crown Jewel, depravity. |
+| Apr 5 | Weaver | (batch via auto-linker.js) | LINKS | Auto-linker run: 82 links added across 47 files. All 4 rebuild scripts run. Validator: 0 errors, 11 warnings (eyebrow-related, Refiner's lane). |
 
 ---
 

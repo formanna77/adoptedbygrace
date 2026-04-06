@@ -324,10 +324,50 @@ for (const [hubFile, data] of Object.entries(orphansByHub)) {
   }
 }
 
+// ═══════════════════════════════════════════════════════
+// STEP 7: Dedup pass — remove any duplicate hub-cards
+// ═══════════════════════════════════════════════════════
+let totalDupsRemoved = 0;
+const ALL_HUBS = [
+  'questions.html', 'demolition-hub.html', 'psychology-hub.html', 'philosophy-hub.html',
+  'stories.html', 'devotionals.html', 'analogies-illustrations.html', 'secular-evidence.html',
+  'systematic-theology.html', 'theologians.html', 'history-timeline.html', 'essays.html',
+  'comparisons-hub.html', 'pastoral-hub.html', 'ot-hub.html',
+  'invisible-wall-hub.html', 'open-wound-hub.html', 'shattered-lens-hub.html',
+  'broken-mirror-hub.html', 'anxious-mind-hub.html',
+];
+
+for (const hub of ALL_HUBS) {
+  if (!fs.existsSync(hub)) continue;
+  let content = fs.readFileSync(hub, 'utf8');
+  const cardRegex = /<a\s+href="([^"]+)"\s+class="hub-card[^"]*"[\s\S]*?<\/a>/g;
+  const seen = new Set();
+  const duplicates = [];
+  let match;
+  while ((match = cardRegex.exec(content)) !== null) {
+    const normalized = match[1].replace(/^\//, '').replace(/\.html$/, '');
+    if (seen.has(normalized)) {
+      duplicates.push({ fullMatch: match[0], index: match.index });
+    } else {
+      seen.add(normalized);
+    }
+  }
+  if (duplicates.length > 0 && !DRY_RUN) {
+    for (const dupe of duplicates.reverse()) {
+      content = content.slice(0, dupe.index) + content.slice(dupe.index + dupe.fullMatch.length);
+    }
+    content = content.replace(/\n{3,}/g, '\n\n');
+    fs.writeFileSync(hub, content, 'utf8');
+    totalDupsRemoved += duplicates.length;
+    console.log(`  🧹 Removed ${duplicates.length} duplicate cards from ${hub}`);
+  }
+}
+
 console.log('\n═══════════════════════════════════════════');
 console.log(`  RESULTS`);
 console.log(`  Orphans found: ${totalOrphans}`);
 console.log(`  Cards inserted: ${totalWired}`);
 console.log(`  Hubs modified: ${hubsModified.length} (${hubsModified.join(', ')})`);
+console.log(`  Duplicates removed: ${totalDupsRemoved}`);
 console.log(`  Unmapped: ${unmapped.length}`);
 console.log('═══════════════════════════════════════════');

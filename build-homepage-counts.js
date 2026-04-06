@@ -43,14 +43,14 @@ const CATEGORIES = [
   { href: '/psychology-hub', patterns: [/^psychology-/, /^resistance-/] },
   { href: '/systematic-theology', patterns: [/^systematic-/] },
   { href: '/devotionals', patterns: [/^devotional-/] },
-  { href: '/stories', patterns: [/^story-/] },
+  { href: '/stories', patterns: [/^story-/, /^analogy-/] },
   { href: '/questions#objections', patterns: [/^objection-/] },
   { href: '/ot-hub', patterns: [/^ot-/, /^psalm-/, /^psalms-/] },
   { href: '/history-timeline', patterns: [/^history-/, /^creed-/, /^canons-/, /^westminster-/, /^heidelberg-/] },
   { href: '/secular-evidence', patterns: [/^secular-/] },
   { href: '/philosophy-hub', patterns: [/^philosophy-/] },
   { href: '/theologians', patterns: [/^theologian-/, /^hymn-/] },
-  { href: '/analogies-illustrations', patterns: [/^analogy-/] },
+  // Analogies merged into /stories — { href: '/analogies-illustrations' } is retired
   { href: '/comparisons-hub', patterns: [/^compare-/, /^comparison-/] },
   { href: '/start-here', patterns: [/^start-here-/, /^phase-/, /^scripture-tsunami/] },
   // Healing sub-hubs

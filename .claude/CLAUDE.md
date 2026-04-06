@@ -120,6 +120,36 @@ Writing a batch script that fixes 150 files is excellent — that is Rule 6 work
 **RULE 11: MINIMUM PAGE ENGAGEMENT PER SESSION.**
 Enhancement agents (Guardian, Weaver, Enhancer, Dramaturg, Refiner, Cartographer) must touch a minimum of **30 pages per session** with substantive changes. Content creation agents must produce a minimum of **3 complete, finished pages per session** (not stubs, not outlines — fully built, nav-included, footer-included, link-woven pages). 3 is the FLOOR, not the target — if you finish 3 pages and still have 40% of your context remaining, you start page 4. And page 5. You keep creating until your context window forces you to stop. If a session falls below these floors, it has failed regardless of fix rate.
 
+**RULE 12: MANDATORY PRE-RECEIPT CHECKPOINT — YOU MAY NOT WRITE A SESSION RECEIPT UNTIL YOU PASS THIS GATE.**
+Before you are allowed to write your session receipt, you MUST complete this self-audit. This is not optional. This is a HARD GATE. If you fail any check, you go back to work — you do NOT proceed to the receipt.
+
+**STEP 1: COUNT YOUR PAGES.**
+How many pages did you substantively touch this session?
+- If you are an enhancement agent and the answer is below 30: **STOP. You are not done. Go back to work.** Find the next batch of pages in your lane and keep enhancing. You may NOT write a receipt.
+- If you are a content creation agent and the answer is below 3: **STOP. You are not done. Go back to work.** Start the next page. You may NOT write a receipt.
+
+**STEP 2: ESTIMATE YOUR CONTEXT USAGE.**
+Roughly how much of your context window have you used? Count your tool calls, file reads, and file edits. If you have made fewer than 40 substantive file modifications OR you have used fewer than ~100 tool calls total, you almost certainly have context remaining.
+- If you have significant context remaining: **STOP. You are not done. Go back to work.** You may NOT write a receipt.
+
+**STEP 3: CHECK YOUR DISCOVERY COUNT.**
+How many total issues/pages did you SCAN across the entire site? If your discovery count is under 50 for enhancement agents, you did a shallow scan. There are 370+ pages. You should be scanning ALL of them, not stopping after you've found enough to fill a tidy receipt.
+- If your discovery count is suspiciously low: **STOP. Run a comprehensive grep/scan across the full site first.** Then fix what you find. THEN write your receipt.
+
+**STEP 4: VERIFY YOU ARE NOT GAMING THE RECEIPT.**
+Ask yourself honestly: "If Aaron looked at the actual diff of my session, would he say I used my context window well — or would he say I did good work on a handful of pages and stopped early?" If the honest answer is the latter: **STOP. Go back to work.**
+
+**Only after passing ALL FOUR steps may you write your session receipt.** Any agent that writes a receipt without passing this gate has violated a mandatory rule. The receipt itself must include a line confirming the checkpoint:
+
+```
+PRE-RECEIPT CHECKPOINT: ✅ PASSED
+  Pages touched: [N] (minimum: 30 enhancement / 3 creation)
+  Estimated context usage: [high/medium — must be high]
+  Full-site scan performed: [yes/no — must be yes for enhancement agents]
+```
+
+If an agent writes a receipt WITHOUT this checkpoint block, the session is automatically flagged as non-compliant.
+
 ### WHY THIS EXISTS
 Every agent session costs real money. A session that finds 150 problems and fixes 15 is a session that wasted 90% of its budget on reconnaissance with no action. Aaron is not paying for audits. Aaron is paying for RESULTS. Deliver them.
 
@@ -395,9 +425,9 @@ Not `hub-hero` (that's for hub pages only). Not a custom hero class. Not an inli
 | demolition-hub.html | Demolition |
 | psychology-hub.html | Psychology |
 | philosophy-hub.html | Philosophy |
-| stories.html | Stories |
+| stories.html | Stories, Parables & Analogies |
 | devotionals.html | Devotionals |
-| analogies-illustrations.html | Analogies |
+| analogies-illustrations.html | RETIRED — redirects to stories.html |
 | secular-evidence.html | Secular Evidence |
 | systematic-theology.html | Systematic Theology |
 | theologians.html | Theologians |

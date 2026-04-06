@@ -2894,3 +2894,3551 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .mega-menu-dropdown a:hover {
     color: var(--accent-gold);
 }
+
+/* ============================================================
+   HUB PAGE BOTTOM SECTIONS — humor bar, matters, cross-refs
+   ============================================================ */
+
+/* Humor bar — witty one-liner between card grid and bottom sections */
+.humor-bar {
+    max-width: 800px;
+    margin: 2.5rem auto 3rem;
+    padding: 1.2rem 2rem;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    color: var(--text-muted, #6b6560);
+    border-top: 1px solid rgba(212, 162, 84, 0.15);
+    border-bottom: 1px solid rgba(212, 162, 84, 0.15);
+    letter-spacing: 0.02em;
+    line-height: 1.7;
+}
+.humor-bar em {
+    color: var(--accent-gold);
+    font-style: italic;
+}
+
+/* "Why This Matters" section */
+.matters-section {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 3rem 2rem;
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.12);
+    border-radius: 12px;
+}
+.matters-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: var(--accent-gold);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.matters-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+.matters-item {
+    padding: 1.5rem;
+    background: rgba(212, 162, 84, 0.05);
+    border: 1px solid rgba(212, 162, 84, 0.1);
+    border-radius: 8px;
+}
+.matters-item h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: var(--accent-gold);
+    margin-bottom: 0.6rem;
+}
+.matters-item p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+/* Cross-reference links section */
+.cross-ref-section {
+    max-width: 800px;
+    margin: 3rem auto;
+    text-align: center;
+}
+.cross-ref-section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    color: var(--accent-gold);
+    margin-bottom: 1.2rem;
+}
+.cross-ref-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+}
+.cross-ref-links a {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    background: rgba(212, 162, 84, 0.08);
+    border: 1px solid rgba(212, 162, 84, 0.2);
+    border-radius: 6px;
+    color: var(--accent-gold);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.cross-ref-links a:hover {
+    background: rgba(212, 162, 84, 0.15);
+    border-color: var(--accent-gold);
+    box-shadow: 0 2px 10px rgba(212, 162, 84, 0.2);
+}
+
+/* ============================================================
+   ARTICLE CONTENT ELEMENTS — Scripture, quotes, boxes, cards
+   Safety net for classes used across 200+ article pages.
+   ============================================================ */
+
+/* Scripture quotation blocks */
+.scripture-quote {
+    background: rgba(212, 162, 84, 0.06);
+    border-left: 3px solid var(--accent-gold);
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+.scripture-quote p {
+    font-style: italic;
+    color: var(--text-primary);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin: 0 0 0.5rem;
+}
+.scripture-text {
+    font-style: italic;
+    color: var(--text-primary);
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+.scripture-ref, .scripture-reference {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    color: var(--accent-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.verse-ref {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: rgba(139, 92, 246, 0.8);
+    letter-spacing: 0.03em;
+}
+.verse-text {
+    font-style: italic;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Pull quotes — large decorative callouts */
+.pull-quote-container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem 2.5rem;
+    border-top: 2px solid rgba(212, 162, 84, 0.2);
+    border-bottom: 2px solid rgba(212, 162, 84, 0.2);
+    text-align: center;
+}
+.pull-quote-container .pull-quote,
+.pull-quote-container p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--text-primary);
+    line-height: 1.7;
+}
+
+/* Greek/Hebrew term highlights */
+.greek-term, .greek, .hebrew, .transliteration {
+    font-family: 'JetBrains Mono', monospace;
+    font-style: italic;
+    color: var(--accent-gold);
+    font-size: 0.95em;
+}
+.greek-analysis {
+    background: rgba(212, 162, 84, 0.05);
+    border: 1px solid rgba(212, 162, 84, 0.15);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+/* Emphasis callouts */
+.emphasis {
+    font-weight: 600;
+    color: var(--accent-gold);
+}
+
+/* Devastating conclusion boxes */
+.devastating-box {
+    background: linear-gradient(135deg, rgba(232, 100, 44, 0.08), rgba(139, 92, 246, 0.05));
+    border: 2px solid rgba(232, 100, 44, 0.25);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+.devastating-box h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--accent-ember);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.devastating-box p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Arminian claim boxes */
+.arminian-box {
+    background: rgba(139, 92, 246, 0.06);
+    border-left: 3px solid rgba(139, 92, 246, 0.5);
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.arminian-box h4 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(139, 92, 246, 0.8);
+    margin-bottom: 0.8rem;
+}
+.arminian-box p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    font-style: italic;
+}
+
+/* Objection/response pattern */
+.objection {
+    background: rgba(232, 100, 44, 0.06);
+    border-left: 3px solid var(--accent-ember);
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.objection-title, .objection-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-ember);
+    margin-bottom: 0.5rem;
+}
+.objection-response {
+    background: rgba(212, 162, 84, 0.06);
+    border-left: 3px solid var(--accent-gold);
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.objection-response p, .objection p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Psychology mechanism cards */
+.mechanism-card {
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.12);
+    border-radius: 10px;
+    padding: 1.5rem 1.5rem 1.5rem 4rem;
+    margin: 1.5rem 0;
+    position: relative;
+}
+.mechanism-num {
+    position: absolute;
+    left: 1.2rem;
+    top: 1.2rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgba(212, 162, 84, 0.3);
+}
+.mechanism-card p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+}
+
+/* Concept cards (philosophy pages) */
+.concept-card {
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.12);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.concept-card h3, .concept-card h4 {
+    font-family: 'Playfair Display', serif;
+    color: var(--accent-gold);
+    margin-bottom: 0.8rem;
+}
+.concept-card p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Witness cards (theologian quotes in articles) */
+.witness-card {
+    background: rgba(212, 162, 84, 0.05);
+    border: 1px solid rgba(212, 162, 84, 0.15);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.witness-name {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    color: var(--accent-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+.witness-card p {
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.8;
+}
+
+/* Quote sources (theologian pages) */
+.quote-source {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted, #6b6560);
+    margin-top: 0.5rem;
+}
+
+/* Theology humor / irony boxes */
+.theology-humor, .humor-aside {
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px dashed rgba(212, 162, 84, 0.2);
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+    color: var(--text-muted, #6b6560);
+    font-style: italic;
+}
+.irony-box {
+    background: rgba(139, 92, 246, 0.04);
+    border: 1px dashed rgba(139, 92, 246, 0.2);
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+/* Self-reflection boxes (psychology pages) */
+.self-ref {
+    background: rgba(232, 100, 44, 0.04);
+    border: 1px solid rgba(232, 100, 44, 0.15);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.self-ref p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Researcher attribution */
+.researcher {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted, #6b6560);
+    letter-spacing: 0.03em;
+}
+
+/* Theologian attribution in article text */
+.theologian-attribution {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    color: var(--accent-gold);
+    letter-spacing: 0.03em;
+    margin-top: 0.5rem;
+}
+
+/* Tier badges (demolition pages) */
+.tier-badge {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    background: rgba(232, 100, 44, 0.1);
+    color: var(--accent-ember);
+    border: 1px solid rgba(232, 100, 44, 0.25);
+}
+
+/* Read time indicator */
+.read-time {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted, #6b6560);
+    letter-spacing: 0.03em;
+}
+
+/* Reading progress bar */
+.reading-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
+    z-index: 10000;
+    transition: width 0.1s ease;
+}
+
+/* Share buttons */
+.share-buttons {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+.share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid rgba(212, 162, 84, 0.2);
+    background: rgba(212, 162, 84, 0.05);
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.share-btn:hover {
+    background: rgba(212, 162, 84, 0.12);
+    border-color: var(--accent-gold);
+    color: var(--accent-gold);
+}
+.share-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted, #6b6560);
+}
+
+/* Banner (crown jewel, never-gives-up, etc.) */
+.banner-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+/* Keep Reading / Continue Exploring sections */
+.keep-reading-title, .continue-exploring h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: var(--accent-gold);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.continue-exploring {
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 2rem 0;
+}
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem;
+}
+.explore-link {
+    display: block;
+    padding: 1.2rem;
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.12);
+    border-radius: 8px;
+    color: var(--accent-gold);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.explore-link:hover {
+    background: rgba(212, 162, 84, 0.1);
+    border-color: var(--accent-gold);
+    box-shadow: 0 2px 12px rgba(212, 162, 84, 0.15);
+}
+
+/* Cross-link grids (comparison pages) */
+.cross-link-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem;
+    margin: 1.5rem 0;
+}
+.cross-link-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    color: var(--accent-gold);
+    margin-bottom: 0.4rem;
+}
+.cross-link-desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* Card arrows (philosophy, psychology pages) */
+.card-arrow {
+    color: var(--accent-gold);
+    transition: transform 0.3s ease;
+}
+
+/* Article title in content */
+.article-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--text-primary);
+}
+
+/* Meta items (date, category, etc.) */
+.meta-item {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted, #6b6560);
+    letter-spacing: 0.03em;
+}
+
+/* Cross-link cards (used by auto-linker related sections) */
+.cl-cat {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(139, 92, 246, 0.7);
+    display: block;
+    margin-bottom: 0.3rem;
+}
+.cl-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    color: var(--accent-gold);
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+/* ============================================================
+   ALTERNATE FOOTER VARIANTS — safety net for non-standard footers
+   ============================================================ */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+.footer-links a:hover {
+    color: var(--accent-gold);
+}
+.footer-bottom {
+    border-top: 1px solid rgba(212, 162, 84, 0.1);
+    padding-top: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted, #6b6560);
+}
+.footer-site {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted, #6b6560);
+}
+.site-footer {
+    background: var(--bg-primary, #0a0a0f);
+    border-top: 1px solid rgba(212, 162, 84, 0.1);
+    padding: 3rem 0 1.5rem;
+}
+.site-footer a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+.site-footer a:hover {
+    color: var(--accent-gold);
+}
+
+/* ============================================================
+   ARTICLE CONTENT ELEMENTS — Second batch
+   ============================================================ */
+
+/* Hero title (non-hub hero usage) */
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: var(--text-primary);
+    line-height: 1.2;
+}
+
+/* Witness grid + attribution */
+.witness-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+.witness {
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.12);
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+.witness p {
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.8;
+}
+.witness-attribution {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--accent-gold);
+    letter-spacing: 0.03em;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+/* Key insight / key point callouts */
+.key-insight, .key-point {
+    background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(232, 100, 44, 0.04));
+    border-left: 3px solid var(--accent-gold);
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.key-insight p, .key-point p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Pastoral boxes */
+.pastoral-box {
+    background: rgba(139, 92, 246, 0.04);
+    border: 1px solid rgba(139, 92, 246, 0.15);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.pastoral-box h3, .pastoral-box h4 {
+    color: rgba(139, 92, 246, 0.8);
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0.8rem;
+}
+.pastoral-box p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Claim boxes */
+.claim-box {
+    background: rgba(232, 100, 44, 0.05);
+    border: 1px solid rgba(232, 100, 44, 0.15);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.claim-box p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Quote boxes/blocks */
+.quote-block, .quote-box {
+    background: rgba(212, 162, 84, 0.05);
+    border-left: 3px solid var(--accent-gold);
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+.quote-block p, .quote-box p {
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.8;
+}
+
+/* Banner text (inside CTA banners) */
+.banner-text {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 650px;
+    margin: 0 auto 1.5rem;
+}
+
+/* Article link cards */
+.article-link {
+    display: block;
+    padding: 1.2rem;
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.12);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 0.8rem 0;
+}
+.article-link:hover {
+    background: rgba(212, 162, 84, 0.1);
+    border-color: var(--accent-gold);
+}
+.article-link-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    color: var(--accent-gold);
+    margin-bottom: 0.3rem;
+    display: block;
+}
+.article-link-desc, .link-desc {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* Pull quote author */
+.pull-quote-author {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--accent-gold);
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* Pairing rows (devotional pages with Scripture pairings) */
+.pairing-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background: rgba(212, 162, 84, 0.03);
+    border-radius: 8px;
+    border: 1px solid rgba(212, 162, 84, 0.08);
+}
+@media (max-width: 640px) {
+    .pairing-row { flex-direction: column; }
+}
+.pairing-scripture {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: rgba(139, 92, 246, 0.7);
+    white-space: nowrap;
+    min-width: 120px;
+}
+
+/* Story containers */
+.story-container {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: var(--text-secondary);
+}
+
+/* Page meta bar */
+.page-meta {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted, #6b6560);
+    margin: 1rem 0 2rem;
+    flex-wrap: wrap;
+}
+
+/* Hub hero eyebrow (variant of eyebrow for hub pages) */
+.hub-hero-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: var(--accent-ember);
+}
+
+/* Section navigation (table of contents) */
+.section-nav-inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.section-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.section-nav-list li {
+    margin: 0.4rem 0;
+}
+.section-nav-list a {
+    color: var(--accent-gold);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+.section-nav-list a:hover {
+    color: var(--accent-ember);
+}
+
+/* Cross-link labels */
+.cross-link-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(139, 92, 246, 0.7);
+}
+
+/* Closing prayer / opening hook */
+.closing-prayer {
+    max-width: 650px;
+    margin: 3rem auto;
+    padding: 2rem;
+    text-align: center;
+    font-style: italic;
+    color: var(--text-secondary);
+    border-top: 1px solid rgba(212, 162, 84, 0.15);
+    line-height: 1.8;
+}
+.opening-hook {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: var(--text-primary);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+/* Reflection boxes */
+.reflection {
+    background: rgba(139, 92, 246, 0.04);
+    border-left: 3px solid rgba(139, 92, 246, 0.3);
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.reflection p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Research citations */
+.research-cite {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--text-muted, #6b6560);
+    padding: 0.8rem 1rem;
+    background: rgba(212, 162, 84, 0.03);
+    border-radius: 4px;
+    margin: 0.5rem 0;
+}
+
+/* Large text variant */
+.large {
+    font-size: 1.2em;
+}
+
+/* Generic .footer (used by some non-standard page footers) */
+.footer {
+    background: var(--bg-primary, #0a0a0f);
+    border-top: 1px solid rgba(212, 162, 84, 0.1);
+    padding: 3rem 0 1.5rem;
+}
+
+/* ============================================================
+   ARTICLE CONTENT ELEMENTS — Third batch (5+ page classes)
+   ============================================================ */
+
+/* Scripture echo (decorative repeat of a verse theme) */
+.scripture-echo {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: rgba(212, 162, 84, 0.6);
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+/* Pairing science (science/Scripture pairing rows) */
+.pairing-science {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Further reading links */
+.further-reading-link {
+    display: block;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.1);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.further-reading-link:hover {
+    background: rgba(212, 162, 84, 0.1);
+    border-color: var(--accent-gold);
+}
+.fr-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--accent-gold);
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+.fr-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    display: block;
+}
+
+/* Story text */
+.story-text {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.85;
+}
+
+/* Work title (theologian bibliographies) */
+.work-title {
+    font-style: italic;
+    color: var(--text-primary);
+}
+
+/* Article category label */
+.article-category {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-ember);
+}
+
+/* Highlight boxes */
+.highlight-box {
+    background: rgba(212, 162, 84, 0.06);
+    border: 1px solid rgba(212, 162, 84, 0.15);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.highlight-box p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Humor notes */
+.humor-note {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--text-muted, #6b6560);
+    padding: 0.8rem 1.2rem;
+    border-left: 2px dashed rgba(212, 162, 84, 0.2);
+    margin: 1rem 0;
+}
+
+/* Cards grid (generic alternative to hub-grid) */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+/* Hero verse */
+.hero-verse {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: rgba(212, 162, 84, 0.7);
+    font-size: 1rem;
+    margin-top: 0.8rem;
+}
+
+/* Banner links */
+.banner-link {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    background: linear-gradient(135deg, var(--accent-ember), #c0541e);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(232, 100, 44, 0.25);
+}
+.banner-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(232, 100, 44, 0.35);
+}
+
+/* Hub accent elements */
+.hub-accent {
+    color: var(--accent-gold);
+}
+
+/* Hub scripture quote */
+.hub-scripture-quote {
+    background: rgba(212, 162, 84, 0.05);
+    border-left: 3px solid var(--accent-gold);
+    padding: 1.25rem 1.5rem;
+    margin: 2rem auto;
+    max-width: 700px;
+    font-style: italic;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Hub humor */
+.hub-humor {
+    text-align: center;
+    font-style: italic;
+    color: var(--text-muted, #6b6560);
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+}
+
+/* Hub cross-reference section */
+.hub-cross-ref {
+    max-width: 800px;
+    margin: 3rem auto;
+    text-align: center;
+}
+.hub-cross-ref-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+.hub-cross-ref-links a {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    background: rgba(212, 162, 84, 0.08);
+    border: 1px solid rgba(212, 162, 84, 0.2);
+    border-radius: 6px;
+    color: var(--accent-gold);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.hub-cross-ref-links a:hover {
+    background: rgba(212, 162, 84, 0.15);
+    border-color: var(--accent-gold);
+}
+
+/* Hub crown jewel banner */
+.hub-crown-jewel {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background: linear-gradient(135deg, rgba(232, 100, 44, 0.08), rgba(139, 92, 246, 0.05));
+    border: 2px solid rgba(232, 100, 44, 0.25);
+    border-radius: 12px;
+    text-align: center;
+}
+.hub-crown-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    color: var(--accent-ember);
+    margin-bottom: 1rem;
+}
+.hub-crown-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+.hub-crown-text {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+}
+.hub-crown-button {
+    display: inline-block;
+    padding: 0.9rem 2rem;
+    background: linear-gradient(135deg, var(--accent-ember), #c0541e);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(232, 100, 44, 0.25);
+}
+.hub-crown-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(232, 100, 44, 0.35);
+}
+
+/* Cross-reference card grid */
+.cross-ref-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem;
+    margin: 1.5rem 0;
+}
+.cross-ref-card {
+    display: block;
+    padding: 1.2rem;
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.12);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.cross-ref-card:hover {
+    background: rgba(212, 162, 84, 0.1);
+    border-color: var(--accent-gold);
+}
+
+/* Card description (generic) */
+.card-desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* Footer column */
+.footer-column h4 {
+    font-family: 'Playfair Display', serif;
+    color: var(--accent-gold);
+    margin-bottom: 0.8rem;
+}
+.footer-column a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+.footer-column a:hover {
+    color: var(--accent-gold);
+}
+
+/* Comparison cards */
+.compare-card {
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.12);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+.compare-card-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-ember);
+    margin-bottom: 0.5rem;
+}
+
+/* Proof cards (Scripture proof sections) */
+.proof-card {
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.12);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+.proof-ref {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    color: rgba(139, 92, 246, 0.7);
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.proof-text {
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.8;
+}
+.proof-note {
+    font-size: 0.9rem;
+    color: var(--text-muted, #6b6560);
+    margin-top: 0.5rem;
+    line-height: 1.6;
+}
+
+/* Muted text */
+.muted {
+    color: var(--text-muted, #6b6560);
+}
+
+/* Next button */
+.next-button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: rgba(212, 162, 84, 0.1);
+    border: 1px solid rgba(212, 162, 84, 0.3);
+    border-radius: 6px;
+    color: var(--accent-gold);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.next-button:hover {
+    background: rgba(212, 162, 84, 0.2);
+    border-color: var(--accent-gold);
+}
+
+/* Highlight words */
+.highlight-word {
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
+/* Objection blocks (variant of .objection) */
+.objection-block {
+    background: rgba(232, 100, 44, 0.05);
+    border: 1px solid rgba(232, 100, 44, 0.15);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+.objection-block p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* CTA links */
+.cta-link {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    color: var(--accent-gold);
+    border: 1px solid rgba(212, 162, 84, 0.3);
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.cta-link:hover {
+    background: rgba(212, 162, 84, 0.1);
+    border-color: var(--accent-gold);
+}
+
+/* Timeline navigation */
+.timeline-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+.timeline-nav a {
+    padding: 0.4rem 0.8rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--accent-gold);
+    border: 1px solid rgba(212, 162, 84, 0.2);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.timeline-nav a:hover {
+    background: rgba(212, 162, 84, 0.1);
+}
+
+/* Argument numbers */
+.argument-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgba(212, 162, 84, 0.3);
+}
+
+/* ============================================================
+   ARTICLE CONTENT ELEMENTS — Fourth batch (remaining 5+ page)
+   ============================================================ */
+
+/* Name tag (generic) */
+.name {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Meta labels/values */
+.meta-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted, #6b6560);
+}
+.meta-value {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Pastoral address (direct-to-reader sections) */
+.pastoral-address {
+    background: rgba(139, 92, 246, 0.04);
+    border-left: 3px solid rgba(139, 92, 246, 0.3);
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+}
+.pastoral-address p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Progress stepper (multi-page journeys) */
+.progress-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin: 2rem 0;
+}
+.progress-step {
+    display: flex;
+    align-items: center;
+}
+.progress-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(212, 162, 84, 0.3);
+    border: 2px solid rgba(212, 162, 84, 0.5);
+}
+.progress-dot.active {
+    background: var(--accent-gold);
+    box-shadow: 0 0 8px rgba(212, 162, 84, 0.4);
+}
+.progress-line {
+    width: 40px;
+    height: 2px;
+    background: rgba(212, 162, 84, 0.2);
+}
+.progress-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.progress-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--text-muted, #6b6560);
+}
+
+/* Phase indicator */
+.phase-indicator {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-ember);
+    margin-bottom: 0.5rem;
+}
+
+/* Knowledge check / quiz elements */
+.knowledge-check {
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.15);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+.quiz-subtitle {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted, #6b6560);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.5rem;
+}
+.quiz-question {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: rgba(212, 162, 84, 0.03);
+    border-radius: 8px;
+}
+.quiz-q-text {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 0.8rem;
+}
+.quiz-q-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    color: var(--accent-gold);
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.quiz-option {
+    padding: 0.6rem 1rem;
+    border: 1px solid rgba(212, 162, 84, 0.15);
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+    font-size: 0.92rem;
+}
+.quiz-option:hover {
+    background: rgba(212, 162, 84, 0.08);
+    border-color: var(--accent-gold);
+}
+.quiz-option.selected {
+    background: rgba(212, 162, 84, 0.12);
+    border-color: var(--accent-gold);
+    color: var(--accent-gold);
+}
+.quiz-result {
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+.score {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: var(--accent-gold);
+    font-weight: 700;
+}
+.score-msg {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Story info bar */
+.story-info {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted, #6b6560);
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+
+/* Connection links */
+.connection-link {
+    display: block;
+    padding: 0.8rem 1.2rem;
+    background: rgba(212, 162, 84, 0.04);
+    border: 1px solid rgba(212, 162, 84, 0.1);
+    border-radius: 6px;
+    color: var(--accent-gold);
+    text-decoration: none;
+    margin: 0.5rem 0;
+    transition: all 0.3s ease;
+}
+.connection-link:hover {
+    background: rgba(212, 162, 84, 0.1);
+    border-color: var(--accent-gold);
+}
+
+/* Work items (theologian bibliography) */
+.work-item {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(212, 162, 84, 0.08);
+}
+.work-item:last-child {
+    border-bottom: none;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   SAFETY NET — Styling for classes used across pages but never defined
+   Added 2026-04-06 to fix ~250 multi-file unstyled classes
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ── GRID LAYOUTS ── */
+.cross-links-grid, .proof-grid, .connections-grid, .reasons-grid,
+.witnesses-grid, .theology-grid, .journey-grid, .comparison-grid,
+.article-cards, .continue-grid, .nav-grid, .attributes-grid,
+.quote-grid, .works-grid, .works-list, .related-resources,
+.cross-refs, .cross-ref-list, .articles-grid, .three-worlds,
+.cta-links, .stat-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.quote-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+/* ── CARDS & BOXES ── */
+.cross-link-card, .reason-card, .truth-card, .connection-card,
+.resource-card, .logic-card, .link-card, .article-card,
+.world-card, .testimony-card, .objection-card, .grace-card,
+.continue-card, .explore-card, .study-card, .attribute-card,
+.work-card, .concept-box, .theology-card, .verse-card,
+.comfort-card, .evidence-card, .identity-card, .critique-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: var(--text-primary);
+    display: block;
+}
+
+.cross-link-card:hover, .reason-card:hover, .truth-card:hover,
+.connection-card:hover, .resource-card:hover, .logic-card:hover,
+.link-card:hover, .article-card:hover, .continue-card:hover,
+.explore-card:hover, .study-card:hover, .theology-card:hover,
+.work-card:hover, .verse-card:hover {
+    border-color: rgba(212, 162, 84, 0.3);
+    box-shadow: 0 4px 20px var(--glow-gold);
+}
+
+/* ── DECORATIVE SECTIONS & BOXES ── */
+.bridge-section, .keep-reading-section, .cross-references,
+.devotional-bridge, .pastoral-section, .pastoral-note,
+.pastoral-insight, .mercy-section, .emphasis-block,
+.scripture-section, .the-turn, .comfort, .related-reading,
+.keep-exploring, .objection-section, .explore-section,
+.continue-journey-section, .continue-journey-container,
+.section-block, .bridge-content, .argument-block,
+.response-box, .verse-sidebar, .analogy-box, .question-box,
+.experiment-box, .integration-box, .connection-box,
+.toc, .logic-chain, .greek-study, .hebrew-study,
+.steelman, .did-you-know, .science-box, .comparison-box,
+.historical-context, .concept-card-content, .section-body,
+.section-content, .devotional-turn, .closing-reflection,
+.opening-scene, .devotional-opening, .wound-naming {
+    background: rgba(18, 18, 26, 0.6);
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+/* Response/steelman boxes get a left accent */
+.response-box, .steelman, .pastoral-note, .pastoral-insight,
+.did-you-know, .science-box, .experiment-box {
+    border-left: 4px solid var(--accent-gold);
+}
+
+/* Question/objection boxes get violet accent */
+.question-box, .objection-section, .analogy-box {
+    border-left: 4px solid var(--accent-violet);
+}
+
+/* ── BANNER / THEME SECTIONS ── */
+.banner, .theme-banner, .banner-section {
+    background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(139, 92, 246, 0.04));
+    border: 1px solid rgba(212, 162, 84, 0.15);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.banner-subtitle {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* ── COMPARISON & TABLE ELEMENTS ── */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+.comparison-table th, .comparison-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-subtle);
+    text-align: left;
+}
+
+.comparison-table th {
+    color: var(--accent-gold);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.comparison-grid {
+    gap: 2rem;
+}
+
+.comparison-item {
+    padding: 1.5rem;
+    background: var(--bg-card);
+    border-radius: 10px;
+    border: 1px solid var(--border-subtle);
+}
+
+/* Two-option fork display */
+.two-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.option {
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-card);
+}
+
+.option-a {
+    border-left: 4px solid var(--accent-gold);
+}
+
+.option-b {
+    border-left: 4px solid var(--accent-ember);
+}
+
+@media (max-width: 600px) {
+    .two-options { grid-template-columns: 1fr; }
+}
+
+/* ── PROOF TEXTS / SCRIPTURE DISPLAY ── */
+.proof-texts, .exegetical {
+    background: rgba(139, 92, 246, 0.04);
+    border: 1px solid rgba(139, 92, 246, 0.12);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.version-block {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 3px solid var(--accent-scripture);
+    background: rgba(139, 92, 246, 0.03);
+    border-radius: 0 8px 8px 0;
+}
+
+.version-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-violet);
+    margin-bottom: 0.5rem;
+}
+
+.version-text {
+    color: var(--text-primary);
+    font-style: italic;
+    line-height: 1.8;
+}
+
+.scripture-version {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--accent-violet);
+    letter-spacing: 0.08em;
+}
+
+.scripture-attribution, .scripture-cite {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--accent-violet);
+    letter-spacing: 0.08em;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.kosmos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+.kosmos-table td, .kosmos-table th {
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+/* ── GREEK / HEBREW LANGUAGE ELEMENTS ── */
+.greek-text, .greek-transliteration {
+    font-family: 'JetBrains Mono', monospace;
+    font-style: italic;
+    color: var(--accent-scripture);
+    font-size: 0.95rem;
+}
+
+.greek-label, .greek-definition, .greek-meaning {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.3rem;
+}
+
+.greek-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-violet);
+}
+
+.hebrew-term, .hebrew-word {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--accent-scripture);
+    font-size: 0.95rem;
+}
+
+.hebrew-trans {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+/* ── TYPOGRAPHY — Labels, titles, meta text ── */
+.related-articles-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    color: var(--accent-gold);
+    margin-bottom: 1rem;
+}
+
+.hero-meta, .meta, .meta-info {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.hero-series-label, .category-badge, .hub-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent-ember);
+}
+
+.card-label, .card-category, .keep-reading-category {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent-gold);
+    opacity: 0.8;
+}
+
+.claim-label, .response-label, .analogy-label, .era-label,
+.world-label, .research-label, .study-label, .key-insight-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-gold);
+    margin-bottom: 0.5rem;
+}
+
+.claim-text {
+    color: var(--text-primary);
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.emphasis-ember {
+    color: var(--accent-ember);
+    font-weight: 600;
+}
+
+.emphasis-gold {
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
+.em-word {
+    color: var(--accent-gold);
+    font-style: italic;
+}
+
+.word {
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
+.tagline, .closing-line {
+    color: var(--text-secondary);
+    font-style: italic;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin: 1.5rem 0;
+}
+
+.passage-ref {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--accent-violet);
+    letter-spacing: 0.08em;
+}
+
+.quote-attr, .hero-quote-attr {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+    font-style: normal;
+}
+
+.article-text, .intro-text, .lead {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.first-letter {
+    font-size: 3.5rem;
+    float: left;
+    font-family: 'Playfair Display', serif;
+    color: var(--accent-gold);
+    line-height: 0.8;
+    padding-right: 0.15rem;
+    padding-top: 0.1rem;
+}
+
+.closing {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+}
+
+.conclusion {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.objection-text {
+    color: var(--text-primary);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    font-style: italic;
+    padding: 1rem 1.5rem;
+    border-left: 3px solid var(--accent-ember);
+    background: rgba(232, 100, 44, 0.04);
+    border-radius: 0 8px 8px 0;
+    margin: 1rem 0;
+}
+
+.objection-question {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--accent-ember);
+    margin: 1.5rem 0;
+}
+
+.objection-answer {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background: rgba(212, 162, 84, 0.04);
+    border-left: 3px solid var(--accent-gold);
+    border-radius: 0 8px 8px 0;
+}
+
+/* ── CONCEPT / REASON NUMBER BADGES ── */
+.reason-number, .card-number, .evidence-num, .critique-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--accent-gold);
+    opacity: 0.5;
+    margin-bottom: 0.5rem;
+}
+
+.concept-card-title {
+    font-weight: 600;
+    color: var(--accent-gold);
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+}
+
+.concept-title {
+    font-weight: 600;
+    color: var(--accent-gold);
+    font-size: 1.1rem;
+}
+
+/* ── TIMELINE ELEMENTS ── */
+.timeline-year, .work-year, .work-date, .letter-date,
+.article-date, .publish-date, .meta-date, .date-range {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--accent-gold);
+    letter-spacing: 0.05em;
+    opacity: 0.7;
+}
+
+.timeline-label, .meta-category {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+}
+
+.bio-timeline {
+    position: relative;
+    padding-left: 2rem;
+    margin: 2rem 0;
+    border-left: 2px solid rgba(212, 162, 84, 0.15);
+}
+
+/* ── NAVIGATION / LINKS ── */
+.cta-button, .primary {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+    color: #0a0a0f;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-button:hover, .primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(212, 162, 84, 0.3);
+}
+
+.source-link {
+    font-size: 0.8rem;
+    color: var(--accent-gold);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.source-link:hover {
+    color: var(--accent-ember);
+}
+
+.nav-link {
+    color: var(--accent-gold);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover { color: var(--accent-ember); }
+
+.internal-link {
+    color: var(--accent-gold);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: rgba(212, 162, 84, 0.3);
+    transition: text-decoration-color 0.2s ease;
+}
+
+.internal-link:hover {
+    text-decoration-color: var(--accent-gold);
+}
+
+.related-link, .cross-ref-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.related-link:hover, .cross-ref-item:hover {
+    background: rgba(212, 162, 84, 0.06);
+}
+
+.link-title, .explore-link-title, .nav-link-title,
+.connection-title, .continue-title, .further-reading-title,
+.cta-title, .section-nav-title, .explore-title {
+    font-weight: 600;
+    color: var(--accent-gold);
+    font-size: 0.95rem;
+}
+
+.link-type, .explore-link-cat, .cross-link-category {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+}
+
+.link-arrow, .reading-card-arrow {
+    color: var(--accent-gold);
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+}
+
+.related-link:hover .link-arrow,
+.verse-card:hover .reading-card-arrow {
+    transform: translateX(4px);
+}
+
+.explore-link-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.3rem;
+}
+
+.hero-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    color: var(--accent-gold);
+    text-decoration: none;
+    margin-bottom: 1rem;
+    transition: color 0.2s ease;
+}
+
+.hero-back:hover { color: var(--accent-ember); }
+
+/* Phase navigation (start-here series) */
+.phase-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin: 3rem 0;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.phase-nav-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 1rem 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: border-color 0.3s ease;
+    flex: 1;
+}
+
+.phase-nav-box:hover {
+    border-color: rgba(212, 162, 84, 0.3);
+}
+
+.phase-nav-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+}
+
+.phase-nav-title {
+    font-weight: 600;
+    color: var(--accent-gold);
+    font-size: 0.9rem;
+}
+
+.prev, .next {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    color: var(--accent-gold);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s ease;
+}
+
+.prev:hover, .next:hover { color: var(--accent-ember); }
+
+.timeline-nav-item {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    border: 1px solid var(--border-subtle);
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+
+.timeline-nav-item:hover {
+    color: var(--accent-gold);
+    border-color: rgba(212, 162, 84, 0.3);
+}
+
+.section-nav-link {
+    display: block;
+    padding: 0.5rem 0;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s ease;
+}
+
+.section-nav-link:hover { color: var(--accent-gold); }
+
+.section-nav-sidebar, .section-nav-content {
+    padding: 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+}
+
+.section-nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-nav-links li {
+    border-bottom: 1px solid rgba(212, 162, 84, 0.06);
+}
+
+.section-nav-links li:last-child { border-bottom: none; }
+
+.connection-links, .bridge-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.chain-link {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    color: var(--accent-gold);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+}
+
+/* ── STORY / DIALOGUE ELEMENTS ── */
+.dialogue {
+    padding: 0.8rem 0 0.8rem 1.5rem;
+    border-left: 3px solid rgba(212, 162, 84, 0.2);
+    margin: 1rem 0;
+    font-style: italic;
+    color: var(--text-primary);
+}
+
+.chapter-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: var(--accent-gold);
+    margin: 3rem 0 1.5rem;
+    text-align: center;
+}
+
+.thread-line {
+    width: 2px;
+    background: rgba(212, 162, 84, 0.15);
+    margin: 0 auto;
+    height: 40px;
+}
+
+/* ── STAT / CALLOUT ELEMENTS ── */
+.stat-callout {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem 1.5rem;
+    background: rgba(212, 162, 84, 0.05);
+    border: 1px solid rgba(212, 162, 84, 0.12);
+    border-radius: 10px;
+    margin: 1.5rem 0;
+}
+
+.stat-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: var(--accent-gold);
+    font-weight: 700;
+}
+
+.stat-text {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* ── FOOTER VARIANTS ── */
+.article-footer, .page-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.article-footer-content {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.footer-tagline {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer-brand {
+    font-weight: 600;
+    color: var(--accent-gold);
+}
+
+.footer-copy {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.footer-verse {
+    font-style: italic;
+    color: var(--accent-scripture);
+    font-size: 0.9rem;
+}
+
+.footer-ref {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--accent-violet);
+}
+
+.footer-nav {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* ── THREE WORLDS PATTERN (healing pages) ── */
+.three-world, .three-worlds {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.world-card {
+    border-radius: 10px;
+}
+
+.secular { border-top: 3px solid var(--text-muted); }
+.religious { border-top: 3px solid var(--accent-violet); }
+.gospel { border-top: 3px solid var(--accent-gold); }
+
+.lie { border-left: 3px solid var(--accent-ember); }
+.truth { border-left: 3px solid var(--accent-gold); }
+
+/* ── Q&A PATTERN ── */
+.q {
+    font-weight: 600;
+    color: var(--accent-ember);
+    font-size: 1.05rem;
+    margin: 1.5rem 0 0.5rem;
+}
+
+.response {
+    padding: 1rem 1.5rem;
+    background: rgba(212, 162, 84, 0.03);
+    border-left: 3px solid var(--accent-gold);
+    border-radius: 0 8px 8px 0;
+    margin: 0.5rem 0 1.5rem;
+}
+
+/* ── STATUS BADGES (start-here phases) ── */
+.done {
+    color: #4ade80;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.upcoming {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+}
+
+/* ── EXPLORE / CATEGORY ELEMENTS ── */
+.explore-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hub-scripture-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--accent-violet);
+    letter-spacing: 0.08em;
+}
+
+.hub-footer-humor {
+    text-align: center;
+    font-style: italic;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.dort-humor {
+    font-style: italic;
+    color: var(--text-muted);
+    text-align: center;
+    padding: 1rem;
+}
+
+/* ── SEARCH / FILTER (all-content page) ── */
+.article-count {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+
+.search-box {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.6rem 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 6px;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+}
+
+.categories-filter {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.clear-filters {
+    font-size: 0.8rem;
+    color: var(--accent-ember);
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.article-tags {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.article-tag {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    background: rgba(139, 92, 246, 0.08);
+    border-radius: 4px;
+    color: var(--accent-violet);
+}
+
+.article-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.3rem;
+}
+
+.category-header {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--accent-gold);
+    margin: 2rem 0 1rem;
+}
+
+.no-results {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 3rem;
+    font-style: italic;
+}
+
+/* ── CONNECTIONS PAGE ── */
+.connections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+/* ── PROGRESS ELEMENTS ── */
+.progress-section {
+    margin: 1.5rem 0;
+}
+
+.progress-text {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* ── HERO CONTAINER VARIANT ── */
+.hero-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.page-subtitle, .keep-reading-subtitle {
+    color: var(--text-secondary);
+    font-size: 1.05rem;
+    margin-top: 0.5rem;
+}
+
+/* ── ATTRIBUTE/WITNESS PATTERNS (systematic theology) ── */
+.attribute-card {
+    text-align: center;
+}
+
+.attribute-scripture {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--accent-violet);
+    margin-top: 0.5rem;
+}
+
+.witness-author {
+    font-weight: 600;
+    color: var(--accent-gold);
+    font-size: 0.9rem;
+}
+
+.work-desc, .work-description {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* ── SIDEBAR ── */
+.sidebar {
+    padding: 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+/* ── CARD INNER ELEMENTS (non-hub cards) ── */
+.card-content {
+    padding: 1rem;
+}
+
+.card-excerpt {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* ── CROSS-REF INNER ── */
+.cross-ref-inner {
+    padding: 1rem;
+}
+
+/* ── MEGA-MENU CLASSES USED IN ARTICLE BODY ── */
+.mega-menu-column {
+    padding: 0.5rem;
+}
+
+.mega-menu-description {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.mega-menu-count {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+
+.search-result-item {
+    padding: 0.8rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.search-result-excerpt {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* ── VERSE / QUOTE DISPLAY ── */
+.verse {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: var(--accent-scripture);
+    line-height: 1.8;
+}
+
+.verse-quote {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: var(--accent-scripture);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding: 1rem 1.5rem;
+    border-left: 3px solid var(--accent-scripture);
+    margin: 1.5rem 0;
+}
+
+/* ── REFERENCE BADGE ── */
+.reference {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--accent-violet);
+    letter-spacing: 0.05em;
+}
+
+/* ── MEANING TABLE CELL ── */
+.meaning {
+    color: var(--text-secondary);
+}
+
+/* ── KNOWLEDGE DIAGRAM (Molinism comparison) ── */
+.knowledge-diagram { margin: 2rem 0; }
+.k-row { display: flex; align-items: center; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid var(--border-subtle); }
+.k-order { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-gold); min-width: 3rem; }
+.k-info { flex: 1; }
+.k-tag { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; padding: 0.15rem 0.5rem; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.08em; }
+.agreed { background: rgba(74, 222, 128, 0.1); color: #4ade80; }
+.disputed { background: rgba(232, 100, 44, 0.1); color: var(--accent-ember); }
+.natural, .middle, .free { color: var(--text-muted); font-size: 0.8rem; }
+.molinist { color: var(--accent-ember); }
+.catholic, .opentheist { color: var(--accent-ember); }
+.critique-stack { display: grid; gap: 1rem; margin: 1.5rem 0; }
+
+/* ── CTA BOX ── */
+.cta-box {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem 0;
+    background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(139, 92, 246, 0.03));
+    border: 1px solid rgba(212, 162, 84, 0.15);
+    border-radius: 10px;
+}
+
+/* ── ABOUT PAGE ELEMENTS ── */
+.commitment-card { padding: 1.5rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 10px; margin: 1rem 0; }
+.commitment-header { display: flex; align-items: center; gap: 1rem; }
+.commitment-number { font-family: 'JetBrains Mono', monospace; font-size: 1.5rem; color: var(--accent-gold); opacity: 0.5; }
+.contact-strip { text-align: center; padding: 2rem; margin: 2rem 0; }
+.contact-box { display: inline-block; padding: 1rem 2rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 10px; }
+.contact-email { color: var(--accent-gold); font-size: 1.1rem; }
+.contact-verse { font-style: italic; color: var(--text-muted); font-size: 0.85rem; margin-top: 0.5rem; }
+
+/* ── MISC PATTERN CLEANUP ── */
+.detail { color: var(--text-secondary); font-size: 0.9rem; }
+.sub { font-size: 0.85rem; color: var(--text-secondary); }
+.source { font-size: 0.75rem; color: var(--text-muted); }
+.accent { color: var(--accent-gold); }
+.devastating-question { font-size: 1.15rem; font-weight: 600; color: var(--accent-ember); margin: 2rem 0; text-align: center; }
+.aha-moment { background: rgba(212, 162, 84, 0.06); border: 1px solid rgba(212, 162, 84, 0.15); border-radius: 10px; padding: 1.5rem; margin: 2rem 0; text-align: center; }
+.closing-humor { font-style: italic; color: var(--text-muted); text-align: center; margin-top: 2rem; }
+.skip-content { position: absolute; left: -9999px; }
+.skip-content:focus { left: 1rem; top: 1rem; z-index: 9999; background: var(--bg-card); padding: 1rem; }
+
+/* ── RESPONSIVE CLEANUP ── */
+@media (max-width: 768px) {
+    .phase-nav { flex-direction: column; }
+    .three-world, .three-worlds { grid-template-columns: 1fr; }
+    .cross-links-grid, .proof-grid, .connections-grid, .reasons-grid,
+    .witnesses-grid, .theology-grid, .attributes-grid {
+        grid-template-columns: 1fr;
+    }
+    .first-letter { font-size: 2.5rem; }
+    .stat-callout { flex-direction: column; text-align: center; }
+}
+
+/* ── Remaining multi-file safety-net (round 2) ──────────────── */
+.content-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(212,162,84,0.1);
+}
+.content-item:last-child { border-bottom: none; }
+.content-item h3, .content-item h4 { color: var(--accent-gold); margin-bottom: 0.3rem; }
+.content-item p { color: var(--text-secondary); }
+
+.related-article {
+    background: var(--bg-card);
+    border: 1px solid rgba(212,162,84,0.12);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    transition: border-color 0.3s ease;
+}
+.related-article:hover { border-color: var(--accent-gold); }
+.related-article h4 { color: var(--accent-gold); margin-bottom: 0.3rem; }
+.related-article p { color: var(--text-secondary); font-size: 0.95rem; }
+.related-articles { margin-top: 1.5rem; }
+
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid var(--accent-gold);
+    color: var(--accent-gold);
+    background: transparent;
+    transition: all 0.3s ease;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+}
+.btn:hover { background: rgba(212,162,84,0.15); }
+.btn-primary {
+    background: var(--accent-gold);
+    color: var(--bg-deep);
+    border-color: var(--accent-gold);
+}
+.btn-primary:hover { background: #c4923e; }
+.btn-secondary {
+    background: transparent;
+    border-color: var(--text-muted);
+    color: var(--text-secondary);
+}
+.btn-secondary:hover { background: rgba(200,194,184,0.1); }
+.btn-result {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn-result.primary { background: var(--accent-gold); color: var(--bg-deep); }
+.btn-result.secondary { background: transparent; border: 1px solid var(--accent-gold); color: var(--accent-gold); }
+
+/* ══════════════════════════════════════════════════════════════
+   SINGLE-FILE ORPHAN SAFETY NET — Round 3 (April 2026)
+   Covers ~757 orphan classes across 155 pages.
+   Grouped by pattern type for maintainability.
+   ══════════════════════════════════════════════════════════════ */
+
+/* ── QUIZ / ASSESSMENT PAGES (quiz.html, start-here-assessment.html, belief-assessment.html) ── */
+.mode-selector { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+.mode-card {
+    background: var(--bg-card); border: 1px solid rgba(212,162,84,0.15); border-radius: 14px;
+    padding: 2rem; cursor: pointer; transition: all 0.3s ease; text-align: center;
+}
+.mode-card:hover { border-color: var(--accent-gold); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(212,162,84,0.15); }
+.mode-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+.mode-title { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.3rem; margin-bottom: 0.5rem; }
+.mode-desc { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5; }
+.mode-count { color: var(--text-muted); font-size: 0.8rem; margin-top: 0.5rem; font-family: var(--font-mono); }
+.start-area { text-align: center; margin: 2rem 0; }
+.start-btn {
+    display: inline-block; padding: 0.9rem 2.5rem; background: var(--accent-gold); color: var(--bg-deep);
+    border: none; border-radius: 10px; font-weight: 700; font-size: 1.1rem; cursor: pointer; transition: background 0.3s;
+}
+.start-btn:hover { background: #c4923e; }
+.progress-info { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+.progress-category { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.85rem; text-transform: uppercase; }
+.progress-bar-track { background: rgba(212,162,84,0.1); border-radius: 6px; height: 6px; overflow: hidden; }
+.progress-bar-fill { background: var(--accent-gold); height: 100%; border-radius: 6px; transition: width 0.4s ease; }
+.tulip-score-bar { background: rgba(212,162,84,0.1); border-radius: 6px; height: 8px; overflow: hidden; margin-top: 0.3rem; }
+.tulip-pill { display: inline-block; background: rgba(212,162,84,0.15); color: var(--accent-gold); padding: 0.2rem 0.6rem; border-radius: 20px; font-size: 0.8rem; font-family: var(--font-mono); }
+.question-area { margin: 2rem 0; }
+.question-card { background: var(--bg-card); border-radius: 14px; padding: 2rem; border: 1px solid rgba(212,162,84,0.1); }
+.question-number { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.85rem; margin-bottom: 0.5rem; }
+.question-text { color: var(--text-primary); font-size: 1.15rem; line-height: 1.7; margin-bottom: 1.5rem; }
+.options { display: flex; flex-direction: column; gap: 0.75rem; }
+.option-letter { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; margin-right: 0.5rem; }
+.option-text { color: var(--text-secondary); }
+.feedback { background: rgba(212,162,84,0.08); border-left: 3px solid var(--accent-gold); border-radius: 0 10px 10px 0; padding: 1.25rem; margin-top: 1rem; }
+.feedback-header { color: var(--accent-gold); font-weight: 700; margin-bottom: 0.5rem; }
+.feedback-text { color: var(--text-secondary); line-height: 1.6; }
+.feedback-verse { color: var(--accent-scripture); font-style: italic; margin-top: 0.75rem; }
+.feedback-ref { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.feedback-link { color: var(--accent-gold); text-decoration: underline; }
+.next-btn {
+    display: inline-block; padding: 0.7rem 2rem; background: var(--accent-gold); color: var(--bg-deep);
+    border: none; border-radius: 8px; font-weight: 600; cursor: pointer; margin-top: 1rem; transition: background 0.3s;
+}
+.next-btn:hover { background: #c4923e; }
+.results-area { text-align: center; margin: 2rem 0; }
+.results-card { background: var(--bg-card); border-radius: 14px; padding: 2.5rem; border: 1px solid rgba(212,162,84,0.15); }
+.results-label { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.85rem; text-transform: uppercase; }
+.results-score { margin: 1rem 0; }
+.score-num { color: var(--accent-gold); font-size: 3rem; font-weight: 700; font-family: var(--font-heading); }
+.score-total { color: var(--text-muted); font-size: 1.2rem; }
+.results-percent { color: var(--accent-ember); font-size: 1.1rem; font-weight: 600; }
+.results-title { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.6rem; margin: 1rem 0 0.5rem; }
+.results-description { color: var(--text-secondary); line-height: 1.7; max-width: 600px; margin: 0 auto; }
+.results-verse { color: var(--accent-scripture); font-style: italic; margin-top: 1rem; }
+.results-verse-ref { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.tulip-breakdown { display: flex; flex-direction: column; gap: 0.75rem; margin: 1.5rem 0; text-align: left; }
+.tulip-item { display: flex; align-items: center; gap: 0.75rem; }
+.tulip-letter { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; font-size: 1.1rem; width: 1.5rem; }
+.tulip-name { color: var(--text-secondary); flex: 1; }
+.tulip-score-num { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 600; min-width: 3rem; text-align: right; }
+.tulip-bar { flex: 2; background: rgba(212,162,84,0.1); border-radius: 4px; height: 8px; overflow: hidden; }
+.tulip-bar-fill { background: var(--accent-gold); height: 100%; border-radius: 4px; }
+.results-actions { display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap; }
+.study-recs { margin-top: 2rem; text-align: left; }
+.study-recs-title { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.2rem; margin-bottom: 1rem; }
+.study-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+.study-card-label { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; }
+.study-card-title { color: var(--accent-gold); font-weight: 600; margin: 0.3rem 0; }
+.study-card-desc { color: var(--text-secondary); font-size: 0.9rem; }
+.quiz-wrapper { max-width: 700px; margin: 0 auto; padding: 2rem 1rem; }
+.quiz-card { background: var(--bg-card); border-radius: 14px; padding: 2rem; border: 1px solid rgba(212,162,84,0.1); margin-bottom: 1.5rem; }
+.question-section { margin-bottom: 1.5rem; }
+.quiz-nav { display: flex; justify-content: space-between; margin-top: 1.5rem; }
+.results-section { text-align: center; padding: 2rem; }
+.result-badge { display: inline-block; background: var(--accent-gold); color: var(--bg-deep); padding: 0.5rem 1.5rem; border-radius: 20px; font-weight: 700; margin-bottom: 1rem; }
+.phase-number { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.85rem; }
+.phase-name { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.4rem; margin: 0.5rem 0; }
+.phase-description { color: var(--text-secondary); line-height: 1.6; }
+.result-actions { display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap; }
+.phases-overview { margin-top: 2rem; }
+.phases-grid { display: grid; gap: 1rem; }
+.assessment-nav { display: flex; justify-content: space-between; margin-top: 1rem; }
+.btn-nav { padding: 0.5rem 1.2rem; border-radius: 8px; background: transparent; border: 1px solid var(--accent-gold); color: var(--accent-gold); cursor: pointer; }
+
+/* ── SEARCH PAGE (search.html) ── */
+.search-hero { text-align: center; padding: 3rem 1rem 2rem; }
+.search-container { max-width: 900px; margin: 0 auto; padding: 0 1rem 3rem; }
+.search-wrapper { position: relative; margin-bottom: 1rem; }
+.search-icon { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: var(--text-muted); }
+.search-clear { position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); color: var(--text-muted); cursor: pointer; background: none; border: none; }
+.search-meta { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1rem; }
+.filter-bar { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.filter-pill {
+    padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; cursor: pointer;
+    background: rgba(212,162,84,0.1); color: var(--text-secondary); border: 1px solid transparent; transition: all 0.2s;
+}
+.filter-pill:hover, .filter-pill.active { border-color: var(--accent-gold); color: var(--accent-gold); }
+.results-container { display: flex; flex-direction: column; gap: 0.75rem; }
+.popular-topics { margin-top: 2rem; }
+.popular-label { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.75rem; }
+.popular-grid { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.popular-tag {
+    padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem;
+    background: rgba(212,162,84,0.08); color: var(--accent-gold); cursor: pointer; transition: background 0.2s;
+}
+.popular-tag:hover { background: rgba(212,162,84,0.2); }
+.empty-state { text-align: center; padding: 3rem 1rem; }
+.empty-icon { font-size: 3rem; margin-bottom: 1rem; opacity: 0.5; }
+.empty-title { color: var(--text-primary); font-family: var(--font-heading); font-size: 1.3rem; }
+.empty-text { color: var(--text-secondary); margin-top: 0.5rem; }
+.result-item { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); transition: border-color 0.2s; }
+.result-item:hover { border-color: var(--accent-gold); }
+.result-category { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; }
+.result-title { color: var(--text-primary); font-weight: 600; margin: 0.3rem 0; }
+.result-desc { color: var(--text-secondary); font-size: 0.9rem; }
+.result-snippet { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5; }
+
+/* ── CONNECTIONS / VERSE ANCHORS (connections.html) ── */
+.verse-anchor { scroll-margin-top: 100px; }
+.connection-header { display: flex; justify-content: space-between; align-items: center; padding: 1rem; cursor: pointer; }
+.connection-ref { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.2rem; }
+.connection-toggle { color: var(--text-muted); transition: transform 0.3s; }
+.connection-body { padding: 0 1rem 1rem; }
+.connection-inner { padding: 1rem; background: rgba(212,162,84,0.05); border-radius: 8px; }
+.connection-insight { color: var(--text-secondary); line-height: 1.7; margin-bottom: 1rem; }
+.connection-implication { margin-bottom: 0.75rem; }
+.connection-implication-label { color: var(--accent-gold); font-weight: 600; font-size: 0.9rem; }
+.logic-number { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; }
+.logic-title { color: var(--text-primary); font-weight: 600; }
+.logic-text { color: var(--text-secondary); }
+.logic-verdict { color: var(--accent-ember); font-weight: 700; font-style: italic; }
+.quote-name { color: var(--accent-gold); font-weight: 600; }
+.quote-era { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.quote-note { color: var(--text-secondary); font-style: italic; }
+.final-section { text-align: center; padding: 3rem 1rem; }
+.final-box { background: var(--bg-card); border-radius: 14px; padding: 2rem; border: 1px solid rgba(212,162,84,0.15); max-width: 700px; margin: 0 auto; }
+.final-small { color: var(--text-muted); font-size: 0.85rem; margin-top: 0.5rem; }
+
+/* ── TULIP / PETAL SECTIONS (start-here-phase2.html) ── */
+.tulip-section { margin: 2rem 0; }
+.petal { margin-bottom: 1.5rem; border: 1px solid rgba(212,162,84,0.12); border-radius: 14px; overflow: hidden; }
+.petal-t { border-color: rgba(212,162,84,0.25); }
+.petal-u { border-color: rgba(139,92,246,0.25); }
+.petal-l { border-color: rgba(232,100,44,0.25); }
+.petal-i { border-color: rgba(212,162,84,0.25); }
+.petal-p { border-color: rgba(139,92,246,0.25); }
+.petal-header { display: flex; align-items: center; padding: 1.25rem; cursor: pointer; gap: 1rem; }
+.petal-letter { font-family: var(--font-heading); font-size: 2rem; font-weight: 700; color: var(--accent-gold); min-width: 2.5rem; }
+.petal-info { flex: 1; }
+.petal-name { color: var(--text-primary); font-weight: 600; font-size: 1.1rem; }
+.petal-tagline { color: var(--text-secondary); font-size: 0.9rem; }
+.petal-toggle { color: var(--text-muted); transition: transform 0.3s; }
+.petal-body { display: none; }
+.petal-content { padding: 0 1.25rem 1.25rem; }
+.petal-verse { background: rgba(139,92,246,0.08); border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+.petal-verse-ref { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.petal-verse-text { color: var(--accent-scripture); font-style: italic; line-height: 1.6; }
+.petal-link { color: var(--accent-gold); text-decoration: underline; }
+
+/* ── EXPLORE MAP (explore-map.html) ── */
+.map-hero { text-align: center; padding: 3rem 1rem 2rem; }
+.map-search { position: relative; max-width: 500px; margin: 0 auto 1.5rem; }
+.map-search-icon { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: var(--text-muted); }
+.search-count { color: var(--text-muted); font-size: 0.85rem; }
+.map-filters { display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center; margin-bottom: 1.5rem; }
+.filter-btn {
+    padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; cursor: pointer;
+    background: rgba(212,162,84,0.1); color: var(--text-secondary); border: 1px solid transparent; transition: all 0.2s;
+}
+.filter-btn:hover, .filter-btn.active { border-color: var(--accent-gold); color: var(--accent-gold); }
+.filter-count { font-size: 0.75rem; color: var(--text-muted); }
+.map-stats { display: flex; gap: 2rem; justify-content: center; margin: 1rem 0; }
+.category-color { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+.category-name { color: var(--text-secondary); font-size: 0.85rem; }
+.category-count { color: var(--text-muted); font-size: 0.8rem; font-family: var(--font-mono); }
+.node-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; padding: 0 1rem; max-width: 1200px; margin: 0 auto; }
+.map-node {
+    background: var(--bg-card); border-radius: 12px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08);
+    transition: all 0.3s ease; text-decoration: none;
+}
+.map-node:hover { border-color: var(--accent-gold); transform: translateY(-2px); }
+.node-tag { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; margin-bottom: 0.25rem; }
+.node-title { color: var(--text-primary); font-weight: 600; margin-bottom: 0.3rem; }
+.node-desc { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.4; }
+
+/* ── SECULAR / ALGORITHM / GENETICS / NEUROSCIENCE PAGES ── */
+.prediction-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.prediction-item { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); }
+.pred-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+.pred-platform { color: var(--accent-gold); font-weight: 600; }
+.pred-stat { color: var(--text-primary); font-size: 1.1rem; font-weight: 700; }
+.pred-desc { color: var(--text-secondary); font-size: 0.9rem; }
+.thought-experiment { background: rgba(212,162,84,0.06); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.algo-card { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 1rem; }
+.algo-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.3rem; }
+.scale-comparison { display: grid; grid-template-columns: 1fr auto 1fr; gap: 1rem; align-items: center; margin: 1.5rem 0; }
+.scale-side { text-align: center; }
+.left-side, .right-side { text-align: center; }
+.scale-label { color: var(--accent-gold); font-weight: 600; font-size: 0.9rem; }
+.scale-value { color: var(--text-primary); font-size: 2rem; font-weight: 700; font-family: var(--font-heading); }
+.scale-desc { color: var(--text-secondary); font-size: 0.85rem; }
+.scale-vs { color: var(--accent-ember); font-weight: 700; font-size: 1.2rem; }
+.genetics-card { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 1rem; }
+.genetics-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.trait-chart { margin: 1.5rem 0; }
+.trait-bar { margin-bottom: 0.75rem; }
+.trait-label { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.25rem; }
+.trait-percentage { background: rgba(212,162,84,0.1); border-radius: 6px; height: 24px; overflow: hidden; position: relative; }
+.trait-percentage-fill { background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember)); height: 100%; border-radius: 6px; transition: width 0.6s ease; }
+.trait-stat { color: var(--text-primary); font-weight: 600; font-size: 0.85rem; position: absolute; right: 8px; top: 50%; transform: translateY(-50%); }
+.research-item { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 0.75rem; }
+.study-name { color: var(--text-primary); font-weight: 600; }
+.study-year { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.timeline-ms { display: flex; flex-direction: column; gap: 1rem; margin: 1.5rem 0; }
+.ms-step { display: flex; align-items: flex-start; gap: 1rem; }
+.ms-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--accent-gold); margin-top: 4px; flex-shrink: 0; }
+.ms-time { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; min-width: 5rem; }
+.ms-desc { color: var(--text-secondary); }
+.brain-card { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 1rem; }
+.neuro-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.poll-stat { background: var(--bg-card); border-radius: 10px; padding: 1rem; text-align: center; margin-bottom: 1rem; }
+.philosopher-card { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 1rem; }
+.reformed-parallel { background: rgba(212,162,84,0.06); border-left: 3px solid var(--accent-gold); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1rem 0; }
+.argument-box { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 1rem; }
+.premise { color: var(--text-secondary); padding: 0.5rem 0; border-bottom: 1px solid rgba(212,162,84,0.06); }
+.stat-block { background: var(--bg-card); border-radius: 10px; padding: 1.5rem; text-align: center; border: 1px solid rgba(212,162,84,0.1); }
+.body-list { color: var(--text-secondary); list-style: none; padding: 0; }
+.body-list li { padding: 0.4rem 0; border-bottom: 1px solid rgba(212,162,84,0.05); }
+.stat-desc { color: var(--text-muted); font-size: 0.85rem; }
+
+/* ── COMPARISON PAGES (compare-*.html) ── */
+.intro-section { max-width: 800px; margin: 0 auto 2rem; }
+.container-comparison { max-width: 1000px; margin: 0 auto; padding: 0 1rem; }
+.decision-point { margin-bottom: 2.5rem; border: 1px solid rgba(212,162,84,0.1); border-radius: 14px; overflow: hidden; }
+.decision-point-number { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; padding: 0.75rem 1.25rem; background: rgba(212,162,84,0.08); }
+.decision-columns { display: grid; grid-template-columns: 1fr 1fr; }
+.column-header { padding: 0.75rem 1.25rem; font-weight: 600; text-align: center; }
+.man-centered { background: rgba(232,100,44,0.08); color: var(--accent-ember); }
+.god-centered { background: rgba(212,162,84,0.08); color: var(--accent-gold); }
+.column-content { padding: 1.25rem; color: var(--text-secondary); line-height: 1.6; }
+.scripture-verdict { background: rgba(139,92,246,0.06); padding: 1rem 1.25rem; }
+.scripture-verdict-label { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.scripture-verdict-text { color: var(--accent-scripture); font-style: italic; }
+.cumulative-pattern { background: var(--bg-card); border-radius: 14px; padding: 2rem; margin: 2rem 0; border: 1px solid rgba(212,162,84,0.15); }
+.keeping-reading-section { margin-top: 2rem; }
+.keeping-reading-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+.keeping-reading-link { color: var(--accent-gold); text-decoration: none; background: var(--bg-card); padding: 1rem; border-radius: 10px; border: 1px solid rgba(212,162,84,0.1); transition: border-color 0.2s; }
+.keeping-reading-link:hover { border-color: var(--accent-gold); }
+.def-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+.def-box { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
+.mono { border-color: rgba(212,162,84,0.25); }
+.def-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.85rem; text-transform: uppercase; margin-bottom: 0.5rem; }
+.def-etym { color: var(--text-muted); font-style: italic; font-size: 0.9rem; }
+.syn { border-color: rgba(232,100,44,0.25); }
+.spectrum { margin: 2rem 0; }
+.spectrum-bar { display: flex; gap: 0; border-radius: 8px; overflow: hidden; margin: 1rem 0; }
+.spectrum-item { flex: 1; padding: 0.75rem; text-align: center; }
+.spectrum-name { color: var(--text-primary); font-weight: 600; font-size: 0.85rem; }
+.spectrum-desc { color: var(--text-secondary); font-size: 0.8rem; }
+.spectrum-arrow { color: var(--accent-gold); text-align: center; font-size: 1.5rem; }
+.proof-stack { display: flex; flex-direction: column; gap: 1rem; margin: 1.5rem 0; }
+.analogy { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.12); margin: 1.5rem 0; }
+.foreseen { background: rgba(232,100,44,0.08); border: 1px solid rgba(232,100,44,0.2); border-radius: 10px; padding: 1.25rem; }
+
+/* ── SYSTEMATIC THEOLOGY PAGES ── */
+.contrast-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+.contrast-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
+.true-view { border-color: rgba(212,162,84,0.25); }
+.false-view { border-color: rgba(232,100,44,0.25); }
+.imputation-diagram { display: grid; grid-template-columns: 1fr auto 1fr; gap: 1rem; align-items: center; margin: 2rem 0; text-align: center; }
+.imputation-side { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
+.imputation-arrows { color: var(--accent-gold); font-size: 1.5rem; }
+.arrow-right, .arrow-left { color: var(--accent-gold); }
+.confession-box { background: rgba(139,92,246,0.06); border: 1px solid rgba(139,92,246,0.15); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.truth-flow { display: flex; flex-direction: column; gap: 0; margin: 1.5rem 0; }
+.flow-step { display: flex; align-items: flex-start; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid rgba(212,162,84,0.08); }
+.flow-marker { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; min-width: 2rem; }
+.flow-content { color: var(--text-secondary); }
+.answer { color: var(--text-secondary); line-height: 1.7; }
+.nav-section-link { color: var(--accent-gold); text-decoration: underline; }
+.greek-context { background: rgba(139,92,246,0.06); border-radius: 10px; padding: 1.25rem; margin: 1rem 0; }
+.text-accent-gold { color: var(--accent-gold); }
+.witness-item { margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(212,162,84,0.06); }
+.witness-contribution { color: var(--text-secondary); font-style: italic; }
+.connection-item { padding: 0.75rem 0; border-bottom: 1px solid rgba(212,162,84,0.06); }
+.section-heading-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.5rem; }
+.subsection { margin-bottom: 1.5rem; }
+.objection-q { color: var(--accent-ember); font-weight: 600; margin-bottom: 0.5rem; }
+.objection-a { color: var(--text-secondary); line-height: 1.7; }
+.explore-item { background: var(--bg-card); border-radius: 10px; padding: 1rem; margin-bottom: 0.75rem; border: 1px solid rgba(212,162,84,0.08); }
+.attribute-title { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.1rem; }
+.attribute-text { color: var(--text-secondary); }
+.truth-title { color: var(--accent-gold); font-weight: 600; }
+.truth-text { color: var(--text-secondary); }
+.witness-work { color: var(--text-muted); font-style: italic; font-size: 0.9rem; }
+.chain-link-ref { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
+.integration-title { color: var(--accent-gold); font-weight: 600; margin-bottom: 0.3rem; }
+.integration-text { color: var(--text-secondary); }
+.definition { background: rgba(212,162,84,0.06); border-left: 3px solid var(--accent-gold); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1rem 0; }
+.definition-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.card-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.explore-buttons { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; }
+.key-terms { margin: 1.5rem 0; }
+.truthful-box { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; }
+.revelation-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+.revelation-box { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
+.pillar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.pillar-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
+.pillar-number { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; font-size: 1.5rem; }
+.pillar-title { color: var(--accent-gold); font-weight: 600; margin: 0.5rem 0; }
+.pillar-content { color: var(--text-secondary); }
+.trinitarian-box { background: rgba(139,92,246,0.06); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.trinitarian-title { color: var(--accent-violet); font-weight: 600; margin-bottom: 0.75rem; }
+.trinitarian-role { padding: 0.5rem 0; border-bottom: 1px solid rgba(139,92,246,0.08); color: var(--text-secondary); }
+.order-box { background: var(--bg-card); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.connection-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.featured { border: 2px solid var(--accent-gold); box-shadow: 0 0 20px rgba(212,162,84,0.15); }
+
+/* ── FREEDOM PAGE ── */
+.hero-epigraph { font-style: italic; color: var(--accent-scripture); max-width: 600px; margin: 0 auto 0.5rem; text-align: center; }
+.hero-epigraph-ref { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; text-align: center; }
+.fear-block { background: rgba(232,100,44,0.06); border-left: 3px solid var(--accent-ember); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0; }
+.fear-label { color: var(--accent-ember); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.3rem; }
+.shift-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+.shift-before { background: rgba(232,100,44,0.06); border-radius: 12px; padding: 1.25rem; }
+.shift-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.5rem; }
+.shift-item { padding: 0.4rem 0; color: var(--text-secondary); border-bottom: 1px solid rgba(212,162,84,0.05); }
+.shift-after { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.25rem; }
+.truth-freedom { text-align: center; padding: 2rem 1rem; }
+.truth-freedom-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.85rem; }
+.grace-block { background: rgba(212,162,84,0.06); border-left: 3px solid var(--accent-gold); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0; }
+.grace-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.3rem; }
+.crescendo { text-align: center; font-family: var(--font-heading); font-size: 1.5rem; color: var(--accent-gold); padding: 2rem 1rem; }
+
+/* ── OT PAGES (ot-election.html, ot-*.html) ── */
+.pattern-content { padding: 1.25rem; }
+.pattern-points { display: flex; flex-direction: column; gap: 0.75rem; }
+.pattern-point { display: flex; align-items: flex-start; gap: 0.75rem; color: var(--text-secondary); }
+.cards-section { margin: 2rem 0; }
+.section-subtitle { color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 1rem; }
+.card-key-text { color: var(--accent-scripture); font-style: italic; font-size: 0.95rem; margin-top: 0.5rem; }
+.card-status { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-family: var(--font-mono); }
+.status-live { background: rgba(212,162,84,0.15); color: var(--accent-gold); }
+.key-texts-section { margin: 2rem 0; }
+.key-texts-content { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
+.key-texts-title { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.1rem; margin-bottom: 0.75rem; }
+.texts-list { display: flex; flex-direction: column; gap: 0.5rem; }
+.text-item { padding: 0.5rem 0; border-bottom: 1px solid rgba(212,162,84,0.06); color: var(--text-secondary); }
+.hebrew-meaning { background: rgba(139,92,246,0.06); border-radius: 10px; padding: 1rem; margin: 1rem 0; }
+.answer-label { color: var(--accent-gold); font-weight: 600; }
+.witness-desc { color: var(--text-secondary); font-style: italic; }
+.nav-links-section { margin-top: 2rem; }
+.nav-link-item { color: var(--accent-gold); text-decoration: underline; display: block; margin-bottom: 0.5rem; }
+.hebrew-transliteration { color: var(--accent-violet); font-style: italic; font-family: var(--font-mono); }
+.theological-note { background: rgba(212,162,84,0.06); border-radius: 10px; padding: 1.25rem; margin: 1rem 0; }
+.witness-block { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.link-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.hebrew-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.hebrew-box { background: var(--bg-card); border-radius: 12px; padding: 1.25rem; border: 1px solid rgba(139,92,246,0.15); }
+.hebrew-translation { color: var(--accent-violet); font-weight: 600; }
+.hebrew-explanation { color: var(--text-secondary); font-size: 0.9rem; }
+.key-verse { background: rgba(139,92,246,0.06); border-radius: 10px; padding: 1.25rem; margin: 1rem 0; }
+.witnesses { margin: 1.5rem 0; }
+.witness-era { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.witness-list { display: flex; flex-direction: column; gap: 0.75rem; }
+.decree-box { background: rgba(212,162,84,0.06); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.servant-song-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.song-ref { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.85rem; }
+.theology-point { padding: 0.75rem 0; border-bottom: 1px solid rgba(212,162,84,0.06); }
+.point-marker { color: var(--accent-gold); font-weight: 700; }
+.prophet-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.prophet-theme { color: var(--accent-gold); font-style: italic; }
+.convergence-box { background: rgba(212,162,84,0.06); border: 1px solid rgba(212,162,84,0.15); border-radius: 14px; padding: 1.5rem; margin: 1.5rem 0; }
+
+/* ── START-HERE PHASES (phase1, phase3, phase4, phase5) ── */
+.concept-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.concept-text { color: var(--text-secondary); line-height: 1.7; }
+.comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+.comparison-col { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
+.left { border-color: rgba(232,100,44,0.2); }
+.right { border-color: rgba(212,162,84,0.25); }
+.comparison-header { color: var(--accent-gold); font-weight: 600; margin-bottom: 0.75rem; }
+.next-phase { text-align: center; margin-top: 2.5rem; }
+.next-phase-box { display: inline-flex; align-items: center; gap: 1rem; background: var(--bg-card); border-radius: 14px; padding: 1.5rem 2rem; border: 1px solid rgba(212,162,84,0.15); }
+.next-phase-info { text-align: left; }
+.next-phase-label { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.next-phase-title { color: var(--accent-gold); font-weight: 600; font-size: 1.1rem; }
+.next-phase-arrow { color: var(--accent-gold); font-size: 1.5rem; }
+.passage-group { margin-bottom: 2rem; }
+.passage-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin-bottom: 1rem; }
+.passage-number { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; }
+.passage-title { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.1rem; margin: 0.3rem 0; }
+.passage-verse { background: rgba(139,92,246,0.06); border-radius: 8px; padding: 1rem; margin: 0.75rem 0; }
+.passage-verse-ref { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
+.passage-verse-text { color: var(--accent-scripture); font-style: italic; line-height: 1.6; }
+.passage-takeaway { margin-top: 0.75rem; }
+.passage-takeaway-label { color: var(--accent-gold); font-weight: 600; font-size: 0.9rem; }
+.passage-link { color: var(--accent-gold); text-decoration: underline; }
+.objection-icon { color: var(--accent-ember); font-size: 1.5rem; }
+.objection-toggle { cursor: pointer; color: var(--text-muted); }
+.objection-content { padding: 0.75rem 0; }
+.objection-verse { background: rgba(139,92,246,0.06); border-radius: 8px; padding: 1rem; margin: 0.75rem 0; }
+.objection-verse-ref { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
+.objection-verse-text { color: var(--accent-scripture); font-style: italic; }
+.objection-link { color: var(--accent-gold); text-decoration: underline; }
+.implication { margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(212,162,84,0.06); }
+.implication-number { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; font-size: 1.3rem; }
+.implication-title { color: var(--accent-gold); font-weight: 600; margin: 0.3rem 0; }
+.implication-verse { background: rgba(139,92,246,0.06); border-radius: 8px; padding: 1rem; margin: 0.75rem 0; }
+.implication-verse-ref { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
+.implication-verse-text { color: var(--accent-scripture); font-style: italic; }
+.journey-complete { text-align: center; padding: 3rem 1rem; }
+.next-steps { margin-top: 2rem; }
+.steps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+.step-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); text-align: center; }
+.step-card-title { color: var(--accent-gold); font-weight: 600; margin-bottom: 0.3rem; }
+.step-card-desc { color: var(--text-secondary); font-size: 0.9rem; }
+.step-card-link { color: var(--accent-gold); text-decoration: underline; }
+
+/* ── CREED PAGES (dort, heidelberg) ── */
+.dort-nav { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.dort-head { margin-bottom: 1rem; }
+.dort-head-subtitle { color: var(--text-secondary); font-style: italic; }
+.dort-intro { color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.5rem; }
+.article-block { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin-bottom: 1rem; }
+.article-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.85rem; text-transform: uppercase; margin-bottom: 0.5rem; }
+.article-commentary { color: var(--text-secondary); font-style: italic; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid rgba(212,162,84,0.08); }
+.scripture-support { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+.scripture-chip { display: inline-block; background: rgba(139,92,246,0.1); color: var(--accent-violet); padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem; font-family: var(--font-mono); }
+.rejection-block { background: rgba(232,100,44,0.05); border: 1px solid rgba(232,100,44,0.15); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; }
+.rejection-label { color: var(--accent-ember); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.3rem; }
+.rejection-text { color: var(--text-secondary); }
+.catechism-nav { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.comfort-highlight { background: rgba(212,162,84,0.08); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.15); margin: 1.5rem 0; }
+.qa-block { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin-bottom: 1rem; }
+.qa-number { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; margin-bottom: 0.3rem; }
+.qa-question { color: var(--accent-gold); font-weight: 600; margin-bottom: 0.5rem; }
+.qa-answer { color: var(--text-secondary); line-height: 1.7; }
+.qa-scriptures { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.5rem; }
+.qa-commentary { color: var(--text-secondary); font-style: italic; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid rgba(212,162,84,0.08); }
+.part-header { margin-top: 2rem; margin-bottom: 0.5rem; }
+.part-subtitle { color: var(--text-secondary); font-style: italic; }
+.part-intro { color: var(--text-secondary); line-height: 1.7; margin-bottom: 1rem; }
+
+/* ── HISTORY PAGES ── */
+.era-section { margin-bottom: 2.5rem; position: relative; }
+.era-marker { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 0.5rem; }
+.era-inner { padding-left: 1.5rem; border-left: 2px solid rgba(212,162,84,0.2); }
+.era-link { color: var(--accent-gold); text-decoration: underline; }
+.thread-connector { text-align: center; color: var(--accent-gold); font-size: 1.5rem; margin: 1rem 0; opacity: 0.5; }
+.witness-dates { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.witness-note { color: var(--text-secondary); font-style: italic; font-size: 0.9rem; }
+.grand-finale { text-align: center; padding: 3rem 1rem; background: rgba(212,162,84,0.05); border-radius: 14px; margin: 2rem 0; }
+.history-nav { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 2rem; }
+.history-nav-card { background: var(--bg-card); border-radius: 12px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.1); text-decoration: none; transition: border-color 0.2s; }
+.history-nav-card:hover { border-color: var(--accent-gold); }
+.nav-era { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; }
+.confession-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin-bottom: 1rem; }
+.confession-meta { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.confession-place { color: var(--text-muted); font-style: italic; font-size: 0.9rem; }
+.confession-excerpt { color: var(--accent-scripture); font-style: italic; margin-top: 0.5rem; }
+.nav-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.nav-card { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); text-decoration: none; transition: border-color 0.2s; }
+.nav-card:hover { border-color: var(--accent-gold); }
+.emphasis-violet { color: var(--accent-violet); font-weight: 600; }
+.crosslinks { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.crosslink { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); text-decoration: none; }
+.crosslink:hover { border-color: var(--accent-gold); }
+.navigation-links { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; }
+.nav-link-meta { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.nav-link-back { color: var(--accent-gold); text-decoration: underline; }
+.error { color: var(--accent-ember); }
+.explanation { color: var(--text-secondary); line-height: 1.7; }
+.why-matters { background: rgba(212,162,84,0.06); border-radius: 10px; padding: 1.25rem; margin: 1rem 0; }
+.error-cell { background: rgba(232,100,44,0.06); padding: 0.75rem; }
+.truth-cell { background: rgba(212,162,84,0.06); padding: 0.75rem; }
+.section-quote { font-style: italic; color: var(--accent-scripture); font-size: 1.1rem; line-height: 1.6; margin: 1.5rem 0; }
+.section-quote-attr { color: var(--text-muted); font-size: 0.85rem; text-align: right; }
+.quotes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.quote-card-attr { color: var(--text-muted); font-size: 0.85rem; text-align: right; margin-top: 0.5rem; }
+
+/* ── THEOLOGIAN PAGES ── */
+.hero-dates { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.9rem; }
+.hero-intro { color: var(--text-secondary); max-width: 700px; margin: 0 auto; }
+.highlight-gold { color: var(--accent-gold); font-weight: 600; }
+.highlight-ember { color: var(--accent-ember); font-weight: 600; }
+.theology-icon { font-size: 1.5rem; }
+.quotes-container { margin: 1.5rem 0; }
+.quote-mark { color: var(--accent-gold); font-family: var(--font-heading); font-size: 3rem; line-height: 1; opacity: 0.4; }
+.bio-card { background: var(--bg-card); border-radius: 12px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.1); margin-bottom: 1rem; }
+.bio-card-year { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; }
+.bio-card-title { color: var(--accent-gold); font-weight: 600; margin: 0.3rem 0; }
+.bio-card-text { color: var(--text-secondary); font-size: 0.9rem; }
+.brilliant-connection { background: rgba(212,162,84,0.08); border: 1px solid rgba(212,162,84,0.2); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.work-list { list-style: none; padding: 0; }
+.work-list li { padding: 0.4rem 0; border-bottom: 1px solid rgba(212,162,84,0.05); color: var(--text-secondary); }
+.contribution-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.ref-list { list-style: none; padding: 0; }
+.ref-list li { padding: 0.3rem 0; color: var(--text-secondary); }
+.scripture-source { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
+.quote-context { color: var(--text-muted); font-size: 0.85rem; font-style: italic; }
+.continue-journey-title { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.2rem; }
+.quote-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.card-box { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
+.reference-box { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.reference-box-title { color: var(--accent-gold); font-weight: 600; margin-bottom: 0.5rem; }
+.reference-box-links { display: flex; flex-direction: column; gap: 0.3rem; }
+
+/* ── QUESTION PAGES ── */
+.dialogue-box { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1.5rem 0; }
+.dialogue-prompt { color: var(--accent-ember); font-weight: 600; margin-bottom: 0.5rem; }
+.dialogue-response { color: var(--text-secondary); line-height: 1.7; }
+.concept-body { color: var(--text-secondary); line-height: 1.7; }
+.trap-box { background: rgba(232,100,44,0.06); border: 1px solid rgba(232,100,44,0.2); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.trap-title { color: var(--accent-ember); font-weight: 700; margin-bottom: 0.5rem; }
+.trap-text { color: var(--text-secondary); }
+.dostoevsky-ref { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.dostoevsky-quote { color: var(--accent-scripture); font-style: italic; font-size: 1.05rem; line-height: 1.6; }
+.dostoevsky-attr { color: var(--text-muted); font-size: 0.85rem; text-align: right; }
+.keep-reading-desc { color: var(--text-secondary); font-size: 0.9rem; }
+.verse-anatomy { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.15); margin: 1.5rem 0; }
+.word-dead-1 { color: var(--accent-ember); font-weight: 700; }
+.word-dead-2 { color: var(--accent-gold); font-weight: 700; }
+.two-deaths { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+.death-column { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
+.spiritual { border-color: rgba(232,100,44,0.25); }
+.who { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.physical { border-color: rgba(212,162,84,0.25); }
+.chain-ref { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
+.chain-text { color: var(--accent-scripture); font-style: italic; }
+.thinker-quote { border-left: 3px solid var(--accent-gold); padding-left: 1.25rem; margin: 1.5rem 0; color: var(--accent-scripture); font-style: italic; }
+.impossibility-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.impossibility-card { background: var(--bg-card); border-radius: 12px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); }
+.phrase { color: var(--accent-gold); font-weight: 600; }
+.why { color: var(--text-secondary); font-size: 0.9rem; }
+.logic-step { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1rem; }
+.step-num { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; min-width: 2rem; }
+.step-text { color: var(--text-secondary); }
+.logic-conclusion { background: rgba(212,162,84,0.08); border-radius: 10px; padding: 1.25rem; color: var(--accent-gold); font-weight: 600; }
+.hero-divider { border: none; border-top: 1px solid rgba(212,162,84,0.2); margin: 1.5rem 0; }
+.verses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.verse-category { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.3rem; }
+.verse-reference { color: var(--text-primary); font-weight: 600; }
+.meditation { background: rgba(212,162,84,0.06); border-radius: 14px; padding: 2rem; margin: 2rem 0; text-align: center; }
+.conclusion-section { margin-top: 2rem; }
+.conclusion-text { color: var(--text-secondary); line-height: 1.7; font-size: 1.05rem; }
+.grace-highlight { color: var(--accent-gold); font-weight: 600; }
+.exegesis-section { margin: 1.5rem 0; }
+.verse-source { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
+.counter-case { background: rgba(232,100,44,0.06); border: 1px solid rgba(232,100,44,0.15); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.death-language { margin: 1.5rem 0; }
+.death-card { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 0.75rem; }
+.journey-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.journey-link { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); text-decoration: none; color: var(--accent-gold); }
+.journey-link:hover { border-color: var(--accent-gold); }
+.scroll-link { color: var(--accent-gold); text-decoration: underline; cursor: pointer; }
+.tense-timeline { display: flex; flex-direction: column; gap: 1rem; margin: 1.5rem 0; }
+.tense-item { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); }
+.tense { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; }
+.argument { color: var(--text-secondary); line-height: 1.7; }
+.title { color: var(--accent-gold); font-family: var(--font-heading); }
+.banner-primary { background: linear-gradient(135deg, rgba(212,162,84,0.15), rgba(232,100,44,0.1)); border: 1px solid rgba(212,162,84,0.25); border-radius: 14px; padding: 2rem; margin: 1.5rem 0; }
+.question-page { max-width: 900px; margin: 0 auto; }
+.emphasis-list { list-style: none; padding: 0; }
+.emphasis-list li { padding: 0.5rem 0; border-bottom: 1px solid rgba(212,162,84,0.05); color: var(--text-secondary); }
+.subsection-title { color: var(--accent-gold); font-weight: 600; margin: 1rem 0 0.5rem; }
+.emphasis-text { color: var(--accent-gold); font-weight: 600; }
+.link-button { display: inline-block; padding: 0.7rem 1.5rem; background: var(--accent-gold); color: var(--bg-deep); border-radius: 8px; text-decoration: none; font-weight: 600; }
+.link-button:hover { background: #c4923e; }
+.intro-box { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; }
+.verse-ref-small { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
+.reading-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.distinction-box { background: var(--bg-card); border-radius: 14px; padding: 1.5rem; margin: 1.5rem 0; }
+.distinction-card { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.mercy { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.25rem; }
+.justice { background: rgba(232,100,44,0.06); border-radius: 12px; padding: 1.25rem; }
+.soul-box { background: rgba(139,92,246,0.06); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.next-article-label { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.next-article-title { color: var(--accent-gold); font-weight: 600; }
+.next-article-desc { color: var(--text-secondary); font-size: 0.9rem; }
+.explore-card-title { color: var(--accent-gold); font-weight: 600; }
+.explore-card-desc { color: var(--text-secondary); font-size: 0.9rem; }
+.explore-card-arrow { color: var(--accent-gold); }
+.verdict-section { margin: 1.5rem 0; padding: 1.5rem; background: rgba(212,162,84,0.06); border-radius: 12px; }
+.socratic-trap { background: rgba(232,100,44,0.06); border: 1px solid rgba(232,100,44,0.2); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.article-intro { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7; }
+.question-prompt { color: var(--accent-ember); font-weight: 600; font-style: italic; }
+.cross-ref-container { margin-top: 1.5rem; }
+.cross-ref-title { color: var(--accent-gold); font-weight: 600; margin-bottom: 0.5rem; }
+.verse-list { margin: 1rem 0; }
+.verdict-title { color: var(--accent-gold); font-weight: 700; margin-bottom: 0.5rem; }
+.scripture-citation { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.85rem; }
+.verse-highlight { background: rgba(139,92,246,0.06); border-radius: 10px; padding: 1.25rem; margin: 1rem 0; }
+.related-verses { display: flex; flex-direction: column; gap: 0.75rem; margin: 1.5rem 0; }
+.numbered-argument { counter-reset: arg; margin: 1.5rem 0; }
+.numbered-argument p { counter-increment: arg; padding-left: 2rem; position: relative; }
+.numbered-argument p::before { content: counter(arg) "."; position: absolute; left: 0; color: var(--accent-gold); font-weight: 700; }
+
+/* ── QUESTIONS HUB (questions.html) ── */
+.category-section { margin-bottom: 2.5rem; }
+.category-icon { font-size: 1.5rem; margin-right: 0.5rem; }
+.category-number { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.crown-jewel-banner { background: linear-gradient(135deg, rgba(212,162,84,0.15), rgba(232,100,44,0.1)); border: 2px solid rgba(212,162,84,0.3); border-radius: 14px; padding: 2rem; margin: 2rem 0; }
+.journey-section { margin-top: 3rem; text-align: center; }
+
+/* ── PSYCHOLOGY PAGES ── */
+.mechanism-box { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.pairing-psychology { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+.stage-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.85rem; text-transform: uppercase; }
+.voices-box { background: rgba(139,92,246,0.06); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.voice-quote { color: var(--accent-scripture); font-style: italic; margin-bottom: 0.75rem; }
+.voice-author { color: var(--text-muted); font-size: 0.85rem; text-align: right; }
+.never-gives-up-text { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.3rem; }
+.never-gives-up-subtext { color: var(--text-secondary); }
+.mechanism-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.related-articles-section { margin-top: 2rem; }
+.outrage-card { background: rgba(232,100,44,0.06); border: 1px solid rgba(232,100,44,0.15); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; }
+.foundation-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.experiment-cite { color: var(--text-muted); font-size: 0.85rem; font-style: italic; }
+.research-box { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; }
+.gold-blockquote { border-left: 3px solid var(--accent-gold); padding-left: 1.25rem; color: var(--accent-scripture); font-style: italic; margin: 1.5rem 0; }
+.footer-quote { text-align: center; font-style: italic; color: var(--accent-scripture); padding: 2rem 1rem; }
+.cross-links-section { margin-top: 2rem; }
+.cross-links-title { color: var(--accent-gold); font-weight: 600; margin-bottom: 0.75rem; }
+.cross-link-excerpt { color: var(--text-secondary); font-size: 0.9rem; }
+.bias-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.bias-subtitle { color: var(--text-muted); font-style: italic; }
+.psych-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.card-subtitle { color: var(--text-muted); font-size: 0.9rem; font-style: italic; }
+.scene-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(232,100,44,0.15); margin: 1rem 0; }
+.callout-box { background: rgba(212,162,84,0.06); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.diagnosis-card { background: rgba(232,100,44,0.06); border: 1px solid rgba(232,100,44,0.15); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.article-closer { text-align: center; padding: 2rem 1rem; margin-top: 2rem; }
+.closer-line { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.3rem; }
+.phenomenon-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.experiment-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.research-tag { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; }
+.ngup-content { padding: 1.5rem; }
+.intro-blockquote { border-left: 3px solid var(--accent-gold); padding-left: 1.25rem; margin: 1.5rem 0; }
+.page-wrapper { max-width: 900px; margin: 0 auto; padding: 0 1rem; }
+
+/* ── STORY / DARK THEME PAGES ── */
+.dark-theme { background: var(--bg-deep); }
+.banner-dark { background: rgba(10,10,15,0.8); border: 1px solid rgba(212,162,84,0.2); border-radius: 14px; padding: 2rem; margin: 1.5rem 0; }
+.banner-highlight { color: var(--accent-gold); font-weight: 600; }
+.story-title { color: var(--accent-gold); font-family: var(--font-heading); font-size: 2rem; }
+.story-subtitle { color: var(--text-secondary); font-size: 1.1rem; }
+.parable-unveiled { background: rgba(212,162,84,0.06); border: 1px solid rgba(212,162,84,0.15); border-radius: 14px; padding: 2rem; margin: 2rem 0; }
+.mapping-section { margin: 1.5rem 0; }
+.mapping-item { display: flex; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid rgba(212,162,84,0.06); }
+.truth-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.pull-quote-section { text-align: center; padding: 2rem 1rem; font-style: italic; color: var(--accent-scripture); font-size: 1.1rem; }
+.keep-reading-container { margin-top: 2rem; }
+.card-type { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; }
+.allegory-section { margin: 1.5rem 0; }
+.allegory-map { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1rem 0; }
+.allegory-card { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); }
+.symbol { color: var(--accent-gold); font-weight: 700; }
+.narrator-note { background: rgba(212,162,84,0.06); border-left: 3px solid var(--accent-gold); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0; font-style: italic; color: var(--text-secondary); }
+.discussion-section { margin-top: 2rem; }
+.story-body { color: var(--text-secondary); line-height: 1.8; }
+.letter-block { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 2rem; margin: 1.5rem 0; }
+.paper-text { font-family: var(--font-heading); color: var(--text-secondary); line-height: 1.8; }
+
+/* ── DEVOTIONAL PAGES ── */
+.letter-container { background: rgba(212,162,84,0.06); border-radius: 14px; padding: 2.5rem; margin: 1.5rem 0; border: 1px solid rgba(212,162,84,0.15); }
+.letter-greeting { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.3rem; margin-bottom: 1rem; }
+.letter-body { color: var(--text-secondary); line-height: 1.8; }
+.letter-emphasis { color: var(--accent-gold); font-weight: 600; }
+.scripture-note { background: rgba(139,92,246,0.06); border-radius: 8px; padding: 0.75rem 1rem; margin: 0.75rem 0; }
+.letter-closing { color: var(--text-secondary); margin-top: 1.5rem; }
+.letter-signature { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.5rem; margin-top: 0.5rem; }
+.letter-ref { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.greek-callout { background: rgba(139,92,246,0.06); border-radius: 10px; padding: 1.25rem; margin: 1rem 0; }
+.moment-section { margin: 1.5rem 0; }
+.never-gives-up { margin: 1.5rem 0; }
+.rabbit-hole { margin-top: 2rem; }
+.rabbit-hole-card { background: var(--bg-card); border-radius: 10px; padding: 1rem; margin-bottom: 0.75rem; border: 1px solid rgba(212,162,84,0.08); text-decoration: none; }
+.rabbit-hole-card:hover { border-color: var(--accent-gold); }
+.rabbit-hole-eyebrow { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; }
+.in-christ-count { text-align: center; margin: 2rem 0; }
+.big-number { font-size: 4rem; font-family: var(--font-heading); color: var(--accent-gold); font-weight: 700; }
+.count-label { color: var(--text-muted); font-family: var(--font-mono); }
+.opening-meditation { background: rgba(212,162,84,0.06); border-radius: 14px; padding: 2rem; text-align: center; margin: 1.5rem 0; }
+.banner-cta { display: inline-block; padding: 0.7rem 1.5rem; background: var(--accent-gold); color: var(--bg-deep); border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 1rem; }
+.banner-cta:hover { background: #c4923e; }
+.name-experience { color: var(--accent-gold); font-style: italic; }
+.name-fear { color: var(--accent-ember); font-style: italic; }
+.prayer { font-style: italic; color: var(--accent-scripture); padding: 1.5rem; background: rgba(139,92,246,0.06); border-radius: 12px; margin: 1.5rem 0; }
+
+/* ── OBJECTION PAGES ── */
+.article-lead { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7; }
+.scriptural-list, .logical-list, .keep-reading-list { margin: 1rem 0; color: var(--text-secondary); }
+.article-info { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.85rem; }
+.letter-opening { color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem; }
+.quotes-section { margin: 1.5rem 0; }
+.article-closing { text-align: center; padding: 2rem 1rem; }
+.fork-diagram { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+.fork-option { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
+.fork-section { margin: 1.5rem 0; }
+.witness-quotes { margin: 1.5rem 0; }
+.journey-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.objection-page { max-width: 900px; margin: 0 auto; }
+.reading-container { margin-top: 1.5rem; }
+
+/* ── PHILOSOPHY PAGES ── */
+.concept-card-body { color: var(--text-secondary); line-height: 1.7; }
+.footnote { color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid rgba(212,162,84,0.1); padding-top: 0.5rem; margin-top: 1rem; }
+.keep-reading-card-title { color: var(--accent-gold); font-weight: 600; }
+.keep-reading-card-desc { color: var(--text-secondary); font-size: 0.9rem; }
+.philosophy-hero-subtitle { color: var(--text-secondary); max-width: 700px; margin: 0 auto; }
+.philosophy-section { margin: 2rem 0; }
+.keep-reading-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.keep-reading-link { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); text-decoration: none; transition: border-color 0.2s; }
+.keep-reading-link:hover { border-color: var(--accent-gold); }
+.keep-reading-link-title { color: var(--accent-gold); font-weight: 600; }
+.keep-reading-link-icon { color: var(--accent-gold); }
+.philosophy-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.logical-flow { display: flex; flex-direction: column; gap: 0; }
+.comparison-love { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+.comparison-policy { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+.critical-distinction { background: rgba(232,100,44,0.06); border: 1px solid rgba(232,100,44,0.2); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.definition-box { background: rgba(212,162,84,0.06); border-left: 3px solid var(--accent-gold); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1rem 0; }
+.warning-box { background: rgba(232,100,44,0.06); border-left: 3px solid var(--accent-ember); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1rem 0; }
+.answer-list { list-style: none; padding: 0; }
+.answer-list li { padding: 0.5rem 0; border-bottom: 1px solid rgba(212,162,84,0.05); color: var(--text-secondary); }
+
+/* ── DEMOLITION PAGES ── */
+.remonstrant-articles { margin: 1.5rem 0; }
+.article-item { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin-bottom: 1rem; }
+.response-header { color: var(--accent-gold); font-weight: 600; margin: 0.75rem 0 0.5rem; }
+.question-block { background: rgba(232,100,44,0.06); border-radius: 10px; padding: 1.25rem; margin: 1rem 0; }
+.trilemma { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0; }
+.trilemma-item { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); text-align: center; }
+.share-section { text-align: center; margin-top: 2rem; }
+.share-button { display: inline-block; padding: 0.7rem 1.5rem; border-radius: 8px; background: var(--accent-gold); color: var(--bg-deep); font-weight: 600; text-decoration: none; cursor: pointer; border: none; }
+.share-button:hover { background: #c4923e; }
+.devotional-button { display: inline-block; padding: 0.7rem 1.5rem; background: rgba(212,162,84,0.15); color: var(--accent-gold); border-radius: 8px; text-decoration: none; }
+.sovereignty-box { background: rgba(212,162,84,0.06); border: 1px solid rgba(212,162,84,0.15); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.heresy-box { background: rgba(232,100,44,0.06); border: 1px solid rgba(232,100,44,0.2); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.context-box { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.reading-list { list-style: none; padding: 0; }
+.reading-list li { padding: 0.4rem 0; border-bottom: 1px solid rgba(212,162,84,0.05); }
+.logic-line { color: var(--text-secondary); padding: 0.5rem 0; }
+.section-count { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.verse-entry { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 0.75rem; }
+.counter { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; }
+.verse-note { color: var(--text-muted); font-size: 0.85rem; font-style: italic; }
+
+/* ── SECULAR EVIDENCE PAGES ── */
+.truth-tag { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 10px; font-size: 0.75rem; font-family: var(--font-mono); }
+.tag-depravity { background: rgba(232,100,44,0.15); color: var(--accent-ember); }
+.tag-inability { background: rgba(232,100,44,0.1); color: #c05030; }
+.tag-sovereignty { background: rgba(212,162,84,0.15); color: var(--accent-gold); }
+.tag-grace { background: rgba(139,92,246,0.15); color: var(--accent-violet); }
+.lit-quote { border-left: 3px solid var(--accent-gold); padding-left: 1.25rem; margin: 1.5rem 0; font-style: italic; color: var(--accent-scripture); }
+.author-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.author-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.empire-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.empire-box { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); text-align: center; }
+.empire-name { color: var(--accent-gold); font-weight: 600; }
+.empire-dates { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.convergence-list { list-style: none; padding: 0; }
+.convergence-list li { padding: 0.5rem 0; border-bottom: 1px solid rgba(212,162,84,0.05); color: var(--text-secondary); }
+.history-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.econ-card { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 1rem; }
+.econ-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.concept-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.vs-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+.vs-table td, .vs-table th { padding: 0.75rem; border-bottom: 1px solid rgba(212,162,84,0.08); color: var(--text-secondary); }
+.vs-table th { color: var(--accent-gold); text-align: left; }
+.reformed-echo { background: rgba(212,162,84,0.06); border-left: 3px solid var(--accent-gold); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1rem 0; }
+
+/* ── HYMN / ARTICLE PAGES ── */
+.article-header { margin-bottom: 1.5rem; }
+.verse-analysis { margin: 1.5rem 0; }
+.verse-breakdown { padding: 1rem 0; border-bottom: 1px solid rgba(212,162,84,0.06); }
+.verse-point { color: var(--text-secondary); padding: 0.3rem 0; }
+.article-card-title { color: var(--accent-gold); font-weight: 600; }
+.article-card-desc { color: var(--text-secondary); font-size: 0.9rem; }
+.article-card-link { color: var(--accent-gold); text-decoration: underline; }
+
+/* ── PASTORAL PAGES ── */
+.pastoral-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.prayer-box { background: rgba(139,92,246,0.06); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; font-style: italic; }
+.link-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.scripture-cascade { margin: 1.5rem 0; }
+.missionary-card { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); margin: 1rem 0; }
+.era { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.contrast-box { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+.without { background: rgba(232,100,44,0.06); border-radius: 12px; padding: 1.25rem; }
+.with { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.25rem; }
+.prayer-model { background: rgba(139,92,246,0.06); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+.prayer-ref { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.8rem; }
+
+/* ── HEALING / SHATTERED LENS / OPEN WOUND / INVISIBLE WALL ── */
+.article-reading-time { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; }
+.article-opening { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.8; }
+.article-sections { margin: 2rem 0; }
+.cross-link-section { margin-top: 2rem; }
+.cross-link-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+.banner-icon { font-size: 1.5rem; }
+.keep-reading-items { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.keep-reading-item { background: var(--bg-card); border-radius: 10px; padding: 1rem; border: 1px solid rgba(212,162,84,0.08); text-decoration: none; }
+.keep-reading-item:hover { border-color: var(--accent-gold); }
+.footer-text { color: var(--text-muted); font-size: 0.85rem; text-align: center; margin-top: 1rem; }
+.hub-scripture-ref { color: var(--accent-violet); font-family: var(--font-mono); font-size: 0.85rem; }
+.hub-grief-block { background: rgba(212,162,84,0.06); border-radius: 14px; padding: 2rem; margin: 1.5rem 0; }
+.graces-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.prayer-reflection { background: rgba(139,92,246,0.06); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; font-style: italic; }
+.accent-quote { border-left: 3px solid var(--accent-gold); padding-left: 1.25rem; color: var(--accent-scripture); font-style: italic; margin: 1.5rem 0; }
+.keep-reading-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.keep-reading-preview { color: var(--text-secondary); font-size: 0.9rem; }
+.cards-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.related-content { margin-top: 2rem; }
+
+/* ── NEVER GIVES UP BANNERS ── */
+.never-gives-up-banner-content { padding: 1.5rem; }
+.never-gives-up-banner-text { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.2rem; }
+.never-gives-up-banner-cta { display: inline-block; padding: 0.5rem 1.2rem; background: var(--accent-gold); color: var(--bg-deep); border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 0.75rem; }
+
+/* ── RESISTANCE / MISC SINGLE-FILE ── */
+.four-paths { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.path-item { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); }
+.path-title { color: var(--accent-gold); font-weight: 600; margin-bottom: 0.3rem; }
+.path-description { color: var(--text-secondary); font-size: 0.9rem; }
+.soli-deo { color: var(--accent-gold); font-family: var(--font-heading); font-style: italic; }
+.author { color: var(--text-muted); font-size: 0.85rem; }
+.theologian-quotes { margin: 1.5rem 0; }
+.theologian-quote-text { color: var(--accent-scripture); font-style: italic; margin-bottom: 0.25rem; }
+.theologian-quote-credit { color: var(--text-muted); font-size: 0.85rem; }
+.further-reading-list { list-style: none; padding: 0; }
+.further-reading-list li { padding: 0.4rem 0; border-bottom: 1px solid rgba(212,162,84,0.05); }
+.lewis-quote { border-left: 3px solid var(--accent-gold); padding-left: 1.25rem; color: var(--accent-scripture); font-style: italic; margin: 1.5rem 0; }
+.callout-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; }
+.concept-card-label { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.3rem; }
+.concept-card-text { color: var(--text-secondary); line-height: 1.7; }
+.reading-card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.reading-card-tag { color: var(--accent-gold); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; }
+.reading-card-title { color: var(--accent-gold); font-weight: 600; margin: 0.3rem 0; }
+.reading-card-excerpt { color: var(--text-secondary); font-size: 0.9rem; }
+.reading-card-cta { color: var(--accent-gold); text-decoration: underline; }
+
+/* ── TOPICS & MISC UTILITY ── */
+.loading { text-align: center; padding: 3rem; color: var(--text-muted); }
+.topics-container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+.quick-start-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.quick-option { background: var(--bg-card); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.1); text-decoration: none; transition: border-color 0.2s; text-align: center; }
+.quick-option:hover { border-color: var(--accent-gold); }
+.current { color: var(--accent-gold); font-weight: 700; }
+.scripture-card { background: var(--bg-card); border-radius: 10px; padding: 1.25rem; border: 1px solid rgba(212,162,84,0.08); margin-bottom: 0.75rem; }
+.attribute-name { color: var(--accent-gold); font-weight: 600; }
+.attribute-description { color: var(--text-secondary); font-size: 0.9rem; }
+.connection-description { color: var(--text-secondary); font-size: 0.9rem; }
+.continue-section { margin-top: 2rem; text-align: center; }
+.continue-description { color: var(--text-secondary); }
+.page-hero-content { max-width: 800px; margin: 0 auto; }
+.page-hero-subtitle { color: var(--text-secondary); font-size: 1.1rem; }
+.page-article { max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+.cross-link-subtitle { color: var(--text-secondary); font-size: 0.9rem; }
+
+/* ── RESPONSIVE for single-file orphans ── */
+@media (max-width: 768px) {
+    .mode-selector { grid-template-columns: 1fr; }
+    .decision-columns { grid-template-columns: 1fr; }
+    .def-row { grid-template-columns: 1fr; }
+    .contrast-grid { grid-template-columns: 1fr; }
+    .imputation-diagram { grid-template-columns: 1fr; gap: 0.5rem; }
+    .comparison { grid-template-columns: 1fr; }
+    .two-deaths { grid-template-columns: 1fr; }
+    .fork-diagram { grid-template-columns: 1fr; }
+    .distinction-card { grid-template-columns: 1fr; }
+    .comparison-love, .comparison-policy { grid-template-columns: 1fr; }
+    .contrast-box { grid-template-columns: 1fr; }
+    .pairing-psychology { grid-template-columns: 1fr; }
+    .shift-grid { grid-template-columns: 1fr; }
+    .trilemma { grid-template-columns: 1fr; }
+    .scale-comparison { grid-template-columns: 1fr; }
+    .spectrum-bar { flex-direction: column; }
+}
+
+/* ── Final stragglers (7 classes, 5 files) ── */
+.pelagius { background: rgba(232,100,44,0.06); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(232,100,44,0.15); }
+.augustine { background: rgba(212,162,84,0.06); border-radius: 12px; padding: 1.5rem; border: 1px solid rgba(212,162,84,0.15); }
+.meta-icon { font-size: 1.2rem; margin-right: 0.3rem; }
+.argument-list { list-style: none; padding: 0; }
+.argument-list li { padding: 0.5rem 0; border-bottom: 1px solid rgba(212,162,84,0.05); color: var(--text-secondary); }
+.witness-text { color: var(--text-secondary); line-height: 1.7; }
+.greek-hebrew { background: rgba(139,92,246,0.06); border-radius: 10px; padding: 1.25rem; margin: 1rem 0; }
+.mechanism-description { color: var(--text-secondary); line-height: 1.7; }
