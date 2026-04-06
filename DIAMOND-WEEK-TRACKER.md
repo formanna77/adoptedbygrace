@@ -102,6 +102,10 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Apr 5 | Guardian | 31 pages (batch) | STRUCTURE | Removed banned inline `<style>` blocks from 31 pages (demolition-*, ot-*, devotional-*, anxious-mind-*, etc.) |
 | Apr 5 | Guardian | 20 pages (batch) | STRUCTURE | Removed banned back-to-top buttons + inline JS from 20 pages. |
 | Apr 5 | Guardian | 17 pages (batch) | STRUCTURE | Added/fixed page-hero class on 17 pages with missing or non-standard hero wrappers. |
+| Apr 5 | Guardian | 8 pages (batch) | STRUCTURE | Removed 8 remaining back-to-top buttons (demolition-romans10-9, demolition-2peter2-1, devotional-when-god-says-no, ot-abraham, question-ezekiel37, demolition-hebrews6-4-6, ot-israel-chosen, ot-david). |
+| Apr 5 | Guardian | sitemap.xml | STRUCTURE | Added 54 missing pages to sitemap (15% of site was invisible to search engines). 364 total entries. |
+| Apr 5 | Guardian | debate-free-will.html | STRUCTURE | Fixed 2 broken links: systematic-irresistible-grace → systematic-pneumatology, systematic-perseverance → systematic-soteriology. |
+| Apr 5 | Guardian | site-wide | STRUCTURE | Rebuilt search index (363 pages), mega-menu (327 articles), auto-linker (570 links across 186 files). |
 | Apr 5 | Guardian | 8 pages (batch) | STRUCTURE | Fixed non-standard eyebrow classes (hero-eyebrow, topic-label, article-meta → eyebrow; hero-subtitle, article-subtitle → hub-subtitle). |
 | Apr 5 | Dramaturg | psychology-sincerity-trap.html | EMOTION | Specific kitchen-table scene opening (cold coffee, cracked Bible). Stop-and-feel at irony peak. Callback closing returns to woman. Sensory language in Dunning-Kruger section. Whisper pastoral closing. |
 | Apr 5 | Dramaturg | psychology-sunk-cost-faith.html | EMOTION | 63-year-old pastor scene opening (2000 sermons, 40 years). Real-time self-awareness stop-and-feel at sunk cost proof. Sensory language in surrender ("shoulders drop, jaw unclenches"). Callback closing to pastor. 3 internal links added. |
@@ -121,6 +125,18 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Apr 5 | Weaver | secular-billion-decisions.html | LINKS | +6 links (3→9). Linked question-freewill, systematic-theology-proper, systematic-divine-decrees, question-cannot, theologian-spurgeon, Crown Jewel. |
 | Apr 5 | Weaver | devotional-the-prayer-you-didnt-pray.html | LINKS | +6 links (4→10). Linked question-depravity, systematic-pneumatology, systematic-regeneration, systematic-election, psychology-suppressing-truth, Crown Jewel. |
 | Apr 5 | Weaver | anxious-mind-scrupulosity.html | LINKS | +7 links (5→12). Linked Crown Jewel, systematic-election, question-goldchain, systematic-hamartiology, question-depravity, question-perseverance, psychology-cognitive-biases. |
+| Apr 5 | Cartographer | question-chosen.html | JOURNEY | Added "Continue the Journey" with 3 cards: question-where-did-your-faith-come-from, devotional-chosen-before-you-were-broken, psychology-identity-threat. |
+| Apr 5 | Cartographer | question-faithgift.html | JOURNEY | Added "Continue the Journey" with 3 cards: question-is-salvation-my-choice-or-gods, devotional-my-chains-fell-away, psychology-sincerity-trap. |
+| Apr 5 | Cartographer | question-depravity.html | JOURNEY | Added "Continue the Journey" with 3 cards: systematic-hamartiology, devotional-the-hands-that-hold-you, analogy-doctor-corpse. |
+| Apr 5 | Cartographer | question-sealed.html | JOURNEY | Added "Continue the Journey" with 3 cards: question-goldchain, devotional-never-gives-up, pastoral-assurance. |
+| Apr 5 | Cartographer | demolition-john3-16.html | JOURNEY | Added "Continue the Journey" with 3 cards: question-whosoever, devotional-rescued-without-a-say, compare-calvinism-arminianism. |
+| Apr 5 | Cartographer | compare-calvinism-arminianism.html | JOURNEY | Added "Continue the Journey" with 3 cards: demolition-steel-man-arminianism, psychology-cost-of-rejecting-grace, compare-every-decision-point. |
+| Apr 5 | Cartographer | resistance-last-idol.html | JOURNEY | Added "Continue the Journey" with 3 cards: psychology-pride-root-objection, devotional-when-god-says-no, story-the-fish-who-chose-the-ocean. |
+| Apr 5 | Cartographer | scripture-tsunami.html | JOURNEY | Added "Continue the Journey" with 3 cards: question-does-god-choose-who-goes-to-heaven, devotional-valley-shadow, philosophy-copernican-revolution. |
+| Apr 5 | Cartographer | for-arminians.html | JOURNEY | CREATED audience landing page. 6-step Socratic journey (faith-origin → faith-as-gift → depravity → God's-choice → sincerity-trap → rest). 3 "Go Deeper" cards. All 9 links verified. |
+| Apr 5 | Enhancer | objection-why-command.html | CONTENT | Added "What This Question Is Really Asking" section (naming the emotional fear behind the objection: irrelevance, not logic). Added "The Command That Reveals Everything" section (Crown Jewel connection: faith-as-gift applied to commands). Added humor bomb (GPS/steering analogy). Added 5+ new cross-category links to philosophy pages (infinite-regress, munchhausen-trilemma, resistance-is-proof, sleep-surrender). Strengthened pastoral note with command-as-delivery-vehicle gut-punch. Updated section nav. |
+| Apr 5 | Enhancer | creed-canons-dort.html | CONTENT | Added "Why 400-Year-Old Words Should Make You Weep" section (persecution context, martyrdom chain, personal faith-as-link-in-chain). Added 8 new cross-category links (psychology-cost, philosophy-resistance, question-perseverance, question-where-faith, systematic-divine-decrees, question-chosen, devotional-never-gives-up, psychology-sincerity-trap). Strengthened Two Arms bridge with sincerity-trap link. |
+| Apr 5 | Enhancer | broken-mirror-sin-you-repeat.html | CONTENT | ESV→NIV conversion (Romans 7:18-19, Romans 6:1-2). Added "Why the Cycle Proves Grace, Not Its Absence" section (grief-as-evidence-of-Spirit, repentance-as-gift, Crown Jewel connection). Added 3 new cross-category links (psychology-cost, question-where-faith, systematic-pneumatology). |
 
 ---
 
@@ -131,6 +147,8 @@ If you see a problem outside your lane while working on a page, log it here inst
 | Date | Flagging Agent | Page | Issue | For Which Agent |
 |------|---------------|------|-------|-----------------|
 | Apr 5 | Weaver | broken-mirror-sin-you-repeat.html | ESV quotations on lines ~178 (Romans 7:18-19) and ~204 (Romans 6:1-2) — need NIV conversion | Enhancer |
+| Apr 5 | Cartographer | anxious-mind-brain-decides.html, anxious-mind-never-meant-to-carry.html, anxious-mind-sovereignty-of-sleep.html, psychology-comfort-self-salvation.html | Broken links to "search.html" (file not found) | Weaver/Guardian |
+| Apr 5 | Cartographer | debate-free-will.html | Broken links to "systematic-irresistible-grace" and "systematic-perseverance" (files not found) | Weaver |
 
 ---
 

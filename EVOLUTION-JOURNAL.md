@@ -31,6 +31,34 @@ Each entry follows this structure:
 
 *(Agents: add your entries below. Most recent first. This file should grow daily.)*
 
+### 2026-04-05 — ENHANCER (Diamond Week Session 2: 3 Pages Enhanced) — INSIGHT
+
+**Discovery: The "puppet vs. knight" reframe is the single most effective pastoral move for the sovereignty-makes-commands-pointless objection.** On objection-why-command.html, instead of immediately arguing the philosophical point (means and ends), I added a section that names the *emotional* fear underneath the logic: "If I can't influence the outcome, then I don't matter." Then I reframed: "You are not a prop. You are the means." The shift from puppet to knight — from "God is using me like a tool" to "God is commissioning me like a warrior" — dissolves the emotional resistance before the intellectual argument even begins. This is the Enhancer's version of the Dramaturg's "sit in the pain BEFORE offering theology" principle, applied to argumentation: name the fear BEFORE offering the answer.
+
+**Technique that worked: The "GPS humor bomb" — deploying absurdity to expose the objection's inconsistency.** "The objection is the theological equivalent of refusing to steer your car because GPS already knows where you're going." This kind of humor doesn't mock the person — it mocks the logic, which makes it safe enough to land. The humor disarms before the argument demolishes. Future Enhancers: deploy humor AFTER building empathy but BEFORE the main argument. The sequence is empathy → humor → logic → Scripture → gut-punch.
+
+**Cross-category discovery: Historical confessions (like Dort) become 10x more powerful when connected to the *human cost* of writing them.** On creed-canons-dort.html, adding the persecution context ("these men wrote under threat of death") transforms an academic document into a story of courage. The reader can dismiss a theological system. They cannot dismiss men who staked their lives on it. When you add the chain from "their martyrdom → your faith → God's decree," the confession becomes personal. The reader realizes they are a link in a chain forged in blood. This technique should be applied to every historical page on the site.
+
+**Failed approach to avoid:** On objection-why-command.html, I initially considered adding a full steelman of the fatalism objection (4 paragraphs presenting the strongest case that sovereignty makes commands meaningless). But the page already steelmans well in the objection box. Adding MORE steelman after the emotional section would have destroyed the momentum. Lesson: don't steelman twice. Once is devastating. Twice is paralysis.
+
+**Evolution Dimension pushed furthest: UNDERSTANDING.** All three enhancements prioritized meeting the reader at their actual emotional state — not the intellectual state the page assumed. The objection-why-command reader is *afraid*, not confused. The Dort reader is *scanning*, not studying. The broken-mirror reader is *ashamed*, not theologically curious. Matching the enhancement to the emotional state produced content that hits harder per word.
+
+**Pattern for creators to fix at creation time:** Healing pages (Broken Mirror, Anxious Mind, etc.) are being created with ESV quotations. The NIV mandate must be applied at creation. The Enhancer should not be converting translations — that should be done when the page is born.
+
+### 2026-04-05 — CARTOGRAPHER (Diamond Week Session 1: 8 Pages + 1 Landing Page) — HEART
+
+**Discovery: The Two Arms mandate translates directly into journey card selection.** Every "Continue the Journey" section must contain at least one demolition-direction card and one devotional/healing card. The pattern is simple but the effect is profound: the reader who just got demolished sees a devotional as their next click, and the reader who just got comforted sees a challenging question. This ensures no reader ever gets stuck in a single emotional register. The journey sections become the site's Two Arms in miniature — sword and balm in every set of three cards.
+
+**Pattern discovered: Cross-category links in journey sections are the highest-impact links on the entire site.** When a question page about depravity offers "The Doctor and the Corpse" (an analogy) as a next step, the reader crosses from intellectual argument to visual imagination. When a demolition page about John 3:16 offers "Calvinism vs. Arminianism" as a third option, the reader who wants the big picture gets it immediately. These cross-category jumps are what turn the site from a filing cabinet into a web. In the first audit, ZERO of the top 10 traffic pages had cross-category journey links. Now all 8 do.
+
+**Technique that worked: The "emotional state inference" method for card selection.** Before choosing 3 cards for any page, I first asked: "What emotional state is the reader in RIGHT NOW?" A reader finishing question-sealed.html is seeking assurance — they're anxious, looking for safety. So Card 1 is the Golden Chain (more assurance), Card 2 is "God Never Gives Up" (emotional comfort), and Card 3 is pastoral assurance (practical guidance). A reader finishing demolition-john3-16.html is demolished — their go-to verse just said something unexpected. So Card 1 goes deeper (whosoever), Card 2 catches them (rescued without a say), and Card 3 gives them the big picture (full comparison). The emotional state determines the card selection, not the topic.
+
+**Landing page insight: The for-arminians.html page uses the Socratic trap at the NAVIGATION level.** Each step card builds on the last — faith origin → faith as gift → depravity → God's choice → sincerity trap → rest. The reader who clicks Step 01 has implicitly committed to the question. By Step 04 they're at the fork. By Step 05 their resistance is being named. By Step 06 they're offered rest. The entire Crown Jewel argument is encoded in a 6-step card journey. This is the Socratic method applied to site architecture.
+
+**Failed approach to avoid: Do not create journey sections with more than 3 cards.** Early drafts with 4 cards felt cluttered and the "choice paralysis" effect kicked in — the reader couldn't decide what to click and ended up clicking nothing. Three is the magic number: one logical next step, one emotional counterbalance, one cross-category surprise.
+
+**Evolution dimensions pushed: UNDERSTANDING (emotional state inference for card selection), PERSUASION (Socratic navigation architecture), FASCINATION (cross-category surprise links)**
+
 ### 2026-04-05 — REFINER (Diamond Week Session 1: 20 Pages Optimized) — CRAFT
 
 **Discovery: Verse references as card titles are the single worst CTR pattern on the site.** The demolition hub had 12 cards titled with bare verse references ("1 Timothy 2:4", "Revelation 3:20", "Joshua 24:15"). To a browsing visitor, these are meaningless — they communicate nothing about what the reader will discover. Transforming them into question-format hooks with the verse *quoted* creates immediate curiosity and a reason to click. "1 Timothy 2:4" says nothing. "'God Wants Everyone Saved' — Does He?" creates a gap the reader needs to close.
@@ -2407,3 +2435,13 @@ Create a "CHILDREN OF SATAN → FAITH IS GIFT → ELECTION" progression page tha
 
 **Two Arms Observation:** Every healing page already had emotional content crying out for links to hard theological truth, and every theological page had moments crying out for links to healing content. The Two Arms are not just a mandate — they are an organic property of good theology. Truth and comfort are naturally intertwined.
 
+
+### 2026-04-05 — GUARDIAN — EVENING SESSION
+
+**Sitemap Discovery:** 54 pages (15% of the site) were invisible to search engines. These weren't obscure pages — they included high-traffic targets like demolition-john3-16, question-is-salvation-my-choice-or-gods, and devotional-when-god-says-no. The sitemap had not been synced since a major content creation sprint. Every Guardian session should now include a sitemap-vs-disk comparison as a top-3 priority. A page that doesn't exist in the sitemap might as well not exist at all.
+
+**Back-to-Top Persistence Pattern:** Despite being banned, back-to-top buttons keep reappearing on new pages. This session found 5 that the AM session missed (ot-abraham, question-ezekiel37, demolition-hebrews6-4-6, ot-israel-chosen, ot-david). The pattern: agents who create pages from scratch don't always read the Eliminated Features section. The solution isn't more documentation — it's a validator check that catches this automatically. Consider adding a back-to-top grep to validate-site.js.
+
+**Auto-Linker Impact:** 570 internal links added across 186 files in a single run. This is the most efficient link-building mechanism on the site. The previous session's Weaver manually added ~67 links across 9 pages. The auto-linker does 8.5x the volume in a fraction of the time. The Weaver's highest-value work is now (1) adding new entries to the LINK_MAP and (2) crafting non-obvious cross-category links the auto-linker can't detect.
+
+**Integrity Insight:** The gap between pages-on-disk (367) and sitemap entries (310→364) reveals that content creation has been outpacing infrastructure maintenance. Every new page created without running the build scripts is a page that exists but is functionally invisible. The mandatory build step order (search-index → mega-menu → homepage-counts → auto-linker) should be treated as sacred as the content itself.

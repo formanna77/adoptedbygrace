@@ -418,19 +418,23 @@
                     name: 'Theologian Profiles',
                     icon: '🧓',
                     href: '/theologians',
-                    count: 11,
+                    count: 15,
                     pages: [
                         { name: 'Amazing Grace: The Hymn That Proves What You Already Believe', href: '/hymn-amazing-grace', desc: 'You' },
+                        { name: 'Anselm of Canterbury', href: '/theologian-anselm', desc: 'The medieval philosopher who proved God' },
                         { name: 'Augustine: The Rebel God Hunted Down and Made a Theologian', href: '/theologian-augustine', desc: 'Explore the life, theology, and enduring legacy of Augustine of Hippo—the Doctor of Grace whose writings on predestinati' },
                         { name: 'George Whitefield: The Voice That Shook a Nation Awake', href: '/theologian-whitefield', desc: 'George Whitefield: the greatest evangelist of the Great Awakening, a thoroughgoing Calvinist who proved that election fu' },
+                        { name: 'Gottschalk of Orbais: The Imprisoned Prophet', href: '/theologian-gottschalk', desc: 'Gottschalk of Orbais (808-868): The monk imprisoned for 20 years for preaching predestination. His life and theology pro' },
                         { name: 'Jacobus Arminius: The Man Behind the Movement', href: '/theologian-arminius', desc: 'A respectful but honest treatment of Jacobus Arminius. His background, training under Beza, the five Remonstrant article' },
                         { name: 'John Bunyan: The Tinker Who Wrote the Greatest Allegory of Grace', href: '/theologian-bunyan', desc: 'The Tinker of Bedford: John Bunyan' },
                         { name: 'John Calvin: Theologian of God\'s Sovereignty', href: '/theologian-calvin', desc: 'A comprehensive theological biography of John Calvin, the theologian of God' },
                         { name: 'John Owen: He Proved Christ Didn\'t Die in Vain', href: '/theologian-owen', desc: 'John Owen (1616–1683) — the theologian' },
+                        { name: 'John Wycliffe: The Morning Star of the Reformation', href: '/theologian-wycliffe', desc: 'John Wycliffe (1320s-1384): Oxford scholar who gave England the Bible in their own language and defended God' },
                         { name: 'Jonathan Edwards: The Man Who Saw God\'s Sovereignty and Trembled', href: '/theologian-edwards', desc: 'Jonathan Edwards: America' },
                         { name: 'Martin Luther: The Monk Who Broke the Church to Save It', href: '/theologian-luther', desc: 'Martin Luther (1483–1546): The Reformation' },
                         { name: 'Spurgeon: The Prince of Preachers Who Couldn\'t Stop Talking About Grace', href: '/theologian-spurgeon', desc: 'Charles Haddon Spurgeon — the Prince of Preachers. Explore the life, theology, and enduring legacy of the greatest preac' },
-                        { name: 'Thomas Boston: The Scottish Pastor Who Fought Legalism with Grace', href: '/theologian-boston', desc: 'The life and theology of Thomas Boston (1676–1732), the Marrow theologian who fought for free grace against legalism in ' }
+                        { name: 'Thomas Boston: The Scottish Pastor Who Fought Legalism with Grace', href: '/theologian-boston', desc: 'The life and theology of Thomas Boston (1676–1732), the Marrow theologian who fought for free grace against legalism in ' },
+                        { name: 'Thomas Bradwardine: The Mathematician of God\'s Sovereignty', href: '/theologian-bradwardine', desc: 'Explore Thomas Bradwardine' }
                     ]
                 }
             ]

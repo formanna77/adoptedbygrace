@@ -1,5 +1,33 @@
 # INTEGRITY LOG — adoptedbygrace.net Guardian Sessions
 
+## 2026-04-05 Guardian Session — EVENING (Diamond Week Day 1, Run 3)
+
+**Summary:**
+- Pages on disk: 367
+- Sitemap entries: 364 (after adding 54 missing)
+- Issues found: 64
+- Issues fixed: 64
+- Deploy status: HELD (Netlify auth token unavailable)
+
+**Phase Breakdown:**
+- Phase 1 (Broken Links): 2 broken hrefs in debate-free-will.html → FIXED (systematic-irresistible-grace → systematic-pneumatology, systematic-perseverance → systematic-soteriology)
+- Phase 2 (Hub Sync): Deferred to next full sector scan — previous session documented 99 missing hub cards (Enhancer scope)
+- Phase 3 (Sitemap): **54 pages added**, 0 ghost entries removed, 364 total (was 310). Major gap closed — 17% of pages were invisible to search engines.
+- Phase 4 (Navigation): All 367 pages compliant. Only creeds-confessions.html (redirect) excluded.
+- Phase 5 (Footer): All pages compliant. Footer-grace-warning present on all non-redirect pages.
+- Phase 7 (Functional): No placeholder content. No oversized files. Only 404.html has inline styles (acceptable).
+- Phase 8 (Design System): All article pages using article-body. No rogue wrapper classes.
+- Phase 11 (Banned Content): **8 back-to-top buttons removed** across: demolition-romans10-9, demolition-2peter2-1, devotional-when-god-says-no, ot-abraham, question-ezekiel37, demolition-hebrews6-4-6, ot-israel-chosen, ot-david. Previous session caught 3; this session caught 5 more.
+- Phase 15 (Search/Menu): Search index rebuilt (363 pages). Mega-menu rebuilt (327 articles, 7 umbrellas). Auto-linker: 570 links added across 186 files. Homepage counts up to date (315 articles).
+- Phase 16 (Deploy): HELD — Netlify auth token not available. All changes saved to disk.
+
+**Notable Patterns:**
+- Sitemap gap was severe: 54 real pages (15%) were missing. Many were high-value demolition, devotional, and question pages. Search engines have been crawling a site that's 15% smaller than it actually is. This is now fixed.
+- Back-to-top buttons keep appearing on newer pages despite being banned. 8 total found this session (3 from AM session + 5 new). Pattern: pages created by agents who didn't read the Eliminated Features section.
+- Auto-linker is doing heavy lifting: 570 links across 186 files in one run. This is the most efficient way to close the internal linking gap.
+
+---
+
 ## 2026-04-05 Guardian Session — PM (5:00 PM CT)
 
 **Summary:**
