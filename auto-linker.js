@@ -251,6 +251,256 @@ const LINK_MAP = [
 
     // ── WORKS-RIGHTEOUSNESS (THE CROWN JEWEL IDEA) ──
     { url: '/psychology-cost-of-rejecting-grace', keywords: ['works-righteousness', 'works righteousness', 'works-based salvation', 'self-righteousness', 'trusting in yourself'], priority: 8 },
+
+    // ══════════════════════════════════════════════════════
+    // EXPANDED DICTIONARY — April 2026
+    // ══════════════════════════════════════════════════════
+
+    // ── ANXIOUS MIND (HEALING) ──
+    { url: '/anxious-mind-brain-decides', keywords: ['brain decides before you do', 'neuroscience and free will', 'brain decides first'], priority: 5 },
+    { url: '/anxious-mind-fear-of-hell', keywords: ['afraid of hell', 'fear of hell', 'terror of hell'], priority: 6 },
+    { url: '/anxious-mind-intrusive-thoughts', keywords: ['intrusive thoughts', 'unwanted thoughts', 'war zone in your mind'], priority: 5 },
+    { url: '/anxious-mind-never-meant-to-carry', keywords: ['never meant to carry', 'burden you were never meant to carry'], priority: 4 },
+    { url: '/anxious-mind-scrupulosity', keywords: ['scrupulosity', 'religious OCD', 'spiritual OCD'], priority: 6 },
+    { url: '/anxious-mind-sovereignty-of-sleep', keywords: ['sovereignty of sleep', 'sleep and sovereignty'], priority: 4 },
+    { url: '/anxious-mind-the-loop-that-wont-break', keywords: ['rumination', 'OCD and faith', 'the loop that won\'t break'], priority: 5 },
+
+    // ── BROKEN MIRROR (HEALING) ──
+    { url: '/broken-mirror-grace-too-good', keywords: ['grace feels too good to be true', 'too good to be true'], priority: 5 },
+    { url: '/broken-mirror-imposter-syndrome', keywords: ['imposter syndrome', 'feel like a fraud', 'spiritual imposter'], priority: 6 },
+    { url: '/broken-mirror-not-self-made', keywords: ['self-made', 'not a self-made anything', 'self-made man'], priority: 5 },
+    { url: '/broken-mirror-performance-treadmill', keywords: ['performance treadmill', 'doing enough for God', 'earn God\'s approval'], priority: 6 },
+    { url: '/broken-mirror-sin-you-repeat', keywords: ['the sin you keep repeating', 'sin you keep returning to', 'habitual sin'], priority: 6 },
+    { url: '/broken-mirror-the-relapse', keywords: ['relapse', 'fell back into sin', 'sin you thought you conquered'], priority: 5 },
+
+    // ── INVISIBLE WALL (HEALING) ──
+    { url: '/invisible-wall-family', keywords: ['family can\'t follow', 'theological divide in family', 'family doesn\'t understand'], priority: 5 },
+    { url: '/invisible-wall-friend-who-left', keywords: ['friend who left', 'lost a friend over theology'], priority: 4 },
+    { url: '/invisible-wall-lonely-theological', keywords: ['theological loneliness', 'lonely in your theology'], priority: 5 },
+    { url: '/invisible-wall-marriage', keywords: ['theological disagreement in marriage', 'spouse disagrees theologically'], priority: 5 },
+    { url: '/invisible-wall-only-one-who-sees', keywords: ['only one who sees it', 'only one who understands'], priority: 5 },
+    { url: '/invisible-wall-prayer-feels-empty', keywords: ['prayer feels empty', 'talking to the ceiling', 'prayer feels like nothing'], priority: 5 },
+    { url: '/invisible-wall-singing-alone', keywords: ['singing alone', 'alone in your church', 'church doesn\'t see it'], priority: 4 },
+    { url: '/invisible-wall-spiritual-envy', keywords: ['spiritual envy', 'watching others feel what you can\'t'], priority: 4 },
+
+    // ── OPEN WOUND (HEALING) ──
+    { url: '/open-wound-betrayed-by-church', keywords: ['betrayed by church', 'church hurt', 'church became the wound'], priority: 5 },
+    { url: '/open-wound-empty-nursery', keywords: ['empty nursery', 'infertility and sovereignty', 'infertility'], priority: 5 },
+    { url: '/open-wound-hospital-room', keywords: ['hospital room', 'why do bad things happen'], priority: 5 },
+    { url: '/open-wound-miscarriage', keywords: ['miscarriage', 'infant loss', 'child you never held'], priority: 5 },
+    { url: '/open-wound-senseless-death', keywords: ['senseless death', 'death makes no sense', 'grief without explanation'], priority: 5 },
+    { url: '/open-wound-terminal-diagnosis', keywords: ['terminal diagnosis', 'terminal illness', 'end you didn\'t choose'], priority: 5 },
+    { url: '/open-wound-the-prayer-god-didnt-answer', keywords: ['unanswered prayer', 'prayer God didn\'t answer', 'God didn\'t answer'], priority: 6 },
+
+    // ── SHATTERED LENS (HEALING) ──
+    { url: '/shattered-lens-bible-doesnt-make-sense', keywords: ['Bible stopped making sense', 'Bible doesn\'t make sense'], priority: 5 },
+    { url: '/shattered-lens-cant-tell-true', keywords: ['can\'t tell what\'s true', 'don\'t know what\'s true anymore'], priority: 4 },
+    { url: '/shattered-lens-cant-unsee-it', keywords: ['can\'t unsee it', 'can\'t unsee God\'s sovereignty'], priority: 5 },
+    { url: '/shattered-lens-lost-community', keywords: ['lost your community', 'truth cost you your community'], priority: 5 },
+    { url: '/shattered-lens-pastor', keywords: ['pastor teaches wrong', 'pastor is wrong', 'when your pastor'], priority: 5 },
+    { url: '/shattered-lens-silence-of-god', keywords: ['silence of God', 'God goes silent', 'God is silent'], priority: 6 },
+    { url: '/shattered-lens-taught-wrong', keywords: ['everything you were taught was wrong', 'taught wrong'], priority: 5 },
+    { url: '/shattered-lens-when-prayer-stopped-working', keywords: ['prayer stopped working', 'when prayer stopped'], priority: 5 },
+
+    // ── ADDITIONAL DEMOLITION PAGES ──
+    { url: '/demolition-1cor15-22', keywords: ['1 Corinthians 15:22', '1 Cor 15:22', 'in Christ all shall be made alive'], priority: 7 },
+    { url: '/demolition-1tim4-10', keywords: ['1 Timothy 4:10', '1 Tim 4:10', 'savior of all people'], priority: 7 },
+    { url: '/demolition-2cor5-14-15', keywords: ['2 Corinthians 5:14', '2 Cor 5:14', 'Christ died for all'], priority: 7 },
+    { url: '/demolition-2peter2-1', keywords: ['2 Peter 2:1', '2 Pet 2:1', 'the master who bought them'], priority: 7 },
+    { url: '/demolition-acts17-30', keywords: ['Acts 17:30', 'God commands all to repent'], priority: 7 },
+    { url: '/demolition-arianism', keywords: ['Arianism', 'Arian heresy'], priority: 5 },
+    { url: '/demolition-children-of-satan', keywords: ['children of Satan', 'children of the devil', 'unregenerate nature'], priority: 6 },
+    { url: '/demolition-cut-off-from-root', keywords: ['cut off from the root', 'sin doesn\'t just wound'], priority: 5 },
+    { url: '/demolition-ezekiel18-23', keywords: ['Ezekiel 18:23', 'Ezek 18:23', 'does God take pleasure in death'], priority: 7 },
+    { url: '/demolition-hebrews2-9', keywords: ['Hebrews 2:9', 'Heb 2:9', 'tasted death for everyone'], priority: 7 },
+    { url: '/demolition-john12-32', keywords: ['John 12:32', 'I will draw all people', 'draw all men to myself'], priority: 7 },
+    { url: '/demolition-matthew-23-37', keywords: ['Matthew 23:37', 'O Jerusalem Jerusalem', 'how often I longed to gather'], priority: 7 },
+    { url: '/demolition-orthodox-predestination', keywords: ['Orthodox predestination', 'Eastern Orthodox election'], priority: 5 },
+    { url: '/demolition-philippians2-12-13', keywords: ['Philippians 2:12-13', 'Phil 2:12-13', 'work out your salvation', 'God works in you to will and to act'], priority: 8 },
+    { url: '/demolition-titus2-11', keywords: ['Titus 2:11', 'grace has appeared to all'], priority: 7 },
+
+    // ── ADDITIONAL DEVOTIONALS ──
+    { url: '/devotional-adoption-papers', keywords: ['adoption papers', 'name written before you were born'], priority: 5 },
+    { url: '/devotional-cold-church', keywords: ['cold church', 'heart used to burn', 'lukewarm faith'], priority: 5 },
+    { url: '/devotional-glory-of-divine-choice', keywords: ['glory of divine choice', 'chosen not because you\'d become worthy'], priority: 5 },
+    { url: '/devotional-good-i-cannot-do', keywords: ['the good I cannot do', 'Romans 7:19', 'good that I want to do'], priority: 6 },
+    { url: '/devotional-i-cant-feel-god', keywords: ['can\'t feel God', 'I can\'t feel God anymore', 'God feels distant'], priority: 6 },
+    { url: '/devotional-i-dont-think-im-saved', keywords: ['don\'t think I\'m saved', 'not sure I\'m saved', 'doubt my salvation'], priority: 7 },
+    { url: '/devotional-in-christ', keywords: ['in Christ', 'in Him', 'united with Christ'], priority: 5 },
+    { url: '/devotional-joy-of-election', keywords: ['joy of election', 'election is joyful', 'joy in being chosen'], priority: 6 },
+    { url: '/devotional-love-letter-before-time', keywords: ['love letter before time', 'God wrote before time'], priority: 4 },
+    { url: '/devotional-not-my-will-but-joy', keywords: ['not my will', 'surrendering your will', 'surrender and joy'], priority: 5 },
+    { url: '/devotional-the-god-who-wastes-nothing', keywords: ['God wastes nothing', 'suffering has a sovereign purpose', 'nothing is wasted'], priority: 5 },
+    { url: '/devotional-the-secretly-ashamed', keywords: ['secretly ashamed', 'hidden shame', 'shame and grace'], priority: 5 },
+    { url: '/devotional-weakness-of-gods-strength', keywords: ['God\'s power in weakness', 'power made perfect in weakness', '2 Corinthians 12:9'], priority: 6 },
+    { url: '/devotional-when-god-says-no', keywords: ['when God says no', 'God said no'], priority: 5 },
+
+    // ── ADDITIONAL QUESTION PAGES ──
+    { url: '/question-acts4', keywords: ['Acts 4:27-28', 'Acts 4:28', 'cross was predestined', 'predestined the cross'], priority: 7 },
+    { url: '/question-are-arminians-saved', keywords: ['are Arminians saved', 'Arminian salvation'], priority: 7 },
+    { url: '/question-bible-says-sick', keywords: ['Bible says sick not dead', 'spiritually sick vs dead'], priority: 6 },
+    { url: '/question-born-again-meaning', keywords: ['born again meaning', 'John 3:3', 'John 3:3-8', 'must be born again'], priority: 7 },
+    { url: '/question-calvinist-on-knees', keywords: ['Calvinist on their knees', 'everyone prays like a Calvinist', 'pray like a Calvinist'], priority: 5 },
+    { url: '/question-dead-bury-dead', keywords: ['let the dead bury the dead', 'dead bury their dead'], priority: 5 },
+    { url: '/question-dead-in-sin-meaning', keywords: ['dead in sin meaning', 'Ephesians 2:1-5', 'what does dead in sin mean'], priority: 7 },
+    { url: '/question-does-god-choose-who-goes-to-heaven', keywords: ['does God choose who goes to heaven', 'God chooses who goes to heaven'], priority: 7 },
+    { url: '/question-does-god-love-everyone-equally', keywords: ['does God love everyone equally', 'God\'s love for the elect'], priority: 6 },
+    { url: '/question-every-conversion-acts', keywords: ['every conversion in Acts', 'conversions in Acts'], priority: 6 },
+    { url: '/question-external-call', keywords: ['why some walk away', 'hear the gospel and walk away', 'two calls of God'], priority: 6 },
+    { url: '/question-free-will-bible-verses', keywords: ['free will Bible verses', 'Bible verses about free will'], priority: 6 },
+    { url: '/question-godwants', keywords: ['God wants everyone saved', 'two wills of God', 'does God want everyone saved'], priority: 7 },
+    { url: '/question-is-predestination-in-the-bible', keywords: ['is predestination in the Bible', 'predestination biblical'], priority: 7 },
+    { url: '/question-one-question', keywords: ['one question that changes everything'], priority: 5 },
+    { url: '/question-secure', keywords: ['can a believer lose salvation', 'lose your salvation', 'fall from grace'], priority: 7 },
+    { url: '/question-was-christ-a-robot', keywords: ['was Christ a robot', 'Jesus wasn\'t a robot', 'predestination and robots'], priority: 5 },
+    { url: '/question-what-is-sovereign-grace', keywords: ['what is sovereign grace', 'what are the doctrines of grace'], priority: 7 },
+    { url: '/question-where-does-your-no-come-from', keywords: ['where does your no come from', 'self-referential trap'], priority: 6 },
+    { url: '/question-whose-side-are-you-on', keywords: ['man-centered theology', 'God-centered theology', 'man-centered vs God-centered'], priority: 6 },
+    { url: '/question-why-does-god-choose-some-not-others', keywords: ['why does God choose some', 'God choose some and not others'], priority: 7 },
+    { url: '/question-why-pray-if-god-is-sovereign', keywords: ['why pray if God is sovereign', 'prayer changes you not God'], priority: 6 },
+
+    // ── ADDITIONAL OBJECTION PAGES ──
+    { url: '/objection-babies', keywords: ['babies who die', 'infant salvation', 'babies and election'], priority: 6 },
+    { url: '/objection-effort', keywords: ['why even try', 'predetermined why try', 'why bother'], priority: 5 },
+    { url: '/objection-god-could-save-all', keywords: ['God could save everyone', 'why not save all people'], priority: 6 },
+    { url: '/objection-manipulation', keywords: ['God manipulates', 'sovereignty vs manipulation', 'does God manipulate'], priority: 5 },
+    { url: '/objection-unfair-to-choose-some', keywords: ['unfair to choose some', 'only chose some'], priority: 6 },
+    { url: '/objection-why-believe', keywords: ['why do we have to believe', 'if already chosen why believe'], priority: 6 },
+    { url: '/objection-why-command', keywords: ['why does God command', 'if predestined why command'], priority: 5 },
+    { url: '/objection-why-evangelize', keywords: ['why evangelize if predestined', 'if God already chose'], priority: 6 },
+
+    // ── FOR-X LANDING PAGES ──
+    { url: '/for-arminians', keywords: ['you love Jesus but', 'missing something'], priority: 4 },
+    { url: '/for-deconstructed', keywords: ['deconstructed faith', 'deconstructed everything', 'deconstruction'], priority: 6 },
+    { url: '/for-hurting', keywords: ['your world is burning', 'when everything falls apart'], priority: 4 },
+    { url: '/for-new-believers', keywords: ['new to election', 'just heard about election', 'new to these truths'], priority: 5 },
+    { url: '/for-pastors', keywords: ['preaching sovereign grace', 'pastor and sovereign grace'], priority: 5 },
+    { url: '/for-skeptics', keywords: ['intellectual honesty', 'hunting for honesty'], priority: 4 },
+    { url: '/just-realized', keywords: ['just realized', 'just figured it out'], priority: 4 },
+
+    // ── ADDITIONAL HISTORY PAGES ──
+    { url: '/history-20th-century', keywords: ['Reformed resurgence', '20th century Reformed', 'neo-Calvinism'], priority: 5 },
+    { url: '/history-apostolic', keywords: ['early church sovereign grace', 'early church fathers', 'apostolic fathers'], priority: 5 },
+    { url: '/history-confessions-story', keywords: ['Reformed confessions', 'story behind the confessions', 'Westminster Confession'], priority: 5 },
+    { url: '/history-council-of-orange', keywords: ['Council of Orange', 'Orange 529'], priority: 6 },
+    { url: '/history-decision-theology', keywords: ['decision theology', 'altar call', 'invention of the altar call', 'Charles Finney'], priority: 7 },
+    { url: '/history-every-revival-sovereign-grace', keywords: ['every revival', 'revival and Calvinism', 'revivals were Calvinist'], priority: 6 },
+    { url: '/history-heresy-foreknowledge', keywords: ['foreknowledge heresy', 'foreknowledge objection through history'], priority: 5 },
+    { url: '/history-heresy-free-will', keywords: ['free will heresy', 'history of the free will defense'], priority: 5 },
+    { url: '/history-korean-revival', keywords: ['Pyongyang Revival', 'Korean revival', 'Korean Christianity'], priority: 4 },
+    { url: '/history-medieval', keywords: ['medieval theology', 'gospel almost died', 'dark ages theology'], priority: 4 },
+    { url: '/history-puritans', keywords: ['the Puritans', 'Puritan theology', 'Puritan era'], priority: 6 },
+    { url: '/history-spurgeon-downgrade', keywords: ['Downgrade Controversy', 'Spurgeon stood alone', 'Spurgeon controversy'], priority: 5 },
+    { url: '/history-today', keywords: ['sovereign grace today', 'Reformed movement today'], priority: 4 },
+    { url: '/history-whitefield-wesley', keywords: ['Whitefield vs Wesley', 'Wesley and Whitefield', 'two revivals'], priority: 5 },
+    { url: '/hymn-amazing-grace', keywords: ['Amazing Grace hymn', 'John Newton', 'amazing grace'], priority: 5 },
+
+    // ── ADDITIONAL PHILOSOPHY PAGES ──
+    { url: '/philosophy-bootstrap-paradox', keywords: ['bootstrap paradox', 'believe the sky is green', 'can\'t choose to believe'], priority: 6 },
+    { url: '/philosophy-children-argument', keywords: ['didn\'t choose to be born', 'argument from childhood'], priority: 5 },
+    { url: '/philosophy-godel-incompleteness', keywords: ['Gödel', 'Godelian', 'incompleteness theorem', 'no soul can save itself'], priority: 5 },
+    { url: '/philosophy-gratitude-test', keywords: ['gratitude test', 'your thank you proves'], priority: 5 },
+    { url: '/philosophy-gravity-of-grace', keywords: ['gravity of grace', 'never chose to be held'], priority: 5 },
+    { url: '/philosophy-immune-system-grace', keywords: ['immune system analogy', 'immune system you never asked for'], priority: 4 },
+    { url: '/philosophy-mother-tongue', keywords: ['mother tongue chose you', 'language and sovereignty'], priority: 4 },
+    { url: '/philosophy-observer-effect-sin', keywords: ['observer effect of sin', 'observer effect'], priority: 4 },
+    { url: '/philosophy-prisoners-dilemma', keywords: ['prisoner\'s dilemma', 'prisoner\'s dilemma of salvation'], priority: 5 },
+    { url: '/philosophy-sleep-surrender', keywords: ['can\'t will yourself to sleep', 'sleep and grace'], priority: 5 },
+    { url: '/philosophy-theater-script', keywords: ['script you didn\'t write', 'theater of sovereignty'], priority: 4 },
+    { url: '/philosophy-what-if-wrong', keywords: ['what if you\'re wrong', 'soteriological Pascal\'s wager', 'Pascal\'s wager'], priority: 5 },
+
+    // ── ADDITIONAL PSYCHOLOGY PAGES ──
+    { url: '/psychology-addiction-proof', keywords: ['recovering addict', 'addiction proves depravity', 'addiction and sovereignty'], priority: 6 },
+    { url: '/psychology-attribution-error', keywords: ['attribution error', 'fundamental attribution error', 'credit thief'], priority: 5 },
+    { url: '/psychology-comfort-self-salvation', keywords: ['comfort of self-salvation', 'self-salvation feels right'], priority: 5 },
+    { url: '/psychology-emotional-vs-rational', keywords: ['heart rejects what mind accepts', 'emotional vs rational'], priority: 5 },
+    { url: '/psychology-groupthink', keywords: ['groupthink', 'church groupthink', 'why your church all believes the same'], priority: 5 },
+    { url: '/psychology-language-acquisition', keywords: ['language acquisition', 'didn\'t choose your mother tongue'], priority: 4 },
+    { url: '/psychology-language-you-already-speak', keywords: ['language you already speak', 'own words confess sovereign grace'], priority: 5 },
+    { url: '/psychology-system-justification', keywords: ['system justification', 'defend the theology that enslaves'], priority: 5 },
+    { url: '/psychology-terror-management', keywords: ['terror management theory', 'terror management'], priority: 5 },
+    { url: '/psychology-why-this-objection-proves-our-point', keywords: ['objection proves our point', 'crown jewel defense'], priority: 6 },
+
+    // ── ADDITIONAL COMPARISON PAGES ──
+    { url: '/compare-every-decision-point', keywords: ['every decision point', 'Scripture sides with God'], priority: 5 },
+    { url: '/compare-grace-reformed-vs-arminian', keywords: ['two versions of grace', 'Reformed vs Arminian grace'], priority: 6 },
+    { url: '/debate-free-will', keywords: ['great debate', 'free will debate', 'does man have free will debate'], priority: 5 },
+
+    // ── ADDITIONAL OT PAGES ──
+    { url: '/ot-abel-cain', keywords: ['Abel and Cain', 'Cain and Abel', 'Bible\'s first election'], priority: 6 },
+    { url: '/ot-isaiah-servant', keywords: ['Isaiah and the servant', 'suffering servant prophecy'], priority: 5 },
+    { url: '/ot-jonah', keywords: ['Jonah', 'prophet who ran', 'Jonah and sovereignty'], priority: 5 },
+
+    // ── ADDITIONAL THEOLOGIAN PAGES ──
+    { url: '/theologian-anselm', keywords: ['Anselm', 'Anselm of Canterbury', 'ontological argument'], priority: 5 },
+    { url: '/theologian-bradwardine', keywords: ['Thomas Bradwardine', 'Bradwardine'], priority: 4 },
+    { url: '/theologian-gottschalk', keywords: ['Gottschalk', 'Gottschalk of Orbais', 'imprisoned for predestination'], priority: 5 },
+    { url: '/theologian-lloydjones', keywords: ['Martyn Lloyd-Jones', 'Lloyd-Jones', 'the Doctor preacher'], priority: 5 },
+    { url: '/theologian-machen', keywords: ['J. Gresham Machen', 'Machen', 'Christianity and Liberalism'], priority: 5 },
+    { url: '/theologian-sproul', keywords: ['R.C. Sproul', 'Sproul', 'Chosen by God', 'Ligonier'], priority: 6 },
+    { url: '/theologian-warfield', keywords: ['B.B. Warfield', 'Warfield', 'Princeton theology'], priority: 5 },
+    { url: '/theologian-wycliffe', keywords: ['John Wycliffe', 'Wycliffe', 'Morning Star of the Reformation'], priority: 5 },
+
+    // ── ADDITIONAL STORY PAGES ──
+    { url: '/story-children-the-king-who-chose', keywords: ['king who chose his children'], priority: 4 },
+    { url: '/story-cross-examination', keywords: ['cross-examination', 'free will on the witness stand'], priority: 5 },
+    { url: '/story-dark-the-altar-he-built-himself', keywords: ['altar he built himself', 'religion that almost killed him'], priority: 4 },
+    { url: '/story-dark-the-woman-who-earned-her-seat', keywords: ['woman who earned her seat', 'righteousness that damns'], priority: 5 },
+    { url: '/story-historical-augustine-pears', keywords: ['Augustine stole the pears', 'Augustine\'s pears'], priority: 4 },
+    { url: '/story-historical-luther-storm', keywords: ['Luther\'s thunderstorm', 'Luther thunderstorm'], priority: 4 },
+    { url: '/story-humor-committee-to-save-yourself', keywords: ['committee to save yourself', 'satire on works-righteousness'], priority: 4 },
+    { url: '/story-humor-the-man-who-sued-god', keywords: ['man who sued God', 'sued God for saving him'], priority: 4 },
+    { url: '/story-real-conversions', keywords: ['real conversions', 'what actually happens when God saves'], priority: 5 },
+    { url: '/story-tender-the-gardener-who-waited', keywords: ['gardener who waited', 'child walks away from faith'], priority: 4 },
+    { url: '/story-the-garden-that-grew-itself', keywords: ['garden that grew itself', 'parable about grace and effort'], priority: 4 },
+    { url: '/story-the-letter-before-the-world', keywords: ['letter before the world', 'love letter before time'], priority: 4 },
+    { url: '/story-the-person-who-chose-god', keywords: ['person who chose God', 'dark thought experiment'], priority: 5 },
+    { url: '/story-the-room-where-you-chose', keywords: ['room where you chose', 'illusion of free will story'], priority: 5 },
+    { url: '/story-the-self-made-man', keywords: ['the self-made man'], priority: 4 },
+    { url: '/story-thought-the-day-you-chose-again', keywords: ['day you chose again', 'thought experiment about free will'], priority: 4 },
+    { url: '/story-thought-the-god-who-let-you-watch', keywords: ['God who let you watch', 'see yourself being chosen'], priority: 4 },
+
+    // ── ADDITIONAL SECULAR EVIDENCE PAGES ──
+    { url: '/secular-algorithm-sovereignty', keywords: ['algorithm knows you', 'algorithm and sovereignty', 'algorithm better than you'], priority: 5 },
+    { url: '/secular-art-literature-reformed-truth', keywords: ['art and Reformed truth', 'literature and sovereignty', 'greatest writers intuited'], priority: 4 },
+    { url: '/secular-economics-depravity', keywords: ['economics and depravity', 'economist assumes depravity'], priority: 5 },
+    { url: '/secular-genetics-sovereignty', keywords: ['DNA and sovereignty', 'genetics and sovereignty', 'written in your DNA'], priority: 5 },
+    { url: '/secular-hard-problem-consciousness', keywords: ['hard problem of consciousness', 'consciousness and sovereignty'], priority: 5 },
+    { url: '/secular-history-sovereignty', keywords: ['secular historians document divine control', 'history and sovereignty'], priority: 4 },
+    { url: '/secular-recovery-total-depravity', keywords: ['recovery program', 'twelve steps', '12-step', 'AA and total depravity'], priority: 6 },
+    { url: '/secular-sociology-human-inability', keywords: ['social experiment confirms', 'sociology and human inability'], priority: 4 },
+
+    // ── ROMANS DEEP DIVES ──
+    { url: '/romans-3-10-18', keywords: ['Romans 3:10-18', 'Rom 3:10', 'there is no one righteous', 'no one who seeks God'], priority: 7 },
+    { url: '/romans-8-28-39', keywords: ['Romans 8:28-39', 'Rom 8:28', 'all things work together', 'nothing can separate us'], priority: 8 },
+    { url: '/romans-9-1-24', keywords: ['Romans 9:1-24', 'Rom 9:1', 'potter and clay passage', 'God\'s sovereign right to choose'], priority: 8 },
+
+    // ── SCRIPTURE TSUNAMI PAGES ──
+    { url: '/scripture-tsunami-faith-as-gift', keywords: ['every verse teaching faith is a gift', 'faith as gift verses'], priority: 5 },
+    { url: '/scripture-tsunami-sovereignty', keywords: ['every verse teaching sovereignty', 'sovereignty verses'], priority: 5 },
+
+    // ── RESISTANCE PAGES ──
+    { url: '/resistance-last-idol', keywords: ['last idol', 'self-sovereignty is the hardest', 'hardest thing to surrender'], priority: 6 },
+    { url: '/resistance-redefining-grace', keywords: ['redefine grace', 'secretly redefine grace', 'redefining grace to include ourselves'], priority: 6 },
+
+    // ── JOY PAGES ──
+    { url: '/joy-freedom-of-smallness', keywords: ['freedom of smallness', 'freedom of being small'], priority: 4 },
+    { url: '/joy-god-big-enough', keywords: ['God is big enough', 'God big enough'], priority: 4 },
+    { url: '/joy-in-suffering', keywords: ['joy in suffering', 'only sovereign grace makes pain bearable'], priority: 6 },
+    { url: '/joy-no-other-theology', keywords: ['joy no other theology can offer', 'unmatched joy'], priority: 5 },
+    { url: '/joy-security-changes-everything', keywords: ['security changes everything', 'eternal security and joy'], priority: 5 },
+    { url: '/joy-staggering-contrast', keywords: ['staggering contrast', 'what two theologies give you'], priority: 5 },
+    { url: '/joy-worship-without-ceiling', keywords: ['worship without a ceiling', 'worship without ceiling'], priority: 4 },
+
+    // ── PASTORAL PAGES ──
+    { url: '/pastoral-when-truth-lands', keywords: ['when the truth lands', 'what it feels like when truth lands'], priority: 5 },
+
+    // ── APOLOGETIC PAGES (now under Questions) ──
+    { url: '/apologetic-babies', keywords: ['what about babies', 'babies and salvation'], priority: 5 },
+    { url: '/apologetic-definite-atonement', keywords: ['did Jesus die for everyone', 'extent of the atonement'], priority: 7 },
+    { url: '/apologetic-evangelism', keywords: ['election make evangelism pointless', 'doesn\'t election make evangelism'], priority: 6 },
+    { url: '/apologetic-perseverance', keywords: ['can you lose your salvation', 'lose salvation'], priority: 7 },
+    { url: '/apologetic-unreached', keywords: ['those who never heard', 'unreached people', 'never heard the gospel'], priority: 6 },
 ];
 
 // ═══════════════════════════════════════
