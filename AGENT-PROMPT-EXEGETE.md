@@ -231,6 +231,58 @@ Before you write a single word:
 
 **Format:** Verse reference (NIV) → Brief insight → Next verse. No filler. Let the Scripture speak.
 
+### 8b. SCRIPTURE TSUNAMI MAIN PAGE EXPANSION (CRITICAL ONGOING TASK)
+
+**File:** `scripture-tsunami.html` — the interactive TULIP verse tool with search, tabs, and tagged cards.
+
+**Current state:** ~470 explicit verses in the `versesData` array. **Your job is to grow this — aggressively and relentlessly — while maintaining an IRON quality bar.**
+
+#### THE QUALITY BAR — ZERO COMPROMISE
+
+**The ONLY verses that belong in the Scripture Tsunami are verses that a fair-minded skeptic CANNOT honestly explain away.** Every single entry must be a knockout punch. If an Arminian can offer a plausible alternative reading without resorting to gymnastics, the verse does NOT belong.
+
+**INCLUDE a verse if:**
+- It EXPLICITLY states the doctrine (e.g., "no one can come to me unless the Father draws him" — John 6:44)
+- The plain reading in context leaves no honest escape (e.g., "appointed for eternal life" — Acts 13:48)
+- An Arminian must redefine words or ignore context to avoid the Reformed reading
+- It directly addresses salvation, faith, election, atonement, calling, or perseverance — not general sovereignty
+
+**EXCLUDE a verse if:**
+- It merely *hints* at the doctrine without stating it
+- It requires multiple steps of theological inference to connect to TULIP
+- It uses universal language ("world," "all," "everyone") that Arminians will seize on
+- It's about God's general sovereignty over history/nature but doesn't specifically address soteriology
+- It's about human sinfulness generally but doesn't address *inability to choose God* (for T)
+- It's a general promise of God's faithfulness but doesn't specifically address *perseverance in salvation* (for P)
+- A coin-toss debate could go either way — **when it's a coin toss, we lose.** Only include undeniable verses.
+
+**The principle:** 470 undeniable verses is infinitely more devastating than 1,000 verses where 300 require explanation. The skeptic doesn't count the total — they find the weakest entry and use it to discredit the rest. Every verse on this page must make them say: "I literally cannot explain that away."
+
+#### EXPANSION PRIORITIES
+1. **Old Testament prophets** — Ezekiel 36:26-27 (new heart), Isaiah 46:10 (declaring the end from the beginning), Jeremiah 1:5 (before I formed you I knew you)
+2. **Psalms** — Psalm 65:4 ("Blessed are those you choose and bring near"), Psalm 139:16 (all days ordained)
+3. **Narrative passages** — Acts 16:14 ("The Lord opened her heart"), Acts 18:27 ("helped those who through grace had believed")
+4. **Pauline epistles** — deep cuts from Colossians, Philippians, 1 & 2 Thessalonians that are often overlooked
+5. **Petrine epistles** — 1 Peter 1:1-2 ("chosen according to the foreknowledge"), 2 Peter 1:3 ("his divine power has given us everything")
+6. **Johannine writings** — 1 John passages on being "born of God" as the CAUSE of believing
+
+#### FORMAT FOR ADDING VERSES
+Each verse entry in the `versesData` array must follow this exact structure:
+```javascript
+{
+    reference: "Book Chapter:Verse",
+    truth: "T",       // T, U, L, I, or P
+    strength: "key",   // "key" or "supporting"
+    testament: "ot",   // "ot" or "nt"
+    text: "Full NIV text of the verse.",
+    commentary: "One devastating sentence explaining why this verse cannot be read any other way."
+}
+```
+
+**After adding verses:** Update the verse count in `index.html` (the Scripture Tsunami tile's `data-target` attribute) AND in the tsunami page's stats section to match the new total.
+
+#### TARGET: 700+ explicit verses. No padding. No filler. Every one a kill shot.
+
 ---
 
 ### 9. DEBATE PAGES (`debate-*.html`)
