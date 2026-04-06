@@ -47,7 +47,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/global.css">
+    <link rel="icon" href="/favicon.ico">
 
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://adoptedbygrace.net/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Psychology",
+            "item": "https://adoptedbygrace.net/psychology-hub.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "What Every Recovering Addict Already Knows About Salvation — Adopted by Grace"
+        }
+    ]
+}
+    </script>
 </head>
 <body>
     <div class="reading-progress"></div>
@@ -117,16 +143,16 @@
         <div class="search-results" id="searchResults"></div>
     </div>
 
-    <div class="page-hero">
+    <header class="page-hero">
         <div class="eyebrow">Psychology of Resistance</div>
         <h1 class="hero-title">What Every Recovering Addict Already Knows About Salvation</h1>
         <p class="subtitle">The 12 steps prove what Scripture teaches: the will is enslaved to sin, and freedom comes only through a power greater than ourselves. Why the church struggles with what AA grasps instinctively.</p>
         <div class="breadcrumb">
             <a href="/">Home</a> / <a href="/psychology-hub">Why We Resist</a> / Addiction & Proof
         </div>
-    </div>
+    </header>
 
-    <div class="article-body">
+    <article class="article-body">
         <div class="section reveal">
             <div class="section-number">01</div>
             <h2 class="section-title">The First Step</h2>
@@ -287,7 +313,7 @@
         <div class="footer-section">
             <p>This article is part of a larger project to help the elect understand the truth of God's sovereignty in salvation—not as an abstract truth, but as lived reality. If this resonates with you, share it with someone who needs to hear it.</p>
         </div>
-    </div>
+    </article>
 
     <script>
         window.addEventListener('scroll', function() {
@@ -308,6 +334,29 @@
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
     </script>
     
+    
+    <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+        <h3 style="color: var(--accent-gold); margin-bottom: 2rem;">Continue the Journey</h3>
+        <div class="hub-grid">
+        <a href="/systematic-hamartiology.html" class="hub-card">
+            <div class="card-number">01</div>
+            <h4 class="card-title">The Doctrine of Sin</h4>
+            <p class="card-description">Addiction proves what theology already taught: we are in bondage.</p>
+            <div class="card-footer">
+                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </div>
+        </a>
+        <a href="/broken-mirror-the-relapse.html" class="hub-card">
+            <div class="card-number">02</div>
+            <h4 class="card-title">The Relapse</h4>
+            <p class="card-description">When the cycle proves you can't save yourself — grace is waiting.</p>
+            <div class="card-footer">
+                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </div>
+        </a>
+        </div>
+    </div>
+
     <footer>
         <div class="footer-container">
             <div class="footer-section">

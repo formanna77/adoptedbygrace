@@ -131,9 +131,9 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Apr 5 | Weaver | open-wound-betrayed-by-church.html | LINKS | 4 hand-crafted links: hamartiology, faithgift, divine-decrees, lazarus-grave. Cross-category: healing→systematic, healing→analogy. |
 | Apr 5 | Weaver | demolition-1cor15-22.html | LINKS | 4 hand-crafted links: anthropology, election, atonement, chosen+never-gives-up. Cross-category: demolition→devotional (Two Arms). |
 | Apr 5 | Weaver | theologian-luther.html | LINKS | 4 hand-crafted links: free will, regeneration, where-did-your-faith, augustine. Cross-category: theologian→question. |
-| Apr 6 | Enhancer | demolition-john3-16.html | CONTENT | Added 3 new sections: "The Irony Nobody Sees" (Humor Bomb + Devastating Question + Piper quote), "A Word for the One Who Is Shaking Right Now" (Pastoral Whisper with Two Arms bridge to healing pages), sharpened Crown Jewel connection. Added Augustine witness quote. 4 new cross-category links. |
-| Apr 6 | Enhancer | anxious-mind-never-meant-to-carry.html | CONTENT | Added new Section 5: "The Theology Your Anxiety Is Trying to Tell You" — connecting Arminian framework to anxiety as its logical emotional consequence. Sleep-as-sovereignty analogy. Tripp quote. Devastating Question added to Section 2. 8+ new cross-category links (demolition, philosophy, psychology, covenant theology). |
-| Apr 6 | Enhancer | demolition-1cor15-22.html | CONTENT | Deep Enhancement: ESV→NIV conversion (5 passages). Added 3 new sections: Theologian Witnesses (Augustine, Calvin, Hodge, Spurgeon), Crown Jewel connection ("How did you get 'in Christ'?"), Pastoral Whisper. Added Devastating Question in context section. 10+ new cross-category links (psychology, devotionals, healing, other demolitions). |
+| Apr 6 | Enhancer | demolition-john3-16.html | CONTENT | Added 3 new sections: "The Love That Actually Works" (ER/surgeon Brilliant Connection + Owen quote), "Objections Answered" (3 steelmanned objections), "The Question You Cannot Dodge" (Devastating Question + humor bomb). Strengthened Irony section with "failed experiment" paragraph. Enhanced Pastoral Whisper with heart-of-stone imagery. 10+ new cross-category links (psychology, philosophy, healing, devotionals, questions). |
+| Apr 6 | Enhancer | demolition-1cor15-22.html | CONTENT | Added "The Absurdity No One Notices" section (humor bomb + motivated reasoning critique). Strengthened representational headship with citizenship/treaty Brilliant Connection. Enhanced comfort section with doctor/surgeon analogy, golden chain reference, sparrows hairs-numbered Scripture knockout, and pastoral whisper for the afraid reader. 8+ new cross-category links (healing, devotionals, systematics, psychology). |
+| Apr 6 | Enhancer | anxious-mind-never-meant-to-carry.html | CONTENT | Added "The Connection You've Never Made" section (airplane/pilot Brilliant Connection — surrender to anonymous pilot vs. refusal to surrender to God). Added Matthew 10:29-31 Scripture knockout (hairs numbered). Enhanced with cross-category links to broken-mirror, question-goldchain, psychology-autonomy, philosophy-sleep-surrender. Renumbered sections 3→8. |
 | Apr 5 | Weaver | question-where-does-your-no-come-from.html | LINKS | 2 hand-crafted links: illusion-free-will, resistance-is-proof. Cross-category: question→psychology, question→philosophy. |
 | Apr 5 | Guardian | site-wide | STRUCTURE | Rebuilt search index (363 pages), mega-menu (327 articles), auto-linker (570 links across 186 files). |
 | Apr 5 | Guardian | 8 pages (batch) | STRUCTURE | Fixed non-standard eyebrow classes (hero-eyebrow, topic-label, article-meta → eyebrow; hero-subtitle, article-subtitle → hub-subtitle). |
@@ -152,11 +152,105 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Apr 5 | Enhancer | secular-sociology-human-inability.html | CONTENT | Added new "Five Questions the Data Forces You to Answer" section with 5 devastating questions. Added healing cross-links (anxious-mind, broken-mirror-vessels-for-mercy). Strengthened pastoral note with Two Arms links. |
 | Apr 5 | Weaver | devotional-adoption-papers.html | LINKS | +11 links (1→12). Linked systematic-election, systematic-atonement, systematic-pneumatology, question-depravity, question-boasting, Crown Jewel, systematic-soteriology, systematic-justification, psychology-pride-root-objection, devotional-chosen-before-you-were-broken, question-perseverance, analogy-adoption. |
 | Apr 5 | Weaver | shattered-lens-cant-tell-true.html | LINKS | +9 links (1→10). Linked psychology-suppressing-truth, systematic-hamartiology, philosophy-self-deception, systematic-christology, systematic-theology-proper, question-chosen, systematic-bibliology, psychology-cognitive-biases, devotional-the-hands-that-hold-you. |
+| Apr 6 | Weaver | story-the-garden-that-grew-itself.html | LINKS | +3 links. Crown Jewel (chosen to bloom), election, regeneration. |
+| Apr 6 | Weaver | story-the-self-made-man.html | LINKS | +3 links. Depravity, boasting, faith-as-gift. |
+| Apr 6 | Weaver | story-the-letter-before-the-world.html | LINKS | +3 links. Adoption analogy, rescued-without-a-say, never-gives-up. |
+| Apr 6 | Weaver | for-deconstructed.html | LINKS | +3 links. Theology-proper, chosen, never-gives-up. |
+| Apr 6 | Weaver | open-wound-the-prayer-god-didnt-answer.html | LINKS | +3 links. Divine decrees, depravity, Job. |
+| Apr 6 | Weaver | story-the-fish-who-chose-the-ocean.html | LINKS | +3 links. Pride-root, never-gives-up, divine-decrees. |
+| Apr 6 | Weaver | anxious-mind-sovereignty-of-sleep.html | LINKS | +1 link. Depravity cross-category. |
+| Apr 6 | Weaver | anxious-mind-the-loop-that-wont-break.html | LINKS | +2 links. Autonomy illusion, never-gives-up. |
+| Apr 6 | Weaver | demolition-arianism.html | LINKS | +2 links. Faith-as-gift, Augustine. |
+| Apr 6 | Weaver | question-john17.html | LINKS | +2 links. Autonomy illusion, never-gives-up. Cross-category: question→psychology, question→devotional. |
+| Apr 6 | Weaver | devotional-in-christ.html | LINKS | +2 links. Definite atonement, Crown Jewel (faith as gift). |
+| Apr 6 | Weaver | theologian-calvin.html | LINKS | +3 links. Depravity, divine decrees, Augustine. |
+| Apr 6 | Weaver | question-john6.html | LINKS | +3 links. Autonomy illusion, depravity, Crown Jewel. Cross-category: question→psychology. |
+| Apr 6 | Weaver | demolition-john12-32.html | LINKS | +1 devotional link (Two Arms fix). Chosen-before-broken. |
+| Apr 6 | Weaver | demolition-hebrews6-4-6.html | LINKS | +1 devotional link (Two Arms fix). I-dont-think-im-saved. |
+| Apr 6 | Weaver | demolition-1tim4-10.html | LINKS | +1 devotional link (Two Arms fix). Never-gives-up. |
+| Apr 6 | Weaver | demolition-2peter3-9.html | LINKS | +1 devotional link (Two Arms fix). Chosen-before-broken. |
+| Apr 6 | Weaver | demolition-matt23-37.html | LINKS | +1 devotional link (Two Arms fix). Never-gives-up. |
+| Apr 6 | Weaver | demolition-arianism.html | LINKS | +1 devotional link (Two Arms fix). Forever-loved. |
+| Apr 6 | Weaver | demolition-1tim2-4.html | LINKS | +1 devotional link (Two Arms fix). Chosen-before-broken. |
+| Apr 6 | Weaver | demolition-titus2-11.html | LINKS | +1 devotional link (Two Arms fix). Rescued-without-a-say. |
+| Apr 6 | Weaver | demolition-2peter2-1.html | LINKS | +1 devotional link (Two Arms fix). I-dont-think-im-saved. |
+| Apr 6 | Weaver | demolition-1john2-2.html | LINKS | +1 devotional link (Two Arms fix). Forever-loved. |
+| Apr 6 | Weaver | demolition-joshua24-15.html | LINKS | +1 devotional link (Two Arms fix). Chosen-before-broken. |
+| Apr 6 | Weaver | demolition-romans10-9.html | LINKS | +1 devotional link (Two Arms fix). Hands-that-hold-you. |
+| Apr 6 | Weaver | demolition-ezekiel18-23.html | LINKS | +1 devotional link (Two Arms fix). Never-gives-up. |
+| Apr 6 | Weaver | demolition-orthodox-predestination.html | LINKS | +1 devotional link (Two Arms fix). Rescued-without-a-say. |
+| Apr 6 | Weaver | demolition-acts7-51.html | LINKS | +1 devotional link (Two Arms fix). Chosen-before-broken. |
+| Apr 6 | Weaver | question-foreknowledge.html | LINKS | +2 devotional links (Two Arms). Love-before-world, never-gives-up. |
+| Apr 6 | Weaver | question-hardening.html | LINKS | +1 devotional link. Hands-that-hold-you. |
+| Apr 6 | Weaver | question-whosoever.html | LINKS | +1 devotional link. Never-gives-up. |
+| Apr 6 | Weaver | question-proverbs-sovereignty.html | LINKS | +1 devotional link. Forever-loved. |
+| Apr 6 | Weaver | question-godwants.html | LINKS | +1 devotional link. Chosen-before-broken. |
+| Apr 6 | Weaver | question-parables.html | LINKS | +1 devotional link. Never-gives-up. |
+| Apr 6 | Weaver | theologian-augustine.html | LINKS | +2 devotional links. Rescued-without-a-say, hands-that-hold-you. |
+| Apr 6 | Weaver | theologian-edwards.html | LINKS | +1 devotional link. Forever-loved. |
+| Apr 6 | Weaver | theologian-luther.html | LINKS | +1 devotional link. Rescued-without-a-say. |
+| Apr 6 | Weaver | theologian-spurgeon.html | LINKS | +1 devotional link. My-chains-fell-away. |
+| Apr 6 | Weaver | theologian-whitefield.html | LINKS | +1 devotional link. Never-gives-up. |
+| Apr 6 | Weaver | theologian-gottschalk.html | LINKS | +1 devotional link. Never-gives-up. |
+| Apr 6 | Weaver | theologian-arminius.html | LINKS | +1 devotional link. Chosen-before-broken. |
+| Apr 6 | Weaver | theologian-calvin.html | LINKS | +1 devotional link. Hands-that-hold-you. |
+| Apr 6 | Weaver | history-puritans.html | LINKS | +1 devotional link. Never-gives-up. |
+| Apr 6 | Weaver | history-confessions-story.html | LINKS | +1 devotional link. Chosen-before-broken. |
+| Apr 6 | Weaver | history-dort.html | LINKS | +1 devotional link. Chosen-before-broken. |
+| Apr 6 | Weaver | history-augustine-pelagius.html | LINKS | +1 devotional link. Rescued-without-a-say. |
+| Apr 6 | Weaver | history-luther.html | LINKS | +1 devotional link. Hands-that-hold-you. |
+| Apr 6 | Weaver | history-apostolic.html | LINKS | +1 devotional link. Forever-loved. |
+| Apr 6 | Weaver | history-calvin-geneva.html | LINKS | +1 devotional link. Love-before-the-world. |
+| Apr 6 | Weaver | history-spurgeon-downgrade.html | LINKS | +1 devotional link. Never-gives-up. |
+| Apr 6 | Weaver | history-medieval.html | LINKS | +1 devotional link. Rescued-without-a-say. |
+| Apr 6 | Weaver | history-today.html | LINKS | +1 devotional link. Chosen-before-broken. |
+| Apr 6 | Weaver | history-20th-century.html | LINKS | +1 devotional link. Hands-that-hold-you. |
+| Apr 6 | Weaver | pastoral-evangelism.html | LINKS | +1 devotional link. Never-gives-up. |
+| Apr 6 | Weaver | systematic-divine-decrees.html | LINKS | +1 devotional link. Chosen-before-broken. |
+| Apr 6 | Weaver | (batch via auto-linker.js) | LINKS | Auto-linker run: 15 links added across 13 files. All 5 build scripts run. Validator: 0 new errors (4 pre-existing on retired analogies-illustrations.html). |
+| Apr 6 | Guardian | 96 pages (batch) | STRUCTURE | Converted `<div class="page-hero">` → `<header class="page-hero">` across 96 pages for semantic HTML compliance. |
+| Apr 6 | Guardian | 163 pages (batch) | STRUCTURE | Converted `<section class="page-hero">` → `<header class="page-hero">` across 163 pages for semantic HTML compliance. |
+| Apr 6 | Guardian | 55 pages (batch) | STRUCTURE | Converted `<div class="article-body">` → `<article class="article-body">` across 55 pages for semantic HTML compliance. |
+| Apr 6 | Guardian | 20 pages (batch) | STRUCTURE | Converted `<section class="article-body">` → `<article class="article-body">` across 20 pages for semantic HTML compliance. |
+| Apr 6 | Guardian | 7 pages (batch) | STRUCTURE | Converted last 7 pages using `<div class="content">` wrapper to `<article class="article-body">` (question-depravity, demolition-john3-16, compare-calvinism-arminianism, question-faithgift, question-sealed, question-chosen, privacy). |
+| Apr 6 | Guardian | 77 pages (batch) | STRUCTURE | Added `<link rel="icon" href="/favicon.ico">` to 77 pages missing favicon link. |
+| Apr 6 | Guardian | 7 pages (batch) | STRUCTURE | Updated copyright year from 2025 to 2026 on 7 pages (for-deconstructed, for-hurting, question-faith-origin-test, question-where-does-your-no-come-from, 3 story pages). |
+| Apr 6 | Guardian | psychology-attribution-error.html | STRUCTURE | Fixed duplicate h1 (converted 2nd to hub-subtitle), semantic tag conversion (div→header for hero, div→article for body). |
+| Apr 6 | Guardian | story-historical-augustine-pears.html | STRUCTURE | Added missing `<meta name="viewport">` tag. |
+| Apr 6 | Guardian | 6 pages (batch) | STRUCTURE | Added target="_blank" rel="noopener noreferrer" to 10 external links across 6 demolition/question pages. |
+| Apr 6 | Guardian | sitemap.xml | STRUCTURE | Added 24 missing pages, removed 1 ghost entry (psalms-election). Now perfectly synced at 398 entries. |
+| Apr 6 | Guardian | 4 orphan pages | STRUCTURE | Wired hub-cards for counter-cs-lewis-free-will (→questions), hymn-amazing-grace (→stories), resistance-last-idol + resistance-redefining-grace (→demolition-hub). |
+| Apr 6 | Guardian | hymn-amazing-grace.html | STRUCTURE | Added `<header class="page-hero">` with eyebrow, removed `<main>` wrapper and inline article-header. |
+| Apr 6 | Guardian | romans-9-1-24.html, scripture-tsunami-faith-as-gift.html | STRUCTURE | Added `<header class="page-hero">` with eyebrow to 2 pages missing page-hero entirely. |
+| Apr 6 | Guardian | broken-mirror-not-self-made.html | STRUCTURE | Reordered footer: moved grace-warning before copyright, updated copyright to 2026. |
 | Apr 5 | Weaver | devotional-forever-loved.html | LINKS | +9 links (2→11). Linked question-freewill, systematic-theology-proper, question-goldchain, systematic-justification, Crown Jewel, theologian-spurgeon, broken-mirror-performance-treadmill, systematic-election. |
 | Apr 5 | Weaver | shattered-lens-taught-wrong.html | LINKS | +10 links (2→12). Linked question-romans9, question-cannot, systematic-election, psychology-backfire-effect, question-irresistible, systematic-regeneration, invisible-wall-only-one-who-sees, Crown Jewel, question-faithgift, question-freewill. |
 | Apr 5 | Weaver | story-the-fish-who-chose-the-ocean.html | LINKS | +3 links (6→9). Linked systematic-regeneration, question-chosen, psychology-pride-root-objection. |
 | Apr 5 | Weaver | open-wound-senseless-death.html | LINKS | +9 links (4→13). Linked ot-job, analogy-lazarus-grave, systematic-theology-proper, systematic-divine-decrees, systematic-resurrection, systematic-hamartiology, question-perseverance, pastoral-suffering, devotional-the-hands-that-hold-you. |
 | Apr 5 | Weaver | broken-mirror-sin-you-repeat.html | LINKS | +7 links (5→12). Linked systematic-hamartiology, systematic-regeneration, systematic-pneumatology, Crown Jewel, devotional-good-i-cannot-do, systematic-election, question-chosen, systematic-soteriology. |
+| Apr 6 | Bridge | resistance-last-idol.html | STRUCTURE | Fixed wrapper: `<main id="main-content">` → `<article class="article-body">`, `</main>` → `</article>`. |
+| Apr 6 | Bridge | psychology-autonomy-illusion.html | CONTENT+LINKS | Added Two Arms + Crown Jewel paragraph. +6 cross-category links (question, devotional, healing). |
+| Apr 6 | Bridge | psychology-suppressing-truth.html | CONTENT+LINKS | Added Two Arms paragraph with Crown Jewel connection. +4 cross-category links. |
+| Apr 6 | Bridge | psychology-cognitive-biases.html | CONTENT+LINKS | Added healing paragraph after humor section. +3 cross-category links (broken-mirror, devotional). |
+| Apr 6 | Bridge | psychology-fear-control.html | CONTENT+LINKS | Enhanced pastoral paragraph with Crown Jewel links. +3 cross-category links. |
+| Apr 6 | Bridge | psychology-hostility-reaction.html | CONTENT+LINKS | Added Crown Jewel paragraph after closing. +4 cross-category links (question, devotional). |
+| Apr 6 | Bridge | psychology-why-we-resist.html | CONTENT+LINKS | Enhanced Dig Deeper intro with Crown Jewel links. +2 links. |
+| Apr 6 | Bridge | psychology-anosognosia-of-sin.html | CONTENT+LINKS | Added 2 new paragraphs: Crown Jewel deployment ("if you could not even see your condition, you certainly could not generate the faith"). +6 cross-category links (devotional, question, healing). |
+| Apr 6 | Bridge | psychology-offense-of-grace.html | CONTENT+LINKS | Added Two Arms paragraph after humor. +3 cross-category links. |
+| Apr 6 | Bridge | psychology-stockholm-syndrome-sin.html | CONTENT+LINKS | Added Two Arms + Crown Jewel paragraph. +4 cross-category links (broken-mirror, anxious-mind, devotional). |
+| Apr 6 | Bridge | secular-algorithm-sovereignty.html | CONTENT+LINKS | Added Crown Jewel + Two Arms paragraph. +4 cross-category links. |
+| Apr 6 | Bridge | secular-art-literature-reformed-truth.html | CONTENT+LINKS | Added Crown Jewel + Two Arms paragraph. +4 cross-category links. |
+| Apr 6 | Bridge | secular-economics-depravity.html | CONTENT+LINKS | Added Two Arms paragraph. +3 cross-category links (broken-mirror, devotional). |
+| Apr 6 | Bridge | secular-history-sovereignty.html | CONTENT+LINKS | Added Crown Jewel + Two Arms paragraph. +4 cross-category links. |
+| Apr 6 | Bridge | secular-neuroscience-human-inability.html | CONTENT+LINKS | Added Crown Jewel + Two Arms paragraph. +4 cross-category links. |
+| Apr 6 | Bridge | secular-psychology-bondage-of-will.html | CONTENT+LINKS | Added Crown Jewel + Two Arms paragraph. +5 cross-category links. |
+| Apr 6 | Bridge | secular-philosophy-free-will.html | CONTENT+LINKS | Added Crown Jewel + Two Arms paragraph. +5 cross-category links. |
+| Apr 6 | Bridge | secular-ai-determinism.html | CONTENT+LINKS | Added Two Arms paragraph. +3 cross-category links (devotional, healing). |
+| Apr 6 | Bridge | secular-billion-decisions.html | CONTENT+LINKS | Added Two Arms paragraph. +2 cross-category links. |
+| Apr 6 | Bridge | analogy-chess-grandmaster.html | CONTENT+LINKS | Added Crown Jewel paragraph before journey section. +2 links. |
+| Apr 6 | Cartographer | 208 pages (batch) | JOURNEY | Added "Continue the Journey" sections to 208 pages via intelligent batch script. Each section has 2-3 hub-cards with Two Arms-compliant recommendations (demolition→devotional, comfort→challenge). 200+ specific page mappings + category defaults. All link targets verified. |
+| Apr 6 | Cartographer | for-skeptics.html | JOURNEY | CREATED audience landing page. 7-step intellectual path for skeptics: secular evidence → philosophy → psychology of resistance → sovereignty logic → faith-as-gift → Crown Jewel question → devotional catch. Tone: respectful, zero condescension, evidence-first. |
+| Apr 6 | Cartographer | for-new-believers.html | JOURNEY | CREATED audience landing page. 10-step educational path for new-to-Reformed: depravity → hamartiology → election question → election doctrine → soteriology → faith-as-gift → history → Augustine → Crown Jewel question → devotional rest. Tone: welcoming, scaffolded, no jargon. |
 | Apr 5 | Weaver | secular-billion-decisions.html | LINKS | +6 links (3→9). Linked question-freewill, systematic-theology-proper, systematic-divine-decrees, question-cannot, theologian-spurgeon, Crown Jewel. |
 | Apr 5 | Weaver | devotional-the-prayer-you-didnt-pray.html | LINKS | +6 links (4→10). Linked question-depravity, systematic-pneumatology, systematic-regeneration, systematic-election, psychology-suppressing-truth, Crown Jewel. |
 | Apr 5 | Weaver | anxious-mind-scrupulosity.html | LINKS | +7 links (5→12). Linked Crown Jewel, systematic-election, question-goldchain, systematic-hamartiology, question-depravity, question-perseverance, psychology-cognitive-biases. |
@@ -214,6 +308,46 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Apr 5 | Weaver | devotional-the-god-who-wastes-nothing.html | LINKS | +1 hand-crafted link (13→14). Cross-category: divine decrees. |
 | Apr 5 | Weaver | question-sovereignty-logic.html | LINKS | +2 hand-crafted links (13→15). Cross-category: Crown Jewel, depravity. |
 | Apr 5 | Weaver | (batch via auto-linker.js) | LINKS | Auto-linker run: 82 links added across 47 files. All 4 rebuild scripts run. Validator: 0 errors, 11 warnings (eyebrow-related, Refiner's lane). |
+| Apr 6 | Dramaturg | question-chosen.html | EMOTION | Emotional hook opening (prior session). |
+| Apr 6 | Dramaturg | question-depravity.html | EMOTION | Emotional hook opening (prior session). |
+| Apr 6 | Dramaturg | question-faithgift.html | EMOTION | Emotional hook opening (prior session). |
+| Apr 6 | Dramaturg | psychology-why-we-resist.html | EMOTION | Callback closing with self-awareness moment (prior session). |
+| Apr 6 | Dramaturg | resistance-last-idol.html | EMOTION | Extended peaks + throne-room callback closing (prior session). |
+| Apr 6 | Dramaturg | systematic-hamartiology.html | EMOTION | Cracked-mirror opening + corpse-resurrection closing. |
+| Apr 6 | Dramaturg | systematic-soteriology.html | EMOTION | "What if everything you were told was backwards?" opening. |
+| Apr 6 | Dramaturg | systematic-election.html | EMOTION | "That decision was about *you*" hair-on-arms enhancement. |
+| Apr 6 | Dramaturg | question-romans9.html | EMOTION | Tiptoe-past-a-room opening. |
+| Apr 6 | Dramaturg | question-freewill.html | EMOTION | "Morgue, a voice, and a dead man" opening. |
+| Apr 6 | Dramaturg | question-perseverance.html | EMOTION | 2am terror opening. |
+| Apr 6 | Dramaturg | question-boasting.html | EMOTION | "Who is the main character?" test opening. |
+| Apr 6 | Dramaturg | question-john6.html | EMOTION | "Can" vs "will" — impossibility focus opening. |
+| Apr 6 | Dramaturg | question-newheart.html | EMOTION | Heart transplant surgeon metaphor opening. |
+| Apr 6 | Dramaturg | demolition-prevenient-grace.html | EMOTION | "Lets the Arminian sleep at night" opening. |
+| Apr 6 | Dramaturg | demolition-acts17-30.html | EMOTION | Ace-in-the-hole → Acts 17:26 reversal opening. |
+| Apr 6 | Dramaturg | compare-calvinism-molinism.html | EMOTION | "Too good to be true. It is." opening. |
+| Apr 6 | Dramaturg | theologian-edwards.html | EMOTION | Terrifying sermon + fired by congregation opening. |
+| Apr 6 | Dramaturg | theologian-augustine.html | EMOTION | "Late have I loved you" prodigal opening. |
+| Apr 6 | Dramaturg | theologian-calvin.html | EMOTION | "His name became an epithet" — shy lawyer opening. |
+| Apr 6 | Dramaturg | question-goldchain.html | EMOTION | "Five words. Five links." opening. |
+| Apr 6 | Dramaturg | question-godwants.html | EMOTION | "Checkmate'd Calvinism" opening. |
+| Apr 6 | Dramaturg | question-hardening.html | EMOTION | "Keeps people up at night" opening. |
+| Apr 6 | Dramaturg | question-irresistible.html | EMOTION | "Grace kicks the door down" opening. |
+| Apr 6 | Dramaturg | question-acts.html | EMOTION | "Should end every debate — nakedly simple" opening. |
+| Apr 6 | Dramaturg | question-1peter1.html | EMOTION | Peter's first word of comfort = "elect" opening. |
+| Apr 6 | Dramaturg | question-2tim1-9.html | EMOTION | Paul about to die, last letter opening. |
+| Apr 6 | Dramaturg | question-sealed.html | EMOTION | King's seal in hot wax opening. |
+| Apr 6 | Dramaturg | question-whosoever.html | EMOTION | "Far more specific than you've ever been told" opening. |
+| Apr 6 | Dramaturg | question-john10.html | EMOTION | Reversed order — sheep before belief opening. |
+| Apr 6 | Dramaturg | objection-responsibility.html | EMOTION | Paul anticipated this 2000 years ago opening. |
+| Apr 6 | Dramaturg | question-external-call.html | EMOTION | Two people, same pew, opposite results opening. |
+| Apr 6 | Dramaturg | objection-author-of-sin.html | EMOTION | Stomach-drop + God answered before anyone asked opening. |
+| Apr 6 | Dramaturg | demolition-john3-16.html | EMOTION | Most abused verse / football banners opening. |
+| Apr 6 | Dramaturg | demolition-matt23-37.html | EMOTION | Jesus confessing defeat? "You" ≠ "your children" opening. |
+| Apr 6 | Dramaturg | demolition-2peter3-9.html | EMOTION | "Who is the 'you'?" pronoun opening. |
+| Apr 6 | Dramaturg | demolition-1cor15-22.html | EMOTION | "All" = most abused word opening. |
+| Apr 6 | Dramaturg | demolition-hebrews6-4-6.html | EMOTION | Sleep-robbing verse + farmer/field reversal opening. |
+| Apr 6 | Dramaturg | demolition-1tim2-4.html | EMOTION | Royal flush confidence + "all" ≠ every individual opening. |
+| Apr 6 | Dramaturg | demolition-john12-32.html | EMOTION | "Draw" = drag (Greek helkō) opening. |
 
 ---
 

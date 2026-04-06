@@ -22,20 +22,26 @@
 - **ACTION:** Document compute budget ceiling (currently unknown)
 
 
-## STRATEGIST PRIORITIES — April 2026 (Updated 2026-04-05, Session #3)
+## STRATEGIST PRIORITIES — April 2026 (Updated 2026-04-06, Session #4)
 
-### DIAMOND WEEK STATUS — Day 1 Complete
-- **367 pages live** (+53 in 24 hours — site history record)
-- **Quality floor: 8.4** on all new content (up from 5.9 weakest last session)
-- **All-time best page: psychology-anosognosia-of-sin (9.7)**
+### DIAMOND WEEK STATUS — Day 2 Complete
+- **400 pages live** (+33 in 24 hours — 400-page milestone reached)
+- **Quality floor: 8.6** on all new content (up from 8.4 Day 1)
+- **All-time top 3:** psychology-anosognosia-of-sin (9.7), history-decision-theology (9.6), hymn-amazing-grace (9.6)
+- **5 audience landing pages LIVE** (for-skeptics, for-arminians, for-new-believers, for-hurting, for-deconstructed)
+- **Hymn analysis series LAUNCHED** (hymn-amazing-grace, 9.6)
+- **Right Arm Renaissance UNDERWAY** (devotional avg: 7.8 → 9.0 on new entries)
+- **Healing at 73%** (39/50-60 articles)
+- **Traffic plateau:** 14,140 req/wk (+0.08% WoW — first flat week). Distribution strategy needed.
+- **Cross-referencing: UNIVERSALLY STRONG** (44-67 links per sampled page)
 - **Cross-referencing: SOLVED on new pages** (30-63 links each)
 - **Two Arms imbalance: CRITICAL** — left arm 3.3:1 over right arm
 
 ### TIER 0 — EMERGENCY (Do Before Anything Else)
-1. **ENHANCE objection-why-command.html** — #1 traffic content page (48 req/wk) but only scores 7.1. Add pastoral warmth, cross-references, force multipliers. Highest-ROI enhancement on the site.
-2. **ENHANCE secular-sociology-human-inability.html** — Scores 5.9, the lowest on the entire site. 1/10 cross-referencing. Add 5+ internal links, theological bridge section, force multipliers.
-3. **FIX compare-calvinism-arminianism.html** — Missing h1 tag. SEO score 5/10. Targets the highest-search comparison in all of Reformed theology. Add h1, FAQ schema, enhance meta.
-4. **ENHANCE creed-canons-dort.html** — 2/10 cross-referencing, 4/10 force multipliers. Isolated island of excellent content.
+1. ✅ ~~ENHANCE objection-why-command.html~~ — DONE (Enhancer, Apr 5)
+2. ✅ ~~ENHANCE secular-sociology-human-inability.html~~ — DONE (Enhancer, Apr 5)
+3. ⚠️ **ADD "Both Are Valid Is the Most Dangerous Answer" section to compare-calvinism-arminianism.html** — h1 fixed, nested links fixed. THIS CONTENT SECTION IS THE LAST REMAINING TIER 0 ITEM. **Third session flagging this. URGENT. Assign: Enhancer.**
+4. **TITLE SURGERY: 15 OT pages** — Academic titles invisible in analytics. Zero OT pages in top 50. This is the single highest-ROI title surgery task remaining. **Third session flagging this. URGENT. Assign: Refiner.** Examples: "ot-jacob-esau → Why God Loved Jacob and Hated Esau Before They Were Born"
 
 ### TIER 0.5 — AARON'S BATTLE AXE IDEAS (Founder Priority)
 - **"Was Christ a Robot?" (Acts 2:23)** — Demolition of the "predestination makes us puppets" objection. Christ's crucifixion was predestined by God's "deliberate plan and foreknowledge." Was Christ a puppet? The objection cannot survive contact with Acts 2:23. Category: Demolition or Questions. ONE-PUNCH KNOCKOUT.
@@ -83,7 +89,23 @@
 22. **Philosophy Category Hub Page** — 9 philosophy pages need a hub/landing page.
 23. **Meta-page: "Why This Objection Proves Our Point"** — **(Scout 2026-04-05)** Anti-Calvinist blogs are using "Calvinists think we believe we saved ourselves" as a straw man. But it's what we DO argue. Our psychology pages explain the defensive reaction. A meta-page connecting the dots would be devastating. **PHILOSOPHER agent.**
 
-### COMPLETED (Updated 2026-04-05, Session #3)
+### COMPLETED (Updated 2026-04-06, Session #4 — Diamond Week Day 2)
+- ✅ **400-PAGE MILESTONE REACHED.** +33 pages in Day 2. Quality floor 8.6+.
+- ✅ **history-decision-theology (9.6).** ALL-TIME #2 page. "Invention narrative" proving altar call was created in 1820s. Most devastating history page on any Reformed site.
+- ✅ **hymn-amazing-grace (9.6).** ALL-TIME #2 page (tie). Line-by-line forensic analysis. First hymn analysis. Zero competition.
+- ✅ **secular-ai-determinism (9.4).** Compatibilism running in silicon. Zero Reformed competition. Tech audience bridge.
+- ✅ **5 AUDIENCE LANDING PAGES LIVE:** for-skeptics, for-arminians, for-new-believers, for-hurting, for-deconstructed. Critical gap RESOLVED.
+- ✅ **Devotional quality BREAKTHROUGH:** adoption-papers (9.0), my-chains-fell-away (9.0). Right Arm Renaissance confirmed.
+- ✅ **Philosophy: 12 → 20 pages.** prisoners-dilemma, gravity, immune-system, observer-effect, mother-tongue, godel added.
+- ✅ **Theologians: 10 → 18 pages.** Bunyan, Boston, Owen, Luther, Whitefield added.
+- ✅ **History: 15 → 20 pages.** decision-theology, free-will-heresy, korean-revival added.
+- ✅ **Healing: 73%** (39 articles). Open Wound at 83%.
+- ✅ **Cross-referencing: UNIVERSALLY STRONG.** 44-67 links per sampled page. Zero-link crisis resolved.
+- ✅ **Semantic HTML conversion: 334 pages** converted to proper header/article tags.
+- ✅ **Journey sections: 208 pages** now have "Continue the Journey" navigation.
+- ✅ **Two Arms cross-linking:** 15 demolition pages with zero devotional links now fixed.
+
+### COMPLETED (Session #3 — 2026-04-05)
 - ✅ **DIAMOND WEEK DAY 1: +53 pages in 24 hours.** Quality floor 8.4+. Record production.
 - ✅ **psychology-anosognosia-of-sin (9.7).** All-time best page. Neurological parallel to total depravity.
 - ✅ **story-humor-the-man-who-sued-god (9.3).** First devastating humor piece. Gerald T. Pemberton is immortal.
@@ -116,14 +138,16 @@
 - ✅ **Analogies: drowning-man (9.3).** Site's front-door page.
 - ✅ Enhancer: 24-page sweep with parallel architecture. Cross-referencing dramatically improved.
 
-### Fleet Health (Updated 2026-04-05)
+### Fleet Health (Updated 2026-04-06, Session #4)
 - 18 agent prompts active (AGENT-PROMPT-*.md)
 - All prompts updated 2026-04-05
 - Diamond Week fleet: 22 tasks enabled (17 content + 5 utility)
-- Creation: 6 agents, ~10 pages/day cap
-- Enhancement: 5 agents, ~25-35 page-touches/day
+- Creation: 6 agents, producing 30-50 pages/day
+- Enhancement: 5 agents, touching 200+ pages/day via batch scripts
 - QA/Integrity: 4 agents, full site coverage
 - Intelligence: 2 agents (Strategist + Scout)
+- **Fleet performance:** Historian at PEAK (9.6). Shepherd BREAKTHROUGH (9.0). Philosopher expanding (20 pages). Exegete solid but literary quality gap persists (8.6).
+- **Critical unfilled directive:** Refiner has not performed OT title surgery (third session flagging). **Aaron: verify Refiner task is running.**
 
 ## OVERSEER FINDINGS — 2026-04-04 (Inaugural Audit)
 

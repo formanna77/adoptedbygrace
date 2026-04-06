@@ -1,0 +1,138 @@
+================================================================================
+                    BRIDGE PAGES ANALYSIS SUMMARY
+                         April 6, 2026
+================================================================================
+
+SCAN RESULTS: 50 Bridge Pages (Psychology, Secular, Analogy, Resistance)
+
+LINKING DISTRIBUTION
+────────────────────────────────────────────────────────────────────────────────
+Status                  Count    Percentage   Target    Description
+────────────────────────────────────────────────────────────────────────────────
+0-3 Links (CRITICAL)     35      70%         8-12      Completely isolated or barely linked
+4-7 Links (WEAK)          8      16%         8-12      Below standard
+8+ Links (STANDARD)       7      14%         8-12      Properly linked
+────────────────────────────────────────────────────────────────────────────────
+TOTAL                     50     100%
+
+CATEGORY BREAKDOWN
+────────────────────────────────────────────────────────────────────────────────
+                    CRITICAL  BELOW-STD  MEETING   AVERAGE   TOTAL
+Analogy                4         2         3         6.0      9 pages
+Psychology           20         1         4        5.8     25 pages
+Resistance            1         0         1        4.5      2 pages
+Secular               10         5         1        4.0     16 pages (includes hub)
+────────────────────────────────────────────────────────────────────────────────
+Totals               35         8         7        5.1     50 pages
+
+WORST PERFORMERS (30+ pages with ZERO internal links)
+────────────────────────────────────────────────────────────────────────────────
+These pages exist but have ZERO doorways to the rest of the site:
+
+Analogies (3):
+  - analogy-lazarus-grave.html
+  - analogy-orchestra.html
+  - analogy-river.html
+
+Psychology (20):
+  - psychology-addiction-proof.html
+  - psychology-attribution-error.html
+  - psychology-autonomy-illusion.html
+  - psychology-backfire-effect.html
+  - psychology-cognitive-biases.html
+  - psychology-comfort-self-salvation.html
+  - psychology-emotional-vs-rational.html
+  - psychology-fear-control.html
+  - psychology-groupthink.html
+  - psychology-hostility-reaction.html
+  - psychology-identity-threat.html
+  - psychology-illusion-free-will.html
+  - psychology-offense-of-grace.html
+  - psychology-reactance-theory.html
+  - psychology-stockholm-syndrome-sin.html
+  - psychology-sunk-cost-faith.html
+  - psychology-suppressing-truth.html
+  - psychology-system-justification.html
+  - psychology-terror-management.html
+  - (also 2 with only 2 links: sincerity-trap, why-this-objection-proves)
+
+Secular Evidence (7):
+  - secular-art-literature-reformed-truth.html
+  - secular-economics-depravity.html
+  - secular-genetics-sovereignty.html
+  - secular-hard-problem-consciousness.html
+  - secular-history-sovereignty.html
+  - secular-evidence.html (HUB PAGE)
+  - secular-neuroscience-human-inability.html
+
+Resistance (1):
+  - resistance-redefining-grace.html
+
+STRUCTURAL DEFECTS (2 pages)
+────────────────────────────────────────────────────────────────────────────────
+Missing article-body wrapper class:
+  - resistance-last-idol.html (has 9 links but won't format correctly!)
+  - secular-evidence.html (hub page - also missing page-hero)
+
+Missing page-hero class:
+  - secular-evidence.html (hub page - also missing article-body)
+  - secular-genetics-sovereignty.html
+
+Grace warning status: ALL 50 PAGES ✓ HAVE footer-grace-warning
+
+EXEMPLARY PAGES (Use as linking models)
+────────────────────────────────────────────────────────────────────────────────
+These pages show what properly linked Bridge pages look like:
+
+  psychology-anosognosia-of-sin.html ................ 11 links
+  analogy-chess-grandmaster.html .................... 13 links
+  psychology-language-acquisition.html ............. 13 links
+  secular-sociology-human-inability.html ........... 29 links (EXCELLENT LINKING)
+
+Study how these pages weave internal links naturally throughout their prose.
+
+ENHANCEMENT CAPACITY ESTIMATE
+────────────────────────────────────────────────────────────────────────────────
+Current total links across all 50 Bridge pages: ~295 links
+Current average per page: 5.9 links
+Target per page: 10 links (mid-range of 8-12)
+
+To reach target:
+- Need to add: 500 - 295 = 205 additional links
+- Across: 43 pages that need enhancement
+- Average per page: 4.8 more links needed
+- Estimated time: 16-20 hours of focused linking work
+
+PRIORITY ORDER FOR ENHANCEMENT
+────────────────────────────────────────────────────────────────────────────────
+1. STRUCTURAL FIXES (30 min)
+   - Add article-body wrapper to resistance-last-idol.html
+   - Determine status of secular-evidence.html (hub or article?)
+
+2. NEAR-CRITICAL PAGES (2-3 hours for 5 pages)
+   - psychology-sincerity-trap.html (2 → 8)
+   - psychology-why-this-objection-proves-our-point.html (2 → 8)
+   - analogy-drowning-man.html (3 → 8)
+   - psychology-cost-of-rejecting-grace.html (3 → 8)
+   - psychology-pride-root-objection.html (3 → 8)
+
+3. BELOW-MINIMUM PAGES (4-5 hours for 8 pages)
+   - Add 1-4 links each to pages with 4-7 links
+
+4. CRITICAL ISOLATION (12+ hours for 30 pages)
+   - Pages with 0 links need 8-12 links each
+
+KEY INSIGHT
+────────────────────────────────────────────────────────────────────────────────
+The 70% of Bridge pages with 0-3 links represent MASSIVE untapped linking
+potential. These pages contain brilliant content (1000+ words each in many cases)
+but are completely invisible to cross-site navigation.
+
+This is exactly what the hyperlinking mandate addresses: "Every article is a
+doorway to every other article." The Bridge category currently violates this
+principle catastrophically.
+
+The good news: High-volume linking can be done systematically. A single agent
+focusing on Bridge linking could add 200+ links in 15-20 hours of work.
+
+================================================================================
