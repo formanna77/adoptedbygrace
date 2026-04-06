@@ -2,72 +2,387 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>480+ Bible Verses That Prove God's Sovereignty in Salvation | Scripture Tsunami</title>
     <meta name="description" content="They told you 'it's just a few verses.' Here are 500+. Every verse about election, predestination, and sovereign grace — searchable, cross-referenced, and impossible to ignore. The Bible doesn't whisper about God's sovereignty. It shouts.">
     <meta property="og:title" content="480+ Bible Verses That Prove God's Sovereignty in Salvation | Scripture Tsunami">
     <meta property="og:description" content="They told you 'it's just a few verses.' Here are 500+. Every verse about election, predestination, and sovereign grace — searchable, cross-referenced, and impossible to ignore. The Bible doesn't whisper about God's sovereignty. It shouts.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
-    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
     <meta property="og:url" content="https://adoptedbygrace.net/scripture-tsunami">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="480+ Bible Verses That Prove God's Sovereignty in Salvation | Scripture Tsunami">
     <meta name="twitter:description" content="They told you 'it's just a few verses.' Here are 500+. Every verse about election, predestination, and sovereign grace — searchable, cross-referenced, and impossible to ignore. The Bible doesn't whisper about God's sovereignty. It shouts.">
     <link rel="canonical" href="https://adoptedbygrace.net/scripture-tsunami">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="/global.css">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        /* Scripture Tsunami Interactive Widget Styles */
+        .tsunami-hero {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08) 0%, rgba(232, 100, 44, 0.08) 100%);
+            border-bottom: 1px solid var(--accent-gold);
+            margin-bottom: 2rem;
+        }
 
+        .tsunami-hero h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-ember) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 1rem 0;
+        }
+
+        .tsunami-hero .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 800px;
+            margin: 1rem auto;
+            line-height: 1.6;
+        }
+
+        .tsunami-hero .hero-label {
+            color: var(--accent-gold);
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .stats-bar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+            background: rgba(212, 162, 84, 0.05);
+            border-radius: 0.5rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-top: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .stat-label a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px solid var(--accent-gold);
+        }
+
+        .stat-label a:hover {
+            color: var(--accent-gold);
+        }
+
+        /* Filter Controls */
+        .tsunami-controls {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            padding: 0 1rem;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .search-container {
+            position: relative;
+        }
+
+        .search-container input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: rgba(212, 162, 84, 0.1);
+            border: 1px solid var(--accent-gold);
+            color: var(--text-primary);
+            border-radius: 0.375rem;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .search-container input:focus {
+            outline: none;
+            background: rgba(212, 162, 84, 0.15);
+            box-shadow: 0 0 0 2px rgba(212, 162, 84, 0.3);
+        }
+
+        .search-container input::placeholder {
+            color: var(--text-secondary);
+        }
+
+        /* Doctrine Tabs */
+        .doctrine-tabs {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .doctrine-tab {
+            padding: 0.75rem 1.25rem;
+            background: rgba(212, 162, 84, 0.1);
+            border: 1px solid transparent;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            border-radius: 0.375rem;
+            transition: all 0.3s ease;
+        }
+
+        .doctrine-tab:hover {
+            background: rgba(212, 162, 84, 0.15);
+            border-color: var(--accent-gold);
+        }
+
+        .doctrine-tab.active {
+            background: var(--accent-gold);
+            color: #0a0a0f;
+            border-color: var(--accent-gold);
+        }
+
+        /* Verse Count Indicator */
+        .verse-count {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-bottom: 1.5rem;
+            padding: 0 1rem;
+        }
+
+        /* Verses Container */
+        .verses-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem 3rem;
+        }
+
+        .verses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Verse Card */
+        .verse-card {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.12) 0%, rgba(212, 162, 84, 0.08) 100%);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .verse-card:hover {
+            border-color: var(--accent-gold);
+            box-shadow: 0 8px 16px rgba(212, 162, 84, 0.15);
+        }
+
+        .verse-card.expanded {
+            box-shadow: 0 8px 16px rgba(212, 162, 84, 0.2);
+        }
+
+        .verse-header {
+            margin-bottom: 1rem;
+        }
+
+        .verse-reference {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            margin-bottom: 0.75rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .verse-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 0.375rem 0.75rem;
+            border-radius: 0.25rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .badge-truth {
+            background: rgba(212, 162, 84, 0.2);
+            color: var(--accent-gold);
+            border: 1px solid rgba(212, 162, 84, 0.4);
+        }
+
+        .badge-strength {
+            background: rgba(232, 100, 44, 0.15);
+            color: var(--accent-ember);
+            border: 1px solid rgba(232, 100, 44, 0.3);
+        }
+
+        .badge-strength.key {
+            background: rgba(212, 162, 84, 0.2);
+            color: var(--accent-gold);
+            border: 1px solid rgba(212, 162, 84, 0.4);
+        }
+
+        .verse-text {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .verse-commentary {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+        }
+
+        .verse-card.expanded .verse-commentary {
+            display: block;
+        }
+
+        .commentary-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--accent-gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .commentary-text {
+            font-size: 0.875rem;
+            line-height: 1.5;
+            color: var(--text-secondary);
+        }
+
+        .expand-indicator {
+            font-size: 0.875rem;
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-top: 1rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .verse-card:hover .expand-indicator {
+            text-decoration: underline;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--text-secondary);
+            grid-column: 1 / -1;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .tsunami-hero h1 {
+                font-size: 2rem;
+            }
+
+            .tsunami-hero .subtitle {
+                font-size: 1rem;
+            }
+
+            .stats-bar {
+                gap: 1rem;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+            }
+
+            .doctrine-tabs {
+                gap: 0.375rem;
+            }
+
+            .doctrine-tab {
+                padding: 0.625rem 1rem;
+                font-size: 0.75rem;
+            }
+
+            .verses-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .tsunami-hero {
+                padding: 2rem 0.75rem;
+            }
+
+            .tsunami-hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .tsunami-hero .subtitle {
+                font-size: 0.95rem;
+            }
+
+            .stats-bar {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1.5rem 0.75rem;
+            }
+
+            .stat-number {
+                font-size: 1.75rem;
+            }
+
+            .verse-card {
+                padding: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="reading-progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-    <a href="#main-content" class="skip-to-content">Skip to content</a>
-
-    <!--
-  ============================================================
-  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
-  ============================================================
-  Every page on adoptedbygrace.net MUST use this EXACT nav block.
-  Copy-paste it verbatim. Do not add, remove, rename, or reorder
-  any links. Do not add a logo.
-
-  REQUIRED in <head>:
-
-  REQUIRED before </body>:
-
-  DO NOT add any inline CSS for nav, hamburger, .nav-links,
-  .nav-right, .nav-container, .nav-site-name, .search-overlay,
-  or .mega-menu. All styling lives in /global.css.
-
-  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
-                     button that opens mega-menu dropdown
-  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
-                     Hamburger opens full-screen overlay menu
-
-  Last updated: 2026-03-29
-  ============================================================
--->
-        <nav role="navigation" aria-label="Main navigation">
+    <!-- NAV (from canonical template) -->
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
-            <!-- Mobile search icon (right side of nav bar) -->
             <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             </button>
             <ul class="nav-links">
-                <!-- Search bar at top of mobile menu -->
                 <li class="mobile-menu-search" style="list-style:none;">
                     <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
                 </li>
-                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
                 <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
@@ -78,7 +393,6 @@
                 <li class="mobile-nav-link"><a href="/theologians">Theologians</a></li>
                 <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
                 <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
                 <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
             </ul>
 
@@ -101,14 +415,11 @@
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
                 </button>
             </div>
-
         </div>
     </nav>
 
-    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
     <div class="mega-menu" id="megaMenu"></div>
 
-    <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">
         <div class="search-overlay-inner">
             <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
@@ -117,13 +428,9 @@
         <div class="search-results" id="searchResults"></div>
     </div>
 
-    <main id="main-content" class="tsunami-main">
-        <div class="breadcrumb">
-            <a href="/">Home</a> &rsaquo;
-            <span>Scripture Tsunami</span>
-        </div>
-
-        <section class="tsunami-hero">
+    <!-- PAGE CONTENT -->
+    <main id="main-content">
+        <header class="tsunami-hero">
             <div class="hero-label">The Biblical Evidence</div>
             <h1>Scripture Tsunami</h1>
             <p class="subtitle">
@@ -131,8 +438,7 @@
                 This is not a theological opinion. This is what Scripture actually says about God's sovereignty in salvation.
                 <em>Read it for yourself.</em>
             </p>
-            <p style="font-size: 1rem; color: var(--text-secondary); max-width: 800px; margin: 0 auto 2rem; text-align: center;">Not sure where to start? Begin with <a href="/question-chosen.html" style="color: var(--accent-gold);">the doctrines of grace</a>, or explore how these verses address the most misused verse in the Bible.</p>
-        </section>
+        </header>
 
         <section class="stats-bar">
             <div class="stat-item">
@@ -140,223 +446,67 @@
                 <div class="stat-label">Total Verses</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" id="truth-t-count" style="color: var(--color-t);">0</div>
+                <div class="stat-number" id="truth-t-count">0</div>
                 <div class="stat-label"><a href="/systematic-hamartiology">Total Depravity</a></div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" id="truth-u-count" style="color: var(--color-u);">0</div>
+                <div class="stat-number" id="truth-u-count">0</div>
                 <div class="stat-label"><a href="/systematic-election">Unconditional Election</a></div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" id="truth-l-count" style="color: var(--color-l);">0</div>
+                <div class="stat-number" id="truth-l-count">0</div>
                 <div class="stat-label"><a href="/systematic-atonement">Limited Atonement</a></div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" id="truth-i-count" style="color: var(--color-i);">0</div>
-                <div class="stat-label"><a href="/question-irresistible">Irresistible Grace</a></div>
+                <div class="stat-number" id="truth-i-count">0</div>
+                <div class="stat-label"><a href="/systematic-soteriology">Irresistible Grace</a></div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" id="truth-p-count" style="color: var(--color-p);">0</div>
-                <div class="stat-label">Perseverance</div>
+                <div class="stat-number" id="truth-p-count">0</div>
+                <div class="stat-label"><a href="/systematic-soteriology">Perseverance of Saints</a></div>
             </div>
         </section>
 
-        <section class="controls">
-            <div class="search-box">
-                <input type="text" id="search-input" class="search-input" placeholder="Search by verse reference, text, or keyword...">
+        <div class="tsunami-controls">
+            <div class="search-container">
+                <input type="text" id="verseSearch" placeholder="Search by reference, keyword, or doctrine..." autocomplete="off" />
             </div>
 
-            <div class="filter-controls">
-                <div class="tab-group">
-                    <span class="tab-label">Truth:</span>
-                    <div class="tab-buttons">
-                        <button class="tsunami-tab-btn active" data-truth="all">All</button>
-                        <button class="tsunami-tab-btn" data-truth="T">T: Total Depravity</button>
-                        <button class="tsunami-tab-btn" data-truth="U">U: Unconditional Election</button>
-                        <button class="tsunami-tab-btn" data-truth="L">L: Limited Atonement</button>
-                        <button class="tsunami-tab-btn" data-truth="I">I: Irresistible Grace</button>
-                        <button class="tsunami-tab-btn" data-truth="P">P: Perseverance</button>
-                    </div>
-                </div>
-
-                <div class="filter-row">
-                    <select id="strength-filter" class="filter-select">
-                        <option value="all">Strength: All</option>
-                        <option value="key">Key Verses Only</option>
-                        <option value="supporting">Supporting Verses Only</option>
-                    </select>
-
-                    <select id="testament-filter" class="filter-select">
-                        <option value="all">Testament: All</option>
-                        <option value="ot">Old Testament</option>
-                        <option value="nt">New Testament</option>
-                    </select>
-                </div>
+            <div class="doctrine-tabs">
+                <button class="doctrine-tab active" data-doctrine="all">All Verses</button>
+                <button class="doctrine-tab" data-doctrine="T">Total Depravity</button>
+                <button class="doctrine-tab" data-doctrine="U">Unconditional Election</button>
+                <button class="doctrine-tab" data-doctrine="L">Limited Atonement</button>
+                <button class="doctrine-tab" data-doctrine="I">Irresistible Grace</button>
+                <button class="doctrine-tab" data-doctrine="P">Perseverance</button>
             </div>
-        </section>
-
-        <div class="verse-counter">
-            Showing <span id="showing-count">0</span> of <span id="total-count-display">0</span> verses
         </div>
 
-        <section id="verses-container" class="verses-container"></section>
+        <div class="verse-count">Showing <strong id="displayed-count">0</strong> of <strong id="total-verses">0</strong> verses</div>
 
-        <div id="no-results" class="no-results" style="display: none;">
-            <div class="no-results-icon">&#8709;</div>
-            <div class="no-results-text">No verses match your filters. Try adjusting your search.</div>
+        <div class="verses-container">
+            <div class="verses-grid" id="versesGrid"></div>
         </div>
     </main>
 
-        <!-- Cross-Reference Section -->
-        <section style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-            <div style="max-width: 900px; margin: 0 auto;">
-                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                    <a href="/questions.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Evidence</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Deep-dive exegetical studies of the key passages — verse by verse, word by word.</p>
-                    </a>
-                    <a href="/systematic-theology.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Systematic Theology</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">See how each truth connects in the grand architecture of God's truth.</p>
-                    </a>
-                    <a href="/demolition-hub.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Demolition Zone</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Misused verses dismantled — see what these passages actually say in context.</p>
-                    </a>
-                    <a href="/quiz.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Test Your Knowledge</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">30 interactive questions with instant Scripture-backed feedback.</p>
-                    </a>
-                    <a href="/start-here.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Start Here</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">New to this? A guided journey from first questions to deep conviction.</p>
-                    </a>
-                    <a href="/devotionals.html" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                        <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Devotional Meditations</h4>
-                        <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Let these truths move from your mind to your heart in worshipful reflection.</p>
-                    </a>
-                </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div style="text-align: center; padding: 2rem 1rem;">
+                <p style="margin-bottom: 1rem;">Scripture Tsunami contains 478 verses across the five doctrines of grace — from the predestined foundations of salvation to the unbreakable power of God's promise.</p>
+                <p style="font-size: 0.875rem; color: var(--text-secondary);">Not sure where to start? Begin with <a href="/question-chosen.html" style="color: var(--accent-gold);">what it means to be chosen</a>, or explore <a href="/demolition-hub" style="color: var(--accent-gold);">how these verses demolish the lie of Arminianism.</a></p>
             </div>
-        </section>
-
-
-<div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
-    <h3 style="color: var(--accent-gold); margin-bottom: 2rem;">Continue the Journey</h3>
-    <div class="hub-grid">
-        <a href="/question-does-god-choose-who-goes-to-heaven.html" class="hub-card">
-            <div class="card-number">01</div>
-            <h4 class="card-title">Does God Choose Who Goes to Heaven?</h4>
-            <p class="card-description">You've seen the verses. Now face the question they're all answering.</p>
-            <div class="card-footer">
-                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-            </div>
-        </a>
-        <a href="/devotional-valley-shadow.html" class="hub-card">
-            <div class="card-number">02</div>
-            <h4 class="card-title">Valley of the Shadow</h4>
-            <p class="card-description">When the weight of truth feels heavy, this is where grace meets you.</p>
-            <div class="card-footer">
-                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-            </div>
-        </a>
-        <a href="/philosophy-copernican-revolution.html" class="hub-card">
-            <div class="card-number">03</div>
-            <h4 class="card-title">The Copernican Revolution of Grace</h4>
-            <p class="card-description">What Copernicus did to astronomy, sovereign grace does to your soul. Everything reorients.</p>
-            <div class="card-footer">
-                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-            </div>
-        </a>
-    </div>
-</div>
-<!-- RELATED-ARTICLES-START -->
-<section class="related-articles" aria-label="Related articles">
-  <div class="related-articles-inner">
-    <h2 class="related-articles-heading">Keep Exploring</h2>
-    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
-    <div class="related-articles-grid">
-      <a href="/systematic-atonement" class="related-article-card">
-        <span class="related-article-cat">🏛 Theology</span>
-        <span class="related-article-title">The Atonement: What Christ&#039;s Death Accomplished</span>
-        <span class="related-article-desc">What did Christ</span>
-      </a>
-      <a href="/start-here-assessment" class="related-article-card">
-        <span class="related-article-cat">🧭 Start Here</span>
-        <span class="related-article-title">Find Your Starting Point</span>
-        <span class="related-article-desc">Discover your starting point on the 5-phase journey to understanding God</span>
-      </a>
-      <a href="/demolition-hub" class="related-article-card">
-        <span class="related-article-cat">💥 Demolition Zone</span>
-        <span class="related-article-title">1 Corinthians 15:22 — Verse Demolition #4</span>
-        <span class="related-article-desc">Demolition #4: 1 Corinthians 15:22 proves particular redemption, not universal atonement. The parall...</span>
-      </a>
-      <a href="/theologian-augustine" class="related-article-card">
-        <span class="related-article-cat">🧓 Theologians</span>
-        <span class="related-article-title">Augustine of Hippo | The Doctor of Grace</span>
-        <span class="related-article-desc">Explore the life, theology, and enduring legacy of Augustine of Hippo—the Doctor of Grace whose writ...</span>
-      </a>
-      <a href="/compare-calvinism-open-theism" class="related-article-card">
-        <span class="related-article-cat">⚖ Comparisons</span>
-        <span class="related-article-title">Calvinism vs Open Theism: Does God Know the Future?</span>
-        <span class="related-article-desc">Calvinism vs Open Theism compared: Does God know the future exhaustively, or is He learning alongsid...</span>
-      </a>
-      <a href="/systematic-atonement" class="related-article-card">
-        <span class="related-article-cat">❓ Questions</span>
-        <span class="related-article-title">Did Jesus Die for Everyone? Scripture on Definite Atonement</span>
-        <span class="related-article-desc">Did Jesus die for everyone? Scripture teaches that Christ</span>
-      </a>
-    </div>
-    <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
-</section>
-<!-- RELATED-ARTICLES-END -->
-
-<footer>
-    <div class="footer-container">
-        <div class="footer-section"><h4>Truth</h4><ul>
-            <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-            <li><a href="/systematic-theology">Systematic Theology</a></li>
-            <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-            <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-        </ul></div>
-        <div class="footer-section"><h4>Explore</h4><ul>
-            <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
-            <li><a href="/theologians">Theologians</a></li>
-            <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-            <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-        </ul></div>
-        <div class="footer-section"><h4>Connect</h4><ul>
-            <li class="mobile-nav-link"><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
-        </ul></div>
-    </div>
+        </div>
         <div class="footer-grace-warning">
             "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
             Grace is not a license to sin. It is the power that frees us from sin's dominion.
         </div>
-    <div class="footer-copyright">&copy; 2026 Adopted by Grace &mdash; Soli Deo Gloria</div>
-</footer>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+        </div>
+    </footer>
 
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": "Scripture Tsunami — The Biblical Case for Sovereign Grace",
-        "description": "Interactive database of 480+ Bible verses organized by the five doctrines of grace. Searchable, cross-referenced, and theologically rigorous.",
-        "url": "https://adoptedbygrace.net/scripture-tsunami",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Adopted by Grace",
-            "url": "https://adoptedbygrace.net"
-        }
-    }
-    </script>
-
+    <!-- VERSE DATA AND INTERACTIVITY SCRIPT -->
     <script>
         const versesData = [
             {
@@ -4315,31 +4465,146 @@
         renderVerses();
     </script>
     
-    <script src="/global.js" defer>
-        // Mobile dropdown toggles
-        const navLinks = document.querySelector('.nav-links');
-        if (navLinks) {
-            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
-                trigger.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const li = trigger.closest('li');
-                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
-                        if (openLi !== li) openLi.classList.remove('dropdown-open');
-                    });
-                    li.classList.toggle('dropdown-open');
-                });
+        ];
+
+        // Filtering state
+        let currentFilters = {
+            search: '',
+            doctrine: 'all'
+        };
+
+        const versesGrid = document.getElementById('versesGrid');
+        const searchInput = document.getElementById('verseSearch');
+        const doctrineTabs = document.querySelectorAll('.doctrine-tab');
+        const displayedCountEl = document.getElementById('displayed-count');
+        const totalVersesEl = document.getElementById('total-verses');
+
+        // Initialize stat counts
+        function initStats() {
+            const counts = {
+                total: versesData.length,
+                T: 0,
+                U: 0,
+                L: 0,
+                I: 0,
+                P: 0
+            };
+
+            versesData.forEach(verse => {
+                counts[verse.truth]++;
             });
-            navLinks.querySelectorAll('a').forEach(a => {
-                a.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                    const hamburger = document.querySelector('.hamburger');
-                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
-                });
+
+            document.getElementById('total-count').textContent = counts.total;
+            document.getElementById('truth-t-count').textContent = counts.T;
+            document.getElementById('truth-u-count').textContent = counts.U;
+            document.getElementById('truth-l-count').textContent = counts.L;
+            document.getElementById('truth-i-count').textContent = counts.I;
+            document.getElementById('truth-p-count').textContent = counts.P;
+            document.getElementById('total-verses').textContent = counts.total;
+        }
+
+        // Filter verses based on current filters
+        function getFilteredVerses() {
+            return versesData.filter(verse => {
+                // Doctrine filter
+                if (currentFilters.doctrine !== 'all' && verse.truth !== currentFilters.doctrine) {
+                    return false;
+                }
+
+                // Search filter
+                if (currentFilters.search.trim()) {
+                    const searchTerm = currentFilters.search.toLowerCase();
+                    const matchesRef = verse.reference.toLowerCase().includes(searchTerm);
+                    const matchesText = verse.text.toLowerCase().includes(searchTerm);
+                    const matchesCommentary = verse.commentary.toLowerCase().includes(searchTerm);
+
+                    if (!matchesRef && !matchesText && !matchesCommentary) {
+                        return false;
+                    }
+                }
+
+                return true;
             });
         }
 
+        // Render verses to the page
+        function renderVerses() {
+            const filtered = getFilteredVerses();
+            versesGrid.innerHTML = '';
+
+            if (filtered.length === 0) {
+                versesGrid.innerHTML = '<div class="empty-state"><p>No verses match your search.</p></div>';
+                displayedCountEl.textContent = '0';
+                return;
+            }
+
+            filtered.forEach(verse => {
+                const card = document.createElement('div');
+                card.className = 'verse-card';
+
+                const doctrineName = {
+                    'T': 'Total Depravity',
+                    'U': 'Unconditional Election',
+                    'L': 'Limited Atonement',
+                    'I': 'Irresistible Grace',
+                    'P': 'Perseverance'
+                }[verse.truth];
+
+                const strengthLabel = verse.strength === 'key' ? 'Key' : 'Supporting';
+
+                card.innerHTML = `
+                    <div class="verse-header">
+                        <div class="verse-reference">${verse.reference}</div>
+                        <div class="verse-badges">
+                            <span class="badge badge-truth">${verse.truth}: ${doctrineName.split(' ')[0]}</span>
+                            <span class="badge badge-strength ${verse.strength === 'key' ? 'key' : ''}">${strengthLabel}</span>
+                        </div>
+                    </div>
+                    <div class="verse-text">${verse.text}</div>
+                    <div class="verse-commentary">
+                        <div class="commentary-label">Commentary</div>
+                        <div class="commentary-text">${verse.commentary}</div>
+                    </div>
+                    <div class="expand-indicator">▼ Read Commentary</div>
+                `;
+
+                card.addEventListener('click', () => {
+                    card.classList.toggle('expanded');
+                    const indicator = card.querySelector('.expand-indicator');
+                    if (card.classList.contains('expanded')) {
+                        indicator.textContent = '▲ Hide Commentary';
+                    } else {
+                        indicator.textContent = '▼ Read Commentary';
+                    }
+                });
+
+                versesGrid.appendChild(card);
+            });
+
+            displayedCountEl.textContent = filtered.length;
+        }
+
+        // Event listeners
+        searchInput.addEventListener('input', (e) => {
+            currentFilters.search = e.target.value;
+            renderVerses();
+        });
+
+        doctrineTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                doctrineTabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                currentFilters.doctrine = tab.getAttribute('data-doctrine');
+                renderVerses();
+            });
+        });
+
+        // Initial render
+        initStats();
+        renderVerses();
     </script>
 
+    <!-- Global nav.js (required on all pages) -->
     <script src="/nav.js"></script>
 </body>
 </html>
