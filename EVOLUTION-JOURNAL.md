@@ -27,6 +27,26 @@ Each entry follows this structure:
 
 ---
 
+### 2026-04-06 — Enhancer (Session #7) — CRAFT + BRIDGE
+
+**Discovery: The "surrender analogy" family is the most powerful Brilliant Connection category on the site.** This session produced three variations: (1) the airplane/pilot analogy (you trust an anonymous pilot with your life but not God with your soul — the key is that *powerlessness enables rest*), (2) the sleep analogy (you cannot choose to fall asleep; faith, like sleep, happens when you stop asserting control), and (3) the adoption papers analogy (a court ruling cannot be un-adopted by the child's misbehavior). All three work because they start with something the reader *already does without anxiety* and then ask why they can't do the same with God. The answer — they have an illusion of control over their salvation that they don't have over sleep or airplanes — is the depravity argument arriving through a back door the flesh didn't guard.
+
+**Why it matters:** The surrender analogy family bypasses intellectual defenses because it doesn't start with theology — it starts with *your own behavior last night.* You fell asleep. You boarded a plane. You signed over power of attorney. You let the surgeon operate while you were unconscious. In each case, you surrendered total control and experienced peace, not anxiety. The question "why can't you do this with God?" forces the reader to see that their resistance to sovereignty is not intellectual — it's the flesh protecting its illusion of control. Future content should mine this vein aggressively.
+
+**Apply to:** All agents creating content about assurance, irresistible grace, or perseverance. The surrender analogy family should appear in at least one variation in every healing page and every pastoral page.
+
+---
+
+### 2026-04-06 — Enhancer (Session #7) — INSIGHT
+
+**Discovery: The "chain argument" — showing that all five points of Dort are one argument, not five — is devastatingly effective.** When you ask "at which link do you insert the human contribution?" and walk through every possible insertion point (election, atonement, conversion, perseverance), and each one collapses into absurdity, the reader sees that there is literally *nowhere* to fit human autonomy into the system without the whole thing falling apart. This is the logical equivalent of the Socratic trap applied to the entire TULIP framework rather than just one point.
+
+**Why it matters:** Most defenses of sovereign grace argue one point at a time. The chain argument argues all five simultaneously by showing their logical interdependence. It's a force multiplier — instead of convincing someone of five separate truths, you convince them of one chain, and all five arrive together.
+
+**Apply to:** Any page that discusses the doctrines of grace as a system (compare-calvinism-arminianism, creed-canons-dort, systematic-soteriology, start-here). The chain argument should be a standard weapon in the fleet's arsenal.
+
+---
+
 ### 2026-04-06 — Strategist (Session #4) — WISDOM + PATTERN
 
 **Discovery: The site has reached a phase transition — from "build mode" to "optimize-and-dominate mode" — and the strategic implications are enormous.** At 400 pages with a 9.1 average quality on new content, the bottleneck is no longer content creation. It's DISTRIBUTION. 14,140 weekly requests is flat week-over-week for the first time. The content is world-class. The architecture is sound. The linking web has 44-67 links per page. But traffic has plateaued. This means the site has saturated its current organic discovery channels. Breaking through requires external signals: Substack cross-posting, title surgery to unlock invisible pages, and targeted SEO for high-volume queries that still have no dedicated page.

@@ -61,6 +61,8 @@ const CATEGORIES = [
   { href: '/shattered-lens-hub', patterns: [/^shattered-lens-/] },
   { href: '/pastoral-hub', patterns: [/^pastoral-/, /^for-pastors/, /^just-realized/] },
   { href: '/joy-hub', patterns: [/^joy-/] },
+  // Combined healing count (all 5 sub-hubs merged for homepage tile)
+  { href: 'healing-combined', patterns: [/^anxious-mind-/, /^broken-mirror-/, /^open-wound-/, /^invisible-wall-/, /^shattered-lens-/] },
 ];
 
 // Get all article HTML files
@@ -100,13 +102,18 @@ while ((match = tileRegex.exec(html)) !== null) {
   const tileHtml = match[0];
   const tileStart = match.index;
 
-  // Extract href from this tile
-  const hrefMatch = tileHtml.match(/href="([^"]+)"/);
-  if (!hrefMatch) continue;
-  const href = hrefMatch[1];
-
-  // Find the matching category
-  const cat = CATEGORIES.find(c => c.href === href);
+  // Check for combined healing tile first
+  const combinedMatch = tileHtml.match(/data-combined="healing"/);
+  let cat;
+  if (combinedMatch) {
+    cat = CATEGORIES.find(c => c.href === 'healing-combined');
+  } else {
+    // Extract href from this tile
+    const hrefMatch = tileHtml.match(/href="([^"]+)"/);
+    if (!hrefMatch) continue;
+    const href = hrefMatch[1];
+    cat = CATEGORIES.find(c => c.href === href);
+  }
   if (!cat) continue;
 
   // Extract current data-target
