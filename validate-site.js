@@ -23,7 +23,7 @@ function safeReadFileSync(filePath) {
   }
 }
 const IGNORE_FILES = new Set(['_nav-template.html', '404.html', 'search.html']);
-const REDIRECT_PAGES = new Set(['creeds-confessions.html']); // minimal redirect pages — skip structural checks
+const REDIRECT_PAGES = new Set(['creeds-confessions.html', 'analogies-illustrations.html']); // minimal redirect pages — skip structural checks
 const UTILITY_PAGES = new Set([
     'index.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html',
     'all-content.html', 'topics.html', 'connections.html', 'explore-map.html',

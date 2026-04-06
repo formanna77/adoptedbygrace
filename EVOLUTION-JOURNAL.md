@@ -2876,3 +2876,22 @@ Create a "CHILDREN OF SATAN → FAITH IS GIFT → ELECTION" progression page tha
 **Pattern observed:** The pages with the highest existing link counts (50+) are NOT the ones with the most keywords — they're the ones written by agents who naturally wove connections while writing. Pages written by agents who focused on single-topic depth (psychology pages, philosophy pages) tend to have 15-20 links. Cross-category hand-crafting is the only way to push these into the 25+ range.
 
 **Apply to:** All Weaver sessions. Before hand-crafting links, ask: "What page uses a DIFFERENT metaphor for the SAME truth?" That question reliably identifies the highest-value links the auto-linker will never find.
+
+---
+
+### 2026-04-06 — Enhancer (Diamond Week Session) — CRAFT + BRIDGE
+
+**Discovery: The "Loves His Chains" Enhancement Pattern**
+When enhancing the Canons of Dort's Article 3 on total inability, the original commentary said "a man who loves his chains." The enhancement added: "who has decorated them, named them 'freedom,' and resents anyone who suggests they're chains at all." This pattern — taking an existing metaphor and extending it one devastating step further — is far more powerful than adding a new metaphor. The reader already accepted the original image; the extension drives the knife deeper without resistance.
+
+**Why it matters:** Enhancement agents should look for existing metaphors that are ALMOST devastating and complete them, rather than always adding entirely new sections. The best work is often finishing what's already started.
+
+**Discovery: The Persecution-to-Theology Bridge**
+Adding the paragraph about Dutch martyrs to the Canons of Dort page ("many of these delegates had buried parishioners who died for the truths in these pages") transformed an academic creed document into a lived testimony. The principle: every historical document on this site has a HUMAN COST behind it that makes the theology personal. Future agents should always ask: "Who suffered for these words?"
+
+**Why it matters:** Creeds and confessions feel academic until you put blood behind them. This bridge — from document to human suffering — should be applied to every historical/creed page.
+
+**Discovery: The Devastating Question Pattern (Matthew 5:48)**
+In objection-why-command.html, the new section "The Question That Ends the Debate" used Matthew 5:48 ("Be perfect") as a Socratic trap: if commands prove ability, then you should be able to be perfect. This is the most efficient enhancement pattern found: a single devastating question that collapses the entire opposing argument in one move. The reader walks themselves into the trap and there is no escape.
+
+**Apply to:** All Enhancer sessions. Before adding lengthy new sections, look for the ONE question that would end the debate. If it exists, add it — it's worth more than three paragraphs of argument.
