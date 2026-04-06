@@ -229,6 +229,14 @@ const UMBRELLAS = [
         hub: '/pastoral-assurance',
         prefixes: ['pastoral'],
       },
+      {
+        key: 'joy',
+        name: 'Joy of Grace',
+        icon: '✨',
+        hub: '/joy-hub',
+        prefixes: ['joy'],
+        hubFiles: ['joy-hub.html'],
+      },
     ],
   },
 ];
