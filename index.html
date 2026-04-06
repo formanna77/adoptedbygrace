@@ -70,7 +70,7 @@
         .hero-slide.exit { opacity: 0; visibility: hidden; transform: translateY(-18px); }
         .hero-title { font-family: 'Playfair Display', serif; font-size: 5rem; font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
         .hero-title .gold { background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .hero-verse { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.3rem; color: var(--text-secondary); max-width: 650px; margin: 2rem auto 0.5rem; line-height: 1.8; }
+        .hero-verse { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.3rem; color: var(--accent-gold); max-width: 650px; margin: 2rem auto 0.5rem; line-height: 1.8; }
         .hero-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text-muted); letter-spacing: 0.15em; }
         /* Progress bar under hero rotation */
         .hero-progress { position: relative; width: 120px; height: 2px; background: rgba(212, 162, 84, 0.15); border-radius: 2px; margin: 1.5rem auto 0; overflow: hidden; opacity: 0; animation: fadeUp 1s ease 1.2s forwards; }
@@ -1207,7 +1207,7 @@ body {
 
     // ===== ROTATING HERO SLIDES =====
     (function() {
-        const INTERVAL = 4200; // ms per slide
+        const INTERVAL = 8000; // ms per slide — give readers time to absorb each verse
         const heroSlides = [
             {
                 title: 'Before the world began,<br><span class="gold">He chose you.</span>',

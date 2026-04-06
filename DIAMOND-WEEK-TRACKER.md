@@ -105,6 +105,15 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Apr 5 | Guardian | 8 pages (batch) | STRUCTURE | Removed 8 remaining back-to-top buttons (demolition-romans10-9, demolition-2peter2-1, devotional-when-god-says-no, ot-abraham, question-ezekiel37, demolition-hebrews6-4-6, ot-israel-chosen, ot-david). |
 | Apr 5 | Guardian | sitemap.xml | STRUCTURE | Added 54 missing pages to sitemap (15% of site was invisible to search engines). 364 total entries. |
 | Apr 5 | Guardian | debate-free-will.html | STRUCTURE | Fixed 2 broken links: systematic-irresistible-grace → systematic-pneumatology, systematic-perseverance → systematic-soteriology. |
+| Apr 5 | Weaver | history-great-awakening.html | LINKS | 14 hand-crafted prose links added (was 0 in body). Linked Edwards, Whitefield, total depravity, unconditional election, irresistible grace, perseverance, justification, regeneration, free will, foreknowledge, Arminianism, monergism/synergism, autonomy illusion, rescued-without-a-say devotional. |
+| Apr 5 | Weaver | shattered-lens-pastor.html | LINKS | 4 hand-crafted links: cant-unsee-it, where-did-your-faith, chosen-before-broken, lonely-theological. Cross-category: healing→question, healing→devotional. |
+| Apr 5 | Weaver | theologian-edwards.html | LINKS | 8 hand-crafted links: theology-proper, regeneration, depravity, free will, compatibilism, hamartiology, anthropology, pneumatology, Great Awakening. |
+| Apr 5 | Weaver | philosophy-exclusive-love.html | LINKS | 4 hand-crafted links: adoption analogy, pride-root-objection, chosen-before-broken, Lazarus-grave. Cross-category: philosophy→psychology, philosophy→devotional, philosophy→analogy. |
+| Apr 5 | Weaver | invisible-wall-friend-who-left.html | LINKS | 5 hand-crafted links: faith-as-gift, performance-treadmill, where-did-your-faith, never-gives-up, autonomy-illusion. Cross-category: healing→question, healing→psychology. |
+| Apr 5 | Weaver | open-wound-betrayed-by-church.html | LINKS | 4 hand-crafted links: hamartiology, faithgift, divine-decrees, lazarus-grave. Cross-category: healing→systematic, healing→analogy. |
+| Apr 5 | Weaver | demolition-1cor15-22.html | LINKS | 4 hand-crafted links: anthropology, election, atonement, chosen+never-gives-up. Cross-category: demolition→devotional (Two Arms). |
+| Apr 5 | Weaver | theologian-luther.html | LINKS | 4 hand-crafted links: free will, regeneration, where-did-your-faith, augustine. Cross-category: theologian→question. |
+| Apr 5 | Weaver | question-where-does-your-no-come-from.html | LINKS | 2 hand-crafted links: illusion-free-will, resistance-is-proof. Cross-category: question→psychology, question→philosophy. |
 | Apr 5 | Guardian | site-wide | STRUCTURE | Rebuilt search index (363 pages), mega-menu (327 articles), auto-linker (570 links across 186 files). |
 | Apr 5 | Guardian | 8 pages (batch) | STRUCTURE | Fixed non-standard eyebrow classes (hero-eyebrow, topic-label, article-meta → eyebrow; hero-subtitle, article-subtitle → hub-subtitle). |
 | Apr 5 | Dramaturg | psychology-sincerity-trap.html | EMOTION | Specific kitchen-table scene opening (cold coffee, cracked Bible). Stop-and-feel at irony peak. Callback closing returns to woman. Sensory language in Dunning-Kruger section. Whisper pastoral closing. |
@@ -140,6 +149,16 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Apr 5 | Guardian | 23 pages (batch) | STRUCTURE | Removed back-to-top comment remnants (`<!-- Back to Top Button -->`) from 23 pages including index.html. Button HTML was already removed in prior sessions; comments survived. |
 | Apr 5 | Guardian | sitemap.xml | STRUCTURE | Added 63 missing pages to sitemap (427 total, was 364). Includes demolition, devotional, theologian, question, story, and OT pages that were invisible to search engines. |
 | Apr 5 | Guardian | site-wide | STRUCTURE | Rebuilt search index (371 pages), mega-menu (335 articles), auto-linker (47 links across 39 files). |
+| Apr 5 | Weaver | demolition-hebrews2-9.html | LINKS | +8 hand-crafted links (4→12). Cross-category: Crown Jewel, John 6 parallel, Owen trilemma, monergism-synergism, chosen-before-broken devotional. |
+| Apr 5 | Weaver | objection-why-pray.html | LINKS | +7 hand-crafted links (4→11). Cross-category: compatibilism, orchestra analogy, robot objection, Crown Jewel. |
+| Apr 5 | Weaver | objection-unfair-to-choose-some.html | LINKS | +4 hand-crafted links (7→11). Cross-category: psychology-pride-root-objection, rescued-without-a-say devotional. |
+| Apr 5 | Weaver | story-historical-augustine-pears.html | LINKS | +8 hand-crafted links (7→14). Cross-category: Lazarus analogy ("corpse can choose resurrection"), irresistible grace, regeneration, Augustine-Pelagius history. |
+| Apr 5 | Weaver | devotional-good-i-cannot-do.html | LINKS | +6 hand-crafted links (8→13). Cross-category: drowning man analogy, regeneration, justification. Flagged 3 ESV quotes for Enhancer. |
+| Apr 5 | Weaver | objection-why-evangelize.html | LINKS | +5 hand-crafted links (8→13). Cross-category: Great Awakening history, compatibilism, why-pray parallel. |
+| Apr 5 | Weaver | systematic-justification.html | LINKS | +5 hand-crafted links (8→12). Cross-category: Luther & Calvin theologian pages, definite atonement, faith-as-gift. |
+| Apr 5 | Weaver | systematic-ordo-salutis.html | LINKS | +7 hand-crafted links (7→13). Cross-category: prevenient grace demolition, monergism-synergism, foreknowledge question. |
+| Apr 5 | Weaver | devotional-not-my-will-but-joy.html | LINKS | +4 hand-crafted links (9→13). Cross-category: psychology-fear-control, pastoral-suffering, orchestra & river analogies. |
+| Apr 5 | Weaver | devotional-the-hands-that-hold-you.html | LINKS | +3 hand-crafted links (9→12). Cross-category: broken-mirror-performance-treadmill, faith-as-gift, perseverance. |
 
 ---
 
@@ -152,6 +171,7 @@ If you see a problem outside your lane while working on a page, log it here inst
 | Apr 5 | Weaver | broken-mirror-sin-you-repeat.html | ESV quotations on lines ~178 (Romans 7:18-19) and ~204 (Romans 6:1-2) — need NIV conversion | Enhancer |
 | Apr 5 | Cartographer | anxious-mind-brain-decides.html, anxious-mind-never-meant-to-carry.html, anxious-mind-sovereignty-of-sleep.html, psychology-comfort-self-salvation.html | Broken links to "search.html" (file not found) | Weaver/Guardian |
 | Apr 5 | Cartographer | debate-free-will.html | Broken links to "systematic-irresistible-grace" and "systematic-perseverance" (files not found) | Weaver |
+| Apr 5 | Weaver | devotional-good-i-cannot-do.html | ESV quotations: Romans 7:18-19, Romans 3:10-12, 2 Corinthians 3:5 — need NIV conversion | Enhancer |
 
 ---
 
