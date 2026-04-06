@@ -384,40 +384,113 @@ You are writing history as **COURTROOM DRAMA**, not textbook.
 
 ## ══════════════════════════════════════════════════════
 
+## ══════════════════════════════════════════════════════
+
+## DIAMOND WEEK PRIORITY: DEEP-DIVE TIMELINE ENRICHMENT (April 5-12, 2026)
+
+**THIS IS YOUR #1 PRIORITY. Before creating ANY new pages, enrich EXISTING timeline articles.**
+
+Aaron loves the timeline articles and wants them to be the most comprehensive, vivid, historically accurate accounts on the internet. The Augustine vs. Pelagius page is the gold standard — every other timeline entry must match or exceed it in depth, richness, and immersive historical detail.
+
+### THE 12 TIMELINE ARTICLES (ordered by priority — weakest first):
+
+| File | Current Size | Priority | Why |
+|------|-------------|----------|-----|
+| history-apostolic.html | 29K | CRITICAL | Foundation of everything — must be massive |
+| history-medieval.html | 29K | CRITICAL | 600 years compressed too thin |
+| history-luther.html | 30K | HIGH | Luther deserves an epic treatment |
+| history-calvin-geneva.html | 32K | HIGH | Calvin's Geneva is one of history's great experiments |
+| history-council-of-orange.html | 34K | HIGH | The council that ALREADY SETTLED semi-Pelagianism |
+| history-today.html | 35K | MEDIUM | Needs richer modern landscape detail |
+| history-20th-century.html | 37K | MEDIUM | Machen, Lloyd-Jones, Sproul — vivid portraits needed |
+| history-puritans.html | 40K | STANDARD | Good but could be richer |
+| history-augustine-pelagius.html | 48K | STANDARD | The gold standard — enhance further if possible |
+| history-great-awakening.html | 51K | STANDARD | Already substantial |
+| history-spurgeon-downgrade.html | 51K | STANDARD | Already substantial |
+| history-dort.html | 61K | LOW | Already the longest |
+
+### WHAT "COMPREHENSIVE" MEANS — THE ENRICHMENT MANDATE
+
+Every timeline article must answer ALL of these questions with vivid, scene-setting detail:
+
+**1. WHAT WAS LIFE LIKE?**
+- What century? What did cities look like? How did people travel? What did they eat? What was the average lifespan? What diseases were common? How literate was the population?
+- Set the SCENE so the reader is transported. "In 354 AD, Thagaste was a small town in Roman North Africa where the smell of olive oil hung in the air and the sound of Latin mixed with Berber in the marketplace..."
+
+**2. WHAT WAS THE CHURCH LIKE?**
+- How big was the Christian population? Were they persecuted or established? What did a church service look like? Who could read the Bible? What translation existed? Were there denominations? What was the power structure?
+- The reader must understand the WORLD in which this theological battle happened.
+
+**3. WHO WERE THE INDIVIDUALS?**
+- Not just their theology — their PERSONALITY. What did they look like? What were their habits? What did their contemporaries say about them? What were their weaknesses? What made them laugh? What kept them up at night?
+- Augustine was a womanizer before conversion. Luther had digestive problems and a sharp tongue. Calvin was painfully shy. Spurgeon smoked cigars and battled depression. Edwards was so cerebral his congregation fired him. These HUMAN details make the theology land harder because the reader sees REAL PEOPLE, not stained-glass icons.
+
+**4. WHAT WAS THE CONFLICT REALLY LIKE?**
+- Not just "Augustine disagreed with Pelagius." WHO started it? WHERE did the first confrontation happen? What was said? Who was in the room? What political forces were at play? Who had the power? Who was the underdog?
+- Make it read like a courtroom drama or a war narrative. STAKES. TENSION. CONSEQUENCES.
+
+**5. WHAT WERE THE ACTUAL ARGUMENTS?**
+- Quote primary sources when powerful. Use original words from letters, sermons, confessions, council documents.
+- Show the reader EXACTLY what was said — don't just summarize. "Pelagius wrote to Demetrias: 'Whenever I have to speak on the subject of moral instruction and the conduct of a holy life, I always point out the force and quality of human nature...'" Then show how Augustine demolished it.
+
+**6. WHAT HAPPENED AFTER?**
+- Consequences. Exile. Excommunication. Martyrdom. Vindication. Legacy.
+- What did this battle CHANGE in the church? What would be different if the other side had won?
+
+**7. THE 100% HISTORICAL TRUTH MANDATE**
+- Every fact must be historically verifiable. Do NOT invent dialogue, dates, or events.
+- When uncertain, say so: "Tradition holds that..." or "While the exact date is debated..."
+- Use web search to verify specific dates, places, and quotes when needed.
+- This site's credibility depends on historical accuracy. A single invented detail destroys trust.
+
+### SECTION NAV REQUIREMENT
+
+Every enriched timeline article MUST have a `<div class="section-nav">` with anchor links to all h2 sections. The CSS already exists in global.css. Pattern:
+```html
+<div class="section-nav">
+    <div class="section-nav-container">
+        <a href="#section-id" class="active">Section Title</a>
+        <a href="#another-section">Another Section</a>
+    </div>
+</div>
+```
+Place it between the nav/mega-menu and the page-hero. Every h2 must have a matching `id` attribute.
+
+### THE TARGET: 50K+ PER ARTICLE
+The weakest articles are 29-32K. The strongest are 48-61K. Every timeline article should be at MINIMUM 45K — rich, immersive, comprehensive. If an article is under 40K after enrichment, you haven't gone deep enough.
+
+---
+
 ## SESSION WORKFLOW
 
-### PHASE 1: STARTUP (21 min)
+### PHASE 1: STARTUP (15 min)
 Execute the startup sequence above.
 
-### PHASE 2: RESEARCH & OUTLINE (20 min)
-- Choose 1-2 historical topics
-- Outline the THEN, the NOW, the connection
-- List key internal links you'll need
-- Verify target links exist (no aspirational linking)
+### PHASE 2: ASSESS & PRIORITIZE (10 min)
+- Read the weakest timeline article (smallest file size)
+- Identify what's MISSING using the 7-question enrichment checklist above
+- Outline what sections to add or expand
 
-### PHASE 3: CREATION (60 min)
-- Write 1-2 complete history article pages
-- 1,200-2,000 words each (dense, not bloated)
-- Minimum 8-12 internal links per page
+### PHASE 3: ENRICHMENT (75 min)
+- Enrich 1-2 existing timeline articles per session
+- Add vivid historical detail: scene-setting, character portraits, primary source quotes
+- Add new h2 sections where depth is needed
+- Ensure section nav exists and covers all h2 sections
+- Ensure all h2 tags have id attributes for anchor linking
+- Minimum 12 internal links per page
 - All Scripture quotes in NIV
-- Warm aesthetic, strong voice
-- Complete HTML structure with nav, footer, schema
+- NO inline styles — use article-body wrapper and global.css classes only
 
-### PHASE 4: INTEGRATION (15 min)
-- Add `.hub-card` to `history-timeline.html`
-- Verify card is properly formatted
-- Grep for your new href to confirm it saved
+### PHASE 4: NEW CONTENT (if time remains after enrichment)
+- Only create new pages AFTER existing timeline articles are enriched
+- Follow the creation workflow below
 
 ### PHASE 5: VALIDATION & REBUILD (10 min)
-- Run `node build-search-index.js` and `node build-mega-menu.js`
-- Verify file exists: `ls history-[filename].html`
-- Verify card in hub: `grep history-[filename] history-timeline.html`
+- Run `node build-search-index.js && node build-mega-menu.js && node build-homepage-counts.js && node auto-linker.js`
+- Verify changes saved: `grep "new-section-id" history-[filename].html`
 
 ### PHASE 6: EVOLUTION JOURNAL (5 min)
-Document 1-2 discoveries in `EVOLUTION-JOURNAL.md`:
-- "The Augustine-Pelagius parallel is stronger when framed as..."
-- "Making history feel like courtroom drama works better than academic tone because..."
-- "The reader's cognitive dissonance at 'the church already decided this' is the pivot point"
+Document 1-2 discoveries in `EVOLUTION-JOURNAL.md`
 
 ---
 
