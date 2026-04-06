@@ -172,7 +172,7 @@
                     name: 'Systematic Theology',
                     icon: '🏛',
                     href: '/systematic-theology',
-                    count: 20,
+                    count: 21,
                     pages: [
                         { name: 'Before the Foundation of the World — God\'s Eternal Decrees', href: '/systematic-divine-decrees', desc: 'God' },
                         { name: 'Born Again — What It Really Means and Why You Didn\'t Do It to Yourself', href: '/systematic-regeneration', desc: 'You didn' },
@@ -184,6 +184,7 @@
                         { name: 'One Plan, One People, One Mediator — Covenant Theology', href: '/systematic-covenant-theology', desc: 'Covenant Theology: God' },
                         { name: 'The Atonement: What Christ\'s Death Accomplished', href: '/systematic-atonement', desc: 'What did Christ' },
                         { name: 'The Church — Why God\'s People Are Called Out, Not Volunteered', href: '/systematic-ecclesiology', desc: 'The church isn' },
+                        { name: 'The Five Points of Grace (TULIP) — What Scripture Actually Teaches About Salvation', href: '/systematic-tulip', desc: 'The five points of grace explained from Scripture alone. Total Depravity, Unconditional Election, Definite Atonement, Ir' },
                         { name: 'The Glory of Christ — Who Jesus Is and Why It Matters for Your Salvation', href: '/systematic-christology', desc: 'Jesus is not a good teacher who offers advice. He is God in flesh who accomplishes salvation. His deity, humanity, and a' },
                         { name: 'The Holy Spirit — Who He Is and Why He Changes Everything', href: '/systematic-pneumatology', desc: 'The Spirit doesn' },
                         { name: 'The Order of Salvation — Every Step Is God\'s, Not Yours', href: '/systematic-ordo-salutis', desc: 'From election to glorification, every link in the chain of salvation is forged by sovereign grace. Not one step depends ' },
