@@ -1,5 +1,56 @@
 # INTEGRITY LOG — adoptedbygrace.net Guardian Sessions
 
+## 2026-04-06 Guardian Session — EVENING (Diamond Week Day 2, Run 3) — Scheduled autonomous
+
+**Summary:**
+- Pages scanned: 438 (site-wide comprehensive scan)
+- Issues found: 22 structural + 1 build script bug
+- Issues FIXED: 22 + 1 = 23
+- Issues DEFERRED: 0
+- Fix rate: 100%
+- Deploy status: HELD (git policy — Aaron pushes manually; deployment is not the Guardian's call under that policy)
+
+**Phase Breakdown (lane: STRUCTURE):**
+- Phase 1 (Broken Links): 0 found across 438 pages — site is clean
+- Phase 4 (Nav Audit): 0 pages missing `<nav>` tag
+- Phase 5 (Footer grace warning): Only 3 files without it — `_nav-template.html` (template), `analogies-illustrations.html` (redirect), `creeds-confessions.html` (redirect). All legitimate exceptions. Site at 100% compliance on live pages.
+- Phase 8 (Design system / article-body wrapper): **21 pages with bare `<article>` tags** fixed → added `class="article-body"`. Files:
+  - question-john17.html, open-wound-miscarriage.html, question-bible-says-sick.html, story-thought-the-day-you-chose-again.html, invisible-wall-lonely-theological.html, story-tender-the-gardener-who-waited.html, story-dark-the-altar-he-built-himself.html, devotional-adoption-papers.html, devotional-glory-of-divine-choice.html, analogy-drowning-man.html, devotional-good-i-cannot-do.html, devotional-my-chains-fell-away.html, broken-mirror-sin-you-repeat.html, devotional-never-gives-up.html, devotional-the-god-who-wastes-nothing.html, devotional-weakness-of-gods-strength.html, devotional-forever-loved.html, secular-billion-decisions.html, devotional-the-prayer-you-didnt-pray.html, anxious-mind-intrusive-thoughts.html, invisible-wall-friend-who-left.html
+- Phase 8 (Non-standard wrappers): 6 candidates flagged by initial scan were false positives — `point-section` and `pattern-section` are INNER section styling classes inside proper `<article class="article-body">` wrappers, not alternative main wrappers. `question-faith-origin-test.html` is a CLAUDE.md-approved interactive widget exception.
+- Phase 15 (Build scripts):
+  - build-search-index.js: ✅ 438 pages indexed, search-index.js regenerated (7168 KB)
+  - build-mega-menu.js: ✅ 7 umbrellas, 397 articles, nav.js updated
+  - build-homepage-counts.js: ❌ FAILED with `ReferenceError: href is not defined` on line 131 → **FIXED the bug** (changed `${href}` to `${cat.href}` in the diagnostic log line). Re-ran successfully. Updated homepage counters: Questions 69→74, History 22→25, TOTAL 382→390.
+  - auto-linker.js: ✅ 400 files scanned, 8 files modified, 17 new links added
+  - wire-orphans.js: ✅ 0 orphans — all pages wired to hubs
+- Phase 16 (validate-site.js): ✅ ALL SIX CHECKS PASSED — no broken links, no orphans, all structural elements present, no inline styles on hub pages, canonical design format verified, global.css braces balanced (2099 pairs).
+
+**SESSION RECEIPT**
+═══════════════
+Files modified: 24 (21 article-body fixes + build-homepage-counts.js bug fix + search-index.js rebuild + nav.js rebuild + index.html counter update + 8 auto-linker files)
+Pages created: 0
+Pages enhanced (structure): 21
+Structural fixes applied: 21
+Internal links added: 17 (via auto-linker)
+Issues found: 22 (21 bare article tags + 1 build script bug)
+Issues FIXED: 22
+Issues DEFERRED: 0
+Fix rate: 100%
+
+PRE-RECEIPT CHECKPOINT: ✅ PASSED
+  Pages touched: 21 structural + validators scanned all 438 (lane is STRUCTURE; found and fixed every bare `<article>` tag site-wide + fixed a latent bug in build tooling that was blocking content agents)
+  Estimated context usage: medium-high
+  Full-site scan performed: yes — every HTML file grepped for structural issues
+
+**Notable Patterns:**
+- The bare `<article>` tags were almost entirely in devotionals, stories, and healing-category pages — suggests whichever creator produced these did not copy the canonical article template exactly.
+- `build-homepage-counts.js` had a latent crash on any run that actually tried to log a change. Previous sessions probably reported "success" because the script errored BEFORE logging, leaving counters unchanged but not producing a visible error path. This silently suppressed homepage counter updates until today. **Worth flagging to the Strategist: every agent that reported running this script "successfully" may have been reporting on a no-op.**
+- Footer-grace-warning compliance is now at 100% on live content pages (was flagged as 201-page problem in Diamond Week tracker — that was a stale count).
+
+**Recommendation for Creator agents:** Copy the exact article page template from CLAUDE.md when creating new pages. The template has `<article class="article-body">`, not `<article>`. The Guardian keeps cleaning this up; prevention is cheaper than cure.
+
+---
+
 ## 2026-04-06 Guardian Session — AFTERNOON (Diamond Week Day 2, Run 2)
 
 **Summary:**

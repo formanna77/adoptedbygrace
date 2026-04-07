@@ -128,7 +128,7 @@ while ((match = tileRegex.exec(html)) !== null) {
     // Reset regex index since we modified the string
     tileRegex.lastIndex = tileStart + updatedTile.length;
     changes++;
-    console.log(`  ${href}: ${oldVal} → ${newVal}`);
+    console.log(`  ${cat.href}: ${oldVal} → ${newVal}`);
   }
 }
 
