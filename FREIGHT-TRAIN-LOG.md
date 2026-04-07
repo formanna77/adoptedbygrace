@@ -52,3 +52,26 @@ Pages listed here have already been enhanced. Skip them unless doing a second pa
 - systematic-prolegomena.html — throat-grab on "where you start determines where you end"
 - theologian-owen.html — throat-grab on Death of Death — Owen's trilemma unanswered for 400 years
 - theologian-spurgeon.html — throat-grab Spurgeon quote: "Calvinism IS the gospel, nothing else"
+- demolition-john3-16.html — throat-grab: "if John 3:16 means what most think, why does rest of John 3 mean the opposite?"
+- demolition-1tim2-4.html — three-door logical trap: omnipotence vs sovereignty vs "all"
+- demolition-2peter3-9.html — strengthened two-letter-pronoun hook ("you")
+- objection-evangelism-pointless.html — William Carey 1792 historical scene
+- objection-love.html — wedding-day husband/wife particular-love analogy
+- objection-god-could-save-all.html — sharpened as 3am honest-Calvinist question
+- objection-why-pray.html — hospital scene with intrusive thought
+- objection-why-command.html — father/Christmas-bicycle decreed-means analogy
+- objection-author-of-sin.html — Joseph/Genesis 50 "intended for good"
+- objection-why-not-save-everyone.html — governor/pardon analogy
+- question-1john5-1.html — Greek perfect tense (new birth precedes faith)
+- systematic-regeneration.html — throat-grab: you did not attend your first birth, you did not attend your second either (wind metaphor)
+- systematic-trinity.html — throat-grab: before there was a single atom, there was already a conversation (eternal intra-Trinitarian love)
+- systematic-bibliology.html — throat-grab: "well that's just your interpretation" — the ground moves every time
+- systematic-resurrection.html — throat-grab: Friday the disciples were finished, Sunday something happened that turned terrified men into arena martyrs
+- systematic-salvation.html — throat-grab: five tenses of salvation, your answer is off by infinity, cathedral God's been building since before time
+- compare-predestination-foreknowledge.html — throat-grab: the word foreknew as 400-year escape hatch, rescue operation not exegesis
+- philosophy-mirror-you-refuse.html — throat-grab: the mirror you spent your life arranging furniture to avoid
+- history-20th-century.html — throat-grab: the church had been bleeding out for half a century and most had no idea — arteries cut not by atheists but by pastors
+- history-dort.html — throat-grab: 154 sessions, 7 months, one question — does God save sinners or merely make salvation available to sinners who save themselves?
+- history-every-revival-sovereign-grace.html — throat-grab: every Spirit-emptied tavern and closed brothel happened under preaching of absolute sovereignty, not decision theology
+- history-today.html — throat-grab: you've been told the doctrines of grace are dying — they're burning through Lagos faster than London
+- history-puritans.html — throat-grab: the word "Puritan" is the most successful slander in the English language — fire in the bones, not grim cartoons

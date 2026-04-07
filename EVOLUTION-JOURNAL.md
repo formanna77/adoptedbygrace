@@ -3094,3 +3094,59 @@ The three pages enhanced this session all shared one structural feature: a Crown
 
 ### PRE-EMPTION PRINCIPLE (CANDIDATE NEW DOCTRINE)
 Across this session a clear principle emerged: **the strongest version of an opponent's objection should appear in the body of YOUR article, not theirs.** When you raise their best counter-text first and answer it before they can use it, you have eliminated the escape hatch. When you wait for them to bring it, they walk away believing you "didn't even consider" the obvious problem. Future enhancement sessions should target Tier 1 strategist pages and ask: "What is the ONE objection a hostile reader would think within 30 seconds of reading this?" Then add a section that answers it explicitly. This may be the highest-leverage enhancement type discoverable.
+
+---
+
+## 2026-04-06 — FORGE SESSION (devotional-cold-church.html)
+
+### THE BRIDGE-LINE TECHNIQUE
+When amplifying a Mode A page that already has a strong catch, the highest-leverage insertion is NOT more catch — it is a **bridge line** at the end of the shatter that hands the reader directly into the existing catch. On devotional-cold-church, the inserted binary-fork section ends with: *"You cannot wake yourself up. You can only be woken."* That single line transforms the next section from an independent paragraph into an answered prayer. The catch was always there. The bridge makes the reader ARRIVE at it instead of merely encountering it. This is an architectural trick worth repeating: **look for Mode A pages whose shatter and catch are both strong but disconnected, and install a bridge line in the last sentence of the shatter that the catch can catch.**
+
+### THE BINARY FORK AS ESCAPE-ROUTE SEALER
+The lukewarm churchgoer's favorite defense is not argument — it is fog. "Maybe it's a phase. Maybe I'm tired. Maybe the season is just hard." Fog cannot be refuted directly because it never commits to a position. The answer is the binary fork: *"There are only two possibilities. Not three. Not seven. Two."* The binary fork forces the reader out of fog and onto a specific branch, where both branches can then be examined. It is the rhetorical equivalent of shining a flashlight into a dark room — the reader can no longer say "I don't know where I am" because the fork has numbered the only possible locations. Future Forge sessions should use binary forks on any page where the target reader's defense is vagueness rather than disagreement.
+
+### THE "COMA MISTAKEN FOR A NAP" IMAGE
+The insight that landed hardest: *"every month you wait for the feeling to come back on its own is another month of a coma mistaken for a nap."* The image works because it takes the reader's own diagnosis ("I'm just tired, I just need rest") and reveals that the category itself may be wrong — not the duration. You are not taking the wrong length of nap. You may not be napping at all. This is a pattern worth generalizing: **do not argue with the reader's quantity — argue with their category.** Arguing with quantity ("you're not tired enough to be depressed") can always be dismissed. Arguing with category ("what you call tiredness may not be tiredness at all") forces a re-examination.
+
+---
+
+## 2026-04-06 — FORGE SESSION 2 — THE BINARY FORK AS UNIVERSAL TOOL
+
+**Discovery:** The Crown Jewel binary fork (Option A vs. Option B) is not a one-trick technique tied to a single rhetorical setup. It is a *transferable instrument* that can be inserted into ANY devotional context with minor reframing. In a single session, the same binary fork was deployed in five distinct contexts:
+
+1. **Adoption framing** — "Did the Father adopt you, or did you submit your application?" (Roman *adrogatio* / slave at the auction with the pen)
+2. **Brokenness framing** — "Was your willingness the hinge?" (the 2:47 a.m. reader who fears their numbness disqualifies them)
+3. **Felt-absence framing** — "Is your salvation held by what you can feel, or by what He has done?" (the dry believer trusting felt-experience receipts)
+4. **Prayer framing** — "Did you cry out, or was the cry placed in you?" (already in the page; amplified with the spontaneous-want test)
+5. **Rescue framing** — "Were you unconscious or did you crawl?" (Story One vs. Story Two — burning building)
+
+The principle: every Christian carries a residual self-trust lie that is shaped by the metaphor that brought them to faith. The Forge's job is to find the metaphor and deploy the binary fork *in the language of that metaphor*. Adoption metaphor → adoption fork. Rescue metaphor → rescue fork. Worship metaphor → felt-experience fork. The binary structure is universal; the costuming is local.
+
+**Why this matters:** The fleet has been treating the Crown Jewel argument as content to be inserted whole-cloth. It is not. It is a *form* — Option A, Option B, the impossibility of Option C — that can be tailored to any pre-existing devotional framing without disrupting the original prose. This means EVERY existing devotional on the site is a candidate for binary-fork amplification, and the amplification will feel native to the page rather than transplanted.
+
+---
+
+## NEW TECHNIQUE: THE SPONTANEOUS-WANT TEST (concrete depravity proof)
+
+**Discovery:** Asking the reader to perform a small impossible task in real time is the most efficient way to make depravity *felt* rather than *understood*. In this session, two pages used the same instrument:
+
+> "Try to spontaneously, without any prompt or pressure or guilt, want to pray. Not pray. *Want to pray.* Generate the desire from inside yourself, the way you generate the desire to scroll your phone or eat something sweet. Just want it. Reach into the part of you that produces wants, and produce *that* want."
+
+The reader cannot do it. They feel their own incapacity in real time. Then the comparison: "How many times today have you, without effort, wanted comfort? Wanted to be right? Wanted to be admired?" Those wants required no manufacturing. The wants for God did. *That gap is depravity made visible*. It moves "dead in sin" from a metaphor about corpses to a mirror that the reader cannot escape.
+
+**Application:** The fleet should mine for similar live experiments. Not "imagine what it would be like to..." but "right now, try to..." The participatory test is more devastating than any third-person description. Possible variations:
+- Try to want to forgive someone you don't want to forgive — without the want being motivated by pride, image, or fear.
+- Try to enjoy God's holiness — the actual holiness, not the comfortable version — for thirty seconds.
+- Try to read a chapter of Scripture without a single thought about how it makes you look.
+
+Each of these will produce the same result: the reader tries, fails, and *feels* the failure. That felt failure is the soil the Spirit works in.
+
+---
+
+## TECHNIQUE: CATCH MUST INHERIT THE PAGE'S OWN VOCABULARY
+
+**Discovery:** When inserting a new section into an existing devotional, the catch line at the end of the new section must use the SAME vocabulary as the page's existing catch. The reader's emotional architecture is already organized around the page's metaphor. The new section must hand the reader back to the original architecture rather than introducing a new one.
+
+Example: devotional-chosen-before-you-were-broken centers on 2:47 a.m. and the dark room. The new Crown Jewel section ends with "the worst night of your life cannot reach the foundation of your standing with God" and "God does not change His mind at 2:47 a.m. just because you have changed yours." The original catch — "Hold me. I'm yours. I always have been." — receives the reader naturally, because the bridge is built in the same wood.
+
+This is a small craft note but it explains why some Mode A amplifications feel native and others feel transplanted: the difference is whether the new section's closing imagery prepares the reader for the existing catch, or whether it leaves them in a different room.
