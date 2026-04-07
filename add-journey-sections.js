@@ -136,7 +136,6 @@ const R = {
     healing: [
       { href: '/question-where-did-your-faith-come-from', title: 'Where Did Your Faith Come From?', desc: 'Now take the comfort deeper — ask where it started.' },
       { href: '/question-depravity', title: 'Total Depravity', desc: 'The grace you love is only as precious as the depth it rescued you from.' },
-      { href: '/philosophy-gratitude-test', title: 'The Gratitude Test', desc: 'The deeper you see your inability, the deeper your gratitude becomes.' },
       { href: '/joy-security-changes-everything', title: 'Security Changes Everything', desc: 'The comfort deepens when you see that nothing can remove it.' },
     ],
   },
@@ -281,7 +280,6 @@ const R = {
     healing: [
       { href: '/question-where-did-your-faith-come-from', title: 'Where Did Your Faith Come From?', desc: 'Your joy has a source. Have you traced it all the way back?' },
       { href: '/question-depravity', title: 'Total Depravity', desc: 'The joy of grace is only as deep as the pit it pulled you from.' },
-      { href: '/philosophy-gratitude-test', title: 'The Gratitude Test', desc: 'How deep is your joy? It depends on how deep you see your need.' },
     ],
   },
   history: {

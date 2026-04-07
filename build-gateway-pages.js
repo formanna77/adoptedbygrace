@@ -157,7 +157,7 @@ const PAGE_1 = {
 
         <p>If you are reading this, you are not too far. You are not too late. You are not disqualified by your doubts. Come to Christ today — not because you have proven yourself elect, but because the coming is how the elect are revealed. <a href="/question-dead-in-sin-meaning">The dead are raised when God speaks</a>. <a href="/devotional-joy-of-election">The joy of election</a> is not in peering into heaven\u2019s files — it is in finding yourself, at last, unable to walk away from the Shepherd who will never let you go.</p>
 
-        <p>If you want to see how <a href="/question-faith-origin-test">the faith you already have came from Him</a>, take the test. If you want to see <a href="/pastoral-assurance">how Scripture grounds assurance</a>, go deeper. If you want to know <a href="/question-sealed">the promise that holds the saints</a>, read it. And if the anxiety is still there, come <a href="/devotional-held-by-god">rest in the hand that has held you since before the stars were lit</a>.</p>
+        <p>If you want to see <a href="/pastoral-assurance">how Scripture grounds assurance</a>, go deeper. If you want to know <a href="/question-sealed">the promise that holds the saints</a>, read it. And if the anxiety is still there, come <a href="/devotional-held-by-god">rest in the hand that has held you since before the stars were lit</a>.</p>
 
         <p>You are asking because He is pulling. The pull is the answer.</p>
 `,

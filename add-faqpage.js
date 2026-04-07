@@ -3,14 +3,6 @@
 const fs = require('fs');
 
 const FAQS = {
-  'question-autonomy-audit.html': [
-    ['Does free will contradict God\u2019s sovereignty?', 'Libertarian free will \u2014 the idea that a choice must be uncaused by anything prior to count as "free" \u2014 cannot coexist with God\u2019s exhaustive foreknowledge and decree. If God knew infallibly what you would choose before you existed (Isaiah 46:9-10), then the outcome was fixed before you acted. Either His knowledge is derivative of your choices (you author history) or His knowledge is limited. Scripture affirms neither.'],
-    ['Is libertarian free will logically consistent?', 'No. An uncaused choice is not "free" \u2014 it\u2019s random. A caused choice is determined by the cause. There is no third option. The Autonomy Audit walks through seven concrete scenarios that expose the hidden contradictions in the libertarian position and show that compatibilist freedom (you always choose what you most want, and God governs what you most want) is the only coherent account.'],
-  ],
-  'question-faith-origin-test.html': [
-    ['Where does saving faith come from \u2014 God or me?', 'Scripture calls faith a gift of God (Ephesians 2:8-9, Philippians 1:29). It is received, not manufactured. If you generated your own faith, then your faith is a work \u2014 and works cannot save. The Faith Origin Test walks you through the logic: either God caused your faith or you activated it. There is no middle ground.'],
-    ['Is believing the gospel a work?', 'Believing is not a work when it is recognized as a gift (Ephesians 2:8-9). But if you claim credit for believing \u2014 if you insist your decision was the decisive factor \u2014 you have turned faith into a work. That is the trap the test exposes.'],
-  ],
   'question-repentance-total-depravity.html': [
     ['Can a person repent without first believing total depravity?', 'No one repents perfectly or understands their depravity completely at conversion. But genuine repentance requires acknowledging that you are a sinner who cannot save yourself. The more deeply you see your depravity, the more deeply you cling to grace. Rejecting total depravity does not prevent initial repentance \u2014 but it does prevent its full fruit.'],
     ['What does total depravity mean for repentance?', 'Total depravity means every faculty of the human person is corrupted by sin \u2014 including the will. A truly repentant heart does not merely feel sorry; it confesses helplessness. Repentance that still believes "I can fix myself if I try harder" is not biblical repentance \u2014 it is works-righteousness in a penitent disguise.'],

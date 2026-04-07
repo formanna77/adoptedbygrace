@@ -6,9 +6,7 @@ const BASE = 'https://adoptedbygrace.net';
 
 // Map of file => [hubName, hubSlug]
 const MAP = {
-  'belief-assessment.html': ['Questions', 'questions'],
   'counter-cs-lewis-free-will.html': ['Demolition', 'demolition-hub'],
-  'debate-free-will.html': ['Comparisons', 'comparisons-hub'],
   'history-every-revival-sovereign-grace.html': ['History', 'history-timeline'],
   'joy-freedom-of-smallness.html': ['Joy of Grace', 'joy-hub'],
   'joy-god-big-enough.html': ['Joy of Grace', 'joy-hub'],
@@ -18,8 +16,6 @@ const MAP = {
   'joy-worship-without-ceiling.html': ['Joy of Grace', 'joy-hub'],
   'philosophy-children-argument.html': ['Philosophy', 'philosophy-hub'],
   'psychology-language-you-already-speak.html': ['Psychology', 'psychology-hub'],
-  'question-autonomy-audit.html': ['Questions', 'questions'],
-  'question-faith-origin-test.html': ['Questions', 'questions'],
   'question-repentance-total-depravity.html': ['Questions', 'questions'],
   'question-visual-theology.html': ['Questions', 'questions'],
   'secular-recovery-total-depravity.html': ['Secular Evidence', 'secular-evidence'],
@@ -29,7 +25,6 @@ const MAP = {
   'start-here-phase3.html': ['Start Here', 'start-here'],
   'start-here-phase4.html': ['Start Here', 'start-here'],
   'start-here-phase5.html': ['Start Here', 'start-here'],
-  'start-here-assessment.html': ['Start Here', 'start-here'],
   'story-cross-examination.html': ['Stories', 'stories'],
   'story-real-conversions.html': ['Stories', 'stories'],
   'systematic-tulip.html': ['Systematic Theology', 'systematic-theology'],

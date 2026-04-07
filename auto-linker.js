@@ -399,7 +399,6 @@ const LINK_MAP = [
     { url: '/philosophy-bootstrap-paradox', keywords: ['bootstrap paradox', 'believe the sky is green', 'can\'t choose to believe'], priority: 6 },
     { url: '/philosophy-children-argument', keywords: ['didn\'t choose to be born', 'argument from childhood'], priority: 5 },
     { url: '/philosophy-godel-incompleteness', keywords: ['Gödel', 'Godelian', 'incompleteness theorem', 'no soul can save itself'], priority: 5 },
-    { url: '/philosophy-gratitude-test', keywords: ['gratitude test', 'your thank you proves'], priority: 5 },
     { url: '/philosophy-gravity-of-grace', keywords: ['gravity of grace', 'never chose to be held'], priority: 5 },
     { url: '/philosophy-immune-system-grace', keywords: ['immune system analogy', 'immune system you never asked for'], priority: 4 },
     { url: '/philosophy-mother-tongue', keywords: ['mother tongue chose you', 'language and sovereignty'], priority: 4 },
@@ -424,7 +423,6 @@ const LINK_MAP = [
     // ── ADDITIONAL COMPARISON PAGES ──
     { url: '/compare-every-decision-point', keywords: ['every decision point', 'Scripture sides with God'], priority: 5 },
     { url: '/compare-grace-reformed-vs-arminian', keywords: ['two versions of grace', 'Reformed vs Arminian grace'], priority: 6 },
-    { url: '/debate-free-will', keywords: ['great debate', 'free will debate', 'does man have free will debate'], priority: 5 },
 
     // ── ADDITIONAL OT PAGES ──
     { url: '/ot-abel-cain', keywords: ['Abel and Cain', 'Cain and Abel', 'Bible\'s first election'], priority: 6 },
@@ -515,7 +513,6 @@ const LINK_MAP = [
 
     // ── QUESTION PAGES (newly added) ──
     { url: '/question-regeneration-precedes-faith', keywords: ['regeneration precedes faith', 'new birth before faith', 'born again before believing'], priority: 8 },
-    { url: '/question-faith-origin-test', keywords: ['faith origin test', 'test where your faith came from', 'origin of your faith'], priority: 5 },
 
     // ── SYSTEMATIC (newly added) ──
     { url: '/systematic-tulip', keywords: ['TULIP', 'five points of Calvinism', 'five points of grace explained'], priority: 7 },
