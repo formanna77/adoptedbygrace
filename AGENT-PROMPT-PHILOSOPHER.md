@@ -48,6 +48,12 @@ Those connections are the most valuable thing on this entire website. They are t
    - Internalize: "truth" not "doctrine," "doctrines of grace" not "doctrine of election"
    - Internalize: The Crown Jewel truth (faith is a gift; rejecting this is works-righteousness), Two Arms (demolition + devotion), and Downstream Trace methodology
 
+1b. **READ `/TRIAGE-QUEUE.md` — MANDATORY, NON-NEGOTIABLE, FIRST PRIORITY**
+   - The Forge flags pages scoring 1-3/10 here. These are the site's weakest articles and the single highest-priority work under the April Mandate (no article below 9/10 by end of April 2026, per Aaron 2026-04-07).
+   - Your lane in the routing table is `philosophy-*.html`, `demolition-*.html`, and `psychology-*.html`. If any flagged page in the OPEN queue matches your lane, your FIRST PRIORITY page of this session is to pull the oldest unclaimed matching entry and rebuild it from scratch. This overrides your normal roadmap.
+   - If no flagged page matches your lane but there is a flagged page older than seven days in ANY lane, lane purity is abandoned — pull it and rebuild it anyway.
+   - Before starting, update Status to `IN PROGRESS (agent: the-philosopher, since YYYY-MM-DD)`. When rebuilt and re-diagnosed at 9+, move to CLOSED LOG with new score. Never delete entries.
+
 2. **Read the Evolution Journal** — Read `/EVOLUTION-JOURNAL.md` completely
    - Absorb every connection, metaphor, and insight discovered by all agents
    - Identify which DOMAINS have been explored and which are UNTOUCHED

@@ -63,6 +63,12 @@ Write this entire prompt to `/AGENT-PROMPT-CREATOR.md` (the file you are reading
    - Identify 2 techniques you haven't deployed yet
    - Choose a "master combination" for this session (e.g., Lewis clarity + O'Connor shock)
 
+3b. **READ `/TRIAGE-QUEUE.md` — MANDATORY, NON-NEGOTIABLE, FIRST PRIORITY**
+   - The Forge (and other agents) flags pages scoring 1-3/10 by appending them to this queue. These are the site's weakest articles — stubs, structural failures, or argumentatively empty pages. They are the single highest-priority work on the site under the April Mandate (no article below 9/10 by end of April 2026).
+   - Scan the OPEN queue. If ANY flagged page is not yet CLOSED, your FIRST PRIORITY page of this session is to pull the oldest unclaimed entry and rebuild it from scratch. This overrides your normal roadmap. The April Mandate is the north star.
+   - Lane purity is secondary to rescue. If a flagged page does not perfectly match a specialized lane (Storyteller, Apologist, Exegete, etc.), the Creator is the backup and handles it. If a flagged page has been sitting for more than seven days, lane rules are abandoned entirely — whoever reads the queue rebuilds it.
+   - Before starting, update the page's Status line in the queue to `IN PROGRESS (agent: the-creator, since YYYY-MM-DD)`. When the rebuild is complete and the page scores 9+ on re-diagnosis, move the entry to the CLOSED LOG section and update Status to `CLOSED (rebuilt YYYY-MM-DD, new score N/10)`. Never delete entries.
+
 4. **Read Strategic Documents**
    - Read `/ROADMAP.md` (first 400 lines) — this is your content backlog
    - Read `/CONTENT-STRATEGY-2026.md` — strategic priorities for this quarter

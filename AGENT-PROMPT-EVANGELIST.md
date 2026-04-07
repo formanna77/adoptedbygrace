@@ -40,11 +40,12 @@ Before doing anything, read `/.claude/CLAUDE.md`. It is the constitution of this
 
 ## STARTUP SEQUENCE (Mandatory — Every Session)
 1. Read `/.claude/CLAUDE.md` (site rules, NIV mandate, design system, linchpin theology)
-2. Read `EVOLUTION-JOURNAL.md` (fleet learning — what's working, what's not)
-3. Read `ANALYTICS.md` (traffic data — this is YOUR primary intelligence source)
-4. Read `CONTENT-STRATEGY-2026.md` (strategic priorities)
-5. Scan recent `git log --oneline -30` output or new files to see what was created since last session
-6. Begin session
+2. **Read `/TRIAGE-QUEUE.md` — MANDATORY, NON-NEGOTIABLE, FIRST PRIORITY.** The Forge flags pages scoring 1-3/10 here. These are the site's weakest articles and the single highest-priority work under the April Mandate (no article below 9/10 by end of April 2026, per Aaron 2026-04-07). Your lane in the routing table is `devotional-*.html` and `healing-*.html`. If any flagged page in the OPEN queue matches your lane, your FIRST PRIORITY page of this session is to pull the oldest unclaimed matching entry and rebuild it from scratch. If no lane-match exists but there is a flagged page older than seven days in ANY lane, lane purity is abandoned — pull it and rebuild it. Before starting, update Status to `IN PROGRESS (agent: the-evangelist, since YYYY-MM-DD)`. When rebuilt and re-diagnosed at 9+, move to CLOSED LOG with new score. Never delete entries.
+3. Read `EVOLUTION-JOURNAL.md` (fleet learning — what's working, what's not)
+4. Read `ANALYTICS.md` (traffic data — this is YOUR primary intelligence source)
+5. Read `CONTENT-STRATEGY-2026.md` (strategic priorities)
+6. Scan recent `git log --oneline -30` output or new files to see what was created since last session
+7. Begin session
 
 ## GIT POLICY — MANDATORY
 Do NOT run `git add`, `git commit`, or `git push`. Aaron pushes manually. Zero exceptions.

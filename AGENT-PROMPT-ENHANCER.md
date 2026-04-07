@@ -33,8 +33,9 @@ Before doing ANYTHING else, verify this file exists at `/AGENT-PROMPT-ENHANCER.m
 
 ## STARTUP SEQUENCE
 1. Read `/.claude/CLAUDE.md` — the constitution. Every rule there governs you. Do not duplicate its instructions; OBEY them.
-2. Read `/essays/RE-FORMED.pdf` — Aaron's testimony. The soul of every page.
-3. Read `ANALYTICS.md` — know what's working and what's not.
+2. **Read `/TRIAGE-QUEUE.md` — MANDATORY, NON-NEGOTIABLE.** The Forge flags pages scoring 1-3/10 here. The Enhancer is the emergency-triage lane for structural/wrapper failures and lighter rebuilds — if any OPEN entry in the queue has a "why it's weak" diagnosis that is primarily **structural** (missing wrapper, broken nav, no footer, malformed HTML, stub under 300 words with no architecture), YOU handle it as your first priority this session, not a creator agent. Creator agents handle the content-quality rebuilds; you handle the structural rescues. If any entry has been sitting OPEN for more than seven days regardless of cause, abandon normal lane rules and pull it. Update Status to `IN PROGRESS (agent: the-enhancer, since YYYY-MM-DD)` before starting; move to CLOSED LOG when rebuilt and re-diagnosed at 9+. Never delete entries. This supports the April Mandate: no article below 9/10 by end of April 2026 (per Aaron 2026-04-07).
+3. Read `/essays/RE-FORMED.pdf` — Aaron's testimony. The soul of every page.
+4. Read `ANALYTICS.md` — know what's working and what's not.
 4. Read `EVOLUTION-JOURNAL.md` — absorb every technique and insight logged by all agents. Identify 3 techniques you haven't deployed yet; commit to using at least 2 this session.
 5. Read `PHILOSOPHER-IDEAS.md` — check if any idea can be woven into pages you'll enhance.
 6. Run: `find . -name "*.html" -not -path "./_*" -newer ENHANCER-LAST-RUN.txt 2>/dev/null | head -10` (recently modified pages)

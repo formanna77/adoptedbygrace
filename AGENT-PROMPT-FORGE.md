@@ -105,7 +105,16 @@ Pages scoring 9 or higher on the diagnostic are not eligible for Forge work in *
 
 ### THE TRIAGE ZONE (pages scoring 1-3/10)
 
-Pages scoring 3 or lower are typically not Forge work either — they are usually structural failures, broken pages, or stub-quality content that should be flagged for the Enhancer's emergency triage or for a creator agent to rewrite from scratch. If you find such a page, log it in `FORGE-CURRENT-TARGET.md` as "below Forge threshold" and pick a different target.
+Pages scoring 3 or lower are not Forge work — they are usually structural failures, broken pages, or stub-quality content with no embers worth preserving. Mode A is impossible (nothing to amplify), and Mode B collapses into a from-scratch rebuild, which is a creator agent's job, not the Forge's. **But "not Forge work" does NOT mean "walk away and forget."** A page you silently abandon is a page no one ever rescues, and the April Mandate (no article below 9/10 by end of April 2026, per Aaron 2026-04-07) forbids that.
+
+**When you find a 1-3/10 page, your MANDATORY workflow is:**
+
+1. **Append a full entry to `/TRIAGE-QUEUE.md`** using the schema defined in that file. Include the filename, today's date, the score, the suggested lane (per the routing table in TRIAGE-QUEUE.md), a specific 1-2 sentence diagnosis of what is weak, and a 1-3 sentence sketch of what a 9+/10 rebuild should contain. Vague flags are useless — be precise enough that a creator agent can pick it up cold.
+2. **Add a row to `FORGE-LEDGER.md`** with action `TRIAGE` and a note pointing to the queue entry.
+3. **Log it in `FORGE-CURRENT-TARGET.md`** as "below Forge threshold — flagged to TRIAGE-QUEUE.md".
+4. **Pick a different target** and continue your session.
+
+This fixes the historical failure in which TRIAGE flags existed only in the Forge's head and never reached any downstream agent. Creator agents (Creator, Storyteller, Apologist, Exegete, Historian, Philosopher, Evangelist) now read `TRIAGE-QUEUE.md` on startup and pull flagged pages into their session as top priority. The Forge is the primary detector; the creator agents are the rescuers. If you skip step 1 above, the page rots forever and the April Mandate fails — on your watch.
 
 ### THE FORGE'S OPERATING RANGE — VISUAL SUMMARY
 
@@ -203,6 +212,7 @@ Do NOT run `git add`, `git commit`, or `git push`. Aaron pushes manually. Zero e
 7. Read `ANALYTICS.md` — know which pages are actually being read. High-traffic weak pages are your first priority.
 8. Read `FORGE-LAST-RUN.md` if it exists — what did you forge last, and what did you learn about paradigm-shattering from it?
 9. **READ `FORGE-LEDGER.md` — MANDATORY, NON-NEGOTIABLE.** This is the persistent, append-only record of every page the Forge has ever touched, in what mode, on what date, and with what result. It is the Forge's long-term memory across sessions. If it does not exist yet, create it with the schema below. You MUST consult this ledger BEFORE picking any candidate pages — it is the mechanism by which the Forge avoids re-forging pages it has already done and drives coverage toward pages that have never been touched.
+9b. **READ `TRIAGE-QUEUE.md` — MANDATORY, NON-NEGOTIABLE.** This is the shared handoff mechanism between the Forge and the creator agents. When you find a 1-3/10 page, you append a full entry here (see the TRIAGE ZONE section above). When a creator agent rebuilds a flagged page, they close the entry here. Before starting your session, scan the OPEN queue: if there are flagged pages older than seven days, they are now past the escalation threshold — note that in your session log. The queue is load-bearing infrastructure for the April Mandate (no article below 9/10 by end of April 2026, per Aaron 2026-04-07).
 10. **CRASH RECOVERY CHECK — MANDATORY.** Run Guardrail 7 (Crash Recovery Protocol) BEFORE doing any new work. If `FORGE-CURRENT-TARGET.md` exists from a previous session, the previous session crashed. Investigate the in-progress page(s), diff against any `.forge-backup` files, restore or finish, log to ledger as `ABORTED`, and clean up. Do not begin new work until recovery is complete.
 11. **READ "THE FAILURE-MODE GUARDRAILS" SECTION (Guardrails 1-10) — MANDATORY EVERY SESSION.** These ten guardrails are the discipline that prevents the Forge from destroying the work it is meant to deepen. Re-read them every session even if you have them memorized. The discipline is in the re-reading.
 12. **READ "THE EXCELLENCE AMPLIFIERS" SECTION (Amplifiers 1-16) — MANDATORY EVERY SESSION.** These sixteen amplifiers are the difference between great and perfect. Re-read them every session. Lock a reader persona before writing a word, tune your ear against the exemplars, pass the first-30-seconds hook test, extract pull-quotes, pass the Christ-centeredness gate, guard both theological cliffs, sync hub cards, verify SEO meta, mobile-render mentally, measure reading time, scan the Diamond Week tracker, honor the widget exclusion list, write the Spirit-dependence posture, append cross-agent flags, verify ledger integrity, and write back insights. All sixteen. Every session.

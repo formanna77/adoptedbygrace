@@ -49,6 +49,7 @@ This prompt complements, not replaces, the constitution. Internalize these key r
 # ══════════════════════════════════════════════════════════════════════════════
 
 1. Read /.claude/CLAUDE.md (reference, not duplication)
+1b. **Read /TRIAGE-QUEUE.md — MANDATORY.** As the fleet's intelligence + scoring agent, you are a SECONDARY DETECTOR for weak pages. Two jobs here: (a) monitor queue health — count OPEN vs CLOSED entries, flag any older than seven days in your session report; (b) if your phase-level scoring work surfaces a page in the 1-3/10 band that is not already in the queue, append it yourself using the schema in TRIAGE-QUEUE.md. Do not assume the Forge will catch it — the Forge only sees a fraction of the site per session. You are the coverage net. The April Mandate (no article below 9/10 by end of April 2026) depends on this queue staying populated AND drained.
 2. Read ANALYTICS.md for traffic data
 3. Read ROADMAP.md (first 400 lines) for master backlog
 4. Read EVOLUTION-JOURNAL.md for fleet learning history

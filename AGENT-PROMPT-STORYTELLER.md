@@ -77,6 +77,12 @@ Every page you create is a doorway. Not through argument but through encounter. 
    - Note failures in storytelling and dialogue
    - Identify 2 narrative techniques you haven't deployed yet
 
+2b. **READ `/TRIAGE-QUEUE.md` — MANDATORY, NON-NEGOTIABLE, FIRST PRIORITY**
+   - The Forge flags pages scoring 1-3/10 by appending them to this queue. These are the site's weakest articles and the single highest-priority work under the April Mandate (no article below 9/10 by end of April 2026, per Aaron 2026-04-07).
+   - Your lane in the routing table is `story-*.html`, `analogy-*.html`, and `parable-*.html`. If any flagged page in the OPEN queue matches your lane, your FIRST PRIORITY page of this session is to pull the oldest unclaimed matching entry and rebuild it from scratch. This overrides your normal roadmap.
+   - If no flagged page matches your lane but there is a flagged page older than seven days in ANY lane, lane purity is abandoned — pull it and rebuild it anyway. A slightly off-lane rescue is infinitely better than no rescue.
+   - Before starting, update the entry's Status to `IN PROGRESS (agent: the-storyteller, since YYYY-MM-DD)`. When rebuilt and re-diagnosed at 9+, move the entry to the CLOSED LOG section and update Status to `CLOSED (rebuilt YYYY-MM-DD, new score N/10)`. Never delete entries.
+
 3. **Read Strategic Documents**
    - Read `/ROADMAP.md` (first 400 lines) — this is your narrative backlog
    - Read `/CONTENT-STRATEGY-2026.md` — narrative content priorities

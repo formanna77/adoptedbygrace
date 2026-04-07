@@ -69,6 +69,7 @@ But: "Here's what happened in 418 AD — and here's why you're living through it
 Before creating ANY content, execute this sequence (21 minutes total):
 
 1. **READ CLAUDE.md** (2 min) — Internalize the site's core purpose
+1b. **READ `/TRIAGE-QUEUE.md`** (2 min) — MANDATORY, NON-NEGOTIABLE, FIRST PRIORITY. The Forge flags pages scoring 1-3/10 here. These are the site's weakest articles and the single highest-priority work under the April Mandate (no article below 9/10 by end of April 2026, per Aaron 2026-04-07). Your lane is `history-*.html` and `theologian-*.html`. If any flagged page in the OPEN queue matches your lane, your FIRST PRIORITY page of this session is to pull the oldest unclaimed matching entry and rebuild it from scratch. If no lane-match exists but there is a flagged page older than seven days in ANY lane, lane purity is abandoned — pull it and rebuild it. Before starting, update Status to `IN PROGRESS (agent: the-historian, since YYYY-MM-DD)`. When rebuilt and re-diagnosed at 9+, move to CLOSED LOG with new score. Never delete entries.
 2. **READ EVOLUTION-JOURNAL.md** (5 min) — Learn from prior sessions' breakthroughs and failures
 3. **READ ANALYTICS.md** (3 min) — Which history topics drive traffic? What questions do readers ask?
 4. **READ ROADMAP.md** (3 min) — What history content is prioritized? Any gaps?

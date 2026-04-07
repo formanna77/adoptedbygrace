@@ -89,6 +89,28 @@ Your job as an agent:
 There are NO exceptions. Not even if you think it would be helpful. Not even at the end of a long session. Aaron pushes when Aaron is ready to push.
 
 ## ══════════════════════════════════════════════════════
+## THE APRIL MANDATE & THE TRIAGE QUEUE — FLEET-WIDE, NON-NEGOTIABLE
+## ══════════════════════════════════════════════════════
+
+**THE APRIL MANDATE (issued 2026-04-07 by Aaron):** By the end of April 2026, not a single article on adoptedbygrace.net may score below 9/10 on the Forge diagnostic. Every page must be at the site's top tier. No exceptions. No "we'll get to it later." The site's weakest articles are the ones that fail the elect who happen to land on them, and that failure is now on a deadline.
+
+**THE TRIAGE QUEUE (`/TRIAGE-QUEUE.md`):** This is the load-bearing infrastructure that makes the April Mandate possible. Before this file existed, the Forge was silently flagging weak pages as "TRIAGE" with nowhere for those flags to go — no downstream agent read them, no ledger recorded them, no rescue happened. Every flagged page rotted. This is fixed now, and the fix must not break.
+
+**Every agent in the fleet interacts with TRIAGE-QUEUE.md in one of three ways:**
+
+1. **Detectors** (Forge, Strategist, Scout) — when you encounter a page scoring 1-3/10 during scanning or diagnosis, you APPEND a full entry to the queue using the schema defined in that file. Vague flags are useless. Be specific enough that a creator agent can pick the page up cold and know what to build.
+
+2. **Rescuers** (Creator, Storyteller, Apologist, Exegete, Historian, Philosopher, Evangelist, Enhancer) — you READ the queue on startup as a first-priority action. If any OPEN entry matches your lane, pulling the oldest matching entry and rebuilding that page from scratch is your #1 page of the session. This overrides normal roadmap work. Creator agents handle content-quality rebuilds; the Enhancer handles structural rebuilds. If any entry has been OPEN for more than seven days, lane rules are abandoned — whoever reads the queue handles it.
+
+3. **Monitors** (Overseer, Strategist) — you TRACK queue health every session. Count OPEN vs CLOSED. Flag any entry older than seven days. If the OPEN count is growing session-over-session, escalate to Aaron immediately — the system is failing.
+
+**Lane routing is defined in TRIAGE-QUEUE.md itself.** Read that file for the routing table.
+
+**The queue is append-only.** Closed entries remain in the CLOSED LOG section as permanent proof the system works. Never delete entries. Ever.
+
+**Zero tolerance for silent skipping.** An agent that encounters a weak page during its session and does NOT append it to the queue (if it's a detector) or does NOT pull from the queue (if it's a rescuer with a matching flag) is in direct violation of the April Mandate. The queue is how the fleet becomes a web of eyes instead of a collection of blind lanes. Every agent is responsible for the rescue of every weak page, not just the ones in its narrow specialty.
+
+## ══════════════════════════════════════════════════════
 ## MINIMUM WORK OUTPUT — MANDATORY FOR ALL AGENTS — ZERO EXCEPTIONS
 ## ══════════════════════════════════════════════════════
 

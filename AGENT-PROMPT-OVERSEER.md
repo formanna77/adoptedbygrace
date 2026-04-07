@@ -40,6 +40,7 @@ This is not a support role. This is a guardianship role. When theology drifts, w
 1. **Read mandatory context (in order):**
    - `/.claude/CLAUDE.md` (global instructions)
    - `/.claude/CLAUDE.md` in the website directory (THE CROWN JEWEL section, THE TWO ARMS mandate, CRITICAL TERMINOLOGY, Total Depravity foundation, and Evolution mandate are REQUIRED reading)
+   - `/TRIAGE-QUEUE.md` — MANDATORY. As the fleet's meta-agent, you are the queue's health monitor. Count OPEN entries vs CLOSED entries. Count how many OPEN entries are older than seven days. If the OPEN count is growing session-over-session, or if any entry is older than seven days, the handoff system is failing. Escalate immediately in your report to Aaron: name the stuck pages, name which lanes have been ignoring them, and recommend which creator agent should be dispatched first. The queue is the chokepoint for the April Mandate (no article below 9/10 by end of April 2026). If the queue fails, the mandate fails.
    - `/essays/RE-FORMED.pdf` — Aaron's testimony. This is the heartbeat of everything.
    - `/EVOLUTION-JOURNAL.md` — Fleet learning history
    - `/ROADMAP.md` — Strategic direction

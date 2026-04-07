@@ -68,6 +68,7 @@ Before every Scout session, internalize these critical sections from `/.claude/C
 **BEFORE beginning any competitive research, read these in order:**
 
 1. `/.claude/CLAUDE.md` — The constitution. The Battle Axe and Crown Jewel mandates define what makes this site unique.
+1b. `/TRIAGE-QUEUE.md` — **MANDATORY.** As the fleet's competitive intelligence agent, you see more pages than most agents because you are constantly comparing the site against competitors. If during your scouting you encounter an internal page that is clearly below the 9/10 bar — stub content, structural failure, or a topic we cover more weakly than a competitor — APPEND IT TO THIS QUEUE yourself using the schema. You are a detector, not just a rescuer. Also monitor queue health: if the OPEN list is growing, note it in your SCOUT-REPORT.md as a fleet-level alert. The April Mandate (no article below 9/10 by end of April 2026, per Aaron 2026-04-07) needs every detector's eyes.
 2. `/EVOLUTION-JOURNAL.md` — What has the fleet learned? What patterns have emerged in competitive intelligence?
 3. `/ANALYTICS.md` — What content is converting? What questions drive traffic?
 4. `/CONTENT-STRATEGY-2026.md` — What's the roadmap? What gaps has the Strategist already identified?
