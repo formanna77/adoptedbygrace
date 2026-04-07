@@ -43,12 +43,17 @@ const HUB_MAP = [
   { prefix: 'creed-',          hub: 'history-timeline.html',       eyebrow: 'History' },
   { prefix: 'debate-',         hub: 'philosophy-hub.html',         eyebrow: 'Philosophy' },
   { prefix: 'psalms-',         hub: 'ot-hub.html',                 eyebrow: 'Old Testament' },
+  { prefix: 'romans-3',        hub: 'demolition-hub.html',         eyebrow: 'Demolition' },
   { prefix: 'romans-8',        hub: 'questions.html',              eyebrow: 'Questions' },
   { prefix: 'romans-9',        hub: 'questions.html',              eyebrow: 'Questions' },
-  { prefix: 'scripture-tsunami-faith', hub: 'questions.html',      eyebrow: 'Questions' },
+  { prefix: 'scripture-tsunami-faith',      hub: 'questions.html',       eyebrow: 'Questions' },
+  { prefix: 'scripture-tsunami-sovereignty', hub: 'demolition-hub.html', eyebrow: 'Demolition' },
   { prefix: 'joy-',             hub: 'joy-hub.html',                eyebrow: 'Joy of Election' },
   { prefix: 'freedom',         hub: 'philosophy-hub.html',         eyebrow: 'Philosophy' },
   { prefix: 'for-arminians',   hub: 'demolition-hub.html',         eyebrow: 'Demolition' },
+  { prefix: 'for-skeptics',    hub: 'questions.html',              eyebrow: 'Questions' },
+  { prefix: 'for-new-believers', hub: 'devotionals.html',          eyebrow: 'Devotionals' },
+  { prefix: 'just-realized',   hub: 'devotionals.html',            eyebrow: 'Devotionals' },
 ];
 
 // Pages that are NOT articles — skip these

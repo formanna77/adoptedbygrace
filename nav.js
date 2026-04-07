@@ -30,6 +30,22 @@
                         { name: 'What Does the Bible Actually Teach? — Phase 3', href: '/start-here-phase3', desc: 'Phase 3: What does the Bible actually teach about salvation? A passage-by-passage journey through Romans 9, Ephesians 1,' },
                         { name: 'What Is Reformed Theology? — Phase 1', href: '/start-here-phase1', desc: 'Phase 1: What is biblical theology? An honest, accessible introduction to what Reformed Christians believe about God, sa' }
                     ]
+                },
+                {
+                    name: 'Doorways for You',
+                    icon: '🚪',
+                    href: '/start-here',
+                    count: 8,
+                    pages: [
+                        { name: 'For Pastors: Preaching Sovereign Grace Without Splitting Your Church', href: '/for-pastors', desc: 'How to faithfully preach the doctrines of grace to your congregation. Practical guidance for pastors navigating election' },
+                        { name: 'For the Person Who Just Realized', href: '/just-realized', desc: 'You' },
+                        { name: 'The Truth Will Set You Free', href: '/freedom', desc: 'God' },
+                        { name: 'You Came Here Hunting for Intellectual Honesty', href: '/for-skeptics', desc: 'You don' },
+                        { name: 'You Deconstructed Everything — Here\'s What\'s Left', href: '/for-deconstructed', desc: 'You tore it all down. The certainty. The structure. The God you thought you knew. But something survived. Something you ' },
+                        { name: 'You Just Heard About Election and It Broke Your Brain', href: '/for-new-believers', desc: 'Someone told you God chooses who gets saved and your world tilted. That' },
+                        { name: 'You Love Jesus. You\'re Just Missing Something.', href: '/for-arminians', desc: 'You were taught that your decision saved you. But what if the Bible says something different — something better? A gentl' },
+                        { name: 'Your World Is Burning. God Isn\'t.', href: '/for-hurting', desc: 'You don' }
+                    ]
                 }
             ]
         },
@@ -201,14 +217,14 @@
                 {
                     name: 'Old Testament',
                     icon: '📚',
-                    href: '/ot-election',
+                    href: '/ot-hub',
                     count: 14,
                     pages: [
                         { name: '"Not Because You Were More" — Why God Chose Israel', href: '/ot-israel-chosen', desc: 'Deuteronomy 7:6-8 destroys the merit argument in four words:' },
                         { name: '"You Meant It for Evil, but God Meant It for Good" — Joseph and Sovereignty', href: '/ot-joseph', desc: 'Sold into slavery by his brothers. Falsely imprisoned. Forgotten. And every moment was part of God' },
                         { name: 'Abraham & Election', href: '/ot-abraham', desc: 'God' },
                         { name: 'David: God\'s Sovereign Election for Kingship', href: '/ot-david', desc: 'God' },
-                        { name: 'God\'s Sovereignty in the Old Testament — From Abel to the Prophets', href: '/ot-hub', desc: 'Election didn' },
+                        { name: 'Election Didn\'t Start in the New Testament — The Old Testament Proves It', href: '/ot-election', desc: 'Before Paul ever wrote Romans 9, the Old Testament was already saturated with sovereign election. From Abraham to David ' },
                         { name: 'Isaiah: The Servant & God\'s Immutable Counsel', href: '/ot-isaiah-servant', desc: 'Isaiah reveals God' },
                         { name: 'Jacob Over Esau: God\'s Sovereign Election Before Birth', href: '/ot-jacob-esau', desc: 'Jacob and Esau: God' },
                         { name: 'Jeremiah: Called Before Formation — "Before I Formed You I Knew You"', href: '/ot-jeremiah', desc: 'Deep exegesis of Jeremiah 1:5 — God knew, consecrated, and appointed Jeremiah before he was formed. Hebrew word study, s' },
@@ -218,6 +234,19 @@
                         { name: 'The Prophet Who Tried to Outrun God — And What Happened Next', href: '/ot-jonah', desc: 'Jonah ran from God' },
                         { name: 'The Remnant — How God Has Always Preserved His Chosen Few', href: '/ot-prophets-remnant', desc: 'Jeremiah, Ezekiel, Hosea, Amos, Malachi — every prophet confirms it: God preserves a chosen remnant through judgment. Sa' },
                         { name: 'When God Answered Suffering with Sovereignty — Not Explanation', href: '/ot-job', desc: 'Job lost everything and demanded an answer. God gave him one — but not the one he wanted. God' }
+                    ]
+                },
+                {
+                    name: 'Scripture Deep Dives',
+                    icon: '🔎',
+                    href: '/verse-explorer',
+                    count: 5,
+                    pages: [
+                        { name: 'Every Bible Verse That Teaches Faith Is a Gift from God — Scripture Tsunami', href: '/scripture-tsunami-faith-as-gift', desc: '40+ Bible verses proving faith is a gift of God, not a human achievement. From Genesis to Revelation, Scripture is unani' },
+                        { name: 'Every Verse Teaching God\'s Sovereignty Over Salvation — Scripture Tsunami', href: '/scripture-tsunami-sovereignty', desc: '60+ verses from Genesis to Revelation proving that salvation is entirely God' },
+                        { name: 'Romans 3:10-18 — The Indictment Nobody Escapes', href: '/romans-3-10-18', desc: 'Romans 3:10-18 is the Bible' },
+                        { name: 'Romans 8:28-39: The Chain No One Can Break', href: '/romans-8-28-39', desc: 'Verse-by-verse walkthrough of Romans 8:28-39: the Golden Chain of Redemption. Discover how Paul builds an unbreakable ar' },
+                        { name: 'Romans 9:1-24: The Potter and the Clay — God\'s Sovereign Right to Choose', href: '/romans-9-1-24', desc: 'Verse-by-verse walkthrough of Romans 9:1-24. Paul' }
                     ]
                 },
                 {

@@ -21,9 +21,11 @@ const SKIP = new Set([
   'index.html', 'index-old.html', 'index-new.html',
   'google0af1fbedb3c930a8.html',
   'donate.html', 'contact.html', 'privacy.html', 'terms.html',
-  'about.html', 'freedom.html', 'belief-assessment.html', 'quiz.html',
-  'explore-map.html',
-  'best-reads.html', 'verse-explorer.html',
+  'about.html', 'belief-assessment.html', 'quiz.html',
+  'explore-map.html', 'sitemap.html', 'topics.html',
+  'all-content.html', 'best-reads.html', 'verse-explorer.html',
+  // Retired hubs that now redirect
+  'analogies-illustrations.html', 'comparisons-hub.html', 'creeds-confessions.html',
 ]);
 
 // ── UMBRELLA STRUCTURE WITH SUBCATEGORIES (2026-04-04) ──────────────
@@ -45,6 +47,14 @@ const UMBRELLAS = [
         hub: '/start-here',
         prefixes: ['start-here'],
         extraFiles: ['scripture-tsunami.html'],
+      },
+      {
+        key: 'doorways',
+        name: 'Doorways for You',
+        icon: '🚪',
+        hub: '/start-here',
+        prefixes: ['for'],
+        extraFiles: ['just-realized.html', 'freedom.html'],
       },
     ],
   },
@@ -102,9 +112,16 @@ const UMBRELLAS = [
         key: 'ot',
         name: 'Old Testament',
         icon: '📚',
-        hub: '/ot-election',
+        hub: '/ot-hub',
         prefixes: ['ot', 'psalms', 'psalm'],
-        hubFiles: ['ot-election.html'],
+        hubFiles: ['ot-hub.html'],
+      },
+      {
+        key: 'scripture-deep-dives',
+        name: 'Scripture Deep Dives',
+        icon: '🔎',
+        hub: '/verse-explorer',
+        prefixes: ['romans', 'scripture-tsunami'],
       },
       // Creeds merged into History (creeds-confessions.html now redirects to history-timeline)
       {

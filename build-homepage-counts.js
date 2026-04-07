@@ -20,7 +20,7 @@ const INDEX_FILE = path.join(SITE_DIR, 'index.html');
 const SKIP = new Set([
   'index.html', '_nav-template.html', 'search.html', '404.html',
   'about.html', 'contact.html', 'donate.html', 'privacy.html', 'terms.html',
-  'freedom.html', 'sitemap.html', 'all-content.html', 'topics.html',
+  'sitemap.html', 'all-content.html', 'topics.html',
   'belief-assessment.html', 'question-faith-origin-test.html', 'verse-explorer.html',
   'explore-map.html', 'connections.html', 'best-reads.html',
   'google0af1fbedb3c930a8.html',
@@ -38,17 +38,17 @@ const SKIP = new Set([
 
 // Category definitions: each maps a hub href to filename patterns
 const CATEGORIES = [
-  { href: '/questions', patterns: [/^question-/, /^apologetic-/, /^debate-/] },
-  { href: '/demolition-hub', patterns: [/^demolition-/, /^counter-/] },
+  { href: '/questions', patterns: [/^question-/, /^apologetic-/, /^debate-/, /^for-skeptics/, /^for-arminians/] },
+  { href: '/demolition-hub', patterns: [/^demolition-/, /^counter-/, /^romans-3/, /^romans-8/, /^romans-9/] },
   { href: '/psychology-hub', patterns: [/^psychology-/, /^resistance-/] },
   { href: '/systematic-theology', patterns: [/^systematic-/] },
-  { href: '/devotionals', patterns: [/^devotional-/, /^hymn-/] },
+  { href: '/devotionals', patterns: [/^devotional-/, /^hymn-/, /^for-new-believers/, /^for-deconstructed/, /^for-hurting/] },
   { href: '/stories', patterns: [/^story-/, /^analogy-/] },
   { href: '/questions#objections', patterns: [/^objection-/] },
   { href: '/ot-hub', patterns: [/^ot-/, /^psalm-/, /^psalms-/] },
   { href: '/history-timeline', patterns: [/^history-/, /^creed-/, /^canons-/, /^westminster-/, /^heidelberg-/] },
   { href: '/secular-evidence', patterns: [/^secular-/] },
-  { href: '/philosophy-hub', patterns: [/^philosophy-/] },
+  { href: '/philosophy-hub', patterns: [/^philosophy-/, /^freedom/] },
   { href: '/theologians', patterns: [/^theologian-/] },
   // Analogies merged into /stories — { href: '/analogies-illustrations' } is retired
   { href: '/comparisons-hub', patterns: [/^compare-/, /^comparison-/] },
