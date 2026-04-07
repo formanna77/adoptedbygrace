@@ -58,37 +58,27 @@ function processHub(file) {
   );
   html = html.replace(blockRe, '\n    ');
 
-  // 2) Find the end of the hub-hero element. Could be <header class="hub-hero">
-  //    or <section class="hub-hero">. Walk forward to find its matching close tag.
-  const heroOpenMatch = html.match(/<(header|section)([^>]*?)class="hub-hero"([^>]*?)>/);
-  if (!heroOpenMatch) return { file, status: 'no-hub-hero' };
-  const heroTag = heroOpenMatch[1]; // 'header' or 'section'
-  const heroOpenIdx = heroOpenMatch.index;
-
-  // Find matching close tag — track nesting
-  const openRe = new RegExp(`<${heroTag}\\b`, 'g');
-  const closeRe = new RegExp(`</${heroTag}>`, 'g');
-  openRe.lastIndex = heroOpenIdx + heroOpenMatch[0].length;
-  let depth = 1;
-  let heroEnd = -1;
-  while (depth > 0) {
-    closeRe.lastIndex = openRe.lastIndex;
-    const closeM = closeRe.exec(html);
-    if (!closeM) break;
-    // Are there any opens between current pos and this close?
-    const segment = html.slice(openRe.lastIndex, closeM.index);
-    const opensInBetween = (segment.match(openRe) || []).length;
-    depth += opensInBetween - 1;
-    openRe.lastIndex = closeM.index + closeM[0].length;
-    if (depth === 0) {
-      heroEnd = closeM.index + closeM[0].length;
-      break;
-    }
+  // 2) Find insertion point: just BEFORE <div class="hub-container">.
+  //    This is the boundary between the visual hero block (which may include
+  //    hero-quote, hero-stats, hub-intro elements that appear OUTSIDE the
+  //    <header>/<section> tag) and the actual content body.
+  //    Falling back to "right after the hub-hero close" splits the visual
+  //    hero in half on pages where these auxiliary elements live outside.
+  const containerMatch = html.match(/<div\s+class="hub-container"[^>]*>/);
+  if (!containerMatch) {
+    // Fallback: try to find the hub-hero close as before
+    const heroOpenMatch = html.match(/<(header|section)([^>]*?)class="hub-hero"([^>]*?)>/);
+    if (!heroOpenMatch) return { file, status: 'no-insert-point' };
+    const heroTag = heroOpenMatch[1];
+    const closeIdx = html.indexOf(`</${heroTag}>`, heroOpenMatch.index);
+    if (closeIdx === -1) return { file, status: 'no-hero-close' };
+    var insertIdx = closeIdx + `</${heroTag}>`.length;
+  } else {
+    var insertIdx = containerMatch.index;
   }
-  if (heroEnd === -1) return { file, status: 'no-hero-close' };
 
-  const before = html.slice(0, heroEnd);
-  let body = html.slice(heroEnd);
+  const before = html.slice(0, insertIdx);
+  let body = html.slice(insertIdx);
 
   const headings = [];
   const h2Re = /<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/g;
