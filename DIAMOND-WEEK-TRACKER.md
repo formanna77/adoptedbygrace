@@ -425,3 +425,9 @@ If you see a problem outside your lane while working on a page, log it here inst
 | Pages with polished meta | 291 | 292 |
 
 **If we hit these targets, the site transforms from 292 isolated articles into an inescapable web of interconnected truth. That is the metamorphosis.**
+
+Apr 6 | Enhancer | philosophy-sleep-surrender.html | CONTENT | Inserted new interlude section "But I'm Awake Right Now. Doesn't That Prove I Did Something?" between sections 04 and 05 — humor-at-the-bottom-of-the-stairs connection + devastating question + pull-quote + blockquote + 5 cross-category links (~1100 words). Lane-clean: no openings/closings touched, no meta/title changes.
+Apr 6 | Enhancer | question-cannot.html | CONTENT | Inserted new conclusion section "Eleven Locked Doors and One Key" before existing "Devastating Simplicity" — prison-guard Brilliant Connection + pull-quote + blockquote + 8 cross-category links (~900 words). Lane-clean.
+Apr 6 | Enhancer | open-wound-senseless-death.html | CONTENT | Inserted new tender-pastoral section "The One Sentence Sovereignty Says Tonight" with "I need a witness" vignette + subsection "The Hardest Comfort, and the Only Real One" + pull-quote ("The opposite of random is not fair. The opposite of random is held.") + 6 cross-category links (~950 words). Healing-tone preserved.
+
+FLAG for Guardian: open-wound-senseless-death.html line ~275 has a stray `/a>` orphan fragment in the HTML structure — needs structural cleanup (outside Enhancer's lane).
