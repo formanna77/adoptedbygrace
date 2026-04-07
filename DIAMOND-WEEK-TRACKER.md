@@ -70,6 +70,10 @@ This prevents duplicate work and lets other agents see what's been touched.
 | Date | Agent | Page | Lane | What Was Done |
 |------|-------|------|------|---------------|
 | — | — | Diamond Week begins | — | System initialized |
+| Apr 6 | Enhancer | objection-why-command.html | CONTENT | Added "The GPS You Already Trust" section — Brilliant Connection: GPS parable for compatibilism, blockquote pull-quote, pastoral humor, links to philosophy-problem-of-merit + demolition-philippians2-12-13. ~450 words. |
+| Apr 6 | Enhancer | secular-sociology-human-inability.html | CONTENT | Added "The Lake Wobegon Effect: Everyone Is Above Average" section — Svenson 93% above-average drivers, Dunning-Kruger 1999, Zell/Sedikides 2020 meta of 291 studies. Devastating question + blockquote pull-quote. 6 internal links. ~600 words. |
+| Apr 6 | Enhancer | compare-calvinism-arminianism.html | CONTENT | Added "Where Did Your Faith Come From?" Crown Jewel bridge section between Total Depravity and Unconditional Election. Two-answer fork, blockquote, 8 internal links, pastoral landing for Arminian readers. ~850 words. |
+| Apr 6 | Enhancer | creed-canons-dort.html | CONTENT | Added "The Courtroom at Dordrecht — and the One in Your Chest" section. Historical scene-setting, verdict metaphor, Remonstrant-as-answer-document insight, pastoral Calvinist humility note, 4 new internal links. ~750 words. |
 | Apr 5 | Dramaturg | demolition-2cor5-14-15.html | EMOTION | Opening rewritten from academic → visceral. Stop-and-feel at argument peak. Closing + whisper landing. |
 | Apr 5 | Dramaturg | objection-fairness.html | EMOTION | Opening → specific scene (across table from loved one). Closing hammer blow added. |
 | Apr 5 | Dramaturg | psychology-system-justification.html | EMOTION | Body-before-brain opening. Visceral language in peak. Haunting question after self-referential trap. |

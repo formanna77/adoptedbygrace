@@ -77,37 +77,60 @@
     </div>
 
     <main>
-        <section class="hub-hero">
+        <header class="hub-hero">
             <h1>Every Truth Connects to Every Other Truth</h1>
-            <p class="hub-intro">One truth of grace touches every aspect of life. Explore how <strong>election, predestination, sovereignty, and redemption</strong> weave together across Scripture. Each article is a thread in the tapestry of God's character.</p>
-        </section>
-
-        <div class="loading" id="loadingState">Loading topics...</div>
-        <div class="topics-container" id="topicsContainer"></div>
-    </main>
-
-    
-    <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
-        <h3 style="color: var(--accent-gold); margin-bottom: 2rem;">Continue the Journey</h3>
-        <div class="hub-grid">
-        <a href="/question-where-did-your-faith-come-from" class="hub-card">
-            <div class="card-number">01</div>
-            <h4 class="card-title">Where Did Your Faith Come From?</h4>
-            <p class="card-description">The question that changes everything.</p>
-            <div class="card-footer">
-                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            <p class="hub-subtitle">One truth of grace touches every corner of Scripture. Pull any thread — <strong>election, depravity, sovereignty, atonement, redemption</strong> — and the whole tapestry moves.</p>
+            <div class="hub-stats">
+                <div class="hub-stat">30 <span>Topics</span></div>
+                <div class="hub-stat">229 <span>Articles</span></div>
+                <div class="hub-stat">∞ <span>Connections</span></div>
             </div>
-        </a>
-        <a href="/devotional-the-hands-that-hold-you" class="hub-card">
-            <div class="card-number">02</div>
-            <h4 class="card-title">The Hands That Hold You</h4>
-            <p class="card-description">You are held. That is the truth beneath every truth.</p>
-            <div class="card-footer">
-                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            <div class="hub-hero-quote">
+                "In the beginning was the Word, and the Word was with God, and the Word was God." — John 1:1
             </div>
-        </a>
+        </header>
+
+        <div class="hub-intro">
+            <p>Every doctrine is a door. Open one, and you find it opens into all the others. Click a topic below to see every article that pulls on that thread — and watch the web of grace come into focus.</p>
         </div>
-    </div>
+
+        <div class="loading" id="loadingState">Loading topics…</div>
+        <div class="topics-container" id="topicsContainer"></div>
+
+        <section class="hub-container" style="margin-top: 5rem;">
+            <h2 class="hub-section-title">Continue the Journey</h2>
+            <p class="hub-section-subtitle">If you don't know where to begin, begin here.</p>
+            <div class="hub-grid">
+                <a href="/question-where-did-your-faith-come-from" class="hub-card hub-card-featured">
+                    <div class="card-number">01</div>
+                    <h3 class="card-title">Where Did Your Faith Come From?</h3>
+                    <p class="card-description">One question. Follow it honestly to the end and the entire architecture of grace comes into view.</p>
+                    <div class="card-scripture">EPHESIANS 2:8–9</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+                <a href="/devotional-the-hands-that-hold-you" class="hub-card">
+                    <div class="card-number">02</div>
+                    <h3 class="card-title">The Hands That Hold You</h3>
+                    <p class="card-description">You are held. That is the truth beneath every truth on this site.</p>
+                    <div class="card-scripture">JOHN 10:28</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+                <a href="/start-here" class="hub-card">
+                    <div class="card-number">03</div>
+                    <h3 class="card-title">Start Here</h3>
+                    <p class="card-description">A guided on-ramp into the doctrines of grace — for the curious, the skeptical, and the searching.</p>
+                    <div class="card-scripture">JOHN 6:44</div>
+                    <div class="card-footer">
+                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="footer-container">
@@ -227,6 +250,8 @@
         function expandCard(card, topic) {
             expandedTopic = topic;
             card.classList.add('expanded');
+            container.classList.add('has-expansion');
+            card.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
             const articlesList = card.querySelector('.articles-list');
             articlesList.innerHTML = '';
@@ -276,6 +301,7 @@
         function collapseCard(card) {
             expandedTopic = null;
             card.classList.remove('expanded');
+            container.classList.remove('has-expansion');
             card.querySelector('.articles-list').innerHTML = '';
         }
 

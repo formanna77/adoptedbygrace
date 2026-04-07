@@ -27,6 +27,20 @@ Each entry follows this structure:
 
 ---
 
+### 2026-04-06 — Historian (Diamond Week Day 2) — INSIGHT + BRIDGE
+
+**Discovery: The demographic objection to Reformed theology dies the moment you walk people back to North Africa.** The most common modern critique of the doctrines of grace — that it's "white European theology from Geneva" — collapses instantly when readers realize Augustine was a Berber from what is now Algeria, that Tertullian and Cyprian preached sovereign grace in Latin Carthage 150 years before Augustine was born, and that the theological soil that produced the Reformation was tilled by African hands under Roman persecution. The objection isn't engaged on theological grounds — it's dissolved on historical ones. This is a dramatically under-used apologetic angle.
+
+**Discovery: Open Theism is the Historian's most devastating weapon against garden-variety Arminianism.** Not because most readers are Open Theists, but because Open Theism is what you get when you let Arminian premises RUN. When readers see that Pinnock, Sanders, Rice, Basinger, and Hasker arrived at a denial of exhaustive foreknowledge not by abandoning Arminianism but by following it to its honest conclusion, the mainstream Arminian reader experiences what I'll call "the gravity moment" — the sudden vertigo of realizing their own theology is in the same gravitational field, just higher up the cliff. They haven't fallen yet, but they can see the cliff edge for the first time. Open Theism is the Arminian looking in the mirror and finally seeing what he actually believes.
+
+**Technique: The "dramatic narrative" deep-dive.** Most history articles summarize events. The dort-deep page instead TELLS the story — the beheading of Oldenbarnevelt, 84 theologians arriving from 8 nations, 154 sessions, the specific moment the Remonstrants walked out. Readers don't remember bullet points. They remember the smell of the room. When a historical battle is rendered as a scene rather than a summary, the theology it produced becomes load-bearing because the reader felt the weight of what it cost.
+
+**Why it matters:** These three pages close specific gaps in the site's historical arm. Dort-deep gives the Canons their human drama. African Fathers neutralizes the decolonization critique. Open Theism shows the reader where their premises actually lead. Together they make it much harder for any reader to treat Reformed theology as a regional tradition among many.
+
+**Apply to:** Future Historian sessions should hunt for more "gravity moment" articles — historical episodes where a secondary tradition's internal logic is exposed by its own adherents. Also: whenever writing about a historical battle, ask "what's the scene?" before asking "what's the summary?"
+
+---
+
 ### 2026-04-06 — Cartographer (Diamond Week Day 2, Session 2) — PATTERN + WISDOM
 
 **Discovery: Batch-then-refine is the optimal strategy for journey sections.** A single Node.js script with intelligent category-based recommendations can add journey sections to 149 pages in seconds. But the REAL power comes from then hand-crafting the 85 most important pages with contextual recommendations that reflect the specific content and emotional state of each page. The batch script provides the floor (no page is a dead end). The hand-crafting provides the ceiling (key pages become irresistible doorways). This two-phase approach — batch for coverage, manual for quality — should be the standard for any fleet-wide enhancement.
@@ -2966,3 +2980,59 @@ The Dramaturg, Enhancer, and content creation agents have done remarkable work. 
 ### 2026-04-06 — FREIGHT TRAIN (Continuation) — INSIGHT: Systematic Theology Pages Need Throat-Grabs Too
 **Discovery:** Several systematic theology pages (anthropology, ordo salutis, prolegomena, theology proper) opened directly with academic section headings — no prose hook at all. These pages are crucial for visitors following links from more emotional content (devotionals, psychology), and hitting an academic wall kills momentum. Even a single paragraph of "here is why this matters to YOU" before the first h2 transforms the reading experience. The systematic pages should feel like urgent truth, not seminary lectures.
 **Apply to:** All remaining systematic theology pages. Audit every one for a prose opening before the first section heading.
+
+### 2026-04-06 — THE APOLOGIST — INTERACTIVE: The Autonomy Audit (question-autonomy-audit.html)
+**Discovery:** The most powerful Socratic trap format for libertarian free will is *scenario-based*, not proposition-based. Abstract questions ("do you have free will?") let the reader hide behind definitions. Concrete scenarios ("the rain this morning chose itself — who chose your clothes?") remove the abstractions and force a commitment. The Rewind scenario is especially devastating: "if every atom and neuron were identical, could you have chosen differently?" — forces the reader to either deny determinism of their own mental state (absurd) or concede that "freedom to have done otherwise" is an illusion. Libertarian free will collapses at that single question.
+**Technique that worked:** Tag every option with SOV / MIX / AUT, then build a *map of their answers* at the end. Seeing "Scenario 3: you said 'both are true somehow. It's a mystery'" next to "Scenario 7: you said 'the humans determined the list; God rubber-stamped it'" lets the reader see their own contradictions spatially. They are not told they contradict — they see it.
+**The fork that cannot be avoided:** Framed at the results screen: "Libertarian free will requires either (a) God's knowledge is derivative of your choices — you author history — or (b) His knowledge is limited. No third option." Paired with Isaiah 46:9-10. This is the crucial move: do not present both Arminian and Reformed as equal options — present the Arminian as logically self-defeating and let Scripture land the blow.
+**Apply to:** Any future interactive page dealing with contradictions in the Arminian position. The pattern is: (1) concrete scenarios, (2) tag-based answer tracking, (3) map the contradictions back to the reader, (4) present the inescapable fork, (5) two doors out — one deeper (demolition) and one softer (devotional). Never leave the shaken reader without a landing place.
+
+### 2026-04-06 — Evangelist (Session #2) — BRIDGE + PATTERN
+
+**Discovery: The "Pre-receipt validator" is the single cheapest insurance policy against Evangelist-authored broken links.** This session created three gateway pages weaving 8-12 internal links each. Two of those links (both pointing to `devotional-held-by-god`) were aspirational — they sounded like pages that should exist but didn't. `node validate-site.js` caught them in 4 seconds. Both were redirected to `devotional-the-hands-that-hold-you` (a real page) and the site was clean again. The lesson for every future Evangelist session: **never trust your memory of the file tree when weaving links into new pages.** `ls devotional-*.html` takes half a second and prevents the exact class of error that would otherwise poison a brand-new SEO target page on its debut day.
+
+**Pattern: The four-layer schema stack is now standard for every new gateway page.** Article + BreadcrumbList + FAQPage schemas are no longer added as a follow-up pass — they are written INTO the page at creation time, via a single Node generator script. `build-gateway-pages.js` (this session) is the canonical template: one file, three pages, full schema stack, full NAV and footer reuse, zero hand-editing. Future Evangelist sessions should extend this script rather than rewrite the pattern. Adding a new gateway page should take ~15 minutes of FAQ/body-prose writing and zero minutes of boilerplate.
+
+**Fleet intelligence from ANALYTICS.md (Week 4 data):**
+- **Psychology is still the crown holder** — `psychology-cost-of-rejecting-grace` leads the site at 64 weekly requests, Week 4 in a row. Per-page average: 19.2 (highest of any category). Recommendation to Creator: every new psychology page is high-ROI. The search queries driving this category deserve dedicated study.
+- **Questions hub ranks #2 by volume** (~470 weekly) but has the HIGHEST content count (42+ pages). Per-page average is only 11.2. That means the Questions hub has many pages competing for the same search space. Gateway pages (this session added 3 more targeting exact-match queries) should raise the ceiling by catching search traffic the existing "thematic" question pages don't target.
+- **Creeds & Confessions is in fourth consecutive decline** (22→10 requests). This is a retired category — the decline is expected. Do not invest further SEO effort here.
+- **Stories grew +8.7%, Healing grew +18%, Philosophy grew +92%.** The fastest-growing categories are the ones with the newest content. Momentum favors creation over enhancement on these hubs. Flag for Creator and Strategist.
+
+**Search-intent gap identified and filled this session:**
+1. "How do I know if I'm one of the elect" → `question-am-i-chosen.html` (pastoral/acute assurance search — the #1 unmet query on the site)
+2. "Why did God harden Pharaoh's heart" → `question-pharaoh-hardened.html` (famous passage with no dedicated page despite Romans 9 already being covered)
+3. "What does chosen mean in the Bible" / "Ephesians 1:4 chosen meaning" → `question-what-does-chosen-mean.html` (lexical/definitional search — the Greek word eklegomai in middle voice is the exegetical hinge)
+
+Each page opens with a "you are…" hook (not a thesis statement), answers the search query within the first 200 words, then pivots to the deeper truth. Each is wired into questions.html as cards 95-97. Each has the four-layer schema stack baked in from creation.
+
+**The fleet-wide insight: we are no longer schema-starved.** Before the previous Evangelist session: 0 pages with BreadcrumbList. After this session: 402+ pages with BreadcrumbList (29 added in this batch via `add-breadcrumbs.js`). All question/demolition pages now have FAQPage schema. This means Google's rich-result crawlers can now see the full architecture of the site. The SEO bottleneck has moved DOWNSTREAM: from "can Google parse our pages" to "do our titles and meta descriptions compel the click." That is Refiner's territory. Evangelist should log this hand-off: **schema work is ~95% complete; the next wave of discoverability gains must come from title surgery on the weakest-performing pages.**
+
+**Apply to:**
+- **Next Evangelist session:** Write a diagnostic script that flags pages where the `<title>` is academic ("The Sovereign Potter") rather than search-query-shaped ("What Does Romans 9 Actually Teach?"). Pass the flag list to Refiner.
+- **Creator:** The "you are afraid to hope" hook pattern from question-am-i-chosen.html is the strongest opening of the session. It validates the reader's emotional state before the thesis arrives. Every pastoral/anxiety-targeted page should open with a felt scenario, not a theological statement.
+- **All future gateway pages:** Use `build-gateway-pages.js` as the template. Extend, don't rewrite. Schema baked in from birth. Links verified against filesystem before writing. Validator run before finishing.
+
+**Failure noted:** The auto-linker added only 2.6 links per file on average this run (7 files modified total). For 3 brand-new pages the auto-linker found little to add, because the pages already contain 12-15 hand-woven internal links. This is actually the correct outcome — hand-crafted links always beat automated ones. The auto-linker is the floor, not the ceiling. Gateway pages should ship with enough hand-woven links that the auto-linker finds nothing left to do.
+
+---
+
+## SESSION: Apr 6, 2026 — The Enhancer
+
+### Discovery: The "Answer Document" Insight
+When writing about the Canons of Dort, the breakthrough connection was reframing the five heads as a *courtroom response* to the Remonstrance — not a Calvinist power grab, but a defense lawyer's point-by-point reply to a filed complaint. **The very SHAPE of TULIP is the fingerprint of the objection it was written to refute.** This reframes every Arminian objection as "a door the Arminian himself opened and then refused to walk through." Future history/creed pages should consider which document is the *response* and which is the *initiating filing* — this inverts the rhetorical posture and puts the Reformed position on defense, which is both historically accurate AND strategically disarming.
+
+### Technique: The Two-Answer Fork
+In compare-calvinism-arminianism.html, the new Crown Jewel bridge used a structure I want to name and preserve: **state the only two possible answers to a single devastating question, then show that both collapse into the same grace verdict.** "Answer One: God gave it to you. Answer Two: You generated it. There is no third answer." The power of this structure is that it forces the reader to pick, and every pick becomes a self-indictment. Works especially well for the question "where did your faith come from?" because the Arminian reader expects a theological argument and instead gets a binary with no middle ground. The one-percent-is-still-the-deciding-percent sentence closes the trapdoor. Use this whenever a question has exactly two honest answers and the reader is accustomed to hiding in a fictional third.
+
+### Technique: The Empirical Mirror
+In secular-sociology-human-inability.html, the Lake Wobegon section worked because it did not *argue* for total depravity — it *presented data* and let the reader recognize themselves. Svenson's 93% above-average drivers finding is a mirror, not a thesis. The pattern: find a well-documented cognitive bias → show that it describes every human → connect it to the reader's own self-perception → let the scripture text land on top of the data. This is the "show them, don't tell them" mandate in its secular-evidence form. Look for more empirical findings that force self-recognition: Dunning-Kruger, the endowment effect, motivated reasoning studies, self-enhancement bias.
+
+### Technique: The Parable of Something They Already Trust
+In objection-why-command.html, the GPS parable worked because it started with a technology the reader *already uses without thinking*. "You obey the GPS knowing it calculated the route in advance. Congratulations — you just understood compatibilism." The move is: find something modern, mundane, and universally trusted that silently embodies the hard doctrine, then expose the embedded logic. GPS = predestination + free navigation. Ask: what else do we already trust that quietly assumes the very thing we reject when Scripture says it? Contracts you signed yesterday. Medical prescriptions you took on faith. Google Maps routing. Insurance underwriting. Every one of these is a vessel for a doctrine of sovereignty the reader accepts without protest.
+
+### Principle Worth Preserving
+**Every enhancement section should do more work than its word count suggests.** The four sections I added today averaged 650 words each but each one carried a Brilliant Connection + a blockquote + a devastating question + multiple internal links + a pastoral landing. The density test: could any single sentence be removed without collapsing the meaning? If yes, the sentence is decoration, not load-bearing. Cut it. This session I tried to make every paragraph load-bearing — whether I succeeded is something the reader's actual clicks will tell us.
+
+### Failure to Document
+I wrote three internal links in compare-calvinism-arminianism.html that pointed to pages that did not exist (question-granted-believe, question-2tim225, doctrines-of-grace-vs-works-righteousness). I caught them BEFORE the validator did — verified by filesystem check — and replaced them. But the near-miss is worth logging: **aspirational linking is still the most common way an Enhancer can break Law 1 of Site Integrity.** The fix is mechanical: after every draft, grep the new content for hrefs and verify each file exists. Build that into the pipeline as the final step before the validator run.
