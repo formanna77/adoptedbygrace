@@ -5675,14 +5675,126 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .article-body .section-divider h2 { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.8rem; margin-bottom: 0.5rem; }
 .article-body .section-divider p { color: var(--text-secondary); max-width: 700px; margin: 0 auto; line-height: 1.7; }
 .verse-anchor { scroll-margin-top: 100px; }
-.connection-header { display: flex; justify-content: space-between; align-items: center; padding: 1rem; cursor: pointer; }
-.connection-ref { color: var(--accent-gold); font-family: var(--font-heading); font-size: 1.2rem; }
-.connection-toggle { color: var(--text-muted); transition: transform 0.3s; }
-.connection-body { padding: 0 1rem 1rem; }
-.connection-inner { padding: 1rem; background: rgba(212,162,84,0.05); border-radius: 8px; }
-.connection-insight { color: var(--text-secondary); line-height: 1.7; margin-bottom: 1rem; }
-.connection-implication { margin-bottom: 0.75rem; }
-.connection-implication-label { color: var(--accent-gold); font-weight: 600; font-size: 0.9rem; }
+
+/* Compact accordion grid — override safety-net .connection-card padding */
+.connections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+.connection-card {
+    padding: 0 !important;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--bg-card);
+    border: 1px solid rgba(212, 162, 84, 0.12);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    display: block;
+    height: fit-content;
+}
+.connection-card:hover {
+    border-color: rgba(212, 162, 84, 0.35);
+    box-shadow: 0 4px 20px rgba(212, 162, 84, 0.08);
+}
+.connection-card.open {
+    border-color: rgba(212, 162, 84, 0.4);
+    box-shadow: 0 6px 24px rgba(212, 162, 84, 0.12);
+}
+.connection-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    cursor: pointer;
+    user-select: none;
+}
+.connection-header:hover .connection-toggle { color: var(--accent-gold); }
+.connection-ref {
+    color: var(--accent-gold);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+}
+.connection-title {
+    color: var(--text-primary);
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    line-height: 1.35;
+    font-weight: 600;
+}
+.connection-toggle {
+    color: var(--text-muted);
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1;
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(212, 162, 84, 0.25);
+    border-radius: 50%;
+    transition: transform 0.35s ease, color 0.3s ease, background 0.3s ease;
+}
+.connection-card.open .connection-toggle {
+    transform: rotate(45deg);
+    color: var(--accent-gold);
+    background: rgba(212, 162, 84, 0.08);
+}
+/* Collapsed by default — smooth expand on .open */
+.connection-body {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 1.25rem;
+    transition: max-height 0.5s ease, padding 0.35s ease;
+}
+.connection-card.open .connection-body {
+    max-height: 1200px;
+    padding: 0 1.25rem 1.25rem;
+}
+.connection-inner {
+    padding: 1.1rem 1.2rem;
+    background: rgba(212, 162, 84, 0.04);
+    border-left: 2px solid rgba(212, 162, 84, 0.35);
+    border-radius: 0 8px 8px 0;
+}
+.connection-insight {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+.connection-implication {
+    margin-top: 1rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid rgba(212, 162, 84, 0.12);
+}
+.connection-implication-label {
+    color: var(--accent-gold);
+    font-weight: 600;
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+.connection-implication p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.65;
+    font-style: italic;
+    margin: 0;
+}
+@media (max-width: 640px) {
+    .connections-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+    .connection-header { padding: 0.9rem 1rem; }
+    .connection-title { font-size: 1rem; }
+}
 .logic-number { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; }
 .logic-title { color: var(--text-primary); font-weight: 600; }
 .logic-text { color: var(--text-secondary); }
