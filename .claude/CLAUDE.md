@@ -225,6 +225,18 @@ Diamond Week is an intensive enhancement blitz. Creation is capped; enhancement 
 
 **After Diamond Week (April 13+):** Remove this section and delete DIAMOND-WEEK-TRACKER.md.
 
+## REFORMED SOURCES LIBRARY — MANDATORY FOR ALL CONTENT AGENTS
+**Before writing ANY new page or enhancing existing content, consult `/REFORMED-SOURCES-INDEX.md`.**
+
+This is a master reference index of 114 Reformed theology PDFs in `/Reformed Sources/` — from Augustine (5th century) through modern authors. Every PDF is cataloged by author, era, key topics, and which site categories it feeds. The index includes quick-reference tables organized by site category (demolition, systematic-theology, psychology, devotionals, philosophy, history, pastoral, questions, comparisons), Crown Jewel source connections, and Two Arms (demolition/catch) source pairings.
+
+**How to use it:**
+- **Content creation agents:** Before writing about ANY doctrine, check the index for source material. Writing about total depravity? Read Pink, Charnock, and Dyke. Writing about election? Read Zanchius, Leigh, and Boettner. **Quote these sources. Cite them.** Let the reader know they stand in a 2,000-year tradition.
+- **Enhancement agents:** When enhancing a page, check if a relevant source could strengthen the argument with a historical quote or citation.
+- **All agents:** The PDFs are readable at `/Reformed Sources/[filename].pdf`. Read the actual text when you need precise quotes or arguments.
+
+This library is a weapon. Use it.
+
 ## SEARCH INDEX, MEGA-MENU, HOMEPAGE COUNTER & AUTO-LINKER REBUILD — MANDATORY FOR ALL CONTENT AGENTS
 **After creating or modifying HTML pages, you MUST run ALL FIVE of these before finishing:**
 

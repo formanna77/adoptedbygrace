@@ -2,7 +2,7 @@
 
 > **Purpose:** This file is the living brain of the website's development. Every scheduled session reads this file FIRST, does its work, then updates this file LAST. Nothing gets lost between sessions.
 
-> **Mission:** Make adoptedbygrace.net the most powerful resource on earth for proving the greatness of the glory of the grace of God — through rigorous exegesis, irrefutable logic, and beautiful design. Let the Word do the work.
+> **Mission:** Make adoptedbygrace.net the most powerful resource on earth for proving the greatness of the glory of the grace of God by proving the "doctrines of grace" — through rigorous exegesis, irrefutable logic, and beautiful design. Let the Word do the work.
 
 ---
 
