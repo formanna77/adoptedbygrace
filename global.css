@@ -1176,6 +1176,16 @@ blockquote cite, .scripture-ref { font-family: 'JetBrains Mono', monospace; font
    HUB JUMP NAV — Table-of-contents for long hubs
    ════════════════════════════════════════════════ */
 .hub-jump-nav {
+    /* Override generic nav{position:fixed} — this is in-flow content, NOT the site nav */
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    z-index: auto;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    border-bottom: none;
+    transition: none;
     max-width: 1200px;
     margin: 2rem auto 3rem;
     padding: 1.75rem 2rem;
