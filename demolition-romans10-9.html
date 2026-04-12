@@ -92,36 +92,7 @@
     </script>
 </head>
 <body>
-    <a href="#main-content" class="skip-to-content">Skip to main content</a>
-    <div class="reading-progress"></div>
-
-        <!--
-  ============================================================
-  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
-  ============================================================
-  Every page on adoptedbygrace.net MUST use this EXACT nav block.
-  Copy-paste it verbatim. Do not add, remove, rename, or reorder
-  any links. Do not add a logo.
-
-  REQUIRED in <head>:
-    <link rel="stylesheet" href="/global.css">
-
-  REQUIRED before </body>:
-    <script src="/nav.js"></script>
-
-  DO NOT add any inline CSS for nav, hamburger, .nav-links,
-  .nav-right, .nav-container, .nav-site-name, .search-overlay,
-  or .mega-menu. All styling lives in /global.css.
-
-  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
-                     button that opens mega-menu dropdown
-  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
-                     Hamburger opens full-screen overlay menu
-
-  Last updated: 2026-03-29
-  ============================================================
--->
-<nav role="navigation" aria-label="Main navigation">
+            <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
@@ -136,6 +107,7 @@
                 <li class="mobile-menu-search" style="list-style:none;">
                     <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
                 </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
                 <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
@@ -143,13 +115,10 @@
                 <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
                 <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
                 <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
-                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
-                <li class="mobile-nav-link"><a href="/secular-evidence">Secular</a></li>
-                <li class="mobile-nav-link"><a href="/history-timeline">History</a></li>
-                <li class="mobile-nav-link"><a href="/stories">Analogies</a></li>
+                <li class="mobile-nav-link"><a href="/theologians">Theologians</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
                 <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <!-- Mobile categories accordion (built dynamically by nav.js) -->
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
                 <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
             </ul>
 
@@ -161,11 +130,8 @@
                 <a href="/systematic-theology" class="nav-top-link">Theology</a>
                 <a href="/demolition-hub" class="nav-top-link">Demolition</a>
                 <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
-                <a href="/devotionals" class="nav-top-link">Devotionals</a>
-                <a href="/stories" class="nav-top-link">Stories</a>
-                <a href="/secular-evidence" class="nav-top-link">Secular</a>
-                <a href="/history-timeline" class="nav-top-link">History</a>
-                <a href="/stories" class="nav-top-link">Analogies</a>
+                <a href="/theologians" class="nav-top-link">Theologians</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
                 <a href="/about" class="nav-top-link">About</a>
                 <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
@@ -191,397 +157,137 @@
         <div class="search-results" id="searchResults"></div>
     </div>
 
-    <article class="article-body">
-        <div class="breadcrumb">
-            <a href="/demolition-hub">← Back to Demolition Hub</a>
-        </div>
-
-        <div class="series-label">Verse-by-Verse Demolition Series</div>
-        <div class="tier-badge">Tier 2 — Secondary Proof Texts</div>
     <header class="page-hero">
-        <div class="eyebrow">Demolition #16 · The Means vs. The Source</div>
-
-        <h1>Romans 10:9-10 — "If You Confess... You Will Be Saved"</h1>
+        <span class="eyebrow">Demolition</span>
+        <h1>"If You Confess, You Will Be Saved" — Does Romans 10:9 Prove Human Decision?</h1>
+        <p class="hub-subtitle">This verse describes the means of salvation, not its source. The faith is a gift.</p>
     </header>
 
-        <p>"If you confess... you will be saved." It sounds like a contract. It sounds like the ball is in your court. And if you stopped reading right here — if you never asked where the confession comes from, who produces the belief, or what Paul just spent the entirety of <a href="/question-romans9">Romans 9</a> establishing — you would walk away thinking your salvation depends on your mouth and your heart.</p>
+    <article class="article-body">
+
+        <div class="tldr">
+            <h2>In Brief</h2>
+            <p>Romans 10:9 says "if you confess with your mouth that Jesus is Lord... you will be saved." The Arminian exhales: finally, a verse that puts salvation in human hands. But the verse describes <em>how</em> salvation is expressed, not <em>where</em> faith comes from. Paul himself answers that question elsewhere: faith is a <a href="/question-faithgift.html">gift of God</a> (<a href="/question-faithgift">Ephesians 2:8-9</a>), belief is <em>granted</em> (Philippians 1:29), and "no one can say 'Jesus is Lord' except by the Holy Spirit" (1 Corinthians 12:3). The very confession Romans 10:9 requires is impossible without the Spirit's prior work. And this verse sits inside <a href="/question-romans9">Romans 9</a>-11 — where Paul has already established that salvation "does not depend on human will or exertion, but on God who has mercy" (<a href="/question-romans9.html">Romans 9:16</a>).</p>
+        </div>
+
+        <h2>The Verse Everyone Stops Reading Too Soon</h2>
+
+        <p>"If you confess... you will be saved." It sounds like a contract. It sounds like the ball is in your court. And if you never ask where the confession comes from, who produces the belief, or what Paul just spent the entirety of <a href="/question-romans9.html">Romans 9</a> establishing — you would walk away thinking your salvation depends on your mouth and your heart.</p>
 
         <p>Most people stop reading right here. That is the entire problem.</p>
 
-        <section class="section-nav">
-            <h4>On This Page</h4>
-            <ul>
-                <li><a href="#the-verse" class="nav-link">The Verse in Full</a></li>
-                <li><a href="#arminian-claim" class="nav-link">The Arminian Claim</a></li>
-                <li><a href="#greek-analysis" class="nav-link">Greek Grammar Analysis</a></li>
-                <li><a href="#critical-question" class="nav-link">The Critical Question</a></li>
-                <li><a href="#romans-9-context" class="nav-link">The Romans 9 Context</a></li>
-                <li><a href="#command-vs-ability" class="nav-link">Command vs. Ability</a></li>
-                <li><a href="#devastating-illustration" class="nav-link">The Devastating Illustration</a></li>
-                <li><a href="#the-verdict" class="nav-link">The Verdict</a></li>
-            </ul>
-        </section>
+        <blockquote>
+            <p>"If you declare with your mouth, 'Jesus is Lord,' and believe in your heart that God raised him from the dead, you will be saved. For it is with your heart that you believe and are justified, and it is with your mouth that you profess your faith and are saved."</p>
+            <cite>ROMANS 10:9-10</cite>
+        </blockquote>
 
-        <!-- The Verse Section -->
-        <section id="the-verse">
-            <h2>The Verse in Full</h2>
+        <p>At first glance, this looks like the Arminian proof text par excellence. A conditional statement: <em>if</em> you confess and believe, <em>then</em> you will be saved. The emphasis on human action — confessing, believing — appears to place salvation squarely in human hands.</p>
 
-            <div class="scripture-box">
-                <p>"If you confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved. For with the heart one believes and is justified, and with the mouth one confesses and is saved."</p>
-                <div class="scripture-version">Romans 10:9-10</div>
-            </div>
+        <p>But this interpretation makes a critical error: <strong>it mistakes the means of salvation for the source of salvation.</strong> The verse answers "How does salvation happen?" It does not answer "<a href="/question-where-did-your-faith-come-from.html">Where does faith come from?</a>"</p>
 
-            <p>At first glance, this verse seems to be the Arminian proof text par excellence. It's a conditional statement: "If you confess... and believe... you will be saved." The emphasis on human action—confessing, believing—appears to place salvation squarely in human hands.</p>
+        <p>Those are entirely different questions. And the answers lead in opposite directions.</p>
 
-            <p>But this interpretation makes a critical error: <strong>it mistakes the means of salvation for the source of salvation.</strong></p>
+        <h2>The Confession That Cannot Be Made Alone</h2>
 
-            <p>The verse does not answer the question, "Where does faith come from?" It answers the question, "How does salvation happen?" These are entirely different questions requiring entirely different answers.</p>
-        </section>
+        <p>Both verbs — "confess" (<em>homologeses</em>) and "believe" (<em>pisteuses</em>) — are aorist subjunctive in the Greek. This is not the mood of simple conditionality. The subjunctive describes what occurs, not what <em>causes</em> the condition. Paul is describing the nature of salvation — it comes <em>through</em> faith and confession — not asserting that humans generate these things independently.</p>
 
-        <!-- Arminian Claim Section -->
-        <section id="arminian-claim">
-            <h2>The Arminian Claim</h2>
+        <p>And Paul himself had already closed that door. In 1 Corinthians 12:3, he writes:</p>
 
-            <div class="claim-box">
-                <h4>The Argument</h4>
-                <p>Romans 10:9-10 proves that salvation depends on human choice. The verse explicitly states that YOU must confess with YOUR mouth, and YOU must believe in YOUR heart. These are actions that only you can perform. No one else can confess for you or believe for you. Therefore, salvation is conditional on your exercise of <a href="/question-freewill">free will</a>. The verse makes this crystal clear: IF you confess and believe, THEN you will be saved. This is a freely available offer that anyone can accept if they choose to.</p>
-            </div>
+        <blockquote>
+            <p>"No one can say, 'Jesus is Lord,' except by the Holy Spirit."</p>
+            <cite>1 CORINTHIANS 12:3</cite>
+        </blockquote>
 
-            <p>This reading is straightforward and carries surface appeal. Let's examine why it falls apart when we press harder.</p>
-        </section>
+        <p>Read that again. The very confession that Romans 10:9 requires — "Jesus is Lord" — <em>cannot be said</em> except by the <a href="/systematic-pneumatology.html">work of the Holy Spirit</a>. Paul uses the strongest possible language: <em>oudeis dynatai</em> — "no one is able." Not "it's difficult without the Spirit." Not "the Spirit helps." <strong>No one can.</strong></p>
 
-        <!-- Greek Analysis Section -->
-        <section id="greek-analysis">
-            <h2>Greek Grammar: What the Verbs Actually Say</h2>
+        <p>If the confession that saves is impossible without the Spirit's work, then Romans 10:9 does not prove <a href="/question-freewill.html">human autonomy</a>. It proves that God must work in the heart before the mouth can confess.</p>
 
-            <h3>The Aorist Subjunctive Reveals the Structure</h3>
+        <h2>Where Does Faith Come From?</h2>
 
-            <div class="greek-box">
-                <span class="greek-term">ὁμολογήσῃς (homologēsēs)</span>
-                <span class="greek-transliteration">aorist subjunctive, 2nd person singular</span>
-                <span class="greek-definition">"confess" — literally "speak the same thing," but here means to acknowledge or declare openly</span>
-            </div>
+        <p>The Arminian's error is treating Romans 10:9 as if it answers a question it never asks. The verse tells you that salvation comes through faith. It does not tell you where the faith originates. For that answer, you must look where Paul — and the rest of Scripture — actually addresses it:</p>
 
-            <div class="greek-box">
-                <span class="greek-term">πιστεύσῃς (pisteusēs)</span>
-                <span class="greek-transliteration">aorist subjunctive, 2nd person singular</span>
-                <span class="greek-definition">"believe" — to trust, to have faith in</span>
-            </div>
+        <blockquote>
+            <p>"For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast."</p>
+            <cite>EPHESIANS 2:8-9</cite>
+        </blockquote>
 
-            <p>Both verbs are in the aorist subjunctive mood. This is <em>not</em> the mood of simple conditionality. The subjunctive describes what occurs, not what causes the condition to occur. The aorist describes the action as a whole or completed action, without reference to duration or process.</p>
+        <p>Faith is explicitly called a <a href="/question-faithgift.html">gift of God</a>. Not your achievement. Not your contribution. A gift. And in Philippians 1:29: "It has been <em>granted</em> to you on behalf of Christ... to believe <a href="/devotional-in-christ">in him</a>." The Greek is <em>echaristhe</em> — "it was graciously given." Belief itself is granted.</p>
 
-            <p>In other words, these verbs do NOT describe the source of faith or confession. They describe the nature of salvation itself: salvation <em>comes through</em> faith and confession. The question of <em>where</em> that faith originates remains entirely unanswered by this verse.</p>
+        <p>And then <a href="/question-john6.html">John 6:65</a>: "<a href="/question-john6">No one can come to me unless</a> it is granted him by the Father." Coming to Christ — the very faith that Romans 10:9 describes — is impossible without a divine grant.</p>
 
-            <h3>The Critical Verse Paul Ignored</h3>
+        <p>These verses establish that faith is a divine gift. Romans 10:9 describes the means by which that gift is expressed. The two are complementary, not contradictory.</p>
 
-            <p>Here is where the Arminian argument collapses: Paul himself had already addressed the source of faith in 1 Corinthians 12:3:</p>
+        <h2>The Context That Destroys the Arminian Reading</h2>
 
-            <div class="scripture-box">
-                <p>"No one can say 'Jesus is Lord' except by the Holy Spirit."</p>
-                <div class="scripture-version">1 Corinthians 12:3</div>
-            </div>
+        <p>The Arminian's most devastating error is reading Romans 10 as if Paul wrote it in isolation. He didn't. Romans 10 sits in the middle of <a href="/question-romans9">Romans 9</a>-11 — Paul's extended argument about <a href="/systematic-election.html">election</a>, predestination, and sovereign mercy.</p>
 
-            <p>The very confession that Romans 10:9 requires—"Jesus is Lord"—<em>cannot be said</em> except by the <a href="/systematic-pneumatology">work of the Holy Spirit</a>. This is not optional or suggestive. Paul uses the strongest possible language: "No one can say" (οὐδεὶς δύναται — oudeis dynatai).</p>
+        <p>In <a href="/question-romans9.html">Romans 9</a>, Paul has already established:</p>
 
-            <p>If the confession that saves cannot occur without the Spirit's work, then Romans 10:9's conditional statement does not prove <a href="/question-freewill">human free will</a>. It proves the opposite: that God must work in the human heart before the human can confess.</p>
-        </section>
+        <blockquote>
+            <p>"Yet, before the twins were born or had done anything good or bad — in order that God's purpose in election might stand: not by works but by him who calls — she was told, 'The older will serve the younger.' Just as it is written: '<a href="/question-romans9">Jacob I loved</a>, but <a href="/ot-jacob-esau.html">Esau I hated</a>.'"</p>
+            <cite>ROMANS 9:11-13</cite>
+        </blockquote>
 
-        <!-- Critical Question Section -->
-        <section id="critical-question">
-            <h2>The Question Romans 10:9 Does NOT Answer</h2>
+        <p>Election before birth. Not based on works or choices. And then the decisive statement:</p>
 
-            <p>The Arminian commits a fundamental hermeneutical error by conflating two distinct questions:</p>
+        <blockquote>
+            <p>"It does not, therefore, depend on human desire or effort, but on God's mercy."</p>
+            <cite>ROMANS 9:16</cite>
+        </blockquote>
 
-            <h3>Question 1: HOW does salvation come?</h3>
+        <p>Salvation does <em>not</em> depend on human will or exertion. Paul could not be clearer. And this is written <em>one chapter before</em> Romans 10:9. The theological framework is already established: God sovereignly grants mercy to some and hardens others (<a href="/question-romans9.html">Romans 9:18</a>). When the Arminian reads "if you confess, you will be saved," they must now ask: what if God has hardened you? Can you confess then?</p>
 
-            <p>Answer: Through faith and confession. Romans 10:9 answers this question perfectly.</p>
+        <p>Here is how the three chapters connect: <a href="/question-romans9.html">Romans 9</a> answers <em>why</em> some believe and others don't — God's sovereign election. Romans 10 answers <em>how</em> believers express that faith — through the gospel, belief, and confession. Romans 11 answers <em>who</em> the elect are — a remnant chosen by grace. Reading only chapter 10 and ignoring the theological framework of chapters 9 and 11 is not exegesis. It is evasion.</p>
 
-            <h3>Question 2: WHERE does faith come from?</h3>
+        <h2>Commands Do Not Prove Ability</h2>
 
-            <p>Answer: Not found in Romans 10:9. For this answer, we must look elsewhere:</p>
+        <p>The Arminian assumes that because God commands confession and belief, humans must be <em>able</em> to produce these things independently. But commands reveal duty, not capacity.</p>
 
-            <div class="argument-item">
-                <h4><a href="/question-faithgift">Ephesians 2:8-9</a></h4>
-                <p>"For by grace you have been saved through faith. And this is not your own doing; it is the gift of God—not a result of works, so that no one may boast."</p>
-                <p><strong>The verdict:</strong> Faith is explicitly called a gift, not a human achievement. It is not "your own doing."</p>
-            </div>
+        <p>Jesus commanded: "Be perfect, therefore, as your heavenly Father is perfect" (Matthew 5:48). Does this prove humans can achieve sinless perfection by their own will? Obviously not. The command reveals the standard God requires. The ability to approach that standard comes only through grace.</p>
 
-            <div class="argument-item">
-                <h4>Philippians 1:29</h4>
-                <p>"For it has been granted to you that for the sake of Christ you should not only believe <a href="/devotional-in-christ">in him</a> but also suffer for his sake."</p>
-                <p><strong>The verdict:</strong> Belief is granted. It is a gift that God gives. The Greek word is <em>echaristhē</em> (ἐχαρίσθη)—"it was graciously given."</p>
-            </div>
+        <p><a href="/theologian-augustine.html">Augustine</a> saw this with devastating clarity: "God commands what He requires, and gives what He commands." God does not issue commands that assume human ability independent of His grace. He commands — and then provides the grace necessary to obey. Romans 10:9 commands confession and belief. <a href="/question-faithgift.html">Ephesians 2:8-9</a> tells you where the faith to obey comes from: God.</p>
 
-            <div class="argument-item">
-                <h4>Acts 16:14</h4>
-                <p>"One who heard us was a woman named Lydia, from the city of Thyatira, a seller of purple goods. She was a worshipper of God. The Lord opened her heart to pay attention to what was said by Paul."</p>
-                <p><strong>The verdict:</strong> Even Lydia's ability to "pay attention"—the beginning of faith—required the Lord to open her heart. The human did not generate this openness; the Lord did.</p>
-            </div>
+        <h2>The Meal You Did Not Cook</h2>
 
-            <div class="argument-item">
-                <h4><a href="/question-john6">John 6:65</a></h4>
-                <p>"And he said, 'This is why I told you that <a href="/question-john6">no one can come to me unless</a> it is granted him by the Father.'"</p>
-                <p><strong>The verdict:</strong> Coming to Christ is impossible without a grant from the Father. The Greek is <em>didōtai</em> (δίδοται)—"it is given."</p>
-            </div>
+        <p>It is like saying, "If you eat, you will live," and concluding that food creates itself.</p>
 
-            <p>These verses establish that faith itself is a divine gift. Romans 10:9 describes the means by which this gift is expressed. The two are not contradictory; they are complementary.</p>
-        </section>
+        <p>The statement is true. Eating sustains life. But the statement says nothing about who grew the food, who prepared the meal, who set it on your table, or who gave you the appetite to desire it.</p>
 
-        <!-- Romans 9 Context Section -->
-        <section id="romans-9-context">
-            <h2>The Context That Destroys the Arminian Reading: <a href="/question-romans9">Romans 9</a>-11</h2>
+        <p>Romans 10:9 describes the meal. Confessing and believing — these are how you partake of salvation. <a href="/question-faithgift.html">Ephesians 2:8-9</a>, Philippians 1:29, <a href="/question-romans9.html">Romans 9</a>, and <a href="/question-john6.html">John 6:65</a> describe who prepared the meal and placed it before you. The Arminian sees someone eating and concludes they provided everything. The <a href="/compare-monergism-synergism.html">monergistic</a> reading sees the same person eating and recognizes the invisible Hand that prepared it all.</p>
 
-            <p>The Arminian's most glaring error is reading Romans 10 in isolation from <a href="/question-romans9">Romans 9</a>. This is exegetical malpractice. Romans 10 does not exist in a vacuum; it exists in the middle of Paul's extended argument about election, predestination, and God's sovereign will.</p>
+        <h2>Why This Should Make You Weep</h2>
 
-            <h3><a href="/question-romans9">Romans 9</a>:11-13: Election Before Birth, Not Based on Works</h3>
+        <p>Here is what the Arminian misses: the Reformed reading is actually far more comforting than their own.</p>
 
-            <div class="scripture-box">
-                <p>"Though they were not yet born and had done nothing either good or bad—in order that God's purpose of election might continue, not because of works but because of his call—she was told, 'The older will serve the younger.' As it is written, '<a href="/question-romans9">Jacob I loved</a>, but <a href="/ot-jacob-esau">Esau I hated</a>.'"</p>
-                <div class="scripture-version"><a href="/question-romans9">Romans 9</a>:11-13</div>
-            </div>
+        <p>If salvation depends on the strength of <em>your</em> faith, on <em>your</em> confession, on <em>your</em> decision to believe — then you are constantly anxious. What if your faith is not strong enough? What if you lose your grip? The burden falls entirely on you.</p>
 
-            <p>Paul has already established that election occurs before birth and is not based on human works or choices. Esau and Jacob had "done nothing either good or bad," yet God's purpose of election was already fixed.</p>
+        <p>But if God is the one who <a href="/systematic-regeneration.html">regenerates</a> the heart, grants the faith, and produces the confession — then your salvation does not depend on the strength of your grip. It depends on the strength of His. And the <a href="/question-goldchain.html">golden chain of Romans 8:29-30</a> — <a href="/question-foreknowledge.html">foreknown</a>, predestined, called, <a href="/systematic-justification.html">justified</a>, glorified — has no broken links.</p>
 
-            <h3><a href="/question-romans9">Romans 9</a>:16: The Decisive Statement</h3>
+        <p>The fact that you <em>can</em> confess — the fact that something inside you says "Jesus is Lord" and means it — is not proof of your spiritual strength. It is proof of His. Your confession is not the cause of your salvation. It is the <em>evidence</em> that salvation has already happened to you.</p>
 
-            <div class="scripture-box">
-                <p>"So then it depends not on human will or exertion, but on God who has mercy."</p>
-                <div class="scripture-version"><a href="/question-romans9">Romans 9</a>:16</div>
-            </div>
+        <p>And the God who gave you that confession — who opened your heart the way He opened <a href="/question-irresistible.html">Lydia's</a>, who granted you belief the way He grants it to all His <a href="/devotional-chosen-before-you-were-broken.html">chosen ones</a> — is the same God who <a href="/devotional-the-hands-that-hold-you.html">will never let you go</a>.</p>
 
-            <p>Paul couldn't be clearer. Salvation depends NOT on human will (Greek: <em>thelmatos</em> — θελήματος) or exertion. It depends on God's mercy. This is written in <a href="/question-romans9">Romans 9</a>, just before Romans 10.</p>
-
-            <h3><a href="/question-romans9">Romans 9</a>:18: God's Hardening</h3>
-
-            <div class="scripture-box">
-                <p>"So then he has mercy on whomever he wills, and he hardens whomever he wills."</p>
-                <div class="scripture-version"><a href="/question-romans9">Romans 9</a>:18</div>
-            </div>
-
-            <p>Here is the theological framework: God sovereignly grants mercy to some and hardens others. When the Arminian reads Romans 10:9 ("if you confess, you will be saved"), they must now ask: What if God has hardened you? Can you confess then?</p>
-
-            <h3>The <a href="/systematic-ordo-salutis">Golden Chain</a> of <a href="/question-goldchain">Romans 8:29-30</a></h3>
-
-            <div class="scripture-box">
-                <p>"For those whom he <a href="/question-foreknowledge">foreknew</a> he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers. And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified."</p>
-                <div class="scripture-version"><a href="/question-goldchain">Romans 8:29-30</a></div>
-            </div>
-
-            <p>Notice the chain: <a href="/question-foreknowledge">Foreknowledge</a> → Predestination → Call → <a href="/systematic-justification">Justification</a> → Glorification. Each link is certain. The "call" in this chain is effectual—it produces faith. The faith described in Romans 10:9 is the inevitable result of God's <a href="/question-irresistible">effectual call</a> in Romans 8:30.</p>
-
-            <h3>How They Connect</h3>
-
-            <p><strong><a href="/question-romans9">Romans 9</a></strong> answers: WHY some believe and others don't—because of God's sovereign election and mercy.</p>
-
-            <p><strong>Romans 10</strong> answers: HOW believers come to express that faith—through the gospel, belief, and confession.</p>
-
-            <p><strong>Romans 11</strong> answers: WHO are the elect—a remnant chosen by grace.</p>
-
-            <p>The Arminian reads only Romans 10 and ignores the theological framework established in <a href="/question-romans9">Romans 9</a>. This is why their interpretation fails.</p>
-        </section>
-
-        <!-- Command vs. Ability Section -->
-        <section id="command-vs-ability">
-            <h2>The Difference Between Command and Ability</h2>
-
-            <h3>God Commands What Only He Can Enable</h3>
-
-            <p>The Arminian reads Romans 10:9 as proof that humans can believe. But the verse is a <em>command</em>, not a proof of human ability. Commands reveal duty, not capacity.</p>
-
-            <p>Consider Jesus's command in the Sermon on the Mount:</p>
-
-            <div class="scripture-box">
-                <p>"You therefore must be perfect, as your heavenly Father is perfect."</p>
-                <div class="scripture-version">Matthew 5:48</div>
-            </div>
-
-            <p>Does this command prove that humans can achieve perfect holiness by their own will? Of course not. The command reveals the standard God requires. The ability to meet that standard comes only through God's grace.</p>
-
-            <p>Similarly, Romans 10:9's command to confess and believe reveals the standard God requires for salvation. But the ability to meet that standard—the <a href="/question-faithgift">gift of faith</a>—comes only from God.</p>
-
-            <h3><a href="/theologian-augustine">Augustine</a>'s Insight</h3>
-
-            <p><a href="/theologian-augustine">Augustine</a> wrote: "God commands what He requires, and gives what He commands." God doesn't issue commands that assume human ability independent of His grace. Rather, He commands, and then provides the grace necessary to obey. This is the pattern throughout Scripture.</p>
-
-            <p>The Arminian reverses this: they assume that a divine command must entail human ability to obey without God's prior grace. This is anti-Augustinian and contrary to the entire teaching of the New Testament on grace.</p>
-        </section>
-
-        <!-- Devastating Illustration Section -->
-        <section id="devastating-illustration">
-            <div class="devastating-box">
-                <h3>The Devastating Illustration</h3>
-
-                <p>It's like saying, "If you eat, you will live," and concluding that food creates itself.</p>
-
-                <p>The statement is <em>true</em>. Eating sustains life. But the statement says nothing about:</p>
-                <ul style="margin-left: 1.5rem; color: var(--text-primary); line-height: 1.9;">
-                    <li>Who grew the food</li>
-                    <li>Who prepared the meal</li>
-                    <li>Who set it on your table</li>
-                    <li>Who gave you the appetite to desire it</li>
-                </ul>
-
-                <p><strong>Romans 10:9 describes the meal.</strong> Confessing and believing—these are how you partake of salvation.</p>
-
-                <p><strong><a href="/question-faithgift">Ephesians 2:8-9</a>, Philippians 1:29, <a href="/question-romans9">Romans 9</a>, and <a href="/question-john6">John 6:65</a> describe who prepared the meal and placed it before you.</strong> They identify the source: God's grace, His sovereign choice, His <a href="/question-irresistible">effectual call</a>.</p>
-
-                <p>The Arminian sees the meal and concludes that the person eating provided everything. The Reformed reading sees the meal and recognizes the invisible cook who prepared it.</p>
-            </div>
-        </section>
-
-        <!-- The Verdict Section -->
-        <section id="the-verdict">
-            <h2>The Verdict</h2>
-
-            <h3>What Romans 10:9-10 Actually Teaches</h3>
-
-            <p>Scripture teaches that salvation comes through faith and confession. This is the <em>instrument</em> of salvation, not its <em>origin</em>. The faith required is a gift from God, granted through His <a href="/question-irresistible">effectual call</a>. The confession flows from the Spirit's work in the heart. The condition "if you confess and believe" is precisely how God's sovereign election is carried out in history.</p>
-
-            <h3>Why the Reformed Reading is MORE Comforting</h3>
-
-            <p>Here's what the Arminian misses: the Reformed reading is actually far more reassuring than their own.</p>
-
-            <p>If salvation depends on the strength of MY faith, on MY confession, on MY decision to believe, then I am constantly anxious. What if my faith isn't strong enough? What if I lose my grip on belief? What if I don't confess boldly enough? The burden falls entirely on me.</p>
-
-            <p>But the Reformed reading says: <em>Your salvation doesn't depend on the strength of your faith. It depends on the One who gave you faith.</em> You didn't generate it; God granted it (Philippians 1:29). It isn't your own doing; it's God's gift (<a href="/question-faithgift">Ephesians 2:8-9</a>). Your Father has predestined you, called you, justified you, and will glorify you (<a href="/question-goldchain">Romans 8:29-30</a>).</p>
-
-            <p>This is not harsh. This is <em>grace</em>. And it means <a href="/devotional-the-hands-that-hold-you">the hands that hold you</a> will never let go.</p>
-
-            <h3>The Bottom Line</h3>
-
-            <p>The Arminian reads Romans 10:9 as if it stands alone. The Reformed reader reads it in its proper context: <a href="/question-romans9">Romans 9</a>-11, in light of the <a href="/systematic-ordo-salutis">golden chain</a> of <a href="/question-goldchain">Romans 8:29-30</a>, in harmony with <a href="/question-faithgift">Ephesians 2:8-9</a> and Philippians 1:29, and understood through the lens of 1 Corinthians 12:3—which tells us that no one can even confess Jesus as Lord except by the Holy Spirit.</p>
-
-            <p>Romans 10:9-10 describes the WAY salvation comes. Scripture elsewhere teaches us the SOURCE of that salvation. And the source is the God who loved us, chose us, called us, justified us, and will glorify us.</p>
-
-            <p><strong>To confess Christ is to trust not in the power of your confession, but in the power of the One you're confessing.</strong></p>
-
-            <p>And here is the thing that should make you weep with gratitude: the fact that you <em>can</em> confess — the fact that something inside you says "Jesus is Lord" and means it — is not proof of your spiritual strength. It is proof of His. No one says "Jesus is Lord" except by the Holy Spirit (1 Corinthians 12:3). Your confession is not the cause of your salvation. It is the <em>evidence</em> that salvation has already happened to you.</p>
-        </section>
-
-        <!-- Further Reading Section -->
-        <section class="further-reading">
-            <h3>Further Reading</h3>
-            <ul>
-                <li><a href="/demolition-hub">Return to the Full Demolition Series</a></li>
-                <li><a href="/systematic-election">Doctrine: Election — Scripture's Teaching on God's Sovereignty in Salvation</a></li>
-                <li><a href="/systematic-theology">Systematic Theology: The Ordo Salutis (Order of Salvation)</a></li>
-                <li><a href="/pastoral-assurance">Devotional: How God's Election Gives True Assurance</a></li>
-            </ul>
-        </section>
-
-        <!-- Next Article -->
-        <div class="next-article">
-            <h3>Ready for Another Demolition?</h3>
-            <p>Explore more Arminian proof texts and see how Scripture actually teaches God's sovereignty in salvation.</p>
-            <a href="/demolition-hub">View the Full Series →</a>
-        </div>
-
-        <!-- Share Section -->
-        <div class="share-section">
-            <h4>Share This Demolition</h4>
-            <div class="share-buttons">
-                <a href="https://twitter.com/intent/tweet?text=Romans%2010:9%20Demolished&url=https://adoptedbygrace.net/demolition-romans10-9" target="_blank" rel="noopener noreferrer" class="share-button">Twitter</a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=https://adoptedbygrace.net/demolition-romans10-9" target="_blank" rel="noopener noreferrer" class="share-button">Facebook</a>
-                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://adoptedbygrace.net/demolition-romans10-9" target="_blank" rel="noopener noreferrer" class="share-button">LinkedIn</a>
-            </div>
-        </div>
     </article>
 
-    <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
-        <h3 style="color: var(--accent-gold); margin-bottom: 2rem;">Continue the Journey</h3>
-        <div class="hub-grid">
-        <a href="/question-is-salvation-my-choice-or-gods" class="hub-card">
-            <div class="card-number">01</div>
-            <h4 class="card-title">Is Salvation My Choice or God's?</h4>
-            <p class="card-description">"Confess and believe" — but where does the belief come from?</p>
-            <div class="card-footer">
-                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-            </div>
-        </a>
-        <a href="/devotional-the-prayer-you-didnt-pray" class="hub-card">
-            <div class="card-number">02</div>
-            <h4 class="card-title">The Prayer You Didn't Pray</h4>
-            <p class="card-description">You confessed because He gave you the lips to confess.</p>
-            <div class="card-footer">
-                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-            </div>
-        </a>
-        </div>
-    </div>
-
-    
-
-<!-- RELATED-ARTICLES-START -->
-<section class="related-articles" aria-label="Related articles">
-  <div class="related-articles-inner">
-    <h2 class="related-articles-heading">Keep Exploring</h2>
-    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
-    <div class="related-articles-grid">
-      <a href="/devotional-adoption-papers" class="related-article-card">
-        <span class="related-article-cat">🕯 Devotionals</span>
-        <span class="related-article-title">Adoption Papers</span>
-        <span class="related-article-desc">Adoption Papers: A meditative reflection on being chosen and adopted as God</span>
-      </a>
-      <a href="/history-augustine-pelagius" class="related-article-card">
-        <span class="related-article-cat">⏳ History</span>
-        <span class="related-article-title">Augustine vs Pelagius: The First Great Battle for Grace</span>
-        <span class="related-article-desc">The theological clash that shaped Christianity: Augustine</span>
-      </a>
-      <a href="/analogy-light-switch" class="related-article-card">
-        <span class="related-article-cat">💡 Analogies</span>
-        <span class="related-article-title">Can You Choose to Believe? The Light Switch &amp; Spiritual Blindness</span>
-        <span class="related-article-desc">Can you choose to believe on your own? Explore why your ability to have faith is a gift from God, no...</span>
-      </a>
-      <a href="/question-ezekiel37" class="related-article-card">
-        <span class="related-article-cat">📖 Questions</span>
-        <span class="related-article-title">Dead Bones Don&#039;t Volunteer — Ezekiel 37</span>
-        <span class="related-article-desc">Ezekiel 37</span>
-      </a>
-      <a href="/pastoral-assurance" class="related-article-card">
-        <span class="related-article-cat">🤝 Pastoral</span>
-        <span class="related-article-title">Election &amp;amp; Assurance: When Anxiety Attacks Your Faith</span>
-        <span class="related-article-desc">How the doctrines of grace give deep, unshakeable assurance to Christians struggling with anxiety...</span>
-      </a>
-      <a href="/objection-why-believe" class="related-article-card">
-        <span class="related-article-cat">🛡 Objections Answered</span>
-        <span class="related-article-title">If God Already Chose Us, Why Do We Have to Believe?</span>
-        <span class="related-article-desc">A letter to the sincere Christian who just discovered election and wonders if faith is meaningless. ...</span>
-      </a>
-    </div>
-    <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
-</section>
-<!-- RELATED-ARTICLES-END -->
-
-<footer role="contentinfo">
+    <footer>
         <div class="footer-container">
             <div class="footer-section">
                 <h4>Truth</h4>
-                <ul>
-                    <li><a href="/systematic-election">Election</a></li>
-                    <li><a href="/question-foreknowledge">Predestination</a></li>
-                    <li><a href="/question-irresistible">Grace</a></li>
-                    <li><a href="/systematic-divine-decrees">God's Sovereignty</a></li>
-                </ul>
+                <a href="/systematic-theology">Theology</a>
+                <a href="/questions">Questions</a>
+                <a href="/start-here">Start Here</a>
             </div>
             <div class="footer-section">
-                <h4>Apologetics</h4>
-                <ul>
-                    <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                    <li><a href="/demolition-hub">Objections Answered</a></li>
-                    <li><a href="/compare-calvinism-arminianism">Comparisons</a></li>
-                </ul>
+                <h4>Heart</h4>
+                <a href="/devotionals">Devotionals</a>
+                <a href="/stories">Stories</a>
+                <a href="/shattered-lens-hub">Healing</a>
             </div>
             <div class="footer-section">
-                <h4>Resources</h4>
-                <ul>
-                    <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                    <li class="mobile-nav-link"><a href="/stories">Stories</a></li>
-                    <li><a href="/theologians">Theologians</a></li>
-                </ul>
+                <h4>Mind</h4>
+                <a href="/demolition-hub">Demolition</a>
+                <a href="/psychology-hub">Why We Resist</a>
+                <a href="/philosophy-hub">Philosophy</a>
             </div>
         </div>
         <div class="footer-grace-warning">
@@ -589,35 +295,11 @@
             Grace is not a license to sin. It is the power that frees us from sin's dominion.
         </div>
         <div class="footer-copyright">
-            <p>&copy; 2026 Adopted by Grace. All rights reserved. Scripture teaches the supremacy of God in Christ.</p>
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
         </div>
     </footer>
 
-<script src="/global.js" defer>
-        // Mobile dropdown toggles
-        const navLinks = document.querySelector('.nav-links');
-        if (navLinks) {
-            navLinks.querySelectorAll('.nav-trigger').forEach(trigger => {
-                trigger.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const li = trigger.closest('li');
-                    navLinks.querySelectorAll('li.dropdown-open').forEach(openLi => {
-                        if (openLi !== li) openLi.classList.remove('dropdown-open');
-                    });
-                    li.classList.toggle('dropdown-open');
-                });
-            });
-            navLinks.querySelectorAll('a').forEach(a => {
-                a.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                    const hamburger = document.querySelector('.hamburger');
-                    if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
-                });
-            });
-        }
-
-    </script>
-
     <script src="/nav.js"></script>
+
 </body>
 </html>

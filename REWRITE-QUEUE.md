@@ -220,23 +220,23 @@ Target: ~1,500 words max per article (~10 min read)
 | 133 | DONE | `psychology-fear-control.html` | Why Does God's Sovereignty Terrify Us? | Psychology | 2551→~1500 | ~8 min | Rewritten: compressed, all genius preserved |
 | 134 | DONE | `demolition-arminian-facts.html` | FACTS Check — The Arminian Framework Dismantled Point by Point | Demolition | 2519→~1500 | ~8 min | Rewritten: compressed, all genius preserved |
 | 135 | DONE | `demolition-hebrews6-4-6.html` | Can You Lose Your Salvation? What Hebrews 6:4-6 Actually Teaches | Demolition | 2517→~1500 | ~8 min | Rewritten: compressed, all genius preserved |
-| 136 | OPEN | `shattered-lens-bible-doesnt-make-sense.html` | When the Bible Stopped Making Sense | Healing | 2511 | ~13 min | |
-| 137 | OPEN | `demolition-acts17-30.html` | "God Commands All to Repent" — Does Acts 17:30 Disprove Election? | Demolition | 2508 | ~13 min | |
-| 138 | OPEN | `anxious-mind-never-meant-to-carry.html` | You Were Never Meant to Carry This | Healing | 2501 | ~13 min | |
+| 136 | ✅ DONE | `shattered-lens-bible-doesnt-make-sense.html` | When the Bible Stopped Making Sense | Healing | 2511→1426 | ~7 min | Rewritten 2026-04-12 |
+| 137 | ✅ DONE | `demolition-acts17-30.html` | "God Commands All to Repent" — Does Acts 17:30 Disprove Election? | Demolition | 2508→1311 | ~7 min | Rewritten 2026-04-12 |
+| 138 | ✅ DONE | `anxious-mind-never-meant-to-carry.html` | You Were Never Meant to Carry This | Healing | 2501→1684 | ~8 min | Rewritten 2026-04-12 |
 
 ## MEDIUM PRIORITY (1500-2500 words) — 156 articles
 
 | # | Status | File | Title | Category | Words | Read Time | Notes |
 |---|--------|------|-------|----------|-------|-----------|-------|
-| 1 | OPEN | `shattered-lens-silence-of-god.html` | When God Goes Silent — And Faith Shatters | Healing | 2497 | ~13 min | |
-| 2 | OPEN | `invisible-wall-singing-alone.html` | When You See It and Your Church Doesn't — Singing Alone | Healing | 2495 | ~13 min | |
-| 3 | OPEN | `analogy-light-switch.html` | Who Turns On the Light? — A Simple Picture of How Faith Works | Stories | 2491 | ~13 min | |
-| 4 | OPEN | `demolition-philippians2-12-13.html` | "Work Out Your Salvation" — They Quote Verse 12 and Forget Verse 13 | Demolition | 2475 | ~13 min | |
-| 5 | OPEN | `apologetic-evangelism.html` | Doesn't Election Make Evangelism Pointless? | Other | 2469 | ~13 min | |
-| 6 | OPEN | `question-is-salvation-my-choice-or-gods.html` | Is Salvation Your Choice or God's? There Are Only Two Options. | Questions | 2466 | ~13 min | |
-| 7 | OPEN | `open-wound-empty-nursery.html` | When God Is Sovereign and the Nursery Is Empty | Healing | 2461 | ~13 min | |
-| 8 | OPEN | `psychology-hostility-reaction.html` | Why the Truth That Makes You Angriest Is the One That Will Set You Free | Psychology | 2458 | ~13 min | |
-| 9 | OPEN | `question-secure.html` | Eternal Security: Can a Believer Lose Salvation? | Questions | 2456 | ~13 min | |
+| 1 | ✅ DONE | `shattered-lens-silence-of-god.html` | When God Goes Silent — And Faith Shatters | Healing | 2497→1626 | ~8 min | Rewritten 2026-04-12 |
+| 2 | ✅ DONE | `invisible-wall-singing-alone.html` | When You See It and Your Church Doesn't — Singing Alone | Healing | 2495→1552 | ~8 min | Rewritten 2026-04-12 |
+| 3 | ✅ DONE | `analogy-light-switch.html` | Who Turns On the Light? — A Simple Picture of How Faith Works | Stories | 2491→1394 | ~7 min | Rewritten 2026-04-12 |
+| 4 | ✅ DONE | `demolition-philippians2-12-13.html` | "Work Out Your Salvation" — They Quote Verse 12 and Forget Verse 13 | Demolition | 2475→1167 | ~6 min | Rewritten 2026-04-12 |
+| 5 | ✅ DONE | `apologetic-evangelism.html` | Doesn't Election Make Evangelism Pointless? | Other | 2469→1467 | ~7 min | Rewritten 2026-04-12 |
+| 6 | ✅ DONE | `question-is-salvation-my-choice-or-gods.html` | Is Salvation Your Choice or God's? There Are Only Two Options. | Questions | 2466→1628 | ~8 min | Rewritten 2026-04-12 |
+| 7 | ✅ DONE | `open-wound-empty-nursery.html` | When God Is Sovereign and the Nursery Is Empty | Healing | 2461→1573 | ~13 min | |
+| 8 | ✅ DONE | `psychology-hostility-reaction.html` | Why the Truth That Makes You Angriest Is the One That Will Set You Free | Psychology | 2458→1727 | ~13 min | |
+| 9 | ✅ DONE | `question-secure.html` | Eternal Security: Can a Believer Lose Salvation? | Questions | 2456→1472 | ~13 min | |
 | 10 | DONE | `philosophy-infinite-regress-of-choice.html` | Why "I Chose God" Is a Sentence That Destroys Itself | Philosophy | 2450 | ~13 min | |
 | 11 | DONE | `systematic-election.html` | Chosen Before the Foundation of the World — What Scripture Teaches About Election | Systematic Theology | 2449 | ~13 min | |
 | 12 | DONE | `anxious-mind-intrusive-thoughts.html` | When Your Mind Becomes a War Zone — Intrusive Thoughts and Faith | Healing | 2443 | ~13 min | |
@@ -278,56 +278,56 @@ Target: ~1,500 words max per article (~10 min read)
 | 48 | DONE | `question-does-god-love-everyone-equally.html` | Does God Love Everyone Equally? What Scripture Actually Teaches | Questions | 2253 | ~12 min | |
 | 49 | DONE | `demolition-hebrews2-9.html` | "He Tasted Death for Everyone" — What Hebrews 2:9 Actually Means | Demolition | 2247 | ~12 min | |
 | 50 | DONE | `just-realized.html` | For the Person Who Just Realized | Other | 2224 | ~12 min | |
-| 51 | OPEN | `secular-neuroscience-human-inability.html` | Your Brain Decided Before You Did — The Neuroscience of Inability | Secular Evidence | 2215 | ~12 min | |
-| 52 | OPEN | `demolition-romans10-9.html` | "If You Confess, You Will Be Saved" — Does Romans 10:9 Prove Human Decision? | Demolition | 2213 | ~12 min | |
-| 53 | OPEN | `systematic-resurrection.html` | The Resurrection — The Foundation of All Hope | Systematic Theology | 2213 | ~12 min | |
-| 54 | OPEN | `analogy-drowning-man.html` | The Drowning Man Who Thinks He's Swimming | Stories | 2206 | ~12 min | |
-| 55 | OPEN | `invisible-wall-only-one-who-sees.html` | When You're the Only One Who Sees It | Healing | 2204 | ~12 min | |
-| 56 | OPEN | `devotional-valley-shadow.html` | Valley of the Shadow | Devotionals | 2197 | ~11 min | |
-| 57 | OPEN | `story-cross-examination.html` | The Cross-Examination — When Sovereign Grace Puts Free Will on the Witness Stand | Stories | 2195 | ~11 min | |
-| 58 | OPEN | `psychology-sincerity-trap.html` | Why the Most Sincere Believers Are the Hardest to Reach | Psychology | 2194 | ~11 min | |
-| 59 | OPEN | `anxious-mind-the-loop-that-wont-break.html` | The Loop That Won't Break — OCD, Rumination, and the God Who Holds Your Mind | Healing | 2189 | ~11 min | |
-| 60 | OPEN | `theologian-spurgeon.html` | Spurgeon: The Prince of Preachers Who Couldn't Stop Talking About Grace | Theologians | 2182 | ~11 min | |
-| 61 | OPEN | `analogy-adoption.html` | A Baby Doesn't Interview for a Family — What Adoption Teaches About Election | Stories | 2174 | ~11 min | |
-| 62 | OPEN | `question-external-internal-call.html` | The Call You Can Ignore vs. The Call That Creates Life | Questions | 2153 | ~11 min | |
-| 63 | OPEN | `psychology-reactance-theory.html` | Why Your Soul Rebels When It Hears the Truth | Psychology | 2148 | ~11 min | |
-| 64 | OPEN | `secular-hard-problem-consciousness.html` | The Hard Problem of Consciousness — And What It Points To | Secular Evidence | 2146 | ~11 min | |
-| 65 | OPEN | `devotional-weakness-of-gods-strength.html` | When God's Power Works Through Your Weakness | Devotionals | 2141 | ~11 min | |
-| 66 | OPEN | `psychology-terror-management.html` | Terror Management and the Threat of Sovereignty | Psychology | 2135 | ~11 min | |
-| 67 | OPEN | `apologetic-perseverance.html` | Can You Lose Your Salvation? | Other | 2131 | ~11 min | |
-| 68 | OPEN | `question-dead-bury-dead.html` | What Did Jesus Mean by 'Let the Dead Bury the Dead'? | Questions | 2127 | ~11 min | |
-| 69 | OPEN | `devotional-the-prayer-you-didnt-pray.html` | The Prayer You Didn't Pray — When Even Crying Out Is Grace | Devotionals | 2120 | ~11 min | |
-| 70 | OPEN | `broken-mirror-the-relapse.html` | The Relapse — When You Fall Back Into the Sin You Thought You'd Conquered | Healing | 2105 | ~11 min | |
-| 71 | OPEN | `story-the-garden-that-grew-itself.html` | Can You Save Yourself? A Parable About Grace and Human Effort | Stories | 2104 | ~11 min | |
-| 72 | OPEN | `anxious-mind-fear-of-hell.html` | The Terror That Won't Quiet: When You're Afraid of Hell | Healing | 2095 | ~11 min | |
-| 73 | OPEN | `philosophy-copernican-revolution.html` | Your Salvation Doesn't Revolve Around You — The Copernican Revolution of the Soul | Philosophy | 2089 | ~11 min | |
-| 74 | OPEN | `compare-monergism-synergism.html` | Does God Save Alone, or Do You Help? Monergism vs Synergism | Comparisons | 2088 | ~11 min | |
-| 75 | OPEN | `systematic-trinity.html` | One God, Three Persons — The Trinity in Scripture and Salvation | Systematic Theology | 2085 | ~11 min | |
-| 76 | OPEN | `philosophy-prisoners-dilemma.html` | The Prisoner's Dilemma of Salvation: Why Self-Interest Always Betrays | Philosophy | 2079 | ~11 min | |
-| 77 | OPEN | `story-the-self-made-man.html` | The Self-Made Man: A Story About Self-Salvation | Stories | 2074 | ~11 min | |
-| 78 | OPEN | `question-calvinist-on-knees.html` | Everyone Is a Calvinist on Their Knees | Questions | 2073 | ~11 min | |
-| 79 | OPEN | `question-external-call.html` | Why Some People Hear the Gospel and Walk Away — The Two Calls of God | Questions | 2073 | ~11 min | |
-| 80 | OPEN | `question-hardening.html` | Does God Harden Hearts? Yes — And Here's What That Means | Questions | 2071 | ~11 min | |
-| 81 | OPEN | `objection-god-could-save-all.html` | If God Could Save Everyone, Why Doesn't He? | Questions | 2060 | ~11 min | |
-| 82 | OPEN | `devotional-the-god-who-wastes-nothing.html` | The God Who Wastes Nothing — When Your Suffering Has a Sovereign Purpose | Devotionals | 2058 | ~11 min | |
-| 83 | OPEN | `secular-history-sovereignty.html` | The History of Sovereignty — When Secular Historians Document Divine Control | Secular Evidence | 2057 | ~11 min | |
-| 84 | OPEN | `shattered-lens-lost-community.html` | When Seeing the Truth Cost You Your Community | Healing | 2053 | ~11 min | |
-| 85 | OPEN | `demolition-2peter2-1.html` | "The Master Who Bought Them" — Does 2 Peter 2:1 Prove Universal Atonement? | Demolition | 2046 | ~11 min | |
-| 86 | OPEN | `start-here-phase4.html` | But What About Free Will and Fairness? — Phase 4 | Other | 2040 | ~11 min | |
-| 87 | OPEN | `devotional-adoption-papers.html` | Your Name Was Written Before You Were Born — Adoption and Grace | Devotionals | 2038 | ~11 min | |
-| 88 | OPEN | `philosophy-bootstrap-paradox.html` | Try to Believe the Sky Is Green. You Can't. That's the Point. | Philosophy | 2037 | ~11 min | |
-| 89 | OPEN | `open-wound-miscarriage.html` | The Child You Never Held — After Miscarriage and Infant Loss | Healing | 2023 | ~11 min | |
-| 90 | OPEN | `demolition-john12-32.html` | Demolition: John 12:32 — "I Will Draw ALL People" | Demolition | 2020 | ~11 min | |
-| 91 | OPEN | `devotional-my-chains-fell-away.html` | My Chains Fell Away | Devotionals | 2018 | ~11 min | |
-| 92 | OPEN | `question-ezekiel37.html` | Dead Bones Don't Volunteer — Ezekiel 37 | Questions | 2018 | ~11 min | |
-| 93 | OPEN | `demolition-matt23-37.html` | Demolition: Matthew 23:37 — Jesus's Lament Over Jerusalem | Demolition | 2016 | ~11 min | |
-| 94 | OPEN | `psychology-language-acquisition.html` | You Didn't Choose Your Mother Tongue | Psychology | 2016 | ~11 min | |
-| 95 | OPEN | `philosophy-observer-effect-sin.html` | The Observer Effect of Sin | Philosophy | 2010 | ~11 min | |
-| 96 | OPEN | `open-wound-the-prayer-god-didnt-answer.html` | The Prayer God Didn't Answer — And What That Means | Healing | 2006 | ~11 min | |
-| 97 | OPEN | `philosophy-what-if-wrong.html` | What If You're Wrong? — The Soteriological Pascal's Wager | Philosophy | 1996 | ~10 min | |
-| 98 | OPEN | `devotional-cold-church.html` | Your Heart Used to Burn. Now It's Barely Warm. | Devotionals | 1990 | ~10 min | |
-| 99 | OPEN | `devotional-not-my-will-but-joy.html` | What If Surrendering Your Will Is Where Joy Begins? | Devotionals | 1990 | ~10 min | |
-| 100 | OPEN | `theologian-warfield.html` | B.B. Warfield: The Lion of Princeton | Theologians | 1981 | ~10 min | |
+| 51 | ✅ DONE | `secular-neuroscience-human-inability.html` | Your Brain Decided Before You Did — The Neuroscience of Inability | Secular Evidence | 1589 | ~12 min | |
+| 52 | ✅ DONE | `demolition-romans10-9.html` | "If You Confess, You Will Be Saved" — Does Romans 10:9 Prove Human Decision? | Demolition | 1902 | ~12 min | |
+| 53 | ✅ DONE | `systematic-resurrection.html` | The Resurrection — The Foundation of All Hope | Systematic Theology | 1582 | ~12 min | |
+| 54 | ✅ DONE | `analogy-drowning-man.html` | The Drowning Man Who Thinks He's Swimming | Stories | 1471 | ~12 min | |
+| 55 | ✅ DONE | `invisible-wall-only-one-who-sees.html` | When You're the Only One Who Sees It | Healing | 2204→1319 | ~7 min | Rewritten 2026-04-12 |
+| 56 | ✅ DONE | `devotional-valley-shadow.html` | Valley of the Shadow | Devotionals | 2197→1210 | ~6 min | Rewritten 2026-04-12 |
+| 57 | ✅ DONE | `story-cross-examination.html` | The Cross-Examination — When Sovereign Grace Puts Free Will on the Witness Stand | Stories | 2195→1088 | ~6 min | Rewritten 2026-04-12 |
+| 58 | ✅ DONE | `psychology-sincerity-trap.html` | Why the Most Sincere Believers Are the Hardest to Reach | Psychology | 2194→1310 | ~7 min | Rewritten 2026-04-12 |
+| 59 | ✅ DONE | `anxious-mind-the-loop-that-wont-break.html` | The Loop That Won't Break — OCD, Rumination, and the God Who Holds Your Mind | Healing | 2189→1380 | ~7 min | Rewritten 2026-04-12 |
+| 60 | ✅ DONE | `theologian-spurgeon.html` | Spurgeon: The Prince of Preachers Who Couldn't Stop Talking About Grace | Theologians | 2182→1280 | ~7 min | Rewritten 2026-04-12 |
+| 61 | ✅ DONE | `analogy-adoption.html` | A Baby Doesn't Interview for a Family — What Adoption Teaches About Election | Stories | 2174→1350 | ~7 min | Rewritten 2026-04-12 |
+| 62 | ✅ DONE | `question-external-internal-call.html` | The Call You Can Ignore vs. The Call That Creates Life | Questions | 2153→1100 | ~6 min | Rewritten 2026-04-12 |
+| 63 | ✅ DONE | `psychology-reactance-theory.html` | Why Your Soul Rebels When It Hears the Truth | Psychology | 2148→1380 | ~7 min | Rewritten 2026-04-12 |
+| 64 | ✅ DONE | `secular-hard-problem-consciousness.html` | The Hard Problem of Consciousness — And What It Points To | Secular Evidence | 2146→1350 | ~7 min | Rewritten 2026-04-12 |
+| 65 | ✅ DONE | `devotional-weakness-of-gods-strength.html` | When God's Power Works Through Your Weakness | Devotionals | 2141→1420 | ~7 min | Rewritten 2026-04-12 |
+| 66 | ✅ DONE | `psychology-terror-management.html` | Terror Management and the Threat of Sovereignty | Psychology | 2135→1480 | ~7 min | Rewritten 2026-04-12 |
+| 67 | ✅ DONE | `apologetic-perseverance.html` | Can You Lose Your Salvation? | Questions | 2131→1480 | ~7 min | Rewritten 2026-04-12 |
+| 68 | ✅ DONE | `question-dead-bury-dead.html` | What Did Jesus Mean by 'Let the Dead Bury the Dead'? | Questions | 2127→1460 | ~7 min | Rewritten 2026-04-12 |
+| 69 | ✅ DONE | `devotional-the-prayer-you-didnt-pray.html` | The Prayer You Didn't Pray — When Even Crying Out Is Grace | Devotionals | 2120→1420 | ~7 min | Rewritten 2026-04-12 |
+| 70 | ✅ DONE | `broken-mirror-the-relapse.html` | The Relapse — When You Fall Back Into the Sin You Thought You'd Conquered | Healing | 2105→1400 | ~7 min | Rewritten 2026-04-12 |
+| 71 | DONE | `story-the-garden-that-grew-itself.html` | Can You Save Yourself? A Parable About Grace and Human Effort | Stories | 2104→~1247 | ~7 min | Rewritten 2026-04-12 |
+| 72 | DONE | `anxious-mind-fear-of-hell.html` | The Terror That Won't Quiet: When You're Afraid of Hell | Healing | 2095→~1749 | ~9 min | Rewritten 2026-04-12 |
+| 73 | DONE | `philosophy-copernican-revolution.html` | Your Salvation Doesn't Revolve Around You — The Copernican Revolution of the Soul | Philosophy | 2089→~1727 | ~9 min | Rewritten 2026-04-12 |
+| 74 | DONE | `compare-monergism-synergism.html` | Does God Save Alone, or Do You Help? Monergism vs Synergism | Comparisons | 2088→~1692 | ~9 min | Rewritten 2026-04-12 |
+| 75 | DONE | `systematic-trinity.html` | One God, Three Persons — The Trinity in Scripture and Salvation | Systematic Theology | 2085→~1872 | ~10 min | Rewritten 2026-04-12 |
+| 76 | DONE | `philosophy-prisoners-dilemma.html` | The Prisoner's Dilemma of Salvation: Why Self-Interest Always Betrays | Philosophy | 2079→~1683 | ~9 min | Rewritten 2026-04-12 |
+| 77 | DONE | `story-the-self-made-man.html` | The Self-Made Man: A Story About Self-Salvation | Stories | 2074→~1300 | ~7 min | Rewritten 2026-04-12 |
+| 78 | DONE | `question-calvinist-on-knees.html` | Everyone Is a Calvinist on Their Knees | Questions | 2073→~1350 | ~7 min | Rewritten 2026-04-12 |
+| 79 | DONE | `question-external-call.html` | Why Some People Hear the Gospel and Walk Away — The Two Calls of God | Questions | 2073→~1354 | ~7 min | Rewritten 2026-04-12 |
+| 80 | DONE | `question-hardening.html` | Does God Harden Hearts? Yes — And Here's What That Means | Questions | 2071→~1395 | ~7 min | Rewritten 2026-04-12 |
+| 81 | DONE | `objection-god-could-save-all.html` | If God Could Save Everyone, Why Doesn't He? | Questions | 2060→~1581 | ~8 min | Rewritten 2026-04-12 |
+| 82 | DONE | `devotional-the-god-who-wastes-nothing.html` | The God Who Wastes Nothing — When Your Suffering Has a Sovereign Purpose | Devotionals | 2058→~1594 | ~8 min | Rewritten 2026-04-12 |
+| 83 | DONE | `secular-history-sovereignty.html` | The History of Sovereignty — When Secular Historians Document Divine Control | Secular Evidence | 2057→~1480 | ~8 min | Rewritten 2026-04-12 |
+| 84 | DONE | `shattered-lens-lost-community.html` | When Seeing the Truth Cost You Your Community | Healing | 2053→~1450 | ~8 min | Rewritten 2026-04-12 |
+| 85 | DONE | `demolition-2peter2-1.html` | "The Master Who Bought Them" — Does 2 Peter 2:1 Prove Universal Atonement? | Demolition | 2046→~1375 | ~7 min | Rewritten 2026-04-12 |
+| 86 | DONE | `start-here-phase4.html` | But What About Free Will and Fairness? — Phase 4 | Other | 2040→~1400 | ~7 min | Rewritten 2026-04-12 |
+| 87 | DONE | `devotional-adoption-papers.html` | Your Name Was Written Before You Were Born — Adoption and Grace | Devotionals | 2038→~1400 | ~7 min | Rewritten 2026-04-12 |
+| 88 | DONE | `philosophy-bootstrap-paradox.html` | Try to Believe the Sky Is Green. You Can't. That's the Point. | Philosophy | 2037→~1450 | ~8 min | Rewritten 2026-04-12 |
+| 89 | DONE | `open-wound-miscarriage.html` | The Child You Never Held — After Miscarriage and Infant Loss | Healing | 2023→~1350 | ~7 min | Rewritten 2026-04-12 |
+| 90 | DONE | `demolition-john12-32.html` | Demolition: John 12:32 — "I Will Draw ALL People" | Demolition | 2020→~1200 | ~6 min | Rewritten 2026-04-12 |
+| 91 | DONE | `devotional-my-chains-fell-away.html` | My Chains Fell Away | Devotionals | 2018→~954 | ~5 min | Rewritten 2026-04-12 |
+| 92 | DONE | `question-ezekiel37.html` | Dead Bones Don't Volunteer — Ezekiel 37 | Questions | 2018→~912 | ~5 min | Rewritten 2026-04-12 |
+| 93 | DONE | `demolition-matt23-37.html` | Demolition: Matthew 23:37 — Jesus's Lament Over Jerusalem | Demolition | 2016→~1228 | ~7 min | Rewritten 2026-04-12 |
+| 94 | DONE | `psychology-language-acquisition.html` | You Didn't Choose Your Mother Tongue | Psychology | 2016→~1231 | ~7 min | Rewritten 2026-04-12 |
+| 95 | DONE | `philosophy-observer-effect-sin.html` | The Observer Effect of Sin | Philosophy | 2010→~1350 | ~7 min | Rewritten 2026-04-12 |
+| 96 | DONE | `open-wound-the-prayer-god-didnt-answer.html` | The Prayer God Didn't Answer — And What That Means | Healing | 2006→~1050 | ~6 min | Rewritten 2026-04-12 |
+| 97 | DONE | `philosophy-what-if-wrong.html` | What If You're Wrong? — The Soteriological Pascal's Wager | Philosophy | 1996→~1098 | ~6 min | Rewritten 2026-04-12 |
+| 98 | DONE | `devotional-cold-church.html` | Your Heart Used to Burn. Now It's Barely Warm. | Devotionals | 1990→~1433 | ~8 min | Rewritten 2026-04-12 |
+| 99 | DONE | `devotional-not-my-will-but-joy.html` | What If Surrendering Your Will Is Where Joy Begins? | Devotionals | 1990→~1745 | ~9 min | Rewritten 2026-04-12 |
+| 100 | DONE | `theologian-warfield.html` | B.B. Warfield: The Lion of Princeton | Theologians | 1981→~1143 | ~6 min | Rewritten 2026-04-12 |
 | 101 | OPEN | `demolition-1tim4-10.html` | "Savior of All People" — Does 1 Timothy 4:10 Prove Universal Atonement? | Demolition | 1974 | ~10 min | |
 | 102 | OPEN | `devotional-chosen-before-you-were-broken.html` | Chosen Before You Were Broken | Devotionals | 1970 | ~10 min | |
 | 103 | OPEN | `psychology-addiction-proof.html` | What Every Recovering Addict Already Knows About Salvation | Psychology | 1962 | ~10 min | |
