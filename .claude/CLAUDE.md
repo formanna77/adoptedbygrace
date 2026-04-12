@@ -560,6 +560,7 @@ This has caused SITE-BREAKING damage in the past (April 2026). Pages rendered as
 - Brevity over bloat. Devotionals = 5 min read. Every sentence earns its place.
 - Writing models: Lewis, Buechner, Spurgeon, Keller.
 - Weave clever theology humor into pages where appropriate.
+- **NEVER use "TL;DR" in any content.** It is internet slang that undermines the gravity and beauty of what this site communicates. Use "In Brief" instead. The CSS class `.tldr` may remain in the codebase (visitors never see class names), but the visible text a reader sees must ALWAYS say "In Brief" — never "TL;DR."
 
 ### BIBLE TRANSLATION — NIV ONLY (MANDATORY FOR ALL AGENTS)
 

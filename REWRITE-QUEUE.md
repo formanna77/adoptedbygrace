@@ -30,56 +30,56 @@ Target: ~1,500 words max per article (~10 min read)
 
 | # | Status | File | Title | Category | Words | Read Time | Notes |
 |---|--------|------|-------|----------|-------|-----------|-------|
-| 1 | OPEN | `objection-why-command.html` | If God Predestined Everything, Why Does He Command? | Questions | 8288 | ~42 min | SPLIT? |
-| 2 | OPEN | `compare-calvinism-arminianism.html` | Calvinism vs Arminianism — What Does the Bible Actually Teach? | Comparisons | 7960 | ~40 min | SPLIT? |
+| 1 | DONE | `objection-why-command.html` | If God Predestined Everything, Why Does He Command? | Questions | 8288 | ~42 min | SPLIT? |
+| 2 | DONE | `compare-calvinism-arminianism.html` | Calvinism vs Arminianism — What Does the Bible Actually Teach? | Comparisons | 7960 | ~40 min | SPLIT? |
 | 3 | DONE | `creed-canons-dort.html` | The Canons of Dort — The Confession That Defended Grace Against Works | History | 7801 | ~40 min | SPLIT? |
-| 4 | OPEN | `systematic-hamartiology.html` | You're Not Sick in Sin — You're Dead. Here's What That Means. | Systematic Theology | 6905 | ~35 min | SPLIT? |
-| 5 | OPEN | `systematic-ordo-salutis.html` | The Order of Salvation — Every Step Is God's, Not Yours | Systematic Theology | 6900 | ~35 min | SPLIT? |
-| 6 | OPEN | `systematic-christology.html` | The Glory of Christ — Who Jesus Is and Why It Matters for Your Salvation | Systematic Theology | 6765 | ~34 min | SPLIT? |
-| 7 | OPEN | `question-irresistible.html` | Drawn, Not Dragged — The Unstoppable Grace of Effectual Calling | Questions | 6573 | ~33 min | SPLIT? |
-| 8 | OPEN | `demolition-steel-man-arminianism.html` | The Strongest Case for Free Will — And Why Scripture Teaches Something Deeper | Demolition | 6403 | ~33 min | SPLIT? |
-| 9 | OPEN | `ot-jacob-esau.html` | Jacob Over Esau: God's Sovereign Election Before Birth | Old Testament | 6337 | ~32 min | SPLIT? |
-| 10 | OPEN | `demolition-john3-16.html` | Demolition: John 3:16 — Does "The World" Mean Every Individual? | Demolition | 6067 | ~31 min | SPLIT? |
-| 11 | OPEN | `secular-sociology-human-inability.html` | Every Social Experiment Confirms What Scripture Already Knew | Secular Evidence | 5934 | ~30 min | SPLIT? |
-| 12 | OPEN | `question-1peter1.html` | Elect According to Foreknowledge — But What Does "Foreknowledge" Mean? | Questions | 5903 | ~30 min | SPLIT? |
-| 13 | OPEN | `question-depravity.html` | Dead, Not Sick — The Bible's Diagnosis of the Human Condition | Questions | 5736 | ~29 min | SPLIT? |
-| 14 | OPEN | `history-dort.html` | The Synod of Dort — When the Church Formally Chose Grace Over Works | History | 5623 | ~29 min | SPLIT? |
-| 15 | OPEN | `systematic-covenant-theology.html` | One Plan, One People, One Mediator — Covenant Theology | Systematic Theology | 5594 | ~28 min | SPLIT? |
-| 16 | OPEN | `systematic-divine-decrees.html` | Before the Foundation of the World — God's Eternal Decrees | Systematic Theology | 5434 | ~28 min | SPLIT? |
-| 17 | OPEN | `question-perseverance.html` | Once Saved, Always Saved? What Scripture Actually Promises | Questions | 5402 | ~28 min | SPLIT? |
-| 18 | OPEN | `systematic-compatibilism.html` | How Can God Be Sovereign AND Humans Be Responsible? Both Are True. | Systematic Theology | 5318 | ~27 min | SPLIT? |
-| 19 | OPEN | `systematic-pneumatology.html` | The Holy Spirit — Who He Is and Why He Changes Everything | Systematic Theology | 5304 | ~27 min | SPLIT? |
-| 20 | OPEN | `systematic-anthropology.html` | What Are You? Created in Glory, Ruined by Sin, Rescued by Grace | Systematic Theology | 5185 | ~26 min | SPLIT? |
-| 21 | OPEN | `question-psalm139.html` | Known Before You Were Known — Psalm 139 and the God Who Wrote Your Story Before It Began | Questions | 5106 | ~26 min | SPLIT? |
-| 22 | OPEN | `objection-manipulation.html` | Does God Manipulate Us? Sovereignty vs. Control Explained | Questions | 5000 | ~25 min |  |
-| 23 | OPEN | `ot-jonah.html` | The Prophet Who Tried to Outrun God — And What Happened Next | Old Testament | 4971 | ~25 min |  |
-| 24 | OPEN | `systematic-ecclesiology.html` | The Church — Why God's People Are Called Out, Not Volunteered | Systematic Theology | 4886 | ~25 min |  |
-| 25 | OPEN | `objection-faith-choice.html` | Isn't Faith a Choice? The Question That Changes Everything | Questions | 4870 | ~25 min |  |
-| 26 | OPEN | `ot-moses-pharaoh.html` | Moses, Pharaoh, and the God Who Hardened a King's Heart | Old Testament | 4837 | ~25 min |  |
-| 27 | OPEN | `secular-philosophy-free-will.html` | Philosophy's 2,500-Year Verdict on Free Will — It Doesn't Exist | Secular Evidence | 4771 | ~24 min |  |
-| 28 | OPEN | `systematic-theology-proper.html` | Who Is God? The Foundation Everything Else Stands On | Systematic Theology | 4731 | ~24 min |  |
-| 29 | OPEN | `ot-abraham.html` | Abraham & Election | Old Testament | 4686 | ~24 min |  |
-| 30 | OPEN | `theologian-augustine.html` | Augustine: The Rebel God Hunted Down and Made a Theologian | Theologians | 4581 | ~23 min |  |
-| 31 | OPEN | `resistance-last-idol.html` | The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender | Psychology | 4543 | ~23 min |  |
-| 32 | OPEN | `systematic-justification.html` | Justified — How God Declares Guilty Sinners Righteous | Systematic Theology | 4525 | ~23 min |  |
-| 33 | OPEN | `question-isaiah53.html` | Isaiah 53: The Servant Who Bore the Sins of Many | Questions | 4509 | ~23 min |  |
-| 34 | OPEN | `history-great-awakening.html` | The Great Awakening — When God's Sovereignty Set America on Fire | History | 4503 | ~23 min |  |
-| 35 | OPEN | `history-spurgeon-downgrade.html` | When Spurgeon Stood Alone for Truth — The Downgrade Controversy | History | 4459 | ~23 min |  |
-| 36 | OPEN | `history-augustine-pelagius.html` | Augustine vs Pelagius — The Trial That Saved Christianity | History | 4455 | ~23 min |  |
-| 37 | OPEN | `question-acts4.html` | The Cross Was Predestined — Acts 4:27-28 and the Sovereignty Behind Calvary | Questions | 4406 | ~23 min |  |
-| 38 | OPEN | `theologian-luther.html` | Martin Luther: The Monk Who Broke the Church to Save It | Theologians | 4311 | ~22 min |  |
-| 39 | OPEN | `ot-david.html` | David: God's Sovereign Election for Kingship | Old Testament | 4302 | ~22 min |  |
-| 40 | OPEN | `demolition-ezekiel18-23.html` | Does God Take Pleasure in Death? What Ezekiel 18:23 Actually Means | Demolition | 4295 | ~22 min |  |
-| 41 | OPEN | `objection-desire.html` | Doesn't God Want All People Saved? The Answer From Scripture | Questions | 4290 | ~22 min |  |
-| 42 | OPEN | `psychology-comfort-self-salvation.html` | Why Believing You Saved Yourself Feels Right | Psychology | 4267 | ~22 min |  |
-| 43 | OPEN | `pastoral-when-truth-lands.html` | What It Feels Like When the Truth Lands | Pastoral | 4202 | ~22 min |  |
-| 44 | OPEN | `question-faithgift.html` | Is Faith a Gift from God? What the Bible Actually Says | Questions | 4164 | ~21 min |  |
-| 45 | OPEN | `question-2tim1-9.html` | "Not Because of Our Works" — The Verse That Ends the Debate | Questions | 4143 | ~21 min |  |
-| 46 | OPEN | `demolition-1john2-2.html` | Does "The Whole World" in 1 John 2:2 Prove Universal Atonement? | Demolition | 4099 | ~21 min |  |
-| 47 | OPEN | `apologetic-babies.html` | What About Babies Who Die? — Grace, Covenant, and the Littlest Lambs | Other | 4085 | ~21 min |  |
-| 48 | OPEN | `ot-jeremiah.html` | Jeremiah: Called Before Formation — "Before I Formed You I Knew You" | Old Testament | 4082 | ~21 min |  |
-| 49 | OPEN | `question-repentance-total-depravity.html` | Can You Truly Repent If You Reject Total Depravity? | Questions | 4062 | ~21 min |  |
-| 50 | OPEN | `systematic-prolegomena.html` | Why Scripture Is the Final Word — And Why That Matters for Grace | Systematic Theology | 4034 | ~21 min |  |
+| 4 | DONE | `systematic-hamartiology.html` | You're Not Sick in Sin — You're Dead. Here's What That Means. | Systematic Theology | 6905 | ~35 min | SPLIT? |
+| 5 | DONE | `systematic-ordo-salutis.html` | The Order of Salvation — Every Step Is God's, Not Yours | Systematic Theology | 6900 | ~35 min | SPLIT? |
+| 6 | DONE | `systematic-christology.html` | The Glory of Christ — Who Jesus Is and Why It Matters for Your Salvation | Systematic Theology | 6765 | ~34 min | SPLIT? |
+| 7 | DONE | `question-irresistible.html` | Drawn, Not Dragged — The Unstoppable Grace of Effectual Calling | Questions | 6573 | ~33 min | SPLIT? |
+| 8 | DONE | `demolition-steel-man-arminianism.html` | The Strongest Case for Free Will — And Why Scripture Teaches Something Deeper | Demolition | 6403 | ~33 min | SPLIT? |
+| 9 | DONE | `ot-jacob-esau.html` | Jacob Over Esau: God's Sovereign Election Before Birth | Old Testament | 6337 | ~32 min | SPLIT? |
+| 10 | DONE | `demolition-john3-16.html` | Demolition: John 3:16 — Does "The World" Mean Every Individual? | Demolition | 6067 | ~31 min | SPLIT? |
+| 11 | DONE | `secular-sociology-human-inability.html` | Every Social Experiment Confirms What Scripture Already Knew | Secular Evidence | 5934 | ~30 min | SPLIT? |
+| 12 | DONE | `question-1peter1.html` | Elect According to Foreknowledge — But What Does "Foreknowledge" Mean? | Questions | 5903 | ~30 min | SPLIT? |
+| 13 | DONE | `question-depravity.html` | Dead, Not Sick — The Bible's Diagnosis of the Human Condition | Questions | 5736 | ~29 min | SPLIT? |
+| 14 | DONE | `history-dort.html` | The Synod of Dort — When the Church Formally Chose Grace Over Works | History | 5623 | ~29 min | SPLIT? |
+| 15 | DONE | `systematic-covenant-theology.html` | One Plan, One People, One Mediator — Covenant Theology | Systematic Theology | 5594 | ~28 min | SPLIT? |
+| 16 | DONE | `systematic-divine-decrees.html` | Before the Foundation of the World — God's Eternal Decrees | Systematic Theology | 5434 | ~28 min | SPLIT? |
+| 17 | DONE | `question-perseverance.html` | Once Saved, Always Saved? What Scripture Actually Promises | Questions | 5402 | ~28 min | SPLIT? |
+| 18 | DONE | `systematic-compatibilism.html` | How Can God Be Sovereign AND Humans Be Responsible? Both Are True. | Systematic Theology | 5318 | ~27 min | SPLIT? |
+| 19 | DONE | `systematic-pneumatology.html` | The Holy Spirit — Who He Is and Why He Changes Everything | Systematic Theology | 5304 | ~27 min | SPLIT? |
+| 20 | DONE | `systematic-anthropology.html` | What Are You? Created in Glory, Ruined by Sin, Rescued by Grace | Systematic Theology | 5185 | ~26 min | SPLIT? |
+| 21 | DONE | `question-psalm139.html` | Known Before You Were Known — Psalm 139 and the God Who Wrote Your Story Before It Began | Questions | 5106 | ~26 min | SPLIT? |
+| 22 | DONE | `objection-manipulation.html` | Does God Manipulate Us? Sovereignty vs. Control Explained | Questions | 5000 | ~25 min |  |
+| 23 | DONE | `ot-jonah.html` | The Prophet Who Tried to Outrun God — And What Happened Next | Old Testament | 4971 | ~25 min |  |
+| 24 | DONE | `systematic-ecclesiology.html` | The Church — Why God's People Are Called Out, Not Volunteered | Systematic Theology | 4886 | ~25 min |  |
+| 25 | DONE | `objection-faith-choice.html` | Isn't Faith a Choice? The Question That Changes Everything | Questions | 4870 | ~25 min |  |
+| 26 | DONE | `ot-moses-pharaoh.html` | Moses, Pharaoh, and the God Who Hardened a King's Heart | Old Testament | 4837 | ~25 min |  |
+| 27 | DONE | `secular-philosophy-free-will.html` | Philosophy's 2,500-Year Verdict on Free Will — It Doesn't Exist | Secular Evidence | 4771 | ~24 min |  |
+| 28 | DONE | `systematic-theology-proper.html` | Who Is God? The Foundation Everything Else Stands On | Systematic Theology | 4731 | ~24 min |  |
+| 29 | DONE | `ot-abraham.html` | Abraham & Election | Old Testament | 4686 | ~24 min |  |
+| 30 | DONE | `theologian-augustine.html` | Augustine: The Rebel God Hunted Down and Made a Theologian | Theologians | 4581 | ~23 min |  |
+| 31 | DONE | `resistance-last-idol.html` | The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender | Psychology | 4543 | ~23 min |  |
+| 32 | DONE | `systematic-justification.html` | Justified — How God Declares Guilty Sinners Righteous | Systematic Theology | 4525 | ~23 min |  |
+| 33 | DONE | `question-isaiah53.html` | Isaiah 53: The Servant Who Bore the Sins of Many | Questions | 4509 | ~23 min |  |
+| 34 | DONE | `history-great-awakening.html` | The Great Awakening — When God's Sovereignty Set America on Fire | History | 4503 | ~23 min |  |
+| 35 | DONE | `history-spurgeon-downgrade.html` | When Spurgeon Stood Alone for Truth — The Downgrade Controversy | History | 4459 | ~23 min |  |
+| 36 | DONE | `history-augustine-pelagius.html` | Augustine vs Pelagius — The Trial That Saved Christianity | History | 4455 | ~23 min |  |
+| 37 | DONE | `question-acts4.html` | The Cross Was Predestined — Acts 4:27-28 and the Sovereignty Behind Calvary | Questions | 4406 | ~23 min |  |
+| 38 | DONE | `theologian-luther.html` | Martin Luther: The Monk Who Broke the Church to Save It | Theologians | 4311 | ~22 min |  |
+| 39 | DONE | `ot-david.html` | David: God's Sovereign Election for Kingship | Old Testament | 4302 | ~22 min |  |
+| 40 | DONE | `demolition-ezekiel18-23.html` | Does God Take Pleasure in Death? What Ezekiel 18:23 Actually Means | Demolition | 4295 | ~22 min |  |
+| 41 | DONE | `objection-desire.html` | Doesn't God Want All People Saved? The Answer From Scripture | Questions | 4290 | ~22 min |  |
+| 42 | DONE | `psychology-comfort-self-salvation.html` | Why Believing You Saved Yourself Feels Right | Psychology | 4267 | ~22 min |  |
+| 43 | DONE | `pastoral-when-truth-lands.html` | What It Feels Like When the Truth Lands | Pastoral | 4202 | ~22 min |  |
+| 44 | DONE | `question-faithgift.html` | Is Faith a Gift from God? What the Bible Actually Says | Questions | 4164 | ~21 min |  |
+| 45 | DONE | `question-2tim1-9.html` | "Not Because of Our Works" — The Verse That Ends the Debate | Questions | 4143 | ~21 min |  |
+| 46 | DONE | `demolition-1john2-2.html` | Does "The Whole World" in 1 John 2:2 Prove Universal Atonement? | Demolition | 4099 | ~21 min |  |
+| 47 | DONE | `apologetic-babies.html` | What About Babies Who Die? — Grace, Covenant, and the Littlest Lambs | Other | 4085 | ~21 min |  |
+| 48 | DONE | `ot-jeremiah.html` | Jeremiah: Called Before Formation — "Before I Formed You I Knew You" | Old Testament | 4082 | ~21 min |  |
+| 49 | DONE | `question-repentance-total-depravity.html` | Can You Truly Repent If You Reject Total Depravity? | Questions | 4062 | ~21 min |  |
+| 50 | DONE | `systematic-prolegomena.html` | Why Scripture Is the Final Word — And Why That Matters for Grace | Systematic Theology | 4034 | ~21 min |  |
 
 ## HIGH PRIORITY (2500-4000 words) — 138 articles
 
@@ -139,43 +139,43 @@ Target: ~1,500 words max per article (~10 min read)
 | 52 | DONE | `devotional-rescued-without-a-say.html` | You Didn't Ask to Be Saved. God Did It Anyway. | Devotionals | ~1450 | ~8 min | Rewritten 2026-04-11 |
 | 53 | DONE | `devotional-i-cant-feel-god.html` | I Can't Feel God Anymore | Devotionals | ~1450 | ~8 min | Rewritten 2026-04-11 |
 | 54 | DONE | `secular-art-literature-reformed-truth.html` | Art & Literature — How the Greatest Writers Intuited Reformed Truth | Secular Evidence | ~1450 | ~8 min | Rewritten 2026-04-11 |
-| 55 | OPEN | `history-council-of-orange.html` | The Council of Orange (529 AD) — The Church Already Settled This | History | 3266 | ~17 min | |
-| 56 | OPEN | `compare-grace-reformed-vs-arminian.html` | Two Versions of Grace — One Is Real. One Is Man-Made. | Comparisons | 3251 | ~17 min | |
-| 57 | OPEN | `joy-no-other-theology.html` | (no title) | Other | 3233 | ~17 min | |
-| 58 | OPEN | `objection-effort.html` | If Everything Is Predetermined, Why Even Try? | Questions | 3229 | ~17 min | |
-| 59 | OPEN | `demolition-faith-is-not-a-gift.html` | "Faith Is Not a Gift" — Why the Most Popular Objection to Grace Collapses | Demolition | 3217 | ~17 min | |
-| 60 | OPEN | `question-are-arminians-saved.html` | Are Arminians Saved? What Scripture Actually Teaches About Grace and Works | Questions | 3190 | ~16 min | |
-| 61 | OPEN | `analogy-lazarus-grave.html` | The Lazarus Argument: Dead People Don't Choose to Live | Stories | 3189 | ~16 min | |
-| 62 | OPEN | `question-chosen.html` | Did God Choose You Before You Were Born? | Questions | 3187 | ~16 min | |
-| 63 | OPEN | `question-unfair.html` | Is God Unfair? Paul's Answer Will Silence You — Romans 9:19-23 | Questions | 3181 | ~16 min | |
-| 64 | OPEN | `broken-mirror-grace-too-good.html` | When Grace Feels Too Good to Be True | Healing | 3171 | ~16 min | |
-| 65 | OPEN | `theologian-calvin.html` | John Calvin — The Theologian of God's Sovereignty | Theologians | 3127 | ~16 min | |
-| 66 | OPEN | `theologian-edwards.html` | Jonathan Edwards: The Man Who Saw God's Sovereignty and Trembled | Theologians | 3109 | ~16 min | |
-| 67 | OPEN | `psychology-pride-root-objection.html` | Why Do We Reject Grace? Pride Is the Root | Psychology | 3104 | ~16 min | |
-| 68 | OPEN | `demolition-cut-off-from-root.html` | Cut Off from the Root — Why Sin Doesn't Just Wound. It Kills. | Demolition | 3085 | ~16 min | |
-| 69 | OPEN | `psychology-illusion-free-will.html` | Your Brain Decides Before You Do | Psychology | 3082 | ~16 min | |
-| 70 | OPEN | `devotional-the-secretly-ashamed.html` | For the Secretly Ashamed | Devotionals | 3081 | ~16 min | |
-| 71 | OPEN | `systematic-atonement.html` | The Atonement: What Christ's Death Accomplished | Systematic Theology | 3077 | ~16 min | |
-| 72 | OPEN | `ot-prophets-remnant.html` | The Remnant — How God Has Always Preserved His Chosen Few | Old Testament | 3072 | ~16 min | |
-| 73 | OPEN | `romans-8-28-39.html` | Romans 8:28-39: The Chain No One Can Break | Other | 3070 | ~16 min | |
-| 74 | OPEN | `analogy-song-you-didnt-compose.html` | The Song You Didn't Compose — Why Beauty Proves Grace | Stories | 3067 | ~16 min | |
-| 75 | OPEN | `shattered-lens-taught-wrong.html` | When Everything You Were Taught Was Wrong | Healing | 3059 | ~16 min | |
-| 76 | OPEN | `pastoral-evangelism.html` | If God Already Chose, Why Share the Gospel? | Pastoral | 3049 | ~16 min | |
-| 77 | OPEN | `story-the-dead-city.html` | What If Everyone Was Dead and Didn't Know It? A Parable About Sin | Stories | 3046 | ~16 min | |
-| 78 | OPEN | `story-real-conversions.html` | Real Conversions: What Actually Happens When God Saves Someone | Stories | 3040 | ~16 min | |
-| 79 | OPEN | `joy-staggering-contrast.html` | The Staggering Contrast: What Two Theologies Actually Give You | Other | 3036 | ~16 min | |
-| 80 | OPEN | `broken-mirror-performance-treadmill.html` | The Performance Treadmill — When Doing Enough for God Becomes a Prison | Healing | 3023 | ~16 min | |
-| 81 | OPEN | `question-book-of-life.html` | Can God Blot Your Name from the Book of Life? | Questions | 3019 | ~16 min | |
-| 82 | OPEN | `history-puritans.html` | The Puritans — When Theology Set Nations on Fire | History | 3018 | ~16 min | |
-| 83 | OPEN | `demolition-matthew-23-37.html` | Matthew 23:37 — The Verse They Think Disproves Sovereignty | Demolition | 3008 | ~16 min | |
-| 84 | OPEN | `objection-babies.html` | What About Babies Who Die? Election, Infant Salvation, and the God Who Saves Without Permission | Questions | 3004 | ~16 min | |
-| 85 | OPEN | `question-freewill.html` | Is Free Will Real? What the Bible Actually Teaches About Human Choice | Questions | 2988 | ~15 min | |
-| 86 | OPEN | `history-open-theism.html` | Open Theism: The Heresy That Finally Said the Quiet Part Out Loud | History | 2981 | ~15 min | |
-| 87 | OPEN | `story-historical-luther-storm.html` | Martin Luther's Thunderstorm: How God Chose a Monk Before He Chose God | Stories | 2974 | ~15 min | |
-| 88 | OPEN | `ot-isaiah-servant.html` | Isaiah: The Servant &amp; God's Immutable Counsel | Old Testament | 2934 | ~15 min | |
-| 89 | OPEN | `story-dark-the-altar-he-built-himself.html` | The Altar He Built Himself — A Story About the Religion That Almost Killed Him | Stories | 2882 | ~15 min | |
-| 90 | OPEN | `story-thought-the-day-you-chose-again.html` | The Day You Got to Choose Again — A Thought Experiment About Free Will and Grace | Stories | 2880 | ~15 min | |
-| 91 | OPEN | `history-golden-thread.html` | 2,000 Years of Sovereign Grace — The Golden Thread Through Church History | History | 2869 | ~15 min | |
+| 55 | DONE 2026-04-12 (3266→1317) | `history-council-of-orange.html` | The Council of Orange (529 AD) — The Church Already Settled This | History | 3266 | ~17 min | |
+| 56 | DONE 2026-04-12 (3251→1335) | `compare-grace-reformed-vs-arminian.html` | Two Versions of Grace — One Is Real. One Is Man-Made. | Comparisons | 3251 | ~17 min | |
+| 57 | DONE 2026-04-12 (3233→1329) | `joy-no-other-theology.html` | (no title) | Other | 3233 | ~17 min | |
+| 58 | DONE 2026-04-12 (3229→1546) | `objection-effort.html` | If Everything Is Predetermined, Why Even Try? | Questions | 3229 | ~17 min | |
+| 59 | DONE 2026-04-12 (3217→1532) | `demolition-faith-is-not-a-gift.html` | "Faith Is Not a Gift" — Why the Most Popular Objection to Grace Collapses | Demolition | 3217 | ~17 min | |
+| 60 | DONE 2026-04-12 (3190→1164) | `question-are-arminians-saved.html` | Are Arminians Saved? What Scripture Actually Teaches About Grace and Works | Questions | 3190 | ~16 min | |
+| 61 | DONE 2026-04-12 (3189→1557) | `analogy-lazarus-grave.html` | The Lazarus Argument: Dead People Don't Choose to Live | Stories | 3189 | ~16 min | |
+| 62 | DONE 2026-04-12 (3187→1071) | `question-chosen.html` | Did God Choose You Before You Were Born? | Questions | 3187 | ~16 min | |
+| 63 | DONE 2026-04-12 (3181→1491) | `question-unfair.html` | Is God Unfair? Paul's Answer Will Silence You — Romans 9:19-23 | Questions | 3181 | ~16 min | |
+| 64 | DONE 2026-04-12 (3171→1346) | `broken-mirror-grace-too-good.html` | When Grace Feels Too Good to Be True | Healing | 3171 | ~16 min | |
+| 65 | DONE 2026-04-12 (3127→1183) | `theologian-calvin.html` | John Calvin — The Theologian of God's Sovereignty | Theologians | 3127 | ~16 min | |
+| 66 | DONE 2026-04-12 (3109→1559) | `theologian-edwards.html` | Jonathan Edwards: The Mind That Set a Nation on Fire | Theologians | 3109 | ~16 min | |
+| 67 | DONE 2026-04-12 (3104→1746) | `psychology-pride-root-objection.html` | Pride: The Root of Every Objection to Grace | Psychology | 3104 | ~16 min | |
+| 68 | DONE 2026-04-12 (3085→1543) | `demolition-cut-off-from-root.html` | Cut Off from the Root — Why Sin Doesn't Wound. It Kills. | Demolition | 3085 | ~16 min | |
+| 69 | DONE 2026-04-12 (3082→1617) | `psychology-illusion-free-will.html` | Your Brain Decides Before You Do | Psychology | 3082 | ~16 min | |
+| 70 | DONE 2026-04-12 (3081→1623) | `devotional-the-secretly-ashamed.html` | For the Secretly Ashamed | Devotionals | 3081 | ~16 min | |
+| 71 | DONE 2026-04-12 (3077→1620) | `systematic-atonement.html` | The Atonement: What Christ's Death Accomplished | Systematic Theology | 3077 | ~16 min | |
+| 72 | DONE 2026-04-12 (3072→1588) | `ot-prophets-remnant.html` | The Remnant — How God Has Always Preserved His Chosen Few | Old Testament | 3072 | ~16 min | |
+| 73 | DONE 2026-04-12 (3070→1668) | `romans-8-28-39.html` | Romans 8:28-39: The Chain No One Can Break | Other | 3070 | ~16 min | |
+| 74 | DONE 2026-04-12 (3067→1551) | `analogy-song-you-didnt-compose.html` | The Song You Didn't Compose — Why Beauty Proves Grace | Stories | 3067 | ~16 min | |
+| 75 | DONE 2026-04-12 (3059→1756) | `shattered-lens-taught-wrong.html` | When Everything You Were Taught Was Wrong | Healing | 3059 | ~16 min | |
+| 76 | DONE 2026-04-12 (3049→1461) | `pastoral-evangelism.html` | If God Already Chose, Why Share the Gospel? | Pastoral | 3049 | ~16 min | |
+| 77 | DONE 2026-04-12 (3046→1579) | `story-the-dead-city.html` | What If Everyone Was Dead and Didn't Know It? A Parable About Sin | Stories | 3046 | ~16 min | |
+| 78 | DONE 2026-04-12 (3040→1322) | `story-real-conversions.html` | Real Conversions: What Actually Happens When God Saves Someone | Stories | 3040 | ~16 min | |
+| 79 | DONE 2026-04-12 (3036→1420) | `joy-staggering-contrast.html` | The Staggering Contrast: What Two Theologies Actually Give You | Other | 3036 | ~16 min | |
+| 80 | DONE 2026-04-12 (3023→1354) | `broken-mirror-performance-treadmill.html` | The Performance Treadmill — When Doing Enough for God Becomes a Prison | Healing | 3023 | ~16 min | |
+| 81 | DONE 2026-04-12 (3019→1260) | `question-book-of-life.html` | Can God Blot Your Name from the Book of Life? | Questions | 3019 | ~16 min | |
+| 82 | DONE 2026-04-12 (3018→1520) | `history-puritans.html` | The Puritans — When Theology Set Nations on Fire | History | 3018 | ~16 min | |
+| 83 | DONE 2026-04-12 (3008→1320) | `demolition-matthew-23-37.html` | Matthew 23:37 — The Verse They Think Disproves Sovereignty | Demolition | 3008 | ~16 min | |
+| 84 | DONE 2026-04-12 (3004→1315) | `objection-babies.html` | What About Babies Who Die? Election, Infant Salvation, and the God Who Saves Without Permission | Questions | 3004 | ~16 min | |
+| 85 | DONE 2026-04-12 (2988→1570) | `question-freewill.html` | Is Free Will Real? What the Bible Actually Teaches About Human Choice | Questions | 2988 | ~15 min | |
+| 86 | DONE 2026-04-12 (2981→1654) | `history-open-theism.html` | Open Theism: The Heresy That Finally Said the Quiet Part Out Loud | History | 2981 | ~15 min | |
+| 87 | DONE 2026-04-12 (2974→1371) | `story-historical-luther-storm.html` | Martin Luther's Thunderstorm: How God Chose a Monk Before He Chose God | Stories | 2974 | ~15 min | |
+| 88 | DONE | `ot-isaiah-servant.html` | Isaiah: The Servant &amp; God's Immutable Counsel | Old Testament | 2934→1689 | ~8 min | Rewritten 2026-04-12 |
+| 89 | DONE | `story-dark-the-altar-he-built-himself.html` | The Altar He Built Himself — A Story About the Religion That Almost Killed Him | Stories | 2882→1682 | ~8 min | Rewritten 2026-04-12 |
+| 90 | DONE | `story-thought-the-day-you-chose-again.html` | The Day You Got to Choose Again — A Thought Experiment About Free Will and Grace | Stories | 2880→1589 | ~8 min | Rewritten 2026-04-12 |
+| 91 | DONE 2026-04-12 (2869→1514) | `history-golden-thread.html` | 2,000 Years of Sovereign Grace — The Golden Thread Through Church History | History | 2869 | ~15 min | |
 | 92 | OPEN | `question-bible-says-sick.html` | Does the Bible Say We're Sick, Not Dead? | Questions | 2865 | ~15 min | |
 | 93 | OPEN | `story-dark-the-woman-who-earned-her-seat.html` | The Woman Who Earned Her Seat — A Story About the Righteousness That Damns | Stories | 2844 | ~15 min | |
 | 94 | OPEN | `demolition-children-of-satan.html` | Children of Satan — What Scripture Actually Calls the Unregenerate | Demolition | 2836 | ~15 min | |
@@ -237,47 +237,47 @@ Target: ~1,500 words max per article (~10 min read)
 | 7 | OPEN | `open-wound-empty-nursery.html` | When God Is Sovereign and the Nursery Is Empty | Healing | 2461 | ~13 min | |
 | 8 | OPEN | `psychology-hostility-reaction.html` | Why the Truth That Makes You Angriest Is the One That Will Set You Free | Psychology | 2458 | ~13 min | |
 | 9 | OPEN | `question-secure.html` | Eternal Security: Can a Believer Lose Salvation? | Questions | 2456 | ~13 min | |
-| 10 | OPEN | `philosophy-infinite-regress-of-choice.html` | Why "I Chose God" Is a Sentence That Destroys Itself | Philosophy | 2450 | ~13 min | |
-| 11 | OPEN | `systematic-election.html` | Chosen Before the Foundation of the World — What Scripture Teaches About Election | Systematic Theology | 2449 | ~13 min | |
-| 12 | OPEN | `anxious-mind-intrusive-thoughts.html` | When Your Mind Becomes a War Zone — Intrusive Thoughts and Faith | Healing | 2443 | ~13 min | |
-| 13 | OPEN | `secular-economics-depravity.html` | Why Every Economist Assumes Total Depravity | Secular Evidence | 2440 | ~13 min | |
-| 14 | OPEN | `scripture-tsunami-sovereignty.html` | Every Verse Teaching God's Sovereignty Over Salvation — Scripture Tsunami | Other | 2415 | ~13 min | |
-| 15 | OPEN | `invisible-wall-prayer-feels-empty.html` | When Prayer Feels Like Talking to the Ceiling | Healing | 2410 | ~13 min | |
-| 16 | OPEN | `invisible-wall-marriage.html` | When You and Your Spouse Speak Different Theological Languages | Healing | 2398 | ~12 min | |
-| 17 | OPEN | `question-why-does-god-choose-some-not-others.html` | Why Does God Choose Some and Not Others? Scripture's Answer | Questions | 2395 | ~12 min | |
-| 18 | OPEN | `invisible-wall-friend-who-left.html` | The Friend Who Left When Your Theology Changed | Healing | 2388 | ~12 min | |
-| 19 | OPEN | `objection-why-believe.html` | If God Already Chose Us, Why Do We Have to Believe? | Questions | 2384 | ~12 min | |
-| 20 | OPEN | `psychology-language-you-already-speak.html` | (no title) | Psychology | 2384 | ~12 min | |
-| 21 | OPEN | `joy-worship-without-ceiling.html` | Worship Without a Ceiling | Other | 2382 | ~12 min | |
-| 22 | OPEN | `story-children-the-king-who-chose.html` | The King Who Chose His Children — A Story About Being Chosen by God | Stories | 2361 | ~12 min | |
-| 23 | OPEN | `question-free-will-bible-verses.html` | Free Will Bible Verses — Do They Actually Teach What You Think? | Questions | 2358 | ~12 min | |
-| 24 | OPEN | `philosophy-godel-incompleteness.html` | The Gödelian Prison: Why No Soul Can Save Itself | Philosophy | 2356 | ~12 min | |
-| 25 | OPEN | `joy-security-changes-everything.html` | The Security That Changes Everything | Other | 2350 | ~12 min | |
-| 26 | OPEN | `question-sovereignty-logic.html` | Can God Create a Universe He Doesn't Control? The Omnipotence Paradox Answered | Questions | 2336 | ~12 min | |
-| 27 | OPEN | `question-whose-side-are-you-on.html` | Whose Side Are You On? Man-Centered vs God-Centered Theology | Questions | 2334 | ~12 min | |
-| 28 | OPEN | `freedom.html` | The Truth Will Set You Free | Other | 2326 | ~12 min | |
-| 29 | OPEN | `devotional-joy-of-election.html` | The Joy of Election — Why Sovereign Grace Is the Most Joyful Truth in the Universe | Devotionals | 2324 | ~12 min | |
-| 30 | OPEN | `philosophy-mother-tongue.html` | Your Mother Tongue Chose You | Philosophy | 2319 | ~12 min | |
-| 31 | OPEN | `resistance-redefining-grace.html` | How We Secretly Redefine Grace to Include Ourselves | Psychology | 2317 | ~12 min | |
-| 32 | OPEN | `question-goldchain.html` | Can God's Plan for You Be Broken? Romans 8:28-30 | Questions | 2316 | ~12 min | |
-| 33 | OPEN | `pastoral-prayer.html` | If God Decreed Everything, Why Pray? | Pastoral | 2314 | ~12 min | |
-| 34 | OPEN | `apologetic-definite-atonement.html` | Did Jesus Die for Everyone? Scripture on Definite Atonement | Other | 2309 | ~12 min | |
-| 35 | OPEN | `anxious-mind-scrupulosity.html` | Religious OCD — When Your Mind Won't Stop Accusing You | Healing | 2306 | ~12 min | |
-| 36 | OPEN | `secular-genetics-sovereignty.html` | Written Before You Were Born: DNA and Sovereignty | Secular Evidence | 2305 | ~12 min | |
-| 37 | OPEN | `question-visual-theology.html` | The Logic You Can See: Visual Theology of Sovereign Grace | Questions | 2303 | ~12 min | |
-| 38 | OPEN | `demolition-2cor5-14-15.html` | "Christ Died for All" — Why 2 Corinthians 5:14 Proves the Opposite | Demolition | 2297 | ~12 min | |
-| 39 | OPEN | `psychology-stockholm-syndrome-sin.html` | The Stockholm Syndrome of Sin: Why We Defend Our Bondage | Psychology | 2296 | ~12 min | |
-| 40 | OPEN | `question-newheart.html` | Does God Change Your Heart Without Permission? | Questions | 2291 | ~12 min | |
-| 41 | OPEN | `history-korean-revival.html` | The Pyongyang Revival: When Sovereign Grace Shook Korea | History | 2286 | ~12 min | |
-| 42 | OPEN | `question-regeneration-precedes-faith.html` | Regeneration Precedes Faith — The Skeleton Key That Unlocks Everything | Questions | 2275 | ~12 min | |
-| 43 | OPEN | `analogy-chess-grandmaster.html` | The Chess Grandmaster — How God Controls Everything Without Making You a Robot | Stories | 2272 | ~12 min | |
-| 44 | OPEN | `systematic-bibliology.html` | The Truth of Scripture — God's Authoritative Word | Systematic Theology | 2265 | ~12 min | |
-| 45 | OPEN | `question-where-did-your-faith-come-from.html` | Where Did Your Faith Come From? The Most Important Question You've Never Asked | Questions | 2264 | ~12 min | |
-| 46 | OPEN | `joy-god-big-enough.html` | The God Who Is Big Enough | Other | 2261 | ~12 min | |
-| 47 | OPEN | `philosophy-gravity-of-grace.html` | The Gravity of Grace: Why You Never Chose to Be Held | Philosophy | 2257 | ~12 min | |
-| 48 | OPEN | `question-does-god-love-everyone-equally.html` | Does God Love Everyone Equally? What Scripture Actually Teaches | Questions | 2253 | ~12 min | |
-| 49 | OPEN | `demolition-hebrews2-9.html` | "He Tasted Death for Everyone" — What Hebrews 2:9 Actually Means | Demolition | 2247 | ~12 min | |
-| 50 | OPEN | `just-realized.html` | For the Person Who Just Realized | Other | 2224 | ~12 min | |
+| 10 | DONE | `philosophy-infinite-regress-of-choice.html` | Why "I Chose God" Is a Sentence That Destroys Itself | Philosophy | 2450 | ~13 min | |
+| 11 | DONE | `systematic-election.html` | Chosen Before the Foundation of the World — What Scripture Teaches About Election | Systematic Theology | 2449 | ~13 min | |
+| 12 | DONE | `anxious-mind-intrusive-thoughts.html` | When Your Mind Becomes a War Zone — Intrusive Thoughts and Faith | Healing | 2443 | ~13 min | |
+| 13 | DONE | `secular-economics-depravity.html` | Why Every Economist Assumes Total Depravity | Secular Evidence | 2440 | ~13 min | |
+| 14 | DONE | `scripture-tsunami-sovereignty.html` | Every Verse Teaching God's Sovereignty Over Salvation — Scripture Tsunami | Other | 2415 | ~13 min | |
+| 15 | DONE | `invisible-wall-prayer-feels-empty.html` | When Prayer Feels Like Talking to the Ceiling | Healing | 2410 | ~13 min | |
+| 16 | DONE | `invisible-wall-marriage.html` | When You and Your Spouse Speak Different Theological Languages | Healing | 2398 | ~12 min | |
+| 17 | DONE | `question-why-does-god-choose-some-not-others.html` | Why Does God Choose Some and Not Others? Scripture's Answer | Questions | 2395 | ~12 min | |
+| 18 | DONE | `invisible-wall-friend-who-left.html` | The Friend Who Left When Your Theology Changed | Healing | 2388 | ~12 min | |
+| 19 | DONE | `objection-why-believe.html` | If God Already Chose Us, Why Do We Have to Believe? | Questions | 2384 | ~12 min | |
+| 20 | DONE | `psychology-language-you-already-speak.html` | (no title) | Psychology | 2384 | ~12 min | |
+| 21 | DONE | `joy-worship-without-ceiling.html` | Worship Without a Ceiling | Other | 2382 | ~12 min | |
+| 22 | DONE | `story-children-the-king-who-chose.html` | The King Who Chose His Children — A Story About Being Chosen by God | Stories | 2361 | ~12 min | |
+| 23 | DONE | `question-free-will-bible-verses.html` | Free Will Bible Verses — Do They Actually Teach What You Think? | Questions | 2358 | ~12 min | |
+| 24 | DONE | `philosophy-godel-incompleteness.html` | The Gödelian Prison: Why No Soul Can Save Itself | Philosophy | 2356 | ~12 min | |
+| 25 | DONE | `joy-security-changes-everything.html` | The Security That Changes Everything | Other | 2350 | ~12 min | |
+| 26 | DONE | `question-sovereignty-logic.html` | Can God Create a Universe He Doesn't Control? The Omnipotence Paradox Answered | Questions | 2336 | ~12 min | |
+| 27 | DONE | `question-whose-side-are-you-on.html` | Whose Side Are You On? Man-Centered vs God-Centered Theology | Questions | 2334 | ~12 min | |
+| 28 | DONE | `freedom.html` | The Truth Will Set You Free | Other | 2326 | ~12 min | |
+| 29 | DONE | `devotional-joy-of-election.html` | The Joy of Election — Why Sovereign Grace Is the Most Joyful Truth in the Universe | Devotionals | 2324 | ~12 min | |
+| 30 | DONE | `philosophy-mother-tongue.html` | Your Mother Tongue Chose You | Philosophy | 2319 | ~12 min | |
+| 31 | DONE | `resistance-redefining-grace.html` | How We Secretly Redefine Grace to Include Ourselves | Psychology | 2317 | ~12 min | |
+| 32 | DONE | `question-goldchain.html` | Can God's Plan for You Be Broken? Romans 8:28-30 | Questions | 2316 | ~12 min | |
+| 33 | DONE | `pastoral-prayer.html` | If God Decreed Everything, Why Pray? | Pastoral | 2314 | ~12 min | |
+| 34 | DONE | `apologetic-definite-atonement.html` | Did Jesus Die for Everyone? Scripture on Definite Atonement | Other | 2309 | ~12 min | |
+| 35 | DONE | `anxious-mind-scrupulosity.html` | Religious OCD — When Your Mind Won't Stop Accusing You | Healing | 2306 | ~12 min | |
+| 36 | DONE | `secular-genetics-sovereignty.html` | Written Before You Were Born: DNA and Sovereignty | Secular Evidence | 2305 | ~12 min | |
+| 37 | DONE | `question-visual-theology.html` | The Logic You Can See: Visual Theology of Sovereign Grace | Questions | 2303 | ~12 min | |
+| 38 | DONE | `demolition-2cor5-14-15.html` | "Christ Died for All" — Why 2 Corinthians 5:14 Proves the Opposite | Demolition | 2297 | ~12 min | |
+| 39 | DONE | `psychology-stockholm-syndrome-sin.html` | The Stockholm Syndrome of Sin: Why We Defend Our Bondage | Psychology | 2296 | ~12 min | |
+| 40 | DONE | `question-newheart.html` | Does God Change Your Heart Without Permission? | Questions | 2291 | ~12 min | |
+| 41 | DONE | `history-korean-revival.html` | The Pyongyang Revival: When Sovereign Grace Shook Korea | History | 2286 | ~12 min | |
+| 42 | DONE | `question-regeneration-precedes-faith.html` | Regeneration Precedes Faith — The Skeleton Key That Unlocks Everything | Questions | 2275 | ~12 min | |
+| 43 | DONE | `analogy-chess-grandmaster.html` | The Chess Grandmaster — How God Controls Everything Without Making You a Robot | Stories | 2272 | ~12 min | |
+| 44 | DONE | `systematic-bibliology.html` | The Truth of Scripture — God's Authoritative Word | Systematic Theology | 2265 | ~12 min | |
+| 45 | DONE | `question-where-did-your-faith-come-from.html` | Where Did Your Faith Come From? The Most Important Question You've Never Asked | Questions | 2264 | ~12 min | |
+| 46 | DONE | `joy-god-big-enough.html` | The God Who Is Big Enough | Other | 2261 | ~12 min | |
+| 47 | DONE | `philosophy-gravity-of-grace.html` | The Gravity of Grace: Why You Never Chose to Be Held | Philosophy | 2257 | ~12 min | |
+| 48 | DONE | `question-does-god-love-everyone-equally.html` | Does God Love Everyone Equally? What Scripture Actually Teaches | Questions | 2253 | ~12 min | |
+| 49 | DONE | `demolition-hebrews2-9.html` | "He Tasted Death for Everyone" — What Hebrews 2:9 Actually Means | Demolition | 2247 | ~12 min | |
+| 50 | DONE | `just-realized.html` | For the Person Who Just Realized | Other | 2224 | ~12 min | |
 | 51 | OPEN | `secular-neuroscience-human-inability.html` | Your Brain Decided Before You Did — The Neuroscience of Inability | Secular Evidence | 2215 | ~12 min | |
 | 52 | OPEN | `demolition-romans10-9.html` | "If You Confess, You Will Be Saved" — Does Romans 10:9 Prove Human Decision? | Demolition | 2213 | ~12 min | |
 | 53 | OPEN | `systematic-resurrection.html` | The Resurrection — The Foundation of All Hope | Systematic Theology | 2213 | ~12 min | |
