@@ -120,7 +120,7 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
 .search-results .search-desc, .search-results .search-result-snippet { font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.3rem; }
 
 /* Hamburger */
-.hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.5rem; z-index: 1001; }
+.hamburger { display: none; background: none; border: none; cursor: pointer; padding: 0.7rem; min-width: 44px; min-height: 44px; z-index: 1001; }
 .hamburger span { display: block; width: 22px; height: 2px; background: var(--accent-gold); margin: 4px 0; transition: all 0.3s ease; border-radius: 2px; }
 .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(4px, 4px); }
 .hamburger.active span:nth-child(2) { opacity: 0; }
@@ -231,6 +231,10 @@ nav.scrolled { background: rgba(10, 10, 15, 0.95); }
         border: none;
         cursor: pointer;
         padding: 0.5rem;
+        min-width: 44px;
+        min-height: 44px;
+        align-items: center;
+        justify-content: center;
         z-index: 1001;
     }
     .mobile-search-toggle svg { stroke: var(--accent-gold); display: block; transition: stroke 0.25s ease; }
