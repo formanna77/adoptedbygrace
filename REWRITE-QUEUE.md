@@ -176,50 +176,50 @@ Target: ~1,500 words max per article (~10 min read)
 | 89 | DONE | `story-dark-the-altar-he-built-himself.html` | The Altar He Built Himself — A Story About the Religion That Almost Killed Him | Stories | 2882→1682 | ~8 min | Rewritten 2026-04-12 |
 | 90 | DONE | `story-thought-the-day-you-chose-again.html` | The Day You Got to Choose Again — A Thought Experiment About Free Will and Grace | Stories | 2880→1589 | ~8 min | Rewritten 2026-04-12 |
 | 91 | DONE 2026-04-12 (2869→1514) | `history-golden-thread.html` | 2,000 Years of Sovereign Grace — The Golden Thread Through Church History | History | 2869 | ~15 min | |
-| 92 | OPEN | `question-bible-says-sick.html` | Does the Bible Say We're Sick, Not Dead? | Questions | 2865 | ~15 min | |
-| 93 | OPEN | `story-dark-the-woman-who-earned-her-seat.html` | The Woman Who Earned Her Seat — A Story About the Righteousness That Damns | Stories | 2844 | ~15 min | |
-| 94 | OPEN | `demolition-children-of-satan.html` | Children of Satan — What Scripture Actually Calls the Unregenerate | Demolition | 2836 | ~15 min | |
-| 95 | OPEN | `question-john10.html` | You Do Not Believe Because You Are Not My Sheep – John 10:26-29 | Questions | 2828 | ~15 min | |
-| 96 | OPEN | `objection-fairness.html` | Is Election Fair? Why Grace Is Unfair | Questions | 2819 | ~15 min | |
-| 97 | OPEN | `philosophy-children-argument.html` | You Didn't Choose to Be Born — The Argument from Childhood That Destroys Free Will | Philosophy | 2815 | ~15 min | |
-| 98 | OPEN | `question-foreknowledge.html` | Does "Foreknowledge" Mean God Saw You'd Believe? Not Even Close. | Questions | 2786 | ~14 min | |
-| 99 | OPEN | `psychology-anosognosia-of-sin.html` | The Anosognosia of the Soul: Why You Can't See Your Own Spiritual Paralysis | Psychology | 2784 | ~14 min | |
-| 100 | OPEN | `question-john6.html` | No One Can Come to Me Unless the Father Draws Him – John 6:37-44,65 | Questions | 2762 | ~14 min | |
-| 101 | OPEN | `question-godwants.html` | Doesn't God Want Everyone Saved? — The Two Wills of God | Questions | 2753 | ~14 min | |
-| 102 | OPEN | `broken-mirror-sin-you-repeat.html` | The Sin You Keep Repeating — And Why It Doesn't Disqualify You | Healing | 2751 | ~14 min | |
-| 103 | OPEN | `compare-predestination-foreknowledge.html` | Predestination vs Foreknowledge — Which Comes First? | Comparisons | 2744 | ~14 min | |
-| 104 | OPEN | `history-whitefield-wesley.html` | Whitefield vs. Wesley — Two Revivals, One Question: Where Does Faith Come From? | History | 2742 | ~14 min | |
-| 105 | OPEN | `objection-evangelism-pointless.html` | If God Already Chose, Why Evangelize? | Questions | 2711 | ~14 min | |
-| 106 | OPEN | `demolition-rev3-20.html` | Demolition: Revelation 3:20 — 'I Stand at the Door and Knock' | Demolition | 2691 | ~14 min | |
-| 107 | OPEN | `psychology-suppressing-truth.html` | Why Do People Reject What They Know Is True? | Psychology | 2691 | ~14 min | |
-| 108 | OPEN | `systematic-regeneration.html` | Born Again — What It Really Means and Why You Didn't Do It to Yourself | Systematic Theology | 2677 | ~14 min | |
-| 109 | OPEN | `hymn-amazing-grace.html` | Amazing Grace: The Hymn That Proves What You Already Believe | Other | 2672 | ~14 min | |
-| 110 | OPEN | `pastoral-suffering.html` | When You're Suffering and God Is Sovereign — How Both Can Be True | Pastoral | 2665 | ~14 min | |
-| 111 | OPEN | `psychology-system-justification.html` | Why People Defend the Theology That Enslaves Them | Psychology | 2663 | ~14 min | |
-| 112 | OPEN | `story-tender-the-gardener-who-waited.html` | The Gardener Who Waited — When Your Child Walks Away from Faith | Stories | 2661 | ~14 min | |
-| 113 | OPEN | `history-every-revival-sovereign-grace.html` | Every Great Revival Was Led by a Calvinist — The Fruit That Proves the Tree | History | 2651 | ~14 min | |
-| 114 | OPEN | `joy-freedom-of-smallness.html` | The Freedom of Smallness | Other | 2649 | ~14 min | |
-| 115 | OPEN | `question-acts.html` | The Verse in Acts That Nobody Preaches – Acts 13:48 | Questions | 2649 | ~14 min | |
-| 116 | OPEN | `start-here-phase2.html` | The Five Points of Grace — Phase 2 | Other | 2648 | ~14 min | |
-| 117 | OPEN | `story-the-orphanage.html` | The Orphanage: A Story About Being Chosen by Grace | Stories | 2639 | ~14 min | |
-| 118 | OPEN | `open-wound-terminal-diagnosis.html` | When the Diagnosis Is Terminal — Sovereignty and the End You Didn't Choose | Healing | 2637 | ~14 min | |
-| 119 | OPEN | `history-today.html` | Where Sovereign Grace Stands Now — The Global Picture | History | 2635 | ~14 min | |
-| 120 | OPEN | `invisible-wall-family.html` | When Your Family Can't Follow You — The Invisible Wall at the Dinner Table | Healing | 2604 | ~14 min | |
-| 121 | OPEN | `question-whosoever.html` | What About "Whosoever Will"? — The Verse That Doesn't Say What You Think | Questions | 2599 | ~13 min | |
-| 122 | OPEN | `history-dort-deep.html` | The Synod of Dort: Five Points Forged in Fire | History | 2598 | ~13 min | |
-| 123 | OPEN | `for-pastors.html` | For Pastors: Preaching Sovereign Grace Without Splitting Your Church | Other | 2582 | ~13 min | |
-| 124 | OPEN | `history-20th-century.html` | The Reformed Resurgence — How Sovereign Grace Came Back in the 20th Century | History | 2573 | ~13 min | |
-| 125 | OPEN | `secular-billion-decisions.html` | The Billion Decisions Your Body Made Today Without Asking | Secular Evidence | 2573 | ~13 min | |
-| 126 | OPEN | `joy-in-suffering.html` | Joy in Suffering: Why Only Sovereign Grace Makes Pain Bearable | Other | 2569 | ~13 min | |
-| 127 | OPEN | `history-confessions-story.html` | Written in Blood and Fire — The Dramatic Story Behind the Reformed Confessions | History | 2568 | ~13 min | |
-| 128 | OPEN | `demolition-1tim2-4.html` | Does God Want Everyone Saved? What 1 Timothy 2:4 Actually Says | Demolition | 2563 | ~13 min | |
-| 129 | OPEN | `anxious-mind-what-if-not-chosen.html` | What If I'm Not One of the Chosen? | Healing | 2562 | ~13 min | |
-| 130 | OPEN | `history-african-fathers.html` | The African Fathers: Augustine Wasn't Alone | History | 2560 | ~13 min | |
-| 131 | OPEN | `secular-algorithm-sovereignty.html` | The Algorithm Knows You Better Than You Know Yourself | Secular Evidence | 2558 | ~13 min | |
-| 132 | OPEN | `devotional-i-dont-think-im-saved.html` | I Don't Think I'm Saved | Devotionals | 2554 | ~13 min | |
-| 133 | OPEN | `psychology-fear-control.html` | Why Does God's Sovereignty Terrify Us? | Psychology | 2551 | ~13 min | |
-| 134 | OPEN | `demolition-arminian-facts.html` | FACTS Check — The Arminian Framework Dismantled Point by Point | Demolition | 2519 | ~13 min | |
-| 135 | OPEN | `demolition-hebrews6-4-6.html` | Can You Lose Your Salvation? What Hebrews 6:4-6 Actually Teaches | Demolition | 2517 | ~13 min | |
+| 92 | DONE | `question-bible-says-sick.html` | Does the Bible Say We're Sick, Not Dead? | Questions | 2865→1225 | ~6 min | |
+| 93 | DONE | `story-dark-the-woman-who-earned-her-seat.html` | The Woman Who Earned Her Seat — A Story About the Righteousness That Damns | Stories | 2844→1271 | ~7 min | |
+| 94 | DONE | `demolition-children-of-satan.html` | Children of Satan — What Scripture Actually Calls the Unregenerate | Demolition | 2836→948 | ~5 min | |
+| 95 | DONE | `question-john10.html` | You Do Not Believe Because You Are Not My Sheep – John 10:26-29 | Questions | 2828→1523 | ~15 min | Rewritten 2026-04-12 |
+| 96 | DONE | `objection-fairness.html` | Is Election Fair? Why Grace Is Unfair | Questions | 2819→1443 | ~15 min | Rewritten 2026-04-12 |
+| 97 | DONE | `philosophy-children-argument.html` | You Didn't Choose to Be Born — The Argument from Childhood That Destroys Free Will | Philosophy | 2815→1386 | ~15 min | Rewritten 2026-04-12 |
+| 98 | DONE | `question-foreknowledge.html` | Does "Foreknowledge" Mean God Saw You'd Believe? Not Even Close. | Questions | 2786→1284 | ~14 min | Rewritten 2026-04-12 |
+| 99 | DONE | `psychology-anosognosia-of-sin.html` | The Anosognosia of the Soul: Why You Can't See Your Own Spiritual Paralysis | Psychology | 2784→1497 | ~14 min | Rewritten 2026-04-12 |
+| 100 | DONE | `question-john6.html` | No One Can Come to Me Unless the Father Draws Him – John 6:37-44,65 | Questions | 2762→1489 | ~14 min | Rewritten 2026-04-12 |
+| 101 | DONE | `question-godwants.html` | Doesn't God Want Everyone Saved? — The Two Wills of God | Questions | 2753→1468 | ~14 min | Rewritten 2026-04-12 |
+| 102 | DONE | `broken-mirror-sin-you-repeat.html` | The Sin You Keep Repeating — And Why It Doesn't Disqualify You | Healing | 2751→1478 | ~14 min | Rewritten 2026-04-12 |
+| 103 | DONE | `compare-predestination-foreknowledge.html` | Predestination vs Foreknowledge — Which Comes First? | Comparisons | 2744→1493 | ~14 min | Rewritten 2026-04-12 |
+| 104 | DONE | `history-whitefield-wesley.html` | Whitefield vs. Wesley — Two Revivals, One Question: Where Does Faith Come From? | History | 2742→1489 | ~8 min | Rewritten 2026-04-12 |
+| 105 | DONE | `objection-evangelism-pointless.html` | If God Already Chose, Why Evangelize? | Questions | 2711→1476 | ~8 min | Rewritten 2026-04-12 |
+| 106 | DONE | `demolition-rev3-20.html` | Demolition: Revelation 3:20 — 'I Stand at the Door and Knock' | Demolition | 2691→1418 | ~7 min | Rewritten 2026-04-12 |
+| 107 | ✅ DONE | `psychology-suppressing-truth.html` | Why Do People Reject What They Know Is True? | Psychology | 2691→~1490 | ~8 min | Rewritten 2026-04-12 |
+| 108 | ✅ DONE | `systematic-regeneration.html` | Born Again — What It Really Means and Why You Didn't Do It to Yourself | Systematic Theology | 2677→~1490 | ~8 min | Rewritten 2026-04-12 |
+| 109 | ✅ DONE | `hymn-amazing-grace.html` | Amazing Grace: The Hymn That Proves What You Already Believe | Other | 2672→~1490 | ~8 min | Rewritten 2026-04-12 |
+| 110 | ✅ DONE | `pastoral-suffering.html` | When You're Suffering and God Is Sovereign — How Both Can Be True | Pastoral | 2665→~1490 | ~8 min | Rewritten 2026-04-12 |
+| 111 | ✅ DONE | `psychology-system-justification.html` | Why People Defend the Theology That Enslaves Them | Psychology | 2663→~1440 | ~8 min | Rewritten 2026-04-12 |
+| 112 | ✅ DONE | `story-tender-the-gardener-who-waited.html` | The Gardener Who Waited — When Your Child Walks Away from Faith | Stories | 2661→~1560 | ~8 min | Rewritten 2026-04-12 |
+| 113 | ✅ DONE | `history-every-revival-sovereign-grace.html` | Every Great Revival Was Led by a Calvinist — The Fruit That Proves the Tree | History | 2651→~1270 | ~7 min | Rewritten 2026-04-12 |
+| 114 | ✅ DONE | `joy-freedom-of-smallness.html` | The Freedom of Smallness | Other | 2649→~1205 | ~6 min | Rewritten 2026-04-12 |
+| 115 | ✅ DONE | `question-acts.html` | The Verse in Acts That Nobody Preaches – Acts 13:48 | Questions | 2649→~1110 | ~6 min | Rewritten 2026-04-12 |
+| 116 | DONE | `start-here-phase2.html` | The Five Points of Grace — Phase 2 | Other | 2648→~1380 | ~7 min | Rewritten 2026-04-12 |
+| 117 | DONE | `story-the-orphanage.html` | The Orphanage: A Story About Being Chosen by Grace | Stories | 2639→~1520 | ~8 min | Rewritten 2026-04-12 |
+| 118 | DONE | `open-wound-terminal-diagnosis.html` | When the Diagnosis Is Terminal — Sovereignty and the End You Didn't Choose | Healing | 2637→~1430 | ~7 min | Rewritten 2026-04-12 |
+| 119 | DONE | `history-today.html` | Where Sovereign Grace Stands Now — The Global Picture | History | 2635→~1310 | ~7 min | Rewritten 2026-04-12 |
+| 120 | DONE | `invisible-wall-family.html` | When Your Family Can't Follow You — The Invisible Wall at the Dinner Table | Healing | 2604→~1420 | ~8 min | Rewritten 2026-04-12 |
+| 121 | DONE | `question-whosoever.html` | What About "Whosoever Will"? — The Verse That Doesn't Say What You Think | Questions | 2599→~1480 | ~8 min | Rewritten 2026-04-12 |
+| 122 | DONE | `history-dort-deep.html` | The Synod of Dort: Five Points Forged in Fire | History | 2598→~1490 | ~8 min | Rewritten 2026-04-12 |
+| 123 | DONE | `for-pastors.html` | For Pastors: Preaching Sovereign Grace Without Splitting Your Church | Other | 2582→~1380 | ~8 min | Rewritten 2026-04-12 |
+| 124 | DONE | `history-20th-century.html` | The Reformed Resurgence — How Sovereign Grace Came Back in the 20th Century | History | 2573→~1420 | ~8 min | Rewritten 2026-04-12 |
+| 125 | DONE | `secular-billion-decisions.html` | The Billion Decisions Your Body Made Today Without Asking | Secular Evidence | 2573→~1490 | ~7 min | Rewritten 2026-04-12 |
+| 126 | DONE | `joy-in-suffering.html` | Joy in Suffering: Why Only Sovereign Grace Makes Pain Bearable | Other | 2569→~1460 | ~7 min | Rewritten 2026-04-12 |
+| 127 | DONE | `history-confessions-story.html` | Written in Blood and Fire — The Dramatic Story Behind the Reformed Confessions | History | 2568→~1500 | ~8 min | Rewritten 2026-04-12 |
+| 128 | DONE | `demolition-1tim2-4.html` | Does God Want Everyone Saved? What 1 Timothy 2:4 Actually Says | Demolition | 2563→~1500 | ~8 min | |
+| 129 | DONE | `anxious-mind-what-if-not-chosen.html` | What If I'm Not One of the Chosen? | Healing | 2562 | ~13 min | |
+| 130 | DONE | `history-african-fathers.html` | The African Fathers: Augustine Wasn't Alone | History | 2560 | ~13 min | |
+| 131 | DONE | `secular-algorithm-sovereignty.html` | The Algorithm Knows You Better Than You Know Yourself | Secular Evidence | 2558→~1500 | ~8 min | Rewritten: compressed, all genius preserved |
+| 132 | DONE | `devotional-i-dont-think-im-saved.html` | I Don't Think I'm Saved | Devotionals | 2554→~1500 | ~8 min | Rewritten: compressed, all genius preserved |
+| 133 | DONE | `psychology-fear-control.html` | Why Does God's Sovereignty Terrify Us? | Psychology | 2551→~1500 | ~8 min | Rewritten: compressed, all genius preserved |
+| 134 | DONE | `demolition-arminian-facts.html` | FACTS Check — The Arminian Framework Dismantled Point by Point | Demolition | 2519→~1500 | ~8 min | Rewritten: compressed, all genius preserved |
+| 135 | DONE | `demolition-hebrews6-4-6.html` | Can You Lose Your Salvation? What Hebrews 6:4-6 Actually Teaches | Demolition | 2517→~1500 | ~8 min | Rewritten: compressed, all genius preserved |
 | 136 | OPEN | `shattered-lens-bible-doesnt-make-sense.html` | When the Bible Stopped Making Sense | Healing | 2511 | ~13 min | |
 | 137 | OPEN | `demolition-acts17-30.html` | "God Commands All to Repent" — Does Acts 17:30 Disprove Election? | Demolition | 2508 | ~13 min | |
 | 138 | OPEN | `anxious-mind-never-meant-to-carry.html` | You Were Never Meant to Carry This | Healing | 2501 | ~13 min | |
