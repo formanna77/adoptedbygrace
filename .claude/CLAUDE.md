@@ -874,8 +874,24 @@ This site has suffered from cascading agent errors — agents that "fix" one thi
 
 ### THE FIVE LAWS OF SITE INTEGRITY
 
-**LAW 1: NEVER LINK TO A PAGE THAT DOESN'T EXIST.**
+**LAW 1: NEVER LINK TO A PAGE THAT DOESN'T EXIST. — MANDATORY VERIFICATION PROTOCOL**
 Before writing ANY internal href, verify the target file exists. Run `ls filename.html` if you're unsure. Aspirational linking (linking to pages you PLAN to create) is BANNED. If the page doesn't exist RIGHT NOW, don't link to it. Period.
+
+**ENFORCEMENT (added 2026-04-11 after a rewrite session created 125 broken links on the live site):**
+At the START of every session that will create or modify HTML files, build a link inventory:
+```bash
+ls *.html | sed 's/.html//' > /tmp/valid-pages.txt
+```
+Before writing ANY `<a href="/pagename.html">` link, confirm the target is in that list. If it is not in the list, DO NOT LINK TO IT. "It sounds like it should exist" is NOT verification. **Run `ls` or check the list.** Agents that hallucinate page names (e.g., `devotional-never-lets-go.html`, `question-faith-origin.html`, `systematic-sovereignty.html`) cause 404 errors on the live site that send visitors — potentially the elect searching at 2am — to a dead page instead of the truth. This is the opposite of the mission. A page with 6 verified links is infinitely better than a page with 12 links where 5 are broken.
+
+**KNOWN HALLUCINATION TRAPS** (pages agents commonly invent that DO NOT EXIST):
+`question-faith-gift.html` → actual file is `question-faithgift.html`
+`systematic-perseverance.html` → use `question-perseverance.html`
+`systematic-definite-atonement.html` → use `systematic-atonement.html`
+`systematic-sovereignty.html` → use `question-proverbs-sovereignty.html`
+`devotional-never-let-go.html` / `devotional-never-lets-go.html` → DO NOT EXIST
+`question-fairness.html` → use `objection-fairness.html`
+When in doubt, link to the hub page instead of guessing a specific article name.
 
 **LAW 2: EVERY NEW PAGE MUST BE WIRED INTO ITS HUB.**
 If you create a new article, you MUST add a .hub-card for it in the appropriate hub page in the SAME session. A page that exists but isn't linked from any hub is invisible to visitors and worthless to the site. No orphans. As a safety net, `node wire-orphans.js` (one of the five mandatory build scripts) will catch and fix any orphans missed by content agents — but this is the BACKUP, not the primary mechanism. Content agents must wire their own pages manually first.

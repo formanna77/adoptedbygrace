@@ -102,17 +102,52 @@ If not already present in global.css, the TL;DR style should be:
 }
 ```
 
+### Step 6b: LINK VALIDATION — MANDATORY, ZERO EXCEPTIONS
+
+**BEFORE writing ANY internal `<a href>` link, you MUST verify the target file exists by running `ls /path/to/file.html`.** If the file does not exist, DO NOT link to it. Period.
+
+This is the single most important rule in this skill. On 2026-04-11, a rewrite session created 125 broken internal links by hallucinating page names that don't exist — pages like `devotional-never-lets-go.html`, `question-faith-origin.html`, `systematic-sovereignty.html`, `theologian-keller.html`. None of these files exist. Every one of them was a dead link on the live site.
+
+**THE RULES:**
+
+1. **NEVER invent a page name.** If you are not 100% certain a page exists, CHECK with `ls` first. "It sounds like a page that should exist" is not the same as "it exists."
+
+2. **At the START of every rewrite session, build a link inventory.** Run:
+   ```bash
+   ls *.html | sed 's/.html//' > /tmp/valid-pages.txt
+   ```
+   Then reference this list when adding internal links. If the target is not in this list, it does not exist, and you may not link to it.
+
+3. **After EACH rewritten page, validate its links.** Run:
+   ```bash
+   grep -oP 'href="/([^"#]+)"' FILENAME.html | sed 's|href="/||;s|"||' | while read f; do [ ! -f "$f" ] && echo "BROKEN: $f"; done
+   ```
+   Fix any broken links BEFORE moving to the next article.
+
+4. **Common hallucination patterns to avoid:**
+   - `question-faith-gift.html` — does NOT exist. The actual file is `question-faithgift.html`
+   - `systematic-sovereignty.html` — does NOT exist. Use `question-proverbs-sovereignty.html` or similar
+   - `devotional-never-lets-go.html` / `devotional-never-let-go.html` — do NOT exist
+   - `systematic-perseverance.html` — does NOT exist. Use `question-perseverance.html`
+   - `systematic-definite-atonement.html` — does NOT exist. Use `systematic-atonement.html`
+   - Any page name you "feel" should exist but have not verified — DO NOT USE IT
+
+5. **When in doubt, link to the hub page.** If you want to reference election but aren't sure which specific page to link, link to the relevant hub (`questions.html`, `demolition-hub.html`, etc.) rather than guessing a specific article name.
+
+6. **A page with 6 verified links is infinitely better than a page with 12 links where 5 are broken.** Broken links are worse than no links — they send visitors to 404 pages and destroy trust. Never pad your link count with unverified targets.
+
 ### Step 7: Verify
 After rewriting, check:
 - [ ] Word count is under 1,500 (use: count words in article-body)
 - [ ] TL;DR is present at top of article body
-- [ ] 8-12+ internal links woven into prose
+- [ ] 8-12+ internal links woven into prose — **ALL VERIFIED TO EXIST**
 - [ ] Two Arms satisfied (demolition pages link to a devotional; devotional pages link to a truth page)
 - [ ] Crown Jewel connection exists (even if subtle)
 - [ ] No AI tropes survived
 - [ ] Every sentence is load-bearing (could you remove it without losing meaning? If yes, remove it)
 - [ ] The opening would stop someone mid-scroll at 2am on their phone
 - [ ] The conclusion lands — it doesn't summarize, it ARRIVES
+- [ ] **ZERO broken links** — run the link check from Step 6b and confirm
 
 ## SPLITTING POLICY — WHEN AN ARTICLE IS TOO RICH TO CUT
 

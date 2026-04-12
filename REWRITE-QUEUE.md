@@ -32,7 +32,7 @@ Target: ~1,500 words max per article (~10 min read)
 |---|--------|------|-------|----------|-------|-----------|-------|
 | 1 | OPEN | `objection-why-command.html` | If God Predestined Everything, Why Does He Command? | Questions | 8288 | ~42 min | SPLIT? |
 | 2 | OPEN | `compare-calvinism-arminianism.html` | Calvinism vs Arminianism — What Does the Bible Actually Teach? | Comparisons | 7960 | ~40 min | SPLIT? |
-| 3 | OPEN | `creed-canons-dort.html` | The Canons of Dort — The Confession That Defended Grace Against Works | History | 7801 | ~40 min | SPLIT? |
+| 3 | DONE | `creed-canons-dort.html` | The Canons of Dort — The Confession That Defended Grace Against Works | History | 7801 | ~40 min | SPLIT? |
 | 4 | OPEN | `systematic-hamartiology.html` | You're Not Sick in Sin — You're Dead. Here's What That Means. | Systematic Theology | 6905 | ~35 min | SPLIT? |
 | 5 | OPEN | `systematic-ordo-salutis.html` | The Order of Salvation — Every Step Is God's, Not Yours | Systematic Theology | 6900 | ~35 min | SPLIT? |
 | 6 | OPEN | `systematic-christology.html` | The Glory of Christ — Who Jesus Is and Why It Matters for Your Salvation | Systematic Theology | 6765 | ~34 min | SPLIT? |
@@ -113,32 +113,32 @@ Target: ~1,500 words max per article (~10 min read)
 | 26 | DONE | `history-heresy-free-will.html` | The Heresy That Won't Die: 2,000 Years of the Free Will Defense | History | 3557 | ~18 min | |
 | 27 | DONE | `psychology-cost-of-rejecting-grace.html` | Are You Sure You're Saved? | Psychology | 3541 | ~18 min | |
 | 28 | DONE | `objection-why-not-save-everyone.html` | If God Can Save Everyone, Why Doesn't He? | Questions | 3535 | ~18 min | |
-| 29 | OPEN | `question-parables.html` | Why Jesus Spoke in Parables — Matthew 13:10-17 | Questions | 3527 | ~18 min | |
+| 29 | DONE | `question-parables.html` | Why Jesus Spoke in Parables — Matthew 13:10-17 | Questions | 3527 | ~18 min | |
 | 30 | DONE | `question-boasting.html` | The Boasting Problem That Destroys Free Will – 1 Corinthians 1:26-31 | Questions | 3524 | ~18 min | |
-| 31 | OPEN | `ot-job.html` | When God Answered Suffering with Sovereignty — Not Explanation | Old Testament | 3514 | ~18 min | |
-| 32 | OPEN | `objection-love.html` | Does Election Contradict God's Love? What Scripture Teaches | Questions | 3510 | ~18 min | |
-| 33 | OPEN | `question-was-christ-a-robot.html` | Was Christ a Robot? If Predestination Didn't Rob Him, It Won't Rob You | Questions | 3498 | ~18 min | |
-| 34 | OPEN | `systematic-soteriology.html` | How God Saves — Every Step of Salvation, Every Step His | Systematic Theology | 3487 | ~18 min | |
-| 35 | OPEN | `compare-calvinism-open-theism.html` | Calvinism vs Open Theism — Does God Actually Know the Future? | Comparisons | 3464 | ~18 min | |
-| 36 | OPEN | `scripture-tsunami-faith-as-gift.html` | Every Bible Verse That Teaches Faith Is a Gift from God — Scripture Tsunami | Other | 3462 | ~18 min | |
-| 37 | OPEN | `devotional-forever-loved.html` | Can You Lose God's Love? What "Forever" Actually Means | Devotionals | 3461 | ~18 min | |
-| 38 | OPEN | `question-every-conversion-acts.html` | Every Conversion in Acts — God Did It Every Single Time | Questions | 3442 | ~18 min | |
-| 39 | OPEN | `question-matt11.html` | Thank You, Father, for Hiding This – Matthew 11:25-27 | Questions | 3434 | ~18 min | |
-| 40 | OPEN | `demolition-acts7-51.html` | "You Always Resist the Holy Spirit" — Does Acts 7:51 Disprove Irresistible Grace? | Demolition | 3432 | ~18 min | |
-| 41 | OPEN | `question-predestined-to-hell.html` | Does God Predestine People to Hell? The Honest Answer | Questions | 3427 | ~18 min | |
-| 42 | OPEN | `theologian-boston.html` | Thomas Boston: The Scottish Pastor Who Fought Legalism with Grace | Theologians | 3401 | ~18 min | |
-| 43 | OPEN | `objection-robots.html` | Does Predestination Make Us Robots? | Questions | 3400 | ~17 min | |
-| 44 | OPEN | `demolition-joshua24-15.html` | "Choose This Day Whom You Will Serve" — Does Joshua 24:15 Prove Free Will? | Demolition | 3386 | ~17 min | |
-| 45 | OPEN | `history-heresy-foreknowledge.html` | The Heresy That Won't Die: 1,600 Years of the Foreknowledge Objection | History | 3386 | ~17 min | |
-| 46 | OPEN | `objection-responsibility.html` | If God Controls Everything, How Can He Blame Us? | Questions | 3380 | ~17 min | |
-| 47 | OPEN | `compare-every-decision-point.html` | At Every Decision Point, Scripture Sides with God — Not You | Comparisons | 3365 | ~17 min | |
-| 48 | OPEN | `demolition-orthodox-predestination.html` | The Orthodox Case Against Predestination — And Why It Collapses | Demolition | 3333 | ~17 min | |
-| 49 | OPEN | `creed-heidelberg-catechism.html` | My Only Comfort in Life and Death — The Heidelberg Catechism | History | 3318 | ~17 min | |
-| 50 | OPEN | `psychology-attribution-error.html` | The Credit Thief Inside Your Brain: Why You Think You Chose God | Psychology | 3312 | ~17 min | |
-| 51 | OPEN | `question-john15.html` | You Did Not Choose Me, But I Chose You – John 15:16 | Questions | 3289 | ~17 min | |
-| 52 | OPEN | `devotional-rescued-without-a-say.html` | You Didn't Ask to Be Saved. God Did It Anyway. | Devotionals | 3285 | ~17 min | |
-| 53 | OPEN | `devotional-i-cant-feel-god.html` | I Can't Feel God Anymore | Devotionals | 3278 | ~17 min | |
-| 54 | OPEN | `secular-art-literature-reformed-truth.html` | Art & Literature — How the Greatest Writers Intuited Reformed Truth | Secular Evidence | 3272 | ~17 min | |
+| 31 | DONE | `ot-job.html` | When God Answered Suffering with Sovereignty — Not Explanation | Old Testament | 3514 | ~18 min | |
+| 32 | DONE | `objection-love.html` | Does Election Contradict God's Love? What Scripture Teaches | Questions | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 33 | DONE | `question-was-christ-a-robot.html` | Was Christ a Robot? If Predestination Didn't Rob Him, It Won't Rob You | Questions | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 34 | DONE | `systematic-soteriology.html` | How God Saves — Every Step of Salvation, Every Step His | Systematic Theology | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 35 | DONE | `compare-calvinism-open-theism.html` | Calvinism vs Open Theism — Does God Actually Know the Future? | Comparisons | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 36 | DONE | `scripture-tsunami-faith-as-gift.html` | Every Bible Verse That Teaches Faith Is a Gift from God — Scripture Tsunami | Other | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 37 | DONE | `devotional-forever-loved.html` | Can You Lose God's Love? What "Forever" Actually Means | Devotionals | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 38 | DONE | `question-every-conversion-acts.html` | Every Conversion in Acts — God Did It Every Single Time | Questions | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 39 | DONE | `question-matt11.html` | Thank You, Father, for Hiding This – Matthew 11:25-27 | Questions | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 40 | DONE | `demolition-acts7-51.html` | "You Always Resist the Holy Spirit" — Does Acts 7:51 Disprove Irresistible Grace? | Demolition | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 41 | DONE | `question-predestined-to-hell.html` | Does God Predestine People to Hell? The Honest Answer | Questions | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 42 | DONE | `theologian-boston.html` | Thomas Boston: The Scottish Pastor Who Fought Legalism with Grace | Theologians | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 43 | DONE | `objection-robots.html` | Does Predestination Make Us Robots? | Questions | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 44 | DONE | `demolition-joshua24-15.html` | "Choose This Day Whom You Will Serve" — Does Joshua 24:15 Prove Free Will? | Demolition | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 45 | DONE | `history-heresy-foreknowledge.html` | The Heresy That Won't Die: 1,600 Years of the Foreknowledge Objection | History | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 46 | DONE | `objection-responsibility.html` | If God Controls Everything, How Can He Blame Us? | Questions | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 47 | DONE | `compare-every-decision-point.html` | At Every Decision Point, Scripture Sides with God — Not You | Comparisons | ~1500 | ~8 min | Rewritten 2026-04-11 |
+| 48 | DONE | `demolition-orthodox-predestination.html` | The Orthodox Case Against Predestination — And Why It Collapses | Demolition | ~1400 | ~7 min | Rewritten 2026-04-11 |
+| 49 | DONE | `creed-heidelberg-catechism.html` | My Only Comfort in Life and Death — The Heidelberg Catechism | History | ~1400 | ~7 min | Rewritten 2026-04-11 |
+| 50 | DONE | `psychology-attribution-error.html` | The Credit Thief Inside Your Brain: Why You Think You Chose God | Psychology | ~1400 | ~7 min | Rewritten 2026-04-11 |
+| 51 | DONE | `question-john15.html` | You Did Not Choose Me, But I Chose You – John 15:16 | Questions | ~1400 | ~7 min | Rewritten 2026-04-11 |
+| 52 | DONE | `devotional-rescued-without-a-say.html` | You Didn't Ask to Be Saved. God Did It Anyway. | Devotionals | ~1450 | ~8 min | Rewritten 2026-04-11 |
+| 53 | DONE | `devotional-i-cant-feel-god.html` | I Can't Feel God Anymore | Devotionals | ~1450 | ~8 min | Rewritten 2026-04-11 |
+| 54 | DONE | `secular-art-literature-reformed-truth.html` | Art & Literature — How the Greatest Writers Intuited Reformed Truth | Secular Evidence | ~1450 | ~8 min | Rewritten 2026-04-11 |
 | 55 | OPEN | `history-council-of-orange.html` | The Council of Orange (529 AD) — The Church Already Settled This | History | 3266 | ~17 min | |
 | 56 | OPEN | `compare-grace-reformed-vs-arminian.html` | Two Versions of Grace — One Is Real. One Is Man-Made. | Comparisons | 3251 | ~17 min | |
 | 57 | OPEN | `joy-no-other-theology.html` | (no title) | Other | 3233 | ~17 min | |
