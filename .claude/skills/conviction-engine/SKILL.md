@@ -189,9 +189,53 @@ Every article speaks to all five simultaneously:
 ## THE PROCESS — HOW TO ENHANCE AN ARTICLE
 ## ══════════════════════════════════════════════════════
 
-### Step 1: Consult Reformed Sources
+### Step 0: READ FLEET MEMORY BEFORE YOU TOUCH A SINGLE ARTICLE
 
-Before enhancing ANY article, check `/REFORMED-SOURCES-INDEX.md` for source material on the article's topic. One devastating quote from Spurgeon, Edwards, Pink, or Charnock can replace a paragraph of generic explanation and carry the weight of 2,000 years.
+This is the single most important rule in this entire document. **You do not start a session cold.** Every prior Conviction Engine run, every prior agent in the fleet, has documented techniques that worked, techniques that failed, insights that surprised, and patterns they discovered. You inherit ALL of it. An agent that writes without reading the journal is committing the same stumbles the last agent already paid for — which is fleet malpractice.
+
+**The four-file read protocol — MANDATORY at session start, no exceptions:**
+
+1. **`/EVOLUTION-JOURNAL.md`** — The cumulative discovery log of every run that came before you. This file is large (600KB+). Do NOT try to read all of it. Use the Read tool with `offset` set so you read the **last 400 lines** — that is the recent discoveries, the freshest techniques, what worked YESTERDAY. Then grep the file for the specific topic/doctrine your queue articles address (e.g., `grep -n "total depravity" EVOLUTION-JOURNAL.md`) and read the 20 lines around each hit. You are looking for: techniques already proven, failure modes already documented, Master Combinations already tested, Discoveries already made that you can build on (not repeat).
+
+2. **`/FORGE-LEDGER.md`** — The Forge agent's persistent memory. Diagnostic scores, paradigm-shatter patterns, prose exemplars, pages already reforged. Read the last 200 lines and grep for any article in your queue.
+
+3. **`/TRIAGE-QUEUE.md`** — Check if any article in your queue is flagged as CRITICAL TRIAGE. If so, pull it first — triage overrides normal queue order (see CLAUDE.md April Mandate).
+
+4. **`/REWRITE-QUEUE.md`** — Your actual work queue. Walk it top-down (CRITICAL #1 forward, then HIGH #1 forward, then MEDIUM #1 forward). Start at the first article not yet marked DONE-v3.
+
+**When you read EVOLUTION-JOURNAL.md, extract these specific items into your working memory:**
+
+- The three most recent "DISCOVERY" entries — these are tools you can now deploy.
+- Any "FAILURE" entries tagged in the last 30 days — these are the exact traps you must avoid.
+- Any technique tagged with the specific topic of the article you're about to touch (e.g., "depravity," "election," "faith as gift"). Apply what worked. Do not reinvent.
+- The "Flinch as Diagnostic," "Locate the Difference," "Spreadsheet of the Universe," "1%-is-the-Hinge," and every other named technique that appears in the last 20 entries — these are the NAMED WEAPONS. Use them. Combine them. Evolve them.
+
+**Evolution test — you must be able to honestly answer YES to all three before you begin enhancing:**
+- Did I read the last 400 lines of EVOLUTION-JOURNAL.md this session?
+- Can I name at least 3 techniques discovered by prior runs that I intend to deploy or evolve?
+- Can I name at least 1 failure mode documented by prior runs that I will NOT repeat?
+
+If any answer is NO, return to Step 0. Do not begin editing. You are not yet ready.
+
+**The principle:** The journal is not a log — it is a **library of weapons** that grows sharper with every run. An agent that writes to the journal at the end but never reads it at the start is a library that only accepts deposits and never lets anyone withdraw. The fleet gets smarter only when every agent stands on the shoulders of every prior agent.
+
+### Step 1: Consult Reformed Sources — MANDATORY PRIMARY-SOURCE READ
+
+Before enhancing ANY article, you MUST do the following in order. Checking the index alone is NOT sufficient. The 114 PDFs in `/Reformed Sources/` are not decoration — they are your arsenal, and an agent that does not open them is fighting unarmed.
+
+**The four-stage source protocol (non-negotiable):**
+
+1. **Read the index first.** Open `/REFORMED-SOURCES-INDEX.md` and identify the 2-3 PDFs most relevant to the article's topic. Use the category tables (demolition, systematic-theology, psychology, devotionals, philosophy, history, pastoral, questions, comparisons) and the Crown Jewel / Two Arms pairings.
+
+2. **OPEN AT LEAST ONE PDF.** Actually read the PDF at `/Reformed Sources/[filename].pdf` — not just the index entry. Use the Read tool on the PDF file. Scan for the specific doctrine, Scripture, objection, or human experience the article addresses. Do not stop at the table of contents. Find the paragraph where the author is at his sharpest on this exact point.
+
+3. **Extract a primary-source quote.** Pull at least ONE direct quote — three to eight lines — that you will weave into the enhanced article. The quote must be load-bearing: it either (a) lands a hammer the article's own prose cannot land, (b) supplies a historical witness that proves this truth is not a modern Reformed invention, or (c) provides a phrase so devastating it becomes a pull-quote. Generic citations ("as Spurgeon says") without actual quoted words do NOT count.
+
+4. **Cite the author in-prose.** Attribution must appear in the visible text: "Charnock, writing in 1680, saw it..." or "Spurgeon thundered from the Metropolitan pulpit..." or "Pink put it with surgical precision..." The reader must know they are standing in a 2,000-year lineage, not reading one agent's opinion. Do NOT add footnotes or academic citation formats — the tone remains pastoral and literary. Just let the author's name and century appear naturally in the sentence that introduces the quote.
+
+**One devastating quote from Spurgeon, Edwards, Pink, Charnock, Owen, Boettner, or Zanchius can replace a paragraph of generic explanation and carry the weight of 2,000 years.** An article enhanced without primary-source quotation has failed Step 1, regardless of how brilliant its prose is. The PDFs are the shoulders you stand on. Stand on them.
+
+**Session-level requirement:** By the end of your run, every article you promote to DONE-v3 must contain at least one primary-source quote with in-prose author attribution pulled from an actual PDF you opened this session. If you cannot honestly say you read the PDF, you cannot promote the article.
 
 ### Step 2: Read the Target Article and Diagnose Its Weakness
 
@@ -276,6 +320,7 @@ After enhancing, the article must pass ALL of these:
 - [ ] Zero AI tropes
 - [ ] Zero broken links confirmed
 - [ ] Every sentence is load-bearing
+- [ ] **PRIMARY SOURCE QUOTE:** At least one direct quote pulled from a PDF in `/Reformed Sources/` that you actually opened this session, with in-prose author attribution. No quote, no promotion.
 
 **Conviction Gates (the quality standard):**
 - [ ] **OPENING:** Stops you mid-scroll — uses a specific weapon, not generic throat-clearing
@@ -319,7 +364,7 @@ node wire-orphans.js
 When Aaron requests NEW content — pages that don't exist yet — you create them from nothing using the full power of the Conviction Engine. New content follows the same ~1,500-word target, the same HTML structure, the same verification gates.
 
 **New content creation process:**
-1. Consult Reformed Sources for the topic
+1. Consult Reformed Sources for the topic — run the full four-stage source protocol from Step 1 above (index → OPEN the PDF → extract quote → in-prose attribution). New content without at least one primary-source quote from a Reformed Sources PDF fails Gate 1.
 2. Identify the topic, Crown Jewel connection, and Two Arms placement
 3. Choose your Architecture (one of the Seven)
 4. Choose your Landing (one of the Seven)
@@ -344,6 +389,17 @@ Articles enhanced: [count]
 New pages created: [count]
 Internal links added/verified: [count]
 
+FLEET MEMORY INTAKE (mandatory — prove you did Step 0):
+  EVOLUTION-JOURNAL lines read: [offset-to-offset, e.g., 2800-3200]
+  Three named techniques inherited from prior runs and deployed this session:
+    1. "[technique name]" — applied in [article.html]
+    2. "[technique name]" — applied in [article.html]
+    3. "[technique name]" — applied in [article.html]
+  One documented failure mode avoided this session:
+    "[failure mode name]" — avoided in [article.html] by [what you did instead]
+  FORGE-LEDGER lines read: [offset-to-offset]
+  TRIAGE-QUEUE entries matching current queue: [count, or "none"]
+
 PER-ARTICLE CONVICTION REPORT:
 [filename.html]
   Diagnostic score: [X/10 before → 10/10 after]
@@ -356,4 +412,7 @@ PER-ARTICLE CONVICTION REPORT:
   Pull-quote candidate: "[the single best sentence]"
   Interdisciplinary fields: [which 2+ non-theology fields]
   Steelman engagement: [which objections defeated at strength, or N/A]
+  Primary Source Opened: [exact PDF filename from /Reformed Sources/]
+  Primary Source Quote: "[the actual quoted text used in the article]"
+  Source Attribution: [the in-prose sentence that names the author]
 ```

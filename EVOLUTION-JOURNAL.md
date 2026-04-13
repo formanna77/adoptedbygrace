@@ -2,6 +2,84 @@
 > This is the shared memory of the fleet. Every agent reads it. Every agent writes to it.
 > The site gets wiser, more creative, more devastating, more compassionate EVERY DAY because of this file.
 
+## 2026-04-13 — Conviction Engine Session (CRITICAL #46–#50 + HIGH #1–#5 v2→v3, 10 articles)
+
+This session crossed the boundary from CRITICAL into HIGH and discovered three craft patterns that the lower word counts of HIGH-priority articles forced into sharper relief than the longer CRITICAL pieces had allowed.
+
+**CRAFT — "No third box on the form" as the Crown Jewel's cleanest carrier:**
+Across all ten articles in this sweep, the Socratic Crown Jewel insertion converged on a single phrase: *"there is no third box on the form."* The phrase replaced the older "two columns" / "fork in the road" / "binary" framing because it carries an additional implication: a *form* is something the reader has already begun to fill out. They are not being invited to consider an abstract dichotomy — they are being shown that they have already chosen, and being asked to look at which box their pen actually marked. On `theologian-gottschalk.html`: *"What kept him in that cell? Two boxes only — pick one. Box A: A sovereign God who had set His love on Gottschalk before the foundation of the world... Box B: Gottschalk possessed an uncommon strength of will the rest of us happen to lack... There is no Box C. 'Grace plus grit' is Box B with a religious adjective."* On `counter-cs-lewis-free-will.html`: *"'God set up the conditions and Lewis closed the deal' is Box B with extra steps."* On `ot-israel-chosen.html`: *"'He chose me because He knew I'd choose Him' is Box B with a velvet curtain in front of it."* The carrier line — *"X is Box B with a Y"* — is now the standard Crown Jewel disqualifier. Fleet-wide: every Crown Jewel insertion should explicitly enumerate Box A and Box B, then name the would-be-Box-C dressed-up evangelical compromise (cooperation, prevenient response, foreseen faith, grace plus grit, decision plus drawing) as Box B with a hyphen, a velvet curtain, a religious adjective, or extra steps.
+
+**CRAFT — The body-arithmetic mirror — making the reader's flesh do the math:**
+On `theologian-gottschalk.html`, the felt-mirror insertion did not merely name what the reader was feeling — it *forced their body to compute*: *"Notice what the body does, even now, reading that paragraph from a heated room. Something in you, almost involuntarily, begins computing what you would have signed at year three. At year seven. At year fifteen. The flesh is very fast at this calculation. The flesh has a price. Most of us, if we are honest, would have signed by Tuesday of week one."* This converts the reader from a passive observer of Gottschalk's twenty years into an active calculator of their own breaking point. The honest answer (Tuesday of week one) is its own conviction. Fleet-wide: where an article presents an extreme example of saintly endurance, suffering, or refusal-to-compromise, build a paragraph that forces the reader to locate the year, week, or sentence at which they themselves would have folded. The diagnostic lands without argument because the reader does the math.
+
+**CRAFT — The two-rooms / two-pulpits contrast for prevenient grace:**
+On `demolition-prevenient-grace.html`, the closing did not argue against prevenient grace philosophically — it imagined two rooms in the same town on the same Sunday morning, the same passage being preached, and let the reader feel the difference between *"You and God working together — partners"* and *"God did all of it, before you knew His name."* The contrast is felt, not argued. The first room hears flattery; the second room hears liberation. Fleet-wide: where a doctrine has two rival pastoral applications, set the two pastors side by side preaching the same text and let the reader feel which one ends in worship and which one ends in self-congratulation. Show, don't refute.
+
+**INSIGHT — The sensory Buechner closing now standardized as a two-paragraph movement:**
+Every article in this sweep landed its catch on a *two-paragraph* movement: paragraph one is purely sensory (a specific scene, a specific year, specific furniture, specific weather, no theology); paragraph two collapses that scene onto the reader at their screen. On `ot-joseph.html`: paragraph one was the seventeen-year-old at the bottom of the cistern hearing the camel bells; paragraph two was the reader at their own cistern wall hearing bells they could not yet identify. On `theologian-gottschalk.html`: paragraph one was the cell at Hautvillers in the nineteenth winter with the candle stub; paragraph two was the reader in their warm room recognizing the same Hand. On `counter-cs-lewis-free-will.html`: paragraph one was the motorcycle sidecar on the Bedfordshire road; paragraph two was the reader being invited to ride along. The two-paragraph movement is now the standard closing architecture for v3. The first paragraph builds the chamber; the second paragraph turns the lock.
+
+**INSIGHT — Acts 4:27-28 as the unbreakable Crown Jewel anchor:**
+On `ot-joseph.html`, the Crown Jewel insertion forced Box B against eight specific Greek words from Acts 4:27-28 — *"poiēsai hosa hē cheir sou kai hē boulē sou proōrisen genesthai"* — and showed that the verse, read honestly, does not allow Box B to stand. This is a powerful pattern: anchor the Socratic fork in the original-language precision of a verse the reader has read in English their whole life. The Greek footnote is not pedantry; it is the welding-shut of the last exit. Fleet-wide: where a Crown Jewel insertion needs an unbreakable backstop, identify the original-language verse that *cannot* be domesticated by translation gymnastics, and quote it as the closing seal.
+
+**FAILURE MODE TO AVOID — Don't let the Crown Jewel paragraph balloon past 250 words:**
+On `ot-joseph.html`, the Crown Jewel insertion grew to roughly 290 words and risked breaking reading flow. The Box-A/Box-B structure naturally invites elaboration, but elaboration past ~250 words begins to feel like a lecture rather than an inescapable trap. Future inserters: keep Box A to one sentence, Box B to one sentence, the disqualification of Box C to one sentence, and the cost-of-Box-B implication to two sentences max. The trap closes faster than the elaboration suggests.
+
+## 2026-04-13 — Conviction Engine Session (#20–#29 v2→v3 sweep, 8 articles)
+
+This session consolidated and sharpened the craft established in the prior #11–#19 sweep. Eight articles promoted v2→v3 in strict queue order: #20 systematic-anthropology, #21 question-psalm139, #23 ot-jonah, #24 systematic-ecclesiology, #26 ot-moses-pharaoh, #27 secular-philosophy-free-will, #28 systematic-theology-proper, #29 ot-abraham. Five new craft patterns emerged worth preserving.
+
+**CRAFT — The "flinch-as-diagnostic" paragraph (consolidated):**
+The single most repeatable conviction move this session was catching the reader's MIND doing something *while* they read a sentence, then naming it. On `question-psalm139.html`: *"Notice what your mind just did. It slid predetermined toward foreseen while you were reading — a quiet, automatic substitution, He saw, He didn't cause, as if swapping one word could purchase you a sovereign God who was not actually sovereign over you."* On `systematic-theology-proper.html`: *"Read that sentence again and feel what your chest does. Something in you — a small, automatic muscle underneath the theology — wants this not to be true."* On `ot-jonah.html`: *"the back of your neck has gone warm, and this is reading less like an article and more like a mirror."* The move works because it converts reading from a spectator activity into a diagnostic one. The reader cannot deny what they felt; they only felt it. Fleet-wide: where a page makes a claim the flesh would instinctively soften, insert a paragraph that names the softening as it happens.
+
+**CRAFT — "Summons is what X does" cascade:**
+On `systematic-ecclesiology.html`, the word "summoned" was not merely defined — it was escalated through a cascade of contexts: *"Summoned is what courts do. Summoned is what generals do. Summoned is what the mountain did to Moses when the bush refused to burn out."* Three short beats, each domain-shifting, end with a biblical image that makes the theology inevitable. The pattern: take a theologically freighted word, locate its secular weight in three different domains (legal, military, narrative), then land it on Scripture. Use this wherever a word has been flattened by church-familiarity (called, chosen, saved, redeemed, adopted, justified).
+
+**CRAFT — Binary fork applied to Scripture itself, not just propositions:**
+Binary forks traditionally forced a choice between two theological positions. This session extended the technique to the TEXT of Scripture itself. On `question-psalm139.html`: *"Either God wrote the days and then they unfolded as written, or the days unfolded on their own and God watched them happen. Pick one. The psalm does not leave a middle aisle."* The fork is sharper because it is presented as a reading problem, not a theology problem. The reader cannot escape by saying "I just disagree with Calvin." They must escape by saying "I just disagree with David." Few will. Apply wherever a Scripture passage is routinely domesticated by evangelical reading habits.
+
+**CRAFT — Inversion-of-objection move:**
+On `systematic-ecclesiology.html`, instead of refuting the common objection ("if God has already chosen, why evangelize?"), the amplification inverted it: *"Notice the objection runs precisely the wrong way around. The preacher who believes God raises the dead is the preacher who stands in cemeteries unafraid."* The Arminian assumes sovereignty kills evangelism; the inversion shows sovereignty is what makes evangelism possible — because a preacher persuading the spiritually dead needs a God who raises the dead, not a God who merely lobbies them. Fleet-wide: whenever an objection rests on a cause-and-effect chain, check whether the chain actually runs the opposite direction. Often it does.
+
+**CRAFT — "Receipts, not hymns" image for works-gospel:**
+On `systematic-theology-proper.html`, the Crown Jewel argument got a new carrier image: *"And commerce is, at bottom, what every system that makes the human will the decisive factor in salvation reduces the love of God to... it is not a hymn. It is a receipt."* Receipt is the perfect contrast to hymn: one is a record of a transaction, the other is the uncontainable response to a gift. The line compresses the entire Arminian-soteriology critique into two nouns. Fleet-wide: look for binary noun pairs that encode the demolition (not a hymn/a receipt, not a rescue/a reward, not a gift/a wage, not a father/a vendor). These land harder than long arguments.
+
+**CRAFT — Buechner-style pre-cognitive catch, now standardized:**
+Every article this session landed its right-arm catch on a specific pre-cognitive image: ultrasound technician saying *there's the heartbeat* (Psalm 139), pre-sonogram darkness (Abraham), coffee on formica (Jonah), the pew left-and-right (Ecclesiology), the Hand beneath the autonomy (Free Will). The pattern: locate the reader in a specific, sensory, non-theological moment where they were held by something they did not see. The catch lands in the body, not the mind. This is now consolidated as the standard closing mode for conviction-engine v3 articles.
+
+**INSIGHT — Two-authors-one-sentence as diagnostic for sovereignty:**
+On `ot-moses-pharaoh.html`, the hardening paradox was not resolved but held: *"Two authors. One sentence. Not a paradox to be dissolved but a mystery to be fallen silent before."* The move refuses the reader the comfort of resolution. Reformed writing often over-explains paradox; this session learned that sometimes the more honest move is to let the reader sit in it. Fleet-wide: when Scripture presents something that CANNOT be cleanly resolved (Pharaoh's heart, sovereignty + human responsibility, the cross), consider whether unresolved silence is more convicting than argument.
+
+**INSIGHT — Anger-defending-throne vs. anger-defending-neighbor diagnostic:**
+On `ot-moses-pharaoh.html`, the objection to Pharaoh's hardening was split into two distinct emotions: *"The first is the anger of a man defending his neighbor. The second is the anger of a man defending his throne."* Most readers project onto Pharaoh because they sense the threat to autonomy, not because they pity Pharaoh. Naming the difference between righteous anger and self-protective anger gives the reader a private diagnostic tool. Apply wherever readers ask hard questions about God's sovereignty — is the question moral concern or self-protection in moral language?
+
+**Apply to:** All Creator, Enhancer, Refiner, Storyteller, and Apologist agents. These patterns consolidate with the #11–#19 sweep patterns. The conviction-engine toolkit now has eleven named moves: reflex mirror, load-bearing beam, run-the-receipts, Start-Frame cinematography, bookkeeper figure, unclench-your-hands catch, flinch-as-diagnostic, summons-cascade, binary-fork-applied-to-text, inversion-of-objection, receipts-not-hymns. Re-read before any conviction or catch session.
+
+---
+
+## 2026-04-13 — Conviction Engine Session (CRITICAL #11–#19 v2→v3 sweep)
+
+**CRAFT — The "Reflex Mirror" technique:**
+The most convicting paragraph this session was never the argument itself — it was the paragraph that came immediately AFTER the argument, asking the reader to notice what just happened inside them. Example from `systematic-divine-decrees.html`: after stating "God had already decided everything — your comfort or your terror is your confession," the amplification did not argue harder. It said: *"Notice which one you felt when you read it. Not the one you would like to have felt — the one that actually fluttered in you before you had time to correct it."* This flips the page into a diagnostic device. The reader cannot read neutrally anymore; they are now a data point in the argument they are reading. Use this technique wherever a page makes a claim about depravity the reader might nod at abstractly. The reflex mirror turns the nod into self-recognition.
+
+**CRAFT — The "load-bearing beam" reframe:**
+For perseverance/security pages, the most powerful move was not stronger theology but a deeper diagnosis of WHY the reader is afraid. In `question-perseverance.html`: *"Every other load-bearing beam in your life is made of your own grip; you assume this one is too."* The terror of losing salvation isn't a doctrinal bug — it is the downstream output of a soul trained from birth to be the sole author of its own stability. Naming that pattern gives the reader a handle on their own fear that they didn't have before. Apply this pattern to any page on assurance, sanctification, or Christian life: start by diagnosing the reader's posture before you prescribe the theology.
+
+**CRAFT — "Run the receipts" inventory:**
+For total depravity pages, concrete universal examples beat clever metaphors. `systematic-pneumatology.html` used: *"The person you swore you were over — you are not over. The habit you were sure you had killed in January came back in March wearing a different coat. The anger you decided to stop feeling still leaks out at your kids when you are tired."* Three sentences. No theology jargon. Every reader over 25 recognizes themselves in all three. The "Show, Don't Tell" mandate in CLAUDE.md is achieved not by telling the reader they are sinful but by listing their sins in the order they will recognize them.
+
+**CRAFT — Start-Frame sensory cinematography:**
+For history pages (e.g., `history-dort.html`), opening with sensory detail — November wind, oil lamps, visible breath, vaulted ceiling, Scripture open on every desk — transforms the reader from observer to participant. The argument hits differently once you are IN the room. Any history page without a Start Frame paragraph is leaving persuasion on the table.
+
+**INSIGHT — The "bookkeeper inside you" figure:**
+A recurring, unusually effective figure this session was naming the resistance as a *bookkeeper*: the interior voice unwilling to close the ledger of self-contribution because if the ledger closes, the bookkeeper is out of a job. This worked on the foreknowledge page, the Dort page, and the covenant theology page. The figure is effective because it personifies resistance as something the reader can see from the outside — and once you see it as a character, you can stop identifying with it. Fleet-wide: name the resistance. Personify it. Let the reader watch it protest. Then let them walk away from it.
+
+**INSIGHT — The "unclench your hands" physical catch:**
+On `question-perseverance.html`, the closing catch asked the reader to physically unclench their hands and try praying the prayer the other direction — *not* "God, help me hold on," but "God, thank You that You are holding me." Then it named the flutter of panic that would rise. Two effects: (1) it turns reading into embodied experience, (2) it proves the point by letting the reader feel the flutter themselves. Fleet-wide: wherever a page ends in a catch, consider whether a tiny physical invitation (unclench, exhale, lay it down) could move the page from argument to encounter.
+
+**Apply to:** All Creator, Enhancer, Refiner, Storyteller, and Apologist agents. These techniques are now part of the conviction-engine toolkit. Re-read this entry before any session that touches a depravity, assurance, or catch-section page.
+
+---
+
 ## 2026-04-06 — Guardian Session (Evening, Diamond Week Day 2)
 
 **Quality Benchmarks:**
@@ -3150,3 +3228,173 @@ Each of these will produce the same result: the reader tries, fails, and *feels*
 Example: devotional-chosen-before-you-were-broken centers on 2:47 a.m. and the dark room. The new Crown Jewel section ends with "the worst night of your life cannot reach the foundation of your standing with God" and "God does not change His mind at 2:47 a.m. just because you have changed yours." The original catch — "Hold me. I'm yours. I always have been." — receives the reader naturally, because the bridge is built in the same wood.
 
 This is a small craft note but it explains why some Mode A amplifications feel native and others feel transplanted: the difference is whether the new section's closing imagery prepares the reader for the existing catch, or whether it leaves them in a different room.
+
+---
+
+## SESSION 2026-04-13 — CONVICTION ENGINE: FOUR ARTICLES DEEPENED
+
+**Articles touched:** objection-why-command.html, objection-manipulation.html, objection-faith-choice.html, question-depravity.html, compare-calvinism-arminianism.html
+
+### DISCOVERY: "THE WORD YOU HAVE BEEN SOFTENING YOUR WHOLE LIFE"
+
+The most devastating opening for a depravity page is to make the reader watch their own mind translate *dead* into something softer — in real time. Not "Paul says you are dead." Not "most Christians misunderstand what dead means." Instead:
+
+> "Read Ephesians 2:1 slowly. Out loud if you can. *Dead in your transgressions and sins.* Now notice what your mind just did. It translated *dead* into something else. *Very sick. Badly damaged. Mostly broken but still reaching.* Your mind did this automatically, without consulting you. It could not let the word stand."
+
+This is the meta-Discovery technique: rather than *tell* the reader that their flesh resists the biblical diagnosis, *catch them resisting it* on the page. The resistance becomes evidence of the truth. The reader's own self-observation does the conviction work that argument alone cannot do. This pairs the Devastating Question weapon with the Stop-and-Feel weapon in a single move.
+
+**Application:** Any page about a truth that resistant readers automatically soften — total depravity, divine wrath, the exclusivity of Christ, hell — can open with "watch your mind do the softening" before the argument begins. The reader cannot deny what they just watched themselves do.
+
+### DISCOVERY: THE "TEN THOUSAND" CALLBACK FOR FAITH-ORIGIN ARTICLES
+
+Opening a faith-as-gift article with "Ten thousand people heard the same gospel you did and walked out of the same sanctuary unmoved. Why not you?" creates an unreachable mystery that the reader cannot solve from within their own worldview. Every explanation they reach for (more sincere, more open, softer soil) boomerangs — because the entire worldview they would use to answer the question is the thing the question is asking about. Then a closing callback ("Go back to the ten thousand... you finally know the answer") lets the reader stand at the end of the article holding a resolved mystery. The circle is closed. The elect feel the click.
+
+**Principle:** An opening mystery + closing resolution callback is a self-contained cathedral the reader has to pass through. It makes the page feel complete in a way that linear arguments cannot.
+
+### DISCOVERY: "THE SPREADSHEET OF THE UNIVERSE" AS DECISION-AS-WORK ARGUMENT
+
+When explaining why a synergistic decision is still a work, the cleanest image is a spreadsheet: "Every other column is equal. God loved them. God sent Christ for them. God called them through a preacher. What is left? You. Your vote was the tiebreaker." The cold clerical imagery strips the warm emotional language off of "decision" and forces the reader to see it as what it actually is in the synergistic framework: a variable in a decision function. Nobody calls their vote "an act of trust" when they see it rendered as a cell in a spreadsheet. This is the Steelman Destroyer weapon — give the position its best clinical form, then let the form expose the works-righteousness.
+
+### DISCOVERY: "THE CORPSE SITTING UP IN THE CASKET TO ARGUE THAT IT WAS NEVER REALLY DEAD"
+
+When a reader instinctively objects to total depravity ("but I was seeking"), the strongest response is not to argue the objection — it is to use the objection itself as evidence. "That is the corpse sitting up in the casket to argue that it was never really dead. Which is, of course, exactly what a corpse cannot do." The image is absurd, devastating, and self-terminating. It makes the very posture of objection into a logical proof of depravity.
+
+**Principle:** When the flesh objects, the objection is often itself the evidence. The best rhetorical move is to make the reader see their own resistance as the thing Scripture predicted.
+
+### TECHNIQUE: THE "LAZARUS CALLBACK" CLOSING
+
+Articles about total depravity land most devastatingly with a Lazarus callback: describe the tomb scene in second person, collapse it into the reader's own conversion, and end with three words that reverse the tomb. "You are out." The technique uses the most famous resurrection scene in the gospels as a readymade emotional container the reader has been pre-loaded with since childhood, then redirects the feeling to their own salvation story. The payload is delivered in borrowed emotional infrastructure.
+
+### FAILED APPROACH: DO NOT OVER-EDIT STRONG EXISTING PROSE
+
+The comparison article (compare-calvinism-arminianism.html) already had several devastating lines ("Grace is a hunter, and it does not miss") in place from a prior pass. The temptation was to rewrite entire sections. Restraint was the right choice — three targeted enhancements (stakes paragraph before Five Points, fatigue-as-evidence paragraph before the final landing) delivered more per edit than a full rewrite would have. **Rule for future conviction passes on already-strong articles: add rather than replace. Find the gaps, not the sentences.**
+
+### INTEGRITY NOTE
+
+Validator caught one pre-existing broken link (`/systematic-grace`) in `secular-psychology-bondage-of-will.html`. Fixed by redirecting to `/systematic-soteriology`. Lesson: every session should run the validator as the final gate — even pages untouched in the session may have accumulated bit-rot from prior hallucinations.
+
+
+---
+
+## 2026-04-13 — CONVICTION ENGINE v2→v3 (THE FLINCH AS DIAGNOSTIC)
+
+**Run:** the-conviction-engine, autonomous v2→v3 promotion pass.
+**Articles promoted:** #3 creed-canons-dort.html, #4 systematic-hamartiology.html, #5 systematic-ordo-salutis.html, #6 systematic-christology.html, #7 question-irresistible.html, #8 demolition-steel-man-arminianism.html, #9 ot-jacob-esau.html, #10 demolition-john3-16.html. **8 of 8 minimum hit.** Strict queue order maintained.
+
+### TECHNIQUE THAT WORKED EXCEPTIONALLY WELL — "THE FLINCH AS DIAGNOSTIC"
+
+The single most successful conviction beat across this session was naming the reader's *physiological response* to a verse before they had finished processing it. Example from ot-jacob-esau.html:
+
+> "Notice what your mind just did. The first time you heard 'Jacob I loved, but Esau I hated,' your nervous system flinched. You started reaching for context. You started remembering that scholar who explained how the word 'hated' really means something gentler in covenantal Hebrew..."
+
+This works because it transforms an objection the reader was about to make into evidence the article has already considered. The reader cannot use the escape hatch because the escape hatch is now itself a piece of evidence FOR the argument. The flinch becomes the proof. It is the Socratic method weaponized at the level of the autonomic nervous system.
+
+**Application across the fleet:** any time the next paragraph the reader is about to mentally write is predictable ("but the verse really means..."), name that paragraph BEFORE they get to write it. Then explain why the reflex itself proves the point. Future agents should look for these moments and exploit them — they are the highest-conviction-yield rhetorical move available.
+
+### TECHNIQUE THAT WORKED — THE "LOCATE THE DIFFERENCE" SCENARIO
+
+In demolition-steel-man-arminianism.html the central question — "if everyone gets the same prevenient grace, what accounts for the difference?" — was strengthened by forcing the reader to actually picture two specific people:
+
+> "Two co-workers in the same office. Same age, same upbringing, both invited to the same Bible study by the same friend. Both hear the same gospel — the same words, the same Jesus, the same offer of forgiveness. One walks away saying, 'Yes. I see it.' The other walks away saying, 'Not for me.' The Arminian must locate the difference. So locate it."
+
+The abstract argument failed for a decade. The concrete scenario succeeds in three sentences because it forces the reader to actually answer the question rather than deflect it. **Show, don't tell** applied to logical arguments, not just emotional ones. Lesson for content agents: every abstract logical claim should be paired with a forced-choice scenario that makes the abstraction inescapable.
+
+### TECHNIQUE THAT WORKED — THE BUECHNER LANDING WITH PHYSICAL DETAIL
+
+The strongest closings in this run all used a single physical detail to ground the theological catch. From systematic-christology.html:
+
+> "Before your mother knew she was pregnant. Before the doctor handed her your weight. Before the first time you cried in the dark wondering if anyone would ever come — your name was already on a piece of parchment in heaven, and the ink was the blood of God."
+
+Or from ot-jacob-esau.html:
+
+> "Jacob walked with a limp because the night he wrestled God, God touched the socket of his hip and dislocated it on purpose. The limp was not a wound. It was a reminder."
+
+The physical detail (mother's pregnancy weight, dislocated hip socket) is what makes the theological abstraction land in the reader's body instead of their cognitive cache. This pattern — *theological truth → physical anchor → emotional release* — is the most efficient catch architecture I encountered. Future Dramaturg/Storyteller/Refiner sessions should lean into this.
+
+### LITERARY LINEAGES CHANNELED
+
+This run channeled at least two voices per article. Most frequently combined: **Spurgeon** (the asyndeton hammer — "He found you. He paid for you. He will not let you go.") + **Buechner** (the breath-stopping concrete image). Less frequently but powerfully: **Edwards** (the air-tight syllogistic walk that does not let the reader off the train) in demolition-steel-man-arminianism.html and demolition-john3-16.html. **MacDonald's** "freedom is what He authored, not what you generated" theme surfaced in question-irresistible.html.
+
+### FAILURE MODE TO AVOID
+
+Twice during this run I started to write a "softening" sentence between the conviction beat and the catch — something like "of course, this is hard to accept, but..." Each time I caught myself and deleted it. **A softening sentence between conviction and catch destroys both.** It tells the reader the conviction was rhetorical (and thus dismissible), and it weakens the catch by reducing the height the reader fell from. Future agents: never apologize for the demolition. Never. Let the catch do the apologizing — by being so beautiful that the apology is already inside the gentleness.
+
+### THE THREE-PASS CONVICTION LOOP — CONFIRMED
+
+For each article: (1) read existing v2 in full to absorb voice; (2) identify 2-3 surgical insertion points (typically: after a strong abstract claim that needs a felt mirror; at the end of the Crown Jewel section to seal the Socratic; immediately after the existing closing line to extend the catch); (3) write each insertion in a single voice unbroken across that paragraph. Three insertions per article was the right ceiling — more than that and the original v2 voice gets diluted.
+
+---
+
+## SESSION 2026-04-13 — Conviction Engine, CRITICAL #30-37 (Aaron Forman + Claude)
+
+### TECHNIQUE THAT WORKED — THE "EMPLOYEES WHO DIDN'T KNOW WHO SIGNED THE PAYCHECK" INVERSION
+
+In question-acts4.html, the existing v2 sentence "They were all employees who didn't know who signed their paycheck" was already strong. The v3 amplification did NOT improve that sentence. Instead it built a *parallel* paragraph that asked the reader to locate themselves in the same list — to remember a recent sin they did willingly while God was simultaneously sovereign over the moment. The technique: when a metaphor for biblical characters lands hard, follow it with a paragraph that puts the reader inside the same metaphor. Don't just describe Judas; let the reader feel that Judas's structure (real motive + real divine plan) is also their structure last Tuesday. The conviction multiplies because the reader was given permission to belong inside the analogy instead of admiring it from a balcony.
+
+### TECHNIQUE THAT WORKED — THE GYM-MEMBERSHIP PROOF
+
+For history-augustine-pelagius.html, the v2 had a line about "every gym membership is built on" Pelagian assumptions. The v3 expanded this into a full paragraph naming the reader's January resolutions, journal-open sincerity, second-week-of-February collapse. The lesson: **when a one-liner glances at a universal experience, the v3 move is to slow down on the universal experience until the reader's own face appears in it.** Most v2 articles have at least one such glance. Each one is a v3 expansion opportunity. Future Conviction Engine sessions should specifically scan v2 articles for these "glance lines" as the primary source of v3 felt-mirror amplifications.
+
+### TECHNIQUE THAT WORKED — THE "WHAT WOULD YOU REFUSE TO TRADE FOR COMFORT" QUESTION
+
+In history-spurgeon-downgrade.html, the catch wasn't built on Spurgeon's bravery but on his *captivity* — "A man who has been caught by grace has already lost the argument about what to protect." This re-framed standing-firm not as virtue the reader needs to manufacture but as a side-effect of being held. The Crown Jewel application: the reader does not need to ask "could I be that brave?" — they need to ask "have I been caught yet?" Standing alone is the *symptom* of grace, not the *cost* of obedience. This re-framing is reusable across every page that risks turning a faithful figure into a moral example. The Two Arms doctrine demands we never present courage as a thing the reader must summon. Always present it as a thing grace produces in those it has already taken.
+
+### TECHNIQUE THAT WORKED — THE "MACHINERY INVERTED" SOCRATIC IN HISTORY PAGES
+
+In history-great-awakening.html, the v3 added the observation that the 1734 revival happened with no altar call, no soft music, no closed-eyes invitation. Then it asked: if God could save His elect without that machinery in 1734, who is the machinery for now? This worked because it inverted the modern reader's assumption (that good evangelism requires technique) and used the reader's own observation of the historical record to do the inverting. **History pages are an under-used Socratic terrain.** Every history page should ask: "what does the absence of [modern assumption X] in this historical revival suggest about whether [modern assumption X] was ever necessary?" The historical record becomes the witness against the modern church's apparatus.
+
+### TECHNIQUE THAT WORKED — "THE WIND THAT MOVED THEN IS TOUCHING YOU NOW"
+
+The history-great-awakening Buechner catch ended by collapsing the historical distance: the same wind that fell on Northampton in 1741 is the wind touching the reader's breathing tonight. This is a transferable structural move for ALL history pages. The history page's catch should not be "wasn't God great in the 1730s." It should be "the wind that moved then is moving now, on this page, in your chest." Otherwise the reader walks away admiring a museum exhibit. The point of history on this site is never history. The point is *the same God then = the same God now*, and the page must close that gap explicitly in the final paragraph, not leave it implied. Future History agents must make this collapse mandatory.
+
+### THE BURNING-LIBRARY METAPHOR (DISCOVERED)
+
+The Augustine-Pelagius catch landed on this phrase: "A theology that leaves you the hero leaves you alone in a burning library. A theology that makes God the hero leaves you, even in the burning library, held." This is a portable image. The "burning library" stands in for any catastrophic loss the reader can imagine — career collapse, loss of a parent, an unanswered medical diagnosis. The point is not the library; the point is that Pelagian theology has nothing to offer when the visible structure of your life burns. Reformed theology answers the burning library with a Person, not a plan. Future Pastoral and Open-Wound agents should consider re-using this image when writing for readers in active loss.
+
+### CONFIRMED PATTERN — THE THREE-INSERTION CEILING HOLDS
+
+Across articles #30-37, the "three surgical inserts per article" rule continued to produce the cleanest amplifications. When I tried four in one early draft (the resistance-last-idol article), the original v2 voice started to feel crowded and the catch lost its breathing room. Three is the right number: one Show-Don't-Tell mirror, one Socratic Crown Jewel sealing question, one Buechner-quality catch extension. Future Conviction Engine sessions should treat three as the load-bearing default and only exceed it when the v2 article is unusually long or unusually thin.
+
+
+---
+
+## 2026-04-13 — CONVICTION ENGINE v3, ARTICLES #38-#45 (Eight Longest Articles in Queue)
+
+### THE FELT-BODY DIAGNOSTIC — CONVICTION GETS LOCATED IN MUSCLES, NOT IDEAS
+
+The breakthrough this session was discovering that the most powerful felt-mirror is not "you may be feeling something like X" — it is "the small movement happening in your chest right now." The reader's body is the mirror, not their mind. Their mind has rehearsed defenses for every theological argument they have ever heard. Their body has not. When you name what their shoulders are doing, what their jaw is doing, what their thumb is doing on the screen, what their eyes have just done to the previous sentence — they cannot deny it, because you are describing their autonomic nervous system before their will has time to argue. Examples that landed in this session:
+
+- "If you are reading this on a phone in a quiet room — your shoulders are probably already higher than they were five minutes ago. Your jaw is set." (pastoral-when-truth-lands.html)
+- "The instinct, almost before the paragraph ends, is to say something like: 'Well, He knew in advance who would believe.' That sentence is sitting at the back of your throat already." (question-2tim1-9.html)
+- "Watch what your mind tries to do with that paragraph. It will try, almost without your permission, to translate boulomenos back into a softer English word." (objection-desire.html)
+- "Watch your mind right now. The word enslaved is uncomfortable, so a small automatic muscle inside your skull is already softening it." (theologian-luther.html)
+
+The pattern: name the autonomic flinch in physical-system language (chest, jaw, throat, skull, shoulders, thumb), then immediately name what the flinch is *defending*, then immediately offer the sentence the flesh is rehearsing in their head as proof you can read them. The reader feels seen at a level the mind cannot reach. Future Conviction Engine sessions should default to this approach for the first insertion in every article. The body is the witness the will cannot bribe.
+
+### THE "NO THIRD BOX ON THE FORM" CROWN JEWEL FORK
+
+The Crown Jewel Socratic insertion gained its sharpest version this session: closing all escape routes with explicit logical bookkeeping. The reader's typical move when cornered by the gift-faith argument is to invent a third option — "I cooperated with grace," "prevenient grace enabled my decision," "God reached and I just opened the door." The fix: pre-name and disqualify the third option in the Socratic move itself.
+
+- "There are only two possible engines of salvation in the universe. God's sovereign choice or your contribution. There is no third box on the form." (theologian-luther.html)
+- "Did you produce your faith, or did God grant it? Take the third option off the table — 'I cooperated' is just dressed-up production." (question-faithgift.html)
+- "If God desires every individual saved and is unable to bring them, then the variable that determines salvation cannot be God's desire." (objection-desire.html — arithmetic Socratic)
+
+The principle: when the reader has a third escape route, the demolition is incomplete. Always name the third route they will reach for and burn it before they can climb in. Two-option logic with explicit no-third-option language is the strongest form of the Crown Jewel argument because it forecloses the move the flesh always tries to make.
+
+### BUECHNER LANDINGS AS TWO-PARAGRAPH MOVEMENTS
+
+The single-paragraph Buechner closing is good. The two-paragraph movement is better. The pattern that emerged this session: paragraph one paints a single physical scene with sensory detail (one sound, one smell, one image) — completely outside the reader's life. Paragraph two collapses the scene onto the reader, naming them as the figure in it. Examples:
+
+- *Para 1:* "Picture the room in Eisleben on the morning of February 18, 1546. The fire low. The window grey with German winter..." → *Para 2:* "...the same arms — older than Eisleben, older than Wittenberg, older than the foundation of the world — are open right now to anyone reading this who is finally tired enough to admit that their own grip has never been the thing holding them." (theologian-luther.html)
+- *Para 1:* "Picture the moment Samuel walked out of Jesse's house..." → *Para 2:* "The same One is reading this page over your shoulder. He has not turned away. He has the oil in His hand. And He is not embarrassed by the smell of the sheep on you." (ot-david.html)
+
+The two-paragraph structure works because it gives the scene time to root itself in the reader's imagination before the collapse. A one-paragraph version forces the collapse before the scene has been fully felt. Future sessions should default to the two-paragraph movement for any article over ~3000 words. Shorter articles can stay with single-paragraph Buechner landings.
+
+### WHAT NOT TO DO — THE SOFTENING SENTENCE BETWEEN CONVICTION AND CATCH
+
+In the early draft of the pastoral-when-truth-lands.html insertion, I tried to bridge the conviction insertion to the article's existing pastoral material with a softening sentence ("This is hard, but it is also good"). It killed the impact. The reader needs the conviction to land hard *and stay landed* before the catch arrives. Any softening sentence between them gives the flesh a place to rest and start arguing. The fix: cut the bridge entirely. Let the conviction sit. Let the next paragraph be the catch with no preface. The discomfort is the doorway. Do not pad the doorway.
+
+### CONFIRMED: THE LONGEST ARTICLES NEED THREE INSERTIONS, NOT FOUR
+
+Articles #38-#45 ranged from 4143 to 4311 words — the longest tier of v2 articles. The temptation was to add four insertions to "match" the length. Resisted. Three held. The third insertion (the Buechner two-paragraph movement) carried so much weight that a fourth would have crowded it. The three-insertion ceiling now confirmed across both ~2300-word articles (last session) and ~4300-word articles (this session). It is a structural principle, not a length-dependent guideline.
+
