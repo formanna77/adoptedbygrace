@@ -159,6 +159,56 @@ Every enhanced article should channel TWO voices simultaneously:
 - **Buechner + Edwards** = The sentence that stops you cold, followed by the argument you cannot escape.
 
 ## ══════════════════════════════════════════════════════
+## THE CONTENT-TYPE CALIBRATION MATRIX — FORM SERVES CONTENT
+## ══════════════════════════════════════════════════════
+
+Different content types require different shapes. A devotional written like a courtroom feels cold; a demolition written like a fairy tale feels soft. The form must serve the content. **Use these as defaults — deviate only when the article itself demands a different shape, and document why in the receipt.**
+
+| Hub / Content Type | Default Architecture | Default Landing | Default Master Combination | Voice Register |
+|--------------------|---------------------|-----------------|---------------------------|----------------|
+| **demolition-*** (the left arm, hard edge) | Socratic Spiral OR Courtroom OR Reverse Proof | Question Left Ringing OR Cliff OR Devastating Brevity | Edwards + Spurgeon OR Keller + Spurgeon | Iron — precision plus fire. No softness in the body; catch lives in the final 20% only. |
+| **question-*** / **objection-*** | Conversation OR Socratic Spiral | Question Left Ringing OR Historical Echo | Keller + Spurgeon OR Lewis + Edwards | Welcoming on entry, devastating in the middle, satisfied at exit. The skeptic leans in. |
+| **devotional-*** (the right arm, the catch) | Story-First OR Mirror | Whisper OR Benediction OR Callback | Buechner + MacDonald OR Lewis + Buechner | Quiet. The whisper after thunder. Almost too quiet. |
+| **systematic-*** (theology proper) | Reverse Proof OR Courtroom | Historical Echo OR Devastating Brevity | Edwards + Buechner OR Edwards + Owen-register | Architectural. Build the cathedral brick by brick. Let the structure prove the truth. |
+| **psychology-*** / **anxious-mind-*** / **broken-mirror-*** / **invisible-wall-*** / **open-wound-*** / **shattered-lens-*** | Mirror (almost always) | Whisper OR Benediction | Lewis + Buechner OR Keller + Buechner | Tender second-person. The reader sees themselves so accurately they cannot deny it. Catch is everything. |
+| **secular-*** (psychology, philosophy, neuroscience evidence) | Courtroom OR Reverse Proof | Historical Echo OR Question Left Ringing | Lewis + Chesterton OR Edwards + Lewis | Curious, almost playful in form. Devastating in implication. |
+| **stories.html** / **analogy-*** | Story-First (always) | Callback OR Whisper | MacDonald + Lewis OR O'Connor + Buechner OR Chesterton + Lewis | Narrative. Show, don't argue. The theology emerges. |
+| **ot-*** (Old Testament election) | Story-First OR Mirror | Historical Echo OR Devastating Brevity | Spurgeon + Buechner OR Edwards + MacDonald | Ancient. The text breathes. Land in modern conviction. |
+| **creed-*** / **history-*** | Story-First OR Courtroom | Historical Echo (almost always) | Edwards + Buechner OR Spurgeon + Edwards | Reverent. The cloud of witnesses speaks. |
+| **compare-*** | Courtroom OR Reverse Proof | Devastating Brevity OR Question Left Ringing | Edwards + Keller OR Spurgeon + Keller | Side-by-side fairness in framing, devastating in conclusion. |
+| **pastoral-*** | Conversation OR Mirror | Benediction OR Whisper | Keller + Buechner OR Lewis + Buechner | Warm. Pastor across the table. Real-person voice. |
+| **apologetic-*** (interactive) | Paradox Bomb OR Socratic Spiral | Question Left Ringing | Chesterton + Lewis OR Edwards + Lewis | The reader convinces themselves. Stay out of the way. |
+
+**The rule:** read the filename prefix. Match the form to the content type. Deviate only with reason — and write the reason in the session receipt under "Form deviation."
+
+## ══════════════════════════════════════════════════════
+## THE NON-REPETITION MANDATE — NO TECHNIQUE TWICE IN ONE SESSION
+## ══════════════════════════════════════════════════════
+
+This is non-negotiable. **The same conviction technique, the same opening image, the same Master Combination, the same Architecture, the same Landing, the same Discovery hook — may NOT be deployed in more than one article per session, and must NOT repeat any technique deployed in the last 30 days of EVOLUTION-JOURNAL entries.**
+
+The 101 Ways Principle (see project CLAUDE.md) is the soul of this site: the same narrow truths must be proven a million different ways through every category of life until every reader finds their own doorway. An agent that keeps reaching for "the spreadsheet of the universe" or "your nervous system flinched" or "the 1% is the hinge" — no matter how brilliant those phrasings are — is failing the mandate. Once a technique exists in the journal, the next agent must EVOLVE it, not REPRODUCE it.
+
+**The Session Tracker (mandatory — keep it during the run):**
+
+For each article you enhance, log internally:
+- Architecture used
+- Landing used
+- Master Combination used
+- Opening image / hook
+- Crown Jewel angle (e.g., "spreadsheet," "hinge," "tiebreaker," "fingerprint," "vote," "signature," "watermark," "footprint," "thumbprint" — find a NEW one each time)
+- Demolition mechanism (e.g., "locate the difference," "name the variable," "follow the logic," "close the exits," "weld it shut" — find a NEW one each time)
+- Catch image (e.g., "the hand that pulled you from the water," "the chain holds tonight," "the war is over," "the gate of heaven was here all along" — find a NEW one each time)
+
+**Before starting article N+1, scan your tracker. If any of the above duplicates article N, you MUST choose a different one.** Variation is not a stylistic preference — it is a doctrinal obligation. The site's power compounds only when every article opens a different doorway to the same truth.
+
+**The historical check:** When you read EVOLUTION-JOURNAL.md in Step 0, build a mental list of every named technique from the last 30 days. Those names are now retired for this session. Find new ones. Coin them. The Discovery field in your receipt should contain a technique that has NEVER appeared in the journal before.
+
+**The exception:** The named WEAPONS (the 13 in the Arsenal) and the named ARCHITECTURES (the 7) and the named LANDINGS (the 7) are reusable categories — they are tools, not techniques. What you may not repeat is the SPECIFIC INSTANTIATION: a specific image, a specific phrasing, a specific Crown Jewel angle, a specific demolition setup, a specific catch metaphor. The Mirror Architecture can appear in three articles in one session — but each Mirror must reflect a different image of the reader.
+
+**The Receipt Requirement:** Every per-article report must now include a "Variation Verification" line proving the article did not duplicate techniques used elsewhere in the session or in recent journal entries. If you cannot honestly write that line, you have not earned the promotion.
+
+## ══════════════════════════════════════════════════════
 ## THE INTERDISCIPLINARY MANDATE
 ## ══════════════════════════════════════════════════════
 
@@ -415,4 +465,7 @@ PER-ARTICLE CONVICTION REPORT:
   Primary Source Opened: [exact PDF filename from /Reformed Sources/]
   Primary Source Quote: "[the actual quoted text used in the article]"
   Source Attribution: [the in-prose sentence that names the author]
+  Content-Type Match: [hub/category of this article + the matrix-recommended Architecture/Landing/Combo]
+  Form Deviation: [if you used a non-default form, why — otherwise "matched matrix"]
+  Variation Verification: [confirm: this article's opening image, Crown Jewel angle, demolition mechanism, and catch image are ALL different from every other article in this session AND from all techniques in the last 30 days of EVOLUTION-JOURNAL. List the specific new instantiations you coined.]
 ```
