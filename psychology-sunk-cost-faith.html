@@ -3,27 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The sunk cost fallacy explains why believers resist grace the longer they've taught 'I chose God.' Years of identity investment create a wall of rationalization that gets stronger, not weaker.">
-    <meta name="keywords" content="sunk cost fallacy, belief investment, resistance to grace, commitment escalation, cognitive dissonance">
+    <title>The Sunk Cost of Self-Made Faith | Adopted by Grace</title>
+    <meta name="description" content="The sunk cost fallacy explains why believers resist grace the longer they've taught 'I chose God.' Years of identity investment create a wall that gets stronger, not weaker.">
+    <meta name="keywords" content="sunk cost fallacy, belief investment, resistance to grace, commitment escalation, cognitive dissonance, identity threat">
     <meta property="og:title" content="The Sunk Cost of Self-Made Faith">
-    <meta property="og:description" content="Why does believing in your own choice get harder to let go of with time? The sunk cost fallacy explains how past investment traps future belief.">
+    <meta property="og:description" content="Why does believing in your own choice get harder to let go of with time? The sunk cost fallacy explains everything.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://adoptedbygrace.net/psychology-sunk-cost-faith">
-    <meta property="og:image" content="https://adoptedbygrace.net/og-psychology.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="The Sunk Cost of Self-Made Faith">
-    <meta name="twitter:description" content="The sunk cost fallacy: why past investment in 'I chose God' makes surrendering that belief feel impossible.">
     <link rel="canonical" href="https://adoptedbygrace.net/psychology-sunk-cost-faith">
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-
-    <title>The Sunk Cost of Self-Made Faith</title>
-
     <link rel="stylesheet" href="/global.css">
-
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -33,57 +22,26 @@
         "author": { "@type": "Organization", "name": "Adopted by Grace" },
         "publisher": { "@type": "Organization", "name": "Adopted by Grace", "logo": { "@type": "ImageObject", "url": "https://adoptedbygrace.net/favicon.svg" } },
         "datePublished": "2026-04-04",
-        "dateModified": "2026-04-04",
+        "dateModified": "2026-04-12",
         "mainEntityOfPage": { "@type": "WebPage", "@id": "https://adoptedbygrace.net/psychology-sunk-cost-faith" }
     }
-    </script>
-
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://adoptedbygrace.net/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Psychology",
-            "item": "https://adoptedbygrace.net/psychology-hub"
-        },
-        {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "The Sunk Cost of Self-Made Faith"
-        }
-    ]
-}
     </script>
 </head>
 <body>
 
-<div class="reading-progress" id="readingProgress"></div>
-
-            <nav role="navigation" aria-label="Main navigation">
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
-            <!-- Mobile search icon (right side of nav bar) -->
             <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             </button>
             <ul class="nav-links">
-                <!-- Search bar at top of mobile menu -->
                 <li class="mobile-menu-search" style="list-style:none;">
                     <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
                 </li>
-                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
                 <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
@@ -94,7 +52,6 @@
                 <li class="mobile-nav-link"><a href="/theologians">Theologians</a></li>
                 <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
                 <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
                 <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
             </ul>
 
@@ -121,10 +78,8 @@
         </div>
     </nav>
 
-    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
     <div class="mega-menu" id="megaMenu"></div>
 
-    <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">
         <div class="search-overlay-inner">
             <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
@@ -134,185 +89,105 @@
     </div>
 
 <header class="page-hero">
-    <span class="eyebrow">Psychology of Resistance</span>
-    <h1>The Sunk <span class="gold">Cost of Self-Made Faith</span></h1>
-    <p class="subtitle">Years of believing "I chose God" creates an investment that gets harder to surrender with time. The sunk cost fallacy explains why the longer you've held a belief, the less rational your defense of it becomes.</p>
+    <span class="eyebrow">Psychology</span>
+    <h1>The Sunk Cost of Self-Made Faith</h1>
+    <p class="hub-subtitle">Years of believing "I chose God" creates an investment that gets harder to surrender with time. The sunk cost fallacy explains why the longer you've held the belief, the less rational your defense of it becomes.</p>
 </header>
 
 <article class="article-body">
 
-    <h2>The Investment Trap: How Belief Becomes Debt</h2>
+    <div class="tldr">
+        <h2>In Brief</h2>
+        <p>The sunk cost fallacy — the tendency to keep investing in something because of what you've already spent — explains why long-time believers in "I chose God" resist the <a href="/systematic-salvation">doctrines of grace</a> more fiercely than new converts. Decades of testimony, teaching, and identity-building create an investment so deep that admitting error feels like admitting your whole life was a lie. So instead of changing your mind, you change the evidence. The wall isn't logic anymore. The wall is investment. And grace asks you to forfeit it all.</p>
+    </div>
+
+    <h2>The Investment Trap</h2>
 
     <p>He is sixty-three years old. He has preached two thousand sermons. He has baptized hundreds. He has told his testimony — <em>"The night I gave my life to Christ"</em> — so many times that the words have grooves worn into them like a hymnal opened to the same page for forty years. His voice still cracks when he tells it. The sincerity is not in question. The investment is.</p>
 
-    <p>Because every time he told that story, he was building something. Not just a narrative — a <em>foundation</em>. A foundation that now holds up his identity, his ministry, his marriage, his friendships, his understanding of who he is before God. Forty years of reinforcement. Forty years of additional investment. And somewhere deep in his chest, beneath the confidence, a question he has never once allowed to surface: <em>What if the thing I built everything on was the one thing I got wrong?</em></p>
+    <p>Because every time he told that story, he was building something. Not just a narrative — a <em>foundation</em>. A foundation that now holds up his identity, his ministry, his marriage, his understanding of who he is before God. Forty years of reinforcement. And somewhere deep in his chest, beneath the confidence, a question he has never once allowed to surface: <em>What if the thing I built everything on was the one thing I got wrong?</em></p>
 
-    <p>Now imagine someone comes to you with <a href="/question-faithgift">Ephesians 2:8-9</a> and says: "You didn't choose. Grace chose you. Faith itself was a gift." In that moment, you are not merely reconsidering a theological claim. You are being asked to write off years of investment. To admit that all that reinforcement, all that testimony, all that identity-building was built on a false premise.</p>
+    <p>Now imagine someone comes to him with <a href="/question-faithgift">Ephesians 2:8-9</a> and says: "You didn't choose. Grace chose you. Faith itself was a gift." In that moment, he is not reconsidering a theological claim. He is being asked to write off forty years of investment. To admit that all that testimony, all that identity-building, was built on a false premise.</p>
 
-    <p>The psychological cost of admitting that is staggering. And so instead of changing your mind, you change your argument. You find new reasons the verse doesn't mean what it says. You redefine words. You rationalize. You do whatever it takes to protect the investment.</p>
+    <p>The psychological cost of admitting that is staggering. So instead of changing his mind, he changes his argument. He finds new reasons the verse doesn't mean what it says. He redefines words. He rationalizes. He does whatever it takes to protect the investment.</p>
 
-    <div class="pullquote">
-        The longer you've believed something and built on that belief, the more it costs you to surrender it. That cost is called the sunk cost fallacy — and it makes otherwise intelligent people defend obviously false positions.
-    </div>
+    <h2>How Past Investment Traps Future Belief</h2>
 
-    <h2>The Sunk Cost Fallacy: When Past Investment Traps Future Belief</h2>
+    <p>The sunk cost fallacy — documented by Kahneman and Tversky — describes the human tendency to continue investing in something because of time, money, or effort already spent, even when continuing makes no rational sense. Students who paid for a theater ticket sat through a terrible show rather than leave. Past investment overrode present judgment.</p>
 
-    <div class="mechanism-card">
-        <span class="mechanism-num">The Mechanism</span>
-        <span class="researcher">Daniel Kahneman & Amos Tversky, 1979 — Prospect Theory</span>
-        <h3>The Rational Becomes Irrational When You've Invested Too Much</h3>
-        <p>The sunk cost fallacy describes the human tendency to continue investing in something because of money, time, or effort already spent — even when the future return makes no rational sense.</p>
+    <p>Apply this to faith. Years ago you made a public commitment: "I chose God." You built your <a href="/psychology-identity-threat">identity</a> on it. You testified to it. You taught it. Every time someone asked about your conversion, you reinforced the investment. And the <em>more</em> you invested, the less rational your defense became.</p>
 
-        <p>In one classic study, students were given free tickets to a theater performance. They were then told the show was terrible and they would waste two hours sitting through it. The obvious rational choice: don't go. But students who had paid for the ticket (sunk cost) were significantly more likely to attend than those who had gotten free tickets. Past investment overrode present judgment.</p>
+    <p>Someone presents you with clear evidence from Scripture. Your rational mind sees it. But your emotional mind — the part with decades of sunk investment — screams: <em>If you admit this is true, then all those years were wasted. All those testimonies were false. Your identity is a lie.</em> So you don't change your mind. You change the evidence. You rationalize. You defend harder the longer you've invested.</p>
 
-        <p>The mechanism is this: when you've invested heavily in something, admitting it was a mistake becomes psychologically unbearable. Abandoning it feels like admitting that investment was wasted. So instead of making the rational choice going forward, you double down. You throw good money (or good time, or good credibility) after bad.</p>
+    <p>And here is the darker mechanism: commitment escalation. The more you <em>defend</em> a belief publicly, the more firmly you come to believe it — even if the original reason has been disproven. Long-time believers in "I chose God" are the fiercest defenders of <a href="/question-freewill">free will</a> theology precisely because they've spent decades defending it. At this point, admitting that <a href="/systematic-election">election</a> is true doesn't feel like updating a theological position. It feels like admitting their entire ministry was built on a lie.</p>
 
-        <p>Now apply this to faith. Years ago you made a public commitment: "I chose God." You built your identity on that. You testified to it. You taught it. Every time someone asked about your conversion, you reinforced the investment. And the <em>more</em> you invested, the less rational your defense of it became.</p>
+    <blockquote>
+        <p>"They worship me in vain; their teachings are merely human rules."</p>
+        <cite>Matthew 15:9</cite>
+    </blockquote>
 
-        <p>Someone presents you with clear evidence from Scripture. Your rational mind sees it. But your emotional mind—the part that has years of sunk investment—screams: <em>If you admit this is true, then all those years were wasted. All those testimonies were false. Your identity is a lie.</em></p>
+    <h2>The Wall That Gets Higher With Time</h2>
 
-        <p>So you don't change your mind. You change the evidence. You find new interpretations. You rationalize. You defend harder the longer you've invested.</p>
-    </div>
+    <p>Think about when resistance is <em>softest</em>: when someone is young in the faith. New converts, teenagers fresh off the altar. They're flexible. They haven't built decades of testimony on their choice. The sunk cost is still small.</p>
 
-    <h2>Commitment Escalation: The More You Defend It, The More You Believe It</h2>
+    <p>But years pass. You become a youth leader, counseling teenagers about <em>their</em> decision for Christ, reinforcing your own narrative. You become a parent, teaching your children about the day <em>you</em> chose Jesus. Maybe you enter ministry, and your entire credibility is built on teaching that people can choose God.</p>
 
-    <p>There's a darker mechanism at work here, too. It's called <strong>commitment escalation</strong>. It works like this:</p>
+    <p>By the time you're fifty and someone presents you with the <a href="/systematic-salvation">doctrines of grace</a>, you're not hearing an argument. You're hearing: <em>"Your entire life has been built on a lie."</em> The wall isn't logic anymore. The wall is investment. And it gets higher, not lower, with time.</p>
 
-    <p><em>You believe something.</em> Then you defend it publicly. Then someone challenges you. Your defense becomes stronger. You make arguments you might not have made before. You find evidence to support your position. You tell your friends your position. You invest emotional energy in being right.</p>
+    <p>Pause here. Do you feel it? The resistance rising in your chest right now — the part of you reaching for a counterargument — <em>that is the sunk cost operating in real time.</em> You are watching yourself do the very thing this page describes. And the fact that you cannot stop yourself from doing it is the proof. The fact that you cannot escape this pattern through willpower alone is evidence that <a href="/psychology-illusion-free-will">your will is not as free as you think</a>. You are enslaved to your own past. And that bondage is exactly what <a href="/systematic-hamartiology">total depravity</a> describes.</p>
 
-    <p>And here's the terrible part: <em>the more you defend a belief, the more firmly you come to believe it</em>—even if the original reason you believed it has been disproven.</p>
+    <h2>Breaking the Investment</h2>
 
-    <p>This is why long-time believers in "I chose God" are often the fiercest defenders of <a href="/question-freewill">free will</a> theology. They've spent decades defending it. They've written books about it. They've debated it in churches. They've made it the cornerstone of their ministry philosophy. At this point, admitting that election is true doesn't feel like updating a theological position. It feels like admitting that their entire ministry was built on a lie.</p>
+    <p>Grace doesn't ask you to justify your investment. Grace asks you to <em>forfeit</em> it.</p>
 
-    <div class="scripture">
-        "In vain do they worship me, teaching as doctrines the commandments of men."
-        <span class="ref">Matthew 15:9 (NIV)</span>
-    </div>
-
-    <p>The tragedy is that Jesus anticipated this. When someone has invested so heavily in a false belief that admitting its falsehood would destroy their identity, they will defend that false belief with religious fervor. The more time passes, the more investment accumulates, and the more irrational the defense becomes.</p>
-
-    <h2>The Invisible Wall: How Time Hardens Resistance</h2>
-
-    <p>Think about when resistance is <em>softest</em>: when someone is young in the faith. Teenagers who just got saved, new converts fresh off the altar. They're still flexible. They haven't yet built decades of testimony on their choice. The sunk cost is still small.</p>
-
-    <p>But then years pass. You become a youth leader. You're counseling teenagers about <em>their</em> decision for Christ, reinforcing your own narrative. Now you're a parent, teaching your children about the day <em>you</em> chose Jesus. Now you're in ministry, maybe as a pastor or apologist, and your entire credibility is built on teaching that people can choose God.</p>
-
-    <p>By the time you're 50 years old and someone tries to present you with the <a href="/systematic-salvation">doctrines of grace</a>, you're not hearing an argument. You're hearing: <em>"Your entire life has been built on a lie. All those testimonies were false. All those teachings were wrong. Your credibility is a fraud."</em></p>
-
-    <p>The wall isn't logic anymore. The wall is investment. And the wall gets higher, not lower, with time.</p>
-
-    <div class="self-ref">
-        <h3>The Self-Referential Proof Deepens</h3>
-        <p>Notice what's happening: the deeper the sunk cost, the more irrational the defense becomes. And that irrationality is itself evidence of the point being defended.</p>
-
-        <p>If "I chose God" were obviously true, you could change your mind based on evidence. But you <em>can't</em> change your mind. The investment is too deep. The cost of admitting error is too high. You're trapped by your own past.</p>
-
-        <p>This is the human condition apart from grace. You make a choice early in life and build on it, and by the time you realize it was wrong, the cost of admitting it is so high that you'd rather spend the rest of your life defending it than face the truth.</p>
-
-        <p>Pause here. Do you feel that? The resistance rising in your chest right now — the part of you reaching for a counterargument — <em>that is the sunk cost operating in real time.</em> You are watching yourself do the very thing this page describes. And the fact that you cannot stop yourself from doing it is the proof.</p>
-
-        <p>The fact that you cannot escape this pattern through willpower alone is evidence that <a href="/psychology-illusion-free-will">your will is not free</a>. You are enslaved to your own past. And that bondage is exactly what the <a href="/systematic-hamartiology">truth of total depravity</a> describes.</p>
-    </div>
-
-    <h2>Breaking the Investment: The Grace That Costs Everything</h2>
-
-    <p>Here's what makes grace so dangerous to the person trapped in sunk cost: grace doesn't ask you to justify your investment. Grace asks you to <em>forfeit</em> it.</p>
-
-    <p>If you could become a Christian by doing something <em>yourself</em>—making a choice, performing an action, achieving something—then your sunk cost narrative would be safe. But grace says: "Everything you've built on that choice is void. The choice was never yours. The faith was never yours. You were chosen, not choosing. Drawn, not deciding."</p>
-
-    <p>That's not an update to your theology. That's a bankruptcy. And the only way through bankruptcy is to stop pretending you're solvent.</p>
+    <p>If salvation depended on something you did — making a choice, performing an action — then your sunk cost narrative would be safe. But grace says: "Everything you've built on that choice is void. The choice was never yours. The faith was never yours. You were chosen, not choosing. Drawn, not deciding." That's not an update to your theology. That's a bankruptcy.</p>
 
     <p>But here is the strange mercy — and it is mercy, even though it feels like death: when you finally stop defending the investment, when your hands unclench and the forty-year narrative falls from your grip, something happens that no amount of defending ever produced. The burden lifts. Your shoulders drop. The muscles in your jaw, clenched for years without your knowing, finally release. All those years you spent defending a false narrative, you can finally stop. All that energy you poured into protecting an investment, you get back.</p>
 
-    <p>And more than that: you discover that the God who didn't ask you to choose Him is the same God who <a href="/devotional-never-gives-up" style="color: var(--accent-gold);">chose you before time began and will never let go</a>. That's a foundation that doesn't depend on your defense. That's an investment that actually pays.</p>
+    <p>And more than that: you discover that the God who didn't ask you to choose Him is the same God who <a href="/devotional-never-gives-up">chose you before time began and will never let go</a>. That's a foundation that doesn't depend on your defense. That's an investment that actually pays.</p>
 
-    <div class="scripture">
-        "Cast all your anxieties on him, because he cares for you."
-        <span class="ref">1 Peter 5:7 (NIV)</span>
-    </div>
+    <blockquote>
+        <p>"Cast all your anxiety on him because he cares for you."</p>
+        <cite>1 Peter 5:7</cite>
+    </blockquote>
 
-    <h2>For the Person Trapped in the Investment</h2>
+    <p>Maybe you've been teaching <a href="/question-freewill">free will</a> theology for decades. Maybe the thought of admitting you were wrong feels like admitting your whole life is a lie. That feeling is not a sign you should keep defending. That feeling <em>is</em> the sunk cost. It's the psychological weight of past investment, not the clarity of theological truth. Admitting you've been wrong about this doesn't make your ministry a lie — it makes your ministry an opportunity for growth. The investment was never wasted. It was held — by a God who was sovereignly working through every imperfect sermon, every sincere-but-incomplete testimony.</p>
 
-    <div class="pastoral">
-        <h2>If You've Built Your Life on Your Choice</h2>
-        <p>Maybe you're reading this and you're defending hard. Maybe you've been teaching <a href="/question-freewill">free will</a> theology for decades. Maybe your entire ministry is built on the idea that people choose God. Maybe the thought of admitting that's wrong feels like admitting that your whole life is a lie.</p>
-
-        <p>First: that feeling is not a sign that you should keep defending. That feeling is a sign of sunk cost. It's the psychological weight of past investment, not the clarity of theological truth.</p>
-
-        <p>Second: admitting that you've been wrong about this doesn't make your ministry a lie. It makes your ministry an <em>opportunity for growth</em>. Some of the most powerful people in church history changed their minds about major theological truths. It's not weakness. It's maturity.</p>
-
-        <p>Third: the cost you think you'll pay for admitting error is not the actual cost. The actual cost is freedom — freedom from forty years of defending something you know, at some level, doesn't fit the text you've devoted your life to teaching. And the gain is rest. Rest in the knowledge that you were <a href="/systematic-election">chosen, drawn, held by God</a> — not because you deserved it, but because grace is grace.</p>
-
-        <p>Remember the sixty-three-year-old pastor? The one with two thousand sermons and a testimony worn into grooves? What if the most courageous thing he ever does is not the next sermon he preaches, but the moment he closes his study door, opens his Bible to <a href="/question-faithgift">Ephesians 2:8-9</a>, and finally lets the question surface?</p>
-
-        <p>The investment was never wasted. It was held — by a God who was sovereignly working through every imperfect sermon, every sincere-but-incomplete testimony, every year of that pastor's life. The foundation doesn't disappear when you see it clearly. It gets <em>replaced</em> — with bedrock that doesn't depend on your defense of it.</p>
-
-        <p>The sunk cost is not stronger than grace. Nothing is.</p>
-    </div>
+    <p>The sunk cost is not stronger than grace. Nothing is.</p>
 
     <h2>Keep Reading</h2>
-
-    <div class="cross-links">
-        <a href="/psychology-hub" class="cross-link">
-            <span class="cl-cat">Hub</span>
-            <span class="cl-title">Why We Resist: The Full Psychology Ecosystem</span>
+    <div class="hub-grid">
+        <a href="/psychology-identity-threat" class="hub-card">
+            <h3 class="card-title">Why Grace Feels Like an Attack</h3>
+            <p class="card-description">The identity threat that makes sovereign grace feel dangerous.</p>
+            <div class="card-footer">
+                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </div>
         </a>
-        <a href="/psychology-identity-threat" class="cross-link">
-            <span class="cl-cat">Psychology</span>
-            <span class="cl-title">Why Grace Feels Like an Attack on Your Identity</span>
+        <a href="/psychology-backfire-effect" class="hub-card">
+            <h3 class="card-title">Why Evidence Makes Some People Believe Harder</h3>
+            <p class="card-description">The backfire effect: when proof strengthens the wrong belief.</p>
+            <div class="card-footer">
+                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </div>
         </a>
-        <a href="/psychology-backfire-effect" class="cross-link">
-            <span class="cl-cat">Psychology</span>
-            <span class="cl-title">Why Evidence Makes Some People Believe Harder</span>
-        </a>
-        <a href="/devotional-not-my-will-but-joy" class="cross-link">
-            <span class="cl-cat">Devotional</span>
-            <span class="cl-title">Not My Will, But Joy: The Surrender That Costs Everything</span>
-        </a>
-        
-        <a href="/objection-robots" class="cross-link">
-            <span class="cl-cat">Question</span>
-            <span class="cl-title">Doesn't God Force People to Believe? Isn't That Spiritual Rape?</span>
-        </a>
-    </div>
-
-    <div class="never-gives-up-banner">
-        <a href="/devotional-never-gives-up">He Will Never Give Up on You</a>
-        <p>The investment you've made in "I chose" is a burden you no longer have to carry. There is a rest waiting for those who stop defending and start receiving.</p>
-    </div>
-
-</article>
-
-<script>
-window.addEventListener('scroll', () => {
-    const h = document.documentElement;
-    const progress = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
-    document.getElementById('readingProgress').style.width = progress + '%';
-});
-</script>
-
-    
-    <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
-        <h3 style="color: var(--accent-gold); margin-bottom: 2rem;">Continue the Journey</h3>
-        <div class="hub-grid">
         <a href="/psychology-sincerity-trap" class="hub-card">
-            <div class="card-number">01</div>
-            <h4 class="card-title">The Sincerity Trap</h4>
+            <h3 class="card-title">The Sincerity Trap</h3>
             <p class="card-description">Sunk cost and sincerity work together to keep you stuck.</p>
             <div class="card-footer">
                 <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
             </div>
         </a>
-        <a href="/shattered-lens-taught-wrong" class="hub-card">
-            <div class="card-number">02</div>
-            <h4 class="card-title">When You Were Taught Wrong</h4>
-            <p class="card-description">Forty years of investment doesn't make the investment right.</p>
+        <a href="/devotional-not-my-will-but-joy" class="hub-card">
+            <h3 class="card-title">Not My Will, But Joy</h3>
+            <p class="card-description">The surrender that costs everything — and gives everything back.</p>
             <div class="card-footer">
                 <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
             </div>
         </a>
-        </div>
     </div>
+
+</article>
 
     <footer>
         <div class="footer-container">

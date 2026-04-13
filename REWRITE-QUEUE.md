@@ -328,42 +328,42 @@ Target: ~1,500 words max per article (~10 min read)
 | 98 | DONE | `devotional-cold-church.html` | Your Heart Used to Burn. Now It's Barely Warm. | Devotionals | 1990→~1433 | ~8 min | Rewritten 2026-04-12 |
 | 99 | DONE | `devotional-not-my-will-but-joy.html` | What If Surrendering Your Will Is Where Joy Begins? | Devotionals | 1990→~1745 | ~9 min | Rewritten 2026-04-12 |
 | 100 | DONE | `theologian-warfield.html` | B.B. Warfield: The Lion of Princeton | Theologians | 1981→~1143 | ~6 min | Rewritten 2026-04-12 |
-| 101 | OPEN | `demolition-1tim4-10.html` | "Savior of All People" — Does 1 Timothy 4:10 Prove Universal Atonement? | Demolition | 1974 | ~10 min | |
-| 102 | OPEN | `devotional-chosen-before-you-were-broken.html` | Chosen Before You Were Broken | Devotionals | 1970 | ~10 min | |
-| 103 | OPEN | `psychology-addiction-proof.html` | What Every Recovering Addict Already Knows About Salvation | Psychology | 1962 | ~10 min | |
-| 104 | OPEN | `shattered-lens-when-prayer-stopped-working.html` | When Prayer Stopped Working | Healing | 1958 | ~10 min | |
-| 105 | OPEN | `story-the-person-who-chose-god.html` | The Person Who Chose God — A Dark Thought Experiment | Stories | 1949 | ~10 min | |
-| 106 | OPEN | `demolition-2peter3-9.html` | Demolition: 2 Peter 3:9 — Does God's Patience Prove Universal Salvation? | Demolition | 1936 | ~10 min | |
-| 107 | OPEN | `demolition-titus2-11.html` | "Grace Has Appeared to All" — What Titus 2:11 Really Means | Demolition | 1934 | ~10 min | |
-| 108 | OPEN | `broken-mirror-vessels-for-mercy.html` | You Were Not an Accident — You Were Created for Mercy | Healing | 1932 | ~10 min | |
-| 109 | OPEN | `apologetic-unreached.html` | What About Those Who Never Heard the Gospel? | Other | 1931 | ~10 min | |
-| 110 | OPEN | `story-the-letter-before-the-world.html` | A Love Letter Written Before Time Began | Stories | 1930 | ~10 min | |
-| 111 | OPEN | `psychology-why-this-objection-proves-our-point.html` | Why This Objection Proves Our Point — The Psychology of the Crown Jewel Defense | Psychology | 1905 | ~10 min | |
-| 112 | OPEN | `psychology-sunk-cost-faith.html` | The Sunk Cost of Self-Made Faith | Psychology | 1903 | ~10 min | |
-| 113 | OPEN | `philosophy-theater-script.html` | The Script You Didn't Write | Philosophy | 1896 | ~10 min | |
-| 114 | OPEN | `start-here-phase1.html` | What Is Reformed Theology? — Phase 1 | Other | 1890 | ~10 min | |
-| 115 | OPEN | `philosophy-munchhausen-trilemma.html` | The Münchhausen Trilemma of Self-Salvation | Philosophy | 1883 | ~10 min | |
-| 116 | OPEN | `broken-mirror-imposter-syndrome.html` | The Christian Who Feels Like a Fraud — When Imposter Syndrome Meets Sovereignty | Healing | 1872 | ~10 min | |
-| 117 | OPEN | `story-humor-the-man-who-sued-god.html` | The Man Who Sued God for Saving Him Without Consent — A Satire on Free Will | Stories | 1871 | ~10 min | |
-| 118 | OPEN | `story-the-fish-who-chose-the-ocean.html` | Did You Really Choose God? The Fish Who Thought He Chose the Ocean | Stories | 1870 | ~10 min | |
-| 119 | OPEN | `romans-3-10-18.html` | Romans 3:10-18 — The Indictment Nobody Escapes | Other | 1857 | ~10 min | |
-| 120 | OPEN | `story-humor-committee-to-save-yourself.html` | The Committee to Save Yourself — A Satire on Works-Righteousness | Stories | 1851 | ~10 min | |
-| 121 | OPEN | `devotional-glory-of-divine-choice.html` | You Were Chosen. Not Because You'd Become Worthy. | Devotionals | 1837 | ~10 min | |
-| 122 | OPEN | `devotional-in-christ.html` | In Christ — The Two Words That Change Everything | Devotionals | 1833 | ~10 min | |
-| 123 | OPEN | `theologian-machen.html` | J. Gresham Machen — The Scholar Who Stood When Everyone Else Bowed | Theologians | 1833 | ~10 min | |
-| 124 | OPEN | `invisible-wall-spiritual-envy.html` | The Ache of Watching Others Feel What You Can't | Healing | 1822 | ~10 min | |
-| 125 | OPEN | `shattered-lens-pastor.html` | When Your Pastor Teaches What You Know Isn't True | Healing | 1815 | ~10 min | |
-| 126 | OPEN | `demolition-arianism.html` | Arianism — The Ancient Heresy That Tried to Kill Christ's Deity | Demolition | 1814 | ~10 min | |
-| 127 | OPEN | `devotional-the-hands-that-hold-you.html` | The Hands That Hold You | Devotionals | 1807 | ~10 min | |
-| 128 | OPEN | `question-does-god-choose-who-goes-to-heaven.html` | Does God Choose Who Goes to Heaven? What the Bible Actually Says | Questions | 1805 | ~10 min | |
-| 129 | OPEN | `theologian-bradwardine.html` | Thomas Bradwardine — The Mathematician Who Proved God's Sovereignty | Theologians | 1805 | ~10 min | |
-| 130 | OPEN | `start-here-phase5.html` | Living as an Elect Child of God — Phase 5 | Other | 1800 | ~9 min | |
-| 131 | OPEN | `history-calvin-geneva.html` | John Calvin in Geneva: The Man Behind the Reformation's Theology | History | 1791 | ~9 min | |
-| 132 | OPEN | `philosophy-immune-system-grace.html` | The Immune System You Never Asked For | Philosophy | 1788 | ~9 min | |
-| 133 | OPEN | `anxious-mind-sovereignty-of-sleep.html` | Why You Can Sleep When Everything Is Falling Apart | Healing | 1787 | ~9 min | |
-| 134 | OPEN | `question-where-does-your-no-come-from.html` | Where Does Your "No" Come From? The Self-Referential Trap | Questions | 1781 | ~9 min | |
-| 135 | OPEN | `question-john17.html` | The Prayer That Proves Election — John 17 | Questions | 1778 | ~9 min | |
-| 136 | OPEN | `devotional-love-before-the-world.html` | He Loved You Before the World Was Made | Devotionals | 1771 | ~9 min | |
+| 101 | DONE | `demolition-1tim4-10.html` | "Savior of All People" — Does 1 Timothy 4:10 Prove Universal Atonement? | Demolition | 1015 | ~5 min | Rewritten 2026-04-12 |
+| 102 | DONE | `devotional-chosen-before-you-were-broken.html` | Chosen Before You Were Broken | Devotionals | 1028 | ~5 min | Rewritten 2026-04-12 |
+| 103 | DONE | `psychology-addiction-proof.html` | What Every Recovering Addict Already Knows About Salvation | Psychology | 1121 | ~6 min | Rewritten 2026-04-12 |
+| 104 | DONE | `shattered-lens-when-prayer-stopped-working.html` | When Prayer Stopped Working | Healing | 1958→1772 | ~9 min | Rewritten 2026-04-12 |
+| 105 | DONE | `story-the-person-who-chose-god.html` | The Person Who Chose God — A Dark Thought Experiment | Stories | 1949→1509 | ~8 min | Rewritten 2026-04-12 |
+| 106 | DONE | `demolition-2peter3-9.html` | Demolition: 2 Peter 3:9 — Does God's Patience Prove Universal Salvation? | Demolition | 1936→1218 | ~6 min | Rewritten 2026-04-12 |
+| 107 | DONE | `demolition-titus2-11.html` | "Grace Has Appeared to All" — What Titus 2:11 Really Means | Demolition | 1934→1311 | ~7 min | Rewritten 2026-04-12 |
+| 108 | DONE | `broken-mirror-vessels-for-mercy.html` | You Were Not an Accident — You Were Created for Mercy | Healing | 1932→1500 | ~8 min | Rewritten 2026-04-12 |
+| 109 | DONE | `apologetic-unreached.html` | What About Those Who Never Heard the Gospel? | Questions | 1931→1350 | ~7 min | Rewritten 2026-04-12 |
+| 110 | DONE | `story-the-letter-before-the-world.html` | A Love Letter Written Before Time Began | Stories | 1930→1580 | ~8 min | Rewritten 2026-04-12 |
+| 111 | DONE | `psychology-why-this-objection-proves-our-point.html` | Why This Objection Proves Our Point — The Psychology of the Crown Jewel Defense | Psychology | 1905→1100 | ~6 min | Rewritten 2026-04-12 |
+| 112 | DONE | `psychology-sunk-cost-faith.html` | The Sunk Cost of Self-Made Faith | Psychology | 1903→1469 | ~8 min | Rewritten 2026-04-12 |
+| 113 | DONE | `philosophy-theater-script.html` | The Script You Didn't Write | Philosophy | 1896→1660 | ~8 min | Rewritten 2026-04-12 |
+| 114 | DONE | `start-here-phase1.html` | What Is Reformed Theology? — Phase 1 | Other | 1890→1766 | ~9 min | Rewritten 2026-04-12 |
+| 115 | DONE | `philosophy-munchhausen-trilemma.html` | The Münchhausen Trilemma of Self-Salvation | Philosophy | 1883→1477 | ~8 min | Rewritten 2026-04-12 |
+| 116 | DONE | `broken-mirror-imposter-syndrome.html` | The Christian Who Feels Like a Fraud — When Imposter Syndrome Meets Sovereignty | Healing | 1872→1332 | ~7 min | Rewritten 2026-04-12 |
+| 117 | DONE | `story-humor-the-man-who-sued-god.html` | The Man Who Sued God for Saving Him Without Consent — A Satire on Free Will | Stories | 2457→1799 | ~9 min | Rewritten 2026-04-12 |
+| 118 | DONE | `story-the-fish-who-chose-the-ocean.html` | Did You Really Choose God? The Fish Who Thought He Chose the Ocean | Stories | 1870→1895 | ~10 min | Rewritten 2026-04-12 |
+| 119 | DONE | `romans-3-10-18.html` | Romans 3:10-18 — The Indictment Nobody Escapes | Other | 1843→1499 | ~8 min | Rewritten 2026-04-12 |
+| 120 | DONE | `story-humor-committee-to-save-yourself.html` | The Committee to Save Yourself — A Satire on Works-Righteousness | Stories | 1846→1518 | ~8 min | Rewritten 2026-04-12 |
+| 121 | DONE | `devotional-glory-of-divine-choice.html` | You Were Chosen. Not Because You'd Become Worthy. | Devotionals | 1837→1211 | ~6 min | Rewritten 2026-04-12 |
+| 122 | DONE | `devotional-in-christ.html` | In Christ — The Two Words That Change Everything | Devotionals | 1833→1272 | ~7 min | Rewritten 2026-04-12 |
+| 123 | DONE | `theologian-machen.html` | J. Gresham Machen — The Scholar Who Stood When Everyone Else Bowed | Theologians | 1833→1191 | ~6 min | Rewritten 2026-04-12 |
+| 124 | DONE | `invisible-wall-spiritual-envy.html` | The Ache of Watching Others Feel What You Can't | Healing | 1822→1368 | ~7 min | Rewritten 2026-04-12 |
+| 125 | DONE | `shattered-lens-pastor.html` | When Your Pastor Teaches What You Know Isn't True | Healing | 1815→1176 | ~6 min | Rewritten 2026-04-12 |
+| 126 | DONE | `demolition-arianism.html` | Arianism — The Ancient Heresy That Tried to Kill Christ's Deity | Demolition | 1814→978 | ~5 min | Rewritten 2026-04-12 |
+| 127 | DONE | `devotional-the-hands-that-hold-you.html` | The Hands That Hold You | Devotionals | 1807→1530 | ~8 min | 2026-04-12 |
+| 128 | DONE | `question-does-god-choose-who-goes-to-heaven.html` | Does God Choose Who Goes to Heaven? What the Bible Actually Says | Questions | 1805→1207 | ~6 min | 2026-04-12 |
+| 129 | DONE | `theologian-bradwardine.html` | Thomas Bradwardine — The Mathematician Who Proved God's Sovereignty | Theologians | 1805→1175 | ~6 min | 2026-04-12 |
+| 130 | DONE | `start-here-phase5.html` | Living as an Elect Child of God — Phase 5 | Other | 1800→1053 | ~5 min | 2026-04-12 |
+| 131 | ✅ DONE | `history-calvin-geneva.html` | John Calvin and Geneva — The Architect of Grace | History | 1791→1534 | ~7 min | Rewritten 2026-04-12 |
+| 132 | ✅ DONE | `philosophy-immune-system-grace.html` | The Immune System You Never Asked For | Philosophy | 1788→1251 | ~6 min | Rewritten 2026-04-12 |
+| 133 | ✅ DONE | `anxious-mind-sovereignty-of-sleep.html` | Why You Can Sleep When Everything Is Falling Apart | Healing | 1787→1340 | ~7 min | Rewritten 2026-04-12 |
+| 134 | ✅ DONE | `question-where-does-your-no-come-from.html` | Where Does Your "No" Come From? — The Self-Referential Trap | Questions | 1781→1239 | ~6 min | Rewritten 2026-04-12 |
+| 135 | ✅ DONE | `question-john17.html` | The Prayer That Proves Election — John 17 | Questions | 1778→910 | ~5 min | Rewritten 2026-04-12 |
+| 136 | ✅ DONE | `devotional-love-before-the-world.html` | He Loved You Before the World Was Made | Devotionals | 1771→1451 | ~7 min | Rewritten 2026-04-12 |
 | 137 | OPEN | `anxious-mind-brain-decides.html` | Your Brain Decides Before You Do — And That's Good News | Healing | 1767 | ~9 min | |
 | 138 | OPEN | `story-surgeon-stone-heart.html` | Can a Stone Heart Choose to Beat? — A Parable About Regeneration | Stories | 1759 | ~9 min | |
 | 139 | OPEN | `question-how-grace-feels.html` | If Grace Is Irresistible, Why Does It Feel Like Choice? | Questions | 1742 | ~9 min | |
