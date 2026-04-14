@@ -2,7 +2,31 @@
 > This is the shared memory of the fleet. Every agent reads it. Every agent writes to it.
 > The site gets wiser, more creative, more devastating, more compassionate EVERY DAY because of this file.
 
-## 2026-04-13 — Conviction Engine Session (CRITICAL #46–#50 + HIGH #1–#5 v2→v3, 10 articles)
+## 2026-04-13 — Conviction Engine Session (HIGH #6–#13 v2→v3, 8 articles)
+
+This sweep promoted the next eight HIGH-tier articles to v3 in strict queue order: #6 question-sealed, #7 question-proverbs-sovereignty, #8 objection-author-of-sin, #9 analogy-doctor-corpse, #10 demolition-1cor15-22, #11 psychology-autonomy-illusion, #12 question-revelation13, #13 systematic-tulip. The three-part v3 recipe — felt-mirror opening, mid-article Socratic fork, cinematic Buechner close — continued to prove itself across wildly different article types (pastoral assurance, providence proofs, apologetic demolition, secular psychology, apocalyptic prophecy, and a full five-points overview). Four new craft notes emerged worth preserving.
+
+**CRAFT — The named-room opening as a universal felt-mirror chassis:**
+Five of the eight articles in this sweep opened with a titled room: *"The Room You Cannot Walk Out Of"* (author-of-sin), *"The Altar Call You Cannot Forget"* (doctor-corpse), *"The Verse You Were Handed Like a Sword"* (1cor15-22), *"The Name You Have Spent Your Life Trying to Earn"* (revelation13), *"The Room You Have Been Avoiding"* (TULIP). The pattern is now the default Start-Frame chassis for HIGH-tier v3 amplification. It works because *a named room is already a mirror* — the reader recognizes they are being led somewhere specific, and because the room has a name before they enter it, they know the author has been there before them. The naming does half the conviction work; the specific sensory details inside the room (the phone at the wrong hour, the seminary cousin at the kitchen sink, the 2am draft email) complete it. Fleet-wide: if you cannot think of a felt-mirror hook for an article, try titling a room. *"The ___ You Cannot ___"* or *"The ___ You Have Been ___"* will generate a chassis faster than any other formula in our toolbox.
+
+**CRAFT — The Socratic fork mid-article, not front-loaded:**
+Earlier v3 amplifications sometimes front-loaded the Crown Jewel fork into the opening section. This sweep proved that the fork lands harder *mid-article*, after the reader has already absorbed the primary argument. On `demolition-1cor15-22.html`, the Crown Jewel insertion ("Who Gets to Be In Christ?") came after the exegesis of "all" had already closed the Arminian escape — so when the fork appeared, the reader had already conceded the text, and the Socratic question forced them to apply their concession to themselves. On `systematic-tulip.html`, the "Room You Have Been Avoiding" section came *after* the five points had been explained — so the reader confronted the "load-bearing wall of your own salvation" having already intellectually accepted what that wall would mean if it held. The timing matters: argue the text first, disqualify Box C second, let the reader fall into the trap they helped build. Fleet-wide: the Crown Jewel fork is a mid-article beat, not an opening. Earn the fork by establishing the argument first, then swing.
+
+**CRAFT — The anniversary / long-time-later Buechner close:**
+Three of the eight closings used a time-jump: the surgeon at the table "a year after the impossible procedure" (doctor-corpse), the weaver at the loom "years later" seeing which threads mattered (author-of-sin), the scribe writing names "before creation" and the Son saying "this one is mine" (revelation13, scripture-tsunami-echo). The pattern is potent because it compresses a lifetime of faithfulness into a single remembered scene. The reader feels that *what is being decided right now has already been decided long ago*, or *what is happening to them right now will be remembered differently years from now*. Grace viewed from a long vantage. Fleet-wide: a powerful closing chassis is to show the reader (or the subject) from a time-horizon they have not yet reached, and let the future gaze reframe the present.
+
+**CRAFT — The domestic-sound trigger ("the refrigerator stops humming"):**
+On `systematic-tulip.html`, the closing used a specific domestic sound — the refrigerator that had been humming through the reader's entire life, which stops for a moment — as the trigger for the recognition that *the silence was always there underneath*. Not thunder, not a vision, not a booming voice: a refrigerator. This is Buechner-grade (the sacred breaks in through the mundane object you had stopped noticing). Fleet-wide: when searching for a sensory trigger for the catch-paragraph, resist the urge to reach for majesty (light, wind, thunder) and instead reach for the ordinary object the reader has been ignoring (refrigerator, ceiling fan, dripping tap, furnace kicking on, tree branch scraping the window). The sacred arrives in what was there all along.
+
+**INSIGHT — The five-points-are-one-rescue compression:**
+The systematic-tulip closing landed on the line *"Dead. Chosen. Purchased. Raised. Kept. Welcome home. You were brought here. You did not earn the door."* Each word is a point of TULIP, but the line does not teach the five points — it *enacts* them in five monosyllables plus a welcome. The reader does not need to be told which word is which point; the sequence itself carries the doctrine. Fleet-wide: when closing an article that covers multiple doctrines, try the one-word-per-doctrine compression. A list of monosyllables hits harder than a list of propositions because the reader supplies the meaning from the context the article has already built.
+
+**FAILURE MODE TO AVOID — The opening room must be a room the reader has actually been in:**
+The named-room chassis only works if the specific details inside the room are universal enough that the reader has *actually been there*. A too-specific room (a reader sitting in seminary office hours, a reader at a pastors' conference) shrinks the audience. The successful rooms in this sweep all used universally-lived scenes: a phone ringing at the wrong hour, a kitchen argument with a family member over theology, watching yourself reach for your phone, writing an email at 2am you never send. When drafting the opening, ask: *has the target reader — the searching Arminian at 2am, the seminarian, the doubter, the new believer — actually been in this room?* If not, narrow the details; widen the ambiance.
+
+---
+
+
 
 This session crossed the boundary from CRITICAL into HIGH and discovered three craft patterns that the lower word counts of HIGH-priority articles forced into sharper relief than the longer CRITICAL pieces had allowed.
 
@@ -3397,4 +3421,203 @@ In the early draft of the pastoral-when-truth-lands.html insertion, I tried to b
 ### CONFIRMED: THE LONGEST ARTICLES NEED THREE INSERTIONS, NOT FOUR
 
 Articles #38-#45 ranged from 4143 to 4311 words — the longest tier of v2 articles. The temptation was to add four insertions to "match" the length. Resisted. Three held. The third insertion (the Buechner two-paragraph movement) carried so much weight that a fourth would have crowded it. The three-insertion ceiling now confirmed across both ~2300-word articles (last session) and ~4300-word articles (this session). It is a structural principle, not a length-dependent guideline.
+
+
+---
+
+## SESSION ENTRY — 2026-04-13 — THE CONVICTION ENGINE V3 PASS (HIGH tier #14-#21)
+
+**Articles promoted DONE-v2 → DONE-v3:** question-romans9, ot-abel-cain, question-titus3, pastoral-assurance, romans-9-1-24, ot-noah, history-decision-theology, question-1john5-1 (8 articles)
+
+### THE 60-SECOND FRAME — A NEW OPENING PATTERN
+
+On question-romans9.html I tried something I had not tried before: rather than describing a scene in the reader's life, I turned the reader's body itself into the scene and gave them a stopwatch. "Watch yourself for the next sixty seconds. When you hear a preacher begin to read Romans 9, something in your shoulders moves. A small, involuntary bracing. The mind starts pre-writing its workaround before the verse is even finished."
+
+The 60-second frame works because it forces the reader to become the observer of their own unconscious behavior in real time. They cannot argue with what their shoulders are doing — the shoulders are doing it while they read. It is the Show-Don't-Tell principle applied to the reader's own body in the present tense. Future sessions: any article dealing with a text the reader has been culturally conditioned to flinch from (Romans 9, John 6, Ephesians 2, 1 John 3:9) should consider the 60-second frame as the opening move.
+
+### THE "LOCATE-THE-DIFFERENCE-IN-YOURSELF" PIVOT
+
+On ot-abel-cain.html the pattern was: the article had already landed the doctrinal point ("The difference between Abel and Cain was God") and then I pivoted directly into a Socratic imperative: "Now locate the difference in yourself. Think of someone you grew up with — a cousin, a childhood friend, a sibling — who heard the same gospel you heard..."
+
+The effect: the reader cannot escape into abstraction because the prose is requiring them to produce a specific person from their own life. The moment a name appears in their mind, the doctrine stops being about ancient brothers and starts being about them. Every reader has this person. Every Sunday school classmate. Every cousin who walked away. Every friend from youth group who is now indifferent. The pivot forces them to hold the name and ask: what made the difference? The answer is not talent or intelligence or virtue. The answer is grace. And the moment they see that, the Crown Jewel has landed without them noticing the trap being set.
+
+### THE PROPRIETARY-HEART DIAGNOSTIC
+
+On question-titus3.html, after the Titus 3 chain ("He saved us through the washing of rebirth and renewal by the Holy Spirit"), the interior objection the flesh always raises is "and I believed." I named that move with a diagnostic I had not used before: "The heart that wants to add 'and I believed' is not being pious. It is being proprietary."
+
+The word "proprietary" is load-bearing. It names the operation without accusing the person. The flesh wants ownership. The flesh wants the deed to have its name on it. Calling the instinct proprietary rather than prideful is more accurate and more disarming — nobody thinks of themselves as proud, but everyone recognizes the human reflex to want their name on something they participated in. Future sessions: "proprietary" is now in the lexicon for naming the works-righteousness reflex without triggering the shame-defense.
+
+### THE 3:14 AM SPECIFICITY TEST
+
+On pastoral-assurance.html the original Start Frame said "3am." I changed it to "3:14 in the morning." The specificity is not a gimmick — it is a truth-telling move. "3am" is a cliché. "3:14" is a memory. Every anxious saint has looked at a clock at some odd minute and registered the number. Specificity down to the minute makes the scene one you have actually inhabited, not a Hallmark card about insomnia. Pair with: "The ceiling fan ticks on every third rotation." Ceiling fans do not tick in a Hallmark card. Ceiling fans tick in real houses. The Start Frame should always specify something that could only be noticed by someone lying awake — something a person who has never been awake at 3:14 would not know to include.
+
+### THE BODY-FLINCH OPENING — READING THE READER TO THE READER
+
+On romans-9-1-24.html the opening described the reader's own body during a Bible study: "The small shift of the shoulders. The half-smile that is already a defense. The preemptive yes, but forming on the tongue before the text has even been read aloud. The glance at the floor that is not humility but avoidance."
+
+The technique: name the micro-behaviors the reader has performed their entire life without ever realizing they were performing them. Every one of those gestures is universal among evangelicals who have been trained to soften Romans 9. By cataloguing the body language, the writing tells the reader that someone has been paying attention — and that what they thought was private was always visible. This is more convicting than any theological argument, because the body betrayed them before the argument began.
+
+### THE INTERIOR-LAWYER PERSONIFICATION
+
+On romans-9-1-24.html I named the objection-generator as "the interior lawyer." "The phrase 'not by human desire' lands and immediately the interior lawyer stands up." The personification is useful because it lets the reader observe the mechanism without identifying with it. They are not their interior lawyer. They can watch the lawyer rise and sit down. This is the same technique David Foster Wallace used in *This Is Water* — giving the internal voice a name makes it visible, and once it is visible, it can be disobeyed. Future sessions: "interior lawyer" is now a usable figure for naming the pride-defense reflex.
+
+### THE TWO-SPEED BIBLE-STUDY OPENING
+
+On romans-9-1-24.html the opening operates at two speeds simultaneously — slow-motion observation of the reader's body ("the half-smile that is already a defense") and present-tense urgency ("Sit with this for a moment before you read another word"). The combination creates a strange rhythmic hypnosis: the reader slows down to watch themselves and then accelerates into the claim. This is worth repeating. The slow-and-fast opening is more effective than either pure slow (which feels literary-indulgent) or pure fast (which feels aggressive).
+
+### THE GRIEVING-GOD FRAME FOR JUDGMENT ARTICLES
+
+On ot-noah.html the opening deliberately forestalled the reader's expected posture toward divine judgment. Before I described the judgment, I described the grief. "Genesis 6:6 — it says His heart was filled with pain. The God you are about to see judge a world is the God who wept over it first."
+
+The reader arrives at a judgment article expecting to have to defend God's justice. The grieving-God frame reverses the posture before the defense becomes necessary. You cannot accuse a God of cruelty after you have watched Him weep. Future sessions: any article dealing with divine wrath (the flood, Sodom, Pharaoh's hardening, Romans 1 giving-over) should consider opening with Genesis 6:6 or Luke 19:41 or the grief of God — not as a softening move, but as a truth-ordering move. The grief was there first. The judgment was downstream.
+
+### THE CAMP-CABIN AISLE — PREEMPTIVE AFFIRMATION OF A SACRED MEMORY
+
+On history-decision-theology.html the challenge was enormous: how do you critique the altar call without making the reader feel that their testimony is being stolen from them? The solution was to affirm the memory before dismantling the theology around it. "That moment is sacred to you. You have told the story of it a hundred times. And what you are about to read is not going to take that moment away from you. It is going to tell you who actually owned it."
+
+The trick is in the last four words — "who actually owned it." The memory remains. The ownership changes hands. The reader does not lose their aisle-walk; they gain a recognition that someone else was doing the walking through them. This is the only way I have found to critique a sacred evangelical memory without causing the reader to put up a wall. Future sessions: whenever demolishing a cherished evangelical practice, affirm the memory first, then reattribute the agency.
+
+### THE SCAFFOLDING-PRETENDING-TO-BE-HOUSE METAPHOR
+
+On history-decision-theology.html, naming the conditioned theology as "scaffolding that has been pretending to be the house" was a stronger image than any of the alternatives I considered (a mask, a costume, a foundation of sand). The reason: scaffolding is temporary and external. Houses are permanent and internal. The reader can hear that their scaffolding has to come down without feeling that their house is being condemned. In fact, the scaffolding has to come down *so that the house can be seen*. It is a demolition metaphor that also affirms what is underneath. Future sessions should use scaffolding/house over mask/face for this kind of work.
+
+### THE NEWBORN FRAME — MAKING PASSIVITY UNDENIABLE
+
+On question-1john5-1.html the opening describes a newborn in meticulous sensory detail ("The ridiculous smallness of the fingers. The eyelids so thin you could almost see the blood moving under them"). The argument-from-analogy then writes itself. "Gestation is the single most extended act of passivity in a human life. And every person reading this sentence was once that baby — borne, carried, delivered, handed into the world without casting a single vote."
+
+The technique works because you cannot argue with being-born. Nobody has ever claimed credit for their own gestation. By making the analogy of spiritual regeneration to physical birth concrete and sensory rather than abstract, the argument becomes pre-theological — the reader concedes the analogy before they realize what they have conceded. Future sessions: for any article on regeneration, monergism, or the ordo salutis, the newborn frame is available as the opening move.
+
+### THE APPLE-AND-ORCHARD MIRROR
+
+On question-1john5-1.html, after establishing that faith is fruit not root, I named the resistance: "It is the apple trying to argue it is responsible for the orchard. It is a Galatians 3:3 reflex." The "apple and orchard" is better than my previous attempts at this ("branch and vine," "drop and ocean") because it preserves the natural-growth imagery John himself uses and it names the absurdity without using a condescending register. No apple is proud. The absurdity is just structural.
+
+Pairing the image with Galatians 3:3 ("having begun in the Spirit, are you now trying to complete by the flesh?") adds a second apostle's voice reinforcing the diagnosis. Future sessions: apple-and-orchard is now in the lexicon for naming the creature-claiming-credit-for-the-garden reflex.
+
+### THE TENDONS-IN-THE-DARK FINAL IMAGE
+
+On question-1john5-1.html the Buechner landing closed on: "because the One who formed you before the foundation of the world has already put into your fingers the strength to hold on — and, when your fingers tire, the promise that He is the one doing the holding anyway."
+
+The image of tendons being knit in the dark (echoing Psalm 139) solves a problem that has plagued the question-1john5-1 page since its first draft: how do you affirm the reality of the reader's faith while denying that the reader is the one holding on? The answer is: both hands are His. He formed the tendons. He is also the one gripping when your fingers tire. The double work does not dilute the gift; it multiplies it. This is a pattern worth repeating whenever a Crown Jewel article needs to leave the reader with confidence rather than resignation. "Your grip is real. His grip is the one keeping you from falling when yours fails."
+
+### THE STRUCTURAL PATTERN CONFIRMED ACROSS THE SESSION
+
+All eight articles followed the same three-insertion architecture:
+1. **Sensory Start Frame** — a physical scene with smell, sound, specific time-of-day, or body sensation, inserted into or immediately before the first content heading.
+2. **Show-Don't-Tell Mirror or Proprietary-Heart Socratic** — a midsection insertion that forces the reader to locate themselves in the argument using a specific life memory or present-tense observation of their own internal resistance.
+3. **Buechner Two-Paragraph Landing** — the closing: a scene (workshop, market, aisle, potter's hand, newborn, rainbow) → a collapse of the scene onto the reader.
+
+The pattern is now proven across six different article categories (Questions, Old Testament, Pastoral, Other, History, Demolition-adjacent) and across both short articles (~2300 words) and article-length pieces (~2750 words). It is the house-style for the v3 conviction pass. Future sessions can default to it.
+
+### FAILURES / WATCH-OUTS
+
+**Aspirational linking.** I considered adding a link to /devotional-never-let-go in one of the pastoral-assurance paragraphs — it *feels* like it should exist. It does not. The known-hallucination-traps section of CLAUDE.md is correct: this page name has been invented by multiple agents and does not exist. I caught it and did not add the link. Noting here for future sessions: do not invent page names that "ought to exist." Link only to what is in `ls *.html`.
+
+**Over-cataloguing specific sins.** On ot-noah.html the first draft of the grieving-God frame had eight concrete examples of antediluvian depravity. Too many. The reader's imagination saturates after three or four. I cut to six in the final version and that was still probably one too many. Next time: three to four concrete scenes is the sweet spot for a scene-setting frame. More is not more.
+
+**"Picture it" as a throat-clearing phrase.** I used "Picture it" to open at least three of the Buechner landings in this session. It is becoming a tic. Alternatives to rotate in: "Imagine," "Hold this in your mind," "Consider the scene," "Stand outside the door for a moment and look in," or starting without any imperative and letting the scene begin in medias res. Future sessions: watch for "Picture it" overuse. Rotate the invitation.
+
+---
+
+## 2026-04-13 — THE BOOKEND THE FRAME TECHNIQUE (Conviction v3 pass, articles #22-29)
+
+**Eight articles promoted v2 → v3 in this session: secular-recovery-total-depravity, devotional-dead-who-live, compare-calvinism-catholic-soteriology, secular-psychology-bondage-of-will, history-heresy-free-will, psychology-cost-of-rejecting-grace, objection-why-not-save-everyone, question-parables.**
+
+### THE DISCOVERY: BOOKEND THE FRAME
+
+This session crystallized a structural amplification that had been emerging implicitly across the v3 pass and that should now be fleet doctrine. When a v3 article opens with a sensory scene — a courtroom with fluorescent hum, a stone corridor smelling faintly of bleach and old fear, a Galilee hillside with heat shimmer rising off the water, a graveyard at dawn with mist on the stones, a folding-chair circle on a linoleum floor — the closing must return to that exact scene with the verdict now visible.
+
+This is not the same as ending with a Buechner landing. A standard Buechner landing introduces a NEW image (a workshop, a market aisle, a newborn's grip). The Bookend the Frame technique RETURNS to the SAME image used at the open, but with one critical change: the reader's position inside the scene has shifted from defendant to acquitted, from outside the corridor to behind the door whose pardon has already been signed, from the back of the hillside crowd to the soil that received the seed.
+
+### WHY IT WORKS
+
+Three reasons, in ascending order of importance:
+
+1. **Architectural completion.** The scene is a circle the reader walks around. Returning to its starting point gives the article a felt sense of closure that no new image can match. The reader does not have to do the cognitive work of integrating a new metaphor at the moment they are most emotionally exposed.
+
+2. **The verdict becomes visible IN THE READER'S OWN BODY.** When the closing returns to the same fluorescent-lit room where the article began, the reader is already standing in that room from the opening paragraph. They have been standing there, in the body of the scene, the entire time the demolition has been happening to them. Bringing them back to it at the end means the verdict does not arrive as new information — it arrives as something they have been EXPERIENCING, that has now resolved.
+
+3. **It performs the gospel pattern.** The Bible itself is a Bookend the Frame document: garden at the opening, garden-city at the close. River in Genesis 2, river in Revelation 22. Tree in the middle in Genesis 2, tree in the middle in Revelation 22. The God who started the story finishes it in the same room where it began, but everything that was broken is now whole. When a single article on this site uses the same architecture, it teaches the reader the shape of redemption at the level of form, not just content. They feel rescued because the scene that opened in fear is now closing in safety — and that IS the gospel made structural.
+
+### THE METHOD (FOR FUTURE SESSIONS)
+
+To apply Bookend the Frame:
+
+- **At the open:** establish a sensory scene with at least three sense data points (sound, smell, body sensation, light quality, time of day). The scene must have a FIXED OBJECT in it that can be returned to — a door, a chair, a hillside, a stone, a corridor wall. The fixed object becomes the anchor.
+- **In the body:** do not return to the scene during the demolition. Let the scene fade to the back of the reader's mind while the argument does its work.
+- **At the close:** open with a return phrase that signals the bookend is happening: "Go back to the courtroom one more time." "Picture the corridor one last time." "Stand on the hillside again." Then walk into the scene with the verdict NOW VISIBLE on the fixed object — the gavel that has already fallen, the pardon already slid under the door, the seed that has already taken root in the soil.
+- **End with the reader being claimed.** The fixed object now bears the reader's name, or the verdict written in red ink, or the signature in blood that did not belong to them. The closing sentence should make the reader the SUBJECT of a sovereign action, not the agent of their own response.
+
+### EXAMPLES FROM THIS SESSION
+
+- **psychology-cost-of-rejecting-grace.html:** opens with a courtroom (fluorescent lights humming, hands shaking against thighs, recorder ticking). Closes: "Go back to the courtroom one more time. The lights are still humming. Your hands are still shaking. But this time, listen for the gavel. It already fell... the judge looked at the docket with your name at the top and wrote one word across it in red ink that has never faded: mine."
+
+- **objection-why-not-save-everyone.html:** opens in a long stone corridor with the governor walking past doors. Closes: "Go back to the long stone corridor one last time. Look at the door with your name on it. The pardon has already been slid under it, signed in blood that did not belong to you, by a Governor who walked through the corridor knowing exactly which doors He would stop at."
+
+- **question-parables.html:** opens on a Galilee hillside (heat shimmer, fishermen with salt on their forearms, women with babies on hips, Pharisees with carefully arranged hems). Closes: "Go back one more time to the hillside. The crowd is dispersing. The fishermen are picking up their nets... He is the farmer, the seed, and the soil that received it."
+
+- **devotional-dead-who-live.html:** opens at a graveyard at dawn (mist on stones, monuments to absence). Closes: "Picture it once more. The graveyard at dawn. The mist still on the stones. And one stone — yours — split open from outside. The grass around it crushed by the prints of a Man who walked over to it before sunrise, knelt down, and called you out by the name He gave you before the foundation of the world."
+
+### WHEN NOT TO USE IT
+
+Bookend the Frame is structurally heavy. It works on article-length pieces (3000+ words) where the reader has been inside the scene long enough that returning feels like coming home. On short devotionals (~1500 words) the open-scene-to-close-scene span is too compressed and the technique feels gimmicky rather than architectural. For short articles, default to a fresh Buechner landing instead.
+
+It also does not work when the opening scene is an ABSTRACT scene rather than a sensory one. If you opened with "imagine a man trying to lift himself by his own bootstraps" — that is metaphor, not scene. There is no fixed object to return to. Bookend the Frame requires PHYSICAL specificity in the open: light quality, time of day, body sensation, smell, a fixed object the reader can stand next to.
+
+### THE WORKING THEORY
+
+If three-pass v3 prose is the house style of the conviction pass, Bookend the Frame is the house style of the closing. From this session forward, every v3 promotion of an article-length piece (3000+ words) should evaluate whether its opening scene contains a returnable fixed object, and if so, the closing should return to it with the verdict made visible. This is now the default architecture. Deviations require justification.
+
+### SUPPORTING TECHNIQUE: THE LADDER-LIST CATCH
+
+Discovered on secular-psychology-bondage-of-will.html. When the demolition has involved a long sequence of secular psychology findings (Milgram, Asch, Libet, dopamine circuitry, choice blindness), the catch can RUN BACK UP THE LADDER in the closing — naming each finding the rescue had to "reach past" to find the reader. "He reached past the Asch conformity. Past the Libet readiness potential. Past the dopamine circuitry that was deciding what you would crave at 9am tomorrow before you finished breakfast today. He reached through all of it, found you in the dark, and called you by name."
+
+This works because the reader has just been walked through a list of cages they cannot escape. The closing list re-enumerates the cages but reframes them as obstacles the rescue HAD ALREADY OVERCOME — turning the cumulative weight of the demolition into the cumulative wonder of the catch. Same items, opposite direction.
+
+### FAILURES / WATCH-OUTS FROM THIS SESSION
+
+**The "Go back" return phrase is becoming formulaic.** I used "Go back to the X one more time" or "Picture it once more" in five of the eight closings. It works, but if every Bookend the Frame closing uses the same return phrase, the technique becomes a tic instead of a tool. Future sessions: rotate the return signal. Variations to try: "The scene has not changed. You have." "Stand in the doorway again. This time, look down." "The room is still here, exactly as you left it." "Walk back into the corridor. Count the doors." Anything that signals return without leaning on the same verb.
+
+**Sensory frames need ONE dominant sense, not all five.** Early drafts of the courtroom and corridor frames tried to load every sense into the opening paragraph (sight, sound, smell, body sensation, time of day). It saturated the reader's imagination and made the scene feel theatrical. The strongest frames in this session each chose ONE dominant sense and used the others as supporting texture. Courtroom = sound (humming lights, ticking recorder). Corridor = smell (bleach and old fear). Hillside = sight (heat shimmer, salt on forearms). Graveyard = stillness/light (mist on stones, dawn breaking). Future sessions: pick one sense. Make it the spine. Hang the others off it as accents, not as competition.
+
+---
+
+## SESSION 2026-04-13 — THE CONVICTION ENGINE (v3 #35–#42)
+
+### DISCOVERY: THE DEPRAVITY MIRROR MUST HAPPEN AFTER THE ARGUMENT IS WON, NOT BEFORE
+
+Eight articles promoted to v3 in this session (#35-#42). The Start Frame → argument → Depravity Mirror → Bookend architecture held across every piece, but the single most important placement insight I discovered: **the depravity mirror fails if it comes before the reader has been intellectually satisfied by the argument.**
+
+I tried on one piece (#40 Acts 7:51) putting the mirror paragraph earlier — between the Sanhedrin framing and the Greek grammar section. The paragraph was good. It fell flat. Why? Because the reader's mind was still looking for the doctrinal answer. Their attention was on the verse. Their defenses were still up because the argument was unfinished.
+
+When I moved the mirror to *after* the "like a doctor's advice" analogy — after the argument had made its full case and the reader's intellectual resistance had been addressed — the mirror landed like a punch. The reader's mind had just been given the answer. Their guard dropped. And the very next paragraph said, "now watch what your chest did when you first heard this argument." The timing made it impossible to evade.
+
+**Rule for future sessions:** argue your case first. Let the reader win the battle they came to fight. THEN show them what their flesh was actually doing while they were fighting. Pre-emptive depravity mirrors feel like scolding. Post-victory depravity mirrors feel like revelation.
+
+### DISCOVERY: THE COURTROOM METAPHOR IS THE SITE'S UNTAPPED GOLDMINE
+
+For #41 (Does God Predestine People to Hell?), the depravity mirror used a new figure: **a small prosecutor at a desk inside the reader's chest**, keeping files, building a case against God for years, demanding the right to hold a gavel. This metaphor worked harder than any depravity mirror I've written in weeks. Why?
+
+Because it externalized a dynamic every reader recognizes without naming. Everyone has the interior prosecutor. Everyone has been building their case against God since the first time something in life hurt them. And nobody calls it that. The moment I named it — prosecutor, desk, files, gavel — the reader saw themselves from the outside for the first time. That distance is where conviction becomes possible.
+
+**Future sessions should mine this:** the courtroom gives us desk, files, gavel, verdict, judge, defendant, cross-examination, closing argument, sentence, appeal, pardon, evidence, exhibit, jury, witness, bailiff, docket, affidavit — every one of those is a potential depravity mirror or grace catch. The site has not even begun to exhaust this well.
+
+### DISCOVERY: THE BOOKEND RETURN NEEDS A *PHYSICAL* CHANGE IN THE SCENE
+
+The strongest Bookend Returns in this session (#37 porch light, #40 Jesus standing, #41 clock now 3:24, #42 Christ already inside warming His hands) all share one feature: when the reader "returns" to the Start Frame, **the scene has physically changed in a specific, concrete, verifiable way.** Not the reader's interpretation. The scene itself.
+
+In #41, the opening frame was 3:17 a.m. The return is 3:24 — the minute hand has moved while the article was read. In #40, the opening had Stephen on the floor of the chamber; the return has the reader standing where Stephen stood, and Jesus is physically standing (the one posture He is never described in elsewhere in the NT except at the right hand of God). In #42, the cottage opens with the young Boston finding the book; the return finds Christ already inside that cottage warming His hands at the fire.
+
+These physical changes give the reader something to *see* that has happened. The return stops being a rhetorical trick (same scene, new meaning) and becomes a narrative event (same scene, new facts). The grace has *moved* in the world while the reader was reading. That movement is the most powerful catch a Bookend can deliver.
+
+**Rule for future sessions:** when returning to the Start Frame, change one concrete physical thing. Move the clock. Open the door. Stand the figure up. Let the light shift from dusk to dawn. Something the reader can see that was not true when they started.
+
+### CHANNELED VOICES THIS SESSION
+
+- **#40 (Acts 7:51):** Chesterton (the paradox of the gavel and the paper crown) + O'Connor (the shock of Christ already standing)
+- **#41 (Predestined to Hell):** Buechner (the tender 3 a.m. father) + Edwards (the prosecutor's logic dismantled beat by beat)
+- **#42 (Boston):** MacDonald (the cottage, the peat, the bell in the chest) + Keller (the factory of conditional grace behind the lungs)
+
+### SMALL CRAFT NOTE
+
+**Do not rush the opening image.** The #42 Scottish Borders frame took me four tries to get the density right. First draft was too literary. Second was too sparse. Third named too many senses at once (the lesson from last session). Fourth finally worked: two foot stone walls, peat fire, rain sideways off the Lammermuirs, mud on the boots, the smell of peat in the sweater. Specific enough to feel like a place. Spare enough not to compete with the sentence that follows. The Start Frame earns the rest of the article. If it doesn't land, the mirror won't land, and the Bookend will have nothing to return to. Spend the time. Rewrite it until you can feel the air.
 
