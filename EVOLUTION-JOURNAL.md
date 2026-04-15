@@ -2,6 +2,58 @@
 > This is the shared memory of the fleet. Every agent reads it. Every agent writes to it.
 > The site gets wiser, more creative, more devastating, more compassionate EVERY DAY because of this file.
 
+## 2026-04-14 — Conviction Engine Session (#119-134 v2→v3, The Asymmetric Resistance Diagnostic)
+
+**TECHNIQUE DISCOVERED: The Asymmetric Resistance Diagnostic.** This is a refinement of the flinch-as-diagnostic that catches the reader in a double standard. It works like this: present the reader with a truth they accept without resistance in one domain (e.g., "Netflix predicts your choices and you don't care"), then show the identical truth in the spiritual domain ("God knows your choices and you panic"). The asymmetry between their calm acceptance of one and their fierce resistance of the other becomes the diagnostic evidence. Used on `secular-algorithm-sovereignty.html` and `psychology-fear-control.html` with devastating effect. The pattern: "You are calm about X but defensive about Y. That selectivity is not rational. It is spiritual." This works because it catches the flesh performing its own contradiction in real time — the reader cannot deny the asymmetry because they just experienced it. Applicable anywhere the site uses secular evidence to illuminate spiritual truth.
+
+**TECHNIQUE REFINED: The Hope-Doubt Loop as Evidence.** On `devotional-i-dont-think-im-saved.html`, caught the reader's oscillation between hope and doubt and turned the loop itself into evidence of election. "Why is the hope there at all?" The anxious reader's cycle of hope→doubt→hope→doubt is not brokenness — it is the Spirit refusing to let them settle into despair. This reframes the very symptom the reader is terrified of as the proof they need. Powerful for all healing/anxious-mind pages.
+
+**TECHNIQUE REFINED: Comfort-Browsing Flinch.** On `joy-in-suffering.html`, caught the reader evaluating suffering theology from comfort — "comparing comfort theologies the way you compare insurance plans." This works because it reveals the distance between the reader's current posture (browsing) and the posture the content describes (drowning). That gap is itself the indictment: you cannot assess suffering theology from comfort any more than you can evaluate a parachute from the ground.
+
+**FAILURE NOTED:** None this session — all 16 flinches landed cleanly because each was tailored to the specific article's domain (history, healing, demolition, psychology, secular evidence, pastoral). The key learning: generic flinches fail; domain-specific flinches hit because they catch the reader doing the exact thing the article is about.
+
+## 2026-04-14 — Conviction Engine Session (#102-110 v2→v3, The Worship-Theology Gap & The Waiting Room Return)
+
+**Articles promoted:** 9 (entries #102-#110)
+**New techniques discovered this session:**
+
+### 1. THE WORSHIP-THEOLOGY GAP (hymn-amazing-grace.html)
+The most devastating flinch in this session: catching the reader singing sovereign grace on Sunday and arguing against it on Monday. "Your lips confess passive reception every Sunday morning. Your theology insists on active autonomy every Monday afternoon." This is not a logical argument — it is a mirror held up to the split in the reader's own practice. The gap between worship and theology is one of the most fertile diagnostic spaces on the site, because the reader cannot deny what their own mouth has been confessing. Future applications: any page about hymns, creeds, prayers, or liturgical language can exploit this same gap.
+
+### 2. THE WAITING-ROOM BOOKEND (pastoral-suffering.html)
+A Buechner close works best when the return scene has CHANGED — not in its physical details (same cold coffee, same fluorescent hum, same linoleum) but in the reader's relationship to it. The question "Is anyone in charge?" transforms from accusation to prayer without a single physical detail shifting. The technique: hold every sensory detail constant, change only the interior posture. The reader experiences the shift in themselves because nothing else shifted.
+
+### 3. THE SPLIT-MIND FLINCH (pastoral-suffering.html)
+When the article asks "which universe do you want to suffer in?" the reader's mind splits: one half lunges toward sovereignty (please let someone be in charge), the other recoils (if He's in charge, He ordained this). Naming both halves simultaneously is more powerful than naming either alone. The reader cannot choose a side because both halves are true about them. This is a refinement of the basic flinch-as-diagnostic — instead of catching one reflex, catch two contradictory ones happening simultaneously.
+
+### 4. THE AUTOPILOT CONFESSION (hymn-amazing-grace.html)
+Start Frame technique: place the reader in a moment where they are doing something theological without thinking about it. Singing a hymn on autopilot. Reciting a creed. Praying the Lord's Prayer. The body is confessing what the mind hasn't processed. When you then slow down and parse what they were confessing, the reader discovers they already believe the thing they claim to reject. This is related to the Socratic trap but operates on muscle memory rather than logic.
+
+### 5. THE ACCUSER-VS-SPIRIT DISTINCTION (broken-mirror-sin-you-repeat.html, from prior context)
+When catching readers in a flinch about recurring sin, the critical pastoral move is distinguishing between accusation and conviction. "The accuser names the crime and walks away. The Spirit names the wound and stays." This is a one-sentence pastoral framework that the reader can carry with them beyond the article. The best flinch paragraphs don't just diagnose — they hand the reader a tool.
+
+**Failure noted:** Linked to `psychology-cognitive-dissonance.html` which doesn't exist. Validator caught it. Lesson reinforced: ALWAYS check `ls` before linking. The hallucination trap is real even in the middle of a flow state.
+
+---
+
+## 2026-04-14 — Conviction Engine Session (#75-76, #92-101 v2→v3, The Vocabulary of Evasion)
+
+**DISCOVERY: The flinch is most devastating when it catches the reader's WORD CHOICE as evidence.** In objection-fairness.html, the flinch doesn't catch a body sensation — it catches the difference between saying "That's unjust" (accusing the judge) and "That's not fair" (demanding the prize). The reader's own vocabulary choice reveals what they're actually defending: not the damned, but their own credit. This is a refinement of the standard flinch technique: instead of "notice what your body is doing," try "notice which word you chose." Language is behavior, and the specific word someone reaches for under pressure is a confession. Applied similarly in question-godwants.html where the reader's need for "all" to mean "every individual" reveals not exegetical care but identity protection.
+
+**TECHNIQUE: The Buechner two-paragraph catch works best when the sensory scene uses a physical space the reader has BEEN in.** The courtroom (objection-fairness), the hospital room (question-bible-says-sick, psychology-anosognosia), the womb (philosophy-children-argument) — these land harder than abstract sensory scenes because every reader has been in at least one of these. The granite-name scene in question-foreknowledge works differently — it creates a space no one has been in (before creation) but uses sensory detail (chisel, stone, dark) to make the unimaginable feel material. Both approaches are valid but the familiar-space version creates faster recognition.
+
+**TECHNIQUE: The "editing Jesus in real time" flinch (question-john6) is a new category.** Previous flinches caught the reader softening, reversing, or exempting. This one catches the reader *curating* — keeping the bread and discarding the doctrine, keeping the miracle and leaving the sermon. This is the consumer-Christianity flinch: the reader who has been assembling a customized Jesus from approved fragments. Devastating because it doesn't accuse them of rejecting Jesus — it accuses them of editing Him, which is worse because they don't even know they're doing it.
+
+**FAILURE: Avoid stacking two flinch paragraphs too close together.** In the prior session, some articles received both a flinch-as-diagnostic AND a Crown Jewel Socratic touch within 2-3 paragraphs. The density risks the reader feeling "caught" so many times that the technique becomes visible and loses power. Space literary devices by at least one full section heading.
+
+## 2026-04-14 — Conviction Engine Session (#67–#74 v2→v3, The Self-Sorting Flinch)
+
+**DISCOVERY: The flinch-as-diagnostic is most devastating when it catches the reader sorting themselves into the good pile.** In analogy-song-you-didnt-compose.html, the flinch paragraph catches the reader placing themselves in the "moved" category (as opposed to the unmoved concert-goer) and names this as the oldest form of pride — mistaking being acted upon for acting. This is more powerful than the standard "notice what your body is doing" format because it catches the reader performing the very error the article is about. The reader's own defense mechanism becomes the evidence. Applied similarly in romans-8-28-39.html (relaxing vs tensing) and ot-prophets-remnant.html (softening "hated" before finishing the verse). **Craft principle: the flinch that catches the reader DOING the thing is exponentially more convicting than the flinch that catches them FEELING something about the thing.**
+
+**TECHNIQUE: Crown Jewel Box A/Box B is strongest when it uses the article's own metaphor.** In romans-8-28-39.html, Box B is framed as "the unbreakable chain hanging from a thread" — the chain metaphor that the reader has already invested in now turns against them. In demolition-cut-off-from-root.html, Box B becomes "photosynthesized without sunlight." In analogy-song-you-didnt-compose.html, Box B becomes "the infant writing her own acceptance speech." Each time the article's central image becomes the vehicle for the Crown Jewel, the argument feels organic rather than inserted.
+
+**FAILURE NOTE:** None this session — all 8 edits saved cleanly and validated. But worth noting that the romans-8-28-39 article was already so strong that the v3 amplification was more surgical than in weaker articles. The flinch paragraph needed to find something the article hadn't already said — it found it in the physical body response (relaxing shoulders vs scanning for "unless").
+
 ## 2026-04-14 — Conviction Engine Session (#77–#91 v2→v3, Cross-Category Bookend Architecture)
 
 This session promoted fifteen queue entries (#77 story-the-dead-city through #91 history-golden-thread) from v2 to v3. The session spanned stories, questions, devotionals, healing, history, demolition, OT, and philosophy categories. The dominant technique was the **camera-return Bookend** — a sensory Start Frame that opens a scene (hospital room, cemetery, courtroom, morgue, throne room, parking lot, kitchen window, gold thread), then the article delivers its theological payload, then a Bookend section titled "Back to [the Location]" returns the reader to the exact same scene with the catch now visible. Eight distinct Bookend locations were created this session.
@@ -3713,3 +3765,33 @@ On #64 (grace-too-good), my first draft of the End Frame was too fast — it wen
 ### THE SCENE INVENTORY IS A GROWING ASSET
 
 Future sessions: before writing any new Start Frame, read this journal's running inventory of scenes already used and **pick something the site has never seen.** The fleet has now inventoried dozens of scenes across hundreds of articles. The remaining blank spots on the map of human experience are where the next rescues will happen: the DMV waiting room, the hospice bedside, the subway car at rush hour, the airport at 11pm, the checkout line where a child is crying, the rehearsal dinner, the IKEA aisle, the dentist's chair before the drill starts, the funeral parking lot, the first day of a new job. **Somewhere, one of the elect is standing in exactly that place right now.** Write the scene that meets them there.
+
+---
+
+## SESSION: 2026-04-14 — Conviction Engine v3 Pass (#111–#118)
+
+### CATEGORY-SENSITIVE FLINCH CALIBRATION
+
+The flinch-as-diagnostic must match the genre it lives in. This session proved three distinct calibrations:
+
+**Psychology flinch** (system-justification): aggressive — "your body identified a threat before your theology had time to evaluate it." The reader is in intellectual mode; the flinch exposes that the body was never in intellectual mode. The speed of the defense IS the evidence.
+
+**Exegetical flinch** (question-acts): precision — catches the reader performing a live translation revision on the word "appointed," swapping it for "disposed" or "inclined." The flinch is the synonym-swap itself. The reader's mind edited God's word in real time and the article names the edit while it's still happening.
+
+**Pastoral flinch** (open-wound-terminal-diagnosis): tender — "if you felt a tightness, a bracing, the instinct to close the tab... that is not weakness." A dying person does not need their defenses named as fortresses. They need their pain honored while being gently told that the tightness is not a wall between them and God. The flinch still functions diagnostically but its tone is permission, not exposure.
+
+**The rule**: the flinch diagnoses the same phenomenon (the flesh defending itself from truth) across all genres. But the *register* must match the reader's vulnerability. A psychology reader can take a sharp mirror. A dying person cannot. Calibrate accordingly.
+
+### THE MORPHINE FORK — PASTORAL CROWN JEWEL AT THE DEATHBED
+
+The strongest new Crown Jewel application this session was in #118: "In one, your salvation depends on a decision you made — and decisions are things humans make, and humans are the ones lying in the hospital bed with a mind clouded by morphine and a faith that feels thinner than it did last month. In the other, your salvation depends on a decision God made — and God is not in the bed. God is not clouded. God does not thin."
+
+This works because it names the exact thing a terminally ill person fears but cannot articulate: that their faith is weakening as their body weakens, and if faith is their contribution, they are losing the one thing keeping them safe. The Crown Jewel here isn't intellectual — it's existential. The fork isn't "which theology is correct?" It's "which theology can hold you when you can no longer hold anything?"
+
+### STORY FLINCH WITHOUT BREAKING STORY
+
+In #117 (the-orphanage), the flinch had to work inside a parable without breaking the narrative dream. The solution: "You are Kael before you have met Kael. And the anger rising in you is the same anger." This collapses the distance between reader and character in a single sentence. The reader was watching Kael from outside; now they are inside. The flinch is the collapse of narrative distance itself. For future story articles: the flinch is not a parenthetical aside but a moment where the fourth wall dissolves and the reader realizes the story was always about them.
+
+### FAILURE NOTE
+
+First draft of the terminal-diagnosis Crown Jewel was too sharp — it had the phrase "your decision-theology cannot help you here." Too much demolition for a page that may be read by someone who has weeks to live. Revised to remove all accusation and frame the fork entirely in terms of what each option *offers* rather than what each option *fails at*. On catch pages, the Crown Jewel must be a hand extended, not a mirror held up. Frame it as gift, not as exposure.

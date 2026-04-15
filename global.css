@@ -6414,7 +6414,7 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .story-subtitle { color: var(--text-secondary); font-size: 1.1rem; }
 .parable-unveiled { background: rgba(212,162,84,0.06); border: 1px solid rgba(212,162,84,0.15); border-radius: 14px; padding: 2rem; margin: 2rem 0; }
 .mapping-section { margin: 1.5rem 0; }
-.mapping-item { display: flex; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid rgba(212,162,84,0.06); }
+.mapping-item { padding: 0.75rem 0; border-bottom: 1px solid rgba(212,162,84,0.06); line-height: 1.8; }
 .truth-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .pull-quote-section { text-align: center; padding: 2rem 1rem; font-style: italic; color: var(--accent-scripture); font-size: 1.1rem; }
 .keep-reading-container { margin-top: 2rem; }
