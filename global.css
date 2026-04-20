@@ -7468,71 +7468,28 @@ body.heartbeat-host > section { position: relative; z-index: 1; }
     }
 }
 
-/* --- Auto-TOC on long articles --- */
-.article-toc {
-    margin: 1.5rem 0 2.5rem;
-    background: linear-gradient(180deg, rgba(212,162,84,0.05) 0%, rgba(139,92,246,0.03) 100%);
-    border: 1px solid var(--border-subtle, rgba(212, 162, 84, 0.18));
-    border-left: 3px solid var(--accent-gold);
-    border-radius: 6px;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-}
-.article-toc-details {
-    padding: 0;
-}
-.article-toc-summary {
-    cursor: pointer;
-    padding: 0.85rem 1.1rem;
-    font-weight: 600;
-    font-size: 0.95rem;
-    color: var(--accent-gold);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-    user-select: none;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    font-size: 0.78rem;
-    font-family: 'JetBrains Mono', monospace;
-}
-.article-toc-summary::-webkit-details-marker { display: none; }
-.article-toc-summary::marker { content: ''; }
-.article-toc-label { flex: 1; }
-.article-toc-chevron {
-    transition: transform 0.2s ease;
-    color: var(--accent-gold);
-    font-size: 0.85rem;
-}
-.article-toc-details[open] .article-toc-chevron {
-    transform: rotate(180deg);
-}
-.article-toc-list {
-    list-style: decimal;
-    margin: 0;
-    padding: 0 1.1rem 1rem 2.75rem;
-    counter-reset: toc;
-}
-.article-toc-list li {
-    padding: 0.25rem 0;
-    color: var(--text-muted, #9ca3af);
-    line-height: 1.5;
-}
-.article-toc-list a {
-    color: var(--text-primary);
-    text-decoration: none;
-    border-bottom: 1px dotted transparent;
-    transition: color 0.15s, border-color 0.15s;
-}
-.article-toc-list a:hover,
-.article-toc-list a:focus-visible {
-    color: var(--accent-gold);
-    border-bottom-color: var(--accent-gold);
-}
-@media (max-width: 640px) {
-    .article-toc { margin: 1rem 0 2rem; }
-    .article-toc-summary { padding: 0.75rem 0.95rem; }
-    .article-toc-list { padding: 0 0.95rem 0.9rem 2.3rem; }
+/* --- BANNED: In-page jump-to / "On This Page" / section-nav ---
+   Removed 2026-04-20. Two separate patterns once lived on this site:
+     (1) JS-injected  .article-toc  (from an old injectAutoTOC function)
+     (2) Hardcoded    .section-nav  blocks pasted into 21+ pages
+   Both collided with the main site nav. Both are banned.
+   The JS in ux-enhancements.js actively purges any stray nodes at runtime;
+   the rules below are the belt to that suspenders so nothing ever renders
+   even if an agent slips one past the guard. DO NOT re-add either style.
+   See /.claude/CLAUDE.md (ELIMINATED FEATURES). */
+.article-toc,
+.article-toc-details,
+.article-toc-summary,
+.article-toc-label,
+.article-toc-chevron,
+.article-toc-list,
+.section-nav,
+.section-nav-container,
+.section-nav-inner,
+nav[aria-label="Table of contents"],
+nav[aria-label="On this page"],
+nav[aria-label="Jump to"] {
+    display: none !important;
 }
 
 /* --- Healing Series Next/Prev --- */
@@ -7637,7 +7594,6 @@ body.heartbeat-host > section { position: relative; z-index: 1; }
 /* --- Respect prefers-reduced-motion (global consolidation) --- */
 @media (prefers-reduced-motion: reduce) {
     .reading-progress { transition: none !important; }
-    .article-toc-chevron { transition: none !important; }
     .series-nav-link { transition: none !important; transform: none !important; }
     .series-nav-link:hover,
     .series-nav-link:focus-visible { transform: none !important; }

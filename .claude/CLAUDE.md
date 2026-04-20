@@ -114,6 +114,13 @@ Then run `node validate-site.js` and fix anything it flags.
 
 No resources/external-links pages. No email newsletter signup. No social-media content. No back-to-top floating widgets. No "Apologetics" category — the entire site IS an apologetic.
 
+**No in-page jump-to nav of any kind.** Removed 2026-04-20 and banned site-wide. Two patterns once lived here and both are dead:
+
+- `.article-toc` — JS-injected by an old `injectAutoTOC()` in `ux-enhancements.js`. Do not reintroduce the function.
+- `.section-nav` / `.section-nav-container` / `.section-nav-inner` — a hardcoded `<div>` or `<nav>` block that got pasted into 21+ pages (theologian-*, history-*, question-*, systematic-*, demolition-*, compare-*). All 21 were stripped out the same day.
+
+Do NOT hardcode `<nav class="section-nav">`, `<div class="section-nav">`, `<nav class="article-toc">`, or `<nav aria-label="Table of contents">` in any page. Do NOT restore `.article-toc*` or `.section-nav*` rules in `global.css` (the only rules allowed there are the `display:none !important` fuse). If a reader needs to navigate within an article, the `<h2>` headings and the main site nav are enough. These in-page navs collided visually with the site nav on `/found-you`, `/history-apostolic`, and elsewhere — a regression we do not want repeated. `purgeStrayAutoTOC()` in `ux-enhancements.js` removes any stray node at runtime as a fuse; keep it.
+
 ---
 
 ## REFORMED SOURCES LIBRARY

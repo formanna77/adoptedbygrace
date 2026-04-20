@@ -1,17 +1,33 @@
 /* ============================================================
-   ADOPTED BY GRACE — UX ENHANCEMENTS v1
+   ADOPTED BY GRACE — UX ENHANCEMENTS v2
    Universal on-page enhancements injected on every article:
      1. Skip-to-content link (a11y)
      2. Universal scroll-progress bar
      3. Breadcrumbs above article body
-     4. Auto-TOC on long articles (3+ h2s)
-     5. Next/Prev navigation for healing series
+     4. Next/Prev navigation for healing series
+     5. aria-current on the site nav
 
    This file is loaded AFTER nav.js on every page.
-   All styling lives in /global.css (.ux-breadcrumbs, .article-toc,
+   All styling lives in /global.css (.ux-breadcrumbs,
    .series-nav, .skip-to-content, .reading-progress).
 
    All enhancements honor prefers-reduced-motion via CSS.
+
+   ==== BANNED FEATURE: AUTO-TOC / "JUMP TO" / SECTION-NAV ====
+   There is NO in-page jump-to nav of any kind in this file
+   and there must not be one. Two patterns are banned:
+     - .article-toc   (old JS-injected auto-TOC)
+     - .section-nav   (hardcoded block formerly pasted into
+                       21+ pages — removed 2026-04-20)
+   If a future agent re-adds injectAutoTOC(), hardcodes a
+   <div class="section-nav"> / <nav class="section-nav">
+   block, or builds any equivalent in-page anchor-link nav,
+   DELETE IT. Rationale: these navs collided with the site
+   nav on /found-you, /history-apostolic, and elsewhere, and
+   added clutter without a navigation benefit — h2s + the
+   main site nav are enough. purgeStrayAutoTOC() below runs
+   on every page as a fuse. Keep it.
+   See /.claude/CLAUDE.md ELIMINATED FEATURES.
    ============================================================ */
 
 (function () {
@@ -185,55 +201,28 @@
         document.head.appendChild(script);
     }
 
-    // ---------- 4. Auto-TOC on long articles ----------
-    function injectAutoTOC() {
-        const article = document.querySelector('article.article-body');
-        if (!article) return;
-        if (article.querySelector('.article-toc')) return;
-        const h2s = Array.from(article.querySelectorAll(':scope > h2, :scope > section > h2'));
-        if (h2s.length < 3) return;
-
-        // Build the TOC
-        const toc = document.createElement('nav');
-        toc.className = 'article-toc';
-        toc.setAttribute('aria-label', 'Table of contents');
-
-        const details = document.createElement('details');
-        details.className = 'article-toc-details';
-        details.open = true;
-
-        const summary = document.createElement('summary');
-        summary.className = 'article-toc-summary';
-        summary.innerHTML = '<span class="article-toc-label">On This Page</span>' +
-            '<span class="article-toc-chevron" aria-hidden="true">▾</span>';
-        details.appendChild(summary);
-
-        const list = document.createElement('ol');
-        list.className = 'article-toc-list';
-
-        h2s.forEach((h, i) => {
-            if (!h.id) {
-                const base = slugify(h.textContent) || ('section-' + (i + 1));
-                h.id = base;
-            }
-            const li = document.createElement('li');
-            const a = document.createElement('a');
-            a.href = '#' + h.id;
-            a.textContent = (h.textContent || '').trim();
-            li.appendChild(a);
-            list.appendChild(li);
-        });
-
-        details.appendChild(list);
-        toc.appendChild(details);
-
-        // Insert after the TL;DR / In Brief if present, else at article top
-        const tldr = article.querySelector('.tldr');
-        if (tldr && tldr.parentNode === article) {
-            tldr.insertAdjacentElement('afterend', toc);
-        } else {
-            article.insertBefore(toc, article.firstChild);
-        }
+    // ---------- 4. BANNED: Auto-TOC / "On This Page" / Jump-to / section-nav ----------
+    // Removed 2026-04-20. Two separate patterns once rendered in-page
+    // jump-to navs and both collided with the site nav:
+    //   (1) JS-injected .article-toc (old injectAutoTOC function — deleted)
+    //   (2) Hardcoded   .section-nav / .section-nav-container blocks
+    //                   (pasted into 21+ pages, ripped out the same day)
+    // This function is a runtime fuse: if any stray jump-to node slips
+    // into a page via old cached HTML, a rogue agent, or a future
+    // regression, it gets removed on DOMContentLoaded. Keep it. Do not
+    // repurpose it. Do not add anything that BUILDS a jump-to nav here —
+    // the h2 headings plus the main site nav are enough navigation.
+    function purgeStrayAutoTOC() {
+        var selectors = [
+            '.article-toc',
+            '.section-nav',
+            '.section-nav-container',
+            '.section-nav-inner',
+            'nav[aria-label="Table of contents"]',
+            'nav[aria-label="On this page"]',
+            'nav[aria-label="Jump to"]'
+        ].join(', ');
+        document.querySelectorAll(selectors).forEach(function (n) { n.remove(); });
     }
 
     // ---------- 5. Healing series Next/Prev ----------
@@ -379,7 +368,7 @@
         try { injectSkipToContent(); } catch (e) { /* silent */ }
         try { injectReadingProgress(); } catch (e) { /* silent */ }
         try { injectBreadcrumbs(); } catch (e) { /* silent */ }
-        try { injectAutoTOC(); } catch (e) { /* silent */ }
+        try { purgeStrayAutoTOC(); } catch (e) { /* silent */ }
         try { injectSeriesNav(); } catch (e) { /* silent */ }
         try { markCurrentNavLink(); } catch (e) { /* silent */ }
     });
