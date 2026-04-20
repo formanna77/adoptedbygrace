@@ -282,7 +282,7 @@
                     href: '/essays',
                     count: 1,
                     pages: [
-                        { name: 'Essays — The Case for Sovereign Grace, Argued in Full', href: '/essays', desc: 'Long-form arguments that leave no escape. Six essays making the full case for sovereign grace — from Scripture, logic, a' }
+                        { name: 'Essays — The Case for Sovereign Grace, Argued in Full', href: '/essays', desc: 'Long-form arguments that leave no escape. Eleven essays making the full case for sovereign grace — from Scripture, logic' }
                     ]
                 }
             ]
