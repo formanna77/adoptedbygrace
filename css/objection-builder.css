@@ -1,0 +1,188 @@
+        /* ===== Objection Builder — interactive widget styles (allowed per site policy) ===== */
+        .ob-intro {
+            max-width: 760px;
+            margin: 0 auto 2.5rem;
+            padding: 0 1.5rem;
+            text-align: center;
+            font-size: 1.12rem;
+            line-height: 1.75;
+            color: rgba(245, 236, 220, 0.92);
+        }
+        .ob-intro p { margin: 0 0 1rem; }
+        .ob-intro .ob-prompt {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.55rem;
+            color: #d4a254;
+            font-style: italic;
+            margin-top: 1.5rem;
+        }
+
+        .ob-section {
+            max-width: 1180px;
+            margin: 0 auto 3rem;
+            padding: 0 1.5rem;
+        }
+        .ob-group-heading {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.35rem;
+            color: #d4a254;
+            letter-spacing: 0.02em;
+            margin: 2.5rem 0 1rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
+        }
+
+        .ob-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.1rem;
+        }
+
+        .ob-card {
+            background: rgba(20, 14, 8, 0.55);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            border-radius: 8px;
+            padding: 1.35rem 1.4rem;
+            cursor: pointer;
+            transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease;
+            color: inherit;
+            font-family: inherit;
+            text-align: left;
+            display: block;
+            width: 100%;
+        }
+        .ob-card:hover, .ob-card:focus-visible {
+            border-color: rgba(212, 162, 84, 0.55);
+            background: rgba(35, 22, 12, 0.65);
+            transform: translateY(-1px);
+            outline: none;
+        }
+        .ob-card .ob-card-label {
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: #b07a2c;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        .ob-card .ob-card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.22rem;
+            line-height: 1.35;
+            color: #f5ecdc;
+            margin: 0;
+        }
+        .ob-card[aria-expanded="true"] {
+            border-color: #d4a254;
+            background: rgba(45, 28, 14, 0.72);
+        }
+
+        .ob-reveal {
+            display: none;
+            margin-top: 1.2rem;
+            padding: 1.25rem 1.3rem;
+            background: rgba(14, 9, 5, 0.65);
+            border-left: 3px solid #d4a254;
+            border-radius: 4px;
+            animation: obFade 0.35s ease-out;
+        }
+        .ob-card[aria-expanded="true"] .ob-reveal { display: block; }
+
+        @keyframes obFade {
+            from { opacity: 0; transform: translateY(-4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .ob-reveal-block { margin-bottom: 1.1rem; }
+        .ob-reveal-block:last-child { margin-bottom: 0; }
+
+        .ob-reveal-heading {
+            font-size: 0.72rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #b07a2c;
+            margin-bottom: 0.35rem;
+            font-weight: 600;
+        }
+        .ob-reveal-body {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: rgba(245, 236, 220, 0.94);
+            margin: 0;
+        }
+        .ob-reveal-body em { color: #e4b872; font-style: italic; }
+        .ob-scripture {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.05rem;
+            color: #e4b872;
+            line-height: 1.65;
+            padding: 0.6rem 0 0.3rem;
+            border-top: 1px dashed rgba(212, 162, 84, 0.25);
+            border-bottom: 1px dashed rgba(212, 162, 84, 0.25);
+            margin: 0;
+        }
+        .ob-scripture-ref {
+            display: block;
+            margin-top: 0.4rem;
+            font-size: 0.78rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #b07a2c;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+        }
+
+        .ob-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+            padding: 0.55rem 1rem;
+            background: linear-gradient(135deg, #d4a254 0%, #b07a2c 100%);
+            color: #1a1208;
+            font-weight: 600;
+            font-size: 0.92rem;
+            text-decoration: none;
+            border-radius: 4px;
+            letter-spacing: 0.02em;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .ob-cta:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 18px rgba(212, 162, 84, 0.25);
+        }
+        .ob-cta svg { width: 14px; height: 14px; }
+
+        .ob-coda {
+            max-width: 780px;
+            margin: 3rem auto;
+            padding: 2rem 1.75rem;
+            background: rgba(30, 20, 10, 0.55);
+            border: 1px solid rgba(212, 162, 84, 0.22);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .ob-coda h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.65rem;
+            color: #d4a254;
+            margin: 0 0 1rem;
+        }
+        .ob-coda p {
+            font-size: 1.05rem;
+            line-height: 1.75;
+            color: rgba(245, 236, 220, 0.92);
+            margin: 0 0 1rem;
+        }
+        .ob-coda a { color: #d4a254; font-weight: 600; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .ob-card, .ob-cta { transition: none; transform: none !important; }
+            .ob-reveal { animation: none; }
+        }
+
+        @media (max-width: 700px) {
+            .ob-grid { grid-template-columns: 1fr; }
+            .ob-card { padding: 1.1rem 1.15rem; }
+        }

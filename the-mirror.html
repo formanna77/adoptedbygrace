@@ -6,6 +6,7 @@
     <title>The Mirror | Adopted by Grace</title>
     <meta name="keywords" content="total depravity, self-examination, mirror, Scripture, interactive, spiritual heart, conviction, grace">
     <link rel="stylesheet" href="/global.css">
+    <link rel="manifest" href="/manifest.webmanifest">
     <style>
         /* The Mirror — scoped styles */
         .mirror-stage {
@@ -59,7 +60,7 @@
             text-align: center;
             padding: 2rem 0 3rem;
         }
-        .mirror-intro h1 {
+        .mirror-intro .mirror-intro-headline {
             font-size: clamp(2.5rem, 6vw, 4rem);
             background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
             -webkit-background-clip: text;
@@ -420,8 +421,7 @@
     <!-- Project Lighthouse: Performance hints -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
     <!-- /Project Lighthouse Performance -->
 </head>
 <body>
@@ -488,7 +488,8 @@
     <span class="eyebrow">Interactive</span>
     <h1>The Mirror</h1>
     <p class="hub-subtitle">Twelve questions. Not about your theology — about your heart.</p>
-</header>
+        <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
+    </header>
 
 <article class="article-body">
     <div class="mirror-progress">
@@ -503,7 +504,7 @@
     <div class="mirror-stage">
         <div class="mirror-intro" id="mirrorIntro">
             <div class="rubric">Before you begin</div>
-            <h1>You are about to look into a mirror.</h1>
+            <h2 class="mirror-intro-headline">You are about to look into a mirror.</h2>
             <p class="subtitle">Not one that shows you what you look like. One that shows you what your heart looks like. You will answer twelve quiet questions. Each question comes with what Scripture says about the answer you gave — not to shame you, but to show you something you already knew and have spent a lifetime not naming.</p>
             <p class="subtitle" style="font-size: 1.05rem; opacity: 0.85;">The only way to fail this mirror is to lie to it.</p>
             <button class="mirror-btn" id="beginBtn">Look Into The Mirror</button>
@@ -561,6 +562,51 @@
             </div>
         </div>
     </div>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/word-study-every-all" class="related-article-card">
+        <span class="related-article-cat">📄 Essay</span>
+        <span class="related-article-title">The Word &quot;All&quot; — A Lexical Study of Pas / Panta</span>
+        <span class="related-article-desc">Notice the pattern. Every one of those verses rests on a single Greek word — pas , pantes , or panta , the word translated &quot;all&quot; or…</span>
+      </a>
+      <a href="/scripture-tsunami-sovereignty" class="related-article-card">
+        <span class="related-article-cat">📄 Essay</span>
+        <span class="related-article-title">Every Verse Teaching God&#39;s Sovereignty Over Salvation — Scripture Tsunami</span>
+        <span class="related-article-desc">All quotations are NIV. Each verse is followed by one sentence explaining why it matters. For deeper analysis of individual passages,…</span>
+      </a>
+      <a href="/question-dead-man-visual" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">The Dead Man — A Visual Argument for Total Depravity</span>
+        <span class="related-article-desc">A visual argument for Total Depravity: a corpse cannot reach for rescue. If you are alive in Christ, a voice reached into your grave — and…</span>
+      </a>
+      <a href="/open-wound-hub" class="related-article-card">
+        <span class="related-article-cat">🩹 Open Wound</span>
+        <span class="related-article-title">The Open Wound — For Those Who Are Suffering</span>
+        <span class="related-article-desc">Every other answer to suffering is either dishonest or incomplete. We&#39;re going to do what almost no one does: look suffering square in the…</span>
+      </a>
+      <a href="/psychology-illusion-free-will" class="related-article-card">
+        <span class="related-article-cat">🧠 Psychology</span>
+        <span class="related-article-title">Your Brain Decides Before You Do</span>
+        <span class="related-article-desc">In 1983, Benjamin Libet proved that the brain commits to an action 350-550 milliseconds before conscious awareness. In 2008, Soon et al.…</span>
+      </a>
+      <a href="/start-here-phase4" class="related-article-card">
+        <span class="related-article-cat">🧭 Start Here</span>
+        <span class="related-article-title">But What About Free Will and Fairness? — Phase 4</span>
+        <span class="related-article-desc">Every objection matters. The deepest thinkers in church history discovered: objections don&#39;t weaken the case for sovereign grace — they…</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
 </article>
 
 <footer>
@@ -601,6 +647,7 @@
 </footer>
 
 <script src="/nav.js"></script>
+<script src="/ux-enhancements.js" defer></script>
 <script>
 (function() {
     const questions = [
@@ -791,5 +838,6 @@
 </script>
 
     <script src="/quote-card.js" defer></script>
+    <script src="/share-bar.js" defer></script>
 </body>
 </html>

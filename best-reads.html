@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/global.css">
+    <link rel="manifest" href="/manifest.webmanifest">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <script type="application/ld+json">
     {
@@ -110,8 +111,7 @@
     <!-- Project Lighthouse: Performance hints -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
     <!-- /Project Lighthouse Performance -->
 </head>
 <body>
@@ -330,6 +330,14 @@
                     <span class="card-read">Rest <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
                 </div>
             </a>
+            <a href="/quotes" class="hub-card">
+                <h3 class="card-title">The Gallery of Arresting Lines</h3>
+                <p class="card-description">Twenty-four sentences from across the site, pulled out and framed like paintings. Each one opens the page that made it. A doorway-finder for readers who do not yet know which door is theirs.</p>
+                <span class="card-meta">Quotes · 24 Lines · 6 Halls</span>
+                <div class="card-footer">
+                    <span class="card-read">Walk the gallery <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
         </div>
     </div>
 
@@ -385,9 +393,11 @@
     </footer>
 
     <script src="/nav.js"></script>
+    <script src="/ux-enhancements.js" defer></script>
     <script defer src="/reading-time.js"></script>
     <script defer src="/scripture-niv.js"></script>
     <script defer src="/scripture-popups.js"></script>
     <script src="/quote-card.js" defer></script>
+    <script src="/share-bar.js" defer></script>
 </body>
 </html>

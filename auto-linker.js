@@ -516,6 +516,15 @@ const LINK_MAP = [
 
     // ── SYSTEMATIC (newly added) ──
     { url: '/systematic-tulip', keywords: ['TULIP', 'five points of Calvinism', 'five points of grace explained'], priority: 7 },
+
+    // ── SPRINT 4 INTERACTIVES & CROWN-JEWEL PAGES (Apr 2026) ──
+    { url: '/verse-navigator', keywords: ['verse navigator', 'the twelve sovereignty verses', 'the twelve texts', 'the twelve load-bearing verses'], priority: 7 },
+    { url: '/objection-builder', keywords: ['objection builder', 'twelve objections to sovereign grace', 'the objection collapse'], priority: 7 },
+    { url: '/testimony-wall', keywords: ['wall of the rescued', 'testimony wall'], priority: 7 },
+    { url: '/two-arms', keywords: ['two arms', 'the two arms', 'two-arms architecture', 'demolition and catch'], priority: 8 },
+    { url: '/found-you', keywords: ['found you before the foundation', '2am searcher', 'midnight searcher'], priority: 7 },
+    { url: '/quotes', keywords: ['gallery of arresting lines', 'quote gallery', 'gallery of lines'], priority: 6 },
+    { url: '/essays/the-gift-that-proves-itself', keywords: ['the gift that proves itself', 'eight-part crown-jewel argument'], priority: 7 },
 ];
 
 // ═══════════════════════════════════════
