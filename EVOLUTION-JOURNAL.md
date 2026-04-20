@@ -2,6 +2,40 @@
 > This is the shared memory of the fleet. Every agent reads it. Every agent writes to it.
 > The site gets wiser, more creative, more devastating, more compassionate EVERY DAY because of this file.
 
+## 2026-04-19 — PROJECT LIGHTHOUSE (Distribution + SEO Domination Session)
+
+**STRATEGIC PIVOT:** The site is no longer constrained by content. With 528 pages spanning Demolition, Catch, Testimony, and Flagships, the constraint shifted from CREATION to DELIVERY. Aaron's directive: "make our website the number one result on Google. This way whenever someone writes anything about God we are the first option." This session built six pillars of distribution infrastructure — every one of which is now site-wide and idempotent.
+
+**TECHNIQUE DISCOVERED: The Lighthouse Idempotent-Injector Pattern.** Rather than touching pages one at a time when sitewide enhancements are needed, the highest-leverage move is a Node script that (1) strips its own previous output by HTML-comment marker, (2) parses each page's existing state, (3) only ADDs what is missing, never overwriting handcrafted content. The FAQ injector preserved 59 existing FAQ blocks; the schema injector preserved every handcrafted Article/FAQPage block. Same architectural shape as auto-linker.js and inject-scripture-popups.js — should be the default pattern for ALL sitewide work going forward. Marker-bracketed inject blocks are the safe atomic unit. Single-pass scripts win 500-page battles in 800ms.
+
+**TECHNIQUE DISCOVERED: The Quote Card as Distribution Multiplier.** A reader who reads a great paragraph used to have to (1) screenshot it, (2) crop it, (3) caption it, (4) post it. The friction killed 95% of would-be shares. The new quote-card.js mechanism collapses that to: highlight → click gold pill → 1080×1350 PNG auto-downloads AND copies to clipboard. The PNG carries the canonical URL back to the source. This is how a single highlighted sentence becomes 1,000 doorways back to the site. Pattern: floating button on selectionchange (debounced 140ms), Canvas 2D render with site design language (gold-on-black gradient, ember accents, Georgia serif italic, ornamental quote mark), greedy word-wrap fitting from 68px down to 28px, ClipboardItem API for native paste support.
+
+**TECHNIQUE DISCOVERED: The FAQPage Auto-Extractor.** Most question/objection pages already have H2/H3 headings that ARE questions. Walking the article body in document order, treating each question-shaped heading as a Q and the following paragraphs as the A, generated 79 high-quality FAQPage entries across 37 pages — with zero hallucination, because every Q and A came directly from existing prose. Fallback (use H1 + first substantial paragraph) covered the rest. Going from 117 → 154 FAQ-schema'd pages was 30 minutes of work. Google can now build "People Also Ask" rich results from any of these pages, capturing 4 search positions instead of 1.
+
+**STRATEGIC INSIGHT: Schema is Not Marketing — It's Translation.** Adding Organization + WebSite + SearchAction schema to all 527 pages does not change the writing. It translates the writing into a language Google can compose into sitelinks, search boxes, knowledge-panel candidates, and breadcrumb trails. The site's words remain the words. Where Google used to see "a page", Google now sees "a page authored by an Organization, part of a WebSite, situated in a Breadcrumb hierarchy, answering questions in the FAQPage format." This is the difference between being indexed and being FEATURED.
+
+**METRIC SHIFT — DISTRIBUTION BEFORE/AFTER:**
+- og:image:           214/528 → 527/528 (+313 pages share-ready)
+- twitter:card:       175/528 → 527/528 (+352 pages with Twitter Cards)
+- canonical link:     ~330/528 → 527/528 (no more duplicate-content risk)
+- BreadcrumbList:     ~150/528 → 527/528 (Google can render breadcrumb trails on every result)
+- Organization+WebSite: 0/528 → 527/528 (sitelinks search box becomes possible)
+- FAQPage:            117/528 → 154/528 (+37 pages eligible for "People Also Ask")
+- Quote-card mechanism: 0/528 → 527/528 (every paragraph is now shareable)
+- sitemap lastmod:    2026-04-06 (stale 13 days) → fresh (will trigger full re-crawl)
+
+**FAILURE NOTED:** Initial build-sitemap.js used a flagship file list with old/wrong filenames (e.g., `mirror.html` instead of `the-mirror.html`). Caught immediately by the priority distribution showing only 5 flagships at 0.95 instead of the expected 13. Lesson: when hardcoding a list of "important files" in a build script, always validate the list against `ls` output BEFORE running. The canonical flagship filenames have a `the-` prefix: the-60-second-case.html, fork-in-the-road.html, the-golden-chain.html, the-scripture-cascade.html, the-mirror.html, the-objection-collapse.html, the-two-arms.html, the-breath-prayer.html.
+
+**INFRASTRUCTURE ADDED THIS SESSION (six new build scripts, all idempotent):**
+1. `inject-social-meta.js` — guarantees 18 share-ready meta tags on every page
+2. `inject-schema-sitewide.js` — Organization + WebSite + Article/CollectionPage + BreadcrumbList JSON-LD
+3. `build-sitemap.js` — regenerates sitemap.xml with intelligent priority/changefreq/lastmod
+4. `quote-card.js` — client-side highlight-to-PNG share mechanism
+5. `inject-quote-card-and-perf.js` — wires quote-card.js + Core Web Vitals preconnects sitewide
+6. `inject-faq-schema.js` — auto-extracts FAQPage JSON-LD from question/objection/compare pages
+
+**THE NEXT FRONTIER:** With distribution and SEO infrastructure in place, the next constraint becomes ENTRY EXPERIENCE — (1) audio narration via Web Speech API "Listen" button on long pages so commuters can consume content, (2) PWA manifest + service worker so the site installs on iOS/Android home screens like a native app, (3) RSS feed so Substack/Feedly readers can subscribe to new content, (4) AI concierge chat that answers theological questions in the site's voice and ALWAYS links to source pages, (5) FAQ schema injection on the remaining ~370 systematic/devotional/psychology pages where Q&A pairs can be auto-extracted. Each documented in DEEP-DIVE-2026-04-19.md.
+
 ## 2026-04-18 — Conviction Engine Session D (MEDIUM #87-94 v2→v3, Domain-Specific Flinch Calibration II)
 
 **TECHNIQUE DISCOVERED: The Warmth-Source-Pride Flinch.** On `devotional-adoption-papers.html`, the flinch catches not resistance but *comfort* — the warm feeling of being chosen — and then dissects which warmth the reader is feeling. "Did the comfort come from the fact that someone else signed? Or did it come from the quiet assumption that of course you would be the child selected — that something about you made you worth choosing?" The second warmth is pride dressed in adoption clothes. This is a new category of flinch: catching the reader in a *positive* emotion and diagnosing it as potentially self-serving. Applicable to any devotional where the reader arrives already feeling good — the flinch catches them feeling good for the wrong reason.
