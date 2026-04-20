@@ -608,6 +608,7 @@
         .discovery-header h2 .gold { background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
         .discovery-refresh { background: none; border: 1px solid rgba(212, 162, 84, 0.3); color: var(--accent-gold); font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em; padding: 0.5rem 1.2rem; border-radius: 50px; cursor: pointer; transition: all 0.3s ease; }
         .discovery-refresh:hover { background: rgba(212, 162, 84, 0.1); border-color: var(--accent-gold); }
+        .discovery-header-second { margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--border-subtle); }
         .spotlight-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; }
         .spotlight-card { background: linear-gradient(135deg, rgba(18, 18, 26, 0.8), rgba(212, 162, 84, 0.03)); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 1.8rem; text-decoration: none; color: inherit; transition: all 0.4s ease; display: flex; flex-direction: column; }
         .spotlight-card:hover { transform: translateY(-4px); border-color: rgba(212, 162, 84, 0.35); box-shadow: 0 12px 40px rgba(0,0,0,0.3), 0 0 30px rgba(212, 162, 84, 0.06); }
@@ -1057,6 +1058,131 @@ body {
         </div>
     </section>
 
+    <!-- ===== CONTENT EXPLORER — WHAT'S INSIDE ===== -->
+    <section class="content-explorer" id="contentExplorer">
+        <div class="explorer-header">
+            <h2 class="section-title">What's Inside</h2>
+            <p class="section-subtitle">One truth. Hundreds of doorways. Scripture examined from every angle until there's nowhere left to hide.</p>
+            <div class="explorer-total">
+                <span class="total-number" data-target="457">0</span>
+                <span class="total-label">Original Articles &amp; Growing</span>
+            </div>
+        </div>
+
+        <div class="explorer-grid">
+            <a href="/start-here" class="explorer-tile">
+                <span class="tile-count" data-target="8">0</span>
+                <span class="tile-name">Start Here</span>
+                <span class="tile-desc">New? Begin your journey with a guided path</span>
+            </a>
+            <a href="/questions" class="explorer-tile">
+                <span class="tile-count" data-target="77">0</span>
+                <span class="tile-name">Scripture Questions</span>
+                <span class="tile-desc">Verse-by-verse answers to the hardest questions about salvation</span>
+            </a>
+            <a href="/demolition-hub" class="explorer-tile">
+                <span class="tile-count" data-target="57">0</span>
+                <span class="tile-name">Demolitions</span>
+                <span class="tile-desc">Arminian proof-texts dismantled in their own context</span>
+            </a>
+            <a href="/psychology-hub" class="explorer-tile">
+                <span class="tile-count" data-target="30">0</span>
+                <span class="tile-name">Psychology of Resistance</span>
+                <span class="tile-desc">Why the flesh rejects what the Spirit reveals</span>
+            </a>
+            <a href="/systematic-theology" class="explorer-tile">
+                <span class="tile-count" data-target="33">0</span>
+                <span class="tile-name">Systematic Theology</span>
+                <span class="tile-desc">The full framework from decrees to glorification</span>
+            </a>
+            <a href="/devotionals" class="explorer-tile">
+                <span class="tile-count" data-target="45">0</span>
+                <span class="tile-name">Devotionals</span>
+                <span class="tile-desc">Where theology catches fire and becomes worship</span>
+            </a>
+            <a href="/stories" class="explorer-tile">
+                <span class="tile-count" data-target="31">0</span>
+                <span class="tile-name">Stories, Parables &amp; Analogies</span>
+                <span class="tile-desc">Every literary device that makes sovereign grace unforgettable</span>
+            </a>
+            <a href="/questions#objections" class="explorer-tile">
+                <span class="tile-count" data-target="18">0</span>
+                <span class="tile-name">Hard Objections</span>
+                <span class="tile-desc">Every objection answered — honestly, completely</span>
+            </a>
+            <a href="/ot-hub" class="explorer-tile">
+                <span class="tile-count" data-target="14">0</span>
+                <span class="tile-name">Old Testament</span>
+                <span class="tile-desc">Election didn't start in Romans — it started in Genesis</span>
+            </a>
+            <a href="/history-timeline" class="explorer-tile">
+                <span class="tile-count" data-target="27">0</span>
+                <span class="tile-name">Church History</span>
+                <span class="tile-desc">2,000 years of God's people rediscovering His sovereignty</span>
+            </a>
+            <a href="/secular-evidence" class="explorer-tile">
+                <span class="tile-count" data-target="13">0</span>
+                <span class="tile-name">Secular Evidence</span>
+                <span class="tile-desc">Science, neuroscience, and philosophy confirm what Scripture teaches</span>
+            </a>
+            <a href="/philosophy-hub" class="explorer-tile">
+                <span class="tile-count" data-target="25">0</span>
+                <span class="tile-name">Logic &amp; Philosophy</span>
+                <span class="tile-desc">The rational impossibility of self-generated saving faith</span>
+            </a>
+            <a href="/theologians" class="explorer-tile">
+                <span class="tile-count" data-target="18">0</span>
+                <span class="tile-name">Theologians</span>
+                <span class="tile-desc">The men who shook the world by taking God at His word</span>
+            </a>
+            <!-- Analogies tile retired — merged into Stories, Parables & Analogies -->
+            <a href="/comparisons-hub" class="explorer-tile">
+                <span class="tile-count" data-target="8">0</span>
+                <span class="tile-name">Side by Side</span>
+                <span class="tile-desc">Grace vs. works — compared point by point</span>
+            </a>
+            <a href="/scripture-tsunami" class="explorer-tile">
+                <span class="tile-count" data-target="470">0</span>
+                <span class="tile-name">Scripture Tsunami</span>
+                <span class="tile-desc">Wave after wave of verses — until the truth is undeniable</span>
+            </a>
+            <a href="/connections" class="explorer-tile">
+                <span class="tile-count" data-target="41">0</span>
+                <span class="tile-name">Connections</span>
+                <span class="tile-desc">The unbreakable thread of sovereignty across all of Scripture</span>
+            </a>
+            <a href="/essays" class="explorer-tile">
+                <span class="tile-count" data-target="5">0</span>
+                <span class="tile-name">Essays</span>
+                <span class="tile-desc">Long-form arguments that leave no escape</span>
+            </a>
+        </div>
+
+        <div class="explorer-healing">
+            <div class="healing-label">
+                <span class="healing-icon">&#10084;</span> Rest in Grace
+            </div>
+            <div class="healing-grid">
+                <a href="/devotionals" class="healing-tile">
+                    <span class="tile-count" data-target="45">0</span>
+                    <span class="tile-name">Devotionals</span>
+                </a>
+                <a href="/anxious-mind-hub" class="healing-tile" data-combined="healing">
+                    <span class="tile-count" data-target="39">0</span>
+                    <span class="tile-name">Healing &amp; Hope</span>
+                </a>
+                <a href="/pastoral-hub" class="healing-tile">
+                    <span class="tile-count" data-target="7">0</span>
+                    <span class="tile-name">Pastoral</span>
+                </a>
+                <a href="/joy-hub" class="healing-tile">
+                    <span class="tile-count" data-target="7">0</span>
+                    <span class="tile-name">Joy of Grace</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- ===== FLAGSHIP INTERACTIVE EXPERIENCES ===== -->
     <section class="flagship" aria-labelledby="flagship-title">
         <div class="flagship-header">
@@ -1137,131 +1263,6 @@ body {
                 </div>
                 <span class="flagship-cta">Breathe <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
             </a>
-        </div>
-    </section>
-
-    <!-- ===== CONTENT EXPLORER — WHAT'S INSIDE ===== -->
-    <section class="content-explorer" id="contentExplorer">
-        <div class="explorer-header">
-            <h2 class="section-title">What's Inside</h2>
-            <p class="section-subtitle">One truth. Hundreds of doorways. Scripture examined from every angle until there's nowhere left to hide.</p>
-            <div class="explorer-total">
-                <span class="total-number" data-target="455">0</span>
-                <span class="total-label">Original Articles &amp; Growing</span>
-            </div>
-        </div>
-
-        <div class="explorer-grid">
-            <a href="/start-here" class="explorer-tile">
-                <span class="tile-count" data-target="8">0</span>
-                <span class="tile-name">Start Here</span>
-                <span class="tile-desc">New? Begin your journey with a guided path</span>
-            </a>
-            <a href="/questions" class="explorer-tile">
-                <span class="tile-count" data-target="76">0</span>
-                <span class="tile-name">Scripture Questions</span>
-                <span class="tile-desc">Verse-by-verse answers to the hardest questions about salvation</span>
-            </a>
-            <a href="/demolition-hub" class="explorer-tile">
-                <span class="tile-count" data-target="57">0</span>
-                <span class="tile-name">Demolitions</span>
-                <span class="tile-desc">Arminian proof-texts dismantled in their own context</span>
-            </a>
-            <a href="/psychology-hub" class="explorer-tile">
-                <span class="tile-count" data-target="30">0</span>
-                <span class="tile-name">Psychology of Resistance</span>
-                <span class="tile-desc">Why the flesh rejects what the Spirit reveals</span>
-            </a>
-            <a href="/systematic-theology" class="explorer-tile">
-                <span class="tile-count" data-target="33">0</span>
-                <span class="tile-name">Systematic Theology</span>
-                <span class="tile-desc">The full framework from decrees to glorification</span>
-            </a>
-            <a href="/devotionals" class="explorer-tile">
-                <span class="tile-count" data-target="44">0</span>
-                <span class="tile-name">Devotionals</span>
-                <span class="tile-desc">Where theology catches fire and becomes worship</span>
-            </a>
-            <a href="/stories" class="explorer-tile">
-                <span class="tile-count" data-target="31">0</span>
-                <span class="tile-name">Stories, Parables &amp; Analogies</span>
-                <span class="tile-desc">Every literary device that makes sovereign grace unforgettable</span>
-            </a>
-            <a href="/questions#objections" class="explorer-tile">
-                <span class="tile-count" data-target="18">0</span>
-                <span class="tile-name">Hard Objections</span>
-                <span class="tile-desc">Every objection answered — honestly, completely</span>
-            </a>
-            <a href="/ot-hub" class="explorer-tile">
-                <span class="tile-count" data-target="14">0</span>
-                <span class="tile-name">Old Testament</span>
-                <span class="tile-desc">Election didn't start in Romans — it started in Genesis</span>
-            </a>
-            <a href="/history-timeline" class="explorer-tile">
-                <span class="tile-count" data-target="27">0</span>
-                <span class="tile-name">Church History</span>
-                <span class="tile-desc">2,000 years of God's people rediscovering His sovereignty</span>
-            </a>
-            <a href="/secular-evidence" class="explorer-tile">
-                <span class="tile-count" data-target="13">0</span>
-                <span class="tile-name">Secular Evidence</span>
-                <span class="tile-desc">Science, neuroscience, and philosophy confirm what Scripture teaches</span>
-            </a>
-            <a href="/philosophy-hub" class="explorer-tile">
-                <span class="tile-count" data-target="25">0</span>
-                <span class="tile-name">Logic &amp; Philosophy</span>
-                <span class="tile-desc">The rational impossibility of self-generated saving faith</span>
-            </a>
-            <a href="/theologians" class="explorer-tile">
-                <span class="tile-count" data-target="18">0</span>
-                <span class="tile-name">Theologians</span>
-                <span class="tile-desc">The men who shook the world by taking God at His word</span>
-            </a>
-            <!-- Analogies tile retired — merged into Stories, Parables & Analogies -->
-            <a href="/comparisons-hub" class="explorer-tile">
-                <span class="tile-count" data-target="8">0</span>
-                <span class="tile-name">Side by Side</span>
-                <span class="tile-desc">Grace vs. works — compared point by point</span>
-            </a>
-            <a href="/scripture-tsunami" class="explorer-tile">
-                <span class="tile-count" data-target="470">0</span>
-                <span class="tile-name">Scripture Tsunami</span>
-                <span class="tile-desc">Wave after wave of verses — until the truth is undeniable</span>
-            </a>
-            <a href="/connections" class="explorer-tile">
-                <span class="tile-count" data-target="41">0</span>
-                <span class="tile-name">Connections</span>
-                <span class="tile-desc">The unbreakable thread of sovereignty across all of Scripture</span>
-            </a>
-            <a href="/essays" class="explorer-tile">
-                <span class="tile-count" data-target="5">0</span>
-                <span class="tile-name">Essays</span>
-                <span class="tile-desc">Long-form arguments that leave no escape</span>
-            </a>
-        </div>
-
-        <div class="explorer-healing">
-            <div class="healing-label">
-                <span class="healing-icon">&#10084;</span> Rest in Grace
-            </div>
-            <div class="healing-grid">
-                <a href="/devotionals" class="healing-tile">
-                    <span class="tile-count" data-target="44">0</span>
-                    <span class="tile-name">Devotionals</span>
-                </a>
-                <a href="/anxious-mind-hub" class="healing-tile" data-combined="healing">
-                    <span class="tile-count" data-target="39">0</span>
-                    <span class="tile-name">Healing &amp; Hope</span>
-                </a>
-                <a href="/pastoral-hub" class="healing-tile">
-                    <span class="tile-count" data-target="7">0</span>
-                    <span class="tile-name">Pastoral</span>
-                </a>
-                <a href="/joy-hub" class="healing-tile">
-                    <span class="tile-count" data-target="7">0</span>
-                    <span class="tile-name">Joy of Grace</span>
-                </a>
-            </div>
         </div>
     </section>
 
@@ -1637,7 +1638,7 @@ body {
         <div class="cloud-witnesses-footer"><a href="/theologians" class="btn-secondary">Meet the Full Cloud of Witnesses →</a></div>
     </section>
 
-    <!-- ===== SPOTLIGHT: ARTICLES YOU MIGHT HAVE MISSED ===== -->
+    <!-- ===== DISCOVERY: MISSED + RECENTLY ADDED (merged 2026-04-20) ===== -->
     <section class="discovery-section" id="spotlightSection">
         <div class="discovery-inner">
             <div class="discovery-header">
@@ -1651,13 +1652,8 @@ body {
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5"/><path d="M4 20L21 3"/><path d="M21 16v5h-5"/><path d="M15 15l6 6"/><path d="M4 4l5 5"/></svg>
                 Take Me Somewhere Random
             </a>
-        </div>
-    </section>
 
-    <!-- ===== RECENTLY ADDED ===== -->
-    <section class="discovery-section discovery-section-spaced" id="recentSection">
-        <div class="discovery-inner">
-            <div class="discovery-header">
+            <div class="discovery-header discovery-header-second" id="recentSection">
                 <h2>Fresh Off the <span class="gold">Press</span></h2>
             </div>
             <div class="recent-list" id="recentList">
@@ -1671,73 +1667,6 @@ body {
         <div class="reveal">
             <p class="cta-quote">&ldquo;A man can no more diminish God&rsquo;s glory by refusing to worship Him than a lunatic can put out the sun by scribbling the word &lsquo;darkness&rsquo; on the walls of his cell.&rdquo;</p>
             <p class="cta-attribution">— C.S. Lewis</p>
-        </div>
-    </section>
-
-    <!-- ===== CONTINUE YOUR JOURNEY — unified hub-card system (rebuilt 2026-04-19) ===== -->
-    <section class="continue-journey">
-        <div class="continue-journey-inner">
-            <div class="continue-journey-header">
-                <span class="continue-journey-eyebrow">Six Doorways</span>
-                <h2 class="continue-journey-title">Continue Your Journey</h2>
-                <p class="continue-journey-subtitle">Wherever you are right now &mdash; curious, wounded, skeptical, hungry &mdash; one of these doors is for you.</p>
-            </div>
-            <div class="hub-grid">
-                <a href="/start-here" class="hub-card">
-                    <div class="card-number">01</div>
-                    <h3 class="card-title">Start Here</h3>
-                    <p class="card-description">A guided path from honest questions to life-changing answers about who God really is.</p>
-                    <div class="card-meta">For the Newcomer</div>
-                    <div class="card-footer">
-                        <span class="card-read">Begin <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/questions" class="hub-card">
-                    <div class="card-number">02</div>
-                    <h3 class="card-title">The Evidence</h3>
-                    <p class="card-description">The Bible's own answers to the hardest questions about salvation, free will, and divine sovereignty.</p>
-                    <div class="card-meta">For the Skeptic</div>
-                    <div class="card-footer">
-                        <span class="card-read">Investigate <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/scripture-tsunami" class="hub-card">
-                    <div class="card-number">03</div>
-                    <h3 class="card-title">Scripture Tsunami</h3>
-                    <p class="card-description">Hundreds of verses &mdash; an avalanche of biblical testimony that leaves no room for doubt about who holds salvation in His hands.</p>
-                    <div class="card-meta">For the Honest Reader</div>
-                    <div class="card-footer">
-                        <span class="card-read">Drown in Grace <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/systematic-theology" class="hub-card">
-                    <div class="card-number">04</div>
-                    <h3 class="card-title">Systematic Theology</h3>
-                    <p class="card-description">The full theological framework &mdash; every truth interlocking like a cathedral built to display one magnificent God.</p>
-                    <div class="card-meta">For the Builder</div>
-                    <div class="card-footer">
-                        <span class="card-read">Build the Cathedral <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/devotionals" class="hub-card">
-                    <div class="card-number">05</div>
-                    <h3 class="card-title">Rest in Grace</h3>
-                    <p class="card-description">Where truth catches fire and theology becomes worship. Short reads that will echo in your soul for days.</p>
-                    <div class="card-meta">For the Weary</div>
-                    <div class="card-footer">
-                        <span class="card-read">Rest <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/stories" class="hub-card">
-                    <div class="card-number">06</div>
-                    <h3 class="card-title">Stories &amp; Parables</h3>
-                    <p class="card-description">Original parables and narratives that illuminate sovereign grace through the lens of human experience.</p>
-                    <div class="card-meta">For the Imagination</div>
-                    <div class="card-footer">
-                        <span class="card-read">Listen <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-            </div>
         </div>
     </section>
 

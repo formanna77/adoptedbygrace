@@ -316,8 +316,8 @@ nav.scrolled {
     .mega-menu-toggle { display: flex; }
 }
 
-/* ===== NARROW DESKTOP (≤1180px) — tighten link spacing ===== */
-@media (min-width: 969px) and (max-width: 1180px) {
+/* ===== NARROW DESKTOP (≤1340px) — tighten link spacing to prevent wordmark / link collision ===== */
+@media (min-width: 969px) and (max-width: 1340px) {
     .nav-site-name { font-size: 1.1rem; }
     .nav-top-link { padding: 0 0.5rem; font-size: 0.72rem; letter-spacing: 0.055em; }
     .nav-top-link::after { width: calc(100% - 1rem); }
@@ -7116,3 +7116,284 @@ nav a, footer a, .hub-card a, .hub-grid a,
 .witness-text { color: var(--text-secondary); line-height: 1.7; }
 .greek-hebrew { background: rgba(139,92,246,0.06); border-radius: 10px; padding: 1.25rem; margin: 1rem 0; }
 .mechanism-description { color: var(--text-secondary); line-height: 1.7; }
+
+/* ============================================================
+   SPIRITUAL HEARTBEAT — Ambient CSS Motif
+   ------------------------------------------------------------
+   A barely-perceptible pulse that whispers under tender catch
+   pages and keepsakes. Two paces — lub (systole) and dub
+   (diastole) — like a life being kept, not a rhythm being
+   performed. Apply by adding .heartbeat to any element or
+   .heartbeat-host to a <body>; the motif will pulse the
+   element's shadow/opacity at the cadence of a resting heart.
+   Honors prefers-reduced-motion by falling silent.
+   ============================================================ */
+@keyframes spiritual-heartbeat {
+    0%    { box-shadow: 0 0 0 0 rgba(212, 162, 84, 0.10), 0 0 60px rgba(232, 100, 44, 0.04); }
+    14%   { box-shadow: 0 0 0 6px rgba(212, 162, 84, 0.00), 0 0 80px rgba(232, 100, 44, 0.10); }
+    24%   { box-shadow: 0 0 0 0 rgba(212, 162, 84, 0.06), 0 0 60px rgba(232, 100, 44, 0.06); }
+    38%   { box-shadow: 0 0 0 4px rgba(212, 162, 84, 0.00), 0 0 72px rgba(232, 100, 44, 0.08); }
+    100%  { box-shadow: 0 0 0 0 rgba(212, 162, 84, 0.10), 0 0 60px rgba(232, 100, 44, 0.04); }
+}
+@keyframes spiritual-heartbeat-text {
+    0%, 22%, 46%, 100% { text-shadow: 0 0 12px rgba(212, 162, 84, 0.14); }
+    12%               { text-shadow: 0 0 22px rgba(212, 162, 84, 0.28), 0 0 48px rgba(232, 100, 44, 0.12); }
+    34%               { text-shadow: 0 0 18px rgba(212, 162, 84, 0.22), 0 0 42px rgba(232, 100, 44, 0.10); }
+}
+@keyframes spiritual-heartbeat-ambient {
+    0%, 22%, 46%, 100% { opacity: 0.55; transform: translate(-50%, -50%) scale(1); }
+    12%               { opacity: 0.95; transform: translate(-50%, -50%) scale(1.04); }
+    34%               { opacity: 0.80; transform: translate(-50%, -50%) scale(1.02); }
+}
+
+/* Use on any card, quote, keepsake, or block element */
+.heartbeat {
+    animation: spiritual-heartbeat 3.4s ease-in-out infinite;
+    will-change: box-shadow;
+}
+.heartbeat-text {
+    animation: spiritual-heartbeat-text 3.4s ease-in-out infinite;
+}
+
+/* Host on <body> of a page to add a whole-page ambient pulse.
+   Places a soft, off-center gold/ember corona behind content
+   that breathes at a resting-heart cadence. */
+body.heartbeat-host { position: relative; }
+body.heartbeat-host::before {
+    content: '';
+    position: fixed;
+    top: 48%; left: 50%;
+    width: 90vmax; height: 90vmax;
+    pointer-events: none;
+    z-index: 0;
+    border-radius: 50%;
+    background: radial-gradient(circle at center,
+        rgba(232, 100, 44, 0.07) 0%,
+        rgba(212, 162, 84, 0.04) 28%,
+        rgba(10, 10, 15, 0.00) 62%);
+    filter: blur(18px);
+    transform: translate(-50%, -50%);
+    animation: spiritual-heartbeat-ambient 3.4s ease-in-out infinite;
+}
+body.heartbeat-host > nav,
+body.heartbeat-host > header,
+body.heartbeat-host > article,
+body.heartbeat-host > main,
+body.heartbeat-host > footer,
+body.heartbeat-host > div,
+body.heartbeat-host > section { position: relative; z-index: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+    .heartbeat,
+    .heartbeat-text,
+    body.heartbeat-host::before { animation: none !important; }
+}
+
+/* ============================================================
+   DEAD MAN VISUAL ARGUMENT — question-dead-man-visual.html
+   ------------------------------------------------------------
+   A scroll-driven tableau that proves Total Depravity by
+   staging the argument: a body on a slab, the four things
+   a corpse cannot do, the doors of every escape route
+   closing one by one, and finally the Voice that raises
+   the dead without asking. No pixel is decoration. Every
+   element carries a theological load.
+   ============================================================ */
+.dead-man-stage {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--space-7) var(--space-4);
+    color: var(--text-primary);
+}
+.dead-man-stage .stage-act {
+    margin: var(--space-8) 0;
+    padding: var(--space-6) var(--space-5);
+    border-radius: var(--radius-lg);
+    background: linear-gradient(180deg, rgba(18,18,26,0.55) 0%, rgba(10,10,15,0.85) 100%);
+    border: 1px solid var(--border-subtle);
+    position: relative;
+    overflow: hidden;
+}
+.dead-man-stage .act-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--accent-gold);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    margin-bottom: var(--space-3);
+    opacity: 0.85;
+}
+.dead-man-stage .act-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.6rem, 3.2vw, 2.2rem);
+    color: var(--text-bright);
+    margin-bottom: var(--space-4);
+    line-height: 1.2;
+}
+.dead-man-stage .act-body p { margin-bottom: var(--space-4); font-size: 1.05rem; }
+.dead-man-stage .act-body em { color: var(--accent-gold-bright); font-style: italic; }
+.dead-man-stage .act-body strong { color: var(--text-bright); }
+
+/* The slab — the visual anchor the eye keeps returning to */
+.dead-man-slab {
+    display: block;
+    margin: var(--space-5) auto;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+}
+.dead-man-slab .body-outline { stroke: var(--accent-gold); stroke-width: 1.6; fill: rgba(18,18,26,0.85); opacity: 0.78; }
+.dead-man-slab .slab-rect { fill: rgba(212,162,84,0.06); stroke: rgba(212,162,84,0.3); stroke-width: 1; }
+.dead-man-slab .body-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: var(--text-muted); letter-spacing: 0.18em; text-transform: uppercase; }
+.dead-man-slab .pulse-line { stroke: rgba(232,100,44,0.55); stroke-width: 1.3; fill: none; }
+
+/* Cannot-list — four nos that light up red */
+.dead-man-cannot {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-3);
+    margin: var(--space-5) 0;
+    padding: 0;
+}
+.dead-man-cannot li {
+    background: rgba(232, 100, 44, 0.05);
+    border: 1px solid rgba(232, 100, 44, 0.22);
+    border-radius: var(--radius-md);
+    padding: var(--space-4);
+    position: relative;
+    padding-left: 3rem;
+    color: var(--text-bright);
+    font-size: 1rem;
+}
+.dead-man-cannot li::before {
+    content: '✕';
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(232, 100, 44, 0.18);
+    color: var(--accent-ember);
+    font-weight: 700;
+    font-size: 0.9rem;
+    border: 1px solid rgba(232, 100, 44, 0.35);
+}
+.dead-man-cannot li .cannot-verse {
+    display: block;
+    margin-top: 0.35rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+}
+
+/* Escape-route doors — each objection gets a door, each door closes */
+.dead-man-doors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-3);
+    margin: var(--space-5) 0;
+}
+.dead-man-door {
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    padding: var(--space-4);
+    background: var(--bg-card);
+    position: relative;
+    overflow: hidden;
+    transition: border-color var(--transition-base), background var(--transition-base);
+}
+.dead-man-door .door-objection {
+    color: var(--accent-gold-bright);
+    font-style: italic;
+    font-size: 0.98rem;
+    display: block;
+    margin-bottom: var(--space-3);
+}
+.dead-man-door .door-answer {
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+.dead-man-door .door-stamp {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.8rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+    color: var(--accent-ember);
+    padding: 0.2rem 0.55rem;
+    border: 1px solid rgba(232, 100, 44, 0.35);
+    border-radius: var(--radius-pill);
+    text-transform: uppercase;
+    background: rgba(232, 100, 44, 0.08);
+}
+
+/* The Command — the turn of the argument */
+.dead-man-command {
+    margin: var(--space-6) auto;
+    padding: var(--space-7) var(--space-5);
+    text-align: center;
+    background: radial-gradient(ellipse at center, rgba(232,100,44,0.10) 0%, rgba(10,10,15,0) 65%);
+    border-top: 1px solid rgba(212,162,84,0.22);
+    border-bottom: 1px solid rgba(212,162,84,0.22);
+}
+.dead-man-command .command-whisper {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    margin-bottom: var(--space-4);
+}
+.dead-man-command .command-voice {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 6vw, 3.4rem);
+    line-height: 1.15;
+    color: var(--text-bright);
+    background: var(--gradient-gold-ember);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin: 0 auto;
+    max-width: 720px;
+}
+.dead-man-command .command-ref {
+    display: block;
+    margin-top: var(--space-4);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.2em;
+    color: var(--accent-gold);
+    text-transform: uppercase;
+}
+
+/* The Landing — tender catch at the end */
+.dead-man-landing {
+    margin: var(--space-7) 0 var(--space-5);
+    padding: var(--space-6) var(--space-5);
+    border-radius: var(--radius-lg);
+    background: linear-gradient(180deg, rgba(212,162,84,0.06) 0%, rgba(139,92,246,0.05) 100%);
+    border: 1px solid var(--border-medium);
+    text-align: center;
+}
+.dead-man-landing h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.6rem, 3.4vw, 2.1rem);
+    color: var(--text-bright);
+    margin-bottom: var(--space-4);
+}
+.dead-man-landing p { font-size: 1.05rem; max-width: 620px; margin: 0 auto var(--space-4); color: var(--text-primary); }
+
+@media (max-width: 640px) {
+    .dead-man-cannot { grid-template-columns: 1fr; }
+    .dead-man-stage .stage-act { padding: var(--space-5) var(--space-4); }
+}
