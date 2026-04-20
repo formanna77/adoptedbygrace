@@ -28,6 +28,13 @@
         // Already injected — idempotent.
         if (eyebrow.querySelector('.reading-time-badge')) return;
 
+        // Skip if the eyebrow (or any page-hero meta) already hardcodes "N min read" —
+        // several legacy story/devotional pages bake it straight into the eyebrow text.
+        // Double badges look like a design bug, so the auto-inject defers to the hardcoded one.
+        if (/\bmin\s+read\b/i.test(eyebrow.textContent || '')) return;
+        var heroMeta = document.querySelector('.page-hero .hero-meta, .page-hero .reading-time, .page-hero .article-reading-time, .page-hero .read-time');
+        if (heroMeta && /\bmin\s+read\b/i.test(heroMeta.textContent || '')) return;
+
         // Count visible words in the article body.
         const clone = body.cloneNode(true);
         // Strip scripts and style blocks so they don't count.

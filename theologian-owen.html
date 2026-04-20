@@ -658,28 +658,6 @@
         </div>
     </footer>
 
-  <script>
-    // Section navigation active state
-    document.querySelectorAll('.section-nav-link').forEach(link => {
-      link.addEventListener('click', function() {
-        document.querySelectorAll('.section-nav-link').forEach(l => l.classList.remove('active'));
-        this.classList.add('active');
-      });
-    });
-
-    // Scroll to section on load if hash present
-    window.addEventListener('load', function() {
-      if (window.location.hash) {
-        const target = document.querySelector(window.location.hash);
-        if (target) {
-          target.scrollIntoView({ behavior: 'smooth' });
-          const navLink = document.querySelector(`a[href="${window.location.hash}"]`);
-          if (navLink) navLink.classList.add('active');
-        }
-      }
-    });
-  </script>
-
 <script>
 (function(){var p=document.querySelector('.reading-progress');if(p){window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var s=window.scrollY;var w=h>0?Math.min((s/h)*100,100):0;p.style.width=w+'%';p.setAttribute('aria-valuenow',Math.round(w))},{passive:true})}})();
 </script>

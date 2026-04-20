@@ -156,9 +156,17 @@
         if (!hero) return;
 
         const cat = getBreadcrumbCategory();
-        // Get article title from h1 inside hero
+        // Get article title from h1 inside hero. Trim the breadcrumb label to
+        // the primary phrase before an em-dash / en-dash / colon / pipe —
+        // long headlines like "Your Brain Decides Before You Do — And That's
+        // Good News" wrap to 6+ lines in the crumb bar on mobile and clobber
+        // the visual rhythm. The full title still lives in the <h1>; the
+        // breadcrumb is a navigational aid, not a headline reprint.
         const h1 = hero.querySelector('h1');
-        const title = h1 ? (h1.textContent || '').trim() : document.title;
+        const fullTitle = h1 ? (h1.textContent || '').trim() : document.title;
+        let title = fullTitle.split(/\s+[—–\-\|:]\s+/)[0].trim();
+        // Cap at 60 chars even after segmentation as a safety net.
+        if (title.length > 60) title = title.slice(0, 57).replace(/\s+\S*$/, '') + '…';
 
         const nav = document.createElement('nav');
         nav.className = 'ux-breadcrumbs';

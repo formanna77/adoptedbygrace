@@ -68,8 +68,13 @@ html { scroll-behavior: smooth; }
 body { background: var(--bg-deep); color: var(--text-primary); font-family: 'Inter', sans-serif; line-height: 1.6; overflow-x: hidden; -webkit-text-size-adjust: 100%; padding-top: 50px; }
 body.hero-page { padding-top: 0; } /* Full-bleed hero pages override the nav offset */
 
-/* ===== NAVIGATION — ELEGANT THREE-ZONE BAR ===== */
-nav {
+/* ===== NAVIGATION — ELEGANT THREE-ZONE BAR =====
+   SCOPED to the main site nav only. A bare `nav { position: fixed }`
+   leaked onto injected <nav class="ux-breadcrumbs"> and
+   <nav class="series-nav"> elements, pinning them to top:0 and
+   overlapping the main nav bar. Scope with [aria-label="Main navigation"]
+   so only the top bar fixes to the viewport. */
+nav[aria-label="Main navigation"] {
     position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
     background: var(--nav-bg);
     -webkit-backdrop-filter: blur(24px) saturate(140%);
@@ -77,7 +82,7 @@ nav {
     border-bottom: 1px solid rgba(212, 162, 84, 0.14);
     transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
 }
-nav.scrolled {
+nav[aria-label="Main navigation"].scrolled {
     background: rgba(10, 10, 15, 0.96);
     border-bottom-color: rgba(212, 162, 84, 0.22);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
@@ -2797,7 +2802,11 @@ body {
     .content, .content-section, .page-hero,
     .hero, .cta-section, blockquote,
     .scripture-block, .pull-quote, .timeline { max-width: 100% !important; box-sizing: border-box !important; }
-    nav { padding: 0 !important; }
+    /* Scoped to the main site nav only. The bare `nav { padding: 0 }`
+       was stripping padding from injected <nav class="ux-breadcrumbs">
+       and <nav class="series-nav"> on mobile, collapsing their vertical
+       rhythm and gluing them to adjacent content. */
+    nav[aria-label="Main navigation"] { padding: 0 !important; }
 }
 
 /* ═══════════════════════════════════════════════════
@@ -7408,8 +7417,14 @@ body.heartbeat-host > section { position: relative; z-index: 1; }
    Reading-progress and skip-to-content CSS already exist above.
    ============================================================ */
 
-/* --- Universal Breadcrumbs --- */
-.ux-breadcrumbs {
+/* --- Universal Breadcrumbs ---
+   Defensive specificity: every `.ux-breadcrumbs` rule below is authored
+   with an explicit selector chain so content-body styles that paint
+   inline anchors (border-bottom underline, 1.05rem font-size, block
+   display) don't leak in when the breadcrumb is injected inside a
+   <main id="main-content"> or near other content containers. */
+.ux-breadcrumbs,
+nav.ux-breadcrumbs {
     max-width: 900px;
     margin: 0 auto;
     padding: 1rem 2rem 0;
@@ -7418,54 +7433,118 @@ body.heartbeat-host > section { position: relative; z-index: 1; }
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 1.4;
 }
-.ux-breadcrumbs-list {
+.ux-breadcrumbs .ux-breadcrumbs-list,
+nav.ux-breadcrumbs ol.ux-breadcrumbs-list {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0.35rem 0.45rem;
     align-items: center;
+    min-width: 0;
+    line-height: 1.4;
+    /* CRITICAL: the content-body rule `article ol, main ol, [class*="content"] ol`
+       (line ~2360) sets font-size:1.05rem on every <ol> inside <main>. Our breadcrumb
+       <ol> lives inside <main id="main-content"> on article pages, so that rule
+       inherits into <li> and <a> at 16.8px even though .ux-breadcrumbs sets 0.88rem.
+       nav.ux-breadcrumbs ol.ux-breadcrumbs-list specificity (0,0,2,2) beats
+       `main ol` (0,0,0,2) — so forcing font-size:inherit here lets the <ol> inherit
+       the correct size from its <nav class="ux-breadcrumbs"> parent. */
+    font-size: inherit;
 }
-.ux-breadcrumbs-list li {
+.ux-breadcrumbs .ux-breadcrumbs-list li {
     display: inline-flex;
     align-items: center;
     gap: 0.45rem;
+    min-width: 0;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
 }
-.ux-breadcrumbs a {
+.ux-breadcrumbs .ux-breadcrumbs-list li:last-child {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+.ux-breadcrumbs a,
+nav.ux-breadcrumbs a {
     color: var(--accent-gold);
     text-decoration: none;
-    border-bottom: none;
+    border-bottom: none !important;
     transition: color 0.15s;
+    display: inline;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0;
+    /* Prevent middle crumbs like "Anxious Mind" or "Golden Chain" from wrapping
+       on the space when a narrow viewport tightens the li. Breadcrumbs should
+       always render as one line; if a crumb is too long, the <ol> gets a
+       horizontal overflow rather than a 2-line list wreck. */
+    white-space: nowrap;
 }
 .ux-breadcrumbs a:hover,
 .ux-breadcrumbs a:focus-visible {
     color: var(--accent-ember);
     text-decoration: underline;
+    border-bottom: none !important;
 }
-.ux-breadcrumbs-sep {
+.ux-breadcrumbs .ux-breadcrumbs-sep {
     color: var(--border-medium, rgba(212, 162, 84, 0.35));
     font-weight: 300;
     user-select: none;
+    display: inline;
+    font-size: inherit;
+    line-height: inherit;
 }
-.ux-breadcrumbs-current {
+.ux-breadcrumbs .ux-breadcrumbs-current {
     color: var(--text-primary);
     font-weight: 500;
-    max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    display: inline-block;
-    vertical-align: bottom;
-    /* Allow the "current" crumb to wrap on narrow screens instead of clipping */
+    display: block;
+    min-width: 0;
+    max-width: 100%;
+    font-size: inherit;
+    line-height: inherit;
 }
 @media (max-width: 640px) {
-    .ux-breadcrumbs { padding: 0.75rem 1.25rem 0; font-size: 0.82rem; }
-    .ux-breadcrumbs-current {
-        white-space: normal;
-        text-overflow: clip;
-        max-width: 100%;
-    }
+    .ux-breadcrumbs,
+    nav.ux-breadcrumbs { padding: 0.75rem 1.25rem 0; font-size: 0.82rem; }
+    .ux-breadcrumbs .ux-breadcrumbs-list { gap: 0.35rem 0.4rem; }
+    /* Narrow viewports: keep the ellipsis strategy rather than wrapping.
+       Long headlines like "Your Brain Decides Before You Do — And That's
+       Good News" are already truncated to the primary phrase in JS, so the
+       ellipsis rarely fires in practice. Either way, one tidy line always
+       beats a 5-line mess mid-page. */
+    .ux-breadcrumbs .ux-breadcrumbs-current { white-space: nowrap; }
+}
+
+/* --- Tighten vertical rhythm when ux-breadcrumbs bridges hero and body ---
+   Without this, the gap between .page-hero and .article-body balloons because
+   the breadcrumb slides in AFTER the hero's already-generous padding-bottom
+   AND article-body's already-generous padding-top. The breadcrumb's visible
+   box is tiny (~40px) but the padding stack around it was tuned for when
+   these two elements sat flush. When present, collapse the surrounding pads
+   so hero → breadcrumb → body reads as a single elegant vertical flow. */
+.page-hero + .ux-breadcrumbs { padding-top: 0.5rem; }
+.ux-breadcrumbs + .article-body,
+.ux-breadcrumbs + article.article-body { padding-top: 2rem; }
+.page-hero:has(+ .ux-breadcrumbs) { padding-bottom: 2rem; }
+
+/* Mobile: tighten the hero→breadcrumb→article vertical stack so the gap
+   between the end of the hero and the first article element reads as one
+   graceful beat rather than a forest of negative space. Visual audit
+   flagged three long-title pages (history-augustine-pelagius,
+   anxious-mind-brain-decides, question-romans9) with gaps >220px from h1
+   bottom — actual rendered gap was ~90px, which is still a touch loud on a
+   small phone viewport where vertical pixels are precious. Shrinking the
+   article-body top pad + hero bottom pad trims that to ~68px. */
+@media (max-width: 640px) {
+    .ux-breadcrumbs + .article-body,
+    .ux-breadcrumbs + article.article-body { padding-top: 1.25rem; }
+    .page-hero:has(+ .ux-breadcrumbs) { padding-bottom: 1.25rem; }
 }
 
 /* --- BANNED: In-page jump-to / "On This Page" / section-nav ---
