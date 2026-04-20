@@ -56,39 +56,227 @@
             nav .nav-container { background: transparent !important; }
         }
 
-        /* ===== HERO ===== */
-        .hero { position: relative; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; overflow: hidden; }
+        /* ===== HERO — COMMAND CENTER ===== */
+        /* Redesigned 2026-04-19: the hero is no longer a full-screen scripture carousel.
+           It is now an immediate answer to three questions: Why am I here? What's here?
+           Where do I start? The rotating scripture is preserved but relegated to a
+           supporting role beneath the primary pathways and stats strip. */
+        .hero { position: relative; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; overflow: hidden; padding: 7rem 2rem 3rem; }
         #starfield { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; }
-        .hero-glow { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 800px; height: 800px; background: radial-gradient(circle, rgba(212, 162, 84, 0.06) 0%, rgba(139, 92, 246, 0.03) 40%, transparent 70%); border-radius: 50%; pointer-events: none; z-index: 1; animation: pulseGlow 6s ease-in-out infinite; }
-        @keyframes pulseGlow { 0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); } 50% { opacity: 1; transform: translate(-50%, -50%) scale(1.15); } }
+        .hero-glow { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 900px; height: 900px; background: radial-gradient(circle, rgba(212, 162, 84, 0.07) 0%, rgba(139, 92, 246, 0.035) 40%, transparent 70%); border-radius: 50%; pointer-events: none; z-index: 1; animation: pulseGlow 8s ease-in-out infinite; }
+        @keyframes pulseGlow { 0%, 100% { opacity: 0.55; transform: translate(-50%, -50%) scale(1); } 50% { opacity: 1; transform: translate(-50%, -50%) scale(1.12); } }
 
-        .hero-content { position: relative; z-index: 2; max-width: 900px; width: 100%; padding: 0 2rem; }
-        /* hero-eyebrow removed — Soli Deo Gloria was overlapping rotating text */
-        .hero-rotate-wrap { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; /* min-height set dynamically by JS to match tallest slide */ }
-        .hero-slide { position: absolute; width: 100%; text-align: center; opacity: 0; visibility: hidden; transform: translateY(18px); transition: opacity 0.7s ease, transform 0.7s ease, visibility 0s 0.7s; pointer-events: none; }
-        .hero-slide.active { opacity: 1; visibility: visible; transform: translateY(0); pointer-events: auto; transition: opacity 0.7s ease, transform 0.7s ease, visibility 0s 0s; }
-        .hero-slide.exit { opacity: 0; visibility: hidden; transform: translateY(-18px); }
-        .hero-title { font-family: 'Playfair Display', serif; font-size: 5rem; font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
-        .hero-title .gold { background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .hero .hero-verse { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.3rem; color: var(--text-muted); max-width: 650px; margin: 2rem auto 0.5rem; line-height: 1.8; }
-        .hero .hero-ref { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: #d4a254; letter-spacing: 0.15em; }
-        /* Progress bar under hero rotation */
-        .hero-progress { position: relative; width: 120px; height: 2px; background: rgba(212, 162, 84, 0.15); border-radius: 2px; margin: 1.5rem auto 0; overflow: hidden; opacity: 0; animation: fadeUp 1s ease 1.2s forwards; }
-        .hero-progress-bar { position: absolute; left: 0; top: 0; height: 100%; width: 0; background: var(--accent-gold); border-radius: 2px; }
-        .hero-progress-bar.running { animation: heroProgress var(--hero-interval, 4s) linear forwards; }
-        @keyframes heroProgress { from { width: 0; } to { width: 100%; } }
-        /* Initial entrance animation */
-        .hero-rotate-wrap { opacity: 0; animation: fadeUp 1.2s ease 0.6s forwards; }
-        .hero-ctas { display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap; margin-top: 3rem; opacity: 0; animation: fadeUp 1s ease 1.5s forwards; }
-        .btn-primary { display: inline-block; padding: 1.15rem 3rem; background: linear-gradient(135deg, var(--accent-gold), #b8860b); color: #1a1207; font-weight: 800; font-size: 1.15rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; letter-spacing: 0.05em; position: relative; overflow: hidden; box-shadow: 0 4px 25px rgba(212, 162, 84, 0.35), 0 0 60px rgba(212, 162, 84, 0.12); }
-        .btn-primary::after { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s ease; }
+        .hero-content { position: relative; z-index: 2; max-width: 1080px; width: 100%; }
+
+        /* Eyebrow — small gold-serifed stamp */
+        .hero-stamp {
+            display: inline-flex; align-items: center; gap: 0.8rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.45em;
+            color: var(--accent-ember);
+            margin-bottom: 1.8rem;
+            opacity: 0; animation: fadeUp 1s ease 0.25s forwards;
+        }
+        .hero-stamp::before, .hero-stamp::after {
+            content: ''; display: inline-block; width: 28px; height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent-gold));
+        }
+        .hero-stamp::after { background: linear-gradient(270deg, transparent, var(--accent-gold)); }
+
+        /* Primary static headline — the rock the eye anchors on */
+        .hero-headline {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(3.2rem, 7.5vw, 6.2rem);
+            font-weight: 900;
+            line-height: 1.02;
+            letter-spacing: -0.03em;
+            color: #f5eedc;
+            margin-bottom: 1.4rem;
+            opacity: 0; animation: fadeUp 1s ease 0.45s forwards;
+        }
+        .hero-headline .gold {
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+        }
+
+        /* Tagline — the value proposition in one breath */
+        .hero-tagline {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.15rem, 1.8vw, 1.45rem);
+            line-height: 1.55;
+            color: #b8b2a8;
+            max-width: 780px;
+            margin: 0 auto 2.6rem;
+            font-style: italic;
+            opacity: 0; animation: fadeUp 1s ease 0.6s forwards;
+        }
+        .hero-tagline strong { color: #e5ddce; font-weight: 600; font-style: normal; }
+
+        /* CTA row — three doorways */
+        .hero-ctas {
+            display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;
+            margin-bottom: 2.8rem;
+            opacity: 0; animation: fadeUp 1s ease 0.75s forwards;
+        }
+        .btn-primary {
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            padding: 1.1rem 2.4rem;
+            background: linear-gradient(135deg, var(--accent-gold), #b8860b);
+            color: #1a1207;
+            font-weight: 800; font-size: 1.02rem;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            letter-spacing: 0.04em;
+            position: relative; overflow: hidden;
+            box-shadow: 0 4px 25px rgba(212, 162, 84, 0.3), 0 0 60px rgba(212, 162, 84, 0.1);
+        }
+        .btn-primary::after {
+            content: ''; position: absolute; top: 0; left: -100%;
+            width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
+            transition: left 0.6s ease;
+        }
         .btn-primary:hover::after { left: 100%; }
-        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 10px 40px rgba(212, 162, 84, 0.5), 0 0 80px rgba(212, 162, 84, 0.15); }
-        .btn-secondary { display: inline-block; padding: 1rem 2.5rem; border: 2px solid var(--accent-gold); color: #f5eedc; font-weight: 700; font-size: 1rem; text-decoration: none; border-radius: 6px; transition: all 0.3s ease; text-shadow: 0 1px 2px rgba(0,0,0,0.3); }
-        .btn-secondary:hover { background: rgba(212, 162, 84, 0.15); border-color: var(--accent-gold); color: #f5eedc; transform: translateY(-2px); }
-        .scroll-indicator { position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); z-index: 2; opacity: 0; animation: fadeUp 1s ease 2s forwards; }
-        .scroll-arrow { width: 24px; height: 24px; border-right: 2px solid var(--accent-gold); border-bottom: 2px solid var(--accent-gold); transform: rotate(45deg); animation: bounceArrow 2s ease-in-out infinite; opacity: 0.5; }
-        @keyframes bounceArrow { 0%, 100% { transform: rotate(45deg) translateY(0); } 50% { transform: rotate(45deg) translateY(8px); } }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 40px rgba(212, 162, 84, 0.5), 0 0 80px rgba(212, 162, 84, 0.15);
+        }
+        .btn-secondary {
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            padding: 1.02rem 2.2rem;
+            border: 1.5px solid rgba(212, 162, 84, 0.55);
+            color: #f5eedc;
+            font-weight: 700; font-size: 1rem;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            background: rgba(212, 162, 84, 0.04);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+        }
+        .btn-secondary:hover {
+            background: rgba(212, 162, 84, 0.13);
+            border-color: var(--accent-gold);
+            color: #fff;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(212, 162, 84, 0.15);
+        }
+        .btn-tertiary {
+            display: inline-flex; align-items: center; gap: 0.4rem;
+            padding: 1.02rem 1.4rem;
+            color: #e5ddce;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.98rem; font-weight: 600;
+            text-decoration: none;
+            letter-spacing: 0.02em;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        .btn-tertiary::after {
+            content: ''; position: absolute;
+            left: 1.4rem; right: 1.4rem; bottom: 0.6rem;
+            height: 1px;
+            background: linear-gradient(90deg, var(--accent-ember), var(--accent-gold));
+            opacity: 0.6;
+            transition: opacity 0.3s ease;
+        }
+        .btn-tertiary:hover { color: var(--accent-gold); transform: translateY(-2px); }
+        .btn-tertiary:hover::after { opacity: 1; }
+        .btn-tertiary svg { width: 14px; height: 14px; transition: transform 0.3s ease; }
+        .btn-tertiary:hover svg { transform: translateX(3px); }
+
+        /* Rotating scripture — SMALL, supporting role beneath CTAs */
+        .hero-scripture {
+            position: relative;
+            min-height: 110px;
+            max-width: 720px;
+            margin: 0 auto 2.6rem;
+            padding: 0 1rem;
+            opacity: 0; animation: fadeUp 1s ease 0.9s forwards;
+        }
+        .hero-scripture-inner {
+            position: relative;
+            width: 100%;
+            min-height: 110px;
+        }
+        .hero-scripture-slide {
+            position: absolute; inset: 0;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.8s ease;
+            pointer-events: none;
+        }
+        .hero-scripture-slide.active { opacity: 1; pointer-events: auto; }
+        .hero-scripture-text {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: clamp(1rem, 1.4vw, 1.15rem);
+            line-height: 1.7;
+            color: #a8a298;
+            margin-bottom: 0.7rem;
+        }
+        .hero-scripture-text::before { content: '\201C'; color: var(--accent-gold); opacity: 0.5; margin-right: 0.15em; }
+        .hero-scripture-text::after { content: '\201D'; color: var(--accent-gold); opacity: 0.5; margin-left: 0.15em; }
+        .hero-scripture-ref {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.68rem;
+            letter-spacing: 0.25em;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+        }
+        .hero-scripture-dots {
+            display: flex; justify-content: center; gap: 0.4rem;
+            margin-top: 0.9rem;
+        }
+        .hero-scripture-dot {
+            width: 4px; height: 4px; border-radius: 50%;
+            background: rgba(212, 162, 84, 0.25);
+            transition: all 0.4s ease;
+            cursor: pointer; border: none; padding: 0;
+        }
+        .hero-scripture-dot.active {
+            background: var(--accent-gold);
+            width: 20px; border-radius: 4px;
+        }
+
+        /* Stats strip — proof of depth at a glance */
+        .hero-stats {
+            display: flex; align-items: center; justify-content: center;
+            gap: 2.5rem; flex-wrap: wrap;
+            padding: 1.8rem 0 0;
+            border-top: 1px solid rgba(212, 162, 84, 0.14);
+            max-width: 920px;
+            margin: 0 auto;
+            opacity: 0; animation: fadeUp 1s ease 1.05s forwards;
+        }
+        .hero-stat {
+            display: flex; flex-direction: column; align-items: center;
+            gap: 0.25rem;
+        }
+        .hero-stat-num {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.1rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+        }
+        .hero-stat-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.62rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+        }
+        .hero-stat-sep {
+            width: 1px; height: 38px;
+            background: linear-gradient(180deg, transparent, rgba(212, 162, 84, 0.35), transparent);
+        }
+
         @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
 
         /* ===== SECTION SHARED ===== */
@@ -96,6 +284,30 @@
         .explorer-eyebrow-wrapper .section-eyebrow { font-size: 0.95rem; margin-bottom: 0; }
         .section-title { font-family: 'Playfair Display', serif; font-size: 2.8rem; font-weight: 800; text-align: center; margin-bottom: 1rem; }
         .section-subtitle { text-align: center; color: var(--text-secondary); font-size: 1.05rem; max-width: 600px; margin: 0 auto 2rem; }
+
+        /* ===== FLAGSHIP INTERACTIVE EXPERIENCES ===== */
+        .flagship { padding: 5rem 2rem 2rem; position: relative; }
+        .flagship-header { text-align: center; max-width: 760px; margin: 0 auto 3rem; }
+        .flagship-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.35em; color: var(--accent-ember); margin-bottom: 1rem; }
+        .flagship-title { font-family: 'Playfair Display', serif; font-size: 2.4rem; font-weight: 800; line-height: 1.15; background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 1.2rem; }
+        .flagship-subtitle { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.6; }
+        .flagship-grid { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        .flagship-card { position: relative; display: flex; flex-direction: column; justify-content: space-between; min-height: 320px; padding: 2.2rem 2rem; border: 1px solid rgba(212, 162, 84, 0.28); border-radius: 14px; background: linear-gradient(135deg, rgba(212, 162, 84, 0.07) 0%, rgba(18, 18, 26, 0.95) 55%, rgba(232, 100, 44, 0.04) 100%); text-decoration: none; color: inherit; overflow: hidden; transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.4s ease, box-shadow 0.5s ease; }
+        .flagship-card::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 30% 20%, rgba(212, 162, 84, 0.12), transparent 60%); opacity: 0; transition: opacity 0.5s ease; pointer-events: none; }
+        .flagship-card::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--accent-gold), var(--accent-ember), transparent); opacity: 0.25; transition: opacity 0.4s ease; }
+        .flagship-card:hover { transform: translateY(-6px); border-color: rgba(212, 162, 84, 0.55); box-shadow: 0 18px 50px rgba(212, 162, 84, 0.18), 0 0 80px rgba(232, 100, 44, 0.08); }
+        .flagship-card:hover::before { opacity: 1; }
+        .flagship-card:hover::after { opacity: 0.8; }
+        .flagship-tag { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent-ember); margin-bottom: 0.9rem; position: relative; z-index: 1; }
+        .flagship-card h3 { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 800; line-height: 1.15; color: var(--accent-gold); margin-bottom: 0.9rem; position: relative; z-index: 1; }
+        .flagship-card p { color: var(--text-secondary); font-size: 0.98rem; line-height: 1.65; position: relative; z-index: 1; }
+        .flagship-scripture { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; letter-spacing: 0.12em; color: #9d7ff2; margin-top: 1rem; position: relative; z-index: 1; }
+        .flagship-cta { margin-top: 1.5rem; display: inline-flex; align-items: center; gap: 0.5rem; font-family: 'Inter', sans-serif; font-size: 0.9rem; font-weight: 700; letter-spacing: 0.03em; color: var(--accent-gold); transition: color 0.3s ease, gap 0.3s ease; position: relative; z-index: 1; }
+        .flagship-cta svg { width: 18px; height: 18px; transition: transform 0.3s ease; }
+        .flagship-card:hover .flagship-cta { color: var(--accent-ember); gap: 0.9rem; }
+        .flagship-card:hover .flagship-cta svg { transform: translateX(4px); }
+        @media (max-width: 1080px) { .flagship-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 780px) { .flagship-grid { grid-template-columns: 1fr; } .flagship-title { font-size: 1.8rem; } .flagship { padding: 3rem 1.5rem 1rem; } .flagship-card { min-height: auto; padding: 1.8rem 1.5rem; } .flagship-card h3 { font-size: 1.5rem; } }
 
         /* ===== CONTENT EXPLORER ===== */
         .content-explorer { padding: 0 2rem 6rem; position: relative; }
@@ -463,6 +675,135 @@ body {
 }
 
 /* Scroll reveal styles removed — animation eliminated */
+
+/* ===== CLOUD OF WITNESSES — era dividers & timeline polish (2026-04-19) ===== */
+.era-divider {
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+.era-divider:first-of-type { margin-top: 0; }
+.era-divider-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: var(--accent-gold);
+    margin: 0 0 0.3rem 0;
+    font-weight: 700;
+}
+.era-divider-subtitle {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    color: var(--accent-ember);
+    text-transform: uppercase;
+    display: block;
+}
+.timeline-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.timeline-quote {
+    font-style: italic;
+    color: var(--accent-ember);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    opacity: 0.88;
+    line-height: 1.5;
+}
+.timeline-chapter-marker.chapter-17 { font-size: 0.55rem; letter-spacing: 0.03em; }
+.timeline-chapter-marker.chapter-18 { font-size: 0.5rem; letter-spacing: 0.02em; }
+.cloud-witnesses-footer {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+.cloud-witnesses-footer .btn-secondary {
+    color: #f5eedc;
+}
+.timeline-section-padded {
+    padding-top: 1rem;
+}
+.discovery-section-spaced {
+    padding-top: 3rem;
+}
+.gradient-gold-ember-text {
+    background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+/* ===== CONTINUE YOUR JOURNEY — unified section wrapper (2026-04-19) ===== */
+.continue-journey {
+    padding: 6rem 2rem;
+    background: linear-gradient(180deg, rgba(212, 162, 84, 0.03) 0%, rgba(139, 92, 246, 0.04) 100%);
+    border-top: 1px solid rgba(212, 162, 84, 0.12);
+    border-bottom: 1px solid rgba(212, 162, 84, 0.12);
+    position: relative;
+    overflow: hidden;
+}
+.continue-journey::before {
+    content: '';
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 400px;
+    background: radial-gradient(ellipse, rgba(212, 162, 84, 0.08) 0%, transparent 70%);
+    pointer-events: none;
+}
+.continue-journey-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.continue-journey-header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+.continue-journey-eyebrow {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--accent-gold, #d4a254);
+    margin-bottom: 1rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid rgba(212, 162, 84, 0.3);
+    border-radius: 2px;
+    background: rgba(212, 162, 84, 0.05);
+}
+.continue-journey-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0 0 1rem;
+    background: linear-gradient(135deg, var(--accent-gold, #d4a254) 0%, var(--accent-ember, #e8642c) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.continue-journey-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+    color: var(--text-secondary, #c8c8d4);
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.55;
+}
+@media (max-width: 768px) {
+    .continue-journey { padding: 4rem 1.25rem; }
+    .continue-journey-header { margin-bottom: 2.5rem; }
+}
 </style>
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
@@ -560,30 +901,149 @@ body {
         <div class="search-results" id="searchResults"></div>
     </div>
 
-    <!-- Search overlay -->
-    <div class="search-overlay" id="searchOverlay">
-        <div class="search-overlay-inner">
-            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
-            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
-        </div>
-        <div class="search-results" id="searchResults"></div>
-    </div>
-
-    <!-- ===== HERO ===== -->
+    <!-- ===== HERO — COMMAND CENTER (rebuilt 2026-04-19) ===== -->
+    <!-- The hero now answers "Why am I here? What's here? Where do I start?"
+         in three seconds. Static headline + tagline + three doorways + rotating
+         scripture (now supporting role) + stats strip. -->
     <section class="hero">
         <canvas id="starfield"></canvas>
         <div class="hero-glow"></div>
         <div class="hero-content">
-            <div class="hero-rotate-wrap" aria-live="polite">
-                <!-- Slides are generated by JS from the heroSlides array -->
+            <div class="hero-stamp">Soli Deo Gloria</div>
+
+            <h1 class="hero-headline">Adopted by <span class="gold">Grace</span></h1>
+
+            <p class="hero-tagline">
+                You were chosen <strong>before the foundation of the world</strong> &mdash;
+                and every argument against that truth collapses under the weight of Scripture itself.
+            </p>
+
+            <div class="hero-ctas">
+                <a href="/start-here" class="btn-primary">
+                    Start Here
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+                </a>
+                <a href="/best-reads" class="btn-secondary">Best Reads</a>
+                <a href="/the-60-second-case" class="btn-tertiary">
+                    Try the 60-Second Case
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+                </a>
             </div>
 
-            <div class="hero-progress"><div class="hero-progress-bar"></div></div>
+            <div class="hero-scripture" aria-live="polite">
+                <div class="hero-scripture-inner">
+                    <!-- Slides populated by JS from heroSlides array -->
+                </div>
+                <div class="hero-scripture-dots" id="heroScriptureDots">
+                    <!-- Dots populated by JS -->
+                </div>
+            </div>
 
-            <!-- Hero CTAs removed by design -->
-
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-num">430+</span>
+                    <span class="hero-stat-label">Original Articles</span>
+                </div>
+                <div class="hero-stat-sep"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-num">15</span>
+                    <span class="hero-stat-label">Categories</span>
+                </div>
+                <div class="hero-stat-sep"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-num">8</span>
+                    <span class="hero-stat-label">Interactive Experiences</span>
+                </div>
+                <div class="hero-stat-sep"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-num">2,000</span>
+                    <span class="hero-stat-label">Years of Grace</span>
+                </div>
+            </div>
         </div>
-        <!-- scroll indicator removed by design -->
+    </section>
+
+    <!-- ===== FLAGSHIP INTERACTIVE EXPERIENCES ===== -->
+    <section class="flagship" aria-labelledby="flagship-title">
+        <div class="flagship-header">
+            <div class="flagship-eyebrow">Interactive · Step Into the Argument</div>
+            <h2 id="flagship-title" class="flagship-title">Truth You Can Walk Through</h2>
+            <p class="flagship-subtitle">Some truths are too important to leave in paragraph form. Pick a doorway — sixty seconds, one question, one chain of verbs — and let Scripture carry you into the room it's been describing all along.</p>
+        </div>
+        <div class="flagship-grid">
+            <a href="/the-60-second-case" class="flagship-card">
+                <div>
+                    <span class="flagship-tag">The 60-Second Case</span>
+                    <h3>One Minute. One Argument.</h3>
+                    <p>Six scroll-beats. A live timer. The entire Crown Jewel walked from its first innocent question to its freeing conclusion — in less time than it takes to make a coffee. If you have a minute, the argument has the rest of your life.</p>
+                    <div class="flagship-scripture">EPHESIANS 2:8–9 · 60 SECONDS</div>
+                </div>
+                <span class="flagship-cta">Start the Clock <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </a>
+            <a href="/fork-in-the-road" class="flagship-card">
+                <div>
+                    <span class="flagship-tag">The Crown Jewel</span>
+                    <h3>The Fork in the Road</h3>
+                    <p>One question. Two answers. No third path. Pick the one that matches what you actually believe — then watch the logic unfold. Every escape route has already been mapped before you reach it.</p>
+                    <div class="flagship-scripture">EPHESIANS 2:8–9</div>
+                </div>
+                <span class="flagship-cta">Walk the Fork <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </a>
+            <a href="/golden-chain" class="flagship-card">
+                <div>
+                    <span class="flagship-tag">Romans 8:29–30</span>
+                    <h3>The Golden Chain</h3>
+                    <p>Five verbs. All past tense. All with God as the subject and you as the object. Scroll down and watch the chain forge itself — foreknown, predestined, called, justified, glorified — link by link. The grammar of heaven has already been written.</p>
+                    <div class="flagship-scripture">ROMANS 8:29–30</div>
+                </div>
+                <span class="flagship-cta">Forge the Chain <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </a>
+            <a href="/the-scripture-cascade" class="flagship-card">
+                <div>
+                    <span class="flagship-tag">51 Passages</span>
+                    <h3>The Scripture Cascade</h3>
+                    <p>No commentary. No theologians. Just fifty-one verses falling one after another — total depravity through perseverance — until every escape route you were trained to find is buried under the text itself.</p>
+                    <div class="flagship-scripture">51 VERSES · 5 DOCTRINES · 0 EXITS</div>
+                </div>
+                <span class="flagship-cta">Start the Cascade <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </a>
+            <a href="/the-mirror" class="flagship-card">
+                <div>
+                    <span class="flagship-tag">12 Questions</span>
+                    <h3>The Mirror</h3>
+                    <p>Twelve questions you have never dared to ask yourself honestly. No theology quiz. No right answers. Just a slow, Scripture-lined mirror that shows you what you have always known and never said aloud.</p>
+                    <div class="flagship-scripture">ROMANS 3:10–12</div>
+                </div>
+                <span class="flagship-cta">Look In <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </a>
+            <a href="/the-objection-collapse" class="flagship-card">
+                <div>
+                    <span class="flagship-tag">Twelve Objections</span>
+                    <h3>The Objection Collapse</h3>
+                    <p>Every Arminian objection you have ever heard — "the world," "any perish," "whosoever will." Click one. Watch the four-step Scripture walkthrough collapse the claim from the inside.</p>
+                    <div class="flagship-scripture">JOHN 3:16 · 2 PETER 3:9 · 1 TIM 2:4</div>
+                </div>
+                <span class="flagship-cta">Collapse the Objection <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </a>
+            <a href="/the-two-arms" class="flagship-card">
+                <div>
+                    <span class="flagship-tag">Demolition + Devotion</span>
+                    <h3>The Two Arms</h3>
+                    <p>Every page that tears you down must hand you to a page that catches you. Demolition minus devotion equals despair. Devotion minus demolition equals complacency. Both together equals transformation. Here is the map.</p>
+                    <div class="flagship-scripture">EZEKIEL 37:5 · ROMANS 8:38–39</div>
+                </div>
+                <span class="flagship-cta">Walk Both Arms <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </a>
+            <a href="/the-breath-prayer" class="flagship-card">
+                <div>
+                    <span class="flagship-tag">Contemplative · Rest</span>
+                    <h3>The Breath Prayer</h3>
+                    <p>For the soul too tired to argue. A pulsing gold orb that expands with your inhale and contracts with your exhale, synced to the ancient Jesus Prayer and five more graces of sovereign love. Your body preaches what your mind has just heard.</p>
+                    <div class="flagship-scripture">LUKE 18:13 · PHILIPPIANS 1:6</div>
+                </div>
+                <span class="flagship-cta">Breathe <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </a>
+        </div>
     </section>
 
     <!-- ===== CONTENT EXPLORER — WHAT'S INSIDE ===== -->
@@ -592,7 +1052,7 @@ body {
             <h2 class="section-title">What's Inside</h2>
             <p class="section-subtitle">One truth. Hundreds of doorways. Scripture examined from every angle until there's nowhere left to hide.</p>
             <div class="explorer-total">
-                <span class="total-number" data-target="428">0</span>
+                <span class="total-number" data-target="430">0</span>
                 <span class="total-label">Original Articles &amp; Growing</span>
             </div>
         </div>
@@ -604,7 +1064,7 @@ body {
                 <span class="tile-desc">New? Begin your journey with a guided path</span>
             </a>
             <a href="/questions" class="explorer-tile">
-                <span class="tile-count" data-target="74">0</span>
+                <span class="tile-count" data-target="76">0</span>
                 <span class="tile-name">Scripture Questions</span>
                 <span class="tile-desc">Verse-by-verse answers to the hardest questions about salvation</span>
             </a>
@@ -715,11 +1175,11 @@ body {
     <section class="through-ages-section">
         <div class="reveal">
             <div class="section-eyebrow">Through the Ages</div>
-            <h2 class="section-title" style="background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">The Golden Thread</h2>
+            <h2 class="section-title gradient-gold-ember-text">The Golden Thread</h2>
             <p class="section-subtitle">2,000 years of sovereign grace — preserved through persecution, rediscovered in reformation, and proclaimed to this day. The truth was never invented. It was always there.</p>
         </div>
 
-        <div class="timeline-section" style="padding-top: 1rem;">
+        <div class="timeline-section timeline-section-padded">
             <div class="timeline-container">
                 <div class="timeline-line"></div>
                 <div class="timeline">
@@ -846,8 +1306,8 @@ body {
             </div>
         </div>
 
-        <div style="text-align: center; margin-top: 2rem; padding-bottom: 1rem;">
-            <a href="/history-timeline" class="btn-secondary" style="color: #f5eedc;">Explore the Full Timeline →</a>
+        <div class="cloud-witnesses-footer">
+            <a href="/history-timeline" class="btn-secondary">Explore the Full Timeline →</a>
         </div>
     </section>
 
@@ -855,244 +1315,223 @@ body {
     <section class="cloud-witnesses-section">
         <div class="reveal">
             <div class="section-eyebrow">The Cloud of Witnesses</div>
-            <h2 class="section-title" style="background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">The Men God Raised Up</h2>
+            <h2 class="section-title gradient-gold-ember-text">The Men God Raised Up</h2>
             <p class="section-subtitle">From Augustine's thundering defense against Pelagius to Spurgeon's fire from the Metropolitan Tabernacle — these are the voices that shaped the truths of grace. Their legacy endures.</p>
         </div>
 
-        <div class="timeline-section" style="padding-top: 1rem;">
+        <div class="timeline-section timeline-section-padded">
             <div class="timeline-container">
                 <div class="timeline-line"></div>
                 <div class="timeline">
 
-                    <div style="padding-bottom: 0.5rem; margin-bottom: 1rem;">
-                        <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin: 0 0 0.2rem 0;">The Patristic Era</h3>
-                        <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; color: var(--accent-ember); text-transform: uppercase;">4th–5th Century — When Grace Defeated Heresy</span>
-                    </div>
+                    <div class="era-divider"><h3 class="era-divider-title">The Patristic Era</h3><span class="era-divider-subtitle">4th–5th Century — When Grace Defeated Heresy</span></div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">I</div>
-                        <a href="/theologian-augustine" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">I</div>
+                        <a href="/theologian-augustine" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">354–430</div>
                             <h3>Augustine of Hippo</h3>
                             <p>The Doctor of Grace. Defeated Pelagianism by proving that salvation is God's work from beginning to end, and that man contributes nothing but rebellion.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"Give what You command, and command what You will."</div>
+                            <div class="timeline-quote">"Give what You command, and command what You will."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
-                    <div style="padding-bottom: 0.5rem; margin-bottom: 1rem; margin-top: 1rem;">
-                        <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin: 0 0 0.2rem 0;">The Medieval Witnesses</h3>
-                        <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; color: var(--accent-ember); text-transform: uppercase;">9th–14th Centuries — When Grace Survived a Thousand Years of Darkness</span>
-                    </div>
+                    <div class="era-divider"><h3 class="era-divider-title">The Medieval Witnesses</h3><span class="era-divider-subtitle">9th–14th Centuries — When Grace Survived a Thousand Years of Darkness</span></div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">II</div>
-                        <a href="/theologian-gottschalk" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">II</div>
+                        <a href="/theologian-gottschalk" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">808–868</div>
                             <h3>Gottschalk of Orbais</h3>
                             <p>The Imprisoned Prophet. Spent 20 years in chains rather than recant predestination. His suffering vindicated the Reformation five centuries before it came.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"I will not recant. To recant would be to call God a liar."</div>
+                            <div class="timeline-quote">"I will not recant. To recant would be to call God a liar."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">III</div>
-                        <a href="/theologian-anselm" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">III</div>
+                        <a href="/theologian-anselm" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1033–1109</div>
                             <h3>Anselm of Canterbury</h3>
                             <p>The Father of Scholasticism. Proved God's sovereignty through reason and defended the satisfaction theory of atonement — faith seeking understanding.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"Faith seeking understanding" — fides quaerens intellectum</div>
+                            <div class="timeline-quote">"Faith seeking understanding" — fides quaerens intellectum</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">IV</div>
-                        <a href="/theologian-bradwardine" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">IV</div>
+                        <a href="/theologian-bradwardine" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">c.1300–1349</div>
                             <h3>Thomas Bradwardine</h3>
                             <p>The Profound Doctor. Oxford mathematician who demolished the New Pelagians. Archbishop for 40 days before the Black Death took him.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"God is not a co-worker with human will; He is the author of it."</div>
+                            <div class="timeline-quote">"God is not a co-worker with human will; He is the author of it."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">V</div>
-                        <a href="/theologian-wycliffe" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">V</div>
+                        <a href="/theologian-wycliffe" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">c.1320s–1384</div>
                             <h3>John Wycliffe</h3>
                             <p>The Morning Star of the Reformation. Gave England the Bible in its own language and taught that the true church is the elect alone. They burned his bones 44 years later.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"The Church is the totality of those predestined to blessedness."</div>
+                            <div class="timeline-quote">"The Church is the totality of those predestined to blessedness."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
-                    <div style="padding-bottom: 0.5rem; margin-bottom: 1rem; margin-top: 1rem;">
-                        <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin: 0 0 0.2rem 0;">The Reformation</h3>
-                        <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; color: var(--accent-ember); text-transform: uppercase;">16th Century — The Recovery of Scripture</span>
-                    </div>
+                    <div class="era-divider"><h3 class="era-divider-title">The Reformation</h3><span class="era-divider-subtitle">16th Century — The Recovery of Scripture</span></div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">VI</div>
-                        <a href="/theologian-luther" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">VI</div>
+                        <a href="/theologian-luther" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1483–1546</div>
                             <h3>Martin Luther</h3>
                             <p>The Hammer of Rome. The man who shook Christendom by proving that Rome's system was not Christianity. His "Bondage of the Will" stands as one of the greatest treatises on human depravity.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"Here I stand; I can do no other. God help me."</div>
+                            <div class="timeline-quote">"Here I stand; I can do no other. God help me."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">VII</div>
-                        <a href="/theologian-calvin" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">VII</div>
+                        <a href="/theologian-calvin" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1509–1564</div>
                             <h3>John Calvin</h3>
                             <p>The Theologian of the Holy Spirit. The brilliant systematizer who organized Reformed theology into the Institutes — a masterwork that defined the truths of grace for centuries.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"We are not our own; therefore neither our reason nor our will should predominate."</div>
+                            <div class="timeline-quote">"We are not our own; therefore neither our reason nor our will should predominate."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">VIII</div>
-                        <a href="/theologian-arminius" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">VIII</div>
+                        <a href="/theologian-arminius" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1559–1609</div>
                             <h3>Jacobus Arminius</h3>
                             <p>The Man Behind the Movement. The theologian whose well-intentioned errors spawned the greatest heresy against grace in the modern church. Examined here not to condemn, but to dismantle.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"Know your adversary — not to hate him, but to dismantle him."</div>
+                            <div class="timeline-quote">"Know your adversary — not to hate him, but to dismantle him."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
-                    <div style="padding-bottom: 0.5rem; margin-bottom: 1rem; margin-top: 1rem;">
-                        <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin: 0 0 0.2rem 0;">The Puritan Era</h3>
-                        <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; color: var(--accent-ember); text-transform: uppercase;">17th Century — Grace Applied to the Soul</span>
-                    </div>
+                    <div class="era-divider"><h3 class="era-divider-title">The Puritan Era</h3><span class="era-divider-subtitle">17th Century — Grace Applied to the Soul</span></div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">IX</div>
-                        <a href="/theologian-owen" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">IX</div>
+                        <a href="/theologian-owen" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1616–1683</div>
                             <h3>John Owen</h3>
                             <p>The Theologian's Theologian. His "Death of Death in the Death of Christ" remains the definitive defense of definite atonement. Profound, unstoppable, devastating.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"Be killing sin, or it will be killing you."</div>
+                            <div class="timeline-quote">"Be killing sin, or it will be killing you."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">X</div>
-                        <a href="/theologian-boston" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">X</div>
+                        <a href="/theologian-boston" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1676–1732</div>
                             <h3>Thomas Boston</h3>
                             <p>The Marrow Theologian. The Scottish pastor who recovered a lost jewel — the Marrow of Modern Divinity — and sparked a revival of grace-centered preaching across Scotland.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"Grace found us beggars but always leaves us debtors."</div>
+                            <div class="timeline-quote">"Grace found us beggars but always leaves us debtors."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">XI</div>
-                        <a href="/theologian-bunyan" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">XI</div>
+                        <a href="/theologian-bunyan" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1628–1688</div>
                             <h3>John Bunyan</h3>
                             <p>The Tinker of Bedford. The unlettered tinker who wrote the most famous allegory in Christian history. His "Pilgrim's Progress" taught the truths of grace to millions.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"Far better news the gospel brings: it bids us fly and gives us wings."</div>
+                            <div class="timeline-quote">"Far better news the gospel brings: it bids us fly and gives us wings."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
-                    <div style="padding-bottom: 0.5rem; margin-bottom: 1rem; margin-top: 1rem;">
-                        <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin: 0 0 0.2rem 0;">The Great Awakening</h3>
-                        <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; color: var(--accent-ember); text-transform: uppercase;">18th Century — When God Shook Two Continents</span>
-                    </div>
+                    <div class="era-divider"><h3 class="era-divider-title">The Great Awakening</h3><span class="era-divider-subtitle">18th Century — When God Shook Two Continents</span></div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">XII</div>
-                        <a href="/theologian-edwards" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">XII</div>
+                        <a href="/theologian-edwards" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1703–1758</div>
                             <h3>Jonathan Edwards</h3>
                             <p>America's Greatest Theologian. His works on the will, affections, and revival shaped the Great Awakening and remain the standard for Reformed theology of the human will.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"The happiness of the creature consists in rejoicing in God."</div>
+                            <div class="timeline-quote">"The happiness of the creature consists in rejoicing in God."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">XIII</div>
-                        <a href="/theologian-whitefield" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">XIII</div>
+                        <a href="/theologian-whitefield" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1714–1770</div>
                             <h3>George Whitefield</h3>
                             <p>The Grand Itinerant. The fiery revivalist who proclaimed Reformed theology to tens of thousands across the Atlantic. His sermons still burn with conviction.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"I embrace the Calvinistic scheme, not because Calvin, but Jesus Christ has taught it to me."</div>
+                            <div class="timeline-quote">"I embrace the Calvinistic scheme, not because Calvin, but Jesus Christ has taught it to me."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
-                    <div style="padding-bottom: 0.5rem; margin-bottom: 1rem; margin-top: 1rem;">
-                        <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin: 0 0 0.2rem 0;">The Victorian Era</h3>
-                        <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; color: var(--accent-ember); text-transform: uppercase;">19th Century — Grace From the Pulpit</span>
-                    </div>
+                    <div class="era-divider"><h3 class="era-divider-title">The Victorian Era</h3><span class="era-divider-subtitle">19th Century — Grace From the Pulpit</span></div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">XIV</div>
-                        <a href="/theologian-spurgeon" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">XIV</div>
+                        <a href="/theologian-spurgeon" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1834–1892</div>
                             <h3>Charles Haddon Spurgeon</h3>
                             <p>The Prince of Preachers. From the Metropolitan Tabernacle, he proclaimed the truths of grace to thousands every week with unmatched power, clarity, and fire.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"There is no such thing as preaching Christ and Him crucified, unless we preach what nowadays is called Calvinism."</div>
+                            <div class="timeline-quote">"There is no such thing as preaching Christ and Him crucified, unless we preach what nowadays is called Calvinism."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
-                    <div style="padding-bottom: 0.5rem; margin-bottom: 1rem; margin-top: 1rem;">
-                        <h3 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent-gold); margin: 0 0 0.2rem 0;">The Modern Defenders</h3>
-                        <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; color: var(--accent-ember); text-transform: uppercase;">20th–21st Century — The Recovery and Resurgence of Grace</span>
-                    </div>
+                    <div class="era-divider"><h3 class="era-divider-title">The Modern Defenders</h3><span class="era-divider-subtitle">20th–21st Century — The Recovery and Resurgence of Grace</span></div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">XV</div>
-                        <a href="/theologian-warfield" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">XV</div>
+                        <a href="/theologian-warfield" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1851–1921</div>
                             <h3>B.B. Warfield</h3>
                             <p>The Lion of Princeton. The last great defender of Old Princeton theology, whose scholarship on inerrancy and Calvinism held the line against liberalism when the entire academic world was caving.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"Calvinism is just religion in its purity. We have only as much religion as we have of God."</div>
+                            <div class="timeline-quote">"Calvinism is just religion in its purity. We have only as much religion as we have of God."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.65rem; letter-spacing: 0.05em;">XVI</div>
-                        <a href="/theologian-machen" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker">XVI</div>
+                        <a href="/theologian-machen" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1881–1937</div>
                             <h3>J. Gresham Machen</h3>
                             <p>The Warrior Scholar. When Princeton fell to liberalism, Machen did not compromise — he founded Westminster Seminary and proved that Christianity and liberalism are two entirely different religions.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"What is today a matter of academic speculation begins tomorrow to move armies and pull down empires."</div>
+                            <div class="timeline-quote">"What is today a matter of academic speculation begins tomorrow to move armies and pull down empires."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.55rem; letter-spacing: 0.03em;">XVII</div>
-                        <a href="/theologian-lloydjones" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker chapter-17">XVII</div>
+                        <a href="/theologian-lloydjones" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1899–1981</div>
                             <h3>Martyn Lloyd-Jones</h3>
                             <p>The Doctor. The Welsh physician who left medicine to preach at Westminster Chapel for 30 years. His expository power revived Reformed theology in Britain and reminded the world that doctrine is fire, not ice.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"The chief end of preaching is to give men and women a sense of God and His presence."</div>
+                            <div class="timeline-quote">"The chief end of preaching is to give men and women a sense of God and His presence."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
 
                     <div class="timeline-item">
-                        <div class="timeline-chapter-marker" style="font-size: 0.5rem; letter-spacing: 0.02em;">XVIII</div>
-                        <a href="/theologian-sproul" class="timeline-card" style="display: block; text-decoration: none; color: inherit; cursor: pointer;">
+                        <div class="timeline-chapter-marker chapter-18">XVIII</div>
+                        <a href="/theologian-sproul" class="timeline-card timeline-card-link">
                             <div class="timeline-era-label">1939–2017</div>
                             <h3>R.C. Sproul</h3>
                             <p>The People's Theologian. Through Ligonier Ministries, he brought Reformed theology out of the seminary and into the living room. He made sovereignty accessible, beautiful, and unavoidable for millions.</p>
-                            <div style="font-style: italic; color: var(--accent-ember); font-size: 0.85rem; margin-bottom: 1rem; opacity: 0.85;">"Everyone's a theologian. The question is whether you're a good one or a bad one."</div>
+                            <div class="timeline-quote">"Everyone's a theologian. The question is whether you're a good one or a bad one."</div>
                             <span class="timeline-link">Read his story →</span>
                         </a>
                     </div>
@@ -1101,9 +1540,7 @@ body {
             </div>
         </div>
 
-        <div style="text-align: center; margin-top: 2rem; padding-bottom: 1rem;">
-            <a href="/theologians" class="btn-secondary" style="color: #f5eedc;">Meet the Full Cloud of Witnesses →</a>
-        </div>
+        <div class="cloud-witnesses-footer"><a href="/theologians" class="btn-secondary">Meet the Full Cloud of Witnesses →</a></div>
     </section>
 
     <!-- ===== SPOTLIGHT: ARTICLES YOU MIGHT HAVE MISSED ===== -->
@@ -1124,7 +1561,7 @@ body {
     </section>
 
     <!-- ===== RECENTLY ADDED ===== -->
-    <section class="discovery-section" id="recentSection" style="padding-top: 3rem;">
+    <section class="discovery-section discovery-section-spaced" id="recentSection">
         <div class="discovery-inner">
             <div class="discovery-header">
                 <h2>Fresh Off the <span class="gold">Press</span></h2>
@@ -1143,34 +1580,68 @@ body {
         </div>
     </section>
 
-    <!-- Cross-Reference Section -->
-    <section class="section" style="padding: 4rem 2rem; background: linear-gradient(135deg, rgba(218,165,32,0.05), rgba(139,92,246,0.05)); border-top: 1px solid rgba(218,165,32,0.1);">
-        <div style="max-width: 900px; margin: 0 auto;">
-            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; color: #daa520; margin-bottom: 1.5rem; text-align: center;">Continue Your Journey</h3>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem;">
-                <a href="/start-here" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Start Here</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">A guided path from honest questions to life-changing answers about who God really is.</p>
+    <!-- ===== CONTINUE YOUR JOURNEY — unified hub-card system (rebuilt 2026-04-19) ===== -->
+    <section class="continue-journey">
+        <div class="continue-journey-inner">
+            <div class="continue-journey-header">
+                <span class="continue-journey-eyebrow">Six Doorways</span>
+                <h2 class="continue-journey-title">Continue Your Journey</h2>
+                <p class="continue-journey-subtitle">Wherever you are right now &mdash; curious, wounded, skeptical, hungry &mdash; one of these doors is for you.</p>
+            </div>
+            <div class="hub-grid">
+                <a href="/start-here" class="hub-card">
+                    <div class="card-number">01</div>
+                    <h3 class="card-title">Start Here</h3>
+                    <p class="card-description">A guided path from honest questions to life-changing answers about who God really is.</p>
+                    <div class="card-meta">For the Newcomer</div>
+                    <div class="card-footer">
+                        <span class="card-read">Begin <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
                 </a>
-                <a href="/questions" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">The Evidence</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The Bible's own answers to the hardest questions about salvation, free will, and divine sovereignty.</p>
+                <a href="/questions" class="hub-card">
+                    <div class="card-number">02</div>
+                    <h3 class="card-title">The Evidence</h3>
+                    <p class="card-description">The Bible's own answers to the hardest questions about salvation, free will, and divine sovereignty.</p>
+                    <div class="card-meta">For the Skeptic</div>
+                    <div class="card-footer">
+                        <span class="card-read">Investigate <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
                 </a>
-                <a href="/scripture-tsunami" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Scripture Tsunami</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Hundreds of verses — an avalanche of biblical testimony that leaves no room for doubt about who holds salvation in His hands.</p>
+                <a href="/scripture-tsunami" class="hub-card">
+                    <div class="card-number">03</div>
+                    <h3 class="card-title">Scripture Tsunami</h3>
+                    <p class="card-description">Hundreds of verses &mdash; an avalanche of biblical testimony that leaves no room for doubt about who holds salvation in His hands.</p>
+                    <div class="card-meta">For the Honest Reader</div>
+                    <div class="card-footer">
+                        <span class="card-read">Drown in Grace <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
                 </a>
-                <a href="/systematic-theology" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Systematic Theology</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">The full theological framework — every truth interlocking like a cathedral built to display one magnificent God.</p>
+                <a href="/systematic-theology" class="hub-card">
+                    <div class="card-number">04</div>
+                    <h3 class="card-title">Systematic Theology</h3>
+                    <p class="card-description">The full theological framework &mdash; every truth interlocking like a cathedral built to display one magnificent God.</p>
+                    <div class="card-meta">For the Builder</div>
+                    <div class="card-footer">
+                        <span class="card-read">Build the Cathedral <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
                 </a>
-                <a href="/devotionals" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Devotionals</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Where truth catches fire and truth becomes worship. Two-minute reads that will echo in your soul for days.</p>
+                <a href="/devotionals" class="hub-card">
+                    <div class="card-number">05</div>
+                    <h3 class="card-title">Rest in Grace</h3>
+                    <p class="card-description">Where truth catches fire and theology becomes worship. Short reads that will echo in your soul for days.</p>
+                    <div class="card-meta">For the Weary</div>
+                    <div class="card-footer">
+                        <span class="card-read">Rest <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
                 </a>
-                <a href="/stories" style="display: block; padding: 1.2rem 1.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(218,165,32,0.15); border-radius: 12px; text-decoration: none; transition: all 0.3s ease;">
-                    <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #daa520; margin-bottom: 0.4rem;">Stories & Parables</h4>
-                    <p style="font-size: 0.9rem; color: #b0b0b0; margin: 0; line-height: 1.4;">Original parables and narratives that illuminate sovereign grace through the lens of human experience.</p>
+                <a href="/stories" class="hub-card">
+                    <div class="card-number">06</div>
+                    <h3 class="card-title">Stories &amp; Parables</h3>
+                    <p class="card-description">Original parables and narratives that illuminate sovereign grace through the lens of human experience.</p>
+                    <div class="card-meta">For the Imagination</div>
+                    <div class="card-footer">
+                        <span class="card-read">Listen <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                    </div>
                 </a>
             </div>
         </div>
@@ -1256,152 +1727,74 @@ body {
         }
     })();
 
-    // ===== ROTATING HERO SLIDES =====
+    // ===== ROTATING HERO SCRIPTURE (supporting role beneath CTAs) =====
+    // Rebuilt 2026-04-19: slim rotating verse strip with clickable dots.
+    // The hero's primary content (headline, CTAs, stats) is now static.
+    // The rotating scripture cycles every 7 seconds without dominating the eye.
     (function() {
-        const INTERVAL = 8000; // ms per slide — give readers time to absorb each verse
-        const heroSlides = [
-            {
-                title: 'Before the world began,<br><span class="gold">He chose you.</span>',
-                verse: 'He chose us in Him before the creation of the world, that we should be holy and blameless before Him.',
-                ref: 'Ephesians 1:4'
-            },
-            {
-                title: 'You did not choose Him.<br><span class="gold">He chose you.</span>',
-                verse: 'You did not choose me, but I chose you and appointed you so that you might go and bear fruit.',
-                ref: 'John 15:16'
-            },
-            {
-                title: 'Dead in sin.<br><span class="gold">Made alive by God.</span>',
-                verse: 'As for you, you were dead in your transgressions and sins... But God, being rich in mercy, made us alive together with Christ.',
-                ref: 'Ephesians 2:1,4\u20135'
-            },
-            {
-                title: 'No one can come to the Father<br><span class="gold">unless He draws them.</span>',
-                verse: 'No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day.',
-                ref: 'John 6:44'
-            },
-            {
-                title: 'Salvation belongs<br><span class="gold">to the Lord.</span>',
-                verse: 'Salvation belongs to the LORD! Your blessing be on your people!',
-                ref: 'Psalm 3:8'
-            },
-            {
-                title: 'He who began a good work<br><span class="gold">will finish it.</span>',
-                verse: 'He who began a good work in you will bring it to completion at the day of Jesus Christ.',
-                ref: 'Philippians 1:6'
-            },
-            {
-                title: 'Not by works,<br><span class="gold">but by grace.</span>',
-                verse: 'He saved us, not because of righteous things we had done, but because of his mercy.',
-                ref: 'Titus 3:5'
-            },
-            {
-                title: 'My sheep hear my voice.<br><span class="gold">No one can snatch them.</span>',
-                verse: 'I give them eternal life, and they will never perish, and no one will snatch them out of my hand.',
-                ref: 'John 10:28'
-            },
-            {
-                title: 'All that the Father gives me<br><span class="gold">will come to me.</span>',
-                verse: 'All those the Father gives me will come to me, and whoever comes to me I will never drive away.',
-                ref: 'John 6:37'
-            },
-            {
-                title: 'From Him, through Him,<br><span class="gold">to Him are all things.</span>',
-                verse: 'For from him and through him and to him are all things. To him be glory forever. Amen.',
-                ref: 'Romans 11:36'
-            },
-            {
-                title: 'Known before you were formed.<br><span class="gold">Called before you were born.</span>',
-                verse: 'Before I formed you in the womb I knew you, and before you were born I consecrated you.',
-                ref: 'Jeremiah 1:5'
-            },
-            {
-                title: 'It does not depend<br><span class="gold">on human will or effort.</span>',
-                verse: 'So it does not, therefore, depend on human desire or effort, but on God\'s mercy.',
-                ref: 'Romans 9:16'
-            },
-            {
-                title: 'He removes the heart of stone.<br><span class="gold">He gives a heart of flesh.</span>',
-                verse: 'I will give you a new heart, and a new spirit I will put within you. I will remove the heart of stone and give you a heart of flesh.',
-                ref: 'Ezekiel 36:26'
-            },
-            {
-                title: 'Those He foreknew,<br><span class="gold">He also predestined.</span>',
-                verse: 'For those whom he foreknew he also predestined to be conformed to the image of his Son.',
-                ref: 'Romans 8:29'
-            },
-            {
-                title: 'The golden chain<br><span class="gold">cannot be broken.</span>',
-                verse: 'And those whom he predestined he also called, and those whom he called he also justified, and those whom he justified he also glorified.',
-                ref: 'Romans 8:30'
-            }
+        const INTERVAL = 7000;
+        const heroVerses = [
+            { text: 'He chose us in Him before the creation of the world, that we should be holy and blameless before Him.', ref: 'Ephesians 1:4' },
+            { text: 'You did not choose me, but I chose you and appointed you so that you might go and bear fruit.', ref: 'John 15:16' },
+            { text: 'No one can come to me unless the Father who sent me draws them, and I will raise them up at the last day.', ref: 'John 6:44' },
+            { text: 'For it is by grace you have been saved, through faith \u2014 and this is not from yourselves, it is the gift of God.', ref: 'Ephesians 2:8' },
+            { text: 'I give them eternal life, and they shall never perish; no one will snatch them out of my hand.', ref: 'John 10:28' },
+            { text: 'He who began a good work in you will carry it on to completion until the day of Christ Jesus.', ref: 'Philippians 1:6' },
+            { text: 'For those whom he foreknew he also predestined to be conformed to the image of his Son.', ref: 'Romans 8:29' },
+            { text: 'It does not, therefore, depend on human desire or effort, but on God\'s mercy.', ref: 'Romans 9:16' },
+            { text: 'I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh.', ref: 'Ezekiel 36:26' },
+            { text: 'Salvation belongs to the LORD! Your blessing be on your people!', ref: 'Psalm 3:8' },
+            { text: 'For from him and through him and for him are all things. To him be the glory forever! Amen.', ref: 'Romans 11:36' }
         ];
 
-        const wrap = document.querySelector('.hero-rotate-wrap');
-        const progressBar = document.querySelector('.hero-progress-bar');
-        if (!wrap) return;
+        const inner = document.querySelector('.hero-scripture-inner');
+        const dotsContainer = document.getElementById('heroScriptureDots');
+        if (!inner || !dotsContainer) return;
 
-        // Build all slide elements
-        heroSlides.forEach((s, i) => {
-            const div = document.createElement('div');
-            div.className = 'hero-slide' + (i === 0 ? ' active' : '');
-            div.innerHTML = `
-                <h1 class="hero-title">${s.title}</h1>
-                <p class="hero-verse">\u201c${s.verse}\u201d</p>
-                <p class="hero-ref">\u2014 ${s.ref}</p>
-            `;
-            wrap.appendChild(div);
+        // Build slides
+        heroVerses.forEach((v, i) => {
+            const slide = document.createElement('div');
+            slide.className = 'hero-scripture-slide' + (i === 0 ? ' active' : '');
+            slide.innerHTML = '<p class="hero-scripture-text">' + v.text + '</p><p class="hero-scripture-ref">\u2014 ' + v.ref + '</p>';
+            inner.appendChild(slide);
         });
 
+        // Build dots (cap at 7 to keep visual restraint)
+        const dotCount = Math.min(heroVerses.length, 7);
+        for (let i = 0; i < dotCount; i++) {
+            const dot = document.createElement('button');
+            dot.className = 'hero-scripture-dot' + (i === 0 ? ' active' : '');
+            dot.setAttribute('aria-label', 'Show verse ' + (i + 1));
+            dot.dataset.index = i;
+            dot.addEventListener('click', () => goTo(i, true));
+            dotsContainer.appendChild(dot);
+        }
+
+        const slides = inner.querySelectorAll('.hero-scripture-slide');
+        const dots = dotsContainer.querySelectorAll('.hero-scripture-dot');
         let current = 0;
-        const slides = wrap.querySelectorAll('.hero-slide');
+        let timer;
 
-        // Dynamically size container to tallest slide — prevents ALL overlap at every screen size
-        function sizeWrap() {
-            let maxH = 0;
-            slides.forEach(s => {
-                // Temporarily make visible and flow-positioned to measure natural height
-                const prevPos = s.style.position;
-                const prevOp = s.style.opacity;
-                const prevVis = s.style.visibility;
-                s.style.position = 'relative';
-                s.style.opacity = '0';
-                s.style.visibility = 'hidden';
-                const h = s.offsetHeight;
-                s.style.position = prevPos;
-                s.style.opacity = prevOp;
-                s.style.visibility = prevVis;
-                if (h > maxH) maxH = h;
-            });
-            wrap.style.minHeight = (maxH + 20) + 'px'; // 20px breathing room
-        }
-        sizeWrap();
-        window.addEventListener('resize', sizeWrap);
-
-        // Set CSS variable for progress bar timing
-        document.documentElement.style.setProperty('--hero-interval', INTERVAL + 'ms');
-
-        function startProgress() {
-            if (!progressBar) return;
-            progressBar.classList.remove('running');
-            void progressBar.offsetWidth; // reflow
-            progressBar.classList.add('running');
+        function goTo(idx, manual) {
+            if (idx === current) return;
+            slides[current].classList.remove('active');
+            slides[idx].classList.add('active');
+            // Dots only reflect first dotCount slides; map evenly
+            const dotIdx = Math.min(idx, dotCount - 1);
+            dots.forEach(d => d.classList.remove('active'));
+            if (dots[dotIdx]) dots[dotIdx].classList.add('active');
+            current = idx;
+            if (manual) restart();
         }
 
-        function nextSlide() {
-            const prev = current;
-            current = (current + 1) % slides.length;
-            slides[prev].classList.remove('active');
-            slides[prev].classList.add('exit');
-            slides[current].classList.add('active');
-            // Clean up exit class after transition
-            setTimeout(() => slides[prev].classList.remove('exit'), 700);
-            startProgress();
+        function next() {
+            goTo((current + 1) % slides.length, false);
         }
 
-        // Start
-        startProgress();
-        setInterval(nextSlide, INTERVAL);
+        function start() { timer = setInterval(next, INTERVAL); }
+        function restart() { clearInterval(timer); start(); }
+
+        start();
     })();
     </script>
 
@@ -1512,5 +1905,8 @@ body {
     loadSpotlight();
     loadRecent();
     </script>
+    <script defer src="/reading-time.js"></script>
+    <script defer src="/scripture-niv.js"></script>
+    <script defer src="/scripture-popups.js"></script>
 </body>
 </html>

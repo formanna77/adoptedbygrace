@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 60-Second Case — The Whole Argument, One Minute | Adopted by Grace</title>
+    <meta name="description" content="Sixty seconds. Six moves. One question that dismantles every works-based gospel hiding inside a grace-based vocabulary. If you'll give the argument a minute, it will give you the rest of your life.">
+    <meta name="keywords" content="Crown Jewel, faith is a gift, Ephesians 2:8-9, 60-second case, sovereign grace, works righteousness, monergism, Socratic, election, adopted by grace">
+    <meta property="og:title" content="The 60-Second Case — The Whole Argument, One Minute">
+    <meta property="og:description" content="Sixty seconds. Six moves. One question that ends the hiding. Walk the logic.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/the-60-second-case">
+    <link rel="canonical" href="https://adoptedbygrace.net/the-60-second-case">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        /* ────────────────────────────────────────────────────────
+           THE 60-SECOND CASE — scrollytelling Crown Jewel in 60s.
+           Inline CSS permitted for interactive widgets (per CLAUDE.md).
+           All colors use the canonical site variables.
+           ──────────────────────────────────────────────────────── */
+
+        body { overflow-x: hidden; }
+
+        /* ─── PROGRESS METER (sticky top) ─── */
+        .sixty-meter {
+            position: fixed;
+            top: var(--nav-height, 68px);
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: rgba(212, 162, 84, 0.12);
+            z-index: 40;
+            pointer-events: none;
+        }
+        .sixty-meter-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
+            box-shadow: 0 0 12px rgba(212, 162, 84, 0.6);
+            transition: width 0.08s linear;
+        }
+        .sixty-meter-label {
+            position: fixed;
+            top: calc(var(--nav-height, 68px) + 10px);
+            right: 1.5rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.2em;
+            color: var(--accent-gold);
+            z-index: 40;
+            text-transform: uppercase;
+            opacity: 0.82;
+            pointer-events: none;
+            background: rgba(10, 10, 15, 0.6);
+            padding: 0.3rem 0.65rem;
+            border-radius: 999px;
+            backdrop-filter: blur(6px);
+        }
+        @media (max-width: 760px) {
+            .sixty-meter-label { font-size: 0.62rem; right: 0.85rem; }
+        }
+
+        /* ─── HERO ─── */
+        .sixty-hero {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 7rem 1.5rem 4rem;
+            text-align: center;
+        }
+        .sixty-hero .eyebrow {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            letter-spacing: 0.28em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.35);
+        }
+        .sixty-title {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(2.4rem, 6vw, 4.5rem);
+            line-height: 1.05;
+            margin: 1.75rem 0 1rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -0.02em;
+        }
+        .sixty-sub {
+            color: var(--text-secondary);
+            font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+            line-height: 1.75;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        .sixty-begin {
+            margin-top: 3rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.65rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.78rem;
+            letter-spacing: 0.25em;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+        .sixty-begin-arrow {
+            display: inline-block;
+            animation: sixtyBounce 2.2s ease-in-out infinite;
+            color: var(--accent-gold);
+        }
+        @keyframes sixtyBounce {
+            0%, 100% { transform: translateY(0); opacity: 0.7; }
+            50%      { transform: translateY(6px); opacity: 1; }
+        }
+
+        /* ─── BEATS (scrollytelling sections) ─── */
+        .sixty-stage {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .beat {
+            min-height: 82vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 4rem 0;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 1.1s ease, transform 1.1s ease;
+        }
+        .beat.in-view {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .beat-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 0.3em;
+            color: var(--accent-gold);
+            opacity: 0.75;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .beat-headline {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(1.9rem, 4.6vw, 3.4rem);
+            line-height: 1.15;
+            color: var(--text-primary);
+            margin: 0 0 1.5rem;
+            letter-spacing: -0.015em;
+        }
+
+        .beat-headline .accent {
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .beat-body {
+            color: var(--text-secondary);
+            font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+            line-height: 1.8;
+            margin-bottom: 1.25rem;
+        }
+
+        .beat-body em {
+            color: var(--accent-gold);
+            font-style: italic;
+            font-weight: 500;
+        }
+
+        .beat-body strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* ─── SCRIPTURE REVEAL BLOCK ─── */
+        .beat-scripture {
+            margin: 2rem 0;
+            padding: 2rem 2.25rem;
+            border-left: 3px solid var(--accent-gold);
+            background: linear-gradient(90deg, rgba(212, 162, 84, 0.07), transparent);
+            border-radius: 0 10px 10px 0;
+        }
+        .beat-scripture-text {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(1.2rem, 2.2vw, 1.55rem);
+            line-height: 1.55;
+            color: var(--text-primary);
+            font-style: italic;
+            margin: 0 0 0.9rem;
+        }
+        .beat-scripture-text .key {
+            color: var(--accent-gold);
+            font-weight: 600;
+            font-style: normal;
+            text-decoration: underline;
+            text-decoration-color: rgba(212, 162, 84, 0.5);
+            text-decoration-thickness: 2px;
+            text-underline-offset: 4px;
+        }
+        .beat-scripture-ref {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.78rem;
+            letter-spacing: 0.22em;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+        }
+
+        /* ─── FORK VIZ (inline mini-fork for Beat 4) ─── */
+        .beat-fork {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 640px) {
+            .beat-fork { grid-template-columns: 1fr; }
+        }
+        .beat-fork-option {
+            padding: 1.5rem 1.5rem;
+            border: 1px solid rgba(212, 162, 84, 0.28);
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.06), rgba(232, 100, 44, 0.02));
+            border-radius: 12px;
+            transition: all 0.4s ease;
+        }
+        .beat-fork-option:hover {
+            border-color: rgba(212, 162, 84, 0.55);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(212, 162, 84, 0.15);
+        }
+        .beat-fork-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            letter-spacing: 0.22em;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            margin-bottom: 0.75rem;
+        }
+        .beat-fork-claim {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: 1.15rem;
+            color: var(--text-primary);
+            line-height: 1.45;
+        }
+
+        /* ─── CONSEQUENCE BLOCKS (Beat 5) ─── */
+        .beat-consequence {
+            margin-top: 1.75rem;
+            padding: 1.25rem 1.5rem;
+            border-left: 2px solid var(--accent-ember);
+            background: rgba(232, 100, 44, 0.04);
+            border-radius: 0 8px 8px 0;
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+        .beat-consequence strong {
+            color: var(--accent-ember);
+        }
+
+        /* ─── REST BLOCK (Beat 6) ─── */
+        .beat-rest {
+            margin-top: 1.75rem;
+            padding: 2rem 2.25rem;
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.12), rgba(232, 100, 44, 0.05));
+            border: 1px solid rgba(212, 162, 84, 0.35);
+            border-radius: 14px;
+            text-align: center;
+            box-shadow: 0 8px 40px rgba(212, 162, 84, 0.12);
+        }
+        .beat-rest-line {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(1.25rem, 2.4vw, 1.7rem);
+            line-height: 1.45;
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+        }
+        .beat-rest-line:last-child { margin-bottom: 0; }
+        .beat-rest-line em {
+            font-style: italic;
+            color: var(--accent-gold);
+            font-weight: 500;
+        }
+
+        /* ─── CATCH ARM (final CTA) ─── */
+        .sixty-catch {
+            max-width: 860px;
+            margin: 2rem auto 6rem;
+            padding: 0 1.5rem;
+        }
+        .sixty-catch-headline {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(2rem, 4.8vw, 3.2rem);
+            text-align: center;
+            color: var(--text-primary);
+            line-height: 1.2;
+            margin-bottom: 1.25rem;
+        }
+        .sixty-catch-headline em {
+            font-style: italic;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .sixty-catch-sub {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            max-width: 620px;
+            margin: 0 auto 3rem;
+        }
+
+        .sixty-catch-doors {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.25rem;
+        }
+        .sixty-door {
+            display: block;
+            padding: 1.75rem 1.75rem;
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.08), rgba(232, 100, 44, 0.03));
+            border: 1px solid rgba(212, 162, 84, 0.3);
+            border-radius: 12px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.35s cubic-bezier(0.2, 0.7, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        .sixty-door::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 50% 0%, rgba(212, 162, 84, 0.15), transparent 60%);
+            opacity: 0;
+            transition: opacity 0.4s;
+            pointer-events: none;
+        }
+        .sixty-door:hover::before { opacity: 1; }
+        .sixty-door:hover {
+            border-color: rgba(212, 162, 84, 0.65);
+            transform: translateY(-4px);
+            box-shadow: 0 14px 40px rgba(212, 162, 84, 0.2);
+        }
+        .sixty-door-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.22em;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            margin-bottom: 0.85rem;
+            display: block;
+        }
+        .sixty-door-title {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: 1.3rem;
+            color: var(--text-primary);
+            line-height: 1.3;
+            margin-bottom: 0.6rem;
+        }
+        .sixty-door-note {
+            color: var(--text-muted);
+            font-size: 0.92rem;
+            line-height: 1.55;
+        }
+
+        /* ─── ACCESSIBILITY ─── */
+        @media (prefers-reduced-motion: reduce) {
+            .beat,
+            .sixty-begin-arrow,
+            .sixty-door {
+                transition: none;
+                animation: none;
+                opacity: 1;
+                transform: none;
+            }
+            .sixty-meter-fill { transition: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/theologians">Theologians</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/theologians" class="nav-top-link">Theologians</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- Progress meter (scroll-linked) -->
+    <div class="sixty-meter" aria-hidden="true"><div class="sixty-meter-fill" id="sixtyMeterFill"></div></div>
+    <div class="sixty-meter-label" id="sixtyMeterLabel">0 of 60 seconds</div>
+
+    <!-- HERO -->
+    <header class="sixty-hero page-hero">
+        <span class="eyebrow">Interactive · The Whole Argument In 60 Seconds</span>
+        <h1 class="sixty-title">The 60-Second Case</h1>
+        <p class="sixty-sub">
+            Sixty seconds. Six moves. One question you've probably never asked.
+            If you'll give the argument a minute, it may give you the rest of your life.
+        </p>
+        <div class="sixty-begin">
+            <span>Scroll to begin</span>
+            <span class="sixty-begin-arrow" aria-hidden="true">↓</span>
+        </div>
+    </header>
+
+    <article class="article-body sixty-stage">
+
+        <!-- BEAT 1: AFFIRMATION (0–10s) -->
+        <section class="beat" data-beat="1" data-seconds="10">
+            <div class="beat-number">Second 00–10 · The Common Ground</div>
+            <h2 class="beat-headline">You love Jesus. You chose to follow Him. <span class="accent">Good.</span></h2>
+            <p class="beat-body">
+                Something real happened to you. A day, a moment, a conversation, a quiet night when it all finally
+                broke through. You heard the gospel and you said <em>yes</em>. And from that day until now, you have
+                walked with Him in the best way you know how.
+            </p>
+            <p class="beat-body">
+                None of that is about to be attacked. Your love for Christ is not in question.
+                Your testimony is not in question. Your sincerity is not in question.
+            </p>
+            <p class="beat-body">
+                One question is.
+            </p>
+        </section>
+
+        <!-- BEAT 2: THE QUESTION (10–20s) -->
+        <section class="beat" data-beat="2" data-seconds="20">
+            <div class="beat-number">Second 10–20 · The Question You've Never Asked</div>
+            <h2 class="beat-headline">Where did the <span class="accent">faith</span> to choose Him come from?</h2>
+            <p class="beat-body">
+                Not the gospel. We know where the <em>gospel</em> came from &mdash; it came from God, preached through
+                men, carried by the Spirit through two thousand years of church history to land in your ear.
+            </p>
+            <p class="beat-body">
+                The question is smaller and sharper: <strong>where did the faith come from?</strong>
+                The trust. The capacity to say <em>yes</em> when every other voice inside you said no.
+                The spiritual sight to see a crucified carpenter and know He was God.
+                That particular part. Where did <em>that</em> come from?
+            </p>
+            <p class="beat-body">
+                Most people have never stopped to ask.
+            </p>
+        </section>
+
+        <!-- BEAT 3: SCRIPTURE REVEAL (20–30s) -->
+        <section class="beat" data-beat="3" data-seconds="30">
+            <div class="beat-number">Second 20–30 · What Paul Actually Says</div>
+            <h2 class="beat-headline">The answer is in <span class="accent">one verse you've read a hundred times.</span></h2>
+            <p class="beat-body">
+                Look carefully. Don't read past the second clause the way everyone does.
+            </p>
+            <div class="beat-scripture">
+                <p class="beat-scripture-text">
+                    &ldquo;For it is by grace you have been saved, <span class="key">through faith</span>
+                    &mdash; and <span class="key">this is not from yourselves</span>,
+                    <span class="key">it is the gift of God</span> &mdash;
+                    not by works, so that no one can boast.&rdquo;
+                </p>
+                <div class="beat-scripture-ref"><a href="/question-faithgift">Ephesians 2:8</a>–9</div>
+            </div>
+            <p class="beat-body">
+                The grammar is unambiguous. &ldquo;This&rdquo; refers to the nearest available referent:
+                <em>the faith</em>. And Paul says <strong>that</strong> &mdash; not the gospel, not the grace, but the
+                faith itself &mdash; <strong>is not from yourselves</strong>. It is <em>the gift of God</em>.
+            </p>
+            <p class="beat-body">
+                You did not manufacture it. You received it.
+            </p>
+        </section>
+
+        <!-- BEAT 4: THE FORK (30–40s) -->
+        <section class="beat" data-beat="4" data-seconds="40">
+            <div class="beat-number">Second 30–40 · Only Two Answers Exist</div>
+            <h2 class="beat-headline">So <a href="/question-where-did-your-faith-come-from">where did your faith come from</a>? <span class="accent">Pick one.</span></h2>
+            <p class="beat-body">
+                There is no third option. You either received it as a gift, or you generated it yourself.
+                The universe does not offer door number three.
+            </p>
+
+            <div class="beat-fork">
+                <div class="beat-fork-option">
+                    <div class="beat-fork-label">Option A — <a href="/compare-monergism-synergism">Monergism</a></div>
+                    <div class="beat-fork-claim">
+                        God caused my faith. He opened my eyes. He gave me the power to believe.
+                        The yes in my heart was His gift before it was my choice.
+                    </div>
+                </div>
+                <div class="beat-fork-option">
+                    <div class="beat-fork-label">Option B — <a href="/compare-monergism-synergism">Synergism</a></div>
+                    <div class="beat-fork-claim">
+                        I activated my faith. God offered; I accepted.
+                        The <em>yes</em> in my heart was mine to give or withhold.
+                        My decision was the deciding factor.
+                    </div>
+                </div>
+            </div>
+
+            <p class="beat-body" style="margin-top: 2rem;">
+                Option A makes Paul's sentence read naturally. Option B requires you to explain away
+                &ldquo;this is not from yourselves.&rdquo; But set the grammar aside for one more move.
+                The real weight of the fork shows up next.
+            </p>
+        </section>
+
+        <!-- BEAT 5: OPTION B EXPOSED (40–50s) -->
+        <section class="beat" data-beat="5" data-seconds="50">
+            <div class="beat-number">Second 40–50 · Follow Option B All The Way Down</div>
+            <h2 class="beat-headline">If <span class="accent">you</span> did it, then <span class="accent">you</span> are the decisive factor.</h2>
+            <p class="beat-body">
+                You believe God did 99% of the work. The cross, the Spirit, the call, the conviction &mdash; all Him.
+                The 1% He left you was the decision itself. A small thing, you say. Just a yes.
+            </p>
+            <p class="beat-body">
+                But think about what that 1% actually is. Your neighbor got offered the same 99% and said no.
+                You said yes. The <em>only</em> variable between heaven and hell in that comparison is the 1%.
+                So that 1% is <strong>the decisive factor</strong>. The thing that made all the difference.
+                The thing that separated the saved from the damned.
+            </p>
+            <div class="beat-consequence">
+                <strong>If the decisive factor was yours, the decisive factor was a work.</strong>
+                And a faith that is a work is not grace. And what is not grace
+                <em>cannot save</em> &mdash; because Paul closes the same sentence by saying the whole point of it being
+                a gift is &ldquo;so that <strong>no one can boast</strong>.&rdquo;
+            </div>
+            <p class="beat-body">
+                This is why the fork matters. Option B looks like humility, and feels like humility,
+                and sings like humility &mdash; but if you follow it all the way down, it is the oldest, proudest claim in
+                the universe: <em>I am the hero of my salvation story.</em>
+            </p>
+        </section>
+
+        <!-- BEAT 6: THE REST (50–60s) -->
+        <section class="beat" data-beat="6" data-seconds="60">
+            <div class="beat-number">Second 50–60 · The Rest That Was Waiting For You</div>
+            <h2 class="beat-headline">If <span class="accent">God</span> did it, then <span class="accent">God</span> finishes it.</h2>
+            <p class="beat-body">
+                Follow Option A all the way down and the world turns soft.
+                If your faith was a gift, then <em>the Giver chose to give it to you</em>.
+                He was not responding to something He saw in you. He was not rewarding
+                a decision you almost didn't make. He chose you before the foundation of the world,
+                opened your eyes in the fullness of time, and gave you the yes that was already His.
+            </p>
+            <p class="beat-body">
+                Which means &mdash; and here is the part that breaks people in the best possible way &mdash;
+                you cannot lose this. A gift you did not earn, you cannot un-earn.
+                A yes He put inside you, you cannot reverse.
+                A grip He closed on your soul before your parents met, your trembling fingers cannot open.
+            </p>
+            <div class="beat-rest">
+                <div class="beat-rest-line">You were <em>held</em> all along.</div>
+                <div class="beat-rest-line">You are <em>held</em> right now.</div>
+                <div class="beat-rest-line">You will be <em>held</em> when your hands finally let go.</div>
+            </div>
+            <p class="beat-body" style="margin-top: 2rem;">
+                That is the 60-second case. That is the whole argument. If it scared you, good.
+                If it freed you, better. Either way, you're not leaving the same way you came.
+                Below are three doors. Walk through whichever one the Spirit is already pulling you toward.
+            </p>
+        </section>
+    </article>
+
+    <!-- CATCH ARM -->
+    <section class="sixty-catch" aria-labelledby="catch-headline">
+        <h2 id="catch-headline" class="sixty-catch-headline">
+            Three <em>doors</em> &mdash; pick the one that scares you less.
+        </h2>
+        <p class="sixty-catch-sub">
+            If the argument shook something loose, don't be alone with it. Walk through one of these.
+        </p>
+        <div class="sixty-catch-doors">
+            <a href="/devotional-never-gives-up" class="sixty-door">
+                <span class="sixty-door-label">Door 1 · Rest</span>
+                <div class="sixty-door-title">The God Who Never Gives Up</div>
+                <p class="sixty-door-note">
+                    For the reader whose walls just fell and needs to feel
+                    the arms catching them. Start here if you need the comfort first.
+                </p>
+            </a>
+            <a href="/fork-in-the-road" class="sixty-door">
+                <span class="sixty-door-label">Door 2 · Think</span>
+                <div class="sixty-door-title">The Fork In The Road</div>
+                <p class="sixty-door-note">
+                    A longer, more interactive version of the same Crown Jewel argument &mdash;
+                    with the two paths traced to their logical ends.
+                </p>
+            </a>
+            <a href="/golden-chain" class="sixty-door">
+                <span class="sixty-door-label">Door 3 · Marvel</span>
+                <div class="sixty-door-title">The Golden Chain</div>
+                <p class="sixty-door-note">
+                    Romans 8:29–30, forged link by link as you scroll. Five verbs.
+                    All past tense. All about what God has already done.
+                </p>
+            </a>
+            <a href="/question-faithgift" class="sixty-door">
+                <span class="sixty-door-label">Door 4 · Prove</span>
+                <div class="sixty-door-title">Is Faith A Gift, Biblically?</div>
+                <p class="sixty-door-note">
+                    The full exegetical case &mdash; every major verse,
+                    every common objection, every grammatical argument.
+                </p>
+            </a>
+            <a href="/devotional-chosen-before-you-were-broken" class="sixty-door">
+                <span class="sixty-door-label">Door 5 · Heal</span>
+                <div class="sixty-door-title">Chosen Before You Were Broken</div>
+                <p class="sixty-door-note">
+                    A devotional for the reader whose history feels too ruined to be rescued.
+                    Spoiler: it isn't, and it wasn't.
+                </p>
+            </a>
+            <a href="/best-reads" class="sixty-door">
+                <span class="sixty-door-label">Door 6 · Explore</span>
+                <div class="sixty-door-title">The Best Reads</div>
+                <p class="sixty-door-note">
+                    The strongest pages on the whole site, curated.
+                    Come back to this when you have more than a minute.
+                </p>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Adopted by Grace</h3>
+                <p>Proving the doctrines of grace from every angle — Scripture, psychology, philosophy, history, and testimony — until every reader finds their doorway home.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Truth</h3>
+                <ul>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/psychology-hub">Why We Resist</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Rest</h3>
+                <ul>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/stories">Stories &amp; Analogies</a></li>
+                    <li><a href="/pastoral-hub">Pastoral</a></li>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Journey</h3>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/the-60-second-case">The 60-Second Case</a></li>
+                    <li><a href="/fork-in-the-road">The Fork In The Road</a></li>
+                    <li><a href="/golden-chain">The Golden Chain</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script>
+        /* ────────────────────────────────────────────────────────
+           60-SECOND CASE — scroll meter + beat reveal.
+           ──────────────────────────────────────────────────────── */
+        (function () {
+            'use strict';
+
+            const beats = document.querySelectorAll('.beat');
+            const meterFill = document.getElementById('sixtyMeterFill');
+            const meterLabel = document.getElementById('sixtyMeterLabel');
+
+            // Scroll-linked progress meter. Pins to scroll through the 6-beat article.
+            const stage = document.querySelector('.sixty-stage');
+            const catchArm = document.querySelector('.sixty-catch');
+
+            function updateMeter() {
+                if (!stage || !catchArm || !meterFill) return;
+                const stageTop = stage.getBoundingClientRect().top + window.scrollY;
+                // Finish line = top of catch-arm section (after beat 6).
+                const catchTop = catchArm.getBoundingClientRect().top + window.scrollY;
+                const denom = Math.max(1, catchTop - stageTop);
+                const raw = (window.scrollY + window.innerHeight * 0.5 - stageTop) / denom;
+                const pct = Math.max(0, Math.min(1, raw));
+                const seconds = Math.round(pct * 60);
+                meterFill.style.width = (pct * 100).toFixed(2) + '%';
+                if (meterLabel) {
+                    meterLabel.textContent = seconds + ' of 60 seconds';
+                }
+            }
+
+            let ticking = false;
+            function onScroll() {
+                if (ticking) return;
+                ticking = true;
+                requestAnimationFrame(() => {
+                    updateMeter();
+                    ticking = false;
+                });
+            }
+
+            window.addEventListener('scroll', onScroll, { passive: true });
+            window.addEventListener('resize', onScroll);
+            updateMeter();
+
+            // Intersection-triggered beat reveal.
+            if ('IntersectionObserver' in window) {
+                const io = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('in-view');
+                            io.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
+
+                beats.forEach(b => io.observe(b));
+            } else {
+                beats.forEach(b => b.classList.add('in-view'));
+            }
+        })();
+    </script>
+    <script defer src="/reading-time.js"></script>
+    <script defer src="/scripture-niv.js"></script>
+    <script defer src="/scripture-popups.js"></script>
+</body>
+</html>

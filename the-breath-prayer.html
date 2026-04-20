@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Breath Prayer | Adopted by Grace</title>
+    <meta name="description" content="A guided contemplative prayer synced to your breathing. The ancient Jesus Prayer — inhaled as mercy, exhaled as surrender — for souls that need to rest in grace.">
+    <link rel="canonical" href="https://adoptedbygrace.net/the-breath-prayer">
+    <meta property="og:title" content="The Breath Prayer — Rest in Grace With Every Breath">
+    <meta property="og:description" content="A guided contemplative prayer synced to your breathing. For souls that need to rest in grace.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/the-breath-prayer">
+    <meta name="keywords" content="jesus prayer, breath prayer, contemplative prayer, rest in grace, sovereign grace devotional, mercy prayer, reformed contemplative">
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        /* ============================================================
+           THE BREATH PRAYER — A CONTEMPLATIVE LANDING ZONE
+           Scoped CSS only. Uses global.css variables.
+           ============================================================ */
+
+        .breath-hero {
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 8rem 2rem 4rem;
+            background: radial-gradient(ellipse at center, rgba(212, 162, 84, 0.08) 0%, rgba(10, 10, 15, 0) 70%);
+            border-bottom: 1px solid rgba(212, 162, 84, 0.15);
+        }
+
+        .breath-hero .eyebrow {
+            display: inline-block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+            opacity: 0.85;
+        }
+
+        .breath-hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 300;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            max-width: 900px;
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-ember) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .breath-hero-subtitle {
+            font-size: 1.25rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            max-width: 680px;
+            margin: 0 auto 2rem;
+            font-weight: 300;
+        }
+
+        .breath-hero-invite {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            opacity: 0.75;
+        }
+
+        /* ——— THE BREATH ORB ——— */
+        .breath-stage {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .breath-orb-container {
+            position: relative;
+            width: min(420px, 80vw);
+            height: min(420px, 80vw);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 3rem;
+        }
+
+        .breath-orb {
+            position: absolute;
+            inset: 25%;
+            border-radius: 50%;
+            background: radial-gradient(circle at 35% 30%, rgba(212, 162, 84, 0.9) 0%, rgba(232, 100, 44, 0.6) 45%, rgba(212, 162, 84, 0.15) 100%);
+            box-shadow:
+                0 0 80px rgba(212, 162, 84, 0.35),
+                0 0 40px rgba(232, 100, 44, 0.25),
+                inset 0 0 60px rgba(255, 200, 120, 0.25);
+            transition: inset 4s cubic-bezier(0.4, 0, 0.6, 1), box-shadow 4s ease;
+        }
+
+        .breath-orb.inhale {
+            inset: 5%;
+            box-shadow:
+                0 0 140px rgba(212, 162, 84, 0.55),
+                0 0 80px rgba(232, 100, 44, 0.4),
+                inset 0 0 100px rgba(255, 200, 120, 0.4);
+        }
+
+        .breath-orb.exhale {
+            inset: 30%;
+            box-shadow:
+                0 0 60px rgba(212, 162, 84, 0.25),
+                0 0 30px rgba(232, 100, 44, 0.15),
+                inset 0 0 40px rgba(255, 200, 120, 0.15);
+        }
+
+        .breath-orb.hold {
+            transition: inset 1s ease, box-shadow 1s ease;
+        }
+
+        .breath-ring {
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            pointer-events: none;
+        }
+
+        .breath-ring.outer { animation: ripple 8s ease-out infinite; }
+        .breath-ring.mid { animation: ripple 8s ease-out infinite; animation-delay: 2s; }
+        .breath-ring.inner { animation: ripple 8s ease-out infinite; animation-delay: 4s; }
+
+        @keyframes ripple {
+            0% { transform: scale(0.6); opacity: 0; }
+            30% { opacity: 0.5; }
+            100% { transform: scale(1.2); opacity: 0; }
+        }
+
+        .breath-cue {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            opacity: 0.75;
+            min-height: 1rem;
+            margin-bottom: 1rem;
+            transition: opacity 0.8s ease;
+        }
+
+        .breath-line {
+            font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+            font-weight: 300;
+            letter-spacing: -0.01em;
+            color: var(--text-primary);
+            text-align: center;
+            max-width: 720px;
+            line-height: 1.4;
+            min-height: 4rem;
+            margin: 0 auto 1.5rem;
+            transition: opacity 1.2s ease;
+            opacity: 0;
+        }
+
+        .breath-line.show { opacity: 1; }
+
+        .breath-counter {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            opacity: 0.6;
+            margin-top: 1rem;
+        }
+
+        /* ——— CONTROLS ——— */
+        .breath-controls {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 3rem;
+        }
+
+        .breath-btn {
+            background: transparent;
+            border: 1px solid rgba(212, 162, 84, 0.4);
+            color: var(--accent-gold);
+            padding: 0.85rem 1.75rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            cursor: pointer;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .breath-btn:hover, .breath-btn.active {
+            background: rgba(212, 162, 84, 0.12);
+            border-color: rgba(212, 162, 84, 0.7);
+            color: #f0d990;
+        }
+
+        .breath-btn.primary {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.25), rgba(232, 100, 44, 0.2));
+            border-color: rgba(212, 162, 84, 0.7);
+            color: #f0d990;
+        }
+
+        .breath-btn.primary:hover {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.4), rgba(232, 100, 44, 0.35));
+        }
+
+        /* ——— PRAYER SELECTOR ——— */
+        .prayer-selector {
+            max-width: 960px;
+            margin: 5rem auto 0;
+            padding: 0 2rem;
+        }
+
+        .selector-label {
+            text-align: center;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            opacity: 0.8;
+            margin-bottom: 2rem;
+        }
+
+        .prayer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .prayer-card {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.04) 0%, rgba(232, 100, 44, 0.02) 100%);
+            border: 1px solid rgba(212, 162, 84, 0.18);
+            border-radius: 4px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+            font-family: inherit;
+            color: inherit;
+            width: 100%;
+        }
+
+        .prayer-card:hover {
+            border-color: rgba(212, 162, 84, 0.5);
+            box-shadow: 0 8px 30px rgba(212, 162, 84, 0.12);
+            transform: translateY(-2px);
+        }
+
+        .prayer-card.active {
+            border-color: var(--accent-gold);
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.12) 0%, rgba(232, 100, 44, 0.08) 100%);
+            box-shadow: 0 0 40px rgba(212, 162, 84, 0.2);
+        }
+
+        .prayer-card-tag {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-ember);
+            opacity: 0.85;
+            margin-bottom: 0.75rem;
+        }
+
+        .prayer-card-title {
+            font-size: 1.15rem;
+            color: var(--accent-gold);
+            font-weight: 400;
+            margin-bottom: 0.6rem;
+            letter-spacing: -0.01em;
+        }
+
+        .prayer-card-preview {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.55;
+            font-style: italic;
+            opacity: 0.85;
+        }
+
+        /* ——— TEACHING BLOCK ——— */
+        .breath-teaching {
+            max-width: 780px;
+            margin: 6rem auto 0;
+            padding: 0 2rem;
+        }
+
+        .breath-teaching h2 {
+            font-size: clamp(1.75rem, 3vw, 2.25rem);
+            font-weight: 300;
+            letter-spacing: -0.01em;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .breath-teaching p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 1.25rem;
+        }
+
+        .breath-teaching blockquote {
+            border-left: 2px solid var(--accent-gold);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-size: 1.15rem;
+            line-height: 1.7;
+            color: var(--text-primary);
+            font-style: italic;
+        }
+
+        .breath-teaching blockquote cite {
+            display: block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-ember);
+            font-style: normal;
+            margin-top: 0.75rem;
+        }
+
+        /* ——— NEXT STEPS ——— */
+        .breath-next {
+            max-width: 1100px;
+            margin: 5rem auto 4rem;
+            padding: 0 2rem;
+        }
+
+        .breath-next-label {
+            text-align: center;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            opacity: 0.8;
+            margin-bottom: 2.5rem;
+        }
+
+        .breath-next-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .breath-next-card {
+            display: block;
+            text-decoration: none;
+            padding: 1.75rem;
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.04), rgba(10, 10, 15, 0));
+            border: 1px solid rgba(212, 162, 84, 0.18);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .breath-next-card:hover {
+            border-color: rgba(212, 162, 84, 0.5);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(212, 162, 84, 0.15);
+        }
+
+        .breath-next-tag {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-ember);
+            margin-bottom: 0.75rem;
+        }
+
+        .breath-next-title {
+            font-size: 1.2rem;
+            color: var(--accent-gold);
+            margin-bottom: 0.5rem;
+            font-weight: 400;
+        }
+
+        .breath-next-desc {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.55;
+        }
+
+        /* ——— CLOSING STANZA ——— */
+        .breath-closing {
+            max-width: 820px;
+            margin: 4rem auto 6rem;
+            padding: 3rem 2rem;
+            text-align: center;
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
+        }
+
+        .breath-closing p {
+            font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+            line-height: 1.7;
+            color: var(--text-primary);
+            font-weight: 300;
+            letter-spacing: -0.01em;
+            font-style: italic;
+        }
+
+        .breath-closing .gold {
+            color: var(--accent-gold);
+            font-style: normal;
+        }
+
+        @media (max-width: 640px) {
+            .breath-hero { padding: 6rem 1.5rem 3rem; }
+            .breath-stage { padding: 3rem 1rem; }
+            .breath-orb-container { width: min(320px, 85vw); height: min(320px, 85vw); }
+            .breath-controls { gap: 0.5rem; }
+            .breath-btn { padding: 0.7rem 1.2rem; font-size: 0.7rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/theologians">Theologians</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/theologians" class="nav-top-link">Theologians</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- HERO -->
+    <header class="breath-hero page-hero">
+        <span class="eyebrow">Devotional · Contemplative</span>
+        <h1>The Breath Prayer</h1>
+        <p class="breath-hero-subtitle">
+            For the soul that has just had its worldview shattered and needs somewhere to land. For the mind too tired to argue. For the body that forgot it was allowed to rest. Breathe in. He is still the one doing the saving.
+        </p>
+        <p class="breath-hero-invite">Scroll Down · Breathe Slowly</p>
+    </header>
+
+    <!-- THE STAGE -->
+    <main class="breath-stage article-body" id="breathStage">
+        <div class="breath-orb-container">
+            <div class="breath-ring outer"></div>
+            <div class="breath-ring mid"></div>
+            <div class="breath-ring inner"></div>
+            <div class="breath-orb" id="breathOrb"></div>
+        </div>
+
+        <div class="breath-cue" id="breathCue">Press begin to rest</div>
+        <div class="breath-line" id="breathLine">Lord Jesus Christ, Son of God</div>
+        <div class="breath-counter" id="breathCounter">Cycle 0 / 7</div>
+
+        <div class="breath-controls">
+            <button class="breath-btn primary" id="btnStart">Begin</button>
+            <button class="breath-btn" id="btnPause" style="display:none;">Pause</button>
+            <button class="breath-btn" id="btnReset" style="display:none;">Reset</button>
+        </div>
+    </main>
+
+    <!-- PRAYER SELECTOR -->
+    <section class="prayer-selector">
+        <div class="selector-label">Choose Your Prayer</div>
+        <div class="prayer-grid" id="prayerGrid">
+            <!-- Populated by JS -->
+        </div>
+    </section>
+
+    <!-- TEACHING -->
+    <section class="breath-teaching">
+        <h2>Why Pray With Your Breath</h2>
+        <p>
+            For fifteen hundred years, believers under the weight of their own unworthiness have returned to the same small sentence and breathed it slowly in the dark: <em>Lord Jesus Christ, Son of God, have mercy on me, a sinner.</em> They called it the Jesus Prayer. It was the cry of the blind man on the road to Jericho. It was the cry of the tax collector who would not lift his eyes. It became the cry of every soul that had finally run out of words.
+        </p>
+        <p>
+            There is a reason the ancient church paired this prayer with breathing. Your body is not separate from your faith. When the mind is too tired to form arguments and the heart too raw to produce sentiment, the breath is still moving — in and out, without your permission, keeping you alive while you do nothing. That is a parable of grace in your lungs. You did not earn this breath. You will not choose your last one. And yet here you are, breathing, held.
+        </p>
+        <blockquote>
+            "God, have mercy on me, a sinner." He went home justified before God. For all those who exalt themselves will be humbled, and those who humble themselves will be exalted.
+            <cite>Luke 18:13–14</cite>
+        </blockquote>
+        <p>
+            This is not a technique. It is not a ladder of mystical ascent. You are not climbing toward God. You are being taught — by your own lungs — that the work of staying alive is not yours. Inhale: He is merciful. Exhale: I am the sinner He saved. That is the whole gospel in two breaths.
+        </p>
+        <p>
+            If you have just walked through an argument that broke something in you — <a href="/the-fork">the fork</a>, <a href="/the-mirror">the mirror</a>, <a href="/the-objection-collapse">the objection collapse</a> — you are probably not ready for another paragraph. You are ready to stop reading and start breathing. So stop reading. Go back to the orb. Breathe slowly. Let the <a href="/systematic-hamartiology">dead man</a> rest. He is not the one doing the saving. He never was.
+        </p>
+    </section>
+
+    <!-- NEXT STEPS -->
+    <section class="breath-next">
+        <div class="breath-next-label">If you need words again</div>
+        <div class="breath-next-grid">
+            <a href="/devotional-never-gives-up" class="breath-next-card">
+                <div class="breath-next-tag">Devotion</div>
+                <div class="breath-next-title">Never Gives Up</div>
+                <div class="breath-next-desc">The signature truth of this site: He will not let you go. Not after you rebel. Not after you run.</div>
+            </a>
+            <a href="/devotional-chosen-before-you-were-broken" class="breath-next-card">
+                <div class="breath-next-tag">Devotion</div>
+                <div class="breath-next-title">Chosen Before You Were Broken</div>
+                <div class="breath-next-desc">You were not an afterthought. You were a before-thought. Chosen before the foundation of the world.</div>
+            </a>
+            <a href="/devotional-the-prayer-you-didnt-pray" class="breath-next-card">
+                <div class="breath-next-tag">Devotion</div>
+                <div class="breath-next-title">The Prayer You Didn't Pray</div>
+                <div class="breath-next-desc">Before you asked, He answered. Before you turned, He turned you. Before you breathed, He breathed.</div>
+            </a>
+            <a href="/the-two-arms" class="breath-next-card">
+                <div class="breath-next-tag">Experience</div>
+                <div class="breath-next-title">The Two Arms</div>
+                <div class="breath-next-desc">Demolition tears down the lie. Devotion catches you when it falls. Both arms. Both required.</div>
+            </a>
+            <a href="/the-golden-chain" class="breath-next-card">
+                <div class="breath-next-tag">Experience</div>
+                <div class="breath-next-title">The Golden Chain</div>
+                <div class="breath-next-desc">Romans 8:29–30. Five aorist verbs. Five finished actions. Not one link in the chain has your name on it — and not one link can break.</div>
+            </a>
+            <a href="/devotionals" class="breath-next-card">
+                <div class="breath-next-tag">Library</div>
+                <div class="breath-next-title">All Devotionals</div>
+                <div class="breath-next-desc">Every article written for the soul that has seen the truth and needs to be held.</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="breath-closing">
+        <p>
+            Your breath is His grace made biological. <br>
+            You did not begin it. <span class="gold">You will not end it.</span> <br>
+            Inhale. He is merciful. <br>
+            Exhale. <span class="gold">You are kept.</span>
+        </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Rest</h4>
+                <ul>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/pastoral-hub">Pastoral</a></li>
+                    <li><a href="/the-two-arms">The Two Arms</a></li>
+                    <li><a href="/devotional-never-gives-up">Never Gives Up</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>The Site</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script>
+        // ============================================================
+        // THE BREATH PRAYER — CONTEMPLATIVE ENGINE
+        // ============================================================
+
+        const PRAYERS = [
+            {
+                id: 'jesus',
+                tag: 'The Ancient Prayer',
+                title: 'The Jesus Prayer',
+                preview: '"Lord Jesus Christ, Son of God, have mercy on me, a sinner." The cry of the tax collector. Fifteen centuries of saints.',
+                phrases: [
+                    { cue: 'Inhale slowly', line: 'Lord Jesus Christ, Son of God', phase: 'inhale' },
+                    { cue: 'Hold', line: '', phase: 'hold' },
+                    { cue: 'Exhale slowly', line: 'Have mercy on me, a sinner.', phase: 'exhale' },
+                    { cue: 'Rest', line: '', phase: 'hold' }
+                ]
+            },
+            {
+                id: 'chosen',
+                tag: 'Before the Foundation',
+                title: 'Chosen Before',
+                preview: '"He chose us in him before the creation of the world." Your name was spoken before stars were named.',
+                phrases: [
+                    { cue: 'Inhale slowly', line: 'Before the world was made', phase: 'inhale' },
+                    { cue: 'Hold', line: '', phase: 'hold' },
+                    { cue: 'Exhale slowly', line: 'He chose me.', phase: 'exhale' },
+                    { cue: 'Rest', line: '', phase: 'hold' }
+                ]
+            },
+            {
+                id: 'kept',
+                tag: 'The Unbreakable Chain',
+                title: 'He Will Not Let Me Go',
+                preview: '"No one can snatch them out of my hand." Run as far as you want. You will still be held.',
+                phrases: [
+                    { cue: 'Inhale slowly', line: 'No one can snatch me', phase: 'inhale' },
+                    { cue: 'Hold', line: '', phase: 'hold' },
+                    { cue: 'Exhale slowly', line: 'out of His hand.', phase: 'exhale' },
+                    { cue: 'Rest', line: '', phase: 'hold' }
+                ]
+            },
+            {
+                id: 'dead',
+                tag: 'Total Depravity',
+                title: 'The Dead Man',
+                preview: '"You were dead in your transgressions... but God made us alive." The corpse did not cooperate. God raised him anyway.',
+                phrases: [
+                    { cue: 'Inhale slowly', line: 'I was dead', phase: 'inhale' },
+                    { cue: 'Hold', line: '', phase: 'hold' },
+                    { cue: 'Exhale slowly', line: 'and God made me alive.', phase: 'exhale' },
+                    { cue: 'Rest', line: '', phase: 'hold' }
+                ]
+            },
+            {
+                id: 'gift',
+                tag: 'The Crown Jewel',
+                title: 'Faith Is a Gift',
+                preview: '"By grace you have been saved, through faith — and this is not from yourselves, it is the gift of God."',
+                phrases: [
+                    { cue: 'Inhale slowly', line: 'Even my faith', phase: 'inhale' },
+                    { cue: 'Hold', line: '', phase: 'hold' },
+                    { cue: 'Exhale slowly', line: 'is a gift.', phase: 'exhale' },
+                    { cue: 'Rest', line: '', phase: 'hold' }
+                ]
+            },
+            {
+                id: 'surrender',
+                tag: 'Letting Go',
+                title: 'Not My Work',
+                preview: 'For the soul still clenching. "He who began a good work in you will carry it on to completion."',
+                phrases: [
+                    { cue: 'Inhale slowly', line: 'He began the work', phase: 'inhale' },
+                    { cue: 'Hold', line: '', phase: 'hold' },
+                    { cue: 'Exhale slowly', line: 'He will finish it.', phase: 'exhale' },
+                    { cue: 'Rest', line: '', phase: 'hold' }
+                ]
+            }
+        ];
+
+        const PHASE_DURATIONS = {
+            inhale: 4000,
+            hold:   1500,
+            exhale: 5500,
+            holdExhale: 1500
+        };
+
+        const TOTAL_CYCLES = 7;
+
+        const orb = document.getElementById('breathOrb');
+        const cue = document.getElementById('breathCue');
+        const line = document.getElementById('breathLine');
+        const counter = document.getElementById('breathCounter');
+        const btnStart = document.getElementById('btnStart');
+        const btnPause = document.getElementById('btnPause');
+        const btnReset = document.getElementById('btnReset');
+        const grid = document.getElementById('prayerGrid');
+
+        let currentPrayer = PRAYERS[0];
+        let running = false;
+        let paused = false;
+        let cycle = 0;
+        let stepIndex = 0;
+        let timer = null;
+
+        // Render prayer selector
+        PRAYERS.forEach((p, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'prayer-card' + (i === 0 ? ' active' : '');
+            btn.dataset.id = p.id;
+            btn.innerHTML = `
+                <div class="prayer-card-tag">${p.tag}</div>
+                <div class="prayer-card-title">${p.title}</div>
+                <div class="prayer-card-preview">${p.preview}</div>
+            `;
+            btn.addEventListener('click', () => selectPrayer(p.id));
+            grid.appendChild(btn);
+        });
+
+        function selectPrayer(id) {
+            const p = PRAYERS.find(x => x.id === id);
+            if (!p) return;
+            currentPrayer = p;
+            document.querySelectorAll('.prayer-card').forEach(c => {
+                c.classList.toggle('active', c.dataset.id === id);
+            });
+            // Preview line
+            line.textContent = p.phrases[0].line;
+            line.classList.add('show');
+            cue.textContent = running ? 'Switched — hold the next breath' : 'Press begin to rest';
+            if (running) {
+                // Reset position within current prayer
+                stepIndex = 0;
+            }
+        }
+
+        function setOrbPhase(phase) {
+            orb.classList.remove('inhale', 'exhale', 'hold');
+            if (phase === 'inhale') orb.classList.add('inhale');
+            else if (phase === 'exhale') orb.classList.add('exhale');
+            else orb.classList.add('hold');
+        }
+
+        function showLine(text) {
+            line.classList.remove('show');
+            setTimeout(() => {
+                line.textContent = text || '';
+                if (text) {
+                    // Force reflow for transition
+                    void line.offsetWidth;
+                    line.classList.add('show');
+                } else {
+                    line.classList.remove('show');
+                }
+            }, 300);
+        }
+
+        function tick() {
+            if (!running || paused) return;
+
+            const step = currentPrayer.phrases[stepIndex];
+            cue.textContent = step.cue;
+            showLine(step.line);
+            setOrbPhase(step.phase);
+
+            let duration;
+            if (step.phase === 'inhale') duration = PHASE_DURATIONS.inhale;
+            else if (step.phase === 'exhale') duration = PHASE_DURATIONS.exhale;
+            else duration = PHASE_DURATIONS.hold;
+
+            timer = setTimeout(() => {
+                stepIndex++;
+                if (stepIndex >= currentPrayer.phrases.length) {
+                    stepIndex = 0;
+                    cycle++;
+                    counter.textContent = `Cycle ${cycle} / ${TOTAL_CYCLES}`;
+                    if (cycle >= TOTAL_CYCLES) {
+                        finishSession();
+                        return;
+                    }
+                }
+                tick();
+            }, duration);
+        }
+
+        function start() {
+            running = true;
+            paused = false;
+            cycle = 0;
+            stepIndex = 0;
+            counter.textContent = `Cycle 0 / ${TOTAL_CYCLES}`;
+            btnStart.style.display = 'none';
+            btnPause.style.display = 'inline-block';
+            btnPause.textContent = 'Pause';
+            btnReset.style.display = 'inline-block';
+            tick();
+        }
+
+        function pause() {
+            if (paused) {
+                paused = false;
+                btnPause.textContent = 'Pause';
+                tick();
+            } else {
+                paused = true;
+                btnPause.textContent = 'Resume';
+                clearTimeout(timer);
+            }
+        }
+
+        function reset() {
+            clearTimeout(timer);
+            running = false;
+            paused = false;
+            cycle = 0;
+            stepIndex = 0;
+            counter.textContent = `Cycle 0 / ${TOTAL_CYCLES}`;
+            cue.textContent = 'Press begin to rest';
+            showLine(currentPrayer.phrases[0].line);
+            orb.classList.remove('inhale', 'exhale');
+            orb.classList.add('hold');
+            btnStart.style.display = 'inline-block';
+            btnPause.style.display = 'none';
+            btnReset.style.display = 'none';
+        }
+
+        function finishSession() {
+            running = false;
+            orb.classList.remove('inhale', 'exhale');
+            orb.classList.add('hold');
+            cue.textContent = 'Rest';
+            showLine('You were held before you breathed. You will be held after.');
+            counter.textContent = `Complete · ${TOTAL_CYCLES} cycles`;
+            btnStart.style.display = 'inline-block';
+            btnStart.textContent = 'Begin Again';
+            btnPause.style.display = 'none';
+            btnReset.style.display = 'inline-block';
+        }
+
+        btnStart.addEventListener('click', start);
+        btnPause.addEventListener('click', pause);
+        btnReset.addEventListener('click', reset);
+
+        // Initial line
+        showLine(currentPrayer.phrases[0].line);
+    </script>
+
+</body>
+</html>

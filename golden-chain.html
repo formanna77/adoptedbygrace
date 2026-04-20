@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Golden Chain — Romans 8:29–30 Forged Before Your Eyes | Adopted by Grace</title>
+    <meta name="description" content="Five links. One unbroken chain. Scroll and watch Romans 8:29–30 forge itself in front of you — foreknown, predestined, called, justified, glorified. The chain God forged. The chain God holds.">
+    <meta name="keywords" content="Romans 8:29, Romans 8:30, golden chain of salvation, ordo salutis, perseverance, election, predestination, glorification">
+    <meta property="og:title" content="The Golden Chain — Romans 8:29–30 Forged Before Your Eyes">
+    <meta property="og:description" content="Five links. One unbroken chain. Scroll and watch Romans 8:29–30 forge itself in front of you.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/golden-chain">
+    <link rel="canonical" href="https://adoptedbygrace.net/golden-chain">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        /* ────────────────────────────────────────────────────────────
+           THE GOLDEN CHAIN — scroll-forged Romans 8:29-30 experience.
+           Inline styles permitted for interactive widgets (per CLAUDE.md).
+           Each chain link forges as reader scrolls to it.
+           ──────────────────────────────────────────────────────────── */
+
+        .chain-prelude {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 1rem;
+            text-align: center;
+        }
+        .chain-verse {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-style: italic;
+            color: var(--text-primary);
+            font-size: clamp(1.15rem, 2.2vw, 1.5rem);
+            line-height: 1.7;
+            padding: 2rem;
+            border-left: 3px solid var(--accent-gold);
+            border-right: 3px solid var(--accent-gold);
+            margin: 2rem 0;
+            background: rgba(212, 162, 84, 0.04);
+            border-radius: 6px;
+            text-align: left;
+        }
+        .chain-verse cite {
+            display: block;
+            font-style: normal;
+            color: var(--accent-gold);
+            font-family: monospace;
+            font-size: 0.85rem;
+            margin-top: 1rem;
+            letter-spacing: 0.15em;
+        }
+        .chain-prelude-lead {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            line-height: 1.75;
+            max-width: 680px;
+            margin: 0 auto 1rem;
+        }
+        .chain-scroll-hint {
+            font-family: monospace;
+            font-size: 0.78rem;
+            letter-spacing: 0.25em;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            opacity: 0.7;
+            margin-top: 2rem;
+            animation: bob 2.2s ease-in-out infinite;
+        }
+        @keyframes bob {
+            0%, 100% { transform: translateY(0); opacity: 0.6; }
+            50%      { transform: translateY(6px); opacity: 1; }
+        }
+
+        /* THE FORGE — sticky stage + scrolling panels */
+        .chain-forge {
+            position: relative;
+            max-width: 1280px;
+            margin: 3rem auto 0;
+            padding: 0 1.5rem;
+        }
+        .chain-forge-inner {
+            display: grid;
+            grid-template-columns: minmax(280px, 420px) 1fr;
+            gap: 3rem;
+        }
+        @media (max-width: 900px) {
+            .chain-forge-inner { grid-template-columns: 1fr; gap: 1rem; }
+        }
+
+        .chain-visual-wrap {
+            position: sticky;
+            top: 90px;
+            height: calc(100vh - 110px);
+            min-height: 520px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        @media (max-width: 900px) {
+            .chain-visual-wrap {
+                position: sticky;
+                top: 70px;
+                height: 280px;
+                min-height: unset;
+                background: linear-gradient(to bottom, rgba(10,10,15,0.98), rgba(10,10,15,0.85));
+                backdrop-filter: blur(6px);
+                z-index: 5;
+                border-bottom: 1px solid rgba(212, 162, 84, 0.15);
+            }
+        }
+
+        .chain-svg {
+            width: 100%;
+            max-width: 420px;
+            height: auto;
+            filter: drop-shadow(0 0 40px rgba(212, 162, 84, 0.25));
+        }
+
+        /* SVG link styling */
+        .chain-link {
+            opacity: 0.12;
+            transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+                        filter 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+                        transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+            transform-origin: center center;
+        }
+        .chain-link.forged {
+            opacity: 1;
+            filter: drop-shadow(0 0 12px rgba(212, 162, 84, 0.8));
+        }
+        .chain-link.forging {
+            animation: forgeFlash 1.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        @keyframes forgeFlash {
+            0%   { filter: drop-shadow(0 0 4px rgba(232, 100, 44, 0.2)); opacity: 0.2; }
+            30%  { filter: drop-shadow(0 0 50px rgba(232, 100, 44, 1)); opacity: 1; }
+            100% { filter: drop-shadow(0 0 12px rgba(212, 162, 84, 0.8)); opacity: 1; }
+        }
+
+        .chain-label {
+            opacity: 0;
+            transition: opacity 1s ease-out 0.2s;
+            fill: var(--accent-gold);
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: 18px;
+            letter-spacing: 0.06em;
+        }
+        .chain-label.forged { opacity: 1; }
+
+        /* PANELS — each triggers a chain link */
+        .chain-panels {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            padding: 4rem 0 6rem;
+        }
+        @media (max-width: 900px) {
+            .chain-panels { padding: 2rem 0 4rem; }
+        }
+
+        .chain-panel {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2rem 0;
+        }
+        @media (max-width: 900px) {
+            .chain-panel { min-height: 60vh; }
+        }
+
+        .chain-panel-num {
+            font-family: monospace;
+            font-size: 0.8rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.28em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+        .chain-panel-title {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(2rem, 4.5vw, 3rem);
+            line-height: 1.15;
+            color: var(--text-primary);
+            margin: 0 0 1.5rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 400;
+            letter-spacing: -0.015em;
+        }
+        .chain-panel p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            font-size: clamp(1rem, 1.5vw, 1.1rem);
+            margin: 0 0 1.25rem;
+        }
+        .chain-panel .pullquote {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-style: italic;
+            color: var(--text-primary);
+            font-size: clamp(1.1rem, 1.85vw, 1.3rem);
+            border-left: 3px solid var(--accent-gold);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            background: rgba(212, 162, 84, 0.04);
+            border-radius: 0 8px 8px 0;
+            line-height: 1.65;
+        }
+        .chain-panel .pullquote cite {
+            display: block;
+            font-style: normal;
+            color: var(--accent-gold);
+            font-family: monospace;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+            letter-spacing: 0.12em;
+        }
+        .chain-panel strong {
+            color: var(--text-primary);
+        }
+        .chain-panel a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            border-bottom: 1px dashed rgba(212, 162, 84, 0.5);
+            transition: all 0.25s;
+        }
+        .chain-panel a:hover {
+            color: var(--accent-ember);
+            border-bottom-color: var(--accent-ember);
+        }
+
+        /* CLOSING ARGUMENT */
+        .chain-closing {
+            max-width: 880px;
+            margin: 4rem auto 0;
+            padding: 3rem 2.5rem;
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.14), rgba(232, 100, 44, 0.07));
+            border: 1px solid rgba(212, 162, 84, 0.4);
+            border-radius: 16px;
+            text-align: center;
+            position: relative;
+        }
+        .chain-closing h2 {
+            font-family: 'Crimson Text', Georgia, serif;
+            color: var(--accent-gold);
+            font-size: clamp(1.75rem, 3.5vw, 2.35rem);
+            margin-bottom: 1.25rem;
+            line-height: 1.3;
+            font-weight: 400;
+        }
+        .chain-closing p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            max-width: 700px;
+            margin: 0 auto 1.25rem;
+            font-size: 1.05rem;
+        }
+        .chain-closing strong {
+            color: var(--text-primary);
+        }
+
+        /* CATCH ARM */
+        .chain-catch {
+            max-width: 1080px;
+            margin: 4rem auto 0;
+            padding: 0 1.5rem;
+        }
+        .chain-catch-heading {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            color: var(--accent-gold);
+            text-align: center;
+            margin-bottom: 0.75rem;
+            font-weight: 400;
+        }
+        .chain-catch-bridge {
+            text-align: center;
+            color: var(--text-muted);
+            max-width: 680px;
+            margin: 0 auto 2.5rem;
+            line-height: 1.7;
+            font-style: italic;
+        }
+
+        /* PROGRESS INDICATOR */
+        .chain-progress {
+            position: fixed;
+            top: 60px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: rgba(212, 162, 84, 0.1);
+            z-index: 100;
+            pointer-events: none;
+        }
+        .chain-progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-gold), var(--accent-ember));
+            width: 0%;
+            transition: width 0.2s ease-out;
+        }
+
+        /* Eyebrow row */
+        .chain-eyebrow-row {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+            align-items: center;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .chain-eyebrow-badge {
+            font-family: monospace;
+            font-size: 0.72rem;
+            letter-spacing: 0.25em;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            padding: 0.35rem 0.9rem;
+            border: 1px solid rgba(212, 162, 84, 0.35);
+            border-radius: 100px;
+            background: rgba(212, 162, 84, 0.05);
+        }
+    </style>
+</head>
+<body>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/theologians">Theologians</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/theologians" class="nav-top-link">Theologians</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="chain-progress"><div class="chain-progress-bar" id="chainProgress"></div></div>
+
+    <header class="page-hero">
+        <span class="eyebrow">Scripture · Interactive</span>
+        <h1>The Golden Chain</h1>
+        <p class="hub-subtitle">Romans 8:29–30 is the most compressed summary of salvation in Scripture. Scroll, and watch it forge itself before your eyes.</p>
+    </header>
+
+    <article class="article-body">
+
+      <div class="chain-prelude">
+        <div class="chain-eyebrow-row">
+            <span class="chain-eyebrow-badge">Interactive</span>
+            <span class="chain-eyebrow-badge">4&nbsp;min</span>
+        </div>
+
+        <p class="chain-prelude-lead">
+            Five links. One sentence. No passive voice. No "if." No "may." God speaks five past-tense verbs over His people — and the grammar itself is the argument. Scroll through it one link at a time. When you reach the end, look back and count how many breaks there are.
+        </p>
+
+        <blockquote class="chain-verse">
+            "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.
+            For those God <strong><a href="/question-foreknowledge">foreknew</a></strong> he also <strong>predestined</strong> to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters.
+            And those he predestined, he also <strong>called</strong>; those he called, he also <strong>justified</strong>; those he justified, he also <strong>glorified</strong>."
+            <cite>ROMANS 8:28–30</cite>
+        </blockquote>
+
+        <p class="chain-scroll-hint">Scroll ↓ to forge the chain</p>
+      </div>
+
+      <!-- ═══════════════════════════════════════════════════════════════
+           THE FORGE — sticky SVG + scrolling panels
+           ═══════════════════════════════════════════════════════════════ -->
+      <div class="chain-forge">
+        <div class="chain-forge-inner">
+
+          <!-- STICKY CHAIN VISUAL -->
+          <div class="chain-visual-wrap">
+            <svg class="chain-svg" viewBox="0 0 300 640" xmlns="http://www.w3.org/2000/svg" aria-label="The Golden Chain of salvation">
+                <defs>
+                    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#f4c98a"/>
+                        <stop offset="50%" stop-color="#d4a254"/>
+                        <stop offset="100%" stop-color="#a67a2f"/>
+                    </linearGradient>
+                    <radialGradient id="linkSheen" cx="30%" cy="30%" r="70%">
+                        <stop offset="0%" stop-color="#fff0c8" stop-opacity="0.9"/>
+                        <stop offset="40%" stop-color="#d4a254" stop-opacity="0.6"/>
+                        <stop offset="100%" stop-color="#6b4b1e" stop-opacity="0.3"/>
+                    </radialGradient>
+                </defs>
+
+                <!-- LINK 1 · Foreknown (top) -->
+                <g class="chain-link" data-link="1">
+                    <ellipse cx="150" cy="70" rx="54" ry="32" fill="none" stroke="url(#goldGrad)" stroke-width="10"/>
+                    <ellipse cx="150" cy="70" rx="54" ry="32" fill="url(#linkSheen)" opacity="0.22"/>
+                </g>
+                <text class="chain-label" data-link="1" x="220" y="76" fill="currentColor">Foreknown</text>
+
+                <!-- LINK 2 · Predestined -->
+                <g class="chain-link" data-link="2">
+                    <ellipse cx="150" cy="170" rx="32" ry="54" fill="none" stroke="url(#goldGrad)" stroke-width="10"/>
+                    <ellipse cx="150" cy="170" rx="32" ry="54" fill="url(#linkSheen)" opacity="0.22"/>
+                </g>
+                <text class="chain-label" data-link="2" x="200" y="176" fill="currentColor">Predestined</text>
+
+                <!-- LINK 3 · Called -->
+                <g class="chain-link" data-link="3">
+                    <ellipse cx="150" cy="290" rx="54" ry="32" fill="none" stroke="url(#goldGrad)" stroke-width="10"/>
+                    <ellipse cx="150" cy="290" rx="54" ry="32" fill="url(#linkSheen)" opacity="0.22"/>
+                </g>
+                <text class="chain-label" data-link="3" x="220" y="296" fill="currentColor">Called</text>
+
+                <!-- LINK 4 · Justified -->
+                <g class="chain-link" data-link="4">
+                    <ellipse cx="150" cy="390" rx="32" ry="54" fill="none" stroke="url(#goldGrad)" stroke-width="10"/>
+                    <ellipse cx="150" cy="390" rx="32" ry="54" fill="url(#linkSheen)" opacity="0.22"/>
+                </g>
+                <text class="chain-label" data-link="4" x="200" y="396" fill="currentColor">Justified</text>
+
+                <!-- LINK 5 · Glorified -->
+                <g class="chain-link" data-link="5">
+                    <ellipse cx="150" cy="510" rx="54" ry="32" fill="none" stroke="url(#goldGrad)" stroke-width="10"/>
+                    <ellipse cx="150" cy="510" rx="54" ry="32" fill="url(#linkSheen)" opacity="0.22"/>
+                </g>
+                <text class="chain-label" data-link="5" x="220" y="516" fill="currentColor">Glorified</text>
+
+                <!-- Glow halo (visible only when all forged) -->
+                <circle id="chainHalo" cx="150" cy="290" r="280" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0"/>
+            </svg>
+          </div>
+
+          <!-- PANELS -->
+          <div class="chain-panels">
+
+            <section class="chain-panel" data-trigger="1">
+                <div class="chain-panel-num">Link 01 · προέγνω · "He <a href="/question-foreknowledge">foreknew</a>"</div>
+                <h2 class="chain-panel-title">Foreknown.</h2>
+                <p>Before the galaxies. Before the fall. Before your mother's mother's mother was a thought in the heart of God — He <strong>knew you</strong>. Not "knew of you." Not "predicted you." The Greek is <em>proginōskō</em> — knowing in the Hebrew sense, the way a husband knows a wife. Intimate. Covenantal. Chosen.</p>
+                <p>God did not look down the corridor of time, see who would choose Him, and tick their names off a list. He set His love on you <strong>before you existed</strong>. You did nothing to earn that love because there was no "you" yet to do anything.</p>
+                <blockquote class="pullquote">
+                    "For he chose us <a href="/devotional-in-christ">in him</a> <a href="/question-chosen">before the creation of the world</a> to be holy and blameless in his sight."
+                    <cite>EPHESIANS 1:4</cite>
+                </blockquote>
+                <p>The first link is forged in eternity past. You were not a Plan B. You were the reason.</p>
+            </section>
+
+            <section class="chain-panel" data-trigger="2">
+                <div class="chain-panel-num">Link 02 · προώρισεν · "He predestined"</div>
+                <h2 class="chain-panel-title">Predestined.</h2>
+                <p>To be what? To conform to the image of His Son. You were not predestined merely to be saved — you were predestined to <strong>become like Jesus</strong>. The final product was decided before the raw material was mined.</p>
+                <p>This is the verb that terrifies the <a href="/broken-mirror-not-self-made">self-made</a> American: <em>pro-horizō</em>, to mark out the boundary beforehand. Your destination was settled. Your transformation was decreed. You are not becoming someone you might one day be. You are being revealed as who you have always, from eternity, been.</p>
+                <p>The Arminian reading — "God predestined <em>those who chose Him</em>" — turns the verse inside out. Paul says God predestined those He <a href="/question-foreknowledge">foreknew</a>. Whoever God predestined, He did so unconditionally, before they had opinions about the matter.</p>
+                <blockquote class="pullquote">
+                    "<a href="/devotional-in-christ">In him</a> we were also chosen, having been predestined according to the plan of him who works out everything in conformity with the purpose of his will."
+                    <cite>EPHESIANS 1:11</cite>
+                </blockquote>
+            </section>
+
+            <section class="chain-panel" data-trigger="3">
+                <div class="chain-panel-num">Link 03 · ἐκάλεσεν · "He called"</div>
+                <h2 class="chain-panel-title">Called.</h2>
+                <p>Not invited. <strong>Called</strong>. In Paul, "called" almost always means the <a href="/question-irresistible">effectual call</a> — the voice that reaches through deafness and compels hearing. The Shepherd's voice that the sheep <em>will</em> recognize (<a href="/question-john10">John 10:27</a>). The "come forth" that even Lazarus could not refuse.</p>
+                <p>You remember the moment. Not the <a href="/history-decision-theology">altar call</a> — the moment underneath it. When words you had heard a hundred times suddenly <strong>landed</strong>. When the gospel stopped being information and became pursuit. When you realized something had reached in and turned on a light you did not know was off.</p>
+                <p>That was not the sermon. That was not your decision. That was <a href="/question-external-internal-call.html">the call behind the call</a> — the inner voice that the outer voice could never generate on its own.</p>
+                <blockquote class="pullquote">
+                    "<a href="/question-john10">My sheep listen to my voice</a>; I know them, and they follow me."
+                    <cite>JOHN 10:27</cite>
+                </blockquote>
+            </section>
+
+            <section class="chain-panel" data-trigger="4">
+                <div class="chain-panel-num">Link 04 · ἐδικαίωσεν · "He justified"</div>
+                <h2 class="chain-panel-title">Justified.</h2>
+                <p>Past tense. Already done. Not "will justify if you keep behaving." Not "is in the process of justifying." <strong>Justified</strong>. A legal verdict rendered. The Judge has spoken. The gavel has fallen. And the case cannot be reopened.</p>
+                <p>Your righteousness before God is not a score you are maintaining. It is a <em>status</em> you have been given — Christ's perfect obedience credited to your account, His cross absorbing your debt, His empty tomb proving it was paid. You are not working your way toward being <a href="/systematic-justification">declared righteous</a>. You are living out of the fact that you have already been <a href="/systematic-justification">declared righteous</a>.</p>
+                <p>This is the link the anxious Christian most needs to feel hammered into place. You are not on probation. You are not "saved if you stay saved." God spoke the verdict over your entire life — past, present, and future — in a single word: <strong>righteous</strong>.</p>
+                <blockquote class="pullquote">
+                    "Therefore, there is now no condemnation for those who are <a href="/devotional-in-christ">in Christ</a> Jesus."
+                    <cite>ROMANS 8:1</cite>
+                </blockquote>
+            </section>
+
+            <section class="chain-panel" data-trigger="5">
+                <div class="chain-panel-num">Link 05 · ἐδόξασεν · "He glorified"</div>
+                <h2 class="chain-panel-title">Glorified.</h2>
+                <p>Read it again. Past tense. <strong>Glorified.</strong> You are not glorified yet in the timeline of your life — you still have a mortgage, a messy kitchen, a body that aches. But in the mind of God, it is already done. He does not just <em>plan</em> your glorification. He speaks of it as accomplished.</p>
+                <p>This is the most staggering grammatical move in all of Scripture. Paul is so certain the chain will hold that he tenses the last link as though it has already happened. The God who does not lie is <em>already</em> counting you glorified. The only thing between you and that glory is time — and time bends to the will of the One who made it.</p>
+                <p>You cannot fall out of this chain. The same God who forged the first link forged the fifth. The One who <a href="/question-foreknowledge">foreknew</a> you will not fail to glorify you. The chain does not break because <em>you</em> are not the one holding it together.</p>
+                <blockquote class="pullquote">
+                    "Being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."
+                    <cite>PHILIPPIANS 1:6</cite>
+                </blockquote>
+            </section>
+
+          </div>
+        </div>
+
+        <!-- CLOSING ARGUMENT -->
+        <div class="chain-closing">
+            <h2>Now look back at the chain.</h2>
+            <p>
+                Five verbs. <strong>Every one of them past tense.</strong> Every one of them with God as the subject and you as the object. There is not a single place in this sentence where your contribution is inserted. The grammar has closed the escape hatch.
+            </p>
+            <p>
+                Paul does not say "for those God <a href="/question-foreknowledge">foreknew</a> would believe" — he says "for those God foreknew." The object of <em>proginōskō</em> is <strong>you</strong>, not your future faith. He does not say "those who called themselves to Him" — He says "those He called." He does not say "those who justified themselves by choosing" — He says "those He justified."
+            </p>
+            <p>
+                If any of these links could break, all of them could. And if the last one — <strong>glorified</strong> — is spoken in the past tense from the perspective of the God who cannot lie, then your future is as certain as the cross that bought it.
+            </p>
+            <p style="margin-top: 1.5rem;">
+                <em>You were not the one who forged this chain. You were not the one who holds it. You are the one being carried by it.</em>
+            </p>
+        </div>
+
+      </div>
+
+      <!-- CATCH ARM -->
+      <div class="chain-catch">
+        <h2 class="chain-catch-heading">If the weight of this just landed — rest in these.</h2>
+        <p class="chain-catch-bridge">
+            The chain you just watched forge itself is the chain that has been holding you all along. These devotionals are where the chain becomes personal.
+        </p>
+
+        <div class="hub-grid">
+            <a href="/devotional-chosen-before-you-were-broken.html" class="hub-card">
+                <div class="card-number">01</div>
+                <h3 class="card-title">Chosen Before You Were Broken</h3>
+                <p class="card-description">Before time, before fault, before failure — He knew your name and set His love on you. The first link of the chain was forged in eternity past.</p>
+                <div class="card-scripture">EPHESIANS 1:4</div>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/devotional-the-hands-that-hold-you.html" class="hub-card">
+                <div class="card-number">02</div>
+                <h3 class="card-title">The Hands That Hold You</h3>
+                <p class="card-description">You have never been the grip. You have always been the held. A devotional on who is actually doing the persevering in the perseverance of the saints.</p>
+                <div class="card-scripture">JOHN 10:28–29</div>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/devotional-never-gives-up.html" class="hub-card">
+                <div class="card-number">03</div>
+                <h3 class="card-title">The God Who Never Gives Up</h3>
+                <p class="card-description">The same God who forged the first link forges the fifth. He does not abandon projects. He does not start what He cannot finish.</p>
+                <div class="card-scripture">PHILIPPIANS 1:6</div>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+            <a href="/devotional-forever-loved.html" class="hub-card">
+                <div class="card-number">04</div>
+                <h3 class="card-title">Forever Loved</h3>
+                <p class="card-description">The love that began before time does not wear out in time. A devotional for the soul that keeps needing to hear it.</p>
+                <div class="card-scripture">JEREMIAH 31:3</div>
+                <div class="card-footer">
+                    <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                </div>
+            </a>
+        </div>
+      </div>
+
+    </article>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">Adopted by Grace</div>
+            <div class="footer-tagline">The truths of grace — explored with rigor, explained with beauty</div>
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="/start-here">Start Here</a>
+                <a href="/questions">Questions</a>
+                <a href="/systematic-theology">Theology</a>
+                <a href="/demolition-hub">Demolition</a>
+                <a href="/stories">Stories</a>
+                <a href="/devotionals">Devotionals</a>
+                <a href="/about">About</a>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script>
+        // ───────────────────────────────────────────────────────────
+        // THE GOLDEN CHAIN — scroll-triggered forge sequence.
+        // IntersectionObserver watches each panel, forges its link.
+        // Progress bar tracks scroll through the forge section.
+        // ───────────────────────────────────────────────────────────
+        (function () {
+            const panels = document.querySelectorAll('.chain-panel');
+            const links  = document.querySelectorAll('.chain-link');
+            const labels = document.querySelectorAll('.chain-label');
+            const forge  = document.querySelector('.chain-forge');
+            const bar    = document.getElementById('chainProgress');
+            const halo   = document.getElementById('chainHalo');
+
+            // Keep a record of forged state so re-scrolls don't replay the forge animation.
+            const forged = new Set();
+
+            function forgeLink(n) {
+                const linkEl  = document.querySelector(`.chain-link[data-link="${n}"]`);
+                const labelEl = document.querySelector(`.chain-label[data-link="${n}"]`);
+                if (!linkEl) return;
+                if (!forged.has(n)) {
+                    linkEl.classList.add('forging');
+                    setTimeout(() => linkEl.classList.remove('forging'), 1500);
+                    forged.add(n);
+                }
+                linkEl.classList.add('forged');
+                if (labelEl) labelEl.classList.add('forged');
+                if (forged.size === 5 && halo) {
+                    halo.style.transition = 'opacity 1.5s ease-out';
+                    halo.style.opacity = '0.35';
+                }
+            }
+
+            // Observe each panel; when it enters the middle of viewport, forge its link.
+            const obs = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const n = parseInt(entry.target.dataset.trigger, 10);
+                        // Always forge all prior links too (in case a user skipped)
+                        for (let i = 1; i <= n; i++) forgeLink(i);
+                    }
+                });
+            }, {
+                root: null,
+                threshold: 0.35,
+                rootMargin: '-10% 0px -30% 0px'
+            });
+
+            panels.forEach(p => obs.observe(p));
+
+            // Progress bar — scroll within the forge section
+            function updateProgress() {
+                if (!forge) return;
+                const rect = forge.getBoundingClientRect();
+                const total = rect.height - window.innerHeight;
+                const scrolled = Math.max(0, -rect.top);
+                const pct = total > 0 ? Math.min(100, (scrolled / total) * 100) : 0;
+                if (bar) bar.style.width = pct + '%';
+            }
+            window.addEventListener('scroll', updateProgress, { passive: true });
+            updateProgress();
+
+            // Accessibility: honour prefers-reduced-motion by forging everything immediately.
+            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                for (let i = 1; i <= 5; i++) forgeLink(i);
+            }
+        })();
+    </script>
+    <script defer src="/reading-time.js"></script>
+    <script defer src="/scripture-niv.js"></script>
+    <script defer src="/scripture-popups.js"></script>
+</body>
+</html>

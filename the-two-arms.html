@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Two Arms | Adopted by Grace</title>
+    <meta name="description" content="The left arm tears down the lie of self-salvation. The right arm catches the one who falls. Both arms, always — because demolition without devotion creates despair.">
+    <link rel="canonical" href="https://adoptedbygrace.net/the-two-arms">
+    <meta property="og:title" content="The Two Arms — Demolition and Devotion">
+    <meta property="og:description" content="Sword and balm. Truth that wounds, love that heals. The architecture of how this site finds the elect and brings them home.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/the-two-arms">
+    <meta name="keywords" content="two arms, demolition, devotion, grace, comfort, total depravity, rest, sovereign grace, despair, complacency">
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        .twoarms-hero {
+            text-align: center;
+            padding: 5rem 1.5rem 3rem;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.15);
+            position: relative;
+            overflow: hidden;
+        }
+        .twoarms-hero::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 1200px;
+            height: 600px;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(ellipse, rgba(212, 162, 84, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .twoarms-hero .eyebrow {
+            position: relative;
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.82rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+        }
+        .twoarms-hero h1 {
+            position: relative;
+            font-size: clamp(2.75rem, 7vw, 4.75rem);
+            line-height: 1.05;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1.5rem;
+        }
+        .twoarms-hero .subtitle {
+            position: relative;
+            max-width: 720px;
+            margin: 0 auto;
+            color: var(--text-secondary, #c4bfb5);
+            font-size: 1.2rem;
+            line-height: 1.65;
+        }
+
+        .twoarms-split {
+            max-width: 1200px;
+            margin: 4rem auto;
+            padding: 0 1.5rem;
+            display: grid;
+            grid-template-columns: 1fr 80px 1fr;
+            gap: 0;
+            align-items: stretch;
+        }
+        .twoarms-panel {
+            padding: 2.5rem;
+            border-radius: 12px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        .twoarms-panel.left {
+            background: linear-gradient(155deg, rgba(232, 100, 44, 0.08), rgba(139, 92, 246, 0.04));
+            border: 1px solid rgba(232, 100, 44, 0.25);
+        }
+        .twoarms-panel.right {
+            background: linear-gradient(155deg, rgba(212, 162, 84, 0.1), rgba(212, 162, 84, 0.03));
+            border: 1px solid rgba(212, 162, 84, 0.3);
+        }
+        .twoarms-divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.9rem;
+            letter-spacing: 0.2em;
+            color: var(--accent-gold);
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            opacity: 0.6;
+        }
+        @media (max-width: 768px) {
+            .twoarms-split {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .twoarms-divider {
+                writing-mode: horizontal-tb;
+                padding: 1rem 0;
+            }
+        }
+
+        .panel-tag {
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.78rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+        .panel-tag.left { color: var(--accent-ember); }
+        .panel-tag.right { color: var(--accent-gold); }
+        .panel-title {
+            font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+            line-height: 1.15;
+            margin-bottom: 1rem;
+            color: var(--text-primary, #f0ece4);
+        }
+        .panel-title span {
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .panel-body {
+            color: var(--text-secondary, #c4bfb5);
+            font-size: 1.05rem;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+        .panel-body strong {
+            color: var(--accent-gold);
+            font-weight: 500;
+        }
+        .panel-verse {
+            padding: 1.25rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-left: 3px solid var(--accent-gold);
+            border-radius: 4px;
+            font-style: italic;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--text-primary, #f0ece4);
+            margin: 1.25rem 0;
+        }
+        .panel-verse cite {
+            display: block;
+            margin-top: 0.5rem;
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.78rem;
+            letter-spacing: 0.12em;
+            color: var(--accent-gold);
+            font-style: normal;
+        }
+        .panel-links {
+            margin-top: 1.5rem;
+            display: grid;
+            gap: 0.75rem;
+        }
+        .panel-link {
+            display: block;
+            padding: 0.9rem 1.1rem;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(212, 162, 84, 0.18);
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text-primary, #f0ece4);
+            transition: all 0.2s ease;
+            font-size: 0.95rem;
+        }
+        .panel-link:hover {
+            background: rgba(212, 162, 84, 0.08);
+            border-color: var(--accent-gold);
+            transform: translateX(4px);
+        }
+        .panel-link .link-title {
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-right: 0.5rem;
+        }
+
+        /* Arithmetic section */
+        .twoarms-math {
+            max-width: 900px;
+            margin: 5rem auto;
+            padding: 3rem 2rem;
+            text-align: center;
+            background: radial-gradient(circle at center, rgba(212, 162, 84, 0.08), transparent 70%);
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            border-bottom: 1px solid rgba(212, 162, 84, 0.2);
+        }
+        .twoarms-math .math-title {
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.85rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-ember);
+            margin-bottom: 2rem;
+        }
+        .math-equation {
+            font-size: clamp(1.15rem, 2.5vw, 1.4rem);
+            line-height: 2;
+            color: var(--text-secondary, #c4bfb5);
+            margin-bottom: 1rem;
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+        }
+        .math-equation strong {
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+        .math-equation .eq-result {
+            color: var(--accent-ember);
+            font-weight: 700;
+        }
+        .math-final {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+            font-size: clamp(1.25rem, 3vw, 1.75rem);
+            color: var(--accent-gold);
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        /* Closing pages */
+        .twoarms-close {
+            max-width: 880px;
+            margin: 5rem auto;
+            padding: 0 1.5rem;
+        }
+        .twoarms-close p {
+            color: var(--text-secondary, #c4bfb5);
+            font-size: 1.1rem;
+            line-height: 1.75;
+            margin-bottom: 1.3rem;
+        }
+        .twoarms-close p strong {
+            color: var(--accent-gold);
+        }
+        .twoarms-close blockquote {
+            padding: 1.5rem 2rem;
+            background: rgba(212, 162, 84, 0.06);
+            border-left: 3px solid var(--accent-gold);
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--text-primary, #f0ece4);
+            font-size: 1.1rem;
+            line-height: 1.65;
+            border-radius: 4px;
+        }
+        .twoarms-close blockquote cite {
+            display: block;
+            margin-top: 0.75rem;
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            color: var(--accent-gold);
+            font-style: normal;
+        }
+
+        .journey-pairs {
+            max-width: 1100px;
+            margin: 4rem auto;
+            padding: 0 1.5rem;
+        }
+        .journey-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .journey-title .eyebrow {
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.82rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-ember);
+            margin-bottom: 1rem;
+            display: block;
+        }
+        .journey-title h2 {
+            font-size: clamp(2rem, 4.5vw, 3rem);
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .journey-pair {
+            display: grid;
+            grid-template-columns: 1fr 60px 1fr;
+            gap: 1rem;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            background: rgba(212, 162, 84, 0.04);
+            border: 1px solid rgba(212, 162, 84, 0.15);
+            border-radius: 10px;
+            padding: 1.25rem;
+        }
+        @media (max-width: 768px) {
+            .journey-pair { grid-template-columns: 1fr; }
+        }
+        .journey-pair a {
+            display: block;
+            padding: 1.1rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text-primary, #f0ece4);
+            transition: all 0.2s ease;
+        }
+        .journey-pair a:hover {
+            background: rgba(212, 162, 84, 0.08);
+            transform: translateY(-2px);
+        }
+        .journey-pair .pair-tag {
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.7rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            margin-bottom: 0.4rem;
+        }
+        .journey-pair .left-tag { color: var(--accent-ember); }
+        .journey-pair .right-tag { color: var(--accent-gold); }
+        .journey-pair .pair-title {
+            font-size: 1.05rem;
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+        .journey-pair .pair-desc {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: var(--text-secondary, #c4bfb5);
+        }
+        .journey-pair .pair-arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-gold);
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            writing-mode: horizontal-tb;
+        }
+    </style>
+</head>
+<body>
+
+<nav role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+        <a href="/" class="nav-site-name">Adopted by Grace</a>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <ul class="nav-links">
+            <li class="mobile-menu-search" style="list-style:none;">
+                <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+            </li>
+            <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+            <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+            <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+            <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+            <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+            <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+            <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+            <li class="mobile-nav-link"><a href="/theologians">Theologians</a></li>
+            <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+            <li class="mobile-nav-link"><a href="/about">About</a></li>
+            <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+            <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+            <a href="/start-here" class="nav-top-link">Start Here</a>
+            <a href="/questions" class="nav-top-link">Questions</a>
+            <a href="/systematic-theology" class="nav-top-link">Theology</a>
+            <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+            <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+            <a href="/theologians" class="nav-top-link">Theologians</a>
+            <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+            <a href="/about" class="nav-top-link">About</a>
+            <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                <span class="mega-menu-toggle-label">Explore</span>
+            </button>
+            <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<div class="mega-menu" id="megaMenu"></div>
+
+<div class="search-overlay" id="searchOverlay">
+    <div class="search-overlay-inner">
+        <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+        <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+</div>
+
+<header class="twoarms-hero page-hero">
+    <span class="eyebrow">The Architecture of This Site</span>
+    <h1>The Two Arms</h1>
+    <p class="subtitle">One arm tears down the lie that you saved yourself. The other arm catches you when you fall. You are never given one without the other — because truth without love destroys, and love without truth coddles. Here, both arms move together.</p>
+</header>
+
+<article class="article-body">
+
+    <div class="twoarms-split">
+        <div class="twoarms-panel left">
+            <div class="panel-tag left">The Left Arm</div>
+            <h2 class="panel-title"><span>Demolition</span></h2>
+            <p class="panel-body">The left arm is the one that swings the hammer. It demolishes the lie — from every angle — until there is <strong>nowhere left to hide</strong>. Psychology. Philosophy. Scripture. History. Neuroscience. Analogy. Testimony. Each swing another escape route sealed. Each swing another redefined word exposed. Each swing another comfortable half-truth burned away.</p>
+            <p class="panel-body">You cannot be rescued from a prison you do not know you are in. So first — the walls have to be named. The bars have to be visible. The lock on the inside of the door has to be identified as a lock, not a handle. <strong>Demolition is not cruelty. Demolition is the first act of mercy.</strong> It is the surgeon's incision. It is the first crack in the cell wall. Without it, nothing else can begin.</p>
+            <div class="panel-verse">
+                "The word of God is alive and active. Sharper than any double-edged sword, it penetrates even to dividing soul and spirit, joints and marrow; it judges the thoughts and attitudes of the heart."
+                <cite>— HEBREWS 4:12</cite>
+            </div>
+            <p class="panel-body">Every page in the left arm exists for one purpose: <em>to make the reader see what is actually in the mirror</em>. Not to shame them. Not to despair them. To <strong>wake them</strong>. Because the one who sees truly becomes the one who can be saved truly.</p>
+
+            <div class="panel-links">
+                <a href="/demolition-hub" class="panel-link"><span class="link-title">Demolition Hub →</span>Every verse they quote, every objection they raise, walked through until the wall falls.</a>
+                <a href="/the-fork" class="panel-link"><span class="link-title">The Fork →</span>The Socratic trap — eight steps that walk the reader into inescapable truth.</a>
+                <a href="/the-mirror" class="panel-link"><span class="link-title">The Mirror →</span>Twelve questions about your heart, with Scripture's reveal for each honest answer.</a>
+                <a href="/psychology-hub" class="panel-link"><span class="link-title">Why We Resist →</span>The psychology of a heart that will lie to itself about God to protect the self.</a>
+                <a href="/questions" class="panel-link"><span class="link-title">Questions →</span>Every honest question a searching soul has ever asked, met with a careful answer.</a>
+            </div>
+        </div>
+
+        <div class="twoarms-divider">AND</div>
+
+        <div class="twoarms-panel right">
+            <div class="panel-tag right">The Right Arm</div>
+            <h2 class="panel-title"><span>Devotion</span></h2>
+            <p class="panel-body">The right arm is the one that catches the one who just fell. When the wall comes down, the reader does not land in a comfortable place. They land in <strong>terror</strong>. <em>If I did not choose God — if I have no control — if my salvation was never in my hands —</em> that is the moment the ground disappears. And if nothing catches them there, they shatter. They run for a decade. Aaron ran for a decade.</p>
+            <p class="panel-body">So the right arm is waiting. It is the devotional that says <em>He will never let you go</em>. It is the testimony from someone who went through this exact crisis. It is the page that shows you what it feels like when God breaks your self-trust and <strong>replaces it with Himself</strong>. It is the whisper after the thunder: <em>"Peace, be still. You were held all along."</em></p>
+            <div class="panel-verse">
+                "He tends his flock like a shepherd: He gathers the lambs in his arms and carries them close to his heart; he gently leads those that have young."
+                <cite>— ISAIAH 40:11</cite>
+            </div>
+            <p class="panel-body">Every page in the right arm exists for one purpose: <em>to tell the freshly-demolished soul that the God who broke them is the God who loves them</em>. That the ground that disappeared was never the real ground. That the real ground was always — and will always be — the <strong>everlasting arms</strong> that have been under them since before they were born.</p>
+
+            <div class="panel-links">
+                <a href="/devotionals" class="panel-link"><span class="link-title">Rest in Grace →</span>Short devotional pieces for the soul that just put down the burden it was never carrying.</a>
+                <a href="/devotional-never-gives-up" class="panel-link"><span class="link-title">He Never Gives Up →</span>For every time you are sure He must be tired of you by now.</a>
+                <a href="/broken-mirror-hub" class="panel-link"><span class="link-title">The Broken Mirror →</span>Healing for the self-image that just cracked.</a>
+                <a href="/anxious-mind-hub" class="panel-link"><span class="link-title">The Anxious Mind →</span>When the new ground feels like falling, until you learn it is holding.</a>
+                <a href="/open-wound-hub" class="panel-link"><span class="link-title">The Open Wound →</span>For the griefs the demolition uncovered that no one else will name.</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="twoarms-math">
+        <div class="math-title">The Arithmetic of Rescue</div>
+        <div class="math-equation">Demolition <strong>without</strong> devotion &nbsp;=&nbsp; <span class="eq-result">Despair</span></div>
+        <div class="math-equation">Devotion <strong>without</strong> demolition &nbsp;=&nbsp; <span class="eq-result">Complacency</span></div>
+        <div class="math-equation" style="color: var(--accent-gold); font-weight: 700;">Demolition <strong style="color:var(--accent-gold);">+</strong> Devotion &nbsp;=&nbsp; <span style="color: var(--accent-gold);">Transformation</span></div>
+        <div class="math-final">Every page on this site participates in the third. Never the first two.</div>
+    </section>
+
+    <div class="twoarms-close">
+        <p>If you grew up in a church that softened the edges and gave everyone permission to stay comfortable, the left arm will feel cruel at first. You were told truth is mostly flattering. You were told grace is mostly affirming. You were told Jesus is mostly agreeing. You were told the purpose of the Sunday sermon is to leave you <em>encouraged</em>. You will feel, on the demolition pages, that something has gone wrong — as if you have stumbled into a harsher Christianity than the one you knew.</p>
+
+        <p>It has not gone wrong. What has happened is you have walked, possibly for the first time in your life, into a Christianity that <strong>actually loves you enough to tell you the truth</strong>. A surgeon who refused to cut would not be merciful. A doctor who refused to diagnose would not be kind. A theology that refused to name the disease would not be good news — it would be a pleasant lie offered beside a coffin.</p>
+
+        <blockquote>
+            "The LORD disciplines those he loves, as a father the son he delights in."
+            <cite>— PROVERBS 3:12</cite>
+        </blockquote>
+
+        <p>And if you grew up in a church that swung only the hammer — where every sermon was a diagnosis and no sermon was a balm, where every text was a warning and no text was a comfort, where every prayer was a confession and no prayer was a resting — the right arm will feel suspicious at first. You will wonder if the comfort is a trick. You will wonder if the God being described is too soft to be the God who made the universe. You will reach for the hammer, because the hammer is what you know.</p>
+
+        <p>Put the hammer down. You are not being asked to abandon truth for comfort. You are being handed, for the first time in many cases, <strong>the comfort that was always underneath the truth</strong>. The God who convicted you of your deadness is the same God who made you alive. The God who showed you the depth of your sin is the same God who drowned that sin in the ocean of His Son's blood. <em>The hand that broke you is the hand that heals you.</em> It was always the same hand.</p>
+
+        <blockquote>
+            "He has torn us to pieces but he will heal us; he has injured us but he will bind up our wounds."
+            <cite>— HOSEA 6:1</cite>
+        </blockquote>
+
+        <p>This is why every page on this site — if it is doing its job — will move between the arms without ceasing. A demolition page will end in a catch. A devotional will point back to a hard truth. A question page will land in a promise. A healing page will trace the source of the wound. Neither arm will ever operate alone. <strong>Sword and balm. Truth that wounds. Love that heals.</strong> The God of Scripture is both, and His people were never meant to be given only one.</p>
+    </div>
+
+    <section class="journey-pairs">
+        <div class="journey-title">
+            <span class="eyebrow">Walk the Arms Together</span>
+            <h2>Six pairings. Each hard truth, matched to its catch.</h2>
+        </div>
+
+        <div class="journey-pair">
+            <a href="/the-fork">
+                <div class="pair-tag left-tag">Left Arm · Demolition</div>
+                <div class="pair-title">The Fork</div>
+                <div class="pair-desc">The Socratic trap: if faith is a gift, where did your faith come from? Eight inescapable steps.</div>
+            </a>
+            <div class="pair-arrow">→ THEN →</div>
+            <a href="/devotional-never-gives-up">
+                <div class="pair-tag right-tag">Right Arm · Devotion</div>
+                <div class="pair-title">He Never Gives Up</div>
+                <div class="pair-desc">The rest for the one who just learned they were never the one holding on.</div>
+            </a>
+        </div>
+
+        <div class="journey-pair">
+            <a href="/the-mirror">
+                <div class="pair-tag left-tag">Left Arm · Demolition</div>
+                <div class="pair-title">The Mirror</div>
+                <div class="pair-desc">Twelve questions about your heart. Scripture's answer for every honest response.</div>
+            </a>
+            <div class="pair-arrow">→ THEN →</div>
+            <a href="/broken-mirror-hub">
+                <div class="pair-tag right-tag">Right Arm · Devotion</div>
+                <div class="pair-title">The Broken Mirror</div>
+                <div class="pair-desc">Healing for the self-image that just cracked — including the one you didn't know was a cage.</div>
+            </a>
+        </div>
+
+        <div class="journey-pair">
+            <a href="/systematic-hamartiology">
+                <div class="pair-tag left-tag">Left Arm · Demolition</div>
+                <div class="pair-title">What "Dead" Actually Means</div>
+                <div class="pair-desc">The full doctrine of total depravity — not the caricature, the reality.</div>
+            </a>
+            <div class="pair-arrow">→ THEN →</div>
+            <a href="/the-golden-chain">
+                <div class="pair-tag right-tag">Right Arm · Devotion</div>
+                <div class="pair-title">The Golden Chain</div>
+                <div class="pair-desc">Romans 8:29-30 walked link by link. Five links forged before time. Not one fails.</div>
+            </a>
+        </div>
+
+        <div class="journey-pair">
+            <a href="/question-faithgift">
+                <div class="pair-tag left-tag">Left Arm · Demolition</div>
+                <div class="pair-title">Faith Itself Is a Gift</div>
+                <div class="pair-desc">The Crown Jewel argument — that claiming credit for your faith is the very works-righteousness Scripture condemns.</div>
+            </a>
+            <div class="pair-arrow">→ THEN →</div>
+            <a href="/devotionals">
+                <div class="pair-tag right-tag">Right Arm · Devotion</div>
+                <div class="pair-title">Rest in Grace</div>
+                <div class="pair-desc">The arms that catch the one who finally stops pretending they contributed anything.</div>
+            </a>
+        </div>
+
+        <div class="journey-pair">
+            <a href="/psychology-hub">
+                <div class="pair-tag left-tag">Left Arm · Demolition</div>
+                <div class="pair-title">Why We Resist</div>
+                <div class="pair-desc">The psychology of a heart that will rewrite its own Bible rather than surrender the throne.</div>
+            </a>
+            <div class="pair-arrow">→ THEN →</div>
+            <a href="/anxious-mind-hub">
+                <div class="pair-tag right-tag">Right Arm · Devotion</div>
+                <div class="pair-title">The Anxious Mind</div>
+                <div class="pair-desc">When the new ground feels like falling — until you realize it is the arms that have always been there.</div>
+            </a>
+        </div>
+
+        <div class="journey-pair">
+            <a href="/demolition-hub">
+                <div class="pair-tag left-tag">Left Arm · Demolition</div>
+                <div class="pair-title">Demolition Hub</div>
+                <div class="pair-desc">Every Arminian proof-text walked through verse by verse until the objection dissolves.</div>
+            </a>
+            <div class="pair-arrow">→ THEN →</div>
+            <a href="/open-wound-hub">
+                <div class="pair-tag right-tag">Right Arm · Devotion</div>
+                <div class="pair-title">The Open Wound</div>
+                <div class="pair-desc">Healing for the griefs the demolition uncovered that no one else will name.</div>
+            </a>
+        </div>
+    </section>
+
+    <div class="twoarms-close" style="text-align: center;">
+        <p style="font-size: 1.35rem; color: var(--accent-gold); font-style: italic; line-height: 1.55;">You were not meant for one arm.</p>
+        <p style="font-size: 1.35rem; color: var(--accent-gold); font-style: italic; line-height: 1.55;">You were meant to be held by both.</p>
+    </div>
+
+</article>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Truth</h4>
+            <ul>
+                <li><a href="/questions">Questions</a></li>
+                <li><a href="/systematic-theology">Systematic Theology</a></li>
+                <li><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Explore</h4>
+            <ul>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li><a href="/devotionals">Devotionals</a></li>
+                <li><a href="/the-fork">The Fork</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Site</h4>
+            <ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-grace-warning">
+        "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+        Grace is not a license to sin. It is the power that frees us from sin's dominion.
+    </div>
+    <div class="footer-copyright">
+        <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="/nav.js"></script>
+
+</body>
+</html>

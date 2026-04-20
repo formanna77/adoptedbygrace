@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Objection Collapse | Adopted by Grace</title>
+    <meta name="description" content="Pick any Arminian objection. Watch Scripture walk it to the ground. Twelve objections, twelve collapses — in interactive form.">
+    <link rel="canonical" href="https://adoptedbygrace.net/the-objection-collapse">
+    <meta property="og:title" content="The Objection Collapse — Arminian Objections, Answered">
+    <meta property="og:description" content="Twelve objections Arminians raise against sovereign grace. Pick one. Watch Scripture walk it to the ground.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/the-objection-collapse">
+    <meta name="keywords" content="Arminian objections, sovereign grace, free will, whosoever will, 2 Peter 3:9, 1 Timothy 2:4, John 3:16, interactive">
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        .obj-hero {
+            text-align: center;
+            padding: 4rem 1.5rem 2rem;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.15);
+        }
+        .obj-hero .eyebrow {
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.82rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin-bottom: 1rem;
+        }
+        .obj-hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            line-height: 1.05;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+        .obj-hero .subtitle {
+            max-width: 720px;
+            margin: 0 auto;
+            color: var(--text-secondary, #c4bfb5);
+            font-size: 1.15rem;
+            line-height: 1.65;
+        }
+
+        .obj-stage {
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .obj-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+        .obj-tile {
+            padding: 1.5rem;
+            background: linear-gradient(155deg, rgba(232, 100, 44, 0.06), rgba(139, 92, 246, 0.04));
+            border: 1px solid rgba(232, 100, 44, 0.25);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            text-align: left;
+            font-family: inherit;
+            color: var(--text-primary, #f0ece4);
+        }
+        .obj-tile:hover {
+            border-color: var(--accent-ember);
+            background: linear-gradient(155deg, rgba(232, 100, 44, 0.12), rgba(139, 92, 246, 0.06));
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(232, 100, 44, 0.15);
+        }
+        .obj-tile.active {
+            border-color: var(--accent-gold);
+            background: linear-gradient(155deg, rgba(212, 162, 84, 0.15), rgba(232, 100, 44, 0.06));
+            box-shadow: 0 0 0 2px rgba(212, 162, 84, 0.3), 0 15px 40px rgba(212, 162, 84, 0.2);
+        }
+        .obj-tile-num {
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.72rem;
+            letter-spacing: 0.2em;
+            color: var(--accent-ember);
+            margin-bottom: 0.5rem;
+        }
+        .obj-tile.active .obj-tile-num {
+            color: var(--accent-gold);
+        }
+        .obj-tile-claim {
+            font-size: 1rem;
+            line-height: 1.45;
+            color: var(--text-primary, #f0ece4);
+            font-style: italic;
+        }
+
+        .obj-theater {
+            background: linear-gradient(155deg, rgba(10, 10, 15, 0.9), rgba(25, 18, 10, 0.4));
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            border-radius: 14px;
+            padding: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 2rem;
+            min-height: 300px;
+            position: relative;
+        }
+        .obj-theater.empty {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--text-secondary, #c4bfb5);
+            font-style: italic;
+            opacity: 0.7;
+        }
+
+        .obj-claim-box {
+            padding: 1.5rem 1.8rem;
+            background: rgba(232, 100, 44, 0.08);
+            border-left: 4px solid var(--accent-ember);
+            border-radius: 6px;
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+            line-height: 1.55;
+            color: var(--text-primary, #f0ece4);
+            font-style: italic;
+        }
+        .obj-claim-box .claim-tag {
+            display: block;
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-ember);
+            margin-bottom: 0.6rem;
+            font-style: normal;
+        }
+
+        .obj-response {
+            opacity: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: opacity 0.6s ease, max-height 0.8s ease, padding 0.6s ease, margin 0.6s ease;
+        }
+        .obj-response.visible {
+            opacity: 1;
+            max-height: 5000px;
+        }
+
+        .obj-step {
+            margin-bottom: 2rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        .obj-step.in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .obj-step-label {
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.78rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+        .obj-step-text {
+            font-size: 1.08rem;
+            line-height: 1.7;
+            color: var(--text-secondary, #c4bfb5);
+            margin-bottom: 0.75rem;
+        }
+        .obj-step-text strong {
+            color: var(--accent-gold);
+            font-weight: 500;
+        }
+        .obj-step-text em {
+            color: var(--text-primary, #f0ece4);
+            font-style: italic;
+        }
+        .obj-scripture {
+            padding: 1.2rem 1.4rem;
+            background: rgba(212, 162, 84, 0.06);
+            border-left: 3px solid var(--accent-gold);
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+        .obj-scripture-text {
+            font-style: italic;
+            line-height: 1.65;
+            color: var(--text-primary, #f0ece4);
+            margin-bottom: 0.4rem;
+        }
+        .obj-scripture-ref {
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.78rem;
+            letter-spacing: 0.15em;
+            color: var(--accent-gold);
+        }
+
+        .obj-collapse {
+            margin-top: 2rem;
+            padding: 1.8rem 2rem;
+            background: radial-gradient(circle at center, rgba(212, 162, 84, 0.15), transparent 75%);
+            border-top: 1px solid rgba(212, 162, 84, 0.3);
+            border-bottom: 1px solid rgba(212, 162, 84, 0.3);
+            text-align: center;
+        }
+        .obj-collapse-label {
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.78rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-ember);
+            margin-bottom: 1rem;
+        }
+        .obj-collapse-text {
+            font-size: 1.25rem;
+            line-height: 1.6;
+            color: var(--accent-gold);
+            font-style: italic;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .obj-close {
+            max-width: 900px;
+            margin: 4rem auto;
+            padding: 0 1.5rem;
+        }
+        .obj-close p {
+            color: var(--text-secondary, #c4bfb5);
+            font-size: 1.08rem;
+            line-height: 1.75;
+            margin-bottom: 1.25rem;
+        }
+        .obj-close p strong {
+            color: var(--accent-gold);
+        }
+
+        .obj-cta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+        .obj-cta a {
+            display: block;
+            padding: 1.4rem;
+            background: rgba(212, 162, 84, 0.06);
+            border: 1px solid rgba(212, 162, 84, 0.2);
+            border-radius: 10px;
+            text-decoration: none;
+            color: var(--text-primary, #f0ece4);
+            transition: all 0.25s ease;
+        }
+        .obj-cta a:hover {
+            background: rgba(212, 162, 84, 0.12);
+            border-color: var(--accent-gold);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(212, 162, 84, 0.2);
+        }
+        .obj-cta-tag {
+            font-family: var(--font-mono, 'JetBrains Mono', monospace);
+            font-size: 0.72rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin-bottom: 0.4rem;
+        }
+        .obj-cta-title {
+            font-size: 1.1rem;
+            color: var(--accent-gold);
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+        }
+        .obj-cta-desc {
+            font-size: 0.92rem;
+            line-height: 1.5;
+            color: var(--text-secondary, #c4bfb5);
+        }
+    </style>
+</head>
+<body>
+
+<nav role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+        <a href="/" class="nav-site-name">Adopted by Grace</a>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <ul class="nav-links">
+            <li class="mobile-menu-search" style="list-style:none;">
+                <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+            </li>
+            <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+            <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+            <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+            <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+            <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+            <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+            <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+            <li class="mobile-nav-link"><a href="/theologians">Theologians</a></li>
+            <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+            <li class="mobile-nav-link"><a href="/about">About</a></li>
+            <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+            <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+            <a href="/start-here" class="nav-top-link">Start Here</a>
+            <a href="/questions" class="nav-top-link">Questions</a>
+            <a href="/systematic-theology" class="nav-top-link">Theology</a>
+            <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+            <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+            <a href="/theologians" class="nav-top-link">Theologians</a>
+            <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+            <a href="/about" class="nav-top-link">About</a>
+            <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                <span class="mega-menu-toggle-label">Explore</span>
+            </button>
+            <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<div class="mega-menu" id="megaMenu"></div>
+
+<div class="search-overlay" id="searchOverlay">
+    <div class="search-overlay-inner">
+        <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+        <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+</div>
+
+<header class="page-hero obj-hero">
+    <span class="eyebrow">Interactive · Demolition</span>
+    <h1>The Objection Collapse</h1>
+    <p class="subtitle">Pick any Arminian objection. Watch what happens when Scripture — the whole of Scripture, not a single proof-text — walks it to the ground. Twelve objections. Twelve collapses. No escape hatches.</p>
+</header>
+
+<article class="article-body">
+    <div class="obj-stage">
+
+        <div class="obj-grid" id="objGrid"></div>
+
+        <div class="obj-theater empty" id="objTheater">
+            <p>↑ Pick an objection above.</p>
+            <p style="font-size: 0.95rem; opacity: 0.7; margin-top: 0.5rem;">The one you have raised. The one someone raised against you. The one you can't quite answer.</p>
+        </div>
+
+    </div>
+
+    <div class="obj-close">
+        <p>Notice what happened. Not a single one of these objections was dismissed with a sneer. Not a single one was shouted down. Each was heard, honored as a real concern, and then <strong>walked carefully through Scripture</strong> until the sharper edge of the Bible itself answered it.</p>
+        <p>If you have been told that the <a href="/systematic-salvation">doctrines of grace</a> require you to ignore verses, flatten verses, or explain verses away, you have been told a lie by people who have not read the whole Bible on this. The <a href="/systematic-salvation">doctrines of grace</a> do not ignore "<a href="/question-whosoever">whosoever</a> will." They let "<a href="/question-whosoever">whosoever</a> will" mean <em>whosoever will</em> — and then they let the Bible tell you where the <em>will</em> comes from. The doctrines of grace do not delete God's love for the world. They let the world mean the world — and then they let the Bible tell you what <em>love</em> accomplishes when God is the subject of the verb.</p>
+        <p><strong>The difference between sovereign grace and resistible grace is not that one respects the text and the other doesn't.</strong> The difference is that sovereign grace lets every word of the text stand at its full weight, and resistible grace has to keep shrinking certain words to make its system work. If Jesus <em>draws</em> everyone but most resist, then "drawing" has to mean something other than what the Greek says it means. If God <em>wills</em> everyone to be saved and most aren't, then God's will has to mean something other than what it means when He wills a universe into existence. At a certain point, the Bible stops being allowed to speak for itself.</p>
+        <p>On this side of the divide, we let it speak. And when it speaks, this is what it says.</p>
+    </div>
+
+    <section class="obj-cta">
+        <a href="/the-fork">
+            <div class="obj-cta-tag">Next Interactive</div>
+            <div class="obj-cta-title">The Fork</div>
+            <div class="obj-cta-desc">With every objection answered, only one question remains: where did your faith come from?</div>
+        </a>
+        <a href="/demolition-hub">
+            <div class="obj-cta-tag">Deeper Dives</div>
+            <div class="obj-cta-title">Every Verse, Every Angle</div>
+            <div class="obj-cta-desc">Each of these twelve objections has a dedicated long-form page. Walk the full argument.</div>
+        </a>
+        <a href="/scripture-tsunami">
+            <div class="obj-cta-tag">Scripture</div>
+            <div class="obj-cta-title">Scripture Tsunami</div>
+            <div class="obj-cta-desc">A flood of passages on God's sovereignty in salvation — page after page, book after book.</div>
+        </a>
+        <a href="/devotional-never-gives-up">
+            <div class="obj-cta-tag">Catch</div>
+            <div class="obj-cta-title">He Never Gives Up</div>
+            <div class="obj-cta-desc">A rest after the demolition, for the soul that just saw every wall come down at once.</div>
+        </a>
+    </section>
+
+</article>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Truth</h4>
+            <ul>
+                <li><a href="/questions">Questions</a></li>
+                <li><a href="/systematic-theology">Systematic Theology</a></li>
+                <li><a href="/demolition-hub">Demolition</a></li>
+                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Explore</h4>
+            <ul>
+                <li><a href="/start-here">Start Here</a></li>
+                <li><a href="/theologians">Theologians</a></li>
+                <li><a href="/devotionals">Devotionals</a></li>
+                <li><a href="/the-fork">The Fork</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Site</h4>
+            <ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-grace-warning">
+        "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+        Grace is not a license to sin. It is the power that frees us from sin's dominion.
+    </div>
+    <div class="footer-copyright">
+        <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="/nav.js"></script>
+<script>
+(function() {
+    const objections = [
+        {
+            claim: "\"God so loved the WORLD — John 3:16 proves He loves everyone equally and wants everyone saved.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "John 3:16 is the verse every child learns first. <em>For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life.</em> And yes — the word <em>world</em> matters. And yes — God's love is real. No one walks away from this verse unaffected by the love in it. The objection is not wrong to feel the weight." },
+                { label: "Read the whole text, not the bumper sticker", text: "But read the next verse. <em>Whoever believes is not condemned, but whoever does not believe stands condemned already.</em> The verse is not telling us that everyone is loved equally and will therefore be saved. It is telling us that those who believe will not perish — and immediately clarifying that many will not believe and will therefore be condemned. The same God who loved the world has also <em>condemned</em> part of it. The verse sorts humanity into two groups, not one." },
+                { label: "What the Greek actually says about 'world'", text: "The word <em>kosmos</em> in John's writings does not mean \"every single individual ever.\" John uses <em>kosmos</em> in at least ten different senses — sometimes meaning the physical creation, sometimes the inhabited earth, sometimes the ethnic boundary being broken, sometimes the system of evil. In John 17:9, Jesus says, <em>\"I pray for them. I am not praying for the world, but for those you have given me.\"</em> If <em>world</em> always meant \"every individual,\" Jesus would be refusing to pray for those He just said God loves. The word flexes — and the context tells you what it means." },
+                { label: "The better reading", text: "<em>Kosmos</em> in John 3:16 almost certainly means \"the world as a category\" — not just Jews, but Gentiles too. Not just Israel, but every nation. The verse is announcing the scope of the mission: God's love is going out to <strong>the whole world</strong>, Jew and Gentile alike, people from every tribe and tongue. And the ones who will believe — from every one of those tribes and tongues — will be saved. John 3:16 is not a promise of universal salvation. It is the charter of global mission." }
+            ],
+            scripture: { text: "\"You are worthy to take the scroll and to open its seals, because you were slain, and with your blood you purchased for God persons from every tribe and language and people and nation.\"", ref: "REVELATION 5:9" },
+            collapse: "God's love for the world did not result in everyone being saved. It resulted in a people — from every tribe, every tongue, every nation — being purchased. That is the world He loved, and that is the world that was saved."
+        },
+        {
+            claim: "\"God is not willing that any should perish — 2 Peter 3:9 proves He wants everyone saved.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "2 Peter 3:9 is the most-quoted objection to sovereign grace, and it deserves a real answer. <em>The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance.</em> On the surface it appears universal. So the question becomes: <strong>who is the 'you' in that verse?</strong>" },
+                { label: "Who is Peter writing to?", text: "The letter is addressed in its opening line: <em>\"To those who through the righteousness of our God and Savior Jesus Christ have received a faith as precious as ours.\"</em> (2 Peter 1:1) Peter is not writing to humanity in general. He is writing to <strong>believers</strong>. Specifically, to believers who are asking why Jesus has not yet returned." },
+                { label: "Read the verse in context", text: "The entire paragraph is answering the question: why the delay? Peter's answer is <em>because God is being patient — with you — because He does not want any of YOU to perish, but all of YOU to come to repentance</em>. The \"you\" is the congregation. The \"any\" refers back to that \"you.\" Peter is saying: the reason Christ has not yet returned is that not all of God's chosen people have been gathered in yet. He is waiting for every last one of His elect to come to repentance — and then He will return." },
+                { label: "The better reading", text: "This is not a verse about God's failed universal desire. It is a verse about <strong>God's unstoppable, patient commitment to gather every one of His people</strong>. Not one of them will perish. Not one. The delay of the second coming is grace in motion — because every day He waits is a day another elect soul is being called home. When Peter says \"not wanting anyone to perish,\" he is saying exactly what every other passage says: God will not lose a single sheep. The verse is not weaker than sovereign grace. It <em>requires</em> sovereign grace." }
+            ],
+            scripture: { text: "\"And this is the will of him who sent me, that I shall lose none of all those he has given me, but raise them up at the last day.\"", ref: "JOHN 6:39" },
+            collapse: "God does not want any of His people to perish. And none of them will. That is not the Arminian position. That is the sovereign-grace position. 2 Peter 3:9 belongs to us."
+        },
+        {
+            claim: "\"God desires all people to be saved — 1 Timothy 2:4 says so.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "<em>God our Savior, who wants all people to be saved and to come to a knowledge of the truth.</em> (1 Tim 2:4) The objection is: if God wants everyone saved, and not everyone is saved, then God must not be sovereign — His desire failed. The objection treats this verse as if it is the only data." },
+                { label: "Two Greek words for 'want'", text: "The New Testament distinguishes between two kinds of divine will. There is <em>thelēma</em> — often used for God's decree, the thing He has determined will happen. And there is <em>thelēma</em> used more broadly for what pleases or delights God, even if He has not decreed it. (The word is the same; the usage shifts by context.) God can be said to \"wish\" no one would perish in one sense, while also <em>decreeing</em> that only the elect will not perish in another. This is not contradiction — this is the normal distinction between what someone <em>prefers</em> and what someone <em>ordains</em>." },
+                { label: "Read the context", text: "The verse immediately before is the key. <em>\"I urge, then, first of all, that petitions, prayers, intercession and thanksgiving be made for <strong>all people</strong> — for kings and all those in authority...\"</em> Paul is urging prayer for <em>every kind</em> of person — including pagan emperors, which would have been shocking to a Jewish audience who assumed only certain people were candidates for God's mercy. The \"all people\" in verse 4 almost certainly mirrors the \"all people\" in verse 1 — meaning <strong>all sorts of people, from every station</strong>, not every single individual without exception." },
+                { label: "The better reading", text: "Paul is saying: the gospel is not for one class of person. It is not for Jews only, not for the poor only, not for the uneducated only. God wants <em>all kinds</em> of people saved — including kings, emperors, the mighty, the lowly, every strata of humanity. This is a <strong>global mission verse</strong>, not a universal salvation verse. It is commissioning the church to pray for and evangelize every category of person. And every category will, in fact, be represented in heaven. Not every individual. Every category." }
+            ],
+            scripture: { text: "\"Our God is in heaven; he does whatever pleases him.\"", ref: "PSALM 115:3" },
+            collapse: "If God truly wanted every individual saved in the decretive sense, every individual would be saved. God's will is not frustrated. When God wants something decisively, it happens. What He wants from 1 Timothy 2 is a people from every tribe — and that is exactly what He gets."
+        },
+        {
+            claim: "\"'Whosoever will may come' — the Bible offers salvation to all, so choice is up to us.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "Revelation 22:17. <em>\"Whoever wishes, let him take the water of life freely.\"</em> The objection: if 'whosoever' can come, then the determining factor is the person's will. Sovereign grace must be false." },
+                { label: "The verse is absolutely true", text: "Let us agree completely. Whoever wishes may come. Whoever wills may drink. The invitation is universal. There is no one turned away at the door for any reason other than unwillingness. If you are willing to come, nothing stops you. This is the gospel's unrestricted call." },
+                { label: "The question sovereign grace asks", text: "Where does the willingness come from? Scripture's answer is not ambiguous. <em>\"No one can come to me unless the Father who sent me draws them.\"</em> (John 6:44) <em>\"You did not choose me, but I chose you.\"</em> (John 15:16) <em>\"It is God who works in you to will and to act in order to fulfill his good purpose.\"</em> (Philippians 2:13) The <em>will</em> to come is itself a gift. \"Whosoever will\" is completely true — and the reason certain souls <em>will</em> is that God has given them the willingness." },
+                { label: "The better reading", text: "The invitation is open to everyone. The <strong>ability to accept</strong> the invitation belongs only to those the Father draws. A dead man cannot respond to an invitation, no matter how universal. A corpse does not 'will.' So when the Spirit comes and raises the dead man, the corpse now wills — and because it now wills, it comes. The verse is not a contradiction of sovereign grace. It is the <em>gospel call</em> that accompanies sovereign grace's effectual call." }
+            ],
+            scripture: { text: "\"All that the Father gives me will come to me, and whoever comes to me I will never drive away.\"", ref: "JOHN 6:37" },
+            collapse: "Whosoever will, may come. And those who will, will, because the Father has drawn them. There is no contradiction. Both clauses are equally true. Both are equally biblical."
+        },
+        {
+            claim: "\"If God predestines people, then we are robots — we don't really choose anything.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "This is the instinctive objection every new hearer of sovereign grace raises. If God decreed it, how can I be said to have chosen it? If He determined my response, my response is not really mine. It is a fair instinct — so it deserves a careful answer." },
+                { label: "Scripture's paradox held as paradox", text: "The Bible does not treat divine sovereignty and human responsibility as a contradiction to resolve. It treats them as twin truths to hold. Acts 2:23 says the crucifixion happened <em>\"by God's deliberate plan and foreknowledge\"</em> and also that <em>\"you, with the help of wicked men, put him to death.\"</em> Both. God planned it. Wicked men chose it. Neither cancels the other. The most important event in the universe is described as simultaneously fully sovereign and fully voluntary." },
+                { label: "What is a robot, really?", text: "A robot is an entity whose responses are determined by external mechanical force acting on an unwilling subject. <strong>That is the opposite of what sovereign grace teaches.</strong> The Spirit does not override your will — He <em>changes</em> it. He gives you a new want. When you come to Christ, you come because you finally <em>want to</em>. Your coming is the most voluntary thing you have ever done in your life. The only difference between this and 'robotic' is that the want itself was given. But no one calls themselves a robot for wanting water when they are thirsty. They say, 'I'm thirsty, so I drank.' Sovereign grace says the same thing — 'I was made hungry for God, so I came.'" },
+                { label: "The better reading", text: "You are not less human because God made you new. You are more human. You are, for the first time, capable of wanting what your deepest nature was always meant to want. <strong>Sovereign grace does not make you a robot. It makes you, finally, free.</strong> The un-free person is the one whose will is bound to sin and who cannot choose otherwise. The free person is the one whose will has been liberated to want its true home." }
+            ],
+            scripture: { text: "\"If the Son sets you free, you will be free indeed.\"", ref: "JOHN 8:36" },
+            collapse: "The elect are not robots. They are humans whose wills have been liberated from slavery. The bondage was Arminianism's assumption — the freedom is what sovereign grace actually delivers."
+        },
+        {
+            claim: "\"If God chooses some and not others, He is unfair.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "This is the emotional objection at the core of all the others. Something in you rebels. <em>If God chose some and passed over others, how is that just? How can He hold people accountable for a response they were never enabled to give?</em> The instinct is not wrong to ask — but it is working with a flawed starting assumption." },
+                { label: "The assumption behind the objection", text: "The objection presupposes that humanity starts neutral — that God is choosing between morally innocent candidates for salvation. If that were the case, to pass some over would indeed be unjust. But that is not the biblical picture. <em>\"All have sinned and fall short of the glory of God.\"</em> (Romans 3:23) Every human being has already forfeited righteousness. The question is not \"who does God save out of a neutral group?\" The question is <strong>\"who does God save out of a universally condemned group?\"</strong>" },
+                { label: "Justice is what you deserve. Grace is what you don't.", text: "If God gave every person exactly what they deserved, every person would perish. The wages of sin is death. That would be <em>perfectly just</em> — but nobody would call it generous. The staggering reality of the gospel is that God, out of a mass of condemned humanity, <strong>saves any</strong>. The question is not, 'Why does He pass some over?' The question is, 'Why does He save any at all?' Every soul in heaven will be there by pure, unearned mercy. Every soul not in heaven will be there by pure, earned justice. <strong>No one is getting less than they deserve.</strong>" },
+                { label: "Paul answers this objection directly", text: "Paul anticipates exactly this complaint and answers it in Romans 9. <em>\"One of you will say to me: 'Then why does God still blame us? For who is able to resist his will?' But who are you, a human being, to talk back to God?\"</em> (Romans 9:19-20) Paul does not soften the doctrine to make the objection disappear. He presses <em>into</em> it. The objection is so exactly the one modern Arminians raise that Paul's writing it down two thousand years ago proves this was never a new issue — it was the issue from the beginning. And Paul's answer is: God is God. The clay does not lecture the potter." }
+            ],
+            scripture: { text: "\"What if God, although choosing to show his wrath and make his power known, bore with great patience the objects of his wrath — prepared for destruction? What if he did this to make the riches of his glory known to the objects of his mercy, whom he prepared in advance for glory?\"", ref: "ROMANS 9:22-23" },
+            collapse: "God is never unjust when He gives anyone less than grace. The only injustice would be to give them less than justice — which He never does. Every soul in hell is there for its own sin. Every soul in heaven is there for God's mercy alone."
+        },
+        {
+            claim: "\"If I was predestined, then evangelism doesn't matter.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "This is a practical objection — if God has already determined who is elect, then why preach? Why send missionaries? Why urge anyone to believe? The objection treats sovereignty and means as contradictory." },
+                { label: "God ordains ends AND means", text: "The God who decreed who would be saved <em>also decreed how they would hear</em>. Paul in Romans 10: <em>\"How can they believe in the one of whom they have not heard? And how can they hear without someone preaching to them?\"</em> Preaching is not something that happens outside God's sovereignty — it is part of God's sovereignty. He ordained the elect, and He ordained the sermon through which they would hear, and He ordained the preacher who would deliver the sermon, and He ordained the Spirit who would open the ear. All of it is one plan, not competing plans." },
+                { label: "Paul's logic in 2 Timothy 2:10", text: "Paul writes, <em>\"Therefore I endure everything for the sake of the elect, that they too may obtain the salvation that is in Christ Jesus, with eternal glory.\"</em> (2 Tim 2:10) Notice the logic. Paul believes in election <strong>and</strong> endures everything <em>because</em> of it. His response to the doctrine of election is not \"I guess I don't need to evangelize.\" His response is the opposite — \"I'll endure everything for them, because I know God will use the means to reach them.\"" },
+                { label: "The better reading", text: "Election does not remove the urgency of evangelism. It <strong>guarantees</strong> the urgency. If no one is elect and we are simply hoping people respond well to our message, we could lose. But if God has elect people He will gather, and our preaching is the means He uses, then <strong>every sermon is a divine instrument</strong>. Every evangelist is walking through scenes God authored before time. The missionary who believes in election is not passive. The missionary who believes in election preaches with the confidence of a soldier on the winning side of a war already decided." }
+            ],
+            scripture: { text: "\"When the Gentiles heard this, they were glad and honored the word of the Lord; and all who were appointed for eternal life believed.\"", ref: "ACTS 13:48" },
+            collapse: "Election is not the enemy of evangelism. Election is the only reason evangelism cannot fail. If God had not elected anyone, no preacher could save anyone. Because He did, every preacher has a guaranteed harvest among the elect."
+        },
+        {
+            claim: "\"Christ died for all — 1 John 2:2 says He is the atoning sacrifice for the whole world.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "<em>He is the atoning sacrifice for our sins, and not only for ours but also for the sins of the whole world.</em> (1 John 2:2) The argument: if Christ died for the whole world, then His death must have paid for the sins of every individual, and therefore salvation is universal in scope and particular only in response." },
+                { label: "What would universal atonement actually mean?", text: "If Christ literally paid for every individual's sins at the cross, then either (a) everyone is saved, or (b) God demands payment twice — once from Christ, then again from the unbeliever in hell. Option (a) contradicts Jesus's own words about the narrow gate. Option (b) is a judicial absurdity — the Father would be punishing the same sin twice. Neither option is biblical. Which means the verse cannot mean what the universal-atonement reading needs it to mean." },
+                { label: "Who is John writing to?", text: "John is writing to Jewish Christians who assumed salvation was primarily for Israel. The phrase <em>\"not only for ours but also for the whole world\"</em> is correcting a provincialism — not making a universal headcount claim. The contrast is <strong>Jew vs. world</strong>, not <strong>most vs. every individual</strong>. It's the same pattern as John 3:16: the scope of the atonement breaks beyond Israel. It is effective for Jew and Gentile alike." },
+                { label: "The better reading", text: "Christ's atonement is <em>sufficient</em> for every sinner who has ever lived — there is no limit to its value. But it is <em>effective</em> for those He specifically died to save. <em>\"The good shepherd lays down his life for the sheep.\"</em> (John 10:11) <em>\"She will give birth to a son, and you are to give him the name Jesus, because he will save his people from their sins.\"</em> (Matthew 1:21) Christ did not die hoping some would respond. He died to <strong>actually save</strong> those the Father had given Him. And He does — every one of them, from every nation. That is the 'whole world' John is talking about." }
+            ],
+            scripture: { text: "\"I lay down my life for the sheep… My sheep listen to my voice; I know them, and they follow me.\"", ref: "JOHN 10:15, 27" },
+            collapse: "Christ's death is not a hopeful deposit that becomes effective when you accept it. His death is an effective purchase that guarantees the salvation of every single sheep He died for. Definite atonement is not a restriction on the cross — it is the cross's actual power."
+        },
+        {
+            claim: "\"Foreknowledge just means God saw in advance who would choose Him.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "This is the classic Arminian reading of Romans 8:29: <em>\"Those God foreknew he also predestined.\"</em> The argument says: God looked down the corridor of time, saw who would choose Him, and predestined those He saw would believe. Election is real — but it is based on foreseen human faith." },
+                { label: "What the Greek word actually means", text: "The word is <em>proginōskō</em> — 'to know beforehand.' In biblical usage, <em>knowing</em> is not merely cognitive awareness. When Adam 'knew' Eve, it was not a thought — it was an intimate relational union. When God says in Amos 3:2, <em>\"You only have I known of all the families of the earth,\"</em> He is not claiming ignorance of other nations — He is declaring His covenant love for Israel. To 'foreknow' in this biblical sense is to <strong>forelove</strong> — to set affection on someone in eternity past." },
+                { label: "The text itself refutes the foresight reading", text: "Romans 8:29 says God foreknew <em>persons</em>, not <em>actions</em>. Paul doesn't say \"those whose faith God foreknew.\" He says \"those God foreknew.\" The object of foreknowledge is <em>people</em>, not <em>their decisions</em>. Same in 1 Peter 1:2 — elect <em>\"according to the foreknowledge of God the Father.\"</em> Not foreknowledge of faith. Foreknowledge of persons." },
+                { label: "The logical problem with the foresight reading", text: "If God merely foresaw who would choose Him, then the decisive factor in salvation is the human choice, and God's predestination is reactive rather than originating. But Paul's entire point in Romans 8 is that God is the <strong>unstoppable originator</strong> of salvation from start to finish. <em>\"Who shall bring any charge against those whom God has chosen?\"</em> — the charge that could be brought, if the foresight reading were correct, is: <em>\"You chose yourself. God merely confirmed your choice.\"</em> But Paul rules that out. Salvation belongs to the Lord from the first link to the last." }
+            ],
+            scripture: { text: "\"Before I formed you in the womb I knew you, before you were born I set you apart.\"", ref: "JEREMIAH 1:5" },
+            collapse: "Foreknowledge is not divine spectating. It is covenantal foreloving. God did not look forward and find you. He looked forward because He had already chosen you. The direction of the arrow matters — and the arrow points from Him to you, not the other way around."
+        },
+        {
+            claim: "\"If election is true, I can't know if I'm chosen — I could be reprobate.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "This is a pastoral objection — and it's a real one. If God has chosen some and passed over others, how can you know which one you are? Doesn't this doctrine leave the believer in a perpetual state of uncertainty?" },
+                { label: "The surprising answer", text: "If you are worried that you might not be chosen — <em>that is evidence you are chosen</em>. The non-elect do not care. They do not lose sleep over their relationship with God. They do not anxiously examine themselves for signs of true faith. The non-elect are comfortable in their rebellion. The anxious seeker is betraying, in the very anxiety, the presence of a Spirit awakening them to care about something they would never have naturally cared about." },
+                { label: "Scripture's test of election", text: "The Bible never tells you to introspect your way backward into a decree made before time. It tells you to look at the fruit. <em>\"We know that we have come to know him if we keep his commands.\"</em> (1 John 2:3) <em>\"You will recognize them by their fruits.\"</em> (Matthew 7:16) The question is not, \"Am I on God's eternal list?\" The question is, \"Am I trusting Christ right now? Am I following Him? Does His Spirit witness with my spirit that I am His child?\"" },
+                { label: "The better reading", text: "Election is not designed to be a source of anxiety for the struggling believer. It is designed to be a source of <strong>unshakable assurance</strong> for the one who rests in Christ. If salvation depended on my continuing to choose correctly every day, I would have every reason to panic. But because salvation was decreed before time and accomplished at the cross and applied by the Spirit and sealed by the Father and guaranteed to completion, <em>I can rest</em>. <strong>Election is the pillow the believer sleeps on, not the blade hanging over them.</strong>" }
+            ],
+            scripture: { text: "\"I give them eternal life, and they shall never perish; no one will snatch them out of my hand.\"", ref: "JOHN 10:28" },
+            collapse: "If you are asking the question, you are likely in the answer. The elect are those who, when they hear of this doctrine, do not run from God but run toward Him. Your very hunger is the summons. The hand reaching up is the sign that another hand reached down first."
+        },
+        {
+            claim: "\"I chose Christ — I remember the moment I decided to follow Him.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "This is the most personal objection — the memory of a decision that felt like yours. A prayer prayed. A moment at an altar. A quiet submission alone in your bedroom at midnight. The objection rightly treats that memory as sacred." },
+                { label: "What sovereign grace actually says", text: "Sovereign grace does not deny that you chose. It affirms that you <strong>absolutely did choose</strong>. The moment you came to Christ, you <em>wanted</em> to come. You reached for Him with the deepest longing of your heart. You meant every word of the prayer. You prayed because you <em>wanted</em> to pray. None of that is a simulation." },
+                { label: "The question the moment raises", text: "But here is the question sovereign grace asks: <strong>where did the wanting come from?</strong> Because just hours, days, years before that moment, you did not want it. You were not hungry for God. You were not reaching. And then, somehow, the reaching started. The hunger appeared. The desire — the thing that made the choice possible — existed where moments before it had not. Did you manufacture it from within your dead-in-sin nature? Or was something given to you that you could not have given yourself?" },
+                { label: "The gift underneath the choice", text: "<em>\"What do you have that you did not receive? And if you did receive it, why do you boast as though you did not?\"</em> (1 Cor 4:7) Your choice was real. Your choice was yours. And your choice was made <strong>out of a want that was given to you</strong>. Both are simultaneously true, with no contradiction. You came. And you came because He drew you. You decided. And you decided because He made you able to decide. It was your hand that reached — and His Spirit who put the reaching there." }
+            ],
+            scripture: { text: "\"It does not, therefore, depend on human desire or effort, but on God's mercy.\"", ref: "ROMANS 9:16" },
+            collapse: "You chose Him. And underneath your choice was His choice of you, given in eternity past, applied in that moment. Your memory of the decision is true. The deeper truth is that the decision was the surface ripple of a Spirit-initiated resurrection beneath. The hand that reached up was itself the gift."
+        },
+        {
+            claim: "\"But Calvinism makes God the author of sin.\"",
+            steps: [
+                { label: "Hear the claim honestly", text: "This is the philosophical objection. If God decreed all things, and some of those things are sin, then God decreed sin — which seems to make God either sinful or at least morally implicated in evil. The objection is taken seriously in every Reformed treatise ever written, because it is a serious question." },
+                { label: "Distinguish decree from authorship", text: "Scripture teaches that God <em>ordains</em> all things (Ephesians 1:11) but also that He is never the moral agent of sin (James 1:13 — <em>\"God cannot be tempted by evil, nor does he tempt anyone\"</em>). Both are held. God decrees that certain evil events will occur; the human beings who commit those evils are the moral authors and full moral agents. God's decree does not coerce their will. It incorporates their free choices into His sovereign plan — without making Him the cause of their guilt." },
+                { label: "The crucifixion as the case study", text: "The cross is the ultimate test case. Was it decreed? Absolutely. <em>\"This man was handed over to you by God's deliberate plan and foreknowledge.\"</em> (Acts 2:23) Was it a sinful act? Absolutely. <em>\"You, with the help of wicked men, put him to death by nailing him to the cross.\"</em> (Acts 2:23) The same verse affirms both. God ordained the greatest good the universe has ever known to occur by means of the greatest evil the universe has ever witnessed — and He is not stained by that evil. The murderers are fully guilty. God is fully sovereign. Both truths hold." },
+                { label: "Why the alternative is worse", text: "Consider the alternative. If God does not ordain all things, then some things happen outside His sovereignty. But if anything happens outside His sovereignty, then He is not fully God — He is a larger creature among creatures. Worse, if the cross happened outside His sovereignty, then the salvation of the world was a lucky accident, and every prayer of gratitude we ever offer is misdirected. The God of Scripture is either sovereign over evil or not sovereign at all. Scripture declares the first. Philosophy can handle the mystery; it cannot survive the alternative." }
+            ],
+            scripture: { text: "\"You intended to harm me, but God intended it for good to accomplish what is now being done, the saving of many lives.\"", ref: "GENESIS 50:20" },
+            collapse: "God decrees what He does not do. He ordains what He does not morally cause. The author of the play is not the villain in it. And every evil He permits, He weaponizes for good. That is not a contradiction. That is the Bible's entire story."
+        }
+    ];
+
+    const grid = document.getElementById('objGrid');
+    const theater = document.getElementById('objTheater');
+
+    // Build the grid
+    objections.forEach((obj, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'obj-tile';
+        btn.dataset.idx = i;
+        btn.innerHTML = `
+            <div class="obj-tile-num">Objection ${String(i + 1).padStart(2, '0')}</div>
+            <div class="obj-tile-claim">${obj.claim}</div>
+        `;
+        btn.addEventListener('click', () => selectObjection(i));
+        grid.appendChild(btn);
+    });
+
+    function selectObjection(idx) {
+        // Mark active tile
+        document.querySelectorAll('.obj-tile').forEach((t, i) => {
+            t.classList.toggle('active', i === idx);
+        });
+
+        const obj = objections[idx];
+        theater.classList.remove('empty');
+
+        const stepsHtml = obj.steps.map((s, i) => `
+            <div class="obj-step" data-step-index="${i}">
+                <span class="obj-step-label">Step ${i + 1} · ${s.label}</span>
+                <div class="obj-step-text">${s.text}</div>
+            </div>
+        `).join('');
+
+        theater.innerHTML = `
+            <div class="obj-claim-box">
+                <span class="claim-tag">The Objection</span>
+                ${obj.claim}
+            </div>
+            <div class="obj-response">
+                ${stepsHtml}
+                <div class="obj-scripture">
+                    <div class="obj-scripture-text">${obj.scripture.text}</div>
+                    <div class="obj-scripture-ref">— ${obj.scripture.ref}</div>
+                </div>
+                <div class="obj-collapse">
+                    <div class="obj-collapse-label">The Collapse</div>
+                    <div class="obj-collapse-text">${obj.collapse}</div>
+                </div>
+            </div>
+        `;
+
+        // Trigger response reveal
+        const resp = theater.querySelector('.obj-response');
+        requestAnimationFrame(() => {
+            resp.classList.add('visible');
+            // Stagger steps
+            const steps = theater.querySelectorAll('.obj-step');
+            steps.forEach((s, i) => {
+                setTimeout(() => s.classList.add('in'), 200 + (i * 400));
+            });
+        });
+
+        // Scroll to theater
+        setTimeout(() => {
+            theater.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100);
+    }
+})();
+</script>
+
+</body>
+</html>

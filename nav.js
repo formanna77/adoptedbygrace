@@ -59,7 +59,7 @@
                     name: 'Scripture Questions',
                     icon: '📖',
                     href: '/questions',
-                    count: 72,
+                    count: 74,
                     pages: [
                         { name: '"Not Because of Our Works" — 2 Timothy 1:9', href: '/question-2tim1-9', desc: '2 Timothy 1:9: God saved us' },
                         { name: 'Are Arminians Saved? What Scripture Actually Teaches About Grace and Works', href: '/question-are-arminians-saved', desc: 'Are Arminians saved? The most honest answer the Reformed world won' },
@@ -105,7 +105,9 @@
                         { name: 'Once Saved, Always Saved? What Scripture Actually Promises', href: '/question-perseverance', desc: 'Perseverance of the saints is not about your grip on God — it' },
                         { name: 'One Question That Changes Everything — Where Did Your Faith Come From?', href: '/question-one-question', desc: 'There is one question that, honestly answered, will change everything you believe about salvation. Not where the gospel ' },
                         { name: 'Regeneration Precedes Faith — The Skeleton Key That Unlocks Everything', href: '/question-regeneration-precedes-faith', desc: 'Proves that spiritual rebirth comes BEFORE faith, not after. The order matters. This single truth demolishes the Arminia' },
+                        { name: 'Seven Questions That Will Show You Where Your Faith Came From', href: '/question-seven-questions', desc: 'Seven questions, asked gently, in the order a door opens. By the end, you will know whether you chose God or whether He ' },
                         { name: 'Thank You, Father, for Hiding This — Matthew 11:25-27', href: '/question-matt11', desc: 'Jesus thanks the Father for hiding truth from the wise and revealing it to infants. Not lamenting. Not apologizing. Than' },
+                        { name: 'The Arminian Case, Stated Fairly — And Then Answered', href: '/question-arminian-steelman', desc: 'The strongest Arminian arguments, presented honestly and at full strength — not as straw men. Then answered one by one f' },
                         { name: 'The Boasting Problem That Destroys Free Will', href: '/question-boasting', desc: '1 Corinthians 1:26-31 — God chose the foolish to shame the wise. His election strategy is designed to eliminate all huma' },
                         { name: 'The Call You Can Ignore vs. The Call That Creates Life', href: '/question-external-internal-call', desc: 'Scripture teaches two kinds of calling: the external call that goes to all and can be refused, and the internal call tha' },
                         { name: 'The Cross Was Predestined — Acts 4:27-28 and the Sovereignty Behind Calvary', href: '/question-acts4', desc: 'The most evil act in history — the murder of God' },

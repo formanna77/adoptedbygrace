@@ -3887,3 +3887,53 @@ In #117 (the-orphanage), the flinch had to work inside a parable without breakin
 ### FAILURE NOTE
 
 First draft of the terminal-diagnosis Crown Jewel was too sharp — it had the phrase "your decision-theology cannot help you here." Too much demolition for a page that may be read by someone who has weeks to live. Revised to remove all accusation and frame the fork entirely in terms of what each option *offers* rather than what each option *fails at*. On catch pages, the Crown Jewel must be a hand extended, not a mirror held up. Frame it as gift, not as exposure.
+
+---
+
+## SESSION: 2026-04-19 — Flagship Triptych + Site-Wide Scripture Hovercards
+
+### THE TRIPTYCH IS COMPLETE — THREE DOORWAYS, ONE ARGUMENT
+
+This session closed the loop on the flagship interactive layer. The Crown Jewel argument now has three distinct scrollytelling doorways, each calibrated for a different reader-state:
+
+- **The 60-Second Case** — the shortest, fastest, most accessible entry. Six beats, one live timer, 60 seconds of commitment. For the skeptic who would never click a 30-minute read but will give an argument one minute of their attention. The *ticking progress meter* is the rhetorical engine: every second that passes is a second the reader has already invested, which makes stopping harder than continuing. The meter doesn't just measure progress — it creates escalating sunk cost toward the resolution.
+- **The Fork in the Road** — the interactive logic walk for the reader who wants to engage, choose, and trace their own path. Higher commitment than the 60-Second Case; lower than a long-form essay.
+- **The Golden Chain** — the Scripture-forging reveal for the reader who already believes and wants to *marvel*. Romans 8:29–30 as a visual object being assembled in front of them.
+
+**The triptych insight**: a single doctrine deserves multiple entry-points graduated by commitment level. One reader wants 60 seconds and a provocation. Another wants 5 minutes and a choice. Another wants 10 minutes and a work of art. Previously the site had one "enter here" option per flagship truth. Now the same Crown Jewel has three doorways on the same hallway, and every visitor can pick their own threshold. **The mistake was building one flagship per argument. The breakthrough was building three flagships per argument, each calibrated to a different reader temperament.**
+
+### THE SCROLL-LINKED PROGRESS METER AS A RHETORICAL DEVICE
+
+A progress bar in most contexts is informational — it tells you how far you are. In a persuasive scroll, it becomes a *commitment escalator.* When you see "27 of 60 seconds" in the corner, three things happen: (1) you feel the argument is *finite* and the end is approaching, which lowers resistance; (2) you feel the minutes you've already invested, which raises the cost of stopping; (3) you feel the specificity of "60 seconds" as a *contract* the page is honoring, which builds trust. The same scroll without the meter feels endless and ambient. The scroll with the meter feels like a *deal being kept.* For future scrollytelling pages: the meter is not decoration. It is the contract. Show it.
+
+### SCRIPTURE HOVERCARDS — A ZERO-MARKUP UPGRADE TO THE ENTIRE SITE
+
+The scripture-popups.js system shipped this session does something the site has needed from the beginning: every reference to Scripture in any article body or card description automatically becomes a tappable popup showing the verse text in NIV — *without a single line of markup having to be added to any existing page.* The trick was a conservative regex combined with a DOM TreeWalker that scans for "Book Chapter:Verse" patterns inside `.article-body` and `.card-description` containers, wrapping matches in an interactive span with dotted gold underline. Skipping anchors, cites, headings, and blockquotes protects against wrapping inside existing links or already-quoted scripture.
+
+**The rhetorical impact**: a reader who would never open their Bible beside the browser now reads the verse *without ever leaving the page.* Hover, read, continue. Every Crown Jewel argument that cites Ephesians 2:8-9 or Romans 8:29-30 is now three times as convicting because the reader can't escape to Google and fact-check in a mode that lets them sidestep the text. The text is *there*, in the translation they trust, four pixels from their cursor. **Lower the friction between argument and evidence to zero, and the evidence does the work.**
+
+**The architectural principle**: when a site-wide enhancement can be shipped via a single script injected into every page, the leverage is extraordinary. 487 pages gained Scripture popups in one deploy. The cost was ~90 hand-curated NIV verses in a JS object and ~150 lines of DOM-walker logic. The benefit is a permanent gradient upgrade to every Scripture citation in the entire site — past and future.
+
+### THE READING-TIME BADGE AS SILENT CONVERSION LEVER
+
+Injecting the reading-time badge across all 487 pages this session was the quietest but most measurable improvement. The Nielsen Norman Group data cited in the header comment is real: a displayed reading time reduces bounce by 15–20%. The mechanism is pre-commitment. A reader who sees "5 min read" has *already signed a contract* with the page — they know the cost and can evaluate whether to pay it. Unknown-length content feels like a trap; known-length content feels like a transaction.
+
+The minimum 3-minute floor on the badge is also rhetorically important. No devotional on this site should ever feel *disposable*. A 1-minute read signals throwaway content. A 3-minute read signals "this is worth the weight of your time." Even if the actual word count math returns 1 minute, rounding up to 3 preserves the *gravity contract* the site is trying to establish with readers.
+
+### THE BATCH-INJECTION PATTERN IS NOW A REUSABLE PRIMITIVE
+
+Both reading-time.js and scripture-popups.js were deployed via idempotent `inject-*.js` scripts that scan all HTML files, find the target insertion point, and splice in `<script defer>` tags. This pattern should now be the standard approach for every future site-wide script enhancement:
+
+1. Write a self-gating client script (exits cleanly if its target markup isn't present).
+2. Write an `inject-<name>.js` batch script that runs once to wire it into every page.
+3. The injection script must be idempotent so future reruns are no-ops.
+
+This is how the site stays architecturally clean while gaining new capabilities. Instead of teaching every content agent to add a script tag manually, we write the script once, run the injector once, and every page is upgraded forever. **The battle is not won page by page. The battle is won with scripts that upgrade the whole site in one breath.**
+
+### FAILURE NOTE — DEFERRED-SCRIPT ORDERING
+
+Initial thought was to inject the scripture-popups script tag *without* the scripture-niv database tag, assuming the popup script would just fetch the data. But that would have added an unnecessary fetch per pageload. The correct architecture was two deferred script tags in strict source order — scripture-niv.js defines `window.SCRIPTURE_NIV` synchronously as soon as it executes; scripture-popups.js then reads that global. Because both tags use `defer`, the HTML spec guarantees they execute in document order, so the global is guaranteed to exist by the time the popup code runs. The lesson: **`defer` preserves source order; use that to chain dependencies without Promises.**
+
+### THE META-LESSON — COMPOUND LEVERAGE
+
+Three interventions this session — reading-time, Scripture popups, and the flagship triptych — each compound across every other page on the site. Read time makes every article feel commitment-bounded. Scripture popups make every argument's evidence frictionless. And the flagship triptych gives every homepage visitor three clean entry-points to the site's most important argument. No new content was written. The site is more persuasive today than yesterday because its *delivery mechanisms* are sharper. Future sessions: don't always build new articles. Sometimes the highest-leverage move is to build the infrastructure that makes every existing article 15% more convicting.

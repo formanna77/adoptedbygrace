@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fork in the Road — Where Did Your Faith Come From? | Adopted by Grace</title>
+    <meta name="description" content="Only two answers to the question that changes everything: Did God cause your faith, or did you activate it? Walk the logic. There is no third path.">
+    <meta name="keywords" content="faith as gift, Ephesians 2:8-9, Crown Jewel, election, sovereign grace, works righteousness, monergism, synergism">
+    <meta property="og:title" content="The Fork in the Road — Where Did Your Faith Come From?">
+    <meta property="og:description" content="Only two answers to the question that changes everything. Walk the logic. There is no third path.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/fork-in-the-road">
+    <link rel="canonical" href="https://adoptedbygrace.net/fork-in-the-road">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="/global.css">
+    <style>
+        /* ────────────────────────────────────────────────────────
+           THE FORK IN THE ROAD — interactive Crown Jewel page.
+           Inline CSS is permitted for interactive widgets (per CLAUDE.md).
+           All colors use the site's canonical variables from /global.css.
+           ──────────────────────────────────────────────────────── */
+
+        .fork-stage {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem;
+        }
+
+        /* THE CENTRAL QUESTION */
+        .fork-question {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(2rem, 5.5vw, 3.75rem);
+            line-height: 1.15;
+            text-align: center;
+            color: var(--text-primary);
+            margin: 3rem 0 1rem;
+            font-weight: 400;
+            letter-spacing: -0.015em;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .fork-subquestion {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: clamp(1rem, 1.6vw, 1.15rem);
+            max-width: 720px;
+            margin: 0 auto 0.5rem;
+            line-height: 1.7;
+        }
+
+        .fork-scripture-hint {
+            text-align: center;
+            font-family: monospace;
+            font-size: 0.8rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.2em;
+            margin: 0 auto 3rem;
+            opacity: 0.8;
+        }
+
+        /* TWO PATHS */
+        .fork-paths {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 3rem 0;
+        }
+        @media (max-width: 760px) {
+            .fork-paths { grid-template-columns: 1fr; }
+        }
+
+        .fork-path {
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.07), rgba(232, 100, 44, 0.03));
+            border: 1px solid rgba(212, 162, 84, 0.28);
+            border-radius: 14px;
+            padding: 2.5rem 2rem;
+            cursor: pointer;
+            transition: all 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+            text-align: left;
+            position: relative;
+            overflow: hidden;
+            font-family: inherit;
+            color: inherit;
+            width: 100%;
+        }
+        .fork-path::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 50% 0%, rgba(212, 162, 84, 0.18), transparent 70%);
+            opacity: 0;
+            transition: opacity 0.5s;
+            pointer-events: none;
+        }
+        .fork-path:hover::before { opacity: 1; }
+        .fork-path:hover {
+            border-color: rgba(212, 162, 84, 0.7);
+            transform: translateY(-5px);
+            box-shadow: 0 16px 48px rgba(212, 162, 84, 0.22);
+        }
+        .fork-path:focus-visible {
+            outline: 2px solid var(--accent-gold);
+            outline-offset: 4px;
+        }
+
+        .fork-path-label {
+            font-family: monospace;
+            font-size: 0.72rem;
+            color: var(--accent-gold);
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            margin-bottom: 1.25rem;
+        }
+        .fork-path-claim {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+            font-weight: 400;
+            line-height: 1.3;
+        }
+        .fork-path-hint {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        .fork-path-go {
+            color: var(--accent-gold);
+            font-size: 0.9rem;
+            font-weight: 600;
+            position: relative;
+            z-index: 1;
+            font-family: monospace;
+            letter-spacing: 0.08em;
+        }
+        .fork-path-go::after {
+            content: ' →';
+            transition: transform 0.35s;
+            display: inline-block;
+        }
+        .fork-path:hover .fork-path-go::after {
+            transform: translateX(8px);
+        }
+
+        /* THE REVEAL PANES */
+        .fork-reveal {
+            display: none;
+            animation: fadeInUp 0.75s cubic-bezier(0.16, 1, 0.3, 1) both;
+            margin-top: 2rem;
+        }
+        .fork-reveal.active { display: block; }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(28px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .fork-reveal-intro {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(1.4rem, 2.6vw, 1.85rem);
+            color: var(--text-primary);
+            line-height: 1.4;
+            margin: 1rem 0 2rem;
+            font-weight: 400;
+        }
+        .fork-reveal-intro strong {
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        /* LOGIC STEPS */
+        .fork-step {
+            background: rgba(212, 162, 84, 0.045);
+            border-left: 3px solid var(--accent-gold);
+            padding: 1.5rem 1.75rem;
+            margin: 1.5rem 0;
+            border-radius: 0 10px 10px 0;
+            opacity: 0;
+            transform: translateX(-12px);
+            animation: stepIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        .fork-reveal.active .fork-step { opacity: 1; }
+        .fork-reveal.active .fork-step:nth-child(2) { animation-delay: 0.1s; }
+        .fork-reveal.active .fork-step:nth-child(3) { animation-delay: 0.25s; }
+        .fork-reveal.active .fork-step:nth-child(4) { animation-delay: 0.4s; }
+        .fork-reveal.active .fork-step:nth-child(5) { animation-delay: 0.55s; }
+        .fork-reveal.active .fork-step:nth-child(6) { animation-delay: 0.7s; }
+        .fork-reveal.active .fork-step:nth-child(7) { animation-delay: 0.85s; }
+        .fork-reveal.active .fork-step:nth-child(8) { animation-delay: 1s; }
+
+        @keyframes stepIn {
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .fork-step-num {
+            font-family: monospace;
+            color: var(--accent-gold);
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+        .fork-step p {
+            color: var(--text-secondary);
+            line-height: 1.75;
+            margin: 0.4rem 0;
+            font-size: 1.02rem;
+        }
+        .fork-step strong {
+            color: var(--text-primary);
+        }
+
+        /* THE TRAP BOX (path B only) */
+        .fork-trap {
+            background: linear-gradient(135deg, rgba(232, 100, 44, 0.09), rgba(212, 162, 84, 0.04));
+            border: 1px solid rgba(232, 100, 44, 0.38);
+            padding: 2rem 2rem;
+            margin: 2.5rem 0;
+            border-radius: 14px;
+            position: relative;
+        }
+        .fork-trap-title {
+            color: var(--accent-ember);
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+        .fork-trap p {
+            color: var(--text-secondary);
+            line-height: 1.75;
+            margin: 0.75rem 0;
+        }
+
+        /* CONVERGENCE PANEL (both paths end here) */
+        .fork-final {
+            margin-top: 3rem;
+            padding: 3rem 2.5rem;
+            background: linear-gradient(135deg, rgba(212, 162, 84, 0.14), rgba(232, 100, 44, 0.07));
+            border-radius: 16px;
+            border: 1px solid rgba(212, 162, 84, 0.42);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .fork-final::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 50% 30%, rgba(212, 162, 84, 0.12), transparent 60%);
+            pointer-events: none;
+        }
+        .fork-final h2 {
+            font-family: 'Crimson Text', Georgia, serif;
+            color: var(--accent-gold);
+            margin-bottom: 1.25rem;
+            font-size: clamp(1.75rem, 3.5vw, 2.35rem);
+            font-weight: 400;
+            line-height: 1.3;
+            position: relative;
+        }
+        .fork-final p {
+            color: var(--text-secondary);
+            line-height: 1.75;
+            max-width: 720px;
+            margin: 0 auto 1.25rem;
+            font-size: 1.05rem;
+            position: relative;
+        }
+
+        .fork-verse {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-style: italic;
+            color: var(--text-primary);
+            font-size: clamp(1.05rem, 2vw, 1.2rem);
+            line-height: 1.75;
+            margin: 2.5rem auto;
+            padding: 1.25rem 2rem;
+            border-left: 3px solid var(--accent-gold);
+            max-width: 640px;
+            text-align: left;
+            background: rgba(212, 162, 84, 0.04);
+            border-radius: 0 8px 8px 0;
+            position: relative;
+        }
+        .fork-verse cite {
+            display: block;
+            font-style: normal;
+            color: var(--accent-gold);
+            font-family: monospace;
+            font-size: 0.82rem;
+            margin-top: 0.75rem;
+            letter-spacing: 0.12em;
+        }
+
+        /* RESTART BUTTON */
+        .fork-restart {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+            padding: 0.85rem 1.75rem;
+            background: transparent;
+            border: 1px solid rgba(212, 162, 84, 0.45);
+            color: var(--accent-gold);
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.92rem;
+            font-weight: 500;
+            transition: all 0.35s;
+            letter-spacing: 0.02em;
+        }
+        .fork-restart:hover {
+            background: rgba(212, 162, 84, 0.1);
+            border-color: var(--accent-gold);
+            transform: translateY(-2px);
+        }
+
+        /* CATCH-ARM LINKS (hub cards) */
+        .fork-catch {
+            margin-top: 4rem;
+            padding-top: 3rem;
+            border-top: 1px solid rgba(212, 162, 84, 0.2);
+        }
+        .fork-catch-heading {
+            font-family: 'Crimson Text', Georgia, serif;
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            color: var(--accent-gold);
+            text-align: center;
+            margin-bottom: 0.75rem;
+            font-weight: 400;
+        }
+        .fork-catch-bridge {
+            text-align: center;
+            color: var(--text-muted);
+            max-width: 680px;
+            margin: 0 auto 2.5rem;
+            line-height: 1.7;
+            font-size: 1.02rem;
+            font-style: italic;
+        }
+
+        /* SMALL LABEL SLICE AT TOP */
+        .fork-eyebrow-row {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+            align-items: center;
+            margin-bottom: 0;
+        }
+        .fork-eyebrow-badge {
+            font-family: monospace;
+            font-size: 0.72rem;
+            letter-spacing: 0.25em;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            padding: 0.35rem 0.9rem;
+            border: 1px solid rgba(212, 162, 84, 0.35);
+            border-radius: 100px;
+            background: rgba(212, 162, 84, 0.05);
+        }
+
+        /* DISABLE THE PATH THAT WASN'T CHOSEN AFTER PICK (optional visual) */
+        .fork-paths.chose-a .fork-path[data-path="b"] {
+            opacity: 0.45;
+            pointer-events: none;
+        }
+        .fork-paths.chose-b .fork-path[data-path="a"] {
+            opacity: 0.45;
+            pointer-events: none;
+        }
+
+        /* INLINE LINK STYLING inside reveal content */
+        .fork-reveal a, .fork-final a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            border-bottom: 1px dashed rgba(212, 162, 84, 0.5);
+            transition: all 0.25s;
+        }
+        .fork-reveal a:hover, .fork-final a:hover {
+            color: var(--accent-ember);
+            border-bottom-color: var(--accent-ember);
+        }
+    </style>
+</head>
+<body>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/theologians">Theologians</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/theologians" class="nav-top-link">Theologians</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <header class="page-hero">
+        <span class="eyebrow">The Crown Jewel · Interactive</span>
+        <h1>The Fork in the Road</h1>
+        <p class="hub-subtitle">One question. Two answers. No third path. Walk it and see where the logic goes.</p>
+    </header>
+
+    <article class="article-body">
+      <div class="fork-stage">
+
+        <div class="fork-eyebrow-row">
+            <span class="fork-eyebrow-badge">Interactive</span>
+            <span class="fork-eyebrow-badge">5&nbsp;min</span>
+        </div>
+
+        <h2 class="fork-question"><a href="/question-where-did-your-faith-come-from">Where did your faith come from</a>?</h2>
+
+        <p class="fork-subquestion">
+            Not the gospel. Not the Bible. Not the preacher, the parent, the friend who invited you.
+            The faith itself — the ability, the willingness, the actual <em>belief</em> you had when you first believed. Where did that come from?
+        </p>
+        <p class="fork-scripture-hint"><a href="/question-faithgift">EPHESIANS 2:8</a>–9 · <a href="/question-john6">JOHN 6:44</a> · PHILIPPIANS 1:29</p>
+
+        <p style="text-align:center; color:var(--text-muted); margin-bottom:1.5rem; font-size:0.98rem;">
+            Pick the answer that matches what you actually believe. Then watch where it leads.
+        </p>
+
+        <div class="fork-paths" id="forkPaths">
+            <button class="fork-path" data-path="a" id="pathA">
+                <div class="fork-path-label">Path A</div>
+                <div class="fork-path-claim">"God caused my faith. He opened my eyes, softened my heart, and I believed because He first gave me the ability to believe."</div>
+                <p class="fork-path-hint">The monergist answer. Salvation is entirely God's work — including the faith that receives it.</p>
+                <span class="fork-path-go">Walk this path</span>
+            </button>
+
+            <button class="fork-path" data-path="b" id="pathB">
+                <div class="fork-path-label">Path B</div>
+                <div class="fork-path-claim">"I activated my faith. God offered salvation to everyone, and I chose to accept it. My free-will decision was the deciding factor."</div>
+                <p class="fork-path-hint">The synergist answer. God provides the offer; the human will must cooperate and close the deal.</p>
+                <span class="fork-path-go">Walk this path</span>
+            </button>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════════════════════
+             PATH A REVEAL — God caused my faith
+             ═══════════════════════════════════════════════════════════════ -->
+        <div class="fork-reveal" id="revealA" aria-live="polite">
+            <p class="fork-reveal-intro">
+                You chose the path that leads to <strong>rest</strong>. Walk it with us — and see what you just agreed to.
+            </p>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 01 · Foreknown</div>
+                <p>If God caused your faith, then before you were born He <strong>knew you by name</strong>, set His love on you, and purposed your rescue. You were not an accident He caught. You were a plan He authored.</p>
+            </div>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 02 · Predestined</div>
+                <p>If God caused your faith, then your arrival <a href="/devotional-in-christ">in Him</a> was <strong>predestined to conform to the image of His Son</strong>. You are not becoming something you might one day be — you are becoming what you have been from eternity.</p>
+            </div>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 03 · Called</div>
+                <p>If God caused your faith, then the moment you heard the gospel and it <strong>finally landed</strong> — when words you had heard a hundred times suddenly broke through — that was the <a href="/question-irresistible">effectual call</a>. Not a salesman's pitch. A Shepherd's voice.</p>
+            </div>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 04 · Justified</div>
+                <p>If God caused your faith, then the faith you now have is not fragile. It is not a decision you must keep re-making. It is a verdict God has already rendered: <strong>righteous <a href="/devotional-in-christ">in Christ</a></strong>, forever, not pending your performance.</p>
+            </div>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 05 · Glorified</div>
+                <p>If God caused your faith, then He <strong>will</strong> finish what He started. The chain does not break. The sheep do not fall from the Shepherd's hand. You cannot lose what you never produced. Your future is as secure as your past is purposed.</p>
+            </div>
+
+            <blockquote class="fork-verse">
+                "For those God <a href="/question-foreknowledge">foreknew</a> he also predestined to be conformed to the image of his Son… And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."
+                <cite>ROMANS 8:29–30</cite>
+            </blockquote>
+
+            <div class="fork-step">
+                <div class="fork-step-num">What You Just Said Yes To</div>
+                <p>You said yes to Romans 8. You said yes to <a href="/systematic-election.html">unconditional election</a>. You said yes to <a href="/question-perseverance.html">perseverance of the saints</a>. You said yes to a salvation you did not contribute to, cannot lose, and did not even have to want first.</p>
+                <p>You said yes to <strong>rest</strong>. The kind you can only have when the weight is not on your shoulders.</p>
+            </div>
+
+            <button class="fork-restart" onclick="forkRestart()" aria-label="Return to the question">← Try the other path</button>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════════════════════
+             PATH B REVEAL — I activated my faith
+             ═══════════════════════════════════════════════════════════════ -->
+        <div class="fork-reveal" id="revealB" aria-live="polite">
+            <p class="fork-reveal-intro">
+                You chose the path most Christians say they're on. Walk it honestly — <strong>every step</strong> — and see where it leads.
+            </p>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 01 · The First Question</div>
+                <p>If you <em>activated</em> your faith, then something about you made you different from the person in the next pew who heard the same sermon and walked away unchanged. What was it?</p>
+                <p>Think hard. Was it something in your character? Your humility? Your spiritual sensitivity? Your willingness to listen?</p>
+            </div>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 02 · Follow It Down</div>
+                <p>Whatever you just named — that <em>something</em> that made you receptive while the other person wasn't — <strong>where did it come from</strong>?</p>
+                <p>Either you produced it in yourself, or God produced it in you. There is no third option.</p>
+            </div>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 03 · If You Produced It</div>
+                <p>If you produced that receptivity in yourself, then you have <strong>something to boast about</strong>. You were the humbler one. The wiser one. The one with better spiritual instincts. You made yourself soft while your neighbor made himself hard — and the difference between you is <em>you</em>.</p>
+                <p>That is not just theology. That is arithmetic.</p>
+            </div>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 04 · If God Produced It</div>
+                <p>If God produced that receptivity in you — the openness, the willingness, the soft heart that was ready to say yes — then <strong>God caused your faith</strong>. Not directly, maybe. But upstream, where it counts.</p>
+                <p>You just walked yourself into Path A through the back door.</p>
+            </div>
+
+            <div class="fork-trap">
+                <div class="fork-trap-title">The trap is this: there is no middle ground.</div>
+                <p>Either the deciding factor came from you — in which case you are the hero of your salvation, and Ephesians 2:9 is wrong when it says salvation "is not by works, so that no one can boast."</p>
+                <p>Or the deciding factor came from God — in which case you did not activate anything. You <strong>received</strong>. And if you received, then faith itself was a gift (<a href="/question-faithgift">Ephesians 2:8</a>) — exactly what Path A said from the start.</p>
+                <p>Every Arminian, followed to his own logic long enough, either becomes a Calvinist or becomes a boaster. There is no third destination.</p>
+            </div>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 05 · The Verse You Cannot Escape</div>
+                <p>Paul saw this exact argument coming two thousand years ago. He closed the escape hatch in a single sentence:</p>
+            </div>
+
+            <blockquote class="fork-verse">
+                "For who makes you different from anyone else? What do you have that you did not receive? And if you did receive it, why do you boast as though you did not?"
+                <cite>1 CORINTHIANS 4:7</cite>
+            </blockquote>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 06 · The Quiet Admission</div>
+                <p>Most Christians who insist on Path B — when pressed, slowly, kindly, honestly — admit something like this: "Well, I mean, of course God drew me. I couldn't have done it without Him."</p>
+                <p>That admission <em>is</em> Path A. You just walked home.</p>
+            </div>
+
+            <div class="fork-step">
+                <div class="fork-step-num">Step 07 · Why This Matters</div>
+                <p>This is not about winning a theological argument. It is about <a href="/question-faithgift.html">whether faith is a gift</a>: if your faith was a work you performed, it cannot save you. Grace that requires your contribution is no longer grace (Romans 11:6). The gospel is not "God did 99%, you do 1%." The gospel is "God did 100%, and your receiving of it is itself the gift."</p>
+                <p>This is not a small thing. This is <a href="/demolition-faith-is-not-a-gift.html">the entire difference</a> between trusting Christ and trusting yourself trusting Christ.</p>
+            </div>
+
+            <button class="fork-restart" onclick="forkRestart()" aria-label="Return to the question">← Try the other path</button>
+        </div>
+
+        <!-- ═══════════════════════════════════════════════════════════════
+             FINAL CONVERGENCE — both paths end here
+             ═══════════════════════════════════════════════════════════════ -->
+        <div class="fork-reveal" id="revealFinal">
+            <div class="fork-final">
+                <h2>There was never a fork.</h2>
+                <p>
+                    Path A arrived here with open hands. Path B arrived here with the back door. But <em>both paths arrive here</em>,
+                    because the honest answer to "<a href="/question-where-did-your-faith-come-from">where did your faith come from</a>?" has only ever been one.
+                </p>
+                <p>
+                    You did not generate the faith that saved you. You received it. You did not choose God out of
+                    your natural goodness. He chose you before you had a nature. You did not wake yourself up from
+                    spiritual death. He spoke, and <a href="/systematic-hamartiology.html">the dead heard His voice</a>.
+                </p>
+                <blockquote class="fork-verse">
+                    "For it is by grace you have been saved, through faith — and this is not from yourselves,
+                    it is the gift of God — not by works, so that no one can boast."
+                    <cite>EPHESIANS 2:8–9</cite>
+                </blockquote>
+                <p>
+                    The <strong>"this"</strong> in that sentence is not just salvation. In the Greek, it points at the entire clause — grace, faith, and all. The faith itself is the gift.
+                </p>
+                <p>
+                    If your shoulders feel lighter right now, that is not exhaustion giving up. That is the weight
+                    of self-salvation being lifted off. It was never yours to carry.
+                </p>
+            </div>
+
+            <!-- CATCH ARM — the reader just had their foundation named. Catch them. -->
+            <div class="fork-catch">
+                <h2 class="fork-catch-heading">If the ground just shifted — these will catch you.</h2>
+                <p class="fork-catch-bridge">
+                    You do not need to cling harder. The hand you were just told about never let go, even through the years you thought it had.
+                </p>
+
+                <div class="hub-grid">
+                    <a href="/devotional-rescued-without-a-say.html" class="hub-card">
+                        <div class="card-number">01</div>
+                        <h3 class="card-title">Rescued Without a Say</h3>
+                        <p class="card-description">Grace did not knock and wait. It kicked the door down and carried you out. The rescue you never asked for and can never repay.</p>
+                        <div class="card-scripture">EPHESIANS 2:1–5</div>
+                        <div class="card-footer">
+                            <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                        </div>
+                    </a>
+
+                    <a href="/devotional-chosen-before-you-were-broken.html" class="hub-card">
+                        <div class="card-number">02</div>
+                        <h3 class="card-title">Chosen Before You Were Broken</h3>
+                        <p class="card-description">Before you were born — before you could earn or fail — He knew your name and set His love on you. The choice was made in a place you could not reach.</p>
+                        <div class="card-scripture">EPHESIANS 1:4</div>
+                        <div class="card-footer">
+                            <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                        </div>
+                    </a>
+
+                    <a href="/devotional-joy-of-election.html" class="hub-card">
+                        <div class="card-number">03</div>
+                        <h3 class="card-title">The Joy of Election</h3>
+                        <p class="card-description">The truth that once felt like a loss of control is the truth that finally lets you rest. No other view of salvation offers this much joy.</p>
+                        <div class="card-scripture">ROMANS 9:16</div>
+                        <div class="card-footer">
+                            <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                        </div>
+                    </a>
+
+                    <a href="/devotional-the-hands-that-hold-you.html" class="hub-card">
+                        <div class="card-number">04</div>
+                        <h3 class="card-title">The Hands That Hold You</h3>
+                        <p class="card-description">You have never been the grip. You have always been the held. A devotional on perseverance — and who is actually doing the persevering.</p>
+                        <div class="card-scripture">JOHN 10:28–29</div>
+                        <div class="card-footer">
+                            <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div style="text-align:center; margin-top:3rem;">
+                    <button class="fork-restart" onclick="forkRestart()" aria-label="Return to the beginning">← Return to the question</button>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </article>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">Adopted by Grace</div>
+            <div class="footer-tagline">The truths of grace — explored with rigor, explained with beauty</div>
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="/start-here">Start Here</a>
+                <a href="/questions">Questions</a>
+                <a href="/systematic-theology">Theology</a>
+                <a href="/demolition-hub">Demolition</a>
+                <a href="/stories">Stories</a>
+                <a href="/devotionals">Devotionals</a>
+                <a href="/about">About</a>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script>
+        // ───────────────────────────────────────────────────────────
+        // THE FORK — interactive state machine.
+        // Chosen path reveals its own logic trail + converges on finale.
+        // ───────────────────────────────────────────────────────────
+        (function () {
+            const pathsEl  = document.getElementById('forkPaths');
+            const revealA  = document.getElementById('revealA');
+            const revealB  = document.getElementById('revealB');
+            const final    = document.getElementById('revealFinal');
+            const pathA    = document.getElementById('pathA');
+            const pathB    = document.getElementById('pathB');
+
+            function choosePath(which) {
+                pathsEl.classList.remove('chose-a', 'chose-b');
+                revealA.classList.remove('active');
+                revealB.classList.remove('active');
+                // Convergence always shows after either path is chosen.
+                final.classList.add('active');
+
+                if (which === 'a') {
+                    pathsEl.classList.add('chose-a');
+                    revealA.classList.add('active');
+                    setTimeout(() => revealA.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+                } else {
+                    pathsEl.classList.add('chose-b');
+                    revealB.classList.add('active');
+                    setTimeout(() => revealB.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+                }
+
+                // Re-trigger step animations by removing + forcing reflow + re-adding
+                const active = which === 'a' ? revealA : revealB;
+                active.querySelectorAll('.fork-step').forEach(el => {
+                    el.style.animation = 'none';
+                    // Force reflow
+                    void el.offsetWidth;
+                    el.style.animation = '';
+                });
+            }
+
+            pathA.addEventListener('click', () => choosePath('a'));
+            pathB.addEventListener('click', () => choosePath('b'));
+
+            // Exposed for restart buttons
+            window.forkRestart = function () {
+                revealA.classList.remove('active');
+                revealB.classList.remove('active');
+                final.classList.remove('active');
+                pathsEl.classList.remove('chose-a', 'chose-b');
+                pathsEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            };
+        })();
+    </script>
+    <script defer src="/reading-time.js"></script>
+    <script defer src="/scripture-niv.js"></script>
+    <script defer src="/scripture-popups.js"></script>
+</body>
+</html>
