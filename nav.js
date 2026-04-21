@@ -710,6 +710,14 @@
         }
     ];
 
+    // === DOM-SAFE INITIALIZATION WRAPPER ===
+    // Wraps every handler attachment below so listeners bind even when
+    // this script is loaded before the nav markup (some pages have
+    // <script src="/nav.js"> up at the top of the body rather than
+    // just before </body>). If the DOM isn't ready yet, we defer the
+    // whole block to DOMContentLoaded.
+    function _navInit() {
+
     // === HAMBURGER MENU ===
     var hamburger = document.querySelector('.hamburger');
     var navLinks = document.querySelector('.nav-links');
@@ -1677,16 +1685,16 @@
     });
 
     // === INITIALIZE MEGA-MENU AND MOBILE CATEGORIES ===
-    function initMegaMenus() {
-        buildMegaMenu();
-        buildMobileCategories();
-    }
+    buildMegaMenu();
+    buildMobileCategories();
 
-    // Call on DOMContentLoaded
+    } // end _navInit
+
+    // Run the full nav init once the DOM is ready so handler
+    // attachment is independent of where /nav.js sits in the page.
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initMegaMenus);
+        document.addEventListener('DOMContentLoaded', _navInit);
     } else {
-        // If script loads after DOM is ready
-        initMegaMenus();
+        _navInit();
     }
 })();

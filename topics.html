@@ -284,6 +284,11 @@
             try {
                 const response = await fetch('/tags.json');
                 allData = await response.json();
+                if (!allData || !allData.topicCounts) {
+                    // Empty/malformed response — show fallback silently, no console noise
+                    loadingState.innerHTML = '<p>No topics available yet.</p>';
+                    return;
+                }
                 renderTopics();
             } catch (error) {
                 console.error('Error loading tags:', error);

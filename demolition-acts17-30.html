@@ -423,12 +423,14 @@
     <script src="/nav.js"></script>
     <script src="/ux-enhancements.js" defer></script>
 <script>
-    // Reading progress bar
+    // Reading progress bar — guard against missing element (template leftover)
     function updateProgressBar() {
-        const scrollTop = window.scrollY;
-        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-        const scrollPercent = scrollTop / docHeight;
-        document.getElementById('progressBar').style.transform = `scaleX(${scrollPercent})`;
+        var bar = document.getElementById('progressBar');
+        if (!bar) return;
+        var scrollTop = window.scrollY;
+        var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        var scrollPercent = docHeight > 0 ? scrollTop / docHeight : 0;
+        bar.style.transform = 'scaleX(' + scrollPercent + ')';
     }
 
     window.addEventListener('scroll', updateProgressBar);
