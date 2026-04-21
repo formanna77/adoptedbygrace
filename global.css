@@ -7557,6 +7557,9 @@ nav.ux-breadcrumbs a {
    even if an agent slips one past the guard. DO NOT re-add either style.
    See /.claude/CLAUDE.md (ELIMINATED FEATURES). */
 .article-toc,
+.article-toc-container,
+.article-toc-inner,
+.article-toc-wrapper,
 .article-toc-details,
 .article-toc-summary,
 .article-toc-label,
@@ -7565,10 +7568,43 @@ nav.ux-breadcrumbs a {
 .section-nav,
 .section-nav-container,
 .section-nav-inner,
+.section-nav-wrapper,
+.page-toc,
+.page-nav,
+.on-this-page,
+.in-page-nav,
+.jump-to-nav,
+.jump-nav,
+.scroll-nav,
+.sticky-toc,
+.toc-sticky,
+.toc-container,
+.floating-toc,
+.sidebar-toc,
+.chapter-nav,
+.mini-nav,
+[class*="on-this-page" i],
+[class*="jump-to-nav" i],
 nav[aria-label="Table of contents"],
 nav[aria-label="On this page"],
-nav[aria-label="Jump to"] {
+nav[aria-label="Jump to"],
+nav[aria-label*="table of contents" i],
+nav[aria-label*="on this page" i],
+nav[aria-label*="jump" i],
+nav[aria-label*="contents" i],
+aside[aria-label*="on this page" i],
+aside[aria-label*="table of contents" i],
+aside[aria-label*="contents" i],
+div[aria-label*="on this page" i],
+div[aria-label*="table of contents" i] {
     display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
 }
 
 /* --- Healing Series Next/Prev --- */

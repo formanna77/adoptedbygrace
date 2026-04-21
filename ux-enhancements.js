@@ -220,17 +220,90 @@
     // regression, it gets removed on DOMContentLoaded. Keep it. Do not
     // repurpose it. Do not add anything that BUILDS a jump-to nav here —
     // the h2 headings plus the main site nav are enough navigation.
+    // Hardened 2026-04-20 (pass 2): widened the selector net, added a
+    // MutationObserver so anything injected post-load is killed on sight,
+    // and made the match case-insensitive on aria-label / class fragments.
+    // A single reader seeing a cached "on this page" bar on /the-60-second-case
+    // was enough to justify treating any such node as a production incident.
     function purgeStrayAutoTOC() {
         var selectors = [
             '.article-toc',
+            '.article-toc-container',
+            '.article-toc-inner',
+            '.article-toc-wrapper',
             '.section-nav',
             '.section-nav-container',
             '.section-nav-inner',
-            'nav[aria-label="Table of contents"]',
-            'nav[aria-label="On this page"]',
-            'nav[aria-label="Jump to"]'
+            '.section-nav-wrapper',
+            '.page-toc',
+            '.page-nav',
+            '.on-this-page',
+            '.in-page-nav',
+            '.jump-to-nav',
+            '.jump-nav',
+            '.scroll-nav',
+            '.sticky-toc',
+            '.toc-sticky',
+            '.toc-container',
+            '.chapter-nav',
+            '.mini-nav',
+            '.floating-toc',
+            '.sidebar-toc',
+            '[class*="toc-sticky" i]',
+            '[class*="on-this-page" i]',
+            '[class*="jump-to" i]',
+            '[class*="article-toc" i]',
+            '[class*="section-nav" i]',
+            'nav[aria-label*="table of contents" i]',
+            'nav[aria-label*="on this page" i]',
+            'nav[aria-label*="jump" i]',
+            'nav[aria-label*="contents" i]',
+            'aside[aria-label*="table of contents" i]',
+            'aside[aria-label*="on this page" i]',
+            'aside[aria-label*="contents" i]',
+            'div[aria-label*="on this page" i]',
+            'div[aria-label*="table of contents" i]'
         ].join(', ');
-        document.querySelectorAll(selectors).forEach(function (n) { n.remove(); });
+
+        function matches(node) {
+            try { return node.matches && node.matches(selectors); }
+            catch (e) { return false; }
+        }
+
+        function sweep(root) {
+            if (!root || !root.querySelectorAll) return;
+            // Remove the root itself if it matches.
+            if (matches(root)) { try { root.remove(); return; } catch (e) {} }
+            var hits = root.querySelectorAll(selectors);
+            for (var i = 0; i < hits.length; i++) {
+                try { hits[i].remove(); } catch (e) {}
+            }
+        }
+
+        sweep(document.body || document.documentElement);
+
+        // MutationObserver: if a cached script, a rogue agent's leftover,
+        // or a future regression injects a jump-nav after DOMContentLoaded,
+        // kill it before the paint the user sees. One observer per page;
+        // scoped to body subtree; detached after 30s to avoid perf cost.
+        if (typeof MutationObserver === 'function' && document.body && !document.body.__tocFuseObserver) {
+            var obs = new MutationObserver(function (mutations) {
+                for (var i = 0; i < mutations.length; i++) {
+                    var added = mutations[i].addedNodes;
+                    if (!added || !added.length) continue;
+                    for (var j = 0; j < added.length; j++) {
+                        var n = added[j];
+                        if (n && n.nodeType === 1) sweep(n);
+                    }
+                }
+            });
+            obs.observe(document.body, { childList: true, subtree: true });
+            document.body.__tocFuseObserver = obs;
+            setTimeout(function () {
+                try { obs.disconnect(); } catch (e) {}
+                try { delete document.body.__tocFuseObserver; } catch (e) {}
+            }, 30000);
+        }
     }
 
     // ---------- 5. Healing series Next/Prev ----------
