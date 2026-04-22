@@ -178,14 +178,17 @@
         .tulip-pill.all-pill .pill-thesis { display: none; }
         .tulip-pill.all-pill .pill-top { margin: 0; }
 
-        /* ---------- STICKY FILTER BAR ---------- */
+        /* ---------- STICKY FILTER BAR ----------
+           Site nav is position:fixed; top:0; height:50px (see global.css).
+           Filter bar must stick BELOW the nav, not under it. top:50px is load-bearing. */
         .filter-bar-wrapper {
             position: sticky;
-            top: 0;
-            z-index: 100;
-            background: linear-gradient(180deg, var(--bg-deep) 0%, rgba(10,10,15,0.96) 100%);
+            top: 50px;
+            z-index: 90; /* below nav's z-index:1000 */
+            background: linear-gradient(180deg, rgba(10,10,15,0.98) 0%, rgba(10,10,15,0.96) 100%);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
+            border-top: 1px solid rgba(212, 162, 84, 0.14);
             border-bottom: 1px solid rgba(212, 162, 84, 0.22);
             box-shadow: 0 6px 20px rgba(0,0,0,0.35);
             padding: 0.9rem 1.25rem;
@@ -671,6 +674,12 @@
 
             .tulip-pill .pill-top { flex-direction: column; align-items: flex-start; gap: 0.15rem; }
             .tulip-pill .pill-count { margin-left: 0; }
+
+            /* On narrow screens the filter-bar becomes a single column and is tall enough
+               that sticky would eat the viewport. Go static. */
+            .filter-bar-wrapper {
+                position: static;
+            }
 
             .filter-bar {
                 grid-template-columns: 1fr;

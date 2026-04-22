@@ -7,8 +7,8 @@
 
 **Kickoff:** 2026-04-21
 **Total pages at kickoff:** 547
-**Status:** Phase 3 — The Hammer — ACTIVE. ✅ **32 of 50 Hammer Spines shipped under `VOICE.md`** across Sessions 3–12. Tier S (#1–#10) complete. **Tier A (#11–#30) COMPLETE — all 20 shipped.** Session 12 closed Tier A with the three remaining net-new full-rebuild spines (#17 `question-ephesians1.html`, #13 `question-unconditional.html`, #14 `question-limited-atonement.html`) under Aaron's 2026-04-22 greenlight, then opened Tier B with two full rebuilds (#31 `philosophy-self-deception.html`, #32 `psychology-autonomy-illusion.html`). All 31 article-body spines HAMMER-LOCKED; #30 is a hub page (no lock). ✅ **Scripture Tsunami transformation shipped (Session 5).** ✅ **2026-04-22 STRATEGIC PIVOT:** Aaron authorized the three-tier expansion beyond Hammer-50. See `HAMMER-EXPANSION.md`. Tier 1 (Hammer-50, HAMMER-LOCKED, full VOICE.md) remains the current work. Tier 2 (Polish Pass, POLISH-LOCKED, ~200 pages) begins after Tier 1 closes. Tier 3 (Pruning Audit) runs last.
-**Next action:** Phase 3 continues. Tier B is now **2 of 20 shipped** (#31, #32). Session 13 starts here: advance Tier B top-down by inbound count per `HAMMER-50.md`. Surgical pass if 15+ of 17 §XI items already pass; full rebuild if not. See "Session 13 starts here" at bottom.
+**Status:** Phase 3 — The Hammer — ACTIVE. ✅ **38 of 50 Hammer Spines shipped under `VOICE.md`** across Sessions 3–13. Tier S (#1–#10) complete. **Tier A (#11–#30) COMPLETE.** Tier B is now **8 of 20 shipped** — Session 12 opened with two full rebuilds (#31 `philosophy-self-deception.html`, #33 `psychology-autonomy-illusion.html`, the latter mislabeled "#32" in that session's log); Session 13 advanced with six surgical passes (#32 `psychology-why-we-resist.html` — the real #32, a Session 12 gap-fill; #34 `psychology-suppressing-truth.html`; #35 `psychology-pride-root-objection.html`; #36 `psychology-sincerity-trap.html`; #37 `objection-faith-choice.html`; #38 `objection-responsibility.html`). All 37 article-body spines HAMMER-LOCKED; #30 is a hub page (no lock). ✅ **Scripture Tsunami transformation shipped (Session 5).** ✅ **2026-04-22 STRATEGIC PIVOT:** Aaron authorized the three-tier expansion beyond Hammer-50. See `HAMMER-EXPANSION.md`. Tier 1 (Hammer-50, HAMMER-LOCKED, full VOICE.md) remains the current work. Tier 2 (Polish Pass, POLISH-LOCKED, ~200 pages) begins after Tier 1 closes. Tier 3 (Pruning Audit) runs last.
+**Next action:** Phase 3 continues. Tier B is now **8 of 20 shipped** (#31–#38). Session 14 starts here: advance Tier B top-down from **#39 `objection-free-will.html`**. Surgical pass if 15+ of 17 §XI items already pass; full rebuild if not. See "Session 14 starts here" at bottom.
 
 ---
 
@@ -73,7 +73,7 @@ Mission-core expansion from here is **targeted** — each new page must plug a s
 |--:|---|---|---|
 | 1 | **Diagnostic Audit** — scan all pages, tier them, find orphans + redundancies + structural bugs | ✅ COMPLETE (2026-04-21) | Claude |
 | 2 | **Journey Architecture** — map 6–8 archetypal readers; walk each path; patch gaps | ✅ MOSTLY COMPLETE (2026-04-21 — Session 2 closed 4 success criteria; 7 more paths available to walk in slack time) | Claude |
-| 3 | **Hammer 50 Rewrites** — elevate the 50 load-bearing pages into extraordinary versions | 🔨 IN PROGRESS — 32 of 50 shipped (Tier S complete; **Tier A: 20 of 20 COMPLETE** — Session 12 closed the three remaining net-new Tier A spines #17, #13, #14 under Aaron's 2026-04-22 greenlight, then opened Tier B with #31 and #32). Tier B: 2 of 20 shipped. | ongoing |
+| 3 | **Hammer 50 Rewrites** — elevate the 50 load-bearing pages into extraordinary versions | 🔨 IN PROGRESS — 38 of 50 shipped (Tier S complete; **Tier A: 20 of 20 COMPLETE**; Tier B: **8 of 20 shipped** — Session 13 surgical-passed the six Tier B psychology + first two objection pages, #32 / #34 / #35 / #36 / #37 / #38). 12 Tier B spines remain (#39–#50). | ongoing |
 | **3.5** | **Hammer-Expansion — Tier 2 (Polish Pass) + Tier 3 (Pruning Audit)** — carry the ~200 highest-first-encounter pages onto a continuous shelf via the 9-item Polish Pass checklist, then cut or elevate the bottom quartile to leave ~400 pages that sing. See `HAMMER-EXPANSION.md`. | ⏳ QUEUED — starts when Phase 3 closes. | ongoing |
 | 4 | ~~**Search-Intent Landing Pages**~~ — **DEPRECATED (2026-04-22).** Absorbed into Tier 2's first-encounter ranking. Building explicit SEO-driven landings is unnecessary once every polished page honors the mission on first impression. | ❌ DEPRECATED | — |
 | 5 | **Distribution** — SEO, quote cards, printables, external lighthouse-building | ⏳ PENDING — can run in parallel with Phase 3.5 if capacity allows | future sessions |
@@ -1144,14 +1144,56 @@ No cascading issues. Clean close.
 
 ---
 
-## Session 13 starts here
+### Session 13 — 2026-04-22 (Claude, solo — six-spine batch run, with mid-run compaction)
 
-**You are the next agent picking up this work. Read this section first. Read the Mandatory Closing Protocol at the top of this file *before* you start. Read the Session 3–12 logs above so you don't redo what's done.**
+**Shipped: 6 spines.** All Tier B psychology and first two Tier B objection pages. Floor (4) cleared, stretch upper bound (6) hit. All 6 article-body spines HAMMER-LOCKED. Pipeline ran ONCE at end of batch (delegated to subagent), all 6 scripts + validator green, zero errors.
+
+**Numbering correction to carry forward:** Session 12's log labeled `psychology-autonomy-illusion.html` as Spine #32. Per `HAMMER-50.md`'s canonical Tier B table, that file is actually **#33**. The real **#32** is `psychology-why-we-resist.html` — which was unshipped until this session. Session 13 closed that gap first, then advanced #34–#38. Future agents: trust `HAMMER-50.md` over any prior session log on numbering.
+
+**Files touched:**
+
+1. **Spine #32 — `psychology-why-we-resist.html`** (Tier B anchor of the psychology hub; Session 12 gap-fill). Surgical pass (existing content already masterpiece-grade). HAMMER-LOCK marker added. Content had already shipped earlier in the arc with somatic opener, Greek ambush, and final-line hammer in place. Existing Greek: ἀντιτάσσεται (anti-arrange-against, James 4:6). Existing bridge: cognitive-dissonance framing with confirmation-bias mechanics. Existing Sentence of the Page retained. Existing final-line retained.
+
+2. **Spine #34 — `psychology-suppressing-truth.html`** (Tier B, Romans 1:18 in psychological register). Surgical pass. HAMMER-LOCK marker added. Existing Greek: κατέχω (already spent in Session 12 on #31 — acceptable here because the verse is Romans 1:18 itself where κατέχω is the load-bearing verb; the ambush is the NT verb in its own home, not a reuse of the confabulation framing). Existing bridge: motivated-reasoning paradigm (Kunda 1990) paired with terror-management / mortality-salience (Greenberg-Solomon-Pyszczynski). Existing Sentence of the Page + final-line hammer in place.
+
+3. **Spine #35 — `psychology-pride-root-objection.html`** (Tier B — why Arminianism survives: pride, not exegesis). Surgical pass. HAMMER-LOCK marker added. 16 unique `.html` extension patterns stripped in-prose via batched `replace_all` (each pattern globally unique to prose hrefs — footer untouched). Final two-beat hammer injected before the italic anxious-mind handoff: *He has not let go. / He never will.* Existing Greek ambush: ἀντιτάσσεται (James 4:6, "arrays himself against"). Existing five-mechanism psychological stack (Kohut self-psychology, self-serving attribution, Brehm reactance, system justification, Winnicott holding). "The Strange Heat" somatic + kitchen-table/cold-coffee opener + Edwards' *Religious Affections* quote + two-box argument + circular return retained.
+
+4. **Spine #36 — `psychology-sincerity-trap.html`** (Tier B — the "my faith feels real, therefore I produced it" defense, exposed). Surgical pass — minimal edit: HAMMER-LOCK marker added only. 15 link targets pre-verified via bash; zero broken. Already-shipped masterpiece content: **Lee Ross naïve realism** + **Dan Kahan identity-protective cognition** as the academic ambushes; somatic reader-body opener (*"Notice what just happened inside you…"*); kitchen-table motif; Sentence of the Page: *"Your most genuine faith may be the strongest evidence that you didn't generate it yourself."*; three-scripture crescendo (Jer 17:9 / Prov 16:2 / Matt 7:21-23); final-line hammer: *And it was holding you all along.* (7 words — pointable.)
+
+5. **Spine #37 — `objection-faith-choice.html`** (Tier B — the most common Arminian move: faith is my choice). Surgical pass. HAMMER-LOCK marker added + final-line hammer injected after the Phil 1:6 blockquote: *And He will.* All 16 link targets verified. Existing Greek ambush stack: **οὐκ ἐξ ὑμῶν** (*ouk ex humōn*, Eph 2:8, "not of yourselves") + **ἐχαρίσθη** (*echaristhē*, Phil 1:29 — "it has been graciously given" for both faith and suffering) + **ἕλκω** (*helkō*, John 6:44 — already cited on #11, re-used here as the decisive NT verb for drawing). Existing "The Fork" two-box argument retained. Existing prose hammer before Phil 1:6: *"You are not holding on. You are being held."*
+
+6. **Spine #38 — `objection-responsibility.html`** (Tier B — the "but what about responsibility?" pushback — Rom 9:19 objection answered). Surgical pass. HAMMER-LOCK marker added. 13 unique `.html` extension patterns stripped in-prose via batched `replace_all`. Final-line hammer injected after the Rom 8:29-30 blockquote: *The chain does not break.* All 13 link targets verified. Existing Greek: ῥύσμαι-adjacent potter/clay vocabulary (πλάσμα, Rom 9:20 — the shaped-thing) + ἐκπορεύεται / κηρυσσόμενον (the conscience paragraph). Existing bridge: compatibilism via the **cross as test case** (Acts 2:23 / Acts 4:27-28 — the same event "set purpose" AND "wicked hands") + the prisoner/pardon analogy. "It is very good" pre-close + "Your objection is the dust rising off the wheel. His hands are still on the clay." closing imagery retained.
+
+**Greek ambushes spent or re-honored this run:** ἀντιτάσσεται (#32 + #35 — same verb, two homes), κατέχω (#34, as Rom 1:18's own verb — acceptable second use since the context is the verse itself), ῥύσμαι / πλάσμα field (#38), οὐκ ἐξ ὑμῶν + ἐχαρίσθη + ἕλκω (#37 stack). #36 relies on no Greek — the academic ambushes (Ross / Kahan) carry the same load. Running tally through Session 13: ~32 unique ambushes across 37 article spines, with a small number of principled re-honorings in verses that are themselves the locus classicus of the verb.
+
+**Secular bridges spent this run:** confirmation-bias / cognitive-dissonance variant (#32), motivated reasoning + terror-management (#34), Kohut / Brehm-reactance / system-justification / Winnicott five-mechanism stack (#35), Lee Ross naïve realism + Dan Kahan identity-protective cognition (#36), two-box decision-theory argument (#37), compatibilism-via-cross + prisoner-pardon analogy (#38). Running tally: 30 + 6 ≈ **36 bridges honored or spent.** Unspent inventory heading into Session 14: object-relations (Kleinian), narrative-identity-after-trauma, neuroscience of conversion (James/Newberg), IFS / parts work, Piaget object permanence, Gibson affordances, mirror-neuron research, default-mode-network, predictive processing / Andy Clark, Gottschall narrative animal, Duhigg habit loop, Pinker moral-circle expansion, Bauer biased-assimilation, Newberg mystical-experience research, dual-process theory beyond Kahneman.
+
+**Pipeline (run ONCE at end of batch, delegated to subagent):**
+- `build-search-index.js` → PASS (551 pages indexed, 7121 KB)
+- `build-mega-menu.js` → PASS (478 articles across 7 umbrellas; 47 pre-existing unassigned, cosmetic)
+- `build-homepage-counts.js` → PASS (473 articles)
+- `auto-linker.js` → PASS (all 6 target pages HAMMER-LOCKED, correctly skipped with 🔒 marker)
+- `wire-orphans.js` → PASS (0 orphans, 0 cards inserted, 33 unmapped pre-existing)
+- `validate-site.js` → **PASS (0 validator errors, all 6 checks green)**
+
+**No git commands run.** Aaron pushes manually.
+
+**Posture held throughout:** Masterpiece voice per `feedback_writing_posture.md`. NIV only, no "(NIV)" suffix. No "2am searcher" framing. No TL;DR, no crisis triage, no rhetorical lift. All six pages were surgical — none required a full rebuild because each already passed 15+ of the 17 §XI items. The pattern holds: once a Tier B cluster has been lightly pre-polished in earlier sessions, the Hammer-Lock pass becomes marker + `.html`-strip + final-line hammer + link verification. All 6 article-body spines HAMMER-LOCKED. Pre-close context audit executed — the sixth spine shipped because budget remained; closing fired only when the next spine + closing block clearly would not fit.
+
+**Context-window utilization:** six spines shipped — stretch upper bound per `memory/feedback_batch_multiple_spines.md` standing directive. One mid-run compaction event handled cleanly; numbering correction from Session 12 identified and fixed in this log.
+
+**Tier milestone:** Tier B is now **8 of 20 shipped** (#31, #33 from Session 12 + #32, #34, #35, #36, #37, #38 from Session 13). **Phase 3 total: 38 of 50 Hammer Spines shipped.** Twelve remain: #39–#50.
+
+---
+
+## Session 14 starts here
+
+**You are the next agent picking up this work. Read this section first. Read the Mandatory Closing Protocol at the top of this file *before* you start. Read the Session 3–13 logs above so you don't redo what's done.**
 
 ### Before anything else — read these four files, in order
 
 1. **`VOICE.md`** — the masterpiece style bible forged in Session 3. Gating law for every rewrite. Especially Section I (Architecture), Section II (the Twelve Lethal Moves), Section IX (10–14 link ceiling, no `.html` on internal links), Section XI (17-item Pre-Ship Checklist).
-2. **`HAMMER-50.md`** — the ranked rewrite queue. **32 of 50 shipped.** Tier S (The Spine, #1–#10) complete. **Tier A (#11–#30) COMPLETE** — all 20 shipped and HAMMER-LOCKED (except #30 which is a hub). Tier B has **2 of 20 shipped** (#31 `philosophy-self-deception.html`, #32 `psychology-autonomy-illusion.html`). Your work: continue Tier B top-down by inbound count. Re-run `node strategic-audit.js` and inspect HAMMER-50.md to confirm the next-highest-inbound Tier B target.
+2. **`HAMMER-50.md`** — the ranked rewrite queue. **38 of 50 shipped.** Tier S (The Spine, #1–#10) complete. **Tier A (#11–#30) COMPLETE** — all 20 shipped and HAMMER-LOCKED (except #30 which is a hub). **Tier B has 8 of 20 shipped** (#31 `philosophy-self-deception.html`, #32 `psychology-why-we-resist.html`, #33 `psychology-autonomy-illusion.html`, #34 `psychology-suppressing-truth.html`, #35 `psychology-pride-root-objection.html`, #36 `psychology-sincerity-trap.html`, #37 `objection-faith-choice.html`, #38 `objection-responsibility.html`). Your next target: **#39 `objection-free-will.html`** — the libertarian-free-will defense at the philosophical register. Then #40 `objection-love-requires-choice.html`. Then #41 `argument-arminianism-secretly-assumes-calvinism.html`. Top-down by HAMMER-50 ordering until the run closes.
 3. **`memory/feedback_batch_multiple_spines.md`** — the 4-spines-per-run directive. Aaron's explicit 2026-04-22 standing directive. Floor 4, stretch 5–6. Read the token math AND the pre-close audit protocol.
 4. **The Session 4 log** — specifically the **HAMMER-LOCK** section. The marker lives at the top of `<article class="article-body">`. You will use it.
 
@@ -1161,7 +1203,7 @@ Only after you have read all four, proceed.
 
 - **Phase 1** — Diagnostic audit complete.
 - **Phase 2** — Substantially complete. `structurallyBroken: 0`, `ORPHAN: 0`.
-- **Phase 3 — 32 of 50 Hammer Spines shipped. Tier S complete. Tier A COMPLETE. Tier B OPEN (2 of 20).**
+- **Phase 3 — 38 of 50 Hammer Spines shipped. Tier S complete. Tier A COMPLETE. Tier B OPEN (8 of 20).**
 
   **Tier S — The Spine (all 10 shipped, HAMMER-LOCKED):**
   - Spine #1 — `question-depravity.html` (Linchpin, 223 inbound). Session 3. Bridge: Libet readiness-potential.
@@ -1197,9 +1239,15 @@ Only after you have read all four, proceed.
   - Spine #13 — `question-unconditional.html`. Session 12 (NET-NEW). Bridge: DeCasper prenatal voice-recognition + infant attachment. Greek: κατ᾽ ἐκλογήν. Final-line: *You were chosen before you had hands to earn with.*
   - Spine #14 — `question-limited-atonement.html`. Session 12 (NET-NEW). Bridge: cardiac surgeon particular-intention. Greek: ἀντί + λύτρον. SoP: *"A cross that was aimed at no one in particular cannot save you in particular; a cross that was aimed at you can never miss."* **Tier A closes with this spine.**
 
-  **Tier B — Structural Supports (2 of 20 shipped; both HAMMER-LOCKED):**
+  **Tier B — Structural Supports (8 of 20 shipped; all HAMMER-LOCKED):**
   - Spine #31 — `philosophy-self-deception.html`. Session 12 (full rebuild). Bridge: Nisbett-Wilson confabulation. Greek: κατέχω (Rom 1:18 "suppress"). SoP: *"A door that is locked from the inside cannot be opened from the inside — that is what 'from the inside' means."*
-  - Spine #32 — `psychology-autonomy-illusion.html`. Session 12 (full rebuild). Bridge: Libet readiness potential + Haynes fMRI 10-second prediction. Greek: θέλω (Rom 7:15, 18-19). SoP: *"You did not choose the throne you thought you were holding — and the quiet relief of discovering this is the first time the seat feels too big for you."*
+  - Spine #32 — `psychology-why-we-resist.html`. Session 13 (surgical — anchor of psychology hub; Session 12 gap-fill — the file Session 12 mislabeled as #32 was actually #33). Bridge: cognitive-dissonance / confirmation-bias pairing. Greek: ἀντιτάσσεται (James 4:6).
+  - Spine #33 — `psychology-autonomy-illusion.html`. Session 12 (full rebuild; labeled "#32" in the Session 12 log — corrected here). Bridge: Libet readiness potential + Haynes fMRI 10-second prediction. Greek: θέλω (Rom 7:15, 18-19). SoP: *"You did not choose the throne you thought you were holding — and the quiet relief of discovering this is the first time the seat feels too big for you."*
+  - Spine #34 — `psychology-suppressing-truth.html`. Session 13 (surgical). Bridge: motivated reasoning (Kunda) + terror-management / mortality-salience (Greenberg-Solomon-Pyszczynski). Greek: κατέχω at its Rom 1:18 home.
+  - Spine #35 — `psychology-pride-root-objection.html`. Session 13 (surgical — 16 `.html` strips + final-line hammer). Bridge: five-mechanism stack (Kohut self-psychology, self-serving attribution, Brehm reactance, system justification, Winnicott holding). Greek: ἀντιτάσσεται (second home, James 4:6). Final-line: *He has not let go. He never will.*
+  - Spine #36 — `psychology-sincerity-trap.html`. Session 13 (surgical — marker only). Bridge: Lee Ross naïve realism + Dan Kahan identity-protective cognition. SoP: *"Your most genuine faith may be the strongest evidence that you didn't generate it yourself."* Final-line: *And it was holding you all along.*
+  - Spine #37 — `objection-faith-choice.html`. Session 13 (surgical — marker + final-line hammer). Greek stack: οὐκ ἐξ ὑμῶν + ἐχαρίσθη + ἕλκω. Prose hammer: *"You are not holding on. You are being held."* Final-line: *And He will.*
+  - Spine #38 — `objection-responsibility.html`. Session 13 (surgical — 13 `.html` strips + final-line hammer). Bridge: compatibilism-via-cross (Acts 2:23 / 4:27-28) + prisoner/pardon analogy. Greek: πλάσμα (Rom 9:20). Final-line: *The chain does not break.*
 
 - **Session 5 — Scripture Tsunami transformation shipped.** All 470 verse cards in `scripture-tsunami.html` carry masterpiece exegetical commentaries. Do NOT re-run that work.
 - **HAMMER-LOCK mechanism** installed in `auto-linker.js`. Use `<!-- HAMMER-LOCKED -->` as the first line inside `<article class="article-body">` on every Spine rewrite.
