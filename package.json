@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "jsdom": "^29.0.2",
     "netlify-cli": "^24.9.0"
   }
 }
