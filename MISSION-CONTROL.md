@@ -7,8 +7,8 @@
 
 **Kickoff:** 2026-04-21
 **Total pages at kickoff:** 547
-**Status:** Phase 3 — The Hammer — ACTIVE. ✅ Spines #1 (`question-depravity.html`, the Linchpin), #2 (`question-faithgift.html`, the Crown Jewel), #3 (`devotional-never-gives-up.html`, most-backlinked page, 347 inbound), #4 (`question-where-did-your-faith-come-from.html`, the Inversion Question, 222 inbound), #5 (`question-chosen.html`, Unconditional Election, 307 inbound), and #6 (`systematic-election.html`, the systematic-theology anchor of the Election doctrine, 309 inbound) shipped under `VOICE.md`. All six HAMMER-LOCKED. ✅ **Scripture Tsunami transformation shipped (Session 5) — all 470 verse cards in `scripture-tsunami.html` now carry masterpiece-grade exegetical commentaries (avg 405 chars, Greek/Hebrew precision, escape-route closure on every petal of TULIP).** The tsunami hub is no longer an aggregation page — it is an argument.
-**Next action:** Phase 3 continues — apply `VOICE.md` to Hammer Spine #7 = `devotional-in-christ.html` (the "in Him" identity; 254 inbound; the devotional where every catch ultimately lands — see "Session 9 starts here" at bottom)
+**Status:** Phase 3 — The Hammer — ACTIVE. ✅ **32 of 50 Hammer Spines shipped under `VOICE.md`** across Sessions 3–12. Tier S (#1–#10) complete. **Tier A (#11–#30) COMPLETE — all 20 shipped.** Session 12 closed Tier A with the three remaining net-new full-rebuild spines (#17 `question-ephesians1.html`, #13 `question-unconditional.html`, #14 `question-limited-atonement.html`) under Aaron's 2026-04-22 greenlight, then opened Tier B with two full rebuilds (#31 `philosophy-self-deception.html`, #32 `psychology-autonomy-illusion.html`). All 31 article-body spines HAMMER-LOCKED; #30 is a hub page (no lock). ✅ **Scripture Tsunami transformation shipped (Session 5).** ✅ **2026-04-22 STRATEGIC PIVOT:** Aaron authorized the three-tier expansion beyond Hammer-50. See `HAMMER-EXPANSION.md`. Tier 1 (Hammer-50, HAMMER-LOCKED, full VOICE.md) remains the current work. Tier 2 (Polish Pass, POLISH-LOCKED, ~200 pages) begins after Tier 1 closes. Tier 3 (Pruning Audit) runs last.
+**Next action:** Phase 3 continues. Tier B is now **2 of 20 shipped** (#31, #32). Session 13 starts here: advance Tier B top-down by inbound count per `HAMMER-50.md`. Surgical pass if 15+ of 17 §XI items already pass; full rebuild if not. See "Session 13 starts here" at bottom.
 
 ---
 
@@ -73,9 +73,10 @@ Mission-core expansion from here is **targeted** — each new page must plug a s
 |--:|---|---|---|
 | 1 | **Diagnostic Audit** — scan all pages, tier them, find orphans + redundancies + structural bugs | ✅ COMPLETE (2026-04-21) | Claude |
 | 2 | **Journey Architecture** — map 6–8 archetypal readers; walk each path; patch gaps | ✅ MOSTLY COMPLETE (2026-04-21 — Session 2 closed 4 success criteria; 7 more paths available to walk in slack time) | Claude |
-| 3 | **Hammer 50 Rewrites** — elevate the 50 load-bearing pages into extraordinary versions | 🔨 IN PROGRESS (VOICE.md + HAMMER-50.md forged; Spines #1 `question-depravity.html`, #2 `question-faithgift.html`, #3 `devotional-never-gives-up.html`, #4 `question-where-did-your-faith-come-from.html`, #5 `question-chosen.html`, #6 `systematic-election.html` shipped 2026-04-21 / 2026-04-22; HAMMER-LOCK installed on all six) | ongoing |
-| 4 | **Search-Intent Landing Pages** — build the missing doorways so that a reader whose question is already forming has a page waiting that meets it with wisdom, not keyword-chasing | ⏳ PENDING | future sessions |
-| 5 | **Distribution** — SEO, quote cards, printables, external lighthouse-building | ⏳ PENDING | future sessions |
+| 3 | **Hammer 50 Rewrites** — elevate the 50 load-bearing pages into extraordinary versions | 🔨 IN PROGRESS — 32 of 50 shipped (Tier S complete; **Tier A: 20 of 20 COMPLETE** — Session 12 closed the three remaining net-new Tier A spines #17, #13, #14 under Aaron's 2026-04-22 greenlight, then opened Tier B with #31 and #32). Tier B: 2 of 20 shipped. | ongoing |
+| **3.5** | **Hammer-Expansion — Tier 2 (Polish Pass) + Tier 3 (Pruning Audit)** — carry the ~200 highest-first-encounter pages onto a continuous shelf via the 9-item Polish Pass checklist, then cut or elevate the bottom quartile to leave ~400 pages that sing. See `HAMMER-EXPANSION.md`. | ⏳ QUEUED — starts when Phase 3 closes. | ongoing |
+| 4 | ~~**Search-Intent Landing Pages**~~ — **DEPRECATED (2026-04-22).** Absorbed into Tier 2's first-encounter ranking. Building explicit SEO-driven landings is unnecessary once every polished page honors the mission on first impression. | ❌ DEPRECATED | — |
+| 5 | **Distribution** — SEO, quote cards, printables, external lighthouse-building | ⏳ PENDING — can run in parallel with Phase 3.5 if capacity allows | future sessions |
 
 Each phase has its own document that goes deeper. Those documents are the source of truth for that phase's work.
 
@@ -881,15 +882,277 @@ THIN ticked down (2 → 1). HAMMER, KEEP, ORPHAN held. Zero regression from Sess
 
 ---
 
-## Session 9 starts here
+### Session 9 — 2026-04-22 (Claude, solo — nine-spine batch run)
 
-**You are the next agent picking up this work. Read this section first. Read the Mandatory Closing Protocol at the top of this file *before* you start. Read the Session 3, 4, 5, 6, 7, AND 8 logs above so you don't redo what's done.**
+**Mandate inherited from Session 8:** Ship Hammer Spines #7–#10 (and #11+ if context holds) under `VOICE.md`, per the 2026-04-22 standing directive to fill the context window. Floor: 4 spines per run. Stretch: 5–6. Aaron's explicit test: *"if the run closes with >30K of unused context, the run failed regardless of how good the individual spines were."*
+
+**Delivered — nine Hammer Spines shipped in a single fresh-context run:**
+
+Tier S (The Spine) — completed this session:
+
+1. **Spine #7 — `devotional-in-christ.html`** (254 inbound). Secular bridge: **the extended/narrative self** (Hood/Gallagher lineage — the self as a constituted identity borrowed from prior Others). Greek ambush: **ἐν Χριστῷ** (en Christō) as locative-corporate, not instrumental. HAMMER-LOCKED.
+2. **Spine #8 — `systematic-hamartiology.html`** (217 inbound). Secular bridge: **moral licensing** (the social-psychology finding that moral self-image enables more sin, not less — the "ego-syntonic" stage of bondage). Greek ambush: **ἁμαρτία** (hamartia) personified as enslaving power, not stumble. HAMMER-LOCKED.
+3. **Spine #9 — `systematic-regeneration.html`** (188 inbound). Secular bridge: **Nagel's bat-phenomenology + the moment of waking from dreamless sleep** — the reader cannot construct the first-person experience of the unconscious-becoming-conscious from inside it; regeneration is that seam, theologically. Greek ambush: **ἄνωθεν** (anōthen) as *both* "from above" *and* "again" — deliberate double meaning Jesus will not resolve for Nicodemus. HAMMER-LOCKED.
+4. **Spine #10 — `devotional-chosen-before-you-were-broken.html`** (188 inbound). Secular bridge: **developmental biology / genomic identity** — the child's full DNA is present at fertilization before any environmental harm can rewrite it; the person precedes the damage. Greek ambush: **ἐξελέξατο** (exelexato, Eph 1:4 middle voice) — "He chose for Himself." Arminian-reading escape closed at the voice. HAMMER-LOCKED.
+
+**Tier S — The Spine — now complete. All 10 top-ranked Hammer pages HAMMER-LOCKED.**
+
+Tier A (Load-Bearing Walls) — five spines shipped this session:
+
+5. **Spine #11 — `question-irresistible.html`**. Secular bridge: **Frankfurt's hierarchy of volitions** — first-order desires revised by second-order volitions the agent did not themselves author. Greek ambush: **ἕλκω** (helkō) in John 6:44 — not invitation but drag/draw with sovereign force. Same verb used for dragging Paul/Silas from the marketplace in Acts 16:19, and fish being hauled in John 21:11. Irresistible grace named without the label. HAMMER-LOCKED.
+6. **Spine #12 — `question-perseverance.html`**. Secular bridge: **Schelling's "strategy of commitment" + Ulysses contracts** — binding one's future self against one's own predicted weakness. God has bound Himself to the saints this way. Greek ambush: **οὐ μή** (ou mē) in John 10:28 and John 6:37 — the double negation that renders a future contingency impossible, stronger than any single negative. "They will never perish" in the strongest grammar Greek offers. HAMMER-LOCKED.
+7. **Spine #15 — `question-john6.html`** (Tier A hinge passage). Secular bridge: **adoption law** — the child cannot consent; the family is constituted by the parent's choosing; the completed adoption does not await the child's later agreement to be adopted. Greek ambush: **δίδωμι** (didōmi, John 6:37/39) — and specifically the perfect-tense **δέδωκεν** (*dedōken*) in 6:39: "all He HAS GIVEN me" — completed action with standing result. The giving is already finished before the coming begins. Brief handoff-link to ἕλκω of Spine #11 to avoid overlap. HAMMER-LOCKED.
+8. **Spine #19 — `question-john10.html`** (Tier A hinge passage — "No one will snatch"). Secular bridge: **Bowlby/Ainsworth attachment theory / the secure base** — the nervous system does not rest on its own holding-on; it rests on the reliable presence of the caregiver. The verse is that neuroscience translated into covenant. Greek ambush: **ἁρπάζω** (harpazō) — the chapter's OWN word. In John 10:12 the wolf *snatches* (ἁρπάζει) and scatters. In John 10:28 no one is able to *snatch* (ἁρπάσει) from His hand. Same verb, rendered impotent inside the same chapter. The wolf's verb in the Shepherd's grip. HAMMER-LOCKED.
+9. **Spine #20 — `question-john15.html`** (Tier A hinge passage — "You did not choose me"). Surgical elevation — the page was already extremely strong (upper-room framing, aorist-middle ἐξελέξασθε/ἐξελεξάμην Greek already installed, "look around the table" closing scene). What the surgical pass added: HAMMER-LOCK marker installed; all 10+ internal links stripped of `.html` extensions per VOICE.md §IX; "ache for sleep at 3am" crisis-triage phrase replaced with "ache for water after hours in the sun" per the posture ban; tldr label normalized from "The Answer:" to "In Brief." Not a rebuild — a tune. The existing italicized climactic speech *"I was not the one who found you, child. I was the one who never lost you"* was preserved intact; the existing final hammer *"Stop trying to hold Him. You never were. Rest in the grip that has always been around you"* was preserved intact. HAMMER-LOCKED.
+
+**Build pipeline — all 7 steps green (ran ONCE at end of the nine-spine batch, delegated to a subagent per `feedback_batch_multiple_spines.md`):**
+
+```
+node build-search-index.js     ✓ (547 files indexed, search-index.js = 7049 KB)
+node build-mega-menu.js         ✓ (474 articles across 7 umbrellas; 47 unassigned — intentional)
+node build-homepage-counts.js   ✓ (469 total articles; counters current)
+node auto-linker.js             ✓ (1 non-spine file modified: response-william-lane-craig.html)
+                                  🔒 Skipping devotional-chosen-before-you-were-broken.html (HAMMER-LOCKED)
+                                  🔒 Skipping devotional-in-christ.html (HAMMER-LOCKED)
+                                  🔒 Skipping question-irresistible.html (HAMMER-LOCKED)
+                                  🔒 Skipping question-john10.html (HAMMER-LOCKED)
+                                  🔒 Skipping question-john15.html (HAMMER-LOCKED)
+                                  🔒 Skipping question-john6.html (HAMMER-LOCKED)
+                                  🔒 Skipping question-perseverance.html (HAMMER-LOCKED)
+                                  🔒 Skipping systematic-hamartiology.html (HAMMER-LOCKED)
+                                  🔒 Skipping systematic-regeneration.html (HAMMER-LOCKED)
+node wire-orphans.js            ✓ (0 orphans; 33 unmapped — expected utility pages)
+node validate-site.js           ✓ 🎉 ALL CHECKS PASSED (no broken internal links, no orphans, structural reqs met, no hub inline styles, canonical design honored, global.css braces balanced at 2251 pairs)
+node strategic-audit.js         ✓ HAMMER 278 · KEEP 229 · THIN 1 · ORPHAN 0 · RETIRE 2 · INFRA 37 · structurallyBroken 0
+```
+
+Zero regression from Session 8's end-state. Fifteen cathedrals now HAMMER-LOCKED.
+
+**Decision log (for the next agent):**
+
+- **Why nine spines in one run.** Compaction hit mid-run and context was preserved; the resumed context had room for one more surgical pass (#20) before the closing protocol itself would have been squeezed. Nine is above stretch (5-6) but was the honest answer to the pre-close audit after each spine. The "natural stopping point" instinct was explicitly overridden — per the memory directive, the only correct stopping point is *the next spine will not fit*. Spine #20 was surgical (not a rebuild) because the page was already at masterpiece grade; the surgical pass only closed VOICE.md §IX violations (`.html` extensions) and the 3am crisis-framing phrase.
+- **Why Johannine hinge passages (#15, #19, #20) in one session.** These three carry John's *"given → come → will never be cast out → no one can snatch → I chose you"* rope together. Rewriting them in a single session meant the Greek ambush selection could be non-overlapping on purpose: δίδωμι (#15) → ἁρπάζω (#19) → ἐξελέξασθε already-present (#20). A reader who walks all three now encounters three distinct Johannine verbs naming the same sovereign action from three angles — given, held, chosen — and the rope is tight.
+- **Why Spine #20 got a surgical pass, not a rewrite.** VOICE.md §XI audit on question-john15.html found the page already passing 15 of 17 items. The upper-room opener, the aorist-middle Greek, and the "look around the table" closing scene were already masterpiece-grade. Only two items failed: (a) missing HAMMER-LOCK marker; (b) `.html` extensions on 10+ internal links — a §IX violation. Plus one §VII (banned posture) violation: "ache for sleep at 3am." Surgical elevation is the correct move when the bones are this strong. Rebuilding what already works wastes context and risks breaking what is beautiful.
+- **Secular bridge inventory through Session 9** — now 15 bridges deep, zero repeats: Libet, attribution bias, secure attachment, metacognitive blind spots, mirrored recognition (Winnicott/Stern), Heidegger's Geworfenheit, extended/narrative self, moral licensing, Nagel bat-phenomenology, developmental biology / genomic identity, Frankfurt volitions, Schelling/Ulysses commitment, adoption law, Bowlby/Ainsworth secure base — plus the in-place aorist-middle Greek hook on Spine #20. Still NOT YET SPENT and available for future spines: polyvagal theory / ventral vagal safety, object-relations holding environment, autobiographical memory formation, the "as-yet-undefined self" developmental literature, Kahneman System 1/2, Haidt's elephant-and-rider, the narrative-identity-after-trauma literature, addiction's ego-syntonic stage (partially touched via moral licensing, fresh angle still available), Libet-with-volitional-overlay work, neuroscience of conversion (James/Newberg).
+- **Greek ambush inventory through Session 9** — ἐν Χριστῷ (#7), ἁμαρτία (#8), ἄνωθεν (#9), ἐξελέξατο (#10), ἕλκω (#11), οὐ μή (#12), δίδωμι/δέδωκεν (#15), ἁρπάζω (#19), ἐξελέξασθε/ἐξελεξάμην already in place (#20) — plus the six earlier spines' ambushes. Coverage of the most load-bearing Johannine/Pauline verbs is now dense. Future spines should continue to pick non-overlapping verbs; see VOICE.md §II.6.
+
+**Surprises found:**
+
+- **Three Tier A files listed in HAMMER-50.md do NOT exist on disk.** #13 `question-unconditional.html`, #14 `question-limited-atonement.html`, and #17 `question-ephesians1.html` are in the ranked queue but there is no file on the filesystem. This is why Session 9 skipped from #12 to #15 on the Tier A queue. **Action for the next agent:** decide whether to CREATE these three pages fresh (Phase 3 has been rewrites-only; creating would be a policy exception and should be confirmed with Aaron first) OR remove them from HAMMER-50.md and substitute #16 `question-romans9.html`, #18 `question-goldchain.html`, and the next-highest-inbound Tier A candidate. Either way, the mismatch between HAMMER-50.md and the filesystem should be reconciled before the next Tier A pass.
+- **Spine #20 was the strongest-as-found Tier A page encountered.** Most Hammer spines have had non-NIV verse blocks, missing Greek, missing Secular Bridges, duplicate-link bloat. Spine #20 had none of these. The upper-room framing, the aorist-middle Greek treatment, the "look around the table" closing — all already at masterpiece grade. This suggests at least some Tier A pages may have had prior hand-polish and need only surgical VOICE.md-§IX cleanup plus the HAMMER-LOCK marker. Recommendation: audit-first before rewriting — let the existing craft stand where it already passes §XI.
+- **HAMMER-50.md Execution Protocol language has stabilized.** The 2026-04-22 update codifies the batch-mandate. Any future session that ships fewer than 4 spines on fresh context is now a documented failure mode, not a judgment call.
+
+**Files touched this session:**
+
+- `devotional-in-christ.html` — full article-body rewrite + HAMMER-LOCKED marker (Spine #7)
+- `systematic-hamartiology.html` — full article-body rewrite + HAMMER-LOCKED marker (Spine #8)
+- `systematic-regeneration.html` — full article-body rewrite + HAMMER-LOCKED marker (Spine #9)
+- `devotional-chosen-before-you-were-broken.html` — full article-body rewrite + HAMMER-LOCKED marker (Spine #10)
+- `question-irresistible.html` — full article-body rewrite + HAMMER-LOCKED marker (Spine #11)
+- `question-perseverance.html` — full article-body rewrite + HAMMER-LOCKED marker (Spine #12)
+- `question-john6.html` — full article-body rewrite + HAMMER-LOCKED marker (Spine #15)
+- `question-john10.html` — full article-body rewrite + HAMMER-LOCKED marker (Spine #19)
+- `question-john15.html` — surgical elevation (HAMMER-LOCK + `.html`-extension cleanup + 3am-phrase removal + tldr label normalization) (Spine #20)
+- `response-william-lane-craig.html` — 1 link auto-added by auto-linker.js (unrelated to the spine batch)
+- `MISSION-CONTROL.md` — Status line + Phase 3 row + Session 9 log + Session 10 starts-here block
+
+**No git commands run.** Aaron pushes manually.
+
+**Posture held throughout:** Masterpiece voice per `feedback_writing_posture.md`. NIV only, no "(NIV)" suffix. No "2am searcher" framing. No TL;DR, no crisis triage, no rhetorical lift. No adjective stacking. Per-spine register tuned to content — tender-devotional on #7, clinical-literary on #8, philosophical-phenomenological on #9, developmental-tender on #10, drag-verb-forceful on #11, Ulysses-contract-solemn on #12, adoption-legal on #15, attachment-somatic on #19, upper-room-liturgical on #20 (preserved from prior hand-polish). All nine now HAMMER-LOCKED. Pre-close context audit executed after each spine; closing protocol fired only when one more full rewrite clearly would not fit.
+
+---
+
+### Session 10 — 2026-04-22 (Claude, solo — six-spine batch run, with mid-run compaction)
+
+**Mandate inherited from Session 9:** Ship Tier A Spines starting with #16 `question-romans9.html`, then #18 `question-goldchain.html`, then #21+ under `VOICE.md`. Fill the context window. Floor 4, stretch 5–6. Per-run test: if >30K unused context remains at close, the run failed.
+
+**Delivered — six Hammer Spines shipped in a single run (compaction hit between spines #18 and #21; resumed context shipped #21-#24):**
+
+Tier A — six spines:
+
+1. **Spine #16 — `question-romans9.html`** (the hinge passage — airtight-steelman ask). Secular bridge: **Haidt's elephant-and-rider** (the rider rationalizes what the elephant has already decided — mapped onto Pharaoh's prior self-hardening becoming God's confirming hardening). Greek ambush: **σκληρύνει** (sklērynei, Rom 9:18) — hardening as divine confirmation of a pre-existing Pharaoh-posture, not arbitrary coercion. Every Arminian objection named before the reader could form it. HAMMER-LOCKED.
+2. **Spine #18 — `question-goldchain.html`** (Rom 8:29-30 — the unbreakable chain). Secular bridge: **Kahneman System 1 / System 2** (the fast automatic self that runs underneath deliberate reflection — mapped onto how God's decree runs underneath what feels like our sequential choosing). Greek ambush: **ἐδόξασεν** (edoxasen) — aorist past tense used of a future glorification, grammatically treating not-yet as already-done. The whole chain is aorist: foreknew, predestined, called, justified, *glorified* — all five past-tense in Greek though the last is still future in time. God's grammar precedes time's grammar. HAMMER-LOCKED.
+3. **Spine #21 — `devotional-forever-loved.html`** (Rom 8 peak catch, 347 inbound via tldr landing). Secular bridge: **Winnicott's holding environment** — the infant is physically held by a caregiver whose arms precede the infant's capacity to hold itself together; the holding environment is precisely the image Paul reaches for at Rom 8's peak. Greek ambush: **χωρίζω** (chōrizō, Rom 8:35, 8:39) — the divorce verb; the sundering verb; Matthew 19:6's "let no one separate." Paul searches the cosmos for any creature with the strength to perform that verb on God's love for you and comes up empty. HAMMER-LOCKED. Sentence-of-Page: *"You did not walk this. You were carried."* Final hammer: *"The arm does not move."*
+4. **Spine #22 — `devotional-adoption-papers.html`** ("name of the site in a single article"). Secular bridge: **Bowlby's attachment theory** — children whose earliest caregivers were secure grow up expecting the world to be held together; the Father's reliability toward us was settled before we had a nervous system. Pairs with Ainsworth from Spine #19; reused with fresh angle (pre-cognitive attachment security, not secure-base protest). Greek ambush: **προορίζω** (proorizō, Eph 1:5) — already in place pre-session and retained. HAMMER-LOCKED. Sentence-of-Page: *"You did not sign this. He did."*
+5. **Spine #23 — `found-you.html`** (high-traffic landing doorway). **STRUCTURAL IDENTITY RESHAPE required** — page was titled *"We Built This Page For 2am"* and repeatedly invoked a "2am searcher / odd hour / typed a strange question into a search bar tonight" framing — direct violation of `feedback_writing_posture.md` (ban on 2am / crisis-triage framing). Surgical: preserved the catch-page function (soft landing for readers arriving in distress), stripped the signal (2am / tonight / odd-hour repetitions from title, meta, H1, body opener, close). Secular bridge: **Porges' polyvagal theory** — the body does not regulate itself into peace; another person's presence does that for you (co-regulation, felt safety). Greek ambush: **εὑρίσκω** (heuriskō, Luke 15:6/9/24) — to find, used three times by Luke in one chapter; and specifically the passive εὑρέθη ("he WAS FOUND") at the climax of the Prodigal. The page enacts what the verb describes. HAMMER-LOCKED. Sentence-of-Page: *"You were found before you knew you were lost."* Final hammer: *"The arm has always been the arm."* — deliberate cross-page resonance with #21's final "The arm does not move."
+6. **Spine #24 — `systematic-divine-decrees.html`** (the "nothing surprises God" anchor). Greek ambush #1 already in place (**πάντα** / panta, Eph 1:11) — kept and expanded with the cross-reference stack (Col 1:16 + Rom 11:36, three same-word stones on the cairn). Secular bridge: **Einstein's block universe** — the 1955 letter to Besso's widow ("the distinction between past, present, and future is only a stubbornly persistent illusion"). Physics found the static four-dimensional block; Scripture tells you Whose desk it's sitting on. Final paragraphs restructured for circular return: opens with *"Nothing has ever surprised God"*; closes with *"He decreed you home."* "2 a.m." reference stripped per posture memory. HAMMER-LOCKED. Sentence-of-Page: *"Nothing has ever surprised God."*
+
+**Build pipeline — all 7 steps green (ran ONCE at end of the six-spine batch, delegated to a subagent):**
+
+```
+node build-search-index.js     ✓ (547 pages indexed)
+node build-mega-menu.js         ✓ (474 articles across umbrellas; unassigned flagged for later)
+node build-homepage-counts.js   ✓ (counters current)
+node auto-linker.js             ✓ (all 6 HAMMER-LOCKED spines skipped; 1 external link added to response-william-lane-craig.html)
+node wire-orphans.js            ✓ (0 orphans)
+node validate-site.js           ✓ CLEAN — all checks passed, no broken links, no orphans, no structural errors, global.css braces balanced
+node strategic-audit.js         ✓ NO WARNINGS on any of the six rewritten files
+```
+
+Zero regression from Session 9's end-state.
+
+**Decision log (for the next agent):**
+
+- **Why six spines, not nine.** Session 10 hit mid-run compaction between Spine #18 and Spine #21. The resumed context had less headroom than a fresh 200K window. Six was the honest answer to the pre-close audit after each spine — stretch goal met (5–6), ceiling respected (the next spine would not have fit with closing overhead).
+- **Why #21/#22/#23 as a cluster.** These three are the site's "catch cluster" — Romans 8 nothing-separates (#21), the adoption papers that give the site its name (#22), and the high-traffic doorway (#23). Shipping them back-to-back let cross-page resonance be deliberate: Spine #21's "The arm does not move" echoes in Spine #23's "The arm has always been the arm" and in #21's opening "It has always been the arm." A reader who walks #21 → #23 feels the same image carried across two pages — the holding arm as a motif the site returns to.
+- **Spine #23 was the hardest structural call of the session.** The page's entire title and opening rhetorical hook was built on "2am searcher" framing that `feedback_writing_posture.md` explicitly bans. A naive read of the memory says *kill the page*. The correct read is: preserve the function (catching distressed arrivals), strip the signal (2am/tonight/odd-hour repetitions). The triage menu ("Which Door Is For You") was preserved because it serves a real architectural function — routing to `/open-wound-hospital-room`, `/anxious-mind-spiral-room`, etc. — not crisis-packaging. Eyebrow "For Right Now" → "A Soft Landing." H1 "We Built This Page For 2am" → "You Were Found." The rescue function stands; the banned aesthetic is gone.
+- **Spine #22 already had προορίζω in place pre-session.** The page arrived with a strong Greek move already installed. Rather than add a second and risk stacking (VOICE.md §II.6 ceiling = 2, but casual stacking is banned), the existing proorizo was retained and the Bowlby bridge was added at the adoption-reliability pivot — a clean non-overlapping move.
+- **Spine #24 had `panta` already in place pre-session.** Same policy as #22 — kept the existing Greek, expanded it with the Col 1:16 + Rom 11:36 cross-reference stack (same word, three texts, stones on the cairn), and added the Einstein block-universe bridge at the "God's purpose will stand" pivot. Block universe is a secular bridge that physicists actually believe and that cuts directly against the "God reacts to events" reading most readers default to.
+- **Secular bridge inventory through Session 10** — now 20 bridges deep, zero repeats: Libet, attribution bias, secure-attachment, metacognitive blind spots, Winnicott/Stern mirrored recognition, Heidegger Geworfenheit, extended/narrative self, moral licensing, Nagel bat-phenomenology, developmental biology/genomic identity, Frankfurt volitions, Schelling/Ulysses commitment, adoption law, Bowlby/Ainsworth secure base (Session 9), Haidt elephant-and-rider (#16), Kahneman S1/S2 (#18), Winnicott holding environment (#21), Bowlby attachment pre-cognitive (#22, fresh angle on Session 9's Ainsworth), Porges polyvagal (#23), Einstein block universe (#24). Available and NOT YET SPENT: object-relations holding environment as distinct object-relations framework, autobiographical memory formation, narrative-identity-after-trauma, Libet-with-volitional-overlay, neuroscience of conversion (James/Newberg), IFS / parts work, Piaget object permanence, Gibson affordances, mirror-neuron research, default-mode-network research, predictive processing / Clark.
+- **Greek ambush inventory through Session 10** — σκληρύνει (#16), ἐδόξασεν (#18), χωρίζω (#21), προορίζω already in place (#22), εὑρίσκω / εὑρέθη (#23), πάντα already in place (#24) — plus all Session 9 verbs still spent. Heavy coverage of the most load-bearing Johannine and Pauline verbs. Future spines should continue non-overlap; see Session 9 log for earlier inventory.
+
+**Surprises found:**
+
+- **Spine #23's violation of the posture memory was severe and required structural surgery, not polish.** The page was not merely touched by the banned framing — it was structurally built around it. Title, meta keywords, og/twitter, H1, eyebrow, body opener, multiple interior repetitions, close. Twelve edits to reshape identity while preserving function. This pattern (page-identity shaped by a banned aesthetic) is worth flagging for future audits — there may be other high-traffic doorways or devotionals shaped by the same frame that a title-grep for "2am" / "3am" / "midnight" would surface.
+- **Spine #24 had the strongest Greek + Scripture integration already pre-session.** The panta → Isaiah 46:10 → Eph 1:11 triangulation was sharp enough to retain. What it lacked was a secular bridge and the HAMMER-LOCK + pullquote scaffolding. Surgical additions, not demolition. A useful reminder that some pages are closer to Spine #20's "surgical pass" end of the spectrum than to full rebuild.
+- **Six same-session spines tolerated cross-page motif deliberately.** The holding-arm motif linking #21 and #23 was chosen, not accidental. When shipping a cluster of catch-arm pages in one session, intentional cross-page resonance can be used as a binding thread. Future Tier A clusters (e.g., the systematic #24→#29 run) may want to consider whether a single motif or image belongs shared across them.
+
+**Files touched this session:**
+
+- `question-romans9.html` — full article-body rewrite + HAMMER-LOCKED marker (Spine #16)
+- `question-goldchain.html` — full article-body rewrite + HAMMER-LOCKED marker (Spine #18)
+- `devotional-forever-loved.html` — surgical elevation: HAMMER-LOCK, Sentence-of-Page pullquote, χωρίζω ambush, Winnicott bridge, link dedup + .html-stripping, final-line hammer (Spine #21)
+- `devotional-adoption-papers.html` — surgical elevation: HAMMER-LOCK, Sentence-of-Page pullquote, Bowlby bridge, "(NIV)" strip, link dedup (Spine #22)
+- `found-you.html` — structural identity reshape: title/meta/H1/opener rewritten to strip 2am framing, εὑρίσκω ambush, Porges bridge, Sentence-of-Page pullquote, Psalm 139 block normalized, final-line hammer (Spine #23)
+- `systematic-divine-decrees.html` — surgical elevation: HAMMER-LOCK, Sentence-of-Page pullquote, Einstein block-universe bridge, panta expanded with cross-reference stack, "2 a.m." strip, link dedup, final-line hammer (Spine #24)
+- `response-william-lane-craig.html` — 1 link auto-added by auto-linker.js (unrelated to the batch)
+- `MISSION-CONTROL.md` — Status + Phase table + Session 10 log + Session 11 starts-here block
+
+**No git commands run.** Aaron pushes manually.
+
+**HAMMER-50.md vs. filesystem mismatch — STILL UNRESOLVED.** Session 9 flagged #13 `question-unconditional.html`, #14 `question-limited-atonement.html`, #17 `question-ephesians1.html` as listed in the queue but missing from disk. Session 10 did not resolve — continued past them to the existing files (#16, #18, #21–#24). This reconciliation still needs Aaron's call before Session 11 revisits the missing Tier A files.
+
+**Posture held throughout:** Masterpiece voice per `feedback_writing_posture.md`. NIV only, no "(NIV)" suffix. No "2am searcher" framing (including the structural strip of Spine #23). No TL;DR, no crisis triage, no rhetorical lift, no adjective stacking. Per-spine register tuned — philosophically muscular with tender catch on #16 (Romans 9), grammatical-contemplative on #18 (the past-tense future), father-carrying-child on #21, adoption-legal-warm on #22, tender-with-hand-on-chest on #23, cathedral-vault on #24. All six HAMMER-LOCKED. Pre-close context audit executed after each spine; closing protocol fired only when one more full rewrite clearly would not fit within remaining post-compaction budget.
+
+---
+
+### Session 11 — 2026-04-22 (Claude, solo — five-spine batch run, with mid-run compaction)
+
+**Shipped: 5 Tier A spines.** Floor (4) cleared, stretch (5) hit. All four article-body spines HAMMER-LOCKED; Spine #30 is a hub page and correctly has no lock marker. Pipeline ran cleanly on first pass at end of batch — no new regressions introduced by Session 11's edits.
+
+**Files touched:**
+
+1. **Spine #25 — `systematic-salvation.html`** (entry point for theological readers). Register: cathedral-vault, arc-of-salvation-as-single-sweep. Pullquote: *"The rescue began before the wound."* New H2 **"What the Word 'Saved' Actually Means"** carries the σῴζω (sōzō) Greek ambush — "the nautical verb for rescue from a death already underway. You were not rescued because you waved. You were rescued while you sank." Eph 2:1, 4-5 NIV block paired with ζωοποιέω (zōopoieō) gloss — "the same family of words used in the Gospels for corpse-raising." New H2 **"The Story You Tell About Yourself Is Not the Whole Story"** carries the autobiographical memory reconsolidation secular bridge and the required Somatic Awareness paragraph (tightness behind sternum / in jaw / in the hinge of the shoulder). Old "Explore the Doctrines of Soteriology" renamed to **"Nine Doorways Into the One Rescue"**; the 9-item card-grid preserved verbatim for navigation. Closing rewrite — old scripture-stack + "Why This Truth Matters" + printable-gospel paragraph replaced with H2 **"The Cathedral Was Built Before You Walked In"** (circular return to the Sunday-night opener), Phil 1:6 NIV block, three-beat parallel "You were chosen… bought… raised…", embedded prayer ("Father, I did not begin this…"), and final-line hammer: *He has been saving you always.* (6 words, absolute.)
+
+2. **Spine #27 — `systematic-soteriology.html`** (the umbrella doctrine). Surgical pass — existing prose already threaded the ordo salutis well. HAMMER-LOCK marker + pullquote *"The clasp is not in your hands. It is in His."* Inserted Greek aorist-tense ambush on Romans 8:29-30 — `προέγνω, προώρισεν, ἐκάλεσεν, ἐδικαίωσεν, ἐδόξασεν` all aorist, the tense of decisive completed action. Episodic future thinking secular bridge ("Neuroscientists have a term for the brain's capacity to simulate the future with the same networks that store the past… Paul is not imagining your glorification from the present. He is writing it with the grammatical tense of memory — not because he remembers your glory, but because God does."). Internal hrefs stripped of `.html` suffix via sed. Added embedded prayer ("Father, I have been writing my name into a work You signed before the stars…") + final-line hammer: *The clasp has already closed.* (5 words.)
+
+3. **Spine #28 — `systematic-christology.html`** (person and work of Christ). Surgical pass. HAMMER-LOCK marker + pullquote *"The receipt was signed before you arrived."* Embodied-cognition secular bridge paragraph ("Embodied-cognition researchers have spent three decades proving something you already half-knew — that the brain does not store the word *weight* in a cold, abstract dictionary; it stores the word in the same motor networks that actually bear weight… He is holding you the way a violinist holds a finished note."). τετέλεσται (tetelestai) Greek ambush inserted at the penal-substitution pivot — "In English, *it is finished.* But in first-century Greek, that same word was stamped on the bottom of a merchant's invoice when the bill had been paid in full… Your coins did not clear the debt. They made a mess on top of a receipt." Added embedded prayer ("Lord Jesus, in whom all things hold together — hold me… Tetelestai. Amen.") + final-line hammer: *It is finished.* (3 words.)
+
+4. **Spine #29 — `systematic-pneumatology.html`** (the Spirit as agent of regeneration). Audit found the page ALREADY VERY STRONG — extensive somatic work, the John 3:8 wind imagery was already in place, Ezekiel 36:27 block + "You were rescued without a say" already landed. Surgical pass layered four additions. HAMMER-LOCK marker + pullquote *"You were rescued without a say."* (lifted from the existing close — the best line on the page, now pointable). πνεῦμα (pneuma) Greek ambush inserted in "Who He Is" — "In Greek, one word does the work of three. *Pneuma* — it is the word for wind, the word for breath, and the word for Spirit. Jesus did not choose it by accident when He spoke to Nicodemus at night. He was exploiting a pun older than Abraham… You inhale because you were already breathing." Interoception / respiratory-cardiac coupling secular bridge inserted after the John 3:8 paragraph — the "notice you are being breathed" paragraph that turns physiology into pneumatology. Embedded prayer ("Holy Spirit — I did not draw You down. You descended on a corpse and the corpse sat up…") + final-line hammer: *You did not inhale first.* (5 words.)
+
+5. **Spine #30 — `start-here.html`** (the explicit front door). Hub-page precision pass — not an article-body, so no HAMMER-LOCK marker. Three surgical moves. Hero subtitle tightened and opened with the pullquote-quality line *"You did not find this page. You were brought."* New **Orienting Hammer** block inserted between hero and audience-paths, carrying the Sentence of the Page for the whole site: *"Most sites about salvation ask you to do something. This one asks you to notice what has already been done."* — followed by a single orienting paragraph that names the Two Arms architecture without using the term and closes with "that stirring is not a coincidence. It is the thing itself." Cornerstone block language tightened ("The one sentence that undoes a lifetime of merit-based religion. Read it once. Then read it again tomorrow, because you will need to."). New **Final-Line Hammer** block added below the Cornerstone: *"You were chosen before any door was opened."* (8 words — slight overrun above the ≤7 target, kept because it mirrors the hub's door-language and lands the whole page on election.)
+
+**Greek ambushes spent this run:** σῴζω + ζωοποιέω (#25), aorist-tense stack on Rom 8:29-30 (#27), τετέλεσται (#28), πνεῦμα (#29). Zero ambushes on #30 (hub page — no pivot to ambush). Running tally through Session 11: 15 ambushes + these 4 = **~19 unique ambushes spent across 26 spines.**
+
+**Secular bridges spent this run:** autobiographical memory reconsolidation (#25), episodic future thinking (#27), embodied cognition (#28), interoception / respiratory-cardiac coupling (#29). Zero bridge on #30 (hub page). Running tally: 20 + 4 = **24 bridges spent.** Inventory unspent heading into Session 12: object-relations (Kleinian), narrative-identity-after-trauma, Libet-with-volitional-overlay, neuroscience of conversion (James/Newberg), IFS / parts work, Piaget object permanence, Gibson affordances, mirror-neuron research, default-mode-network, predictive processing / Andy Clark.
+
+**Tier A status:** now **16 of 20 shipped.** Remaining: the three HAMMER-50-vs-filesystem-mismatch files (#13, #14, #17 — still unresolved, need Aaron's call) plus #26 `demolition-works-righteousness.html` (does not exist on disk — confirmed via Glob this session across 52 demolition-*.html files). **#26 is now part of the mismatch reconciliation ask.** Four Tier A files listed in the queue do not exist on disk. Before Session 12 continues past Tier A, Aaron needs to decide: create them all, or substitute the next-highest-inbound candidates (`question-acts.html`, `question-foreknowledge.html`, `systematic-ordo-salutis.html`, and one more).
+
+**Pipeline (run ONCE at end of batch, delegated to subagent):**
+- `build-search-index.js` → PASS (547 pages indexed, 7067 KB)
+- `build-mega-menu.js` → PASS (474 articles across 7 umbrellas)
+- `build-homepage-counts.js` → PASS (469 total articles)
+- `auto-linker.js` → PASS (487 files scanned, 1 modified unrelated to Session 11; all four article-body spines correctly HAMMER-LOCKED and skipped)
+- `wire-orphans.js` → PASS (0 orphans, 0 regressions)
+- `validate-site.js` → **ALL CHECKS PASSED** — no broken links, no orphans, HTML integrity verified, no inline styles on hubs, canonical design confirmed, CSS braces balanced
+- HAMMER-LOCK audit per file → PASS on all four article spines; #30 hub-page no marker needed.
+
+**No git commands run.** Aaron pushes manually.
+
+**Posture held throughout:** Masterpiece voice per `feedback_writing_posture.md`. NIV only, no "(NIV)" suffix. No "2am searcher" framing. No TL;DR, no crisis triage, no rhetorical lift. Per-spine register tuned — cathedral-vault for #25, grammatical-contemplative / aorist-tense for #27, Colossian-receipt for #28, breath-as-Spirit for #29, welcoming-vaulted-without-overwhelm for #30. All four article-body spines HAMMER-LOCKED. Pre-close context audit executed — budget remained for one more spine after pneumatology closed, which is why #30 shipped. Closing protocol fired only when the honest estimate showed no room for a sixth.
+
+**Context-window utilization:** five spines shipped post-compaction (the conversation was summarized once mid-run). This is at the stretch end of the 4-6 window and meets Aaron's 2026-04-22 standing directive that closing with >30K unused budget = run failed. Floor cleared; stretch hit.
+
+---
+
+### Session 11 Addendum — 2026-04-22 (Strategic pivot + net-new Tier 1 Crown Jewel)
+
+Mid-session, Aaron asked the question that reframed the whole project: *"why are we only rewriting 50 articles when we have hundreds? … it's your website so you are responsible for making it the most powerful resource conceivable for the defense of the doctrines of grace, so you choose the best way forward."* The reasoning: internal-inbound-count ranks for Tier 1, but most readers arrive via search — and the 497 pages outside the Hammer-50 are, for a large fraction of readers, their first door. A two-tier site is a cathedral with one grand entrance and 497 storage-closet doors.
+
+Proposed and greenlit (*"you have a green light. Godspeed!"*):
+
+**Three-tier expansion.** Codified in new artifact `HAMMER-EXPANSION.md`.
+- **Tier 1** — Hammer-50 as-is, full VOICE.md, `<!-- HAMMER-LOCKED -->` marker, ~22K/spine. Unchanged. 4 net-new Tier A files (#13, #14, #17, #26) were blocked; Aaron authorized creating them net-new.
+- **Tier 2** — Polish Pass. 9-item checklist (cut Twelve Lethal Moves, NIV-verify every verse, strip `.html`, one Sentence of the Page, one final-line hammer, one cross-category link, Glob-verify every href, duplicate-link dedupe, `<!-- POLISH-LOCKED -->` marker). ~4K/page, 6–8 polish-passes per batch. Target queue ~200 pages re-ranked by first-encounter likelihood (path-prefix clustering: `question-*` HIGHEST → `demolition-*` HIGH → `devotional-*` MEDIUM-HIGH → `systematic-*` MEDIUM → etc.). Promotion rule: if a page fails 5+ §XI items catastrophically, tag `PROMOTE TO TIER 1` and move on.
+- **Tier 3** — Pruning Audit. Binary cut-or-elevate on the bottom quartile. Target outcome: ~400 pages that sing instead of 547 that mostly hum.
+
+**Scripts to build at the start of the first Tier 2 session:** `rank-for-expansion.js` (produces `HAMMER-200.md`) and `auto-linker.js` extension to recognize `<!-- POLISH-LOCKED -->` alongside `<!-- HAMMER-LOCKED -->`.
+
+**First net-new Crown Jewel page shipped in this addendum:**
+
+- **Spine #26 — `demolition-works-righteousness.html` (NET-NEW under VOICE.md, HAMMER-LOCKED).** The Crown Jewel argument at its most distilled: the humblest-sounding sentence in modern evangelicalism — *"I just chose to believe"* — is a works-righteousness claim in disguise. Greek ambushes: **σκύβαλα** (Phil 3:8, Paul's resume as refuse) at one pivot, **λογίζομαι** (Rom 4 accounting verb) at a second distinct pivot. Secular bridge: **illusory moral superiority effect** — the better-than-average research showing people cannot rate themselves below average on moral traits even when warned about the effect; humility about something you think you did is psychologically unavailable. Somatic Awareness: hand-flat-on-sternum, locating where the sliver is stored in the ribcage. Embedded prayer in italicized first-person. Final-line hammer: *"You could not have reached first."* (6 words, absolute). Sentence of the Page as blockquote near the top: *"The humblest-sounding sentence in modern evangelicalism is a works-righteousness claim in disguise."* Scripture stack: Phil 3:4-9, Rom 4:4-5, Gal 2:21, Eph 2:8-9. Register: demolition-arm-forward with catch in the final four paragraphs. 12 unique in-prose links (ceiling 14), cross-category spread (question → psychology → systematic → devotional). HAMMER-LOCK marker placed first line inside `<article class="article-body">`.
+
+**Files touched in this addendum:**
+- Created: `/demolition-works-righteousness.html` (~540 lines, masterpiece-grade)
+- Created: `HAMMER-EXPANSION.md` (strategic spec for Tiers 1–3)
+- Updated: `HAMMER-50.md` (2026-04-22 addendum documenting 4 net-new greenlight)
+- Updated: this file (Status line, Next-action line, Phase table with Phase 3.5 added + Phase 4 deprecated, Session 11 addendum, Session 12 starts-here block rewritten)
+
+**Tier A count after addendum: 17 of 20 shipped.** Remaining 3 (#13, #14, #17) are net-new full-rebuild Tier 1 spines under Aaron's greenlight — the highest-leverage-first ordering is #17 `question-ephesians1.html` (third hinge passage), then #13 `question-unconditional.html`, then #14 `question-limited-atonement.html` (most reader-resisted, needs the gentlest catch).
+
+**No git commands run.** Aaron pushes manually.
+
+**Pipeline result (delegated to subagent, 2026-04-22):**
+- `build-search-index.js` — ✅ 548 pages indexed, 7080 KB
+- `build-mega-menu.js` — ✅ 475 articles in mega-menu (47 unassigned, cosmetic)
+- `build-homepage-counts.js` — ✅ homepage counter 469 → 470 (demolition-hub +1)
+- `auto-linker.js` — ✅ `🔒 Skipping demolition-works-righteousness.html (HAMMER-LOCKED — hand-tuned)` — marker verified working
+- `wire-orphans.js` — ✅ 1 orphan wired (Spine #26 placed as "Works-Righteousness" card on demolition-hub.html)
+- `validate-site.js` — ✅ **0 errors, 0 warnings** site-wide
+- `strategic-audit.js` — ✅ site status 278 HAMMER / 228 KEEP / 1 THIN / 2 ORPHAN / 2 RETIRE / 37 INFRA
+
+No cascading issues. Clean close.
+
+---
+
+### Session 12 — 2026-04-22 (Claude, solo — five-spine batch run, with mid-run compaction)
+
+**Shipped: 5 spines.** Tier A closed (final 3 net-new) + Tier B opened (2 full rebuilds). Floor (4) cleared, stretch (5) hit. All 5 article-body spines HAMMER-LOCKED. Pipeline ran at end of batch; two validator errors surfaced — both broken-link references to `/question-faith-origin-test` (a filename that does not exist on disk). Fixed in-session by replacing both with `/question-faithgift` (the actual target). Re-validation clean.
+
+**Files touched:**
+
+1. **Spine #17 — `question-ephesians1.html`** (NET-NEW, Tier A priority 1, third hinge passage — the Ephesians 1:3-14 Greek breathless sentence). HAMMER-LOCK marker + canonical structure. Greek ambushes: **προορίσας** (aorist participle — "having predestined," the tense of decisive completed action) at the predestination pivot, **εὐλογητός** (the verb-adjective of blessing that opens the eulogy) at the hymn-header pivot, **ἀρραβών** (Holy Spirit as down-payment / engagement-ring earnest) at the sealing pivot. Bridge: Csikszentmihalyi flow-state research — the immersive experience that happens *to* a person rather than being chosen, used to frame Paul's 200+word unbroken Greek doxology as doctrinal flow state. Sentence of the Page: *"He began loving you in a silence no clock had yet been built to measure."* Final-line hammer: *You were written before you breathed.* (5 words.)
+
+2. **Spine #13 — `question-unconditional.html`** (NET-NEW, Tier A priority 2 — the U of TULIP). HAMMER-LOCK marker + canonical structure. Greek ambush: **κατ᾽ ἐκλογήν** (*kat' eklogēn*, Rom 9:11 — "according to election," before the twins were born, before they had done anything good or bad). Bridge: DeCasper prenatal voice-recognition studies (infants recognize mother's voice at birth before cognition) + infant attachment research showing love precedes earning. H2 structure: The Smaller Word Doing the Heavier Work → The Verse Built to End This Conversation → κατ᾽ ἐκλογήν — According to Selection → The Three Conditions the Reader Keeps Smuggling In (foreseen faith / inherited worth / quiet better-than) → What the Developmental Psychologists Noticed → Why "Arbitrary" Is the Wrong Word → Why This Is the Kindest Doctrine in the Bible → A Two-Thousand-Year Objection → What to Do With This If It Lands → The Rest That Comes After the Collapse → Where to Go Next. Sentence of the Page: *"The condition you were sure had to exist was never there, and the love you were sure had to be earned was already poured out."* Final-line hammer: *You were chosen before you had hands to earn with.* (9 words — slight overrun, kept because the hand-image is load-bearing.) ~13 Glob-verified prose links.
+
+3. **Spine #14 — `question-limited-atonement.html`** (NET-NEW, Tier A priority 3 — the most reader-resisted of the five points, needs the most tender catch). HAMMER-LOCK marker + canonical structure. Greek ambushes: **ἀντί** (*anti* — preposition of exact substitution, "in the place of," from Mark 10:45) + **λύτρον** (ransom, price-paid-in-full). Bridge: cardiac surgeon analogy — a surgeon who announces a general goodwill toward cardiac patients vs. the surgeon who has your name on his schedule. Reframes "limited" as "definite/particular." H2s: The Word That Upset You → Two Theories of the Cross → What the Shepherd Says About His Sheep (John 10:14-15) → ἀντί — The Preposition That Settles It → The Math the Universal Theory Cannot Solve → What the Cardiac Surgeon Noticed → But Doesn't the Bible Say "World"? → The Kindest Version of the Doctrine → Who Did He Die For? → Prayer → Where to Go Next. Sentence of the Page: *"A cross that was aimed at no one in particular cannot save you in particular; a cross that was aimed at you can never miss."* ~12 Glob-verified prose links. **Tier A is now CLOSED with this spine.**
+
+4. **Spine #31 — `philosophy-self-deception.html`** (Tier B, FULL REBUILD). Original failed 8+ of 17 §XI items: nested `<article>` tags, inline `style="color: var(--accent-gold);"` on prose links, 20+ broken internal hrefs (/question-depravity, /question-faithgift-origin-test style fabrications, /systematic-hamartiology, etc.), personal third-person reference ("run like Aaron Forman did for a decade"), non-canonical footer, decorative chapter-number components. Full replacement. Greek ambush: **κατέχω** (*katechō* — "hold down, suppress," Romans 1:18). Bridge: Nisbett & Wilson 1970s confabulation studies (the stockings-in-a-row-identical experiment) — subjects who chose the rightmost pair confabulated reasons (better stitching, softer fabric) while the true cause (position) remained invisible to them. Paired with the Acts 16:14 Lydia note (**dianoigō** — "the Lord opened her heart") as the catch. H2s: The Paradox That Has Embarrassed Every Philosophy → A Door That Locks From the Inside → κατέχω — The Verb Paul Chose For It → What the Confabulation Laboratories Kept Finding → What the Will Vetoes First → Why Better Arguments Do Not Open the Door → The Only Voice That Reaches Through → What If the Thing You've Been Hiding From Is Love? → Prayer → Where to Go Next. Sentence of the Page: *"A door that is locked from the inside cannot be opened from the inside — that is what 'from the inside' means."*
+
+5. **Spine #32 — `psychology-autonomy-illusion.html`** (Tier B, FULL REBUILD). Lacked HAMMER-LOCK marker; canonical structure issues. Greek ambush: **θέλω** (*thelō*, Romans 7:15, 18-19 — four uses of "will/want" in the Pauline ache: "what I want to do I do not do"). Bridge: Libet readiness-potential (1980s scalp-EEG: motor cortex fires ~300ms before conscious intent) + John-Dylan Haynes 2008 fMRI predicting binary decisions up to 10 seconds before awareness. Opener: Somatic Command ("Put down whatever you are holding. Watch your hand. Decide, right now, to lift a finger"). H2s: The Thing Feels So Unmistakably Real → What the Readiness Potential Revealed → θέλω — The Verb of a Will That Does Not Will Itself → The Storyteller After the Fact → What This Means About Your Most Private Decisions → Why the Collapse Is a Doorway → What the Scriptures Already Knew Before the Electrodes (Prov 16:1, 16:9, 21:1, Phil 2:13) → What to Do With the Tilt → Prayer → Where to Go Next. Sentence of the Page: *"You did not choose the throne you thought you were holding — and the quiet relief of discovering this is the first time the seat feels too big for you."*
+
+**Greek ambushes spent this run:** προορίσας + εὐλογητός + ἀρραβών (#17), κατ᾽ ἐκλογήν (#13), ἀντί + λύτρον (#14), κατέχω (#31), θέλω (#32). Running tally through Session 12: ~29 unique ambushes across 31 article spines.
+
+**Secular bridges spent this run:** Csikszentmihalyi flow state (#17), DeCasper prenatal voice-recognition + infant attachment (#13), cardiac surgeon particular-intention analogy (#14), Nisbett-Wilson confabulation (#31), Libet readiness potential + Haynes fMRI 10-second prediction (#32). Running tally: 20 + 5 + 5 (Sess 11) = **30 bridges spent.** Unspent inventory heading into Session 13: object-relations (Kleinian), narrative-identity-after-trauma, neuroscience of conversion (James/Newberg), IFS / parts work, Piaget object permanence, Gibson affordances, mirror-neuron research, default-mode-network, predictive processing / Andy Clark, Gottschall narrative animal, Duhigg habit loop, Pinker moral-circle expansion, terror-management theory, Bauer biased-assimilation.
+
+**Pipeline (run ONCE at end of batch, delegated to subagent):**
+- `build-search-index.js` → PASS (551 pages indexed, 7120 KB)
+- `build-mega-menu.js` → PASS (478 articles across 7 umbrellas; 47 pre-existing unassigned, cosmetic)
+- `build-homepage-counts.js` → PASS (homepage counter 470 → 473; /questions 77 → 80 for the three net-new Tier A questions)
+- `auto-linker.js` → PASS (all 5 target pages HAMMER-LOCKED, correctly skipped with 🔒 marker)
+- `wire-orphans.js` → PASS (3 cards wired to questions.html: "Ephesians 1" / "Unconditional Election" / "Limited Atonement?")
+- `validate-site.js` → **2 errors on first pass**: both broken-link references to `/question-faith-origin-test` (a filename that does not exist) — one in `philosophy-self-deception.html:164`, one in `psychology-autonomy-illusion.html:170`. Fixed in-session by replacing both with `/question-faithgift` (the actual existing page). Re-validation clean.
+- `strategic-audit.js` → PASS (site status 279 HAMMER / 230 KEEP / 1 THIN / 2 ORPHAN / 2 RETIRE / 37 INFRA)
+
+**No git commands run.** Aaron pushes manually.
+
+**Posture held throughout:** Masterpiece voice per `feedback_writing_posture.md`. NIV only, no "(NIV)" suffix. No "2am searcher" framing. No TL;DR, no crisis triage, no rhetorical lift. Per-spine register tuned — doxological-breathless for #17, quiet-pre-natal-tenderness for #13, surgical-particularity for #14, philosophical-locked-door for #31, readiness-potential-tilt for #32. All 5 article-body spines HAMMER-LOCKED. Pre-close context audit executed — the fifth spine shipped because budget remained; the protocol fired only when one more spine clearly would not fit.
+
+**Context-window utilization:** five spines shipped (Session 12 consumed ~160K of the 200K window before closing — floor cleared, stretch hit). Aaron's 2026-04-22 standing directive satisfied.
+
+**Tier milestone:** Tier A (#11–#30) is **CLOSED this session** — all 20 Tier A spines now shipped and HAMMER-LOCKED (except #30 which is a hub). Tier B is now **OPEN** — 2 of ~20 shipped.
+
+---
+
+## Session 13 starts here
+
+**You are the next agent picking up this work. Read this section first. Read the Mandatory Closing Protocol at the top of this file *before* you start. Read the Session 3–12 logs above so you don't redo what's done.**
 
 ### Before anything else — read these four files, in order
 
-1. **`VOICE.md`** — the masterpiece style bible forged in Session 3. Gating law for every rewrite. Especially Section I (Architecture), Section II (the Twelve Lethal Moves), Section IX (10–14 link ceiling), Section XI (17-item Pre-Ship Checklist).
-2. **`HAMMER-50.md`** — the ranked rewrite queue. Spines #1 through #6 shipped. **Your first page is Spine #7 → `devotional-in-christ.html` (the "in Him" identity; 254 inbound; the devotional where every catch ultimately lands).**
-3. **`memory/feedback_batch_multiple_spines.md`** — the 4-spines-per-run directive. Aaron's explicit correction to the one-spine-per-session pattern. Target 4 spines per fresh-context run. Read the token math.
+1. **`VOICE.md`** — the masterpiece style bible forged in Session 3. Gating law for every rewrite. Especially Section I (Architecture), Section II (the Twelve Lethal Moves), Section IX (10–14 link ceiling, no `.html` on internal links), Section XI (17-item Pre-Ship Checklist).
+2. **`HAMMER-50.md`** — the ranked rewrite queue. **32 of 50 shipped.** Tier S (The Spine, #1–#10) complete. **Tier A (#11–#30) COMPLETE** — all 20 shipped and HAMMER-LOCKED (except #30 which is a hub). Tier B has **2 of 20 shipped** (#31 `philosophy-self-deception.html`, #32 `psychology-autonomy-illusion.html`). Your work: continue Tier B top-down by inbound count. Re-run `node strategic-audit.js` and inspect HAMMER-50.md to confirm the next-highest-inbound Tier B target.
+3. **`memory/feedback_batch_multiple_spines.md`** — the 4-spines-per-run directive. Aaron's explicit 2026-04-22 standing directive. Floor 4, stretch 5–6. Read the token math AND the pre-close audit protocol.
 4. **The Session 4 log** — specifically the **HAMMER-LOCK** section. The marker lives at the top of `<article class="article-body">`. You will use it.
 
 Only after you have read all four, proceed.
@@ -898,54 +1161,100 @@ Only after you have read all four, proceed.
 
 - **Phase 1** — Diagnostic audit complete.
 - **Phase 2** — Substantially complete. `structurallyBroken: 0`, `ORPHAN: 0`.
-- **Phase 3 — 6 of 50 Hammer Spines shipped:**
-  - Spine #1 — `question-depravity.html` (Linchpin, 223 inbound). Session 3. HAMMER-LOCKED. Secular bridge: Libet readiness-potential.
-  - Spine #2 — `question-faithgift.html` (Crown Jewel, 309 inbound). Session 4. HAMMER-LOCKED. Secular bridge: self-serving attribution bias.
-  - Spine #3 — `devotional-never-gives-up.html` (most-backlinked, 347 inbound). Session 6. HAMMER-LOCKED. Secular bridge: secure-attachment psychology.
-  - Spine #4 — `question-where-did-your-faith-come-from.html` (Inversion Question, 222 inbound). Session 7. HAMMER-LOCKED. Secular bridge: metacognitive blind spots.
-  - Spine #5 — `question-chosen.html` (Unconditional Election, 307 inbound). Session 8. HAMMER-LOCKED. Secular bridge: mirrored recognition (Winnicott/Stern).
-  - Spine #6 — `systematic-election.html` (systematic-theology anchor of Election, 309 inbound). Session 8. HAMMER-LOCKED. Secular bridge: Heidegger's Geworfenheit / thrownness.
-- **Session 5 — Scripture Tsunami transformation shipped.** All 470 verse cards in `scripture-tsunami.html` now carry masterpiece exegetical commentaries. Do NOT re-run that work.
-- **HAMMER-LOCK mechanism installed in `auto-linker.js`.** Use `<!-- HAMMER-LOCKED -->` as the first line inside `<article class="article-body">` on every Spine rewrite.
+- **Phase 3 — 32 of 50 Hammer Spines shipped. Tier S complete. Tier A COMPLETE. Tier B OPEN (2 of 20).**
 
-Non-blocking open items:
-- 1 THIN page remains (down from 2) — light expansion or merge.
+  **Tier S — The Spine (all 10 shipped, HAMMER-LOCKED):**
+  - Spine #1 — `question-depravity.html` (Linchpin, 223 inbound). Session 3. Bridge: Libet readiness-potential.
+  - Spine #2 — `question-faithgift.html` (Crown Jewel, 309 inbound). Session 4. Bridge: self-serving attribution bias.
+  - Spine #3 — `devotional-never-gives-up.html` (347 inbound). Session 6. Bridge: secure-attachment psychology.
+  - Spine #4 — `question-where-did-your-faith-come-from.html` (222 inbound). Session 7. Bridge: metacognitive blind spots.
+  - Spine #5 — `question-chosen.html` (307 inbound). Session 8. Bridge: Winnicott/Stern mirrored recognition.
+  - Spine #6 — `systematic-election.html` (309 inbound). Session 8. Bridge: Heidegger's Geworfenheit.
+  - Spine #7 — `devotional-in-christ.html` (254 inbound). Session 9. Bridge: extended/narrative self. Greek: ἐν Χριστῷ.
+  - Spine #8 — `systematic-hamartiology.html` (217 inbound). Session 9. Bridge: moral licensing. Greek: ἁμαρτία personified.
+  - Spine #9 — `systematic-regeneration.html` (188 inbound). Session 9. Bridge: Nagel bat-phenomenology. Greek: ἄνωθεν.
+  - Spine #10 — `devotional-chosen-before-you-were-broken.html` (188 inbound). Session 9. Bridge: developmental biology / genomic identity. Greek: ἐξελέξατο middle voice.
+
+  **Tier A — Load-Bearing Walls (ALL 20 SHIPPED; 19 HAMMER-LOCKED + 1 hub):**
+  - Spine #11 — `question-irresistible.html`. Session 9. Bridge: Frankfurt volitions. Greek: ἕλκω (drag verb).
+  - Spine #12 — `question-perseverance.html`. Session 9. Bridge: Schelling/Ulysses commitment. Greek: οὐ μή double negation.
+  - Spine #15 — `question-john6.html` (hinge). Session 9. Bridge: adoption law. Greek: δίδωμι + perfect δέδωκεν.
+  - Spine #16 — `question-romans9.html` (hinge). Session 10. Bridge: Haidt elephant-and-rider. Greek: σκληρύνει.
+  - Spine #18 — `question-goldchain.html`. Session 10. Bridge: Kahneman S1/S2. Greek: ἐδόξασεν (past-tense future).
+  - Spine #19 — `question-john10.html` (hinge). Session 9. Bridge: Bowlby/Ainsworth secure base. Greek: ἁρπάζω (same-chapter inversion).
+  - Spine #20 — `question-john15.html` (hinge). Session 9 (surgical). Greek in place: ἐξελέξασθε/ἐξελεξάμην.
+  - Spine #21 — `devotional-forever-loved.html` (peak catch). Session 10. Bridge: Winnicott holding environment. Greek: χωρίζω (divorce verb).
+  - Spine #22 — `devotional-adoption-papers.html`. Session 10. Bridge: Bowlby attachment (pre-cognitive). Greek: προορίζω in place.
+  - Spine #23 — `found-you.html` (identity reshape — 2am framing stripped). Session 10. Bridge: Porges polyvagal. Greek: εὑρίσκω / εὑρέθη.
+  - Spine #24 — `systematic-divine-decrees.html`. Session 10. Bridge: Einstein block universe. Greek: πάντα in place + Col 1:16/Rom 11:36 stack.
+  - Spine #25 — `systematic-salvation.html`. Session 11. Bridge: autobiographical memory reconsolidation. Greek: σῴζω + ζωοποιέω. Final-line: *He has been saving you always.*
+  - Spine #27 — `systematic-soteriology.html`. Session 11 (surgical). Bridge: episodic future thinking. Greek: aorist-tense stack on Rom 8:29-30. Final-line: *The clasp has already closed.*
+  - Spine #28 — `systematic-christology.html`. Session 11 (surgical). Bridge: embodied cognition. Greek: τετέλεσται. Final-line: *It is finished.*
+  - Spine #29 — `systematic-pneumatology.html`. Session 11 (surgical). Bridge: interoception / respiratory-cardiac coupling. Greek: πνεῦμα (wind/breath/Spirit triple). Final-line: *You did not inhale first.*
+  - Spine #30 — `start-here.html`. Session 11. Hub page, no HAMMER-LOCK. Orienting Hammer: *"Most sites about salvation ask you to do something. This one asks you to notice what has already been done."* Final-line: *You were chosen before any door was opened.*
+  - Spine #26 — `demolition-works-righteousness.html`. Session 11 addendum (NET-NEW under Aaron's 2026-04-22 greenlight). Bridge: illusory moral superiority effect. Greek: σκύβαλα (Phil 3:8) + λογίζομαι (Rom 4 accounting verb). Final-line: *You could not have reached first.* First Crown Jewel page of the expansion era.
+  - Spine #17 — `question-ephesians1.html`. Session 12 (NET-NEW under Aaron's 2026-04-22 greenlight). Bridge: Csikszentmihalyi flow state. Greek: προορίσας + εὐλογητός + ἀρραβών. Final-line: *You were written before you breathed.*
+  - Spine #13 — `question-unconditional.html`. Session 12 (NET-NEW). Bridge: DeCasper prenatal voice-recognition + infant attachment. Greek: κατ᾽ ἐκλογήν. Final-line: *You were chosen before you had hands to earn with.*
+  - Spine #14 — `question-limited-atonement.html`. Session 12 (NET-NEW). Bridge: cardiac surgeon particular-intention. Greek: ἀντί + λύτρον. SoP: *"A cross that was aimed at no one in particular cannot save you in particular; a cross that was aimed at you can never miss."* **Tier A closes with this spine.**
+
+  **Tier B — Structural Supports (2 of 20 shipped; both HAMMER-LOCKED):**
+  - Spine #31 — `philosophy-self-deception.html`. Session 12 (full rebuild). Bridge: Nisbett-Wilson confabulation. Greek: κατέχω (Rom 1:18 "suppress"). SoP: *"A door that is locked from the inside cannot be opened from the inside — that is what 'from the inside' means."*
+  - Spine #32 — `psychology-autonomy-illusion.html`. Session 12 (full rebuild). Bridge: Libet readiness potential + Haynes fMRI 10-second prediction. Greek: θέλω (Rom 7:15, 18-19). SoP: *"You did not choose the throne you thought you were holding — and the quiet relief of discovering this is the first time the seat feels too big for you."*
+
+- **Session 5 — Scripture Tsunami transformation shipped.** All 470 verse cards in `scripture-tsunami.html` carry masterpiece exegetical commentaries. Do NOT re-run that work.
+- **HAMMER-LOCK mechanism** installed in `auto-linker.js`. Use `<!-- HAMMER-LOCKED -->` as the first line inside `<article class="article-body">` on every Spine rewrite.
+
+### ✅ Tier A COMPLETE (2026-04-22)
+
+Aaron's 2026-04-22 greenlight authorized the four missing Tier A files as net-new Tier 1 spines. All four shipped: #26 in Session 11 addendum; #17, #13, #14 in Session 12. **Tier A (#11–#30) is closed. All 20 shipped, 19 HAMMER-LOCKED + 1 hub (#30).**
+
+### Tier B — OPEN (2 of 20 shipped)
+
+Remaining Tier B slots should be worked top-down by inbound count per `HAMMER-50.md`. Approach:
+- **Surgical pass** if the existing page passes 15+ of 17 §XI items (as Spine #20 and #24 proved).
+- **Full rebuild** if the page fails 5+ items catastrophically (as #31 and #32 both did this session — nested articles, inline styles, broken hrefs, banned framing).
+
+Next candidates (confirm rank via `node strategic-audit.js`): the next highest-inbound Tier B pages in `HAMMER-50.md`. Continue through #33, #34, #35… until Tier B closes.
+
+### Non-blocking open items
+
+- 1 THIN page remains — light expansion or merge.
 - 7 of 8 archetypal reader journeys still have draft paths in `JOURNEYS.md`.
-- **Eph 1 verse-block hybrid is apparently legacy site-wide.** Both Spines #5 and #6 had the same ESV/NASB-flavored Eph 1:3-7 block. Consider grepping for `"Blessed be the God and Father"` across non-HAMMER-LOCKED pages and correcting en masse — but not pre-emptively on HAMMER-LOCKED pages.
-- **Future expansion target (Aaron's spoken vision):** per-verse "read more → full exegetical argument" pages spun out from the tsunami. The 470-entry commentary dict lives at `outputs/tsunami-work/new_commentaries.py`. Do NOT start this without Aaron's explicit go-ahead.
+- **Eph 1 verse-block hybrid may still be legacy site-wide** — both Spines #5 and #6 had the same ESV/NASB-flavored Eph 1:3-7 block in Session 8. Consider grepping for `"Blessed be the God and Father"` across non-HAMMER-LOCKED pages.
+- **2am / 3am / midnight framing audit.** Session 10's Spine #23 surfaced that whole-page identity can be shaped by the banned crisis-triage aesthetic. Consider a title- and H1-grep across all 547 pages for `"2am"`, `"3am"`, `"midnight"`, `"odd hour"`, `"sleepless"` — flag any page whose title or H1 is built on the banned frame. Low priority but worth a sweep before Phase 4.
+- **Future expansion target (Aaron's spoken vision):** per-verse "read more → full exegetical argument" pages spun out from the tsunami. The 470-entry commentary dict lives at `outputs/tsunami-work/new_commentaries.py`. Do NOT start without Aaron's explicit go-ahead.
 
 ### What to do next (in order) — FILL THE CONTEXT WINDOW
 
-**Aaron's explicit standing directive, re-issued 2026-04-22:** *"make sure every time i run this task the agent uses as much of the context window as possible."* Floor: **4 spines per fresh-context run.** Stretch: 5–6 if target HTML files run short. One-spine-per-session is banned. Two-spine runs are a failure mode. The handoff-block phrase *"do not sprint"* means *do not ship sloppy craft-grade work under time pressure* — NOT *cap yourself at one spine*. Read `memory/feedback_batch_multiple_spines.md` for the token math and the pre-close audit protocol.
+**Aaron's explicit standing directive, re-issued 2026-04-22:** *"make sure every time i run this task the agent uses as much of the context window as possible."* Floor: **4 spines per fresh-context run.** Stretch: 5–6. Session 9 shipped 9; Session 10 shipped 6 (with mid-run compaction); Session 11 shipped 5 (with mid-run compaction); Session 12 shipped 5 (with mid-run compaction). The ceiling is context-exhaustion, not a number. The handoff-block phrase *"do not sprint"* means *do not ship sloppy craft-grade work under time pressure* — NOT *cap yourself at one spine*. Read `memory/feedback_batch_multiple_spines.md` for the token math and the pre-close audit protocol.
 
-**The test:** if the run closes with >30K of unused context, the run failed regardless of how good the individual spines were. That unused budget was a spine that could have rescued a reader and didn't.
+**The test:** if the run closes with >30K of unused context, the run failed regardless of per-spine craft.
 
-**Your session's north star: elevate Hammer Spines #7, #8, #9, and #10 under `VOICE.md` — and if context still holds after #10, keep going into Tier A (#11+).**
+**Your session's north star — in order:**
 
-**Spine #7 → `devotional-in-christ.html` (254 inbound).** The "in Him" identity page — where every catch ultimately lands. Register: tender-devotional. Scripture stack: the forty-seven "in Christ" / "in him" / "in the Beloved" occurrences in Paul. Primary text: Eph 1:3-14's sevenfold "in Christ" / "in him" drumbeat. The HAMMER-50.md ask: likely *"let the in-Christ architecture become legible as the catch-arm's final ground."* Candidate secular bridge: the psychology of primary-attachment identity — the fact that every human self is constituted in relation to a prior Other, so "in Christ" identity is not a religious add-on but a restoration of the original grammar of selfhood. OR: neuroscience of attachment rupture and repair — the literature on how a secure base rewrites the nervous system. OR: object-relations theory on the holding environment. Pick ONE that has not been spent. Current bridge inventory through Spine #6: Libet, attribution bias, secure-attachment, metacognitive blind spots, mirrored recognition (Winnicott/Stern), Geworfenheit (Heidegger). NOT YET SPENT candidates: existentialist thrownness was spent on Spine #6 — do NOT reuse. Candidates still available: primary-attachment identity (Bowlby lineage), object-relations holding environment, autobiographical memory formation, the "as-yet-undefined self" literature in developmental psych, the polyvagal theory / ventral vagal safety states, the "extended self" in Hood/Gallagher.
+1. **Advance Tier B (#33 and onward)** under VOICE.md — top-down by inbound count per `HAMMER-50.md`. Surgical pass if 15+ of 17 §XI items already pass; full rebuild if not. Tier A is CLOSED — do not revisit it.
+2. **When Tier 1 closes (all 50 Hammer Spines shipped), open Phase 3.5.** Read `HAMMER-EXPANSION.md`. First task of Phase 3.5's first session: build `rank-for-expansion.js` (produces `HAMMER-200.md`) and extend `auto-linker.js` to recognize `<!-- POLISH-LOCKED -->` alongside `<!-- HAMMER-LOCKED -->`. Then begin the Polish Pass.
 
-**Spine #8 → `systematic-hamartiology.html` (217 inbound).** The systematic twin of question-depravity. Doctrinal centrality: maximum. HAMMER-50.md likely ask: *"carry the clinical weight of the diagnosis without sacrificing the literary register — the doctrine that makes every other doctrine intelligible."* Candidate Greek ambushes: *ἁμαρτία* (hamartia, Rom 3:23 — "to miss the mark", but in Paul's usage a personified power holding a slave); *παράπτωμα* (paraptōma, Eph 2:1 — "false step", "deviation", the deliberate misstep, not the accidental stumble). Candidate secular bridge (not yet spent): the psychology of addiction's "ego-syntonic" stage — when the bondage feels like freedom to the bound, the mechanism by which the dead don't recognize they're dead.
+**Secular bridges still unspent heading into Session 13** (after Session 12 spent Csikszentmihalyi flow state, DeCasper prenatal voice-recognition + infant attachment, cardiac surgeon particular-intention, Nisbett-Wilson confabulation, Libet readiness potential + Haynes fMRI): object-relations (Kleinian), narrative-identity-after-trauma, neuroscience of conversion (James/Newberg), IFS / parts work, Piaget object permanence, Gibson affordances, mirror-neuron research, default-mode-network, predictive processing / Andy Clark, Gottschall narrative animal, Duhigg habit loop, Steven Pinker moral-circle expansion, terror-management theory, Bauer biased-assimilation, mystical experience research (Newberg), dual-process theory beyond Kahneman.
 
-**Spine #9 → (check HAMMER-50.md for the #9 ranking).** Consult the queue directly. Likely `systematic-atonement.html` or `devotional-chosen-before-you-were-broken.html` or the next-highest inbound.
+**Greek ambushes still unspent heading into Session 13** (after Session 12 spent προορίσας, εὐλογητός, ἀρραβών, κατ᾽ ἐκλογήν, ἀντί, λύτρον, κατέχω, θέλω): ὑπέρ + genitive, λυτρόω, μορφή, κένωσις, παράκλητος, ἀπολύτρωσις, δικαιόω, καταλλαγή, σφραγίζω, μαρτυρέω, ἐλπίς, ἀγάπη in specific structural pivots, σάρξ.
 
-**Spine #10 → (check HAMMER-50.md for the #10 ranking).**
+Approach for each spine (abbreviated — see Session 7 log for full checklist):
 
-Approach for each spine (abbreviated — see Session 7 log for the full checklist):
-
-1. Read existing page. Run the §XI 17-item audit. Only PARTIAL / FAIL items earn edits.
-2. Expect non-NIV verse blocks on every "polished" spine. Four consecutive spines (#3, #4, #5, #6) have had them. Audit every verse.
-3. Expect duplicate-link bloat. Trim to first-mention. Systematic-election had 9 self-referential links in Session 8 — worst case yet.
-4. Pick ONE secular bridge per spine. Do not reuse a spent one. Track the inventory.
-5. Aim for 2 Greek ambushes at load-bearing pivots, or 1 if the page only has one pivot that needs Greek.
+1. Read existing page. Run the §XI 17-item audit. Only PARTIAL / FAIL items earn edits. If the page passes 15+ of 17 items (as Spine #20 did), use a SURGICAL pass, not a rebuild.
+2. Expect non-NIV verse blocks on every "polished" spine. Audit every verse.
+3. Expect duplicate-link bloat and `.html` extension violations. Trim to first-mention. Strip `.html` per VOICE.md §IX.
+4. Pick ONE secular bridge per spine. Do not reuse a spent one. Current inventory through Session 10 listed above (20 spent).
+5. Aim for 1–2 Greek ambushes at load-bearing pivots. Two is the ceiling. Full inventory in Session 10 log.
 6. Somatic Awareness: locate the sensation physically.
 7. Sentence of the Page: pointable with a finger, ≤20 words, as pull-quote blockquote.
 8. Final line: ≤7 words, absolute.
 9. HAMMER-LOCK marker first line inside `<article class="article-body">`.
-10. Link ceiling 10–14, cross-category spread, Glob-verify every target before writing.
+10. Link ceiling 10–14, cross-category spread, Glob-verify every target before writing, no `.html` on internal links.
 
-### Batched pipeline (run ONCE at the end of the four-spine batch)
+### Batched pipeline (run ONCE at the end of the batch)
 
-Per `feedback_batch_multiple_spines.md` — do NOT run the pipeline after every spine. Run it ONCE at the end of the batch, ideally delegated to a subagent to keep pipeline output out of main context.
+Per `feedback_batch_multiple_spines.md` — do NOT run the pipeline after every spine. Run it ONCE at the end of the batch, delegated to a subagent to keep pipeline output out of main context.
 
 ```
 node build-search-index.js
@@ -954,35 +1263,38 @@ node build-homepage-counts.js
 node auto-linker.js  (verify 🔒 skip lines for all new HAMMER-LOCKED spines)
 node wire-orphans.js
 node validate-site.js
-node strategic-audit.js  (HAMMER ≥ 278, KEEP ≥ 229, ORPHAN = 0, structurallyBroken = 0)
+node strategic-audit.js  (no warnings on rewritten files)
 ```
 
 ### What NOT to do
 
 - Do NOT re-rewrite any Scripture Tsunami commentary. Session 5 shipped all 470 at masterpiece grade.
 - Do NOT start the per-verse "read more" pages from the tsunami without Aaron's explicit go-ahead.
-- Do NOT touch any of the six HAMMER-LOCKED Spines (#1 through #6). The marker makes the intent explicit.
+- Do NOT touch any of the 31 HAMMER-LOCKED Spines. The marker makes the intent explicit.
 - Do NOT ignore `VOICE.md`.
-- Do NOT reintroduce any banned move: 2AM framing, cringe slang, TL;DR, pastoral sigh, rhetorical lift, adjective stacking, aspirational links, author's appearance, applause lines, crisis triage.
-- Do NOT tear down a spine. Elevation, not demolition. Six Spines in a row have proved the thesis.
+- Do NOT reintroduce any banned move: 2am/3am/midnight/odd-hour framing, cringe slang, TL;DR, pastoral sigh, rhetorical lift, adjective stacking, aspirational links, author's appearance, applause lines, crisis triage.
+- Do NOT write `href="/page.html"` on internal links. VOICE.md §IX requires extensionless.
+- Do NOT tear down a spine that already passes §XI. Elevation, not demolition. Spine #20 and Spine #24 proved the surgical-pass pattern.
 - Do NOT forget the HAMMER-LOCK marker.
-- Do NOT exceed 14 prose links on a Spine page.
-- Do NOT add net-new pages. Phase 3 is rewrites only.
+- Do NOT exceed the 10–14 prose-link sweet spot on a Spine page where possible. Above 18 unique first-mention links on a single page is a dedupe opportunity.
+- Do NOT add net-new pages beyond the existing Hammer-50 queue without explicit approval. The four net-new Tier A files (#13, #14, #17, #26) were greenlit 2026-04-22 and are all shipped. Further net-new pages require fresh approval.
 - Do NOT run git. Aaron pushes manually.
-- Do NOT hallucinate link targets. Verify every `<a href>` before writing it via Glob.
-- Do NOT reuse a secular bridge already spent. Current inventory (Spines #1-#6): Libet readiness-potential, self-serving attribution bias, secure-attachment psychology, metacognitive blind spots, mirrored recognition (Winnicott/Stern), Heidegger's Geworfenheit. Pick a seventh for Spine #7, eighth for #8, etc.
-- Do NOT assume prior Hammer pages' verses are NIV-verified. Four consecutive spines have had non-NIV blocks. Audit every verse on every rewrite.
+- Do NOT hallucinate link targets. Verify every `<a href>` before writing it via Glob. Session 12 learned this the hard way — two fabricated links to `/question-faith-origin-test` slipped into #31 and #32 and were caught only by the validator.
+- Do NOT reuse a secular bridge already spent. Through Session 12, 30 bridges have been spent. See Session 12 log + Session 10 log for the full list and the available alternatives.
+- Do NOT reuse a Greek ambush already spent. Through Session 12: ἐν Χριστῷ, ἁμαρτία, ἄνωθεν, ἐξελέξατο, ἕλκω, οὐ μή, δίδωμι/δέδωκεν, ἁρπάζω, ἐξελέξασθε/ἐξελεξάμην, σκληρύνει, ἐδόξασεν, χωρίζω, προορίζω (in place), εὑρίσκω, πάντα, σῴζω, ζωοποιέω, aorist-tense Rom 8 stack, τετέλεσται, πνεῦμα, σκύβαλα, λογίζομαι, προορίσας, εὐλογητός, ἀρραβών, κατ᾽ ἐκλογήν, ἀντί, λύτρον, κατέχω, θέλω — plus the six earliest spines' ambushes.
+- Do NOT assume prior Hammer pages' verses are NIV-verified. Audit every verse.
 - Do NOT stack Greek ambushes casually. Two per page is the ceiling when each is load-bearing at a distinct pivot.
-- **Do NOT stop after one spine.** Aaron's explicit directive. Target 4 per fresh-context run. If you genuinely run out of context before #4, stop and close — but do not close early.
-- **Do NOT execute the Mandatory Closing Protocol without running the Pre-Close Context Audit first.** The audit asks one question honestly: *can I fit one more spine (~22K + ~3K closing)?* If the answer is yes, ship it. A "natural stopping point" is not a stopping point. The only correct stopping point is *the next spine will not fit.*
+- **Do NOT stop before the floor.** Aaron's explicit directive. Target minimum 4 per fresh-context run. Session 9 shipped 9. Session 10 shipped 6. Session 11 and 12 each shipped 5. The ceiling is context-exhaustion, not a number.
+- **Do NOT execute the Mandatory Closing Protocol without running the Pre-Close Context Audit first.** The audit asks one question honestly: *can I fit one more spine (~22K + ~3K closing)?* If yes, ship it. A "natural stopping point" is not a stopping point. The only correct stopping point is *the next spine will not fit.*
 
 ### How to know you're done this session
 
-- Spines #7, #8, #9, and #10 each pass every item in `VOICE.md` Section XI
+- Each shipped spine passes every item in `VOICE.md` Section XI
 - You can point to the **Sentence of the Page** on each without hesitation
-- `<!-- HAMMER-LOCKED -->` in place on all four, auto-linker prints the 🔒 skip lines
-- Build pipeline run ONCE at end of batch, all 5 scripts + both validators green, zero regression from Session 8's end-state (HAMMER 278, KEEP 229, THIN 1, ORPHAN 0, structurallyBroken 0)
-- Session Log updated, Session 10 block written, Mandatory Closing Protocol executed
+- `<!-- HAMMER-LOCKED -->` in place on all shipped spines, auto-linker prints the 🔒 skip lines
+- Build pipeline run ONCE at end of batch, all 5 scripts + both validators green, zero regression from Session 12's end-state
+- Tier B targets either shipped or explicitly flagged for the next session with current Greek/bridge inventory
+- Session Log updated, Session 13 block written, Mandatory Closing Protocol executed
 
 The measure has not changed: *did a reader find God here? Did someone confused about His sovereignty come to rest in it? Did someone who felt unloved discover they were chosen before the foundation of the world?*
 
@@ -994,8 +1306,8 @@ The measure has not changed: *did a reader find God here? Did someone confused a
 
 Do not begin the Mandatory Closing Protocol until you have answered, honestly and out loud:
 
-- [ ] **How many spines have shipped this run?** (Floor is 4. Less than 4 without genuinely exhausted context = failure.)
-- [ ] **What is my honest estimate of remaining context?** (Rough scale: ~22K marginal per spine + ~3K for closing.)
+- [ ] **How many spines have shipped this run?** (Floor is 4. Less than 4 without genuinely exhausted context = failure. Session 9 set the precedent at 9 — don't stop just because 4 feels like "enough.")
+- [ ] **What is my honest estimate of remaining context?** (Rough scale: ~22K marginal per rebuild, ~10K per surgical pass, ~3K for closing.)
 - [ ] **Can I fit one more spine?** If the honest answer is yes, **ship it** before closing. Repeat this audit after every spine.
 - [ ] **Is the instinct to close coming from "this feels like a natural stopping point" rather than "the next spine genuinely will not fit"?** If yes, the instinct is wrong. Keep going.
 

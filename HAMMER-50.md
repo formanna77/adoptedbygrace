@@ -145,3 +145,18 @@ Not word count. Not page count. Not SEO rank. Did a reader find God here? Did a 
 ---
 
 *HAMMER-50.md v1.0 — forged 2026-04-21 at end of Session 3. Pairs with VOICE.md v1.0 as the twin gating artifacts for Phase 3: The Hammer.*
+
+---
+
+## 2026-04-22 ADDENDUM — FOUR PAGES NET-NEW, NOT TO ELEVATE
+
+**Authorized by Aaron 2026-04-22 (end of Session 11).** Four queue entries do not exist on disk as standalone files and therefore cannot be "elevated." They will be built net-new to Tier 1 standard:
+
+- **#13 `question-unconditional.html`** — The "U." Unconditional election. Demolition-arm: the conditions a reader assumes God must have used (foreseen faith, foreseen response, pedigree) all collapse under Romans 9. Catch-arm: the comfort of being chosen apart from anything in you.
+- **#14 `question-limited-atonement.html`** — The "L." Definite atonement. Must be the gentlest of the five, because it is the most reader-resisted. Lead with the question "For whom did Christ actually accomplish salvation?" not with the label.
+- **#17 `question-ephesians1.html`** — Chosen before the foundation of the world. The third hinge passage (after John 6 and Romans 9). Must exposit Eph 1:3-14 in its grammatical storm.
+- **#26 `demolition-works-righteousness.html`** — The Crown Jewel argument in its most distilled form. Faith as a work. The humility that is actually pride. This is the net-new opening shot of the expansion era.
+
+Each of these is a full Tier 1 build (≈22K tokens/page). Greek ambush and secular bridge unspent for each. No substitution — Aaron wanted these pages for a reason, and the queue flagged them because the doctrinal ground would otherwise have no canonical article to land on.
+
+**Expansion context:** See `HAMMER-EXPANSION.md` (created 2026-04-22) for the three-tier sweep strategy that absorbs the rest of the site beyond the 50. Tier 2 (Polish Pass, ~200 pages, POLISH-LOCKED marker) and Tier 3 (Pruning Audit) begin after Tier 1 closes.
