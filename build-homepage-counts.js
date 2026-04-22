@@ -61,6 +61,7 @@ const CATEGORIES = [
   { href: '/shattered-lens-hub', patterns: [/^shattered-lens-/] },
   { href: '/pastoral-hub', patterns: [/^pastoral-/, /^for-pastors/, /^just-realized/] },
   { href: '/joy-hub', patterns: [/^joy-/] },
+  { href: '/printables', patterns: [/^printable-/] },
   // Combined healing count (all 5 sub-hubs merged for homepage tile)
   { href: 'healing-combined', patterns: [/^anxious-mind-/, /^broken-mirror-/, /^open-wound-/, /^invisible-wall-/, /^shattered-lens-/] },
 ];
