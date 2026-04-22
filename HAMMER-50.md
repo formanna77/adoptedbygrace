@@ -100,7 +100,21 @@ Pages that do not yet carry the load of the spine but are referenced often enoug
 
 ### The Cadence
 
-One spine page per session until the Spine (Tier S, #1–10) is complete. Minimum one full hour per rewrite. No parallel work during a spine rewrite — the writing bench is the only station open.
+**Batch as many Hammer Spines per run as the context window will hold. Shipping one or two spines and closing is a failure mode that wastes 100K+ of available budget.**
+
+The math on a fresh 200K-token window at 75% utilization:
+
+- Fixed setup (VOICE.md + HAMMER-50.md + MISSION-CONTROL.md + closing protocol) ≈ **47K**, amortizes across the entire run.
+- Marginal per-spine (read target HTML → surgical Edit → Glob-verify links → session-log entry) ≈ **22K**.
+- Full 5-script pipeline + `validate-site.js` + `strategic-audit.js`, delegated to a subagent at the end of the batch to keep pipeline noise out of main context ≈ **3K**.
+
+`(150K − 47K − 3K) / 22K ≈ 4.7 spines per run.`
+
+**Floor: 4 spines per run. Stretch: 5–6 if target HTML files run short. Do not close the run until the context window is genuinely exhausted** — not after one spine, not after two spines, not when the closing protocol feels like a natural stopping point. The feeling that "this is a good place to stop" is the failure mode; the context-budget audit is the corrective.
+
+Before any run executes the Mandatory Closing Protocol, the agent must explicitly estimate remaining context and ask: *can I fit one more spine?* If the honest answer is yes, shipping it is the right move. Only when one more spine clearly will not fit does the closing protocol fire.
+
+No parallel work during a spine rewrite — the writing bench is the only station open. But within the bench, keep swinging.
 
 ### The Proof-of-Concept
 

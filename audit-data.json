@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generatedAt": "2026-04-22T03:01:16.135Z",
+    "generatedAt": "2026-04-22T06:03:41.242Z",
     "totalPages": 547,
     "tierCounts": {
       "HAMMER": 278,
-      "KEEP": 228,
-      "THIN": 2,
+      "KEEP": 229,
+      "THIN": 1,
       "ORPHAN": 0,
       "RETIRE": 2,
       "INFRA": 37
@@ -69,61 +69,61 @@
     "topHammers": [
       {
         "file": "devotional-never-gives-up.html",
-        "inbound": 347,
-        "words": 1845,
+        "inbound": 348,
+        "words": 2385,
         "category": "devotional-"
       },
       {
         "file": "systematic-election.html",
-        "inbound": 309,
-        "words": 3109,
+        "inbound": 307,
+        "words": 3738,
         "category": "systematic-"
       },
       {
         "file": "question-faithgift.html",
-        "inbound": 309,
+        "inbound": 311,
         "words": 2504,
         "category": "question-"
       },
       {
         "file": "question-chosen.html",
         "inbound": 306,
-        "words": 2111,
+        "words": 2800,
         "category": "question-"
       },
       {
         "file": "devotional-in-christ.html",
-        "inbound": 254,
+        "inbound": 253,
         "words": 1680,
         "category": "devotional-"
       },
       {
         "file": "question-where-did-your-faith-come-from.html",
-        "inbound": 222,
-        "words": 3042,
+        "inbound": 223,
+        "words": 3256,
         "category": "question-"
       },
       {
         "file": "question-depravity.html",
-        "inbound": 223,
+        "inbound": 224,
         "words": 2559,
         "category": "question-"
       },
       {
         "file": "systematic-hamartiology.html",
-        "inbound": 217,
+        "inbound": 215,
         "words": 2239,
         "category": "systematic-"
       },
       {
         "file": "devotional-chosen-before-you-were-broken.html",
-        "inbound": 188,
+        "inbound": 189,
         "words": 1726,
         "category": "devotional-"
       },
       {
         "file": "systematic-regeneration.html",
-        "inbound": 187,
+        "inbound": 188,
         "words": 1898,
         "category": "systematic-"
       },
@@ -135,7 +135,7 @@
       },
       {
         "file": "systematic-salvation.html",
-        "inbound": 174,
+        "inbound": 173,
         "words": 1611,
         "category": "systematic-"
       },
@@ -188,12 +188,6 @@
         "category": "systematic-"
       },
       {
-        "file": "systematic-soteriology.html",
-        "inbound": 93,
-        "words": 2075,
-        "category": "systematic-"
-      },
-      {
         "file": "devotional-rescued-without-a-say.html",
         "inbound": 91,
         "words": 2357,
@@ -206,14 +200,20 @@
         "category": "theologian-"
       },
       {
+        "file": "systematic-soteriology.html",
+        "inbound": 91,
+        "words": 2075,
+        "category": "systematic-"
+      },
+      {
         "file": "question-newheart.html",
-        "inbound": 83,
+        "inbound": 82,
         "words": 3590,
         "category": "question-"
       },
       {
         "file": "systematic-justification.html",
-        "inbound": 83,
+        "inbound": 82,
         "words": 2381,
         "category": "systematic-"
       },
@@ -225,13 +225,13 @@
       },
       {
         "file": "systematic-atonement.html",
-        "inbound": 76,
+        "inbound": 75,
         "words": 2311,
         "category": "systematic-"
       },
       {
         "file": "theologian-spurgeon.html",
-        "inbound": 71,
+        "inbound": 72,
         "words": 1680,
         "category": "theologian-"
       },
@@ -285,7 +285,7 @@
       },
       {
         "file": "objection-responsibility.html",
-        "inbound": 50,
+        "inbound": 49,
         "words": 1897,
         "category": "objection-"
       },
@@ -297,20 +297,8 @@
       },
       {
         "file": "question-john15.html",
-        "inbound": 45,
-        "words": 2353,
-        "category": "question-"
-      },
-      {
-        "file": "devotional-forever-loved.html",
-        "inbound": 42,
-        "words": 2657,
-        "category": "devotional-"
-      },
-      {
-        "file": "question-boasting.html",
         "inbound": 44,
-        "words": 2246,
+        "words": 2353,
         "category": "question-"
       },
       {
@@ -318,6 +306,18 @@
         "inbound": 37,
         "words": 3550,
         "category": "systematic-"
+      },
+      {
+        "file": "devotional-forever-loved.html",
+        "inbound": 41,
+        "words": 2657,
+        "category": "devotional-"
+      },
+      {
+        "file": "question-boasting.html",
+        "inbound": 43,
+        "words": 2246,
+        "category": "question-"
       },
       {
         "file": "systematic-reprobation.html",
@@ -456,16 +456,16 @@
         "tier": "RETIRE"
       },
       {
-        "file": "scripture-tsunami.html",
-        "words": 336,
-        "inbound": 251,
-        "tier": "THIN"
-      },
-      {
         "file": "sitemap.html",
         "words": 341,
         "inbound": 0,
         "tier": "RETIRE"
+      },
+      {
+        "file": "scripture-tsunami.html",
+        "words": 384,
+        "inbound": 251,
+        "tier": "KEEP"
       },
       {
         "file": "for-skeptics.html",
@@ -687,74 +687,68 @@
     "deepestBacklinked": [
       {
         "file": "devotional-never-gives-up.html",
-        "inbound": 347,
-        "words": 1845,
+        "inbound": 348,
+        "words": 2385,
         "category": "devotional-"
       },
       {
         "file": "question-faithgift.html",
-        "inbound": 309,
+        "inbound": 311,
         "words": 2504,
         "category": "question-"
       },
       {
         "file": "systematic-election.html",
-        "inbound": 309,
-        "words": 3109,
+        "inbound": 307,
+        "words": 3738,
         "category": "systematic-"
       },
       {
         "file": "question-chosen.html",
         "inbound": 306,
-        "words": 2111,
+        "words": 2800,
         "category": "question-"
       },
       {
         "file": "devotional-in-christ.html",
-        "inbound": 254,
+        "inbound": 253,
         "words": 1680,
         "category": "devotional-"
       },
       {
         "file": "scripture-tsunami.html",
         "inbound": 251,
-        "words": 336,
+        "words": 384,
         "category": "scripture-"
       },
       {
         "file": "question-depravity.html",
-        "inbound": 223,
+        "inbound": 224,
         "words": 2559,
         "category": "question-"
       },
       {
         "file": "question-where-did-your-faith-come-from.html",
-        "inbound": 222,
-        "words": 3042,
+        "inbound": 223,
+        "words": 3256,
         "category": "question-"
       },
       {
         "file": "systematic-hamartiology.html",
-        "inbound": 217,
+        "inbound": 215,
         "words": 2239,
         "category": "systematic-"
       },
       {
         "file": "devotional-chosen-before-you-were-broken.html",
-        "inbound": 188,
+        "inbound": 189,
         "words": 1726,
         "category": "devotional-"
       },
       {
         "file": "systematic-regeneration.html",
-        "inbound": 187,
+        "inbound": 188,
         "words": 1898,
-        "category": "systematic-"
-      },
-      {
-        "file": "systematic-salvation.html",
-        "inbound": 174,
-        "words": 1611,
         "category": "systematic-"
       },
       {
@@ -762,6 +756,12 @@
         "inbound": 173,
         "words": 2543,
         "category": "question-"
+      },
+      {
+        "file": "systematic-salvation.html",
+        "inbound": 173,
+        "words": 1611,
+        "category": "systematic-"
       },
       {
         "file": "question-john6.html",
@@ -818,16 +818,16 @@
         "category": "psychology-"
       },
       {
-        "file": "systematic-soteriology.html",
-        "inbound": 93,
-        "words": 2075,
-        "category": "systematic-"
-      },
-      {
         "file": "devotional-rescued-without-a-say.html",
         "inbound": 91,
         "words": 2357,
         "category": "devotional-"
+      },
+      {
+        "file": "systematic-soteriology.html",
+        "inbound": 91,
+        "words": 2075,
+        "category": "systematic-"
       },
       {
         "file": "theologian-augustine.html",
@@ -843,25 +843,25 @@
       },
       {
         "file": "question-newheart.html",
-        "inbound": 83,
+        "inbound": 82,
         "words": 3590,
         "category": "question-"
       },
       {
         "file": "systematic-justification.html",
-        "inbound": 83,
+        "inbound": 82,
         "words": 2381,
         "category": "systematic-"
       },
       {
         "file": "systematic-atonement.html",
-        "inbound": 76,
+        "inbound": 75,
         "words": 2311,
         "category": "systematic-"
       },
       {
         "file": "theologian-spurgeon.html",
-        "inbound": 71,
+        "inbound": 72,
         "words": 1680,
         "category": "theologian-"
       }
@@ -1311,7 +1311,7 @@
         "philosophy-hub.html"
       ],
       "outboundCount": 31,
-      "inboundCount": 22,
+      "inboundCount": 21,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -6298,7 +6298,7 @@
         "pastoral-hub.html"
       ],
       "outboundCount": 35,
-      "inboundCount": 22,
+      "inboundCount": 21,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -7987,7 +7987,7 @@
         "contact.html"
       ],
       "outboundCount": 37,
-      "inboundCount": 188,
+      "inboundCount": 189,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -8233,7 +8233,7 @@
         "stories.html"
       ],
       "outboundCount": 29,
-      "inboundCount": 42,
+      "inboundCount": 41,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -8725,7 +8725,7 @@
         "stories.html"
       ],
       "outboundCount": 34,
-      "inboundCount": 254,
+      "inboundCount": 253,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -9008,7 +9008,7 @@
       "category": "devotional-",
       "title": "Can God Stop Loving You?",
       "metaDescription": "God chose you before time existed. He holds you in two unbreakable hands. Nothing in all creation can separate you from His love—not your failures, not your…",
-      "wordCount": 1845,
+      "wordCount": 2385,
       "outboundLinks": [
         "best-reads.html",
         "start-here.html",
@@ -9023,13 +9023,17 @@
         "devotional-in-christ.html",
         "question-chosen.html",
         "question-john10.html",
+        "devotional-the-hands-that-hold-you.html",
+        "philosophy-phantom-limb-free-will.html",
         "question-goldchain.html",
+        "question-faithgift.html",
         "open-wound-sovereignty-in-grief.html",
+        "theologian-spurgeon.html",
         "question-sealed.html",
+        "question-depravity.html",
         "question-perseverance.html",
         "devotional-love-letter-before-time.html",
         "question-freewill.html",
-        "devotional-the-hands-that-hold-you.html",
         "story-the-orphanage.html",
         "question-secure.html",
         "devotional-the-weight-lifted.html",
@@ -9043,8 +9047,8 @@
         "scripture-tsunami.html",
         "contact.html"
       ],
-      "outboundCount": 32,
-      "inboundCount": 347,
+      "outboundCount": 36,
+      "inboundCount": 348,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -15012,7 +15016,7 @@
         "stories.html"
       ],
       "outboundCount": 31,
-      "inboundCount": 50,
+      "inboundCount": 49,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -18252,7 +18256,7 @@
         "contact.html"
       ],
       "outboundCount": 40,
-      "inboundCount": 13,
+      "inboundCount": 14,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -18267,10 +18271,10 @@
         "philosophy-problem-of-merit.html",
         "philosophy-resistance-is-proof.html",
         "psychology-hostility-reaction.html",
+        "question-chosen.html",
         "response-jerry-walls.html",
         "secular-billion-decisions.html",
-        "story-children-the-king-who-chose.html",
-        "story-humor-committee-to-save-yourself.html"
+        "story-children-the-king-who-chose.html"
       ],
       "tier": "KEEP"
     },
@@ -18535,7 +18539,7 @@
         "contact.html"
       ],
       "outboundCount": 42,
-      "inboundCount": 23,
+      "inboundCount": 25,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -18543,6 +18547,7 @@
       "structuralBug": false,
       "inboundFrom": [
         "devotional-i-cant-feel-god.html",
+        "devotional-never-gives-up.html",
         "philosophy-bootstrap-paradox.html",
         "philosophy-gravity-of-grace.html",
         "philosophy-hub.html",
@@ -18552,8 +18557,7 @@
         "philosophy-sleep-surrender.html",
         "psychology-autonomy-illusion.html",
         "psychology-cognitive-biases.html",
-        "psychology-illusion-free-will.html",
-        "question-dead-man-visual.html"
+        "psychology-illusion-free-will.html"
       ],
       "tier": "KEEP"
     },
@@ -20691,7 +20695,7 @@
         "history-timeline.html"
       ],
       "outboundCount": 39,
-      "inboundCount": 40,
+      "inboundCount": 39,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -21908,7 +21912,7 @@
         "contact.html"
       ],
       "outboundCount": 34,
-      "inboundCount": 44,
+      "inboundCount": 43,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -22195,7 +22199,7 @@
       "category": "question-",
       "title": "Did God Choose You Before You Were Born?",
       "metaDescription": "Ephesians 1:3-11 explicitly says God chose specific individuals before creation. This wasn&#39;t conditioned on foreseen faith or merit — it was pure sovereign…",
-      "wordCount": 2111,
+      "wordCount": 2800,
       "outboundLinks": [
         "best-reads.html",
         "start-here.html",
@@ -22206,16 +22210,18 @@
         "theologians.html",
         "devotionals.html",
         "about.html",
-        "systematic-election.html",
-        "systematic-salvation.html",
         "devotional-in-christ.html",
+        "systematic-election.html",
+        "question-foreknowledge.html",
         "question-depravity.html",
         "philosophy-bootstrap-paradox.html",
         "systematic-regeneration.html",
         "question-faithgift.html",
-        "question-foreknowledge.html",
+        "question-where-did-your-faith-come-from.html",
+        "philosophy-mirror-you-refuse.html",
         "devotional-chosen-before-you-were-broken.html",
         "systematic-divine-decrees.html",
+        "devotional-never-gives-up.html",
         "story-children-the-fingerprint-before-the-world.html",
         "question-how-grace-feels.html",
         "question-does-god-love-everyone-equally.html",
@@ -22231,7 +22237,7 @@
         "story-the-letter-before-the-world.html",
         "analogy-adoption.html"
       ],
-      "outboundCount": 33,
+      "outboundCount": 35,
       "inboundCount": 306,
       "isHub": false,
       "isUtility": false,
@@ -22495,7 +22501,7 @@
         "contact.html"
       ],
       "outboundCount": 37,
-      "inboundCount": 223,
+      "inboundCount": 224,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -22919,7 +22925,7 @@
         "contact.html"
       ],
       "outboundCount": 34,
-      "inboundCount": 309,
+      "inboundCount": 311,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -23777,7 +23783,7 @@
         "stories.html"
       ],
       "outboundCount": 28,
-      "inboundCount": 45,
+      "inboundCount": 44,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -24025,7 +24031,7 @@
         "contact.html"
       ],
       "outboundCount": 36,
-      "inboundCount": 83,
+      "inboundCount": 82,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -25428,7 +25434,7 @@
       "category": "question-",
       "title": "Where Did Your Faith Come From?",
       "metaDescription": "You&#39;ve probably heard a hundred sermons about faith. You&#39;ve probably given your testimony dozens of times. You know the story: you were lost, you heard the…",
-      "wordCount": 3042,
+      "wordCount": 3256,
       "outboundLinks": [
         "best-reads.html",
         "start-here.html",
@@ -25439,30 +25445,20 @@
         "theologians.html",
         "devotionals.html",
         "about.html",
-        "question-faithgift.html",
-        "systematic-soteriology.html",
-        "systematic-election.html",
-        "question-boasting.html",
-        "systematic-hamartiology.html",
-        "analogy-drowning-man.html",
         "question-depravity.html",
-        "devotional-in-christ.html",
         "question-acts.html",
         "question-john6.html",
+        "question-faithgift.html",
         "philosophy-problem-of-merit.html",
-        "systematic-justification.html",
+        "philosophy-phantom-limb-free-will.html",
         "question-chosen.html",
-        "question-newheart.html",
-        "psychology-pride-root-objection.html",
-        "demolition-hebrews6-4-6.html",
         "devotional-chosen-before-you-were-broken.html",
         "devotional-never-gives-up.html",
         "question-perseverance.html",
-        "devotional-forever-loved.html",
         "systematic-regeneration.html",
+        "devotional-rescued-without-a-say.html",
         "printable-where-did-your-faith-come-from.html",
         "printable-faith-is-a-gift.html",
-        "devotional-rescued-without-a-say.html",
         "question-does-god-choose-who-goes-to-heaven.html",
         "demolition-hosea11-7-8.html",
         "shattered-lens-when-prayer-stopped-working.html",
@@ -25472,8 +25468,8 @@
         "scripture-tsunami.html",
         "contact.html"
       ],
-      "outboundCount": 41,
-      "inboundCount": 222,
+      "outboundCount": 31,
+      "inboundCount": 223,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -25736,7 +25732,7 @@
         "terms.html"
       ],
       "outboundCount": 38,
-      "inboundCount": 14,
+      "inboundCount": 13,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -26759,7 +26755,7 @@
       "category": "response-",
       "title": "A Response to William Lane Craig",
       "metaDescription": "Molinism is the most sophisticated attempt to rescue libertarian freedom from Reformed sovereignty — and it is an elegant construction that, followed to its logical end, arrives exactly where Calvinism always was.",
-      "wordCount": 4414,
+      "wordCount": 4415,
       "outboundLinks": [
         "best-reads.html",
         "start-here.html",
@@ -27272,7 +27268,7 @@
       "category": "scripture-",
       "title": "480+ Bible Verses That Prove God's Sovereignty in Salvation",
       "metaDescription": "Nearly 500 Bible verses on God&#39;s sovereignty in salvation — searchable, categorized, impossible to ignore. This is what Scripture actually says.",
-      "wordCount": 336,
+      "wordCount": 384,
       "outboundLinks": [
         "best-reads.html",
         "start-here.html",
@@ -27283,10 +27279,6 @@
         "theologians.html",
         "devotionals.html",
         "about.html",
-        "systematic-hamartiology.html",
-        "systematic-election.html",
-        "systematic-atonement.html",
-        "systematic-soteriology.html",
         "question-where-did-your-faith-come-from.html",
         "devotional-the-hands-that-hold-you.html",
         "for-deconstructed.html",
@@ -27299,7 +27291,7 @@
         "topics.html",
         "question-chosen.html"
       ],
-      "outboundCount": 24,
+      "outboundCount": 20,
       "inboundCount": 251,
       "isHub": false,
       "isUtility": false,
@@ -27320,7 +27312,7 @@
         "anxious-mind-never-meant-to-carry.html",
         "anxious-mind-the-loop-that-wont-break.html"
       ],
-      "tier": "THIN"
+      "tier": "KEEP"
     },
     "secular-ai-determinism.html": {
       "file": "secular-ai-determinism.html",
@@ -31184,7 +31176,7 @@
         "history-timeline.html"
       ],
       "outboundCount": 41,
-      "inboundCount": 76,
+      "inboundCount": 75,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -31885,7 +31877,7 @@
       "category": "systematic-",
       "title": "Chosen Before the Foundation of the World",
       "metaDescription": "God chose His people before creation — not based on anything they would do, but according to His sovereign will and grace. This truth is not one doctrine among many. It is the heartbeat of the gospel.",
-      "wordCount": 3109,
+      "wordCount": 3738,
       "outboundLinks": [
         "best-reads.html",
         "start-here.html",
@@ -31897,19 +31889,19 @@
         "devotionals.html",
         "about.html",
         "question-chosen.html",
-        "objection-responsibility.html",
         "devotional-in-christ.html",
         "question-goldchain.html",
         "systematic-ordo-salutis.html",
         "question-foreknowledge.html",
-        "question-depravity.html",
         "systematic-justification.html",
         "question-romans9.html",
         "ot-jacob-esau.html",
         "question-john6.html",
         "question-acts.html",
-        "question-why-does-god-choose-some-not-others.html",
-        "question-john15.html",
+        "question-depravity.html",
+        "systematic-regeneration.html",
+        "question-faithgift.html",
+        "devotional-chosen-before-you-were-broken.html",
         "systematic-soteriology.html",
         "systematic-christology.html",
         "systematic-divine-decrees.html",
@@ -31926,7 +31918,7 @@
         "devotional-joy-of-election.html"
       ],
       "outboundCount": 37,
-      "inboundCount": 309,
+      "inboundCount": 307,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -32108,7 +32100,7 @@
         "stories.html"
       ],
       "outboundCount": 46,
-      "inboundCount": 217,
+      "inboundCount": 215,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -32237,7 +32229,7 @@
         "explore-map.html"
       ],
       "outboundCount": 40,
-      "inboundCount": 83,
+      "inboundCount": 82,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -32572,7 +32564,7 @@
         "pastoral-hub.html"
       ],
       "outboundCount": 42,
-      "inboundCount": 187,
+      "inboundCount": 188,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -32797,7 +32789,7 @@
         "contact.html"
       ],
       "outboundCount": 36,
-      "inboundCount": 174,
+      "inboundCount": 173,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -32920,7 +32912,7 @@
         "stories.html"
       ],
       "outboundCount": 37,
-      "inboundCount": 93,
+      "inboundCount": 91,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -35096,7 +35088,7 @@
         "contact.html"
       ],
       "outboundCount": 38,
-      "inboundCount": 71,
+      "inboundCount": 72,
       "isHub": false,
       "isUtility": false,
       "hasPageHero": true,
@@ -35114,7 +35106,7 @@
         "connections.html",
         "devotional-cold-church.html",
         "devotional-i-cant-feel-god.html",
-        "devotional-the-first-prayer-after-surrender.html"
+        "devotional-never-gives-up.html"
       ],
       "tier": "HAMMER"
     },

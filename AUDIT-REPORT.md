@@ -1,6 +1,6 @@
 # Strategic Audit Report — adoptedbygrace.net
 
-_Generated: 2026-04-22T03:01:16.135Z_
+_Generated: 2026-04-22T06:03:41.242Z_
 _Script: `strategic-audit.js` — rerun anytime to refresh._
 
 ## Snapshot
@@ -10,8 +10,8 @@ Total HTML pages scanned: **547**
 | Tier | Count | Meaning |
 |---|---:|---|
 | HAMMER | 278 | load-bearing mission pages — rewrite to extraordinary |
-| KEEP | 228 | solid middle — polish + cross-link |
-| THIN | 2 | under 350 words — merge or expand |
+| KEEP | 229 | solid middle — polish + cross-link |
+| THIN | 1 | under 350 words — merge or expand |
 | ORPHAN | 0 | inbound ≤ 1 — wire in or retire |
 | RETIRE | 2 | thin AND orphaned — merge into stronger page |
 | INFRA | 37 | hubs + utility pages (excluded from content tiers) |
@@ -82,18 +82,18 @@ _These are the pages worth making extraordinary. Each should be rewritten to be 
 
 | # | File | Inbound | Words | Category |
 |---:|---|---:|---:|---|
-| 1 | `devotional-never-gives-up.html` | 347 | 1845 | devotional- |
-| 2 | `systematic-election.html` | 309 | 3109 | systematic- |
-| 3 | `question-faithgift.html` | 309 | 2504 | question- |
-| 4 | `question-chosen.html` | 306 | 2111 | question- |
-| 5 | `devotional-in-christ.html` | 254 | 1680 | devotional- |
-| 6 | `question-where-did-your-faith-come-from.html` | 222 | 3042 | question- |
-| 7 | `question-depravity.html` | 223 | 2559 | question- |
-| 8 | `systematic-hamartiology.html` | 217 | 2239 | systematic- |
-| 9 | `devotional-chosen-before-you-were-broken.html` | 188 | 1726 | devotional- |
-| 10 | `systematic-regeneration.html` | 187 | 1898 | systematic- |
+| 1 | `devotional-never-gives-up.html` | 348 | 2385 | devotional- |
+| 2 | `systematic-election.html` | 307 | 3738 | systematic- |
+| 3 | `question-faithgift.html` | 311 | 2504 | question- |
+| 4 | `question-chosen.html` | 306 | 2800 | question- |
+| 5 | `devotional-in-christ.html` | 253 | 1680 | devotional- |
+| 6 | `question-where-did-your-faith-come-from.html` | 223 | 3256 | question- |
+| 7 | `question-depravity.html` | 224 | 2559 | question- |
+| 8 | `systematic-hamartiology.html` | 215 | 2239 | systematic- |
+| 9 | `devotional-chosen-before-you-were-broken.html` | 189 | 1726 | devotional- |
+| 10 | `systematic-regeneration.html` | 188 | 1898 | systematic- |
 | 11 | `question-freewill.html` | 173 | 2543 | question- |
-| 12 | `systematic-salvation.html` | 174 | 1611 | systematic- |
+| 12 | `systematic-salvation.html` | 173 | 1611 | systematic- |
 | 13 | `question-john6.html` | 162 | 1790 | question- |
 | 14 | `question-perseverance.html` | 160 | 2042 | question- |
 | 15 | `question-irresistible.html` | 153 | 1768 | question- |
@@ -102,14 +102,14 @@ _These are the pages worth making extraordinary. Each should be rewritten to be 
 | 18 | `question-foreknowledge.html` | 128 | 1515 | question- |
 | 19 | `devotional-the-hands-that-hold-you.html` | 126 | 1845 | devotional- |
 | 20 | `systematic-divine-decrees.html` | 105 | 1899 | systematic- |
-| 21 | `systematic-soteriology.html` | 93 | 2075 | systematic- |
-| 22 | `devotional-rescued-without-a-say.html` | 91 | 2357 | devotional- |
-| 23 | `theologian-augustine.html` | 90 | 2359 | theologian- |
-| 24 | `question-newheart.html` | 83 | 3590 | question- |
-| 25 | `systematic-justification.html` | 83 | 2381 | systematic- |
+| 21 | `devotional-rescued-without-a-say.html` | 91 | 2357 | devotional- |
+| 22 | `theologian-augustine.html` | 90 | 2359 | theologian- |
+| 23 | `systematic-soteriology.html` | 91 | 2075 | systematic- |
+| 24 | `question-newheart.html` | 82 | 3590 | question- |
+| 25 | `systematic-justification.html` | 82 | 2381 | systematic- |
 | 26 | `question-john10.html` | 83 | 1581 | question- |
-| 27 | `systematic-atonement.html` | 76 | 2311 | systematic- |
-| 28 | `theologian-spurgeon.html` | 71 | 1680 | theologian- |
+| 27 | `systematic-atonement.html` | 75 | 2311 | systematic- |
+| 28 | `theologian-spurgeon.html` | 72 | 1680 | theologian- |
 | 29 | `compare-monergism-synergism.html` | 68 | 2043 | compare- |
 | 30 | `theologian-calvin.html` | 66 | 2152 | theologian- |
 | 31 | `systematic-pneumatology.html` | 58 | 2306 | systematic- |
@@ -118,12 +118,12 @@ _These are the pages worth making extraordinary. Each should be rewritten to be 
 | 34 | `compare-calvinism-arminianism.html` | 52 | 1850 | compare- |
 | 35 | `systematic-compatibilism.html` | 50 | 2205 | systematic- |
 | 36 | `systematic-ordo-salutis.html` | 51 | 1981 | systematic- |
-| 37 | `objection-responsibility.html` | 50 | 1897 | objection- |
+| 37 | `objection-responsibility.html` | 49 | 1897 | objection- |
 | 38 | `objection-fairness.html` | 49 | 1787 | objection- |
-| 39 | `question-john15.html` | 45 | 2353 | question- |
-| 40 | `devotional-forever-loved.html` | 42 | 2657 | devotional- |
-| 41 | `question-boasting.html` | 44 | 2246 | question- |
-| 42 | `systematic-effectual-calling.html` | 37 | 3550 | systematic- |
+| 39 | `question-john15.html` | 44 | 2353 | question- |
+| 40 | `systematic-effectual-calling.html` | 37 | 3550 | systematic- |
+| 41 | `devotional-forever-loved.html` | 41 | 2657 | devotional- |
+| 42 | `question-boasting.html` | 43 | 2246 | question- |
 | 43 | `systematic-reprobation.html` | 18 | 6688 | systematic- |
 | 44 | `theologian-luther.html` | 39 | 2348 | theologian- |
 | 45 | `devotional-love-letter-before-time.html` | 41 | 1734 | devotional- |
@@ -149,19 +149,19 @@ _These pages, regardless of tier, are referenced most across the site. They carr
 
 | # | File | Inbound | Words | Category |
 |---:|---|---:|---:|---|
-| 1 | `devotional-never-gives-up.html` | 347 | 1845 | devotional- |
-| 2 | `question-faithgift.html` | 309 | 2504 | question- |
-| 3 | `systematic-election.html` | 309 | 3109 | systematic- |
-| 4 | `question-chosen.html` | 306 | 2111 | question- |
-| 5 | `devotional-in-christ.html` | 254 | 1680 | devotional- |
-| 6 | `scripture-tsunami.html` | 251 | 336 | scripture- |
-| 7 | `question-depravity.html` | 223 | 2559 | question- |
-| 8 | `question-where-did-your-faith-come-from.html` | 222 | 3042 | question- |
-| 9 | `systematic-hamartiology.html` | 217 | 2239 | systematic- |
-| 10 | `devotional-chosen-before-you-were-broken.html` | 188 | 1726 | devotional- |
-| 11 | `systematic-regeneration.html` | 187 | 1898 | systematic- |
-| 12 | `systematic-salvation.html` | 174 | 1611 | systematic- |
-| 13 | `question-freewill.html` | 173 | 2543 | question- |
+| 1 | `devotional-never-gives-up.html` | 348 | 2385 | devotional- |
+| 2 | `question-faithgift.html` | 311 | 2504 | question- |
+| 3 | `systematic-election.html` | 307 | 3738 | systematic- |
+| 4 | `question-chosen.html` | 306 | 2800 | question- |
+| 5 | `devotional-in-christ.html` | 253 | 1680 | devotional- |
+| 6 | `scripture-tsunami.html` | 251 | 384 | scripture- |
+| 7 | `question-depravity.html` | 224 | 2559 | question- |
+| 8 | `question-where-did-your-faith-come-from.html` | 223 | 3256 | question- |
+| 9 | `systematic-hamartiology.html` | 215 | 2239 | systematic- |
+| 10 | `devotional-chosen-before-you-were-broken.html` | 189 | 1726 | devotional- |
+| 11 | `systematic-regeneration.html` | 188 | 1898 | systematic- |
+| 12 | `question-freewill.html` | 173 | 2543 | question- |
+| 13 | `systematic-salvation.html` | 173 | 1611 | systematic- |
 | 14 | `question-john6.html` | 162 | 1790 | question- |
 | 15 | `question-perseverance.html` | 160 | 2042 | question- |
 | 16 | `question-irresistible.html` | 153 | 1768 | question- |
@@ -171,14 +171,14 @@ _These pages, regardless of tier, are referenced most across the site. They carr
 | 20 | `question-goldchain.html` | 122 | 3040 | question- |
 | 21 | `systematic-divine-decrees.html` | 105 | 1899 | systematic- |
 | 22 | `psychology-cost-of-rejecting-grace.html` | 98 | 1966 | psychology- |
-| 23 | `systematic-soteriology.html` | 93 | 2075 | systematic- |
-| 24 | `devotional-rescued-without-a-say.html` | 91 | 2357 | devotional- |
+| 23 | `devotional-rescued-without-a-say.html` | 91 | 2357 | devotional- |
+| 24 | `systematic-soteriology.html` | 91 | 2075 | systematic- |
 | 25 | `theologian-augustine.html` | 90 | 2359 | theologian- |
 | 26 | `question-john10.html` | 83 | 1581 | question- |
-| 27 | `question-newheart.html` | 83 | 3590 | question- |
-| 28 | `systematic-justification.html` | 83 | 2381 | systematic- |
-| 29 | `systematic-atonement.html` | 76 | 2311 | systematic- |
-| 30 | `theologian-spurgeon.html` | 71 | 1680 | theologian- |
+| 27 | `question-newheart.html` | 82 | 3590 | question- |
+| 28 | `systematic-justification.html` | 82 | 2381 | systematic- |
+| 29 | `systematic-atonement.html` | 75 | 2311 | systematic- |
+| 30 | `theologian-spurgeon.html` | 72 | 1680 | theologian- |
 
 ## Orphans & Retire Candidates (Top 80)
 
@@ -197,8 +197,8 @@ _Pages with low word count. Either expand substantially or merge into a stronger
 |---|---:|---:|---|
 | `creeds-confessions.html` | 5 | 21 | THIN |
 | `verse-explorer.html` | 94 | 0 | RETIRE |
-| `scripture-tsunami.html` | 336 | 251 | THIN |
 | `sitemap.html` | 341 | 0 | RETIRE |
+| `scripture-tsunami.html` | 384 | 251 | KEEP |
 | `for-skeptics.html` | 447 | 16 | KEEP |
 | `donate.html` | 471 | 2 | KEEP |
 | `for-new-believers.html` | 534 | 7 | KEEP |
@@ -269,7 +269,7 @@ _Pages with overlapping slug stems — candidates for consolidation. Investigate
 **`election`** (2 pages)
 
 - `ot-election.html` — 1080w, 10 inbound
-- `systematic-election.html` — 3109w, 309 inbound
+- `systematic-election.html` — 3738w, 307 inbound
 
 **`shattered-lens-cant`** (2 pages)
 
@@ -294,7 +294,7 @@ _Pages with overlapping slug stems — candidates for consolidation. Investigate
 **`spurgeon`** (2 pages)
 
 - `testimony-spurgeon.html` — 1910w, 9 inbound
-- `theologian-spurgeon.html` — 1680w, 71 inbound
+- `theologian-spurgeon.html` — 1680w, 72 inbound
 
 **`word-study-every`** (2 pages)
 
