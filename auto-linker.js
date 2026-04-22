@@ -712,6 +712,16 @@ for (const file of files) {
         console.log(`  ⚠️ Skipping ${file} (unreadable)`);
         continue;
     }
+
+    // HAMMER-LOCKED: pages carrying this marker have been hand-tuned under
+    // VOICE.md and must not have links auto-injected. The writer has already
+    // hit the 10-14 link ceiling deliberately; adding more regresses the
+    // editorial decision. See MISSION-CONTROL.md Phase 3.
+    if (html.includes('<!-- HAMMER-LOCKED -->')) {
+        console.log(`  🔒 Skipping ${file} (HAMMER-LOCKED — hand-tuned)`);
+        continue;
+    }
+
     totalFiles++;
 
     const result = addLinksToFile(file, html);
