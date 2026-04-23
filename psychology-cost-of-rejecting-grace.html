@@ -27,7 +27,7 @@
             }
         },
         "datePublished": "2026-04-01",
-        "dateModified": "2026-04-11",
+        "dateModified": "2026-04-22",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https://adoptedbygrace.net/psychology-cost-of-rejecting-grace"
@@ -57,7 +57,7 @@
                 "name": "Is faith a gift from God or a human decision?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Scripture teaches that saving faith is a gift from God, not a human production. Ephesians 2:8-9 says salvation is 'through faith — and this is not of yourselves, it is the gift of God.' Philippians 1:29 says it has been 'granted to you to believe.' Faith that you generated is a work; faith that God gave you is grace."
+                    "text": "Scripture teaches that saving faith is a gift from God, not a human production. Ephesians 2:8-9 says salvation is 'through faith — and this is not from yourselves, it is the gift of God.' Philippians 1:29 says it has been 'granted to you to believe.' Faith that you generated is a work; faith that God gave you is grace."
                 }
             },
             {
@@ -65,7 +65,7 @@
                 "name": "Is saying 'I accepted Christ' works-righteousness?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "If your acceptance was the decisive factor — the one thing the person in hell didn't do — then your salvation rests on a human act, not on grace alone. A faith that you produced is functionally a work, regardless of the spiritual language surrounding it. True grace is unilateral: God acts, the sinner is acted upon."
+                    "text": "If your acceptance was the decisive factor — the one thing the person in hell did not do — then your salvation rests on a human act, not on grace alone. A faith that you produced is functionally a work, regardless of the spiritual language surrounding it. True grace is unilateral: God acts, the sinner is acted upon."
                 }
             },
             {
@@ -73,7 +73,7 @@
                 "name": "How do I know if I'm trusting in grace or in myself?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Ask yourself: 'Why did I believe and my neighbor didn't?' If your answer includes anything about you — your openness, your willingness, your choice — you have named a human contribution that determined your eternal destiny. That is boasting, even when it feels like gratitude. True trust in grace means acknowledging that even your faith was God's gift."
+                    "text": "Ask yourself: 'Why did I believe and my neighbor did not?' If your answer includes anything about you — your openness, your willingness, your choice — you have named a human contribution that determined your eternal destiny. That is boasting, even when it feels like gratitude. True trust in grace means acknowledging that even your faith was God's gift."
                 }
             }
         ]
@@ -154,50 +154,19 @@
 </head>
 <body>
 
-<!--
-  ============================================================
-  CANONICAL NAV TEMPLATE — v3 with Mega-Menu + Mobile Search + Mobile Categories
-  ============================================================
-  Every page on adoptedbygrace.net MUST use this EXACT nav block.
-  Copy-paste it verbatim. Do not add, remove, rename, or reorder
-  any links. Do not add a logo.
-
-  REQUIRED in <head>:
-
-  REQUIRED before :
-    <script src="/nav.js"></script>
-    <script src="/ux-enhancements.js" defer></script>
-
-  DO NOT add any inline CSS for nav, hamburger, .nav-links,
-  .nav-right, .nav-container, .nav-site-name, .search-overlay,
-  or .mega-menu. All styling lives in /global.css.
-
-  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
-                     button that opens mega-menu dropdown
-  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered) + Search icon (right)
-                     Hamburger opens full-screen overlay menu with search bar,
-                     main nav links, and a 2-column category grid (all 15 categories)
-
-  Last updated: 2026-03-29
-  ============================================================
--->
-
     <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="/" class="nav-site-name">Adopted by Grace</a>
             <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
-            <!-- Mobile search icon (right side of nav bar) -->
             <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             </button>
             <ul class="nav-links">
-                <!-- Search bar at top of mobile menu -->
                 <li class="mobile-menu-search" style="list-style:none;">
                     <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
                 </li>
-                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
                 <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
                 <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
                 <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
@@ -208,7 +177,6 @@
                 <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
                 <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
                 <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
                 <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
             </ul>
 
@@ -235,10 +203,8 @@
         </div>
     </nav>
 
-    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
     <div class="mega-menu" id="megaMenu"></div>
 
-    <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">
         <div class="search-overlay-inner">
             <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
@@ -255,6 +221,7 @@
     </header>
 
     <article class="article-body">
+<!-- POLISH-LOCKED 2026-04-22 -->
 
         <div class="tldr">
             <strong>The Psychology:</strong> If you believe God did the saving and you "accepted" it, you have made yourself the decisive factor in your own salvation. A faith that <em>you</em> produced is a work — and works cannot save. Scripture says faith itself is a gift. The question is not whether you believe, but where the believing came from.
@@ -262,15 +229,15 @@
 
         <h2>The Courtroom</h2>
 
-        <p>You are standing in a courtroom. The fluorescent lights hum. Your hands are shaking against your thighs. The bailiff has just finished reading the charges and the room is so quiet you can hear the recorder ticking. Guilty on every count. The evidence has been overwhelming. You knew it was coming.</p>
+        <p>You are standing in a courtroom. The fluorescent lights hum. Your hands shake against your thighs. The bailiff has just finished reading the charges and the room is so quiet you can hear the recorder ticking. Guilty on every count. The evidence has been overwhelming. You knew it was coming.</p>
 
         <p>Then the judge looks at you — and dismisses the case.</p>
 
-        <p>Did he slide a form across the bench and wait for your signature? Did he say, "I'll dismiss this — but only if you agree"? No. He had mercy. The case was dismissed before you could open your mouth. You didn't contribute. You stood there with your hands trembling and the verdict came down like a roof being lifted off a house in the dark. That is mercy — pure, unilateral, <a href="/question-irresistible">one-sided mercy</a> where one person acts and the other <em>is acted upon.</em></p>
+        <p>Did he slide a form across the bench and wait for your signature? Did he say, "I'll dismiss this — but only if you agree"? No. He had mercy. The case was dismissed before you could open your mouth. You did not contribute. You stood there with your hands trembling and the verdict came down like a roof being lifted off a house in the dark. That is mercy — pure, unilateral, one-sided mercy where one person acts and the other <em>is acted upon.</em></p>
 
         <p>Now — what if you walked out and told everyone: <em>"The judge offered to dismiss my case, and I accepted his offer"</em>? You inserted yourself into the story as a participant. You took mercy that asks nothing and turned it into a deal. And hidden inside your retelling is a claim you never examined: that the dismissal <em>needed your acceptance to take effect.</em> This is how <a href="/psychology-sincerity-trap">sincerity becomes a spiritual trap</a> — you feel humble while claiming the mercy was incomplete without you.</p>
 
-        <p>This is exactly what millions of Christians believe about their salvation. God did the saving — they "accepted" it. Jesus paid it all — they "received" the payment. <a href="/resistance-redefining-grace">Grace is free</a> — they made the free choice to take it. In every version, God does the heavy lifting and they do the last little thing. And that <em>last little thing</em> is the very thing they trust in — because it is the one thing the person in hell didn't do.</p>
+        <p>This is exactly what millions of Christians believe about their salvation. God did the saving — they "accepted" it. Jesus paid it all — they "received" the payment. Grace is free — they made the free choice to take it. In every version, God does the heavy lifting and they do the last little thing. And that <em>last little thing</em> is the very thing they trust in — because it is the one thing the person in hell did not do.</p>
 
         <h2>The Question That Ends the Debate</h2>
 
@@ -283,21 +250,21 @@
             <cite>PHILIPPIANS 1:29</cite>
         </blockquote>
 
-        <p>Granted. Not earned. Not activated. Not chosen. <em>Given</em>, by someone else, to someone who didn't have it. And again: <em>"For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast"</em> (<a href="/question-faithgift">Ephesians 2:8-9</a>). <em>This</em> — the faith itself — is the gift.</p>
+        <p>Granted. Not earned. Not activated. Not chosen. <em>Given</em>, by someone else, to someone who did not have it. And again: <em>"For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast"</em> (<a href="/question-faithgift">Ephesians 2:8-9</a>). <em>This</em> — the faith itself — is the gift.</p>
 
         <h2>The Words That Betray You</h2>
 
         <p><em>"God did everything — I just accepted it."</em></p>
 
-        <p>Listen to what you said. If God did <em>everything</em>, there is nothing left for you to do — not even accepting. The moment you say "I just accepted it," you have contradicted yourself. God didn't do everything. You did the final thing.</p>
+        <p>Listen to what you said. If God did <em>everything</em>, there is nothing left for you to do — not even accepting. The moment you say "I just accepted it," you have contradicted yourself. God did not do everything. You did the final thing.</p>
 
-        <p>The word <em>"just"</em> is the most theologically loaded adverb in the English language. It makes a decisive human contribution sound like nothing — the way "I just happened to be in the neighborhood" makes a stalker sound casual. It shrinks your contribution until it sounds insignificant. But it is the <em>one thing</em> the person in hell didn't do — which makes you the decisive difference between your salvation and their damnation.</p>
+        <p>The word <em>"just"</em> is the most theologically loaded adverb in the English language. It makes a decisive human contribution sound like nothing — the way "I just happened to be in the neighborhood" makes a stalker sound casual. It shrinks the contribution until it sounds insignificant. But it is the <em>one thing</em> the person in hell did not do — which makes you the decisive difference between your salvation and their damnation.</p>
 
         <h2>The Test You Cannot Fake</h2>
 
-        <p>Ask yourself: <em>"Why did I believe and my neighbor didn't?"</em></p>
+        <p>Ask yourself: <em>"Why did I believe and my neighbor did not?"</em></p>
 
-        <p>If your answer includes <em>anything</em> about you — your heart, your openness, your willingness, your choice — you have just named what saved you. And it wasn't God. It was something in you that your neighbor lacked. Name it. Say it out loud. What did you do that the person in hell didn't? If you can name anything — anything at all — you have just identified what you are actually trusting in. And it isn't God.</p>
+        <p>If your answer includes <em>anything</em> about you — your heart, your openness, your willingness, your choice — you have just named what saved you. And it was not God. It was something in you that your neighbor lacked. Name it. Say it out loud. What did you do that the person in hell did not? If you can name anything — anything at all — you have just identified what you are actually trusting in. And it is not God.</p>
 
         <p>And you did it while saying "God gets all the glory."</p>
 
@@ -305,26 +272,26 @@
 
         <h2>What You Are Actually Claiming</h2>
 
-        <p>When you say "I chose God," you are claiming that you — a sinner <a href="/systematic-hamartiology">dead in trespasses and sins</a> — had the ability to reach for God on your own. That sin did not destroy your capacity to choose holiness. That a rebel can choose the very thing opposite to his nature.</p>
+        <p>When you say "I chose God," you are claiming that you — a sinner <a href="/question-depravity">dead in trespasses and sins</a> — had the ability to reach for God on your own. That sin did not destroy your capacity to choose holiness. That a rebel can choose the very thing opposite to his nature.</p>
 
         <p>But Scripture does not say you were sick. It says you were <em>dead</em> (<a href="/question-depravity">Ephesians 2:1</a>). A corpse that wakes on the operating table did not contribute to its own resuscitation. Your faith is not your contribution — it is the <em>evidence</em> that God raised you. Calling it your decision is like <a href="/analogy-lazarus-grave">Lazarus taking credit for walking out of the tomb.</a></p>
 
         <p>And when you reach for the escape hatch — <em>"But God gave us <a href="/question-freewill">free will</a>"</em> — ask what you are actually saying: <em>"My sin was not strong enough to stop me from choosing God."</em> But Jesus said: <em>"Everyone who sins is a slave to sin"</em> (John 8:34). <a href="/psychology-illusion-free-will">A will enslaved to sin cannot freely choose holiness</a> any more than a man chained to the floor can walk through the door.</p>
 
-        <p>Paul said it with finality: <em>"It does not, therefore, depend on human desire or effort, but on God's mercy"</em> (<a href="/question-romans9">Romans 9:16</a>). Not the man who wills. Not the man who "accepts." <a href="/systematic-election">God who has mercy.</a></p>
+        <p>Paul said it with finality: <em>"It does not, therefore, depend on human desire or effort, but on God's mercy"</em> (<a href="/question-romans9">Romans 9:16</a>). Not the man who wills. Not the man who "accepts." God who has mercy.</p>
 
         <h2>The Name for What You're Doing</h2>
 
-        <p>Claiming your faith as your contribution, calling your decision the decisive factor, believing you completed the transaction God started — this has a name. <a href="/question-boasting">It is works-righteousness.</a> And it has never been more dangerous than right now, because it hides inside the mouths of people who say "I believe in grace alone."</p>
+        <p>Claiming your faith as your contribution, calling your decision the decisive factor, believing you completed the transaction God started — this has a name. <a href="/question-boasting">It is works-righteousness.</a> And it has never been more dangerous than it is now, because it hides inside the mouths of people who say "I believe in grace alone."</p>
 
         <blockquote>
             <p>"You who are trying to be justified by the law have been alienated from Christ; you have <a href="/demolition-hebrews6-4-6">fallen away</a> from grace."</p>
             <cite>GALATIANS 5:4</cite>
         </blockquote>
 
-        <p>To <a href="/question-secure">fall from grace</a> is to add <em>anything</em> of yourself to what God has done. Even "just accepting it." If you added it, it's a work. If it's a work, you have <a href="/demolition-hebrews6-4-6">fallen from the only thing that can save you.</a></p>
+        <p>To <a href="/question-secure">fall from grace</a> is to add <em>anything</em> of yourself to what God has done. Even "just accepting it." If you added it, it is a work. If it is a work, you have fallen from the only thing that can save you.</p>
 
-        <p>Your sincerity does not protect you from this. The Pharisees were the most sincere people in Israel — and Jesus said to them: <em>"You are the ones who justify yourselves in the eyes of others, but God knows your hearts"</em> (Luke 16:15). <a href="/psychology-sincerity-trap">Sincerity plus a false foundation equals confident damnation.</a> And the person who is <a href="/psychology-sincerity-trap">sincerely wrong</a> is in more danger than the person who is <em>doubtfully</em> wrong — because the doubter at least has a crack where light can enter. Sincerity seals the crack shut. Psychologists have a word for this: <a href="/psychology-anosognosia-of-sin">anosognosia</a> — a condition so complete the patient cannot perceive the condition.</p>
+        <p>Your sincerity does not protect you. The Pharisees were the most sincere people in Israel — and Jesus said to them: <em>"You are the ones who justify yourselves in the eyes of others, but God knows your hearts"</em> (Luke 16:15). Sincerity plus a false foundation equals confident damnation. The person who is <a href="/psychology-sincerity-trap">sincerely wrong</a> is in more danger than the person who is <em>doubtfully</em> wrong — because the doubter at least has a crack where light can enter. Sincerity seals the crack shut. Psychologists have a word for this: <a href="/psychology-anosognosia-of-sin">anosognosia</a> — a condition so complete the patient cannot perceive the condition.</p>
 
         <h2>So What Now?</h2>
 
@@ -332,15 +299,19 @@
 
         <p>The man who built this site ran from this truth for over a decade. Across continents. Through his mother's death. Through a failing heart and a broken spine. He did not stop running because he chose to. He stopped because his body broke and his options ran out and grace was still there. Twelve years of rebellion, and grace was still there. That is not an offer waiting for your RSVP. That is a God who will not be refused. <a href="/essays/RE-FORMED.pdf">On Christmas Day 2024, broke and bedridden, he finally stopped running</a> — because grace would not stop chasing him.</p>
 
-        <p>If you are His, He will do the same to you. <em>"<a href="/question-john10">My sheep listen to my voice</a>; I know them, and they follow me. I give them eternal life, and they will never perish; <a href="/devotional-never-gives-up">no one will snatch them out of my hand</a>"</em> (<a href="/question-john10">John 10:27</a>-28). He will not let you rest in the lie that you saved yourself. He will pursue you with this truth until you surrender — gently if you yield, painfully if you resist.</p>
+        <p>If you are His, He will do the same to you. <em>"<a href="/question-john10">My sheep listen to my voice</a>; I know them, and they follow me. I give them eternal life, and they shall never perish; <a href="/question-john10">no one will snatch them</a> out of my hand"</em> (John 10:27-28). He will not let you rest in the lie that you saved yourself. He will pursue you with this truth until you surrender — gently if you yield, painfully if you resist.</p>
 
         <p>But if what you just read fills you with fury — if your instinct is to defend your contribution, protect your role, insist you did something — ask what is being threatened. It is not your theology. It is your <a href="/psychology-pride-root-objection">pride</a>. The harder you fight, the more clearly you prove the point. You cannot argue with an <a href="/psychology-identity-threat">identity threat</a>. You can only defend it.</p>
 
-        <p>Let go. You were <a href="/anxious-mind-never-meant-to-carry">never meant to carry</a> the weight of your own salvation. <a href="/systematic-soteriology">The God who chose you before you existed</a> will hold you long after you stop trying to hold yourself. <em>"He who began a good work in you will carry it on to completion"</em> (<a href="/question-perseverance">Philippians 1:6</a>). He began it. He'll finish it. Not because you're strong enough to hold on — but because His grip does not fail.</p>
+        <p>Let go. You were <a href="/anxious-mind-never-meant-to-carry">never meant to carry</a> the weight of your own salvation. The God who chose you before you existed will hold you long after you stop trying to hold yourself. <em>"He who began a good work in you will carry it on to completion"</em> (<a href="/question-perseverance">Philippians 1:6</a>). He began it. He will finish it. Not because you are strong enough to hold on — but because His grip does not fail.</p>
 
-        <p>Go back to the courtroom one more time. The lights are still humming. Your hands are still shaking. But this time, listen for the gavel. It already fell. Before the bailiff finished reading the charges. Before you composed your defense. Before you were born. The judge looked at the docket with your name at the top and wrote one word across it in red ink that has never faded: <em>mine</em>. The case was over before the case began.</p>
+        <blockquote class="sop-pullquote">Not a deal — a verdict. Not a choice — a calling. Not a contribution — a gift.</blockquote>
 
-        <p>The judge didn't ask for your signature. He had mercy. And His mercy is not an offer waiting for your response. It is a verdict already rendered. Rest in that. Walk out of the courtroom into the morning. The sentence has been served. The Father who waited at the door is the one who paid it. He is also the one carrying you home.</p>
+        <p>Return to the courtroom one more time. The lights are still humming. Your hands are still shaking. But this time, listen for the gavel. It already fell. Before the bailiff finished reading the charges. Before you composed your defense. Before you were born. The Judge looked at the docket with your name at the top and wrote one word across it in red ink that has never faded: <em>mine</em>. The case was over before the case began.</p>
+
+        <p>The Judge did not ask for your signature. He had mercy. And His mercy is not an offer waiting for your response. It is a verdict already rendered — written in the eternal counsel of God before the stars were hung, ratified at the cross when blood met law, sealed in the heart by the Spirit who raises corpses. You did not climb out of the grave to accept it. The verdict climbed down into the grave and brought you out. Rest in that. Walk out of the courtroom into the morning. The sentence has been served. The Father who waited at the door is the One who paid it. He is also the One carrying you home.</p>
+
+        <p style="margin-top:2rem;"><strong>The verdict fell. You are His.</strong></p>
 
 <!-- RELATED-ARTICLES-START -->
 <section class="related-articles" aria-label="Related articles">

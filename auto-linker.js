@@ -722,6 +722,15 @@ for (const file of files) {
         continue;
     }
 
+    // POLISH-LOCKED: Phase 3.5 Polish-Pass pages. Same exemption rule —
+    // the polish pass caps unique prose links at 14 deliberately and
+    // any auto-injection would undo §IX discipline. See
+    // HAMMER-EXPANSION.md Tier 2 and MISSION-CONTROL.md Phase 3.5.
+    if (html.includes('<!-- POLISH-LOCKED -->')) {
+        console.log(`  ✨ Skipping ${file} (POLISH-LOCKED — Polish-Pass complete)`);
+        continue;
+    }
+
     totalFiles++;
 
     const result = addLinksToFile(file, html);
