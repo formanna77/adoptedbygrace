@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Bunyan: The Tinker Who Wrote the Greatest Allegory of Grace</title>
+
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "John Bunyan — Adopted by Grace",
+  "description": "When George Whitefield and John Wesley proclaimed sovereign grace in the Great Awakening , they drew on Bunyan's foundation. His work had already prepared…",
+  "url": "https://adoptedbygrace.net/theologian-bunyan",
+  "author": {"@type": "Person", "name": "Aaron Forman", "url": "https://adoptedbygrace.net/about"},
+        "publisher": {
+    "@type": "Organization",
+    "name": "Adopted by Grace",
+    "url": "https://adoptedbygrace.net"
+  },
+  "datePublished": "2026-04-01",
+        "mainEntityOfPage": "https://adoptedbygrace.net/theologian-bunyan"
+}
+    </script>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="/global.css">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://adoptedbygrace.net/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Theologians",
+            "item": "https://adoptedbygrace.net/theologians"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "John Bunyan: The Tinker Who Wrote the Greatest Allegory of Grace"
+        }
+    ]
+}
+    </script>
+
+    <!-- Project Lighthouse: Universal Share-Ready Meta -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#d4a254">
+    <meta name="description" content="When George Whitefield and John Wesley proclaimed sovereign grace in the Great Awakening , they drew on Bunyan&#39;s foundation. His work had already prepared…">
+    <link rel="canonical" href="https://adoptedbygrace.net/theologian-bunyan">
+    <meta property="og:site_name" content="Adopted by Grace">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/theologian-bunyan">
+    <meta property="og:title" content="John Bunyan: The Tinker Who Wrote the Greatest Allegory of Grace">
+    <meta property="og:description" content="When George Whitefield and John Wesley proclaimed sovereign grace in the Great Awakening , they drew on Bunyan&#39;s foundation. His work had already prepared…">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Adopted by Grace — The biblical case for divine sovereignty">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ForeknownOne">
+    <meta name="twitter:creator" content="@ForeknownOne">
+    <meta name="twitter:title" content="John Bunyan: The Tinker Who Wrote the Greatest Allegory of Grace">
+    <meta name="twitter:description" content="When George Whitefield and John Wesley proclaimed sovereign grace in the Great Awakening , they drew on Bunyan&#39;s foundation. His work had already prepared…">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <!-- /Project Lighthouse -->
+
+<!-- Project Lighthouse: Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://adoptedbygrace.net/#organization",
+      "name": "Adopted by Grace",
+      "url": "https://adoptedbygrace.net",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://adoptedbygrace.net/og-image.png",
+        "width": 1200,
+        "height": 630
+      },
+      "sameAs": [
+        "https://twitter.com/ForeknownOne",
+        "https://foreknownone.substack.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://adoptedbygrace.net/#website",
+      "url": "https://adoptedbygrace.net",
+      "name": "Adopted by Grace",
+      "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
+      "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
+<!-- /Project Lighthouse Schema -->
+
+    <!-- Project Lighthouse: Performance hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <!-- /Project Lighthouse Performance -->
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
+        <!--
+  ============================================================
+  CANONICAL NAV TEMPLATE — v2 with Mega-Menu
+  ============================================================
+  Every page on adoptedbygrace.net MUST use this EXACT nav block.
+  Copy-paste it verbatim. Do not add, remove, rename, or reorder
+  any links. Do not add a logo.
+
+  REQUIRED in <head>:
+
+  REQUIRED before :
+
+  DO NOT add any inline CSS for nav, hamburger, .nav-links,
+  .nav-right, .nav-container, .nav-site-name, .search-overlay,
+  or .mega-menu. All styling lives in /global.css.
+
+  DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
+                     button that opens mega-menu dropdown
+  MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
+                     Hamburger opens full-screen overlay menu
+
+  Last updated: 2026-03-29
+  ============================================================
+-->
+        <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Mobile search icon (right side of nav bar) -->
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <!-- Search bar at top of mobile menu -->
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <!-- Search overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="page-hero">
+        <div class="eyebrow">The Tinker of Bedford</div>
+        <h1>John Bunyan</h1>
+        <p class="subtitle">
+            An uneducated tinker's son who became the greatest allegorist in English literature. God took a man with no formal training, broke him through spiritual agony, imprisoned him for preaching without license, and used those very chains to pen the eternal masterpiece <em>The Pilgrim's Progress</em>. Bunyan's life embodies the <a href="/question-what-is-sovereign-grace.html">sovereign grace</a> he championed—a living proof that when God chooses, nothing can stop His purposes from flourishing.
+        </p>
+    </header>
+
+    <main id="main-content">
+        <!-- Section Navigation -->
+                <!-- Biography Section -->
+        <section id="biography">
+            <h2>Biography</h2>
+
+            <div class="bio-timeline">
+                <div class="bio-card">
+                    <div class="bio-card-year">1628 — Birth in Hardship</div>
+                    <div class="bio-card-title">The Tinker's Son</div>
+                    <div class="bio-card-text">
+                        Born in Elstow, Bedfordshire, to Thomas and Margaret Bunyan. His father was a tinker—a brazier who mended pots and kettles. The family lived in poverty and rough circumstances. Bunyan would later record that he came from "of a low and inconsiderable generation." Yet this "low" birth became the stage for God's sovereign choice.
+                    </div>
+                </div>
+
+                <div class="bio-card">
+                    <div class="bio-card-year">1640s — Wild Youth</div>
+                    <div class="bio-card-title">Before Grace</div>
+                    <div class="bio-card-text">
+                        A restless, rebellious child. Bunyan fell into profanity, cursing, and dissolute behavior. During the English Civil War, he was conscripted into the Parliamentary army. He showed no interest in godliness. By his own admission, he was a "ringleader" of youthful vice—the kind of man you'd pass by without a second glance, unaware that he would shake Christendom with his pen.
+                    </div>
+                </div>
+
+                <div class="bio-card">
+                    <div class="bio-card-year">1649 — Marriage and Books</div>
+                    <div class="bio-card-title">The Godly Wife</div>
+                    <div class="bio-card-text">
+                        Bunyan married a godly woman whose father had left her two precious Puritan books: <em>The Plain Man's Pathway to Heaven</em> and <em>The Practice of Piety</em>. She began reading to him. Through these books, the Spirit of God began to work conviction in Bunyan's heart. His wife's faithfulness became the instrument of his conversion—a picture of how God uses secondary means to accomplish His purposes.
+                    </div>
+                </div>
+
+                <div class="bio-card">
+                    <div class="bio-card-year">1650–1655 — The Agonizing Crisis</div>
+                    <div class="bio-card-title">Wrestling with God</div>
+                    <div class="bio-card-text">
+                        For years, Bunyan was tormented by conviction and doubt. He experienced what he called "the voice"—a dark whisper saying "Sell him, sell him" (referring to Christ). He became convinced he had committed the unpardonable sin. He walked in despair, trembling under the weight of the law. Yet this period of spiritual turmoil was God's graduate school, teaching Bunyan the depths of grace he would later unfold to the world. The burning furnace produced pure gold.
+                    </div>
+                </div>
+
+                <div class="bio-card">
+                    <div class="bio-card-year">1655 — Conversion</div>
+                    <div class="bio-card-title">The Breakthrough</div>
+                    <div class="bio-card-text">
+                        The words came to him with irresistible power: "My grace is sufficient for you" (2 Corinthians 12:9). In that moment, the law's thunder was silenced by grace's whisper. Bunyan understood, not as truthful knowledge alone but as lived reality, that grace is not earned but given—sovereignly, freely, immeasurably. He was born again. The question that haunted him—"Am I among the elect?"—found its answer not in introspection but in the absolute sufficiency of Christ.
+                    </div>
+                </div>
+
+                <div class="bio-card">
+                    <div class="bio-card-year">1655–1660 — The Bedford Meeting</div>
+                    <div class="bio-card-title">Preacher Without License</div>
+                    <div class="bio-card-text">
+                        Bunyan joined the Independent/Baptist congregation at Bedford Meeting, led by the extraordinary pastor John Gifford. Though untrained in theology or rhetoric, Bunyan began to preach. His lack of formal education mattered not—his sermons were alive with Scripture and the Spirit. He demonstrated that God calls whom He will and gifts whom He chooses, regardless of human credentials. The authority of his preaching came not from Oxford or Cambridge but from the cross and resurrection.
+                    </div>
+                </div>
+
+                <div class="bio-card">
+                    <div class="bio-card-year">1660–1672 — Twelve Years in Chains</div>
+                    <div class="bio-card-title">The Bedford Gaol</div>
+                    <div class="bio-card-text">
+                        After the Restoration, preaching without an episcopal license became illegal. Bunyan refused to stop. He was arrested and imprisoned in Bedford Gaol. For twelve years he languished in a stone cell, separated from his wife and five children, one of whom was blind. The authorities offered him freedom if he would cease preaching. He refused. His persecutors meant it for evil; God meant it for good. In that cell, he wrote <em>Grace Abounding to the Chief of Sinners</em> and drafted <em>The Pilgrim's Progress</em>. His prison became God's publishing house.
+                    </div>
+                </div>
+
+                <div class="bio-card">
+                    <div class="bio-card-year">1672 — Released and Flourishing</div>
+                    <div class="bio-card-title">Minister of the Word</div>
+                    <div class="bio-card-text">
+                        Released under a general pardon, Bunyan was licensed as a Congregational preacher. For the remaining sixteen years of his life, he pastored Bedford Meeting and preached throughout England. His fame spread. <em>The Pilgrim's Progress</em> was published in 1678 and became the most widely read book in England after the Bible itself—a status it holds to this day. An unschooled tinker had become the voice of a nation.
+                    </div>
+                </div>
+
+                <div class="bio-card">
+                    <div class="bio-card-year">1688 — Death in Service</div>
+                    <div class="bio-card-title">The Final Journey</div>
+                    <div class="bio-card-text">
+                        Bunyan died on August 31st, after riding through rain and sleet to reconcile a father and son—an errand of mercy that cost him his life. Even his death was in character: a shepherd laying down his life for the flock. He was buried at Bunhill Cemetery in London, where he rests among other Nonconformist preachers. But his words never rest. His pilgrims still journey toward the Celestial City, and his allegorical vision still opens eyes to the glory of sovereign grace.
+                    </div>
+                </div>
+            </div>
+
+            <div class="brilliant-connection">
+                <h4>The Sovereign Hand in History</h4>
+                <p>
+                    Bunyan's imprisonment was meant as punishment; God ordained it as preparation. The authorities thought they were silencing him; they were only giving him time to write. This is the pattern of God's sovereignty throughout Scripture: what humans intend as opposition, God uses as opportunity. <strong>His prison became the pulpit that would reach millions.</strong> If God had not allowed Bunyan to be arrested, <em>The Pilgrim's Progress</em> might never have been written. The very chains designed to break him became the means of his greatest ministry.
+                </p>
+            </div>
+        </section>
+
+        <!-- Theology Section -->
+        <section id="theology">
+            <h2>Theology</h2>
+            <p>
+                Bunyan was a thoroughgoing Calvinist—not because he inherited the label, but because Scripture had conquered his mind and heart. His theology flowed from lived experience: the bondage of his will until freed by grace, the effectual call that arrested him, the perseverance that sustained him through persecution. Every truth he proclaimed, he had suffered and tasted.
+            </p>
+
+            <div class="theology-grid">
+                <div class="theology-card">
+                    <h4>Grace Abounding</h4>
+                    <p>
+                        For Bunyan, grace was not a mere theological concept but an explosion of mercy that overturned all expectations. His spiritual autobiography, <em>Grace Abounding to the Chief of Sinners</em>, is the testimony of a man crushed by law and raised by gospel. He shows that grace comes sovereignly, freely, and with such abundance that it transforms the greatest rebel into the humblest servant. Grace is not distributed according to human worthiness but according to God's sole pleasure. The chief of sinners becomes the chief herald of grace.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <h4>The Pilgrim's Progress as Theology</h4>
+                    <p>
+                        Bunyan's masterpiece is not merely literature; it is the <em>ordo salutis</em>—the order of salvation—dramatized and made alive. Christian flees the City of Destruction (conviction of sin), carries his burden to the cross (justification—the burden falls off), travels through Vanity Fair (the world's seductions during sanctification), faces Doubting Castle (assurance tested), and finally enters the Celestial City (glorification). Every stage reflects both truth and experience. Bunyan proves that theology properly understood inflames the soul.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <h4>Election and Free Offer</h4>
+                    <p>
+                        Bunyan's treatise <em>Come, and Welcome, to Jesus Christ</em> shows how God's sovereign election is entirely consistent with the free offer of the gospel. The command to come is real; the welcome is genuine. Yet underneath both lies the sovereign choice of God to ensure that His chosen come. There is no contradiction because God's sovereignty and human responsibility do not operate on the same level. God's purposes are certain; our exhortations are sincere. Both are true.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <h4>The Bondage and Liberation of Will</h4>
+                    <p>
+                        Bunyan stood with Luther: the human will in its natural state is in bondage to sin and cannot choose God without divine grace. But grace liberates the will, making it willing and able to choose Christ joyfully. This was not abstract theory for Bunyan—he had lived it. He knew the paralysis of will under sin's dominion and the exhilaration of willing obedience granted by the Spirit. Real freedom, he taught, is freedom from sin's tyranny, not freedom to remain enslaved.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <h4>Perseverance of the Saints</h4>
+                    <p>
+                        Having been preserved through twelve years of imprisonment, Bunyan proclaimed with confidence that God's elect, once genuinely converted, will not finally fall away. This was not comforting fatalism but a firm hope: the God who begins the work of grace will complete it (Philippians 1:6). Persecution may come; doubts may assail; but the believer's security rests not on his own strength but on the faithfulness of the One who has chosen him from before the creation of the world.
+                    </p>
+                </div>
+
+                <div class="theology-card">
+                    <h4>Covenant Theology</h4>
+                    <p>
+                        Though not primarily known for covenant thought, Bunyan understood that God's dealings with His people are covenantal—rooted in the everlasting covenant of redemption between the Father and the Son. All the promises to believers flow from the covenant made before time, fulfilled in Christ, and applied to us through the Spirit. This cosmic perspective grounded Bunyan's assurance: he was not a random believer but a member of a covenant people chosen in Christ.
+                    </p>
+                </div>
+            </div>
+
+            <div class="scripture-block">
+                <div class="scripture-text">
+                    "My grace is sufficient for you, for my power is made perfect in weakness." Therefore I will boast all the more gladly about my weaknesses, so that Christ's power may rest on me.
+                </div>
+                <div class="scripture-ref">2 Corinthians 12:9 (NIV)</div>
+            </div>
+
+            <h3>The Debate with Edward Fowler</h3>
+            <p>
+                When the Anglican theologian Edward Fowler published a treatise defending a more Arminian view of justification, Bunyan responded with <em>A Defence of the Truth of Justification by Faith in Jesus Christ</em>. Against those who would soften justification or make it depend on our works and faithfulness, Bunyan stood firm: justification is by the imputation of Christ's righteousness alone, received through faith alone. We are clothed with His perfect obedience. This is the heartbeat of the gospel, and to compromise it is to lose the gospel itself. Bunyan's defense was not mere scholasticism but an urgent cry to protect sinners' assurance.
+            </p>
+
+            <div class="brilliant-connection">
+                <h4>Theology Born in the Fire</h4>
+                <p>
+                    You cannot preach what you have not suffered. Bunyan's theology is burning hot because it emerged from the furnace of doubt, persecution, and spiritual anguish. <strong>His understanding of grace is not borrowed from Calvin or Beza; it is seared into his soul by experience.</strong> This is why his words grip us even today. He is not a voice from a study; he is a witness to grace in the midst of darkness. The preacher who has tasted God's sufficiency in chains will always speak with an authority that merely academic theologians cannot match.
+                </p>
+            </div>
+        </section>
+
+        <!-- Key Quotes Section -->
+        <section id="key-quotes">
+            <h2>Key Quotes</h2>
+
+            <div class="quote-grid">
+                <div class="quote-card">
+                    <div class="quote-text">
+                        One prayer will cost a man more pains, more time, more examination of himself, more holy resolution, more strong combat with his heart, than a thousand sermons.
+                    </div>
+                    <div class="quote-source">On Prayer and the Soul's Struggle</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        Grace is not only a spark, but a flame; not only a beginning, but a continuance; not only the entrance, but the progress.
+                    </div>
+                    <div class="quote-source">On the Sufficiency of Grace</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        I would say to those that are tempted, The greatest wrong you can do to the gospel is to think that you shall lose your salvation, and so to give way to despair. Christ hath bound himself, as it were, to save all that come to him.
+                    </div>
+                    <div class="quote-source">On Assurance</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        My sword I give to him that shall succeed me in my pilgrimage, and my courage and skill to him that can get it. My marks and scars I carry with me, to be a witness for me that I have fought his battles who now will be my rewarder.
+                    </div>
+                    <div class="quote-source">From The Pilgrim's Progress</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        Afflictions make the heart more tender, more sensible, more teachable. They open the ear to discipline, and soften the heart to receive instruction.
+                    </div>
+                    <div class="quote-source">On the Purpose of Suffering</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        Judge not the Lord by feeble sense, but trust him for his grace; behind a frowning providence he hides a smiling face.
+                    </div>
+                    <div class="quote-source">On God's Sovereignty in Darkness</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        One leak will sink a ship; and one sin will destroy a sinner. Therefore, my son, watch and pray always, lest thou fall into temptation.
+                    </div>
+                    <div class="quote-source">From Christian's parting word to Christiana</div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-text">
+                        The Holy Ghost himself is the author of the Bible; he is its spirit; to understand the Scripture, you must make the Holy Ghost your teacher. Look, therefore, to God's Spirit to teach you.
+                    </div>
+                    <div class="quote-source">On Biblical Interpretation</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Works Section -->
+        <section id="major-works">
+            <h2>Major Works</h2>
+            <p>
+                Though Bunyan wrote over sixty works—sermons, theological treatises, spiritual autobiographies, and allegories—his enduring legacy rests on a handful of masterpieces that have shaped Christian thought and imagination for over three centuries.
+            </p>
+
+            <div class="work-list">
+                <div class="work-item">
+                    <div class="work-title">The Pilgrim's Progress</div>
+                    <div class="work-year">Published 1678; Part II 1684</div>
+                    <div class="work-description">
+                        The immortal allegory of Christian's journey from the City of Destruction to the Celestial City. This is not fantasy but theology dramatized, converting complex truths into narrative that stirs both mind and heart. The burden falling from Christian's back at the cross, the trials of Vanity Fair, the despair of Doubting Castle—these vivid images have taught more souls about redemption's order than countless commentaries. The most widely read book in English after the Bible, translated into over 200 languages, still captivating readers who have never heard of Calvinism yet understand sovereign grace through Bunyan's story.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">Grace Abounding to the Chief of Sinners</div>
+                    <div class="work-year">Published 1666</div>
+                    <div class="work-description">
+                        Bunyan's spiritual autobiography, written while imprisoned. A raw, visceral account of his descent into despair and his ascent through grace. Here we see the lived theology—the years of torment before conversion, the voice that whispered damnation, the moment grace broke through. This is the interior landscape of a soul being saved. Later Protestant Christianity would produce memoirs and devotionals, but <em>Grace Abounding</em> remains the archetype: honest, devastating, transformative. Readers meet not a successful theologian but a desperate sinner meeting the sufficiency of Christ.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">The Holy War Made by Shaddai upon Diabolus for the Regaining of the Metropolis of the World</div>
+                    <div class="work-year">Published 1682</div>
+                    <div class="work-description">
+                        A second masterwork of allegory, depicting the cosmic struggle for the soul. The city of Mansoul, captured by the Devil (Diabolus), is reclaimed by Emmanuel (Christ) through siege and grace. The narrative shows both the violence of sin's grip and the invincibility of Christ's redemption. While less famous than <em>The Pilgrim's Progress</em>, <em>The Holy War</em> probes deeper into the metaphysics of spiritual warfare and the utter necessity of divine victory. It demonstrates that Bunyan's allegorical genius was not a one-book phenomenon.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">Come, and Welcome, to Jesus Christ</div>
+                    <div class="work-year">Published 1678</div>
+                    <div class="work-description">
+                        A pastoral masterpiece addressing the terrified conscience. Bunyan expounds John 6:37—"All that the Father gives me will come to me, and whoever comes to me I will never drive away." Against the tortured questioning "Am I among the elect?" Bunyan offers the comfort of God's word: if you come to Jesus, you will not be cast out. The offer is real; the welcome is genuine; your coming proves you are among the elect. This work bridges the great tension of Reformed theology—election and evangelism—by anchoring both in Christ's command and Christ's promise.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">The Barren Fig Tree</div>
+                    <div class="work-year">Published 1673</div>
+                    <div class="work-description">
+                        A searching examination of false assurance. Not all who claim to be Christians are truly born again. Bunyan describes the marks of genuine conversion: repentance, faith, holiness of life. His pastoral concern shines throughout—he is not satisfied with mere intellectual assent or false comfort but presses readers toward authentic relationship with Christ. This is Bunyan the pastor-theologian, using truth to examine the soul and call it toward reality.
+                    </div>
+                </div>
+
+                <div class="work-item">
+                    <div class="work-title">A Defence of the Truth of Justification by Faith in Jesus Christ</div>
+                    <div class="work-year">Published 1671</div>
+                    <div class="work-description">
+                        Bunyan's response to Edward Fowler's attempt to soften the truth of imputed righteousness. With passionate clarity, Bunyan argues that our justification rests entirely on Christ's obedience imputed to us. We are counted righteous in Him, not by our own works. The practical import is staggering: assurance depends on this. If my righteousness before God depended on my performance, I would have no peace. But if I am robed in His righteousness, nothing can condemn me. This is the gospel's heart.
+                    </div>
+                </div>
+            </div>
+
+            <div class="scripture-block">
+                <div class="scripture-text">
+                    For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters. And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified.
+                </div>
+                <div class="scripture-ref">Romans 8:29–30 (NIV)</div>
+            </div>
+        </section>
+
+        <!-- Legacy Section -->
+        <section id="legacy">
+            <h2>Legacy</h2>
+            <p>
+                Three centuries have passed, yet Bunyan's influence has not diminished—it has deepened. <em>The Pilgrim's Progress</em> has sold more copies than any book except the Bible. Christendom has been shaped by the images Bunyan created and the truths he embodied.
+            </p>
+
+            <article class="article-body">
+                <div class="content-item">
+                    <h4>Evangelical Awakening</h4>
+                    <p>
+                        When <a href="/theologian-whitefield">George Whitefield</a> and John Wesley proclaimed <a href="/systematic-salvation">sovereign grace</a> in the <a href="/history-great-awakening">Great Awakening</a>, they drew on Bunyan's foundation. His work had already prepared hearts to receive the truth of <a href="/demolition-hub">election</a> and effectual grace. <a href="/theologian-whitefield">Whitefield</a>'s hearers recognized Christian in the journey toward the Celestial City. Bunyan's allegory had become the visual language of evangelical experience.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h4>Literary Giant</h4>
+                    <p>
+                        An uneducated tinker outshone the scholars. <em>The Pilgrim's Progress</em> is now recognized as one of the supreme works of English literature, ranking with Shakespeare and Milton. Universities that would have scorned Bunyan in his lifetime now include him in their canon. Yet his power never lay in stylistic sophistication but in truth married to imagination—Scripture wedded to story.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h4>Doctrinal Defender</h4>
+                    <p>
+                        Bunyan's theological writings have been mined by pastors and scholars for clarifications on election, <a href="/question-freewill">free will</a>, assurance, and <a href="/systematic-justification">justification</a>. He proved that one need not be a university <a href="/theologians">theologian</a> to defend the faith once for all delivered to the saints. His arguments remain vital because they are forged in pastoral concern, not merely academic interest.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h4>Persecution's Witness</h4>
+                    <p>
+                        Bunyan's refusal to stop preaching cost him twelve years of freedom. In a world where Christianity is increasingly persecuted, his example burns bright: the supremacy of Christ transcends human authority. The believer's allegiance is to King Jesus, not to earthly rulers. His imprisonment proved that no earthly power can silence the gospel when God purposes to speak.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h4>The Common Reader's Theologian</h4>
+                    <p>
+                        Bunyan uniquely reaches both the scholar and the peasant, the learned minister and the uneducated believer. His allegories teach truth not through systematic logic but through narrative and vivid imagery. This democratization of theology—making the heights of Scripture accessible to all—remains his gift. Anyone can read <em>The Pilgrim's Progress</em> and grasp truths that might take years of study to learn through commentary.
+                    </p>
+                </div>
+
+                <div class="content-item">
+                    <h4>Proof of God's Sovereignty</h4>
+                    <p>
+                        Bunyan's very existence is a problem for those who deny God's sovereign purpose. A man without credentials, imprisoned by hostile authorities, separated from his family, writing by candlelight in a dungeon—yet his words have shaped more souls than the greatest universities have produced theologians. This is not accident; it is the sovereignty of God, choosing what the world counts as nothing to shame the wise.
+                    </p>
+                </div>
+            </article>
+
+            <div class="brilliant-connection">
+                <h4>The Foolishness of God Wiser Than Men</h4>
+                <p>
+                    Consider what the world sees: an uneducated tinker, imprisoned for preaching illegally, confined to a cell for more than a decade. Surely his story is failure, not triumph. Yet God saw differently. <strong><a href="/systematic-election">God chose</a> a man with no letters to write a book that would reach millions—a book that would teach more people about grace than all the theological treatises combined.</strong> This embodies 1 Corinthians 1:27: "<a href="/systematic-election">God chose</a> the foolish things of the world to shame the wise; <a href="/systematic-election">God chose</a> the weak things of the world to shame the strong." Bunyan's life is a living parable of God's sovereign purpose overturning human expectations.
+                </p>
+            </div>
+        </section>
+
+        <!-- Why It Matters Today Section -->
+        <section id="why-matters">
+            <h2>Why His Work Matters Today</h2>
+            <p>
+                In our age of fragmented attention and superficial religion, Bunyan calls us back to depth, to passion, to the kind of faith that costs something and changes everything.
+            </p>
+
+            <h3>A Faith That Can Bear Persecution</h3>
+            <p>
+                As the church in many parts of the world faces increasing opposition, Bunyan's example becomes urgent. He shows that faith is not a comfort commodity but a conviction worth dying for. When he refused to stop preaching, he was not being defiant but obedient. He knew something that transcended earthly authorities: the supremacy of Christ over Caesar. Today, as pressures mount on faithful Christianity, Bunyan reminds us that our ultimate allegiance is not to comfort or acceptance but to King Jesus.
+            </p>
+
+            <div class="scripture-block">
+                <div class="scripture-text">
+                    Peter and the other apostles replied: "We must obey God rather than human beings!"
+                </div>
+                <div class="scripture-ref">Acts 5:29 (NIV)</div>
+            </div>
+
+            <h3>Theology That Transforms</h3>
+            <p>
+                In a culture drowning in information yet starved for transformation, Bunyan offers theology as medicine for the soul, not data for the mind. His allegories teach not by argument but by capturing imagination. When a reader sees Christian's burden fall at the cross and feels relief wash over them, they understand <a href="/systematic-justification">justification</a>—not as truth but as deliverance. Modern Christianity often separates head and heart. Bunyan reunites them. His theology is not merely true; it is transformative because it speaks to the whole person.
+            </p>
+
+            <h3>Excellence in Unlikely Places</h3>
+            <p>
+                Bunyan shatters the myth that greatness requires privilege. He had no university degree, no prestigious connections, no inheritance of power. Yet he produced a work that outlasted all his contemporaries. His example demolishes the excuse that we are too limited, too uneducated, too obscure to be used by God. If God could make the Tinker of Bedford the voice of a nation, what might He do with you? Excellence is not the possession of the elite; it is the gift of grace to those who are called.
+            </p>
+
+            <h3>The Sovereignty of God Proved in History</h3>
+            <p>
+                Those who doubt God's sovereignty often argue: "If God is truly sovereign, why do evil and injustice prevail?" Bunyan's life answers this question by illustration. The authorities thought they were crushing him; God was preparing him. The prison they meant as punishment became the birthplace of immortal literature. What appeared as defeat was actually God's victory. History, when viewed from God's perspective, reveals that His purposes cannot be thwarted. Bunyan's life proves that God's sovereignty is not abstract truth but concrete reality shaping history toward His glory.
+            </p>
+
+            <div class="brilliant-connection">
+                <h4>Redemptive Reversal</h4>
+                <p>
+                    Bunyan's imprisonment teaches us that <strong>God can redeem any circumstance for His purposes</strong>. The very chains meant to silence him became the scaffolding on which he built his masterpiece. In our own suffering, loss, and limitation, we can trust that God sees what we cannot see—how He will weave our pain into His larger tapestry of redemption. This is not cheap comfort but hard-won wisdom earned through watching God work in history.
+                </p>
+            </div>
+
+            <h3>The Power of Story</h3>
+            <p>
+                In an age when propositional truth claims are met with skepticism, Bunyan shows the power of narrative to lodge eternal truths in human hearts. <em>The Pilgrim's Progress</em> is not an argument you can win against; it is a story you can enter. Through story, Bunyan teaches that the Christian life is a journey (not an arrival), involves struggle (not mere comfort), faces real enemies (not just personal weakness), and leads to glory (not mere earthly success). Story reaches past our intellectual defenses and speaks to our souls. In a world of spin and <a href="/objection-manipulation.html">manipulation</a>, Bunyan's honest, Scripture-rooted narrative remains a beacon.
+            </p>
+
+            <h3>The Worth of One Converted Soul</h3>
+            <p>
+                Bunyan's passion was never for fame or influence. His passion was for souls to know Christ and persevere in faith. Everything he wrote was aimed at drawing people to Jesus and deepening their intimacy with Him. <em>Grace Abounding</em> was written to help fellow prisoners understand grace. <em>The Pilgrim's Progress</em> began as a series of verses written for his own children. <em>Come, and Welcome</em> was pastoral comfort for the doubting conscience. Bunyan reminds us that the highest calling is not to build a platform but to shepherd souls toward Jesus.
+            </p>
+        </section>
+
+        <!-- Scripture Blocks Throughout -->
+        <section style="background-color: rgba(139, 92, 246, 0.05); padding: 2rem; border-radius: 0.75rem; margin: 3rem 0;">
+            <h3 style="margin-top: 0; color: var(--accent-violet);">Scripture That Shaped Bunyan's Thought</h3>
+
+            <div class="scripture-block" style="margin: 1.5rem 0;">
+                <div class="scripture-text">
+                    <a href="/question-john6">All that the Father gives me</a> will come to me, and whoever comes to me I will never drive away.
+                </div>
+                <div class="scripture-ref"><a href="/question-john6">John 6:37</a> (NIV) — The Foundation of Assurance</div>
+            </div>
+
+            <div class="scripture-block" style="margin: 1.5rem 0;">
+                <div class="scripture-text">
+                    For we walk by faith, not by sight. We are confident, I say, and would prefer to be away from the body and at home with the Lord.
+                </div>
+                <div class="scripture-ref">2 Corinthians 5:7-8 (NIV) — The Pilgrim's Hope</div>
+            </div>
+
+            <div class="scripture-block" style="margin: 1.5rem 0;">
+                <div class="scripture-text">
+                    Therefore, as God's chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness and patience.
+                </div>
+                <div class="scripture-ref">Colossians 3:12 (NIV) — Sanctification's Reality</div>
+            </div>
+
+            <div class="scripture-block" style="margin: 1.5rem 0; border-left-color: var(--accent-ember);">
+                <div class="scripture-text">
+                    For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God—not by works, so that no one can boast.
+                </div>
+                <div class="scripture-ref"><a href="/question-faithgift">Ephesians 2:8-9</a> (NIV) — The Heart of the Gospel</div>
+            </div>
+        </section>
+
+        <!-- Cross-References -->
+        <div class="cross-references">
+            <h3>Related Explorations</h3>
+            <p>
+                To deepen your understanding of Bunyan's theology and era:
+            </p>
+            <div class="cross-ref-list">
+                <div class="cross-ref-item">
+                    <strong>Other Theologians:</strong>
+                    <br><a href="/theologians">Thomas Watson</a>, <a href="/theologians">John Owen</a>, <a href="/theologians">Richard Sibbes</a>
+                </div>
+                <div class="cross-ref-item">
+                    <strong>Truth Sections:</strong>
+                    <br><a href="/systematic-theology">Systematic Theology</a>, <a href="/compare-calvinism-arminianism">Election & Free Will</a>
+                </div>
+                <div class="cross-ref-item">
+                    <strong>Historical Context:</strong>
+                    <br><a href="/history-timeline">Church History Timeline</a>, <a href="/creeds-confessions">Confessions</a>
+                </div>
+                <div class="cross-ref-item">
+                    <strong>Pastoral Application:</strong>
+                    <br><a href="/pastoral-assurance">Assurance</a>, <a href="/devotionals">Devotionals</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Final Brilliant Connection -->
+        <div class="brilliant-connection">
+            <h4>The Supremacy of Christ Lived Out</h4>
+            <p>
+                John Bunyan was not primarily a scholar defending abstract theology. He was a man so convinced of Christ's supremacy that he was willing to lose his freedom rather than stop proclaiming it. He knew Christ as sovereign Lord not because he had read Calvin perfectly but because he had experienced the <a href="/systematic-salvation">sovereign grace</a> of Christ breaking his pride, liberating his will, and sustaining him through persecution. <strong>This is what makes him enduring: his theology was not philosophy but passion; not truth but lived devotion.</strong> When we read Bunyan today, we are not reading mere words; we are encountering a human soul who loved Christ with such intensity that his words still burn with that love. That is why pilgrims still follow Christian toward the Celestial City. That is why grace still abounds to sinners. That is why John Bunyan, the Tinker of Bedford, will never be forgotten.
+            </p>
+        </div>
+    </main>
+
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/theologian-sproul" class="related-article-card">
+        <span class="related-article-cat">🧓 Theologians</span>
+        <span class="related-article-title">R.C. Sproul: The Theologian Grace Wouldn&#39;t Release</span>
+        <span class="related-article-desc">Robert Charles Sproul Jr. arrived in seminary with a mission: to dismantle Calvinism from the inside. He was not hostile—he was earnest. He…</span>
+      </a>
+      <a href="/theologian-spurgeon" class="related-article-card">
+        <span class="related-article-cat">🧓 Theologians</span>
+        <span class="related-article-title">Charles Spurgeon — The Prince of Preachers Who Couldn&#39;t Stop Talking About Grace</span>
+        <span class="related-article-desc">Charles Haddon Spurgeon: the greatest preacher of the nineteenth century, who proved that Calvinism is not cold theology but the very fuel…</span>
+      </a>
+      <a href="/creed-canons-dort" class="related-article-card">
+        <span class="related-article-cat">⏳ Church History</span>
+        <span class="related-article-title">The Canons of Dort — The Confession That Defended Grace Against Works</span>
+        <span class="related-article-desc">In 1619, the church put sovereign grace on trial — and grace won.</span>
+      </a>
+      <a href="/hymn-amazing-grace" class="related-article-card">
+        <span class="related-article-cat">🕯 Devotionals</span>
+        <span class="related-article-title">Amazing Grace: The Hymn That Proves What You Already Believe</span>
+        <span class="related-article-desc">Every line of &quot;Amazing Grace&quot; is a confession of sovereign grace . &quot;Wretch&quot; confesses total depravity . &quot;Lost&quot; and &quot;blind&quot; confess human…</span>
+      </a>
+      <a href="/question-faithgift" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">Is Faith a Gift from God? What the Bible Actually Says</span>
+        <span class="related-article-desc">Paul already answered. And the answer should make your knees buckle.</span>
+      </a>
+      <a href="/joy-freedom-of-smallness" class="related-article-card">
+        <span class="related-article-cat">✨ Joy of Grace</span>
+        <span class="related-article-title">The Freedom of Smallness</span>
+        <span class="related-article-desc">You are not the hero of your salvation story. And that is the most liberating discovery of your life.</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+
+    <div class="article-continue-journey">
+        <h3 class="article-continue-journey-title">Continue the Journey</h3>
+        <div class="hub-grid">
+        <a href="/story-the-dead-city" class="hub-card">
+            <div class="card-number">01</div>
+            <h4 class="card-title">The Dead City</h4>
+            <p class="card-description">A modern parable in the tradition of Bunyan's Pilgrim.</p>
+            <div class="card-footer">
+                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </div>
+        </a>
+        <a href="/devotional-my-chains-fell-away" class="hub-card">
+            <div class="card-number">02</div>
+            <h4 class="card-title">My Chains Fell Away</h4>
+            <p class="card-description">Bunyan's chains fell in Bedford Jail. So can yours.</p>
+            <div class="card-footer">
+                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+            </div>
+        </a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 <a href="/">Adopted by Grace</a> &mdash; Soli Deo Gloria</p>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">
+                <a href="/theologians">All Theologians</a> &middot;
+                 &middot;
+                <a href="/about">About</a>
+            </p>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+    </footer>
+
+    <script src="/global.js" defer></script>
+
+    <script src="/nav.js"></script>
+    <script src="/ux-enhancements.js" defer></script>
+    <script defer src="/reading-time.js"></script>
+    <script defer src="/scripture-niv.js"></script>
+    <script defer src="/scripture-popups.js"></script>
+    <script src="/quote-card.js" defer></script>
+    <script src="/share-bar.js" defer></script>
+</body>
+</html>

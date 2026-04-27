@@ -28,7 +28,7 @@
                         { name: 'New to Sovereign Grace? Start Here.', href: '/start-here', desc: 'Different people arrive at the doctrines of grace from different directions. This is a collection of doorways. Pick the ' },
                         { name: 'The Five Points of Grace — TULIP Explained', href: '/start-here-phase2', desc: 'The five points of grace — Total Depravity, Unconditional Election, Limited Atonement, Irresistible Grace, Perseverance ' },
                         { name: 'What Does the Bible Actually Teach? — Phase 3', href: '/start-here-phase3', desc: 'Phase 3: What does the Bible actually teach about salvation? A passage-by-passage journey through Romans 9, Ephesians 1,' },
-                        { name: 'What Is Reformed Theology? — Phase 1', href: '/start-here-phase1', desc: 'Phase 1: An honest introduction to what Reformed Christians believe about God, salvation, and grace — and why it matters' }
+                        { name: 'What Is Reformed Theology? — Phase 1', href: '/start-here-phase1', desc: 'Phase 1: An honest introduction to what Reformed Christians believe about God, salvation, and grace — and why this is th' }
                     ]
                 },
                 {

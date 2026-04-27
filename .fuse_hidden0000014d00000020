@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Credit Thief Inside Your Brain</title>
+    <meta name="keywords" content="fundamental attribution error, psychology of resistance, cognitive bias, salvation, works righteousness, grace, Lee Ross, attribution theory">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="manifest" href="/manifest.webmanifest">
+
+    <!-- Project Lighthouse: Universal Share-Ready Meta -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#d4a254">
+    <meta name="description" content="The Fundamental Attribution Error explains why humans instinctively take credit for outcomes they didn&#39;t cause — including their own salvation. What…">
+    <link rel="canonical" href="https://adoptedbygrace.net/psychology-attribution-error">
+    <meta property="og:site_name" content="Adopted by Grace">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/psychology-attribution-error">
+    <meta property="og:title" content="The Credit Thief Inside Your Brain — Why You Think You Chose God | Adopted by Grace">
+    <meta property="og:description" content="The Fundamental Attribution Error explains why humans instinctively take credit for outcomes they didn&#39;t cause — including their own salvation. What…">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Adopted by Grace — The biblical case for divine sovereignty">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ForeknownOne">
+    <meta name="twitter:creator" content="@ForeknownOne">
+    <meta name="twitter:title" content="The Credit Thief Inside Your Brain — Why You Think You Chose God | Adopted by Grace">
+    <meta name="twitter:description" content="The Fundamental Attribution Error explains why humans instinctively take credit for outcomes they didn&#39;t cause — including their own salvation. What…">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <!-- /Project Lighthouse -->
+
+<!-- Project Lighthouse: Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://adoptedbygrace.net/#organization",
+      "name": "Adopted by Grace",
+      "url": "https://adoptedbygrace.net",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://adoptedbygrace.net/og-image.png",
+        "width": 1200,
+        "height": 630
+      },
+      "sameAs": [
+        "https://twitter.com/ForeknownOne",
+        "https://foreknownone.substack.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://adoptedbygrace.net/#website",
+      "url": "https://adoptedbygrace.net",
+      "name": "Adopted by Grace",
+      "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
+      "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Credit Thief Inside Your Brain — Why You Think You Chose God",
+  "description": "The Fundamental Attribution Error explains why humans instinctively take credit for outcomes they didn't cause — including their own salvation. What…",
+  "image": "https://adoptedbygrace.net/og-image.png",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://adoptedbygrace.net/psychology-attribution-error" },
+  "author": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" },
+  "publisher": { "@type": "Organization", "name": "Adopted by Grace", "logo": { "@type": "ImageObject", "url": "https://adoptedbygrace.net/og-image.png" } },
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-04-20",
+  "inLanguage": "en-US"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://adoptedbygrace.net/"
+  },
+  {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Psychology",
+    "item": "https://adoptedbygrace.net/psychology-hub"
+  },
+  {
+    "@type": "ListItem",
+    "position": 3,
+    "name": "The Credit Thief Inside Your Brain — Why You Think You Chose God",
+    "item": "https://adoptedbygrace.net/psychology-attribution-error"
+  }
+]
+}
+</script>
+<!-- /Project Lighthouse Schema -->
+
+    <!-- Project Lighthouse: Performance hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <!-- /Project Lighthouse Performance -->
+</head>
+<body>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <header class="page-hero">
+        <span class="eyebrow">Psychology</span>
+        <h1>The Credit Thief Inside Your Brain</h1>
+        <p class="hub-subtitle">The Fundamental Attribution Error explains why humans instinctively take credit for outcomes they didn't cause — including their own salvation. What psychology calls a cognitive bias, Scripture calls works-righteousness.</p>
+            <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
+    </header>
+
+    <article class="article-body">
+
+        <p><em>A laboratory at Stanford, 1977. Fluorescent tubes. A stack of essays written by undergraduates who were told — in front of the subjects, while the subjects watched — to argue a position assigned by a coin flip. Pro-Castro. Anti-Castro. Didn't matter. A coin decided. The subjects saw the coin. The subjects heard the instructions. Then the subjects read the essays and rated how strongly the writers actually believed what they'd written. They rated them believers. Every time. The brain refused to let a person be a coincidence. Even with the coin still on the table, the brain insisted: this person meant it. This person chose. This person is the author of the sentence. That laboratory finding, quietly published under the name Lee Ross, is a description of you standing in front of a mirror rehearsing your testimony.</em></p>
+
+        <div class="tldr">
+            <strong>The Psychology:</strong> The Fundamental Attribution Error (Lee Ross, 1977) is the brain's built-in tendency to credit yourself for positive outcomes. Applied to salvation, it explains why "I chose God" <em>feels</em> like humility when it is actually <a href="/question-boasting.html">works-righteousness in disguise</a>. The bias is self-reinforcing: the person experiencing it will never believe they are experiencing it, because the feeling of having chosen becomes the "proof" that they chose. But consciousness is not causation. Scripture says <a href="/question-faithgift.html">faith is a gift</a> (<a href="/question-faithgift.html">Ephesians 2:8-9</a>), not a decision you manufactured — and the person most certain they chose God may be the person least aware of what actually happened.
+        </div>
+
+        <h2>The Bias That Shapes Your Testimony</h2>
+
+        <p>In 1977, psychologist Lee Ross published a landmark study identifying what he called the Fundamental Attribution Error: the universal human tendency to credit our own outcomes to personal character while attributing others' outcomes to circumstances. When your friend gets promoted, you think "she's talented." When <em>you</em> get promoted, you think "the timing was right." The bias is automatic, invisible, and nearly universal.</p>
+
+        <p>Now apply it to the most important event in your life. When someone else comes to faith, you say: "God really worked in their heart." When <em>you</em> came to faith, you say: "I chose." Why does God get credit for everyone else's salvation but not yours?</p>
+
+        <p>Try this right now. Think of the last friend who came to Christ. Picture them. Hear your own voice telling someone about it. You will hear the pronouns shift automatically: "God <em>got hold of him</em>. The Spirit <em>really worked</em>. The Lord <em>drew her</em>." Now play the other tape. Picture yourself telling a stranger on an airplane how you came to faith. Listen: "I was searching. I read the book. I prayed the prayer. I made the decision. I walked forward." Same Gospel. Same Spirit. Same God. The subject of the sentence switched without your permission. You did not decide to change it. Your brain did it for you, automatically, while you were thinking you were being humble. The coin is still on the table. You did not see it land.</p>
+
+        <p>This is the <a href="/psychology-cognitive-biases.html">self-serving bias</a> applied to salvation — and the stakes could not be higher.</p>
+
+        <p>In the famous 1967 Castro Essay experiment, students were told writers had been <em>assigned</em> their position — zero choice involved. Yet students still attributed the views to the writer's genuine beliefs. The brain insists on seeing agency even when it <em>knows</em> there was none. This is your brain on salvation. You insist you chose it — even though <a href="/question-where-did-your-faith-come-from.html">Scripture tells you it was given</a>.</p>
+
+        <h2>The Scripture That Exposes the Bias</h2>
+
+        <blockquote>
+            <p>"For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast."</p>
+            <cite>EPHESIANS 2:8-9</cite>
+        </blockquote>
+
+        <p>Paul is being extraordinarily precise. He is not merely saying salvation is by grace. He is saying that even the <a href="/question-faithgift.html">faith through which you receive salvation is a gift</a>. You did not manufacture it. You did not summon it. You cannot take credit for it. Yet when you say "I chose God," you are claiming credit for the one thing Scripture explicitly says you cannot take credit for. Philippians 1:29 drives the nail deeper: "For it has been granted to you on behalf of Christ not only to believe <a href="/devotional-in-christ.html">in him</a>, but also to suffer for him." Even <em>believing</em> — the act that you feel most certain about — has been <em>granted</em> to you.</p>
+
+        <p>Here is the cruel irony: the very mechanism that makes your conversion feel real to you — the sense that you <em>decided</em>, that it was your action — is the same mechanism that blinds you to grace itself. The person most certain they chose God is the person least aware that they did not.</p>
+
+        <h2>Why the Trap Closes on Itself</h2>
+
+        <p>The most dangerous feature of this bias is that it is self-reinforcing. When you name the attribution error, the person responds: "No, I <em>really did</em> choose God." They use the very bias you are naming as evidence against your claim. They feel the certainty of having chosen, and that feeling becomes proof in their mind.</p>
+
+        <p>The bias is the evidence. The feeling of having chosen is the proof — of the bias, not of the choosing.</p>
+
+        <p>This makes the bias nearly impossible to escape without the work of <a href="/systematic-election.html">God Himself</a>.</p>
+
+        <p>Daniel Kahneman's research on System 1 and System 2 thinking illuminates why. System 1 — fast, automatic, intuitive — is where you live most of your life. When you "feel" like you chose God, you are in System 1. You are trusting your intuition. And your intuition, shaped by the Fundamental Attribution Error, tells you that because you <em>feel</em> like you chose, you must have chosen.</p>
+
+        <p>Consciousness is not causation. You are also conscious of your heart beating. You did not cause that either.</p>
+
+        <p>This is why <a href="/psychology-identity-threat.html">identity threat</a> and the <a href="/psychology-autonomy-illusion.html">autonomy illusion</a> are so powerful in defending this error. When you challenge someone's claim that they chose God, you are not challenging a theological position. You are challenging the foundational narrative of their selfhood. The brain will defend against it with every tool it has — <a href="/philosophy-self-deception.html">rationalization</a>, selective memory, reinterpreting Scripture, dismissing evidence. The Fundamental Attribution Error becomes not just a cognitive bias but a spiritual stronghold.</p>
+
+        <h2>The Connection to <a href="/psychology-cost-of-rejecting-grace.html">Works-Righteousness</a></h2>
+
+        <p>Here is where psychology becomes <a href="/systematic-soteriology.html">soteriology</a>. The Fundamental Attribution Error is the mechanism by which <a href="/psychology-cost-of-rejecting-grace.html">works-righteousness</a> disguises itself as humility. The person who says "I chose God" does not <em>feel</em> like they are claiming credit. They feel like they are acknowledging God's existence and accepting the gospel. To them, it feels humble: "I need God. I can't save myself." But they are doing the opposite — claiming credit for the one thing they cannot take credit for: <a href="/question-faithgift.html">faith itself</a>.</p>
+
+        <p>Consider two believers whose experiences are nearly identical. Person A says: "I was searching for answers. The gospel clicked. I accepted Christ." Person B says: "I was lost, but God was relentless. He opened my eyes. The Spirit changed my heart." Same event. Different attribution. Person A's testimony is more psychologically <em>natural</em> — it aligns with how the brain automatically works. But Person B's testimony is more <em>true</em> — it aligns with how <a href="/question-where-did-your-faith-come-from.html">Scripture says reality actually works</a>. The fact that you <em>felt</em> yourself choosing does not prove you were free to choose. You also felt the sun rising, but you were not free to prevent it.</p>
+
+        <p>This is why the <a href="/question-where-did-your-faith-come-from.html">Crown Jewel argument</a> is so devastating. It takes what <em>feels</em> like humility and shows it to be <a href="/question-boasting.html">pride</a>. Not because the person is lying, but because the Fundamental Attribution Error is so good at disguising agency as recognition. You feel active in choosing God, so you believe you chose God, so you take credit for faith, so you are doing <a href="/psychology-cost-of-rejecting-grace.html">works-righteousness</a> without knowing it. The bias has created a perfect camouflage for the flesh.</p>
+
+        <h2>The Eternal Stakes</h2>
+
+        <p>The person who believes they chose God will logically believe they could have chosen differently. If you chose God, then it was possible to not choose God. If it was possible to not choose, then your salvation depends on your <em>continued</em> choosing. And if your salvation depends on your continued choosing, you are living in perpetual fear — trusting yourself, <a href="/psychology-cost-of-rejecting-grace.html">practicing works-righteousness</a>, never able to rest.</p>
+
+        <p>But the person who understands that <a href="/question-faithgift.html">faith is a gift</a>, that God's <a href="/systematic-election.html">choosing of them</a> is not contingent on their choice — that person can rest. They can stop performing. They can stop trying to hold on and experience the profound relief of being held. If God <a href="/question-chosen.html">chose you before the creation of the world</a>, then your faith endures not because of your continued decision but because of <a href="/devotional-never-gives-up.html">His unbreakable grip</a>.</p>
+
+        <p>Understanding the Fundamental Attribution Error will not, by itself, free you from it. You cannot think your way out of a <a href="/psychology-cognitive-biases.html">cognitive bias</a> — the bias shapes how you think. This is why grace is not merely an idea to understand. It is a rescue to receive.</p>
+
+        <p>The person who finally sees that they did not choose God does not land in despair. They land in freedom. If <a href="/systematic-election.html">God chose</a> them, they were <a href="/question-chosen.html">chosen before they were born</a>. If <a href="/question-faithgift.html">faith is a gift</a>, it can never be taken away. If they are not the hero of the story, they cannot be the villain either. And the hero <a href="/devotional-in-christ.html">always sees the story through</a>.</p>
+
+        <blockquote>
+            <p>"For it has been granted to you on behalf of Christ not only to believe <a href="/devotional-in-christ.html">in him</a>, but also to suffer for him."</p>
+            <cite>PHILIPPIANS 1:29</cite>
+        </blockquote>
+
+        <p>Go back to the laboratory. Go back to the coin. If the undergraduates had been honest with themselves, they would have said: "I don't know what this writer believes. A coin decided. I was there." But the honest thing was the hard thing, so the brain did the easy thing, and the easy thing was to make every writer an author. This is what your brain did with your conversion. It took an act of God — unsearchable, sovereign, planned before the stars had dust — and it quietly edited the sentence to make you the writer. Not out of malice. Out of the same silent, tireless machinery that has been running in every human skull since Eden. You were not rebelling when you took the credit. You were blinking. You were breathing. You were doing what the brain in a fallen body cannot help but do.</p>
+
+        <p>And then something happens on a page like this one, or in a sermon you didn't plan to hear, or in a kitchen at 2am when you thought you were alone, and for the space of a single breath the editing stops. You see the coin on the table. You see that you did not place it there. You see that the sentence you have been telling at every dinner party was a coat thrown over a miracle. And in that breath the miracle comes out from under the coat and stands in front of you and it is Christ — not a concept, not a campus verse, not the idea of Him — <em>Christ</em>, the Lamb slain before the foundation of the world, who <a href="/question-chosen.html">chose you before the stars</a>, who sent the Spirit to open your eyes, who <a href="/question-faithgift.html">gave you the very faith</a> you have been claiming as your property. He is not offended that you miscredited Him for years. He has been patient with better frauds than yours. He was not waiting for you to get the pronouns right. He was waiting for you to see His hands and fall into them.</p>
+
+        <p>Fall. It is the only thing left to do. He has been <a href="/devotional-never-gives-up.html">holding you the whole time</a>.</p>
+
+    
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/psychology-autonomy-illusion" class="related-article-card">
+        <span class="related-article-cat">🧠 Psychology</span>
+        <span class="related-article-title">The Autonomy Illusion: Why &quot;Free Will&quot; Feels So Real</span>
+        <span class="related-article-desc">Hold on to that for a moment. Because that is the entire argument of this page, experienced from the inside of your own skull, and you did…</span>
+      </a>
+      <a href="/psychology-system-justification" class="related-article-card">
+        <span class="related-article-cat">🧠 Psychology</span>
+        <span class="related-article-title">Why People Defend the Theology That Enslaves Them</span>
+        <span class="related-article-desc">System Justification Theory explains why people defend systems that hurt them — and why millions of Christians fiercely defend a theology…</span>
+      </a>
+      <a href="/philosophy-immune-system-grace" class="related-article-card">
+        <span class="related-article-cat">🧭 Philosophy</span>
+        <span class="related-article-title">The Immune System You Never Asked For</span>
+        <span class="related-article-desc">Right now your immune system is fighting battles you never authorized, using weapons you didn&#39;t design, against enemies you can&#39;t see. You…</span>
+      </a>
+      <a href="/question-pharaoh-hardened" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">Why Did God Harden Pharaoh’s Heart? — Exodus 9:12 Explained</span>
+        <span class="related-article-desc">Did Pharaoh harden his own heart, or did God do it? Scripture says both — and the order matters more than you think. What Exodus really…</span>
+      </a>
+      <a href="/shattered-lens-taught-wrong" class="related-article-card">
+        <span class="related-article-cat">🔍 Shattered Lens</span>
+        <span class="related-article-title">When Everything You Were Taught Was Wrong</span>
+        <span class="related-article-desc">For the one who opened their Bible and found a God they had never been introduced to.</span>
+      </a>
+      <a href="/joy-no-other-theology" class="related-article-card">
+        <span class="related-article-cat">✨ Joy of Grace</span>
+        <span class="related-article-title">The Joy No Other Theology Can Offer</span>
+        <span class="related-article-desc">Why sovereign grace produces a joy that no other theology can match — not incrementally higher, but categorically different.</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+</article>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">Adopted by Grace</div>
+            <div class="footer-tagline">The truths of grace — explored with rigor, explained with beauty</div>
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="/start-here">Start Here</a>
+                <a href="/questions">Questions</a>
+                <a href="/systematic-theology">Theology</a>
+                <a href="/demolition-hub">Demolition</a>
+                <a href="/stories">Stories</a>
+                <a href="/devotionals">Devotionals</a>
+                <a href="/about">About</a>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script src="/ux-enhancements.js" defer></script>
+    <script defer src="/reading-time.js"></script>
+    <script defer src="/scripture-niv.js"></script>
+    <script defer src="/scripture-popups.js"></script>
+    <script src="/quote-card.js" defer></script>
+    <script src="/share-bar.js" defer></script>
+</body>
+</html>

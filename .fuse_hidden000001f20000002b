@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cross-Examination</title>
+    <meta name="keywords" content="election, free will, depravity, faith, grace, Arminianism, Calvinism, predestination, courtroom drama, sovereign grace">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://adoptedbygrace.net/"},
+            {"@type": "ListItem", "position": 2, "name": "Stories", "item": "https://adoptedbygrace.net/stories"},
+            {"@type": "ListItem", "position": 3, "name": "The Cross-Examination"}
+        ]
+    }
+    </script>
+
+    <!-- Project Lighthouse: Universal Share-Ready Meta -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#d4a254">
+    <meta name="description" content="A courtroom drama where the doctrine of free will faces cross-examination by Scripture itself. When your answers collide with logic, where does a searching soul land?">
+    <link rel="canonical" href="https://adoptedbygrace.net/story-cross-examination">
+    <meta property="og:site_name" content="Adopted by Grace">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/story-cross-examination">
+    <meta property="og:title" content="The Cross-Examination — When Sovereign Grace Puts Free Will on the Witness Stand | Adopted by Grace">
+    <meta property="og:description" content="A courtroom drama where the doctrine of free will faces cross-examination by Scripture itself. When your answers collide with logic, where does a searching soul land?">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Adopted by Grace — The biblical case for divine sovereignty">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ForeknownOne">
+    <meta name="twitter:creator" content="@ForeknownOne">
+    <meta name="twitter:title" content="The Cross-Examination — When Sovereign Grace Puts Free Will on the Witness Stand | Adopted by Grace">
+    <meta name="twitter:description" content="A courtroom drama where the doctrine of free will faces cross-examination by Scripture itself. When your answers collide with logic, where does a searching soul land?">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <!-- /Project Lighthouse -->
+
+<!-- Project Lighthouse: Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://adoptedbygrace.net/#organization",
+      "name": "Adopted by Grace",
+      "url": "https://adoptedbygrace.net",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://adoptedbygrace.net/og-image.png",
+        "width": 1200,
+        "height": 630
+      },
+      "sameAs": [
+        "https://twitter.com/ForeknownOne",
+        "https://foreknownone.substack.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://adoptedbygrace.net/#website",
+      "url": "https://adoptedbygrace.net",
+      "name": "Adopted by Grace",
+      "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
+      "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Cross-Examination — When Sovereign Grace Puts Free Will on the Witness Stand",
+  "description": "A courtroom drama where the doctrine of free will faces cross-examination by Scripture itself. When your answers collide with logic, where does a searching soul land?",
+  "image": "https://adoptedbygrace.net/og-image.png",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://adoptedbygrace.net/story-cross-examination" },
+  "author": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" },
+  "publisher": { "@type": "Organization", "name": "Adopted by Grace", "logo": { "@type": "ImageObject", "url": "https://adoptedbygrace.net/og-image.png" } },
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-04-20",
+  "inLanguage": "en-US"
+}
+</script>
+<!-- /Project Lighthouse Schema -->
+
+    <!-- Project Lighthouse: Performance hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <!-- /Project Lighthouse Performance -->
+</head>
+<body>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="mega-menu" id="megaMenu"></div>
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <header class="page-hero">
+        <span class="eyebrow">Stories, Parables & Analogies</span>
+        <h1>The Cross-Examination</h1>
+        <p class="hub-subtitle">When sovereign grace puts free will on the witness stand.</p>
+            <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
+    </header>
+
+    <article class="article-body">
+
+        <div class="tldr">
+            <strong>In Brief:</strong> A courtroom drama where Scripture cross-examines the claim "I chose God." Every answer leads to the same inescapable conclusion: if the difference between the saved and the lost is your decision, then you are the hero of your own salvation story — which is exactly what grace came to destroy.
+        </div>
+
+        <p>The courtroom is wood-paneled, austere, and cold. Light pours through tall windows — the kind that does not warm, only exposes. A single chair sits in the center, bolted to the floor. Not comfortable. Not designed for rest. It is a witness stand.</p>
+
+        <p>And today, the doctrine of <a href="/question-freewill">free will</a> has been called to testify.</p>
+
+        <p>The Witness sits rigidly, hands folded. Their story is simple, repeated a million times in a million churches: "I chose God. I made a decision. That choice saved me."</p>
+
+        <p>The Prosecutor enters carrying no briefcase. Only questions. And her questions are Scripture itself.</p>
+
+        <p>Pay attention to what happens in your chest during this cross-examination. If you catch yourself hoping the Witness finds an escape — rooting for them to hold their ground — that impulse is worth more than any argument in this article. Because it means you are not watching from the gallery. You are sitting in the chair.</p>
+
+        <h2>The Dead Cannot Choose</h2>
+
+        <p><em>Prosecutor:</em> "You believe you chose God. Were you spiritually alive or <a href="/question-depravity">spiritually dead</a> at the time?"</p>
+
+        <p><em>Witness:</em> "Well... <a href="/question-depravity">dead in sin</a>, I suppose. But I think that's metaphorical—"</p>
+
+        <p><em>Prosecutor:</em> "<a href="/question-depravity">Ephesians 2:1</a>: 'As for you, you were dead in your transgressions and sins.' Not sick. Not struggling. Dead. If you were a corpse in a tomb, could you climb out on your own?"</p>
+
+        <p><em>Witness:</em> "Of course not. But spiritual death is different—"</p>
+
+        <p><em>Prosecutor:</em> "Is spiritual death more or less severe than physical death?"</p>
+
+        <p>Silence.</p>
+
+        <h2>The Fatal Question</h2>
+
+        <p><em>Prosecutor:</em> "Paul writes in <a href="/question-faithgift">Philippians 1:29</a>: 'For it has been granted to you on behalf of Christ not only to believe <a href="/devotional-in-christ">in him</a>, but also to suffer for him.' Has your faith been granted to you?"</p>
+
+        <p><em>Witness:</em> "Yes, but I had to choose first. I had to be willing."</p>
+
+        <p><em>Prosecutor:</em> "So you generated willingness on your own — while <a href="/systematic-hamartiology">dead in sin</a> — and then God gave you faith in response. Your action was the deciding factor. You were the hero of your own salvation story."</p>
+
+        <p><em>Witness:</em> "I wouldn't say hero. I'd say... cooperative. I worked with God's grace."</p>
+
+<p><em>Prosecutor:</em> "You cooperated with grace. Like Lazarus cooperated with resurrection — by lying there while God did everything."</p>
+
+        <p><em>Prosecutor:</em> "You worked with grace. Let me read <a href="/question-faithgift">Ephesians 2:8-9</a>: 'For by grace you have been saved, through faith — and this not from yourselves, it is the gift of God — not by works, so that no one can boast.' If <a href="/question-faithgift">faith is a gift</a>, and gifts are not by works, and you generated your faith through an act of your will — then your faith came by works. Which means your salvation is not by grace alone. Which means Scripture is false. Which is it: is Scripture true, or are you?"</p>
+
+        <h2>The Trap That Breaks Them All</h2>
+
+        <p><em>Prosecutor:</em> "Two people sit in a church pew. Same sermon. Same preacher. Same Bible. One believes. The other walks out unmoved. <a href="/question-where-did-your-faith-come-from">What made you different?</a>"</p>
+
+        <p><em>Witness:</em> "I was more receptive. I had a more open heart."</p>
+
+        <p><em>Prosecutor:</em> "Did you give yourself that open heart, or did someone else?"</p>
+
+        <p><em>Witness:</em> "...I don't know how to answer that."</p>
+
+        <p><em>Prosecutor:</em> "You must answer. If YOU generated the openness, then the difference between salvation and damnation rests entirely on YOU. Is that the gospel you believe?"</p>
+
+        <p><em>Witness:</em> "No."</p>
+
+        <p><em>Prosecutor:</em> "Then God gave you the open heart. Which means <a href="/systematic-election">God chose</a> whom to give open hearts. Which means <a href="/systematic-election">God chose</a> whom to save before you ever made any choice. Your choice came <em>after</em> God's, in response to God's. His will determined your will. Not the other way around."</p>
+
+        <p><em>Prosecutor:</em> "Your choice came after God's. It always does."</p>
+
+        <p>The Prosecutor isn't finished.</p>
+
+        <p><em>Prosecutor:</em> "And if that's true, then what you call your 'free choice' is the inevitable result of God's prior work in your heart. It's the effect, not the cause. You are not saving yourself. You are being saved. Completely. By grace alone. '<a href="/question-john6">No one can come to me unless the Father who sent me draws them</a>' (<a href="/question-john6">John 6:44</a>). Not invites. Not offers. Draws."</p>
+
+        <h2>Scripture Testifies</h2>
+
+        <p><em>Prosecutor:</em> "<a href="/question-goldchain">Romans 8:29-30</a>: Foreknown. Predestined. Called. Justified. Glorified. A chain with five links. Does it ever break?"</p>
+
+        <p><em>Witness:</em> "No."</p>
+
+        <p><em>Prosecutor:</em> "Did you add any of those links yourself?"</p>
+
+        <p><em>Witness:</em> "No."</p>
+
+        <p><em>Prosecutor:</em> "<a href="/question-acts">Acts 13:48</a>: 'All who were <a href="/question-acts">appointed for eternal life</a> believed.' The appointment came first. Then — as a result — they believed. Not the other way around."</p>
+
+        <h2>The Moment the Voice Changes</h2>
+
+        <p><em>Prosecutor:</em> "One last question. If you generated your own faith — if your decision was the deciding factor — then why are you thanking God for your salvation? Why not thank yourself?"</p>
+
+        <p>The Witness looks down at their hands. When they speak, their voice is different — quieter, but clearer.</p>
+
+        <p><em>Witness:</em> "Because I know in my heart that I couldn't have done it without God."</p>
+
+        <p><em>Prosecutor:</em> "Right. Your conscience knows the truth your theology was trying to deny. You know — in the place where honesty lives — that you didn't save yourself. That you were dead. That God raised you. That what happened to you was not your achievement but your <a href="/systematic-salvation">grace</a>."</p>
+
+        <p>The cross-examination ends. Now she is simply speaking truth.</p>
+
+        <p><em>Prosecutor:</em> "This is what <a href="/devotional-joy-of-election">election</a> means. Not that you're a puppet. Not that your choice wasn't real. But that your choice came from a heart you didn't transform yourself. From <a href="/question-faithgift">faith you didn't generate</a>. From love that found you when you were dead."</p>
+
+        <p>The Witness looks up. Their eyes are wet.</p>
+
+        <p><em>Prosecutor:</em> "And the freedom — the real freedom — is knowing that none of it rested on you. Not your worthiness. Not your willingness. Not your effort. All of it rested on Him. Which means <a href="/devotional-never-gives-up">you can never lose it</a>, because it was never yours to lose."</p>
+
+        <h2>The Verdict</h2>
+
+        <p>The Judge — silent until now — stands. The Judge is Scripture, and Scripture has much to say.</p>
+
+        <p><em>Judge:</em> "The evidence is overwhelming. 'It is God who works in you to will and to act in order to fulfill his good purpose.' Not you. God. And not just your actions — your will itself."</p>
+
+        <p><em>Judge:</em> "But understand what this verdict means. You are <a href="/systematic-justification">declared righteous</a> because another took your guilt. You are declared alive because He rose, and in rising, raised you with Him. And you will not be abandoned. The God who <a href="/question-chosen">chose you before the foundation of the world</a> does not abandon His choices."</p>
+
+        <p>The Witness stands slowly. Something inside has broken open — not in shattering, but in the way a seed breaks open to become a tree.</p>
+
+        <p>The terror of thinking your salvation depends on you is finally, mercifully, over.</p>
+
+        <p>Not because the burden was lifted. Because it was never yours to bear in the first place.</p>
+
+        <p>Now — one last thing. Go back to the beginning. The wood-paneled room. The bolted chair. The light that exposes.</p>
+
+        <p>Were you rooting for the Witness? Did you want them to find the loophole, the escape hatch, the sentence that would let them keep the credit? If you did — if something in you was pulling for the free-will defense to survive — then you know now what that impulse was. It was not love of truth. It was love of authorship. The same impulse that makes every human being prefer the drowning-man story to the <a href="/analogy-drowning-man.html">dead-man story</a>. The same impulse the Prosecutor named in the quiet of that courtroom: <em>you wanted to be the hero.</em></p>
+
+        <p>You are not the hero. You are the verdict. Written in red ink, signed before you were born, by a Judge who loved you enough to end the trial you were losing — and declare you righteous with a righteousness that was never yours to earn.</p>
+
+        <p>That is not theology. That is freedom.</p>
+
+    
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/story-humor-committee-to-save-yourself" class="related-article-card">
+        <span class="related-article-cat">📖 Stories</span>
+        <span class="related-article-title">The Committee to Save Yourself</span>
+        <span class="related-article-desc">A town of drowning people forms a committee to rescue themselves. A satirical story about the absurdity of trying to save yourself — told…</span>
+      </a>
+      <a href="/story-surgeon-stone-heart" class="related-article-card">
+        <span class="related-article-cat">📖 Stories</span>
+        <span class="related-article-title">Can a Stone Heart Choose to Beat? — A Parable About Regeneration</span>
+        <span class="related-article-desc">A surgeon gives a dying patient a new heart without asking permission. The patient wakes up alive — not because he chose a new heart, but…</span>
+      </a>
+      <a href="/devotional-the-first-prayer-after-surrender" class="related-article-card">
+        <span class="related-article-cat">🕯 Devotionals</span>
+        <span class="related-article-title">The First Prayer After Surrender</span>
+        <span class="related-article-desc">When everything you thought was yours has just been handed back to God — what do you pray? A devotional on the shape of prayer after the…</span>
+      </a>
+      <a href="/secular-sociology-human-inability" class="related-article-card">
+        <span class="related-article-cat">🔬 Secular Evidence</span>
+        <span class="related-article-title">Every Social Experiment Confirms What Scripture Already Knew</span>
+        <span class="related-article-desc">Milgram. Asch. The Good Samaritan study. Sociology spent a century proving what Paul said first: the human heart defaults to corruption,…</span>
+      </a>
+      <a href="/compare-calvinism-open-theism" class="related-article-card">
+        <span class="related-article-cat">⚖ Comparisons</span>
+        <span class="related-article-title">Calvinism vs Open Theism — Does God Actually Know the Future?</span>
+        <span class="related-article-desc">Does God know every detail of the future — or is He discovering it alongside you? One view has been held for two millennia. The other…</span>
+      </a>
+      <a href="/systematic-atonement" class="related-article-card">
+        <span class="related-article-cat">📚 Systematic Theology</span>
+        <span class="related-article-title">The Atonement: What Christ&#39;s Death Accomplished</span>
+        <span class="related-article-desc">Did the cross save you, or merely make your salvation possible? Scripture teaches Christ died to actually secure redemption — not to offer…</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+</article>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                    <li><a href="/demolition-hub">Demolition</a></li>
+                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/stories">Stories</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script src="/ux-enhancements.js" defer></script>
+    <script defer src="/reading-time.js"></script>
+    <script defer src="/scripture-niv.js"></script>
+    <script defer src="/scripture-popups.js"></script>
+    <script src="/quote-card.js" defer></script>
+    <script src="/share-bar.js" defer></script>
+</body>
+</html>

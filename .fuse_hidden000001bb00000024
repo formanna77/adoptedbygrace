@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Response to Jerry Walls</title>
+    <meta name="keywords" content="Jerry Walls, Why I Am Not A Calvinist, Hell The Logic of Damnation, Does God Love Everyone, philosophical Arminianism, divine love, libertarian free will, problem of evil Calvinism, response to Walls, philosophy of religion Reformed">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="manifest" href="/manifest.webmanifest">
+
+    <!-- Project Lighthouse: Universal Share-Ready Meta -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#d4a254">
+    <meta name="description" content="When philosophy outranks Scripture, the system that results is beautiful, careful, and quietly inverted. Six moves through the most rigorous philosophical…">
+    <link rel="canonical" href="https://adoptedbygrace.net/response-jerry-walls">
+    <meta property="og:site_name" content="Adopted by Grace">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/response-jerry-walls">
+    <meta property="og:title" content="A Response to Jerry Walls — When Philosophy Outranks Scripture | Adopted by Grace">
+    <meta property="og:description" content="When philosophy outranks Scripture, the system that results is beautiful, careful, and quietly inverted. Six moves through the most rigorous philosophical…">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Adopted by Grace — The biblical case for divine sovereignty">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ForeknownOne">
+    <meta name="twitter:creator" content="@ForeknownOne">
+    <meta name="twitter:title" content="A Response to Jerry Walls — When Philosophy Outranks Scripture | Adopted by Grace">
+    <meta name="twitter:description" content="When philosophy outranks Scripture, the system that results is beautiful, careful, and quietly inverted. Six moves through the most rigorous philosophical…">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <!-- /Project Lighthouse -->
+
+<!-- Project Lighthouse: Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://adoptedbygrace.net/#organization",
+      "name": "Adopted by Grace",
+      "url": "https://adoptedbygrace.net",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://adoptedbygrace.net/og-image.png",
+        "width": 1200,
+        "height": 630
+      },
+      "sameAs": [
+        "https://twitter.com/ForeknownOne",
+        "https://foreknownone.substack.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://adoptedbygrace.net/#website",
+      "url": "https://adoptedbygrace.net",
+      "name": "Adopted by Grace",
+      "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
+      "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "A Response to Jerry Walls — When Philosophy Outranks Scripture",
+  "description": "When philosophy outranks Scripture, the system that results is beautiful, careful, and quietly inverted. Six moves through the most rigorous philosophical…",
+  "image": "https://adoptedbygrace.net/og-image.png",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://adoptedbygrace.net/response-jerry-walls" },
+  "author": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" },
+  "publisher": { "@type": "Organization", "name": "Adopted by Grace", "logo": { "@type": "ImageObject", "url": "https://adoptedbygrace.net/og-image.png" } },
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-04-20",
+  "inLanguage": "en-US"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://adoptedbygrace.net/"
+  },
+  {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "A Response to Jerry Walls — When Philosophy Outranks Scripture",
+    "item": "https://adoptedbygrace.net/response-jerry-walls"
+  }
+]
+}
+</script>
+<!-- /Project Lighthouse Schema -->
+
+    <!-- Project Lighthouse: Performance hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <!-- /Project Lighthouse Performance -->
+</head>
+<body>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <header class="page-hero">
+        <span class="eyebrow">Demolition</span>
+        <h1>A Response to Jerry Walls</h1>
+        <p class="hub-subtitle">When philosophy outranks Scripture, the system that results is beautiful, careful, and quietly inverted. Six moves through the most rigorous philosophical case against Reformed theology — and the confession that closes it.</p>
+            <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
+    </header>
+
+    <article class="article-body">
+
+        <div class="tldr">
+            <strong>In Brief:</strong> Jerry Walls is the most rigorous philosophical Arminian of his generation — a Notre-Dame trained analytic philosopher whose case against Calvinism is built on divine love, modal logic, and a particular philosophy of human freedom. He deserves a careful answer, not a dismissive one. Six moves: (1) the strength of his case — divine love is the central biblical assertion and we will not run from it; (2) the "Does God Love Everyone?" argument — the equivocation hidden in Walls' definition of love; (3) the modal argument and its real cost — what standard is being used to judge God's character "incoherent"; (4) Walls' remarkable public admission — he would rather be in hell with <a href="/question-freewill">libertarian free will</a> than in heaven without it; (5) hell as freely chosen — the Lewis "doors locked from the inside" defense and what it costs to maintain it; (6) the philosophy/theology inversion — when philosophy interprets Scripture instead of Scripture interpreting philosophy. Plus four sincere concessions to what Walls gets right, the pastoral word for those who have read him, and the deepest thing the Reformed would say to him: <em>the very thing your system protects is the very thing Eden lost.</em></div>
+
+        <h2>Why This Page Exists</h2>
+
+        <p>If Leighton Flowers is the popular voice of contemporary Arminianism and Roger Olson is its academic theologian-historian, then Jerry Walls is its <em>philosopher</em>. Trained at Notre Dame under Alvin Plantinga, holding posts at Asbury and Houston Christian University, author of <em>Hell: The Logic of Damnation</em>, <em>Heaven: The Logic of Eternal Joy</em>, <em>Why I Am Not A Calvinist</em> (with Joseph Dongell), and <em>Does God Love Everyone? The Heart of What's Wrong with Calvinism</em>, Walls has spent his entire career building the most philosophically rigorous case ever assembled against Reformed <a href="/systematic-soteriology">soteriology</a>.</p>
+
+        <p>He cannot be dismissed as a popularizer. He cannot be patronized as a theologian who lacks logical precision. His arguments are tight, his categories are clean, his prose is precise. When you read Walls, you are reading a man who has thought about this for forty years and who genuinely believes the Reformed God is <em>not</em> the God of the Bible.</p>
+
+        <p>That last sentence is the one that requires this page. Walls does not merely think Calvinism is wrong about a few exegetical questions. He thinks Calvinism is morally and philosophically bankrupt — that it makes God into a being who is <em>worse than most humans</em> in the relevant sense of love. This is not a small claim. It deserves a serious answer. Souls who have read Walls and been persuaded need to know that the Reformed have heard him, taken him seriously, and have a careful response to every move.</p>
+
+        <p>This page is that response. Six moves through his system. Tribute to what he gets right. And the deepest thing we would say to him if we had one hour at his table.</p>
+
+        <h2>Move 1 — The Strength We Will Not Run From</h2>
+
+        <p>Walls' central conviction is that <em>God loves all people, genuinely, equally, and salvifically</em>. He marshals an impressive battery of texts: <a href="/demolition-1tim2-4">1 Timothy 2:4</a> (God "<a href="/demolition-1tim2-4">wants all people to be saved</a>"), <a href="/demolition-2peter3-9">2 Peter 3:9</a> (God is "<a href="/demolition-2peter3-9">not wanting anyone to perish</a>, but everyone to come to repentance"), <a href="/demolition-ezekiel18-23">Ezekiel 18:23</a> and 33:11 (God takes "no pleasure in the death of the wicked"), <a href="/question-whosoever">John 3:16</a> (God "so loved the world"), <a href="/demolition-matt23-37">Matthew 23:37</a> (Jesus' lament over Jerusalem), and many more. He insists that any theology that reduces these texts to "God loves only some" or "God loves all but with a different kind of love that doesn't actually save anyone" is a theology that has lost the heart of Scripture.</p>
+
+        <p>We must concede the force of this immediately. Divine love <em>is</em> the central biblical assertion. The Reformed who soft-pedal <a href="/question-whosoever">John 3:16</a> or who treat <a href="/demolition-matthew-23-37">Matthew 23:37</a> as a rhetorical flourish are doing exactly what the Arminian accuses them of — they are reading their system into the text instead of letting the text breathe. Walls is right that the love of God is not a peripheral doctrine to be safeguarded by clever exegesis. It is the doctrine that <em>everything else</em> must serve.</p>
+
+        <p>So we will not run from his strongest ground. We will meet him there. We will affirm with him: <a href="/objection-love.html">God loves the world. God takes no pleasure in the death of the wicked. God's compassion is over all His works.</a> All of this is true and gloriously so.</p>
+
+        <p>What we will not concede is that Walls' definition of love is the biblical one.</p>
+
+        <h2>Move 2 — The "Does God Love Everyone?" Argument and the Hidden Equivocation</h2>
+
+        <p>Walls' most influential popular argument runs like this:</p>
+
+        <ol>
+            <li>Scripture teaches God loves all people.</li>
+            <li>Real love wills the highest good of the beloved.</li>
+            <li>The highest good of any person is salvation.</li>
+            <li>Therefore God wills the salvation of all.</li>
+            <li>Calvinism teaches God does <em>not</em> will the salvation of all (some are reprobate).</li>
+            <li>Therefore the Calvinist God does not really love everyone.</li>
+            <li>Therefore the Calvinist God is not the God of the Bible.</li>
+        </ol>
+
+        <p>This is a clean syllogism and many readers find it devastating. But the move from premise (1) to premise (2) hides a critical equivocation. The biblical word for "love" — whether <em>chesed</em> in Hebrew or <em>agape</em> in Greek — does not function as a flat univocal term across all contexts. Scripture itself distinguishes between God's love for all His creatures (the love of providence, common grace, restraint of evil) and God's particular electing love for those He has chosen.</p>
+
+        <p>Walls cannot read past Malachi 1:2-3 or <a href="/question-romans9">Romans 9</a>:13 without dealing with this: <em>"<a href="/question-romans9">Jacob I loved</a>, but <a href="/question-romans9">Esau I hated</a>."</em> Here, in the very text that the Apostle Paul will later quote to ground his argument about election, the Bible itself uses the language of differentiated love. If Walls' premise (2) were true — that real love must will exactly the same highest good for every beloved equally — then Malachi 1:2-3 is incoherent on its face. Either God doesn't love anyone the way Walls defines love, or the Bible itself uses "love" with the kind of nuance Walls' argument forbids.</p>
+
+        <p>The Reformed have always taught that there are at least three distinct loves of God in Scripture, all of them genuine: (a) <em>love of benevolence</em> — the love that creates, sustains, and restrains evil for all (Matthew 5:45 — He sends rain on the just and the unjust); (b) <em>love of compassion</em> — the love that takes no pleasure in the death of the wicked, that sincerely calls all to repent (<a href="/demolition-ezekiel18-23">Ezekiel 18:23</a>, the gospel call); and (c) <em>love of complacency or election</em> — the saving, particular, eternal love that chooses, calls, justifies, and glorifies a people for Himself (<a href="/question-chosen">Ephesians 1:4</a>-5, <a href="/question-john17">John 17</a>:9-10).</p>
+
+        <p>All three are real. None of them is fake. The Reformed are not saying "God's love for the reprobate is a pretend love." They are saying that the love that creates, sustains, and patiently bears with the reprobate is a real love — but it is not the same love that <a href="/devotional-chosen-before-you-were-broken.html">chooses, regenerates, and brings home a people for Himself</a>. To collapse those three loves into one and demand that all three function exactly the same way is not Walls' biblical insight. It is his philosophical commitment imposed onto the text.</p>
+
+        <p>Once you see this equivocation, the syllogism dissolves. God loves everyone in the senses Scripture says He does. God loves the elect with the additional, distinct, salvific love that Scripture also says He does. There is no contradiction. There is only a careful reading of the actual vocabulary.</p>
+
+        <h2>Move 3 — The Modal Argument and What Standard Is Being Used</h2>
+
+        <p>Walls' deepest move — the one beneath the syllogism — is what we might call the <em>modal argument from divine character</em>. It runs roughly: a being who could save everyone but chooses not to is, by the standard of any morally serious account of love, defective. If Calvinism is true, <a href="/objection-why-not-save-everyone">God could save everyone</a> (His grace is irresistible when applied) but He chooses to apply it only to the elect. Therefore the Calvinist God's love is incoherent — He claims to love everyone but withholds the very thing love would necessarily give.</p>
+
+        <p>This argument has bite. It cannot be answered by saying "well, God's ways are higher than our ways" — that would be the very <a href="/objection-fairness.html">appeal-to-mystery move</a> that Walls (rightly) calls out as a dodge. The argument deserves a substantive answer.</p>
+
+        <p>The substantive answer is this: <em>incoherent compared to what standard?</em> Walls is judging the Reformed God by a standard, and the entire force of his argument depends on that standard being correct. What is it?</p>
+
+        <p>The standard is roughly: <em>love must produce the maximum saving good for every beloved person, or it is not really love</em>. This is a moral intuition. Walls believes it strongly. Most modern readers share it. But here is the question: where did that intuition come from, and is it the standard Scripture itself uses to define love?</p>
+
+        <p>If you derive your standard of love from human relationships in a post-Enlightenment, post-Romantic, individualist Western culture, you will arrive at something like Walls' definition. If you derive your standard of love from Scripture itself — from a God who chooses Israel out of all nations not because they were better but because of love (Deuteronomy 7:7-8), who hardens Pharaoh while pitying Israel, who passes by some angels and confirms others, who says <em>"<a href="/ot-jacob-esau">Jacob I loved, Esau I hated</a>"</em>, who closes Esther's text without explaining the providence and opens Job's text with a heavenly wager whose mechanics are never disclosed to Job — then you will arrive at a very different definition.</p>
+
+        <p>Walls' argument requires that human moral intuition about love be the tribunal before which Scripture is tried. The Reformed insist that Scripture is the tribunal before which moral intuition is tried. This is the actual disagreement, and it is not small. Walls is not arguing that the texts mean something other than they appear to mean — he is arguing that they cannot mean what they appear to mean because <em>that</em> meaning would conflict with what we already know about God's character.</p>
+
+        <p>The Reformed reply: we did not get our knowledge of God's character from a prior intuition. We got it from the same Scripture that teaches election. To use one half of the Bible to silence the other half is not exegesis. It is curation. And the curating principle came from somewhere outside Scripture — which means it is the philosopher, not the text, that has the final word in Walls' system.</p>
+
+        <h2>Move 4 — The Confession That Closes the Argument</h2>
+
+        <p>In multiple lectures and interviews over the past decade, Jerry Walls has said something remarkable. We will paraphrase rather than misquote, but the substance is on record in his own words and is consistent across many appearances: <em>he would rather be in hell with <a href="/question-freewill">libertarian free will</a> than in heaven without it.</em></p>
+
+        <p>Pause and feel the weight of that sentence.</p>
+
+        <p>Walls — a brilliant, sincere, rigorous Christian philosopher — has stated publicly that he would prefer eternal conscious torment, separated forever from the love of God, to eternal joy in the unmediated presence of God, <em>if the price of heaven were the surrender of his ability to choose otherwise</em>. He values his autonomy more than the highest good God can give him. He would rather be in the lake of fire as a libertarianly-free agent than at the wedding supper of the Lamb as a being whose will has been confirmed by grace.</p>
+
+        <p>This is not a slip. Walls means it. It is the foundational moral commitment of his entire system. And the Reformed have to say something about it gently and firmly, because this confession is the deepest possible exposure of what is actually at stake in the debate.</p>
+
+        <p>What Walls has named as a virtue — the unconditional sacredness of the autonomous self — is what Genesis 3 names as the Fall. Adam and Eve in the garden were free in the deepest sense: free to obey and free to disobey. The serpent's offer was not the offer of a freedom they did not have. It was the offer of <em>autonomy</em> — the right to be the one who decides what is good and evil, the right to be the one whose choice ranks above God's. <em>"You will be like God."</em> That is the fall, articulated as a value Walls would defend with eternal torment.</p>
+
+        <p>The Reformed answer is not "you should not value freedom." The Reformed answer is: <em>the freedom you are clutching is not the freedom you think it is</em>. The libertarianly-free agent in hell is not free in any meaningful sense — Revelation describes the damned as <a href="/systematic-reprobation.html">cursing God and gnashing teeth and refusing to repent</a>, which is not the picture of a rational chooser surveying options. It is the picture of a will so captured by its own rebellion that it can no longer want what is good. <em>That</em> is what libertarian freedom looks like in eternity, and Walls would call it sacred.</p>
+
+        <p>The Reformed call it the very tragedy from which Christ came to deliver us. <a href="/devotional-the-hands-that-hold-you.html">Real freedom is the freedom of the saint in glory whose will is so transformed that he cannot want anything other than God.</a> Not because his choice was overridden, but because his nature was finally, fully healed. <a href="/theologian-augustine">Augustine</a> called this <em>non posse peccare</em> — not able to sin — and called it the highest freedom, not the lowest.</p>
+
+        <p>Walls' confession reveals the heart of the Arminian system: the human will, even in its fallen state, must remain the inviolable center of the universe. Reformed theology says the human will, even in its glorified state, is not the center — God is — and the joy of the saint is to be moved entirely by Him. These are not two equally Christian intuitions. They are two different gospels.</p>
+
+        <h2>Move 5 — Hell, Locked Doors, and Smuggled <a href="/compare-monergism-synergism">Monergism</a></h2>
+
+        <p>Walls' book <em>Hell: The Logic of Damnation</em> is the most philosophically careful Arminian defense of hell ever written. His central move follows C.S. Lewis: hell is the eternal logical consequence of free choices freely persisted in. The doors of hell, Lewis said, are locked from the inside. God does not <em>send</em> anyone to hell against their will. People send themselves by their unrepentant rejection of grace. Hell is what happens when libertarian freedom is taken seriously into eternity.</p>
+
+        <p>This is genuinely beautiful and there is something to it. We will not pretend it has no traction. But it has costs that Walls' system never quite pays.</p>
+
+        <p>First, the biblical portrait of hell is not the picture of a person who could repent at any time but chooses not to. It is the picture of a chasm fixed (Luke 16:26), of gates shut (Matthew 25:10), of weeping and gnashing of teeth that never resolves into repentance (Revelation 16:9-11 — they curse God and refuse to repent). The damned do not look like people who could turn back if they wanted to. They look like people whose will has been confirmed in its rebellion. That is not Lewis' picture. That is the picture of <em>non posse converti</em> — the inability to convert — which is exactly what the Reformed have always said about confirmed <a href="/question-predestined-to-hell">reprobation</a>.</p>
+
+        <p>Second, Walls' system requires libertarian freedom to persist in heaven too — otherwise the saved would no longer be free in his sense, which would mean heaven is what hell would be: a place of unfree beings. But if the saints in heaven are libertarianly free, then a saint could fall again. The whole tragedy of Eden could repeat. And so Walls is forced into a move that quietly unravels his whole system: the saints in heaven are confirmed by grace in such a way that they cannot fall — but this is exactly what the Reformed have always said about the elect's glorified state. Walls smuggles in <a href="/compare-monergism-synergism">monergism</a> for the saved while denying it for the lost.</p>
+
+        <p>Third, the Lewis "doors locked from inside" picture only works if hell is genuinely escapable. But Scripture portrays hell as <em>not</em> escapable. The chasm is fixed. The gates are shut. The repentance Walls' system requires for escape is precisely what the damned cannot perform — not because God forbids it, but because their nature has been confirmed in its hatred of God. Which is the Reformed picture of <a href="/systematic-hamartiology">total depravity</a> made eternal, not the Arminian picture of perpetual ongoing libertarian choice.</p>
+
+        <p>The "freely chosen" defense of hell is, in the end, a partially Reformed defense wearing Arminian clothes. Walls cannot quite say so, but his picture of the damned is much closer to <a href="/systematic-hamartiology.html">total depravity confirmed in eternity</a> than to "they could repent any moment if they wanted to."</p>
+
+        <h2>Move 6 — When Philosophy Interprets Scripture Instead of Scripture Interpreting Philosophy</h2>
+
+        <p>The deepest critique of Walls' entire project is methodological. Walls is a philosophical theologian, and there is nothing wrong with that — the church has always benefited from rigorous philosophical work. The question is the order of operations. <em>Does Scripture interpret philosophy, or does philosophy interpret Scripture?</em></p>
+
+        <p>For Walls, the order is clear. He begins with philosophical commitments — <a href="/question-freewill">libertarian free will</a> is constitutive of personhood, divine love must be univocal across contexts, hell must be morally intelligible by human moral standards, modal logic about God's character must produce non-paradoxical results — and then he reads Scripture through those commitments. Where Scripture seems to contradict the commitments, the commitments win and the Scripture is reinterpreted. <a href="/question-romans9">Romans 9</a> becomes corporate. Ephesians 1 becomes class-election. John 6's "no one can come" becomes "no one will come without <a href="/demolition-prevenient-grace">prevenient grace</a>." <a href="/question-acts">Acts 13:48</a> becomes "all who disposed themselves to eternal life believed."</p>
+
+        <p>The Reformed move is the opposite. We start with the text, in its plainest grammatical-historical reading. We notice that the text uses certain vocabulary — election (<em>eklego</em>), predestination (<em>proorizo</em>), <a href="/question-foreknowledge">foreknowledge</a> (<em>proginosko</em>), drawing (<em>elko</em>) — in ways that resist the libertarian framework. We notice that Paul anticipates and answers the very objections that Walls raises (<em>"Why does He still find fault? For who resists His will?"</em> <a href="/question-romans9">Romans 9</a>:19) — and Paul's answer is not "you misunderstand my system" but "who are you, O man, to talk back to God?" (<a href="/question-romans9">Romans 9</a>:20). We let the text shape our philosophy. When the philosophy resists, we suspect the philosophy.</p>
+
+        <p>This is why <a href="/romans-9-deep-dive.html">a verse-by-verse walk through Romans 9</a> is the chapter that ends every honest discussion of Walls' system. If the apostle himself anticipated and dismissed Walls' deepest objection, the modern philosopher cannot resurrect it as a fresh insight. Paul has already answered it. Walls knows this. Walls' answer is to corporate-ify the chapter and shift the antecedents of "loved" and "hated" to nations rather than persons. But the antecedents in the text are <em>persons</em>: <a href="/ot-jacob-esau">Jacob and Esau</a> are named, in the womb, before they had done anything good or bad — precisely so that <em>God's purpose in election might stand</em> (<a href="/question-romans9">Romans 9</a>:11). The text refuses the corporate reading on its own terms.</p>
+
+        <p>Walls is a philosopher of the highest caliber working on the wrong side of the order of operations. If you reverse the order — if you let Scripture set the terms of the philosophy rather than the other way around — most of Walls' arguments evaporate. Not because they are stupid. Because they presupposed a framework the text itself rejects.</p>
+
+        <h2>What He Got Right</h2>
+
+        <p>This page would be unjust if it did not pause to honor what Walls has contributed to the conversation. Four things, freely and gladly conceded.</p>
+
+        <p><strong>First — divine love is the central biblical assertion.</strong> Walls is right that any Reformed theology that backgrounds the love of God or treats <a href="/question-whosoever">John 3:16</a> as a rhetorical flourish has lost something irreplaceable. The Reformed who reduce God's love to "He loves the elect, period" without wrestling with the texts that speak of God's love for the world have not done justice to Scripture. Walls has held the church accountable on this, and the Reformed should be grateful.</p>
+
+        <p><strong>Second — the appeal to mystery can be a dodge.</strong> Walls is right that "God's ways are higher than our ways" can be deployed too quickly to silence honest questions. The Reformed have sometimes used mystery as a way to avoid wrestling with the actual textual and logical work. There is a place for genuine mystery — Romans 11:33-36 is genuine doxology, not evasion — but there is also a place for hard answers, and Walls is right that we should give them when we can.</p>
+
+        <p><strong>Third — hell deserves careful treatment.</strong> Walls' work on the philosophy of hell is the most rigorous Christian treatment of the topic written in the last fifty years. Even where we disagree with his Lewis-style construal, we owe him a great debt for refusing to flatten the topic, refusing to abandon classical hell for annihilationism or universalism, and refusing to let pop-Christian sentimentality dominate the discussion. <a href="/anxious-mind-fear-of-hell.html">We have read his work on hell with profit even as we disagree with its philosophical foundation.</a></p>
+
+        <p><strong>Fourth — analytic rigor honored.</strong> Walls has shown that an Arminian can be a serious analytic philosopher, that the Calvinist tradition does not have a monopoly on careful logical work. He has raised the level of the debate. The Reformed who answer him with sloppy syllogisms or with "well, you're just rationalist" deserve the criticism they receive. He has demanded better, and we should rise to the demand.</p>
+
+        <h2>A Pastoral Word to Those Who Have Read Him</h2>
+
+        <p>If you have read Walls — read him carefully, read him with appreciation, perhaps even read him as the voice that finally articulated for you why Reformed theology felt wrong — we want to say this gently. We are not asking you to abandon what you have learned from him about divine love, about taking hell seriously, about refusing to dodge hard questions with easy mystery-appeals. Keep all of that.</p>
+
+        <p>We are asking you to notice the order of operations. Notice when Walls is appealing to Scripture and when he is appealing to a philosophical commitment. Notice that his strongest arguments — the modal argument, the divine-love argument, the "I'd rather be in hell with libertarian freedom" admission — depend on standards that Scripture itself does not endorse. Notice that the texts he must reinterpret are not marginal. They are the <a href="/argument-arminianism-secretly-assumes-calvinism.html">load-bearing beams of New Testament soteriology</a>: <a href="/question-romans9">Romans 9</a>, Ephesians 1, John 6, <a href="/question-acts">Acts 13:48</a>.</p>
+
+        <p>Then ask yourself the question that Walls' confession opens: <em>do I love my autonomy more than I love the God who chose me before the foundation of the world?</em> If you find that you do — if you find that Walls' "I'd rather be in hell with libertarian freedom" has a strange resonance in your own heart — you have located the <a href="/systematic-hamartiology">sin nature</a> with surgical precision. That instinct is not your dignity. It is your fallenness articulating itself as virtue.</p>
+
+        <p>And the cure for it is not to suppress it but to be remade. To find that the will you protected with such ferocity is the very thing that needed to die so that the will God gave back to you <a href="/devotional-in-christ">in Christ</a> — the will whose deepest delight is to be moved by Him — could become finally, irrepressibly, joyfully yours.</p>
+
+        <h2>The Deepest Thing We Would Say to Jerry Walls</h2>
+
+        <p>If we could sit with Jerry Walls for one hour, after we had honored his rigor and acknowledged his contributions and pressed him on the modal argument and the locked-doors defense, we would say one thing. We would say it gently, because he is a brother, and we would say it firmly, because his life's work has been built around defending the opposite.</p>
+
+        <p>We would say: <em>the freedom you are protecting is the freedom Eden lost. The freedom you are afraid of is the freedom heaven restores.</em></p>
+
+        <p>The libertarian autonomy that Walls has defended for forty years is the very thing the serpent offered: <em>"You will be like God, knowing good and evil"</em> — that is, deciding it for yourself, ranking your own choice above God's. That is not the dignity of personhood. That is the architecture of the Fall.</p>
+
+        <p>The freedom of the saint in glory is something else entirely. It is not the freedom to choose against God. It is the freedom of finally, fully, eternally <em>wanting</em> God with the whole heart — the freedom of a will so transformed that the question "could I rebel?" has lost its meaning, the way a healthy body has lost the meaning of "could I crave poison?" <a href="/theologian-augustine">Augustine</a>, Aquinas, Owen, Edwards, and the entire Reformed tradition have called this the highest freedom, and they were right.</p>
+
+        <p>Walls is protecting from God the very thing God came to deliver him from. The autonomy he prizes as virtue is the bondage Christ died to break. The will he insists must remain inviolable is the will that, until it is broken and remade, will spend eternity choosing hell while calling that choice freedom.</p>
+
+        <p>This is the deepest thing we would say. We would say it through tears. Because we ourselves were once where Walls is. Many of us spent years protecting the same autonomy. And we know — we know from the inside — that the only thing that finally moved us was God Himself, breaking the fortress and walking into the rubble, and giving us back a freedom we had never known: the freedom of being eternally His, the freedom of a will that finally, joyfully, irrepressibly wants Him.</p>
+
+        <p>That is the freedom Walls has not yet tasted. We pray he will. And we pray for every reader of Walls who feels the resonance of his confession — that the God who never let any of us go will, in His own time, in His own way, walk into the fortress of your autonomy and gently, irresistibly, lovingly, take the throne. Not by overriding your will, but by giving you a new one. Not by destroying the freedom you treasured, but by replacing it with the freedom you were created for.</p>
+
+        <h2>Keep Going</h2>
+
+        <p>If this page has clarified anything, do not let the clarity be the end. Walls is the philosophical voice of contemporary Arminianism, but the issue beneath his arguments — the relationship between human freedom and divine sovereignty — is the issue every soul wrestles with eventually. The site is built to take you the rest of the way.</p>
+
+        <p>Go from here to <a href="/argument-arminianism-secretly-assumes-calvinism.html">the meta-argument that exposes the Reformed assumptions hidden in every Arminian system</a>, then to <a href="/romans-9-deep-dive.html">the verse-by-verse walk through the chapter that answers Walls' deepest objection in Paul's own words</a>. From there to <a href="/systematic-reprobation.html">the doctrine the Reformed too often duck and that Walls has actually pushed us to articulate better</a>, and then to <a href="/philosophy-phantom-limb-free-will.html">the philosophical answer to the libertarian-freedom intuition Walls has spent his career defending</a>.</p>
+
+        <p>And when the demolition has done its work — when the philosophical fortress has cracked — go to <a href="/devotional-chosen-before-you-were-broken.html">the devotional that catches you in the arms of the God who chose you before the foundation of the world</a>, and then to <a href="/devotional-the-hands-that-hold-you.html">the page that names what real freedom looks like in the hands of the One who will never let you go</a>.</p>
+
+        <p>If you have read Walls and felt persuaded, you have not been talking with strangers. You have been talking with a brilliant brother who is wrong about the most important thing. We honor him by answering him carefully. We love you by not stopping at the answer.</p>
+
+        <blockquote>
+            <p>"Shall not the Judge of all the earth do right?"</p>
+            <cite>GENESIS 18:25</cite>
+        </blockquote>
+
+        <blockquote>
+            <p>"Where were you when I laid the earth's foundation? Tell me, if you understand."</p>
+            <cite>JOB 38:4</cite>
+        </blockquote>
+
+        <blockquote>
+            <p>"But who are you, a human being, to talk back to God? Shall what is formed say to the one who formed it, 'Why did you make me like this?'"</p>
+            <cite>ROMANS 9:20</cite>
+        </blockquote>
+
+    
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/response-andy-stanley" class="related-article-card">
+        <span class="related-article-cat">💬 Responses</span>
+        <span class="related-article-title">A Response to Andy Stanley — When the Seeker-Sensitive Method Becomes the Message</span>
+        <span class="related-article-desc">This is not a take-down. Andy Stanley has shepherded more people through one Sunday service than most pastors will shepherd in a lifetime.…</span>
+      </a>
+      <a href="/response-william-lane-craig" class="related-article-card">
+        <span class="related-article-cat">💬 Responses</span>
+        <span class="related-article-title">A Response to William Lane Craig — Molinism Is Calvinism With Extra Steps</span>
+        <span class="related-article-desc">Molinism is the most sophisticated attempt to rescue libertarian freedom from Reformed sovereignty — and it is an elegant construction…</span>
+      </a>
+      <a href="/demolition-arianism" class="related-article-card">
+        <span class="related-article-cat">💥 Demolition</span>
+        <span class="related-article-title">Arianism — The Ancient Heresy That Tried to Kill Christ&#39;s Deity</span>
+        <span class="related-article-desc">Arius (4th century) taught that Christ was the highest created being — not truly God. The church responded with the Nicene Creed: Christ is…</span>
+      </a>
+      <a href="/philosophy-mirror-you-refuse" class="related-article-card">
+        <span class="related-article-cat">🧭 Philosophy</span>
+        <span class="related-article-title">The Mirror You Refuse to Look In: Why Grace Reveals What We Really Are</span>
+        <span class="related-article-desc">We do not resist God&#39;s sovereignty because it&#39;s intellectually untenable. We resist it because seeing what we truly are is unbearable. And…</span>
+      </a>
+      <a href="/story-the-room-where-you-chose" class="related-article-card">
+        <span class="related-article-cat">📖 Stories</span>
+        <span class="related-article-title">Did You Really Choose God? — A Story About the Illusion of Free Will</span>
+        <span class="related-article-desc">Pull a golden thread back through time, watching how the moment you thought was your choice—when you decided to follow God—was actually…</span>
+      </a>
+      <a href="/history-apostolic" class="related-article-card">
+        <span class="related-article-cat">⏳ Church History</span>
+        <span class="related-article-title">Did the Early Church Believe in Sovereign Grace? (100-300 AD)</span>
+        <span class="related-article-desc">Here is the question that should haunt every Arminian: What did the people who knew the apostles personally believe about salvation? Not…</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+</article>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Truth</h4>
+                <ul>
+                    <li><a href="/best-reads">Best Reads</a></li>
+                    <li><a href="/start-here">Start Here</a></li>
+                    <li><a href="/questions">Questions</a></li>
+                    <li><a href="/systematic-theology">Systematic Theology</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Demolition</h4>
+                <ul>
+                    <li><a href="/demolition-hub">Demolition Briefings</a></li>
+                    <li><a href="/comparisons-hub">Comparisons</a></li>
+                    <li><a href="/philosophy-hub">Philosophy</a></li>
+                    <li><a href="/secular-evidence">Secular Evidence</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Healing</h4>
+                <ul>
+                    <li><a href="/devotionals">Devotionals</a></li>
+                    <li><a href="/pastoral-hub">Pastoral</a></li>
+                    <li><a href="/anxious-mind-hub">The Anxious Mind</a></li>
+                    <li><a href="/open-wound-hub">The Open Wound</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/essays">Essays</a></li>
+                    <li><a href="/theologians">Theologians</a></li>
+                    <li><a href="/history-timeline">History</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script src="/ux-enhancements.js" defer></script>
+    <script defer src="/reading-time.js"></script>
+    <script defer src="/scripture-niv.js"></script>
+    <script defer src="/scripture-popups.js"></script>
+    <script src="/quote-card.js" defer></script>
+    <script src="/share-bar.js" defer></script>
+</body>
+</html>

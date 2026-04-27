@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dead City — A Parable About Sin and Grace</title>
+    <meta name="keywords" content="allegory, total depravity, grace, election, regeneration, effectual calling, Ephesians 2, spiritual death, parable, sovereignty">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="manifest" href="/manifest.webmanifest">
+
+    <!-- Project Lighthouse: Universal Share-Ready Meta -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#d4a254">
+    <meta name="description" content="An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God — and why the Voice that awakens them is the only hope.">
+    <link rel="canonical" href="https://adoptedbygrace.net/story-the-dead-city">
+    <meta property="og:site_name" content="Adopted by Grace">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adoptedbygrace.net/story-the-dead-city">
+    <meta property="og:title" content="The Dead City — A Parable About Sin and Grace | Adopted by Grace">
+    <meta property="og:description" content="An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God — and why the Voice that awakens them is the only hope.">
+    <meta property="og:image" content="https://adoptedbygrace.net/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Adopted by Grace — The biblical case for divine sovereignty">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ForeknownOne">
+    <meta name="twitter:creator" content="@ForeknownOne">
+    <meta name="twitter:title" content="The Dead City — A Parable About Sin and Grace | Adopted by Grace">
+    <meta name="twitter:description" content="An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God — and why the Voice that awakens them is the only hope.">
+    <meta name="twitter:image" content="https://adoptedbygrace.net/og-image.png">
+    <!-- /Project Lighthouse -->
+
+<!-- Project Lighthouse: Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://adoptedbygrace.net/#organization",
+      "name": "Adopted by Grace",
+      "url": "https://adoptedbygrace.net",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://adoptedbygrace.net/og-image.png",
+        "width": 1200,
+        "height": 630
+      },
+      "sameAs": [
+        "https://twitter.com/ForeknownOne",
+        "https://foreknownone.substack.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://adoptedbygrace.net/#website",
+      "url": "https://adoptedbygrace.net",
+      "name": "Adopted by Grace",
+      "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
+      "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Dead City — A Parable About Sin and Grace",
+  "description": "An allegory about spiritual death and regeneration. Why the dead in sin cannot choose God — and why the Voice that awakens them is the only hope.",
+  "image": "https://adoptedbygrace.net/og-image.png",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://adoptedbygrace.net/story-the-dead-city" },
+  "author": { "@type": "Organization", "name": "Adopted by Grace", "url": "https://adoptedbygrace.net" },
+  "publisher": { "@type": "Organization", "name": "Adopted by Grace", "logo": { "@type": "ImageObject", "url": "https://adoptedbygrace.net/og-image.png" } },
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-04-20",
+  "inLanguage": "en-US"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://adoptedbygrace.net/"
+  },
+  {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Stories & Analogies",
+    "item": "https://adoptedbygrace.net/stories"
+  },
+  {
+    "@type": "ListItem",
+    "position": 3,
+    "name": "The Dead City — A Parable About Sin and Grace",
+    "item": "https://adoptedbygrace.net/story-the-dead-city"
+  }
+]
+}
+</script>
+<!-- /Project Lighthouse Schema -->
+
+    <!-- Project Lighthouse: Performance hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <!-- /Project Lighthouse Performance -->
+</head>
+<body>
+
+    <nav role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="/" class="nav-site-name">Adopted by Grace</a>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+            <ul class="nav-links">
+                <li class="mobile-menu-search" style="list-style:none;">
+                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+                </li>
+                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+                <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+                <li class="mobile-nav-link"><a href="/about">About</a></li>
+                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+                <a href="/start-here" class="nav-top-link">Start Here</a>
+                <a href="/questions" class="nav-top-link">Questions</a>
+                <a href="/systematic-theology" class="nav-top-link">Theology</a>
+                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+                <a href="/about" class="nav-top-link">About</a>
+                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    <span class="mega-menu-toggle-label">Explore</span>
+                </button>
+                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="mega-menu" id="megaMenu"></div>
+
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-overlay-inner">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+        </div>
+        <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <header class="page-hero">
+        <span class="eyebrow">Stories, Parables &amp; Analogies</span>
+        <h1>The Dead City</h1>
+        <p class="hub-subtitle">An allegory on <a href="/systematic-regeneration">regeneration</a> and election — where the awakening comes not by choice, but by Voice.</p>
+            <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
+    </header>
+
+    <article class="article-body">
+
+        <p>The city had always been dead. No one knew this because no one had ever been alive.</p>
+
+        <p>It was a city of habit. Morning came, and the people rose in the grey light that felt like sunlight. They moved through routines that felt like choice: a bitter liquid they called coffee, work they called purpose, conversations they called connection. They tasted dust on their tongues and believed it was the taste of living.</p>
+
+        <p>But they were not alive. They were corpses walking, and the city was a grave.</p>
+
+        <p>No one could see color. The sky was grey, the buildings were grey, the faces were grey. A woman stood before a grey mirror and saw grey, and believed this was seeing. Sound, too, was absent, though no one noticed. A child once asked what singing was. The elders had no answer. They formed a committee to investigate, which produced a 200-page report concluding that singing was a myth. The committee was unanimous.</p>
+
+        <p>They could eat, but they tasted nothing. A baker once wondered what her bread might taste like to someone alive. She never finished the thought. To wonder such a thing would be to admit that something was missing. And in a <a href="/question-depravity">dead city</a>, nothing is admitted to be missing.</p>
+
+        <p>This was the arrangement of their world: a city of the dead, pretending to be alive.</p>
+
+        <p>And the dead are excellent pretenders.</p>
+
+        <p>Pause here for a second, because before we go any further, you need to see how thoroughly you have lived in this city. You have built a career that photographs well and tastes like nothing. You have laughed at jokes that were not funny and cried at ads that were engineered to make you cry. You have called a two-hour argument with a stranger online "engagement" and a ten-minute prayer "devotion." You have confused excitement for joy, fatigue for contentment, silence for peace, and agreement for love. You have told yourself the bread tasted good, and when no one was looking, you knew you were lying. This is not an insult. This is a mirror. The grey has been so consistent that you called it "normal," and normal is what the dead call grey when no one has yet shown them gold. You are not a bad pretender. You are a <em>brilliant</em> pretender. And the brilliance is exactly the problem, because the more convincing the performance, the more impossible it is to admit that the actor was a corpse the whole time.</p>
+
+        <h2>The Voice</h2>
+
+        <p>Then, one day, a Voice spoke from beyond the city walls.</p>
+
+        <p>It came from outside, from a place the dead did not know existed. The Voice was not like the noise the dead made to each other. It was alive. It was warm. It carried something the dead had no word for — something that sounded like music, though the city had no music. It sounded like color. Like sweetness. Like belonging. Like home.</p>
+
+        <p>Most of the dead did not hear it. The Voice passed over them like wind passes through a graveyard — present, but unnoticed. They continued their routines. They had not been called, and so they heard nothing.</p>
+
+        <p>But some heard it.</p>
+
+        <p>Not because they were better listeners. Not because they reached out. Not because they chose to hear. The Voice simply spoke to them, and in the speaking, made them able to hear. That was the nature of the Voice — it did not offer a choice to the dead. It simply spoke, and the dead were <a href="/systematic-regeneration">made alive</a>.</p>
+
+        <p>A man named Marcus heard the Voice while he stood in the grey marketplace. The Voice came to him like a command and a gift at once: <em>"Live."</em></p>
+
+        <p>And Marcus gasped.</p>
+
+        <p>His lungs filled with air that was not grey but gold — light, burning, impossible.</p>
+
+        <p>His eyes opened and saw color. Red rushed into them. Gold. Blue. Violet. Green. The sky was not grey — it was endlessly, impossibly blue. The face of the grey merchant became a man with skin like honey and eyes like chestnuts. A woman beside him had hair like autumn fire.</p>
+
+        <p>Marcus wept. He fell to his knees because he saw what he had been — dead, truly dead, moving through a grey existence without knowing it — and what he had become. Living. Awake.</p>
+
+        <p>"Why do you weep?" the dead asked in their flat voices. "Are you broken?"</p>
+
+        <p>"I am alive," Marcus said, and his voice was different now — it had music in it, like wind across water.</p>
+
+        <p>They looked at him as if he had spoken nonsense.</p>
+
+        <h2>The Awakened</h2>
+
+        <p>A girl named Sophia heard the Voice while she worked at the grey loom. <em>"Come alive."</em> And she heard, for the first time in her life, music. It came from everywhere at once — from the loom, from the earth, from the air itself. She brought the cloth to her face and it was soft, softer than anything she had ever known. She wept like Marcus had wept.</p>
+
+        <p>Around her, the dead said nothing. They returned to their looms. Sophia could not join them, even if she tried. The Voice had <a href="/question-irresistible">chosen her</a>. The call was effectual — it did not merely invite her to life. It <em>made</em> her alive. And the alive cannot return to being dead.</p>
+
+        <p>More heard the Voice. A mother. A father. Children. To each one the Voice said the same thing: <em>"Live." "Awake." "See." "Hear." "Taste."</em> And every time the Voice spoke, the dead were made alive. There were no exceptions. The Voice spoke, and life followed, as surely as the sun follows the morning.</p>
+
+        <p>The dead looked upon the awakened and were troubled. Some thought them mad. Some thought them privileged, and demanded to know why they had been <a href="/systematic-election">chosen</a> while others remained sane, remained grey, remained dead.</p>
+
+        <p>Marcus and Sophia found each other. When their eyes met, they both wept again, because they could see each other truly — not as grey forms, but as they actually were. Alive. Burning with the reality of existing.</p>
+
+        <p>"When did this happen to you?" Sophia asked.</p>
+
+        <p>"At the marketplace. The Voice spoke, and I had no choice. The choice was taken from me — but not to my loss. When the Voice spoke, I was <a href="/question-chosen">chosen</a>. And once chosen, I cannot return to being dead. And I will not try, because I have tasted sweetness, and the sweetness is real."</p>
+
+        <h2>The Question at the City's Edge</h2>
+
+        <p>One evening, Marcus stood at the city's edge, looking out toward the place from which the Voice came. A dead man approached him. Grey and hollow, like all the dead — but with something in his eyes. A question, unformed and perhaps unformable.</p>
+
+        <p>"Are you truly alive?"</p>
+
+        <p>"Yes."</p>
+
+        <p>"Can I become alive?"</p>
+
+        <p>Marcus wanted to say yes. He wanted to reach out and pull the man into life. But he could not. Marcus had not given himself his awakening. The Voice had.</p>
+
+        <p>"You cannot wake yourself," Marcus said gently. "But the Voice can wake you. The Voice is speaking still. Listen."</p>
+
+        <p>The dead man listened, but heard nothing.</p>
+
+        <p>Have you ever tried to generate your own faith? How did that go?</p>
+
+        <p>He returned to his grey home. And Marcus stood at the edge of the city, his heart aching — because some would remain dead, not because the Voice lacked power, but because the Voice had not called them.</p>
+
+        <p>But the Voice was still speaking. And would speak until its purpose was fulfilled — until every last one it had chosen was awakened, alive, and singing color into existence in a city that had been dead for so long it forgot how to dream of light.</p>
+
+        <h2>The Truth Behind the Story</h2>
+
+        <p>The Dead City is <a href="/systematic-hamartiology">total depravity</a> — humanity in its natural state, unable to perceive spiritual reality, calling dust "nourishment" and grey "beauty." The absence of color, music, and taste is the absence of spiritual life. The dead do not know they are dead (<a href="/question-dead-in-sin-meaning">Ephesians 2:1-5</a>).</p>
+
+        <p>The Voice is <a href="/question-irresistible">effectual grace</a>. It comes from outside — not generated from within the city, not a response to anything the dead have done. It does not offer a choice to corpses. It commands them to live, and in the commanding, <a href="/analogy-doctor-corpse">creates the very life it demands</a>. "Very truly I tell you, a time is coming and has now come when the dead will hear the voice of the Son of God and those who hear will live" (John 5:25).</p>
+
+        <p>Not everyone hears — not because some are better listeners, but because the Voice chooses whom to awaken. This is <a href="/systematic-election">unconditional election</a>. "<a href="/question-romans9">It does not depend on human desire or effort, but on God's mercy</a>" (<a href="/question-romans9">Romans 9</a>:16). The awakened cannot return to death. This is <a href="/question-john10">perseverance</a> — "I give them eternal life, and they will never perish; <a href="/question-john10">no one will snatch them</a> out of my hand" (<a href="/question-john10">John 10:28</a>).</p>
+
+        <p>And the weeping of Marcus and Sophia? That is repentance. Not effort. Clarity — seeing what you were and what grace has made you. The tears of someone who finally understands they were <a href="/question-depravity">dead</a> and did not know it, and <a href="/systematic-regeneration">alive</a> by no merit of their own.</p>
+
+        <blockquote>
+            <p>"And those he predestined, he also called; those he called, he also justified; those he justified, he also glorified."</p>
+            <cite>ROMANS 8:30</cite>
+        </blockquote>
+
+        <p>If you read this and wondered whether you are among the awakened or still sleeping — if you felt unsettled or defensive — know this: the fact that you are here, wrestling with these questions, is itself evidence that something has been stirring in you. The Spirit does not leave His own in darkness. If you sense you are being called, that sense <em>is</em> the call. The Voice that awakens will <a href="/devotional-never-gives-up">never let you go</a>.</p>
+
+        <h2>A Final Picture</h2>
+
+        <p>Go back to the grey streets. Stand there in the city of the dead one last time. The ashen light is still the same. The buildings are still the color of nothing. The people are still mouthing dust and calling it bread.</p>
+
+        <p>But listen.</p>
+
+        <p>Under the wind, under the grinding of dead feet on dead stone, under the polite nothing of a city that has convinced itself it is fine — there is a Voice. It has been speaking the whole time. It was speaking before you opened this page. It was speaking before you were born.</p>
+
+        <p>And if — reading these words — your chest has ached, or your eyes have stung, or some small unfamiliar green thing has pushed its way up through the grey ground of your heart, then the speaking is no longer only in the city. It is in you. That ache is the Voice arriving at the door of a man who could never have opened it from the inside.</p>
+
+        <p>Do not try to earn the awakening. Do not try to manufacture the tears. Just kneel down in the grey street and listen. The One who spoke light into nothing is speaking color into you. And He is not going to stop until the city inside your chest is shining.</p>
+
+    
+<!-- RELATED-ARTICLES-START -->
+<section class="related-articles" aria-label="Related articles">
+  <div class="related-articles-inner">
+    <h2 class="related-articles-heading">Keep Exploring</h2>
+    <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
+    <div class="related-articles-grid">
+      <a href="/story-humor-committee-to-save-yourself" class="related-article-card">
+        <span class="related-article-cat">📖 Stories</span>
+        <span class="related-article-title">The Committee to Save Yourself</span>
+        <span class="related-article-desc">A town of drowning people forms a committee to rescue themselves. A satirical story about the absurdity of trying to save yourself — told…</span>
+      </a>
+      <a href="/story-the-room-where-you-chose" class="related-article-card">
+        <span class="related-article-cat">📖 Stories</span>
+        <span class="related-article-title">Did You Really Choose God? — A Story About the Illusion of Free Will</span>
+        <span class="related-article-desc">Pull a golden thread back through time, watching how the moment you thought was your choice—when you decided to follow God—was actually…</span>
+      </a>
+      <a href="/devotional-the-god-who-wastes-nothing" class="related-article-card">
+        <span class="related-article-cat">🕯 Devotionals</span>
+        <span class="related-article-title">The God Who Wastes Nothing — When Your Suffering Has a Sovereign Purpose</span>
+        <span class="related-article-desc">The pain you carry was not an accident. The God who numbered the hairs on your head numbered the tears on your face. A devotional on…</span>
+      </a>
+      <a href="/shattered-lens-bible-doesnt-make-sense" class="related-article-card">
+        <span class="related-article-cat">🔍 Shattered Lens</span>
+        <span class="related-article-title">When the Bible Stopped Making Sense</span>
+        <span class="related-article-desc">You used to open Scripture and feel it breathe. Now it reads like a foreign document full of problems. That collapse may be the most…</span>
+      </a>
+      <a href="/question-what-does-chosen-mean" class="related-article-card">
+        <span class="related-article-cat">❓ Questions</span>
+        <span class="related-article-title">What Does &quot;Chosen&quot; Actually Mean in the Bible? — Ephesians 1:4 Explained</span>
+        <span class="related-article-desc">&quot;Chose.&quot; The word is short, familiar, and devastating. Paul says it happened before creation existed. He says God did it. He says it was…</span>
+      </a>
+      <a href="/compare-calvinism-open-theism" class="related-article-card">
+        <span class="related-article-cat">⚖ Comparisons</span>
+        <span class="related-article-title">Calvinism vs Open Theism — Does God Actually Know the Future?</span>
+        <span class="related-article-desc">Does God know every detail of the future — or is He discovering it alongside you? One view has been held for two millennia. The other…</span>
+      </a>
+    </div>
+    <div class="related-articles-browse">
+      <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
+      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+    </div>
+  </div>
+</section>
+<!-- RELATED-ARTICLES-END -->
+</article>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-nav">
+                <div class="footer-column">
+                    <h4>Truth</h4>
+                    <ul>
+                        <li><a href="/systematic-theology.html">Systematic Theology</a></li>
+                        <li><a href="/questions.html">Questions</a></li>
+                        <li><a href="/theologians.html">Theologians</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="/stories.html">Stories &amp; Analogies</a></li>
+                        <li><a href="/devotionals.html">Rest in Grace</a></li>
+                        <li><a href="/history-timeline.html">History</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Discover</h4>
+                    <ul>
+                        <li><a href="/start-here.html">Start Here</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/best-reads.html">Best Reads</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-grace-warning">
+            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+            Grace is not a license to sin. It is the power that frees us from sin's dominion.
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/nav.js"></script>
+    <script src="/ux-enhancements.js" defer></script>
+    <script defer src="/reading-time.js"></script>
+    <script defer src="/scripture-niv.js"></script>
+    <script defer src="/scripture-popups.js"></script>
+    <script src="/quote-card.js" defer></script>
+    <script src="/share-bar.js" defer></script>
+</body>
+</html>
