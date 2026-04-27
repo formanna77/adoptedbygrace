@@ -1647,7 +1647,7 @@
         if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
             e.preventDefault();
             // On mobile, open the hamburger menu with search focused
-            if (window.innerWidth < 969) {
+            if (window.innerWidth < 1181) {
                 if (mobileSearchToggle) mobileSearchToggle.click();
             } else {
                 openSearch();
@@ -1672,7 +1672,7 @@
 
     // === CLOSE MENUS ON RESIZE TO DESKTOP ===
     window.addEventListener('resize', function () {
-        if (window.innerWidth >= 969 && navLinks && navLinks.classList.contains('open')) {
+        if (window.innerWidth >= 1181 && navLinks && navLinks.classList.contains('open')) {
             navLinks.classList.remove('open');
             if (hamburger) {
                 hamburger.classList.remove('active');
@@ -1685,7 +1685,7 @@
             showMobileMenuContent(true);
         }
         // Close mega-menu if resized to mobile
-        if (window.innerWidth < 969) {
+        if (window.innerWidth < 1181) {
             closeMegaMenu();
         }
     });
