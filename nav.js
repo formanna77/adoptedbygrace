@@ -678,7 +678,7 @@
                         { name: 'Why Do Bad Things Happen?', href: '/open-wound-hospital-room', desc: 'The hospital room is quiet. The machines beep. Someone you love is behind that curtain, or maybe it\'s you. And the ques' },
                         { name: 'Why You Can Sleep When Everything Is Falling Apart', href: '/anxious-mind-sovereignty-of-sleep', desc: 'Sovereignty is the pillow your head has been looking for. What insomnia reveals about what you actually believe about co' },
                         { name: 'You Are Not a Self-Made Anything', href: '/broken-mirror-not-self-made', desc: 'It\'s actually crushing. The Myth of the Self-Made The self-made person is America\'s favorite fiction. Every success st' },
-                        { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'Anxiety is the emotional price of believing the outcome depends on you. The same lie that fuels your 3am spiral fuels ev' },
+                        { name: 'You Were Never Meant to Carry This', href: '/anxious-mind-never-meant-to-carry', desc: 'Anxiety is the emotional price of believing the outcome depends on you. The same lie that fuels your late-hour spiral fu' },
                         { name: 'You Were Not an Accident — You Were Created for Mercy', href: '/broken-mirror-vessels-for-mercy', desc: 'Romans 9 :23 doesn\'t say you received mercy — it says you were created for mercy. The Greek word proētoimasen means "pr' },
                         { name: 'Your Brain Decides Before You Do — And That\'s Good News', href: '/anxious-mind-brain-decides', desc: 'Neuroscience proves your brain decides before consciousness catches up. The secular mind panics — but Scripture already ' }
                     ]
