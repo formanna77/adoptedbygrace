@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-04-28T06:26:20.202Z",
+  "generated": "2026-04-28T06:56:54.412Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 502,
-    "total_redundancy_pairs_flagged": 16,
-    "total_sentences_flagged": 729,
+    "total_redundancy_pairs_flagged": 13,
+    "total_sentences_flagged": 734,
     "total_redundancy_pairs_suppressed": 19,
     "total_sentences_suppressed": 101,
-    "articles_with_redundancy": 15,
+    "articles_with_redundancy": 13,
     "articles_with_flagged_sentences": 324,
-    "articles_clean": 170,
+    "articles_clean": 171,
     "suppression_by_class": {
       "scripture-tsunami": 10,
       "pedagogical-anaphora": 2,
@@ -81,6 +81,15 @@
       "paragraphs": 26,
       "redundancy_count": 0,
       "flagged_sentence_count": 7,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "question-predestined-to-hell.html",
+      "score": 6,
+      "paragraphs": 45,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
     },
@@ -211,15 +220,6 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "question-predestined-to-hell.html",
-      "score": 5,
-      "paragraphs": 45,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 5,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "question-revelation13.html",
       "score": 5,
       "paragraphs": 30,
@@ -310,15 +310,6 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "demolition-acts17-30.html",
-      "score": 4,
-      "paragraphs": 35,
-      "redundancy_count": 2,
-      "flagged_sentence_count": 0,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "devotional-forever-loved.html",
       "score": 4,
       "paragraphs": 35,
@@ -333,15 +324,6 @@
       "paragraphs": 37,
       "redundancy_count": 0,
       "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "history-every-revival-sovereign-grace.html",
-      "score": 4,
-      "paragraphs": 24,
-      "redundancy_count": 1,
-      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
     },
@@ -724,6 +706,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "ot-abraham.html",
+      "score": 3,
+      "paragraphs": 27,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
+    },
+    {
       "file": "pastoral-when-truth-lands.html",
       "score": 3,
       "paragraphs": 26,
@@ -740,6 +731,15 @@
       "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
+    },
+    {
+      "file": "psychology-why-we-resist.html",
+      "score": 3,
+      "paragraphs": 91,
+      "redundancy_count": 1,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
     }
   ],
   "articles": [
@@ -2734,30 +2734,15 @@
     {
       "file": "demolition-acts17-30.html",
       "paragraphs": 35,
-      "redundancy_pairs": [
-        {
-          "paragraph_a": 14,
-          "paragraph_b": 15,
-          "similarity": 0.43,
-          "a_preview": "\"From one man he made all the nations, that they should inhabit the whole earth; and he marked out their appoi",
-          "b_preview": "God made the nations. God marked out their appointed times. God determined the boundaries of their lands. God "
-        },
-        {
-          "paragraph_a": 15,
-          "paragraph_b": 25,
-          "similarity": 0.36,
-          "a_preview": "God made the nations. God marked out their appointed times. God determined the boundaries of their lands. God ",
-          "b_preview": "Read Acts 17:24-30 as a whole and count the sovereign acts: God made the world. God gives all people life and "
-        }
-      ],
+      "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
-      "redundancy_count": 2,
+      "redundancy_count": 0,
       "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 4
+      "score": 0
     },
     {
       "file": "demolition-acts2-21.html",
@@ -4493,6 +4478,14 @@
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
+          "paragraph": 3,
+          "sentence_index": 4,
+          "flags": [
+            "padding-modifier:in the silence"
+          ],
+          "preview": "Because where  —  with your back against the cabinet, in the silence  —  did the reaching come from?"
+        },
+        {
           "paragraph": 20,
           "sentence_index": 3,
           "flags": [
@@ -4504,10 +4497,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 2
     },
     {
       "file": "devotional-the-quiet-after-the-storm.html",
@@ -4578,7 +4571,7 @@
         },
         {
           "paragraph": 33,
-          "sentence_index": 5,
+          "sentence_index": 4,
           "flags": [
             "padding-modifier:in the dark"
           ],
@@ -5304,16 +5297,16 @@
     {
       "file": "history-every-revival-sovereign-grace.html",
       "paragraphs": 24,
-      "redundancy_pairs": [
-        {
-          "paragraph_a": 11,
-          "paragraph_b": 19,
-          "similarity": 0.48,
-          "a_preview": "The theology of election has a 2,000-year track record of producing genuine revival. The theology of human cho",
-          "b_preview": "If God wanted to teach the church which theology actually saves people — which theology has His power and His "
-        }
-      ],
+      "redundancy_pairs": [],
       "flagged_sentences": [
+        {
+          "paragraph": 11,
+          "sentence_index": 0,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "Two thousand years of revival history have left a single sentence on the record: when the church preaches the absolute sovereignty of God in salvation, the Spirit moves through the streets like wind t"
+        },
         {
           "paragraph": 20,
           "sentence_index": 0,
@@ -5321,23 +5314,15 @@
             "long:52w"
           ],
           "preview": "Every great revival points to the same conclusion: salvation is entirely of grace, election is the only ground of assurance , the human will is so enslaved to sin that only an irresistible God can awa"
-        },
-        {
-          "paragraph": 22,
-          "sentence_index": 0,
-          "flags": [
-            "long:46w"
-          ],
-          "preview": "And somewhere tonight  —  in a dorm room in Nairobi, in a flat in Seoul, in a suburb outside São Paulo where the fluorescent kitchen light is the only thing on at 1 a.m.  —  someone is reading their B"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
-      "redundancy_count": 1,
+      "redundancy_count": 0,
       "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 4
+      "score": 2
     },
     {
       "file": "history-golden-thread.html",
@@ -6910,6 +6895,14 @@
           "preview": "Just a voice in the dark, and an idol-worshiper who obeyed."
         },
         {
+          "paragraph": 22,
+          "sentence_index": 3,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "You know how fragile your faith feels in the dark."
+        },
+        {
           "paragraph": 26,
           "sentence_index": 5,
           "flags": [
@@ -6931,10 +6924,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 2
+      "score": 3
     },
     {
       "file": "ot-david.html",
@@ -7360,15 +7353,23 @@
             "long:46w"
           ],
           "preview": "But if God is sovereign over the human heart  —  if He can take out the heart of stone and give a heart of flesh ( Ezekiel 36:26 )  —  then your prayers for the lost are grounded in a God who can actu"
+        },
+        {
+          "paragraph": 43,
+          "sentence_index": 3,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "He has ordained that your voice, your tears, your halting words spoken in the dark would be woven into the fabric of His eternal plan."
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 2
     },
     {
       "file": "pastoral-suffering.html",
@@ -7377,7 +7378,7 @@
       "flagged_sentences": [
         {
           "paragraph": 1,
-          "sentence_index": 6,
+          "sentence_index": 5,
           "flags": [
             "long:54w"
           ],
@@ -9742,15 +9743,23 @@
             "padding-modifier:in the dark"
           ],
           "preview": "So hear this in the dark."
+        },
+        {
+          "paragraph": 42,
+          "sentence_index": 2,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "But because it has been answered, and the Answer is already in bed with you holding you like a Father holds a frightened child in the dark, whispering the one sentence that will finally let you sleep:"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 5,
+      "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 5
+      "score": 6
     },
     {
       "file": "question-proverbs-sovereignty.html",
@@ -11302,7 +11311,7 @@
           "paragraph": 4,
           "sentence_index": 1,
           "flags": [
-            "long:64w"
+            "long:65w"
           ],
           "preview": "If you cannot save yourself from a substance  —  if a clear liquid in a brown bottle can override your love for your children, your fear of jail, your last shred of dignity, your sworn promise to your"
         },
@@ -12418,6 +12427,14 @@
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
+          "paragraph": 8,
+          "sentence_index": 3,
+          "flags": [
+            "padding-modifier:into the dark"
+          ],
+          "preview": "Every prayer you would whisper into the dark."
+        },
+        {
           "paragraph": 36,
           "sentence_index": 2,
           "flags": [
@@ -12429,10 +12446,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 2
     },
     {
       "file": "story-thought-the-machine-that-asked-why.html",

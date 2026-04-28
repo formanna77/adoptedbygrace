@@ -478,4 +478,86 @@ Build accordingly.
 
 ---
 
+## XIII. THE DEPRAVITY CONCRETE-UNPACKING MANDATE (Aaron, 2026-04-28)
+
+**The slogan is not the diagnosis.** "Dead in sin" is a phrase the modern Christian has heard so often that it slides past the body like a tract slipped under a hotel door. We have been told *dead* and we have nodded and we have walked away whole. The phrase has stopped doing its work because the explanation has stopped doing the phrase's work for it.
+
+This site exists, in part, to undo that anesthesia. Phase 1 (the linchpin section of CLAUDE.md): "If a reader truly sees they are dead in sin... they will need unconditional election, definite atonement, irresistible grace, and perseverance of their own accord, because nothing less could have saved them." Aaron's directive 2026-04-28 sharpens this: **the seeing has to be specific, sensory, and self-recognizing — or the reader has not seen anything yet.**
+
+### XIII.1 — The Slogan-Trap and How to Avoid It
+
+Two formulations have begun to repeat across the site like worn coins:
+
+- *"Not sick. Not wounded. Not struggling. Dead."*
+- *"Dead men don't make decisions."*
+
+These were apex prose the first three times they appeared. By the twentieth occurrence they have become a tic — a stamp the writer presses onto the page in lieu of doing the work of unpacking. **They are now banned moves on this site, just as the 2am-framing and crisis-triage framing are banned.** A page that uses them without immediate concrete unpacking is not finished prose; it is a slogan.
+
+If a page must invoke the contrast between *sick / wounded / struggling / dead*, the contrast must be staged differently each time — different angle, different image, different rhetorical move. The diagnosis-grade word *dead* must be followed, every time, with the kind of sensory unpacking that makes the reader feel the corpse in their own chest.
+
+### XIII.2 — The Million-Different-Ways Mandate
+
+Aaron's directive is not a metaphor. The site must prove total depravity from *as many distinct angles as the human imagination can produce*, because different readers are reached through different doors. The list of angles already in play on the site (from which to draw, and which to expand):
+
+- **The unprompted-prayer test.** When was the last time the desire to pray rose in you the way hunger rises in a healthy body — uncoerced, unscheduled, unbargained-for? If almost never, what does that report?
+- **The flesh-vs.-Bible test.** Where does your body go when no one is watching? The phone. The fridge. The complaint. The replay of the offense. Try, right now, to want the Word with the same intensity. Notice the resistance. The resistance is the diagnosis.
+- **The infant-sin test.** A two-year-old has not yet been corrupted by culture, peer pressure, or trauma. And yet the two-year-old lies, hits, hoards, and screams "MINE" the first day it has the vocabulary. The depravity is not learned; it is inherited.
+- **The sleep-test.** Why is sleep the only state in which the soul is not at war with itself? Because sleep silences the will. Wake the will and the war resumes. That war is the report.
+- **The good-day test.** Even on your best day — patience held, prayer prayed, kindness extended — the underlying motivation, if you trace it honestly, was usually self-image management. Even the *good* you do is filtered through the self-aggrandizement reflex. The reflex is the disease.
+- **The honesty-with-yourself test.** Watch the next thirty seconds of your interior monologue. Notice how much of it is comparison, grievance, fantasy, or self-justification. None of it is "Holy is the Lord." That ratio is not a discipline problem. It is a nature problem.
+- **The Romans 7 test.** "What I want to do, I do not do; what I do not want to do, I do." Paul is not describing a struggling Christian. He is describing the universal experience of fallen consciousness — even after regeneration. If even *Paul* could not motivate his own holiness, what evidence have you that you can motivate yours?
+- **The honesty-about-worship test.** When was the last time you genuinely *enjoyed* corporate worship — not performed enjoyment, not endured it, not appreciated the music — but felt your soul lifted toward God the way a child runs toward a parent at the end of the school day? If almost never: that is not a worship-leader problem. That is a diagnostic.
+- **The neuroscience angle.** The default mode network of the brain — what runs when you are not consciously thinking — is overwhelmingly self-referential. The brain returns, by default, to the self. Holiness requires overriding the default. The default is the report.
+- **The philosophy angle.** Free will requires a will that is sovereign over its own preferences. But every preference you have was caused — by genes, environment, prior choices, brain chemistry, and the fall. The will that "freely chooses God" cannot exist in a fallen body, because the body is upstream of the will and the body is dead.
+- **The Lazarus angle.** Lazarus did not contribute to his own resurrection. He did not consent. He did not lean toward life. He was *dead* — meaning the entire decision-making apparatus had ceased to function. And yet he came forth. What does that say about the salvation of every reader of these words?
+- **The two-volitions angle.** Augustine's *On the Spirit and the Letter*: the will is not free to do what it does not love. The will is free to choose among options it desires; but it is not free to desire what it does not already love. And the natural man does not love God. He cannot will what he does not love. He cannot love what is foreign to his nature. He needs a new nature. That is regeneration.
+
+Every page that proves total depravity should pick **one or two** angles from this list (or a new one) and stage them concretely. **The same angle, used twice in the same article, is filler. The same angle, used across many articles in identical phrasing, is the slogan-trap.** If you reach for the *Not sick / Not wounded / Not struggling / Dead* formulation, stop. Pick a different angle. The work is to keep proving the same truth from a *new direction* until every reader has met the door their interior life is built to open.
+
+### XIII.3 — The Concrete-Unpacking Rule
+
+When a page invokes "dead in sin," it must, within the same passage, give the reader at least one concrete experiential mirror — a specific thing the reader does or does not do that demonstrates the diagnosis. Abstract restatement is not unpacking. *"Cannot see, cannot want, cannot conceive"* is not unpacking; it is restatement in slightly different words. **Unpacking** means: the reader looks up from the page and recognizes the corpse in their own day.
+
+The masterpiece example, drawn from `start-here-phase1.html` (rewritten 2026-04-28 under this mandate):
+
+> *Run a small test on yourself. When was the last time you spontaneously wanted to pray? Not when you were afraid. Not when you wanted something. Not when guilt drove you to your knees because you had been ignoring Him for a week. The last time the desire to commune with the living God of the universe rose unprompted in you — the way hunger rises in a healthy body around mealtime, with no committee meeting required — when was that?*
+
+Notice what makes it work: a specific behavioral test, with rule-out conditions ("not when you were afraid... not when you wanted something..."), that the reader cannot fake an answer to. The reader's own *almost never* is the diagnosis. No theology has had to be argued. The corpse has revealed itself.
+
+Every depravity passage on the site, going forward, should stage a similar mirror. The bench of mirrors above (XIII.2) is the inventory; new mirrors should be added to the bench whenever a writer finds one that lands.
+
+---
+
+## XIV. THE FIVE-POINT PROLIFERATION MANDATE (Aaron, 2026-04-28)
+
+Total depravity is the linchpin. But the linchpin is not the cathedral. **The other four points need just as much defense, from just as many angles, because different readers are reached through different doors.** A reader convinced of total depravity but not yet steady on unconditional election may still find a way to make himself the deciding vote. A reader who accepts unconditional election but doubts definite atonement will preach a vague Christ. A reader who concedes irresistible grace but hesitates on perseverance will spend his life white-knuckling. The site that proves only depravity has built a foundation; the site that proves all five has built the cathedral.
+
+### XIV.1 — The Inventory by Point
+
+The five points and the angles each one needs to be proven from:
+
+**Unconditional Election** — proven from Scripture (Romans 9 in depth, Ephesians 1, John 6, John 17, John 15:16, John 10), philosophy (the regress of merit, Munchhausen-trilemma, the impossibility of self-causation), psychology (why the human mind insists on contributing to its own rescue, the autonomy reflex), history (Augustine vs. Pelagius, the Synod of Orange, Dort, Westminster), neuroscience (decision-making is brain-state-dependent), and testimony (every conversion testimony, traced backward, ends in a hand the convert did not see).
+
+**Definite Atonement** (the contested one — handle with extra care, *not* with reduced clarity). Prove from the Greek of Matthew 1:21 (*sōsei ton laon autou apo tōn hamartiōn autōn* — "He shall save His people from their sins" — definite scope), John 10:11/15 (*tithēsi tēn psychēn hyper tōn probatōn* — "lays down His life for the sheep" — definite scope), John 17:9/19/24 (the high-priestly prayer's repeated *not for the world but for those You have given me*), the High Priest's logic (Hebrews 7:25, the priest cannot represent those whose names are not on his shoulders), and the philosophy of substitutionary atonement (a substitute satisfies a debt; the debt is either paid or not paid; there is no atonement that "could have" saved). Distinguish from hyper-Calvinism: God's *desire* for the salvation of all (1 Tim 2:4, 2 Pet 3:9) is real; His *intent* in the cross is for the elect.
+
+**Irresistible Grace** — proven from Ezekiel 36:26 (*new heart and a new spirit I will give*), John 6:37/44/65 (the Father gives, draws, grants — the verb is sovereign every time), Acts 16:14 (the Lord *opened her heart*), Philippians 2:13 (the willing and the working both), Lydia and Saul as case studies, the Calvinist-Arminian asymmetry (Arminian "prevenient grace" still requires the autonomous tipping-vote — irresistible grace removes the tipping-vote and gives the new nature instead).
+
+**Perseverance of the Saints** — proven from Romans 8:29-30 (the unbroken chain), John 10:28-29 (the double grip), Philippians 1:6 (He who began the work will complete it), 1 Peter 1:5 (kept by the power of God), Jude 24 (able to keep you from stumbling), the doctrine of seal-and-deposit (Ephesians 1:13-14, 4:30, 2 Cor 1:22), the experiential register (the believer's struggle is not evidence against perseverance but evidence for the indwelling Spirit's holy unrest).
+
+**Total Depravity** — already proven from many angles (see XIII.2 above). Continue expanding.
+
+### XIV.2 — The Coverage Audit
+
+Every Phase G session (or every Phase F session that has slack capacity) should audit the site's coverage of each point. The disposition is intentionally lopsided right now: total depravity is the linchpin and rightly carries the load. But the other four points need *more*. New articles, more angles, more proofs from different disciplines, more analogies, more stories, more testimonies. Different readers respond to different angles — some are convicted by Greek, some by neuroscience, some by Lewis, some by a story their own life mirrors.
+
+**The site is not built when only one point is fully proven from a million angles. The site is built when each point is.**
+
+### XIV.3 — The Cross-Linking Discipline
+
+Articles proving one point should link, where the prose admits it, to articles proving the others. The five points are not five doctrines. They are five facets of one diamond. A reader convicted of depravity must encounter election; a reader convicted of election must encounter definite atonement; and so on. The hyperlinking mandate from §IX serves this: every page is a doorway to every other.
+
+---
+
 *VOICE.md v1.0 — forged 2026-04-21 from deep-read synthesis of the site's most lethal pages: devotional-never-gives-up, question-faithgift, question-depravity, question-where-did-your-faith-come-from, devotional-chosen-before-you-were-broken, philosophy-phantom-limb-free-will, philosophy-problem-of-merit, philosophy-mirror-you-refuse, devotional-the-hands-that-hold-you, devotional-rescued-without-a-say, and story-tender-the-letter-already-written.*
+
+*VOICE.md v1.1 — sections XIII (Depravity Concrete-Unpacking Mandate) and XIV (Five-Point Proliferation Mandate) appended 2026-04-28 on Aaron's directive: "this article doesn't even explain what being 'dead' means... we have to explain it a million different ways... i want all of the 5 points proven and proliferated through the site not just Total depravity."*
