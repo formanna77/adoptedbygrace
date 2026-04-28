@@ -1,0 +1,32 @@
+Scanning 569 HTML files for prose-integrity issues (v2)...
+Audited 502 articles.
+
+=== SUMMARY (v2) ===
+Articles audited: 502
+  Clean: 170 (33.9%)
+  With (genuine) redundancy: 15
+  With (genuine) flagged sentences: 324
+Total redundancy pairs (genuine): 16
+Total sentences flagged (genuine): 729
+Total redundancy suppressed (apex-tier exemptions): 19
+Total sentences suppressed (coherence-positive): 101
+
+Suppression by class:
+  scripture-tsunami: 10
+  confessional-translation: 6
+  pedagogical-anaphora: 2
+  antithetical-parallelism: 1
+
+Top 10 most-broken (post-suppression):
+  canons-of-dort-plain-english.html — score 28 (0 dup, 28 flag)
+  response-jerry-walls.html — score 9 (0 dup, 9 flag)
+  argument-cost-of-being-wrong.html — score 8 (0 dup, 8 flag)
+  story-dark-the-rope-you-wove-yourself.html — score 8 (0 dup, 8 flag)
+  theologian-augustine.html — score 8 (0 dup, 8 flag)
+  theologian-gottschalk.html — score 8 (0 dup, 8 flag)
+  ot-joseph.html — score 7 (0 dup, 7 flag)
+  systematic-covenant-redemption.html — score 6 (0 dup, 6 flag)
+  systematic-effectual-calling.html — score 6 (0 dup, 6 flag)
+  westminster-chapter-3-plain-english.html — score 6 (0 dup, 6 flag)
+
+✓ audit-prose.json + audit-prose.md written.

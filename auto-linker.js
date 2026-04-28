@@ -731,6 +731,17 @@ for (const file of files) {
         continue;
     }
 
+    // CONSECRATED: Audit 2 / Phase C pages. The doxological structure of a
+    // consecrated article — Trinitarian three-beat, Christological apex,
+    // first-person-plural liturgical cadence, ascription of glory — is
+    // load-bearing prose. Auto-injecting links into a consecrated page
+    // can fracture the cadence at the precise point it ascends into
+    // worship. The marker is absolute. See AUDIT-2.md §IV.3.
+    if (html.includes('<!-- CONSECRATED -->')) {
+        console.log(`  🕊️  Skipping ${file} (CONSECRATED — doxological structure preserved)`);
+        continue;
+    }
+
     totalFiles++;
 
     const result = addLinksToFile(file, html);

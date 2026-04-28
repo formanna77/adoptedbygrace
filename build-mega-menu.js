@@ -87,7 +87,7 @@ const UMBRELLAS = [
         name: 'Side by Side',
         icon: '⚖',
         hub: '/compare-calvinism-arminianism',
-        prefixes: ['compare'],
+        prefixes: ['compare', 'comparative'],
       },
     ],
   },
@@ -107,6 +107,14 @@ const UMBRELLAS = [
         hub: '/systematic-theology',
         prefixes: ['systematic'],
         hubFiles: ['systematic-theology.html'],
+      },
+      {
+        key: 'theological-ethics',
+        name: 'Theological Ethics',
+        icon: '🌿',
+        hub: '/theological-ethics-hub',
+        prefixes: ['ethics', 'theological-ethics'],
+        extraFiles: ['theological-ethics-hub.html'],
       },
       {
         key: 'ot',

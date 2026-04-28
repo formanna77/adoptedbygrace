@@ -175,12 +175,13 @@
                     name: 'Side by Side',
                     icon: '⚖',
                     href: '/compare-calvinism-arminianism',
-                    count: 8,
+                    count: 9,
                     pages: [
                         { name: 'At Every Decision Point, Scripture Sides with God — Not You', href: '/compare-every-decision-point', desc: 'Ten crucial doctrinal decision points. At each one, man-centered theology sides with man. God-centered theology sides wi' },
                         { name: 'Calvinism vs Arminianism', href: '/compare-calvinism-arminianism', desc: 'Point by point, verse by verse — what Scripture actually teaches about salvation, and why the Arminian reading collapses' },
                         { name: 'Calvinism vs Molinism', href: '/compare-calvinism-molinism', desc: 'Molinism promises a sovereign God and libertarian free will through middle knowledge. Scripture presents a God who does ' },
                         { name: 'Calvinism vs Open Theism', href: '/compare-calvinism-open-theism', desc: 'Does God know every detail of the future — or is He discovering it alongside you? One view has been held for two millenn' },
+                        { name: 'Comparative Theology — Christ Among the Religions of the World', href: '/comparative-theology-hub', desc: 'Comparative theology engages the world' },
                         { name: 'Does God Save Alone, or Do You Help? Monergism vs Synergism', href: '/compare-monergism-synergism', desc: 'The most fundamental divide in all of Christianity: Does God save alone, or does He need your cooperation? Scripture ans' },
                         { name: 'Predestination vs Foreknowledge — Which Comes First?', href: '/compare-predestination-foreknowledge', desc: '"God looked down the corridor of time, saw who would believe, and chose them." The Bible never says this. Not once. The ' },
                         { name: 'Reformed vs Catholic', href: '/compare-calvinism-catholic-soteriology', desc: 'Imputed or infused? Faith alone or faith plus works? The Reformation\'s most consequential divide — and why the differen' },
@@ -234,6 +235,15 @@
                         { name: 'Who Is God? The Foundation Everything Else Stands On', href: '/systematic-theology-proper', desc: 'Before you can understand how God saves, you must understand who He is — because His nature is the reason grace works th' },
                         { name: 'Why Scripture Is the Final Word', href: '/systematic-prolegomena', desc: 'Before you can answer any question about God, you must answer where truth comes from. Get this wrong and every doctrine ' },
                         { name: 'You\'re Not Sick in Sin', href: '/systematic-hamartiology', desc: 'Run the test further. The reason you mildly dislike certain Christians is not their personality — it is their holiness. ' }
+                    ]
+                },
+                {
+                    name: 'Theological Ethics',
+                    icon: '🌿',
+                    href: '/theological-ethics-hub',
+                    count: 1,
+                    pages: [
+                        { name: 'Theological Ethics — Grace That Changes How You Live', href: '/theological-ethics-hub', desc: 'Theological ethics applies the doctrines of grace to lived life — abortion, sexuality, marriage, work, wealth, technolog' }
                     ]
                 },
                 {
