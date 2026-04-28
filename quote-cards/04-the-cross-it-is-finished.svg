@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#2a1f15"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4a254"/>
+      <stop offset="100%" stop-color="#e8c074"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <rect x="120" y="120" width="180" height="3" fill="url(#gold)"/>
+  <rect x="780" y="957" width="180" height="3" fill="url(#gold)"/>
+  <text x="540" y="430" text-anchor="middle" fill="url(#gold)" font-family="'Playfair Display', Georgia, serif" font-size="92" font-weight="700" font-style="italic">It is finished.</text>
+  <line x1="320" y1="500" x2="760" y2="500" stroke="#d4a254" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="540" y="610" text-anchor="middle" fill="#f4ead8" font-family="'Playfair Display', Georgia, serif" font-size="76" font-weight="600">He cannot</text>
+  <text x="540" y="710" text-anchor="middle" fill="#f4ead8" font-family="'Playfair Display', Georgia, serif" font-size="76" font-weight="600">lose you.</text>
+  <text x="540" y="900" text-anchor="middle" fill="#8a8377" font-family="'Inter', sans-serif" font-size="22" letter-spacing="3">— JOHN 19:30 · τετέλεσται</text>
+  <text x="540" y="980" text-anchor="middle" fill="url(#gold)" font-family="'Inter', sans-serif" font-size="24" letter-spacing="6" font-weight="600">ADOPTEDBYGRACE.NET</text>
+  <text x="540" y="1015" text-anchor="middle" fill="#8a8377" font-family="'Inter', sans-serif" font-size="13" letter-spacing="4" font-style="italic">SOLI DEO GLORIA</text>
+</svg>

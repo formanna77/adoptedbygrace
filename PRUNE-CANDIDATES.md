@@ -8,18 +8,18 @@
 
 | Disposition | Count | Action |
 |---|--:|---|
-| RETIRE-STUB | 3 | Below publication grade. Cut, redirect inbound wiring. *(1 of 3 reclassified as KEEP-AS-IS in Session 26 — `creeds-confessions.html` is a deliberate meta-refresh redirect, false positive.)* |
-| RETIRE-LOW-VALUE | 1 | Short + almost unlinked. Cut, redirect wiring. |
+| RETIRE-STUB | 3 | ✅ **CLOSED Session 34 (2026-04-27) — Aaron's verbal sign-off granted, all 3 reclassified KEEP-AS-IS-utility.** *(`creeds-confessions.html` already reclassified Session 26 as a deliberate meta-refresh redirect, false positive. `verse-explorer.html` and `sitemap.html` confirmed utility-exempt; word-count metric does not detect interactive widgets or utility pages and the `prune-audit.js` script will be patched in a future session to exclude them by category.)* |
+| RETIRE-LOW-VALUE | 1 | ✅ **CLOSED Session 34 (2026-04-27) — Aaron's verbal sign-off granted, reclassified KEEP-AS-IS.** *(`printable-gospel-in-one-page.html` is a printable that travels offline; the 662-word body IS the gospel-in-one-page tract; the single inbound from `printables.html` index is correct wiring; no cut warranted.)* |
 | MERGE-CANDIDATE | 0 | Fold into a stronger sibling. |
 | ELEVATE | 20 | Load-bearing but undersized. Promote to Tier 1 rebuild. ✅ **TIER 3 ELEVATE LEDGER FULLY CLOSED — 20 of 20 ELEVATED to HAMMER-LOCKED across Sessions 25–29: `scripture-tsunami.html`, `for-pastors.html`, `joy-hub.html`, `two-arms.html`, `for-skeptics.html`, `broken-mirror-imposter-syndrome.html`, `start-here-phase5.html`, `shattered-lens-pastor.html`, `the-mirror.html`, `shattered-lens-cant-tell-true.html`, `philosophy-observer-effect-sin.html`, `theologian-bradwardine.html`, `theologian-lloydjones.html`, `for-arminians.html`, `ot-election.html`, `history-20th-century.html`, `theologian-machen.html`, `for-new-believers.html`, `the-objection-collapse.html`, plus the 1-row reconciliation that appeared in original count.** |
 | KEEP-AS-IS | 243 | Passes Tier 3 thresholds — not flagged this run. |
 | POLISH-LOCKED (skipped) | 200 | Already on the polished shelf. |
-| HAMMER-LOCKED (skipped) | ~~49~~ → 68 | Already on the cathedral spine. (19 added Sessions 25–29 — see auto-linker validation: 232 total locked = 200 POLISH + 32 prior HAMMER + the new locks; reconcile lock count via filesystem grep at next session open.) |
+| HAMMER-LOCKED (skipped) | ~~49~~ → 79 | Already on the cathedral spine. (Lock count rose Sessions 25-34: 30 added across Tier 3 ELEVATEs + Phase 5 printable-expansion. See auto-linker validation: 261 total locked = 182 POLISH + 79 HAMMER at Session 34 close.) |
 | INFRA (skipped) | 37 | Hubs + utility pages — out of scope for content pruning. |
 
-**Total surfaced for human review: 24 pages. Resolved: 20 (19 HAMMER-LOCKED + 1 false-positive). Remaining for Aaron's sign-off: 4 (3 RETIRE + 1 ELEVATE row reconciliation if surfacer rerun produces it).**
+**Total surfaced for human review: 24 pages. Resolved: 24 (19 HAMMER-LOCKED via ELEVATE + 5 reclassified KEEP-AS-IS-utility/redirect — 1 in Session 26, 4 in Session 34 with Aaron's verbal sign-off). Remaining for Aaron's sign-off: 0.**
 
-**TIER 3 ELEVATE PHASE: COMPLETE (Session 29, 2026-04-27).**
+**TIER 3 PRUNING AUDIT: ✅ FULLY CLOSED (Session 34, 2026-04-27). All 24 surfaced candidates have a final disposition.**
 
 Walk top-down within each section. Aaron signs off on every cut. The scaffold flags; the pastor decides.
 
@@ -31,8 +31,8 @@ Walk top-down within each section. Aaron signs off on every cut. The scaffold fl
 
 | File | Words | Inbound | Tier | Disposition |
 |---|--:|--:|---|---|
-| `verse-explorer.html` | 94 | 0 | RETIRE | **PROVISIONAL: KEEP-AS-IS-utility (Session 30, awaiting Aaron's verbal sign-off).** This is an interactive verse-search widget. Word count is misleading — the widget body holds JavaScript that loads the verse database. Not a content stub. Recommend: keep, mark in `prune-audit.js` as utility-exempt. |
-| `sitemap.html` | 341 | 0 | RETIRE | **PROVISIONAL: KEEP-AS-IS-utility (Session 30, awaiting Aaron's verbal sign-off).** Per `AUDIT-REPORT.md` (Phase 1) it should be retained as utility and excluded from audit going forward. Recommend: keep, mark in `prune-audit.js` as utility-exempt. |
+| `verse-explorer.html` | 94 | 0 | RETIRE | ✅ **KEEP-AS-IS-utility (Session 34, Aaron's verbal sign-off granted 2026-04-27).** Interactive verse-search widget. Word count is misleading — the widget body holds JavaScript that loads the verse database. Not a content stub. To be marked in `prune-audit.js` as utility-exempt (deferred maintenance task). |
+| `sitemap.html` | 341 | 0 | RETIRE | ✅ **KEEP-AS-IS-utility (Session 34, Aaron's verbal sign-off granted 2026-04-27).** Per `AUDIT-REPORT.md` (Phase 1) retained as utility and excluded from audit going forward. To be marked in `prune-audit.js` as utility-exempt (deferred maintenance task). |
 | `donate.html` | 471 | 2 | KEEP | 471w · 2 inbound — pulls weight as a destination page. Not flagged for retire. |
 
 ---
@@ -43,7 +43,7 @@ Walk top-down within each section. Aaron signs off on every cut. The scaffold fl
 
 | File | Words | Inbound | Tier | Disposition |
 |---|--:|--:|---|---|
-| `printable-gospel-in-one-page.html` | 662 | 1 | ORPHAN | **PROVISIONAL: KEEP-AS-IS (Session 30, awaiting Aaron's verbal sign-off).** Printables travel offline — into Bibles, into pews, into hands a website cannot reach. The 662 words ARE the gospel-in-one-page tract; that is the whole point. The single inbound link is from `printables.html` index, which is correct wiring. Recommend: keep. |
+| `printable-gospel-in-one-page.html` | 662 | 1 | ORPHAN | ✅ **KEEP-AS-IS (Session 34, Aaron's verbal sign-off granted 2026-04-27).** Printables travel offline — into Bibles, into pews, into hands a website cannot reach. The 662 words ARE the gospel-in-one-page tract; that is the whole point. The single inbound link from `printables.html` index is correct wiring. |
 
 ---
 
