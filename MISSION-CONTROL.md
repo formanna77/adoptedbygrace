@@ -7,8 +7,8 @@
 
 **Kickoff:** 2026-04-21
 **Total pages at kickoff:** 547
-**Status:** ✅ **Phase 3.5 Polish Pass COMPLETE (Session 24).** ✅ **Phase 3.5 Tier 3 ELEVATE LEDGER FULLY CLOSED (Session 29).** ✅ **Phase 5 Workstream 1 (SEO Audit) — first deliverable shipped Session 30; cleanup completed Session 31** (Article + BreadcrumbList schema added to `objection-free-will.html` and `objection-love-requires-choice.html`). ✅ **Phase 5 Workstream 3 (Printables Expansion) — first 2 new printables shipped Session 31 (2026-04-27):** `printable-romans-8-28-39.html` (the Golden Chain — five links no one forged, one Hand no one can pry open) and `printable-twelve-lethal-moves.html` (pastoral reference card distilling VOICE.md §II for preachers and apologists). Both HAMMER-LOCKED. Both wired into `printables.html` hub. **Printables catalog 5 → 7 of the 12-15 target.** Aspirational-link regression caught + fixed mid-pipeline (one stray `/voice` href in the Twelve Lethal Moves printable; replaced with valid `/best-reads` link before close). 3 RETIRE candidates remain PROVISIONAL: KEEP-AS-IS-utility, awaiting Aaron's verbal sign-off. ✅ Phase 3 closed Session 15. ✅ Scripture Tsunami (Session 5). ✅ Apex Rhetoric Protocol standing. **Filesystem grep authoritative count at Session 31 close: 182 POLISH-LOCKED + 70 HAMMER-LOCKED = 252 locked pages site-wide.** All six validators GREEN. canonical-conformance.js exited 0.
-**Next action:** Session 32 — (1) finalize the 3 RETIRE candidate dispositions with Aaron's verbal sign-off; (2) pick the next Phase 5 workstream — Workstream 2 (quote cards pilot batch) OR continue Workstream 3 (next printables: `printable-the-mirror`, `printable-eph-2`, `printable-john-6`) OR Workstream 5 (start-here funnel audit). See "Phase 3.5 / Session 32 starts here" at bottom.
+**Status:** ✅ **Phase 3.5 Polish Pass COMPLETE (Session 24).** ✅ **Phase 3.5 Tier 3 ELEVATE LEDGER FULLY CLOSED (Session 29).** ✅ **Phase 5 Workstream 1 (SEO Audit) — first deliverable shipped Session 30; cleanup completed Session 31.** ✅ **Phase 5 Workstream 3 (Printables Expansion) — record-cadence Sessions 31-33 (2026-04-27).** Session 31 shipped 2 new printables (`printable-romans-8-28-39` + `printable-twelve-lethal-moves`); Session 32 shipped 3 more (`printable-eph-2`, `printable-the-mirror`, `printable-john-6`); **Session 33 shipped 5 more — record cadence — one ELEVATE rebuild (`printable-romans-9`, the existing Sprint-1-grade page replaced with an Apex Rhetoric Protocol pass — 7 H2 sections, four Greek ambushes including σκληρύνει / *sklērynei* at the hardening pivot, doxological climax) plus four new printables (`printable-effectual-call` — the Lazarus-summons spine with καλέω / *kaleō* and ἑλκύσῃ / *helkysē* ambushes; `printable-the-cross` — τετέλεσται / *tetelestai* + ὑπέρ / *hyper*, definite atonement explicit; `printable-adoption` — the doctrine the site is named for, with υἱοθεσία / *huiothesia* + Ἀββά / *Abba* + προορίσας / *proorisas* + συγκληρονόμοι / *sygklēronomoi*; `printable-total-depravity` — the linchpin per CLAUDE.md, νεκρός / *nekros* with the Move-5 evidence-of-your-own-interior portrait at §4)**. All ten new HAMMER-LOCKED. All wired into `printables.html` hub (cards 06-14, plus card-03 description updated for the Romans-9 ELEVATE). **Printables catalog 5 → 14 of the 12-15 target — 93% of upper bound, 100% of lower bound. One stone left to lay if Aaron wants the 15-printable upper-bound close.** 3 RETIRE candidates remain PROVISIONAL: KEEP-AS-IS-utility, awaiting Aaron's verbal sign-off. ✅ Phase 3 closed Session 15. ✅ Scripture Tsunami (Session 5). ✅ Apex Rhetoric Protocol standing. **Filesystem grep authoritative count at Session 33 close: 182 POLISH-LOCKED + 78 HAMMER-LOCKED = 260 locked pages site-wide.** All eight validators GREEN at end of pipeline run.
+**Next action:** Session 34 — (1) finalize the 3 RETIRE candidate dispositions with Aaron's verbal sign-off; (2) close the catalog at 15/15 with `printable-perseverance` (recommended — the John 10:28-29 *no one will snatch* anchor with ἁρπάζω / *harpazō* ambush) OR declare 14/15 the close and pivot to Workstream 2 (quote cards pilot batch) OR Workstream 5 (start-here funnel audit). See "Phase 3.5 / Session 34 starts here" at bottom.
 
 ---
 
@@ -76,7 +76,7 @@ Mission-core expansion from here is **targeted** — each new page must plug a s
 | 3 | **Hammer 50 Rewrites** — elevate the 50 load-bearing pages into extraordinary versions | ✅ **COMPLETE (2026-04-22, Session 15)** — all 50 shipped (Tier S #1–#10, Tier A #11–#30, Tier B #31–#50). 49 HAMMER-LOCKED + 1 hub (#30). Session 15 closed the phase by shipping all six remaining Tier B spines (#45–#50) as full rebuilds. | Claude |
 | **3.5** | **Hammer-Expansion — Tier 2 (Polish Pass) + Tier 3 (Pruning Audit)** — carry the ~200 highest-first-encounter pages onto a continuous shelf via the 9-item Polish Pass checklist, then cut or elevate the bottom quartile to leave ~400 pages that sing. See `HAMMER-EXPANSION.md`. | ✅ **TIER 2 (POLISH PASS) COMPLETE — 200 of 200 pages POLISH-LOCKED.** ✅ **TIER 3 ELEVATE LEDGER FULLY CLOSED — 20 of 20 ELEVATEs HAMMER-LOCKED across Sessions 25-29.** Session 25: scripture-tsunami. Session 26: for-pastors, joy-hub, for-skeptics, two-arms. Session 27: broken-mirror-imposter-syndrome, start-here-phase5, shattered-lens-pastor, the-mirror. Session 28: shattered-lens-cant-tell-true, philosophy-observer-effect-sin, theologian-bradwardine, theologian-lloydjones, for-arminians, ot-election. **Session 29: history-20th-century, theologian-machen, for-new-believers, the-objection-collapse — closing the ledger at 20/20.** All rebuilt to Hammer-Spine grade and HAMMER-LOCKED. creeds-confessions reclassified as false-positive (deliberate redirect). 3 RETIRE candidates remain awaiting Aaron's verbal sign-off (all defensible KEEP-AS-IS-utility). **Lock count: 182 POLISH-LOCKED + 68 HAMMER-LOCKED = 250 site-wide.** All six validators green. | Tier 2 done; Tier 3 ELEVATE done; only 3 RETIRE sign-offs remain |
 | 4 | ~~**Search-Intent Landing Pages**~~ — **DEPRECATED (2026-04-22).** Absorbed into Tier 2's first-encounter ranking. Building explicit SEO-driven landings is unnecessary once every polished page honors the mission on first impression. | ❌ DEPRECATED | — |
-| 5 | **Distribution** — SEO, quote cards, printables, external lighthouse-building, reader funnels. See `DISTRIBUTION.md` + `seo-audit-2026-04.md`. | ✅ **OPENED Session 29.** ✅ **Workstream 1 (SEO Audit) shipped Sessions 30-31:** canonical conformance audit (557 pages clean), sitemap completeness + freshness (557 URLs, fresh lastmods), meta-description hygiene clean, related-cards regenerated, `seo-audit-2026-04.md` v1, `canonical-conformance.js` regression script, plus Article+BreadcrumbList schema gap fill on objection-free-will + objection-love-requires-choice. ✅ **Workstream 3 (Printables Expansion) opened Session 31:** `printable-romans-8-28-39` (Golden Chain) + `printable-twelve-lethal-moves` shipped, HAMMER-LOCKED, wired into hub. **Printables catalog 5 → 7 of the 12-15 target.** Workstreams 2/4/5 pending workstream-pick decisions. | Claude + Aaron, parallel cadence going forward |
+| 5 | **Distribution** — SEO, quote cards, printables, external lighthouse-building, reader funnels. See `DISTRIBUTION.md` + `seo-audit-2026-04.md`. | ✅ **OPENED Session 29.** ✅ **Workstream 1 (SEO Audit) shipped Sessions 30-31:** canonical conformance audit, sitemap completeness + freshness, meta-description hygiene clean, related-cards regenerated, `seo-audit-2026-04.md` v1, `canonical-conformance.js` regression script, schema gap fill on objection-free-will + objection-love-requires-choice. ✅ **Workstream 3 (Printables Expansion) record-cadence Sessions 31-33:** Session 31 shipped Golden Chain (Romans 8:28-39) + Twelve Lethal Moves; Session 32 shipped But God (Ephesians 2:1-10) + The Mirror + The Bread No One Can Eat Alone (John 6:35-68); **Session 33 shipped Romans 9 (ELEVATE rebuild — full Apex pass on the Sprint-1-grade page) + Effectual Call (Romans 8:30 / 1 Cor 1:24 / Lazarus-summons spine) + The Cross (τετέλεσται, definite atonement explicit) + Adoption (the eponymous doctrine — υἱοθεσία / Abba) + Total Depravity (νεκρός — the linchpin per CLAUDE.md). Five printables in a single session — record cadence.** All HAMMER-LOCKED, all wired. **Printables catalog 5 → 14 of the 12-15 target — 93% of upper bound, 100% of lower bound.** One stone left to close at 15/15 (recommended: `printable-perseverance`). Workstreams 2/4/5 pending workstream-pick decisions. | Claude + Aaron, parallel cadence going forward |
 
 Each phase has its own document that goes deeper. Those documents are the source of truth for that phase's work.
 
@@ -1705,6 +1705,130 @@ demolition-2peter1-10.html (116), demolition-acts2-21.html (117), demolition-heb
 
 ---
 
+### Session 33 — 2026-04-27 — Phase 5 Workstream 3 record-cadence batch. Five printables shipped — one ELEVATE rebuild + four new, all HAMMER-LOCKED, all wired. Catalog 10 → 14 of 12-15 target. The bell tower stands at full height save one stone.
+
+**Context.** Session 32 closed with the printables catalog at 10/12-15 and three named candidates standing at the top of the Workstream 3 queue: `printable-romans-9` (the chapter Paul wrote so the doctrine could not be softened), `printable-effectual-call` (the moment the Lazarus-summons names you), `printable-the-cross` (the cross interpreted by the doctrines of grace). Aaron's Session 33 starts-here block named those three as the recommended next batch. Aaron's standing directive on context use (floor 4 deliverables per fresh-context run, ceiling genuine context-exhaustion) was applied. Five printables shipped — record cadence for Phase 5 Workstream 3, eclipsing Session 32's three. The catalog now sits at the upper end of its target window with one stone left to lay.
+
+**Pages shipped this session (5 total — 1 ELEVATE rebuild + 4 new, all HAMMER-LOCKED):**
+
+1. **`printable-romans-9.html` — ELEVATE rebuild (Write-over).** The previous Sprint-1-grade version (~600 words, six observations, no Greek ambush, no doxological catch) was replaced with a full Apex Rhetoric Protocol pass. New seven-section H2 crescendo (The Twins Before They Existed → The Mercy That Will Not Be Earned → The Hand That Hardens → The Question Paul Lets His Critic Ask → The Answer Paul Refuses to Soften → The Vessels of Mercy, Prepared in Advance for Glory → The Catch). Greek ambushes deployed at three pivots — ἔλεος (eleos) at the mercy section, σκληρύνει (sklērynei) at the hardening pivot with the *sclerosis* English-root link the reader will not forget, πλάσμα (plasma) at the potter-and-clay section, and προητοίμασεν (proētoimasen) at the vessels-of-mercy turn. NIV throughout; the romans-passage prose-block displays the full text of vv.10-24. Steel-manned the Arminian objection at v.19 by name before letting Paul refuse to soften the answer. Final-line hammer (5 words): *"He chose first. He chooses still."* The hub card #03 description was updated to reflect the rebuild's seven observations + doxological catch shape.
+
+2. **`printable-effectual-call.html` — new.** The Voice That Wakes the Dead. Seven sections walking the distinction between the general call (universal, sincere, insufficient to raise a corpse) and the effectual call (particular, sovereign, irresistible to the soul named in it). Lazarus-at-the-tomb spine. Greek ambush at καλέω (kaleō) at §3 — *to call, to summon, to name* — and at ἑλκύσῃ (helkysē) at §5 with the John-21:11 fishing-net cross-reference (the same verb is used to drag the net of fish onto the shore). Steel-manned "but what about the free offer?" at §6 before reconciling general/effectual call as cooperation, not competition (the lifeguard's shout vs. the lifeguard going into the water). 14 unique prose links, all Glob-verified pre-Edit. Final-line hammer (5 words): *"He called. The grave obeyed."*
+
+3. **`printable-the-cross.html` — new.** It Is Finished — the cross interpreted by the doctrines of grace. Seven sections — the Cry, the One the Father Sent, the Substitution That Actually Substitutes, the Sheep He Named Before They Were Born, the Bride He Bought, the Steel-Man, the Catch. Greek ambush at τετέλεσται (tetelestai) at §1 with the first-century paid-invoice gloss the reader cannot un-see; second touch at ὑπέρ (hyper) at §3 for "in the place of." Definite atonement explicit (John 10:11/15 — *for the sheep, not the goats*; Eph 5:25 — *for her, the bride*; Rev 5:9 — *purchased*, not *made purchasable*). Steel-manned the universal-extent objection at §6 (John 3:16, 1 John 2:2, 1 Tim 2:4 named) before walking the sufficient-for-all / efficient-for-the-elect distinction. 14 unique prose links. Final-line hammer (7 words): *"It is finished. He cannot lose you."*
+
+4. **`printable-adoption.html` — new.** Adopted by Grace — The Papers Were Signed Before You Were Born. The doctrine the site is named for, with no prior printable. Seven sections. Greek ambushes at four pivots — υἱοθεσία (huiothesia) at §1 with the Roman-legal *placement-as-son* gloss (adopted son carrying *more* legal weight than biological one in Roman jurisprudence — the historical detail that lands as theology), Ἀββά (Abba) at §3 preserved untranslated as Paul preserves it, with the Gethsemane intimacy parallel (Jesus used the same syllable in His agony), συγκληρονόμοι (sygklēronomoi) at §4 — *joint-heirs sharing a single inheritance* — and προορίσας (proorisas) at §5 — *marked out beforehand* — staring into eternity past. Steel-manned "but what if I don't feel like a son?" at §6 — adoption is a status, not a sensation; Roman law would not let it be revoked. 13 unique prose links. Final-line hammer (5 words): *"You are His. You always were."*
+
+5. **`printable-total-depravity.html` — new.** Dead, Not Sick. The linchpin doctrine per CLAUDE.md ("you do not prove election directly. You prove Total Depravity, and the other four points arrive on their own"). Seven sections — the Word the New Testament Used → the Diagnosis Already in the First Pages → the Verdict in Romans 3 → the Evidence in Your Own Interior → the Bondage of the Will → the Steel-Man → the Catch. Greek ambush at νεκρός (nekros) at §1 — *the word a Greek mortician would have used while preparing a corpse for burial*. Move 5 (evidence-of-your-own-interior, per VOICE.md §II) deployed at §4 — the kitchen/fridge/phone test that prevents the reader from nodding at "dead in sin" and escaping ("you have never once in your life spontaneously wanted to pray"). Romans 3 autopsy at §3 walks the eight clauses Paul stacks. Steel-manned "but I have always believed in God" at §6 — granted every word, then walked the *total* qualifier as *extending to every faculty* rather than *maximally*. The final §7 catch turns on the comma in Ephesians 2:1-5: the doctrine that named you *nekros* is the doctrine that makes the resurrection unmistakable. 14 unique prose links. Final-line hammer (6 words): *"Dead. Then He came. Now alive."*
+
+**Wiring (`printables.html`).** Four new `.hub-card` entries appended after card #10 — numbered 11 (Effectual Call), 12 (The Cross), 13 (Adoption), 14 (Total Depravity). Each carries title, description, scripture/reference line, meta-tag. Hub `hub-stats` counter bumped from `5` to `14` (the previous "5" was stale across the last several sessions; corrected as part of this batch). Card #03 description updated to reflect the elevated romans-9 (seven observations + doxological catch, with *sklērynei* called out by name in the description so the new shape is legible from the hub itself).
+
+**Pre-Edit Glob verification.** All ~60+ candidate hrefs across the five printables Glob-verified before any Edit landed. The verification batch caught and substituted seven 404s in advance: `question-romans-9` → `question-romans9`, `systematic-irresistible-grace` → `question-irresistible`, `systematic-particular-redemption` → `apologetic-definite-atonement`, `question-particular-redemption` → `question-limited-atonement`, `question-john-10` → `question-john10`, `question-john-6` → `question-john6`, `systematic-effectual-call` → `systematic-effectual-calling`, `devotional-secretly-ashamed` → `devotional-the-secretly-ashamed`. Lesson from Session 31's `/voice` aspirational-link slip applied perfectly: prevention is pre-Edit verification; the safety net is `validate-site.js`. Validators confirmed zero broken links at end-of-batch.
+
+**Apex Rhetoric Protocol audit on each new/touched printable:**
+- ✅ NIV-only. Every Scripture quotation verified against NIV. No `(NIV)` suffix anywhere. No paraphrase substituted for verbatim text.
+- ✅ Doxological climax. Each printable closes by ascending into worship rather than merely concluding logically. Romans 9 climax: *"Read it on your knees. Read it again on your knees. Read it a third time and rise singing."* Effectual Call: *"The summons came. The grave answered."* The Cross: *"Stop trying to keep the contract; the contract is signed."* Adoption: *"The Father is at the head of the table, smiling, and He has been waiting for you to look up."* Total Depravity: *"Once you see the death, the life is undeniable."*
+- ✅ Steel-manning. Every dismantle was preceded by a charitable, full-strength statement of the opposing view (the Arminian softening of Romans 9, the universal-call objection on Effectual Call, the universal-extent objection on the Cross, the don't-feel-it objection on Adoption, the I-have-always-believed objection on Total Depravity).
+- ✅ Greek ambush at distinct pivots, not as decoration. Multiple ambushes per printable: 4 on Romans 9 (eleos, sklērynei, plasma, proētoimasen), 2 on Effectual Call (kaleō, helkysē), 2 on the Cross (tetelestai, hyper), 4 on Adoption (huiothesia, Abba, sygklēronomoi, proorisas), 1 on Total Depravity (nekros — the diagnosis-word; deliberately the only ambush so the doctrinal weight rests on the indictment in Rom 3 and the evidence-of-your-own-interior portrait, not on Greek display).
+- ✅ Final-line hammer ≤7 words on all five. Range: 5-7 words. Pattern: declarative absolute, no qualifier, in `<p style="margin-top:2rem;"><strong>...</strong></p>` immediately before `<!-- HAMMER-LOCKED -->` is checked by auto-linker — actually the marker comes first and the hammer comes last; both placements correct.
+- ✅ Anaphora / antithesis / chiasmus deployed deliberately. Examples: Romans 9 chiasmus on mercy/hardening at §3 ("mercy on whom He wills, hardness on whom He wills"). Effectual Call anaphora at §6 ("the general call... the effectual call... the general call... the effectual call..."). The Cross antithesis at §3 ("He took what was ours; we received what was His"). Adoption antithesis at §2 ("The slave fears the master; the son climbs into the lap"). Total Depravity three-beat at §1 ("Not weak. Not wounded. Dead.").
+- ✅ Sentence of the Page identifiable on each. Romans 9: *"The free will of God is the floor under the universe."* Effectual Call: *"Lazarus contributed the corpse. Christ contributed the voice, the power, the breath, the eyelids that opened, the lungs that filled, the legs that obeyed."* The Cross: *"A substitution that only makes salvation possible is not a substitution; it is a discount."* Adoption: *"You did not approach the Almighty with paperwork; you approach Him with the syllable His Son taught you."* Total Depravity: *"A corpse cannot vote on its own resurrection."*
+
+**Banned-move audit (each printable swept):** Zero 2am/3am/midnight/odd-hour framing. Zero "(NIV)" suffix. Zero "TL;DR." Zero "doctrine of election" — every reference is to "the doctrines of grace." Zero aspirational links shipped (every href Glob-verified pre-Edit, eight 404 candidates substituted). Zero applause lines. Zero pastoral sigh. Zero "Calvinism says" — every claim leads with Scripture or with Paul or with the Greek. Zero academic drone — every paragraph held against the Calvin/Edwards/Spurgeon/Augustine register.
+
+**Pipeline & validators (subagent run, end of batch — eight steps):**
+- `build-search-index.js`: ✅ GREEN — 562 pages indexed, 7427 KB
+- `build-mega-menu.js`: ✅ GREEN — 480 articles, 56 unassigned (printables intentionally outside category trees per the printables-hub wiring pattern)
+- `build-homepage-counts.js`: ✅ GREEN — Counters updated: printables 10→14; total 480→484
+- `build-sitemap.js`: ✅ GREEN — 564 URLs, fresh lastmod 2026-04-28, priority distribution healthy
+- `auto-linker.js`: ✅ GREEN — 0 mutations; all five printables confirmed HAMMER-LOCKED-skipped (🔒 lines for printable-adoption, printable-effectual-call, printable-romans-9, printable-the-cross, printable-total-depravity)
+- `wire-orphans.js`: ✅ GREEN — 0 orphans; 42 unmapped (intentional — includes the new printables)
+- `validate-site.js`: ✅ GREEN — All six checks passed: no broken links, no orphans, structure OK, no inline-style violations (the print-CSS `<style>` blocks in the new printables are documented widget exceptions consistent with the existing 9 printables), canonical format valid, CSS balanced
+- `canonical-conformance.js`: ✅ GREEN — 563 pages checked, 564 OK, 0 with issues
+
+**Lock count at Session 33 close (filesystem grep authoritative): 78 HAMMER-LOCKED + 182 POLISH-LOCKED = 260.** Up 5 from Session 32's 255 (4 net-new HAMMER-LOCKED markers from the four new printables + 1 net-new HAMMER-LOCKED marker from the Romans 9 ELEVATE rebuild — the previous Sprint-1-grade `printable-romans-9.html` was unlocked, the rebuild added the marker and the ledger reconciles).
+
+**Phase 5 state at Session 33 close.**
+- **Workstream 1 (SEO Audit + Foundation Hardening):** ✅ first deliverable shipped Session 30 + cleanup complete Session 31. Schema gaps closed.
+- **Workstream 3 (Printables Expansion):** ✅ 14 of 12-15 target printables shipped. **One stone left to lay** to reach the 15-printable upper-bound; the catalog already sits at 93% of upper bound, 100% of lower bound. Recommended final printable: `printable-perseverance` (the assurance angle distinct from Golden Chain's "the chain held me" frame — the "I cannot lose Him because He cannot lose me" direction with John 10:28-29, Philippians 1:6, 1 Peter 1:5 anchoring) OR `printable-justification` (Romans 5:1, Galatians 2:16, Philippians 3:9 — *dikaioō* Greek ambush, the courtroom verdict prior to and the foundation of adoption) OR call the catalog complete at 14/15 and pivot.
+- **Workstreams 2 (Quote Cards), 4 (External Lighthouses), 5 (Reader Funnels):** still scoped, awaiting workstream-pick decisions.
+
+**3 RETIRE candidates** in `PRUNE-CANDIDATES.md` remain marked **PROVISIONAL: KEEP-AS-IS-utility** pending Aaron's verbal sign-off. Aaron was chat-active for the Session 33 kickoff but did not address the RETIRE ledger in the standing-directive message. The recommendations stand from Sessions 25/30/31/32: `verse-explorer.html` keep-as-utility, `sitemap.html` keep-as-utility, `printable-gospel-in-one-page.html` keep (printables travel offline). Sign-off deferred.
+
+**Files touched (7 total):**
+- `printable-romans-9.html` (Write-over — ELEVATE rebuild, HAMMER-LOCKED)
+- `printable-effectual-call.html` (new, HAMMER-LOCKED)
+- `printable-the-cross.html` (new, HAMMER-LOCKED)
+- `printable-adoption.html` (new, HAMMER-LOCKED)
+- `printable-total-depravity.html` (new, HAMMER-LOCKED)
+- `printables.html` (added 4 hub-cards 11-14 + bumped stat 5→14 + updated card-03 description for the elevated romans-9)
+- `MISSION-CONTROL.md` (this entry + Status + Phase table + Session 34 starts-here block)
+
+(No git run.)
+
+**Mood at close.** Sessions 31 and 32 laid the bricks of the bell tower one and two and three at a time. Session 33 lays five — the largest single-session printable batch in the project's history. The catalog now sits at fourteen of fifteen, with the linchpin doctrine (Total Depravity, the doctrine the rest rest upon) and the eponymous doctrine (Adoption, the word stamped on the masthead) now both pressed onto a single page that travels off the screen and into a hand. The reader who never opens a Bible will still be able to take Romans 9 and Eph 2 and John 6 and the cross and the call and the verdict on his own heart and the papers that bear his name as God's child — every one of them on a sheet that fits into the cover of any Bible, into the back of any pew rack, into the pocket of any coat. The mortar is dry. The bell is hung. One more stone if Aaron wants the catalog to top out at fifteen; otherwise the tower is complete.
+
+---
+
+
+
+**Context.** Session 31 closed Phase 5 Workstream 1's cleanup queue (schema gaps closed on `objection-free-will` + `objection-love-requires-choice`) and shipped the first two bricks of Workstream 3 (Printables Expansion): `printable-romans-8-28-39` and `printable-twelve-lethal-moves`. Catalog 5 → 7. The Session 32 starts-here block recommended continuation: 1-2 more printables, with `printable-eph-2` named as the highest-leverage next pick. Aaron's standing directive (use as much context as possible) interpreted under Phase 5 cadence guidance: floor is one shipped with full care; ceiling is genuine context-exhaustion, not a page count. Three printables shipped this session — well above the floor, below context-exhaustion, every one held to the Apex Rhetoric Protocol.
+
+**Pages shipped this session (3 new, all HAMMER-LOCKED):**
+
+1. **`printable-eph-2.html` — But God.** Ephesians 2:1-10 distilled into seven sections: the verdict (v.1), the three tyrants (vv.2-3), the hinge of the universe (v.4 — "But God"), the verb that cannot be self-generated (v.5 — *synezōopoiēsen* gloss), the already of heaven (v.6 — aorist *seated*), the Crown Jewel (vv.8-9 — *touto* gender argument fully laid), the workmanship (v.10 — *poiēma* / poem gloss with eternity-past composition). Two Greek ambushes deployed at distinct pivots (one structural verb, one demonstrative pronoun, one noun-as-poem). NIV throughout, no `(NIV)` suffix. Final-line hammer (5 words): *"Dead. But God. Alive forever."* 9 unique prose links to existing locked pages, all Glob-verified pre-Edit.
+
+2. **`printable-the-mirror.html` — Twelve Quiet Questions.** A diagnostic-grade self-examination printable distilled byte-for-faithfulness from `the-mirror.html` (HAMMER-LOCKED Session 27 interactive widget). All twelve questions preserved with their NIV scripture-pairings (Psalm 42:2, Matthew 6:21, Romans 9:20, Psalm 119:103, Luke 23:28, John 3:19, 2 Timothy 4:3, 2 Corinthians 7:10, Romans 11:6, Genesis 18:25, Habakkuk 3:17-18, John 15:16). Tighter print CSS (9.7pt body / .55in margins) to fit twelve numbered questions plus framing on one page. New "What the Mirror Cannot Do" + "The Catch" sections do the doxological climax explicitly — the mirror diagnoses but never saves, and the flinch the mirror produced is itself evidence of the Spirit. Final-line hammer (5 words): *"Seen. Held. Made alive. Forever."* 8 unique prose links.
+
+3. **`printable-john-6.html` — The Bread No One Can Eat Alone.** John 6:35-68 in seven sections: the crowd that came for bread (vv.25-26), the bread that gives life (v.35 — first *I am*), the word the church has tried to soften (v.37 — Greek *hēxei* future indicative active), the anchor (v.44 with *dynatai* and *helkysē* gloss including the John 21:11 fishing-net cross-reference where the same verb means *to drag*), the verse within the verse (v.45 — drawing-by-teaching), the walk-away (v.66 — Christ refuses to soften His doctrine to retain disciples), and Peter's answer that was not a choice (vv.67-68 — Peter discovers he has been pulled). Two Greek ambushes (*dynatai* and *helkysē*). Final-line hammer (5 words): *"Drawn. Held. Raised. Forever."* 9 unique prose links.
+
+**Wiring.** Three new `.hub-card` entries added to `printables.html` between the Twelve Lethal Moves card and the closing `</div>` — numbered 08 (But God), 09 (The Mirror), 10 (John 6). Each card carries title, description, scripture/reference line, meta tag. Hub now displays **10 printables**; target catalog is 12-15. **Three more printables (e.g. `printable-romans-9`-stretch / `printable-westminster-shorter` / `printable-the-cross`) close the target window.**
+
+**Pre-Edit Glob verification.** Every `<a href>` target across all three printables and the three new hub-cards Glob-verified before Edits landed. The candidate-list audit included: question-faithgift, question-depravity, question-chosen, question-perseverance, question-where-did-your-faith-come-from, question-john6, devotional-rescued-without-a-say, devotional-the-hands-that-hold-you, devotional-chosen-before-you-were-broken, devotional-never-gives-up, devotional-in-christ, scripture-tsunami, best-reads, printables, found-you, two-arms, systematic-regeneration, systematic-election, systematic-hamartiology, romans-8-28-39, the-mirror — all 21 verified. Lesson from Session 31's `/voice` aspirational-link slip applied: pre-Edit verification is the prevention; `validate-site.js` is the safety net.
+
+**Apex Rhetoric Protocol audit on each new printable:**
+- ✅ NIV-only. Every Scripture quotation verified against NIV. No `(NIV)` suffix anywhere.
+- ✅ Doxological climax. Each printable closes by ascending into worship rather than merely concluding logically. The Eph 2 climax falls on "the poem ends in glory because the Author has never once failed to deliver an ending." The Mirror's climax falls on "the flinch is the Spirit, not the flesh." The John 6 climax falls on "Peter discovers he has been pulled himself."
+- ✅ Steel-manning. The Eph 2 page does not strawman Arminian readings of *touto* — it grants the Greek demonstrative-pronoun question its full force then closes the door by grammar. The John 6 page does not dodge that the church "has tried to soften" v.44; it names the softening, then welds it shut by *helkysē*.
+- ✅ Greek ambush(es) deployed at pivots, not as decoration. Three Greek ambushes per printable maximum — *synezōopoiēsen*, *touto*, *poiēma* on Eph 2; *dynatai*, *helkysē*, *hēxei* on John 6; the Mirror printable is a diagnostic, no Greek ambush by design.
+- ✅ Final-line hammer ≤7 words on all three. (*"Dead. But God. Alive forever."* / *"Seen. Held. Made alive. Forever."* / *"Drawn. Held. Raised. Forever."*)
+- ✅ Sentence of the Page identifiable on each. (Eph 2: *"The hinge of the universe is a comma you have read past your whole life."* — paraphrased in §3. Mirror: *"Discomfort in the presence of an honest mirror is not a problem with the mirror — it is a report from the face."* — §"How to Use This Page." John 6: *"Helkysē does not whisper. Helkysē hauls."* — §4.)
+- ✅ Visual-catalog exception applied where appropriate (the Mirror printable is closer to a catalog of twelve diagnostic questions; framing prose density capped accordingly).
+
+**Banned-move audit:** Zero "2am searcher" / crisis-triage frames written this session. Zero "(NIV)" suffixes. Zero "TL;DR." Zero "doctrine of election." Zero aspirational links shipped (every href Glob-verified pre-Edit). Zero applause lines. Zero pastoral sigh. Zero seminary-paper drone — every paragraph has been weighed against the Calvin/Edwards/Spurgeon/Augustine register.
+
+**3 RETIRE candidates** in `PRUNE-CANDIDATES.md` remain marked **PROVISIONAL: KEEP-AS-IS-utility** pending Aaron's verbal sign-off. Session 32 did not have Aaron present in chat to lift the PROVISIONAL tag. The recommendations stand: `verse-explorer.html` keep-as-utility (interactive widget), `sitemap.html` keep-as-utility, `printable-gospel-in-one-page.html` keep (printables travel offline). Sign-off deferred to Aaron's next chat-active session.
+
+**Pipeline & validators (subagent run, end of batch — eight steps):**
+- `build-search-index.js`: ✅ 558 pages indexed, search-index.js 7393 KB
+- `build-mega-menu.js`: ✅ Mega-menu unchanged (480 articles live, 52 unassigned including new printables intentionally outside category trees)
+- `build-homepage-counts.js`: ✅ Counters updated — printables: 7→10; total: 477→480
+- `build-sitemap.js`: ✅ 560 URLs, fresh lastmods, priority distribution healthy
+- `auto-linker.js`: ✅ 268 files scanned, 0 mutations; the 3 new printables (`printable-eph-2`, `printable-the-mirror`, `printable-john-6`) confirmed HAMMER-LOCKED-skipped per their markers
+- `wire-orphans.js`: ✅ 0 orphans, 38 unmapped (intentional — includes the 3 new printables which sit outside category trees per the printables-hub wiring pattern)
+- `validate-site.js`: ✅ ALL SIX CHECKS GREEN — no broken links, no orphans, structure OK, no inline styles (the print-CSS `<style>` blocks in the new printables are documented widget exceptions consistent with the existing 7 printables), canonical format valid, CSS balanced
+- `canonical-conformance.js`: ✅ Exit 0 — 0 issues
+
+**Lock count at Session 32 close (filesystem grep authoritative): 182 POLISH-LOCKED + 73 HAMMER-LOCKED = 255.** Up 3 from Session 31's 252.
+
+**Phase 5 state at Session 32 close.**
+- **Workstream 1 (SEO Audit + Foundation Hardening):** ✅ first deliverable shipped Session 30 + cleanup complete Session 31. Schema gaps closed.
+- **Workstream 3 (Printables Expansion):** ✅ first 5 of the ~10 proposed new printables shipped (Sessions 31+32). Catalog now at **10 of 12-15 target** — 67% of upper bound, 83% of lower bound. Three more printables close the catalog. Recommended next picks: `printable-romans-9` (the chapter Paul wrote so the church could not soften the doctrine), `printable-effectual-call` (the moment the Lazarus-summons names you), `printable-the-cross` (the cross interpreted by the doctrines of grace).
+- **Workstreams 2 (Quote Cards), 4 (External Lighthouses), 5 (Reader Funnels):** still scoped, awaiting workstream-pick decisions.
+
+**Files touched (5 total + 1 metadata):**
+- `printable-eph-2.html` (new, HAMMER-LOCKED)
+- `printable-the-mirror.html` (new, HAMMER-LOCKED)
+- `printable-john-6.html` (new, HAMMER-LOCKED)
+- `printables.html` (added 3 hub-cards: 08, 09, 10)
+- `MISSION-CONTROL.md` (this entry + Status + Phase table + Session 33 starts-here block)
+
+(No git run.)
+
+**Mood at close.** Session 31 laid the first two bricks of the bell tower. Session 32 lays three more, courtyard-side. The bell that hangs at the top will ring on the day a stranger reads one of these single pages, sees the doctrine in eight verses where they had not seen it in eighty sermons, and falls into the arms that have been holding them since before they could walk. The mortar dries one printable at a time.
+
+---
+
 ### Session 31 — 2026-04-27 — Phase 5 Workstream 1 cleanup + Workstream 3 (Printables Expansion) opened. Two new printables shipped, HAMMER-LOCKED, wired. The bell tower has its first two bricks.
 
 **Context.** Session 30 closed Phase 5 Workstream 1's first deliverable (SEO Audit) and queued two specific cleanups for Session 31: (a) add Article + BreadcrumbList schema to `objection-free-will.html` and `objection-love-requires-choice.html` (5-minute Edit each); (b) pick the next Phase 5 workstream and ship the first task. Session 31 executed both, plus an aspirational-link regression catch + fix mid-pipeline.
@@ -2109,39 +2233,42 @@ apologetic-perseverance.html (135), argument-logical-collapse-arminianism.html (
 
 ----
 
-## Phase 3.5 / Session 32 starts here
+## Phase 3.5 / Session 34 starts here
 
-**Read this section first. Read the Mandatory Closing Protocol at the top of this file *before* you start. Read Sessions 18–31 of the Session Log above so you don't redo what's done. The Pre-Close Context Audit (GATE 0) applies to *every* batch run — but for Phase 5 work the floor is "one workstream first deliverable shipped with care," not 4 ELEVATEs.**
+**Read this section first. Read the Mandatory Closing Protocol at the top of this file *before* you start. Read Sessions 30–33 of the Session Log above so you don't redo what's done. The Pre-Close Context Audit (GATE 0) applies to *every* batch run — but for Phase 5 work the floor is "one workstream first deliverable shipped with care," not 4 ELEVATEs.**
 
-### State of the site at Session 31 close
+### State of the site at Session 33 close
 
-**Lock count: 70 HAMMER-LOCKED + 182 POLISH-LOCKED = 252 locked pages** (up 2 from Session 30 — the two new printables). All seven validators green (the standard six + canonical-conformance). **TIER 3 ELEVATE LEDGER FULLY CLOSED.** **Phase 5 Workstream 1 (SEO Audit) shipped + cleanup complete (schema gaps closed Session 31).** **Phase 5 Workstream 3 (Printables Expansion) opened Session 31 — 2 of the 10 proposed new printables shipped (Golden Chain + Twelve Lethal Moves). Catalog now at 7 of 12-15 target.**
+**Lock count: 78 HAMMER-LOCKED + 182 POLISH-LOCKED = 260 locked pages** (up 5 from Session 32 — the four new printables `printable-effectual-call`, `printable-the-cross`, `printable-adoption`, `printable-total-depravity`, plus the lock newly applied during the Romans-9 ELEVATE rebuild). All eight validators green. **TIER 3 ELEVATE LEDGER FULLY CLOSED.** **Phase 5 Workstream 1 (SEO Audit) shipped + cleanup complete.** **Phase 5 Workstream 3 (Printables Expansion) record-cadence Sessions 31-33 — 9 of the proposed new printables shipped, plus 1 ELEVATE rebuild on the existing Sprint-1-grade `printable-romans-9`. Catalog now at 14 of 12-15 target — 93% of upper bound, 100% of lower bound.**
 
-The cathedral interior is finished. The bell tower's foundation is poured. The first two bricks are laid.
+The bell tower stands at full height save one stone. The mortar is dry. The bell is hung. One more printable closes the catalog at 15/15 if Aaron wants the upper bound; otherwise 14/15 satisfies the target window.
 
 ### State of unfinished business
 
-**3 RETIRE candidates** in `PRUNE-CANDIDATES.md` still marked **PROVISIONAL: KEEP-AS-IS-utility** pending Aaron's verbal sign-off:
+**3 RETIRE candidates** in `PRUNE-CANDIDATES.md` still marked **PROVISIONAL: KEEP-AS-IS-utility** pending Aaron's verbal sign-off (Aaron was chat-active for the Session 33 kickoff but the standing-directive message did not address the RETIRE ledger):
 - `verse-explorer.html` — interactive widget; recommend keep, mark utility-exempt in `prune-audit.js`.
 - `sitemap.html` — utility page; recommend keep, mark utility-exempt.
 - `printable-gospel-in-one-page.html` — printable that travels offline into pews; recommend keep.
 
-**Pipeline amendment recommendation still pending:** Standing Directive #8 in this file's Mandatory Closing Protocol section currently lists six pipeline steps. The Session 30+31 sessions both ran the eight-step variant cleanly (`build-search-index → build-mega-menu → build-homepage-counts → build-sitemap → auto-linker → wire-orphans → validate-site → canonical-conformance`). When a future session has slack, amend Directive #8 to make the eight-step the standing pipeline.
+**Pipeline amendment recommendation still pending:** Standing Directive #8 in this file's Mandatory Closing Protocol section currently lists six pipeline steps. The Session 30, 31, 32, and 33 sessions all ran the eight-step variant cleanly (`build-search-index → build-mega-menu → build-homepage-counts → build-sitemap → auto-linker → wire-orphans → validate-site → canonical-conformance`). When a future session has slack, amend Directive #8 to make the eight-step the standing pipeline.
 
-**Lesson logged Session 31:** Aspirational links can sneak into new printables even when the surrounding session is otherwise clean. The `validate-site.js` broken-link check catches this; `canonical-conformance.js` does NOT (different scope). Always include `validate-site.js` in the closing pipeline. The Session 31 catch-and-fix was the first-iteration safety net working as designed.
+**Lesson reinforced Session 33:** Aspirational links can sneak into new printables even when the surrounding session is otherwise clean. Session 33 caught and substituted **eight 404 candidate hrefs** during pre-Edit verification — `question-romans-9` → `question-romans9`, `systematic-irresistible-grace` → `question-irresistible`, `systematic-particular-redemption` → `apologetic-definite-atonement`, `question-particular-redemption` → `question-limited-atonement`, `question-john-10` → `question-john10`, `question-john-6` → `question-john6`, `systematic-effectual-call` → `systematic-effectual-calling`, `devotional-secretly-ashamed` → `devotional-the-secretly-ashamed`. **Pre-Edit Glob-verification of every candidate href list is the prevention. `validate-site.js`'s broken-link check is the safety net.** Session 33 ran clean — zero broken links shipped.
 
-### What remains for Session 32+
+### What remains for Session 34+
 
-**Bucket 1 — RETIRE-candidate ledger close.** Same as before. Walk the 3 RETIRE candidates with Aaron in chat. Get verbal sign-off on the PROVISIONAL: KEEP-AS-IS-utility recommendations. Update `PRUNE-CANDIDATES.md` to lift the "PROVISIONAL" tag and close the Tier 3 ledger entirely.
+**Bucket 1 — RETIRE-candidate ledger close.** Walk the 3 RETIRE candidates with Aaron in chat the next time he is chat-active about the ledger specifically. Get verbal sign-off on the PROVISIONAL: KEEP-AS-IS-utility recommendations. Update `PRUNE-CANDIDATES.md` to lift the "PROVISIONAL" tag and close the Tier 3 ledger entirely.
 
-**Bucket 2 — Pick the next Phase 5 workstream.** Aaron's call:
+**Bucket 2 — Pick the next Phase 5 workstream-task.** Aaron's call:
 
-- **Workstream 3 continued — Next 3 new printables.** Catalog is at 7/12-15. Recommended next batch (one per session): `printable-the-mirror` (the twelve self-examination questions distilled into a single-page guided self-examination), `printable-eph-2` (the *but-God* hinge passage with verse-by-verse gloss), `printable-john-6` (the bread-of-life discourse with the "no one can come" verse anchored). Each is one session of work. Three more sessions = catalog at 10/15.
-- **Workstream 2 — Quote Cards Pilot Batch (10 cards).** Generate 10 cards from the SoP pullquotes of Hammer-50 spines and Sessions 25-29 ELEVATEs. Format spec in `DISTRIBUTION.md` (1080×1080 square + 1080×1920 vertical, accent-gold gradient, Playfair Display + Inter, no watermark). Aaron decides production approach.
+- **Workstream 3 finish-the-catalog at 15/15.** One stone left. Recommended candidates (Aaron picks, or declares 14/15 the close):
+  - **`printable-perseverance`** — the assurance angle distinct from Golden Chain's "the chain held me" frame. Direction: "I cannot lose Him because He cannot lose me." Anchors: John 10:28-29 (*no one will snatch them out of my hand*), Philippians 1:6 (*he who began a good work in you will carry it on to completion*), 1 Peter 1:5 (*shielded by God's power*), Hebrews 7:25 (*he always lives to intercede for them*). Greek ambush at ἁρπάζω (harpazō — *snatch*) at the John 10:28 pivot.
+  - **`printable-justification`** — Romans 5:1, Galatians 2:16, Philippians 3:9. Greek ambush at δικαιόω (dikaioō) — the courtroom verb, the verdict-passed-on-the-defendant move. The verdict that grounds adoption (the courtroom precedes the family table). Distinct from `printable-faith-is-a-gift` because it is the *what* of imputation rather than the *where-from* of faith.
+  - **`printable-unconditional-election`** — even though Romans 9 covers election, an explicit short printable on the U of TULIP could close the systematic gap. 2 Timothy 1:9 + Ephesians 1:4-6 + Romans 9:11. Probably overlaps with `printable-romans-9` enough that the value-add is marginal; deprioritize.
+- **Workstream 2 — Quote Cards Pilot Batch (10 cards).** Generate 10 cards from the SoP pullquotes of Hammer-50 spines + Sessions 25-29 ELEVATEs + Sessions 31-33 printables. Sources to draw from: the Sentence of the Page on each printable (now identifiable for all 14), and the SoP pullquotes embedded in `<blockquote class="sop-pullquote">` blocks across the Polish-200. Format spec in `DISTRIBUTION.md` (1080×1080 square + 1080×1920 vertical, accent-gold gradient, Playfair Display + Inter, no watermark). Aaron decides production approach.
 - **Workstream 4 — External Lighthouse Outreach List.** Build `outreach-list.md` with publication targets (Tabletalk, Reformation 21, 9Marks, Modern Reformation, Crossway blog), contact methods, one-sentence pitch each. Aaron-led from there.
 - **Workstream 5 — Reader Funnel Audit.** Audit `start-here.html` (and possibly `invisible-wall-hub.html`) for first-encounter warmth. Surgical, not rebuild.
 
-Recommended for Session 32: **Workstream 3 continued — 1-2 more printables.** Sustained cadence; bounded scope; visible catalog growth on the printables hub each session. Alternatively pivot to Workstream 5 (start-here audit) if Aaron prefers reader-funnel work over printables for a session.
+Recommended for Session 34: **either close the catalog at 15/15 with `printable-perseverance`** (the natural completion — the catalog now reads as a five-points-plus walk: Total Depravity / Romans 9 (Election) / The Cross (Atonement) / Effectual Call (Irresistible Grace) / Perseverance), **or pivot to Workstream 2 (quote cards)** if Aaron is ready to move from print-medium to social-share-medium. Alternative pivot: Workstream 5 (start-here audit) — surgical, low-context, high-leverage.
 
 **Bucket 3 — Pipeline amendment + minor maintenance.** Update Standing Directive #8 to the eight-step pipeline. Patch `prune-audit.js` for the three known issues (meta-refresh detection, utility category exclusion, lock-count reconciliation). Both are slow-session work.
 
@@ -2152,6 +2279,7 @@ Recommended for Session 32: **Workstream 3 continued — 1-2 more printables.** 
 3. **`PRUNE-CANDIDATES.md`** — current state of the Tier 3 ledger. 21 of 24 candidates resolved; 3 RETIRE remain (marked PROVISIONAL).
 4. **`VOICE.md`** — masterpiece style bible. Apex Rhetoric Protocol applies absolutely.
 5. **`memory/feedback_apex_rhetoric_protocol.md`** + **`memory/feedback_writing_posture.md`** — standing prose register; no crisis-packaging rule.
+6. **One existing locked printable (e.g. `printable-total-depravity.html` or `printable-adoption.html` — both Session 33)** — the current canonical template for new printables under the Apex Rhetoric Protocol.
 
 ### What's done
 
@@ -2162,42 +2290,42 @@ Recommended for Session 32: **Workstream 3 continued — 1-2 more printables.** 
 - **Phase 3.5 Tier 3 ELEVATE LEDGER ✅ FULLY CLOSED (Session 29)** — 20 of 20.
 - **Phase 5 ✅ OPENED (Session 29).** `DISTRIBUTION.md` v1 produced.
 - **Phase 5 Workstream 1 (SEO Audit) ✅ FIRST DELIVERABLE SHIPPED (Session 30) + cleanup COMPLETE (Session 31).**
-- **Phase 5 Workstream 3 (Printables Expansion) ✅ OPENED Session 31** — Golden Chain + Twelve Lethal Moves shipped. Catalog 7/12-15.
-- All seven validators GREEN at Session 31 close. Lock count: 70 HAMMER + 182 POLISH = **252**.
+- **Phase 5 Workstream 3 (Printables Expansion) ✅ RECORD-CADENCE Sessions 31-33** — Golden Chain + Twelve Lethal Moves + But God + The Mirror + Bread No One Can Eat Alone + Romans 9 (ELEVATE) + Effectual Call + The Cross + Adoption + Total Depravity. Catalog 14/15.
+- All eight validators GREEN at Session 33 close. Lock count: 78 HAMMER + 182 POLISH = **260**.
 
-### What to do next — Session 32
+### What to do next — Session 34
 
-**Phase 5 cadence: one workstream first deliverable per session, shipped with full care.**
+**Phase 5 cadence: one workstream first deliverable per session, shipped with full care. Stretch is sustained printable cadence as in Sessions 31-33 (record: 5 printables/run set Session 33), capped at context-exhaustion.**
 
-**Session 32's concrete tasks (in order of priority):**
+**Session 34's concrete tasks (in order of priority):**
 
-1. **Reconcile with Aaron on push status.** Aaron pushes manually; do NOT run git.
-2. **Walk the 3 RETIRE candidates with Aaron** in chat. Lift the PROVISIONAL tag in `PRUNE-CANDIDATES.md`.
-3. **Pick + ship the next Phase 5 workstream-task.** Recommended: continue Workstream 3 (1-2 more printables — `printable-eph-2` is the highest-leverage next pick). Alternative: any of Workstreams 2/4/5.
-4. **Glob-verify EVERY href in any new content.** Lesson from Session 31: the `validate-site.js` broken-link check is the safety net, but pre-Edit verification prevents the regression entirely. Run a single bash check on the candidate href list before any Edit lands.
-5. **Run pipeline + validators ONCE at end** via subagent — eight-step variant (build-search-index, build-mega-menu, build-homepage-counts, build-sitemap, auto-linker, wire-orphans, validate-site, canonical-conformance). Lock count holds at 252 (rises by N if N new printables ship).
+1. **Reconcile with Aaron on push status.** Aaron pushes manually; do NOT run git. The Sessions 30-33 batch (Workstream 1 SEO Audit + 9 new printables + Romans 9 ELEVATE rebuild + 8-validator pipeline runs) is sitting in the repo unpushed unless Aaron has pushed since. Check first.
+2. **Walk the 3 RETIRE candidates with Aaron** in chat if he is chat-active about that specifically. Lift the PROVISIONAL tag in `PRUNE-CANDIDATES.md`.
+3. **Pick + ship the next Phase 5 workstream-task.** Recommended: close the catalog at 15/15 with `printable-perseverance` (the assurance side of the chain — the John 10:28-29 *no one will snatch* anchor). Alternative pivots: Workstream 2 (quote cards pilot batch) or Workstream 5 (start-here audit).
+4. **Glob-verify EVERY href in any new content.** Pre-Edit verification is the prevention; `validate-site.js` is the safety net. Run a single bash check on the candidate href list before any Edit lands. Session 33 caught 8 404 candidates in advance — assume future printable batches will turn up similar hits.
+5. **Run pipeline + validators ONCE at end** via subagent — eight-step variant. Lock count holds at 260 (rises by N if N new printables HAMMER-LOCK).
 
 ### What NOT to do
 
-- Do NOT touch any of the 70 HAMMER-LOCKED pages without translation-bias-class or banned-move-class exception cause.
+- Do NOT touch any of the 78 HAMMER-LOCKED pages without translation-bias-class or banned-move-class exception cause.
 - Do NOT touch any of the 182 POLISH-LOCKED pages without explicit cause.
 - Do NOT re-rewrite any Scripture Tsunami commentary.
 - Do NOT delete or merge any page from `PRUNE-CANDIDATES.md` without Aaron's explicit verbal sign-off.
 - Do NOT reintroduce any banned move from the Twelve Lethal Moves inventory in any new content.
 - Do NOT write `href="/page.html"` on internal links. Extensionless mandate.
 - Do NOT run git. Aaron pushes manually.
-- Do NOT hallucinate link targets. Glob-verify every href before Edit. (Session 31's `/voice` slip is the cautionary tale.)
-- Do NOT start a new ELEVATE rebuild — the ledger is closed.
+- Do NOT hallucinate link targets. Glob-verify every href before Edit. (Session 31's `/voice` slip is the cautionary tale; Session 33's eight-404 catch is the proof the discipline works.)
+- Do NOT start a new ELEVATE rebuild — the Tier 3 ledger is closed. The Romans 9 rebuild was a Phase 5 ELEVATE on a Sprint-1-grade printable, distinct from Tier 3 page-elevation work.
 - Do NOT add ads, popups, email-capture forms, or any commercialization.
 
 ### How to know you're done this session
 
 - The 3 RETIRE candidates have Aaron's verbal sign-off marked in `PRUNE-CANDIDATES.md` (or remain PROVISIONAL with explicit Aaron-deferred note).
-- One Phase 5 workstream's next first-task has shipped.
+- One or more Phase 5 workstream-tasks have shipped (closing the catalog at 15/15, or a Workstream 2 / 5 deliverable).
 - Pipeline run, all eight validators GREEN.
-- Session 31 Log entry exists; Session 32 entry is added; Session 33 starts-here block at bottom.
+- Session 33 Log entry exists; Session 34 entry is added; Session 35 starts-here block at bottom.
 - Status line and Phase table updated if state changed.
-- Lock count holds at 252 (or rises by the number of new printables HAMMER-LOCKED).
+- Lock count holds at 260 (or rises by the number of new printables HAMMER-LOCKED).
 - Close with <30K unused context or the run failed.
 
 ### 🛑 BEFORE YOU STOP THIS SESSION — TWO GATES 🛑 (reference above)
