@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-04-28T06:56:54.412Z",
+  "generated": "2026-05-04T14:11:30.273Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 502,
+    "articles_audited": 512,
     "total_redundancy_pairs_flagged": 13,
-    "total_sentences_flagged": 734,
+    "total_sentences_flagged": 808,
     "total_redundancy_pairs_suppressed": 19,
-    "total_sentences_suppressed": 101,
+    "total_sentences_suppressed": 111,
     "articles_with_redundancy": 13,
-    "articles_with_flagged_sentences": 324,
-    "articles_clean": 171,
+    "articles_with_flagged_sentences": 336,
+    "articles_clean": 169,
     "suppression_by_class": {
       "scripture-tsunami": 10,
       "pedagogical-anaphora": 2,
@@ -31,6 +31,42 @@
       "suppressed_sentence_count": 11
     },
     {
+      "file": "apologetic-revival-and-sovereign-grace.html",
+      "score": 11,
+      "paragraphs": 33,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 11,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-lydias-heart.html",
+      "score": 10,
+      "paragraphs": 42,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 10,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 3
+    },
+    {
+      "file": "apologetic-the-unbroken-chain.html",
+      "score": 10,
+      "paragraphs": 38,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 10,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
+    },
+    {
+      "file": "apologetic-the-eulogy-greek-of-ephesians-1.html",
+      "score": 9,
+      "paragraphs": 34,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 9,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
+    },
+    {
       "file": "response-jerry-walls.html",
       "score": 9,
       "paragraphs": 63,
@@ -38,6 +74,15 @@
       "flagged_sentence_count": 9,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-hilasterion-the-mercy-seat.html",
+      "score": 8,
+      "paragraphs": 34,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
     },
     {
       "file": "argument-cost-of-being-wrong.html",
@@ -83,6 +128,15 @@
       "flagged_sentence_count": 7,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-ekloge-the-greek-of-election.html",
+      "score": 6,
+      "paragraphs": 44,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
     },
     {
       "file": "question-predestined-to-hell.html",
@@ -281,6 +335,24 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-arrabon-the-down-payment.html",
+      "score": 4,
+      "paragraphs": 32,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-the-fourth-day-corpse.html",
+      "score": 4,
+      "paragraphs": 31,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
     },
     {
       "file": "counter-cs-lewis-free-will.html",
@@ -517,6 +589,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "apologetic-owen-trilemma.html",
+      "score": 3,
+      "paragraphs": 41,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
       "file": "argument-arminian-sermon-illustrations-refuted.html",
       "score": 3,
       "paragraphs": 104,
@@ -634,6 +715,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "history-golden-thread.html",
+      "score": 3,
+      "paragraphs": 29,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
+    },
+    {
       "file": "history-korean-revival.html",
       "score": 3,
       "paragraphs": 53,
@@ -650,96 +740,6 @@
       "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
-    },
-    {
-      "file": "objection-author-of-sin.html",
-      "score": 3,
-      "paragraphs": 34,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
-    },
-    {
-      "file": "objection-effort.html",
-      "score": 3,
-      "paragraphs": 37,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "objection-free-will.html",
-      "score": 3,
-      "paragraphs": 43,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 3
-    },
-    {
-      "file": "open-wound-empty-nursery.html",
-      "score": 3,
-      "paragraphs": 29,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "open-wound-terminal-diagnosis.html",
-      "score": 3,
-      "paragraphs": 33,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2
-    },
-    {
-      "file": "ot-abel-cain.html",
-      "score": 3,
-      "paragraphs": 38,
-      "redundancy_count": 1,
-      "flagged_sentence_count": 1,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "ot-abraham.html",
-      "score": 3,
-      "paragraphs": 27,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
-    },
-    {
-      "file": "pastoral-when-truth-lands.html",
-      "score": 3,
-      "paragraphs": 26,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "philosophy-theater-script.html",
-      "score": 3,
-      "paragraphs": 32,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "psychology-why-we-resist.html",
-      "score": 3,
-      "paragraphs": 91,
-      "redundancy_count": 1,
-      "flagged_sentence_count": 1,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
     }
   ],
   "articles": [
@@ -861,6 +861,14 @@
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
+          "paragraph": 6,
+          "sentence_index": 0,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "And here is the question that unmakes every false gospel: if you are spiritually dead  —  without the apparatus by which a will reaches toward anything at all, unable to hear God's voice as anything b"
+        },
+        {
           "paragraph": 44,
           "sentence_index": 6,
           "flags": [
@@ -872,10 +880,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 2
     },
     {
       "file": "analogy-light-switch.html",
@@ -1174,6 +1182,52 @@
       "score": 1
     },
     {
+      "file": "apologetic-arrabon-the-down-payment.html",
+      "paragraphs": 32,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 21,
+          "sentence_index": 0,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "The deepest pastoral mistake one can make about perseverance is this: to read the believer's interior struggle  —  the doubt at three a.m., the dry season in prayer, the shame after a relapse , the fe"
+        },
+        {
+          "paragraph": 23,
+          "sentence_index": 1,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "In the Confessions , recounting his unconverted years, he wrote of the inability to desire God; in the On the Spirit and the Letter , after his conversion, he wrote of the new ability that the Spirit'"
+        },
+        {
+          "paragraph": 25,
+          "sentence_index": 3,
+          "flags": [
+            "long:90w"
+          ],
+          "preview": "If you were not, you have never believed; the question of perseverance does not yet apply to you, and the more pressing question is whether the Father will give you the gift of faith tonight. (He give"
+        },
+        {
+          "paragraph": 29,
+          "sentence_index": 7,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "The Bridegroom set the ring on the Bride's hand before the foundation of the world , and the metal of that ring is the very life He breathed into her dead body on the day He raised her, and the engage"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 4
+    },
+    {
       "file": "apologetic-babies.html",
       "paragraphs": 31,
       "redundancy_pairs": [],
@@ -1217,6 +1271,77 @@
       "score": 2
     },
     {
+      "file": "apologetic-ekloge-the-greek-of-election.html",
+      "paragraphs": 44,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 3,
+          "sentence_index": 5,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "In the Septuagint it is the standard word for God choosing Israel out of all the nations of the earth  —  an act in which Israel had not yet been formed as a nation, could not have lobbied for the cho"
+        },
+        {
+          "paragraph": 3,
+          "sentence_index": 6,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "In the New Testament, Luke uses it for Jesus choosing the Twelve out of His broader following, and Paul uses the related noun eklogē seven times  —  every single instance referring to a divine selecti"
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 3,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "And inside that beam are two Greek words  —  eklogē and prothesis  —  that we are now going to take down and examine separately, because the apostle has set them in load-bearing positions and the hear"
+        },
+        {
+          "paragraph": 21,
+          "sentence_index": 0,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "The second escape attempt is the corporate-election reading: that Romans 9 is about Israel as a nation, not about individuals; that Jacob and Esau stand for the peoples of Israel and Edom; that the el"
+        },
+        {
+          "paragraph": 24,
+          "sentence_index": 1,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "The chapter that follows opens with \"It is not as though God's word had failed\" and develops the point through a series of singular-recipient examples: Pharaoh (an individual), the potter and the lump"
+        },
+        {
+          "paragraph": 35,
+          "sentence_index": 3,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "The weight of my salvation rests not on the strength of my grip but on the disposition of the One whose mercy reached me before I was born, before I had done anything good or bad, before my will or my"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 11,
+          "sentence_index": 0,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:before any×3"
+          ],
+          "preview": "Paul writes that the purpose-according-to-election was operative before the twins were born  —  μήπω γὰρ γεννηθέντων (mē"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 6
+    },
+    {
       "file": "apologetic-evangelism.html",
       "paragraphs": 33,
       "redundancy_pairs": [],
@@ -1239,6 +1364,258 @@
       "score": 0
     },
     {
+      "file": "apologetic-hilasterion-the-mercy-seat.html",
+      "paragraphs": 34,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 4,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The blood does not atone if it is sprinkled outside the most holy place; it does not atone if it is sprinkled on the floor; it does not atone if it is sprinkled on the curtain or on the menorah or on "
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 6,
+          "flags": [
+            "long:58w"
+          ],
+          "preview": "He is saying: that thing the high priest sprinkles blood on once a year for the covenant people  —  Jesus is that thing, and His blood is the blood that has been sprinkled there, and the day when aton"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 5,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "To apply it to Christ is to say the same thing with respect to Christ that was always true with respect to the lid: the atonement is made here, with this blood, for these people, by the divine arrange"
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 2,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "If the Son's atoning work is grounded in His high-priestly intercession (as Hebrews 7:25 and 9:24 explicitly teach), then the people for whom the atonement was made are the people for whom the prayer "
+        },
+        {
+          "paragraph": 20,
+          "sentence_index": 2,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "The atonement is universal in its sufficiency  —  the value of Christ's blood is infinite and would be enough to cover every sin of every human being who ever lived  —  but particular in its efficienc"
+        },
+        {
+          "paragraph": 23,
+          "sentence_index": 1,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "If the atonement was made for the non-elect, then the non-elect have had their sins atoned for; and if their sins have been atoned for, then God cannot justly punish them in hell for those sins, becau"
+        },
+        {
+          "paragraph": 25,
+          "sentence_index": 3,
+          "flags": [
+            "long:68w"
+          ],
+          "preview": "Add to those three the Greek-of-election arguments for unconditional election ( Romans 9 and Ephesians 1's eulogy ), the Greek-of-perseverance arguments ( arrabōn and the proleptic aorist ), the irres"
+        },
+        {
+          "paragraph": 31,
+          "sentence_index": 0,
+          "flags": [
+            "long:90w"
+          ],
+          "preview": "The whole sweep of the doctrine  —  the Father's eternal-past election in the eulogy of Ephesians 1, the Son's particular atonement at the mercy seat in Romans 3:25, the Spirit's effectual call at the"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 4,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:priest,crossed"
+          ],
+          "preview": "It sat in the most holy chamber of the tabernacle and later of the Solomonic and Herodian temples, behind a curtain that"
+        },
+        {
+          "paragraph": 27,
+          "sentence_index": 3,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:person,mercy"
+          ],
+          "preview": "If you were not, then the architecture of the cross does not yet apply to you in person, and the more pressing question "
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2,
+      "score": 8
+    },
+    {
+      "file": "apologetic-lydias-heart.html",
+      "paragraphs": 42,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 2,
+          "sentence_index": 3,
+          "flags": [
+            "direction-mismatch:\\bclosed[^.]{0,40}?\\bopened\\b"
+          ],
+          "preview": "It is a thoroughgoing opening, an opening from the inside out, an opening of something that was closed in such a way that it could not have opened itself."
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 6,
+          "flags": [
+            "long:66w"
+          ],
+          "preview": "And John himself, the same writer, uses helkyō later in his Gospel for two unmistakable purposes: in John 18:10 , Peter draws his sword (you do not \"invite\" a sword from a scabbard); in John 21:11, th"
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 0,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The Westminster Divines, sitting in a side room at Westminster Abbey in the 1640s with no MRI scanners, no positron emission tomography, no functional connectivity studies, no concept of the dopaminer"
+        },
+        {
+          "paragraph": 15,
+          "sentence_index": 4,
+          "flags": [
+            "direction-mismatch:\\bopened[^.]{0,40}?\\bclosed\\b"
+          ],
+          "preview": "The opened heart that was closed is, in the very moment of its opening, an opened heart that wants what it now sees."
+        },
+        {
+          "paragraph": 16,
+          "sentence_index": 3,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "And the reader who has been around long enough to watch their own preferences shift over a decade  —  to find themselves loving books they would have hated at twenty, music they would have walked out "
+        },
+        {
+          "paragraph": 17,
+          "sentence_index": 0,
+          "flags": [
+            "long:64w"
+          ],
+          "preview": "The Reformed tradition, four centuries before cognitive neuroscience existed as a discipline, articulated the mechanism cognitive neuroscience would later confirm: that the human will operates on top "
+        },
+        {
+          "paragraph": 21,
+          "sentence_index": 6,
+          "flags": [
+            "long:61w"
+          ],
+          "preview": "The thing she had not wanted at sunrise had become the only thing she wanted by noon, and the wanting felt as much hers as anything had ever felt hers, because the wanting was hers  —  only now it was"
+        },
+        {
+          "paragraph": 22,
+          "sentence_index": 7,
+          "flags": [
+            "padding-modifier:in the silence"
+          ],
+          "preview": "The conscious self of Lydia announces its yes and the announcement is genuine, but the announcement is not the cause; the cause is the diēnoixen that took place in the silence beneath."
+        },
+        {
+          "paragraph": 26,
+          "sentence_index": 3,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "There was a Sunday a slightly different breath landed in the room, a verse that had read like advertising for years suddenly read like an X-ray, a heart that had been a closed door becoming, between T"
+        },
+        {
+          "paragraph": 30,
+          "sentence_index": 2,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "The new preferences that ordinarily would never have formed at all (because the substrate was not pointed at the right kind of input, because the input that was available was systematically rejected) "
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 14,
+          "sentence_index": 0,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:effectually,grace,jesus,christ"
+          ],
+          "preview": "\"All those whom God hath predestinated unto life, and those only, He is pleased, in His appointed and accepted time, eff"
+        },
+        {
+          "paragraph": 34,
+          "sentence_index": 8,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:and the×3"
+          ],
+          "preview": "He rewrote the place where your preferences are formed before your conscious self had any say in the matter, and in the "
+        },
+        {
+          "paragraph": 40,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:the day×5"
+          ],
+          "preview": "That on the day the substrate beneath you turns again  —  the day the depression comes, the day the doubt arrives, the d"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 10,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 3,
+      "score": 10
+    },
+    {
+      "file": "apologetic-owen-trilemma.html",
+      "paragraphs": 41,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 7,
+          "sentence_index": 4,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The Reformer Martin Luther saw this branch arriving from the late medieval penitential system and named it as a recipe for despair: a man could never know, on his deathbed, whether he had repented suf"
+        },
+        {
+          "paragraph": 23,
+          "sentence_index": 1,
+          "flags": [
+            "long:67w"
+          ],
+          "preview": "If the High Priest in His intercession is praying only for those given to Him, and if the High Priest's intercession and the High Priest's sacrifice are the same act in two phases (Hebrews 7:24–25 mak"
+        },
+        {
+          "paragraph": 37,
+          "sentence_index": 6,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The unconverted heart hates this doctrine with an animal hatred; the elect heart, when it sees the doctrine clearly for the first time, weeps with relief because at last the cross has been described i"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 3
+    },
+    {
       "file": "apologetic-perseverance.html",
       "paragraphs": 32,
       "redundancy_pairs": [],
@@ -1250,6 +1627,391 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 0
+    },
+    {
+      "file": "apologetic-priest-shoulders.html",
+      "paragraphs": 35,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 18,
+          "sentence_index": 2,
+          "flags": [
+            "long:58w"
+          ],
+          "preview": "Future indicative active never means \"tries and fails.\" So one of two things must be true: either every single member of ton laon autou is in fact saved, in which case the people of God is exactly the"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 1
+    },
+    {
+      "file": "apologetic-revival-and-sovereign-grace.html",
+      "paragraphs": 33,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 3,
+          "flags": [
+            "long:60w"
+          ],
+          "preview": "When the Spirit of God has descended on a town or a country in an outpouring so undeniable that even hostile observers conceded something supernatural was occurring, the question worth asking  —  quie"
+        },
+        {
+          "paragraph": 1,
+          "sentence_index": 1,
+          "flags": [
+            "long:60w"
+          ],
+          "preview": "Across three of the most-studied awakenings of the last three centuries  —  New England in the 1730s and 1740s, Wales in 1859, Pyongyang in 1907  —  the doctrine the awakened were preaching, the doctr"
+        },
+        {
+          "paragraph": 3,
+          "sentence_index": 4,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "The pattern: a sudden conviction of sin so deep the person could not shake it; a desperation that could not be alleviated by any moral reform; an arrival, often abrupt, of an apprehension of Christ as"
+        },
+        {
+          "paragraph": 4,
+          "sentence_index": 7,
+          "flags": [
+            "long:67w"
+          ],
+          "preview": "The Spirit poured out in measurable, observable, sociologically documented power, and the message that was being preached when the outpouring came was the message that the human being is dead in tresp"
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 1,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "Its national spread came through itinerant preachers who criss-crossed the colonies in the 1740s  —  most famously George Whitefield , the English evangelist whose voice could be heard, by Benjamin Fr"
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 3,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "Compare this with the contemporary work of Charles Finney , whose Pelagianizing methods produced large numerical results but, by Finney's own later admission in his Memoirs , an attrition rate so deva"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 0,
+          "flags": [
+            "long:88w"
+          ],
+          "preview": "Letters and diaries from the period record the experience again and again: a congregation gathered for an ordinary service; the minister rose to preach what he had prepared; before he had finished his"
+        },
+        {
+          "paragraph": 23,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The conclusion is more modest and more disturbing: when the Spirit's outpouring has been sustained, undeniable, and historically transformative, the doctrine being preached at the pulpit has, with rem"
+        },
+        {
+          "paragraph": 28,
+          "sentence_index": 0,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "And the case for unconditional election from the Greek of Romans 9 , the case for the Lazarus monergism diagram of the fourth-day corpse , the case for the Owen Trilemma in the death of death in the d"
+        },
+        {
+          "paragraph": 29,
+          "sentence_index": 0,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "The historical argument and the lexical argument and the philosophical argument and the experiential argument all converge on the same observation that the apostle Paul, the Reformer Calvin, the Purit"
+        },
+        {
+          "paragraph": 30,
+          "sentence_index": 1,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The same Spirit who poured Himself on Northampton in 1734, on the Welsh chapels in 1859, on the Korean meetings in 1907, is the Spirit who is at work on the inside of every reader who has ever cared w"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 11,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 11
+    },
+    {
+      "file": "apologetic-the-eulogy-greek-of-ephesians-1.html",
+      "paragraphs": 34,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 3,
+          "flags": [
+            "long:79w"
+          ],
+          "preview": "Two hundred and one words in the Greek, no period anywhere in the middle, no full stop until the end of verse fourteen  —  a single grammatical structure of breathtaking length, ornamented like a cath"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 2,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "The Son was set apart as the Lamb before the world was made; the believer was set apart as the Bride before the world was made; and the temporal unfolding of redemption is the working out of an agreem"
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 0,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "If you wished to insert a foreseen-faith basis into pro katabolēs kosmou , you would have to argue that God, before the cosmos existed, looked forward into a future He had not yet decreed and observed"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 2,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "The preposition kata here governs the standard or pattern according to which an action is taken; eudokia is the compound noun from eu (good) and dokein (to seem, to think, to deem)  —  literally, that"
+        },
+        {
+          "paragraph": 22,
+          "sentence_index": 2,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "To be elect in Christ is to be a member of the body of Christ; and to be a member of the body of Christ is, by Paul's repeated insistence, to have been placed there by the Spirit who applied the Fathe"
+        },
+        {
+          "paragraph": 27,
+          "sentence_index": 0,
+          "flags": [
+            "long:63w"
+          ],
+          "preview": "Add to those readings the Aaron's-onyx-stones case for definite atonement , the down-payment case for perseverance , the proleptic-aorist case for perseverance , the Acts 16:14 case for irresistible g"
+        },
+        {
+          "paragraph": 27,
+          "sentence_index": 3,
+          "flags": [
+            "long:66w"
+          ],
+          "preview": "Every Greek word, every historical episode, every philosophical move converging on the same observation that the apostle Paul, the Reformer Calvin, the Puritan Owen, the awakened Edwards, and the Wels"
+        },
+        {
+          "paragraph": 30,
+          "sentence_index": 5,
+          "flags": [
+            "long:84w"
+          ],
+          "preview": "The eulogy is enrolling you, by the very act of reading, in the doxological refrain  —  to the praise of His glory  —  which is the only sane response a creature can have to the discovery that her exi"
+        },
+        {
+          "paragraph": 32,
+          "sentence_index": 4,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "The hand that put your name into the eternal counsel of God before the cosmos was laid down is the same hand that holds you now, in the privacy of this paragraph, with all the immovable affection of t"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 31,
+          "sentence_index": 3,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:the fact×3"
+          ],
+          "preview": "The fact that the doctrine moves you, the fact that you have read this far, the fact that some part of you wants the doc"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 9,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 9
+    },
+    {
+      "file": "apologetic-the-fourth-day-corpse.html",
+      "paragraphs": 31,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 11,
+          "sentence_index": 0,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "For the synergistic reading to work, you would have to insert a hidden motion that John does not record: at some moment between the calling and the coming, Lazarus would have to wake up enough to hear"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 3,
+          "flags": [
+            "long:59w"
+          ],
+          "preview": "Lazarus is, until the call lands, in the same metaphysical state Paul will later describe in Ezekiel's valley of dry bones and in Ephesians 2: nekrous  —  the very Greek adjective Paul reaches for whe"
+        },
+        {
+          "paragraph": 19,
+          "sentence_index": 2,
+          "flags": [
+            "long:58w"
+          ],
+          "preview": "He wrote a sentence that, four hundred years after his death, the Reformed tradition would press at the heart of its doctrine of regeneration: \"My new will, with which I had begun to will to worship T"
+        },
+        {
+          "paragraph": 24,
+          "sentence_index": 2,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "The one who believes in me will live, even though they die; and whoever lives by believing in me will never die.\" The doubled resurrection-and-life language is structurally double-coded: it points tow"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 8,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:78w-raw/48w-prose"
+          ],
+          "preview": "\"The dead man came out, his hands and feet wrapped with strips of linen, and a cloth around his face.\" Notice the verb c"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 4
+    },
+    {
+      "file": "apologetic-the-unbroken-chain.html",
+      "paragraphs": 38,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 3,
+          "sentence_index": 9,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "The fifth  —  glorification  —  is the resurrection-body, sinless-presence-with-God state that the Roman believers were still hoping for in the next chapter, the one Paul will spend chapters 9 through"
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 5,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The human being's salvation is being told to her from the perspective of the seat above the world, where the wedding has already happened, the trumpet has already sounded, the dead have already been r"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 3,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "The unbroken pronoun and the unbroken aorist together close the door on every reading in which the believer's perseverance is conditioned on her own ongoing faithfulness, and they open the door wide o"
+        },
+        {
+          "paragraph": 20,
+          "sentence_index": 4,
+          "flags": [
+            "long:59w"
+          ],
+          "preview": "The aorist of glorification is the grammar of an accomplishment so secure that the apostle's rhetorical position is to look back on it from the future, the way a parent looks back on the graduation of"
+        },
+        {
+          "paragraph": 25,
+          "sentence_index": 3,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "Neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the"
+        },
+        {
+          "paragraph": 28,
+          "sentence_index": 2,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "The Father chooses; the Son atones; the Spirit indwells; the Father's choice is the cause of the Son's atonement; the Son's atonement is the cause of the Spirit's indwelling; and the Spirit's indwelli"
+        },
+        {
+          "paragraph": 28,
+          "sentence_index": 3,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "Add to those facets the deep-Greek of Romans 9 election , the neuroscience-of-conversion case for irresistible grace at Lydia's heart , the trilemma of Owen's argument for definite atonement , and the"
+        },
+        {
+          "paragraph": 30,
+          "sentence_index": 3,
+          "flags": [
+            "long:86w"
+          ],
+          "preview": "If you were not, then the chain has not yet begun for you, and the more pressing question is whether the Father will give you the gift of faith tonight by which the chain begins. (He gives it generous"
+        },
+        {
+          "paragraph": 33,
+          "sentence_index": 6,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "The internal witness of the Spirit and the external witness of Paul's grammar are not two witnesses; they are one witness, given twice  —  once from outside in the apostolic letter and once from insid"
+        },
+        {
+          "paragraph": 35,
+          "sentence_index": 4,
+          "flags": [
+            "long:65w"
+          ],
+          "preview": "The chain is the diagram of the believer's whole life, written in five Greek aorist verbs, anchored in eternity past at the first link and anchored in eternity future at the fifth, and the metal betwe"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 29,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:read in×3"
+          ],
+          "preview": "All of it is the careful, repeated, mutually reinforcing testimony of the Greek New Testament  —  read in the original, "
+        },
+        {
+          "paragraph": 34,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:and the×3"
+          ],
+          "preview": "The metal of your soul was placed on the anvil of God's eternal love before the world was made, and the hammer struck fi"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 10,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2,
+      "score": 10
     },
     {
       "file": "apologetic-unreached.html",
@@ -4050,6 +4812,14 @@
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
+          "paragraph": 9,
+          "sentence_index": 6,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "No soft yes waiting somewhere in the dark for the right invitation."
+        },
+        {
           "paragraph": 10,
           "sentence_index": 1,
           "flags": [
@@ -4061,10 +4831,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 2
     },
     {
       "file": "devotional-in-christ.html",
@@ -5216,9 +5986,9 @@
           "paragraph": 34,
           "sentence_index": 6,
           "flags": [
-            "long:66w"
+            "long:70w"
           ],
-          "preview": "But the hammer they swung today will keep ringing for fifteen centuries, traveling at the speed of truth, until it rings in a living room in Texas, and a kitchen in Seoul, and an office at 2am in Lago"
+          "preview": "But the hammer they swung today will keep ringing for fifteen centuries, traveling at the speed of truth, until it rings in a living room in Texas, and a kitchen in Seoul, and an office in Lagos when "
         },
         {
           "paragraph": 36,
@@ -5344,6 +6114,14 @@
             "long:47w"
           ],
           "preview": "You have followed it now  —  backward through twenty centuries, through prison cells and pulpits and persecutions and revivals and bones dug up and burned and ideas that survived anyway because the Go"
+        },
+        {
+          "paragraph": 27,
+          "sentence_index": 3,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "It ran through a book someone left on a shelf, or a conversation you didn't plan, or a verse that hit you in the chest in a sleepless quiet, or a page on a website you found because you were searching"
         }
       ],
       "suppressed_redundancy": [],
@@ -5358,10 +6136,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 2
+      "score": 3
     },
     {
       "file": "history-great-awakening.html",
@@ -5823,7 +6601,7 @@
           "flags": [
             "long:49w"
           ],
-          "preview": "But behind it, on their side, the same Shepherd who opened your eyes is already at work  —  in prayers you will never hear, in 2am doubts you will never witness, in a sentence from a sermon that will "
+          "preview": "But behind it, on their side, the same Shepherd who opened your eyes is already at work  —  in prayers you will never hear, in sleepless-dark doubts you will never witness, in a sentence from a sermon"
         }
       ],
       "suppressed_redundancy": [],
@@ -6026,14 +6804,23 @@
       "file": "joy-no-other-theology.html",
       "paragraphs": 40,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 2,
+          "sentence_index": 4,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "The kind that made Paul sing hymns in prison in the dark hours after the rods, with his back raw and the chains still cold against his skin."
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 1
     },
     {
       "file": "joy-security-changes-everything.html",
@@ -6946,9 +7733,9 @@
           "paragraph": 3,
           "sentence_index": 9,
           "flags": [
-            "long:50w"
+            "long:52w"
           ],
-          "preview": "It was the actual you  —  the you of the tantrum in the parking lot, the search history at midnight, the resentment of the more obedient brother, the prayer you have not prayed in three weeks because "
+          "preview": "It was the actual you  —  the you of the tantrum in the parking lot, the search history in the unlit hour, the resentment of the more obedient brother, the prayer you have not prayed in three weeks be"
         }
       ],
       "suppressed_redundancy": [],
@@ -8038,6 +8825,14 @@
       "flagged_sentences": [
         {
           "paragraph": 24,
+          "sentence_index": 0,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "And then something happens on a page like this one, or in a sermon you didn't plan to hear, or in a kitchen long after the dishes have been put away when you thought you were alone, and for the space "
+        },
+        {
+          "paragraph": 24,
           "sentence_index": 4,
           "flags": [
             "long:75w"
@@ -8048,10 +8843,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 2
     },
     {
       "file": "psychology-autonomy-illusion.html",
@@ -8999,7 +9794,7 @@
     },
     {
       "file": "question-dead-in-sin-meaning.html",
-      "paragraphs": 40,
+      "paragraphs": 42,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -11537,16 +12332,33 @@
     },
     {
       "file": "start-here-phase1.html",
-      "paragraphs": 28,
+      "paragraphs": 34,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 15,
+          "sentence_index": 9,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "But asking the Spirit to soften you toward the same person, asking the Father to let His Word land in your chest, asking the Son to be more lovely to you tomorrow than He was today  —  that takes whit"
+        },
+        {
+          "paragraph": 17,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "But ask him to want the same God his Sunday liturgy is praising, in the privacy of his own bedroom on a Tuesday with no one watching, with the same intensity he wants the next episode of his show  —  "
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 2
     },
     {
       "file": "start-here-phase2.html",
@@ -12129,7 +12941,7 @@
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:or in×3"
           ],
-          "preview": "If you are sitting on a bathroom floor tonight  —  or in a parked car, or in a kitchen at 3 a.m., or in a hospital chair"
+          "preview": "If you are sitting on a bathroom floor tonight  —  or in a parked car, or in a kitchen when the house has gone quiet, or"
         }
       ],
       "redundancy_count": 0,
@@ -13028,6 +13840,14 @@
             "long:46w"
           ],
           "preview": "And it is also the only answer that removes all boasting  —  because the righteousness you plead is not yours, which means there is nothing in the transaction you can take credit for, which means the "
+        },
+        {
+          "paragraph": 29,
+          "sentence_index": 0,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "When the accuser comes  —  and he will come, often, in the long sleepless hours, in the form of your own voice reciting your recent failures as evidence you are not really saved  —  you do not defeat "
         }
       ],
       "suppressed_redundancy": [],
@@ -13042,10 +13862,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 1
+      "score": 2
     },
     {
       "file": "systematic-justification.html",
@@ -13146,9 +13966,9 @@
           "paragraph": 26,
           "sentence_index": 7,
           "flags": [
-            "long:68w"
+            "long:67w"
           ],
-          "preview": "Twenty centuries from now, on a backlit screen in a dark room, someone scrolling at two in the morning will read what he is writing right now and the breath will go out of them, because the same Spiri"
+          "preview": "Twenty centuries from now, on a backlit screen in a dark room, someone scrolling in a sleepless quiet will read what he is writing right now and the breath will go out of them, because the same Spirit"
         },
         {
           "paragraph": 27,
@@ -13388,7 +14208,7 @@
     },
     {
       "file": "systematic-tulip.html",
-      "paragraphs": 34,
+      "paragraphs": 36,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -13408,7 +14228,7 @@
           "preview": "Of course the tide keeps rising and falling."
         },
         {
-          "paragraph": 33,
+          "paragraph": 35,
           "sentence_index": 3,
           "flags": [
             "long:59w"
