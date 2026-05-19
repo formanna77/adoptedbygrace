@@ -2,6 +2,12 @@
 # Redirect old domain to new
 https://re-formed.netlify.app/*  https://adoptedbygrace.net/:splat  301!
 
+# Sitemap aliases — recover crawler traffic
+# Googlebot/Bingbot probe these paths; without redirects we lose indexing attempts
+/sitemap.xml.gz       /sitemap.xml    301
+/sitemap_index.xml    /sitemap.xml    301
+/sitemap/             /sitemap.xml    301
+
 # Engagement pages — clean URLs
 /connect    /contact.html    301
 /donate     /donate.html     200
