@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-04T14:11:30.273Z",
+  "generated": "2026-05-20T15:43:49.210Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 512,
+    "articles_audited": 523,
     "total_redundancy_pairs_flagged": 13,
-    "total_sentences_flagged": 808,
+    "total_sentences_flagged": 890,
     "total_redundancy_pairs_suppressed": 19,
-    "total_sentences_suppressed": 111,
+    "total_sentences_suppressed": 135,
     "articles_with_redundancy": 13,
-    "articles_with_flagged_sentences": 336,
+    "articles_with_flagged_sentences": 347,
     "articles_clean": 169,
     "suppression_by_class": {
       "scripture-tsunami": 10,
@@ -31,6 +31,24 @@
       "suppressed_sentence_count": 11
     },
     {
+      "file": "apologetic-lydias-heart.html",
+      "score": 11,
+      "paragraphs": 42,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 11,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 3
+    },
+    {
+      "file": "apologetic-not-because-but-because.html",
+      "score": 11,
+      "paragraphs": 40,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 11,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 3
+    },
+    {
       "file": "apologetic-revival-and-sovereign-grace.html",
       "score": 11,
       "paragraphs": 33,
@@ -40,13 +58,31 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "apologetic-lydias-heart.html",
+      "file": "apologetic-the-cardiac-transplant.html",
+      "score": 11,
+      "paragraphs": 38,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 11,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
+    },
+    {
+      "file": "apologetic-tetagmenoi-acts-13-48.html",
       "score": 10,
-      "paragraphs": 42,
+      "paragraphs": 45,
       "redundancy_count": 0,
       "flagged_sentence_count": 10,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 3
+      "suppressed_sentence_count": 4
+    },
+    {
+      "file": "apologetic-the-cardiology-of-the-fall.html",
+      "score": 10,
+      "paragraphs": 46,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 10,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
     },
     {
       "file": "apologetic-the-unbroken-chain.html",
@@ -67,6 +103,15 @@
       "suppressed_sentence_count": 1
     },
     {
+      "file": "ephesians-1-3-14.html",
+      "score": 9,
+      "paragraphs": 33,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 9,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 3
+    },
+    {
       "file": "response-jerry-walls.html",
       "score": 9,
       "paragraphs": 63,
@@ -83,6 +128,24 @@
       "flagged_sentence_count": 8,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 2
+    },
+    {
+      "file": "apologetic-the-once-for-all-ephapax.html",
+      "score": 8,
+      "paragraphs": 41,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
+    },
+    {
+      "file": "apologetic-the-prayer-you-never-spontaneously-prayed.html",
+      "score": 8,
+      "paragraphs": 35,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 4
     },
     {
       "file": "argument-cost-of-being-wrong.html",
@@ -137,6 +200,15 @@
       "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1
+    },
+    {
+      "file": "apologetic-the-double-grip-of-john-10.html",
+      "score": 6,
+      "paragraphs": 40,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
     },
     {
       "file": "question-predestined-to-hell.html",
@@ -326,6 +398,15 @@
       "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
+    },
+    {
+      "file": "acts-13-48.html",
+      "score": 4,
+      "paragraphs": 33,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
     },
     {
       "file": "analogy-song-you-didnt-compose.html",
@@ -659,90 +740,103 @@
       "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
-    },
-    {
-      "file": "devotional-not-my-will-but-joy.html",
-      "score": 3,
-      "paragraphs": 37,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "devotional-when-pride-dies.html",
-      "score": 3,
-      "paragraphs": 19,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "for-deconstructed.html",
-      "score": 3,
-      "paragraphs": 23,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2
-    },
-    {
-      "file": "history-20th-century.html",
-      "score": 3,
-      "paragraphs": 26,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "history-african-fathers.html",
-      "score": 3,
-      "paragraphs": 20,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "history-augustine-pelagius.html",
-      "score": 3,
-      "paragraphs": 24,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "history-golden-thread.html",
-      "score": 3,
-      "paragraphs": 29,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
-    },
-    {
-      "file": "history-korean-revival.html",
-      "score": 3,
-      "paragraphs": 53,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "invisible-wall-only-one-who-sees.html",
-      "score": 3,
-      "paragraphs": 30,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
     }
   ],
   "articles": [
+    {
+      "file": "2-thessalonians-2-13.html",
+      "paragraphs": 38,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 10,
+          "sentence_index": 1,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The textual question is settled  —  the difference is one Greek letter and a word-break, and the leading critical editions (NA28, UBS5) and the major modern translations including the NIV go with apar"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 32,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:when the×3"
+          ],
+          "preview": "When the ground is shaking, when the persecution is sharp, when the believer is afraid, the believer can return to the v"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 1
+    },
+    {
+      "file": "acts-13-48.html",
+      "paragraphs": 33,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 2,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "In the late spring of AD 47 or 48, Paul and Barnabas, fresh off the boat from Cyprus and a hard climb up the mountain passes from the coast, walked into that synagogue on the Sabbath and were invited,"
+        },
+        {
+          "paragraph": 0,
+          "sentence_index": 4,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "What he said next is one of the longest sermons of his Luke records  —  a careful traversal of Israelite history from the patriarchs through the kings to John the Baptist, climaxing in the resurrectio"
+        },
+        {
+          "paragraph": 4,
+          "sentence_index": 4,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "It is the verb the Roman centurion uses in Matthew 8:9 when he tells Jesus he himself is a man under authority  —  hupo exousian tassomenos , \"placed under authority.\" It is the verb Paul uses in Roma"
+        },
+        {
+          "paragraph": 30,
+          "sentence_index": 4,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The same hand that wrote your name in the book of life before the world was made is the hand that closed around you the day you believed, and the hand that holds you now, and the hand that will lift y"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 11,
+          "sentence_index": 4,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:divine agent×4"
+          ],
+          "preview": "Paul has just preached the resurrection (God raised Him from the dead  —  divine agent), the forgiveness of sins (sins f"
+        },
+        {
+          "paragraph": 22,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:76w-raw/51w-prose"
+          ],
+          "preview": "For I am with you, and no one is going to attack and harm you, because I have many people in this city.\" The arresting c"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2,
+      "score": 4
+    },
     {
       "file": "analogy-adoption.html",
       "paragraphs": 34,
@@ -1542,6 +1636,14 @@
             "long:50w"
           ],
           "preview": "The new preferences that ordinarily would never have formed at all (because the substrate was not pointed at the right kind of input, because the input that was available was systematically rejected) "
+        },
+        {
+          "paragraph": 31,
+          "sentence_index": 3,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "They were different parts of the same Augustine , contesting the same body, drawing on the same substrate that had been pulling toward concubines and sherbet for so many years that the new direction f"
         }
       ],
       "suppressed_redundancy": [],
@@ -1572,10 +1674,137 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 10,
+      "flagged_sentence_count": 11,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 3,
-      "score": 10
+      "score": 11
+    },
+    {
+      "file": "apologetic-not-because-but-because.html",
+      "paragraphs": 40,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 5,
+          "sentence_index": 3,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "And the same verse provides the empirical refutation of any reading that would seek a more flattering grounding: ki-attem ha-me'at mikol-ha'amim  —  \"for you are the fewest of all the peoples.\" The se"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 1,
+          "flags": [
+            "long:63w"
+          ],
+          "preview": "Deuteronomy 9:4-6, two chapters later, addresses this form directly: \"After the LORD your God has driven them out before you, do not say to yourself, 'The LORD has brought me here to take possession o"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 2,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "It is not because of your righteousness or your integrity that you are going in to take possession of their land; but on account of the wickedness of these nations, the LORD your God will drive them o"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 3,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "Understand, then, that it is not because of your righteousness that the LORD your God is giving you this good land to possess, for you are a stiff-necked people.\" Moses repeats the denial three times "
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 2,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "If numerical and moral grounds are excluded, and if Moses' explanation of the asymmetry is that the LORD loved Israel and kept the oath , then the reason for the love and the oath is not a property of"
+        },
+        {
+          "paragraph": 17,
+          "sentence_index": 3,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "I will make you into a great nation, and I will bless you, and I will make your name great, and you will be a blessing.'\" The LORD is the speaker; Abraham is the addressee; the verb of moving is in th"
+        },
+        {
+          "paragraph": 25,
+          "sentence_index": 0,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "The election of Levi over the other tribes for priestly service in Exodus 32-34 is grounded in the response of the tribe to Moses' call to side with the LORD against the golden calf  —  but the respon"
+        },
+        {
+          "paragraph": 26,
+          "sentence_index": 0,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "The election of David over his brothers in 1 Samuel 16 is grounded in the LORD's seeing the heart, not the appearance, and the text explicitly contrasts David's election with the prior election of Sau"
+        },
+        {
+          "paragraph": 27,
+          "sentence_index": 0,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The election of Jerusalem as the place where the LORD would put His Name is grounded in nothing the text names about Jerusalem's prior holiness; the city was the stronghold of the Jebusites until Davi"
+        },
+        {
+          "paragraph": 33,
+          "sentence_index": 1,
+          "flags": [
+            "long:59w"
+          ],
+          "preview": "If you are reading this and you find that you have, somewhere in your past or your present, been brought to faith in the Lord Jesus Christ, then the Hebrew of Deuteronomy 7:7 says of you, by structura"
+        },
+        {
+          "paragraph": 37,
+          "sentence_index": 0,
+          "flags": [
+            "long:92w"
+          ],
+          "preview": "The whole sweep of the doctrine  —  the Father's eternal election in the eulogy of Ephesians 1 and the Hebrew asymmetry of Deuteronomy 7, the Son's once-for-all atonement at the mercy seat, the Spirit"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 13,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:87w-raw/46w-prose"
+          ],
+          "preview": "\"Yet, before the twins were born or had done anything good or bad  —  in order that God's purpose in election might stan"
+        },
+        {
+          "paragraph": 30,
+          "sentence_index": 5,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:1-word:greek×3"
+          ],
+          "preview": "Each grounded in a different register  —  Greek dogmatic argument, Greek doxological architecture, Greek narrative restr"
+        },
+        {
+          "paragraph": 31,
+          "sentence_index": 0,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:and the×5"
+          ],
+          "preview": "Add to the four facets of unconditional election the wider company already in place: the priest's onyx stones , the Owen"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 11,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 3,
+      "score": 11
     },
     {
       "file": "apologetic-owen-trilemma.html",
@@ -1753,6 +1982,434 @@
       "score": 11
     },
     {
+      "file": "apologetic-tetagmenoi-acts-13-48.html",
+      "paragraphs": 45,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 7,
+          "sentence_index": 0,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "Third, the auxiliary. Ēsan is the third-person plural imperfect indicative of eimi , \"to be.\" When the imperfect of eimi is combined with a perfect passive participle, the result is the periphrastic p"
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 2,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "The synergist will note this ambiguity and propose that tetagmenoi in Acts 13:48 could be read as middle rather than passive  —  yielding the translation \"as many as had disposed themselves to eternal"
+        },
+        {
+          "paragraph": 23,
+          "sentence_index": 1,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "The authorities that exist have been established by God.\" The Greek behind both established forms is from tassō , and the second occurrence is tetagmenai eisin  —  the periphrastic perfect passive, th"
+        },
+        {
+          "paragraph": 27,
+          "sentence_index": 6,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The destination of the appointing  —  eis zōēn aiōnian , \"into eternal life\"  —  was the same eternal life Paul had just named in verse 46 as the inheritance that the rejecting Jews had judged themsel"
+        },
+        {
+          "paragraph": 28,
+          "sentence_index": 1,
+          "flags": [
+            "long:58w"
+          ],
+          "preview": "The same Luke records Christ Himself, in the Gospel that bears the same author's name, saying in Luke 10:21-22 : \"At that time Jesus, full of joy through the Holy Spirit, said, 'I praise you, Father, "
+        },
+        {
+          "paragraph": 28,
+          "sentence_index": 4,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "No one knows who the Son is except the Father, and no one knows who the Father is except the Son and those to whom the Son chooses to reveal him.'\" The same Greek root  —  eudokia (\"good pleasure\") be"
+        },
+        {
+          "paragraph": 31,
+          "sentence_index": 6,
+          "flags": [
+            "long:66w"
+          ],
+          "preview": "The reader, two thousand years later, is being told that the same sorting was happening at his own first hearing of the gospel  —  that the same Lord was, by the same logic, marking some hearers as ap"
+        },
+        {
+          "paragraph": 32,
+          "sentence_index": 1,
+          "flags": [
+            "long:89w"
+          ],
+          "preview": "Either you have, somewhere in your past or your present, found yourself believing in the Lord Jesus Christ  —  in which case the Greek of Acts 13:48 says of you, with no possibility of softening, that"
+        },
+        {
+          "paragraph": 39,
+          "sentence_index": 1,
+          "flags": [
+            "long:73w"
+          ],
+          "preview": "If you have ever believed in the Lord Jesus Christ  —  if there is any moment in your life past or present at which the gospel struck you not as foolishness or as an interesting historical claim but a"
+        },
+        {
+          "paragraph": 43,
+          "sentence_index": 0,
+          "flags": [
+            "long:92w"
+          ],
+          "preview": "The whole sweep of the doctrine  —  the Father's eternal election (the Greek eklogē , the Pauline eulogy, the Lukan pluperfect now naming you), the Son's once-for-all atonement at the mercy seat, the "
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 5,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:73w-raw/48w-prose"
+          ],
+          "preview": "When Pilate stands before the Lord and says, in John 19:11, \"You would have no power over me if it were not given to you"
+        },
+        {
+          "paragraph": 16,
+          "sentence_index": 0,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:not the×6"
+          ],
+          "preview": "The cumulative force of these three answers is the reason no major modern translation  —  not the NIV, not the ESV, not "
+        },
+        {
+          "paragraph": 37,
+          "sentence_index": 4,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:pauline,appointing,elect"
+          ],
+          "preview": "Each grounded in a different register  —  dense Pauline argument, Pauline doxological architecture, Lukan narrative rest"
+        },
+        {
+          "paragraph": 37,
+          "sentence_index": 5,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:and the×3"
+          ],
+          "preview": "Add to those three the priest's onyx stones , the Owen Trilemma , the mercy seat in Greek , and the ephapax chain in Heb"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 10,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 4,
+      "score": 10
+    },
+    {
+      "file": "apologetic-the-cardiac-transplant.html",
+      "paragraphs": 38,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 2,
+          "sentence_index": 12,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The human party in these sentences is grammatically the object  —  the one to whom things are done  —  and the agent in these sentences is the LORD God of Israel, who alone has the authority and the s"
+        },
+        {
+          "paragraph": 16,
+          "sentence_index": 3,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "The walking happens because the causing happens; the causing happens because the Spirit-indwelling happens; the Spirit-indwelling happens because the new heart has been installed; the new heart has be"
+        },
+        {
+          "paragraph": 21,
+          "sentence_index": 3,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "From the outside  —  from the narrator's point of view, from God's point of view, from Luke's editorial point of view  —  the experience is one of divine cardiac surgery performed on a heart that was,"
+        },
+        {
+          "paragraph": 23,
+          "sentence_index": 1,
+          "flags": [
+            "long:59w"
+          ],
+          "preview": "The heart, the modern reader knows, is a muscular pump; the seat of the will is in the brain; the prefrontal cortex makes decisions in concert with the limbic system; preferences are forged from genet"
+        },
+        {
+          "paragraph": 24,
+          "sentence_index": 1,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "If the seat of the will is in the brain  —  if every preference is the output of a brain state  —  then the question becomes: what kind of brain state would have to obtain for a human being whose defa"
+        },
+        {
+          "paragraph": 31,
+          "sentence_index": 4,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "Each grounded in a different register  —  apostolic narrative, historical pattern, prophetic oracle  —  but each arriving at the same observation: when grace reaches the elect heart, the grace is not "
+        },
+        {
+          "paragraph": 31,
+          "sentence_index": 5,
+          "flags": [
+            "long:64w"
+          ],
+          "preview": "Add to those three the Greek of eklogē and the eulogy of Ephesians 1 for unconditional election ; the priest's onyx stones , the Owen Trilemma , the mercy seat in Greek , and the ephapax chain in Hebr"
+        },
+        {
+          "paragraph": 32,
+          "sentence_index": 1,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "If you are reading this with a heart that has, somewhere along the way, come to love what it once did not love and to hate what it once hated, you are looking at the empirical evidence of a cardiac tr"
+        },
+        {
+          "paragraph": 32,
+          "sentence_index": 4,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "Whatever year that was, the year before it you were a heart of stone  —  and the year after it you were a heart of flesh  —  and you cannot tell from the inside which day the surgery happened, because"
+        },
+        {
+          "paragraph": 35,
+          "sentence_index": 4,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "The LORD who removed the stone and installed the flesh and put His Spirit in you and is even now causing you to walk in His decrees is the same LORD who promised in Philippians 1:6 that He who began t"
+        },
+        {
+          "paragraph": 36,
+          "sentence_index": 0,
+          "flags": [
+            "long:80w"
+          ],
+          "preview": "The whole sweep of the doctrine  —  the Father's eternal election in Ephesians 1's eulogy , the Son's once-for-all atonement at the cross, the Spirit's effectual cardiac transplant by which you were g"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:the heart×3"
+          ],
+          "preview": "The heart has been failing for years; the heart has, in fact, been failing for the patient's whole life; the heart does "
+        },
+        {
+          "paragraph": 34,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:voice,maybe,desires"
+          ],
+          "preview": "The accuser's voice that whispers but maybe your heart is not really new  —  maybe you talked yourself into the religiou"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 11,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2,
+      "score": 11
+    },
+    {
+      "file": "apologetic-the-cardiology-of-the-fall.html",
+      "paragraphs": 46,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 0,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "Twice in the Hebrew Bible  —  once in Genesis, once in Jeremiah, six centuries apart, by two writers who never met, in two completely different genres of literature  —  the LORD looks at the chart of "
+        },
+        {
+          "paragraph": 5,
+          "sentence_index": 1,
+          "flags": [
+            "long:59w"
+          ],
+          "preview": "The yetzer of a thing is what it has been shaped to incline toward; it is the engineered bent, the default trajectory. machshvot  —  \"thoughts, plans, devisings\"  —  the plural of machshavah , the cog"
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 1,
+          "flags": [
+            "long:59w"
+          ],
+          "preview": "The kingdom of Israel has split, the northern tribes have been carried into Assyria, the southern kingdom of Judah is on the verge of being carried into Babylon, and the prophet Jeremiah is standing a"
+        },
+        {
+          "paragraph": 29,
+          "sentence_index": 0,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "This is what Augustine meant by his famous remark that the virtues of the pagans are, at best, \"splendid vices\"  —  the actions look like virtues from the outside but, when traced to the inclination b"
+        },
+        {
+          "paragraph": 36,
+          "sentence_index": 4,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "Vekhol-yetzer raq ra kol-hayom  —  every inclination only evil all the time  —  is the diagnosis that makes the Son's definite atonement necessary, because nothing less than a substitute who actually "
+        },
+        {
+          "paragraph": 38,
+          "sentence_index": 1,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "The angle joins the previously-deployed angles of the unprompted-prayer test ( start-here-phase1 ), the flesh-vs.-Bible test (the drowning-man analogy ), the infant-sin test, the sleep-test, the good-"
+        },
+        {
+          "paragraph": 39,
+          "sentence_index": 0,
+          "flags": [
+            "long:96w"
+          ],
+          "preview": "Add to the depravity case the four facets the site has built for the other four doctrines of grace  —  the Greek of eklogē and the eulogy of Ephesians 1 for election ; the priest's onyx stones , the O"
+        },
+        {
+          "paragraph": 41,
+          "sentence_index": 3,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "The fact that the refinement is ongoing  —  that you still catch the heart in moments of self-deception , that the rehearsed grievance still surfaces, that the affection for God still feels weaker tha"
+        },
+        {
+          "paragraph": 42,
+          "sentence_index": 1,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The same LORD who read your chart and called the diagnosis aqov and anush is the LORD who, knowing the diagnosis was incurable by ordinary means, sent His own Son to die for the patient and His own Sp"
+        },
+        {
+          "paragraph": 43,
+          "sentence_index": 0,
+          "flags": [
+            "long:67w"
+          ],
+          "preview": "The whole sweep of the doctrine  —  the Father's eternal election in Ephesians 1's eulogy , the Son's once-for-all atonement at the mercy seat, the Spirit's cardiac transplant of the heart of stone , "
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 13,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:heart,hebrew"
+          ],
+          "preview": "To call the heart aqov is to name it with the same root as the patriarch who supplanted his brother, lied to his father,"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 10,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 10
+    },
+    {
+      "file": "apologetic-the-double-grip-of-john-10.html",
+      "paragraphs": 40,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 0,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "One day in the late autumn of 29 AD, at the Feast of Dedication, in the colonnade of Solomon's portico on the temple mount, the Good Shepherd Himself faced down a group of Pharisees who had been deman"
+        },
+        {
+          "paragraph": 1,
+          "sentence_index": 2,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "He told them they did not believe Him because they were not His sheep  —  and then He told them, in two sentences of Koine Greek so dense with grammatical force that no English translation can carry t"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 2,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The synergistic objection that the sheep might wander off on their own does not even come into view in Jesus' grammar, because Jesus is naming the most extreme thing that could be attempted against th"
+        },
+        {
+          "paragraph": 19,
+          "sentence_index": 1,
+          "flags": [
+            "long:67w"
+          ],
+          "preview": "Wesley's case for the possibility of apostasy held, in its most generous form, that perseverance is conditioned on continuing faith; that the believer who ceases to believe ceases to be a believer; th"
+        },
+        {
+          "paragraph": 36,
+          "sentence_index": 0,
+          "flags": [
+            "long-simile:19w"
+          ],
+          "preview": "This is why the believer's faith, even at its weakest, even when it is mustard-seed small, even when it feels like a smoldering wick that the next breeze will extinguish  —  is sufficient evidence tha"
+        },
+        {
+          "paragraph": 38,
+          "sentence_index": 0,
+          "flags": [
+            "long:73w"
+          ],
+          "preview": "The whole sweep of the doctrine  —  the Father's eternal election in Ephesians 1's eulogy , the Son's once-for-all atonement at the mercy seat, the Spirit's cardiac transplant of Ezekiel 36, the Spiri"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 31,
+          "sentence_index": 3,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:and the×3"
+          ],
+          "preview": "Add to those three the Greek of eklogē and the eulogy of Ephesians 1 for unconditional election ; the priest's onyx ston"
+        },
+        {
+          "paragraph": 34,
+          "sentence_index": 0,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:the fear×3"
+          ],
+          "preview": "Consider what this means for the fear that visits at exposed hours  —  the fear that you might lose your salvation in so"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2,
+      "score": 6
+    },
+    {
       "file": "apologetic-the-eulogy-greek-of-ephesians-1.html",
       "paragraphs": 34,
       "redundancy_pairs": [],
@@ -1872,9 +2529,9 @@
           "paragraph": 19,
           "sentence_index": 2,
           "flags": [
-            "long:58w"
+            "long:59w"
           ],
-          "preview": "He wrote a sentence that, four hundred years after his death, the Reformed tradition would press at the heart of its doctrine of regeneration: \"My new will, with which I had begun to will to worship T"
+          "preview": "He wrote a sentence that, four hundred years after his death, the Reformed tradition would press at the heart of its doctrine of regeneration : \"My new will, with which I had begun to will to worship "
         },
         {
           "paragraph": 24,
@@ -1901,6 +2558,212 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
       "score": 4
+    },
+    {
+      "file": "apologetic-the-once-for-all-ephapax.html",
+      "paragraphs": 41,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 5,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "It said, in a sentence the worshipper could not yet hear in full: somewhere on the far side of all these repetitions, a final sprinkling is coming, and after that, the curtain will not be crossed agai"
+        },
+        {
+          "paragraph": 5,
+          "sentence_index": 1,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "The aorist eisēlthen (he entered) is bolted to ephapax ; the aorist middle participle heuramenos (having obtained, having secured) governs aiōnian lutrōsin  —  eternal redemption  —  and the middle vo"
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 3,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "Christ has offered Himself once for all; entered the Most Holy Place once for all; obtained eternal redemption; appeared at the end of the ages to abolish sin; been sacrificed to take away the sins of"
+        },
+        {
+          "paragraph": 14,
+          "sentence_index": 0,
+          "flags": [
+            "long:97w"
+          ],
+          "preview": "If the sacrifice was offered for the non-elect in the same sense in which it was offered for the elect, then the verbs in the chain would have to be downgraded for the non-elect: obtained eternal rede"
+        },
+        {
+          "paragraph": 23,
+          "sentence_index": 1,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "The High Priest does not need to die again because the death was sufficient once for all; He does need to keep living and keep interceding, because the people for whom He died are still on the way to "
+        },
+        {
+          "paragraph": 25,
+          "sentence_index": 1,
+          "flags": [
+            "long:81w"
+          ],
+          "preview": "The fuller treatment lives in the systematic apologetic for definite atonement ; the present article only need note the relevant contour. 1 Timothy 2:6's pantōn is governed, in context, by the same lo"
+        },
+        {
+          "paragraph": 32,
+          "sentence_index": 3,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "Add to those four the Greek of eklogē and the eulogy of Ephesians 1 for unconditional election ; the arrabōn and unbroken chain for perseverance ; the Lord's opening of Lydia's heart and the historica"
+        },
+        {
+          "paragraph": 37,
+          "sentence_index": 5,
+          "flags": [
+            "long:80w"
+          ],
+          "preview": "The whole sweep of the doctrine  —  the Father's eternal election in the eulogy of Ephesians 1 , the Son's atonement at the mercy seat , the Spirit's effectual opening of the heart at Lydia's riverban"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 0,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:temple,standing"
+          ],
+          "preview": "One day in the early forties of the first century, an anonymous Christian writer  —  fluent in the Septuagint, soaked in"
+        },
+        {
+          "paragraph": 25,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:98w-raw/81w-prose"
+          ],
+          "preview": "The word pantōn is regularly used by Paul this way (Romans 11:32, for instance: \"For God has bound everyone over to diso"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2,
+      "score": 8
+    },
+    {
+      "file": "apologetic-the-prayer-you-never-spontaneously-prayed.html",
+      "paragraphs": 35,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 2,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "Take the unprompted, undisturbed, no-stakes-in-the-room moments  —  the long walks where nothing is happening, the early morning when no alarm has gone off and the coffee has not yet been started, the"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 2,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "But the awe is directed at a Cause-in-General  —  a felt sense of something larger than the self  —  not at the holy God of Israel whose attributes are revealed in particular Scripture, whose Son is n"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 1,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "The child who addresses words to God before any catechesis has reached him is, on careful inspection, addressing words to whatever cosmic presence his parents have implied by their behavior  —  a kind"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The child is not the exception that disproves the rule; the child is the species at its most fully natural and the species at its most fully natural is the species curved inward, naming whatever rises"
+        },
+        {
+          "paragraph": 20,
+          "sentence_index": 1,
+          "flags": [
+            "long:60w"
+          ],
+          "preview": "If prevenient grace is universal and restores the minimal capacity for spontaneous God-ward love, then we should expect to find instances of spontaneous God-ward love distributed across the unreached "
+        },
+        {
+          "paragraph": 27,
+          "sentence_index": 1,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "If you are reading this and you find, somewhere in your interior, that you do now want  —  spontaneously, undisturbed, in the quiet ordinary moments  —  to address the holy God of Israel in a prayer o"
+        },
+        {
+          "paragraph": 30,
+          "sentence_index": 0,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "If you are reading this and you have run the diagnostic on yourself and found nothing  —  if your interior, examined honestly, returns no instance of spontaneous prayer of pure love to the holy God of"
+        },
+        {
+          "paragraph": 32,
+          "sentence_index": 0,
+          "flags": [
+            "long:83w"
+          ],
+          "preview": "The whole sweep of the doctrine  —  the Father's eternal election in the eulogy of Ephesians 1 , the Son's once-for-all atonement at the mercy seat, the Spirit's effectual cardiac transplant by which "
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 6,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:on no×3"
+          ],
+          "preview": "Just a private, undisturbed, undirected moment in which you, on no prompt outside yourself, on no felt need, on no fear "
+        },
+        {
+          "paragraph": 5,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:in the×3"
+          ],
+          "preview": "You have, almost certainly, prayed  —  in childhood under parental coaching, in church under liturgical expectation, in "
+        },
+        {
+          "paragraph": 25,
+          "sentence_index": 4,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:heart,regenerate"
+          ],
+          "preview": "Each grounded in a different register  —  apostolic biography, Hebrew oracle, empirical interior  —  but each arriving a"
+        },
+        {
+          "paragraph": 25,
+          "sentence_index": 5,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:and the×4"
+          ],
+          "preview": "Add to these three the wider company: the Greek of eklogē , the Pauline eulogy , and the Lukan pluperfect of Acts 13:48 "
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 4,
+      "score": 8
     },
     {
       "file": "apologetic-the-unbroken-chain.html",
@@ -5645,6 +6508,117 @@
       "score": 1
     },
     {
+      "file": "ephesians-1-3-14.html",
+      "paragraphs": 33,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 1,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "In the Greek of the earliest manuscripts, Ephesians 1:3 through 1:14 is a single, unpunctuated, breathlessly cascading sentence  —  202 words without a period, 8 finite verbs, 12 participles, 11 prepo"
+        },
+        {
+          "paragraph": 1,
+          "sentence_index": 5,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "Paul is composing, in twelve consecutive verses, a eulogy for the work of the Triune God in the salvation of the elect. (The Greek of the sentence is treated exhaustively in the eulogy Greek of Ephesi"
+        },
+        {
+          "paragraph": 2,
+          "sentence_index": 4,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "Each movement closes with the same refrain: eis epainon doxēs autou , \"to the praise of His glory.\" The refrain functions as the rhyme in a sonnet  —  it falls at the end of each section, marks the se"
+        },
+        {
+          "paragraph": 16,
+          "sentence_index": 0,
+          "flags": [
+            "long:89w"
+          ],
+          "preview": "And the Spirit is named, in verse 14, as ho arrabōn tēs klēronomias hēmōn  —  \"the down payment of our inheritance.\" The Greek arrabōn is a commercial term from the marketplace: the first installment "
+        },
+        {
+          "paragraph": 18,
+          "sentence_index": 1,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "On this reading, God before the foundation of the world chose Christ , and chose that there would be a people in Christ ; the individual believer enters this elect group by his own free decision to be"
+        },
+        {
+          "paragraph": 23,
+          "sentence_index": 1,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "If God's choosing of Christ is what verse 4 is about, then the phrase before the foundation of the world is filler  —  of course the eternal Son was eternally with the Father; of course there was no c"
+        },
+        {
+          "paragraph": 25,
+          "sentence_index": 0,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "Which means  —  and this is where the crown jewel lands  —  that if you have come to believe in Christ, your believing is the historical evidence of an eternal love that has been pursuing you since be"
+        },
+        {
+          "paragraph": 30,
+          "sentence_index": 4,
+          "flags": [
+            "long:65w"
+          ],
+          "preview": "The grace is not a partial achievement of human and divine working together; the grace is the unilateral act of a sovereign God whose decision to save you was made before you existed, executed in a So"
+        },
+        {
+          "paragraph": 30,
+          "sentence_index": 5,
+          "flags": [
+            "long-simile:15w"
+          ],
+          "preview": "The refrain stands like a guard at the seam of every section: this is for the praise of His grace ."
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 14,
+          "sentence_index": 0,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:73w-raw/53w-prose"
+          ],
+          "preview": "The Son's movement ends at the second occurrence of the refrain: eis to einai hēmas eis epainon doxēs autou tous proēlpi"
+        },
+        {
+          "paragraph": 22,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:writes,chose"
+          ],
+          "preview": "The same Paul who writes he chose us in him before the foundation of the world in Ephesians 1:4 writes those whom he for"
+        },
+        {
+          "paragraph": 28,
+          "sentence_index": 3,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:if the×3"
+          ],
+          "preview": "If you can read the sentence as addressed to you  —  if the \"us\" is gathering you up in its sweep, if the believing in v"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 9,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 3,
+      "score": 9
+    },
+    {
       "file": "for-deconstructed.html",
       "paragraphs": 23,
       "redundancy_pairs": [],
@@ -6718,6 +7692,44 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 2
+    },
+    {
+      "file": "john-6-37-44.html",
+      "paragraphs": 33,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 0,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The reason for the desertion is buried in seven verses near the middle of the discourse  —  verses 37 through 44  —  where Jesus does something He does almost nowhere else in the Gospels: He spells ou"
+        },
+        {
+          "paragraph": 14,
+          "sentence_index": 2,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The Arminian read, in its most generous form, holds that verse 37a names what God does in foreknowledge (He gives to the Son those He foresaw would believe), and verse 37b names what God does in respo"
+        },
+        {
+          "paragraph": 27,
+          "sentence_index": 3,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "You arrived because, somewhere in the eternal counsel of God before the foundation of the world, the Father gave you to the Son, and then in time the same Father dragged you, against every form of you"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 3
     },
     {
       "file": "joy-freedom-of-smallness.html",

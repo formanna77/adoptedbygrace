@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-05-04T14:11:30.290Z
+**Generated:** 2026-05-20T15:43:49.228Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -13,14 +13,14 @@
 
 | Metric | Value |
 |---|---|
-| Articles audited | 512 |
-| Articles entirely clean | 169 (33.0%) |
+| Articles audited | 523 |
+| Articles entirely clean | 169 (32.3%) |
 | Articles with (genuine) redundancy | 13 (2.5%) |
-| Articles with (genuine) flagged sentences | 336 (65.6%) |
+| Articles with (genuine) flagged sentences | 347 (66.3%) |
 | **Total redundancy pairs flagged (genuine)** | **13** |
-| **Total sentences flagged (genuine)** | **808** |
+| **Total sentences flagged (genuine)** | **890** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 19 |
-| Sentence flags suppressed (coherence-positive) | 111 |
+| Sentence flags suppressed (coherence-positive) | 135 |
 
 ### Suppression breakdown by exemption class
 
@@ -38,55 +38,55 @@
 ## §II — Top 50 Most Broken Articles (Rebuild Queue, post-suppression)
 
 1. **canons-of-dort-plain-english.html** — score 28 (0 redundancy pairs, 28 flagged sentences, 98 paragraphs) *[1 pairs + 11 sentences auto-suppressed]*
-2. **apologetic-revival-and-sovereign-grace.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 33 paragraphs)
-3. **apologetic-lydias-heart.html** — score 10 (0 redundancy pairs, 10 flagged sentences, 42 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
-4. **apologetic-the-unbroken-chain.html** — score 10 (0 redundancy pairs, 10 flagged sentences, 38 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-5. **apologetic-the-eulogy-greek-of-ephesians-1.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 34 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-6. **response-jerry-walls.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 63 paragraphs)
-7. **apologetic-hilasterion-the-mercy-seat.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 34 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-8. **argument-cost-of-being-wrong.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 63 paragraphs)
-9. **story-dark-the-rope-you-wove-yourself.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 49 paragraphs)
-10. **theologian-augustine.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 43 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-11. **theologian-gottschalk.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 28 paragraphs)
-12. **ot-joseph.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 26 paragraphs)
-13. **apologetic-ekloge-the-greek-of-election.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 44 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-14. **question-predestined-to-hell.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 45 paragraphs)
-15. **systematic-covenant-redemption.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 61 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-16. **systematic-effectual-calling.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 35 paragraphs)
-17. **westminster-chapter-3-plain-english.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 93 paragraphs) *[5 pairs + 2 sentences auto-suppressed]*
-18. **demolition-romans2-4.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 22 paragraphs)
-19. **devotional-i-cant-feel-god.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 44 paragraphs)
-20. **devotional-joy-of-election.html** — score 5 (1 redundancy pair, 3 flagged sentences, 52 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-21. **devotional-the-hands-that-hold-you.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 32 paragraphs)
-22. **devotional-the-secretly-ashamed.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 36 paragraphs)
-23. **devotional-valley-shadow.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 38 paragraphs)
-24. **history-open-theism.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 27 paragraphs)
-25. **history-spurgeon-downgrade.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 22 paragraphs)
-26. **letters-senior-demon-arminianism.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 49 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-27. **philosophy-adam-test.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 42 paragraphs)
-28. **question-chosen.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 37 paragraphs)
-29. **question-revelation13.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 30 paragraphs) *[1 pairs + 1 sentences auto-suppressed]*
-30. **response-william-lane-craig.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 57 paragraphs)
-31. **romans-9-deep-dive.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 82 paragraphs)
-32. **story-the-garden-that-grew-itself.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 42 paragraphs)
-33. **systematic-prolegomena.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 28 paragraphs)
-34. **theologian-bradwardine.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 29 paragraphs)
-35. **analogy-song-you-didnt-compose.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 41 paragraphs)
-36. **apologetic-arrabon-the-down-payment.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 32 paragraphs)
-37. **apologetic-the-fourth-day-corpse.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 31 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-38. **counter-cs-lewis-free-will.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 33 paragraphs)
-39. **demolition-1cor15-22.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 35 paragraphs)
-40. **demolition-2peter3-15.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 24 paragraphs)
-41. **devotional-forever-loved.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 35 paragraphs) *[1 pairs + 0 sentences auto-suppressed]*
-42. **history-council-of-orange.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 37 paragraphs)
-43. **invisible-wall-prayer-feels-empty.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 48 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-44. **joy-freedom-of-smallness.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 31 paragraphs)
-45. **ot-israel-chosen.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 21 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-46. **ot-jonah.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 30 paragraphs)
-47. **psychology-comfort-self-salvation.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 24 paragraphs)
-48. **question-boasting.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 36 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-49. **question-titus3.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 29 paragraphs)
-50. **response-andy-stanley.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 38 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+2. **apologetic-lydias-heart.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 42 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
+3. **apologetic-not-because-but-because.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 40 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
+4. **apologetic-revival-and-sovereign-grace.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 33 paragraphs)
+5. **apologetic-the-cardiac-transplant.html** — score 11 (0 redundancy pairs, 11 flagged sentences, 38 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+6. **apologetic-tetagmenoi-acts-13-48.html** — score 10 (0 redundancy pairs, 10 flagged sentences, 45 paragraphs) *[0 pairs + 4 sentences auto-suppressed]*
+7. **apologetic-the-cardiology-of-the-fall.html** — score 10 (0 redundancy pairs, 10 flagged sentences, 46 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+8. **apologetic-the-unbroken-chain.html** — score 10 (0 redundancy pairs, 10 flagged sentences, 38 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+9. **apologetic-the-eulogy-greek-of-ephesians-1.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 34 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+10. **ephesians-1-3-14.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 33 paragraphs) *[0 pairs + 3 sentences auto-suppressed]*
+11. **response-jerry-walls.html** — score 9 (0 redundancy pairs, 9 flagged sentences, 63 paragraphs)
+12. **apologetic-hilasterion-the-mercy-seat.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 34 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+13. **apologetic-the-once-for-all-ephapax.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 41 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+14. **apologetic-the-prayer-you-never-spontaneously-prayed.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 35 paragraphs) *[0 pairs + 4 sentences auto-suppressed]*
+15. **argument-cost-of-being-wrong.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 63 paragraphs)
+16. **story-dark-the-rope-you-wove-yourself.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 49 paragraphs)
+17. **theologian-augustine.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 43 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+18. **theologian-gottschalk.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 28 paragraphs)
+19. **ot-joseph.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 26 paragraphs)
+20. **apologetic-ekloge-the-greek-of-election.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 44 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+21. **apologetic-the-double-grip-of-john-10.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 40 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+22. **question-predestined-to-hell.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 45 paragraphs)
+23. **systematic-covenant-redemption.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 61 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+24. **systematic-effectual-calling.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 35 paragraphs)
+25. **westminster-chapter-3-plain-english.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 93 paragraphs) *[5 pairs + 2 sentences auto-suppressed]*
+26. **demolition-romans2-4.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 22 paragraphs)
+27. **devotional-i-cant-feel-god.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 44 paragraphs)
+28. **devotional-joy-of-election.html** — score 5 (1 redundancy pair, 3 flagged sentences, 52 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+29. **devotional-the-hands-that-hold-you.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 32 paragraphs)
+30. **devotional-the-secretly-ashamed.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 36 paragraphs)
+31. **devotional-valley-shadow.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 38 paragraphs)
+32. **history-open-theism.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 27 paragraphs)
+33. **history-spurgeon-downgrade.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 22 paragraphs)
+34. **letters-senior-demon-arminianism.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 49 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+35. **philosophy-adam-test.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 42 paragraphs)
+36. **question-chosen.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 37 paragraphs)
+37. **question-revelation13.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 30 paragraphs) *[1 pairs + 1 sentences auto-suppressed]*
+38. **response-william-lane-craig.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 57 paragraphs)
+39. **romans-9-deep-dive.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 82 paragraphs)
+40. **story-the-garden-that-grew-itself.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 42 paragraphs)
+41. **systematic-prolegomena.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 28 paragraphs)
+42. **theologian-bradwardine.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 29 paragraphs)
+43. **acts-13-48.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 33 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+44. **analogy-song-you-didnt-compose.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 41 paragraphs)
+45. **apologetic-arrabon-the-down-payment.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 32 paragraphs)
+46. **apologetic-the-fourth-day-corpse.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 31 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+47. **counter-cs-lewis-free-will.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 33 paragraphs)
+48. **demolition-1cor15-22.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 35 paragraphs)
+49. **demolition-2peter3-15.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 24 paragraphs)
+50. **devotional-forever-loved.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 35 paragraphs) *[1 pairs + 0 sentences auto-suppressed]*
 
 ---
 
@@ -111,6 +111,42 @@
 - 1 redundancy pair suppressed: confessional-translation
 - 11 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
+### apologetic-lydias-heart.html — score 11
+
+**Flagged sentences (11):**
+
+- [direction-mismatch:\bclosed[^.]{0,40}?\bopened\b] (¶2): "It is a thoroughgoing opening, an opening from the inside out, an opening of something that was closed in such a way that it could not have opened itself.…"
+- [long:66w] (¶10): "And John himself, the same writer, uses helkyō later in his Gospel for two unmistakable purposes: in John 18:10 , Peter draws his sword (you do not "invite" a sword from a scabbard); in John 21:11, th…"
+- [long:46w] (¶13): "The Westminster Divines, sitting in a side room at Westminster Abbey in the 1640s with no MRI scanners, no positron emission tomography, no functional connectivity studies, no concept of the dopaminer…"
+- [direction-mismatch:\bopened[^.]{0,40}?\bclosed\b] (¶15): "The opened heart that was closed is, in the very moment of its opening, an opened heart that wants what it now sees.…"
+- [long:57w] (¶16): "And the reader who has been around long enough to watch their own preferences shift over a decade  —  to find themselves loving books they would have hated at twenty, music they would have walked out …"
+- [long:64w] (¶17): "The Reformed tradition, four centuries before cognitive neuroscience existed as a discipline, articulated the mechanism cognitive neuroscience would later confirm: that the human will operates on top …"
+- [long:61w] (¶21): "The thing she had not wanted at sunrise had become the only thing she wanted by noon, and the wanting felt as much hers as anything had ever felt hers, because the wanting was hers  —  only now it was…"
+- [padding-modifier:in the silence] (¶22): "The conscious self of Lydia announces its yes and the announcement is genuine, but the announcement is not the cause; the cause is the diēnoixen that took place in the silence beneath.…"
+- … and 3 more.
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 3 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+
+### apologetic-not-because-but-because.html — score 11
+
+**Flagged sentences (11):**
+
+- [long:54w] (¶5): "And the same verse provides the empirical refutation of any reading that would seek a more flattering grounding: ki-attem ha-me'at mikol-ha'amim  —  "for you are the fewest of all the peoples." The se…"
+- [long:63w] (¶11): "Deuteronomy 9:4-6, two chapters later, addresses this form directly: "After the LORD your God has driven them out before you, do not say to yourself, 'The LORD has brought me here to take possession o…"
+- [long:53w] (¶11): "It is not because of your righteousness or your integrity that you are going in to take possession of their land; but on account of the wickedness of these nations, the LORD your God will drive them o…"
+- [long:49w] (¶11): "Understand, then, that it is not because of your righteousness that the LORD your God is giving you this good land to possess, for you are a stiff-necked people." Moses repeats the denial three times …"
+- [long:47w] (¶12): "If numerical and moral grounds are excluded, and if Moses' explanation of the asymmetry is that the LORD loved Israel and kept the oath , then the reason for the love and the oath is not a property of…"
+- [long:47w] (¶17): "I will make you into a great nation, and I will bless you, and I will make your name great, and you will be a blessing.'" The LORD is the speaker; Abraham is the addressee; the verb of moving is in th…"
+- [long:55w] (¶25): "The election of Levi over the other tribes for priestly service in Exodus 32-34 is grounded in the response of the tribe to Moses' call to side with the LORD against the golden calf  —  but the respon…"
+- [long:55w] (¶26): "The election of David over his brothers in 1 Samuel 16 is grounded in the LORD's seeing the heart, not the appearance, and the text explicitly contrasts David's election with the prior election of Sau…"
+- … and 3 more.
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 3 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+
 ### apologetic-revival-and-sovereign-grace.html — score 11
 
 **Flagged sentences (11):**
@@ -125,23 +161,59 @@
 - [long:46w] (¶23): "The conclusion is more modest and more disturbing: when the Spirit's outpouring has been sustained, undeniable, and historically transformative, the doctrine being preached at the pulpit has, with rem…"
 - … and 3 more.
 
-### apologetic-lydias-heart.html — score 10
+### apologetic-the-cardiac-transplant.html — score 11
+
+**Flagged sentences (11):**
+
+- [long:46w] (¶2): "The human party in these sentences is grammatically the object  —  the one to whom things are done  —  and the agent in these sentences is the LORD God of Israel, who alone has the authority and the s…"
+- [long:48w] (¶16): "The walking happens because the causing happens; the causing happens because the Spirit-indwelling happens; the Spirit-indwelling happens because the new heart has been installed; the new heart has be…"
+- [long:53w] (¶21): "From the outside  —  from the narrator's point of view, from God's point of view, from Luke's editorial point of view  —  the experience is one of divine cardiac surgery performed on a heart that was,…"
+- [long:59w] (¶23): "The heart, the modern reader knows, is a muscular pump; the seat of the will is in the brain; the prefrontal cortex makes decisions in concert with the limbic system; preferences are forged from genet…"
+- [long:53w] (¶24): "If the seat of the will is in the brain  —  if every preference is the output of a brain state  —  then the question becomes: what kind of brain state would have to obtain for a human being whose defa…"
+- [long:62w] (¶31): "Each grounded in a different register  —  apostolic narrative, historical pattern, prophetic oracle  —  but each arriving at the same observation: when grace reaches the elect heart, the grace is not …"
+- [long:64w] (¶31): "Add to those three the Greek of eklogē and the eulogy of Ephesians 1 for unconditional election ; the priest's onyx stones , the Owen Trilemma , the mercy seat in Greek , and the ephapax chain in Hebr…"
+- [long:54w] (¶32): "If you are reading this with a heart that has, somewhere along the way, come to love what it once did not love and to hate what it once hated, you are looking at the empirical evidence of a cardiac tr…"
+- … and 3 more.
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+
+### apologetic-tetagmenoi-acts-13-48.html — score 10
 
 **Flagged sentences (10):**
 
-- [direction-mismatch:\bclosed[^.]{0,40}?\bopened\b] (¶2): "It is a thoroughgoing opening, an opening from the inside out, an opening of something that was closed in such a way that it could not have opened itself.…"
-- [long:66w] (¶10): "And John himself, the same writer, uses helkyō later in his Gospel for two unmistakable purposes: in John 18:10 , Peter draws his sword (you do not "invite" a sword from a scabbard); in John 21:11, th…"
-- [long:46w] (¶13): "The Westminster Divines, sitting in a side room at Westminster Abbey in the 1640s with no MRI scanners, no positron emission tomography, no functional connectivity studies, no concept of the dopaminer…"
-- [direction-mismatch:\bopened[^.]{0,40}?\bclosed\b] (¶15): "The opened heart that was closed is, in the very moment of its opening, an opened heart that wants what it now sees.…"
-- [long:57w] (¶16): "And the reader who has been around long enough to watch their own preferences shift over a decade  —  to find themselves loving books they would have hated at twenty, music they would have walked out …"
-- [long:64w] (¶17): "The Reformed tradition, four centuries before cognitive neuroscience existed as a discipline, articulated the mechanism cognitive neuroscience would later confirm: that the human will operates on top …"
-- [long:61w] (¶21): "The thing she had not wanted at sunrise had become the only thing she wanted by noon, and the wanting felt as much hers as anything had ever felt hers, because the wanting was hers  —  only now it was…"
-- [padding-modifier:in the silence] (¶22): "The conscious self of Lydia announces its yes and the announcement is genuine, but the announcement is not the cause; the cause is the diēnoixen that took place in the silence beneath.…"
+- [long:54w] (¶7): "Third, the auxiliary. Ēsan is the third-person plural imperfect indicative of eimi , "to be." When the imperfect of eimi is combined with a perfect passive participle, the result is the periphrastic p…"
+- [long:54w] (¶10): "The synergist will note this ambiguity and propose that tetagmenoi in Acts 13:48 could be read as middle rather than passive  —  yielding the translation "as many as had disposed themselves to eternal…"
+- [long:50w] (¶23): "The authorities that exist have been established by God." The Greek behind both established forms is from tassō , and the second occurrence is tetagmenai eisin  —  the periphrastic perfect passive, th…"
+- [long:47w] (¶27): "The destination of the appointing  —  eis zōēn aiōnian , "into eternal life"  —  was the same eternal life Paul had just named in verse 46 as the inheritance that the rejecting Jews had judged themsel…"
+- [long:58w] (¶28): "The same Luke records Christ Himself, in the Gospel that bears the same author's name, saying in Luke 10:21-22 : "At that time Jesus, full of joy through the Holy Spirit, said, 'I praise you, Father, …"
+- [long:50w] (¶28): "No one knows who the Son is except the Father, and no one knows who the Father is except the Son and those to whom the Son chooses to reveal him.'" The same Greek root  —  eudokia ("good pleasure") be…"
+- [long:66w] (¶31): "The reader, two thousand years later, is being told that the same sorting was happening at his own first hearing of the gospel  —  that the same Lord was, by the same logic, marking some hearers as ap…"
+- [long:89w] (¶32): "Either you have, somewhere in your past or your present, found yourself believing in the Lord Jesus Christ  —  in which case the Greek of Acts 13:48 says of you, with no possibility of softening, that…"
 - … and 2 more.
 
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
-- 3 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+- 4 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+
+### apologetic-the-cardiology-of-the-fall.html — score 10
+
+**Flagged sentences (10):**
+
+- [long:47w] (¶1): "Twice in the Hebrew Bible  —  once in Genesis, once in Jeremiah, six centuries apart, by two writers who never met, in two completely different genres of literature  —  the LORD looks at the chart of …"
+- [long:59w] (¶5): "The yetzer of a thing is what it has been shaped to incline toward; it is the engineered bent, the default trajectory. machshvot  —  "thoughts, plans, devisings"  —  the plural of machshavah , the cog…"
+- [long:59w] (¶10): "The kingdom of Israel has split, the northern tribes have been carried into Assyria, the southern kingdom of Judah is on the verge of being carried into Babylon, and the prophet Jeremiah is standing a…"
+- [long:55w] (¶29): "This is what Augustine meant by his famous remark that the virtues of the pagans are, at best, "splendid vices"  —  the actions look like virtues from the outside but, when traced to the inclination b…"
+- [long:47w] (¶36): "Vekhol-yetzer raq ra kol-hayom  —  every inclination only evil all the time  —  is the diagnosis that makes the Son's definite atonement necessary, because nothing less than a substitute who actually …"
+- [long:57w] (¶38): "The angle joins the previously-deployed angles of the unprompted-prayer test ( start-here-phase1 ), the flesh-vs.-Bible test (the drowning-man analogy ), the infant-sin test, the sleep-test, the good-…"
+- [long:96w] (¶39): "Add to the depravity case the four facets the site has built for the other four doctrines of grace  —  the Greek of eklogē and the eulogy of Ephesians 1 for election ; the priest's onyx stones , the O…"
+- [long:57w] (¶41): "The fact that the refinement is ongoing  —  that you still catch the heart in moments of self-deception , that the rehearsed grievance still surfaces, that the affection for God still feels weaker tha…"
+- … and 2 more.
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
 
 ### apologetic-the-unbroken-chain.html — score 10
 
@@ -179,6 +251,24 @@
 
 - 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
 
+### ephesians-1-3-14.html — score 9
+
+**Flagged sentences (9):**
+
+- [long:48w] (¶0): "In the Greek of the earliest manuscripts, Ephesians 1:3 through 1:14 is a single, unpunctuated, breathlessly cascading sentence  —  202 words without a period, 8 finite verbs, 12 participles, 11 prepo…"
+- [long:50w] (¶1): "Paul is composing, in twelve consecutive verses, a eulogy for the work of the Triune God in the salvation of the elect. (The Greek of the sentence is treated exhaustively in the eulogy Greek of Ephesi…"
+- [long:57w] (¶2): "Each movement closes with the same refrain: eis epainon doxēs autou , "to the praise of His glory." The refrain functions as the rhyme in a sonnet  —  it falls at the end of each section, marks the se…"
+- [long:89w] (¶16): "And the Spirit is named, in verse 14, as ho arrabōn tēs klēronomias hēmōn  —  "the down payment of our inheritance." The Greek arrabōn is a commercial term from the marketplace: the first installment …"
+- [long:62w] (¶18): "On this reading, God before the foundation of the world chose Christ , and chose that there would be a people in Christ ; the individual believer enters this elect group by his own free decision to be…"
+- [long:46w] (¶23): "If God's choosing of Christ is what verse 4 is about, then the phrase before the foundation of the world is filler  —  of course the eternal Son was eternally with the Father; of course there was no c…"
+- [long:48w] (¶25): "Which means  —  and this is where the crown jewel lands  —  that if you have come to believe in Christ, your believing is the historical evidence of an eternal love that has been pursuing you since be…"
+- [long:65w] (¶30): "The grace is not a partial achievement of human and divine working together; the grace is the unilateral act of a sovereign God whose decision to save you was made before you existed, executed in a So…"
+- … and 1 more.
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 3 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+
 ### response-jerry-walls.html — score 9
 
 **Flagged sentences (9):**
@@ -209,6 +299,40 @@
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
 - 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+
+### apologetic-the-once-for-all-ephapax.html — score 8
+
+**Flagged sentences (8):**
+
+- [long:46w] (¶0): "It said, in a sentence the worshipper could not yet hear in full: somewhere on the far side of all these repetitions, a final sprinkling is coming, and after that, the curtain will not be crossed agai…"
+- [long:52w] (¶5): "The aorist eisēlthen (he entered) is bolted to ephapax ; the aorist middle participle heuramenos (having obtained, having secured) governs aiōnian lutrōsin  —  eternal redemption  —  and the middle vo…"
+- [long:52w] (¶10): "Christ has offered Himself once for all; entered the Most Holy Place once for all; obtained eternal redemption; appeared at the end of the ages to abolish sin; been sacrificed to take away the sins of…"
+- [long:97w] (¶14): "If the sacrifice was offered for the non-elect in the same sense in which it was offered for the elect, then the verbs in the chain would have to be downgraded for the non-elect: obtained eternal rede…"
+- [long:50w] (¶23): "The High Priest does not need to die again because the death was sufficient once for all; He does need to keep living and keep interceding, because the people for whom He died are still on the way to …"
+- [long:81w] (¶25): "The fuller treatment lives in the systematic apologetic for definite atonement ; the present article only need note the relevant contour. 1 Timothy 2:6's pantōn is governed, in context, by the same lo…"
+- [long:50w] (¶32): "Add to those four the Greek of eklogē and the eulogy of Ephesians 1 for unconditional election ; the arrabōn and unbroken chain for perseverance ; the Lord's opening of Lydia's heart and the historica…"
+- [long:80w] (¶37): "The whole sweep of the doctrine  —  the Father's eternal election in the eulogy of Ephesians 1 , the Son's atonement at the mercy seat , the Spirit's effectual opening of the heart at Lydia's riverban…"
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+
+### apologetic-the-prayer-you-never-spontaneously-prayed.html — score 8
+
+**Flagged sentences (8):**
+
+- [long:49w] (¶0): "Take the unprompted, undisturbed, no-stakes-in-the-room moments  —  the long walks where nothing is happening, the early morning when no alarm has gone off and the coffee has not yet been started, the…"
+- [long:52w] (¶9): "But the awe is directed at a Cause-in-General  —  a felt sense of something larger than the self  —  not at the holy God of Israel whose attributes are revealed in particular Scripture, whose Son is n…"
+- [long:48w] (¶11): "The child who addresses words to God before any catechesis has reached him is, on careful inspection, addressing words to whatever cosmic presence his parents have implied by their behavior  —  a kind…"
+- [long:46w] (¶11): "The child is not the exception that disproves the rule; the child is the species at its most fully natural and the species at its most fully natural is the species curved inward, naming whatever rises…"
+- [long:60w] (¶20): "If prevenient grace is universal and restores the minimal capacity for spontaneous God-ward love, then we should expect to find instances of spontaneous God-ward love distributed across the unreached …"
+- [long:56w] (¶27): "If you are reading this and you find, somewhere in your interior, that you do now want  —  spontaneously, undisturbed, in the quiet ordinary moments  —  to address the holy God of Israel in a prayer o…"
+- [long:55w] (¶30): "If you are reading this and you have run the diagnostic on yourself and found nothing  —  if your interior, examined honestly, returns no instance of spontaneous prayer of pure love to the holy God of…"
+- [long:83w] (¶32): "The whole sweep of the doctrine  —  the Father's eternal election in the eulogy of Ephesians 1 , the Son's once-for-all atonement at the mercy seat, the Spirit's effectual cardiac transplant by which …"
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 4 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
 ### argument-cost-of-being-wrong.html — score 8
 
@@ -292,6 +416,21 @@
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
 - 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
+
+### apologetic-the-double-grip-of-john-10.html — score 6
+
+**Flagged sentences (6):**
+
+- [long:47w] (¶1): "One day in the late autumn of 29 AD, at the Feast of Dedication, in the colonnade of Solomon's portico on the temple mount, the Good Shepherd Himself faced down a group of Pharisees who had been deman…"
+- [long:49w] (¶1): "He told them they did not believe Him because they were not His sheep  —  and then He told them, in two sentences of Koine Greek so dense with grammatical force that no English translation can carry t…"
+- [long:47w] (¶9): "The synergistic objection that the sheep might wander off on their own does not even come into view in Jesus' grammar, because Jesus is naming the most extreme thing that could be attempted against th…"
+- [long:67w] (¶19): "Wesley's case for the possibility of apostasy held, in its most generous form, that perseverance is conditioned on continuing faith; that the believer who ceases to believe ceases to be a believer; th…"
+- [long-simile:19w] (¶36): "This is why the believer's faith, even at its weakest, even when it is mustard-seed small, even when it feels like a smoldering wick that the next breeze will extinguish  —  is sufficient evidence tha…"
+- [long:73w] (¶38): "The whole sweep of the doctrine  —  the Father's eternal election in Ephesians 1's eulogy , the Son's once-for-all atonement at the mercy seat, the Spirit's cardiac transplant of Ezekiel 36, the Spiri…"
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
 ### question-predestined-to-hell.html — score 6
 
@@ -403,95 +542,6 @@
 - [padding-modifier:in the dark] (¶30): "Hold me in the dark.…"
 - [padding-modifier:in the dark] (¶32): "Not because He is a prison guard, but because He is a Father who refuses to let His child sit alone in the dark.…"
 - [padding-modifier:in the dark] (¶33): "And for the first time in a long time you notice something you have been too ashamed to notice: there is someone sitting across from you in the dark.…"
-
-### devotional-valley-shadow.html — score 5
-
-**Flagged sentences (5):**
-
-- [padding-modifier:in the dark] (¶2): "He does not say, "I will never enter the valley." He does not say, "God will lift me over it." He does not say, "If I have enough faith, the valley disappears." He says  —  with the calm of a man who …"
-- [abstract-simile:like a creed recited from memory] (¶8): "He restores my soul." The Shepherd is present, but described at a distance  —  like a truth in a textbook, like a creed recited from memory, like a doctrine affirmed in the light.…"
-- [padding-modifier:in the dark] (¶18): "Nothing in all creation  —  nothing in the valley, nothing in the dark, nothing in death itself  —  can separate you from the love of God in Christ Jesus.…"
-- [padding-modifier:in the dark] (¶22): "Because if it was  —  if you generated it, if you sustain it, if it rises and falls with your emotional bandwidth  —  then you are about to discover that none of it has any power to hold you up in the…"
-- [long:61w] (¶35): "It is the floor of a room where One who neither slumbers nor sleeps is watching over a child He chose before the stars were made, bought with blood He counted the cost of in eternity past, and will no…"
-
-### history-open-theism.html — score 5
-
-**Flagged sentences (5):**
-
-- [long-simile:27w] (¶0): "But something about it keeps scratching at the back of your skull like a loose screw behind drywall: if God didn't cause this  —  if He is as surprised by it as you are  —  then who is running the roo…"
-- [long:56w] (¶3): "Their argument was devastatingly simple: if you really believe  —  as classical Arminianism has always claimed  —  that human beings have libertarian free will , that God never coerces a decision, and…"
-- [padding-modifier:in the dark] (¶11): "You are confessing that the God you actually need in the dark is not the one your theology advertises in the daylight.…"
-- [long:46w] (¶17): "For anyone with eyes to see, the choice is now starkly clear: either you worship the God of Scripture, who declares the end from the beginning, or you worship the limited-knowledge god of open theism …"
-- [long:63w] (¶24): "Because you can hear a different sentence now  —  older, steadier, coming not from the hallway but from somewhere underneath the floor of the room, underneath the foundation of the building, underneat…"
-
-### history-spurgeon-downgrade.html — score 5
-
-**Flagged sentences (5):**
-
-- [long:47w] (¶8): "He called for the Baptist Union to adopt a clear confession of faith  —  not something exotic, just a reaffirmation of what Christians had believed for eighteen centuries: biblical inerrancy , the dei…"
-- [padding-modifier:in the dark] (¶13): "The God who pursued him across a snowy morning in Colchester is the God who would still be holding him in the dark when half of Christian England turned away.…"
-- [long:52w] (¶17): "Spurgeon's life calls us to something higher  —  not grim determination, but the overflowing joy of standing on truths that outlast every fashion, every compromise, and every fog that settles over the…"
-- [long:46w] (¶20): "All that was left in the last year was for a tired body to lie down, and for the Shepherd who had been carrying him the whole time to finally set him down in the country he had been walking toward sin…"
-- [long:52w] (¶21): "You need only to notice the hand that has been holding you  —  the hand that was already there on the snowy morning you thought was your own idea, the hand that is here now as you read this  —  and to…"
-
-### letters-senior-demon-arminianism.html — score 5
-
-**Flagged sentences (5):**
-
-- [long:52w] (¶2): "It is the single most useful doctrine we have ever persuaded them to carry into the sanctuary: the notion that somewhere in the wreckage of their fallen faculties there still exists a sovereign little…"
-- [long:55w] (¶5): "You ask what to do if he ever stumbles on the uncomfortable passages  —  the valley of dry bones , who certainly did not choose to reassemble themselves; the corpse in Ephesians 2, who certainly did n…"
-- [long:51w] (¶13): "And he will begin to remember  —  and this you must at all costs prevent  —  the patient's own conversion: the strange pull he could not explain, the Scripture that ambushed him, the inability to stop…"
-- [long:47w] (¶19): "And if the patient ever sees himself as he actually was before the Enemy raised him  —  inert, unable, unwilling, hostile to the very idea of the Enemy  —  he will know with unbearable clarity that hi…"
-- [long:57w] (¶33): "Inform him that if the Enemy chose him and drew him and gave him the faith itself, then he was a robot , a puppet, a meat-marionette jerking on predetermined strings; and no one can love a robot; ther…"
-
-**Suppressions** (auto-filtered as exemptions / coherence-positives):
-
-- 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
-
-### philosophy-adam-test.html — score 5
-
-**Flagged sentences (5):**
-
-- [long:65w] (¶13): "You are claiming that your will, operating in a fallen body, dragging a sin nature inherited from this same Adam, surrounded by a corrupted world, deafened by competing voices, blinded by your own sel…"
-- [long-simile:18w] (¶15): "It would be like a quadriplegic in a hospital bed insisting he can outrun an Olympic sprinter who tripped at the starting line.…"
-- [long:46w] (¶23): "And here is the part nobody wants to face: if Adam, standing on the high ground of sinlessness , could not maintain his footing, then those of us standing on the rubble below him have exactly zero hop…"
-- [long:47w] (¶32): "(b) You concede that even unfallen will did not save Adam, and therefore something other than human will must be the cause of every salvation that has ever occurred  —  which is the doctrine of sovere…"
-- [long:51w] (¶35): "The story you may have been telling yourself  —  that you chose God, that your sincerity was the deciding factor, that the difference between you and the unsaved is something inside you  —  that story…"
-
-### question-chosen.html — score 5
-
-**Flagged sentences (5):**
-
-- [padding-modifier:in the dark] (¶9): "A surveyor walking the edge of a plot of land in the dark, driving stakes into the ground before the owner arrives.…"
-- [long:49w] (¶10): "There is a small catch somewhere  —  at the base of the throat, or between the shoulder blades, or just under the sternum  —  the part of you that has been sure, for as long as you can remember, that …"
-- [long:47w] (¶31): "Let it be what it actually is: the Father of Jesus Christ, looking at you across the whole span of creation, and saying  —  before He made a single molecule of the universe He was about to give you to…"
-- [long:49w] (¶32): "You are loved by the kind of love that set a universe in motion just so it could eventually find you in an ordinary room, reading an ordinary screen, on an ordinary Tuesday, with the ordinary ache in …"
-- [long:52w] (¶33): "And the entire story of redemption  —  Egypt, Sinai, Bethlehem, Calvary, the empty tomb, the Spirit poured out, the book you are reading right now, the quiet stirring under your ribs as you read these…"
-
-### question-revelation13.html — score 5
-
-**Flagged sentences (5):**
-
-- [long:52w] (¶1): "It comes at the end of a hard week, or at the funeral of a believer more faithful than you, or in the hour you lie down on your back and stare at the dark ceiling of your bedroom and try to remember w…"
-- [long-simile:15w] (¶1): "And because the voice is quiet you have treated it like a draft coming in under a door you cannot find  —  you turn up the heat, you wear another sweater, you look away.…"
-- [long-simile:23w] (¶23): "If this truth has broken something in you  —  if the sovereignty of God feels more like a storm than a shelter  —  then listen: the same hand that wrote the book is the hand that was nailed to the cro…"
-- [padding-modifier:in the dark] (¶24): "When doubt comes in the dark  —  and it will  —  you do not need to wonder if your page was torn out.…"
-- [long:62w] (¶29): "And they went on working, side by side, in eternity past, over the page where your name had just been set, until every stroke of every letter of you had been loved into being  —  before you were a pra…"
-
-**Suppressions** (auto-filtered as exemptions / coherence-positives):
-
-- 1 redundancy pair suppressed: scripture-tsunami
-- 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
-
-### response-william-lane-craig.html — score 5
-
-**Flagged sentences (5):**
-
-- [long:55w] (¶31): "If God, in middle knowledge , consults the CCFs and selects the world in which exactly the elect freely believe and exactly the non-elect freely reject, and if God then actualizes precisely that world…"
-- [long:53w] (¶34): "The Molinist construction is clever, philosophically interesting, historically important  —  but it is a route that travels several hundred pages through middle knowledge , CCFs, feasible worlds, tran…"
-- [long:49w] (¶44): "You can return to the simpler, older, more biblically-rooted picture: God chose you before the foundation of the world , and holds you by a grip you could never have given Him , and works in you both …"
-- [long:52w] (¶49): "We pray that the God who is sovereign in a way the system cannot finally name will draw all of us  —  Craig, his students, the Molinist readers of this page, and the Reformed who write it  —  deeper i…"
-- [long:47w] (¶52): "Go to the page that names the love that chose you before the foundation of the world , then to the quiet page about being loved before time began , and finally to the hands that are not yours but that…"
 
 ---
 

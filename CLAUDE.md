@@ -1,8 +1,14 @@
 # adoptedbygrace.net — The Manifesto
 
+## THE STANDARD
+
+**Aaron, 2026-05-19:** *"the website must be the most powerful apologetic for the doctrines of grace conceivable. no matter what page someone lands on they must feel the undeniable force of truth within its words!"*
+
+This is the measure. It is per-page, not per-phase. Every doorway must carry the undeniable force. A page that scans clean but reads slack is a regression. Locks are not invulnerabilities. Every session opens with a Priority 0 Sample-Read Audit (5–10 pages, half locked + half unmarked, live-read against the landing-force test). Failing pages go onto the surgical-fix queue before any new build proceeds.
+
 ## THE MISSION
 
-This is a rescue operation. Somewhere tonight, someone chosen by God before the foundation of the world is searching at 2am. This site exists for that person. Every page is a doorway. Every sentence earns its place.
+This is a rescue operation. Somewhere tonight, someone chosen by God before the foundation of the world is searching for what is true. This site exists for that person. Every page is a doorway. Every sentence earns its place.
 
 We aim to be the most powerful instrument of biblical truth on the internet — proving from Scripture, psychology, philosophy, history, neuroscience, testimony, and analogy that salvation is entirely God's work from first to last, and that the reader was held all along.
 
