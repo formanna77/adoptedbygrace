@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-20T15:43:49.210Z",
+  "generated": "2026-05-21T02:14:24.860Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 523,
+    "articles_audited": 527,
     "total_redundancy_pairs_flagged": 13,
-    "total_sentences_flagged": 890,
+    "total_sentences_flagged": 910,
     "total_redundancy_pairs_suppressed": 19,
-    "total_sentences_suppressed": 135,
+    "total_sentences_suppressed": 138,
     "articles_with_redundancy": 13,
-    "articles_with_flagged_sentences": 347,
+    "articles_with_flagged_sentences": 351,
     "articles_clean": 169,
     "suppression_by_class": {
       "scripture-tsunami": 10,
@@ -130,6 +130,15 @@
       "suppressed_sentence_count": 2
     },
     {
+      "file": "apologetic-nothing-can-separate.html",
+      "score": 8,
+      "paragraphs": 27,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
       "file": "apologetic-the-once-for-all-ephapax.html",
       "score": 8,
       "paragraphs": 41,
@@ -245,6 +254,15 @@
       "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 5,
       "suppressed_sentence_count": 2
+    },
+    {
+      "file": "apologetic-for-the-sheep.html",
+      "score": 5,
+      "paragraphs": 25,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
     },
     {
       "file": "demolition-romans2-4.html",
@@ -421,6 +439,15 @@
       "file": "apologetic-arrabon-the-down-payment.html",
       "score": 4,
       "paragraphs": 32,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-the-conscience-that-only-accuses.html",
+      "score": 4,
+      "paragraphs": 25,
       "redundancy_count": 0,
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
@@ -670,6 +697,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "apologetic-no-one-can-come-unless.html",
+      "score": 3,
+      "paragraphs": 29,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
+    },
+    {
       "file": "apologetic-owen-trilemma.html",
       "score": 3,
       "paragraphs": 41,
@@ -703,42 +739,6 @@
       "redundancy_count": 0,
       "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 1,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "creed-heidelberg-catechism.html",
-      "score": 3,
-      "paragraphs": 20,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
-    },
-    {
-      "file": "demolition-deut30-19.html",
-      "score": 3,
-      "paragraphs": 24,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "demolition-matthew-23-37.html",
-      "score": 3,
-      "paragraphs": 30,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "devotional-i-dont-think-im-saved.html",
-      "score": 3,
-      "paragraphs": 31,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
     }
   ],
@@ -1458,6 +1458,69 @@
       "score": 0
     },
     {
+      "file": "apologetic-for-the-sheep.html",
+      "paragraphs": 25,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "And it is, at the same time, one of the clearest texts in the New Testament for a doctrine many of those same believers have been taught to fear: that the cross had a definite design, a specific inten"
+        },
+        {
+          "paragraph": 2,
+          "sentence_index": 1,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "The good shepherd lays down his life for the sheep.\" (John 10:11) And again, four verses later, with the relationship spelled out: \"I am the good shepherd; I know my sheep and my sheep know me  —  jus"
+        },
+        {
+          "paragraph": 3,
+          "sentence_index": 2,
+          "flags": [
+            "long:64w"
+          ],
+          "preview": "The preposition hyper , when it governs the genitive case as it does here, is the preposition of substitution and benefit: \"on behalf of,\" \"in the place of,\" \"for the sake of.\" It is the same preposit"
+        },
+        {
+          "paragraph": 21,
+          "sentence_index": 5,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "But if, somewhere underneath your fear, the voice of Christ in this discourse does not repel you but draws you  —  if \"the Lord is my shepherd\" makes something in your chest lean toward Him rather tha"
+        },
+        {
+          "paragraph": 22,
+          "sentence_index": 4,
+          "flags": [
+            "long:59w"
+          ],
+          "preview": "And if it sounds like the one your whole life has been straining to hear, then come  —  and discover on the inside of the fold that the Shepherd knew your name before you knew His, and laid down His l"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 6,
+          "sentence_index": 0,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:75w-raw/55w-prose"
+          ],
+          "preview": "This is why the relationship in verse 14 is mutual and specific: \"I know my sheep and my sheep know me.\" The verb is gin"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 5
+    },
+    {
       "file": "apologetic-hilasterion-the-mercy-seat.html",
       "paragraphs": 34,
       "redundancy_pairs": [],
@@ -1680,6 +1743,61 @@
       "score": 11
     },
     {
+      "file": "apologetic-no-one-can-come-unless.html",
+      "paragraphs": 29,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 3,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "He crossed the lake in the dark."
+        },
+        {
+          "paragraph": 20,
+          "sentence_index": 6,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "Jesus then seals the whole scene by tracing even the apostasy back to the sovereign frame: verse 64, \"there are some of you who do not believe… This is why I told you that no one can come to me unless"
+        },
+        {
+          "paragraph": 27,
+          "sentence_index": 3,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "If there is in you tonight any movement toward the Holy One of God  —  any suspicion that He is the bread your whole life has been hungry for  —  then turn toward Him and come, and discover on the far"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 4,
+          "sentence_index": 5,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:78w-raw/56w-prose"
+          ],
+          "preview": "Outside John's Gospel the verb only gets more violent: in Acts 16:19 the owners of the fortune-telling slave girl \" seiz"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 0,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:father,raise,verse,unless"
+          ],
+          "preview": "Then verses 38–40 add the seal: of all the Father gives Him, Jesus will \"lose none of them, but raise them up at the las"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2,
+      "score": 3
+    },
+    {
       "file": "apologetic-not-because-but-because.html",
       "paragraphs": 40,
       "redundancy_pairs": [],
@@ -1805,6 +1923,84 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 3,
       "score": 11
+    },
+    {
+      "file": "apologetic-nothing-can-separate.html",
+      "paragraphs": 27,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 6,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "The closing paragraph of Romans 8 is a courtroom and a battlefield and a search party all at once, and Paul runs the whole proceeding through a hammer-blow series of questions that the Greek calls tis"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 3,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "To a world terrified of the stars, of horoscopes, of the iron grip of fate written in the sky, Paul says: the highest point of cosmic power and the lowest abyss of it  —  the entire span of everything"
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 4,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "And Paul, having swept heaven and earth, having named death and life and angels and demons and the stars at the zenith and the abyss at the bottom, throws the net one final time over everything that h"
+        },
+        {
+          "paragraph": 17,
+          "sentence_index": 3,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "But the chain of Romans 8 was never your grip on God; it was always God's grip on you  —  the same truth the double-hand grip of John 10 presses from the Greek of the Good Shepherd: no one will snatch"
+        },
+        {
+          "paragraph": 18,
+          "sentence_index": 3,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "If a believer could finally separate himself by apostasy, then a link in the chain of verses 29–30 would snap, and the one God justified would not be glorified  —  and Paul's whole argument, built to "
+        },
+        {
+          "paragraph": 20,
+          "sentence_index": 2,
+          "flags": [
+            "long:69w"
+          ],
+          "preview": "He conducted the most exhaustive search in Scripture for the one thing that could place a person outside the love of God  —  and he ransacked death, life, the spirit-world, time, power, the stars at t"
+        },
+        {
+          "paragraph": 22,
+          "sentence_index": 4,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "This fourth one is the crescendo the chain was always building toward: the seven questions of Romans 8:31-39, where Paul takes the doctrine the chain established and shouts it into every realm of real"
+        },
+        {
+          "paragraph": 24,
+          "sentence_index": 0,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "If you have read this and the security still feels too good to trust  —  if the old engine of fear is whispering that a promise this total must have fine print you have not read  —  then go back and r"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 8
     },
     {
       "file": "apologetic-owen-trilemma.html",
@@ -2292,7 +2488,7 @@
           "paragraph": 41,
           "sentence_index": 3,
           "flags": [
-            "long:57w"
+            "long:58w"
           ],
           "preview": "The fact that the refinement is ongoing  —  that you still catch the heart in moments of self-deception , that the rehearsed grievance still surfaces, that the affection for God still feels weaker tha"
         },
@@ -2329,6 +2525,52 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
       "score": 10
+    },
+    {
+      "file": "apologetic-the-conscience-that-only-accuses.html",
+      "paragraphs": 25,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 11,
+          "sentence_index": 2,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "Modern psychology has rediscovered the same wall and renamed it the \"value-action gap,\" documenting in study after study that human beings reliably fail to do what they themselves rank as right and im"
+        },
+        {
+          "paragraph": 15,
+          "sentence_index": 2,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "The conscience's \"defense\" is not a reliable witness to real righteousness; it is frequently the very self-serving acquittal that secular psychology has measured exhaustively as attribution bias  —  t"
+        },
+        {
+          "paragraph": 17,
+          "sentence_index": 3,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "Its function in the divine economy is not to make you righteous but to make you undeniably guilty, to strip away every defense until the only verdict available is the true one, and then to drive you o"
+        },
+        {
+          "paragraph": 20,
+          "sentence_index": 0,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "This is the same diagnosis the site presses from every angle  —  the four-day corpse of Lazarus who could not raise himself, the Hebrew cardiology of the fall that locates the corruption in the heart'"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 4
     },
     {
       "file": "apologetic-the-double-grip-of-john-10.html",
@@ -2643,7 +2885,7 @@
           "paragraph": 25,
           "sentence_index": 2,
           "suppressed_flags": [
-            "length-suppressed-embedded-quotation:98w-raw/81w-prose"
+            "length-suppressed-embedded-quotation:99w-raw/82w-prose"
           ],
           "preview": "The word pantōn is regularly used by Paul this way (Romans 11:32, for instance: \"For God has bound everyone over to diso"
         }
@@ -6591,7 +6833,7 @@
           "paragraph": 14,
           "sentence_index": 0,
           "suppressed_flags": [
-            "length-suppressed-embedded-quotation:73w-raw/53w-prose"
+            "length-suppressed-embedded-quotation:74w-raw/53w-prose"
           ],
           "preview": "The Son's movement ends at the second occurrence of the refrain: eis to einai hēmas eis epainon doxēs autou tous proēlpi"
         },
