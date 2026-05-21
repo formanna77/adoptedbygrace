@@ -3,6 +3,7 @@
 > **Location:** `/Reformed Sources/` (114 PDFs)
 > **Purpose:** Primary source library for all content agents. Every future session should consult this index when writing about a doctrine, theologian, historical period, or argument — the source material is HERE, ready to be quoted, paraphrased, and woven into site content.
 > **Last updated:** 2026-04-11
+> **Reader-facing:** These sources are now published to visitors at `/reformed-sources` (`reformed-sources.html`). When writing an article, deep-link the relevant PDF as `/Reformed%20Sources/<URL-encoded filename>` (space = `%20`) or point readers to the library. Derive every link from the REAL on-disk filename — some filenames in the tables below are truncated.
 
 ---
 

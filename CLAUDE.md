@@ -133,6 +133,21 @@ Do NOT hardcode `<nav class="section-nav">`, `<div class="section-nav">`, `<nav 
 
 114 Reformed theology PDFs live in `/Reformed Sources/`, indexed by `REFORMED-SOURCES-INDEX.md` (author, era, topic, category). Before writing about any doctrine, consult the index. Cite the sources. Let the reader know they stand in a 2,000-year tradition.
 
+**This library is now reader-facing.** `reformed-sources.html` (URL `/reformed-sources`, "The Reformed Source Library") exposes all 113 unique works to visitors — grouped into nine sections (Demolition, Systematic, Philosophy, Why We Resist, Devotionals, Pastoral, Questions, History/Creeds, Comparisons), every card linking to the actual PDF. It is wired in from `theologians`, `systematic-theology`, `start-here`, and `best-reads`. **When you write a doctrinal article, link relevant primary sources to `/reformed-sources` or deep-link the PDF** (`/Reformed%20Sources/<URL-encoded filename>` — the space MUST be `%20`). Do not rebuild this page; extend it. If you add PDFs to `/Reformed Sources/`, regenerate via the same approach (derive every link from the real on-disk filename — index filenames are sometimes truncated).
+
+---
+
+## COMPETITIVE BENCHMARKING — KNOW THE FIELD
+
+`docs/peer-site-benchmarking-2026-05.md` is the standing analysis of how this site compares to the doctrines-of-grace field (Desiring God, Ligonier, Monergism, GotQuestions, CARM, Founders, TGC, A Puritan's Mind, and the opposition, Soteriology 101). The verdict: **per page, we already out-argue every peer** (length, exegesis, steel-manning, the two-arms catch, multi-disciplinary proof, the crown jewel). Our four importable gaps, in priority order:
+
+1. **The on-ramp for the 90-second searcher** (GotQuestions' strength) — density is a wall. Drive "In Brief" to 100% coverage (currently ~235 of 594 pages); put a scannable answer on top of every deep page.
+2. **The reader-facing source library** (Monergism's strength) — DONE: `/reformed-sources`. Keep deep-linking it from articles.
+3. **A graded learning path** (Ligonier's strength) — turn `start-here-phase1–5` into a visible beginner→advanced staircase.
+4. **A second sense besides reading** (Desiring God / our opponent Soteriology 101) — audio of flagship pages; the site is text-only and the opposition owns the ears of the undecided.
+
+Read the full report before any strategic/structural work.
+
 ---
 
 ## THE MEASURE
