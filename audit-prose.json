@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-22T02:47:36.226Z",
+  "generated": "2026-05-22T21:40:29.547Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 532,
+    "articles_audited": 537,
     "total_redundancy_pairs_flagged": 13,
-    "total_sentences_flagged": 927,
+    "total_sentences_flagged": 943,
     "total_redundancy_pairs_suppressed": 19,
-    "total_sentences_suppressed": 139,
+    "total_sentences_suppressed": 140,
     "articles_with_redundancy": 13,
-    "articles_with_flagged_sentences": 356,
+    "articles_with_flagged_sentences": 361,
     "articles_clean": 169,
     "suppression_by_class": {
       "scripture-tsunami": 10,
@@ -463,6 +463,24 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "apologetic-kept-by-the-power-of-god.html",
+      "score": 4,
+      "paragraphs": 17,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
+    },
+    {
+      "file": "apologetic-save-his-people.html",
+      "score": 4,
+      "paragraphs": 14,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
       "file": "apologetic-the-conscience-that-only-accuses.html",
       "score": 4,
       "paragraphs": 25,
@@ -479,6 +497,15 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1
+    },
+    {
+      "file": "apologetic-the-valley-of-dry-bones.html",
+      "score": 4,
+      "paragraphs": 16,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
     },
     {
       "file": "counter-cs-lewis-free-will.html",
@@ -709,33 +736,6 @@
       "file": "anxious-mind-scrupulosity.html",
       "score": 3,
       "paragraphs": 64,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "apologetic-no-one-can-come-unless.html",
-      "score": 3,
-      "paragraphs": 29,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2
-    },
-    {
-      "file": "apologetic-owen-trilemma.html",
-      "score": 3,
-      "paragraphs": 41,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "apologetic-you-did-not-choose-me.html",
-      "score": 3,
-      "paragraphs": 19,
       "redundancy_count": 0,
       "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
@@ -1647,6 +1647,61 @@
       "score": 8
     },
     {
+      "file": "apologetic-kept-by-the-power-of-god.html",
+      "paragraphs": 17,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 2,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "It is the fear of falling away  —  the dread that one day your own faith will run out, that some future version of you will simply stop believing, walk off, and be lost, and that there is nothing in y"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 3,
+          "flags": [
+            "long:81w"
+          ],
+          "preview": "The unbroken chain of Romans 8 proves it by the golden links that lose no one between calling and glory; nothing can separate proves it by the seven exhausted threats that cannot pry you loose; he who"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 1,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "You are guarded to the end only because you were chosen before the beginning ; the garrison is posted only around those for whom the inheritance was definitely purchased ; and you entered the wall not"
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 4,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "It rests on the strength of the garrison, and the garrison is omnipotence, and omnipotence does not get tired at three in the afternoon or lose its nerve in the dark."
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 11,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:double,shows,sheep,hands"
+          ],
+          "preview": "The double grip of John 10 shows the sheep held in two hands at once, the Son's and the Father's, from which no one can "
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 4
+    },
+    {
       "file": "apologetic-lydias-heart.html",
       "paragraphs": 42,
       "redundancy_pairs": [],
@@ -2209,6 +2264,82 @@
       "score": 11
     },
     {
+      "file": "apologetic-save-his-people.html",
+      "paragraphs": 14,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 8,
+          "sentence_index": 3,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "Now the second, and here is the blade: if \"his people\" means \"all people,\" then the angel said \"he will save all people from their sins\"  —  and that is universalism, the salvation of every human bein"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 1,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "If Christ came to offer salvation, then the offer can be made and refused, accepted and lost, and the weight of finishing the rescue falls back on you  —  on the steadiness of your grip, the constancy"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 4,
+          "flags": [
+            "long-simile:20w"
+          ],
+          "preview": "The definiteness that sounds, at first, like a wall built to keep people out is in fact the only foundation strong enough to hold a real person up."
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 0,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "So hear the name again, the way Joseph heard it in the dark, and let it land as a verdict already passed in your favor."
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 4
+    },
+    {
+      "file": "apologetic-sinful-from-birth.html",
+      "paragraphs": 18,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 13,
+          "sentence_index": 1,
+          "flags": [
+            "long:70w"
+          ],
+          "preview": "The other facets catch the disease in the adult and the act: the fourth-day corpse shows the will too dead to raise itself; the mind that cannot submit shows the intellect unable to bend to God; the c"
+        },
+        {
+          "paragraph": 14,
+          "sentence_index": 1,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "If you were sinful from conception, no later act of yours could be the thing that first turned God toward you  —  your election had to reach back even further, before the womb, before the world ( chos"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 2,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 2
+    },
+    {
       "file": "apologetic-tetagmenoi-acts-13-48.html",
       "paragraphs": 45,
       "redundancy_pairs": [],
@@ -2602,6 +2733,36 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 4
+    },
+    {
+      "file": "apologetic-the-deceitful-heart.html",
+      "paragraphs": 18,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 2,
+          "sentence_index": 1,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "Jeremiah writes aqob halleb mikkol  —  \"the heart is aqob above all.\" And aqob is not a generic word for \"bad.\" It comes from the root aqab , which means to grab the heel, to trip, to supplant, to dec"
+        },
+        {
+          "paragraph": 15,
+          "sentence_index": 0,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "Because the same verse that says \"who can understand it?\" is answered by a God who says \" I the Lord search the heart.\" The One you cannot read reads you completely  —  sees past every flattering self"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 2,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 2
     },
     {
       "file": "apologetic-the-double-grip-of-john-10.html",
@@ -3234,6 +3395,52 @@
       "score": 10
     },
     {
+      "file": "apologetic-the-valley-of-dry-bones.html",
+      "paragraphs": 16,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 3,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "When the gospel is preached to spiritually dead people  —  and Scripture says every unconverted person is exactly that, dead in transgressions , as dry as anything in that valley  —  it is a man comma"
+        },
+        {
+          "paragraph": 5,
+          "sentence_index": 4,
+          "flags": [
+            "long:69w"
+          ],
+          "preview": "So God commands a second prophecy, and this one is aimed not at the bones but at the breath: \"Come, breath, from the four winds and breathe into these slain, that they may live.\" Only then  —  only wh"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 2,
+          "flags": [
+            "long:64w"
+          ],
+          "preview": "Where Lydia's heart shows the Lord opening one woman's heart to respond, and the road to Damascus shows the effectual call at full volume on a single persecutor, the dry bones show the same power scal"
+        },
+        {
+          "paragraph": 14,
+          "sentence_index": 1,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "If your spiritual life began as a self-help project  —  if you reached up out of the dust by your own strength and God merely met the reaching  —  then your life is only ever as secure as your strengt"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 4
+    },
+    {
       "file": "apologetic-those-you-gave-me.html",
       "paragraphs": 23,
       "redundancy_pairs": [],
@@ -3260,7 +3467,7 @@
           "flags": [
             "long:50w"
           ],
-          "preview": "Second, verse 24 dates the love behind the giving to \"before the creation of the world.\" There was no human, no choice, no faith to foresee in any sense that could be the basis of the gift, because th"
+          "preview": "Second, verse 24 dates the love behind the giving to \" before the creation of the world .\" There was no human, no choice, no faith to foresee in any sense that could be the basis of the gift, because "
         },
         {
           "paragraph": 16,
@@ -7021,9 +7228,9 @@
           "paragraph": 25,
           "sentence_index": 0,
           "flags": [
-            "long:48w"
+            "long:49w"
           ],
-          "preview": "Which means  —  and this is where the crown jewel lands  —  that if you have come to believe in Christ, your believing is the historical evidence of an eternal love that has been pursuing you since be"
+          "preview": "Which means  —  and this is where the crown jewel lands  —  that if you have come to believe in Christ , your believing is the historical evidence of an eternal love that has been pursuing you since b"
         },
         {
           "paragraph": 30,

@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-05-22T02:47:36.243Z
+**Generated:** 2026-05-22T21:40:29.564Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -13,14 +13,14 @@
 
 | Metric | Value |
 |---|---|
-| Articles audited | 532 |
-| Articles entirely clean | 169 (31.8%) |
+| Articles audited | 537 |
+| Articles entirely clean | 169 (31.5%) |
 | Articles with (genuine) redundancy | 13 (2.4%) |
-| Articles with (genuine) flagged sentences | 356 (66.9%) |
+| Articles with (genuine) flagged sentences | 361 (67.2%) |
 | **Total redundancy pairs flagged (genuine)** | **13** |
-| **Total sentences flagged (genuine)** | **927** |
+| **Total sentences flagged (genuine)** | **943** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 19 |
-| Sentence flags suppressed (coherence-positive) | 139 |
+| Sentence flags suppressed (coherence-positive) | 140 |
 
 ### Suppression breakdown by exemption class
 
@@ -86,7 +86,7 @@
 47. **acts-13-48.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 33 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 48. **analogy-song-you-didnt-compose.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 41 paragraphs)
 49. **apologetic-arrabon-the-down-payment.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 32 paragraphs)
-50. **apologetic-the-conscience-that-only-accuses.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 25 paragraphs)
+50. **apologetic-kept-by-the-power-of-god.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 17 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 
 ---
 
@@ -261,7 +261,7 @@
 - [long:89w] (¶16): "And the Spirit is named, in verse 14, as ho arrabōn tēs klēronomias hēmōn  —  "the down payment of our inheritance." The Greek arrabōn is a commercial term from the marketplace: the first installment …"
 - [long:62w] (¶18): "On this reading, God before the foundation of the world chose Christ , and chose that there would be a people in Christ ; the individual believer enters this elect group by his own free decision to be…"
 - [long:46w] (¶23): "If God's choosing of Christ is what verse 4 is about, then the phrase before the foundation of the world is filler  —  of course the eternal Son was eternally with the Father; of course there was no c…"
-- [long:48w] (¶25): "Which means  —  and this is where the crown jewel lands  —  that if you have come to believe in Christ, your believing is the historical evidence of an eternal love that has been pursuing you since be…"
+- [long:49w] (¶25): "Which means  —  and this is where the crown jewel lands  —  that if you have come to believe in Christ , your believing is the historical evidence of an eternal love that has been pursuing you since b…"
 - [long:65w] (¶30): "The grace is not a partial achievement of human and divine working together; the grace is the unilateral act of a sovereign God whose decision to save you was made before you existed, executed in a So…"
 - … and 1 more.
 
@@ -462,7 +462,7 @@
 
 - [padding-modifier:into the dark] (¶0): "On the last night before the cross, with the betrayer already gone into the dark and the agony of Gethsemane an hour away, Jesus prayed out loud where His disciples could hear.…"
 - [long:50w] (¶0): "Over and over  —  seven times in twenty-six verses  —  He refers to the people He is about to die for, and He never once calls them the people who chose Him, or the people who decided for Him, or the …"
-- [long:50w] (¶13): "Second, verse 24 dates the love behind the giving to "before the creation of the world." There was no human, no choice, no faith to foresee in any sense that could be the basis of the gift, because th…"
+- [long:50w] (¶13): "Second, verse 24 dates the love behind the giving to " before the creation of the world ." There was no human, no choice, no faith to foresee in any sense that could be the basis of the gift, because …"
 - [long:47w] (¶16): "You have been straining your whole life to be chosen, and you were chosen before you drew breath; you have been trying to make yourself a gift worth giving, and you were already given, named in a pray…"
 - [long:48w] (¶19): "The fact that you are reading this with a fear that you might be on the wrong side of the boundary is itself the early evidence that you are not  —  for only a gift of the Father grieves at the though…"
 - [long:73w] (¶21): "Here is the answer, in the Savior's own praying voice, from before the creation of the world: you were wanted so deeply that the Father gave you to the Son as a gift, and the Son carried your name int…"

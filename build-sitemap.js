@@ -29,8 +29,16 @@
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
 const SITE = 'https://adoptedbygrace.net';
+
+// Per-file content-hash manifest. Lets unchanged pages keep their REAL
+// last-changed date instead of being stamped "today" on every run — an
+// always-today lastmod trains Google to ignore the freshness signal.
+// IMPORTANT: commit .sitemap-hashes.json so the dates persist across machines
+// and Netlify builds; otherwise every build re-stamps everything as today.
+const HASH_MANIFEST = '.sitemap-hashes.json';
 
 const SKIP_FILES = new Set([
   '_nav-template.html',
@@ -123,10 +131,28 @@ function changefreqFor(file) {
   return 'weekly';
 }
 
-function lastmodFor(file) {
-  // Use today for every page — we just regenerated schema + social meta on all of them.
-  const today = new Date().toISOString().split('T')[0];
-  return today;
+const TODAY = new Date().toISOString().split('T')[0];
+
+function loadManifest() {
+  try {
+    return JSON.parse(fs.readFileSync(HASH_MANIFEST, 'utf8'));
+  } catch (e) {
+    return {};
+  }
+}
+
+function hashFile(file) {
+  return crypto.createHash('sha1').update(fs.readFileSync(file)).digest('hex');
+}
+
+// Reuse the stored lastmod when the file's content is byte-for-byte unchanged;
+// otherwise stamp today. Records the current hash in nextManifest.
+function lastmodFor(file, prevManifest, nextManifest) {
+  const hash = hashFile(file);
+  const prev = prevManifest[file];
+  const lastmod = prev && prev.hash === hash && prev.lastmod ? prev.lastmod : TODAY;
+  nextManifest[file] = { hash, lastmod };
+  return lastmod;
 }
 
 function escape(s) {
@@ -138,9 +164,9 @@ function escape(s) {
     .replace(/'/g, '&apos;');
 }
 
-function buildEntry(file) {
+function buildEntry(file, prevManifest, nextManifest) {
   const loc = escape(urlFor(file));
-  const lastmod = lastmodFor(file);
+  const lastmod = lastmodFor(file, prevManifest, nextManifest);
   const priority = priorityFor(file);
   const changefreq = changefreqFor(file);
   return `  <url>
@@ -165,7 +191,9 @@ function main() {
     return a.localeCompare(b);
   });
 
-  const urls = files.map(buildEntry).join('\n');
+  const prevManifest = loadManifest();
+  const nextManifest = {};
+  const urls = files.map((f) => buildEntry(f, prevManifest, nextManifest)).join('\n');
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -175,6 +203,7 @@ ${urls}
 `;
 
   fs.writeFileSync('sitemap.xml', sitemap);
+  fs.writeFileSync(HASH_MANIFEST, JSON.stringify(nextManifest, null, 0) + '\n');
 
   // Quick tally by priority
   const tally = {};
