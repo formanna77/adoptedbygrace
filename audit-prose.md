@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-05-22T21:40:29.564Z
+**Generated:** 2026-05-22T22:28:18.522Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -185,7 +185,7 @@
 
 - [long:54w] (¶7): "Third, the auxiliary. Ēsan is the third-person plural imperfect indicative of eimi , "to be." When the imperfect of eimi is combined with a perfect passive participle, the result is the periphrastic p…"
 - [long:54w] (¶10): "The synergist will note this ambiguity and propose that tetagmenoi in Acts 13:48 could be read as middle rather than passive  —  yielding the translation "as many as had disposed themselves to eternal…"
-- [long:50w] (¶23): "The authorities that exist have been established by God." The Greek behind both established forms is from tassō , and the second occurrence is tetagmenai eisin  —  the periphrastic perfect passive, th…"
+- [long:51w] (¶23): "The authorities that exist have been established by God." The Greek behind both established forms is from tassō , and the second occurrence is tetagmenai eisin  —  the periphrastic perfect passive, th…"
 - [long:47w] (¶27): "The destination of the appointing  —  eis zōēn aiōnian , "into eternal life"  —  was the same eternal life Paul had just named in verse 46 as the inheritance that the rejecting Jews had judged themsel…"
 - [long:58w] (¶28): "The same Luke records Christ Himself, in the Gospel that bears the same author's name, saying in Luke 10:21-22 : "At that time Jesus, full of joy through the Holy Spirit, said, 'I praise you, Father, …"
 - [long:50w] (¶28): "No one knows who the Son is except the Father, and no one knows who the Father is except the Son and those to whom the Son chooses to reveal him.'" The same Greek root  —  eudokia ("good pleasure") be…"
@@ -465,7 +465,7 @@
 - [long:50w] (¶13): "Second, verse 24 dates the love behind the giving to " before the creation of the world ." There was no human, no choice, no faith to foresee in any sense that could be the basis of the gift, because …"
 - [long:47w] (¶16): "You have been straining your whole life to be chosen, and you were chosen before you drew breath; you have been trying to make yourself a gift worth giving, and you were already given, named in a pray…"
 - [long:48w] (¶19): "The fact that you are reading this with a fear that you might be on the wrong side of the boundary is itself the early evidence that you are not  —  for only a gift of the Father grieves at the though…"
-- [long:73w] (¶21): "Here is the answer, in the Savior's own praying voice, from before the creation of the world: you were wanted so deeply that the Father gave you to the Son as a gift, and the Son carried your name int…"
+- [long:74w] (¶21): "Here is the answer, in the Savior's own praying voice, from before the creation of the world : you were wanted so deeply that the Father gave you to the Son as a gift, and the Son carried your name in…"
 
 ### question-predestined-to-hell.html — score 6
 
