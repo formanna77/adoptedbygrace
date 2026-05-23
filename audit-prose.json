@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-23T02:03:17.521Z",
+  "generated": "2026-05-23T04:08:38.460Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 543,
-    "total_redundancy_pairs_flagged": 13,
+    "total_redundancy_pairs_flagged": 11,
     "total_sentences_flagged": 970,
     "total_redundancy_pairs_suppressed": 19,
     "total_sentences_suppressed": 147,
-    "articles_with_redundancy": 13,
+    "articles_with_redundancy": 11,
     "articles_with_flagged_sentences": 367,
-    "articles_clean": 169,
+    "articles_clean": 171,
     "suppression_by_class": {
       "scripture-tsunami": 10,
       "pedagogical-anaphora": 2,
@@ -4817,23 +4817,15 @@
     {
       "file": "compare-every-decision-point.html",
       "paragraphs": 20,
-      "redundancy_pairs": [
-        {
-          "paragraph_a": 10,
-          "paragraph_b": 11,
-          "similarity": 0.38,
-          "a_preview": "Man-centered theology says the difference between the saved and the unsaved is the human choice — some people ",
-          "b_preview": "Man-centered theology asks you to believe that the difference between the saved and the unsaved is that some p"
-        }
-      ],
+      "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
-      "redundancy_count": 1,
+      "redundancy_count": 0,
       "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 0
     },
     {
       "file": "compare-grace-reformed-vs-arminian.html",
@@ -10579,24 +10571,16 @@
     },
     {
       "file": "philosophy-mother-tongue.html",
-      "paragraphs": 56,
-      "redundancy_pairs": [
-        {
-          "paragraph_a": 32,
-          "paragraph_b": 33,
-          "similarity": 0.63,
-          "a_preview": "Not because the logic is weak. Not because the evidence is lacking. We have neuroscience , linguistics, episte",
-          "b_preview": "Not because the logic is different. The logic is identical. Not because the evidence is weaker. The evidence i"
-        }
-      ],
+      "paragraphs": 55,
+      "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
-      "redundancy_count": 1,
+      "redundancy_count": 0,
       "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 0
     },
     {
       "file": "philosophy-munchhausen-trilemma.html",
