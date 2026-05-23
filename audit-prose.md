@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-05-22T22:28:18.522Z
+**Generated:** 2026-05-23T02:03:17.540Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -13,14 +13,14 @@
 
 | Metric | Value |
 |---|---|
-| Articles audited | 537 |
-| Articles entirely clean | 169 (31.5%) |
+| Articles audited | 543 |
+| Articles entirely clean | 169 (31.1%) |
 | Articles with (genuine) redundancy | 13 (2.4%) |
-| Articles with (genuine) flagged sentences | 361 (67.2%) |
+| Articles with (genuine) flagged sentences | 367 (67.6%) |
 | **Total redundancy pairs flagged (genuine)** | **13** |
-| **Total sentences flagged (genuine)** | **943** |
+| **Total sentences flagged (genuine)** | **970** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 19 |
-| Sentence flags suppressed (coherence-positive) | 140 |
+| Sentence flags suppressed (coherence-positive) | 147 |
 
 ### Suppression breakdown by exemption class
 
@@ -60,33 +60,33 @@
 21. **apologetic-ekloge-the-greek-of-election.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 44 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 22. **apologetic-the-double-grip-of-john-10.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 40 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 23. **apologetic-the-road-to-damascus.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 21 paragraphs)
-24. **apologetic-those-you-gave-me.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 23 paragraphs)
-25. **question-predestined-to-hell.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 45 paragraphs)
-26. **systematic-covenant-redemption.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 61 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-27. **systematic-effectual-calling.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 35 paragraphs)
-28. **westminster-chapter-3-plain-english.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 93 paragraphs) *[5 pairs + 2 sentences auto-suppressed]*
-29. **apologetic-for-the-sheep.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 25 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-30. **demolition-romans2-4.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 22 paragraphs)
-31. **devotional-i-cant-feel-god.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 44 paragraphs)
-32. **devotional-joy-of-election.html** — score 5 (1 redundancy pair, 3 flagged sentences, 52 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-33. **devotional-the-hands-that-hold-you.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 32 paragraphs)
-34. **devotional-the-secretly-ashamed.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 36 paragraphs)
-35. **devotional-valley-shadow.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 38 paragraphs)
-36. **history-open-theism.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 27 paragraphs)
-37. **history-spurgeon-downgrade.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 22 paragraphs)
-38. **letters-senior-demon-arminianism.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 49 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
-39. **philosophy-adam-test.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 42 paragraphs)
-40. **question-chosen.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 37 paragraphs)
-41. **question-revelation13.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 30 paragraphs) *[1 pairs + 1 sentences auto-suppressed]*
-42. **response-william-lane-craig.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 57 paragraphs)
-43. **romans-9-deep-dive.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 82 paragraphs)
-44. **story-the-garden-that-grew-itself.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 42 paragraphs)
-45. **systematic-prolegomena.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 28 paragraphs)
-46. **theologian-bradwardine.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 29 paragraphs)
-47. **acts-13-48.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 33 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
-48. **analogy-song-you-didnt-compose.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 41 paragraphs)
-49. **apologetic-arrabon-the-down-payment.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 32 paragraphs)
-50. **apologetic-kept-by-the-power-of-god.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 17 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+24. **apologetic-the-washing-of-rebirth.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+25. **apologetic-those-you-gave-me.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 23 paragraphs)
+26. **question-predestined-to-hell.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 45 paragraphs)
+27. **systematic-covenant-redemption.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 61 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+28. **systematic-effectual-calling.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 35 paragraphs)
+29. **westminster-chapter-3-plain-english.html** — score 6 (0 redundancy pairs, 6 flagged sentences, 93 paragraphs) *[5 pairs + 2 sentences auto-suppressed]*
+30. **apologetic-for-the-sheep.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 25 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+31. **apologetic-he-bore-the-sin-of-many.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 15 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
+32. **apologetic-the-remnant-chosen-by-grace.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 13 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+33. **demolition-romans2-4.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 22 paragraphs)
+34. **devotional-i-cant-feel-god.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 44 paragraphs)
+35. **devotional-joy-of-election.html** — score 5 (1 redundancy pair, 3 flagged sentences, 52 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+36. **devotional-the-hands-that-hold-you.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 32 paragraphs)
+37. **devotional-the-secretly-ashamed.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 36 paragraphs)
+38. **devotional-valley-shadow.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 38 paragraphs)
+39. **history-open-theism.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 27 paragraphs)
+40. **history-spurgeon-downgrade.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 22 paragraphs)
+41. **letters-senior-demon-arminianism.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 49 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+42. **philosophy-adam-test.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 42 paragraphs)
+43. **question-chosen.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 37 paragraphs)
+44. **question-revelation13.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 30 paragraphs) *[1 pairs + 1 sentences auto-suppressed]*
+45. **response-william-lane-craig.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 57 paragraphs)
+46. **romans-9-deep-dive.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 82 paragraphs)
+47. **story-the-garden-that-grew-itself.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 42 paragraphs)
+48. **systematic-prolegomena.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 28 paragraphs)
+49. **theologian-bradwardine.html** — score 5 (0 redundancy pairs, 5 flagged sentences, 29 paragraphs)
+50. **acts-13-48.html** — score 4 (0 redundancy pairs, 4 flagged sentences, 33 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 
 ---
 
@@ -456,6 +456,21 @@
 - [long:47w] (¶14): "If you push the question one layer past your decision  —  the way the whole site keeps pushing the question of where your faith came from  —  you will find, if you are honest, that you cannot locate t…"
 - [long:58w] (¶18): "So if something in you, even now, is leaning toward Him against the grain of everything you thought you wanted  —  if the gospel that used to bore you or anger you has begun, lately, to look luminous …"
 
+### apologetic-the-washing-of-rebirth.html — score 6
+
+**Flagged sentences (6):**
+
+- [long:51w] (¶1): "He saved us through the washing of rebirth and renewal by the Holy Spirit, whom he poured out on us generously through Jesus Christ our Savior." ( Titus 3:5-6 ) Read the sentence looking only for the …"
+- [long:70w] (¶7): "This is the crown jewel of the whole doctrine of grace, and Titus 3 lays it bare: if you were born again by the Spirit, and faith is what the born-again do, then your faith itself was a gift , drawn o…"
+- [long:67w] (¶10): "Where the dry bones come together only when the breath is commanded into them, and the road to Damascus shows grace seizing a man who was riding the other way, this passage supplies the doctrine they …"
+- [long:68w] (¶11): "If your new birth depended on your decision, then your whole spiritual existence would hang from the frailest thread in the universe  —  the steadiness of your own enslaved, distractible, faltering wi…"
+- [long-simile:16w] (¶11): "The life in you was not generated by you and is not sustained by you; it was poured out "generously," Paul says  —  plousiōs , lavishly, like a flood  —  by a God who does not give life in order to sn…"
+- [long:51w] (¶12): "If you want them, even faintly, even through tears, it is because the Spirit has already done in you the thing this verse describes, and the life that has begun in you is the same life that raised Chr…"
+
+**Suppressions** (auto-filtered as exemptions / coherence-positives):
+
+- 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
+
 ### apologetic-those-you-gave-me.html — score 6
 
 **Flagged sentences (6):**
@@ -533,16 +548,6 @@
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
 - 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
-
-### demolition-romans2-4.html — score 5
-
-**Flagged sentences (5):**
-
-- [long:59w] (¶9): "If something inside the will determines the choice (a natural inclination, a spiritual sensitivity, a softness of heart), then those qualities are themselves either gifts of God (in which case God eff…"
-- [long:46w] (¶11): "The doctrine was systematically formulated by Jacobus Arminius and his disciples in the late 16th and early 17th centuries, refined by John Wesley in the 18th, and only became the standard evangelical…"
-- [long:48w] (¶18): "If you have used Romans 2:4 to reassure yourself that God has enabled your free will to choose Him  —  that you are safe because grace has done its preparatory work and now the ball is in your court  …"
-- [long:61w] (¶18): "The longer you assume God's kindness has put you in a position to decide, the longer your heart hardens against the only thing that can actually save you: the discovery that you cannot decide, that yo…"
-- [long:64w] (¶19): "If God's kindness has actually been leading you to repentance  —  if you find yourself softening as you read this, if the moralist Paul is describing makes you uncomfortable in a way you cannot dismis…"
 
 ---
 

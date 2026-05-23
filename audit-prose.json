@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-22T22:28:18.505Z",
+  "generated": "2026-05-23T02:03:17.521Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 537,
+    "articles_audited": 543,
     "total_redundancy_pairs_flagged": 13,
-    "total_sentences_flagged": 943,
+    "total_sentences_flagged": 970,
     "total_redundancy_pairs_suppressed": 19,
-    "total_sentences_suppressed": 140,
+    "total_sentences_suppressed": 147,
     "articles_with_redundancy": 13,
-    "articles_with_flagged_sentences": 361,
+    "articles_with_flagged_sentences": 367,
     "articles_clean": 169,
     "suppression_by_class": {
       "scripture-tsunami": 10,
@@ -229,6 +229,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "apologetic-the-washing-of-rebirth.html",
+      "score": 6,
+      "paragraphs": 15,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
+    },
+    {
       "file": "apologetic-those-you-gave-me.html",
       "score": 6,
       "paragraphs": 23,
@@ -277,6 +286,24 @@
       "file": "apologetic-for-the-sheep.html",
       "score": 5,
       "paragraphs": 25,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
+    },
+    {
+      "file": "apologetic-he-bore-the-sin-of-many.html",
+      "score": 5,
+      "paragraphs": 15,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
+    },
+    {
+      "file": "apologetic-the-remnant-chosen-by-grace.html",
+      "score": 5,
+      "paragraphs": 13,
       "redundancy_count": 0,
       "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
@@ -463,6 +490,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "apologetic-god-works-the-willing.html",
+      "score": 4,
+      "paragraphs": 14,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
       "file": "apologetic-kept-by-the-power-of-god.html",
       "score": 4,
       "paragraphs": 17,
@@ -470,6 +506,15 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1
+    },
+    {
+      "file": "apologetic-only-evil-all-the-time.html",
+      "score": 4,
+      "paragraphs": 14,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2
     },
     {
       "file": "apologetic-save-his-people.html",
@@ -695,51 +740,6 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 2
-    },
-    {
-      "file": "theologian-calvin.html",
-      "score": 4,
-      "paragraphs": 26,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
-    },
-    {
-      "file": "theologian-lloydjones.html",
-      "score": 4,
-      "paragraphs": 27,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "theologian-machen.html",
-      "score": 4,
-      "paragraphs": 23,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "analogy-chess-grandmaster.html",
-      "score": 3,
-      "paragraphs": 62,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "anxious-mind-scrupulosity.html",
-      "score": 3,
-      "paragraphs": 64,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 3,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
     }
   ],
   "articles": [
@@ -1521,6 +1521,123 @@
       "score": 5
     },
     {
+      "file": "apologetic-god-works-the-willing.html",
+      "paragraphs": 14,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 5,
+          "sentence_index": 5,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "So with you: the harder and more freely you obey, the more  —  not less  —  it proves that God is at work in you, for the willing you feel is his energy, and the doing you accomplish is his good pleas"
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 2,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "Paul commands us to work  —  'work out your salvation with fear and trembling.' You cannot turn an imperative into a proof that God does everything; the very existence of the command proves that our r"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 0,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "And the chamber sits in the same letter as another: a few sentences earlier Paul has already said that \"he who began a good work in you will carry it on to completion.\" Chapter one names the God who b"
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 1,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "If the command \"work out your salvation with fear and trembling\" stood alone  —  if your obedience had to be generated out of your own depleted reserves of willpower  —  it would be a crushing word, a"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 4
+    },
+    {
+      "file": "apologetic-he-bore-the-sin-of-many.html",
+      "paragraphs": 15,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 5,
+          "sentence_index": 1,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "If the Servant bore the sin of every human being without exception, then by Isaiah's own logic every human being without exception is justified  —  which is universalism, the salvation of all, a doctr"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 1,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "Where the cradle of Matthew 1:21 names the flock the cross would purchase, the Servant Song shows that flock already named in the prophet's past tense: \"he bore the sin of many.\" Where the Good Shephe"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 1,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "If the Servant merely made every sin bearable  —  if the cross created a possibility and left the actual carrying-away to depend on the firmness of your faith  —  then your guilt is still, in the deep"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 4,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "He bore your sin  —  the actual, particular, named-in-heaven transgressions with your fingerprints on them  —  and he carried them so far away that when you go looking for them to accuse yourself in t"
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 0,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "So let the ancient song land where it was always meant to land  —  not in pity for a suffering stranger, but in worship before a Servant who counted you among his many, bore your guilt as his own load"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 7,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:97w-raw/55w-prose"
+          ],
+          "preview": "\"We all, like sheep, have gone astray\"  —  the \"we\" are the straying flock, the confessing people who say in the same ch"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 4,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:and he×3"
+          ],
+          "preview": "He bore your sin  —  the actual, particular, named-in-heaven transgressions with your fingerprints on them  —  and he ca"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2,
+      "score": 5
+    },
+    {
       "file": "apologetic-he-who-began-a-good-work.html",
       "paragraphs": 19,
       "redundancy_pairs": [],
@@ -1645,6 +1762,44 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 2,
       "score": 8
+    },
+    {
+      "file": "apologetic-i-shall-lose-none.html",
+      "paragraphs": 13,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 3,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "And so, in the middle of the long, dividing discourse in Capernaum  —  where the crowd that wanted bread was peeling away from the Bread of Life  —  he reached past our grip entirely and grounded our "
+        },
+        {
+          "paragraph": 1,
+          "sentence_index": 2,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "And this is the will of him who sent me, that I shall lose none of all those he has given me, but raise them up at the last day.\" ( John 6:37-39 ) Trace the chain, link by link, and notice that not on"
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 4,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "Where he who began a good work guarantees its completion and we are kept by the power of God names the keeping power, and the Spirit is the deposit guaranteeing the inheritance, John 6 supplies the le"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 3
     },
     {
       "file": "apologetic-kept-by-the-power-of-god.html",
@@ -2087,6 +2242,69 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 8
+    },
+    {
+      "file": "apologetic-only-evil-all-the-time.html",
+      "paragraphs": 14,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 1,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "He floods the earth, sweeps the violent away, preserves a single righteous family  —  and the moment the waters recede, with the wicked all drowned and only the remnant standing on the new mud, he say"
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 3,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "If my heart is evil from childhood, then no offer, however sincere, can save me unless something first changes the heart that would only ever refuse it  —  so grace, to reach me at all, must be the ki"
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 6,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "So God turns, in this very verse, from the strategy of judgment toward a long covenant of patience whose end is not water but blood  —  toward the day he would give \"a new heart \" and \"a new spirit,\" "
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 5,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "Your depravity did not catch him off guard and provoke him to wrath; he has known the very worst of you since Genesis 6:5, knew it before you drew breath, and resolved  —  over the smoke of a better s"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:84w-raw/51w-prose"
+          ],
+          "preview": "Ten generations into human history, God looked at what his image-bearers had become and the narrator gives us the divine"
+        },
+        {
+          "paragraph": 7,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:88w-raw/72w-prose"
+          ],
+          "preview": "The kind father is still, in the deepest chamber of his heart, a man who does not love God with all of it  —  and a good"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2,
+      "score": 4
     },
     {
       "file": "apologetic-owen-trilemma.html",
@@ -3222,6 +3440,69 @@
       "score": 8
     },
     {
+      "file": "apologetic-the-remnant-chosen-by-grace.html",
+      "paragraphs": 13,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 0,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "Paul drags that ancient head count into the present tense to answer the most agonizing question of his life  —  has God rejected the people he chose?  —  and his answer is a doctrine wearing the cloth"
+        },
+        {
+          "paragraph": 5,
+          "sentence_index": 1,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "If your faith is the condition that secured your election  —  the work you performed that made God's choice land on you  —  then your election is based on works , and Paul says flatly that a grace bas"
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 7,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The system honors grace all the way down.\" Grant every piece of it that is true, and much of it is true: faith genuinely is reception, not payment; the empty hand genuinely is the opposite of the wage"
+        },
+        {
+          "paragraph": 7,
+          "sentence_index": 3,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "It promotes faith to the rank of condition  —  the thing about you that explains why the gift landed on you and not your neighbor  —  and a condition you meet and another fails is functioning, structu"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 1,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "If your place in the remnant depended on a condition you met  —  the strength of your faith, the sincerity of your decision, the steadiness of your yes  —  then your place could be lost the moment tha"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 0,
+          "sentence_index": 2,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:seven,thousand"
+          ],
+          "preview": "So he lay down under a broom tree and asked to die, and the reason he gave was the loneliest sentence in the Old Testame"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 5
+    },
+    {
       "file": "apologetic-the-road-to-damascus.html",
       "paragraphs": 21,
       "redundancy_pairs": [],
@@ -3439,6 +3720,85 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 4
+    },
+    {
+      "file": "apologetic-the-washing-of-rebirth.html",
+      "paragraphs": 15,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 2,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "He saved us through the washing of rebirth and renewal by the Holy Spirit, whom he poured out on us generously through Jesus Christ our Savior.\" ( Titus 3:5-6 ) Read the sentence looking only for the "
+        },
+        {
+          "paragraph": 7,
+          "sentence_index": 3,
+          "flags": [
+            "long:70w"
+          ],
+          "preview": "This is the crown jewel of the whole doctrine of grace, and Titus 3 lays it bare: if you were born again by the Spirit, and faith is what the born-again do, then your faith itself was a gift , drawn o"
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 4,
+          "flags": [
+            "long:67w"
+          ],
+          "preview": "Where the dry bones come together only when the breath is commanded into them, and the road to Damascus shows grace seizing a man who was riding the other way, this passage supplies the doctrine they "
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 1,
+          "flags": [
+            "long:68w"
+          ],
+          "preview": "If your new birth depended on your decision, then your whole spiritual existence would hang from the frailest thread in the universe  —  the steadiness of your own enslaved, distractible, faltering wi"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 4,
+          "flags": [
+            "long-simile:16w"
+          ],
+          "preview": "The life in you was not generated by you and is not sustained by you; it was poured out \"generously,\" Paul says  —  plousiōs , lavishly, like a flood  —  by a God who does not give life in order to sn"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 8,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "If you want them, even faintly, even through tears, it is because the Spirit has already done in you the thing this verse describes, and the life that has begun in you is the same life that raised Chr"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 5,
+          "sentence_index": 3,
+          "suppressed_flags": [
+            "length-suppressed-embedded-quotation:74w-raw/46w-prose"
+          ],
+          "preview": "Jesus told Nicodemus the same: \"no one can see the kingdom of God unless they are born again,\" and then, before any obje"
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 4,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:washing,baptism"
+          ],
+          "preview": "And besides, 'washing' surely points to baptism, which is something we present ourselves to undergo  —  so the verse des"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 2,
+      "score": 6
     },
     {
       "file": "apologetic-those-you-gave-me.html",
