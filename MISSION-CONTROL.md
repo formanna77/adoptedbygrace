@@ -54,7 +54,7 @@ The closing protocol has FIVE steps. Do them in order. Do not skip any.
 
 4. **Update the Phase table** if a phase changed state (PENDING → IN PROGRESS → COMPLETE).
 
-5. **Run the eight-step batched pipeline + validators** if you touched any HTML. Pipeline runs ONCE at end of batch, not per spine — delegate to a subagent to keep pipeline noise out of main context. The standing eight-step sequence (canonized from Sessions 30-34, 2026-04-27) is:
+5. **Run the batched pipeline + validators** if you touched any HTML. Pipeline runs ONCE at end of batch, not per spine — delegate to a subagent to keep pipeline noise out of main context. The standing sequence (validators canonized Sessions 30-34; Scripture auditor added Session 51) is:
    ```
    node build-search-index.js
    node build-mega-menu.js
@@ -64,8 +64,9 @@ The closing protocol has FIVE steps. Do them in order. Do not skip any.
    node wire-orphans.js
    node validate-site.js
    node canonical-conformance.js
+   node verify-scripture.js
    ```
-   All eight must report GREEN. Paste the result into your Session Log entry. If any failed, fix it before stopping.
+   The first eight must report GREEN. **`verify-scripture.js` is a REPORT, not a pass/fail gate** — it writes `scripture-audit-report.txt`; review it for any NEW divergent references that signal a genuine NIV-exactness misquote and fix those (most flags are false positives — partial-clause quotes and extractor noise — so do NOT treat a nonzero divergent count as failure). Paste the validator results + the auditor's one-line summary into your Session Log. If any of the eight validators failed, fix it before stopping.
 
 If you stop without passing GATE 0, you under-used the window. If you stop without completing GATE 1, the next agent will re-walk paths you already walked, re-read pages you already mapped, re-write strategy you already wrote. Both failures are cardinal. Do not let either happen.
 
@@ -3317,7 +3318,7 @@ Generate ONE net-new article (~2500-3500 words); ship more if context allows (Se
 - **Inheritance-Verification before any net-new build.** Glob existing files against the latest inventory; verify recent unexplained files apex-grade before writing on the same topic.
 - **Glob-verify every href before writing it.** Hallucinated link targets have broken the live site before; `validate-site.js`'s broken-link check is the safety net.
 - **Write-over, never Edit, for substantive rebuilds.** Net-new articles use Write. Small Phase F/G surgical sentence-level fixes may use Edit.
-- **Eight-step pipeline ONCE at end of batch via subagent:** `build-search-index → build-mega-menu → build-homepage-counts → build-sitemap → auto-linker → wire-orphans → validate-site → canonical-conformance`. All eight must report GREEN.
+- **Pipeline ONCE at end of batch via subagent:** `build-search-index → build-mega-menu → build-homepage-counts → build-sitemap → auto-linker → wire-orphans → validate-site → canonical-conformance` (all eight must be GREEN) **+ `verify-scripture.js`** (REPORT only — review `scripture-audit-report.txt` for NEW genuine misquotes; most flags are false positives, so a nonzero divergent count is not a failure).
 - **No git.** Aaron pushes manually.
 
 ### How to know you're done this session
