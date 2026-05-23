@@ -10,7 +10,15 @@
 ## DONE (PDF-verified, edition-identical, fixed 2026-05-23)
 Isaiah 45:22 (story-real-conversions), Psalm 51:10 (psychology-emotional-vs-rational), John 1:3 (systematic-trinity), Romans 1:17 (history-luther), Matthew 7:3 ×2 (psychology-cognitive-biases). Plus the earlier 18 NIV-exactness fixes + 1 John 5:1 resolution.
 
-## REMAINING QUEUE — verify each NIV 2011 reading before fixing (do NOT apply from memory)
+## ✅ REMAINING QUEUE — CLEARED IN SESSION 52 (2026-05-23)
+
+**All items below were fixed**, each NIV 2011 reading verified first (edition-identical via the de-wrapped 1984 PDF `niv1984-flow.txt`; edition-divergent via per-verse Bible Gateway NIV lookups — Heb 9:27-28, Prov 12:15, Prov 22:6, Heb 11:1, Rom 8:6, Gen 6:5, John 3:3/3:5, Heb 5:7, Ps 30:5, Rom 11:6, Eph 1:3-6, Rom 8:15-17, Hab 2:13, Matt 7:6, Rom 3:11-12, Ps 139:1-4, Mark 4:12, John 12:24, Rom 9:21). The Ezekiel 36:26 `<a>`-tag-woven quotes (story-surgeon-stone-heart, counter-cs-lewis-free-will, compare-monergism-synergism) were restructured preserving links. Mark 4:12 fixed with a §XV Greek note (*mēpote* — NIV renders "otherwise," force is "lest").
+
+**Additional same-class instances found beyond the listed files and ALSO fixed** (the misquotes had propagated): scripture-tsunami (Gen 6:5, Rom 9:21-23), devotional-adoption-papers + analogy-adoption (Rom 8:15-17), essays/you-cannot-escape-the-text + essays/the-two-graces (Eph 1:3-6), devotional-glory-of-divine-choice + devotional-chosen-before-you-were-broken (Eph 1:4), demolition-deut30-19 (Rom 3:11 paraphrase), argument-arminian-sermon-illustrations-refuted (Rom 9:22-23 — its Rom 9:20-21 nested-quote clay sentence LEFT for a future pass, needs v20 verification), essays/why-you-cant-remember (John 6:44 him→them, John 3:3), question-cannot (John 3:3, John 3:5).
+
+**🔴 CORRECTION — Romans 7:18 (was in UNCERTAIN): the queue's assumption was BACKWARDS.** Web-verified NIV 2011 Rom 7:18 main text = "...that is, in my **sinful nature**" (footnote: *Or my flesh*) — NOT "in my flesh." So the 3 files using "in my sinful nature" (essays/why-you-cant-remember, devotional-good-i-cannot-do, broken-mirror-sin-you-repeat) are CORRECT for 2011 and were LEFT untouched; scripture-tsunami's "in my flesh" is the footnote reading, left in place. This conflicts with CLAUDE.md's general "avoid sinful-nature-for-sarx" guidance, so **Rom 7:18 is flagged for Aaron's adjudication** (not changed this session). John 6:67 and Gen 8:21 confirmed already-correct.
+
+## REMAINING QUEUE (ARCHIVED — all cleared Session 52) — verify each NIV 2011 reading before fixing (do NOT apply from memory)
 For **edition-identical** verses, grep `niv1984-flow.txt` for the authoritative reading. For **edition-divergent** verses (gender language, "sinful nature"→"flesh", reworded), the 1984 PDF is NOT the standard — confirm the 2011 via a per-verse lookup (as with 1 John 5:1).
 
 Grouped by file (the 5 hotspots first):

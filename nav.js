@@ -130,9 +130,12 @@
                     name: 'Reformed Apologetics',
                     icon: '🛡',
                     href: '/reformed-apologetics-hub',
-                    count: 3,
+                    count: 6,
                     pages: [
+                        { name: 'The Fine-Tuning of the Cosmos — The Universe That Was Set for Life (Psalm 19:1)', href: '/reformed-apologetics-fine-tuning', desc: 'The constants of physics are calibrated for life on a razor' },
+                        { name: 'The Hard Problem of Consciousness — The One Thing Matter Cannot Become (Genesis 2:7)', href: '/reformed-apologetics-consciousness', desc: 'Why is there something it is like to be you? Physicalism can map the brain and never explain the inner light of experien' },
                         { name: 'The Moral Argument — The Law You Cannot Stop Obeying (Romans 2:14-15)', href: '/reformed-apologetics-moral-argument', desc: 'If there is no God, nothing is actually wrong — only unpopular. But no one can live that way. The conscience that condem' },
+                        { name: 'The Problem of Evil — The Question That Has a Wounded Answer (Genesis 50:20)', href: '/reformed-apologetics-theodicy', desc: 'The single greatest objection to God, taken at full strength — and the answer the doctrines of grace give that no other ' },
                         { name: 'The Resurrection in History — The Fact That Will Not Be Explained Away (1 Corinthians 15)', href: '/reformed-apologetics-resurrection', desc: 'The empty tomb, the appearances, and the men who died for what they had seen. The historical case for the resurrection n' },
                         { name: 'The Transcendental Argument — The Proof Behind Every Proof (Colossians 2:3)', href: '/reformed-apologetics-transcendental', desc: 'The laws of logic, the reliability of reason, and the uniformity of nature are the tools the unbeliever uses to argue ag' }
                     ]
