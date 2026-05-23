@@ -28,6 +28,7 @@ const HUB_MAP = [
   { prefix: 'theologian-',     hub: 'theologians.html',            eyebrow: 'Theologians' },
   { prefix: 'history-',        hub: 'history-timeline.html',       eyebrow: 'History' },
   { prefix: 'compare-',        hub: 'comparisons-hub.html',        eyebrow: 'Comparisons' },
+  { prefix: 'reformed-apologetics-', hub: 'reformed-apologetics-hub.html', eyebrow: 'Reformed Apologetics' },
   { prefix: 'pastoral-',       hub: 'pastoral-hub.html',           eyebrow: 'Pastoral' },
   { prefix: 'essay-',          hub: 'essays.html',                 eyebrow: 'Essays' },
   { prefix: 'ot-',             hub: 'ot-hub.html',                 eyebrow: 'Old Testament' },

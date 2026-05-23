@@ -127,6 +127,17 @@
                     ]
                 },
                 {
+                    name: 'Reformed Apologetics',
+                    icon: '🛡',
+                    href: '/reformed-apologetics-hub',
+                    count: 3,
+                    pages: [
+                        { name: 'The Moral Argument — The Law You Cannot Stop Obeying (Romans 2:14-15)', href: '/reformed-apologetics-moral-argument', desc: 'If there is no God, nothing is actually wrong — only unpopular. But no one can live that way. The conscience that condem' },
+                        { name: 'The Resurrection in History — The Fact That Will Not Be Explained Away (1 Corinthians 15)', href: '/reformed-apologetics-resurrection', desc: 'The empty tomb, the appearances, and the men who died for what they had seen. The historical case for the resurrection n' },
+                        { name: 'The Transcendental Argument — The Proof Behind Every Proof (Colossians 2:3)', href: '/reformed-apologetics-transcendental', desc: 'The laws of logic, the reliability of reason, and the uniformity of nature are the tools the unbeliever uses to argue ag' }
+                    ]
+                },
+                {
                     name: 'Scripture Questions',
                     icon: '📖',
                     href: '/questions',
@@ -330,9 +341,15 @@
                     name: 'Theological Ethics',
                     icon: '🌿',
                     href: '/theological-ethics-hub',
-                    count: 1,
+                    count: 7,
                     pages: [
-                        { name: 'Theological Ethics — Grace That Changes How You Live', href: '/theological-ethics-hub', desc: 'Theological ethics applies the doctrines of grace to lived life — abortion, sexuality, marriage, work, wealth, technolog' }
+                        { name: 'Marriage — The Covenant That Pictures Christ and His Church (Ephesians 5)', href: '/ethics-marriage', desc: 'Marriage is not a contract between two autonomous selves but a covenant that images Christ and the church. Paul calls it' },
+                        { name: 'Sexuality — Identity Conferred, Not Constructed (Genesis 1-2)', href: '/ethics-sexuality', desc: 'The modern sexual ethic rests on the autonomy lie this whole site dismantles. The gospel says identity is conferred in C' },
+                        { name: 'Technology and AI — The Image No Machine Can Wear (Genesis 1 & 3)', href: '/ethics-technology-ai', desc: 'Human dignity is not computed from capacity; it is conferred by God. A machine may out-think you and never bear His imag' },
+                        { name: 'The Image in the Womb — The Sanctity of Life and the Grace That Stoops (Psalm 139)', href: '/ethics-abortion', desc: 'The dignity of the unborn rests not on capacity or being wanted, but on the image of God conferred from conception. The ' },
+                        { name: 'Theological Ethics — Grace That Changes How You Live', href: '/theological-ethics-hub', desc: 'Theological ethics applies the doctrines of grace to lived life — abortion, sexuality, marriage, work, wealth, technolog' },
+                        { name: 'Wealth and Stewardship — You Cannot Serve God and Money (Matthew 6:24)', href: '/ethics-wealth-stewardship', desc: 'Jesus treats money not as a neutral tool but as a rival god. Grace breaks its grip: generosity is not a tax on the Chris' },
+                        { name: 'Work and Vocation — Why Your Job Is Not Your Justification (Colossians 3:23)', href: '/ethics-work-vocation', desc: 'Work is older than the fall and dignified by the God who works. But grace pulls work down from the throne the modern wor' }
                     ]
                 },
                 {

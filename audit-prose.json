@@ -2,16 +2,16 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-23T04:08:38.460Z",
+  "generated": "2026-05-23T16:13:01.444Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 543,
+    "articles_audited": 552,
     "total_redundancy_pairs_flagged": 11,
-    "total_sentences_flagged": 970,
+    "total_sentences_flagged": 1017,
     "total_redundancy_pairs_suppressed": 19,
-    "total_sentences_suppressed": 147,
+    "total_sentences_suppressed": 151,
     "articles_with_redundancy": 11,
-    "articles_with_flagged_sentences": 367,
+    "articles_with_flagged_sentences": 376,
     "articles_clean": 171,
     "suppression_by_class": {
       "scripture-tsunami": 10,
@@ -112,6 +112,15 @@
       "suppressed_sentence_count": 3
     },
     {
+      "file": "ethics-sexuality.html",
+      "score": 9,
+      "paragraphs": 13,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 9,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
       "file": "response-jerry-walls.html",
       "score": 9,
       "paragraphs": 63,
@@ -164,6 +173,15 @@
       "flagged_sentence_count": 8,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
+    },
+    {
+      "file": "ethics-marriage.html",
+      "score": 8,
+      "paragraphs": 14,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
     },
     {
       "file": "story-dark-the-rope-you-wove-yourself.html",
@@ -250,6 +268,15 @@
       "file": "question-predestined-to-hell.html",
       "score": 6,
       "paragraphs": 45,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "reformed-apologetics-resurrection.html",
+      "score": 6,
+      "paragraphs": 12,
       "redundancy_count": 0,
       "flagged_sentence_count": 6,
       "suppressed_redundancy_count": 0,
@@ -358,6 +385,24 @@
       "file": "devotional-valley-shadow.html",
       "score": 5,
       "paragraphs": 38,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "ethics-wealth-stewardship.html",
+      "score": 5,
+      "paragraphs": 14,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
+      "file": "ethics-work-vocation.html",
+      "score": 5,
+      "paragraphs": 15,
       "redundancy_count": 0,
       "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
@@ -553,6 +598,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "apologetic-you-did-not-choose-me.html",
+      "score": 4,
+      "paragraphs": 19,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
       "file": "counter-cs-lewis-free-will.html",
       "score": 4,
       "paragraphs": 33,
@@ -661,6 +715,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "reformed-apologetics-moral-argument.html",
+      "score": 4,
+      "paragraphs": 13,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
       "file": "response-andy-stanley.html",
       "score": 4,
       "paragraphs": 38,
@@ -677,69 +740,6 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
-    },
-    {
-      "file": "response-leighton-flowers.html",
-      "score": 4,
-      "paragraphs": 61,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "response-roger-olson.html",
-      "score": 4,
-      "paragraphs": 41,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
-    },
-    {
-      "file": "response-sbc-traditional-statement.html",
-      "score": 4,
-      "paragraphs": 57,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "story-tender-the-letter-already-written.html",
-      "score": 4,
-      "paragraphs": 36,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
-    },
-    {
-      "file": "systematic-common-grace.html",
-      "score": 4,
-      "paragraphs": 56,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2
-    },
-    {
-      "file": "systematic-divine-decrees.html",
-      "score": 4,
-      "paragraphs": 20,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
-      "file": "systematic-reprobation.html",
-      "score": 4,
-      "paragraphs": 86,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2
     }
   ],
   "articles": [
@@ -1537,9 +1537,9 @@
           "paragraph": 6,
           "sentence_index": 2,
           "flags": [
-            "long:48w"
+            "long:49w"
           ],
-          "preview": "Paul commands us to work  —  'work out your salvation with fear and trembling.' You cannot turn an imperative into a proof that God does everything; the very existence of the command proves that our r"
+          "preview": "Paul commands us to work  —  ' work out your salvation with fear and trembling.' You cannot turn an imperative into a proof that God does everything; the very existence of the command proves that our "
         },
         {
           "paragraph": 9,
@@ -1555,7 +1555,7 @@
           "flags": [
             "long:46w"
           ],
-          "preview": "If the command \"work out your salvation with fear and trembling\" stood alone  —  if your obedience had to be generated out of your own depleted reserves of willpower  —  it would be a crushing word, a"
+          "preview": "If the command \" work out your salvation with fear and trembling\" stood alone  —  if your obedience had to be generated out of your own depleted reserves of willpower  —  it would be a crushing word, "
         }
       ],
       "suppressed_redundancy": [],
@@ -1618,7 +1618,7 @@
           "paragraph": 7,
           "sentence_index": 2,
           "suppressed_flags": [
-            "length-suppressed-embedded-quotation:97w-raw/55w-prose"
+            "length-suppressed-embedded-quotation:99w-raw/57w-prose"
           ],
           "preview": "\"We all, like sheep, have gone astray\"  —  the \"we\" are the straying flock, the confessing people who say in the same ch"
         },
@@ -3730,9 +3730,9 @@
           "paragraph": 1,
           "sentence_index": 2,
           "flags": [
-            "long:51w"
+            "long:52w"
           ],
-          "preview": "He saved us through the washing of rebirth and renewal by the Holy Spirit, whom he poured out on us generously through Jesus Christ our Savior.\" ( Titus 3:5-6 ) Read the sentence looking only for the "
+          "preview": "He saved us through the washing of rebirth and renewal by the Holy Spirit , whom he poured out on us generously through Jesus Christ our Savior.\" ( Titus 3:5-6 ) Read the sentence looking only for the"
         },
         {
           "paragraph": 7,
@@ -3890,6 +3890,14 @@
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
+          "paragraph": 0,
+          "sentence_index": 5,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "And on the last night of His life, in the same upper room where He would soon pray for the people the Father had given Him, Jesus looked at the men closest to Him and took that sentence apart with sev"
+        },
+        {
           "paragraph": 3,
           "sentence_index": 2,
           "flags": [
@@ -3917,10 +3925,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 3,
+      "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 3
+      "score": 4
     },
     {
       "file": "argument-arminian-sermon-illustrations-refuted.html",
@@ -7633,6 +7641,381 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 3,
       "score": 9
+    },
+    {
+      "file": "ethics-abortion.html",
+      "paragraphs": 11,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 5,
+          "sentence_index": 1,
+          "flags": [
+            "long:58w"
+          ],
+          "preview": "Picture not a slogan but a person: a woman who is pregnant and terrified  —  perhaps abandoned, perhaps poor, perhaps a teenager whose own life has barely begun, perhaps carrying the child of a man wh"
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 1,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "If the unborn is a human being made in the image of God, then bodily autonomy, real as it is, cannot extend to ending that life, any more than a parent's autonomy extends to the newborn whose existenc"
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 3,
+          "flags": [
+            "long:66w"
+          ],
+          "preview": "The Christian answer to the impossible situation is not to deny the child's humanity but to refuse to leave the woman alone in her crisis  —  to surround her with the kind of sacrificial, costly, prac"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 8,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:blood,covered"
+          ],
+          "preview": "It offers you the same blood that covered David after he arranged a murder, the same blood that covered Paul after he he"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 3
+    },
+    {
+      "file": "ethics-marriage.html",
+      "paragraphs": 14,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 5,
+          "sentence_index": 4,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "Two sinners are asked to act out, in the unglamorous theater of a shared kitchen and a shared bed and a shared mortgage, the greatest love story in the universe  —  and to do it so faithfully that any"
+        },
+        {
+          "paragraph": 7,
+          "sentence_index": 4,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "The cure for the abuse of headship is not the deletion of the text but the recovery of it: a husband who actually loved as Christ loved would lay down his life, his preferences, his very self, for the"
+        },
+        {
+          "paragraph": 7,
+          "sentence_index": 5,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The Westminster Confession is blunt that the marriage covenant can be broken by the sinful party, and the Reformed tradition has never read \"submit\" as \"endure violence\"; the same Scripture that calls"
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 4,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "Both are being asked to keep a promise of permanent, self-spending faithfulness toward another sinner across decades  —  through illness, disappointment, financial fear, the slow erosions of familiari"
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 3,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The God who began a good work in you will carry it on to completion , and the same God who keeps His own covenant when His Bride is unfaithful is the One who pours into a faltering marriage a love its"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The unmarried believer is not waiting in the lobby of the gospel  —  they are already the Bride of Christ, already loved with the very love marriage merely sketches, and Scripture honors singleness as"
+        },
+        {
+          "paragraph": 11,
+          "sentence_index": 3,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "And if you carry the grief of a marriage that ended  —  through your sin, through another's, through the slow catastrophe of two broken people  —  the One who witnessed your vow is also the One who bo"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 1,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "We confess that we did not have the love the covenant required, and that the love poured into us was the Father's gift, won by the Son who gave Himself up for His Bride, applied by the Spirit who is e"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:husbands,wives,mystery"
+          ],
+          "preview": "He has just told husbands to love their wives and wives to honor their husbands, and then, quoting the oldest wedding te"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 8,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 8
+    },
+    {
+      "file": "ethics-sexuality.html",
+      "paragraphs": 13,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 3,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "The gospel's whole counter-testimony is that the autonomous self is an illusion, that our desires are not a reliable compass but a fallen instrument , and that our truest identity is not something we "
+        },
+        {
+          "paragraph": 5,
+          "sentence_index": 1,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "The thoughtful critic says: \"You are asking a whole category of human beings to accept a life without romantic love, without partnership, without the comfort of a body beside theirs  —  not for a seas"
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 2,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "The celibate has been, across two thousand years of Christian history, not a tragic figure but often the freest and most fruitful of saints; the Lord Jesus Himself lived a fully human life of perfect "
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 8,
+          "flags": [
+            "long:62w"
+          ],
+          "preview": "The answer to the church's failure of love is not to abandon the ethic but finally to obey the rest of it: to make the local church a true family, where the celibate believer is not consigned to lonel"
+        },
+        {
+          "paragraph": 7,
+          "sentence_index": 1,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "The modern self is constructed : you look inward, find your deepest desire, and build your identity on it  —  \"I am my sexuality.\" The Christian self is conferred : you look upward, receive who God ha"
+        },
+        {
+          "paragraph": 7,
+          "sentence_index": 2,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "And this is liberating in a way the modern story can never be, because an identity you construct from your desires is at the mercy of your desires  —  it shifts when they shift, it shatters when they "
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 4,
+          "flags": [
+            "long:69w"
+          ],
+          "preview": "And the Spirit who is sanctifying you supplies, day by day, the strength to walk a road you could not walk alone  —  not by gritted willpower scraping toward a verdict, for the verdict was never earne"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 3,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "The same Christ who calls you to costly faithfulness offers you Himself  —  union with the Bridegroom of whom every earthly marriage was only ever a picture, and a family in the church that should hav"
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 5,
+          "flags": [
+            "long:61w"
+          ],
+          "preview": "It leads home  —  to the One who Himself walked a road of perfect, lifelong, embodied faithfulness, who knows exactly what it costs to say no to the flesh in the strength of the Spirit, and who waits "
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 9,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 9
+    },
+    {
+      "file": "ethics-technology-ai.html",
+      "paragraphs": 12,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 7,
+          "sentence_index": 6,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "But the moment the machine becomes the thing in which we seek what only God can give  —  meaning, immortality, a clean conscience, a self worth having  —  it has stopped being a tool and become an ido"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 3,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The eternal Son did not despise human flesh; He took it  —  was conceived, was born, grew tired, ate fish, bled, and died in a real body  —  and He rose in a real, glorified, deathless body that ate b"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 4,
+          "flags": [
+            "direction-mismatch:\\b(rose|rising|ascended|climbing|climbed"
+          ],
+          "preview": "That is God's answer to the transhumanist dream: not humanity climbing into deity by its own engineering, but God descending into humanity to lift it, by sheer grace, into a glory we could never code."
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 8,
+          "sentence_index": 5,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:writer,doctor,machine"
+          ],
+          "preview": "A chatbot can out-write the writer and a model can out-diagnose the doctor, and both the writer and the doctor remain in"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 3
+    },
+    {
+      "file": "ethics-wealth-stewardship.html",
+      "paragraphs": 14,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 5,
+          "sentence_index": 0,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "The first mutation wears Christian clothes: the prosperity gospel, which promises that faith is a lever to pull on God for wealth, that the believer's bank balance is the measure of God's favor, that "
+        },
+        {
+          "paragraph": 5,
+          "sentence_index": 2,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "The second mutation wears no religious dress at all: it is the simple, respectable, near-universal conviction that money is security  —  that if I just had a little more, the fear would finally quiet,"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 1,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "The believer has been declared an heir of God , a co-heir with Christ, the possessor of an inheritance \"that can never perish, spoil or fade.\" The reason the Macedonians could give out of their povert"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 4,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "The Spirit who is sanctifying the believer works generosity into him the way sap works fruit into a branch  —  not as a tax extracted by guilt but as the natural overflow of a heart that has received "
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 5,
+          "flags": [
+            "long:64w"
+          ],
+          "preview": "The infinitely wealthy Son of God  —  who owned the cattle on a thousand hills and held the galaxies in His hand  —  emptied Himself, took the form of a servant, was born into a borrowed stable and bu"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 5
+    },
+    {
+      "file": "ethics-work-vocation.html",
+      "paragraphs": 15,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 3,
+          "flags": [
+            "long:58w"
+          ],
+          "preview": "To see how, you have to go back to the first chapters of the Bible, where work appears not as a punishment but as a gift  —  and forward to a letter where the apostle Paul takes the most degraded labo"
+        },
+        {
+          "paragraph": 3,
+          "sentence_index": 5,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "The project ships late, the harvest fails, the body breaks down, the spreadsheet will not balance, and over every human enterprise hangs the long shadow of futility that the Preacher of Ecclesiastes f"
+        },
+        {
+          "paragraph": 5,
+          "sentence_index": 6,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "And this rests on common grace  —  the doctrine that God restrains evil and pours out gifts on the just and the unjust alike, so that the believer can do honest, excellent, world-building work shoulde"
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 2,
+          "flags": [
+            "long:50w"
+          ],
+          "preview": "Tell the worker his misery is 'service to Christ' and you have given the boss a free pass to underpay him. 'Vocation' is the velvet on the chains  —  a spiritual story that turns alienated labor into "
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 3,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "We adore the Son who spent thirty years at a carpenter's bench before He spoke a public word, sanctifying ordinary labor by doing it, and who then did the only work that could save us and said, \"It is"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 5
     },
     {
       "file": "for-deconstructed.html",
@@ -13157,6 +13540,161 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 1
+    },
+    {
+      "file": "reformed-apologetics-moral-argument.html",
+      "paragraphs": 13,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 7,
+          "sentence_index": 2,
+          "flags": [
+            "long:66w"
+          ],
+          "preview": "And your Lawgiver faces the ancient Euthyphro dilemma: is something good because God commands it  —  in which case morality is arbitrary, and He could have commanded cruelty  —  or does God command it"
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 7,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "\"I can be good without God\" confuses two different questions  —  whether you can know and do good (of course you can; Romans 2 says the law is written on your heart, so the atheist knows it as well as"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 0,
+          "flags": [
+            "long:47w"
+          ],
+          "preview": "So the moral argument does its demolition work: it shows the unbeliever that the moral law he cannot stop obeying is a witness against the autonomy he claims  —  that he did not invent the standard, c"
+        },
+        {
+          "paragraph": 10,
+          "sentence_index": 3,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "The eternal Son took on flesh and kept the whole law you have broken  —  every command, from the heart, without a single failure  —  and then, at the cross, He took the penalty the law pronounced on l"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 4
+    },
+    {
+      "file": "reformed-apologetics-resurrection.html",
+      "paragraphs": 12,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 1,
+          "sentence_index": 1,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "In 1 Corinthians 15:3-8 Paul hands on what he calls something he himself \"received\"  —  \"that Christ died for our sins according to the Scriptures, that he was buried, that he was raised on the third "
+        },
+        {
+          "paragraph": 1,
+          "sentence_index": 2,
+          "flags": [
+            "long:60w"
+          ],
+          "preview": "After that, he appeared to more than five hundred of the brothers and sisters at the same time, most of whom are still living.\" Scholars across the spectrum recognize this as an early creed  —  a fixe"
+        },
+        {
+          "paragraph": 3,
+          "sentence_index": 7,
+          "flags": [
+            "long:57w"
+          ],
+          "preview": "Fourth, two determined unbelievers were converted by what they took to be appearances of the risen Christ: Paul, who had been hunting Christians to their deaths, and James, the brother of Jesus, who d"
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 1,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "Hallucination fails because hallucinations are private, individual events of the brain  —  five hundred people do not share the identical vision at once, and grief-visions of Peter would not empty a t"
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 2,
+          "flags": [
+            "long:75w"
+          ],
+          "preview": "The swoon theory founders on Roman competence and on the absurdity of its conclusion: a man scourged, crucified, speared in the side, and entombed does not, three days later, push aside a stone, overp"
+        },
+        {
+          "paragraph": 8,
+          "sentence_index": 4,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "The dead heart cannot, by inspecting historical probabilities, raise itself to saving faith ; that faith, like the resurrection it grasps, is the gift of God  —  which is why the risen Christ told Tho"
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 6,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 6
+    },
+    {
+      "file": "reformed-apologetics-transcendental.html",
+      "paragraphs": 12,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 4,
+          "sentence_index": 6,
+          "flags": [
+            "long:53w"
+          ],
+          "preview": "Lewis and sharpened by Alvin Plantinga, is that naturalism is self-defeating : it uses reason to reach the conclusion that reason is the accidental byproduct of a process that did not aim at truth  — "
+        },
+        {
+          "paragraph": 6,
+          "sentence_index": 4,
+          "flags": [
+            "long:63w"
+          ],
+          "preview": "You've also just dressed up a 'God of the gaps'  —  plugging the deity into whatever you can't yet explain.\" Each deserves a real answer, and the honest apologist grants the kernel of truth in each: o"
+        },
+        {
+          "paragraph": 9,
+          "sentence_index": 2,
+          "flags": [
+            "long:76w"
+          ],
+          "preview": "If the laws of logic are the thoughts of God, and the order of nature is His faithfulness, and your own reason is His gift, then the universe you live in is not a cold mechanism indifferent to you  — "
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 5,
+          "sentence_index": 6,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:knowledge,stands"
+          ],
+          "preview": "\"The fear of the LORD is the beginning of knowledge,\" says Proverbs 1:7; the unbeliever has tried to build a tower of kn"
+        }
+      ],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 3,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1,
+      "score": 3
     },
     {
       "file": "resistance-last-idol.html",

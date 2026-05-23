@@ -84,6 +84,14 @@ const UMBRELLAS = [
         hubFiles: ['apologetics.html'],
       },
       {
+        key: 'reformed-apologetics',
+        name: 'Reformed Apologetics',
+        icon: '🛡',
+        hub: '/reformed-apologetics-hub',
+        prefixes: ['reformed-apologetics'],
+        hubFiles: ['reformed-apologetics-hub.html'],
+      },
+      {
         key: 'questions',
         name: 'Scripture Questions',
         icon: '📖',
