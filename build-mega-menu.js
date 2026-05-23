@@ -25,7 +25,7 @@ const SKIP = new Set([
   'explore-map.html', 'sitemap.html', 'topics.html',
   'all-content.html', 'best-reads.html', 'verse-explorer.html',
   // Retired hubs that now redirect
-  'analogies-illustrations.html', 'comparisons-hub.html', 'creeds-confessions.html',
+  'analogies-illustrations.html', 'creeds-confessions.html',
 ]);
 
 // ── UMBRELLA STRUCTURE WITH SUBCATEGORIES (2026-04-04) ──────────────
@@ -56,6 +56,14 @@ const UMBRELLAS = [
         prefixes: ['for'],
         extraFiles: ['just-realized.html', 'freedom.html'],
       },
+      {
+        key: 'featured',
+        name: 'Featured Experiences',
+        icon: '✨',
+        hub: '/the-fork',
+        prefixes: [],
+        extraFiles: ['the-60-second-case.html', 'the-breath-prayer.html', 'the-fork.html', 'the-golden-chain.html', 'the-mirror.html', 'the-objection-collapse.html', 'the-scripture-cascade.html', 'the-two-arms.html', 'fork-in-the-road.html', 'golden-chain.html', 'found-you.html', 'two-arms.html'],
+      },
     ],
   },
 
@@ -68,12 +76,27 @@ const UMBRELLAS = [
     href: '/questions',
     subcategories: [
       {
+        key: 'apologetics',
+        name: 'The Five Points',
+        icon: '🛡',
+        hub: '/apologetics',
+        prefixes: ['apologetic'],
+        hubFiles: ['apologetics.html'],
+      },
+      {
         key: 'questions',
         name: 'Scripture Questions',
         icon: '📖',
         hub: '/questions',
-        prefixes: ['question', 'apologetic', 'debate'],
+        prefixes: ['question', 'debate'],
         hubFiles: ['questions.html'],
+      },
+      {
+        key: 'responses',
+        name: 'Answering the Critics',
+        icon: '⚔',
+        hub: '/questions',
+        prefixes: ['response', 'argument', 'dialogue'],
       },
       {
         key: 'objections',
@@ -88,6 +111,7 @@ const UMBRELLAS = [
         icon: '⚖',
         hub: '/compare-calvinism-arminianism',
         prefixes: ['compare', 'comparative'],
+        extraFiles: ['comparisons-hub.html'],
       },
     ],
   },
@@ -130,6 +154,7 @@ const UMBRELLAS = [
         icon: '🔎',
         hub: '/verse-explorer',
         prefixes: ['romans', 'scripture-tsunami'],
+        extraFiles: ['2-thessalonians-2-13.html', 'acts-13-48.html', 'ephesians-1-3-14.html', 'john-6-37-44.html'],
       },
       // Creeds merged into History (creeds-confessions.html now redirects to history-timeline)
       {
@@ -206,7 +231,7 @@ const UMBRELLAS = [
         name: 'Stories, Parables & Analogies',
         icon: '📜',
         hub: '/stories',
-        prefixes: ['story', 'analogy'],
+        prefixes: ['story', 'analogy', 'letters'],
         hubFiles: ['stories.html'],
       },
     ],
@@ -227,6 +252,7 @@ const UMBRELLAS = [
         hub: '/history-timeline',
         prefixes: ['history', 'creed', 'canons'],
         hubFiles: ['history-timeline.html'],
+        extraFiles: ['westminster-chapter-3-plain-english.html'],
       },
       {
         key: 'theologians',
@@ -236,6 +262,48 @@ const UMBRELLAS = [
         prefixes: ['theologian'],
         hubFiles: ['theologians.html'],
         extraFiles: ['hymn-amazing-grace.html'],
+      },
+    ],
+  },
+
+  // UMBRELLA 7.5: Go Deeper (The Library)
+  {
+    key: 'go-deeper-umbrella',
+    umbrella: 'Go Deeper',
+    icon: '📚',
+    desc: 'The scholarly depth — sources, word studies, sermons, and printables',
+    href: '/reformed-sources',
+    subcategories: [
+      {
+        key: 'reformed-library',
+        name: 'The Reformed Library',
+        icon: '📚',
+        hub: '/reformed-sources',
+        prefixes: [],
+        extraFiles: ['reformed-sources.html'],
+      },
+      {
+        key: 'word-studies',
+        name: 'Word Studies',
+        icon: '🔡',
+        hub: '/word-study-every-all',
+        prefixes: ['word-study'],
+      },
+      {
+        key: 'sermons-quotes',
+        name: 'Sermons & Quotes',
+        icon: '🎙',
+        hub: '/sermons',
+        prefixes: [],
+        extraFiles: ['sermons.html', 'quotes.html', 'quote-cards.html'],
+      },
+      {
+        key: 'printables-tools',
+        name: 'Printables & Tools',
+        icon: '🖨',
+        hub: '/printables',
+        prefixes: ['printable'],
+        extraFiles: ['printables.html', 'verse-navigator.html'],
       },
     ],
   },
@@ -277,6 +345,14 @@ const UMBRELLAS = [
         hub: '/joy-hub',
         prefixes: ['joy'],
         hubFiles: ['joy-hub.html'],
+      },
+      {
+        key: 'testimonies',
+        name: 'Testimonies',
+        icon: '🗣',
+        hub: '/testimony-hub',
+        prefixes: ['testimony'],
+        hubFiles: ['testimony-hub.html'],
       },
     ],
   },
