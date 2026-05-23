@@ -558,6 +558,49 @@ Articles proving one point should link, where the prose admits it, to articles p
 
 ---
 
+## XV. THE TRANSLATION-TRANSPARENCY MANDATE (Aaron, 2026-05-23)
+
+The site is NIV-only, and that rule stands (§VI, CLAUDE.md): the NIV is always the quoted English text, so no critic can say we shopped translations to manufacture a doctrine. Aaron added a second, sharpening rule: **never prove a point on a translation that does not actually carry it.** Where the NIV's rendering flattens, softens, or obscures the Greek or Hebrew on a point a page is arguing, the page must tell the reader — surface the original, and let the original do the proving.
+
+### XV.1 — Why this matters
+
+Translations make choices, and sometimes the NIV's choice loses the very thing the argument needs. The model case is 1 John 5:1. The NIV reads "everyone who believes... **is** born of God" — present tense, which to an English ear sounds simultaneous, even as if believing comes first. But the Greek is *gegennētai*, a **perfect passive** — "**has been** born" — a completed past act with ongoing results. The whole regeneration-precedes-faith argument lives in that perfect tense, and the English buries it. To quote only the NIV and claim it proves the new birth precedes faith is to rest the argument on words that do not say it. The honest move quotes the NIV as the text and then surfaces the perfect *gegennētai* — which makes the argument both true and unanswerable.
+
+### XV.2 — The rule
+
+When the NIV rendering bears on the argument and the original says it more precisely:
+
+1. **Quote the NIV as the text.** The escape hatch stays welded. We never substitute ESV/NASB/KJV as the proof-text to dodge the NIV.
+2. **Then surface the original.** Name the Greek/Hebrew term (transliterated, in *italics*), the grammatical feature (tense, voice, mood, case, word order), and exactly how it bears on the point. The NIV is the text; the original is the warrant.
+3. **Be transparent where the NIV is weaker.** Say plainly, "the NIV renders it X; the underlying Greek/Hebrew is Y," rather than letting the English silently do work it cannot do. Honesty here is a credibility multiplier — it shows the reader we are not hiding behind a translation.
+4. **Cite the NIV's own footnotes** where they carry an alternate or variant reading relevant to the point (textual variants, "or" renderings).
+5. **The integrity test:** if a point survives only in some *other* translation and not in the original language either, the point is unsound — drop it or rebuild it. We argue from the text and the tongue God actually used, never from a translator's slip in either direction.
+
+### XV.3 — The two failure modes (both banned)
+
+- **Resting on a faulty/weak NIV rendering** — claiming the English proves what only the Greek/Hebrew proves, without surfacing the original. This is the thing this mandate exists to kill.
+- **Silently swapping translations** — presenting ESV/NASB/KJV wording as if it were the quoted verse to make a point the NIV does not support. The original may be *named and explained*; it may not be smuggled in as the quotation. (When a page legitimately compares renderings — e.g., "the ESV and NASB render the Greek perfect 'has been born'" — that is explicit, attributed, and fine.)
+
+### XV.4 — Starter list of translation-sensitive verses (audit these first)
+
+Pages arguing from these verses should be checked to confirm they surface the original where the NIV under-translates the point. Standing audit (see the MISSION-CONTROL fact-check workstream); not exhaustive:
+
+- **1 John 5:1** — *gegennētai*, perfect passive (regeneration precedes faith). [RESOLVED — the model case.]
+- **Acts 13:48** — *tetagmenoi*, periphrastic pluperfect passive ("had been appointed/ordained") — unconditional election.
+- **John 6:44** — *helkyō* ("draw," with the force of decisive drawing) — irresistible grace.
+- **Acts 16:14** — *diēnoixen* ("opened" — the Lord opened Lydia's heart) — irresistible grace.
+- **Ephesians 2:8** — *touto* (neuter "this") and the antecedent question — faith as gift.
+- **Philippians 2:13** — *energeō* ("works/energizes" both the willing and the acting).
+- **Romans 8:7-8** — "in the realm of the flesh" (NIV 2011 strengthened this; confirm older pages match the 2011 text).
+- **2 Thessalonians 2:13** — textual variant *aparchēn* ("firstfruits") vs. *ap' archēs* ("from the beginning"); the NIV footnote matters.
+- **Romans 9:11-13, 16** — *eklogē*, *prothesis*, and the categorical *ou… oude… alla* construction.
+- **Genesis 6:5 / 8:21** — *yetzer*, *raq ra' kol-hayom* ("only evil all the time") — total depravity.
+- **The *pas* / "all" and *kosmos* / "world" word studies** — definite atonement; the English "all"/"world" can mislead (see the word-study-* pages).
+
+When you write or rebuild any page that argues from a verse where the NIV rendering is doing more — or less — than the original allows, apply XV.2.
+
+---
+
 *VOICE.md v1.0 — forged 2026-04-21 from deep-read synthesis of the site's most lethal pages: devotional-never-gives-up, question-faithgift, question-depravity, question-where-did-your-faith-come-from, devotional-chosen-before-you-were-broken, philosophy-phantom-limb-free-will, philosophy-problem-of-merit, philosophy-mirror-you-refuse, devotional-the-hands-that-hold-you, devotional-rescued-without-a-say, and story-tender-the-letter-already-written.*
 
 *VOICE.md v1.1 — sections XIII (Depravity Concrete-Unpacking Mandate) and XIV (Five-Point Proliferation Mandate) appended 2026-04-28 on Aaron's directive: "this article doesn't even explain what being 'dead' means... we have to explain it a million different ways... i want all of the 5 points proven and proliferated through the site not just Total depravity."*
