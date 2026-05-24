@@ -133,4 +133,25 @@ Top 60 by inbound listed in `sapiential-audit-report.txt`. Deepen opportunistica
 5. **Re-run `node sapiential-audit.js`** at session end to refresh counts, then the standard 9-script pipeline if any HTML changed.
 6. **Log** which pages were live-read + which were deepened in the MISSION-CONTROL session entry, so the next session does not re-read the same pages (rotate, like the Priority 0 audit).
 
-*Generated S59, 2026-05-24. Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
+---
+
+## V. TRIAGE VERDICTS — S59 live-read (Tier-1 top 8)
+
+Structural live-read (hero + H2 crescendo + opener + landing) against §I, given a hard compute cap. Scale: **PASS** = at the bar, consecrate-eligible · **NEAR-PASS** = force-strong, one light wisdom touch then lock · **DEEPEN** = real gap, full pass needed. Next agent (full compute) should slow-read each before rewriting, but these verdicts point the work.
+
+1. **`history-timeline`** (176 in) — **DEEPEN — #1 PRIORITY.** Reads as a *catalog/index*, not prose: no real H2 crescendo (just "The Thread That Never Breaks" + the nav sections), the opener is the subtitle repeated, and the "landing" is a card description. Yet the subject — 2,000 years of providence preserving the truth through every collapsing empire — is the *perfect* Muggeridge long-view material, presented as a list. Give it an apex prose frame: an opening meditation on the unbroken thread, a real escalating crescendo, a tender awe-landing (the long view, ending in awe). **Also fix now:** the hero scripture carries a banned "(NIV)" suffix ("Jude 1:3 (NIV)") — strip it (VOICE §V.1).
+2. **`question-newheart`** (107 in) — **DEEPEN.** Strong tender landing, but: **labelly H2 crescendo** ("The Text / The Arguments / Objections Answered / The Verdict" — rewrite as escalating sentences, §I.3); opener leans on the *reused* surgeon/transplant analogy (cf. `apologetic-the-cardiac-transplant` — differentiate or replace); force-heavy, wisdom-light. Add the question-beneath (the existential weight of being unable to change your own heart), a still place, one sapiential line.
+3. **`compare-monergism-synergism`** (87 in) — **NEAR-PASS / light deepen.** Force-strong binary; already has one sapiential line ("the middle ground was one of the two options wearing a moderate suit"). Fix the two labelly H2s ("Analogies That Clarify" / "A Final Objection"); add the long view; then consecrate.
+4. **`question-freewill`** (172 in) — **NEAR-PASS / light.** Apex on the *force* axis (the morgue scene + circular return is superb). For the *wisdom* axis add one line on what freedom actually *is* (the truest freedom is to be bound to the good — Augustine) and one still beat; then consecrate.
+5. **`systematic-justification`** (94 in) — **NEAR-PASS → CONSECRATE.** Wisdom already in the landing ("the small, hot arithmetic of the soul… whether you have been good enough this week to still be loved"). Optionally add one H2 beat (only 4). Lock.
+6. **`question-foreknowledge`** (122 in) — **PASS → CONSECRATE.** Already in the Zacharias register: §XV Hebrew work + the granite-name landing answers the ache beneath the question ("am I wanted?"). Lock it as-is.
+7. **`psychology-cost-of-rejecting-grace`** (92 in) — **PASS → CONSECRATE.** Courtroom scene + circular return + "the verdict climbed down into the grave and brought you out." At the bar.
+8. **`systematic-atonement`** (90 in) — **PASS → CONSECRATE.** In-Brief + steel-man + the brass-names-on-the-boat long-view landing ("older than the foundation of the world"). At the bar.
+
+**Tally:** 3 PASS (consecrate as-is) · 3 NEAR-PASS (one light touch, then consecrate) · **2 DEEPEN** (`history-timeline` #1, `question-newheart` #2). **Recurring craft gap to sweep across older Polish pages: labelly H2 crescendos** ("The Arguments / The Verdict / Analogies / A Final Objection") — rewrite as escalating sentences per §I.3. Encouraging finding: the Polish-passed `question-*`/`systematic-*`/`psychology-*` corpus is mostly already near the bar; the biggest gaps are index-style pages (`history-timeline`) and reused-analogy openers.
+
+*Next-read rotation for the following session: Tier-1 pages 9–30 in §III have NOT yet been live-read.*
+
+---
+
+*Generated S59, 2026-05-24. Triage verdicts (8 pages) added S59. Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
