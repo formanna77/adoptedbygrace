@@ -279,7 +279,7 @@
         }
         .hero-bridge-question a:hover { opacity: 0.82; }
         .hero-bridge-body {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Inter', sans-serif;
             font-size: clamp(1.08rem, 1.5vw, 1.28rem);
             line-height: 1.75;
             color: #c4bdb0;
