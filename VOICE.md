@@ -461,6 +461,7 @@ Before any rewrite is considered complete, every line on this list passes:
 15. **No forbidden move appears.**
 16. **The canonical HTML structure is intact: `/global.css` link, nav template verbatim, `<article class="article-body">` wrapper, footer-grace-warning block, `/nav.js` script.**
 17. **`node validate-site.js` passes clean for the file.**
+18. **The Sapiential Test (§XVI) passes: the page does not merely argue correctly — it imparts wisdom. The writer can point to the one sapiential line, and can answer yes to "would a reader of Zacharias and Muggeridge find this worthy of them?" Competent-but-not-wise is a fail.**
 
 A page that fails any of these is not shipped. It is sent back to the writing bench.
 
@@ -601,6 +602,67 @@ When you write or rebuild any page that argues from a verse where the NIV render
 
 ---
 
+## XVI. THE SAPIENTIAL REGISTER — WISDOM, NOT MERELY ELOQUENCE (Aaron, 2026-05-24)
+
+Everything above this section teaches the page how to *strike*. This section teaches it how to *see*. Aaron's directive: **the whole site must reach the deepest and most profound prose conceivable — the register of the Christian sages, of a Ravi Zacharias or a Malcolm Muggeridge — not merely persuasive, but wise.** A page can pass every checklist in this document — apex opener, escalating H2s, six lethal moves, the tender catch, the tattooable line — and still be merely *excellent*. That is now a failure state. Excellence is the floor. Wisdom is the ceiling, and the ceiling is the standard.
+
+### XVI.1 — The Hierarchy: Information < Eloquence < Wisdom
+
+There are three altitudes of prose. The lowest conveys *information* — true things, correctly stated. The middle adds *eloquence* — true things stated beautifully, with rhythm and force; most of this document has been about reaching the middle altitude and mastering it. The highest is *wisdom* — and wisdom is not eloquence intensified. It is a different thing entirely. Wisdom is the prose of someone who has looked long at God, at death, at time, at the human heart, and *seen through* to what is actually there, and now says it so plainly that the reader feels a veil lift. The mark of the merely eloquent page is that the reader admires it. The mark of the wise page is that the reader goes quiet — because something true about their own existence has just been named, and they cannot un-see it.
+
+### XVI.2 — Depth Is Achieved by Seeing More Truly, Not by Sounding Grander
+
+This is the first and most important guardrail, because the instruction "be more profound" reliably produces the *opposite* of profundity: inflation. Bigger words. Grander cadences. Cosmic vocabulary deployed to manufacture a weight the thought has not earned. **That is not wisdom; it is the Rhetorical Lift (§VI) wearing a robe.** True depth runs the other direction. The wisest sentences in the language are usually the *plainest* — Muggeridge's are spare to the point of austerity; Pascal's fit on a single line. Depth is a property of *sight*, not of *volume*. You go deeper by perceiving the thing more exactly and saying it more simply, never by saying an ordinary thing more grandly. If a passage feels profound while you are writing it, stop and check: is the *insight* deeper, or only the *diction*? If only the diction, cut it — you have written the counterfeit.
+
+### XVI.3 — The Exemplars
+
+To the working canon (Lewis, Spurgeon, Buechner, Keller, Edwards, Chesterton, Pascal) the sapiential standard adds two whose whole gift was wisdom:
+
+- **Ravi Zacharias** — the apologist of *the question behind the question*. He never answered what the skeptic asked; he answered what the skeptic *meant*, the ache underneath the argument. He read across philosophy, literature, and culture and brought the whole human witness to bear on the four questions every soul is really asking — origin, meaning, morality, destiny. His gift: meeting the unbeliever not at the level of the intellect alone but at the level of the heart's deepest hunger, and showing that only Christ answers all four without contradiction. **Borrow this:** find the existential question hiding beneath the doctrinal one, and answer *that*.
+
+- **Malcolm Muggeridge** — the journalist who watched the twentieth century chase every utopia and come home empty, and then, late and astonished, found God. His gift: *disillusioned clarity* — he had believed the world's promises (progress, politics, success, the flesh) and seen each one curdle, so when he names them as the dead ends they are, it carries the authority of a man reporting from inside the ruin. And *sacramental sight* — the eternal glimpsed through the ordinary, the "fearful joke" of the self seen against eternity, the spare ironic sentence that detonates. **Borrow this:** tell the truth about the bankruptcy of what the world sells, with the calm of someone who has been there; and see the eternal pressing through the mundane.
+
+### XVI.4 — The Marks of Wisdom (recognizable, demand-able)
+
+A wise page bears several of these. Not as ornament — as evidence that the writer *saw*:
+
+- **The long view (*sub specie aeternitatis*).** Every temporal thing — the reader's fear, their success, their Tuesday — is quietly set against eternity, and shrinks or swells to its true size.
+- **The seeing-through.** Name the thing everyone has felt and no one has articulated. The reader's response is not "how clever" but "*yes — that is exactly it, and I never had the words.*"
+- **The question beneath the question.** Answer the ache, not just the objection (Zacharias). A reader who asked about predestination is often really asking *am I wanted?*
+- **Earned gravitas.** Wisdom has looked unflinchingly at suffering, futility, and death, and is therefore never flippant, never glib, never cheap with comfort. It earns the light by first telling the truth about the dark.
+- **The held paradox.** Wisdom does not resolve mystery prematurely to make a tidy point. It can hold sovereignty and responsibility, grief and trust, the already and the not-yet, without flinching and without collapsing one into the other.
+- **Disillusionment with the world's idols.** Expose the counterfeits — autonomy, self-actualization, the religion of progress, the sovereignty of the self — as the exhausted dead ends they are (Muggeridge), so grace lands as the only door that was ever open.
+- **Stillness.** Wisdom is unhurried. The deepest things are said quietly, with room around them. At least one moment per page should slow nearly to silence and simply *contemplate*, before moving on.
+- **Humility before mystery.** The sage knows the limit of speech and stops at the edge of it in awe rather than over-explaining the infinite. The page ends not with a flourish but with the reader brought to the threshold of something too large for the last sentence to contain.
+
+### XVI.5 — The Craft Mechanics (how to actually produce it)
+
+Wisdom is not summoned by trying to be wise. It is produced by specific, repeatable moves:
+
+1. **Find the deeper question and answer that one.** Before drafting, ask: beneath this doctrine, what is the reader's real, human question? Write to that.
+2. **Connect the immediate to the ultimate.** Take the reader's small, concrete ache and follow the thread all the way out to the eternal thing it was always about — and back again.
+3. **Earn one sapiential line.** Distinct from the §VII.3 tattooable sentence (which compresses *this page's thesis*), the sapiential line is a sentence of *distilled wisdom about the human condition or the character of God* that could stand alone, outside the page, and still be true and weighty. Every page must have one, and the writer must be able to point to it.
+4. **Summon the wider witness — once, and only to deepen.** A line from a poet, a philosopher, an honest atheist, a moment from history or literature, the testimony of the ages — used the way §IV.2 governs the secular bridge: at most once, never to show erudition, only because it makes the reader see the truth from an angle Scripture-alone-on-this-page could not reach. (Scripture remains the proof; the wider witness is corroboration, never authority.)
+5. **Tell the truth about the dark before you give the light.** Cheap comfort is the enemy of wisdom. Let the futility, the death, the ache be real and fully felt — then the grace is not a platitude but a rescue.
+6. **Leave room.** Build in at least one still place. Resist the urge to fill every line with force. Wisdom needs silence around it to be heard.
+7. **End in awe, not applause** (cf. §VIII). The final note of a wise page is wonder — the reader looking up, not the reader impressed.
+
+### XVI.6 — The Test
+
+After the page passes every other checklist, ask the sapiential question, and answer it honestly:
+
+> *A reader who has loved Ravi Zacharias and Malcolm Muggeridge — who knows the difference between a clever Christian essay and a wise one — reads this page. Do they find it worthy of that company? Or merely competent, correct, and forgettable?*
+
+And the deeper form of the same test:
+
+> *Does the reader close the tab merely persuaded — or genuinely wiser? Do they see themselves, and God, and the world more truly than they did before they arrived?*
+
+If the honest answer is "competent but not wise," the page is not finished, no matter how clean it scans. It goes back to the bench. **This is now part of the Landing-Force Standard (CLAUDE.md): a page that argues correctly but does not impart wisdom is a regression. Locks are not exemptions** — a HAMMER-LOCKED or CONSECRATED page that reads merely excellent against this bar is eligible for re-deepening. The standing flag pass and its prioritized queue live in `SAPIENTIAL-AUDIT.md`.
+
+---
+
 *VOICE.md v1.0 — forged 2026-04-21 from deep-read synthesis of the site's most lethal pages: devotional-never-gives-up, question-faithgift, question-depravity, question-where-did-your-faith-come-from, devotional-chosen-before-you-were-broken, philosophy-phantom-limb-free-will, philosophy-problem-of-merit, philosophy-mirror-you-refuse, devotional-the-hands-that-hold-you, devotional-rescued-without-a-say, and story-tender-the-letter-already-written.*
 
 *VOICE.md v1.1 — sections XIII (Depravity Concrete-Unpacking Mandate) and XIV (Five-Point Proliferation Mandate) appended 2026-04-28 on Aaron's directive: "this article doesn't even explain what being 'dead' means... we have to explain it a million different ways... i want all of the 5 points proven and proliferated through the site not just Total depravity."*
+
+*VOICE.md v1.2 — section XVI (The Sapiential Register) appended 2026-05-24 on Aaron's directive: "what apex writing achieves is the deepest and highest levels of wisdom possible... few christian giants such as Ravi Zacharias or Malcolm Muggeridge. so i want you to make sure the whole site has the deepest and most profound prose conceivable!" The standing full-site flag pass and prioritized deepening queue live in `SAPIENTIAL-AUDIT.md`.*
