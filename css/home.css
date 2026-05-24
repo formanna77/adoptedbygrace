@@ -226,6 +226,75 @@
             width: 20px; border-radius: 4px;
         }
 
+        /* Tertiary CTA — faint text doorway beneath the two ranked buttons */
+        .hero-cta-tertiary {
+            margin: -1.5rem 0 2.6rem;
+            opacity: 0; animation: fadeUp 1s ease 0.85s forwards;
+        }
+        .hero-cta-tertiary a {
+            display: inline-flex; align-items: center; gap: 0.35rem;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.92rem; font-weight: 500;
+            letter-spacing: 0.02em;
+            color: #9c958a;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: color 0.25s ease, border-color 0.25s ease;
+        }
+        .hero-cta-tertiary a:hover { color: var(--accent-gold); border-bottom-color: rgba(212, 162, 84, 0.5); }
+        .hero-cta-tertiary svg { width: 13px; height: 13px; transition: transform 0.3s ease; }
+        .hero-cta-tertiary a:hover svg { transform: translateX(3px); }
+
+        /* ===== THE BRIDGE — the one disarming question between hero and catalog ===== */
+        .hero-bridge {
+            position: relative;
+            padding: 5rem 2rem 5.5rem;
+            text-align: center;
+            background: radial-gradient(ellipse 70% 100% at 50% 0%, rgba(212, 162, 84, 0.05), transparent 70%);
+        }
+        .hero-bridge::before {
+            content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+            width: 120px; height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+        }
+        .hero-bridge-inner { max-width: 760px; margin: 0 auto; }
+        .hero-bridge-lead {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.28em;
+            color: var(--accent-ember);
+            margin-bottom: 1.6rem;
+        }
+        .hero-bridge-question {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.9rem, 4vw, 3rem);
+            font-weight: 800; line-height: 1.1;
+            margin-bottom: 2rem;
+        }
+        .hero-bridge-question a {
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-ember));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+            transition: opacity 0.25s ease;
+        }
+        .hero-bridge-question a:hover { opacity: 0.82; }
+        .hero-bridge-body {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.08rem, 1.5vw, 1.28rem);
+            line-height: 1.75;
+            color: #c4bdb0;
+            max-width: 680px;
+            margin: 0 auto 1.4rem;
+        }
+        .hero-bridge-body:last-child { margin-bottom: 0; color: #b0a99d; }
+        .hero-bridge-body a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(212, 162, 84, 0.35);
+            transition: color 0.25s ease, border-color 0.25s ease;
+        }
+        .hero-bridge-body a:hover { color: #f0c97a; border-bottom-color: rgba(212, 162, 84, 0.8); }
+
         @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
 
         /* ===== SECTION SHARED ===== */
@@ -503,6 +572,7 @@
             /* hero-rotate-wrap height set dynamically by JS */
             .hero-ctas { margin-top: 2rem; }
             .hero-glow { width: 400px; height: 400px; }
+            .hero-bridge { padding: 3.5rem 1.5rem 4rem; }
             .content-explorer { padding: 0 1.5rem 3rem; }
             .explorer-eyebrow-wrapper { padding: 2rem 0; }
             .explorer-eyebrow-wrapper::before, .explorer-eyebrow-wrapper::after { margin-top: 1.5rem; margin-bottom: 1.5rem; }
@@ -535,6 +605,8 @@
             .hero-verse { font-size: 1rem; margin-top: 1rem; }
             /* hero-rotate-wrap height set dynamically by JS */
             .hero-ctas { margin-top: 1.5rem; flex-direction: column; align-items: center; gap: 0.8rem; }
+            .hero-cta-tertiary { margin: 0.4rem 0 2rem; }
+            .hero-bridge { padding: 3rem 1.2rem 3.5rem; }
             .hero-glow { width: 250px; height: 250px; }
             .content-explorer { padding: 0 1rem 2rem; }
             .total-number { font-size: 3rem; }

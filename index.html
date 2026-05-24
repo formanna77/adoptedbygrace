@@ -222,10 +222,12 @@
         <div class="search-results" id="searchResults"></div>
     </div>
 
-    <!-- ===== HERO — COMMAND CENTER (rebuilt 2026-04-19) ===== -->
-    <!-- The hero now answers "Why am I here? What's here? Where do I start?"
-         in three seconds. Static headline + tagline + three doorways + rotating
-         scripture (now supporting role) + stats strip. -->
+    <!-- ===== HERO — QUESTION-LED / DISARMING REFACTOR (2026-05-23) ===== -->
+    <!-- Ache-first opener for the cold, possibly-resistant arrival: no claim,
+         no assent demanded, the guard lowered before the mind raises it. One
+         dominant CTA (the 60-Second Case), Start Here secondary, Best Reads a
+         faint tertiary. Rotating scripture keeps its supporting role. The Crown
+         Jewel inversion question now lives in the bridge just below the fold. -->
     <section class="hero">
         <canvas id="starfield"></canvas>
         <div class="hero-glow"></div>
@@ -235,30 +237,58 @@
             <h1 class="hero-headline">Adopted by <span class="gold">Grace</span></h1>
 
             <p class="hero-tagline">
-                You were chosen <strong>before the foundation of the world</strong> &mdash;
-                and every argument against that truth collapses under the weight of Scripture.
+                What if the thing you have been reaching for your whole life
+                had already <strong>reached for you first</strong> &mdash;
+                and would never let go?
             </p>
 
             <div class="hero-ctas">
-                <a href="/start-here" class="btn-primary">
-                    Start Here
+                <a href="/the-60-second-case" class="btn-primary">
+                    Try the 60-Second Case
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
                 </a>
-                <a href="/best-reads" class="btn-secondary">Best Reads</a>
-                <a href="/the-60-second-case" class="btn-tertiary">
-                    Try the 60-Second Case
+                <a href="/start-here" class="btn-secondary">Start Here</a>
+            </div>
+
+            <div class="hero-cta-tertiary">
+                <a href="/best-reads">or start with the best reads
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
                 </a>
             </div>
 
             <div class="hero-scripture" aria-live="polite">
                 <div class="hero-scripture-inner">
-                    <!-- Slides populated by JS from heroSlides array -->
+                    <!-- Slides populated by JS from heroVerses array -->
                 </div>
                 <div class="hero-scripture-dots" id="heroScriptureDots">
                     <!-- Dots populated by JS -->
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- ===== THE BRIDGE — one disarming question before the catalog ===== -->
+    <!-- The arresting prose moment that stops the scroll between hero and grid.
+         Two arms: it begins the demolition (your faith was given, not generated)
+         and catches in the same breath (wanted, held, chosen). The reader is
+         handed into the catalog, not dumped into it. -->
+    <section class="hero-bridge" aria-label="Where did your faith come from?">
+        <div class="hero-bridge-inner">
+            <p class="hero-bridge-lead">One question, before anything else &mdash; and it is the only one that matters here.</p>
+            <p class="hero-bridge-question"><a href="/question-where-did-your-faith-come-from">Where did your faith come from?</a></p>
+            <p class="hero-bridge-body">
+                Not whether you believe. Where the believing itself began. Trace it back honestly &mdash;
+                past the day you decided, past the sermon, past the longing that first made you listen &mdash;
+                and somewhere near the bottom the answer stops being something you did and becomes
+                something done to you. That is not a threat. It is the kindest news a tired person ever heard:
+                you were <a href="/question-chosen">wanted before you could earn it</a>,
+                <a href="/devotional-the-hands-that-hold-you">held before you knew there were hands</a>,
+                <a href="/devotional-chosen-before-you-were-broken">chosen before you were born</a>.
+            </p>
+            <p class="hero-bridge-body">
+                Everything below is one more proof of the same thing &mdash; from Scripture, from your own mind,
+                from history, from the ache you carried to this page. Walk in anywhere.
+            </p>
         </div>
     </section>
 
