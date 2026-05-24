@@ -80,10 +80,11 @@
                     name: 'The Five Points',
                     icon: '🛡',
                     href: '/apologetics',
-                    count: 47,
+                    count: 50,
                     pages: [
                         { name: 'A Remnant Chosen by Grace — The Engine That Ends the Debate (Romans 11:5-6)', href: '/apologetic-the-remnant-chosen-by-grace', desc: 'Paul states the engine that decides the whole debate over election: if by grace, then it cannot be based on works; if it' },
                         { name: 'Can You Lose Your Salvation?', href: '/apologetic-perseverance', desc: 'If salvation depends on God\'s eternal decree rather than your flickering will, then it cannot be lost — because the One' },
+                        { name: 'Chosen As Firstfruits to Be Saved — When the Choice Came Before the Belief (2 Thessalonians 2:13)', href: '/apologetic-chosen-as-firstfruits', desc: '2 Thessalonians 2:13 says God chose you' },
                         { name: 'Did Jesus Die for Everyone? Scripture on Definite Atonement', href: '/apologetic-definite-atonement', desc: 'Imagine two surgeons. The first enters an operating room for a critical surgery. She studies the patient\'s X-rays, maps' },
                         { name: 'Doesn\'t Election Make Evangelism Pointless?', href: '/apologetic-evangelism', desc: 'If God has already decided who will be saved, why bother preaching? Because God decrees means as well as ends. He ordain' },
                         { name: 'Ephapax — The Single Greek Adverb That Settles Definite Atonement', href: '/apologetic-the-once-for-all-ephapax', desc: 'Ephapax — once for all. The Greek adverb the writer of Hebrews uses to bolt the door of the atonement against any readin' },
@@ -91,12 +92,14 @@
                         { name: 'God Works the Willing — The Deepest Answer to Free Will (Philippians 2:13)', href: '/apologetic-god-works-the-willing', desc: 'Paul commands us to work out our salvation, then grounds the command in something staggering: for it is God who works in' },
                         { name: 'Grace Given Before Time — The Verse That Dates Your Election (2 Timothy 1:9)', href: '/apologetic-his-own-purpose-and-grace', desc: 'Grace was given to us in Christ before the beginning of time, not because of anything we have done. The verse excludes m' },
                         { name: 'He Bore the Sin of Many — The Servant\'s Definite "Many" (Isaiah 53:11-12)', href: '/apologetic-he-bore-the-sin-of-many', desc: 'Seven centuries before the cross, Isaiah named the work and its scope: my righteous servant will justify many, and he bo' },
+                        { name: 'He Did Not Spare His Own Son — The Cross-Logic That Cannot Be Broken (Romans 8:32-34)', href: '/apologetic-he-did-not-spare-his-own-son', desc: 'Romans 8:32 argues from greater to lesser: if the Father did not spare His own Son, He will surely give His people every' },
                         { name: 'He Gave Himself Up for Her — The Bridegroom and the Cross (Ephesians 5:25)', href: '/apologetic-gave-himself-for-the-bride', desc: 'A bridegroom does not give himself for women in general; he gives himself for his bride. Ephesians 5:25 makes the scope ' },
                         { name: 'He Who Began a Good Work — The Divine Bookends of Perseverance', href: '/apologetic-he-who-began-a-good-work', desc: 'Paul does not say you will carry your salvation to completion. He says he who began the good work will carry it on — the' },
                         { name: 'He Will Save His People — The Scope Named at the Cradle (Matthew 1:21)', href: '/apologetic-save-his-people', desc: 'Before the child was born, the angel named both the work and its object: he will save his people from their sins. Not of' },
                         { name: 'I Shall Lose None — The Guarantee Built Into Christ\'s Obedience (John 6:37-39)', href: '/apologetic-i-shall-lose-none', desc: 'Jesus binds the security of every believer to his own obedience: this is the will of the Father, that I shall lose none ' },
                         { name: 'I Will Move You — The Grace That Causes the Walking (Ezekiel 36:26-27)', href: '/apologetic-i-will-move-you', desc: 'Ezekiel 36 is a monologue of pure divine action — seven first-person I wills, and the human heart contributes only the s' },
                         { name: 'Kept by the Power of God — The Garrison at Both Ends (1 Peter 1:3-5)', href: '/apologetic-kept-by-the-power-of-god', desc: 'Peter says the inheritance is kept in heaven for you, and you are shielded by God' },
+                        { name: 'Let Light Shine Out of Darkness — The Voice That Made the Universe Made You See (2 Corinthians 4:6)', href: '/apologetic-light-shine-out-of-darkness', desc: 'The same God who commanded light out of the primordial dark made His light shine in our hearts. The darkness of Genesis ' },
                         { name: 'Lydia\'s Heart — The Greek and the Neuroscience of an Irresistibly Opened Will', href: '/apologetic-lydias-heart', desc: 'A single Greek verb at a riverside prayer meeting in Philippi — diēnoixen — and a parallel verb in John 6:44 — helkyō — ' },
                         { name: 'No One Can Come Unless — The Helkyō of John 6', href: '/apologetic-no-one-can-come-unless', desc: 'The verb Jesus chose for the Father' },
                         { name: 'Not Because — Deuteronomy 7 and the Hebrew Asymmetry of Election', href: '/apologetic-not-because-but-because', desc: 'Three Hebrew verses on the plains of Moab — Deuteronomy 7:6-8 — establish the Old Testament paradigm for unconditional e' },
@@ -143,6 +146,17 @@
                         { name: 'The Problem of Evil — The Question That Has a Wounded Answer (Genesis 50:20)', href: '/reformed-apologetics-theodicy', desc: 'The single greatest objection to God, taken at full strength — and the answer the doctrines of grace give that no other ' },
                         { name: 'The Resurrection in History — The Fact That Will Not Be Explained Away (1 Corinthians 15)', href: '/reformed-apologetics-resurrection', desc: 'The empty tomb, the appearances, and the men who died for what they had seen. The historical case for the resurrection n' },
                         { name: 'The Transcendental Argument — The Proof Behind Every Proof (Colossians 2:3)', href: '/reformed-apologetics-transcendental', desc: 'The laws of logic, the reliability of reason, and the uniformity of nature are the tools the unbeliever uses to argue ag' }
+                    ]
+                },
+                {
+                    name: 'Presuppositional Apologetics',
+                    icon: '🛡',
+                    href: '/presuppositional-apologetics-hub',
+                    count: 3,
+                    pages: [
+                        { name: 'Borrowed Capital — How the Atheist Spends a Fortune He Says Does Not Exist (Colossians 1:17)', href: '/presuppositional-borrowed-capital', desc: 'Every time the atheist reasons, predicts, or condemns, he draws on three accounts his worldview cannot fund: logic, the ' },
+                        { name: 'The Impossibility of the Contrary — The One Proof That Cannot Be Refuted Without Using It (Proverbs 1:7)', href: '/presuppositional-impossibility-of-the-contrary', desc: 'The transcendental argument does not put God on the table to be weighed. It shows that without God you could not have a ' },
+                        { name: 'The Myth of Neutrality — There Is No Chair to Judge God From (Romans 1:21-22)', href: '/presuppositional-no-neutral-ground', desc: 'The skeptic asks the Christian to prove God from neutral ground, as if the mind were an impartial judge. But neutrality ' }
                     ]
                 },
                 {

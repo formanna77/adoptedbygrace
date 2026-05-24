@@ -29,6 +29,7 @@ const HUB_MAP = [
   { prefix: 'history-',        hub: 'history-timeline.html',       eyebrow: 'History' },
   { prefix: 'compare-',        hub: 'comparisons-hub.html',        eyebrow: 'Comparisons' },
   { prefix: 'reformed-apologetics-', hub: 'reformed-apologetics-hub.html', eyebrow: 'Reformed Apologetics' },
+  { prefix: 'presuppositional-', hub: 'presuppositional-apologetics-hub.html', eyebrow: 'Presuppositional Apologetics' },
   { prefix: 'pastoral-',       hub: 'pastoral-hub.html',           eyebrow: 'Pastoral' },
   { prefix: 'essay-',          hub: 'essays.html',                 eyebrow: 'Essays' },
   { prefix: 'ot-',             hub: 'ot-hub.html',                 eyebrow: 'Old Testament' },
@@ -80,6 +81,7 @@ const SKIP_PAGES = new Set([
   'broken-mirror-hub.html', 'anxious-mind-hub.html',
   'creeds-confessions.html', 'best-reads.html',
   'reformed-apologetics-hub.html', 'theological-ethics-hub.html', 'comparative-theology-hub.html',
+  'presuppositional-apologetics-hub.html',
 ]);
 
 // ═══════════════════════════════════════════════════════

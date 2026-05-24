@@ -92,6 +92,14 @@ const UMBRELLAS = [
         hubFiles: ['reformed-apologetics-hub.html'],
       },
       {
+        key: 'presuppositional-apologetics',
+        name: 'Presuppositional Apologetics',
+        icon: '🛡',
+        hub: '/presuppositional-apologetics-hub',
+        prefixes: ['presuppositional'],
+        hubFiles: ['presuppositional-apologetics-hub.html'],
+      },
+      {
         key: 'questions',
         name: 'Scripture Questions',
         icon: '📖',
