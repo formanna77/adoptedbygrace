@@ -51,6 +51,8 @@ A page PASSES when several of these marks are present and earned (not as ornamen
 
 **Refreshed snapshot (S60, 2026-05-24, post-deepening):** 582 prose pages · **Tier 1 = 96 · Tier 2 = 56 · Tier 3 = 430** · short = 3. The 11-page drop from Tier 1 → Tier 2 is exactly the 11 pages consecrated this session (see §VI). Refresh anytime by re-running the script (counts shift as pages are deepened/locked).
 
+**Refreshed snapshot (S61, 2026-05-24/25, post-deepening):** 582 prose pages · **Tier 1 = 76 · Tier 2 = 75 · Tier 3 = 431** · short = 3. The 19-page drop from Tier 1 → Tier 2 is exactly the 19 pages consecrated in S61 (the full pages-12–30 rotation; see §VII). Tier 1 has now fallen 107 → 96 → 76 across S59→S60→S61; the most-linked doorways on the site are nearly all consecrated, and the queue is descending into the 25–40-inbound band.
+
 ---
 
 ## III. THE QUEUE
@@ -192,4 +194,57 @@ Executed the §V triage. All 11 pages below now carry `<!-- CONSECRATED -->`; `n
 
 ---
 
-*Generated S59, 2026-05-24. Triage verdicts (8 pages) added S59. S60 execution log (§VI, 11 pages deepened/consecrated) added 2026-05-24. Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
+## VII. S61 EXECUTION LOG — the deepening run (2026-05-24/25)
+
+Live-read down the full S61 rotation (Tier-1 pages 12–30 from §III), top-down by inbound. **All 19 carry `<!-- CONSECRATED -->`.** `node sapiential-audit.js` confirms Tier 1 dropped 95 → 76 and Tier 2 rose 56 → 75 (exactly these 19). `node validate-site.js` GREEN (0 broken links, 0 orphans, all structural/CSS checks pass). Every `<a href>` on every rewritten page re-verified on disk before saving. Zero `(NIV)` suffixes and zero banned clock-time framing remain on any touched page (swept and confirmed).
+
+**FULL DEEPEN (write-over):**
+
+1. **`history-luther`** (#22, was UNMARKED) — **CONSECRATED.** Was a flat Wikipedia-register entry (textbook H2s, three banned `(NIV)` suffixes, a bolted-on Colossians ending). Recast wholesale in the **church-history / Muggeridge long-view** register with a *page-native* central image — the **exhumed gospel / a man with a shovel** (deliberately distinct from `theologian-luther`'s deathbed-beggar and `history-timeline`'s unbroken-thread, to avoid cloning — both were read first to differentiate). New escalating-sentence H2 crescendo (*The Sentence That Crossed a Continent → The Truth Was Not Invented. It Was Exhumed. → The Book Luther Refused to Disown → What One Century Digs Up, the Next Buries Again → You Are Standing in the Same Recovery*). The Muggeridge disillusionment: the church is the one institution entrusted with a treasure it cannot stop burying — sola fide kept, the bound will quietly re-buried under "your decision," Tetzel's coin reborn as the aisle-walk. **§XV + NIV-2011 fix:** corrected the 1984 reading "a righteousness *from* God" → NIV-2011 "the righteousness *of* God" (Rom 1:17), which is *also* the genitive *dikaiosynē theou* Luther's tower turned on — surfaced and explained as the warrant. Stripped all three `(NIV)`; fixed eyebrow `<div>`→`<span>`. Sapiential line: *"the human heart would always rather hold a shovel than an empty hand."*
+
+**LIGHT DEEPEN (landing rebuilt + structural/§XV fixes, then consecrated):**
+
+2. **`systematic-trinity`** (#29, was UNMARKED) — **CONSECRATED.** Opening was already wise (the conversation before the first atom; *"remove the Trinity, you do not get a simpler God. You get a smaller one"*; *"a transaction… or a love story"*) but the body tapered to textbook and the close was a flat summary. Stripped **four** `(NIV)` suffixes; added a hero subtitle (+ eyebrow `<div>`→`<span>`); de-labelled two H2s (the one duplicating the H1, and the conclusion). Rebuilt the flat ending into a true **awe-landing with circular return** to the opening image — sapiential line: *"The same Three who were entirely enough for one another before time began decided, freely, not to be complete without you."*
+
+**NEAR-PASS (targeted wisdom/craft/§XV touch, then consecrated):**
+
+3. **`romans-9-deep-dive`** (#12) — added a Zacharias-register **opening movement** naming the dread of the chapter and the question beneath the protest (*"if it is all His choosing, am I wanted, or am I merely used?"*) that the page's existing catch + Rom 11:33-36 doxology already pay off. Sapiential line: *"You do not flinch at a teaching that leaves you on the throne; you flinch at the one that takes the throne away."*
+4. **`systematic-ordo-salutis`** (#14) — **§XV fix:** it quoted 1 John 5:1 as the ESV/NASB "has been born"; restored the NIV "is born of God" and surfaced the perfect *gegennētai* as the warrant (the model §XV case).
+5. **`question-acts`** (#17) — swept the textbook H2 crescendo (The Text/The Greek/The Arguments/Objections Answered/The Verdict) into escalating sentences; **rewrote a banned searcher-trope landing** ("reading this at an hour they did not plan… put this page in front of you tonight") into a warmer wisdom close (*"It is the coldest-sounding word for the warmest thing in the universe"*).
+6. **`question-sealed`** (#16) — two labelly H2s de-labelled (→ "You Have Mislocated the Rope" / "The Grammar Leaves No Room for a Conditional"); already apex-wise, consecrated.
+7. **`question-boasting`** (#20) — one labelly H2 fixed; PASS, consecrated.
+8. **`systematic-effectual-calling`** (#15) — softened one borderline clock-phrase ("the late-hour question"); otherwise apex, consecrated.
+9. **`romans-8-28-39`** (#26) — one banned searcher-cadence H2 ("For the Person Reading This in the Dark" → "If You Are Afraid You Are the Broken Link"); the forge/Smith page is otherwise apex.
+10. **`systematic-providence`** (#28) — softened one stray clock-time in a list ("the phone call that came at 3 AM" → "you never wanted to receive"); the "name the atom" Socratic trap + Westminster-quoted held paradox on evil are at the bar.
+11. **`analogy-lazarus-grave`** (#13) — fixed one repeated-phrase tic; the smell-before-the-miracle scene + "Come forth. You already did." landing are at the bar.
+
+**PASS (confirmed at the bar on slow-read, consecrated as-is):**
+
+12. **`ot-jacob-esau`** (#19) — the flinch seeing-through; *"We want a salvation we could have refused so we can say we accepted"*; the Jacob's-limp awe-landing.
+13. **`systematic-compatibilism`** (#18) — *"Freedom has never meant uncaused — it has only ever meant uncoerced"*; the train landing ("You are not the engineer. You are home.").
+14. **`objection-fairness`** (#21) — *"'Unjust' accuses the judge. 'Unfair' demands the prize"*; the "receipt for services rendered" line; the "I'll take it" courtroom landing.
+15. **`theologian-luther`** (#25) — APEX-grade Muggeridge portrait: the "Watch your mind right now" reflex, the Tetzel-coin/aisle-walk parallel, the "We are beggars. This is true." deathbed landing.
+16. **`devotional-love-letter-before-time`** (#23) — the attic-letter frame, "devastating information about God," the Eph-1:11 predestination-of-this-moment payoff.
+17. **`demolition-prevenient-grace`** (#24) — arguably apex: the "room behind your eyes" reflex-diagnostic, the two-boxes, the two-rooms "management department… has been laid off… I was being held this whole time" landing.
+18. **`broken-mirror-performance-treadmill`** (#27) — "conditional grace is boasting in a suit and tie"; the dashboard-note close; "Breakfast in the Father's house."
+19. **`psychology-anosognosia-of-sin`** (#30) — arguably apex: the Ramachandran frame (*"the instrument that would detect the paralysis was the paralysis itself"*), the phone/prayer desire-mirror, the doctor-holds-the-dead-hand landing.
+
+**Findings this session:** (a) The Polish-passed `question-*`/`systematic-*`/`demolition-*`/`broken-mirror-*` corpus is overwhelmingly already at or near the bar — most pages 12–30 were PASS or one-touch NEAR-PASS. The two genuine gaps were both **UNMARKED history/systematic pages in the textbook register** (`history-luther`, `systematic-trinity`) — same pattern as S60 (`history-timeline`). **Hypothesis for S62: the remaining textbook-register risk is concentrated in the `history-*` and `systematic-*` UNMARKED pages.** (b) Two recurring craft gaps swept wherever found: **labelly H2 crescendos** and **stray clock-time / searcher-trope framing** (`question-acts`, `romans-8-28-39`, `systematic-providence`, `systematic-effectual-calling`) — `audit-prose.js`/the scanner does not catch these; grep for `\b[0-9]\s?(am|pm)\b`, `3 ?AM`, "reading this", "in the dark" when touching a page. (c) §XV translation slips are still surfacing in older pages (`systematic-ordo-salutis` quoted the ESV; `history-luther` carried a 1984 reading) — keep checking 1 John 5:1, Rom 1:17, and the §XV.4 starter list on every page touched.
+
+**NEXT-READ ROTATION (S62):** Re-run `node sapiential-audit.js` first (the ranking shifts as pages lock). The new Tier-1 top (post-S61, all ≥25 inbound, none yet read) — pull top-down:
+1. `compare-predestination-foreknowledge` (#1, 39 in)
+2. `romans-3-10-18` (#2, 38 in)
+3. `question-whosoever` (#3, 36 in)
+4. `devotional-my-chains-fell-away` (#4, 35 in)
+5. `broken-mirror-vessels-for-mercy` (#5, 35 in)
+6. `systematic-theology-proper` (#6, 35 in — systematic, textbook-risk per the hypothesis above; read closely)
+7. `history-confessions-story` (#7, 33 in, UNMARKED — **prime Muggeridge/textbook-risk candidate**)
+8. `question-psalm139` (#8, 33 in)
+9. `systematic-covenant-theology` (#9, 32 in, UNMARKED — **textbook-risk candidate**)
+10. `question-book-of-life` (#10, 32 in)
+11. then descend 11–20: `secular-recovery-total-depravity`, `joy-god-big-enough`, `ot-jeremiah`, `start-here-phase1`, `history-decision-theology` (UNMARKED, textbook-risk), `theologian-whitefield` (UNMARKED, 1202w — Muggeridge portrait candidate, also depth-suspect short), `devotional-joy-of-election`, `philosophy-phantom-limb-free-will`, `apologetic-lydias-heart` (4458w — read for whether length earns depth), `question-john17` (910w — depth-suspect short, deepen or merge).
+Prioritize the UNMARKED `history-*`/`systematic-*` cluster (the standing textbook-register risk) and the two depth-suspect shorts (`theologian-whitefield`, `question-john17`). Record a verdict for each in §VII as you go; spot-check held S61 locks (`history-luther`, `systematic-trinity`, `romans-9-deep-dive`) in the Priority 0 sample-read.
+
+---
+
+*Generated S59, 2026-05-24. Triage verdicts (8 pages) added S59. S60 execution log (§VI, 11 pages) added 2026-05-24. S61 execution log (§VII, 19 pages — the full pages-12–30 rotation) added 2026-05-24/25. Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
