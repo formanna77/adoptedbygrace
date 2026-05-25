@@ -1,9 +1,9 @@
 SAPIENTIAL FLAG PASS — signal report for the Sapiential Standard (VOICE.md §XVI)
-Generated 2026-05-24T19:50:28.314Z
+Generated 2026-05-24T23:44:53.482Z
 
 Prose pages in scope: 582  |  high-inbound threshold (75th pct): >= 20
-  TIER 1 (high inbound, NOT apex — deepen first): 107
-  TIER 2 (high inbound, apex — re-read vs the new bar): 45
+  TIER 1 (high inbound, NOT apex — deepen first): 96
+  TIER 2 (high inbound, apex — re-read vs the new bar): 56
   TIER 3 (long tail): 430
   Short prose (<900 words, depth-suspect): 3
 
@@ -11,17 +11,6 @@ NOTE: this is a SIGNAL report, not a wisdom verdict. The bar is met or missed on
 Columns: [inbound] [tier] [words] [in-brief?] name
 
 ===== TIER 1 — highest leverage (most-seen, least-hammered) =====
-  [176 in] [UNMARKED] [1728w]         history-timeline
-  [172 in] [POLISH  ] [2452w]         question-freewill
-  [122 in] [POLISH  ] [1266w]         question-foreknowledge
-  [107 in] [POLISH  ] [3053w]         question-newheart
-  [ 94 in] [POLISH  ] [2119w]         systematic-justification
-  [ 92 in] [POLISH  ] [1811w]         psychology-cost-of-rejecting-grace
-  [ 90 in] [POLISH  ] [2236w]         systematic-atonement
-  [ 87 in] [POLISH  ] [1850w]         compare-monergism-synergism
-  [ 82 in] [UNMARKED] [2213w]         pastoral-assurance
-  [ 67 in] [UNMARKED] [1825w]         secular-philosophy-free-will
-  [ 66 in] [UNMARKED] [1907w]         theologian-calvin
   [ 57 in] [POLISH  ] [6379w]         romans-9-deep-dive
   [ 51 in] [UNMARKED] [2502w]         analogy-lazarus-grave
   [ 49 in] [POLISH  ] [1722w]         systematic-ordo-salutis
@@ -64,6 +53,7 @@ Columns: [inbound] [tier] [words] [in-brief?] name
   [ 26 in] [POLISH  ] [1472w]         question-ezekiel37
   [ 26 in] [POLISH  ] [1478w]         question-born-again-meaning
   [ 26 in] [UNMARKED] [2184w]         history-puritans
+  [ 26 in] [UNMARKED] [3178w]         philosophy-problem-of-merit
   [ 25 in] [POLISH  ] [1534w]         devotional-love-before-the-world
   [ 25 in] [UNMARKED] [1829w]         start-here-phase1
   [ 25 in] [POLISH  ] [1838w]         broken-mirror-the-relapse
@@ -72,7 +62,6 @@ Columns: [inbound] [tier] [words] [in-brief?] name
   [ 25 in] [UNMARKED] [2293w]         history-council-of-orange
   [ 25 in] [UNMARKED] [2715w]         joy-god-big-enough
   [ 25 in] [UNMARKED] [2929w]         systematic-adoption
-  [ 25 in] [UNMARKED] [3178w]         philosophy-problem-of-merit
   [ 25 in] [UNMARKED] [4187w]         apologetic-ekloge-the-greek-of-election
   [ 24 in] [POLISH  ] [1213w]         demolition-philippians2-12-13
   [ 24 in] [POLISH  ] [1512w]         question-secure
@@ -106,6 +95,7 @@ Columns: [inbound] [tier] [words] [in-brief?] name
   [ 21 in] [POLISH  ] [1867w]         question-proverbs-sovereignty
   [ 21 in] [UNMARKED] [2046w]         romans-9-1-24
   [ 21 in] [UNMARKED] [2196w]         pastoral-when-truth-lands
+  [ 21 in] [UNMARKED] [2758w]         freedom
   [ 21 in] [UNMARKED] [3234w]         apologetic-the-fourth-day-corpse
   [ 21 in] [UNMARKED] [3646w]         response-roger-olson
   [ 21 in] [UNMARKED] [3982w]         apologetic-the-unbroken-chain
@@ -116,7 +106,6 @@ Columns: [inbound] [tier] [words] [in-brief?] name
   [ 20 in] [POLISH  ] [2310w]         question-revelation13
   [ 20 in] [UNMARKED] [2546w]         systematic-tulip
   [ 20 in] [UNMARKED] [2637w]         philosophy-mirror-you-refuse
-  [ 20 in] [UNMARKED] [2758w]         freedom
   [ 20 in] [UNMARKED] [3572w]         apologetic-the-eulogy-greek-of-ephesians-1
 
 ===== TIER 2 — apex pages to re-read against the new bar (locks not exempt) =====
@@ -134,17 +123,28 @@ Columns: [inbound] [tier] [words] [in-brief?] name
   [199 in] [APEX    ] [2269w]         question-perseverance
   [191 in] [APEX    ] [2129w]         question-irresistible
   [186 in] [APEX    ] [2235w]         systematic-salvation
+  [176 in] [APEX    ] [2391w]         history-timeline
   [174 in] [APEX    ] [2510w]         question-john6
+  [173 in] [APEX    ] [2605w]         question-freewill
   [151 in] [APEX    ] [2046w]         question-romans9
   [150 in] [APEX    ] [2041w]         devotional-the-hands-that-hold-you
+  [123 in] [APEX    ] [1266w]         question-foreknowledge
   [119 in] [APEX    ] [2913w]         question-goldchain
   [108 in] [APEX    ] [3565w]         theologian-augustine
   [107 in] [APEX    ] [1908w]         systematic-divine-decrees
+  [107 in] [APEX    ] [3564w]         question-newheart
   [102 in] [APEX    ] [2651w]         devotional-rescued-without-a-say
+  [ 94 in] [APEX    ] [2119w]         systematic-justification
+  [ 92 in] [APEX    ] [1811w]         psychology-cost-of-rejecting-grace
   [ 92 in] [APEX    ] [2340w]         question-john10
+  [ 90 in] [APEX    ] [2236w]         systematic-atonement
+  [ 87 in] [APEX    ] [2009w]         compare-monergism-synergism
+  [ 82 in] [APEX    ] [2213w]         pastoral-assurance
   [ 80 in] [APEX    ] [2027w]         systematic-soteriology
   [ 77 in] [APEX    ] [2602w]         theologian-spurgeon
   [ 75 in] [APEX    ] [2308w]         psychology-autonomy-illusion
+  [ 67 in] [APEX    ] [1825w]         secular-philosophy-free-will
+  [ 66 in] [APEX    ] [1907w]         theologian-calvin
   [ 60 in] [APEX    ] [3081w]         theologian-edwards
   [ 55 in] [APEX    ] [2451w]         systematic-pneumatology
   [ 51 in] [APEX    ] [5590w]         psychology-why-we-resist

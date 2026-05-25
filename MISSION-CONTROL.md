@@ -259,6 +259,20 @@ Revisit after Phases 2–4 land.
 
 ## Session Log
 
+### Session 60 — 2026-05-24 — THE SAPIENTIAL DEEPENING RUN (S59 triage executed): 11 high-traffic Tier-1 pages deepened to the wisdom bar and CONSECRATED. Not a Phase D/G build run — a *depth* run against the new Sapiential Standard (VOICE §XVI; `SAPIENTIAL-AUDIT.md`). Tier 1 dropped 107 → 96, Tier 2 rose 45 → 56 (the exact 11). All eight pipeline validators GREEN; `validate-site.js` 0 broken links / 0 orphans.
+
+**Two full write-over deepenings:**
+- **`history-timeline`** — the catalog became prose. Muggeridge long-view opening meditation before the timeline ("Empires Rise and Fall. One Thread Does Not."), a real escalating H2 crescendo replacing the flat thread-section, tender awe-landing ("The thread does not end. It arrives."), image carried through (empires = grass / the thread = the word, Isa 40:8). Banned "(NIV)" stripped from the Jude 1:3 hero.
+- **`question-newheart`** — **re-spined off the reused surgeon/operating-table image** (owned by `apologetic-the-cardiac-transplant`, 32× "transplant") onto Ezekiel's own native image, **stone** — cleaner differentiation *and* more faithful to the text. New question-beneath opener ("try, right now, to change your own heart… you will find a wall… Ezekiel says the wall is stone"); labelly H2s rewritten as an escalating sentence-crescendo; still place + sapiential beat added. **§XV fix:** corrected a real Hebrew error (last verb was mistransliterated *ve-hiknanoti* / "I will subdue"; Ezek 36:27 is *ve'asiti*, from *asah*) and fixed Argument 1's verb list. Two "(NIV)" suffixes stripped; a 1984-NIV "sinful nature" softened.
+
+**Three near-pass light touches → consecrated:** `compare-monergism-synergism` (two labelly H2s fixed, muddled "Surgeon and the Corpse"/toddler-couch analogy cleaned, death-horizon long-view beat added, Rom 9:16 "(NIV)" stripped); `question-freewill` (Augustinian still-beat on what freedom actually *is* — the compass that finds north is not imprisoned; God is freest and cannot sin); `systematic-justification` (already at the bar — consecrated as-is rather than inflated).
+
+**Three confirmed-pass, consecrated as-is:** `question-foreknowledge` ("You were chosen, not observed"), `psychology-cost-of-rejecting-grace` ("the verdict climbed down into the grave and brought you out"), `systematic-atonement` (brass names "carved before the keel was laid").
+
+**Three Tier-1 9–30 live-reads, all PASS → consecrated:** `pastoral-assurance` (the hand that "has held galaxies open on their axes for fourteen billion years"), `secular-philosophy-free-will` ("the autonomy you thought you were losing was the autonomy that was killing you"; one de-labelling H2 fix), `theologian-calvin` (the "Cough" — a textbook Muggeridge portrait).
+
+**Recurring craft gap swept:** labelly H2 crescendos rewritten as escalating sentences on every page touched. **Guardrail held:** deepened by *seeing more truly*, never by inflating diction; pages already at the bar were marked, not padded. Full per-page detail + S61 next-read rotation (Tier-1 12–30, starting `romans-9-deep-dive`) in `SAPIENTIAL-AUDIT.md §VI`. No git run (Aaron pushes).
+
 ### Session 59 — 2026-05-24 — THE CROWN-JEWEL RUN: the two missing ordo-salutis systematic pages filled (FAITH + REPENTANCE) + TD balanced + a crown-jewel/PoS capstone. Floor 4 / stretch 6-10 / **actual 5 net-new apex article-equivalents** (2 systematic anchors with full hub-wiring + 3 apex apologetics).
 
 Aaron delegated the axis ("whatever you think the site needs most"). I judged the single highest-yield item on the whole roadmap to be the **crown jewel** — there was NO `systematic-faith` page, yet "faith itself is a gift" is the central thesis of the entire site — so I built it first, early in the run, with its twin.

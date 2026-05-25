@@ -47,7 +47,9 @@ A page PASSES when several of these marks are present and earned (not as ornamen
 - **TIER 3** — the long tail → deepen opportunistically.
 - "High inbound" = ≥ the 75th-percentile inbound among prose pages (computed live; currently **≥ 20**).
 
-**Baseline snapshot (S59, 2026-05-24):** 582 prose pages in scope · **Tier 1 = 107 · Tier 2 = 45 · Tier 3 = 430** · depth-suspect short prose (<900w) = 3. Refresh anytime by re-running the script (counts shift as pages are deepened/locked).
+**Baseline snapshot (S59, 2026-05-24):** 582 prose pages in scope · **Tier 1 = 107 · Tier 2 = 45 · Tier 3 = 430** · depth-suspect short prose (<900w) = 3.
+
+**Refreshed snapshot (S60, 2026-05-24, post-deepening):** 582 prose pages · **Tier 1 = 96 · Tier 2 = 56 · Tier 3 = 430** · short = 3. The 11-page drop from Tier 1 → Tier 2 is exactly the 11 pages consecrated this session (see §VI). Refresh anytime by re-running the script (counts shift as pages are deepened/locked).
 
 ---
 
@@ -150,8 +152,44 @@ Structural live-read (hero + H2 crescendo + opener + landing) against §I, given
 
 **Tally:** 3 PASS (consecrate as-is) · 3 NEAR-PASS (one light touch, then consecrate) · **2 DEEPEN** (`history-timeline` #1, `question-newheart` #2). **Recurring craft gap to sweep across older Polish pages: labelly H2 crescendos** ("The Arguments / The Verdict / Analogies / A Final Objection") — rewrite as escalating sentences per §I.3. Encouraging finding: the Polish-passed `question-*`/`systematic-*`/`psychology-*` corpus is mostly already near the bar; the biggest gaps are index-style pages (`history-timeline`) and reused-analogy openers.
 
-*Next-read rotation for the following session: Tier-1 pages 9–30 in §III have NOT yet been live-read.*
+*Next-read rotation for the following session: Tier-1 pages 9–30 in §III have NOT yet been live-read.* — **SUPERSEDED by §VI below.**
 
 ---
 
-*Generated S59, 2026-05-24. Triage verdicts (8 pages) added S59. Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
+## VI. S60 EXECUTION LOG — the deepening run (2026-05-24)
+
+Executed the §V triage. All 11 pages below now carry `<!-- CONSECRATED -->`; `node sapiential-audit.js` confirms Tier 1 dropped 107 → 96 and Tier 2 rose 45 → 56 (exactly these 11). `node validate-site.js` GREEN (0 broken links, 0 orphans). Every `<a href>` on every rewritten page re-verified on disk. Zero `(NIV)` suffixes remain on any touched page.
+
+**DEEPENED (full write-over pass):**
+
+1. **`history-timeline`** (was UNMARKED) — **CONSECRATED.** The catalog became prose. Added a Muggeridge long-view opening meditation ("Empires Rise and Fall. One Thread Does Not.") set before the timeline visualization; rebuilt the flat closing into a real escalating H2 crescendo — *Empires Rise and Fall. One Thread Does Not → The Same Lie, Resurrected in Every Century → It Survived Because the One Who Held It Did → You Are the Living End of It* — ending on a tender awe-landing that ties the reader into the thread ("The thread does not end. It arrives."). Image carried through: empires = grass, the thread = the word (Isaiah 40:8). Stripped the banned "(NIV)" from the Jude 1:3 hero. Sapiential line: *"It is the oldest hunger in the human heart wearing a theological robe: the determination to be, in some small and final way, the author of myself."*
+
+2. **`question-newheart`** (was POLISH) — **CONSECRATED.** Re-spined off the *reused* surgeon/operating-table image (which `apologetic-the-cardiac-transplant` owns — 32× "transplant") and onto Ezekiel's *own* native image: **stone**. This differentiates cleanly AND is more faithful to the text. New question-beneath opener (the universal ache of trying to change your own heart and hitting the wall); rewrote the labelly H2s (The Text / Hebrew Deep Dive / The Arguments / Objections Answered / The Verdict / Back to the Table) into an escalating sentence-crescendo (*Read the Verbs. Every One of Them Is His. → The Grammar Leaves You Nothing to Do → Stone Cannot Quarry Itself → Every Way Out Is Another Way the Stone Argues → You Were Stone, and He Did Not Wait → Back to the Wall You Could Not Move*). Added a still place ("Sit with that a moment…") and the sapiential beat *"We have always imagined our hardness was something we were doing… Ezekiel says it was something we were. And what you are cannot be repented of; it can only be replaced."* **§XV fix:** corrected a genuine Hebrew error — the last greek-box verb was mistransliterated *ve-hiknanoti* (והכנעתי, "I will subdue"); Ezek 36:27 is *ve'asiti* (ועשיתי, from *asah*), and Argument 1's verb list was corrected (natati / etten / vahasiroti / ve'asiti). Stripped two "(NIV)" suffixes; softened a 1984-NIV "sinful nature" to "the flesh."
+
+**NEAR-PASS (one light wisdom touch, then consecrated):**
+
+3. **`compare-monergism-synergism`** — **CONSECRATED.** Fixed the two labelly H2s (*Analogies That Clarify* → "Look at Who Does the Lifting"; *A Final Objection* → "But Why Command Belief, If You Cannot Obey?"); cleaned a muddled analogy block (heading "The Surgeon and the Corpse" mismatched its toddler-and-couch content → "The Toddler and the Couch"); added a long-view / death-horizon beat (*"A salvation that leaned even one percent on your grip will have exactly the strength of your grip in the hour you have none left to give."*). Stripped the Rom 9:16 "(NIV)".
+
+4. **`question-freewill`** — **CONSECRATED.** Force-apex already (the morgue scene + circular return). Added the Augustinian still-beat on what freedom actually *is*: the compass that is not imprisoned for always finding north; *"The freest love in the universe is the love that has finally lost the ability to want anything else… God Himself is the freest being there is, and He cannot sin."*
+
+5. **`systematic-justification`** — **CONSECRATED as-is.** Already at the bar (the "small, hot arithmetic of the soul" landing; four H2s that escalate cleanly). Per §XVI.4, marked rather than inflated — forcing a 5th H2 would have been mechanical, not wisdom.
+
+**PASS (confirmed at the bar on slow-read, consecrated, no rewrite):**
+
+6. **`question-foreknowledge`** — granite-name landing answers the ache beneath ("am I wanted?"): *"You were chosen, not observed."*
+7. **`psychology-cost-of-rejecting-grace`** — courtroom + circular return: *"the verdict climbed down into the grave and brought you out."*
+8. **`systematic-atonement`** — brass-names-on-the-boat long-view: names *"carved before the keel was laid… older than the foundation of the world."*
+
+**TIER-1 9–30 LIVE-READ (this session, all PASS → consecrated):**
+
+9. **`pastoral-assurance`** (#9, was UNMARKED) — apex AND wise: the unseen hand that *"has held galaxies open on their axes for fourteen billion years… and the weight of one anxious saint awake in the dark does not register on the scale"* + embedded prayer + "Even now. Especially now." **CONSECRATED.**
+10. **`secular-philosophy-free-will`** (#10, was UNMARKED) — Muggeridge disillusionment with the idol of autonomy: *"the autonomy you thought you were losing was the autonomy that was killing you."* One de-labelling H2 touch (*2,500 Years in Brief* → "Twenty-Five Centuries, One Verdict" — also removes the confusing echo of the "In Brief" on-ramp convention). **CONSECRATED.**
+11. **`theologian-calvin`** (#11, was UNMARKED) — the "Cough" frame is a textbook Muggeridge portrait (the eternal seen through the dying man, the spare devastating line, the circular return, the five-century long view, the awe-landing: *"do not waste one more hour on anything smaller than the God who chose you."*). **CONSECRATED.**
+
+**Recurring craft gap confirmed & swept where touched:** labelly H2 crescendos on older Polish pages (The Text / The Arguments / The Verdict / Analogies / A Final Objection) — rewritten as escalating sentences on every page touched this session.
+
+**NEXT-READ ROTATION (S61):** Tier-1 pages **12–30** in §III not yet live-read — start with `romans-9-deep-dive` (#12, 6379w), `analogy-lazarus-grave` (#13), `systematic-ordo-salutis` (#14), `systematic-effectual-calling` (#15), `question-sealed` (#16), `question-acts` (#17), `systematic-compatibilism` (#18), `ot-jacob-esau` (#19), `question-boasting` (#20). Then descend 21–30. Note `ot-jacob-esau`, `history-luther`, `theologian-luther` are prime Muggeridge long-view candidates; the `question-*`/`systematic-*` cluster is the Zacharias question-beneath register. Re-run `node sapiential-audit.js` first to refresh the live Tier-1 ranking before pulling.
+
+---
+
+*Generated S59, 2026-05-24. Triage verdicts (8 pages) added S59. S60 execution log (§VI, 11 pages deepened/consecrated) added 2026-05-24. Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
