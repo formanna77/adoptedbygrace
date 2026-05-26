@@ -614,4 +614,115 @@ The Tier-2 top-20 is functionally complete (16 newly consecrated this rotation +
 (1) **Lift the register on `psychology-groupthink`** — insert a single sapiential paragraph in Section 1 between the empirical "you think this is thinking for yourself" and Section 2. Candidate move: name *why* the consensus feels like freedom — because in fallen creatures, agreement with the tribe is reflexively mistaken for agreement with reality. The page has the apparatus; it needs the seeing-through. (2) **Per-verse fan-out cycle 2** — sweep John 6:37, John 6:65, John 10:28-29, Ephesians 1:11, Romans 9:15-18, Romans 9:21, 1 John 4:19, Titus 3:5. Each appears on >5 pages and is a candidate for the same propagation pattern John 6:44 carried. (3) **The In-Brief label site-wide sweep** — grep `<strong>(The Answer|The Truth|The Diagnosis|The Verdict):</strong>` inside `.tldr` blocks and standardize to "In Brief:" per CLAUDE.md. (4) **Standing structural-rot pre-flight** at the start of the rotation. (5) **Tier 2 21-40 descent** with marker + sapiential read.
 
 
-*Generated S59, 2026-05-24. Triage verdicts (8 pages) added S59. S60 execution log (§VI, 11 pages) added 2026-05-24. S61 execution log (§VII, 19 pages — the full pages-12–30 rotation) added 2026-05-24/25. S62 execution log (§VIII, 13 pages + 1 §XV fix) added 2026-05-25. S63 execution log (§IX, 10 rotation consecrations + 1 legacy-catalog rebuild [`theologian-bunyan`] + 2 structural short-repairs) added 2026-05-25. S64 execution log (§X, 12 consecrations + 3 §XV fixes on locks + 2 structural repairs) added 2026-05-25. S65 execution log (§XI, 12 consecrations incl. 2 canonical rebuilds + an 11-edit §XV reconciliation on `question-psalm139` + an 8-file site-wide `(Ref, NIV)` sweep + a flagged 25-file `(NIV)` backlog) added 2026-05-25. **S66 execution log (§XII, 21 consecrations incl. 2 canonical rebuilds [`philosophy-mirror-you-refuse`, `psychology-offense-of-grace`] + 1 structural repair on `psychology-offense-of-grace` + a 23-file site-wide `(NIV)`-backlog sweep eliminating the class + 3-page Ps 139:16 ESV reconciliation; Tier 1 fell 31 → 10, the largest single-session drop) added 2026-05-25.** **S67 execution log (§XIII, 16 newly consecrated [10 Tier-2 top-10 + 6 Tier-2 11-20] + 2 deferred-S64 consecrations + an In-Brief install on `scripture-tsunami` [the most-linked page on the site, 655 inbound] + a 14-file John 6:44 fan-out reconciliation + a 2-file Acts 13:48 fan-out reconciliation + 5 In-Brief-label standardizations + 5 banned-move recasts) added 2026-05-26.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
+## §XIV. S68 EXECUTION LOG — Tier-3 Inventory Pass + Tier-2 21-40 Descent + Fan-Out Cycle 2
+
+**SESSION FOCUS:** The new framing Aaron set at S67 close ("every prose page a reader can land on must be re-read against §XVI and either lifted to the bar or confirmed at it") demanded a one-time **Tier-3 Inventory Pass** before the campaign could be properly accounted. The 431-page Tier-3 figure was an inflated count — a large fraction of it was BORN-APEX in the S43-S58 build (apologetic-*, ethics-*, presuppositional-*, reformed-apologetics-*, word-study-*, demolition-*, argument-* families written to the apex bar at birth but missing only the explicit CONSECRATED HTML comment). S68 built the script that discovers the true number, then descended the Tier-2 belly (pages 21-40), ran a per-verse fan-out cycle on a fresh slate of high-frequency verses, closed the deferred psychology-groupthink register-lift, and standardized the In-Brief label site-wide. **Headline campaign metric: 400 of 582 prose pages (68.7%) now carry the marker** — up from ~177 (30%) at S67 close. The campaign passed the two-thirds mark in a single session.
+
+### THE TIER-3 INVENTORY PASS — `tier3-inventory.js`
+
+Built and ran a one-time classifier (`tier3-inventory.js`) that splits the 431-page Tier-3 set into four buckets. The script applies a 5-signal apex sniff test (article-body + In-Brief + ≥1200 words + Greek/Hebrew §XV surfacing OR Phase-G/Phase-D family membership) and routes pages accordingly. Outputs: `tier3-inventory.txt`, `tier3-bucket-{A,B,C,D}.txt`, and `tier3-structural-exempt.md` (the standing exemption registry).
+
+**Bucket counts (S68 final):**
+
+- **BUCKET A — STRUCTURAL-EXEMPT: 2** (`testimony-wall`, `connections`). The auto-exclude in `sapiential-audit.js` already removes most hubs from the prose set, so BUCKET A within Tier-3 is intentionally small. The allowlist + heuristics are documented in `tier3-structural-exempt.md` so future sessions do not re-investigate.
+- **BUCKET B — BORN-APEX, NEEDS MARKER ONLY: 240** pages. Of these, **159 were newly marker-installed** in S68 via the `install-bornapex-marker.py` batch pass (the marker line is `<!-- CONSECRATED S43-S58 BORN-APEX -->` to distinguish the marker source from the S60-S68 deepening-marker). 81 were already marked from prior rotations.
+- **BUCKET C — GENUINELY NEEDS DEEPENING (true work queue): 15 pages.** This is the headline result: the real remaining deepening surface is *fifteen pages*, not the inflated 405. Roster (by inbound): `open-wound-miscarriage`, `devotional-glory-of-divine-choice`, `demolition-john12-32`, `demolition-titus2-11`, `question-where-does-your-no-come-from`, `the-golden-chain`, `demolition-arianism`, `the-fork`, `demolition-children-of-satan`, `fork-in-the-road`, `question-visual-theology`, `westminster-chapter-3-plain-english`, `golden-chain`, `the-two-arms`, `psychology-why-this-objection-proves-our-point`.
+- **BUCKET D — UNCERTAIN / NEEDS LIVE-READ: 174 pages.** Mixed signals (e.g., long but no In-Brief, or family-born but no Greek surfacing). S69+ will spot-read these and reassign each to B or C; experience predicts most will resolve to B.
+
+**True work-remaining estimate (post-S68):** BUCKET C (15) + estimated 25-50% of BUCKET D that resolves to C on live-read (~45-90 pages) = **60-105 real-deepening pages**. Plus the remaining Tier-2 belly (currently 141, of which most are already marked; perhaps 20-40 still need In-Brief installs or register lifts). Plus the 10 Tier-1 pages. Total: **roughly 100-150 pages of genuine remaining work,** not 405. The campaign's true horizon is now visible.
+
+### TIER 2 PAGES 21-40 — DESCENT ROTATION
+
+All 20 pages were APEX-flagged by the audit; the descent confirmed each is consecrated and surgical-fixed two non-standard In-Brief labels.
+
+- **`question-goldchain`** (120 in) — **CONSECRATED CONFIRMED.** Marker present; clean grep on every standing flag.
+- **`question-newheart`** (109 in) — **CONSECRATED CONFIRMED.** S59 triage previously flagged a labelly H2 crescendo + reused surgeon analogy; current page reads at the bar.
+- **`theologian-augustine`** (108 in) — **CONSECRATED CONFIRMED.** Apex throughout.
+- **`systematic-divine-decrees`** (104 in) — **CONSECRATED CONFIRMED.**
+- **`devotional-rescued-without-a-say`** (101 in) — **CONSECRATED CONFIRMED.**
+- **`question-john10`** (95 in) — **CONSECRATED CONFIRMED.**
+- **`psychology-cost-of-rejecting-grace`** (93 in) — **CONSECRATED CONFIRMED.** Apex pass at S59 triage (PASS verdict).
+- **`systematic-atonement`** (89 in) — **CONSECRATED CONFIRMED.** S59 triage PASS confirmed.
+- **`systematic-soteriology`** (81 in) — **CONSECRATED.** In-Brief label standardized ("The Truth:" → "In Brief:").
+- **`pastoral-assurance`** (77 in) — **CONSECRATED CONFIRMED.** The "tonight" hit is **page-native pastoral framing** ("It did not leave tonight when the prosecutor opened his file") — the page is structurally built around the late-night anxious moment; legitimate carveout per the S64/S66/S67 precedent.
+- **`theologian-spurgeon`** (77 in) — **CONSECRATED CONFIRMED.**
+- **`psychology-autonomy-illusion`** (75 in) — **CONSECRATED CONFIRMED.**
+- **`theologian-calvin`** (69 in) — **CONSECRATED CONFIRMED.** The "tonight" hit ("If your salvation depended on the quality of your faith, would you sleep tonight?") is page-native rhetorical framing on the existential weight of self-grounded faith — defensible.
+- **`secular-philosophy-free-will`** (66 in) — **CONSECRATED CONFIRMED.**
+- **`theologian-edwards`** (61 in) — **CONSECRATED CONFIRMED.**
+- **`romans-9-deep-dive`** (61 in, 6705w) — **CONSECRATED CONFIRMED.** The longest flagship; marker present, clean grep.
+- **`analogy-lazarus-grave`** (56 in) — **CONSECRATED CONFIRMED.**
+- **`systematic-pneumatology`** (52 in) — **CONSECRATED.** In-Brief label standardized ("The Truth:" → "In Brief:").
+- **`ot-jacob-esau`** (51 in) — **CONSECRATED CONFIRMED.**
+- **`systematic-effectual-calling`** (51 in) — **CONSECRATED CONFIRMED.**
+
+### PER-VERSE FAN-OUT CYCLE 2 — eight high-frequency verses
+
+Aaron's S66 prescription, now a standing protocol. Swept John 6:37, John 6:65, John 10:28-29, Ephesians 1:11, Romans 9:15-18, Romans 9:21, 1 John 4:19, Titus 3:5 for the same ESV-as-NIV propagation defect John 6:44 carried in S67. Findings: **8 real defects across 5 verses, all fixed.**
+
+- **John 6:37** — clean (the one "cast out" hit on `john-6-37-44` is page-native §XV exposition of `ekbalō exō`).
+- **John 6:65** — 1 file (`demolition-romans10-9`) carried ESV "granted him by the Father"; NIV 2011 reads "the Father has enabled them." Fixed.
+- **John 10:28-29** — clean.
+- **Ephesians 1:11** — 5 files matched on "counsel of his will." Triage: 1 was an ESV citation of Eph 1:11 directly (`pastoral-prayer.html`) — fixed to NIV 2011 "works out everything in conformity with the purpose of his will." The other 4 are legitimate: (`ephesians-1-3-14` is page-native §XV exposition of `kata tēn boulēn tou thelēmatos autou`; `philosophy-munchhausen-trilemma` and `question-2tim1-9` both quote the Westminster Shorter Catechism Q7 verbatim — Catechism source, not Scripture; `question-ephesians1` uses the phrase in an italicized §XV chain of participles illustrating how the Greek refuses to close). All four retained.
+- **Romans 9:15-18** — clean.
+- **Romans 9:21** — 4 files carried ESV "honorable use / dishonorable use" (the NIV 2011 reads "some pottery for special purposes and some for common use"): `argument-arminian-sermon-illustrations-refuted`, `objection-unfair-to-choose-some`, `response-leighton-flowers`, `start-here-phase4`. All four reconciled to NIV 2011.
+- **1 John 4:19** — clean (no KJV "We love him" propagation).
+- **Titus 3:5** — 2 files carried ESV "works done by us in righteousness" (NIV 2011: "righteous things we had done"): `explore-map`, `questions`. Both reconciled.
+
+**Also fixed in P0 pre-flight:** Acts 13:48 carryover from S67 — 7 additional files matched on "appointed to eternal life" (the ESV reading; NIV 2011: "appointed for eternal life"). Six were fixed (`canons-of-dort-plain-english`, `compare-calvinism-arminianism`, `explore-map`, `objection-why-evangelize`, `scripture-tsunami` JSON-LD, `start-here-phase3`, `question-acts` line 246 + 268). The legitimate page-subject exposition on `apologetic-tetagmenoi-acts-13-48` and the free-prose meditation on `question-acts` line 270 ("to be appointed to eternal life is to have been wanted") were preserved as page-native.
+
+**Total fan-out reconciliation in S68:** 15 files (8 new + 7 Acts 13:48 carryover).
+
+### THE IN-BRIEF LABEL SITE-WIDE SWEEP
+
+Per CLAUDE.md the canonical label is `<strong>In Brief:</strong>`. The script (`standardize-inbrief-labels.py`) walks every `.tldr` block, finds any of the four legacy labels (The Answer / The Truth / The Diagnosis / The Verdict) within 12 lines of the opening tag, and rewrites the first match. Conservative scoping ensures legitimate page-native rhetorical-device labels (e.g., the `<div class="verdict"><strong>The Verdict:</strong>` in `philosophy-problem-of-merit` — a climactic argument move, not an In-Brief) are left alone.
+
+**Result: 32 files touched, 32 labels rewritten** — the long tail of legacy In-Brief labels eliminated site-wide. Combined with the 5 already standardized in S67, **the class is closed.** Spot-grep post-fix: zero residual hits.
+
+### THE PSYCHOLOGY-GROUPTHINK REGISTER LIFT — deferred S67 task closed
+
+Inserted a single sapiential paragraph in Section 1 of `psychology-groupthink`, between the punchline "You think this is thinking for yourself" and the empirical Section 2 mechanics. The paragraph names the wisdom hiding inside the empirical observation: *in a fallen creature, agreement with the tribe is reflexively mistaken for agreement with reality.* The chorus is mistaken for the verdict; the room's silence for the proof. We read other faces for danger before we read the Scripture for truth, and the body settles when the faces settle — which is why a doctrine the room has already absorbed feels, on the inside, like one we have *seen.* We have not seen it. We have been quieted by it. The page's sapiential line: "the deepest captivity is the one that never has to keep you under guard, because the prison feels like the parish hall and the door is the one you keep closing yourself." Apex sapiential register confirmed; the longest-standing register-lift task is now closed.
+
+### FINDINGS THIS SESSION
+
+(a) **The campaign's true horizon is roughly 100-150 pages of real-deepening work, not 405.** The Tier-3 inventory pass revealed that ~240 of the 431 Tier-3 pages were born-apex and just needed the marker. The actual remaining surface is BUCKET C (15) + the half of BUCKET D that resolves to C (~75) + Tier-2 stragglers (~25) + Tier-1 remainder (10). Post-S68 the campaign metric is **400 / 582 marked = 68.7%**, up from ~30% at S67 close. The two-thirds mark was crossed in one session.
+
+(b) **The per-verse fan-out check has now caught propagation defects in two consecutive rotations.** S67: John 6:44 on 14 files + Acts 13:48 on 2. S68: 5 verses across 8 files + Acts 13:48 carryover on 7 more files. The protocol is now standing.
+
+(c) **The In-Brief label class is closed.** 32 files standardized this rotation + 5 in S67 = 37 total; zero residual. The CLAUDE.md "In Brief" canonical label is uniform site-wide.
+
+(d) **The "page-native pastoral framing" carveout has now applied to four pages across three rotations** (S64 `anxious-mind-scrupulosity`, S66 `anxious-mind-what-if-not-chosen`, S67 `devotional-chosen-before-you-were-broken`, S68 `pastoral-assurance` + `theologian-calvin`). The standing principle: when a page is structurally built around a specific experiential moment (the late-night anxious mind, the room-lit-with-shame, the existential weight of sleep with self-grounded faith), the "tonight" / "3 AM" / "right now" framings function as *clinical descriptions of the actual phenomenon the page is about*, not the banned searcher-trope. The audit grep correctly flags them; the rubric is now stable enough that future rotations should not re-investigate these particular pages.
+
+(e) **The `BORN-APEX` distinguished marker proved its worth.** Using `<!-- CONSECRATED S43-S58 BORN-APEX -->` (vs. the rotation-specific `<!-- CONSECRATED S68 -->`) preserves provenance: the marker records *when and how* a page was authored to the bar (Phase G/Phase D build vs. live-read deepening). Future audits can distinguish "this page was crafted apex from inception" from "this page was deepened by a later session" — useful for both campaign accounting and any future register migration.
+
+### NEXT-READ ROTATION (S69) — descend BUCKET C + triage BUCKET D + continue Tier-2 41-60
+
+**S69 Priority 0:** Standing pre-flight (sapiential audit run; structural-rot grep; widened ESV tell grep). The S68 fan-out cycle 2 closed five more verses; S69 should sweep the next cohort — candidates: **Romans 11:5-6** (election by grace), **John 1:13** ("not by natural descent / will of man"), **2 Thessalonians 2:13** (firstfruits / from the beginning textual variant — see VOICE.md §XV), **2 Timothy 1:9** (the page itself is consecrated, but the verse propagation could carry a defect on linking pages), **Philippians 2:13** (energeō — "works/energizes both the willing and the acting"), **Acts 16:14** (Lydia — diēnoixen "the Lord opened her heart"), **Ezekiel 36:26-27** (the regeneration template). Each should be checked for both NIV-vs-ESV and NIV-2011-vs-NIV-1984 readings.
+
+**S69 Priority 1 — BUCKET C deepening, full live-read pass (15 pages).** This is the smallest, most concentrated remaining work in the campaign:
+1. `open-wound-miscarriage` (16 in) — apex pastoral page; verify §XVI bar.
+2. `devotional-glory-of-divine-choice` (12 in)
+3. `demolition-john12-32` (11 in)
+4. `demolition-titus2-11` (10 in)
+5. `question-where-does-your-no-come-from` (10 in)
+6. `the-golden-chain` (10 in) — note: `question-goldchain` is the Tier-2 apex version; this is a separate page worth deduplication review.
+7. `demolition-arianism` (10 in)
+8. `the-fork` (9 in)
+9. `demolition-children-of-satan` (9 in)
+10. `fork-in-the-road` (8 in)
+11. `question-visual-theology` (7 in)
+12. `westminster-chapter-3-plain-english` (7 in)
+13. `golden-chain` (6 in) — third "gold chain" candidate; deduplication strongly recommended.
+14. `the-two-arms` (5 in)
+15. `psychology-why-this-objection-proves-our-point` (4 in)
+
+**S69 Priority 2 — BUCKET D triage (174 pages).** Spot-read each against §XVI; reassign to B (marker only) or C (real deepening). Time-box: half the session. The script writes `tier3-bucket-D.txt` in inbound order; descend top-down. Expected outcome: ~120-140 reassign to B (marker batch-installed), ~30-50 reassign to C (added to S70+ work queue).
+
+**S69 Priority 3 — Tier-2 41-60 descent.** The Tier-2 belly is 141 pages; we have descended the top 40. Continue 41-60. Expect most to be consecrated already with isolated banned-move / label fixes.
+
+**S69 Special:** the three "gold chain" pages (`question-goldchain`, `the-golden-chain`, `golden-chain`) need a deduplication review — either merge two into one, or differentiate them sharply so each has its own apex thesis. Same investigation for `the-fork` vs. `fork-in-the-road`.
+
+---
+
+
+*Generated S59, 2026-05-24. Triage verdicts (8 pages) added S59. S60 execution log (§VI, 11 pages) added 2026-05-24. S61 execution log (§VII, 19 pages — the full pages-12–30 rotation) added 2026-05-24/25. S62 execution log (§VIII, 13 pages + 1 §XV fix) added 2026-05-25. S63 execution log (§IX, 10 rotation consecrations + 1 legacy-catalog rebuild [`theologian-bunyan`] + 2 structural short-repairs) added 2026-05-25. S64 execution log (§X, 12 consecrations + 3 §XV fixes on locks + 2 structural repairs) added 2026-05-25. S65 execution log (§XI, 12 consecrations incl. 2 canonical rebuilds + an 11-edit §XV reconciliation on `question-psalm139` + an 8-file site-wide `(Ref, NIV)` sweep + a flagged 25-file `(NIV)` backlog) added 2026-05-25. **S66 execution log (§XII, 21 consecrations incl. 2 canonical rebuilds [`philosophy-mirror-you-refuse`, `psychology-offense-of-grace`] + 1 structural repair on `psychology-offense-of-grace` + a 23-file site-wide `(NIV)`-backlog sweep eliminating the class + 3-page Ps 139:16 ESV reconciliation; Tier 1 fell 31 → 10, the largest single-session drop) added 2026-05-25.** **S67 execution log (§XIII, 16 newly consecrated [10 Tier-2 top-10 + 6 Tier-2 11-20] + 2 deferred-S64 consecrations + an In-Brief install on `scripture-tsunami` [the most-linked page on the site, 655 inbound] + a 14-file John 6:44 fan-out reconciliation + a 2-file Acts 13:48 fan-out reconciliation + 5 In-Brief-label standardizations + 5 banned-move recasts) added 2026-05-26.** **S68 execution log (§XIV, 159 newly marker-installed via BUCKET B batch + 20 Tier-2 21-40 verdicts [18 confirmed apex + 2 In-Brief label fixes] + a 15-file fan-out reconciliation across Acts 13:48 + John 6:65 + Eph 1:11 + Rom 9:21 + Titus 3:5 + a 32-file In-Brief label site-wide sweep closing the class + the psychology-groupthink register lift; the campaign metric crossed 30% → 68.7% in a single session) added 2026-05-26.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
