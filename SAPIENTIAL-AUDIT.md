@@ -924,4 +924,119 @@ S70 closes the proliferation/marker phase of the campaign. From S71 forward, the
 
 ---
 
- S61 execution log (§VII, 19 pages — the full pages-12–30 rotation) added 2026-05-24/25. S62 execution log (§VIII, 13 pages + 1 §XV fix) added 2026-05-25. S63 execution log (§IX, 10 rotation consecrations + 1 legacy-catalog rebuild [`theologian-bunyan`] + 2 structural short-repairs) added 2026-05-25. S64 execution log (§X, 12 consecrations + 3 §XV fixes on locks + 2 structural repairs) added 2026-05-25. S65 execution log (§XI, 12 consecrations incl. 2 canonical rebuilds + an 11-edit §XV reconciliation on `question-psalm139` + an 8-file site-wide `(Ref, NIV)` sweep + a flagged 25-file `(NIV)` backlog) added 2026-05-25. **S66 execution log (§XII, 21 consecrations incl. 2 canonical rebuilds [`philosophy-mirror-you-refuse`, `psychology-offense-of-grace`] + 1 structural repair on `psychology-offense-of-grace` + a 23-file site-wide `(NIV)`-backlog sweep eliminating the class + 3-page Ps 139:16 ESV reconciliation; Tier 1 fell 31 → 10, the largest single-session drop) added 2026-05-25.** **S67 execution log (§XIII, 16 newly consecrated [10 Tier-2 top-10 + 6 Tier-2 11-20] + 2 deferred-S64 consecrations + an In-Brief install on `scripture-tsunami` [the most-linked page on the site, 655 inbound] + a 14-file John 6:44 fan-out reconciliation + a 2-file Acts 13:48 fan-out reconciliation + 5 In-Brief-label standardizations + 5 banned-move recasts) added 2026-05-26.** **S68 execution log (§XIV, 159 newly marker-installed via BUCKET B batch + 20 Tier-2 21-40 verdicts [18 confirmed apex + 2 In-Brief label fixes] + a 15-file fan-out reconciliation across Acts 13:48 + John 6:65 + Eph 1:11 + Rom 9:21 + Titus 3:5 + a 32-file In-Brief label site-wide sweep closing the class + the psychology-groupthink register lift; the campaign metric crossed 30% → 68.7% in a single session) added 2026-05-26.** **S69 execution log (§XV, 15 of 15 BUCKET C live-read consecrations [6 surgical prose deepens + 9 confirmed-at-bar markers + 5 In-Brief installs] + 172 BUCKET D promotions to B via batch marker pass [2 demoted to S70 C-queue] + 4 Tier-1 born-apex marker installs [apologetic-the-fourth-day-corpse, apologetic-nothing-can-separate, apologetic-priest-shoulders, pastoral-when-truth-lands] + 20 Tier-2 41-60 confirmed-at-bar verdicts + a 7-file fan-out cycle 3 reconciliation across Rom 11:5-6, Rom 9:11, John 1:13, 2 Pet 1:21, Phil 2:13, Ezek 36:26-27 + the KEEP-ALL-DIFFERENTIATE verdict on the gold-chain and fork families; the campaign metric crossed 68.7% → 98.3% in a single session — the campaign is at its finish-line) added 2026-05-26.** **S70 execution log (§XVI, residual-10 closed [2 deepens + 4 PASS-as-consecrate + 2 C-queue rewrites with the *touto* §XV add and a found-and-fixed structural rot in psychology-emotional-vs-rational] + 21 of 21 Tier-2 61-80 verdicts logged with 1 banned-move surgical fix + fan-out cycle 4 with 2 ESV propagation fixes [2 Cor 4:6 + Isa 53:5-6 in scripture-tsunami, yield trajectory S67=16 → S68=15 → S69=7 → S70=2] + the deepening-quality audit phase opened with 6 of 6 PASS [including the cross-session decay test on analogy-adoption holding at 6+ weeks]; the campaign metric crossed 98.3% → 99.66% — functional 100%, the unmarked-page list is empty, the proliferation phase closes and the maintenance phase opens) added 2026-05-26.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
+## §XVII. S71 EXECUTION LOG — Maintenance Phase Opens: Structural-Rot Sweep + Deepening-Quality Audit Leg 2 + Fan-Out Cycle 5
+
+**Date:** 2026-05-26. **Leg:** 12. **Headline:** the new audit-v5 detector caught 18 silent structural rots that v1-v4 missed; the deepening-quality audit holds at 12 of 12 PASS (cumulative with S70's 6/6), with one MARGINAL surgically lifted to PASS via §XVI sapiential injection.
+
+### The Audit-Detector Upgrade (the Hidden Story of S71)
+
+S70's P-flag specified: the article-tag balance check needs to verify *position*, not just *count*. S71 implemented this in four iterations:
+
+- **v1** — count opens vs closes per file. Result: all balanced. Past audits stopped here.
+- **v2** — first `</article>` must come after last `<h2>` and before related-articles. Result: 50+ false positives because canonical pages place related-articles *inside* the article wrapper.
+- **v3** — exclude related-articles from the H2 search. Result: 11 hits, but many were really nested-article false positives (philosophy-section blocks).
+- **v4** — walk the article-tag stack, find the *outer* close. Result: 60+ "orphaned related-articles" matches — but most are the canonical wired-in pattern where related-articles is a 50-byte gap sibling injected by `wire-orphans.js`.
+- **v5** — only flag when the gap between outer `</article>` and related-articles is >800 bytes AND there are orphaned `<h2>` or `<p>` tags in between. **Result: 18 real structural rots discovered, ranging from 94-paragraph leaks (psychology-cognitive-biases — `</article>` autoclosed inside a `<div class="theology-humor">` block, same S70 signature) to 2-paragraph footer leaks. All 18 fixed in pre-flight.**
+
+The v5 scanner (`/tmp/article_position_v5.js`, candidate for canonization in `audit-prose.js` v3) is now the recommended structural-rot detector. The key insight: the canonical wired-in pattern places related-articles within ~50 bytes after `</article>` (a comment block then the section); anything past 800 bytes with orphaned content is silent rot.
+
+### Pre-Flight Yield
+
+**ESV tell-tale grep:** 0 new hits (the documented `apologetic-tetagmenoi-acts-13-48` + `question-acts` page-native carveouts only).
+**Banned-move grep on touched pages:** 2 pages flagged for fix (`open-wound-sovereignty-in-grief`, `devotional-chosen-before-you-were-broken`); 9 total recasts done.
+**Article-tag balance:** all balanced.
+**Article-tag position (v5):** 18 silent rots discovered and fixed (see below).
+**Prose page count diff vs S70:** 0 new prose between sessions (582 → 582). P3 trivially closes.
+
+### Structural-Rot Surgical Queue — 18 Pages Repaired
+
+| Page | Severity | Rot Signature | Fix |
+|---|---|---|---|
+| `psychology-cognitive-biases` | SEVERE (7 H2s, 94 paras orphaned) | `</article>` autoclosed inside `<div class="theology-humor">` (S70 signature) | Fixed div close + moved `</article>` to before related-articles |
+| `theologian-owen` | SEVERE (5 H2s, 27 paras) | `<article id="biography">` closed early, leaving Theological Contributions + Quotes + Works + Legacy outside wrapper | Moved close to end of body |
+| `open-wound-betrayed-by-church` | SEVERE (8 H2s, 39 paras) | First `</article>` after intro section, leaving 8 section-blocks orphaned | Removed early close, added late close |
+| `open-wound-sovereignty-in-grief` | SEVERE (6 H2s, 43 paras) | Same family pattern | Same fix |
+| `story-surgeon-stone-heart` | MODERATE (2 H2s, 19 paras) | Early close after story-section, "Truth Behind the Story" + journey blocks orphaned | Removed early close, added late close |
+| `story-children-the-king-who-chose` | MODERATE (1 H2, 8 paras) | Early close + spurious mid-page `<article>` open | Removed both, single wrapper |
+| `psychology-addiction-proof` | MODERATE (0 H2s, 5 paras) | Continue-journey block orphaned | Moved close past block |
+| `anxious-mind-brain-decides` | MINOR (3 paras) | Footer-adjacent block orphaned | Batched fix |
+| `secular-history-sovereignty` | MINOR (3 paras) | Same | Batched fix |
+| `open-wound-hospital-room` | MINOR (3 paras) | Same | Batched fix |
+| `devotional-chosen-before-you-were-broken` | MINOR (2 paras) | Same | Batched fix |
+| `demolition-john12-32` | MINOR (2 paras) | Same | Batched fix |
+| `invisible-wall-lonely-theological` | MINOR (2 paras) | Same | Batched fix |
+| `demolition-1tim4-10` | MINOR (2 paras) | Same | Batched fix |
+| `story-the-self-made-man` | MINOR (2 paras) | Same | Batched fix |
+| `story-the-room-where-you-chose` | MINOR (2 paras) | Same | Batched fix |
+| `demolition-2peter2-1` | MINOR (2 paras) | Same | Batched fix |
+| `story-the-garden-that-grew-itself` | MINOR (2 paras) | Same | Batched fix |
+
+**18 of 18 cleared.** Site-wide v5 scan: ZERO body-content-orphaned-outside-article rot remaining. This is the highest single-session structural-integrity yield since the campaign began.
+
+### Banned-Move Surgical Fixes (9 recasts)
+
+- `open-wound-sovereignty-in-grief.html` line 212: "think your way to peace tonight" → "think your way to peace in this hour"
+- `open-wound-sovereignty-in-grief.html` line 365 (Ps 30:5 paraphrase): "Weeping may come tonight. But in the morning..." → "'Weeping may stay for the night, but rejoicing comes in the morning' (Psalm 30:5). Maybe not tomorrow's morning, but in God's morning..." (banned-move + NIV-quotation-correction in one move; honest exegesis per §XV)
+- `devotional-chosen-before-you-were-broken.html` — 7 "tonight" instances recast across the page: "came into this room tonight" / "trying to forget tonight" / "aches tonight" / "ashamed tonight" / "in the room with you tonight" / "disqualified tonight" / "every feeling tonight" / "you lie here tonight, restless" / "if the shame tonight" → naturalized to "now" / "in you now" / "in this room" / "rising in you" / "settling on you" formulations
+
+Tracker context: site-wide "tonight" usage was scanned. Many `apologetic-*` pages carry the structural heading "What X Means for the Believer Tonight" — pattern-level page-native carveout (apologetic-series convention). Multiple devotional-* pages use "tonight" as pastoral framing (`devotional-i-cant-feel-god`, `devotional-forever-loved`, `devotional-held-without-asking`). These were NOT touched this session; surfaced as S72 open question (does the page-native carveout extend pattern-wise to the devotional-* category and the apologetic-* "Means for the Believer Tonight" structural heading?).
+
+### Deepening-Quality Audit — Leg 2 (cold cross-session re-read of 6 deepens, S63-S68)
+
+Subagent dispatched for cold reads (no context contamination from authoring sessions). Verdicts:
+
+1. **`psychology-groupthink`** (S68) — **PASS §XVI** (thin). Section 1 carries the apex paragraph: *"In a fallen creature, agreement with the tribe is reflexively mistaken for agreement with reality... We are built to read other faces for danger before we read the Scripture for truth, and the body settles when the faces settle — which is why a doctrine the room has already absorbed feels, on the inside, like a doctrine you have seen. You have not seen it. You have been quieted by it."* The research scaffolding is register-flat but the §1 wisdom carries the page.
+
+2. **`philosophy-mirror-you-refuse`** (S66 canonical) — **PASS §XVI** emphatically. *"The labor of being your own attorney every waking hour — that exhaustion you have been calling 'personality' — was the price of the fortress."* Source-page status earned, not nominal. Held paradox (the mirror that ends self-trust IS the mirror of the Rescuer). Disillusionment with the self-image idol. Ending in tender awe.
+
+3. **`apologetic-tetagmenoi-acts-13-48`** (S65/S67) — **MARGINAL → lifted to PASS via S71 sapiential injection.** Exegetically the most rigorous of the six, but the grammar/lexicon density meant the wisdom register was *intermittent* across long stretches. Surgical injection of two paragraphs into "The Lexicons That Will Not Yield" section: (i) *"The verb has held its meaning for two and a half thousand years... languages drift, civilizations fall, the dictionary of the dead is half-illegible by the time the next empire writes its own. But one short verb, in one common Greek family, has done the same work in the same way through the rise and fall of the Hellenistic world, the rise and fall of Rome, the rise and fall of Byzantium, and into the lexicons that sit on the shelf above you now... if His verbs do not drift, neither does His verdict over you"*; (ii) the nervous-system-trusts-noise seeing-through *"Notice what your own nervous system has been doing while you read. It has been straining for the argumentative noise — the counter-citation, the alternate grammar, the smaller word that might let you out. It has not been listening to the steady tense... the fallen heart trusts volume over voice, controversy over consonance, the loud 'perhaps' over the quiet 'is.'"* CONSECRATED marker updated.
+
+4. **`question-psalm139`** (S65 §XV reconciliation) — **PASS §XVI**. The mind-flinch paragraph (*"Notice what your mind just did. It slid predetermined toward foreseen while you were reading — a quiet, automatic substitution... your nervous system did it for you, because the unsoftened word threatens a fortress the unsoftened word would collapse. The flinch you just performed is not evidence against the psalm. It is evidence for it"*) is seeing-through at the apex. Minor §XV gap: the page surfaced *qanah*, *yatsar*, *katav* but not *galmi* at v. 16. **Surgical galmi gloss added S71:** *"And the word the NIV translates 'unformed body' is the Hebrew galmi — a noun used only this one time in all the Tanakh, the term for an embryo, an unformed mass, a substance not yet shaped into a self... the first thing God ever saw of you was the galmi. And He had already finished the book."* §XV loop closed.
+
+5. **`theologian-bunyan`** (S63 canonical rebuild) — **PASS §XVI**. *"The burden you can feel is a terrible thing to carry — but the deadliest burden is the one you cannot feel at all, because the dead feel nothing."* The refusal to sand the edges off Mary's blindness is the wisdom move — *"any account of this man that hurries past that to reach the happy ending has not understood him, or the God he served, who does not deal in cheap comfort."* Cross-session decay test (8+ weeks): holds at full strength.
+
+6. **`devotional-drawn-not-dragged`** (S66 *helkyō*/*chesed*) — **PASS §XVI**. The seeing-through of unrecognized wooing: *"Every small hunger for meaning you wrote off as indigestion. All of it was His chesed, moving toward you with the patience of an infinite Lover who has forever to finish His work."* The "place deeper than choice" formulation is durable wisdom about freedom.
+
+**P1 verdict tally: 6 of 6 PASS post-fix (5 PASS-as-read + 1 MARGINAL-lifted-to-PASS via surgical deepen). Cumulative with S70: 12 of 12 PASS. 0 FAIL. 0 unresolved MARGINAL.**
+
+### The Apologetic-Genre Sapiential-Risk Pattern (the highest-value find)
+
+The subagent surfaced a cross-page pattern worth documenting: **apologetic-genre pages run the highest sapiential risk.** The grammar/lexicon work fills the page volume, and the wisdom register has to be *deliberately injected* or the page becomes a brilliant-but-cool legal brief. *Tetagmenoi* was the canary; the same pattern is likely present in: `apologetic-ekloge-the-greek-of-election`, `apologetic-the-eulogy-greek-of-ephesians-1`, `apologetic-hilasterion-the-mercy-seat`, `apologetic-the-once-for-all-ephapax`, `apologetic-arrabon-the-down-payment`, `apologetic-owen-trilemma`, `apologetic-lydias-heart`, `apologetic-the-cardiac-transplant`, `apologetic-the-fourth-day-corpse`, `apologetic-the-cardiology-of-the-fall`. **S72 priority: deepening-quality audit of the apologetic-* Greek/Hebrew cohort, applying the §XVI test to each.** The expected finding: most will MARGINAL on the same dimension and need targeted sapiential injections (1-2 paragraphs each).
+
+### Fan-Out Cycle 5 — Six-Verse Cohort
+
+- **Ephesians 1:13-14** (*arrabōn*) — 1 hit, fixed: `question-sealed.html` line 273 — ESV "guarantee of our inheritance" → NIV 2011 "a deposit guaranteeing our inheritance"
+- **Romans 5:8** — no defects across the prose set
+- **2 Timothy 1:9** — 1 hit, fixed: `explore-map.html` line 436 (verse-description) — ESV "called us to a holy calling, not because of our works" → NIV 2011 "He has saved us and called us to a holy life — not because of anything we have done"
+- **John 17:6** — 1 hit, fixed: `scripture-tsunami.html` line 1703 — ESV "I have manifested your name to the people whom you gave me... Yours they were, and you gave them to me" → NIV 2011 "I have revealed you to those whom you gave me out of the world. They were yours; you gave them to me and they have obeyed your word"
+- **Acts 16:14** (Lydia) — no defects across the prose set
+- **Psalm 65:4** — 1 hit, fixed: `scripture-tsunami.html` line 1551 — ESV "Blessed is the one you choose and bring near, to dwell in your courts" → NIV 2011 "Blessed are those you choose and bring near to live in your courts!"
+
+**Yield S71 = 4.** Yield trajectory across rotations: S67 = 16, S68 = 15, S69 = 7, S70 = 2, **S71 = 4** (small uptick driven by `scripture-tsunami`, which carries 100+ verse-quote blocks and remains the propagation magnet; the rest of the prose set holds clean).
+
+### S71 Headline Metric
+
+**Pages newly consecrated/deepened S71:** 2 (apologetic-tetagmenoi §XVI sapiential deepen + question-psalm139 §XV galmi gloss).
+**Structural rots discovered and fixed:** 18 (by the new v5 detector — the largest single-session structural-integrity yield).
+**Banned-move surgical fixes:** 9 recasts across 2 pages.
+**ESV fan-out fixes:** 4 across 3 pages.
+**Pages PASS-confirmed in deepening-quality audit:** 6 (cumulative with S70: 12 of 12).
+**Campaign metric:** unchanged at 99.66% (no new consecrations needed — the deepens were polish on already-CONSECRATED pages). The 2 documented BUCKET A structural-exempt (`testimony-wall`, `connections`) still exempt.
+
+### The Phase Has Settled
+
+S70 declared the proliferation phase closed. S71 confirms the maintenance phase is doing what maintenance does: **catching the rot the proliferation phase missed.** The 18 structural rots had been silently bleeding body content outside the article-body wrapper for an unknown number of sessions — invisible to all prior audit-tag balance checks. The new v5 detector closes a real surveillance gap. The deepening-quality audit, now at 12 of 12 PASS across three sessions, is validating the §XVI register as durable: pages deepened months ago (`analogy-adoption` S66, `theologian-bunyan` S63, `philosophy-mirror-you-refuse` S66) read at full strength cold. The wisdom register, when actually achieved, does not decay.
+
+### S71 Priorities — Closed Out
+
+| Priority | Status |
+|---|---|
+| P0 Pre-flight (audit, ESV grep, structural-rot v5, article-tags, banned-move grep) | ✓ done (0 ESV new, 18 structural rots found + fixed, 9 banned-move recasts, 0 new prose) |
+| P1 Deepening-quality audit leg 2 (6 cold reads) | ✓ done (5 PASS + 1 MARGINAL lifted to PASS via §XVI injection + 1 §XV galmi gloss; 6 of 6 PASS post-fix) |
+| P2 Fan-out cycle 5 (six-verse cohort) | ✓ done (4 of 6 verses had defects; all 4 fixed) |
+| P3 New-prose triage | ✓ done (0 new prose since S70; trivially closed) |
+| P4 Tier-2 81-100 descent (optional, time permitting) | DEFERRED to S72 (consumed by structural-rot surgical queue) |
+
+---
+
+ S61 execution log (§VII, 19 pages — the full pages-12–30 rotation) added 2026-05-24/25. S62 execution log (§VIII, 13 pages + 1 §XV fix) added 2026-05-25. S63 execution log (§IX, 10 rotation consecrations + 1 legacy-catalog rebuild [`theologian-bunyan`] + 2 structural short-repairs) added 2026-05-25. S64 execution log (§X, 12 consecrations + 3 §XV fixes on locks + 2 structural repairs) added 2026-05-25. S65 execution log (§XI, 12 consecrations incl. 2 canonical rebuilds + an 11-edit §XV reconciliation on `question-psalm139` + an 8-file site-wide `(Ref, NIV)` sweep + a flagged 25-file `(NIV)` backlog) added 2026-05-25. **S66 execution log (§XII, 21 consecrations incl. 2 canonical rebuilds [`philosophy-mirror-you-refuse`, `psychology-offense-of-grace`] + 1 structural repair on `psychology-offense-of-grace` + a 23-file site-wide `(NIV)`-backlog sweep eliminating the class + 3-page Ps 139:16 ESV reconciliation; Tier 1 fell 31 → 10, the largest single-session drop) added 2026-05-25.** **S67 execution log (§XIII, 16 newly consecrated [10 Tier-2 top-10 + 6 Tier-2 11-20] + 2 deferred-S64 consecrations + an In-Brief install on `scripture-tsunami` [the most-linked page on the site, 655 inbound] + a 14-file John 6:44 fan-out reconciliation + a 2-file Acts 13:48 fan-out reconciliation + 5 In-Brief-label standardizations + 5 banned-move recasts) added 2026-05-26.** **S68 execution log (§XIV, 159 newly marker-installed via BUCKET B batch + 20 Tier-2 21-40 verdicts [18 confirmed apex + 2 In-Brief label fixes] + a 15-file fan-out reconciliation across Acts 13:48 + John 6:65 + Eph 1:11 + Rom 9:21 + Titus 3:5 + a 32-file In-Brief label site-wide sweep closing the class + the psychology-groupthink register lift; the campaign metric crossed 30% → 68.7% in a single session) added 2026-05-26.** **S69 execution log (§XV, 15 of 15 BUCKET C live-read consecrations [6 surgical prose deepens + 9 confirmed-at-bar markers + 5 In-Brief installs] + 172 BUCKET D promotions to B via batch marker pass [2 demoted to S70 C-queue] + 4 Tier-1 born-apex marker installs [apologetic-the-fourth-day-corpse, apologetic-nothing-can-separate, apologetic-priest-shoulders, pastoral-when-truth-lands] + 20 Tier-2 41-60 confirmed-at-bar verdicts + a 7-file fan-out cycle 3 reconciliation across Rom 11:5-6, Rom 9:11, John 1:13, 2 Pet 1:21, Phil 2:13, Ezek 36:26-27 + the KEEP-ALL-DIFFERENTIATE verdict on the gold-chain and fork families; the campaign metric crossed 68.7% → 98.3% in a single session — the campaign is at its finish-line) added 2026-05-26.** **S70 execution log (§XVI, residual-10 closed [2 deepens + 4 PASS-as-consecrate + 2 C-queue rewrites with the *touto* §XV add and a found-and-fixed structural rot in psychology-emotional-vs-rational] + 21 of 21 Tier-2 61-80 verdicts logged with 1 banned-move surgical fix + fan-out cycle 4 with 2 ESV propagation fixes [2 Cor 4:6 + Isa 53:5-6 in scripture-tsunami, yield trajectory S67=16 → S68=15 → S69=7 → S70=2] + the deepening-quality audit phase opened with 6 of 6 PASS [including the cross-session decay test on analogy-adoption holding at 6+ weeks]; the campaign metric crossed 98.3% → 99.66% — functional 100%, the unmarked-page list is empty, the proliferation phase closes and the maintenance phase opens) added 2026-05-26.** **S71 execution log (§XVII, the maintenance phase opens with the new v5 article-tag-position detector catching 18 silent structural rots — invisible to all prior balance checks because the canonical wired-in pattern has related-articles 50 bytes after `</article>` while rot has body content thousands of bytes orphaned outside the wrapper — all 18 fixed in pre-flight; deepening-quality audit leg 2 of 6 cold reads via subagent returned 5 PASS + 1 MARGINAL on `apologetic-tetagmenoi` surgically lifted to PASS via a two-paragraph §XVI sapiential injection on verb-doesn't-drift + nervous-system-trusts-noise; a §XV `galmi` gloss closed the v. 16 transparency loop on `question-psalm139`; 9 banned-move recasts on `open-wound-sovereignty-in-grief` + `devotional-chosen-before-you-were-broken`; fan-out cycle 5 yield = 4 across `question-sealed`/`explore-map`/`scripture-tsunami` [Eph 1:14 arrabōn + 2 Tim 1:9 + John 17:6 + Ps 65:4]; cumulative deepening-quality audit: 12 of 12 PASS; the cross-page apologetic-genre sapiential-risk pattern surfaced as the highest-value find — S72 priority is the cohort audit of the 10 apologetic-* Greek/Hebrew pages) added 2026-05-26.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
