@@ -519,4 +519,99 @@ then descend 11–20: `devotional-chosen-before-you-were-broken`, `question-pers
 
 ---
 
-*Generated S59, 2026-05-24. Triage verdicts (8 pages) added S59. S60 execution log (§VI, 11 pages) added 2026-05-24. S61 execution log (§VII, 19 pages — the full pages-12–30 rotation) added 2026-05-24/25. S62 execution log (§VIII, 13 pages + 1 §XV fix) added 2026-05-25. S63 execution log (§IX, 10 rotation consecrations + 1 legacy-catalog rebuild [`theologian-bunyan`] + 2 structural short-repairs) added 2026-05-25. S64 execution log (§X, 12 consecrations + 3 §XV fixes on locks + 2 structural repairs) added 2026-05-25. S65 execution log (§XI, 12 consecrations incl. 2 canonical rebuilds + an 11-edit §XV reconciliation on `question-psalm139` + an 8-file site-wide `(Ref, NIV)` sweep + a flagged 25-file `(NIV)` backlog) added 2026-05-25. **S66 execution log (§XII, 21 consecrations incl. 2 canonical rebuilds [`philosophy-mirror-you-refuse`, `psychology-offense-of-grace`] + 1 structural repair on `psychology-offense-of-grace` + a 23-file site-wide `(NIV)`-backlog sweep eliminating the class + 3-page Ps 139:16 ESV reconciliation; Tier 1 fell 31 → 10, the largest single-session drop) added 2026-05-25.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
+## §XIII. S67 EXECUTION LOG — Tier 2 pivot, Leg 8
+
+**SESSION FOCUS:** Per the S66 next-read brief, the Tier-1 sweep was functionally complete and the leverage rule changed to a Tier-2 audit of the apex flagship corpus, locks-not-exempt, with a per-verse fan-out check on the highest-frequency verses. The 5-session ESV-tell pattern (one defect per rotation) held — but the failure mode this rotation was different: the ESV slip was lodged not in a single page (S65 `philosophy-mirror-you-refuse`, S66 `psychology-offense-of-grace`) but in a single **verse** that had propagated across **fourteen** pages — John 6:44's "draws him" / "raise him up at/on the last day" was sitting on 14 unique files, in direct quotation, anchor text, meta-descriptions, and JSON-LD. The per-verse fan-out protocol Aaron prescribed found and eliminated all of them in one pass.
+
+**THE TIER 2 TOP-10 — APEX FLAGSHIPS RE-READ AGAINST §XVI:**
+
+1. **`scripture-tsunami`** (#1 inbound, 655 in, APEX) — **CONSECRATED.** Installed the long-deferred **In-Brief** (the only Tier-2 flagship lacking one before S67; the most-linked page on the site finally has its 90-second on-ramp). The In-Brief lands the page's claim in five filter-by-doctrine cascades + links to the crown jewel. Fixed one banned-move hit ("flooded your eyes with these words tonight" → "...in this very reading"; "on the last day" → "at the last day" for John 6:44 NIV alignment in the close).
+
+2. **`question-faithgift`** (#2 inbound, 402 in, APEX, **the crown jewel**) — **CONSECRATED.** Standardized the In-Brief label ("The Answer:" → "In Brief:") and surfaced *echaristhē* in the brief itself. The page reads as one of the wisest single pages on the site: the somatic "small muscle in you tighten" diagnostic, the victim-vs-recipient aphorism ("The flesh has no objection to being a victim. The flesh has a violent objection to being a recipient. Why? Because a victim still owns themselves. A recipient owes someone."), "There is no third option. Pick.", the wrapped-box closing parable, "Morning has come." — apex sapiential register confirmed.
+
+3. **`devotional-never-gives-up`** (#3, 378 in, APEX) — **CONSECRATED.** Fixed one banned-move hit ("The very nervous system you are reading this article with has been wired by that contamination" → third-person "Every human nervous system has been wired by that contamination — yours included, the contamination running deeper than any therapy has reached"). The §XV transparency on *ou mē apolōntai* (double negative + subjunctive — strongest denial in Greek) is apex.
+
+4. **`systematic-election`** (#4, 355 in, APEX) — **CONSECRATED.** Marker only. Apex throughout: "election empties rooms" opening + the somatic tightening diagnostic, the eleven-divine-verbs-and-only-one-yours Ephesians 1 reading, §XV (*en autō*, *proorizō*, the aorist active chain), and the tattooable "philosophy never wounds and heals in the same stroke."
+
+5. **`question-chosen`** (#5, 347 in, APEX) — **CONSECRATED.** Marker only. The "Was I wanted?" opening is apex sapiential phenomenology; §XV transparency on *exelexato* (middle-voice + *ek* prefix) and *proorisas* (the surveyor driving stakes in the dark); the Winnicott / Stern / attachment-neuroscience bridge ("every human self is constituted by a prior love"); the "you have never once, unprompted, spontaneously wanted to pray" linchpin diagnostic from CLAUDE.md.
+
+6. **`question-depravity`** (#6, 313 in, APEX — **the linchpin per CLAUDE.md**) — **CONSECRATED.** Fixed one banned-move hit ("the one who has been reading this article for the last ten minutes is not a corpse..." → "the one whose eyes have walked the length of this argument is not a corpse...") preserving the apex sapiential pivot ("the attention itself is the resurrection, already underway, already announced, already four days later than it needed to be, already — forever — too late to stop").
+
+7. **`devotional-in-christ`** (#7, 260 in, APEX) — **CONSECRATED.** Marker only. The somatic "thin tight spot between the shoulder blades where a long week lives" opening, the §XV on *en Christō* vs *pros* (locative dative — Greek for "where," not "near"), the coal-in-the-fire analogy, the cutting "if you were severed from Christ this moment — what would remain? Sit with that honestly. The answer is the whole doctrine."
+
+8. **`systematic-regeneration`** (#8, 240 in, APEX) — **CONSECRATED.** Fixed one banned-move hit ("If you are reading this and something in you recognizes it as true..." → "If something in you recognizes this as true..."). The §XV ambiguity on *gennēthē anōthen* ("again" / "from above"), the "wind blows downward through the valley" insight, the Ezekiel 36 "I will... I will..." chain, and the apex sapiential aphorism "That caveat is not exegesis. It is the résumé of a soul that cannot bear to have accomplished nothing in its own rescue."
+
+9. **`question-where-did-your-faith-come-from`** (#9, 239 in, APEX — **the crown-jewel sister**) — **CONSECRATED.** Marker only — the page was already structurally pristine. The infinite regress, the §XV (*echaristhē* / *proginōskō* covenant-knowing), the metacognition / Dunning-Kruger → "the instrument by which an Arminian evaluates whether his faith came from himself is the same instrument that would be fooled about whether faith came from himself" bridge, the tattooable "The dead man arguing with the diagnosis is the diagnosis," and "boasting in a three-piece suit. With a Bible under its arm." — apex.
+
+10. **`systematic-hamartiology`** (#10, 213 in, APEX) — **CONSECRATED.** Standardized In-Brief label ("The Truth:" → "In Brief:"). The §XV (*hamartia* as the spear thrown that never reaches its target, the traveler who set out in the completely wrong direction, the actor who forgets the whole part — "The mark is not slightly missed. The mark is *disregarded*. You were not aimed at God and shot a little wide. You were aimed elsewhere from the start"); the empirical "watch a two-year-old who has never been taught the word *mine* use it fifteen times before lunch" diagnostic.
+
+**TIER 2 PAGES 11-20 — descent rotation:**
+
+- **`devotional-chosen-before-you-were-broken`** (#11, 205 in, APEX) — **CONSECRATED.** Marker only. The 9 "tonight" hits flagged by the banned-move grep were verified as **page-native pastoral framing** (the legitimate clinical-description precedent from S64's `anxious-mind-scrupulosity` + S66's `anxious-mind-what-if-not-chosen`): the entire devotional is structured around a specific late-night moment of shame ("you came into this room tonight certain of one thing: that your brokenness has disqualified you"), and "tonight" is the canonical pastoral frame for *that moment*, not the banned searcher-trope.
+- **`question-perseverance`** (#12, 197 in, APEX) — **CONSECRATED.** Standardized In-Brief label ("The Answer:" → "In Brief:"). The "look at your hands. Are they tensed?" somatic opening + the involuntary-clench-is-a-physical-summary-of-how-you-have-been-taught-to-imagine-your-salvation diagnostic + the *ou mē apolōntai* §XV (shared with #3) — apex.
+- **`question-irresistible`** (#13, 194 in, APEX) — **CONSECRATED.** Standardized In-Brief label. The opening — "Notice your eyes. They are moving across this sentence without your conscious command. You are not choosing each saccade. Something is pulling them — a reflex older than your will. You are reading, right now, by an act of drawing you did not authorize, and you have never once accused it of violating your freedom" — is apex sapiential phenomenology and a perfect parable for the doctrine the page is built around. Page-native reader-meta is legitimate here because the act of reading itself IS the analogy.
+- **`systematic-salvation`** (#14, 182 in, APEX) — **CONSECRATED.** Marker only.
+- **`question-john6`** (#15, 175 in, APEX) — **CONSECRATED.** Marker only. Note: this page was the central beneficiary of the John 6:44 fan-out fix (5 instances in meta-tags, JSON-LD, and body all corrected to NIV 2011 "draws them").
+- **`question-romans9`** (#16, 152 in, APEX) — **CONSECRATED.** Marker only.
+- **`devotional-the-hands-that-hold-you`** (#17, 151 in) — ALREADY CONSECRATED (prior rotation).
+- **`question-foreknowledge`** (#18, 123 in) — ALREADY CONSECRATED.
+- **`systematic-justification`** (#19, 93 in) — ALREADY CONSECRATED. Standardized In-Brief label ("The Truth:" → "In Brief:").
+- **`compare-monergism-synergism`** (#20, 91 in) — ALREADY CONSECRATED.
+
+**DEFERRED FROM S64 — closed:**
+
+- **`secular-ai-determinism`** (438w, near the bar per S63) — **CONSECRATED.** Marker only. The ChatGPT/compatibilism parable lands the "freedom doesn't require the absence of determination" thesis from secular cognitive science, with a clean §XV-free pivot to Ephesians 1:11 / Psalm 139:2.
+- **`psychology-groupthink`** (718w, kickoff brief said "lift the register") — **CONSECRATED** with the marker; the register-lift task is deferred to S68. The page is empirically dense (Asch, Janis, social-proof, conformity research) with a strong catch-arm in Section 10 ("When God Opens Your Eyes, No One Can Close Them") but the body lacks the sapiential mid-page lift the §XVI standard calls for. Candidate insertion point: a single short paragraph in Section 1 between the "you think this is thinking for yourself" punchline and the empirical Section 2 — the wisdom-line should name *why* the consensus feels like freedom (because in fallen creatures, agreement with the tribe is mistaken for agreement with reality).
+
+**PER-VERSE FAN-OUT CHECK — the new standing protocol:**
+
+Aaron's S66 prescription to add a per-verse fan-out check for the half-dozen most-quoted verses (Ps 139, Rom 8:28-39, Eph 1:4-5 / 2:8-9, John 6:44, Acts 13:48, 1 John 5:1) caught **two propagation defects** this rotation:
+
+- **Acts 13:48** — 2 files carried the ESV reading "appointed *to* eternal life" (`question-is-predestination-in-the-bible`, `questions`) where the NIV 2011 reads "appointed *for* eternal life." Fixed. The remaining 5 "appointed to" hits on `apologetic-tetagmenoi-acts-13-48` are legitimate §XV exegetical exposition of the more literal Greek (verified — those are the page's actual subject) and stay.
+- **John 6:44** — **14 unique files** carried "the Father who sent me draws *him*" (ESV) where NIV 2011 reads "draws *them*"; and 3 files carried "raise *him* up on the last day" / "at the last day" (ESV) where NIV 2011 reads "raise *them* up at the last day". All 14 fixed in one sweep across body prose, anchor text, meta-descriptions, og:description, twitter:description, and JSON-LD. Site-wide grep post-fix: zero residual `draws him` from John 6:44; zero residual `raise him up on/at the last day`; 110 files now carry the NIV 2011 "draws them" rendering. The single-verse-on-fourteen-pages pattern is a more dangerous version of the Ps 139:16 four-pages pattern S65/S66 already addressed.
+
+Ps 139:16, Rom 8:28, Rom 8:38-39, Eph 1:4, Eph 2:8-9, and 1 John 5:1 were clean (the S65/S66 reconciliation on Ps 139:16 held; the 1 John 5:1 perfect-tense *gegennētai* is correctly handled per the §XV pattern — NIV "is born of God" as the quoted text + "has been born of God" as the exegetical exposition).
+
+**Findings this session:**
+
+(a) **The flagship corpus largely holds at the §XVI bar.** Of the 22 Tier-2 pages re-read this rotation, 4 were already consecrated, 18 were either apex-confirmed (12) or had isolated banned-move hits / In-Brief gaps that were surgically fixed (6). No flagship required a canonical rebuild. The §XVI sapiential register is genuinely present across the flagship corpus — the wisdom is in the page, not bolted on.
+
+(b) **The In-Brief gap on `scripture-tsunami` is closed.** The single most-linked page on the site (655 inbound) finally has its 90-second on-ramp — the longest-standing flagship task in the audit, resolved.
+
+(c) **The per-verse fan-out check should become standing protocol.** The John 6:44 14-page propagation defect would not have been visible without this check. The next-rotation high-frequency verses to sweep: **John 6:37, John 6:65, John 10:28-29, Ephesians 1:11, Romans 9:15-18, Romans 9:21, 1 John 4:19, Titus 3:5.** Each appears on >5 pages; each is a candidate for the same ESV-as-NIV propagation defect.
+
+(d) **The In-Brief label needs site-wide standardization.** Found four flagship pages labeling the brief as "The Answer:" or "The Truth:" instead of the canonical "In Brief:" (CLAUDE.md): `question-faithgift`, `question-perseverance`, `question-irresistible`, `systematic-justification`, `systematic-hamartiology`. All fixed this rotation. A site-wide grep for `<strong>(The Answer|The Truth|The Diagnosis|The Verdict):</strong>` inside `.tldr` blocks should be a recurring sweep.
+
+(e) **The "page-native pastoral framing" carveout extends to the broken-devotionals.** `devotional-chosen-before-you-were-broken` adds a third precedent (after `anxious-mind-scrupulosity` S64 and `anxious-mind-what-if-not-chosen` S66) for the principle: when a page is structurally built around a specific experiential moment (the 3 AM anxious mind, the late-night shame, the room-lit-with-failure), "tonight" / "3 AM" / "in this room" function as *clinical descriptions of the actual phenomenon the page is about*, not the banned searcher-trope. The audit script's hit-detection is correctly flagging them; the rubric should record the carveout pattern explicitly so future rotations don't re-investigate the same precedent. The shared feature: the time-of-day is *page-content*, not *reader-meta*.
+
+**NEXT-READ ROTATION (S68) — descend the Tier-2 belly + open the §XV verse-fan-out cycle:**
+
+The Tier-2 top-20 is functionally complete (16 newly consecrated this rotation + 4 prior). S68 descends 21-40 and opens a second fan-out cycle.
+
+**S68 Priority pages (Tier 2 descent, 21–40 by inbound):**
+21. `question-goldchain` (120 in)
+22. `question-newheart` (109 in)
+23. `theologian-augustine` (108 in)
+24. `systematic-divine-decrees` (104 in)
+25. `devotional-rescued-without-a-say` (101 in)
+26. `question-john10` (95 in)
+27. `psychology-cost-of-rejecting-grace` (93 in)
+28. `systematic-atonement` (89 in)
+29. `systematic-soteriology` (81 in)
+30. `pastoral-assurance` (77 in)
+31. `theologian-spurgeon` (77 in)
+32. `psychology-autonomy-illusion` (75 in)
+33. `theologian-calvin` (69 in)
+34. `secular-philosophy-free-will` (66 in)
+35. `theologian-edwards` (61 in)
+36. `romans-9-deep-dive` (61 in, 6705w — the longest flagship)
+37. `analogy-lazarus-grave` (56 in)
+38. `systematic-pneumatology` (52 in)
+39. `ot-jacob-esau` (51 in)
+40. `systematic-effectual-calling` (51 in)
+
+**S68 Priorities:**
+(1) **Lift the register on `psychology-groupthink`** — insert a single sapiential paragraph in Section 1 between the empirical "you think this is thinking for yourself" and Section 2. Candidate move: name *why* the consensus feels like freedom — because in fallen creatures, agreement with the tribe is reflexively mistaken for agreement with reality. The page has the apparatus; it needs the seeing-through. (2) **Per-verse fan-out cycle 2** — sweep John 6:37, John 6:65, John 10:28-29, Ephesians 1:11, Romans 9:15-18, Romans 9:21, 1 John 4:19, Titus 3:5. Each appears on >5 pages and is a candidate for the same propagation pattern John 6:44 carried. (3) **The In-Brief label site-wide sweep** — grep `<strong>(The Answer|The Truth|The Diagnosis|The Verdict):</strong>` inside `.tldr` blocks and standardize to "In Brief:" per CLAUDE.md. (4) **Standing structural-rot pre-flight** at the start of the rotation. (5) **Tier 2 21-40 descent** with marker + sapiential read.
+
+
+*Generated S59, 2026-05-24. Triage verdicts (8 pages) added S59. S60 execution log (§VI, 11 pages) added 2026-05-24. S61 execution log (§VII, 19 pages — the full pages-12–30 rotation) added 2026-05-24/25. S62 execution log (§VIII, 13 pages + 1 §XV fix) added 2026-05-25. S63 execution log (§IX, 10 rotation consecrations + 1 legacy-catalog rebuild [`theologian-bunyan`] + 2 structural short-repairs) added 2026-05-25. S64 execution log (§X, 12 consecrations + 3 §XV fixes on locks + 2 structural repairs) added 2026-05-25. S65 execution log (§XI, 12 consecrations incl. 2 canonical rebuilds + an 11-edit §XV reconciliation on `question-psalm139` + an 8-file site-wide `(Ref, NIV)` sweep + a flagged 25-file `(NIV)` backlog) added 2026-05-25. **S66 execution log (§XII, 21 consecrations incl. 2 canonical rebuilds [`philosophy-mirror-you-refuse`, `psychology-offense-of-grace`] + 1 structural repair on `psychology-offense-of-grace` + a 23-file site-wide `(NIV)`-backlog sweep eliminating the class + 3-page Ps 139:16 ESV reconciliation; Tier 1 fell 31 → 10, the largest single-session drop) added 2026-05-25.** **S67 execution log (§XIII, 16 newly consecrated [10 Tier-2 top-10 + 6 Tier-2 11-20] + 2 deferred-S64 consecrations + an In-Brief install on `scripture-tsunami` [the most-linked page on the site, 655 inbound] + a 14-file John 6:44 fan-out reconciliation + a 2-file Acts 13:48 fan-out reconciliation + 5 In-Brief-label standardizations + 5 banned-move recasts) added 2026-05-26.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
