@@ -1,6 +1,19 @@
 #!/usr/bin/env node
 /**
- * audit-prose.js — Phase F (Prose Integrity Audit) scanner — v2 (Session 39 refinement)
+ * audit-prose.js — Phase F (Prose Integrity Audit) scanner — v3 (Session 73 canonization)
+ *
+ * v3 (S73) CHANGE: The v5 article-tag-position structural-rot detector — born
+ * S71, reused S72, recreated each session from SAPIENTIAL-AUDIT.md §XVII — is
+ * now canonized in this script. Logic: walk the <article>/</article> tag stack
+ * to find the OUTER </article>; flag a file iff the gap between outer </article>
+ * and <section class="related-articles"> exceeds 800 bytes AND there is at least
+ * one orphaned <h2> or <p> in that gap. The canonical wired-in pattern places
+ * related-articles ~50 bytes after </article> (wire-orphans.js sibling injection);
+ * real rot orphans thousands of bytes. The v1-v2 article-tag-balance count gave
+ * false confidence (count balanced != positioned correctly); v3 replaces it.
+ * Output: audit-prose-structure.md (separate sidecar report) + a SUMMARY line
+ * in stdout. Standing pre-flight: run audit-prose.js (this script) covers both
+ * the prose-integrity scan AND the structural-rot scan in one invocation.
  *
  * Scans every article in the repo for two failure classes Aaron has named
  * as a gating constraint on Phase D expansion:
@@ -677,10 +690,103 @@ function auditArticle(filename, htmlPath) {
   };
 }
 
+// ── v3 (S73): Structural-rot detector — canonized from SAPIENTIAL-AUDIT.md §XVII ──
+// Walks the <article>/</article> tag stack to find the OUTER </article>.
+// Returns { rotted: bool, gap_bytes: number, orphan_h2: number, orphan_p: number,
+//           outer_article_close_index: number, related_articles_index: number }.
+// A page is flagged iff:
+//   gap > 800 bytes AND (orphan_h2 + orphan_p) >= 1
+// Canonical wired-in pattern places related-articles within ~50 bytes of </article>
+// (wire-orphans.js sibling injection). Real rot orphans thousands of bytes of body
+// content outside the wrapper — invisible to all prior tag-balance counts.
+function detectStructuralRotV5(html) {
+  // Walk the article tag stack to find the OUTER </article>.
+  const openRe  = /<article\b[^>]*>/gi;
+  const closeRe = /<\/article\s*>/gi;
+  const opens = [];
+  let m;
+  while ((m = openRe.exec(html)) !== null)  opens.push({ idx: m.index });
+  const closes = [];
+  while ((m = closeRe.exec(html)) !== null) closes.push({ idx: m.index });
+  if (opens.length === 0 || closes.length === 0) {
+    return { rotted: false, has_article: false, gap_bytes: 0, orphan_h2: 0, orphan_p: 0, reason: 'no <article> tag' };
+  }
+  // Outer </article> is the last close at depth 1 — given balanced tags, that
+  // is simply the last </article>. If unbalanced we still take the last close.
+  const outerClose = closes[closes.length - 1].idx;
+  const outerCloseEnd = html.indexOf('>', outerClose) + 1;
+
+  // Locate <section class="related-articles"> (the wired-in sibling injected by wire-orphans.js).
+  const ra = html.search(/<section\b[^>]*class="[^"]*related-articles[^"]*"/i);
+  if (ra === -1) {
+    return { rotted: false, has_article: true, has_related: false, gap_bytes: 0, orphan_h2: 0, orphan_p: 0, reason: 'no related-articles section' };
+  }
+  if (ra <= outerCloseEnd) {
+    // related-articles is INSIDE <article>...</article>, which is the legacy
+    // wrong-position pattern. Treat as rot only if there is intervening orphan content
+    // between </article> and the end of the file.
+    return { rotted: false, has_article: true, has_related: true, gap_bytes: 0, orphan_h2: 0, orphan_p: 0, reason: 'related-articles inside <article> (legacy nesting, not gap-rot)' };
+  }
+  const gap = html.slice(outerCloseEnd, ra);
+  const gap_bytes = gap.length;
+  const orphan_h2 = (gap.match(/<h2\b/gi) || []).length;
+  const orphan_p  = (gap.match(/<p\b/gi)  || []).length;
+  const rotted = gap_bytes > 800 && (orphan_h2 + orphan_p) >= 1;
+  return {
+    rotted,
+    has_article: true,
+    has_related: true,
+    gap_bytes,
+    orphan_h2,
+    orphan_p,
+    outer_article_close_index: outerClose,
+    related_articles_index: ra,
+    reason: rotted ? `gap ${gap_bytes}B with ${orphan_h2} <h2> + ${orphan_p} <p> orphaned outside wrapper` : 'within canonical 800B tolerance or no orphans',
+  };
+}
+
 // ── Main ──────────────────────────────────────────────────────────
 function main() {
   const files = fs.readdirSync(REPO_ROOT).filter(f => f.endsWith('.html')).sort();
   const articles = [];
+
+  // ── v3 (S73): Structural-rot scan — runs on EVERY .html in REPO_ROOT, not
+  // just <article class="article-body"> pages, because rot can appear on hubs too.
+  const structureFlagged = [];
+  for (const file of files) {
+    const html = fs.readFileSync(path.join(REPO_ROOT, file), 'utf8');
+    const r = detectStructuralRotV5(html);
+    if (r.rotted) structureFlagged.push({ file, ...r });
+  }
+  if (structureFlagged.length === 0) {
+    console.log(`v3 structural-rot scan (v5 detector): ✓ clean (0 of ${files.length} files flagged)`);
+  } else {
+    console.log(`v3 structural-rot scan (v5 detector): ✗ ${structureFlagged.length} file(s) flagged`);
+    structureFlagged.forEach(s => {
+      console.log(`  ${s.file} — gap ${s.gap_bytes}B, orphan ${s.orphan_h2} <h2> + ${s.orphan_p} <p>`);
+    });
+  }
+  // Write sidecar markdown report
+  let structMd = `# Structural-Rot Audit (v3 — v5 article-tag-position detector)\n\n`;
+  structMd += `**Generated:** ${new Date().toISOString()}\n`;
+  structMd += `**Method:** walk \`<article>\`/\`</article>\` tag stack to outer \`</article>\`; flag iff gap to \`<section class="related-articles">\` exceeds 800 bytes AND there is at least one orphaned \`<h2>\` or \`<p>\` in the gap. Canonical wired-in pattern places related-articles ~50 bytes after \`</article>\` (\`wire-orphans.js\` sibling injection). Real rot orphans thousands of bytes outside the wrapper.\n\n`;
+  structMd += `**Files scanned:** ${files.length}\n`;
+  structMd += `**Files flagged:** ${structureFlagged.length}\n\n`;
+  if (structureFlagged.length === 0) {
+    structMd += `✓ All files pass the v5 article-tag-position check.\n`;
+  } else {
+    structMd += `## Flagged files\n\n`;
+    structureFlagged.forEach(s => {
+      structMd += `### ${s.file}\n`;
+      structMd += `- Gap bytes: ${s.gap_bytes}\n`;
+      structMd += `- Orphan \`<h2>\` tags: ${s.orphan_h2}\n`;
+      structMd += `- Orphan \`<p>\` tags: ${s.orphan_p}\n`;
+      structMd += `- Outer \`</article>\` byte index: ${s.outer_article_close_index}\n`;
+      structMd += `- \`<section class="related-articles">\` byte index: ${s.related_articles_index}\n`;
+      structMd += `- Reason: ${s.reason}\n\n`;
+    });
+  }
+  fs.writeFileSync(path.join(REPO_ROOT, 'audit-prose-structure.md'), structMd);
 
   console.log(`Scanning ${files.length} HTML files for prose-integrity issues (v2)...`);
 
