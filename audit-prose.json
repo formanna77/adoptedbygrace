@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-27T13:55:34.469Z",
+  "generated": "2026-05-27T23:52:53.690Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 587,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1240,
+    "total_sentences_flagged": 1249,
     "total_redundancy_pairs_suppressed": 20,
-    "total_sentences_suppressed": 180,
+    "total_sentences_suppressed": 181,
     "articles_with_redundancy": 12,
-    "articles_with_flagged_sentences": 426,
-    "articles_clean": 155,
+    "articles_with_flagged_sentences": 428,
+    "articles_clean": 153,
     "suppression_by_class": {
       "scripture-tsunami": 11,
       "pedagogical-anaphora": 2,
@@ -688,6 +688,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "theologian-owen.html",
+      "score": 5,
+      "paragraphs": 33,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
+    },
+    {
       "file": "acts-13-48.html",
       "score": 4,
       "paragraphs": 33,
@@ -731,15 +740,6 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
-    },
-    {
-      "file": "apologetic-i-know-whom-i-have-believed.html",
-      "score": 4,
-      "paragraphs": 12,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
     }
   ],
   "articles": [
@@ -19651,29 +19651,71 @@
     },
     {
       "file": "theologian-anselm.html",
-      "paragraphs": 26,
+      "paragraphs": 30,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 23,
+          "sentence_index": 0,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "This is the structure of every honest soul's seeking, named once and for all by a medieval monk in the dark before lauds: fides quaerens intellectum , faith seeking understanding."
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 1
     },
     {
       "file": "theologian-arminius.html",
-      "paragraphs": 37,
+      "paragraphs": 35,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 3,
+          "sentence_index": 2,
+          "flags": [
+            "long:63w"
+          ],
+          "preview": "There is no malice in this  —  Arminius was not a saboteur  —  but there is a fact that all admirers of Arminius eventually have to reckon with: the most enduring counter-tradition in Protestant histo"
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 3,
+          "flags": [
+            "long:58w"
+          ],
+          "preview": "John Owen demolished this in 1647 in The Death of Death in the Death of Christ , and four centuries have not answered him: a Christ who died for everyone in such a way that the death saves no one in p"
+        },
+        {
+          "paragraph": 26,
+          "sentence_index": 1,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "He has not abandoned the souls who get this wrong any more than He abandoned the souls in the Corinthian church who got the resurrection wrong, the Galatians who got justification wrong, or Peter who "
+        },
+        {
+          "paragraph": 27,
+          "sentence_index": 1,
+          "flags": [
+            "long:61w"
+          ],
+          "preview": "You are asked to hold open the possibility that the answer Arminius could not bear is, in the end, the only answer that does not finally collapse into self-rescue  —  and that the God who lets you wre"
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 4
     },
     {
       "file": "theologian-augustine.html",
@@ -20193,21 +20235,62 @@
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 24,
-          "sentence_index": 1,
+          "paragraph": 0,
+          "sentence_index": 4,
           "flags": [
-            "long:55w"
+            "long:66w"
           ],
-          "preview": "In churches where the atonement has been reduced to a mere potential offer, Owen's three-fold argument cuts through with devastating clarity: Christ either died for all in such a way that all are save"
+          "preview": "The Vice-Chancellor of Oxford, the man whom Cromwell trusted, the author of more theological prose than any English Puritan , the rigorous Latin-Hebrew-Greek mind to whom four centuries of opponents h"
+        },
+        {
+          "paragraph": 2,
+          "sentence_index": 0,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "Because the book that John Owen is most known for  —  The Death of Death in the Death of Christ , published in 1647 when he was thirty-one and the burials were already beginning  —  argues that Christ"
+        },
+        {
+          "paragraph": 5,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "It is exegesis with a level of grammatical seriousness that almost no later Reformed writer has matched, prosecuted through six hundred pages, and reducible at last to this: a Christ who intends to sa"
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 3,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "And the answer Owen gives  —  the answer he had to give, because he stood at eleven small graves and another beside them  —  is that for every soul Christ purposed to save, the work was done , the pri"
+        },
+        {
+          "paragraph": 20,
+          "sentence_index": 0,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "This is why Spurgeon two centuries later read Owen and could not put him down, and why the Banner of Truth Trust labored to put him back into print, and why every preacher who has ever stood at a chil"
         }
       ],
       "suppressed_redundancy": [],
-      "suppressed_sentences": [],
+      "suppressed_sentences": [
+        {
+          "paragraph": 10,
+          "sentence_index": 0,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:the people×5"
+          ],
+          "preview": "Choose third that Christ died for all the sins of some people  —  the people the Father gave Him in eternity past, the p"
+        }
+      ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0,
-      "score": 1
+      "suppressed_sentence_count": 1,
+      "score": 5
     },
     {
       "file": "theologian-sproul.html",
