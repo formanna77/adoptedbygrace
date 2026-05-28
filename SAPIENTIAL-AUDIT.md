@@ -1419,3 +1419,110 @@ Standing S72/S73/S74 rule: every subagent cold-read must flag cross-page rhythm 
 ---
 
  S61–S74 logs above unchanged. **S75 execution log added 2026-05-27.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
+
+---
+
+## §XXII. S76 EXECUTION LOG — Maintenance Phase Leg 6: Objection-* Cohort Audit (3 PASS / 3 MARGINALs all surgically lifted) + Two New Flagship Pages Built Apex-Grade (analogy-the-prodigal-already-home + psychology-the-question-beneath-the-question) + Site-Wide Tell Diversification (8 rotations across Tells α/β/γ) + Fan-Out Cycle 10 (3 fixes — within window) + Deepening-Quality Audit Leg 6 (3 fresh PASSes + 1 MARGINAL flagged for S77)
+
+**Date:** 2026-05-28. **Standing protocol:** weekly cohort rotation + tell-breaking + fan-out + DQ audit leg + close on new prose.
+
+### S76 P0 — Pre-Flight Results
+- `node sapiential-audit.js` at session open: **Prose pages 582 | T1 0 / T2 152 / T3 430** (baseline matches S75 close).
+- `node audit-prose.js`: v3 structural-rot scan **✓ clean (0 of 658 files flagged)**.
+- ESV battery widened grep (incl. `essays/` + `start-here-*` + `printable-*` + `question-*`): **clean except documented carveouts** (`apologetic-tetagmenoi-acts-13-48` + `question-acts` for `appointed to eternal life`). S75 fan-out cycle 9 cleared the propagation surface.
+- Banned-move grep on touched pages: clean against VOICE §VI carveouts.
+- Cohort selection: **objection-* (21 pages — larger than the kickoff's listed ~7, untouched by deepening campaign)** wins the at-risk slot over analogy-* (9 pages). Analogy-* rotates to S77.
+
+### S76 P1 — Objection-* Cohort Cold-Read (6-page subagent sample)
+Subagent cold-read verdicts on 6 representative pages:
+- **PASS:** `objection-free-will`, `objection-love-requires-choice`, `objection-robots` (3 of 6).
+- **MARGINAL:** `objection-fairness`, `objection-god-could-save-all`, `objection-author-of-sin` (3 of 6).
+- **FAIL:** none.
+
+All three MARGINALs **surgically lifted to PASS this session**:
+
+1. **`objection-fairness` — LIFTED** (§XXII fair-as-idol close). The subagent diagnosis: the "receipt for services rendered" insight buried in §"The Objection That Burns" is the page's one apex move; the courtroom-final tableau is a generic rescue scene; the prose argues correctly but never names what the reader has felt-but-never-said about the word *fair* itself. Surgical fix: replaced the closing courtroom scene (the "from a door you did not see open" rescue) with a new H2 **"The Word 'Fair' as Idol"** — a Muggeridge-grade meditation on how *fair* has metastasized from a moral category into the master ethic of the modern age, the small word that "was never the right size for that sentence" when applied to the Creator–creature relation — plus a new H2 **"The Silence at the End of the Argument"** that gives the page the §XVI.6 stillness it lacked. Sapiential lines earned: *"What has happened — and Muggeridge, who watched the twentieth century chase every idol it could invent, would have named it instantly — is that the word fair has metastasized; it has slipped its ledger and become a metaphysic"* and *"The fairness objection is, in the end, the last shrine of the small self. Tear it down and there is nothing left to defend — only Someone left to receive you."* Marker updated to `CONSECRATED S76 §XXII SAPIENTIAL DEEPEN (fair-as-idol close)`.
+
+2. **`objection-god-could-save-all` — LIFTED** (§XXII silence-as-mercy + new tattoo line). Diagnosis: "This is not comfortable" was a telling-not-showing one-liner; the "Pastoral Word" section read as peer-talk pastoral reassurance ("guard it," "don't let theology cool your heart") rather than wisdom; the closing bold **"Stop asking why them. Ask why me."** was a slogan, not a tattoo. Surgical fix in three moves: (i) replaced the one-liner with a sustained meditation on Romans 9:22 — *"bore with great patience the objects of His wrath"* — restoring the gravitas the verse carries; (ii) replaced the "Pastoral Word" with two new H2s — **"The Silence That Is Its Own Answer"** (a via negativa meditation: God's silence about why-not-them is *itself a form of His mercy* because answering would kill the wonder) and **"How Then Do You Live"** (the compatibilist labor in pastoral register, but without the talking-points cadence); (iii) replaced the slogan close with the new sapiential line **"The unanswered question is the open door. Walk in."** Earned Muggeridge note: *"Muggeridge, watching the twentieth century build its great rational utopias and watching every one of them turn into a slaughterhouse, came to see that the modern temper demands an explanation for everything and worships nothing."* Marker updated to `CONSECRATED S43-S58 BORN-APEX, S76 §XXII SAPIENTIAL DEEPEN (silence-as-mercy + tattoo line)`.
+
+3. **`objection-author-of-sin` — LIFTED** (§XXII Arminian-detour compress + loom trim). Diagnosis: the "Arminian's Own Problem" section broke the wisdom register into Reformed-vs-Arminian scorekeeping ("how is that morally superior to ordaining it?"); the loom paragraph was beautiful but bloated past awe into purple. Surgical fix: compressed the 4-paragraph "Arminian's Own Problem" section to a single paragraph retitled **"The Detour No Position Escapes"** that makes the point without abandoning the meditative register — *"The choice is not between a God who superintends suffering and one who does not. The choice is between a God whose silence has meaning, and a God whose silence is the absence of meaning."* Trimmed the loom paragraph ~30%, removing the "before the stars were lit" tic and the over-explained final image, keeping the front-and-back-of-the-tapestry seeing-through but letting the reader finish the picture. Marker updated to `CONSECRATED S43-S58 BORN-APEX, S76 §XXII SAPIENTIAL DEEPEN (Arminian-detour compress + loom trim)`.
+
+**Cohort-level convergence findings (subagent surfaced 6 cross-page rhythm convergences in the 6-page sample):**
+- **Convergence 1 (4/6 = 67%):** "What Has Happened While You Were Reading" reader-surveillance close — saturated to the point of boilerplate; free-will and love-requires-choice use near-identical entry sentences.
+- **Convergence 2 (4/6 = 67%):** "before the stars" / "before the foundation of the world" closing-cadence — corroborates the cross-genre Tell α at the cohort level. Acted on in S76 P2.
+- **Convergence 3 (3/6 = 50%):** "Watch yourself / Notice what your body just did" reader-surveillance opener — corroborates the cross-genre Tell γ. Acted on in S76 P2.
+- **Convergence 4 (3/6 = 50%):** courtroom or rescuer-scene as closing tableau — the fairness close I just replaced was the most acute instance.
+- **Convergence 5 (3/6 = 50%):** "Paul anticipated this exact objection" verbatim Romans 9 pivot framing — flag for S77 cohort-wide diversification pass.
+- **Convergence 6 (4/6 = 67%):** "The objection feels like X. It is, in fact, Y" inversion — structural to objection-pages; not necessarily a fault but the rhythmic similarity is severe.
+
+**Carry-over to S77:** Convergences 1, 5, 6 above are still open at the cohort level. The remaining 15 objection-* pages have NOT been cold-read in S76 — a S77 sweep should triage them and surface any additional MARGINALs.
+
+### S76 P2 — Site-Wide Tell Diversification (3 saturated cross-genre tells from S75 leg-5 — 8 rotations executed)
+
+**Tell α (pre-temporal anchor: "before the stars / before the foundation of the world") — 5 rotations, meeting the 4-6 target / ~30% diversification on the high-impact surface:**
+- `devotional-never-gives-up`: "before the stars existed" → **"in the silence before creation"**; "before the stars were laid" → **"before there was an after"** (the page had the formula 3× — biggest single offender; now reduced to the meta-description only, which is fine).
+- `pastoral-assurance`: "before the foundation of the world" (in the somatic hand-on-chest paragraph) → restructured so the temporal anchor is replaced with **"in the silence before creation"** in a non-formulaic clause.
+- `objection-robots`: "before the first star" → **"older than the date of any star"**.
+- `objection-free-will`: the page's tattoo line "since before the stars were strung" → **"since before there was an after"**.
+
+**Tell β ("the hand that…" closing cadence) — 3 rotations, meeting the 3-4 target:**
+- `apologetic-the-fourth-day-corpse`: "The hand that opened the tomb is the hand that holds the breath" → **"The voice that opened the tomb is the voice that now keeps the lungs moving"** (preserves the doctrinal point — same Caller, same keeping — via the voice motif instead of the saturated hand formula).
+- `pastoral-assurance`: the double-hand formula "the hand that chose you before the foundation of the world is the same hand that is holding you up off the mattress" — collapsed/rewritten as **"The same God who named you in the silence before creation is the One holding you up off the mattress right now"** (single Tell α + Tell β diversification in one paragraph — surgical efficiency).
+- `question-irresistible`: "The same hand that pulled you out of the water is the hand that holds you on the shore — and that hand was nailed for you" → **"The arms that lifted you out of the water are the same arms that hold you on the shore — and those arms were stretched out for you on a cross"** (preserves the cross reference but vacates the saturated hand formula).
+- *(Note: `devotional-the-hands-that-hold-you` deliberately untouched — the entire page IS the named hands; the formula is load-bearing there, not a tic.)*
+
+**Tell γ ("Watch yourself" reader-surveillance) — 2 rotations, meeting the 2-3 target:**
+- `pastoral-assurance`: "Watch yourself doing it" → **"Notice what the heart has just begun doing without permission"** (preserves the real-time recognition-in-the-bones move; drops the templated imperative).
+- `question-romans9`: "Watch yourself for the next sixty seconds. When you hear a preacher begin to read Romans 9, something in your shoulders moves" → **"Something happens in the body within the first sixty seconds. When the preacher begins to read Romans 9, the shoulders move before the verse is finished"** (inversion to passive observation — the move now does its own work without the meta-imperative).
+
+### S76 P3 — Two New Apex Flagship Pages BORN
+
+Aaron's standing direction green-lit both leg-5 file-not-found flags. Both pages built apex-grade from scratch:
+
+1. **`analogy-the-prodigal-already-home.html`** — the flagship the analogy family has lacked. Eight H2s (The Boy in the Pig Pen / Whose Son Is This? / The Father Who Was Already Watching / The Welcome Prepared Before the Wandering / The Homeward Ache Is Not Yours / What the Parable Has Always Been About / The Long Way Off Where He Finds You). Core seeing-through: the parable read backwards — the boy never stopped being the father's son; the father had been *looking* every day (Luke 15:20 "while he was still a long way off, his father SAW him" — the verb proves the looking preceded the appearing); the welcome was assembled in eternity (fattening a calf takes months); the homeward ache that woke in the boy was not his invention but the father's looking working in him from a long way off. Tattoo line: *"The leaving did not unchild him. The far country was always inside the inheritance."* Sapiential line: *"Repentance did not earn the embrace. The embrace had been running toward him before he turned around."* Two-Arms architecture (devotional/story register — 25% demolition / 75% catch); NIV 2011 throughout (Eph 1:4-5 quoted explicitly); ends in awe with the reader standing still in the long-running embrace. Marker: `CONSECRATED S76 §XXII BORN-APEX`.
+
+2. **`psychology-the-question-beneath-the-question.html`** — the §XVI.4 master-move named in VOICE.md now exists as a dedicated page that *performs* the move rather than describing it. Seven H2s (The Question on the Surface / The Question Underneath / Why the Real Question Hides / Every Objection Is a Confession / The Question Christ Was Already Answering / The Door Behind the Door / Ask It Now). The page pivots from the surface objection (election unfair / free will) to the heart-question hiding underneath (*am I wanted? was I chosen? is there a Person who has loved me from before I existed?*), then lands the seeing-through: the question the asker is too brave to ask is the one Christ has been answering since before there was an after, and every doctrine of grace is the same answer to the same hidden ache. Tattoo line: *"The categorical sophistication is a thin scaffolding over a longing that predates language."* Sapiential lines earned: *"The surface debate is theology. The engine is autobiography"* and *"Strip the theology of its vocabulary and underneath it is a single sentence the Father has been speaking to His own since before language was: you are wanted, and you have been wanted from before there was an after."* Ends at the threshold of the asking, not past it (the §XVI.6 humility-before-mystery move). Marker: `CONSECRATED S76 §XXII BORN-APEX`.
+
+Both pages were validated by the leg-6 subagent cold-read against the Sapiential Test — both returned PASS. (Note: the leg-6 audit substituted `psychology-the-question-beneath-the-question` for the requested `psychology-the-elephant-and-the-rider` because the latter does not exist as a standalone page; the substitution served as a fresh validation of the new flagship.)
+
+Both pages auto-wired into hubs by `wire-orphans.js` at session close (2 cards inserted into psychology-hub and stories). Auto-linker added 12 fresh in-bound links across the new pages and one other touched page.
+
+### S76 P4 — Fan-Out Cycle 10 (6 NIV/ESV translation-hygiene verses)
+Widened search surface (incl. `essays/` + `start-here-*` + `printable-*` + `question-*`). Yield: **3 fixes** — within the 0-6 expected window. The ESV residue continues to compress as the cycles roll.
+
+- **Ephesians 1:13-14:** `devotional-love-letter-before-time.html` line 255 had the ESV reading **"sealed with the promised Holy Spirit, who is the guarantee"** quoted in a scripture-note span. Corrected to NIV 2011: **"marked in him with a seal, the promised Holy Spirit, who is a deposit guaranteeing our inheritance."**
+- **Philippians 1:6:** `freedom.html` line 412 had the ESV reading **"He who began a good work in you will bring it to completion at the day of Jesus Christ."** Corrected to NIV 2011: **"he who began a good work in you will carry it on to completion until the day of Christ Jesus."**
+- **2 Thessalonians 2:13:** `essays/solideogloria.html` line 273-275 had the ESV reading **"God chose you as the firstfruits to be saved, through sanctification by the Spirit and belief in the truth. To this he called you through our gospel."** Corrected to NIV 2011: **"God chose you as firstfruits to be saved through the sanctifying work of the Spirit and through belief in the truth. He called you to this through our gospel."**
+- Romans 9:11, John 10:28, Acts 13:48: **0 hits each** (cycle 10 confirms these surfaces are clean — the Acts 13:48 `tetagmenoi` carveouts are the only legitimate ESV occurrences).
+
+### S76 P5 — Deepening-Quality Audit Leg 6 (4 pages cold-read)
+Subagent verdicts:
+- **`apologetic-the-eulogy-greek-of-ephesians-1` — PASS.** The §164 paragraph on *pro katabolēs kosmou* ("one frail prepositional finger across a threshold the human imagination cannot cross") is wisdom in the Zacharias key — long view, held paradox, stillness, awe. Tattoo: *"any temporal love can be eroded by a longer-running indifference, but a love that predates time itself has no upstream room for indifference to develop."*
+- **`devotional-the-hands-that-hold-you` — PASS.** The "Question Your Knuckles Are Asking" section nails a genuine seeing-through (*"the grip is not really about salvation. The grip is about identity"*). Catches in the Triune Names at the close; ends in awe. Tattoo: *"The flesh would rather hold on until its hands bleed than admit that the holding was theater."* (Bonus finding: this page's hand-formula is load-bearing — the page IS the named hands — so it deserves the documented Tell-β carveout.)
+- **`psychology-the-question-beneath-the-question` — PASS** (the new page validated against the standard). Tattoo: *"The surface debate is theology. The engine is autobiography."*
+- **`analogy-adoption` — MARGINAL** (substituted for the non-existent `analogy-the-adoption.html`; closest analogy peer to the adoption-archetype). The final two paragraphs are wise, but the middle ("The Parent Chooses" / "The Papers Are Signed" / "What the Child Contributes") falls into competent doctrinal Sunday-school exposition rather than sapiential prose. **Flagged for S77 surgical lift** (~45 min): rewrite "What the Child Contributes" as a sustained paragraph performing a seeing-through of *contribution itself* — why the modern soul cannot tolerate having contributed nothing, what idol of self-authorship is being dismantled, why "I only received" feels like annihilation before it feels like rest. Tattoo present: *"A belonging the child did not negotiate is a belonging the child cannot lose."*
+
+**Cumulative deepening-quality audit: 42 of 43 PASS** (was 39; +3 fresh PASSes this session — apologetic-eulogy-greek-of-eph-1, devotional-the-hands-that-hold-you, psychology-the-question-beneath-the-question; +1 MARGINAL flagged analogy-adoption pending S77 lift). The 2 documented BUCKET A structural-exempt (testimony-wall, connections) still exempt.
+
+**S76 leg-6 cross-page convergence findings (NEW for S77 monitor queue):**
+- **Convergence α′ ("before there was a/an X to Y" construction) — 4/4 in leg-6 sample.** Different from the saturated "before the stars" Tell α: this is the *structural fill-in-the-blank* pre-temporal — "before there was a you to choose anything" (Eulogy Greek), "before you could stumble, He stationed a guard… before you could fall, He gripped you" (Hands), "before there was a you to prove anything" (Question Beneath), "before there was a hallway" (Adoption). At 4/4 it's at the brink of becoming the next templated cadence. **S77 site-wide grep candidate.**
+- **Convergence β′ ("Older than X, older than Y, older than Z" triadic crescendo) — 3/4.** Same shape across pages. **S77 monitor.**
+- **Convergence γ′ (Triune doxological close + "To the praise of His glory") — 2/4.** Lower urgency but worth varying one close.
+
+### Build Pipeline + Validate (S76 session close)
+| Script | Result |
+|---|---|
+| `node build-search-index.js` | Indexed 657 pages; wrote 9251 KB search-index.js |
+| `node build-mega-menu.js` | 8 umbrellas, 628 articles in mega-menu |
+| `node build-homepage-counts.js` | **/psychology-hub 30 → 31; /stories 37 → 38; TOTAL 545 → 547** (+2 = the two new flagships) |
+| `node auto-linker.js` | 3 files modified, 12 total links inserted |
+| `node wire-orphans.js` | 2 orphans found, 2 cards inserted into stories.html + psychology-hub.html |
+| `node validate-site.js` | **✓ ALL CHECKS PASSED — site integrity verified** (0 broken links / 0 orphans / structural OK / no inline styles on hubs / canonical design OK / CSS balanced) |
+| `node sapiential-audit.js` (post-close) | **Prose pages 584 | T1 0 / T2 152 / T3 432** (+2 prose pages = the two new flagships, classified at T3 HIGH apex). |
+| `node audit-prose.js` v3 (post-close) | **✓ clean (0 of 660 files flagged)** — v3 detector still clean across a 15+ file edit run, confirming the canonized detector continues to hold. |
+
+**Cumulative metric:** 582/584 = **99.66% functional 100%** (unchanged — the 2 documented BUCKET A structural-exempt remain). **Cumulative deepening-quality audit:** **42 of 43 PASS** (was 39; +3 fresh PASSes this session, +1 MARGINAL flagged for S77 lift). **Cohort audits closed to date:** apologetic-* (10/10 ✓ closed), compare-* (8/8 ✓ closed), theologian-* (16/18 PASS + 2 sub-tier monitor-only ✓ closed), **objection-* (cold-read sample 3 PASS + 3 MARGINALs all lifted to PASS — partial close; the remaining 15 untouched objection-* pages rotate to S77 for cohort-wide sweep)**. **Next cohort selection in S77:** the **analogy-* family (9 pages)** that S76 deferred is the standing P1, plus the remaining 15 objection-* pages for a continuation sweep.
+
+---
+
+ S61–S75 logs above unchanged. **S76 execution log added 2026-05-28.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*

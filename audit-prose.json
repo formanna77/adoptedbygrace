@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-28T01:10:54.746Z",
+  "generated": "2026-05-28T15:19:23.673Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
-    "articles_audited": 587,
+    "articles_audited": 589,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1251,
+    "total_sentences_flagged": 1258,
     "total_redundancy_pairs_suppressed": 20,
     "total_sentences_suppressed": 182,
     "articles_with_redundancy": 12,
-    "articles_with_flagged_sentences": 428,
-    "articles_clean": 153,
+    "articles_with_flagged_sentences": 433,
+    "articles_clean": 150,
     "suppression_by_class": {
       "scripture-tsunami": 11,
       "pedagogical-anaphora": 2,
@@ -1109,6 +1109,28 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 4
+    },
+    {
+      "file": "analogy-the-prodigal-already-home.html",
+      "paragraphs": 23,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 5,
+          "sentence_index": 3,
+          "flags": [
+            "padding-modifier:in the silence"
+          ],
+          "preview": "The father did not draw up the adoption papers at the door  —  they were drawn in the silence before creation."
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 1,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 1
     },
     {
       "file": "anxious-mind-brain-decides.html",
@@ -8052,15 +8074,23 @@
             "long:50w"
           ],
           "preview": "For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able"
+        },
+        {
+          "paragraph": 18,
+          "sentence_index": 7,
+          "flags": [
+            "padding-modifier:in the silence"
+          ],
+          "preview": "His burns with the same intensity it had when He named you in the silence before creation."
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 3
     },
     {
       "file": "devotional-not-my-will-but-joy.html",
@@ -11044,7 +11074,7 @@
     },
     {
       "file": "objection-author-of-sin.html",
-      "paragraphs": 34,
+      "paragraphs": 31,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -11075,8 +11105,8 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 30,
-          "sentence_index": 7,
+          "paragraph": 27,
+          "sentence_index": 6,
           "suppressed_flags": [
             "length-suppressed-anaphora:2-word:the one×3"
           ],
@@ -11203,16 +11233,25 @@
     },
     {
       "file": "objection-fairness.html",
-      "paragraphs": 34,
+      "paragraphs": 39,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 34,
+          "sentence_index": 1,
+          "flags": [
+            "padding-modifier:into the dark"
+          ],
+          "preview": "And mercy  —  real mercy, the kind that walked into the dark and brought back a name that was always yours  —  is worth more than every principle of fairness you have ever held."
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 1
     },
     {
       "file": "objection-faith-choice.html",
@@ -11292,9 +11331,18 @@
     },
     {
       "file": "objection-god-could-save-all.html",
-      "paragraphs": 27,
+      "paragraphs": 30,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 9,
+          "sentence_index": 3,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "He is not pacing the throne room frustrated that more have not been saved; He is bearing  —  with patience that has been holding the universe together longer than any of us can count  —  the very rebe"
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
@@ -11307,10 +11355,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 0
+      "score": 1
     },
     {
       "file": "objection-love-requires-choice.html",
@@ -12208,14 +12256,23 @@
       "file": "pastoral-assurance.html",
       "paragraphs": 27,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 25,
+          "sentence_index": 9,
+          "flags": [
+            "padding-modifier:in the silence"
+          ],
+          "preview": "The same God who named you in the silence before creation is the One holding you up off the mattress right now, and His is not a tired hand."
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 1
     },
     {
       "file": "pastoral-evangelism.html",
@@ -13689,6 +13746,36 @@
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
       "score": 0
+    },
+    {
+      "file": "psychology-the-question-beneath-the-question.html",
+      "paragraphs": 26,
+      "redundancy_pairs": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 16,
+          "sentence_index": 5,
+          "flags": [
+            "padding-modifier:in the silence"
+          ],
+          "preview": "The answer was given in the silence before creation, and the cross is what it looks like when that silent answer takes a body and bleeds."
+        },
+        {
+          "paragraph": 21,
+          "sentence_index": 3,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "It is the door of the four-year-old in the dark, and the question on the other side of it is the only question that has ever mattered."
+        }
+      ],
+      "suppressed_redundancy": [],
+      "suppressed_sentences": [],
+      "redundancy_count": 0,
+      "flagged_sentence_count": 2,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0,
+      "score": 2
     },
     {
       "file": "psychology-why-this-objection-proves-our-point.html",

@@ -589,7 +589,7 @@
  name: 'Psychology of Resistance',
  icon: '',
  href: '/psychology-hub',
- count: 30,
+ count: 31,
  pages: [
  { name: ' Are You Sure You\'re Saved?', href: '/psychology-cost-of-rejecting-grace', desc: 'One question exposes the most dangerous lie in the church: where did your faith come from? If you produced it, you are t' },
  { name: 'How We Secretly Redefine Grace to Include Ourselves', href: '/resistance-redefining-grace', desc: 'You think you understand grace. But have you unconsciously redefined it to include your own contribution? A gentle demol' },
@@ -601,6 +601,7 @@
  { name: 'The Credit Thief Inside Your Brain', href: '/psychology-attribution-error', desc: 'The Fundamental Attribution Error explains why humans instinctively take credit for outcomes they didn\'t cause — includ' },
  { name: 'The Language You Already Speak', href: '/psychology-language-you-already-speak', desc: 'Christians unknowingly use Calvinist language every day. Your verbs betray your theology. Discover how your own words co' },
  { name: 'The Last Idol: Why Self-Sovereignty Is the Hardest Thing to Surrender', href: '/resistance-last-idol', desc: 'Self-sovereignty is the idol that hides behind every other idol — the conviction that you are the captain of your soul. ' },
+ { name: 'The Question Beneath the Question', href: '/psychology-the-question-beneath-the-question', desc: 'Every objection to grace is a refraction of a deeper question the objector has not yet been brave enough to ask.' },
  { name: 'The Sincerity Trap', href: '/psychology-sincerity-trap', desc: 'Why the warmest, most sincere believers are often the hardest to reach with truth. How sincerity itself becomes the armo' },
  { name: 'The Stockholm Syndrome of Sin: Why We Defend Our Bondage', href: '/psychology-stockholm-syndrome-sin', desc: 'Hostages bond with their captors. Sinners bond with their sin. Why the enslaved will fights for the prison and defends t' },
  { name: 'The Sunk Cost of Self-Made Faith', href: '/psychology-sunk-cost-faith', desc: 'The sunk cost fallacy — the tendency to keep investing in something because of what you\'ve already spent — explains why' },
@@ -627,7 +628,7 @@
  name: 'Stories, Parables & Analogies',
  icon: '',
  href: '/stories',
- count: 38,
+ count: 39,
  pages: [
  { name: 'A Baby Doesn\'t Interview for a Family', href: '/analogy-adoption', desc: 'An orphan doesn\'t sign their own adoption papers . They don\'t evaluate the parents. They don\'t approve the transactio' },
  { name: 'A Love Letter Written Before Time Began', href: '/story-the-letter-before-the-world', desc: 'She found a letter her father wrote before she was born — before he even knew he would adopt her. A tender story about b' },
@@ -660,6 +661,7 @@
  { name: 'The Orchestra That Thinks It Wrote the Symphony', href: '/analogy-orchestra', desc: 'Every musician plays with real skill, real passion, real artistry. And every note was written before they arrived. The o' },
  { name: 'The Orphanage — A Story About Being Chosen by Grace', href: '/story-the-orphanage', desc: 'Every child believed they chose their family. Then one girl found the records room.' },
  { name: 'The Person Who Chose God — A Dark Thought Experiment', href: '/story-the-person-who-chose-god', desc: 'Imagine someone who chose God entirely on their own — no grace, no regeneration, no gift of faith. What would that look ' },
+ { name: 'The Prodigal Was Already Home', href: '/analogy-the-prodigal-already-home', desc: 'The boy was the father' },
  { name: 'The River That Thinks It Chose Its Path', href: '/analogy-river', desc: 'A river flows freely — rushing, turning, cascading. But every twist was determined by terrain carved before the first dr' },
  { name: 'The Rope You Wove Yourself', href: '/story-dark-the-rope-you-wove-yourself', desc: 'A man falls into a well. He climbs out on a rope he believes he wove himself. Years later, in the daylight, he sees what' },
  { name: 'The Self-Made Man: A Story About Self-Salvation', href: '/story-the-self-made-man', desc: 'A memoir he didn\'t write. 7 min read · A satirical memoir on the absurdity of taking credit for what was given Chapter ' },
