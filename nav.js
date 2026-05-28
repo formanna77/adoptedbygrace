@@ -734,7 +734,7 @@
  { name: 'Jonathan Edwards — The Mind That Set a Nation on Fire', href: '/theologian-edwards', desc: 'Jonathan Edwards (1703–1758) was America\'s greatest theologian and the intellectual architect of the Great Awakening . ' },
  { name: 'Martin Luther: The Monk Who Broke the Church to Save It', href: '/theologian-luther', desc: 'Then came the tower. Lecturing through Romans as a young professor at Wittenberg, Luther stopped at chapter 1, verse 17:' },
  { name: 'Martyn Lloyd-Jones — The Doctor Who Left Medicine to Diagnose the Soul', href: '/theologian-lloydjones', desc: 'He left a royal physician' },
- { name: 'R.C. Sproul: The Theologian Grace Wouldn\'t Release', href: '/theologian-sproul', desc: 'Robert Charles Sproul Jr. arrived in seminary with a mission: to dismantle Calvinism from the inside. He was not hostile' },
+ { name: 'R.C. Sproul: The Theologian Grace Wouldn\'t Release', href: '/theologian-sproul', desc: 'Robert Charles Sproul arrived in seminary with a mission: to dismantle Calvinism from the inside. He was not hostile—he ' },
  { name: 'Thomas Boston: The Scottish Pastor Who Fought Legalism with Grace', href: '/theologian-boston', desc: 'Thomas Boston (1676-1732) spent his life in tiny Scottish parishes and changed the faith of a nation. His recovery of fr' },
  { name: 'Thomas Bradwardine — The Mathematician Who Proved God\'s Sovereignty', href: '/theologian-bradwardine', desc: 'A 14th-century mathematician brought equations to bear on the doctrines of grace — and forty days after becoming Archbis' }
  ]

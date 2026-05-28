@@ -1321,4 +1321,101 @@ The S73 compare-* monitoring queue (Lazarus-corpse saturation, 1%/99% wording, "
 
 ---
 
- S61–S73 logs above unchanged. **S74 execution log added 2026-05-27.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
+## §XXI. S75 EXECUTION LOG — Maintenance Phase Leg 5: Theologian-* Cohort Close-Out (3 deferred MARGINALs lifted) + Cohort Tell-Breaking (4 In-Brief rewrites + 2 close variations) + Fan-Out Cycle 9 (8 fixes) + Deepening-Quality Audit Leg 5 (3 PASS + 1 MARGINAL surgically lifted)
+
+Date: 2026-05-27. Picking up the work S74 deferred: closing the theologian-* cohort, breaking the three saturated cross-page tells the S74 subagent surfaced, running the long-deferred deepening-quality audit leg 5, and the standing fan-out cycle. The work happened in seven movements — leaner pre-flight (canonized v3 detector), three surgical lifts of the deferred MARGINALs, six cohort tell-breaking interventions (4 In-Briefs + 2 closes), eight fan-out fixes (above the 0-6 expected window), one subagent cold-read leg yielding three fresh PASSes and one MARGINAL repaired, and the standing close.
+
+### The S75 Pre-Flight (leaner since S73 canonization)
+
+| Phase | Result |
+|---|---|
+| `node sapiential-audit.js` | **582 prose pages (unchanged from S74 baseline)**, T1=0 / T2=152 / T3=430 — distribution stable |
+| `node audit-prose.js` (v3 structural-rot + v2 prose-integrity in one invocation) | **✓ clean (0 of 658 flagged on the v3 structural-rot scan)** — second consecutive session with the canonized v3 detector flagging zero |
+| Widened ESV grep (incl. essays/ + printable-*) | clean (only the documented `apologetic-tetagmenoi-acts-13-48` + `question-acts` page-native exposition carveouts) |
+| Banned-move grep on the three S75-touched theologian pages | clean (Wycliffe / Sproul / Lloyd-Jones — zero hits each before lift; zero hits each after lift) |
+| Diff prose-page count vs S74 baseline | 0 (582 → 582 unchanged) |
+
+**Result:** pre-flight green; site enters S75 from a clean base.
+
+### P1 — The Three Deferred Theologian-* MARGINALs Lifted to PASS
+
+| Page | S74 verdict | S75 surgical lift |
+|---|---|---|
+| **theologian-wycliffe** | MARGINAL | **§VIII–§IX rewritten + still-point close added**: replaced "Why Wycliffe Matters Now" — the journalism-register §VIII whose central line was "*Information wants to be free, we say*" — with two new sections: "What an Institution Confesses When It Fears Its Laity" (the seeing-through: *gatekeeping at the entrance to a text is a confession that the text, read in clear light, contradicts the gatekeeper*; Rome had read the New Testament — that was the problem) and "Why Truth Cannot Be Burned" (the fresh sapiential line replacing the "information wants to be free" trope: *truth is not a resource that needs human stewardship to survive; truth is the floor the world is built on; to set fire to it is to set fire to the surface you are standing on; the flames go nowhere and you yourself fall through*). The admin-copy "Go Deeper" close was replaced with the still-point ending "And the Bible in Your Hand" — the book in your hand was in the foreknowledge of God before any of the men who died for it lived. *Read it. He still speaks through it.* CONSECRATED marker added. |
+| **theologian-sproul** | MARGINAL | **Three moves**: (1) factual correction — page misidentified him five times as "Robert Charles Sproul Jr." (the son, still living); the page is about Sproul Sr. (1939–2017), corrected throughout; (2) the counterfeit "tsunami" sapiential line — *"Grace is not a transaction you make. It is a tsunami that takes you"* — replaced with: *"Grace is not a transaction a man makes. It is what happens to him in the moment a single sentence of Scripture shows him, all at once, what he had refused his whole life to see. The change is not in the doctrine. The change is in the man."* (seeing-through, not rhetorical lift); (3) the §IV–§VI magazine-profile drift (Ligonier / Master Teacher / Legacy — three sections, ~875 words) compressed to two tighter sections + one sapiential press paragraph (~565 words, 35% reduction), with the new center of gravity "What the Holiness of God Asks of You" — the door that has only ever had one direction of swing: *until a man has seen the holiness of God, he will argue with election; after he has seen it, the question is no longer "why not all?" but "why any?" and in particular "why me?"* Close varied to third-person ("the legacy of a conquered man") without the "and so are you" pivot. CONSECRATED marker added. |
+| **theologian-lloydjones** | MARGINAL (close to PASS) | **Three surgical Edits** (the lightest of the three): (1) §III opening biographical paragraph tightened ~25% — the "trajectory was incandescent / standard imperial laurels" cadence trimmed to the load-bearing facts; (2) the long §IV "letters in the margin / over-spiritualizing / wrong shape for his hand" backstory cut by ~60% to the essential image — *every refusal felt, in the writing, like a forgery — as if the pen kept moving but the hand belonged to someone else*; (3) the borrowed "logic on fire" catchphrase replaced as the page's sapiential line with a freshly distilled one earned by the page's own logic about the doctor-patient inversion: *"The only doctrine a man can preach with fire is one that has already burned him alive — the rest is the sound of a man tending a candle he has not warmed himself by."* CONSECRATED marker added. |
+
+**Cohort tally on theologian-* family: 16 of 18 PASS (was 13 of 18 pre-S75).** Plus 1 PASS from MARGINAL via the deepening-quality leg 5 lift (devotional-never-gives-up, infra). Two pages remain monitor-only sub-tier: theologian-machen and theologian-bradwardine (both PASS, no MARGINAL flag — just minor sub-tier polish if any future audit surfaces it). **The theologian-* cohort audit is hereby closed; the rotation moves on to the next at-risk family in S76.**
+
+### P2 — Cohort Tell-Breaking on 6 Apex PASS Pages
+
+The S74 subagent flagged four cross-page rhythm convergences crossing the 50% saturation line. The Owen rebuild (S74) already broke two of them by design. **S75 acted on the remaining three saturated tells across 6 apex PASS pages — 4 In-Brief rewrites + 2 close variations.** Each touched page now has its own rhythm distinct from the lock-step.
+
+| Tell | Saturation | S75 action |
+|---|---|---|
+| **Tell C — In-Brief boilerplate triplet** (man + sketch → "What he most sharpened is…" → "The catch is…") | 8 of 18 = 44% | **4 In-Briefs rewritten** with distinct rhythms each: (1) **Machen** — question-led ("*Is liberalism a variety of Christianity, or a different religion wearing Christian clothes?*" then his career as the answer); (2) **Spurgeon** — scriptural anchor first then biography illustrating ("*Look unto me, and be ye saved, all the ends of the earth.* Charles Spurgeon was fifteen years old when a snowstorm drove him into a Primitive Methodist chapel in Colchester…"); (3) **Whitefield** — arithmetic-led ("Eighteen thousand sermons. Thirteen Atlantic crossings. Open-air crowds of tens of thousands in Boston Common and Moorfields, by voice alone…"); (4) **Warfield** — position-of-attack ("The line B.B. Warfield held for thirty-four years from a Princeton chair is the one a modern heart will fight hardest to give up…"). |
+| **Tell A — return-to-opening-scene close** | 10 of 18 = 56% | **2 closes varied**: (1) **Augustine** — the explicit reader-pivot paragraph "*You were held before the foundation of the world. You are held right now, between this sentence and the next…*" rebuilt to third-person communal confession ("*Augustine was held before the foundation of the world… The only move available to a fish already on the shore is to stop thrashing and look up at the One who dragged him home, and the bishop did, and the church confessed beside him what he had confessed, and the Synod of Dort would confess again, and the elect have been confessing ever since*"); the doxological close that follows now lands without the second-person pivot competing with it. (2) **Bradwardine** — the double "And so are you" closing pivot (twice at saturation: "*And so are you, if Christ has bought you*" + final-line "*And so are you*") replaced with a third-person mathematical-fugue landing: "*The Composer who governs each voice of the fugue does not stop composing when one of His instruments is laid down*" + final line "*He proved it. Then he was held. The equations did not need him to remain true.*" |
+| **Tell B — "and so are you" / "is holding you now" reader-pivot close** | 8 of 18 = 44% | Broken simultaneously by the Augustine + Bradwardine close variations above (both were Tell-B exemplars). |
+| **Tell D — cinematic in-scene opener** | 10 of 18 = 56% — MONITOR-EDGE-OF-ACT | Not acted on this session per the kickoff's "optional, lower priority than A–C" guidance; carried to S76 monitor queue if it surfaces again. |
+
+### P3 — Fan-Out Cycle 9 (8 fixes — above the 0-6 expected window)
+
+| Verse | Hits found | Fixes |
+|---|---|---|
+| **John 6:65** ESV "*it is granted him by the Father*" → NIV 2011 "*the Father has enabled them*" | 1 | essays/you-cannot-escape-the-text.html line 131 |
+| **Romans 8:7** ESV "*the mind that is set on the flesh*" → NIV 2011 "*the mind governed by the flesh*" | 1 | essays/you-cannot-escape-the-text.html line 206 |
+| **Romans 8:29** ESV "*in order that he might be the firstborn among many brothers*" → NIV 2011 "*that he might be the firstborn among many brothers and sisters*" | 5 | essays/you-cannot-escape-the-text + start-here-phase3 + question-goldchain + start-here-phase2 + question-foreknowledge |
+| **Hebrews 12:2** ESV "*the founder and perfecter of our faith*" → NIV 2011 "*the pioneer and perfecter of faith*" | 1 | connections.html line 836 (the documented `(NIV)` carveout location — corrected: the attribution was wrong, the prose attributed the ESV reading to NIV; now reads the actual NIV 2011 wording) |
+| **2 Timothy 2:25** ESV "*God may perhaps grant them repentance leading to a knowledge of the truth*" → NIV 2011 "*In the hope that God will grant them repentance leading them to a knowledge of the truth*" | 1 | essays/solideogloria.html line 244 |
+| 1 Peter 1:2, Acts 16:14 — sweep cohort | 0 | clean across all .html including essays/ + printable-* |
+
+**Yield: 8 fixes across 7 files** — above the 0-6 expected window. The propagation surface for Rom 8:29 was wider than estimated (5 hits across start-here-* + question-* + essays/* — the start-here phase pages are a previously under-scanned propagation surface to monitor). Post-cycle ESV battery re-run: **clean** on the full 17-term battery (only the documented `tetagmenoi` + `question-acts` exposition carveouts remain).
+
+### P4 — Deepening-Quality Audit Leg 5 (deferred from S74)
+
+Subagent dispatched to cold-read six suggested pages from the kickoff rotation. **Results: 3 PASS + 1 MARGINAL + 2 file-not-found.**
+
+| Page | Verdict | Note |
+|---|---|---|
+| apologetic-the-fourth-day-corpse | **PASS** | "*Your obedient response was not the foundation of the resurrection; it was the resurrection's first symptom*" — apex sapiential line earned by the page's six-motions diagram |
+| pastoral-assurance (substituted for missing pastoral-when-doubt-comes) | **PASS** | "*It has held galaxies open on their axes for fourteen billion years without flinching, and the weight of one anxious saint awake in the dark does not register on the scale.*" — body-in-the-room opener + seeing-through the symptom (insomnia) to the disease (false foundation) |
+| analogy-the-prodigal-already-home | **FILE NOT FOUND** | Page does not exist; nearest extant analogies are adoption/chess/doctor-corpse/lazarus-grave etc. No prodigal-themed analogy page exists. **Flag for S76**: either create a flagship analogy-the-prodigal-already-home OR remove from cold-read rotation |
+| question-romans9 | **PASS** | "*You do not object to unearned gifts. You object to unearned grace.*" — the Haidt rider-elephant move sees through the apparatus that manufactured the objection |
+| devotional-never-gives-up | **MARGINAL → PASS** (lifted same session) | Subagent flag: closing reflection-box ("Close your eyes for ten seconds…") dilutes the still-point line "He will never give up on you." S75 surgical fix: cut the reflection-box; page now ends on the tattooable line, with rabbit-hole cards intact below. CONSECRATED marker updated to "S67, S75 §XVI SAPIENTIAL DEEPEN (still-point-restored)". |
+| psychology-the-question-beneath-the-question | **FILE NOT FOUND** | Page does not exist. The phrase "*the question beneath the question*" is core sapiential vocabulary from CLAUDE.md / VOICE.md §XVI — its absence as a dedicated page may be a strategic gap. **Flag for S76**: candidate creation as a flagship sapiential-register doorway. |
+
+**Cumulative deepening-quality audit running tally: 39 of 39 PASS** (was 35 of 35 going into S75; +3 fresh apex PASSes from this leg + 1 lifted-same-session MARGINAL → PASS for never-gives-up = 39). The 2 documented BUCKET A structural-exempt pages (`testimony-wall`, `connections`) remain exempt.
+
+### The S75 Cross-Page Finding — Subagent Surfaced Five New Convergences in the Deepening-Quality Audit Cohort
+
+Standing S72/S73/S74 rule: every subagent cold-read must flag cross-page rhythm convergences. S75 leg 5 produced **five new convergences worth carrying into the S76 monitor queue:**
+
+| Convergence | Pages exhibiting | Saturation | Status |
+|---|---|---|---|
+| **The "before the stars / before the foundation of the world / before time existed" pre-temporal anchor** | Fourth-Day-Corpse, Pastoral-Assurance, Romans 9, Never-Gives-Up (alone uses the construction 3×) | **4 of 4 = 100% on the leg-5 sample** | **MAXIMAL SATURATION — flag for S76 diversification pass.** This is the single most-saturated phrase across the corpus when sampled at random. Alternates to rotate: "before time had a name," "before the first morning," "before any breath had been drawn," "before the world was named," "in the silence before creation" |
+| **The "the hand that…" closing cadence** | Fourth-Day-Corpse, Pastoral-Assurance, Never-Gives-Up (implicit "two hands"); previously documented from the theologian-* cohort | **3 of 4 = 75% on the leg-5 sample** | **SATURATED — flag for S76.** Becoming the site's house close. Alternates: body-in-the-room still-point, the question-left-hanging close, the single-sentence imperative, scriptural last word, direct doxology |
+| **The "watch yourself / notice what just happened / watch what your body does" reader-surveillance move** | Romans 9 ("Watch yourself for the next sixty seconds"), Never-Gives-Up ("Watch what your body does on the word *cannot*"), Pastoral-Assurance ("Watch yourself doing it") | **3 of 4 = 75%** | **SATURATED — flag for S76.** Highly effective individually but now formulaic across pages. The framing sentence ("Watch yourself…") is the part that needs rotation, not the underlying move |
+| **In-Brief boilerplate cadence (scriptural fact → exclusion → catch)** | 3 of 4 leg-5 In-Briefs | 75% | MONITOR — extends the S74 finding on the theologian-* cohort that the In-Brief is converging site-wide on a recognizable rhythm |
+| **Greek-word-as-warrant rhythm** (templated framing sentence "The Greek beneath that word is…") | 3 of 4 (ho tethnēkōs / sklērynei / ou mē apolōntai) | 75% | MONITOR — the §XV transparency move is authentic but the framing sentence is becoming detectable as templated; alternates: name the Greek inline without "the Greek beneath," let the Greek do the work in apposition, drop the meta-frame in shorter expositions |
+
+### S75 Closing Audit — Confirmed Through Build
+
+| Phase | Result |
+|---|---|
+| Pre-flight sapiential-audit.js | 582 prose pages (unchanged from S74 baseline) |
+| Pre-flight audit-prose.js v3 structural-rot | **✓ clean (0 of 658)** |
+| Pre-flight widened ESV grep | clean (carveouts documented) |
+| Pre-flight banned-move grep on touched pages | clean |
+| P1 three deferred MARGINALs lifted | wycliffe + sproul + lloydjones — all 3 PASS |
+| P2 cohort tell-breaking | 4 In-Brief rewrites (Machen, Spurgeon, Whitefield, Warfield) + 2 close variations (Augustine, Bradwardine) |
+| P3 fan-out cycle 9 | 8 fixes across 7 files — above the 0-6 expected window; Rom 8:29 propagation surface wider than estimated |
+| P4 deepening-quality audit leg 5 | 3 PASS + 1 MARGINAL surgically lifted same session + 2 file-not-found flagged for S76 |
+| Post-build re-run audit-prose.js v3 | **✓ clean (0 of 658)** — S75 edits did not introduce structural rot |
+| Build pipeline (5 scripts) | ✓ all green; auto-linker added 2 internal links (expected behavior) |
+| validate-site.js | **✓ ALL CHECKS PASSED — site integrity verified** (0 broken links / 0 orphans / structural OK / no inline styles on hubs / canonical design OK / CSS balanced) |
+
+**Cumulative metric:** 580/582 = 99.66% functional 100% (unchanged). **Cumulative deepening-quality audit:** **39 of 39 PASS** (was 35; +4 this session — fourth-day-corpse, pastoral-assurance, question-romans9, never-gives-up). **Cohort audits closed to date:** apologetic-* (10/10 ✓ closed), compare-* (8/8 ✓ closed), theologian-* (**16/18 PASS + 2 sub-tier monitor-only ✓ closed**). **Next cohort selection in S76:** objection-* family (~7 pages) OR analogy-* family (~12-15 pages) — choose whichever the S76 pre-flight surfaces as at-risk.
+
+---
+
+ S61–S74 logs above unchanged. **S75 execution log added 2026-05-27.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*

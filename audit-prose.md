@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-05-27T23:52:53.710Z
+**Generated:** 2026-05-28T01:10:54.766Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -18,9 +18,9 @@
 | Articles with (genuine) redundancy | 12 (2.0%) |
 | Articles with (genuine) flagged sentences | 428 (72.9%) |
 | **Total redundancy pairs flagged (genuine)** | **12** |
-| **Total sentences flagged (genuine)** | **1249** |
+| **Total sentences flagged (genuine)** | **1251** |
 | Redundancy pairs suppressed (apex-tier exemptions) | 20 |
-| Sentence flags suppressed (coherence-positive) | 181 |
+| Sentence flags suppressed (coherence-positive) | 182 |
 
 ### Suppression breakdown by exemption class
 
@@ -61,7 +61,7 @@
 22. **ethics-immigration.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 18 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 23. **ethics-marriage.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 24. **story-dark-the-rope-you-wove-yourself.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 49 paragraphs)
-25. **theologian-augustine.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 43 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
+25. **theologian-augustine.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 43 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
 26. **theologian-gottschalk.html** — score 8 (0 redundancy pairs, 8 flagged sentences, 28 paragraphs)
 27. **apologetic-gave-himself-for-the-bride.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 14 paragraphs) *[0 pairs + 1 sentences auto-suppressed]*
 28. **apologetic-he-did-not-spare-his-own-son.html** — score 7 (0 redundancy pairs, 7 flagged sentences, 11 paragraphs) *[0 pairs + 2 sentences auto-suppressed]*
@@ -496,7 +496,7 @@
 
 **Suppressions** (auto-filtered as exemptions / coherence-positives):
 
-- 1 sentence flag suppressed (anaphora / chiasm / embedded-quotation)
+- 2 sentence flags suppressed (anaphora / chiasm / embedded-quotation)
 
 ### theologian-gottschalk.html — score 8
 

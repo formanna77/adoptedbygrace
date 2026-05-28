@@ -2,14 +2,14 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-27T23:52:53.690Z",
+  "generated": "2026-05-28T01:10:54.746Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 587,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1249,
+    "total_sentences_flagged": 1251,
     "total_redundancy_pairs_suppressed": 20,
-    "total_sentences_suppressed": 181,
+    "total_sentences_suppressed": 182,
     "articles_with_redundancy": 12,
     "articles_with_flagged_sentences": 428,
     "articles_clean": 153,
@@ -244,7 +244,7 @@
       "redundancy_count": 0,
       "flagged_sentence_count": 8,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
+      "suppressed_sentence_count": 2
     },
     {
       "file": "theologian-gottschalk.html",
@@ -670,15 +670,6 @@
       "suppressed_sentence_count": 0
     },
     {
-      "file": "theologian-bradwardine.html",
-      "score": 5,
-      "paragraphs": 29,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 5,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 0
-    },
-    {
       "file": "theologian-bunyan.html",
       "score": 5,
       "paragraphs": 18,
@@ -740,6 +731,15 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
+    },
+    {
+      "file": "apologetic-i-know-whom-i-have-believed.html",
+      "score": 4,
+      "paragraphs": 12,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 4,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 1
     }
   ],
   "articles": [
@@ -8034,7 +8034,7 @@
     },
     {
       "file": "devotional-never-gives-up.html",
-      "paragraphs": 31,
+      "paragraphs": 30,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19791,6 +19791,14 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
+          "paragraph": 39,
+          "sentence_index": 4,
+          "suppressed_flags": [
+            "length-suppressed-anaphora:2-word:and the×4"
+          ],
+          "preview": "The only move available to a fish already on the shore is to stop thrashing and look up at the One who dragged him home "
+        },
+        {
           "paragraph": 42,
           "sentence_index": 1,
           "suppressed_flags": [
@@ -19802,7 +19810,7 @@
       "redundancy_count": 0,
       "flagged_sentence_count": 8,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1,
+      "suppressed_sentence_count": 2,
       "score": 8
     },
     {
@@ -19829,7 +19837,7 @@
     },
     {
       "file": "theologian-bradwardine.html",
-      "paragraphs": 29,
+      "paragraphs": 28,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19860,14 +19868,6 @@
           "paragraph": 25,
           "sentence_index": 2,
           "flags": [
-            "long:60w"
-          ],
-          "preview": "The God who set the boundaries of nations before Jacob or Esau had done anything is the same God who set the boundaries of your life  —  the parents you were born to, the year you were born in, the mo"
-        },
-        {
-          "paragraph": 26,
-          "sentence_index": 2,
-          "flags": [
             "long:50w"
           ],
           "preview": "Humans are creatures held in the hand of an infinite God who can take them away in a heartbeat  —  and who never lets His chosen go , not even through the valley of plague, even when the bells of Cant"
@@ -19876,10 +19876,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 5,
+      "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 5
+      "score": 4
     },
     {
       "file": "theologian-bunyan.html",
@@ -20130,11 +20130,11 @@
         },
         {
           "paragraph": 9,
-          "sentence_index": 2,
+          "sentence_index": 3,
           "flags": [
-            "long:50w"
+            "long-simile:15w"
           ],
-          "preview": "Lloyd-Jones spent that autumn writing letters to himself in the margin of his medical notebooks  —  short paragraphs that wrestled with whether the call was real, whether he was over-spiritualizing wh"
+          "preview": "Every refusal felt, in the writing, like a forgery  —  as if the pen kept moving but the hand belonged to someone else."
         },
         {
           "paragraph": 10,
@@ -20294,33 +20294,41 @@
     },
     {
       "file": "theologian-sproul.html",
-      "paragraphs": 27,
+      "paragraphs": 20,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
           "paragraph": 4,
-          "sentence_index": 2,
+          "sentence_index": 4,
           "flags": [
-            "long:48w"
+            "long:78w"
           ],
-          "preview": "And Sproul became one of the few theologians in history who would dedicate his entire life to helping others see what broke him — that total depravity is total, that God's grip is irresistible , and t"
+          "preview": "From that morning forward Sproul became one of the few theologians of his century who would spend the whole remainder of his days helping other men live through the same morning  —  to see how total d"
         },
         {
-          "paragraph": 24,
-          "sentence_index": 2,
+          "paragraph": 15,
+          "sentence_index": 0,
           "flags": [
-            "long:59w"
+            "long:52w"
           ],
-          "preview": "It belongs wherever a human being is asking the deepest question: \"How am I saved?\" And the answer — the true answer, the biblical answer, the glorious answer — is: by grace alone, through faith alone"
+          "preview": "In 1971, at thirty-two, Sproul founded Ligonier Ministries in a quiet Pennsylvania town, on a conviction that would prove to be the work of his life: that the welder and the schoolteacher and the pris"
+        },
+        {
+          "paragraph": 17,
+          "sentence_index": 4,
+          "flags": [
+            "long:52w"
+          ],
+          "preview": "Once He is truly seen, every protest dies in the throat that was about to speak it, and the system  —  election, depravity, the impossibility of any other ground of hope  —  arrives intact and unprote"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 3
     },
     {
       "file": "theologian-spurgeon.html",
@@ -20413,7 +20421,7 @@
     },
     {
       "file": "theologian-wycliffe.html",
-      "paragraphs": 24,
+      "paragraphs": 25,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -20423,15 +20431,31 @@
             "mixed-metaphor:courtroom+fire+body"
           ],
           "preview": "The fact that Rome felt compelled to dig up his bones and burn them forty-four years after his death is perhaps the most eloquent testimony to his significance."
+        },
+        {
+          "paragraph": 19,
+          "sentence_index": 1,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "Wycliffe's confrontation with Rome was not a debate about access; it was a daylight inspection of what was being kept in the dark, and why."
+        },
+        {
+          "paragraph": 20,
+          "sentence_index": 3,
+          "flags": [
+            "long:83w"
+          ],
+          "preview": "The quarrel arrived the moment an unlettered plowman in a Yorkshire field could pick up the same sentences and discover that they did not say what the cathedral said they said — that the gospel announ"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 3
     },
     {
       "file": "two-arms.html",
