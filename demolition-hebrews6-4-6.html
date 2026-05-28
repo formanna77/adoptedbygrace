@@ -37,39 +37,39 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://adoptedbygrace.net/#organization",
-      "name": "Adopted by Grace",
-      "url": "https://adoptedbygrace.net",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://adoptedbygrace.net/og-image.png",
-        "width": 1200,
-        "height": 630
-      },
-      "sameAs": [
-        "https://twitter.com/ForeknownOne",
-        "https://foreknownone.substack.com"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://adoptedbygrace.net/#website",
-      "url": "https://adoptedbygrace.net",
-      "name": "Adopted by Grace",
-      "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
-      "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      },
-      "inLanguage": "en-US"
-    }
+  {
+  "@type": "Organization",
+  "@id": "https://adoptedbygrace.net/#organization",
+  "name": "Adopted by Grace",
+  "url": "https://adoptedbygrace.net",
+  "logo": {
+  "@type": "ImageObject",
+  "url": "https://adoptedbygrace.net/og-image.png",
+  "width": 1200,
+  "height": 630
+  },
+  "sameAs": [
+  "https://twitter.com/ForeknownOne",
+  "https://foreknownone.substack.com"
+  ]
+  },
+  {
+  "@type": "WebSite",
+  "@id": "https://adoptedbygrace.net/#website",
+  "url": "https://adoptedbygrace.net",
+  "name": "Adopted by Grace",
+  "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
+  "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
+  "potentialAction": {
+  "@type": "SearchAction",
+  "target": {
+  "@type": "EntryPoint",
+  "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
+  },
+  "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "en-US"
+  }
   ]
 }
 </script>
@@ -94,22 +94,22 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
   {
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Home",
-    "item": "https://adoptedbygrace.net/"
+  "@type": "ListItem",
+  "position": 1,
+  "name": "Home",
+  "item": "https://adoptedbygrace.net/"
   },
   {
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Demolition",
-    "item": "https://adoptedbygrace.net/demolition-hub"
+  "@type": "ListItem",
+  "position": 2,
+  "name": "Demolition",
+  "item": "https://adoptedbygrace.net/demolition-hub"
   },
   {
-    "@type": "ListItem",
-    "position": 3,
-    "name": "Can You Lose Your Salvation? What Hebrews 6:4-6 Actually Teaches",
-    "item": "https://adoptedbygrace.net/demolition-hebrews6-4-6"
+  "@type": "ListItem",
+  "position": 3,
+  "name": "Can You Lose Your Salvation? What Hebrews 6:4-6 Actually Teaches",
+  "item": "https://adoptedbygrace.net/demolition-hebrews6-4-6"
   }
 ]
 }
@@ -125,165 +125,165 @@
 <body>
 
     <nav role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <a href="/" class="nav-site-name">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            </button>
-            <ul class="nav-links">
-                <li class="mobile-menu-search" style="list-style:none;">
-                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
-                </li>
-                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
-                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
-                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
-                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
-                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
-                <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
-                <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
-            </ul>
-            <div class="nav-right">
-                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
-                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
-                <a href="/start-here" class="nav-top-link">Start Here</a>
-                <a href="/questions" class="nav-top-link">Questions</a>
-                <a href="/systematic-theology" class="nav-top-link">Theology</a>
-                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
-                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
-                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
-                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
-                <a href="/about" class="nav-top-link">About</a>
-                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
-                    <span class="mega-menu-toggle-label">Explore</span>
-                </button>
-                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                </button>
-            </div>
-        </div>
+   <div class="nav-container">
+   <a href="/" class="nav-site-name">Adopted by Grace</a>
+   <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+   <span></span><span></span><span></span>
+   </button>
+   <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+   <ul class="nav-links">
+   <li class="mobile-menu-search" style="list-style:none;">
+   <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+</li>
+   <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+   <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+   <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+   <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+   <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+   <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+   <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+   <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+   <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+   <li class="mobile-nav-link"><a href="/about">About</a></li>
+   <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+   </ul>
+   <div class="nav-right">
+   <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+   <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+   <a href="/start-here" class="nav-top-link">Start Here</a>
+   <a href="/questions" class="nav-top-link">Questions</a>
+   <a href="/systematic-theology" class="nav-top-link">Theology</a>
+   <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+   <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+   <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+   <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+   <a href="/about" class="nav-top-link">About</a>
+   <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+   <span class="mega-menu-toggle-label">Explore</span>
+   </button>
+   <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+</div>
+</div>
     </nav>
     <div class="mega-menu" id="megaMenu"></div>
     <div class="search-overlay" id="searchOverlay">
-        <div class="search-overlay-inner">
-            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
-            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
-        </div>
-        <div class="search-results" id="searchResults"></div>
-    </div>
+   <div class="search-overlay-inner">
+   <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+   <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+</div>
+   <div class="search-results" id="searchResults"></div>
+</div>
 
     <header class="page-hero">
-        <span class="eyebrow">Demolition</span>
-        <h1>Can You Lose Your Salvation? What Hebrews 6:4-6 Actually Teaches</h1>
-        <p class="hub-subtitle">The passage Arminians claim proves believers can lose salvation is actually one of Scripture's strongest statements for the <a href="/question-perseverance">perseverance of the saints</a> — if you read past verse 6.</p>
-            <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
+   <span class="eyebrow">Demolition</span>
+   <h1>Can You Lose Your Salvation? What Hebrews 6:4-6 Actually Teaches</h1>
+   <p class="hub-subtitle">The passage Arminians claim proves believers can lose salvation is actually one of Scripture's strongest statements for the <a href="/question-perseverance">perseverance of the saints</a> — if you read past verse 6.</p>
+   <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
     </header>
 
     <article class="article-body">
 <!-- CONSECRATED S70 -->
 <!-- POLISH-LOCKED -->
 
-        <div class="tldr">
-            <h2>In Brief</h2>
-            <p>Hebrews 6:4-6 describes people who experienced the covenant community — enlightened, tasted, shared in the Spirit — but were never truly <a href="/systematic-regeneration">regenerated</a>. The Greek words for "enlightened" and "tasted" describe surface experience, not saving faith. Verse 9 is the key: the author explicitly distinguishes his readers from the hypothetical apostates, saying "we feel sure of better things — things that belong to salvation." And devastatingly for Arminianism, the passage says restoration is <em>impossible</em> — which contradicts the very <a href="/question-freewill">free will</a> framework Arminians need.</p>
-        </div>
+   <div class="tldr">
+   <h2>In Brief</h2>
+   <p>Hebrews 6:4-6 describes people who experienced the covenant community — enlightened, tasted, shared in the Spirit — but were never truly <a href="/systematic-regeneration">regenerated</a>. The Greek words for "enlightened" and "tasted" describe surface experience, not saving faith. Verse 9 is the key: the author explicitly distinguishes his readers from the hypothetical apostates, saying "we feel sure of better things — things that belong to salvation." And devastatingly for Arminianism, the passage says restoration is <em>impossible</em> — which contradicts the very <a href="/question-freewill">free will</a> framework Arminians need.</p>
+</div>
 
-        <p>You have been carrying this verse for a long time. It sits in the back of your skull like a stone you swallowed: <em>"It is impossible to be brought back to repentance."</em> It surfaces in the pause between prayers. It waits for you in quiet rooms. It is the verse you cannot outrun — the one that has stood between you and your assurance for months, perhaps years, like a border guard demanding papers you are not sure you possess.</p>
+   <p>You have been carrying this verse for a long time. It sits in the back of your skull like a stone you swallowed: <em>"It is impossible to be brought back to repentance."</em> It surfaces in the pause between prayers. It waits for you in quiet rooms. It is the verse you cannot outrun — the one that has stood between you and your assurance for months, perhaps years, like a border guard demanding papers you are not sure you possess.</p>
 
-        <p>Hold that weight. We will come back to it.</p>
+   <p>Hold that weight. We will come back to it.</p>
 
-        <blockquote class="sop-pullquote"><p>A dead heart does not ache for a God it never knew.</p></blockquote>
+   <blockquote class="sop-pullquote"><p>A dead heart does not ache for a God it never knew.</p></blockquote>
 
-        <p>If there is a passage in all of Scripture that has robbed more saints of sleep, it is Hebrews 6:4-6. The words land like a verdict. The Arminian reads them and says: "See? You can <a href="/question-secure">lose your salvation</a>." But the Arminian has stopped reading four verses too early. Because what comes next — a farmer, a field, and rain from heaven — doesn't just answer the objection. It annihilates it.</p>
+   <p>If there is a passage in all of Scripture that has robbed more saints of sleep, it is Hebrews 6:4-6. The words land like a verdict. The Arminian reads them and says: "See? You can <a href="/question-secure">lose your salvation</a>." But the Arminian has stopped reading four verses too early. Because what comes next — a farmer, a field, and rain from heaven — doesn't just answer the objection. It annihilates it.</p>
 
-        <h2>The Verse</h2>
+   <h2>The Verse</h2>
 
-        <blockquote>
-            <p>"It is impossible for those who have once been enlightened, who have tasted the heavenly gift, who have shared in the Holy Spirit, who have tasted the goodness of the word of God and the powers of the coming age and who have fallen away, to be brought back to repentance. To their loss they are crucifying the Son of God all over again and subjecting him to public disgrace."</p>
-            <cite>HEBREWS 6:4-6</cite>
-        </blockquote>
+   <blockquote>
+   <p>"It is impossible for those who have once been enlightened, who have tasted the heavenly gift, who have shared in the Holy Spirit, who have tasted the goodness of the word of God and the powers of the coming age and who have fallen away, to be brought back to repentance. To their loss they are crucifying the Son of God all over again and subjecting him to public disgrace."</p>
+   <cite>HEBREWS 6:4-6</cite>
+   </blockquote>
 
-        <h2>The Context That Destroys the Arminian Reading</h2>
+   <h2>The Context That Destroys the Arminian Reading</h2>
 
-        <p>Hebrews 5-6 is about <em>maturity</em>, not security. The author rebukes the Hebrews for being dull of hearing — they should be teachers by now but still need milk. He is concerned about drift and immaturity, not their salvation status. Then comes verses 4-6 as a hypothetical warning: <em>if you drift into apostasy, there is no way back.</em></p>
+   <p>Hebrews 5-6 is about <em>maturity</em>, not security. The author rebukes the Hebrews for being dull of hearing — they should be teachers by now but still need milk. He is concerned about drift and immaturity, not their salvation status. Then comes verses 4-6 as a hypothetical warning: <em>if you drift into apostasy, there is no way back.</em></p>
 
-        <p>But notice verse 9 — the verse Arminians never quote:</p>
+   <p>But notice verse 9 — the verse Arminians never quote:</p>
 
-        <blockquote>
-            <p>"Though we speak in this way, yet in your case, beloved, we feel sure of better things — things that belong to salvation."</p>
-            <cite>HEBREWS 6:9</cite>
-        </blockquote>
+   <blockquote>
+   <p>"Though we speak in this way, yet in your case, beloved, we feel sure of better things — things that belong to salvation."</p>
+   <cite>HEBREWS 6:9</cite>
+   </blockquote>
 
-        <p>The author explicitly <em>distinguishes</em> his readers from the hypothetical apostates. He's saying: <em>I'm warning about apostasy, BUT you have things that belong to salvation. You won't face this.</em></p>
+   <p>The author explicitly <em>distinguishes</em> his readers from the hypothetical apostates. He's saying: <em>I'm warning about apostasy, BUT you have things that belong to salvation. You won't face this.</em></p>
 
-        <p>Verse 9 guarantees it.</p>
+   <p>Verse 9 guarantees it.</p>
 
-        <h2>The Greek Exposes the Confusion</h2>
+   <h2>The Greek Exposes the Confusion</h2>
 
-        <p><strong><em>Photisthentas</em></strong> ("enlightened") — enlightenment in Scripture does not equal <a href="/systematic-regeneration">regeneration</a>. Paul uses the same word group in 1 Corinthians 10 to describe Israel, where he explicitly says most of them were <em>not saved</em> despite being "enlightened." You can be taught truth without being transformed by it.</p>
+   <p><strong><em>Photisthentas</em></strong> ("enlightened") — enlightenment in Scripture does not equal <a href="/systematic-regeneration">regeneration</a>. Paul uses the same word group in 1 Corinthians 10 to describe Israel, where he explicitly says most of them were <em>not saved</em> despite being "enlightened." You can be taught truth without being transformed by it.</p>
 
-        <p><strong><em>Geusamenous</em></strong> ("tasted") — this is the smoking gun. "Tasting" is not the same as eating. The word means sampling, experiencing partially. You can taste a wedding cake at a bakery — you experience the sweetness without becoming the bride. In 1 Corinthians 10:1-4, Israel "tasted" spiritual food and drink, had the cloud, were baptized into Moses — yet "God was not pleased with most of them." Same language. Same distinction. They tasted but never truly consumed.</p>
+   <p><strong><em>Geusamenous</em></strong> ("tasted") — this is the smoking gun. "Tasting" is not the same as eating. The word means sampling, experiencing partially. You can taste a wedding cake at a bakery — you experience the sweetness without becoming the bride. In 1 Corinthians 10:1-4, Israel "tasted" spiritual food and drink, had the cloud, were baptized into Moses — yet "God was not pleased with most of them." Same language. Same distinction. They tasted but never truly consumed.</p>
 
-        <p><strong><em>Metochous</em></strong> ("partakers") — means association or participation, not internal transformation. Judas was a partaker of the meal with Jesus but was never <a href="/systematic-regeneration">born again</a>. Israel partook of the Mosaic covenant without being saved. You can walk among the elect without being elected.</p>
+   <p><strong><em>Metochous</em></strong> ("partakers") — means association or participation, not internal transformation. Judas was a partaker of the meal with Jesus but was never <a href="/systematic-regeneration">born again</a>. Israel partook of the Mosaic covenant without being saved. You can walk among the elect without being elected.</p>
 
-        <p>Notice what you were doing while you read those three Greek words. You were scanning for the one that would let you off the hook — the one definition that would prove these people were <em>really</em> saved and <em>really</em> lost it, because that would mean the system you've built your assurance on is still standing. Your eyes moved faster over the refutations. You slowed down at every phrase that sounded like it might support the Arminian reading. That reflex — the desperate search for an escape clause in a passage about the impossibility of escape — is your <a href="/psychology-autonomy-illusion">flesh protecting its autonomy</a>. And the fact that you can feel it happening right now is the first evidence that something deeper than exegesis is at work in you.</p>
+   <p>Notice what you were doing while you read those three Greek words. You were scanning for the one that would let you off the hook — the one definition that would prove these people were <em>really</em> saved and <em>really</em> lost it, because that would mean the system you've built your assurance on is still standing. Your eyes moved faster over the refutations. You slowed down at every phrase that sounded like it might support the Arminian reading. That reflex — the desperate search for an escape clause in a passage about the impossibility of escape — is your <a href="/psychology-autonomy-illusion">flesh protecting its autonomy</a>. And the fact that you can feel it happening right now is the first evidence that something deeper than exegesis is at work in you.</p>
 
-        <h2>The Devastating Problem for Arminianism</h2>
+   <h2>The Devastating Problem for Arminianism</h2>
 
-        <p>Even granting the Arminian interpretation — that these are truly regenerate believers who fall away — Hebrews 6 <em>destroys Arminianism more thoroughly than it supports it.</em></p>
+   <p>Even granting the Arminian interpretation — that these are truly regenerate believers who fall away — Hebrews 6 <em>destroys Arminianism more thoroughly than it supports it.</em></p>
 
-        <p>Arminians believe backsliders can repent and return. That's the whole point of <a href="/question-freewill">free will</a>: you can leave and come back. But Hebrews 6 says the opposite. If they fall away, it is <strong>impossible</strong> to bring them back. Not difficult. Not unlikely. Impossible.</p>
+   <p>Arminians believe backsliders can repent and return. That's the whole point of <a href="/question-freewill">free will</a>: you can leave and come back. But Hebrews 6 says the opposite. If they fall away, it is <strong>impossible</strong> to bring them back. Not difficult. Not unlikely. Impossible.</p>
 
-        <p>So let me ask you directly: If you believe in <a href="/question-freewill">free will</a> and think backsliders can return to God, which side of Hebrews 6 are you actually standing on?</p>
+   <p>So let me ask you directly: If you believe in <a href="/question-freewill">free will</a> and think backsliders can return to God, which side of Hebrews 6 are you actually standing on?</p>
 
-        <p>A Reformed reading resolves cleanly: these people were never truly regenerate. They experienced the covenant community from the outside — enlightened, tasting, participating — without possessing saving faith. The "impossible" renewal describes people who have seen all the evidence, tasted the goodness, been part of the community, and deliberately rejected Christ anyway. They have hardened themselves past the point of return. And 1 John 2:19 explains the pattern: "They went out from us, but they did not really belong to us."</p>
+   <p>A Reformed reading resolves cleanly: these people were never truly regenerate. They experienced the covenant community from the outside — enlightened, tasting, participating — without possessing saving faith. The "impossible" renewal describes people who have seen all the evidence, tasted the goodness, been part of the community, and deliberately rejected Christ anyway. They have hardened themselves past the point of return. And 1 John 2:19 explains the pattern: "They went out from us, but they did not really belong to us."</p>
 
-        <h2>The Land Parable Confirms It</h2>
+   <h2>The Land Parable Confirms It</h2>
 
-        <p>Immediately after the "impossible" passage comes a parable that seals the interpretation:</p>
+   <p>Immediately after the "impossible" passage comes a parable that seals the interpretation:</p>
 
-        <blockquote>
-            <p>"Land that drinks in the rain often falling on it and that produces a crop useful to those for whom it is farmed receives the blessing of God. But land that produces thorns and thistles is worthless and is in danger of being cursed. In the end it will be burned."</p>
-            <cite>HEBREWS 6:7-8</cite>
-        </blockquote>
+   <blockquote>
+   <p>"Land that drinks in the rain often falling on it and that produces a crop useful to those for whom it is farmed receives the blessing of God. But land that produces thorns and thistles is worthless and is in danger of being cursed. In the end it will be burned."</p>
+   <cite>HEBREWS 6:7-8</cite>
+   </blockquote>
 
-        <p>Two plots of land receive the same rain. One produces grain; the other produces thorns. Same rain. Same exposure. Different nature. The land that produces thorns was never good soil — it received the same covenant blessings but never bore salvation's fruit. This is <a href="/question-depravity">unregenerate people within the covenant community</a>, not believers who lost their faith.</p>
+   <p>Two plots of land receive the same rain. One produces grain; the other produces thorns. Same rain. Same exposure. Different nature. The land that produces thorns was never good soil — it received the same covenant blessings but never bore salvation's fruit. This is <a href="/question-depravity">unregenerate people within the covenant community</a>, not believers who lost their faith.</p>
 
-        <h2>Where Did the Fear Come From?</h2>
+   <h2>Where Did the Fear Come From?</h2>
 
-        <p>Here is the question no one asks the person terrified of Hebrews 6: <em>where did your fear come from?</em></p>
+   <p>Here is the question no one asks the person terrified of Hebrews 6: <em>where did your fear come from?</em></p>
 
-        <p>If <a href="/question-faithgift">faith is something you manufactured</a> — if you chose God the way you choose a restaurant — then your fear should be about your own weakness. You should be afraid of losing your grip. You should be worried that one day you'll change your mind. And that fear would make you the hero of your own salvation story: the one whose hold determines everything.</p>
+   <p>If <a href="/question-faithgift">faith is something you manufactured</a> — if you chose God the way you choose a restaurant — then your fear should be about your own weakness. You should be afraid of losing your grip. You should be worried that one day you'll change your mind. And that fear would make you the hero of your own salvation story: the one whose hold determines everything.</p>
 
-        <p>But that's not what you're afraid of. You're afraid of <em>His absence.</em> You're afraid that He might have left. You're afraid that the presence you tasted might be gone. Your terror is not directed inward — at your willpower — but upward, at the One whose face you desperately need to see. That distinction is everything. Because <a href="/question-where-did-your-faith-come-from">a self-generated faith fears its own inadequacy</a>. A <em>given</em> faith fears the Giver's departure. And the fear of the Giver's departure is itself evidence the Giver is still present — because a dead heart does not ache for a God it never knew.</p>
+   <p>But that's not what you're afraid of. You're afraid of <em>His absence.</em> You're afraid that He might have left. You're afraid that the presence you tasted might be gone. Your terror is not directed inward — at your willpower — but upward, at the One whose face you desperately need to see. That distinction is everything. Because <a href="/question-where-did-your-faith-come-from">a self-generated faith fears its own inadequacy</a>. A <em>given</em> faith fears the Giver's departure. And the fear of the Giver's departure is itself evidence the Giver is still present — because a dead heart does not ache for a God it never knew.</p>
 
-        <h2>What This Means for You</h2>
+   <h2>What This Means for You</h2>
 
-        <p>If you are reading this and your hands are shaking — if this passage has haunted you through every quiet hour, if the question of whether you have "fallen away" has stalked you for months — hear this: the very fact that you care proves you haven't. A person who has truly hardened themselves against Christ does not ache over this question. They do not wrestle. They do not read pages like this one.</p>
+   <p>If you are reading this and your hands are shaking — if this passage has haunted you through every quiet hour, if the question of whether you have "fallen away" has stalked you for months — hear this: the very fact that you care proves you haven't. A person who has truly hardened themselves against Christ does not ache over this question. They do not wrestle. They do not read pages like this one.</p>
 
-        <p>Your fear is not evidence against you. It is evidence of the Spirit's work in you. And the author of Hebrews looks at people like you and says: "We feel sure of better things — <em>things that belong to salvation.</em>" You belong to the category that perseveres. Not because your grip is strong enough, but because the God who <a href="/devotional-chosen-before-you-were-broken">chose you before the foundation of the world</a> will not lose what is His.</p>
+   <p>Your fear is not evidence against you. It is evidence of the Spirit's work in you. And the author of Hebrews looks at people like you and says: "We feel sure of better things — <em>things that belong to salvation.</em>" You belong to the category that perseveres. Not because your grip is strong enough, but because the God who <a href="/devotional-chosen-before-you-were-broken">chose you before the foundation of the world</a> will not lose what is His.</p>
 
-        <blockquote>
-            <p>"I give them eternal life, and they will never perish; <a href="/question-john10">no one will snatch them</a> out of my hand."</p>
-            <cite>JOHN 10:28</cite>
-        </blockquote>
+   <blockquote>
+   <p>"I give them eternal life, and they will never perish; <a href="/question-john10">no one will snatch them</a> out of my hand."</p>
+   <cite>JOHN 10:28</cite>
+   </blockquote>
 
-        <p>Never means never.<br><a href="/question-john10">No one means no one</a>.</p>
+   <p>Never means never.<br><a href="/question-john10">No one means no one</a>.</p>
 
-        <p>And if the fear still lingers — if the ground still feels unsteady — <a href="/devotional-i-dont-think-im-saved">this page was written for the frightened version of you</a>, and <a href="/devotional-never-gives-up">this one promises what Scripture promises</a>: He will never let you go.</p>
+   <p>And if the fear still lingers — if the ground still feels unsteady — <a href="/devotional-i-dont-think-im-saved">this page was written for the frightened version of you</a>, and <a href="/devotional-never-gives-up">this one promises what Scripture promises</a>: He will never let you go.</p>
 
-        <p>Come back now to the weight you were carrying. The verse that sat in your skull like a stone you swallowed — <em>"It is impossible to be brought back to repentance"</em> — you can feel its weight changing. Because the author of Hebrews looked at the people he loved and said: <em>but not you. You have things that belong to salvation.</em> He was not describing your fate. He was distinguishing you from it.</p>
+   <p>Come back now to the weight you were carrying. The verse that sat in your skull like a stone you swallowed — <em>"It is impossible to be brought back to repentance"</em> — you can feel its weight changing. Because the author of Hebrews looked at the people he loved and said: <em>but not you. You have things that belong to salvation.</em> He was not describing your fate. He was distinguishing you from it.</p>
 
-        <p>Set the stone down. The God who gave you the faith that brought you to this page is the same God who will be holding you tomorrow, and the day after, and the day after that. The fear brought you here. But <a href="/devotional-never-gives-up">the grace that never lets go</a> is what will carry you home.</p>
+   <p>Set the stone down. The God who gave you the faith that brought you to this page is the same God who will be holding you tomorrow, and the day after, and the day after that. The fear brought you here. But <a href="/devotional-never-gives-up">the grace that never lets go</a> is what will carry you home.</p>
 
-        <p style="margin-top:2rem;"><strong>Distinguished. Not described.</strong></p>
+   <p style="margin-top:2rem;"><strong>Distinguished. Not described.</strong></p>
 
 
 <!-- RELATED-ARTICLES-START -->
@@ -292,90 +292,90 @@
     <h2 class="related-articles-heading">Keep Exploring</h2>
     <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
     <div class="related-articles-grid">
-      <a href="/demolition-ezekiel33-11" class="related-article-card">
-        <span class="related-article-cat">💥 Demolition</span>
-        <span class="related-article-title">Ezekiel 33:11 — &quot;I Take No Pleasure in the Death of the Wicked&quot;</span>
-        <span class="related-article-desc">The verse Arminians wield to prove God wants to save everyone equally teaches — when read honestly — the crucial distinction between God&#39;s…</span>
-      </a>
-      <a href="/demolition-hebrews10-26" class="related-article-card">
-        <span class="related-article-cat">💥 Demolition</span>
-        <span class="related-article-title">Hebrews 10:26-29 — Can Deliberate Sin Damn a Christian?</span>
-        <span class="related-article-desc">The verse Arminians cite more than any other to prove you can lose your salvation. Read past verse 29 and you will find the exact opposite.</span>
-      </a>
-      <a href="/question-proverbs-sovereignty" class="related-article-card">
-        <span class="related-article-cat">❓ Questions</span>
-        <span class="related-article-title">No Dice, No Chance — God&#39;s Sovereignty over Lots and Kings</span>
-        <span class="related-article-desc">You live in a world that worships luck and fears powerful people. Proverbs says both are illusions. The dice are God&#39;s, and the kings are…</span>
-      </a>
-      <a href="/testimony-hub" class="related-article-card">
-        <span class="related-article-cat">🌅 Testimony</span>
-        <span class="related-article-title">Testimonies of Grace</span>
-        <span class="related-article-desc">Eight testimonies from across two thousand years of saints who were captured by sovereign grace — from Augustine in the garden to Aaron…</span>
-      </a>
-      <a href="/pastoral-prayer" class="related-article-card">
-        <span class="related-article-cat">🙏 Pastoral</span>
-        <span class="related-article-title">If God Decreed Everything, Why Pray?</span>
-        <span class="related-article-desc">You are kneeling beside your bed. Or sitting in your car in the parking lot. Or walking the dog at dawn with your lips moving and no sound…</span>
-      </a>
-      <a href="/shattered-lens-cant-tell-true" class="related-article-card">
-        <span class="related-article-cat">🔍 Shattered Lens</span>
-        <span class="related-article-title">When You Can&#39;t Tell What&#39;s True Anymore</span>
-        <span class="related-article-desc">Truth did not break. Your instruments did. The God who cannot lie has been sovereign over every algorithm and every headline since before…</span>
-      </a>
-    </div>
+   <a href="/demolition-ezekiel33-11" class="related-article-card">
+   <span class="related-article-cat">Demolition</span>
+   <span class="related-article-title">Ezekiel 33:11 — &quot;I Take No Pleasure in the Death of the Wicked&quot;</span>
+   <span class="related-article-desc">The verse Arminians wield to prove God wants to save everyone equally teaches — when read honestly — the crucial distinction between God&#39;s…</span>
+</a>
+   <a href="/demolition-hebrews10-26" class="related-article-card">
+   <span class="related-article-cat">Demolition</span>
+   <span class="related-article-title">Hebrews 10:26-29 — Can Deliberate Sin Damn a Christian?</span>
+   <span class="related-article-desc">The verse Arminians cite more than any other to prove you can lose your salvation. Read past verse 29 and you will find the exact opposite.</span>
+</a>
+   <a href="/question-proverbs-sovereignty" class="related-article-card">
+   <span class="related-article-cat">Questions</span>
+   <span class="related-article-title">No Dice, No Chance — God&#39;s Sovereignty over Lots and Kings</span>
+   <span class="related-article-desc">You live in a world that worships luck and fears powerful people. Proverbs says both are illusions. The dice are God&#39;s, and the kings are…</span>
+</a>
+   <a href="/testimony-hub" class="related-article-card">
+   <span class="related-article-cat">Testimony</span>
+   <span class="related-article-title">Testimonies of Grace</span>
+   <span class="related-article-desc">Eight testimonies from across two thousand years of saints who were captured by sovereign grace — from Augustine in the garden to Aaron…</span>
+</a>
+   <a href="/pastoral-prayer" class="related-article-card">
+   <span class="related-article-cat">Pastoral</span>
+   <span class="related-article-title">If God Decreed Everything, Why Pray?</span>
+   <span class="related-article-desc">You are kneeling beside your bed. Or sitting in your car in the parking lot. Or walking the dog at dawn with your lips moving and no sound…</span>
+</a>
+   <a href="/shattered-lens-cant-tell-true" class="related-article-card">
+   <span class="related-article-cat">Shattered Lens</span>
+   <span class="related-article-title">When You Can&#39;t Tell What&#39;s True Anymore</span>
+   <span class="related-article-desc">Truth did not break. Your instruments did. The God who cannot lie has been sovereign over every algorithm and every headline since before…</span>
+</a>
+</div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
+   <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
+   <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+</div>
+</div>
 </section>
 <!-- RELATED-ARTICLES-END -->
 </article>
 
     <footer>
-        <div class="footer-container">
-            <div class="footer-nav">
-                <div class="footer-column">
-                    <h4>Truth</h4>
-                    <ul>
-                        <li><a href="/systematic-theology">Systematic Theology</a></li>
-                        <li><a href="/questions">Questions Answered</a></li>
-                        <li><a href="/demolition-hub">Demolition</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Encyclopedic</h4>
-                    <ul>
-                        <li><a href="/theologians">Theologians</a></li>
-                        <li><a href="/history-timeline">History</a></li>
-                        <li><a href="/comparisons-hub">Comparisons</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Encyclopedic</h4>
-                    <ul>
-                        <li><a href="/psychology-hub">Why We Resist</a></li>
-                        <li><a href="/philosophy-hub">Philosophy</a></li>
-                        <li><a href="/secular-evidence">Secular Evidence</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Heart</h4>
-                    <ul>
-                        <li><a href="/devotionals">Devotionals</a></li>
-                        <li><a href="/stories">Stories &amp; Parables</a></li>
-                        <li><a href="/pastoral-hub">Pastoral</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-grace-warning">
-            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
-            Grace is not a license to sin. It is the power that frees us from sin's dominion.
-        </div>
-        <div class="footer-copyright">
-            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
-        </div>
+   <div class="footer-container">
+   <div class="footer-nav">
+   <div class="footer-column">
+   <h4>Truth</h4>
+   <ul>
+   <li><a href="/systematic-theology">Systematic Theology</a></li>
+   <li><a href="/questions">Questions Answered</a></li>
+   <li><a href="/demolition-hub">Demolition</a></li>
+   </ul>
+</div>
+   <div class="footer-column">
+   <h4>Encyclopedic</h4>
+   <ul>
+   <li><a href="/theologians">Theologians</a></li>
+   <li><a href="/history-timeline">History</a></li>
+   <li><a href="/comparisons-hub">Comparisons</a></li>
+   </ul>
+</div>
+   <div class="footer-column">
+   <h4>Encyclopedic</h4>
+   <ul>
+   <li><a href="/psychology-hub">Why We Resist</a></li>
+   <li><a href="/philosophy-hub">Philosophy</a></li>
+   <li><a href="/secular-evidence">Secular Evidence</a></li>
+   </ul>
+</div>
+   <div class="footer-column">
+   <h4>Heart</h4>
+   <ul>
+   <li><a href="/devotionals">Devotionals</a></li>
+   <li><a href="/stories">Stories &amp; Parables</a></li>
+   <li><a href="/pastoral-hub">Pastoral</a></li>
+   </ul>
+</div>
+</div>
+</div>
+   <div class="footer-grace-warning">
+  "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+  Grace is not a license to sin. It is the power that frees us from sin's dominion.
+</div>
+   <div class="footer-copyright">
+   <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+</div>
     </footer>
 
     <script src="/nav.js"></script>

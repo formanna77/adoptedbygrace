@@ -37,39 +37,39 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://adoptedbygrace.net/#organization",
-      "name": "Adopted by Grace",
-      "url": "https://adoptedbygrace.net",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://adoptedbygrace.net/og-image.png",
-        "width": 1200,
-        "height": 630
-      },
-      "sameAs": [
-        "https://twitter.com/ForeknownOne",
-        "https://foreknownone.substack.com"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://adoptedbygrace.net/#website",
-      "url": "https://adoptedbygrace.net",
-      "name": "Adopted by Grace",
-      "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
-      "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      },
-      "inLanguage": "en-US"
-    }
+  {
+  "@type": "Organization",
+  "@id": "https://adoptedbygrace.net/#organization",
+  "name": "Adopted by Grace",
+  "url": "https://adoptedbygrace.net",
+  "logo": {
+  "@type": "ImageObject",
+  "url": "https://adoptedbygrace.net/og-image.png",
+  "width": 1200,
+  "height": 630
+  },
+  "sameAs": [
+  "https://twitter.com/ForeknownOne",
+  "https://foreknownone.substack.com"
+  ]
+  },
+  {
+  "@type": "WebSite",
+  "@id": "https://adoptedbygrace.net/#website",
+  "url": "https://adoptedbygrace.net",
+  "name": "Adopted by Grace",
+  "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
+  "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
+  "potentialAction": {
+  "@type": "SearchAction",
+  "target": {
+  "@type": "EntryPoint",
+  "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
+  },
+  "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "en-US"
+  }
   ]
 }
 </script>
@@ -94,16 +94,16 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
   {
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Home",
-    "item": "https://adoptedbygrace.net/"
+  "@type": "ListItem",
+  "position": 1,
+  "name": "Home",
+  "item": "https://adoptedbygrace.net/"
   },
   {
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Amazing Grace: The Hymn That Proves What You Already Believe",
-    "item": "https://adoptedbygrace.net/hymn-amazing-grace"
+  "@type": "ListItem",
+  "position": 2,
+  "name": "Amazing Grace: The Hymn That Proves What You Already Believe",
+  "item": "https://adoptedbygrace.net/hymn-amazing-grace"
   }
 ]
 }
@@ -118,146 +118,146 @@
 </head>
 <body>
     <nav role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <a href="/" class="nav-site-name">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            </button>
-            <ul class="nav-links">
-                <li class="mobile-menu-search" style="list-style:none;">
-                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
-                </li>
-                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
-                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
-                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
-                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
-                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
-                <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
-                <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
-            </ul>
-            <div class="nav-right">
-                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
-                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
-                <a href="/start-here" class="nav-top-link">Start Here</a>
-                <a href="/questions" class="nav-top-link">Questions</a>
-                <a href="/systematic-theology" class="nav-top-link">Theology</a>
-                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
-                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
-                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
-                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
-                <a href="/about" class="nav-top-link">About</a>
-                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
-                    <span class="mega-menu-toggle-label">Explore</span>
-                </button>
-                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                </button>
-            </div>
-        </div>
+   <div class="nav-container">
+   <a href="/" class="nav-site-name">Adopted by Grace</a>
+   <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+   <span></span><span></span><span></span>
+   </button>
+   <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+   <ul class="nav-links">
+   <li class="mobile-menu-search" style="list-style:none;">
+   <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+</li>
+   <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+   <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+   <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+   <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+   <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+   <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+   <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+   <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+   <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+   <li class="mobile-nav-link"><a href="/about">About</a></li>
+   <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+   </ul>
+   <div class="nav-right">
+   <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+   <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+   <a href="/start-here" class="nav-top-link">Start Here</a>
+   <a href="/questions" class="nav-top-link">Questions</a>
+   <a href="/systematic-theology" class="nav-top-link">Theology</a>
+   <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+   <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+   <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+   <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+   <a href="/about" class="nav-top-link">About</a>
+   <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+   <span class="mega-menu-toggle-label">Explore</span>
+   </button>
+   <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+</div>
+</div>
     </nav>
     <div class="mega-menu" id="megaMenu"></div>
     <div class="search-overlay" id="searchOverlay">
-        <div class="search-overlay-inner">
-            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
-            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
-        </div>
-        <div class="search-results" id="searchResults"></div>
-    </div>
+   <div class="search-overlay-inner">
+   <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+   <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+</div>
+   <div class="search-results" id="searchResults"></div>
+</div>
 
     <header class="page-hero">
-        <span class="eyebrow">Stories, Parables &amp; Analogies</span>
-        <h1>Amazing Grace: The Hymn That Proves What You Already Believe</h1>
-        <p class="hub-subtitle">You've been singing <a href="/systematic-salvation">sovereign grace</a> your whole life. You just didn't know it.</p>
-            <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
+   <span class="eyebrow">Stories, Parables &amp; Analogies</span>
+   <h1>Amazing Grace: The Hymn That Proves What You Already Believe</h1>
+   <p class="hub-subtitle">You've been singing <a href="/systematic-salvation">sovereign grace</a> your whole life. You just didn't know it.</p>
+   <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
     </header>
 
     <article class="article-body">
 <!-- CONSECRATED -->
 
-        <div class="tldr">
-            <h2>In Brief</h2>
-            <p>Every line of "Amazing Grace" is a confession of <a href="/systematic-salvation">sovereign grace</a>. "Wretch" confesses <a href="/systematic-hamartiology">total depravity</a>. "Lost" and "blind" confess human helplessness. "Found" and "now I see" confess that God does the finding and the giving of sight. "Grace that taught my heart to fear" confesses <a href="/question-irresistible">irresistible grace</a>. "Grace will lead me home" confesses the <a href="/question-perseverance">perseverance of the saints</a>. John Newton — a former slave trader shattered by mercy — knew exactly what he was writing. The question is: when you sing it, do you mean it?</p>
-        </div>
+   <div class="tldr">
+   <h2>In Brief</h2>
+   <p>Every line of "Amazing Grace" is a confession of <a href="/systematic-salvation">sovereign grace</a>. "Wretch" confesses <a href="/systematic-hamartiology">total depravity</a>. "Lost" and "blind" confess human helplessness. "Found" and "now I see" confess that God does the finding and the giving of sight. "Grace that taught my heart to fear" confesses <a href="/question-irresistible">irresistible grace</a>. "Grace will lead me home" confesses the <a href="/question-perseverance">perseverance of the saints</a>. John Newton — a former slave trader shattered by mercy — knew exactly what he was writing. The question is: when you sing it, do you mean it?</p>
+</div>
 
-        <h2>The Wretch Who Was Found</h2>
+   <h2>The Wretch Who Was Found</h2>
 
-        <p>You have sung the most complete confession of sovereign grace ever written — and you have sung it, most of your life, against the theology you thought you held. The organ hits the opening chord and your mouth opens before your brain does. You know this melody the way you know your own breathing — it moves through you without effort, without thought, without a single doctrinal filter between the notes and your vocal cords. <em>Amazing grace, how sweet the sound, that saved a wretch like me.</em> Your eyes might close. Your throat might tighten. Something stirs in your chest that you've never been able to name. You've been singing this hymn since before you could spell your own name. You have never once stopped to ask what you are confessing.</p>
+   <p>You have sung the most complete confession of sovereign grace ever written — and you have sung it, most of your life, against the theology you thought you held. The organ hits the opening chord and your mouth opens before your brain does. You know this melody the way you know your own breathing — it moves through you without effort, without thought, without a single doctrinal filter between the notes and your vocal cords. <em>Amazing grace, how sweet the sound, that saved a wretch like me.</em> Your eyes might close. Your throat might tighten. Something stirs in your chest that you've never been able to name. You've been singing this hymn since before you could spell your own name. You have never once stopped to ask what you are confessing.</p>
 
-        <p>Today you will.</p>
+   <p>Today you will.</p>
 
-        <p>John Newton was not a cautious theologian. He was a man shattered by grace who spent his life trying to describe the shattering. At twenty-three, commanding a slave ship across the Atlantic, Newton was exactly what the word "wretch" was invented to describe. He had rejected his godly mother's faith, cursed the name of God, and traded in human flesh for profit. On March 10, 1748, a storm rose that should have killed him.</p>
+   <p>John Newton was not a cautious theologian. He was a man shattered by grace who spent his life trying to describe the shattering. At twenty-three, commanding a slave ship across the Atlantic, Newton was exactly what the word "wretch" was invented to describe. He had rejected his godly mother's faith, cursed the name of God, and traded in human flesh for profit. On March 10, 1748, a storm rose that should have killed him.</p>
 
-        <p>Something happened in that storm that Newton himself couldn't explain except that it was <em>not of his own volition</em>. He didn't choose grace. Grace chose him. His conversion wasn't the end result of spiritual seeking. It was an <a href="/systematic-regeneration">invasion</a> — a mercy that appeared uninvited and undeniable. Years later, Newton would describe it with bewildered gratitude: he had been <em>lost</em>, he had been <em>blind</em>, and he had not found his way home. He had been <a href="/devotional-my-chains-fell-away">found</a>. That distinction is everything. The wretch doesn't rescue himself. The wretch is rescued.</p>
+   <p>Something happened in that storm that Newton himself couldn't explain except that it was <em>not of his own volition</em>. He didn't choose grace. Grace chose him. His conversion wasn't the end result of spiritual seeking. It was an <a href="/systematic-regeneration">invasion</a> — a mercy that appeared uninvited and undeniable. Years later, Newton would describe it with bewildered gratitude: he had been <em>lost</em>, he had been <em>blind</em>, and he had not found his way home. He had been <a href="/devotional-my-chains-fell-away">found</a>. That distinction is everything. The wretch doesn't rescue himself. The wretch is rescued.</p>
 
-        <h2>What Every Line Confesses</h2>
+   <h2>What Every Line Confesses</h2>
 
-        <p>As you walk through these stanzas, notice something specific: look for the words where the singer says "I chose," "I decided," or "I reached out." Count them. You will find zero.</p>
+   <p>As you walk through these stanzas, notice something specific: look for the words where the singer says "I chose," "I decided," or "I reached out." Count them. You will find zero.</p>
 
-        <blockquote>
-            <p>"Amazing grace, how sweet the sound, that saved a wretch like me! I once was lost, but now am found; was blind, but now I see."</p>
-        </blockquote>
+   <blockquote>
+   <p>"Amazing grace, how sweet the sound, that saved a wretch like me! I once was lost, but now am found; was blind, but now I see."</p>
+   </blockquote>
 
-        <p><strong>"Amazing"</strong> — not "helpful," not "useful," but <em>amazing</em>. If grace were simply God accepting your decision, it wouldn't be amazing. It would be transactional. <strong>"Wretch"</strong> — not someone with potential who needs motivation. A wretch is <a href="/question-depravity">degraded, miserable, morally ruined</a>. Dead things don't choose. They are made alive. <strong>"Lost"</strong> — and what does a lost thing do? It doesn't find itself. Lost things are <em>found</em>. Someone else does the finding. <strong>"Blind"</strong> — blind people don't choose to see. Sight is <em>given</em> to the blind: "I came into this world so that the blind will see" (John 9:39).</p>
+   <p><strong>"Amazing"</strong> — not "helpful," not "useful," but <em>amazing</em>. If grace were simply God accepting your decision, it wouldn't be amazing. It would be transactional. <strong>"Wretch"</strong> — not someone with potential who needs motivation. A wretch is <a href="/question-depravity">degraded, miserable, morally ruined</a>. Dead things don't choose. They are made alive. <strong>"Lost"</strong> — and what does a lost thing do? It doesn't find itself. Lost things are <em>found</em>. Someone else does the finding. <strong>"Blind"</strong> — blind people don't choose to see. Sight is <em>given</em> to the blind: "I came into this world so that the blind will see" (John 9:39).</p>
 
-        <p>In four lines, Newton has established <a href="/systematic-hamartiology">total depravity</a> (wretch), helplessness (lost, blind), and passive reception (saved, found, now I see).</p>
+   <p>In four lines, Newton has established <a href="/systematic-hamartiology">total depravity</a> (wretch), helplessness (lost, blind), and passive reception (saved, found, now I see).</p>
 
-        <p>The singer is completely passive. Grace is entirely active.</p>
+   <p>The singer is completely passive. Grace is entirely active.</p>
 
-        <blockquote>
-            <p>"'Twas grace that taught my heart to fear, and grace my fears relieved; how precious did that grace appear the hour I first believed."</p>
-        </blockquote>
+   <blockquote>
+   <p>"'Twas grace that taught my heart to fear, and grace my fears relieved; how precious did that grace appear the hour I first believed."</p>
+   </blockquote>
 
-        <p><strong>"Grace that taught my heart to fear"</strong> — grace is the subject. The heart is the object. Grace acts; the heart receives. This is <a href="/question-irresistible">irresistible grace</a>. The heart doesn't teach itself to fear God. Grace teaches it. <strong>"The hour I first believed"</strong> — Newton doesn't say "the hour I decided to believe." Belief <em>happened</em>. It appeared when grace appeared. Philippians 1:29 says it plainly: "For it has been granted to you on behalf of Christ not only to believe on him, but also to suffer for him." Belief is <a href="/question-faithgift">granted — given, gifted</a>, not self-generated.</p>
+   <p><strong>"Grace that taught my heart to fear"</strong> — grace is the subject. The heart is the object. Grace acts; the heart receives. This is <a href="/question-irresistible">irresistible grace</a>. The heart doesn't teach itself to fear God. Grace teaches it. <strong>"The hour I first believed"</strong> — Newton doesn't say "the hour I decided to believe." Belief <em>happened</em>. It appeared when grace appeared. Philippians 1:29 says it plainly: "For it has been granted to you on behalf of Christ not only to believe on him, but also to suffer for him." Belief is <a href="/question-faithgift">granted — given, gifted</a>, not self-generated.</p>
 
-        <blockquote>
-            <p>"Through many dangers, toils, and snares, I have already come; 'tis grace hath brought me safe thus far, and grace will lead me home."</p>
-        </blockquote>
+   <blockquote>
+   <p>"Through many dangers, toils, and snares, I have already come; 'tis grace hath brought me safe thus far, and grace will lead me home."</p>
+   </blockquote>
 
-        <p><strong>"Grace hath brought me safe thus far"</strong> — this is the <a href="/question-perseverance">perseverance of the saints</a>. Not the perseverance of the <em>believer</em>, but the perseverance of <em>grace</em>. Grace brought. Grace sustained. The singer didn't navigate the dangers. Grace brought him safe. <strong>"Grace will lead me home"</strong> — future tense. The entire future committed to grace, not to his own faithfulness. Past, present, future — all grace. The singer never acts on himself. Grace acts on the singer.</p>
+   <p><strong>"Grace hath brought me safe thus far"</strong> — this is the <a href="/question-perseverance">perseverance of the saints</a>. Not the perseverance of the <em>believer</em>, but the perseverance of <em>grace</em>. Grace brought. Grace sustained. The singer didn't navigate the dangers. Grace brought him safe. <strong>"Grace will lead me home"</strong> — future tense. The entire future committed to grace, not to his own faithfulness. Past, present, future — all grace. The singer never acts on himself. Grace acts on the singer.</p>
 
-        <blockquote>
-            <p>"When we've been there ten thousand years, bright shining as the sun, we've no less days to sing God's praise than when we first begun."</p>
-        </blockquote>
+   <blockquote>
+   <p>"When we've been there ten thousand years, bright shining as the sun, we've no less days to sing God's praise than when we first begun."</p>
+   </blockquote>
 
-        <p>The final verse is not about striving. It's about singing. Ten thousand years, and the song never stops. The days never run out. This is what eternal, unconditional grace produces: joy without end, because the <a href="/question-perseverance">gift can never be revoked</a>.</p>
+   <p>The final verse is not about striving. It's about singing. Ten thousand years, and the song never stops. The days never run out. This is what eternal, unconditional grace produces: joy without end, because the <a href="/question-perseverance">gift can never be revoked</a>.</p>
 
-        <h2>The Devastating Implication</h2>
+   <h2>The Devastating Implication</h2>
 
-        <p>Across six stanzas, everyone who sings this hymn and means it has already confessed: <a href="/systematic-hamartiology">total depravity</a> ("wretch," "lost," "blind"), <a href="/systematic-election">unconditional election</a> ("saved a wretch like me" — chosen as a wretch, not because of hidden potential), <a href="/question-irresistible">irresistible grace</a> ("grace that taught my heart to fear" — grace as the active agent, the singer as passive recipient), <a href="/systematic-atonement">effectual atonement</a> ("that saved" — not "that offered," but <em>saved</em>), and the <a href="/question-perseverance">perseverance of the saints</a> ("grace will lead me home" — not the saint's perseverance, but grace's).</p>
+   <p>Across six stanzas, everyone who sings this hymn and means it has already confessed: <a href="/systematic-hamartiology">total depravity</a> ("wretch," "lost," "blind"), <a href="/systematic-election">unconditional election</a> ("saved a wretch like me" — chosen as a wretch, not because of hidden potential), <a href="/question-irresistible">irresistible grace</a> ("grace that taught my heart to fear" — grace as the active agent, the singer as passive recipient), <a href="/systematic-atonement">effectual atonement</a> ("that saved" — not "that offered," but <em>saved</em>), and the <a href="/question-perseverance">perseverance of the saints</a> ("grace will lead me home" — not the saint's perseverance, but grace's).</p>
 
-        <p><em>If you believe what you sing, why do you argue against what you believe?</em></p>
+   <p><em>If you believe what you sing, why do you argue against what you believe?</em></p>
 
-        <p>Notice what your mind just did. It flinched. Not because the question is unfair — but because you felt the gap open. You sing "found" but think <em>I found Him.</em> You sing "grace that taught my heart to fear" but believe <em>I opened my heart to God.</em> You sing "grace will lead me home" but insist <em>I could walk away if I chose to.</em> Your lips confess passive reception every Sunday morning. Your theology insists on active autonomy every Monday afternoon. The flinch you just felt is not an attack on your faith. It is the sound of your worship catching up to your theology — or your theology catching up to your worship. One of them has to give. Newton already decided which one.</p>
+   <p>Notice what your mind just did. It flinched. Not because the question is unfair — but because you felt the gap open. You sing "found" but think <em>I found Him.</em> You sing "grace that taught my heart to fear" but believe <em>I opened my heart to God.</em> You sing "grace will lead me home" but insist <em>I could walk away if I chose to.</em> Your lips confess passive reception every Sunday morning. Your theology insists on active autonomy every Monday afternoon. The flinch you just felt is not an attack on your faith. It is the sound of your worship catching up to your theology — or your theology catching up to your worship. One of them has to give. Newton already decided which one.</p>
 
-        <p>If you truly confess that you were a wretch — <a href="/question-depravity">spiritually dead</a> — then how can you believe you had the capacity to reach for God? Dead things don't reach. If you truly confess that you were found — not that you found your way — then the <a href="/question-where-did-your-faith-come-from">difference between you and the person without faith</a> is not a human decision. It is the grace of God.</p>
+   <p>If you truly confess that you were a wretch — <a href="/question-depravity">spiritually dead</a> — then how can you believe you had the capacity to reach for God? Dead things don't reach. If you truly confess that you were found — not that you found your way — then the <a href="/question-where-did-your-faith-come-from">difference between you and the person without faith</a> is not a human decision. It is the grace of God.</p>
 
-        <h2>The Irony That Should Make You Smile</h2>
+   <h2>The Irony That Should Make You Smile</h2>
 
-        <p>The most famous hymn sung in churches that explicitly reject <a href="/systematic-salvation">sovereign grace</a> is one of the most explicit confessions of <a href="/systematic-salvation">sovereign grace</a> ever written. John Newton smuggled the <a href="/systematic-salvation">doctrines of grace</a> into every church that sings his hymn. He has been the most successful Calvinist missionary in history — and most of his converts don't know it yet.</p>
+   <p>The most famous hymn sung in churches that explicitly reject <a href="/systematic-salvation">sovereign grace</a> is one of the most explicit confessions of <a href="/systematic-salvation">sovereign grace</a> ever written. John Newton smuggled the <a href="/systematic-salvation">doctrines of grace</a> into every church that sings his hymn. He has been the most successful Calvinist missionary in history — and most of his converts don't know it yet.</p>
 
-        <p>The <a href="/systematic-pneumatology">Spirit</a> has been whispering truth to you your whole life. Every time you sang "I was blind but now I see," He was showing you that sight came <em>to</em> you, not <em>from</em> you. Every time you sang "grace hath brought me safe thus far," He was teaching you that your perseverance is His perseverance, not yours. Every time you wept during this hymn, you were weeping over a truth deeper than your theology had caught up to.</p>
+   <p>The <a href="/systematic-pneumatology">Spirit</a> has been whispering truth to you your whole life. Every time you sang "I was blind but now I see," He was showing you that sight came <em>to</em> you, not <em>from</em> you. Every time you sang "grace hath brought me safe thus far," He was teaching you that your perseverance is His perseverance, not yours. Every time you wept during this hymn, you were weeping over a truth deeper than your theology had caught up to.</p>
 
-        <p>That stir in your soul during "Amazing Grace" wasn't nostalgia. That was recognition.</p>
+   <p>That stir in your soul during "Amazing Grace" wasn't nostalgia. That was recognition.</p>
 
-        <h2>What Newton Himself Knew</h2>
+   <h2>What Newton Himself Knew</h2>
 
-        <p>Newton didn't write this hymn as a compromise. In his letters, he was explicit about the sovereignty of God in salvation, describing his understanding of election with a clarity that would have delighted <a href="/theologian-edwards">Jonathan Edwards</a>: "I am a debtor to mercy alone." Not to his own choices. Not to his own spiritual potential. To mercy. To God's free, uncaused, unconditional choice to find him in the darkness.</p>
+   <p>Newton didn't write this hymn as a compromise. In his letters, he was explicit about the sovereignty of God in salvation, describing his understanding of election with a clarity that would have delighted <a href="/theologian-edwards">Jonathan Edwards</a>: "I am a debtor to mercy alone." Not to his own choices. Not to his own spiritual potential. To mercy. To God's free, uncaused, unconditional choice to find him in the darkness.</p>
 
-        <p>That is what "Amazing Grace" is about. Not a God who stands back and says "Here's grace — take it or leave it." But a God who appears in the storm and says <em>"You are mine,"</em> and that appearance is the grace. His choosing of you is the grace. His making you alive when you were dead is the grace. His keeping you when you would wander is the grace. Newton called it <em>amazing</em> because it shouldn't have happened. He had given God every reason not to save him. And yet grace appeared — not because he chose well in a moment of clarity, but because God saw fit to save a wretch.</p>
+   <p>That is what "Amazing Grace" is about. Not a God who stands back and says "Here's grace — take it or leave it." But a God who appears in the storm and says <em>"You are mine,"</em> and that appearance is the grace. His choosing of you is the grace. His making you alive when you were dead is the grace. His keeping you when you would wander is the grace. Newton called it <em>amazing</em> because it shouldn't have happened. He had given God every reason not to save him. And yet grace appeared — not because he chose well in a moment of clarity, but because God saw fit to save a wretch.</p>
 
-        <p>The question is not whether you've sung <a href="/systematic-salvation">sovereign grace</a>. You have. The question is: <a href="/question-where-did-your-faith-come-from">when you finally stop arguing with what you believe</a>, what will change? Because the hymn was telling you the truth the whole time.</p>
+   <p>The question is not whether you've sung <a href="/systematic-salvation">sovereign grace</a>. You have. The question is: <a href="/question-where-did-your-faith-come-from">when you finally stop arguing with what you believe</a>, what will change? Because the hymn was telling you the truth the whole time.</p>
 
-        <p>Picture Newton's church, Olney, 1773. A cold January morning. Stone walls sweating condensation. A congregation of lace-makers and field laborers who can barely read, standing shoulder to shoulder in a room that smells of damp wool and tallow. Their pastor — the former slave trader with the ruined voice and the shaking hands — has written them a new hymn. He reads the first line aloud. They sing it back. They have no idea they are singing the most famous song in the English language. They only know that the man standing before them was once a monster, and now he weeps when he prays, and whatever happened to him happened without his permission.</p>
+   <p>Picture Newton's church, Olney, 1773. A cold January morning. Stone walls sweating condensation. A congregation of lace-makers and field laborers who can barely read, standing shoulder to shoulder in a room that smells of damp wool and tallow. Their pastor — the former slave trader with the ruined voice and the shaking hands — has written them a new hymn. He reads the first line aloud. They sing it back. They have no idea they are singing the most famous song in the English language. They only know that the man standing before them was once a monster, and now he weeps when he prays, and whatever happened to him happened without his permission.</p>
 
-        <p>Two hundred and fifty years later, you are standing in a different room singing the same words. The theology you argue about on weekdays dissolves the moment the melody starts, and something truer than your arguments takes over. Your mouth confesses what your mind hasn't caught up to yet. <em>Found. Saved. Taught. Led home.</em> Every verb a gift. Every subject grace. <a href="/devotional-chosen-before-you-were-broken">The God who found Newton in that storm</a> planted this hymn in your mouth like a time-release confession — and one day, maybe today, the words will finally reach your theology. He already found you. He has been telling you so every Sunday morning for as long as you can remember. You just weren't listening to what you were singing.</p>
+   <p>Two hundred and fifty years later, you are standing in a different room singing the same words. The theology you argue about on weekdays dissolves the moment the melody starts, and something truer than your arguments takes over. Your mouth confesses what your mind hasn't caught up to yet. <em>Found. Saved. Taught. Led home.</em> Every verb a gift. Every subject grace. <a href="/devotional-chosen-before-you-were-broken">The God who found Newton in that storm</a> planted this hymn in your mouth like a time-release confession — and one day, maybe today, the words will finally reach your theology. He already found you. He has been telling you so every Sunday morning for as long as you can remember. You just weren't listening to what you were singing.</p>
 
     
 <!-- RELATED-ARTICLES-START -->
@@ -266,90 +266,90 @@
     <h2 class="related-articles-heading">Keep Exploring</h2>
     <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
     <div class="related-articles-grid">
-      <a href="/devotional-when-god-says-no" class="related-article-card">
-        <span class="related-article-cat">🕯 Devotionals</span>
-        <span class="related-article-title">When God Says No — A Devotional on Unanswered Prayer</span>
-        <span class="related-article-desc">Sometimes God says no. And His refusal is more loving than our yes would have been. A devotional meditation on unanswered prayer, trust,…</span>
-      </a>
-      <a href="/devotional-i-was-lazarus" class="related-article-card">
-        <span class="related-article-cat">🕯 Devotionals</span>
-        <span class="related-article-title">I Was Lazarus — And I Did Not Volunteer to Rise</span>
-        <span class="related-article-desc">Lazarus did not hear the offer of resurrection from inside the tomb and decide to accept. Lazarus was dead. Dead men do not decide. The…</span>
-      </a>
-      <a href="/joy-god-big-enough" class="related-article-card">
-        <span class="related-article-cat">✨ Joy of Grace</span>
-        <span class="related-article-title">The God Who Is Big Enough</span>
-        <span class="related-article-desc">Your joy can never exceed the size of your God. Discover why sovereign grace reveals a God so infinitely powerful that He cannot be…</span>
-      </a>
-      <a href="/objection-effort" class="related-article-card">
-        <span class="related-article-cat">🛡 Objections</span>
-        <span class="related-article-title">If Everything Is Predetermined, Why Even Try?</span>
-        <span class="related-article-desc">The objection confuses outcomes with means. God doesn&#39;t just ordain where the story ends—He ordains how it gets there. Your effort is not…</span>
-      </a>
-      <a href="/canons-of-dort-plain-english" class="related-article-card">
-        <span class="related-article-cat">⏳ Church History</span>
-        <span class="related-article-title">The Canons of Dort — Line by Line in Plain English</span>
-        <span class="related-article-desc">The Canons of Dort rendered into plain modern English. All five heads of doctrine, article by article, with the rejections of errors — so…</span>
-      </a>
-      <a href="/for-pastors" class="related-article-card">
-        <span class="related-article-cat">🙏 Pastoral</span>
-        <span class="related-article-title">For Pastors: Preaching Sovereign Grace Without Splitting Your Church</span>
-        <span class="related-article-desc">How to faithfully preach the doctrines of grace to your congregation. Practical guidance for pastors navigating election, predestination,…</span>
-      </a>
-    </div>
+   <a href="/devotional-when-god-says-no" class="related-article-card">
+   <span class="related-article-cat">Devotionals</span>
+   <span class="related-article-title">When God Says No — A Devotional on Unanswered Prayer</span>
+   <span class="related-article-desc">Sometimes God says no. And His refusal is more loving than our yes would have been. A devotional meditation on unanswered prayer, trust,…</span>
+</a>
+   <a href="/devotional-i-was-lazarus" class="related-article-card">
+   <span class="related-article-cat">Devotionals</span>
+   <span class="related-article-title">I Was Lazarus — And I Did Not Volunteer to Rise</span>
+   <span class="related-article-desc">Lazarus did not hear the offer of resurrection from inside the tomb and decide to accept. Lazarus was dead. Dead men do not decide. The…</span>
+</a>
+   <a href="/joy-god-big-enough" class="related-article-card">
+   <span class="related-article-cat">Joy of Grace</span>
+   <span class="related-article-title">The God Who Is Big Enough</span>
+   <span class="related-article-desc">Your joy can never exceed the size of your God. Discover why sovereign grace reveals a God so infinitely powerful that He cannot be…</span>
+</a>
+   <a href="/objection-effort" class="related-article-card">
+   <span class="related-article-cat">Objections</span>
+   <span class="related-article-title">If Everything Is Predetermined, Why Even Try?</span>
+   <span class="related-article-desc">The objection confuses outcomes with means. God doesn&#39;t just ordain where the story ends—He ordains how it gets there. Your effort is not…</span>
+</a>
+   <a href="/canons-of-dort-plain-english" class="related-article-card">
+   <span class="related-article-cat">Church History</span>
+   <span class="related-article-title">The Canons of Dort — Line by Line in Plain English</span>
+   <span class="related-article-desc">The Canons of Dort rendered into plain modern English. All five heads of doctrine, article by article, with the rejections of errors — so…</span>
+</a>
+   <a href="/for-pastors" class="related-article-card">
+   <span class="related-article-cat">Pastoral</span>
+   <span class="related-article-title">For Pastors: Preaching Sovereign Grace Without Splitting Your Church</span>
+   <span class="related-article-desc">How to faithfully preach the doctrines of grace to your congregation. Practical guidance for pastors navigating election, predestination,…</span>
+</a>
+</div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
+   <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
+   <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+</div>
+</div>
 </section>
 <!-- RELATED-ARTICLES-END -->
 </article>
 
     <footer>
-        <div class="footer-container">
-            <div class="footer-nav">
-                <div class="footer-column">
-                    <h4>Truth</h4>
-                    <ul>
-                        <li><a href="/systematic-theology">Systematic Theology</a></li>
-                        <li><a href="/questions">Questions Answered</a></li>
-                        <li><a href="/demolition-hub">Demolition</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Encyclopedic</h4>
-                    <ul>
-                        <li><a href="/theologians">Theologians</a></li>
-                        <li><a href="/history-timeline">History</a></li>
-                        <li><a href="/comparisons-hub">Comparisons</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Encyclopedic</h4>
-                    <ul>
-                        <li><a href="/psychology-hub">Why We Resist</a></li>
-                        <li><a href="/philosophy-hub">Philosophy</a></li>
-                        <li><a href="/secular-evidence">Secular Evidence</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Heart</h4>
-                    <ul>
-                        <li><a href="/devotionals">Devotionals</a></li>
-                        <li><a href="/stories">Stories &amp; Parables</a></li>
-                        <li><a href="/pastoral-hub">Pastoral</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-grace-warning">
-            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
-            Grace is not a license to sin. It is the power that frees us from sin's dominion.
-        </div>
-        <div class="footer-copyright">
-            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
-        </div>
+   <div class="footer-container">
+   <div class="footer-nav">
+   <div class="footer-column">
+   <h4>Truth</h4>
+   <ul>
+   <li><a href="/systematic-theology">Systematic Theology</a></li>
+   <li><a href="/questions">Questions Answered</a></li>
+   <li><a href="/demolition-hub">Demolition</a></li>
+   </ul>
+</div>
+   <div class="footer-column">
+   <h4>Encyclopedic</h4>
+   <ul>
+   <li><a href="/theologians">Theologians</a></li>
+   <li><a href="/history-timeline">History</a></li>
+   <li><a href="/comparisons-hub">Comparisons</a></li>
+   </ul>
+</div>
+   <div class="footer-column">
+   <h4>Encyclopedic</h4>
+   <ul>
+   <li><a href="/psychology-hub">Why We Resist</a></li>
+   <li><a href="/philosophy-hub">Philosophy</a></li>
+   <li><a href="/secular-evidence">Secular Evidence</a></li>
+   </ul>
+</div>
+   <div class="footer-column">
+   <h4>Heart</h4>
+   <ul>
+   <li><a href="/devotionals">Devotionals</a></li>
+   <li><a href="/stories">Stories &amp; Parables</a></li>
+   <li><a href="/pastoral-hub">Pastoral</a></li>
+   </ul>
+</div>
+</div>
+</div>
+   <div class="footer-grace-warning">
+  "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+  Grace is not a license to sin. It is the power that frees us from sin's dominion.
+</div>
+   <div class="footer-copyright">
+   <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+</div>
     </footer>
 
     <script src="/nav.js"></script>

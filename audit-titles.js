@@ -12,11 +12,11 @@ const LIMIT = 60;
 
 function walk(dir, out = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (entry.name.startsWith('.')) continue;
-    if (entry.name === 'node_modules' || entry.name === 'archive' || entry.name === 'Reformed Sources') continue;
-    const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) walk(full, out);
-    else if (entry.isFile() && entry.name.endsWith('.html')) out.push(full);
+  if (entry.name.startsWith('.')) continue;
+  if (entry.name === 'node_modules' || entry.name === 'archive' || entry.name === 'Reformed Sources') continue;
+  const full = path.join(dir, entry.name);
+  if (entry.isDirectory()) walk(full, out);
+  else if (entry.isFile() && entry.name.endsWith('.html')) out.push(full);
   }
   return out;
 }
@@ -29,11 +29,11 @@ for (const file of walk(ROOT)) {
   if (!m) continue;
   const title = m[1].trim();
   if (title.length > LIMIT) {
-    report.push({
-      file: path.relative(ROOT, file),
-      len: title.length,
-      title
-    });
+  report.push({
+  file: path.relative(ROOT, file),
+  len: title.length,
+  title
+  });
   }
 }
 

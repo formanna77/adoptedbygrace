@@ -21,8 +21,8 @@ for (const file of files) {
   if (!TARGET.test(content)) continue;
   const stripped = content.replace(TARGET, '');
   if (stripped !== content) {
-    fs.writeFileSync(full, stripped, 'utf8');
-    modified++;
+  fs.writeFileSync(full, stripped, 'utf8');
+  modified++;
   }
 }
 
@@ -31,18 +31,18 @@ const essaysDir = path.join(ROOT, 'essays');
 if (fs.existsSync(essaysDir)) {
   const essayFiles = fs.readdirSync(essaysDir).filter(f => f.endsWith('.html'));
   for (const file of essayFiles) {
-    const full = path.join(essaysDir, file);
-    const content = fs.readFileSync(full, 'utf8');
-    scanned++;
-    if (!TARGET.test(content)) continue;
-    const stripped = content.replace(TARGET, '');
-    if (stripped !== content) {
-      fs.writeFileSync(full, stripped, 'utf8');
-      modified++;
-    }
+  const full = path.join(essaysDir, file);
+  const content = fs.readFileSync(full, 'utf8');
+  scanned++;
+  if (!TARGET.test(content)) continue;
+  const stripped = content.replace(TARGET, '');
+  if (stripped !== content) {
+  fs.writeFileSync(full, stripped, 'utf8');
+  modified++;
+  }
   }
 }
 
-console.log(`\n📊 Dead analytics hints stripped`);
-console.log(`   Files scanned:  ${scanned}`);
-console.log(`   Files modified: ${modified}`);
+console.log(`\n Dead analytics hints stripped`);
+console.log(` Files scanned:  ${scanned}`);
+console.log(` Files modified: ${modified}`);

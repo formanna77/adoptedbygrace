@@ -5,10 +5,10 @@
  * Splits the 431-page Tier-3 set into four buckets so the campaign's real
  * remaining surface becomes visible:
  *
- *   BUCKET A — STRUCTURAL-EXEMPT (not a prose doorway; documented out-of-scope)
- *   BUCKET B — BORN-APEX, NEEDS MARKER ONLY (passes the 5-signal apex sniff test)
- *   BUCKET C — GENUINELY NEEDS DEEPENING (the real S69+ work queue)
- *   BUCKET D — UNCERTAIN / NEEDS LIVE-READ (mixed signals; spot-read this session)
+ * BUCKET A — STRUCTURAL-EXEMPT (not a prose doorway; documented out-of-scope)
+ * BUCKET B — BORN-APEX, NEEDS MARKER ONLY (passes the 5-signal apex sniff test)
+ * BUCKET C — GENUINELY NEEDS DEEPENING (the real S69+ work queue)
+ * BUCKET D — UNCERTAIN / NEEDS LIVE-READ (mixed signals; spot-read this session)
  *
  * Output: tier3-inventory.txt + bucket-A/B/C/D files for downstream automation.
  */
@@ -44,19 +44,19 @@ const STRUCTURAL_EXEMPT_PATTERNS = [
   /^search$/,
   /^topics$/,
   /^quotes$/,
-  /^start-here$/,             // the staircase hub itself (not the phase pages)
+  /^start-here$/, // the staircase hub itself (not the phase pages)
   /^home$/,
   /^index$/,
   /^analogies-illustrations$/, // illustration index
   /^categories$/,
   /^best-reads$/,
   /^reformed-sources$/,
-  /^theologians$/,             // the index hub, not theologian-* pages
-  /^story-collection$/,        // index of stories
+  /^theologians$/, // the index hub, not theologian-* pages
+  /^story-collection$/, // index of stories
   /^big-picture$/,
-  /^doctrines-of-grace$/,      // landing hub
+  /^doctrines-of-grace$/, // landing hub
   /^why-sovereignty-matters$/, // hub
-  /^questions$/,                // master Q hub
+  /^questions$/, // master Q hub
 ];
 
 // Phase G / Phase D BORN-APEX filename families (S43-S58 build). These were authored to the
@@ -66,9 +66,9 @@ const BORN_APEX_PATTERNS = [
   /^ethics-/,
   /^presuppositional-/,
   /^reformed-apologetics-/,
-  /^word-study-/,            // Greek/Hebrew word-study series — born-apex §XV exposition
-  /^demolition-/,            // demolition cluster
-  /^argument-/,              // argument cluster
+  /^word-study-/, // Greek/Hebrew word-study series — born-apex §XV exposition
+  /^demolition-/, // demolition cluster
+  /^argument-/, // argument cluster
 ];
 
 function normHref(h) {
@@ -99,15 +99,15 @@ function apexSignals(name, html) {
   // we require either an explicit Greek/Hebrew callout phrase OR a long italic of >=5 chars
   // that looks like a transliteration (lowercase, contains macrons OR explicitly named).
   const transliterationCues = [
-    /<em>[a-zA-Z]*ē[a-zA-Z]*<\/em>/,        // macron
-    /<em>[a-zA-Z]*ō[a-zA-Z]*<\/em>/,
-    /<em>[a-zA-Z]*ē/,
-    /<em>[a-zA-Z]*ō/,
-    /Greek (?:word|verb|noun|term|root|construction|grammar|tense|voice|mood|case|aorist|perfect|present|future|imperfect|active|passive|middle|subjunctive|indicative|periphrastic|pluperfect)/i,
-    /Hebrew (?:word|verb|noun|term|root|construction|grammar|tense)/i,
-    /the Greek (?:reads|here|behind|construction|is|of)/i,
-    /the Hebrew (?:reads|here|is)/i,
-    /tetagmenoi|gegennētai|helkyō|proorizō|proginōskō|exelexato|echaristhē|en Christō|ou mē|hosoi/i,
+  /<em>[a-zA-Z]*ē[a-zA-Z]*<\/em>/, // macron
+  /<em>[a-zA-Z]*ō[a-zA-Z]*<\/em>/,
+  /<em>[a-zA-Z]*ē/,
+  /<em>[a-zA-Z]*ō/,
+  /Greek (?:word|verb|noun|term|root|construction|grammar|tense|voice|mood|case|aorist|perfect|present|future|imperfect|active|passive|middle|subjunctive|indicative|periphrastic|pluperfect)/i,
+  /Hebrew (?:word|verb|noun|term|root|construction|grammar|tense)/i,
+  /the Greek (?:reads|here|behind|construction|is|of)/i,
+  /the Hebrew (?:reads|here|is)/i,
+  /tetagmenoi|gegennētai|helkyō|proorizō|proginōskō|exelexato|echaristhē|en Christō|ou mē|hosoi/i,
   ];
   signals.hasGreekHebrewSurfacing = transliterationCues.some(re => re.test(html));
 
@@ -115,11 +115,11 @@ function apexSignals(name, html) {
   let words = 0;
   const m = html.indexOf('<article class="article-body">');
   if (m !== -1) {
-    let body = html.slice(m);
-    const rel = body.indexOf('<!-- RELATED-ARTICLES-START -->');
-    if (rel !== -1) body = body.slice(0, rel);
-    const text = body.replace(/<[^>]*>/g, ' ').replace(/&[a-z]+;/g, ' ');
-    words = (text.match(/\S+/g) || []).length;
+  let body = html.slice(m);
+  const rel = body.indexOf('<!-- RELATED-ARTICLES-START -->');
+  if (rel !== -1) body = body.slice(0, rel);
+  const text = body.replace(/<[^>]*>/g, ' ').replace(/&[a-z]+;/g, ' ');
+  words = (text.match(/\S+/g) || []).length;
   }
   signals.words = words;
   signals.longEnough = words >= 1200;
@@ -142,14 +142,14 @@ for (const f of htmlFiles) {
   const hrefs = html.match(/href="([^"]+)"/g) || [];
   const seen = new Set();
   for (const raw of hrefs) {
-    const val = raw.slice(6, -1);
-    if (/^(https?:|mailto:|#|tel:)/.test(val)) continue;
-    const target = normHref(val);
-    if (!target || target === name) continue;
-    if (pageSet.has(target) && !seen.has(target)) {
-      inbound[target] = (inbound[target] || 0) + 1;
-      seen.add(target);
-    }
+  const val = raw.slice(6, -1);
+  if (/^(https?:|mailto:|#|tel:)/.test(val)) continue;
+  const target = normHref(val);
+  if (!target || target === name) continue;
+  if (pageSet.has(target) && !seen.has(target)) {
+  inbound[target] = (inbound[target] || 0) + 1;
+  seen.add(target);
+  }
   }
 }
 
@@ -180,38 +180,38 @@ const bucketD = []; // uncertain / spot-read
 
 for (const p of tier3) {
   if (isStructuralExempt(p.name)) {
-    bucketA.push({ ...p, reason: 'STRUCTURAL_EXEMPT_ALLOWLIST' });
-    continue;
+  bucketA.push({ ...p, reason: 'STRUCTURAL_EXEMPT_ALLOWLIST' });
+  continue;
   }
 
   // BUCKET B test: born-apex
   // EITHER family-match (apologetic-*, ethics-*, presuppositional-*, reformed-apologetics-*,
-  //   word-study-*, demolition-*, argument-*) with In-Brief + long
+  // word-study-*, demolition-*, argument-*) with In-Brief + long
   // OR full 5-signal: hasArticleBody + hasInBrief + ≥1200w + greek/hebrew surfacing
   const fiveSignal = p.hasArticleBody && p.hasInBrief && p.longEnough && p.hasGreekHebrewSurfacing;
   const familyApex = p.bornApexFamily && p.hasInBrief && p.longEnough;
   const apexMarker = p.hasMarker; // already locked
 
   if (apexMarker) {
-    // Already marked; logically shouldn't be Tier-3 unless inbound is very low.
-    // Treat as BUCKET B (already at the bar).
-    bucketB.push({ ...p, reason: 'ALREADY_MARKED' });
+  // Already marked; logically shouldn't be Tier-3 unless inbound is very low.
+  // Treat as BUCKET B (already at the bar).
+  bucketB.push({ ...p, reason: 'ALREADY_MARKED' });
   } else if (fiveSignal && familyApex) {
-    bucketB.push({ ...p, reason: 'BORN_APEX_FAMILY+5SIG' });
+  bucketB.push({ ...p, reason: 'BORN_APEX_FAMILY+5SIG' });
   } else if (fiveSignal) {
-    bucketB.push({ ...p, reason: 'FIVE_SIGNAL_APEX' });
+  bucketB.push({ ...p, reason: 'FIVE_SIGNAL_APEX' });
   } else if (familyApex) {
-    bucketB.push({ ...p, reason: 'BORN_APEX_FAMILY' });
+  bucketB.push({ ...p, reason: 'BORN_APEX_FAMILY' });
   } else if (p.bornApexFamily && p.longEnough) {
-    // Family-born + long, but no In-Brief — uncertain (might be apex prose lacking on-ramp)
-    bucketD.push({ ...p, reason: 'FAMILY_LONG_NO_INBRIEF' });
+  // Family-born + long, but no In-Brief — uncertain (might be apex prose lacking on-ramp)
+  bucketD.push({ ...p, reason: 'FAMILY_LONG_NO_INBRIEF' });
   } else if (p.hasInBrief && p.longEnough) {
-    // Has In-Brief + length but not in apex family and no Greek/Hebrew surfacing.
-    // Could still be wisdom-pass; spot-read.
-    bucketD.push({ ...p, reason: 'INBRIEF_LONG_NO_GH' });
+  // Has In-Brief + length but not in apex family and no Greek/Hebrew surfacing.
+  // Could still be wisdom-pass; spot-read.
+  bucketD.push({ ...p, reason: 'INBRIEF_LONG_NO_GH' });
   } else {
-    // Real deepening target
-    bucketC.push({ ...p, reason: shortReason(p) });
+  // Real deepening target
+  bucketC.push({ ...p, reason: shortReason(p) });
   }
 }
 
@@ -228,7 +228,7 @@ const byInbound = (a, b) => b.inbound - a.inbound || a.name.localeCompare(b.name
 bucketA.sort(byInbound); bucketB.sort(byInbound); bucketC.sort(byInbound); bucketD.sort(byInbound);
 
 function fmt(p) {
-  return `  [${String(p.inbound).padStart(3)} in] [${p.tier.padEnd(8)}] [${String(p.words).padStart(4)}w] ${p.hasInBrief ? '       ' : 'no-brief'} ${p.name.padEnd(50)} :: ${p.reason}`;
+  return `  [${String(p.inbound).padStart(3)} in] [${p.tier.padEnd(8)}] [${String(p.words).padStart(4)}w] ${p.hasInBrief ? ' ' : 'no-brief'} ${p.name.padEnd(50)} :: ${p.reason}`;
 }
 
 const out = [];

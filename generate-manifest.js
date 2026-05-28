@@ -7,7 +7,7 @@
  * Creates a sortable, browsable catalog of all 270+ articles.
  * 
  * Usage:
- *   node generate-manifest.js
+ * node generate-manifest.js
  * 
  * Must be run AFTER build-search-index.js has been run.
  */
@@ -84,40 +84,40 @@ const manifest = articles.map((item, idx) => {
   let added = '2026-03-01'; // fallback
   
   try {
-    const logOutput = execSync(`git log --diff-filter=A --format=%ai -- "${filename}" 2>/dev/null | head -1`, {
-      encoding: 'utf8'
-    }).trim();
-    if (logOutput) {
-      added = logOutput;
-    }
+  const logOutput = execSync(`git log --diff-filter=A --format=%ai -- "${filename}" 2>/dev/null | head -1`, {
+  encoding: 'utf8'
+  }).trim();
+  if (logOutput) {
+  added = logOutput;
+  }
   } catch (e) {
-    // Use fallback
+  // Use fallback
   }
   
   // Extract excerpt from description
   let excerpt = (item.desc || '').trim();
   const sentenceMatch = excerpt.match(/^[^.!?]*[.!?]/);
   if (sentenceMatch) {
-    excerpt = sentenceMatch[0];
+  excerpt = sentenceMatch[0];
   }
   if (excerpt.length > 150) {
-    excerpt = excerpt.substring(0, 150).trim();
-    if (!excerpt.endsWith('.') && !excerpt.endsWith('!') && !excerpt.endsWith('?')) {
-      excerpt += '...';
-    }
+  excerpt = excerpt.substring(0, 150).trim();
+  if (!excerpt.endsWith('.') && !excerpt.endsWith('!') && !excerpt.endsWith('?')) {
+  excerpt += '...';
+  }
   }
   
   // Show progress every 50 articles
   if ((idx + 1) % 50 === 0) {
-    console.log(`  Processed ${idx + 1}/${articles.length}...`);
+  console.log(`  Processed ${idx + 1}/${articles.length}...`);
   }
   
   return {
-    url: item.url,
-    title: item.title,
-    category: item.cat,
-    excerpt: excerpt,
-    added: added
+  url: item.url,
+  title: item.title,
+  category: item.cat,
+  excerpt: excerpt,
+  added: added
   };
 });
 
@@ -146,4 +146,4 @@ console.log(`Oldest: ${manifest[manifest.length - 1].title}`);
 console.log(`  Added: ${manifest[manifest.length - 1].added.substring(0, 10)}`);
 console.log('\nFile: content-manifest.js');
 console.log(`Size: ${(output.length / 1024).toFixed(1)} KB`);
-console.log('\n✓ Ready to deploy');
+console.log('\n Ready to deploy');

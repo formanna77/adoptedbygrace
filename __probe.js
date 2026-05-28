@@ -17,21 +17,21 @@ const server = http.createServer((req,res)=>{
   const port=server.address().port;
   const b=await chromium.launch({executablePath:EXEC,args:['--no-sandbox']});
   for(const t of ['anxious-mind-brain-decides.html','question-romans9.html','golden-chain.html']){
-    const ctx=await b.newContext({viewport:{width:1440,height:900}});
-    const p=await ctx.newPage();
-    p.on('pageerror',e=>console.log(t,'PAGEERR',e.message));
-    p.on('console',m=>{if(m.type()==='error')console.log(t,'CONSOLE',m.text());});
-    await p.goto(`http://localhost:${port}/${t}`,{waitUntil:'networkidle'});
-    await p.waitForTimeout(800);
-    const diag = await p.evaluate(()=>({
-      hasBread: !!document.querySelector('.ux-breadcrumbs'),
-      hasHero: !!document.querySelector('header.page-hero'),
-      hasArticle: !!document.querySelector('article.article-body'),
-      path: location.pathname,
-      readyState: document.readyState,
-    }));
-    console.log(t, JSON.stringify(diag));
-    await ctx.close();
+  const ctx=await b.newContext({viewport:{width:1440,height:900}});
+  const p=await ctx.newPage();
+  p.on('pageerror',e=>console.log(t,'PAGEERR',e.message));
+  p.on('console',m=>{if(m.type()==='error')console.log(t,'CONSOLE',m.text());});
+  await p.goto(`http://localhost:${port}/${t}`,{waitUntil:'networkidle'});
+  await p.waitForTimeout(800);
+  const diag = await p.evaluate(()=>({
+  hasBread: !!document.querySelector('.ux-breadcrumbs'),
+  hasHero: !!document.querySelector('header.page-hero'),
+  hasArticle: !!document.querySelector('article.article-body'),
+  path: location.pathname,
+  readyState: document.readyState,
+  }));
+  console.log(t, JSON.stringify(diag));
+  await ctx.close();
   }
   await b.close(); server.close();
 })();

@@ -19,32 +19,32 @@
  *
  * Dispositions:
  *
- *   RETIRE-STUB         — words < 500 AND inbound ≤ 2. Below publication grade.
- *                         (Tier-3 cut criterion: "Stub or abandoned drafts that
- *                         never reached publication quality.")
+ * RETIRE-STUB — words < 500 AND inbound ≤ 2. Below publication grade.
+ * (Tier-3 cut criterion: "Stub or abandoned drafts that
+ * never reached publication quality.")
  *
- *   RETIRE-LOW-VALUE    — wordCount < 700 AND inbound ≤ 1. Almost no internal
- *                         pull and not enough body to carry a reader. The wiring
- *                         can be redirected; the page can come down.
- *                         (Tier-3 cut criterion: "Pages that exist only because
- *                         old wiring depended on them.")
+ * RETIRE-LOW-VALUE — wordCount < 700 AND inbound ≤ 1. Almost no internal
+ * pull and not enough body to carry a reader. The wiring
+ * can be redirected; the page can come down.
+ * (Tier-3 cut criterion: "Pages that exist only because
+ * old wiring depended on them.")
  *
- *   MERGE-CANDIDATE     — explicit duplicate-pair mappings flagged by
- *                         MISSION-CONTROL.md §Phase 1 + same-stem siblings
- *                         across `apologetic-` / `question-` / `objection-` /
- *                         `pastoral-`. Merge the weaker into the stronger.
- *                         (Tier-3 cut criterion: "Duplicate or near-duplicate
- *                         to a stronger page.")
+ * MERGE-CANDIDATE — explicit duplicate-pair mappings flagged by
+ * MISSION-CONTROL.md §Phase 1 + same-stem siblings
+ * across `apologetic-` / `question-` / `objection-` /
+ * `pastoral-`. Merge the weaker into the stronger.
+ * (Tier-3 cut criterion: "Duplicate or near-duplicate
+ * to a stronger page.")
  *
- *   ELEVATE             — high inbound (≥ 6) but body small (< 1500 words),
- *                         AND not yet HAMMER-LOCKED or POLISH-LOCKED. These
- *                         pages carry load with too little muscle. Promote
- *                         to Tier 1 for a full rebuild.
- *                         (Tier-3 elevate criterion: "Pages carrying a
- *                         load-bearing argument not covered elsewhere.")
+ * ELEVATE — high inbound (≥ 6) but body small (< 1500 words),
+ * AND not yet HAMMER-LOCKED or POLISH-LOCKED. These
+ * pages carry load with too little muscle. Promote
+ * to Tier 1 for a full rebuild.
+ * (Tier-3 elevate criterion: "Pages carrying a
+ * load-bearing argument not covered elsewhere.")
  *
- *   KEEP-AS-IS          — passes thresholds; not a Tier 3 candidate this run.
- *                         Reported only as the residual count, not enumerated.
+ * KEEP-AS-IS — passes thresholds; not a Tier 3 candidate this run.
+ * Reported only as the residual count, not enumerated.
  *
  * The script is idempotent — re-running it produces the same ledger from the
  * same audit snapshot. Re-run after any pruning session to see the new state.
@@ -64,7 +64,7 @@ const OUT_PATH = path.join(ROOT, 'PRUNE-CANDIDATES.md');
 // ─── Inputs ────────────────────────────────────────────────────────
 
 if (!fs.existsSync(AUDIT_PATH)) {
-  console.error('✗ audit-data.json missing. Run `node strategic-audit.js` first.');
+  console.error(' audit-data.json missing. Run `node strategic-audit.js` first.');
   process.exit(1);
 }
 
@@ -99,8 +99,8 @@ for (const file of Object.keys(pages)) {
 // Format: [weaker → stronger]. Stronger wins. Weaker is the merge candidate.
 const KNOWN_MERGE_PAIRS = [
   ['apologetic-perseverance.html', 'question-perseverance.html'],
-  ['apologetic-evangelism.html',   'pastoral-evangelism.html'],
-  ['apologetic-babies.html',       'objection-babies.html'],
+  ['apologetic-evangelism.html', 'pastoral-evangelism.html'],
+  ['apologetic-babies.html', 'objection-babies.html'],
 ];
 
 // Same-stem sibling detection across these prefix families.
@@ -113,7 +113,7 @@ const SIBLING_PREFIXES = [
 
 function stemOf(file) {
   for (const p of SIBLING_PREFIXES) {
-    if (file.startsWith(p)) return file.slice(p.length).replace(/\.html$/, '');
+  if (file.startsWith(p)) return file.slice(p.length).replace(/\.html$/, '');
   }
   return null;
 }
@@ -140,43 +140,43 @@ function classify(p) {
 
   // Known merge-pair (weaker side flagged).
   for (const [weaker, stronger] of KNOWN_MERGE_PAIRS) {
-    if (file === weaker) {
-      return { disposition: 'MERGE-CANDIDATE', mergeInto: stronger, reason: 'known duplicate pair (MISSION-CONTROL §Phase 1)' };
-    }
+  if (file === weaker) {
+  return { disposition: 'MERGE-CANDIDATE', mergeInto: stronger, reason: 'known duplicate pair (MISSION-CONTROL §Phase 1)' };
+  }
   }
 
   // Same-stem siblings — weaker side flagged.
   const stem = stemOf(file);
   if (stem && stemIndex.has(stem) && stemIndex.get(stem).length > 1) {
-    const siblings = stemIndex.get(stem);
-    // Pick the strongest sibling (highest inbound, then highest words).
-    const ranked = siblings
-      .map(s => pages[s])
-      .filter(Boolean)
-      .sort((a, b) => (b.inboundCount - a.inboundCount) || (b.wordCount - a.wordCount));
-    const winner = ranked[0];
-    if (winner.file !== file) {
-      return {
-        disposition: 'MERGE-CANDIDATE',
-        mergeInto: winner.file,
-        reason: `same-stem sibling — winner has ${winner.inboundCount} inbound vs. this page's ${p.inboundCount}`,
-      };
-    }
+  const siblings = stemIndex.get(stem);
+  // Pick the strongest sibling (highest inbound, then highest words).
+  const ranked = siblings
+  .map(s => pages[s])
+  .filter(Boolean)
+  .sort((a, b) => (b.inboundCount - a.inboundCount) || (b.wordCount - a.wordCount));
+  const winner = ranked[0];
+  if (winner.file !== file) {
+  return {
+  disposition: 'MERGE-CANDIDATE',
+  mergeInto: winner.file,
+  reason: `same-stem sibling — winner has ${winner.inboundCount} inbound vs. this page's ${p.inboundCount}`,
+  };
+  }
   }
 
   // Stub (publication-grade fail).
   if (p.wordCount < 500 && p.inboundCount <= 2) {
-    return { disposition: 'RETIRE-STUB', reason: `${p.wordCount}w · ${p.inboundCount} inbound — below publication grade` };
+  return { disposition: 'RETIRE-STUB', reason: `${p.wordCount}w · ${p.inboundCount} inbound — below publication grade` };
   }
 
   // Low-value — short and almost no pull.
   if (p.wordCount < 700 && p.inboundCount <= 1) {
-    return { disposition: 'RETIRE-LOW-VALUE', reason: `${p.wordCount}w · ${p.inboundCount} inbound — wiring redirectable` };
+  return { disposition: 'RETIRE-LOW-VALUE', reason: `${p.wordCount}w · ${p.inboundCount} inbound — wiring redirectable` };
   }
 
   // Elevate — load-bearing argument with too little muscle.
   if (p.inboundCount >= 6 && p.wordCount < 1500) {
-    return { disposition: 'ELEVATE', reason: `${p.inboundCount} inbound but only ${p.wordCount}w — promote to Tier 1` };
+  return { disposition: 'ELEVATE', reason: `${p.inboundCount} inbound but only ${p.wordCount}w — promote to Tier 1` };
   }
 
   return { disposition: 'KEEP-AS-IS' };
@@ -199,9 +199,9 @@ for (const p of Object.values(pages)) {
   const result = classify(p);
   const d = result.disposition;
   if (Array.isArray(buckets[d])) {
-    buckets[d].push({ ...p, ...result });
+  buckets[d].push({ ...p, ...result });
   } else {
-    buckets[d]++;
+  buckets[d]++;
   }
 }
 
@@ -264,16 +264,16 @@ function section(heading, helpText, rows, columns) {
   md.push(`> ${helpText}`);
   md.push('');
   if (rows.length === 0) {
-    md.push('_No candidates flagged in this disposition._');
-    md.push('');
-    md.push('---');
-    md.push('');
-    return;
+  md.push('_No candidates flagged in this disposition._');
+  md.push('');
+  md.push('---');
+  md.push('');
+  return;
   }
   md.push('| ' + columns.map(c => c.header).join(' | ') + ' |');
   md.push('|' + columns.map(c => c.align || '---').join('|') + '|');
   for (const r of rows) {
-    md.push('| ' + columns.map(c => c.cell(r)).join(' | ') + ' |');
+  md.push('| ' + columns.map(c => c.cell(r)).join(' | ') + ' |');
   }
   md.push('');
   md.push('---');
@@ -285,11 +285,11 @@ section(
   'Pages with `< 500 words` AND `≤ 2 inbound`. Almost certainly stubs or abandoned drafts. Cut after redirecting any inbound link.',
   buckets['RETIRE-STUB'],
   [
-    { header: 'File',     align: '---', cell: r => `\`${r.file}\`` },
-    { header: 'Words',    align: '--:', cell: r => r.wordCount },
-    { header: 'Inbound',  align: '--:', cell: r => r.inboundCount },
-    { header: 'Tier',     align: '---', cell: r => r.tier },
-    { header: 'Reason',   align: '---', cell: r => r.reason },
+  { header: 'File', align: '---', cell: r => `\`${r.file}\`` },
+  { header: 'Words', align: '--:', cell: r => r.wordCount },
+  { header: 'Inbound',  align: '--:', cell: r => r.inboundCount },
+  { header: 'Tier', align: '---', cell: r => r.tier },
+  { header: 'Reason', align: '---', cell: r => r.reason },
   ]
 );
 
@@ -298,11 +298,11 @@ section(
   'Pages with `< 700 words` AND `≤ 1 inbound`. Body is small enough that the argument is almost certainly carried better elsewhere; the only reason this URL exists is residual wiring. Redirect the wiring, then cut.',
   buckets['RETIRE-LOW-VALUE'],
   [
-    { header: 'File',     align: '---', cell: r => `\`${r.file}\`` },
-    { header: 'Words',    align: '--:', cell: r => r.wordCount },
-    { header: 'Inbound',  align: '--:', cell: r => r.inboundCount },
-    { header: 'Tier',     align: '---', cell: r => r.tier },
-    { header: 'Reason',   align: '---', cell: r => r.reason },
+  { header: 'File', align: '---', cell: r => `\`${r.file}\`` },
+  { header: 'Words', align: '--:', cell: r => r.wordCount },
+  { header: 'Inbound',  align: '--:', cell: r => r.inboundCount },
+  { header: 'Tier', align: '---', cell: r => r.tier },
+  { header: 'Reason', align: '---', cell: r => r.reason },
   ]
 );
 
@@ -311,11 +311,11 @@ section(
   'Two patterns: (1) the explicit duplicate pairs from MISSION-CONTROL §Phase 1, (2) same-stem siblings across `apologetic-` / `question-` / `objection-` / `pastoral-` / `demolition-` / `compare-` where one page out-pulls the other. Fold the weaker into the stronger and 301 the URL.',
   buckets['MERGE-CANDIDATE'],
   [
-    { header: 'File',         align: '---', cell: r => `\`${r.file}\`` },
-    { header: 'Merge → into', align: '---', cell: r => `\`${r.mergeInto}\`` },
-    { header: 'Words',        align: '--:', cell: r => r.wordCount },
-    { header: 'Inbound',      align: '--:', cell: r => r.inboundCount },
-    { header: 'Reason',       align: '---', cell: r => r.reason },
+  { header: 'File', align: '---', cell: r => `\`${r.file}\`` },
+  { header: 'Merge → into', align: '---', cell: r => `\`${r.mergeInto}\`` },
+  { header: 'Words', align: '--:', cell: r => r.wordCount },
+  { header: 'Inbound', align: '--:', cell: r => r.inboundCount },
+  { header: 'Reason', align: '---', cell: r => r.reason },
   ]
 );
 
@@ -324,11 +324,11 @@ section(
   'Pages with `≥ 6 inbound` and `< 1500 words` that are NOT yet HAMMER-LOCKED or POLISH-LOCKED. They carry weight in the internal traversal but their bodies are too small for what they are doing. Promote to Tier 1 for a full Hammer-Spine rebuild.',
   buckets['ELEVATE'],
   [
-    { header: 'File',     align: '---', cell: r => `\`${r.file}\`` },
-    { header: 'Inbound',  align: '--:', cell: r => r.inboundCount },
-    { header: 'Words',    align: '--:', cell: r => r.wordCount },
-    { header: 'Tier',     align: '---', cell: r => r.tier },
-    { header: 'Reason',   align: '---', cell: r => r.reason },
+  { header: 'File', align: '---', cell: r => `\`${r.file}\`` },
+  { header: 'Inbound',  align: '--:', cell: r => r.inboundCount },
+  { header: 'Words', align: '--:', cell: r => r.wordCount },
+  { header: 'Tier', align: '---', cell: r => r.tier },
+  { header: 'Reason', align: '---', cell: r => r.reason },
   ]
 );
 
@@ -365,18 +365,18 @@ fs.writeFileSync(OUT_PATH, md.join('\n'));
 console.log('');
 console.log('prune-audit.js — Tier 3 Pruning Audit (surfacer)');
 console.log('───────────────────────────────────────────────');
-console.log(`Total pages in audit-data.json    : ${Object.keys(pages).length}`);
-console.log(`HAMMER-LOCKED (skipped)           : ${buckets['HAMMER-LOCKED-SKIP']}`);
-console.log(`POLISH-LOCKED (skipped)           : ${buckets['POLISH-LOCKED-SKIP']}`);
-console.log(`INFRA / hub / utility (skipped)   : ${buckets['INFRA-SKIP']}`);
+console.log(`Total pages in audit-data.json : ${Object.keys(pages).length}`);
+console.log(`HAMMER-LOCKED (skipped) : ${buckets['HAMMER-LOCKED-SKIP']}`);
+console.log(`POLISH-LOCKED (skipped) : ${buckets['POLISH-LOCKED-SKIP']}`);
+console.log(`INFRA / hub / utility (skipped) : ${buckets['INFRA-SKIP']}`);
 console.log('');
-console.log(`RETIRE-STUB                       : ${buckets['RETIRE-STUB'].length}`);
-console.log(`RETIRE-LOW-VALUE                  : ${buckets['RETIRE-LOW-VALUE'].length}`);
-console.log(`MERGE-CANDIDATE                   : ${buckets['MERGE-CANDIDATE'].length}`);
-console.log(`ELEVATE                           : ${buckets['ELEVATE'].length}`);
-console.log(`KEEP-AS-IS                        : ${buckets['KEEP-AS-IS']}`);
+console.log(`RETIRE-STUB : ${buckets['RETIRE-STUB'].length}`);
+console.log(`RETIRE-LOW-VALUE : ${buckets['RETIRE-LOW-VALUE'].length}`);
+console.log(`MERGE-CANDIDATE : ${buckets['MERGE-CANDIDATE'].length}`);
+console.log(`ELEVATE : ${buckets['ELEVATE'].length}`);
+console.log(`KEEP-AS-IS : ${buckets['KEEP-AS-IS']}`);
 console.log('───────────────────────────────────────────────');
-console.log(`Total surfaced for human review   : ${totalSurfaced}`);
+console.log(`Total surfaced for human review : ${totalSurfaced}`);
 console.log('');
 console.log(`Ledger written → ${path.relative(ROOT, OUT_PATH)}`);
 console.log('');

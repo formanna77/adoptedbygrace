@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="/global.css">
     <link rel="manifest" href="/manifest.webmanifest">
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://adoptedbygrace.net/"},
-            {"@type": "ListItem", "position": 2, "name": "The Anxious Mind", "item": "https://adoptedbygrace.net/anxious-mind-hub"},
-            {"@type": "ListItem", "position": 3, "name": "The Loop That Won't Break"}
-        ]
-    }
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://adoptedbygrace.net/"},
+  {"@type": "ListItem", "position": 2, "name": "The Anxious Mind", "item": "https://adoptedbygrace.net/anxious-mind-hub"},
+  {"@type": "ListItem", "position": 3, "name": "The Loop That Won't Break"}
+  ]
+  }
     </script>
 
     <!-- Project Lighthouse: Universal Share-Ready Meta -->
@@ -49,39 +49,39 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://adoptedbygrace.net/#organization",
-      "name": "Adopted by Grace",
-      "url": "https://adoptedbygrace.net",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://adoptedbygrace.net/og-image.png",
-        "width": 1200,
-        "height": 630
-      },
-      "sameAs": [
-        "https://twitter.com/ForeknownOne",
-        "https://foreknownone.substack.com"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://adoptedbygrace.net/#website",
-      "url": "https://adoptedbygrace.net",
-      "name": "Adopted by Grace",
-      "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
-      "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      },
-      "inLanguage": "en-US"
-    }
+  {
+  "@type": "Organization",
+  "@id": "https://adoptedbygrace.net/#organization",
+  "name": "Adopted by Grace",
+  "url": "https://adoptedbygrace.net",
+  "logo": {
+  "@type": "ImageObject",
+  "url": "https://adoptedbygrace.net/og-image.png",
+  "width": 1200,
+  "height": 630
+  },
+  "sameAs": [
+  "https://twitter.com/ForeknownOne",
+  "https://foreknownone.substack.com"
+  ]
+  },
+  {
+  "@type": "WebSite",
+  "@id": "https://adoptedbygrace.net/#website",
+  "url": "https://adoptedbygrace.net",
+  "name": "Adopted by Grace",
+  "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
+  "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
+  "potentialAction": {
+  "@type": "SearchAction",
+  "target": {
+  "@type": "EntryPoint",
+  "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
+  },
+  "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "en-US"
+  }
   ]
 }
 </script>
@@ -111,180 +111,180 @@
 <body>
 
     <nav role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <a href="/" class="nav-site-name">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            </button>
-            <ul class="nav-links">
-                <li class="mobile-menu-search" style="list-style:none;">
-                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
-                </li>
-                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
-                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
-                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
-                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
-                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
-                <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
-                <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
-            </ul>
-            <div class="nav-right">
-                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
-                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
-                <a href="/start-here" class="nav-top-link">Start Here</a>
-                <a href="/questions" class="nav-top-link">Questions</a>
-                <a href="/systematic-theology" class="nav-top-link">Theology</a>
-                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
-                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
-                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
-                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
-                <a href="/about" class="nav-top-link">About</a>
-                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
-                    <span class="mega-menu-toggle-label">Explore</span>
-                </button>
-                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                </button>
-            </div>
-        </div>
+   <div class="nav-container">
+   <a href="/" class="nav-site-name">Adopted by Grace</a>
+   <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+   <span></span><span></span><span></span>
+   </button>
+   <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+   <ul class="nav-links">
+   <li class="mobile-menu-search" style="list-style:none;">
+   <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+</li>
+   <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+   <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+   <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+   <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+   <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+   <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+   <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+   <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+   <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+   <li class="mobile-nav-link"><a href="/about">About</a></li>
+   <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+   </ul>
+   <div class="nav-right">
+   <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+   <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+   <a href="/start-here" class="nav-top-link">Start Here</a>
+   <a href="/questions" class="nav-top-link">Questions</a>
+   <a href="/systematic-theology" class="nav-top-link">Theology</a>
+   <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+   <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+   <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+   <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+   <a href="/about" class="nav-top-link">About</a>
+   <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+   <span class="mega-menu-toggle-label">Explore</span>
+   </button>
+   <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+</div>
+</div>
     </nav>
     <div class="mega-menu" id="megaMenu"></div>
     <div class="search-overlay" id="searchOverlay">
-        <div class="search-overlay-inner">
-            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
-            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
-        </div>
-        <div class="search-results" id="searchResults"></div>
-    </div>
+   <div class="search-overlay-inner">
+   <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+   <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+</div>
+   <div class="search-results" id="searchResults"></div>
+</div>
 
     <header class="page-hero">
-        <span class="eyebrow">The Anxious Mind</span>
-        <h1>The Loop That Won't Break</h1>
-        <p class="hub-subtitle">The checking. The replaying. The what-ifs that spin in the dark. Your brain is trying to be God. And it is crushing you.</p>
-            <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
+   <span class="eyebrow">The Anxious Mind</span>
+   <h1>The Loop That Won't Break</h1>
+   <p class="hub-subtitle">The checking. The replaying. The what-ifs that spin in the dark. Your brain is trying to be God. And it is crushing you.</p>
+   <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
     </header>
 
     <article class="article-body">
 <!-- CONSECRATED S43-S58 BORN-APEX -->
 <!-- POLISH-LOCKED -->
 
-        <blockquote class="sop-pullquote">You sit on a throne designed for omniscience. Step down. The weight was never yours.</blockquote>
+   <blockquote class="sop-pullquote">You sit on a throne designed for omniscience. Step down. The weight was never yours.</blockquote>
 
-        <div class="tldr">
-            <strong>In Brief:</strong> The anxious loop — whether about salvation, decisions, or the future — is your brain attempting to control what only God controls. You are sitting on a throne designed for omniscience, and the weight is destroying you. Sovereignty doesn't just comfort the anxious mind. It breaks the loop at its root, because the outcome was never yours to manage.
-        </div>
+   <div class="tldr">
+   <strong>In Brief:</strong> The anxious loop — whether about salvation, decisions, or the future — is your brain attempting to control what only God controls. You are sitting on a throne designed for omniscience, and the weight is destroying you. Sovereignty doesn't just comfort the anxious mind. It breaks the loop at its root, because the outcome was never yours to manage.
+</div>
 
-        <p>The hour is late. The ceiling is the same ceiling it was an hour ago. Your jaw is clenched — you can feel the ache in the hinge of it, that dull pressure behind the ear that means your teeth have been grinding again. The sheets are tangled. Your phone glows on the nightstand where you set it down after checking the time for the fourth time, and the blue light makes the room feel clinical, like a waiting room for something you can't name.</p>
+   <p>The hour is late. The ceiling is the same ceiling it was an hour ago. Your jaw is clenched — you can feel the ache in the hinge of it, that dull pressure behind the ear that means your teeth have been grinding again. The sheets are tangled. Your phone glows on the nightstand where you set it down after checking the time for the fourth time, and the blue light makes the room feel clinical, like a waiting room for something you can't name.</p>
 
-        <p>You know the loop. You know it the way you know the sound of your own breathing — so constant it has become the background noise of your life. A thought arrives uninvited. The thought demands attention. The attention demands resolution. The resolution spawns another thought. And you are back at the beginning, except now you are exhausted and the loop is tighter and the exit is further away than it was an hour ago.</p>
+   <p>You know the loop. You know it the way you know the sound of your own breathing — so constant it has become the background noise of your life. A thought arrives uninvited. The thought demands attention. The attention demands resolution. The resolution spawns another thought. And you are back at the beginning, except now you are exhausted and the loop is tighter and the exit is further away than it was an hour ago.</p>
 
-        <p>Maybe it's about your salvation. <em>Am I really saved? Was my conversion real? Did I mean it enough?</em> You pray again. You confess again. You recommit again. The relief lasts twenty minutes. The loop restarts.</p>
+   <p>Maybe it's about your salvation. <em>Am I really saved? Was my conversion real? Did I mean it enough?</em> You pray again. You confess again. You recommit again. The relief lasts twenty minutes. The loop restarts.</p>
 
-        <p>Maybe it's about a decision. <em>Did I choose wrong? What if the other option was better? I need to replay the conversation one more time.</em> Maybe it's about the future. <em>What if the worst thing happens? What if God is angry?</em></p>
+   <p>Maybe it's about a decision. <em>Did I choose wrong? What if the other option was better? I need to replay the conversation one more time.</em> Maybe it's about the future. <em>What if the worst thing happens? What if God is angry?</em></p>
 
-        <p>The content varies. The mechanics are always the same: a thought demands certainty, and your beautiful, terrified brain tries to provide it by thinking harder, checking more, replaying again, praying the same prayer for the four hundredth time, hoping this time the relief will stick.</p>
+   <p>The content varies. The mechanics are always the same: a thought demands certainty, and your beautiful, terrified brain tries to provide it by thinking harder, checking more, replaying again, praying the same prayer for the four hundredth time, hoping this time the relief will stick.</p>
 
-        <p>It never sticks.</p>
+   <p>It never sticks.</p>
 
-        <h2>What the Loop Actually Is</h2>
+   <h2>What the Loop Actually Is</h2>
 
-        <p>The anxious loop — whether it manifests as clinical OCD, <a href="/anxious-mind-scrupulosity">scrupulosity</a>, or generalized rumination — is not a spiritual failure. It is a neurological pattern. Your brain's threat-detection system has identified something as dangerous and is demanding resolution. The same <a href="/psychology-autonomy-illusion">illusion of control</a> that tells you that you chose God is now telling you that you can think your way to safety.</p>
+   <p>The anxious loop — whether it manifests as clinical OCD, <a href="/anxious-mind-scrupulosity">scrupulosity</a>, or generalized rumination — is not a spiritual failure. It is a neurological pattern. Your brain's threat-detection system has identified something as dangerous and is demanding resolution. The same <a href="/psychology-autonomy-illusion">illusion of control</a> that tells you that you chose God is now telling you that you can think your way to safety.</p>
 
-        <p>The problem is that the "something" is an <em>uncertainty</em> — and uncertainties, by definition, cannot be resolved through thinking. You cannot think your way to certainty about whether your conversion was genuine, because the thinking itself becomes suspect. You cannot replay a conversation until you are certain you said the right thing, because memory degrades with each replay.</p>
+   <p>The problem is that the "something" is an <em>uncertainty</em> — and uncertainties, by definition, cannot be resolved through thinking. You cannot think your way to certainty about whether your conversion was genuine, because the thinking itself becomes suspect. You cannot replay a conversation until you are certain you said the right thing, because memory degrades with each replay.</p>
 
-        <p>The loop is your brain attempting to do something it was never designed to do: control the uncontrollable.</p>
+   <p>The loop is your brain attempting to do something it was never designed to do: control the uncontrollable.</p>
 
-        <p>The loop is your brain sitting on a throne that belongs to God.</p>
+   <p>The loop is your brain sitting on a throne that belongs to God.</p>
 
-        <h2>The Throne You're Sitting On</h2>
+   <h2>The Throne You're Sitting On</h2>
 
-        <p>Every anxious loop is, at its root, an attempt to be sovereign over something you are not sovereign over. Trace any loop back far enough and you will find the same assumption: <em>If I think about this hard enough, I can control the outcome.</em></p>
+   <p>Every anxious loop is, at its root, an attempt to be sovereign over something you are not sovereign over. Trace any loop back far enough and you will find the same assumption: <em>If I think about this hard enough, I can control the outcome.</em></p>
 
-        <p>The salvation loop: <em>If I examine my conversion hard enough, I can ensure I'm really saved.</em> But <a href="/systematic-election">election is God's decision</a>, not yours. The decision loop: <em>If I replay it enough times, I can make sure I chose right.</em> But God ordains all things — the decision you made was the decision you were always going to make, within the providence of a God who wastes nothing. The future loop: <em>If I imagine every catastrophe, I can be safe.</em> But <a href="/anxious-mind-never-meant-to-carry">you were never meant to carry tomorrow</a>. Jesus said so explicitly: "Do not worry about tomorrow, for tomorrow will worry about itself" (Matthew 6:34).</p>
+   <p>The salvation loop: <em>If I examine my conversion hard enough, I can ensure I'm really saved.</em> But <a href="/systematic-election">election is God's decision</a>, not yours. The decision loop: <em>If I replay it enough times, I can make sure I chose right.</em> But God ordains all things — the decision you made was the decision you were always going to make, within the providence of a God who wastes nothing. The future loop: <em>If I imagine every catastrophe, I can be safe.</em> But <a href="/anxious-mind-never-meant-to-carry">you were never meant to carry tomorrow</a>. Jesus said so explicitly: "Do not worry about tomorrow, for tomorrow will worry about itself" (Matthew 6:34).</p>
 
-        <p>In each case, you are sitting on the throne of omniscience, trying to know everything, and the weight is crushing your spine. You are sitting on the throne of omnipotence, trying to control everything, and the effort is burning you alive. The throne was never designed for a human body. You are the worst possible candidate for omniscience. (So is everyone else. That's the point.) It is too heavy. It is too hot. And the longer you sit on it, the more damage it does.</p>
+   <p>In each case, you are sitting on the throne of omniscience, trying to know everything, and the weight is crushing your spine. You are sitting on the throne of omnipotence, trying to control everything, and the effort is burning you alive. The throne was never designed for a human body. You are the worst possible candidate for omniscience. (So is everyone else. That's the point.) It is too heavy. It is too hot. And the longer you sit on it, the more damage it does.</p>
 
-        <h2>Why "Just Trust God" Doesn't Work</h2>
+   <h2>Why "Just Trust God" Doesn't Work</h2>
 
-        <p>If you have OCD or chronic rumination, you have almost certainly been told to "just give it to the Lord." And you have found that this instruction is as useful as telling someone with a broken leg to "just walk it off."</p>
+   <p>If you have OCD or chronic rumination, you have almost certainly been told to "just give it to the Lord." And you have found that this instruction is as useful as telling someone with a broken leg to "just walk it off."</p>
 
-        <p>The reason is neurological. When the amygdala fires, the rational brain gets partially bypassed. You cannot think your way out of an amygdala hijack with a Bible verse, any more than you can talk yourself out of a panic attack with logic. The body is in survival mode.</p>
+   <p>The reason is neurological. When the amygdala fires, the rational brain gets partially bypassed. You cannot think your way out of an amygdala hijack with a Bible verse, any more than you can talk yourself out of a panic attack with logic. The body is in survival mode.</p>
 
-        <p>This is why professional help is not a failure of faith. If you struggle with OCD, rumination, or chronic anxiety, a therapist trained in Exposure and Response Prevention (ERP) or Cognitive Behavioral Therapy (CBT) is not a substitute for God — they are a tool God uses. Medicine is not unbelief. God made the brain, and He made people who understand how it works. <em>Please, if you are suffering, seek help.</em></p>
+   <p>This is why professional help is not a failure of faith. If you struggle with OCD, rumination, or chronic anxiety, a therapist trained in Exposure and Response Prevention (ERP) or Cognitive Behavioral Therapy (CBT) is not a substitute for God — they are a tool God uses. Medicine is not unbelief. God made the brain, and He made people who understand how it works. <em>Please, if you are suffering, seek help.</em></p>
 
-        <p>What if the reason you can't think your way to peace is that peace was never a thought away?</p>
+   <p>What if the reason you can't think your way to peace is that peace was never a thought away?</p>
 
-        <p>But here is what theology adds that therapy alone cannot provide: the <em>reason</em> to get off the throne.</p>
+   <p>But here is what theology adds that therapy alone cannot provide: the <em>reason</em> to get off the throne.</p>
 
-        <h2>The Sovereignty That Breaks the Loop</h2>
+   <h2>The Sovereignty That Breaks the Loop</h2>
 
-        <p>Therapy can teach you to resist the compulsion. Theology tells you <em>why</em> sitting with uncertainty is safe. And the why is this: there is someone already on the throne.</p>
+   <p>Therapy can teach you to resist the compulsion. Theology tells you <em>why</em> sitting with uncertainty is safe. And the why is this: there is someone already on the throne.</p>
 
-        <p>You are not releasing control into a void. You are releasing it to a Person — a specific, living, all-knowing, all-powerful Person who <a href="/question-chosen">chose you before the foundation of the world</a> and has been managing every detail of the universe since before the first photon fired. He knows the outcome of the decision you are replaying. He knows whether your conversion was real. He knows what tomorrow holds. And He is not anxious about any of it.</p>
+   <p>You are not releasing control into a void. You are releasing it to a Person — a specific, living, all-knowing, all-powerful Person who <a href="/question-chosen">chose you before the foundation of the world</a> and has been managing every detail of the universe since before the first photon fired. He knows the outcome of the decision you are replaying. He knows whether your conversion was real. He knows what tomorrow holds. And He is not anxious about any of it.</p>
 
-        <blockquote>
-            <p>"Cast all your anxiety on him because he cares for you."</p>
-            <cite>1 PETER 5:7</cite>
-        </blockquote>
+   <blockquote>
+   <p>"Cast all your anxiety on him because he cares for you."</p>
+   <cite>1 PETER 5:7</cite>
+   </blockquote>
 
-        <p>The word translated "cast" is the Greek <em>epiriptō</em> — it means to throw, to hurl, to fling. Not a gentle laying-down. A desperate heave. Peter is not saying "calmly release your anxiety." He is saying: <em>throw it. Get it off you. It is not yours to carry.</em> And the reason you can throw it is not because the anxiety doesn't matter — it is because He is already caring for the thing you are trying to manage. <a href="/devotional-never-gives-up">He does not let go</a> — even when your mind is spinning too fast to feel His presence.</p>
+   <p>The word translated "cast" is the Greek <em>epiriptō</em> — it means to throw, to hurl, to fling. Not a gentle laying-down. A desperate heave. Peter is not saying "calmly release your anxiety." He is saying: <em>throw it. Get it off you. It is not yours to carry.</em> And the reason you can throw it is not because the anxiety doesn't matter — it is because He is already caring for the thing you are trying to manage. <a href="/devotional-never-gives-up">He does not let go</a> — even when your mind is spinning too fast to feel His presence.</p>
 
-        <h2>The Salvation Loop — Broken by Election</h2>
+   <h2>The Salvation Loop — Broken by Election</h2>
 
-        <p>If your specific loop is about salvation — <em>Am I really saved?</em> — then sovereign election is not an academic truth. It is the sledgehammer that breaks the loop.</p>
+   <p>If your specific loop is about salvation — <em>Am I really saved?</em> — then sovereign election is not an academic truth. It is the sledgehammer that breaks the loop.</p>
 
-        <p>The loop assumes your salvation depends on the quality of your decision. If you decided sincerely enough, you are saved. If you didn't, you're not. And since you can never be certain about the quality of your own decision (the <a href="/psychology-sincerity-trap">sincerity trap</a> proves this), the loop never ends.</p>
+   <p>The loop assumes your salvation depends on the quality of your decision. If you decided sincerely enough, you are saved. If you didn't, you're not. And since you can never be certain about the quality of your own decision (the <a href="/psychology-sincerity-trap">sincerity trap</a> proves this), the loop never ends.</p>
 
-        <p>But <a href="/question-faithgift">if faith is a gift from God</a> — if your salvation was decided before you were born, by a God who cannot be wrong and does not change His mind — then the loop has nowhere to land. You do not need to examine the quality of your decision, because your decision was not the decisive factor. God's was. And <a href="/devotional-i-dont-think-im-saved">the fact that you care whether you're saved is evidence that you are</a>, because the dead don't worry about being dead.</p>
+   <p>But <a href="/question-faithgift">if faith is a gift from God</a> — if your salvation was decided before you were born, by a God who cannot be wrong and does not change His mind — then the loop has nowhere to land. You do not need to examine the quality of your decision, because your decision was not the decisive factor. God's was. And <a href="/devotional-i-dont-think-im-saved">the fact that you care whether you're saved is evidence that you are</a>, because the dead don't worry about being dead.</p>
 
-        <blockquote>
-            <p>"Being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."</p>
-            <cite>PHILIPPIANS 1:6</cite>
-        </blockquote>
+   <blockquote>
+   <p>"Being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."</p>
+   <cite>PHILIPPIANS 1:6</cite>
+   </blockquote>
 
-        <p>He began. He carries. He completes.</p>
+   <p>He began. He carries. He completes.</p>
 
-        <p>Every verb has God as the subject. The <a href="/question-perseverance">perseverance of the saints</a> is really the perseverance of God.</p>
+   <p>Every verb has God as the subject. The <a href="/question-perseverance">perseverance of the saints</a> is really the perseverance of God.</p>
 
-        <p>You are not the subject of your salvation story. He is.</p>
+   <p>You are not the subject of your salvation story. He is.</p>
 
-        <h2>What to Do Tonight</h2>
+   <h2>What to Do Tonight</h2>
 
-        <p>The loop will come back. When it does, try this — not as a cure, but as an interruption:</p>
+   <p>The loop will come back. When it does, try this — not as a cure, but as an interruption:</p>
 
-        <p><strong>Name it.</strong> "This is the loop. You are my brain trying to be God again. You are trying to achieve certainty I was never meant to have."</p>
+   <p><strong>Name it.</strong> "This is the loop. You are my brain trying to be God again. You are trying to achieve certainty I was never meant to have."</p>
 
-        <p><strong>Refuse the compulsion.</strong> Do not check again. Do not pray the prayer for the four hundred and first time. Do not replay the conversation. Sit with the discomfort. The discomfort is your brain adjusting to the truth that you are not omniscient and you don't need to be.</p>
+   <p><strong>Refuse the compulsion.</strong> Do not check again. Do not pray the prayer for the four hundred and first time. Do not replay the conversation. Sit with the discomfort. The discomfort is your brain adjusting to the truth that you are not omniscient and you don't need to be.</p>
 
-        <p><strong>Say one sentence to God.</strong> Not a long prayer. One sentence: <em>"You are on the throne. I am getting off."</em></p>
+   <p><strong>Say one sentence to God.</strong> Not a long prayer. One sentence: <em>"You are on the throne. I am getting off."</em></p>
 
-        <p>And then let the uncertainty sit — the way you let rain sit on the windshield. It is there. It is real. But it is not your job to stop it. You have a Driver. He can see through it.</p>
+   <p>And then let the uncertainty sit — the way you let rain sit on the windshield. It is there. It is real. But it is not your job to stop it. You have a Driver. He can see through it.</p>
 
-        <h2>A Prayer for the Mind That Won't Stop</h2>
+   <h2>A Prayer for the Mind That Won't Stop</h2>
 
-        <p><em>God, my brain will not stop. The loop is spinning and I cannot find the off switch. I have tried praying harder, thinking harder, confessing harder. The harder I try, the tighter the loop becomes.</em></p>
+   <p><em>God, my brain will not stop. The loop is spinning and I cannot find the off switch. I have tried praying harder, thinking harder, confessing harder. The harder I try, the tighter the loop becomes.</em></p>
 
-        <p><em>So I am going to try something different. I am going to admit that the thing I am trying to control is not mine to control. The certainty I am trying to manufacture is not mine to manufacture. It is Yours.</em></p>
+   <p><em>So I am going to try something different. I am going to admit that the thing I am trying to control is not mine to control. The certainty I am trying to manufacture is not mine to manufacture. It is Yours.</em></p>
 
-        <p><em>You are sovereign over the thing my brain is spinning about. You knew about it before I did. You have already decided how it ends. And I do not need to know the ending to be safe, because You know it, and You are holding me.</em></p>
+   <p><em>You are sovereign over the thing my brain is spinning about. You knew about it before I did. You have already decided how it ends. And I do not need to know the ending to be safe, because You know it, and You are holding me.</em></p>
 
-        <p><em>Quiet my mind. Not by answering the question — the loop will just find another question. Quiet it by being bigger than the question. Be the God who is too large for the loop to contain. Be the certainty my brain is searching for. Be the throne my brain keeps trying to sit on. And help me get off it.</em></p>
+   <p><em>Quiet my mind. Not by answering the question — the loop will just find another question. Quiet it by being bigger than the question. Be the God who is too large for the loop to contain. Be the certainty my brain is searching for. Be the throne my brain keeps trying to sit on. And help me get off it.</em></p>
 
-        <p><em>I am Yours. My anxious mind is Yours. Even the loop is Yours. Hold it all. Amen.</em></p>
+   <p><em>I am Yours. My anxious mind is Yours. Even the loop is Yours. Hold it all. Amen.</em></p>
 
-        <p>The hour has not moved much. The ceiling has not changed. Your jaw may still ache. The thought may circle back one more time, or ten more times, before your body finally releases into sleep. But something has shifted — not in the room, not in the loop, but underneath both. There is a throne in the center of the universe, and you are no longer sitting on it. Someone else is. Someone who has never lost sleep over anything, because He has never lost control of anything. And He is not anxious about you.</p>
+   <p>The hour has not moved much. The ceiling has not changed. Your jaw may still ache. The thought may circle back one more time, or ten more times, before your body finally releases into sleep. But something has shifted — not in the room, not in the loop, but underneath both. There is a throne in the center of the universe, and you are no longer sitting on it. Someone else is. Someone who has never lost sleep over anything, because He has never lost control of anything. And He is not anxious about you.</p>
 
-        <p>Unclench your jaw. He is holding it all. Even the loop. <em>Especially</em> the loop.</p>
+   <p>Unclench your jaw. He is holding it all. Even the loop. <em>Especially</em> the loop.</p>
 
-        <p style="margin-top:2rem;"><strong>He is not anxious about you.</strong></p>
+   <p style="margin-top:2rem;"><strong>He is not anxious about you.</strong></p>
 
 
 <!-- RELATED-ARTICLES-START -->
@@ -293,82 +293,82 @@
     <h2 class="related-articles-heading">Keep Exploring</h2>
     <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
     <div class="related-articles-grid">
-      <a href="/anxious-mind-intrusive-thoughts" class="related-article-card">
-        <span class="related-article-cat">💚 Anxious Mind</span>
-        <span class="related-article-title">When Your Mind Becomes a War Zone</span>
-        <span class="related-article-desc">8 min read You almost didn&#39;t click this link. Something in you hesitated — not because you weren&#39;t curious, but because you were afraid of…</span>
-      </a>
-      <a href="/anxious-mind-sovereignty-of-sleep" class="related-article-card">
-        <span class="related-article-cat">💚 Anxious Mind</span>
-        <span class="related-article-title">Why You Can Sleep When Everything Is Falling Apart</span>
-        <span class="related-article-desc">Sovereignty is the pillow your head has been looking for. What insomnia reveals about what you actually believe about control — and the God…</span>
-      </a>
-      <a href="/devotional-the-quiet-after-the-storm" class="related-article-card">
-        <span class="related-article-cat">🕯 Devotionals</span>
-        <span class="related-article-title">The Quiet After the Storm</span>
-        <span class="related-article-desc">The arguing is over. The defenses are down. A devotional for the reader on the other side of the paradigm shatter, sitting in the first…</span>
-      </a>
-      <a href="/testimony-hub" class="related-article-card">
-        <span class="related-article-cat">🌅 Testimony</span>
-        <span class="related-article-title">Testimonies of Grace</span>
-        <span class="related-article-desc">Eight testimonies from across two thousand years of saints who were captured by sovereign grace — from Augustine in the garden to Aaron…</span>
-      </a>
-      <a href="/question-why-does-god-choose-some-not-others" class="related-article-card">
-        <span class="related-article-cat">❓ Questions</span>
-        <span class="related-article-title">Why Does God Choose Some and Not Others? Scripture&#39;s Answer</span>
-        <span class="related-article-desc">Notice the surgical precision. Paul explicitly rules out works . Before the children even existed, before they did anything good or bad,…</span>
-      </a>
-      <a href="/shattered-lens-cant-tell-true" class="related-article-card">
-        <span class="related-article-cat">🔍 Shattered Lens</span>
-        <span class="related-article-title">When You Can&#39;t Tell What&#39;s True Anymore</span>
-        <span class="related-article-desc">Truth did not break. Your instruments did. The God who cannot lie has been sovereign over every algorithm and every headline since before…</span>
-      </a>
-    </div>
+   <a href="/anxious-mind-intrusive-thoughts" class="related-article-card">
+   <span class="related-article-cat">Anxious Mind</span>
+   <span class="related-article-title">When Your Mind Becomes a War Zone</span>
+   <span class="related-article-desc">8 min read You almost didn&#39;t click this link. Something in you hesitated — not because you weren&#39;t curious, but because you were afraid of…</span>
+</a>
+   <a href="/anxious-mind-sovereignty-of-sleep" class="related-article-card">
+   <span class="related-article-cat">Anxious Mind</span>
+   <span class="related-article-title">Why You Can Sleep When Everything Is Falling Apart</span>
+   <span class="related-article-desc">Sovereignty is the pillow your head has been looking for. What insomnia reveals about what you actually believe about control — and the God…</span>
+</a>
+   <a href="/devotional-the-quiet-after-the-storm" class="related-article-card">
+   <span class="related-article-cat">Devotionals</span>
+   <span class="related-article-title">The Quiet After the Storm</span>
+   <span class="related-article-desc">The arguing is over. The defenses are down. A devotional for the reader on the other side of the paradigm shatter, sitting in the first…</span>
+</a>
+   <a href="/testimony-hub" class="related-article-card">
+   <span class="related-article-cat">Testimony</span>
+   <span class="related-article-title">Testimonies of Grace</span>
+   <span class="related-article-desc">Eight testimonies from across two thousand years of saints who were captured by sovereign grace — from Augustine in the garden to Aaron…</span>
+</a>
+   <a href="/question-why-does-god-choose-some-not-others" class="related-article-card">
+   <span class="related-article-cat">Questions</span>
+   <span class="related-article-title">Why Does God Choose Some and Not Others? Scripture&#39;s Answer</span>
+   <span class="related-article-desc">Notice the surgical precision. Paul explicitly rules out works . Before the children even existed, before they did anything good or bad,…</span>
+</a>
+   <a href="/shattered-lens-cant-tell-true" class="related-article-card">
+   <span class="related-article-cat">Shattered Lens</span>
+   <span class="related-article-title">When You Can&#39;t Tell What&#39;s True Anymore</span>
+   <span class="related-article-desc">Truth did not break. Your instruments did. The God who cannot lie has been sovereign over every algorithm and every headline since before…</span>
+</a>
+</div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
+   <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
+   <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+</div>
+</div>
 </section>
 <!-- RELATED-ARTICLES-END -->
 </article>
 
     <footer>
-        <div class="footer-container">
-            <div class="footer-section">
-                <h4>Truth</h4>
-                <ul>
-                    <li><a href="/questions">Questions</a></li>
-                    <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li><a href="/demolition-hub">Demolition</a></li>
-                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Explore</h4>
-                <ul>
-                    <li><a href="/start-here">Start Here</a></li>
-                    <li><a href="/theologians">Theologians</a></li>
-                    <li><a href="/devotionals">Devotionals</a></li>
-                    <li><a href="/stories">Stories</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Connect</h4>
-                <ul>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-grace-warning">
-            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
-            Grace is not a license to sin. It is the power that frees us from sin's dominion.
-        </div>
-        <div class="footer-copyright">
-            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
-        </div>
+   <div class="footer-container">
+   <div class="footer-section">
+   <h4>Truth</h4>
+   <ul>
+   <li><a href="/questions">Questions</a></li>
+   <li><a href="/systematic-theology">Systematic Theology</a></li>
+   <li><a href="/demolition-hub">Demolition</a></li>
+   <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+   </ul>
+</div>
+   <div class="footer-section">
+   <h4>Explore</h4>
+   <ul>
+   <li><a href="/start-here">Start Here</a></li>
+   <li><a href="/theologians">Theologians</a></li>
+   <li><a href="/devotionals">Devotionals</a></li>
+   <li><a href="/stories">Stories</a></li>
+   </ul>
+</div>
+   <div class="footer-section">
+   <h4>Connect</h4>
+   <ul>
+   <li><a href="/about">About</a></li>
+   <li><a href="/contact">Contact</a></li>
+   <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+   </ul>
+</div>
+</div>
+   <div class="footer-grace-warning">
+  "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+  Grace is not a license to sin. It is the power that frees us from sin's dominion.
+</div>
+   <div class="footer-copyright">
+   <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+</div>
     </footer>
 
     <script src="/nav.js"></script>

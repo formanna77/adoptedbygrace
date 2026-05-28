@@ -2,7 +2,7 @@
 /**
  * dedupe-assets.js
  *
- * Scans every HTML file and removes duplicate <link rel="stylesheet"> and
+ * Scans every HTML file and removes duplicate <link rel="stylesheet">and
  * <script src=""> tags that load the exact same URL. Keeps the FIRST
  * occurrence, drops subsequent identical tags. Self-contained, idempotent.
  *
@@ -17,12 +17,12 @@ const ROOT = __dirname;
 
 function walk(dir, out = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (entry.name.startsWith('.')) continue;
-    if (entry.name === 'node_modules') continue;
-    if (entry.name === 'archive' || entry.name === 'Reformed Sources') continue;
-    const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) walk(full, out);
-    else if (entry.isFile() && entry.name.endsWith('.html')) out.push(full);
+  if (entry.name.startsWith('.')) continue;
+  if (entry.name === 'node_modules') continue;
+  if (entry.name === 'archive' || entry.name === 'Reformed Sources') continue;
+  const full = path.join(dir, entry.name);
+  if (entry.isDirectory()) walk(full, out);
+  else if (entry.isFile() && entry.name.endsWith('.html')) out.push(full);
   }
   return out;
 }
@@ -36,7 +36,7 @@ function urlOf(tag) {
   return null;
 }
 
-// Find all self-closing/open <link rel=stylesheet> and <script src=""> tags
+// Find all self-closing/open <link rel=stylesheet>and <script src=""> tags
 const LINK_RE = /<link\b[^>]*\brel=["']stylesheet["'][^>]*>/gi;
 const SCRIPT_RE = /<script\b[^>]*\bsrc=["'][^"']+["'][^>]*>\s*<\/script>/gi;
 
@@ -53,29 +53,29 @@ for (const file of walk(ROOT)) {
 
   // Pass 1: stylesheet links
   html = html.replace(LINK_RE, (m) => {
-    const u = urlOf(m);
-    if (!u) return m;
-    if (seen.has(u)) { removedHere++; return ''; }
-    seen.add(u);
-    return m;
+  const u = urlOf(m);
+  if (!u) return m;
+  if (seen.has(u)) { removedHere++; return ''; }
+  seen.add(u);
+  return m;
   });
 
   // Pass 2: script tags (only external src)
   html = html.replace(SCRIPT_RE, (m) => {
-    const u = urlOf(m);
-    if (!u) return m;
-    if (seen.has(u)) { removedHere++; return ''; }
-    seen.add(u);
-    return m;
+  const u = urlOf(m);
+  if (!u) return m;
+  if (seen.has(u)) { removedHere++; return ''; }
+  seen.add(u);
+  return m;
   });
 
   if (html !== original) {
-    // Collapse any blank lines we may have left behind
-    html = html.replace(/\n[ \t]*\n[ \t]*\n+/g, '\n\n');
-    fs.writeFileSync(file, html, 'utf8');
-    filesTouched++;
-    tagsRemoved += removedHere;
-    perFile.push({ file: path.relative(ROOT, file), removed: removedHere });
+  // Collapse any blank lines we may have left behind
+  html = html.replace(/\n[ \t]*\n[ \t]*\n+/g, '\n\n');
+  fs.writeFileSync(file, html, 'utf8');
+  filesTouched++;
+  tagsRemoved += removedHere;
+  perFile.push({ file: path.relative(ROOT, file), removed: removedHere });
   }
 }
 
@@ -83,6 +83,6 @@ console.log(`dedupe-assets: ${filesTouched} files updated, ${tagsRemoved} duplic
 if (perFile.length) {
   console.log('Top offenders:');
   perFile.sort((a, b) => b.removed - a.removed).slice(0, 25).forEach(r => {
-    console.log(`  ${r.removed.toString().padStart(3)}  ${r.file}`);
+  console.log(`  ${r.removed.toString().padStart(3)}  ${r.file}`);
   });
 }

@@ -11,7 +11,7 @@
  * Ranking model (per HAMMER-EXPANSION.md §"First-encounter likelihood
  * ranking for Tier 2"):
  *
- *   composite = firstEncounterWeight(prefix) + log2(inboundCount + 1) * 5
+ * composite = firstEncounterWeight(prefix) + log2(inboundCount + 1) * 5
  *
  * where firstEncounterWeight captures how likely a random arriving reader
  * lands on this prefix-family first (question > demolition > devotional >
@@ -38,69 +38,69 @@ const QUEUE_CAP = 200;
 // the reader's first door into the site. Values are deliberately
 // coarse — the log-scaled inbound bonus handles intra-cluster ordering.
 const PREFIX_WEIGHT = {
-    // HIGHEST — explicit query match ("does God predestine…")
-    'question-':          100,
-    // HIGH — apologetics/objection seekers
-    'demolition-':         92,
-    'objection-':          86,
-    'apologetic-':         82,
-    'argument-':           80,
-    'counter-':            78,
-    'compare-':            76,
-    // MEDIUM-HIGH — comfort and assurance queries
-    'devotional-':         74,
-    // MEDIUM — study seekers
-    'systematic-':         64,
-    // MEDIUM — psychology/philosophy arguments carry strong SEO
-    'psychology-':         62,
-    'philosophy-':         60,
-    // VARIABLE — stories, analogies (some viral potential)
-    'story-':              56,
-    'analogy-':            54,
-    // MEDIUM-LOW — name-specific searches (lower volume)
-    'theologian-':         48,
-    'history-':            46,
-    'testimony-':          44,
-    // OT-specific
-    'ot-':                 58,
-    // Healing series — first-impression-critical for wounded readers
-    'open-wound-':         70,
-    'invisible-wall-':     68,
-    'shattered-lens-':     68,
-    'anxious-mind-':       70,
-    'broken-mirror-':      68,
-    // Pastoral, response, joy
-    'pastoral-':           60,
-    'response-':           56,
-    'joy-':                52,
-    // Secular-evidence
-    'secular-':            50,
-    // Printables (high-value shareables — first encounter via referrer)
-    'printable-':          38,
-    // Dialogues, letters, hymns — narrower audiences
-    'dialogue-':           40,
-    'letters-':            38,
-    'hymn-':               30,
-    // Scripture-specific landings
-    'scripture-':          52,
-    'verse-':              48,
-    'word-':               36,
-    'romans-':             64,
-    'creed-':              30,
-    'resistance-':         50,
-    'fork-':               44,
-    'the-':                36,
-    'two-':                44,
-    'all-':                 0, // all-content: infra
-    'for-':                40,
-    'golden-':             30,
-    'westminster-':        34,
-    'best-':                0, // best-reads: hub
-    'canons-':             30,
-    'start-':              30,
-    'found-':              46,
-    'just-':               30,
-    'explore-':             0, // explore-map: hub
+  // HIGHEST — explicit query match ("does God predestine…")
+  'question-': 100,
+  // HIGH — apologetics/objection seekers
+  'demolition-': 92,
+  'objection-': 86,
+  'apologetic-': 82,
+  'argument-': 80,
+  'counter-': 78,
+  'compare-': 76,
+  // MEDIUM-HIGH — comfort and assurance queries
+  'devotional-': 74,
+  // MEDIUM — study seekers
+  'systematic-': 64,
+  // MEDIUM — psychology/philosophy arguments carry strong SEO
+  'psychology-': 62,
+  'philosophy-': 60,
+  // VARIABLE — stories, analogies (some viral potential)
+  'story-': 56,
+  'analogy-': 54,
+  // MEDIUM-LOW — name-specific searches (lower volume)
+  'theologian-': 48,
+  'history-': 46,
+  'testimony-': 44,
+  // OT-specific
+  'ot-': 58,
+  // Healing series — first-impression-critical for wounded readers
+  'open-wound-': 70,
+  'invisible-wall-': 68,
+  'shattered-lens-': 68,
+  'anxious-mind-': 70,
+  'broken-mirror-': 68,
+  // Pastoral, response, joy
+  'pastoral-': 60,
+  'response-': 56,
+  'joy-': 52,
+  // Secular-evidence
+  'secular-': 50,
+  // Printables (high-value shareables — first encounter via referrer)
+  'printable-': 38,
+  // Dialogues, letters, hymns — narrower audiences
+  'dialogue-': 40,
+  'letters-': 38,
+  'hymn-': 30,
+  // Scripture-specific landings
+  'scripture-': 52,
+  'verse-': 48,
+  'word-': 36,
+  'romans-': 64,
+  'creed-': 30,
+  'resistance-': 50,
+  'fork-': 44,
+  'the-': 36,
+  'two-': 44,
+  'all-': 0, // all-content: infra
+  'for-': 40,
+  'golden-': 30,
+  'westminster-': 34,
+  'best-': 0, // best-reads: hub
+  'canons-': 30,
+  'start-': 30,
+  'found-': 46,
+  'just-': 30,
+  'explore-': 0, // explore-map: hub
 };
 
 // Defaults for prefixes not in the table
@@ -109,27 +109,27 @@ const DEFAULT_WEIGHT = 32;
 // ─── Exclusions ────────────────────────────────────────────────────
 // Hubs, utilities, and infrastructure pages — not content for polish.
 const HUB_FILES = new Set([
-    'questions.html', 'demolition-hub.html', 'psychology-hub.html',
-    'philosophy-hub.html', 'stories.html', 'devotionals.html',
-    'analogies-illustrations.html', 'secular-evidence.html',
-    'systematic-theology.html', 'theologians.html', 'history-timeline.html',
-    'ot-hub.html', 'essays.html', 'invisible-wall-hub.html',
-    'open-wound-hub.html', 'shattered-lens-hub.html', 'broken-mirror-hub.html',
-    'anxious-mind-hub.html', 'pastoral-hub.html', 'comparisons-hub.html',
-    'sermons.html', 'for-doubters.html', 'printables.html',
-    'testimony-hub.html', 'quotes.html', 'all-content.html',
-    'topics.html', 'connections.html', 'explore-map.html', 'best-reads.html',
-    'start-here.html', 'start-here-assessment.html', 'testimony-wall.html',
-    'scripture-tsunami.html', 'belief-assessment.html', 'verse-explorer.html',
-    'question-faith-origin-test.html', 'for-skeptics.html', 'for-pastors.html',
-    'for-students.html', 'for-the-suffering.html', 'for-the-searching.html',
-    'for-the-curious.html', 'for-the-wounded.html',
+  'questions.html', 'demolition-hub.html', 'psychology-hub.html',
+  'philosophy-hub.html', 'stories.html', 'devotionals.html',
+  'analogies-illustrations.html', 'secular-evidence.html',
+  'systematic-theology.html', 'theologians.html', 'history-timeline.html',
+  'ot-hub.html', 'essays.html', 'invisible-wall-hub.html',
+  'open-wound-hub.html', 'shattered-lens-hub.html', 'broken-mirror-hub.html',
+  'anxious-mind-hub.html', 'pastoral-hub.html', 'comparisons-hub.html',
+  'sermons.html', 'for-doubters.html', 'printables.html',
+  'testimony-hub.html', 'quotes.html', 'all-content.html',
+  'topics.html', 'connections.html', 'explore-map.html', 'best-reads.html',
+  'start-here.html', 'start-here-assessment.html', 'testimony-wall.html',
+  'scripture-tsunami.html', 'belief-assessment.html', 'verse-explorer.html',
+  'question-faith-origin-test.html', 'for-skeptics.html', 'for-pastors.html',
+  'for-students.html', 'for-the-suffering.html', 'for-the-searching.html',
+  'for-the-curious.html', 'for-the-wounded.html',
 ]);
 
 const UTILITY_FILES = new Set([
-    'index.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html',
-    'donate.html', '404.html', 'search.html', 'sitemap.html',
-    '_nav-template.html',
+  'index.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html',
+  'donate.html', '404.html', 'search.html', 'sitemap.html',
+  '_nav-template.html',
 ]);
 
 // ─── Marker detection ──────────────────────────────────────────────
@@ -139,48 +139,48 @@ const UTILITY_FILES = new Set([
 // pointed at the work that remains.
 
 function isLocked(file) {
-    // The marker lives as the first line inside <article class="article-body">,
-    // which sits well past the <head> and nav — typically line 200+ of the
-    // file. We read the whole file; 200 * ~30KB is cheap and unambiguous.
-    const p = path.join(ROOT, file);
-    let html;
-    try {
-        html = fs.readFileSync(p, 'utf8');
-    } catch (e) {
-        return false;
-    }
-    return html.includes('<!-- HAMMER-LOCKED -->') ||
-           html.includes('<!-- POLISH-LOCKED -->');
+  // The marker lives as the first line inside <article class="article-body">,
+  // which sits well past the <head> and nav — typically line 200+ of the
+  // file. We read the whole file; 200 * ~30KB is cheap and unambiguous.
+  const p = path.join(ROOT, file);
+  let html;
+  try {
+  html = fs.readFileSync(p, 'utf8');
+  } catch (e) {
+  return false;
+  }
+  return html.includes('<!-- HAMMER-LOCKED -->') ||
+  html.includes('<!-- POLISH-LOCKED -->');
 }
 
 function prefixOf(file) {
-    // Honor multi-word prefixes first
-    const multi = [
-        'anxious-mind-', 'broken-mirror-', 'open-wound-',
-        'invisible-wall-', 'shattered-lens-', 'start-here-',
-    ];
-    for (const p of multi) if (file.startsWith(p)) return p;
-    const m = file.match(/^([a-z]+)-/);
-    return m ? m[1] + '-' : 'misc';
+  // Honor multi-word prefixes first
+  const multi = [
+  'anxious-mind-', 'broken-mirror-', 'open-wound-',
+  'invisible-wall-', 'shattered-lens-', 'start-here-',
+  ];
+  for (const p of multi) if (file.startsWith(p)) return p;
+  const m = file.match(/^([a-z]+)-/);
+  return m ? m[1] + '-' : 'misc';
 }
 
 function firstEncounterWeight(prefix) {
-    return Object.prototype.hasOwnProperty.call(PREFIX_WEIGHT, prefix)
-        ? PREFIX_WEIGHT[prefix]
-        : DEFAULT_WEIGHT;
+  return Object.prototype.hasOwnProperty.call(PREFIX_WEIGHT, prefix)
+  ? PREFIX_WEIGHT[prefix]
+  : DEFAULT_WEIGHT;
 }
 
 function compositeScore(page) {
-    const w = firstEncounterWeight(page.prefix);
-    const inbound = page.inboundCount || 0;
-    return w + Math.log2(inbound + 1) * 5;
+  const w = firstEncounterWeight(page.prefix);
+  const inbound = page.inboundCount || 0;
+  return w + Math.log2(inbound + 1) * 5;
 }
 
 // ─── Main ──────────────────────────────────────────────────────────
 
 if (!fs.existsSync(AUDIT_JSON)) {
-    console.error(`✖ ${AUDIT_JSON} not found — run strategic-audit.js first`);
-    process.exit(1);
+  console.error(` ${AUDIT_JSON} not found — run strategic-audit.js first`);
+  process.exit(1);
 }
 
 const audit = JSON.parse(fs.readFileSync(AUDIT_JSON, 'utf8'));
@@ -195,28 +195,28 @@ let skippedTier = 0;
 let skippedThin = 0;
 
 for (const [file, page] of Object.entries(pages)) {
-    if (HUB_FILES.has(file) || page.isHub) { skippedHub++; continue; }
-    if (UTILITY_FILES.has(file) || page.isUtility) { skippedUtility++; continue; }
-    if (page.tier === 'INFRA') { skippedInfra++; continue; }
-    // Leave RETIRE pages for Tier 3 pruning; they're a separate question
-    if (page.tier === 'RETIRE') { skippedTier++; continue; }
-    // THIN pages (<350 words) go to elevation review, not Polish Pass
-    if (page.tier === 'THIN') { skippedThin++; continue; }
-    // Already forged — no re-queue
-    if (isLocked(file)) { skippedLocked++; continue; }
+  if (HUB_FILES.has(file) || page.isHub) { skippedHub++; continue; }
+  if (UTILITY_FILES.has(file) || page.isUtility) { skippedUtility++; continue; }
+  if (page.tier === 'INFRA') { skippedInfra++; continue; }
+  // Leave RETIRE pages for Tier 3 pruning; they're a separate question
+  if (page.tier === 'RETIRE') { skippedTier++; continue; }
+  // THIN pages (<350 words) go to elevation review, not Polish Pass
+  if (page.tier === 'THIN') { skippedThin++; continue; }
+  // Already forged — no re-queue
+  if (isLocked(file)) { skippedLocked++; continue; }
 
-    const prefix = prefixOf(file);
-    const record = {
-        file,
-        prefix,
-        inboundCount: page.inboundCount || 0,
-        wordCount: page.wordCount || 0,
-        tier: page.tier,
-        title: page.title || '',
-    };
-    record.weight = firstEncounterWeight(prefix);
-    record.score = compositeScore(record);
-    candidates.push(record);
+  const prefix = prefixOf(file);
+  const record = {
+  file,
+  prefix,
+  inboundCount: page.inboundCount || 0,
+  wordCount: page.wordCount || 0,
+  tier: page.tier,
+  title: page.title || '',
+  };
+  record.weight = firstEncounterWeight(prefix);
+  record.score = compositeScore(record);
+  candidates.push(record);
 }
 
 candidates.sort((a, b) => b.score - a.score);
@@ -247,8 +247,8 @@ lines.push('| # | Score | Inbound | Words | Prefix | File | Title |');
 lines.push('|--:|--:|--:|--:|---|---|---|');
 
 queue.forEach((p, i) => {
-    const title = (p.title || '').replace(/\|/g, '\\|').slice(0, 70);
-    lines.push(`| ${i + 1} | ${p.score.toFixed(1)} | ${p.inboundCount} | ${p.wordCount} | ${p.prefix} | \`${p.file}\` | ${title} |`);
+  const title = (p.title || '').replace(/\|/g, '\\|').slice(0, 70);
+  lines.push(`| ${i + 1} | ${p.score.toFixed(1)} | ${p.inboundCount} | ${p.wordCount} | ${p.prefix} | \`${p.file}\` | ${title} |`);
 });
 
 lines.push('');
@@ -256,14 +256,14 @@ lines.push('## Cluster breakdown');
 lines.push('');
 const byPrefix = {};
 queue.forEach(p => {
-    byPrefix[p.prefix] = (byPrefix[p.prefix] || 0) + 1;
+  byPrefix[p.prefix] = (byPrefix[p.prefix] || 0) + 1;
 });
 const prefixRows = Object.entries(byPrefix)
-    .sort((a, b) => b[1] - a[1]);
+  .sort((a, b) => b[1] - a[1]);
 lines.push('| Prefix | Count in top-200 |');
 lines.push('|---|--:|');
 prefixRows.forEach(([prefix, count]) => {
-    lines.push(`| ${prefix} | ${count} |`);
+  lines.push(`| ${prefix} | ${count} |`);
 });
 
 lines.push('');
@@ -284,13 +284,13 @@ lines.push('');
 
 fs.writeFileSync(OUTPUT_MD, lines.join('\n'), 'utf8');
 
-console.log(`\n🔨 rank-for-expansion — Polish-Pass queue generated`);
-console.log(`   Pages scanned:     ${Object.keys(pages).length}`);
-console.log(`   Already locked:    ${skippedLocked}`);
-console.log(`   Hubs skipped:      ${skippedHub}`);
-console.log(`   Utility/infra:     ${skippedUtility + skippedInfra}`);
-console.log(`   RETIRE/THIN:       ${skippedTier + skippedThin}`);
-console.log(`   Eligible:          ${candidates.length}`);
-console.log(`   Queued:            ${queue.length}`);
-console.log(`   Output:            ${path.relative(ROOT, OUTPUT_MD)}`);
+console.log(`\n rank-for-expansion — Polish-Pass queue generated`);
+console.log(` Pages scanned: ${Object.keys(pages).length}`);
+console.log(` Already locked: ${skippedLocked}`);
+console.log(` Hubs skipped: ${skippedHub}`);
+console.log(` Utility/infra: ${skippedUtility + skippedInfra}`);
+console.log(` RETIRE/THIN: ${skippedTier + skippedThin}`);
+console.log(` Eligible: ${candidates.length}`);
+console.log(` Queued: ${queue.length}`);
+console.log(` Output: ${path.relative(ROOT, OUTPUT_MD)}`);
 console.log('');

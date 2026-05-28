@@ -46,6 +46,7 @@ Never lead with the accusation. Always lead with the question. "Where did your f
 
 ## WRITING STANDARDS
 
+- **NO EMOJIS, ANYWHERE, EVER. Banned site-wide by Aaron on 2026-05-27.** This is an absolute prohibition with zero exceptions. Do not insert emoji codepoints in HTML, JS, JSON, search-index entries, mega-menu output, card labels, related-article tags, hub category icons, theology icons, hub-eyebrows, h2/h3 headers, footer hearts, button labels, ANYWHERE the user can see them. If you find yourself reaching for a visual anchor that "needs" an icon, use a CSS rule (typography weight, color, border, a dot, a number, an SVG icon if absolutely necessary) — never an emoji. The pre-existing emojis on the site were swept clean in S74; any reintroduction is a regression. The covered Unicode ranges include but are not limited to: U+1F300–U+1FAFF (pictographs, symbols, supplemental), U+2600–U+27BF (miscellaneous symbols including ✝ ⚖ ✨), regional indicator flags, skin-tone modifiers, and the variation selector U+FE0F. If you are unsure whether a character qualifies, the answer is yes — do not use it.
 - Lead with "Scripture teaches" not "Calvinism says." De-emphasize TULIP and Reformed labels.
 - No eschatology. Laser focus on God's sovereignty in salvation.
 - Models: Lewis, Spurgeon, Buechner, Keller, Edwards, Chesterton — and, for the sapiential register (wisdom, not merely eloquence), Ravi Zacharias and Malcolm Muggeridge.

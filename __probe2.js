@@ -15,27 +15,27 @@ const server = http.createServer((req,res)=>{
   const port=server.address().port;
   const b=await chromium.launch({executablePath:EXEC,args:['--no-sandbox']});
   for(const t of ['anxious-mind-brain-decides.html','question-romans9.html']){
-    const ctx=await b.newContext({viewport:{width:1440,height:900}});
-    const p=await ctx.newPage();
-    p.on('pageerror',e=>console.log(t,'PAGEERR',e.message,e.stack));
-    p.on('console',m=>console.log(t,'CONSOLE',m.type(),m.text()));
-    await p.goto(`http://localhost:${port}/${t}`,{waitUntil:'networkidle'});
-    await p.waitForTimeout(1200);
-    const diag = await p.evaluate(()=>{
-      const article = document.querySelector('article.article-body');
-      const hero = document.querySelector('header.page-hero');
-      return {
-        existingBread: document.querySelectorAll('.ux-breadcrumbs').length,
-        article: !!article,
-        articleParentTag: article ? article.parentNode.tagName : null,
-        hero: !!hero,
-        heroParentTag: hero ? hero.parentNode.tagName : null,
-        articleInHero: hero ? hero.querySelector('article.article-body') !== null : null,
-        scripts: Array.from(document.scripts).map(s=>s.src||'(inline)').filter(s=>s.includes('ux-enhancements')||s.includes('nav.js')||s.includes('reading-time'))
-      };
-    });
-    console.log(t, JSON.stringify(diag));
-    await ctx.close();
+  const ctx=await b.newContext({viewport:{width:1440,height:900}});
+  const p=await ctx.newPage();
+  p.on('pageerror',e=>console.log(t,'PAGEERR',e.message,e.stack));
+  p.on('console',m=>console.log(t,'CONSOLE',m.type(),m.text()));
+  await p.goto(`http://localhost:${port}/${t}`,{waitUntil:'networkidle'});
+  await p.waitForTimeout(1200);
+  const diag = await p.evaluate(()=>{
+  const article = document.querySelector('article.article-body');
+  const hero = document.querySelector('header.page-hero');
+  return {
+  existingBread: document.querySelectorAll('.ux-breadcrumbs').length,
+  article: !!article,
+  articleParentTag: article ? article.parentNode.tagName : null,
+  hero: !!hero,
+  heroParentTag: hero ? hero.parentNode.tagName : null,
+  articleInHero: hero ? hero.querySelector('article.article-body') !== null : null,
+  scripts: Array.from(document.scripts).map(s=>s.src||'(inline)').filter(s=>s.includes('ux-enhancements')||s.includes('nav.js')||s.includes('reading-time'))
+  };
+  });
+  console.log(t, JSON.stringify(diag));
+  await ctx.close();
   }
   await b.close(); server.close();
 })();

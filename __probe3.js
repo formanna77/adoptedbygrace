@@ -19,30 +19,30 @@ const server = http.createServer((req,res)=>{
   await p.goto(`http://localhost:${port}/anxious-mind-brain-decides.html`,{waitUntil:'networkidle'});
   await p.waitForTimeout(800);
   const d = await p.evaluate(()=>{
-    const el = document.querySelector('.ux-breadcrumbs');
-    const list = document.querySelector('.ux-breadcrumbs-list');
-    const cur = document.querySelector('.ux-breadcrumbs-current');
-    const cs = getComputedStyle(el);
-    const lcs = list ? getComputedStyle(list) : null;
-    return {
-      text: el.textContent.replace(/\s+/g,' ').trim(),
-      height: el.getBoundingClientRect().height,
-      width: el.getBoundingClientRect().width,
-      lineHeight: cs.lineHeight,
-      fontSize: cs.fontSize,
-      padding: cs.padding,
-      listFlexWrap: lcs ? lcs.flexWrap : null,
-      curWhiteSpace: cur ? getComputedStyle(cur).whiteSpace : null,
-      curDisplay: cur ? getComputedStyle(cur).display : null,
-      curMaxWidth: cur ? getComputedStyle(cur).maxWidth : null,
-      curText: cur ? cur.textContent : null,
-      curRect: cur ? cur.getBoundingClientRect() : null,
-      listRect: list ? list.getBoundingClientRect() : null,
-      lis: Array.from(document.querySelectorAll('.ux-breadcrumbs-list li')).map(li=>({
-        text: li.textContent.trim(),
-        rect: li.getBoundingClientRect()
-      }))
-    };
+  const el = document.querySelector('.ux-breadcrumbs');
+  const list = document.querySelector('.ux-breadcrumbs-list');
+  const cur = document.querySelector('.ux-breadcrumbs-current');
+  const cs = getComputedStyle(el);
+  const lcs = list ? getComputedStyle(list) : null;
+  return {
+  text: el.textContent.replace(/\s+/g,' ').trim(),
+  height: el.getBoundingClientRect().height,
+  width: el.getBoundingClientRect().width,
+  lineHeight: cs.lineHeight,
+  fontSize: cs.fontSize,
+  padding: cs.padding,
+  listFlexWrap: lcs ? lcs.flexWrap : null,
+  curWhiteSpace: cur ? getComputedStyle(cur).whiteSpace : null,
+  curDisplay: cur ? getComputedStyle(cur).display : null,
+  curMaxWidth: cur ? getComputedStyle(cur).maxWidth : null,
+  curText: cur ? cur.textContent : null,
+  curRect: cur ? cur.getBoundingClientRect() : null,
+  listRect: list ? list.getBoundingClientRect() : null,
+  lis: Array.from(document.querySelectorAll('.ux-breadcrumbs-list li')).map(li=>({
+  text: li.textContent.trim(),
+  rect: li.getBoundingClientRect()
+  }))
+  };
   });
   console.log('DESKTOP:', JSON.stringify(d,null,2));
   await ctx.close(); await b.close(); server.close();

@@ -15,50 +15,50 @@ const DRY_RUN = process.argv.includes('--dry-run');
 // HUB MAPPING: prefix → { hub, eyebrow, scripture? }
 // ═══════════════════════════════════════════════════════
 const HUB_MAP = [
-  { prefix: 'question-',       hub: 'questions.html',              eyebrow: 'Questions' },
-  { prefix: 'objection-',      hub: 'questions.html',              eyebrow: 'Questions' },
-  { prefix: 'demolition-',     hub: 'demolition-hub.html',         eyebrow: 'Demolition' },
-  { prefix: 'psychology-',     hub: 'psychology-hub.html',         eyebrow: 'Psychology' },
-  { prefix: 'philosophy-',     hub: 'philosophy-hub.html',         eyebrow: 'Philosophy' },
-  { prefix: 'story-',          hub: 'stories.html',                eyebrow: 'Stories' },
-  { prefix: 'devotional-',     hub: 'devotionals.html',            eyebrow: 'Devotionals' },
-  { prefix: 'analogy-',        hub: 'stories.html',                eyebrow: 'Stories, Parables & Analogies' },
-  { prefix: 'secular-',        hub: 'secular-evidence.html',       eyebrow: 'Secular Evidence' },
-  { prefix: 'systematic-',     hub: 'systematic-theology.html',    eyebrow: 'Systematic Theology' },
-  { prefix: 'theologian-',     hub: 'theologians.html',            eyebrow: 'Theologians' },
-  { prefix: 'history-',        hub: 'history-timeline.html',       eyebrow: 'History' },
-  { prefix: 'compare-',        hub: 'comparisons-hub.html',        eyebrow: 'Comparisons' },
+  { prefix: 'question-', hub: 'questions.html', eyebrow: 'Questions' },
+  { prefix: 'objection-', hub: 'questions.html', eyebrow: 'Questions' },
+  { prefix: 'demolition-', hub: 'demolition-hub.html', eyebrow: 'Demolition' },
+  { prefix: 'psychology-', hub: 'psychology-hub.html', eyebrow: 'Psychology' },
+  { prefix: 'philosophy-', hub: 'philosophy-hub.html', eyebrow: 'Philosophy' },
+  { prefix: 'story-', hub: 'stories.html', eyebrow: 'Stories' },
+  { prefix: 'devotional-', hub: 'devotionals.html', eyebrow: 'Devotionals' },
+  { prefix: 'analogy-', hub: 'stories.html', eyebrow: 'Stories, Parables & Analogies' },
+  { prefix: 'secular-', hub: 'secular-evidence.html', eyebrow: 'Secular Evidence' },
+  { prefix: 'systematic-', hub: 'systematic-theology.html', eyebrow: 'Systematic Theology' },
+  { prefix: 'theologian-', hub: 'theologians.html', eyebrow: 'Theologians' },
+  { prefix: 'history-', hub: 'history-timeline.html', eyebrow: 'History' },
+  { prefix: 'compare-', hub: 'comparisons-hub.html', eyebrow: 'Comparisons' },
   { prefix: 'reformed-apologetics-', hub: 'reformed-apologetics-hub.html', eyebrow: 'Reformed Apologetics' },
   { prefix: 'presuppositional-', hub: 'presuppositional-apologetics-hub.html', eyebrow: 'Presuppositional Apologetics' },
-  { prefix: 'pastoral-',       hub: 'pastoral-hub.html',           eyebrow: 'Pastoral' },
-  { prefix: 'essay-',          hub: 'essays.html',                 eyebrow: 'Essays' },
-  { prefix: 'ot-',             hub: 'ot-hub.html',                 eyebrow: 'Old Testament' },
-  { prefix: 'invisible-wall-', hub: 'invisible-wall-hub.html',     eyebrow: 'The Invisible Wall' },
-  { prefix: 'open-wound-',     hub: 'open-wound-hub.html',         eyebrow: 'The Open Wound' },
-  { prefix: 'shattered-lens-', hub: 'shattered-lens-hub.html',     eyebrow: 'The Shattered Lens' },
-  { prefix: 'broken-mirror-',  hub: 'broken-mirror-hub.html',      eyebrow: 'The Broken Mirror' },
-  { prefix: 'anxious-mind-',   hub: 'anxious-mind-hub.html',       eyebrow: 'The Anxious Mind' },
-  { prefix: 'resistance-',     hub: 'psychology-hub.html',         eyebrow: 'Psychology' },
-  { prefix: 'apologetic-',     hub: 'questions.html',              eyebrow: 'Questions' },
-  { prefix: 'hymn-',           hub: 'devotionals.html',            eyebrow: 'Devotionals' },
-  { prefix: 'counter-',        hub: 'demolition-hub.html',         eyebrow: 'Demolition' },
-  { prefix: 'creed-',          hub: 'history-timeline.html',       eyebrow: 'History' },
-  { prefix: 'debate-',         hub: 'philosophy-hub.html',         eyebrow: 'Philosophy' },
-  { prefix: 'psalms-',         hub: 'ot-hub.html',                 eyebrow: 'Old Testament' },
-  { prefix: 'romans-3',        hub: 'demolition-hub.html',         eyebrow: 'Demolition' },
-  { prefix: 'romans-8',        hub: 'questions.html',              eyebrow: 'Questions' },
-  { prefix: 'romans-9',        hub: 'questions.html',              eyebrow: 'Questions' },
-  { prefix: 'scripture-tsunami-faith',      hub: 'questions.html',       eyebrow: 'Questions' },
+  { prefix: 'pastoral-', hub: 'pastoral-hub.html', eyebrow: 'Pastoral' },
+  { prefix: 'essay-', hub: 'essays.html', eyebrow: 'Essays' },
+  { prefix: 'ot-', hub: 'ot-hub.html', eyebrow: 'Old Testament' },
+  { prefix: 'invisible-wall-', hub: 'invisible-wall-hub.html', eyebrow: 'The Invisible Wall' },
+  { prefix: 'open-wound-', hub: 'open-wound-hub.html', eyebrow: 'The Open Wound' },
+  { prefix: 'shattered-lens-', hub: 'shattered-lens-hub.html', eyebrow: 'The Shattered Lens' },
+  { prefix: 'broken-mirror-',  hub: 'broken-mirror-hub.html', eyebrow: 'The Broken Mirror' },
+  { prefix: 'anxious-mind-', hub: 'anxious-mind-hub.html', eyebrow: 'The Anxious Mind' },
+  { prefix: 'resistance-', hub: 'psychology-hub.html', eyebrow: 'Psychology' },
+  { prefix: 'apologetic-', hub: 'questions.html', eyebrow: 'Questions' },
+  { prefix: 'hymn-', hub: 'devotionals.html', eyebrow: 'Devotionals' },
+  { prefix: 'counter-', hub: 'demolition-hub.html', eyebrow: 'Demolition' },
+  { prefix: 'creed-', hub: 'history-timeline.html', eyebrow: 'History' },
+  { prefix: 'debate-', hub: 'philosophy-hub.html', eyebrow: 'Philosophy' },
+  { prefix: 'psalms-', hub: 'ot-hub.html', eyebrow: 'Old Testament' },
+  { prefix: 'romans-3', hub: 'demolition-hub.html', eyebrow: 'Demolition' },
+  { prefix: 'romans-8', hub: 'questions.html', eyebrow: 'Questions' },
+  { prefix: 'romans-9', hub: 'questions.html', eyebrow: 'Questions' },
+  { prefix: 'scripture-tsunami-faith', hub: 'questions.html', eyebrow: 'Questions' },
   { prefix: 'scripture-tsunami-sovereignty', hub: 'demolition-hub.html', eyebrow: 'Demolition' },
-  { prefix: 'joy-',             hub: 'joy-hub.html',                eyebrow: 'Joy of Election' },
-  { prefix: 'freedom',         hub: 'philosophy-hub.html',         eyebrow: 'Philosophy' },
-  { prefix: 'for-arminians',   hub: 'demolition-hub.html',         eyebrow: 'Demolition' },
-  { prefix: 'argument-',       hub: 'demolition-hub.html',         eyebrow: 'Demolition' },
-  { prefix: 'response-',       hub: 'demolition-hub.html',         eyebrow: 'Demolition' },
-  { prefix: 'word-study-',     hub: 'demolition-hub.html',         eyebrow: 'Demolition' },
-  { prefix: 'for-skeptics',    hub: 'questions.html',              eyebrow: 'Questions' },
-  { prefix: 'for-new-believers', hub: 'devotionals.html',          eyebrow: 'Devotionals' },
-  { prefix: 'just-realized',   hub: 'devotionals.html',            eyebrow: 'Devotionals' },
+  { prefix: 'joy-', hub: 'joy-hub.html', eyebrow: 'Joy of Election' },
+  { prefix: 'freedom', hub: 'philosophy-hub.html', eyebrow: 'Philosophy' },
+  { prefix: 'for-arminians', hub: 'demolition-hub.html', eyebrow: 'Demolition' },
+  { prefix: 'argument-', hub: 'demolition-hub.html', eyebrow: 'Demolition' },
+  { prefix: 'response-', hub: 'demolition-hub.html', eyebrow: 'Demolition' },
+  { prefix: 'word-study-', hub: 'demolition-hub.html', eyebrow: 'Demolition' },
+  { prefix: 'for-skeptics', hub: 'questions.html', eyebrow: 'Questions' },
+  { prefix: 'for-new-believers', hub: 'devotionals.html', eyebrow: 'Devotionals' },
+  { prefix: 'just-realized', hub: 'devotionals.html', eyebrow: 'Devotionals' },
 ];
 
 // Pages that are NOT articles — skip these
@@ -91,9 +91,9 @@ const allFiles = fs.readdirSync('.').filter(f => f.endsWith('.html') && !SKIP_PA
 
 function getHub(filename) {
   for (const mapping of HUB_MAP) {
-    if (filename.startsWith(mapping.prefix)) {
-      return mapping;
-    }
+  if (filename.startsWith(mapping.prefix)) {
+  return mapping;
+  }
   }
   return null;
 }
@@ -109,9 +109,9 @@ function getLinkedPages(hubFile) {
   const regex = /href=["']\/?([\w-]+(?:\.html)?)["']/g;
   let match;
   while ((match = regex.exec(content)) !== null) {
-    let page = match[1];
-    if (!page.endsWith('.html')) page += '.html';
-    linked.add(page);
+  let page = match[1];
+  if (!page.endsWith('.html')) page += '.html';
+  linked.add(page);
   }
   return linked;
 }
@@ -126,36 +126,36 @@ function getPageMeta(filename) {
   let title = '';
   const titleMatch = content.match(/<title>([^<]+)<\/title>/i);
   if (titleMatch) {
-    title = titleMatch[1].replace(/\s*\|.*$/, '').replace(/\s*[–—].*$/, '').trim();
+  title = titleMatch[1].replace(/\s*\|.*$/, '').replace(/\s*[–—].*$/, '').trim();
   }
 
   // Try h1 if title is empty or generic
   if (!title || title === 'Adopted by Grace') {
-    const h1Match = content.match(/<h1[^>]*>([^<]+)<\/h1>/i);
-    if (h1Match) title = h1Match[1].trim();
+  const h1Match = content.match(/<h1[^>]*>([^<]+)<\/h1>/i);
+  if (h1Match) title = h1Match[1].trim();
   }
 
   // Extract meta description
   let description = '';
   const descMatch = content.match(/<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i);
   if (descMatch) {
-    description = descMatch[1].trim();
+  description = descMatch[1].trim();
   }
 
-  // Fallback: first <p> inside article-body
+  // Fallback: first <p>inside article-body
   if (!description) {
-    const pMatch = content.match(/<article[^>]*class=["'][^"']*article-body[^"']*["'][^>]*>[\s\S]*?<p>([^<]{20,200})/i);
-    if (pMatch) {
-      description = pMatch[1].trim();
-      if (description.length > 160) description = description.substring(0, 157) + '...';
-    }
+  const pMatch = content.match(/<article[^>]*class=["'][^"']*article-body[^"']*["'][^>]*>[\s\S]*?<p>([^<]{20,200})/i);
+  if (pMatch) {
+  description = pMatch[1].trim();
+  if (description.length > 160) description = description.substring(0, 157) + '...';
+  }
   }
 
   // Extract a scripture reference if present
   let scripture = '';
   const scriptureMatch = content.match(/<cite>([^<]+)<\/cite>/i);
   if (scriptureMatch) {
-    scripture = scriptureMatch[1].trim().toUpperCase();
+  scripture = scriptureMatch[1].trim().toUpperCase();
   }
 
   if (!description) description = title;
@@ -169,17 +169,17 @@ function getPageMeta(filename) {
 function makeCard(filename, number, meta) {
   const href = '/' + filename.replace('.html', '');
   const scriptureDiv = meta.scripture
-    ? `\n                    <div class="card-scripture">${meta.scripture}</div>`
-    : '';
+  ? `\n  <div class="card-scripture">${meta.scripture}</div>`
+  : '';
 
-  return `                <a href="${href}" class="hub-card">
-                    <div class="card-number">${String(number).padStart(2, '0')}</div>
-                    <h3 class="card-title">${meta.title}</h3>
-                    <p class="card-description">${meta.description}</p>${scriptureDiv}
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>`;
+  return `  <a href="${href}" class="hub-card">
+   <div class="card-number">${String(number).padStart(2, '0')}</div>
+   <h3 class="card-title">${meta.title}</h3>
+   <p class="card-description">${meta.description}</p>${scriptureDiv}
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>`;
 }
 
 // ═══════════════════════════════════════════════════════
@@ -188,63 +188,63 @@ function makeCard(filename, number, meta) {
 function insertCardsIntoHub(hubFile, cards) {
   let content = fs.readFileSync(hubFile, 'utf8');
 
-  // Find the last closing </div> of a .hub-grid section
+  // Find the last closing</div> of a .hub-grid section
   // Strategy: find all hub-grid divs, insert into the last one
   const gridOpenRegex = /<div\s+class=["']hub-grid["']/g;
   let lastGridPos = -1;
   let match;
   while ((match = gridOpenRegex.exec(content)) !== null) {
-    lastGridPos = match.index;
+  lastGridPos = match.index;
   }
 
   if (lastGridPos === -1) {
-    // No hub-grid found — try to find hub-container and add a grid
-    const containerMatch = content.match(/<div\s+class=["']hub-container["']/);
-    if (containerMatch) {
-      // Find closing </div> of hub-container by looking for </div> before footer
-      const footerPos = content.indexOf('<footer');
-      if (footerPos === -1) {
-        console.log(`  ⚠ Cannot find insertion point in ${hubFile}`);
-        return 0;
-      }
-      const insertPos = content.lastIndexOf('</div>', footerPos);
-      const newGrid = `\n            <h2 class="hub-section-title">More Articles</h2>\n            <div class="hub-grid">\n${cards.join('\n')}\n            </div>\n`;
-      content = content.slice(0, insertPos) + newGrid + content.slice(insertPos);
-    } else {
-      console.log(`  ⚠ No hub-grid or hub-container found in ${hubFile}`);
-      return 0;
-    }
+  // No hub-grid found — try to find hub-container and add a grid
+  const containerMatch = content.match(/<div\s+class=["']hub-container["']/);
+  if (containerMatch) {
+  // Find closing</div>of hub-container by looking for</div> before footer
+  const footerPos = content.indexOf('<footer');
+  if (footerPos === -1) {
+  console.log(` Cannot find insertion point in ${hubFile}`);
+  return 0;
+  }
+  const insertPos = content.lastIndexOf('</div>', footerPos);
+  const newGrid = `\n  <h2 class="hub-section-title">More Articles</h2>\n  <div class="hub-grid">\n${cards.join('\n')}\n</div>\n`;
+  content = content.slice(0, insertPos) + newGrid + content.slice(insertPos);
   } else {
-    // Find the closing </div> for this grid
-    // Count nested divs to find the matching close
-    let depth = 0;
-    let i = lastGridPos;
-    let foundClose = -1;
-    while (i < content.length) {
-      if (content.substr(i, 4) === '<div') {
-        depth++;
-      } else if (content.substr(i, 6) === '</div>') {
-        depth--;
-        if (depth === 0) {
-          foundClose = i;
-          break;
-        }
-      }
-      i++;
-    }
+  console.log(` No hub-grid or hub-container found in ${hubFile}`);
+  return 0;
+  }
+  } else {
+  // Find the closing</div> for this grid
+  // Count nested divs to find the matching close
+  let depth = 0;
+  let i = lastGridPos;
+  let foundClose = -1;
+  while (i < content.length) {
+  if (content.substr(i, 4) === '<div') {
+  depth++;
+  } else if (content.substr(i, 6) === '</div>') {
+  depth--;
+  if (depth === 0) {
+  foundClose = i;
+  break;
+  }
+  }
+  i++;
+  }
 
-    if (foundClose === -1) {
-      console.log(`  ⚠ Cannot find closing </div> for hub-grid in ${hubFile}`);
-      return 0;
-    }
+  if (foundClose === -1) {
+  console.log(` Cannot find closing</div> for hub-grid in ${hubFile}`);
+  return 0;
+  }
 
-    // Insert cards before the closing </div>
-    const insertion = '\n' + cards.join('\n') + '\n            ';
-    content = content.slice(0, foundClose) + insertion + content.slice(foundClose);
+  // Insert cards before the closing</div>
+  const insertion = '\n' + cards.join('\n') + '\n ';
+  content = content.slice(0, foundClose) + insertion + content.slice(foundClose);
   }
 
   if (!DRY_RUN) {
-    fs.writeFileSync(hubFile, content, 'utf8');
+  fs.writeFileSync(hubFile, content, 'utf8');
   }
   return cards.length;
 }
@@ -274,22 +274,22 @@ let totalOrphans = 0;
 for (const file of allFiles) {
   const mapping = getHub(file);
   if (!mapping) {
-    // Check if it's a known standalone page we missed
-    if (!file.startsWith('start-here-phase')) {
-      unmapped.push(file);
-    }
-    continue;
+  // Check if it's a known standalone page we missed
+  if (!file.startsWith('start-here-phase')) {
+  unmapped.push(file);
+  }
+  continue;
   }
 
   const linked = getLinkedPages(mapping.hub);
   const fileNoExt = file.replace('.html', '');
 
   if (!linked.has(file) && !linked.has(fileNoExt)) {
-    if (!orphansByHub[mapping.hub]) {
-      orphansByHub[mapping.hub] = { pages: [], eyebrow: mapping.eyebrow };
-    }
-    orphansByHub[mapping.hub].pages.push(file);
-    totalOrphans++;
+  if (!orphansByHub[mapping.hub]) {
+  orphansByHub[mapping.hub] = { pages: [], eyebrow: mapping.eyebrow };
+  }
+  orphansByHub[mapping.hub].pages.push(file);
+  totalOrphans++;
   }
 }
 
@@ -307,33 +307,33 @@ const hubsModified = [];
 
 for (const [hubFile, data] of Object.entries(orphansByHub)) {
   const { pages, eyebrow } = data;
-  console.log(`\n📖 ${hubFile} — ${pages.length} orphans to wire`);
+  console.log(`\n ${hubFile} — ${pages.length} orphans to wire`);
 
   if (!fs.existsSync(hubFile)) {
-    console.log(`  ⚠ Hub file does not exist! Skipping.`);
-    continue;
+  console.log(` Hub file does not exist! Skipping.`);
+  continue;
   }
 
   let existingCount = countExistingCards(hubFile);
   const cards = [];
 
   for (const page of pages.sort()) {
-    existingCount++;
-    const meta = getPageMeta(page);
-    if (!meta.title) {
-      console.log(`  ⚠ No title found for ${page}, skipping`);
-      continue;
-    }
-    const card = makeCard(page, existingCount, meta);
-    cards.push(card);
-    console.log(`  ✅ ${page} → "${meta.title}"`);
+  existingCount++;
+  const meta = getPageMeta(page);
+  if (!meta.title) {
+  console.log(` No title found for ${page}, skipping`);
+  continue;
+  }
+  const card = makeCard(page, existingCount, meta);
+  cards.push(card);
+  console.log(` ${page} → "${meta.title}"`);
   }
 
   if (cards.length > 0) {
-    const inserted = insertCardsIntoHub(hubFile, cards);
-    totalWired += inserted;
-    if (inserted > 0) hubsModified.push(hubFile);
-    console.log(`  → Inserted ${inserted} cards into ${hubFile}`);
+  const inserted = insertCardsIntoHub(hubFile, cards);
+  totalWired += inserted;
+  if (inserted > 0) hubsModified.push(hubFile);
+  console.log(`  → Inserted ${inserted} cards into ${hubFile}`);
   }
 }
 
@@ -358,21 +358,21 @@ for (const hub of ALL_HUBS) {
   const duplicates = [];
   let match;
   while ((match = cardRegex.exec(content)) !== null) {
-    const normalized = match[1].replace(/^\//, '').replace(/\.html$/, '');
-    if (seen.has(normalized)) {
-      duplicates.push({ fullMatch: match[0], index: match.index });
-    } else {
-      seen.add(normalized);
-    }
+  const normalized = match[1].replace(/^\//, '').replace(/\.html$/, '');
+  if (seen.has(normalized)) {
+  duplicates.push({ fullMatch: match[0], index: match.index });
+  } else {
+  seen.add(normalized);
+  }
   }
   if (duplicates.length > 0 && !DRY_RUN) {
-    for (const dupe of duplicates.reverse()) {
-      content = content.slice(0, dupe.index) + content.slice(dupe.index + dupe.fullMatch.length);
-    }
-    content = content.replace(/\n{3,}/g, '\n\n');
-    fs.writeFileSync(hub, content, 'utf8');
-    totalDupsRemoved += duplicates.length;
-    console.log(`  🧹 Removed ${duplicates.length} duplicate cards from ${hub}`);
+  for (const dupe of duplicates.reverse()) {
+  content = content.slice(0, dupe.index) + content.slice(dupe.index + dupe.fullMatch.length);
+  }
+  content = content.replace(/\n{3,}/g, '\n\n');
+  fs.writeFileSync(hub, content, 'utf8');
+  totalDupsRemoved += duplicates.length;
+  console.log(` Removed ${duplicates.length} duplicate cards from ${hub}`);
   }
 }
 

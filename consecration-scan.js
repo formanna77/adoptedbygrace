@@ -11,11 +11,11 @@ const REPO_ROOT = __dirname;
 // ============================================================================
 function extractBodyText(html) {
   try {
-    const dom = new JSDOM(html);
-    const body = dom.window.document.body;
-    return body ? body.textContent : '';
+  const dom = new JSDOM(html);
+  const body = dom.window.document.body;
+  return body ? body.textContent : '';
   } catch (e) {
-    return '';
+  return '';
   }
 }
 
@@ -209,18 +209,18 @@ function scoreArticle(filename, htmlPath) {
   const text = extractBodyText(html);
 
   const marks = {
-    mark_1_triune_god_named: mark1_TriuneGodNamed(html, text),
-    mark_2_christ_apex: mark2_ChristApex(html, text),
-    mark_3_doxological_climax: mark3_DoxologicalClimax(html, text),
-    mark_4_explicit_ascription: mark4_ExplicitAscription(html, text),
-    mark_5_confessional_anchor: mark5_ConfessionalAnchor(html, text),
-    mark_6_presuppositional_bridge: mark6_PresuppositionalBridge(html, text),
-    mark_7_christ_mediator: mark7_ChristMediator(html, text),
-    mark_8_spirit_application: mark8_SpiritApplication(html, text),
-    mark_9_historical_witness: mark9_HistoricalWitness(html, text),
-    mark_10_liturgical_cadence: mark10_LiturgicalCadence(html, text),
-    mark_11_coram_deo: mark11_CoramDeo(html, text),
-    mark_12_lift_not_drag: mark12_LiftNotDrag(html, text),
+  mark_1_triune_god_named: mark1_TriuneGodNamed(html, text),
+  mark_2_christ_apex: mark2_ChristApex(html, text),
+  mark_3_doxological_climax: mark3_DoxologicalClimax(html, text),
+  mark_4_explicit_ascription: mark4_ExplicitAscription(html, text),
+  mark_5_confessional_anchor: mark5_ConfessionalAnchor(html, text),
+  mark_6_presuppositional_bridge: mark6_PresuppositionalBridge(html, text),
+  mark_7_christ_mediator: mark7_ChristMediator(html, text),
+  mark_8_spirit_application: mark8_SpiritApplication(html, text),
+  mark_9_historical_witness: mark9_HistoricalWitness(html, text),
+  mark_10_liturgical_cadence: mark10_LiturgicalCadence(html, text),
+  mark_11_coram_deo: mark11_CoramDeo(html, text),
+  mark_12_lift_not_drag: mark12_LiftNotDrag(html, text),
   };
 
   const score = Object.values(marks).filter(Boolean).length;
@@ -233,16 +233,16 @@ function scoreArticle(filename, htmlPath) {
   else tier = 'REBUILD-PRIORITY';
 
   return {
-    file: filename,
-    category: detectCategory(filename),
-    is_locked: !!detectLockStatus(html),
-    lock_type: detectLockStatus(html),
-    word_count: getWordCount(text),
-    score,
-    marks,
-    tier,
-    missing_marks: missingMarks,
-    notes: '',
+  file: filename,
+  category: detectCategory(filename),
+  is_locked: !!detectLockStatus(html),
+  lock_type: detectLockStatus(html),
+  word_count: getWordCount(text),
+  score,
+  marks,
+  tier,
+  missing_marks: missingMarks,
+  notes: '',
   };
 }
 
@@ -252,20 +252,20 @@ function scoreArticle(filename, htmlPath) {
 async function main() {
   const articles = [];
   const files = fs.readdirSync(REPO_ROOT)
-    .filter(f => f.endsWith('.html'))
-    .sort();
+  .filter(f => f.endsWith('.html'))
+  .sort();
 
   console.log(`Found ${files.length} HTML files. Filtering to articles...`);
 
   for (const file of files) {
-    const htmlPath = path.join(REPO_ROOT, file);
-    const html = fs.readFileSync(htmlPath, 'utf8');
+  const htmlPath = path.join(REPO_ROOT, file);
+  const html = fs.readFileSync(htmlPath, 'utf8');
 
-    // Only process articles (those with article-body)
-    if (/<article\s+class="article-body"/.test(html)) {
-      const scored = scoreArticle(file, htmlPath);
-      articles.push(scored);
-    }
+  // Only process articles (those with article-body)
+  if (/<article\s+class="article-body"/.test(html)) {
+  const scored = scoreArticle(file, htmlPath);
+  articles.push(scored);
+  }
   }
 
   console.log(`Scanned ${articles.length} articles.`);
@@ -274,40 +274,40 @@ async function main() {
   // AGGREGATE STATS
   // ========================================================================
   const totals = {
-    articles_scanned: articles.length,
-    consecrated_12: articles.filter(a => a.score === 12).length,
-    near_consecrated_10_11: articles.filter(a => a.score >= 10 && a.score < 12).length,
-    rebuild_queue_6_9: articles.filter(a => a.score >= 6 && a.score < 10).length,
-    rebuild_priority_0_5: articles.filter(a => a.score < 6).length,
+  articles_scanned: articles.length,
+  consecrated_12: articles.filter(a =>a.score === 12).length,
+  near_consecrated_10_11: articles.filter(a => a.score >= 10 && a.score < 12).length,
+  rebuild_queue_6_9: articles.filter(a => a.score >= 6 && a.score < 10).length,
+  rebuild_priority_0_5: articles.filter(a => a.score < 6).length,
   };
 
   // Per-mark pass rates
   const markKeys = Object.keys(articles[0].marks);
   const mark_pass_rates = {};
   for (const mark of markKeys) {
-    const passes = articles.filter(a => a.marks[mark]).length;
-    const fails = articles.length - passes;
-    const rate = passes / articles.length;
-    mark_pass_rates[mark] = { pass: passes, fail: fails, rate: parseFloat(rate.toFixed(3)) };
+  const passes = articles.filter(a => a.marks[mark]).length;
+  const fails = articles.length - passes;
+  const rate = passes / articles.length;
+  mark_pass_rates[mark] = { pass: passes, fail: fails, rate: parseFloat(rate.toFixed(3)) };
   }
 
   // By category
   const categories = [...new Set(articles.map(a => a.category))].sort();
   const by_category = {};
   for (const cat of categories) {
-    const catArticles = articles.filter(a => a.category === cat);
-    const scores = catArticles.map(a => a.score);
-    const mean = scores.reduce((a, b) => a + b, 0) / scores.length;
-    const lowestScored = catArticles.sort((a, b) => a.score - b.score)[0];
-    const highestScored = catArticles.sort((a, b) => b.score - a.score)[0];
-    by_category[cat] = {
-      count: catArticles.length,
-      mean_score: parseFloat(mean.toFixed(2)),
-      lowest_scorer: lowestScored.file,
-      lowest_score: lowestScored.score,
-      highest_scorer: highestScored.file,
-      highest_score: highestScored.score,
-    };
+  const catArticles = articles.filter(a => a.category === cat);
+  const scores = catArticles.map(a => a.score);
+  const mean = scores.reduce((a, b) => a + b, 0) / scores.length;
+  const lowestScored = catArticles.sort((a, b) => a.score - b.score)[0];
+  const highestScored = catArticles.sort((a, b) => b.score - a.score)[0];
+  by_category[cat] = {
+  count: catArticles.length,
+  mean_score: parseFloat(mean.toFixed(2)),
+  lowest_scorer: lowestScored.file,
+  lowest_score: lowestScored.score,
+  highest_scorer: highestScored.file,
+  highest_score: highestScored.score,
+  };
   }
 
   // By lock status
@@ -316,32 +316,32 @@ async function main() {
   const unlocked = articles.filter(a => !a.is_locked);
 
   if (locked.length > 0) {
-    const lockedScores = locked.map(a => a.score);
-    by_lock_status.locked = {
-      count: locked.length,
-      mean_score: parseFloat((lockedScores.reduce((a, b) => a + b, 0) / lockedScores.length).toFixed(2)),
-    };
+  const lockedScores = locked.map(a => a.score);
+  by_lock_status.locked = {
+  count: locked.length,
+  mean_score: parseFloat((lockedScores.reduce((a, b) => a + b, 0) / lockedScores.length).toFixed(2)),
+  };
   }
   if (unlocked.length > 0) {
-    const unlockedScores = unlocked.map(a => a.score);
-    by_lock_status.unlocked = {
-      count: unlocked.length,
-      mean_score: parseFloat((unlockedScores.reduce((a, b) => a + b, 0) / unlockedScores.length).toFixed(2)),
-    };
+  const unlockedScores = unlocked.map(a => a.score);
+  by_lock_status.unlocked = {
+  count: unlocked.length,
+  mean_score: parseFloat((unlockedScores.reduce((a, b) => a + b, 0) / unlockedScores.length).toFixed(2)),
+  };
   }
 
   // Rebuild queue ranked
   const rebuildQueue = articles
-    .filter(a => a.score < 12)
-    .sort((a, b) => a.score - b.score || a.word_count - b.word_count)
-    .slice(0, 50)
-    .map(a => ({
-      file: a.file,
-      score: a.score,
-      category: a.category,
-      lock_type: a.lock_type,
-      missing_marks: a.missing_marks,
-    }));
+  .filter(a => a.score < 12)
+  .sort((a, b) => a.score - b.score || a.word_count - b.word_count)
+  .slice(0, 50)
+  .map(a => ({
+  file: a.file,
+  score: a.score,
+  category: a.category,
+  lock_type: a.lock_type,
+  missing_marks: a.missing_marks,
+  }));
 
   // Honor roll
   const consecrated = articles.filter(a => a.score === 12).map(a => a.file).sort();
@@ -350,26 +350,26 @@ async function main() {
   // JSON OUTPUT
   // ========================================================================
   const jsonOutput = {
-    audit: 'consecration',
-    phase: 'A',
-    generated: new Date().toISOString(),
-    spec: 'AUDIT-2.md §II twelve-mark Consecration Test',
-    methodology: 'heuristic-programmatic; see consecration-audit.md §III for detection logic and known false-positive/false-negative classes',
-    totals,
-    mark_pass_rates,
-    by_category,
-    by_lock_status,
-    articles: articles.slice().sort((a, b) => a.file.localeCompare(b.file)),
-    rebuild_queue_ranked: rebuildQueue,
-    consecrated_list: consecrated,
+  audit: 'consecration',
+  phase: 'A',
+  generated: new Date().toISOString(),
+  spec: 'AUDIT-2.md §II twelve-mark Consecration Test',
+  methodology: 'heuristic-programmatic; see consecration-audit.md §III for detection logic and known false-positive/false-negative classes',
+  totals,
+  mark_pass_rates,
+  by_category,
+  by_lock_status,
+  articles: articles.slice().sort((a, b) => a.file.localeCompare(b.file)),
+  rebuild_queue_ranked: rebuildQueue,
+  consecrated_list: consecrated,
   };
 
   fs.writeFileSync(
-    path.join(REPO_ROOT, 'consecration-audit.json'),
-    JSON.stringify(jsonOutput, null, 2)
+  path.join(REPO_ROOT, 'consecration-audit.json'),
+  JSON.stringify(jsonOutput, null, 2)
   );
 
-  console.log('✓ consecration-audit.json written.');
+  console.log(' consecration-audit.json written.');
 
   // ========================================================================
   // MARKDOWN OUTPUT
@@ -378,18 +378,18 @@ async function main() {
   const highestFive = articles.sort((a, b) => b.score - a.score).slice(0, 5);
 
   const markInterpretations = {
-    mark_1_triune_god_named: 'Article names Father, Son, and Holy Spirit in economic distinction.',
-    mark_2_christ_apex: 'Christological high point lands in final 25%; Christ-language present in final paragraphs.',
-    mark_3_doxological_climax: 'Final 20% ascends into worship-vocabulary: praise, glory, amen, etc.',
-    mark_4_explicit_ascription: '"Soli Deo Gloria" or "to His glory" appears explicitly.',
-    mark_5_confessional_anchor: 'Cites Westminster, 1689, Belgic, Heidelberg, or Synod of Dort.',
-    mark_6_presuppositional_bridge: 'Surfaces presuppositional reasoning, borrowing-capital critique, or impossibility-of-contrary.',
-    mark_7_christ_mediator: 'Christ named as Mediator, High Priest, or through-Christ language appears.',
-    mark_8_spirit_application: 'Spirit and application-terms (regenerate, seal, sanctify, etc.) appear together.',
-    mark_9_historical_witness: 'Names at least one Patristic/Reformer/Confessor witness.',
-    mark_10_liturgical_cadence: 'First-person plural worship-language ("we confess," "we adore") in final 30%.',
-    mark_11_coram_deo: 'Prose tone reads reverent; "before God" language present or casual markers absent.',
-    mark_12_lift_not_drag: 'Final paragraph ends on upward words (Christ, grace, heaven, glory) not downward.',
+  mark_1_triune_god_named: 'Article names Father, Son, and Holy Spirit in economic distinction.',
+  mark_2_christ_apex: 'Christological high point lands in final 25%; Christ-language present in final paragraphs.',
+  mark_3_doxological_climax: 'Final 20% ascends into worship-vocabulary: praise, glory, amen, etc.',
+  mark_4_explicit_ascription: '"Soli Deo Gloria" or "to His glory" appears explicitly.',
+  mark_5_confessional_anchor: 'Cites Westminster, 1689, Belgic, Heidelberg, or Synod of Dort.',
+  mark_6_presuppositional_bridge: 'Surfaces presuppositional reasoning, borrowing-capital critique, or impossibility-of-contrary.',
+  mark_7_christ_mediator: 'Christ named as Mediator, High Priest, or through-Christ language appears.',
+  mark_8_spirit_application: 'Spirit and application-terms (regenerate, seal, sanctify, etc.) appear together.',
+  mark_9_historical_witness: 'Names at least one Patristic/Reformer/Confessor witness.',
+  mark_10_liturgical_cadence: 'First-person plural worship-language ("we confess," "we adore") in final 30%.',
+  mark_11_coram_deo: 'Prose tone reads reverent; "before God" language present or casual markers absent.',
+  mark_12_lift_not_drag: 'Final paragraph ends on upward words (Christ, grace, heaven, glory) not downward.',
   };
 
   let md = `# Consecration Audit (Phase A)
@@ -428,27 +428,27 @@ ${highestFive.map(a => `- ${a.file} (${a.score}/12)`).join('\n')}
 `;
 
   for (const mark of markKeys) {
-    const stats = mark_pass_rates[mark];
-    const interp = markInterpretations[mark];
-    md += `| ${mark.replace(/_/g, ' ')} | ${(stats.rate * 100).toFixed(1)}% | ${stats.fail} | ${interp} |\n`;
+  const stats = mark_pass_rates[mark];
+  const interp = markInterpretations[mark];
+  md += `| ${mark.replace(/_/g, ' ')} | ${(stats.rate * 100).toFixed(1)}% | ${stats.fail} | ${interp} |\n`;
   }
 
   md += `
 
 **Most-failed marks:** ${
-    Object.entries(mark_pass_rates)
-      .sort((a, b) => a[1].fail - b[1].fail)
-      .slice(-3)
-      .map(e => `${e[0]} (${e[1].fail} failures)`)
-      .join(', ')
+  Object.entries(mark_pass_rates)
+  .sort((a, b) => a[1].fail - b[1].fail)
+  .slice(-3)
+  .map(e => `${e[0]} (${e[1].fail} failures)`)
+  .join(', ')
   }
 
 **Most-passed marks:** ${
-    Object.entries(mark_pass_rates)
-      .sort((a, b) => b[1].pass - a[1].pass)
-      .slice(0, 3)
-      .map(e => `${e[0]} (${e[1].pass} passes)`)
-      .join(', ')
+  Object.entries(mark_pass_rates)
+  .sort((a, b) => b[1].pass - a[1].pass)
+  .slice(0, 3)
+  .map(e => `${e[0]} (${e[1].pass} passes)`)
+  .join(', ')
   }
 
 ---
@@ -497,11 +497,11 @@ ${highestFive.map(a => `- ${a.file} (${a.score}/12)`).join('\n')}
 `;
 
   for (const cat of Object.keys(by_category).sort()) {
-    const stats = by_category[cat];
-    md += `**${cat.charAt(0).toUpperCase() + cat.slice(1)}** (${stats.count} articles)\n`;
-    md += `- Mean score: ${stats.mean_score}/12\n`;
-    md += `- Highest: ${stats.highest_scorer} (${stats.highest_score}/12)\n`;
-    md += `- Lowest: ${stats.lowest_scorer} (${stats.lowest_score}/12)\n\n`;
+  const stats = by_category[cat];
+  md += `**${cat.charAt(0).toUpperCase() + cat.slice(1)}** (${stats.count} articles)\n`;
+  md += `- Mean score: ${stats.mean_score}/12\n`;
+  md += `- Highest: ${stats.highest_scorer} (${stats.highest_score}/12)\n`;
+  md += `- Lowest: ${stats.lowest_scorer} (${stats.lowest_score}/12)\n\n`;
   }
 
   md += `### By Lock Status
@@ -509,17 +509,17 @@ ${highestFive.map(a => `- ${a.file} (${a.score}/12)`).join('\n')}
 `;
 
   if (by_lock_status.locked) {
-    md += `**HAMMER-LOCKED or POLISH-LOCKED** (${by_lock_status.locked.count} articles)\n`;
-    md += `- Mean score: ${by_lock_status.locked.mean_score}/12\n\n`;
+  md += `**HAMMER-LOCKED or POLISH-LOCKED** (${by_lock_status.locked.count} articles)\n`;
+  md += `- Mean score: ${by_lock_status.locked.mean_score}/12\n\n`;
   }
   if (by_lock_status.unlocked) {
-    md += `**Unlocked** (${by_lock_status.unlocked.count} articles)\n`;
-    md += `- Mean score: ${by_lock_status.unlocked.mean_score}/12\n\n`;
+  md += `**Unlocked** (${by_lock_status.unlocked.count} articles)\n`;
+  md += `- Mean score: ${by_lock_status.unlocked.mean_score}/12\n\n`;
   }
 
   if (by_lock_status.locked && by_lock_status.unlocked) {
-    const gap = by_lock_status.locked.mean_score - by_lock_status.unlocked.mean_score;
-    md += `**Gap:** Locked articles score ${gap.toFixed(2)} points higher on average.\n\n`;
+  const gap = by_lock_status.locked.mean_score - by_lock_status.unlocked.mean_score;
+  md += `**Gap:** Locked articles score ${gap.toFixed(2)} points higher on average.\n\n`;
   }
 
   md += `---
@@ -531,8 +531,8 @@ Ranked by score ascending, then by word count. These are the pages Phase C will 
 `;
 
   rebuildQueue.forEach((item, i) => {
-    md += `${i + 1}. **${item.file}** (${item.score}/12, ${item.category}${item.lock_type ? `, ${item.lock_type}` : ''})\n`;
-    md += `   Missing: ${item.missing_marks.join(', ')}\n\n`;
+  md += `${i + 1}. **${item.file}** (${item.score}/12, ${item.category}${item.lock_type ? `, ${item.lock_type}` : ''})\n`;
+  md += ` Missing: ${item.missing_marks.join(', ')}\n\n`;
   });
 
   md += `---
@@ -588,11 +588,11 @@ All twelve marks are defined in AUDIT-2.md §II. This audit measures binary pres
 `;
 
   fs.writeFileSync(
-    path.join(REPO_ROOT, 'consecration-audit.md'),
-    md
+  path.join(REPO_ROOT, 'consecration-audit.md'),
+  md
   );
 
-  console.log('✓ consecration-audit.md written.');
+  console.log(' consecration-audit.md written.');
   console.log(`\n=== SUMMARY ===`);
   console.log(`Articles scanned: ${totals.articles_scanned}`);
   console.log(`Consecrated (12/12): ${totals.consecrated_12}`);

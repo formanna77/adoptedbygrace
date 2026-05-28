@@ -34,16 +34,16 @@ function formatDate(iso) {
   if (!iso) return null;
   const [y, m, d] = iso.split('-').map(Number);
   const months = ['January','February','March','April','May','June',
-                  'July','August','September','October','November','December'];
+  'July','August','September','October','November','December'];
   return `${months[m-1]} ${d}, ${y}`;
 }
 
 function bylineHTML(dateIso) {
   const pretty = formatDate(dateIso);
   const time = dateIso
-    ? ` · <time datetime="${dateIso}">${pretty}</time>`
-    : '';
-  return `        <p class="article-byline">By <a href="/about">Aaron Forman</a>${time}</p>`;
+  ? ` · <time datetime="${dateIso}">${pretty}</time>`
+  : '';
+  return `  <p class="article-byline">By <a href="/about">Aaron Forman</a>${time}</p>`;
 }
 
 function injectByline(content) {
@@ -56,7 +56,7 @@ function injectByline(content) {
   const byline = bylineHTML(dateIso);
   // Don't double-insert (defensive — hasByline check above already handles most)
   if (match[1].includes('class="article-byline"')) return null;
-  return content.replace(heroRe, `${match[1]}${byline}\n    ${match[2]}`);
+  return content.replace(heroRe, `${match[1]}${byline}\n ${match[2]}`);
 }
 
 let scanned = 0, modified = 0, skipped = 0;
@@ -77,15 +77,15 @@ for (const file of files) {
 
   const updated = injectByline(content);
   if (updated && updated !== content) {
-    fs.writeFileSync(full, updated, 'utf8');
-    modified++;
-    console.log(`  ✅ ${file}`);
+  fs.writeFileSync(full, updated, 'utf8');
+  modified++;
+  console.log(` ${file}`);
   }
 }
 
 console.log('\n══════════════════════════════════════');
-console.log(`📊 BYLINE PASS RESULTS`);
-console.log(`   Files scanned:  ${scanned}`);
-console.log(`   Bylines added:  ${modified}`);
-console.log(`   Files skipped:  ${skipped}`);
+console.log(` BYLINE PASS RESULTS`);
+console.log(` Files scanned:  ${scanned}`);
+console.log(` Bylines added:  ${modified}`);
+console.log(` Files skipped:  ${skipped}`);
 console.log('══════════════════════════════════════');

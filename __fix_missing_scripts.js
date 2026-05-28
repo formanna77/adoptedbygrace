@@ -20,8 +20,8 @@ for(const f of walk(ROOT)){
   if(hasNav && hasUx) continue;
 
   const toAdd = [];
-  if(!hasNav) toAdd.push('    <script src="/nav.js"></script>');
-  if(!hasUx)  toAdd.push('    <script src="/ux-enhancements.js" defer></script>');
+  if(!hasNav) toAdd.push('  <script src="/nav.js"></script>');
+  if(!hasUx)  toAdd.push('  <script src="/ux-enhancements.js" defer></script>');
   const block = toAdd.join('\n') + '\n';
 
   // Try inserting before </body>. Use last occurrence to be safe.

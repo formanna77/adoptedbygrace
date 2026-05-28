@@ -53,18 +53,18 @@ function getCategory(file) {
 
 function extractWordCount(html) {
   const articleMatch = html.match(/<article[^>]*class="article-body"[^>]*>([\s\S]*?)<\/article>/i)
-    || html.match(/<article[^>]*>([\s\S]*?)<\/article>/i)
-    || html.match(/<div[^>]*class="(?:article-body|content-wrap|article-content|content-wrapper)"[^>]*>([\s\S]*?)<\/div>/i);
+  || html.match(/<article[^>]*>([\s\S]*?)<\/article>/i)
+  || html.match(/<div[^>]*class="(?:article-body|content-wrap|article-content|content-wrapper)"[^>]*>([\s\S]*?)<\/div>/i);
 
   if (!articleMatch) return 0;
 
   const text = articleMatch[1]
-    .replace(/<script[\s\S]*?<\/script>/gi, '')
-    .replace(/<style[\s\S]*?<\/style>/gi, '')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&[a-z]+;/gi, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
+  .replace(/<script[\s\S]*?<\/script>/gi, '')
+  .replace(/<style[\s\S]*?<\/style>/gi, '')
+  .replace(/<[^>]+>/g, ' ')
+  .replace(/&[a-z]+;/gi, ' ')
+  .replace(/\s+/g, ' ')
+  .trim();
 
   return text.split(/\s+/).filter(w => w.length > 0).length;
 }
@@ -96,7 +96,7 @@ const over = results.filter(r => r.wordCount > TARGET);
 const under = results.filter(r => r.wordCount <= TARGET);
 
 // Priority tiers
-const critical = results.filter(r => r.wordCount > 4000);   // 20+ min reads
+const critical = results.filter(r => r.wordCount > 4000); // 20+ min reads
 const high = results.filter(r => r.wordCount > 2500 && r.wordCount <= 4000);
 const medium = results.filter(r => r.wordCount > TARGET && r.wordCount <= 2500);
 

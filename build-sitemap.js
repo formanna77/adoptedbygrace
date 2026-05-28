@@ -5,24 +5,24 @@
  * PROJECT LIGHTHOUSE — Pillar 3: CRAWL GUIDANCE
  *
  * Regenerates sitemap.xml from scratch with:
- *   - every .html page at the repo root (except internal/skip list)
- *   - a fresh <lastmod> (today) so Google re-crawls
- *   - intelligent <priority> weights:
- *       1.0  → index
- *       0.95 → flagship / pillar pages
- *       0.9  → hubs + about + big category indexes
- *       0.85 → question + demolition + philosophy + comparisons
- *       0.8  → systematic + devotionals + psychology
- *       0.75 → secular + history + theologians
- *       0.65 → stories + objections + counters
- *       0.5  → 404, utility
- *   - <changefreq>:
- *       index        → daily
- *       hubs         → daily
- *       flagships    → weekly
- *       articles     → weekly
- *       old-history  → monthly
- *       utility      → yearly
+ * - every .html page at the repo root (except internal/skip list)
+ * - a fresh <lastmod> (today) so Google re-crawls
+ * - intelligent <priority>weights:
+ * 1.0  → index
+ * 0.95 → flagship / pillar pages
+ * 0.9  → hubs + about + big category indexes
+ * 0.85 → question + demolition + philosophy + comparisons
+ * 0.8  → systematic + devotionals + psychology
+ * 0.75 → secular + history + theologians
+ * 0.65 → stories + objections + counters
+ * 0.5  → 404, utility
+ * - <changefreq>:
+ * index → daily
+ * hubs → daily
+ * flagships → weekly
+ * articles → weekly
+ * old-history  → monthly
+ * utility → yearly
  *
  * Run with:  node build-sitemap.js
  */
@@ -135,9 +135,9 @@ const TODAY = new Date().toISOString().split('T')[0];
 
 function loadManifest() {
   try {
-    return JSON.parse(fs.readFileSync(HASH_MANIFEST, 'utf8'));
+  return JSON.parse(fs.readFileSync(HASH_MANIFEST, 'utf8'));
   } catch (e) {
-    return {};
+  return {};
   }
 }
 
@@ -157,11 +157,11 @@ function lastmodFor(file, prevManifest, nextManifest) {
 
 function escape(s) {
   return s
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&apos;');
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;')
+  .replace(/'/g, '&apos;');
 }
 
 function buildEntry(file, prevManifest, nextManifest) {
@@ -179,16 +179,16 @@ function buildEntry(file, prevManifest, nextManifest) {
 
 function main() {
   const files = fs
-    .readdirSync('.')
-    .filter((f) => f.endsWith('.html'))
-    .filter((f) => !SKIP_FILES.has(f));
+  .readdirSync('.')
+  .filter((f) => f.endsWith('.html'))
+  .filter((f) => !SKIP_FILES.has(f));
 
   // Sort priority DESC so crawlers prefer top entries
   files.sort((a, b) => {
-    const pa = parseFloat(priorityFor(a));
-    const pb = parseFloat(priorityFor(b));
-    if (pa !== pb) return pb - pa;
-    return a.localeCompare(b);
+  const pa = parseFloat(priorityFor(a));
+  const pb = parseFloat(priorityFor(b));
+  if (pa !== pb) return pb - pa;
+  return a.localeCompare(b);
   });
 
   const prevManifest = loadManifest();
@@ -197,7 +197,7 @@ function main() {
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urls}
 </urlset>
 `;
@@ -208,13 +208,13 @@ ${urls}
   // Quick tally by priority
   const tally = {};
   for (const f of files) {
-    const p = priorityFor(f);
-    tally[p] = (tally[p] || 0) + 1;
+  const p = priorityFor(f);
+  tally[p] = (tally[p] || 0) + 1;
   }
-  console.log(`✓ Sitemap rebuilt: ${files.length} URLs (lastmod: ${new Date().toISOString().split('T')[0]})`);
+  console.log(` Sitemap rebuilt: ${files.length} URLs (lastmod: ${new Date().toISOString().split('T')[0]})`);
   console.log('  Priority distribution:');
   for (const p of Object.keys(tally).sort().reverse()) {
-    console.log(`    ${p}  →  ${tally[p]} pages`);
+  console.log(` ${p}  →  ${tally[p]} pages`);
   }
 }
 

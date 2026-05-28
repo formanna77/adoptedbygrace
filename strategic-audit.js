@@ -7,15 +7,15 @@
  * Which are dead weight? Which are redundant? Where are the orphans?
  *
  * Output:
- *   audit-data.json      — machine-readable full dataset
- *   AUDIT-REPORT.md      — human-readable summary for MISSION-CONTROL
+ * audit-data.json — machine-readable full dataset
+ * AUDIT-REPORT.md — human-readable summary for MISSION-CONTROL
  *
  * Tiers:
- *   HAMMER   — inbound ≥ 6 AND words ≥ 700 AND in mission-core category → rewrite to extraordinary
- *   KEEP     — solid middle tier — minor polish, cross-link more
- *   THIN     — word count < 350 → candidate for merge or expansion
- *   ORPHAN   — inbound link count ≤ 1 → wire in or retire
- *   RETIRE   — THIN + ORPHAN → merge into a stronger page or delete
+ * HAMMER — inbound ≥ 6 AND words ≥ 700 AND in mission-core category → rewrite to extraordinary
+ * KEEP — solid middle tier — minor polish, cross-link more
+ * THIN — word count < 350 → candidate for merge or expansion
+ * ORPHAN — inbound link count ≤ 1 → wire in or retire
+ * RETIRE — THIN + ORPHAN → merge into a stronger page or delete
  *
  * Usage: node strategic-audit.js
  */
@@ -68,8 +68,8 @@ const HEALING_SERIES = new Set([
 function getCategory(file) {
   // Try longer prefixes first (e.g., "anxious-mind-")
   const prefixes = [
-    'anxious-mind-', 'broken-mirror-', 'open-wound-',
-    'invisible-wall-', 'shattered-lens-', 'start-here-'
+  'anxious-mind-', 'broken-mirror-', 'open-wound-',
+  'invisible-wall-', 'shattered-lens-', 'start-here-'
   ];
   for (const p of prefixes) if (file.startsWith(p)) return p;
   const m = file.match(/^([a-z]+)-/);
@@ -86,8 +86,8 @@ function stripHtml(html) {
   html = html.replace(/<[^>]+>/g, ' ');
   // Decode a few basic entities
   html = html.replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
-             .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-             .replace(/&quot;/g, '"').replace(/&#\d+;/g, ' ');
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+  .replace(/&quot;/g, '"').replace(/&#\d+;/g, ' ');
   return html.replace(/\s+/g, ' ').trim();
 }
 
@@ -110,8 +110,8 @@ function extractArticleBody(html) {
 
 function hasStructuralBug(html) {
   // Two possible canonical shapes:
-  //   A) <article class="article-body">...real content...</article>
-  //   B) utility/hub pages that don't need article-body
+  // A) <article class="article-body">...real content...</article>
+  // B) utility/hub pages that don't need article-body
   //
   // A "structural bug" = canonical article-body exists but is empty (hero-only, <500 chars text)
   // while the rest of the body has substantial prose (>1500 chars text).
@@ -143,8 +143,8 @@ function extractInternalLinks(html, validFiles) {
   const links = new Set();
   let m;
   while ((m = re.exec(body)) !== null) {
-    const target = m[1] + '.html';
-    if (validFiles.has(target)) links.add(target);
+  const target = m[1] + '.html';
+  if (validFiles.has(target)) links.add(target);
   }
   return links;
 }
@@ -171,19 +171,19 @@ for (const file of allHtml) {
   const links = extractInternalLinks(html, allFiles);
 
   pages[file] = {
-    file,
-    category: getCategory(file),
-    title: extractTitle(html),
-    metaDescription: extractMetaDescription(html),
-    wordCount,
-    outboundLinks: [...links],
-    outboundCount: links.size,
-    inboundCount: 0, // filled in later
-    isHub: HUB_FILES.has(file),
-    isUtility: UTILITY_FILES.has(file),
-    hasPageHero: /class="[^"]*page-hero/i.test(html),
-    hasEyebrow: /class="[^"]*eyebrow/i.test(html),
-    structuralBug: hasStructuralBug(html),
+  file,
+  category: getCategory(file),
+  title: extractTitle(html),
+  metaDescription: extractMetaDescription(html),
+  wordCount,
+  outboundLinks: [...links],
+  outboundCount: links.size,
+  inboundCount: 0, // filled in later
+  isHub: HUB_FILES.has(file),
+  isUtility: UTILITY_FILES.has(file),
+  hasPageHero: /class="[^"]*page-hero/i.test(html),
+  hasEyebrow: /class="[^"]*eyebrow/i.test(html),
+  structuralBug: hasStructuralBug(html),
   };
   outLinks[file] = links;
 }
@@ -193,7 +193,7 @@ const inbound = {};
 for (const f of allHtml) inbound[f] = new Set();
 for (const [src, targets] of Object.entries(outLinks)) {
   for (const t of targets) {
-    if (t !== src) inbound[t] && inbound[t].add(src);
+  if (t !== src) inbound[t] && inbound[t].add(src);
   }
 }
 for (const f of Object.keys(pages)) {
@@ -226,10 +226,10 @@ const slugBuckets = {};
 for (const p of Object.values(pages)) {
   if (p.isHub || p.isUtility) continue;
   const core = p.file
-    .replace(/\.html$/, '')
-    .replace(/^(demolition|question|objection|apologetic|argument|counter|devotional|systematic|theologian|psychology|philosophy|history|secular|story|analogy|ot|compare|pastoral|testimony|response|joy)-/, '')
-    .replace(/-v\d+$/, '')
-    .replace(/-(full|simple|short|long)$/, '');
+  .replace(/\.html$/, '')
+  .replace(/^(demolition|question|objection|apologetic|argument|counter|devotional|systematic|theologian|psychology|philosophy|history|secular|story|analogy|ot|compare|pastoral|testimony|response|joy)-/, '')
+  .replace(/-v\d+$/, '')
+  .replace(/-(full|simple|short|long)$/, '');
   // very coarse stem — first 3 tokens
   const stem = core.split('-').slice(0, 3).join('-');
   slugBuckets[stem] = slugBuckets[stem] || [];
@@ -293,7 +293,7 @@ fs.writeFileSync(
   path.join(ROOT, 'audit-data.json'),
   JSON.stringify({ summary, pages }, null, 2)
 );
-console.log('✓ wrote audit-data.json');
+console.log(' wrote audit-data.json');
 
 // ─── Human report ──────────────────────────────────────────────────
 
@@ -379,8 +379,8 @@ for (const [stem, files] of redundancyClusters.slice(0, 40)) {
   md.push(`**\`${stem}\`** (${files.length} pages)`);
   md.push('');
   for (const f of files) {
-    const p = pages[f];
-    md.push(`- \`${f}\` — ${p.wordCount}w, ${p.inboundCount} inbound`);
+  const p = pages[f];
+  md.push(`- \`${f}\` — ${p.wordCount}w, ${p.inboundCount} inbound`);
   }
   md.push('');
 }
@@ -408,12 +408,12 @@ md.push('3. **Investigate Redundancy Clusters** — most will be legitimate, som
 md.push('4. **Rerun periodically** — `node strategic-audit.js`. After rewrites, the Hammer list should get stronger and orphan count should drop.');
 md.push('');
 fs.writeFileSync(path.join(ROOT, 'AUDIT-REPORT.md'), md.join('\n'));
-console.log('✓ wrote AUDIT-REPORT.md');
+console.log(' wrote AUDIT-REPORT.md');
 
 console.log('\n══════════════════════════════════');
 console.log(`HAMMER : ${summary.tierCounts.HAMMER}`);
-console.log(`KEEP   : ${summary.tierCounts.KEEP}`);
-console.log(`THIN   : ${summary.tierCounts.THIN}`);
+console.log(`KEEP : ${summary.tierCounts.KEEP}`);
+console.log(`THIN : ${summary.tierCounts.THIN}`);
 console.log(`ORPHAN : ${summary.tierCounts.ORPHAN}`);
 console.log(`RETIRE : ${summary.tierCounts.RETIRE}`);
 console.log(`INFRA  : ${summary.tierCounts.INFRA}`);

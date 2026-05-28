@@ -53,19 +53,19 @@ function findRelated(currentPage, allPages, count = 6) {
   const candidates = [];
 
   for (const other of allPages) {
-    if (other.url === currentPage.url) continue;
+  if (other.url === currentPage.url) continue;
 
-    // Count shared tags
-    const sharedTags = currentPage.tags.filter(t => other.tags.includes(t));
-    if (sharedTags.length === 0) continue;
+  // Count shared tags
+  const sharedTags = currentPage.tags.filter(t => other.tags.includes(t));
+  if (sharedTags.length === 0) continue;
 
-    // Score: shared tags + bonus for different category (cross-pollination)
-    let score = sharedTags.length;
-    if (other.category !== currentPage.category) {
-      score += 2; // Boost cross-category links
-    }
+  // Score: shared tags + bonus for different category (cross-pollination)
+  let score = sharedTags.length;
+  if (other.category !== currentPage.category) {
+  score += 2; // Boost cross-category links
+  }
 
-    candidates.push({ page: other, score, sharedTags });
+  candidates.push({ page: other, score, sharedTags });
   }
 
   // Sort by score descending
@@ -77,19 +77,19 @@ function findRelated(currentPage, allPages, count = 6) {
 
   // First pass: one from each different category
   for (const c of candidates) {
-    if (selected.length >= count) break;
-    if (!usedCategories.has(c.page.category)) {
-      selected.push(c);
-      usedCategories.add(c.page.category);
-    }
+  if (selected.length >= count) break;
+  if (!usedCategories.has(c.page.category)) {
+  selected.push(c);
+  usedCategories.add(c.page.category);
+  }
   }
 
   // Second pass: fill remaining slots with best scores
   for (const c of candidates) {
-    if (selected.length >= count) break;
-    if (!selected.includes(c)) {
-      selected.push(c);
-    }
+  if (selected.length >= count) break;
+  if (!selected.includes(c)) {
+  selected.push(c);
+  }
   }
 
   return selected;
@@ -97,26 +97,26 @@ function findRelated(currentPage, allPages, count = 6) {
 
 // ── Category icons ─────────────────────────────────────────────────
 const CAT_ICONS = {
-  'Start Here': '🧭',
-  'Questions': '📖',
-  'Theology': '🏛',
-  'Objections Answered': '🛡',
-  'Demolition Zone': '💥',
-  'Apologetics': '⚔',
-  'Why We Resist': '🧠',
-  'Devotionals': '🕯',
-  'Stories': '📜',
-  'Secular Evidence': '🔬',
-  'History': '⏳',
-  'Theologians': '🧓',
-  'Analogies': '💡',
-  'Old Testament': '📚',
-  'Comparisons': '⚖',
-  'Creeds & Confessions': '📜',
-  'Pastoral': '🤝',
-  'Psalms & Poetry': '🎵',
-  'Healing & Hope': '💚',
-  'General': '📄',
+  'Start Here': '',
+  'Questions': '',
+  'Theology': '',
+  'Objections Answered': '',
+  'Demolition Zone': '',
+  'Apologetics': '',
+  'Why We Resist': '',
+  'Devotionals': '',
+  'Stories': '',
+  'Secular Evidence': '',
+  'History': '',
+  'Theologians': '',
+  'Analogies': '',
+  'Old Testament': '',
+  'Comparisons': '',
+  'Creeds & Confessions': '',
+  'Pastoral': '',
+  'Psalms & Poetry': '',
+  'Healing & Hope': '',
+  'General': '',
 };
 
 // ── Generate related HTML ──────────────────────────────────────────
@@ -131,23 +131,23 @@ function buildRelatedHTML(related) {
     <div class="related-articles-grid">`;
 
   for (const r of related) {
-    const icon = CAT_ICONS[r.page.category] || '📄';
-    const desc = r.page.desc ? r.page.desc.substring(0, 100) + (r.page.desc.length > 100 ? '...' : '') : '';
-    html += `
-      <a href="${r.page.url}" class="related-article-card">
-        <span class="related-article-cat">${icon} ${escapeHtml(r.page.category)}</span>
-        <span class="related-article-title">${escapeHtml(r.page.title)}</span>
-        <span class="related-article-desc">${escapeHtml(desc)}</span>
-      </a>`;
+  const icon = CAT_ICONS[r.page.category] || '';
+  const desc = r.page.desc ? r.page.desc.substring(0, 100) + (r.page.desc.length > 100 ? '...' : '') : '';
+  html += `
+   <a href="${r.page.url}" class="related-article-card">
+   <span class="related-article-cat">${icon} ${escapeHtml(r.page.category)}</span>
+   <span class="related-article-title">${escapeHtml(r.page.title)}</span>
+   <span class="related-article-desc">${escapeHtml(desc)}</span>
+</a>`;
   }
 
   html += `
-    </div>
+</div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
+   <a href="/all-content" class="related-browse-link">Browse All 228+ Articles →</a>
+   <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+</div>
+</div>
 </section>
 ${MARKER_END}`;
 
@@ -176,51 +176,51 @@ for (const file of htmlFiles) {
   const page = pageMap[url];
 
   if (!page) {
-    skippedCount++;
-    continue;
+  skippedCount++;
+  continue;
   }
 
   const related = findRelated(page, pages);
   if (related.length === 0) {
-    skippedCount++;
-    continue;
+  skippedCount++;
+  continue;
   }
 
   const relatedHTML = buildRelatedHTML(related);
 
   // Remove existing related section if present
   const markerRegex = new RegExp(
-    MARKER_START.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') +
-    '[\\s\\S]*?' +
-    MARKER_END.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),
-    'g'
+  MARKER_START.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') +
+  '[\\s\\S]*?' +
+  MARKER_END.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),
+  'g'
   );
   html = html.replace(markerRegex, '');
 
-  // Find injection point: before </footer> or before the last </div> before </body>
+  // Find injection point: before </footer> or before the last</div> before </body>
   let injected = false;
 
   // Try before <footer>
   const footerIdx = html.lastIndexOf('<footer');
   if (footerIdx !== -1) {
-    html = html.substring(0, footerIdx) + relatedHTML + '\n\n' + html.substring(footerIdx);
-    injected = true;
+  html = html.substring(0, footerIdx) + relatedHTML + '\n\n' + html.substring(footerIdx);
+  injected = true;
   }
 
   // Fallback: before </body>
   if (!injected) {
-    const bodyEndIdx = html.lastIndexOf('</body>');
-    if (bodyEndIdx !== -1) {
-      html = html.substring(0, bodyEndIdx) + relatedHTML + '\n\n' + html.substring(bodyEndIdx);
-      injected = true;
-    }
+  const bodyEndIdx = html.lastIndexOf('</body>');
+  if (bodyEndIdx !== -1) {
+  html = html.substring(0, bodyEndIdx) + relatedHTML + '\n\n' + html.substring(bodyEndIdx);
+  injected = true;
+  }
   }
 
   if (injected) {
-    fs.writeFileSync(filePath, html, 'utf-8');
-    injectedCount++;
+  fs.writeFileSync(filePath, html, 'utf-8');
+  injectedCount++;
   } else {
-    skippedCount++;
+  skippedCount++;
   }
 }
 

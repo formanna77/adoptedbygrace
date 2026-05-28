@@ -13,7 +13,7 @@ function stripComments(s){return s.replace(/<!--[\s\S]*?-->/g,'');}
 
 const files = walk(ROOT);
 const missing = { nav:[], ux:[], readingTime:[], scriptureNiv:[], quoteCard:[] };
-// Only check pages that look like articles / content pages (have <header class="page-hero"> or <article class="article-body"> or hub-container)
+// Only check pages that look like articles / content pages (have <header class="page-hero"> or <article class="article-body">or hub-container)
 for(const f of files){
   const raw = fs.readFileSync(f,'utf8');
   const s = stripComments(raw);

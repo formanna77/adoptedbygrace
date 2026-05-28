@@ -37,39 +37,39 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://adoptedbygrace.net/#organization",
-      "name": "Adopted by Grace",
-      "url": "https://adoptedbygrace.net",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://adoptedbygrace.net/og-image.png",
-        "width": 1200,
-        "height": 630
-      },
-      "sameAs": [
-        "https://twitter.com/ForeknownOne",
-        "https://foreknownone.substack.com"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://adoptedbygrace.net/#website",
-      "url": "https://adoptedbygrace.net",
-      "name": "Adopted by Grace",
-      "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
-      "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      },
-      "inLanguage": "en-US"
-    }
+  {
+  "@type": "Organization",
+  "@id": "https://adoptedbygrace.net/#organization",
+  "name": "Adopted by Grace",
+  "url": "https://adoptedbygrace.net",
+  "logo": {
+  "@type": "ImageObject",
+  "url": "https://adoptedbygrace.net/og-image.png",
+  "width": 1200,
+  "height": 630
+  },
+  "sameAs": [
+  "https://twitter.com/ForeknownOne",
+  "https://foreknownone.substack.com"
+  ]
+  },
+  {
+  "@type": "WebSite",
+  "@id": "https://adoptedbygrace.net/#website",
+  "url": "https://adoptedbygrace.net",
+  "name": "Adopted by Grace",
+  "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
+  "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
+  "potentialAction": {
+  "@type": "SearchAction",
+  "target": {
+  "@type": "EntryPoint",
+  "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
+  },
+  "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "en-US"
+  }
   ]
 }
 </script>
@@ -94,22 +94,22 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
   {
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Home",
-    "item": "https://adoptedbygrace.net/"
+  "@type": "ListItem",
+  "position": 1,
+  "name": "Home",
+  "item": "https://adoptedbygrace.net/"
   },
   {
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Systematic Theology",
-    "item": "https://adoptedbygrace.net/systematic-theology"
+  "@type": "ListItem",
+  "position": 2,
+  "name": "Systematic Theology",
+  "item": "https://adoptedbygrace.net/systematic-theology"
   },
   {
-    "@type": "ListItem",
-    "position": 3,
-    "name": "Born Again — What It Really Means and Why You Didn't Do It to Yourself",
-    "item": "https://adoptedbygrace.net/systematic-regeneration"
+  "@type": "ListItem",
+  "position": 3,
+  "name": "Born Again — What It Really Means and Why You Didn't Do It to Yourself",
+  "item": "https://adoptedbygrace.net/systematic-regeneration"
   }
 ]
 }
@@ -124,165 +124,165 @@
 </head>
 <body>
     <nav role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <a href="/" class="nav-site-name">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            </button>
-            <ul class="nav-links">
-                <li class="mobile-menu-search" style="list-style:none;">
-                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
-                </li>
-                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
-                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
-                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
-                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
-                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
-                <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
-                <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
-            </ul>
-            <div class="nav-right">
-                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
-                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
-                <a href="/start-here" class="nav-top-link">Start Here</a>
-                <a href="/questions" class="nav-top-link">Questions</a>
-                <a href="/systematic-theology" class="nav-top-link">Theology</a>
-                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
-                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
-                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
-                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
-                <a href="/about" class="nav-top-link">About</a>
-                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
-                    <span class="mega-menu-toggle-label">Explore</span>
-                </button>
-                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                </button>
-            </div>
-        </div>
+   <div class="nav-container">
+   <a href="/" class="nav-site-name">Adopted by Grace</a>
+   <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+   <span></span><span></span><span></span>
+   </button>
+   <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+   <ul class="nav-links">
+   <li class="mobile-menu-search" style="list-style:none;">
+   <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+</li>
+   <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+   <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+   <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+   <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+   <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+   <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+   <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+   <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+   <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+   <li class="mobile-nav-link"><a href="/about">About</a></li>
+   <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+   </ul>
+   <div class="nav-right">
+   <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+   <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+   <a href="/start-here" class="nav-top-link">Start Here</a>
+   <a href="/questions" class="nav-top-link">Questions</a>
+   <a href="/systematic-theology" class="nav-top-link">Theology</a>
+   <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+   <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+   <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+   <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+   <a href="/about" class="nav-top-link">About</a>
+   <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+   <span class="mega-menu-toggle-label">Explore</span>
+   </button>
+   <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+</div>
+</div>
     </nav>
     <div class="mega-menu" id="megaMenu"></div>
     <div class="search-overlay" id="searchOverlay">
-        <div class="search-overlay-inner">
-            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
-            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
-        </div>
-        <div class="search-results" id="searchResults"></div>
-    </div>
+   <div class="search-overlay-inner">
+   <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+   <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+</div>
+   <div class="search-results" id="searchResults"></div>
+</div>
 
     <header class="page-hero">
-        <span class="eyebrow">Systematic Theology</span>
-        <h1>Regeneration</h1>
-        <p class="hub-subtitle">The new birth — why you didn't choose it, and why that's the best news you've ever heard.</p>
-            <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
+   <span class="eyebrow">Systematic Theology</span>
+   <h1>Regeneration</h1>
+   <p class="hub-subtitle">The new birth — why you didn't choose it, and why that's the best news you've ever heard.</p>
+   <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
     </header>
 
     <article class="article-body">
     <!-- CONSECRATED S67 -->
 <!-- HAMMER-LOCKED -->
 
-        <div class="tldr">
-            <h2>In Brief</h2>
-            <p>You did not choose to be born the first time. You did not choose to be <a href="/question-born-again-meaning">born again</a> either. Scripture teaches that regeneration is God's sovereign act of making a <a href="/question-depravity">spiritually dead</a> person alive — and that it <a href="/question-regeneration-precedes-faith">precedes faith</a>, not the other way around. God gives the <a href="/question-newheart">new heart</a>, the Spirit births the new life, and <em>then</em> the person believes. This is <a href="/compare-monergism-synergism">monergism</a> — God working alone in the decisive moment. And it is the foundation of every believer's assurance: your salvation depends not on your grip, but on His.</p>
-        </div>
+   <div class="tldr">
+   <h2>In Brief</h2>
+   <p>You did not choose to be born the first time. You did not choose to be <a href="/question-born-again-meaning">born again</a> either. Scripture teaches that regeneration is God's sovereign act of making a <a href="/question-depravity">spiritually dead</a> person alive — and that it <a href="/question-regeneration-precedes-faith">precedes faith</a>, not the other way around. God gives the <a href="/question-newheart">new heart</a>, the Spirit births the new life, and <em>then</em> the person believes. This is <a href="/compare-monergism-synergism">monergism</a> — God working alone in the decisive moment. And it is the foundation of every believer's assurance: your salvation depends not on your grip, but on His.</p>
+</div>
 
-        <h2>You Did Not Attend Your Own Birth</h2>
+   <h2>You Did Not Attend Your Own Birth</h2>
 
-        <p>Before anything else, notice your breathing. Not to change it. Just to notice it. The rise. The fall. The small muscular work happening underneath the ribcage that has never, in your entire life, asked you for permission. You are being kept alive right now by a mechanism you did not install and cannot turn off by choosing to. That is important. We are going to talk about a different birth, and it helps to begin with a reminder that the first one is still happening.</p>
+   <p>Before anything else, notice your breathing. Not to change it. Just to notice it. The rise. The fall. The small muscular work happening underneath the ribcage that has never, in your entire life, asked you for permission. You are being kept alive right now by a mechanism you did not install and cannot turn off by choosing to. That is important. We are going to talk about a different birth, and it helps to begin with a reminder that the first one is still happening.</p>
 
-        <p>There was a moment — you cannot remember it, you were not conscious for it, you did not consent to it — when you went from not existing to existing. You did not fill out a form. You did not weigh the pros and cons of being alive. One second there was no you, and the next second there was. Your mother did the labor. You did the arriving. No one has ever congratulated an infant for the heroic act of being born.</p>
+   <p>There was a moment — you cannot remember it, you were not conscious for it, you did not consent to it — when you went from not existing to existing. You did not fill out a form. You did not weigh the pros and cons of being alive. One second there was no you, and the next second there was. Your mother did the labor. You did the arriving. No one has ever congratulated an infant for the heroic act of being born.</p>
 
-        <p>And yet you are convinced that the <em>second</em> birth was somehow different. That the moment you became spiritually alive was the moment you finally decided to let God in. That is not what Jesus told Nicodemus. Jesus told a Pharisee — a teacher of Israel, a man whose identity was built on the assumption that he could <em>work his way</em> to God — that he had to be <em>born again</em>. Not reformed. Not educated. <em>Born.</em> Then Jesus reached for the one metaphor guaranteed to strip Nicodemus of every illusion of control: the wind.</p>
+   <p>And yet you are convinced that the <em>second</em> birth was somehow different. That the moment you became spiritually alive was the moment you finally decided to let God in. That is not what Jesus told Nicodemus. Jesus told a Pharisee — a teacher of Israel, a man whose identity was built on the assumption that he could <em>work his way</em> to God — that he had to be <em>born again</em>. Not reformed. Not educated. <em>Born.</em> Then Jesus reached for the one metaphor guaranteed to strip Nicodemus of every illusion of control: the wind.</p>
 
-        <blockquote>
-            <p>"The wind blows wherever it pleases. You hear its sound, but you cannot tell where it comes from or where it is going. So it is with everyone born of the Spirit."</p>
-            <cite>JOHN 3:8</cite>
-        </blockquote>
+   <blockquote>
+   <p>"The wind blows wherever it pleases. You hear its sound, but you cannot tell where it comes from or where it is going. So it is with everyone born of the Spirit."</p>
+   <cite>JOHN 3:8</cite>
+   </blockquote>
 
-        <p>You cannot see it. You cannot command it. You cannot predict where it goes. You can only feel it when it arrives — and by then, the work is already done.</p>
+   <p>You cannot see it. You cannot command it. You cannot predict where it goes. You can only feel it when it arrives — and by then, the work is already done.</p>
 
-        <h2>The Word That Means From Above</h2>
+   <h2>The Word That Means From Above</h2>
 
-        <p>Jesus' actual phrase in Greek is a tripwire most English Bibles cannot fully capture. He says <em>γεννηθῇ ἄνωθεν</em> — <em>gennēthē anōthen</em>. And <em>anōthen</em> is an ambiguous word. It can mean <em>again</em>. It can mean <em>from above</em>. Both senses are in play, and John's Gospel is deliberately using the ambiguity to trap Nicodemus — and, behind Nicodemus, to trap you.</p>
+   <p>Jesus' actual phrase in Greek is a tripwire most English Bibles cannot fully capture. He says <em>γεννηθῇ ἄνωθεν</em> — <em>gennēthē anōthen</em>. And <em>anōthen</em> is an ambiguous word. It can mean <em>again</em>. It can mean <em>from above</em>. Both senses are in play, and John's Gospel is deliberately using the ambiguity to trap Nicodemus — and, behind Nicodemus, to trap you.</p>
 
-        <p>Nicodemus hears <em>again</em> and imagines a full-grown man somehow crawling back into his mother's womb. That is the confusion Jesus wants. Because Jesus' real meaning is the other sense. The birth is not <em>again</em> — as if you repeat the process. The birth is <em>from above</em> — as if something descends from outside your system entirely and causes a life inside you that you could never have caused from within.</p>
+   <p>Nicodemus hears <em>again</em> and imagines a full-grown man somehow crawling back into his mother's womb. That is the confusion Jesus wants. Because Jesus' real meaning is the other sense. The birth is not <em>again</em> — as if you repeat the process. The birth is <em>from above</em> — as if something descends from outside your system entirely and causes a life inside you that you could never have caused from within.</p>
 
-        <p>That is why Jesus goes straight to the wind. Wind blows downward through the valley. It does not rise up out of the grass. Regeneration does not rise up out of you. It is breathed into you by <a href="/systematic-pneumatology">the Spirit</a> who, from the first verse of Genesis, has been hovering over dead water and causing life.</p>
+   <p>That is why Jesus goes straight to the wind. Wind blows downward through the valley. It does not rise up out of the grass. Regeneration does not rise up out of you. It is breathed into you by <a href="/systematic-pneumatology">the Spirit</a> who, from the first verse of Genesis, has been hovering over dead water and causing life.</p>
 
-        <h2>God Removes the Heart of Stone</h2>
+   <h2>God Removes the Heart of Stone</h2>
 
-        <blockquote>
-            <p>"I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh. And I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws."</p>
-            <cite>EZEKIEL 36:26-27</cite>
-        </blockquote>
+   <blockquote>
+   <p>"I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh. And I will put my Spirit in you and move you to follow my decrees and be careful to keep my laws."</p>
+   <cite>EZEKIEL 36:26-27</cite>
+   </blockquote>
 
-        <p><em>I will give. I will put. I will remove. I will cause.</em> Every verb is divine. God does all of it.</p>
+   <p><em>I will give. I will put. I will remove. I will cause.</em> Every verb is divine. God does all of it.</p>
 
-        <p>Before regeneration, we have a heart of stone — incapable of loving God, incapable of faith, incapable of obedience. God removes the stone and replaces it with flesh — a heart that can feel, love, trust, obey. Then He puts His Spirit within us so that we <em>will</em> walk in His statutes. The logical order is unbreakable: first God makes alive, <em>then</em> we walk. The fruit comes after the life.</p>
+   <p>Before regeneration, we have a heart of stone — incapable of loving God, incapable of faith, incapable of obedience. God removes the stone and replaces it with flesh — a heart that can feel, love, trust, obey. Then He puts His Spirit within us so that we <em>will</em> walk in His statutes. The logical order is unbreakable: first God makes alive, <em>then</em> we walk. The fruit comes after the life.</p>
 
-        <p>Peter confirms it: "In his great mercy he has given us new birth into a living hope through the resurrection of Jesus Christ from the dead" (1 Peter 1:3). Not <em>enabled us</em>. Not <em>gave us the option</em>. <em>Given us new birth.</em> The subject is God. The action is giving new birth. The recipient is us.</p>
+   <p>Peter confirms it: "In his great mercy he has given us new birth into a living hope through the resurrection of Jesus Christ from the dead" (1 Peter 1:3). Not <em>enabled us</em>. Not <em>gave us the option</em>. <em>Given us new birth.</em> The subject is God. The action is giving new birth. The recipient is us.</p>
 
-        <h2>Regeneration Precedes Faith</h2>
+   <h2>Regeneration Precedes Faith</h2>
 
-        <p>This is the crucial point, and it is the one most churches get backwards. The popular version says: you believe, and <em>then</em> God makes you alive. Scripture says the opposite. The spiritually dead cannot believe — "The person without the Spirit does not accept the things that come from the Spirit of God but considers them foolishness, and cannot understand them because they are discerned only through the Spirit" (1 Corinthians 2:14). A corpse does not decide to live. A heart of stone does not choose to soften. Life must come first.</p>
+   <p>This is the crucial point, and it is the one most churches get backwards. The popular version says: you believe, and <em>then</em> God makes you alive. Scripture says the opposite. The spiritually dead cannot believe — "The person without the Spirit does not accept the things that come from the Spirit of God but considers them foolishness, and cannot understand them because they are discerned only through the Spirit" (1 Corinthians 2:14). A corpse does not decide to live. A heart of stone does not choose to soften. Life must come first.</p>
 
-        <blockquote>
-            <p><em>Have you ever met a dead man who decided to start breathing?</em></p>
-        </blockquote>
+   <blockquote>
+   <p><em>Have you ever met a dead man who decided to start breathing?</em></p>
+   </blockquote>
 
-        <p>The biblical order is: God regenerates → the person believes → the person repents. "He saved us, not because of righteous things we had done, but because of his mercy. He saved us through <a href="/question-titus3">the washing of rebirth and renewal by the Holy Spirit</a>" (Titus 3:5). Not by our decision. Not by our free will. By His mercy, through His Spirit, in His timing.</p>
+   <p>The biblical order is: God regenerates → the person believes → the person repents. "He saved us, not because of righteous things we had done, but because of his mercy. He saved us through <a href="/question-titus3">the washing of rebirth and renewal by the Holy Spirit</a>" (Titus 3:5). Not by our decision. Not by our free will. By His mercy, through His Spirit, in His timing.</p>
 
-        <p>This is monergism — God working alone in the decisive act. Not synergism — God and you cooperating. In regeneration, you are passive. God is the sole actor. This does not mean you are uninvolved in the life that follows. You believe with all your heart. You repent with genuine sorrow. But all of this <em>flows from</em> regeneration. All of this is made possible by a life you did not create.</p>
+   <p>This is monergism — God working alone in the decisive act. Not synergism — God and you cooperating. In regeneration, you are passive. God is the sole actor. This does not mean you are uninvolved in the life that follows. You believe with all your heart. You repent with genuine sorrow. But all of this <em>flows from</em> regeneration. All of this is made possible by a life you did not create.</p>
 
-        <p>Notice how your mind wants to insert a caveat right here — something like <em>"Yes, God does the primary work, but surely I cooperated at some level."</em> That caveat is not exegesis. It is the résumé of a soul that cannot bear to have accomplished nothing in its own rescue. You want a line item. Even one. Even a small one. <em>"Opened heart to God."</em> But the dead do not open anything. They are opened. The insistence on adding your name to the work order is the very thing Paul calls boasting — and the very thing <a href="/question-faithgift">Ephesians 2:8-9</a> was written to demolish.</p>
+   <p>Notice how your mind wants to insert a caveat right here — something like <em>"Yes, God does the primary work, but surely I cooperated at some level."</em> That caveat is not exegesis. It is the résumé of a soul that cannot bear to have accomplished nothing in its own rescue. You want a line item. Even one. Even a small one. <em>"Opened heart to God."</em> But the dead do not open anything. They are opened. The insistence on adding your name to the work order is the very thing Paul calls boasting — and the very thing <a href="/question-faithgift">Ephesians 2:8-9</a> was written to demolish.</p>
 
-        <h2>The Experience You Have Every Morning</h2>
+   <h2>The Experience You Have Every Morning</h2>
 
-        <p>There is something you do every day that is, functionally, a rehearsal of regeneration. It is so unremarkable you have never noticed it. You <em>wake up</em>.</p>
+   <p>There is something you do every day that is, functionally, a rehearsal of regeneration. It is so unremarkable you have never noticed it. You <em>wake up</em>.</p>
 
-        <p>Think about what that actually involves. You are not there when it happens. Consciousness does not report for duty because yesterday's you scheduled it. You are asleep. You are, in the literal phenomenological sense, absent. And then — without warning, without your cooperation, without any act of your will — you are present again. The room reassembles around you. Your name comes back. The knowledge of who you are and what today requires boots up from nowhere.</p>
+   <p>Think about what that actually involves. You are not there when it happens. Consciousness does not report for duty because yesterday's you scheduled it. You are asleep. You are, in the literal phenomenological sense, absent. And then — without warning, without your cooperation, without any act of your will — you are present again. The room reassembles around you. Your name comes back. The knowledge of who you are and what today requires boots up from nowhere.</p>
 
-        <p>The philosopher Thomas Nagel pressed this point against every reductive theory of mind: you cannot bootstrap the experience of being alive from inside. Something that was not there a moment ago is suddenly there, and the thing itself is what is needed to notice the thing itself. Waking is always given, never achieved. The one experience every human being has in common is the experience of being unable to author the very thing they need in order to experience anything.</p>
+   <p>The philosopher Thomas Nagel pressed this point against every reductive theory of mind: you cannot bootstrap the experience of being alive from inside. Something that was not there a moment ago is suddenly there, and the thing itself is what is needed to notice the thing itself. Waking is always given, never achieved. The one experience every human being has in common is the experience of being unable to author the very thing they need in order to experience anything.</p>
 
-        <p>Now map that onto the soul. You did not wake yourself up spiritually any more than you wake yourself up physically. You are not the alarm clock of your own conversion. The moment you <em>noticed</em> you were alive to God — that noticing was already the evidence the life had arrived. You were not the cause. You were the room.</p>
+   <p>Now map that onto the soul. You did not wake yourself up spiritually any more than you wake yourself up physically. You are not the alarm clock of your own conversion. The moment you <em>noticed</em> you were alive to God — that noticing was already the evidence the life had arrived. You were not the cause. You were the room.</p>
 
-        <h2>The Evidence of Lazarus and Saul</h2>
+   <h2>The Evidence of Lazarus and Saul</h2>
 
-        <p>Consider <a href="/analogy-lazarus-grave">Lazarus</a> in John 11. He was dead four days. Jesus called, "Lazarus, come out!" Did Lazarus choose to rise? Did he cooperate with the command? No. Jesus raised him. Life came to Lazarus through the sovereign word — and only then could Lazarus respond. The same is true in spiritual resurrection. Jesus speaks, and the dead hear His voice and live (<a href="/question-john6">John 5:25</a>).</p>
+   <p>Consider <a href="/analogy-lazarus-grave">Lazarus</a> in John 11. He was dead four days. Jesus called, "Lazarus, come out!" Did Lazarus choose to rise? Did he cooperate with the command? No. Jesus raised him. Life came to Lazarus through the sovereign word — and only then could Lazarus respond. The same is true in spiritual resurrection. Jesus speaks, and the dead hear His voice and live (<a href="/question-john6">John 5:25</a>).</p>
 
-        <p>Or consider Saul of Tarsus. He was not seeking Jesus — he was actively persecuting His church. On the Damascus Road, the risen Jesus stopped him in his tracks. Christ met him, opened him, gave him faith — and then Saul believed, repented, and was baptized. The initiative was Christ's. The power was Christ's. Saul was the recipient of sovereign grace.</p>
+   <p>Or consider Saul of Tarsus. He was not seeking Jesus — he was actively persecuting His church. On the Damascus Road, the risen Jesus stopped him in his tracks. Christ met him, opened him, gave him faith — and then Saul believed, repented, and was baptized. The initiative was Christ's. The power was Christ's. Saul was the recipient of sovereign grace.</p>
 
-        <h2>Why This Changes Everything</h2>
+   <h2>Why This Changes Everything</h2>
 
-        <p>If faith comes before regeneration, then salvation depends on you. Your faith is the condition. Your belief is what gets you saved. Your spiritual achievement is what changes your status before God. Your assurance can never be stronger than your current level of faith — which means the moment you doubt, the moment you waver, the moment the dark night comes, your assurance evaporates.</p>
+   <p>If faith comes before regeneration, then salvation depends on you. Your faith is the condition. Your belief is what gets you saved. Your spiritual achievement is what changes your status before God. Your assurance can never be stronger than your current level of faith — which means the moment you doubt, the moment you waver, the moment the dark night comes, your assurance evaporates.</p>
 
-        <p>But if regeneration comes before faith — if God makes you alive <em>before</em> you can believe — then salvation depends entirely on God. His action is primary. His regeneration gives you life. His work enables your response. Your salvation does not rest on the fragility of your feelings or the constancy of your faith. It rests on God's constancy. And God does not change.</p>
+   <p>But if regeneration comes before faith — if God makes you alive <em>before</em> you can believe — then salvation depends entirely on God. His action is primary. His regeneration gives you life. His work enables your response. Your salvation does not rest on the fragility of your feelings or the constancy of your faith. It rests on God's constancy. And God does not change.</p>
 
-        <p>This is why the truth of regeneration is not academic theology but <em>pastoral oxygen</em>. The person who says <em>"I chose God"</em> carries a terrifying burden: what if they un-choose? What if their faith fails? What if tomorrow morning they wake up and the feeling is gone? But the person who knows they were <a href="/question-chosen">chosen before the foundation of the world</a>, born again by the power of the Spirit, given a new heart they did not request — that person can rest. Because the God who began this work <a href="/devotional-never-gives-up">will finish it</a>.</p>
+   <p>This is why the truth of regeneration is not academic theology but <em>pastoral oxygen</em>. The person who says <em>"I chose God"</em> carries a terrifying burden: what if they un-choose? What if their faith fails? What if tomorrow morning they wake up and the feeling is gone? But the person who knows they were <a href="/question-chosen">chosen before the foundation of the world</a>, born again by the power of the Spirit, given a new heart they did not request — that person can rest. Because the God who began this work <a href="/devotional-never-gives-up">will finish it</a>.</p>
 
-        <h2>The Wind Has Already Arrived</h2>
+   <h2>The Wind Has Already Arrived</h2>
 
-        <p>If something in you recognizes this as true — if something in your chest says <em>yes</em> even while your mind is still arguing — that recognition is itself the evidence. Dead people do not recognize truth. Stone hearts do not say <em>yes</em>. The very fact that you can hear this means the wind has already blown. The birth has already happened. You did not attend it. But you woke up breathing.</p>
+   <p>If something in you recognizes this as true — if something in your chest says <em>yes</em> even while your mind is still arguing — that recognition is itself the evidence. Dead people do not recognize truth. Stone hearts do not say <em>yes</em>. The very fact that you can hear this means the wind has already blown. The birth has already happened. You did not attend it. But you woke up breathing.</p>
 
-        <p>"Continue to work out your salvation with fear and trembling, for it is God who works in you to will and to act in order to fulfill his good purpose" (Philippians 2:12-13). The willing is His. The acting is His. The good purpose is His. You are the one in whom He works — and that is the most secure place in the universe.</p>
+   <p>"Continue to work out your salvation with fear and trembling, for it is God who works in you to will and to act in order to fulfill his good purpose" (Philippians 2:12-13). The willing is His. The acting is His. The good purpose is His. You are the one in whom He works — and that is the most secure place in the universe.</p>
 
-        <p>Picture it this way. A child has just been born. The mother is exhausted, the father is weeping, and the infant — red-faced, furious, bewildered by light and air — has no idea what has just happened. The child did not choose this room, this family, this life. But the child is alive. Held. Named before arrival. Loved before the first breath.</p>
+   <p>Picture it this way. A child has just been born. The mother is exhausted, the father is weeping, and the infant — red-faced, furious, bewildered by light and air — has no idea what has just happened. The child did not choose this room, this family, this life. But the child is alive. Held. Named before arrival. Loved before the first breath.</p>
 
-        <blockquote>
-            <p><em>You woke up breathing in a world you did not make.</em></p>
-        </blockquote>
+   <blockquote>
+   <p><em>You woke up breathing in a world you did not make.</em></p>
+   </blockquote>
 
-        <p>That is you. You are not holding onto God. <a href="/devotional-chosen-before-you-were-broken">God is holding onto you</a>. The wind blew where it pleased, and it pleased to blow through you. You woke up in a world you did not make, held by arms you did not earn, named in a book you did not write. He does not let go of what He has <a href="/question-irresistible">called to life</a>.</p>
+   <p>That is you. You are not holding onto God. <a href="/devotional-chosen-before-you-were-broken">God is holding onto you</a>. The wind blew where it pleased, and it pleased to blow through you. You woke up in a world you did not make, held by arms you did not earn, named in a book you did not write. He does not let go of what He has <a href="/question-irresistible">called to life</a>.</p>
 
-        <p><strong>The birth is already behind you.</strong></p>
+   <p><strong>The birth is already behind you.</strong></p>
 
     
 <!-- RELATED-ARTICLES-START -->
@@ -291,90 +291,90 @@
     <h2 class="related-articles-heading">Keep Exploring</h2>
     <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
     <div class="related-articles-grid">
-      <a href="/systematic-providence" class="related-article-card">
-        <span class="related-article-cat">📚 Systematic Theology</span>
-        <span class="related-article-title">Providence: God&#39;s Sovereign Rule Over All Things</span>
-        <span class="related-article-desc">Providence is God&#39;s sovereign, purposeful, moment-by-moment governance of every event in the created order — from the rotation of galaxies…</span>
-      </a>
-      <a href="/systematic-common-grace" class="related-article-card">
-        <span class="related-article-cat">📚 Systematic Theology</span>
-        <span class="related-article-title">Common Grace — Why God Is Kind to People Who Hate Him</span>
-        <span class="related-article-desc">Read that slowly. The sun rises on the evil. The rain falls on the unrighteous. The God who is daily cursed by millions of people — the God…</span>
-      </a>
-      <a href="/question-whosoever" class="related-article-card">
-        <span class="related-article-cat">❓ Questions</span>
-        <span class="related-article-title">What About &quot;Whosoever Will&quot;?</span>
-        <span class="related-article-desc">&quot;Whoever believes&quot; (Greek: pas ho pisteuōn — &quot;all the believing ones&quot;) describes who is saved, not who can believe. John 3:16 promises…</span>
-      </a>
-      <a href="/history-spurgeon-downgrade" class="related-article-card">
-        <span class="related-article-cat">⏳ Church History</span>
-        <span class="related-article-title">When Spurgeon Stood Alone for Truth</span>
-        <span class="related-article-desc">The most beloved preacher in the world saw his denomination abandoning biblical truth — and said so publicly. It cost him everything.…</span>
-      </a>
-      <a href="/presuppositional-no-neutral-ground" class="related-article-card">
-        <span class="related-article-cat">📄 Essay</span>
-        <span class="related-article-title">The Myth of Neutrality — There Is No Chair to Judge God From (Romans 1:21-22)</span>
-        <span class="related-article-desc">The skeptic asks the Christian to prove God from neutral ground, as if the mind were an impartial judge. But neutrality is a myth. The…</span>
-      </a>
-      <a href="/demolition-romans11-32" class="related-article-card">
-        <span class="related-article-cat">💥 Demolition</span>
-        <span class="related-article-title">Romans 11:32 — &amp;ldquo;Mercy on Them All&amp;rdquo;</span>
-        <span class="related-article-desc">Arminian and universalist readers seize on &amp;ldquo;mercy on them all&amp;rdquo; as proof that God intends to save every individual. Read in its…</span>
-      </a>
-    </div>
+   <a href="/systematic-providence" class="related-article-card">
+   <span class="related-article-cat">Systematic Theology</span>
+   <span class="related-article-title">Providence: God&#39;s Sovereign Rule Over All Things</span>
+   <span class="related-article-desc">Providence is God&#39;s sovereign, purposeful, moment-by-moment governance of every event in the created order — from the rotation of galaxies…</span>
+</a>
+   <a href="/systematic-common-grace" class="related-article-card">
+   <span class="related-article-cat">Systematic Theology</span>
+   <span class="related-article-title">Common Grace — Why God Is Kind to People Who Hate Him</span>
+   <span class="related-article-desc">Read that slowly. The sun rises on the evil. The rain falls on the unrighteous. The God who is daily cursed by millions of people — the God…</span>
+</a>
+   <a href="/question-whosoever" class="related-article-card">
+   <span class="related-article-cat">Questions</span>
+   <span class="related-article-title">What About &quot;Whosoever Will&quot;?</span>
+   <span class="related-article-desc">&quot;Whoever believes&quot; (Greek: pas ho pisteuōn — &quot;all the believing ones&quot;) describes who is saved, not who can believe. John 3:16 promises…</span>
+</a>
+   <a href="/history-spurgeon-downgrade" class="related-article-card">
+   <span class="related-article-cat">Church History</span>
+   <span class="related-article-title">When Spurgeon Stood Alone for Truth</span>
+   <span class="related-article-desc">The most beloved preacher in the world saw his denomination abandoning biblical truth — and said so publicly. It cost him everything.…</span>
+</a>
+   <a href="/presuppositional-no-neutral-ground" class="related-article-card">
+   <span class="related-article-cat">Essay</span>
+   <span class="related-article-title">The Myth of Neutrality — There Is No Chair to Judge God From (Romans 1:21-22)</span>
+   <span class="related-article-desc">The skeptic asks the Christian to prove God from neutral ground, as if the mind were an impartial judge. But neutrality is a myth. The…</span>
+</a>
+   <a href="/demolition-romans11-32" class="related-article-card">
+   <span class="related-article-cat">Demolition</span>
+   <span class="related-article-title">Romans 11:32 — &amp;ldquo;Mercy on Them All&amp;rdquo;</span>
+   <span class="related-article-desc">Arminian and universalist readers seize on &amp;ldquo;mercy on them all&amp;rdquo; as proof that God intends to save every individual. Read in its…</span>
+</a>
+</div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
+   <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
+   <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+</div>
+</div>
 </section>
 <!-- RELATED-ARTICLES-END -->
 </article>
 
     <footer>
-        <div class="footer-container">
-            <div class="footer-nav">
-                <div class="footer-column">
-                    <h4>Truth</h4>
-                    <ul>
-                        <li><a href="/systematic-theology">Systematic Theology</a></li>
-                        <li><a href="/questions">Questions Answered</a></li>
-                        <li><a href="/demolition-hub">Demolition</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Encyclopedic</h4>
-                    <ul>
-                        <li><a href="/theologians">Theologians</a></li>
-                        <li><a href="/history-timeline">History</a></li>
-                        <li><a href="/comparisons-hub">Comparisons</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Encyclopedic</h4>
-                    <ul>
-                        <li><a href="/psychology-hub">Why We Resist</a></li>
-                        <li><a href="/philosophy-hub">Philosophy</a></li>
-                        <li><a href="/secular-evidence">Secular Evidence</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>Heart</h4>
-                    <ul>
-                        <li><a href="/devotionals">Devotionals</a></li>
-                        <li><a href="/stories">Stories &amp; Parables</a></li>
-                        <li><a href="/pastoral-hub">Pastoral</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-grace-warning">
-            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
-            Grace is not a license to sin. It is the power that frees us from sin's dominion.
-        </div>
-        <div class="footer-copyright">
-            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
-        </div>
+   <div class="footer-container">
+   <div class="footer-nav">
+   <div class="footer-column">
+   <h4>Truth</h4>
+   <ul>
+   <li><a href="/systematic-theology">Systematic Theology</a></li>
+   <li><a href="/questions">Questions Answered</a></li>
+   <li><a href="/demolition-hub">Demolition</a></li>
+   </ul>
+</div>
+   <div class="footer-column">
+   <h4>Encyclopedic</h4>
+   <ul>
+   <li><a href="/theologians">Theologians</a></li>
+   <li><a href="/history-timeline">History</a></li>
+   <li><a href="/comparisons-hub">Comparisons</a></li>
+   </ul>
+</div>
+   <div class="footer-column">
+   <h4>Encyclopedic</h4>
+   <ul>
+   <li><a href="/psychology-hub">Why We Resist</a></li>
+   <li><a href="/philosophy-hub">Philosophy</a></li>
+   <li><a href="/secular-evidence">Secular Evidence</a></li>
+   </ul>
+</div>
+   <div class="footer-column">
+   <h4>Heart</h4>
+   <ul>
+   <li><a href="/devotionals">Devotionals</a></li>
+   <li><a href="/stories">Stories &amp; Parables</a></li>
+   <li><a href="/pastoral-hub">Pastoral</a></li>
+   </ul>
+</div>
+</div>
+</div>
+   <div class="footer-grace-warning">
+  "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+  Grace is not a license to sin. It is the power that frees us from sin's dominion.
+</div>
+   <div class="footer-copyright">
+   <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+</div>
     </footer>
 
     <script src="/nav.js"></script>

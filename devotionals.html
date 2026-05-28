@@ -23,22 +23,22 @@
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://adoptedbygrace.net/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Devotionals on Sovereign Grace — For the Heart That Needs Rest"
-        }
-    ]
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  {
+  "@type": "ListItem",
+  "position": 1,
+  "name": "Home",
+  "item": "https://adoptedbygrace.net/"
+  },
+  {
+  "@type": "ListItem",
+  "position": 2,
+  "name": "Devotionals on Sovereign Grace — For the Heart That Needs Rest"
+  }
+  ]
 }
     </script>
 
@@ -70,39 +70,39 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://adoptedbygrace.net/#organization",
-      "name": "Adopted by Grace",
-      "url": "https://adoptedbygrace.net",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://adoptedbygrace.net/og-image.png",
-        "width": 1200,
-        "height": 630
-      },
-      "sameAs": [
-        "https://twitter.com/ForeknownOne",
-        "https://foreknownone.substack.com"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://adoptedbygrace.net/#website",
-      "url": "https://adoptedbygrace.net",
-      "name": "Adopted by Grace",
-      "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
-      "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      },
-      "inLanguage": "en-US"
-    }
+  {
+  "@type": "Organization",
+  "@id": "https://adoptedbygrace.net/#organization",
+  "name": "Adopted by Grace",
+  "url": "https://adoptedbygrace.net",
+  "logo": {
+  "@type": "ImageObject",
+  "url": "https://adoptedbygrace.net/og-image.png",
+  "width": 1200,
+  "height": 630
+  },
+  "sameAs": [
+  "https://twitter.com/ForeknownOne",
+  "https://foreknownone.substack.com"
+  ]
+  },
+  {
+  "@type": "WebSite",
+  "@id": "https://adoptedbygrace.net/#website",
+  "url": "https://adoptedbygrace.net",
+  "name": "Adopted by Grace",
+  "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
+  "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
+  "potentialAction": {
+  "@type": "SearchAction",
+  "target": {
+  "@type": "EntryPoint",
+  "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
+  },
+  "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "en-US"
+  }
   ]
 }
 </script>
@@ -139,64 +139,64 @@
   or .mega-menu. All styling lives in /global.css.
 
   DESKTOP (≥969px): .nav-right horizontal bar with links + Explore
-                     button that opens mega-menu dropdown
+  button that opens mega-menu dropdown
   MOBILE  (≤968px): Hamburger (left) + "Adopted by Grace" (centered)
-                     Hamburger opens full-screen overlay menu
+  Hamburger opens full-screen overlay menu
 
   Last updated: 2026-03-29
   ============================================================
 -->
     <nav role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <a href="/" class="nav-site-name">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-            <!-- Mobile search icon (right side of nav bar) -->
-            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            </button>
-            <ul class="nav-links">
-                <!-- Search bar at top of mobile menu -->
-                <li class="mobile-menu-search" style="list-style:none;">
-                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
-                </li>
-                <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
-                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
-                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
-                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
-                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
-                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
-                <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
-                <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
-                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
-            </ul>
+   <div class="nav-container">
+   <a href="/" class="nav-site-name">Adopted by Grace</a>
+   <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+   <span></span><span></span><span></span>
+   </button>
+   <!-- Mobile search icon (right side of nav bar) -->
+   <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+   <ul class="nav-links">
+   <!-- Search bar at top of mobile menu -->
+   <li class="mobile-menu-search" style="list-style:none;">
+   <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+</li>
+   <!-- Desktop-only nav links (hidden on mobile via .mobile-nav-link) -->
+   <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+   <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+   <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+   <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+   <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+   <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+   <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+   <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+   <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+   <li class="mobile-nav-link"><a href="/about">About</a></li>
+   <!-- Mobile accordion menu (entire mobile nav built dynamically by nav.js) -->
+   <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+   </ul>
 
-            <div class="nav-right">
-                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
-                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
-                <a href="/start-here" class="nav-top-link">Start Here</a>
-                <a href="/questions" class="nav-top-link">Questions</a>
-                <a href="/systematic-theology" class="nav-top-link">Theology</a>
-                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
-                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
-                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
-                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
-                <a href="/about" class="nav-top-link">About</a>
-                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
-                    <span class="mega-menu-toggle-label">Explore</span>
-                </button>
-                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                </button>
-            </div>
+   <div class="nav-right">
+   <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+   <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+   <a href="/start-here" class="nav-top-link">Start Here</a>
+   <a href="/questions" class="nav-top-link">Questions</a>
+   <a href="/systematic-theology" class="nav-top-link">Theology</a>
+   <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+   <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+   <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+   <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+   <a href="/about" class="nav-top-link">About</a>
+   <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+   <span class="mega-menu-toggle-label">Explore</span>
+   </button>
+   <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+</div>
 
-        </div>
+</div>
     </nav>
 
     <!-- Mega-menu dropdown (content built dynamically by nav.js) -->
@@ -204,476 +204,476 @@
 
     <!-- Search overlay -->
     <div class="search-overlay" id="searchOverlay">
-        <div class="search-overlay-inner">
-            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
-            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
-        </div>
-        <div class="search-results" id="searchResults"></div>
-    </div>
+   <div class="search-overlay-inner">
+   <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+   <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+</div>
+   <div class="search-results" id="searchResults"></div>
+</div>
 
     <main id="main-content">
-        <!-- Hero Section -->
-        <section class="hub-hero">
-            <h1>Devotionals</h1>
-            <p class="hub-subtitle">Meditations on sovereign grace — for the heart that longs to worship</p>
-            <div class="hub-stats">
-                <div class="hub-stat">31 <span>Devotionals</span></div>
-                <div class="hub-stat">1 <span>Collection</span></div>
-            </div>
-        </section>
+   <!-- Hero Section -->
+   <section class="hub-hero">
+   <h1>Devotionals</h1>
+   <p class="hub-subtitle">Meditations on sovereign grace — for the heart that longs to worship</p>
+   <div class="hub-stats">
+   <div class="hub-stat">31 <span>Devotionals</span></div>
+   <div class="hub-stat">1 <span>Collection</span></div>
+</div>
+   </section>
     <!-- Intro Section -->
-        <section class="hub-intro">
-            <p>The mind can grasp election as truth. The heart must taste it as <em>grace</em>. These devotionals are written not for the theologian's desk but for the soul's transformation — to move you from intellectual assent to doxological joy. Each meditation invites you deeper into the truth that you are <em>loved with an everlasting love, chosen before the foundations of the world, rescued not because you deserved it but because He delighted to make you His own</em>.</p>
-            <p>As you read, ask the Spirit to align your affections with truth. This is the work of devotion: that Christ becomes not just your truth but your delight.</p>
-        </section>
+   <section class="hub-intro">
+   <p>The mind can grasp election as truth. The heart must taste it as <em>grace</em>. These devotionals are written not for the theologian's desk but for the soul's transformation — to move you from intellectual assent to doxological joy. Each meditation invites you deeper into the truth that you are <em>loved with an everlasting love, chosen before the foundations of the world, rescued not because you deserved it but because He delighted to make you His own</em>.</p>
+   <p>As you read, ask the Spirit to align your affections with truth. This is the work of devotion: that Christ becomes not just your truth but your delight.</p>
+   </section>
 
-        <!-- Devotionals Grid -->
-        <section class="hub-container">
-            <div class="hub-grid">
-                <!-- Card 1 -->
-                <a href="/devotional-glory-of-divine-choice" class="hub-card">
-                    <div class="card-number">01</div>
-                    <h2 class="card-title">The Glory of Divine Choice</h2>
-                    <p class="card-description">Election is not arbitrary cruelty but the apex of divine wisdom and goodness. Discover why your salvation reveals God's glory more brilliantly than any alternative.</p>
-                    <div class="card-scripture">Ephesians 1:3–6</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Devotionals Grid -->
+   <section class="hub-container">
+   <div class="hub-grid">
+   <!-- Card 1 -->
+   <a href="/devotional-glory-of-divine-choice" class="hub-card">
+   <div class="card-number">01</div>
+   <h2 class="card-title">The Glory of Divine Choice</h2>
+   <p class="card-description">Election is not arbitrary cruelty but the apex of divine wisdom and goodness. Discover why your salvation reveals God's glory more brilliantly than any alternative.</p>
+   <div class="card-scripture">Ephesians 1:3–6</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <!-- Card 2 -->
-                <a href="/devotional-my-chains-fell-away" class="hub-card">
-                    <div class="card-number">02</div>
-                    <h2 class="card-title">The Dead Who Live</h2>
-                    <p class="card-description">Regeneration is not self-improvement but resurrection. Only a dead man raised can understand what grace has made you—alive in Christ.</p>
-                    <div class="card-scripture">Ephesians 2:1–5</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Card 2 -->
+   <a href="/devotional-my-chains-fell-away" class="hub-card">
+   <div class="card-number">02</div>
+   <h2 class="card-title">The Dead Who Live</h2>
+   <p class="card-description">Regeneration is not self-improvement but resurrection. Only a dead man raised can understand what grace has made you—alive in Christ.</p>
+   <div class="card-scripture">Ephesians 2:1–5</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <!-- Card 3 -->
-                <a href="/devotional-love-letter-before-time" class="hub-card">
-                    <div class="card-number">03</div>
-                    <h2 class="card-title">Love Before the World Was Made</h2>
-                    <p class="card-description">Your election was not an afterthought when God saw your faith. He loved you in His Son before time itself began—a love older than creation.</p>
-                    <div class="card-scripture">Ephesians 1:4</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Card 3 -->
+   <a href="/devotional-love-letter-before-time" class="hub-card">
+   <div class="card-number">03</div>
+   <h2 class="card-title">Love Before the World Was Made</h2>
+   <p class="card-description">Your election was not an afterthought when God saw your faith. He loved you in His Son before time itself began—a love older than creation.</p>
+   <div class="card-scripture">Ephesians 1:4</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <!-- Card 4 -->
-                <!-- Card 5 -->
-                <a href="/devotional-forever-loved" class="hub-card">
-                    <div class="card-number">05</div>
-                    <h2 class="card-title">Forever Loved</h2>
-                    <p class="card-description">Nothing can separate you from the love of Christ—not death, not demons, not your own desperate fears. You are held in an unbreakable grip.</p>
-                    <div class="card-scripture">Romans 8:38–39</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Card 4 -->
+   <!-- Card 5 -->
+   <a href="/devotional-forever-loved" class="hub-card">
+   <div class="card-number">05</div>
+   <h2 class="card-title">Forever Loved</h2>
+   <p class="card-description">Nothing can separate you from the love of Christ—not death, not demons, not your own desperate fears. You are held in an unbreakable grip.</p>
+   <div class="card-scripture">Romans 8:38–39</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <!-- Card 6 -->
-                <a href="/devotional-adoption-papers" class="hub-card">
-                    <div class="card-number">06</div>
-                    <h2 class="card-title">Adoption Papers</h2>
-                    <p class="card-description">Before you drew breath, God wrote your name in the register of His household. You are not a servant but a beloved child, chosen and sealed forever.</p>
-                    <div class="card-scripture">Ephesians 1:5</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Card 6 -->
+   <a href="/devotional-adoption-papers" class="hub-card">
+   <div class="card-number">06</div>
+   <h2 class="card-title">Adoption Papers</h2>
+   <p class="card-description">Before you drew breath, God wrote your name in the register of His household. You are not a servant but a beloved child, chosen and sealed forever.</p>
+   <div class="card-scripture">Ephesians 1:5</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <!-- Card 7 -->
-                <a href="/devotional-rescued-without-a-say" class="hub-card">
-                    <div class="card-number">07</div>
-                    <h2 class="card-title">Rescued Without a Say</h2>
-                    <p class="card-description">You did not choose Him; He chose you. This overthrows human pride and anchors salvation in the sovereign mercy of God alone.</p>
-                    <div class="card-scripture">John 1:13</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Card 7 -->
+   <a href="/devotional-rescued-without-a-say" class="hub-card">
+   <div class="card-number">07</div>
+   <h2 class="card-title">Rescued Without a Say</h2>
+   <p class="card-description">You did not choose Him; He chose you. This overthrows human pride and anchors salvation in the sovereign mercy of God alone.</p>
+   <div class="card-scripture">John 1:13</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <!-- Card 8 -->
-                <a href="/devotional-not-my-will-but-joy" class="hub-card">
-                    <div class="card-number">08</div>
-                    <h2 class="card-title">Not My Will, But Joy</h2>
-                    <p class="card-description">God's will may not be yours, but when you surrender to it, you find not resignation but rejoicing—the deepest satisfaction a soul can know.</p>
-                    <div class="card-scripture">Psalm 115:3</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Card 8 -->
+   <a href="/devotional-not-my-will-but-joy" class="hub-card">
+   <div class="card-number">08</div>
+   <h2 class="card-title">Not My Will, But Joy</h2>
+   <p class="card-description">God's will may not be yours, but when you surrender to it, you find not resignation but rejoicing—the deepest satisfaction a soul can know.</p>
+   <div class="card-scripture">Psalm 115:3</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <!-- Card 11 -->
-                <a href="/devotional-in-christ" class="hub-card">
-                    <div class="card-number">11</div>
-                    <h2 class="card-title">In Christ: The Two Words That Change Everything</h2>
-                    <p class="card-description">Every spiritual blessing lives in the same address: in Him. Union with Christ is not one truth among many — it is the foundation beneath them all.</p>
-                    <div class="card-scripture">Ephesians 1:3–14</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Card 11 -->
+   <a href="/devotional-in-christ" class="hub-card">
+   <div class="card-number">11</div>
+   <h2 class="card-title">In Christ: The Two Words That Change Everything</h2>
+   <p class="card-description">Every spiritual blessing lives in the same address: in Him. Union with Christ is not one truth among many — it is the foundation beneath them all.</p>
+   <div class="card-scripture">Ephesians 1:3–14</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <!-- Card 12 -->
-                <a href="/devotional-cold-church" class="hub-card">
-                    <div class="card-number">12</div>
-                    <h2 class="card-title">A Letter to the Cold Church</h2>
-                    <p class="card-description">A warm, pastoral devotional on spiritual lukewarmness and how sovereign grace melts cold hearts. Revelation calls us back to burning love for Christ.</p>
-                    <div class="card-scripture">Revelation 3:14–22</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Card 12 -->
+   <a href="/devotional-cold-church" class="hub-card">
+   <div class="card-number">12</div>
+   <h2 class="card-title">A Letter to the Cold Church</h2>
+   <p class="card-description">A warm, pastoral devotional on spiritual lukewarmness and how sovereign grace melts cold hearts. Revelation calls us back to burning love for Christ.</p>
+   <div class="card-scripture">Revelation 3:14–22</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <!-- Card 13 -->
-                <a href="/devotional-never-gives-up" class="hub-card">
-                    <div class="card-number">13</div>
-                    <h2 class="card-title">He Will Never Give Up On You</h2>
-                    <p class="card-description">Experience the soul-quenching truth that God's love perseveres through every failure, every doubt, every fall. His relentless grace will never abandon you.</p>
-                    <div class="card-scripture">Hebrews 13:5–6</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Card 13 -->
+   <a href="/devotional-never-gives-up" class="hub-card">
+   <div class="card-number">13</div>
+   <h2 class="card-title">He Will Never Give Up On You</h2>
+   <p class="card-description">Experience the soul-quenching truth that God's love perseveres through every failure, every doubt, every fall. His relentless grace will never abandon you.</p>
+   <div class="card-scripture">Hebrews 13:5–6</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <!-- Card 14 -->
-                <a href="/devotional-valley-shadow" class="hub-card">
-                    <div class="card-number">14</div>
-                    <h2 class="card-title">When God Says No</h2>
-                    <p class="card-description">In prayer's refusal lies divine purpose. Unanswered prayer is not indifference but love—God's "no" is more gracious than the "yes" we desperately wanted.</p>
-                    <div class="card-scripture">2 Corinthians 12:7–10</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Card 14 -->
+   <a href="/devotional-valley-shadow" class="hub-card">
+   <div class="card-number">14</div>
+   <h2 class="card-title">When God Says No</h2>
+   <p class="card-description">In prayer's refusal lies divine purpose. Unanswered prayer is not indifference but love—God's "no" is more gracious than the "yes" we desperately wanted.</p>
+   <div class="card-scripture">2 Corinthians 12:7–10</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <!-- Additional Orphaned Devotionals -->
-                <a href="/devotional-chosen-before-you-were-broken" class="hub-card">
-                    <div class="card-number">17</div>
-                    <h2 class="card-title">Chosen Before You Were Broken</h2>
-                    <p class="card-description">You were chosen before the creation of the world—before any sin, before any shame, before any breaking. A devotional for the soul drowning in self-condemnation.</p>
-                    <div class="card-scripture">Ephesians 1:3-4</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <!-- Additional Orphaned Devotionals -->
+   <a href="/devotional-chosen-before-you-were-broken" class="hub-card">
+   <div class="card-number">17</div>
+   <h2 class="card-title">Chosen Before You Were Broken</h2>
+   <p class="card-description">You were chosen before the creation of the world—before any sin, before any shame, before any breaking. A devotional for the soul drowning in self-condemnation.</p>
+   <div class="card-scripture">Ephesians 1:3-4</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-found-before-you-were-born" class="hub-card">
-                    <div class="card-number">18</div>
-                    <h2 class="card-title">Found Before You Were Born</h2>
-                    <p class="card-description">A keepsake for the soul who has run out of arguments. You did not find Him today — you were found before the creation of the world. Save this. Return to it the next time the dark comes back.</p>
-                    <div class="card-scripture">Ephesians 1:4-5</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-found-before-you-were-born" class="hub-card">
+   <div class="card-number">18</div>
+   <h2 class="card-title">Found Before You Were Born</h2>
+   <p class="card-description">A keepsake for the soul who has run out of arguments. You did not find Him today — you were found before the creation of the world. Save this. Return to it the next time the dark comes back.</p>
+   <div class="card-scripture">Ephesians 1:4-5</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-the-hands-that-hold-you" class="hub-card">
-                    <div class="card-number">21</div>
-                    <h2 class="card-title">The Hands That Hold You</h2>
-                    <p class="card-description">Your faith is not held up by your grip. It is held in the hands of God—the same hands that foreknew you, predestined you, called you, and will never let you fall.</p>
-                    <div class="card-scripture">Romans 8:28-30</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-the-hands-that-hold-you" class="hub-card">
+   <div class="card-number">21</div>
+   <h2 class="card-title">The Hands That Hold You</h2>
+   <p class="card-description">Your faith is not held up by your grip. It is held in the hands of God—the same hands that foreknew you, predestined you, called you, and will never let you fall.</p>
+   <div class="card-scripture">Romans 8:28-30</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-the-prayer-you-didnt-pray" class="hub-card">
-                    <div class="card-number">22</div>
-                    <h2 class="card-title">The Prayer You Didn't Pray</h2>
-                    <p class="card-description">You think you reached out to God. But what if God reached out first — and the prayer was the proof? A devotional on the grace hidden inside your cry for help.</p>
-                    <div class="card-scripture">Romans 8:26-27</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-the-prayer-you-didnt-pray" class="hub-card">
+   <div class="card-number">22</div>
+   <h2 class="card-title">The Prayer You Didn't Pray</h2>
+   <p class="card-description">You think you reached out to God. But what if God reached out first — and the prayer was the proof? A devotional on the grace hidden inside your cry for help.</p>
+   <div class="card-scripture">Romans 8:26-27</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-the-god-who-wastes-nothing" class="hub-card">
-                    <div class="card-number">23</div>
-                    <h2 class="card-title">The God Who Wastes Nothing</h2>
-                    <p class="card-description">The pain you carry was not an accident. The God who numbered your hairs numbered your tears. A devotional on sovereignty, suffering, and the fierce tenderness of a God who wastes nothing.</p>
-                    <div class="card-scripture">Romans 8:28</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-the-god-who-wastes-nothing" class="hub-card">
+   <div class="card-number">23</div>
+   <h2 class="card-title">The God Who Wastes Nothing</h2>
+   <p class="card-description">The pain you carry was not an accident. The God who numbered your hairs numbered your tears. A devotional on sovereignty, suffering, and the fierce tenderness of a God who wastes nothing.</p>
+   <div class="card-scripture">Romans 8:28</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-i-dont-think-im-saved" class="hub-card">
-                    <div class="card-number">24</div>
-                    <h2 class="card-title">I Don't Think I'm Saved</h2>
-                    <p class="card-description">You are lying awake, terrified. The fear that you are not really saved is crushing you. But that terror itself may be the strongest evidence you are. A devotional for the soul who can no longer carry his own assurance.</p>
-                    <div class="card-scripture">PHILIPPIANS 1:6</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/devotional-i-cant-feel-god" class="hub-card">
-                    <div class="card-number">25</div>
-                    <h2 class="card-title">I Can't Feel God Anymore</h2>
-                    <p class="card-description">You pray and hear nothing. You read and feel nothing. The silence isn't abandonment — it might be the safest place you've ever been. A crisis response for the spiritually numb.</p>
-                    <div class="card-scripture">PSALM 13:1</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/devotional-the-secretly-ashamed" class="hub-card">
-                    <div class="card-number">26</div>
-                    <h2 class="card-title">For the Secretly Ashamed</h2>
-                    <p class="card-description">The thing you've never told anyone? God knew it before He chose you. Election means there are no surprises. No take-backs. No fine print. A devotional for the one in hiding.</p>
-                    <div class="card-scripture">EPHESIANS 1:4</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-            
-                <a href="/devotional-dead-who-live" class="hub-card">
-                    <div class="card-number">19</div>
-                    <h3 class="card-title" id="the-dead-who-live">The Dead Who Live</h3>
-                    <p class="card-description">Ephesians 2:1 says you were dead — not struggling, not searching, dead. This devotional explores what spiritual death really means and why resurrection, not self-improvement, is the only hope.</p>
-                    <div class="card-scripture">EPHESIANS 2:1–3</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/devotional-good-i-cannot-do" class="hub-card">
-                    <div class="card-number">20</div>
-                    <h3 class="card-title" id="the-good-that-i-cannot-do">The Good That I Cannot Do</h3>
-                    <p class="card-description">You have tried to be good. You know what happened. Paul's confession in Romans 7 is not about an occasional slip — it is the war you wake up to every morning, the war that will not end by trying harder. A devotional on why the failure you hate is the doorway to the grace you need.</p>
-                    <div class="card-scripture">ROMANS 7:18–19</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/devotional-love-before-the-world" class="hub-card">
-                    <div class="card-number">21</div>
-                    <h3 class="card-title" id="love-before-the-world-was-made">Love Before the World Was Made</h3>
-                    <p class="card-description">Before the mountains rose, before a single star burned, before there was time to hold any of it — He loved you. Your name was spoken into eternity past by the voice that would later call you out of the grave. A meditation on the oldest love story in existence: yours.</p>
-                    <div class="card-scripture">EPHESIANS 1:4–6</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/devotional-weakness-of-gods-strength" class="hub-card">
-                    <div class="card-number">22</div>
-                    <h3 class="card-title" id="the-weakness-of-gods-strength">The Weakness of God's Strength</h3>
-                    <p class="card-description">The cross looked like defeat. Three days of silence looked like the end. God's strength almost always arrives dressed as weakness — and by the time you recognize it, the stone has already been rolled away. A devotional for the morning that feels like Saturday.</p>
-                    <div class="card-scripture">ROMANS 8:28</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/devotional-when-god-says-no" class="hub-card">
-                    <div class="card-number">23</div>
-                    <h3 class="card-title" id="when-god-says-no">When God Says No</h3>
-                    <p class="card-description">Sometimes God says no. And His refusal is more loving than our yes would have been. A devotional meditation on unanswered prayer, trust, and the sovereignty of God.</p>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/hymn-amazing-grace" class="hub-card">
-                    <div class="card-number">24</div>
-                    <h3 class="card-title" id="amazing-grace-the-hymn-that-proves-what-you-already-believe">Amazing Grace: The Hymn That Proves What You Already Believe</h3>
-                    <p class="card-description">You've sung it a thousand times. "I once was lost, but now am found." Not "I once was lost, but now I've found Him." The hymn every Arminian sings is a confession of Reformed truth — you just never noticed.</p>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-            
-                <a href="/devotional-joy-of-election" class="hub-card">
-                    <div class="card-number">25</div>
-                    <h3 class="card-title" id="the-joy-of-election">The Joy of Election</h3>
-                    <p class="card-description">For years the truth of election terrified me. Then one day the gravity settled and I saw what I had missed — there is no greater joy in the universe than being chosen by God.</p>
-                    <div class="card-scripture">ROMANS 8:38-39</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-i-dont-think-im-saved" class="hub-card">
+   <div class="card-number">24</div>
+   <h2 class="card-title">I Don't Think I'm Saved</h2>
+   <p class="card-description">You are lying awake, terrified. The fear that you are not really saved is crushing you. But that terror itself may be the strongest evidence you are. A devotional for the soul who can no longer carry his own assurance.</p>
+   <div class="card-scripture">PHILIPPIANS 1:6</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   <a href="/devotional-i-cant-feel-god" class="hub-card">
+   <div class="card-number">25</div>
+   <h2 class="card-title">I Can't Feel God Anymore</h2>
+   <p class="card-description">You pray and hear nothing. You read and feel nothing. The silence isn't abandonment — it might be the safest place you've ever been. A crisis response for the spiritually numb.</p>
+   <div class="card-scripture">PSALM 13:1</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   <a href="/devotional-the-secretly-ashamed" class="hub-card">
+   <div class="card-number">26</div>
+   <h2 class="card-title">For the Secretly Ashamed</h2>
+   <p class="card-description">The thing you've never told anyone? God knew it before He chose you. Election means there are no surprises. No take-backs. No fine print. A devotional for the one in hiding.</p>
+   <div class="card-scripture">EPHESIANS 1:4</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   
+   <a href="/devotional-dead-who-live" class="hub-card">
+   <div class="card-number">19</div>
+   <h3 class="card-title" id="the-dead-who-live">The Dead Who Live</h3>
+   <p class="card-description">Ephesians 2:1 says you were dead — not struggling, not searching, dead. This devotional explores what spiritual death really means and why resurrection, not self-improvement, is the only hope.</p>
+   <div class="card-scripture">EPHESIANS 2:1–3</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   <a href="/devotional-good-i-cannot-do" class="hub-card">
+   <div class="card-number">20</div>
+   <h3 class="card-title" id="the-good-that-i-cannot-do">The Good That I Cannot Do</h3>
+   <p class="card-description">You have tried to be good. You know what happened. Paul's confession in Romans 7 is not about an occasional slip — it is the war you wake up to every morning, the war that will not end by trying harder. A devotional on why the failure you hate is the doorway to the grace you need.</p>
+   <div class="card-scripture">ROMANS 7:18–19</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   <a href="/devotional-love-before-the-world" class="hub-card">
+   <div class="card-number">21</div>
+   <h3 class="card-title" id="love-before-the-world-was-made">Love Before the World Was Made</h3>
+   <p class="card-description">Before the mountains rose, before a single star burned, before there was time to hold any of it — He loved you. Your name was spoken into eternity past by the voice that would later call you out of the grave. A meditation on the oldest love story in existence: yours.</p>
+   <div class="card-scripture">EPHESIANS 1:4–6</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   <a href="/devotional-weakness-of-gods-strength" class="hub-card">
+   <div class="card-number">22</div>
+   <h3 class="card-title" id="the-weakness-of-gods-strength">The Weakness of God's Strength</h3>
+   <p class="card-description">The cross looked like defeat. Three days of silence looked like the end. God's strength almost always arrives dressed as weakness — and by the time you recognize it, the stone has already been rolled away. A devotional for the morning that feels like Saturday.</p>
+   <div class="card-scripture">ROMANS 8:28</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   <a href="/devotional-when-god-says-no" class="hub-card">
+   <div class="card-number">23</div>
+   <h3 class="card-title" id="when-god-says-no">When God Says No</h3>
+   <p class="card-description">Sometimes God says no. And His refusal is more loving than our yes would have been. A devotional meditation on unanswered prayer, trust, and the sovereignty of God.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   <a href="/hymn-amazing-grace" class="hub-card">
+   <div class="card-number">24</div>
+   <h3 class="card-title" id="amazing-grace-the-hymn-that-proves-what-you-already-believe">Amazing Grace: The Hymn That Proves What You Already Believe</h3>
+   <p class="card-description">You've sung it a thousand times. "I once was lost, but now am found." Not "I once was lost, but now I've found Him." The hymn every Arminian sings is a confession of Reformed truth — you just never noticed.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   
+   <a href="/devotional-joy-of-election" class="hub-card">
+   <div class="card-number">25</div>
+   <h3 class="card-title" id="the-joy-of-election">The Joy of Election</h3>
+   <p class="card-description">For years the truth of election terrified me. Then one day the gravity settled and I saw what I had missed — there is no greater joy in the universe than being chosen by God.</p>
+   <div class="card-scripture">ROMANS 8:38-39</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-the-ground-disappeared" class="hub-card">
-                    <div class="card-number">26</div>
-                    <h3 class="card-title">The Ground Disappeared</h3>
-                    <p class="card-description">What happens the moment you realize you did not choose God — He chose you. The terror and the joy of being found out of your own hands.</p>
-                    <div class="card-scripture">EPHESIANS 1:4-5</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-the-ground-disappeared" class="hub-card">
+   <div class="card-number">26</div>
+   <h3 class="card-title">The Ground Disappeared</h3>
+   <p class="card-description">What happens the moment you realize you did not choose God — He chose you. The terror and the joy of being found out of your own hands.</p>
+   <div class="card-scripture">EPHESIANS 1:4-5</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-the-freedom-of-not-choosing" class="hub-card">
-                    <div class="card-number">27</div>
-                    <h3 class="card-title">The Freedom of Not Choosing</h3>
-                    <p class="card-description">The exhausting burden of needing to be the hero of your own salvation story — and the rest that comes when you discover you never were.</p>
-                    <div class="card-scripture">MATTHEW 11:28</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-the-freedom-of-not-choosing" class="hub-card">
+   <div class="card-number">27</div>
+   <h3 class="card-title">The Freedom of Not Choosing</h3>
+   <p class="card-description">The exhausting burden of needing to be the hero of your own salvation story — and the rest that comes when you discover you never were.</p>
+   <div class="card-scripture">MATTHEW 11:28</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-when-pride-dies" class="hub-card">
-                    <div class="card-number">28</div>
-                    <h3 class="card-title">When Pride Dies</h3>
-                    <p class="card-description">The kind of death that is not a loss. The destruction of the small god in the mirror so the real God can finally be seen.</p>
-                    <div class="card-scripture">JAMES 4:6</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-when-pride-dies" class="hub-card">
+   <div class="card-number">28</div>
+   <h3 class="card-title">When Pride Dies</h3>
+   <p class="card-description">The kind of death that is not a loss. The destruction of the small god in the mirror so the real God can finally be seen.</p>
+   <div class="card-scripture">JAMES 4:6</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-the-kindest-shock" class="hub-card">
-                    <div class="card-number">29</div>
-                    <h3 class="card-title">The Kindest Shock</h3>
-                    <p class="card-description">The severe mercy of having your self-salvation dismantled. The kindness that feels like losing everything until you see what it was saving you from.</p>
-                    <div class="card-scripture">HEBREWS 12:10-11</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-the-kindest-shock" class="hub-card">
+   <div class="card-number">29</div>
+   <h3 class="card-title">The Kindest Shock</h3>
+   <p class="card-description">The severe mercy of having your self-salvation dismantled. The kindness that feels like losing everything until you see what it was saving you from.</p>
+   <div class="card-scripture">HEBREWS 12:10-11</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-drawn-not-dragged" class="hub-card">
-                    <div class="card-number">30</div>
-                    <h3 class="card-title">Drawn, Not Dragged</h3>
-                    <p class="card-description">The word Jesus uses in John 6:44 is the same word for hauling in a net heavy with fish. And yet every fish He draws comes willingly. The beautiful paradox of irresistible grace.</p>
-                    <div class="card-scripture">JOHN 6:44</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-drawn-not-dragged" class="hub-card">
+   <div class="card-number">30</div>
+   <h3 class="card-title">Drawn, Not Dragged</h3>
+   <p class="card-description">The word Jesus uses in John 6:44 is the same word for hauling in a net heavy with fish. And yet every fish He draws comes willingly. The beautiful paradox of irresistible grace.</p>
+   <div class="card-scripture">JOHN 6:44</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-the-first-prayer-after-surrender" class="hub-card">
-                    <div class="card-number">31</div>
-                    <h3 class="card-title">The First Prayer After Surrender</h3>
-                    <p class="card-description">It will not be eloquent. It will not be long. It will not even have the right theology. But it will be the first prayer that is actually yours — because you are finally His.</p>
-                    <div class="card-scripture">LUKE 18:13</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-the-first-prayer-after-surrender" class="hub-card">
+   <div class="card-number">31</div>
+   <h3 class="card-title">The First Prayer After Surrender</h3>
+   <p class="card-description">It will not be eloquent. It will not be long. It will not even have the right theology. But it will be the first prayer that is actually yours — because you are finally His.</p>
+   <div class="card-scripture">LUKE 18:13</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-the-shepherd-came-looking" class="hub-card">
-                    <div class="card-number">32</div>
-                    <h3 class="card-title">The Shepherd Came Looking</h3>
-                    <p class="card-description">The sheep did not wander toward the shepherd. The shepherd went out to find the sheep. Every conversion, every return, every healing — always Him coming first.</p>
-                    <div class="card-scripture">LUKE 15:4-7</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-the-shepherd-came-looking" class="hub-card">
+   <div class="card-number">32</div>
+   <h3 class="card-title">The Shepherd Came Looking</h3>
+   <p class="card-description">The sheep did not wander toward the shepherd. The shepherd went out to find the sheep. Every conversion, every return, every healing — always Him coming first.</p>
+   <div class="card-scripture">LUKE 15:4-7</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-you-were-wanted-before-you-were" class="hub-card">
-                    <div class="card-number">33</div>
-                    <h3 class="card-title">You Were Wanted Before You Were</h3>
-                    <p class="card-description">Before the foundation of the world, before the first star was kindled, He chose you by name. Every breath you have ever taken was borrowed from a love older than time.</p>
-                    <div class="card-scripture">EPHESIANS 1:4</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-you-were-wanted-before-you-were" class="hub-card">
+   <div class="card-number">33</div>
+   <h3 class="card-title">You Were Wanted Before You Were</h3>
+   <p class="card-description">Before the foundation of the world, before the first star was kindled, He chose you by name. Every breath you have ever taken was borrowed from a love older than time.</p>
+   <div class="card-scripture">EPHESIANS 1:4</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-the-weight-lifted" class="hub-card">
-                    <div class="card-number">34</div>
-                    <h3 class="card-title">The Weight Lifted</h3>
-                    <p class="card-description">You thought surrender would crush you. Instead it set you down. The pack you had been carrying since you were old enough to feel guilt has quietly been cut loose.</p>
-                    <div class="card-scripture">MATTHEW 11:28-30</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-the-weight-lifted" class="hub-card">
+   <div class="card-number">34</div>
+   <h3 class="card-title">The Weight Lifted</h3>
+   <p class="card-description">You thought surrender would crush you. Instead it set you down. The pack you had been carrying since you were old enough to feel guilt has quietly been cut loose.</p>
+   <div class="card-scripture">MATTHEW 11:28-30</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-the-morning-you-wake-up-new" class="hub-card">
-                    <div class="card-number">35</div>
-                    <h3 class="card-title">The Morning You Wake Up New</h3>
-                    <p class="card-description">There will be a morning — perhaps ordinary, perhaps already past — when you wake and realize the thing you had been fighting for years is no longer in the room. Not because you won. Because He did.</p>
-                    <div class="card-scripture">2 CORINTHIANS 5:17</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-the-morning-you-wake-up-new" class="hub-card">
+   <div class="card-number">35</div>
+   <h3 class="card-title">The Morning You Wake Up New</h3>
+   <p class="card-description">There will be a morning — perhaps ordinary, perhaps already past — when you wake and realize the thing you had been fighting for years is no longer in the room. Not because you won. Because He did.</p>
+   <div class="card-scripture">2 CORINTHIANS 5:17</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-your-name-in-the-book" class="hub-card">
-                    <div class="card-number">36</div>
-                    <h3 class="card-title">Your Name in the Book</h3>
-                    <p class="card-description">The Book of Life was written before a single star was kindled — and your name is in it not because of anything you have done but because of Him whose love is older than time.</p>
-                    <div class="card-scripture">REVELATION 13:8</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-your-name-in-the-book" class="hub-card">
+   <div class="card-number">36</div>
+   <h3 class="card-title">Your Name in the Book</h3>
+   <p class="card-description">The Book of Life was written before a single star was kindled — and your name is in it not because of anything you have done but because of Him whose love is older than time.</p>
+   <div class="card-scripture">REVELATION 13:8</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-the-quiet-after-the-storm" class="hub-card">
-                    <div class="card-number">37</div>
-                    <h3 class="card-title">The Quiet After the Storm</h3>
-                    <p class="card-description">The war you were fighting to earn His approval is over. You did not win it. He ended it. And now there is a quiet in your chest that feels strange because it has been so long since you felt it.</p>
-                    <div class="card-scripture">PSALM 46:10</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-the-quiet-after-the-storm" class="hub-card">
+   <div class="card-number">37</div>
+   <h3 class="card-title">The Quiet After the Storm</h3>
+   <p class="card-description">The war you were fighting to earn His approval is over. You did not win it. He ended it. And now there is a quiet in your chest that feels strange because it has been so long since you felt it.</p>
+   <div class="card-scripture">PSALM 46:10</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-held-without-asking" class="hub-card">
-                    <div class="card-number">38</div>
-                    <h3 class="card-title">Held Without Asking</h3>
-                    <p class="card-description">You did not ask to be saved. You did not know enough to ask. The hands that held you held you before you could speak, before you could think, before you could want.</p>
-                    <div class="card-scripture">ROMANS 5:8</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-held-without-asking" class="hub-card">
+   <div class="card-number">38</div>
+   <h3 class="card-title">Held Without Asking</h3>
+   <p class="card-description">You did not ask to be saved. You did not know enough to ask. The hands that held you held you before you could speak, before you could think, before you could want.</p>
+   <div class="card-scripture">ROMANS 5:8</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-i-was-lazarus" class="hub-card">
-                    <div class="card-number">39</div>
-                    <h3 class="card-title">I Was Lazarus</h3>
-                    <p class="card-description">Four days in the tomb. Wrapped. Sealed. Stinking. And the voice from outside called my name. I did not help Him call me. I was dead. The shout did everything.</p>
-                    <div class="card-scripture">JOHN 11:43-44</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-i-was-lazarus" class="hub-card">
+   <div class="card-number">39</div>
+   <h3 class="card-title">I Was Lazarus</h3>
+   <p class="card-description">Four days in the tomb. Wrapped. Sealed. Stinking. And the voice from outside called my name. I did not help Him call me. I was dead. The shout did everything.</p>
+   <div class="card-scripture">JOHN 11:43-44</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-you-are-not-the-hero" class="hub-card">
-                    <div class="card-number">40</div>
-                    <h3 class="card-title">You Are Not the Hero</h3>
-                    <p class="card-description">The greatest relief you will ever know is discovering you are not the protagonist of your salvation story. You are the rescued. And the rescue was never in doubt.</p>
-                    <div class="card-scripture">1 CORINTHIANS 1:30-31</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-you-are-not-the-hero" class="hub-card">
+   <div class="card-number">40</div>
+   <h3 class="card-title">You Are Not the Hero</h3>
+   <p class="card-description">The greatest relief you will ever know is discovering you are not the protagonist of your salvation story. You are the rescued. And the rescue was never in doubt.</p>
+   <div class="card-scripture">1 CORINTHIANS 1:30-31</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/devotional-you-cannot-undo-being-chosen" class="hub-card">
-                    <div class="card-number">41</div>
-                    <h3 class="card-title">You Cannot Undo Being Chosen</h3>
-                    <p class="card-description">You did not choose your way in. You cannot choose your way out. His election is not a contract you can break — it is a fact older than you are, and it outlasts you.</p>
-                    <div class="card-scripture">ROMANS 8:38-39</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
+   <a href="/devotional-you-cannot-undo-being-chosen" class="hub-card">
+   <div class="card-number">41</div>
+   <h3 class="card-title">You Cannot Undo Being Chosen</h3>
+   <p class="card-description">You did not choose your way in. You cannot choose your way out. His election is not a contract you can break — it is a fact older than you are, and it outlasts you.</p>
+   <div class="card-scripture">ROMANS 8:38-39</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-            </div>
-        </section>
+</div>
+   </section>
 
-        <!-- Spurgeon Quote -->
-        <section class="hub-quote">
-            <p class="quote-text">I believe the doctrine of election, because I am quite certain that, if God had not chosen me, I should never have chosen him; and I am sure he chose me before I was born, or else he never would have chosen me afterwards.</p>
-            <div class="quote-author">— CHARLES HADDON SPURGEON, sermon on "Election"</div>
-        </section>
+   <!-- Spurgeon Quote -->
+   <section class="hub-quote">
+   <p class="quote-text">I believe the doctrine of election, because I am quite certain that, if God had not chosen me, I should never have chosen him; and I am sure he chose me before I was born, or else he never would have chosen me afterwards.</p>
+   <div class="quote-author">— CHARLES HADDON SPURGEON, sermon on "Election"</div>
+   </section>
 
-        <!-- Cross-Reference Section -->
-        <section class="continue-journey-global"><div class="continue-journey-global-inner"><h3 class="continue-journey-global-title">Continue Your Journey</h3><div class="continue-journey-global-grid">
-                    <a href="/devotional-glory-of-divine-choice" class="journey-mini-card"><h4>Glory of Divine Choice</h4><p>Devotional reflection on election</p></a>
-                    <a href="/devotional-my-chains-fell-away" class="journey-mini-card"><h4>Dead Who Live</h4><p>Regeneration and new life in Christ</p></a>
-                    <a href="/devotional-forever-loved" class="journey-mini-card"><h4>Forever Loved</h4><p>The assurance of God's eternal love</p></a>
-                    <a href="/questions" class="journey-mini-card"><h4>The Questions</h4><p>Deep Scripture study and answers</p></a>
-                    <a href="/stories" class="journey-mini-card"><h4>Stories</h4><p>Parables and theological stories</p></a>
-                    <a href="/start-here" class="journey-mini-card"><h4>Start Here</h4><p>New to Reformed theology?</p></a>
-                </div>
-            </div>
-        </section>
+   <!-- Cross-Reference Section -->
+   <section class="continue-journey-global"><div class="continue-journey-global-inner"><h3 class="continue-journey-global-title">Continue Your Journey</h3><div class="continue-journey-global-grid">
+   <a href="/devotional-glory-of-divine-choice" class="journey-mini-card"><h4>Glory of Divine Choice</h4><p>Devotional reflection on election</p></a>
+   <a href="/devotional-my-chains-fell-away" class="journey-mini-card"><h4>Dead Who Live</h4><p>Regeneration and new life in Christ</p></a>
+   <a href="/devotional-forever-loved" class="journey-mini-card"><h4>Forever Loved</h4><p>The assurance of God's eternal love</p></a>
+   <a href="/questions" class="journey-mini-card"><h4>The Questions</h4><p>Deep Scripture study and answers</p></a>
+   <a href="/stories" class="journey-mini-card"><h4>Stories</h4><p>Parables and theological stories</p></a>
+   <a href="/start-here" class="journey-mini-card"><h4>Start Here</h4><p>New to Reformed theology?</p></a>
+</div>
+</div>
+   </section>
     </main>
 
 <!-- RELATED-ARTICLES-START -->
@@ -682,123 +682,123 @@
     <h2 class="related-articles-heading">Keep Exploring</h2>
     <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
     <div class="related-articles-grid">
-      <a href="/story-surgeon-stone-heart" class="related-article-card">
-        <span class="related-article-cat">Stories</span>
-        <span class="related-article-title">Can a Stone Heart Choose? The Surgeon's Parable on Regeneration</span>
-        <span class="related-article-desc">Can a stone heart choose? A surgeon gives a new heart without asking. A parable about regeneration a...</span>
-      </a>
-      <a href="/analogy-lazarus-grave" class="related-article-card">
-        <span class="related-article-cat">Analogies</span>
-        <span class="related-article-title">Did Lazarus Choose to Rise? God's Sovereign Calling Explained</span>
-        <span class="related-article-desc">Does God force salvation or respect free will? John 11 shows how effectual calling works through Laz...</span>
-      </a>
-      <a href="/ot-isaiah-servant" class="related-article-card">
-        <span class="related-article-cat">Old Testament</span>
-        <span class="related-article-title">Isaiah: The Servant & God's Immutable Counsel</span>
-        <span class="related-article-desc">Isaiah reveals God</span>
-      </a>
-      <a href="/start-here-phase5" class="related-article-card">
-        <span class="related-article-cat">Start Here</span>
-        <span class="related-article-title">Living as an Elect Child of God — Phase 5</span>
-        <span class="related-article-desc">Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, wo...</span>
-      </a>
-    </div>
+   <a href="/story-surgeon-stone-heart" class="related-article-card">
+   <span class="related-article-cat">Stories</span>
+   <span class="related-article-title">Can a Stone Heart Choose? The Surgeon's Parable on Regeneration</span>
+   <span class="related-article-desc">Can a stone heart choose? A surgeon gives a new heart without asking. A parable about regeneration a...</span>
+</a>
+   <a href="/analogy-lazarus-grave" class="related-article-card">
+   <span class="related-article-cat">Analogies</span>
+   <span class="related-article-title">Did Lazarus Choose to Rise? God's Sovereign Calling Explained</span>
+   <span class="related-article-desc">Does God force salvation or respect free will? John 11 shows how effectual calling works through Laz...</span>
+</a>
+   <a href="/ot-isaiah-servant" class="related-article-card">
+   <span class="related-article-cat">Old Testament</span>
+   <span class="related-article-title">Isaiah: The Servant & God's Immutable Counsel</span>
+   <span class="related-article-desc">Isaiah reveals God</span>
+</a>
+   <a href="/start-here-phase5" class="related-article-card">
+   <span class="related-article-cat">Start Here</span>
+   <span class="related-article-title">Living as an Elect Child of God — Phase 5</span>
+   <span class="related-article-desc">Phase 5: Living as an elect child of God — how sovereign grace transforms your assurance, prayer, wo...</span>
+</a>
+</div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
+   <a href="/all-content" class="related-browse-link">Browse All 290+ Articles →</a>
+   <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+</div>
+</div>
 </section>
 <!-- RELATED-ARTICLES-END -->
 
     <div class="article-continue-journey">
-        <h3 class="article-continue-journey-title">Continue the Journey</h3>
-        <div class="hub-grid">
-        <a href="/start-here" class="hub-card">
-            <div class="card-number">01</div>
-            <h4 class="card-title">Start Here</h4>
-            <p class="card-description">Begin the journey from the beginning.</p>
-            <div class="card-footer">
-                <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-            </div>
-        </a>
+   <h3 class="article-continue-journey-title">Continue the Journey</h3>
+   <div class="hub-grid">
+   <a href="/start-here" class="hub-card">
+   <div class="card-number">01</div>
+   <h4 class="card-title">Start Here</h4>
+   <p class="card-description">Begin the journey from the beginning.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
 
-                <a href="/for-new-believers" class="hub-card">
-                    <div class="card-number">27</div>
-                    <h3 class="card-title" id="you-just-heard-about-election-and-it-broke-your-brain">You Just Heard About Election and It Broke Your Brain</h3>
-                    <p class="card-description">Someone told you God chooses who gets saved and your world tilted. The vertigo you are feeling is not doubt — it is depth. A gentle, patient welcome for the brand-new believer who just discovered that the ground under their faith is older and stronger than they knew.</p>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-                <a href="/just-realized" class="hub-card">
-                    <div class="card-number">28</div>
-                    <h3 class="card-title" id="for-the-person-who-just-realized">For the Person Who Just Realized</h3>
-                    <p class="card-description">It hit you. You were not the one who chose Him. He chose you — before the foundation of the world, before your first breath, before you knew His name. Sit with that. The ground beneath you is older than the universe, and it will not move. A devotional for the moment after the veil lifts.</p>
-                    <div class="card-scripture">ROMANS 8:29-30</div>
-                    <div class="card-footer">
-                        <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
-                    </div>
-                </a>
-            </div>
-    </div>
+   <a href="/for-new-believers" class="hub-card">
+   <div class="card-number">27</div>
+   <h3 class="card-title" id="you-just-heard-about-election-and-it-broke-your-brain">You Just Heard About Election and It Broke Your Brain</h3>
+   <p class="card-description">Someone told you God chooses who gets saved and your world tilted. The vertigo you are feeling is not doubt — it is depth. A gentle, patient welcome for the brand-new believer who just discovered that the ground under their faith is older and stronger than they knew.</p>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+   <a href="/just-realized" class="hub-card">
+   <div class="card-number">28</div>
+   <h3 class="card-title" id="for-the-person-who-just-realized">For the Person Who Just Realized</h3>
+   <p class="card-description">It hit you. You were not the one who chose Him. He chose you — before the foundation of the world, before your first breath, before you knew His name. Sit with that. The ground beneath you is older than the universe, and it will not move. A devotional for the moment after the veil lifts.</p>
+   <div class="card-scripture">ROMANS 8:29-30</div>
+   <div class="card-footer">
+   <span class="card-read">Read <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg></span>
+</div>
+</a>
+</div>
+</div>
 
     <footer>
     <div class="footer-container">
-        <div class="footer-section">
-            <h4>Truth</h4>
-            <ul>
-                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                <li><a href="/systematic-theology">Systematic Theology</a></li>
-                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-            </ul>
-        </div>
-        <div class="footer-section">
-            <h4>Explore</h4>
-            <ul>
-                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
-                <li><a href="/theologians">Theologians</a></li>
-                <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
-                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-            </ul>
-        </div>
-        <div class="footer-section">
-            <h4>Connect</h4>
-            <ul>
-                <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
-            </ul>
-        </div>
-    </div>
+   <div class="footer-section">
+   <h4>Truth</h4>
+   <ul>
+   <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+   <li><a href="/systematic-theology">Systematic Theology</a></li>
+   <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+   <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+   </ul>
+</div>
+   <div class="footer-section">
+   <h4>Explore</h4>
+   <ul>
+   <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+   <li><a href="/theologians">Theologians</a></li>
+   <li class="mobile-nav-link"><a href="/devotionals">Devotionals</a></li>
+   <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+   </ul>
+</div>
+   <div class="footer-section">
+   <h4>Connect</h4>
+   <ul>
+   <li class="mobile-nav-link"><a href="/about">About</a></li>
+   <li><a href="/contact">Contact</a></li>
+   <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+   </ul>
+</div>
+</div>
     <div class="footer-grace-warning">
-        "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
-        Grace is not a license to sin. It is the power that frees us from sin's dominion.
-    </div>
+  "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+  Grace is not a license to sin. It is the power that frees us from sin's dominion.
+</div>
     <div class="footer-copyright">
-        &copy; 2026 Adopted by Grace — Soli Deo Gloria
-    </div>
+  &copy; 2026 Adopted by Grace — Soli Deo Gloria
+</div>
 </footer>
 
     <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Devotionals — Adopted by Grace",
-    "description": "Meditations on sovereign grace — for the heart that longs to worship",
-    "url": "https://adoptedbygrace.net/devotionals",
-    "isPartOf": {
-        "@type": "WebSite",
-        "name": "Adopted by Grace",
-        "url": "https://adoptedbygrace.net"
-    },
-    "mainEntity": {
-        "@type": "Collection",
-        "name": "Reformed Theology Devotionals",
-        "description": "10 devotionals exploring election, regeneration, grace, and the sovereignty of God"
-    },
-    "image": "https://adoptedbygrace.net/og-image.png"
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Devotionals — Adopted by Grace",
+  "description": "Meditations on sovereign grace — for the heart that longs to worship",
+  "url": "https://adoptedbygrace.net/devotionals",
+  "isPartOf": {
+  "@type": "WebSite",
+  "name": "Adopted by Grace",
+  "url": "https://adoptedbygrace.net"
+  },
+  "mainEntity": {
+  "@type": "Collection",
+  "name": "Reformed Theology Devotionals",
+  "description": "10 devotionals exploring election, regeneration, grace, and the sovereignty of God"
+  },
+  "image": "https://adoptedbygrace.net/og-image.png"
 }
 </script>
 <script src="/global.js" defer></script>

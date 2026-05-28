@@ -5,11 +5,11 @@
  * PROJECT LIGHTHOUSE — Pillar 3 / Phase 5 Workstream 1 (SEO Foundation)
  *
  * Scans every HTML file at repo root and verifies:
- *   1. <link rel="canonical"> exists.
- *   2. The href is the production HTTPS origin (https://adoptedbygrace.net/...).
- *   3. The path is EXTENSIONLESS — no .html suffix (per VOICE.md §IX).
- *   4. The canonical path matches the filename (modulo .html stripping).
- *      Mismatches indicate a copy-paste bug from another page.
+ * 1. <link rel="canonical">exists.
+ * 2. The href is the production HTTPS origin (https://adoptedbygrace.net/...).
+ * 3. The path is EXTENSIONLESS — no .html suffix (per VOICE.md §IX).
+ * 4. The canonical path matches the filename (modulo .html stripping).
+ * Mismatches indicate a copy-paste bug from another page.
  *
  * Outputs a report to stdout. Exits 0 if everything passes, 1 if any
  * page fails.
@@ -34,10 +34,10 @@ const EXEMPT = new Set([
 
 const files = fs.readdirSync(ROOT).filter(f => f.endsWith('.html')).sort();
 
-const missing = [];      // No <link rel="canonical">
+const missing = []; // No <link rel="canonical">
 const wrongOrigin = [];  // Canonical points to a non-production host
 const hasExtension = []; // Canonical includes ".html"
-const mismatch = [];     // Canonical path != filename (probable copy-paste bug)
+const mismatch = []; // Canonical path != filename (probable copy-paste bug)
 let ok = 0;
 
 const canonicalRE = /<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i;
@@ -49,26 +49,26 @@ for (const file of files) {
   const m = html.match(canonicalRE);
 
   if (!m) {
-    missing.push(file);
-    continue;
+  missing.push(file);
+  continue;
   }
   const url = m[1];
   if (!url.startsWith(ORIGIN)) {
-    wrongOrigin.push({ file, url });
-    continue;
+  wrongOrigin.push({ file, url });
+  continue;
   }
   let pathPart = url.slice(ORIGIN.length); // e.g. "/about" or "/about.html"
   if (pathPart.startsWith('/')) pathPart = pathPart.slice(1);
   if (pathPart.endsWith('.html')) {
-    hasExtension.push({ file, url });
+  hasExtension.push({ file, url });
   }
   // Compare path to filename (strip .html from both sides for comparison)
   const expectedSlug = file === 'index.html' ? '' : file.replace(/\.html$/, '');
   const actualSlug = pathPart.replace(/\.html$/, '').replace(/\/$/, '');
   if (expectedSlug !== actualSlug) {
-    mismatch.push({ file, expected: expectedSlug, actual: actualSlug });
+  mismatch.push({ file, expected: expectedSlug, actual: actualSlug });
   } else {
-    ok++;
+  ok++;
   }
 }
 
@@ -77,15 +77,15 @@ const failures = missing.length + wrongOrigin.length + hasExtension.length + mis
 
 console.log('CANONICAL CONFORMANCE REPORT');
 console.log('============================');
-console.log(`Total HTML files scanned:   ${files.length}`);
-console.log(`Exempt (templates/etc.):    ${EXEMPT.size}`);
-console.log(`Pages checked:              ${total}`);
-console.log(`Pages OK:                   ${ok}`);
-console.log(`Pages with issues:          ${failures}`);
+console.log(`Total HTML files scanned: ${files.length}`);
+console.log(`Exempt (templates/etc.): ${EXEMPT.size}`);
+console.log(`Pages checked: ${total}`);
+console.log(`Pages OK: ${ok}`);
+console.log(`Pages with issues: ${failures}`);
 console.log('');
 
 if (missing.length) {
-  console.log(`MISSING <link rel="canonical">  (${missing.length})`);
+  console.log(`MISSING <link rel="canonical">(${missing.length})`);
   missing.slice(0, 20).forEach(f => console.log('  ' + f));
   if (missing.length > 20) console.log(`  ... and ${missing.length - 20} more`);
   console.log('');
@@ -107,9 +107,9 @@ if (mismatch.length) {
 }
 
 if (failures === 0) {
-  console.log('✅ All canonical URLs are conformant.');
+  console.log(' All canonical URLs are conformant.');
   process.exit(0);
 } else {
-  console.log(`❌ ${failures} canonical-conformance issue(s) found.`);
+  console.log(` ${failures} canonical-conformance issue(s) found.`);
   process.exit(1);
 }

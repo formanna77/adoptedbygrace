@@ -35,21 +35,21 @@ const REF_NEAR = new RegExp('(' + bookAlt + ')\\s(\\d+):(\\d+)(?:[-\\u2013\\u201
 
 function stripTags(html) {
   return html
-    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&mdash;/g, '—').replace(/&ndash;/g, '–')
-    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
-    .replace(/&rsquo;|&#39;|&apos;/g, "'").replace(/&lsquo;/g, "'")
-    .replace(/&ldquo;|&rdquo;/g, '"').replace(/&quot;/g, '"')
-    .replace(/&hellip;/g, '…');
+  .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+  .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+  .replace(/<[^>]+>/g, ' ')
+  .replace(/&mdash;/g, '—').replace(/&ndash;/g, '–')
+  .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
+  .replace(/&rsquo;|&#39;|&apos;/g, "'").replace(/&lsquo;/g, "'")
+  .replace(/&ldquo;|&rdquo;/g, '"').replace(/&quot;/g, '"')
+  .replace(/&hellip;/g, '…');
 }
 function clean(s) { return s.replace(/\s+/g, ' ').trim(); }
 function norm(s) {
   return clean(s).toLowerCase()
-    .replace(/[‘’']/g, '')
-    .replace(/[^a-z0-9 ]/g, ' ')
-    .replace(/\s+/g, ' ').trim();
+  .replace(/[‘’']/g, '')
+  .replace(/[^a-z0-9 ]/g, ' ')
+  .replace(/\s+/g, ' ').trim();
 }
 function keyFor(m) {
   let b = m[1].replace(/\s+/g, ' ');
@@ -58,7 +58,7 @@ function keyFor(m) {
 }
 
 const files = fs.readdirSync('.').filter(f => f.endsWith('.html'));
-const byRef = {};       // ref key -> [{n, disp, file}]
+const byRef = {}; // ref key -> [{n, disp, file}]
 let totalQuotes = 0;
 const nivSuffix = [];
 
@@ -72,16 +72,16 @@ for (const file of files) {
   let m;
   QUOTE_RE.lastIndex = 0;
   while ((m = QUOTE_RE.exec(text))) {
-    const raw = m[1] || m[2];
-    const after = text.slice(QUOTE_RE.lastIndex, QUOTE_RE.lastIndex + 60);
-    const before = text.slice(Math.max(0, m.index - 60), m.index);
-    const refm = REF_NEAR.exec(after) || REF_NEAR.exec(before);
-    if (!refm) continue;
-    const n = norm(raw);
-    if (n.split(' ').length < 3) continue; // too short to be a verse quote
-    const key = keyFor(refm);
-    (byRef[key] = byRef[key] || []).push({ n, disp: clean(raw), file });
-    totalQuotes++;
+  const raw = m[1] || m[2];
+  const after = text.slice(QUOTE_RE.lastIndex, QUOTE_RE.lastIndex + 60);
+  const before = text.slice(Math.max(0, m.index - 60), m.index);
+  const refm = REF_NEAR.exec(after) || REF_NEAR.exec(before);
+  if (!refm) continue;
+  const n = norm(raw);
+  if (n.split(' ').length < 3) continue; // too short to be a verse quote
+  const key = keyFor(refm);
+  (byRef[key] = byRef[key] || []).push({ n, disp: clean(raw), file });
+  totalQuotes++;
   }
 }
 
@@ -95,10 +95,10 @@ for (const key of Object.keys(byRef)) {
   if (variants.length < 2) continue;
   let conflict = false;
   for (let i = 0; i < variants.length; i++)
-    for (let j = i + 1; j < variants.length; j++) {
-      const a = variants[i].n, b = variants[j].n;
-      if (!a.includes(b) && !b.includes(a)) conflict = true;
-    }
+  for (let j = i + 1; j < variants.length; j++) {
+  const a = variants[i].n, b = variants[j].n;
+  if (!a.includes(b) && !b.includes(a)) conflict = true;
+  }
   if (conflict) divergences.push({ key, arr });
 }
 
@@ -116,11 +116,11 @@ for (const d of divergences) {
   out += '### ' + d.key + '\n';
   const seen = {};
   for (const q of d.arr) {
-    if (seen[q.n]) { seen[q.n].files.push(q.file); continue; }
-    seen[q.n] = { disp: q.disp, files: [q.file] };
+  if (seen[q.n]) { seen[q.n].files.push(q.file); continue; }
+  seen[q.n] = { disp: q.disp, files: [q.file] };
   }
   for (const k of Object.keys(seen)) {
-    out += '  - "' + seen[k].disp + '"\n      [' + [...new Set(seen[k].files)].join(', ') + ']\n';
+  out += '  - "' + seen[k].disp + '"\n [' + [...new Set(seen[k].files)].join(', ') + ']\n';
   }
   out += '\n';
 }

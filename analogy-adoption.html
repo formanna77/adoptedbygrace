@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="/global.css">
     <link rel="manifest" href="/manifest.webmanifest">
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://adoptedbygrace.net/"},
-            {"@type": "ListItem", "position": 2, "name": "Stories", "item": "https://adoptedbygrace.net/stories"},
-            {"@type": "ListItem", "position": 3, "name": "A Baby Doesn't Interview for a Family"}
-        ]
-    }
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://adoptedbygrace.net/"},
+  {"@type": "ListItem", "position": 2, "name": "Stories", "item": "https://adoptedbygrace.net/stories"},
+  {"@type": "ListItem", "position": 3, "name": "A Baby Doesn't Interview for a Family"}
+  ]
+  }
     </script>
 
     <!-- Project Lighthouse: Universal Share-Ready Meta -->
@@ -48,39 +48,39 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://adoptedbygrace.net/#organization",
-      "name": "Adopted by Grace",
-      "url": "https://adoptedbygrace.net",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://adoptedbygrace.net/og-image.png",
-        "width": 1200,
-        "height": 630
-      },
-      "sameAs": [
-        "https://twitter.com/ForeknownOne",
-        "https://foreknownone.substack.com"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://adoptedbygrace.net/#website",
-      "url": "https://adoptedbygrace.net",
-      "name": "Adopted by Grace",
-      "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
-      "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      },
-      "inLanguage": "en-US"
-    }
+  {
+  "@type": "Organization",
+  "@id": "https://adoptedbygrace.net/#organization",
+  "name": "Adopted by Grace",
+  "url": "https://adoptedbygrace.net",
+  "logo": {
+  "@type": "ImageObject",
+  "url": "https://adoptedbygrace.net/og-image.png",
+  "width": 1200,
+  "height": 630
+  },
+  "sameAs": [
+  "https://twitter.com/ForeknownOne",
+  "https://foreknownone.substack.com"
+  ]
+  },
+  {
+  "@type": "WebSite",
+  "@id": "https://adoptedbygrace.net/#website",
+  "url": "https://adoptedbygrace.net",
+  "name": "Adopted by Grace",
+  "description": "The biblical case for divine sovereignty — you were chosen before the foundation of the world.",
+  "publisher": { "@id": "https://adoptedbygrace.net/#organization" },
+  "potentialAction": {
+  "@type": "SearchAction",
+  "target": {
+  "@type": "EntryPoint",
+  "urlTemplate": "https://adoptedbygrace.net/?q={search_term_string}"
+  },
+  "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "en-US"
+  }
   ]
 }
 </script>
@@ -110,171 +110,171 @@
 <body>
 
     <nav role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <a href="/" class="nav-site-name">Adopted by Grace</a>
-            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-            <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            </button>
-            <ul class="nav-links">
-                <li class="mobile-menu-search" style="list-style:none;">
-                    <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
-                </li>
-                <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
-                <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
-                <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
-                <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
-                <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
-                <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
-                <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
-                <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
-                <li class="mobile-nav-link"><a href="/about">About</a></li>
-                <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
-            </ul>
-            <div class="nav-right">
-                <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
-                <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
-                <a href="/start-here" class="nav-top-link">Start Here</a>
-                <a href="/questions" class="nav-top-link">Questions</a>
-                <a href="/systematic-theology" class="nav-top-link">Theology</a>
-                <a href="/demolition-hub" class="nav-top-link">Demolition</a>
-                <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
-                <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
-                <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
-                <a href="/about" class="nav-top-link">About</a>
-                <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
-                    <span class="mega-menu-toggle-label">Explore</span>
-                </button>
-                <button class="search-toggle" aria-label="Search the site" id="searchToggle">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                </button>
-            </div>
-        </div>
+   <div class="nav-container">
+   <a href="/" class="nav-site-name">Adopted by Grace</a>
+   <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+   <span></span><span></span><span></span>
+   </button>
+   <button class="mobile-search-toggle" id="mobileSearchToggle" aria-label="Search the site">
+   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+   <ul class="nav-links">
+   <li class="mobile-menu-search" style="list-style:none;">
+   <input type="text" class="mobile-menu-search-input" id="mobileMenuSearchInput" placeholder="Search articles, topics, verses..." autocomplete="off" />
+</li>
+   <li class="mobile-nav-link"><a href="/" class="nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a></li>
+   <li class="mobile-nav-link"><a href="/best-reads" class="nav-best-reads">Best Reads</a></li>
+   <li class="mobile-nav-link"><a href="/start-here">Start Here</a></li>
+   <li class="mobile-nav-link"><a href="/questions">Questions</a></li>
+   <li class="mobile-nav-link"><a href="/systematic-theology">Theology</a></li>
+   <li class="mobile-nav-link"><a href="/demolition-hub">Demolition</a></li>
+   <li class="mobile-nav-link"><a href="/psychology-hub">Why We Resist</a></li>
+   <li class="mobile-nav-link"><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+   <li class="mobile-nav-link"><a href="/devotionals">Rest in Grace</a></li>
+   <li class="mobile-nav-link"><a href="/about">About</a></li>
+   <li class="mobile-categories-section" id="mobileCategoriesAccordion" style="list-style:none;"></li>
+   </ul>
+   <div class="nav-right">
+   <a href="/" class="nav-top-link nav-home" aria-label="Home"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></a>
+   <a href="/best-reads" class="nav-top-link nav-best-reads">Best Reads</a>
+   <a href="/start-here" class="nav-top-link">Start Here</a>
+   <a href="/questions" class="nav-top-link">Questions</a>
+   <a href="/systematic-theology" class="nav-top-link">Theology</a>
+   <a href="/demolition-hub" class="nav-top-link">Demolition</a>
+   <a href="/psychology-hub" class="nav-top-link">Why We Resist</a>
+   <a href="/scripture-tsunami" class="nav-top-link">Scripture Tsunami</a>
+   <a href="/devotionals" class="nav-top-link">Rest in Grace</a>
+   <a href="/about" class="nav-top-link">About</a>
+   <button class="mega-menu-toggle" id="megaMenuToggle" aria-label="Explore all categories" aria-expanded="false">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+   <span class="mega-menu-toggle-label">Explore</span>
+   </button>
+   <button class="search-toggle" aria-label="Search the site" id="searchToggle">
+   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+   </button>
+</div>
+</div>
     </nav>
     <div class="mega-menu" id="megaMenu"></div>
     <div class="search-overlay" id="searchOverlay">
-        <div class="search-overlay-inner">
-            <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
-            <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
-        </div>
-        <div class="search-results" id="searchResults"></div>
-    </div>
+   <div class="search-overlay-inner">
+   <input type="text" class="search-input" id="searchInput" placeholder="Search everything on the site..." autocomplete="off" />
+   <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+</div>
+   <div class="search-results" id="searchResults"></div>
+</div>
 
     <header class="page-hero">
-        <span class="eyebrow">Stories, Parables & Analogies</span>
-        <h1>A Baby Doesn't Interview for a Family</h1>
-        <p class="hub-subtitle">What adoption teaches about sovereign election — and why the child's "choice" was never the deciding factor.</p>
-            <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
+   <span class="eyebrow">Stories, Parables & Analogies</span>
+   <h1>A Baby Doesn't Interview for a Family</h1>
+   <p class="hub-subtitle">What adoption teaches about sovereign election — and why the child's "choice" was never the deciding factor.</p>
+   <p class="article-byline">By <a href="/about">Aaron Forman</a> · <time datetime="2026-01-01">January 1, 2026</time></p>
     </header>
 
     <article class="article-body">
 <!-- CONSECRATED -->
 
-        <div class="tldr">
-            <h2>In Brief</h2>
-            <p>An orphan does not sign their own <a href="/devotional-adoption-papers">adoption papers</a>. They do not evaluate the parents. They do not approve the transaction. The parent walks in, chooses the child, and brings them home. Scripture uses this exact picture: <em>"In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will"</em> (Ephesians 1:5). If you claim you chose to be adopted, you have fundamentally misunderstood what adoption is — and you have missed the deepest comfort the gospel offers: a belonging you did not negotiate is a belonging no failure can unmake.</p>
-        </div>
+   <div class="tldr">
+   <h2>In Brief</h2>
+   <p>An orphan does not sign their own <a href="/devotional-adoption-papers">adoption papers</a>. They do not evaluate the parents. They do not approve the transaction. The parent walks in, chooses the child, and brings them home. Scripture uses this exact picture: <em>"In love he predestined us for adoption to sonship through Jesus Christ, in accordance with his pleasure and will"</em> (Ephesians 1:5). If you claim you chose to be adopted, you have fundamentally misunderstood what adoption is — and you have missed the deepest comfort the gospel offers: a belonging you did not negotiate is a belonging no failure can unmake.</p>
+</div>
 
-        <h2>The Orphanage</h2>
+   <h2>The Orphanage</h2>
 
-        <p>Picture a hallway. Fluorescent lights humming. Small beds in rows, each one identical. A child sits on a mattress, legs too short to reach the floor, watching the door at the end of the hall. Not because anyone has told the child a parent is coming. The child watches the door the way all children do in places like this — with an ache that has no vocabulary yet, a hunger for something the child has never tasted but somehow knows is missing.</p>
+   <p>Picture a hallway. Fluorescent lights humming. Small beds in rows, each one identical. A child sits on a mattress, legs too short to reach the floor, watching the door at the end of the hall. Not because anyone has told the child a parent is coming. The child watches the door the way all children do in places like this — with an ache that has no vocabulary yet, a hunger for something the child has never tasted but somehow knows is missing.</p>
 
-        <p>Now notice what happened inside you just now. You felt something for that child. Tenderness. Maybe the beginning of tears. Good — hold that. Because the reason this analogy will be difficult for you is not the orphan part. Everyone accepts the orphan part. The difficult part is what comes next: the realization that the orphan did not, could not, and would never choose the parent who walks through that door. And something in you will resist that — because you have built your testimony on the belief that you walked through the door yourself.</p>
+   <p>Now notice what happened inside you just now. You felt something for that child. Tenderness. Maybe the beginning of tears. Good — hold that. Because the reason this analogy will be difficult for you is not the orphan part. Everyone accepts the orphan part. The difficult part is what comes next: the realization that the orphan did not, could not, and would never choose the parent who walks through that door. And something in you will resist that — because you have built your testimony on the belief that you walked through the door yourself.</p>
 
-        <p>And underneath that resistance is the deeper question, the one no one says out loud: <em>if I did not authorize my own belonging, what kind of belonging is it?</em> The modern soul is terrified of contingency it did not contract for. We want a love we earned, a family we picked, a salvation we signed off on — because then, at least, we are still the manager of the arrangement. But the only love that cannot be revoked is the love that did not depend on our negotiation in the first place. The orphan you pity is the only one whose homecoming is finally safe — because the homecoming was decided by someone whose hands do not change.</p>
+   <p>And underneath that resistance is the deeper question, the one no one says out loud: <em>if I did not authorize my own belonging, what kind of belonging is it?</em> The modern soul is terrified of contingency it did not contract for. We want a love we earned, a family we picked, a salvation we signed off on — because then, at least, we are still the manager of the arrangement. But the only love that cannot be revoked is the love that did not depend on our negotiation in the first place. The orphan you pity is the only one whose homecoming is finally safe — because the homecoming was decided by someone whose hands do not change.</p>
 
-        <p>But Scripture adds something darker than mere helplessness: we were not just orphans — we were <em>hostile</em> orphans.</p>
+   <p>But Scripture adds something darker than mere helplessness: we were not just orphans — we were <em>hostile</em> orphans.</p>
 
-        <blockquote>
-            <p>"God shows his love for us in that while we were still sinners, Christ died for us."</p>
-            <cite>ROMANS 5:8</cite>
-        </blockquote>
+   <blockquote>
+   <p>"God shows his love for us in that while we were still sinners, Christ died for us."</p>
+   <cite>ROMANS 5:8</cite>
+   </blockquote>
 
-        <p>We were not just abandoned. We were <a href="/systematic-hamartiology">enemies of the Father</a>. We despised His authority. We wanted nothing to do with Him. And yet — God came anyway. The Father walked into the orphanage knowing exactly how hostile we were, and He <a href="/question-chosen">chose us anyway</a>.</p>
+   <p>We were not just abandoned. We were <a href="/systematic-hamartiology">enemies of the Father</a>. We despised His authority. We wanted nothing to do with Him. And yet — God came anyway. The Father walked into the orphanage knowing exactly how hostile we were, and He <a href="/question-chosen">chose us anyway</a>.</p>
 
-        <p>If you can't make yourself born, how could you make yourself <a href="/systematic-regeneration">born again</a>?</p>
+   <p>If you can't make yourself born, how could you make yourself <a href="/systematic-regeneration">born again</a>?</p>
 
-        <h2>The Parent Chooses</h2>
+   <h2>The Parent Chooses</h2>
 
-        <p>In the real world, adoption begins with a choice — and the choice is made by the parent, not the child. The parent walks into the orphanage. Passes by some children. Stops at one. No adoption agency has ever recorded a newborn filling out a preference form.</p>
+   <p>In the real world, adoption begins with a choice — and the choice is made by the parent, not the child. The parent walks into the orphanage. Passes by some children. Stops at one. No adoption agency has ever recorded a newborn filling out a preference form.</p>
 
-        <blockquote>
-            <p>"It was not because you were more in number than any other people that the LORD set his love on you and chose you, for you were the fewest of all peoples; but it is because the LORD loves you."</p>
-            <cite>DEUTERONOMY 7:7-8</cite>
-        </blockquote>
+   <blockquote>
+   <p>"It was not because you were more in number than any other people that the LORD set his love on you and chose you, for you were the fewest of all peoples; but it is because the LORD loves you."</p>
+   <cite>DEUTERONOMY 7:7-8</cite>
+   </blockquote>
 
-        <p>God didn't choose Israel because they were the most numerous, the strongest, or the most righteous. He chose them because He <em>wanted to.</em> Because His love is <a href="/systematic-election">sovereign</a>. This is election. And it's not less loving than human adoption — it's more loving, because divine election happens <a href="/question-chosen">before the creation of the world</a>, when we didn't exist at all.</p>
+   <p>God didn't choose Israel because they were the most numerous, the strongest, or the most righteous. He chose them because He <em>wanted to.</em> Because His love is <a href="/systematic-election">sovereign</a>. This is election. And it's not less loving than human adoption — it's more loving, because divine election happens <a href="/question-chosen">before the creation of the world</a>, when we didn't exist at all.</p>
 
-        <p>The child doesn't choose the parent. The parent chooses the child. And in that one reversal of expectation, the entire gospel becomes clear: you are not pursuing God. God pursued you.</p>
+   <p>The child doesn't choose the parent. The parent chooses the child. And in that one reversal of expectation, the entire gospel becomes clear: you are not pursuing God. God pursued you.</p>
 
-        <h2>The Papers Are Signed</h2>
+   <h2>The Papers Are Signed</h2>
 
-        <p>In the ancient Roman world — the world Paul was writing to — adoption was <em>irrevocable.</em> Once the papers were signed, the covenant was unbreakable. The adopted child received the father's name, full legal status, access to the inheritance. Every debt from the past was erased. The child was no longer defined by where they came from.</p>
+   <p>In the ancient Roman world — the world Paul was writing to — adoption was <em>irrevocable.</em> Once the papers were signed, the covenant was unbreakable. The adopted child received the father's name, full legal status, access to the inheritance. Every debt from the past was erased. The child was no longer defined by where they came from.</p>
 
-        <blockquote>
-            <p>"The Spirit you received does not make you slaves, so that you live in fear again; rather, the Spirit you received brought about your adoption to sonship. And by him we cry, 'Abba, Father.'"</p>
-            <cite>ROMANS 8:15</cite>
-        </blockquote>
+   <blockquote>
+   <p>"The Spirit you received does not make you slaves, so that you live in fear again; rather, the Spirit you received brought about your adoption to sonship. And by him we cry, 'Abba, Father.'"</p>
+   <cite>ROMANS 8:15</cite>
+   </blockquote>
 
-        <p>This is what <a href="/question-irresistible">irresistible grace</a> accomplishes. Not force — the transformation of your will so that you actually want what God wants. The papers are signed. Your identity is changed. Your inheritance is secured. No court in heaven or on earth can reverse it.</p>
+   <p>This is what <a href="/question-irresistible">irresistible grace</a> accomplishes. Not force — the transformation of your will so that you actually want what God wants. The papers are signed. Your identity is changed. Your inheritance is secured. No court in heaven or on earth can reverse it.</p>
 
-        <p>You will never be un-adopted. You will never be cast out. You will never discover a catch in the fine print, a loophole in the covenant, a reason God regrets His choice. The papers are signed in the blood of Jesus Christ. They are unbreakable. <a href="/question-perseverance">Irrevocable</a>. Final.</p>
+   <p>You will never be un-adopted. You will never be cast out. You will never discover a catch in the fine print, a loophole in the covenant, a reason God regrets His choice. The papers are signed in the blood of Jesus Christ. They are unbreakable. <a href="/question-perseverance">Irrevocable</a>. Final.</p>
 
-        <blockquote>
-            <p>"I am convinced that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God <a href="/devotional-in-christ">in Christ</a> Jesus our Lord."</p>
-            <cite>ROMANS 8:38-39</cite>
-        </blockquote>
+   <blockquote>
+   <p>"I am convinced that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God <a href="/devotional-in-christ">in Christ</a> Jesus our Lord."</p>
+   <cite>ROMANS 8:38-39</cite>
+   </blockquote>
 
-        <h2>What the Child Contributes</h2>
+   <h2>What the Child Contributes</h2>
 
-        <p>Here is the part that cuts against everything our culture teaches: the child contributes <em>nothing</em> except need.</p>
+   <p>Here is the part that cuts against everything our culture teaches: the child contributes <em>nothing</em> except need.</p>
 
-        <blockquote>
-            <p>"For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast."</p>
-            <cite>EPHESIANS 2:8-9</cite>
-        </blockquote>
+   <blockquote>
+   <p>"For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast."</p>
+   <cite>EPHESIANS 2:8-9</cite>
+   </blockquote>
 
-        <p>The child's only contribution is the willingness to be brought home. And even that willingness is a gift from the Father. The Spirit doesn't just offer grace and wait for you to <a href="/question-faithgift">generate faith</a>. He <a href="/systematic-regeneration">regenerates you</a>. He creates the capacity to believe and the desire to come home.</p>
+   <p>The child's only contribution is the willingness to be brought home. And even that willingness is a gift from the Father. The Spirit doesn't just offer grace and wait for you to <a href="/question-faithgift">generate faith</a>. He <a href="/systematic-regeneration">regenerates you</a>. He creates the capacity to believe and the desire to come home.</p>
 
-        <p>If you claim you chose to be adopted — that your decision made you a child of God — then you have fundamentally misunderstood what adoption is. A child doesn't adopt themselves. The parent does. The child receives what has already been chosen.</p>
+   <p>If you claim you chose to be adopted — that your decision made you a child of God — then you have fundamentally misunderstood what adoption is. A child doesn't adopt themselves. The parent does. The child receives what has already been chosen.</p>
 
-        <p>If something in you aches to know whether you were chosen — that ache itself is the answer. Orphans who do not want a family never ask if one is coming. <em>The longing is the evidence.</em></p>
+   <p>If something in you aches to know whether you were chosen — that ache itself is the answer. Orphans who do not want a family never ask if one is coming. <em>The longing is the evidence.</em></p>
 
-        <h2>What "<a href="/question-depravity">Dead in Sin</a>" Actually Looks Like</h2>
+   <h2>What "<a href="/question-depravity">Dead in Sin</a>" Actually Looks Like</h2>
 
-        <p>Here is where the orphan metaphor would lose its teeth if we left it. You are clearly conscious. You are walking around, drawing breath, holding opinions. So what does Paul mean when he says you were "<a href="/question-depravity">dead in your transgressions and sins</a>"?</p>
+   <p>Here is where the orphan metaphor would lose its teeth if we left it. You are clearly conscious. You are walking around, drawing breath, holding opinions. So what does Paul mean when he says you were "<a href="/question-depravity">dead in your transgressions and sins</a>"?</p>
 
-        <p>He means you hate holiness. Not that you struggle with it — that you <em>hate</em> it. Your nature recoils from the righteousness of God. And here is the devastating part: you don't even know you hate it, because you've redefined holiness to mean something comfortable enough to tolerate.</p>
+   <p>He means you hate holiness. Not that you struggle with it — that you <em>hate</em> it. Your nature recoils from the righteousness of God. And here is the devastating part: you don't even know you hate it, because you've redefined holiness to mean something comfortable enough to tolerate.</p>
 
-        <p>You have never once spontaneously wanted to pray. Every prayer was prompted by need, guilt, habit, or crisis — never by sheer delight. You find ten minutes of prayer exhausting but can scroll your phone for two hours without effort. Your flesh has no resistance to what it loves — and it does not love God.</p>
+   <p>You have never once spontaneously wanted to pray. Every prayer was prompted by need, guilt, habit, or crisis — never by sheer delight. You find ten minutes of prayer exhausting but can scroll your phone for two hours without effort. Your flesh has no resistance to what it loves — and it does not love God.</p>
 
-        <p>You have to be <em>convinced</em> to read Scripture. You have never had to be convinced to eat, sleep, or seek entertainment. Your nature moves effortlessly toward what it desires and has to be dragged toward what it doesn't.</p>
+   <p>You have to be <em>convinced</em> to read Scripture. You have never had to be convinced to eat, sleep, or seek entertainment. Your nature moves effortlessly toward what it desires and has to be dragged toward what it doesn't.</p>
 
-        <p>That is what "<a href="/question-depravity">dead in sin</a>" means. Not unconscious. Unable to <em>want God.</em> And that is a death no human willpower can reverse — because the <a href="/philosophy-self-deception">will itself</a> is the thing that's dead.</p>
+   <p>That is what "<a href="/question-depravity">dead in sin</a>" means. Not unconscious. Unable to <em>want God.</em> And that is a death no human willpower can reverse — because the <a href="/philosophy-self-deception">will itself</a> is the thing that's dead.</p>
 
-        <h2>The Heart of Everything</h2>
+   <h2>The Heart of Everything</h2>
 
-        <p>This analogy is not just one image among many. It's the namesake of this entire website. "Adopted by Grace" isn't a clever tagline. It's the gospel compressed into three words.</p>
+   <p>This analogy is not just one image among many. It's the namesake of this entire website. "Adopted by Grace" isn't a clever tagline. It's the gospel compressed into three words.</p>
 
-        <p>You were <a href="/question-chosen">chosen before the creation of the world</a>. Not because you were worthy. Not because God foresaw you would choose Him. But because the Father's love is sovereign and His purposes are His own. He looked at you in your spiritual orphanage — hostile, helpless, without hope — and He chose you.</p>
+   <p>You were <a href="/question-chosen">chosen before the creation of the world</a>. Not because you were worthy. Not because God foresaw you would choose Him. But because the Father's love is sovereign and His purposes are His own. He looked at you in your spiritual orphanage — hostile, helpless, without hope — and He chose you.</p>
 
-        <p>You were claimed through the death and resurrection of Jesus Christ. The papers were signed in blood. Your new identity was legally established. Every debt was canceled.</p>
+   <p>You were claimed through the death and resurrection of Jesus Christ. The papers were signed in blood. Your new identity was legally established. Every debt was canceled.</p>
 
-        <p>You were brought home by the Spirit. He granted you faith. He made you willing to be loved. And He <a href="/devotional-never-gives-up">sealed you</a> with His presence until the day of redemption. The adoption isn't pending. It isn't probationary. It's final.</p>
+   <p>You were brought home by the Spirit. He granted you faith. He made you willing to be loved. And He <a href="/devotional-never-gives-up">sealed you</a> with His presence until the day of redemption. The adoption isn't pending. It isn't probationary. It's final.</p>
 
-        <p>A sovereign Father. A helpless orphan. An irrevocable adoption. A new name. A new family. An eternal inheritance. And a God who will never, ever let you go.</p>
+   <p>A sovereign Father. A helpless orphan. An irrevocable adoption. A new name. A new family. An eternal inheritance. And a God who will never, ever let you go.</p>
 
-        <p>Go back to that hallway. The fluorescent lights are still humming. The child is still sitting on the mattress, legs dangling, watching the door. But the door is opening now. And the One who walks through it is not a stranger evaluating options — He is a Father who has known this child's name since before the hallway existed, before the orphanage was built, before the fluorescent lights were invented to hum in places like this. He crosses the room. He kneels. And the child — who could not fill out the paperwork, who could not pay the fee, who could not even understand what was missing — is lifted, held, and carried home.</p>
+   <p>Go back to that hallway. The fluorescent lights are still humming. The child is still sitting on the mattress, legs dangling, watching the door. But the door is opening now. And the One who walks through it is not a stranger evaluating options — He is a Father who has known this child's name since before the hallway existed, before the orphanage was built, before the fluorescent lights were invented to hum in places like this. He crosses the room. He kneels. And the child — who could not fill out the paperwork, who could not pay the fee, who could not even understand what was missing — is lifted, held, and carried home.</p>
 
-        <p>Now stand for a moment with what just happened. The child made no decision. The child filed no petition. The child did not even know to be hopeful. And the only thing about that scene that is unbearable to the modern ear — the part that says <em>the child contributed nothing</em> — is the very thing that makes the homecoming safe. A belonging the child did not negotiate is a belonging the child cannot lose. The hands that lifted are the only hands strong enough to keep what they have lifted, because the keeping does not depend on the strength of the one being kept.</p>
+   <p>Now stand for a moment with what just happened. The child made no decision. The child filed no petition. The child did not even know to be hopeful. And the only thing about that scene that is unbearable to the modern ear — the part that says <em>the child contributed nothing</em> — is the very thing that makes the homecoming safe. A belonging the child did not negotiate is a belonging the child cannot lose. The hands that lifted are the only hands strong enough to keep what they have lifted, because the keeping does not depend on the strength of the one being kept.</p>
 
-        <p>The child did not choose the Father. The child was chosen. And that is why the child will never be put back — not because the child became suddenly impressive in the car ride home, but because the One who reached down was settling something older than the orphanage, older than the hallway, older than time itself. The name on the papers was already in the Father's mouth before the foundations of the world were laid. The only thing left to do was come and collect what was always His.</p>
+   <p>The child did not choose the Father. The child was chosen. And that is why the child will never be put back — not because the child became suddenly impressive in the car ride home, but because the One who reached down was settling something older than the orphanage, older than the hallway, older than time itself. The name on the papers was already in the Father's mouth before the foundations of the world were laid. The only thing left to do was come and collect what was always His.</p>
 
-        <p>Welcome home. You always belonged here. The ache you have felt your whole life was not the absence of a Father. It was the long, quiet, sovereign sound of one already on His way.</p>
+   <p>Welcome home. You always belonged here. The ache you have felt your whole life was not the absence of a Father. It was the long, quiet, sovereign sound of one already on His way.</p>
 
     
 <!-- RELATED-ARTICLES-START -->
@@ -283,82 +283,82 @@
     <h2 class="related-articles-heading">Keep Exploring</h2>
     <p class="related-articles-subtitle">Every truth connects to every other truth. Here are more doorways in.</p>
     <div class="related-articles-grid">
-      <a href="/analogy-light-switch" class="related-article-card">
-        <span class="related-article-cat">🧩 Analogies</span>
-        <span class="related-article-title">Who Turns On the Light?</span>
-        <span class="related-article-desc">Faith is like a light switch — real, necessary, genuinely flipped by you. But if there&#39;s no electricity, the switch does nothing. God…</span>
-      </a>
-      <a href="/analogy-song-you-didnt-compose" class="related-article-card">
-        <span class="related-article-cat">🧩 Analogies</span>
-        <span class="related-article-title">The Song You Didn&#39;t Compose — Why Beauty Proves Grace</span>
-        <span class="related-article-desc">Beauty moves you without your permission. It acts on you from outside. That is exactly how grace works — and the proof is hiding in every…</span>
-      </a>
-      <a href="/story-the-room-where-you-chose" class="related-article-card">
-        <span class="related-article-cat">📖 Stories</span>
-        <span class="related-article-title">Did You Really Choose God?</span>
-        <span class="related-article-desc">Pull a golden thread back through time, watching how the moment you thought was your choice—when you decided to follow God—was actually…</span>
-      </a>
-      <a href="/anxious-mind-scrupulosity" class="related-article-card">
-        <span class="related-article-cat">💚 Anxious Mind</span>
-        <span class="related-article-title">Religious OCD — When Your Mind Won&#39;t Stop Accusing You</span>
-        <span class="related-article-desc">It is the middle of the night and you are gripping the edge of the mattress. Your knuckles are white. The thought came again — the one you…</span>
-      </a>
-      <a href="/shattered-lens-cant-unsee-it" class="related-article-card">
-        <span class="related-article-cat">🔍 Shattered Lens</span>
-        <span class="related-article-title">When You Can&#39;t Unsee It</span>
-        <span class="related-article-desc">Scripture suddenly reveals a truth you can&#39;t unsee—God is sovereign in salvation, completely, utterly, without competition. Everything…</span>
-      </a>
-      <a href="/objection-why-pray" class="related-article-card">
-        <span class="related-article-cat">🛡 Objections</span>
-        <span class="related-article-title">Does Prayer Change God&#39;s Mind? Prayer and the Sovereign Decree</span>
-        <span class="related-article-desc">That&#39;s the hinge. God&#39;s predestination includes not only the ends you&#39;re praying for, but the means by which those ends are accomplished.…</span>
-      </a>
-    </div>
+   <a href="/analogy-light-switch" class="related-article-card">
+   <span class="related-article-cat">Analogies</span>
+   <span class="related-article-title">Who Turns On the Light?</span>
+   <span class="related-article-desc">Faith is like a light switch — real, necessary, genuinely flipped by you. But if there&#39;s no electricity, the switch does nothing. God…</span>
+</a>
+   <a href="/analogy-song-you-didnt-compose" class="related-article-card">
+   <span class="related-article-cat">Analogies</span>
+   <span class="related-article-title">The Song You Didn&#39;t Compose — Why Beauty Proves Grace</span>
+   <span class="related-article-desc">Beauty moves you without your permission. It acts on you from outside. That is exactly how grace works — and the proof is hiding in every…</span>
+</a>
+   <a href="/story-the-room-where-you-chose" class="related-article-card">
+   <span class="related-article-cat">Stories</span>
+   <span class="related-article-title">Did You Really Choose God?</span>
+   <span class="related-article-desc">Pull a golden thread back through time, watching how the moment you thought was your choice—when you decided to follow God—was actually…</span>
+</a>
+   <a href="/anxious-mind-scrupulosity" class="related-article-card">
+   <span class="related-article-cat">Anxious Mind</span>
+   <span class="related-article-title">Religious OCD — When Your Mind Won&#39;t Stop Accusing You</span>
+   <span class="related-article-desc">It is the middle of the night and you are gripping the edge of the mattress. Your knuckles are white. The thought came again — the one you…</span>
+</a>
+   <a href="/shattered-lens-cant-unsee-it" class="related-article-card">
+   <span class="related-article-cat">Shattered Lens</span>
+   <span class="related-article-title">When You Can&#39;t Unsee It</span>
+   <span class="related-article-desc">Scripture suddenly reveals a truth you can&#39;t unsee—God is sovereign in salvation, completely, utterly, without competition. Everything…</span>
+</a>
+   <a href="/objection-why-pray" class="related-article-card">
+   <span class="related-article-cat">Objections</span>
+   <span class="related-article-title">Does Prayer Change God&#39;s Mind? Prayer and the Sovereign Decree</span>
+   <span class="related-article-desc">That&#39;s the hinge. God&#39;s predestination includes not only the ends you&#39;re praying for, but the means by which those ends are accomplished.…</span>
+</a>
+</div>
     <div class="related-articles-browse">
-      <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
-      <a href="/topics" class="related-browse-link">Explore by Topic →</a>
-    </div>
-  </div>
+   <a href="/all-content" class="related-browse-link">Browse All Articles →</a>
+   <a href="/topics" class="related-browse-link">Explore by Topic →</a>
+</div>
+</div>
 </section>
 <!-- RELATED-ARTICLES-END -->
 </article>
 
     <footer>
-        <div class="footer-container">
-            <div class="footer-section">
-                <h4>Truth</h4>
-                <ul>
-                    <li><a href="/questions">Questions</a></li>
-                    <li><a href="/systematic-theology">Systematic Theology</a></li>
-                    <li><a href="/demolition-hub">Demolition</a></li>
-                    <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Explore</h4>
-                <ul>
-                    <li><a href="/start-here">Start Here</a></li>
-                    <li><a href="/theologians">Theologians</a></li>
-                    <li><a href="/devotionals">Devotionals</a></li>
-                    <li><a href="/stories">Stories</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Connect</h4>
-                <ul>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-grace-warning">
-            "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
-            Grace is not a license to sin. It is the power that frees us from sin's dominion.
-        </div>
-        <div class="footer-copyright">
-            <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
-        </div>
+   <div class="footer-container">
+   <div class="footer-section">
+   <h4>Truth</h4>
+   <ul>
+   <li><a href="/questions">Questions</a></li>
+   <li><a href="/systematic-theology">Systematic Theology</a></li>
+   <li><a href="/demolition-hub">Demolition</a></li>
+   <li><a href="/scripture-tsunami">Scripture Tsunami</a></li>
+   </ul>
+</div>
+   <div class="footer-section">
+   <h4>Explore</h4>
+   <ul>
+   <li><a href="/start-here">Start Here</a></li>
+   <li><a href="/theologians">Theologians</a></li>
+   <li><a href="/devotionals">Devotionals</a></li>
+   <li><a href="/stories">Stories</a></li>
+   </ul>
+</div>
+   <div class="footer-section">
+   <h4>Connect</h4>
+   <ul>
+   <li><a href="/about">About</a></li>
+   <li><a href="/contact">Contact</a></li>
+   <li><a href="https://paypal.me/formanna77" target="_blank" rel="noopener">Support This Ministry</a></li>
+   </ul>
+</div>
+</div>
+   <div class="footer-grace-warning">
+  "Shall we go on sinning so that grace may increase? By no means!" — Romans 6:1-2<br>
+  Grace is not a license to sin. It is the power that frees us from sin's dominion.
+</div>
+   <div class="footer-copyright">
+   <p>&copy; 2026 Adopted by Grace. All rights reserved.</p>
+</div>
     </footer>
 
     <script src="/nav.js"></script>
