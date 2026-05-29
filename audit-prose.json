@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-29T19:43:59.653Z",
+  "generated": "2026-05-29T20:36:29.280Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 589,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1276,
+    "total_sentences_flagged": 1280,
     "total_redundancy_pairs_suppressed": 20,
     "total_sentences_suppressed": 183,
     "articles_with_redundancy": 12,
-    "articles_with_flagged_sentences": 437,
-    "articles_clean": 146,
+    "articles_with_flagged_sentences": 439,
+    "articles_clean": 144,
     "suppression_by_class": {
       "scripture-tsunami": 11,
       "pedagogical-anaphora": 2,
@@ -6075,7 +6075,7 @@
           "paragraph": 19,
           "sentence_index": 0,
           "suppressed_flags": [
-            "length-suppressed-embedded-quotation:72w-raw/49w-prose"
+            "length-suppressed-embedded-quotation:70w-raw/49w-prose"
           ],
           "preview": "Before Jacob and Esau were born, before either had done anything good or bad, God told Rebekah: \"The older shall serve t"
         },
@@ -7166,11 +7166,19 @@
     },
     {
       "file": "demolition-mark16-16.html",
-      "paragraphs": 18,
+      "paragraphs": 19,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 17,
+          "paragraph": 14,
+          "sentence_index": 1,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "You could argue that the this in Ephesians 2:8 refers only to grace and not to faith  —  but the Greek will not bend that way: touto is neuter and cannot reach back to pistis , which is feminine; it c"
+        },
+        {
+          "paragraph": 18,
           "sentence_index": 1,
           "flags": [
             "long:46w"
@@ -7181,10 +7189,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 2
     },
     {
       "file": "demolition-matt11-28.html",
@@ -9845,16 +9853,25 @@
     },
     {
       "file": "history-apostolic.html",
-      "paragraphs": 19,
+      "paragraphs": 13,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 11,
+          "sentence_index": 3,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "It was handed to you by someone, who took it from someone, back and back through eighteen centuries that thin as you follow them  —  down to a handful of names, and then to one old man at a stake who "
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 1
     },
     {
       "file": "history-augustine-pelagius.html",
@@ -12080,15 +12097,23 @@
             "long:65w"
           ],
           "preview": "This is the prophet the early church called \"the fifth Gospel.\" Paul quoted Isaiah more than any other Old Testament book, and for good reason: every major truth of sovereign grace is already here  — "
+        },
+        {
+          "paragraph": 27,
+          "sentence_index": 1,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "Isaiah's God is not a summit you must cling to by your own strength; He is the One who said, through this very prophet, that He carries His people from the womb to the grey hairs  —  and has never yet"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 2
     },
     {
       "file": "ot-israel-chosen.html",
@@ -12583,16 +12608,25 @@
     },
     {
       "file": "philosophy-bootstrap-paradox.html",
-      "paragraphs": 44,
+      "paragraphs": 43,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 41,
+          "sentence_index": 0,
+          "flags": [
+            "long:49w"
+          ],
+          "preview": "And the Composer has a name  —  Father, Son, and Spirit: the One who decreed the music before the world was, the One who bought your hearing of it with His own blood, the One who breathes it even now "
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 1
     },
     {
       "file": "philosophy-children-argument.html",
