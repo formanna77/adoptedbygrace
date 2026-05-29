@@ -2,7 +2,7 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-29T20:36:29.280Z",
+  "generated": "2026-05-29T21:38:17.144Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 589,
@@ -6459,7 +6459,7 @@
     },
     {
       "file": "demolition-2peter3-15.html",
-      "paragraphs": 24,
+      "paragraphs": 25,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -6545,7 +6545,7 @@
     },
     {
       "file": "demolition-acts17-30.html",
-      "paragraphs": 35,
+      "paragraphs": 36,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -6558,7 +6558,7 @@
     },
     {
       "file": "demolition-acts2-21.html",
-      "paragraphs": 39,
+      "paragraphs": 40,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -6580,7 +6580,7 @@
     },
     {
       "file": "demolition-acts7-51.html",
-      "paragraphs": 45,
+      "paragraphs": 46,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -6971,7 +6971,7 @@
     },
     {
       "file": "demolition-james4-7-8.html",
-      "paragraphs": 30,
+      "paragraphs": 31,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -7239,7 +7239,7 @@
     },
     {
       "file": "demolition-matt7-7.html",
-      "paragraphs": 34,
+      "paragraphs": 35,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [
@@ -7313,7 +7313,7 @@
     },
     {
       "file": "demolition-philippians2-12-13.html",
-      "paragraphs": 28,
+      "paragraphs": 29,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -7326,7 +7326,7 @@
     },
     {
       "file": "demolition-prevenient-grace.html",
-      "paragraphs": 27,
+      "paragraphs": 28,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -7392,7 +7392,7 @@
     },
     {
       "file": "demolition-romans10-9.html",
-      "paragraphs": 45,
+      "paragraphs": 46,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -7405,7 +7405,7 @@
     },
     {
       "file": "demolition-romans11-32.html",
-      "paragraphs": 23,
+      "paragraphs": 24,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
