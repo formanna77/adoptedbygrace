@@ -745,18 +745,83 @@ function detectStructuralRotV5(html) {
   };
 }
 
+// ──────────────────────────────────────────────────────────────────
+// v4 (S78): reasons-grid MARGINAL-predictor detector
+// Born in S77 leg-7 cohort audit of objection-* family. The pattern
+// `class="reasons-grid"` containing ≥2 numbered `<div class="reason-card">`
+// inside <article class="article-body"> correlated 4/4 with MARGINAL §XVI
+// sapiential-register verdicts (objection-unfair-to-choose-some,
+// objection-why-evangelize, objection-why-pray, objection-why-believe before
+// the S77 lift). The mechanism: numbered cards substitute pedagogical
+// scaffolding for sustained prose, fragmenting the wisdom-axis register
+// into Sunday-school cadence. Flag-only (no auto-fix); the candidates
+// list feeds the standing cohort cold-read protocol.
+// ──────────────────────────────────────────────────────────────────
+function detectReasonsGridV4(html) {
+  // Only count within article-body. Hub pages and resource indexes
+  // legitimately use grid layouts; the flag is about *prose* register.
+  const bodyOpen = html.search(/<article\b[^>]*class="[^"]*article-body[^"]*"/i);
+  if (bodyOpen === -1) return { flagged: false, reason: 'not an article-body page' };
+  const bodyEnd = html.lastIndexOf('</article>');
+  const body = html.slice(bodyOpen, bodyEnd === -1 ? html.length : bodyEnd);
+
+  const reasonsGridCount = (body.match(/class="[^"]*reasons-grid[^"]*"/gi) || []).length;
+  if (reasonsGridCount === 0) return { flagged: false, reason: 'no reasons-grid present' };
+
+  // Numbered card heuristic: <div class="reason-card"> with a <div class="reason-number">
+  // OR <h3>1.</h3>/<h4>1.</h4> inside. We use the simpler proxy of
+  // distinct .reason-card divs (the cohort-confirmed marker).
+  const reasonCardCount = (body.match(/class="[^"]*reason-card[^"]*"/gi) || []).length;
+  const reasonNumberCount = (body.match(/class="[^"]*reason-number[^"]*"/gi) || []).length;
+
+  const flagged = reasonsGridCount >= 1 && reasonCardCount >= 2;
+  return {
+    flagged,
+    reasonsGridCount,
+    reasonCardCount,
+    reasonNumberCount,
+    reason: flagged
+      ? `${reasonsGridCount} reasons-grid × ${reasonCardCount} reason-card (S77 4/4 MARGINAL predictor)`
+      : 'no flag (insufficient reason-card density)',
+  };
+}
+
 // ── Main ──────────────────────────────────────────────────────────
 function main() {
   const files = fs.readdirSync(REPO_ROOT).filter(f => f.endsWith('.html')).sort();
   const articles = [];
 
+  // v4 (S78): reasons-grid MARGINAL-predictor — list-only mode
+  const listReasonsGrids = process.argv.includes('--list-reasons-grids');
+  if (listReasonsGrids) {
+    const reasonsGridCandidates = [];
+    for (const file of files) {
+      const html = fs.readFileSync(path.join(REPO_ROOT, file), 'utf8');
+      const r = detectReasonsGridV4(html);
+      if (r.flagged) reasonsGridCandidates.push({ file, ...r });
+    }
+    console.log(`v4 reasons-grid MARGINAL-predictor candidates: ${reasonsGridCandidates.length}\n`);
+    reasonsGridCandidates.forEach(c => {
+      console.log(`  ${c.file} — ${c.reasonsGridCount} reasons-grid × ${c.reasonCardCount} reason-card`);
+    });
+    process.exit(0);
+  }
+
   // ── v3 (S73): Structural-rot scan — runs on EVERY .html in REPO_ROOT, not
   // just <article class="article-body"> pages, because rot can appear on hubs too.
   const structureFlagged = [];
+  const reasonsGridFlagged = [];
   for (const file of files) {
     const html = fs.readFileSync(path.join(REPO_ROOT, file), 'utf8');
     const r = detectStructuralRotV5(html);
     if (r.rotted) structureFlagged.push({ file, ...r });
+    const r4 = detectReasonsGridV4(html);
+    if (r4.flagged) reasonsGridFlagged.push({ file, ...r4 });
+  }
+  if (reasonsGridFlagged.length === 0) {
+    console.log(`v4 reasons-grid MARGINAL-predictor: ✓ clean (0 of ${files.length} files flagged)`);
+  } else {
+    console.log(`v4 reasons-grid MARGINAL-predictor: ⚠ ${reasonsGridFlagged.length} file(s) flagged (S77 4/4 MARGINAL predictor; run --list-reasons-grids for the full list)`);
   }
   if (structureFlagged.length === 0) {
     console.log(`v3 structural-rot scan (v5 detector): ✓ clean (0 of ${files.length} files flagged)`);

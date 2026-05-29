@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-29T14:31:04.966Z",
+  "generated": "2026-05-29T16:02:02.952Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 589,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1259,
+    "total_sentences_flagged": 1268,
     "total_redundancy_pairs_suppressed": 20,
     "total_sentences_suppressed": 182,
     "articles_with_redundancy": 12,
-    "articles_with_flagged_sentences": 433,
-    "articles_clean": 150,
+    "articles_with_flagged_sentences": 435,
+    "articles_clean": 148,
     "suppression_by_class": {
       "scripture-tsunami": 11,
       "pedagogical-anaphora": 2,
@@ -878,41 +878,33 @@
     },
     {
       "file": "analogy-chess-grandmaster.html",
-      "paragraphs": 62,
+      "paragraphs": 42,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
           "paragraph": 9,
-          "sentence_index": 6,
+          "sentence_index": 5,
           "flags": [
-            "long:46w"
+            "long:51w"
           ],
-          "preview": "The grandmaster's foreknowledge doesn't erase the novice's agency — it presupposes it. (This is why even secular psychology is beginning to question our illusion of autonomy  — our choices feel free p"
+          "preview": "The Greek word Peter chose for handed over is ekdoton  —  given out, given up  —  the same root that runs through the prophets and that ends, on Calvary, with the Son giving Himself up for the elect H"
         },
         {
-          "paragraph": 17,
+          "paragraph": 10,
           "sentence_index": 0,
           "flags": [
             "long:63w"
           ],
           "preview": "Charles Spurgeon taught that Providence is simply the unfolding of what God has eternally decreed  —  in his own words from the 1858 sermon God's Providence : \"I believe that every particle of dust th"
-        },
-        {
-          "paragraph": 61,
-          "sentence_index": 0,
-          "flags": [
-            "long:51w"
-          ],
-          "preview": "And here is where the chess analogy arrives at its most devastating implication: if the Grandmaster knows every move before the game begins  —  if He planned the opening, the middlegame, and the endga"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 3,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 3
+      "score": 2
     },
     {
       "file": "analogy-doctor-corpse.html",
@@ -11462,25 +11454,49 @@
     },
     {
       "file": "objection-unfair-to-choose-some.html",
-      "paragraphs": 29,
+      "paragraphs": 25,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 22,
+          "paragraph": 12,
           "sentence_index": 2,
           "flags": [
-            "long:59w"
+            "long:47w"
           ],
-          "preview": "The eternal Son  —  the only Mediator between God and men, the great High Priest who lives forever to intercede for the ones whose names He carries upon His shoulders  —  entered the courtroom of just"
+          "preview": "Paul tells it the universe is a display  —  a vast and terrible stage on which the wrath of God and the riches of His mercy are both made visible, that what He is may be seen, by all who can be made t"
+        },
+        {
+          "paragraph": 17,
+          "sentence_index": 5,
+          "flags": [
+            "padding-modifier:in the silence"
+          ],
+          "preview": "The hand that came for you was the hand of a Father who had already decided, in the silence before there was time to decide anything in, that you would be His."
+        },
+        {
+          "paragraph": 18,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "Not as a coda, not as the polite religious bow at the end of a debate  —  but because the moment the objection is fully seen, worship is the only sane response left to a creature who finds himself, ag"
+        },
+        {
+          "paragraph": 19,
+          "sentence_index": 6,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "And what is left is a quiet you have not heard before  —  the quiet of having stopped insisting on the rules of a courtroom you were never a citizen of, the quiet of being held by the One whose hands "
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 4
     },
     {
       "file": "objection-why-believe.html",
@@ -11519,16 +11535,49 @@
     },
     {
       "file": "objection-why-evangelize.html",
-      "paragraphs": 28,
+      "paragraphs": 21,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 5,
+          "sentence_index": 5,
+          "flags": [
+            "long:54w"
+          ],
+          "preview": "All of us, if we are faithful, will be wounded by it in ways no theology of sovereignty can numb us against  —  because the very point of being the means is to bear, in our small and obedient way, the"
+        },
+        {
+          "paragraph": 12,
+          "sentence_index": 2,
+          "flags": [
+            "long:64w"
+          ],
+          "preview": "It is the cost of being thought presumptuous, the cost of being told gently or not gently to mind your own business, the cost of being the one who broke the unspoken contract of polite suburban Christ"
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 4,
+          "flags": [
+            "long:63w"
+          ],
+          "preview": "They make the cost worth bearing , because every step into the neighbor's driveway is a step the eternal Father has already ordained, and the words the Spirit gives you to say are words He has already"
+        },
+        {
+          "paragraph": 16,
+          "sentence_index": 0,
+          "flags": [
+            "long:59w"
+          ],
+          "preview": "And he knows one more thing, which the doctrine has finally taught him to know in his bones rather than in his head: somewhere on the long road back into his own conversion, there was a man who once p"
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 4
     },
     {
       "file": "objection-why-not-save-everyone.html",
@@ -11554,16 +11603,41 @@
     },
     {
       "file": "objection-why-pray.html",
-      "paragraphs": 28,
+      "paragraphs": 24,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 9,
+          "sentence_index": 4,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The hand of God laid on the king's life again  —  all of these things had been one thing in the mind of God since before the foundation of the world, and they walked out into time in the order God had"
+        },
+        {
+          "paragraph": 17,
+          "sentence_index": 4,
+          "flags": [
+            "direction-mismatch:\\b(rose|rising|ascended|climbing|climbed"
+          ],
+          "preview": "The same person down the hall whose chest is rising and falling more slowly than it was an hour ago."
+        },
+        {
+          "paragraph": 18,
+          "sentence_index": 3,
+          "flags": [
+            "long:67w"
+          ],
+          "preview": "And whatever the morning brings  —  the one she has been dreading or the mercy she had not dared to hope for  —  she will know, on the other side of it, that the corridor was holy ground, and the pray"
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 3
     },
     {
       "file": "open-wound-betrayed-by-church.html",
@@ -12712,7 +12786,7 @@
           "paragraph": 32,
           "sentence_index": 7,
           "flags": [
-            "long:58w"
+            "long:67w"
           ],
           "preview": "The mirror that ends self-trust is the same mirror that has been reflecting, all along, the face of a Rescuer who chose you before the foundation of the world  —  and the choosing was so quiet, and so"
         },

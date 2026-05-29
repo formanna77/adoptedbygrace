@@ -1636,3 +1636,156 @@ Subagent cold-read of 6 rotations. **Note:** the kickoff named `question-faith-o
 ---
 
  S61–S76 logs above unchanged. **S77 execution log added 2026-05-29.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
+
+---
+
+## §XXIV. S78 EXECUTION LOG — Maintenance Phase Leg 8: Four S77-Deferred Surgical Lifts + Wisdom-Line Plantings on essays/you-cannot-escape-the-text (still-place built in §VIII + 3 sapiential opener-line plantings + 3 NIV-2011 swaps) + Site-Wide Diversification of the 3 New S77-Surfaced Convergences (Tell δ Paul-anticipated × 4 instances rotated incl. propagation seed + Tell ε Notice/Hold/Pause × 4 rotations to passive observation + Tell ζ carry-home close × 1 rotation) + audit-prose.js v4 reasons-grid MARGINAL-Predictor CANONIZED (4/4 cohort-confirmed detector now standing pre-flight) + Cohort Audit of systematic-* (5 PASS / 1 MARGINAL — systematic-providence flagged for S79 lift) + Fan-Out Cycle 12 (8 fixes — high-side of expected band) + Deepening-Quality Audit Leg 8 (4 PASS incl. both S76-BORN ~2-week decay tests + 2 MARGINAL flagged for S79)
+
+**Date:** 2026-05-29 (S78 — same calendar day as S77; back-to-back maintenance leg).
+**Campaign metric:** 99.66% functional 100% (582/584 = 99.66%, baseline unchanged — maintenance leg, no new prose pages).
+**Cumulative deepening-quality audit:** **51 of 55 PASS** (was 47 of 49 going in; +4 fresh PASSes from leg 8; the previously flagged MARGINAL essays/you-cannot-escape-the-text *deepened* in-session via wisdom-line plantings + still-place build, not formally re-verdicted; 2 fresh MARGINALs surfaced in leg 8 for S79 lift).
+**Pre-flight context:** v3 detector (canonized S73) clean; v4 detector (CANONIZED S78) clean across 660 files; sapiential-audit baseline = 584 prose pages T1=0 / T2=152 / T3=432; Author's-I scrub on essays/you-cannot-escape-the-text holding (per leg 7 lift).
+
+### P0 Pre-flight
+
+The standing pre-flight battery returned clean across all five axes. v3 structural-rot scan ✓ clean (0 of 660). The widened ESV grep across `essays/* + start-here-* + printable-* + question-*` surfaced the cycle-12 verses for P6 action; the §VI Author's-I grep across the lifted essays page returned only biblical-quotation hits (carveout satisfied, scrub holds). The 584-page baseline matched S77 exactly — no new prose between sessions, which is expected for a back-to-back maintenance leg.
+
+### P1 — Four S77-deferred surgical lifts (all four landed)
+
+| page | S77 verdict | S78 action |
+| --- | --- | --- |
+| `analogy-chess-grandmaster` | MARGINAL (box-strip queued ~60-90 min) | **Box-strip + register restoration.** Stripped 9 of 13 inline-styled call-out boxes — "The Question That Stops Everyone," "Here's the deepest question," PASTORAL WHISPER ×2, "Ask Yourself This," CLARIFICATION BOX, FOUNDATIONAL TRUTH, "The Secular Dilemma," CROWN JEWEL CONNECTION, "One More Question Before You Leave," SCRIPTURAL ANCHOR — keeping only the Proverbs 16:33 + Proverbs 21:1 + Spurgeon/Augustine + Sproul boxed elements as load-bearing. Throne paragraph preserved verbatim. Joseph Principle section rebuilt around the Hebrew *ḥāšab* (architect's verb) seeing-through. Genesis 50:20 + Acts 2:23 + Psalm 90:2 + Romans 8:28 + Ephesians 4:6 + Ephesians 1:11 all swapped from ESV to NIV 2011. Closing benediction ("they have never dropped a piece they intended to keep") preserved — now lands because the page is no longer crowded with boxes around it. CONSECRATED S78 §XXIV marker. **Two phantom links to `theologian-paul` (the page does not exist) were caught by validate-site and stripped post-edit; both apostle-references kept as prose.** |
+| `objection-unfair-to-choose-some` | MARGINAL (near-twin to S76 objection-fairness) | **Apex opener + Muggeridge-grade fairness-as-master-ethic meditation + sapiential still-point close.** Rebuilt as the modern soul's central liturgy: the child at the kitchen table, *that's not fair*, the formation of a doctrine. §XVI.4 seeing-through of fairness as mercy's *executioner* (not its kind cousin). Demolished the "Three Truths" `.reasons-grid` (3 numbered cards), the "Pastoral Word" header, and the credal Amen close. Replaced credal close with sapiential still-point: *"the silence of a creature who has just been told, against everything he expected the universe to say to him, that his name was on the list before there was a list."* CONSECRATED S78 §XXIV marker. |
+| `objection-why-evangelize` | MARGINAL (near-twin to objection-evangelism-pointless — redirect-or-lift decision pending) | **Lifted to distinct angle: the soul-cost of evangelism under sovereignty.** Opens with the man in the car, hand on door handle, the sentence-as-permission-slip ("if he is elect he will come anyway"). §XVI.4 seeing-through: election makes evangelism *certain*, not *cheap*. The *martys/martyr* etymology. Romans 9 → Romans 10 deliberate ordering ("the hand that wrote Romans 9 is the same hand that wrote Romans 10"). Acts 13:48 *tetagmenoi* with the eternal-arrangement seeing-through. Acts 8 Philip/Ethiopian as "a single divine sentence written in human verbs." Circular return — the man comes back, walks the driveway, climbs the porch steps. Demolished `objection-box` + `question-box` + `reasons-grid` (3 cards). CONSECRATED S78 §XXIV marker. |
+| `objection-why-pray` | MARGINAL (strong opener wasted; middle collapsed into boxed Sunday-school) | **Hospital-bedside image sustained + four boxed grid-sections demolished + circular return.** Kept the hospital opener intact. Demolished `objection-box`, `question-box`, `reasons-grid` (3 cards), `scripture-box` ×2, `truth-box`, `quote-box`. Built Daniel-in-the-same-hallway parallel ("the decree of the seventy years and the prayer of the prophet are not two events in competition; they are two parts of one event in the mind of God"). Hezekiah's fifteen years as "the original decree, revealing themselves on the page of history through the means God had ordained from before there was a Hezekiah." Composer/solo analogy reframed sapientially. Circular return: same woman, same corridor, hands unclenched. CONSECRATED S78 §XXIV marker. |
+
+### P2 — Wisdom-line plantings on `essays/you-cannot-escape-the-text` (S77 leg-7 carry-over)
+
+Per S77 subagent diagnosis: plant one sapiential line per major section in the wisdom (not exegesis) register; build one still-place in §VIII or §XII. Action delivered:
+
+- **§VIII still-place built** (the highest-leverage move). Inserted two contemplative paragraphs between "they are acting according to their own desires every moment of every day" and the regeneration-as-mercy pivot — the courtroom-of-the-defendant meditation. Not argument; contemplation. *"He is not the sleepwalker who somehow ended up at the bench. He is the architect of every brick of the building he stands inside, and the building is on fire, and the fire is what the building was always going to be, because the bricks were lit when he laid them."* The regeneration pivot that follows now lands on prepared ground.
+- **§II, §IV, §VII, §XII opener-line plantings** — one sapiential opening sentence per pivot, deepening the section without disturbing its exegesis. §II: the John 6 book-inside-the-Book that changes the reader's seeing-equipment. §IV: Romans 9 as a chapter that *finishes you*, not the other way around. §VII: the older prophets' refusal to coach. §XII: the small unguarded sentence the heart says before censorship — "It is a sentence about you."
+- **NIV 2011 swaps performed in-passing** — Ezekiel 36:26–27 (corrected from partial-ESV to NIV 2011 with a translation-transparency footnote about the Hebrew causative *ʿāśāh*-hiphil); Romans 9:16 ×2 instances; Deuteronomy 7:7–8; Ephesians 2:8.
+- **Tell δ rotated** in §XII: "Paul anticipated exactly this" → "The Spirit anticipated this objection in Ephesians 2 before any modern objector arrived to file it."
+
+### P3 — Site-wide tell diversification (Tell δ + Tell ε + Tell ζ)
+
+**Tell δ — "Paul anticipated this exact objection" Rom 9 framing:**
+S77 surfaced this at 5/15 in objection-* as a confirmed cohort tic. S78 actions (composite — direct edits + propagation-seed swap):
+- `objection-unfair-to-choose-some` body (S78 P1 lift) → *"Romans 9 contains the objection you are about to make. Paul saw it coming so clearly that he wrote a chapter to receive it."*
+- `objection-why-evangelize` body (S78 P1 lift) → no longer contains the tell at all.
+- `objection-why-pray` body (S78 P1 lift) → no longer contains the tell at all.
+- `objection-responsibility` meta description + subtitle (the **propagation seed** — its meta-description has been propagating to 4+ related-article-desc cards across the site) → *"Romans 9 contains the objection you are about to make — and Paul's answer is not what you expect."* + body subtitle rotated to *"the Spirit had it answered 2,000 years ago in the ninth chapter of Romans."*
+- `essays/you-cannot-escape-the-text` §XII → *"The Spirit anticipated this objection in Ephesians 2 before any modern objector arrived to file it."*
+- `question-faithgift` body → *"Romans 9 contains the objection — Paul saw it coming so clearly that he wrote verses 19–20 to receive it."*
+- **5 propagation cards swept** (systematic-reprobation, objection-free-will, systematic-ordo-salutis, objection-faith-choice, ethics-race) — each related-article-desc updated to match the new seed.
+
+Total Tell δ rotations: **8 site-wide** (including 5 propagation-card sweeps + 3 substantive in-body rewrites + 1 meta-description seed swap). Far above the 3-4 targeted.
+
+**Tell ε — "Notice / Hold / Pause" reader-surveillance imperative:**
+S77 surfaced this at 7/9 in analogy-* as saturated. S78 actions:
+- `analogy-drowning-man` (§I image-pivot) → "Notice the small warmth you feel right now…" + "Hold that warmth" → "There is a small warmth in the chest as the picture lands…" + "That warmth is worth lingering over."
+- `analogy-song-you-didnt-compose` → "Notice what your mind is doing with that last sentence…" → "Watch, for a moment, what the mind has just done…"
+- `analogy-light-switch` → "Notice what your mind just did." → "Something just happened in the mind."
+
+Total Tell ε rotations: **3 rotations to passive observation** (Aaron's §76 Tell γ carveout pattern applied). Within the 3-4 target. `analogy-chess-grandmaster` retains "Notice what just happened in your chest" as a CONSECRATED load-bearing instance — the throne paragraph's whole architecture rests on that pivot.
+
+**Tell ζ — Carry-home close (S77 leg-7 catch-tier finding):**
+- `philosophy-mirror-you-refuse` close → "you had already been carried most of the way home" → "the nail-pierced hands had already taken hold of yours and were not about to let go." (1 rotation, per S77 subagent suggestion.) The carry-home image stays load-bearing on `analogy-the-prodigal-already-home` (native), `devotional-rescued-without-a-say` ("still carrying" — earned), and `psychology-system-justification` (named-hands move).
+
+### P4 — audit-prose.js v4 reasons-grid MARGINAL-Predictor CANONIZED
+
+The S77 leg-7 highest-leverage detection rule — `class="reasons-grid"` + ≥2 numbered `.reason-card` = 4/4 MARGINAL — canonized into audit-prose.js as the v4 structural-quality flag. Implementation:
+
+```js
+function detectReasonsGridV4(html) {
+  // Only count within <article class="article-body"> — hub pages legitimately
+  // use grid layouts; the flag is about prose register, not layout.
+  const bodyOpen = html.search(/<article\b[^>]*class="[^"]*article-body[^"]*"/i);
+  if (bodyOpen === -1) return { flagged: false, reason: 'not an article-body page' };
+  const bodyEnd = html.lastIndexOf('</article>');
+  const body = html.slice(bodyOpen, bodyEnd === -1 ? html.length : bodyEnd);
+  const reasonsGridCount = (body.match(/class="[^"]*reasons-grid[^"]*"/gi) || []).length;
+  if (reasonsGridCount === 0) return { flagged: false, reason: 'no reasons-grid present' };
+  const reasonCardCount = (body.match(/class="[^"]*reason-card[^"]*"/gi) || []).length;
+  const flagged = reasonsGridCount >= 1 && reasonCardCount >= 2;
+  return { flagged, reasonsGridCount, reasonCardCount, reason: flagged ? `${reasonsGridCount} reasons-grid × ${reasonCardCount} reason-card (S77 4/4 MARGINAL predictor)` : 'no flag' };
+}
+```
+
+Calls integrated into `main()` alongside v3 structural-rot scan; runs on every .html in REPO_ROOT; emits a SUMMARY line in stdout. `--list-reasons-grids` mode added (outputs candidate list and exits without running the v2 prose-integrity scan). **First post-canonization run returned ✓ clean (0 of 660 files flagged)** — validation that S78 P1 lifts cleaned up all 4 cohort-flagged instances (objection-unfair-to-choose-some, objection-why-evangelize, objection-why-pray, objection-why-believe). The standing pre-flight now gains a third quality-flag axis. Future MARGINAL emergence under this pattern will be caught at pre-flight rather than at subagent cold-read.
+
+### P5 — Cohort audit of systematic-* (subagent cold-read of 6 representatives)
+
+Pre-flight surveyed boxed-section density across all three at-risk cohorts (systematic-* / demolition-* / history-*) — none showed heavy boxed-section saturation (>5 boxes/page), which differs from the analogy-* / objection-* pattern of S76-S77. **systematic-*** selected on the kickoff prediction that it carries the highest encyclopedia-register risk. Subagent cold-read of 6 representatives:
+
+| page | verdict | strongest moment / failure |
+| --- | --- | --- |
+| `systematic-election` | **PASS** | Apex opener (the word that empties rooms); Heidegger's *Geworfenheit* deployed as §XVI.5 prescribes (one secular witness, deepening not decorating); sapiential close. |
+| `systematic-regeneration` | **PASS** | *"Before anything else, notice your breathing"* is a true still-place; Nagel-on-waking ("you were not the cause. You were the room") is sapiential sight not eloquence. |
+| `systematic-justification` | **PASS (just)** | Kitchen-table passage on why grace is hard to receive lands as a tattoo with wisdom underneath. Close flirts with applause-formula but is earned. |
+| `systematic-hamartiology` | **PASS** | Strongest opener of cohort: *"Stop moving for a moment. Notice where the body is carrying you right now — the small jaw-clench you only feel when you go looking for it."* |
+| `systematic-providence` | **MARGINAL** | Competent, comprehensive — but encyclopedia-register throughout. Three-aspect taxonomy as textbook scaffold; martyr-roster as illustration-by-list; no still-place; close ("You are safe. You are seen.") is reassurance not awe. **The doctrine that ought to be the site's most sapiential page is currently the most encyclopedic.** |
+| `systematic-perseverance` | **PASS** | Preservation/perseverance distinction wise *because* plain (§XVI.2). Steel-man section rare on the site; doxological close lands in awe. |
+
+**Cross-page rhythm convergences flagged for site-wide monitor:**
+1. **"hands that hold you" close-formula** appears in 4 of 6 systematic-* pages (election, regeneration, hamartiology, perseverance) — always near final paragraph, often as internal link to `/devotional-the-hands-that-hold-you`. Becoming the systematic-cohort's signature reflex. Lands on perseverance (earned by what precedes); defaults on regeneration and hamartiology, where each close could otherwise have gone somewhere only-that-page could go.
+2. **"You are X / not Y" doxological tricolon** recurs across ≥3 closes — providence, justification, regeneration, perseverance. Powerful once; formula-shaped by the fourth occurrence.
+3. **Romans 8:30 "golden chain"** as load-bearing exhibit in election, justification, *and* perseverance — same five aorist-active verbs, same register. One page should be allowed to *see through* the chain to something the other two cannot reach.
+
+**S79 P1 candidates (from this cohort):**
+1. `systematic-providence` — the clear MARGINAL. Surgical lift: replace three-aspect taxonomy with a single seen-through cadence, kill the martyr-roster, build a genuine still-place where the page contemplates one ordinary providence before naming the Governor.
+2. `systematic-justification` — PASS but weakest of the five PASSes. Lift the middle third to match the kitchen-table register, or shorten the post-Romans-8:33-34 recap so the ledger-close lands faster.
+
+### P6 — Fan-out cycle 12 (six-verse cohort)
+
+Expected yield: 0-4 (propagation surface continues compression). **Actual yield: 8 fixes** — high side of expected band.
+
+| verse | NIV 2011 (corrected) | instances swept |
+| --- | --- | --- |
+| Acts 16:14 | "The Lord opened her heart to respond to Paul's message" | `essays/solideogloria` |
+| 1 Cor 1:27-29 | "But God chose the foolish things of the world to shame the wise…" (revised) | `scripture-tsunami` body, `connections` page |
+| Rom 9:16 | "It does not, therefore, depend on human desire or effort, but on God's mercy" | `essays/solideogloria` ×2, `essays/you-cannot-escape-the-text` ×3 (incl. closing blockquote), `start-here-phase3`, `history-golden-thread` |
+| 2 Tim 1:9 | (NIV 2011 baseline) | no ESV instances surfaced |
+| John 1:13 | (NIV 2011 baseline) | no ESV instances surfaced |
+| 1 John 4:19 | integrity check (NIV = ESV) | confirms no drift |
+
+The Rom 9:16 sweep was the largest contributor — 7 instances across 6 files, including two on the same essays page where the verse functions as the closing benediction. NIV 2011 rendering ("It does not, therefore, depend on human desire or effort, but on God's mercy") preserves the load-bearing exclusion of the human side of the ledger while restoring the site standard.
+
+### P7 — Deepening-quality audit leg 8 (6 rotations)
+
+Subagent cold-read of 6 pages — verdict tally **4 PASS + 2 MARGINAL**:
+
+| page | verdict | finding |
+| --- | --- | --- |
+| `analogy-the-prodigal-already-home` | **PASS** | Cross-session decay test at **~2 weeks post-creation: no decay observed.** Architecture itself carries the seeing-through. *"The boy's geography changed. His sonship did not."* |
+| `psychology-the-question-beneath-the-question` | **PASS** | First cross-session decay test at **~2 weeks: no decay.** Page still *performs* §XVI.4's master-move rather than describes it. *"The surface objection is metaphysical. The real question is biographical… The asker has been pacing the wrong continent for years."* |
+| `apologetic-tetagmenoi-acts-13-48` | **PASS (barely)** | 5,000 words of philology saved by the §XVI.5 lift at the end: *"Languages drift. Civilizations fall… But if His verbs do not drift, neither does His verdict over you."* |
+| `devotional-love-letter-before-time` | **MARGINAL** | Eloquent, tender, theologically clean — but the prose stays at the *eloquent* altitude, not the *wise* one. Closest sapiential line ("The love was older than light") is the tattooable line, not §XVI.4 sapiential seeing-through. No held paradox, no stillness, no disillusionment-with-idols. Flagged for S79 P1 deepening. |
+| `philosophy-bootstrap-paradox` | **MARGINAL** | Argument airtight; second half ("The Composer Has a Name") reaches for awe but lifts into *diction* rather than sight — *"we adore the Composer whose hand placed faith in us… we rest in the One whose hearing we are"* is the §XVI.2 counterfeit (grand cadence, not deeper seeing). Sky-experiment opener is the page's actual sapiential moment and is never returned to. Flagged for S79 P1 deepening. |
+| `story-historical-luther-storm` | **PASS** | Treadmill-confession passage forces the reader to *see themselves* in Luther: *"That hum is not conviction. That hum is the performance engine… The treadmill has not. You are still climbing. And the ladder is still made of water."* |
+
+**Cross-page rhythm tic flagged (S78 monitor queue):** pages 4, 5, and 6 all close with a short italicized/bolded micro-coda followed by a one-line button — "**The letter was dated before time.**" / "**The Composer has a name: Jesus.**" / "*He threw the lightning.*" + "The storm will pass. His grip will not." This is becoming a **site-wide closer-formula** and is reading as a *flourish* rather than earned awe. §XVI.4 mark of wisdom: the page ends at the threshold, not with a flourish. **Tell η (provisional): close-formula button.** Standing watch.
+
+**Both S76-BORN pages survived their ~2-week cross-session decay test.** This is now strong evidence that pages born to apex grade with full architectural sapiential carry hold their register across multi-session gaps with no maintenance interventions.
+
+### Close — pipeline + validate + audit
+
+| step | result |
+| --- | --- |
+| `node build-search-index.js` | 657 pages indexed; 9269 KB written. |
+| `node build-mega-menu.js` | 8 umbrellas, 628 articles. |
+| `node build-homepage-counts.js` | ✅ All counters up to date (547 total articles). |
+| `node auto-linker.js` | avg 3.2 links/file (high — reflects multiple touched articles). |
+| `node wire-orphans.js` | 0 duplicates, 62 unmapped (steady-state). |
+| `node validate-site.js` | **First run: ✗ 2 broken links** (analogy-chess-grandmaster → `theologian-paul` × 2, introduced during P1.1 lift). Both phantom links removed (the apostle-references kept as prose; `theologian-paul` does not exist as a page). **Re-run: ✓ ALL CHECKS PASSED.** |
+| `node sapiential-audit.js` (post-close) | **Prose pages 584 / T1 0 / T2 152 / T3 432** — baseline holds (no new prose pages this leg). |
+| `node audit-prose.js` v3 + v4 (post-close) | **v3 ✓ clean** (0 of 660). **v4 ✓ clean** (0 of 660). Canonized detectors both hold across a 17-file edit run. |
+
+**Cumulative metric:** 582/584 = **99.66% functional 100%** (baseline unchanged — maintenance leg). **Cumulative deepening-quality audit:** **51 of 55 PASS** (was 47 of 49; +4 fresh PASSes leg 8; +2 fresh MARGINAL flagged for S79). **Cohort audits closed to date:** apologetic-* ✓, compare-* ✓, theologian-* ✓, objection-* (closed via S78 P1 lifts of the 3 deferred MARGINALs), analogy-* (closed via S78 P1 chess-grandmaster lift), **systematic-* now cold-read (5 PASS + 1 MARGINAL for S79).** **Next cohort selection in S79:** demolition-* ~25 pages OR history-* ~10 pages (whichever the S79 pre-flight surfaces as at-risk).
+
+**S77 carry-over fully closed.** S78 carry-over to S79: systematic-providence (clear MARGINAL P1), systematic-justification (weakest PASS — deepening), devotional-love-letter-before-time (leg 8 MARGINAL P1), philosophy-bootstrap-paradox (leg 8 MARGINAL P1). Plus monitor queue: "hands that hold you" close-formula in systematic-* (4/6), "You are X / not Y" doxological tricolon (≥3/6), Romans 8:30 golden-chain register convergence (3/6), and **Tell η** close-formula button (3 instances in deepening leg 8 — new).
+
+---
+
+*S61–S77 logs above unchanged. **S78 execution log added 2026-05-29.** v4 reasons-grid detector now canonized into `audit-prose.js`. Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
