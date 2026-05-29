@@ -2,17 +2,17 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-29T16:02:02.952Z",
+  "generated": "2026-05-29T19:43:59.653Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 589,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1268,
+    "total_sentences_flagged": 1276,
     "total_redundancy_pairs_suppressed": 20,
-    "total_sentences_suppressed": 182,
+    "total_sentences_suppressed": 183,
     "articles_with_redundancy": 12,
-    "articles_with_flagged_sentences": 435,
-    "articles_clean": 148,
+    "articles_with_flagged_sentences": 437,
+    "articles_clean": 146,
     "suppression_by_class": {
       "scripture-tsunami": 11,
       "pedagogical-anaphora": 2,
@@ -670,6 +670,15 @@
       "suppressed_sentence_count": 0
     },
     {
+      "file": "systematic-providence.html",
+      "score": 5,
+      "paragraphs": 36,
+      "redundancy_count": 0,
+      "flagged_sentence_count": 5,
+      "suppressed_redundancy_count": 0,
+      "suppressed_sentence_count": 0
+    },
+    {
       "file": "theologian-bunyan.html",
       "score": 5,
       "paragraphs": 18,
@@ -731,15 +740,6 @@
       "flagged_sentence_count": 4,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0
-    },
-    {
-      "file": "apologetic-i-know-whom-i-have-believed.html",
-      "score": 4,
-      "paragraphs": 12,
-      "redundancy_count": 0,
-      "flagged_sentence_count": 4,
-      "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 1
     }
   ],
   "articles": [
@@ -1511,6 +1511,14 @@
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
+          "paragraph": 3,
+          "sentence_index": 4,
+          "flags": [
+            "long:48w"
+          ],
+          "preview": "The cognate noun is peripoiēsis  —  the word behind Ephesians 1:14, where the Spirit is the deposit guaranteeing our inheritance \"until the redemption of those who are God's possession ,\" and behind 1"
+        },
+        {
           "paragraph": 7,
           "sentence_index": 5,
           "flags": [
@@ -1530,10 +1538,10 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 3
     },
     {
       "file": "apologetic-chosen-as-firstfruits.html",
@@ -6078,12 +6086,20 @@
             "length-suppressed-chiasm:jesus,parables,given"
           ],
           "preview": "The disciples ask Jesus: \"Why do you speak to them in parables?\" His answer should stop every Arminian in their tracks: "
+        },
+        {
+          "paragraph": 56,
+          "sentence_index": 1,
+          "suppressed_flags": [
+            "length-suppressed-chiasm:chose,things,despised,boast"
+          ],
+          "preview": "God chose the lowly things of this world and the despised things  —  and the things that are not  —  to nullify the thin"
         }
       ],
       "redundancy_count": 0,
       "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
-      "suppressed_sentence_count": 2,
+      "suppressed_sentence_count": 3,
       "score": 0
     },
     {
@@ -8020,7 +8036,7 @@
     },
     {
       "file": "devotional-love-letter-before-time.html",
-      "paragraphs": 29,
+      "paragraphs": 31,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -10264,16 +10280,42 @@
     },
     {
       "file": "history-medieval.html",
-      "paragraphs": 22,
+      "paragraphs": 16,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 10,
+          "sentence_index": 2,
+          "flags": [
+            "long:57w",
+            "padding-modifier:in the dark"
+          ],
+          "preview": "It merely scaled, and stamped a price on, the precise thing every human heart does in private: the endless quiet purchasing of its own peace  —  the good week offered as a down payment, the religious "
+        },
+        {
+          "paragraph": 13,
+          "sentence_index": 0,
+          "flags": [
+            "long:56w"
+          ],
+          "preview": "By the close of the medieval period the gospel was all but invisible  —  grace turned into a substance the church dispensed, salvation turned into a process you advanced through by effort, the suffici"
+        },
+        {
+          "paragraph": 15,
+          "sentence_index": 2,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "It survived because the One who \"works in you to will and to act\" would not let it die  —  relighting it in Wycliffe when Rome believed the matter closed, in Hus when the fire seemed to have answered "
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 3,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 3
     },
     {
       "file": "history-open-theism.html",
@@ -12541,7 +12583,7 @@
     },
     {
       "file": "philosophy-bootstrap-paradox.html",
-      "paragraphs": 46,
+      "paragraphs": 44,
       "redundancy_pairs": [],
       "flagged_sentences": [],
       "suppressed_redundancy": [],
@@ -18942,9 +18984,9 @@
           "paragraph": 20,
           "sentence_index": 0,
           "flags": [
-            "long:50w"
+            "long:48w"
           ],
-          "preview": "This is the truth that made Luther dance and Bunyan weep and Spurgeon thunder and a million nameless saints lie down in peace at the end of their days, knowing  —  knowing  —  that the Judge of all th"
+          "preview": "This is the truth that let a million nameless saints lie down in peace at the end of their days  —  that made even Spurgeon , who knew his own heart far too well to trust it, rest his whole weight on "
         }
       ],
       "suppressed_redundancy": [],
@@ -19174,7 +19216,7 @@
     },
     {
       "file": "systematic-providence.html",
-      "paragraphs": 34,
+      "paragraphs": 36,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -19186,34 +19228,67 @@
           "preview": "Every electron orbiting every atom, every neuron firing in every brain, every decision being made in every heart, every star being born in every galaxy, every leaf falling in every forest  —  all of i"
         },
         {
+          "paragraph": 12,
+          "sentence_index": 4,
+          "flags": [
+            "padding-modifier:in the dark"
+          ],
+          "preview": "From our side, the toe stubbed in the dark is an accident."
+        },
+        {
           "paragraph": 21,
           "sentence_index": 1,
           "flags": [
             "long:53w"
           ],
           "preview": "The most evil act in human history  —  the torture and execution of the sinless Son of God  —  was, Scripture says explicitly, ordained by God: \"Herod and Pontius Pilate met together with the Gentiles"
+        },
+        {
+          "paragraph": 24,
+          "sentence_index": 2,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "We learned that the small things are not sealed off from the large ones  —  that in any system rich enough to be called alive, a difference too faint to measure at the start runs downhill into a diffe"
+        },
+        {
+          "paragraph": 25,
+          "sentence_index": 3,
+          "flags": [
+            "long-simile:17w"
+          ],
+          "preview": "The same rule that feels like a threat over your career and your health is the rule that feels like rescue over your salvation."
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 5,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 5
     },
     {
       "file": "systematic-regeneration.html",
       "paragraphs": 33,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 31,
+          "sentence_index": 3,
+          "flags": [
+            "long:51w"
+          ],
+          "preview": "You woke into a life you did not start, in a world you did not make, named in a book you did not write  —  and the breath moving in and out of your lungs as you read this is on loan from the same God "
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 1
     },
     {
       "file": "systematic-repentance.html",
