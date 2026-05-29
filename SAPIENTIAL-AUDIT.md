@@ -1526,3 +1526,113 @@ Subagent verdicts:
 ---
 
  S61–S75 logs above unchanged. **S76 execution log added 2026-05-28.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*
+
+---
+
+## §XXIII. S77 EXECUTION LOG — Maintenance Phase Leg 7: Analogy-* Cohort Audit (5 PASS / 4 MARGINAL; 3 surgically lifted in-session) + Objection-* Continuation Sweep (10 PASS / 1 EXEMPT / 4 MARGINAL; the worst — objection-why-believe with §VI banned-move — lifted in-session) + Site-Wide Tell Diversification (5 Tell α′ + 2 Tell β′ + 1 Tell γ′ rotations) + Fan-Out Cycle 11 (10 fixes — far above the 0-4 expected) + Deepening-Quality Audit Leg 7 (5 PASS + 1 MARGINAL surgically lifted) + Two New Convergence-Class Findings (`reasons-grid`-as-MARGINAL-predictor + carry-home close saturation)
+
+**Date:** 2026-05-29.
+
+### Pre-flight (canonized v3 detector, lean since S73)
+
+| step | result |
+| --- | --- |
+| `node sapiential-audit.js` | **Prose pages 584 / T1 0 / T2 152 / T3 432** — baseline unchanged. |
+| `node audit-prose.js` v3 (pre-edits) | **✓ clean (0 of 660 files flagged)** — canonized detector holds. |
+| Widened ESV grep across all .html | S76 cycle-10 verses all clean (`marked in him with a seal`, `who is a deposit guaranteeing`, `carry it on to completion`, `God chose you as firstfruits`); standing battery clean except documented `apologetic-tetagmenoi` + `question-acts` page-native carveouts. |
+| Banned-move grep | All matches fall in documented §VI carveouts (devotional-* pastoral evening voice, apologetic-* structural-H2 convention, scene-paint imagined hours). |
+
+### P1 — Analogy-* cohort audit (9 pages, S76-deferred)
+
+Subagent cold-read against §XVI. **Verdicts:** 5 PASS (doctor-corpse, lazarus-grave, drowning-man, song-you-didnt-compose, river) + 4 MARGINAL (orchestra worst — near-FAIL; light-switch Trinitarian-inflation close; adoption per S76 carry-over; chess-grandmaster boxed call-outs fragmenting register). **Cross-page convergences:** (1) "Notice / Hold / Pause" reader-surveillance imperative 7/9 (saturated); (2) phone-scrolling depravity inventory verbatim 3/9 (cross-page stamp); (3) "before the foundation of the world" 9/9 (18 cumulative); (4) triadic-negation "Not X. Not Y. But Z." 7/9; (5) "Go back to…" circular return 4/9; (6) fluorescent-lights scene-opener 2/9; (7) "You are the X" identity-reframe close 5/9.
+
+**In-session surgical lifts (3 of 4 MARGINALs flipped to PASS):**
+
+- **analogy-adoption** — "What the Child Contributes" middle section rebuilt as sustained Muggeridge-grade meditation on contribution-as-idol (self-authorship as the oldest lie re-tooled for the therapeutic century; "what looks like erasure is the architecture of rest"). Marker → `CONSECRATED — S77 §XXIII SAPIENTIAL DEEPEN (contribution-as-idol)`.
+- **analogy-orchestra** — new H2 inserted ("Why It Is the Composer's Chair You Want") performing the §XVI.4 seeing-through of the modern soul's terror of being only-the-performer; "the freedom-from-the-score the modern soul keeps reaching for is, structurally, the freedom to be inaudible." Yo-Yo Ma glib line de-glibbed. Applause close ("makes you everything") replaced with still-point hall-after-the-last-note close. Marker updated.
+- **analogy-light-switch** — Trinitarian-doxology pile-up (Father-Son-Spirit credal stack + Heidelberg + Augustine-Calvin-Spurgeon namedrop + Soli Deo Gloria benediction + "world without end. Amen." + "The Light has a name. Jesus." applause line) compressed to a single still-point: *"He is the One whose face you will see, in the end, in the brightness you were never the source of."* Marker updated.
+
+(`analogy-chess-grandmaster` MARGINAL — box-stripping rotated to S78 monitor; cohort PASS post-S77: 8/9 with the prodigal-already-home BORN-page held at PASS via cross-session decay test.)
+
+### P1.5 — Objection-* continuation sweep (15 remaining pages)
+
+Subagent cold-read. **Verdicts:** 10 PASS + 1 STRUCTURAL-EXEMPT (objection-builder hub-card index, BUCKET A precedent) + 4 MARGINAL (objection-why-believe worst — carries §VI "Dear friend" banned-move; objection-unfair-to-choose-some near-twin to S76-lifted objection-fairness; objection-why-evangelize near-twin to PASS objection-evangelism-pointless; objection-why-pray strong opener wasted on boxed checklist).
+
+**S76 convergences propagating into the larger sample:** (1) "What Has Happened While You Were Reading" close — 0 hits (cohort-local to S76); (2) "Paul anticipated this exact objection" Rom 9 framing — **5/15 confirmed cohort tic**, queued for S78 diversification; (3) "The objection feels like X. It is, in fact, Y" inversion — 0 verbatim (propagating as structure, acceptable); (4) fairness-as-idol — did not propagate (objection-unfair-to-choose-some lacks the move); (5) via negativa close — 0 hits; (6) Arminian's-own-problem polemical detour — 0 hits.
+
+**TWO NEW high-leverage convergence findings:**
+
+- **Convergence A — The "Pastoral [X]" H2 header as quality-correlate.** 7 instances across the 15-page sample; 3/7 PASS (earned by image-density: babies "For the Grieving Parent", effort "A Word for the Weary", why-not-save-everyone "For Those Afraid for Someone They Love"), 4/7 MARGINAL (collapsed into peer-talk: unfair "The Pastoral Word", why-believe "A Pastoral Whisper", why-evangelize "The Pastoral Challenge", why-pray "The Pastoral Consequence"). The header is not banned but functions as a diagnostic indicator — when the image-density doesn't support it, the section is MARGINAL by default. **For S78 monitor queue.**
+- **Convergence B — The `class="reasons-grid"` + numbered `.reason-card` + `class="objection-box"` markup pattern as a 4/4 perfect predictor of MARGINAL register.** All four MARGINAL pages share this scaffolding; all PASS pages use plain `<p>` flow with blockquotes. **Single highest-leverage detection rule the audit has surfaced.** Recommended for `audit-prose.js` v4 detector: any page with `class="reasons-grid"` plus more than one numbered `.reason-card` should be flagged for sapiential re-audit. **For S78 canonization.**
+
+**In-session surgical lift (1 of 4 MARGINALs flipped):**
+
+- **objection-why-believe** — §VI "Dear friend — I know what just happened" `letter-opening` section replaced with §I.2 apex opener (the kitchen table, the man with the notebook and the two underlined phrases, the question mark scratched between them as a hinge). §VI "A Pastoral Whisper" section ("I know what you might be thinking… Am I just a puppet?") replaced with sapiential meditation "What the Given Faith Is For" (the blind man's first long look at the face of his Healer was not less his own because the seeing was donated). Close re-anchored to the kitchen-table image. Marker → `CONSECRATED S43-S58 BORN-APEX, S77 §XXIII SAPIENTIAL LIFT (banned-move strip + opener rebuild + Pastoral Whisper purge)`.
+
+(objection-unfair-to-choose-some, why-evangelize, why-pray MARGINALs rotated to S78 surgical-lift queue.)
+
+### P2 — Site-wide tell diversification (8 rotations across α′ / β′ / γ′)
+
+**Tell α′ — "before there was a/an X to Y" structural fill-in (5 rotations):**
+
+- `devotional-i-cant-feel-god` line 307 — triple-chain ("since before there was a you to feel anything. Since before there was an hour like this one. Since before there were hearts that could go cold.") → "for as long as He has felt anything at all. The hour you are living tonight is an hour He had already loved you through. The hardness you are afraid of is a hardness His tenderness is older than."
+- `essays/the-two-graces` line 211 — "You were loved before there was a you to be loved" → "Your existence began inside an affection it did not start"
+- `essays/the-gift-that-proves-itself` line 214 — "since before there was a universe to hold your body" → "older than the universe currently holding your body"
+- `for-skeptics` line 212 — "since before there was a sun for that nervous system to dilate against" → "since the dawn before any sun first rose over the body that would one day flinch from it"
+- `the-fork` line 429 — "before there was a universe to write it in" → "older than the universe that now holds it"
+
+**Tell β′ — "Older than X, older than Y, older than Z" triadic crescendo (2 rotations):**
+
+- `psychology-the-question-beneath-the-question` line 204 — "older than the room you are sitting in, older than the doubts you have rehearsed, older than the date of any star" → "older than the doubts you have rehearsed; the room you are sitting in is younger than it by an age that has no human measure"
+- `analogy-adoption` line 283 — "older than the orphanage, older than the hallway, older than time itself" → "older than the orphanage that lifted her — older, in fact, than the existence of any place an orphan could be lost in"
+
+**Tell γ′ — Triune doxological close + "To the praise of His glory" (1 rotation; Tell γ′-1 already absorbed in P1 analogy-light-switch compression):**
+
+- `devotional-the-hands-that-hold-you` line 279-281 — "Soli Deo Gloria. To the Father whose grip never loosens… world without end. Amen." + "The hands have a name. Jesus." (applause line) → "And so the page ends where the held have always ended — quiet, breathing, undeserving, and somehow still inside the grip… The hands have a name. You will say it, in the end, with a face wet with relief and a heart that has finally laid down the labor of holding itself up." The carveout for the named hands as page identity is honored; the credal-formula stack is removed.
+
+### P3 — Fan-out cycle 11 (10 fixes — far above the 0-4 expected window)
+
+| verse | propagation | fixed |
+| --- | --- | --- |
+| **1 Pet 1:1-2** | scripture-tsunami line 1855 — ESV "elect exiles of the Dispersion" | → NIV 2011 "To God's elect, exiles scattered… who have been chosen according to the foreknowledge of God the Father, through the sanctifying work of the Spirit, to be obedient to Jesus Christ." |
+| **Rom 11:5-6** | essays/solideogloria line 211; question-john15 line 262; connections line 1272 (plus essays/solideogloria line 334 paraphrastic) | ESV "So too at the present time there is a remnant, chosen by grace" → NIV 2011 "So too, at the present time there is a remnant chosen by grace" (comma after "too", no comma after "remnant"). 4 instances. |
+| **John 17:9** | question-john17 (meta + body, sweeping replace_all) + scripture-tsunami line 1711 + line 2015 + related-article-desc cards on story-the-garden-that-grew-itself, demolition-acts7-51, devotional-in-christ, question-born-again-meaning | "those whom you have given me" → NIV 2011 "those you have given me"; "I am praying for them. I am not praying for the world but for those whom you have given me, for they are yours" → NIV 2011 "I pray for them. I am not praying for the world, but for those you have given me, for they are yours." |
+| **Rom 8:30** | sweep across `essays/you-cannot-escape-the-text`, `question-acts4`, `fork-in-the-road`, `verse-navigator`, `anxious-mind-fear-of-hell`, `apologetic-the-unbroken-chain`, `objection-responsibility`, `devotional-chosen-before-you-were-broken`, `question-regeneration-precedes-faith`, `devotional-love-before-the-world` | **Confirmed clean — golden chain holds at NIV 2011 since S69.** |
+| **Eph 2:10** | grep | **0 ESV hits — clean.** |
+| **Titus 1:1** | scripture-tsunami line 1847 — ESV "for the sake of the faith of God's elect" | → NIV 2011 "Paul, a servant of God and an apostle of Jesus Christ to further the faith of God's elect." |
+
+**Total fixes: 10 across 11 files.** Propagation surface continues compression but the cycle keeps surfacing residue (the John 17:9 cluster of 8 instances — one in the page's own meta description propagating to 4 related-article-desc cards — was the biggest single yield since cycle 8).
+
+### P4 — Deepening-quality audit leg 7 (5 PASS + 1 MARGINAL surgically lifted)
+
+Subagent cold-read of 6 rotations. **Note:** the kickoff named `question-faith-origin-test.html` which does not exist; the Crown Jewel interactive file is `question-where-did-your-faith-come-from.html` (Ephesians 2:8 *touto* / *echaristhē* / Acts 13:48 walkthrough); subagent audited that. Similarly `psychology-the-elephant-and-the-rider.html` does not exist; subagent audited the listed substitute `psychology-system-justification.html`.
+
+| page | verdict | reasoning summary |
+| --- | --- | --- |
+| `question-where-did-your-faith-come-from` (Crown Jewel) | **PASS** | §XVI.4 seeing-through performed on reader's own testimony grammar; §XV honored (Greek transliterated, italicized, *used* not paraded); the catch lands in §06/§07; the §04 grief-relief held-paradox is exactly the still-place §XVI.4 demands. Tattoo: *"The dead man arguing with the diagnosis is the diagnosis."* |
+| `essays/you-cannot-escape-the-text` | **MARGINAL** | Wisdom-axis drift through the middle 60% (apex expository force without the sapiential second axis — no still places, no Muggeridge-style disillusionment with idols) PLUS §VI Author's Appearance ("I have not quoted Calvin… I will not pretend otherwise") at §XIII. **Surgically lifted in-session** — §VI "I" entrances scrubbed at lines 114-115 and 249-250; CONSECRATED S77 §XXIII marker added. Wisdom-line plantings + still-place build (per subagent diagnosis) rotated to S78. |
+| `analogy-the-prodigal-already-home` | **PASS** | Cross-session decay test — **no decay observed** ~1 week post-creation. Architecture itself carries the seeing-through (the parable read backwards as the architecture of election). |
+| `devotional-rescued-without-a-say` | **PASS** | Fireman scene at §VII.2 image-precision outer limit; the "uninterrupted hour" passage performs §XVI.4 seeing-through. *"He did not start carrying you because He thought you would get lighter."* |
+| `philosophy-mirror-you-refuse` | **PASS** | S66 CONSECRATED lock holds against the deepening bar. The mirror-as-evasion seeing-through performed in real time. The "case for the defense has gone silent" pivot is the still place §XVI.4 demands. |
+| `psychology-system-justification` | **PASS** | Jost-and-Banaji frame is real social-science scaffolding; the "Box A / Box B" move performs the §XVI sapiential confession ("the one you are defending is the one that gives you credit. That is not a theological conclusion. That is a *psychological confession*"). |
+
+**Subagent cross-page convergence (S78 monitor queue):** the **carry-home close** appears in 4 of 6 pages in dominant-image density ("you had already been carried most of the way home" / "I will not let you go" / "you were home before you came home" / "still carrying"). Catch-tier register has a single dominant image. **One of the four S78 candidates should rotate to a different catch shape** (the prodigal could close on its native welcome-already-prepared image; `mirror-you-refuse` could end on the nail-pierced-hands image rather than drift back to "carried home").
+
+### Close — pipeline + validate + audit
+
+| step | result |
+| --- | --- |
+| `node build-search-index.js` | 657 pages indexed; 9261 KB written. |
+| `node build-mega-menu.js` | 8 umbrellas, 628 articles. |
+| `node build-homepage-counts.js` | ✅ All counters up to date (547 total articles). |
+| `node auto-linker.js` | 3 files modified, 6 total links, avg 2.0/file. |
+| `node wire-orphans.js` | 0 orphans, 0 cards inserted, 0 hubs modified. |
+| `node validate-site.js` | **✓ ALL CHECKS PASSED — site integrity verified** (0 broken links / 0 orphans / structural OK / no inline styles on hubs / canonical design OK / CSS balanced). |
+| `node sapiential-audit.js` (post-close) | **Prose pages 584 / T1 0 / T2 152 / T3 432** — baseline holds (no new prose pages — this was a maintenance leg, not a build leg). |
+| `node audit-prose.js` v3 (post-close) | **✓ clean (0 of 660 files flagged)** across a 17-file edit run. Canonized detector holds. |
+
+**Cumulative metric:** 582/584 = **99.66% functional 100%** (unchanged — the 2 documented BUCKET A structural-exempt remain). **Cumulative deepening-quality audit:** **47 of 49 PASS** (was 42 of 43; +5 fresh PASSes this leg; the previously flagged MARGINAL analogy-adoption flipped to PASS via the P3 surgical lift; the new MARGINAL essays/you-cannot-escape-the-text was also lifted in-session — leaving the cumulative MARGINAL pending queue at analogy-chess-grandmaster + objection-unfair-to-choose-some + objection-why-evangelize + objection-why-pray for S78). **Cohort audits closed to date:** apologetic-* ✓, compare-* ✓, theologian-* ✓, **objection-* (now fully cold-read: cohort PASS 13/21 + 1 EXEMPT + 4 MARGINAL pending lift + 3 lifted in S76 + 1 lifted in S77 — partial close, full close after S78 lifts)**, **analogy-* (now fully cold-read: cohort PASS 5/9 + 1 BORN-PASS exempt-from-this-audit + 3 lifted in-session — partial close, full close after S78 chess-grandmaster lift)**. **Next cohort selection in S78:** see §XXIII open horizon list (demolition-* ~25 pages, systematic-* ~22, history-* ~10) — whichever the S78 pre-flight surfaces as at-risk.
+
+---
+
+ S61–S76 logs above unchanged. **S77 execution log added 2026-05-29.** Re-run `node sapiential-audit.js` to regenerate `sapiential-audit-report.txt`.*

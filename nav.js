@@ -228,7 +228,7 @@
  { name: 'The Dead Man — A Visual Argument for Total Depravity', href: '/question-dead-man-visual', desc: 'A visual argument for Total Depravity: a corpse cannot reach for rescue. If you are alive in Christ, a voice reached int' },
  { name: 'The Doctrines of Grace, Explained Visually — Sovereign Grace You Can See', href: '/question-visual-theology', desc: 'The Reformed soteriological argument presented visually through logical flowcharts, diagrams, and devastating comparison' },
  { name: 'The Greek Tense That Settles the Debate — 1 John 5:1', href: '/question-1john5-1', desc: '1 John 5:1 — Everyone Who Believes Has Already Been Born of God' },
- { name: 'The Prayer That Proves Election — John 17', href: '/question-john17', desc: 'In John 17, Jesus prays exclusively for "those whom you have given me" — repeating the phrase seven times. He explicitly' },
+ { name: 'The Prayer That Proves Election — John 17', href: '/question-john17', desc: 'In John 17, Jesus prays exclusively for "those you have given me" — repeating the phrase seven times. He explicitly says' },
  { name: 'The Verse in Acts That Nobody Preaches – Acts 13:48', href: '/question-acts', desc: 'Luke the historian records a fact: in Pisidian Antioch, "all who were appointed for eternal life believed" (Acts 13:48).' },
  { name: 'Unconditional Election — On What Basis Did God Choose You?', href: '/question-unconditional', desc: 'Unconditional Election — On What Basis Did God Choose You?' },
  { name: 'Was Christ a Robot? If Predestination Didn\'t Rob Him, It Won\'t Rob You', href: '/question-was-christ-a-robot', desc: 'The crucifixion was predestined by God\'s "deliberate plan and foreknowledge." Was Christ a puppet? If predestination di' },

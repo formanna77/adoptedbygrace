@@ -2,12 +2,12 @@
   "audit": "prose-integrity",
   "phase": "F",
   "scanner_version": "v2 (Session 39 refinement — exemption taxonomy + coherence-positive suppressors + vehicle-tenor mismatch detector)",
-  "generated": "2026-05-28T15:19:23.673Z",
+  "generated": "2026-05-29T14:31:04.966Z",
   "spec": "audit-prose.js v2 — redundancy (Jaccard ≥ 0.35) with eight-class exemption filter + sentence-coherence heuristic with anaphora/chiasm/embedded-quotation suppressors + new vehicle-tenor mismatch detector",
   "totals": {
     "articles_audited": 589,
     "total_redundancy_pairs_flagged": 12,
-    "total_sentences_flagged": 1258,
+    "total_sentences_flagged": 1259,
     "total_redundancy_pairs_suppressed": 20,
     "total_sentences_suppressed": 182,
     "articles_with_redundancy": 12,
@@ -839,11 +839,19 @@
     },
     {
       "file": "analogy-adoption.html",
-      "paragraphs": 36,
+      "paragraphs": 40,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
-          "paragraph": 32,
+          "paragraph": 20,
+          "sentence_index": 1,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "We have been raised on a vocabulary of self-actualization in which to receive without contribution is a kind of dependency we associate with diminishment  —  children before they are old enough to ear"
+        },
+        {
+          "paragraph": 36,
           "sentence_index": 4,
           "flags": [
             "long:46w"
@@ -854,7 +862,7 @@
       "suppressed_redundancy": [],
       "suppressed_sentences": [
         {
-          "paragraph": 34,
+          "paragraph": 38,
           "sentence_index": 2,
           "suppressed_flags": [
             "length-suppressed-chiasm:child,older"
@@ -863,10 +871,10 @@
         }
       ],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 1,
-      "score": 1
+      "score": 2
     },
     {
       "file": "analogy-chess-grandmaster.html",
@@ -990,38 +998,20 @@
     },
     {
       "file": "analogy-light-switch.html",
-      "paragraphs": 36,
+      "paragraphs": 35,
       "redundancy_pairs": [],
-      "flagged_sentences": [
-        {
-          "paragraph": 32,
-          "sentence_index": 4,
-          "flags": [
-            "padding-modifier:into the dark"
-          ],
-          "preview": "The eternal Son, the only Mediator between God and men, walked into the dark Himself, took its weight upon His shoulders, and bore on Calvary the cost of every watt of grace that has ever flowed throu"
-        },
-        {
-          "paragraph": 32,
-          "sentence_index": 8,
-          "flags": [
-            "long:47w",
-            "padding-modifier:into the dark"
-          ],
-          "preview": "That I am not my own, but belong  —  body and soul, in life and in death  —  to my faithful Saviour Jesus Christ.\" Augustine wept it; Calvin wrote it; Spurgeon thundered it: the light flowing into the"
-        }
-      ],
+      "flagged_sentences": [],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 2,
+      "flagged_sentence_count": 0,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 2
+      "score": 0
     },
     {
       "file": "analogy-orchestra.html",
-      "paragraphs": 42,
+      "paragraphs": 45,
       "redundancy_pairs": [],
       "flagged_sentences": [
         {
@@ -1031,15 +1021,23 @@
             "long-simile:14w"
           ],
           "preview": "Not in contradiction  —  in concert, like an orchestra where the conductor and the musicians are moving together toward the same beauty."
+        },
+        {
+          "paragraph": 33,
+          "sentence_index": 1,
+          "flags": [
+            "long:55w"
+          ],
+          "preview": "We were raised inside a story in which a self is real only to the degree that it has originated itself  —  a creed never written down anywhere but absorbed at every birthday party that calls a five-ye"
         }
       ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 1,
+      "flagged_sentence_count": 2,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 1
+      "score": 2
     },
     {
       "file": "analogy-river.html",
@@ -11486,16 +11484,25 @@
     },
     {
       "file": "objection-why-believe.html",
-      "paragraphs": 56,
+      "paragraphs": 57,
       "redundancy_pairs": [],
-      "flagged_sentences": [],
+      "flagged_sentences": [
+        {
+          "paragraph": 2,
+          "sentence_index": 1,
+          "flags": [
+            "long:46w"
+          ],
+          "preview": "The mind dresses the protest as logic  —  why command what You have already decreed? why beg for what cannot be refused?  —  but the heart is asking something simpler and far more ancient: do I still "
+        }
+      ],
       "suppressed_redundancy": [],
       "suppressed_sentences": [],
       "redundancy_count": 0,
-      "flagged_sentence_count": 0,
+      "flagged_sentence_count": 1,
       "suppressed_redundancy_count": 0,
       "suppressed_sentence_count": 0,
-      "score": 0
+      "score": 1
     },
     {
       "file": "objection-why-command.html",
@@ -19637,7 +19644,7 @@
           "flags": [
             "padding-modifier:in the dark"
           ],
-          "preview": "Every moment of your life  —  every drift, every doubt, every rebellion, every prayer you prayed in the dark and thought no one heard  —  was happening inside a plan that was written before there was "
+          "preview": "Every moment of your life  —  every drift, every doubt, every rebellion, every prayer you prayed in the dark and thought no one heard  —  was happening inside a plan older than the universe that now h"
         }
       ],
       "suppressed_redundancy": [],
