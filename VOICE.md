@@ -661,8 +661,77 @@ If the honest answer is "competent but not wise," the page is not finished, no m
 
 ---
 
+## XVII. THE NEW-GROUND MANDATE — ADVANCE THE FAITH, NEVER RE-WRAP IT (Aaron, 2026-05-29)
+
+§XVI taught the page to *see*. This section commands it to *say what no one has yet said aloud*. Aaron's directive: **do not lean on what Christian thinkers have already found and merely re-dress it in finer prose — break new ground in Christian thought, and advance the church's grasp of the truth.** A page can pass every bar in this book — apex opener, the lethal moves, the tender catch, the tattooable line, the sapiential hush — and still hand the reader only a thought the church has held for four centuries, polished. That is now a failure state. Re-wrapping is the floor. *Discovery* is the ceiling, and the ceiling is the standard. But the mandate carries, in the same breath, the one boundary that keeps it from becoming the engine of every heresy. Read both halves as a single law.
+
+### XVII.1 — New ground in *sight*, never in *substance*
+
+The deposit is closed. The faith was "once for all entrusted to God's holy people" (Jude 3); even an angel from heaven preaching another gospel is to be cursed (Galatians 1:8). We do not invent doctrine, improve on the apostles, or add a sixth point to grace. Whoever sets out to discover a *new truth* about salvation will discover only a new error.
+
+And yet the well has no bottom. God is infinite, Scripture is His self-disclosure, and no generation has ever mined it out — "the boundless riches of Christ" (Ephesians 3:8) are boundless still. The truth is fixed; the *seeing* of it is not. New ground, then, is never newly-invented truth. It is **truth no one has yet seen from this angle, said in this way, joined to this other thing, or pressed this far down** — the same ancient gold, drawn from a seam no one has worked. The Reformation itself was not innovation but *recovery*: its giants broke ground by going deeper into the text than the age before them, not out beyond it. This site stands in that exact line. We break ground the way they did — downward into Scripture, never outward past it.
+
+### XVII.2 — Where the new ground actually lies (the seam, not the gold)
+
+The gold — total depravity, sovereign election, the gift of faith, the keeping grace — is ancient and unalterable. The *seam* may be one no one has worked. Legitimate new ground is found in:
+
+- **The undiscovered angle** — the doctrine seen from a standpoint the tradition never stood on.
+- **The analogy no one has forged** — a figure that has never carried this truth before and carries it better than the worn ones (§IV governs; this pushes past the inherited image-bank).
+- **The synthesis across disciplines** — the genuinely new thought most often lives at a seam between two fields the site already spans, welded by no one before: neuroscience and the bondage of the will; information theory and the *imago Dei*; the science of addiction and Romans 7; behavioral economics and the futility of self-justification; the physics of time and a choice made "before the creation of the world."
+- **The question pressed one turn deeper** — most articulations halt at a safe, inherited plateau. Ask what lies one question beneath where the tradition stopped, and follow it as far as the text — and *only* as far as the text — will hold.
+- **The newly-named idol** — every age builds fresh counterfeits. No Puritan could name the algorithmic self, the optimized life, the tyranny of the quantified soul. Name *this* century's substitutes for God with the precision Muggeridge named his own (§XVI.3).
+- **The escape route no one has yet welded shut** — a self-justifying move the modern reader makes that the old apologetics never had to answer, met and closed.
+
+The fathers did not bring neuroscience, information theory, or behavioral economics to bear on the doctrines of grace, because those fields did not yet exist. We can. The truth they confessed was describing these things all along; we get to be the ones who say so.
+
+### XVII.3 — The models: old truth, genuinely new articulation
+
+This is not a fantasy register. The greatest minds of the faith did exactly this, and not one of them added to the deposit:
+
+- **Jonathan Edwards** did not invent the bondage of the will — Augustine and Luther had it. But *Freedom of the Will* forged a philosophical articulation so new it still governs the argument three centuries on. New seam, ancient gold.
+- **C. S. Lewis** did not discover that the heart aches for God — the Psalms and Augustine's *Confessions* are soaked in it. But the *argument from desire*, the trilemma, the "weight of glory" were fresh roads to ancient cities.
+- **Blaise Pascal** did not originate the doctrine of the *imago* and the fall. But "the greatness and the wretchedness of man," and the wager, were new lenses that let a whole age see the old anthropology as if for the first time.
+- **Anselm** on the atonement, **Augustine** on the Trinity, **Athanasius** on the incarnation — the pattern never varies: the truth was always there; the *seeing* was new; the church saw further because they wrote.
+
+That is the company. Aim there. The goal is not to be original — it is to be so faithful to the text that you see in it what the curators of received phrases have walked past.
+
+### XVII.4 — The guardrail (this is precisely how heresy enters — so test without mercy)
+
+Novelty for its own sake is the engine of every heresy ever taught. A thought is not better because it is new; a new thought is worth keeping *only if it is truer to Scripture* than the articulation it improves on. Before any new ground ships, it passes three gates:
+
+1. **The Scripture gate.** Does the text actually bear it — by the §XV standard, in the original and not on a translator's slip? If it stands on a clever inference rather than on the Word, it falls.
+2. **The catholicity gate.** Is it consonant with what the church has confessed across two thousand years? A new *angle* on the old confession is welcome. A new *doctrine* the whole church somehow missed for two millennia should make you afraid — that is the near-universal signature of error, not genius. The Bereans are the model (Acts 17:11), not the innovators.
+3. **The fruit gate.** Does it make grace *larger* and the self *smaller* — or does it flatter the reader? Heresy almost always ends by crediting the creature. If a "new" insight quietly returns some sovereignty to the will, softens the deadness of depravity, or lets the reader keep a thread of the glory, it is not new ground. It is the oldest error in fresh paint. Kill it.
+
+A fresh thought that requires loosening total depravity, conditioning election, or making faith the sinner's own contribution has not advanced the faith. It has abandoned it.
+
+### XVII.5 — The craft mechanics (how to actually break ground)
+
+1. **Mine the unexploited seam.** Before drafting, ask: what does a reader in this century *know* — a field, a phenomenon, an ache — that Calvin and Edwards could not, and that the text was describing all along? Bring it to the doctrine.
+2. **Press one turn past the plateau.** Find where the received treatment comfortably stops, and ask the next question down. Follow it as far as Scripture holds — and stop, in awe, exactly where Scripture does (§XVI.4, humility before mystery).
+3. **Forge the analogy no one owns.** Refuse the worn figures. Reach for the image that has never carried this truth, and make it carry it to the floor.
+4. **Weld two disciplines.** Take the seam between two fields the site already spans and join them where no one has — that join is where the new thought usually lives.
+5. **Name this century's idol.** Say the modern counterfeit precisely — the one the fathers never met.
+6. **Earn it against the deposit, every time.** The instant a fresh thought arrives, run it through the three gates of §XVII.4 before a single sentence of it ships. Brilliance that fails a gate is not kept and rewritten — it is cut.
+
+### XVII.6 — The Test
+
+After the page passes every other bar, ask both halves and answer honestly:
+
+> *Does this page make a well-read, discerning believer think a thought that is genuinely new to them — and truer to Scripture than what they held before — such that the church's grasp of the truth is actually advanced, not merely re-decorated?*
+
+and
+
+> *Is the novelty in the seeing (legitimate) or in the substance (forbidden)? Could I defend every new step before the open Bible and the two-thousand-year church?*
+
+If the page only re-wraps a known argument in better prose, it passes §XVI and fails §XVII — back to the bench. If it breaks new ground but the ground lies off the map of Scripture and the historic faith, that is not advance but drift — cut it and start again. The aim, on every flagship page: at least one thought that would make a seasoned believer set the phone down and think, *I have believed this all my life and never once seen it from there — and now I see the text more truly.* That, not polish, is how a website becomes an instrument that advances the faith rather than an archive that preserves it.
+
+---
+
 *VOICE.md v1.0 — forged 2026-04-21 from deep-read synthesis of the site's most lethal pages: devotional-never-gives-up, question-faithgift, question-depravity, question-where-did-your-faith-come-from, devotional-chosen-before-you-were-broken, philosophy-phantom-limb-free-will, philosophy-problem-of-merit, philosophy-mirror-you-refuse, devotional-the-hands-that-hold-you, devotional-rescued-without-a-say, and story-tender-the-letter-already-written.*
 
 *VOICE.md v1.1 — sections XIII (Depravity Concrete-Unpacking Mandate) and XIV (Five-Point Proliferation Mandate) appended 2026-04-28 on Aaron's directive: "this article doesn't even explain what being 'dead' means... we have to explain it a million different ways... i want all of the 5 points proven and proliferated through the site not just Total depravity."*
 
 *VOICE.md v1.2 — section XVI (The Sapiential Register) appended 2026-05-24 on Aaron's directive: "what apex writing achieves is the deepest and highest levels of wisdom possible... few christian giants such as Ravi Zacharias or Malcolm Muggeridge. so i want you to make sure the whole site has the deepest and most profound prose conceivable!" The standing full-site flag pass and prioritized deepening queue live in `SAPIENTIAL-AUDIT.md`.*
+
+*VOICE.md v1.3 — section XVII (The New-Ground Mandate) appended 2026-05-29 on Aaron's directive: "when you make or revise articles i want you to aim toward groundbreaking thoughts... don't rely on what christian thinkers have already discovered and then write it in a new way but break new ground in christian thought and advance the Christendom with thoughts, ideas, perspectives that aid in the proliferation of the truth found in Scripture!" Bounded by XVII.1 and XVII.4: new ground in sight, never in the deposit (Jude 3; Galatians 1:8).*
