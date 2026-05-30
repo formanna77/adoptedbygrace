@@ -8,12 +8,12 @@
 
 | Status | Count | % of 584 |
 |---|---|---|
-| **CONFIRMED** (cold-read PASS) | **55** | **9.4%** |
+| **CONFIRMED** (cold-read PASS) | **103** | **17.6%** |
 | TOUCHED (edit, full read pending) | 20 | 3.4% |
-| UNREAD | 509 | 87.2% |
+| UNREAD | 461 | 78.9% |
 | **TOTAL** | **584** | 100% |
 
-**Cadence:** ~48 pages/session via 4 parallel subagent cold-reads, highest-inbound first. Remaining 509 UNREAD ≈ **11 more sessions** to full coverage.
+**Cadence:** ~48 pages/session via 4 parallel subagent cold-reads, highest-inbound first. Remaining 461 UNREAD ≈ **~10 more sessions** to full coverage.
 
 ## CONFIRMED VERDICTS LOG
 
@@ -21,14 +21,18 @@
 
 **S81 batch 1 (48 highest-inbound doorways, 4 parallel subagent slices + 2 self-reads):** **48 PASS (≈39 apex) / 0 FAIL.** One MARGINAL lifted in-session — `psychology-why-we-resist` (stripped 4 Author's-"I" intrusions from its closing section per §VI + fixed a malformed `">"</meta>` tag) → PASS. One page the subagent could not open (`compare-calvinism-arminianism`) self-cold-read → PASS-apex (Cialdini commitment-bias new ground + Phil 1:29 *echaristhē* §XV gloss + the "no third answer" collapse + the "it was never load-bearing" catch). `devotional-never-gives-up` self-read PASS-apex (secure-attachment §XVII seam). Notable apex confirmations: scripture-tsunami, question-depravity, systematic-election, question-chosen, question-where-did-your-faith-come-from, objection-fairness, devotional-the-hands-that-hold-you, theologian-edwards, systematic-atonement, question-irresistible. Soft notes (no action): question-newheart reads PASS but is the most argument-machinery-shaped (future apex candidate by dissolving the "Argument N / Evidence Chain" labels); history-timeline carries one legacy "TULIP forged in the fires" event-label; question-sealed opens nearest the §VI line but is legitimate pastoral doubt-address.
 
-## BATCH 2 — queued (next 48 highest-inbound UNREAD doorways)
+## S82 batch 2 (48 highest-inbound UNREAD, 4 parallel subagent slices) — CONFIRMED
+
+**48 PASS / 0 FAIL** (≈31 apex, 10 PASS, 7 MARGINAL all lifted in-session). The lifts: `systematic-trinity` (Matt 28:19 ESV "Go therefore"→NIV 2011 "Therefore go"); `philosophy-problem-of-merit` (double-`??` typo in the 1 Cor 4:7 pull-quote); `philosophy-phantom-limb-free-will` (footer structural rot — orphan `</article>`, stray `<article>` wrapping the footer, empty `<li>`, spurious `</div>` — removed; validators green; bespoke `<main>` body left intact as a VOICE.md founding masterpiece); `psychology-identity-threat` (§XVI deepening — rewrote the Kahan + TMT blocks out of flat textbook-report register into the felt seeing-through register, recast the "theology department / public relations" applause quip into "the verdict would fall on the judge", thickened the protagonist→beloved catch). Four MARGINALs cleared by Aaron's S82 ruling that the **author-persona / first-person "I" is sanctioned site-wide** (`devotional-joy-of-election`, `invisible-wall-friend-who-left`, `psychology-pride-root-objection` persona refs) plus the `anxious-mind-*` §VI clock carveout (`anxious-mind-scrupulosity`). Notable apex: romans-8-28-39, objection-responsibility, romans-3-10-18, systematic-theology-proper, question-psalm139, psychology-anosognosia-of-sin, question-dead-in-sin-meaning, history-luther, history-augustine-pelagius, philosophy-self-deception, secular-recovery-total-depravity, ot-jeremiah, demolition-works-righteousness, broken-mirror-sin-you-repeat, love-letter-before-time, systematic-providence, my-chains-fell-away, for-pastors, start-here-phase1, question-john17, history-dort, question-john15, theologian-luther, question-book-of-life, history-decision-theology, apologetic-lydias-heart, theologian-whitefield, apologetic-ekloge-the-greek-of-election, history-great-awakening. Soft notes (no action): question-born-again-meaning "Brilliant Connection" box header is mild self-praise (future polish); broken-mirror-vessels-for-mercy leans on Cohen's "cracks…light gets in" (future re-forge); psychology-pride-root "whispers at 3 AM" is Pride/Grace personification, not reader-crisis-framing (kept).
+
+## BATCH 3 — queued (next 48 highest-inbound UNREAD doorways)
 
 Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubber-stamp). Dispatch 4 parallel subagents, ~12 pages each:
 
-- **Slice 1** (12): history-luther, history-augustine-pelagius, broken-mirror-performance-treadmill, philosophy-self-deception, broken-mirror-vessels-for-mercy, history-confessions-story, secular-recovery-total-depravity, ot-jeremiah, devotional-joy-of-election, demolition-works-righteousness, question-born-again-meaning, broken-mirror-sin-you-repeat
-- **Slice 2** (12): romans-8-28-39, objection-responsibility, romans-3-10-18, psychology-pride-root-objection, systematic-theology-proper, question-psalm139, systematic-covenant-theology, psychology-anosognosia-of-sin, philosophy-phantom-limb-free-will, invisible-wall-friend-who-left, question-dead-in-sin-meaning, demolition-1tim2-4
-- **Slice 3** (12): devotional-love-letter-before-time, compare-predestination-foreknowledge, systematic-providence, systematic-trinity, devotional-my-chains-fell-away, joy-god-big-enough, for-pastors, start-here-phase1, question-john17, philosophy-problem-of-merit, anxious-mind-scrupulosity, history-dort
-- **Slice 4** (12): question-john15, theologian-luther, devotional-adoption-papers, question-whosoever, objection-faith-choice, question-book-of-life, history-decision-theology, apologetic-lydias-heart, theologian-whitefield, psychology-identity-threat, apologetic-ekloge-the-greek-of-election, history-great-awakening
+- **Slice 1** (12): history-puritans, question-ezekiel37, response-roger-olson, broken-mirror-the-relapse, pastoral-suffering, question-hardening, systematic-adoption, analogy-adoption, devotional-love-before-the-world, history-council-of-orange, hymn-amazing-grace, philosophy-resistance-is-proof
+- **Slice 2** (12): question-regeneration-precedes-faith, question-secure, systematic-christology, apologetic-arrabon-the-down-payment, apologetic-owen-trilemma, apologetic-the-eulogy-greek-of-ephesians-1, devotional-the-prayer-you-didnt-pray, open-wound-hospital-room, philosophy-mirror-you-refuse, psychology-offense-of-grace, anxious-mind-what-if-not-chosen, broken-mirror-not-self-made
+- **Slice 3** (12): devotional-drawn-not-dragged, history-spurgeon-downgrade, joy-no-other-theology, psychology-cognitive-biases, psychology-illusion-free-will, question-isaiah53, question-predestined-to-hell, question-proverbs-sovereignty, systematic-anthropology, apologetic-priest-shoulders, apologetic-the-cardiac-transplant, apologetic-the-fourth-day-corpse
+- **Slice 4** (12): demolition-hebrews6-4-6, pastoral-when-truth-lands, psychology-suppressing-truth, systematic-tulip, theologian-sproul, analogy-drowning-man, apologetic-nothing-can-separate, apologetic-the-unbroken-chain, argument-arminianism-secretly-assumes-calvinism, compare-calvinism-open-theism, devotional-found-before-you-were-born, question-revelation13
 
 ## FULL UNIVERSE — 584 prose pages, by inbound (the read-order)
 
@@ -87,55 +91,55 @@ Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubbe
 [ 46][L][1920w] CONF  objection-fairness
 [ 45][L][2019w] CONF  question-boasting
 [ 45][L][1919w] CONF  systematic-compatibilism
-[ 43][L][1884w]   -   history-luther
-[ 43][L][2434w]   -   romans-8-28-39
-[ 42][L][1863w]   -   devotional-love-letter-before-time
-[ 42][L][2085w]   -   question-john15
-[ 41][L][2246w]   -   history-augustine-pelagius
-[ 41][L][1635w]   -   objection-responsibility
+[ 43][L][1884w] CONF  history-luther
+[ 43][L][2434w] CONF  romans-8-28-39
+[ 42][L][1863w] CONF  devotional-love-letter-before-time
+[ 42][L][2085w] CONF  question-john15
+[ 41][L][2246w] CONF  history-augustine-pelagius
+[ 41][L][1635w] CONF  objection-responsibility
 [ 40][L][2293w] CONF  demolition-prevenient-grace
-[ 39][L][1625w]   -   compare-predestination-foreknowledge
-[ 39][L][2190w]   -   theologian-luther
-[ 38][L][1706w]   -   broken-mirror-performance-treadmill
-[ 38][L][2067w]   -   romans-3-10-18
-[ 38][L][3297w]   -   systematic-providence
-[ 37][L][1900w]   -   devotional-adoption-papers
-[ 37][L][2396w]   -   philosophy-self-deception
-[ 37][L][2555w]   -   psychology-pride-root-objection
-[ 37][L][2044w]   -   systematic-trinity
-[ 36][L][1533w]   -   question-whosoever
-[ 35][L][1636w]   -   broken-mirror-vessels-for-mercy
-[ 35][L][1932w]   -   systematic-theology-proper
-[ 34][L][1427w]   -   devotional-my-chains-fell-away
-[ 34][L][1814w]   -   objection-faith-choice
-[ 33][L][2062w]   -   history-confessions-story
-[ 33][L][2027w]   -   question-psalm139
-[ 32][L][2714w]   -   joy-god-big-enough
-[ 32][L][1913w]   -   question-book-of-life
-[ 32][L][2279w]   -   secular-recovery-total-depravity
-[ 32][L][1511w]   -   systematic-covenant-theology
-[ 31][L][2513w]   -   for-pastors
-[ 31][L][1890w]   -   history-decision-theology
-[ 31][L][1681w]   -   ot-jeremiah
-[ 31][L][1814w]   -   psychology-anosognosia-of-sin
-[ 31][L][1829w]   -   start-here-phase1
-[ 30][L][4467w]   -   apologetic-lydias-heart
-[ 30][L][2861w]   -   devotional-joy-of-election
-[ 29][L][3101w]   -   philosophy-phantom-limb-free-will
-[ 29][L][1806w]   -   question-john17
-[ 29][L][2124w]   -   theologian-whitefield
-[ 28][L][2388w]   -   demolition-works-righteousness
-[ 28][L][2672w]   -   invisible-wall-friend-who-left
-[ 28][L][3171w]   -   philosophy-problem-of-merit
-[ 28][L][1735w]   -   psychology-identity-threat
-[ 28][L][1478w]   -   question-born-again-meaning
-[ 28][L][2130w]   -   question-dead-in-sin-meaning
-[ 27][L][2920w]   -   anxious-mind-scrupulosity
-[ 27][L][4072w]   -   apologetic-ekloge-the-greek-of-election
-[ 27][L][1765w]   -   broken-mirror-sin-you-repeat
-[ 27][L][2050w]   -   demolition-1tim2-4
-[ 27][L][2182w]   -   history-dort
-[ 27][L][2084w]   -   history-great-awakening
+[ 39][L][1625w] CONF  compare-predestination-foreknowledge
+[ 39][L][2190w] CONF  theologian-luther
+[ 38][L][1706w] CONF  broken-mirror-performance-treadmill
+[ 38][L][2067w] CONF  romans-3-10-18
+[ 38][L][3297w] CONF  systematic-providence
+[ 37][L][1900w] CONF  devotional-adoption-papers
+[ 37][L][2396w] CONF  philosophy-self-deception
+[ 37][L][2555w] CONF  psychology-pride-root-objection
+[ 37][L][2044w] CONF  systematic-trinity
+[ 36][L][1533w] CONF  question-whosoever
+[ 35][L][1636w] CONF  broken-mirror-vessels-for-mercy
+[ 35][L][1932w] CONF  systematic-theology-proper
+[ 34][L][1427w] CONF  devotional-my-chains-fell-away
+[ 34][L][1814w] CONF  objection-faith-choice
+[ 33][L][2062w] CONF  history-confessions-story
+[ 33][L][2027w] CONF  question-psalm139
+[ 32][L][2714w] CONF  joy-god-big-enough
+[ 32][L][1913w] CONF  question-book-of-life
+[ 32][L][2279w] CONF  secular-recovery-total-depravity
+[ 32][L][1511w] CONF  systematic-covenant-theology
+[ 31][L][2513w] CONF  for-pastors
+[ 31][L][1890w] CONF  history-decision-theology
+[ 31][L][1681w] CONF  ot-jeremiah
+[ 31][L][1814w] CONF  psychology-anosognosia-of-sin
+[ 31][L][1829w] CONF  start-here-phase1
+[ 30][L][4467w] CONF  apologetic-lydias-heart
+[ 30][L][2861w] CONF  devotional-joy-of-election
+[ 29][L][3101w] CONF  philosophy-phantom-limb-free-will
+[ 29][L][1806w] CONF  question-john17
+[ 29][L][2124w] CONF  theologian-whitefield
+[ 28][L][2388w] CONF  demolition-works-righteousness
+[ 28][L][2672w] CONF  invisible-wall-friend-who-left
+[ 28][L][3171w] CONF  philosophy-problem-of-merit
+[ 28][L][1735w] CONF  psychology-identity-threat
+[ 28][L][1478w] CONF  question-born-again-meaning
+[ 28][L][2130w] CONF  question-dead-in-sin-meaning
+[ 27][L][2920w] CONF  anxious-mind-scrupulosity
+[ 27][L][4072w] CONF  apologetic-ekloge-the-greek-of-election
+[ 27][L][1765w] CONF  broken-mirror-sin-you-repeat
+[ 27][L][2050w] CONF  demolition-1tim2-4
+[ 27][L][2182w] CONF  history-dort
+[ 27][L][2084w] CONF  history-great-awakening
 [ 27][L][2612w]   -   history-puritans
 [ 27][L][1763w]   -   question-ezekiel37
 [ 27][L][3643w]   -   response-roger-olson
