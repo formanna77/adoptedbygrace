@@ -1,6 +1,6 @@
 # Prose Integrity Audit (Phase F) — Scanner v2
 
-**Generated:** 2026-05-30T13:30:29.958Z
+**Generated:** 2026-05-30T18:54:35.434Z
 **Spec:** `audit-prose.js v2` — redundancy (Jaccard ≥ 0.35 on significant-word bags) with **eight-class exemption filter** (closing-recurrence, Scripture-tsunami, pedagogical-anaphora, antithetical-parallelism, confessional-translation, historical-document-quotation, exegetical-comparison, research→pairing structural) + sentence-coherence heuristic with **anaphora/chiasm/embedded-quotation positive suppressors** + new **vehicle-tenor mismatch detector** (catches the original Aaron failure mode: simile whose vehicle and tenor are in incompatible domains).
 
 **Mandate (Aaron, 2026-04-27):** "many articles repeat themselves usually a couple times but sometimes even 3 times within the article... also some sentences don't make sense... we do not start expanding the website until every last sentence, paragraph, and article are written perfectly."
@@ -172,7 +172,7 @@
 - [long:60w] (¶0): "When the Spirit of God has descended on a town or a country in an outpouring so undeniable that even hostile observers conceded something supernatural was occurring, the question worth asking  —  quie…"
 - [long:60w] (¶1): "Across three of the most-studied awakenings of the last three centuries  —  New England in the 1730s and 1740s, Wales in 1859, Pyongyang in 1907  —  the doctrine the awakened were preaching, the doctr…"
 - [long:62w] (¶3): "The pattern: a sudden conviction of sin so deep the person could not shake it; a desperation that could not be alleviated by any moral reform; an arrival, often abrupt, of an apprehension of Christ as…"
-- [long:67w] (¶4): "The Spirit poured out in measurable, observable, sociologically documented power, and the message that was being preached when the outpouring came was the message that the human being is dead in tresp…"
+- [long:67w] (¶4): "The Spirit poured out in measurable, observable, sociologically documented power, and the message that was being preached when the outpouring came was the message that the human being is dead in trans…"
 - [long:49w] (¶6): "Its national spread came through itinerant preachers who criss-crossed the colonies in the 1740s  —  most famously George Whitefield , the English evangelist whose voice could be heard, by Benjamin Fr…"
 - [long:50w] (¶8): "Compare this with the contemporary work of Charles Finney , whose Pelagianizing methods produced large numerical results but, by Finney's own later admission in his Memoirs , an attrition rate so deva…"
 - [long:88w] (¶12): "Letters and diaries from the period record the experience again and again: a congregation gathered for an ordinary service; the minister rose to preach what he had prepared; before he had finished his…"

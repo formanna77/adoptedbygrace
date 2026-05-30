@@ -6,6 +6,8 @@ CONTEXT: S82 ran batch 2 (the next 48 highest-inbound doorways) → **48 PASS / 
 
 READ FIRST: `AUDIT-COVERAGE-LEDGER.md` (tally + batch-3 slices). Then `VOICE.md §XVI` (sapiential) + `§XVII` (new-ground) + `§VI` (banned moves — **note: Author's-"I" is now sanctioned per S82; the live carveouts also include imagined-scene clock-hours and the `anxious-mind-*` / devotional "tonight" register**) + `§XV` (translation transparency). Then `CLAUDE.md` (the manifesto) + `SAPIENTIAL-AUDIT.md §XXVIII` (S82 log).
 
+**INTAKE DISCIPLINE (compute hygiene — Aaron, 2026-05-30): read only the SECTIONS named above — use `Read` offset/limit or `grep`, not whole-file reads.** Every token spent ingesting directives is a token not spent creating; the entire required-reading set above is ~25K tokens, so keep it there. The live logs are now small (`MISSION-CONTROL.md` ~118KB, `SAPIENTIAL-AUDIT.md` ~86KB) because their pre-S78 history was split into `MISSION-CONTROL-ARCHIVE.md` (~870KB) and `SAPIENTIAL-AUDIT-ARCHIVE.md` (~280KB). **NEVER `Read` an `*-ARCHIVE.md` whole** (grep it only if you genuinely need deep history), and **never `Read` the whole `MISSION-CONTROL.md`** — it is not in this run's required reading. To append the §XXIX log or the MISSION-CONTROL Session 83 entry, anchor a targeted `Edit` (grep for the header line), do not read the file in.
+
 ---
 
 ## PRIORITY 0 — standing pre-flight (lean)
@@ -53,10 +55,12 @@ Act only if the sweep or pre-flight surfaces a NEW verbatim cluster (3+ pages). 
 
 ---
 
-CLOSE with the full pipeline GREEN, append `## §XXIX. S83 EXECUTION LOG` to `SAPIENTIAL-AUDIT.md`, update `AUDIT-COVERAGE-LEDGER.md` (tally + batch-4 slices), add a MISSION-CONTROL Session 83 entry (newest-at-top, above Session 82), print the push command, write the S84 kickoff. **Do not run git — Aaron pushes manually.**
+CLOSE with the full pipeline GREEN, append `## §XXIX. S83 EXECUTION LOG` to `SAPIENTIAL-AUDIT.md`, update `AUDIT-COVERAGE-LEDGER.md` (tally + batch-4 slices), add a MISSION-CONTROL Session 83 entry (newest-at-top, above Session 82), print the push command, write the S84 kickoff. **Then keep the live logs lean (compute hygiene):** once the Session 83 entry is in, MISSION-CONTROL holds 6 sessions and SAPIENTIAL 6 §-logs — roll the oldest of each (Session 78 / §XXIV) off into `MISSION-CONTROL-ARCHIVE.md` / `SAPIENTIAL-AUDIT-ARCHIVE.md` via a `cmp`-verified partition (method in memory `feedback_intake_discipline`), so the live files stay ~5 sessions and never re-bloat. **Do not run git — Aaron pushes manually.**
 
 ---
 
 ## THE REAL FINISH-LINE
 
 Per Aaron: *"no matter what page someone lands on they must feel the undeniable force of truth within its words"* — and by §XVI that force must be *wisdom*, by §XVII the wisdom must *break new ground*. The campaign answers that standard literally: not a rotating sample, but **every one of the 584 doorways, individually confirmed.** Two batches in: 103 confirmed (17.6%), zero FAILs across 96 highest-traffic doorways, and the live read has already earned its keep — it caught a 13-page ESV-Ephesians-2 leak and a live author-voice question that only Aaron could rule on. The honest number today is 17.6%. Drive it to 100% — ~48 doorways per session, highest-traffic first — until there is no page a searching soul can land on that has not been held to the bar and found to carry the force.
+
+**Then — Aaron's standing post-campaign direction (2026-05-30):** when coverage reaches 100% (≈S92–93), the site returns to **Phase D — the expansion phase.** Open a remaining register (analytical theology, philosophy of theology, a formalized polemic register, or `compare-[tradition]` articles under comparative-theology-hub) and populate it with net-new apex builds, or run a Phase G Five-Point Proliferation batch. Builds born CONSECRATED + HAMMER-LOCKED, Write-not-Edit, floor 4 / stretch 6–10, wired into hub + mega-menu + homepage, every href Glob-verified. The coverage campaign is the priority *until* it closes; Phase D resumes the moment it does. (See memory `project_post_campaign_phase_d`.)
