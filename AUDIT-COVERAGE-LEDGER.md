@@ -8,14 +8,26 @@
 
 | Status | Count | % of 584 |
 |---|---|---|
-| **CONFIRMED** (cold-read PASS) | **320** | **54.8%** |
-| TOUCHED (edit, full read pending) | 16 | 2.7% |
-| UNREAD | 248 | 42.5% |
+| **CONFIRMED** (cold-read PASS) | **368** | **63.0%** |
+| TOUCHED (edit, full read pending) | 13 | 2.2% |
+| UNREAD | 203 | 34.8% |
 | **TOTAL** | **584** | 100% |
 
-**Cadence:** ~47 pages/session via parallel subagent cold-reads (Read-tool channel, mount-race-free), highest-inbound first. Remaining 248 UNREAD ≈ **~6 more sessions** to full coverage.
+**Cadence:** ~47 pages/session via parallel subagent cold-reads (Read-tool channel, mount-race-free), highest-inbound first. Remaining 203 UNREAD ≈ **~4 more sessions** to full coverage.
 
 ## CONFIRMED VERDICTS LOG
+
+## S88 batch 8 (48 highest-inbound non-CONF, 7 parallel subagent slices) — CONFIRMED
+
+**40 PASS-apex / 6 PASS / 2 MARGINAL / 0 FAIL — all 8 defective pages lifted in-session; 48/48 now CONFIRMED.** Coverage **320 → 368 / 584 (63.0%)**. The cold read earned its keep an **EIGHTH** consecutive time — defects no scanner sees (sapiential T1=0, v3/v4, validate-site, canonical all green on these pages).
+
+**The 2 MARGINALs (both lifted):** `ot-isaiah-servant` — a **full-page ESV scripture-block cluster** (the page quoted ESV throughout while its own prose read "LORD Almighty," an internal contradiction that was the tell): Isa 42:1 "Behold my servant… my chosen, in whom my soul delights"→NIV "Here is my servant… my chosen one in whom I delight"; Isa 49:1 "The LORD called me from the womb"→"Before I was born the LORD called me"; Isa 50:9 "the Lord GOD helps me"→"the Sovereign LORD helps me"; Isa 53:10 (full ESV)→NIV "Yet it was the LORD's will to crush him and cause him to suffer…"; Isa 6:9-10 (ESV "Keep on hearing")→NIV "Be ever hearing, but never understanding…"; Isa 29:18 "shall hear"→"will hear" (rhetorical hinge recast onto "will"); Isa 42:7 / 55:11 / 29:16 / 45:9 / 64:8; Isa 1:9 "LORD of hosts… a few survivors"→NIV "LORD Almighty… some survivors"; Isa 65:17 "For behold, I create"→"See, I will create"; Isa 43:1-2 "Fear not… shall not overwhelm"→NIV "Do not fear… will not sweep over you" (14 distinct corrections; the apex prose — throne-room frame, potter-in-your-chest mirror, closing coal scene — preserved verbatim). `question-one-question` — Phil 1:29 "to suffer for his sake" (ESV/NASB)→NIV 2011 "to suffer for him"; close restructured so the "Gifts arrive without you producing them" hammer lands LAST (reflection-box lifted above it, de-duplicated) instead of dissolving into the Go-Deeper grid.
+
+**PASS/apex pages with surgical lifts:** `question-free-will-bible-verses` (Acts 7:51 clause order → NIV 2011 "You are just like your ancestors: You always resist the Holy Spirit!"); `ot-david` (2 Sam 7:16 "shall endure… shall be established"→"will endure… will be established", blockquote + FAQ JSON-LD); `objection-god-could-save-all` (Rom 9:3 FAQ JSON-LD "I myself were accursed"→NIV "cursed and cut off from Christ"); `demolition-matt7-7` ("God's sovereign sovereignty" doubling→"sovereign rule"); `testimony-wall` (19 inline-styled gallery tiles + the verse box ported from `<div style>`/`<p style>` to scoped `.wall-*` classes in global.css — the inline-card-wall pattern the manifesto bans on content pages, eliminated; reader-facing rendering identical).
+
+**Verification catch (false-positives averted):** a subagent flagged `psychology-system-justification` Rom 10:3 as ESV ("did not know the righteousness of God") — Bible Gateway confirmed that IS NIV 2011 (subagent misremembered the 1984 reading); page left untouched. Two further subagent flags on ot-isaiah-servant (Isa 46:9-10, Isa 14:24) were also already-clean NIV 2011 and skipped. **Every cited verse verified against the authoritative text before editing — never on a subagent's say-so alone.**
+
+**Systemic patterns (all 7 slices):** (1) **prose-embedded inline citations of non-headline verses are the last leak surface** — flagship blockquotes are locked NIV 2011, but mid-paragraph secondary citations (Acts 7:51, Phil 1:29) and whole-page legacy ESV vintages (ot-isaiah-servant, datePublished 2026-01-01) are where ESV survives → S89 grep weight on mid-paragraph "…" citations + early-2026 OT pages. (2) **The grammar-of-testimony inversion** (subject of "I found God" vs "God found me") is the slice's recurring apex mechanic, landing the crown jewel as a re-reading of the reader's own narration. (3) **Legacy inline-styled card/gallery markup** (testimony-wall) is a pre-unified-CSS pattern; one targeted site-wide sweep for `<div style="background:` walls would retire it.
 
 ## S87 batch 7 (48 highest-inbound non-CONF, 7 parallel subagent slices) — CONFIRMED
 
@@ -86,13 +98,13 @@
 
 **48 PASS / 0 FAIL** (≈31 apex, 10 PASS, 7 MARGINAL all lifted in-session). The lifts: `systematic-trinity` (Matt 28:19 ESV "Go therefore"→NIV 2011 "Therefore go"); `philosophy-problem-of-merit` (double-`??` typo in the 1 Cor 4:7 pull-quote); `philosophy-phantom-limb-free-will` (footer structural rot — orphan `</article>`, stray `<article>` wrapping the footer, empty `<li>`, spurious `</div>` — removed; validators green; bespoke `<main>` body left intact as a VOICE.md founding masterpiece); `psychology-identity-threat` (§XVI deepening — rewrote the Kahan + TMT blocks out of flat textbook-report register into the felt seeing-through register, recast the "theology department / public relations" applause quip into "the verdict would fall on the judge", thickened the protagonist→beloved catch). Four MARGINALs cleared by Aaron's S82 ruling that the **author-persona / first-person "I" is sanctioned site-wide** (`devotional-joy-of-election`, `invisible-wall-friend-who-left`, `psychology-pride-root-objection` persona refs) plus the `anxious-mind-*` §VI clock carveout (`anxious-mind-scrupulosity`). Notable apex: romans-8-28-39, objection-responsibility, romans-3-10-18, systematic-theology-proper, question-psalm139, psychology-anosognosia-of-sin, question-dead-in-sin-meaning, history-luther, history-augustine-pelagius, philosophy-self-deception, secular-recovery-total-depravity, ot-jeremiah, demolition-works-righteousness, broken-mirror-sin-you-repeat, love-letter-before-time, systematic-providence, my-chains-fell-away, for-pastors, start-here-phase1, question-john17, history-dort, question-john15, theologian-luther, question-book-of-life, history-decision-theology, apologetic-lydias-heart, theologian-whitefield, apologetic-ekloge-the-greek-of-election, history-great-awakening. Soft notes (no action): question-born-again-meaning "Brilliant Connection" box header is mild self-praise (future polish); broken-mirror-vessels-for-mercy leans on Cohen's "cracks…light gets in" (future re-forge); psychology-pride-root "whispers at 3 AM" is Pride/Grace personification, not reader-crisis-framing (kept).
 
-## BATCH 8 — S88 starting queue (next 48 non-CONF by inbound)
+## BATCH 9 — S89 starting queue (next 48 non-CONF by inbound)
 
-Batch 7 is DONE (S87: 48 cold-read — 31 apex / 5 PASS / 11 MARGINAL + 1 FAIL all lifted in-session). The next 48 highest-inbound non-CONF doorways are below. **Recompute live from `sapiential-audit-report.txt` to confirm, skipping any slug on a CONFIRMED line.** The top of the queue is now the 11-inbound tier and below — the high-traffic head of the site is fully confirmed.
+Batch 8 is DONE (S88: 48 cold-read — 40 apex / 6 PASS / 2 MARGINAL, all defective pages lifted in-session). The next 48 highest-inbound non-CONF doorways are below. **Recompute live from `sapiential-audit-report.txt` to confirm, skipping any slug on a CONFIRMED line.** Coverage after S88: **368/584 (63.0%)**; 203 UNREAD + 13 TOUCHED remain ≈ ~4–5 sessions to 100%.
 
-psychology-system-justification, question-where-does-your-no-come-from, response-leighton-flowers, secular-algorithm-sovereignty, secular-sociology-human-inability, shattered-lens-cant-tell-true, shattered-lens-taught-wrong, story-dark-the-rope-you-wove-yourself, story-historical-augustine-pears, story-the-dead-city, story-the-orphanage, systematic-common-grace, testimony-wall, analogy-orchestra, anxious-mind-brain-decides, anxious-mind-fear-of-hell, apologetic-he-bore-the-sin-of-many, apologetic-not-because-but-because, demolition-ezekiel18-23, demolition-isaiah5-1-7, demolition-matt7-7, demolition-rev3-20, devotional-i-was-lazarus, devotional-the-shepherd-came-looking, devotional-you-were-wanted-before-you-were, invisible-wall-prayer-feels-empty, invisible-wall-singing-alone, objection-god-could-save-all, open-wound-the-prayer-god-didnt-answer, ot-abel-cain, ot-david, ot-isaiah-servant, ot-israel-chosen, ot-moses-pharaoh, philosophy-i-found-jesus-t-shirt, philosophy-inheritance-paradox, philosophy-prisoners-dilemma, question-does-god-choose-who-goes-to-heaven, question-external-call, question-free-will-bible-verses, question-one-question, question-repentance-total-depravity, question-was-christ-a-robot, systematic-ecclesiology, systematic-repentance, the-golden-chain, the-mirror, theologian-boston
+theologian-bradwardine, theologian-lloydjones, apologetic-babies, apologetic-save-his-people, argument-logical-collapse-arminianism, creed-canons-dort, demolition-acts7-51, demolition-arminian-facts, demolition-joshua24-15, demolition-matthew-23-37, devotional-cold-church, history-calvin-geneva, history-heresy-foreknowledge, history-today, invisible-wall-family, invisible-wall-marriage, joy-worship-without-ceiling, objection-unfair-to-choose-some, ot-abraham, ot-election, philosophy-adam-test, psychology-language-you-already-speak, psychology-sunk-cost-faith, question-calvinist-on-knees, question-dead-bury-dead, question-is-predestination-in-the-bible, question-matt11, response-norman-geisler, secular-genetics-sovereignty, story-real-conversions, systematic-imputation, the-fork, the-objection-collapse, anxious-mind-intrusive-thoughts, apologetic-kept-by-the-power-of-god, apologetic-the-conscience-that-only-accuses, apologetic-the-road-to-damascus, counter-cs-lewis-free-will, creed-heidelberg-catechism, demolition-1peter1-5, demolition-2peter3-15, demolition-arianism, demolition-hebrews2-9, devotional-the-first-prayer-after-surrender, devotional-the-ground-disappeared, devotional-you-are-not-the-hero, ethics-end-of-life, history-20th-century
 
-Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubber-stamp). Verify EVERY cited verse — `<blockquote>`/scripture-block text, prose-embedded inline citations, AND **FAQPage JSON-LD** (the S86 leak-zone) — word-for-word vs NIV 2011. Subagents read via the **Read tool on the absolute path** `/Users/aaronforman/Documents/adoptedbygracewebsite/<slug>.html` — parallel-safe, no bash-mount race.
+Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubber-stamp). Verify EVERY cited verse — `<blockquote>`/scripture-block text, prose-embedded inline citations, AND **FAQPage JSON-LD** — word-for-word vs NIV 2011, with EXTRA scrutiny on (a) mid-paragraph secondary citations of non-headline verses and (b) older-vintage pages (datePublished 2026-01-01) which carry whole-page ESV residue (S88's ot-isaiah-servant). Subagents read via the **Read tool on the absolute path** `/Users/aaronforman/Documents/adoptedbygracewebsite/<slug>.html` — parallel-safe, no bash-mount race.
 
 ## FULL UNIVERSE — 584 prose pages, by inbound (the read-order)
 
@@ -417,54 +429,54 @@ Same rubric (§XVI/§XVII + landing-force, quoted evidence per verdict, no rubbe
 [ 11][L][2270w] CONF  philosophy-observer-effect-sin
 [ 11][L][1530w] CONF  philosophy-what-if-wrong
 [ 11][L][1964w] CONF  psychology-attribution-error
-[ 11][L][1755w] -     psychology-system-justification
-[ 11][L][1464w] touch question-where-does-your-no-come-from
-[ 11][L][4624w] -     response-leighton-flowers
-[ 11][L][1464w] -     secular-algorithm-sovereignty
-[ 11][L][1902w] -     secular-sociology-human-inability
-[ 11][L][2639w] -     shattered-lens-cant-tell-true
-[ 11][L][2383w] -     shattered-lens-taught-wrong
-[ 11][L][1703w] -     story-dark-the-rope-you-wove-yourself
-[ 11][L][2441w] -     story-historical-augustine-pears
-[ 11][L][1952w] -     story-the-dead-city
-[ 11][L][2120w] -     story-the-orphanage
-[ 11][L][3822w] -     systematic-common-grace
-[ 11][-][1448w] -     testimony-wall
-[ 10][L][2132w] -     analogy-orchestra
-[ 10][L][1812w] touch anxious-mind-brain-decides
-[ 10][L][2204w] -     anxious-mind-fear-of-hell
-[ 10][L][2233w] -     apologetic-he-bore-the-sin-of-many
-[ 10][L][3869w] -     apologetic-not-because-but-because
-[ 10][L][2312w] -     demolition-ezekiel18-23
-[ 10][L][3229w] -     demolition-isaiah5-1-7
-[ 10][L][1871w] touch demolition-matt7-7
-[ 10][L][1342w] -     demolition-rev3-20
-[ 10][L][1963w] -     devotional-i-was-lazarus
-[ 10][L][1964w] -     devotional-the-shepherd-came-looking
-[ 10][L][1908w] -     devotional-you-were-wanted-before-you-were
-[ 10][L][2803w] -     invisible-wall-prayer-feels-empty
-[ 10][L][1512w] -     invisible-wall-singing-alone
-[ 10][L][2044w] -     objection-god-could-save-all
-[ 10][L][1364w] -     open-wound-the-prayer-god-didnt-answer
-[ 10][L][2111w] -     ot-abel-cain
-[ 10][L][2033w] -     ot-david
-[ 10][L][2536w] -     ot-isaiah-servant
-[ 10][L][2127w] -     ot-israel-chosen
-[ 10][L][1620w] -     ot-moses-pharaoh
-[ 10][L][2456w] -     philosophy-i-found-jesus-t-shirt
-[ 10][L][2547w] -     philosophy-inheritance-paradox
-[ 10][L][1914w] -     philosophy-prisoners-dilemma
-[ 10][L][1248w] -     question-does-god-choose-who-goes-to-heaven
-[ 10][L][1796w] -     question-external-call
-[ 10][L][2667w] -     question-free-will-bible-verses
-[ 10][L][1553w] -     question-one-question
-[ 10][L][2114w] -     question-repentance-total-depravity
-[ 10][L][1771w] -     question-was-christ-a-robot
-[ 10][L][1741w] -     systematic-ecclesiology
-[ 10][L][3226w] -     systematic-repentance
-[ 10][L][2085w] -     the-golden-chain
-[ 10][L][1766w] -     the-mirror
-[ 10][L][2621w] -     theologian-boston
+[ 11][L][1755w] CONF  psychology-system-justification
+[ 11][L][1464w] CONF  question-where-does-your-no-come-from
+[ 11][L][4624w] CONF  response-leighton-flowers
+[ 11][L][1464w] CONF  secular-algorithm-sovereignty
+[ 11][L][1902w] CONF  secular-sociology-human-inability
+[ 11][L][2639w] CONF  shattered-lens-cant-tell-true
+[ 11][L][2383w] CONF  shattered-lens-taught-wrong
+[ 11][L][1703w] CONF  story-dark-the-rope-you-wove-yourself
+[ 11][L][2441w] CONF  story-historical-augustine-pears
+[ 11][L][1952w] CONF  story-the-dead-city
+[ 11][L][2120w] CONF  story-the-orphanage
+[ 11][L][3822w] CONF  systematic-common-grace
+[ 11][-][1448w] CONF  testimony-wall
+[ 10][L][2132w] CONF  analogy-orchestra
+[ 10][L][1812w] CONF  anxious-mind-brain-decides
+[ 10][L][2204w] CONF  anxious-mind-fear-of-hell
+[ 10][L][2233w] CONF  apologetic-he-bore-the-sin-of-many
+[ 10][L][3869w] CONF  apologetic-not-because-but-because
+[ 10][L][2312w] CONF  demolition-ezekiel18-23
+[ 10][L][3229w] CONF  demolition-isaiah5-1-7
+[ 10][L][1871w] CONF  demolition-matt7-7
+[ 10][L][1342w] CONF  demolition-rev3-20
+[ 10][L][1963w] CONF  devotional-i-was-lazarus
+[ 10][L][1964w] CONF  devotional-the-shepherd-came-looking
+[ 10][L][1908w] CONF  devotional-you-were-wanted-before-you-were
+[ 10][L][2803w] CONF  invisible-wall-prayer-feels-empty
+[ 10][L][1512w] CONF  invisible-wall-singing-alone
+[ 10][L][2044w] CONF  objection-god-could-save-all
+[ 10][L][1364w] CONF  open-wound-the-prayer-god-didnt-answer
+[ 10][L][2111w] CONF  ot-abel-cain
+[ 10][L][2033w] CONF  ot-david
+[ 10][L][2536w] CONF  ot-isaiah-servant
+[ 10][L][2127w] CONF  ot-israel-chosen
+[ 10][L][1620w] CONF  ot-moses-pharaoh
+[ 10][L][2456w] CONF  philosophy-i-found-jesus-t-shirt
+[ 10][L][2547w] CONF  philosophy-inheritance-paradox
+[ 10][L][1914w] CONF  philosophy-prisoners-dilemma
+[ 10][L][1248w] CONF  question-does-god-choose-who-goes-to-heaven
+[ 10][L][1796w] CONF  question-external-call
+[ 10][L][2667w] CONF  question-free-will-bible-verses
+[ 10][L][1553w] CONF  question-one-question
+[ 10][L][2114w] CONF  question-repentance-total-depravity
+[ 10][L][1771w] CONF  question-was-christ-a-robot
+[ 10][L][1741w] CONF  systematic-ecclesiology
+[ 10][L][3226w] CONF  systematic-repentance
+[ 10][L][2085w] CONF  the-golden-chain
+[ 10][L][1766w] CONF  the-mirror
+[ 10][L][2621w] CONF  theologian-boston
 [ 10][L][2828w] -     theologian-bradwardine
 [ 10][L][2497w] -     theologian-lloydjones
 [  9][L][2320w] -     apologetic-babies
